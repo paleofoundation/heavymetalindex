@@ -121,3 +121,14 @@ Knowledge-exchange consortium project executed via monthly online meetings (year
 - 2026-06-03 — Fresh-context audit subagent (verdict REVISE) flagged that Table 4 (p. 24) lists Arsenic under ICP-OES only, not "AAS or ICP-OES" as the original draft stated. Verified independently against the source: Table 4 row for Arsenic shows "ICP-OES" in the methods-for-unregulated-contaminants column only; AAS is not listed for As (AAS is listed for Cr, Cu, Ni, Zn). Correction applied to the Table 4 summary in Key numbers.
 - 2026-06-03 — Same audit flagged a citation inconsistency between "Reg (EU) 2022/2388" (Key numbers) and "Reg (EC) 2022/2388" (Implications) for the PFAS-introducing regulation. Verified independently against p. 13 of the source: text reads "Commission Regulation (EU) 2022/2388". The (EU) prefix is correct. Implications-section citation normalised to "Reg (EU) 2022/2388".
 - 2026-06-03 — Same audit flagged the four ToS workshop date pairs (Rome 16–17 Feb 2023; Lisbon 28 Feb – 1 Mar 2023; Barcelona 11–12 Apr 2023; Paris 11–12 May 2023) as not verified within the page range it read (pp. 1–28, 36–45). False positive: the dates appear in Section 3 "Description of exchanges performed" on p. 81 of the source PDF, immediately preceding Section 4. No correction needed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [72e587d](https://github.com/paleofoundation/heavymetalindex/commit/72e587d) | 2026-06-03 | audit: diogene2023-rascs-contaminants-seafood revised |
+| [2971b4b](https://github.com/paleofoundation/heavymetalindex/commit/2971b4b) | 2026-06-03 | ingest: diogene2023-rascs-contaminants-seafood fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish |
+<!-- END: hmi-page-history -->

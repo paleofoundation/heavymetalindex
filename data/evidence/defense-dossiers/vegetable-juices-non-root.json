@@ -20,16 +20,16 @@
     "canonical_url": "https://heavymetalindex.com/products/vegetable-juices-non-root",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "06f9822e6f5cdbd094d7c87bae6e9d3f9776af4d6561473400dd0e357731c568",
-      "content_bytes": 10580,
-      "last_commit_sha": "566c7b2",
+      "content_sha256": "7224799aa737d415046915565f595d8703edd9da6d5bfdad39d19b2513c136cd",
+      "content_bytes": 10852,
+      "last_commit_sha": "315a7b8",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/vegetable-juices-non-root.md | sha256sum"
+      "verify_command": "git show 315a7b8:wiki/products/vegetable-juices-non-root.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dhawale2025-benzidine-chemosensor-mercury-vegetable-juice",
         "content_pin": {
-          "content_sha256": "c03bf13793ad09574d1feb256c384181de75b5ef94aeab6dbc6be418eb0c1bed",
-          "content_bytes": 2666,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "a2379a08f37cd64bc6fdb7017901d88890f708bc87dbdd6a2c16ccf6315fda38",
+          "content_bytes": 2669,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/dhawale2025-benzidine-chemosensor-mercury-vegetable-juice.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/dhawale2025-benzidine-chemosensor-mercury-vegetable-juice.md | sha256sum"
         }
       },
       {
@@ -65,12 +65,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland",
         "content_pin": {
-          "content_sha256": "3927526fe8ef0b71669af68410bc174e9bb15c26f6ad98d1b7ad9d54fb03f266",
-          "content_bytes": 8082,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "4c2da0d3928d901beccca646ab39c7aa1e684edd16573aed4486e13bcdd506e8",
+          "content_bytes": 8085,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jecfa2006-cadmium-inorganic-tin",
+        "title": "Evaluation of certain food contaminants: sixty-fourth report of the Joint FAO/WHO Expert Committee on Food Additives",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jecfa2006-cadmium-inorganic-tin",
+        "content_pin": {
+          "content_sha256": "213381b37d192b95582b2e3e227d06f5b21327d8d7965dc888834487c605b102",
+          "content_bytes": 10076,
+          "last_commit_sha": "b0b2379",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show b0b2379:wiki/sources/jecfa2006-cadmium-inorganic-tin.md | sha256sum"
         }
       }
     ]

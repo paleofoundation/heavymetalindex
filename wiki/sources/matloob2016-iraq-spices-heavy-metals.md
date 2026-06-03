@@ -66,3 +66,13 @@ App: Ingredient-level signals are strongest for spices as a broad category, with
 - The PDF uses "Tumeric" in Table 5 and Table 6; this source page routes that row to [[ingredients/turmeric]].
 - Concentrations are mg/kg dry weight, equivalent to ppm and to micrograms per gram.
 - The study reports total chromium and total mercury; it does not provide Cr(VI), inorganic arsenic, or methylmercury speciation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1d5a965](https://github.com/paleofoundation/heavymetalindex/commit/1d5a965) | 2026-06-03 | ingest auto-fetched 2026-06-03: matloob2016-iraq-spices-heavy-metals |
+<!-- END: hmi-page-history -->

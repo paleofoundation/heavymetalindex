@@ -147,3 +147,13 @@ The study was funded by the FoodE H2020 grant (Agreement 862663) and the Tuna An
 - Mercury is not in the dataset: the authors explicitly note (page 3) that because little sample tissue was available, "the analysis of Hg and isotopes [was left] for later studies." This source therefore does not contribute to mercury occurrence on the metal page for these species.
 - Chromium is total Cr (no Cr(VI) speciation); `Cr` is used in the metals frontmatter, not `Cr-VI`.
 - All values are wet-weight (mg/kg w.w.) per the authors' Section 2.1; no dry-weight conversion is applied here.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cb2a3bb](https://github.com/paleofoundation/heavymetalindex/commit/cb2a3bb) | 2026-06-03 | feat(standards): Cat 6 (Seafood) Step 0 scope lock + recover ~219 stranded declarations |
+<!-- END: hmi-page-history -->

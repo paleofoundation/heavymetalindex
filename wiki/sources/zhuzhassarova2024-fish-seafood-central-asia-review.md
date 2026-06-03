@@ -143,3 +143,14 @@ App: Contextual signal that Central Asian freshwater fish, on average, present l
 - Source-internal species-naming inconsistency in Table 2: the Issyk-Kul Lake row labels *Perca schrenkii* as "pike perch," but *Perca schrenkii* is Schrenk's perch (Balkhash perch); "pike perch" is the conventional common name for *Sander lucioperca*, which the same Table 2 uses correctly for the Lake Tuzkan and Kairakkum reservoir rows. The page preserves the source's labeling verbatim rather than silently relabeling, but the species attribution should be read as the source intends (the *Perca schrenkii* fish from Issyk-Kul, regardless of common-name disagreement).
 - Audit subagent (2026-06-03) verdict PROMOTE, 5/5 checks clean. One ⚠️ polish suggestion (the species-naming inconsistency above) applied; the other ⚠️ flags (Lake Balkyldak "North Kazakhstan" loose geography, Temirtau "North Central Kazakhstan" descriptor, Erdinger 25 µg/L Hg threshold framing) were verified as faithful source-text reproduction and left as-is.
 - No brand names appear in the source pertaining to contamination values; the only named manufacturer is the Karbide chemical plant on the River Nura and the Pavlodar chlor-alkali plant, both named as point sources of industrial Hg release (regulatory-event subject context, not brand ranking).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [de9fe83](https://github.com/paleofoundation/heavymetalindex/commit/de9fe83) | 2026-06-03 | audit: zhuzhassarova2024-fish-seafood-central-asia-review promoted |
+| [676ddbe](https://github.com/paleofoundation/heavymetalindex/commit/676ddbe) | 2026-06-03 | ingest: zhuzhassarova2024-fish-seafood-central-asia-review fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/03_Marine_Predatory |
+<!-- END: hmi-page-history -->

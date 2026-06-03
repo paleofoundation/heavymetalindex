@@ -71,3 +71,14 @@ Microbiome: No direct microbiome endpoint.
 - Matrix labels `palm-oil`, `edible-oil`, and `vegetable-oil` are source-specific routing descriptors for this source page. The controlled routeable destinations are `[[ingredients/palm-oil]]` and `[[products/cooking-oils-other]]`.
 - Values are source-reported ppm in palm oil. No conversion to ppb, wet weight, or as-consumed mass basis is made here.
 - The source is not brand-specific and does not identify consumer brands.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [386a70f](https://github.com/paleofoundation/heavymetalindex/commit/386a70f) | 2026-06-03 | audit auto-fetched 2026-06-03: samuel2020-palm-oil-metals-nigeria |
+| [48dbba8](https://github.com/paleofoundation/heavymetalindex/commit/48dbba8) | 2026-06-03 | ingest auto-fetched 2026-06-03: samuel2020-palm-oil-metals-nigeria |
+<!-- END: hmi-page-history -->

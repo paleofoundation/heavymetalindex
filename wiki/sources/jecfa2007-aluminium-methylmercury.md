@@ -146,3 +146,13 @@ The methylmercury section strengthens the distinction between a sensitive-subgro
 - Read the full 104-page PDF text, with close checks on the title/citation pages, contents, section 4.1 on aluminium, Table 5 aluminium additive provisions, Table 6 dietary exposure ranges, section 4.3 on methylmercury, section 6 recommendations, and Annex 2 contaminant-summary entries.
 - The PDF provides no DOI and carries WHO/FAO all-rights-reserved copyright language. The WHO publication page identifies ISBN 978-92-4-120940-3 and WHO Technical Report Series 940.
 - `WHO_TRS_940_eng 2.pdf` is byte-identical to the canonical `WHO_TRS_940_eng.pdf` file (sha256 `782f8a3326e26b4aada1c3837fa90f83f54ba77e1159f6c7e5e0653068a84195`) and is tracked as a duplicate rather than a second source.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1d53e58](https://github.com/paleofoundation/heavymetalindex/commit/1d53e58) | 2026-06-03 | ingest June 3: jecfa2007-aluminium-methylmercury |
+<!-- END: hmi-page-history -->

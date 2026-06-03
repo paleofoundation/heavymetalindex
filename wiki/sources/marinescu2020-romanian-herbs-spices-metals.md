@@ -83,3 +83,14 @@ Microbiome (if applicable): The paper does not study microbiome outcomes.
 ## Verification notes
 
 The PDF title, byline, DOI, year, journal, sample descriptions, methods, and Tables III-IV values were read from the auto-fetched PDF. The paper reports element names without arsenic or mercury speciation, so arsenic and mercury are treated as total-element occurrence evidence. Packaged and wild-growing samples are source-distinct and should not be pooled without a logged basis decision. Matrix note: `spices` is a controlled matrix-map label; `medicinal-plants` and `herbal-teas` are source-scope descriptors retained to separate the medicinal-plant/herbal-tea portion of the source from the culinary-spice subset.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [997a957](https://github.com/paleofoundation/heavymetalindex/commit/997a957) | 2026-06-03 | audit auto-fetched 2026-06-03: spices source pages |
+| [89904f9](https://github.com/paleofoundation/heavymetalindex/commit/89904f9) | 2026-06-03 | ingest auto-fetched 2026-06-03: marinescu2020-romanian-herbs-spices-metals |
+<!-- END: hmi-page-history -->

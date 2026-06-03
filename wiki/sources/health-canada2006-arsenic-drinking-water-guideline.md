@@ -127,3 +127,13 @@ App: Use this source to explain that food is the main arsenic exposure source fo
 The PDF was read from the June 3 manual-fetch folder, including the guideline, executive summary, application, exposure, analytical methods, treatment technology, kinetics/metabolism, health effects, classification/risk assessment, and rationale sections, along with Tables 1 and 2. Page count is 38. No DOI is assigned. The canonical raw file `raw/Manual Fetch Kimi /June 3 Folder/water-arsenic-eau-eng.pdf` and duplicate file `raw/Manual Fetch Kimi /June 3 Folder/water-arsenic-eau-eng 2.pdf` are byte-identical with SHA-256 `eb62f3177f0d1f01ff601ef670071f8220eee2023c649ba07019bcdbe213a5ce`; the duplicate is recorded in the tracker as a duplicate rather than a second source.
 
 Scope note: the source reports total arsenic analytical methods and a drinking-water arsenic MAC, while the risk assessment focuses on inorganic arsenic species. Frontmatter therefore includes both `tAs` and `iAs`; downstream routing must not use total arsenic as a substitute for inorganic arsenic in food matrices.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5fcbdc6](https://github.com/paleofoundation/heavymetalindex/commit/5fcbdc6) | 2026-06-03 | ingest June 3: health-canada2006-arsenic-drinking-water-guideline |
+<!-- END: hmi-page-history -->

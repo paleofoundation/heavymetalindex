@@ -103,5 +103,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [e17005e](https://github.com/paleofoundation/heavymetalindex/commit/e17005e) | 2026-06-02 | ingest June 2: li2020-silk-fibroin-nanoflower-lead-remediation |
 <!-- END: hmi-page-history -->

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: infant-formula-dairy
 public_page: products/infant-formula-dairy
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 # Workbench standards snapshot — Infant Formula Dairy

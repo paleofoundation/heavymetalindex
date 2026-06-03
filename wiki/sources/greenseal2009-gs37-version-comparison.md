@@ -195,3 +195,14 @@ The comparison document references the following test-method identifiers in its 
   - Finding 1 (Check 5 housekeeping ⚠️): Implications bullet 3 contained a self-referential wikilink `[[sources/greenseal2009-gs37-version-comparison]]` where the intent was to point to the sibling 2024 GS-37 standard PDF in the same KADC folder. Verified self-reference against the page; corrected to a plain file-name reference (`Green_Seal_GS-37_Industrial_Institutional_Cleaners_2024.pdf`) without a wikilink, since that document is not yet ingested as a wiki source page.
   - Finding 2 (Check 1 ⚠️): Key-numbers VOC row label "bathroom/restroom cleaners" was a cross-edition cell-mapping that obscured the by-edition labelling shift in the source PDF (3rd Ed uses combined "general-purpose and bathroom"; 4th Ed uses "restroom" terminology). Verified against PDF p. 5; tightened both VOC rows (general-purpose, and bathroom (3rd Ed) / restroom (4th Ed)) to make the by-edition cell-mapping explicit. Numerical values unchanged.
   - Audit checks 2, 3, 4, and 5 (slug vocabulary, speciation/methods, Part 12 brand firewall, Part 2 wiki/HMTc firewall): all ✅ clean per subagent verdict; no changes needed. Check 1 numerical fidelity was substantively ✅ with three ⚠️ flags, two of which were source-typography variants documented but not errors (ISO 7346.2 vs 7346-2 in source; OECD 305 wording trim), and one of which was the VOC row-label tightening applied above. No numerical claims on the page were found to be wrong against the PDF.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f8423c9](https://github.com/paleofoundation/heavymetalindex/commit/f8423c9) | 2026-06-03 | audit: greenseal2009-gs37-version-comparison revised |
+| [6e62edf](https://github.com/paleofoundation/heavymetalindex/commit/6e62edf) | 2026-06-03 | ingest: greenseal2009-gs37-version-comparison fresh from KADC/06_Regulatory_EPA_GreenSeal |
+<!-- END: hmi-page-history -->

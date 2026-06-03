@@ -111,3 +111,16 @@ App: No direct ingredient-level data — the study measures sludge and soil, not
 - [[metals/copper]]
 - [[metals/nickel]]
 - [[supply-chain/soil-contamination-sources]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [99de81a](https://github.com/paleofoundation/heavymetalindex/commit/99de81a) | 2026-06-03 | audit: iticescu2021-sewage-sludge-agricultural-land revised |
+| [7d4aa43](https://github.com/paleofoundation/heavymetalindex/commit/7d4aa43) | 2026-06-03 | ingest: iticescu2021-sewage-sludge-agricultural-land enhanced from Manual Fetch Kimi /June 2 Manual Fetches |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| [4f31cc6](https://github.com/paleofoundation/heavymetalindex/commit/4f31cc6) | 2026-06-02 | ingest June 2: iticescu2021-sewage-sludge-agricultural-land |
+<!-- END: hmi-page-history -->

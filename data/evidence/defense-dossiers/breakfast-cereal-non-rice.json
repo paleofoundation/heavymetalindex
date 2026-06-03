@@ -1,0 +1,343 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/breakfast-cereal-non-rice",
+    "title": "Breakfast cereal — non-rice (wheat, oat, corn, mixed-grain)",
+    "hmtc_category": 3,
+    "hmtc_row": 5,
+    "category_label": null,
+    "age_range": null,
+    "label": "Breakfast cereal — non-rice (wheat, oat, corn, mixed-grain)",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/breakfast-cereal-non-rice",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "2b98d7a50b1c56a502f6b25c1a66fe5767b83bd00a75a49129a15ac0183948fa",
+      "content_bytes": 6285,
+      "last_commit_sha": "aa68e07",
+      "last_commit_date": "2026-06-03",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show aa68e07:wiki/products/breakfast-cereal-non-rice.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 12,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/abebe2017-popcorn-cornflake-metals-ethiopia",
+        "title": "Assessment of essential and non-essential metals in popcorn and cornflake commercially available in Ethiopia",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "K",
+          "Na",
+          "Mg",
+          "Ca",
+          "Cr",
+          "Mn",
+          "Fe",
+          "Co",
+          "Ni",
+          "Cu",
+          "Zn",
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/abebe2017-popcorn-cornflake-metals-ethiopia",
+        "content_pin": {
+          "content_sha256": "e1182b777d551f729c0230bb7c46b1913b3ae98ad96bfa4b6c090e6721e76281",
+          "content_bytes": 12178,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/abebe2017-popcorn-cornflake-metals-ethiopia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cot2013-uk-aluminium-infant-diet",
+        "title": "Statement on the potential risks from aluminium in the infant diet",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cot2013-uk-aluminium-infant-diet",
+        "content_pin": {
+          "content_sha256": "ac3c6857ae88cb0d67a9245e04776ed13954ff5c80acc967c5b356f3ed136522",
+          "content_bytes": 16931,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/cot2013-uk-aluminium-infant-diet.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa-lead-contam-2010",
+        "title": "Scientific Opinion on Lead in Food",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa-lead-contam-2010",
+        "content_pin": {
+          "content_sha256": "b80e66baea58fa51c6c4b38a452acef2a7d3568a8651839673f070101c55fe37",
+          "content_bytes": 21841,
+          "last_commit_sha": "e45b705",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show e45b705:wiki/sources/efsa-lead-contam-2010.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa2015-nickel-food-water",
+        "title": "Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
+        "content_pin": {
+          "content_sha256": "02c165667dd73e1e7c0b2ddad8cc1a2da17cf00e84c389fc30f385a7ae75f953",
+          "content_bytes": 30115,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fera2015-uk-tds-metals",
+        "title": "Total Diet Study of metals and other elements in food",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Sb",
+          "tAs",
+          "iAs",
+          "Ba",
+          "Cd",
+          "Cr",
+          "Cu",
+          "Pb",
+          "Mn",
+          "tHg",
+          "Mo",
+          "Ni",
+          "Pd",
+          "Pt",
+          "Sn",
+          "Tl",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
+        "content_pin": {
+          "content_sha256": "7123abf586acc41bcc497cb905796c40f43793e6fb6048586f423662a17edc36",
+          "content_bytes": 10738,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hassan2025-cornflakes-lebanon-metals",
+        "title": "Cornflakes as a source of dietary metal exposure in Lebanon: Risk assessment and regulatory compliance",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hassan2025-cornflakes-lebanon-metals",
+        "content_pin": {
+          "content_sha256": "d2028db89ff3ab219d5ab65ebd828b8ef611e831027efbba28b50b178616026d",
+          "content_bytes": 4186,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/hassan2025-cornflakes-lebanon-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france",
+        "title": "Cr(VI) and Cr(III) in milk, dairy and cereal products and dietary exposure assessment",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr-VI",
+          "Cr-III",
+          "Cr-total"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france",
+        "content_pin": {
+          "content_sha256": "1938f6657ebbf2055fe643d31ef2d542d8caff069979ee96683111da6fcb9528",
+          "content_bytes": 13567,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/iarc1990-chromium-nickel-welding",
+        "title": "Chromium, Nickel and Welding",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Cr-VI",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/iarc1990-chromium-nickel-welding",
+        "content_pin": {
+          "content_sha256": "066e13e0145cbc635642f560fdea87d83a38f652ded75aa63ddd98f9dc8fd099",
+          "content_bytes": 10431,
+          "last_commit_sha": "d34b553",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d34b553:wiki/sources/iarc1990-chromium-nickel-welding.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/oduro2023-cereal-breakfast-ghana-health-risk",
+        "title": "Health risks of potentially toxic metals in cereal-based breakfast meals in the Kumasi Metropolis, Ghana",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "Mn",
+          "Ni",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/oduro2023-cereal-breakfast-ghana-health-risk",
+        "content_pin": {
+          "content_sha256": "3870ecfb227998083e899cf16a1fcaec2a7da2f63ddd22763d5bea90f0941419",
+          "content_bytes": 10225,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/oduro2023-cereal-breakfast-ghana-health-risk.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp",
+        "title": "Speciation analysis of Cr(III) and Cr(VI) in bread and breakfast cereals using species-specific isotope dilution and HPLC-ICP-MS",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Cr-VI"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp",
+        "content_pin": {
+          "content_sha256": "20da41b6241fc28ff7acb8bc3986620d7738265a1f1e86c4b35522c99a68168e",
+          "content_bytes": 20035,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/schaefer2020-cadmium-mitigation-strategies",
+        "title": "Cadmium: Mitigation strategies to reduce dietary exposure",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/schaefer2020-cadmium-mitigation-strategies",
+        "content_pin": {
+          "content_sha256": "40f5d77a0e640452aeff971e9f7ee36bfe0bf290142666a36c959f772beb2aef",
+          "content_bytes": 10294,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/usda-fas2023-china-gb2762-contaminants",
+        "title": "China Releases the Standard for Maximum Levels of Contaminants in Foods",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "MeHg",
+          "tAs",
+          "iAs",
+          "Sn",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/usda-fas2023-china-gb2762-contaminants",
+        "content_pin": {
+          "content_sha256": "d24e41721da73190949c9e0a468ec37b66423146a330691b1761e3b6d569c911",
+          "content_bytes": 15412,
+          "last_commit_sha": "27b0c53",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 27b0c53:wiki/sources/usda-fas2023-china-gb2762-contaminants.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/breakfast-cereal-non-rice.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

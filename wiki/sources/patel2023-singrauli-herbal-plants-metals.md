@@ -86,5 +86,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [b0d7176](https://github.com/paleofoundation/heavymetalindex/commit/b0d7176) | 2026-06-02 | ingest auto-fetched 2026-06-02: patel2023-singrauli-herbal-plants-metals |
 <!-- END: hmi-page-history -->

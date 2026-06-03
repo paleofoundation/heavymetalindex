@@ -155,3 +155,13 @@ The complaint itself contains no original ambient-air or stack-emission measurem
 - **Near-duplicates.** None identified. The complaint is a unique court filing. The companion regulatory primary documents (the BAAQMD draft April 2021 HRA, the OEHHA Prop 65 Cr-VI listing notices, the OEHHA NSRL regulation, the CalEnviroScreen 4.0 documentation, the Communities for a Better Environment 6 October 2021 60-day notice) are referenced descriptively in the complaint but are separate documents that would each be their own source pages if Karen brings them into the manual-fetch queue.
 
 - **Raw integrity.** `raw_sha256: 710fd64baed518c13f71a155fb11b98986702f4fb23ff16da5d7fc02d3e29802` confirmed via `shasum -a 256` against the file at `raw_path`. PDF is 258 KB and 11 pages. All 11 pages render cleanly (cover/caption page; Introduction and Parties; Jurisdiction and Statutory Background for Proposition 65, the Unfair Competition Law, and Gov. Code § 12607; Facts including emission rates and demographic context; First Cause of Action — Failure to Warn; Second Cause of Action — Unfair Business Practices; Third Cause of Action — Harm to Natural Resources; Prayer for Relief and signature block).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4540d7c](https://github.com/paleofoundation/heavymetalindex/commit/4540d7c) | 2026-06-03 | ingest: ca-doj-2022-mcwane-prop65-cr6-complaint fresh from manual-fetch-kimi/june-3-folder |
+<!-- END: hmi-page-history -->

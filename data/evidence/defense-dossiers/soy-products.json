@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/soy-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "86db11f5a9c0cc4c78c4e8f394f286856b77757e1b23e2c6058b596d4e2086db",
-      "content_bytes": 11782,
-      "last_commit_sha": "566c7b2",
+      "content_sha256": "945aa2440b49d08860e3cef2da21e0b0c025cd1c1e6f3a56aded7532e39518c2",
+      "content_bytes": 11785,
+      "last_commit_sha": "315a7b8",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/soy-products.md | sha256sum"
+      "verify_command": "git show 315a7b8:wiki/products/soy-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,12 +50,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hariono2023-soy-milk-cookware-metals",
         "content_pin": {
-          "content_sha256": "d1aebd75e76210d960f331e7c4ef05d939f88463fb0bef2a1e9c57e4e4f6bdfb",
-          "content_bytes": 6109,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "2abc5c58f1741e0e97544da63995296e6c704c0aaeceeae5b8c1b91f532b729d",
+          "content_bytes": 6112,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/hariono2023-soy-milk-cookware-metals.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/hariono2023-soy-milk-cookware-metals.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shindoh2010-cadmium-soy-sauce-miso-processing",
         "content_pin": {
-          "content_sha256": "739ae7b1ff74fba6d5edea89e8c1a1cbc8d8bfba60df640457fc39268f9d8ec3",
-          "content_bytes": 27651,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "795469c3695778204ce5da2c3f7b42daf05cbfe68851f64f7a8aff3950576e75",
+          "content_bytes": 27800,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/shindoh2010-cadmium-soy-sauce-miso-processing.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/shindoh2010-cadmium-soy-sauce-miso-processing.md | sha256sum"
         }
       },
       {
@@ -97,12 +97,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
         "content_pin": {
-          "content_sha256": "1975bdee7a8095bba9cc06f45818148552aad0e9f80b277ea34f81edb92587a0",
-          "content_bytes": 27197,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "d6df8228e0070ebc7bdc701754f04d2705cae38d3673f02df4389287ba42708f",
+          "content_bytes": 27200,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
         }
       },
       {
@@ -121,12 +121,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zhang2026-trace-metals-five-crops-chongqing",
         "content_pin": {
-          "content_sha256": "b06d064740a8275d508470b1946e0735a8eed36edf0a59ace369f2cff82f16a7",
-          "content_bytes": 5149,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "fca2ec2fc39e09d8480bf55977cdc66c9e338d9663c70ed3644b7bd71965f66d",
+          "content_bytes": 5152,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/zhang2026-trace-metals-five-crops-chongqing.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/zhang2026-trace-metals-five-crops-chongqing.md | sha256sum"
         }
       }
     ]

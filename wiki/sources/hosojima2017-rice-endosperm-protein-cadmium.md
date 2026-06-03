@@ -70,6 +70,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [9749959](https://github.com/paleofoundation/heavymetalindex/commit/9749959) | 2026-06-02 | codex sprint 2026-06-02 04:35: end-of-fire cleanup |
 | [f182129](https://github.com/paleofoundation/heavymetalindex/commit/f182129) | 2026-06-02 | ingest auto-fetched 2026-06-02 00:16 batch 1: 1 source pages |

@@ -171,3 +171,13 @@ App: Use this source to explain that food is the main aluminum exposure source f
 The PDF was read from the June 3 manual-fetch folder, including the guideline summary, exposure tables, Canadian occurrence Table 2, health-effect and key-study sections, HBV derivation, analytical-method Table 4, coagulation/treatment tables, treatment-chemical impurity tables, activated-alumina treatment section, distribution-system and monitoring sections, international considerations, and rationale. Page count is 72. No DOI is assigned. The canonical raw file `raw/Manual Fetch Kimi /June 3 Folder/pub1-eng.pdf` and duplicate file `raw/Manual Fetch Kimi /June 3 Folder/pub1-eng 2.pdf` are byte-identical with SHA-256 `dc9e5927524573763b69ddd2b7360564cf363b4a7439449ccf8a108885bd0c53`; the duplicate is recorded in the tracker as a duplicate rather than a second source.
 
 Scope note: this guideline compiles drinking-water occurrence, treatment, and toxicology evidence. It is not a food-occurrence study, bottled-water market survey, or finished water-filter product survey. `[[products/water-filters]]` is included because the source discusses residential-scale treatment and activated-alumina media/system context; downstream routing should treat those values as treatment/context evidence, not as finished-product contamination values. The source text prints the WHO/JECFA provisional tolerable weekly intake comparator with "per day" units in the executive-summary discussion; because that appears inconsistent with PTWI convention, this page uses the Health Canada TDI/HBV derivation values as the controlling quantitative toxicology record.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f54f0ee](https://github.com/paleofoundation/heavymetalindex/commit/f54f0ee) | 2026-06-03 | ingest June 3: health-canada2021-aluminum-drinking-water-guideline |
+<!-- END: hmi-page-history -->

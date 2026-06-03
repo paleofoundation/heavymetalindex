@@ -248,6 +248,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [f5d4ec9](https://github.com/paleofoundation/heavymetalindex/commit/f5d4ec9) | 2026-06-02 | audit: stone2012-wa-qapp-parabens-metals-childrens-cosmetics promoted |
 | [92f5000](https://github.com/paleofoundation/heavymetalindex/commit/92f5000) | 2026-06-02 | ingest: stone2012-wa-qapp-parabens-metals-childrens-cosmetics fresh from Manual Fetch Kimi/June 1 Infant cosmetics metals papers/02_Regulatory_Reports |

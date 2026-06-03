@@ -60,3 +60,13 @@ App: Route as turmeric-specific evidence with a Nepal-market flag. It supports a
 - The paper's abstract states "D & E" had lead less than 0.01 ppm, but Table 2 reports D and F as less than 0.01 ppm and E as 0.37 +/- 0.02 ppm. This source page follows Table 2 and notes the abstract/Table discrepancy.
 - Chromium is total chromium. The paper discusses Cr(VI) toxicology and lead chromate, but does not speciate chromium in the turmeric samples.
 - Sample letters are not brand names here; the source page preserves the source's sample coding without creating brand-level wiki claims.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8cb97bb](https://github.com/paleofoundation/heavymetalindex/commit/8cb97bb) | 2026-06-03 | ingest auto-fetched 2026-06-03: shah2025-commercial-turmeric-lead-chromium |
+<!-- END: hmi-page-history -->

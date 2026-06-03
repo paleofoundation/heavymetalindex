@@ -64,3 +64,13 @@ Microbiome (if applicable): Not addressed.
 ## Verification notes
 
 The PDF title, author list, DOI, journal site, abstract, methods summary, and Table 4/Figure 4 values were read from the auto-fetched PDF. The paper is bilingual Arabic/English; the numeric table labels lead and cadmium in ppm. The sugar-solution honey row is retained as source-reported context but should not be pooled with ordinary honey samples without adjudicating whether it fits the product row.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2c492a7](https://github.com/paleofoundation/heavymetalindex/commit/2c492a7) | 2026-06-03 | ingest auto-fetched 2026-06-03: aburas2023-libyan-honey-lead-cadmium |
+<!-- END: hmi-page-history -->

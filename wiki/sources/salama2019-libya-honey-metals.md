@@ -69,3 +69,14 @@ Microbiome (if applicable): Not addressed.
 ## Verification notes
 
 The PDF title, authors, DOI, year, journal, methods, and Table 2 values were read from the auto-fetched PDF. The paper reports total arsenic and mercury by atomic absorption spectroscopy; it does not provide inorganic arsenic or methylmercury speciation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a1833bb](https://github.com/paleofoundation/heavymetalindex/commit/a1833bb) | 2026-06-03 | codex fire report 2026-06-03 04:26 |
+| [9912d04](https://github.com/paleofoundation/heavymetalindex/commit/9912d04) | 2026-06-03 | ingest auto-fetched 2026-06-03: salama2019-libya-honey-metals |
+<!-- END: hmi-page-history -->

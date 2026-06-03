@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/home-air-emission-products-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1afac5343f205c3cb7d493ca0994b1d883b3d211b782b6c7662f093aab8b3054",
-      "content_bytes": 7557,
-      "last_commit_sha": "566c7b2",
+      "content_sha256": "b7b09e7eebf9817e6c4d1794cfe92c93c4842426be85a404346fd7866f34d18d",
+      "content_bytes": 7560,
+      "last_commit_sha": "315a7b8",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/home-air-emission-products-other.md | sha256sum"
+      "verify_command": "git show 315a7b8:wiki/products/home-air-emission-products-other.md | sha256sum"
     }
   },
   "evidence_base": {

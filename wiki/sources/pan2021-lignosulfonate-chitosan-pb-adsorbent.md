@@ -148,3 +148,14 @@ Page built from the full PDF including the abstract, Sections 2.1-2.4 (materials
 The `matrices` slugs (`lignosulfonate-chitosan-composite`, `aqueous-sorption-test`, `wastewater-remediation`) are remediation-domain proposals outside the project's current food-matrix controlled vocabulary; a future taxonomy refresh should decide whether to formalise a remediation-matrix vocabulary or to route remediation-method sources via a separate non-food register. The "## Wiki pages this source may touch" entries `[[mitigation/remediation-evidence]]` and `[[testing/index]]` point to wiki directories outside the four-section (ingredients/products/metals/regulations) taxonomy snapshot used for slug-vocabulary auditing; they are speculative routing leads and follow the same out-of-scope-of-snapshot status as the matrices slugs. If the routing audit reports advisory malformed status for this source on the empty `products`/`ingredients` fields, that reflects the genuine absence of food/ingredient/product scope rather than a defect.
 
 Audit subagent (2026-06-02) flagged the dose-sweep range as a body/methods conflation: Section 3.3 prose says "0.01 to 0.15 g" but Section 2.4 specifies "0.01 to 0.07 g" and Figure 4A's x-axis stops at 0.07 g. Verified against the source - confirmed paper-internal text typo in Section 3.3; body revised to the Figure 4A / Section 2.4 range with a one-sentence note. The audit's other ⚠️ findings (`mitigation/remediation-evidence` and `testing/index` outside the four-section taxonomy snapshot) were applied by extending the existing out-of-snapshot disclosure above. No definite-error (❌) findings on numerical fidelity, speciation, methods, brand firewall, or wiki/HMTc firewall; subagent verdict REVISE handled in one pass.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c98e430](https://github.com/paleofoundation/heavymetalindex/commit/c98e430) | 2026-06-02 | audit: pan2021-lignosulfonate-chitosan-pb-adsorbent [revised] |
+| [548593e](https://github.com/paleofoundation/heavymetalindex/commit/548593e) | 2026-06-02 | ingest: pan2021-lignosulfonate-chitosan-pb-adsorbent [fresh] from Manual Fetch Kimi /June 2 Manual Fetches |
+<!-- END: hmi-page-history -->

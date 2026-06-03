@@ -9,9 +9,23 @@ retirement_reason: "Synonym of the Cat 6 Row 6 page canned-seafood, created in t
 redirect_target: products/canned-seafood
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 updated: 2026-06-02
-sources: 0
+sources: 37
 ---
 
 # Canned Fish — REDIRECT
 
 > **This page has been merged into its Cat 6 row.** Canned fish is the HMTc Category 6 Row 6 product **[[products/canned-seafood|Canned seafood (with tin flag)]]**. Sources declaring `products: [[products/canned-fish]]` resolve to [[products/canned-seafood]]. See [[docs/governance/category-6-step0-lock]].
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cb2a3bb](https://github.com/paleofoundation/heavymetalindex/commit/cb2a3bb) | 2026-06-03 | feat(standards): Cat 6 (Seafood) Step 0 scope lock + recover ~219 stranded declarations |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
+<!-- END: hmi-page-history -->

@@ -135,3 +135,14 @@ Brand firewall (Part 12): the review does not name commercial brands; no brand-f
 Wiki/HMTc firewall (Part 2): the review's "Conclusions" section is the kind of synthesis-from-other-literature statement that does not belong on a single-source wiki page; this page reports only what Lordan and Zabetakis tabulated and documented, not whether their interpretation of the literature is correct. No HMTc threshold proposals were imported from the review.
 
 Speciation: the review measures (or summarizes) total cadmium only, which is the practice across the underlying primary studies. Cadmium is not a speciated analyte in the HMTc vocabulary; no speciation flag applies.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b041f2e](https://github.com/paleofoundation/heavymetalindex/commit/b041f2e) | 2026-06-03 | audit: lordan2022-brown-crab-cadmium-review revised |
+| [43f9594](https://github.com/paleofoundation/heavymetalindex/commit/43f9594) | 2026-06-03 | ingest: lordan2022-brown-crab-cadmium-review fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish |
+<!-- END: hmi-page-history -->

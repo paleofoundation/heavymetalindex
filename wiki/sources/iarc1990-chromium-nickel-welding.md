@@ -168,3 +168,13 @@ The food and beverage values are still useful as compiled background concentrati
 - The source is an IARC/WHO agency monograph with no DOI in the PDF. The IARC publication page lists Volume 49 under ISBNs 978-92-832-1249-2 and 978-92-832-0249-3.
 - The official corrigenda for Volume 49 corrects animal-study table entries and appendix activity-profile identifiers; it does not change the food, water, beverage, dietary-intake, or final IARC classification values captured here.
 - `mono49 2.pdf` is byte-identical to canonical `mono49.pdf` (sha256 `fbd31bbf35d8ae2d0545b5c12e64a9898b317c14ea2bea73a06ba5883d1b2155`) and is tracked as a duplicate rather than a second source.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d34b553](https://github.com/paleofoundation/heavymetalindex/commit/d34b553) | 2026-06-03 | ingest June 3: iarc1990-chromium-nickel-welding |
+<!-- END: hmi-page-history -->

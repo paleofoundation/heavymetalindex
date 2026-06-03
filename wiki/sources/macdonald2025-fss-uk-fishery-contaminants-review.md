@@ -168,3 +168,14 @@ App: Contextual signal that mercury in sea bass is the regulated-metal exceedanc
 - Audit subagent (2026-06-03) flagged the Cd mackerel exceedance line as over-attributing "19% measurement uncertainty" to Cd. Verified against source p.60 — the report quotes the 19% uncertainty figure only for the three Hg sea bass exceedances (p.60 narrative and p.63 summary); the Cd mackerel exceedance is reported only as "0.16 mg/kg (0.13 mg/kg minus measurement uncertainty)" without a percentage. Corrected the Key-numbers Cd line to drop the unsupported "19%" attribution and document the asymmetry.
 - Audit subagent (2026-06-03) flagged "Pooled-sample sum-PCB32 lipid weight basis" appearing inside the PBDEs block as a probable PBDE vs PCB mis-labelling. Verified against source p.102 (Table 15, PBDE row 9.2.2.1): the source itself labels the 2022 pooled-sample pelagic-roundfish / demersal-roundfish / flatfish muscle and liver values as "Results reported as for ∑PCB32 for pooled samples, results expressed as μg/kg lipid weight" within a PBDE-headed row. This is a source-side labelling oddity — the report places ∑PCB32 results in the PBDE row of Table 15 — not a wiki transcription error. Restructured the Key-numbers block to surface that source-internal labelling explicitly so the apparent contradiction is visible rather than hidden.
 - The Fernandes 2009b / FSAS 2009 mercury range "0.025 to 0.47 mg/kg" appears in the report twice with slightly different formulations (0.025-0.047 mg/kg in the §9.3 narrative text; 0.025-0.47 mg/kg in the Mercury summary on p. 63 and Table 17 row). The page records the 0.025-0.47 mg/kg value because the report itself uses that range in the summary table that draws together the multiple FSAS 2009 result threads.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [488ba73](https://github.com/paleofoundation/heavymetalindex/commit/488ba73) | 2026-06-03 | audit: macdonald2025-fss-uk-fishery-contaminants-review [revised] |
+| [2ed6603](https://github.com/paleofoundation/heavymetalindex/commit/2ed6603) | 2026-06-03 | ingest: macdonald2025-fss-uk-fishery-contaminants-review [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory |
+<!-- END: hmi-page-history -->

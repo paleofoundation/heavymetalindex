@@ -142,3 +142,13 @@ The inorganic-tin section is stronger routeable evidence for canned-food and can
 - No DOI is assigned. The official WHO publication page lists this as WHO Technical Report Series 930, ISBN `92-4-120930-5`, published 1 January 2006, with 109 pages.
 - The report's cadmium PTWI of 7 ug/kg bw/week is historical. It is preserved because it is the reference value used in this 2005/2006 ML-impact calculation, but current cadmium toxicological-reference routing should use the later JECFA 2010 PTMI source.
 - The raw canonical file `raw/Manual Fetch Kimi /June 3 Folder/WHO_TRS_930_eng.pdf` and duplicate file `raw/Manual Fetch Kimi /June 3 Folder/WHO_TRS_930_eng 2.pdf` are byte-identical with SHA-256 `fb94852b5c3cc476c779d2378cc7610ca6f9e025d483ebb9c14b6b08875cbbb7`; the duplicate is recorded in the tracker as duplicate accounting rather than a second source.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b0b2379](https://github.com/paleofoundation/heavymetalindex/commit/b0b2379) | 2026-06-03 | ingest June 3: jecfa2006-cadmium-inorganic-tin |
+<!-- END: hmi-page-history -->

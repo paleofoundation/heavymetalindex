@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/douches-vaginal-irrigation",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c3ee46bb6cb198b993e7f5bcfffe56c00c0cca023512e8abb4243f3db7511e69",
-      "content_bytes": 7464,
-      "last_commit_sha": "566c7b2",
+      "content_sha256": "61968a823b56291fa3ee8157fbe3344b49a2e498275009a384b2f801da1c6cc3",
+      "content_bytes": 7467,
+      "last_commit_sha": "315a7b8",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/douches-vaginal-irrigation.md | sha256sum"
+      "verify_command": "git show 315a7b8:wiki/products/douches-vaginal-irrigation.md | sha256sum"
     }
   },
   "evidence_base": {

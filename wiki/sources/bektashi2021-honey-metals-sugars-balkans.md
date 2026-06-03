@@ -71,3 +71,14 @@ Microbiome (if applicable): Not addressed.
 ## Verification notes
 
 The PDF title, authors, DOI, journal, year, sample origins, methods, Table 1 metals, and Table 2 honey-characterization values were read from the auto-fetched PDF. The source reports arsenic as total arsenic by AAS and does not provide inorganic arsenic speciation; chromium is total chromium, not Cr(VI). `matrices: [honey]` is a source-specific matrix flag for controlled-vocabulary review.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2a12d3b](https://github.com/paleofoundation/heavymetalindex/commit/2a12d3b) | 2026-06-03 | audit auto-fetched 2026-06-03: matrix vocabulary notes |
+| [a24eb24](https://github.com/paleofoundation/heavymetalindex/commit/a24eb24) | 2026-06-03 | ingest auto-fetched 2026-06-03: bektashi2021-honey-metals-sugars-balkans |
+<!-- END: hmi-page-history -->

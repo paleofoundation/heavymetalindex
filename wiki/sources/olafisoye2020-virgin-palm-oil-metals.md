@@ -69,3 +69,14 @@ Microbiome: No direct microbiome endpoint.
 - The table text contains minor formatting defects from the PDF extraction, including "0239±0.001" for Agbarho Co, "0.020±±0.003" for Ikire Pb, and "0006±0.001" for Ubiaja Pb in Table 4b; values were read against Tables 3a-3b where possible.
 - Matrix labels `virgin-palm-oil`, `edible-oil`, and `vegetable-oil` are source-specific routing descriptors for this source page; the ingredient and product routing slugs are `[[ingredients/palm-oil]]` and `[[products/cooking-oils-other]]`.
 - The source is not brand-specific and does not identify consumer brands; it reports plantation/location-level samples.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b92a22c](https://github.com/paleofoundation/heavymetalindex/commit/b92a22c) | 2026-06-03 | audit revise olafisoye2020 virgin palm oil metals |
+| [f378697](https://github.com/paleofoundation/heavymetalindex/commit/f378697) | 2026-06-03 | ingest auto-fetched 2026-06-03: olafisoye2020-virgin-palm-oil-metals |
+<!-- END: hmi-page-history -->

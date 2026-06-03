@@ -22,16 +22,16 @@
     "canonical_url": "https://heavymetalindex.com/products/water-filters",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "30fbce1f8630f4f0e305020e423ea4c58b45b35c82688d591a07846c66b45f1f",
-      "content_bytes": 9505,
-      "last_commit_sha": "566c7b2",
+      "content_sha256": "96310d8b5610a4bb4c461708953f885017a289c7e4ed3ff74b5b28aad66eef89",
+      "content_bytes": 10860,
+      "last_commit_sha": "315a7b8",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/water-filters.md | sha256sum"
+      "verify_command": "git show 315a7b8:wiki/products/water-filters.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 5,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -47,12 +47,100 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/decharat2020-school-drinking-water-pb-cd",
         "content_pin": {
-          "content_sha256": "39af1563033079aa557a363d7530a88ff0c08f04f6fd52d132244cc7c30599c6",
-          "content_bytes": 2755,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "c23148bfefb9c20d8e0540cf1929806a05db840ff73cfd9bb2e895f70006a098",
+          "content_bytes": 2758,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/decharat2020-school-drinking-water-pb-cd.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/decharat2020-school-drinking-water-pb-cd.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/health-canada2006-arsenic-drinking-water-guideline",
+        "title": "Guidelines for Canadian Drinking Water Quality: Guideline Technical Document - Arsenic",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/health-canada2006-arsenic-drinking-water-guideline",
+        "content_pin": {
+          "content_sha256": "9db506a64840400f28d19003109c348033dac1e12318357883991aa8cad1dd31",
+          "content_bytes": 9849,
+          "last_commit_sha": "5fcbdc6",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5fcbdc6:wiki/sources/health-canada2006-arsenic-drinking-water-guideline.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/health-canada2019-lead-drinking-water-guideline",
+        "title": "Guidelines for Canadian Drinking Water Quality: Guideline Technical Document - Lead",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/health-canada2019-lead-drinking-water-guideline",
+        "content_pin": {
+          "content_sha256": "3112ab55007b461547ef9d9aaec68a134c3c6122ad306807266644c38626389c",
+          "content_bytes": 11823,
+          "last_commit_sha": "5b61cde",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5b61cde:wiki/sources/health-canada2019-lead-drinking-water-guideline.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/health-canada2020-cadmium-drinking-water-guideline",
+        "title": "Guidelines for Canadian Drinking Water Quality: Guideline Technical Document - Cadmium",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/health-canada2020-cadmium-drinking-water-guideline",
+        "content_pin": {
+          "content_sha256": "3752ad6ad111e76c320b0c9514177ccb8f66b6f3e0cc7c3999fbc09074ec32fa",
+          "content_bytes": 10398,
+          "last_commit_sha": "19249d7",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 19249d7:wiki/sources/health-canada2020-cadmium-drinking-water-guideline.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/health-canada2021-aluminum-drinking-water-guideline",
+        "title": "Guidelines for Canadian Drinking Water Quality: Guideline Technical Document - Aluminum",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "tAs",
+          "Cr",
+          "Mn",
+          "Ni",
+          "Pb",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/health-canada2021-aluminum-drinking-water-guideline",
+        "content_pin": {
+          "content_sha256": "eff0479d75fa465fc5132502c1dcdd66ae801ca20e53447592208436cfcdbc66",
+          "content_bytes": 14951,
+          "last_commit_sha": "f54f0ee",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show f54f0ee:wiki/sources/health-canada2021-aluminum-drinking-water-guideline.md | sha256sum"
         }
       }
     ]

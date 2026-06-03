@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: infant-rice-cereal
 public_page: products/infant-rice-cereal
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 # Workbench standards snapshot — Infant Rice Cereal

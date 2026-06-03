@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 11
+sources: 12
 wiki_doi: null
 updated: 2026-05-18
 ---
@@ -134,6 +134,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 8 | [[sources/watanabe2017-retail-fish-mercury-methylmercury-japan\|Watanabe et al. 2017]]. *Surveillance of Total Mercury and Methylmercury Concentrations in Retail Fish*, Food Hygiene and Safety Science | 2017 | Peer-reviewed | JP tHg, MeHg occurrence in 210 retail fish samples across 19 fish species in Japan |
 | 9 | [[sources/hsi2016-fish-methylmercury-taiwan\|Hsi et al. 2016]]. *Methylmercury Concentration in Fish and Risk-Benefit Assessment of Fish Intake among Pregnant versus Infertile Women in Taiwan*, PLOS ONE | 2016 | Peer-reviewed | TW MeHg occurrence in Fish consumed in Taiwan and hair samples from pregnant and infertile women |
 | 10 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 | 2016 | Conference proceedings | CZ/EU tHg, Cd, Pb occurrence in 33 species of fish purchased in Brno City (Czech Republic) markets from 17 FAO localities, September 2015–June 2016;... (n=159) |
+| 11 | [[sources/efsa2015-fish-seafood-methylmercury-risk-benefit\|EFSA 2015]]. *Statement on the benefits of fish/seafood consumption compared to the risks of methylmercury in fish/seafood*, EFSA Journal 2015;13(1):3982 | 2015 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -155,9 +156,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

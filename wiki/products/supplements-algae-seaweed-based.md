@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 4
+sources: 6
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,10 +106,25 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/sund2026-saccharina-pte-processing\|Sund et al. 2026]]. *Pulsed electric field processing as an alternative to warm water treatment for the reduction of potentially toxic elements in Saccharina latissima*, Journal of Applied Phycology | 2026 | Peer-reviewed | NO tAs, Cd, Pb, tHg occurrence in Unprocessed, pulsed-electric-field processed, and warm-water-treated Saccharina latissima samples, n=3 per treatment (n=15) |
-| 2 | [[sources/shaughnessy2023-sugar-kelp-new-england-metals\|Shaughnessy et al. 2023]]. *Evidence of elevated heavy metals concentrations in wild and farmed sugar kelp (Saccharina latissima) in New England*, Scientific Reports | 2023 | Peer-reviewed | US tAs, iAs, Cd, Pb, tHg occurrence in Farmed sugar-kelp blades plus wild sugar-kelp sites in Massachusetts and southern New England (n=12) |
-| 3 | [[sources/aziz2021-gracilaria-seaweed-bangladesh\|Aziz et al. 2021]]. *Potential of Gracilaria tenuistipitata var. liui grown in Nuniachara, Cox's Bazar, Bangladesh*, Bangladesh Journal of Scientific and Industrial Research | 2021 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/razi-parjikolaei2016-red-macroalgae-metals\|Parjikolaei et al. 2016]]. *Valuable Biomolecules from Nine North Atlantic Red Macroalgae: Amino Acids, Fatty Acids, Carotenoids, Minerals and Metals*, Natural Resources | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/porwollik2026-rhodiola-supplements-us-market\|Porwollik et al. 2026]]. *The quality and safety of Rhodiola rosea supplements on the U.S. market: An analysis of biomarkers, heavy metals, and pesticide residues*, PLoS One | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/sund2026-saccharina-pte-processing\|Sund et al. 2026]]. *Pulsed electric field processing as an alternative to warm water treatment for the reduction of potentially toxic elements in Saccharina latissima*, Journal of Applied Phycology | 2026 | Peer-reviewed | NO tAs, Cd, Pb, tHg occurrence in Unprocessed, pulsed-electric-field processed, and warm-water-treated Saccharina latissima samples, n=3 per treatment (n=15) |
+| 3 | [[sources/barber2025-baby-food-elements-us\|Barber et al. 2025]]. *Toxic elements in baby and young children's foods in the US and correlation to ingredients*, Food Additives & Contaminants: Part B | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/gao2025-cordyceps-arsenic-toxicity\|Gao et al. 2025]]. *Wild Cordyceps sinensis exhibits far lower arsenic accumulation and hepatorenal toxicity in mice compared to equivalent dose of inorganic arsenic*, Frontiers in Pharmacology | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/brodziak-dopierala2024-hg-supplements-poland\|Brodziak-Dopierała et al. 2024]]. *Mercury Levels in Selected Medicines and Dietary Supplements in Poland*, Biological Trace Element Research | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/efsa2024-small-organoarsenic-food\|EFSA 2024]]. *Risk assessment of small organoarsenic species in food*, EFSA Journal 2024;22:e8844 | 2024 | Government report | *[awaiting synthesis]* |
+| 7 | [[sources/thomas2024-lead-poisoning-ayurvedic-herbal\|Thomas et al. 2024]]. *Case of lead poisoning secondary to intake of herbal medicine for diabetes mellitus in a tertiary care hospital in Kerala*, Endocrinology, Diabetes & Metabolism Case Reports | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/torovic2024-mercury-fish-oil-supplements-serbia\|Torović et al. 2024]]. *Mercury Content in Fish Oil Food Supplements and Associated Health Risk*, Proceedings 2023, 91, 364 (MDPI Proceedings — 14th European Nutrition Conference FENS 2023) | 2024 | Conference proceedings | *[awaiting synthesis]* |
+| 9 | [[sources/brodziak-dopierala2023-mercury-oil-supplements-poland\|Brodziak-Dopierała et al. 2023]]. *Mercury Exposure from the Consumption of Dietary Supplements Containing Vegetable, Cod Liver, and Shark Liver Oils*, International Journal of Environmental Research and Public Health | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 10 | [[sources/brzezinska-rojek2023-beetroot-supplements-safety\|Brzezinska-Rojek et al. 2023]]. *Evaluation of the Safety and Potential Benefits of Beetroot-Based Dietary Supplements According to Their Elemental Composition*, Biological Trace Element Research (published online 7 October 2023) | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 11 | [[sources/shaughnessy2023-sugar-kelp-new-england-metals\|Shaughnessy et al. 2023]]. *Evidence of elevated heavy metals concentrations in wild and farmed sugar kelp (Saccharina latissima) in New England*, Scientific Reports | 2023 | Peer-reviewed | US tAs, iAs, Cd, Pb, tHg occurrence in Farmed sugar-kelp blades plus wild sugar-kelp sites in Massachusetts and southern New England (n=12) |
+| 12 | [[sources/aziz2021-gracilaria-seaweed-bangladesh\|Aziz et al. 2021]]. *Potential of Gracilaria tenuistipitata var. liui grown in Nuniachara, Cox's Bazar, Bangladesh*, Bangladesh Journal of Scientific and Industrial Research | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 13 | [[sources/ciocan2021-ayurvedic-lead-hg-poisoning\|Ciocan et al. 2021]]. *Lead poisoning from Ayurvedic treatment: a further case*, La Medicina del Lavoro | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 14 | [[sources/liu2021-arsenolipids-seafood\|Liu et al. 2021]]. *Discovery and Identification of Arsenolipids Using a Precursor-Finder Strategy and Data-Independent Mass Spectrometry*, Environmental Science and Technology | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 15 | [[sources/wang2021-agnh-cinnabar-realgar-hg-as\|Wang et al. 2021]]. *AGNH Protects Against Cinnabar and Realgar-Induced Hepatorenal Toxicity in Mice via Attenuation of Oxidative Stress, Inflammation, and Apoptosis*, Frontiers in Pharmacology | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 16 | [[sources/razi-parjikolaei2016-red-macroalgae-metals\|Parjikolaei et al. 2016]]. *Valuable Biomolecules from Nine North Atlantic Red Macroalgae: Amino Acids, Fatty Acids, Carotenoids, Minerals and Metals*, Natural Resources | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 17 | [[sources/sattler2016-bee-pollen-metals\|Sattler et al. 2016]]. *Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil*, Food Science and Technology | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 18 | [[sources/coghlan2015-tcm-heavy-metals-audit\|Coghlan et al. 2015]]. *Combined DNA, toxicological and heavy metal analyses provides an auditing toolkit to improve pharmacovigilance of traditional Chinese medicine (TCM)*, Scientific Reports 5:17475 | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 19 | [[sources/efsa2014-dietary-exposure-iAs\|EFSA 2014]]. *Dietary exposure to inorganic arsenic in the European population*, EFSA Journal 2014;12(3):3597 | 2014 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -119,9 +134,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

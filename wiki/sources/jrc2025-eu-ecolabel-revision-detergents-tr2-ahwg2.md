@@ -248,3 +248,14 @@ Industrial and Institutional product groups (IILD and IIDD) are covered by the s
   - `products/industrial-institutional-laundry-detergents` (IILD) and `products/industrial-institutional-dishwasher-detergents` (IIDD) — professional-grade detergent product groups covered by EUEL but not currently in HMI's consumer-focused product taxonomy. Step 0 Lock decisions for whether to expand HMI's scope to professional detergents are Karen's, not this ingest's.
   None of those underlying regulatory documents are present in the current KADC PDF set as standalone files; the JRC deck alone does not support standalone regulation pages for them.
 - Audit subagent (2026-06-03) returned PROMOTE with two ⚠️ concerns and no ❌ definite-error findings. (1) Body text and Wiki-pages-this-source-may-touch / missing-slug lists previously used the OJ-published Decision numbering (2017/1214-1219) which is correct in fact but is not literally on the slide; the slide shows the internal C-numbers C(2017)4227, 4228, 4240, 4241, 4243, 4245 with the OJ L 180, 12.7.2017 page-ranges. Per the Part 2 external-context-fencing precedent established on [[sources/ral2024-eu-ecolabel-factsheet-household-detergents]], applied 2026-06-03: body paragraph 1 rewritten to name the deck's C-numbers with the OJ citation as primary identifiers and the OJ-published 2017/NNNN Decision numbering moved off the page entirely (since they are external programme context, not stated on the deck); the missing-slug bullet rewritten to label the 2017/NNNN numbers as "external programme records, not stated on the deck". (2) The deck's "Validity expiry date 31/06/26" is a non-canonical date string (June has 30 days); page now reproduces the slide string verbatim with a parenthetical canonical reading ("30 June 2026"). Other audit checks (numerical fidelity for phosphorus tables, VOC tables, hazard-derogation Table 3 including TiO2, criterion (a)(i) Excluded list, impurity-clause deletion; slug vocabulary; speciation and methods; brand firewall; wiki/HMTc firewall) were ✅ clean and required no changes.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7fa5634](https://github.com/paleofoundation/heavymetalindex/commit/7fa5634) | 2026-06-03 | audit: jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2 promoted |
+| [0d10c1a](https://github.com/paleofoundation/heavymetalindex/commit/0d10c1a) | 2026-06-03 | ingest: jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2 fresh from KADC/06_Regulatory_EPA_GreenSeal |
+<!-- END: hmi-page-history -->

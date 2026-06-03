@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 0
+sources: 3
 ---
 
 # White fish
@@ -161,11 +161,18 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The European Union sets maximum levels for metals in fish muscle under [[regulations/eu2023-contaminants-maximum-levels]]: Pb at 0.30 mg/kg (300 ppb) for fish muscle, Cd at 0.050 mg/kg (50 ppb) for most fish and 0.10 mg/kg for certain species, and tHg at 0.50 mg/kg (500 ppb) for most fish species. The tHg limit is a total mercury limit and does not distinguish MeHg; in practice, essentially all Hg in fish muscle is present as MeHg, so total mercury in fish is effectively a methylmercury limit for practical purposes. [[regulations/codex-cadmium-mls]] provides international Codex MLs for Cd in fish. In the US, FDA and EPA joint fish advice for pregnant women and children identifies white fish categories (cod, tilapia, pollock, catfish) as "Best Choices" under their fish advisory, permitting two to three servings per week for pregnant women; this advisory reflects MeHg considerations rather than formal regulatory maxima.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/fsa2016-infant-food-formula-metals-survey]]
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
-<!-- BEGIN: hmi-page-history -->
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/macdonald2025-fss-uk-fishery-contaminants-review\|MacDonald et al. 2025]]. *Occurrence of chemical contaminants in wild-caught fishery products of relevance to Scottish and wider UK Fishing Waters: A Review*, Fera Science Ltd report to Food Standards Scotland (Report FR/002826) | 2025 | Agency report | *[awaiting synthesis]* |
+| 2 | [[sources/ospar2022-metals-fish-shellfish-sediment\|Larsen et al. 2022]]. *Status and Trend for Heavy Metals (Mercury, Cadmium and Lead) in Fish, Shellfish and Sediment*, OSPAR Commission, Quality Status Report 2023 Common Indicator Assessment | 2022 | Government report | *[awaiting synthesis]* |
+| 3 | [[sources/helcom2017-core-indicator-metals-baltic\|HELCOM et al. 2017]]. *Metals (lead, cadmium and mercury) — HELCOM core indicator report*, HELCOM Core Indicator Report (HOLAS II component), ISSN 2343-2543 | 2017 | Government report | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+
 ## Page history
 
 The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
@@ -177,4 +184,18 @@ The five most recent substantive edits to this page. The full version history li
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
+<!-- END: hmi-page-history -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
+| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

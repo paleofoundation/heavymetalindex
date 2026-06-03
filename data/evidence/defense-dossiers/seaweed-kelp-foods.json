@@ -9,7 +9,11 @@
     "category_label": null,
     "age_range": null,
     "label": "Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)",
-    "primary_metals_of_concern": [],
+    "primary_metals_of_concern": [
+      "iAs",
+      "tAs",
+      "Cd"
+    ],
     "hmtc_tested_metals": [],
     "vulnerable_population": null,
     "evidence_fitness": null,
@@ -17,18 +21,104 @@
     "canonical_url": "https://heavymetalindex.com/products/seaweed-kelp-foods",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4017a3fecdabd910f22c98d19d12d2b45c7b06e662fcf6f88337a0ade69596b5",
-      "content_bytes": 9364,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "content_sha256": "3f967b3223df9833a9a5c92400105d3faaaca9999f02a1199a7a2f530d0939cc",
+      "content_bytes": 40385,
+      "last_commit_sha": "cb2a3bb",
+      "last_commit_date": "2026-06-03",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/seaweed-kelp-foods.md | sha256sum"
+      "verify_command": "git show cb2a3bb:wiki/products/seaweed-kelp-foods.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 5,
+    "contributing_source_count": 113,
     "sources_with_structured_values": 2,
     "contributing_sources": [
+      {
+        "slug": "sources/abbas2023-heavy-metals-fish-egypt-aquaculture",
+        "title": "Heavy Metals Assessment and Health Risk to Consumers of Two Commercial Fish Species from Polyculture Fishponds in El-Sharkia and Kafr El-Sheikh, Egypt: Physiological and Biochemical Study",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cu",
+          "Fe",
+          "Mn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/abbas2023-heavy-metals-fish-egypt-aquaculture",
+        "content_pin": {
+          "content_sha256": "e0ef75c8d76c2a8420bc0b39f112e960cf8826febc7adefd56ebcd79fdef4b6d",
+          "content_bytes": 5655,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/aguilar-miranda2024-thg-canned-tuna-ecuador",
+        "title": "Total mercury exposure through canned tuna in water sold in Quito, Ecuador",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/aguilar-miranda2024-thg-canned-tuna-ecuador",
+        "content_pin": {
+          "content_sha256": "140bbd1c8a6de01e9102582d8164fcea3518dbe6a3ac69e27d2d06ca7e2cbe79",
+          "content_bytes": 10209,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/alsulaiti2023-qatar-fish-mehg",
+        "title": "Health risk assessment of methyl mercury from fish consumption in a sample of adult Qatari residents",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/alsulaiti2023-qatar-fish-mehg",
+        "content_pin": {
+          "content_sha256": "1c9fdcba5b3b06cbe5eeb3a9313eaa61fd2449f97ed55f22205a74b89639bdc4",
+          "content_bytes": 5586,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/alsulaiti2023-qatar-fish-mehg.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/atsdr2005-tin-toxicological-profile",
+        "title": "Toxicological Profile for Tin and Tin Compounds",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/atsdr2005-tin-toxicological-profile",
+        "content_pin": {
+          "content_sha256": "81534fcbb95cd7ebdea69d33722ddcf1a4a3dcff37ef1aeee842de6b65371387",
+          "content_bytes": 9559,
+          "last_commit_sha": "3233f27",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3233f27:wiki/sources/atsdr2005-tin-toxicological-profile.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/aziz2021-gracilaria-seaweed-bangladesh",
         "title": "Potential of Gracilaria tenuistipitata var. liui grown in Nuniachara, Cox's Bazar, Bangladesh",
@@ -44,12 +134,1753 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/aziz2021-gracilaria-seaweed-bangladesh",
         "content_pin": {
-          "content_sha256": "2f8e15e2fe7a2efa31cde34de61e5bba98aea53ee6ed44f1a5d6615106fad03c",
-          "content_bytes": 3483,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "2d808f46e129655901cd73e91486db3ca854780022285fdea9bd1441d7e2af6b",
+          "content_bytes": 3486,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/aziz2021-gracilaria-seaweed-bangladesh.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/aziz2021-gracilaria-seaweed-bangladesh.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bae2023-tuna-heavy-metals-korea",
+        "title": "Heavy metal concentrations in commercial tuna products in Korea and assessment of health risks",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Pb",
+          "Cd",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bae2023-tuna-heavy-metals-korea",
+        "content_pin": {
+          "content_sha256": "c23ccd6ad3aca39cf8db8e0a88405c9d63c721a20c9dc54e40f51ac438dc9de6",
+          "content_bytes": 3841,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/bae2023-tuna-heavy-metals-korea.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bakhshalizadeh2024-caspian-sturgeon-metals",
+        "title": "Trace and heavy metal concentrations in pectoral fin of Acipenser stellatus (stellate sturgeon) from the Caspian Sea",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "As",
+          "Cd",
+          "Hg",
+          "Pb",
+          "Ni",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bakhshalizadeh2024-caspian-sturgeon-metals",
+        "content_pin": {
+          "content_sha256": "60a8e10068b423b3436b9e39387859fc2377b50ce2e887321de0cbfbf3b5c5a5",
+          "content_bytes": 3658,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/bakhshalizadeh2024-caspian-sturgeon-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/balzani2026-fish-metals-dalyan-lake",
+        "title": "Metals and Metalloids Accumulation and Biomagnification in Three Commercially Important Fishes from a Turkish Brackish Lake",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Pb",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/balzani2026-fish-metals-dalyan-lake",
+        "content_pin": {
+          "content_sha256": "72e93d363bf04bcaad69602b39eb201428109ee98049cf8f3e3d2637b954085c",
+          "content_bytes": 4507,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/balzani2026-fish-metals-dalyan-lake.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bao2024-sp-icp-ms-nps-mussels",
+        "title": "Single-particle ICP-MS characterisation of metal nanoparticles in mussels",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bao2024-sp-icp-ms-nps-mussels",
+        "content_pin": {
+          "content_sha256": "a8d6ae2b0e681558e35b8e5a8edb976e0a8c2a76f6346638c7610dedb0bc3b17",
+          "content_bytes": 2524,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/bao2024-sp-icp-ms-nps-mussels.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/benjamin2023-canned-fish-ghana",
+        "title": "Levels of Heavy Metals in Selected Canned Fish on Cape Coast Market, Central Region, Ghana",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Zn",
+          "Fe",
+          "Sn",
+          "Mn",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/benjamin2023-canned-fish-ghana",
+        "content_pin": {
+          "content_sha256": "00a9bf04f2924d31a387afd87f7dbbdd9264fecced3c886724cd9ccd4670cf5d",
+          "content_bytes": 7073,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/benjamin2023-canned-fish-ghana.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/berber2024-crayfish-metal-content-turkey",
+        "title": "Metal content and fatty acid profiles in narrow-clawed crayfish (Pontastacus leptodactylus) from Atikhisar Dam Lake, Turkey: seasonal variation and health risk assessment",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Fe",
+          "Zn",
+          "Al",
+          "Cu",
+          "Mn",
+          "Se",
+          "As",
+          "Hg",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/berber2024-crayfish-metal-content-turkey",
+        "content_pin": {
+          "content_sha256": "7523ee80a644ae7d757b1ca10d8dbe3b04c87b08b4ef42f3ae98282c9365dd00",
+          "content_bytes": 4234,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/berber2024-crayfish-metal-content-turkey.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bfr2024-methylmercury-fish-seafood-germany",
+        "title": "Methylmercury in fish and seafood – health risk assessment of new data from the BfR MEAL study",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bfr2024-methylmercury-fish-seafood-germany",
+        "content_pin": {
+          "content_sha256": "2fb59b79f94933a9455c664d28e03c9ec63116ec0e4697a2e574ad99fb1fd410",
+          "content_bytes": 8158,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/bfr2024-methylmercury-fish-seafood-germany.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bhoyroo2015-scombrids-heavy-metals-mauritius",
+        "title": "Detection of heavy metals bio-accumulation in scombrids for the determination of possible health hazard",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Zn",
+          "Cu",
+          "Ni",
+          "Cr",
+          "Cd",
+          "Pb",
+          "tHg",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bhoyroo2015-scombrids-heavy-metals-mauritius",
+        "content_pin": {
+          "content_sha256": "80f82f9b86ba5411af1f76db3b47daa0970dd5d5ce3ce8e42cbdbe90d046522d",
+          "content_bytes": 5350,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/bhoyroo2015-scombrids-heavy-metals-mauritius.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bjerregaard2023-mercury-mussels-denmark",
+        "title": "In Search of Mercury Lost from Sediments in a Previously Contaminated Coastal Area, Harboøre Tange, Denmark",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bjerregaard2023-mercury-mussels-denmark",
+        "content_pin": {
+          "content_sha256": "a26e3cfbb2c67e78cbde0a4ccde8014d1923f5fc08a064f34b0ccdf3f32a9212",
+          "content_bytes": 5592,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/bjerregaard2023-mercury-mussels-denmark.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/blanco2023-mercury-fish-valencia",
+        "title": "Mercury levels in fish in the Valencian Community: temporal evolution (2011-2017) and associated factors",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/blanco2023-mercury-fish-valencia",
+        "content_pin": {
+          "content_sha256": "7e707afba977109bbcc336a353bfe93e94bce481778fcfdfe633eeaef534a08c",
+          "content_bytes": 5673,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/blanco2023-mercury-fish-valencia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bondareva2024-sturgeon-arsenic-processing",
+        "title": "Potential transformations of arsenic forms in fish during cooking processing: a case study of Russian sturgeon",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bondareva2024-sturgeon-arsenic-processing",
+        "content_pin": {
+          "content_sha256": "d4fbf6c9f41e98a40a2a17b9f1e55bd389e685ae9f5841c4709b1656fe9a810f",
+          "content_bytes": 4573,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/bondareva2024-sturgeon-arsenic-processing.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/brima2025-african-foods-uk-metals",
+        "title": "Assessment of Human Health Risk Based on Analysis of Potentially Toxic Elements in African Foods Sold in the UK Market",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/brima2025-african-foods-uk-metals",
+        "content_pin": {
+          "content_sha256": "74319d7a1240a021449d7687ebd8d48d4d86618b0ac2df96e480a25dc926d178",
+          "content_bytes": 3956,
+          "last_commit_sha": "53e71d4",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 53e71d4:wiki/sources/brima2025-african-foods-uk-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bruno2024-metals-mussels-clams-faro-lake-sicily",
+        "title": "Mineral composition in mussel Mytilus galloprovincialis and clam Tapes decussatus from Faro Lake of Messina: risk assessment for human health",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb",
+          "tHg",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bruno2024-metals-mussels-clams-faro-lake-sicily",
+        "content_pin": {
+          "content_sha256": "3cf360e71a831716001c3b868c8cd4344e200abbaa757c340b672ace0f27f1b2",
+          "content_bytes": 4755,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/bruno2024-metals-mussels-clams-faro-lake-sicily.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cardoso2023-mercury-portuguese-coast-seafood",
+        "title": "Seasonal characterization of mercury contamination along the Portuguese coast: human health and environmental risk assessment",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cardoso2023-mercury-portuguese-coast-seafood",
+        "content_pin": {
+          "content_sha256": "0b0c43ba78c7ff46ebdd0dcf98e6c684a71bf1ee762a7101dd8eeb21c9df1d4d",
+          "content_bytes": 4634,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/cardoso2023-mercury-portuguese-coast-seafood.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cfs2012-hktds-inorganic-arsenic",
+        "title": "The First Hong Kong Total Diet Study: Inorganic Arsenic",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cfs2012-hktds-inorganic-arsenic",
+        "content_pin": {
+          "content_sha256": "6cd903cbb6a698cc1058ff291943cd74617ea48cf8072dde492dc2edce40a14c",
+          "content_bytes": 20471,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/cfs2012-hktds-inorganic-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cfs2013-hktds-metallic-contaminants",
+        "title": "The First Hong Kong Total Diet Study: Metallic Contaminants",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Sb",
+          "Cd",
+          "Pb",
+          "MeHg",
+          "Ni",
+          "Sn",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cfs2013-hktds-metallic-contaminants",
+        "content_pin": {
+          "content_sha256": "a4afccbbff1c3c42b1bedebdbe0ddb48445c6e58ba1054c798f92411d76df32f",
+          "content_bytes": 19436,
+          "last_commit_sha": "ac2c093",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ac2c093:wiki/sources/cfs2013-hktds-metallic-contaminants.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cfs2019-organotin-aquatic-hongkong",
+        "title": "Organotin Compounds in Aquatic Products Available at Local Markets",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cfs2019-organotin-aquatic-hongkong",
+        "content_pin": {
+          "content_sha256": "d1cf937ae96b8ca1bb4615a9f4ae9056afaa45b7652e75312b31a440028f760c",
+          "content_bytes": 8203,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/cfs2019-organotin-aquatic-hongkong.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/chamorro2024-bluefin-tuna-mercury-review",
+        "title": "Atlantic bluefin tuna (Thunnus thynnus): health benefits, contaminants and risk-benefit analysis for human consumption",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg",
+          "Cd",
+          "Pb",
+          "As"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/chamorro2024-bluefin-tuna-mercury-review",
+        "content_pin": {
+          "content_sha256": "0c8dbdb75adb7b2b413a1ebb25ad204abf90945f2168e980fab0684a01cc4305",
+          "content_bytes": 4386,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/chamorro2024-bluefin-tuna-mercury-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/chavez-capilla2022-arsenolipids-seafood",
+        "title": "The Need to Unravel Arsenolipid Transformations in Humans",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/chavez-capilla2022-arsenolipids-seafood",
+        "content_pin": {
+          "content_sha256": "b4dffa38eb109f523e665eaca485e629efd04f5be0dc520016d998271a0d2a95",
+          "content_bytes": 5416,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/chavez-capilla2022-arsenolipids-seafood.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/chou-uthe1993-cadmium-american-lobster-belledune",
+        "title": "Cadmium in American lobster (Homarus americanus) from the area of Belledune Harbour, New Brunswick, Canada: 1980-1992 results",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg",
+          "tAs",
+          "Cu",
+          "Ag"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/chou-uthe1993-cadmium-american-lobster-belledune",
+        "content_pin": {
+          "content_sha256": "04e81b1a89a71b0ff47bd0b3499051a6305bf6840e6fd78ca6cf4e3219521686",
+          "content_bytes": 22630,
+          "last_commit_sha": "1e3ff4b",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 1e3ff4b:wiki/sources/chou-uthe1993-cadmium-american-lobster-belledune.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/christian2024-caribbean-fish-mercury",
+        "title": "An evaluation of fish and invertebrate mercury concentrations in the Caribbean Region",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/christian2024-caribbean-fish-mercury",
+        "content_pin": {
+          "content_sha256": "d38592cf6afffe49892672c7ae682db3c4b0ad5b947e2aa6314e49a292f9aee1",
+          "content_bytes": 4000,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/christian2024-caribbean-fish-mercury.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cleary2021-fish-consumption-advisories-usa",
+        "title": "Comparison of Recreational Fish Consumption Advisories Across the USA",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cleary2021-fish-consumption-advisories-usa",
+        "content_pin": {
+          "content_sha256": "d4164837cc95f9ba94ca44dd75165924239ae1455367be17d97381ac98e940cb",
+          "content_bytes": 4552,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/cleary2021-fish-consumption-advisories-usa.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/de-anda-montanez2023-baja-red-crab-elements",
+        "title": "Spatial and Temporal Variability of Trace and Macro Elements in the Red Crab Pleuroncodes planipes in the Pacific Coast of the Baja California Peninsula, Mexico",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Cu",
+          "Fe",
+          "Mn",
+          "Ni",
+          "Pb",
+          "Zn",
+          "Ca",
+          "Mg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/de-anda-montanez2023-baja-red-crab-elements",
+        "content_pin": {
+          "content_sha256": "d8075225c23d39a3cd1f1a4d67b6f7acb5005d9204be0b2c7895b7e080b86850",
+          "content_bytes": 8610,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/de-anda-montanez2023-baja-red-crab-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/delima2021-metals-canned-tuna-sardines-brazil",
+        "title": "Data on metals, nonmetal, and metalloid in the samples of the canned tuna and canned sardines sold in Brazil",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "tAs",
+          "Ba",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cu",
+          "Fe",
+          "Ni",
+          "Pb",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/delima2021-metals-canned-tuna-sardines-brazil",
+        "content_pin": {
+          "content_sha256": "8d4ab32414b83736f7d1146486981a6b0f16873ed8b2bf48ccf9289229cd97ff",
+          "content_bytes": 7500,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/delima2021-metals-canned-tuna-sardines-brazil.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/dibella2020-augusta-meat-milk-seafood-metals",
+        "title": "Heavy Metals and PAHs in Meat, Milk, and Seafood From Augusta Area (Southern Italy): Contamination Levels, Dietary Intake, and Human Exposure Assessment",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "tHg",
+          "Ni",
+          "Pb",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dibella2020-augusta-meat-milk-seafood-metals",
+        "content_pin": {
+          "content_sha256": "07b328f373def0cbb34dec3634efb8c1c54225a073dd476a3f726f543a6bbbbc",
+          "content_bytes": 4480,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/dibella2020-augusta-meat-milk-seafood-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals",
+        "title": "Determination of Geographical and Seasonal Variations of Heavy Metals in Swordfish (Xiphias gladius) and Yellowfin Tuna (Thunnus albacares)",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Pb",
+          "tAs",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals",
+        "content_pin": {
+          "content_sha256": "90721e1e4c009f557b630e6d9f12dd99380697d5bbe31fabf661b6a8c5b4c571",
+          "content_bytes": 2880,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/dineshkumar2025-fish-heavy-metals",
+        "title": "Comparative evaluation of heavy metal concentration in three commercially important fish: insights from organ-specific and interspecies variability",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cr",
+          "Ni",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dineshkumar2025-fish-heavy-metals",
+        "content_pin": {
+          "content_sha256": "ac5fe43b6ddd5f2c9949ff24f3be116e207d851bf09862852434b5c39f84c90c",
+          "content_bytes": 3247,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/dineshkumar2025-fish-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/diogene2023-rascs-contaminants-seafood",
+        "title": "Risk Assessment Strategies for Contaminants in Seafood (RASCS)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Pb",
+          "Cd",
+          "tHg",
+          "MeHg",
+          "Ni",
+          "Cr",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/diogene2023-rascs-contaminants-seafood",
+        "content_pin": {
+          "content_sha256": "edb1884e3e40208a248515ce49f50cc8a428eeff514adcc8a59d022f2c819270",
+          "content_bytes": 21838,
+          "last_commit_sha": "72e587d",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 72e587d:wiki/sources/diogene2023-rascs-contaminants-seafood.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/dogruyol2024-mediterranean-mussels-health-risk",
+        "title": "Evaluation of Health Risks Attributed to Toxic Trace Elements and Selenium in Farmed Mediterranean Mussels from Türkiye and Bulgaria",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "tHg",
+          "Pb",
+          "Se"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dogruyol2024-mediterranean-mussels-health-risk",
+        "content_pin": {
+          "content_sha256": "f30d54920baca4bc43aa8140b5ca1b4511f851a032f2fa36a8dd62c9fc298348",
+          "content_bytes": 4505,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/dogruyol2024-mediterranean-mussels-health-risk.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa2024-small-organoarsenic-food",
+        "title": "Risk assessment of small organoarsenic species in food",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "DMA",
+          "MMA",
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2024-small-organoarsenic-food",
+        "content_pin": {
+          "content_sha256": "bf87cabe6d44048b724476f7e1ef11c1758aa53be6951d031356c1ccd69347dc",
+          "content_bytes": 12076,
+          "last_commit_sha": "8597289",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8597289:wiki/sources/efsa2024-small-organoarsenic-food.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/epa1997-arsenic-fish-shellfish",
+        "title": "Arsenic and Fish Consumption",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/epa1997-arsenic-fish-shellfish",
+        "content_pin": {
+          "content_sha256": "203496d7a9d98bece31767388ac43a339e69ac39188d1b01f8fc3bfb49f614c4",
+          "content_bytes": 8466,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/epa1997-arsenic-fish-shellfish.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/epa1999-mercury-update-fish-advisories",
+        "title": "Mercury Update: Impact on Fish Advisories",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/epa1999-mercury-update-fish-advisories",
+        "content_pin": {
+          "content_sha256": "07b320cc65665a3d80372e3a771aa3f6c2d46872b41210c924dd1ff4fa1fbd7e",
+          "content_bytes": 7020,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/epa1999-mercury-update-fish-advisories.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fera2015-uk-tds-metals",
+        "title": "Total Diet Study of metals and other elements in food",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Sb",
+          "tAs",
+          "iAs",
+          "Ba",
+          "Cd",
+          "Cr",
+          "Cu",
+          "Pb",
+          "Mn",
+          "tHg",
+          "Mo",
+          "Ni",
+          "Pd",
+          "Pt",
+          "Sn",
+          "Tl",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
+        "content_pin": {
+          "content_sha256": "7123abf586acc41bcc497cb905796c40f43793e6fb6048586f423662a17edc36",
+          "content_bytes": 10738,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fsanz2019-25th-australian-total-diet-study",
+        "title": "25th Australian Total Diet Study",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Cd",
+          "Pb",
+          "tHg",
+          "iHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fsanz2019-25th-australian-total-diet-study",
+        "content_pin": {
+          "content_sha256": "8f7377e64ac97f943dae13688daac6db325b170bcef2b0d40ae25214a9ee6b45",
+          "content_bytes": 15793,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/fsanz2019-25th-australian-total-diet-study.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/garofalo2025-seafood-cd-pb-hg-italy-10yr",
+        "title": "Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr",
+        "content_pin": {
+          "content_sha256": "8bc527a063239df74bfab2cef37d9a9d1794cb49d7825987f19b887719a018e1",
+          "content_bytes": 17097,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gongora-gomez2017-oysters-gulf-california-metals",
+        "title": "Heavy-metal contents in oysters (Crassostrea gigas) cultivated on the southeastern coast of the Gulf of California, Mexico",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cu",
+          "Cr",
+          "Cd",
+          "Ni",
+          "Pb",
+          "tAs",
+          "Zn",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gongora-gomez2017-oysters-gulf-california-metals",
+        "content_pin": {
+          "content_sha256": "c76f38bfedcf3c72eced0582410b90cf3a0256789d82ea0be1ef272693ffa57a",
+          "content_bytes": 2940,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/gongora-gomez2017-oysters-gulf-california-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gongora-gomez2018-pen-shell-seasonal-metals",
+        "title": "Seasonal levels of heavy metals in soft tissue and muscle of the pen shell Atrina maura from a farm in the southeastern coast of the Gulf of California, Mexico",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cu",
+          "Cr",
+          "Cd",
+          "Ni",
+          "Pb",
+          "tAs",
+          "Zn",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gongora-gomez2018-pen-shell-seasonal-metals",
+        "content_pin": {
+          "content_sha256": "5b9ba0495e5658e2aca7eb81f5c74fdff9eb4ce07c63ac64bb4808c389d3a63d",
+          "content_bytes": 3099,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/gongora-gomez2018-pen-shell-seasonal-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hall2023-methylmercury-tidal-marsh",
+        "title": "Linking Mesoscale Spatial Variation in Methylmercury Production to Bioaccumulation in Tidal Marsh Food Webs",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hall2023-methylmercury-tidal-marsh",
+        "content_pin": {
+          "content_sha256": "dfbc0db17932f313c5a92b94da4d7d701f57c34ad8ea3ed224f6f237876597ce",
+          "content_bytes": 4499,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/hall2023-methylmercury-tidal-marsh.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/handayani2019-tuna-swordfish-indonesia-mercury",
+        "title": "Kandungan Logam Berat Merkuri Pada Ikan Tuna (Yellowfin dan Bigeye) dan Tuna-like (Swordfish) Hasil Tangkapan dari Samudera Hindia dan Samudera Pasifik",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/handayani2019-tuna-swordfish-indonesia-mercury",
+        "content_pin": {
+          "content_sha256": "5e05ca721927c2d0fcddfbb34d4bc34b43f27f1b312eaf7ebad6489f7106bc08",
+          "content_bytes": 2648,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/handayani2019-tuna-swordfish-indonesia-mercury.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/harding2018-bay-fundy-methylmercury",
+        "title": "Bioaccumulation of methylmercury within the marine food web of the outer Bay of Fundy, Gulf of Maine",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/harding2018-bay-fundy-methylmercury",
+        "content_pin": {
+          "content_sha256": "e81505fca01dd834d234157d8acfc53a43a2890c322cb670c39f02b6671d8ad7",
+          "content_bytes": 3080,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/harding2018-bay-fundy-methylmercury.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hardisson2017-aluminium-dietary-exposure-review",
+        "title": "Aluminium Exposure Through the Diet",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hardisson2017-aluminium-dietary-exposure-review",
+        "content_pin": {
+          "content_sha256": "af156d939409c1621c8e28712c4daf008f2411ca2222c83be26698fa03ea1c5a",
+          "content_bytes": 7739,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/hardisson2017-aluminium-dietary-exposure-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/health-canada2008-aluminum-food-additives-request",
+        "title": "Health Canada Requests Information from Industry on the Use of Aluminum-Containing Food Additives",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/health-canada2008-aluminum-food-additives-request",
+        "content_pin": {
+          "content_sha256": "ed43bb2a6c8c320e924ea24b8b1fb4d34b87e3f774083a7c80b70fb17cb1128d",
+          "content_bytes": 8336,
+          "last_commit_sha": "cff2bfe",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show cff2bfe:wiki/sources/health-canada2008-aluminum-food-additives-request.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/helcom2017-core-indicator-metals-baltic",
+        "title": "Metals (lead, cadmium and mercury) — HELCOM core indicator report",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/helcom2017-core-indicator-metals-baltic",
+        "content_pin": {
+          "content_sha256": "9e7d267d6a61fe49be47440cdf6925546f1ee83b4cd4e453c4ad56e654cd5920",
+          "content_bytes": 15446,
+          "last_commit_sha": "4dbd673",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 4dbd673:wiki/sources/helcom2017-core-indicator-metals-baltic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hoy2023-arsenic-speciation-freshwater-fish",
+        "title": "Arsenic speciation in freshwater fish: challenges and research needs",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hoy2023-arsenic-speciation-freshwater-fish",
+        "content_pin": {
+          "content_sha256": "b0ce47cd4362b9e0dd46518e3d0cb6cd550a55c83516ffa30a9f12a25275e444",
+          "content_bytes": 6830,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/hoy2023-arsenic-speciation-freshwater-fish.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hsi2016-fish-methylmercury-taiwan",
+        "title": "Methylmercury Concentration in Fish and Risk-Benefit Assessment of Fish Intake among Pregnant versus Infertile Women in Taiwan",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hsi2016-fish-methylmercury-taiwan",
+        "content_pin": {
+          "content_sha256": "4b501359bab30f2a82c788ece8f555244e77ab957374875e55cc61afb333bf1f",
+          "content_bytes": 2556,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/hsi2016-fish-methylmercury-taiwan.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hussein2023-freshwater-marine-fish-egypt",
+        "title": "Risk assessment of toxic residues among some freshwater and marine water fish species",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hussein2023-freshwater-marine-fish-egypt",
+        "content_pin": {
+          "content_sha256": "eb23e21f4c9f07cea7dbfdfdae5a7636de5caf161a2fbd8fd84e4de3cdf6d38b",
+          "content_bytes": 8999,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/hussein2023-freshwater-marine-fish-egypt.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/iarc1990-chromium-nickel-welding",
+        "title": "Chromium, Nickel and Welding",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Cr-VI",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/iarc1990-chromium-nickel-welding",
+        "content_pin": {
+          "content_sha256": "066e13e0145cbc635642f560fdea87d83a38f652ded75aa63ddd98f9dc8fd099",
+          "content_bytes": 10431,
+          "last_commit_sha": "d34b553",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d34b553:wiki/sources/iarc1990-chromium-nickel-welding.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jecfa2007-aluminium-methylmercury",
+        "title": "Evaluation of certain food additives and contaminants: sixty-seventh report of the Joint FAO/WHO Expert Committee on Food Additives",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jecfa2007-aluminium-methylmercury",
+        "content_pin": {
+          "content_sha256": "3ed50beba4bd9b6114d6bad0460f1a402c230d521de6fedb0cfa4a995eed8faf",
+          "content_bytes": 11336,
+          "last_commit_sha": "1d53e58",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 1d53e58:wiki/sources/jecfa2007-aluminium-methylmercury.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kimakova2018-fish-products-slovakia-mercury",
+        "title": "Fish and fish products as risk factors of mercury exposure",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kimakova2018-fish-products-slovakia-mercury",
+        "content_pin": {
+          "content_sha256": "2184e129f5251e33db7a238c64bc6655ae154f94210411463793b20f5c2ec8ca",
+          "content_bytes": 2770,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/kimakova2018-fish-products-slovakia-mercury.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/lehel2023-yellowfin-tuna-indian-ocean",
+        "title": "Metal Load of Potentially Toxic Elements in Tuna (Thunnus albacares) - Food Safety Aspects",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/lehel2023-yellowfin-tuna-indian-ocean",
+        "content_pin": {
+          "content_sha256": "e5018938f8578ccb3b897d5e91dbc3c0f78cce2cdfb157bd918ab54b852548ca",
+          "content_bytes": 16102,
+          "last_commit_sha": "97b8a2c",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 97b8a2c:wiki/sources/lehel2023-yellowfin-tuna-indian-ocean.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/li2024-global-fisheries-mehg",
+        "title": "Global fishing patterns amplify human exposures to methylmercury",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/li2024-global-fisheries-mehg",
+        "content_pin": {
+          "content_sha256": "854747f7b50216d1637dc68ae7e9f354bddbd3adf8bd0d169594811968ef0e6e",
+          "content_bytes": 4695,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/li2024-global-fisheries-mehg.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/li2025-ratiometric-fluorescent-sensor-al-cu-food",
+        "title": "A ratiometric fluorescent sensor for Al3+ and Cu2+ detection in food samples",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/li2025-ratiometric-fluorescent-sensor-al-cu-food",
+        "content_pin": {
+          "content_sha256": "7352f8447390bcf04b9191a50ed4b50a24fd2f74b7ee699d023c1164b0916518",
+          "content_bytes": 4414,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/li2025-ratiometric-fluorescent-sensor-al-cu-food.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/liang2019-beijing-foodstuffs-health-risk",
+        "title": "Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/liang2019-beijing-foodstuffs-health-risk",
+        "content_pin": {
+          "content_sha256": "fbb9882d47cace566c8ec7151569c8d155cf067bebd12bcf1fb1121d13186af9",
+          "content_bytes": 10001,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/liu2021-arsenolipids-seafood",
+        "title": "Discovery and Identification of Arsenolipids Using a Precursor-Finder Strategy and Data-Independent Mass Spectrometry",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/liu2021-arsenolipids-seafood",
+        "content_pin": {
+          "content_sha256": "c8922d37cc177a83ac17136a7f685d639fb696f27d3e36ee448d756ea5028100",
+          "content_bytes": 4312,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/liu2021-arsenolipids-seafood.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/liu2023-arsenic-seafood-digestion",
+        "title": "Transformation of arsenic species from seafood consumption during in vitro digestion",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/liu2023-arsenic-seafood-digestion",
+        "content_pin": {
+          "content_sha256": "1905d2a7fc8c49694b6426c93a25771713ebc582c5cba63147904f4ae45b2481",
+          "content_bytes": 4148,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/liu2023-arsenic-seafood-digestion.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/llorente-mirandes2016-ias-food-analytical-review",
+        "title": "Inorganic Arsenic Determination in Food: A Review of Analytical Proposals and Quality Assessment Over the Last Six Years",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/llorente-mirandes2016-ias-food-analytical-review",
+        "content_pin": {
+          "content_sha256": "6eea7c70b2f4c4f74c74c3dec78927c8aaab3b103e3be9b896d845ecb66694b1",
+          "content_bytes": 5739,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/llorente-mirandes2016-ias-food-analytical-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/lordan2022-brown-crab-cadmium-review",
+        "title": "Cadmium: A Focus on the Brown Crab (Cancer pagurus) Industry and Potential Human Health Risks",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/lordan2022-brown-crab-cadmium-review",
+        "content_pin": {
+          "content_sha256": "bd9fa43eec5948d8c45c5dd6020d3776ff8a980d451031baf5dbd1b74c880812",
+          "content_bytes": 17814,
+          "last_commit_sha": "b041f2e",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show b041f2e:wiki/sources/lordan2022-brown-crab-cadmium-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/lozano-bilbao2023-canary-tuna-metals",
+        "title": "Risk Assessment and Characterization in Tuna Species of the Canary Islands According to Their Metal Content",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Cd",
+          "Cr",
+          "Cu",
+          "Fe",
+          "Li",
+          "Pb",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/lozano-bilbao2023-canary-tuna-metals",
+        "content_pin": {
+          "content_sha256": "2f9784877c8eefc183256408eef9330511beac764346afb7fffd3edec0c25dab",
+          "content_bytes": 16925,
+          "last_commit_sha": "cb2a3bb",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show cb2a3bb:wiki/sources/lozano-bilbao2023-canary-tuna-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/macdonald2025-fss-uk-fishery-contaminants-review",
+        "title": "Occurrence of chemical contaminants in wild-caught fishery products of relevance to Scottish and wider UK Fishing Waters: A Review",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "iAs",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/macdonald2025-fss-uk-fishery-contaminants-review",
+        "content_pin": {
+          "content_sha256": "1e9a2f726ba75112764472985372ffb410725ed82004a35109b9756e4a18eb19",
+          "content_bytes": 25454,
+          "last_commit_sha": "488ba73",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 488ba73:wiki/sources/macdonald2025-fss-uk-fishery-contaminants-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/maikanov2020-fish-products-shuchinsk-burabay-metals",
+        "title": "Quality and safety of fish products in the Shuchinsk-Burabay Resort Zone",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/maikanov2020-fish-products-shuchinsk-burabay-metals",
+        "content_pin": {
+          "content_sha256": "dc330076cb0ccef681584614833f5897ee262c2cc7b8b3ccec43009b10a3dc4f",
+          "content_bytes": 2750,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/maikanov2020-fish-products-shuchinsk-burabay-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mariadi2017-juaro-fish-pineapple-extract-pb-hg",
+        "title": "Removal lead (Pb) and mercury (Hg) from juaro fish (Pangasius polyuranodon) using citric acid from pineapple extract (Ananas comosus) as chelating agent",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mariadi2017-juaro-fish-pineapple-extract-pb-hg",
+        "content_pin": {
+          "content_sha256": "051b88b0f89fd3a00f76bf0f569c6466310b3848b4bf3815306eb9cf1da961c6",
+          "content_bytes": 2565,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/mariadi2017-juaro-fish-pineapple-extract-pb-hg.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mehouel2019-sardine-swordfish-algeria-mercury",
+        "title": "Risk assessment of mercury and methyl mercury intake via sardine and swordfish consumption in Algeria",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mehouel2019-sardine-swordfish-algeria-mercury",
+        "content_pin": {
+          "content_sha256": "c8be70ab1b6a110435185432818cb97657374846f6ac358037852e4ce48ba3b1",
+          "content_bytes": 2732,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/mehouel2019-sardine-swordfish-algeria-mercury.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mititelu2025-heavy-metal-food-contamination-review",
+        "title": "Assessing Heavy Metal Contamination in Food: Implications for Human Health and Environmental Safety",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "iAs",
+          "tHg",
+          "MeHg",
+          "Ni",
+          "Cr",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mititelu2025-heavy-metal-food-contamination-review",
+        "content_pin": {
+          "content_sha256": "0aea96c68302ff6da3b637129e01106a605d9720107bc8b1b1164eebfd196e89",
+          "content_bytes": 11217,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/mititelu2025-heavy-metal-food-contamination-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/motta2022-marine-hg-isotopes",
+        "title": "Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/motta2022-marine-hg-isotopes",
+        "content_pin": {
+          "content_sha256": "3c3f634dc2d03dbc185afd083c90f654bccdb560dad8604249b710245b9ddb93",
+          "content_bytes": 3454,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/motta2022-marine-hg-isotopes.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/moura2022-hg-jaguaribe-estuary",
+        "title": "Mercury in the Jaguaribe River Estuary, Northeast Brazil: Sources, Distribution, and Bioavailability",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/moura2022-hg-jaguaribe-estuary",
+        "content_pin": {
+          "content_sha256": "336bdd3e1f7f8cbf511faddacc9fc27683b209a21dc63f89bd64eca4e6b438b2",
+          "content_bytes": 3838,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/moura2022-hg-jaguaribe-estuary.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/naseem2026-seasonal-heavy-metals-water-fish",
+        "title": "Seasonal Fluctuation of Heavy Metals in Water & Fish Tissues",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "Ni",
+          "Cr",
+          "tAs",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/naseem2026-seasonal-heavy-metals-water-fish",
+        "content_pin": {
+          "content_sha256": "7d07098fb638157946432938630a5b9f43cee28c1a72eddfd9dc241ea3e83173",
+          "content_bytes": 7243,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/naseem2026-seasonal-heavy-metals-water-fish.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nielsen1975-nz-molluscs-heavy-metals",
+        "title": "Heavy metal levels in New Zealand molluscs",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg",
+          "Cu",
+          "Zn",
+          "Fe"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nielsen1975-nz-molluscs-heavy-metals",
+        "content_pin": {
+          "content_sha256": "344a8acdbe98a58ebb32909449f50a00cd63d1606ec8b2741b9e02c77f2651a2",
+          "content_bytes": 28863,
+          "last_commit_sha": "72b0c6d",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 72b0c6d:wiki/sources/nielsen1975-nz-molluscs-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/oktariani2023-tuna-swordfish-indian-pacific-heavy-metals",
+        "title": "Heavy metals content in fresh tuna and swordfish caught from Hindian and Pacific Oceans: Health risk assessment of dietary exposure",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/oktariani2023-tuna-swordfish-indian-pacific-heavy-metals",
+        "content_pin": {
+          "content_sha256": "bd4c769c59a9b86287826beae898fbb93a2e1e0fb9535c88eaea90fcff60178a",
+          "content_bytes": 2930,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/oktariani2023-tuna-swordfish-indian-pacific-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/olgunoglu2025-scorpionfish-izmir-metals",
+        "title": "Seasonal Variability and Sex-Specific Accumulation of Trace Metals in Black Scorpionfish (Scorpaena porcus Linnaeus, 1758) from Izmir Bay (Aegean Sea), Türkiye: Implications for Human Health Risk Assessment",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Cr",
+          "Cu",
+          "Fe",
+          "Hg",
+          "Mn",
+          "Ni",
+          "Pb",
+          "Se",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/olgunoglu2025-scorpionfish-izmir-metals",
+        "content_pin": {
+          "content_sha256": "98b8318358fa8445c83059d836be6557e8b490610b835060d5b8a256322f23f8",
+          "content_bytes": 3455,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/olgunoglu2025-scorpionfish-izmir-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/onyegeme-okerenta2023-shellfish-nigeria",
+        "title": "Potential Toxic elements in shellfish from three rivers in Niger Delta, Nigeria: bioaccumulation, dietary intake, and human health risk assessment",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "Pb",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/onyegeme-okerenta2023-shellfish-nigeria",
+        "content_pin": {
+          "content_sha256": "e91a11e69ec02647175c91fb3e6f5fa2d8d6a01cc9eaea89678194cbf0028445",
+          "content_bytes": 4665,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/onyegeme-okerenta2023-shellfish-nigeria.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ormaza-gonzalez2020-tuna-canned-eastern-pacific",
+        "title": "Low mercury, cadmium and lead concentrations in tuna products from the eastern Pacific",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ormaza-gonzalez2020-tuna-canned-eastern-pacific",
+        "content_pin": {
+          "content_sha256": "985b9f60194c7ccd64ac7a0c4b54a0d01f2d5930d23f825bb5dfe5789e3d8b23",
+          "content_bytes": 13008,
+          "last_commit_sha": "5a4044e",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5a4044e:wiki/sources/ormaza-gonzalez2020-tuna-canned-eastern-pacific.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ospar2022-metals-fish-shellfish-sediment",
+        "title": "Status and Trend for Heavy Metals (Mercury, Cadmium and Lead) in Fish, Shellfish and Sediment",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "Cu",
+          "Zn",
+          "Cr",
+          "Ni",
+          "tAs",
+          "Co",
+          "Ag",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ospar2022-metals-fish-shellfish-sediment",
+        "content_pin": {
+          "content_sha256": "99ee5af95654ad5d2cf8331d005d2413b7410b6646e30a537f5e2d9c2f813ba9",
+          "content_bytes": 23002,
+          "last_commit_sha": "57ef202",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 57ef202:wiki/sources/ospar2022-metals-fish-shellfish-sediment.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/pappalardo2017-canned-tuna-metals-italy",
+        "title": "Heavy metal content and molecular species identification in canned tuna: Insights into human food safety",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pappalardo2017-canned-tuna-metals-italy",
+        "content_pin": {
+          "content_sha256": "dd2c5357d9f6745b8d82b2f397846c2b848622f7f690c0ce1f30f57e1cf0829c",
+          "content_bytes": 5477,
+          "last_commit_sha": "2442451",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 2442451:wiki/sources/pappalardo2017-canned-tuna-metals-italy.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/pawlaczyk2020-mercury-canned-fish-poland",
+        "title": "Risk of Mercury Ingestion from Canned Fish in Poland",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pawlaczyk2020-mercury-canned-fish-poland",
+        "content_pin": {
+          "content_sha256": "625bf102ee5606e0a27594d50edc4928a37ebe31ba7aee667fce694bd0d19856",
+          "content_bytes": 13586,
+          "last_commit_sha": "3934559",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3934559:wiki/sources/pawlaczyk2020-mercury-canned-fish-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/raju2021-bivalves-cagayan-philippines",
+        "title": "Heavy Metal Determination of Bivalves in Cagayan Valley, Philippines",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/raju2021-bivalves-cagayan-philippines",
+        "content_pin": {
+          "content_sha256": "a2f199633d65c018bd181b9878bca43a57e84a9b1ae370fc0a24848c993f7a9e",
+          "content_bytes": 5364,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/raju2021-bivalves-cagayan-philippines.md | sha256sum"
         }
       },
       {
@@ -66,12 +1897,58 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rakib2021-macroalgae-bangladesh-metals",
         "content_pin": {
-          "content_sha256": "9dabc9e8468525d4e5d2796f714519d38e82f7ac8d3de7a4f211a18fd25bef65",
-          "content_bytes": 4437,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "45d45c16743d3a73b6d3d4d6d8d533bd028a305232e5f78ccf310b6aea477d1f",
+          "content_bytes": 4440,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/rakib2021-macroalgae-bangladesh-metals.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/rakib2021-macroalgae-bangladesh-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ralston2014-selenium-hbv-methylmercury-seafood",
+        "title": "Selenium Health Benefit Values: Updated Criteria for Mercury Risk Assessments",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ralston2014-selenium-hbv-methylmercury-seafood",
+        "content_pin": {
+          "content_sha256": "50f6819b1b7c1f2be8e8503ee60ed01ab849924e804b4fd62941e7076d59af4d",
+          "content_bytes": 3743,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/ralston2014-selenium-hbv-methylmercury-seafood.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ramos-miras2023-pte-shrimp-ecuador",
+        "title": "Potentially toxic element bioaccumulation in consumed indoor shrimp farming associated with diet, water and sediment levels",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ramos-miras2023-pte-shrimp-ecuador",
+        "content_pin": {
+          "content_sha256": "f88ea5914d3d3cb69fd4bd39ea8f78bae2717b26d04c87f866a78da69ffcb5fa",
+          "content_bytes": 4564,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/ramos-miras2023-pte-shrimp-ecuador.md | sha256sum"
         }
       },
       {
@@ -88,12 +1965,193 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/razi-parjikolaei2016-red-macroalgae-metals",
         "content_pin": {
-          "content_sha256": "d4da64d1fdbab8868ea18c8e6c72b0e62de98d0cb4ee5273fbb0c46656625095",
-          "content_bytes": 3965,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "030122e96d1aeaaf0fca91185ed3b86b200bf6c5e18da5935099283bedf26e3d",
+          "content_bytes": 4114,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/razi-parjikolaei2016-red-macroalgae-metals.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/razi-parjikolaei2016-red-macroalgae-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/reksten2020-angola-fish-metals",
+        "title": "Nutrient and Contaminant Analyses of Five Commercially Important Fish Species from the Angolan Coast",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/reksten2020-angola-fish-metals",
+        "content_pin": {
+          "content_sha256": "698ab6e7cf1bc5ef20bf010dde3af02f444a75657754253c5343d44707af3dc6",
+          "content_bytes": 4409,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/reksten2020-angola-fish-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/reksten2021-bay-bengal-fish-metals",
+        "title": "Heavy Metal Contamination in 24 Fish Species from the Bay of Bengal: Risk Assessment for Human Health",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/reksten2021-bay-bengal-fish-metals",
+        "content_pin": {
+          "content_sha256": "20a8c76123d1e9f95227195fd3e397cc058a2c37f67fb84faee4273b4ce58242",
+          "content_bytes": 4591,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/reksten2021-bay-bengal-fish-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana",
+        "title": "Health Risk Assessment of Some Heavy Metals from Canned Tuna and Fish in Tijuana, Mexico",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Pb",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana",
+        "content_pin": {
+          "content_sha256": "1614d6bd699f702acf8550d4ef84c7504c08efe0dc9e5098eb9b2cc91ce90767",
+          "content_bytes": 8375,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rohonczy2024-arctic-foodweb-cd-hg",
+        "title": "Cadmium and mercury trophic transfer in the Arctic marine food web of Hudson Bay",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rohonczy2024-arctic-foodweb-cd-hg",
+        "content_pin": {
+          "content_sha256": "7860ba1e00de37ce69562e5c991bfc2271a3e18734c4882f5e2a3b496fb8bbea",
+          "content_bytes": 3270,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/rohonczy2024-arctic-foodweb-cd-hg.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/romero-estevez2020-bivalves-santa-rosa-ecuador",
+        "title": "An Overview of Cadmium, Chromium, and Lead Content in Bivalves Consumed by the Community of Santa Rosa Island (Ecuador) and Its Health Risk Assessment",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Cr",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/romero-estevez2020-bivalves-santa-rosa-ecuador",
+        "content_pin": {
+          "content_sha256": "04fa394768f17811c3bbf58dc87ec16a2d304ec499ec5164066f45654daf8ba4",
+          "content_bytes": 20459,
+          "last_commit_sha": "aa68e07",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aa68e07:wiki/sources/romero-estevez2020-bivalves-santa-rosa-ecuador.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sadee2024-arsenic-speciation-marine-organisms-review",
+        "title": "Recent developments in speciation and determination of arsenic in marine organisms using different analytical techniques. A review",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sadee2024-arsenic-speciation-marine-organisms-review",
+        "content_pin": {
+          "content_sha256": "f403c2568185945f0b3f4f8485b33cb130779765abc9c75873eeb104557fd6ce",
+          "content_bytes": 4696,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/sadee2024-arsenic-speciation-marine-organisms-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/schaefer2020-cadmium-mitigation-strategies",
+        "title": "Cadmium: Mitigation strategies to reduce dietary exposure",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/schaefer2020-cadmium-mitigation-strategies",
+        "content_pin": {
+          "content_sha256": "40f5d77a0e640452aeff971e9f7ee36bfe0bf290142666a36c959f772beb2aef",
+          "content_bytes": 10294,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sepulveda2020-callista-clam-metals",
+        "title": "Trace metals in two wild populations of the squalid callista clam (Megapitaria squalida) in the southeastern Gulf of California, Mexico",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cu",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Pb",
+          "Zn",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sepulveda2020-callista-clam-metals",
+        "content_pin": {
+          "content_sha256": "77006bc47b49c0b96e0286d765162fa898efd8f9002f6ace3774805d8a6e0209",
+          "content_bytes": 3100,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/sepulveda2020-callista-clam-metals.md | sha256sum"
         }
       },
       {
@@ -112,12 +2170,123 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shaughnessy2023-sugar-kelp-new-england-metals",
         "content_pin": {
-          "content_sha256": "21e5710442f93d8ef5173464ae4c76cbd39f22486ee1ac845989a0c0282931b3",
-          "content_bytes": 3941,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "a1c325ebf0167dc7b8dcde791e7117e40566d1903f17a87fb58bb499a6533ec2",
+          "content_bytes": 3944,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/shaughnessy2023-sugar-kelp-new-england-metals.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/shaughnessy2023-sugar-kelp-new-england-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel",
+        "title": "Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel",
+        "content_pin": {
+          "content_sha256": "66a2940de5ba236e013fd04dea09998569ffdc74df56c3c8e763ac109b0d8de0",
+          "content_bytes": 7474,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/shue2012-bivalves-tapeng-taiwan",
+        "title": "Seasonal variations of heavy metals in the bivalve's mollusks from Ta-Peng Bay lagoon in southwestern Taiwan",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cu",
+          "Zn",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/shue2012-bivalves-tapeng-taiwan",
+        "content_pin": {
+          "content_sha256": "c6489c9468f383b688294363c01a917cb7e5540594fc90737d716b6ce31aacc6",
+          "content_bytes": 15411,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/shue2012-bivalves-tapeng-taiwan.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/singhato2025-thailand-seafood-heavy-metals",
+        "title": "Risk Assessment of Toxic Heavy Metal Exposure in Selected Seafood Species from Thailand",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/singhato2025-thailand-seafood-heavy-metals",
+        "content_pin": {
+          "content_sha256": "f4d8ea4133abff6131810f443ed742cf07e27e65483dfb8fe489a9bac17f7c84",
+          "content_bytes": 23269,
+          "last_commit_sha": "b350787",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show b350787:wiki/sources/singhato2025-thailand-seafood-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/smolikova2016-heavy-metals-fish-czech",
+        "title": "Determination of heavy metals in fish products",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/smolikova2016-heavy-metals-fish-czech",
+        "content_pin": {
+          "content_sha256": "7cabd4c57944b7f483e012163dc67c1eb9dd5bfa9b97bf8c09eddf56e61ed8fb",
+          "content_bytes": 6584,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/smolikova2016-heavy-metals-fish-czech.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sonke2023-mercury-global-change",
+        "title": "Global change effects on biogeochemical mercury cycling",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sonke2023-mercury-global-change",
+        "content_pin": {
+          "content_sha256": "6bcbe59a371f3512a3ff1118af39c3a37afb1874c9c6fadfa9d5fbecf130a4d1",
+          "content_bytes": 4249,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/sonke2023-mercury-global-change.md | sha256sum"
         }
       },
       {
@@ -135,12 +2304,320 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sund2026-saccharina-pte-processing",
         "content_pin": {
-          "content_sha256": "b9b0d5f91d0cd4bb602a3c3277c94ca00c21cb17791d99c56af11c5ffd7b2dd8",
-          "content_bytes": 3817,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "60d95943be71779061b0b91867b4328f0336f99461c0779857ba9e0bfe4546f1",
+          "content_bytes": 3820,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/sund2026-saccharina-pte-processing.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/sund2026-saccharina-pte-processing.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/taylor2025-seafood-benefits-contaminants",
+        "title": "Seafood Benefits and Contaminants: A Comprehensive Review of Health Impacts, Safety Concerns, and Risk Mitigation Strategies",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg",
+          "Pb",
+          "Cd",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/taylor2025-seafood-benefits-contaminants",
+        "content_pin": {
+          "content_sha256": "2d8c302ece8fffaa4bd9815809c3a95215c21a17a9721aac0a90bee2ba08ca58",
+          "content_bytes": 4689,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/taylor2025-seafood-benefits-contaminants.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/usda-fas2023-china-gb2762-contaminants",
+        "title": "China Releases the Standard for Maximum Levels of Contaminants in Foods",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "MeHg",
+          "tAs",
+          "iAs",
+          "Sn",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/usda-fas2023-china-gb2762-contaminants",
+        "content_pin": {
+          "content_sha256": "d24e41721da73190949c9e0a468ec37b66423146a330691b1761e3b6d569c911",
+          "content_bytes": 15412,
+          "last_commit_sha": "27b0c53",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 27b0c53:wiki/sources/usda-fas2023-china-gb2762-contaminants.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/uzomah2021-nigeria-fish-contaminants",
+        "title": "Chemical Contaminants in Nigerian Fresh and Marine Fish: A Review",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "tAs",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/uzomah2021-nigeria-fish-contaminants",
+        "content_pin": {
+          "content_sha256": "4c2de49d92ba719c137e8859860f2e8701640192fbe8cc10c17f03321cc6b11e",
+          "content_bytes": 4612,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/uzomah2021-nigeria-fish-contaminants.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/vainio2022-baltic-mercury-food-web",
+        "title": "Trophic Dynamics of Mercury in the Baltic Archipelago Sea Food Web: The Impact of Ecological and Ecophysiological Traits",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/vainio2022-baltic-mercury-food-web",
+        "content_pin": {
+          "content_sha256": "f9e6394a222161e1d4924a7b9b0c26670d50af0b782a1e02fc8bd153195137e2",
+          "content_bytes": 5987,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/vainio2022-baltic-mercury-food-web.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/valencia2021-canacao-bay-oyster-pb-cd",
+        "title": "Heavy metal accumulation and risk assessment of lead and cadmium in cultured oysters (Crassostrea iredalei) of Cañacao Bay, Philippines",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/valencia2021-canacao-bay-oyster-pb-cd",
+        "content_pin": {
+          "content_sha256": "b3985e0fd73d22dae8c51152b615ffe40cec1c47f5fee6db90c240b3cea00c78",
+          "content_bytes": 20409,
+          "last_commit_sha": "3f56d4a",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3f56d4a:wiki/sources/valencia2021-canacao-bay-oyster-pb-cd.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/vejrup2022-prenatal-mehg-fish-behavior",
+        "title": "Prenatal methylmercury exposure from fish intake and child emotional and behavioural problems: results from the Norwegian Mother, Father and Child Cohort Study",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/vejrup2022-prenatal-mehg-fish-behavior",
+        "content_pin": {
+          "content_sha256": "6e02aad37a183de4c1c65afa1290de32ffa6a0538840a8855277e7ebfe864a64",
+          "content_bytes": 4357,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/vejrup2022-prenatal-mehg-fish-behavior.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/wang2023-climate-marine-mercury",
+        "title": "Climate-driven changes of global marine mercury cycles in 2100",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/wang2023-climate-marine-mercury",
+        "content_pin": {
+          "content_sha256": "78057510e9b3c29af1e377ea69d81b3b977e8233e9c98f3d65a8173aed261dab",
+          "content_bytes": 3370,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/wang2023-climate-marine-mercury.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/watanabe2017-retail-fish-mercury-methylmercury-japan",
+        "title": "Surveillance of Total Mercury and Methylmercury Concentrations in Retail Fish",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/watanabe2017-retail-fish-mercury-methylmercury-japan",
+        "content_pin": {
+          "content_sha256": "5cea3d47b7d12900498065e4aa8f66c0eac583ed1d7523d7547bf69bd3645320",
+          "content_bytes": 2602,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/watanabe2017-retail-fish-mercury-methylmercury-japan.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/willacker2023-mercury-fish-snake-river",
+        "title": "Reservoir Stratification Modulates the Influence of Impoundments on Fish Mercury Concentrations along an Arid Land River System",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/willacker2023-mercury-fish-snake-river",
+        "content_pin": {
+          "content_sha256": "9be588d19048f0f5b6d1b2e176a03509de66948ccc77235e80f1bd16637901a1",
+          "content_bytes": 4696,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/willacker2023-mercury-fish-snake-river.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/xia2025-whole-cell-biosensor-hg-food",
+        "title": "Replacing Manual Operation with Bio-Automation II: Construction of a Biological Digestion Gene Circuit to Eliminate the Interference of Food Matrices in the Rapid Detection of Heavy Metals",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/xia2025-whole-cell-biosensor-hg-food",
+        "content_pin": {
+          "content_sha256": "a2acf1da49c7bb5f4d338d63f0d3f75dcdcfcdb25a1864d25e8f689507e5d32a",
+          "content_bytes": 2988,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/xia2025-whole-cell-biosensor-hg-food.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/xu2025-heavy-metals-aquatic-foods-global",
+        "title": "Heavy metal risks in aquatic foods",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/xu2025-heavy-metals-aquatic-foods-global",
+        "content_pin": {
+          "content_sha256": "b71f7e3a9db837c169c921016f3872d1b8645a6e78c8a6c0c9b94e4b9c701dc5",
+          "content_bytes": 25766,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/xu2025-heavy-metals-aquatic-foods-global.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yamashita2024-laep-oes-hg-tuna-japan",
+        "title": "LAEP-OES validation for total mercury in tuna and fish from Japanese markets",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yamashita2024-laep-oes-hg-tuna-japan",
+        "content_pin": {
+          "content_sha256": "f07c2fa85b59e27701b3a0e177de9135e4b4980ae737b4a9502333329e1c1f1c",
+          "content_bytes": 3345,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/yamashita2024-laep-oes-hg-tuna-japan.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yap-almutairi2022-nickel-seafood-malaysia",
+        "title": "Comparative Study of Potentially Toxic Nickel and Their Potential Human Health Risks in Seafood (Fish and Mollusks) from Peninsular Malaysia",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yap-almutairi2022-nickel-seafood-malaysia",
+        "content_pin": {
+          "content_sha256": "41ef825e36dee0687c02b58c1c5c16a7338f615a48120b8603bd5db120063ba1",
+          "content_bytes": 14424,
+          "last_commit_sha": "2eb0dab",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 2eb0dab:wiki/sources/yap-almutairi2022-nickel-seafood-malaysia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zhao2024-toxic-metals-metalloids-food-review",
+        "title": "Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zhao2024-toxic-metals-metalloids-food-review",
+        "content_pin": {
+          "content_sha256": "8f831b32b3d45c1874496400ee966b3cd8daa5197cd89f5d7f8045f95546b989",
+          "content_bytes": 7425,
+          "last_commit_sha": "315a7b8",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 315a7b8:wiki/sources/zhao2024-toxic-metals-metalloids-food-review.md | sha256sum"
         }
       }
     ]

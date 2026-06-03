@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: cashews
 public_page: products/cashews
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 # Workbench standards snapshot — Cashews

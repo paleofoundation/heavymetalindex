@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 5
+sources: 9
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -57,7 +57,18 @@ The applicable regulatory jurisdictions for this row are: **FDA, EU, Codex**.
 ## Literature Evidence Summary
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-*Pending ingest. The routing layer will surface direct-row-fit sources here as they are added to the corpus with `products: [salt]` in source-page frontmatter.*
+## Literature Evidence Summary
+
+<!-- audience: regulator, educator, consumer, app -->
+
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Salt (table, sea, Himalayan). Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
+
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | Salt (table, sea, Himalayan) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | 1000 ppb | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Salt (table, sea, Himalayan) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | 500 ppb | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -106,8 +117,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/wu2021-edible-salt-soy-sauce-pb-cd\|Wu et al. 2021]]. *Determination of Trace Cd and Pb in Edible Salt and Soy Sauce by ETAAS Using Fluorescent Carbon Nanoparticles (FCNs) as Matrix Modifier*, Atomic Spectroscopy | 2021 | Peer-reviewed | CN Pb, Cd occurrence in Edible salt and soy sauce samples used for ETAAS method validation (n=2) |
-| 2 | [[sources/samsiyah2019-indonesia-salt-lead\|Samsiyah et al. 2019]]. *The Quality of Indonesia Salt: Study of Heavy Metal Lead (Pb) Levels in the Salt*, Jurnal Ilmiah Perikanan dan Kelautan | 2019 | Peer-reviewed | ID Pb occurrence in Salt from Pamekasan Regency, Indonesia |
+| 1 | [[sources/salaheldin2025-multimatrix-foods-egypt\|Salahel et al. 2025]]. *Assessment of toxic heavy metals in commonly consumed foods in Egypt and their implications for public health and safety*, Scientific Reports | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/usda-fas2023-china-gb2762-contaminants\|Staff et al. 2023]]. *China Releases the Standard for Maximum Levels of Contaminants in Foods*, USDA Foreign Agricultural Service GAIN Report CH2023-0040, FAIRS Subject Report, March 20, 2023 | 2023 | Government report | *[awaiting synthesis]* |
+| 3 | [[sources/wu2021-edible-salt-soy-sauce-pb-cd\|Wu et al. 2021]]. *Determination of Trace Cd and Pb in Edible Salt and Soy Sauce by ETAAS Using Fluorescent Carbon Nanoparticles (FCNs) as Matrix Modifier*, Atomic Spectroscopy | 2021 | Peer-reviewed | CN Pb, Cd occurrence in Edible salt and soy sauce samples used for ETAAS method validation (n=2) |
+| 4 | [[sources/samsiyah2019-indonesia-salt-lead\|Samsiyah et al. 2019]]. *The Quality of Indonesia Salt: Study of Heavy Metal Lead (Pb) Levels in the Salt*, Jurnal Ilmiah Perikanan dan Kelautan | 2019 | Peer-reviewed | ID Pb occurrence in Salt from Pamekasan Regency, Indonesia |
+| 5 | [[sources/health-canada2008-aluminum-food-additives-request\|Canada et al. 2008]]. *Health Canada Requests Information from Industry on the Use of Aluminum-Containing Food Additives*, Health Canada, Bureau of Chemical Safety, Food Directorate, July 3, 2008; archived Canada.ca page modified 2017-05-04 | 2008 | Government report | *[awaiting synthesis]* |
+| 6 | [[sources/jecfa2007-aluminium-methylmercury\|JECFA 2007]]. *Evaluation of certain food additives and contaminants: sixty-seventh report of the Joint FAO/WHO Expert Committee on Food Additives*, WHO Technical Report Series 940 | 2007 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -117,9 +132,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

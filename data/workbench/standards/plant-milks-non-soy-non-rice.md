@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: plant-milks-non-soy-non-rice
 public_page: products/plant-milks-non-soy-non-rice
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 # Workbench standards snapshot — Plant milks (almond, oat, coconut, other non-soy/non-rice)

@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 12
+sources: 14
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -110,11 +110,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 2 | [[sources/allwood2024-cpsc-childrens-product-lead-recalls\|Allwood et al. 2024]]. *Recently Recalled Children's Products Due to Lead Hazards*, Pediatrics | 2024 | Regulatory | *[awaiting synthesis]* |
 | 3 | [[sources/oeko-tex2024-new-limit-values\|Association 2024]]. *OEKO-TEX® Limit values: New regulations 2024*, OEKO-TEX® Service GmbH customer information notice, 09 January 2024, Zurich, Switzerland. Updates applicable test criteria, limit values, and requirements for the OEKO-TEX® STANDARD 100, ORGANIC COTTON, LEATHER STANDARD, ECO PASSPORT, and STeP certification labels; new values binding from 01 April 2024 after a three-month transition period. | 2024 | Industry | *[awaiting synthesis]* |
 | 4 | [[sources/cirs2023-reach-annex-xvii-restrictions\|CIRS – C&K Testing (Hangzhou C&K Testing Technic Co. 2023]]. *REACH ANNEX XVII — Restrictions on the Manufacture, Placing on the Market and Use of Certain Dangerous Substances, Mixtures and Articles*, CIRS – C&K Testing (Hangzhou C&K Testing Technic Co., Ltd), Hangzhou, China; downloadable consolidated reproduction of Annex XVII to EU REACH Regulation (EC) No 1907/2006; document header states 'Last update: 2023-07-17'. 64 pages, two-column 'Column 1 (substance or group) / Column 2 (conditions of restriction)' tabular layout reproducing entries 1 through 77. | 2023 | Industry | *[awaiting synthesis]* |
-| 5 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
-| 6 | [[sources/trumbull2017-wa-childrens-seasonal-products-2014-2015\|Trumbull et al. 2017]]. *Children's Seasonal Products Report 2014-2015*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 16-04-029 (January 2017) | 2017 | Regulatory | *[awaiting synthesis]* |
-| 7 | [[sources/stringer2001-greenpeace-pvc-children-products\|Stringer et al. 2001]]. *Toxic chemicals in a child's world: an investigation into PVC plastic products*, Greenpeace Research Laboratories, University of Exeter (UK); June 2001 | 2001 | NGO report | *[awaiting synthesis]* |
-| 8 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | *[awaiting synthesis]* |
-| 9 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | *[awaiting synthesis]* |
+| 5 | [[sources/eeb2022-eu-ecolabel-30-year-briefing\|European Environmental Bureau (EEB) 2022]]. *The EU Ecolabel celebrates its 30th birthday! What does the scheme stand for?*, Joint EEB/BEUC briefing on the EU Ecolabel scheme, October 2022 (26-page civil-society briefing marking the 30th anniversary of the EU Ecolabel; contacts blanca.morales@eeb.org and miriam.thiemann@eeb.org) | 2022 | NGO report | *[awaiting synthesis]* |
+| 6 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
+| 7 | [[sources/trumbull2017-wa-childrens-seasonal-products-2014-2015\|Trumbull et al. 2017]]. *Children's Seasonal Products Report 2014-2015*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 16-04-029 (January 2017) | 2017 | Regulatory | *[awaiting synthesis]* |
+| 8 | [[sources/stringer2001-greenpeace-pvc-children-products\|Stringer et al. 2001]]. *Toxic chemicals in a child's world: an investigation into PVC plastic products*, Greenpeace Research Laboratories, University of Exeter (UK); June 2001 | 2001 | NGO report | *[awaiting synthesis]* |
+| 9 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | *[awaiting synthesis]* |
+| 10 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | *[awaiting synthesis]* |
+| 11 | [[sources/yamada1993-organotin-household-commodities\|Yamada et al. 1993]]. *Small-Scale Survey of Organotin Compounds in Household Commodities*, Journal of AOAC International, Vol. 76, No. 2, pp. 436–441 | 1993 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -124,9 +126,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

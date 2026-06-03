@@ -109,6 +109,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [414629f](https://github.com/paleofoundation/heavymetalindex/commit/414629f) | 2026-06-02 | audit: rempelos2023-vegetable-organic-conventional-metals revised |
 | [e1f4391](https://github.com/paleofoundation/heavymetalindex/commit/e1f4391) | 2026-06-02 | ingest: rempelos2023-vegetable-organic-conventional-metals enhanced from Manual Fetch Kimi/June 2 Manual Fetches |
 | [d82d851](https://github.com/paleofoundation/heavymetalindex/commit/d82d851) | 2026-06-02 | ingest June 2: rempelos2023-vegetable-organic-conventional-metals |

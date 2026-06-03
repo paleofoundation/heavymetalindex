@@ -17,18 +17,42 @@
     "canonical_url": "https://heavymetalindex.com/products/hair-removal-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1dd62aa0fb49b575016f4e421182c0339cc41c44410321837786bca997c21bb2",
-      "content_bytes": 7977,
-      "last_commit_sha": "566c7b2",
+      "content_sha256": "f0463500e932c101390a6979b28282d7f5243ccbae328db77bbde15e1b416059",
+      "content_bytes": 8385,
+      "last_commit_sha": "315a7b8",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/hair-removal-products.md | sha256sum"
+      "verify_command": "git show 315a7b8:wiki/products/hair-removal-products.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
+        "title": "Sources of contaminants in domestic wastewater: nutrients and additional elements from household products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sb",
+          "Cr",
+          "Co",
+          "Mo",
+          "Se"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
+        "content_pin": {
+          "content_sha256": "71c6bf53a66d9996f89ede7057c878a04fff36d5ebae1aee0fdb12af05402634",
+          "content_bytes": 31334,
+          "last_commit_sha": "a7df828",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show a7df828:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/us-epa-2011-efh-chapter17-consumer-products",
         "title": "Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products",
@@ -39,12 +63,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "427273f75081fa544d566bb65cd9a87e0fcd773957452c41bd3fca02ef8d64ff",
-          "content_bytes": 30966,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "c75179b93ae603e97c891c147d9affeb8ce2ffc636f5a025210f8fb82d399540",
+          "content_bytes": 31115,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       }
     ]

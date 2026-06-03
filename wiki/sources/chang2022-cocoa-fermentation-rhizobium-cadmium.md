@@ -63,3 +63,13 @@ Microbiome: The study uses a microbial inoculant during fermentation, but it doe
 ## Verification notes
 
 The PDF title, byline, citation block, DOI, journal, treatment table, and methods were read from the source PDF. The abstract's "36 to 29 mg/kg" statement appears inconsistent with Table 16's 0.36 to 0.29 mg/kg values; this page uses Table 16 as the extraction basis and records the discrepancy.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cc9e662](https://github.com/paleofoundation/heavymetalindex/commit/cc9e662) | 2026-06-03 | ingest auto-fetched 2026-06-03: chang2022-cocoa-fermentation-rhizobium-cadmium |
+<!-- END: hmi-page-history -->

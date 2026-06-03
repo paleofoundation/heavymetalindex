@@ -130,5 +130,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [5f73e04](https://github.com/paleofoundation/heavymetalindex/commit/5f73e04) | 2026-06-02 | ingest June 2: sun2023-biochar-rice-cadmium-field |
 <!-- END: hmi-page-history -->

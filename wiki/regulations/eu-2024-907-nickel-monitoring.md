@@ -38,3 +38,13 @@ The recommendation states the EU's own conclusion that current dietary nickel ex
 
 - [[sources/eu-2024-907-nickel-monitoring-recommendation|Commission Recommendation (EU) 2024/907]] — primary Official Journal text, ingested 2026-06-03.
 - [[sources/efsa-nickel-contam-2020|EFSA Ni 2020]] — the risk assessment the recommendation recites.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0aa71d5](https://github.com/paleofoundation/heavymetalindex/commit/0aa71d5) | 2026-06-03 | ingest: EU 2024/907 nickel-monitoring recommendation + EFSA exceedance; ground Brief 7 nickel in primaries |
+<!-- END: hmi-page-history -->

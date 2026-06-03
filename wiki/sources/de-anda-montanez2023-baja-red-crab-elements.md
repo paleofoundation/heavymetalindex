@@ -108,6 +108,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [cd700b2](https://github.com/paleofoundation/heavymetalindex/commit/cd700b2) | 2026-06-02 | ingest: de-anda-montanez2023-baja-red-crab-elements enhanced from Manual Fetch Kimi/June 2 Manual Fetches |
 | [04eb973](https://github.com/paleofoundation/heavymetalindex/commit/04eb973) | 2026-06-02 | ingest June 2: de-anda-montanez2023-baja-red-crab-elements |
 <!-- END: hmi-page-history -->

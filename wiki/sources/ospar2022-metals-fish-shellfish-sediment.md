@@ -206,3 +206,14 @@ Sediment threshold values are reported with European-style decimal commas in the
 - [[products/seafood]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/eu-reg-2022-617-mercury-fish]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [57ef202](https://github.com/paleofoundation/heavymetalindex/commit/57ef202) | 2026-06-03 | audit: ospar2022-metals-fish-shellfish-sediment [revised] |
+| [b852b9b](https://github.com/paleofoundation/heavymetalindex/commit/b852b9b) | 2026-06-03 | ingest: ospar2022-metals-fish-shellfish-sediment [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory |
+<!-- END: hmi-page-history -->

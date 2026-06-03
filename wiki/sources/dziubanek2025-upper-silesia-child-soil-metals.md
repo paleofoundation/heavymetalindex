@@ -129,5 +129,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [3564f26](https://github.com/paleofoundation/heavymetalindex/commit/3564f26) | 2026-06-02 | ingest June 2: dziubanek2025-upper-silesia-child-soil-metals |
 <!-- END: hmi-page-history -->

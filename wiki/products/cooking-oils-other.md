@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 24
+sources: 27
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -51,7 +51,21 @@ The applicable regulatory jurisdictions for this row are: **FDA, EU, Codex**.
 ## Literature Evidence Summary
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-*Pending ingest. The routing layer will surface direct-row-fit sources here as they are added to the corpus with `products: [cooking-oils-other]` in source-page frontmatter.*
+## Literature Evidence Summary
+
+<!-- audience: regulator, educator, consumer, app -->
+
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Other cooking oils (canola, sunflower, coconut, avocado, sesame). Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
+
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | Other cooking oils (canola, sunflower, coconut, avocado, sesame) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | 100 ppb | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Other cooking oils (canola, sunflower, coconut, avocado, sesame) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/arsenic-total\|tAs]] | Other cooking oils (canola, sunflower, coconut, avocado, sesame) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/nickel\|Ni]] | Other cooking oils (canola, sunflower, coconut, avocado, sesame) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/chromium\|Cr]] | Other cooking oils (canola, sunflower, coconut, avocado, sesame) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -114,16 +128,19 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 12 | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|González-Torres et al. 2023]]. *Comparative Study of the Presence of Heavy Metals in Edible Vegetable Oils*, Applied Sciences | 2023 | Peer-reviewed | ES/EU/CN Pb, Cd, Cu, Fe, Ni, Sb occurrence in Systematic literature review: 35 vegetable oil types from 24 countries; studies published 2015–2022; n=64 studies synthesized (n=64) |
 | 13 | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|Nazari et al. 2023]]. *Impacts of Heavy Metals in Seed Crops and Oil Seed on Human Health: A Threat to Food Safety — Review*, Carpathian Journal of Food Science and Technology, 15(2), 106-124 | 2023 | Review | global/IR tAs, Pb, Cd, tHg, Ni, Cr occurrence in Review of published literature on heavy metals in oilseeds and vegetable/seed oils globally; no primary data collection |
 | 14 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu et al. 2023]]. *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*, Foods | 2023 | Peer-reviewed | IR/CN/GR Pb, Cd, tAs, Ni, Cr, tHg, Al, Cu, Zn occurrence in Narrative literature review covering heavy metals in fruits and vegetables, milk and dairy, meat, edible oils, wine, and... |
-| 15 | [[sources/kheirati-rounizi2021-sesame-oil-heavy-metals\|Rounizi et al. 2021]]. *The chemical composition and heavy metal content of sesame oil produced by different methods: A risk assessment study*, Food Science & Nutrition | 2021 | Peer-reviewed | IR Pb, Cd, tAs, Zn, Cu occurrence in sesame seed plus Ardeh, virgin, and refined sesame oil preparations; Table 5 Pb values retained over conflicting narrative text. |
-| 16 | [[sources/alrajhi2020-riyadh-edible-oils-trace-metals\|Alrajhi et al. 2020]]. *Concentration of Trace Metals in Some Major Edible Oils of Riyadh*, Revista Internacional de Contaminacion Ambiental | 2020 | Peer-reviewed | SA Cd, Cr, Cu, Fe, Mn, Ni, Zn, Al, Pb, tAs, Se occurrence in 54 edible vegetable oil samples (soybean, palm, and olive oils) from Riyadh supermarkets. |
-| 17 | [[sources/luka2019-northern-cyprus-olive-oil-metals\|Luka et al. 2019]]. *Investigation of trace metals in different varieties of olive oils from northern Cyprus and their variation in accumulation using ICP-MS and multivariate techniques*, Environmental Earth Sciences | 2019 | Peer-reviewed | *[awaiting synthesis]* |
-| 18 | [[sources/ziarati2019-iranian-italian-flavoured-olive-oil\|Ziarati et al. 2019]]. *Determination of Toxic Metals Content in Iranian and Italian Flavoured Olive Oil*, Acta Technologica Agriculturae | 2019 | Peer-reviewed | IR/IT Pb, Cd, Ni, tAs occurrence in Commercial olive oil samples (non-flavoured and flavoured: fungi, aroma vegetables, pepper) purchased from Lombardy, Italy and Tehran, Iran... (n=480) |
-| 19 | [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia\|Tesfaye et al. 2016]]. *Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils*, Advances in Chemistry | 2016 | Peer-reviewed | *[awaiting synthesis]* |
-| 20 | [[sources/acar2012-vegetable-oils-olives-turkey-etaas\|Acar 2012]]. *Evaluation of cadmium, lead, copper, iron and zinc in Turkish dietary vegetable oils and olives using electrothermal and flame atomic absorption spectrometry*, Grasas y Aceites | 2012 | Peer-reviewed | *[awaiting synthesis]* |
-| 21 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*, Asian Journal of Chemistry (Uncorrected Proof) | 2012 | Peer-reviewed | SA Pb, Cd, tAs, Cu, Zn, Fe, Mn occurrence in 161 edible vegetable oil samples (32 corn, 28 sunflower, 21 soybean, 19 sesame, 17 rapeseed, 17 peanut, 27... (n=161) |
-| 22 | [[sources/zhu2011-edible-vegetable-oils-china-8-metals\|Zhu et al. 2011]]. *Health risk assessment of eight heavy metals in nine varieties of edible vegetable oils consumed in China*, Food and Chemical Toxicology | 2011 | Peer-reviewed | *[awaiting synthesis]* |
-| 23 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | TR Pb, Cd, Cu, Fe, Mn, Co, Cr, Ni, Zn occurrence in 17 edible vegetable oil samples from Turkish food markets: soybean, hazelnut, almond, natural olive, riviera olive (3 types),... (n=17) |
-| 24 | [[sources/chen2001-edible-fats-oils-arsenic\|Chen et al. 2001]]. *Determination of arsenic in edible fats and oils by focused microwave digestion and atomic fluorescence spectrometer*, Journal of Food and Drug Analysis | 2001 | Peer-reviewed | *[awaiting synthesis]* |
+| 15 | [[sources/enemuor2021-kogi-palm-oil-heavy-metals\|Enemuor et al. 2021]]. *Heavy metals and microbial contamination of palm oil produced and sold at some markets in Kogi East Area, Kogi State, Nigeria*, African Journal of Microbiology Research | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 16 | [[sources/kheirati-rounizi2021-sesame-oil-heavy-metals\|Rounizi et al. 2021]]. *The chemical composition and heavy metal content of sesame oil produced by different methods: A risk assessment study*, Food Science & Nutrition | 2021 | Peer-reviewed | IR Pb, Cd, tAs, Zn, Cu occurrence in sesame seed plus Ardeh, virgin, and refined sesame oil preparations; Table 5 Pb values retained over conflicting narrative text. |
+| 17 | [[sources/alrajhi2020-riyadh-edible-oils-trace-metals\|Alrajhi et al. 2020]]. *Concentration of Trace Metals in Some Major Edible Oils of Riyadh*, Revista Internacional de Contaminacion Ambiental | 2020 | Peer-reviewed | SA Cd, Cr, Cu, Fe, Mn, Ni, Zn, Al, Pb, tAs, Se occurrence in 54 edible vegetable oil samples (soybean, palm, and olive oils) from Riyadh supermarkets. |
+| 18 | [[sources/olafisoye2020-virgin-palm-oil-metals\|Olafisoye et al. 2020]]. *Synthetic antioxidants and metallic elements as additives/contaminants in virgin palm oil*, Asian Journal of Agriculture and Biology | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 19 | [[sources/samuel2020-palm-oil-metals-nigeria\|Samuel et al. 2020]]. *Variations on the physiochemical, microbiological and selected heavy metals of different palm oil samples sourced from Galadima, Tarauni, Sabon-Gari, Yan-Kura of Kano State and samples from Kogi and Edo States of Nigeria*, Chemical Sciences Journal | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 20 | [[sources/luka2019-northern-cyprus-olive-oil-metals\|Luka et al. 2019]]. *Investigation of trace metals in different varieties of olive oils from northern Cyprus and their variation in accumulation using ICP-MS and multivariate techniques*, Environmental Earth Sciences | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 21 | [[sources/ziarati2019-iranian-italian-flavoured-olive-oil\|Ziarati et al. 2019]]. *Determination of Toxic Metals Content in Iranian and Italian Flavoured Olive Oil*, Acta Technologica Agriculturae | 2019 | Peer-reviewed | IR/IT Pb, Cd, Ni, tAs occurrence in Commercial olive oil samples (non-flavoured and flavoured: fungi, aroma vegetables, pepper) purchased from Lombardy, Italy and Tehran, Iran... (n=480) |
+| 22 | [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia\|Tesfaye et al. 2016]]. *Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils*, Advances in Chemistry | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 23 | [[sources/acar2012-vegetable-oils-olives-turkey-etaas\|Acar 2012]]. *Evaluation of cadmium, lead, copper, iron and zinc in Turkish dietary vegetable oils and olives using electrothermal and flame atomic absorption spectrometry*, Grasas y Aceites | 2012 | Peer-reviewed | *[awaiting synthesis]* |
+| 24 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*, Asian Journal of Chemistry (Uncorrected Proof) | 2012 | Peer-reviewed | SA Pb, Cd, tAs, Cu, Zn, Fe, Mn occurrence in 161 edible vegetable oil samples (32 corn, 28 sunflower, 21 soybean, 19 sesame, 17 rapeseed, 17 peanut, 27... (n=161) |
+| 25 | [[sources/zhu2011-edible-vegetable-oils-china-8-metals\|Zhu et al. 2011]]. *Health risk assessment of eight heavy metals in nine varieties of edible vegetable oils consumed in China*, Food and Chemical Toxicology | 2011 | Peer-reviewed | *[awaiting synthesis]* |
+| 26 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | TR Pb, Cd, Cu, Fe, Mn, Co, Cr, Ni, Zn occurrence in 17 edible vegetable oil samples from Turkish food markets: soybean, hazelnut, almond, natural olive, riviera olive (3 types),... (n=17) |
+| 27 | [[sources/chen2001-edible-fats-oils-arsenic\|Chen et al. 2001]]. *Determination of arsenic in edible fats and oils by focused microwave digestion and atomic fluorescence spectrometer*, Journal of Food and Drug Analysis | 2001 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -133,9 +150,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [d86ebb7](https://github.com/paleofoundation/heavymetalindex/commit/d86ebb7) | 2026-06-02 | ingest June 2: alrajhi2020-riyadh-edible-oils-trace-metals |
 | [012e2a5](https://github.com/paleofoundation/heavymetalindex/commit/012e2a5) | 2026-06-02 | ingest June 2: kheirati-rounizi2021-sesame-oil-heavy-metals |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

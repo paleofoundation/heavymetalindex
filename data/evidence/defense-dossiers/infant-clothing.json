@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/infant-clothing",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3a1b25daffbbbe3e690f57ad2a2d6254b7ac5d26ed0a6f22003ae955ba6d64de",
-      "content_bytes": 10932,
-      "last_commit_sha": "566c7b2",
+      "content_sha256": "6b651d0fb49714f93755e460e61789e6e293297739161b69eb38efcd8536c196",
+      "content_bytes": 11632,
+      "last_commit_sha": "315a7b8",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/infant-clothing.md | sha256sum"
+      "verify_command": "git show 315a7b8:wiki/products/infant-clothing.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 9,
+    "contributing_source_count": 11,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/allwood2024-cpsc-childrens-product-lead-recalls",
         "content_pin": {
-          "content_sha256": "881d26bde4395022818ea75946261305bab9827a071b7d64b9a7156ae0a544f5",
-          "content_bytes": 27087,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "d79895b9c2a32afdde11b6dd08b6d356600ad51ecf0ccf3ef058307f70ebaa48",
+          "content_bytes": 27236,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/allwood2024-cpsc-childrens-product-lead-recalls.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/allwood2024-cpsc-childrens-product-lead-recalls.md | sha256sum"
         }
       },
       {
@@ -68,12 +68,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cirs2023-reach-annex-xvii-restrictions",
         "content_pin": {
-          "content_sha256": "38ecb209bd6b6ad66d2aa5e45a6a5331522599362e810c30423965c9d6e4050c",
-          "content_bytes": 34217,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "f74b3f4d59947548dbeb1755ac9de0bf50c02a9f48fe326450bdec20571139f7",
+          "content_bytes": 34366,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
         }
       },
       {
@@ -89,12 +89,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc1997-pvc-children-products",
         "content_pin": {
-          "content_sha256": "08374ffe7ea6d48091e338638ce1368dc0491c975da1f4e560bc823252bed9e0",
-          "content_bytes": 29211,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "d26e1211748ce98dfb15b8747d40336d34c41bcf6b5a0fb9ef3106da979273eb",
+          "content_bytes": 29214,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/cpsc1997-pvc-children-products.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/cpsc1997-pvc-children-products.md | sha256sum"
         }
       },
       {
@@ -110,12 +110,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/digangi1997-greenpeace-vinyl-children-products",
         "content_pin": {
-          "content_sha256": "957f3126d7c4de5153c7090b1602eaf34b4e0bd4c7266632bde45b3cde6fb482",
-          "content_bytes": 38614,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "c25c881e8388fa5ab262d769bceca815c6689bddd05e7a44f60841d0c4b90321",
+          "content_bytes": 38617,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/digangi1997-greenpeace-vinyl-children-products.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/digangi1997-greenpeace-vinyl-children-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/eeb2022-eu-ecolabel-30-year-briefing",
+        "title": "The EU Ecolabel celebrates its 30th birthday! What does the scheme stand for?",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/eeb2022-eu-ecolabel-30-year-briefing",
+        "content_pin": {
+          "content_sha256": "c72b50fad9652beefcf938f73ec9ad4adab0d2a79d2013c2506fdcc108f2a241",
+          "content_bytes": 31789,
+          "last_commit_sha": "b7896be",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show b7896be:wiki/sources/eeb2022-eu-ecolabel-30-year-briefing.md | sha256sum"
         }
       },
       {
@@ -137,12 +157,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/oeko-tex2024-new-limit-values",
         "content_pin": {
-          "content_sha256": "f89fee4e2c3ac5d36b24838d84af4ea9173c6396dcea1767b540fbfdb5ccb500",
-          "content_bytes": 22270,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "213f6d9fee16703d8c740703d281c2f43bc6ba6f507aac22c5df7b4fb723f33b",
+          "content_bytes": 22419,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
         }
       },
       {
@@ -166,12 +186,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
         "content_pin": {
-          "content_sha256": "7ce8663650e1d381a92ff9c119e4070cf64d3921c189fde8b1abd2e4e8872527",
-          "content_bytes": 39424,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "6b99faeb58f5adef16654f98db475fa03f0d3efa7e9a7a48777976e791e4e519",
+          "content_bytes": 39427,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
         }
       },
       {
@@ -188,12 +208,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stringer2001-greenpeace-pvc-children-products",
         "content_pin": {
-          "content_sha256": "7552742d8f8721f8086eb8862620fe0612c4fe6c21382dc94bc3051fedee3233",
-          "content_bytes": 33035,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "414aea2a06b893205c44fe02618274e67299a17813c4fff86f53fdc9edf62f51",
+          "content_bytes": 33184,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
         }
       },
       {
@@ -214,12 +234,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015",
         "content_pin": {
-          "content_sha256": "0e70567316093ab9827fe0d6d4a34af7714c3430b205e4c8297db6159f09968c",
-          "content_bytes": 40350,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "11db102e25299f4380544126af8fc5054e0fc07bac2354282d15b1c1b2c75c06",
+          "content_bytes": 40499,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015.md | sha256sum"
         }
       },
       {
@@ -242,12 +262,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/xiong2025-heavy-metals-infant-clothing",
         "content_pin": {
-          "content_sha256": "6401509b59c9a116a9eb13237f06f05b96af6f72921e9db7e3e5b9c8f1f0d647",
-          "content_bytes": 20116,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "29c2e20376d19fa6b4ac81769af4eb349e7e8667f1c8b02f1b40292c3e1eeeec",
+          "content_bytes": 20119,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/xiong2025-heavy-metals-infant-clothing.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/xiong2025-heavy-metals-infant-clothing.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yamada1993-organotin-household-commodities",
+        "title": "Small-Scale Survey of Organotin Compounds in Household Commodities",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yamada1993-organotin-household-commodities",
+        "content_pin": {
+          "content_sha256": "a222dc558beff222e7001763cd0b4e75f8a108b953f3d7766c8d73554ee9c41b",
+          "content_bytes": 27696,
+          "last_commit_sha": "ec819b5",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ec819b5:wiki/sources/yamada1993-organotin-household-commodities.md | sha256sum"
         }
       }
     ]

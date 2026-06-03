@@ -67,3 +67,13 @@ App: Route as broad mixed-spice evidence for Libya, with no brand-level extracti
 - The PDF names several commercial sample labels in the methods section; this source page keeps the finding at category level under the brand firewall.
 - The article body gives arsenic as 0.09 +/- 0.03 ppm in Table 2, while the abstract and conclusion give 0.086 +/- 0.03 ppm. This page records both and treats Table 2 as the table value for routing.
 - The DOI and publication metadata are taken from the first page of the PDF.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7a62517](https://github.com/paleofoundation/heavymetalindex/commit/7a62517) | 2026-06-03 | ingest auto-fetched 2026-06-03: bahrouna2025-zawia-spices-metals |
+<!-- END: hmi-page-history -->

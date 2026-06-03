@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-foils-wraps",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "adf3403f42de2132a85e255fd0b1c27d907729dae110245cc192243ed13e0910",
-      "content_bytes": 8129,
-      "last_commit_sha": "566c7b2",
+      "content_sha256": "31d2fcd372171afa278958c8e584c59b53b244206bb517e5fab365a5d43811a5",
+      "content_bytes": 8347,
+      "last_commit_sha": "315a7b8",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/food-packaging-foils-wraps.md | sha256sum"
+      "verify_command": "git show 315a7b8:wiki/products/food-packaging-foils-wraps.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -41,12 +41,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bassioni2012-aluminum-foil-meat-cooking-uae",
         "content_pin": {
-          "content_sha256": "f2998ffcfe1825f018167bdf88312f045e58fc1dc53f9d54938851fcb7b9a2e7",
-          "content_bytes": 16626,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "28008da40daf007cb1f4d2a5e2f668d8325b6f944cb99db9ef5d04480d70a69a",
+          "content_bytes": 16775,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/bassioni2012-aluminum-foil-meat-cooking-uae.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/bassioni2012-aluminum-foil-meat-cooking-uae.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bfr2020-aluminium-faq-consumer-products",
+        "title": "FAQs about aluminium in food and products intended for consumers",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bfr2020-aluminium-faq-consumer-products",
+        "content_pin": {
+          "content_sha256": "2e91013fdd27a485a6aa2e6211078c2a75ca947b7d8e4b99115960c4a4c04a39",
+          "content_bytes": 14289,
+          "last_commit_sha": "0123eaf",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 0123eaf:wiki/sources/bfr2020-aluminium-faq-consumer-products.md | sha256sum"
         }
       },
       {
@@ -61,12 +81,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dordevic2019-aluminum-foil-culinary-baking-czech",
         "content_pin": {
-          "content_sha256": "0c57ab2bb6f49f0ba20a8d5a7c98fd52b2f262f18ea59e1afd4d8bb786416e6a",
-          "content_bytes": 14624,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "6593a91fd35bda67d54e307594a1ceea129b70f2d53846667ae9b51172cf7a73",
+          "content_bytes": 14773,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/dordevic2019-aluminum-foil-culinary-baking-czech.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/dordevic2019-aluminum-foil-culinary-baking-czech.md | sha256sum"
         }
       }
     ]

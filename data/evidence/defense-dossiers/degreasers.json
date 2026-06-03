@@ -17,18 +17,93 @@
     "canonical_url": "https://heavymetalindex.com/products/degreasers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e2be44b3ab0922f2120507c2519f4c9fd7c957d37d6b051a38daede19807366c",
-      "content_bytes": 7175,
-      "last_commit_sha": "566c7b2",
+      "content_sha256": "35815ba9cb7652b92b8ab3971effde3c01b1231b10170af1352fc675eb57fbca",
+      "content_bytes": 9952,
+      "last_commit_sha": "315a7b8",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/degreasers.md | sha256sum"
+      "verify_command": "git show 315a7b8:wiki/products/degreasers.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/davidsuzuki2014-toxic-household-cleaners",
+        "title": "The dirt on toxic chemicals in household cleaning products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "As",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/davidsuzuki2014-toxic-household-cleaners",
+        "content_pin": {
+          "content_sha256": "a98b0be1da6a0a001703e932ca9ebd32266a4571cee9a99ea7488a0d64c04340",
+          "content_bytes": 21941,
+          "last_commit_sha": "2401454",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 2401454:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/greenseal2024-gs37-industrial-institutional-cleaners",
+        "title": "GS-37: Green Seal Standard for Cleaning Products for Industrial and Institutional Use — Edition 7.8 (New Format), June 23, 2022 (corrections/clarifications last made August 23, 2024)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "[[metals/lead]]",
+          "[[metals/mercury]]",
+          "[[metals/cadmium]]",
+          "[[metals/chromium-hexavalent]]",
+          "[[metals/arsenic]]",
+          "[[metals/nickel]]",
+          "[[metals/cobalt]]",
+          "[[metals/manganese]]"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/greenseal2024-gs37-industrial-institutional-cleaners",
+        "content_pin": {
+          "content_sha256": "497fa7001d86ae582cf7e43cacac9330387bb43f0ab14602458659f58f8f5e06",
+          "content_bytes": 66677,
+          "last_commit_sha": "cc102c1",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show cc102c1:wiki/sources/greenseal2024-gs37-industrial-institutional-cleaners.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nydec2020-cleansing-product-disclosure-bmp",
+        "title": "Cleansing Product Information Disclosure Program — Recommended Best Management Practices",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Cr-VI",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
+        "content_pin": {
+          "content_sha256": "060e23ac265329cd97139e062188a861c3219dec6444dce1bd56f85fef7adc6e",
+          "content_bytes": 48581,
+          "last_commit_sha": "d99267a",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d99267a:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

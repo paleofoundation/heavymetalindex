@@ -110,3 +110,14 @@ The retail-survey subset (n=9, 5 anonymized product groups) is too small to anch
 - The paper's filename mentions "Eastern Pacific" - the work is on Ecuadorean canneries processing eastern-Pacific catches; jurisdictions tag retains EC (Ecuador, production and retail) and EU (the regulatory comparator under which the dataset was generated for export QA).
 - The paper engages only EU Commission Regulation 1881/2006 and FDA as comparator frameworks; it does not cite Ecuador NTE INEN 184:2013. The `[[regulations/ecuador-nte-inen-184-2013-canned-tuna]]` cross-link in the touch-points section is therefore jurisdictional context (this is the Ecuadorian rule that applies to the product category the paper studies), not a regulation the paper itself analyzes.
 - 2026-06-03 Claude audit subagent (fresh context) verdict: PROMOTE. 5/5 checks clean. One minor polish applied: clarified NTE INEN 184 cross-link as jurisdictional context per the subagent's Check 2 note.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5a4044e](https://github.com/paleofoundation/heavymetalindex/commit/5a4044e) | 2026-06-03 | audit: ormaza-gonzalez2020-tuna-canned-eastern-pacific promoted |
+| [ba8be0a](https://github.com/paleofoundation/heavymetalindex/commit/ba8be0a) | 2026-06-03 | ingest: ormaza-gonzalez2020-tuna-canned-eastern-pacific fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/03_Marine_Predatory |
+<!-- END: hmi-page-history -->

@@ -65,3 +65,13 @@ App: Ingredient-level cocoa and chocolate Cd risk should retain a geography and 
 ## Verification notes
 
 The PDF title, byline, DOI, journal, license, farm geography, treatment rates, analytical methods, total soil Cd range, compost Cd concentration, humus-fraction table values, recovery values, and correlation findings were read from the source PDF. The source reports total cadmium; it does not provide lead, arsenic, mercury, nickel, chromium, tin, aluminum, or uranium occurrence values. The main PDF text does not provide a simple cacao-bean Cd distribution table, so this page does not infer one.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2c20366](https://github.com/paleofoundation/heavymetalindex/commit/2c20366) | 2026-06-03 | ingest auto-fetched 2026-06-03: gutierrez2022-ecuador-cacao-cadmium-compost |
+<!-- END: hmi-page-history -->

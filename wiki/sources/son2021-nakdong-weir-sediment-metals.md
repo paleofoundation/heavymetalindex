@@ -168,5 +168,8 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aeb3d84](https://github.com/paleofoundation/heavymetalindex/commit/aeb3d84) | 2026-06-03 | audit: son2021-nakdong-weir-sediment-metals revised |
+| [549d33d](https://github.com/paleofoundation/heavymetalindex/commit/549d33d) | 2026-06-03 | ingest: son2021-nakdong-weir-sediment-metals enhanced from Manual Fetch Kimi /June 2 Manual Fetches |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [fc42e25](https://github.com/paleofoundation/heavymetalindex/commit/fc42e25) | 2026-06-02 | ingest June 2: son2021-nakdong-weir-sediment-metals |
 <!-- END: hmi-page-history -->

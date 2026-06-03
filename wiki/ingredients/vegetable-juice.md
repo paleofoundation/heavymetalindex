@@ -83,7 +83,7 @@ used_in_products: [vegetable-juices-non-root, vegetable-juices-root-vegetable-co
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 0
+sources: 1
 ---
 
 # Vegetable juice
@@ -115,9 +115,16 @@ This node is linked from [[products/vegetable-juices-non-root]], [[products/vege
 
 The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-No source pages are currently cited for this ingredient node.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/jecfa2006-cadmium-inorganic-tin\|JECFA 2006]]. *Evaluation of certain food contaminants: sixty-fourth report of the Joint FAO/WHO Expert Committee on Food Additives*, WHO Technical Report Series 930 | 2006 | Government report | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+
 ## Why this commodity accumulates heavy metals
 
 Vegetable juice is the liquid extracted or processed from vegetables (tomato juice, carrot juice, beet juice, celery juice, and mixed-vegetable products like V8). Vegetable juice carries the source-[[ingredients/vegetables|vegetable]] heavy-metal profile, concentrated per-mass via water-content removal during juicing or evaporation. Different vegetable types contribute different baseline metal profiles: [[ingredients/tomato-paste|tomato]] juice carries source-tomato Cd; [[ingredients/carrots|carrot]] juice carries source-carrot Pb and Cd at moderate concentrations; [[ingredients/beet|beet]] juice can carry higher Pb because beet (Beta vulgaris) is a moderate Pb accumulator; leafy-vegetable juice (kale, spinach, parsley juices in cold-pressed and craft-juice formulations) carries the leafy-greens Cd and Pb at concentrated per-mass levels. The HMTc panel concerns for vegetable juice are Pb and Cd (dominant), iAs in juice from vegetables grown in As-affected regions, and Sn for canned vegetable juices including canned tomato juice.
@@ -163,9 +170,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

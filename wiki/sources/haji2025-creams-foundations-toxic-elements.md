@@ -102,6 +102,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [af80083](https://github.com/paleofoundation/heavymetalindex/commit/af80083) | 2026-06-02 | audit revise haji2025 creams foundations source |
 | [dfd45d4](https://github.com/paleofoundation/heavymetalindex/commit/dfd45d4) | 2026-06-02 | ingest auto-fetched 2026-06-02: haji2025-creams-foundations-toxic-elements |
 <!-- END: hmi-page-history -->

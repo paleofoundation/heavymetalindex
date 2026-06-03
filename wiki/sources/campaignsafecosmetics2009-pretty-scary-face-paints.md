@@ -228,6 +228,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [371049b](https://github.com/paleofoundation/heavymetalindex/commit/371049b) | 2026-06-02 | audit: campaignsafecosmetics2009-pretty-scary-face-paints revised |
 | [d4bc45d](https://github.com/paleofoundation/heavymetalindex/commit/d4bc45d) | 2026-06-02 | ingest: campaignsafecosmetics2009-pretty-scary-face-paints fresh from Manual Fetch Kimi/June 1 Infant cosmetics metals papers/02_Regulatory_Reports |

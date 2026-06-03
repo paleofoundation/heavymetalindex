@@ -115,5 +115,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [6809e03](https://github.com/paleofoundation/heavymetalindex/commit/6809e03) | 2026-06-02 | ingest auto-fetched 2026-06-02 08:02 batch 1: 1 source page |
 <!-- END: hmi-page-history -->

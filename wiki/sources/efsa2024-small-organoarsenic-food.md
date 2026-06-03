@@ -178,3 +178,13 @@ The infant-formula relevance is narrow and should remain visibly qualified. EFSA
 - The source uses assumptions that should travel with extracted values: 654 DMA and 653 MMA results had uncertain species-mass versus elemental-arsenic unit reporting; EFSA assumed `ug As/kg`. EFSA also assumed DMA/MMA were pentavalent species when valency was not confirmed.
 - Thio-DMA(V), dithio-DMA(V), thio-MMA(V), DMA(III), and MMA(III) are important data gaps here, not routeable occurrence findings from the submitted EFSA dataset.
 - Brand names do not appear in this source page. Instrument/software names are omitted because the page is not about validating a specific analytical method.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8597289](https://github.com/paleofoundation/heavymetalindex/commit/8597289) | 2026-06-03 | ingest June 3: efsa2024-small-organoarsenic-food |
+<!-- END: hmi-page-history -->

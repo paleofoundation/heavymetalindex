@@ -121,3 +121,13 @@ App: Use as Canadian drinking-water guidance for cadmium, with contextual messag
 The PDF was read in full from the June 3 manual-fetch folder, including the guideline summary, exposure section, Table 2 occurrence values, analytical methods table, municipal and residential treatment discussion, premise-plumbing section, toxicology derivation, and international comparison text. Page count is 50. No DOI is assigned. The canonical raw file `raw/Manual Fetch Kimi /June 3 Folder/drinking-water-quality-guideline-cadmium.pdf` and duplicate file `raw/Manual Fetch Kimi /June 3 Folder/drinking-water-quality-guideline-cadmium 2.pdf` are byte-identical with SHA-256 `416a4bcf3442dfaaa938fb9c7ae552d7058b376ee9178ca49dd6e5e569f548aa`; the duplicate is recorded in the tracker as a duplicate rather than a second source.
 
 Scope note: the source is a drinking-water guideline and compiles monitoring/treatment evidence. It is not a primary food-occurrence study, not a bottled-water market survey, and not a new residential treatment device test. `[[products/water-filters]]` is included because the source reports NSF/ANSI residential treatment-device performance criteria for cadmium; it should be treated as context/comparator evidence, not as finished-product occurrence data. Canada drinking-water-guideline and drinking-water-testing pages would be natural future destinations if those page families are created.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [19249d7](https://github.com/paleofoundation/heavymetalindex/commit/19249d7) | 2026-06-03 | ingest June 3: health-canada2020-cadmium-drinking-water-guideline |
+<!-- END: hmi-page-history -->

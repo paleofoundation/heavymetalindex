@@ -230,3 +230,13 @@ Per §6 introduction (p. 23) and §5.2 of the Safer Choice and DfE Standard (202
 - Quantitative content in this page (Tables 1a, 2, 3, 4, 5a, 5b, 6a, 6b, 7, 8, 12) is reproduced exactly from the source PDF (Version 2.1, October 2024) with page locators throughout.
 - No new ingredient pages and no new product pages were created during this ingest, per CLAUDE.md Part 10 and the skill's hard constraints. The product list in frontmatter draws only on existing `wiki/products/` slugs.
 - No new regulation page was created. If a `regulations/epa-safer-choice-master-criteria.md` page is ever needed (Step 0 Lock decision), it would inherit from this source and the broader Safer Choice / DfE Standard document referenced as [1] (USEPA, EPA's Safer Choice and Design for the Environment (DfE) Standard. 2024). That Standard document is not in the present KADC PDF set.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [07ff4c7](https://github.com/paleofoundation/heavymetalindex/commit/07ff4c7) | 2026-06-03 | ingest: epa2024-safer-choice-master-criteria-ingredients fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/06_Regulatory_EPA_GreenSeal |
+<!-- END: hmi-page-history -->

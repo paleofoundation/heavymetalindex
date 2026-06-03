@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/hair-dye-rinse-off",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2f9930233850a926ad9ba3ef936f2b0ac22dae92af6bbbd83e3b11001fe4a836",
-      "content_bytes": 8444,
-      "last_commit_sha": "566c7b2",
+      "content_sha256": "a11d531d1be509ad5c6807e4dd607f3747847911ebc90ba59fafad8cb33dcd4d",
+      "content_bytes": 8852,
+      "last_commit_sha": "315a7b8",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/hair-dye-rinse-off.md | sha256sum"
+      "verify_command": "git show 315a7b8:wiki/products/hair-dye-rinse-off.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -42,12 +42,36 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/benabbes2021-morocco-hair-dyes-pb-cd",
         "content_pin": {
-          "content_sha256": "804c3270ce14e756a194a0ffecc028322cfc784520c64315b7658fb13b9f0679",
-          "content_bytes": 21313,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "99748435eacdc38aa286fbde32f6963c16f032bb7f91b8a16f5479f036e9386f",
+          "content_bytes": 21316,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/benabbes2021-morocco-hair-dyes-pb-cd.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/benabbes2021-morocco-hair-dyes-pb-cd.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
+        "title": "Sources of contaminants in domestic wastewater: nutrients and additional elements from household products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sb",
+          "Cr",
+          "Co",
+          "Mo",
+          "Se"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
+        "content_pin": {
+          "content_sha256": "71c6bf53a66d9996f89ede7057c878a04fff36d5ebae1aee0fdb12af05402634",
+          "content_bytes": 31334,
+          "last_commit_sha": "a7df828",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show a7df828:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       },
       {
@@ -60,12 +84,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "427273f75081fa544d566bb65cd9a87e0fcd773957452c41bd3fca02ef8d64ff",
-          "content_bytes": 30966,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "c75179b93ae603e97c891c147d9affeb8ce2ffc636f5a025210f8fb82d399540",
+          "content_bytes": 31115,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       }
     ]

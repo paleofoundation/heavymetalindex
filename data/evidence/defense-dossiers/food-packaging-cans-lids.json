@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-cans-lids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "840bc3c39669a4e8bee1dcf25bd131ffcb17763d5cf7f1af1375828389ba8ccb",
-      "content_bytes": 8377,
-      "last_commit_sha": "566c7b2",
+      "content_sha256": "56745439c402f1f7c0cf4beaf57f970a3fe6b75ad4c32a3158c4c1c046a5d860",
+      "content_bytes": 8380,
+      "last_commit_sha": "315a7b8",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/food-packaging-cans-lids.md | sha256sum"
+      "verify_command": "git show 315a7b8:wiki/products/food-packaging-cans-lids.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/buculei2012-tin-iron-migration-canned-food-romania",
         "content_pin": {
-          "content_sha256": "d86648510c0a3c09c62a3130e59ea9fdb190565d7bf66704c7aa09f4b6d38d58",
-          "content_bytes": 17821,
-          "last_commit_sha": "87acb21",
+          "content_sha256": "013cc53c2a3e75f51a166151173dcd4396c9c3ac0c4f9b5ac7573a6eb8f7fbdc",
+          "content_bytes": 17970,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 87acb21:wiki/sources/buculei2012-tin-iron-migration-canned-food-romania.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/buculei2012-tin-iron-migration-canned-food-romania.md | sha256sum"
         }
       },
       {
@@ -62,12 +62,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/imsi2015-gmp-maple-syrup-lead",
         "content_pin": {
-          "content_sha256": "f1759467ee63cd30f58254ce4b5207276240519367cdf6acdde3be214d43e446",
-          "content_bytes": 20805,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "95d282e1b655da9c981845f161fa160f6e9e4ecae24e8a1ef1d84070f038154d",
+          "content_bytes": 20954,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/imsi2015-gmp-maple-syrup-lead.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/imsi2015-gmp-maple-syrup-lead.md | sha256sum"
         }
       },
       {
@@ -83,12 +83,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yamanaka2025-tinplate-pineapple-cans",
         "content_pin": {
-          "content_sha256": "db46f4ba7bf2462d95a92c7008d566080f7e68292ca776aef08fe6ad0ca65d1f",
-          "content_bytes": 5079,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "6c88003bf473c02128c3e2d4ba708dadf8f84a5ad194b2c1f6411ebe61d8020a",
+          "content_bytes": 5228,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/yamanaka2025-tinplate-pineapple-cans.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/yamanaka2025-tinplate-pineapple-cans.md | sha256sum"
         }
       }
     ]

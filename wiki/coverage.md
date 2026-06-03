@@ -2,7 +2,7 @@
 title: Corpus coverage and methodology transparency
 description: The wiki's PRISMA-equivalent — papers identified, screened, ingested, and the taxonomy-row coverage report. Auto-regenerated from on-disk data.
 audience: [regulator, educator, researcher, brand-legal, brand-qa, journalist]
-updated: 2026-06-02
+updated: 2026-06-03
 noindex: false
 ---
 
@@ -12,7 +12,7 @@ This page is the wiki's PRISMA-equivalent: a single, auto-regenerated transparen
 
 The wiki is built against the locked HMTc Comprehensive Testing Category Taxonomy v2.0 (2026-03-30). Every product page, every routing decision, and every coverage count is reconciled to that taxonomy. The taxonomy itself is published at [[data/taxonomy/hmtc-v2.json|data/taxonomy/hmtc-v2.json]] for reference.
 
-This page was regenerated on **2026-06-02** from the current state of the corpus.
+This page was regenerated on **2026-06-03** from the current state of the corpus.
 
 The Cochrane-equivalent search-protocol publication — the 10 academic databases queried, the dedupe protocol, the scoring rubric for auto-fetch, and the inclusion / exclusion criteria — is published at [[methodology/search-strategy]]. Read it alongside this page for the complete defensibility picture.
 
@@ -32,22 +32,22 @@ The Cochrane-equivalent search-protocol publication — the 10 academic database
          │
          │  Papers from year ≥ 2020: 14,343
          ▼
-  Eligibility:    1336 source pages currently in wiki/sources/
+  Eligibility:    1527 source pages currently in wiki/sources/
          │
-         │    evidence_tier A: 1037
+         │    evidence_tier A: 1184
          │    evidence_tier A-tier: 1
-         │    evidence_tier B: 263
-         │    evidence_tier C: 33
+         │    evidence_tier B: 296
+         │    evidence_tier C: 44
          │    evidence_tier unknown: 2
          ▼
   Included:       Source pages routed to destination pages
          │
-         │  Routing rows in product_source_routing_audit.csv: 1716
+         │  Routing rows in product_source_routing_audit.csv: 3025
          ▼
   Synthesized:    Ingredient cells, product rows, metal pages, regulation pages
 ```
 
-**Of the 23,260 papers identified in the literature search, 1336 have been promoted to source pages — 5.7% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
+**Of the 23,260 papers identified in the literature search, 1527 have been promoted to source pages — 6.6% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
 
 This is a deliberately small fraction: depth over breadth. The defensibility argument is not 'we ingested 23,000 papers,' it is 'every wiki claim traces to a peer-reviewed source page whose values match the source PDF on audit.' The ingest pipeline is sized to maintain that property.
 
@@ -55,12 +55,12 @@ This is a deliberately small fraction: depth over breadth. The defensibility arg
 
 | Page type | Count |
 |---|---:|
-| Source pages | 1336 |
-| Ingredient profiles | 266 |
-| Product-category rows (total) | 359 |
-| Product-category rows (non-stub, has scaffold or content) | 133 |
+| Source pages | 1527 |
+| Ingredient profiles | 269 |
+| Product-category rows (total) | 363 |
+| Product-category rows (non-stub, has scaffold or content) | 142 |
 | Metal profiles | 36 |
-| Regulation pages | 57 |
+| Regulation pages | 58 |
 | Mitigation pages | 7 |
 | Microbiome pages | 1 |
 | Testing-method pages | 2 |
@@ -69,16 +69,16 @@ This is a deliberately small fraction: depth over breadth. The defensibility arg
 
 Total subcategories defined by the taxonomy: **277**.  Pages scaffolded or content-filled against the taxonomy: **274** (99%).
 
-Of the 274 matched: 260 carry exact hmtc_category + hmtc_row frontmatter (locked under Step 0 scaffolding); 14 are matched by slug-alias to legacy pages (frontmatter needs backfill).  Pages still to be created: **0**.
+Of the 274 matched: 263 carry exact hmtc_category + hmtc_row frontmatter (locked under Step 0 scaffolding); 11 are matched by slug-alias to legacy pages (frontmatter needs backfill).  Pages still to be created: **0**.
 
 | Cat | Name | Total | Exact | By alias | Missing | Coverage |
 |----:|------|------:|------:|---------:|--------:|---------:|
 | 1 | Infant and Child Foods (Ages 0-5) | 9 | 9 | 0 | 0 | 100% |
 | 2 | Infant and Child Personal Care (Ages 0-5) | 7 | 7 | 0 | 0 | 100% |
-| 3 | Grains, Cereals, and Rice Products | 11 | 9 | 2 | 0 | 100% |
+| 3 | Grains, Cereals, and Rice Products | 11 | 11 | 0 | 0 | 100% |
 | 4 | Fruits, Vegetables, and Produce | 9 | 9 | 0 | 0 | 100% |
 | 5 | Beverages | 9 | 9 | 0 | 0 | 100% |
-| 6 | Seafood | 6 | 5 | 1 | 0 | 100% |
+| 6 | Seafood | 6 | 6 | 0 | 0 | 100% |
 | 7 | Oils, Condiments, and Specialty Foods | 12 | 6 | 3 | 0 | 75% |
 | 8 | Water and Water-Based Products | 4 | 3 | 1 | 0 | 100% |
 | 9 | Infant and Child Contact Products (Ages 0-5) | 8 | 6 | 2 | 0 | 100% |

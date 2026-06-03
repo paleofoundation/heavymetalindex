@@ -84,5 +84,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [aea3747](https://github.com/paleofoundation/heavymetalindex/commit/aea3747) | 2026-06-02 | ingest June 2: he2023-ti3c2-uio66nh2-crvi-photoreduction |
 <!-- END: hmi-page-history -->

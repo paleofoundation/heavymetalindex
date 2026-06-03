@@ -17,18 +17,82 @@
     "canonical_url": "https://heavymetalindex.com/products/salt",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c05e9de04295c08b201e9c7becbc13f4153463714e1d3697f41dc2596d97ddb2",
-      "content_bytes": 8141,
-      "last_commit_sha": "566c7b2",
+      "content_sha256": "342a97eaced142bed42cd103c2ed2dbc235c4945e1e2632a805be126a5767278",
+      "content_bytes": 10471,
+      "last_commit_sha": "315a7b8",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/salt.md | sha256sum"
+      "verify_command": "git show 315a7b8:wiki/products/salt.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 6,
     "sources_with_structured_values": 1,
     "contributing_sources": [
+      {
+        "slug": "sources/health-canada2008-aluminum-food-additives-request",
+        "title": "Health Canada Requests Information from Industry on the Use of Aluminum-Containing Food Additives",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/health-canada2008-aluminum-food-additives-request",
+        "content_pin": {
+          "content_sha256": "ed43bb2a6c8c320e924ea24b8b1fb4d34b87e3f774083a7c80b70fb17cb1128d",
+          "content_bytes": 8336,
+          "last_commit_sha": "cff2bfe",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show cff2bfe:wiki/sources/health-canada2008-aluminum-food-additives-request.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jecfa2007-aluminium-methylmercury",
+        "title": "Evaluation of certain food additives and contaminants: sixty-seventh report of the Joint FAO/WHO Expert Committee on Food Additives",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jecfa2007-aluminium-methylmercury",
+        "content_pin": {
+          "content_sha256": "3ed50beba4bd9b6114d6bad0460f1a402c230d521de6fedb0cfa4a995eed8faf",
+          "content_bytes": 11336,
+          "last_commit_sha": "1d53e58",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 1d53e58:wiki/sources/jecfa2007-aluminium-methylmercury.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/salaheldin2025-multimatrix-foods-egypt",
+        "title": "Assessment of toxic heavy metals in commonly consumed foods in Egypt and their implications for public health and safety",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/salaheldin2025-multimatrix-foods-egypt",
+        "content_pin": {
+          "content_sha256": "32841c808d04add088f79da9936dbc68299ff34f23538f6916cb114a6ee1e79d",
+          "content_bytes": 13662,
+          "last_commit_sha": "5c3e342",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5c3e342:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/samsiyah2019-indonesia-salt-lead",
         "title": "The Quality of Indonesia Salt: Study of Heavy Metal Lead (Pb) Levels in the Salt",
@@ -41,12 +105,40 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/samsiyah2019-indonesia-salt-lead",
         "content_pin": {
-          "content_sha256": "0568ca3865f32e07674d124767fca755b4d8a07b1c5a7ad194a59be09d139dcf",
-          "content_bytes": 2888,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "31f2484ea67dfe6aa7c504f8fc268af8c7721babed086d8ec9f4bfd20b1f655a",
+          "content_bytes": 2891,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/samsiyah2019-indonesia-salt-lead.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/samsiyah2019-indonesia-salt-lead.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/usda-fas2023-china-gb2762-contaminants",
+        "title": "China Releases the Standard for Maximum Levels of Contaminants in Foods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "MeHg",
+          "tAs",
+          "iAs",
+          "Sn",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/usda-fas2023-china-gb2762-contaminants",
+        "content_pin": {
+          "content_sha256": "d24e41721da73190949c9e0a468ec37b66423146a330691b1761e3b6d569c911",
+          "content_bytes": 15412,
+          "last_commit_sha": "27b0c53",
+          "last_commit_date": "2026-06-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 27b0c53:wiki/sources/usda-fas2023-china-gb2762-contaminants.md | sha256sum"
         }
       },
       {
@@ -62,12 +154,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2021-edible-salt-soy-sauce-pb-cd",
         "content_pin": {
-          "content_sha256": "da04d6c0b9e04ef43d314b100553a5d9d0767a296fff789e9b809c66aa758ce7",
-          "content_bytes": 3477,
-          "last_commit_sha": "566c7b2",
+          "content_sha256": "6257ae6488a5cf09b119dabbb928b1288581d89adc5ac433d4043875be6a28c2",
+          "content_bytes": 3480,
+          "last_commit_sha": "315a7b8",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/wu2021-edible-salt-soy-sauce-pb-cd.md | sha256sum"
+          "verify_command": "git show 315a7b8:wiki/sources/wu2021-edible-salt-soy-sauce-pb-cd.md | sha256sum"
         }
       }
     ]
@@ -80,11 +172,11 @@
   },
   "defensibility": {
     "report_path": "data/evidence/defensibility-reports/products/salt.md",
-    "total_claims": 0,
+    "total_claims": 2,
     "cited_claims": 0,
-    "uncited_claims": 0,
+    "uncited_claims": 2,
     "distinct_cited_sources": 0,
     "audit_rows_on_cited_targets": 0,
-    "provenance_complete": true
+    "provenance_complete": false
   }
 }

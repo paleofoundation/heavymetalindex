@@ -97,5 +97,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [7b14b5d](https://github.com/paleofoundation/heavymetalindex/commit/7b14b5d) | 2026-06-02 | ingest June 2: zlotko2021-black-soldier-fly-chitin-nickel-sorption |
 <!-- END: hmi-page-history -->

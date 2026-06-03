@@ -181,3 +181,14 @@ Methods reported for WECF 2016 itself: an expert workshop at UNEP Geneva offices
 - [[metals/cadmium]]
 - [[metals/chromium-hexavalent]]
 - [[products/skin-lightening-cream]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [046a53b](https://github.com/paleofoundation/heavymetalindex/commit/046a53b) | 2026-06-03 | audit: wecf2016-women-and-chemicals-scoping-report revised |
+| [e530956](https://github.com/paleofoundation/heavymetalindex/commit/e530956) | 2026-06-03 | ingest: wecf2016-women-and-chemicals-scoping-report fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/06_Regulatory_EPA_GreenSeal |
+<!-- END: hmi-page-history -->

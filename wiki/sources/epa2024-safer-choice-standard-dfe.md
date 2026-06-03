@@ -225,3 +225,13 @@ Not applicable. This is a federal program standard, not an experimental study; t
 - Quantitative content in this page (tables for §4.2.5.3 packaging banned classes; §4.2.5.1 recycled-content minimums; §4.2.2 pH; §4.2.1 performance; §3.8.1 disclosure cut; §5.12 residuals; §5.15 phosphorus carve-out; §5.5.1 fragrance sensitiser; §5.4.2 d-limonene) is reproduced exactly from the source PDF (August 2024 revision) with page locators throughout.
 - No new ingredient pages and no new product pages were created during this ingest, per CLAUDE.md Part 10 and the skill's hard constraints. The product list in frontmatter draws only on existing `wiki/products/` slugs.
 - No new regulation page was created. If a `regulations/epa-safer-choice-standard.md` page is ever needed (Step 0 Lock decision), it would inherit from this Standard as the parent document and from the Master Criteria ([[sources/epa2024-safer-choice-master-criteria-ingredients]]) as the child ingredient-evaluation document, plus the functional-class criteria documents on epa.gov/saferchoice as the binding-when-applicable normative references. The TPCH model legislation referenced by §4.2.5.3 is a separate regulatory document not in the present KADC PDF set and would warrant its own source page if pulled into the wiki.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8eb4751](https://github.com/paleofoundation/heavymetalindex/commit/8eb4751) | 2026-06-03 | ingest: epa2024-safer-choice-standard-dfe fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/06_Regulatory_EPA_GreenSeal |
+<!-- END: hmi-page-history -->

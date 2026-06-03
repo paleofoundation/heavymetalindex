@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/electric-plug-in-evaporators",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f2a28203af74f5625132530bc3eb7d9a252d911f9a3e2012770102300e93855f",
-      "content_bytes": 7325,
-      "last_commit_sha": "566c7b2",
+      "content_sha256": "65244e58bf199bc70c8224857b7bf6b4a3c3db42c2a701ca298400c158458fba",
+      "content_bytes": 7328,
+      "last_commit_sha": "315a7b8",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/electric-plug-in-evaporators.md | sha256sum"
+      "verify_command": "git show 315a7b8:wiki/products/electric-plug-in-evaporators.md | sha256sum"
     }
   },
   "evidence_base": {

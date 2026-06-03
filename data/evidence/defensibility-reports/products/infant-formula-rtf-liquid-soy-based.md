@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-rtf-liquid-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f1d18671649298c0eb7ce7623ca966ef5cd81b2fd9d1c066ff4cf7b62fb8d27d
+source_page_sha256: 2c972366c87a0021138b4908556928c8700addc2f72c7a88190753041fcef9e2
 total_claims: 43
 cited_claims: 43
 uncited_claims: 0
-distinct_cited_targets: 46
-distinct_cited_sources: 41
+distinct_cited_targets: 47
+distinct_cited_sources: 42
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 635
+audit_rows_for_cited_targets: 10
+audit_log_total_rows: 767
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 43 |
 | cited claims | 43 |
 | uncited claims | 0 |
-| distinct cited targets | 46 |
-| distinct cited `sources/` pages | 41 |
+| distinct cited targets | 47 |
+| distinct cited `sources/` pages | 42 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 635 |
+| audit rows on cited target pages | 10 |
+| audit log rows read | 767 |
 
 ## Page-level audit rows
 
@@ -54,7 +54,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -64,7 +66,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -74,7 +78,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -84,7 +90,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -94,7 +102,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -294,7 +304,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `2860 µg/kg`
 - Context: `2020 | Peer-reviewed | Total Al by ICP-OES in Brazilian soy-based infant drink (2860 µg/kg) and fruit purees; also repor`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -340,6 +350,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jecfa2007-aluminium-methylmercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
     - audit rows: none
@@ -372,7 +384,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `34 µg/L`
 - Context: `-reviewed | iAs by HPLC-ICP-MS in 5 hydrolysed rice formulas (EU): iAs range 10–34 µg/L as-prepared; context for rice-pr`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -418,6 +430,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jecfa2007-aluminium-methylmercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
     - audit rows: none
@@ -450,7 +464,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `2550 µg/kg`
 - Context: `infant formula samples; includes a distinct soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg,`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -496,6 +510,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jecfa2007-aluminium-methylmercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
     - audit rows: none
@@ -528,7 +544,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `7 µg/kg`
 - Context: `samples; includes a distinct soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -574,6 +590,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jecfa2007-aluminium-methylmercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
     - audit rows: none
@@ -606,7 +624,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4.6 µg/kg`
 - Context: `udes a distinct soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni 200 µg/kg) di`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -652,6 +670,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jecfa2007-aluminium-methylmercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
     - audit rows: none
@@ -684,7 +704,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11 µg/kg`
 - Context: `t soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni 200 µg/kg) distinguishing s`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -730,6 +750,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jecfa2007-aluminium-methylmercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
     - audit rows: none
@@ -762,7 +784,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `200 µg/kg`
 - Context: `ormula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni 200 µg/kg) distinguishing soy from milk-`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -808,6 +830,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jecfa2007-aluminium-methylmercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
     - audit rows: none
@@ -840,7 +864,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 µg/L`
 - Context: `ce syrup; reconstituted soy-based formula showed iAs approximately 1.5–2.5× the 10 µg/L drinking-water standard, establi`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -886,6 +910,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jecfa2007-aluminium-methylmercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
     - audit rows: none
@@ -918,7 +944,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `730 µg/kg`
 - Context: `asis by format and protein source; n=14 ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -964,6 +990,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jecfa2007-aluminium-methylmercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
     - audit rows: none
@@ -996,7 +1024,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1.18 µg/kg`
 - Context: `protein source; n=14 ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with mea`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -1042,6 +1070,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jecfa2007-aluminium-methylmercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
     - audit rows: none
@@ -1074,7 +1104,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1.45 µg/kg`
 - Context: `ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with means and maxima | | 36`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -1120,6 +1150,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jecfa2007-aluminium-methylmercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
     - audit rows: none
@@ -1152,7 +1184,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `2.5 µg/kg`
 - Context: `9 | Government report | EFSA CONTAM Panel opinion establishing the EU Cd TWI of 2.5 µg/kg body weight per week; foundati`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -1198,6 +1230,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jecfa2007-aluminium-methylmercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
     - audit rows: none
@@ -1247,7 +1281,7 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/california-prop65.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
-| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 2 | 2026-06-02 | 2026-06-03 |
 | `wiki/regulations/fda-closer-to-zero.md` | regulations | 0 | — | — |
 | `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` | sources | 0 | — | — |
@@ -1276,6 +1310,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` | sources | 0 | — | — |
 | `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` | sources | 0 | — | — |
 | `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` | sources | 0 | — | — |
+| `wiki/sources/jecfa2007-aluminium-methylmercury\.md` | sources | 0 | — | — |
 | `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/lodico2015-infant-formula-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/lutfullah2014-peshawar-dried-fluid-milk-metals\.md` | sources | 0 | — | — |

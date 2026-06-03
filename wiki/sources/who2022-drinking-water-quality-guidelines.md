@@ -113,3 +113,13 @@ The lead, arsenic, and manganese entries are especially important for HMI becaus
 - The source page intentionally uses `ug/L` instead of the PDF's micro sign so the page remains ASCII-only.
 - The raw canonical file `raw/Manual Fetch Kimi /June 3 Folder/9789240045064-eng.pdf` and duplicate file `raw/Manual Fetch Kimi /June 3 Folder/9789240045064-eng 2.pdf` are byte-identical with SHA-256 `a0ac96fa5eac13e4a14f9fd77ea86440eda9349e04fb58e5a86bee9c06db93d0`; the duplicate is recorded in the tracker as duplicate accounting rather than a second source.
 - Brand and manufacturer names are not part of this source page. WHO's generic "products or services" disclaimer is not treated as product evidence.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [df596f8](https://github.com/paleofoundation/heavymetalindex/commit/df596f8) | 2026-06-03 | ingest June 3: who2022-drinking-water-quality-guidelines |
+<!-- END: hmi-page-history -->
