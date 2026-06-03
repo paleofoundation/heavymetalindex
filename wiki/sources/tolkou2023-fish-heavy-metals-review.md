@@ -35,7 +35,7 @@ Tolkou, Toubanaki & Kyzas (2023) present a narrative review of arsenic, chromium
 
 FAO/WHO permissible reference values applied throughout the review (mg/kg, fish): As 0.1; Cr 0.15; Cd 0.05; Pb 0.5 (and 2.0 for some categories); Hg 0.5.
 
-Asia — Dhaleshwari River, Tangail, Bangladesh (six species; Aminul Ahsan 2018): Cd 0.002–0.019, Cr 0.046–0.159, As 0.016–0.128, Pb 0.091–0.234, Hg 0.004–0.012 mg/kg across species. Highest As 0.061 (Puntius puntio); highest Cd 0.063 (Amblyceps mangois); highest Cr 0.159 (Mastacembelus armatus). Sequence: Pb > As > Cr > Cd > Hg.
+Asia — Dhaleshwari River, Tangail, Bangladesh (six species; Aminul Ahsan 2018): Cd 0.002–0.019, Cr 0.046–0.159, As 0.016–0.128, Pb 0.091–0.234, Hg 0.004–0.012 mg/kg across species. The species the review identifies as exceeding FAO/WHO limits are: As, Pb, and Hg in Metapenaeus tenuipes (syn. Spinulatus, shrimp; As 0.128, Pb 0.231, Hg 0.012); Cd in Amblyceps mangois (0.063); Cr in Mastacembelus armatus (0.159). The review's body text also names As 0.061 in Puntius puntio (Puntio barb) — below the 0.1 mg/kg As limit — among the "most contaminated species" framing, though Table 2 shows shrimp As (0.128) is higher. Sequence: Pb > As > Cr > Cd > Hg.
 
 Asia — Southern Bangladesh (Resma et al.): Cr (in drinking-water units) 0.590, 0.577, 0.623 mg/L for Oreochromis niloticus, Pangasius pangasius, Labeo rohita respectively; As 0.042 / 0.045 / 0.035 mg/kg; Cd 0.004 / 0.006 / 0.004 mg/kg. Cr units annotated by the review as *** = drinking-water 1.0 mg/L reference, distinguishing from the fish-tissue Cr standard of 0.15 mg/kg.
 
@@ -65,7 +65,7 @@ Africa — Gulf of Guinea, West Africa (Nyarko et al. 2023, four species): As 8.
 
 Latin America — Bahía Blanca estuary, Argentina (La Colla et al. 2017, six species): Cr 0.450 in Cynoscion guatucupa (Stripped weakfish) and 0.250 in Odontesthes argentinensis — both above the 0.15 mg/kg Cr limit. Pb below method detection limits in all species.
 
-Cross-continent exceedance proportions (review-level synthesis, percentage of studies reviewed above FAO/WHO limits): Asia — As >50% of studies, Cr ~35%, Cd ~24%, Pb ~24%; Europe — As ~53%; Africa — As 100% of studies; Latin America — Cr ~33%. Hg did not exceed the 0.5 mg/kg limit in any continent or case study in the review.
+Cross-continent exceedance proportions (Figure 6, percentage of studies reviewed above FAO/WHO limits): Asia — As ~57%, Cr ~35%, Cd ~24%, Pb ~24%; Europe — As ~53%; Africa — As 100% of studies; Latin America — Cr ~33%. Hg did not exceed the 0.5 mg/kg limit in any continent or case study in the review.
 
 By water type, As exceedances were concentrated in marine fish in Europe and Africa, and slightly more so in freshwater fish in Asia. The review reports the overall accumulation sequence in fish as As > Cr > Pb > Cd > Hg.
 
@@ -111,3 +111,5 @@ App: Contextual signal that fish marketed from Asian (especially Bangladeshi and
 - Shrimp (Penaeus notialis, Metapenaeus tenuipes/Spinulatus) is included in some tables; this page uses `shellfish` as the broad-scope ingredient/matrix slug for crustacean entries rather than creating species-level slugs.
 - This is a narrative review (B-tier), not a PRISMA systematic review; values are tabulated per cited primary study without pooling or meta-analysis. Treated as a literature entry point rather than as an evidence source on its own.
 - Folder placement (02_Marine_Nonpredatory) is narrower than the paper's actual scope, which spans marine non-predatory (sardine, herring, sprat, anchovy, sole, flounder), marine predatory (grouper, snakehead, barracuda, smoothhound shark, mackerel), and freshwater (carp, tilapia, catfish, scraper, rohu). Frontmatter products list all three subcategories plus the umbrella `fresh-fish` per the broad-scope rule.
+- Audit subagent (2026-06-03) flagged the Dhaleshwari "Highest As 0.061 (Puntius puntio)" framing as inconsistent with Table 2 (Metapenaeus tenuipes shrimp As 0.128 is higher than Puntius 0.061) and with the source's own p. 8 statement that *Metapenaeus tenuipes* exceeded the As, Pb, and Hg limits. Verified against source — corrected to identify the species the review attributes as limit-exceeding (shrimp for As/Pb/Hg; *Amblyceps mangois* for Cd; *Mastacembelus armatus* for Cr), while preserving the *Puntius puntio* 0.061 figure as the body-text reference it actually is.
+- Audit subagent (2026-06-03) flagged "Asia — As >50% of studies" as a loose paraphrase of Figure 6's ~57% bar. Tightened to "~57%" to match the figure directly.
