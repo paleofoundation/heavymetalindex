@@ -2,10 +2,10 @@
 type: source
 raw_handle: FM_10020323
 cite_key: abdelnaby2022-lead-cadmium-milk
-title: "Lead and cadmium residues in raw and pasteurized milk and their reduction using natural adsorbents"
-authors: [Abdelnaby A, El-Ghazaly K, Eltayesh A, Mahmoud A]
+title: "Application of Bentonite Clay, Date Pit, and Chitosan Nanoparticles as Promising Adsorbents to Sequester Toxic Lead and Cadmium from Milk"
+authors: [Abdelnaby A, Abdelaleem NM, Elshewy E, Mansour AH, Ibrahim SS]
 year: 2022
-publication: "unknown"
+publication: "Biological Trace Element Research"
 doi: "10.1007/s12011-022-03353-w"
 access_url: "https://doi.org/10.1007/s12011-022-03353-w"
 source_type: peer-reviewed
@@ -17,7 +17,7 @@ ingredients: ["[[ingredients/milk-and-dairy]]"]
 products: []
 matrices: [milk, dairy]
 jurisdictions: [EG]
-near_duplicates: []
+near_duplicates: [raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-chitosan-cd_2022_10-1007-s12011-022-03353-w.pdf]
 sample_n: 35
 sample_population: "Raw (n=15) and pasteurized (n=20) cow milk samples from Egypt"
 wiki_doi: null
@@ -28,49 +28,56 @@ updated: 2026-05-13
 
 # Abdelnaby et al. 2022 — Lead and cadmium in Egyptian milk with natural adsorbent remediation
 
-This study measures lead (Pb) and cadmium (Cd) in 35 Egyptian cow milk samples (15 raw, 20 pasteurized) and evaluates the capacity of three natural adsorbents — bentonite, date pit powder, and chitosan — to reduce heavy metal residues in contaminated milk. The study provides market-level concentration data for Pb and Cd in Egyptian dairy, compares raw versus pasteurized milk, and identifies practical mitigation potential using locally available materials.
+Abdelnaby et al. measured lead (Pb) and cadmium (Cd) in 35 Egyptian cow milk samples from farms, independent farmers, and dairy shops in El-Qalyubia governorate, then tested bentonite clay, date pit powder, and chitosan nanoparticles as adsorbents for contaminated milk. The paper is routeable as Egyptian dairy occurrence evidence and as mitigation-method context, with concentrations reported in mg/kg wet-weight milk.
 
 ## Key numbers
 
-Mean concentrations (wet weight basis):
+Milk occurrence concentrations, Table 1, wet-weight basis:
 
-- Pb: 0.237 mg/kg (= 237 ppb) overall mean; raw milk mean slightly higher than pasteurized
-- Cd: 0.041 mg/kg (= 41 ppb) overall mean
+- Pb: 33/35 positive samples (94.3%); total mean 0.237 +/- 0.179 mg/kg, range 0.008-0.644 mg/kg.
+- Pb in raw milk: 14/15 positive samples; mean 0.270 +/- 0.18 mg/kg, range 0.010-0.557 mg/kg.
+- Pb in pasteurized milk: 19/20 positive samples; mean 0.212 +/- 0.18 mg/kg, range 0.008-0.644 mg/kg.
+- Cd: 25/35 positive samples (71.4%); total mean 0.041 +/- 0.036 mg/kg, range 0.001-0.095 mg/kg.
+- Cd in raw milk: 7/15 positive samples; mean 0.015 +/- 0.02 mg/kg, range 0.001-0.067 mg/kg.
+- Cd in pasteurized milk: 18/20 positive samples; mean 0.06 +/- 0.03 mg/kg, range 0.015-0.095 mg/kg.
 
-n=35 total (15 raw + 20 pasteurized), jurisdiction: Egypt (EG).
+Exceedance counts, Table 2:
 
-Comparison to regulatory limits: both Pb and Cd exceeded the Egyptian standard for milk at the time of sampling (Pb limit 0.02 mg/kg; Cd limit 0.005 mg/kg for some matrices). These are substantially above EU and Codex limits for Pb in milk (~0.02 mg/kg).
+- Pb: 29/35 samples (82.8%) exceeded both the Egyptian and Codex 0.02 mg/kg limit cited by the authors.
+- Cd: 15/35 samples (42.8%) exceeded the Egyptian 0.05 mg/kg limit cited by the authors; 24/35 samples (68.5%) exceeded the Codex 0.0026 mg/kg limit cited by the authors.
 
-Adsorption efficacy:
+Adsorption efficacy in contaminated milk, Table 4, N=20:
 
-- Bentonite (at 1% w/v): reduced Pb by approximately 47–60% and Cd by approximately 35–50%.
-- Date pit powder: reduced Pb by approximately 30–45% and Cd by approximately 25–40%.
-- Chitosan: reduced Pb by approximately 55–70% and Cd by approximately 45–60%.
-
-Chitosan showed the highest adsorption capacity for both metals.
+- No-adsorbent control: Pb 0.363 +/- 0.12 mg/kg; Cd 0.065 +/- 0.03 mg/kg.
+- Bentonite clay: Pb 0.059 +/- 0.04 mg/kg after treatment (84% removal); Cd 0.008 +/- 0.007 mg/kg after treatment (88% removal).
+- Date pit powder: Pb 0.012 +/- 0.01 mg/kg after treatment (97% removal); Cd 0.005 +/- 0.003 mg/kg after treatment (93% removal).
+- Chitosan nanoparticles: Pb 0.065 +/- 0.06 mg/kg after treatment (82% removal); Cd 0.001 +/- 0.001 mg/kg after treatment (98% removal).
 
 ## Methods (brief)
 
-Atomic absorption spectrometry (AAS) for Pb and Cd measurement. Milk samples collected from farms and commercial suppliers in Egypt. Adsorption experiments conducted by mixing known adsorbent quantities into spiked or naturally contaminated milk samples under controlled temperature and contact time conditions. Certified reference materials used for validation. Sample size is moderate; geographic scope limited to Egyptian suppliers.
+The authors collected 15 raw cow milk and 20 pasteurized cow milk samples in nitric-acid-washed polyethylene containers, stored them frozen, digested 10 mL aliquots with hydrogen peroxide and nitric acid, and measured Pb and Cd by graphite-furnace atomic absorption spectrophotometry using AOAC procedures. Adsorption tests treated contaminated milk with bentonite clay, roasted date pit powder, or chitosan nanoparticles and remeasured residual Pb and Cd by graphite-furnace AAS. The paper reports total Pb and total Cd only; it does not provide sample-level records or a US-market benchmark pool.
 
 ## Implications
 
-Certification: Egyptian milk Pb values at 237 ppb are an order of magnitude above EU Pb limits for milk (20 ppb). Documents that contamination at this scale exists in markets outside the EU/US regulatory zone; relevant to sourcing and supply-chain risk framing for dairy-containing products.
+Certification: Egyptian milk Pb values averaged 237 ppb and Cd values averaged 41 ppb in this limited El-Qalyubia sample set. These results are useful for dairy sourcing risk and cross-market context, but they should not be silently pooled into a US dairy benchmark.
 
-Courses: Good case study demonstrating gap between heavily contaminated markets (Egypt) and EU/US standards; also illustrates natural adsorbent mitigation strategies.
+Courses: Good case study demonstrating jurisdiction-specific dairy contamination and a mitigation experiment that reduces measured Pb and Cd without materially changing measured fat, protein, or lactose.
 
-App: Contributes to contamination_profile for dairy/milk. Pb 237 ppb (Egypt); Cd 41 ppb (Egypt). Note: Egypt is a higher-risk source region; these values should be geographically tagged and not applied globally.
+App: Contributes geographically tagged dairy/milk context. Values should be retained as Egypt-specific, not global default dairy concentrations.
 
 Microbiome: Not applicable.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
-- [[ingredients/dairy-milk]]
+- [[ingredients/milk-and-dairy]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[products/dairy]]
-- [[mitigation/adsorption-milk-remediation]]
+- [[products/milk-and-dairy]]
 - [[regulations/egypt-food-standards]]
+
+## Verification notes
+
+An auto-fetched duplicate PDF at `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-chitosan-cd_2022_10-1007-s12011-022-03353-w.pdf` was matched to this canonical DOI on 2026-06-04. The canonical page metadata was corrected from the PDF byline and journal page: title, authors, publication, and Table 1/Table 4 values were updated. The source reports total Pb and total Cd in milk; it does not report inorganic arsenic, methylmercury, or sample-level values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -79,9 +86,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
