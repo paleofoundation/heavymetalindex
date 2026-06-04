@@ -182,23 +182,23 @@
   )
   v(0.4in)
 
-  // Main title
-  text(
+  // Main title (display type is set ragged-right, never justified)
+  par(justify: false, text(
     font: ("Avenir Next Cyr", "Avenir Next", "Helvetica Neue", "Arial"),
     weight: "semibold",
     size: 32pt,
     fill: red-accent,
     title,
-  )
+  ))
   if subtitle != none {
     v(0.15in)
-    text(
+    par(justify: false, text(
       font: ("Avenir Next Cyr", "Avenir Next", "Helvetica Neue", "Arial"),
       weight: "regular",
       size: 16pt,
       fill: rgb("#444"),
       subtitle,
-    )
+    ))
   }
   v(0.4in)
 
