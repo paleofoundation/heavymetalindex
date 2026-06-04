@@ -63,8 +63,8 @@ No inhalation MRLs were derived for either inorganic or organic tin compounds on
 | Mushrooms, lacquered cans | 6.9 | 0.4-13.4 | 2 |
 | Meats, lacquered cans | 4.5 | 1.1-9.4 | 4 |
 | Fishes, lacquered cans | 0.7 | 0.3-0.9 | 4 |
-| Fresh vegetables (carrots, cabbage, salad, potatoes, etc.) | <0.003 to 0.13 | — | 1-5 each |
-| Pasta, bread, milk, dairy, meats (fresh), mineral waters | <0.003 | — | 5-15 each |
+| Fresh fruits and vegetables (per-category means) | <0.003 (e.g., spinach, bananas) to 0.13 (lentils) | item ranges up to 0.2 (potatoes) | 1-5 each |
+| Pasta, bread, milk, dairy, meats (fresh), mineral waters, alcoholic beverages | <0.003 | — | 5-15 each |
 
 Summary aggregations elsewhere in the profile (Section 6.4.4, p. 275) restate: "Foods in lacquered cans generally were found to contain tin concentrations below 10 mg/kg, and tin concentrations ranged from 24 to 156 mg/kg in food from unlacquered cans." A 1994 U.K. total diet study (Ysart et al. 1999) reported mean tin in canned vegetables and fruit products at 44 and 17 mg/kg fresh weight, respectively. Mean tin in evaporated, concentrated, and sweetened condensed canned milk products (Lithuania, 1990-1992; Ramonaityte 2001) was 85, 89, and 40 mg/kg, respectively, compared with 0.22 mg/kg in raw milk. The Public Health Statement (Section 1.3, p. 3) gives the consumer-facing summary: foods in lacquered cans contain "less than 25 ppm" tin and foods in unlacquered cans "up to 100 ppm," and ">90% of tin-lined cans used for food today are lacquered" (Can Manufacturers Institute, CMI 1988). The Biégo Table 6-3 distribution above provides the underlying empirical basis.
 
@@ -117,6 +117,7 @@ This page was merge-enhanced on 2026-06-04 from a pre-2026-05-14 revision. Corre
 - Legacy headings `## Summary` and `## Wiki pages updated on ingest` were removed per current Part 6 template. The Wiki-pages section is superseded by the routing audit, which fans this source out to product, ingredient, and metal pages automatically from the frontmatter.
 - `raw_handle`, `raw_sha256`, and `near_duplicates` fields were added; `raw_path` updated to the manual-fetch PDF (byte-identical to the prior Bookshelf retrieval). `access_url` updated to the canonical ATSDR URL; NCBI Bookshelf retained as secondary host in the provenance note.
 - `source_type` normalized from `government_report` (4 instances corpus-wide) to `gov-report` (77 instances; current convention).
+- Audit subagent (2026-06-04) verdict PROMOTE; one minor ⚠️ concern applied — fresh-foods row label in Table 6-3 block previously named "carrots, cabbage, salad, potatoes, etc." with upper anchor 0.13 mg/kg, but 0.13 is the lentils mean (range 0.09-0.17) and potatoes range to 0.2 mg/kg. Row rewritten to anchor the upper bound on lentils and note the potatoes maximum, with alcoholic beverages added to the <0.003 row per Table 6-3.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
