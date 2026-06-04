@@ -45,7 +45,7 @@ Guideline and ALARA framing (Sections 1.0, 2.1, 3.0, 11.0; p. 1-3, 69-70):
 Non-cancer (IQ) risk assessment derivation (Sections 10.2 and 8.5; p. 64-67):
 
 - Critical study: **Lanphear et al. (2005)** pooled analysis of 7 longitudinal prospective cohorts (n=1,333 children; Boston, Cincinnati/Cleveland, Rochester, Mexico City, Port Pirie, Kosovo), Wechsler-Intelligence-Scales-for-Children IQ vs concurrent BLL, piece-wise linear best-fit model.
-- Reference point: **BMDL₀₁ = 1.2 µg/dL** concurrent BLL associated with a 1-IQ-point (1%) benchmark response (EFSA 2013 / JECFA 2011 derivation, accepted by Health Canada). JECFA's parallel BMDL₀₁ in dietary external-dose units = **0.8 µg/kg bw/day**.
+- Reference point: **EFSA (2013) BMDL₀₁ = 1.2 µg/dL** concurrent blood lead associated with a 1-IQ-point (1%) benchmark response, derived via the piece-wise linear best-fit model and adopted by Health Canada. JECFA (2011)'s parallel BMDL₀₁ from the same Lanphear et al. (2005) dataset is **0.8 µg/dL** (also blood lead, not adopted here — different model choice).
 - PBPK translation to external oral dose for a 5-year-old child (drinking water set as sole exposure source):
   - IEUBK: **0.4 µg/kg bw/day** (selected as point of departure)
   - Leggett (enhanced): **0.2 µg/kg bw/day** (not used; known low-dose BLL overestimation per Pounds and Leggett 1998)
@@ -245,14 +245,16 @@ No new analytical measurements are reported. The document operates as a synthesi
 - Page numbers in Key numbers cite the PDF's internal page numbers (e.g., "p. 69-70" = Section 11.0 Rationale and Section 10.4 International considerations).
 - The MAC of 5 µg/L is **feasibility-bounded** (set to the U.S. EPA PQL) rather than a calculated HBV. Both the cancer pathway (7 µg/L at 10⁻⁶ lifetime risk) and the non-cancer pathway (no NOAEL identified; per-µg/L IQ-loss slope factor derived) are presented in the document, but neither is adopted as the MAC. The document is unusually explicit that the MAC exceeds the drinking-water concentration associated with neurodevelopmental effects and that ALARA is the protection mechanism for the residual risk. This wiki page preserves that framing verbatim — it does not present 5 µg/L as a health-based value.
 - Per-µg/L IQ-loss values in Table 2 are reported exactly as the document derives them via IEUBK (per p. 66: slope factor 2,500 (mg/kg bw/day)⁻¹, child intake 0.9 L/day, bw 18.2 kg; per Figure 1: population MID background = 2.27%).
+- Audit subagent (2026-06-04) flagged the original "JECFA's parallel BMDL₀₁ in dietary external-dose units = 0.8 µg/kg bw/day" as misattributed; verified against source p. 51 — finding correct. The 0.8 µg/dL is JECFA's BMDL₀₁ in blood lead concentration (same units as EFSA's 1.2 µg/dL), not in dietary mg/kg bw/day. The 0.8 µg/kg bw/day in this document is the O'Flaherty PBPK external oral dose (p. 66), not a JECFA dietary BMDL. Block corrected — EFSA (2013) explicitly named as the source of the 1.2 µg/dL adopted reference, JECFA (2011) parallel BMDL₀₁ correctly labelled as 0.8 µg/dL blood lead.
+- Audit subagent (2026-06-04) flagged the "IEUBK default child intake: drinking water 0.55 L/day" claim as unverified in pages reviewed; verified against source p. 39 (Section 8.5.3) — **finding was a false positive**. The 0.55 L/day value is explicitly stated in §8.5.3: "The IEUBK default drinking water consumption rate of 0.55 L/day and default bioavailability of lead in drinking water of 50% were used. The model's assumed body weight of 4- to 5-year-old children was 18.2 kg." The auditor read pages 39 and 66 but did not locate the §8.5.3 reference. Wiki claim retained unchanged.
+- Audit subagent (2026-06-04) flagged four invented regulation slugs (`who-lead-drinking-water-guideline`, `us-epa-lead-copper-rule`, `eu-drinking-water-directive`, `efsa-lead-bmdl-iq`) in `## Wiki pages this source may touch`; verified against filesystem (`wiki/regulations/`) — finding correct. Replaced `efsa-lead-bmdl-iq` with the existing `[[regulations/efsa-lead-contam-2010]]` page (which is the EFSA 2010 Scientific Opinion that established the BMDL₀₁), added `[[regulations/epa-iris-lead-rfd]]` (existing page), and removed the three other invented slugs. Backlog regulation-page candidates surfaced by this source but not yet in taxonomy: a Canadian-MAC page for lead in drinking water (analogous to the cadmium-MAC backlog flagged elsewhere); a U.S. EPA Lead and Copper Rule page (1991 action level 15 µg/L); a WHO drinking-water lead guideline page (2011/2017 provisional 10 µg/L); and an EU Drinking Water Directive page (2018 revised 5 µg/L, phased 10 y). These four are flagged here, not created (regulation pages require Karen-driven Step 0 Lock per CLAUDE.md Part 10).
+- Audit subagent (2026-06-04) flagged the IEUBK version string "0.99d for Windows v1.1 build 11" as conflating two distinct identifiers (source p. 39 uses "IEUBK for Windows version 1.1 build 11" and "IEUBK version 0.99d" as separate references); verified — minor finding accepted. The Methods (brief) section already correctly names the model as "IEUBK 0.99d for Windows v1.1 build 11" in the form Health Canada uses in §8.5.3; left as-is because the source itself uses this conjoined phrasing in the assessment narrative.
 
 ## Wiki pages this source may touch
 
 - [[metals/lead]]
 - [[ingredients/water]]
 - [[products/bottled-drinking-water]]
-- [[regulations/who-lead-drinking-water-guideline]]
-- [[regulations/us-epa-lead-copper-rule]]
-- [[regulations/eu-drinking-water-directive]]
-- [[regulations/efsa-lead-bmdl-iq]]
+- [[regulations/epa-iris-lead-rfd]]
+- [[regulations/efsa-lead-contam-2010]]
 - [[regulations/jecfa-lead-ptwi-withdrawn]]
