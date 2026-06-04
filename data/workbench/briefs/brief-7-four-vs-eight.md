@@ -1,4 +1,4 @@
-# The Metals the Frame Left Out
+# Four Metals Is No Longer Enough
 
 _Brief 7 in the marketing-brief series. External-facing persuasion piece (Substack register), not wiki content._
 _Voice: Gawande primary; Prasad on the methodological turn. Audience: toxicology researchers, brand regulatory affairs and QA, plaintiffs' counsel building case theory._

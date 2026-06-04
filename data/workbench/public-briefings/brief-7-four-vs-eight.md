@@ -1,8 +1,8 @@
 ---
 type: public-briefing
 slug: brief-7-four-vs-eight
-title: "The Metals the Frame Left Out"
-subtitle: "Why a Four-Metal Certificate No Longer Matches the Regulators"
+title: "Four Metals Is No Longer Enough"
+subtitle: "The Regulators Moved to Eight. Certification Stayed at Four."
 overline: "A Standards Briefing · The Paleo Foundation"
 author: "Karen Pendergrass"
 author_title: "Standards Architect, the Paleo Foundation, Heavy Metal Tested & Certified (HMTc) Program"
