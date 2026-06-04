@@ -109,6 +109,18 @@ When a brand views or accepts a lever, prompt *"Did you implement this? What cha
 ### 3.8 Board / CEO PDF export
 One-click, single-page, beautiful — a **provenance/transport artifact, not a conclusion** (round-3 M6): it assembles the brand's own lab data plus the public HMI literature, both independently reconstructible, rather than HMTc opining the brand is clean. Generated continuously for active certified brands (no "they stopped when results turned bad" gap) but **brand-held: delivered to the brand, not retained server-side beyond the neutral window**, so HMTc is not the custodian of a longitudinal series of a brand's adverse PDFs (round-4 NN-4). No raw outlier dumps.
 
+### 3.9 Pre-submission certification gap simulator (top-of-funnel C-moat — added v2.2)
+
+A brand — or an *uncertified prospect* — uploads its BOM + historical COAs and gets back, per analyte: pass/fail against the **current HMTc threshold** for its category, the margin (e.g., "Cd fails by 1.4×"), and the **projected date** each currently-passing analyte would fall under the **published ratchet** (Governance Policy §12). Only the standard-setter can score a brand against the bar that decides shelf access *and* its future trajectory — a testing lab structurally cannot (ISO 17065). It is the strongest C-moat feature and the **top of the funnel**: it converts prospects into applicants, growing the certification business itself, and it runs on a lightweight upload without full onboarding.
+
+Firewall guards: (1) it surfaces the **threshold value and the brand's distance from it** — never the percentile-*selection* arithmetic (P97/P45, pooling math) that derives the threshold; that stays workbench-side (OPERATING.md Part 6, Part 19). The per-category limit tables are already published in the Program Manual Part 3, so showing the limit is fine; showing how it was derived is not. (2) Ratchet projections are labeled **forecasts with uncertainty**, not guarantees (the §12.3 trigger fires on aggregate Status-A data, so a fail-date is probabilistic). (3) It shows the brand's own position only — never cohort rows. Reuses `lot_results` + the HMTc category thresholds (from the standards workbench) + the published ratchet schedule.
+
+### 3.10 Standards alignment (the supplier-intelligence + remediation commitments are binding, not prunable)
+
+The Governance Policy §11 (anonymized supplier intelligence, a **condition of the license**), Program Manual Part 2.9, Part 2.4 (confidential remediation track), and the three **DOI'd Zenodo preprints** permanently commit the program to **anonymized cross-brand supplier intelligence** and **confidential remediation pathways** as core, published design principles. These are governance mechanisms, not prunable product features, and they cannot be walked back (the thesis is published).
+
+Two consequences: (a) the product **must** deliver defensible versions matching the standards' careful framing — supplier intelligence is anonymized, ingredient/region-level, reporting-brand-never-disclosed, with honest anonymization-limits disclosure (exactly §3.5); the product must **never** introduce a riskier version than the standards already disclose (no named-supplier "scorecard"). (b) Conversely, product-only features that the standards do **not** promise (reformulation simulator, predictive forecast, board PDF as a flagship, a standalone competitive benchmark) carry **no delivery obligation** and are freely prunable/deferrable per `docs/brand-intelligence-feature-audit.md`.
+
 ---
 
 ## 4. Data architecture for defensibility (solves the subpoena-magnet problem)
