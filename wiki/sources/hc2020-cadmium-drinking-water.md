@@ -89,8 +89,8 @@ No samples were provided from Nunavut or the Northwest Territories. Source attri
 
 Plumbing-system observations (Section 7.1.6.1, p. 16-17, Viraraghavan et al. 2000 dataset cited in document):
 
-- First-draw samples in copper-plumbed dwellings: Cd concentrations <DL–171 µg/L (first round), <DL–39 µg/L (second round), <DL–102 µg/L (third round); maximum 133 and 101 µg/L in second and third rounds, respectively.
-- Plastic-plumbed dwellings: first-draw Cd 8–38 µg/L (first round); <10 µg/L in subsequent rounds.
+- Copper-plumbed dwellings, first round (three sequential sample volumes drawn per dwelling — 125 mL faucet-stagnant, 500 mL plumbing-stagnant, 125 mL distribution-main): Cd concentrations <DL–171 µg/L (first sample), <DL–39 µg/L (second sample), <DL–102 µg/L (third sample). Maximum Cd concentrations of 133 µg/L and 101 µg/L were measured in the second and third rounds (subsequent rounds over time), respectively.
+- Plastic-plumbed dwellings: Cd 8–38 µg/L in the first samples taken during the first round; <10 µg/L in all samples during the second and third rounds.
 - Brass faucet leaching (Samuels and Meranger 1984 cited in document): chrome-plated brass faucets after 24 h stagnation gave <0.05–10 µg/L (raw, filtered, treated, groundwater, fulvic-acid solutions); highest value 10 µg/L for treated water. After a second 24 h period: <0.05–4 µg/L.
 - Cement-mortar lining leaching (Guo et al. 1998 cited in document): up to **1.1 µg/L** under static stagnation conditions over five days.
 
@@ -106,7 +106,7 @@ Canadian biomonitoring data — CHMS (Section 5.6.2, p. 7-8):
 - Blood Cd consistently higher in females (cycle GMs 0.38, 0.33, 0.39 µg/L) than males (0.30, 0.27, 0.31 µg/L).
 - Urinary Cd GM ages 6–79: cycle 1 **0.34 µg/L (95% CI 0.31–0.38, n=5,491)**; cycle 2 **0.40 µg/L (95% CI 0.36–0.44, n=5,738)**.
 - Creatinine-adjusted UCd: cycle 1 **0.42 µg/g creatinine (95% CI 0.40–0.44, n=5,478)**; cycle 2 **0.37 µg/g creatinine (95% CI 0.34–0.41, n=5,719)**.
-- Age trend (Statistics Canada 2015 cited in document): UCd GM 0.42 µg/L in adults 20–79 vs 0.12 µg/L in ages 3–19; statistically significant.
+- Age trend (Statistics Canada 2015 cited in document, cycle 3 data): blood cadmium GM 0.42 µg/L in adults 20–79 vs 0.12 µg/L in ages 3–19; statistically significant. Urinary cadmium also showed age-dependent increases (60–79 > 40–59 > 20–39) per Garner and Levallois (2016).
 
 Approved analytical methods (Table 3, p. 9):
 
@@ -128,7 +128,7 @@ Residential and material standards (Section 7.2, p. 18-19):
 Carcinogenicity and other toxicology (Section 9-10):
 
 - IARC (2012) classification: Group 1, "carcinogenic to humans" — based on sufficient evidence of lung, kidney, and prostate cancer in occupationally inhalation-exposed workers; epidemiological evidence linking oral cadmium exposure to cancer is limited (document, p. 24, 29).
-- Oral LD₅₀ in rats: 100–300 mg/kg (JECFA 2001 cited in document, p. 25).
+- Oral LD₅₀ in rats and mice: 100–300 mg/kg (JECFA 2001 cited in document, p. 25).
 - Bone-effect BMDL₀₅ values from epidemiology (range 0.5 to ~2 µg/g creatinine UCd) considered inconsistent and not used as critical effect (Section 9.1.2.2, p. 23-24).
 
 ## Methods (brief)
@@ -156,7 +156,7 @@ No new analytical measurements are reported. The document operates as a synthesi
 
 - Certification: This guideline establishes the operative Canadian federal cadmium-in-drinking-water MAC (7 µg/L total Cd at tap), the underlying toxicological reference value (TDI 0.8 µg/kg bw/day; tolerable monthly intake 25 µg/kg bw/month), and the residential treatment performance expectation (NSF/ANSI certified devices reducing 0.03 mg/L influent to ≤0.005 mg/L effluent). It provides the Canadian regulatory backdrop for any HMT&C threshold work touching drinking water as an ingredient or process water in food production. The 0.20 drinking-water allocation factor (food is dominant exposure source) is the operative national assumption for partitioning the TDI across exposure media.
 - Courses: Useful as a worked example of a national risk assessment that adopts an international body's reference dose (JECFA tolerable monthly intake) rather than re-deriving from first principles, and as an illustration of how galvanized-steel plumbing legacies (pre-1980 National Plumbing Code Canada) drive present-day metal exposure independent of source-water quality. The plumbing-versus-source-water decoupling is a transferable lesson for any drinking-water lead/cadmium curriculum.
-- App: Drinking water (tap, bottled) is a minor but non-zero Cd exposure pathway; ingredient profile assumptions for water as a food/beverage ingredient or reconstitution medium can use the median Canadian distributed-water value (0.01–0.10 µg/L across provinces) as a typical baseline. High-end tap exposures associated with galvanized-steel service lines or pre-1980 plumbing are not captured by central tendency values and represent a tail risk for app users with old housing stock.
+- App: Drinking water (tap, bottled) is a minor but non-zero Cd exposure pathway in the Canadian dataset compiled here. The document's distributed-water medians across provinces sit in the 0.01–0.10 µg/L band, while the source-water and well distributions reach the tens of µg/L for a small fraction of samples (Alberta wells 0.30% above DL with detected-fraction median 15.0 µg/L; BC Interior raw and treated 97.0% above DL with detected-fraction median 0.02 µg/L). The document attributes the dominant tap-side contribution to galvanized-steel service lines, well components, and pre-1980 plumbing rather than to source-water quality. Central-tendency values across the full sample set do not summarize this within-population heterogeneity.
 - Microbiome: Not addressed by the document.
 
 ## Verification notes
@@ -169,6 +169,10 @@ No new analytical measurements are reported. The document operates as a synthesi
 - Document references but does not reproduce the underlying primary leaching datasets (Viraraghavan et al. 2000, Samuels and Meranger 1984, Schock and Neff 1988, Subramanian et al. 1991); Key numbers explicitly attributes leaching ranges to the document's own citation chain rather than direct measurement here.
 - No brand names appear in the source's contamination data; vendor names in the analytical-methods table (U.S. EPA, APHA) are method-publishing standards bodies, not Part 12 violations.
 - Page numbers in Key numbers cite the PDF's internal page numbers (e.g., "p. 29-30" = the document's Section 10.0 heading on PDF-page 29 of 50).
+- Audit subagent (2026-06-04) flagged the original Statistics Canada 2015 age-trend block as "UCd GM 0.42 µg/L in adults 20–79 vs 0.12 µg/L in ages 3–19"; verified against source p. 8 — the source explicitly attributes these values to **blood cadmium**, not urinary cadmium. Block corrected to BCd and a separate sentence added noting the Garner and Levallois (2016) age-dependent UCd increases.
+- Audit subagent (2026-06-04) flagged the Viraraghavan et al. (2000) copper-plumbing block for conflating "samples" (the three sequential within-round sample volumes — 125/500/125 mL — drawn per dwelling) with "rounds" (monthly repeats); verified against source p. 17 — finding correct. Block restructured to separate within-round samples (first/second/third sample 125/500/125 mL, values <DL–171/<DL–39/<DL–102 µg/L) from cross-round maxima (133, 101 µg/L in second and third rounds).
+- Audit subagent (2026-06-04) flagged App-audience phrasing ("tail risk for app users with old housing stock", "typical baseline") as edging into the Part 2 wiki/HMTc firewall (consumer-risk-advisory framing and app-data threshold proposal); reframed to describe what the document's dataset contains (median band, well/raw outliers, plumbing attribution) without prescribing a downstream HMI app default value or advisory.
+- Audit subagent (2026-06-04) flagged "Oral LD₅₀ in rats" as narrower than source attribution; verified against source p. 25 — source says "in rats and mice". Corrected.
 
 ## Wiki pages this source may touch
 
