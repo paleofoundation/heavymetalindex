@@ -53,6 +53,19 @@ The freemium line: HMI's stateless public comparator is free and genuinely suffi
 
 ---
 
+## 2.5 Surface architecture — three places this lives, and the showcase
+
+"Backend or frontend?" is a false choice: it is **one Next.js app** (paleo-foundation) with three *surfaces*, distinguished by auth, not by a separate backend service. The intelligence (computation) runs server-side (server components against Supabase + the HMI API bridge); the dashboard (display) is the frontend; the split that matters is **public routes vs authenticated portal routes**.
+
+1. **Public marketing frontend** (`(public)`, no auth, SEO/AEO-optimized) — the **differentiation showcase + lead-gen**. This is where "the metals others miss" lives:
+   - **8 metals, not 4.** HMTc certifies against **Pb, Cd, iAs, MeHg (Tier 1) + Ni, Sn, Al, Cr-VI (Tier 2)** — 10 analytes with speciation — versus the **Big 4 (Pb/Cd/As/Hg)** that exposé testing and standard panels stop at. The four others miss (Ni, Sn, Al, Cr-VI) plus the speciation rigor (iAs≠tAs, MeHg≠tHg) are the headline. This is a **C-scope claim** (the standard's protectiveness), durable and on-message with the published preprint thesis — not a depreciating corpus claim.
+   - **"We stay ahead so you're not left high and dry."** Framed as a **program-relationship service** (we monitor the complete literature + regulatory landscape for you), not a unique-tech moat — regulatory-trend monitoring is partially replicable (FoodChain ID), so the durable part is the *relationship commitment*, not the tech.
+   - **Shared toxicology briefings / trend reports** as content → authority + SEO + the "sell HMTc/HMI in the Google sense." Sourced from HMI (the 8-metal toxicology callouts), packaged for brands, kept **literature-honest** (Part 2 firewall) and **out of the binding standards** (kept flexible per §3.10's discipline).
+2. **The gated cert-gap check** (light signup) — the **prospect bridge** (§3.9; mocked this session). Converts prospect → applicant. A *public, lightweight* teaser version can live on Surface 1 as a lead magnet.
+3. **The certified-brand portal** (`(portal)`, full auth, post-certification) — the **intelligence dashboard** (mocked first this session): trends, levers, supplier intelligence, remediation pathway, ratchet-readiness, board PDF, change-watch, **plus the full briefings/reports library, personalized**. This is the "dashboard for brands once they become certified."
+
+The showcase content and the cert-gap teaser are how Surface 1 feeds Surface 2 feeds Surface 3 — public authority → prospect conversion → certified retention. All three pull from HMI one-way; none writes back.
+
 ## 3. Components (the build)
 
 ### 3.1 Onboarding & data ingestion
