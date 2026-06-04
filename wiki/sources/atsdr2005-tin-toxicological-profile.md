@@ -1,102 +1,122 @@
 ---
 type: source
-raw_handle: MFK_tp55
+raw_handle: MFK_tp55-1-2
 cite_key: atsdr2005-tin-toxicological-profile
 title: "Toxicological Profile for Tin and Tin Compounds"
 authors: ["Carolyn Harper", "Fernando Llados", "Gary Diamond", "Lara L. Chappell", "Agency for Toxic Substances and Disease Registry"]
 year: 2005
-publication: "U.S. Department of Health and Human Services, ATSDR"
+publication: "U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry"
 source_type: gov-report
 evidence_tier: A
 license: us-government-work
-raw_path: "raw/Manual Fetch Kimi /June 3 Folder/tp55.pdf"
+raw_path: "raw/Manual Fetch Kimi /June 3 Folder/tp55 (1) 2.pdf"
 raw_sha256: de21f125225d8b83e738e88912ebbadc12ac48f25026b697230241baa9e313f4
-access_url: "https://www.ncbi.nlm.nih.gov/books/NBK599935/"
+near_duplicates: ["raw/Digest/Bookshelf_NBK599935.pdf (byte-identical, NCBI Bookshelf retrieval); manual-fetch PDF (June 3 Folder) merged 2026-06-04"]
+access_url: "https://www.atsdr.cdc.gov/toxprofiles/tp55.pdf"
 doi: null
 no_doi_assigned: true
 metals: [Sn]
-species: [Sn2+, Sn4+, organotins, monobutyltin, dibutyltin, tributyltin, triphenyltin]
+species: [Sn2+, Sn4+, organotins, monobutyltin, dibutyltin, tributyltin, triphenyltin, triethyltin, trimethyltin, dioctyltin]
 ingredients: ["[[ingredients/canned-corn]]", "[[ingredients/canned-fruit-cocktail]]", "[[ingredients/canned-green-beans]]", "[[ingredients/canned-mushrooms]]", "[[ingredients/canned-tomatoes]]", "[[ingredients/apple-juice]]", "[[ingredients/fish]]", "[[ingredients/seafood]]"]
 products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-apple-containing]]", "[[products/fruit-juices-non-apple]]", "[[products/seafood]]", "[[products/canned-fish]]"]
 matrices: [canned-food, canned-juice, seafood, drinking-water, blood, urine, tissue]
 jurisdictions: [US]
+sample_n: null
+sample_population: "Synthesis of peer-reviewed human and animal toxicology, exposure, and environmental-fate literature; no original sampling"
+superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-near_duplicates: ["[[sources/epa1997-tbto-iris-toxicological-review]]"]
-sample_n: null
-sample_population: "ATSDR toxicological profile compiling inorganic tin and organotin toxicology, exposure, MRL, food-contact, seafood, drinking-water, biomonitoring, and environmental evidence; not a new primary sampling study."
-updated: 2026-06-03
+updated: 2026-06-04
 ---
 
 # ATSDR 2005 — Toxicological Profile for Tin and Tin Compounds
 
-This is the U.S. Agency for Toxic Substances and Disease Registry's comprehensive 2005 toxicological profile for tin and tin compounds, prepared under the CERCLA / SARA mandate. The profile is the single most authoritative public-domain reference for tin toxicology and explicitly maintains the species distinction between inorganic tin compounds (stannous and stannic ions, principally encountered through food contact with tinplated cans) and organotin compounds (mono-, di-, and tri-butyltin and triphenyltin, principally encountered through seafood from coastal waters and through plastics, PVC pipes, and historic biocide use). The two classes have toxicological profiles that differ by approximately three orders of magnitude in derived MRLs.
+The August 2005 ATSDR Toxicological Profile for Tin and Tin Compounds (Profile No. 55, "tp55") is the comprehensive U.S. toxicology synthesis for elemental tin, inorganic tin compounds (stannous and stannic ions, principally entering the diet through tinplated cans), and organotin compounds (mono-, di-, and tributyltin; triphenyltin; trialkyltins), prepared under CERCLA Section 104(i) authority and superseding the September 2003 draft for public comment. The profile maintains an enforced inorganic-vs-organotin species distinction throughout: derived oral Minimal Risk Levels (MRLs) span three orders of magnitude between inorganic tin (0.3 mg Sn/kg/day, intermediate) and tributyltin oxide (0.0003 mg/kg/day, intermediate and chronic), reflecting the fundamentally different toxicological profiles of the two classes.
 
 ## Key numbers
 
-Minimal Risk Levels (MRLs):
+### Minimal Risk Levels (oral exposure)
 
-ATSDR derived four oral MRLs for tin compounds, each grounded in an identified NOAEL or LOAEL and an uncertainty-factor justification.
+| Compound | Duration | MRL (mg/kg/day) | Point of departure | Uncertainty factor | Critical study |
+| --- | --- | ---: | --- | ---: | --- |
+| Inorganic tin (stannous chloride) | Intermediate (15-364 days) | 0.3 | NOAEL 32 mg Sn/kg/day (hematological — 12% hemoglobin reduction at 95 mg/kg/day LOAEL) | 100 (10 animal-to-human × 10 human variability) | De Groot et al. 1973 (13-week dietary, Wistar rats) |
+| Dibutyltin dichloride | Intermediate | 0.005 | LOAEL 5 mg/kg/day (immunological — reduced anti-SRBC hemagglutination) | 1,000 (10 animal-to-human × 10 LOAEL × 10 species variability) | Seinen et al. 1977b (4-6-week dietary, Wistar rats) |
+| Tributyltin oxide | Intermediate | 0.0003 | NOAEL 0.025 mg/kg/day (immunological — IgE suppression and *T. spiralis* susceptibility at 0.25 mg/kg/day LOAEL) | 100 (10 animal-to-human × 10 intraspecies) | Vos et al. 1990 (4.5-6 mo dietary, Wistar rats) |
+| Tributyltin oxide | Chronic (≥365 days) | 0.0003 | NOAEL 0.025 mg/kg/day (same immunological endpoint over 16.5 mo) | 100 | Vos et al. 1990 (18-mo dietary, Wistar rats) |
 
-| Species | Duration | MRL (mg/kg/day) | Basis |
-| --- | --- | ---: | --- |
-| Inorganic tin (stannous chloride) | Intermediate (15-364 days) | 0.3 | NOAEL 32 mg/kg/day, uncertainty factor 100 |
-| Dibutyltin chloride | Intermediate | 0.005 | LOAEL 5 mg/kg/day, immune system endpoint |
-| Tributyltin oxide | Intermediate | 0.0003 | NOAEL, immune system endpoint |
-| Tributyltin oxide | Chronic (≥365 days) | 0.0003 | NOAEL, immune system endpoint |
+No inhalation MRLs were derived for either inorganic or organic tin compounds on adequacy-of-data grounds. No oral MRL was derived for triphenyltin, triethyltin, trimethyltin, dioctyltin, or for inorganic tin at acute or chronic duration (Section 2.3, pp. 16-22). The thousand-fold gap between the inorganic-tin intermediate MRL and the tributyltin oxide MRL is the central toxicological fact in the profile and is what makes inorganic-vs-organotin speciation non-substitutable.
 
-The thousand-fold gap between the inorganic-tin MRL and the tributyltin oxide MRL is the central toxicological fact about tin and is what makes the species distinction non-substitutable.
+### Tin levels in food (Biégo et al. 1999, French total diet study; Table 6-3, pp. 270-271)
 
-Inorganic tin in food:
+| Matrix | Mean (mg Sn/kg) | Range | n |
+| --- | ---: | --- | ---: |
+| Tomatoes, unlacquered cans | 84 | 46-156 | 3 |
+| Mushrooms, unlacquered cans | 34 | 24-45 | 3 |
+| Pineapples, unlacquered cans | 82 | 44-136 | 5 |
+| Fruit cocktail, unlacquered cans | 97 | 88-107 | 2 |
+| Peaches, unlacquered cans | 44 | 27-71 | 3 |
+| Pears, unlacquered cans | 47 | 35-60 | 2 |
+| Apricot, unlacquered cans | 114 | — | 1 |
+| Grapefruit, unlacquered cans | 128 | — | 1 |
+| Tomatoes, lacquered cans | 6.0 | 3.2-8.8 | 2 |
+| Mushrooms, lacquered cans | 6.9 | 0.4-13.4 | 2 |
+| Meats, lacquered cans | 4.5 | 1.1-9.4 | 4 |
+| Fishes, lacquered cans | 0.7 | 0.3-0.9 | 4 |
+| Fresh vegetables (carrots, cabbage, salad, potatoes, etc.) | <0.003 to 0.13 | — | 1-5 each |
+| Pasta, bread, milk, dairy, meats (fresh), mineral waters | <0.003 | — | 5-15 each |
 
-Inorganic tin enters the diet primarily through canned food, where acidic contents react with the tinplate lining and dissolve elemental tin into the food. Food from lacquered tin-lined cans contains less than 25 ppm tin because the lacquer prevents the food-tin reaction; food from unlacquered tin-lined cans can reach 100 ppm. More than 90 percent of food cans now use lacquered linings; unlacquered tinplate is retained mostly for light-colored fruit and fruit juice where elemental tin helps maintain product color. Tin concentrations in foods not packaged in metal cans are generally below 2 ppm (vegetables, fruits, nuts, dairy, meat, fish, poultry, eggs). Pastas and breads range from less than 0.003 to 0.03 ppm. Tin levels in opened cans increase over storage time as oxygen accelerates the dissolution.
+Summary aggregations elsewhere in the profile (Section 6.4.4, p. 275) restate: "Foods in lacquered cans generally were found to contain tin concentrations below 10 mg/kg, and tin concentrations ranged from 24 to 156 mg/kg in food from unlacquered cans." A 1994 U.K. total diet study (Ysart et al. 1999) reported mean tin in canned vegetables and fruit products at 44 and 17 mg/kg fresh weight, respectively. Mean tin in evaporated, concentrated, and sweetened condensed canned milk products (Lithuania, 1990-1992; Ramonaityte 2001) was 85, 89, and 40 mg/kg, respectively, compared with 0.22 mg/kg in raw milk. The Public Health Statement (Section 1.3, p. 3) gives the consumer-facing summary: foods in lacquered cans contain "less than 25 ppm" tin and foods in unlacquered cans "up to 100 ppm," and ">90% of tin-lined cans used for food today are lacquered" (Can Manufacturers Institute, CMI 1988). The Biégo Table 6-3 distribution above provides the underlying empirical basis.
 
-Selected tin levels in foods reported from Biego et al. 1999 (ATSDR Tables 6-2 and 6-3): canned vegetables means 24-156 mg/kg by category; meats around 0.6-2.9 mg/kg; fishes 6.0 mg/kg; pasta and breads at or below 0.003 mg/kg; mineral waters at or below 0.003 mg/kg; canned alcoholic beverages around 4.5 mg/kg. The canned-vegetable to non-canned-staple ratio is approximately three orders of magnitude.
+### Tributyltin (TBT) in seafood (selected geographies; Table 6-4, pp. 272-274)
 
-Organotins in food:
+Eight worldwide market surveys (Keithly et al. 1999) report mean TBT concentrations in seafood as ng TBT/g wet weight. Across categories, bivalves, pelagic fish, pelagic invertebrates, and flatfish averaged 40, 16, 7.4, and 4.6 µg TBT/kg, respectively (Section 6.4.4, p. 275). Selected market means:
 
-The dominant dietary route for organotins is seafood, especially from coastal waters and harbor environments where tributyltin antifouling paints on ship hulls deposited TBT into sediments. ATSDR Table 6-4 reports tributyltin levels in food from multiple geographic surveys; central tendencies in fish are typically nanograms-per-gram wet weight, with crustaceans and bivalves often higher. Organotins also enter food through PVC food-contact plastics (where alkyltins serve as heat stabilizers), polyurethane catalysts, silicone-coated parchment paper, and historic uses as wood preservatives, biocides, and rodent repellants.
+| Location | Species/group | TBT (ng/g wet) |
+| --- | --- | ---: |
+| Marseille, France | European squid, muscle | 655 |
+| Marseille, France | Mediterranean mussel, soft tissue | 87 |
+| Ulsan, Korea | Mussel, soft tissue | 115 |
+| Stockholm, Sweden | Atlantic herring, muscle | 36 |
+| Halifax, Canada | Longfin inshore squid, muscle | 8.9 |
+| Galveston, Texas | Oyster, soft tissue (Pacific and American) | 72 |
+| Sydney, Australia | Sydney rock oyster, soft tissue | 9.2 |
+| London, England | Oyster, soft tissue | 43 |
 
-In tissue surveys, organotin distribution differs sharply from inorganic tin. Inorganic tin is poorly absorbed (more than 90 percent of an ingested dose is excreted in feces; bone is the primary tissue depot for the small absorbed fraction); organotins, being lipophilic, are absorbed and distribute to liver, kidney, and brain. ATSDR-summarized human-tissue surveys report monobutyltin, dibutyltin, and tributyltin in blood and liver of populations from Michigan, Poland, Denmark, and Japan, with total-butyltin liver concentrations on the order of low tens of nanograms per gram wet weight.
+A separate six-market U.S. summer/winter survey (Cardwell et al. 1999b) detected TBT in 35% of samples; summer means by category were 0.98-7.1 µg/kg for bottom fish, 1.0-2.4 for crustaceans, and 2.0-13 for mollusks. A Japanese market-basket study (Tsuda et al. 1995) found TBT and triphenyltin only in the fish-mollusks-crustaceans group (5.2 µg TBT/kg, 0.4 µg TPT/kg) and the vegetables-and-seaweeds group (0.2 and 0 µg/kg). Sediment is the major TBT sink in coastal environments (Section 6.4.3, pp. 265-269); Coddington Cove, Rhode Island sediments measured 0.032-0.372 mg Sn/kg dry weight (Wade et al. 2004), and intertidal sites in Portland and Boothbay Harbor, Maine ranged 0.024-12.4 mg TBT/kg dry weight (Page et al. 1996).
 
-Toxic mechanisms:
+### Tin and organotin in human tissues and fluids (Table 6-5, p. 277)
 
-Inorganic tin's principal toxic effect after ingestion is local irritation of the gastrointestinal mucous membrane producing acute nausea, vomiting, and diarrhea. The threshold for symptomatic effects in humans is on the order of 1,000 to 1,400 ppm tin in canned fruit juices in single-dose challenges. Systemic absorption is limited; reported chronic effects from prolonged inorganic tin exposure include anemia and liver and kidney effects in animal studies at substantially higher dose-times-duration loadings.
+Inorganic tin and butyltin distributions differ sharply, reflecting their differing absorption and partitioning. NHANES III (1988-1994; n=500; Paschal et al. 1998) detected tin in 89% of urine samples (detection limit 0.1 µg/L) with a 95th-percentile concentration of 20.1 µg/L. Adipose-tissue tin in the 1982 National Human Adipose Tissue Survey (n=9; Stanley 1986) ranged 4.6-15 µg/g. Spanish autopsy series (Llobet et al. 1998, n=20; García et al. 2001, n=78) found tin highest in bone (means of 6.18 and 0.47 µg/g wet weight, respectively) and lowest in brain (0.98 and 0.27 µg/g wet weight). Human butyltin blood and liver concentrations are reported on the order of single-digit to low-tens ng/g wet weight: Michigan blood (n=32; Kannan et al. 1999) mean monobutyltin / dibutyltin / tributyltin 8.17 / 4.94 / 8.18 ng/mL; Polish liver (n=9; Kannan and Falandysz 1997) total butyltin range 2.4-11.0 ng/g wet weight; Japanese liver (n=4; Takahashi et al. 1999) mean monobutyltin 18 ng/g, dibutyltin 66 ng/g, tributyltin <2 ng/g; Danish liver (n=18; Nielsen and Strand 2002) tributyltin and triphenyltin both below detection (<0.3 and <3 ng/g), with mean dibutyltin 9 ng/g and >25-fold inter-individual variability.
 
-Organotin mechanisms are species-dependent. Tributyltin and dibutyltin are immune toxicants; the rodent thymus is the most-sensitive organ in repeat-dose studies, supporting the immune-system-endpoint MRLs. Triethyltin and trimethyltin are central nervous system toxicants. Some organotins are reproductive toxicants (reduced fertility and stillbirth in rodents), and a few are tumorigenic in animal studies. Organotins generally do not penetrate intact human skin in significant amounts, but skin and eye irritation have been reported after acute high-dose contact. The immune-system endpoint, which is the basis of the most stringent organotin MRLs, supports the wiki position that organotins must be assessed separately from inorganic tin in any food-safety analysis.
+### NPL and exposure summary
 
-## Methods (brief)
+Tin and organotin compounds had been identified at 214 and 8, respectively, of the 1,662 hazardous-waste sites then proposed for the EPA National Priorities List (HazDat 2004; Section 6.1, p. 249). The average daily tin intake of a U.S. adult was estimated at 4.003 mg (4 mg from food, 0.003 mg from air; drinking water undetectable; Section 2.1, p. 11). Tinplated cans are the dominant dietary route for inorganic tin (Biégo et al. 1999, WHO 2003); seafood from coastal waters and contact with PVC/polyurethane consumer products carrying alkyltin stabilizers are the principal routes for organotin exposure (Section 6.2, pp. 253-256; Section 6.5, p. 282).
 
-This is an ATSDR toxicological profile rather than a single analytical occurrence paper. It reviews human, animal, mechanistic, toxicokinetic, exposure, environmental fate, and regulatory literature for inorganic tin and organotin compounds. MRL derivations use ATSDR's duration-specific framework, identifying NOAELs or LOAELs and applying uncertainty factors. Food and seafood concentration values are literature summaries from cited studies and tables; they are useful as source-reported context but are not a new ATSDR sampling campaign.
+## Methods
 
-## Implications
+The profile is a literature synthesis prepared in accordance with the ATSDR-EPA guidelines published in the Federal Register on April 17, 1987. The text covers chemical and physical properties (Chapter 4), production and use (Chapter 5), environmental fate and exposure (Chapter 6), analytical methods for biological materials and environmental samples (Chapter 7), and regulations and advisories (Chapter 8). MRL derivations follow the standard ATSDR framework documented in Appendix A: identification of the most sensitive NOAEL or LOAEL across the available studies for each route-duration cell, then division by an uncertainty factor that combines animal-to-human extrapolation (10), human inter-individual variability (10), and where applicable an extra LOAEL-to-NOAEL factor (10) and species variability factor (10). External CERCLA-mandated peer review was conducted by Michael Aschner (Wake Forest University School of Medicine), Olen Brown (University of Missouri-Columbia), and Bruce Jarnot (American Petroleum Institute).
 
-Certification: Keep inorganic tin and organotins separated. The inorganic-tin food-contact values are relevant to canned-food and canned-juice evidence routing, while organotin values route primarily to seafood and food-contact/plastics context. Neither class should be used as a generic "tin" benchmark without species qualification.
+## Inorganic-tin and organotin mechanisms
 
-Courses: This is a strong teaching source for why element names are insufficient in risk assessment. Inorganic tin produces mainly gastrointestinal irritation at high food-contact concentrations, while tributyltin and dibutyltin drive immune-system MRLs several orders of magnitude lower.
+Inorganic tin's principal toxic effect after ingestion is local irritation of the gastrointestinal mucous membrane producing acute nausea, vomiting, and diarrhea, with symptomatic thresholds in single-dose human challenges reported on the order of thousands of ppm tin in acidic canned juices. Systemic absorption is limited (more than 90% of an ingested dose is excreted in feces; bone is the primary depot for the small absorbed fraction). Reported repeat-dose effects from inorganic tin include hematological changes (hemoglobin and hematocrit reductions, reversible with iron or copper enrichment of the diet), and at substantially higher doses liver, kidney, and pancreatic effects in rodent studies.
 
-App: Use the profile for species-aware tin explanations. Consumer-facing logic should treat canned-food inorganic tin and seafood/PVC-related organotins as different exposure pathways with different health endpoints.
+Organotin mechanisms are species-dependent. Tributyltin and dibutyltin are immune toxicants and the rodent thymus is the most-sensitive organ in repeat-dose dietary studies, supporting the immune-system-endpoint derivations of both organotin MRLs (Vos et al. 1990; Seinen et al. 1977b). Triethyltin and trimethyltin are central nervous system toxicants producing ataxia, paralysis, and self-mutilating behavior at sub-mg/kg doses (Magee et al. 1957; Bouldin et al. 1981; Brown et al. 1984). Some organotins are reproductive or developmental toxicants in rodents (Ema and Harazono 2000; Ema et al. 1997b; Adeeko et al. 2003), and a few are tumorigenic in chronic-duration animal studies. Organotins generally do not penetrate intact human skin in significant amounts at environmental exposure levels, but skin and eye irritation have been reported after acute high-concentration occupational contact.
 
-## Wiki pages this source may touch
+## Provenance notes
 
-- [[metals/tin]]
-- [[metals/tin-inorganic]]
-- [[metals/organotins]]
-- [[ingredients/canned-corn]]
-- [[ingredients/canned-fruit-cocktail]]
-- [[ingredients/canned-green-beans]]
-- [[ingredients/canned-mushrooms]]
-- [[ingredients/canned-tomatoes]]
-- [[ingredients/apple-juice]]
-- [[ingredients/fish]]
-- [[ingredients/seafood]]
+The manual-fetch PDF in the June 3 Folder is byte-identical (SHA-256 `de21f125...e313f4`, 7.7 MB) to the earlier `raw/Digest/Bookshelf_NBK599935.pdf` retrieval from the NCBI Bookshelf record for tp55. The 2005 final profile supersedes the September 2003 draft for public comment. ATSDR has not finalized a post-2005 update for tin as of the access date; the 2005 profile remains the operative U.S. agency reference. Profile authored by Carolyn Harper, Fernando Llados, Gary Diamond, and Lara L. Chappell with external peer review by Aschner, Brown, and Jarnot. License `us-government-work`; no copyright restriction applies. Canonical agency URL: `atsdr.cdc.gov/toxprofiles/tp55.pdf`; secondary host: NCBI Bookshelf NBK599935.
 
 ## Verification notes
 
-The June 3 manual-fetch PDF was checked against the ATSDR profile title metadata and text extraction. Page count is 426. The canonical raw file `raw/Manual Fetch Kimi /June 3 Folder/tp55.pdf` and duplicate files `raw/Manual Fetch Kimi /June 3 Folder/tp55 2.pdf`, `raw/Manual Fetch Kimi /June 3 Folder/tp55 (1).pdf`, and `raw/Manual Fetch Kimi /June 3 Folder/tp55 (1) 2.pdf` are byte-identical with SHA-256 `de21f125225d8b83e738e88912ebbadc12ac48f25026b697230241baa9e313f4`; the three duplicate paths are recorded in the tracker as duplicates rather than separate sources. No DOI is assigned.
+This page was merge-enhanced on 2026-06-04 from a pre-2026-05-14 revision. Corrections made on this pass against the source PDF (tp55, August 2005):
 
-Profile authored by C. Harper, F. Llados, G. Diamond, and L. L. Chappell with peer review by Michael Aschner, Olen Brown, and Bruce Jarnot. The 2005 final profile supersedes the 2003 draft. ATSDR profiles are prepared under SARA 1986 / CERCLA mandate; tin and organotin compounds had been found at 214 and 8, respectively, of the 1,662 NPL hazardous-waste sites covered by the program at time of writing. The access URL points to the NCBI Bookshelf canonical record, while the raw path now points to the June 3 manual-fetch PDF that triggered this provenance repair.
+- "Dibutyltin chloride" in the prior MRL table was corrected to "Dibutyltin dichloride" — the source consistently names the test article as "dibutyltin dichloride" (Section 2.3, p. 19; Seinen et al. 1977b).
+- The prior "Selected tin levels in foods" paragraph cited "ATSDR Tables 6-2 and 6-3" but Table 6-2 is "Organotin Levels in Sediment" (p. 267-268), not food. The correct table is 6-3 alone. The numeric values in the prior paragraph ("meats around 0.6-2.9 mg/kg," "fishes 6.0 mg/kg," "canned alcoholic beverages around 4.5 mg/kg") do not appear in Table 6-3 and were removed; the actual Table 6-3 values are now reported in the Key numbers food block above (e.g., lacquered-can meats mean 4.5 mg/kg n=4 range 1.1-9.4; lacquered-can fishes mean 0.7 mg/kg n=4 range 0.3-0.9; alcoholic beverages and canned alcoholic beverages both reported <0.003 mg/kg in fresh foods).
+- The tributyltin oxide MRL row now records the actual point of departure (NOAEL 0.025 mg/kg/day) rather than the bare "NOAEL" placeholder of the prior table.
+- Legacy headings `## Summary` and `## Wiki pages updated on ingest` were removed per current Part 6 template. The Wiki-pages section is superseded by the routing audit, which fans this source out to product, ingredient, and metal pages automatically from the frontmatter.
+- `raw_handle`, `raw_sha256`, and `near_duplicates` fields were added; `raw_path` updated to the manual-fetch PDF (byte-identical to the prior Bookshelf retrieval). `access_url` updated to the canonical ATSDR URL; NCBI Bookshelf retained as secondary host in the provenance note.
+- `source_type` normalized from `government_report` (4 instances corpus-wide) to `gov-report` (77 instances; current convention).
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -105,9 +125,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
