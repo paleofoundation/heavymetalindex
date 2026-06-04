@@ -43,7 +43,7 @@ Guideline values:
 
 Derivation of the health-based value (Section 3):
 
-- Critical study: Poirier et al. (2011), Sprague-Dawley rats, aluminum citrate in drinking water at 0, 30, 100 and 300 mg Al/kg bw per day, in utero through lactation and post-weaning to 1 year of age, GLP/OECD TG 426 design (80 sex/group).
+- Critical study: Poirier et al. (2011), Sprague-Dawley rats, aluminum citrate in drinking water at 0, 30, 100 and 300 mg Al/kg bw per day, in utero through lactation and post-weaning to 1 year of age, GLP/OECD TG 426 design (80/sex/group; 160 per dose group).
 - Critical endpoint: developmental neuromuscular deficit (fore- and hind-limb grip strength, foot splay) plus clinical biochemical changes and renal pathology in male pups.
 - NOAEL = 30 mg Al/kg bw per day (target dose); LOAEL = 100 mg Al/kg bw per day.
 - Uncertainty factor = 100 (×10 interspecies, ×10 intraspecies).
@@ -84,8 +84,8 @@ Jurisdictional highlights (median / mean / 90th percentile / max, mg/L):
 - New Brunswick, surface-distribution: 0.018 / 0.027 / 0.052 / 0.300 (n = 338/391).
 - Quebec, ground-treated: 0.020 / 0.020 / 0.034 / 0.037 (n = 1/2); surface-treated: 0.029 / 0.084 / 0.200 / 0.360 (n = 6/6).
 - Ontario, ground-and-surface-distributed: 0.024 / 0.042 / 0.109 / 1.340 (n = 1 212/1 387).
-- Manitoba, surface-raw: 0.133 / 0.407 / 0.664 / 32.400 (n = 392/413); non-municipal ground: 0.003 / 0.023 / 0.011 / 14.000.
-- Saskatchewan, ground-and-surface-treated: 0.011 / 0.106 / 0.272 / 2.030.
+- Manitoba, surface-raw: 0.133 / 0.407 / 0.664 / 32.400 (n = 392/413); non-municipal ground: 0.002 / 0.010 / 0.014 / 0.266 (n = 51/144).
+- Saskatchewan, non-municipal ground: 0.003 / 0.023 / 0.011 / 14.000 (n = 1 983/4 128); ground-and-surface-treated: 0.011 / 0.106 / 0.272 / 2.030 (n = 288/293).
 - Alberta, surface-raw: 0.180 / 0.626 / 1.732 / 6.200 (n = 147/148).
 - British Columbia, non-municipal not-specified: 0.020 / 0.059 / 0.050 / 3.000 (n = 313/352).
 - Yukon, ground-treated: 0.005 / 0.005 / 0.005 / 0.025 (n = 11/68).
@@ -134,3 +134,5 @@ App: Drinking water can be added to the per-age aluminum exposure model using th
 - Part 12 brand firewall: source contains no brand-attributed contamination data; method/vendor exception N/A (no analytical instrument vendors named in the source-level method summaries; APHA/EPA standard method numbers only).
 - Part 2 wiki/HMTc firewall: this page reports the Health Canada guideline values, derivation steps, occurrence data, and international comparators as the document presents them. No comparison to HMT&C thresholds, no consumer risk advisories, no proposals for HMT&C certification levels.
 - Brand-firewall exception 1 (regulatory event subject) does not apply — the document does not name any branded products as the subject of a regulatory action.
+- Audit subagent (2026-06-04) flagged a Manitoba/Saskatchewan jurisdictional mis-attribution in the Canadian occurrence block: the non-municipal-ground row `0.003 / 0.023 / 0.011 / 14.000` (n = 1 983/4 128) was attributed to Manitoba but belongs to Saskatchewan per source Table 2 (page 5). Manitoba's actual non-municipal-ground row is `0.002 / 0.010 / 0.014 / 0.266` (n = 51/144). Verified against source page 5 — finding correct; corrected.
+- Audit subagent (2026-06-04) flagged the Poirier 2011 study size as `(80 sex/group)` being ambiguous (could be misread as 80 per group total). Source page 15 Table 3 explicitly states "80/sex/group" with the slash. Verified — finding correct; disambiguated to `(80/sex/group; 160 per dose group)`.
