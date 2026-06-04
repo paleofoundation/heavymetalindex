@@ -56,7 +56,7 @@ Nickel compounds:
 
 Welding fumes: inadequate evidence in humans for stainless-steel welding fumes specifically, but overall sufficient epidemiological evidence across welding occupations for lung cancer — **Group 2B**.
 
-### Chromium in food (Table 16, pp. 102-103; Section 2.3(d))
+### Chromium in food (Section 2.3(f), p. 101)
 
 - Vegetables: 20-50 µg/kg.
 - Fruits: 20 µg/kg.
@@ -67,7 +67,7 @@ Welding fumes: inadequate evidence in humans for stainless-steel welding fumes s
 - Mean daily Cr intakes from food / water / air (Fishbein 1976): 280 / 4 / 0.28 µg respectively.
 - Foodstuff Cr concentrations spanned 20-590 µg/kg across surveyed categories (Hartford 1979).
 
-### Chromium in drinking water (Section 2.3(c); Table 17)
+### Chromium in drinking water (Section 2.3(d), pp. 99-100; Section 2.3(i) Regulatory status, p. 104)
 
 - WHO European Standards (1970): Cr[VI] in drinking water 0.05 mg/L.
 - Japanese drinking-water standard (1978): Cr[VI] 0.05 mg/L.
@@ -76,7 +76,7 @@ Welding fumes: inadequate evidence in humans for stainless-steel welding fumes s
 - US tap-water survey (1974-75): 0.4-8 µg/L, median 1.8 µg/L.
 - Rhine drinking water (1975): 0.29 µg/L.
 
-### Chromium in non-occupationally exposed humans (Table 17, ranges from multiple studies)
+### Chromium in non-occupationally exposed humans (Section 2.3(h), Table 17, p. 104)
 
 - Serum: median 0.19 µg/L (range 0.12-2.1 µg/L).
 - Whole blood: <0.5 µg/L.
@@ -114,7 +114,7 @@ Cross-matrix methods covered include EAAS (electrothermal atomic absorption spec
 
 This is a consensus working-group monograph, not a primary measurement study. The Working Group (constituted by IARC under the rules described on the volume's preliminary pages) reviewed published peer-reviewed and agency literature on chromium, nickel, and welding through the meeting date of 13 June 1989. Sources reviewed include occupational cohort and case-control epidemiology, animal carcinogenicity bioassays (inhalation, intratracheal, intrapleural, intramuscular, intraperitoneal, subcutaneous, intravenous, intrarenal, intracerebral, and topical routes), short-term genotoxicity studies, exposure surveys (food, drinking water, ambient air, occupational atmospheres, biological samples), and analytical-method reviews. Carcinogenicity classifications were assigned per the IARC Monographs Programme's standard scheme (Groups 1, 2A, 2B, 3, 4) based on the strength of human and animal evidence and supporting mechanistic data.
 
-The analytical-method tables (Cr Table 19 at p. 109; Ni Table 21 at pp. 315-316) compile sample-preparation, instrumental-procedure, and detection-limit data from the primary literature; the monograph does not perform new analytical work.
+The analytical-method tables (Cr Table 19 starting p. 108; Ni Table 21 at pp. 315-316) compile sample-preparation, instrumental-procedure, and detection-limit data from the primary literature; the monograph does not perform new analytical work.
 
 ## Verification notes
 
@@ -130,3 +130,5 @@ Source-handling notes:
 - Welding section was read at the chapter-overview level only for the Group 2B classification; detailed welding-fume composition tables were not extracted because welding-fume occupational exposure is outside the food/personal-care contamination scope that HMI primarily synthesizes from. Future welding-specific synthesis passes (if HMTc covers occupational adjacency) should re-read the welding chapter (volume pp. 447 onward) directly.
 - Brand-firewall (Part 12) not triggered: this is a chemicals/agents monograph; the alloy and metallurgical names that appear in the carcinogenicity studies (e.g., "Cpb-ShGa 51" hamster strain, ferronickel alloy NiFe₁.₆, nickel-gallium dental prosthesis alloy) are scientific-material designations under the Exception 2 carve-out for scientific-method vendor/material names, not consumer brand attributions to contamination values.
 - Wiki/HMTc firewall (Part 2) not triggered: the monograph predates HMTc, and the page records only what IARC concluded.
+- Audit subagent (2026-06-04) flagged four Section/Table citation labels. Verified against source PDF and corrected: (a) the Chromium-in-food heading initially cited "Table 16, pp. 102-103; Section 2.3(d)" — Table 16 is actually Cr levels in food and feral animal tissues, not food-intake figures, and food is Section 2.3(f) on p. 101 — corrected to "Section 2.3(f), p. 101"; (b) the Chromium-in-drinking-water heading initially cited "Section 2.3(c); Table 17" — Section 2.3(c) is Air and Table 17 is human tissues; corrected to "Section 2.3(d), pp. 99-100; Section 2.3(i) Regulatory status, p. 104"; (c) the Chromium-in-non-occupationally-exposed-humans heading was tightened to cite the section letter (2.3(h)) explicitly; (d) Cr Table 19 in Methods was cited as "p. 109" — Table 19 actually begins on p. 108; corrected.
+- Audit subagent (2026-06-04) flagged the gloss "(dry weight equivalent)" on the Ni EAAS tissue/food/faeces detection limit. The PDF p. 317 prints "10 ng/g (dry wet)" — an ambiguous/typesetting fragment; "(dry weight equivalent)" is retained because the EAAS sample-preparation conventions for tissues and foods in Table 21 use acid digestion of dry-weight-equivalent material, and the gloss is the standard interpretation in clinical-chemistry usage of this monograph. Verified against the source but the gloss is interpretive, not verbatim.
