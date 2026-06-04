@@ -14,12 +14,12 @@ raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/agriculture-13-00968.pdf
 metals: [Cd, Pb, Cr, Ni, Zn, Cu, Mn, Fe, Co]
 ingredients: []
 products: []
-matrices: [soil, sand, loamy-sand, maize-pot-soil]
+matrices: [soil]
 jurisdictions: [PL]
 near_duplicates: []
 sample_n: 72
 sample_population: "Three-factor pot experiment with sand and loamy-sand soils, three nitrogen fertiliser forms, four humic-acid doses, and three replicates; maize was grown to tassel emergence before soil trace elements were measured."
-updated: 2026-06-02
+updated: 2026-06-04
 ---
 
 # Wyszkowski et al. 2023 - Humic acids and nitrogen fertiliser effects on soil trace elements
@@ -76,7 +76,7 @@ Figure 3 attributes the largest observed-variance share to soil type for Pb (41.
 
 The authors ran a three-factor pot experiment in triplicate. Factors were soil texture class (sand and loamy sand), nitrogen fertiliser form (ammonium nitrate, urea, and urea ammonium nitrate solution), and humic-acid dose (0, 0.05, 0.10, and 0.15 g/kg soil applied three times). All pots received 160 mg N/kg soil, 60 mg P/kg soil, and 170 mg K/kg soil. Each pot contained 9 kg soil and six maize plants. Soil moisture was held at 60% of maximum capacity, and soil was sampled when maize reached tassel emergence (BBCH 59).
 
-Soils were digested with concentrated hydrochloric and nitric acids using a microwave digestion procedure aligned with US EPA Method 3051. Trace elements were measured by atomic absorption spectrometry. The source reports use of element-specific Fluka reference materials and Soil S-1 Certified Analytical Reference Material.
+Soils were digested with concentrated hydrochloric and nitric acids in a CEM MARS 6 microwave digestion system using a procedure aligned with US-EPA Method 3051A. Trace elements were measured by atomic absorption spectrometry on a SpectrAA 240FS spectrometer (Varian Inc.). The source reports use of element-specific Fluka reference materials and the Soil S-1 Certified Analytical Reference Material from AGH University of Science and Technology in Kraków. Statistical analysis used two-factor ANOVA with Tukey HSD (p ≤ 0.01), principal component analysis, and Pearson correlation coefficients.
 
 ## Implications
 
@@ -103,12 +103,4 @@ App: Route as soil-management context for cadmium, chromium, nickel, lead, coppe
 
 The PDF has author attribution and DOI `10.3390/agriculture13050968`; no DOI conflict was observed. The source reports soil concentrations only, even though maize was used as the pot-test crop. No food, ingredient, plant-tissue, grain, or product concentration row should be extracted from this paper. The soil-origin locality is not specified beyond the Polish research setting; `jurisdictions: [PL]` is used as the experimental jurisdiction, not a food-market jurisdiction. All table values above follow the source's mg/kg dry-matter basis; no wet/dry or as-sold conversion was performed.
 
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [0d08bd6](https://github.com/paleofoundation/heavymetalindex/commit/0d08bd6) | 2026-06-02 | ingest June 2: wyszkowski2023-soils-nitrogen-humic-acids |
-<!-- END: hmi-page-history -->
+2026-06-04 re-ingest pass: matrices narrowed from `[soil, sand, loamy-sand, maize-pot-soil]` to `[soil]` because `sand`, `loamy-sand`, and `maize-pot-soil` are not in the controlled matrices vocabulary; the broader `soil` term is the correct routing scope and the sand/loamy-sand distinction is preserved in body text. Methods enhanced with the digestion-system make/model (CEM MARS 6), AAS instrument (SpectrAA 240FS, Varian Inc.), and the statistical pipeline (two-factor ANOVA with Tukey HSD, PCA, Pearson correlation) — instrument and software names are permitted under Part 12 Exception 2 (scientific reproducibility). Numerical values in Key numbers spot-checked against Table 1 and Table 2 in the source PDF; all match. US-EPA digestion method corrected from "Method 3051" to "Method 3051A" per source reference [55].
