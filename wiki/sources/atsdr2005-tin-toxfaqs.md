@@ -18,7 +18,7 @@ metals: [Sn]
 species: [Sn-inorganic, stannous-chloride, stannous-sulfide, stannic-oxide, organotins, dibutyltin, tributyltin, tributyltin-oxide, triphenyltin, triphenyltin-hydroxide, trimethyltin, triethyltin]
 ingredients: []
 products: []
-matrices: [canned-food, seafood, drinking-water, workplace-air]
+matrices: [canned-food, seafood, workplace-air]
 jurisdictions: [US]
 near_duplicates: ["[[sources/atsdr2005-tin-toxicological-profile]]"]
 sample_n: null
@@ -35,7 +35,7 @@ The August 2005 ATSDR ToxFAQs fact sheet (Tox fact sheet #55) is the two-page co
 
 ## Key numbers
 
-- **OSHA workplace air limits.** Organotin compounds — 0.1 mg/m³ (eight-hour time-weighted average). Inorganic tin compounds, except oxides — 2.0 mg/m³ (eight-hour time-weighted average). The twenty-fold occupational limit gap is the regulatory expression of the same inorganic-vs-organotin toxicity differential that the full toxicological profile expresses through the MRL ladder.
+- **OSHA workplace air limits.** Organotin compounds — 0.1 mg/m³. Inorganic tin compounds, except oxides — 2.0 mg/m³. (The fact sheet does not attach an averaging period to either PEL; OSHA's underlying PELs are eight-hour time-weighted averages, but the fact sheet does not say so.) The twenty-fold occupational limit gap is the regulatory expression of the same inorganic-vs-organotin toxicity differential that the full toxicological profile expresses through the MRL ladder.
 - **FDA food-contact and food-additive regulation.** FDA regulates the use of some organic tin compounds in coatings and plastic food packaging. FDA has also set limits for the use of an inorganic tin compound, stannous chloride, as a food additive. The fact sheet does not state numeric values for either; they live in the underlying FDA regulations cited by the full toxicological profile.
 - **NPL site occurrence (1,662 total NPL sites at time of writing).** Metallic tin and inorganic tin compounds — identified at at least 214 sites. Organic tin compounds — identified at at least 8 sites.
 - **Tin-lined can lacquering prevalence.** Greater than 90 percent of tin-lined cans used for food are protected with lacquer (the lacquer prevents the elemental-tin-to-canned-food dissolution reaction).
@@ -71,5 +71,7 @@ Source PDF is the ATSDR ToxFAQs fact sheet for tin (filename `tfacts55 2.pdf` in
 - `metals:` carries `Sn` only because the fact sheet is tin-specific; `species:` enumerates the inorganic and organotin compounds the fact sheet names by name (stannous chloride, stannous sulfide, stannic oxide on the inorganic side; dibutyltin, tributyltin, tributyltin oxide, triphenyltin, triphenyltin hydroxide, trimethyltin, triethyltin on the organotin side).
 - `ingredients:` and `products:` are intentionally empty. The fact sheet's only ingredient/product mentions are qualitative ("food contaminated with these compounds," "canned products," "seafood from coastal waters," "tin-lined cans for food, beverages, and aerosols") and do not carry any per-ingredient or per-product occurrence value. The routing audit will record `products` and `ingredients` as advisory-missing, which is the correct posture for a federal consumer-health fact sheet with no occurrence data.
 - The OSHA workplace-air limits quoted (0.1 mg/m³ organotins, 2.0 mg/m³ inorganic tin except oxides) are taken verbatim from the fact sheet's "Has the federal government made recommendations to protect human health?" section, page 2. No interpretive synthesis is added.
+- Audit subagent (2026-06-04) flagged that an earlier revision attached "(eight-hour time-weighted average)" to the OSHA PEL values; verified against the PDF — the fact sheet does not state an averaging period. The 8-hour TWA is in fact how OSHA expresses these PELs in the underlying CFR, but to keep this source page strictly faithful to what the fact sheet itself reports, the parenthetical TWA framing has been removed from the Key numbers bullet and the contextual note added in its place.
+- Audit subagent (2026-06-04) flagged that `matrices: [drinking-water]` overstated the PDF, which discusses water only as an environmental compartment (binding to sediment, persistence in water for organotin) and not as a human drinking-water exposure route. Verified; `drinking-water` removed from `matrices:`. Remaining matrices (`canned-food`, `seafood`, `workplace-air`) are the three the fact sheet explicitly frames as human exposure routes.
 - The fact sheet uses the phrase "metallic tin and inorganic tin compounds have been found in at least 214 of the 1,662 National Priority List (NPL) sites" on page 1; "Organic tin compounds have been identified in at least 8 of the NPL sites" follows immediately. Both NPL counts are reproduced verbatim.
 - No brand-firewall or wiki/HMTc-firewall concerns surfaced; the fact sheet names no brands and makes no HMT&C-comparable threshold claims.
