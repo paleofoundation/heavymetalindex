@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-04T14:09:05.550Z
+updated: 2026-06-04T15:42:29.696Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -29,14 +29,14 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Component | State |
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
-| auto-fetched/ PDFs in queue | 476 (fresh work for Codex/daemon ingest) |
+| auto-fetched/ PDFs in queue | 484 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 2 ✅ |
 | Audit queue: pending-audit-spawn-failed | 95 (async lane) |
-| Wishlist: total downloaded historically | 3 |
+| Wishlist: total downloaded historically | 7 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 77 commit(s) ahead of origin/main |
-| Commits last 1 hour | 11 |
-| Commits last 24 hours | 106 |
+| Repo sync | ⚠️ 108 commit(s) ahead of origin/main |
+| Commits last 1 hour | 19 |
+| Commits last 24 hours | 107 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-eb68176 9 minutes ago — docs: brand-intelligence feature audit — red-team inverts the moat thesis
+b479fed 4 minutes ago — ingest auto-fetched 2026-06-04: maspalma2021-nigeria-wild-fruits-heavy-metals
 ```
 
 ## How to read this
