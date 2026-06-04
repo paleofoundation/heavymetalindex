@@ -51,18 +51,29 @@ In the paleo-foundation repo's CI:
 3. **Own-log retention** — a test asserting `lever_actions` and alert-delivery logs carry a short `retention_class` and are covered by the neutral retention job (spec C2/M2).
 4. **Telemetry firewall** — a test asserting no HMI page object references the closed-loop dataset by any path (spec §3.7). Note (spec §5): this test catches the *automated* path only; the human-firewall (a person retyping a telemetry number into a wiki page), JFM governance, and litigation-hold obligations remain manual controls with named owners, not things CI guarantees.
 
-## 7. Build sequence (first PRs)
+## 7. Build sequence (corrected — retention engine first, C-moat next, lab-competing features deferred)
 
-1. **PR-1 COA ingestion (the long pole, spec §3.1/M5):** documents-bucket upload → parse with a per-lab adapter set (start with the labs HMTc customers actually use) → `brand_lot_results` as **candidate** → manual-confirm UI sets `verified` (which gates trend/pool admission). Basis mandatory; order-of-magnitude outlier hold against the HMI literature range. Ships with the §6.1 tenancy tests.
-2. **PR-2 Own-data trends (§3.2):** recharts views over confirmed lots, sliceable by SKU/ingredient/supplier. Plus historical-COA bulk upload (Karen's "add old data").
-3. **PR-3 Pinpoint levers (§3.4):** the magnitude×effort schema over the HMI bridge (§5); positive-only `lever_actions`; provenance links.
-4. **PR-4 Board PDF (§3.8):** `@react-pdf/renderer`, provenance/transport framing, auto-generated for active certified brands.
-5. **PR-5 Change-watch routing (§3.6):** cron + Resend, informational framing, short-retention logs.
-6. **Behind feature flags, post counsel + data:** benchmark (§3.3) and supplier-node intelligence (§3.5).
+Re-sequenced after the moat-thesis correction in `docs/brand-intelligence-feature-audit.md`: the moat is **C** (the standard), not the corpus; concentrate effort there, not on out-dashboarding the testing labs (Eurofins/FoodChain ID already ship the replicable features).
+
+**Tranche 1 — the retention engine (why brands log in; also the engineering long pole):**
+1. **PR-1 COA ingestion (§3.1/M5):** documents-bucket upload → per-lab parse adapters → `lot_results` as **candidate** → manual-confirm UI sets `verified` (gates admission). Basis mandatory; outlier hold. Ships with the §6.1 tenancy tests.
+2. **PR-2 Own-data trends (§3.2):** recharts over confirmed lots; historical-COA bulk upload.
+3. **PR-3 Change-watch routing + alerts (§3.6):** cron + Resend, informational framing, short-retention logs. (Moved up — the highest-leverage re-engagement mechanic.)
+
+**Tranche 2 — the C-moat (a testing lab structurally cannot build these; buildable now):**
+4. **PR-4 Pre-submission certification gap simulator (§3.9):** top-of-funnel — scores a prospect/brand against the published HMTc limits + the ratchet forecast; grows the certification business itself. Ship early. Firewall guards per §3.9.
+5. **PR-5 Ratchet-readiness tracker:** the brand's trajectory vs the published ratchet (Governance Policy §12).
+6. **PR-6 Retailer/auditor verification packet:** verifiable proof of certification (pure C).
+
+**Tranche 3 — standards-committed deliverables (license conditions per Governance Policy §11 / Part 2.4 — obligations, not options):**
+7. **PR-7 Supplier intelligence (§3.5):** anonymized, ingredient/region-level, reporting-brand-never-disclosed, honest-limits — exactly the Governance Policy §11 framing. Counsel-gated for go-live; built to match the standard, **never a named scorecard**.
+8. **PR-8 Confidential-remediation surface (§3.4):** magnitude×effort levers, positive-only `lever_actions`, provenance links — the product surface of the Part 2.4 remediation commitment.
+
+**Tranche 4 — deferred / thin (lab-advantaged, NOT standards-committed — do not fund early):** reformulation simulator (Eurofins-advantaged + advice-liability; counsel-gate or skip), predictive forecast (Eurofins ships it; defer), standalone competitive benchmark (§3.3 — replicable + re-identification-constrained; flags + counsel + data), board PDF (§3.8 — cheap garnish, brand-held, not a flagship), closed-loop effectiveness (§3.7 — plumbing now, populate over quarters, firewall-absolute).
 
 ## 8. Pre-merge gates
 
-- **Karen** (spec §10 decisions): freemium/pay-to-pass line, brand-as-controller DPA posture, counsel-gating confirmation, supplier-node default-off, pool participation opt-in.
+- **Karen** — the spec §10 decisions are **resolved** (2026-05-31 green light): free levers incl. effort axis, dual-role DPA, counsel-gated go-live, supplier-node default-off, pool opt-in, JFM charter yes. Remaining Karen items: the small JFM launch decisions (domain, diamond OA, external EIC) and confirming when to open the first PR against the paleo-foundation remote.
 - **Counsel** before flipping benchmark (§3.3) and supplier-node (§3.5) flags, and to draft the **dual-role DPA** (processor for raw lots / controller for de-identified derivatives) + neutral retention schedule **with a litigation-hold override** (covers staff impersonation access).
 - **JFM editorial-independence charter** is a hard prerequisite for *any* closed-loop-telemetry→HMI-literature capability (spec §3.7). It is **not** required for the closed-loop product feature itself or for any of the ship-first tranche; the safe default (no path) lets all of §7 proceed.
 - **The build itself modifies a second repo.** I will not open a PR against paleo-foundation without Karen's explicit go; this plan and the scoping are read-only.
