@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: MFK_tp22
+raw_handle: MFK_tp22-2
 cite_key: atsdr-aluminum-toxprofile-2008
 title: "Toxicological Profile for Aluminum"
 authors: ["Agency for Toxic Substances and Disease Registry"]
@@ -11,85 +11,119 @@ no_doi_assigned: true
 access_url: "https://www.atsdr.cdc.gov/toxprofiles/tp22.pdf"
 source_type: gov-report
 evidence_tier: A
-raw_path: "raw/Manual Fetch Kimi /June 3 Folder/tp22.pdf"
-raw_sha256: f959d09859641c06040b2ab1fbd280bb8de0f30adb0bf6be1980d5d915833b42
-access_date: 2026-04-25
 license: us-government-work
+raw_path: "raw/Manual Fetch Kimi /June 3 Folder/tp22 2.pdf"
+raw_sha256: f959d09859641c06040b2ab1fbd280bb8de0f30adb0bf6be1980d5d915833b42
+near_duplicates: ["original WebFetch 2026-04-25 from atsdr.cdc.gov/toxprofiles/tp22.pdf; manual-fetch PDF (June 3 Folder) merged 2026-06-04"]
+access_date: 2026-04-25
 metals: [Al]
-ingredients: ["[[ingredients/water]]", "[[ingredients/infant-formula-ingredients]]", "[[ingredients/breastmilk]]"]
+ingredients: ["[[ingredients/water]]", "[[ingredients/breastmilk]]", "[[ingredients/infant-formula-ingredients]]", "[[ingredients/soy-based-infant-formula]]", "[[ingredients/milk-based-infant-formula]]", "[[ingredients/processed-american-cheese]]", "[[ingredients/cornbread]]", "[[ingredients/tea]]"]
 products: []
+matrices: [dietary-intake, drinking-water, infant-formula, breast-milk, ambient-air, antacid-medication]
 jurisdictions: [US]
+sample_n: null
+sample_population: "Synthesis of peer-reviewed human and animal toxicology, exposure, and environmental-fate data; no original sampling"
 superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-near_duplicates: []
-sample_n: null
-sample_population: "ATSDR toxicological profile compiling aluminum toxicology, exposure, regulatory, and environmental fate evidence; not a new primary sampling study."
-updated: 2026-06-03
+updated: 2026-06-04
 ---
 
 # ATSDR 2008 — Toxicological Profile for Aluminum
 
-The September 2008 ATSDR Toxicological Profile for Aluminum is the comprehensive US toxicology synthesis for aluminum, prepared under CERCLA Section 104(i) authority. It supersedes the September 2006 draft for public comment. ATSDR derives Minimal Risk Levels for intermediate-duration oral exposure (15 to 364 days) at **1 mg Al/kg/day** and chronic-duration oral exposure (≥1 year) at **1 mg Al/kg/day**, both anchored on neurotoxic effects in lifetime-exposed mice, with a composite uncertainty factor of 100 applied to a LOAEL of 100 mg/kg/day (Golub et al. 2000). An acute-duration oral MRL was not derived because the available data were considered inadequate.
-
-| Route / Duration | MRL | Equivalent |
-| --- | --- | --- |
-| Oral / Acute (≤14 days) | Not derived | Inadequate data |
-| Oral / Intermediate (15-364 days) | 1 mg Al/kg/day | 1,000 µg Al/kg/day |
-| Oral / Chronic (≥1 year) | 1 mg Al/kg/day | 1,000 µg Al/kg/day |
-| Inhalation | Multiple by duration; see profile | |
+The September 2008 ATSDR Toxicological Profile for Aluminum is the comprehensive United States toxicology synthesis for elemental aluminum and aluminum compounds, prepared under CERCLA Section 104(i) authority and the September 2008 edition supersedes the September 2006 draft for public comment. The profile derives Minimal Risk Levels for oral exposure at intermediate (15-364 days) and chronic (≥1 year) durations, declines to derive an acute-duration oral MRL on inadequate-data grounds, and characterizes aluminum exposure from food, drinking water, ambient air, aluminum-containing medications, and consumer products. As of the access date below, ATSDR has not published a finalized post-2008 update.
 
 ## Key numbers
 
-Critical study and derivation for chronic oral MRL:
+### Minimal Risk Levels (oral exposure)
 
-| Parameter | Value |
-| --- | --- |
-| Critical study | Golub et al. 2000 |
-| Critical effect | Decreased forelimb and hindlimb grip strength, decreased thermal sensitivity in mice exposed lifetime |
-| LOAEL | 100 mg Al/kg/day |
-| Composite uncertainty factor | 100 |
-| Chronic oral MRL | 100 ÷ 100 = 1 mg Al/kg/day |
+| Duration | MRL | Critical study | Point of departure | Uncertainty factor | Modifying factor |
+| --- | --- | --- | --- | --- | --- |
+| Acute (≤14 days) | Not derived | — | — | — | — |
+| Intermediate (15-364 days) | 1 mg Al/kg/day | Golub and Germann 2001 | NOAEL 26 mg Al/kg/day (motor and cognitive deficits in mouse offspring) | 100 (10 animal-to-human × 10 human variability) | 0.3 (bioavailability adjustment) |
+| Chronic (≥365 days) | 1 mg Al/kg/day | Golub et al. 2000 | LOAEL 100 mg Al/kg/day (decreased forelimb/hindlimb grip strength, decreased thermal sensitivity in mice exposed lifetime) | 300 (3 minimal LOAEL × 10 animal-to-human × 10 human variability) | 0.3 (bioavailability adjustment) |
 
-Aluminum bioavailability data captured in the profile:
+The modifying factor of 0.3 accounts for the higher bioavailability of aluminum lactate (the test article in the principal studies) relative to aluminum compounds typically present in drinking water and the U.S. diet. Per the derivation footnote at p. 24-26 of the profile, the chronic MRL arithmetic is 100 / (300 × ⅓) ≈ 1 mg Al/kg/day; the intermediate MRL arithmetic is 26 / (100 × ⅓) ≈ 1 mg Al/kg/day. Both MRLs are anchored on neurological and neurodevelopmental endpoints (Section 2.3, pp. 15-26).
 
-| Source | GI bioavailability |
-| --- | --- |
-| Drinking water | 0.07 to 0.39 percent |
-| Diet (typical aluminum compounds) | 0.1 percent |
-| Aluminum lactate (specific compound) | Higher; suggests compound-specific variation |
+### Gastrointestinal bioavailability
 
-Reference daily intake context (relative to MRL of 1 mg Al/kg/day = 70 mg Al/day for a 70 kg adult):
+| Source | GI bioavailability | Reference within profile |
+| --- | --- | --- |
+| Aluminum from typical U.S. diet | 0.1% | Yokel and McNamara 2001; Powell and Thompson 1993 |
+| Aluminum from drinking water | 0.07 to 0.39% | Hohl et al. 1994; Priest et al. 1998; Stauber et al. 1999; Steinhausen et al. 2004 |
+| Aluminum lactate (single-dose rabbits) | 0.63% | Yokel and McNamara 1988 |
+| Aluminum from inhaled soluble forms (occupational) | 1.5 to 2% (fractional absorption estimate) | Yokel and McNamara 2001 |
 
-| Source | Daily aluminum delivery |
-| --- | --- |
-| Typical dietary intake | 5 to 15 mg/day |
-| Aluminum-containing antacids (typical user) | 100 to 1000 mg/day |
-| Drinking water (US EPA SMCL 0.05-0.2 mg/L) | <0.4 mg/day at 2 L/day intake |
-| Breast milk concentration | 0.0092 to 0.049 mg/L |
-| Milk-based infant formula concentration | 0.058 to 0.15 mg/L |
+### Dietary intake (United States, FDA Total Diet Study; Pennington and Schoen 1995)
 
-## Methods (brief)
+| Age-sex group | Aluminum intake (mg/day) | Per kilogram body weight (mg/kg) |
+| --- | --- | --- |
+| 6-11-month infants | 0.7 | 0.10 |
+| 2-year-old children | 4.6 | 0.35 |
+| 6-year-old children | 6.5 | 0.30 |
+| 10-year-old children | 6.8 | 0.11 |
+| 14-16-year-old females | 7.7 | 0.15 |
+| 14-16-year-old males | 11.5 | 0.18 |
+| Adult women | 7 | 0.15 (60 kg basis) |
+| Adult men | 8 to 9 | 0.18 (75 kg basis) |
 
-This is an ATSDR toxicological profile rather than a single experimental paper. The profile reviews human, animal, mechanistic, exposure, toxicokinetic, environmental fate, and regulatory literature for aluminum and aluminum compounds. Its oral MRL derivation focuses on neurotoxicity endpoints in animal studies, especially lifetime mouse exposure evidence, then applies ATSDR's standard MRL uncertainty-factor framework. The profile also compiles dietary, drinking-water, infant-formula, medication, and consumer-product exposure information; these are exposure-context values and literature summaries, not a new ATSDR sampling campaign.
+The profile notes that 2-year-old children consume approximately three times more aluminum per kilogram of body weight than adult men or women (0.48 vs 0.18 and 0.15 mg Al/kg/day, recalculated by Greger 1992). International comparators reported in the profile: U.K. average adult intake 3.4 mg/day (MAFF 1997); France average intake 4.2 mg/day (Biego et al. 1998).
 
-## Implications
+### Aluminum in infant feeding (Section 6.6)
 
-- Certification: ATSDR's chronic oral MRL of 1 mg Al/kg/day is approximately 7-fold higher than the [[sources/efsa-aluminium-afc-2008|EFSA AFC TWI]] daily-equivalent of approximately 0.14 mg Al/kg/day (1 mg/kg/week ÷ 7). The discrepancy is methodological: ATSDR derives from the LOAEL-with-uncertainty-factor pathway in Golub et al. 2000; EFSA integrates evidence across multiple animal endpoints with different safety-factor structure. HMT&C calibration to the EFSA TWI is the more conservative posture.
-- Courses: the route- and duration-specific MRL structure for aluminum is a teachable example of how ATSDR addresses contaminants where renal-impaired subpopulations have substantially different risk profiles from general consumers.
-- App: the chronic oral MRL of 1 mg Al/kg/day (70 mg Al/day for 70 kg adult) is the operationally relevant value. For users on aluminum-containing antacids, the antacid contribution alone (100 to 1000 mg/day) exceeds this MRL; the app should query antacid use as a separate input.
+| Matrix | Aluminum concentration (µg/L) | Estimated daily intake at typical feeding volumes (µg/day) |
+| --- | --- | --- |
+| Human breast milk | 9.2 to 49 | — |
+| Milk-based infant formula | 58 to 150 | 97 (powder, U.S.; Ikem et al. 2002) |
+| Soy-based infant formula | 460 to 930 | 573 (powder, U.S.; Ikem et al. 2002) |
+| Hypoallergenic powder formula | — | 361 (Ikem et al. 2002) |
 
-## Wiki pages this source may touch
+Pennington and Schoen 1995 separately estimated that soy-based formula contributed 0.161 mg Al/day to 6-11-month infants, equivalent to 23.0% of their total dietary aluminum intake — the largest single contributor in that age group.
 
-- [[metals/aluminum]]
-- [[regulations/atsdr-aluminum-mrls]]
+### Aluminum from antacids, buffered aspirin, and other medications
+
+| Source | Aluminum content | Daily-dose estimate |
+| --- | --- | --- |
+| Antacid tablet/capsule/5 mL liquid dose | 300 to 600 mg aluminum hydroxide ≈ 104 to 208 mg Al per dose | 840 to 5,000 mg Al/day at recommended dosing (Lione 1985a) |
+| Buffered aspirin tablet | 10 to 20 mg Al per tablet | 126 to 728 mg Al/day at recommended rheumatoid arthritis dosing (Lione 1985a) |
+| Vaccines (aluminum-adjuvanted) | ≤0.85 mg Al per dose (FDA cap; Baylor et al. 2002) | — |
+| Total parenteral nutrition solutions | FDA upper limit 0.90 µg Al/L for large-volume parenterals (Advenier et al. 2003) | — |
+
+When large oral aluminum loads (1,000 to 4,000 mg/day) are ingested as antacids, less than 1% is absorbed in healthy individuals (Gorsky et al. 1979; Kaehny et al. 1977; Reiber et al. 1995).
+
+### Major dietary sources of aluminum (FDA Total Diet Study; Pennington and Schoen 1995)
+
+For 6-11-month infants, the top five contributors total 62.6% of dietary aluminum: soy-based formula (0.161 mg/day, 23.0%), processed American cheese (0.122 mg/day, 17.4%), yellow cake with icing (0.088, 12.6%), strained green beans (0.038, 5.4%), and pancakes (0.029, 4.1%). For 14-16-year-old males (the highest-intake group at 11.5 mg/day), cornbread is the dominant contributor at 4.209 mg/day (36.6% of total intake), followed by processed American cheese (1.978, 17.2%), pancakes (1.038, 9.0%), yellow cake with icing (0.925, 8.0%), and taco/tostada (0.398, 3.5%). Across age groups the consistent leaders are aluminum-additive-containing baked goods (cornbread, pancakes, muffins, tortillas, baked goods with leavening agents) and processed cheese.
+
+### Ambient air
+
+Background atmospheric concentrations in the United States range from 0.005 to 0.18 µg Al/m³ (Hoffman et al. 1969; Sorenson et al. 1974). At a 20 m³/day inhalation rate the upper-end background concentration delivers 3.6 µg Al/day, an order of magnitude smaller than dietary contribution. Urban and industrial air ranges from 0.4 to 8.0 µg/m³, delivering 8 to 160 µg/day — still small relative to diet.
+
+### Drinking water
+
+Median concentrations in U.S. systems: 0.043 mg/L without coagulation treatment, 0.112 mg/L with coagulation treatment (Miller et al. 1984a). At a 1.4 L/day adult consumption rate, drinking water contributes approximately 0.06 to 0.16 mg Al/day, roughly 1% of the 7-9 mg/day adult dietary total. Public Health Statement notes that "several cities have reported concentrations as high as 0.4-1 mg/L."
+
+## Methods
+
+The profile is a literature synthesis prepared in accordance with the ATSDR-EPA guidelines published in the Federal Register on April 17, 1987. Studies were identified through the agency's standard search of TOXLINE, MEDLINE, EMBASE, CA Search, and other indexed bibliographic databases; CERCLA-mandated peer review was conducted by an external panel of three subject-matter experts (Jerrold Abraham, Upstate Medical University; Michael Aschner, Vanderbilt University Medical Center; Robert Yokel, University of Kentucky College of Pharmacy). MRL derivations follow the ATSDR Minimal Risk Levels framework documented in Appendix A; NOAEL/LOAEL identification used study-by-study expert review rather than benchmark dose modeling because the available data either had incomplete dose-response reporting or did not produce adequate BMD fits.
+
+## Provenance notes
+
+The PDF was first retrieved via WebFetch on 2026-04-25 from the canonical ATSDR URL (`atsdr.cdc.gov/toxprofiles/tp22.pdf`). The manual-fetch copy in the June 3 Folder is the same document (SHA-256 `f959d098...833b42`, 357 pages, 8.6 MB) and is the basis for the 2026-06-04 merge-enhance pass. License `us-government-work`; no copyright restriction applies. The ATSDR website is the official publication channel for Toxicological Profiles, so the agency URL is the primary-source citation for all values recorded above.
+
+The 2008 profile remains the operative ATSDR aluminum reference as of the access date; ATSDR has not finalized a post-2008 update.
 
 ## Verification notes
 
-The June 3 manual-fetch PDF was checked against ATSDR's canonical `tp22.pdf` title metadata and text extraction. Page count is 357. The canonical raw file `raw/Manual Fetch Kimi /June 3 Folder/tp22.pdf` and duplicate file `raw/Manual Fetch Kimi /June 3 Folder/tp22 2.pdf` are byte-identical with SHA-256 `f959d09859641c06040b2ab1fbd280bb8de0f30adb0bf6be1980d5d915833b42`; the duplicate is recorded in the tracker as a duplicate rather than a second source. No DOI is assigned. The ATSDR website is the official publication channel for Toxicological Profiles, and the access URL remains the canonical agency PDF URL.
+This page was merge-enhanced on 2026-06-04 from a 2026-04-25 pre-current-schema revision. The prior revision contained two errors corrected on this pass:
 
-The 2008 profile is the operative ATSDR aluminum toxicological profile; no finalized post-2008 replacement was identified in the existing corpus at this ingest point. This page records MRL and exposure-context values only. It should not be used as an aluminum occurrence dataset for food, infant formula, drinking water, antacids, or cookware.
+- **Chronic oral MRL derivation arithmetic.** The prior revision stated "composite uncertainty factor 100" and "100 ÷ 100 = 1 mg Al/kg/day." Per Section 2.3 (page 26 of the profile), the chronic-duration oral MRL was derived by dividing the Golub et al. 2000 LOAEL of 100 mg Al/kg/day by an uncertainty factor of 300 (3 minimal LOAEL × 10 animal-to-human × 10 human variability) and applying a modifying factor of 0.3 for the higher bioavailability of aluminum lactate relative to typical dietary and drinking-water aluminum compounds. The corrected derivation and the parallel intermediate-duration derivation from Golub and Germann 2001 (NOAEL 26 mg Al/kg/day; UF 100; MF 0.3) are now in the MRL table.
+- **Conflation of the two oral MRLs.** The prior revision attributed both the intermediate and chronic MRLs to Golub et al. 2000. Per Section 2.3, only the chronic MRL is anchored on Golub et al. 2000; the intermediate MRL is anchored on Golub and Germann 2001.
+
+The prior revision also omitted the soy-based and milk-based infant formula concentration data (Section 6.6, page 225) and the dietary intake by age-sex group (Table 6-5, page 216) that bear directly on certifiable infant-and-child food categories. Both are now included in Key numbers.
+
+The prior revision's Implications block contained a wiki/HMTc firewall violation: "HMT&C calibration to the EFSA TWI is the more conservative posture" is a synthesis claim about HMTc policy that does not belong on a source page (CLAUDE.md Part 2). The block has been removed; the literature comparison between ATSDR's MRL and EFSA's TWI is a legitimate observation, but the framing as guidance to HMTc belongs in a synthesis page or HMTc certification document, not here.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -98,9 +132,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
