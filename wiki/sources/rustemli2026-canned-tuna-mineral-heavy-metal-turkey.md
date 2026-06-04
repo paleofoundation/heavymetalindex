@@ -45,7 +45,7 @@ Sample design: n=105 total (n=35 water-packed, n=35 oil-packed, n=35 sauce-packe
 | Calcium (Ca) | 128.95 ± 62.48 (20.29–281.18) ᵇ | 207.08 ± 104.82 (64.70–561.21) ᵃ | 102.58 ± 48.93 (37.19–240.21) ᵇ |
 | Iron (Fe) | 22.08 ± 10.93 (12.13–70.52) ᵇ | 89.97 ± 32.79 (43.15–186.71) ᵃ | 20.35 ± 6.95 (9.71–32.64) ᵇ |
 | Manganese (Mn) | 0.73 ± 0.39 (0.28–2.08) ᵃᵇ | 0.86 ± 0.27 (0.54–1.30) ᵃ | 0.49 ± 0.24 (0.16–1.12) ᵇ |
-| Chromium (Cr, total) | 0.47 ± 0.10 (0.26–0.89) ᵇ | 0.60 (0.37–2.10) ᵃ | 0.48 ± 0.09 (0.36–0.67) ᵇ |
+| Chromium (Cr, total) | 0.47 ± 0.10 (0.26–0.89) ᵇ | 0.60 ± 0.34 (0.37–2.10) ᵃ | 0.48 ± 0.09 (0.36–0.67) ᵇ |
 
 **Trace elements (Table 2, mean ± SD mg/kg wet weight; range in parentheses):**
 
@@ -132,7 +132,7 @@ Speciation discipline: the paper measured total arsenic and total mercury; downs
 
 The published paper contains an internal inconsistency on the page reporting the arsenic exceedance proportions. The Results / Regulatory compliance paragraph (page 5) states that arsenic concentrations exceeded the FAO/WHO guideline in "80% of oil-packed, 80% of sauce-packed, and 74.29% of water-packed samples." The Discussion (page 10) and Figure 2 (page 6) instead report 80% sauce-packed, 100% oil-packed, and 74.29% (≈75% per the figure label) water-packed. The abstract is consistent with the Discussion/Figure 2 wording, stating that arsenic was "frequently detected across all packaging types (74–100% of samples)." This source page reports the Discussion/Figure 2/abstract-consistent values (80/100/74.29%), which match the visualization in Figure 2. The page-5 "80% of oil-packed" figure appears to be a typographical error in the Results text.
 
-The Chromium (Cr) oil-packed row in Table 1 displays the mean (0.60 mg/kg) and range (0.37–2.10 mg/kg) but the standard deviation does not appear in the PDF table cell as rendered; the page therefore reports the mean and range only for that cell rather than inventing an SD. The values were read directly from the published Table 1.
+Audit subagent (2026-06-04, fresh-context general-purpose Agent) flagged that the Chromium (Cr) oil-packed row in Table 1 was reported here as "0.60 (0.37–2.10)" with no SD; re-reading PDF page 4 confirmed the SD 0.34 is in fact printed in the cell ("0.60 ± 0.34"). The initial transcription dropped the "± 0.34" portion of the cell during the first PDF read. The cell was corrected to "0.60 ± 0.34 (0.37–2.10) ᵃ" against PDF page 4 Table 1.
 
 Mercury is reported throughout as total mercury (tHg) with no methylmercury speciation, per the authors' methods description. Arsenic is reported throughout as total arsenic (tAs) with no inorganic/total speciation, as the authors explicitly state in the Discussion. The metals frontmatter and key-numbers text use `tHg` and `tAs` accordingly, per the wiki's non-substitution rule.
 
