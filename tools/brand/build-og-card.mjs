@@ -45,13 +45,20 @@ const C = {
   burgundy: "#8B2A4A", // --secondary, used sparingly
 }
 
-// The four headline toxic metals the Index is built around (number, symbol,
-// name). Pb/Cd/As/Hg are the wiki's core analytes — a domain-legible motif.
+// The eight metals behind the HMT&C analyte list (number, symbol, name) —
+// Pb, Cd, As, Hg + Ni, Al, Sn, Cr. Rendered as a periodic strip so the card
+// mirrors the full certification roster, not just the headline four.
+// (The analyte list splits As→tAs/iAs, Hg→tHg/MeHg, Cr→Cr-VI; tiles show the
+// parent element + atomic number, which is the legible motif here.)
 const METALS = [
   ["82", "Pb", "LEAD"],
   ["48", "Cd", "CADMIUM"],
   ["33", "As", "ARSENIC"],
   ["80", "Hg", "MERCURY"],
+  ["28", "Ni", "NICKEL"],
+  ["13", "Al", "ALUMINUM"],
+  ["50", "Sn", "TIN"],
+  ["24", "Cr", "CHROMIUM"],
 ]
 
 // --- Minimal Google-fonts TTF fetcher (mirrors quartz/util/og.tsx) ----------
@@ -98,21 +105,21 @@ function metalTile([num, sym, name]) {
       display: "flex",
       flexDirection: "column",
       justifyContent: "space-between",
-      width: 104,
-      height: 104,
-      padding: "12px 12px 11px",
+      width: 114,
+      height: 114,
+      padding: "11px 11px 10px",
       border: `1px solid ${C.hairline}`,
       borderRadius: 12,
       backgroundColor: C.panel,
     },
     [
-      h("div", { display: "flex", fontFamily: "IBM Plex Mono", fontWeight: 500, fontSize: 15, color: C.gray }, num),
+      h("div", { display: "flex", fontFamily: "IBM Plex Mono", fontWeight: 500, fontSize: 14, color: C.gray }, num),
       h(
         "div",
         { display: "flex", flex: 1, alignItems: "center", fontFamily: "IBM Plex Mono", fontWeight: 600, fontSize: 34, color: C.ink },
         sym,
       ),
-      h("div", { display: "flex", fontFamily: "Inter", fontWeight: 600, fontSize: 11, letterSpacing: 1.4, color: C.gray }, name),
+      h("div", { display: "flex", fontFamily: "Inter", fontWeight: 600, fontSize: 10.5, letterSpacing: 0.5, color: C.gray }, name),
     ],
   )
 }
@@ -141,41 +148,41 @@ function card() {
           padding: "74px 80px 70px",
         },
         [
-          // Top: kicker + wordmark + tagline
+          // Top: header row (kicker left, domain/attribution right) + wordmark + tagline
           h("div", { display: "flex", flexDirection: "column" }, [
-            h("div", { display: "flex", alignItems: "center" }, [
-              h("div", { display: "flex", width: 13, height: 13, backgroundColor: C.burgundy, marginRight: 14 }, []),
-              h(
-                "div",
-                { display: "flex", fontFamily: "IBM Plex Mono", fontWeight: 500, fontSize: 23, letterSpacing: 3, color: C.gray },
-                "PUBLIC EVIDENCE INDEX",
-              ),
-            ]),
-            h(
-              "div",
-              { display: "flex", fontFamily: "Inter", fontWeight: 800, fontSize: 96, letterSpacing: -2, color: C.ink, marginTop: 30, lineHeight: 1.02 },
-              "Heavy Metal Index",
-            ),
-            h(
-              "div",
-              { display: "flex", fontFamily: "Inter", fontWeight: 400, fontSize: 35, color: C.body, marginTop: 26, maxWidth: 880, lineHeight: 1.32 },
-              "Trace heavy-metal evidence from food to source.",
-            ),
-          ]),
-          // Bottom band: ruled divider, then metal tiles (left) + domain (right)
-          h("div", { display: "flex", flexDirection: "column" }, [
-            h("div", { display: "flex", height: 1, backgroundColor: C.hairline, marginBottom: 40 }, []),
-            h("div", { display: "flex", alignItems: "flex-end", justifyContent: "space-between" }, [
-              h("div", { display: "flex", gap: 16 }, METALS.map(metalTile)),
-              h("div", { display: "flex", flexDirection: "column", alignItems: "flex-end" }, [
-                h("div", { display: "flex", fontFamily: "Inter", fontWeight: 600, fontSize: 27, color: C.ink }, "heavymetalindex.com"),
+            h("div", { display: "flex", justifyContent: "space-between", alignItems: "flex-start" }, [
+              h("div", { display: "flex", alignItems: "center", marginTop: 4 }, [
+                h("div", { display: "flex", width: 13, height: 13, backgroundColor: C.burgundy, marginRight: 14 }, []),
                 h(
                   "div",
-                  { display: "flex", fontFamily: "Inter", fontWeight: 400, fontSize: 19, color: C.gray, marginTop: 8 },
+                  { display: "flex", fontFamily: "IBM Plex Mono", fontWeight: 500, fontSize: 23, letterSpacing: 3, color: C.gray },
+                  "PUBLIC EVIDENCE INDEX",
+                ),
+              ]),
+              h("div", { display: "flex", flexDirection: "column", alignItems: "flex-end" }, [
+                h("div", { display: "flex", fontFamily: "Inter", fontWeight: 600, fontSize: 25, color: C.ink }, "heavymetalindex.com"),
+                h(
+                  "div",
+                  { display: "flex", fontFamily: "Inter", fontWeight: 400, fontSize: 17, color: C.gray, marginTop: 7 },
                   "Operated by the Paleo Foundation",
                 ),
               ]),
             ]),
+            h(
+              "div",
+              { display: "flex", fontFamily: "Inter", fontWeight: 800, fontSize: 96, letterSpacing: -2, color: C.ink, marginTop: 26, lineHeight: 1.02 },
+              "Heavy Metal Index",
+            ),
+            h(
+              "div",
+              { display: "flex", fontFamily: "Inter", fontWeight: 400, fontSize: 35, color: C.body, marginTop: 24, maxWidth: 880, lineHeight: 1.32 },
+              "Trace heavy-metal evidence from food to source.",
+            ),
+          ]),
+          // Bottom band: ruled divider, then the eight HMT&C metals as a full-width strip
+          h("div", { display: "flex", flexDirection: "column" }, [
+            h("div", { display: "flex", height: 1, backgroundColor: C.hairline, marginBottom: 32 }, []),
+            h("div", { display: "flex", justifyContent: "space-between" }, METALS.map(metalTile)),
           ]),
         ],
       ),
