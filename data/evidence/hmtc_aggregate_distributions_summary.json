@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-06-04T14:40:51.727Z",
+  "generated_at": "2026-06-04T14:55:10.523Z",
   "product_filter": null,
   "metal_filter": null,
-  "cells_total": 685,
+  "cells_total": 686,
   "cells_by_verdict": {
-    "READY FOR REVIEW": 55,
+    "READY FOR REVIEW": 56,
     "READY FOR REVIEW (regulatory cap applies)": 20,
-    "BLOCKED: pool too thin (≥2 distinct sources required)": 202,
-    "BLOCKED: no usable evidence": 367,
-    "BLOCKED: sensitivity unstable across parametric assumptions": 9,
+    "BLOCKED: pool too thin (≥2 distinct sources required)": 203,
+    "BLOCKED: no usable evidence": 365,
+    "BLOCKED: sensitivity unstable across parametric assumptions": 10,
     "BLOCKED: pool internally inconsistent (p95/p10 > 1e4, likely mixed units)": 12,
     "PROVISIONAL: review sensitivity disagreement": 20
   },
   "cells_by_rationale": {
-    "literature-baseline": 304,
+    "literature-baseline": 307,
     "regulatory-alignment": 14,
-    "no-data": 367
+    "no-data": 365
   },
   "cells_by_role": {
     "clean_subcategory": 95,
-    "independent_clean_by_default": 590
+    "independent_clean_by_default": 591
   },
   "sensitivity_band_distribution": {
-    "stable": 209,
-    "provisional": 76,
-    "no_data": 367,
+    "stable": 211,
+    "provisional": 77,
+    "no_data": 365,
     "needs_review": 33
   },
   "pool_starvation": {
-    "structured_rows_total": 6638,
+    "structured_rows_total": 6677,
     "stranded_rows_total": 2362,
     "stranded_rows_carrying_a_statistic": 561,
     "stranded_by_reason": {
