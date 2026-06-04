@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-04T15:42:29.696Z
+updated: 2026-06-04T17:18:04.966Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -29,14 +29,14 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Component | State |
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
-| auto-fetched/ PDFs in queue | 484 (fresh work for Codex/daemon ingest) |
+| auto-fetched/ PDFs in queue | 488 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 2 ✅ |
 | Audit queue: pending-audit-spawn-failed | 95 (async lane) |
-| Wishlist: total downloaded historically | 7 |
+| Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 108 commit(s) ahead of origin/main |
-| Commits last 1 hour | 19 |
-| Commits last 24 hours | 107 |
+| Repo sync | ⚠️ 138 commit(s) ahead of origin/main |
+| Commits last 1 hour | 12 |
+| Commits last 24 hours | 119 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-b479fed 4 minutes ago — ingest auto-fetched 2026-06-04: maspalma2021-nigeria-wild-fruits-heavy-metals
+ab53c6b 8 minutes ago — briefing: add Brief 4 'The Cost of Being Uncertified' (Palmquist Typst format)
 ```
 
 ## How to read this
