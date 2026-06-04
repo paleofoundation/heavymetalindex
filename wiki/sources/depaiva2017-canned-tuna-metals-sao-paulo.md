@@ -29,7 +29,7 @@ updated: 2026-06-04
 
 # Lima de Paiva et al. 2017 — Cd, Pb, Sn, total Hg, and MeHg in canned tuna from São Paulo, Brazil
 
-Paiva, Morgano, and Milani determined cadmium, lead, tin, total mercury, and methylmercury in 30 samples of canned tuna (five anonymised brands, three batches each, conserved in water or oil) acquired from supermarkets in Campinas, São Paulo state, Brazil, in 2015. Cd, Pb, and Sn were measured by ICP-OES after closed-vessel microwave HNO₃/H₂O₂ digestion; total Hg was measured by thermal decomposition–amalgamation atomic absorption (TDA AAS, DMA-80); MeHg was measured by toluene/HCl extraction in a closed microwave vessel, transferred to L-cysteine, then quantified on the DMA-80 with the organic-phase mercury treated as MeHg in full. Twenty per cent of the oil-conserved samples exceeded the Brazilian (ANVISA RDC 42/2013) and EU (Regulation 1881/2006) maximum level of 100 µg/kg for cadmium in fish; no sample exceeded the 300 µg/kg lead limit; tin was below the 94 µg/kg detection limit in every sample. Total Hg ranged 44–460 µg/kg wet weight, MeHg ranged 35–460 µg/kg wet weight, and the MeHg/total-Hg ratio sat between 82 % and 99 % across all 30 samples. Using a 135 g drained-weight portion and a 60 kg adult, the authors estimated that four cans per week (540 g) of water-conserved tuna and five cans per week (675 g) of oil-conserved tuna would reach 100 % of the JECFA provisional tolerable weekly intake for MeHg (1.6 µg/kg body weight per week).
+Paiva, Morgano, and Milani determined cadmium, lead, tin, total mercury, and methylmercury in 30 samples of canned tuna (five anonymised brands, three batches each, conserved in water or oil) acquired from supermarkets in Campinas, São Paulo state, Brazil, in 2015. Cd, Pb, and Sn were measured by ICP-OES after closed-vessel microwave HNO₃/H₂O₂ digestion; total Hg was measured by thermal decomposition–amalgamation atomic absorption (TDA AAS, DMA-80); MeHg was measured by toluene/HCl extraction in a closed microwave vessel, transferred to L-cysteine, then quantified on the DMA-80 with the organic-phase mercury treated as MeHg in full. Twenty per cent of the oil-conserved samples exceeded the Brazilian (ANVISA RDC 42/2013) and EU (Regulation 1881/2006) maximum level of 100 µg/kg for cadmium in fish; no sample exceeded the 300 µg/kg lead limit; tin was below the 94 µg/kg detection limit in every sample. Total Hg ranged 44–402 µg/kg wet weight in the oil conserve and 51–460 µg/kg in the water conserve; MeHg ranged 35–393 µg/kg in the oil conserve and 41–460 µg/kg in the water conserve. The MeHg/total-Hg ratio sat between 82 % and 99 % across all 30 samples. Using a 135 g drained-weight portion and a 60 kg adult, the authors estimated that four cans per week (540 g) of water-conserved tuna and five cans per week (675 g) of oil-conserved tuna would reach 100 % of the JECFA provisional tolerable weekly intake for MeHg (1.6 µg/kg body weight per week).
 
 ## Key numbers
 
@@ -55,12 +55,12 @@ All concentrations are µg/kg wet weight unless noted. nd = below the method LOD
 | Brand 4 | 13 (12–14) | 44 (30–63) | nd | 236 (132–402) | 240 (145–393) |
 | Brand 5 | 15 (12–18) | 33 (nd–42) | nd | 68 (44–103) | 47 (35–89) |
 
-**Cross-conserve summary (text, p. 188):**
-- Cd: water-mean about 20 µg/kg, oil-mean about 85 µg/kg (driven by Brand 2 oil-conserve); overall range nd–213 µg/kg.
-- Pb: water-mean about 44 µg/kg, oil-mean <30–44 µg/kg; overall range nd–59.2 µg/kg; no sample exceeded the 300 µg/kg ML.
+**Cross-conserve summary (text, p. 188 and p. 190):**
+- Cd: oil-conserve highest brand mean about 85 µg/kg (Brand 2, with the 213 µg/kg upper-range sample driving that mean); water-conserve typical brand mean about 20 µg/kg; overall range nd–213 µg/kg.
+- Pb: per p. 188, oil-conserve highest mean content about 44 µg/kg (Brand 4 in Table 2); water-conserve "smaller mean contents" reported as <30 µg/kg. Note that Table 2 brand-level means range 34–46 µg/kg for water-conserve and 31–44 µg/kg for oil-conserve, so the source's "<30" water-conserve narrative does not match the per-brand means in its own Table 2; the brand-level table values are the authoritative numbers above. Overall range nd–59.2 µg/kg; no sample exceeded the 300 µg/kg ML.
 - Sn: not detected in any sample (<94 µg/kg). Authors infer the can-interior lacquer is performing as intended.
-- Total Hg: 44–460 µg/kg across all 30 samples. Pooled means about 169 µg/kg (oil) and 173 µg/kg (water).
-- MeHg: 35–460 µg/kg across all 30 samples. Pooled means about 154 µg/kg (oil) and 160 µg/kg (water).
+- Total Hg: 44–402 µg/kg across the 15 oil-conserved samples; 51–460 µg/kg across the 15 water-conserved samples. Pooled means (p. 190): 169 µg/kg in the oil conserve and 173 µg/kg in the water conserve.
+- MeHg: 35–393 µg/kg across the 15 oil-conserved samples; 41–460 µg/kg across the 15 water-conserved samples. Pooled means (p. 190): 154 µg/kg in the oil conserve and 160 µg/kg in the water conserve.
 
 **MeHg / total Hg ratio (Figure 1):** 82–99 % across all 30 samples. The most-toxic mercury species dominates every brand × conserve combination.
 
@@ -101,6 +101,11 @@ The four-cans-per-week threshold (water conserve) is the headline number. Adults
 - "Organic Hg" is operationally defined as Hg in the toluene/L-cysteine extract under the Paiva 2016 protocol; the authors treat this fraction as MeHg in full, which is conventional in fish but may slightly overstate MeHg if minor non-methyl organomercury species are present.
 - Sn is reported only as the inorganic Sn total measured by ICP-OES at 189.925 nm; organotin species (TBT/TPT) are not measured. The "tin not detected" finding speaks only to inorganic tin migration from the can; it does not address organotin contamination from environmental routes.
 - N is modest (30 samples, five brands). The 20 % Cd exceedance is a within-brand observation driven by Brand 2 oil-conserve and should not be projected to the Brazilian canned-tuna market as a whole without the larger surveys the authors cite (Voegborlo 1999, Ashraf 2006, Ganjavi 2010) which were performed in other countries.
+
+## Verification notes
+
+- Audit subagent (2026-06-04) flagged the intro and Key-numbers cross-conserve summary as quoting a composite "44–460 µg/kg" total Hg span and "35–460 µg/kg" MeHg span that mix one conserve type's minimum with the other's maximum — no single conserve type spans either range. Verified against the source p. 188: oil 44–402 / 35–393, water 51–460 / 41–460. Both ranges split into per-conserve form on this page.
+- Audit subagent (2026-06-04) flagged that the cross-conserve Pb summary had inverted the conserve attribution. Verified against source p. 188: the source's narrative ("oil … Pb (44 µg/kg) … water … Pb (<30 µg/kg)") gives the highest Pb mean to the oil conserve and the lower mean to the water conserve. Cross-conserve Pb summary corrected; a one-sentence flag is added because Table 2's brand-level means (water 34–46, oil 31–44) do not align with the source's "<30" water-conserve claim, and the table is treated as authoritative for the per-brand numbers.
 
 ## Routing notes
 
