@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-05T06:03:18.212Z
+updated: 2026-06-05T10:24:40.741Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -34,9 +34,9 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Audit queue: pending-audit-spawn-failed | 96 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Repo sync | ✅ synced |
 | Commits last 1 hour | 5 |
-| Commits last 24 hours | 61 |
+| Commits last 24 hours | 87 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-a300ee3 3 minutes ago — briefing: add Brief 3 'What Organic Doesn't Say' (Palmquist Typst format)
+1e06f28 11 minutes ago — codex run 2026-06-05 1016: auto-fetched triage handoff
 ```
 
 ## How to read this
