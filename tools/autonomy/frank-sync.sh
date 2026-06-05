@@ -13,10 +13,13 @@
 # CIRCUIT BREAKER (added 2026-06-05). The old version retried a failing push
 # every fire forever: on 2026-06-04 it hammered a non-fast-forward push 155
 # commits deep for ~7 hours, silently, because the failure only ever landed in
-# this log and nothing watched it. Now: after N consecutive failures the breaker
-# trips — we STOP attempting the push and drop a marker (~/.frank-sync.STALLED)
-# that FRANK's heartbeat surfaces in FRANK-status.md. The push stays parked until
-# a human or agent runs frank-resync.sh (which clears the breaker on success).
+# this log and nothing watched it. Now: after N consecutive failures it tries to
+# self-heal ONCE via frank-resync.sh (rebase onto origin + push) — which fixes
+# the usual cause, a sibling agent having pushed first. If that recovers, the
+# divergence never reaches anyone. If it can't (real conflict / auth), the
+# breaker trips: we STOP attempting the push and drop a marker
+# (~/.frank-sync.STALLED) that FRANK's heartbeat surfaces in FRANK-status.md,
+# and the push stays parked until frank-resync.sh is run by hand.
 set -uo pipefail
 
 REPO="${HMI_REPO_ROOT:-$HOME/Desktop/heavy-metal-index}"
@@ -69,12 +72,22 @@ n=$(( $(fails) + 1 ))
 echo "$n" >"$FAILS"
 echo "[$(now)] push failed (origin diverged or auth?) — strike ${n}/${THRESHOLD}" >>"$LOG"
 if (( n >= THRESHOLD )); then
-  {
-    echo "origin-sync STALLED after ${n} consecutive push failures (last $(now))."
-    echo "${ahead} local commit(s) are NOT on GitHub."
-    echo "Recover: bash tools/autonomy/frank-resync.sh"
-    echo "  (or resolve by hand, then: rm ${STALLED})"
-  } >"$STALLED"
-  echo "[$(now)] BREAKER TRIPPED — push parked until frank-resync.sh clears it" >>"$LOG"
+  # Self-heal once: the overwhelmingly common cause is origin moving ahead
+  # because a sibling agent pushed first, which a rebase resolves. frank-resync
+  # autostashes the dirty tree and aborts cleanly on conflict, so the worst case
+  # is it leaves things exactly as a park-and-alarm would. On success it clears
+  # the breaker itself (rm STALLED + zero the counter) and the divergence never
+  # reaches Karen. On failure (real conflict / auth) we park and raise the alarm.
+  echo "[$(now)] ${n} consecutive failures — attempting self-heal via frank-resync.sh" >>"$LOG"
+  if bash "$REPO/tools/autonomy/frank-resync.sh" >>"$LOG" 2>&1; then
+    echo "[$(now)] self-heal ok — origin sync recovered automatically" >>"$LOG"
+  else
+    {
+      echo "origin-sync STALLED: ${n} push failures and auto-resync could not recover (last $(now))."
+      echo "${ahead} local commit(s) are NOT on GitHub — likely a rebase conflict or auth problem."
+      echo "Recover: bash tools/autonomy/frank-resync.sh   (or resolve by hand, then: rm ${STALLED})"
+    } >"$STALLED"
+    echo "[$(now)] BREAKER TRIPPED — self-heal failed; push parked until frank-resync.sh clears it" >>"$LOG"
+  fi
 fi
 exit 0
