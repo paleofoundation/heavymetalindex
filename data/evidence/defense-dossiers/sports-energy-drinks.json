@@ -21,42 +21,18 @@
     "canonical_url": "https://heavymetalindex.com/products/sports-energy-drinks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fbc439307cdd425881fc32dcd7c83a636eac7f8b66027b0d38f3420c2180dd38",
-      "content_bytes": 9099,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "280f40264f26458085d4424aa913c494de7d0c0434ad65813411d0ee9a804564",
+      "content_bytes": 7372,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/sports-energy-drinks.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/sports-energy-drinks.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 0,
     "sources_with_structured_values": 0,
-    "contributing_sources": [
-      {
-        "slug": "sources/salaheldin2025-multimatrix-foods-egypt",
-        "title": "Assessment of toxic heavy metals in commonly consumed foods in Egypt and their implications for public health and safety",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "Pb",
-          "Cd",
-          "Cr",
-          "tAs"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/salaheldin2025-multimatrix-foods-egypt",
-        "content_pin": {
-          "content_sha256": "32841c808d04add088f79da9936dbc68299ff34f23538f6916cb114a6ee1e79d",
-          "content_bytes": 13662,
-          "last_commit_sha": "5c3e342",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 5c3e342:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
-        }
-      }
-    ]
+    "contributing_sources": []
   },
   "regulatory_caps": {
     "declared_count": 0,

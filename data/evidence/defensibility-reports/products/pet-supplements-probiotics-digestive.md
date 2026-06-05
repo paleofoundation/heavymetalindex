@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-supplements-probiotics-digestive.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a31db46e6253b115b5bf12ce33125f888a9268445b3f61e6e31658a4e0a1343f
+source_page_sha256: ce66161166bd49e7b1bbcf5a7da11394590b60bcff6f82acb3a624c5b33f7097
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 767
+audit_log_total_rows: 635
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 767 |
+| audit log rows read | 635 |
 
 ## Page-level audit rows
 

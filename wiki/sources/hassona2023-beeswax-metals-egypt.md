@@ -70,14 +70,3 @@ Microbiome (if applicable): Not addressed.
 ## Verification notes
 
 The PDF title, authors, DOI, journal, year, license, methods, and Table 1 values were read from the auto-fetched PDF. The source measures total chromium and total metal concentrations in beeswax; it does not provide chromium speciation, arsenic, mercury, or honey-as-food values. `matrices: [beeswax]` is a source-specific matrix flag for controlled-vocabulary review, not a honey-product routing claim.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [2a12d3b](https://github.com/paleofoundation/heavymetalindex/commit/2a12d3b) | 2026-06-03 | audit auto-fetched 2026-06-03: matrix vocabulary notes |
-| [d99267a](https://github.com/paleofoundation/heavymetalindex/commit/d99267a) | 2026-06-03 | audit: nydec2020-cleansing-product-disclosure-bmp revised |
-<!-- END: hmi-page-history -->

@@ -94,7 +94,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [43efd96](https://github.com/paleofoundation/heavymetalindex/commit/43efd96) | 2026-06-02 | audit auto-fetched 2026-06-02: cumin spice source pages revised |
 | [84a519d](https://github.com/paleofoundation/heavymetalindex/commit/84a519d) | 2026-06-02 | ingest auto-fetched 2026-06-02: bekalu2025-black-cumin-heavy-metals-ethiopia |
 <!-- END: hmi-page-history -->

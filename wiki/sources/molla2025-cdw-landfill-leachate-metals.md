@@ -140,14 +140,3 @@ Brand firewall (Part 12, Exception 2 — scientific-method vendor names): Perkin
 No HMTc threshold proposals, consumer-audience translations, or cross-source synthesis claims are made on this page.
 
 Audit subagent (2026-06-02) flagged a row-attribution slip on the highest-As callout: the narrative said "20% C&DW + 10% gypsum" but Table 2 places As 187.2 ± 4.84 µg/L at the 20% C&DW + 15% gypsum row (20/10 has As 174.7 ± 1.60). Verified against the Table 2 transcription above; corrected to 20/15. The paper §2.6.5 prints statistical significance as "p < 0.5" which is a paper-side typo for the conventional p < 0.05; the Methods section above uses p < 0.05 as Molla et al. clearly intended.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [503b22a](https://github.com/paleofoundation/heavymetalindex/commit/503b22a) | 2026-06-02 | audit: molla2025-cdw-landfill-leachate-metals promoted |
-| [ae5b176](https://github.com/paleofoundation/heavymetalindex/commit/ae5b176) | 2026-06-02 | ingest: molla2025-cdw-landfill-leachate-metals fresh from Manual Fetch Kimi/June 2 Manual Fetches |
-<!-- END: hmi-page-history -->

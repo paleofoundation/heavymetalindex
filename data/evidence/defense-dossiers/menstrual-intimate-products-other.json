@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/menstrual-intimate-products-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "365d95c812bfda8a2b19972e0562b918d987320bf7f9d6cc37f5f4a0d8b906fb",
-      "content_bytes": 7431,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "b4993a759dcd52f75196b8d3530b1ab73f03c52e593e731aa186610c8491eb01",
+      "content_bytes": 7428,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/menstrual-intimate-products-other.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/menstrual-intimate-products-other.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -14,12 +14,12 @@ raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/agriculture-13-00968.pdf
 metals: [Cd, Pb, Cr, Ni, Zn, Cu, Mn, Fe, Co]
 ingredients: []
 products: []
-matrices: [soil, sand, loamy-sand, maize-pot-soil]
+matrices: [soil]
 jurisdictions: [PL]
 near_duplicates: []
 sample_n: 72
 sample_population: "Three-factor pot experiment with sand and loamy-sand soils, three nitrogen fertiliser forms, four humic-acid doses, and three replicates; maize was grown to tassel emergence before soil trace elements were measured."
-updated: 2026-06-02
+updated: 2026-06-04
 ---
 
 # Wyszkowski et al. 2023 - Humic acids and nitrogen fertiliser effects on soil trace elements
@@ -68,7 +68,7 @@ The loamy sand means were higher than sand for Cd, Pb, Cr, Ni, Mn, Fe, and Co, w
 
 ### Humic-acid response
 
-The highest humic-acid dose under ammonium nitrate reduced Cd by 14% and Cr by 19% in sand; in loamy sand it reduced Cd by 28%, Cr by 22%, Ni by 12%, and Cu and Co by 13%, while Pb increased by 14%. Under urea, humic acids reduced Cd by up to 23%, Ni by 33%, Cu by 36%, Pb by 44%, and Cr by 54% in sand, and reduced Co by 26%, Pb and Cr by 27%, and Cd by 31% in loamy sand. Under UAN, humic acids reduced Zn by 15%, Ni by 19%, Pb by 29%, Cr by 52%, and Cd by 58% in sand, and reduced Zn and Co by 28%, Cd by 34%, and Cr by 63% in loamy sand.
+The highest humic-acid dose under ammonium nitrate reduced Co by 7%, Cu by 9%, Pb and Ni by 12%, Cd by 14%, and Cr by 19% in sand; in loamy sand it reduced Ni by 12%, Cu and Co by 13%, Cr by 22%, and Cd by 28%, while Pb increased by 14%. Under urea, humic acids reduced Cd by up to 23%, Ni by 33%, Cu by 36%, Pb by 44%, and Cr by 54% in sand, and reduced Co by 26%, Pb and Cr by 27%, and Cd by 31% in loamy sand. Under UAN, humic acids reduced Zn by 15%, Ni by 19%, Pb by 29%, Cr by 52%, and Cd by 58% in sand, and reduced Zn and Co by 28%, Cd by 34%, and Cr by 63% in loamy sand.
 
 Figure 3 attributes the largest observed-variance share to soil type for Pb (41.3%), Fe (86.9%), Mn (95.4%), and Cd (34.1%); to nitrogen fertiliser form for Zn (40.3%), Ni (42.0%), Cu (43.4%), Cd (47.5%), and Cr (60.9%); and to humic acids for Co (20.6%), Cr (12.6%), and Cd (11.5%).
 
@@ -76,7 +76,7 @@ Figure 3 attributes the largest observed-variance share to soil type for Pb (41.
 
 The authors ran a three-factor pot experiment in triplicate. Factors were soil texture class (sand and loamy sand), nitrogen fertiliser form (ammonium nitrate, urea, and urea ammonium nitrate solution), and humic-acid dose (0, 0.05, 0.10, and 0.15 g/kg soil applied three times). All pots received 160 mg N/kg soil, 60 mg P/kg soil, and 170 mg K/kg soil. Each pot contained 9 kg soil and six maize plants. Soil moisture was held at 60% of maximum capacity, and soil was sampled when maize reached tassel emergence (BBCH 59).
 
-Soils were digested with concentrated hydrochloric and nitric acids using a microwave digestion procedure aligned with US EPA Method 3051. Trace elements were measured by atomic absorption spectrometry. The source reports use of element-specific Fluka reference materials and Soil S-1 Certified Analytical Reference Material.
+Soils were digested with concentrated hydrochloric and nitric acids in a CEM MARS 6 microwave digestion system using a procedure aligned with US-EPA Method 3051A. Trace elements were measured by atomic absorption spectrometry on a SpectrAA 240FS spectrometer (Varian Inc.). The source reports use of element-specific Fluka reference materials and the Soil S-1 Certified Analytical Reference Material from AGH University of Science and Technology in Kraków. Statistical analysis used two-factor ANOVA with Tukey HSD (p ≤ 0.01), principal component analysis, and Pearson correlation coefficients.
 
 ## Implications
 
@@ -103,13 +103,6 @@ App: Route as soil-management context for cadmium, chromium, nickel, lead, coppe
 
 The PDF has author attribution and DOI `10.3390/agriculture13050968`; no DOI conflict was observed. The source reports soil concentrations only, even though maize was used as the pot-test crop. No food, ingredient, plant-tissue, grain, or product concentration row should be extracted from this paper. The soil-origin locality is not specified beyond the Polish research setting; `jurisdictions: [PL]` is used as the experimental jurisdiction, not a food-market jurisdiction. All table values above follow the source's mg/kg dry-matter basis; no wet/dry or as-sold conversion was performed.
 
-<!-- BEGIN: hmi-page-history -->
-## Page history
+2026-06-04 re-ingest pass: matrices narrowed from `[soil, sand, loamy-sand, maize-pot-soil]` to `[soil]` because `sand`, `loamy-sand`, and `maize-pot-soil` are not in the controlled matrices vocabulary; the broader `soil` term is the correct routing scope and the sand/loamy-sand distinction is preserved in body text. Methods enhanced with the digestion-system make/model (CEM MARS 6), AAS instrument (SpectrAA 240FS, Varian Inc.), and the statistical pipeline (two-factor ANOVA with Tukey HSD, PCA, Pearson correlation) — instrument and software names are permitted under Part 12 Exception 2 (scientific reproducibility). Numerical values in Key numbers spot-checked against Table 1 and Table 2 in the source PDF; all match. US-EPA digestion method corrected from "Method 3051" to "Method 3051A" per source reference [55].
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [0d08bd6](https://github.com/paleofoundation/heavymetalindex/commit/0d08bd6) | 2026-06-02 | ingest June 2: wyszkowski2023-soils-nitrogen-humic-acids |
-<!-- END: hmi-page-history -->
+2026-06-04 audit-subagent pass: fresh-context audit returned REVISE with one real finding and two false positives. Real finding: the ammonium-nitrate / highest-HA-dose sentence under "Humic-acid response" originally listed only Cd 14% and Cr 19% reductions in sand; the source (Section 3.2, page 6) actually reports Co 7%, Cu 9%, Pb 12%, Ni 12%, Cd 14%, and Cr 19%. Expanded the sentence to include all six elements faithfully. False positives: (1) audit flagged `soil` as possibly out-of-vocabulary for matrices; verified against `docs/gpt-collaboration/system-prompt.md` line 167 where `soil` is explicitly listed in the common-matrices controlled vocabulary; not a defect. (2) audit flagged `[[supply-chain/soil-to-plant-transfer]]` as possibly invented; verified the page exists at `wiki/supply-chain/soil-to-plant-transfer.md`; not a defect. Checks 4 and 5 (brand and HMTc firewalls) were clean.

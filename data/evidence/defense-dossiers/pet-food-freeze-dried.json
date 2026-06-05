@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-food-freeze-dried",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9eb82f34c297148439253f92a715e22df6311c7249e571f32cb18161cae1a0d1",
-      "content_bytes": 7414,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "27defd57791c6523c206477de70f9952f9e638894f1ca943371fea7efcf8f1f2",
+      "content_bytes": 7411,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/pet-food-freeze-dried.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/pet-food-freeze-dried.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -80,7 +80,7 @@ lower_risk_variants: ["[[ingredients/cultivated-button-mushrooms]]", "[[ingredie
 higher_risk_variants: ["[[ingredients/wild-porcini]]", "[[ingredients/wild-chanterelle]]", "[[ingredients/boletus-species]]", "[[ingredients/dried-wild-mushroom]]", "[[ingredients/mushroom-extract-supplements]]"]
 used_in_products: ["[[products/dried-mushroom]]", "[[products/mushroom-powder]]", "[[products/mushroom-supplements]]", "[[products/mushroom-sauces]]", "[[products/pates]]", "[[products/foraged-mushroom-products]]"]
 audience: [regulator, educator, consumer, app]
-sources: 19
+sources: 18
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -158,8 +158,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 14 | [[sources/zhou2018-pleurotus-biogas-residue-metals\|Zhou et al. 2018]]. *Cultivation of Pleurotus ostreatus, a Potential Candidate for Biogas Residues Degradation*, BioResources 13(3):5432-5449 | 2018 | Peer-reviewed | CN Cd, Pb, tHg, tAs occurrence in Cultivated oyster mushroom fruiting bodies grown on cottonseed hull, wheat bran, lime, water, and 0-60% chicken-manure biogas-residue substrate... (n=Seven substrate treatments, with first-flush Pleurotus ostreatus fruiting bodies analyzed in triplicate for chemical composition and heavy metals.) |
 | 15 | [[sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland\|Brzezicha-Cirocka et al. 2016]]. *Bio- and toxic elements in edible wild mushrooms from two regions of potentially different environmental conditions in eastern Poland*, Environmental Science and Pollution Research | 2016 | Peer-reviewed | *[awaiting synthesis]* |
 | 16 | [[sources/mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland\|Mirończuk-Chodakowska et al. 2013]]. *Cadmium and Lead in Wild Edible Mushrooms from the Eastern Region of Poland's 'Green Lungs'*, Polish Journal of Environmental Studies | 2013 | Peer-reviewed | PL/EU Pb, Cd occurrence in 21 mushroom species (18 wild, 3 cultivated), 3 specimens each; wild species sampled from 6 communal areas in... (n=63) |
-| 17 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | *[awaiting synthesis]* |
-| 18 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA dietary Cd exposure assessment identifying wild mushrooms as highest-Cd food in European diets (up to 2 mg/kg FW); foundational regulatory-scientific basis for mushroom Cd concern |
+| 17 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA dietary Cd exposure assessment identifying wild mushrooms as highest-Cd food in European diets (up to 2 mg/kg FW); foundational regulatory-scientific basis for mushroom Cd concern |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -169,9 +168,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

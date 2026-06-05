@@ -104,7 +104,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [43efd96](https://github.com/paleofoundation/heavymetalindex/commit/43efd96) | 2026-06-02 | audit auto-fetched 2026-06-02: cumin spice source pages revised |
 | [e410161](https://github.com/paleofoundation/heavymetalindex/commit/e410161) | 2026-06-02 | ingest auto-fetched 2026-06-02: alam2022-dhaka-spices-lead |
 <!-- END: hmi-page-history -->

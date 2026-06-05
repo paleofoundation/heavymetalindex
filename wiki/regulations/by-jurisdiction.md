@@ -3,7 +3,7 @@ title: "Regulations by jurisdiction"
 description: "Country/region × metal cross-cut of every regulatory threshold the Heavy Metal Index tracks. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-06-03
+updated: 2026-06-02
 noindex: false
 ---
 
@@ -26,7 +26,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | Total mercury | 1 |  |  | 5 |  | 3 | 2 | 1 | 1 | 1 |  | 13 |
 | Methylmercury | 2 |  |  | 2 | 1 | 3 | 3 |  |  |  |  | 11 |
 | Inorganic mercury | 1 |  |  | 1 |  |  |  |  |  |  |  | 2 |
-| Nickel |  |  |  | 3 |  | 3 |  |  |  |  |  | 6 |
+| Nickel |  |  |  | 2 |  | 3 |  |  |  |  |  | 5 |
 | Aluminium | 1 |  |  | 1 |  |  |  | 1 | 1 |  |  | 3 |
 | Chromium |  |  |  |  |  | 3 |  |  |  |  |  | 3 |
 | Tin |  |  |  | 2 | 1 | 3 | 2 | 1 | 1 |  |  | 9 |
@@ -87,7 +87,6 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | [[regulations/eu-2021-1317-lead-cereals-superseded\|EU Regulation 2021/1317 - Lead maximum level for cereals and pulses]] | European Commission | Lead | 0.2 mg/kg wet weight | superseded | 2021-08-30 |
 | [[regulations/eu-2021-1323-cadmium-cereals-superseded\|EU Regulation 2021/1323 - Cadmium maximum levels for cereals]] | European Commission | Cadmium | multiple mg/kg wet weight | superseded | 2021-08-31 |
 | [[regulations/eu-reg-2022-617-mercury-fish\|eu-reg-2022-617-mercury-fish]] | European Commission | Total mercury | 0.3,0.5,1,0.1 mg/kg ww | finalized | 2022-05-03 |
-| [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation (EU) 2024/907 on the monitoring of nickel in food]] | European Commission | Nickel | monitoring-recommendation none | in-force | 2024-03-22 |
 | [[regulations/eu-2023-915-cadmium\|Commission Regulation (EU) 2023/915 cadmium maximum levels]] | European Commission | Cadmium | — | maximum levels | — |
 | [[regulations/eu-2023-915-lead-infant-young-child-foods\|EU Regulation 2023/915 — Lead Maximum Levels for Infant and Young-Child Foods]] | European Commission | Lead | multiple ppb | in-force | — |
 | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94/27/EC]] | European Commission | Nickel | — | historical-as-described-in-source | — |

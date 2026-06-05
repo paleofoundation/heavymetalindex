@@ -134,14 +134,3 @@ Frontmatter `metals:` includes tAs (not iAs) and tHg (not MeHg) because the revi
 No brand names are quoted from the source (the review does not name product brands). Instrument vendors and reference materials are not described, since the document reports no analytical methods of its own.
 
 2026-06-02 audit (fresh-context subagent, ingest-next-manual-fetch-pdf v2 skill, Phase 3 apply): verdict PROMOTE. All 5 checks clean; 3 advisory concerns reviewed. (a) Audit subagent flagged the Colombian Caribbean carbon figure "0.5–1%" as potentially mis-normalized from a "g/kg" source value — verified against PDF p. 3: source explicitly reports "between 0.5–1%", not "g/kg"; finding was a false positive (likely a PDF-render symbol-confusion artifact). (b) Audit subagent suggested adding "(as reported in source)" hedge to the worldwide-soil Fe range "20 to 550 g/kg" because it appears anomalously high — verified against PDF p. 3: range is reproduced verbatim from the source as the source reports it (ref [36]); the figure is plausible for Fe-rich tropical oxisols (≈2–55% Fe by mass) and the wiki page already attributes it to the source's page. No hedge added; the verbatim citation is the faithful representation. (c) Auditor questioned whether `supply-chain/soil-to-plant-transfer` is a real wiki page — verified: `wiki/supply-chain/soil-to-plant-transfer.md` exists in the corpus. No content changes from this audit pass; verification-note record only.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [3e2c188](https://github.com/paleofoundation/heavymetalindex/commit/3e2c188) | 2026-06-02 | audit: guerrasierra2021-phytoremediation-tropical-soils-review [promoted] |
-| [77fcd61](https://github.com/paleofoundation/heavymetalindex/commit/77fcd61) | 2026-06-02 | ingest: guerrasierra2021-phytoremediation-tropical-soils-review [fresh] from Manual Fetch Kimi /June 2 Manual Fetches |
-<!-- END: hmi-page-history -->

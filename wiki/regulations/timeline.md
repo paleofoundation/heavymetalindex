@@ -3,7 +3,7 @@ title: "Regulatory tightening over time"
 description: "Chronological view of every dated regulation in the Heavy Metal Index, grouped by decade. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-06-03
+updated: 2026-06-02
 noindex: false
 ---
 
@@ -15,7 +15,7 @@ The page is auto-regenerated on every build from the `effective_date` frontmatte
 
 ## Headline trajectory
 
-The index carries **41 dated regulations**. Earliest in the timeline: 1984-11-06 (FDA CPG Sec. 540.600 Fish, Shellfish, Crustaceans and other Aquatic Animals — Methyl Mercury, FDA). Most recent: 2025-01-01 (washington-tfca-toothpaste-pb-1000ppb, Washington State Department of Ecology). By decade: **1980s**: 2 · **1990s**: 5 · **2000s**: 10 · **2010s**: 13 · **2020s**: 11.
+The index carries **40 dated regulations**. Earliest in the timeline: 1984-11-06 (FDA CPG Sec. 540.600 Fish, Shellfish, Crustaceans and other Aquatic Animals — Methyl Mercury, FDA). Most recent: 2025-01-01 (washington-tfca-toothpaste-pb-1000ppb, Washington State Department of Ecology). By decade: **1980s**: 2 · **1990s**: 5 · **2000s**: 10 · **2010s**: 13 · **2020s**: 10.
 
 ## Chronology by decade
 
@@ -81,7 +81,6 @@ The index carries **41 dated regulations**. Earliest in the timeline: 1984-11-06
 | 2022-05-03 | [[regulations/eu-reg-2022-617-mercury-fish\|eu-reg-2022-617-mercury-fish]] | European Union | European Commission | Total mercury | 0.3,0.5,1,0.1 mg/kg ww | finalized |
 | 2023-06-30 | [[regulations/china-gb-2762-2022-contaminants\|china-gb-2762-2022-contaminants]] | China | National Health Commission; State Administration for Market Regulation | Lead, Cadmium, Total mercury, Methylmercury, Total arsenic, Inorganic arsenic, Tin, Nickel, Chromium | multiple mg/kg; food-specific maximum levels | active |
 | 2023-11-05 | [[regulations/turkey-food-codex-contaminants-2023-lead-raw-milk\|turkey-food-codex-contaminants-2023-lead-raw-milk]] | Turkey | Ministry of Agriculture and Forestry | Lead | 0.02 mg/kg wet weight | in-force |
-| 2024-03-22 | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation (EU) 2024/907 on the monitoring of nickel in food]] | European Union | European Commission | Nickel | monitoring-recommendation none | in-force |
 | 2025-01-01 | [[regulations/epa-iris-inorganic-arsenic-rfd\|EPA IRIS — Inorganic Arsenic Toxicological Review (January 2025)]] | United States (federal) | EPA | Inorganic arsenic | pending-extraction | finalized-2025 |
 | 2025-01-01 | [[regulations/washington-tfca-toothpaste-pb-1000ppb\|washington-tfca-toothpaste-pb-1000ppb]] | United States — Washington State | Washington State Department of Ecology | Lead | 1000 ppb | enforced |
 

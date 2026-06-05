@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: olive-oil
 public_page: products/olive-oil
-updated: 2026-06-03
+updated: 2026-06-04
 ---
 
 # Workbench standards snapshot — Olive oil
@@ -23,10 +23,7 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 | [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/mercury-total\|tHg]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/aluminum\|Al]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/nickel\|Ni]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/chromium\|Cr]] | - | - | - | - | - | - | no Path A dataset | - |
 
 ## Clean and dirty designation
 
@@ -37,10 +34,7 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/aluminum\|Al]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/nickel\|Ni]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/chromium\|Cr]] | summary-only (designation deferred) | no sample-level dataset |
 
 ## CC eligibility and Path status
 
@@ -49,10 +43,7 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | [[metals/lead\|Pb]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 100 ug/kg (eu2023_pb_fats_oils_100). |
 | [[metals/cadmium\|Cd]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
 | [[metals/arsenic-total\|tAs]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/mercury-total\|tHg]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/aluminum\|Al]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
 | [[metals/nickel\|Ni]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/chromium\|Cr]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
 
 ## Operational reminders
 

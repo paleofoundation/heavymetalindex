@@ -2,15 +2,15 @@
 source_page: wiki/products/baby-cereals-dry-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3306d20d12322dc8897246aa252f7248dfaed5f3b2300937c168c803dbed11f6
+source_page_sha256: a83db8d941583c9e0e8e00d1d075b5f67b3bd7c382d52a79903e3a906b1b9e86
 total_claims: 125
 cited_claims: 125
 uncited_claims: 0
-distinct_cited_targets: 60
-distinct_cited_sources: 54
+distinct_cited_targets: 51
+distinct_cited_sources: 45
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 6
-audit_log_total_rows: 767
+audit_rows_for_cited_targets: 0
+audit_log_total_rows: 635
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 125 |
 | cited claims | 125 |
 | uncited claims | 0 |
-| distinct cited targets | 60 |
-| distinct cited `sources/` pages | 54 |
+| distinct cited targets | 51 |
+| distinct cited `sources/` pages | 45 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 6 |
-| audit log rows read | 767 |
+| audit rows on cited target pages | 0 |
+| audit log rows read | 635 |
 
 ## Page-level audit rows
 
@@ -54,9 +54,7 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
-      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
-      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+    - audit rows: none
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
@@ -68,9 +66,7 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
-      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
-      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+    - audit rows: none
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
@@ -82,9 +78,7 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows (2):
-      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
-      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+    - audit rows: none
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
@@ -1064,7 +1058,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4 ppb`
 - Context: `dairy-free infant porridges by ICP-AES and Hg-AAS; all concentrations low (Pb 2–4 ppb wet weight, Cd <1–3 ppb) and withi`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1073,31 +1067,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -1110,8 +1092,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -1141,22 +1121,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `3 ppb`
 - Context: `ges by ICP-AES and Hg-AAS; all concentrations low (Pb 2–4 ppb wet weight, Cd <1–3 ppb) and within EU limits; contributes`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1165,31 +1141,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -1202,8 +1166,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -1233,22 +1195,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `0.013 mg/kg`
 - Context: `(75 studies, 580 baby foods); cereals highest Cd median among baby-food groups (0.013 mg/kg) with 17% exceedance rate; r`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1257,31 +1215,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -1294,8 +1240,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -1325,22 +1269,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `20 ppb`
 - Context: `am | 2025 | Government guidance | FDA final Closer to Zero guidance setting the 20 ppb Pb action level for dry infant ce`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1349,31 +1289,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -1386,8 +1314,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -1417,22 +1343,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `20 ppb`
 - Context: `all processed baby-food categories; guidance-basis empirical foundation for the 20 ppb dry-cereal action level applicabl`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1441,31 +1363,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -1478,8 +1388,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -1509,22 +1417,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `37.8 ppb`
 - Context: `d Hg in FY2009–FY2024 FDA dry infant cereals with no rice named (n=25); tAs p90 37.8 ppb, Pb p90 8 ppb, Cd p90 27.4 ppb`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1533,31 +1437,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -1570,8 +1462,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -1601,22 +1491,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `8 ppb`
-- Context: `2024 FDA dry infant cereals with no rice named (n=25); tAs p90 37.8 ppb, Pb p90 8 ppb, Cd p90 27.4 ppb | | 11 | [[source`
-- Cited targets (44):
+- Context: `2024 FDA dry infant cereals with no rice named (n=25); tAs p90 37.8 ppb, Pb p90 8 ppb, Cd p90 27.4 ppb | | 9 | [[sources`
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1625,31 +1511,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -1662,8 +1536,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -1693,22 +1565,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `27.4 ppb`
-- Context: `nfant cereals with no rice named (n=25); tAs p90 37.8 ppb, Pb p90 8 ppb, Cd p90 27.4 ppb | | 11 | [[sources/meli2024-che`
-- Cited targets (44):
+- Context: `nfant cereals with no rice named (n=25); tAs p90 37.8 ppb, Pb p90 8 ppb, Cd p90 27.4 ppb | | 9 | [[sources/meli2024-chem`
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1717,31 +1585,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -1754,8 +1610,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -1785,22 +1639,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `35.2 ppb`
 - Context: `in 111 Saudi baby food products (2020 NFMP); cereal-based meals (n=33) mean Pb 35.2 ppb and Cd 5.18 ppb dry weight; inc`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1809,31 +1659,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -1846,8 +1684,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -1877,22 +1713,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `5.18 ppb`
 - Context: `by food products (2020 NFMP); cereal-based meals (n=33) mean Pb 35.2 ppb and Cd 5.18 ppb dry weight; includes wheat-base`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1901,31 +1733,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -1938,8 +1758,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -1969,22 +1787,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `920 ppb`
 - Context: `flour-only composition (non-rice) routes to this row; corn-flour cereal Al mean 920 ppb, the lowest of all compositions`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1993,31 +1807,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -2030,8 +1832,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -2061,22 +1861,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `680 ppb`
 - Context: `rn-meal (n=10) categories; non-rice cereal-based context; cereal-based mean tAs 680 ppb notably elevated vs milk-based |`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2085,31 +1881,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -2122,8 +1906,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -2153,22 +1935,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `269 ppb`
 - Context: `rms food-matrix chromium is essentially Cr(III); total Cr breakfast-cereal mean 269 ppb; extends by mechanism to non-ric`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2177,31 +1955,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -2214,8 +1980,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -2245,22 +2009,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `20 ppb`
 - Context: `r cohort linking rice cereal to urinary As increase at weaning; cites iAs up to 20 ppb in mixed-cereal weaning foods and`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2269,31 +2029,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -2306,8 +2054,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -2337,22 +2083,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `49 ppb`
 - Context: `ease at weaning; cites iAs up to 20 ppb in mixed-cereal weaning foods and up to 49 ppb in mixed cereals as the non-rice`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2361,31 +2103,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -2398,8 +2128,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -2429,22 +2157,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `6 ppb`
 - Context: `ice infant cereals (n=30, oats/corn/wheat/multigrain with no rice); highest iAs 6 ppb; structured data extracted to `dat`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2453,31 +2177,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -2490,8 +2202,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -2521,22 +2231,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `10 ppb`
 - Context: `nt report | UK multi-metal category-level survey; cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 pp`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2545,31 +2251,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -2582,8 +2276,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -2613,22 +2305,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `6 ppb`
 - Context: `multi-metal category-level survey; cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 ppb, Ni 124–127`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2637,31 +2325,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -2674,8 +2350,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -2705,22 +2379,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `3 ppb`
 - Context: `al category-level survey; cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 ppb, Ni 124–127 ppb; rice`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2729,31 +2399,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -2766,8 +2424,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -2797,22 +2453,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `1 ppb`
 - Context: `level survey; cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 ppb, Ni 124–127 ppb; rice status not i`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2821,31 +2473,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -2858,8 +2498,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -2889,22 +2527,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `127 ppb`
 - Context: `cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 ppb, Ni 124–127 ppb; rice status not isolated within`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2913,31 +2547,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -2950,8 +2572,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -2981,22 +2601,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `0.96 ppb`
 - Context: `/corn/oat); cereal-based group Cd significantly higher than milk-based (8.88 vs 0.96 ppb); rice/non-rice composition not`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -3005,31 +2621,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -3042,8 +2646,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -3073,22 +2675,18 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `10 ppb`
 - Context: `Canadian baby-food samples (1975 market) including cereal category by AAS; LOD 10 ppb precludes modern percentile math;`
-- Cited targets (44):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -3097,31 +2695,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-tds-elements-2018-2020\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
     - audit rows: none
@@ -3134,8 +2720,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` (page missing)
     - audit rows: none
@@ -3165,15 +2749,11 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
     - audit rows: none
   - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
@@ -3261,7 +2841,7 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/california-prop65.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
-| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 2 | 2026-06-02 | 2026-06-03 |
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda-closer-to-zero.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda2025-lead-processed-baby-foods.md` | regulations | 0 | — | — |
 | `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals.md` | sources | 0 | — | — |
@@ -3269,22 +2849,16 @@ _All claims trace to at least one cited source._
 | `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` | sources | 0 | — | — |
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
 | `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic\.md` | sources | 0 | — | — |
-| `wiki/sources/cereal2013-cereal-juice-lead-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
-| `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` | sources | 0 | — | — |
 | `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland.md` | sources | 0 | — | — |
 | `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland\.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` | sources | 0 | — | — |
-| `wiki/sources/depa2019-baby-food-lead-cadmium\.md` | sources | 0 | — | — |
 | `wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil\.md` | sources | 0 | — | — |
 | `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` | sources | 0 | — | — |
-| `wiki/sources/du2025-infant-thickener-urinary-arsenic\.md` | sources | 0 | — | — |
-| `wiki/sources/efsa2014-dietary-exposure-iAs\.md` | sources | 0 | — | — |
 | `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` | sources | 0 | — | — |
 | `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` | sources | 0 | — | — |
-| `wiki/sources/fda-tds-elements-2018-2020\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` | sources | 0 | — | — |
@@ -3295,7 +2869,6 @@ _All claims trace to at least one cited source._
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |
 | `wiki/sources/gardener2019-lead-cadmium-infant-formula-baby-food.md` | sources | 0 | — | — |
-| `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` | sources | 0 | — | — |
 | `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` | sources | 0 | — | — |
 | `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` | sources | 0 | — | — |
 | `wiki/sources/igweze2020-al-as-hg-infant-formula-nigeria\.md` | sources | 0 | — | — |
@@ -3312,10 +2885,8 @@ _All claims trace to at least one cited source._
 | `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` | sources | 0 | — | — |
 | `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` | sources | 0 | — | — |
-| `wiki/sources/signes-pastor2018-open-infants-dietary-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` | sources | 0 | — | — |
 | `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` | sources | 0 | — | — |
 | `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` | sources | 0 | — | — |
-| `wiki/sources/usda-fas2023-china-gb2762-contaminants\.md` | sources | 0 | — | — |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` | sources | 0 | — | — |
 

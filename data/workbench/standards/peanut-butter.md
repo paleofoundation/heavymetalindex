@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: peanut-butter
 public_page: products/peanut-butter
-updated: 2026-06-03
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Peanut Butter

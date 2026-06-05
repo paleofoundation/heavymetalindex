@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `315a7b8` (2026-06-02). The body hashes to `sha256:c3f12a2bf5b334f9ae431d71e519f0b4…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `566c7b2` (2026-06-02). The body hashes to `sha256:f79ff4f2e45b6fcd4b707a3d396b8303…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=infant-formula-rtf-liquid-soy-based&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/infant-formula-rtf-liquid-soy-based&download=1`.
 
 ## Evidence base
 
-This category is supported by 38 contributing literature sources mapped by the routing layer, of which 3 carry structured concentration values. The page makes 43 numerical claims; 43 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 37 contributing literature sources mapped by the routing layer, of which 3 carry structured concentration values. The page makes 43 numerical claims; 43 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/infant-formula-rtf-liquid-soy-based.md`.
 

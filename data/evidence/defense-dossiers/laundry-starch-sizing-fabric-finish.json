@@ -17,44 +17,18 @@
     "canonical_url": "https://heavymetalindex.com/products/laundry-starch-sizing-fabric-finish",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "7dc6b40125b4a051779b24c5fbeab38aaaa5fe4aa02f2a422f5d240575d67a9d",
-      "content_bytes": 8920,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "81f4d0504697707fa7d76875a51961d053fdd7fbf5fc4c6b84e879b707a7057c",
+      "content_bytes": 7438,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/laundry-starch-sizing-fabric-finish.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/laundry-starch-sizing-fabric-finish.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 0,
     "sources_with_structured_values": 0,
-    "contributing_sources": [
-      {
-        "slug": "sources/nydec2020-cleansing-product-disclosure-bmp",
-        "title": "Cleansing Product Information Disclosure Program — Recommended Best Management Practices",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "Pb",
-          "Cd",
-          "tAs",
-          "tHg",
-          "Cr-VI",
-          "Ni"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
-        "content_pin": {
-          "content_sha256": "060e23ac265329cd97139e062188a861c3219dec6444dce1bd56f85fef7adc6e",
-          "content_bytes": 48581,
-          "last_commit_sha": "d99267a",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show d99267a:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
-        }
-      }
-    ]
+    "contributing_sources": []
   },
   "regulatory_caps": {
     "declared_count": 0,

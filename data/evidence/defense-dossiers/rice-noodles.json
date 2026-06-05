@@ -17,41 +17,18 @@
     "canonical_url": "https://heavymetalindex.com/products/rice-noodles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "47dfe0377398499bf0bf569ab2c08364318ba52875fe6d9441d4d0ed5e6c3297",
-      "content_bytes": 7933,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "1a3df58b720508b485b79db84538b51f19b6bc801a578ee5ba019577f0b9a89b",
+      "content_bytes": 7727,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/rice-noodles.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/rice-noodles.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
     "contributing_sources": [
-      {
-        "slug": "sources/efsa2024-small-organoarsenic-food",
-        "title": "Risk assessment of small organoarsenic species in food",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "DMA",
-          "MMA",
-          "iAs",
-          "tAs"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/efsa2024-small-organoarsenic-food",
-        "content_pin": {
-          "content_sha256": "bf87cabe6d44048b724476f7e1ef11c1758aa53be6951d031356c1ccd69347dc",
-          "content_bytes": 12076,
-          "last_commit_sha": "8597289",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8597289:wiki/sources/efsa2024-small-organoarsenic-food.md | sha256sum"
-        }
-      },
       {
         "slug": "sources/katyal2020-instant-noodles-canada-metals",
         "title": "Analysis of lead, arsenic, and cadmium concentrations in instant noodles within the Canadian market",
@@ -66,12 +43,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/katyal2020-instant-noodles-canada-metals",
         "content_pin": {
-          "content_sha256": "344234ad3e3d80d0d0dde7b4166274541d6adf2a17d222967b79e49feb2eae16",
-          "content_bytes": 5130,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "eb58918778108ab41ae87113c42db33c8598884dd1933bb1897335ddd2cd8eca",
+          "content_bytes": 5127,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/katyal2020-instant-noodles-canada-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/katyal2020-instant-noodles-canada-metals.md | sha256sum"
         }
       }
     ]

@@ -154,13 +154,3 @@ The PDF was read from the June 3 manual-fetch folder, including the abstract, in
 Paper-internal arithmetic note: the abstract says a food survey suggested almost 4% of plain internal tinplate food cans exceeded 150 mg/kg and "over 2.5 million" such cans were consumed annually in the UK. The overview later states the UK uses about 2,500 million plain unlacquered cans annually and that even 1% above 150 mg/kg would mean 25 million cans. The overview arithmetic implies roughly 25 million cans at 1% and about 100 million at 4%; this page reports the survey percentage and the overview's arithmetic framing rather than relying on the abstract's smaller "2.5 million" figure.
 
 Scope note: the source is a secondary review. It provides no brand-level data and no new sample panel. `[[metals/organotins]]` appears only as a speciation-separation context page; the review's routeable canned-food values concern inorganic/total tin leached from tinplate, not organotin contamination.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [5e87372](https://github.com/paleofoundation/heavymetalindex/commit/5e87372) | 2026-06-03 | ingest June 3: blunden2003-tin-canned-food |
-<!-- END: hmi-page-history -->

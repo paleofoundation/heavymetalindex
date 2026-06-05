@@ -106,13 +106,3 @@ App: Use only for regulatory context around aluminum-containing food additives i
 The PDF was read from the June 3 manual-fetch folder, including the request letter and Table 1 of aluminum-containing food additives. Page count is 7. No DOI is assigned. The canonical raw file `raw/Manual Fetch Kimi /June 3 Folder/ARCHIVED - Health Canada Requests Information from Industry on the Use of Aluminum-Containing Food Additives - Canada.ca.pdf` and duplicate file `raw/Manual Fetch Kimi /June 3 Folder/ARCHIVED - Health Canada Requests Information from Industry on the Use of Aluminum-Containing Food Additives - Canada.ca 2.pdf` are byte-identical with SHA-256 `4bbd82467ba30380bd7bfbf5d72d54d3c999bce392e50779b2fcf8dfc66bd65b`; the duplicate is recorded in the tracker as a duplicate rather than a second source.
 
 Scope note: this source does not report measured aluminum in foods, consumer exposure estimates, product brands, or compliance outcomes. It is ingested because Table 1 provides concrete regulatory maximum-use values for aluminum-containing additives in Canadian retail-food contexts. Any downstream route must preserve that regulatory-maximum-use basis and distinguish GMP-only entries from numeric maximums.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [cff2bfe](https://github.com/paleofoundation/heavymetalindex/commit/cff2bfe) | 2026-06-03 | ingest June 3: health-canada2008-aluminum-food-additives-request |
-<!-- END: hmi-page-history -->

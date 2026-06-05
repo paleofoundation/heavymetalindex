@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: plant-milks-soy-based
 public_page: products/plant-milks-soy-based
-updated: 2026-06-03
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Plant milks, soy-based

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tattoo-inks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6fddb10933e37426e59453257aef03a58ff08cdd31f07a6c3212cf75c669ff69",
-      "content_bytes": 8296,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "03be257437d24dd4070f2f1b8e1d5c8b1c1d18b6ea7771b4308b8cdf6ceb3f1b",
+      "content_bytes": 8293,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/tattoo-inks.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/tattoo-inks.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cirs2023-reach-annex-xvii-restrictions",
         "content_pin": {
-          "content_sha256": "f74b3f4d59947548dbeb1755ac9de0bf50c02a9f48fe326450bdec20571139f7",
-          "content_bytes": 34366,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "38ecb209bd6b6ad66d2aa5e45a6a5331522599362e810c30423965c9d6e4050c",
+          "content_bytes": 34217,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
         }
       }
     ]

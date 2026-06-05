@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-supplements-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1d37a4da84c1a69be6efbaa7a025bd61fd341d29f75a8d7c7a90d406c2d44680",
-      "content_bytes": 7315,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "8edb7f8b8dc11f81a7ed3e531e55bcfbc816885518044e01bcb6bd03c9083c1a",
+      "content_bytes": 7312,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/pet-supplements-other.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/pet-supplements-other.md | sha256sum"
     }
   },
   "evidence_base": {

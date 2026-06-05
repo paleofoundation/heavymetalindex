@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/makeup-body-paints-bases-fixatives",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "01c68ea603600349cb590d53eed7ec2006d40d00e16cb7acdb0d06f37b1cc372",
-      "content_bytes": 8896,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "7c8f0209495204193f550b5696d844f2d40a8ceb2a64d07552b07c4ae9b320e2",
+      "content_bytes": 8893,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/makeup-body-paints-bases-fixatives.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/makeup-body-paints-bases-fixatives.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/campaignsafecosmetics2009-pretty-scary-face-paints",
         "content_pin": {
-          "content_sha256": "7fb9a81b7856d74ba76ea8c02a0d3db881b6eadfc8bffd9377bac6b42e3016d4",
-          "content_bytes": 32326,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "fa6fa3be6297ca982d23d0b56cba8ef7bab18295b595b5047d16bba018ec0553",
+          "content_bytes": 32177,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/campaignsafecosmetics2009-pretty-scary-face-paints.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/campaignsafecosmetics2009-pretty-scary-face-paints.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/campaignsafecosmetics2016-pretty-scary-2-kids-makeup",
         "content_pin": {
-          "content_sha256": "182bbea9ccbe3c8654a46bad8ec5fff9437725424b982cb9262dcc9c7acbbb88",
-          "content_bytes": 35920,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "e13b1f209acf7f946e094a60e8082af44dc2933228edd5fc92afc7ec98c3a706",
+          "content_bytes": 35771,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/campaignsafecosmetics2016-pretty-scary-2-kids-makeup.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/campaignsafecosmetics2016-pretty-scary-2-kids-makeup.md | sha256sum"
         }
       },
       {
@@ -90,12 +90,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/waecology2024-interim-policy-lead-cosmetics",
         "content_pin": {
-          "content_sha256": "790a8835a873befbe553d09ad0feadd4be5a1d3e13f2a8f4a963ba65716f40ea",
-          "content_bytes": 28398,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "ab868495e7c86716005cd38a0cfd18813f1bfddb0f2bdd7e6e07cdd698ae9e6a",
+          "content_bytes": 28249,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/waecology2024-interim-policy-lead-cosmetics.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/waecology2024-interim-policy-lead-cosmetics.md | sha256sum"
         }
       }
     ]

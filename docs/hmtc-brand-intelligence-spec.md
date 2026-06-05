@@ -53,6 +53,19 @@ The freemium line: HMI's stateless public comparator is free and genuinely suffi
 
 ---
 
+## 2.5 Surface architecture — three places this lives, and the showcase
+
+"Backend or frontend?" is a false choice: it is **one Next.js app** (paleo-foundation) with three *surfaces*, distinguished by auth, not by a separate backend service. The intelligence (computation) runs server-side (server components against Supabase + the HMI API bridge); the dashboard (display) is the frontend; the split that matters is **public routes vs authenticated portal routes**.
+
+1. **Public marketing frontend** (`(public)`, no auth, SEO/AEO-optimized) — the **differentiation showcase + lead-gen**. This is where "the metals others miss" lives:
+   - **8 metals, not 4.** HMTc certifies against **Pb, Cd, iAs, MeHg (Tier 1) + Ni, Sn, Al, Cr-VI (Tier 2)** — 10 analytes with speciation — versus the **Big 4 (Pb/Cd/As/Hg)** that exposé testing and standard panels stop at. The four others miss (Ni, Sn, Al, Cr-VI) plus the speciation rigor (iAs≠tAs, MeHg≠tHg) are the headline. This is a **C-scope claim** (the standard's protectiveness), durable and on-message with the published preprint thesis — not a depreciating corpus claim.
+   - **"We stay ahead so you're not left high and dry."** Framed as a **program-relationship service** (we monitor the complete literature + regulatory landscape for you), not a unique-tech moat — regulatory-trend monitoring is partially replicable (FoodChain ID), so the durable part is the *relationship commitment*, not the tech.
+   - **Shared toxicology briefings / trend reports** as content → authority + SEO + the "sell HMTc/HMI in the Google sense." Sourced from HMI (the 8-metal toxicology callouts), packaged for brands, kept **literature-honest** (Part 2 firewall) and **out of the binding standards** (kept flexible per §3.10's discipline).
+2. **The gated cert-gap check** (light signup) — the **prospect bridge** (§3.9; mocked this session). Converts prospect → applicant. A *public, lightweight* teaser version can live on Surface 1 as a lead magnet.
+3. **The certified-brand portal** (`(portal)`, full auth, post-certification) — the **intelligence dashboard** (mocked first this session): trends, levers, supplier intelligence, remediation pathway, ratchet-readiness, board PDF, change-watch, **plus the full briefings/reports library, personalized**. This is the "dashboard for brands once they become certified."
+
+The showcase content and the cert-gap teaser are how Surface 1 feeds Surface 2 feeds Surface 3 — public authority → prospect conversion → certified retention. All three pull from HMI one-way; none writes back.
+
 ## 3. Components (the build)
 
 ### 3.1 Onboarding & data ingestion
@@ -108,6 +121,18 @@ When a brand views or accepts a lever, prompt *"Did you implement this? What cha
 
 ### 3.8 Board / CEO PDF export
 One-click, single-page, beautiful — a **provenance/transport artifact, not a conclusion** (round-3 M6): it assembles the brand's own lab data plus the public HMI literature, both independently reconstructible, rather than HMTc opining the brand is clean. Generated continuously for active certified brands (no "they stopped when results turned bad" gap) but **brand-held: delivered to the brand, not retained server-side beyond the neutral window**, so HMTc is not the custodian of a longitudinal series of a brand's adverse PDFs (round-4 NN-4). No raw outlier dumps.
+
+### 3.9 Pre-submission certification gap simulator (top-of-funnel C-moat — added v2.2)
+
+A brand — or an *uncertified prospect* — uploads its BOM + historical COAs and gets back, per analyte: pass/fail against the **current HMTc threshold** for its category, the margin (e.g., "Cd fails by 1.4×"), and the **projected date** each currently-passing analyte would fall under the **published ratchet** (Governance Policy §12). Only the standard-setter can score a brand against the bar that decides shelf access *and* its future trajectory — a testing lab structurally cannot (ISO 17065). It is the strongest C-moat feature and the **top of the funnel**: it converts prospects into applicants, growing the certification business itself, and it runs on a lightweight upload without full onboarding.
+
+Firewall guards: (1) it surfaces the **threshold value and the brand's distance from it** — never the percentile-*selection* arithmetic (P97/P45, pooling math) that derives the threshold; that stays workbench-side (OPERATING.md Part 6, Part 19). The per-category limit tables are already published in the Program Manual Part 3, so showing the limit is fine; showing how it was derived is not. (2) Ratchet projections are labeled **forecasts with uncertainty**, not guarantees (the §12.3 trigger fires on aggregate Status-A data, so a fail-date is probabilistic). (3) It shows the brand's own position only — never cohort rows. Reuses `lot_results` + the HMTc category thresholds (from the standards workbench) + the published ratchet schedule.
+
+### 3.10 Standards alignment (the supplier-intelligence + remediation commitments are binding, not prunable)
+
+The Governance Policy §11 (anonymized supplier intelligence, a **condition of the license**), Program Manual Part 2.9, Part 2.4 (confidential remediation track), and the three **DOI'd Zenodo preprints** permanently commit the program to **anonymized cross-brand supplier intelligence** and **confidential remediation pathways** as core, published design principles. These are governance mechanisms, not prunable product features, and they cannot be walked back (the thesis is published).
+
+Two consequences: (a) the product **must** deliver defensible versions matching the standards' careful framing — supplier intelligence is anonymized, ingredient/region-level, reporting-brand-never-disclosed, with honest anonymization-limits disclosure (exactly §3.5); the product must **never** introduce a riskier version than the standards already disclose (no named-supplier "scorecard"). (b) Conversely, product-only features that the standards do **not** promise (reformulation simulator, predictive forecast, board PDF as a flagship, a standalone competitive benchmark) carry **no delivery obligation** and are freely prunable/deferrable per `docs/brand-intelligence-feature-audit.md`.
 
 ---
 

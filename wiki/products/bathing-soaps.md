@@ -12,7 +12,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 6
+sources: 1
 updated: 2026-06-02
 ---
 
@@ -36,11 +36,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/oviri2024-nigeria-bathing-soaps-metals\|Oviri et al. 2024]]. *Assessment of the concentrations and human exposure to heavy metals in bathing soaps in Nigeria*, FUDMA Journal of Sciences 8(3 Special Issue): 422-430 | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/torres2024-soap-detergent-heavy-metals-brazil\|Torres et al. 2024]]. *Potentially Toxic Elements in Commercial Soap and Powder Detergent Samples*, Journal of the Brazilian Chemical Society 35(4): e-20230164, 1-10 (Sociedade Brasileira de Quimica) | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/iwegbue2019-household-hygienic-products-nigeria\|Iwegbue et al. 2019]]. *Risk of human exposure to metals in some household hygienic products in Nigeria*, Toxicology Reports 6 (2019) 914-923 (Elsevier; ISSN 2214-7500) | 2019 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/alizadeh2017-mercury-lead-soaps-mashhad\|Alizadeh et al. 2017]]. *Mercury and Lead Levels in Common Soaps from Local Markets in Mashhad, Iran*, Iranian Journal of Toxicology | 2017 | Peer-reviewed | *[awaiting synthesis]* |
-| 5 | [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements\|Tjandraatmadja et al. 2010]]. *Sources of contaminants in domestic wastewater: nutrients and additional elements from household products*, CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) | 2010 | Industry | *[awaiting synthesis]* |
-| 6 | [[sources/abulude2007-soaps-detergents-akure-nigeria\|Abulude et al. 2007]]. *Assessment of the Content of Pb, Cd, Ni and Cr in Soaps and Detergents from Akure, Nigeria*, Research Journal of Environmental Toxicology 1(2): 102-104 (Academic Journals Inc.; ISSN 1819-3420) | 2007 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -50,6 +45,5 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [6809e03](https://github.com/paleofoundation/heavymetalindex/commit/6809e03) | 2026-06-02 | ingest auto-fetched 2026-06-02 08:02 batch 1: 1 source page |
 <!-- END: hmi-page-history -->

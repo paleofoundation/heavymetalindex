@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: infant-formula-stage1
 public_page: products/infant-formula-stage1
-updated: 2026-06-03
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Infant Formula Stage1

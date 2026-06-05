@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `315a7b8` (2026-06-02). The body hashes to `sha256:8d232c410c633139fdae53ec889759c2…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `566c7b2` (2026-06-02). The body hashes to `sha256:089c473f4ee7a6f0f3d17e312cdfaf0f…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=toothpaste&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/toothpaste&download=1`.
 
 ## Evidence base
 
-This category is supported by 18 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 7 numerical claims; 1 of them trace to an in-section cited source, leaving 6 that do not yet trace to an in-section source and are flagged for synthesis.
+This category is supported by 15 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 7 numerical claims; 1 of them trace to an in-section cited source, leaving 6 that do not yet trace to an in-section source and are flagged for synthesis.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/toothpaste.md`.
 

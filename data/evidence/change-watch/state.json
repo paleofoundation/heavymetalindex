@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T16:12:55.487Z",
+  "updated_at": "2026-06-02T13:42:41.860Z",
   "regulations": {
     "regulations/atsdr-aluminum-mrls": {
       "limit_value": 1,
@@ -173,12 +173,6 @@
       "limit_unit": "ppb",
       "status": "in-force",
       "effective_date": null
-    },
-    "regulations/eu-2024-907-nickel-monitoring": {
-      "limit_value": "monitoring-recommendation",
-      "limit_unit": "none",
-      "status": "in-force",
-      "effective_date": "2024-03-22T00:00:00.000Z"
     },
     "regulations/eu-466-2001-contaminants-superseded": {
       "limit_value": "multiple",

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cookware-specialty-alloy",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0339616df434972038e051d37efb2466745659aa33985e29acbe2a579bb89ce2",
-      "content_bytes": 7473,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "957141d7ccd711aaed73782f59c2ba982a018c6ac7de2e9bd2bb1da6af35a62a",
+      "content_bytes": 7470,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/cookware-specialty-alloy.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/cookware-specialty-alloy.md | sha256sum"
     }
   },
   "evidence_base": {

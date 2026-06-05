@@ -1,180 +1,134 @@
 ---
 type: source
-raw_handle: MFK_mono49
+raw_handle: MFK_mono49-2
 cite_key: iarc1990-chromium-nickel-welding
 title: "Chromium, Nickel and Welding"
 authors: ["IARC Working Group on the Evaluation of Carcinogenic Risks to Humans"]
 year: 1990
 publication: "IARC Monographs on the Evaluation of Carcinogenic Risks to Humans, Volume 49"
-source_type: gov-report
-evidence_tier: A
-raw_path: "raw/Manual Fetch Kimi /June 3 Folder/mono49.pdf"
-raw_sha256: fbd31bbf35d8ae2d0545b5c12e64a9898b317c14ea2bea73a06ba5883d1b2155
 doi: null
 no_doi_assigned: true
-access_url: "https://publications.iarc.who.int/67"
-license: all-rights-reserved
+isbn: "92 832 1249 5"
+issn: "0250-9555"
+source_type: gov-report
+evidence_tier: A
+license: public-reference-only
+raw_path: "raw/Manual Fetch Kimi /June 3 Folder/mono49 2.pdf"
+raw_sha256: fbd31bbf35d8ae2d0545b5c12e64a9898b317c14ea2bea73a06ba5883d1b2155
+access_date: 2026-06-04
+access_url: https://publications.iarc.fr/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Chromium-Nickel-And-Welding-1990
 metals: [Cr, Cr-VI, Ni]
-ingredients: ["[[ingredients/water]]", "[[ingredients/vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/fruit]]", "[[ingredients/wheat]]", "[[ingredients/rice]]", "[[ingredients/oatmeal]]", "[[ingredients/bread]]", "[[ingredients/cocoa]]", "[[ingredients/margarine]]", "[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/shellfish]]", "[[ingredients/fruit-juice]]"]
-products: ["[[products/bottled-drinking-water]]", "[[products/mineral-water]]", "[[products/root-tuber-vegetables]]", "[[products/leafy-vegetables-other]]", "[[products/non-root-vegetables]]", "[[products/fresh-fruit]]", "[[products/canned-fruit]]", "[[products/fruit-juices-non-apple]]", "[[products/rice-bulk-grain]]", "[[products/flour-non-rice]]", "[[products/breakfast-cereal-non-rice]]", "[[products/bread-and-baked-goods]]", "[[products/nuts-seeds-other]]", "[[products/seafood]]", "[[products/fresh-fish]]", "[[products/shellfish]]"]
-matrices: [drinking-water, mineral-water, surface-water, groundwater, vegetables, fruit, grains-cereals, wheat-flour, oatmeal, rice, bread, cocoa, nuts, margarine, fish, seafood, shellfish, welding-fumes, occupational-air]
-jurisdictions: [international, IARC, WHO]
-near_duplicates: []
+species: [Cr(0), Cr(III), Cr(VI), Ni(0), Ni(II)]
+ingredients: ["[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/cereals]]", "[[ingredients/meat]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/seafood]]", "[[ingredients/water]]"]
+products: []
+matrices: [food, drinking-water, dietary-intake, ambient-air, occupational-exposure, biological-monitoring, soil]
+jurisdictions: [INTL]
+near_duplicates: ["MFK_mono49"]
 sample_n: null
-sample_population: "IARC Working Group monograph reviewing exposure, occurrence, toxicology, epidemiology, and carcinogenicity evidence for chromium compounds, nickel compounds, and welding fumes; food and drinking-water values are compiled literature/regulatory context rather than a new market survey."
-updated: 2026-06-03
+sample_population: "International scientific working group; review of global occupational, environmental, dietary, and experimental data for Cr, Ni, and welding fume exposures"
+working_group_meeting: "Lyon, 5-13 June 1989"
+updated: 2026-06-04
+sources: 0
+audience: [regulator, educator, app]
 ---
 
-# IARC 1990 - Chromium, nickel, and welding
+# IARC Monograph Volume 49 (1990) — Chromium, Nickel and Welding
 
-IARC Volume 49 is a primary agency hazard-evaluation source for chromium, nickel, and welding fumes. Its most important HMI use is speciation-sensitive carcinogenicity context: chromium(VI) is classified as carcinogenic to humans, nickel compounds are classified as carcinogenic to humans, metallic nickel is possibly carcinogenic to humans, and metallic chromium plus chromium(III) compounds are not classifiable on the evidence available in 1990. The monograph also compiles routeable background concentration values for chromium and nickel in drinking-water, foods, beverages, and seafood, but the Working Group explicitly notes that evidence is sparse for carcinogenic hazards from oral exposure to chromium or nickel compounds in foods or potable water.
+The IARC Working Group convened in Lyon (5-13 June 1989) reviewed the human, animal, and mechanistic evidence for chromium compounds, nickel compounds, and welding fume exposures, and issued the foundational carcinogenicity classifications that subsequent food-safety, occupational-health, and drinking-water authorities continue to cite. The volume establishes Cr[VI] compounds (as encountered in chromate production, chromate pigment production, and chromium plating) and nickel compounds (sulfate and sulfide/oxide combinations encountered in refining) as Group 1 human carcinogens; metallic chromium and Cr[III] are Group 3; metallic nickel is Group 2B; welding fumes are Group 2B. The monograph also catalogues background concentrations of chromium and nickel in food, drinking water, air, and human biological samples, plus the analytical methods then in use across all those matrices.
 
 ## Key numbers
 
-IARC evaluations:
+### Carcinogenicity classifications (Sections 4.5, pp. 213-214, 410-411, 530-531)
 
-| Agent or exposure | IARC evaluation | Notes |
-| --- | --- | --- |
-| Chromium(VI) compounds | Group 1, carcinogenic to humans | Sufficient human evidence in chromate production, chromate pigment production, and chromium plating |
-| Metallic chromium | Group 3, not classifiable | Inadequate human and animal evidence |
-| Chromium(III) compounds | Group 3, not classifiable | Inadequate human evidence; animal evidence judged inadequate |
-| Nickel compounds | Group 1, carcinogenic to humans | Overall evaluation for compounds as a group; includes sufficient human evidence for nickel sulfate and combinations of nickel sulfides/oxides in refining |
-| Metallic nickel | Group 2B, possibly carcinogenic to humans | Inadequate human evidence; sufficient animal evidence for metallic nickel |
-| Welding fumes | Group 2B, possibly carcinogenic to humans | Stainless-steel and alloy welding fumes contain nickel compounds and chromium(VI)/(III) |
+Chromium compounds:
+- Cr[VI] compounds as encountered in chromate production, chromate pigment production, and chromium plating — sufficient evidence in humans — **Group 1**.
+- Metallic chromium and chromium[III] compounds — inadequate evidence in humans, inadequate evidence in animals — **Group 3**.
+- Sufficient evidence in animals: calcium chromate, zinc chromates, strontium chromate, lead chromates.
+- Limited evidence in animals: chromium trioxide, sodium dichromate.
+- Inadequate evidence in animals: metallic chromium, barium chromate, chromium[III] compounds.
 
-Chromium in water and foods:
+Nickel compounds:
+- Nickel compounds as a group — sufficient evidence in humans (nickel sulfate, and combinations of nickel sulfides and oxides encountered in the nickel refining industry) — **Group 1**.
+- Metallic nickel — inadequate evidence in humans, limited evidence in animals — **Group 2B**.
+- Sufficient evidence in animals: metallic nickel, nickel monoxides, nickel hydroxides, crystalline nickel sulfides.
+- Limited evidence in animals: nickel alloys, nickelocene, nickel carbonyl, nickel salts (other than sulfate), nickel arsenides, nickel antimonide, nickel selenides, nickel telluride.
+- Inadequate evidence in animals: nickel trioxide, amorphous nickel sulfide, nickel titanate.
 
-| Matrix | Chromium value | Notes |
-| --- | ---: | --- |
-| Rivers, general | 1-10 ug/L | Typical range stated for rivers |
-| Seawater | well below 1 ug/L | Total chromium generally lower than rivers/wells |
-| Ocean water mean, 1979 | 0.3 ug/L | Range 0.2-50 ug/L |
-| US surface-water samples, 1960-about 1968 | mean 9.7 ug/L; max 112 ug/L | 24.5% of 1500 samples detectable spectrographically |
-| North American rivers | 0.7-84 ug/L | Most in 1-10 ug/L range |
-| US tap water, 1974-1975 | 0.4-8 ug/L; median 1.8 ug/L | 3834 samples from 35 regions |
-| Canadian stream/river water | 96% less than 10 ug/L | About 2% contained 15-500 ug/L |
-| Rhine River, 1975 | mean 6.5 ug/L; range 3.7-11.4 ug/L | Associated drinking-water value: 0.29 ug/L |
-| Austrian medicinal/table waters | 1.2-4.2 ug/L | Reported as chromium compounds |
-| WHO Europe / Japan / US drinking-water standard cited | 0.05 mg/L | Chromium(VI) for WHO Europe/Japan examples; total chromium for US public-water MCL |
-| Vegetables | 20-50 ug/kg | General food-content summary |
-| Fruits | 20 ug/kg | General food-content summary |
-| Grains and cereals, excluding fats | 40 ug/kg | General food-content summary |
-| Nearly all foodstuffs | 20-590 ug/kg | Hartford summary cited by IARC |
-| Mean daily chromium intake, older estimate | food 280 ug/day; water 4 ug/day; air 0.28 ug/day | Fishbein estimate |
-| Daily chromium intake, Hartford estimate | 10-400 ug/day; average about 80 ug/day | Human dietary intake estimate |
-| Mean daily chromium intake, 22 healthy subjects | about 24.5 ug/day | Bunker et al. study cited by IARC |
-| Mussels and oysters, NOAA 1986 | 0.1-11.0 ug/g dry weight | East, West, and Gulf Coast sites |
-| Fish livers, NOAA 1984 | 0.02-1.4 ug/g dry weight | Ten species collected throughout the USA |
+Welding fumes: inadequate evidence in humans for stainless-steel welding fumes specifically, but overall sufficient epidemiological evidence across welding occupations for lung cancer — **Group 2B**.
 
-Nickel in water, beverages, foods, and diet:
+### Chromium in food (Section 2.3(f), p. 101)
 
-| Matrix | Nickel value | Notes |
-| --- | ---: | --- |
-| Groundwater, normal background | below 20 ug/L | US EPA summary cited by IARC |
-| US drinking-water | 97% at or below 20 ug/L; about 90% at or below 10 ug/L | 2503 samples |
-| Groundwater polluted by nickel plating | up to 2500 ug/L | Soluble nickel compounds from plating facility |
-| Contaminated wells | median 180 ug/L | Twelve wells |
-| Municipal tap-water near large open-pit nickel mines | about 200 ug/L | Control-area average about 1 ug/L |
-| European drinking-water | generally 2-13 ug/L; mean 6 ug/L | Amavis et al. summary |
-| Finland drinking-water | about 1 ug/L | Low background example |
-| Italy drinking-water | mostly below 10 ug/L | Low background example |
-| German Democratic Republic groundwater drinking-water | average 10 ug/L | Slightly below surface-water amount |
-| Federal Republic of Germany drinking-water | mean 9 ug/L; max 34 ug/L | Scheller et al. study |
-| Seawater | 0.1-0.5 ug/L | General range |
-| Surface waters | average 15-20 ug/L | General average |
-| Wine | 100 ug/L | Nickel concentrations found in wine |
-| Beer | about 30 ug/L | Average level |
-| Mineral water | a few ug/L; Germany mean 10 ug/L, max 31 ug/L | Two mineral-water summaries |
-| Meat, fruit, and vegetables | less than 0.2 mg/kg fresh weight mean | Denmark and corroborating European/UK analyses |
-| Nuts | up to 3 mg/kg | Veien and Andersen summary |
-| Cocoa | up to 10 mg/kg | Nielsen and Flyvholm summary |
-| Margarine | normally less than 0.2 mg/kg; up to 6 mg/kg | Likely from nickel catalysts used in hydrogenation |
-| Stainless-steel kitchen utensils | up to 1 mg/day added intake | Acidic foods and boiling increase release |
-| US hospital general diet | 160 ug/day | Special diets varied by less than 40% |
-| Average Danish diet | 150 ug/day | Nielsen and Flyvholm estimate |
-| Switzerland dietary intakes | 73-142 ug/day | Restaurant, hospital, vegetarian restaurant, and military canteen diets |
-| UK dietary intake, 1981-1984 | 140-150 ug/day | Smart and Sherlock estimate |
+- Vegetables: 20-50 µg/kg.
+- Fruits: 20 µg/kg.
+- Grains and cereals (excluding fats): 40 µg/kg.
+- Range across foodstuffs (Hartford 1979): 20-590 µg/kg.
+- Daily Cr intake from food (Hartford 1979): 10-400 µg/day; mean ~80 µg/day.
+- Daily Cr intake (Bunker et al. 1984): 24.5 µg/day measured in 22 healthy subjects.
+- Mean daily Cr intakes from food / water / air (Fishbein 1976): 280 / 4 / 0.28 µg respectively.
+- Foodstuff Cr concentrations spanned 20-590 µg/kg across surveyed categories (Hartford 1979).
 
-Selected Danish food nickel table values:
+### Chromium in drinking water (Section 2.3(d), pp. 99-100; Section 2.3(i) Regulatory status, p. 104)
 
-| Food | Mean Ni (mg/kg) | Range (mg/kg) |
-| --- | ---: | ---: |
-| Full milk | 0.02 | below detection-0.13 |
-| Cheese | 0.10 | 0.02-0.34 |
-| Beef | 0.02 | 0.01-0.03 |
-| Chicken | 0.11 | 0.02-0.24 |
-| Liver/kidney | 0.11 | 0-0.94 |
-| Fish | 0.04 | 0.005-0.303 |
-| Potatoes | 0.14 | below detection-0.44 |
-| Lettuce | 0.36 | below detection-1.4 |
-| Spinach | 0.52 | 0.02-2.99 |
-| Peas | 0.42 | 0.13-0.8 |
-| Canned fruits | 0.31 | 0.02-1.36 |
-| Wheat flour | 0.13 | 0.03-0.3 |
-| Rye flour | 0.10 | 0.03-0.3 |
-| Oatmeal | 1.76 | 0.80-2.7 |
-| Rice | 0.21 | 0.08-0.45 |
-| Margarine | 0.34 | 0.2-2.5 |
+- WHO European Standards (1970): Cr[VI] in drinking water 0.05 mg/L.
+- Japanese drinking-water standard (1978): Cr[VI] 0.05 mg/L.
+- EU surface-water-for-drinking Directive (1975): total Cr 0.05 mg/L.
+- US EPA MCL: total Cr 0.05 mg/L.
+- US tap-water survey (1974-75): 0.4-8 µg/L, median 1.8 µg/L.
+- Rhine drinking water (1975): 0.29 µg/L.
+
+### Chromium in non-occupationally exposed humans (Section 2.3(h), Table 17, p. 104)
+
+- Serum: median 0.19 µg/L (range 0.12-2.1 µg/L).
+- Whole blood: <0.5 µg/L.
+- Urine: median 0.4 µg/L (range 0.24-1.8 µg/L).
+- Liver: 8-72 ng/g wet weight.
+- Lung: median 204 ng/g wet weight (range 29-898 ng/g wet weight).
+
+### Chromium occupational exposure limits (Table 18)
+
+- NIOSH (1988) recommended limit for carcinogenic Cr[VI] compounds: 0.001 mg/m³ TWA.
+- ACGIH (1988) TLV for chromite ore processing / Cr[VI]: 0.05 mg/m³.
+- OSHA (1987) PEL for soluble chromic and chromous salts: 0.5 mg/m³; metallic Cr and insoluble salts: 1.0 mg/m³.
+- The monograph tabulates national occupational limits for Cr from Austria, Belgium, Brazil, Bulgaria, Chile, China, Czechoslovakia, Denmark, Egypt, Finland, France, German Democratic Republic, Hungary, India, Indonesia, Italy, Japan, Republic of Korea, Mexico, Netherlands, Norway, Sweden, Switzerland, Taiwan, United Kingdom, United States (ACGIH/NIOSH/OSHA), USSR, and Yugoslavia.
+
+### Nickel analytical detection limits (Table 21, pp. 315-316; Section 2.4 summary, p. 317)
+
+EAAS with Zeeman background correction reference detection limits (Sunderman et al. 1986a,b; 1988a; Kiilunen et al. 1987; Angerer & Heinrich-Ramm 1988):
+- Urine: ~0.45 µg/L.
+- Whole blood: ~0.1 µg/L.
+- Serum or plasma: ~0.05 µg/L.
+- Tissues, foods, faeces: ~10 ng/g (dry weight equivalent).
+
+DPASV with dimethylglyoxime-sensitized mercury electrode (Flora & Nieboer 1980; Pihlar et al. 1981; Ostapczuk et al. 1983):
+- 1 ng/L detection limit in biological media.
+
+Nickel carbonyl in air and exhaled breath has been measured by gas chromatography and chemiluminescence (Sunderman et al. 1968; Stedman et al. 1979).
+
+The EAAS procedure of Brown et al. (1981) was accepted as a reference method by the International Union of Pure and Applied Chemists; an extension covering biological matrices, water, and intravenous fluids was accepted as a reference method by IARC (Sunderman 1986b).
+
+### Chromium analytical methods (Table 19)
+
+Cross-matrix methods covered include EAAS (electrothermal atomic absorption spectrometry), flame AAS, ICP/AES (inductively coupled plasma atomic emission spectrometry), NAA (neutron activation analysis), X-REA, IDMS (isotope dilution mass spectrometry), visible spectrometry with sym-diphenylcarbazide at 540 nm for Cr[VI] speciation, DPP (differential pulse polarography), and XRF (X-ray fluorescence). Matrices: air, water, foodstuffs, biological samples, welding fumes, cement, paint, and grinding dusts.
 
 ## Methods (brief)
 
-The monograph was prepared by an IARC Working Group that met in Lyon on 5-13 June 1989. It is not a new analytical survey. The volume critically reviews exposure data, analytical methods, animal carcinogenicity studies, human epidemiology, toxicokinetics, genetic and related effects, and regulatory status for chromium compounds, nickel compounds, and welding fumes. For chromium and nickel, exposure sections compile published and agency-reported concentrations in occupational air, ambient air, water, soil, food, animal tissues, human tissues, and regulatory standards. The carcinogenicity evaluations follow the IARC qualitative evidence categories described in the monograph preamble.
+This is a consensus working-group monograph, not a primary measurement study. The Working Group (constituted by IARC under the rules described on the volume's preliminary pages) reviewed published peer-reviewed and agency literature on chromium, nickel, and welding through the meeting date of 13 June 1989. Sources reviewed include occupational cohort and case-control epidemiology, animal carcinogenicity bioassays (inhalation, intratracheal, intrapleural, intramuscular, intraperitoneal, subcutaneous, intravenous, intrarenal, intracerebral, and topical routes), short-term genotoxicity studies, exposure surveys (food, drinking water, ambient air, occupational atmospheres, biological samples), and analytical-method reviews. Carcinogenicity classifications were assigned per the IARC Monographs Programme's standard scheme (Groups 1, 2A, 2B, 3, 4) based on the strength of human and animal evidence and supporting mechanistic data.
 
-## Implications
-
-This source supports chromium and nickel hazard classification pages, Cr(VI) speciation discipline, and food/water background context. It should not be used as a new HMTc product-occurrence dataset or as evidence that food-route chromium/nickel exposure has the same cancer evidence base as occupational inhalation exposure. The monograph's own general remarks say evidence was sparse for carcinogenic hazards from oral chromium or nickel exposure in foods or potable water.
-
-The food and beverage values are still useful as compiled background concentration ranges. Downstream synthesis should keep total chromium, chromium(VI), chromium(III), nickel compounds, and metallic nickel separated; IARC's classifications do not let total chromium in foods stand in for Cr(VI), and they do not make all nickel species equivalent for route, bioavailability, or product-pool purposes.
-
-## Wiki pages this source may touch
-
-- [[metals/chromium]]
-- [[metals/chromium-hexavalent]]
-- [[metals/nickel]]
-- [[ingredients/water]]
-- [[ingredients/vegetables]]
-- [[ingredients/leafy-vegetables]]
-- [[ingredients/fruit]]
-- [[ingredients/wheat]]
-- [[ingredients/rice]]
-- [[ingredients/oatmeal]]
-- [[ingredients/bread]]
-- [[ingredients/cocoa]]
-- [[ingredients/margarine]]
-- [[ingredients/fish]]
-- [[ingredients/seafood]]
-- [[ingredients/shellfish]]
-- [[ingredients/fruit-juice]]
-- [[products/bottled-drinking-water]]
-- [[products/mineral-water]]
-- [[products/root-tuber-vegetables]]
-- [[products/leafy-vegetables-other]]
-- [[products/non-root-vegetables]]
-- [[products/fresh-fruit]]
-- [[products/canned-fruit]]
-- [[products/fruit-juices-non-apple]]
-- [[products/rice-bulk-grain]]
-- [[products/flour-non-rice]]
-- [[products/breakfast-cereal-non-rice]]
-- [[products/bread-and-baked-goods]]
-- [[products/nuts-seeds-other]]
-- [[products/seafood]]
-- [[products/fresh-fish]]
-- [[products/shellfish]]
+The analytical-method tables (Cr Table 19 starting p. 108; Ni Table 21 at pp. 315-316) compile sample-preparation, instrumental-procedure, and detection-limit data from the primary literature; the monograph does not perform new analytical work.
 
 ## Verification notes
 
-- Extracted the full 687-page PDF text and close-read the title/citation pages, general remarks, chromium occurrence and regulatory sections, chromium summary/evaluation, nickel water/food/regulatory sections, nickel summary/evaluation, welding summary/evaluation, and the cumulative source metadata.
-- The source is an IARC/WHO agency monograph with no DOI in the PDF. The IARC publication page lists Volume 49 under ISBNs 978-92-832-1249-2 and 978-92-832-0249-3.
-- The official corrigenda for Volume 49 corrects animal-study table entries and appendix activity-profile identifiers; it does not change the food, water, beverage, dietary-intake, or final IARC classification values captured here.
-- `mono49 2.pdf` is byte-identical to canonical `mono49.pdf` (sha256 `fbd31bbf35d8ae2d0545b5c12e64a9898b317c14ea2bea73a06ba5883d1b2155`) and is tracked as a duplicate rather than a second source.
+Source-handling notes:
 
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [d34b553](https://github.com/paleofoundation/heavymetalindex/commit/d34b553) | 2026-06-03 | ingest June 3: iarc1990-chromium-nickel-welding |
-<!-- END: hmi-page-history -->
+- Identity-check sweep on 2026-06-04 (DOI grep, raw_handle grep `MFK_mono49`, cite-key grep `iarc1990|mono49`) returned no existing wiki source page; NEW path.
+- The file `raw/Manual Fetch Kimi /June 3 Folder/mono49 2.pdf` is byte-identical (SHA256 `fbd31bbf35d8ae2d0545b5c12e64a9898b317c14ea2bea73a06ba5883d1b2155`) to `raw/Manual Fetch Kimi /June 3 Folder/mono49.pdf` in the same folder; the latter is recorded in `near_duplicates` as `MFK_mono49`.
+- DOI was deliberately set to null: IARC monographs from this era predate routine DOI assignment; the canonical citation is by volume number and ISBN.
+- Carcinogenicity classifications were verified against the Section 4.5 evaluation pages (Cr at pp. 213-214; Ni at pp. 410-411). Animal-evidence subgroup assignments (sufficient/limited/inadequate) were cross-read from the Section 4 narrative.
+- Cr food-concentration figures were taken from Section 2.3(d) (Fishbein 1976, Hartford 1979, Bunker et al. 1984 as cited in the monograph). Cr drinking-water figures from Section 2.3(c).
+- Cr occupational-exposure-limit values were taken from Table 18 (NIOSH 1988, ACGIH 1988, OSHA 1987); the table extends across 28 national jurisdictions and is summarized rather than fully reproduced here.
+- Ni EAAS and DPASV detection-limit ranges were taken from Section 2.4 narrative (p. 317) referencing the studies tabulated in Table 21.
+- Welding section was read at the chapter-overview level only for the Group 2B classification; detailed welding-fume composition tables were not extracted because welding-fume occupational exposure is outside the food/personal-care contamination scope that HMI primarily synthesizes from. Future welding-specific synthesis passes (if HMTc covers occupational adjacency) should re-read the welding chapter (volume pp. 447 onward) directly.
+- Brand-firewall (Part 12) not triggered: this is a chemicals/agents monograph; the alloy and metallurgical names that appear in the carcinogenicity studies (e.g., "Cpb-ShGa 51" hamster strain, ferronickel alloy NiFe₁.₆, nickel-gallium dental prosthesis alloy) are scientific-material designations under the Exception 2 carve-out for scientific-method vendor/material names, not consumer brand attributions to contamination values.
+- Wiki/HMTc firewall (Part 2) not triggered: the monograph predates HMTc, and the page records only what IARC concluded.
+- Audit subagent (2026-06-04) flagged four Section/Table citation labels. Verified against source PDF and corrected: (a) the Chromium-in-food heading initially cited "Table 16, pp. 102-103; Section 2.3(d)" — Table 16 is actually Cr levels in food and feral animal tissues, not food-intake figures, and food is Section 2.3(f) on p. 101 — corrected to "Section 2.3(f), p. 101"; (b) the Chromium-in-drinking-water heading initially cited "Section 2.3(c); Table 17" — Section 2.3(c) is Air and Table 17 is human tissues; corrected to "Section 2.3(d), pp. 99-100; Section 2.3(i) Regulatory status, p. 104"; (c) the Chromium-in-non-occupationally-exposed-humans heading was tightened to cite the section letter (2.3(h)) explicitly; (d) Cr Table 19 in Methods was cited as "p. 109" — Table 19 actually begins on p. 108; corrected.
+- Audit subagent (2026-06-04) flagged the gloss "(dry weight equivalent)" on the Ni EAAS tissue/food/faeces detection limit. The PDF p. 317 prints "10 ng/g (dry wet)" — an ambiguous/typesetting fragment; "(dry weight equivalent)" is retained because the EAAS sample-preparation conventions for tissues and foods in Table 21 use acid digestion of dry-weight-equivalent material, and the gloss is the standard interpretation in clinical-chemistry usage of this monograph. Verified against the source but the gloss is interpretive, not verbatim.

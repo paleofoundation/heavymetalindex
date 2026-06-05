@@ -64,13 +64,3 @@ Microbiome (if applicable): The paper reports microbial counts for suya and pepp
 ## Verification notes
 
 The PDF title, byline, DOI, year, journal, methods, and Table 5 values were read from the auto-fetched PDF. The routeable metals are total Pb, Cd, Cr, and Ni as reported by AAS; the source does not provide chromium speciation and does not report whether Pb non-detects reflect a specific detection limit.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [728e9b4](https://github.com/paleofoundation/heavymetalindex/commit/728e9b4) | 2026-06-03 | ingest auto-fetched 2026-06-03: adams2017-nigerian-processed-spices-metals |
-<!-- END: hmi-page-history -->

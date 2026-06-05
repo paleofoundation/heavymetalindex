@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/car-seats",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "68b6ed2e1d7cee6a7898cccc67a1a1e3b1f7daa15416900581fefe553504985a",
-      "content_bytes": 9216,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "7bf7f7cb6139cd6dec6d587bf3e1f160c83a14a17756a0b4adc8375612d9c119",
+      "content_bytes": 9213,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/car-seats.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/car-seats.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "ef5e3db74819b2dfd6430b00353b1cb673eb76a8c3b34de1a74fd9b2101540af",
-          "content_bytes": 59462,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "01d473df4008624112e8b94dab0cc5810244592263abcbdc551db479e1af1a5a",
+          "content_bytes": 59313,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -67,12 +67,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature",
         "content_pin": {
-          "content_sha256": "ea72f1d320f252778c3e9efbbffaab40bdcd6c7c5a0a158f2850ac0440444bc7",
-          "content_bytes": 38678,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "4caebda8be2d4acba215c079aa52071af24e5dd8206d179d4774f08a8136e9fb",
+          "content_bytes": 38529,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature.md | sha256sum"
         }
       },
       {
@@ -87,12 +87,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kjolholt2015-car-safety-seats-childrens-textiles",
         "content_pin": {
-          "content_sha256": "07c950b7699995ff1dbc2ec953c3b7d7847f938f0964ac36c77f5809374438a3",
-          "content_bytes": 13962,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "1d1b5a479da15d6394059df2e5136b9dbe590a5330c78fd2a28244f76ef1ee57",
+          "content_bytes": 13813,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/kjolholt2015-car-safety-seats-childrens-textiles.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/kjolholt2015-car-safety-seats-childrens-textiles.md | sha256sum"
         }
       },
       {
@@ -105,12 +105,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/stapleton2010-flame-retardants-baby-product-foam",
         "content_pin": {
-          "content_sha256": "3626747f31c6fbddae317a9184c948744b06f82b6b2a0f6ea03590a69111e87d",
-          "content_bytes": 18901,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "dd1b0b32c77323e4a0ebc80bfda057b6a79f361b933c1a2cb2d6ba8f5d678069",
+          "content_bytes": 18752,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/stapleton2010-flame-retardants-baby-product-foam.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/stapleton2010-flame-retardants-baby-product-foam.md | sha256sum"
         }
       }
     ]

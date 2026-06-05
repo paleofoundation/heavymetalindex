@@ -72,13 +72,3 @@ App: The source can support explanatory nickel-health context for [[metals/nicke
 ## Verification notes
 
 The PDF was read in full from the June 3 manual-fetch folder. Page count is 5. `pdftotext` captured the narrative values and references; the inhalation-exposure figure was additionally checked from a rendered page image because several chart labels are embedded visually. The raw filename misspells nickel as `nickle-compounds.pdf`; the document title is "Nickel Compounds" and the cite-key uses the corrected title. No DOI is assigned. The duplicate file `raw/Manual Fetch Kimi /June 3 Folder/nickle-compounds 2.pdf` is byte-identical and is recorded in the tracker as a duplicate, not a separate source.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [6228c19](https://github.com/paleofoundation/heavymetalindex/commit/6228c19) | 2026-06-03 | ingest June 3: epa2000-nickel-compounds-hazard-summary |
-<!-- END: hmi-page-history -->

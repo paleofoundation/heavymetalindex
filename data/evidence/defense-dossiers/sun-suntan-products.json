@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/sun-suntan-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8fc81c24d6a747dfff15285fe08707ba1cfa2c624c1d13bbd1919753815be242",
-      "content_bytes": 11568,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "76a71e63e37dd725aec8d3dbad85d70b42f4655b4e95feff0ca193b507f0031c",
+      "content_bytes": 10944,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/sun-suntan-products.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/sun-suntan-products.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 10,
+    "contributing_source_count": 8,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alblooshi2025-perfumes-cosmetics-health-review",
         "content_pin": {
-          "content_sha256": "2a1b9c79c6ac721bc269a5e7f2da988e3901df699b1758d7fecd1bd92cadd646",
-          "content_bytes": 14627,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "87035b793517ad58dca5d2f5a1e0459fe80da2eb3c9e316f369654e89f71cc5c",
+          "content_bytes": 14478,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/alblooshi2025-perfumes-cosmetics-health-review.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/alblooshi2025-perfumes-cosmetics-health-review.md | sha256sum"
         }
       },
       {
@@ -77,12 +77,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "b938b905fde49ecb5dd84ae51a7aa9a15f95bf2aa8a8b7ce15647ee036bec0eb",
-          "content_bytes": 35176,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "a1ca3dc43068fd46da1aee695b32e191317e5e0cd22446839a6abf4b2d8eeeb8",
+          "content_bytes": 35173,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -102,12 +102,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms",
         "content_pin": {
-          "content_sha256": "cb3bcfc73ffda7c1c0b0360858adca328d727b882960778ad776ad48111fa781",
-          "content_bytes": 27875,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "18e536f6200843d8dd784e253c2698fa6dbf0308d00afc9c058accdac9a5d01d",
+          "content_bytes": 27872,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms.md | sha256sum"
         }
       },
       {
@@ -131,32 +131,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bashir2025-heavy-metals-cosmetics-kashmir",
         "content_pin": {
-          "content_sha256": "1cec3e02f4e88d16f3d9ef8429d258f33fbe92e3ec7fdcfae95e3182e2a93f6d",
-          "content_bytes": 28218,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "24bfe7f537560a0e547454478b2c5692e17960ef134b9356a1767cdf3627561f",
+          "content_bytes": 28215,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/bashir2025-heavy-metals-cosmetics-kashmir.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/bfr2020-aluminium-faq-consumer-products",
-        "title": "FAQs about aluminium in food and products intended for consumers",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "Al"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/bfr2020-aluminium-faq-consumer-products",
-        "content_pin": {
-          "content_sha256": "2e91013fdd27a485a6aa2e6211078c2a75ca947b7d8e4b99115960c4a4c04a39",
-          "content_bytes": 14289,
-          "last_commit_sha": "0123eaf",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 0123eaf:wiki/sources/bfr2020-aluminium-faq-consumer-products.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/bashir2025-heavy-metals-cosmetics-kashmir.md | sha256sum"
         }
       },
       {
@@ -177,12 +157,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "ea78be8142724477df8f4407b4f659c8051797158562f0a1ea3453678eefb153",
-          "content_bytes": 28945,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "d8e723e72eefc353ca22e6f4fbe3fe9b0ac0972e7da06573f77ce35fbd74ec23",
+          "content_bytes": 28942,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
         }
       },
       {
@@ -201,12 +181,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/opss2023-feasibility-action-limits-cosmetics-uk",
         "content_pin": {
-          "content_sha256": "d14002b8242e8044f24b75a8d82fbf9902744489fa8d81c7f9c0d669bd62385d",
-          "content_bytes": 28203,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "7d588ccf4c102d7e2ca5b33b122918923f9f64ddcc867a2cfda77c149e6ad769",
+          "content_bytes": 28200,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
         }
       },
       {
@@ -222,36 +202,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ruszkiewicz2017-sunscreen-uv-filter-neurotoxicity-review",
         "content_pin": {
-          "content_sha256": "89ea12420dbb503cf83d0234b4e6604a901e2c2367968cb0c9583de1de59065e",
-          "content_bytes": 36580,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "a4d2037b20cde9c52a33ec58b7ab5ec1970351319c8411e9182b8afa1f4cb1a4",
+          "content_bytes": 36431,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/ruszkiewicz2017-sunscreen-uv-filter-neurotoxicity-review.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
-        "title": "Sources of contaminants in domestic wastewater: nutrients and additional elements from household products",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "Sb",
-          "Cr",
-          "Co",
-          "Mo",
-          "Se"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
-        "content_pin": {
-          "content_sha256": "71c6bf53a66d9996f89ede7057c878a04fff36d5ebae1aee0fdb12af05402634",
-          "content_bytes": 31334,
-          "last_commit_sha": "a7df828",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show a7df828:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/ruszkiewicz2017-sunscreen-uv-filter-neurotoxicity-review.md | sha256sum"
         }
       },
       {
@@ -264,12 +220,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "c75179b93ae603e97c891c147d9affeb8ce2ffc636f5a025210f8fb82d399540",
-          "content_bytes": 31115,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "427273f75081fa544d566bb65cd9a87e0fcd773957452c41bd3fca02ef8d64ff",
+          "content_bytes": 30966,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       }
     ]

@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-03T13:06:36.530Z
+updated: 2026-06-05T01:46:13.564Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -29,14 +29,14 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Component | State |
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
-| auto-fetched/ PDFs in queue | 451 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 1 ✅ |
-| Audit queue: pending-audit-spawn-failed | 95 (async lane) |
-| Wishlist: total downloaded historically | 8 |
+| auto-fetched/ PDFs in queue | 491 (fresh work for Codex/daemon ingest) |
+| Audit queue: pending | 2 ✅ |
+| Audit queue: pending-audit-spawn-failed | 96 (async lane) |
+| Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
-| Commits last 1 hour | 20 |
-| Commits last 24 hours | 341 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 2 |
+| Commits last 24 hours | 43 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-dfdb5ef 7 minutes ago — fix(data): add EU 2023/915 inorganic-tin 200/100 mg/kg rows to regulatory_limits.csv
+84e8b5f 21 minutes ago — codex fire 2026-06-05: no unclaimed auto-fetched PDFs
 ```
 
 ## How to read this

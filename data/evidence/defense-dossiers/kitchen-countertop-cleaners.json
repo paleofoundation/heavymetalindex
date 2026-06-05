@@ -17,143 +17,18 @@
     "canonical_url": "https://heavymetalindex.com/products/kitchen-countertop-cleaners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c6344a79fcd2c416e43b43f4b062df12a38cc8b67e3ff7b35c9cb4e3b698f935",
-      "content_bytes": 12623,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "44d8f6b6bc94e3bf72af827a8b699c6a8b78bf87f5b59f7c2b1f33b6c78b8490",
+      "content_bytes": 7327,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/kitchen-countertop-cleaners.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/kitchen-countertop-cleaners.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 6,
+    "contributing_source_count": 0,
     "sources_with_structured_values": 0,
-    "contributing_sources": [
-      {
-        "slug": "sources/ec2024-eu-ecolabel-user-manual-detergents",
-        "title": "EU Ecolabel User Manual for Detergents and Cleaning Products (Version 1.5, February 2024) — guidance supporting Commission Decisions (EU) 2017/1214, 2017/1215, 2017/1216, 2017/1217, 2017/1218 and 2017/1219",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "[[metals/silver]]"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/ec2024-eu-ecolabel-user-manual-detergents",
-        "content_pin": {
-          "content_sha256": "4fad3d473c193d4007cf6d739a67a5425a1674b147fcdcb09b5d3370683837e7",
-          "content_bytes": 48132,
-          "last_commit_sha": "ea94694",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ea94694:wiki/sources/ec2024-eu-ecolabel-user-manual-detergents.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/epa2024-safer-choice-master-criteria-ingredients",
-        "title": "EPA's Safer Choice Program — Master Criteria for Safer Ingredients (Version 2.1, October 2024)",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [],
-        "canonical_url": "https://heavymetalindex.com/sources/epa2024-safer-choice-master-criteria-ingredients",
-        "content_pin": {
-          "content_sha256": "f9a9f40caef0aefdf3a394f4e79c4939062f4318dde5d5c7610c0c07856b7ebc",
-          "content_bytes": 29306,
-          "last_commit_sha": "07ff4c7",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 07ff4c7:wiki/sources/epa2024-safer-choice-master-criteria-ingredients.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/epa2024-safer-choice-standard-dfe",
-        "title": "EPA's Safer Choice and Design for the Environment (DfE) Standard (August 2024)",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "Cd",
-          "Pb",
-          "Hg",
-          "Cr-VI"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/epa2024-safer-choice-standard-dfe",
-        "content_pin": {
-          "content_sha256": "8311f2d8e1b4fa11fef99399d022442007e4bf99d06678e3fb566eb554438948",
-          "content_bytes": 31945,
-          "last_commit_sha": "8eb4751",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8eb4751:wiki/sources/epa2024-safer-choice-standard-dfe.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2",
-        "title": "Revision of the EU Ecolabel criteria for Detergent and Cleaning Products — 2nd Ad-hoc Working Group Meeting (12-13 March 2025), Technical Report 2 (TR2) consultation deck",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "[[metals/mercury]]"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2",
-        "content_pin": {
-          "content_sha256": "199355a69dd3e4eed9c58c6ea64ba56f4a06f273cdbaa83b7c51b1dd543875d2",
-          "content_bytes": 46260,
-          "last_commit_sha": "7fa5634",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 7fa5634:wiki/sources/jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/nydec2020-cleansing-product-disclosure-bmp",
-        "title": "Cleansing Product Information Disclosure Program — Recommended Best Management Practices",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "Pb",
-          "Cd",
-          "tAs",
-          "tHg",
-          "Cr-VI",
-          "Ni"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
-        "content_pin": {
-          "content_sha256": "060e23ac265329cd97139e062188a861c3219dec6444dce1bd56f85fef7adc6e",
-          "content_bytes": 48581,
-          "last_commit_sha": "d99267a",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show d99267a:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/ral2024-eu-ecolabel-factsheet-household-detergents",
-        "title": "The EU Ecolabel for household detergents — The EU Ecolabel is the official European Union label for environmental excellence",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [],
-        "canonical_url": "https://heavymetalindex.com/sources/ral2024-eu-ecolabel-factsheet-household-detergents",
-        "content_pin": {
-          "content_sha256": "8bacdaa6b72ff424b751ae1f75ee60c5d808ab3534ae2732f6aab66c9ebdbdd6",
-          "content_bytes": 25178,
-          "last_commit_sha": "1874ca3",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1874ca3:wiki/sources/ral2024-eu-ecolabel-factsheet-household-detergents.md | sha256sum"
-        }
-      }
-    ]
+    "contributing_sources": []
   },
   "regulatory_caps": {
     "declared_count": 0,

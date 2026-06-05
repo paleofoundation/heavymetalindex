@@ -103,6 +103,5 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [96715ef](https://github.com/paleofoundation/heavymetalindex/commit/96715ef) | 2026-06-02 | ingest June 2: mehanathan2023-magnesium-oxide-arsenate-remediation |
 <!-- END: hmi-page-history -->

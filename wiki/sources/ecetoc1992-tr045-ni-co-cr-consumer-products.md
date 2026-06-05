@@ -205,7 +205,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [c036da0](https://github.com/paleofoundation/heavymetalindex/commit/c036da0) | 2026-06-02 | audit: ecetoc1992-tr045-ni-co-cr-consumer-products revised |
 | [7984e0a](https://github.com/paleofoundation/heavymetalindex/commit/7984e0a) | 2026-06-02 | ingest: ecetoc1992-tr045-ni-co-cr-consumer-products fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/01_AP_Countertop_Tile_Floor |
 <!-- END: hmi-page-history -->

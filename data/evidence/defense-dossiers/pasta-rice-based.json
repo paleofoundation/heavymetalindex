@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pasta-rice-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "324f19e4c22e7c3f38457fa7b3ba4c9de7268d8fccbca5ee1c4085eb69f67f58",
-      "content_bytes": 7201,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "85dc7dab0164a982e0350f83bf05334455f41bbd132e83d4f9a3cfd462c7c187",
+      "content_bytes": 7198,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/pasta-rice-based.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/pasta-rice-based.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -32,7 +32,7 @@ The EFSA CONTAM Panel update of the risk assessment of nickel in food and drinki
 
 The assessment's central regulatory conclusion is an exceedance: estimated chronic dietary nickel exposure exceeds the TDI in the youngest consumers. The 95th-percentile chronic exposure generally exceeded the TDI in toddlers and other children, and in infants in some surveys, while remaining below or at the TDI in adolescents and adults. The Panel concluded this exceedance may raise health concerns in those young age groups, noting that even though the post-implantation-loss endpoint that anchors the TDI is not itself relevant to children, the TDI is also protective for effects that are, such as neurotoxic effects. For the roughly 15 percent of the population who are nickel-sensitized, the margin of exposure of 30 needed to protect against acute eczematous flare-up reactions (systemic contact dermatitis) is not achieved at mean or 95th-percentile exposure, which the Panel concluded raises an acute health concern. This exceedance is the scientific basis the European Commission cited when it set maximum levels for nickel in food and issued [[regulations/eu-2024-907-nickel-monitoring|Commission Recommendation (EU) 2024/907]] directing Member States to monitor nickel across chocolate, cereals, tea, soy, nuts and other high-nickel foods through 2027.
 
-_Provenance note (2026-06-03): the canonical ingested PDF is at the `raw_path` above (sha256 dd04aab…). A second identical copy of this opinion was supplied 2026-06-03 at `raw/Manual Fetch Kimi /June 3 Folder/EFS2-18-e06268.pdf` (sha256 b83f35fd…); it is the same EFSA Journal 2020;18(11):6268 and required no separate ingest._
+_Provenance note (2026-06-03): the canonical ingested PDF is at the `raw_path` above (sha256 dd04aab…). Two further identical copies of this opinion were supplied 2026-06-03 in the June 3 manual-fetch batch — `raw/Manual Fetch Kimi /June 3 Folder/EFS2-18-e06268.pdf` (sha256 b83f35fd…) and `raw/Manual Fetch Kimi /June 3 Folder/EFSA Journal - 2020 -  - Update of the risk assessment of nickel in food and drinking water 2.pdf` (sha256 a7dac274…). Both are the same EFSA Journal 2020;18(11):6268 and required no separate ingest._
 
 | Parameter | Value |
 | --- | --- |
@@ -52,6 +52,11 @@ _Provenance note (2026-06-03): the canonical ingested PDF is at the `raw_path` a
 - [[metals/nickel]]
 - [[regulations/efsa-nickel-tdi]]
 
+## Verification notes
+
+- Audit subagent (2026-06-03) flagged the "~15%" nickel-sensitised-prevalence framing as not anchored on the pages it read (pp. 1, 3–6); verified false positive against the source — the paper itself states "Nickel allergic contact dermatitis has a prevalence of around 15% in the EU, Asia and the USA" (EFSA 2020;18(11):6268, p. 65 of the assessment body, sensitisation prevalence chapter). The wiki summary is faithful to the source.
+- Audit subagent (2026-06-03) flagged `[[regulations/eu-2024-907-nickel-monitoring]]` as a forward reference not in the taxonomy snapshot; verified false positive — the page `wiki/regulations/eu-2024-907-nickel-monitoring.md` exists in the live repo (the snapshot was simply not regenerated when the regulation page was added). The wikilink resolves.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -59,9 +64,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [0aa71d5](https://github.com/paleofoundation/heavymetalindex/commit/0aa71d5) | 2026-06-03 | ingest: EU 2024/907 nickel-monitoring recommendation + EFSA exceedance; ground Brief 7 nickel in primaries |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
+| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

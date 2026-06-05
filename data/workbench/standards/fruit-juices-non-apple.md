@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fruit-juices-non-apple
 public_page: products/fruit-juices-non-apple
-updated: 2026-06-03
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Fruit juices, non-apple

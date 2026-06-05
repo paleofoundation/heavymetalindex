@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-tablets",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a3bb4d5bf7330616c813a1220e14ad9abbed238f3d86c3b9c47802659dda5ff8",
-      "content_bytes": 7466,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "ce88b05905f9ba6af8a74461c88dcce2c6164e93bbc88894ff0c3a069b2414c8",
+      "content_bytes": 7463,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/supplements-oral-solids-tablets.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/supplements-oral-solids-tablets.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -43,12 +43,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brzezinska-rojek2023-beetroot-supplements-safety",
         "content_pin": {
-          "content_sha256": "d24e3a09e8aedddb3de6680ee08741b19ba3f06ded33473b697dcd39de718a21",
-          "content_bytes": 4508,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "9b1f445e0f74cc871568d03e8278ac1c8c3f54f232559f51fa82a9fc136b9a39",
+          "content_bytes": 4505,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md | sha256sum"
         }
       }
     ]

@@ -2,15 +2,15 @@
 source_page: wiki/products/salt.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0e38b4a247231c487bba29f33bd2994d845750167432a93bdf06d9c25d608a17
-total_claims: 2
+source_page_sha256: 015bb16de01d0a37007794683b454d52333979df73e75ff1933c4bdbb86ac661
+total_claims: 0
 cited_claims: 0
-uncited_claims: 2
+uncited_claims: 0
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 2
+audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 767
+audit_log_total_rows: 635
 noindex: true
 ---
 
@@ -29,38 +29,28 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 2 |
+| total claims | 0 |
 | cited claims | 0 |
-| uncited claims | 2 |
+| uncited claims | 0 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 2 |
+| audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 767 |
+| audit log rows read | 635 |
 
 ## Page-level audit rows
 
-- `edit_id=cat7-primary-metals-salt-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-primary-metals
-- `edit_id=cat7-step0-lock-salt-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-step0-lock
+_No audit rows reference this page directly._
+
+This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
 
 ## Claims by section
 
-### Literature Evidence Summary
-
-#### Claim `1000 ppb`
-- Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 1000 ppb | 0 | data gap | Basis not repo`
-- Cited targets: **none in section** — claim has no traceable provenance
-
-#### Claim `500 ppb`
-- Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 500 ppb | 0 | data gap | Basis not repor`
-- Cited targets: **none in section** — claim has no traceable provenance
+_No numerical claims detected on this page._
 
 ## Uncited claims
 
-These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
-
-- `1000 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 1000 ppb | 0 | data gap | Basis not repo`
-- `500 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 500 ppb | 0 | data gap | Basis not repor`
+_All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 

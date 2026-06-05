@@ -134,13 +134,3 @@ App: Use this source for Canadian lead-in-drinking-water context and for advisin
 The PDF was read from the June 3 manual-fetch folder, including the overview, monitoring protocols, exposure and occurrence sections, analytical methods, treatment and distribution-system sections, PBPK model discussion, cancer and non-cancer risk assessments, Table 1 sampling protocols, Table 2 intellectual-disability estimates, and rationale. Page count is 113. No DOI is assigned. The canonical raw file `raw/Manual Fetch Kimi /June 3 Folder/guidance-document.pdf` and duplicate file `raw/Manual Fetch Kimi /June 3 Folder/guidance-document 2.pdf` are byte-identical with SHA-256 `d9cd9ae4666f470331c16d47f84a04873d1d471ba02b01a98095d27222531718`; the duplicate is recorded in the tracker as a duplicate rather than a second source.
 
 Scope note: this guideline is drinking-water and premise-plumbing evidence. It reports Canadian tap-water occurrence and treatment/device values but is not a bottled-water market survey, food-occurrence study, or finished water-filter product survey. `[[products/water-filters]]` is included because the source reports residential treatment device challenge and field-performance values; those should be treated as regulatory/device-context values, not as consumer-product contamination concentrations.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [5b61cde](https://github.com/paleofoundation/heavymetalindex/commit/5b61cde) | 2026-06-03 | ingest June 3: health-canada2019-lead-drinking-water-guideline |
-<!-- END: hmi-page-history -->

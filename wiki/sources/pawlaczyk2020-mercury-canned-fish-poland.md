@@ -174,13 +174,3 @@ PDF read in full across pages 1-27 of the published Molecules 25:5884 article (D
 Brand-firewall handling: The paper uses two-letter anonymised producer codes (HH, OO, ZZ, GG, TT, MM, FF, AA, EE, NN) in place of brand names; these are explicitly the authors' anti-attribution device, not real brand identifiers. The wiki carries the per-product mercury values with product form, declared species, predatory classification, packaging matrix, and country of production, and omits the producer letter codes to keep this page firmly inside the brand-firewall posture. Country-of-production codes (POL, GER, UK, TH, MA, PH, NOR, IT, EC, LV) are origin-of-manufacture, not brand identifiers, and are retained.
 
 Speciation: The paper measured total mercury by CV-AAS and estimated methylmercury by dividing total Hg by 1.12 (the Burger 2004 correction factor). The metals frontmatter carries `tHg` and `MeHg` so the source routes to both metal pages, but the wiki narrative explicitly distinguishes measured tHg from estimated MeHg-equivalent throughout to satisfy the iAs/tAs/MeHg/tHg speciation discipline.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [3934559](https://github.com/paleofoundation/heavymetalindex/commit/3934559) | 2026-06-03 | ingest: pawlaczyk2020-mercury-canned-fish-poland [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory |
-<!-- END: hmi-page-history -->

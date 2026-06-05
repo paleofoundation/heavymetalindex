@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-probiotics",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fbbf2e13ceaa617f67d9b24979c976a69e099f601425e7abee6a11e3b22da19b",
-      "content_bytes": 7380,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "fc9de650569ae590bf2837d1a8b9f7cb8a5130e4fb7508f3896d1d17ef1dd21e",
+      "content_bytes": 7377,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/supplements-probiotics.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/supplements-probiotics.md | sha256sum"
     }
   },
   "evidence_base": {

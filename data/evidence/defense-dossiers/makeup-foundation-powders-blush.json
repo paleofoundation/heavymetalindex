@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/makeup-foundation-powders-blush",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6e4af82945d0a61eaa19d1d6b845d443c44f2d1f397397dd103c5edf2265fb9f",
-      "content_bytes": 12832,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "db559463d05929a22c47db14240451f8b751c88a939194ac7a0cbe951d045b88",
+      "content_bytes": 12829,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/makeup-foundation-powders-blush.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/makeup-foundation-powders-blush.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alblooshi2025-perfumes-cosmetics-health-review",
         "content_pin": {
-          "content_sha256": "2a1b9c79c6ac721bc269a5e7f2da988e3901df699b1758d7fecd1bd92cadd646",
-          "content_bytes": 14627,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "87035b793517ad58dca5d2f5a1e0459fe80da2eb3c9e316f369654e89f71cc5c",
+          "content_bytes": 14478,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/alblooshi2025-perfumes-cosmetics-health-review.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/alblooshi2025-perfumes-cosmetics-health-review.md | sha256sum"
         }
       },
       {
@@ -86,12 +86,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/aldayel2018-facial-cosmetics-saudi-arabia",
         "content_pin": {
-          "content_sha256": "1415d6d44498f1a645932e772c24569cba3e90e12d032d95031050b1f609c664",
-          "content_bytes": 34787,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "5b0ac30706421a61d2b5743962e2911b7d483e80899f63954a913d419ebd0239",
+          "content_bytes": 34784,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/aldayel2018-facial-cosmetics-saudi-arabia.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/aldayel2018-facial-cosmetics-saudi-arabia.md | sha256sum"
         }
       },
       {
@@ -116,12 +116,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "b938b905fde49ecb5dd84ae51a7aa9a15f95bf2aa8a8b7ce15647ee036bec0eb",
-          "content_bytes": 35176,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "a1ca3dc43068fd46da1aee695b32e191317e5e0cd22446839a6abf4b2d8eeeb8",
+          "content_bytes": 35173,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -139,12 +139,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ecetoc1992-tr045-ni-co-cr-consumer-products",
         "content_pin": {
-          "content_sha256": "1de8a9f690b2a22631687693b31ff73219ed441e47d617b7b9bfd58177f77707",
-          "content_bytes": 28442,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "346ea13869cd274f66f4e4c4e776b3cba12307ae82dd1f82a6dccd3549d02fca",
+          "content_bytes": 28293,
+          "last_commit_sha": "c036da0",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+          "verify_command": "git show c036da0:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
         }
       },
       {
@@ -168,12 +168,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/haji2025-creams-foundations-toxic-elements",
         "content_pin": {
-          "content_sha256": "a85470bd47e37ec00fabc8a85a7742f7f2f2dd245d0de8e8229d2f430603e08b",
-          "content_bytes": 5858,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "c4655edd1b917612df6596e145b43d5e9c6b8ea43c37b40e9d6900be85a4f106",
+          "content_bytes": 5709,
+          "last_commit_sha": "af80083",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/haji2025-creams-foundations-toxic-elements.md | sha256sum"
+          "verify_command": "git show af80083:wiki/sources/haji2025-creams-foundations-toxic-elements.md | sha256sum"
         }
       },
       {
@@ -194,12 +194,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "ea78be8142724477df8f4407b4f659c8051797158562f0a1ea3453678eefb153",
-          "content_bytes": 28945,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "d8e723e72eefc353ca22e6f4fbe3fe9b0ac0972e7da06573f77ce35fbd74ec23",
+          "content_bytes": 28942,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
         }
       },
       {
@@ -218,12 +218,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kicinska2025-cosmetics-online-market-heavy-metals",
         "content_pin": {
-          "content_sha256": "bbc50b38275dd2dd5052cfe935d8761ad48355e3a1025460ae2f1c29a2f7b0a9",
-          "content_bytes": 13397,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "25407bda64f203dcebbfbfca4d62fa4362b73fbc1ee83b0ab78fcb194c455470",
+          "content_bytes": 13394,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/kicinska2025-cosmetics-online-market-heavy-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/kicinska2025-cosmetics-online-market-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -256,12 +256,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/moriceau2025-cosmetics-icpms-iso21392",
         "content_pin": {
-          "content_sha256": "b1467158f170b952a01d87cb1da3877a0e8d4eaf5a9cea991b346009f1fecc18",
-          "content_bytes": 20826,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "50f1200ba92ff7e869da0d7d41a19241e14971c87357064e008c39db89cca6f5",
+          "content_bytes": 20824,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
         }
       },
       {
@@ -280,12 +280,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/opss2023-feasibility-action-limits-cosmetics-uk",
         "content_pin": {
-          "content_sha256": "d14002b8242e8044f24b75a8d82fbf9902744489fa8d81c7f9c0d669bd62385d",
-          "content_bytes": 28203,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "7d588ccf4c102d7e2ca5b33b122918923f9f64ddcc867a2cfda77c149e6ad769",
+          "content_bytes": 28200,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
         }
       },
       {
@@ -298,12 +298,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "c75179b93ae603e97c891c147d9affeb8ce2ffc636f5a025210f8fb82d399540",
-          "content_bytes": 31115,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "427273f75081fa544d566bb65cd9a87e0fcd773957452c41bd3fca02ef8d64ff",
+          "content_bytes": 30966,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       },
       {
@@ -320,12 +320,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/waecology2023-chemicals-cosmetics-phase1",
         "content_pin": {
-          "content_sha256": "b3e6155d96a3ec2302bb5afbf9bd8a10b578242889e39f227cb66449b4d4e309",
-          "content_bytes": 33572,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "4fd4b2fae6e79e299c5fe03f6a1e315978dcbb2b3c1e2138f52d111e134711a0",
+          "content_bytes": 33423,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/waecology2023-chemicals-cosmetics-phase1.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/waecology2023-chemicals-cosmetics-phase1.md | sha256sum"
         }
       },
       {
@@ -338,12 +338,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/waecology2024-chemicals-cosmetics-phase2",
         "content_pin": {
-          "content_sha256": "e29a44244b63313d6b822436563feeb5a6543575912cd832e98789a78b272a97",
-          "content_bytes": 38855,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "34ca3c0e9a188c06f0876e54161d3992e68a7438e3bcfa439480359049f3cc34",
+          "content_bytes": 38706,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/waecology2024-chemicals-cosmetics-phase2.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/waecology2024-chemicals-cosmetics-phase2.md | sha256sum"
         }
       },
       {
@@ -358,12 +358,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/waecology2024-interim-policy-lead-cosmetics",
         "content_pin": {
-          "content_sha256": "790a8835a873befbe553d09ad0feadd4be5a1d3e13f2a8f4a963ba65716f40ea",
-          "content_bytes": 28398,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "ab868495e7c86716005cd38a0cfd18813f1bfddb0f2bdd7e6e07cdd698ae9e6a",
+          "content_bytes": 28249,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/waecology2024-interim-policy-lead-cosmetics.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/waecology2024-interim-policy-lead-cosmetics.md | sha256sum"
         }
       }
     ]

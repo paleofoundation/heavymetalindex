@@ -9,7 +9,7 @@ retirement_reason: "Autonomy_v0 stub for a Cat 7 sub-variant that is not its own
 redirect_target: products/snacks-general
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 updated: 2026-06-02
-sources: 15
+sources: 0
 ---
 
 # Snacks Crackers Biscuits — REDIRECT
@@ -17,17 +17,3 @@ sources: 15
 > **This page has been aliased up to its parent HMTc row.** Snacks Crackers Biscuits is a sub-variant of **[[products/snacks-general|Snacks, general]]** (Category 7), not a standalone HMTc standards row. Source pages that declare `products: [[products/snacks-crackers-biscuits]]` now route their evidence to [[products/snacks-general]] via the routing layer's inheritance map. See [[docs/governance/category-7-step0-lock]] for the routable-scaffold-vs-threshold-lock rationale.
 
 The prior scaffold content (an autonomy_v0 stub with no synthesized evidence) is preserved in git history.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [aeab84b](https://github.com/paleofoundation/heavymetalindex/commit/aeab84b) | 2026-06-03 | feat(routing): Cat 7 alias-up — fan 6 sub-variant pages to their locked parent rows |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-<!-- END: hmi-page-history -->

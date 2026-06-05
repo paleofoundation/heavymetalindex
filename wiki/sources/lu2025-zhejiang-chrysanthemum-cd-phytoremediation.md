@@ -127,13 +127,3 @@ Cultivar codes (ZS-zc, QJ-hg, JL-yg, etc.) are scientific-trial identifiers from
 No food-channel ingredient or product is named. The "rice exceedance rate of nearly 30%" is a contextual statement about the trial site's farmland, not a measurement on the chrysanthemums; it is cited under the contamination baseline and not routed to ingredient pages.
 
 Frontmatter matrices use `agricultural-soil` and `plant-tissue`, both of which are in the `_no_route` block of `data/evidence/matrix-to-product-map.json`. The routing layer correctly ignores them rather than emitting false product routes. No ingredient or product slugs are claimed.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [5e57d6c](https://github.com/paleofoundation/heavymetalindex/commit/5e57d6c) | 2026-06-02 | ingest: lu2025-zhejiang-chrysanthemum-cd-phytoremediation fresh from Manual Fetch Kimi/June 2 Manual Fetches |
-<!-- END: hmi-page-history -->

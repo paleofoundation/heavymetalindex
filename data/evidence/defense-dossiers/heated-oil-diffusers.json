@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/heated-oil-diffusers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "65b72db32127100edfb9edea3f7634011a9dd578d66f2de7b1c3a09b8ff8e5fc",
-      "content_bytes": 7256,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "8b9a2ca43957acd4174c65a4cf021bb180742d1618cfb0e0b61c0973861a91dd",
+      "content_bytes": 7253,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/heated-oil-diffusers.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/heated-oil-diffusers.md | sha256sum"
     }
   },
   "evidence_base": {

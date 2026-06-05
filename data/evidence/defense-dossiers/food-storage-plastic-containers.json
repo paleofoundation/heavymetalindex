@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-storage-plastic-containers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3fe1e8f4ea85a821f8065eecfb052a4a9c9b08569573e8bc791f82b8e2011348",
-      "content_bytes": 7420,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "075255d8b5c8b3ab9e798d29faf2390ce7e8c47638a072677d4ee1aac339020a",
+      "content_bytes": 7417,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/food-storage-plastic-containers.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/food-storage-plastic-containers.md | sha256sum"
     }
   },
   "evidence_base": {

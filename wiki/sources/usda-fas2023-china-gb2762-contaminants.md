@@ -294,13 +294,3 @@ App: Use this source only for China regulatory comparisons and import/export con
 The PDF was read from the June 3 manual-fetch folder, including the report front matter, translation foreword, scope/application sections, Tables 1-7 for Pb, Cd, Hg, As, Sn, Ni, and Cr, the species-testing notes for methylmercury and inorganic arsenic, testing-method lines, and Appendix A food-category definitions. Page count is 21. No DOI is assigned. The canonical raw file `raw/Manual Fetch Kimi /June 3 Folder/China Releases the Standard for Maximum Levels of Contaminants in Foods_Beijing_China - People's Republic of_CH2023-0040.pdf` and duplicate file `raw/Manual Fetch Kimi /June 3 Folder/China Releases the Standard for Maximum Levels of Contaminants in Foods_Beijing_China - People's Republic of_CH2023-0040 2.pdf` are byte-identical with SHA-256 `c8bccdb20f30b3f6246b18167af26dab16b09cc639621e98c9c16294b76c10a7`; the duplicate is recorded in the tracker as a duplicate rather than a second source.
 
 Scope note: the report is an unofficial USDA FAS translation of a Chinese national food-safety standard. It is a regulatory source, not an official English legal text from NHC/SAMR and not a measurement dataset. The active regulation anchor in the wiki is [[regulations/china-gb-2762-2022-contaminants]]; this source page preserves the June 3 raw-PDF provenance and the translated values that can support future China-market comparisons.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [27b0c53](https://github.com/paleofoundation/heavymetalindex/commit/27b0c53) | 2026-06-03 | ingest June 3: usda-fas2023-china-gb2762-contaminants |
-<!-- END: hmi-page-history -->

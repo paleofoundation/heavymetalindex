@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 5
+sources: 1
 wiki_doi: null
 updated: 2026-05-17
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
@@ -120,11 +120,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/health-canada2021-aluminum-drinking-water-guideline\|Canada et al. 2021]]. *Guidelines for Canadian Drinking Water Quality: Guideline Technical Document - Aluminum*, Health Canada, Water and Air Quality Bureau, Healthy Environments and Consumer Safety Branch, March 2021 | 2021 | Government report | *[awaiting synthesis]* |
-| 2 | [[sources/decharat2020-school-drinking-water-pb-cd\|Decharat et al. 2020]]. *Risk assessment of lead and cadmium in drinking water for school use in Nakhon Si Thammarat Province, Thailand*, Environmental Analysis Health and Toxicology | 2020 | Peer-reviewed | TH Pb, Cd occurrence in drinking water used by 44 primary schools in Nakhon Si Thammarat Province, Thailand (n=146) |
-| 3 | [[sources/health-canada2020-cadmium-drinking-water-guideline\|Canada et al. 2020]]. *Guidelines for Canadian Drinking Water Quality: Guideline Technical Document - Cadmium*, Health Canada, Water and Air Quality Bureau, Healthy Environments and Consumer Safety Branch, July 2020 | 2020 | Government report | *[awaiting synthesis]* |
-| 4 | [[sources/health-canada2019-lead-drinking-water-guideline\|Canada et al. 2019]]. *Guidelines for Canadian Drinking Water Quality: Guideline Technical Document - Lead*, Health Canada, Water and Air Quality Bureau, Healthy Environments and Consumer Safety Branch, March 2019 | 2019 | Government report | *[awaiting synthesis]* |
-| 5 | [[sources/health-canada2006-arsenic-drinking-water-guideline\|Canada et al. 2006]]. *Guidelines for Canadian Drinking Water Quality: Guideline Technical Document - Arsenic*, Health Canada, Water Quality and Health Bureau, Healthy Environments and Consumer Safety Branch, May 2006 | 2006 | Government report | *[awaiting synthesis]* |
+| 1 | [[sources/decharat2020-school-drinking-water-pb-cd\|Decharat et al. 2020]]. *Risk assessment of lead and cadmium in drinking water for school use in Nakhon Si Thammarat Province, Thailand*, Environmental Analysis Health and Toxicology | 2020 | Peer-reviewed | TH Pb, Cd occurrence in drinking water used by 44 primary schools in Nakhon Si Thammarat Province, Thailand (n=146) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -134,9 +130,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: infant-food-puree
 public_page: products/infant-food-puree
-updated: 2026-06-03
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Infant Food Puree

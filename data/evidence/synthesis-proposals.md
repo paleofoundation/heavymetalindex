@@ -1,6 +1,6 @@
 ---
 type: synthesis-proposals
-updated: 2026-05-13
+updated: 2026-06-04
 audience: [internal]
 noindex: true
 ---
@@ -19,6 +19,31 @@ When all four are met, the candidate moves to `## Promoted` below with a link to
 Candidates can be added by any session that reads the corpus. Ingest sessions surface candidates in batch report `Synthesis threads` notes; the orchestrator's planned `PROPOSE-SYNTHESIS-PAGES` signal will surface candidates from routing-audit clustering; Karen adds candidates ad hoc.
 
 ## Pending candidates
+
+> **Routing-audit reconciliation, 2026-06-04.** This queue is maintained by hand and the planned `PROPOSE-SYNTHESIS-PAGES` signal is not yet running, so it had drifted behind the routing audit. A cross-check against `data/evidence/cells-needing-synthesis.csv` surfaced one clearly promotable thread not previously queued (tea, immediately below), confirmed the herbal-supplement thread has matured past "seeding" (see its 2026-06-04 update), and flagged three emerging clusters at the end of this section. None of these reached the corpus through this queue; the five synthesis pages established 2026-05-18 (aquaculture, bivalve, cooking-mehg, eu-timeline, se-hg) also bypassed it, which is why they were missing from the public index until 2026-06-04.
+
+### Tea (Camellia sinensis) as a distinct multi-metal bioaccumulation pathway
+
+Anchor sources (routing audit: 13 Pb / 13 Cd / 12 Cr source pages on `camellia-sinensis`; roughly eight independent primary studies plus reviews):
+
+- [[wiki/sources/li2021-china-national-tea-reconnaissance|Li 2021]] (national-scale Chinese tea reconnaissance, multi-metal)
+- [[wiki/sources/jurowski2023-heavy-metals-green-tea-poland|Jurowski 2023]] (European-market green tea, independent geography)
+- [[wiki/sources/li2015-green-tea-jiangxi-al-heavy-metals|Li 2015]] (green tea aluminium and heavy metals, Jiangxi — the aluminium-uptake angle)
+- [[wiki/sources/brzezicha-cirocka2016-green-tea-geographic-origins|Brzezicha-Cirocka 2016]] (geographic-origin dependence of tea metal load)
+- [[wiki/sources/hu2023-china-tea-heavy-metals|Hu 2023]] (Chinese tea, multi-metal occurrence)
+
+Reviews (kazeminia2023, li2013, salmani2023 herbal teas) and a kombucha/ceramic Pb-leaching adjacency (munilla-garcia2023) round out the cluster.
+
+Thesis (to confirm in a synthesis pass): the tea plant is a distinct heavy-metal bioaccumulation pathway that conventional food-matrix surveillance does not characterise. Camellia sinensis hyperaccumulates aluminium (and fluoride) and takes up Pb, Cd, and Cr in strong dependence on soil chemistry and geographic origin, so as one of the most-consumed beverages worldwide it delivers a metal exposure whose magnitude is set by sourcing region rather than by processing. The brewing-transfer fraction — how much of the dry-leaf metal load actually reaches the cup — is the load-bearing open question the synthesis must resolve, because it determines whether dry-leaf concentrations translate into meaningful consumer exposure.
+
+Why this matters:
+- Brand-legal: tea and herbal-tea brands seeking certification need a literature baseline that separates dry-leaf concentration from brewed-infusion exposure; the geographic-origin dependence supports sourcing-based risk arguments.
+- Regulator: tea sits across food and botanical-supplement frameworks, and its aluminium and fluoride hyperaccumulation is a regulated endpoint in some jurisdictions and not others.
+- Educator: tea is a clean teaching case for soil-to-leaf transfer, hyperaccumulation, and the concentration-versus-exposure distinction.
+
+Promotion readiness: criteria 1 (three or more independent A/B sources), 2 (multiple metals: Pb, Cd, Cr, Al), and 4 (product-category and supplement relevance) appear met on the routing-audit evidence; criterion 3 (non-obvious) rests on the hyperaccumulation and brewing-transfer framing, which a synthesis pass should confirm by reading the anchors in full. Recommended as the next synthesis page to draft.
+
+Suggested synthesis page slug: `tea-multi-metal-bioaccumulation`.
 
 ### Simultaneous Pb+As co-mitigation via single soil amendment intervention
 
@@ -48,6 +73,16 @@ Batch 13 adds: [[wiki/sources/inada2023-herbal-medicine-heavy-metal-regulations|
 Thesis (nascent): Dietary supplements and traditional herbal preparations are a distinct Pb exposure pathway that is systematically undercaptured by food-matrix surveillance focused on conventional food categories. The thomas2024 result is extreme (40,657 ppm is several orders of magnitude above the worst findings in any food-matrix category in the current corpus), suggesting that the supplement and herbal medicine supply chain may be operating with testing and regulatory standards that are materially weaker than conventional food supply chains. If two or more independent studies document high Pb in supplements or traditional medicines across different product categories or jurisdictions, the thread warrants a synthesis page targeting brand-legal (supplement brands seeking HMT&C certification) and regulator (harmonization of supplement testing requirements) audiences.
 
 Promotion readiness: 1 of 4 criteria met. Criterion 3 (non-obvious) is met — a 40,657 ppm finding in a consumer product is not derivable from conventional food-chain surveillance. Promote when two or more independent A/B-tier studies document high Pb in supplements or herbal preparations, or when a regulatory body takes an enforcement action against supplement Pb that enters the corpus as a regulation page.
+
+**Update 2026-06-04 (routing-audit reconciliation):** the `herbal-botanicals` routing bucket now carries 19 Pb source pages, but that count conflates spices (which belong to `spice-adulteration-lead-infants`) and general vegetables. Stripping those out leaves roughly four to five genuinely supplement/botanical Pb studies — ciocan2021 and thomas2024 (Ayurvedic), hu2024 (Lycium and Glycyrrhiza), porwollik2026 (Rhodiola, US market), with inada2023 as cross-pharmacopoeia regulatory context. That meets criterion 1. This thread is now promotion-ready pending a synthesis pass that confirms the studies are independent and reads them in full; suggested slug `supplement-botanical-lead-pathway`.
+
+### Emerging clusters (surfaced 2026-06-04 from cells-needing-synthesis.csv, not yet worked against the four criteria)
+
+These crossed the evidence-density threshold in the routing audit but have not been evaluated in full. Recorded so they are not lost:
+
+- **Milk, dairy, and infant formula heavy metals** (Cd 21, Pb 20, tAs 16, tHg 14, Al 12, Ni 11 source pages). Multi-national total-diet studies plus infant-formula studies. Likely a product-category synthesis (infant formula) rather than an ingredient one; overlaps Category 1 work and the in-progress cadmium synthesis. A pass must find the non-obvious finding, since dairy is often the low-contamination reference and must earn criterion 3.
+- **Breastmilk heavy metals** (Pb 10, tAs 10). Vulnerable-population infant-exposure angle distinct from formula; emerging, watch for a third independent study.
+- **Cereals/wheat cadmium** (Cd 39) and **leafy-greens cadmium** (Cd 22). High density, but these are the canonical population-level cadmium drivers and almost certainly belong inside the in-progress cadmium synthesis rather than as standalone pages. Fold in, do not duplicate.
 
 ## Promoted
 

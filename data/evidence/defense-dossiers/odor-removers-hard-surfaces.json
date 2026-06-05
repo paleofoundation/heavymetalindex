@@ -17,71 +17,18 @@
     "canonical_url": "https://heavymetalindex.com/products/odor-removers-hard-surfaces",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b1e1d864333c69a8ad51bdfedccec935bbcdb7e226184606c3f95340af9bbfd9",
-      "content_bytes": 9760,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "186a0074a7df6c839263dcc5fbb9a8f5c32abd6efbe57707a37b1323b10db896",
+      "content_bytes": 7348,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/odor-removers-hard-surfaces.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/odor-removers-hard-surfaces.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 0,
     "sources_with_structured_values": 0,
-    "contributing_sources": [
-      {
-        "slug": "sources/greenseal2022-gs52-specialty-household-cleaners",
-        "title": "GS-52: Green Seal Standard for Specialty Cleaning Products for Household Use, Edition 2.6, November 11, 2021 (corrections/clarifications last made January 28, 2022)",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "[[metals/lead]]",
-          "[[metals/mercury]]",
-          "[[metals/cadmium]]",
-          "[[metals/chromium-hexavalent]]",
-          "[[metals/arsenic]]",
-          "[[metals/nickel]]",
-          "[[metals/cobalt]]",
-          "[[metals/manganese]]"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/greenseal2022-gs52-specialty-household-cleaners",
-        "content_pin": {
-          "content_sha256": "242bf697bad9ebf0fdf1e0900db082171a44c02d13bbb392d285091ff4dafb4e",
-          "content_bytes": 83347,
-          "last_commit_sha": "93723fc",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 93723fc:wiki/sources/greenseal2022-gs52-specialty-household-cleaners.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/nydec2020-cleansing-product-disclosure-bmp",
-        "title": "Cleansing Product Information Disclosure Program — Recommended Best Management Practices",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "Pb",
-          "Cd",
-          "tAs",
-          "tHg",
-          "Cr-VI",
-          "Ni"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
-        "content_pin": {
-          "content_sha256": "060e23ac265329cd97139e062188a861c3219dec6444dce1bd56f85fef7adc6e",
-          "content_bytes": 48581,
-          "last_commit_sha": "d99267a",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show d99267a:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
-        }
-      }
-    ]
+    "contributing_sources": []
   },
   "regulatory_caps": {
     "declared_count": 0,

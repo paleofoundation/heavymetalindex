@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-plastic-tubs",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "17cb4d3a62d8ecd1abe7a985d02447143ba9237bc712b6604bdaf08d3fc7f0d7",
-      "content_bytes": 7911,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "c46a0c160bbed3707c7b650133287073157fa658a30a993d24cb738dcb581c06",
+      "content_bytes": 7908,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/food-packaging-plastic-tubs.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/food-packaging-plastic-tubs.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bergerritchie2013-hot-sauce-lead",
         "content_pin": {
-          "content_sha256": "21eecdb005c7ec2c5fa039a86854663b4a5fa6870ddc5e138f08bcf960e87b5a",
-          "content_bytes": 24408,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "c68cd5afc1aca43d67b3dfc78276f18aaf2f87d43ca57223d2d963c8208eccfc",
+          "content_bytes": 24259,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/bergerritchie2013-hot-sauce-lead.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/bergerritchie2013-hot-sauce-lead.md | sha256sum"
         }
       }
     ]

@@ -21,16 +21,16 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-cereals-dry-rice-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "08b6f8d676b64a71f4146cf6973038babca688419d998d39a803f30f4a5aff16",
-      "content_bytes": 67451,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "52f9552ceaf3f12a9cdad5e1f0570b655e9ad3ced815b12b042021d544c5ae28",
+      "content_bytes": 65683,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/baby-cereals-dry-rice-based.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/baby-cereals-dry-rice-based.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 74,
+    "contributing_source_count": 67,
     "sources_with_structured_values": 5,
     "contributing_sources": [
       {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals",
         "content_pin": {
-          "content_sha256": "ac49d325d6e2481bde001943cdfe4a7acbd8b1995e2d5e47a16d62eb73b74969",
-          "content_bytes": 15572,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "913d0f200d13e690571182a2f2d72d7abac7d6b21a607ddec18bf024bc008513",
+          "content_bytes": 15569,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -68,12 +68,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/arsenic2025-unknown",
         "content_pin": {
-          "content_sha256": "19a38f87e5b314dd55f14002a9d422ee729670d3a0420d09a9de2ad99dd5dd57",
-          "content_bytes": 7630,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "71440becb82865ddea62f2d5f08bd1472be0bcbbb360839395890820d2417daf",
+          "content_bytes": 7627,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/arsenic2025-unknown.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/arsenic2025-unknown.md | sha256sum"
         }
       },
       {
@@ -92,12 +92,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bair2022-infant-toddler-food-heavy-metals-policy",
         "content_pin": {
-          "content_sha256": "edf941962241c34ac8b9768ac0351ace0717cf641e5a1363fd1c68a0e466072f",
-          "content_bytes": 13907,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "9f730ca51236bfd393113a5ac299b4d516f82a3e6f3c8751b764ba39ce63d2b9",
+          "content_bytes": 13904,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy.md | sha256sum"
         }
       },
       {
@@ -118,12 +118,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/barber2025-baby-food-elements-us",
         "content_pin": {
-          "content_sha256": "f3f115da7a608edef106d4f3c31c261d8c0f5057c77582fb090b715caacf4ec1",
-          "content_bytes": 13595,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "a5fd3fb1d070a620b025607642f0c1bd518c997db1e0f2d96dcdd74400afe63d",
+          "content_bytes": 13592,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/barber2025-baby-food-elements-us.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/barber2025-baby-food-elements-us.md | sha256sum"
         }
       },
       {
@@ -139,12 +139,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brombach2017-methylmercury-european-commercial-rice",
         "content_pin": {
-          "content_sha256": "46a0faa2c61a6a04bebcd7ee037fc0deedcfb386b493c51bdae050607530d11c",
-          "content_bytes": 12543,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "79613808592513a1d39876ca2b2937cc335584b83774d37652b82d862335413a",
+          "content_bytes": 12540,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/brombach2017-methylmercury-european-commercial-rice.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/brombach2017-methylmercury-european-commercial-rice.md | sha256sum"
         }
       },
       {
@@ -159,12 +159,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cantoral2024-lead-levels-mexican-foods",
         "content_pin": {
-          "content_sha256": "ca2f1b1c12507b759c4b2a05d08dbbfc68effad6564e9a7fcff5811c7cf226d9",
-          "content_bytes": 6291,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "28f819812b2fb13ae9543201497ce58483eaa97b966df332b5b35cc6b199223b",
+          "content_bytes": 6288,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/cantoral2024-lead-levels-mexican-foods.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/cantoral2024-lead-levels-mexican-foods.md | sha256sum"
         }
       },
       {
@@ -181,12 +181,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/carey2015-rice-arsenic-percolating-cooking",
         "content_pin": {
-          "content_sha256": "0d687ee46c05cdf35a490f9b513eb4aa323c894a2302ad4fb6e4302ae91ed93f",
-          "content_bytes": 16693,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "7f54097fcfcc6d5e42f96454f45741de26e119acddd9fc66baddf89f38ed1de2",
+          "content_bytes": 16690,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/carey2015-rice-arsenic-percolating-cooking.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/carey2015-rice-arsenic-percolating-cooking.md | sha256sum"
         }
       },
       {
@@ -202,12 +202,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/carey2018-rice-dilution-infant-food-eu-arsenic",
         "content_pin": {
-          "content_sha256": "814f8a63fcf0f38d521b1b8202406ddaffaf648885192e726f0786850625b888",
-          "content_bytes": 5570,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "894374c4a1e9935cedbb62ddf139f9ae041c0338ab6a02e761eb7883df7c68f9",
+          "content_bytes": 5567,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic.md | sha256sum"
         }
       },
       {
@@ -223,34 +223,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/carignan2016-arsenic-infant-rice-cereal-commentary",
         "content_pin": {
-          "content_sha256": "f6c9fca540de34ed777292bb3cfff4548626b5e6e23fece8d3df93126b2f2696",
-          "content_bytes": 3428,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "0b220467c8c6ec35130c35fada50f004c95b345917078ba451c988636bfc46b8",
+          "content_bytes": 3425,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/carignan2016-arsenic-infant-rice-cereal-commentary.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/cereal2013-cereal-juice-lead-arsenic",
-        "title": "Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest",
-        "route_kind": "broad_product_context",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "broad_context_pending_row_fit",
-        "value_record_count": 0,
-        "metal_species": [
-          "Pb",
-          "As",
-          "Cd"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/cereal2013-cereal-juice-lead-arsenic",
-        "content_pin": {
-          "content_sha256": "87e4a490e026e6e9051ce270caa99e6925e5d07ff7ab36bb7f59ff5cea9b7e2e",
-          "content_bytes": 2615,
-          "last_commit_sha": "315a7b8",
-          "last_commit_date": "2026-06-02",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/cereal2013-cereal-juice-lead-arsenic.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/carignan2016-arsenic-infant-rice-cereal-commentary.md | sha256sum"
         }
       },
       {
@@ -273,12 +251,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chekri2019-french-infant-toddler-tds-trace-elements",
         "content_pin": {
-          "content_sha256": "a048494942a2a1acbdf35d789cf9c4f4d16bf52c0c0597aae773ac51baa49101",
-          "content_bytes": 7740,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "a7e0f6de854ca2c7657333b9c81b4b81b6758f054c0640b0a16a3e7b48b940fd",
+          "content_bytes": 7737,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md | sha256sum"
         }
       },
       {
@@ -293,12 +271,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf",
         "content_pin": {
-          "content_sha256": "a025a2f116750650c50f52c9af924b1495b9d09f44ef0b60acc0273a2b7ebbcf",
-          "content_bytes": 26920,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "30c4dac3512f6fe5c3ade3e7303a9807d47ce62d74dcbbb9882de5407acaf846",
+          "content_bytes": 26917,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf.md | sha256sum"
         }
       },
       {
@@ -315,12 +293,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/collado-lopez2025-heavy-metals-baby-food-formula",
         "content_pin": {
-          "content_sha256": "e341ef19269d6b4ff6485c6ff876a8ce42ac4614e4f4c086132f8c05dfc2d40b",
-          "content_bytes": 8838,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "c4b679b2d6a6795a3521deebb5560c938d080a77903d3c9b1ce3a8b709a3fdb9",
+          "content_bytes": 8835,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md | sha256sum"
         }
       },
       {
@@ -335,12 +313,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cot2013-uk-aluminium-infant-diet",
         "content_pin": {
-          "content_sha256": "ac3c6857ae88cb0d67a9245e04776ed13954ff5c80acc967c5b356f3ed136522",
-          "content_bytes": 16931,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "3de1f136183f261f177e19c8f808aed7b74464f45fca5927f8e9c59d94d17708",
+          "content_bytes": 16926,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/cot2013-uk-aluminium-infant-diet.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/cot2013-uk-aluminium-infant-diet.md | sha256sum"
         }
       },
       {
@@ -356,33 +334,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cr-fsasc2014-arsenic-rice-grains",
         "content_pin": {
-          "content_sha256": "3f460fab767362d72b6b26812710ee7c67b2a21a28270a9b86643af11dd5a58e",
-          "content_bytes": 5888,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "bf5ff63ffb27719375fa58ca175a9d051180a8d0136a5f0669029c0efcde2645",
+          "content_bytes": 5885,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/cr-fsasc2014-arsenic-rice-grains.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/depa2019-baby-food-lead-cadmium",
-        "title": "Heavy Metals in Baby Foods and Cereal Products",
-        "route_kind": "broad_product_context",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "broad_context_pending_row_fit",
-        "value_record_count": 0,
-        "metal_species": [
-          "Pb",
-          "Cd"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/depa2019-baby-food-lead-cadmium",
-        "content_pin": {
-          "content_sha256": "c9542e6f7e96a555ca872bd1c42bd142773e684bda75a4821e25f676d79b1cc0",
-          "content_bytes": 3475,
-          "last_commit_sha": "315a7b8",
-          "last_commit_date": "2026-06-02",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/depa2019-baby-food-lead-cadmium.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/cr-fsasc2014-arsenic-rice-grains.md | sha256sum"
         }
       },
       {
@@ -397,12 +354,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil",
         "content_pin": {
-          "content_sha256": "118b3855d9dce1538bf88ee8d781dda72c837773f1e37b722633ce2b204bd4b8",
-          "content_bytes": 10245,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "00da5026f8306b81e42d55f663de544be5b4d4a5c1c7d5f64a64f6846859b514",
+          "content_bytes": 10242,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil.md | sha256sum"
         }
       },
       {
@@ -418,12 +375,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan",
         "content_pin": {
-          "content_sha256": "7953937595179d190a8a6b7d6560c95ec7fc9f155d1082d931477b8cc7eeaff9",
-          "content_bytes": 10449,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "97a349f9cef617f00dc7b9e0f4b50fb01083ece5ff9c532b5b313083f57e4919",
+          "content_bytes": 10446,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan.md | sha256sum"
         }
       },
       {
@@ -446,33 +403,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/du2025-infant-thickener-urinary-arsenic",
         "content_pin": {
-          "content_sha256": "c13226bf276d4fc9c6876207fb687c5d5d6069b9ea9b6b10c300eeb1cc66c35d",
-          "content_bytes": 4888,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "7cd90cc79854f5199dc6809c2861608426554134d6fd72b125e9d6b195948911",
+          "content_bytes": 4885,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/du2025-infant-thickener-urinary-arsenic.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/efsa2014-dietary-exposure-iAs",
-        "title": "Dietary exposure to inorganic arsenic in the European population",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "iAs",
-          "tAs"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/efsa2014-dietary-exposure-iAs",
-        "content_pin": {
-          "content_sha256": "a812d1116ecd3ef93907f91b8fde0c4b86b608a7f0969f70beb6769dac7d1644",
-          "content_bytes": 27024,
-          "last_commit_sha": "4074e0c",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 4074e0c:wiki/sources/efsa2014-dietary-exposure-iAs.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/du2025-infant-thickener-urinary-arsenic.md | sha256sum"
         }
       },
       {
@@ -488,12 +424,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2021-chronic-exposure-iAs",
         "content_pin": {
-          "content_sha256": "b36bd11f94aab90fb91024895a92241197ea0450b8f3dd349c3185e6b4067767",
-          "content_bytes": 6608,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "7896e2f5d72e5ade60bb8a30127eb23249a51223ea663f7c2e6f51567733c74f",
+          "content_bytes": 6605,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/efsa2021-chronic-exposure-iAs.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/efsa2021-chronic-exposure-iAs.md | sha256sum"
         }
       },
       {
@@ -509,35 +445,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2024-risk-assessment-iAs-update",
         "content_pin": {
-          "content_sha256": "24d7f67dd424ec9285dcd1cf843dcf77eda9042522a701903ba9637d4fa7749e",
-          "content_bytes": 7441,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "a58356ff2c17f8a535de899f785bd28584c2fdd99c7df787c4bb03ca9ccf36fe",
+          "content_bytes": 7438,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/efsa2024-risk-assessment-iAs-update.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/efsa2024-small-organoarsenic-food",
-        "title": "Risk assessment of small organoarsenic species in food",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "DMA",
-          "MMA",
-          "iAs",
-          "tAs"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/efsa2024-small-organoarsenic-food",
-        "content_pin": {
-          "content_sha256": "bf87cabe6d44048b724476f7e1ef11c1758aa53be6951d031356c1ccd69347dc",
-          "content_bytes": 12076,
-          "last_commit_sha": "8597289",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8597289:wiki/sources/efsa2024-small-organoarsenic-food.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/efsa2024-risk-assessment-iAs-update.md | sha256sum"
         }
       },
       {
@@ -560,12 +473,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi",
         "content_pin": {
-          "content_sha256": "a23679dd19bcf330640e79982afff77ca9e623b4c25eec7153a3debd9779fef4",
-          "content_bytes": 9427,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "3c762a3a2f84caed7e4a9b38e55e6c87282c383fb952a818f2b5141ceceed895",
+          "content_bytes": 9424,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi.md | sha256sum"
         }
       },
       {
@@ -580,12 +493,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda-ctz-Pb-babyfood-2025",
         "content_pin": {
-          "content_sha256": "e6e8d0814c869a47326dee1ebfb460835613f59a71f04b8950d88fc6f6a11b4f",
-          "content_bytes": 10660,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "31c19b8ca099bb108e48fc2b00659e603942db089fe992faef2d57481450565a",
+          "content_bytes": 10657,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fda-ctz-Pb-babyfood-2025.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fda-ctz-Pb-babyfood-2025.md | sha256sum"
         }
       },
       {
@@ -600,40 +513,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda-iAs-rice-cereal-2020",
         "content_pin": {
-          "content_sha256": "a7b7969fa26e9510f5afc55b8b932d1afe7bc3fe29885f49d50d31871d1436bd",
-          "content_bytes": 2405,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "72ba88fa1999aaf88123e810b3bc63491956ace30741032d82cc2ebcdf4836cd",
+          "content_bytes": 2402,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fda-iAs-rice-cereal-2020.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/fda-tds-elements-2018-2020",
-        "title": "Total Diet Study Report: Fiscal Years 2018-2020 Elements Data",
-        "route_kind": "broad_product_context",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "broad_context_pending_row_fit",
-        "value_record_count": 0,
-        "metal_species": [
-          "Pb",
-          "Cd",
-          "tAs",
-          "iAs",
-          "tHg",
-          "Ni",
-          "Cr",
-          "U",
-          "Sb"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/fda-tds-elements-2018-2020",
-        "content_pin": {
-          "content_sha256": "b29e094c4960db0f1c1d8c5700931408c59f239498edd6e6f61acf9820517d89",
-          "content_bytes": 27235,
-          "last_commit_sha": "315a7b8",
-          "last_commit_date": "2026-06-02",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fda-tds-elements-2018-2020.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fda-iAs-rice-cereal-2020.md | sha256sum"
         }
       },
       {
@@ -649,12 +534,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2013-ias-rice-products-sampling",
         "content_pin": {
-          "content_sha256": "cb60861fcab0f0a417e28ecd99a3513998945ce12128a9f2a8286511633d5a22",
-          "content_bytes": 6303,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "530f4dc0ff8b7f86c9ec76b20fa9826c316e86d01994409f587cd3b5ad14285a",
+          "content_bytes": 6300,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
         }
       },
       {
@@ -669,12 +554,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2016-arsenic-rice-cereal-analytic-results",
         "content_pin": {
-          "content_sha256": "7b7812e28ebdaf90f6c1414e387f3e1d98b2d502e876a3d90afd0056f7ce45b5",
-          "content_bytes": 5109,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "86d05abf101045d16ae99f015f8b22e48ae6a4be9068c16203bc002df2a82b1f",
+          "content_bytes": 5106,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fda2016-arsenic-rice-cereal-analytic-results.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fda2016-arsenic-rice-cereal-analytic-results.md | sha256sum"
         }
       },
       {
@@ -690,12 +575,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2016-arsenic-rice-risk-assessment",
         "content_pin": {
-          "content_sha256": "52aaec7cb7e57940055c64ac10fc28ed00db245b0115a3e1e3237d39de6f4dd5",
-          "content_bytes": 6261,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "bffe7597b054fe78c8ad3d1a285ec2c624dcc1ca615d11be713ebf1d82665417",
+          "content_bytes": 6258,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fda2016-arsenic-rice-risk-assessment.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fda2016-arsenic-rice-risk-assessment.md | sha256sum"
         }
       },
       {
@@ -710,12 +595,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2016-infant-toddler-foods-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "68e70394d01ce5f9ad0d4048042aca09f6042638716af8f79cfe54f9445bc3d0",
-          "content_bytes": 7155,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "8bb9e2252927eef12dd8bb212885140448ff035dadf1bebaf88558f0be5af64c",
+          "content_bytes": 7152,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
         }
       },
       {
@@ -731,12 +616,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2018-iAs-infant-rice-cereals-fy2018",
         "content_pin": {
-          "content_sha256": "d0c25e733a9d7cd91884154e6f4a5562d850f1e1c307dcf12e8fb37a496401d1",
-          "content_bytes": 5741,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "9903bbbd4f3f738585c3f310abcf8565419b80066127b749162314079bc00d49",
+          "content_bytes": 5738,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fda2018-iAs-infant-rice-cereals-fy2018.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fda2018-iAs-infant-rice-cereals-fy2018.md | sha256sum"
         }
       },
       {
@@ -751,12 +636,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2020-iAs-rice-cereal-supporting-doc",
         "content_pin": {
-          "content_sha256": "c9185a00d551ecfe3c3e957aca959322fc4b9691a0f4765da946dde03f077309",
-          "content_bytes": 6842,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "7e4ddeb34db6955d84cbddb8e6a98a3e8dde5158bd55acd4233a6e64055a15f6",
+          "content_bytes": 6839,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fda2020-iAs-rice-cereal-supporting-doc.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fda2020-iAs-rice-cereal-supporting-doc.md | sha256sum"
         }
       },
       {
@@ -771,12 +656,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2021-lead-baby-food-fy2020-fy2021",
         "content_pin": {
-          "content_sha256": "a4ecd498143e6db2779e548db64876637e210857119af02c921fac4edcb8c248",
-          "content_bytes": 4740,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "f86b042cd198ace973b3ec2154f4c680d8c4fa162313012014c518eb81eb9c2b",
+          "content_bytes": 4737,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fda2021-lead-baby-food-fy2020-fy2021.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fda2021-lead-baby-food-fy2020-fy2021.md | sha256sum"
         }
       },
       {
@@ -791,12 +676,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2024-lead-baby-food-fy2023-guidance-basis",
         "content_pin": {
-          "content_sha256": "b7d757ac71e8fa5d7953b54ea9c5dd60eb750f7b1c24e6cda3e54768a06662cf",
-          "content_bytes": 4994,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "b023ec157f7d79b6abd3c352281fe463b802ac9c457eb3c698906bbf470e72af",
+          "content_bytes": 4991,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis.md | sha256sum"
         }
       },
       {
@@ -814,12 +699,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024",
         "content_pin": {
-          "content_sha256": "ccea96f2c211778087281b63f279105534eab1d588d1573d16b15cb83fb2da24",
-          "content_bytes": 8141,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "06330a72623332014d0e7ad2f856a4abcec78c012f49e2e6871897f6b6185f43",
+          "content_bytes": 8138,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md | sha256sum"
         }
       },
       {
@@ -838,12 +723,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fsa2016-infant-food-formula-metals-survey",
         "content_pin": {
-          "content_sha256": "5857ce7794210a813914d4609e84c6af7d980d12046f2266f20c1ad0a0dd907c",
-          "content_bytes": 5907,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "01b334482fd398d65861e09bc8de02b49d8103f4633311cf4125a8395ee12259",
+          "content_bytes": 5904,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fsa2016-infant-food-formula-metals-survey.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fsa2016-infant-food-formula-metals-survey.md | sha256sum"
         }
       },
       {
@@ -859,12 +744,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gardener2019-pb-cd-us-infant-formula-baby-foods",
         "content_pin": {
-          "content_sha256": "1e99a779ffbb9c2274f91f952ae9229553ee9d7163d6e7023777acb72f675ccb",
-          "content_bytes": 9508,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "34086089f969d501f18c5a066fbd7f6943e4c1f0631d75ff25e6896b4bddd7e4",
+          "content_bytes": 9505,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/gardener2019-pb-cd-us-infant-formula-baby-foods.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/gardener2019-pb-cd-us-infant-formula-baby-foods.md | sha256sum"
         }
       },
       {
@@ -885,12 +770,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/garuba2024-heavy-metals-commercial-baby-foods",
         "content_pin": {
-          "content_sha256": "a22d8a7bd2a19ec3c97aac9d2f455ebb42c0ac25bd5b3bce5a181e8debf62a77",
-          "content_bytes": 16534,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "2380fef7cabc97de30a02b297b81cb524baf40a4afa2bf0bcb9132af02704e4b",
+          "content_bytes": 16531,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/garuba2024-heavy-metals-commercial-baby-foods.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/garuba2024-heavy-metals-commercial-baby-foods.md | sha256sum"
         }
       },
       {
@@ -906,12 +791,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
         "content_pin": {
-          "content_sha256": "88a6ff3543a7344bc8384f93175ccadc58b99fd768d071dfc71272ffa5e982a6",
-          "content_bytes": 7545,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "f48a3c13a1d438b198a65536aaa2250091ed44f4efc9ae8496d838c5d8bb146e",
+          "content_bytes": 7542,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
         }
       },
       {
@@ -930,12 +815,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hbbf2025-rice-arsenic-cadmium-145-samples",
         "content_pin": {
-          "content_sha256": "d1451a72efd2eb83cdfe8ee010a777d05bbb46009c2dea7af242dc6766adb77a",
-          "content_bytes": 11851,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "3f216b381cf335cd0697dbca06f98ce7cbdffb0c55dd6c4e26f4937b0a11938f",
+          "content_bytes": 11848,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples.md | sha256sum"
         }
       },
       {
@@ -952,12 +837,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france",
         "content_pin": {
-          "content_sha256": "1938f6657ebbf2055fe643d31ef2d542d8caff069979ee96683111da6fcb9528",
-          "content_bytes": 13567,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "b68961427748a7173ffc15f4b56becac6d6315b590141e5dcd5ecb93d1c1066a",
+          "content_bytes": 13564,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france.md | sha256sum"
         }
       },
       {
@@ -976,12 +861,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/houlihan2019-hbbf-whats-in-baby-food",
         "content_pin": {
-          "content_sha256": "e35c2bd24fc60d1cdd7a5af00434da06e64f75c00f92f9e04d81cfe91f070a18",
-          "content_bytes": 18167,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "a7e4cba546817fd945f5b067fb873987c33ceab04b20149f5a71841ce078d7c3",
+          "content_bytes": 18306,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/houlihan2019-hbbf-whats-in-baby-food.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/houlihan2019-hbbf-whats-in-baby-food.md | sha256sum"
         }
       },
       {
@@ -999,12 +884,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jackson2012-arsenic-speciation-infant-formulas-first-foods",
         "content_pin": {
-          "content_sha256": "1bfd602718d7113a0d8e4bde1275b9a2d8958a29e62d97b086d82480a5f2a457",
-          "content_bytes": 6297,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "cccb74713c9aa182d9c4b2dbe83aae9d8a718fec7a891d6c63c49a2544f124c2",
+          "content_bytes": 6294,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/jackson2012-arsenic-speciation-infant-formulas-first-foods.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/jackson2012-arsenic-speciation-infant-formulas-first-foods.md | sha256sum"
         }
       },
       {
@@ -1027,12 +912,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kirkpatrick1980-trace-elements-canadian-baby-foods",
         "content_pin": {
-          "content_sha256": "78ed59190e552912419e862d8ef2c62540af1af0905a76eaf48f2cfabfeaba20",
-          "content_bytes": 12885,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "1dc4b04a3272e3ef9cba9bc2821d1e69091bc07176fe52cd056f18c5bb4f1285",
+          "content_bytes": 12882,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods.md | sha256sum"
         }
       },
       {
@@ -1050,12 +935,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2015-toxic-elements-infant-food-poland",
         "content_pin": {
-          "content_sha256": "4039210737a45230911382f7455aa548d722f208ec61e9c8275b0d57a0a420d8",
-          "content_bytes": 10240,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "2bcb5855dba1cdffbbef87672e6b29513b07c3992cb9db94bbbb20c55720a210",
+          "content_bytes": 10237,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
         }
       },
       {
@@ -1076,12 +961,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/meli2024-chemical-characterization-baby-food-italy",
         "content_pin": {
-          "content_sha256": "a945756697ae6bad8a80a96340af89ab2a96870429e1fad4f214ac34bc9ffd30",
-          "content_bytes": 5322,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "8f0ddd4dcf859486b8801e9c2b98936882a1b8bcfddbc3ad04fb10c7177a1e25",
+          "content_bytes": 5319,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/meli2024-chemical-characterization-baby-food-italy.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/meli2024-chemical-characterization-baby-food-italy.md | sha256sum"
         }
       },
       {
@@ -1100,12 +985,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals",
         "content_pin": {
-          "content_sha256": "0c8bfe244f2bdb0b8c57facf480f092d438dad89edfeaf3cc109cf64e2c2bab7",
-          "content_bytes": 18122,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "5f0b505a9a4586b066628bb49833e5a118cb64495ecf9a482deff515fd7acdab",
+          "content_bytes": 18119,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -1128,12 +1013,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mititelu2025-heavy-metal-food-contamination-review",
         "content_pin": {
-          "content_sha256": "0aea96c68302ff6da3b637129e01106a605d9720107bc8b1b1164eebfd196e89",
-          "content_bytes": 11217,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "baa9db15d679deed9b9a97a310add7c3721d1324002464dab7e0582ccb663e34",
+          "content_bytes": 11214,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/mititelu2025-heavy-metal-food-contamination-review.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/mititelu2025-heavy-metal-food-contamination-review.md | sha256sum"
         }
       },
       {
@@ -1149,12 +1034,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/neuwirth2022-baby-cereals-lead-arsenic",
         "content_pin": {
-          "content_sha256": "444ee78632f459aa738197167e0947555218eb69ff31e8c63d92649226fb921a",
-          "content_bytes": 2080,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "fcef27d0a6b8a8d3e87d36fc68bec295dcb671f3ab30d4d4e64a88355dc52da9",
+          "content_bytes": 2077,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/neuwirth2022-baby-cereals-lead-arsenic.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/neuwirth2022-baby-cereals-lead-arsenic.md | sha256sum"
         }
       },
       {
@@ -1172,12 +1057,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
         "content_pin": {
-          "content_sha256": "88ae663372838b39a5162c497c84aa7cb787535b9e288f045bf3f3c4bcae926e",
-          "content_bytes": 6996,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "7368c624c1a2e4d0b3da4ffc7c005dfb50c9add37b7a895b9eb12e580e202912",
+          "content_bytes": 6993,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md | sha256sum"
         }
       },
       {
@@ -1195,12 +1080,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb",
         "content_pin": {
-          "content_sha256": "748908b7b61d261c38831bb9307346bf70cec76ad6dde7a09de9c2cff0c6f9c0",
-          "content_bytes": 9893,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "90f9293c7b9ff856092bacc7a9d93c9805be5084f5b65a29850ca87b74b7efbd",
+          "content_bytes": 9890,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb.md | sha256sum"
         }
       },
       {
@@ -1215,12 +1100,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/price2023-biokinetic-lead-baby-food-blls",
         "content_pin": {
-          "content_sha256": "b81ed3593491e1e5f9327b22323207ee72717e67b38cc04f9450d0bdacb5b4e8",
-          "content_bytes": 8918,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "a9ce15a6cb531d4ef653b07b15ae31c68ede868be79ad6eb08edbc0339732387",
+          "content_bytes": 8915,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/price2023-biokinetic-lead-baby-food-blls.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/price2023-biokinetic-lead-baby-food-blls.md | sha256sum"
         }
       },
       {
@@ -1236,12 +1121,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rothenberg2021-maternal-methylmercury-rice-child-neurodevelopment-china",
         "content_pin": {
-          "content_sha256": "ac7514a266557ce48d718018c2aa184b846d6df903aea41a79110f8de1427500",
-          "content_bytes": 4394,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "50557cbd048fa92975f52bdfd5fb24999e027e382a870d38733af04a582033b5",
+          "content_bytes": 4391,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/rothenberg2021-maternal-methylmercury-rice-child-neurodevelopment-china.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/rothenberg2021-maternal-methylmercury-rice-child-neurodevelopment-china.md | sha256sum"
         }
       },
       {
@@ -1266,12 +1151,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadiq-beauchemin-2021-multielemental-baby-rice-cereals",
         "content_pin": {
-          "content_sha256": "33ece79e09375795119d13e2e08e00dfed59311cb274a8aef63fb8058c495cc4",
-          "content_bytes": 9962,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "b931219c57aba7189a520884b87d749971e8541a875fabd804785c52637eb9c6",
+          "content_bytes": 9959,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/sadiq-beauchemin-2021-multielemental-baby-rice-cereals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/sadiq-beauchemin-2021-multielemental-baby-rice-cereals.md | sha256sum"
         }
       },
       {
@@ -1291,12 +1176,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation",
         "content_pin": {
-          "content_sha256": "5dc7f03ed51272797d42738d791a59a26bd08e4fd82e3ea5c1d42ab0c9927b99",
-          "content_bytes": 8560,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "13ddda7d09c80b8c6b458d402f351bc1c75af1179bfb162a74c319ed5d7cefbc",
+          "content_bytes": 8557,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation.md | sha256sum"
         }
       },
       {
@@ -1312,12 +1197,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/scott2025-brown-white-rice-arsenic",
         "content_pin": {
-          "content_sha256": "dcb748de91b3c1f25f346cffbc0f9efd9a508eb54979d23187bc1da290c671bc",
-          "content_bytes": 4317,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "04f836f4c1142670a3f1ef19a137fd2cce0abf8d7c85e2eea7b713cb21b99ab0",
+          "content_bytes": 4314,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/scott2025-brown-white-rice-arsenic.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/scott2025-brown-white-rice-arsenic.md | sha256sum"
         }
       },
       {
@@ -1336,12 +1221,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/seyfferth2025-rice-water-management-as-hg-cd",
         "content_pin": {
-          "content_sha256": "ae0cce8ba3dd073c8f3eb5b814950e0302cb4be0b25f0718703ef224f09719e1",
-          "content_bytes": 7305,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "d492190b89405b51715b9f8c248b217f3c982dd1907652febd6b41978d312e86",
+          "content_bytes": 7302,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/seyfferth2025-rice-water-management-as-hg-cd.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/seyfferth2025-rice-water-management-as-hg-cd.md | sha256sum"
         }
       },
       {
@@ -1357,12 +1242,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shi2020-rice-based-infant-food-cadmium-arsenic",
         "content_pin": {
-          "content_sha256": "08ae2bc9494bb2e69ef28c833c6cfb802b3c27f710ca55ee793a4c83e27bd28a",
-          "content_bytes": 5697,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "d144a86ae543d35d169d715e71498f70e211a445682c341cb0a82e3444a9db27",
+          "content_bytes": 5694,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic.md | sha256sum"
         }
       },
       {
@@ -1377,12 +1262,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shi2020-rice-grain-cadmium-global-supply-chain",
         "content_pin": {
-          "content_sha256": "4cce6aa71dbfb17719cb6d549d1f893d9282887d062e7f8b0988f8c69bdd3dda",
-          "content_bytes": 4025,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "1a6ae27efbf7f8f9516b9a5f7d4a3666cbb5d062e311e878db1bdc352ac23330",
+          "content_bytes": 4022,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/shi2020-rice-grain-cadmium-global-supply-chain.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/shi2020-rice-grain-cadmium-global-supply-chain.md | sha256sum"
         }
       },
       {
@@ -1397,12 +1282,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shibata2016-arsenic-rice-cereal-risk-assessment-us",
         "content_pin": {
-          "content_sha256": "1f42bbae3890643caf3e42eeca164cb071da1f0c315a1a98efd26c711e1d29ed",
-          "content_bytes": 2745,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "9dfd5c7c3a5f99c6b9ef7c6f875d1ad076be73b6f999f58332362e5896399e67",
+          "content_bytes": 2742,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/shibata2016-arsenic-rice-cereal-risk-assessment-us.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/shibata2016-arsenic-rice-cereal-risk-assessment-us.md | sha256sum"
         }
       },
       {
@@ -1417,12 +1302,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/signes-pastor2016-inorganic-arsenic-rice-products-infants",
         "content_pin": {
-          "content_sha256": "9bcbfc5d52c5f17640e05fcbe4528bb08302b5dc52bc502b026fc13ed61f09b3",
-          "content_bytes": 22533,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "c854b93058ef49e8cb7616a90f5c885951ceb9ad4434616fe5c2a9e62cedfb55",
+          "content_bytes": 22530,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/signes-pastor2016-inorganic-arsenic-rice-products-infants.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/signes-pastor2016-inorganic-arsenic-rice-products-infants.md | sha256sum"
         }
       },
       {
@@ -1437,12 +1322,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/signes-pastor2017-infant-arsenic-rice-weaning",
         "content_pin": {
-          "content_sha256": "e13da2e1f8f9a3860cacd30eebbb40e75cd72825c022772917c65894bdf908c3",
-          "content_bytes": 9221,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "f1d76e4ed1bb8bef30e332c121debf0dcc00f6d9fcaf7da73b0bcbcbd2a07c5b",
+          "content_bytes": 9218,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/signes-pastor2017-infant-arsenic-rice-weaning.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/signes-pastor2017-infant-arsenic-rice-weaning.md | sha256sum"
         }
       },
       {
@@ -1460,12 +1345,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/signes-pastor2018-infant-arsenic-solid-food",
         "content_pin": {
-          "content_sha256": "3afd900cfa6c3c762b851c9a10dc52be6c024e7414d2100930e356fbff3d5462",
-          "content_bytes": 3224,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "48ece984ba12d81710c6cbdfb091ebe4a230ffd59f3e4273e700a2d0c9287778",
+          "content_bytes": 3221,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/signes-pastor2018-infant-arsenic-solid-food.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/signes-pastor2018-infant-arsenic-solid-food.md | sha256sum"
         }
       },
       {
@@ -1481,28 +1366,13 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/signes-pastor2018-infants-dietary-arsenic-solid-food",
         "content_pin": {
-          "content_sha256": "1df171e61195305af4aba60dcccfa17ca6c2e844560d2d150340743562f96b2e",
-          "content_bytes": 4056,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "40493b33064d4ba26cfa070fe33bbe38550ce0a5997d5c645deb9dfbb75eeebd",
+          "content_bytes": 4053,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md | sha256sum"
         }
-      },
-      {
-        "slug": "sources/signes-pastor2018-open-infants-dietary-arsenic",
-        "title": "OPEN Infants' dietary arsenic exposure during transition to solid food",
-        "route_kind": "broad_product_context",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "broad_context_pending_row_fit",
-        "value_record_count": 0,
-        "metal_species": [
-          "iAs",
-          "MMA",
-          "DMA"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/signes-pastor2018-open-infants-dietary-arsenic",
-        "content_pin": null
       },
       {
         "slug": "sources/signes-pastor2022-infant-elements-nhbcs",
@@ -1526,12 +1396,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/signes-pastor2022-infant-elements-nhbcs",
         "content_pin": {
-          "content_sha256": "f165c4e00fcac504c6985f605fefe6623b5d11f597a6b00c5229e63437701388",
-          "content_bytes": 7910,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "ca61a01f59e5f7a89620cd6a3d94ef4a1ee877398bbe5477f0f89595bb71b020",
+          "content_bytes": 7907,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/signes-pastor2022-infant-elements-nhbcs.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/signes-pastor2022-infant-elements-nhbcs.md | sha256sum"
         }
       },
       {
@@ -1551,12 +1421,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sipahi2014-toxic-metals-infant-formulas-turkey",
         "content_pin": {
-          "content_sha256": "be910ab9dc671b0d46acf529cde7ff9bc6da3e412b982031c57a364b296b2cf4",
-          "content_bytes": 10635,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "3836bdf1d8dc789f435f9a71b03f4918eb3f0c39473c5ea10f0c785f5775ee70",
+          "content_bytes": 10632,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey.md | sha256sum"
         }
       },
       {
@@ -1572,12 +1442,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/su2023-arsenic-brown-rice-benefits-risks",
         "content_pin": {
-          "content_sha256": "7604aa3e478f46d927e1ef7f2f20942d9e1ab8f0961ab80ec24e8c98b4afa810",
-          "content_bytes": 3611,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "bd55ca74fed9f036433c5bf874d6c21b0abada130f9167f62163dc901ac5f3b7",
+          "content_bytes": 3608,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/su2023-arsenic-brown-rice-benefits-risks.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/su2023-arsenic-brown-rice-benefits-risks.md | sha256sum"
         }
       },
       {
@@ -1607,12 +1477,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil",
         "content_pin": {
-          "content_sha256": "6732d8a0010f2fffb9613775c25dc6a4836c59b9e9ec0edefa9220680f8a2cc8",
-          "content_bytes": 9699,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "6b476e7f20f9c5cc234d47a3470b4b35287a96dc7f9d97aec0bb9248fe4dd11d",
+          "content_bytes": 9696,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil.md | sha256sum"
         }
       },
       {
@@ -1631,40 +1501,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals",
         "content_pin": {
-          "content_sha256": "22515abec39554d738777a6de96da1e2823e4f7bd0da3b192ccfc49e84cbd328",
-          "content_bytes": 19020,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "b11345ef2033931ba541d8421213d4d8366aae137a00ac2343a4e6136e3e2a34",
+          "content_bytes": 18871,
+          "last_commit_sha": "c2d9535",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals.md | sha256sum"
-        }
-      },
-      {
-        "slug": "sources/usda-fas2023-china-gb2762-contaminants",
-        "title": "China Releases the Standard for Maximum Levels of Contaminants in Foods",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "Pb",
-          "Cd",
-          "tHg",
-          "MeHg",
-          "tAs",
-          "iAs",
-          "Sn",
-          "Ni",
-          "Cr"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/usda-fas2023-china-gb2762-contaminants",
-        "content_pin": {
-          "content_sha256": "d24e41721da73190949c9e0a468ec37b66423146a330691b1761e3b6d569c911",
-          "content_bytes": 15412,
-          "last_commit_sha": "27b0c53",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 27b0c53:wiki/sources/usda-fas2023-china-gb2762-contaminants.md | sha256sum"
+          "verify_command": "git show c2d9535:wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -1680,12 +1522,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wehmeier2023-ias-rice-cola-field-method",
         "content_pin": {
-          "content_sha256": "1d99ed69ad36f6a066de6559075fffca1e6404d34a25e63ed59fe899f88d4008",
-          "content_bytes": 5029,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "a1f9ff0977fb79e132ed95badc8ea299b8fc987bd579c7e28fe20864615d3496",
+          "content_bytes": 5026,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/wehmeier2023-ias-rice-cola-field-method.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/wehmeier2023-ias-rice-cola-field-method.md | sha256sum"
         }
       },
       {
@@ -1703,12 +1545,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zmudzinska2022-rte-baby-foods-poland",
         "content_pin": {
-          "content_sha256": "0b23153ecc45cf5c64f7f463982e8dcdf7902c221028df90d72b8d523d216b22",
-          "content_bytes": 15220,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "6c2edbcc1d1b2944eb11ab3cf92c33c1c19ad7d398a283ff629acd4274237132",
+          "content_bytes": 15217,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/zmudzinska2022-rte-baby-foods-poland.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/zmudzinska2022-rte-baby-foods-poland.md | sha256sum"
         }
       }
     ]
@@ -1761,8 +1603,8 @@
     "total_claims": 172,
     "cited_claims": 171,
     "uncited_claims": 1,
-    "distinct_cited_sources": 89,
-    "audit_rows_on_cited_targets": 8,
+    "distinct_cited_sources": 82,
+    "audit_rows_on_cited_targets": 0,
     "provenance_complete": false
   }
 }

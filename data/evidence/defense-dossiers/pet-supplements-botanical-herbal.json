@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-supplements-botanical-herbal",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0b217f307d19eeb51ee1518d5d7f4ddba15bfdfd039e4c01f234e21bfce7af74",
-      "content_bytes": 7891,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "f22dbf58a0f69f10214f7ff81605434a22493f22842c2d24040b87003f517c72",
+      "content_bytes": 7888,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/pet-supplements-botanical-herbal.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/pet-supplements-botanical-herbal.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gao2025-cordyceps-arsenic-toxicity",
         "content_pin": {
-          "content_sha256": "b36f60a2564a0fa84a4f142aadcf3df7e7f4c8f91adb11e1a436d3acf56700de",
-          "content_bytes": 4082,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "2675c64bbac5d41379b0e33681197283187405f0760f0e8e969204d439dbfe01",
+          "content_bytes": 4079,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/gao2025-cordyceps-arsenic-toxicity.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/gao2025-cordyceps-arsenic-toxicity.md | sha256sum"
         }
       }
     ]

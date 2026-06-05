@@ -141,7 +141,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [420b234](https://github.com/paleofoundation/heavymetalindex/commit/420b234) | 2026-06-02 | audit: ntigoroku2025-delta-state-edible-oils-metals revised |
 | [d592c94](https://github.com/paleofoundation/heavymetalindex/commit/d592c94) | 2026-06-02 | ingest: ntigoroku2025-delta-state-edible-oils-metals enhanced from Manual Fetch Kimi/June 2 Manual Fetches |
 | [5a91e56](https://github.com/paleofoundation/heavymetalindex/commit/5a91e56) | 2026-06-02 | ingest June 2: ntigoroku2025-delta-state-edible-oils-metals |

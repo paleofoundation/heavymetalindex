@@ -112,7 +112,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [aa4d396](https://github.com/paleofoundation/heavymetalindex/commit/aa4d396) | 2026-06-02 | audit: chen2001-edible-fats-oils-arsenic revised |
 | [6ea337a](https://github.com/paleofoundation/heavymetalindex/commit/6ea337a) | 2026-06-02 | ingest June 2: chen2001-edible-fats-oils-arsenic |
 <!-- END: hmi-page-history -->

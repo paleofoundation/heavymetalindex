@@ -66,13 +66,3 @@ Microbiome: Not addressed.
 ## Verification notes
 
 The PDF title, byline, journal issue, DOI, license statement, sample count, methods, and concentration tables were read from the source PDF. Where the abstract and detailed tables conflict for Ni and Cd maxima, this page preserves the discrepancy and treats Tables 3 and 4 as the auditable extraction basis because they provide sample-level values.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [39f07fd](https://github.com/paleofoundation/heavymetalindex/commit/39f07fd) | 2026-06-03 | ingest auto-fetched 2026-06-03: amjad2021-lahore-chocolates-metals |
-<!-- END: hmi-page-history -->

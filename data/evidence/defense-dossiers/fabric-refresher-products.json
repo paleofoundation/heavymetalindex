@@ -17,41 +17,18 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-refresher-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ad5d612c96af99bf6ba1d5b7bf44455c31c599907bb662ee8fd33fd53a1bdf8c",
-      "content_bytes": 7871,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "a3ed0d19a5d6b9a1ab4b486254f92f0e953c7e600dbcae6c26ee62e265b42236",
+      "content_bytes": 7302,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/fabric-refresher-products.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/fabric-refresher-products.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 0,
     "sources_with_structured_values": 0,
-    "contributing_sources": [
-      {
-        "slug": "sources/davidsuzuki2014-toxic-household-cleaners",
-        "title": "The dirt on toxic chemicals in household cleaning products",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "As",
-          "Cd",
-          "Pb"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/davidsuzuki2014-toxic-household-cleaners",
-        "content_pin": {
-          "content_sha256": "a98b0be1da6a0a001703e932ca9ebd32266a4571cee9a99ea7488a0d64c04340",
-          "content_bytes": 21941,
-          "last_commit_sha": "2401454",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 2401454:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
-        }
-      }
-    ]
+    "contributing_sources": []
   },
   "regulatory_caps": {
     "declared_count": 0,

@@ -76,14 +76,3 @@ Microbiome (if applicable): The paper does not study microbiome outcomes.
 ## Verification notes
 
 The PDF title, byline, DOI, journal, year, methods, and Table 4 values were read from the auto-fetched PDF. The paper reports total elemental concentrations and does not provide arsenic, mercury, or chromium speciation. Values reported as 0.00 mg/kg are retained as source-reported table entries rather than interpreted as analytical zeroes. Audit note: the results prose gives manganese as 0.07-6.25 mg/kg, while Table 4 appears to show star anise Mn as 6.26 mg/kg; the page preserves the prose range and flags the source-internal rounding discrepancy.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [997a957](https://github.com/paleofoundation/heavymetalindex/commit/997a957) | 2026-06-03 | audit auto-fetched 2026-06-03: spices source pages |
-| [cadd032](https://github.com/paleofoundation/heavymetalindex/commit/cadd032) | 2026-06-03 | ingest auto-fetched 2026-06-03: savic2019-serbian-spices-minerals |
-<!-- END: hmi-page-history -->

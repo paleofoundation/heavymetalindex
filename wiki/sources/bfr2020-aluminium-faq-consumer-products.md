@@ -121,12 +121,4 @@ Risk-communication FAQ. No original measurement, no sample frame, no analytical 
 **App:** The cosmetic-product aluminium concentration ranges (antiperspirants ~2.8–5.8% Al; lipstick up to 3%; whitening toothpaste up to 4.5%; sun cream up to 0.8%) and the lye-pretzel >10 mg/kg finding can populate Al contamination-profile data points on the corresponding product pages.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [0123eaf](https://github.com/paleofoundation/heavymetalindex/commit/0123eaf) | 2026-06-03 | audit: bfr2020-aluminium-faq-consumer-products revised |
-| [598ca8b](https://github.com/paleofoundation/heavymetalindex/commit/598ca8b) | 2026-06-03 | ingest: bfr2020-aluminium-faq-consumer-products fresh from Manual Fetch Kimi/June 3 Folder |
 <!-- END: hmi-page-history -->

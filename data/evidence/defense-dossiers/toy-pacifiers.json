@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toy-pacifiers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "978f17d81b1c5886715d1d42f42ba0c2b2cc8f94cb534fc14adf2b7c57aff52e",
-      "content_bytes": 8101,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "dc9e084f805b4c8149ed619e588b7a76f270bf9466cd971c802b650843c47d64",
+      "content_bytes": 8098,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/toy-pacifiers.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/toy-pacifiers.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "ef5e3db74819b2dfd6430b00353b1cb673eb76a8c3b34de1a74fd9b2101540af",
-          "content_bytes": 59462,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "01d473df4008624112e8b94dab0cc5810244592263abcbdc551db479e1af1a5a",
+          "content_bytes": 59313,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       }
     ]

@@ -17,7 +17,7 @@ review_state: phase3
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-09
-sources: 4
+sources: 3
 ---
 
 # Soft Drinks/Carbonated Beverages
@@ -139,9 +139,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/babeker2025-heavy-metals-microbial-sudanese-soft-drinks\|Babeker et al. 2025]]. *Assessment of Heavy Metals Concentration and Microbial Profile in Sudanese Carbonated Soft Drinks and Beverages*, SSRG International Journal of Applied Chemistry, 12(2): 18-22 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/salaheldin2025-multimatrix-foods-egypt\|Salahel et al. 2025]]. *Assessment of toxic heavy metals in commonly consumed foods in Egypt and their implications for public health and safety*, Scientific Reports | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/deka2023-monitoring-strategies-heavy-metals-chapter\|Deka et al. 2023]]. *Monitoring Strategies for Heavy Metals in Foods and Beverages: Limitations for Human Health Risks*, IntechOpen (Heavy Metals – Recent Advances) | 2023 | Book chapter | IN Pb, Cd, tHg, Cr, Cr-VI, tAs, Ni, Al, Sb, Mn, Fe, Co, Ba, Be occurrence in Narrative review chapter; no primary samples. Surveys analytical and remediation literature for heavy metals across foods and beverages... |
-| 4 | [[sources/tarigan2016-factors-tin-released-canned-beverages\|Tarigan et al. 2016]]. *Factors are Affecting Tin Released in Canned Beverages*, International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333 | 2016 | Peer-reviewed | ID Sn occurrence in 9 brand variants from each of three canned beverage categories (carbonated, beer, juice), tested at two expiration cohorts... (n=27) |
+| 2 | [[sources/deka2023-monitoring-strategies-heavy-metals-chapter\|Deka et al. 2023]]. *Monitoring Strategies for Heavy Metals in Foods and Beverages: Limitations for Human Health Risks*, IntechOpen (Heavy Metals – Recent Advances) | 2023 | Book chapter | IN Pb, Cd, tHg, Cr, Cr-VI, tAs, Ni, Al, Sb, Mn, Fe, Co, Ba, Be occurrence in Narrative review chapter; no primary samples. Surveys analytical and remediation literature for heavy metals across foods and beverages... |
+| 3 | [[sources/tarigan2016-factors-tin-released-canned-beverages\|Tarigan et al. 2016]]. *Factors are Affecting Tin Released in Canned Beverages*, International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333 | 2016 | Peer-reviewed | ID Sn occurrence in 9 brand variants from each of three canned beverage categories (carbonated, beer, juice), tested at two expiration cohorts... (n=27) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -151,9 +150,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

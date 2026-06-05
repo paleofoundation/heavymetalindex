@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `315a7b8` (2026-06-02). The body hashes to `sha256:32b92239c6b1c8b628315ed0d99a26d5…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `566c7b2` (2026-06-02). The body hashes to `sha256:9f1455e95cb9f76d7ee37c2bbb2d5f04…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fruit-juices-non-apple&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fruit-juices-non-apple&download=1`.
 
 ## Evidence base
 
-This category is supported by 29 contributing literature sources mapped by the routing layer, of which 2 carry structured concentration values. The page makes 25 numerical claims; 25 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 24 contributing literature sources mapped by the routing layer, of which 2 carry structured concentration values. The page makes 25 numerical claims; 25 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/fruit-juices-non-apple.md`.
 

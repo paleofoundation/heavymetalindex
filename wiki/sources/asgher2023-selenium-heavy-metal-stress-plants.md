@@ -155,7 +155,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [01ccf60](https://github.com/paleofoundation/heavymetalindex/commit/01ccf60) | 2026-06-02 | audit: asgher2023-selenium-heavy-metal-stress-plants revised |
 | [e9466bb](https://github.com/paleofoundation/heavymetalindex/commit/e9466bb) | 2026-06-02 | ingest: asgher2023-selenium-heavy-metal-stress-plants fresh from Manual Fetch Kimi/June 2 Manual Fetches |
 <!-- END: hmi-page-history -->

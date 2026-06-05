@@ -65,13 +65,3 @@ Recital 7 of this recommendation states that nickel maximum levels "have been es
 ## Verification notes
 
 Ingested 2026-06-03 from the Official Journal PDF supplied at `raw/Manual Fetch Kimi /June 3 Folder/OJ_L_202400907_EN_TXT.pdf` (sha256 c88ecf52…), read in full (2 pages, recitals 1–9 and operative recommendations 1–5). Quotations above are verbatim from the OJ text. ELI: http://data.europa.eu/eli/reco/2024/907/oj.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [0aa71d5](https://github.com/paleofoundation/heavymetalindex/commit/0aa71d5) | 2026-06-03 | ingest: EU 2024/907 nickel-monitoring recommendation + EFSA exceedance; ground Brief 7 nickel in primaries |
-<!-- END: hmi-page-history -->

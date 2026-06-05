@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 14
+sources: 13
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -118,7 +118,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 10 | [[sources/smajgl2015-tin-baby-diapers-croatia\|Šmajgl et al. 2015]]. *Occurrence of tin in disposable baby diapers*, X-Ray Spectrometry | 2015 | Peer-reviewed | HR/EU Sn occurrence in 6 brands of disposable baby diapers purchased in Croatia 2012-2014. Top sheet and adhesive tape system analyzed separately... (n=6) |
 | 11 | [[sources/anderson2002-uk-us-diaper-voc-emissions-mice\|Anderson et al. 2002]]. *Toxic Emissions from British and American Brands of Disposable Diapers*, Proceedings: Indoor Air 2002, pp. 636-640 (paper CIB6678) | 2002 | Peer-reviewed | *[awaiting synthesis]* |
 | 12 | [[sources/stringer2001-greenpeace-pvc-children-products\|Stringer et al. 2001]]. *Toxic chemicals in a child's world: an investigation into PVC plastic products*, Greenpeace Research Laboratories, University of Exeter (UK); June 2001 | 2001 | NGO report | *[awaiting synthesis]* |
-| 13 | [[sources/yamada1993-organotin-household-commodities\|Yamada et al. 1993]]. *Small-Scale Survey of Organotin Compounds in Household Commodities*, Journal of AOAC International, Vol. 76, No. 2, pp. 436–441 | 1993 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -128,9 +127,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

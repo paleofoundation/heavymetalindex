@@ -17,41 +17,18 @@
     "canonical_url": "https://heavymetalindex.com/products/rice-beverages-rice-milk",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "7d894dfcaaa8cc42220444a7b3981e979fb1ee5a76ec63083ad1d770d1cc2657",
-      "content_bytes": 7807,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "8b61148ec7508ea0a97096f403739cf22bffb17655dede2c77e31941819c2435",
+      "content_bytes": 7601,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/rice-beverages-rice-milk.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/rice-beverages-rice-milk.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 3,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
-      {
-        "slug": "sources/efsa2024-small-organoarsenic-food",
-        "title": "Risk assessment of small organoarsenic species in food",
-        "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
-        "evidence_use": "direct_context_pending_extraction",
-        "value_record_count": 0,
-        "metal_species": [
-          "DMA",
-          "MMA",
-          "iAs",
-          "tAs"
-        ],
-        "canonical_url": "https://heavymetalindex.com/sources/efsa2024-small-organoarsenic-food",
-        "content_pin": {
-          "content_sha256": "bf87cabe6d44048b724476f7e1ef11c1758aa53be6951d031356c1ccd69347dc",
-          "content_bytes": 12076,
-          "last_commit_sha": "8597289",
-          "last_commit_date": "2026-06-03",
-          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8597289:wiki/sources/efsa2024-small-organoarsenic-food.md | sha256sum"
-        }
-      },
       {
         "slug": "sources/fda2013-ias-rice-products-sampling",
         "title": "Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013",
@@ -65,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2013-ias-rice-products-sampling",
         "content_pin": {
-          "content_sha256": "cb60861fcab0f0a417e28ecd99a3513998945ce12128a9f2a8286511633d5a22",
-          "content_bytes": 6303,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "530f4dc0ff8b7f86c9ec76b20fa9826c316e86d01994409f587cd3b5ad14285a",
+          "content_bytes": 6300,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
         }
       },
       {
@@ -86,12 +63,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
         "content_pin": {
-          "content_sha256": "88a6ff3543a7344bc8384f93175ccadc58b99fd768d071dfc71272ffa5e982a6",
-          "content_bytes": 7545,
-          "last_commit_sha": "315a7b8",
+          "content_sha256": "f48a3c13a1d438b198a65536aaa2250091ed44f4efc9ae8496d838c5d8bb146e",
+          "content_bytes": 7542,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 315a7b8:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
         }
       }
     ]

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/deep-conditioning-treatments-rinse-off",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c64af75c730bc0f1d60a99b5a807b19ec0583f9f618aca0edb661b395f098e0e",
-      "content_bytes": 7504,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "539c26a2918113a8833e9c3c53c1d72487edb8cf7d1d292a318023f94c9c721d",
+      "content_bytes": 7501,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/deep-conditioning-treatments-rinse-off.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/deep-conditioning-treatments-rinse-off.md | sha256sum"
     }
   },
   "evidence_base": {

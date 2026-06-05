@@ -69,13 +69,3 @@ Microbiome (if applicable): Not addressed.
 ## Verification notes
 
 The PDF title, author list, DOI, year, journal, license, methods, and Table 3 values were read from the auto-fetched PDF. The paper reports arsenic as total arsenic by ICP-OES and shows all regional arsenic entries as less than 11.87 ug/kg; it does not provide inorganic arsenic speciation.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [a51d342](https://github.com/paleofoundation/heavymetalindex/commit/a51d342) | 2026-06-03 | ingest auto-fetched 2026-06-03: aghamirlou2015-iranian-honey-metals |
-<!-- END: hmi-page-history -->

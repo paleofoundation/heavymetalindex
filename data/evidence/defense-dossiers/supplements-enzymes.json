@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-enzymes",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "045ed03f1758e361316fdfa05f158a354f052fd67b6c9487a6ae9f70d3211c15",
-      "content_bytes": 7273,
-      "last_commit_sha": "315a7b8",
+      "content_sha256": "4142a53b1d886eae1216c74ece48bb72668f3405ce6f04e9cbcdf6da72e99e8f",
+      "content_bytes": 7270,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 315a7b8:wiki/products/supplements-enzymes.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/supplements-enzymes.md | sha256sum"
     }
   },
   "evidence_base": {

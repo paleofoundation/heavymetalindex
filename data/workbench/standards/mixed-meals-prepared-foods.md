@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: mixed-meals-prepared-foods
 public_page: products/mixed-meals-prepared-foods
-updated: 2026-06-03
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Mixed Meals / Prepared Foods
