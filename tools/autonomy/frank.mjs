@@ -236,11 +236,22 @@ function heartbeat(doingNow) {
     .reverse()
     .map((r) => `| ${hhmm(new Date(r.start))} | ${r.name} | ${r.summary} | ${Math.max(1, Math.round(r.durMs / 60000))}m |`)
     .join("\n")
+  // Surface the origin-sync circuit breaker (tools/autonomy/frank-sync.sh) so a
+  // stalled push shows up here, in the one status file Karen reads, instead of
+  // only in frank-sync.log. The marker lives outside the repo to avoid churn.
+  let syncAlarm = ""
+  try {
+    const m = path.join(os.homedir(), ".frank-sync.STALLED")
+    if (fs.existsSync(m)) {
+      const reason = (fs.readFileSync(m, "utf8").split("\n")[0] || "origin-sync stalled").trim()
+      syncAlarm = `\n> ⚠️ **origin-sync STALLED** — ${reason}\n> Local commits are not reaching GitHub. Recover: \`bash tools/autonomy/frank-resync.sh\`\n`
+    }
+  } catch {}
   const md = `# FRANK — autonomous ingest status
 
 **Alive.** Last beat: ${new Date().toLocaleString()} (cycle ${cycle})
 **Doing now:** ${doingLine}
-
+${syncAlarm}
 > If this timestamp is more than ~45 minutes old, FRANK is stuck. Tell Claude: "FRANK is stuck."
 > To pause FRANK: \`touch ~/.frank.STOP\`. To resume: \`rm ~/.frank.STOP\`.
 
