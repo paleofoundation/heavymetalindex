@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-05T01:46:13.564Z
+updated: 2026-06-05T06:03:18.212Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -34,9 +34,9 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Audit queue: pending-audit-spawn-failed | 96 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 2 |
-| Commits last 24 hours | 43 |
+| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Commits last 1 hour | 5 |
+| Commits last 24 hours | 61 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-84e8b5f 21 minutes ago — codex fire 2026-06-05: no unclaimed auto-fetched PDFs
+a300ee3 3 minutes ago — briefing: add Brief 3 'What Organic Doesn't Say' (Palmquist Typst format)
 ```
 
 ## How to read this
