@@ -32,6 +32,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import os from "node:os"
 import { spawnSync } from "node:child_process"
 
 const repoRoot = process.cwd()
@@ -60,6 +61,18 @@ if (!fs.existsSync(promptPath)) {
   process.exit(0)
 }
 
+// ─── Pause switches ────────────────────────────────────────────────────
+// Symmetric with FRANK's ~/.frank.STOP. ~/.frank-codex.STOP pauses just this
+// engine; ~/.frank.STOP pauses everything. Gives Karen an on-demand kill switch
+// for the Codex loop, which previously had none.
+for (const stopName of [".frank.STOP", ".frank-codex.STOP"]) {
+  if (fs.existsSync(path.join(os.homedir(), stopName))) {
+    console.log(`Pause switch ~/${stopName} present — skipping Codex sprint.`)
+    writeCodexHeartbeat(`paused (~/${stopName})`)
+    process.exit(0)
+  }
+}
+
 // Extract just the prompt body (the doc has markdown explanation around it).
 // The prompt to paste is between ``` fences after the "## The prompt (paste this)"
 // heading. We extract that block.
@@ -85,6 +98,25 @@ if (dryRun) {
   console.log(promptBody.slice(0, 200) + "...")
   process.exit(0)
 }
+
+// ─── Fire only when there is actionable work ──────────────────────────
+// The auto-fetched folder permanently holds ~491 PDFs that are already
+// ingested, claimed, or dispositioned as skips; the files are never removed,
+// only marked. Re-firing Codex on that static pile produced a "STOPPED EARLY /
+// no unclaimed PDFs" no-op commit (and a push) every 20 min. Mirror the sweep's
+// exact eligibility filter and skip the spawn entirely when nothing is
+// actionable. FAIL-OPEN: any error in the count ⇒ proceed to spawn, so the gate
+// can never suppress a real ingest.
+const actionable = actionableAutoFetchedCount()
+if (actionable === 0) {
+  console.log("No actionable auto-fetched PDFs (all ingested/claimed/dispositioned) — skipping Codex sprint.")
+  writeCodexHeartbeat("idle (no actionable auto-fetched PDFs)")
+  process.exit(0)
+}
+console.log(actionable === null
+  ? "Eligibility count errored — proceeding to spawn (fail-open)."
+  : `${actionable} actionable auto-fetched PDF(s) — proceeding.`)
+writeCodexHeartbeat(`firing (${actionable ?? "?"} actionable)`)
 
 // ─── Race-safety: skip if Codex is already running ────────────────────
 const codexLockPath = path.join(autonomyDir, "codex-sprint.lock")
@@ -174,6 +206,90 @@ if (res.status !== 0) {
 }
 
 console.log(`Codex sprint complete in ${elapsed}s. Transcript at ${path.relative(repoRoot, logFile)}`)
+
+// Count auto-fetched PDFs that genuinely need a Codex pass — i.e. the work the
+// agent itself would find. A PDF is out of play (already handled) if the tracker
+// shows it ingested / claimed / skip (the sprint prompt's STEP 2-3 rule), OR
+// wishlist-fetch-audit.csv carries a final disposition (ingested / skip: / fail:)
+// for it. Verified 2026-06-05: all 491 auto-fetched PDFs are tracker-dispositioned
+// (254 skip + 195 claimed + 42 ingested) ⇒ 0 actionable ⇒ no-op fires. Read-only.
+// Returns a count, or null on any error (caller treats null as "proceed", never
+// as "skip", so the gate can never suppress a real ingest).
+function actionableAutoFetchedCount() {
+  try {
+    const dir = path.join(repoRoot, "raw/manual-fetch/seasonal-geographic-variance/auto-fetched")
+    if (!fs.existsSync(dir)) return 0
+    const pdfs = fs.readdirSync(dir).filter((f) => f.endsWith(".pdf"))
+    if (pdfs.length === 0) return 0
+
+    const status = new Map() // basename → tracker status
+    const trackerPath = path.join(autonomyDir, "manual-fetch-tracker.csv")
+    if (fs.existsSync(trackerPath)) {
+      const lines = fs.readFileSync(trackerPath, "utf8").split(/\r?\n/).filter(Boolean)
+      const header = parseCsvLine(lines[0] || "")
+      const iPath = Math.max(0, header.indexOf("pdf_path"))
+      const iStatus = header.indexOf("status") >= 0 ? header.indexOf("status") : 2
+      for (let i = 1; i < lines.length; i++) {
+        const cols = parseCsvLine(lines[i])
+        if (!cols[iPath]) continue
+        status.set(path.basename(cols[iPath]), cols[iStatus] || "")
+      }
+    }
+
+    const dispositioned = new Set() // basename → has a final audit decision
+    const auditPath = path.join(repoRoot, "data/evidence/wishlist-fetch-audit.csv")
+    if (fs.existsSync(auditPath)) {
+      const lines = fs.readFileSync(auditPath, "utf8").split(/\r?\n/).filter(Boolean)
+      const header = parseCsvLine(lines[0] || "")
+      const iPath = header.indexOf("downloaded_path")
+      const iDec = header.indexOf("decision")
+      for (let i = 1; i < lines.length && iPath >= 0 && iDec >= 0; i++) {
+        const cols = parseCsvLine(lines[i])
+        const dec = cols[iDec] || ""
+        if (!cols[iPath]) continue
+        if (dec === "ingested" || dec.startsWith("skip:") || dec.startsWith("fail:")) {
+          dispositioned.add(path.basename(cols[iPath]))
+        }
+      }
+    }
+
+    let actionable = 0
+    for (const f of pdfs) {
+      const st = status.get(f) || ""
+      if (st.startsWith("ingested") || st.startsWith("claimed") || st.startsWith("skip")) continue
+      if (dispositioned.has(f)) continue
+      actionable++
+    }
+    return actionable
+  } catch (e) {
+    console.error(`actionable-count failed (${e.message}); proceeding fail-open.`)
+    return null
+  }
+}
+
+// Non-committed liveness signal so an idle (gated-off) Codex loop is still
+// visibly alive without the old no-op commit spam. Gitignored.
+function writeCodexHeartbeat(state) {
+  try {
+    fs.writeFileSync(path.join(autonomyDir, "frank-codex.heartbeat"), `${new Date().toISOString()} codex ${state}\n`)
+  } catch {}
+}
+
+// Minimal CSV field splitter (quote-aware), matching the sweep's parser.
+function parseCsvLine(line) {
+  const out = []
+  let cur = ""
+  let q = false
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i]
+    if (q && c === '"' && line[i + 1] === '"') { cur += '"'; i++; continue }
+    if (c === '"') { q = !q; continue }
+    if (c === "," && !q) { out.push(cur); cur = ""; continue }
+    cur += c
+  }
+  out.push(cur)
+  return out
+}
 
 function parseArgs(argv) {
   const args = new Map()
