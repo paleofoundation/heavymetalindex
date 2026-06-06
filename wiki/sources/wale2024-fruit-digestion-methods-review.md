@@ -14,7 +14,7 @@ access_url: "https://doi.org/10.11648/j.sjac.20241201.12"
 raw_path: "raw/Manual Fetch Discovery/wale2024-comparisons-of-different-digestion.pdf"
 raw_sha256: "4751f620ca598f601fe18c1f639c96310e38562c711eda3fab6f2631ce10a839"
 metals: [Pb, Cd, tAs, Cr, Ni, Cu, Fe, Mn, Co, Zn]
-ingredients: ["[[ingredients/fruit]]", "[[ingredients/fruits]]", "[[ingredients/fruit-juice]]"]
+ingredients: ["[[ingredients/fruits]]", "[[ingredients/fruit-juice]]"]
 products: []
 matrices: [fruits, fruit-juice]
 jurisdictions: []
@@ -95,6 +95,7 @@ Single-author narrative review of laboratory digestion methodology, 6 printed pa
 - Wiki/HMTc firewall (Part 2): no HMTc threshold claims, no certification-comparison sentences, no synthesis-grade claims about category contamination levels. The paper's normative claim is method-comparative (preferred digestion technique), not contamination-quantitative.
 - Author overlap: this paper is by the same Kasahun Wale at the Ethiopian Institute of Agricultural Research, Jimma, as the prior wale2023-heavy-metals-fruits-vegetables-overview review, listed in `near_duplicates`. The two papers are subject-distinct (2023 = contamination overview; 2024 = digestion methodology) but share Table 1 of the 2024 paper / Table 2 of the 2023 paper. Both tables are tertiary citations of Ihesinachi and Eresiya 2014.
 - Palladium framing flagged on both Wale papers; downstream metal-page synthesis should not treat the Wale series as evidence supporting Pd-in-produce surveillance.
+- Audit subagent (2026-06-07) flagged dual `ingredients/fruit` + `ingredients/fruits` listing as a snapshot-level singular/plural duplication; reconciled to plural-only `fruits` to match the wale2023-heavy-metals-fruits-vegetables-overview sibling pattern.
 
 ## Wiki pages updated on ingest
 
@@ -108,6 +109,5 @@ Single-author narrative review of laboratory digestion methodology, 6 printed pa
 - [[metals/manganese]]
 - [[metals/cobalt]]
 - [[metals/zinc]]
-- [[ingredients/fruit]]
 - [[ingredients/fruits]]
 - [[ingredients/fruit-juice]]
