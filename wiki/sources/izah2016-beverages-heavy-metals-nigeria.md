@@ -34,30 +34,30 @@ This is a narrative review with no new measurements. All values reported below a
 
 ### Table 1 — Non-alcoholic beverages (mg/L unless noted)
 
-Compiled by Izah et al. from 13 underlying Nigerian studies. Categories below describe the beverage type as the review names it; brand names appearing in the source tables are omitted per CLAUDE.md Part 12 brand-firewall.
+Compiled by Izah et al. from 13 underlying Nigerian studies. Categories below describe the beverage type at the product-form / category level; brand names appearing in the source tables are omitted per CLAUDE.md Part 12 brand-firewall (strict reading locked 2026-05-17).
 
 | Beverage category (review's grouping) | Fe | Zn | Cd | Cr | Pb | Hg | Cu | Ni | Mn | Sn | As | Ag | Sb |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Soft drinks (n=10 selected) | 0.08–0.55 | 0.011–2.28 | ND–0.01 | – | ND–0.04 | – | 0.04–0.79 | – | – | – | ND–0.01 | – | – |
-| Non-alcoholic mixed (ferrous, schnapps, spirite, cocacola, Amstel, malta, Fanta, malta Guinness, Maltina) | 0.572–1.734 | 0.001–7.38 | ND–0.26 | ND–0.026 | ND–0.447 | – | ND–3.256 | ND–0.272 | – | – | ND–0.141 | – | – |
+| Ten selected soft drinks | 0.08–0.55 | 0.011–2.28 | ND–0.01 | – | ND–0.04 | – | 0.04–0.79 | – | – | – | ND–0.01 | – | – |
+| Non-alcoholic mixed soft and malt drinks | 0.572–1.734 | 0.001–7.38 | ND–0.26 | ND–0.026 | ND–0.447 | – | ND–3.256 | ND–0.272 | – | – | ND–0.141 | – | – |
 | Milk candy and fruit concentrates | 0.61–1.99 | – | ND–0.07 | ND–0.001 | ND–0.28 | – | 0.01–3.68 | – | – | – | – | – | – |
 | Juice and milk shake | 0.50–1.88 | – | 0.08–0.12 | 0.06–0.57 | 0.20–1.21 | – | 0.01–0.03 | – | – | – | – | – | – |
 | Herbal drink (agbo jedi jedi) aqueous | – | 0.46 | 0.59 | – | ND | ND | 3.55 | 6.38 | ND | – | – | – | – |
-| Fruit juice and soft drinks (broad mixed list, 38 brands per source) | – | – | – | – | – | 2.39 | – | – | – | 3.66 | – | – | 0.49 |
-| Soft drinks (n=24 selected) | 0.10–3.81 | 0.02–2.42 | ND–0.03 | ND–0.10 | ND–0.05 | – | 0.07–2.20 | – | – | – | – | – | – |
-| Soft drinks (broad mixed list, 21 brands) | – | – | 0.00–0.149 | – | 0.00–3.392 | ND–11.33 | – | – | – | – | – | – | – |
-| Canned soft drinks (n=4 brands) | – | – | – | – | – | – | – | – | – | <0.01–0.31 | – | – | – |
-| Canned milk beverages (Olympic and Three Crown milk) | – | – | – | – | – | – | – | – | – | 217.6–516.0 | – | – | – |
-| Canned beverages (peak, milo, five alive juice) | – | – | – | – | – | – | – | – | – | <0.01 | – | – | – |
-| Soft drinks (n=20 brands) | – | ND | ND–0.158 | ND–2.33 | ND–0.002 | – | – | ND–0.063 | – | – | – | ND | – |
-| Canned beverages (broad mixed list, 19 brands) | – | – | – | 0.04–0.59 | – | – | – | – | – | 0.003–0.161 | – | – | – |
-| Canned beverages (broad mixed list, 22 brands) | – | – | – | 0.01–0.55 | – | – | – | – | – | 0.002–0.261 | – | – | – |
-| Canned beverages (broad mixed list, 19 brands) | 0.02–2.460 | – | – | – | – | – | – | 0.013–0.993 | 0.001–0.730 | – | – | – | – |
-| Canned beverages (broad mixed list, 22 brands) | 0.02–2.09 | – | – | – | – | – | – | 0.009–0.938 | 0.001–0.209 | – | – | – | – |
+| Fruit juices and soft drinks (broad mixed list) | – | – | – | – | – | 2.39 | – | – | – | 3.66 | – | – | 0.49 |
+| Twenty-four selected soft drinks | 0.10–3.81 | 0.02–2.42 | ND–0.03 | ND–0.10 | ND–0.05 | – | 0.07–2.20 | – | – | – | – | – | – |
+| Soft drinks and packaged juices (broad mixed list) | – | – | 0.00–0.149 | – | 0.00–3.392 | ND–11.33 | – | – | – | – | – | – | – |
+| Canned soft drinks (broad mixed list) | – | – | – | – | – | – | – | – | – | <0.01–0.31 | – | – | – |
+| Canned milk beverages | – | – | – | – | – | – | – | – | – | 217.6–516.0 | – | – | – |
+| Canned dairy and juice beverages | – | – | – | – | – | – | – | – | – | <0.01 | – | – | – |
+| Twenty soft drinks | – | ND | ND–0.158 | ND–2.33 | ND–0.002 | – | – | ND–0.063 | – | – | – | ND | – |
+| Canned beverages (broad mixed list) | – | – | – | 0.04–0.59 | – | – | – | – | – | 0.003–0.161 | – | – | – |
+| Non-canned beverages (broad mixed list) | – | – | – | 0.01–0.55 | – | – | – | – | – | 0.002–0.261 | – | – | – |
+| Canned beverages (broad mixed list) | 0.02–2.460 | – | – | – | – | – | – | 0.013–0.993 | 0.001–0.730 | – | – | – | – |
+| Non-canned beverages (broad mixed list) | 0.02–2.09 | – | – | – | – | – | – | 0.009–0.938 | 0.001–0.209 | – | – | – | – |
 
 SON drinking-water limit row (Table 1, reference [37]): Fe 0.3 / Zn 3 / Cd 0.003 / Cr 0.05 / Pb 0.01 / Hg 0.001 / Cu 1 / Ni 0.02 / Mn 0.2 / As 0.01 mg/L. WHO drinking-water guideline row (Table 1, reference [38]): Cd 0.003 / Cr 0.05 / Pb 0.01 / Hg 0.001 / Cu 2 / Ni 0.07 / Sn 0.002 / As 0.01 / Sb 0.02 mg/L. The review applies these drinking-water values as reference limits for beverages.
 
-Tin values for canned milk beverages (217.6–516.0) and for the broad canned soft-drink lists (0.003–0.261) are reported as µg/mL by the underlying source (Eno-obong and Ukoha 2013, reference [54]); 1 µg/mL is numerically equal to 1 mg/L for these units. The 217.6–516.0 µg/mL canned-milk range is more than five orders of magnitude above the WHO 0.002 mg/L drinking-water Sn limit; the review does not explicitly flag this magnitude gap and reports the value as the underlying source published it.
+The four asterisked rows in PDF Table 1 (fruit juices and soft drinks broad mixed list, canned soft drinks broad mixed list, canned milk beverages, and canned dairy and juice beverages) are reported as µg/mL per the table footnote "* Expressed as µg/mL"; the underlying sources for these four rows are Roberts and Orisakwe 2011 (reference [26]) and Eno-obong and Ukoha 2013 (reference [54]). 1 µg/mL is numerically equal to 1 mg/L for these units, so the canned-milk Sn range of 217.6–516.0 µg/mL is more than five orders of magnitude above the WHO 0.002 mg/L drinking-water Sn limit; the review does not explicitly flag this magnitude gap and reports the value as the underlying source published it. The two non-asterisked Sn rows reported by Maduabuchi et al. 2007 (reference [40]; 0.003–0.161 and 0.002–0.261) are in mg/L per the table header.
 
 ### Table 2 — Alcoholic beverages (mg/L)
 
@@ -66,9 +66,9 @@ Compiled by Izah et al. from 5 underlying Nigerian studies.
 | Beverage category | Fe | Zn | Cd | Cr | Pb | Cu | Ni | Mn | As |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Herbal drink (agbo jedi jedi) ethanolic | – | 0.58 | 0.39 | – | ND | 3.12 | 1.53 | ND | – |
-| Beer / lager / stout / spirit composite (n=8 brand mix) | 1.093–2.455 | 0.007–0.227 | 0.006–0.104 | ND–0.002 | ND–0.081 | <0.001–0.671 | 0.184–0.273 | – | ND–0.20 |
-| Canned beer (n=8 brand mix) | 0.23–0.56 | 0.08–0.15 | 0.003–0.008 | 0.17–0.34 | 0.023–0.045 | 0.04–0.08 | 0.04–0.10 | – | – |
-| Beer / lager (n=5 brand mix) | 0.05–0.50 | ND–0.643 | – | – | ND | ND–0.10 | – | – | – |
+| Beer / lager / stout / spirit composite | 1.093–2.455 | 0.007–0.227 | 0.006–0.104 | ND–0.002 | ND–0.081 | <0.001–0.671 | 0.184–0.273 | – | ND–0.20 |
+| Canned beer composite | 0.23–0.56 | 0.08–0.15 | 0.003–0.008 | 0.17–0.34 | 0.023–0.045 | 0.04–0.08 | 0.04–0.10 | – | – |
+| Beer / lager composite | 0.05–0.50 | ND–0.643 | – | – | ND | ND–0.10 | – | – | – |
 | Locally brewed gin ("ufofp" / "ogogoro") | 6.00–28.50 | 0.33–5.00 | – | – | 3.00–6.75 | 3.16–6.21 | – | – | – |
 
 SON and WHO drinking-water limit rows reproduced unchanged from Table 1.
@@ -131,7 +131,7 @@ Evidence tier set to C. The source is a narrative review (no new data, no system
 
 ## Verification notes
 
-No brand names appear in the source-page body. The underlying Tables 1 and 2 in the source PDF name many commercial brands of Nigerian and imported beverages (soft drinks, fruit drinks, malt drinks, beers, gins) as the sample sets the underlying primary studies analysed. Per CLAUDE.md Part 12 brand-firewall (strict reading locked 2026-05-17), brand-by-brand listings are not reproduced in the wiki. The Tables 1 and 2 reproduced above describe each row at the product-form / category level the underlying source used (e.g., "Soft drinks (n=24 selected)", "Canned beer (n=8 brand mix)"); brand names are dropped. Where the original review row was anchored to a specific instrument / supplier (e.g., canned milk beverages "Olympic and Three Crown milk" at 217.6–516.0 µg/mL Sn), the row is summarised as "Canned milk beverages" without the brand names.
+No brand names appear in the source-page body. The underlying Tables 1 and 2 in the source PDF name many commercial brands of Nigerian and imported beverages (soft drinks, fruit drinks, malt drinks, beers, gins) as the sample sets the underlying primary studies analysed. Per CLAUDE.md Part 12 brand-firewall (strict reading locked 2026-05-17), brand-by-brand listings are not reproduced in the wiki. The Tables 1 and 2 reproduced above describe each row at the product-form / category level (e.g., "Twenty-four selected soft drinks", "Canned beer composite"); brand names are dropped throughout, including the underlying Eno-obong and Ukoha 2013 row originally labelled "Olympic and Three Crown milk" (now "Canned milk beverages") and the underlying ref [54] row originally labelled "peak, milo and five alive juice drink" (now "Canned dairy and juice beverages"). The brand-count annotations ("n=8 brand mix", "21 brands", "38 brands per source") that appeared in an earlier revision of this page were wiki-introduced numbers that did not match the PDF brand lists; they have been removed.
 
 The source tin value of 217.6–516.0 µg/mL for canned milk beverages (Eno-obong and Ukoha 2013, reference [54]) is verified against page 7 of the source PDF (Table 1) and is reproduced as the review prints it. The magnitude (≥217.6 mg/L, more than 100,000× the WHO 0.002 mg/L drinking-water Sn guideline) is implausibly high for a finished canned milk product and likely reflects a unit-of-measure or significant-figure issue in the underlying Eno-obong and Ukoha 2013 paper; the review does not flag this and does not propose a correction. The value is reported here as the review prints it; any future direct ingest of the Eno-obong and Ukoha paper should re-derive the canned-milk tin concentration from the original measurements and units.
 
@@ -148,3 +148,5 @@ The `matrices:` list includes non-alcoholic-beverages and alcoholic-beverages (t
 The `jurisdictions:` list includes NG (Nigeria, the review's geographic scope) and GLOBAL (because the SON and WHO drinking-water guideline rows used as the reference frame are international and because the imported beverages tabulated come from South Korea, China, South Africa, UAE, Germany, Belgium, Hong Kong, Pakistan, Thailand, Holland, USA, and Nigeria itself). No specific other-country jurisdiction is added because the review groups all imported beverages under the same Nigerian-consumption frame.
 
 No HMTc threshold proposals, no consumer-audience translations, no risk advisories, and no synthesis claims of the form "this confirms the literature consensus that..." appear in the body, per CLAUDE.md Part 2 wiki/HMTc firewall.
+
+Audit subagent (2026-06-06) raised three ❌ Part 12 findings against the initial revision (three Table 1 row labels still carrying brand names: "cocacola/Amstel/Fanta/malta Guinness/Maltina"; "Olympic and Three Crown milk"; "peak/milo/five alive juice"). All three verified against PDF page 7 and applied: each row label was rewritten to the product-form descriptor alone, matching the strict reading. The audit also raised three ⚠️ Check 1 findings against the Sn-units note: (1) the parenthetical "(0.003–0.261)" was a compression of two separate ref-[40] rows; (2) attribution to "Eno-obong and Ukoha 2013, reference [54]" was wrong because those two Sn values are reference [40] (Maduabuchi et al. 2007); (3) the µg/mL unit claim does not match the PDF asterisk-scoped footnote (ref-[40] rows are not asterisked, so are in mg/L per the table header). All three verified against PDF page 8 and applied: the note was rewritten to scope the µg/mL footnote to the four asterisked rows only and to clarify that the two ref-[40] rows are in mg/L. The audit also raised ⚠️ findings on five wiki-introduced brand-mix counts (n=8 / n=8 / n=5 for Table 2; "21 brands" and "38 brands per source" for Table 1) that did not match the PDF brand lists; all five verified against PDF pages 7 and 9 and applied by removing the count annotations rather than recounting (the source itself does not number the brand mixes, and reintroducing counts would be wiki annotation rather than source content).
