@@ -116,7 +116,7 @@ CDI formula reported by the source: CDI = Cm × EDI × EFi × IR / Bw × AT, whe
 
 THQ formula reported by the source: THQ = CDI / RfD; CDI = Chronic Daily Intake, RfD = Reference Oral Dose.
 
-Per-analyte THQ ranges: Pb 0.029–0.286 (eleven of eleven THQ <1); Cd uniformly 0.11 (1.1 × 10⁻¹) across all samples (computed from the censored Cd <0.002 mg L⁻¹ measurement); Fe 0.143–8.000 (six of eleven samples Fe THQ ≥1, namely D1, D2, D4, D6, D7, D10, and D11 — i.e., seven samples by a literal reading of the Fe THQ column); Zn 0–0.0167.
+Per-analyte THQ ranges: Pb 0.029–0.286 (eleven of eleven THQ <1); Cd uniformly 0.11 (1.1 × 10⁻¹) across all samples (computed from the censored Cd <0.002 mg L⁻¹ measurement); Fe 0.143–8.000 (eight of eleven samples Fe THQ ≥1, namely D1, D2, D4, D6, D7, D9, D10, and D11); Zn 0–0.0167.
 
 ### Regulatory and comparator anchors cited by the authors
 
@@ -208,3 +208,5 @@ Open-access article distributed under CC BY 4.0 (license declaration on p. 1 of 
 4. The EDI values in Table 2 are approximately 1,000× the value the Table 2 footnote's formula would yield; a unit-basis or scaling factor not stated in the footnote appears to have been applied. The Table 1 raw concentrations are the authoritative dataset; the Table 2/3/4 downstream computations are recorded as the source presents them but are flagged as not arithmetically reproducible from the stated formulas and not pool-eligible.
 5. The Cd EDI column reports a uniform 0.001 mg L⁻¹ for all eleven samples despite all Cd concentrations being censored at <0.002 mg L⁻¹; the source has propagated a single below-detection value through the EDI computation without flagging the censoring.
 6. The Conclusion characterizes the result as "no carcinogenic health potential risks" despite (a) every sample exceeding the WHO 0.01 mg L⁻¹ Pb permissible limit and (b) the THQ being a non-carcinogenic-hazard quotient, not a carcinogenic-risk metric. Recorded faithfully; not framed as a wiki-side risk advisory.
+
+**Audit application (2026-06-06).** Fresh-context Agent subagent audit (verdict PROMOTE; all five checks ✅ clean with one ⚠️ minor on Check 1 Fe-THQ enumeration wording). Independent re-verification of the Fe THQ column against Table 4 confirmed eight of eleven samples (D1, D2, D4, D6, D7, D9, D10, D11) at Fe THQ ≥1; the original page text said "six of eleven" with a parenthetic self-correction to seven, and the audit subagent independently arrived at seven. Both pre-correction wordings under-counted because D9 (Fe THQ = 1.143) was missed. Corrected to "eight of eleven" with the full enumeration. No other audit findings warranted page changes.
