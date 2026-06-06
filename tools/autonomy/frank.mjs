@@ -48,8 +48,11 @@ const CFG = {
   ingestPerCycle: 1, // PDFs per ingest stage (ingester is serial; keep small for tight heartbeats)
   fetchEveryCycles: 6,
   synthEveryCycles: 12,
+  discoverEveryCycles: 18, // multi-DB /discover sweep over open gaps (Sonnet; budgeted)
+  discoverMaxGapsPerRun: 1, // one page-group per stage (each covers all open metals on that page); a full /discover sweep is ~12-18m, so keep the stage short and predictable
   ingestTimeoutMs: 32 * 60 * 1000, // ingester spawns one claude --print (25m cap) + overhead
   fetchTimeoutMs: 22 * 60 * 1000, // wishlist fetch has a 15m internal budget
+  discoverTimeoutMs: 26 * 60 * 1000, // 1 page-group × 20m /discover + overhead
   synthTimeoutMs: 20 * 60 * 1000,
   sleepBetweenCyclesMs: 60 * 1000,
   idleSleepMs: 8 * 60 * 1000, // when there is genuinely nothing to do, back off
@@ -305,6 +308,29 @@ async function runFetch() {
   return r
 }
 
+// Multi-DB discovery sweep over open data gaps. The wishlist fetch stage above
+// is OpenAlex+PubMed only and goes dry on hard gaps (heartbeat shows "fetched 0
+// new PDF(s)" while hundreds of gaps stay open). This stage drives the 10-database
+// /discover skill (Crossref + Unpaywall + PMC + Semantic Scholar + CORE resolve OA
+// PDFs OpenAlex misses) headless, gap-driven, budgeted. /discover stages PDFs into
+// raw/Manual Fetch Discovery/ — a manual-fetch root NOT excluded by the ingester's
+// --exclude-roots=auto-fetched — so the very next ingest cycle picks them up.
+// Disable independently of FRANK with `touch ~/.discover.STOP`. Isolated and
+// time-boxed like every stage: a hang here can never stall the loop.
+async function runDiscover() {
+  heartbeat(`multi-DB /discover sweep over open gaps (started ${hhmm()}, hard-stop ${CFG.discoverTimeoutMs / 60000}m)`)
+  log("stage discover: start")
+  const r = await runStage(
+    "discover",
+    [NODE, "tools/autonomy/discover-autopilot.mjs", `--max-gaps=${CFG.discoverMaxGapsPerRun}`, "--model=sonnet", "--timeout-mins=20"],
+    CFG.discoverTimeoutMs,
+  )
+  r.summary = r.timedOut ? "⏱ discover timeout" : r.ok ? summarize(r) : `discover exit ${r.code}`
+  RECENT.push(r)
+  log(`stage discover: ${r.summary} (${Math.round(r.durMs / 1000)}s)`)
+  return r
+}
+
 async function runIngest() {
   heartbeat(`ingesting a paper — full Cochrane workflow (started ${hhmm()}, hard-stop ${CFG.ingestTimeoutMs / 60000}m)`)
   log("stage ingest: start")
@@ -487,6 +513,19 @@ async function main() {
         await runDashboard()
       } catch (e) {
         log(`dashboard stage threw (continuing): ${e.message}`)
+      }
+    }
+
+    // DISCOVER (every 18th cycle) — multi-DB gap closure via the /discover skill.
+    // The driver self-skips when ~/.discover.STOP exists, when no gap is eligible,
+    // or when another trigger holds its lock, so calling it unconditionally here
+    // is safe. This is the second fetch engine: OpenAlex-only wishlist above plus
+    // 10-database /discover here, so hard gaps that OpenAlex can't reach still close.
+    if (cycle % CFG.discoverEveryCycles === 0) {
+      try {
+        await runDiscover()
+      } catch (e) {
+        log(`discover stage threw (continuing): ${e.message}`)
       }
     }
 
