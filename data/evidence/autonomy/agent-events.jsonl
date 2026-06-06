@@ -743,3 +743,12 @@
 {"ts":"2026-06-05T16:04:19Z","actor":"codex","source_path":"raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-ni_2016_10-22079-jmsr-2016-15873.pdf","cite_key":"","status":"skip:not-food-occurrence","commit":"8abca01","blocker":"","next":"triage sweep"}
 {"ts":"2026-06-05T17:12:53Z","actor":"codex","source_path":"raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-ni_2016_10-30509-pccc-2016-75883.pdf","cite_key":"","status":"skip:not-food-occurrence","commit":"83b24be","blocker":"","next":"triage sweep"}
 {"ts":"2026-06-05T17:12:53Z","actor":"codex","source_path":"raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-pb_2021_10-1038-s41467-020-20272-3.pdf","cite_key":"","status":"skip:not-food-occurrence","commit":"83b24be","blocker":"","next":"triage sweep"}
+{"ts":"2026-06-06T05:07:47.920Z","actor":"discover-autopilot","cite_key":"","status":"discover-failed","source_path":"wiki/products/soft-drinks-carbonated-beverages.md","commit":"","blocker":"timeout (9m)","next":""}
+{"ts":"2026-06-06T05:33:01.878Z","actor":"discover-autopilot","cite_key":"","status":"discover-failed","source_path":"wiki/products/fermented-beverages-non-tea-based.md","commit":"","blocker":"timeout (24m)","next":""}
+{"ts":"2026-06-06T06:01:15.224Z","actor":"frank-opus","cite_key":"bora2015-vineyard-wine-heavy-metals-romania","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T06:11:23.497Z","actor":"frank-opus","cite_key":"ciont2022-beer-safety-heavy-metals-review","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T06:19:54.604Z","actor":"frank-opus","cite_key":"durdjic2021-lead-isotopes-wine-origin","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T06:33:26.909Z","actor":"frank-opus","cite_key":"izah2016-beverages-heavy-metals-nigeria","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T06:44:00.980Z","actor":"frank-opus","cite_key":"mahlungulu2023-heavy-metals-grapevine-soil","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T07:08:24.205Z","actor":"frank-opus","cite_key":"tandhanskul2025-kombucha-metabiotics-review","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T07:21:38.966Z","actor":"frank-opus","cite_key":"zhou2025-baijiu-impurities-safety-strategies","status":"ingested","source_path":"","commit":"","blocker":"","next":""}

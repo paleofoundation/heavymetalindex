@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-06T04:36:54.278Z
+updated: 2026-06-06T08:38:24.861Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-414ba4a 4 hours ago — frank-intake: dedup june-1-gems-data (skip-list + novelty)
+c40445f 77 minutes ago — audit-queue: zhou2025-baijiu-impurities-safety-strategies -> audited-promote
 ```
 
 ## How to read this
