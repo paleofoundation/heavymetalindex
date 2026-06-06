@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-06T08:38:24.861Z
+updated: 2026-06-06T12:30:55.009Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -36,7 +36,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
 | Commits last 1 hour | 0 |
-| Commits last 24 hours | 74 |
+| Commits last 24 hours | 67 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-c40445f 77 minutes ago — audit-queue: zhou2025-baijiu-impurities-safety-strategies -> audited-promote
+8e3381a 63 minutes ago — audit-queue: babayo2026-heavy-metals-energy-drinks-nigeria -> audited-revised
 ```
 
 ## How to read this

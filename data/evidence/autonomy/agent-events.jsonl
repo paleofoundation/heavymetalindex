@@ -752,3 +752,7 @@
 {"ts":"2026-06-06T06:44:00.980Z","actor":"frank-opus","cite_key":"mahlungulu2023-heavy-metals-grapevine-soil","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-06T07:08:24.205Z","actor":"frank-opus","cite_key":"tandhanskul2025-kombucha-metabiotics-review","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-06T07:21:38.966Z","actor":"frank-opus","cite_key":"zhou2025-baijiu-impurities-safety-strategies","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T10:44:39.725Z","actor":"discover-autopilot","cite_key":"","status":"discovered","source_path":"wiki/products/soft-drinks-carbonated-beverages.md","commit":"","blocker":"","next":"awaiting-ingest:Manual Fetch Discovery (3 PDF)"}
+{"ts":"2026-06-06T11:04:30.034Z","actor":"frank-opus","cite_key":"czarnek2024-heavy-metals-energy-drinks","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T11:15:41.951Z","actor":"frank-opus","cite_key":"koga2021-tin-arsenic-lead-soft-drinks","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T11:28:13.628Z","actor":"frank-opus","cite_key":"babayo2026-heavy-metals-energy-drinks-nigeria","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
