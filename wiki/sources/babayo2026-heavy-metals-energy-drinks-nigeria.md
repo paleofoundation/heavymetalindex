@@ -18,7 +18,7 @@ ingredients: []
 products: ["[[products/sports-energy-drinks]]"]
 matrices: [energy-drinks, energy-drink-powder]
 jurisdictions: [NG]
-near_duplicates: []
+near_duplicates: ["[[hamza2025-heavy-metals-energy-drinks-nigeria]]", "[[hamza2026-heavy-metals-energy-drinks-health-risk]]"]
 sample_n: 30
 sample_population: "Thirty commercially available energy-drink samples purchased from supermarkets, retail stores, and street vendors in Nigeria, comprising 23 liquid formulations (sample codes SY, RB, PH, PW, XC, HS, 3H, WB, BR, HD, BH, OR, SD, BS, ME, VE, FL, PR, SK, IP, MP, AR, CX) and 7 powdered formulations (EJ, KR, KK, PS, PE, AL, ES). Different brands, batch numbers, and production dates were considered; brand identities are not disclosed in the source."
 updated: 2026-06-06
