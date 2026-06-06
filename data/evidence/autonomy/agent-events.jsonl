@@ -756,4 +756,4 @@
 {"ts":"2026-06-06T11:04:30.034Z","actor":"frank-opus","cite_key":"czarnek2024-heavy-metals-energy-drinks","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-06T11:15:41.951Z","actor":"frank-opus","cite_key":"koga2021-tin-arsenic-lead-soft-drinks","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-06T11:28:13.628Z","actor":"frank-opus","cite_key":"babayo2026-heavy-metals-energy-drinks-nigeria","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
-{"ts":"2026-06-06T14:38:50Z","actor":"codex","source_path":"raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-chitosan-al_2018_10-1007-s12161-018-1208-z.pdf","cite_key":"","status":"skip:no-heavy-metal-data","commit":"pending","blocker":"","next":"triage sweep"}
+{"ts":"2026-06-06T14:38:50Z","actor":"codex","source_path":"raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-chitosan-al_2018_10-1007-s12161-018-1208-z.pdf","cite_key":"","status":"skip:no-heavy-metal-data","commit":"b27077b","blocker":"","next":"triage sweep"}
