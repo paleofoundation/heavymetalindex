@@ -757,3 +757,10 @@
 {"ts":"2026-06-06T11:15:41.951Z","actor":"frank-opus","cite_key":"koga2021-tin-arsenic-lead-soft-drinks","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-06T11:28:13.628Z","actor":"frank-opus","cite_key":"babayo2026-heavy-metals-energy-drinks-nigeria","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-06T14:38:50Z","actor":"codex","source_path":"raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-chitosan-al_2018_10-1007-s12161-018-1208-z.pdf","cite_key":"","status":"skip:no-heavy-metal-data","commit":"b27077b","blocker":"","next":"triage sweep"}
+{"ts":"2026-06-06T16:55:16.915Z","actor":"discover-autopilot","cite_key":"","status":"discovered","source_path":"wiki/products/sports-energy-drinks.md","commit":"","blocker":"","next":"awaiting-ingest:Manual Fetch Discovery (6 PDF)"}
+{"ts":"2026-06-06T17:10:28.925Z","actor":"frank-opus","cite_key":"alsayyed2024-heavy-metals-energy-drinks-jordan","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T17:20:19.370Z","actor":"frank-opus","cite_key":"bunu2023-heavy-metals-energy-drinks-bayelsa","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T17:32:57.918Z","actor":"frank-opus","cite_key":"bunu2023-heavy-metals-energy-drinks-kogi","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T17:46:22.600Z","actor":"frank-opus","cite_key":"hamza2025-heavy-metals-energy-drinks-nigeria","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T18:01:10.088Z","actor":"frank-opus","cite_key":"hamza2026-heavy-metals-energy-drinks-health-risk","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T18:12:23.694Z","actor":"frank-opus","cite_key":"yahaya2022-heavy-metals-energy-drinks-birnin-kebbi","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
