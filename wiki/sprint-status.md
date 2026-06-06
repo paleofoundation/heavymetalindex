@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-05T19:21:26.261Z
+updated: 2026-06-06T00:10:47.173Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -36,7 +36,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
 | Commits last 1 hour | 0 |
-| Commits last 24 hours | 101 |
+| Commits last 24 hours | 89 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-d524d62 81 minutes ago — restore tools/build-ingredient-index.mjs — fixes every Vercel build since 16h ago
+49a1cd8 5 hours ago — frank: dashboard + gap-metric + ledger refresh
 ```
 
 ## How to read this
