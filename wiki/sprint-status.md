@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-06T12:30:55.009Z
+updated: 2026-06-06T16:42:59.603Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -29,14 +29,14 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Component | State |
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
-| auto-fetched/ PDFs in queue | 491 (fresh work for Codex/daemon ingest) |
+| auto-fetched/ PDFs in queue | 492 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 2 ✅ |
 | Audit queue: pending-audit-spawn-failed | 97 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
 | Commits last 1 hour | 0 |
-| Commits last 24 hours | 67 |
+| Commits last 24 hours | 51 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-8e3381a 63 minutes ago — audit-queue: babayo2026-heavy-metals-energy-drinks-nigeria -> audited-revised
+1ca3eb0 77 minutes ago — source-legend: drain awaiting-synthesis backlog + wire populator into prebuild
 ```
 
 ## How to read this
