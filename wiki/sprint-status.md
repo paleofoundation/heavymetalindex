@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-06T00:10:47.173Z
+updated: 2026-06-06T04:36:54.278Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -36,7 +36,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
 | Commits last 1 hour | 0 |
-| Commits last 24 hours | 89 |
+| Commits last 24 hours | 74 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-49a1cd8 5 hours ago — frank: dashboard + gap-metric + ledger refresh
+414ba4a 4 hours ago — frank-intake: dedup june-1-gems-data (skip-list + novelty)
 ```
 
 ## How to read this
