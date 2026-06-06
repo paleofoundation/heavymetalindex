@@ -123,7 +123,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/bezrodnykh2023-crayfish-chitosan-residual-metals\|Bezrodnykh et al. 2023]]. *A Walkway from Crayfish to Oligochitosan*, Applied Sciences | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/bezrodnykh2023-crayfish-chitosan-residual-metals\|Bezrodnykh et al. 2023]]. *A Walkway from Crayfish to Oligochitosan*, Applied Sciences | 2023 | Peer-reviewed | RU Fe, Cr, Ni, Pb, Cd, tHg, tAs, Al occurrence in One laboratory processing batch from 4 kg fresh-frozen narrow-toed crayfish (Actacus leptodactylus) bought on a local market and... (n=1) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -133,5 +133,8 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [2b356c7](https://github.com/paleofoundation/heavymetalindex/commit/2b356c7) | 2026-06-02 | ingest June 2: bezrodnykh2023-crayfish-chitosan-residual-metals |
 <!-- END: hmi-page-history -->

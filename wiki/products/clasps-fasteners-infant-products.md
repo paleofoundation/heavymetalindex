@@ -106,8 +106,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/cirs2023-reach-annex-xvii-restrictions\|CIRS – C&K Testing (Hangzhou C&K Testing Technic Co. 2023]]. *REACH ANNEX XVII — Restrictions on the Manufacture, Placing on the Market and Use of Certain Dangerous Substances, Mixtures and Articles*, CIRS – C&K Testing (Hangzhou C&K Testing Technic Co., Ltd), Hangzhou, China; downloadable consolidated reproduction of Annex XVII to EU REACH Regulation (EC) No 1907/2006; document header states 'Last update: 2023-07-17'. 64 pages, two-column 'Column 1 (substance or group) / Column 2 (conditions of restriction)' tabular layout reproducing entries 1 through 77. | 2023 | Industry | *[awaiting synthesis]* |
-| 2 | [[sources/hohenstein2023-en-1811-2023-nickel-release\|Hohenstein 2023]]. *EU Releases New Standard For Nickel EN 1811:2023*, Hohenstein Technical Bulletin (Bönnigheim, Germany; June 2023) | 2023 | Industry | *[awaiting synthesis]* |
+| 1 | [[sources/cirs2023-reach-annex-xvii-restrictions\|CIRS – C&K Testing (Hangzhou C&K Testing Technic Co. 2023]]. *REACH ANNEX XVII — Restrictions on the Manufacture, Placing on the Market and Use of Certain Dangerous Substances, Mixtures and Articles*, CIRS – C&K Testing (Hangzhou C&K Testing Technic Co., Ltd), Hangzhou, China; downloadable consolidated reproduction of Annex XVII to EU REACH Regulation (EC) No 1907/2006; document header states 'Last update: 2023-07-17'. 64 pages, two-column 'Column 1 (substance or group) / Column 2 (conditions of restriction)' tabular layout reproducing entries 1 through 77. | 2023 | Industry | EU Pb, Cd, tHg, iHg, Cr-VI, Ni, tAs, Sn occurrence in Not a primary-measurement study. The document is a third-party reproduction of Annex XVII to EU REACH Regulation (EC)... |
+| 2 | [[sources/hohenstein2023-en-1811-2023-nickel-release\|Hohenstein 2023]]. *EU Releases New Standard For Nickel EN 1811:2023*, Hohenstein Technical Bulletin (Bönnigheim, Germany; June 2023) | 2023 | Industry | EU Ni occurrence in Industry technical bulletin. No primary sampling or measurement. Summarises the published CEN standard EN 1811:2023 and identifies four... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -117,9 +117,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

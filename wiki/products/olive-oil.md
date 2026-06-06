@@ -11,12 +11,19 @@ exposure_pathway: "Ingestion (oral, typically small serving sizes)"
 regulatory_jurisdiction: "FDA, EU, Codex"
 panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
-products_status: scaffold
-splits_locked: false
+products_status: locked
+splits_locked: true
 literature_scope: thin
 sources: 21
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-06-02
+variant_type: independent
+step0_lock_date: 2026-06-02
+step0_lock_doc: docs/governance/category-7-step0-lock.md
+step0_basis: "literature-baseline (Pb·Cd·tAs·Ni); regulatory-alignment (iAs·tHg·Cr·Sn·Al)"
+step0_confidence: medium-high
+across_row_review_hook: "origin region; refined vs unrefined"
+primary_metals_of_concern: [Pb, Cd, tAs, Ni]
 ---
 # Olive oil
 
@@ -57,7 +64,20 @@ The applicable regulatory jurisdictions for this row are: **FDA, EU, Codex**.
 ## Literature Evidence Summary
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-*Pending ingest. The routing layer will surface direct-row-fit sources here as they are added to the corpus with `products: [olive-oil]` in source-page frontmatter.*
+## Literature Evidence Summary
+
+<!-- audience: regulator, educator, consumer, app -->
+
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Olive oil. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
+
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | Olive oil (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | 100 ppb | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Olive oil (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/arsenic-total\|tAs]] | Olive oil (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/nickel\|Ni]] | Olive oil (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -107,25 +127,25 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates\|Charfi et al. 2026]]. *Food safety in the production of olive oils. Presence of heavy metals and phthalic acid esters using different types of packaging*, Journal of Food Science and Technology | 2026 | Peer-reviewed | ES Pb, Cd, tAs, Ni, Cr, Al, Cu, Zn, Fe, Sb, Mn, Mg occurrence in Commercial Spanish olive oil samples (extra virgin, virgin, olive oil, olive pomace oil) purchased from the Spanish market... (n=18) |
-| 2 | [[sources/abedi2025-edible-oils-bleaching-review\|Abedi et al. 2025]]. *Comparison Between Emerging and Conventional Methods for Edible Oils Bleaching*, Food Science & Nutrition | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/matei2025-vegetable-oils-romania-gfaas\|Matei et al. 2025]]. *Physicochemical Properties, Trace Elements, and Health Risk Assessment of Edible Vegetable Oils Consumed in Romania*, Applied Sciences | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/ntigoroku2025-delta-state-edible-oils-metals\|Ntigoroku et al. 2025]]. *Physicochemical Properties, Heavy Metals levels and Health Risk Assessment of selected Edible Oils purchased from major markets in Delta State, Nigeria*, Journal of Applied Sciences and Environmental Management | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 5 | [[sources/sallam2025-olive-oil-libya-traditional-modern\|Sallam et al. 2025]]. *Traditional vs. Modern Olive Oil Extraction in Libya: A Comparative Study of Fatty Acids and Heavy Metal Contamination*, The North African Journal of Scientific Publishing (NAJSP) | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 6 | [[sources/lin2024-edible-oils-taiwan-12-metals\|S-T et al. 2024]]. *Determination, distribution, and health risk assessment of 12 heavy metals in various edible oils in Taiwan*, JSFA Reports | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/abedi2025-edible-oils-bleaching-review\|Abedi et al. 2025]]. *Comparison Between Emerging and Conventional Methods for Edible Oils Bleaching*, Food Science & Nutrition | 2025 | Peer-reviewed | Pb, Cd, Ni, Cr, Co, Al, Cu, Fe occurrence in Narrative review of published literature on industrial and emerging bleaching technologies for edible vegetable oils. No primary measurements;... |
+| 3 | [[sources/matei2025-vegetable-oils-romania-gfaas\|Matei et al. 2025]]. *Physicochemical Properties, Trace Elements, and Health Risk Assessment of Edible Vegetable Oils Consumed in Romania*, Applied Sciences | 2025 | Peer-reviewed | RO Pb, Cd, Cu, Cr, Co, Mn, Ni occurrence in 24 edible vegetable oil samples (three samples each of eight oil types: sunflower, grapeseed, extra virgin olive, organic... (n=24) |
+| 4 | [[sources/ntigoroku2025-delta-state-edible-oils-metals\|Ntigoroku et al. 2025]]. *Physicochemical Properties, Heavy Metals levels and Health Risk Assessment of selected Edible Oils purchased from major markets in Delta State, Nigeria*, Journal of Applied Sciences and Environmental Management | 2025 | Peer-reviewed | NG Cd, Cr, Pb, Cu occurrence in Twenty edible vegetable oil samples purchased from major markets in Delta State, Nigeria, grouped as sunflower oil, soybean... (n=20) |
+| 5 | [[sources/sallam2025-olive-oil-libya-traditional-modern\|Sallam et al. 2025]]. *Traditional vs. Modern Olive Oil Extraction in Libya: A Comparative Study of Fatty Acids and Heavy Metal Contamination*, The North African Journal of Scientific Publishing (NAJSP) | 2025 | Peer-reviewed | LY Pb, Cd, tAs, tHg occurrence in Olive oil and olive mill wastewater (OMWW) collected from one traditional (manual/mechanical pressing, no temperature control or centrifugation)... (n=12) |
+| 6 | [[sources/lin2024-edible-oils-taiwan-12-metals\|S-T et al. 2024]]. *Determination, distribution, and health risk assessment of 12 heavy metals in various edible oils in Taiwan*, JSFA Reports | 2024 | Peer-reviewed | TW tAs, Pb, Cd, Ni, V, Cr, Co, Cu, Fe, Zn, Mn, Ba occurrence in 12 types of refined commercial edible oils (n=25 samples) and 12 types of unrefined (cold-pressed/virgin) commercial edible oils... (n=50) |
 | 7 | [[sources/vella2024-malta-olive-cultivars-aas\|Vella et al. 2024]]. *Investigation on the Concentration of Heavy Metals found in Local Olives and Waste Material through AAS*, MCAST Journal of Applied Research & Practice, Vol. 8, Issue 2 | 2024 | Peer-reviewed | MT Cd, Ni, Fe, Cu, Co, Zn occurrence in Four olive cultivars (Carolea, Cipressina, Leccino, Bidni) from a single Maltese cultivator, with each cultivar sampled across four... (n=4) |
-| 8 | [[sources/bodur2023-olive-oil-inorganic-arsenic-speciation\|Bodur et al. 2023]]. *Spray assisted preconcentration method combined with HPLC - Continuous flow hydride generation - FAAS for inorganic arsenic speciation in olive oil samples*, Journal of Food Composition and Analysis | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/bodur2023-olive-oil-inorganic-arsenic-speciation\|Bodur et al. 2023]]. *Spray assisted preconcentration method combined with HPLC - Continuous flow hydride generation - FAAS for inorganic arsenic speciation in olive oil samples*, Journal of Food Composition and Analysis | 2023 | Peer-reviewed | TR iAs occurrence in Two olive oil samples supplied from the local market in Istanbul, Turkiye; real-sample results were non-detect for arsenite/arsenate... (n=2) |
 | 9 | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|González-Torres et al. 2023]]. *Comparative Study of the Presence of Heavy Metals in Edible Vegetable Oils*, Applied Sciences | 2023 | Peer-reviewed | ES/EU/CN Pb, Cd, Cu, Fe, Ni, Sb occurrence in Systematic literature review: 35 vegetable oil types from 24 countries; studies published 2015–2022; n=64 studies synthesized (n=64) |
 | 10 | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|Nazari et al. 2023]]. *Impacts of Heavy Metals in Seed Crops and Oil Seed on Human Health: A Threat to Food Safety — Review*, Carpathian Journal of Food Science and Technology, 15(2), 106-124 | 2023 | Review | global/EU/IR Pb, Cd, iAs, tAs, tHg, MeHg, Ni, Cr, Cr-VI occurrence in Narrative literature review of published studies on heavy metal occurrence in oilseeds (sunflower, pumpkin, sesame, rape, mustard, linseed,... |
 | 11 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu et al. 2023]]. *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*, Foods | 2023 | Peer-reviewed | IR/CN/GR Pb, Cd, tAs, Ni, Cr, tHg, Al, Cu, Zn occurrence in Narrative literature review covering heavy metals in fruits and vegetables, milk and dairy, meat, edible oils, wine, and... |
 | 12 | [[sources/kabaran2020-health-risk-olive-oil-cyprus\|Kabaran et al. 2020]]. *Is there any potential health risk of heavy metals through dietary intake of olive oil that produced in Morphou, Cyprus*, Progress in Nutrition | 2020 | Peer-reviewed | CY Pb, Cd, tAs, Ni, Cr, Co, Fe, Cu, Zn occurrence in 27 natural olive oil samples from Morphou and Lefka districts, Northern Cyprus (single harvest); 500 adults aged 30–49... (n=27) |
-| 13 | [[sources/liang-yang2019-olive-leaves-cu-zn-stress\|Liang et al. 2019]]. *Effects of Zinc and Copper Stress on Antioxidant System of Olive Leaves*, IOP Conference Series: Earth and Environmental Science | 2019 | Peer-reviewed | *[awaiting synthesis]* |
-| 14 | [[sources/luka2019-northern-cyprus-olive-oil-metals\|Luka et al. 2019]]. *Investigation of trace metals in different varieties of olive oils from northern Cyprus and their variation in accumulation using ICP-MS and multivariate techniques*, Environmental Earth Sciences | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 13 | [[sources/liang-yang2019-olive-leaves-cu-zn-stress\|Liang et al. 2019]]. *Effects of Zinc and Copper Stress on Antioxidant System of Olive Leaves*, IOP Conference Series: Earth and Environmental Science | 2019 | Peer-reviewed | CN Cu, Zn occurrence in Annual Olea europaea L. cv. 'Foao' cutting seedlings (plant height ~55-65 cm, soil weight ~3 kg per pot)... (n=50) |
+| 14 | [[sources/luka2019-northern-cyprus-olive-oil-metals\|Luka et al. 2019]]. *Investigation of trace metals in different varieties of olive oils from northern Cyprus and their variation in accumulation using ICP-MS and multivariate techniques*, Environmental Earth Sciences | 2019 | Peer-reviewed | CY Cu, Cd, Pb, Cr, tAs, Ni occurrence in Fifteen olive-oil observations from northern Cyprus, including oils from olives harvested from the ground, olives harvested directly from... (n=15) |
 | 15 | [[sources/ziarati2019-iranian-italian-flavoured-olive-oil\|Ziarati et al. 2019]]. *Determination of Toxic Metals Content in Iranian and Italian Flavoured Olive Oil*, Acta Technologica Agriculturae | 2019 | Peer-reviewed | IR/IT Pb, Cd, Ni, tAs occurrence in Commercial olive oil samples (non-flavoured and flavoured: fungi, aroma vegetables, pepper) purchased from Lombardy, Italy and Tehran, Iran... (n=480) |
-| 16 | [[sources/llorent-martinez2014-olive-oil-extraction-metals-fate\|Llorent-Martínez et al. 2014]]. *Quantitation of Metals During the Extraction of Virgin Olive Oil from Olives Using ICP-MS after Microwave-assisted Acid Digestion*, Journal of the American Oil Chemists' Society | 2014 | Peer-reviewed | *[awaiting synthesis]* |
-| 17 | [[sources/acar2012-vegetable-oils-olives-turkey-etaas\|Acar 2012]]. *Evaluation of cadmium, lead, copper, iron and zinc in Turkish dietary vegetable oils and olives using electrothermal and flame atomic absorption spectrometry*, Grasas y Aceites | 2012 | Peer-reviewed | *[awaiting synthesis]* |
+| 16 | [[sources/llorent-martinez2014-olive-oil-extraction-metals-fate\|Llorent-Martínez et al. 2014]]. *Quantitation of Metals During the Extraction of Virgin Olive Oil from Olives Using ICP-MS after Microwave-assisted Acid Digestion*, Journal of the American Oil Chemists' Society | 2014 | Peer-reviewed | ES/EU Al, V, Cr, Fe, Co, Ni, Cu, tAs, Cd, Sb, Pb occurrence in Picual, Hojiblanca, and Arbequina olive fruits collected January 2012/13 from an irrigated orchard in Jaén (Andalusia), Spain; analyzed... |
+| 17 | [[sources/acar2012-vegetable-oils-olives-turkey-etaas\|Acar 2012]]. *Evaluation of cadmium, lead, copper, iron and zinc in Turkish dietary vegetable oils and olives using electrothermal and flame atomic absorption spectrometry*, Grasas y Aceites | 2012 | Peer-reviewed | TR Pb, Cd, Cu, Fe, Zn occurrence in 53 vegetable oil samples (8 soybean, 12 sunflower, 8 flower-seed, 8 nut, 8 corn, 9 olive) and 70... (n=123) |
 | 18 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*, Asian Journal of Chemistry (Uncorrected Proof) | 2012 | Peer-reviewed | SA Pb, Cd, tAs, Cu, Zn, Fe, Mn occurrence in 161 edible vegetable oil samples (32 corn, 28 sunflower, 21 soybean, 19 sesame, 17 rapeseed, 17 peanut, 27... (n=161) |
-| 19 | [[sources/zhu2011-edible-vegetable-oils-china-8-metals\|Zhu et al. 2011]]. *Health risk assessment of eight heavy metals in nine varieties of edible vegetable oils consumed in China*, Food and Chemical Toxicology | 2011 | Peer-reviewed | *[awaiting synthesis]* |
-| 20 | [[sources/la-pera2010-sicily-olive-oil-metals-selenium\|La et al. 2010]]. *Classification of Sicilian Olive Oils According to Heavy Metal and Selenium Levels Using Canonical Discriminant Analysis (CDA)*, Olives and Olive Oil in Health and Disease Prevention (Elsevier, ISBN 978-0-12-374420-3), Chapter 18, pp. 155–163 | 2010 | Book chapter | *[awaiting synthesis]* |
+| 19 | [[sources/zhu2011-edible-vegetable-oils-china-8-metals\|Zhu et al. 2011]]. *Health risk assessment of eight heavy metals in nine varieties of edible vegetable oils consumed in China*, Food and Chemical Toxicology | 2011 | Peer-reviewed | CN Cu, Zn, Fe, Mn, Cd, Ni, Pb, tAs occurrence in 109 commercial edible vegetable oil samples purchased from Chinese supermarkets during 2009-2010: 13 soybean, 12 corn, 14 peanut,... (n=109) |
+| 20 | [[sources/la-pera2010-sicily-olive-oil-metals-selenium\|La et al. 2010]]. *Classification of Sicilian Olive Oils According to Heavy Metal and Selenium Levels Using Canonical Discriminant Analysis (CDA)*, Olives and Olive Oil in Health and Disease Prevention (Elsevier, ISBN 978-0-12-374420-3), Chapter 18, pp. 155–163 | 2010 | Book chapter | IT Pb, Cd, Cu, Zn, Se occurrence in 49 virgin olive oil samples from three Sicilian PDO/PGI cultivars (Nocellara del Belice n=18; Biancolilla n=18; Cerasuola n=13)... (n=49) |
 | 21 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | TR Pb, Cd, Cu, Fe, Mn, Co, Cr, Ni, Zn occurrence in 17 edible vegetable oil samples from Turkish food markets: soybean, hazelnut, almond, natural olive, riviera olive (3 types),... (n=17) |
 <!-- END: hmi-source-legend -->
 
@@ -136,9 +156,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

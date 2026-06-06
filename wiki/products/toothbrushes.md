@@ -106,9 +106,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/althobiti2021-wheat-miswak-bioaccessible-lead\|Althobiti et al. 2021]]. *An Isotopic Study of Bio-accessible Lead in Wheat, Miswak Toothbrush and Miswak Fruit Using the Continuous On-line Leaching Method with Inductively Coupled Plasma Mass Spectrometry*, Atomic Spectroscopy | 2021 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
-| 3 | [[sources/stringer2001-greenpeace-pvc-children-products\|Stringer et al. 2001]]. *Toxic chemicals in a child's world: an investigation into PVC plastic products*, Greenpeace Research Laboratories, University of Exeter (UK); June 2001 | 2001 | NGO report | *[awaiting synthesis]* |
+| 1 | [[sources/althobiti2021-wheat-miswak-bioaccessible-lead\|Althobiti et al. 2021]]. *An Isotopic Study of Bio-accessible Lead in Wheat, Miswak Toothbrush and Miswak Fruit Using the Continuous On-line Leaching Method with Inductively Coupled Plasma Mass Spectrometry*, Atomic Spectroscopy | 2021 | Peer-reviewed | SA Pb, Cd occurrence in Wheat samples from Saudi Arabia/Dubai contexts plus Miswak toothbrush and Miswak fruit samples evaluated for bio-accessible lead isotope... (n=7) |
+| 2 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | US Sb, tAs, Cd, Cr, Co, Cu, Pb, tHg, Mo, Zn occurrence in 150 component samples submitted for laboratory metals analysis, sub-sampled from 101 children's products purchased from local Washington stores... (n=150) |
+| 3 | [[sources/stringer2001-greenpeace-pvc-children-products\|Stringer et al. 2001]]. *Toxic chemicals in a child's world: an investigation into PVC plastic products*, Greenpeace Research Laboratories, University of Exeter (UK); June 2001 | 2001 | NGO report | AT/BR/CA Pb, Cd, Sn occurrence in 54 vinyl-chloride (PVC or vinyl) consumer products purchased in 20 countries (Austria, Brazil, Canada, Chile, China, Czech Republic,... (n=54) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -118,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

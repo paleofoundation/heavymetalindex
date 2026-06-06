@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 12
+sources: 13
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -101,7 +101,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/boisteanu2024-wild-boar-romania-metals\|P-C et al. 2024]]. *Essential and toxic elements analysis of wild boar tissues from north-eastern Romania and health risk implications*, Frontiers in Sustainable Food Systems | 2024 | Peer-reviewed | RO Pb, Cd, Cu, Zn, Mn occurrence in wild boar harvested in north-eastern Romania |
-| 2 | [[sources/mahdi2024-meat-cooked-utensils-metals\|Mahdi et al. 2024]]. *Detection of some heavy metals in meat cooked in different utensils*, Samarra Journal of Pure and Applied Science | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/mahdi2024-meat-cooked-utensils-metals\|Mahdi et al. 2024]]. *Detection of some heavy metals in meat cooked in different utensils*, Samarra Journal of Pure and Applied Science | 2024 | Peer-reviewed | IQ Fe, Zn, Cu, Cd, Pb, Al occurrence in Meat cooked in clay, iron, copper, aluminium, Tefal/Teflon, and glass/Pyrex utensils in Tikrit, Iraq. (n=6) |
 | 3 | [[sources/lenart2023-wild-boar-metals\|Lénárt et al. 2023]]. *Monitoring of metal content in the tissues of wild boar (Sus scrofa) and its food safety aspect*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | HU Pb, Cd, tAs, tHg, Cr occurrence in 10 female and 10 male wild boars harvested during the regular hunting season (n=20) |
 | 4 | [[sources/pain2023-lead-pheasant-dogfood-uk\|Pain et al. 2023]]. *Lead concentrations in commercial dogfood containing pheasant in the UK*, Ambio | 2023 | Peer-reviewed | GB/EU Pb occurrence in Commercial dogfood products (raw, dried, processed) and raw pheasant meat for human consumption purchased from UK retailers 2021–2022 (n=193) |
 | 5 | [[sources/prevendar-crnic2022-rasa-coal-birds-htes\|Prevendar et al. 2022]]. *Enhanced levels of hazardous trace elements (Cd, Cu, Pb, Se, Zn) in bird tissues in the context of environmental pollution by Raša coal*, Rudarsko-geološko-naftni zbornik (The Mining-Geology-Petroleum Engineering Bulletin) | 2022 | Peer-reviewed | HR/EU Cd, Pb, Cu, Zn, Se occurrence in 20 wild birds collected December 2019 – January 2020 in eastern Istria, Croatia. Raša coal-polluted area (n=12) comprised... (n=20) |
@@ -112,6 +112,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 10 | [[sources/zarski2017-mallard-mercury\|Żarski et al. 2017]]. *The Presence of Mercury in the Tissues of Mallards (Anas platyrhynchos L.) from Włocławek Reservoir in Poland*, Biological Trace Element Research | 2017 | Peer-reviewed | PL tHg occurrence in adult mallards from Włocławek Reservoir in Poland |
 | 11 | [[sources/joyce2016-bush-meat-cooking-ghana\|Joyce et al. 2016]]. *Effects of Different Cooking Methods on Heavy Metals Level in Fresh and Smoked Game Meat*, Journal of Food Processing & Technology | 2016 | Peer-reviewed | GH Pb, Cd, Fe, Zn, Cu, Mn occurrence in Bush-meat carcasses from cane rat (Thryonomys swinderianus) and giant rat sold in Atwemunom Market and Central Market (Kumasi)... (n=35) |
 | 12 | [[sources/paulsen2015-game-meat-metal-bioaccessibility\|Paulsen et al. 2015]]. *Metal contents in the digested and undigested fraction of meat portions from game and pork*, Journal of Food Safety and Food Quality | 2015 | Peer-reviewed | AT Pb, Cu, Zn occurrence in roe deer, wild boar, and pork meat portions assessed for digested and undigested metal fractions |
+| 13 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb occurrence in Aggregated EU occurrence data: 94,126 quantified analytical results across 14 Member States, Norway and three commercial operators (2003–2009),... (n=94126) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -121,9 +122,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

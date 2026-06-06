@@ -128,7 +128,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 2 | [[sources/signes-pastor2022-infant-elements-nhbcs\|Signes-Pastor et al. 2022]]. *Dietary Exposure to Essential and Non-essential Elements During Infants' First Year of Life in the New Hampshire Birth Cohort Study*, Exposure and Health | 2022 | Peer-reviewed | US iAs, Pb, Cd, tHg, Al, Sb, Sn, U, V, Ni, Mo occurrence in New Hampshire Birth Cohort Study infants: subgroup 1 had paired urine samples at approximately 6 weeks and 1... (n=187) |
 | 3 | [[sources/shi2020-rice-based-infant-food-cadmium-arsenic\|Shi et al. 2020]]. *Avoiding Rice-Based Cadmium and Inorganic Arsenic in Infant Diets Through Selection of Products Low in Concentration of These Contaminants*, Exposure and Health 13:229-235 | 2020 | Peer-reviewed | UK/EU Cd, iAs occurrence in Rice-based products available on the UK market, including products labeled for infants and generic rice products that infants... (n=Rice-based baby foods, generic rice crackers/cakes/cereals, and UK-purchased polished rice by origin; exact per-category n is figure/table dependent.) |
 | 4 | [[sources/signes-pastor2017-infant-arsenic-rice-weaning\|Signes-Pastor et al. 2017]]. *Levels of infants' urinary arsenic metabolites related to formula feeding and weaning with rice products exceeding the EU inorganic arsenic standard*, PLOS ONE | 2017 | Peer-reviewed | GB/EU iAs occurrence in 79 Belfast infants with pre-weaning urine samples (20 breastfed, 27 mixed fed, 32 formula fed), an 11-infant paired... (n=79) |
-| 5 | [[sources/cot2013-uk-aluminium-infant-diet\|UK Committee on Toxicity 2013]]. *Statement on the potential risks from aluminium in the infant diet*, Committee on Toxicity (COT), Statement 2013/01, June 2013 | 2013 | Government report | *[awaiting synthesis]* |
+| 5 | [[sources/cot2013-uk-aluminium-infant-diet\|UK Committee on Toxicity 2013]]. *Statement on the potential risks from aluminium in the infant diet*, Committee on Toxicity (COT), Statement 2013/01, June 2013 | 2013 | Government report | UK Al occurrence in Synthesis of UK Drinking Water Inspectorate 2011 tap-water survey (n=42,400 England/Wales, n=1,730 Northern Ireland, n=5,020 Scotland); FSA 2006... |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -150,9 +150,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

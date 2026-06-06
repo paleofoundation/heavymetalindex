@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 3
+sources: 4
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,9 +106,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/yamanaka2025-tinplate-pineapple-cans\|Yamanaka 2025]]. *Corrosion Behavior of the Inner Surface of Unlacquered Tinplate Cans for Fruit Use*, Materials Transactions | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/imsi2015-gmp-maple-syrup-lead\|International Maple Syrup Institute 2015]]. *North American Good Manufacturing Practices to Avoid Lead Contamination of Maple Syrup*, International Maple Syrup Institute | 2015 | Industry | *[awaiting synthesis]* |
-| 3 | [[sources/buculei2012-tin-iron-migration-canned-food-romania\|Buculei et al. 2012]]. *Study regarding the tin and iron migration from metallic cans into foodstuff during storage*, Journal of Agroalimentary Processes and Technologies, 18(4), 299-303 | 2012 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/yamanaka2025-tinplate-pineapple-cans\|Yamanaka 2025]]. *Corrosion Behavior of the Inner Surface of Unlacquered Tinplate Cans for Fruit Use*, Materials Transactions | 2025 | Peer-reviewed | JP Sn, Fe occurrence in Commercially available pineapple cans with unlacquered tinplate interiors subjected to accelerated storage at 43 C; three cans were... (n=15) |
+| 2 | [[sources/sadhya2023-india-food-heavy-metals-regulation\|Sadhya et al. 2023]]. *Regulation in India of Heavy Metals in Food Items: A Critical Analysis*, Environmental Analysis & Ecology Studies | 2023 | Review | IN Pb, Cu, tAs, Sn, Cd, tHg, MeHg, Cr, Ni, Se, Sb, Ba, Co, Fe, Li, Mn, Zn occurrence in Legal review of the Indian regulatory framework governing heavy metals in food and food packaging. No primary measurements.... |
+| 3 | [[sources/imsi2015-gmp-maple-syrup-lead\|International Maple Syrup Institute 2015]]. *North American Good Manufacturing Practices to Avoid Lead Contamination of Maple Syrup*, International Maple Syrup Institute | 2015 | Industry | US/CA Pb occurrence in Industry guidance document, not a primary measurement study. Synthesizes prior published findings and producer guidance on lead contamination... |
+| 4 | [[sources/buculei2012-tin-iron-migration-canned-food-romania\|Buculei et al. 2012]]. *Study regarding the tin and iron migration from metallic cans into foodstuff during storage*, Journal of Agroalimentary Processes and Technologies, 18(4), 299-303 | 2012 | Peer-reviewed | RO Sn, Fe occurrence in Four canned product types (peas, tomato paste, pork in own juice, pork liver pate) packed in three-piece tinplate... (n=4) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -118,9 +119,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

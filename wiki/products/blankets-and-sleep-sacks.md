@@ -106,8 +106,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/oeko-tex2024-new-limit-values\|Association 2024]]. *OEKO-TEX® Limit values: New regulations 2024*, OEKO-TEX® Service GmbH customer information notice, 09 January 2024, Zurich, Switzerland. Updates applicable test criteria, limit values, and requirements for the OEKO-TEX® STANDARD 100, ORGANIC COTTON, LEATHER STANDARD, ECO PASSPORT, and STeP certification labels; new values binding from 01 April 2024 after a three-month transition period. | 2024 | Industry | *[awaiting synthesis]* |
-| 2 | [[sources/echa2023-cmr-childcare-articles\|ECHA 2023]]. *Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)*, European Chemicals Agency (ECHA), Helsinki, Finland. Investigation report version 2.0 (Final), 31 October 2023, prepared at the request of the European Commission under REACH Article 68(2). | 2023 | Regulatory agency report | *[awaiting synthesis]* |
+| 1 | [[sources/oeko-tex2024-new-limit-values\|Association 2024]]. *OEKO-TEX® Limit values: New regulations 2024*, OEKO-TEX® Service GmbH customer information notice, 09 January 2024, Zurich, Switzerland. Updates applicable test criteria, limit values, and requirements for the OEKO-TEX® STANDARD 100, ORGANIC COTTON, LEATHER STANDARD, ECO PASSPORT, and STeP certification labels; new values binding from 01 April 2024 after a three-month transition period. | 2024 | Industry | INT/EU/CH Pb, Cd, tAs, Sb, Cr, Cr-VI, Ni, tHg occurrence in Not a primary-measurement study. The notice publishes the OEKO-TEX Association's updated 2024 limit values for the STANDARD 100,... |
+| 2 | [[sources/echa2023-cmr-childcare-articles\|ECHA 2023]]. *Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)*, European Chemicals Agency (ECHA), Helsinki, Finland. Investigation report version 2.0 (Final), 31 October 2023, prepared at the request of the European Commission under REACH Article 68(2). | 2023 | Regulatory agency report | EU Pb, Cd, Cr-VI, Co, tAs, tHg, Sn, Li, V occurrence in Not a primary-measurement study. The report aggregates 1,559 entries reporting measurements of CMR 1A or 1B substances in... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -117,9 +117,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

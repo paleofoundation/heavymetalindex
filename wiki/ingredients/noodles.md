@@ -168,10 +168,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/katyal2020-instant-noodles-canada-metals\|Katyal et al. 2020]]. *Analysis of lead, arsenic, and cadmium concentrations in instant noodles within the Canadian market*, BCIT Environmental Public Health Journal | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/katyal2020-instant-noodles-canada-metals\|Katyal et al. 2020]]. *Analysis of lead, arsenic, and cadmium concentrations in instant noodles within the Canadian market*, BCIT Environmental Public Health Journal | 2020 | Peer-reviewed | CA Pb, Cd, tAs occurrence in Thirty packets of instant noodles from six brands available in large grocery stores in the Canadian market; dry... (n=30) |
 | 2 | [[sources/lee2019-food-processing-heavy-metals-migration\|Lee et al. 2019]]. *Effects of food processing methods on migration of heavy metals to food*, Applied Biological Chemistry | 2019 | Peer-reviewed | Pb, Cd, tAs, and Al migration from Korean wheat-flour and sweet-potato glass noodles to boiling water, quantifying cooking-loss as a processing lever |
-| 3 | [[sources/shamsani2019-instant-noodles-heavy-metals-malaysia\|Shamsani et al. 2019]]. *Heavy Metals (Pb, Cd, As) Content in Instant Noodles From Malaysian Market*, Malaysian Journal of Medicine and Health Sciences, Vol. 15 Supp. 3 (Proceedings of the Summer Crash Course Programme 2018) | 2019 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/tajdar-oranj2018-iran-instant-noodles-metals\|Tajdar-oranj et al. 2018]]. *The concentration of heavy metals in noodle samples from Iran's market: probabilistic health risk assessment*, Environmental Science and Pollution Research | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/shamsani2019-instant-noodles-heavy-metals-malaysia\|Shamsani et al. 2019]]. *Heavy Metals (Pb, Cd, As) Content in Instant Noodles From Malaysian Market*, Malaysian Journal of Medicine and Health Sciences, Vol. 15 Supp. 3 (Proceedings of the Summer Crash Course Programme 2018) | 2019 | Peer-reviewed | MY Pb, Cd, tAs occurrence in Seven commercially popular brands of instant noodles randomly purchased from the Malaysian retail market; noodles and accompanying seasoning/flavouring... (n=7) |
+| 4 | [[sources/tajdar-oranj2018-iran-instant-noodles-metals\|Tajdar-oranj et al. 2018]]. *The concentration of heavy metals in noodle samples from Iran's market: probabilistic health risk assessment*, Environmental Science and Pollution Research | 2018 | Peer-reviewed | IR Pb, Cr, Cd, Al occurrence in 27 instant noodle samples drawn from four commercial brands sold on the Tehran market in Spring 2017: three... (n=27) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -181,9 +181,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

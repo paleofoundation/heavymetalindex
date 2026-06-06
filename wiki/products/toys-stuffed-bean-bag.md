@@ -106,12 +106,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/seifi2026-iran-toys-pb-cr-hg\|Seifi 2026]]. *Investigation of the concentration of chemical compounds in toys*, Environmental Health and Pollution Research, 2026, 1(1), 43-48 | 2026 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/mohammed2020-tt-toys-baby-items\|Mohammed et al. 2020]]. *Heavy metals in children's toys and baby items commonly sold in Trinidad and Tobago*, Journal of Environmental Chemistry and Ecotoxicology 12(1):59-64 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/trumbull2017-wa-childrens-seasonal-products-2014-2015\|Trumbull et al. 2017]]. *Children's Seasonal Products Report 2014-2015*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 16-04-029 (January 2017) | 2017 | Regulatory | *[awaiting synthesis]* |
-| 4 | [[sources/depa2015-cmr-toys\|Heckmann et al. 2015]]. *CMR Substances in Toys – Market Surveillance and Risk Assessment*, Survey of Chemical Substances in Consumer Products No. 141, 2015. Danish Environmental Protection Agency, Copenhagen. ISBN 978-87-93352-79-7. | 2015 | Regulatory agency report | *[awaiting synthesis]* |
-| 5 | [[sources/ul2012-chemicals-childrens-toys\|UL 2012]]. *Chemicals in Children's Toys: Addressing Stricter Limits and Environmental Concerns*, UL LLC White Paper (UL Environment), 8 pp. | 2012 | Industry | *[awaiting synthesis]* |
-| 6 | [[sources/pirg2010-trouble-in-toyland\|Hitchcock et al. 2010]]. *Trouble in Toyland: The 25th Annual Survey of Toy Safety*, U.S. PIRG Education Fund, November 2010 | 2010 | NGO report | *[awaiting synthesis]* |
+| 1 | [[sources/seifi2026-iran-toys-pb-cr-hg\|Seifi 2026]]. *Investigation of the concentration of chemical compounds in toys*, Environmental Health and Pollution Research, 2026, 1(1), 43-48 | 2026 | Peer-reviewed | IR/EU Pb, Cd, tHg, tAs, Cr occurrence in 120 children's toys marketed for ages 0–12 years, collected by stratified random sampling between January 2024 and June... (n=120) |
+| 2 | [[sources/mohammed2020-tt-toys-baby-items\|Mohammed et al. 2020]]. *Heavy metals in children's toys and baby items commonly sold in Trinidad and Tobago*, Journal of Environmental Chemistry and Ecotoxicology 12(1):59-64 | 2020 | Peer-reviewed | TT/EU Pb, Cd, Cr, Ni, Cu, Mn occurrence in Eighteen plastic children's toys and baby items intended for children under 5 years of age, obtained from the... (n=18) |
+| 3 | [[sources/trumbull2017-wa-childrens-seasonal-products-2014-2015\|Trumbull et al. 2017]]. *Children's Seasonal Products Report 2014-2015*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 16-04-029 (January 2017) | 2017 | Regulatory | US-WA/US Sb, tAs, Cd, Co, Pb, tHg, Mo occurrence in 189 component samples submitted for laboratory metals analysis, sub-sampled (by XRF prioritisation) from 6,878 individual components separated from... (n=189) |
+| 4 | [[sources/depa2015-cmr-toys\|Heckmann et al. 2015]]. *CMR Substances in Toys – Market Surveillance and Risk Assessment*, Survey of Chemical Substances in Consumer Products No. 141, 2015. Danish Environmental Protection Agency, Copenhagen. ISBN 978-87-93352-79-7. | 2015 | Regulatory agency report | DK/EU Sn, Al, Pb, Cd, Cr, Ni, Sb, tAs occurrence in Phase 2 chemical analyses: 28 toy products extracted by the Danish EPA's Chemical Inspection Service (CIS) from 30... (n=28) |
+| 5 | [[sources/ul2012-chemicals-childrens-toys\|UL 2012]]. *Chemicals in Children's Toys: Addressing Stricter Limits and Environmental Concerns*, UL LLC White Paper (UL Environment), 8 pp. | 2012 | Industry | US/EU Pb, Cd, tHg, Cr, Cr-VI, Ni, Al, Sb occurrence in No primary contamination measurements. UL LLC marketing white paper introducing UL 172, the voluntary UL Standard for Sustainability... |
+| 6 | [[sources/pirg2010-trouble-in-toyland\|Hitchcock et al. 2010]]. *Trouble in Toyland: The 25th Annual Survey of Toy Safety*, U.S. PIRG Education Fund, November 2010 | 2010 | NGO report | US Pb, Sb, Cd occurrence in 98 toys and children's jewelry purchased at retail in September-October 2010 and XRF-screened (337 individual XRF screens performed... (n=260) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -121,9 +121,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

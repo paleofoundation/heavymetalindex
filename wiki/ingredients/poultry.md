@@ -83,7 +83,7 @@ used_in_products: [meat-and-poultry-purees]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 16
+sources: 17
 ---
 
 # Poultry
@@ -131,13 +131,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 7 | [[sources/apdraim2023-vermiculite-quail-meat\|Apdraim et al. 2023]]. *Effect of vermiculite feed additive on the chemical, mineral, and amino acid compositions of quail meat* | 2023 | Peer-reviewed | KZ Pb, Cd occurrence in Texas Quail meat breed birds (n=35 per group) fed control diet or 3% or 5% vermiculite feed additive... (n=105) |
 | 8 | [[sources/iqbal2023-poultry-feed-pakistan\|Iqbal et al. 2023]]. *Evaluation of Heavy Metals Concentration in Poultry Feed and Poultry Products*, Saudi Journal of Medical and Pharmaceutical Sciences 9(7): 489-495 | 2023 | Peer-reviewed | PK Pb, Cd, Cr, tHg, Fe occurrence in 6 solid feeds, 6 liquid feeds (water), 33 livers (composite from 6 farms), 33 breast muscles (composite), 33... (n=39) |
 | 9 | [[sources/pain2023-lead-pheasant-dogfood-uk\|Pain et al. 2023]]. *Lead concentrations in commercial dogfood containing pheasant in the UK*, Ambio | 2023 | Peer-reviewed | UK pheasant Pb concentrations contrasting shot game meat with retail human-consumption pheasant, documenting an ammunition-derived contamination pathway in game poultry |
-| 10 | [[sources/ertas2021-poultry-calf-meat-arsenic\|Nusret et al. 2021]]. *Evaluation of Arsenic Concentration in Poultry and Calf Meat Samples by Hydride Generation Atomic Fluorescence Spectrometry*, Gazi University Journal of Science | 2021 | Peer-reviewed | TR tAs occurrence in Calf, chicken, and turkey meat samples obtained from local markets (n=31) |
-| 11 | [[sources/gholami-ahangaran2021-chicken-meat-cadmium-zinc-silver\|Majid et al. 2021]]. *The Measurement of Cadmium, Zinc and Silver in Chicken Meat in Isfahan Province, Iran*, Iranian Journal of Toxicology | 2021 | Peer-reviewed | IR Cd, Zn, Ag occurrence in Chicken breast, thigh, heart, and liver samples from meat markets in Isfahan Province, Iran (n=100) |
-| 12 | [[sources/majid2020-broiler-meat-cumin-minerals\|Majid et al. 2020]]. *Effect of dietary supplementing cumin (Cuminum cyminum L.) on meat traits of the broiler chicks*, Basrah Journal of Agricultural Sciences 33(1): 159-171 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
-| 13 | [[sources/dordevic2019-aluminum-foil-culinary-baking-czech\|Dordevic et al. 2019]]. *Aluminum contamination of food during culinary preparation: Case study with aluminum foil and consumers' preferences*, Food Science & Nutrition | 2019 | Peer-reviewed | *[awaiting synthesis]* |
-| 14 | [[sources/song2017-china-dietary-cadmium-exposure\|Song et al. 2017]]. *Dietary cadmium exposure assessment among the Chinese population*, PLoS ONE 12(5): e0177978 | 2017 | Peer-reviewed | *[awaiting synthesis]* |
-| 15 | [[sources/lasky2013-arsenic-chicken-correspondence\|Lasky et al. 2013]]. *Arsenic Levels in Chicken (correspondence: Lasky letter and Nachman et al. response)*, Environmental Health Perspectives | 2013 | Peer-reviewed | Commentary on tAs/iAs residues in US broiler chicken after roxarsone withdrawal; arsenic-in-poultry regulatory context post-2011 FDA drug withdrawal |
-| 16 | [[sources/mahmud2011-crvi-chicken-pakistan\|Mahmud et al. 2011]]. *Estimation of Chromium (VI) in various body parts of Local Chicken*, Journal of the Chemical Society of Pakistan | 2011 | Peer-reviewed | PK Cr-VI occurrence in Local chicken parts (meat: sternum, leg, arm, gizzard, neck, heart, liver; bones: chest cage, neck, leg, head, arm)... |
+| 10 | [[sources/usda-fas2023-china-gb-2762-2022-translation\|USDA 2023]]. *China Releases the Standard for Maximum Levels of Contaminants in Foods (USDA FAS GAIN Report CH2023-0040, unofficial translation of GB 2762-2022)*, USDA Foreign Agricultural Service, Global Agricultural Information Network (GAIN), Report Number CH2023-0040 | 2023 | Regulation | CN Pb, Cd, tHg, MeHg, tAs, iAs, Sn, Ni, Cr occurrence in null |
+| 11 | [[sources/ertas2021-poultry-calf-meat-arsenic\|Nusret et al. 2021]]. *Evaluation of Arsenic Concentration in Poultry and Calf Meat Samples by Hydride Generation Atomic Fluorescence Spectrometry*, Gazi University Journal of Science | 2021 | Peer-reviewed | TR tAs occurrence in Calf, chicken, and turkey meat samples obtained from local markets (n=31) |
+| 12 | [[sources/gholami-ahangaran2021-chicken-meat-cadmium-zinc-silver\|Majid et al. 2021]]. *The Measurement of Cadmium, Zinc and Silver in Chicken Meat in Isfahan Province, Iran*, Iranian Journal of Toxicology | 2021 | Peer-reviewed | IR Cd, Zn, Ag occurrence in Chicken breast, thigh, heart, and liver samples from meat markets in Isfahan Province, Iran (n=100) |
+| 13 | [[sources/majid2020-broiler-meat-cumin-minerals\|Majid et al. 2020]]. *Effect of dietary supplementing cumin (Cuminum cyminum L.) on meat traits of the broiler chicks*, Basrah Journal of Agricultural Sciences 33(1): 159-171 | 2020 | Peer-reviewed | IQ Cr, Cu, Cd, Pb, Ni, Zn, Fe occurrence in Ninety-six Ross 308 broiler chicks assigned to four diet groups with three replicates of eight chicks each; breast... (n=96) |
+| 14 | [[sources/dordevic2019-aluminum-foil-culinary-baking-czech\|Dordevic et al. 2019]]. *Aluminum contamination of food during culinary preparation: Case study with aluminum foil and consumers' preferences*, Food Science & Nutrition | 2019 | Peer-reviewed | CZ/EU Al occurrence in Eleven food types (Atlantic salmon fillet, mackerel, duck breasts with and without skin, cheese Hermelín, fresh tomato, fresh... (n=11) |
+| 15 | [[sources/song2017-china-dietary-cadmium-exposure\|Song et al. 2017]]. *Dietary cadmium exposure assessment among the Chinese population*, PLoS ONE 12(5): e0177978 | 2017 | Peer-reviewed | CN Cd occurrence in 228,687 food samples collected from supermarkets, local markets, and field harvest sites across 31 provinces, autonomous regions, and... (n=228687) |
+| 16 | [[sources/lasky2013-arsenic-chicken-correspondence\|Lasky et al. 2013]]. *Arsenic Levels in Chicken (correspondence: Lasky letter and Nachman et al. response)*, Environmental Health Perspectives | 2013 | Peer-reviewed | Commentary on tAs/iAs residues in US broiler chicken after roxarsone withdrawal; arsenic-in-poultry regulatory context post-2011 FDA drug withdrawal |
+| 17 | [[sources/mahmud2011-crvi-chicken-pakistan\|Mahmud et al. 2011]]. *Estimation of Chromium (VI) in various body parts of Local Chicken*, Journal of the Chemical Society of Pakistan | 2011 | Peer-reviewed | PK Cr-VI occurrence in Local chicken parts (meat: sternum, leg, arm, gizzard, neck, heart, liver; bones: chest cage, neck, leg, head, arm)... |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -198,9 +199,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 5
+sources: 6
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,11 +106,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/oeko-tex2024-new-limit-values\|Association 2024]]. *OEKO-TEX® Limit values: New regulations 2024*, OEKO-TEX® Service GmbH customer information notice, 09 January 2024, Zurich, Switzerland. Updates applicable test criteria, limit values, and requirements for the OEKO-TEX® STANDARD 100, ORGANIC COTTON, LEATHER STANDARD, ECO PASSPORT, and STeP certification labels; new values binding from 01 April 2024 after a three-month transition period. | 2024 | Industry | *[awaiting synthesis]* |
-| 2 | [[sources/echa2023-cmr-childcare-articles\|ECHA 2023]]. *Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)*, European Chemicals Agency (ECHA), Helsinki, Finland. Investigation report version 2.0 (Final), 31 October 2023, prepared at the request of the European Commission under REACH Article 68(2). | 2023 | Regulatory agency report | *[awaiting synthesis]* |
-| 3 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
-| 4 | [[sources/schade2010-toxic-toys-r-us-pvc\|Schade 2010]]. *Toxic Toys "R" Us: PVC Toxic Chemicals in Toys and Packaging — A Report to the National Commission of Inquiry into Toxic Toys*, Center for Health, Environment & Justice (CHEJ) PVC Campaign and Teamsters Office of Consumer Affairs (Washington, DC / Falls Church, VA), November 2010, 47 pp. | 2010 | NGO report | *[awaiting synthesis]* |
-| 5 | [[sources/stringer2001-greenpeace-pvc-children-products\|Stringer et al. 2001]]. *Toxic chemicals in a child's world: an investigation into PVC plastic products*, Greenpeace Research Laboratories, University of Exeter (UK); June 2001 | 2001 | NGO report | *[awaiting synthesis]* |
+| 1 | [[sources/oeko-tex2024-new-limit-values\|Association 2024]]. *OEKO-TEX® Limit values: New regulations 2024*, OEKO-TEX® Service GmbH customer information notice, 09 January 2024, Zurich, Switzerland. Updates applicable test criteria, limit values, and requirements for the OEKO-TEX® STANDARD 100, ORGANIC COTTON, LEATHER STANDARD, ECO PASSPORT, and STeP certification labels; new values binding from 01 April 2024 after a three-month transition period. | 2024 | Industry | INT/EU/CH Pb, Cd, tAs, Sb, Cr, Cr-VI, Ni, tHg occurrence in Not a primary-measurement study. The notice publishes the OEKO-TEX Association's updated 2024 limit values for the STANDARD 100,... |
+| 2 | [[sources/echa2023-cmr-childcare-articles\|ECHA 2023]]. *Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)*, European Chemicals Agency (ECHA), Helsinki, Finland. Investigation report version 2.0 (Final), 31 October 2023, prepared at the request of the European Commission under REACH Article 68(2). | 2023 | Regulatory agency report | EU Pb, Cd, Cr-VI, Co, tAs, tHg, Sn, Li, V occurrence in Not a primary-measurement study. The report aggregates 1,559 entries reporting measurements of CMR 1A or 1B substances in... |
+| 3 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | US Sb, tAs, Cd, Cr, Co, Cu, Pb, tHg, Mo, Zn occurrence in 150 component samples submitted for laboratory metals analysis, sub-sampled from 101 children's products purchased from local Washington stores... (n=150) |
+| 4 | [[sources/schade2010-toxic-toys-r-us-pvc\|Schade 2010]]. *Toxic Toys "R" Us: PVC Toxic Chemicals in Toys and Packaging — A Report to the National Commission of Inquiry into Toxic Toys*, Center for Health, Environment & Justice (CHEJ) PVC Campaign and Teamsters Office of Consumer Affairs (Washington, DC / Falls Church, VA), November 2010, 47 pp. | 2010 | NGO report | US Pb, Cd, Sn occurrence in Two rounds of portable-XRF screening of toys, children's products, and packaging purchased at retail. Round 1 (June 15,... (n=120) |
+| 5 | [[sources/stringer2001-greenpeace-pvc-children-products\|Stringer et al. 2001]]. *Toxic chemicals in a child's world: an investigation into PVC plastic products*, Greenpeace Research Laboratories, University of Exeter (UK); June 2001 | 2001 | NGO report | AT/BR/CA Pb, Cd, Sn occurrence in 54 vinyl-chloride (PVC or vinyl) consumer products purchased in 20 countries (Austria, Brazil, Canada, Chile, China, Czech Republic,... (n=54) |
+| 6 | [[sources/yamada1993-organotin-household-commodities\|Yamada et al. 1993]]. *Small-Scale Survey of Organotin Compounds in Household Commodities*, Journal of AOAC International, Vol. 76, No. 2, pp. 436–441 | 1993 | Peer-reviewed | JP Sn occurrence in 95 commercially available household commodity items purchased between 1990 and 1992 from retail stores in Aichi Prefecture, Japan,... (n=95) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -120,9 +121,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -106,12 +106,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/allwood2024-cpsc-childrens-product-lead-recalls\|Allwood et al. 2024]]. *Recently Recalled Children's Products Due to Lead Hazards*, Pediatrics | 2024 | Regulatory | *[awaiting synthesis]* |
-| 2 | [[sources/mahdi2024-meat-cooked-utensils-metals\|Mahdi et al. 2024]]. *Detection of some heavy metals in meat cooked in different utensils*, Samarra Journal of Pure and Applied Science | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/alrajhi2021-imported-cookware-metal-release\|Alrajhi et al. 2021]]. *Investigation of metals released from imported cookware collected from a local market in Riyadh, Saudi Arabia*, Revista Internacional de Contaminacion Ambiental | 2021 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/rittirong2018-cooked-rice-utensil-metals-thailand\|Rittirong et al. 2018]]. *Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment*, Emirates Journal of Food and Agriculture | 2018 | Peer-reviewed | *[awaiting synthesis]* |
-| 5 | [[sources/lee2017-camping-cooking-utensils-metal-migration\|Lee et al. 2017]]. *Influence of usage environment from camping cooking utensils on migration of hazardous metals*, Korean Journal of Food Preservation | 2017 | Peer-reviewed | *[awaiting synthesis]* |
-| 6 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | *[awaiting synthesis]* |
+| 1 | [[sources/allwood2024-cpsc-childrens-product-lead-recalls\|Allwood et al. 2024]]. *Recently Recalled Children's Products Due to Lead Hazards*, Pediatrics | 2024 | Regulatory | US Pb occurrence in Thirty US Consumer Product Safety Commission (CPSC) lead-related recall notices for children's products issued between June 2022 and... (n=30) |
+| 2 | [[sources/mahdi2024-meat-cooked-utensils-metals\|Mahdi et al. 2024]]. *Detection of some heavy metals in meat cooked in different utensils*, Samarra Journal of Pure and Applied Science | 2024 | Peer-reviewed | IQ Fe, Zn, Cu, Cd, Pb, Al occurrence in Meat cooked in clay, iron, copper, aluminium, Tefal/Teflon, and glass/Pyrex utensils in Tikrit, Iraq. (n=6) |
+| 3 | [[sources/alrajhi2021-imported-cookware-metal-release\|Alrajhi et al. 2021]]. *Investigation of metals released from imported cookware collected from a local market in Riyadh, Saudi Arabia*, Revista Internacional de Contaminacion Ambiental | 2021 | Peer-reviewed | SA Mn, Fe, Cu, Cr, tAs, Zn, Ni, Al, Cd, Pb occurrence in Forty-six imported metallic aluminium cookware items purchased from a local market in Riyadh, Saudi Arabia. (n=46) |
+| 4 | [[sources/rittirong2018-cooked-rice-utensil-metals-thailand\|Rittirong et al. 2018]]. *Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment*, Emirates Journal of Food and Agriculture | 2018 | Peer-reviewed | TH Al, Cr, Fe, Cu, Zn, tAs, Cd, Pb occurrence in Cooked rice prepared from Thailand-market rice using five utensil conditions and four water conditions, with raw rice as... (n=20) |
+| 5 | [[sources/lee2017-camping-cooking-utensils-metal-migration\|Lee et al. 2017]]. *Influence of usage environment from camping cooking utensils on migration of hazardous metals*, Korean Journal of Food Preservation | 2017 | Peer-reviewed | KR Pb, tAs, Cd, Ni, Al occurrence in Commercial camping pots and pans made of stainless steel, hard aluminium, soft aluminium, and fluorocarbon-resin-coated material, tested under... (n=36) |
+| 6 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | HK/EU/US Pb, Cd, Ni, Cr, Cr-VI, Al occurrence in Narrative literature review; no original measurements. The review summarises secondary toxicology and migration evidence from FAO/WHO, EFSA, USFDA,... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -121,9 +121,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

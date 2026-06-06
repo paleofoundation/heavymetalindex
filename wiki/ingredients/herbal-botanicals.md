@@ -83,7 +83,7 @@ used_in_products: [herbal-botanical-infusions]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 40
+sources: 39
 ---
 
 # Herbal botanicals
@@ -123,10 +123,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/porwollik2026-rhodiola-supplements-us-market\|Porwollik et al. 2026]]. *The quality and safety of Rhodiola rosea supplements on the U.S. market: An analysis of biomarkers, heavy metals, and pesticide residues*, PLoS One | 2026 | Peer-reviewed | ICP-MS survey of Pb, Cd, tAs, and tHg in 10 U.S.-market Rhodiola rosea supplement products (7 capsular, 3 tinctures); all capsular products had detectable As, Co, and Pb |
-| 2 | [[sources/bandara2025-bael-herbal-tea-minerals\|SMPP et al. 2025]]. *Formulation of Standardized Herbal Tea from Whole Flowers, Stamens and Immature Fruits of Bael (Aegle marmelos (L.) Corrêa)*, World Journal of Agricultural Research | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/bandara2025-bael-herbal-tea-minerals\|SMPP et al. 2025]]. *Formulation of Standardized Herbal Tea from Whole Flowers, Stamens and Immature Fruits of Bael (Aegle marmelos (L.) Corrêa)*, World Journal of Agricultural Research | 2025 | Peer-reviewed | LK Al, Cr, Mn, Ni, Pb, tAs, Cd, tHg, Ba occurrence in Prepared herbal teas from dried whole flowers, stamens, and immature fruits of bael (Aegle marmelos) sourced in Sri... (n=3) |
 | 3 | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|CFIA 2025]]. *Toxic metals in selected foods – April 1, 2022 to March 31, 2023: Food chemistry – Targeted surveys – Final report*, Canadian Food Inspection Agency | 2025 | Government report | Canadian multi-commodity targeted survey (n=470) including spices for tAs, Cd, Pb, and tHg; spice category includes dried botanicals relevant to herbal formulations |
 | 4 | [[sources/feszterova2025-herbal-tea-risk-elements\|Melania et al. 2025]]. *Analysis of risk elements in herbal tea samples*, Journal of Microbiology, Biotechnology and Food Sciences | 2025 | Peer-reviewed | SK Cu, Pb, Ni, tAs occurrence in Six herbal tea materials from Slovakia prepared under three acid-extraction methods (n=18) |
-| 5 | [[sources/gao2025-cordyceps-arsenic-toxicity\|Gao et al. 2025]]. *Wild Cordyceps sinensis exhibits far lower arsenic accumulation and hepatorenal toxicity in mice compared to equivalent dose of inorganic arsenic*, Frontiers in Pharmacology | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/gao2025-cordyceps-arsenic-toxicity\|Gao et al. 2025]]. *Wild Cordyceps sinensis exhibits far lower arsenic accumulation and hepatorenal toxicity in mice compared to equivalent dose of inorganic arsenic*, Frontiers in Pharmacology | 2025 | Peer-reviewed | CN tAs, iAs occurrence in Eighteen CD-1 mice assigned to control, wild Cordyceps sinensis, and inorganic arsenic groups. (n=18) |
 | 6 | [[sources/rylander2025-georgia-children-blood-lead\|Rylander et al. 2025]]. *Blood lead levels in children aged 5–7 years in the Republic of Georgia*, Environmental Health Perspectives | 2025 | Peer-reviewed | GE Pb occurrence in Children aged 5–7 years participating in surveillance study in the Republic of Georgia (VAMS-based blood collection); 1,635 children... (n=1635) |
 | 7 | [[sources/adhikari2024-leafy-vegetables-johannesburg\|Adhikari et al. 2024]]. *Concentrations and health risks of selected elements in leafy vegetables: a comparison between roadside open-air markets and large stores in Johannesburg, South Africa* | 2024 | Peer-reviewed | ZA Al, As, Cd, Co, Cr, Cu, Hg, Ni, Pb, Zn occurrence in Composite leafy vegetable samples from roadside open-air markets (unwashed and washed) and large stores (supermarkets, vegetable markets), Johannesburg,... (n=20) |
 | 8 | [[sources/cantoral2024-lead-levels-mexican-foods\|Cantoral et al. 2024]]. *Lead Levels in the Most Consumed Mexican Foods: First Monitoring Effort*, Toxics | 2024 | Peer-reviewed | Pb survey across 103 Mexican market foods by GF-AAS; spices (black pepper, turmeric) among the highest-Pb items detected, supporting routing of spice-botanicals to this page |
@@ -155,7 +155,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 31 | [[sources/zafeiraki2021-hemp-cannabis-metals-greece\|Zafeiraki et al. 2021]]. *Macro and Trace Elements in Hemp (Cannabis sativa L.) Cultivated in Greece: Risk Assessment of Toxic Elements*, Frontiers in Chemistry | 2021 | Peer-reviewed | GR/EU Pb, Cd, tAs, tHg, Cr, Ni, Al, Sn occurrence in 90 Cannabis sativa L. leaf/flower samples from 9 varieties cultivated across 13 regions in Greece, collected 2018-2019; 21... (n=90) |
 | 32 | [[sources/bulduk2020-vicia-faba-elements\|Ibrahim 2020]]. *Determination of trace element levels in flowers and leaves of vicia faba by ICP-MS*, Progress in Chemical and Biochemical Research | 2020 | Peer-reviewed | TR Cr, Fe, Zn, Al, Cu, Pb, Cd, Mn, Ni occurrence in Dried Vicia faba flowers and leaves analyzed as medicinal plant material in Turkey |
 | 33 | [[sources/fogarasi2019-tea-aluminum\|Erzsebet et al. 2019]]. *Aluminium contamination of several types of tea*, Orvostudomanyi Ertesito | 2019 | Peer-reviewed | RO Al occurrence in Green, black, fruit, and herbal tea infusions prepared from sampled tea materials (n=48) |
-| 34 | [[sources/santos2017-yerba-mate-metals\|Santos et al. 2017]]. *Arsenic, cadmium and lead concentrations in Yerba mate commercialized in Southern Brazil by inductively coupled plasma mass spectrometry*, Ciencia Rural | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 34 | [[sources/santos2017-yerba-mate-metals\|Santos et al. 2017]]. *Arsenic, cadmium and lead concentrations in Yerba mate commercialized in Southern Brazil by inductively coupled plasma mass spectrometry*, Ciencia Rural | 2017 | Peer-reviewed | BR tAs, Cd, Pb occurrence in Yerba mate samples marketed in Parana, Santa Catarina, and Rio Grande do Sul, Brazil (n=104) |
 | 35 | [[sources/mania2015-toxic-elements-infant-food-poland\|Mania et al. 2015]]. *Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland*, Polish Journal of Environmental Studies | 2015 | Peer-reviewed | PL/EU Pb, Cd, tAs, tHg occurrence in Approximately 1,000 commercial infant-food samples collected from retail markets in all Polish provinces during the 2009-2013 sanitary-epidemiological monitoring... (n=1000) |
 | 36 | [[sources/mansour2014-monitoring-health-risk-food-chapter\|Mansour 2014]]. *Monitoring and Health Risk Assessment of Heavy Metal Contamination in Food*, Practical Food Safety: Contemporary Issues and Future Directions (Wiley-Blackwell) | 2014 | Book chapter | EG/CN/IN Pb, Cd, tHg, tAs, Cr, Ni, Sn, Al occurrence in Book chapter authored by Sameeh A. Mansour (Environmental Toxicology Research Unit, Pesticide Chemistry Department, National Research Centre, Cairo)... |
 <!-- END: hmi-source-legend -->
@@ -207,9 +207,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -139,7 +139,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/hariono2023-soy-milk-cookware-metals\|Hariono et al. 2023]]. *Quality nutrition, metal content, and health risks in soy milk products using aluminum and stainless steel cookers*, Aceh Nutrition Journal, 8(4): 526-532 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/hariono2023-soy-milk-cookware-metals\|Hariono et al. 2023]]. *Quality nutrition, metal content, and health risks in soy milk products using aluminum and stainless steel cookers*, Aceh Nutrition Journal, 8(4): 526-532 | 2023 | Peer-reviewed | ID Pb, Cu, Zn, tHg, tAs occurrence in Soy milk from one industrial-scale producer in Sumbersari District, Jember Regency, East Java, Indonesia, compared after processing in... (n=2) |
 | 2 | [[sources/milani2023-trace-elements-soy-based-beverages\|Milani et al. 2023]]. *Trace Elements in Soy-Based Beverages: A Comprehensive Study of Total Content and In Vitro Bioaccessibility*, International Journal of Environmental Research and Public Health | 2023 | Peer-reviewed | ICP-OES measurement of Al, tAs, Cd, Cr, Ni, Pb, Sb, and Sn in 18 Brazilian soy-based beverages by soy-source group; primary multi-metal occurrence source for the soy plant-milk row (Al group means 176–758 µg/L; most others <LOQ) |
 | 3 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | ICP-MS survey of Pb, tHg, Ni, and U in retail plant-based drinks from Spain including soy drink; tHg not detected; provides multi-metal occurrence context and Ni comparison for the soy plant-milk row |
 <!-- END: hmi-source-legend -->
@@ -192,9 +192,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

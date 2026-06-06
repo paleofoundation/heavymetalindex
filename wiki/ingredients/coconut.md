@@ -122,7 +122,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/famurewa2023-coconut-oil-metals-pesticides\|Famurewa et al. 2023]]. *Comparative assessment of different coconut oils: Chromatographic and spectrometric analyses of pesticide residues, toxic heavy metals, and associated contents*, Measurement: Food | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/famurewa2023-coconut-oil-metals-pesticides\|Famurewa et al. 2023]]. *Comparative assessment of different coconut oils: Chromatographic and spectrometric analyses of pesticide residues, toxic heavy metals, and associated contents*, Measurement: Food | 2023 | Peer-reviewed | NG/PK Pb, Cd, tHg, tAs, Ni, Al, Cr, Co, Cu, Fe, Zn, Mn, Be, Ag, Mo, Se, Au occurrence in Three coconut oil samples sold or produced for the Nigerian market: one imported oil and two locally produced... (n=3) |
 | 2 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu et al. 2023]]. *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*, Foods | 2023 | Peer-reviewed | IR/CN/GR Pb, Cd, tAs, Ni, Cr, tHg, Al, Cu, Zn occurrence in Narrative literature review covering heavy metals in fruits and vegetables, milk and dairy, meat, edible oils, wine, and... |
 <!-- END: hmi-source-legend -->
 
@@ -190,9 +190,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

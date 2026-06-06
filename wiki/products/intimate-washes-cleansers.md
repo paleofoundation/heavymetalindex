@@ -106,8 +106,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/waecology2024-chemicals-cosmetics-phase2\|Tuladhar et al. 2024]]. *Chemicals in Cosmetics Used by Washington Residents: Phase Two Results — Report to the Legislature Pursuant to ESSB 5693 (2022) Section 302 (56)*, Washington State Department of Ecology, Publication 24-04-022 (May 2024) | 2024 | Government report | *[awaiting synthesis]* |
-| 2 | [[sources/waecology2024-interim-policy-lead-cosmetics\|Washington State Department of 2024]]. *Policy Statement: Interim Policy on Lead in Cosmetics — enforcement discretion under the Washington Toxic-Free Cosmetics Act (Chapter 70A.560 RCW)*, Washington State Department of Ecology, Publication 24-04-036 (issued December 19, 2024; minor revisions and clarifications January 15, 2025) | 2024 | Government report | *[awaiting synthesis]* |
+| 1 | [[sources/waecology2024-chemicals-cosmetics-phase2\|Tuladhar et al. 2024]]. *Chemicals in Cosmetics Used by Washington Residents: Phase Two Results — Report to the Legislature Pursuant to ESSB 5693 (2022) Section 302 (56)*, Washington State Department of Ecology, Publication 24-04-022 (May 2024) | 2024 | Government report | This is the Washington State Department of Ecology legislative report's Phase 2 deliverable under ESSB 5693 (2022) Section 302(56), the... |
+| 2 | [[sources/waecology2024-interim-policy-lead-cosmetics\|Washington State Department of 2024]]. *Policy Statement: Interim Policy on Lead in Cosmetics — enforcement discretion under the Washington Toxic-Free Cosmetics Act (Chapter 70A.560 RCW)*, Washington State Department of Ecology, Publication 24-04-036 (issued December 19, 2024; minor revisions and clarifications January 15, 2025) | 2024 | Government report | US-WA Pb occurrence in Regulatory enforcement-discretion policy issued by the Washington State Department of Ecology under authority of the Toxic-Free Cosmetics Act... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -117,9 +117,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

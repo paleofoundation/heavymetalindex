@@ -106,9 +106,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/mahdi2024-meat-cooked-utensils-metals\|Mahdi et al. 2024]]. *Detection of some heavy metals in meat cooked in different utensils*, Samarra Journal of Pure and Applied Science | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/rittirong2018-cooked-rice-utensil-metals-thailand\|Rittirong et al. 2018]]. *Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment*, Emirates Journal of Food and Agriculture | 2018 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/lee2017-camping-cooking-utensils-metal-migration\|Lee et al. 2017]]. *Influence of usage environment from camping cooking utensils on migration of hazardous metals*, Korean Journal of Food Preservation | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/mahdi2024-meat-cooked-utensils-metals\|Mahdi et al. 2024]]. *Detection of some heavy metals in meat cooked in different utensils*, Samarra Journal of Pure and Applied Science | 2024 | Peer-reviewed | IQ Fe, Zn, Cu, Cd, Pb, Al occurrence in Meat cooked in clay, iron, copper, aluminium, Tefal/Teflon, and glass/Pyrex utensils in Tikrit, Iraq. (n=6) |
+| 2 | [[sources/rittirong2018-cooked-rice-utensil-metals-thailand\|Rittirong et al. 2018]]. *Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment*, Emirates Journal of Food and Agriculture | 2018 | Peer-reviewed | TH Al, Cr, Fe, Cu, Zn, tAs, Cd, Pb occurrence in Cooked rice prepared from Thailand-market rice using five utensil conditions and four water conditions, with raw rice as... (n=20) |
+| 3 | [[sources/lee2017-camping-cooking-utensils-metal-migration\|Lee et al. 2017]]. *Influence of usage environment from camping cooking utensils on migration of hazardous metals*, Korean Journal of Food Preservation | 2017 | Peer-reviewed | KR Pb, tAs, Cd, Ni, Al occurrence in Commercial camping pots and pans made of stainless steel, hard aluminium, soft aluminium, and fluorocarbon-resin-coated material, tested under... (n=36) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -118,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 8
+sources: 10
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,14 +106,16 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/mahdi2024-meat-cooked-utensils-metals\|Mahdi et al. 2024]]. *Detection of some heavy metals in meat cooked in different utensils*, Samarra Journal of Pure and Applied Science | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/ammar2023-element-migration-aluminum-cookware\|Ammar et al. 2023]]. *Investigation of Element Migration from Aluminum Cooking Pots Using ICP-MS*, Applied Sciences (MDPI) | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/alrajhi2021-imported-cookware-metal-release\|Alrajhi et al. 2021]]. *Investigation of metals released from imported cookware collected from a local market in Riyadh, Saudi Arabia*, Revista Internacional de Contaminacion Ambiental | 2021 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/rittirong2018-cooked-rice-utensil-metals-thailand\|Rittirong et al. 2018]]. *Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment*, Emirates Journal of Food and Agriculture | 2018 | Peer-reviewed | *[awaiting synthesis]* |
-| 5 | [[sources/lee2017-camping-cooking-utensils-metal-migration\|Lee et al. 2017]]. *Influence of usage environment from camping cooking utensils on migration of hazardous metals*, Korean Journal of Food Preservation | 2017 | Peer-reviewed | *[awaiting synthesis]* |
-| 6 | [[sources/imsi2015-gmp-maple-syrup-lead\|International Maple Syrup Institute 2015]]. *North American Good Manufacturing Practices to Avoid Lead Contamination of Maple Syrup*, International Maple Syrup Institute | 2015 | Industry | *[awaiting synthesis]* |
-| 7 | [[sources/hobbie2014-stainless-steel-ni-cr-leaching\|Hobbie et al. 2014]]. *Stainless Steel Leaches Nickel and Chromium into Foods During Cooking*, Society of Toxicology 2014 Annual Meeting (poster) | 2014 | Conference proceedings | *[awaiting synthesis]* |
-| 8 | [[sources/bassioni2012-aluminum-foil-meat-cooking-uae\|Bassioni et al. 2012]]. *Risk Assessment of Using Aluminum Foil in Food Preparation*, International Journal of Electrochemical Science | 2012 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/mahdi2024-meat-cooked-utensils-metals\|Mahdi et al. 2024]]. *Detection of some heavy metals in meat cooked in different utensils*, Samarra Journal of Pure and Applied Science | 2024 | Peer-reviewed | IQ Fe, Zn, Cu, Cd, Pb, Al occurrence in Meat cooked in clay, iron, copper, aluminium, Tefal/Teflon, and glass/Pyrex utensils in Tikrit, Iraq. (n=6) |
+| 2 | [[sources/ammar2023-element-migration-aluminum-cookware\|Ammar et al. 2023]]. *Investigation of Element Migration from Aluminum Cooking Pots Using ICP-MS*, Applied Sciences (MDPI) | 2023 | Peer-reviewed | SA Al, Fe, As, Cd, Pb occurrence in Eight cooked-food test conditions (AC-1 through APP-5) using four aluminum cooking pots — two traditional pots (codes AC,... (n=16) |
+| 3 | [[sources/alrajhi2021-imported-cookware-metal-release\|Alrajhi et al. 2021]]. *Investigation of metals released from imported cookware collected from a local market in Riyadh, Saudi Arabia*, Revista Internacional de Contaminacion Ambiental | 2021 | Peer-reviewed | SA Mn, Fe, Cu, Cr, tAs, Zn, Ni, Al, Cd, Pb occurrence in Forty-six imported metallic aluminium cookware items purchased from a local market in Riyadh, Saudi Arabia. (n=46) |
+| 4 | [[sources/bfr2020-aluminium-faq-consumer-products\|BfR 2020]]. *FAQs about aluminium in food and products intended for consumers*, BfR FAQ of 20 July 2020 | 2020 | Government report | DE/EU Al occurrence in null |
+| 5 | [[sources/rittirong2018-cooked-rice-utensil-metals-thailand\|Rittirong et al. 2018]]. *Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment*, Emirates Journal of Food and Agriculture | 2018 | Peer-reviewed | TH Al, Cr, Fe, Cu, Zn, tAs, Cd, Pb occurrence in Cooked rice prepared from Thailand-market rice using five utensil conditions and four water conditions, with raw rice as... (n=20) |
+| 6 | [[sources/lee2017-camping-cooking-utensils-metal-migration\|Lee et al. 2017]]. *Influence of usage environment from camping cooking utensils on migration of hazardous metals*, Korean Journal of Food Preservation | 2017 | Peer-reviewed | KR Pb, tAs, Cd, Ni, Al occurrence in Commercial camping pots and pans made of stainless steel, hard aluminium, soft aluminium, and fluorocarbon-resin-coated material, tested under... (n=36) |
+| 7 | [[sources/imsi2015-gmp-maple-syrup-lead\|International Maple Syrup Institute 2015]]. *North American Good Manufacturing Practices to Avoid Lead Contamination of Maple Syrup*, International Maple Syrup Institute | 2015 | Industry | US/CA Pb occurrence in Industry guidance document, not a primary measurement study. Synthesizes prior published findings and producer guidance on lead contamination... |
+| 8 | [[sources/hobbie2014-stainless-steel-ni-cr-leaching\|Hobbie et al. 2014]]. *Stainless Steel Leaches Nickel and Chromium into Foods During Cooking*, Society of Toxicology 2014 Annual Meeting (poster) | 2014 | Conference proceedings | US Ni, Cr occurrence in Laboratory-controlled cooking trials using three NIST stainless-steel reference materials (NIST 121d and 123c, both grade-304 equivalents; NIST 160b,... |
+| 9 | [[sources/bassioni2012-aluminum-foil-meat-cooking-uae\|Bassioni et al. 2012]]. *Risk Assessment of Using Aluminum Foil in Food Preparation*, International Journal of Electrochemical Science | 2012 | Peer-reviewed | AE/EG Al occurrence in Six experimental cooking-solution recipes (variants on 40% minced-beef extract + tomato juice + citric acid + NaCl, with... (n=6) |
+| 10 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal 2008;754:1-34 | 2008 | Government report | EU Al concentrations |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -123,9 +125,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

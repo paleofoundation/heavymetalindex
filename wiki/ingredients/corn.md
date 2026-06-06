@@ -3,7 +3,7 @@ title: "Corn"
 type: ingredient
 commodity: corn
 label: "Corn"
-aliases: ["Corn, frozen, boiled", "corn"]
+aliases: ["Corn, frozen, boiled", "corn", maize, Maize, "ingredients/maize"]
 category: vegetable-grain
 tds_food:
   number: 54
@@ -87,7 +87,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 33
+sources: 45
 ---
 
 # Corn
@@ -225,14 +225,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 22 | [[sources/li2022-guizhou-cd-grains\|Li et al. 2022]]. *Spatial distribution and risk assessment of fluorine and cadmium in rice, corn, and wheat grains in most karst regions of Guizhou province, China*, Frontiers in Nutrition | 2022 | Peer-reviewed | Cadmium in 119 corn grain samples from karst regions of Guizhou (China), with Cd range 0–307 µg/kg and 13.5% of corn samples exceeding the GB 2762-2017 limit of 0.1 mg/kg |
 | 23 | [[sources/liu2022-heavy-metals-rice-maize-chengdu\|Liu et al. 2022]]. *Health risk assessment of heavy metals in soils and food crops from a coexist area of heavily industrialized and intensively cropping in the Chengdu Plain, Sichuan, China*, Frontiers in Chemistry | 2022 | Peer-reviewed | tAs, Cd, tHg, and Pb in 10 maize grain samples from an industrialized Chengdu Plain (China) zone, with maize Cd mean 0.26 mg/kg and Pb mean 0.29 mg/kg both exceeding national limits and 78% of all grains failing GB 2762-2017 Cd |
 | 24 | [[sources/masite2022-mopane-trace-metals\|Masite et al. 2022]]. *Trace Metals, Crude Protein, and TGA-FTIR Analysis of Evolved Gas Products in the Thermal Decomposition of Roasted Mopane Worms, Sweet Corn, and Peanuts*, International Journal of Food Science | 2022 | Peer-reviewed | tAs, Cd, Co, Cr, Ni, and Pb by ICP-OES in roasted sweet corn purchased from South African markets, with tAs exceeding maximum allowable thresholds in all three product matrices |
-| 25 | [[sources/cfia2020-toxic-metals-selected-foods-2018-19\|CFIA 2020]]. *Toxic Metals in Selected Foods – April 1, 2018 to March 31, 2019: Food chemistry – Targeted surveys – Final report*, Canadian Food Inspection Agency | 2020 | Government report | *[awaiting synthesis]* |
-| 26 | [[sources/el-hassanin2020-egypt-maize-pb-cd\|El-Hassanin et al. 2020]]. *Risk assessment of human exposure to lead and cadmium in maize grains cultivated in soils irrigated either with low-quality water or freshwater*, Toxicology Reports 7:10-15 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 25 | [[sources/cfia2020-toxic-metals-selected-foods-2018-19\|CFIA 2020]]. *Toxic Metals in Selected Foods – April 1, 2018 to March 31, 2019: Food chemistry – Targeted surveys – Final report*, Canadian Food Inspection Agency | 2020 | Government report | CA tAs, Cd, Pb, tHg occurrence in Retail food samples (bran products, infant formula, meal replacement beverages, protein powders, rice products) collected from 6 Canadian... (n=985) |
+| 26 | [[sources/el-hassanin2020-egypt-maize-pb-cd\|El-Hassanin et al. 2020]]. *Risk assessment of human exposure to lead and cadmium in maize grains cultivated in soils irrigated either with low-quality water or freshwater*, Toxicology Reports 7:10-15 | 2020 | Peer-reviewed | EG Pb, Cd occurrence in Soil (0–30 cm), irrigation water, and maize grain composites collected in August 2017 from nine cultivated sites across... (n=27) |
 | 27 | [[sources/liang2019-beijing-foodstuffs-health-risk\|Liang et al. 2019]]. *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | Pb, Cd, Cr, tAs, and tHg in 25 Beijing foodstuffs including corn within the cereal group (Cr 128 ppb, Cd 20 ppb DW), with cereals and vegetables jointly contributing 91.5% of total dietary Cd and 67.1% of total Pb |
 | 28 | [[sources/abebe2017-popcorn-cornflake-metals-ethiopia\|Abebe et al. 2017]]. *Assessment of essential and non-essential metals in popcorn and cornflake commercially available in Ethiopia*, Chemistry International 3(3):268-276 | 2017 | Peer-reviewed | Pb and Cr by F-AAS and GF-AAS in oil-popped popcorn (Pb 0.94 mg/kg) and imported cornflakes (Pb 0.36 mg/kg) from Addis Ababa, both substantially above the EU 2023/915 cereals-as-placed limit of 0.020 mg/kg |
 | 29 | [[sources/khalil2017-snacks-peshawar-pakistan-heavy-metals\|Khalil et al. 2017]]. *Heavy Metals Toxicity: Estimation of Heavy Metals in Branded and Local Snacks Available in the Markets of Peshawar, Pakistan*, Professional Medical Journal | 2017 | Peer-reviewed | Pb, Cd, and total Cr by AAS in branded and non-branded corn-based snacks from Peshawar (Pakistan, n=96), with total Cr exceeding permissible limits in all samples and branded products at mean 2.21 mg/kg |
-| 30 | [[sources/ataee2016-iran-cereals-pb-cd\|Ataee et al. 2016]]. *Application of microwave-assisted dispersive liquid–liquid microextraction and graphite furnace atomic absorption spectrometry for ultra-trace determination of lead and cadmium in cereals and agricultural products*, International Journal of Environmental Analytical Chemistry 96(3):271-283 | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 30 | [[sources/ataee2016-iran-cereals-pb-cd\|Ataee et al. 2016]]. *Application of microwave-assisted dispersive liquid–liquid microextraction and graphite furnace atomic absorption spectrometry for ultra-trace determination of lead and cadmium in cereals and agricultural products*, International Journal of Environmental Analytical Chemistry 96(3):271-283 | 2016 | Peer-reviewed | IR Pb, Cd occurrence in 21 cereal composites (7 grain types — rice, wheat, barley, peas, beans, corn, lentil — × 3 local... (n=21) |
 | 31 | [[sources/dufault2015-blood-mercury-glucose-nhanes\|Dufault et al. 2015]]. *Blood inorganic mercury is directly associated with glucose levels in the human population and may be linked to processed food intake*, Integrative Molecular Medicine | 2015 | Peer-reviewed | NHANES (n=16,232) epidemiological evidence linking blood inorganic Hg to fasting glucose (p<0.001), implicating high-fructose corn syrup manufactured with mercury-cell chlor-alkali processes as a Hg dietary-exposure pathway via corn derivatives |
-| 32 | [[sources/pirsaheb2015-iran-kermanshah-cereals-metals\|Pirsaheb et al. 2015]]. *Essential and toxic heavy metals in cereals and agricultural products marketed in Kermanshah, Iran, and human health risk assessment*, Food Additives & Contaminants: Part B, Surveillance | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 32 | [[sources/pirsaheb2015-iran-kermanshah-cereals-metals\|Pirsaheb et al. 2015]]. *Essential and toxic heavy metals in cereals and agricultural products marketed in Kermanshah, Iran, and human health risk assessment*, Food Additives & Contaminants: Part B, Surveillance | 2015 | Peer-reviewed | IR Pb, Cd, Cr, Ni, Zn, Cu occurrence in 150 packed cereal samples representing 7 commodity types (rice, wheat, corn, peas, lentil, bean, split peas) collected from... (n=150) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -242,9 +242,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

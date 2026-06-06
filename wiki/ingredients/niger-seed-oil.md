@@ -123,7 +123,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia\|Tesfaye et al. 2016]]. *Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils*, Advances in Chemistry | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia\|Tesfaye et al. 2016]]. *Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils*, Advances in Chemistry | 2016 | Peer-reviewed | ET Cu, Zn, Fe occurrence in Four branded edible-oil samples purchased around the Merkato commercial center in Ethiopia: two imported palm-oil samples and two... (n=4) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -133,5 +133,8 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [c70fc46](https://github.com/paleofoundation/heavymetalindex/commit/c70fc46) | 2026-06-02 | ingest June 2: tesfaye2016-edible-oils-essential-metals-ethiopia |
 <!-- END: hmi-page-history -->

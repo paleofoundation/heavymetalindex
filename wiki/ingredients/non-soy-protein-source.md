@@ -122,10 +122,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/barborakova2024-black-soldier-fly-larvae-metals\|Barborakova et al. 2024]]. *Safety of black soldier fly larvae: microbial and heavy metal risks*, Journal of Microbiology, Biotechnology and Food Sciences | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/barborakova2024-black-soldier-fly-larvae-metals\|Barborakova et al. 2024]]. *Safety of black soldier fly larvae: microbial and heavy metal risks*, Journal of Microbiology, Biotechnology and Food Sciences | 2024 | Peer-reviewed | SK/EU Cd, Pb, Ni, Cr, Cu, Mn, Mo, Zn, Co occurrence in Black soldier fly larvae before experimental feeding and after four laboratory feed variants: egg pasta in whole milk,... (n=5) |
 | 2 | [[sources/sim2024-inorganic-arsenic-seaweed-hplc\|Sim et al. 2024]]. *Determination of inorganic arsenic in seaweed, grain, grass silage, and insect protein by HPLC-ICP-MS using a design of experiments optimization approach*, Food Chemistry | 2024 | Peer-reviewed | HPLC-ICP-MS validated iAs method applied to insect-protein samples as a non-soy protein matrix |
 | 3 | [[sources/masite2022-mopane-trace-metals\|Masite et al. 2022]]. *Trace Metals, Crude Protein, and TGA-FTIR Analysis of Evolved Gas Products in the Thermal Decomposition of Roasted Mopane Worms, Sweet Corn, and Peanuts*, International Journal of Food Science | 2022 | Peer-reviewed | tAs, Cd, Cr, Ni, and Pb in roasted mopane worms as an edible-insect alternative-protein source from the South African market |
-| 4 | [[sources/hosojima2017-rice-endosperm-protein-cadmium\|Hosojima et al. 2017]]. *A Randomized, Double-Blind, Crossover Pilot Trial of Rice Endosperm Protein Supplementation in Maintenance Hemodialysis Patients*, Scientific Reports | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/hosojima2017-rice-endosperm-protein-cadmium\|Hosojima et al. 2017]]. *A Randomized, Double-Blind, Crossover Pilot Trial of Rice Endosperm Protein Supplementation in Maintenance Hemodialysis Patients*, Scientific Reports | 2017 | Peer-reviewed | JP Cd occurrence in Five batches of rice endosperm protein powder prepared from Japonica rice flour for a maintenance-hemodialysis nutrition intervention in... (n=5) |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -179,9 +179,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

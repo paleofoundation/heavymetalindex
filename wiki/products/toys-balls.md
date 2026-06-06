@@ -106,9 +106,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/schade2010-toxic-toys-r-us-pvc\|Schade 2010]]. *Toxic Toys "R" Us: PVC Toxic Chemicals in Toys and Packaging — A Report to the National Commission of Inquiry into Toxic Toys*, Center for Health, Environment & Justice (CHEJ) PVC Campaign and Teamsters Office of Consumer Affairs (Washington, DC / Falls Church, VA), November 2010, 47 pp. | 2010 | NGO report | *[awaiting synthesis]* |
-| 2 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | *[awaiting synthesis]* |
-| 3 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | *[awaiting synthesis]* |
+| 1 | [[sources/schade2010-toxic-toys-r-us-pvc\|Schade 2010]]. *Toxic Toys "R" Us: PVC Toxic Chemicals in Toys and Packaging — A Report to the National Commission of Inquiry into Toxic Toys*, Center for Health, Environment & Justice (CHEJ) PVC Campaign and Teamsters Office of Consumer Affairs (Washington, DC / Falls Church, VA), November 2010, 47 pp. | 2010 | NGO report | US Pb, Cd, Sn occurrence in Two rounds of portable-XRF screening of toys, children's products, and packaging purchased at retail. Round 1 (June 15,... (n=120) |
+| 2 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | US Pb, Cd occurrence in Twelve of the 18 children's polyvinyl chloride (PVC) products identified as likely to be handled, mouthed, or chewed... (n=12) |
+| 3 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | US/CA Pb, Cd occurrence in 131 polyvinyl chloride (PVC) consumer products purchased at national chain stores (Kmart, Wal-Mart, Target, Toys R Us, Disney... (n=131) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -118,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

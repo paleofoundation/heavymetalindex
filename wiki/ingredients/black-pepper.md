@@ -23,7 +23,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 8
+sources: 11
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -56,14 +56,17 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/sabri2025-moroccan-spices-casablanca-metals\|Sabri et al. 2025]]. *Essential and Toxic Element Profiles in Selected Spices from Greater Casablanca, Morocco*, World's Veterinary Journal 15(4): 863-881 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/sabri2025-moroccan-spices-casablanca-metals\|Sabri et al. 2025]]. *Essential and Toxic Element Profiles in Selected Spices from Greater Casablanca, Morocco*, World's Veterinary Journal 15(4): 863-881 | 2025 | Peer-reviewed | MA/EU/INTL Pb, Cd, tAs, Cr, Ni occurrence in 137 bulk spice samples (cinnamon n=37, cumin n=25, turmeric n=25, black pepper n=25, ginger n=25) purchased from local... (n=137) |
 | 2 | [[sources/tinggi2025-spices-herbs-queensland\|Tinggi et al. 2025]]. *Heavy metal analysis in commercial spices and herbs by inductively coupled plasma mass spectrometry (ICP-MS) and estimated dietary exposure*, Journal of Environmental Exposure Assessment | 2025 | Peer-reviewed | AU/IN/CN Pb, Cd, tAs, tHg, Ni, Al, Cr occurrence in Commercial dried spices and herbs purchased from Queensland, Australia markets; plus 20 turmeric samples (13 conventional, 7 organic) (n=69) |
 | 3 | [[sources/moussa2024-spices-herbs-lebanon\|Moussa et al. 2024]]. *Impact of source, packaging and presence of food safety management system on heavy metals levels in spices and herbs*, PLoS ONE | 2024 | Peer-reviewed | LB Pb, Cd, tAs, tHg occurrence in 96 composite samples (pooled from 480 individual samples; 5 brands per spice per category) of 13 dried herbs... (n=96) |
-| 4 | [[sources/ammar2023-element-migration-aluminum-cookware\|Ammar et al. 2023]]. *Investigation of Element Migration from Aluminum Cooking Pots Using ICP-MS*, Applied Sciences (MDPI) | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 5 | [[sources/islam2023-noakhali-spices-bangladesh\|Islam et al. 2023]]. *Heavy Metals Induced Health Risk Assessment Through Consumption of Selected Commercially Available Spices in Noakhali District of Bangladesh*, medRxiv (preprint) | 2023 | Preprint | *[awaiting synthesis]* |
+| 4 | [[sources/ammar2023-element-migration-aluminum-cookware\|Ammar et al. 2023]]. *Investigation of Element Migration from Aluminum Cooking Pots Using ICP-MS*, Applied Sciences (MDPI) | 2023 | Peer-reviewed | SA Al, Fe, As, Cd, Pb occurrence in Eight cooked-food test conditions (AC-1 through APP-5) using four aluminum cooking pots — two traditional pots (codes AC,... (n=16) |
+| 5 | [[sources/islam2023-noakhali-spices-bangladesh\|Islam et al. 2023]]. *Heavy Metals Induced Health Risk Assessment Through Consumption of Selected Commercially Available Spices in Noakhali District of Bangladesh*, medRxiv (preprint) | 2023 | Preprint | BD Pb, Cd, Cr occurrence in 19 commercially-available spice samples (15 non-branded, 4 branded) collected from Sonapur and Maijdee marketplaces in Noakhali District, Bangladesh;... (n=19) |
 | 6 | [[sources/cicero2022-minerals-spices-aromatic-herbs\|Cicero et al. 2022]]. *Mineral and Microbiological Analysis of Spices and Aromatic Herbs*, Foods | 2022 | Peer-reviewed | IT/SA/IN Pb, Cd, tAs, tHg, Ni, Al, Cr, Sn occurrence in 13 spice and aromatic herb samples purchased in an international market in Saudi Arabia, representing products from India,... (n=13) |
-| 7 | [[sources/mercan-yucel2022-van-spices-heavy-metals\|Mercan 2022]]. *Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals*, Balikesir Health Sciences Journal | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 8 | [[sources/gill2021-consumer-reports-spices\|Gill et al. 2021]]. *The Trouble With Spices: Heavy Metals in 15 Herbs and Spices*, Consumer Reports | 2021 | NGO report | US Pb, Cd, tAs occurrence in 126 individual products covering 38 brands and 15 herb/spice types from the US retail market (n=126) |
+| 7 | [[sources/mercan-yucel2022-van-spices-heavy-metals\|Mercan 2022]]. *Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals*, Balikesir Health Sciences Journal | 2022 | Peer-reviewed | TR Ni, tAs, Cd, Pb, Al occurrence in 60 unpackaged spice samples sold in Van Province, Turkey: black pepper n=20, cumin n=20, and red pepper n=20. (n=60) |
+| 8 | [[sources/mercanyucel2022-van-spices-metals\|Mercan 2022]]. *Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals*, Balikesir Health Sciences Journal | 2022 | Peer-reviewed | TR Ni, tAs, Cd, Pb, Al occurrence in Unpackaged red pepper, black pepper, and cumin samples sold in Van province, Turkey (n=60) |
+| 9 | [[sources/gill2021-consumer-reports-spices\|Gill et al. 2021]]. *The Trouble With Spices: Heavy Metals in 15 Herbs and Spices*, Consumer Reports | 2021 | NGO report | US Pb, Cd, tAs occurrence in 126 individual products covering 38 brands and 15 herb/spice types from the US retail market (n=126) |
+| 10 | [[sources/savic2019-serbian-spices-minerals\|Savić et al. 2019]]. *Determination of the mineral content of spices by ICP-OES*, Advanced Technologies | 2019 | Peer-reviewed | RS Pb, Cd, Al, Ni, Cr occurrence in Ten spice samples available on the Serbian market: curcuma, star anise, cinnamon, ginger, coriander, cardamom, sesame, black pepper,... (n=10) |
+| 11 | [[sources/matloob2016-iraq-spices-heavy-metals\|Matloob 2016]]. *Using Stripping Voltammetry to Determine Heavy Metals in Cooking Spices Used in Iraq*, Polish Journal of Environmental Studies | 2016 | Peer-reviewed | IQ Cu, Zn, Fe, Mn, Cr, Ni, Co, Cd, Pb, tHg occurrence in 32 natural spice types sold in Babil, Iraq, five samples per spice (n=160) |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -113,9 +116,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

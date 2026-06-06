@@ -106,10 +106,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature\|Hoehn et al. 2024]]. *Flame Retardant Exposure in Vehicles Is Influenced by Use in Seat Foam and Temperature*, Environmental Science & Technology 58(20):8825–8834 | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/echa2023-cmr-childcare-articles\|ECHA 2023]]. *Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)*, European Chemicals Agency (ECHA), Helsinki, Finland. Investigation report version 2.0 (Final), 31 October 2023, prepared at the request of the European Commission under REACH Article 68(2). | 2023 | Regulatory agency report | *[awaiting synthesis]* |
-| 3 | [[sources/kjolholt2015-car-safety-seats-childrens-textiles\|Kjølholt et al. 2015]]. *Chemical substances in car safety seats and other textile products for children*, Danish Ministry of the Environment / Environmental Protection Agency — Survey of chemical substances in consumer products No. 135 (ISBN 978-87-93352-07-0) | 2015 | Regulatory report | *[awaiting synthesis]* |
-| 4 | [[sources/stapleton2010-flame-retardants-baby-product-foam\|Stapleton et al. 2010]]. *Identification of Flame Retardants in Polyurethane Foam Collected from Baby Products*, Organohalogen Compounds (proceedings of Dioxin 2010 / 30th International Symposium on Halogenated Persistent Organic Pollutants, San Antonio, TX, September 2010) | 2010 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature\|Hoehn et al. 2024]]. *Flame Retardant Exposure in Vehicles Is Influenced by Use in Seat Foam and Temperature*, Environmental Science & Technology 58(20):8825–8834 | 2024 | Peer-reviewed | This ten-page peer-reviewed Environmental Science & Technology article reports the first study to use silicone passive samplers to characterise flame-retardant... |
+| 2 | [[sources/echa2023-cmr-childcare-articles\|ECHA 2023]]. *Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)*, European Chemicals Agency (ECHA), Helsinki, Finland. Investigation report version 2.0 (Final), 31 October 2023, prepared at the request of the European Commission under REACH Article 68(2). | 2023 | Regulatory agency report | EU Pb, Cd, Cr-VI, Co, tAs, tHg, Sn, Li, V occurrence in Not a primary-measurement study. The report aggregates 1,559 entries reporting measurements of CMR 1A or 1B substances in... |
+| 3 | [[sources/kjolholt2015-car-safety-seats-childrens-textiles\|Kjølholt et al. 2015]]. *Chemical substances in car safety seats and other textile products for children*, Danish Ministry of the Environment / Environmental Protection Agency — Survey of chemical substances in consumer products No. 135 (ISBN 978-87-93352-07-0) | 2015 | Regulatory report | DK/EU Sn occurrence in Fourteen sub-samples of textile from car safety seats sourced from the Danish market and screened by wavelength-dispersive X-ray... (n=14) |
+| 4 | [[sources/stapleton2010-flame-retardants-baby-product-foam\|Stapleton et al. 2010]]. *Identification of Flame Retardants in Polyurethane Foam Collected from Baby Products*, Organohalogen Compounds (proceedings of Dioxin 2010 / 30th International Symposium on Halogenated Persistent Organic Pollutants, San Antonio, TX, September 2010) | 2010 | Peer-reviewed | This three-page Dioxin 2010 symposium proceedings paper (Organohalogen Compounds) reports a GC/EI-MS + GC/ECNI-MS screening of polyurethane-foam sub-samples from 101... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -119,9 +119,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

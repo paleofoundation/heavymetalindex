@@ -18,7 +18,7 @@ hmtc_threshold_status: at_bar_iAs_dirty_p30
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-09
-sources: 21
+sources: 23
 ---
 
 # Fruit Juices, Apple-Containing
@@ -185,7 +185,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 6 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | US Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in Composite TDS samples across 307 foods (3,241 food/beverage samples + 35 bottled-water samples) collected across six US regions... (n=3276) |
 | 7 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS multi-element dataset (FY2018–FY2020) covering apple juice composites; provides Pb, Cd, tAs, iAs, and Ni occurrence data for apple-containing juice in the US diet |
 | 8 | [[sources/zmudzinska2022-rte-baby-foods-poland\|Zmudzinska et al. 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*, Nutrients 14(11):2325 | 2022 | Peer-reviewed | PL tAs, Cd, tHg, Pb occurrence in 397 commercial ready-to-eat baby-food products purchased Dec 2020 – Sep 2021 on the Polish market for children aged... (n=397) |
-| 9 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | *[awaiting synthesis]* |
+| 9 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | US iAs, tAs, Pb, Cd, tHg occurrence in Internal company testing records (ingredient pre-shipment tests and finished-product tests) subpoenaed from seven major US baby-food manufacturers covering... |
 | 10 | [[sources/balalimood2018-fruit-juice-mashhad-pb-as\|Balali-Mood et al. 2018]]. *Arsenic and Lead Contaminations in Commercial Fruit Juices of Markets in Mashhad, Iran*, Iranian Journal of Toxicology | 2018 | Peer-reviewed | IR Pb, tAs occurrence in 50 commercial packaged fruit juice samples from Mashhad, Iran local markets in spring and winter 2016; grape, apple,... (n=50) |
 | 11 | [[sources/fda2018-lead-in-juice-fy2005-fy2018\|FDA 2018]]. *Analytical Results for Lead in Juice Sampled Under the FDA's Toxic Elements in Food and Foodware, and Radionuclides in Food – Import and Domestic Compliance Program (FY2005-FY2018)*, FDA analytical results table | 2018 | Government dataset | FDA compliance-program Pb dataset for 1,643 juice samples (FY2005–FY2018) including apple and apple-mixed juices; primary Pb occurrence source for this row across a 13-year US sampling window |
 | 12 | [[sources/llorente-mirandes2016-ias-food-analytical-review\|Llorente-Mirandes et al. 2016]]. *Inorganic Arsenic Determination in Food: A Review of Analytical Proposals and Quality Assessment Over the Last Six Years*, Applied Spectroscopy | 2016 | Peer-reviewed | EU/US/CN iAs, tAs concentrations |
@@ -196,8 +196,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 17 | [[sources/fda2011-apple-juice-arsenic-speciation\|FDA 2011]]. *Results of Arsenic Analysis in Single-Strength Apple Juice 2011 (ORA Sampling Assignment 2011102701)*, U.S. Food and Drug Administration | 2011 | Government dataset | FDA 2011 ORA apple-juice sampling assignment reporting iAs, DMA, MMA, and tAs in 94 single-strength apple juice samples; primary iAs speciation source for the apple-containing juice row |
 | 18 | [[sources/fda2011-arsenic-apple-juice-2005-2011\|FDA 2011]]. *Arsenic in Apple Juice: Analytical Results from the 2005–2011 Toxic Elements Food and Foodware Program*, US Food and Drug Administration | 2011 | Government dataset | US tAs concentrations (n=160) |
 | 19 | [[sources/farid2010-fruit-juices-jeddah-trace-elements\|Farid et al. 2010]]. *Levels of Trace Elements in Commercial Fruit Juices in Jeddah, Saudi Arabia*, Medical Journal of Islamic World Academy of Sciences | 2010 | Peer-reviewed | SA Cr, Ni occurrence in 129 commercial fruit juice samples (42 apple, 45 orange, 42 mango) of 15 brands purchased from supermarkets in... (n=129) |
-| 20 | [[sources/atsdr2005-tin-toxicological-profile\|Harper et al. 2005]]. *Toxicological Profile for Tin and Tin Compounds*, U.S. Department of Health and Human Services, ATSDR | 2005 | Government report | ATSDR toxicological profile for Sn documenting occurrence data in canned apple juice and other canned fruit products; provides regulatory and hazard-characterisation context for Sn in apple-containing canned juice |
-| 21 | [[sources/benoy1971-tin-toxicity-canned-fruit-juices\|Benoy et al. 1971]]. *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*, Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 | 1971 | Peer-reviewed | Historical UK study documenting Sn toxicity in canned fruit juices; provides early evidence of Sn leaching as a food-contact hazard mechanism relevant to canned apple-containing juice formats |
+| 20 | [[sources/atsdr2005-tin-toxicological-profile\|Harper et al. 2005]]. *Toxicological Profile for Tin and Tin Compounds*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2005 | Government report | ATSDR toxicological profile for Sn documenting occurrence data in canned apple juice and other canned fruit products; provides regulatory and hazard-characterisation context for Sn in apple-containing canned juice |
+| 21 | [[sources/blunden2003-tin-canned-food-review\|Blunden et al. 2003]]. *Tin in canned food: a review and understanding of occurrence and effect*, Food and Chemical Toxicology, Vol. 41, Issue 12, pp. 1651-1662 | 2003 | Peer-reviewed | UK/EU/US Sn occurrence in Narrative review of tin-in-canned-food literature commissioned by ITRI Ltd (the International Tin Research Institute) compiling published primary clinical,... |
+| 22 | [[sources/jecfa-33rd-tin-1989\|JECFA 1989]]. *Tin — Toxicological monograph prepared by the 33rd meeting of the Joint FAO/WHO Expert Committee on Food Additives*, WHO Food Additives Series, No. 24 (Toxicological evaluation of certain food additives and contaminants, prepared by the 33rd meeting of JECFA, March 1988) | 1989 | Government report | international Sn occurrence in Re-examination of published human case-series and controlled-feeding data, 1887-1975 |
+| 23 | [[sources/benoy1971-tin-toxicity-canned-fruit-juices\|Benoy et al. 1971]]. *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*, Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 | 1971 | Peer-reviewed | Historical UK study documenting Sn toxicity in canned fruit juices; provides early evidence of Sn leaching as a food-contact hazard mechanism relevant to canned apple-containing juice formats |
 <!-- END: hmi-source-legend -->
 
 ## CC candidate evidence map
@@ -219,9 +221,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

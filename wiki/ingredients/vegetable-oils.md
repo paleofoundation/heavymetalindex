@@ -3,7 +3,7 @@ type: ingredient
 commodity: vegetable-oils
 title: "Vegetable Oils"
 label: "Vegetable Oils"
-aliases: [edible-oils, cooking-oils, plant-oils]
+aliases: [edible-oils, cooking-oils, plant-oils, vegetable-oil, "Vegetable Oil", "ingredients/vegetable-oil"]
 category: oil
 contamination_profile:
   Pb:
@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 20
+sources: 22
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 6
@@ -163,26 +163,26 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/abedi2025-edible-oils-bleaching-review\|Abedi et al. 2025]]. *Comparison Between Emerging and Conventional Methods for Edible Oils Bleaching*, Food Science & Nutrition | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/matei2025-vegetable-oils-romania-gfaas\|Matei et al. 2025]]. *Physicochemical Properties, Trace Elements, and Health Risk Assessment of Edible Vegetable Oils Consumed in Romania*, Applied Sciences | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/ntigoroku2025-delta-state-edible-oils-metals\|Ntigoroku et al. 2025]]. *Physicochemical Properties, Heavy Metals levels and Health Risk Assessment of selected Edible Oils purchased from major markets in Delta State, Nigeria*, Journal of Applied Sciences and Environmental Management | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/abedi2025-edible-oils-bleaching-review\|Abedi et al. 2025]]. *Comparison Between Emerging and Conventional Methods for Edible Oils Bleaching*, Food Science & Nutrition | 2025 | Peer-reviewed | Pb, Cd, Ni, Cr, Co, Al, Cu, Fe occurrence in Narrative review of published literature on industrial and emerging bleaching technologies for edible vegetable oils. No primary measurements;... |
+| 2 | [[sources/matei2025-vegetable-oils-romania-gfaas\|Matei et al. 2025]]. *Physicochemical Properties, Trace Elements, and Health Risk Assessment of Edible Vegetable Oils Consumed in Romania*, Applied Sciences | 2025 | Peer-reviewed | RO Pb, Cd, Cu, Cr, Co, Mn, Ni occurrence in 24 edible vegetable oil samples (three samples each of eight oil types: sunflower, grapeseed, extra virgin olive, organic... (n=24) |
+| 3 | [[sources/ntigoroku2025-delta-state-edible-oils-metals\|Ntigoroku et al. 2025]]. *Physicochemical Properties, Heavy Metals levels and Health Risk Assessment of selected Edible Oils purchased from major markets in Delta State, Nigeria*, Journal of Applied Sciences and Environmental Management | 2025 | Peer-reviewed | NG Cd, Cr, Pb, Cu occurrence in Twenty edible vegetable oil samples purchased from major markets in Delta State, Nigeria, grouped as sunflower oil, soybean... (n=20) |
 | 4 | [[sources/silva2025-edible-oils-health-sustainability\|VdS et al. 2025]]. *Edible Oils from Health to Sustainability: Influence of the Production Processes in the Quality, Consumption Benefits and Risks*, Lipidology | 2025 | Peer-reviewed | MA/IR/GR Pb, Cd, tAs, Ni, Cr, Al, Cu, Zn, Fe, Mn, V, tHg occurrence in Systematic review of 35 studies meeting eligibility criteria (of 125 articles screened), including 7 studies on contaminants (PAHs... |
 | 5 | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|Tayeb et al. 2025]]. *Assessment of lead and cadmium exposure through olive and corn oil consumption in Gonbad-Kavus, north of Iran: A public health risk analysis*, Toxicology Reports | 2025 | Peer-reviewed | Iranian commercial-vs-traditional olive-and-corn oil Pb-Cd risk analysis (n=60) |
-| 6 | [[sources/chetima2024-activated-carbons-cottonseed-oil-bleaching\|Chetima et al. 2024]]. *Activated carbons from open air and microwave-assisted impregnation of cotton and neem husks efficiently decolorize neutral cotton oil*, Heliyon | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 7 | [[sources/lin2024-edible-oils-taiwan-12-metals\|S-T et al. 2024]]. *Determination, distribution, and health risk assessment of 12 heavy metals in various edible oils in Taiwan*, JSFA Reports | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/chetima2024-activated-carbons-cottonseed-oil-bleaching\|Chetima et al. 2024]]. *Activated carbons from open air and microwave-assisted impregnation of cotton and neem husks efficiently decolorize neutral cotton oil*, Heliyon | 2024 | Peer-reviewed | Chetima and colleagues prepare activated carbons (ACs) from neem and cotton husks by phosphoric-acid impregnation followed by carbonization, comparing 6... |
+| 7 | [[sources/lin2024-edible-oils-taiwan-12-metals\|S-T et al. 2024]]. *Determination, distribution, and health risk assessment of 12 heavy metals in various edible oils in Taiwan*, JSFA Reports | 2024 | Peer-reviewed | TW tAs, Pb, Cd, Ni, V, Cr, Co, Cu, Fe, Zn, Mn, Ba occurrence in 12 types of refined commercial edible oils (n=25 samples) and 12 types of unrefined (cold-pressed/virgin) commercial edible oils... (n=50) |
 | 8 | [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|Mehri et al. 2024]]. *A probabilistic health risk assessment of potentially toxic elements in edible vegetable oils consumed in Hamadan, Iran*, BMC Public Health | 2024 | Peer-reviewed | Iranian Hamadan probabilistic-risk 5-metal panel across vegetable oils (n=40) |
-| 9 | [[sources/sigauke2024-spent-bleaching-earth-review\|Placxedes et al. 2024]]. *Spent Bleaching Earth: Synthesis, Properties, Characterisation, and Application*, Journal of Sustainability Science and Management | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/sigauke2024-spent-bleaching-earth-review\|Placxedes et al. 2024]]. *Spent Bleaching Earth: Synthesis, Properties, Characterisation, and Application*, Journal of Sustainability Science and Management | 2024 | Peer-reviewed | Cu, Fe, Mn, Zn occurrence in Narrative review of published literature on spent bleaching earth (SBE) synthesis, properties, characterisation, and application. No primary measurements;... |
 | 10 | [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|Yohannes et al. 2024]]. *Analysis of heavy metals and minerals in edible vegetable oils produced and marketed in Gondar City, Northwest Ethiopia*, BMC Public Health | 2024 | Peer-reviewed | Ethiopian Gondar City vegetable oil 5-metal panel (n=17); emerging-market context |
-| 11 | [[sources/famurewa2023-coconut-oil-metals-pesticides\|Famurewa et al. 2023]]. *Comparative assessment of different coconut oils: Chromatographic and spectrometric analyses of pesticide residues, toxic heavy metals, and associated contents*, Measurement: Food | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 11 | [[sources/famurewa2023-coconut-oil-metals-pesticides\|Famurewa et al. 2023]]. *Comparative assessment of different coconut oils: Chromatographic and spectrometric analyses of pesticide residues, toxic heavy metals, and associated contents*, Measurement: Food | 2023 | Peer-reviewed | NG/PK Pb, Cd, tHg, tAs, Ni, Al, Cr, Co, Cu, Fe, Zn, Mn, Be, Ag, Mo, Se, Au occurrence in Three coconut oil samples sold or produced for the Nigerian market: one imported oil and two locally produced... (n=3) |
 | 12 | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|González-Torres et al. 2023]]. *Comparative Study of the Presence of Heavy Metals in Edible Vegetable Oils*, Applied Sciences | 2023 | Peer-reviewed | Global systematic review of 35 vegetable oil types from 24 countries (2015-2022 literature) |
 | 13 | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|Nazari et al. 2023]]. *Impacts of Heavy Metals in Seed Crops and Oil Seed on Human Health: A Threat to Food Safety — Review*, Carpathian Journal of Food Science and Technology, 15(2), 106-124 | 2023 | Review | Global seed-crops-to-oil-products review with seed-to-finished-oil metal-load partitioning |
 | 14 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu et al. 2023]]. *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*, Foods | 2023 | Peer-reviewed | IR/CN/GR Pb, Cd, tAs, Ni, Cr, tHg, Al, Cu, Zn occurrence in Narrative literature review covering heavy metals in fruits and vegetables, milk and dairy, meat, edible oils, wine, and... |
-| 15 | [[sources/alrajhi2020-riyadh-edible-oils-trace-metals\|Alrajhi et al. 2020]]. *Concentration of Trace Metals in Some Major Edible Oils of Riyadh*, Revista Internacional de Contaminacion Ambiental | 2020 | Peer-reviewed | *[awaiting synthesis]* |
-| 16 | [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia\|Tesfaye et al. 2016]]. *Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils*, Advances in Chemistry | 2016 | Peer-reviewed | *[awaiting synthesis]* |
-| 17 | [[sources/acar2012-vegetable-oils-olives-turkey-etaas\|Acar 2012]]. *Evaluation of cadmium, lead, copper, iron and zinc in Turkish dietary vegetable oils and olives using electrothermal and flame atomic absorption spectrometry*, Grasas y Aceites | 2012 | Peer-reviewed | *[awaiting synthesis]* |
-| 18 | [[sources/zhu2011-edible-vegetable-oils-china-8-metals\|Zhu et al. 2011]]. *Health risk assessment of eight heavy metals in nine varieties of edible vegetable oils consumed in China*, Food and Chemical Toxicology | 2011 | Peer-reviewed | *[awaiting synthesis]* |
+| 15 | [[sources/alrajhi2020-riyadh-edible-oils-trace-metals\|Alrajhi et al. 2020]]. *Concentration of Trace Metals in Some Major Edible Oils of Riyadh*, Revista Internacional de Contaminacion Ambiental | 2020 | Peer-reviewed | SA Cd, Cr, Cu, Fe, Mn, Ni, Zn, Al, Pb, tAs occurrence in Fifty-four edible vegetable oil samples, described as soybean, palm, and olive oils, collected from supermarkets around Riyadh, Saudi... (n=54) |
+| 16 | [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia\|Tesfaye et al. 2016]]. *Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils*, Advances in Chemistry | 2016 | Peer-reviewed | ET Cu, Zn, Fe occurrence in Four branded edible-oil samples purchased around the Merkato commercial center in Ethiopia: two imported palm-oil samples and two... (n=4) |
+| 17 | [[sources/acar2012-vegetable-oils-olives-turkey-etaas\|Acar 2012]]. *Evaluation of cadmium, lead, copper, iron and zinc in Turkish dietary vegetable oils and olives using electrothermal and flame atomic absorption spectrometry*, Grasas y Aceites | 2012 | Peer-reviewed | TR Pb, Cd, Cu, Fe, Zn occurrence in 53 vegetable oil samples (8 soybean, 12 sunflower, 8 flower-seed, 8 nut, 8 corn, 9 olive) and 70... (n=123) |
+| 18 | [[sources/zhu2011-edible-vegetable-oils-china-8-metals\|Zhu et al. 2011]]. *Health risk assessment of eight heavy metals in nine varieties of edible vegetable oils consumed in China*, Food and Chemical Toxicology | 2011 | Peer-reviewed | CN Cu, Zn, Fe, Mn, Cd, Ni, Pb, tAs occurrence in 109 commercial edible vegetable oil samples purchased from Chinese supermarkets during 2009-2010: 13 soybean, 12 corn, 14 peanut,... (n=109) |
 | 19 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | Turkish vegetable oil 9-metal panel by ICP-AES (n=17); broad-coverage methodological reference |
-| 20 | [[sources/chen2001-edible-fats-oils-arsenic\|Chen et al. 2001]]. *Determination of arsenic in edible fats and oils by focused microwave digestion and atomic fluorescence spectrometer*, Journal of Food and Drug Analysis | 2001 | Peer-reviewed | *[awaiting synthesis]* |
+| 20 | [[sources/chen2001-edible-fats-oils-arsenic\|Chen et al. 2001]]. *Determination of arsenic in edible fats and oils by focused microwave digestion and atomic fluorescence spectrometer*, Journal of Food and Drug Analysis | 2001 | Peer-reviewed | TW tAs occurrence in Twenty-one market samples of edible fats and oils in Taiwan, including peanut oil, sesame oil, olive oil, sunflower... (n=21) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -192,9 +192,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
