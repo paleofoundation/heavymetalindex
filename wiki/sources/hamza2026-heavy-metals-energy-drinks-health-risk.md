@@ -163,40 +163,40 @@ Per the source's discussion text (p. 7): HQ(Cr) and HQ(Ni) were below 1 in every
 
 ### Carcinogenic Risk for oral ingestion, adult only (Table 4, p. 8–9)
 
-CR values are reported in scientific-notation column headers (Co ×10⁴, Cr ×10⁻⁴, Cd ×10⁻⁴, As ×10⁻⁵, Ni ×10⁴, Pb ×10⁻⁴); decoded to absolute CR values below. Per the source's text on p. 9, USEPA considers ILCR 1×10⁻⁶ – 1×10⁻⁴ as acceptable and ILCR > 1×10⁻⁴ as troublesome. Children-receptor CR values are not tabulated in Table 4.
+CR values are reported in scientific-notation column headers; the printed PDF headers (Co ×10⁴, Cr ×10⁻⁴, Cd ×10⁻⁴, As ×10⁻⁵, Ni ×10⁴, Pb ×10⁻⁴) have the Co and Ni exponents printed without a negative sign — independent recomputation against Equation 3 confirms the actual values are on a ×10⁻⁴ basis (e.g., SY adult CR(Co) = 0.0215 × 0.6 × 365 × 24 × 1.1 / (8 760 × 60) = 2.365×10⁻⁴, matching the printed numerical magnitude and the source's USEPA "troublesome" comparator of 1×10⁻⁴). The decoded values in the table below use the corrected ×10⁻⁴ exponent for the Co and Ni columns. Per the source's text on p. 9, USEPA considers ILCR 1×10⁻⁶ – 1×10⁻⁴ as acceptable and ILCR > 1×10⁻⁴ as troublesome. Children-receptor CR values are not tabulated in Table 4.
 
 | Sample | Type | CR(Co) | CR(Cr) | CR(Cd) | CR(As) | CR(Ni) | CR(Pb) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SY | Liquid | 2.365×10⁴ | 3.205×10⁻⁴ | − | 3.45×10⁻⁵ | − | 1.18×10⁻⁴ |
-| RB | Liquid | − | 2.315×10⁻⁴ | 8.001×10⁻⁴ | 0.6×10⁻⁵ | 7.35×10⁴ | 0.38×10⁻⁴ |
-| PH | Liquid | 0.594×10⁴ | − | 3.465×10⁻⁴ | − | 1.142×10⁴ | − |
-| PW | Liquid | − | 0.875×10⁻⁴ | 8.253×10⁻⁴ | − | 5.477×10⁴ | − |
+| SY | Liquid | 2.365×10⁻⁴ | 3.205×10⁻⁴ | − | 3.45×10⁻⁵ | − | 1.18×10⁻⁴ |
+| RB | Liquid | − | 2.315×10⁻⁴ | 8.001×10⁻⁴ | 0.6×10⁻⁵ | 7.35×10⁻⁴ | 0.38×10⁻⁴ |
+| PH | Liquid | 0.594×10⁻⁴ | − | 3.465×10⁻⁴ | − | 1.142×10⁻⁴ | − |
+| PW | Liquid | − | 0.875×10⁻⁴ | 8.253×10⁻⁴ | − | 5.477×10⁻⁴ | − |
 | XC | Liquid | − | − | − | − | − | 0.46×10⁻⁴ |
-| HS | Liquid | − | 4.915×10⁻⁴ | 9.765×10⁻⁴ | 0.3×10⁻⁵ | 1.31×10⁴ | − |
-| 3H | Liquid | 0.583×10⁴ | 0.625×10⁻⁴ | 7.875×10⁻⁴ | 2.4×10⁻⁵ | 4.679×10⁴ | 0.7×10⁻⁴ |
-| WB | Liquid | − | 1.265×10⁻⁴ | 7.308×10⁻⁴ | − | 8.249×10⁴ | − |
-| BR | Liquid | − | 2.465×10⁻⁴ | 10.206×10⁻⁴ | − | 3.066×10⁴ | − |
-| HD | Liquid | − | 2.365×10⁻⁴ | 5.292×10⁻⁴ | 5.55×10⁻⁵ | 5.25×10⁴ | − |
-| BH | Liquid | 0.572×10⁴ | 12.815×10⁻⁴ | 11.466×10⁻⁴ | − | 4.015×10⁴ | − |
-| OR | Liquid | − | 1.315×10⁻⁴ | 12.474×10⁻⁴ | − | 8.266×10⁴ | − |
-| SD | Liquid | 0.924×10⁴ | 3.36×10⁻⁴ | 17.766×10⁻⁴ | − | 6.67×10⁴ | − |
-| BS | Liquid | 2.002×10⁴ | 4.27×10⁻⁴ | 9.135×10⁻⁴ | 6.3×10⁻⁵ | 3.629×10⁴ | 0.52×10⁻⁴ |
-| ME | Liquid | 0.319×10⁴ | 1.615×10⁻⁴ | 4.662×10⁻⁴ | 4.2×10⁻⁵ | 5.107×10⁴ | − |
-| VE | Liquid | 1.815×10⁴ | − | − | 1.65×10⁻⁵ | 0.538×10⁴ | − |
-| FL | Liquid | 0.297×10⁴ | 0.315×10⁻⁴ | − | 3.15×10⁻⁵ | 7.913×10⁴ | − |
-| PR | Liquid | 9.086×10⁴ | 0.565×10⁻⁴ | 6.678×10⁻⁴ | − | 3.788×10⁴ | 0.38×10⁻⁴ |
-| SK | Liquid | − | 0.23×10⁻⁴ | − | 1.8×10⁻⁵ | 0.63×10⁴ | − |
-| IP | Liquid | 1.782×10⁴ | 1.48×10⁻⁴ | 0.945×10⁻⁴ | − | 4.334×10⁴ | − |
-| MP | Liquid | 0.187×10⁴ | 20.795×10⁻⁴ | 35.658×10⁻⁴ | 0.84×10⁻⁵ | 0.521×10⁴ | − |
-| AR | Liquid | − | 1.455×10⁻⁴ | 2.331×10⁻⁴ | 2.1×10⁻⁵ | 0.126×10⁴ | − |
-| CX | Liquid | 1.386×10⁴ | − | − | 5.4×10⁻⁵ | 1.537×10⁴ | − |
-| EJ | Powder | 9.185×10⁴ | − | 8.064×10⁻⁴ | 67.65×10⁻⁵ | 5.242×10⁴ | 1.78×10⁻⁴ |
-| KR | Powder | 5.874×10⁴ | 18.82×10⁻⁴ | − | 4.74×10⁻⁵ | 0.386×10⁴ | 1.49×10⁻⁴ |
-| KK | Powder | 1.925×10⁴ | 1.325×10⁻⁴ | 3.276×10⁻⁴ | − | 2.092×10⁴ | 0.13×10⁻⁴ |
-| PS | Powder | 2.893×10⁴ | − | 4.662×10⁻⁴ | − | 4.813×10⁴ | − |
-| PE | Powder | − | 0.17×10⁻⁴ | − | 1.8×10⁻⁵ | 5.309×10⁴ | 1.04×10⁻⁴ |
-| AL | Powder | 0.451×10⁴ | 0.125×10⁻⁴ | − | 3.75×10⁻⁵ | 3.629×10⁴ | 0.71×10⁻⁴ |
-| ES | Powder | − | 12.505×10⁻⁴ | 11.529×10⁻⁴ | 0.945×10⁻⁵ | 3.973×10⁴ | − |
+| HS | Liquid | − | 4.915×10⁻⁴ | 9.765×10⁻⁴ | 0.3×10⁻⁵ | 1.31×10⁻⁴ | − |
+| 3H | Liquid | 0.583×10⁻⁴ | 0.625×10⁻⁴ | 7.875×10⁻⁴ | 2.4×10⁻⁵ | 4.679×10⁻⁴ | 0.7×10⁻⁴ |
+| WB | Liquid | − | 1.265×10⁻⁴ | 7.308×10⁻⁴ | − | 8.249×10⁻⁴ | − |
+| BR | Liquid | − | 2.465×10⁻⁴ | 10.206×10⁻⁴ | − | 3.066×10⁻⁴ | − |
+| HD | Liquid | − | 2.365×10⁻⁴ | 5.292×10⁻⁴ | 5.55×10⁻⁵ | 5.25×10⁻⁴ | − |
+| BH | Liquid | 0.572×10⁻⁴ | 12.815×10⁻⁴ | 11.466×10⁻⁴ | − | 4.015×10⁻⁴ | − |
+| OR | Liquid | − | 1.315×10⁻⁴ | 12.474×10⁻⁴ | − | 8.266×10⁻⁴ | − |
+| SD | Liquid | 0.924×10⁻⁴ | 3.36×10⁻⁴ | 17.766×10⁻⁴ | − | 6.67×10⁻⁴ | − |
+| BS | Liquid | 2.002×10⁻⁴ | 4.27×10⁻⁴ | 9.135×10⁻⁴ | 6.3×10⁻⁵ | 3.629×10⁻⁴ | 0.52×10⁻⁴ |
+| ME | Liquid | 0.319×10⁻⁴ | 1.615×10⁻⁴ | 4.662×10⁻⁴ | 4.2×10⁻⁵ | 5.107×10⁻⁴ | − |
+| VE | Liquid | 1.815×10⁻⁴ | − | − | 1.65×10⁻⁵ | 0.538×10⁻⁴ | − |
+| FL | Liquid | 0.297×10⁻⁴ | 0.315×10⁻⁴ | − | 3.15×10⁻⁵ | 7.913×10⁻⁴ | − |
+| PR | Liquid | 9.086×10⁻⁴ | 0.565×10⁻⁴ | 6.678×10⁻⁴ | − | 3.788×10⁻⁴ | 0.38×10⁻⁴ |
+| SK | Liquid | − | 0.23×10⁻⁴ | − | 1.8×10⁻⁵ | 0.63×10⁻⁴ | − |
+| IP | Liquid | 1.782×10⁻⁴ | 1.48×10⁻⁴ | 0.945×10⁻⁴ | − | 4.334×10⁻⁴ | − |
+| MP | Liquid | 0.187×10⁻⁴ | 20.795×10⁻⁴ | 35.658×10⁻⁴ | 0.84×10⁻⁵ | 0.521×10⁻⁴ | − |
+| AR | Liquid | − | 1.455×10⁻⁴ | 2.331×10⁻⁴ | 2.1×10⁻⁵ | 0.126×10⁻⁴ | − |
+| CX | Liquid | 1.386×10⁻⁴ | − | − | 5.4×10⁻⁵ | 1.537×10⁻⁴ | − |
+| EJ | Powder | 9.185×10⁻⁴ | − | 8.064×10⁻⁴ | 67.65×10⁻⁵ | 5.242×10⁻⁴ | 1.78×10⁻⁴ |
+| KR | Powder | 5.874×10⁻⁴ | 18.82×10⁻⁴ | − | 4.74×10⁻⁵ | 0.386×10⁻⁴ | 1.49×10⁻⁴ |
+| KK | Powder | 1.925×10⁻⁴ | 1.325×10⁻⁴ | 3.276×10⁻⁴ | − | 2.092×10⁻⁴ | 0.13×10⁻⁴ |
+| PS | Powder | 2.893×10⁻⁴ | − | 4.662×10⁻⁴ | − | 4.813×10⁻⁴ | − |
+| PE | Powder | − | 0.17×10⁻⁴ | − | 1.8×10⁻⁵ | 5.309×10⁻⁴ | 1.04×10⁻⁴ |
+| AL | Powder | 0.451×10⁻⁴ | 0.125×10⁻⁴ | − | 3.75×10⁻⁵ | 3.629×10⁻⁴ | 0.71×10⁻⁴ |
+| ES | Powder | − | 12.505×10⁻⁴ | 11.529×10⁻⁴ | 0.945×10⁻⁵ | 3.973×10⁻⁴ | − |
 
 Per the source's discussion text (p. 9): CR for As and Pb were below 1×10⁻⁴ in most samples (the source also mentions Mn, which is not present in the Table 4 panel — see Verification notes); CR(Co) exceeded 1×10⁻⁴ in SY, BS, VE, PR, IP, CX, EJ, KR, KK, and PS; CR(Cr) was below 1×10⁻⁴ in PW, FL, PR, SK, PE, and AL and above 1×10⁻⁴ in the remaining samples; CR(Cd) and CR(Ni) were above 1×10⁻⁴ in every sample with a detected concentration.
 
@@ -313,7 +313,14 @@ Open-access publication in International Journal of Science, Engineering and Tec
 5. **CR discussion-text Mn carry-over.** The source's CR text on p. 9 states "The CR values of As, Pb and Mn in all the energy drinks samples were less than 1×10⁻⁴" — but Mn is not in this paper's analyte panel and no Mn concentrations are tabulated in Table 2. The wiki page records this as a likely carry-over from the companion Hamza et al. 2025 paper which did measure Mn.
 6. **CSF Ni value printed as "084"** in Table 1 — interpreted here as a printing artefact for 0.84 (mg kg⁻¹ day⁻¹)⁻¹ per the standard USEPA IRIS Ni cancer slope factor, but the source itself does not clarify.
 7. **Cited reference number 9** (the companion Hamza et al. 2025 paper) is listed in the reference list as "Communication in Physical Sciences, 12(3), 933–950" — the wiki cite-key `hamza2025-heavy-metals-energy-drinks-nigeria` records the same paper at the correct page range pp. 213–230 as printed on the actual CPS Vol 12(3) March 2025 issue; the "933–950" pagination is likely a typographic error in the reference list of the present paper.
+8. **Table 4 column-header missing-negative-sign for Co and Ni.** The PDF Table 4 prints the Co and Ni column-header exponents as "×10⁴" without a negative sign, while Cr/Cd/Pb are correctly printed as "×10⁻⁴" and As as "×10⁻⁵". Independent recomputation against Equation 3 (e.g., SY adult CR(Co) = 0.0215 × 0.6 × 365 × 24 × 1.1 / (8 760 × 60) = 2.365×10⁻⁴) confirms the actual Co and Ni values are on a ×10⁻⁴ basis, consistent with the source's USEPA "troublesome" comparator of 1×10⁻⁴ being meaningful for these columns. The wiki Table 4 transcription uses the corrected ×10⁻⁴ exponent for the Co and Ni columns and the leading paragraph documents this correction.
 
 **Sample size used for tabulated heavy-metal values.** Table 2 reports values for all thirty samples (23 liquid + 7 powder). Table 3 reports HQ and HI for all thirty samples for both adult and child receptors. Table 4 reports CR for all thirty samples for the adult receptor only; child CR values are not tabulated. Table 5's cross-brand comparison and Table 6's correlation analysis use the full thirty-sample panel.
 
 **Cite-key choice.** `hamza2026-heavy-metals-energy-drinks-health-risk` distinguishes this paper from the existing `hamza2025-heavy-metals-energy-drinks-nigeria` (the companion Hamza 2025 physicochemical/micronutrient paper) by year and by the "-health-risk" suffix marking its USEPA HRA focus. The `raw_handle` field preserves the MFD_hamza2026-heavy-metals-energy-drinks-health-risk handle from the Manual Fetch Discovery autopilot.
+
+**Audit application (2026-06-06).** Fresh-context Agent subagent audit (verdict REVISE; one ⚠️ concern on Check 1 numerical fidelity — Table 4 column-header missing-negative-sign typo for Co and Ni). Independent re-verification against Equation 3 (SY adult CR(Co) = 0.0215 × 0.6 × 365 × 24 × 1.1 / (8 760 × 60) = 2.365×10⁻⁴; RB adult CR(Ni) = 0.0875 × 0.6 × 365 × 24 × 0.84 / (8 760 × 60) = 7.35×10⁻⁴) confirmed the finding was correct: the PDF prints "×10⁴" for Co and Ni column headers but the values are physically on a ×10⁻⁴ basis. Applied:
+- Corrected the wiki Table 4 transcription to use ×10⁻⁴ exponent for the Co and Ni columns (only).
+- Added a leading paragraph above Table 4 documenting the recomputation.
+- Added Verification notes inconsistency item (8) recording the printing artefact.
+No other findings to apply. Checks 2/3/4/5 all clean. No false-positive findings to record. No frontmatter changes required. Routing unaffected (sports-energy-drinks direct_evidence row unchanged).
