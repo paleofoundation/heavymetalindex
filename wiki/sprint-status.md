@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-07T18:33:42.228Z
+updated: 2026-06-07T22:43:47.465Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -36,7 +36,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
 | Commits last 1 hour | 0 |
-| Commits last 24 hours | 27 |
+| Commits last 24 hours | 31 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-2286bb8 4 hours ago — frank: dashboard + gap-metric + ledger refresh
+16f9d5a 4 hours ago — audit-queue: jannat2018-iran-tea-heavy-metals -> audited-revised
 ```
 
 ## How to read this
