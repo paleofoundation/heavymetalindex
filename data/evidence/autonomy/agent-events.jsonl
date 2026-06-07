@@ -764,3 +764,6 @@
 {"ts":"2026-06-06T17:46:22.600Z","actor":"frank-opus","cite_key":"hamza2025-heavy-metals-energy-drinks-nigeria","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-06T18:01:10.088Z","actor":"frank-opus","cite_key":"hamza2026-heavy-metals-energy-drinks-health-risk","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-06T18:12:23.694Z","actor":"frank-opus","cite_key":"yahaya2022-heavy-metals-energy-drinks-birnin-kebbi","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T22:53:33.524Z","actor":"discover-autopilot","cite_key":"","status":"discovered","source_path":"wiki/products/vegetable-juices-non-root.md","commit":"","blocker":"","next":"awaiting-ingest:Manual Fetch Discovery (3 PDF)"}
+{"ts":"2026-06-06T23:09:41.385Z","actor":"frank-opus","cite_key":"wale2023-heavy-metals-fruits-vegetables-overview","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-06T23:18:09.758Z","actor":"frank-opus","cite_key":"wale2024-fruit-digestion-methods-review","status":"ingested","source_path":"","commit":"","blocker":"","next":""}

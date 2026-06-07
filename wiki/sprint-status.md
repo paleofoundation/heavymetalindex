@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-06T20:19:10.796Z
+updated: 2026-06-07T00:08:39.526Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -35,8 +35,8 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 0 |
-| Commits last 24 hours | 58 |
+| Commits last 1 hour | 4 |
+| Commits last 24 hours | 65 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-538892e 2 hours ago — audit-queue: yahaya2022-heavy-metals-energy-drinks-birnin-kebbi audited-revised
+44c34d1 51 minutes ago — audit-queue: wale2024-fruit-digestion-methods-review audited-promote
 ```
 
 ## How to read this
