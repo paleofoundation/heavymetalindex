@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-07T00:08:39.526Z
+updated: 2026-06-07T05:05:35.595Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -35,8 +35,8 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 4 |
-| Commits last 24 hours | 65 |
+| Commits last 1 hour | 0 |
+| Commits last 24 hours | 64 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-44c34d1 51 minutes ago — audit-queue: wale2024-fruit-digestion-methods-review audited-promote
+3828178 5 hours ago — frank-intake: dedup june-1-gems-data (skip-list + novelty)
 ```
 
 ## How to read this
