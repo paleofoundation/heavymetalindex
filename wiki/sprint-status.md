@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-07T09:41:45.785Z
+updated: 2026-06-07T14:15:59.723Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -29,14 +29,14 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Component | State |
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
-| auto-fetched/ PDFs in queue | 492 (fresh work for Codex/daemon ingest) |
+| auto-fetched/ PDFs in queue | 514 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 2 ✅ |
-| Audit queue: pending-audit-spawn-failed | 97 (async lane) |
+| Audit queue: pending-audit-spawn-failed | 98 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 0 |
-| Commits last 24 hours | 41 |
+| Commits last 1 hour | 6 |
+| Commits last 24 hours | 47 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-006563d 5 hours ago — frank: dashboard + gap-metric + ledger refresh
+824992b 26 minutes ago — frank-intake: dedup june-1-gems-data (skip-list + novelty)
 ```
 
 ## How to read this
