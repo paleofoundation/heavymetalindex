@@ -100,3 +100,7 @@ Two paper-internal disconnects are preserved verbatim rather than reconciled:
 2. The discussion concludes that "the mean concentration of each element was in an acceptable range" based on a t-test against an unstated WHO ADI, but the Table 5 standard-limit column the same paper prints shows mean cadmium at 28-42× and mean lead at 3.25-3.95× those standard limits. The source does not reconcile the t-test conclusion with its own Table 5 column.
 
 The Table 5 standard-limit values (Zn 5, Cd 0.01, Pb 0.1, Cu 5 mg/100 g) are not attributed to a specific regulatory body, year, or basis in the paper text; downstream synthesis should not promote them to a regulatory ceiling without independent confirmation of their provenance.
+
+The paper's Sampling section lists 22 commercial brand names by name while the same section states "25 different commercial kinds of green and black tea" were monitored, and the abstract repeats the 25-brand count; this page reports 25 brands to match the source's stated total rather than the 22-name enumeration.
+
+Audit subagent (2026-06-07) flagged `products/tea` as absent from the taxonomy snapshot; verified independently against docs/gpt-collaboration/taxonomy-snapshot.md line 45 — finding was a false positive because the `tea` product slug is present in the snapshot's Products line alongside `tea-infusions` and `true-tea-camellia-sinensis`. No frontmatter change applied.
