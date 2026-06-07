@@ -17,7 +17,7 @@ access_url: "https://doi.org/10.48185/jcnb.v5i2.1175"
 metals: [Cu, Ni, Zn, Cd, Cr, Pb]
 ingredients: ["[[ingredients/spinach]]", "[[ingredients/tomato]]", "[[ingredients/leafy-vegetables]]"]
 products: ["[[products/spinach]]", "[[products/leafy-vegetables-other]]"]
-matrices: [leafy-vegetables, tomatoes, field-grown-vegetables]
+matrices: [leafy-vegetable, tomato]
 jurisdictions: [NG]
 near_duplicates: []
 sample_n: 2
