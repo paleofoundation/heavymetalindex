@@ -15,15 +15,15 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-cereal
 sha256: 1ad07377b8409e93fd9aacf1941cf02b3fb887af64c471a94dbbf32e998807fa
 metals: [tAs, Cd, Pb]
 ingredients: ["[[ingredients/cereal-bars]]", "[[ingredients/rice]]", "[[ingredients/cereals]]"]
-products: ["[[products/snack-bars-energy-bars]]", "[[products/cereal-products]]", "[[products/teething-and-snacks-rice-based]]"]
+products: ["[[products/snack-bars-energy-bars]]", "[[products/cereal-products]]"]
 matrices: [gluten-free-cereal-bar, rice-based-cereal-bar, snack-bar]
 jurisdictions: [AR]
 sample_n: 72
-sample_population: "Seventy-two commercial gluten-free cereal bars marketed in Argentina, grouped by flavor/main formulation into apple, blueberry, chocolate, coconut, honey, peach, peanut, strawberry, and vanilla categories."
+sample_population: "Seventy-two commercial gluten-free cereal bars from nine popular brands marketed in Argentina, sampled May–July 2014, grouped by flavor/main formulation into apple, blueberry, chocolate, coconut, honey, peach, peanut, strawberry, and vanilla categories."
 wiki_doi: null
 sampling_locations: []
-sampling_year_range: null
-updated: 2026-05-25
+sampling_year_range: "2014"
+updated: 2026-06-08
 ---
 
 # Hidalgo et al. 2015 - Gluten-Free Cereal Bars in Argentina
@@ -48,19 +48,19 @@ Daily-intake screening, assuming two cereal bars per day, identified the honey g
 
 ## Methods (brief)
 
-Samples were digested and analyzed by ICP-MS. Reported method detection limits were 2.5 ug/kg for arsenic, 0.3 ug/kg for cadmium, and 1.6 ug/kg for lead. Recoveries were reported as 97.6%, 99.4%, and 99.2% for arsenic, cadmium, and lead respectively.
+Samples were homogenized, microwave-digested in HNO3/H2O2, and analyzed by inductively coupled plasma mass spectrometry on an Agilent 7700x (Babington nebulizer, Peltier-cooled spray chamber, He collision cell at 3.9 mL/min) monitoring 75As, 111,114Cd, and 206,208Pb against a 115In internal standard. Reported method detection limits were 2.5 ug/kg for arsenic, 0.3 ug/kg for cadmium, and 1.6 ug/kg for lead. Spiked-sample recoveries were 97.6%, 99.4%, and 99.2% for arsenic, cadmium, and lead respectively.
 
 ## Implications
 
-This is direct occurrence evidence for cereal bars and snack bars, especially gluten-free and rice-based formulations. It supports product-form routing for snack bars and cereal products and ingredient context for rice/cereal formulations. It should not be treated as evidence for infant-specific teething snacks unless routed as formulation context, because the sampled products were general commercial gluten-free cereal bars.
+This is direct occurrence evidence for cereal bars and snack bars, especially gluten-free and rice-based formulations marketed to adult and celiac consumers. It supports product-form routing for snack bars and cereal products and ingredient context for rice/cereal formulations. The sampled products were general commercial gluten-free cereal bars, not infant teething snacks, so the routing layer should not fan this source into infant-specific teething-snack pages.
 
 ## Wiki pages this source may touch
 
 - [[products/snack-bars-energy-bars]]
 - [[products/cereal-products]]
-- [[products/teething-and-snacks-rice-based]]
 - [[ingredients/cereal-bars]]
 - [[ingredients/rice]]
+- [[ingredients/cereals]]
 - [[metals/arsenic]]
 - [[metals/cadmium]]
 - [[metals/lead]]
