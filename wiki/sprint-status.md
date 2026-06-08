@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-08T07:22:16.285Z
+updated: 2026-06-08T09:55:34.666Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -29,14 +29,14 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Component | State |
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
-| auto-fetched/ PDFs in queue | 514 (fresh work for Codex/daemon ingest) |
+| auto-fetched/ PDFs in queue | 517 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 2 ✅ |
 | Audit queue: pending-audit-spawn-failed | 98 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 7 |
-| Commits last 24 hours | 78 |
+| Repo sync | ⚠️ 3 commit(s) ahead of origin/main |
+| Commits last 1 hour | 27 |
+| Commits last 24 hours | 127 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-6c16974 16 minutes ago — audit-queue: el-daouk2020-aluminum-food-lebanon → audited-revised
+fc0b29b 3 minutes ago — audit-queue: seregin2023-phytochelatins-sulfur-metal-chelating -> audited-revised
 ```
 
 ## How to read this
