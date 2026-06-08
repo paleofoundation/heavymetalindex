@@ -18,12 +18,12 @@ ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/vegetables]]"]
 products: ["[[products/leafy-vegetables-other]]", "[[products/non-root-vegetables]]"]
 matrices: [houttuynia-cordata, leafy-vegetable, edible-plant-tissue]
 jurisdictions: [CN]
-sample_n: "Houttuynia cordata plants and rhizosphere soils from Danzhai mercury-mining and Zhijin non-mining areas in Guizhou, China; tissue-level n varies by site/tissue table."
+sample_n: "Danzhai (DZ, Hg-mining area): 14 Houttuynia cordata plants + 14 rhizosphere soil samples. Zhijin (ZJ, non-mining comparison): 11 Houttuynia plants + 11 rhizosphere soils. Each plant separated into root, rhizome, aboveground stem, and leaf."
 sample_population: "Edible Houttuynia cordata tissues collected from a mercury mining area and a non-mining comparison area in southwest China."
 wiki_doi: null
-sampling_locations: []
-sampling_year_range: null
-updated: 2026-05-25
+sampling_locations: [Danzhai, Zhijin, Guizhou, CN]
+sampling_year_range: "2019-06/2019-09"
+updated: 2026-06-08
 ---
 
 # Wang et al. 2021 - Houttuynia Mercury in Southwest China
@@ -32,20 +32,44 @@ Wang et al. measured total mercury and methylmercury in edible Houttuynia cordat
 
 ## Key numbers
 
-All concentration values below are dry-weight unless noted.
+All concentration values below are dry-weight (DW) unless noted.
 
-| Tissue/area | THg mean +/- SD (ug/kg) | MeHg mean +/- SD (ug/kg) |
-| --- | ---: | ---: |
-| Underground parts, Danzhai mercury-mining area | 127 +/- 61 | 1.59 +/- 1.01 |
-| Underground parts, Zhijin comparison area | 33 +/- 20 | 0.45 +/- 0.11 |
-| Aboveground parts, Danzhai mercury-mining area | 246 +/- 116 | 0.62 +/- 0.36 |
-| Aboveground parts, Zhijin comparison area | 36 +/- 7 | 0.30 +/- 0.10 |
+Composite underground vs aboveground tissue, Table 1:
 
-The highest reported tissue values were 541 ug/kg THg and 1.39 ug/kg MeHg in underground parts and 272 ug/kg THg and 3.49 ug/kg MeHg in aboveground parts. All samples from the Danzhai mining area exceeded the Chinese vegetable guidance value of 10 ug/kg fresh weight for THg after the study's basis comparison.
+| Tissue/area | THg mean +/- SD (ug/kg DW) | THg range (ug/kg DW) | MeHg mean +/- SD (ug/kg DW) | MeHg range (ug/kg DW) |
+| --- | ---: | ---: | ---: | ---: |
+| Underground parts, Danzhai mercury-mining area | 127 +/- 61 | 71-272 | 1.59 +/- 1.01 | 0.45-3.49 |
+| Underground parts, Zhijin comparison area | 33 +/- 20 | 19-83 | 0.45 +/- 0.11 | 0.33-0.68 |
+| Aboveground parts, Danzhai mercury-mining area | 246 +/- 116 | 138-541 | 0.62 +/- 0.36 | 0.30-1.39 |
+| Aboveground parts, Zhijin comparison area | 36 +/- 7 | 25-52 | 0.30 +/- 0.10 | 0.16-0.53 |
+
+Per-tissue breakdown, Danzhai mining area, Table 3:
+
+| Tissue (Danzhai, N=14) | THg mean +/- SD (ug/kg DW) | THg range (ug/kg DW) | MeHg mean +/- SD (ug/kg DW) | MeHg range (ug/kg DW) |
+| --- | ---: | ---: | ---: | ---: |
+| Root | 523 +/- 357 | 172-1295 | 2.2 +/- 1.8 | 0.5-6.3 |
+| Rhizome | 109 +/- 50 | 53-219 | 1.6 +/- 1.0 | 0.4-3.4 |
+| Aboveground stem | 68 +/- 34 | 24-156 | 0.7 +/- 0.1 | 0.3-1.6 |
+| Leaf | 260 +/- 140 | 169-659 | 0.6 +/- 0.4 | 0.2-1.5 |
+
+Per-tissue breakdown, Zhijin comparison area, Table 3:
+
+| Tissue (Zhijin, N=11) | THg mean +/- SD (ug/kg DW) | THg range (ug/kg DW) | MeHg mean +/- SD (ug/kg DW) | MeHg range (ug/kg DW) |
+| --- | ---: | ---: | ---: | ---: |
+| Root | 130 +/- 59 | 85-266 | 0.8 +/- 0.3 | 0.4-1.4 |
+| Rhizome | 29 +/- 19 | 15-76 | 0.4 +/- 0.1 | 0.3-0.7 |
+| Aboveground stem | 21 +/- 6 | 13-30 | 0.4 +/- 0.1 | 0.3-0.6 |
+| Leaf | 40 +/- 10 | 25-61 | 0.3 +/- 0.1 | 0.1-0.6 |
+
+Roots carry the highest mercury burden: in the Danzhai mining area, root THg ranged up to 1295 ug/kg DW (mean 523 ug/kg DW) and root MeHg ranged up to 6.3 ug/kg DW. Bioaccumulation factors for roots reached 2.88 (THg) and 2.91 (MeHg) at maximum.
+
+On a fresh-weight basis (Table 1, FW columns), every Danzhai sample exceeded the Chinese national vegetable guidance value of 10 ug/kg FW for total mercury: underground parts ranged 15-56 ug/kg FW (mean 26 +/- 13) and aboveground parts ranged 21-83 ug/kg FW (mean 38 +/- 18). In the Zhijin comparison area only a minority of samples exceeded the same limit.
+
+Note on a source internal inconsistency: the paper's narrative paragraph on page 5 states the DZ maxima as "272 ug/kg THg and 3.49 ug/kg MeHg in the aboveground parts, and 541 ug/kg THg and 1.39 ug/kg MeHg in the underground parts," which is reversed from the paper's own Table 1 (where DZ aboveground max = 541 THg / 1.39 MeHg and DZ underground max = 272 THg / 3.49 MeHg). The values reproduced above follow Table 1 and Table 3, which are the authoritative tabulations.
 
 ## Methods (brief)
 
-Plant tissues were separated into aboveground and underground parts, dried, and analyzed for total mercury by direct mercury analysis. Methylmercury was measured after extraction and derivatization with chromatographic separation and cold-vapor atomic fluorescence detection. The study used plant and soil certified reference materials and reported recoveries for THg and MeHg.
+Plant tissues were separated into root, rhizome, aboveground stem, and leaf, dried at 50 C for approximately 5 days, ground, and passed through a 0.150-mm sieve. Total mercury was measured by direct mercury analysis (Milestone DMA-80 with AMA-254 software) following US EPA Method 7473, with thermal decomposition, gold amalgamation, and atomic absorption detection at 253.7 nm. Methylmercury was measured by gas chromatography coupled with cold-vapor atomic fluorescence spectrometry (Thermo Fisher TRACE 1300E GC and Tekran Model 2500 CVAFS) after potassium hydroxide and methanol/solvent extraction, ethylation, and purge-and-trap collection. Limits of detection were 0.01 ug/kg for THg and 0.002 ug/kg for MeHg, and the relative standard deviation of duplicate analyses was under 8 percent. Certified reference materials included GBW10020 (orange foliage) and TORT-2 (lobster hepatopancreas) for tissue THg and MeHg respectively, and GBW07405 and ERMCC580 for soil THg and MeHg. Recoveries for the tissue reference materials were 104.7 percent for THg and 101.6 percent for MeHg.
 
 ## Implications
 
@@ -58,12 +82,16 @@ This source supports mercury occurrence context for leafy/herbal vegetables grow
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/vegetables]]
 - [[metals/mercury]]
+- [[metals/mercury-total]]
+- [[metals/mercury-methyl]]
 
 ## Verification notes
 
-- Batch 2 auto-fetched ingest, 2026-05-25. The wishlist row targeted cereal-bar methylmercury, but the actual paper is an edible Houttuynia vegetable mercury paper.
+- Batch 2 auto-fetched ingest, 2026-05-25. The wishlist row targeted cereal-bar methylmercury, but the actual paper is an edible Houttuynia vegetable mercury paper. Audited 2026-06-08.
 - Speciation: total mercury and methylmercury are separately measured; do not substitute total mercury for methylmercury.
 - Market/geography: mining-area samples are contamination-hotspot evidence, not routine retail-market evidence.
+- Source internal inconsistency: the narrative paragraph on page 5 reports DZ maxima with underground and aboveground reversed relative to the paper's own Table 1. Values reproduced on this page follow Table 1 and Table 3, the authoritative tabulations. An earlier version of this page propagated the narrative-paragraph error; corrected 2026-06-08.
+- Routing decision: Houttuynia cordata is a niche regional Chinese vegetable consumed both as aboveground leafy tissue (Sichuan, Chongqing) and as underground rhizomes plus roots (Guizhou, Yunnan). The taxonomy snapshot has no dedicated houttuynia ingredient or product slug. Routed to leafy-vegetable categories with `houttuynia-cordata` carried in the matrices field; no general root-tuber-vegetables routing because the broader category covers carrots, potatoes, and other staples that this niche herb would dilute. Downstream synthesis should treat this source as a tissue-specific accumulation case study, not as a baseline for either leafy vegetables or root vegetables.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -72,9 +100,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
