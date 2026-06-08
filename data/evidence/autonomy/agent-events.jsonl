@@ -814,3 +814,4 @@
 {"ts":"2026-06-08T07:39:28.456Z","actor":"frank-opus","cite_key":"masri2025-toxicant-foods-california","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T07:52:43.112Z","actor":"frank-opus","cite_key":"peng2023-al-fluoride-tea-stress","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T07:58:27Z","actor":"claude-code","source_path":"raw/Manual Fetch Kimi /June 8/New Folder With Items 3/Assessment-of-Heavy-Metals-in-Biscuit-Samples-Available-in-Iraqi-Markets.pdf","cite_key":"taher2023-biscuits-iraqi-markets","status":"ingested","commit":"pending","blocker":"","next":"June 8 manual-fetch drain (Claude direct)"}
+{"ts":"2026-06-08T08:00:39.849Z","actor":"frank-opus","cite_key":"pourramezani2019-iran-imported-black-tea-metals","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
