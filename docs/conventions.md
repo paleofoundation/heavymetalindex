@@ -88,13 +88,22 @@ Notes: Flagged contradiction between Smith 2024 (n=1000) and Jones 2023 (n=50) o
 
 The bulk-ingest session's deliverable is the source pages and the new-page proposals. The routing audit refresh, the synthesis pass, and the product-page generator runs are downstream system passes that execute after the batch commits.
 
-## Ingest scope (what counts as in-scope occurrence data)
+## Ingest scope (what counts as in-scope)
 
-A source is in scope if it measures — or models exposure to — heavy-metal concentrations in any consumer product, ingredient, packaging/food-contact material, or supply-chain input that the HMTc program covers or could cover. **Scope is food AND non-food.** The program certifies far beyond food: infant and personal care, feminine care (tampons, pads), cosmetics, cleaning and household products, toys and children's durables, textiles and apparel, pet food and products, dietary supplements, research chemicals (peptides, SARMs), packaging and food-contact materials, and the supply-chain inputs tied to any of these.
+A source is in scope if it informs the heavy-metals-in-consumer-products-and-supply-chains domain along **any** of these dimensions:
 
-**"Not food" is never a skip reason.** The retired `skip:not-food-occurrence` vocabulary wrongly framed non-food products as out of scope and could have discarded large amounts of solid data (e.g., heavy metals in cotton tampons, cosmetics, cleaners). Any tooling, prompt, or fetch gate that keys on "food" terms alone is a defect to fix, not a rule to follow.
+- **Occurrence** — measured concentrations in a product or ingredient (food AND non-food). Feeds the certification thresholds; must stay Part 2 firewall-clean.
+- **Exposure** — dietary intake, biomonitoring, exposure modelling.
+- **Toxicology** — health effects, mechanisms, speciation toxicity.
+- **Regulation** — limits, maximum levels, enforcement actions.
+- **Mitigation / remediation** — interventions that reduce or remove heavy metals: agronomic levers, processing, formulation, packaging/storage, supply-chain screening, soil/water remediation, and sequestration/binding agents (phytochelatins, metallothioneins, peptides, biochar, chelation). Feeds `wiki/mitigation/` and the supplier/co-packer courses.
+- **Testing / methods** — how the metals are measured.
 
-The legitimate skip — measuring something but not in-scope occurrence — is `skip:no-occurrence-data`: a controlled lab/dosing experiment, remediation or environmental-cleanup technology, analytical-method development, or an environmental/geological survey with no link to a consumer product or its supply chain. The test is "is there a measured concentration in an in-scope matrix," not "is it food."
+**Scope is food AND non-food.** The program certifies far beyond food: personal and feminine care (tampons, pads), cosmetics, cleaning/household products, toys and durables, textiles, pet products, supplements, research chemicals (peptides, SARMs), and packaging. **"Not food" is never a skip reason — and neither is "not occurrence."** The wiki maintains a full mitigation dimension (`wiki/mitigation/`, 150+ source pages) and routinely ingests phytoremediation, biochar, and chelation studies (e.g. `urosevic2024-salix-phytoremediation`). A peptide or plant that *removes* metals is mitigation evidence, exactly as in-scope as a survey of metals in a product. The retired `skip:not-food-occurrence` vocabulary discarded precisely this kind of solid data.
+
+**Firewall between dimensions.** Mitigation/remediation sources route to `wiki/mitigation/` and the relevant metal pages; their spiked-solution, pot-experiment, and soil numbers must NOT enter the occurrence/threshold percentiles. The established pattern (see the existing remediation pages): leave `products`/`ingredients` empty unless the intervention targets a specific crop/product, and tag the matrix as the remediation matrix (`phytoremediation-trial`, `soil`, etc.).
+
+**The genuinely-out-of-scope skip is narrow** — `skip:no-occurrence-data` / `skip:not-target-cell` apply only when a paper informs **none** of the dimensions above: no heavy-metal analyte at all, or a metal named in an unrelated context (industrial catalysis, geochemistry with no product/supply-chain/mitigation link). The test is "does this inform any dimension of the heavy-metals consumer-product/supply-chain domain," not "is it food" and not "is it a product occurrence measurement."
 
 ## Out of scope
 
