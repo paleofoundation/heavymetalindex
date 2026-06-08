@@ -44,8 +44,7 @@ Legislation summary (as compiled by the review):
 - Australia & New Zealand: maximum inorganic As in seaweed 1 mg/kg dw (ANZ Food Standards Code).
 - France and USA: maximum inorganic As 3 mg/kg dw in algae-based products.
 - Argentina (Argentine Food Code): no specific maximum for As in macroalgae; only a general 1 mg/kg total-As for solid foods, and 0.3 mg/kg inorganic As for leafy vegetables / 1 mg/kg for fish/shellfish/bivalves — which the authors argue is inappropriate for seaweed.
-- EU: Commission Regulations set no maximum levels specifically for arsenic in seaweed; existing food/drinking-water limits refer to total or inorganic As.
-- The review argues species-specific inorganic-As regulation for edible seaweed is needed.
+- General (the review does not name the EU or Commission Regulations): existing food and drinking-water limits refer only to total or inorganic arsenic; regulation of maximum As levels in edible seaweed is limited and principally refers to inorganic forms; the review argues species-specific regulation based on individual As compounds is needed for edible seaweed.
 
 Analytical/CRM note: certified reference materials for arsenic species in seaweed are scarce — SRM 3232 Kelp Powder (*Thallus laminariae*, Yu et al. 2018, first to certify arsenosugar species), *Ulva lactuca* BCR-279 (total As), NMIJ CRM 7405-a hijiki (t-As + As(V)), and NIES CRM 09 *Sargassum fulvellum* (t-As) are the commonly used materials.
 
@@ -55,7 +54,7 @@ Narrative critical review. The authors searched SCOPUS using keywords (marine al
 
 ## Implications
 
-- Certification (HMTc): a B-tier secondary source that corroborates, from an independent review vantage, the structural premises of the Category 6 seaweed-kelp-foods row — low background inorganic arsenic across most edible seaweeds with species-specific high exceptions (hijiki and *Laminaria digitata*), and a brown > red > green ordering of both total arsenic and inorganic fraction. It also assembles the comparative legislative landscape (ANZ 1 mg/kg; France/USA 3 mg/kg; EU/Argentina no seaweed-specific iAs limit) useful as regulatory context, and flags that cooking/digestion transformations are not captured by static total-As/iAs limits. Because it is a review, its numbers are leads, not pooling inputs; the underlying primary studies (several already in this folder) carry the occurrence weight.
+- Certification (HMTc): a B-tier secondary source that corroborates, from an independent review vantage, the structural premises of the Category 6 seaweed-kelp-foods row — low background inorganic arsenic across most edible seaweeds with species-specific high exceptions (hijiki and *Laminaria digitata*), and a brown > red > green ordering of both total arsenic and inorganic fraction. It also assembles the comparative legislative landscape (ANZ 1 mg/kg; France/USA 3 mg/kg iAs in algae products; Argentina no seaweed-specific iAs limit; and the general observation that existing food/water limits refer only to total or inorganic As) useful as regulatory context, and flags that cooking/digestion transformations are not captured by static total-As/iAs limits. Because it is a review, its numbers are leads, not pooling inputs; the underlying primary studies (several already in this folder) carry the occurrence weight.
 - Courses: a strong orientation reading on why arsenic speciation, CRM scarcity, and cooking/bioaccessibility matter for seaweed food safety.
 
 ## Verification notes
@@ -68,4 +67,5 @@ Narrative critical review. The authors searched SCOPUS using keywords (marine al
 - Brand firewall: not engaged (review; no products or brands named).
 - matrices [edible-seaweed, macroalgae, kelp, dry-weight] per corpus convention; `kelp` retained because the review treats *Laminaria* prominently. Kept broad.
 - Instrument/CRM names (SRM 3232, BCR-279, NMIJ 7405-a, NIES 09) retained in the analytical note as permitted scientific reporting.
+- Audit subagent (2026-06-08, fresh-context) returned REVISE; all numbers, speciation labels (tAs/iAs; As(V) not mislabeled as iAs), slugs, and both firewalls verified clean, and the B-tier/review/not-poolable framing and `jurisdictions: [AR]` confirmed defensible. One ⚠️ applied: the legislation summary had attributed an "EU: Commission Regulations" framing the review never makes (the review's actual statement is generic — existing food/water limits refer only to total or inorganic As); reworded the legislation line and its Implications echo to the review's actual unattributed wording. No numeric/speciation corrections needed.
 - Cross-source note: this review cites several primary studies also held in this folder (e.g., Almela 2002, Rose 2007, Ronan 2017, Taylor & Jackson 2016, Llorente-Mirandes 2010/2011); cross-source synthesis against them belongs to the Part 9 synthesis pass, not this source page.
