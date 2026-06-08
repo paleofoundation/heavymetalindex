@@ -1,0 +1,91 @@
+---
+type: source
+raw_handle: MFK_07-ema-2024-synthetic-peptides-elemental-impuritie
+cite_key: ema2025-synthetic-peptides-elemental-impurities
+title: "Guideline on the Development and Manufacture of Synthetic Peptides"
+authors: [European Medicines Agency (CHMP), European Medicines Agency (CVMP)]
+year: 2025
+publication: "European Medicines Agency"
+doi: null
+no_doi_assigned: true
+source_type: regulatory_guideline
+evidence_tier: A
+evidence_fitness: EF-2
+review_state: machine_extracted
+claim_classes: [regulatory_context, public_wiki_claim]
+license: "© European Medicines Agency, 2025. Reproduction authorised provided the source is acknowledged."
+raw_path: "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/07_EMA_2024_Synthetic_Peptides_Elemental_Impurities.pdf"
+raw_sha256: "91394ff432413d163e0b65b531c1297822f17d1128a1bd16bef322f3ee9f76e8"
+access_url: "https://www.ema.europa.eu/en/development-manufacture-synthetic-peptides-scientific-guideline"
+access_date: 2026-06-09
+metals: [Pb, Cd, tAs, tHg, Ni]
+ingredients: []
+products: ["[[products/research-chemicals-peptides-sarms]]"]
+matrices: [synthetic-peptide-api, injectable-peptide]
+jurisdictions: [EU]
+sample_n: null
+sample_population: null
+sampling_locations: []
+sampling_year_range: null
+updated: 2026-06-09
+---
+
+# EMA 2025 — Guideline on the Development and Manufacture of Synthetic Peptides
+
+## Summary
+
+This is the European Medicines Agency's quality guideline for synthetic peptides used in medicinal products, adopted by the CHMP on 1 December 2025 and by the CVMP on 4 December 2025, with an effective date of 1 June 2026. It is a regulatory framework document, not a measurement study, and it does not itself set numerical elemental-impurity limits. Its load-bearing relevance to the Heavy Metal Index is Section 5, which formally places synthetic peptide medicinal products inside the scope of ICH Q3D "Guideline for Elemental Impurities" — meaning that authorised synthetic peptide finished products marketed in the EU must comply with the ICH Q3D parenteral elemental-impurity limits for the route of administration concerned. Section 4.3.2 (Impurities) and Section 4.4.1 (Specification) further require that elemental impurities arising from the use of metal catalysts in the synthesis be characterised, controlled, and, where relevant, included in the active-substance specification. The guideline supplies the regulatory backstop against which falsified or unregulated injectable peptides (e.g., [[sources/janvier2018-falsified-peptides-elemental-impurities]]) are documented to fail.
+
+## Key numbers
+
+This is a regulatory guideline, not a contamination measurement study. No occurrence concentrations or sample-level data are reported. The numerical content relevant to the wiki is the document's regulatory metadata and the framework it incorporates by reference.
+
+| Item | Value |
+| --- | --- |
+| Document reference | EMA/CHMP/CVMP/QWP/367182/2025 |
+| Adopted by CHMP | 1 December 2025 |
+| Adopted by CVMP | 4 December 2025 |
+| Date of coming into effect | 1 June 2026 |
+| Public-consultation period | 18 October 2023 – 30 April 2024 |
+| Scope | Synthetic peptide active substances (existing or new chemical entities) used in human and veterinary medicinal products |
+| Out of scope | Recombinant biologicals, radiopharmaceuticals, radiolabelled peptide products |
+| Elemental-impurity framework incorporated by reference (human) | ICH Q3D "Guideline for Elemental Impurities" |
+| Elemental-impurity framework incorporated by reference (veterinary) | EMA/CVMP/QWP/153641/2018 reflection paper on elemental impurities |
+| Mutagenic-impurity framework incorporated by reference | ICH M7 (EMA/CVMP/SWP/377245/2016) |
+| Residual-solvent framework incorporated by reference | ICH Q3C / VICH GL18 |
+| Ph. Eur. peptide reporting/identification/qualification thresholds | report > 0.1 %, identify > 0.5 %, qualify > 1.0 % |
+
+- The guideline does not set new elemental-impurity numerical limits. It states explicitly: "Synthetic peptides are included in the scope of ICH Q3D 'Guideline for Elemental Impurities' (Reflection paper EMA/CVMP/QWP/153641/2018), thus the requirements laid down in this guideline are applicable for medicinal products containing synthetic peptides as active substances."
+- Section 4.4.1 lists "elemental impurities (e.g. in case of use of metal catalysts)" as a specification test to be included where relevant.
+- Section 4.3.2 classifies elemental impurities as a category of non-peptide impurities (alongside residual solvents, process reagents, by-products, and nitrosamines) for which a purge assessment (data or risk-analysis based) must be addressed in the dossier.
+- Most synthetic-peptide finished products are for parenteral use (Section 5), which routes elemental-impurity control to the ICH Q3D parenteral permitted daily exposure (PDE) tier rather than the oral tier.
+
+## Methods (brief)
+
+Not applicable — this document is a regulatory guideline issued under the CTD Module 3 quality-dossier structure and contains no analytical measurements. The guideline directs marketing-authorisation applicants to use analytical procedures consistent with Ph. Eur. general chapters on peptides (2.2.55 peptide mapping, 2.2.56 amino acid analysis, 2.5.34 acetic acid in synthetic peptides, 2.2.64 peptide identification by NMR) and the EDQM technical guide for monographs on synthetic peptides and recombinant DNA proteins. For elemental-impurity testing specifically, the guideline defers to ICH Q3D, which prescribes ICP-MS or ICP-OES with method validation against the elemental PDEs for each route of administration.
+
+## Implications
+
+- Confirms that authorised synthetic peptide medicinal products marketed in the EU are subject to the ICH Q3D parenteral PDE framework for elemental impurities; this is the regulatory baseline against which findings in unauthorised injectable peptides (e.g., the >10× iAs exceedances documented in [[sources/janvier2018-falsified-peptides-elemental-impurities]]) constitute regulatory violations.
+- Establishes that elemental-impurity control is an expected specification element for synthetic peptide active substances where metal catalysts are used in the synthesis, which routes to the broader pharmaceutical occurrence picture for [[products/research-chemicals-peptides-sarms]] and analogous parenteral peptide categories.
+- The 1 June 2026 effective date sets a near-term compliance deadline for new and existing EU marketing-authorisation applications, which means the regulatory pressure on elemental-impurity testing of synthetic peptide APIs and finished products will increase across the synthetic-peptide market over the next reporting cycle.
+
+## Wiki pages this source may touch
+
+- [[products/research-chemicals-peptides-sarms]] — regulatory context: distinguishes authorised synthetic peptide medicinal products (in ICH Q3D scope) from the falsified / research-chemical preparations documented elsewhere; supports the framing that unregulated peptides operate outside the elemental-impurity control regime that this guideline establishes for the authorised channel.
+- [[metals/lead]], [[metals/cadmium]], [[metals/arsenic]], [[metals/mercury]], [[metals/nickel]] — regulatory context only: these are the ICH Q3D Class 1 (Pb, Cd, As, Hg) and Class 2A (Ni among others) elemental impurities whose parenteral PDEs are incorporated by reference into the synthetic-peptide regulatory regime. No occurrence values are contributed.
+
+## Verification notes
+
+- Document title, reference number (EMA/CHMP/CVMP/QWP/367182/2025), adoption dates (CHMP 1 December 2025; CVMP 4 December 2025), effective date (1 June 2026), and consultation-period dates (draft 6 September 2023; CHMP release 12 October 2023; CVMP release 5 October 2023; public consultation 18 October 2023 – 30 April 2024; QWP agreement 21 November 2025) are taken directly from the cover-page metadata table on page 1 of the PDF.
+- The filename in `raw/` ("07_EMA_2024_Synthetic_Peptides_Elemental_Impurities.pdf") embeds the year 2024, which appears to reflect the Kimi-agent fetch labelling rather than the document's actual adoption year. The document is dated 4 December 2025 (CVMP adoption) per the cover page, and the cite-key, year frontmatter field, and access URL use 2025 accordingly.
+- Section 5 ("Medicinal Product Considerations"), page 21, contains the load-bearing sentence: "Synthetic peptides are included in the scope of ICH Q3D 'Guideline for Elemental Impurities' (Reflection paper EMA/CVMP/QWP/153641/2018), thus the requirements laid down in this guideline are applicable for medicinal products containing synthetic peptides as active substances."
+- Section 4.4.1 ("Specification 3.2.S.4.1"), page 16, lists "elemental impurities (e.g. in case of use of metal catalysts)" in the non-exhaustive specification-test list.
+- Section 4.3.2 ("Impurities 3.2.S.3.2"), page 15, classifies elemental impurities as a non-peptide impurity category and requires the purge to be addressed by data and/or risk analysis.
+- `metals:` is `[Pb, Cd, tAs, tHg, Ni]` — the ICH Q3D Class 1 elements (Pb, Cd, As, Hg) plus Ni (Class 2A) which are the elements most consistently relevant to the parenteral-peptide regulatory frame. ICH Q3D does not separate inorganic vs total arsenic or methylmercury vs total mercury (it sets limits on total element), so `tAs` and `tHg` are the correct speciation labels for the regulatory framework this document incorporates by reference. The guideline itself names no specific elements.
+- `products:` routes to `[[products/research-chemicals-peptides-sarms]]` for cross-reference with the falsified/unregulated injectable-peptide occurrence sources; the regulatory authority documented here applies to the legal/authorised side of the same product category.
+- `matrices:` values `synthetic-peptide-api` and `injectable-peptide` are outside the food-matrix controlled vocabulary in `docs/gpt-collaboration/system-prompt.md`, mirroring the existing flag on [[sources/janvier2018-falsified-peptides-elemental-impurities]]. They are kept because the standard vocabulary does not cover pharmaceutical APIs or injectable medicinal products; flagging here for vocabulary-list review when the peptide/injectable-medicine matrix vocabulary is consolidated.
+- `jurisdictions: [EU]` — the guideline is issued by the European Medicines Agency under EU human-medicines law (Directive 2001/83/EC, as amended) and EU veterinary-medicines law (Regulation (EU) 2019/6). It does not bind non-EU authorities, though ICH guidelines (which it incorporates) have parallel adoption in other ICH-region authorities.
+- `doi: null` — EMA scientific guidelines do not carry DOIs; the document is identified by its EMA reference number (EMA/CHMP/CVMP/QWP/367182/2025) and accessed via the EMA scientific-guideline portal.
+- `source_type: regulatory_guideline` — this is not a peer-reviewed research output; evidence_tier is set to A because the document is the authoritative EMA-adopted text, and evidence_fitness is EF-2 because the regulatory framework is incorporated by reference rather than directly setting numerical limits in this text. No occurrence values are extracted.
+- An ICH Q3D regulation page does not currently exist under `wiki/regulations/`; the cross-references to ICH Q3D in this source page are in body prose only, not as a wikilink. Surfacing this gap as a future regulation-page candidate for Karen (regulation pages require hard agency identifiers and are not auto-created by this skill).
