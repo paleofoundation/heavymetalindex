@@ -88,7 +88,7 @@ sources: 17
 
 # Camellia sinensis
 
-This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+Camellia sinensis is the tea plant, the source of black, green, white, and oolong teas. Its heavy-metal profile is the subject of a dedicated synthesis, [[synthesis/tea-multi-metal-bioaccumulation]], which carries the load-bearing finding for this ingredient: tea is a multi-metal bioaccumulator and an aluminium hyperaccumulator whose as-consumed exposure is governed by the metal-specific, origin-dependent leaf-to-infusion transfer fraction rather than by the dry-leaf totals tabulated below. The table that follows is on a dry-leaf basis and, per the synthesis, overstates the dose delivered in the brewed cup; the transfer-fraction and infusion-basis caveats live on the synthesis page.
 
 ## Heavy metal contamination profile
 

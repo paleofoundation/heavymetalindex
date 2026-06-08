@@ -13,6 +13,7 @@ Each row links to a self-contained synthesis page that carries the full anchor-s
 
 | Finding | Metals | Anchor sources | Added |
 | --- | --- | --- | --- |
+| [Tea heavy-metal exposure is governed by the leaf-to-infusion transfer fraction, not the dry-leaf totals that surveillance reports](/synthesis/tea-multi-metal-bioaccumulation) | Al, Pb, Cd, Cr, tAs | 8 | 2026-06-04 |
 | [Aquaculture vs wild-caught contamination differential: why farmed fish carry systematically lower MeHg](/synthesis/aquaculture-vs-wild-contamination-differential) | MeHg, tHg, Cd, Pb, tAs | 3 | 2026-05-18 |
 | [Bivalve cadmium amplification through filter feeding: why mussels and oysters need a different threshold than finfish](/synthesis/bivalve-cadmium-amplification) | Cd, Pb, tHg | 5 | 2026-05-18 |
 | [Cooking does not reduce methylmercury, and why this matters for consumer messaging](/synthesis/cooking-does-not-reduce-mehg) | MeHg, tHg | 3 | 2026-05-18 |

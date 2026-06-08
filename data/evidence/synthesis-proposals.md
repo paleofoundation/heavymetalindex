@@ -22,7 +22,7 @@ Candidates can be added by any session that reads the corpus. Ingest sessions su
 
 > **Routing-audit reconciliation, 2026-06-04.** This queue is maintained by hand and the planned `PROPOSE-SYNTHESIS-PAGES` signal is not yet running, so it had drifted behind the routing audit. A cross-check against `data/evidence/cells-needing-synthesis.csv` surfaced one clearly promotable thread not previously queued (tea, immediately below), confirmed the herbal-supplement thread has matured past "seeding" (see its 2026-06-04 update), and flagged three emerging clusters at the end of this section. None of these reached the corpus through this queue; the five synthesis pages established 2026-05-18 (aquaculture, bivalve, cooking-mehg, eu-timeline, se-hg) also bypassed it, which is why they were missing from the public index until 2026-06-04.
 
-### Tea (Camellia sinensis) as a distinct multi-metal bioaccumulation pathway
+### ~~Tea (Camellia sinensis) as a distinct multi-metal bioaccumulation pathway~~ → PROMOTED 2026-06-04 to [[../../wiki/synthesis/tea-multi-metal-bioaccumulation|tea-multi-metal-bioaccumulation]] (8 anchors; the analysis below is the pre-promotion growth trace)
 
 Anchor sources (routing audit: 13 Pb / 13 Cd / 12 Cr source pages on `camellia-sinensis`; roughly eight independent primary studies plus reviews):
 
