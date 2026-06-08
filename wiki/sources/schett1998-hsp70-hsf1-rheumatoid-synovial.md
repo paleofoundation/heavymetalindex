@@ -1,0 +1,159 @@
+---
+type: source
+raw_handle: MFK_33-enhanced-expression-of-hsp70-and-heavy-metal-pr
+cite_key: schett1998-hsp70-hsf1-rheumatoid-synovial
+title: "Enhanced Expression of Heat Shock Protein 70 (hsp70) and Heat Shock Factor 1 (HSF1) Activation in Rheumatoid Arthritis Synovial Tissue: Differential Regulation of hsp70 Expression and HSF1 Activation in Synovial Fibroblasts by Proinflammatory Cytokines, Shear Stress, and Antiinflammatory Drugs"
+authors: ["Georg Schett", "Kurt Redlich", "Qingbo Xu", "Peter Bizan", "Marion Gröger", "Makiyeh Tohidast-Akrad", "Hans Kiener", "Josef Smolen", "Günter Steiner"]
+year: 1998
+publication: "Journal of Clinical Investigation"
+doi: null
+no_doi_assigned: true
+source_type: peer-reviewed
+evidence_tier: B
+license: "American Society for Clinical Investigation open archive (J. Clin. Invest. articles published before 2009 are freely accessible without CC licence per ASCI policy)"
+access_url: "https://www.jci.org/articles/view/2832"
+raw_path: "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/33_Enhanced_Expression_of_hsp70_and_Heavy_Metal_Protection.pdf"
+raw_sha256: "3a7e8ca15041a0f4c071a2229839c8209e54802b2d787789bd9c6de073ec1123"
+near_duplicates: []
+metals: []
+ingredients: []
+products: []
+matrices: []
+jurisdictions: []
+sample_n: 8
+sample_population: "Synovial tissue from 3 patients with rheumatoid arthritis (RA), 3 patients with osteoarthritis (OA), and 2 patients with aseptic bone necrosis (AN) as controls (n=8 total tissue donors); synovial fibroblast-like cells (SFC) isolated by enzymatic digestion from synovectomy specimens for the in vitro experiments. No food, supplement, or environmental samples; no heavy metal dosing performed."
+updated: 2026-06-08
+---
+
+# Schett et al. 1998 — Enhanced hsp70 expression and HSF1 activation in rheumatoid arthritis synovial tissue
+
+Schett and colleagues (Division of Rheumatology, University of Vienna; Austrian Academy of Sciences Innsbruck) investigated the regulation of heat shock protein 70 (hsp70) expression and heat shock transcription factor 1 (HSF1) activation in rheumatoid arthritis (RA) synovial tissue. Whole-tissue extracts from RA, osteoarthritis (OA), and aseptic bone necrosis (AN) controls were analysed by Western blotting and gel mobility shift assay; cultured synovial fibroblast-like cells (SFC) were treated with proinflammatory cytokines (TNF-α, IL-1α, IL-6), antiinflammatory or immunosuppressive cytokines (IFN-γ, TGF-β), shear stress (20 dyn/cm² for 30 min), heat stress (42°C for 30 min), nonsteroidal antiinflammatory drugs (indomethacin, ibuprofen, meloxicam), glucocorticoids (dexamethasone), and immunosuppressants (methotrexate, cyclosporine A). The paper does not measure any heavy metal in any matrix; heavy metals appear only as one item in a background list of HSF1-activating stresses ("HSF1 has been shown to respond to stress factors such as elevated temperature, cytokines, heavy metal ions, and shear stress," PDF p. 302 col. 2). The wiki retains this source as mechanistic background on the hsp70 cellular stress-response pathway that overlaps with the heavy-metal-induced hsp70 response described elsewhere in the corpus; it carries no occurrence data, no exposure data, and no regulatory content for HMI's contamination-and-exposure taxonomy.
+
+## Why this matters
+
+- It demonstrates that the hsp70 stress-response pathway — the same pathway through which mammalian cells respond to acute heavy metal exposure — is constitutively engaged in human rheumatoid synovial tissue, with HSF1 transcription factor activated and hsp72 (inducible hsp70 isoform) protein elevated above the OA and AN control baseline. This is relevant peripherally to the wiki's mechanism-of-cellular-protection chapter because heavy-metal-induced hsp70 is one mode of activation of the same HSF1 → HSE → hsp70 transcriptional axis described here for inflammatory cytokines, shear, and heat. The paper is therefore part of the mechanistic literature on hsp70 regulation that is downstream-cited where the wiki frames metallothionein and hsp70 together as the two canonical cytoprotective induction systems against heavy metal stress.
+- It establishes that HSF1 DNA binding is a necessary but not sufficient condition for hsp70 gene transcription in human synovial fibroblasts. NSAIDs (indomethacin 30 µM, ibuprofen 300 µM, meloxicam 10 µM) induce HSF1 DNA binding but not hsp70 protein expression because they fail to induce the hyperphosphorylated 84 kD HSF1 isoform required for transcriptional activity (PDF Fig. 6 A, B). This "incomplete heat shock response" pattern was first reported for sodium salicylate (Jurivich et al. 1992, ref. 42) and is now extended to non-salicylate NSAIDs. The mechanism qualifier matters wherever the wiki discusses "hsp70 induction" as a marker of cellular metal stress: an upstream DNA-binding signal can be present without downstream protein expression.
+- It documents that TNF-α (10 ng/ml) and IL-1α (10 ng/ml) individually induce both HSF1 hyperphosphorylation and hsp70 protein in cultured SFC, with TNF-α + IL-1 co-stimulation (each 5 ng/ml) showing an additive effect. IL-6 (10 ng/ml) induces HSF1 activation but only weaker hsp70 upregulation. IFN-γ (30 ng/ml) and TGF-β (10 ng/ml) do not activate HSF1 and do not induce hsp70. Dose-response for HSF1 activation by TNF-α or IL-1 is dose-dependent between 5 and 15 ng/ml; higher doses did not further enhance activation. Maximum HSF1 DNA-binding activity occurred 3 h after cytokine incubation. This is the cytokine-pharmacology context against which a heavy-metal-induced hsp70 response in the same cell type would be interpreted.
+- It documents that shear stress (20 dyn/cm² for 30 min) produces a complete heat shock response (HSF1 activation plus hsp70 induction) in cultured SFC at a fluid-flow intensity comparable to that occurring in joints during exercise. Mechanical stress is therefore an in vivo stimulus to the same pathway, independent of heavy metals and cytokines.
+
+## Key concepts and structure
+
+The paper is a ten-page primary research article (pages 302-311 of Volume 102, Number 2 of *Journal of Clinical Investigation*, July 1998). It follows the canonical IMRaD pattern: abstract, introduction, methods, results, discussion, and 60 numbered references. Seven figures carry the experimental data: Figure 1 (Western blot + gel mobility shift assay of whole synovial tissue extracts from AN/OA/RA), Figure 2 (immunohistochemistry on RA vs OA cryosections with fibroblast/macrophage/T-cell double labelling), Figure 3 (gel mobility shift + Western blot for cytokine and shear-stress treatments of cultured SFC), Figure 4 (dose-response and time-response of TNF-α and IL-1 on HSF1 activation), Figure 5 (gel mobility shift + Western blot for antiinflammatory drug treatments), Figure 6 (HSF1 hyperphosphorylation detected by immunoblotting and immunoprecipitation; Northern blot of hsp70 mRNA), and Figure 7 (immunofluorescence confocal microscopy of hsp70 and HSF1 in heat-stressed, TNF-α-treated, and untreated SFC).
+
+### Patient samples (Methods, p. 303)
+
+Synovectomy-derived tissue specimens from 3 patients with RA (diagnosed per the 1987 revised ACR criteria, ref. 23), 3 patients with OA, and 2 patients with aseptic bone necrosis served as the tissue source for whole-tissue Western blot and gel shift analysis. SFC were isolated by enzymatic digestion of synovectomy-derived tissue samples per the technique of Alvaro-Gracia et al. 1990 (ref. 21) and grown in RPMI supplemented with 20% FCS, L-glutamine, penicillin (100 U/ml), and streptomycin (100 µg/ml) at 37°C in 95% air / 5% CO₂. No food, environmental, or occupational exposure context is documented; no metal dosing.
+
+### Tissue-level hsp70 upregulation in RA (Figure 1)
+
+Western blot of whole synovial tissue extracts (20 µg per lane) showed enhanced hsp70 expression only in RA synovial tissue. OA tissue and AN control tissue displayed only baseline hsp70 signal. Untreated cultured SFC (lane C) showed minimal hsp70; heat-stressed (42°C, lane HS) SFC showed maximum induction. Gel mobility shift analysis (100 µg of tissue extract per lane, 32P-labelled HSE oligonucleotide probe encompassing the *Drosophila* hsp70 promoter HSE 5′-GCCTCGAATGTTCGCGAAGTTT-3′) revealed HSF1 DNA-binding activity only in RA synovial tissue, paralleling the protein expression result.
+
+### Cell-type localisation in RA synovium (Figure 2)
+
+Immunohistochemistry with the anti-hsp70 monoclonal antibody clone W28 (StressGen Biotechnologies Corp., ref. 24; specifically recognises the inducible hsp72 isoform, not the constitutive hsp73) showed strong hsp70 staining throughout RA synovium, most intense in the synovial lining. Double labelling with fibroblast marker (clone AS02, Dianova) and macrophage marker (anti-CD68 clone KP1, Dako) showed colocalisation of hsp70 with both fibroblasts and macrophages. No colocalisation with T cells (anti-CD3, Becton Dickinson). OA synovial tissue showed only sparse hsp70-positive cells.
+
+### Cytokine and shear-stress effects on SFC (Figure 3)
+
+SFC nuclear extracts (10 µg per lane) from cells treated for 3 h with TNF-α (10 ng/ml), IL-1α (10 ng/ml), IL-1 + TNF-α (each 5 ng/ml, "T+I"), IFN-γ (30 ng/ml), TGF-β (10 ng/ml), IL-6 (10 ng/ml), shear stress (10 dyn/cm² for 30 min, "SS"), or heat stress (42°C, "HS") were analysed by gel shift and Western blot. TNF-α, IL-1, T+I, IL-6, shear stress, and heat stress activated HSF1; IFN-γ and TGF-β did not. The T+I combination was additive on both HSF1 activation and hsp70 expression. Specificity of HSF1–DNA complex was confirmed by supershift with anti-HSF1 (Ab2) and absence of effect with control anti-CD3 (Ab1); a 50-fold excess of unlabelled HSE oligonucleotide ("COI") competed away the labelled complex. Anti-HSF2 antibody had no supershift effect (data not shown).
+
+### Dose- and time-response (Figure 4)
+
+HSF1 DNA-binding activity in SFC was dose-dependent for both TNF-α and IL-1 between 5 and 15 ng/ml; higher doses did not further enhance activation. Time course with TNF-α (10 ng/ml) showed maximum HSF1 DNA-binding activity at 3 h, with declining signal at 6 and 12 h. Similar kinetics for IL-1 (data not shown).
+
+### Antiinflammatory drugs (Figure 5)
+
+NSAIDs (indomethacin 30 µM, ibuprofen 300 µM, meloxicam 10 µM) induced HSF1 DNA binding but not hsp70 protein expression; the effect was independent of NSAID type and cyclooxygenase specificity. Glucocorticoids (dexamethasone 100 nM to 10 µM) only weakly increased HSF1 activity without parallel hsp70 protein induction; only very high doses (100 µM) induced a complete stress response. Immunosuppressants (methotrexate 100 nM, cyclosporine A 100 nM) did not induce HSF1 activation or hsp70 expression. Neither methotrexate nor cyclosporine A suppressed heat-stress-induced HSF1 activation (data not shown).
+
+### HSF1 hyperphosphorylation and hsp70 transcription (Figure 6)
+
+Immunoblot of HSF1 in nuclear extracts showed a slow-migrating hyperphosphorylated 84 kD HSF1 isoform in lanes treated with TNF-α, IL-1, shear stress, and heat stress, but not in lanes treated with control medium, IFN-γ, or indomethacin (Fig. 6 A). Immunoprecipitation of HSF1 followed by antiphosphoserine immunoblotting confirmed phosphoserine signal on HSF1 in IL-1, TNF-α, SS, and HS lanes (designated "S" for slower-migrating phosphorylated form) and absence in IFN-γ and indomethacin lanes (where only the constitutively phosphorylated faster-migrating form "F" was detected; Fig. 6 B). Northern blot of total RNA showed hsp70 mRNA induction in TNF-α-treated and heat-stressed cells but not in indomethacin-treated cells (Fig. 6 C). 28S and 18S ribosomal RNA served as loading controls.
+
+### Immunofluorescence (Figure 7)
+
+Subconfluent SFC in chamber slides were heat-stressed at 42°C for 30 min, treated with TNF-α (10 ng/ml) for 3 h, or left untreated. Immunofluorescence with antibodies to hsp70, HSF1, or CD3 (control) plus FITC conjugates was analysed by confocal laser scanning microscopy. Both heat stress and TNF-α treatment induced nuclear translocation of HSF1, visible as prominent nuclear staining of SFC. Untreated cells showed predominantly cytoplasmic HSF1. hsp70 was predominantly cytoplasmic with the most intense staining around the nucleus. TNF-α-induced HSF1 translocation and hsp70 upregulation were weaker than the maximal response to heat stress.
+
+## Key numbers
+
+- **Patient samples:** 3 RA, 3 OA, 2 aseptic bone necrosis (AN) (n=8 total tissue donors).
+- **Cytokine doses for HSF1 activation in SFC:** TNF-α 10 ng/ml, IL-1α 10 ng/ml, IL-1 + TNF-α each 5 ng/ml, IFN-γ 30 ng/ml, TGF-β 10 ng/ml, IL-6 10 ng/ml.
+- **Dose-response range for HSF1 activation by TNF-α or IL-1:** dose-dependent between 5 and 15 ng/ml; higher doses did not further enhance activation.
+- **Maximum HSF1 DNA-binding activity time:** 3 h after cytokine incubation.
+- **Shear stress conditions producing complete heat shock response in SFC:** 20 dyn/cm² for 30 min (Methods, p. 303) followed by 8 h recovery at 37°C; Fig. 3 legend cites 10 dyn/cm² for 30 min as the SS condition for the gel shift / Western blot panels.
+- **Heat stress positive control:** 42°C for 30 min followed by 8 h recovery at 37°C.
+- **NSAID concentrations producing HSF1 binding without hsp70 induction:** indomethacin 30 µM, ibuprofen 300 µM, meloxicam 10 µM.
+- **Glucocorticoid concentrations producing weak HSF1 activity without parallel hsp70 induction:** dexamethasone 100 nM to 10 µM.
+- **Glucocorticoid concentration producing complete stress response:** dexamethasone 100 µM.
+- **Immunosuppressant concentrations with no effect on HSF1 / hsp70:** methotrexate 100 nM, cyclosporine A 100 nM.
+- **Hyperphosphorylated HSF1 isoform molecular mass:** 84 kD (Fig. 6 A).
+- **HSE probe sequence:** 5′-GCCTCGAATGTTCGCGAAGTTT-3′ (24 bp from the *Drosophila* hsp70 promoter, Methods p. 303).
+- **Gel shift binding-reaction inputs:** 10 µg nuclear protein (for SFC) or 100 µg synovial tissue extract per lane with 10 fmol 32P-labelled HSE oligonucleotide; reaction buffer 10 mM Hepes pH 7.9, 1 mM DTT, 1 mM EDTA, 80 mM KCl, 4% Ficoll, 1 µg poly(dIdC).
+- **Western blot input:** 20 µg per lane for synovial tissue extracts on 12% SDS gel (Fig. 1); 25 µg per lane for SFC whole-cell extracts on 10% SDS gel (Fig. 3, 5); blotted to BA85 nitrocellulose (Schleicher & Schuell, Dassel, Germany).
+- **Anti-hsp70 antibody:** monoclonal clone W28 (StressGen Biotechnologies Corp., Victoria, Canada, ref. 24) specific for the inducible hsp72 isoform.
+- **Anti-HSF1 antibody:** mammalian HSF1 antibody, gift from R.I. Morimoto, Northwestern University (Evanston, IL) (refs. 12, 25).
+
+## Methods (brief)
+
+Synovial fibroblast-like cells (SFC) were isolated by enzymatic digestion of synovectomy-derived tissue per Alvaro-Gracia et al. 1990 (ref. 21) and cultured in RPMI / 20% FCS / L-glutamine / penicillin / streptomycin at 37°C in 95% air / 5% CO₂. Cytokines (Boehringer Mannheim, Mannheim, Germany), antiinflammatory drugs (indomethacin, ibuprofen, meloxicam, dexamethasone), and immunosuppressants (cyclosporine A, methotrexate) were added at the doses listed in Key numbers. Shear stress was applied by a cone-and-plate flow apparatus per Nagel et al. 1994 (ref. 22). Patient diagnoses followed the 1987 revised ACR criteria (Arnett et al. 1988, ref. 23).
+
+Whole-tissue extracts were prepared by mincing liquid-nitrogen-frozen synovial membranes in a Polytron homogeniser in lysis buffer (20 mM Hepes pH 7.5, 0.4 M NaCl, 10% glycerol, 1.5 mM MgCl₂, 0.2 mM EDTA, 1 mM DDT, 1 mM Pefablock SC, 1 µg/ml leupeptin, 1 µg/ml aprotinin, 0.5 mM PMSF) followed by centrifugation at 13,000 g. Cell extracts were prepared identically from harvested SFC. Nuclear protein preparations followed Schreiber 1989 (ref. 25).
+
+Western blotting used 10% (Fig. 3, 5) or 12% (Fig. 1) SDS-polyacrylamide gels, transfer to BA85 nitrocellulose (Schleicher & Schuell), monoclonal anti-hsp70 clone W28 (StressGen) for hsp70, and anti-mammalian HSF1 (gift from R.I. Morimoto) for HSF1. Detection by biotinylated horse anti-mouse IgG followed by VECTASTAIN-ABC reagent (Vector, Burlingame, CA) with diaminobenzidine (Sigma Chemical Co.) substrate.
+
+Gel mobility shift assays followed Xu et al. 1996 (ref. 26): 10 µg nuclear protein or 100 µg tissue extract incubated with 10 fmol 32P-labelled HSE oligonucleotide (24-bp *Drosophila* hsp70 promoter HSE), separated on 4% polyacrylamide gels in 0.5× TBE. Supershift used antibodies specific for HSF1 and HSF2 (gifts from R.I. Morimoto). Cold oligonucleotide competition used a 50-fold molar excess of unlabelled HSE.
+
+Immunoprecipitation of HSF1 used anti-HSF1 antibody at 5 µg/ml and 10% (vol/vol) protein A-Sepharose beads. Precipitated HSF1 was electrophoresed, blotted to nitrocellulose, and probed with biotinylated antiphosphoserine antibody (Sigma Chemical Co., St. Louis, MO).
+
+Northern blotting used total RNA isolated by acid guanidinium-thiocyanate-phenol-chloroform extraction (Chomzcynski and Sacchi 1987, ref. 27). RNA (10 µg per lane) was electrophoresed on formaldehyde-agarose gels and transferred to Gene Screen Plus nylon membrane (DuPont, Boston, MA). Hybridisation used a 32P-labelled cDNA probe for hsp70 (per ref. 25). 28S and 18S ribosomal RNA served as internal loading and integrity controls.
+
+Immunohistochemistry used 4 µm cryosections of synovial membranes fixed in acetone for 10 min, peroxidase blocked with 0.3% H₂O₂ in Tris-buffered saline, incubated with anti-hsp70 (StressGen) or isotype-matched control monoclonal (Dako, Glostrup, Denmark), then biotinylated horse anti-mouse IgG and VECTASTAIN-ABC with diaminobenzidine. Double labelling used clone AS02 (Dianova, Hamburg, Germany) for fibroblasts, anti-CD68 clone KP1 (Dako) for macrophages, anti-CD3 (Becton Dickinson, Mountain View, CA) for T cells, alkaline-phosphatase-conjugated affinity-purified rabbit anti-mouse Ig (Dako) as second antibody, APAAP complex (Dako), and Fast Blue substrate (Sigma Chemical Co.). Original magnification ×100.
+
+Immunofluorescence used SFC in 8-well chamber slides (Nunc, Naperville, IL), heat-stressed at 42°C, treated with TNF-α (10 ng/ml), or left untreated; permeabilised with 4% paraformaldehyde and fixed with absolute methanol; stained with antibodies to HSF1, hsp70, or CD3 (Dako) and FITC conjugates (Dako); embedded in n-propylgalate/glycerol (Sigma Chemical Co.); analysed by confocal laser scanning microscopy (Carl Zeiss Inc., Jena, Germany) at original magnification 400.
+
+Funded in part by grant P-12568-MED to Q. Xu from the Austrian Science Foundation.
+
+## Implications
+
+- **Certification:** The paper provides no occurrence data for any food matrix, no exposure data for any human population, and no regulatory threshold information. It does not move any HMTc threshold or category. Its value to HMTc is indirect — the hsp70/HSF1 axis described here is the same canonical cellular stress-response pathway that mediates the acute cytoprotective response of mammalian cells to heavy metal exposure (heavy metal ions are named in passing as one of the canonical HSF1 activators, p. 302 col. 2). The paper anchors the claim that HSF1 DNA binding and HSF1 hyperphosphorylation are distinct regulatory steps whose dissociation produces an "incomplete heat shock response" (NSAID exposure produces binding without protein expression). This nuance matters wherever the wiki uses hsp70 protein induction as a marker of heavy metal stress: the marker is downstream of a regulatory bottleneck that can be uncoupled by exogenous pharmacology.
+- **App:** No routing to ingredient or product pages. The biological samples are human synovial tissue and SFC cultures; the work is rheumatology mechanism, not food testing. Empty `ingredients`, `products`, `matrices`, `jurisdictions`.
+- **Courses:** Useful as a primary-literature anchor for any course module on the hsp70/HSF1 cellular stress response that draws an analogy from heavy-metal-induced hsp70 to other inducers. The "complete vs incomplete heat shock response" distinction (HSF1 DNA binding without HSF1 hyperphosphorylation and without downstream hsp70 transcription) is a teaching example for the multi-step regulation of stress-response transcription. Pair with the metallothionein-induction mechanism literature ([[garrity1990-mt1-tissue-specific-promoter]], [[ruttkay-nedecky2013-metallothionein-oxidative-stress]]) when explaining that mammalian cells deploy parallel transcriptional programs (metallothionein via MRE/MTF-1; hsp70 via HSE/HSF1) against acute metal stress.
+- **Microbiome:** Not relevant. The paper is on human synovial tissue and human SFC cultures; no gut microbiome or microbial population is studied.
+
+## Limitations
+
+- The tissue-level analysis rests on n=3 RA, n=3 OA, n=2 AN. No formal between-group statistical test is reported; the comparison is qualitative ("enhanced expression detected only in RA"). The sample size is small for any quantitative inter-patient comparison.
+- The paper does not measure any heavy metal in any matrix. The title of the source PDF as Kimi indexed it ("Enhanced_Expression_of_hsp70_and_Heavy_Metal_Protection") is misleading; the actual journal article title is "Enhanced Expression of Heat Shock Protein 70 (hsp70) and Heat Shock Factor 1 (HSF1) Activation in Rheumatoid Arthritis Synovial Tissue." Heavy metals appear only in the sentence "HSF1 has been shown to respond to stress factors such as elevated temperature, cytokines, heavy metal ions, and shear stress" (p. 302 col. 2) and in the Discussion's general list of hsp-protected toxic conditions ("oxidative stress, TNF-α, heat shock, heavy metals, and cellular damage after ischemia," p. 309 col. 1). No metal is dosed; no metal is measured.
+- The shear stress condition is reported as 20 dyn/cm² for 30 min in the Methods (p. 303) and as 10 dyn/cm² for 30 min in the Fig. 3 legend (p. 305). The paper does not reconcile the two values; the lower value in Fig. 3 may refer to a separate gel-shift / Western blot experimental panel rather than the protein-extraction shear stress condition. Readers wanting to reproduce the shear stress condition should consult both reports.
+- The "additive effect" of TNF-α + IL-1 (each 5 ng/ml) is described qualitatively in the text and figure legend; no quantitative densitometric comparison or formal statistical test is provided. The dose-response figure (Fig. 4 A) and the time-response figure (Fig. 4 B) are gel-mobility-shift autoradiographs without independent replicates plotted.
+- The Northern blot of hsp70 mRNA (Fig. 6 C) is shown only for indomethacin-treated, TNF-α-treated, and heat-stressed lanes. No quantitative densitometric measurement is reported; the conclusion ("hsp70 mRNA was only induced by TNF-α and heat stress … but not by indomethacin") rests on visual inspection of the autoradiograph.
+- The paper does not test methylmercury, inorganic arsenic, cadmium, lead, or any specific heavy metal as an HSF1/hsp70 stimulus; the heavy-metal context is purely background. Wiki readers should not extrapolate the cytokine dose-response data to heavy-metal-induced hsp70 without independent literature support.
+- No occurrence data; no consumer exposure data; no regulatory implication.
+
+## Wiki pages this source may touch
+
+None. The paper has no metal-content, food-matrix, ingredient, product, or jurisdiction routing target. It is retained in the corpus as a mechanism background source for the hsp70/HSF1 stress-response axis that overlaps with heavy-metal-induced hsp70 expression discussed elsewhere; it does not generate routing rows.
+
+## Verification notes
+
+**Existing-page check.** DOI grep (the article has no DOI printed in the PDF; the JCI legacy DOI scheme is `10.1172/JCI<paper_id>` but the per-article identifier is not extractable from the PDF first page), raw_handle grep (`raw_handle: MFK_33-enhanced-expression-of-hsp70-and-heavy-metal-pr`), and cite-key prefix glob (`schett*`, `*hsp70*`, `*hsf1*`, `*synovial*`, `*rheumatoid*1998*`) over `wiki/sources/` on 2026-06-08 returned no matches. This is a NEW source page — no prior version to merge-enhance.
+
+**DOI provenance.** The PDF first page shows the standard JCI bibliographic citation `J. Clin. Invest. © The American Society for Clinical Investigation, Inc. 0021-9738/98/07/0302/10 $2.00 Volume 102, Number 2, July 1998, 302–311 http://www.jci.org`. The PDF does not print a DOI; the JCI per-article identifier (typically appearing in the format `10.1172/JCI<paper_id>`) is not extractable from the source PDF first page or any other in-PDF location. Rather than fabricate a DOI, the field is set to `null` and the `access_url` points to the JCI articles-view path that resolves the article when the JCI internal paper identifier is known to a downstream resolver. A future routing pass can populate `doi:` from PubMed if confirmed without ambiguity; the field is left null in this pass per the verify-don't-fabricate rule.
+
+**Evidence tier.** B. This is a primary peer-reviewed laboratory study combining a small clinical case series (n=8 patients) with cultured-cell in vitro pharmacology. Sample sizes are small; no formal between-group statistical tests are presented. Tier B is appropriate per `docs/conventions` — A-tier is reserved for well-powered primary studies with formal statistics or authoritative agency monographs; this paper does not clear that bar. Its mechanistic value (foundational characterisation of the cytokine-, NSAID-, and shear-stress-induced HSF1/hsp70 axis in human synovial fibroblasts) is qualitative.
+
+**Metals frontmatter.** Empty (`[]`). The paper does not dose or measure any specific metal. Heavy metals are mentioned in passing twice in the prose (p. 302 col. 2: "HSF1 has been shown to respond to stress factors such as elevated temperature, cytokines, heavy metal ions, and shear stress"; p. 309 col. 1: "hsp have been shown to protect cells against a broad range of toxic conditions, including oxidative stress, TNF-α, heat shock, heavy metals, and cellular damage after ischemia"). Neither mention is a measurement or a dose; both are background lists. Per the HMI convention that `metals:` lists analytes measured in the source matrix, the field is empty.
+
+**Ingredients, products, matrices, jurisdictions frontmatter.** All empty. The biological samples are human synovial tissue and SFC cultures (rheumatology research). No food matrix, supplement matrix, or personal-care matrix is sampled. The work is conducted in Austria (University of Vienna, Austrian Academy of Sciences Innsbruck) but no regulatory or jurisdictional frame applies; the work is basic rheumatology / molecular biology. `jurisdictions:` remains empty per the established pattern for mechanism-only papers ([[garrity1990-mt1-tissue-specific-promoter]], [[nagel1989-cadmium-resistant-chlamydomonas]]).
+
+**Sample size.** `8` (3 RA + 3 OA + 2 AN tissue donors). The cell-culture experiments use SFC isolated from synovectomy specimens; the paper does not specify the number of independent SFC preparations used per cytokine or drug treatment.
+
+**Brand firewall (Part 12).** No commercial brand names appear in any contamination-value or product-evaluation context. Vendor mentions in Methods are restricted to standard scientific-methodology context (reagent and equipment vendors, antibody clones, cell-line vendors, software): Boehringer Mannheim (cytokines, Pefablock SC); StressGen Biotechnologies Corp. (anti-hsp70 clone W28); Schleicher & Schuell (BA85 nitrocellulose); Sigma Chemical Co. (Pefablock SC supplier, antiphosphoserine antibody, Fast Blue, diaminobenzidine, n-propylgalate/glycerol); Pharmacia Biotechnology (poly(dIdC)); Dako (isotype-matched controls, anti-CD68 KP1, anti-CD3, second antibodies, APAAP); Dianova (fibroblast clone AS02); Becton Dickinson (anti-CD3); Vector (VECTASTAIN-ABC reagent); Merck (hematoxylin, Mayer's Hämalaun); Nunc (chamber slides); DuPont (Gene Screen Plus nylon); Carl Zeiss Inc. (confocal laser scanning microscope); Bio-Rad and LKB (densitometers not mentioned here but standard for this lab; not in this paper). All vendor references are scientific-method vendor mentions allowed under verification-checklist Exception 2 for analytical methodology. No food, supplement, or personal-care brand is named. No firewall action required.
+
+**HMTc firewall (Part 2).** The paper contains no HMTc-threshold language, no claims about HMI certification levels, no consumer-audience risk advisories, and no policy-relevant content. The discussion is mechanistic rheumatology and cell biology. No firewall action required.
+
+**Speciation note.** The paper does not invoke any metal speciation. Heavy metals appear only as a generic background category; no Pb, Cd, As, Hg, Cr, Ni, Al, Sn, Sb, U, or any specific element is measured or named.
+
+**Scope fit and Kimi-folder caveat.** The PDF filename as Kimi indexed it is `33_Enhanced_Expression_of_hsp70_and_Heavy_Metal_Protection.pdf`. The Kimi label inserts "Heavy Metal Protection" into the title where the actual journal article title is the unrelated "Differential Regulation of hsp70 Expression and HSF1 Activation in Synovial Fibroblasts by Proinflammatory Cytokines, Shear Stress, and Antiinflammatory Drugs." This is a Kimi-indexing artifact analogous to the title mismatch noted for [[garrity1990-mt1-tissue-specific-promoter]]; the raw_handle stem preserves the audit trail back to the Kimi source folder but the actual paper title is used in the `title:` frontmatter and the page body. The paper does not study heavy metals; the Kimi label is misleading. The source is retained in the corpus per the 2026-06-02 scope commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip` insofar as the hsp70/HSF1 cellular-protection mechanism is a recognised heavy-metal stress-response pathway, even though this specific paper measures it in a non-metal context (cytokine-driven RA synovitis).
+
+**Date arithmetic.** Received 10 December 1997; accepted in revised form 21 May 1998; published July 1998 (Vol. 102, No. 2). Consistent with `year: 1998` frontmatter.
+
+**Raw-handle stem.** The MFK_33 handle stem `MFK_33-enhanced-expression-of-hsp70-and-heavy-metal-pr` is taken from the truncated Kimi-generated PDF filename `33_Enhanced_Expression_of_hsp70_and_Heavy_Metal_Protection.pdf` (cut at 53 characters per the established raw_handle length cap). The Kimi label uses "Heavy Metal Protection" as a substitute for the paper's actual subtitle; the discrepancy is documented above under Scope fit.
