@@ -811,3 +811,6 @@
 {"ts":"2026-06-08T06:38:56.524Z","actor":"frank-opus","cite_key":"aljedani2017-honeybee-honey-saudi-arabia","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T06:49:37.551Z","actor":"frank-opus","cite_key":"david2008-heavy-metals-canned-tomato-paste-romania","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T07:06:22.654Z","actor":"frank-opus","cite_key":"el-daouk2020-aluminum-food-lebanon","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T07:39:28.456Z","actor":"frank-opus","cite_key":"masri2025-toxicant-foods-california","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T07:52:43.112Z","actor":"frank-opus","cite_key":"peng2023-al-fluoride-tea-stress","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T07:58:27Z","actor":"claude-code","source_path":"raw/Manual Fetch Kimi /June 8/New Folder With Items 3/Assessment-of-Heavy-Metals-in-Biscuit-Samples-Available-in-Iraqi-Markets.pdf","cite_key":"taher2023-biscuits-iraqi-markets","status":"ingested","commit":"pending","blocker":"","next":"June 8 manual-fetch drain (Claude direct)"}
