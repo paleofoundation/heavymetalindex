@@ -91,7 +91,7 @@ The review reports no contamination measurements, no exposure values, and no MT 
 | Endogenous peroxidase block | 1 % H₂O₂ in 0.1 mol/L Tris-NaCl, pH 7.6, 30 min | IHC protocol | p. 995, *Immunostaining of MT* |
 | Chromogen development | 0.5 % DAB and 0.33 % H₂O₂ in 0.5 mol/L Tris-NaCl | IHC protocol | p. 995, *Immunostaining of MT* |
 | Section thickness | 5 µm on poly-L-lysine-coated slides | IHC protocol | p. 995, *Immunostaining of MT* |
-| High-power fields scored per section | 10 (randomly chosen) | IHC scoring | p. 996, *Negative control* |
+| High-power fields scored per section | 10 (randomly chosen) | IHC scoring | p. 995, *Negative control* |
 
 ## Implications
 
@@ -130,4 +130,6 @@ This is a short (four-page) narrative review with no declared search strategy, n
 
 **Date arithmetic.** Received 27 July 2006, accepted 10 January 2007, published 21 February 2007 — all consistent with the year frontmatter (2007) and the citation *World J Gastroenterol* 2007; 13(7): 993–996.
 
-**DOI provenance.** The PDF does not print a DOI; the article carries only the article URL `http://www.wjgnet.com/1007-9327/13/993.asp`. The wiki-page frontmatter records `doi: null` rather than fabricating a presumed `10.3748/wjg.v13.i7.993` DOI string. Should a DOI be confirmed independently via CrossRef in a later pass, update the frontmatter and the access URL together.
+**DOI provenance.** The PDF does not print a DOI; the article carries only the article URL `http://www.wjgnet.com/1007-9327/13/993.asp`. The wiki-page frontmatter records `doi: null` with `no_doi_assigned: true` rather than fabricating a presumed `10.3748/wjg.v13.i7.993` DOI string. Should a DOI be confirmed independently via CrossRef in a later pass, update the frontmatter and the access URL together.
+
+**Audit subagent (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) returned ✅✅✅✅✅ with one minor location-pointer flag and no ❌ or ⚠️ at the verdict level. The flagged item: the Key-numbers table row "High-power fields scored per section | 10 (randomly chosen) | IHC scoring" attributed the *Negative control* paragraph to p. 996, but that paragraph appears at the top of journal page 995 (the *Negative control* section immediately precedes the *References* heading on the same page). Verified against the PDF and corrected from "p. 996" to "p. 995" in the Key numbers table. No firewall, slug-vocabulary, or numerical-fidelity changes were needed.
