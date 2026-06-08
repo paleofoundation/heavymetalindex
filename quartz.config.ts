@@ -12,7 +12,10 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null,
+    analytics: {
+      provider: "google",
+      tagId: "G-74X1550KX7",
+    },
     locale: "en-US",
     baseUrl: "heavymetalindex.com",
     ignorePatterns: [
