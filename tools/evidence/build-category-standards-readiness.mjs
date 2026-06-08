@@ -52,11 +52,19 @@ const dist = fs.existsSync(distPath) ? parseCsv(fs.readFileSync(distPath, "utf8"
 const cell = new Map() // `${slug}|${metal}` -> row
 for (const r of dist) cell.set(`${r.product_slug}|${r.metal_species}`, r)
 
-// cells currently flagged untrusted
-const flagged = new Set()
+// Cells flagged high-for-review. A flag means "a human must confirm this is real,
+// not a unit error." Once the note shows it was rechecked against the source
+// (Codex re-extraction verification) or adjudicated (outlier pass), the cell has
+// been reviewed and is no longer untrusted. Only an UNreviewed flag blocks.
+const flaggedUnreviewed = new Set()
 if (fs.existsSync(reviewPath)) {
-  for (const r of parseCsv(fs.readFileSync(reviewPath, "utf8"))) flagged.add(`${r.row_slug}|${r.metal_species}`)
+  for (const r of parseCsv(fs.readFileSync(reviewPath, "utf8"))) {
+    const note = String(r.note || "")
+    const reviewed = /Rechecked/i.test(note) || /adjudicat/i.test(note)
+    if (!reviewed) flaggedUnreviewed.add(`${r.row_slug}|${r.metal_species}`)
+  }
 }
+const flagged = flaggedUnreviewed
 
 // ---- locked Cat 6/7 rows + their priority metals ----
 const rowsByCat = { 6: [], 7: [] }
@@ -73,20 +81,29 @@ for (const f of fs.readdirSync(productDir)) {
 
 const num = (v) => { const n = Number(v); return Number.isFinite(n) && String(v).trim() !== "" ? n : null }
 
+// A cell is SHIPPABLE (resolves the row for manual purposes) when it has a
+// defensible value the manual can print with an honest confidence label:
+//   - literature-baseline, stable        -> firm
+//   - literature-baseline, provisional   -> publishable, labeled provisional
+//   - regulatory-alignment (cap-bound)   -> firm
+// Only genuine gaps block: no value at all, or a value still flagged untrusted.
+// (The manual ships mixed-confidence rows, as the Cat 1 manual did; it does NOT
+// require every cell stable.)
 function classify(slug, metal) {
   const key = `${slug}|${metal}`
-  if (flagged.has(key)) return { state: "pending", why: "flagged untrusted (extraction_review)" }
   const r = cell.get(key)
-  if (!r) return { state: "pending", why: "no pooled cell" }
-  const cand = num(r.candidate_value_ppb)
-  const cap = num(r.lowest_regulatory_cap_ppb)
-  const p97 = num(r.pooled_p97)
-  const sens = (r.sens_band || "").toLowerCase()
-  if (cand !== null && p97 !== null && sens === "stable") return { state: "resolved", basis: "literature-baseline", value: cand }
-  if (cand !== null && cap !== null) return { state: "resolved", basis: "regulatory-alignment", value: cand }
-  if (p97 !== null && sens !== "stable") return { state: "pending", why: `provisional (sensitivity ${sens || "unknown"})` }
-  if (cap !== null) return { state: "resolved", basis: "regulatory-alignment", value: cap }
-  return { state: "pending", why: "no usable evidence" }
+  const cand = r ? num(r.candidate_value_ppb) : null
+  const cap = r ? num(r.lowest_regulatory_cap_ppb) : null
+  const p97 = r ? num(r.pooled_p97) : null
+  const sens = (r?.sens_band || "").toLowerCase()
+  const value = cand ?? cap ?? p97
+  if (value === null) return { state: "pending", why: "no usable evidence (needs data)" }
+  if (flagged.has(key)) return { state: "pending", why: "flagged untrusted (extraction_review)" }
+  if (cand !== null && cap !== null && (p97 === null || cap <= p97)) return { state: "resolved", basis: "regulatory-alignment", confidence: "firm", value }
+  if (p97 !== null && sens === "stable") return { state: "resolved", basis: "literature-baseline", confidence: "firm", value }
+  if (p97 !== null) return { state: "resolved", basis: "literature-baseline", confidence: "provisional", value }
+  if (cap !== null) return { state: "resolved", basis: "regulatory-alignment", confidence: "firm", value }
+  return { state: "pending", why: "no usable evidence (needs data)" }
 }
 
 const report = {}

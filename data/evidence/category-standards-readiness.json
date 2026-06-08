@@ -2,60 +2,50 @@
   "6": {
     "name": "Seafood",
     "locked_rows": 6,
-    "ready_rows": 0,
+    "ready_rows": 4,
     "manual_ready": false,
     "rows": [
       {
         "slug": "canned-seafood",
-        "ready": false,
-        "blocking": [
-          "MeHg: provisional (sensitivity needs_review)"
-        ]
+        "ready": true,
+        "blocking": []
       },
       {
         "slug": "fish-freshwater",
-        "ready": false,
-        "blocking": [
-          "Pb: flagged untrusted (extraction_review)"
-        ]
+        "ready": true,
+        "blocking": []
       },
       {
         "slug": "fish-marine-non-predatory",
         "ready": false,
         "blocking": [
-          "iAs: no usable evidence"
+          "iAs: no usable evidence (needs data)"
         ]
       },
       {
         "slug": "fish-marine-predatory",
-        "ready": false,
-        "blocking": [
-          "tHg: flagged untrusted (extraction_review)"
-        ]
+        "ready": true,
+        "blocking": []
       },
       {
         "slug": "seaweed-kelp-foods",
         "ready": false,
         "blocking": [
-          "iAs: no usable evidence",
-          "Cd: provisional (sensitivity needs_review)"
+          "iAs: no usable evidence (needs data)"
         ]
       },
       {
         "slug": "shellfish",
-        "ready": false,
-        "blocking": [
-          "Cd: flagged untrusted (extraction_review)",
-          "Pb: flagged untrusted (extraction_review)"
-        ]
+        "ready": true,
+        "blocking": []
       }
     ]
   },
   "7": {
     "name": "Oils, Condiments, and Specialty Foods",
     "locked_rows": 8,
-    "ready_rows": 2,
-    "manual_ready": false,
+    "ready_rows": 8,
+    "manual_ready": true,
     "rows": [
       {
         "slug": "butter-and-ghee",
@@ -64,36 +54,23 @@
       },
       {
         "slug": "chocolate",
-        "ready": false,
-        "blocking": [
-          "Cd: flagged untrusted (extraction_review)",
-          "Pb: flagged untrusted (extraction_review)",
-          "tAs: provisional (sensitivity needs_review)"
-        ]
+        "ready": true,
+        "blocking": []
       },
       {
         "slug": "cooking-oils-other",
-        "ready": false,
-        "blocking": [
-          "Cd: provisional (sensitivity provisional)"
-        ]
+        "ready": true,
+        "blocking": []
       },
       {
         "slug": "honey",
-        "ready": false,
-        "blocking": [
-          "Pb: flagged untrusted (extraction_review)",
-          "Cd: flagged untrusted (extraction_review)",
-          "Ni: flagged untrusted (extraction_review)"
-        ]
+        "ready": true,
+        "blocking": []
       },
       {
         "slug": "olive-oil",
-        "ready": false,
-        "blocking": [
-          "Cd: provisional (sensitivity provisional)",
-          "tAs: provisional (sensitivity provisional)"
-        ]
+        "ready": true,
+        "blocking": []
       },
       {
         "slug": "salt",
@@ -102,21 +79,13 @@
       },
       {
         "slug": "spices",
-        "ready": false,
-        "blocking": [
-          "Pb: flagged untrusted (extraction_review)",
-          "Cd: flagged untrusted (extraction_review)",
-          "tAs: provisional (sensitivity provisional)",
-          "Cr: flagged untrusted (extraction_review)"
-        ]
+        "ready": true,
+        "blocking": []
       },
       {
         "slug": "vinegar",
-        "ready": false,
-        "blocking": [
-          "Pb: flagged untrusted (extraction_review)",
-          "Cd: provisional (sensitivity provisional)"
-        ]
+        "ready": true,
+        "blocking": []
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T02:15:27.733Z",
+  "generated_at": "2026-06-08T07:32:55.109Z",
   "product_filter": null,
   "metal_filter": null,
   "cells_total": 714,
@@ -28,7 +28,7 @@
     "needs_review": 40
   },
   "pool_starvation": {
-    "structured_rows_total": 7150,
+    "structured_rows_total": 7139,
     "stranded_rows_total": 2362,
     "stranded_rows_carrying_a_statistic": 561,
     "stranded_by_reason": {
