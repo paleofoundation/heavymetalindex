@@ -32,15 +32,19 @@ Lysenko et al. studied Hubbard Redbro broilers under different housing and feed 
 
 ## Key numbers
 
-Table 5 reports heavy metals in poultry meat in mg/kg. In pectoral muscle, the first control group had As 0.0085547, Cd 0.0042257, Hg 0.0003421, and Pb 0.0247331. The first experimental group had Cd 0.0013512 and Pb 0.00176436, with As and Hg not detected. In leg muscles, control values included As 0.0066432, Cd 0.0035253, Hg 0.0003035, and Pb 0.0035317; experimental-group leg muscle had As, Cd, and Hg not detected and Pb 0.00063637.
+Table 1 reports heavy metals in compound feed in mg/kg. Factory-produced feed had Hg 0.0096, As 0.1473, Cd 0.0573, and Pb 0.3282; eco-feed (own production) had Hg 0.0004, As 0.0061, Cd 0.0114, and Pb 0.0303. The eco-feed reductions versus factory feed were reported as 24-fold for Hg and As, fivefold for Cd, and tenfold for Pb (P<0.05).
+
+Table 5 reports heavy metals in poultry meat in mg/kg across four groups (1st control floor, 2nd control cage, 1st experienced floor, 2nd experienced cage). In pectoral muscle, the 1st control group had As 0.0085547, Cd 0.0042257, Hg 0.0003421, and Pb 0.0247331; the 2nd control had As 0.0083362, Cd 0.0042101, Hg 0.0003367, and Pb 0.0247267 (effectively identical to the 1st control). The 1st experienced group had Cd 0.0013512 and Pb 0.00176436, with As and Hg not detected; the 2nd experienced had Cd 0.0013487 and Pb 0.00176411 with As and Hg not detected. In leg muscles, 1st control values were As 0.0066432, Cd 0.0035253, Hg 0.0003035, and Pb 0.0035317; 2nd control values were As 0.0066389, Cd 0.0035168, Hg 0.0003064, and Pb 0.0035257. In both experienced groups, leg-muscle As, Cd, and Hg were not detected; Pb was 0.00063637 (1st experienced) and 0.00063604 (2nd experienced).
+
+The paper cites Russian SanPiN 2.3.2.1078-01 MPC values for meat products (Pb 0.5, Cd 0.05, Hg 0.03, As 0.1 mg/kg) and reports all measured meat values were below the MPC.
 
 ## Methods (brief)
 
-The authors measured toxic elements in factory feed, farm-produced eco-feed, pectoral muscle, and leg muscle. They compared floor/cage housing and feed regimes.
+Four groups of 60 Hubbard RedBro broiler chicks each were reared for 84 days at farm "Khakonov MN" in the Republic of Adygea, Russia. Two control groups received factory-produced compound feed (floor and cage housing); two experimental groups received farm-produced eco-feed with 0.2% Bacell probiotic-enzyme additive (floor and cage housing). Arsenic, lead, cadmium, and mercury in factory feed, eco-feed, pectoral muscle, and leg muscle were measured by atomic absorption spectrometry with electrothermal atomization (graphite furnace AAS). Sampling and proximate composition followed GOST 9792-73 / 9793-74 / 23042-78 / 25011-81. Statistical significance reported at P<0.05.
 
 ## Implications
 
-This source supports poultry product context for low-level As, Cd, Hg, and Pb under Russian broiler feed/housing conditions. It should not be pooled as ordinary retail-market poultry without noting the experimental feed design.
+This source supports poultry product context for low-level As, Cd, Hg, and Pb under Russian broiler feed/housing conditions, with all four metals reported well below the SanPiN 2.3.2.1078-01 MPC ceilings. Because the experimental groups are an organic / eco-feed intervention rather than retail-market sampling, the experienced-group values should not be pooled as ordinary retail-poultry occurrence without noting the experimental feed design.
 
 ## Wiki pages this source may touch
 
@@ -56,6 +60,8 @@ This source supports poultry product context for low-level As, Cd, Hg, and Pb un
 
 - Batch 5 auto-fetched ingest, 2026-05-25.
 - Total arsenic and total mercury are not speciated iAs or MeHg.
+- Audited 2026-06-08 via autonomous audit drainer; revisions applied: feed-side Table 1 values surfaced (broiler-feed is already in matrices); Methods section restored analytical technique (electrothermal AAS), n=60 per group, 84-day duration, and farm location; 2nd-control / 2nd-experienced muscle columns added to Key numbers; SanPiN 2.3.2.1078-01 MPC context added.
+- Matrices use broiler-pectoral-muscle / broiler-leg-muscle / broiler-feed as bare-string descriptive entries — consistent with the existing wiki pattern of descriptive matrix labels (e.g. broiler-drumsticks, chicken-breast, poultry-muscle, poultry-feed in other source pages) rather than an invented surface.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -64,9 +70,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
