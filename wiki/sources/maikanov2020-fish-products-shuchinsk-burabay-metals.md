@@ -14,16 +14,16 @@ license: unknown
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-meat-poultry-cd_2020_10-21521-mw-6462.pdf"
 sha256: edd4c7d2cda63e693ceb253a6d40b30f6dc08db89a2b9dcc1d14875ab962fe1f
 metals: [tAs, Cd, tHg, Pb]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]", "[[ingredients/seafood]]"]
 products: ["[[products/fresh-fish]]", "[[products/fish-freshwater]]", "[[products/seafood]]"]
-matrices: [freshwater-fish-muscle, perch]
+matrices: [freshwater-fish, fish-muscle]
 jurisdictions: [KZ]
 sample_n: 44
-sample_population: "Fish muscle samples from lakes in the Shuchinsk-Burabay resort zone, Kazakhstan."
+sample_population: "Fish muscle samples from four lakes (Burabay, Bolshoye Chebachye, Katarkol, Shchuchye) in the Shuchinsk-Burabay resort zone, Kazakhstan. Heavy-metals subset n=41 (Carp 8, Rudd 12, Perch 17, Crucian 4); Cisco (n=2) and Peled (n=1) were measured for Cs-137 only."
 wiki_doi: null
-sampling_locations: []
+sampling_locations: [Lake Burabay, Lake Bolshoye Chebachye, Lake Katarkol, Lake Shchuchye]
 sampling_year_range: null
-updated: 2026-05-25
+updated: 2026-06-08
 ---
 
 # Maikanov et al. 2020 - Fish Products in the Shuchinsk-Burabay Resort Zone
@@ -32,11 +32,13 @@ Maikanov et al. measured amino-acid composition, heavy metal salts, and radionuc
 
 ## Key numbers
 
-The summary reports maximum concentrations of heavy metal salts in fish muscle: total arsenic up to 0.0590 mg/kg, cadmium up to 0.0050 mg/kg, and lead up to 0.0350 mg/kg. Perch muscle mercury was 0.0385 mg/kg and exceeded the paper's cited maximum permissible concentration by 28%; other fish mercury values were not higher than 0.07 mg/kg in the text layer.
+The abstract and discussion report maximum mean concentrations of heavy metal salts in fish muscle as 0.0590 mg/kg for total arsenic, 0.0050 mg/kg for cadmium, and 0.0350 mg/kg for lead. Table 4, however, lists Crucian carp (n=4) at 0.0600 ± 0.0040 mg/kg total arsenic, so the paper's own narrative understates its tabulated maximum by one species. Per-species Table 4 means (mg/kg, wet weight, ± SD): Carp (n=8) As 0.0167 ± 0.0083, Cd 0, Hg 0.0201 ± 0.0100, Pb 0.0257 ± 0.0110; Rudd (n=12) As 0.0590 ± 0.0147, Cd 0, Hg 0.0250 ± 0.0043, Pb 0.0350 ± 0.0043; Perch (n=17) As 0.0305 ± 0.0056, Cd 0.0050 ± 0.0014, Hg 0.0385 ± 0.0062, Pb 0.0250 ± 0.0014; Crucian (n=4) As 0.0600 ± 0.0040, Cd 0, Hg 0.0070 ± 0.0090, Pb 0.0100 ± 0.0004. Cadmium was below detection in all non-perch species. The paper's stated Kazakh maximum permissible concentrations are As 0.1, Cd 0.05, Hg 0.03, Pb 0.5 mg/kg.
+
+Perch muscle mercury at 0.0385 mg/kg exceeded the paper's cited Hg MPC of 0.03 mg/kg by 28.3% (paper rounds to 28%). The paper's discussion states "mercury concentration in the other fish samples was not higher than 0.07 mg/kg," but Table 4 shows non-perch species means at or below 0.0250 mg/kg, well below the 0.07 mg/kg statement; the 0.07 figure appears to be a stray narrative datum without table support.
 
 ## Methods (brief)
 
-Forty-four fish samples were divided by species. Arsenic, cadmium, mercury, and lead were measured by inductively coupled plasma mass spectrometry after mineralization.
+Forty-four fish samples in total were collected from four lakes and divided by species; the heavy-metals analysis covered 41 (Carp, Rudd, Perch, Crucian). Arsenic, cadmium, mercury, and lead were measured by inductively coupled plasma mass spectrometry on an Agilent Technologies 7700 Series ICP-MS after pressure mineralization, following a laboratory standard operating procedure based on British BS EN 15763:2009. The paper states ICP-MS measurement ranges of 0.06-21.5 mg/kg for As, 0.03-28.3 mg/kg for Cd, 0.04-0.56 mg/kg for Hg, and 0.01-2.4 mg/kg for Pb. The reported Hg means for Carp (0.0201 mg/kg) and Crucian (0.0070 mg/kg) fall below the stated 0.04 mg/kg Hg lower measurement bound, so those values should be treated as near or below the method's reported sensitivity for Hg. Amino-acid composition was measured by liquid chromatography (Shimadzu LC-20 Prominence); cesium-137 was measured by gamma spectrometry (spectrometric complex Progress) per GOST 32161-2013, with all fish-sample Cs-137 activities well below the 130 Bq/kg permissible level.
 
 ## Implications
 
@@ -48,6 +50,7 @@ This source supports freshwater fish and general seafood context for Kazakhstan 
 - [[products/fish-freshwater]]
 - [[products/seafood]]
 - [[ingredients/fish]]
+- [[ingredients/freshwater-fish]]
 - [[metals/mercury]]
 - [[metals/arsenic]]
 - [[metals/cadmium]]
@@ -55,7 +58,10 @@ This source supports freshwater fish and general seafood context for Kazakhstan 
 
 ## Verification notes
 
-- Batch 5 auto-fetched ingest, 2026-05-25. DOI mismatch was resolved by ingesting the actual fish product paper rather than forcing it into the meat/poultry row.
+- Batch 5 auto-fetched ingest, 2026-05-25; audited 2026-06-08. DOI mismatch was resolved by ingesting the actual fish product paper rather than forcing it into the meat/poultry row.
+- Paper's narrative arsenic maximum (0.0590 mg/kg, Rudd) conflicts with Table 4 (Crucian 0.0600 mg/kg). Wiki page records both; downstream synthesis should treat 0.0600 mg/kg as the tabulated max mean.
+- Carp and Crucian mean mercury values (0.0201 and 0.0070 mg/kg) sit below the paper's stated Hg analytical range lower bound (0.04 mg/kg) and should be treated as near or below method sensitivity.
+- The paper's stated MPC values (Hg 0.03 mg/kg, others) are the Kazakh national MPCs cited by the authors and are not a separately catalogued regulation in this wiki's regulations vocabulary.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -64,9 +70,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
