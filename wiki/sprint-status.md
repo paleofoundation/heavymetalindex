@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-07T22:43:47.465Z
+updated: 2026-06-08T02:40:35.720Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -34,9 +34,9 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Audit queue: pending-audit-spawn-failed | 98 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 0 |
-| Commits last 24 hours | 31 |
+| Repo sync | ⚠️ 19 commit(s) ahead of origin/main |
+| Commits last 1 hour | 28 |
+| Commits last 24 hours | 56 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-16f9d5a 4 hours ago — audit-queue: jannat2018-iran-tea-heavy-metals -> audited-revised
+ea7c349 6 minutes ago — fix: recheck salt extraction units
 ```
 
 ## How to read this

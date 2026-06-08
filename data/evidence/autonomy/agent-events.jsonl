@@ -792,3 +792,9 @@
 {"ts":"2026-06-07T13:38:38Z","actor":"codex","source_path":"raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-water-filters-tas_2022_10-3389-fchem-2022-826440.pdf","cite_key":"","status":"skip:review-only-no-primary-data","commit":"pending","blocker":"","next":"triage sweep"}
 {"ts":"2026-06-07T13:42:27Z","actor":"codex","source_path":"raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-spinach-pb_2024_10-48185-jcnb-v5i2-1175.pdf","cite_key":"fatai2024-african-spinach-tomato-nigeria","status":"ingested","commit":"pending","blocker":"","next":""}
 {"ts":"2026-06-07T18:48:39.603Z","actor":"discover-autopilot","cite_key":"","status":"discovered","source_path":"wiki/products/kombucha-tea-based.md","commit":"","blocker":"","next":"awaiting-ingest:Manual Fetch Discovery (2 PDF)"}
+{"ts":"2026-06-08T01:24:34.561Z","actor":"discover-autopilot","cite_key":"","status":"discovered","source_path":"wiki/products/plant-milks-rice-based.md","commit":"","blocker":"","next":"awaiting-ingest:Manual Fetch Discovery (7 PDF)"}
+{"ts":"2026-06-08T01:40:55.660Z","actor":"frank-opus","cite_key":"andrade2023-cow-milk-soy-metals","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T01:50:39.643Z","actor":"frank-opus","cite_key":"begday2026-plant-milk-heavy-metal-safety","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T01:59:42.021Z","actor":"frank-opus","cite_key":"good2026-plant-milk-heavy-metals","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T02:10:50.536Z","actor":"frank-opus","cite_key":"marques2021-trace-elements-milks-plant-based-drinks","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T02:23:32.443Z","actor":"frank-opus","cite_key":"rebellato2023-plant-yogurt-inorganic-contaminants","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
