@@ -829,3 +829,123 @@
 
 ### Succeeded
 - `schett1998-hsp70-hsf1-rheumatoid-synovial` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/33_Enhanced_Expression_of_hsp70_and_Heavy_Metal_Protection.pdf)
+
+## Tick 2026-06-08T16:03:52.325Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `schilsky1989-hepatocellular-copper-toxicity-zinc` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/34_Hepatocellular_Copper_Toxicity_and_Its_Attenuation_by_ZincM.pdf)
+
+## Tick 2026-06-08T16:18:51.123Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `gulcin2025-antioxidants-comprehensive-review` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/35_Antioxidants_A_Comprehensive_Review.pdf)
+
+## Tick 2026-06-08T16:33:28.268Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `lee2003-arabidopsis-pcs1-overexpression-cd-hypersensitivity` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/38_Overexpression_of_Arabidopsis_Phytochelatin_Synthase_Paradox.pdf)
+
+## Tick 2026-06-08T16:43:03.584Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `shine2015-sporobolomyces-pcs1-basidiomycete-metal-tolerance` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/39_Phytochelatin_Synthase_Is_Required_for_Tolerating_Metal_Toxi.pdf)
+
+## Tick 2026-06-08T16:56:00.245Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cobbett2002-phytochelatins-metallothioneins-review` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/40_Phytochelatins_and_Metallothioneins_Roles_in_Heavy_Metal_De.pdf)
+
+## Tick 2026-06-08T17:07:29.697Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `butko2008-cadmium-detoxification-thesis` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/42_Molecular_Mechanisms_of_Cadmium_Detoxification_and_Long_Dist.pdf)
+
+## Tick 2026-06-08T17:27:43.005Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Failed
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/43_Root_Targeted_Over-Expression_of_Heavy_Metal_Tolerance_Genes.pdf`: exit 1:
+
+## Tick 2026-06-08T17:32:13.535Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Failed
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/44_Functional_Interplay_Between_the_Hippo_Pathway_and_Heavy_Met.pdf`: exit 1:
+
+## Tick 2026-06-08T17:47:16.743Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/45_An_Elastic-Network_Based_Local_Molecular_Field_Analysis_of_Z.pdf`: out-of-scope (computational biophysics of zinc-finger protein Zn²⁺ binding, not heavy-metals occurrence/exposure)
+
+## Tick 2026-06-08T17:51:01.131Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `ding2015-soy-glycinin-thiol-peptides-heavy-metal-complexation` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/46_Heavy_Metal_Complexation_of_Thiol-Containing_Peptides_from_S.pdf)
+
+## Tick 2026-06-08T18:01:28.047Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `lu2022-metal-chelating-peptides-review` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/47_Research_Progress_of_Metal_Chelating_Peptides.pdf)
+
+## Tick 2026-06-08T18:07:45.578Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `irankunda2022-imac-mcp-separation-methodology-simulation` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/48_Metal-Chelating_Peptides_Separation_Using_Immobilized_Metal.pdf)
