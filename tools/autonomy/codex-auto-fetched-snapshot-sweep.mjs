@@ -143,18 +143,23 @@ async function triageOne(item, doiIndex, finalAuditNames) {
   const meta = metadata(text)
   const titleText = `${item.filename} ${meta.title} ${text.slice(0, 6000)}`.toLowerCase()
   const hasMetal = /\b(lead|cadmium|arsenic|mercury|chromium|nickel|aluminium|aluminum|antimony|barium|copper|zinc|manganese|iron|pb|cd|hg|as|cr|ni|al|sb|ba)\b/.test(titleText)
-  const hasFoodOrCare = /\b(food|foods|edible|diet|dietary|rice|wheat|flour|cereal|coffee|tea|cashew|peanut|spinach|fruit|vegetable|water|formula|infant|toothpaste|cosmetic|beverage|milk|meat|fish|seed|oil|nut|butter)\b/.test(titleText)
+  // In-scope matrix = ANY consumer product or supply-chain input the HMTc
+  // program covers or could cover — food AND non-food. The old `hasFoodOrCare`
+  // regex was food + toothpaste/cosmetic only, which silently dropped feminine
+  // care (tampons), cleaning products, toys/durables, textiles, and research
+  // chemicals/peptides. Broadened 2026-06-08 to match the program's real breadth.
+  const hasProductMatrix = /\b(food|foods|edible|diet|dietary|rice|wheat|flour|cereal|coffee|tea|fruit|vegetable|formula|infant|beverage|milk|meat|fish|seafood|seed|nut|oil|butter|spice|honey|sugar|supplement|nutraceutical|protein powder|drinking water|tampon|menstrual|sanitary|feminine|cosmetic|makeup|lipstick|foundation|mascara|eyeshadow|nail|lotion|shampoo|soap|sunscreen|deodorant|antiperspirant|toothpaste|wipe|wipes|diaper|cleaner|detergent|bleach|disinfectant|laundry|toy|toys|crib|stroller|car seat|mattress|textile|fabric|clothing|footwear|paint|pigment|plastic|pvc|vinyl|silicone|rubber|latex|ceramic|cookware|tableware|glaze|packaging|food contact|peptide|sarm|injectable|vial|nootropic)\b/.test(titleText)
   const hasConcentration = /\b(mg\/kg|µg\/kg|ug\/kg|mg kg|µg kg|ug kg|ppm|ppb|ng\/g|µg\/g|ug\/g|mg\/l|µg\/l|ug\/l|concentration|contents?|levels?)\b/.test(titleText)
   const primaryTableSignal = /\b(table|mean|median|range|samples?|n\s*=|icp|aas|atomic absorption|mass spectrometry)\b/.test(titleText)
   const reviewOnly = /\b(systematic review|meta-analysis|narrative review|review article|cochrane|scoping review)\b/.test(titleText)
 
   if (!hasMetal) return { ...item, decision: "skip:no-heavy-metal-data", reason: "no heavy-metal analyte signal in extracted text", ...meta, doi }
-  if (!hasFoodOrCare) return { ...item, decision: "skip:not-target-cell", reason: "no food/personal-care matrix signal in extracted text", ...meta, doi }
+  if (!hasProductMatrix) return { ...item, decision: "skip:not-target-cell", reason: "no in-scope consumer-product / supply-chain matrix signal (food or non-food) in extracted text", ...meta, doi }
   if (reviewOnly && !/\b(we collected|we sampled|samples were collected|determined in|analysed|analyzed)\b/.test(titleText)) {
     return { ...item, decision: "skip:review-only-no-primary-data", reason: "review/meta-analysis without primary occurrence table signal", ...meta, doi }
   }
   if (!hasConcentration || !primaryTableSignal) {
-    return { ...item, decision: "skip:not-food-occurrence", reason: "no extractable concentration/statistic signal in first-pass text", ...meta, doi }
+    return { ...item, decision: "skip:no-occurrence-data", reason: "no extractable concentration/statistic signal in first-pass text (in-scope matrix but no measured occurrence)", ...meta, doi }
   }
   return {
     ...item,

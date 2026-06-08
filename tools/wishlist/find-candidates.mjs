@@ -346,6 +346,32 @@ function inhalationDomainScore(haystack) {
   return hits
 }
 
+// Research chemicals / peptides / SARMs domain terms (added 2026-06-08).
+// Black-market and grey-market injectable peptides, SARMs, and compounded
+// "research chemicals" are an in-scope consumer-product category for HMTc
+// (heavy-metal contamination of unregulated vials), but none of the gates
+// above had terms for them — so peptide-contamination queries defaulted to the
+// food gate and were rejected at the source. This gate closes that hole.
+const RESEARCH_CHEMICAL_DOMAIN_TERMS = [
+  "peptide", "peptides", "research peptide", "compounded peptide",
+  "sarm", "sarms", "selective androgen receptor modulator",
+  "research chemical", "research chemicals", "grey market", "gray market",
+  "black market peptide", "nootropic", "nootropics",
+  "injectable", "injectable vial", "lyophilized", "lyophilised", "reconstituted vial",
+  "semaglutide", "tirzepatide", "retatrutide", "liraglutide",
+  "bpc-157", "bpc157", "tb-500", "tb500", "cjc-1295", "ipamorelin",
+  "melanotan", "pt-141", "glp-1 agonist", "growth hormone secretagogue",
+  "anabolic", "prohormone", "designer steroid",
+]
+
+function researchChemicalDomainScore(haystack) {
+  let hits = 0
+  for (const term of RESEARCH_CHEMICAL_DOMAIN_TERMS) {
+    if (haystack.includes(term)) hits++
+  }
+  return hits
+}
+
 // Domain-aware gate. Returns the appropriate `<domain>Hits` count given
 // the query's tagged domain. Wishlist rows tagged `domain: "food"` (or
 // untagged, defaulting to food) use FOOD_DOMAIN_TERMS; `durable-goods`
@@ -356,15 +382,18 @@ function domainScore(haystack, domain) {
     case "durable-goods": return durableGoodsDomainScore(haystack)
     case "personal-care": return personalCareDomainScore(haystack)
     case "cleaning": return cleaningDomainScore(haystack)
+    case "research-chemical": return researchChemicalDomainScore(haystack)
     case "regulatory":
-      // Regulatory anchor queries can match ANY of the four domains —
-      // an FDA Closer to Zero paper is food, a CPSC paper is durable-
-      // goods, etc. Accept if ANY domain matches.
+      // Regulatory anchor queries can match ANY domain — an FDA Closer to
+      // Zero paper is food, a CPSC paper is durable-goods, a peptide-vial
+      // recall is research-chemical, etc. Accept if ANY domain matches.
       return Math.max(
         foodDomainScore(haystack),
         durableGoodsDomainScore(haystack),
         personalCareDomainScore(haystack),
         cleaningDomainScore(haystack),
+        inhalationDomainScore(haystack),
+        researchChemicalDomainScore(haystack),
       )
     case "food":
     default: return foodDomainScore(haystack)
@@ -661,7 +690,8 @@ async function queryPubMed(q, searchTerms, fetchOne) {
     const personalCareHits = personalCareDomainScore(haystack)
     const cleaningHits = cleaningDomainScore(haystack)
     const inhalationHits = inhalationDomainScore(haystack)
-    const inScopeHits = Math.max(foodHits, durableHits, personalCareHits, cleaningHits, inhalationHits)
+    const researchChemHits = researchChemicalDomainScore(haystack)
+    const inScopeHits = Math.max(foodHits, durableHits, personalCareHits, cleaningHits, inhalationHits, researchChemHits)
     const negativeHits = matchedNegatives(haystack)
 
     const oaUrl = pmcId ? `${PMC_FULLTEXT_URL}/PMC${pmcId}/pdf/` : ""
@@ -671,7 +701,7 @@ async function queryPubMed(q, searchTerms, fetchOne) {
       relevance_score: score, positive_score: positiveScore,
       negative_penalty: penalty, negative_hits: negativeHits.join("; "),
       food_hits: foodHits,
-      domain_match: durableHits > 0 ? "durable-goods" : personalCareHits > 0 ? "personal-care" : cleaningHits > 0 ? "cleaning" : inhalationHits > 0 ? "inhalation" : foodHits > 0 ? "food" : "none",
+      domain_match: durableHits > 0 ? "durable-goods" : personalCareHits > 0 ? "personal-care" : cleaningHits > 0 ? "cleaning" : inhalationHits > 0 ? "inhalation" : researchChemHits > 0 ? "research-chemical" : foodHits > 0 ? "food" : "none",
       title, doi, year, journal, oa_url: oaUrl,
       cited_by_count: 0,  // PubMed's EFetch doesn't return cite counts
       already_indexed: alreadyIndexed ? "true" : "false",
@@ -798,8 +828,9 @@ for (let i = startIndex; i < queries.length; i += 1) {
     const personalCareHits = personalCareDomainScore(haystack)
     const cleaningHits = cleaningDomainScore(haystack)
     const inhalationHits = inhalationDomainScore(haystack)
-    const inScopeHits = Math.max(foodHits, durableHits, personalCareHits, cleaningHits, inhalationHits)
-    const domainMatch = durableHits > 0 ? "durable-goods" : personalCareHits > 0 ? "personal-care" : cleaningHits > 0 ? "cleaning" : inhalationHits > 0 ? "inhalation" : foodHits > 0 ? "food" : "none"
+    const researchChemHits = researchChemicalDomainScore(haystack)
+    const inScopeHits = Math.max(foodHits, durableHits, personalCareHits, cleaningHits, inhalationHits, researchChemHits)
+    const domainMatch = durableHits > 0 ? "durable-goods" : personalCareHits > 0 ? "personal-care" : cleaningHits > 0 ? "cleaning" : inhalationHits > 0 ? "inhalation" : researchChemHits > 0 ? "research-chemical" : foodHits > 0 ? "food" : "none"
 
     const oaUrl = work.open_access?.oa_url ?? ""
     const row = {

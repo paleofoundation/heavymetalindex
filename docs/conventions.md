@@ -88,6 +88,14 @@ Notes: Flagged contradiction between Smith 2024 (n=1000) and Jones 2023 (n=50) o
 
 The bulk-ingest session's deliverable is the source pages and the new-page proposals. The routing audit refresh, the synthesis pass, and the product-page generator runs are downstream system passes that execute after the batch commits.
 
+## Ingest scope (what counts as in-scope occurrence data)
+
+A source is in scope if it measures — or models exposure to — heavy-metal concentrations in any consumer product, ingredient, packaging/food-contact material, or supply-chain input that the HMTc program covers or could cover. **Scope is food AND non-food.** The program certifies far beyond food: infant and personal care, feminine care (tampons, pads), cosmetics, cleaning and household products, toys and children's durables, textiles and apparel, pet food and products, dietary supplements, research chemicals (peptides, SARMs), packaging and food-contact materials, and the supply-chain inputs tied to any of these.
+
+**"Not food" is never a skip reason.** The retired `skip:not-food-occurrence` vocabulary wrongly framed non-food products as out of scope and could have discarded large amounts of solid data (e.g., heavy metals in cotton tampons, cosmetics, cleaners). Any tooling, prompt, or fetch gate that keys on "food" terms alone is a defect to fix, not a rule to follow.
+
+The legitimate skip — measuring something but not in-scope occurrence — is `skip:no-occurrence-data`: a controlled lab/dosing experiment, remediation or environmental-cleanup technology, analytical-method development, or an environmental/geological survey with no link to a consumer product or its supply chain. The test is "is there a measured concentration in an in-scope matrix," not "is it food."
+
 ## Out of scope
 
 - **Writing original lab procedures.** Sourced from validated methods.
