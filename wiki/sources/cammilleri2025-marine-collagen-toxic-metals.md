@@ -2,8 +2,8 @@
 type: source
 raw_handle: MFK_21-cammilleri-2025-toxic-metals-collagen-supplemen
 cite_key: cammilleri2025-marine-collagen-toxic-metals
-title: "Toxic metals in marine collagen supplements: occurrence and risk assessment"
-authors: [Cammilleri G, Tortorici M, Pantano L, Galluzzo FG, et al.]
+title: "Toxic metals and metalloids in collagen supplements of fish and jellyfish origin: Risk assessment for daily intake"
+authors: [Cammilleri G, Tortorici M, Pantano L, Galluzzo FG, Pulvirenti A, Buscemi MD, Lo Dico GM, Macaluso A, Calabrese V, Jacob UM, Ferrantelli V]
 year: 2025
 publication: "Open Medicine"
 doi: "10.1515/med-2025-1141"
@@ -11,67 +11,95 @@ source_type: peer-reviewed
 evidence_tier: A
 evidence_fitness: EF-3
 review_state: machine_extracted
-claim_classes: [occurrence, public_wiki_claim]
+claim_classes: [occurrence, risk_assessment, public_wiki_claim]
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/21_Cammilleri_2025_Toxic_Metals_Collagen_Supplements.pdf"
 raw_sha256: "ebf2765fa36b27fd51c78c3ad18f262a444acaed728db4e8b3dd90facf47f940"
 access_url: "https://doi.org/10.1515/med-2025-1141"
 access_date: 2026-06-08
-metals: [tAs, Pb, Cd, tHg]
+metals: [tAs, Cr, Pb, Cd, tHg]
 ingredients: []
 products: ["[[products/supplements-protein-collagen-powders]]"]
-matrices: [collagen-supplement, marine-collagen, fish-collagen]
+matrices: [collagen-supplement, marine-collagen, fish-collagen, jellyfish-collagen]
 jurisdictions: [IT]
 sample_n: 120
-sample_population: "120 marine (fish-origin) collagen supplement samples drawn from 65 brands purchased on e-commerce platforms and large-scale retail in Italy during 2022 (multiple samples per qualifying brand across production batches). Samples mineralized on an UltraWAVE digestion system and analysed for toxic metals by ICP-MS (Agilent 7700x); method validated with 90–110% acceptance and 96–105% recovery."
-sampling_locations: ["Italy (e-commerce and retail)"]
-sampling_year_range: 2022
-updated: 2026-06-08
+sample_population: "120 collagen supplement samples from 4 species-labeled brands purchased on e-commerce platforms and large-scale retail in Italy during 2022 and 2023, plus an in-house Scomber scombrus (mackerel) skin collagen extract used for comparison. The 4 labeled brands were Atlantic cod (Gadus morhua; Brand 1), Pangasius (Pangasianodon hypophthalmus; Brand 2), jellyfish (Rhizostoma pulmo; Brand 3), and Tilapia (Tilapia spp.; Brand 4). Of 65 brands originally examined, only 4 reported the species used for collagen extraction; the remaining brands were excluded. Sampling design: 6 samples from each of 5 production batches per brand. Samples were mineralized on an UltraWAVE digestion system and analyzed for As, Cr, Cd, and Pb by ICP-MS (Agilent 7700x). Hg was measured separately by direct mercury analyzer (DMA-80, atomic absorption spectroscopy). Method validated with 90–110% acceptance and 96–105% recovery; CRM DORM-5 (fish protein) used for verification."
+sampling_locations: ["Italy (e-commerce and large-scale retail)"]
+sampling_year_range: 2022-2023
+updated: 2026-06-09
 ---
 
-# Cammilleri et al. 2025 — Toxic metals in marine collagen supplements
+# Cammilleri et al. 2025 — Toxic metals and metalloids in fish and jellyfish collagen supplements
 
 ## Summary
 
-This is a primary occurrence survey of toxic metals in marine collagen supplements, a fish-derived supplement product within the HMTc scope. The authors measured arsenic, lead, cadmium, and mercury by ICP-MS in 120 samples spanning 65 brands of fish-origin collagen sold on Italian e-commerce and retail channels. The load-bearing finding is that arsenic is the dominant contaminant: total arsenic was the most abundant element measured, with a mean of 0.59 ± 0.28 mg/kg and a maximum of 1.11 mg/kg in a Pangasius-derived marine collagen. Lead was lower and consistent (0.13 ± 0.02 mg/kg), cadmium was near-ubiquitous but at very low levels (detected in 98% of samples, maximum 0.0018 mg/kg), and mercury was detectable in only 12% of samples. The authors note significant variability across brands. For the Index this establishes arsenic as the priority analyte for marine collagen supplements, with the fish/marine origin being the plausible route for the arsenic burden, consistent with arsenic accumulation in marine matrices generally.
+This is a primary occurrence survey of toxic metals and metalloids in collagen supplements of marine origin, covering both fish-derived and jellyfish-derived products within the HMTc supplements-protein-collagen-powders scope. The authors measured arsenic, chromium, cadmium, lead, and mercury in 120 samples spanning 4 species-labeled brands (Atlantic cod, Pangasius, jellyfish *Rhizostoma pulmo*, Tilapia) sold on Italian e-commerce and retail channels during 2022–2023, plus a lab-extracted *Scomber scombrus* (mackerel) skin collagen for comparison. The load-bearing findings are that (1) arsenic is the dominant contaminant in fish-derived collagen — total As reached 1.11 mg/kg in the Atlantic cod brand and showed significant between-brand variation; (2) the Pangasius brand was the consistent worst performer for lead, cadmium, and chromium; and (3) the jellyfish-derived (*R. pulmo*) brand and the in-house *S. scombrus* skin extract showed non-detectable concentrations for every metal measured, identifying jellyfish and mackerel-skin substrates as potential low-contaminant alternatives. No sample exceeded EU Regulation 2023/915 maximum levels (Cd 3 mg/kg, Pb 3 mg/kg, Hg 0.1 mg/kg for food supplements), and all estimated average daily intakes were below the relevant tolerable daily intakes used by the authors. For the Index, this establishes arsenic as the priority analyte for fish-derived marine collagen supplements, with the fish/marine origin as the plausible route for the arsenic burden, and identifies jellyfish-origin collagen as an empirically lower-contaminant substrate within the same product category.
 
 ## Key numbers
 
-ICP-MS, total metals, expressed as mg/kg of supplement. Arsenic is total As; the authors reference the EFSA inorganic-As assessment for the risk step but report total As as the measured quantity.
+ICP-MS for As, Cr, Cd, Pb on UltraWAVE-digested samples; direct mercury analyzer (DMA-80, atomic absorption) for Hg. Concentrations expressed as mg/kg wet weight of supplement. Arsenic is total As; the authors apply the EFSA iAs reference (0.3 µg/kg/day BMDL01) to the measured total As for the risk-assessment step but do not perform iAs speciation. Chromium is total Cr (no Cr-VI speciation).
 
-| Metal | Mean (mg/kg) | Maximum (mg/kg) | Detection frequency |
-| --- | --- | --- | --- |
-| As (tAs) | 0.59 ± 0.28 | 1.11 | most abundant element |
-| Pb | 0.13 ± 0.02 | — | — |
-| Cd | very low | 0.0018 | 98% of samples |
-| Hg | trace | — | 12% of samples |
+Pooled totals across the dataset (Table 3, last row):
 
-- Arsenic dominates the toxic-metal profile; the 1.11 mg/kg maximum occurred in a Pangasius (catfish) marine collagen.
-- Cadmium is detected in nearly all samples but at negligible concentrations (max 0.0018 mg/kg).
-- Mercury is largely absent (detectable in 12% of samples only).
-- Significant between-brand variability was reported.
+| Metal | Mean ± SD (mg/kg) | Min (mg/kg) | Max (mg/kg) | Detection frequency |
+| --- | --- | --- | --- | --- |
+| As (tAs) | 0.591 ± 0.28 | 0.1 | 1.11 | most abundant; n.d. in jellyfish and S. scombrus |
+| Cr (tCr) | 0.050 ± 0.01 | 0.028 | 0.079 | detected across fish brands; n.d. in jellyfish and S. scombrus |
+| Cd | 0.003 ± 0.002 | 0.0007 | 0.013 | 98% of samples |
+| Pb | 0.138 ± 0.02 | 0.094 | 0.201 | detected across fish brands; n.d. in jellyfish and S. scombrus |
+| Hg (tHg) | trace | — | 0.0018 | 2 samples from Pangasius brand only |
+
+Between-brand pattern (Table 3, by labeled species):
+
+- Atlantic cod (*Gadus morhua*, Brand 1): As mean 0.912 ± 0.16, max 1.11 mg/kg — significantly higher mean As than other brands (p = 3 × 10⁻⁷); Pb mean 0.123 ± 0.023, max 0.138; Cd mean 0.002 ± 0.002, max 0.006; Cr mean 0.054 ± 0.02, max 0.08.
+- Pangasius (*P. hypophthalmus*, Brand 2): highest Pb (mean 0.136 ± 0.03, max 0.201), Cd (mean 0.003 ± 0.003, max 0.013), Cr (mean 0.053 ± 0.01, max 0.08), and the only brand with detectable Hg (max 0.0018 mg/kg in 2 samples); As mean 0.484 ± 0.16, max 0.64.
+- Jellyfish (*Rhizostoma pulmo*, Brand 3): n.d. for all 5 metals measured.
+- Tilapia (*Tilapia* spp., Brand 4): As mean 0.390 ± 0.2, max 0.71; Pb mean 0.125 ± 0.01, max 0.14; Cd mean 0.002 ± 0.001, max 0.011; Cr mean 0.040 ± 0.03, max 0.14.
+- *S. scombrus* skin extract (in-house, not commercial): n.d. for all 5 metals measured.
+
+Compliance and intake context:
+
+- No sample exceeded EU Reg 2023/915 maximum levels for food supplements (Cd 3 mg/kg, Pb 3 mg/kg, Hg 0.1 mg/kg).
+- Average daily intakes (ADDs) at 5 g and 10 g daily doses for a 67.7 kg adult woman were below the corresponding TDIs for iAs (0.3 µg/kg/day BMDL01, EFSA), Pb (0.5 µg/kg/day BMDL01, EFSA), and Cd (0.36 µg/kg/day from TWI 2.5 µg/kg/week, EFSA). The highest ADD-to-TDI ratio was Pb at the cod brand (~14% of TDI at the upper dose).
 
 ## Methods (brief)
 
-UltraWAVE microwave digestion followed by ICP-MS (Agilent 7700x) for As, Pb, Cd, Hg. 120 samples from 65 fish-origin collagen brands sold in Italy (2022). Method validated (acceptance 90–110%, recovery 96–105%). Total metals; no inorganic-As speciation performed (iAs referenced only for the risk comparison).
+UltraWAVE microwave digestion (3 mL 60% HNO₃ + 5 mL ultrapure water; ~0.1 g supplement) followed by 0.45 µm filtration to 50 mL final volume. ICP-MS on Agilent 7700x for As, Cr, Cd, Pb; the LOD by 3σ and LOQ by 10σ approach. Hg measured separately by Milestone DMA-80 direct mercury analyzer (atomic absorption at 250 nm, no digestion required). 7-point calibration with r² > 0.999; CRM DORM-5 (fish protein) verified accuracy; recovery 96–105% across three concentration points. Repeatability and within-laboratory reproducibility assessed across three days with operator changes. Not-detected values imputed at LOQ/2 for statistical analysis (Shapiro–Wilk normality, Kruskal–Wallis between-brand). Risk step used EFSA inorganic-As assumption applied to total As; reference body weight 67.7 kg (woman).
 
 ## Implications
 
-- Establishes arsenic as the priority toxic metal for marine collagen supplements within [[products/supplements-protein-collagen-powders]], complementing the protein-powder cadmium signal from `bandara2020-protein-powder-heavy-metals` — collagen powders track arsenic, protein/whey powders track cadmium.
-- The marine/fish origin links the arsenic burden to seafood-derived raw material, relevant to any supply-chain screening for collagen sourcing.
-- Contributes [[metals/arsenic]] occurrence (with a 1.11 mg/kg high value) and low-level [[metals/lead]], [[metals/cadmium]], [[metals/mercury]] context for fish-collagen supplements.
+- Establishes total arsenic as the priority toxic metal for fish-derived marine collagen supplements within [[products/supplements-protein-collagen-powders]], with Atlantic cod showing the highest As burden and Pangasius the highest co-burden of Pb, Cd, and Cr. Complements the protein-powder cadmium signal from `bandara2020-protein-powder-heavy-metals` — collagen powders track arsenic (and a Pangasius-specific multi-metal burden), protein/whey powders track cadmium.
+- Jellyfish-derived collagen (*R. pulmo*) and mackerel-skin (*S. scombrus*) extract show non-detectable toxic metals across the full panel, identifying jellyfish biomass as an empirically lower-contaminant substrate. Relevant to supply-chain screening for collagen sourcing and to any HMTc category that distinguishes source-organism within collagen powders.
+- Contributes occurrence evidence to [[metals/arsenic]] (1.11 mg/kg max, fish-marine route), [[metals/lead]] (0.201 mg/kg max, Pangasius-driven), [[metals/cadmium]] (low-level but near-ubiquitous in fish-derived; n.d. in jellyfish), [[metals/chromium]] (low-level, total Cr only, no Cr-VI speciation), and [[metals/mercury]] (largely absent except in Pangasius).
 
 ## Wiki pages this source may touch
 
-- [[products/supplements-protein-collagen-powders]] — arsenic-led toxic-metal profile for marine collagen.
-- [[metals/arsenic]] — dominant contaminant; fish/marine-origin route; 1.11 mg/kg maximum.
-- [[metals/lead]], [[metals/cadmium]], [[metals/mercury]] — low-level occurrence in collagen supplements.
+- [[products/supplements-protein-collagen-powders]] — fish-derived collagen carries As-dominant toxic-metal profile with a Pangasius multi-metal signature; jellyfish-derived collagen empirically clean.
+- [[metals/arsenic]] — dominant contaminant; fish/marine-origin route; 1.11 mg/kg max in cod brand.
+- [[metals/lead]] — 0.201 mg/kg max, Pangasius-driven.
+- [[metals/cadmium]] — near-ubiquitous in fish-derived (98% detection), n.d. in jellyfish.
+- [[metals/chromium]] — total Cr only, low-level occurrence.
+- [[metals/mercury]] — largely absent (Pangasius-only trace).
 
 ## Verification notes
 
-- Concentrations from the abstract and Table 3 (toxic metal concentrations, mg/kg). The paper reports per-brand data using anonymized brand numbers (e.g. "brand 2"); per the Part 12 firewall, only the category-level distribution (means, maxima, detection frequencies) is reproduced here, not the per-brand breakdown.
-- Arsenic is reported as total As by ICP-MS; the inorganic-As fraction is not measured (EFSA iAs reference values are cited only for the risk discussion).
-- Exact per-brand sample allocation (65 brands → 120 samples) is summarized; the brand-level table is not reproduced.
+Merge-enhanced 2026-06-09 from the 2026-06-08 ingest. The prior version of this page contained the following defects, corrected against the source PDF in this revision:
+
+- Title was truncated to "Toxic metals in marine collagen supplements: occurrence and risk assessment"; corrected to the actual paper title "Toxic metals and metalloids in collagen supplements of fish and jellyfish origin: Risk assessment for daily intake" (paper cover page).
+- Chromium was missing from the `metals` frontmatter and Key numbers; the paper measures 5 elements (Pb, Cd, Cr, Hg, As — Abstract, Methods §2.3, Table 3). Added Cr.
+- Cadmium maximum was reported as 0.0018 mg/kg; this value is the **mercury** maximum (Results §3, "mercury was found in only two samples from brand 2, showing a maximum of 0.0018 mg/kg"). The actual Cd total max is 0.013 mg/kg (Table 3, total row). Corrected the value transposition.
+- Lead maximum was missing; Table 3 reports total Pb max 0.201 mg/kg, min 0.094 mg/kg. Added.
+- The 1.11 mg/kg As maximum was attributed to a Pangasius (catfish) brand in the prior page; the paper assigns this maximum to Brand 1 (Atlantic cod, *Gadus morhua*) — Table 3 and Results §3 ("As was the most abundant trace element, with a maximum concentration of 1.11 mg/kg in a marine collagen sample of brand 1"; "Mean concentrations of As in brand 1 were significantly higher than the other brands"). Pangasius (Brand 2) is the worst performer for Pb, Cd, and Cr but not As. Corrected the species attribution.
+- Jellyfish was omitted entirely from `matrices` and `sample_population`; Brand 3 is jellyfish (*Rhizostoma pulmo*) per Methods §2.2 and Table 3. Added jellyfish-collagen matrix and updated sample_population.
+- The non-detection finding for jellyfish and *S. scombrus* skin extract was omitted; this is a load-bearing finding for collagen-substrate selection and is added to the Key numbers and Implications sections.
+- Sampling year range was reported as 2022; Methods §2.2 states purchases were made "during 2022 and 2023". Corrected to 2022-2023.
+- Authors list was truncated with "et al."; expanded to the full 11-author list from the paper cover.
+- Mercury analytical method (DMA-80 direct mercury analyzer, atomic absorption) was conflated with the ICP-MS measurement of the other four elements; clarified in Methods and Key numbers.
+- EU regulatory compliance finding (no samples exceeded Reg 2023/915 limits) and the per-element ADD-vs-TDI risk assessment outcomes were omitted; added to Key numbers for regulatory context.
+
+Brand-firewall: the paper uses anonymized "brand 1/2/3/4" labels with only species attribution disclosed (no commercial brand names). Per Part 12, species-level results are reproduced (species are a supply-chain category, not a brand identity); the underlying anonymized brand-by-brand sample counts are not reproduced beyond what is necessary for the species-level findings.
+
+Hg detection-percentage note: the abstract states "Hg was detectable in only 12% of the samples" while the Results section narrates "mercury was found in only two samples from brand 2." These two figures cannot both be true under the stated 4-brand × 30-sample design (2/120 = 1.7%; 2/30 = 6.7%); neither matches 12%. The Results-section narrative (Pangasius-only, 2 samples, max 0.0018 mg/kg) is reported as canonical because it is more specific and matches the species pattern of all other metals; the abstract 12% figure is treated as a likely abstract reporting error rather than substantive disagreement.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
