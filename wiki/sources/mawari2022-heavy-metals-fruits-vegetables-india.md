@@ -17,13 +17,13 @@ ingredients: ["[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredie
 products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables]]", "[[products/leafy-vegetables-other]]", "[[products/fresh-fruit]]", "[[products/legumes-pulses-other]]", "[[products/other-grain-products]]"]
 matrices: [vegetables, fruits, soil]
 jurisdictions: [IN]
-near_duplicates: ["raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf", "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf"]
+near_duplicates: ["raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf", "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf", "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf"]
 sample_n: 24
 sample_population: "24 frequently consumed crop types — 11 vegetables and 13 fruits/legumes — collected from farms near Solapur, an industrialized city in Maharashtra state, India; 6 native soil sampling sites (SQ-1 through SQ-6) sampled in winter (January) and summer (April) 2017"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: 2017
-updated: 2026-05-31
+updated: 2026-06-08
 ---
 
 # Mawari et al. 2022 — Heavy metals in fruits, vegetables and soil, Solapur, Maharashtra, India
@@ -115,6 +115,8 @@ The Mawari et al. 2022 paper on drinking water (cite_key `mawari2022-heavy-metal
 - Check 2 (slug vocabulary): ⚠️ concern that the broad `non-root-vegetables` routing silently absorbed 6 legume commodities (broad beans, chickpea, mung beans, cream beans, green peas, red gram) and the grain crop sorghum that would route more accurately to `legumes-pulses-other` (Cat 4 Row 8) and `other-grain-products` (Cat 3 Row 11) respectively. Verified both destination pages exist with appropriate scope (legumes-pulses-other: "Beans, lentils, chickpeas, split peas"; other-grain-products: "oat, millet, quinoa, barley" — sorghum is a millet-adjacent cereal grain). Applied: added both to products array and to "Wiki pages this source touches." Non-root-vegetables retained as a wide-net catch for sugarcane (which has no clean product home), brinjal/eggplant, cucumber, tomato, okra. The product count moves from 4 → 6.
 - The audit also surfaced a 1-count minor discrepancy in the wiki page's "11 vegetables and 13 fruits/legumes" framing vs Table 1's actual split of 10 in the vegetable block / 14 in the fruit block (the paper itself oddly classifies brinjal, cucumber, okra as "fruits"). Not a wiki-side defect — the wiki summary aligns with biological vegetable/fruit classification rather than the paper's idiosyncratic table grouping. Left unchanged.
 
+**2026-06-08 byte-identical filesystem-copy enhancement:** added a third entry to `near_duplicates` recording the Kimi agent's June 8 placement of the same paper PDF under `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf`. SHA-256 verified byte-identical to the two prior near_duplicates entries (`48206ac5013a1b5d2af573834afef08e5b819bc5dffdb64f14a64cd1d5cb43d5`). Manual-fetch loop now recognizes this third Kimi-folder location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
+
 ## Wiki pages this source touches
 
 - [[metals/lead]]
@@ -138,9 +140,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
