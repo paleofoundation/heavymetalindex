@@ -86,6 +86,8 @@ The authors collected drinking-water samples across 11 wards of Gombe LGA using 
 
 The paper states that metal concentrations were measured, but the PDF tables visible in the article provide exposure-model parameters and modeled risk outputs rather than a direct concentration table by water source. Treat Cr as total chromium unless a later full data table proves otherwise; the article does not report Cr(VI) speciation. It also does not report arsenic or mercury.
 
+A methodological caveat applies to the Cr ILCR values: Table 2 lists a cancer slope factor of 41.0 mg L⁻¹/day for Cr, which is the USEPA IRIS oral slope factor for Cr(VI). The authors apply this slope factor to total Cr without speciation, which inflates the modeled ILCR for chromium relative to the value that would result from applying the Cr(VI) factor only to the hexavalent fraction. The paper's headline conclusion that "chromium is the main cause of lifetime cancer" rests on that assumption.
+
 ## Implications
 
 Certification: Not a candidate benchmark concentration source because raw metal concentrations are not printed in the PDF; use as Nigeria drinking-water context and as a retrieval target for the missing concentration table.
@@ -98,7 +100,6 @@ App: Can support a context note that Gombe LGA tap, well, and sachet water were 
 
 - [[ingredients/water]]
 - [[products/bottled-drinking-water]]
-- [[products/mineral-water]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
