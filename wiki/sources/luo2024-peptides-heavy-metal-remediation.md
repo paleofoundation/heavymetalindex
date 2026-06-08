@@ -142,7 +142,7 @@ This is a narrative review with no declared search strategy, no inclusion or exc
 - [[metals/chromium-hexavalent]]
 - [[metals/nickel]]
 - [[metals/arsenic-total]]
-- [[mitigation/remediation-evidence.md|mitigation/remediation-evidence]]
+- [[mitigation/remediation-evidence]]
 
 ## Verification notes
 
@@ -167,3 +167,5 @@ This is a narrative review with no declared search strategy, no inclusion or exc
 **Reviewer's note on scope fit.** This paper is in scope per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The "Black Market Peptide Metal Survey" folder context suggests Karen is collecting peptide-metal literature to inform either the peptide-therapeutic-contamination programme (research peptides sold as supplements may be contaminated by heavy-metal residues from synthesis catalysts or starting materials) or the mitigation/remediation-evidence page. This source supports the latter but not the former: nothing in the paper addresses contamination of peptide products themselves.
 
 **Date arithmetic.** Received 11 April 2024, revised 28 May 2024, accepted 5 June 2024, published 18 June 2024 — all consistent with the year frontmatter (2024) and the citation. Article DOI 10.3390/ijms25126717 resolves to *Int. J. Mol. Sci.* 2024, Vol 25, Article 6717.
+
+**Audit subagent (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) all returned ✅. One ⚠️ on the `[[mitigation/remediation-evidence]]` wikilink — the auditor noted this slug is outside the taxonomy snapshot's four-category vocabulary (which lists only ingredients/products/metals/regulations) but confirmed it points to a real wiki section under `wiki/mitigation/remediation-evidence.md`. The wikilink has been normalised to the no-extension, no-alias convention used elsewhere in the corpus. The `mitigation/` subtree is a legitimate routing destination under the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`; the taxonomy snapshot's closed list is GPT-5.5's drafting vocabulary, not the wiki's exhaustive section index. No content corrections were applied.
