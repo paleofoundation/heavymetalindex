@@ -16,7 +16,7 @@ raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafoo
 raw_sha256: "9df0fdc660773076f1400b654e01d3f6ce0b7d0b800d4645f6a68e766101d06a"
 metals: [tHg]
 ingredients: ["[[ingredients/canned-tuna]]", "[[ingredients/tinned-fish]]", "[[ingredients/fish]]", "[[ingredients/seafood]]"]
-products: ["[[products/canned-fish]]", "[[products/seafood]]", "[[products/fresh-fish]]"]
+products: ["[[products/canned-fish]]", "[[products/canned-seafood]]", "[[products/seafood]]"]
 matrices: [fish]
 jurisdictions: [US]
 sample_n: 272
@@ -24,7 +24,7 @@ sample_population: "240 canned tuna samples (5 brands × 4 types × 3 lots × 2 
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-18
+updated: 2026-06-08
 ---
 
 # Shim et al. 2004 — Mercury and fatty acids in canned tuna, salmon, and mackerel
@@ -87,6 +87,7 @@ Total mercury measured using Thermal Decomposition Gold Amalgamation Atomic Abso
 - [[ingredients/fish]]
 - [[ingredients/seafood]]
 - [[products/canned-fish]]
+- [[products/canned-seafood]]
 - [[products/seafood]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]
@@ -99,6 +100,7 @@ Total mercury measured using Thermal Decomposition Gold Amalgamation Atomic Abso
 - Strict Part 12 brand-firewall cleanup: source Table 1 names sampled brands, but this wiki page aggregates rows by product form/species and omits all sampled brand names.
 - Numerical correction: prior page gave light-tuna-in-water EPA+DHA as ~268 mg/100 g; Table 1 values sum to 213, 313, and 339 mg/100 g, mean ~289 mg/100 g.
 - The authors' 185 ppb recommendation and label proposal are reported only as source-side risk-management statements; they are not adopted here as HMT&C standards or consumer advice.
+- 2026-06-08 merge-enhance: removed the `products/fresh-fish` slug from frontmatter (paper studied only canned tuna, salmon, and mackerel — no fresh fish samples were analyzed; the slug was over-specifying frontmatter and fanning broad-context rows to fish-freshwater, fish-marine-predatory, and fish-marine-non-predatory rows for which the paper provides no direct evidence). Added the `products/canned-seafood` slug to reflect that the three product forms studied are all canned-seafood Cat 6 row members (direct evidence rather than seafood-broad-context only).
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -107,9 +109,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
