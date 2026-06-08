@@ -17,13 +17,13 @@ ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/orange-juice]]", "[[
 products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-apple-containing]]", "[[products/fruit-juices-non-apple]]"]
 matrices: [fruit-juice, apple-juice, orange-juice, mango-juice]
 jurisdictions: [SA]
-near_duplicates: []
+near_duplicates: ["raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Levels of Trace Elements in Commercial Fruit Juices Consumed in Jeddah City, Saudi Arabia.pdf"]
 sample_n: 129
 sample_population: "129 commercial fruit juice samples (42 apple, 45 orange, 42 mango) of 15 brands purchased from supermarkets in Jeddah, Saudi Arabia"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-20
+updated: 2026-06-08
 ---
 
 # Farid and Enani 2010 — Trace elements in commercial fruit juices, Jeddah, Saudi Arabia
@@ -96,6 +96,8 @@ Instrument: Varian Spectra AA 30P graphite-furnace AAS with deuterium background
 - Brand firewall (Part 12): the paper references "15 brands" only as an aggregate count; no brand names appear in either the prior page or the source. No firewall action needed.
 - Speciation: paper measures total Cr without hexavalent speciation and does not measure Hg or As at all, so `metals: [Cr, Ni]` is correct (no `Cr-VI`, no `iAs`/`tAs`, no `MeHg`/`tHg`).
 
+**2026-06-08 byte-identical filesystem-copy enhancement:** added a `near_duplicates` entry recording the Kimi agent's June 8 placement of the same paper PDF under `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Levels of Trace Elements in Commercial Fruit Juices Consumed in Jeddah City, Saudi Arabia.pdf`. SHA-256 verified byte-identical to the canonical `raw_path` (`70a29cbe10755eaede9195b69fc188b862ae8d3a1a9261e1859beaecf359681d`); the same hash also appears at three other Kimi-corruption-issue paths (`May 21`, `manual-fetch/`, and `June 8/.../papers/`). Manual-fetch loop now recognizes the June 8 `_extracted_` location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -103,9 +105,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
