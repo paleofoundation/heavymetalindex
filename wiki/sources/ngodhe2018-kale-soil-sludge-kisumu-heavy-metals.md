@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-vegetables-mixed-pb_2018_10-19080-ijesnr-2018-15-555907.pdf"
 metals: ["Pb", "Cu", "Zn"]
 ingredients: ["[[ingredients/leafy-greens]]"]
-products: ["[[products/vegetables-mixed]]", "[[products/leafy-vegetables-other]]"]
+products: ["[[products/leafy-vegetables-other]]"]
 matrices: ["kale", "soil"]
 jurisdictions: ["KE"]
 sample_population: "Kale and soil samples from farms around the KIWASCO sewage treatment plant in Obunga slum, Kisumu County, Kenya"
@@ -31,16 +31,17 @@ This study measured Pb, Cu, and Zn in soil and kale grown near the KIWASCO sewag
 
 Source units are ppm.
 
-- Sample frame: 60 samples total, 30 soil samples and 30 kale samples.
+- Sample frame: 60 samples total, 30 soil samples and 30 kale samples, drawn from five plots around the KIWASCO treatment plant over January-June 2018.
 - Mean Pb: soil 0.41298 +/- 0.102; kale 0.37098 +/- 0.105.
 - Mean Zn: soil 0.34676 +/- 0.095; kale 0.2302 +/- 0.085.
 - Mean Cu: soil 0.1051 +/- 0.002; kale 0.08666 +/- 0.003.
-- Plot-level kale Cu ranged from 0.07 +/- 0.001 to 0.0995 +/- 0.003.
+- Plot-level kale Cu ranged from 0.07 +/- 0.001 (plot 2) to 0.0995 +/- 0.003 (plot 1).
+- Plot-level soil Zn ranged from 0.2791 +/- 0.001 (plot 4) to 0.4226 +/- 0.005 (plot 5); plot-level kale Zn ranged from 0.1423 +/- 0.002 (plot 2) to 0.3622 +/- 0.003 (plot 5).
 - The authors report Pb, Cu, and Zn in both soil and kale below KEBS/WHO/FAO standards and no immediate human-health risk in the analyzed samples.
 
 ## Methods
 
-Soil and kale samples were dried, ground, acid digested, and analyzed by atomic absorption spectrophotometry.
+Soil samples were taken from the upper 20 cm with a stainless-steel scoop; kale leaves were collected with a razor blade. Plant samples were washed, oven-dried for 48 hours, ground in a porcelain mortar, and passed through a 2 mm sieve. Soil samples were air-dried for 72 hours, disaggregated, sieved through 2 mm, then oven-dried for 2 hours. A 2.0 g aliquot of each sample was digested on a hot plate: plant samples in a 20 mL tri-acid mixture of HNO3:HCl:H2SO4 (5:1:1), soil samples in HCl:HNO3 (3:1). Digests were filtered, diluted to 50 mL with deionized water, and analyzed for Pb, Zn, and Cu by atomic absorption spectrometry. ANOVA was run in Minitab 16.
 
 ## Implications
 
@@ -49,7 +50,7 @@ The source supports vegetable/kale context for Pb, Cu, and Zn under sewage-sludg
 ## Wiki pages this source may touch
 
 - [[ingredients/leafy-greens]]
-- [[products/vegetables-mixed]]
+- [[products/leafy-vegetables-other]]
 - [[metals/lead]]
 - [[metals/copper]]
 - [[metals/zinc]]
