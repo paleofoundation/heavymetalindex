@@ -857,3 +857,5 @@
 {"ts":"2026-06-08T11:59:49.000Z","actor":"claude-code","source_path":".../15_Gaudiano_2024_Italian_Online_SARMs.pdf","cite_key":"","status":"skip:no-heavy-metal-data","commit":"","blocker":"","next":"June 8 peptide drain"}
 {"ts":"2026-06-08T11:59:49.000Z","actor":"claude-code","source_path":".../12_Ashraf_2024_JMIR_Online_Semaglutide_Quality.pdf","cite_key":"","status":"skip:no-heavy-metal-data","commit":"","blocker":"","next":"June 8 peptide drain"}
 {"ts":"2026-06-08T11:59:49.000Z","actor":"claude-code","source_path":".../18_VanDorpe_2011_Purity_Profiling_Peptide_Drugs.pdf","cite_key":"","status":"skip:no-heavy-metal-data","commit":"","blocker":"","next":"June 8 peptide drain"}
+{"ts":"2026-06-08T12:04:35.252Z","actor":"frank-opus","cite_key":"riyazuddin2022-heavy-metal-toxicity-sequestration-plants","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T12:18:10.948Z","actor":"frank-opus","cite_key":"ionita2026-plant-responses-mining-heavy-metals","status":"ingested","source_path":"","commit":"","blocker":"","next":""}

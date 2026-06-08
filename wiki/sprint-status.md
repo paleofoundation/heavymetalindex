@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-08T09:55:34.666Z
+updated: 2026-06-08T12:45:34.916Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -30,13 +30,13 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
 | auto-fetched/ PDFs in queue | 517 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 2 ✅ |
+| Audit queue: pending | 19 ⚠️ |
 | Audit queue: pending-audit-spawn-failed | 98 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 3 commit(s) ahead of origin/main |
-| Commits last 1 hour | 27 |
-| Commits last 24 hours | 127 |
+| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Commits last 1 hour | 34 |
+| Commits last 24 hours | 215 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-fc0b29b 3 minutes ago — audit-queue: seregin2023-phytochelatins-sulfur-metal-chelating -> audited-revised
+9256725 48 seconds ago — ingest: kongta2023-noodle-products-aluminum-thailand fresh from MFK/June 8 New Folder With Items 3 2
 ```
 
 ## How to read this
