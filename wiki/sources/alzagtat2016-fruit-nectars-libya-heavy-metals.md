@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-pineap
 metals: ["Cu", "Zn", "Fe", "tAs", "Pb", "Cd"]
 ingredients: ["[[ingredients/pineapple]]", "[[ingredients/fruit-juice]]"]
 products: ["[[products/fruit-juice-not-canned]]"]
-matrices: ["fruit-nectar", "pineapple-nectar"]
+matrices: ["fruit-nectar"]
 jurisdictions: ["LY"]
 sample_population: "Local and imported fruit nectar samples from Libyan markets"
 wiki_doi: null
@@ -33,7 +33,7 @@ Source units are mg/kg.
 
 - Local fruit nectars: Fe 4.45-7.30; Zn 1.77-4.01; Cu 1.56-3.23; total arsenic 0.02-0.07; Pb 0.002-0.008; Cd 0.002-0.008.
 - Imported fruit nectars: Fe 3.56-9.02; Zn 1.85-4.05; Cu 1.75-4.54; total arsenic 0.01-0.18; Pb 0.002-0.006; Cd 0.002-0.008.
-- Imported samples identified in the text as produced by m, n, and p had arsenic values 0.18, 0.15, and 0.16 mg/kg.
+- Imported samples identified in the text as produced by m, n, and m had arsenic values 0.18, 0.15, and 0.16 mg/kg (pineapple sample 6 by m, mixed-fruit sample 12 by n, guava sample 13 by m).
 
 ## Methods
 
@@ -56,6 +56,8 @@ This source can support fruit-nectar and pineapple-nectar context, especially fo
 
 - Source identity checked against DOI 10.24925/turjaf.v4i7.524-530.533 and the downloaded PDF.
 - The PDF extraction uses "Ar" in places for arsenic; this page records it as total arsenic because no speciation is reported.
+- The paper distinguishes nectars (25–50% natural juice content) from juices (>50%) per Codex Alimentarius 247-2005. The taxonomy snapshot has no `fruit-nectar` product slug; routing therefore falls back to `[[products/fruit-juice-not-canned]]` and `[[ingredients/fruit-juice]]`. Proposed slug gap: a `fruit-nectars-not-canned` (or equivalent) product/ingredient pair for nectar-specific occurrence data.
+- The paper measures six nectar varieties (grape, pineapple, guava, orange, apple, mixed-fruit). The matrices field is intentionally kept at the broad `fruit-nectar` umbrella per Part 5b routing discipline rather than pre-specifying per-fruit nectar matrices that the taxonomy does not provide.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -64,9 +66,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
