@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-08T02:40:35.720Z
+updated: 2026-06-08T03:54:29.850Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -34,9 +34,9 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Audit queue: pending-audit-spawn-failed | 98 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 19 commit(s) ahead of origin/main |
-| Commits last 1 hour | 28 |
-| Commits last 24 hours | 56 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 2 |
+| Commits last 24 hours | 59 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-ea7c349 6 minutes ago — fix: recheck salt extraction units
+95d9dbb 55 minutes ago — audit: shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel promoted
 ```
 
 ## How to read this
