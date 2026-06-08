@@ -1,5 +1,6 @@
 ---
 type: source
+raw_handle: auto-fetched
 cite_key: hao2022-probabilistic-risk-rice-mining-county
 title: "Probabilistic health risk assessment of inorganic arsenic and some heavy metals in rice produced from a typical multi-mining county, China"
 authors: [Hao H, Ge D, Wen Y, Lv Y, Chen W]
@@ -9,50 +10,72 @@ doi: "10.1007/s11356-021-16583-7"
 source_type: peer-reviewed
 evidence_tier: A
 license: "springer-exclusive"
-raw_path: raw/studies/hao2022-probabilistic-risk-rice-mining-county.pdf
-sha256: ef11e0d82fe1f7fd2bc82d9cfdc6d52021973610de2745ce029ee3637e1642a3
-access_date: 2026-05-12
+raw_path: "raw/studies/hao2022-probabilistic-risk-rice-mining-county.pdf"
+raw_sha256: "ef11e0d82fe1f7fd2bc82d9cfdc6d52021973610de2745ce029ee3637e1642a3"
 access_url: "https://doi.org/10.1007/s11356-021-16583-7"
-metals: [tAs, iAs, Pb, Cd, Cr, Hg]
+metals: [tAs, iAs, Pb, Cd, Cr, tHg]
 ingredients: ["[[ingredients/rice]]"]
-products: []
-matrices: [rice-grain, brown-rice]
+products: ["[[products/rice-bulk-grain]]"]
+matrices: [rice-grain, brown-rice, mining-area-rice]
 jurisdictions: [CN]
+near_duplicates: [MFK_probabilistic-health-risk-assessment-of-inorganic]
 sample_n: 220
-wiki_doi: null
-sampling_locations: []
-sampling_year_range: null
-updated: 2026-05-12
+sample_population: "220 brown-rice composite samples from Xiangtan County, Hunan Province, China; each site sample combined five rice subsamples from a multi-mining county."
+updated: 2026-06-08
 ---
 
 # Hao et al. 2022 — Probabilistic health risk from metals in rice, Xiangtan County, China
 
-This study assessed pollution characteristics and probabilistic health risks from inorganic arsenic, lead, cadmium, chromium, and mercury in rice from Xiangtan County, Hunan Province, a typical multi-mining area in central China, using Monte Carlo simulation, GIS spatial mapping, and bioaccessibility corrections. Rice samples (n=220, five sub-samples per site combined) were collected from 220 sites across 2,134 km² of predominantly rice-cultivated land. Cadmium and iAs were identified as the dominant risk-driving elements: the probability of exceeding the non-carcinogenic risk threshold was 72% for adults and 78% for children, and carcinogenic risk probability reached 100% for arsenic. High-risk locations clustered in the north-eastern and central parts of the county, spatially correlated with Pb–Zn mining operations.
+Hao and colleagues measured total arsenic (tAs), inorganic arsenic (iAs), Pb, Cd, Cr, and total Hg in 220 rice samples from Xiangtan County, Hunan Province, China, a multi-mining county with rice cultivation. The paper is routeable as rice-bulk-grain occurrence evidence because Table 2 reports rice concentrations directly; mining and soil context should be treated as source-attribution context rather than product concentration data. The rice occurrence finding is dominated by Cd, tAs, and iAs, with iAs kept separate from tAs and total Hg kept separate from methylmercury.
 
 ## Key numbers
 
-Mean concentrations (mg/kg, wet weight basis unless noted): tAs 0.34 ± 0.20 [range 0.125–1.84], iAs 0.15 ± 0.09 [0.045–0.83], Pb 0.08 ± 0.15 [0.001–1.02], Cd 0.48 ± 0.50 [0.001–2.73], Cr 0.6 ± 1.56 [0.001–12.38], Hg 0.0023 ± 0.0020 [0.0001–0.0106]. In ppb (µg/kg) equivalents: mean tAs 340, iAs 150, Pb 80, Cd 480, Cr 600, Hg 2.3. Percentage exceeding China national food safety limit (GB 2762-2017): tAs 99.1%, Pb 10.5%, Cd 72.7%, Cr 10.0%, Hg 0%; iAs limit exceedance 22.7%. LOD/LOQ: tAs 0.01 mg/kg, iAs 0.02 mg/kg, Hg 0.003 mg/kg, Pb 0.02 mg/kg, Cd 0.002 mg/kg, Cr 0.05 mg/kg. iAs bioaccessibility (mean ± SD): 39.90 ± 8.30%, range [8.63, 68.5] (lognormal distribution).
+Table 2 reports concentration characteristics for rice (N=220):
+
+| Element/species | Mean ± SD, mg·kg−1 | Range, mg·kg−1 | Limited value, mg·kg−1 | PEL | CV | Skewness | Probability distribution |
+| --- | ---: | --- | ---: | ---: | ---: | ---: | --- |
+| tAs | 0.34±0.20 | [0.125,1.84] | 0.2 | 99.1% | 167.9% | 4.26 | Lognormal |
+| iAs | 0.15±0.09 | [0.045,0.83] | 0.2 | 22.7% | 168.5% | 3.39 | Lognormal |
+| Pb | 0.08±0.15 | [0.001,1.02] | 0.2 | 10.5% | 53.8% | 3.72 | Lognormal |
+| Cd | 0.48±0.50 | [0.001,2.73] | 0.2 | 72.7% | 96.2% | 2.38 | Lognormal |
+| Cr | 0.6±1.56 | [0.001,12.38] | 1 | 10.0% | 38.4% | 5.18 | Lognormal |
+| tHg | 0.0023±0.0020 | [0.0001,0.0106] | 0.02 | 0.0% | 117.7% | 1.91 | Normal |
+
+Additional source-reported values:
+
+- The source states that the iAs/tAs ratio in the study was 44.1%.
+- Method detection limits were tAs 0.01 mg·kg−1, iAs 0.02 mg·kg−1, Hg 0.003 mg·kg−1, Pb 0.02 mg·kg−1, Cd 0.002 mg·kg−1, and Cr 0.05 mg·kg−1.
+- Table 1 reports bioaccessibility inputs from related studies: iAs 39.90±8.30% with range [8.63,68.5], Pb 23.94±11.00% with range [7.58,48.34], Cd 35.25±20.06% with range [6.67,87.50], and Cr 9.87±5.66% with range [3.26,32.04].
+- The source reports probability of non-carcinogenic risk exceeding 1 via rice consumption as 72% for adults and 78% for children. It reports probability of carcinogenic risk as 100%.
+- Table 4 reports total HI/TCR point estimates and uncertainty values: adult HI point estimate 2.74, P5 0.67, P50 1.43, P95 5.50; child HI point estimate 2.86, P5 0.43, P50 1.49, P95 6.21; adult TCR point estimate 5.2E-03, P5 7.4E-04, P50 2.8E-03, P95 2.1E-02; child TCR point estimate 5.4E-03, P5 5.5E-04, P50 2.9E-03, P95 2.3E-02.
 
 ## Methods (brief)
 
-220 rice-sampling sites, 5 sub-samples per site combined to one sample. Rice dried to <13% moisture and mechanically milled to brown rice before testing. Total Pb, Cd, Cr: HNO3–HClO4 (9:1) digestion, ICP-MS (XSeries 2, Thermo Fisher). Total As: HNO3–HClO4 (9:1) wet method. Total As and Hg: atomic fluorescence spectrometry (AFS-933). iAs extraction per China NHFPC 2015 method, quantified by LC-AFS (AFS-933-SAP-20, Beijing Titan). Bioaccessibility assessed by in vitro digestion model (mouth, stomach, small intestine). Monte Carlo simulation (10,000 iterations, Crystal Ball 11.1.2.4). Spatial mapping: ArcGIS 10.5 inverse distance weight.
-
-## Limitations
-
-Brown rice matrix only; polished white rice iAs values would be lower. Bioaccessibility parameters borrowed from Li et al. 2017a/2018 for a different region; regional mismatch introduces uncertainty. Single time-point sampling; temporal variance in a multi-mining area with active operations is not captured. Mining-area concentration distribution is not representative of Chinese commercial rice or export markets.
+The authors collected rice from 220 sampling sites in Xiangtan County, with five subsamples per site mixed into one sample. Rice was dried to less than 13% moisture, threshed to brown rice, ground, and homogenized. Total Pb, Cd, and Cr were measured after HNO3-HClO4 digestion by ICP-MS; total As used HNO3-HClO4 wet digestion and AFS; Hg used microwave digestion and AFS; and iAs was extracted with 0.15 mol/L HNO3 and quantified by LC-AFS. Quality control used national rice reference material GBW10043, one reference material per 10 samples, and triplicate analyses with RSD less than 5%. The study also used a bioaccessibility-adjusted health-risk model, Monte Carlo simulation with 10,000 iterations, sensitivity analysis, and ArcGIS spatial mapping.
 
 ## Implications
 
-- Certification: Confirms that rice from active mining regions in Hunan can substantially exceed China's own GB 2762-2017 limits for iAs and Cd. The iAs mean of 150 ppb exceeds China's 0.2 mg/kg iAs limit (200 ppb) in 22.7% of samples, and Cd mean of 480 ppb exceeds the 0.2 mg/kg limit in 72.7% of samples. This represents the high end of contamination; not representative of US or European commercial supply chains, but critical context for geographic variance in rice sourcing.
-- Courses: Strong case study for mining-area soil-to-grain contamination transfer; illustrates the importance of origin-labeling and sourcing diligence for rice ingredients.
-- App: Supports inclusion of China multi-mining-region provenance as an elevated-risk flag in rice contamination_profile geographic_breakdown entries. Specific regions: north-eastern and central Xiangtan County, Hunan Province.
-- Microbiome: Not applicable.
+This source contributes China-market rice occurrence evidence for tAs, iAs, Cd, Pb, Cr, and total Hg, with arsenic speciation resolved and the product matrix tied to brown rice from a multi-mining county. It is useful for rice geographic-variance and supply-chain-context work, especially because the paper links rice concentrations to mining-area spatial patterns. It should not be silently pooled into a United States rice benchmark without an explicit cross-market rationale, and its total Hg result should not be treated as methylmercury.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/rice]]
+- [[products/rice-bulk-grain]]
 - [[metals/cadmium]]
 - [[metals/arsenic]]
+- [[metals/lead]]
+- [[metals/chromium]]
+- [[metals/mercury]]
+
+## Verification notes
+
+- This was a DOI duplicate of an existing source page, so the page was merge-enhanced from the manual-fetch PDF at `raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/Probabilistic-health-risk-assessment-of-inorganic-arsenic-and-some-heavy-metals-in-rice-produced.pdf`; the MFK handle was added to `near_duplicates`.
+- PDF text extracted with `pdftotext -layout`; the extracted text contained the title, DOI, methods, Table 1, Table 2, Table 4, discussion, and conclusions.
+- DOI verified from the PDF as `10.1007/s11356-021-16583-7`; DOI grep found this existing page before enhancement.
+- Table 2 values were checked against the extracted text. Units are preserved as `mg·kg−1`; the previous page's ppb/µg/kg conversions were removed.
+- Speciation: arsenic is reported as both tAs and iAs, which are kept separate. Mercury is total Hg only; no methylmercury value is reported. Chromium is total Cr only; no Cr-VI value is reported.
+- Soil and mining-area information is source-attribution context. Only rice concentration values were routed as product occurrence evidence.
+- Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
