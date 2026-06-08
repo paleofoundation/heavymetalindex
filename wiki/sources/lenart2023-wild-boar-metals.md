@@ -12,7 +12,7 @@ evidence_tier: A
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-game-meats-cd_2022_10-1007-s11356-022-23329-6.pdf"
 metals: [Pb, Cd, tAs, tHg, Cr]
-ingredients: ["[[ingredients/meat]]", "[[ingredients/organ-meats]]"]
+ingredients: ["[[ingredients/meat]]"]
 products: ["[[products/game-meats]]"]
 matrices: [wild-boar-muscle, wild-boar-fat]
 jurisdictions: [HU]
@@ -32,6 +32,8 @@ Lénárt and colleagues measured arsenic, cadmium, chromium, copper, lead, manga
 - Detection limits: Pb 0.2 mg/kg, As and Hg 0.5 mg/kg, and Cd 0.05 mg/kg.
 - As, Hg, and Cd were below detection in every tested tissue sample.
 - Pb in muscle was 0.36 +/- 0.16 mg/kg in females and 0.22 +/- 0.06 mg/kg in males.
+- Pb was detected above LOD in 70 percent of female muscle samples and 20 percent of male muscle samples; the individual female muscle range was 0.20 to 0.67 mg/kg, and the female mean and the per-sample values both exceeded the EU 1881/2006 maximum level of 0.1 mg/kg for Pb in meat.
+- Pb was below the 0.2 mg/kg LOD in every fat sample of both sexes except one male, so fat-tissue Pb is reported as below LOD with one above-LOD outlier; the paper sets a Pb regulatory ceiling of 0.1 mg/kg for animal fat under 1881/2006/EC.
 - Cr in muscle was 0.14 +/- 0.08 mg/kg in females and 0.13 +/- 0.06 mg/kg in males.
 
 ## Methods (brief)
@@ -50,7 +52,6 @@ App: Game-meat entries can use this as a European wild-boar signal, with the cav
 
 - [[products/game-meats]]
 - [[ingredients/meat]]
-- [[ingredients/organ-meats]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
