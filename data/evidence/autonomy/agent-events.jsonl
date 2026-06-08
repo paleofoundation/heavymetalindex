@@ -838,3 +838,6 @@
 {"ts":"2026-06-08T09:37:57Z","actor":"codex","source_path":"raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-ias-product_2023_10-22271-allresearch-2023-v9-i9a-11245.pdf","cite_key":"","status":"skip:review-only-no-primary-data","commit":"pending","blocker":"","next":"triage sweep"}
 {"ts":"2026-06-08T09:39:23.790Z","actor":"frank-opus","cite_key":"marques2025-phytochelatins-cadmium-mitigation","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T09:53:06.351Z","actor":"frank-opus","cite_key":"seregin2023-phytochelatins-sulfur-metal-chelating","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T10:12:55.641Z","actor":"discover-autopilot","cite_key":"","status":"discovered","source_path":"wiki/products/infant-formula-rtf-liquid-soy-based.md","commit":"","blocker":"","next":"awaiting-ingest:Manual Fetch Discovery (4 PDF)"}
+{"ts":"2026-06-08T10:25:33.677Z","actor":"frank-opus","cite_key":"gu2020-arsenic-rice-infant-food-australia","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T10:49:15.817Z","actor":"frank-opus","cite_key":"yang2024-metallothionein-comprehensive-review","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
