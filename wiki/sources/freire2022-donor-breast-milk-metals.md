@@ -12,8 +12,8 @@ evidence_tier: A
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-human-milk-cd_2021_10-1016-j-ijheh-2021-113914.pdf"
 metals: [Pb, tHg, Cd, tAs]
-ingredients: ["[[ingredients/human-milk]]", "[[ingredients/breastmilk]]"]
-products: ["[[products/infant-food-general]]"]
+ingredients: ["[[ingredients/breastmilk]]"]
+products: []
 matrices: [donor-breast-milk]
 jurisdictions: [ES]
 near_duplicates: []
@@ -35,7 +35,7 @@ Freire and colleagues measured lead, mercury, cadmium, and arsenic in pooled don
 
 ## Methods (brief)
 
-The study measured Pb, Hg, Cd, and As in pooled donor milk and modeled predictors with mixed-effect regression. The source reports total As and total Hg, not inorganic arsenic or methylmercury.
+Milk samples were microwave-digested in quartz vessels with HNO3 using an Ethos UP system (Milestone, Shelton, CT, USA) and analyzed by inductively coupled plasma mass spectrometry on an Agilent 8900 triple quadrupole ICP-MS. Quality control used certified reference materials NIST SRM 1640a Trace Elements in Natural Water and ERM-BD151 Skimmed milk powder. Limits of detection were 0.10 µg/L for Pb, 0.05 µg/L for Hg, 0.04 µg/L for Cd, and 0.40 µg/L for As. Values below the LOD were imputed by the LOD divided by the square root of 2. The source reports total As and total Hg, not inorganic arsenic or methylmercury. Predictors of Hg and As concentrations were modeled with mixed-effect linear regression; predictors of Pb and Cd detection (above vs. below LOD) were modeled with mixed-effect logistic regression, with donor ID as a random cluster variable.
 
 ## Implications
 
@@ -47,9 +47,7 @@ App: Can support infant feeding exposure context where human milk is represented
 
 ## Wiki pages this source may touch
 
-- [[ingredients/human-milk]]
 - [[ingredients/breastmilk]]
-- [[products/infant-food-general]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
 - [[metals/cadmium]]
@@ -58,6 +56,8 @@ App: Can support infant feeding exposure context where human milk is represented
 ## Verification notes
 
 The same DOI was fetched under Cd, tAs, and tHg human-milk gaps. This page is canonical for those duplicate paths. Total Hg must not be substituted for methylmercury.
+
+The `matrices: [donor-breast-milk]` token is a descriptive matrix label distinguishing pooled donor milk-bank samples from individual-mother breast milk. It is preserved here because the distinction is exposure-relevant (donor pooling averages across many donors with screened diets and health status); the routing layer fans this source out via the `ingredients/breastmilk` slug. If the matrices controlled vocabulary is later codified, consider adding `donor-breast-milk` as a sibling of `breastmilk`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
