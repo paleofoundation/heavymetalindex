@@ -187,6 +187,19 @@ const inheritedProductRoutes = new Map([
     { route_kind: "broad_product_context", product_slugs: ["snacks-general"],
       route_note: "Crackers/biscuits evidence routed to the snacks row (Row 10); review rice-based vs non-rice fit during synthesis." },
   ],
+  // Cat 4 mushrooms cultivated/wild split (v2.1, Amendment 1, 2026-06-08).
+  // Canned and pickled wild mushrooms are processed-wild and pool into the
+  // contaminated side at wild-mushrooms (Row 18); canned carries the Sn flag.
+  [
+    "canned-mushrooms",
+    { route_kind: "broad_product_context", product_slugs: ["wild-mushrooms"],
+      route_note: "Canned wild mushrooms pool into the contaminated mushrooms row (Cat 4 Row 18, wild-mushrooms), carrying the canned Sn flag." },
+  ],
+  [
+    "pickled-mushrooms",
+    { route_kind: "broad_product_context", product_slugs: ["wild-mushrooms"],
+      route_note: "Pickled wild mushrooms pool into the contaminated mushrooms row (Cat 4 Row 18, wild-mushrooms)." },
+  ],
   // Cat 6 (Seafood) broad-scope fan-out (Karen, 2026-06-02). seafood and
   // fresh-fish are broad parents that fan down to multiple species rows; they
   // stay broad context until species and MeHg/tHg speciation fit are resolved.
