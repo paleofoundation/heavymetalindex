@@ -799,3 +799,8 @@
 {"ts":"2026-06-08T02:10:50.536Z","actor":"frank-opus","cite_key":"marques2021-trace-elements-milks-plant-based-drinks","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T02:23:32.443Z","actor":"frank-opus","cite_key":"rebellato2023-plant-yogurt-inorganic-contaminants","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T03:00:01.170Z","actor":"frank-opus","cite_key":"shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T04:10:30.506Z","actor":"discover-autopilot","cite_key":"","status":"discovered","source_path":"wiki/products/matcha.md","commit":"","blocker":"","next":"awaiting-ingest:Manual Fetch Discovery (7 PDF)"}
+{"ts":"2026-06-08T04:57:23.458Z","actor":"frank-opus","cite_key":"fda-tds-elements-2018-2020","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T05:01:53.155Z","actor":"frank-opus","cite_key":"mawari2022-heavy-metals-fruits-vegetables-india","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T05:06:05.475Z","actor":"frank-opus","cite_key":"farid2010-fruit-juices-jeddah-trace-elements","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T05:13:10.624Z","actor":"frank-opus","cite_key":"fsanz2012-arsenic-apple-pear-juice-australia-nz","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
