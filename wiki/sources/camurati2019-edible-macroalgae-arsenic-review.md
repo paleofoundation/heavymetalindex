@@ -16,7 +16,7 @@ metals: [tAs, iAs]
 ingredients: ["[[ingredients/seaweed]]"]
 products: ["[[products/seaweed-kelp-foods]]"]
 matrices: [edible-seaweed, macroalgae, kelp, dry-weight]
-jurisdictions: []
+jurisdictions: [AR]
 near_duplicates: []
 sample_n: null
 sample_population: "Critical review (literature published up to 2019, SCOPUS search) of arsenic in edible marine macroalgae — speciation, toxicity, digestion/cooking transformation, analytical methods/CRMs, and legislation; no primary measurements. Argentine authors, with a South America market lens."
@@ -64,7 +64,7 @@ Narrative critical review. The authors searched SCOPUS using keywords (marine al
 - Evidence tier B and source_type review: this is a critical review (J. Toxicol. Environ. Health Part B is a reviews journal). Per Part 13, review claims are B-tier attributed and are recorded here as context/leads, explicitly not as primary occurrence data for the pooling/extraction pass. sample_n is null (no samples).
 - Speciation: the review discusses total As and inorganic As (As(III)+As(V)) plus organic species (arsenosugars, AB, AC, DMA, MMA, arsenolipids); only tAs and iAs are lifted to frontmatter as the index-relevant analytes. No primary speciated values are claimed by this source.
 - Units/basis: figures are reproduced as the review states them (mg/kg dw, µg/g, µg/L, %), each attributed to its primary source; no conversions applied. These are not to be pooled.
-- jurisdictions left empty: this is a global review (the legislation summary spans ANZ, France, USA, EU, Argentina as content, not as the study's own jurisdiction); the South America/Argentina lens is noted in sample_population.
+- jurisdictions [AR]: although the review synthesizes global literature, it is Argentine-authored, devotes substantial analysis to the Argentine Food Code, and is explicitly motivated by the growing South America / Argentina seaweed market, so AR is its regulatory/market lens. (Set to AR rather than [] both to reflect that framing and to clear the non-blocking routing advisory that empty jurisdictions triggers.) The multi-jurisdiction legislation summary (ANZ, France, USA, EU) is content, captured in the body, not additional jurisdiction tags.
 - Brand firewall: not engaged (review; no products or brands named).
 - matrices [edible-seaweed, macroalgae, kelp, dry-weight] per corpus convention; `kelp` retained because the review treats *Laminaria* prominently. Kept broad.
 - Instrument/CRM names (SRM 3232, BCR-279, NMIJ 7405-a, NIES 09) retained in the analytical note as permitted scientific reporting.
