@@ -71,3 +71,13 @@ The source supports occurrence evidence for Cu, Pb, Cd, Cr, and Ni in Camellia s
 The raw PDF is filed under `raw/Manual Fetch Discovery/yao2022-matcha-heavy-metal.pdf` and the `raw_handle` is preserved as `MFD_yao2022-matcha-heavy-metal` to keep the file-system pointer stable, but the file name is a misnomer: the paper studies Tieguanyin oolong tea (Camellia sinensis, semi-fermented), not matcha (Camellia sinensis, shade-grown green tea powder). Matcha is not within the scope of this source and the matcha product slug (`matcha`) is intentionally not in the products array. The cite-key `yao2022-tieguanyin-tea-heavy-metals` reflects what the paper actually reports.
 
 Chromium values are total Cr; the paper does not speciate Cr-III vs Cr-VI and does not extract Cr-VI specifically, so the source does not route to `metals/chromium-hexavalent`. The paper's application of the Cr-VI oral slope factor to total-Cr exposure for the cancer-risk calculation is reported in Key numbers and Implications as a paper-internal assumption, not adopted by the wiki as a synthesis claim. Below-detection Cd values were assigned the LOQ rather than half-LOQ per the paper's own convention (§2.2 last sentence). The sampling year is not stated in the paper and `sampling_year_range` is left null. Method-section instrument and CRM identifiers (Thermo Fisher XSERIES 2 ICP-MS, TOPEX microwave digestion system, GBW10052 green-tea CRM) are preserved per the Part 12 scientific-reproducibility carve-out. No brand or grower names appear in the source's findings, so the brand firewall is not engaged. The paper is open-access under CC BY 4.0 (MDPI Foods).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e4938ae](https://github.com/paleofoundation/heavymetalindex/commit/e4938ae) | 2026-06-08 | ingest: yao2022-tieguanyin-tea-heavy-metals fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

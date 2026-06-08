@@ -76,3 +76,13 @@ This source contributes Thailand-market aluminum occurrence evidence for rice-ba
 - Speciation is not applicable to this aluminum-only paper. It does not report Pb, Cd, As, Hg, MeHg, iAs, Cr, Cr(III), or Cr(VI).
 - The source mentions that high aluminum concentrations were found in samples with labels or FDA serial numbers, but this page reports only product-group statistics and does not attach brand or producer identity to contamination values.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9256725](https://github.com/paleofoundation/heavymetalindex/commit/9256725) | 2026-06-08 | ingest: kongta2023-noodle-products-aluminum-thailand fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

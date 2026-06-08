@@ -114,3 +114,13 @@ This source provides the EU regulatory anchor for organotin occurrence and expos
 - Speciation: the source reports organotin species including `TBT`, `DBT`, `MBT`, `TPT`, `DPT`, and `MPT`, with risk characterization focused on `TBT`, `DBT`, `TPT`, and `DOT`. Frontmatter uses `Sn` for element-level routing, but this page must route toxicology and occurrence interpretation to organotins and must not collapse organotin species into inorganic tin.
 - Brand firewall: no brand-level food measurements are reported.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow closed-vocabulary slugs include crustaceans, cephalopods, and echinoderms, so broad seafood/shellfish/mollusc routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8922a9d](https://github.com/paleofoundation/heavymetalindex/commit/8922a9d) | 2026-06-08 | ingest: efsa2004-organotins-foodstuffs fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

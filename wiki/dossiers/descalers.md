@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `8707c66` (2026-06-05). The body hashes to `sha256:1cb46d3cd1eaef9bbbc886ea7c04f271…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:849c28f8468bba18beb40f8d1bdb3bf1…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=descalers&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/descalers&download=1`.
 

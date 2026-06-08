@@ -89,3 +89,13 @@ This source contributes dry-weight Bangladesh industrial-area crop occurrence ev
 - Table 1 values above were checked against the extracted table. Units are copied as `mg/kg dw` or `mg/kg`; no conversion was made.
 - Speciation: arsenic is total As only. The source's risk model assumed 50% inorganic As in foods, but no measured inorganic-arsenic values are reported. Chromium is total Cr only; no Cr(VI) is reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7d648b0](https://github.com/paleofoundation/heavymetalindex/commit/7d648b0) | 2026-06-08 | ingest: islam2018-tangail-food-crops-heavy-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

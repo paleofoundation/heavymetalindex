@@ -69,3 +69,13 @@ This source contributes Libya-market instant-noodle occurrence data for Cd, Pb, 
 - Brand firewall: samples are numbered 1-7; no consumer brand names are attached to contamination values.
 - Internal consistency: Table 1 conflicts with parts of the Cd and Pb comparator prose. This page treats Table 1 as the occurrence source of truth and records the prose conflicts above.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3807a04](https://github.com/paleofoundation/heavymetalindex/commit/3807a04) | 2026-06-08 | ingest: elziani2024-instant-noodles-libya-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

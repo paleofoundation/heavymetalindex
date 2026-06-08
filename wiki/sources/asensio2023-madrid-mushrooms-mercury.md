@@ -85,5 +85,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [49978d6](https://github.com/paleofoundation/heavymetalindex/commit/49978d6) | 2026-06-08 | audit: asensio2023-madrid-mushrooms-mercury promoted per autonomous audit |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [68051c8](https://github.com/paleofoundation/heavymetalindex/commit/68051c8) | 2026-06-04 | ingest auto-fetched 2026-06-04: asensio2023-madrid-mushrooms-mercury |
 <!-- END: hmi-page-history -->

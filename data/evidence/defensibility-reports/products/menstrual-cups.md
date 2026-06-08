@@ -2,7 +2,7 @@
 source_page: wiki/products/menstrual-cups.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b7f7243af04ae6b9243c2b624a21a727dbfce3a6a2f68774da0862cdcd26aa91
+source_page_sha256: 6c1414acb763e0cdf8fccb6e3b3cc8766839b777a525958efeac0c0097e4dd27
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 789
+audit_log_total_rows: 972
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 789 |
+| audit log rows read | 972 |
 
 ## Page-level audit rows
 

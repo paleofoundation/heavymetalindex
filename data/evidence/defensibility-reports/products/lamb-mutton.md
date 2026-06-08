@@ -2,7 +2,7 @@
 source_page: wiki/products/lamb-mutton.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c7bc4b6b5d5a1a4f3fd377fea0f8ba186fc61e2541c4a97361f65591b3f53aff
+source_page_sha256: 5f16a6b5f5e2dc64abbe80c78784e901917e8745daa613daeac7363026d60e75
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 789
+audit_log_total_rows: 972
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 789 |
+| audit log rows read | 972 |
 
 ## Page-level audit rows
 

@@ -88,3 +88,13 @@ This review is useful as a broad arsenic-routing source across rice, seafood, se
 - Speciation: total arsenic and inorganic arsenic remain separate. DMA, organic arsenic, arsenobetaine, arsenosugars, As(III), and As(V) examples are not collapsed into inorganic arsenic unless the source table itself labels the row inorganic arsenic.
 - Brand firewall: the review uses food categories, species, and health-food context but no retail brand contamination values are reported here.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; narrow seaweed species and a standalone Hijiki product slug are absent, so broad seaweed-kelp routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e89e8e6](https://github.com/paleofoundation/heavymetalindex/commit/e89e8e6) | 2026-06-08 | ingest: uneyama2007-arsenic-foods-cumulative-data fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

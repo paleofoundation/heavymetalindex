@@ -70,3 +70,13 @@ This source contributes Nigerian-market beverage occurrence data for total arsen
 - Speciation: arsenic is reported as arsenic after nitric-acid digestion and AAS, so it is labeled total arsenic (`tAs`) in frontmatter. Chromium is reported as total chromium (`Cr`), not Cr-VI.
 - Brand firewall: the source's tables attach commercial drink names to As/Cr values. This page intentionally omits all drink names from Key numbers and reports only aggregate ranges and exceedance percentages.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ef7c5ea](https://github.com/paleofoundation/heavymetalindex/commit/ef7c5ea) | 2026-06-08 | ingest: maduabuchi2007-nigeria-beverages-arsenic-chromium fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

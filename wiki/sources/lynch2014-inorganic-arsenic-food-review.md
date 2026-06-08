@@ -71,3 +71,14 @@ Comprehensive literature search (PubMed, Scopus, Toxline, Agricola) for studies 
 - matrices [edible-seaweed, macroalgae, dry-weight] and products [seaweed-kelp-foods]: this is a multi-food review, but it is ingested here for its seaweed content and routed to the seaweed row; its rice/seafood/infant-food figures are captured in Key numbers as cross-food context but the routing is intentionally scoped to seaweed (a future session may enhance routing to other product rows if desired). `kelp` omitted from matrices because the review reports the aggregate "seaweed/algae" group, not Laminaria specifically.
 - Audit subagent (2026-06-08, fresh-context) returned REVISE; all ~30 other values, speciation labels (tAs/iAs; MMA/DMA not mislabeled), slugs, and both firewalls verified clean, and the not-poolable / B-tier / [US] framing confirmed appropriate. One ❌ applied: the dry-weight sensitivity figure had been transposed from the wrong Table 4.1 row — the +77% is the seafood row; the actual seaweed dry-weight-only value is −38% (a cross-study data-availability artifact). Corrected the figure and removed the dependent (and reversed) inference that the dry basis "trends higher" for seaweed. (The error was seeded by the ingest instruction; the auditor caught it against the source.)
 - Cross-source note: this meta-analysis aggregates many primary studies, several held in this same folder (e.g., Almela, Rose, Llorente-Mirandes, Narukawa); any cross-source reconciliation belongs to the Part 9 synthesis pass, not this page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8bc7757](https://github.com/paleofoundation/heavymetalindex/commit/8bc7757) | 2026-06-08 | audit: lynch2014-inorganic-arsenic-food-review revised |
+| [78199c2](https://github.com/paleofoundation/heavymetalindex/commit/78199c2) | 2026-06-08 | ingest: lynch2014-inorganic-arsenic-food-review fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

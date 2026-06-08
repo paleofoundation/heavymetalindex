@@ -94,3 +94,14 @@ The paper's Conclusions characterize the SB mean Mn (117.4 μg/L) as "about 20 t
 The source reports its cow-milk Cd and Mn global means at two different precisions: the abstract and Discussion narrative give CM Cd as 2.15 ± 1.84 μg/L and CM Mn as 5.93 ± 1.21 μg/L, while Table 10's "Global mean / Global SD" rows round these to 2.2 ± 1.8 and 5.9 ± 1.2 respectively. This page uses the higher-precision abstract values throughout because they are what downstream readers will most often see cited. Two minor source-internal precision mismatches are preserved without reconciliation: the abstract reports SB Mn SD as 30.3 while Table 11 reports 30.4, and the abstract reports SB Pb SD as 9.6 while Table 11 reports 9.7; in both cases this page follows Table 11 because the table is the primary data record.
 
 Audit subagent (2026-06-08) flagged `products/milk-and-dairy` as absent from `docs/gpt-collaboration/taxonomy-snapshot.md`; verified independently — finding was a false positive because the taxonomy snapshot was generated 2026-05-18 and is stale relative to the live wiki. `wiki/products/milk-and-dairy.md` exists as a provisional scaffold created 2026-06-01 (provisional_scaffold: true, hmtc_category: pending_taxonomy_review), and the routing audit successfully resolves this source to that target with 0 unresolved and 0 malformed. No frontmatter change applied. Audit subagent (2026-06-08) also flagged the original `2.2 ± 1.8` and `5.9 ± 1.2` cow-milk Cd and Mn values as rounded relative to the abstract's `2.15 ± 1.84` and `5.93 ± 1.21`; verified against PDF page 1 abstract — finding was correct; values updated to the abstract precision.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4808881](https://github.com/paleofoundation/heavymetalindex/commit/4808881) | 2026-06-08 | audit: andrade2023-cow-milk-soy-metals revised |
+| [38e8071](https://github.com/paleofoundation/heavymetalindex/commit/38e8071) | 2026-06-08 | ingest: andrade2023-cow-milk-soy-metals fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

@@ -163,3 +163,13 @@ The sampling frame is restricted to the Czech market (commercial PBDAs in Brno s
 **License inference.** The article declarations state: "This article is licensed under a Creative Commons Attribution 4.0 International License" and "Open Access publishing supported by the institutions participating in the CzechELib Transformative Agreement." License recorded as CC-BY-4.0.
 
 **Sample-size attribution caveat.** The source's Methods text places "n=35" on the milk-alternatives bucket (20 store-bought + 15 homemade across five seed types). The 15 homemade samples are explicitly described as three samples per seed type for five seed types; the 20 store-bought milk-alternatives count does not enumerate per-base-ingredient (soy/oats/almond/coconut/rice/hemp/flax/poppy/pumpkin/sesame/other) subcounts, so per-store-bought-base-ingredient sample sizes cannot be recovered from the published Methods text alone (Supplementary Table S1 was not retrieved with this PDF and would need separate fetch to recover those per-base counts).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b78ddfa](https://github.com/paleofoundation/heavymetalindex/commit/b78ddfa) | 2026-06-08 | ingest: zverina2025-plant-dairy-toxic-elements fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

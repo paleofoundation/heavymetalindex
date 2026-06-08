@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-08T18:30:46.383Z
+updated: 2026-06-08T21:46:49.817Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -30,13 +30,13 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
 | auto-fetched/ PDFs in queue | 517 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 96 ⚠️ |
-| Audit queue: pending-audit-spawn-failed | 98 (async lane) |
+| Audit queue: pending | 110 ⚠️ |
+| Audit queue: pending-audit-spawn-failed | 71 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 25 |
-| Commits last 24 hours | 352 |
+| Commits last 1 hour | 18 |
+| Commits last 24 hours | 432 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-2809b06 55 seconds ago — ingest: redan2023-plant-milk-alternatives-elements fresh from MFK/June 8 New Folder With Items 3 2
+8658e9b 75 seconds ago — audit: oktariani2023-tuna-swordfish-indian-pacific-heavy-metals revised per autonomous audit
 ```
 
 ## How to read this

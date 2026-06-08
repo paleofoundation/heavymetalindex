@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `8707c66` (2026-06-05). The body hashes to `sha256:29e159c5be2508c41b7d2e1614a53c8c…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:3c3c38f768a6148d3aee5e9255ecd2c8…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=tableware-decorative-decals-coatings&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/tableware-decorative-decals-coatings&download=1`.
 

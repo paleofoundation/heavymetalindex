@@ -2,7 +2,7 @@
 source_page: wiki/products/dusting-talc-powders-adult.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 72565d9297f104dab61920e96fdbcc6f2e0f15c2e5175d0f12d306de2af690eb
+source_page_sha256: 2075745c401172292dd050503f666e2caa4ada5cb445fcd063fa7d26129ed573
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 789
+audit_log_total_rows: 972
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 789 |
+| audit log rows read | 972 |
 
 ## Page-level audit rows
 

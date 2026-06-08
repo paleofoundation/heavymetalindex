@@ -18,7 +18,7 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-09
 literature_scope: thin
-sources: 1
+sources: 9
 ---
 
 # Sports/Energy Drinks
@@ -108,7 +108,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/salaheldin2025-multimatrix-foods-egypt\|Salahel et al. 2025]]. *Assessment of toxic heavy metals in commonly consumed foods in Egypt and their implications for public health and safety*, Scientific Reports | 2025 | Peer-reviewed | EG Pb, Cd, Cr, tAs occurrence in Fifty-four food and beverage samples collected January-December 2022 from local markets in Qena Governorate, southern Egypt: beverages (n=20;... (n=54) |
+| 1 | [[sources/babayo2026-heavy-metals-energy-drinks-nigeria\|Babayo et al. 2026]]. *Contamination Factor, Metal Pollution Index and Estimated Daily Intake of Heavy Metals in Some Selected Energy Drinks in Nigeria*, IRE Journals | 2026 | Peer-reviewed | NG Pb, Cd, tAs, Cr, Ni, Co occurrence in Thirty commercially available energy-drink samples purchased from supermarkets, retail stores, and street vendors in Nigeria, comprising 23 liquid... (n=30) |
+| 2 | [[sources/hamza2026-heavy-metals-energy-drinks-health-risk\|Hamza et al. 2026]]. *Analysis of Heavy Metals and Health Risk Assessment of Selected Energy Drinks in Nigeria*, International Journal of Science, Engineering and Technology | 2026 | Peer-reviewed | NG Pb, Cd, tAs, Cr, Ni, Co occurrence in Thirty energy drinks (23 liquid and 7 powdered) randomly purchased from local markets in Nigeria. Samples are labelled... (n=30) |
+| 3 | [[sources/hamza2025-heavy-metals-energy-drinks-nigeria\|Hamza et al. 2025]]. *Determination of Some Physicochemical Properties, Heavy Metals and Micronutrients of Some Energy Drinks Available in Nigeria*, Communication in Physical Sciences | 2025 | Peer-reviewed | NG Pb, Cd, tAs, Cr, Ni, Co, Cu, Fe, Mn, Zn occurrence in Thirty energy drinks (23 liquid and 7 powdered) purchased from local markets in Nigeria. Samples are labelled by... (n=30) |
+| 4 | [[sources/salaheldin2025-multimatrix-foods-egypt\|Salahel et al. 2025]]. *Assessment of toxic heavy metals in commonly consumed foods in Egypt and their implications for public health and safety*, Scientific Reports | 2025 | Peer-reviewed | EG Pb, Cd, Cr, tAs occurrence in Fifty-four food and beverage samples collected January-December 2022 from local markets in Qena Governorate, southern Egypt: beverages (n=20;... (n=54) |
+| 5 | [[sources/alsayyed2024-heavy-metals-energy-drinks-jordan\|Al-Sayyed et al. 2024]]. *Screening for the Presence of Some Heavy Metals, Total Soluble Solids and Caffeine Contents in Some Energy Drinks Sold in Jordanian Market*, Methods and Objects of Chemical Analysis | 2024 | Peer-reviewed | JO Pb, Cu, Ni, Cd, Fe occurrence in The 10 most commonly consumed commercial energy-drink brands sold in the Jordanian market; six countries of origin represented... (n=10) |
+| 6 | [[sources/czarnek2024-heavy-metals-energy-drinks\|Czarnek et al. 2024]]. *Nutritional Risks of Heavy Metals in the Human Diet—Multi-Elemental Analysis of Energy Drinks*, Nutrients | 2024 | Peer-reviewed | PL Pb, Cd, tAs, Cr, Ni, Al, Cu, Mn, Fe, Zn, Co, V, Sr, Ba, B occurrence in Nine commercially available energy-drink brands (anonymised ED1–ED9) sold in Lublin, Poland; all in aluminum cans; selected as the... (n=27) |
+| 7 | [[sources/bunu2023-heavy-metals-energy-drinks-bayelsa\|Bunu et al. 2023]]. *Heavy Metals Quantification and Correlative Carcinogenic-Risks Evaluation in Selected Energy Drinks Sold in Bayelsa State Using Atomic Absorption Spectroscopic Technique*, International Journal of Chemistry Research | 2023 | Peer-reviewed | NG Pb, Cd, Fe, Zn occurrence in Eleven commercially marketed energy-drink brands purchased in no particular order from general-market supermarkets in Amassoma and Yenagoa, Bayelsa... (n=11) |
+| 8 | [[sources/bunu2023-heavy-metals-energy-drinks-kogi\|Bunu et al. 2023]]. *Atomic Absorption Spectroscopic (AAS) Analysis of Heavy Metals and Health Risks Assessment of some Common Energy Drinks*, Pharmacology and Toxicology of Natural Medicines | 2023 | Peer-reviewed | NG Pb, tAs, Al, Zn occurrence in Twelve commercially marketed soft-drink and energy-drink brands purchased from supermarkets in Lokoja, Kogi State, Southwest Nigeria; labelled B1–B12... (n=12) |
+| 9 | [[sources/yahaya2022-heavy-metals-energy-drinks-birnin-kebbi\|Yahaya et al. 2022]]. *Heavy Metal Content and Associated Health Risks in Selected Energy Drinks Sold in Birnin Kebbi, Nigeria*, African Journal of Health, Safety and Environment | 2022 | Peer-reviewed | NG Zn, Cu, Pb, Fe, Cd occurrence in One hundred and twenty energy-drink samples (forty samples of each of three popular commercial brands of canned energy... (n=120) |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -131,9 +139,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

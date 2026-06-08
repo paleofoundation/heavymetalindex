@@ -82,3 +82,13 @@ This source provides baseline dry-weight arsenic occurrence context for fish, sh
 - Speciation: Table 2 reports inorganic arsenic percentages only for crab, *Haemulon* sp., and *Lutjanus synagris* rows. Total arsenic in all other rows remains `tAs` context and is not promoted to iAs.
 - Brand firewall: no branded products are reported.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; species-specific seafood product rows are not in the closed vocabulary, so broad seafood/fish/shellfish routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c676608](https://github.com/paleofoundation/heavymetalindex/commit/c676608) | 2026-06-08 | ingest: fattorini2006-marine-organisms-arsenic-speciation fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

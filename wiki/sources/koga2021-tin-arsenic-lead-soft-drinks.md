@@ -83,3 +83,14 @@ The paper provides no native contamination measurements and therefore contribute
 - Japanese regulatory context cited (MHLW Notification No. 370 of 1959 for the Sn 150 ppm soft-drinks limit) is not yet a wiki regulation slug; flagged as a potential future regulation page but not proposed here.
 - No previous wiki source page existed for this paper (DOI grep null because DOI null; raw_handle grep negative; cite-key grep negative). NEW path.
 - Audit subagent (2026-06-06) flagged the methods text "CEM ETHOS One (Milestone General)" as a vendor misattribution: ETHOS One is a Milestone instrument, not a CEM one (CEM produces the MARS-series digesters). Verified against PDF page 2 ("マイクロ波分解装置（ETHOS One，マイルストーンゼネラル（株）製）") — finding confirmed and corrected to "Milestone ETHOS One (Milestone General K.K.)".
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8e8de53](https://github.com/paleofoundation/heavymetalindex/commit/8e8de53) | 2026-06-06 | audit: koga2021-tin-arsenic-lead-soft-drinks [revised] |
+| [ca868b4](https://github.com/paleofoundation/heavymetalindex/commit/ca868b4) | 2026-06-06 | ingest: koga2021-tin-arsenic-lead-soft-drinks [fresh] from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

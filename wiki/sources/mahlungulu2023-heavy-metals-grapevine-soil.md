@@ -154,3 +154,14 @@ Audit subagent (2026-06-06) flagged three numerical-fidelity errors that were ve
 The audit subagent flagged the page-intro phrase "nitric-acid digestion" as inconsistent with the source-faithful Methods section text "8 mL nitric oxide". The intro has been rewritten to print "HNO3 digestion (printed in the source's Methods as 'nitric oxide', [sic]; calibration standards and blanks are described later in the same section as matched to 'nitric acid concentration', indicating HNO3 was the actual reagent)" so the page-internal contradiction is resolved while keeping faith with what the source literally prints.
 
 The audit subagent also raised the `matrices: [soil, grape-leaves]` field as a potential vocabulary question — observed false positive: `soil` is established matrices vocabulary used in 50+ existing source pages across the corpus (e.g., [[sources/bora2015-vineyard-wine-heavy-metals-romania]], [[sources/anselm2022-artificial-sweat-ewaste-soil-bioaccess]], [[sources/atsdr2023-soil-dermal-absorption-guidance]]). The matrices vocabulary in `docs/gpt-collaboration/system-prompt.md` is broader than the food-only set; environmental input matrices (soil, water, sediment) are in scope when the source paper is a vineyard-input or food-chain-context paper. No change made.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7cde25b](https://github.com/paleofoundation/heavymetalindex/commit/7cde25b) | 2026-06-06 | audit: mahlungulu2023-heavy-metals-grapevine-soil [revised] |
+| [a559069](https://github.com/paleofoundation/heavymetalindex/commit/a559069) | 2026-06-06 | ingest: mahlungulu2023-heavy-metals-grapevine-soil [fresh] from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `8707c66` (2026-06-05). The body hashes to `sha256:0e1fa3beb62e1015256ced84e696f0c8…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:59d5e0dbf76b0112d52ec11b6c7fceb7…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=childrens-lip-balm-plain&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/childrens-lip-balm-plain&download=1`.
 

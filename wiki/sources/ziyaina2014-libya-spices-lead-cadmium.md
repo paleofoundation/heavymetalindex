@@ -83,3 +83,13 @@ This source contributes Libyan-market spice occurrence data for Pb and Cd, separ
 - Speciation: Pb and Cd are elemental totals after acid digestion; no arsenic, mercury, or chromium speciation issue applies.
 - Source-table anomalies: the mixed-spices retailer Pb and Cd rows contain internally inconsistent max/min/average fields. This page reports them as printed and notes the inconsistency for audit.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6ef3fdc](https://github.com/paleofoundation/heavymetalindex/commit/6ef3fdc) | 2026-06-08 | ingest: ziyaina2014-libya-spices-lead-cadmium fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

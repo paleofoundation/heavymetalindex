@@ -91,3 +91,13 @@ This source provides primary Marmara-region occurrence evidence for seafood, fre
 - Speciation: Hg is total/unspecified Hg (`tHg`), not MeHg. Arsenic was measured as total arsenic; `Asin` values are source-derived using a `10%` total-arsenic assumption, not measured inorganic-arsenic speciation.
 - Brand firewall: samples are grouped by fishery product/species and no product brand values were reported.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow closed-vocabulary slugs include anchovy, surmullet, horse mackerel, sardine, whiting, bluefish, red mullet, mussel, shrimp, crab, squid, and octopus rows, so broad seafood/fish/shellfish routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fc88a3a](https://github.com/paleofoundation/heavymetalindex/commit/fc88a3a) | 2026-06-08 | ingest: akkaya2025-marmara-fishery-products-metals fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

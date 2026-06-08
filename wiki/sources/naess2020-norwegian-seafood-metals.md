@@ -97,3 +97,13 @@ This source provides processed-seafood occurrence evidence for Norwegian market 
 - Speciation: the paper reports total/unspecified Hg and total/unspecified As in the occurrence table. Its MeHg exposure calculations assume all measured Hg is MeHg, but the measured occurrence values are not MeHg; inorganic arsenic was not measured.
 - Brand firewall: the paper states that multiple brands and market-share categories were sampled, but the source page reports only product-form/category values and does not name brands.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow product slugs include fish burgers/cakes, fish pudding, fish au gratin, salmon/trout spread, and caviar, so broad seafood and canned-fish routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [60d0e86](https://github.com/paleofoundation/heavymetalindex/commit/60d0e86) | 2026-06-08 | ingest: naess2020-norwegian-seafood-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

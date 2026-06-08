@@ -72,3 +72,13 @@ UltraWAVE microwave digestion followed by ICP-MS (Agilent 7700x) for As, Pb, Cd,
 - Concentrations from the abstract and Table 3 (toxic metal concentrations, mg/kg). The paper reports per-brand data using anonymized brand numbers (e.g. "brand 2"); per the Part 12 firewall, only the category-level distribution (means, maxima, detection frequencies) is reproduced here, not the per-brand breakdown.
 - Arsenic is reported as total As by ICP-MS; the inorganic-As fraction is not measured (EFSA iAs reference values are cited only for the risk discussion).
 - Exact per-brand sample allocation (65 brands → 120 samples) is summarized; the brand-level table is not reproduced.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [17d578a](https://github.com/paleofoundation/heavymetalindex/commit/17d578a) | 2026-06-08 | ingest: cammilleri2025-marine-collagen-toxic-metals from June 8 (collagen supplement occurrence) |
+<!-- END: hmi-page-history -->

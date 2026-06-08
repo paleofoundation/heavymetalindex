@@ -222,3 +222,14 @@ Open-access article distributed under CC BY 4.0 (license declaration on p. 1 of 
 6. The Conclusion characterizes the result as "all the heavy metals, except aluminum, were within acceptable THQ limits" without addressing the twelve-of-twelve Mg MCL exceedance, the source-flagged eleven-of-twelve Al MCL exceedance, and the under-flagged Pb MCL exceedances at B6 and B8. Recorded faithfully; not framed as a wiki-side risk advisory.
 
 **Audit application (2026-06-06).** Fresh-context Agent subagent audit (verdict PROMOTE; all five checks ✅ clean with one ⚠️ minor on Check 4 Part 12 brand-firewall scope into rationale paragraphs). The subagent flagged that Evidence Fitness (ix) and the Products frontmatter rationale paragraph as originally written named the twelve brand identifiers while explaining the panel composition — a borderline call under the strict 2026-05-17 Part 12 reading because the original page did not reveal a per-brand contamination value or ranking, but did reveal source-disclosed brand identities in a wiki-side disclosure. Independent re-verification against the companion Bunu Bayelsa-State page ([[bunu2023-heavy-metals-energy-drinks-bayelsa]]) confirmed that the prior convention does not name the eleven Bayelsa brands in any rationale paragraph; the strict-reading convention is therefore established for the Bunu-companion corpus. Corrected by redacting brand-name enumerations from Evidence Fitness (ix) and the Products frontmatter Verification note while preserving the class-composition summary. No other audit findings warranted page changes.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e088b3a](https://github.com/paleofoundation/heavymetalindex/commit/e088b3a) | 2026-06-06 | audit: bunu2023-heavy-metals-energy-drinks-kogi revised |
+| [f160b4e](https://github.com/paleofoundation/heavymetalindex/commit/f160b4e) | 2026-06-06 | ingest: bunu2023-heavy-metals-energy-drinks-kogi fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

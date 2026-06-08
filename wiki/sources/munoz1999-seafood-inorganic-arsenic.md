@@ -78,3 +78,13 @@ This source supplies direct seafood inorganic-arsenic occurrence evidence with t
 - Speciation: inorganic arsenic is source-defined `As(III)+As(V)`, with documented possible co-distillation overestimate from MMA and DMA. Total arsenic remains `tAs`; no total arsenic value is treated as inorganic arsenic.
 - Brand firewall: samples were reported as seafood product forms only; no retail brand contamination values were present.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow closed-vocabulary slugs include anchovy, clam, cockle, mussel, sardine, squid, octopus, razor clam, shrimp, and langostillo, so broad seafood/fish/shellfish routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ab99091](https://github.com/paleofoundation/heavymetalindex/commit/ab99091) | 2026-06-08 | ingest: munoz1999-seafood-inorganic-arsenic fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

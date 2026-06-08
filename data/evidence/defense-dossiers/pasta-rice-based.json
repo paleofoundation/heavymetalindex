@@ -17,18 +17,60 @@
     "canonical_url": "https://heavymetalindex.com/products/pasta-rice-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f6fda7b6c3cae8f7eb740081beb21a9af89677080d5352e8a0e341d983421b2b",
-      "content_bytes": 7198,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "39d4bbaaf3d4b7d621050f5337bc1a52189581e3ffd2b517a4707e647ca33d45",
+      "content_bytes": 8343,
+      "last_commit_sha": "c679df8",
+      "last_commit_date": "2026-06-08",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/pasta-rice-based.md | sha256sum"
+      "verify_command": "git show c679df8:wiki/products/pasta-rice-based.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/gu2020-arsenic-rice-infant-food-australia",
+        "title": "Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
+        "content_pin": {
+          "content_sha256": "0417709aa917d4becfe732be3790c58ab85bda0631900b8288396b0f16b709f0",
+          "content_bytes": 18678,
+          "last_commit_sha": "1be66b2",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 1be66b2:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kongta2023-noodle-products-aluminum-thailand",
+        "title": "Assessment of Exposure to Aluminum through Consumption of Noodle Products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kongta2023-noodle-products-aluminum-thailand",
+        "content_pin": {
+          "content_sha256": "fbf09730f6834582d2ed7427485588f84685843500e9c24f75296e3137043e06",
+          "content_bytes": 5407,
+          "last_commit_sha": "9256725",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9256725:wiki/sources/kongta2023-noodle-products-aluminum-thailand.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

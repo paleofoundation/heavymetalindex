@@ -236,3 +236,14 @@ This is a structured narrative review without a declared search strategy, PRISMA
 **ChatGPT-disclosure note.** The Acknowledgments section explicitly states: "During the preparation of this manuscript, the authors used OpenAI's ChatGPT (GPT-5-mini) for the purposes of language refinement and grammar correction of the manuscript text. The authors have reviewed and edited the output and take full responsibility for the content of this publication." This is best-practice LLM-use disclosure per emerging MDPI and Committee on Publication Ethics guidance; it is noted in the Limitations section but does not affect the evidence-tier classification.
 
 **Audit subagent (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) returned five ✅ with one ⚠️ on a narrative-count discrepancy in the Table 7 prose ("Twenty-one microbial isolate/plant extract entries across seven NP types" — body table actually has 15 rows across 8 NP types). The discrepancy was independently verified against PDF p. 15–16 (4 silver + 3 gold + 2 ZnO + 1 lead + 2 iron + 1 TiO₂ + 1 biogenic Fe-Mn + 1 CdS = 15 rows; eight NP type categories) and the narrative was corrected to "Fifteen microbial isolate/plant extract entries across eight NP types"; the Why-this-matters bullet and the introductory paragraph references to Table 7 counts were corrected from 14 to 15 in parallel. All table data, percent-reduction ranges, and reference attributions were verified faithful to the source by the subagent. All wikilink slugs (metals/cadmium, metals/lead, metals/arsenic, metals/nickel, metals/chromium, metals/mercury, mitigation/remediation-evidence) verified present in the wiki. Brand firewall (Part 12) and HMTc firewall (Part 2) both clean — no commercial brand names, no threshold language, plant-tissue toxic thresholds correctly framed as growth-inhibition thresholds rather than human-exposure regulatory ceilings. 1 finding flagged, 1 correction applied (Table 7 narrative count 21→15 and NP-type count 7→8), 0 rejected. Audit subagent ID a53974aac3bb0c442.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [029e9a5](https://github.com/paleofoundation/heavymetalindex/commit/029e9a5) | 2026-06-08 | audit: jarin2025-plant-responses-heavy-metal-stresses promoted |
+| [f4c7a4e](https://github.com/paleofoundation/heavymetalindex/commit/f4c7a4e) | 2026-06-08 | ingest: jarin2025-plant-responses-heavy-metal-stresses fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

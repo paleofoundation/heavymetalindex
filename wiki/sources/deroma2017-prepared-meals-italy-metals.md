@@ -110,3 +110,13 @@ This source contributes Italy-market prepared-meal occurrence evidence for Cd, P
 - Speciation: arsenic is total As and mercury is total Hg. The source explicitly notes the lack of arsenic speciation and does not report methylmercury.
 - Composite labels are retained as the source prints them: BF, FF, DP, V, RM-A through RM-G, and city-labelled canteen composites. No brand or vendor names are attached to contamination values.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7709cd0](https://github.com/paleofoundation/heavymetalindex/commit/7709cd0) | 2026-06-08 | ingest: deroma2017-prepared-meals-italy-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

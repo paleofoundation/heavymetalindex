@@ -71,3 +71,13 @@ This source contributes wet-weight edible-fish and shellfish occurrence data for
 - Speciation: arsenic was measured as total/unspecified As and chromium as total Cr. The risk tables assume inorganic As is `3%` of total As; the page does not route that assumption as measured iAs.
 - Brand firewall: samples came from fishermen/market context and no product brands were reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1eb1ebb](https://github.com/paleofoundation/heavymetalindex/commit/1eb1ebb) | 2026-06-08 | ingest: copat2013-mediterranean-fish-shellfish-metals fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

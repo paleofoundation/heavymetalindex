@@ -147,9 +147,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [bb51519](https://github.com/paleofoundation/heavymetalindex/commit/bb51519) | 2026-06-02 | audit: barkodia2020-jhansi-detergent-heavy-metals revised |
-| [d01a7f7](https://github.com/paleofoundation/heavymetalindex/commit/d01a7f7) | 2026-06-02 | ingest: barkodia2020-jhansi-detergent-heavy-metals fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/01_AP_Countertop_Tile_Floor |
 <!-- END: hmi-page-history -->

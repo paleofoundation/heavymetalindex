@@ -85,3 +85,14 @@ The MHIVPHE peptide and its DNS-L9 chemosensor derivative are reported as a sing
 - Audit subagent (2026-06-08) flagged two paraphrase drifts in the original draft: (a) framing the MHIVPHE motif as "His-Met-His at the N- and C-flanks" when the paper itself uses "MH (Met-His) motif" and "two histidines at both ends of the peptide" — corrected to match the paper's framing in both the body prose and the Key numbers table; (b) the original verification note stated page 3 listed the negative-selection order as Hg → Cd → Mn → Ni when the page-3 text actually reads Ni → Hg → Mn → Cd — corrected here. Independent re-verification against pages 3, 5, 7, and 8 of the PDF confirmed both findings.
 - Evidence tier: C (single-laboratory primary methodology study with `n = 3` independent replicates per ELISA condition, no inter-laboratory replication, no environmental or food-matrix validation, no orthogonal analytical confirmation against ICP-MS or AAS).
 - Adjacent context: see [[bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation]] and [[hu2024-engineered-ecoli-hg-cr-adsorption]] for parallel E. coli-displayed metal-binding-peptide bioengineering, [[juskowiak2008-cysteine-rich-oboc-peptide-libraries]] for upstream OBOC library methodology, and [[han2025-peptide-zinc-complexation-aquatic-review]] / [[lu2022-metal-chelating-peptides-review]] for peptide-metal coordination chemistry reviews in the same Kimi peptide folder.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [532b911](https://github.com/paleofoundation/heavymetalindex/commit/532b911) | 2026-06-08 | audit: sosnowska2025-phage-display-peptide-copper-chemosensor revised |
+| [350dc42](https://github.com/paleofoundation/heavymetalindex/commit/350dc42) | 2026-06-08 | ingest: sosnowska2025-phage-display-peptide-copper-chemosensor fresh from MFK/June 8 Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

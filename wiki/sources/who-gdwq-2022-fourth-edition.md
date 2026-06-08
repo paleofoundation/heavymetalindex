@@ -152,5 +152,9 @@ This is a synthesis-and-policy document, not a primary occurrence study. The num
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-This page has no committed history yet. Future edits will be recorded here once the change lands in git.
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 <!-- END: hmi-page-history -->

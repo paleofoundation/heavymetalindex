@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `8707c66` (2026-06-05). The body hashes to `sha256:1144dfefc47a8574c456b2829dd1512b…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:6c09dba45bac2930f93e63223e60b907…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=utensils-plastic-silicone-tools&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/utensils-plastic-silicone-tools&download=1`.
 

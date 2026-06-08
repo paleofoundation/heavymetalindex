@@ -17,18 +17,45 @@
     "canonical_url": "https://heavymetalindex.com/products/rice-noodles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d7787abafa126692da220660bfb6dc8591ec088e66ead45a23a4282b32b9134c",
-      "content_bytes": 7727,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "98aca56d45654b2b9c699c5888463bd2b3f2e8d52c2223569f0bf511539105aa",
+      "content_bytes": 8617,
+      "last_commit_sha": "1ca3eb0",
+      "last_commit_date": "2026-06-06",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/rice-noodles.md | sha256sum"
+      "verify_command": "git show 1ca3eb0:wiki/products/rice-noodles.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/guo2017-asian-rice-derived-products-metals",
+        "title": "Trace Elements and Heavy Metals in Asian Rice-Derived Food Products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Cu",
+          "Zn",
+          "tAs",
+          "Se",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/guo2017-asian-rice-derived-products-metals",
+        "content_pin": {
+          "content_sha256": "a5af694c75eecded3880f9c916b11c60afb6ab5c49ee83eb2561cfe6b2ddbfd1",
+          "content_bytes": 5455,
+          "last_commit_sha": "4f218cf",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 4f218cf:wiki/sources/guo2017-asian-rice-derived-products-metals.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/katyal2020-instant-noodles-canada-metals",
         "title": "Analysis of lead, arsenic, and cadmium concentrations in instant noodles within the Canadian market",
@@ -43,12 +70,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/katyal2020-instant-noodles-canada-metals",
         "content_pin": {
-          "content_sha256": "259ccdcda0de22f6c3c7181c068cd3ad9de5e27c4088ba7a766638436e3b8f94",
-          "content_bytes": 5127,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "1fab39320603e89ecae2b8619ee212c4b2443b41cc52451f141c188d6aba5e65",
+          "content_bytes": 5195,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/katyal2020-instant-noodles-canada-metals.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/katyal2020-instant-noodles-canada-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kongta2023-noodle-products-aluminum-thailand",
+        "title": "Assessment of Exposure to Aluminum through Consumption of Noodle Products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kongta2023-noodle-products-aluminum-thailand",
+        "content_pin": {
+          "content_sha256": "fbf09730f6834582d2ed7427485588f84685843500e9c24f75296e3137043e06",
+          "content_bytes": 5407,
+          "last_commit_sha": "9256725",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9256725:wiki/sources/kongta2023-noodle-products-aluminum-thailand.md | sha256sum"
         }
       }
     ]

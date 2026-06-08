@@ -88,3 +88,14 @@ Seaweed was obtained from 7 commercial harvesters in northern Maine and hand-col
 - Instrument/CRM/vendor names (Agilent, CEM MARS, Thermo Element 2, Hamilton, Supelcosil, DORM-2, MURST-ISS-A2, NIST 1568a) retained in Methods as permitted scientific reporting.
 - Audit subagent (2026-06-08, fresh-context) returned REVISE; all Table 1 values and the iAs/tAs speciation labeling (highest-stakes) verified exact (the L. digitata ME iAs 8.32±7.67 correctly taken from the iAs column, not the AsSugPO4 10.63±8.71 column). Three findings applied: (1) the taxa count "24" was wiki-introduced and unsupported — corrected to 20 distinct macroalgae species / 25 species-site rows / 46 samples throughout; (2) the "ANZ 1 mg/kg / French 3 mg/kg seaweed limits" comparison was removed from Implications because Taylor 2016 does not state those limits (they are cited in ronan2017 and fsanz2012 instead) — replaced with the paper's own EPA-RfD exposure finding; (3) the cross-source "reproduces / second independent confirmation (Ronan 2017)" synthesis claim was removed from the body and Implications (cross-source synthesis is the Part 9 workflow, not the source page). The provenance fact that Ronan 2017 cites this study as its New England comparator is retained below as a neutral note.
 - Provenance: Ronan et al. 2017 (Chemosphere) cites this study as the New England comparator for L. digitata arsenic; the cross-study comparison itself belongs to the synthesis workflow, not this page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7ec1c2c](https://github.com/paleofoundation/heavymetalindex/commit/7ec1c2c) | 2026-06-08 | audit: taylor2016-new-england-seaweed-arsenic revised |
+| [04a1578](https://github.com/paleofoundation/heavymetalindex/commit/04a1578) | 2026-06-08 | ingest: taylor2016-new-england-seaweed-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

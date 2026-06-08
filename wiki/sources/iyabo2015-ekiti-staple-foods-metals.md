@@ -127,3 +127,13 @@ This source contributes Nigeria-market occurrence evidence for Zn, Cu, Cd, and P
 - `LT DL`/`LTDL` is preserved as the source's less-than-detection-limit label. Blank Cd cells for Sweet Beans (Red), Potato, and Fufu are recorded as `not reported in table` rather than filled.
 - The source reports Zn, Cu, Cd, and Pb only. It does not report arsenic, mercury, chromium, nickel, inorganic arsenic, methylmercury, or Cr(VI).
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [eb75b21](https://github.com/paleofoundation/heavymetalindex/commit/eb75b21) | 2026-06-08 | ingest: iyabo2015-ekiti-staple-foods-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

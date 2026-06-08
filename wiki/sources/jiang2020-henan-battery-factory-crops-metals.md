@@ -94,3 +94,13 @@ This source contributes China-market industrial-vicinity occurrence evidence for
 - The methods section says 8 wheat samples were collected, but Table 4 labels wheat as `n=7`; `sample_n` is left null and the discrepancy is recorded in `sample_population`.
 - Speciation: Hg, As, and Cr are total-element results. The source does not report methylmercury, inorganic arsenic, inorganic mercury, or Cr(VI) concentrations.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a68bdbf](https://github.com/paleofoundation/heavymetalindex/commit/a68bdbf) | 2026-06-08 | ingest: jiang2020-henan-battery-factory-crops-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

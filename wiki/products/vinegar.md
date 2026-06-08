@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: locked
 splits_locked: true
-sources: 10
+sources: 11
 wiki_doi: null
 updated: 2026-06-02
 variant_type: independent
@@ -123,12 +123,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 2 | [[sources/efsa2022-buffered-vinegar-food-additive-safety\|EFSA 2022]]. *Safety evaluation of buffered vinegar as a food additive*, EFSA Journal | 2022 | Government report | EU Pb, tAs, Cd, tHg occurrence in 5 batches liquid buffered vinegar + 5 batches powder buffered vinegar; analysed for As, Pb, Cd, Hg by... (n=10) |
 | 3 | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|Corrigan et al. 2021]]. *Letter to FDA: Dangerously high levels of arsenic and lead found in many vinegar products require action by the FDA*, Empire State Consumer Project / Food & Water Watch — FDA Citizen Petition Letter | 2021 | NGO report | US Pb, tAs occurrence in 24 commercial vinegar and vinegar-reduction products purchased in Rochester NY area and online, 2021; 21 were balsamic vinegars... (n=24) |
 | 4 | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|Karavoltsos et al. 2020]]. *Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter*, Molecules | 2020 | Peer-reviewed | GR As, Pb, Cd, Al, Cr, Ni, Cu occurrence in 43 vinegars retailed in Greece: 20 balsamic (12 red, 5 red-with-honey, 3 white), 23 common (10 red wine,... (n=43) |
-| 5 | [[sources/ozbek2016-mip-oes-turkish-vinegars\|Ozbek et al. 2016]]. *A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry*, Food Analytical Methods | 2016 | Peer-reviewed | TR Al, Pb, Cr, Cu, Zn occurrence in Commercially produced Turkish vinegars: 17 grape, 12 apple, 3 balsamic, plus homemade, pomegranate, and fig vinegars (n=32) |
-| 6 | [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|Saei-Dehkordi et al. 2012]]. *Determination of Lead, Cadmium, Copper, and Zinc Content in Commercial Iranian Vinegars Using Stripping Chronopotentiometry*, Food Analytical Methods | 2012 | Peer-reviewed | IR Pb, Cd, Cu, Zn occurrence in 96 commercial Iranian vinegars: 24 each of date, apple, white grape, and red grape; purchased August 2010 to... (n=96) |
-| 7 | [[sources/liu2010-mercury-white-vinegar-afs\|Liu 2010]]. *Direct determination of mercury in white vinegar by matrix assisted photochemical vapor generation atomic fluorescence spectrometry detection*, Spectrochimica Acta Part B | 2010 | Peer-reviewed | CN tHg occurrence in 3 commercial white vinegar samples from local markets in Beijing, China (n=3) |
-| 8 | [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|Ndung'u et al. 2004]]. *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*, Talanta | 2004 | Peer-reviewed | US Pb occurrence in 59 commercial vinegars purchased in California: 52 balsamic, 4 wine, 1 apple cider, 1 rice, 1 garlic (n=59) |
-| 9 | [[sources/acosta1993-cd-pb-ni-vinegar-types\|Acosta et al. 1993]]. *Levels of Cd, Pb, and Ni in Different Types of Vinegars*, Bulletin of Environmental Contamination and Toxicology | 1993 | Peer-reviewed | ES/DE/GB Cd, Pb, Ni occurrence in 52 bottled vinegars from supermarkets in Tenerife and Gran Canaria (Canary Islands, Spain): 26 wine vinegar, 10 apple... (n=52) |
-| 10 | [[sources/troncoso1988-metallic-contaminants-andalusian-vinegars\|Troncoso et al. 1988]]. *Metallic contaminants in Andalusian vinegars*, Die Nahrung | 1988 | Peer-reviewed | ES Pb, tAs, Zn, Cu, Fe occurrence in 16 white wine vinegar samples from Western Andalusia (mainly Sherry/Jerez influence area and El Condado, Huelva), Spain; 13... (n=16) |
+| 5 | [[sources/guo2017-asian-rice-derived-products-metals\|Guo et al. 2017]]. *Trace Elements and Heavy Metals in Asian Rice-Derived Food Products*, Water, Air, & Soil Pollution | 2017 | Peer-reviewed | US/CN/VN Cr, Cu, Zn, tAs, Se, Cd, tHg, Pb occurrence in Six rice-noodle products, five rice vinegar/wine products, and five rice-snack products purchased from local oriental markets in Jackson,... (n=16) |
+| 6 | [[sources/ozbek2016-mip-oes-turkish-vinegars\|Ozbek et al. 2016]]. *A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry*, Food Analytical Methods | 2016 | Peer-reviewed | TR Al, Pb, Cr, Cu, Zn occurrence in Commercially produced Turkish vinegars: 17 grape, 12 apple, 3 balsamic, plus homemade, pomegranate, and fig vinegars (n=32) |
+| 7 | [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|Saei-Dehkordi et al. 2012]]. *Determination of Lead, Cadmium, Copper, and Zinc Content in Commercial Iranian Vinegars Using Stripping Chronopotentiometry*, Food Analytical Methods | 2012 | Peer-reviewed | IR Pb, Cd, Cu, Zn occurrence in 96 commercial Iranian vinegars: 24 each of date, apple, white grape, and red grape; purchased August 2010 to... (n=96) |
+| 8 | [[sources/liu2010-mercury-white-vinegar-afs\|Liu 2010]]. *Direct determination of mercury in white vinegar by matrix assisted photochemical vapor generation atomic fluorescence spectrometry detection*, Spectrochimica Acta Part B | 2010 | Peer-reviewed | CN tHg occurrence in 3 commercial white vinegar samples from local markets in Beijing, China (n=3) |
+| 9 | [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|Ndung'u et al. 2004]]. *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*, Talanta | 2004 | Peer-reviewed | US Pb occurrence in 59 commercial vinegars purchased in California: 52 balsamic, 4 wine, 1 apple cider, 1 rice, 1 garlic (n=59) |
+| 10 | [[sources/acosta1993-cd-pb-ni-vinegar-types\|Acosta et al. 1993]]. *Levels of Cd, Pb, and Ni in Different Types of Vinegars*, Bulletin of Environmental Contamination and Toxicology | 1993 | Peer-reviewed | ES/DE/GB Cd, Pb, Ni occurrence in 52 bottled vinegars from supermarkets in Tenerife and Gran Canaria (Canary Islands, Spain): 26 wine vinegar, 10 apple... (n=52) |
+| 11 | [[sources/troncoso1988-metallic-contaminants-andalusian-vinegars\|Troncoso et al. 1988]]. *Metallic contaminants in Andalusian vinegars*, Die Nahrung | 1988 | Peer-reviewed | ES Pb, tAs, Zn, Cu, Fe occurrence in 16 white wine vinegar samples from Western Andalusia (mainly Sherry/Jerez influence area and El Condado, Huelva), Spain; 13... (n=16) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -138,9 +139,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

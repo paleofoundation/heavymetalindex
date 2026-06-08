@@ -17,7 +17,7 @@ review_state: phase3
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-15
-sources: 10
+sources: 11
 ---
 
 # Herbal/Botanical Infusions
@@ -173,7 +173,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 7 | [[sources/marinescu2020-romanian-herbs-spices-metals\|Marinescu et al. 2020]]. *Assessment of heavy metals content in some medicinal plants and spices commonly used in Romania*, Farmacia | 2020 | Peer-reviewed | RO tAs, Cd, Cu, Fe, tHg, Pb occurrence in Forty-two Romanian medicinal-plant and spice samples: six medicinal plant species and six culinary spice/herb species, including packaged and... (n=42) |
 | 8 | [[sources/fogarasi2019-tea-aluminum\|Erzsebet et al. 2019]]. *Aluminium contamination of several types of tea*, Orvostudomanyi Ertesito | 2019 | Peer-reviewed | RO Al occurrence in Green, black, fruit, and herbal tea infusions prepared from sampled tea materials (n=48) |
 | 9 | [[sources/santos2017-yerba-mate-metals\|Santos et al. 2017]]. *Arsenic, cadmium and lead concentrations in Yerba mate commercialized in Southern Brazil by inductively coupled plasma mass spectrometry*, Ciencia Rural | 2017 | Peer-reviewed | BR tAs, Cd, Pb occurrence in Yerba mate samples marketed in Parana, Santa Catarina, and Rio Grande do Sul, Brazil (n=104) |
-| 10 | [[sources/mania2015-toxic-elements-infant-food-poland\|Mania et al. 2015]]. *Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland*, Polish Journal of Environmental Studies | 2015 | Peer-reviewed | PL/EU Pb, Cd, tAs, tHg occurrence in Approximately 1,000 commercial infant-food samples collected from retail markets in all Polish provinces during the 2009-2013 sanitary-epidemiological monitoring... (n=1000) |
+| 10 | [[sources/izah2016-beverages-heavy-metals-nigeria\|Izah et al. 2016]]. *A Review of Heavy Metal Concentration and Potential Health Implications of Beverages Consumed in Nigeria*, Toxics | 2016 | Peer-reviewed | NG/GLOBAL Pb, Cd, tAs, tHg, Cr, Ni, Sn, Sb, Cu, Mn, Zn occurrence in Narrative review of secondary data from Nigerian beverage studies published 2007-2016. No new measurements. Section 2 states the... |
+| 11 | [[sources/mania2015-toxic-elements-infant-food-poland\|Mania et al. 2015]]. *Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland*, Polish Journal of Environmental Studies | 2015 | Peer-reviewed | PL/EU Pb, Cd, tAs, tHg occurrence in Approximately 1,000 commercial infant-food samples collected from retail markets in all Polish provinces during the 2009-2013 sanitary-epidemiological monitoring... (n=1000) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -183,9 +184,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

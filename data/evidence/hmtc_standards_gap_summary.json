@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T16:47:05.432Z",
+  "generated_at": "2026-06-08T19:26:46.803Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
   "dirty_standard_percentile": "p45",
@@ -18,24 +18,25 @@
   "rows_in_locked_hmtc_scope": 517,
   "rows_outside_locked_hmtc_scope": 93,
   "by_aggregate_status": {
-    "POOLING ENGINE PENDING: process local extraction backlog first": 62,
+    "POOLING ENGINE PENDING: ready for pooling math": 67,
     "POOLING ENGINE PENDING: single poolable source": 127,
     "BLOCKED: no structured evidence loaded": 222,
-    "BLOCKED: local extraction pending": 56,
+    "BLOCKED: local extraction pending": 61,
     "OUT OF SCOPE: not a locked HMTc standards row": 67,
-    "BLOCKED: PDF match review pending": 21,
-    "POOLING ENGINE PENDING: ready for pooling math": 26,
+    "BLOCKED: PDF match review pending": 14,
+    "POOLING ENGINE PENDING: process local extraction backlog first": 21,
     "BLOCKED: species-specific evidence missing": 3,
-    "CONTEXT ONLY: not a locked HMTc standards row": 26
+    "CONTEXT ONLY: not a locked HMTc standards row": 26,
+    "BLOCKED: local candidate review pending": 2
   },
   "by_standard_percentile_target": {
     "clean_p97_pooled": 91,
     "independent_p97_pooled": 426,
     "not_applicable": 93
   },
-  "rows_with_pending_local_extracts": 169,
+  "rows_with_pending_local_extracts": 116,
   "rows_with_missing_pdfs": 1,
-  "rows_with_local_candidate_values": 4,
+  "rows_with_local_candidate_values": 7,
   "rows_with_context_dispositions": 0,
   "rows_with_tds_product_route_candidates": 8
 }

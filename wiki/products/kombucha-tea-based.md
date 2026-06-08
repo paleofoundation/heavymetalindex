@@ -17,7 +17,7 @@ review_state: phase3
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-15
-sources: 1
+sources: 2
 ---
 
 # Kombucha (Tea-Based)
@@ -166,7 +166,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|Munilla et al. 2023]]. *Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers*, Revista Española de Salud Pública | 2023 | Peer-reviewed | Pb contamination in kombucha via ceramic food-contact-material leaching; time-dependent concentration increase (0.95 → 7.1 → 47 mg/kg over 14–19 days); blood Pb in affected family; regulatory gap for ML in kombucha; FCM lever magnitude |
+| 1 | [[sources/tandhanskul2025-kombucha-metabiotics-review\|Tandhanskul et al. 2025]]. *Kombucha as a Sustainable Source of Metabiotics: Potential, Applications, and Future Perspectives*, Beverages | 2025 | Peer-reviewed | Pb, Cd, Cr, Co, Ni occurrence in Narrative review of secondary literature on kombucha as a source of postbiotics/metabiotics. No new measurements; heavy-metal content appears... |
+| 2 | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|Munilla et al. 2023]]. *Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers*, Revista Española de Salud Pública | 2023 | Peer-reviewed | Pb contamination in kombucha via ceramic food-contact-material leaching; time-dependent concentration increase (0.95 → 7.1 → 47 mg/kg over 14–19 days); blood Pb in affected family; regulatory gap for ML in kombucha; FCM lever magnitude |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -176,9 +177,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

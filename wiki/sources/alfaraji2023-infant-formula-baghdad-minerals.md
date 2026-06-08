@@ -73,3 +73,13 @@ App: The values can inform broad powdered-formula context, with jurisdiction and
 The DOI, author, publication, year, and license were read from the PDF header and first page. The source names commercial formula labels in Table 1, but this source page does not reproduce brand-level findings; sample-level rows are anonymized to preserve the wiki brand firewall while retaining the numeric distribution needed for evidence routing.
 
 The abstract says lead was measured in powdered infant formula and the results section states that all samples except one had detectable lead. Table 3 provides the routeable values. The paper also contains some internal wording ambiguity about whether lead should be absent under one cited Iraqi standard versus within permitted residue concentrations under other cited Iraqi standards; this source page treats the regulatory comparison as source context and routes only the occurrence measurements.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [826e27a](https://github.com/paleofoundation/heavymetalindex/commit/826e27a) | 2026-06-07 | ingest auto-fetched 2026-06-07: alfaraji2023-infant-formula-baghdad-minerals |
+<!-- END: hmi-page-history -->

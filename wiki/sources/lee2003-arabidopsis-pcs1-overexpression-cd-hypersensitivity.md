@@ -125,3 +125,14 @@ The study is a primary mechanistic experiment in *Arabidopsis thaliana* using a 
 - Check 1 numerical-fidelity ⚠️ on the CdCl₂ → mg Cd/L unit conversion factor. The originally-written page stated "1 µM CdCl₂ ≈ 0.183 mg Cd/L" and "50–85 µM CdCl₂ ≈ 9.2–15.5 mg Cd/L." Independent verification: Cd atomic mass is 112.41 g/mol, so 1 µmol Cd/L corresponds to 0.112 mg Cd/L; the 0.183 g/mol figure is the molar mass of the CdCl₂ salt (Cd 112.41 + 2 × Cl 35.45 = 183.31), which is the wrong species for a "mg Cd/L" figure. Finding correct, correction applied: 1 µM CdCl₂ → 0.112 mg Cd/L; 50–85 µM CdCl₂ → ≈5.6–9.6 mg Cd/L in the Key numbers preface and the Methods (brief) limitations bullet (v).
 - Check 2 slug-vocabulary ⚠️ on `[[mitigation/remediation-evidence]]` not in the 2026-05-18 snapshot — same snapshot-coverage gap as the Marques 2025, Luo 2024, and Shalev 2022 siblings, already disclosed in the slug-vocabulary note above and accepted per the cited precedent. No content correction applied.
 - Checks 3 (speciation/methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) all ✅. Subagent independently verified all per-line and per-figure numbers, confirmed scientific-method vendor list against p. 662 of the source, confirmed no commercial food/personal-care brand names appear, and confirmed no HMTc-threshold language or consumer risk advisories. 2 findings flagged, 1 corrected (the unit-conversion factor), 1 carried (the known cross-page taxonomy gap, not a defect on this page), 0 rejected. Audit subagent ID aec7faff159538b50.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [43f4b6b](https://github.com/paleofoundation/heavymetalindex/commit/43f4b6b) | 2026-06-08 | audit: lee2003-arabidopsis-pcs1-overexpression-cd-hypersensitivity revised |
+| [86ae207](https://github.com/paleofoundation/heavymetalindex/commit/86ae207) | 2026-06-08 | ingest: lee2003-arabidopsis-pcs1-overexpression-cd-hypersensitivity fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

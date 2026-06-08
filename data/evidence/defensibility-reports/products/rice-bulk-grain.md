@@ -2,15 +2,15 @@
 source_page: wiki/products/rice-bulk-grain.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 04ca5eb6173b58d132213108455fcb089d9ac5ae74f6ac2b5336e9ae521f9f3c
-total_claims: 0
-cited_claims: 0
+source_page_sha256: ab58164bfde96bb33ce4dbdb96b6ee8a020abe78a3f770a5ffa699259d0be9b1
+total_claims: 1
+cited_claims: 1
 uncited_claims: 0
-distinct_cited_targets: 0
-distinct_cited_sources: 0
+distinct_cited_targets: 66
+distinct_cited_sources: 66
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 789
+audit_log_total_rows: 972
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
-| cited claims | 0 |
+| total claims | 1 |
+| cited claims | 1 |
 | uncited claims | 0 |
-| distinct cited targets | 0 |
-| distinct cited `sources/` pages | 0 |
+| distinct cited targets | 66 |
+| distinct cited `sources/` pages | 66 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 789 |
+| audit log rows read | 972 |
 
 ## Page-level audit rows
 
@@ -46,7 +46,143 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Sources
+
+#### Claim `94.41 mg/kg`
+- Context: `d paddy soil (0-20 cm, Dongzhi County, Chizhou, Anhui Province, China; total Sb 94.41 mg/kg) used... (n=1) | | 4 | [[sou`
+- Cited targets (66):
+  - `wiki/sources/ataee2016-iran-cereals-pb-cd\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/begum2024-rice-fertilization-arsenic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bhat2022-brick-kilns-milk-rice-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/carey2015-rice-arsenic-percolating-cooking\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cr-fsasc2014-arsenic-rice-grains\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ec2004-scoop-heavy-metals-dietary-exposure\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2012-cadmium-dietary-exposure-europe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2021-chronic-exposure-iAs\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2024-organoarsenic-species\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2024-risk-assessment-iAs-update\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/enamorado-montes2021-mercury-rice-colombia-mojana\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fda2013-ias-rice-products-sampling\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fda2016-arsenic-rice-risk-assessment\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fera2015-uk-tds-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fu2025-low-accumulation-rice-hg-cd\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hao2022-probabilistic-risk-rice-mining-county\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/heshmati2020-iran-vegetables-cereals-pb-cd\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hossain2024-rice-cadmium-soil-ph\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/huang2025-biochar-antimony-rhizosphere-rice\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hussain2024-rice-arsenic-amendments\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/islam2014-bangladesh-cereals-pulses-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/islam2015-bangladesh-foods-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/islam2018-tangail-food-crops-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jafari2018-iran-rice-meta\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jiang2022-selenium-cadmium-brown-rice\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/kukusamude2020-thai-rice-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/kumar2022-bangladesh-agricultural-products-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/li2017-jiangsu-rice-cadmium-transfer\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/liang2024-rice-cadmium-biochar\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/liu2022-south-china-rice-cd-as\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/liu2023-xingren-rice-paddy-soil-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/llorente-mirandes2016-ias-food-analytical-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/loutfy2012-ismailia-foodstuffs-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/mohammadi2024-champa-rice-southwest-iran-carcinogenic-risk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/moradi2015-iran-isfahan-soil-crops-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/moreda-pineiro2020-rice-arsenic-speciation\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/naseri2015-iran-shiraz-rice-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/palmieri2020-mercury-rice\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pirsaheb2015-iran-kermanshah-cereals-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pogoson2020-rice-cooking-cadmium-arsenic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/rittirong2018-cooked-rice-utensil-metals-thailand\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/roya2016-iran-torbat-heidarieh-rice-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/salehipour2015-iran-isfahan-cereals-vegetables-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sharafatichaleshtori2016-iran-rice-heavy-metals-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sharafi2019-iran-tehran-rice-brands-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shi2020-rice-grain-cadmium-global-supply-chain\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shirani2017-iran-mashhad-rice-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/signes-pastor2016-iAs-rice-iberian-peninsula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/silva2023-rice-mycotoxins-ias-portugal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sun2023-biochar-rice-cadmium-field\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatahmentan2020-rice-grains-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/uneyama2007-arsenic-foods-cumulative-data\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/vatanpour2020-iran-tajan-rice-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/wang2019-dietary-lead-guangzhou\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/wang2020-jilin-total-diet-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/welna2018-brown-rice-inorganic-arsenic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/williams2007-rice-arsenic-us-market-basket\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/xu2022-crop-grains-heavy-metals\.md` (page missing)
+    - audit rows: none
 
 ## Uncited claims
 
@@ -54,5 +190,72 @@ _All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/sources/ataee2016-iran-cereals-pb-cd\.md` | sources | 0 | — | — |
+| `wiki/sources/begum2024-rice-fertilization-arsenic\.md` | sources | 0 | — | — |
+| `wiki/sources/bhat2022-brick-kilns-milk-rice-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/carey2015-rice-arsenic-percolating-cooking\.md` | sources | 0 | — | — |
+| `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` | sources | 0 | — | — |
+| `wiki/sources/cr-fsasc2014-arsenic-rice-grains\.md` | sources | 0 | — | — |
+| `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` | sources | 0 | — | — |
+| `wiki/sources/ec2004-scoop-heavy-metals-dietary-exposure\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa2012-cadmium-dietary-exposure-europe\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa2014-dietary-exposure-iAs\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa2021-chronic-exposure-iAs\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa2024-organoarsenic-species\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa2024-risk-assessment-iAs-update\.md` | sources | 0 | — | — |
+| `wiki/sources/enamorado-montes2021-mercury-rice-colombia-mojana\.md` | sources | 0 | — | — |
+| `wiki/sources/fda2013-ias-rice-products-sampling\.md` | sources | 0 | — | — |
+| `wiki/sources/fda2016-arsenic-rice-risk-assessment\.md` | sources | 0 | — | — |
+| `wiki/sources/fera2015-uk-tds-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/fu2025-low-accumulation-rice-hg-cd\.md` | sources | 0 | — | — |
+| `wiki/sources/hao2022-probabilistic-risk-rice-mining-county\.md` | sources | 0 | — | — |
+| `wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples\.md` | sources | 0 | — | — |
+| `wiki/sources/heshmati2020-iran-vegetables-cereals-pb-cd\.md` | sources | 0 | — | — |
+| `wiki/sources/hossain2024-rice-cadmium-soil-ph\.md` | sources | 0 | — | — |
+| `wiki/sources/huang2025-biochar-antimony-rhizosphere-rice\.md` | sources | 0 | — | — |
+| `wiki/sources/hussain2024-rice-arsenic-amendments\.md` | sources | 0 | — | — |
+| `wiki/sources/islam2014-bangladesh-cereals-pulses-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/islam2015-bangladesh-foods-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/islam2018-tangail-food-crops-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/jafari2018-iran-rice-meta\.md` | sources | 0 | — | — |
+| `wiki/sources/jiang2022-selenium-cadmium-brown-rice\.md` | sources | 0 | — | — |
+| `wiki/sources/kukusamude2020-thai-rice-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/kumar2022-bangladesh-agricultural-products-lead\.md` | sources | 0 | — | — |
+| `wiki/sources/li2017-jiangsu-rice-cadmium-transfer\.md` | sources | 0 | — | — |
+| `wiki/sources/liang2024-rice-cadmium-biochar\.md` | sources | 0 | — | — |
+| `wiki/sources/liu2022-south-china-rice-cd-as\.md` | sources | 0 | — | — |
+| `wiki/sources/liu2023-xingren-rice-paddy-soil-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/llorente-mirandes2016-ias-food-analytical-review\.md` | sources | 0 | — | — |
+| `wiki/sources/loutfy2012-ismailia-foodstuffs-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/masri2025-toxicant-foods-california\.md` | sources | 0 | — | — |
+| `wiki/sources/mohammadi2024-champa-rice-southwest-iran-carcinogenic-risk\.md` | sources | 0 | — | — |
+| `wiki/sources/moradi2015-iran-isfahan-soil-crops-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/moreda-pineiro2020-rice-arsenic-speciation\.md` | sources | 0 | — | — |
+| `wiki/sources/naseri2015-iran-shiraz-rice-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/palmieri2020-mercury-rice\.md` | sources | 0 | — | — |
+| `wiki/sources/pirsaheb2015-iran-kermanshah-cereals-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/pogoson2020-rice-cooking-cadmium-arsenic\.md` | sources | 0 | — | — |
+| `wiki/sources/rittirong2018-cooked-rice-utensil-metals-thailand\.md` | sources | 0 | — | — |
+| `wiki/sources/roya2016-iran-torbat-heidarieh-rice-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/salehipour2015-iran-isfahan-cereals-vegetables-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/sharafatichaleshtori2016-iran-rice-heavy-metals-review\.md` | sources | 0 | — | — |
+| `wiki/sources/sharafi2019-iran-tehran-rice-brands-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/shi2020-rice-grain-cadmium-global-supply-chain\.md` | sources | 0 | — | — |
+| `wiki/sources/shirani2017-iran-mashhad-rice-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/signes-pastor2016-iAs-rice-iberian-peninsula\.md` | sources | 0 | — | — |
+| `wiki/sources/silva2023-rice-mycotoxins-ias-portugal\.md` | sources | 0 | — | — |
+| `wiki/sources/sun2023-biochar-rice-cadmium-field\.md` | sources | 0 | — | — |
+| `wiki/sources/tatahmentan2020-rice-grains-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/uneyama2007-arsenic-foods-cumulative-data\.md` | sources | 0 | — | — |
+| `wiki/sources/vatanpour2020-iran-tajan-rice-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/wang2019-dietary-lead-guangzhou\.md` | sources | 0 | — | — |
+| `wiki/sources/wang2020-jilin-total-diet-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` | sources | 0 | — | — |
+| `wiki/sources/welna2018-brown-rice-inorganic-arsenic\.md` | sources | 0 | — | — |
+| `wiki/sources/williams2007-rice-arsenic-us-market-basket\.md` | sources | 0 | — | — |
+| `wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\.md` | sources | 0 | — | — |
+| `wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/xu2022-crop-grains-heavy-metals\.md` | sources | 0 | — | — |
 

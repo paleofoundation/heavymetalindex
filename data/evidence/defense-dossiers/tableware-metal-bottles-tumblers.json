@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-metal-bottles-tumblers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e783aacc67df9ef1b50a43a0ec090661b8bcc4db2f60a0dc17eea464a8e78f76",
-      "content_bytes": 8458,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "34bebce0af43a5e8c7fd5319cc27f07d3271ea706e3b900f57a788862e9b9950",
+      "content_bytes": 8783,
+      "last_commit_sha": "1ca3eb0",
+      "last_commit_date": "2026-06-06",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/tableware-metal-bottles-tumblers.md | sha256sum"
+      "verify_command": "git show 1ca3eb0:wiki/products/tableware-metal-bottles-tumblers.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "00e7ec9d495913436d7674d8b685794368ac2988a5f9fa4ecf2093060fd13c75",
-          "content_bytes": 19062,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "c6d6b3536b1ecedfcc9100b248a0d994de4b46bae6da26bcdc4d19a31fc4c20f",
+          "content_bytes": 19130,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
         }
       },
       {
@@ -66,12 +66,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/padoh2023-pahan-727-cpsc-lead-cup-recall",
         "content_pin": {
-          "content_sha256": "8daba526eb816d310476472c7ec984864accf6558d17cfd6f01154c1a757d545",
-          "content_bytes": 17995,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "1f00f2f448e881fb6ea16f006b9f75276612372dc830d6d3d2d9eba8d9fe0751",
+          "content_bytes": 18063,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/padoh2023-pahan-727-cpsc-lead-cup-recall.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/padoh2023-pahan-727-cpsc-lead-cup-recall.md | sha256sum"
         }
       }
     ]

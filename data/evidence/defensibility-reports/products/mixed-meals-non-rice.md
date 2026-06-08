@@ -2,15 +2,15 @@
 source_page: wiki/products/mixed-meals-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 548d4d15cce5256332803c9611be11af09c57e72d85ad4ac908c5a5dab8e5dd9
+source_page_sha256: 140f6351b197c1a10303228b5ceffd44e14764f8f4be940acb39fa3eb42d6fac
 total_claims: 96
 cited_claims: 96
 uncited_claims: 0
-distinct_cited_targets: 30
-distinct_cited_sources: 24
+distinct_cited_targets: 33
+distinct_cited_sources: 27
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 6
-audit_log_total_rows: 789
+audit_log_total_rows: 972
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 96 |
 | cited claims | 96 |
 | uncited claims | 0 |
-| distinct cited targets | 30 |
-| distinct cited `sources/` pages | 24 |
+| distinct cited targets | 33 |
+| distinct cited `sources/` pages | 27 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 6 |
-| audit log rows read | 789 |
+| audit log rows read | 972 |
 
 ## Page-level audit rows
 
@@ -868,14 +868,18 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.008 mg/kg`
 - Context: `tection rates and medians; mixed foods category had highest reported Cd median (0.008 mg/kg) among all baby-food categor`
-- Cited targets (18):
+- Cited targets (21):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -890,6 +894,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/ibrahim2025-metals-flavored-dairy-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
@@ -908,14 +914,18 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `covering mixed-ingredient categories; contributes to the evidence base for the 10 ppb Pb action level applied to mixtur`
-- Cited targets (18):
+- Cited targets (21):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -930,6 +940,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/ibrahim2025-metals-flavored-dairy-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
@@ -948,14 +960,18 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `760 µg/kg`
 - Context: `in 43 Brazilian commercial salty purees (mixed-ingredient infant meals up to 2,760 µg/kg) plus in vitro bioaccessibilit`
-- Cited targets (18):
+- Cited targets (21):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -970,6 +986,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/ibrahim2025-metals-flavored-dairy-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
@@ -988,14 +1006,18 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `653 µg/kg`
 - Context: `concentrations for Al, Sb, tAs, Cd, Cr, Ni, Sn, and V in soups/purees (Al mean 653 µg/kg) and vegetable-based ready-to-`
-- Cited targets (18):
+- Cited targets (21):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -1010,6 +1032,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/ibrahim2025-metals-flavored-dairy-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
@@ -1028,14 +1052,18 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `999 µg/kg`
 - Context: `al category-level means in savoury infant foods/dishes without meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg,`
-- Cited targets (18):
+- Cited targets (21):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -1050,6 +1078,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/ibrahim2025-metals-flavored-dairy-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
@@ -1068,14 +1098,18 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `15 µg/kg`
 - Context: `el means in savoury infant foods/dishes without meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb`
-- Cited targets (18):
+- Cited targets (21):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -1090,6 +1124,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/ibrahim2025-metals-flavored-dairy-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
@@ -1108,14 +1144,18 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `9 µg/kg`
 - Context: `ury infant foods/dishes without meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb 3–5 µg/kg, Ni 6`
-- Cited targets (18):
+- Cited targets (21):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -1130,6 +1170,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/ibrahim2025-metals-flavored-dairy-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
@@ -1148,14 +1190,18 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 µg/kg`
 - Context: `oods/dishes without meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb 3–5 µg/kg, Ni 66–97 µg/kg);`
-- Cited targets (18):
+- Cited targets (21):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -1170,6 +1216,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/ibrahim2025-metals-flavored-dairy-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
@@ -1188,14 +1236,18 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `5 µg/kg`
 - Context: `hout meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb 3–5 µg/kg, Ni 66–97 µg/kg); relevant to no`
-- Cited targets (18):
+- Cited targets (21):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -1210,6 +1262,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/ibrahim2025-metals-flavored-dairy-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
@@ -1228,14 +1282,18 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `97 µg/kg`
 - Context: `,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb 3–5 µg/kg, Ni 66–97 µg/kg); relevant to non-rice mixed-me`
-- Cited targets (18):
+- Cited targets (21):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -1250,6 +1308,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/ibrahim2025-metals-flavored-dairy-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
@@ -1281,11 +1341,13 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/fda-closer-to-zero.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda2025-lead-processed-baby-foods.md` | regulations | 0 | — | — |
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
+| `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` | sources | 0 | — | — |
 | `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` | sources | 0 | — | — |
+| `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md` | sources | 0 | — | — |
@@ -1297,6 +1359,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` | sources | 0 | — | — |
 | `wiki/sources/ibrahim2025-metals-flavored-dairy-egypt\.md` | sources | 0 | — | — |
 | `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` | sources | 0 | — | — |
+| `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` | sources | 0 | — | — |
 | `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` | sources | 0 | — | — |
 | `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` | sources | 0 | — | — |

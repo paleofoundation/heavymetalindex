@@ -160,3 +160,14 @@ Brand attribution: the source does not name individual brands in any of the four
 License confirmed CC-BY 4.0 from source p. 11 (Additional information / Open Access statement). DOI 10.1038/s41598-026-44766-0 resolves to the Nature Scientific Reports article; received 14 August 2025, accepted 13 March 2026, published online 09 April 2026; volume 16, article 16730. Funding: U.S. National Science Foundation grant 2306877. Competing interests: none declared.
 
 Audit subagent (2026-06-08, agent a4f698242d203b557) flagged that the Cashew Cd standard deviation was reported in this page as 0.03 ± 0.01 but source Table 1 (p. 3) reports 0.03 ± 0.02; verified independently against PDF Table 1 — source confirms 0.03 ± 0.02. Cashew Cd SD corrected to 0.03 ± 0.02. The Cashew Cd mean (0.03) is unchanged and the cross-milk-type "Cd 0.03 to 0.17 µg/L (lowest cow/cashew)" range statement remains correct. All other audit checks (slug vocabulary, speciation, methods, Part 12 brand-firewall, Part 2 wiki/HMTc firewall) returned ✅ clean; verdict REVISE with this single SD typo correction.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [207e794](https://github.com/paleofoundation/heavymetalindex/commit/207e794) | 2026-06-08 | audit: good2026-plant-milk-heavy-metals revised |
+| [5e01108](https://github.com/paleofoundation/heavymetalindex/commit/5e01108) | 2026-06-08 | ingest: good2026-plant-milk-heavy-metals fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

@@ -94,3 +94,13 @@ This source contributes direct organotin occurrence data for marine fish and she
 - Speciation: analytes are organotin compounds TBT, DBT, MBT, TPhT, DPhT, and MPhT. Frontmatter uses `Sn` for element-level routing following existing wiki convention, but this page explicitly documents that organotins must not be treated as inorganic tin or total Sn.
 - Brand firewall: samples were obtained from local fishermen by species and fishing site; no brand-level values were reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [de8fdc7](https://github.com/paleofoundation/heavymetalindex/commit/de8fdc7) | 2026-06-08 | manual-fetch stop: MFD weldegebriel2025 second arrival under misleading flavored-water filename |
+<!-- END: hmi-page-history -->

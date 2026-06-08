@@ -69,3 +69,13 @@ This source contributes broad Korean market fishery-product occurrence data for 
 - Table 4 and the discussion conflict on the maximum marine-fish Me-Hg value (`0.322 mg/kg` in Table 4 versus `0.084 mg/kg` in text); the table value is retained for occurrence evidence and the conflict is noted in Key numbers.
 - Brand firewall: samples were grouped by fishery-product category/species and no product brand values were reported.
 - Missing closed-vocabulary slugs: tunicate and echinoderm/sea-urchin-specific product and ingredient slugs were not available in the taxonomy snapshot, so those categories are documented in the body without invented frontmatter slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0a6d119](https://github.com/paleofoundation/heavymetalindex/commit/0a6d119) | 2026-06-08 | ingest: kim2023-korea-fishery-products-metals fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

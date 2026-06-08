@@ -172,3 +172,14 @@ The review does not declare PRISMA-style inclusion/exclusion criteria, risk-of-b
 **Open-access license.** The paper is published by Hindawi Publishing Corporation under the Creative Commons Attribution License (the source text states "open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited"). The license version is not numbered in the source masthead; recorded as CC-BY-3.0 because Hindawi's standard CC-BY policy in early 2013 was version 3.0. If a future audit determines the actual license was CC-BY-2.0 or unversioned, update accordingly.
 
 **Audit subagent (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) all returned ✅. One ⚠️ on the `[[mitigation/remediation-evidence]]` wikilink — the auditor noted this slug is outside the taxonomy snapshot's four-category vocabulary (Ingredients/Products/Metals/Regulations) and asked Karen to confirm the target page exists. Verified independently in the same ingest session: `wiki/mitigation/remediation-evidence.md` exists in the `wiki/mitigation/` subtree, which is the same legitimate routing destination the sibling peptide-folder pages (luo2024, etc.) target under the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The taxonomy snapshot's closed list is GPT-5.5's drafting vocabulary, not the wiki's exhaustive section index. No content corrections applied; the ⚠️ is a snapshot-scope artefact, not a defect in this page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [dbe5c0c](https://github.com/paleofoundation/heavymetalindex/commit/dbe5c0c) | 2026-06-08 | audit: sears2013-chelation-heavy-metal-detoxification-review promoted |
+| [cc9bd35](https://github.com/paleofoundation/heavymetalindex/commit/cc9bd35) | 2026-06-08 | ingest: sears2013-chelation-heavy-metal-detoxification-review fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

@@ -72,3 +72,13 @@ This source provides experimental soil-to-lentil transfer evidence for total ars
 - Speciation: the source measured total arsenic by FI-HG-AAS. It discusses inorganic arsenic toxicity in the background, but the lentil values are not speciated.
 - Brand firewall: no sampled food product brands were reported.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; lentil is routed through the existing lentils/legumes ingredients and the broad legumes-pulses product row.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [29197ac](https://github.com/paleofoundation/heavymetalindex/commit/29197ac) | 2026-06-08 | ingest: alam2019-lentil-arsenic-accumulation fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

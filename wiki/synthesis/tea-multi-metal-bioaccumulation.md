@@ -85,3 +85,13 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 
 The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
 <!-- END: hmi-peer-review -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [03c78ff](https://github.com/paleofoundation/heavymetalindex/commit/03c78ff) | 2026-06-08 | synthesis: promote tea (Camellia sinensis) multi-metal bioaccumulation — 8 anchors |
+<!-- END: hmi-page-history -->

@@ -152,3 +152,14 @@ Funded by NIH, the Rita Allen Foundation, the Lucille P. Markey Charitable Trust
 - **Finding 2 (n attribution for high-dose Cd protection arms, ❌):** verified PDF p. 5647 col. 2 states "The testes of mice given a single injection of 1 mg of Cd per kg after pretreatment with saline (n = 6)…weighed approximately half as much as those from mice injected with saline after the saline pretreatment (n = 5)" and "Mice pretreated with CdSO₄ showed no such decrease in testicle weight (n = 4)." The wiki had labelled the half-weight (saline-pretreatment → Cd-challenge) arm as n=4; the correct n for that arm is n=6, with n=5 the saline-only control. The n=4 belongs to the Cd-pretreated → Cd-challenge "no decrease" arm. Rewrote the bullet to reflect the source's three-arm structure (n=6 Cd-after-saline, n=5 saline-only control, n=4 Cd-after-Cd).
 
 2 findings, 2 applied, 0 rejected. Audit subagent ID a9f6f632d54da1a39.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [de0b14e](https://github.com/paleofoundation/heavymetalindex/commit/de0b14e) | 2026-06-08 | audit: garrity1990-mt1-tissue-specific-promoter revised |
+| [9792010](https://github.com/paleofoundation/heavymetalindex/commit/9792010) | 2026-06-08 | ingest: garrity1990-mt1-tissue-specific-promoter fresh from MFK/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

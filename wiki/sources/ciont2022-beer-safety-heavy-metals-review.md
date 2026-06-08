@@ -102,3 +102,14 @@ The jurisdictions list includes GLOBAL because the review draws on European, Asi
 The source PDF has an internal citation-numbering inconsistency in its heavy-metals section: the in-text citation numbers in the body do not match the slot numbers in the reference list for at least two papers in Section 4.2. Page 11 cites Blanco's 2010 aluminium-in-beer paper as "[73]" in the body, but reference-list slot [73] is Soares and Soares 2012 ("Bioremediation of industrial effluents containing heavy metals using brewing cells of Saccharomyces cerevisiae as a green technology"); the Blanco paper is at slot [79]. Page 12 cites Han's 2006 Cu/Pb biosorption paper as "[80]" in the body, but reference-list slot [80] is Redan et al. 2019 ("Factors affecting transfer of the heavy metals arsenic, lead, and cadmium from diatomaceous-earth filter aids to alcoholic beverages during laboratory-scale filtration"); the Han paper is at slot [86]. This page resolves the ambiguity by using the reference-list slot numbers throughout (Blanco=[79], Han=[86]), because those are the numbers that correctly resolve to the cited papers; the body-text numbers are noted parenthetically where each paper first appears so a later reader who is comparing this wiki page to the PDF body text can find the alignment without losing time to the PDF's own bookkeeping defect. The Eticha and Hymete reference is at slot [72] in both the body text and the reference list, so that citation is unambiguous.
 
 Audit subagent (2026-06-06) raised both reference-number mismatches as ⚠️ concerns; both verified against the source PDF reference list (pages 16–19) and applied as a citation-bookkeeping correction with this verification note.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [20a969f](https://github.com/paleofoundation/heavymetalindex/commit/20a969f) | 2026-06-06 | audit: ciont2022-beer-safety-heavy-metals-review [revised] |
+| [0f9cd1a](https://github.com/paleofoundation/heavymetalindex/commit/0f9cd1a) | 2026-06-06 | ingest: ciont2022-beer-safety-heavy-metals-review [fresh] from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

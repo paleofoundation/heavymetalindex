@@ -17,18 +17,42 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-powders",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "dadf42024d1e306f64d4c5712ee55f8de3fc085a9d410f4f00b1d82ff1c8c791",
-      "content_bytes": 8032,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "ff6360eee3789a2ca141a6f01c04a519a600f8b384940d7969c2a2b37136e642",
+      "content_bytes": 8629,
+      "last_commit_sha": "1ca3eb0",
+      "last_commit_date": "2026-06-06",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/supplements-oral-solids-powders.md | sha256sum"
+      "verify_command": "git show 1ca3eb0:wiki/products/supplements-oral-solids-powders.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/brizio2013-italian-food-supplements-metals",
+        "title": "Heavy metals occurrence in Italian food supplements",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/brizio2013-italian-food-supplements-metals",
+        "content_pin": {
+          "content_sha256": "cf2d1aa5cd7c0828e8314e9bcf3a7c8d9c23650427602c37e114a8ab1840e04b",
+          "content_bytes": 4816,
+          "last_commit_sha": "fba840f",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show fba840f:wiki/sources/brizio2013-italian-food-supplements-metals.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/sochacka2025-spirulina-chlorella-supplements-poland",
         "title": "Spirulina and Chlorella Dietary Supplements—Are They a Source Solely of Valuable Nutrients?",
@@ -57,12 +81,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sochacka2025-spirulina-chlorella-supplements-poland",
         "content_pin": {
-          "content_sha256": "8c79c664462e545eebf77d7b84a0755af02fe397c3ad0ac699fa3228f29700cb",
-          "content_bytes": 23319,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "fd7971d9d7dc253e3e238a359c673e49e40a9283d4b3504e447ca7df129bb892",
+          "content_bytes": 24114,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
         }
       }
     ]

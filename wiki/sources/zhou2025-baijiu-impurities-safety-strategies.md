@@ -148,3 +148,14 @@ No HMTc threshold proposals, no consumer-audience translations, no risk advisori
 The unit harmonisation across the Pb and Cd values: the review reports both in µg/L (parts-per-billion equivalent for an aqueous matrix), while the Chinese regulatory cap is in mg/kg. For a distilled-spirit matrix near 1 g/mL density, µg/L and µg/kg are equivalent to within ~1%; both are equivalent to ppb. The 0.5 mg/kg regulatory cap corresponds to ~500 µg/L. No unit conversion was applied; both bases are reported as the underlying sources gave them, with the harmonised µg/L-vs-mg/kg comparison flagged inline.
 
 Audit subagent (2026-06-06) ran the five-check audit against this page and the underlying PDF and returned a PROMOTE verdict with three minor advisory flags. Two were verified and applied: (1) the editorial "(DDT)" gloss next to Chofenotane in the pesticide-table row was removed because the PDF does not state DDT-equivalence — Chofenotane appears unannotated in PDF Table 3 (p. 10); (2) the Bai-2021 attribution was split so the 39.8–74.2% fermentation reduction is attributed to Bai et al. Food Chem. 2021 [ref 9] (PDF p. 3) and the >90% distillation degradation is attributed to Bai PhD Thesis Hunan University 2021 [ref 17] (PDF p. 4) — the prior conflation was a citation-mapping error and is now corrected. The third advisory (matrices-vocabulary verification for `distilled-spirit`) was applied as an in-page flag for Karen's matrix-vocabulary review rather than a content correction. The audit also confirmed numerical fidelity to PDF Table 3 across heavy metals, phthalates, mycotoxins, pesticides, and sweetener distributions; confirmed Part 12 brand-firewall handling on Maotai/Wuliangye/Kongfuyan (generalised), Gansu Pukang/Zuiyuanchun (Exception-1 subjects, non-inclusion), and Wuliangye funding disclosure (Provenance placement); and confirmed Part 2 wiki/HMTc firewall — no threshold recommendations, no consumer advisories, no synthesis-consensus framing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c9d5449](https://github.com/paleofoundation/heavymetalindex/commit/c9d5449) | 2026-06-06 | audit: zhou2025-baijiu-impurities-safety-strategies [promoted] |
+| [024c257](https://github.com/paleofoundation/heavymetalindex/commit/024c257) | 2026-06-06 | ingest: zhou2025-baijiu-impurities-safety-strategies [fresh] from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

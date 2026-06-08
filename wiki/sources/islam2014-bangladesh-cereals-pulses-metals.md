@@ -90,3 +90,13 @@ This source supplies Bangladesh field-crop occurrence evidence for total/unspeci
 - Speciation: arsenic is reported as total/unspecified `As`; the source models carcinogenic risk using a `90%` inorganic-arsenic assumption, but the occurrence data are not measured iAs. Chromium is total/unspecified Cr, not Cr(VI).
 - Brand firewall: field-collected crop samples are not brand-labeled, and no brand names are attached to contamination values.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; narrow product slugs for black gram and lentil are not available, so broad legumes/pulses routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [94737ef](https://github.com/paleofoundation/heavymetalindex/commit/94737ef) | 2026-06-08 | ingest: islam2014-bangladesh-cereals-pulses-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

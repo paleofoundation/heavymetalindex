@@ -127,3 +127,14 @@ The Pearson r values in Figure 7A (²⁰⁶Pb/²⁰⁷Pb vs 1/C_Pb) are Belgrade
 Provisional product scaffolds were not required: the source touches [[products/fermented-beverages-non-tea-based]], which already exists in the taxonomy. No new ingredient pages are proposed; grapes is the only ingredient slug and already exists.
 
 Audit subagent (2026-06-06) flagged a Check 5 ⚠️ in the original Implications/Certification bullet: a wiki-side cross-source comparison to [[bora2015-vineyard-wine-heavy-metals-romania]] ("wider margin to OIV than the bora2015 micro-vinified wines") that the Đurđić paper itself does not make. Verified against the source — the paper compares the Serbian wines to European/Australian/Romanian-Moldavian wines from the LIR literature only, not to the Bora 2015 Cu/Pb wine values. The cross-source synthesis was added by Claude during drafting and violates Part 2 (synthesis is a separate Part 9 workflow, not a per-source contribution). Comparison stripped; the within-paper OIV-ratio framing retained. All other audit checks ✅ clean (Checks 1, 2, 3, 4); Check 5 has no other concerns.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [dd145bd](https://github.com/paleofoundation/heavymetalindex/commit/dd145bd) | 2026-06-06 | audit: durdjic2021-lead-isotopes-wine-origin [revised] |
+| [175eac2](https://github.com/paleofoundation/heavymetalindex/commit/175eac2) | 2026-06-06 | ingest: durdjic2021-lead-isotopes-wine-origin [fresh] from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

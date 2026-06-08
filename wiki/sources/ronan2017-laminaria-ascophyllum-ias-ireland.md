@@ -72,3 +72,14 @@ Whole thalli were collected at low tide (Spiddal, Galway Bay; 53.2409 N, −9.30
 - matrices [edible-seaweed, macroalgae, kelp, dry-weight] per corpus convention; `kelp` is directly warranted (L. digitata).
 - Instrument/CRM/vendor names (Agilent, Hamilton, Mars 5/Ethos Up, BCR-211, ERM-CD200) retained in Methods as permitted scientific reporting.
 - Audit subagent (2026-06-08, fresh-context) returned PROMOTE on all five checks; speciation fidelity (tAs vs iAs-as-As(V) by species and thallus part) verified exact with no transposition. One ⚠️ applied: intro prose understated the A. nodosum inorganic-As maximum as "≤0.70"; verified against source (0.703 mg/kg DW, Results) and corrected to "≤0.703". Matrices-vocabulary ⚠️ left as-noted (corpus convention, documented above).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f732e64](https://github.com/paleofoundation/heavymetalindex/commit/f732e64) | 2026-06-08 | audit: ronan2017-laminaria-ascophyllum-ias-ireland revised |
+| [ab2b5a0](https://github.com/paleofoundation/heavymetalindex/commit/ab2b5a0) | 2026-06-08 | ingest: ronan2017-laminaria-ascophyllum-ias-ireland fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

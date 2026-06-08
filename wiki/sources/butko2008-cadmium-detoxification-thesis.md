@@ -158,3 +158,14 @@ Tables:
 - **Finding 3 (metals frontmatter coverage):** verified that the Fe deficit is named in the published Chapter 1 paper title ("the effect of cadmium on iron translocation") and is one of three principal findings. Expanded frontmatter from `metals: [Cd]` to `metals: [Cd, Fe]` so the routing layer fans this source to [[metals/iron]] as direct evidence. The Verification-notes Metals-frontmatter paragraph was updated to reflect the change.
 
 3 findings, 3 applied, 0 rejected. Audit subagent ID a36ad898dba2b309d.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [927fa84](https://github.com/paleofoundation/heavymetalindex/commit/927fa84) | 2026-06-08 | audit: butko2008-cadmium-detoxification-thesis promoted |
+| [db200d4](https://github.com/paleofoundation/heavymetalindex/commit/db200d4) | 2026-06-08 | ingest: butko2008-cadmium-detoxification-thesis fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

@@ -104,3 +104,14 @@ The Table 5 standard-limit values (Zn 5, Cd 0.01, Pb 0.1, Cu 5 mg/100 g) are not
 The paper's Sampling section lists 22 commercial brand names by name while the same section states "25 different commercial kinds of green and black tea" were monitored, and the abstract repeats the 25-brand count; this page reports 25 brands to match the source's stated total rather than the 22-name enumeration.
 
 Audit subagent (2026-06-07) flagged `products/tea` as absent from the taxonomy snapshot; verified independently against docs/gpt-collaboration/taxonomy-snapshot.md line 45 — finding was a false positive because the `tea` product slug is present in the snapshot's Products line alongside `tea-infusions` and `true-tea-camellia-sinensis`. No frontmatter change applied.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5dce0bd](https://github.com/paleofoundation/heavymetalindex/commit/5dce0bd) | 2026-06-07 | audit: jannat2018-iran-tea-heavy-metals revised |
+| [175d297](https://github.com/paleofoundation/heavymetalindex/commit/175d297) | 2026-06-07 | ingest: jannat2018-iran-tea-heavy-metals fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

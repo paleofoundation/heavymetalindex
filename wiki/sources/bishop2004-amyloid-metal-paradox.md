@@ -166,3 +166,14 @@ The authors conclude that Aβ in vivo may have a normal antioxidant function —
 - ⚠️ The audit also flagged `[[mitigation/remediation-evidence]]` as outside the taxonomy snapshot's four-category vocabulary. Verified that `wiki/mitigation/remediation-evidence.md` exists; the mitigation/ subtree is a legitimate routing destination per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip` and is the same routing slug used on [[sources/luo2024-peptides-heavy-metal-remediation]]. No correction needed; the slug is valid wiki content outside the snapshot's four-category drafting vocabulary.
 
 The audit subagent recommended quarantining the page and rewriting Key numbers from scratch. Instead, the corrections were applied in place — the underlying paper-faithful re-reads were straightforward once the misattributions were identified, and the rest of the page (frontmatter, methods, slug routing, firewall posture, limitations) all passed audit clean. Page is downgraded from QUARANTINE to REVISE-applied.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f7072bd](https://github.com/paleofoundation/heavymetalindex/commit/f7072bd) | 2026-06-08 | audit: bishop2004-amyloid-metal-paradox revised |
+| [42af497](https://github.com/paleofoundation/heavymetalindex/commit/42af497) | 2026-06-08 | ingest: bishop2004-amyloid-metal-paradox fresh from MFK/June 8 Black Market Peptide Metal Survey |
+<!-- END: hmi-page-history -->

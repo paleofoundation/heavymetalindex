@@ -72,3 +72,13 @@ This source contributes Thai-market rice-grain occurrence data for Cr, Mn, Co, N
 - Speciation: the occurrence table reports total As. The inorganic As note is explicitly source-estimated by a 70% conversion factor from total As and is not a measured HPLC-ICP-MS speciation result. Chromium is reported as Cr, not Cr-VI.
 - Brand firewall: the source reports rice varieties and provinces, not brands; no brand-specific contamination values are repeated.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [efeb675](https://github.com/paleofoundation/heavymetalindex/commit/efeb675) | 2026-06-08 | ingest: kukusamude2020-thai-rice-heavy-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

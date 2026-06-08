@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/odor-removers-hard-surfaces",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "18e94728002a4ce5d1835b63607215a93dc52b859ef2b5f29c93a44dcdce4e62",
-      "content_bytes": 9757,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "ab99096bc8df950b7102e5a49a8e307edb0c3dda2b87906b30d47a4d61cc287b",
+      "content_bytes": 10241,
+      "last_commit_sha": "1ca3eb0",
+      "last_commit_date": "2026-06-06",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/odor-removers-hard-surfaces.md | sha256sum"
+      "verify_command": "git show 1ca3eb0:wiki/products/odor-removers-hard-surfaces.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/greenseal2022-gs52-specialty-household-cleaners",
         "content_pin": {
-          "content_sha256": "e3f4538a19debf8821e2d4a5b2fb4eb6e7541dc9864e2b1d9e5770426f630009",
-          "content_bytes": 82500,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "f8d4e4bc3bfd20d3696d60570c0d80db9aabed086ab62c28c542203b56fb7952",
+          "content_bytes": 83852,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/greenseal2022-gs52-specialty-household-cleaners.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/greenseal2022-gs52-specialty-household-cleaners.md | sha256sum"
         }
       },
       {
@@ -73,12 +73,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
         "content_pin": {
-          "content_sha256": "ace30203933264826c3a541fc4cd0f4499bd2f6aea4059b51f625affd77c9426",
-          "content_bytes": 47811,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "30bf9e55be09d1b4a7ff7a4fdb934ebfcb9d7b2c8b8f212672767bf89b916fa1",
+          "content_bytes": 49086,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
         }
       }
     ]

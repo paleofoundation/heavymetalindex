@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/menstrual-cups",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f501ba97210b9736b3565b93d7fac2fea9c3aa2575471fc5820a6c99d5f83406",
-      "content_bytes": 7341,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "128b5ef3a7073bd322f8b615c075a7667d2b1538be541ec6a5eb86b638ca74bf",
+      "content_bytes": 7409,
+      "last_commit_sha": "c679df8",
+      "last_commit_date": "2026-06-08",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/menstrual-cups.md | sha256sum"
+      "verify_command": "git show c679df8:wiki/products/menstrual-cups.md | sha256sum"
     }
   },
   "evidence_base": {

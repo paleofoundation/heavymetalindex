@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-marine-non-predatory.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 40bd7842a89b4cbf4675143753e5f85dc2d9e2d4cd812c075cdf9321091fc004
-total_claims: 1
-cited_claims: 0
+source_page_sha256: 80f90c95f0054a4f9a004cd07341cdb6c607de6af1d160cd64be62d1b7ac46ee
+total_claims: 2
+cited_claims: 1
 uncited_claims: 1
-distinct_cited_targets: 0
-distinct_cited_sources: 0
+distinct_cited_targets: 211
+distinct_cited_sources: 211
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 789
+audit_log_total_rows: 972
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
-| cited claims | 0 |
+| total claims | 2 |
+| cited claims | 1 |
 | uncited claims | 1 |
-| distinct cited targets | 0 |
-| distinct cited `sources/` pages | 0 |
+| distinct cited targets | 211 |
+| distinct cited `sources/` pages | 211 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 789 |
+| audit log rows read | 972 |
 
 ## Page-level audit rows
 
@@ -50,6 +50,434 @@ This report joins every numerical claim on the page to its citation chain and th
 - Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 50 ppb | 0 | data gap | Basis not report`
 - Cited targets: **none in section** — claim has no traceable provenance
 
+### Sources
+
+#### Claim `0.3 mg/L`
+- Context: `romis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) | |`
+- Cited targets (211):
+  - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/akkaya2025-marmara-fishery-products-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/albuquerque2026-fish-toxic-elements-western-para\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/aljufaili2024-garra-shamal-oman\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/alsulaiti2023-qatar-fish-mehg\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/amodio-cocchieri2000-farmed-fish-shellfish-alkyltins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/auzier-guimaraes2025-mercury-tapajos-fish\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bae2023-tuna-heavy-metals-korea\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bakhshalizadeh2024-caspian-sturgeon-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/baki2018-st-martin-seafood-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/balzani2026-fish-metals-dalyan-lake\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bandara2010-cadmium-rice-sri-lanka-crf\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bao2024-sp-icp-ms-nps-mussels\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barquero2024-mercury-bass-almaden-spain\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bauer2023-brazilian-sardine-metal-risk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bazie2022-burkina-faso-foodstuffs-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/benjamin2023-canned-fish-ghana\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/berber2024-crayfish-metal-content-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2024-methylmercury-fish-seafood-germany\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bhoyroo2015-scombrids-heavy-metals-mauritius\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bjerregaard2023-mercury-mussels-denmark\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/blanco2023-mercury-fish-valencia\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bondareva2024-sturgeon-arsenic-processing\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/brima2025-african-foods-uk-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/brodziak-dopierala2023-mercury-fish-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/brooke1981-fish-shellfish-inorganic-arsenic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bruno2024-metals-mussels-clams-faro-lake-sicily\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cardoso2023-mercury-portuguese-coast-seafood\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfs2013-hktds-metallic-contaminants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfs2019-organotin-aquatic-hongkong\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/chamorro2024-bluefin-tuna-mercury-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/chavez-capilla2022-arsenolipids-seafood\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/chou-uthe1993-cadmium-american-lobster-belledune\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/christian2024-caribbean-fish-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/chung2020-hong-kong-seafood-organotins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cirillo2010-campania-seafood-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cleary2021-fish-consumption-advisories-usa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/copat2013-mediterranean-fish-shellfish-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka2003-canadian-total-diet-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/de-anda-montanez2023-baja-red-crab-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/delima2021-metals-canned-tuna-sardines-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depaiva2017-canned-tuna-metals-sao-paulo\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dibella2020-augusta-meat-milk-seafood-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dietz2025-arctic-mercury-isotopes-greenland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dineshkumar2025-fish-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/diogene2023-rascs-contaminants-seafood\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/djedjibegovic2020-bih-commercial-seafood-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dogruyol2024-mediterranean-mussels-health-risk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ec2004-scoop-heavy-metals-dietary-exposure\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa-lead-contam-2010\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa-sc2015-fish-seafood-mehg-risk-benefit\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2004-organotins-foodstuffs\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2012-cadmium-dietary-exposure-europe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2024-organoarsenic-species\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/epa1997-arsenic-fish-shellfish\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/epa1999-mercury-update-fish-advisories\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/escobar-camacho2024-mercury-fish-ecuador-amazon\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/falconer1983-north-sea-seafood-arsenic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fattorini2004-cienfuegos-seafood-arsenic-speciation\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fattorini2006-marine-organisms-arsenic-speciation\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fera2015-uk-tds-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsanz2019-25th-australian-total-diet-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fuenteslopez2025-colombia-freshwater-fish-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/gongora-gomez2017-oysters-gulf-california-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/gongora-gomez2018-pen-shell-seasonal-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/grandjean2010-methylmercury-health-research\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/groleau2025-inuit-fish-broth-metals-pregnancy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/gu2014-liaoning-canned-fish-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/guan2014-soil-heavy-metal-food-safety-china\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/gutierrez-ravelo2020-sarpa-salpa-metals-canary\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hall2023-methylmercury-tidal-marsh\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/handayani2019-tuna-swordfish-indonesia-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/harada1995-minamata-methylmercury-poisoning\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/harding2018-bay-fundy-methylmercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hardisson2017-aluminium-dietary-exposure-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/helcom2017-core-indicator-metals-baltic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ho2014-hong-kong-seafood-organotins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hoy2023-arsenic-speciation-freshwater-fish\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hsi2016-fish-methylmercury-taiwan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hu2006-tpt-tbt-trophic-bohai-bay\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hull2023-arsenic-lake-foodweb\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hussein2023-freshwater-marine-fish-egypt\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hussein2024-toxic-metals-canned-fish-egypt\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/janiga2024-alpine-bullhead-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jesse2025-unknown\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/jiang2026-organotin-seafood-hong-kong\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/job2023-thondi-fish-metal-bioaccumulation\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/kaise1988-marine-organisms-arsenic-speciation\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/kazimov2014-dietary-heavy-metals-azerbaijan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/kim2023-korea-fishery-products-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/kimakova2018-fish-products-slovakia-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/kovacik2024-grass-carp-muscle-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/kurniawati2021-jakarta-staple-foods-naa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/leclerc2023-methylmercury-periphyton-river\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/lee2016-taiwan-seafood-organotins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/lehel2018-hungary-seafood-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/lehel2023-yellowfin-tuna-indian-ocean\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/lepak2025-mercury-sport-fish-colorado-correction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/lepak2026-mehg-depuration-fish-consumption\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/li2024-global-fisheries-mehg\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/li2025-ratiometric-fluorescent-sensor-al-cu-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/liang2019-beijing-foodstuffs-health-risk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/lin2021-taiwan-seafood-mercury-tds\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/liu2021-arsenolipids-seafood\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/liu2023-arsenic-seafood-digestion\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/llorente-mirandes2016-ias-food-analytical-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/lordan2022-brown-crab-cadmium-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/lorenzana2009-seafood-arsenic-speciation\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/loutfy2012-ismailia-foodstuffs-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/lozano-bilbao2023-canary-tuna-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/luvonga2021-seafood-arsenic-speciation\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/macdonald2025-fss-uk-fishery-contaminants-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/maikanov2020-fish-products-shuchinsk-burabay-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/mansour2014-monitoring-health-risk-food-chapter\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/mariadi2017-juaro-fish-pineapple-extract-pb-hg\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/mehouel2019-sardine-swordfish-algeria-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/mehouel2021-algeria-seafood-metals-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/mititelu2025-heavy-metal-food-contamination-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/morshdy2023-heavy-metals-salted-fish-egypt\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/motta2022-marine-hg-isotopes\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/moura2022-hg-jaguaribe-estuary\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/munoz1999-seafood-inorganic-arsenic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/naess2020-norwegian-seafood-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/najem2024-metals-common-carp-iraq\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/naseem2026-seasonal-heavy-metals-water-fish\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/naz2025-trace-elements-punjnad-fish\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/nielsen1975-nz-molluscs-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/norin1985-swedish-fish-arsenic-speciation\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/novakov2021-serbia-mussels-metals-pahs\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/okonofua2024-mining-pits-cabbage-fish-nigeria\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oktariani2023-tuna-swordfish-indian-pacific-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/olgunoglu2025-scorpionfish-izmir-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/olmedo2013-andalusia-fish-shellfish-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/onyegeme-okerenta2023-shellfish-nigeria\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ormaza-gonzalez2020-tuna-canned-eastern-pacific\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ospar2022-metals-fish-shellfish-sediment\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/paez-osuna2024-fish-mercury-selenium-mexico\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/paezosuna2024-tilapia-mining-dams\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pappalardo2017-canned-tuna-metals-italy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/park2005-korean-seafood-arsenic-speciation\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pawlaczyk2020-mercury-canned-fish-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/paz-suconota2024-mercury-fish-pastaza-ecuador\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pazi2017-aegean-fish-metal-risk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pereira2008-ria-aveiro-mercury-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/raju2021-bivalves-cagayan-philippines\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ralston2014-selenium-hbv-methylmercury-seafood\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ramos-miras2023-pte-shrimp-ecuador\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/reinke1975-fish-shellfish-inorganic-arsenic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/reksten2020-angola-fish-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/reksten2021-bay-bengal-fish-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/rohonczy2024-arctic-foodweb-cd-hg\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/romero-estevez2020-bivalves-santa-rosa-ecuador\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/rundio2022-mercury-trout-california\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/rusko2026-mercury-fish-latvia-risk-benefit\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sadee2024-arsenic-speciation-marine-organisms-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sadighara2021-food-organotin-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sarker2022-bangladesh-food-webs-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/schaefer2020-cadmium-mitigation-strategies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/schoof2007-seafood-arsenic-speciation\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sepulveda2020-callista-clam-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shue2012-bivalves-tapeng-taiwan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shumba2025-tilapia-mercury-zambia-mining\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/simionov2023-danube-fish-seafood-pte-microplastics\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/singhato2025-thailand-seafood-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sirisangarunroj2023-thai-fish-toxic-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/smolikova2016-heavy-metals-fish-czech\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sonke2023-mercury-global-change\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/suomi2023-finland-dietary-metals-cumulative\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/suzuki2022-nano-mercury-seafood-exposure\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tamele2020-african-seafood-metals-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/taylor2025-seafood-benefits-contaminants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tolkou2023-fish-heavy-metals-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/uc-peraza2022-yucatan-seafood-organotins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/uneyama2007-arsenic-foods-cumulative-data\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/uthayarajan2025-cdku-food-water-sri-lanka-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/uzomah2021-nigeria-fish-contaminants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/vainio2022-baltic-mercury-food-web\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/valencia2021-canacao-bay-oyster-pb-cd\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/vejrup2022-prenatal-mehg-fish-behavior\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/venant2025-lake-victoria-sardine-cd-pb\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/vicarova2016-common-carp-czech-reservoirs\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/wang2019-dietary-lead-guangzhou\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/wang2020-jilin-total-diet-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/wang2023-climate-marine-mercury\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/watanabe2017-retail-fish-mercury-methylmercury-japan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/willacker2023-mercury-fish-snake-river\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/wu2025-climate-meghan-freshwater-fish-china\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/xia2025-whole-cell-biosensor-hg-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/xu2025-heavy-metals-aquatic-foods-global\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/yamashita2024-laep-oes-hg-tuna-japan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/yap-almutairi2022-nickel-seafood-malaysia\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/zahran2023-mercury-tilapia-nannochloropsis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/zanon2008-venice-lagoon-organotins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/zhao2016-xiamen-seafood-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/zhao2024-toxic-metals-metalloids-food-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/zhuzhassarova2024-fish-seafood-central-asia-review\.md` (page missing)
+    - audit rows: none
+
 ## Uncited claims
 
 These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
@@ -58,5 +486,217 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` | sources | 0 | — | — |
+| `wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador\.md` | sources | 0 | — | — |
+| `wiki/sources/akkaya2025-marmara-fishery-products-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/albuquerque2026-fish-toxic-elements-western-para\.md` | sources | 0 | — | — |
+| `wiki/sources/aljufaili2024-garra-shamal-oman\.md` | sources | 0 | — | — |
+| `wiki/sources/alsulaiti2023-qatar-fish-mehg\.md` | sources | 0 | — | — |
+| `wiki/sources/amodio-cocchieri2000-farmed-fish-shellfish-alkyltins\.md` | sources | 0 | — | — |
+| `wiki/sources/atsdr2005-tin-toxicological-profile\.md` | sources | 0 | — | — |
+| `wiki/sources/auzier-guimaraes2025-mercury-tapajos-fish\.md` | sources | 0 | — | — |
+| `wiki/sources/bae2023-tuna-heavy-metals-korea\.md` | sources | 0 | — | — |
+| `wiki/sources/bakhshalizadeh2024-caspian-sturgeon-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/baki2018-st-martin-seafood-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/balzani2026-fish-metals-dalyan-lake\.md` | sources | 0 | — | — |
+| `wiki/sources/bandara2010-cadmium-rice-sri-lanka-crf\.md` | sources | 0 | — | — |
+| `wiki/sources/bao2024-sp-icp-ms-nps-mussels\.md` | sources | 0 | — | — |
+| `wiki/sources/barquero2024-mercury-bass-almaden-spain\.md` | sources | 0 | — | — |
+| `wiki/sources/bauer2023-brazilian-sardine-metal-risk\.md` | sources | 0 | — | — |
+| `wiki/sources/bazie2022-burkina-faso-foodstuffs-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/benjamin2023-canned-fish-ghana\.md` | sources | 0 | — | — |
+| `wiki/sources/berber2024-crayfish-metal-content-turkey\.md` | sources | 0 | — | — |
+| `wiki/sources/bfr2024-methylmercury-fish-seafood-germany\.md` | sources | 0 | — | — |
+| `wiki/sources/bhoyroo2015-scombrids-heavy-metals-mauritius\.md` | sources | 0 | — | — |
+| `wiki/sources/bjerregaard2023-mercury-mussels-denmark\.md` | sources | 0 | — | — |
+| `wiki/sources/blanco2023-mercury-fish-valencia\.md` | sources | 0 | — | — |
+| `wiki/sources/bondareva2024-sturgeon-arsenic-processing\.md` | sources | 0 | — | — |
+| `wiki/sources/brima2025-african-foods-uk-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/brodziak-dopierala2023-mercury-fish-poland\.md` | sources | 0 | — | — |
+| `wiki/sources/brooke1981-fish-shellfish-inorganic-arsenic\.md` | sources | 0 | — | — |
+| `wiki/sources/bruno2024-metals-mussels-clams-faro-lake-sicily\.md` | sources | 0 | — | — |
+| `wiki/sources/cardoso2023-mercury-portuguese-coast-seafood\.md` | sources | 0 | — | — |
+| `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` | sources | 0 | — | — |
+| `wiki/sources/cfs2013-hktds-metallic-contaminants\.md` | sources | 0 | — | — |
+| `wiki/sources/cfs2019-organotin-aquatic-hongkong\.md` | sources | 0 | — | — |
+| `wiki/sources/chamorro2024-bluefin-tuna-mercury-review\.md` | sources | 0 | — | — |
+| `wiki/sources/chavez-capilla2022-arsenolipids-seafood\.md` | sources | 0 | — | — |
+| `wiki/sources/chou-uthe1993-cadmium-american-lobster-belledune\.md` | sources | 0 | — | — |
+| `wiki/sources/christian2024-caribbean-fish-mercury\.md` | sources | 0 | — | — |
+| `wiki/sources/chung2020-hong-kong-seafood-organotins\.md` | sources | 0 | — | — |
+| `wiki/sources/cirillo2010-campania-seafood-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/cleary2021-fish-consumption-advisories-usa\.md` | sources | 0 | — | — |
+| `wiki/sources/copat2013-mediterranean-fish-shellfish-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/dabeka2003-canadian-total-diet-mercury\.md` | sources | 0 | — | — |
+| `wiki/sources/de-anda-montanez2023-baja-red-crab-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/delima2021-metals-canned-tuna-sardines-brazil\.md` | sources | 0 | — | — |
+| `wiki/sources/depaiva2017-canned-tuna-metals-sao-paulo\.md` | sources | 0 | — | — |
+| `wiki/sources/dibella2020-augusta-meat-milk-seafood-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/dietz2025-arctic-mercury-isotopes-greenland\.md` | sources | 0 | — | — |
+| `wiki/sources/digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/dineshkumar2025-fish-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/diogene2023-rascs-contaminants-seafood\.md` | sources | 0 | — | — |
+| `wiki/sources/djedjibegovic2020-bih-commercial-seafood-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/dogruyol2024-mediterranean-mussels-health-risk\.md` | sources | 0 | — | — |
+| `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` | sources | 0 | — | — |
+| `wiki/sources/ec2004-scoop-heavy-metals-dietary-exposure\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa-lead-contam-2010\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa-sc2015-fish-seafood-mehg-risk-benefit\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa2004-organotins-foodstuffs\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa2012-cadmium-dietary-exposure-europe\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa2024-organoarsenic-species\.md` | sources | 0 | — | — |
+| `wiki/sources/epa1997-arsenic-fish-shellfish\.md` | sources | 0 | — | — |
+| `wiki/sources/epa1999-mercury-update-fish-advisories\.md` | sources | 0 | — | — |
+| `wiki/sources/escobar-camacho2024-mercury-fish-ecuador-amazon\.md` | sources | 0 | — | — |
+| `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` | sources | 0 | — | — |
+| `wiki/sources/falconer1983-north-sea-seafood-arsenic\.md` | sources | 0 | — | — |
+| `wiki/sources/fattorini2004-cienfuegos-seafood-arsenic-speciation\.md` | sources | 0 | — | — |
+| `wiki/sources/fattorini2006-marine-organisms-arsenic-speciation\.md` | sources | 0 | — | — |
+| `wiki/sources/fera2015-uk-tds-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/fsanz2019-25th-australian-total-diet-study\.md` | sources | 0 | — | — |
+| `wiki/sources/fuenteslopez2025-colombia-freshwater-fish-mercury\.md` | sources | 0 | — | — |
+| `wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\.md` | sources | 0 | — | — |
+| `wiki/sources/gongora-gomez2017-oysters-gulf-california-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/gongora-gomez2018-pen-shell-seasonal-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/grandjean2010-methylmercury-health-research\.md` | sources | 0 | — | — |
+| `wiki/sources/groleau2025-inuit-fish-broth-metals-pregnancy\.md` | sources | 0 | — | — |
+| `wiki/sources/gu2014-liaoning-canned-fish-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/guan2014-soil-heavy-metal-food-safety-china\.md` | sources | 0 | — | — |
+| `wiki/sources/gutierrez-ravelo2020-sarpa-salpa-metals-canary\.md` | sources | 0 | — | — |
+| `wiki/sources/hall2023-methylmercury-tidal-marsh\.md` | sources | 0 | — | — |
+| `wiki/sources/handayani2019-tuna-swordfish-indonesia-mercury\.md` | sources | 0 | — | — |
+| `wiki/sources/harada1995-minamata-methylmercury-poisoning\.md` | sources | 0 | — | — |
+| `wiki/sources/harding2018-bay-fundy-methylmercury\.md` | sources | 0 | — | — |
+| `wiki/sources/hardisson2017-aluminium-dietary-exposure-review\.md` | sources | 0 | — | — |
+| `wiki/sources/helcom2017-core-indicator-metals-baltic\.md` | sources | 0 | — | — |
+| `wiki/sources/ho2014-hong-kong-seafood-organotins\.md` | sources | 0 | — | — |
+| `wiki/sources/hoy2023-arsenic-speciation-freshwater-fish\.md` | sources | 0 | — | — |
+| `wiki/sources/hsi2016-fish-methylmercury-taiwan\.md` | sources | 0 | — | — |
+| `wiki/sources/hu2006-tpt-tbt-trophic-bohai-bay\.md` | sources | 0 | — | — |
+| `wiki/sources/hull2023-arsenic-lake-foodweb\.md` | sources | 0 | — | — |
+| `wiki/sources/hussein2023-freshwater-marine-fish-egypt\.md` | sources | 0 | — | — |
+| `wiki/sources/hussein2024-toxic-metals-canned-fish-egypt\.md` | sources | 0 | — | — |
+| `wiki/sources/janiga2024-alpine-bullhead-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` | sources | 0 | — | — |
+| `wiki/sources/jesse2025-unknown\.md` | sources | 0 | — | — |
+| `wiki/sources/jiang2026-organotin-seafood-hong-kong\.md` | sources | 0 | — | — |
+| `wiki/sources/job2023-thondi-fish-metal-bioaccumulation\.md` | sources | 0 | — | — |
+| `wiki/sources/kaise1988-marine-organisms-arsenic-speciation\.md` | sources | 0 | — | — |
+| `wiki/sources/kazimov2014-dietary-heavy-metals-azerbaijan\.md` | sources | 0 | — | — |
+| `wiki/sources/kim2023-korea-fishery-products-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/kimakova2018-fish-products-slovakia-mercury\.md` | sources | 0 | — | — |
+| `wiki/sources/kovacik2024-grass-carp-muscle-microelements\.md` | sources | 0 | — | — |
+| `wiki/sources/kurniawati2021-jakarta-staple-foods-naa\.md` | sources | 0 | — | — |
+| `wiki/sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\.md` | sources | 0 | — | — |
+| `wiki/sources/leclerc2023-methylmercury-periphyton-river\.md` | sources | 0 | — | — |
+| `wiki/sources/lee2016-taiwan-seafood-organotins\.md` | sources | 0 | — | — |
+| `wiki/sources/lehel2018-hungary-seafood-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/lehel2023-yellowfin-tuna-indian-ocean\.md` | sources | 0 | — | — |
+| `wiki/sources/lepak2025-mercury-sport-fish-colorado-correction\.md` | sources | 0 | — | — |
+| `wiki/sources/lepak2026-mehg-depuration-fish-consumption\.md` | sources | 0 | — | — |
+| `wiki/sources/li2024-global-fisheries-mehg\.md` | sources | 0 | — | — |
+| `wiki/sources/li2025-ratiometric-fluorescent-sensor-al-cu-food\.md` | sources | 0 | — | — |
+| `wiki/sources/liang2019-beijing-foodstuffs-health-risk\.md` | sources | 0 | — | — |
+| `wiki/sources/lin2021-taiwan-seafood-mercury-tds\.md` | sources | 0 | — | — |
+| `wiki/sources/liu2021-arsenolipids-seafood\.md` | sources | 0 | — | — |
+| `wiki/sources/liu2023-arsenic-seafood-digestion\.md` | sources | 0 | — | — |
+| `wiki/sources/llorente-mirandes2016-ias-food-analytical-review\.md` | sources | 0 | — | — |
+| `wiki/sources/lordan2022-brown-crab-cadmium-review\.md` | sources | 0 | — | — |
+| `wiki/sources/lorenzana2009-seafood-arsenic-speciation\.md` | sources | 0 | — | — |
+| `wiki/sources/loutfy2012-ismailia-foodstuffs-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/lozano-bilbao2023-canary-tuna-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/luvonga2021-seafood-arsenic-speciation\.md` | sources | 0 | — | — |
+| `wiki/sources/macdonald2025-fss-uk-fishery-contaminants-review\.md` | sources | 0 | — | — |
+| `wiki/sources/maikanov2020-fish-products-shuchinsk-burabay-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/mansour2014-monitoring-health-risk-food-chapter\.md` | sources | 0 | — | — |
+| `wiki/sources/mariadi2017-juaro-fish-pineapple-extract-pb-hg\.md` | sources | 0 | — | — |
+| `wiki/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry\.md` | sources | 0 | — | — |
+| `wiki/sources/masri2025-toxicant-foods-california\.md` | sources | 0 | — | — |
+| `wiki/sources/mehouel2019-sardine-swordfish-algeria-mercury\.md` | sources | 0 | — | — |
+| `wiki/sources/mehouel2021-algeria-seafood-metals-review\.md` | sources | 0 | — | — |
+| `wiki/sources/mititelu2025-heavy-metal-food-contamination-review\.md` | sources | 0 | — | — |
+| `wiki/sources/morshdy2023-heavy-metals-salted-fish-egypt\.md` | sources | 0 | — | — |
+| `wiki/sources/motta2022-marine-hg-isotopes\.md` | sources | 0 | — | — |
+| `wiki/sources/moura2022-hg-jaguaribe-estuary\.md` | sources | 0 | — | — |
+| `wiki/sources/munoz1999-seafood-inorganic-arsenic\.md` | sources | 0 | — | — |
+| `wiki/sources/naess2020-norwegian-seafood-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/najem2024-metals-common-carp-iraq\.md` | sources | 0 | — | — |
+| `wiki/sources/naseem2026-seasonal-heavy-metals-water-fish\.md` | sources | 0 | — | — |
+| `wiki/sources/naz2025-trace-elements-punjnad-fish\.md` | sources | 0 | — | — |
+| `wiki/sources/nielsen1975-nz-molluscs-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/norin1985-swedish-fish-arsenic-speciation\.md` | sources | 0 | — | — |
+| `wiki/sources/novakov2021-serbia-mussels-metals-pahs\.md` | sources | 0 | — | — |
+| `wiki/sources/okonofua2024-mining-pits-cabbage-fish-nigeria\.md` | sources | 0 | — | — |
+| `wiki/sources/oktariani2023-tuna-swordfish-indian-pacific-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/olgunoglu2025-scorpionfish-izmir-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/olmedo2013-andalusia-fish-shellfish-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/onyegeme-okerenta2023-shellfish-nigeria\.md` | sources | 0 | — | — |
+| `wiki/sources/ormaza-gonzalez2020-tuna-canned-eastern-pacific\.md` | sources | 0 | — | — |
+| `wiki/sources/ospar2022-metals-fish-shellfish-sediment\.md` | sources | 0 | — | — |
+| `wiki/sources/paez-osuna2024-fish-mercury-selenium-mexico\.md` | sources | 0 | — | — |
+| `wiki/sources/paezosuna2024-tilapia-mining-dams\.md` | sources | 0 | — | — |
+| `wiki/sources/pappalardo2017-canned-tuna-metals-italy\.md` | sources | 0 | — | — |
+| `wiki/sources/park2005-korean-seafood-arsenic-speciation\.md` | sources | 0 | — | — |
+| `wiki/sources/pawlaczyk2020-mercury-canned-fish-poland\.md` | sources | 0 | — | — |
+| `wiki/sources/paz-suconota2024-mercury-fish-pastaza-ecuador\.md` | sources | 0 | — | — |
+| `wiki/sources/pazi2017-aegean-fish-metal-risk\.md` | sources | 0 | — | — |
+| `wiki/sources/pereira2008-ria-aveiro-mercury-review\.md` | sources | 0 | — | — |
+| `wiki/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/raju2021-bivalves-cagayan-philippines\.md` | sources | 0 | — | — |
+| `wiki/sources/ralston2014-selenium-hbv-methylmercury-seafood\.md` | sources | 0 | — | — |
+| `wiki/sources/ramos-miras2023-pte-shrimp-ecuador\.md` | sources | 0 | — | — |
+| `wiki/sources/reinke1975-fish-shellfish-inorganic-arsenic\.md` | sources | 0 | — | — |
+| `wiki/sources/reksten2020-angola-fish-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/reksten2021-bay-bengal-fish-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\.md` | sources | 0 | — | — |
+| `wiki/sources/rohonczy2024-arctic-foodweb-cd-hg\.md` | sources | 0 | — | — |
+| `wiki/sources/romero-estevez2020-bivalves-santa-rosa-ecuador\.md` | sources | 0 | — | — |
+| `wiki/sources/rundio2022-mercury-trout-california\.md` | sources | 0 | — | — |
+| `wiki/sources/rusko2026-mercury-fish-latvia-risk-benefit\.md` | sources | 0 | — | — |
+| `wiki/sources/sadee2024-arsenic-speciation-marine-organisms-review\.md` | sources | 0 | — | — |
+| `wiki/sources/sadighara2021-food-organotin-review\.md` | sources | 0 | — | — |
+| `wiki/sources/sarker2022-bangladesh-food-webs-review\.md` | sources | 0 | — | — |
+| `wiki/sources/schaefer2020-cadmium-mitigation-strategies\.md` | sources | 0 | — | — |
+| `wiki/sources/schoof2007-seafood-arsenic-speciation\.md` | sources | 0 | — | — |
+| `wiki/sources/sepulveda2020-callista-clam-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel\.md` | sources | 0 | — | — |
+| `wiki/sources/shue2012-bivalves-tapeng-taiwan\.md` | sources | 0 | — | — |
+| `wiki/sources/shumba2025-tilapia-mercury-zambia-mining\.md` | sources | 0 | — | — |
+| `wiki/sources/simionov2023-danube-fish-seafood-pte-microplastics\.md` | sources | 0 | — | — |
+| `wiki/sources/singhato2025-thailand-seafood-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/sirisangarunroj2023-thai-fish-toxic-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/smolikova2016-heavy-metals-fish-czech\.md` | sources | 0 | — | — |
+| `wiki/sources/sonke2023-mercury-global-change\.md` | sources | 0 | — | — |
+| `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/suomi2023-finland-dietary-metals-cumulative\.md` | sources | 0 | — | — |
+| `wiki/sources/suzuki2022-nano-mercury-seafood-exposure\.md` | sources | 0 | — | — |
+| `wiki/sources/tamele2020-african-seafood-metals-review\.md` | sources | 0 | — | — |
+| `wiki/sources/taylor2025-seafood-benefits-contaminants\.md` | sources | 0 | — | — |
+| `wiki/sources/tolkou2023-fish-heavy-metals-review\.md` | sources | 0 | — | — |
+| `wiki/sources/uc-peraza2022-yucatan-seafood-organotins\.md` | sources | 0 | — | — |
+| `wiki/sources/uneyama2007-arsenic-foods-cumulative-data\.md` | sources | 0 | — | — |
+| `wiki/sources/uthayarajan2025-cdku-food-water-sri-lanka-review\.md` | sources | 0 | — | — |
+| `wiki/sources/uzomah2021-nigeria-fish-contaminants\.md` | sources | 0 | — | — |
+| `wiki/sources/vainio2022-baltic-mercury-food-web\.md` | sources | 0 | — | — |
+| `wiki/sources/valencia2021-canacao-bay-oyster-pb-cd\.md` | sources | 0 | — | — |
+| `wiki/sources/vejrup2022-prenatal-mehg-fish-behavior\.md` | sources | 0 | — | — |
+| `wiki/sources/venant2025-lake-victoria-sardine-cd-pb\.md` | sources | 0 | — | — |
+| `wiki/sources/vicarova2016-common-carp-czech-reservoirs\.md` | sources | 0 | — | — |
+| `wiki/sources/wang2019-dietary-lead-guangzhou\.md` | sources | 0 | — | — |
+| `wiki/sources/wang2020-jilin-total-diet-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/wang2023-climate-marine-mercury\.md` | sources | 0 | — | — |
+| `wiki/sources/watanabe2017-retail-fish-mercury-methylmercury-japan\.md` | sources | 0 | — | — |
+| `wiki/sources/willacker2023-mercury-fish-snake-river\.md` | sources | 0 | — | — |
+| `wiki/sources/wu2025-climate-meghan-freshwater-fish-china\.md` | sources | 0 | — | — |
+| `wiki/sources/xia2025-whole-cell-biosensor-hg-food\.md` | sources | 0 | — | — |
+| `wiki/sources/xu2025-heavy-metals-aquatic-foods-global\.md` | sources | 0 | — | — |
+| `wiki/sources/yamashita2024-laep-oes-hg-tuna-japan\.md` | sources | 0 | — | — |
+| `wiki/sources/yap-almutairi2022-nickel-seafood-malaysia\.md` | sources | 0 | — | — |
+| `wiki/sources/zahran2023-mercury-tilapia-nannochloropsis\.md` | sources | 0 | — | — |
+| `wiki/sources/zanon2008-venice-lagoon-organotins\.md` | sources | 0 | — | — |
+| `wiki/sources/zhao2016-xiamen-seafood-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/zhao2024-toxic-metals-metalloids-food-review\.md` | sources | 0 | — | — |
+| `wiki/sources/zhuzhassarova2024-fish-seafood-central-asia-review\.md` | sources | 0 | — | — |
 

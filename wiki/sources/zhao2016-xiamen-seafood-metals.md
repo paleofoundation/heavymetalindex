@@ -73,3 +73,13 @@ This source provides Chinese coastal-market occurrence evidence for seafood, fis
 - Speciation: occurrence measurements are total Hg and total As. The source's modeled MeHg and InAs assumptions are recorded in Key numbers but not promoted to frontmatter as measured MeHg/iAs.
 - Brand firewall: no sampled seafood brands were reported.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; narrow species slugs are absent, so broad seafood/fish/shellfish/seaweed routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [12a839b](https://github.com/paleofoundation/heavymetalindex/commit/12a839b) | 2026-06-08 | ingest: zhao2016-xiamen-seafood-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

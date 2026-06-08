@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `8707c66` (2026-06-05). The body hashes to `sha256:4e71857c98f07e0ea7c5758e79d13699…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:4406d0175067f064b519254b9ab25576…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=cooking-oils-other&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/cooking-oils-other&download=1`.
 
 ## Evidence base
 
-This category is supported by 27 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 1 numerical claim; 0 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
+This category is supported by 29 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 1 numerical claim; 0 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/cooking-oils-other.md`.
 

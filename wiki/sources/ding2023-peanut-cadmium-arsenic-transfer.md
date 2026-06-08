@@ -61,3 +61,13 @@ This source provides peanut supply-chain evidence showing that Cd-As soil co-con
 - Speciation: arsenic is reported as total/unspecified As. The paper does not report inorganic arsenic.
 - Units are preserved as source-reported `mg/kg` and `µg`; no conversion was performed.
 - Brand firewall: no product brands were involved.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e5d0cac](https://github.com/paleofoundation/heavymetalindex/commit/e5d0cac) | 2026-06-08 | ingest: ding2023-peanut-cadmium-arsenic-transfer fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

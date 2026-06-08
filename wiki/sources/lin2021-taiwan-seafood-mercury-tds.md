@@ -78,3 +78,13 @@ This source contributes Taiwan total-diet-study evidence for seafood total mercu
 - Speciation: THg was measured directly; MeHg concentrations were estimated from literature MeHg/THg ratios and are not direct MeHg measurements.
 - Brand firewall: no sampled seafood product brands were reported.
 - Missing closed-vocabulary slugs: cephalopod and crustacean product slugs are not present in the taxonomy snapshot, so those categories are documented in the body without invented frontmatter product slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6091c03](https://github.com/paleofoundation/heavymetalindex/commit/6091c03) | 2026-06-08 | ingest: lin2021-taiwan-seafood-mercury-tds fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

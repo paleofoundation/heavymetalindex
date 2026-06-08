@@ -210,3 +210,14 @@ Open-access article distributed under CC BY 4.0 (license declaration on p. 1 of 
 6. The Conclusion characterizes the result as "no carcinogenic health potential risks" despite (a) every sample exceeding the WHO 0.01 mg L⁻¹ Pb permissible limit and (b) the THQ being a non-carcinogenic-hazard quotient, not a carcinogenic-risk metric. Recorded faithfully; not framed as a wiki-side risk advisory.
 
 **Audit application (2026-06-06).** Fresh-context Agent subagent audit (verdict PROMOTE; all five checks ✅ clean with one ⚠️ minor on Check 1 Fe-THQ enumeration wording). Independent re-verification of the Fe THQ column against Table 4 confirmed eight of eleven samples (D1, D2, D4, D6, D7, D9, D10, D11) at Fe THQ ≥1; the original page text said "six of eleven" with a parenthetic self-correction to seven, and the audit subagent independently arrived at seven. Both pre-correction wordings under-counted because D9 (Fe THQ = 1.143) was missed. Corrected to "eight of eleven" with the full enumeration. No other audit findings warranted page changes.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fa76ab4](https://github.com/paleofoundation/heavymetalindex/commit/fa76ab4) | 2026-06-06 | audit: bunu2023-heavy-metals-energy-drinks-bayelsa promoted |
+| [bca7ef9](https://github.com/paleofoundation/heavymetalindex/commit/bca7ef9) | 2026-06-06 | ingest: bunu2023-heavy-metals-energy-drinks-bayelsa fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

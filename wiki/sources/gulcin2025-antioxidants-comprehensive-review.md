@@ -138,3 +138,13 @@ Funding: Open access funding provided by the Scientific and Technological Resear
 **Open-access license.** The paper is published by Springer Nature under the Creative Commons Attribution 4.0 International License ("This article is licensed under a Creative Commons Attribution 4.0 International License, which permits any use, sharing, adaptation, distribution and reproduction in any medium or format..."). Recorded as CC-BY-4.0.
 
 **Reviewer note on scope fit.** This paper is in scope per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The folder context (`heavy_metals_peptides` under `Kimi_Agent_Black Market Peptide Metal Survey`) is peptide-mediated metal binding and detoxification; this review's coverage of glutathione (γ-Glu-Cys-Gly tripeptide chelator) and selenocysteine-containing glutathione peroxidase, together with the metal-chelating assay methodology that underpins how peptide chelation activity is quantified in vitro, is the direct fit. The review is methodology-side, not occurrence-side, which is recorded accurately in the Implications section.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [af61f84](https://github.com/paleofoundation/heavymetalindex/commit/af61f84) | 2026-06-08 | ingest: gulcin2025-antioxidants-comprehensive-review fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

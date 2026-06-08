@@ -88,3 +88,14 @@ Thirty-one samples (five varieties) were collected at random from UK retail outl
 - matrices [edible-seaweed, macroalgae, kelp, dry-weight] per established corpus convention; `kelp` included because kombu (*Laminaria*) is among the varieties. Kept broad for the routing layer.
 - Instrument/vendor name (Perkin-Elmer Multiwave) retained in Methods as permitted scientific reporting.
 - Audit subagent (2026-06-08, fresh-context) returned PROMOTE on all five checks (hijiki 9-row block re-verified cell-by-cell across all three basis blocks, no transposition). One ⚠️ applied: the dietary-exposure multiplier was understated as "30-fold"; verified against source (risk-assessment section states "30–50-fold increase"; conclusion states "around 30 times") and broadened to "30- to 50-fold".
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c5a5510](https://github.com/paleofoundation/heavymetalindex/commit/c5a5510) | 2026-06-08 | audit: rose2007-seaweed-arsenic-forms-uk revised |
+| [95b689d](https://github.com/paleofoundation/heavymetalindex/commit/95b689d) | 2026-06-08 | ingest: rose2007-seaweed-arsenic-forms-uk fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

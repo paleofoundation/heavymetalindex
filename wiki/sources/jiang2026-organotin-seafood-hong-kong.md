@@ -66,3 +66,13 @@ This source contributes post-ban Hong Kong seafood organotin occurrence and expo
 - Speciation: organotin species are reported as MBT, DBT, TBT, MPT, DPT, and TPT. Frontmatter uses `Sn` for element-level routing following existing wiki convention, but this page explicitly documents that organotins must not be treated as inorganic tin or total Sn.
 - Brand firewall: no brand-level seafood values were reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a063a8d](https://github.com/paleofoundation/heavymetalindex/commit/a063a8d) | 2026-06-08 | manual-fetch stop: MFD weldegebriel2025 bit-identical dup of MFK-already-merged page |
+<!-- END: hmi-page-history -->

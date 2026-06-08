@@ -82,3 +82,13 @@ Secondary risk assessment. Chronic daily intake = concentration × daily intake 
 - Occurrence is SECONDARY: the per-serving concentrations are re-analyzed from Consumer Reports and Clean Label Project third-party testing, not measured by the authors. Treat as B-quality occurrence input for pooling (down-weight versus primary ICP-MS surveys) even though the source journal is peer-reviewed (A-tier); the exposure/hazard modeling is the paper's primary contribution.
 - Units are µg per serving, not µg/kg — serving sizes vary (and were assumed at 43 g for the Clean Label Project set), so per-mass concentration must be derived if needed and is not stated directly.
 - Speciation: total As reported; inorganic-As RfD applied only in the hazard step. Total Hg reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9d1697b](https://github.com/paleofoundation/heavymetalindex/commit/9d1697b) | 2026-06-08 | ingest: bandara2020-protein-powder-heavy-metals from June 8 (supplement occurrence/exposure) |
+<!-- END: hmi-page-history -->

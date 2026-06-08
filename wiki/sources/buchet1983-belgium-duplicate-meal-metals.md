@@ -82,3 +82,13 @@ This source contributes historical Belgian duplicate-diet exposure context for m
 - Routeability: this is duplicate-meal exposure evidence, not product concentration evidence. It is routed only to the broad mixed-meal row and should remain context-only for product standards unless a later method explicitly handles duplicate-diet composites.
 - Calcium was measured and is included in frontmatter as Ca, but the taxonomy snapshot does not list a `metals/calcium` page, so no calcium wiki-link is added.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1263b06](https://github.com/paleofoundation/heavymetalindex/commit/1263b06) | 2026-06-08 | ingest: buchet1983-belgium-duplicate-meal-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

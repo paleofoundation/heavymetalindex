@@ -2,15 +2,15 @@
 source_page: wiki/products/kombucha-tea-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b8d9ee5128d361cd03c0018a9e8357fa5554fb7927165f696a7310f200a73f29
+source_page_sha256: 32b18339fc741c572be34a8085042368cbd8d98598428b952b6daebcedd82d38
 total_claims: 9
 cited_claims: 9
 uncited_claims: 0
-distinct_cited_targets: 1
-distinct_cited_sources: 1
+distinct_cited_targets: 2
+distinct_cited_sources: 2
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 789
+audit_log_total_rows: 972
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 9 |
 | cited claims | 9 |
 | uncited claims | 0 |
-| distinct cited targets | 1 |
-| distinct cited `sources/` pages | 1 |
+| distinct cited targets | 2 |
+| distinct cited `sources/` pages | 2 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 789 |
+| audit log rows read | 972 |
 
 ## Page-level audit rows
 
@@ -102,8 +102,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `47 mg/kg`
 - Context: `-contact-material leaching; time-dependent concentration increase (0.95 → 7.1 → 47 mg/kg over 14–19 days); blood Pb in a`
-- Cited targets (1):
+- Cited targets (2):
   - `wiki/sources/munilla-garcia2023-lead-kombucha-ceramics\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tandhanskul2025-kombucha-metabiotics-review\.md` (page missing)
     - audit rows: none
 
 ## Uncited claims
@@ -115,4 +117,5 @@ _All claims trace to at least one cited source._
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/sources/munilla-garcia2023-lead-kombucha-ceramics\.md` | sources | 0 | — | — |
+| `wiki/sources/tandhanskul2025-kombucha-metabiotics-review\.md` | sources | 0 | — | — |
 

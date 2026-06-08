@@ -67,3 +67,13 @@ This source supplies direct seafood-market occurrence evidence for shellfish, oy
 - Speciation: arsenic is total/unspecified As and mercury is total Hg; no inorganic arsenic or methylmercury speciation was measured.
 - Brand firewall: the study sampled a fishery product market, but no brand-level contamination values are reported.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no ingredient slug exists for squid or oyster, so broad seafood/shellfish/mollusc routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3eea569](https://github.com/paleofoundation/heavymetalindex/commit/3eea569) | 2026-06-08 | ingest: lehel2018-hungary-seafood-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

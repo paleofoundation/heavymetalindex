@@ -152,3 +152,14 @@ Funded by Deutsche Forschungsgemeinschaft grant Na 146/1.
 - **Finding 4 (15 ± 2°C, ⚠️):** verified PDF p. 526 only states "synchronized by light-dark cycling with a 12-h light-dark regimen (15, 17)"; no temperature is reported in the present paper. The 15 ± 2°C value was an interpolation from the methodology citations (Surzycki 1971; Voigt & Münzner 1987) and not directly sourced. Corrected: temperature claim removed and replaced with the methodology citations.
 
 4 findings, 4 applied, 0 rejected. Audit subagent ID afa53bf8abf85e78a.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b1522f2](https://github.com/paleofoundation/heavymetalindex/commit/b1522f2) | 2026-06-08 | audit: nagel1989-cadmium-resistant-chlamydomonas revised |
+| [b26a1aa](https://github.com/paleofoundation/heavymetalindex/commit/b26a1aa) | 2026-06-08 | ingest: nagel1989-cadmium-resistant-chlamydomonas fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

@@ -61,3 +61,13 @@ This source supports broad seaweed-food and seaweed-supplement context for arsen
 - Speciation: total arsenic and inorganic arsenic are recorded separately; total arsenic values are not promoted to inorganic arsenic.
 - Brand firewall: no sampled product brands are attached to contamination values.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9d7d304](https://github.com/paleofoundation/heavymetalindex/commit/9d7d304) | 2026-06-08 | ingest: cherry2019-edible-seaweeds-risks-benefits fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

@@ -949,3 +949,153 @@
 
 ### Succeeded
 - `irankunda2022-imac-mcp-separation-methodology-simulation` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/48_Metal-Chelating_Peptides_Separation_Using_Immobilized_Metal.pdf)
+
+## Tick 2026-06-08T18:31:47.605Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `han2025-peptide-zinc-complexation-aquatic-review` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/49_Dual_Perspectives_on_Peptide-Zinc_Complexation_Highlighting.pdf)
+
+## Tick 2026-06-08T18:40:28.438Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `juskowiak2008-cysteine-rich-oboc-peptide-libraries` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/50_Synthesis_Screening_and_Sequencing_of_Cysteine-Rich_One-Be.pdf)
+
+## Tick 2026-06-08T18:52:14.896Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `hu2024-engineered-ecoli-hg-cr-adsorption` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/51_Adsorption_of_Hg2Cr6_by_Metal-Binding_Proteins_Heterologo.pdf)
+
+## Tick 2026-06-08T19:07:01.833Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/52_Enhanced_Bioaccumulation_of_Heavy_Metals_by_Bacterial_Cells.pdf)
+
+## Tick 2026-06-08T19:15:57.012Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `sosnowska2025-phage-display-peptide-copper-chemosensor` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/53_Phage_Display_Technology_in_Ecotoxicology_Peptide_for_Coppe.pdf)
+
+## Tick 2026-06-08T20:00:16.755Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `tran2025-magnesium-chelation-peptides-brewer-yeast-soybean` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/57_Magnesium_Chelation_of_Low_Molecular_Weight_Peptides.pdf)
+
+## Tick 2026-06-08T20:05:57.538Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `janvier2018-falsified-peptides-elemental-impurities` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/01_Janvier_2018_Falsified_Peptides_Arsenic_10x_ICH.pdf)
+
+## Tick 2026-06-08T20:18:29.034Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `craven2025-aas-heavy-metals-australia` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/02_Craven_2025_AAS_Heavy_Metals_Pb_Cd_As_Ni.pdf)
+
+## Tick 2026-06-08T20:26:39.854Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cleanlabel2020-collagen-heavy-metals` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/03_CleanLabel_2020_Collagen_Heavy_Metals_As_Pb_Cd_Hg.pdf)
+
+## Tick 2026-06-08T20:51:13.695Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cleanlabel2025-protein-powder-heavy-metals` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/04_CleanLabel_2025_Protein_Powder_Heavy_Metals.pdf)
+
+## Tick 2026-06-08T20:59:32.647Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `ucalgary2026-cpt-pearl-unauthorized-injectable-peptides` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/06_UCalgary_2024_Unauthorized_Injectable_Peptides_Arsenic.pdf)
+
+## Tick 2026-06-08T21:08:10.638Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `ema2025-synthetic-peptides-elemental-impurities` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/07_EMA_2024_Synthetic_Peptides_Elemental_Impurities.pdf)
+
+## Tick 2026-06-08T21:20:44.872Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/08_BoscBierne_2025_Peptide_Impurities.pdf`: out-of-scope content (peptide synthesis chemical impurities, not heavy metals)
+
+## Tick 2026-06-08T21:26:22.321Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/09_Walpurgis_2020_Supplement_Contamination_Doping.pdf`: MFK_09-walpurgis-2020-supplement-contamination-doping (out of scope — doping-agent contamination narrative review, no HMI analytes measured)
+
+## Tick 2026-06-08T21:30:08.703Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/12_Ashraf_2024_JMIR_Online_Semaglutide_Quality.pdf`: MFK_12-ashraf-2024-jmir-online-semaglutide-quality

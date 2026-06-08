@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-supplements-functional-blends",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fc6c8a188914587fdb588fcbb77e512ec99de212c93dcb4d709f7c2fb2f31cba",
-      "content_bytes": 7345,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "09f52d24c70c3057cbaea5f3e12be05023e62b6e05d026d7554c8fd36ed091cc",
+      "content_bytes": 7413,
+      "last_commit_sha": "c679df8",
+      "last_commit_date": "2026-06-08",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/pet-supplements-functional-blends.md | sha256sum"
+      "verify_command": "git show c679df8:wiki/products/pet-supplements-functional-blends.md | sha256sum"
     }
   },
   "evidence_base": {

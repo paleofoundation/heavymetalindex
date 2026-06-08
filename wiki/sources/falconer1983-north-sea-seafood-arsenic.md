@@ -74,3 +74,13 @@ This source supplies total-arsenic occurrence context for North Sea fish and she
 - Speciation: arsenic is total arsenic only. No total arsenic value is treated as inorganic arsenic.
 - Brand firewall: the source reports species and fishing-area samples, not branded products.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; narrow species slugs such as plaice, witch, lemon sole, angler, skate, nephrops, periwinkle, and crab are not available as product rows, so broad seafood/fish/shellfish routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [24da51c](https://github.com/paleofoundation/heavymetalindex/commit/24da51c) | 2026-06-08 | ingest: falconer1983-north-sea-seafood-arsenic fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

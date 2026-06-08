@@ -103,3 +103,14 @@ Audit subagent (2026-06-08) flagged two findings; both verified against the PDF 
 - **❌ "408 fungal genome sequences" was incorrect.** The initial ingest stated 408 genomes examined; the number does not appear in Table 1 (p. 6), Methods, or Results body. Independent sum of Table 1's "Genome sequences examined" column: 2+1+2+5+1+8+1+1+0+1+7+35+180+103+16+8+2+1+1 = 375. Corrected to 375 in the lead paragraph, the third bullet of Why this matters, the Table 1 distribution paragraph heading, and the present/absent narrative.
 
 No other audit findings; the Key numbers Cd unit-conversion (1 µM CdSO₄ ≈ 112 µg Cd/L), C-terminal cysteine motifs, slug vocabulary, methods anchors, brand firewall, and HMTc firewall all passed independent re-verification.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [dc90421](https://github.com/paleofoundation/heavymetalindex/commit/dc90421) | 2026-06-08 | audit: shine2015-sporobolomyces-pcs1-basidiomycete-metal-tolerance revised |
+| [7bec9a1](https://github.com/paleofoundation/heavymetalindex/commit/7bec9a1) | 2026-06-08 | ingest: shine2015-sporobolomyces-pcs1-basidiomycete-metal-tolerance fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

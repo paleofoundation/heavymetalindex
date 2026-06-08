@@ -67,3 +67,13 @@ This source adds Ghana-market occurrence data for powdered spices, herbs, and se
 - Speciation: mercury is recorded as tHg because the source measured Hg by cold-vapour AAS and did not report methylmercury or inorganic mercury separately.
 - Brand firewall: the paper reports seasoning type/source entries in tables. This page reports grouped mixed/unmixed seasoning ranges and does not attach sampled-product names to contamination values.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [57bbe10](https://github.com/paleofoundation/heavymetalindex/commit/57bbe10) | 2026-06-08 | ingest: darko2014-seasonings-ghana-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

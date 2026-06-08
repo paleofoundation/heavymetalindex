@@ -88,3 +88,13 @@ Samples were drawn from those already collected for the companion FSANZ iodine s
 - matrices [edible-seaweed, macroalgae, kelp, dry-weight] kept broad per corpus convention; kombu (*Laminaria*) supports `kelp`. Seaweed-containing products are covered in the body and routed via the seaweed-kelp-foods product link rather than by overspecifying matrices.
 - Instrument/lab names (National Measurement Institute; HG-ICP-MS) retained in Methods as permitted scientific reporting.
 - This is the FSANZ survey report, distinct from the cited FSANZ companion iodine survey and from Almela 2002/2006, Rose 2007, NSWFA 2010, and Smith 2010, which appear only as comparison references in the report's Table 3.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fdd6098](https://github.com/paleofoundation/heavymetalindex/commit/fdd6098) | 2026-06-08 | ingest: fsanz2012-seaweed-inorganic-arsenic-au fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

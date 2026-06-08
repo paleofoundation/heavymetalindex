@@ -85,3 +85,13 @@ This source contributes Jordan-market occurrence evidence for Pb, Cd, total Cr, 
 - Speciation: chromium is total Cr only; the source does not report Cr-VI.
 - Internal consistency: the discussion reports Cd as ND-0.0921 mg kg−1, while Table 2 prints a 0.0923 mg/Kg Cd value in one soup row. Table 3 also reports a Cd intake/HRI for one row where Table 2 reports Cd as ND. These conflicts are recorded and not reconciled by averaging.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [db6f012](https://github.com/paleofoundation/heavymetalindex/commit/db6f012) | 2026-06-08 | ingest: safwan2023-instant-soup-chicken-stock-jordan fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

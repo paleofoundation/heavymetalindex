@@ -68,3 +68,13 @@ This source contributes Hong Kong seafood organotin occurrence evidence for fish
 - Speciation: the source reports organotin species (`MBT`, `DBT`, `TBT`, `MPT`, `DPT`, `TPT`), total butyltins, total phenyltins, and total organotins. This page records them as organotin tin species and does not collapse them into total elemental tin.
 - Brand firewall: no sampled seafood product brands were reported; method-side vendor names are scientific-method details only.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e25750d](https://github.com/paleofoundation/heavymetalindex/commit/e25750d) | 2026-06-08 | ingest: ho2014-hong-kong-seafood-organotins fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

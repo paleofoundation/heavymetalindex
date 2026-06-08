@@ -62,3 +62,13 @@ This source is useful for routing seafood arsenic evidence because it preserves 
 - Speciation: total arsenic and inorganic arsenic remain separate. DMA and MMA are documented in Key numbers as organic arsenic species and are not counted as inorganic arsenic.
 - Brand firewall: the review reports category and literature-study summaries, not retail brand contamination values.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; narrow slugs for crustaceans as a standalone ingredient/product are absent, so the source is routed through broad seafood and shellfish slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6b0d2f1](https://github.com/paleofoundation/heavymetalindex/commit/6b0d2f1) | 2026-06-08 | ingest: schoof2007-seafood-arsenic-speciation fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

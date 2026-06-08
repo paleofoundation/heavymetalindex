@@ -70,3 +70,13 @@ This source contributes organotin occurrence evidence for commercially used biva
 - Speciation: the paper reports butyltin and phenyltin species. Frontmatter uses `Sn` only for element-level routing under existing wiki convention; this page explicitly does not treat organotins as inorganic tin or total tin.
 - Brand firewall: no sampled seafood brands were reported.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no ingredient/product slug exists for mussels or clams as narrow pages, so broad shellfish and mollusc routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ea5afb1](https://github.com/paleofoundation/heavymetalindex/commit/ea5afb1) | 2026-06-08 | ingest: zanon2008-venice-lagoon-organotins fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

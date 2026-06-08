@@ -130,3 +130,14 @@ Phase 2 audit application 2026-06-08 (fresh-context Agent subagent, verdict PROM
 - All five audit checks returned ✅ clean (numerical fidelity, slug vocabulary, speciation and methods, Part 12 brand firewall, Part 2 wiki/HMTc firewall).
 - **False positive rejected: alleged "SwScript" vs "SweScript" typo in Methods.** The auditor's only ⚠️ finding was that the Methods section "says SwScript RT (Takara) in one place but SweScript RT I First Strand cDNA Synthesis Kit (Takara, Dalian, China) elsewhere." Verified by grep against the committed page: the page uses "SweScript" once and contains no instance of "SwScript". The auditor appears to have misread the single SweScript occurrence as two distinct strings. No correction applied; no false-positive correction necessary because the typo does not exist in the page.
 - No content edits applied. Audit-application commit records the verdict and the false-positive disposition only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6b2d57e](https://github.com/paleofoundation/heavymetalindex/commit/6b2d57e) | 2026-06-08 | audit: peng2023-al-fluoride-tea-stress promoted |
+| [0e3900b](https://github.com/paleofoundation/heavymetalindex/commit/0e3900b) | 2026-06-08 | ingest: peng2023-al-fluoride-tea-stress fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

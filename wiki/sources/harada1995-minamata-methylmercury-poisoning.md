@@ -62,3 +62,13 @@ This source provides historical exposure and health-effect context for seafood m
 - Speciation: the paper is about methylmercury poisoning, but the product/environment concentration numbers are reported as `Hg`/`mercury`, not directly speciated MeHg. No total-Hg value is substituted for MeHg.
 - Brand firewall: the source names an industrial discharger as part of the historical event, but it does not attach consumer product brands to contamination values.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3b3fd81](https://github.com/paleofoundation/heavymetalindex/commit/3b3fd81) | 2026-06-08 | ingest: harada1995-minamata-methylmercury-poisoning fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

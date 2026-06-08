@@ -71,3 +71,14 @@ Six dried edible seaweeds (Galician coast, bought in Barcelona) were oven-dried 
 - matrices [edible-seaweed, macroalgae, kelp, dry-weight] per corpus convention; `kelp` warranted (Laminaria ochroleuca, L. saccharina).
 - Instrument/CRM/vendor names (Agilent, Milestone Ethos, Hamilton, Zorbax, NIES 9) retained in Methods as permitted scientific reporting.
 - Audit subagent (2026-06-08, fresh-context) returned REVISE; Checks 1–4 clean (all Table 1 values, the iAs/tAs speciation labeling, and brand firewall verified exact — no arsenosugar/organic value mislabeled as iAs). One Check 5 ⚠️ applied: the Implications section had attributed the contrasting high-iAs of *L. digitata* to "(Ronan 2017, Taylor 2016)" as if established by this paper, which neither measured *L. digitata* nor cited those works; reworded so the within-genus refinement is presented as internal to this study and the cross-source *L. digitata* contrast is flagged as belonging to the Part 9 synthesis pass, not this source page. No numeric/speciation corrections needed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b0202f2](https://github.com/paleofoundation/heavymetalindex/commit/b0202f2) | 2026-06-08 | audit: llorente-mirandes2011-commercial-seaweed-arsenic revised |
+| [addea1c](https://github.com/paleofoundation/heavymetalindex/commit/addea1c) | 2026-06-08 | ingest: llorente-mirandes2011-commercial-seaweed-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

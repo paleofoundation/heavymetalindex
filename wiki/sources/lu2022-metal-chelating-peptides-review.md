@@ -74,3 +74,13 @@ The peptide-metal coordination chemistry described in this review — binding of
 - `jurisdictions: [GLOBAL]` because the review compiles international literature.
 - Brand firewall: no brand names appear in the review (instrument vendors such as IMAC column types are method components, not brand attributions to contamination values).
 - Wiki/HMTc firewall: no synthesis claims about contamination thresholds or HMTc standards were imported from the review.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8ea98a0](https://github.com/paleofoundation/heavymetalindex/commit/8ea98a0) | 2026-06-08 | ingest: lu2022-metal-chelating-peptides-review fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

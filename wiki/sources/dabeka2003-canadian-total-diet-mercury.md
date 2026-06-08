@@ -96,3 +96,13 @@ This source supplies Canadian total-diet evidence for total mercury, with fish a
 - Speciation: the occurrence measurements are total mercury only. Methylmercury is discussed only as a health-guidance comparison and is not treated as measured MeHg.
 - Brand firewall: no brand-level contamination values are reported.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow slugs include composite-fish subtypes and fast-food composite types, so broad routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9e5a91a](https://github.com/paleofoundation/heavymetalindex/commit/9e5a91a) | 2026-06-08 | ingest: dabeka2003-canadian-total-diet-mercury fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

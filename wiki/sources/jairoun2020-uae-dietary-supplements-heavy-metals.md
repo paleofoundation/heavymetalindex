@@ -74,3 +74,13 @@ ICP-MS (Agilent 7700X) with He collision/reaction cell after CEM MARS-5 microwav
 - Reported metric is daily intake (concentration × labelled dose), not raw µg/g concentration, so this is occurrence expressed through an exposure lens; underlying per-product µg/g concentrations are not separately tabulated.
 - No brand-by-brand data: results are aggregated by formulation category, dosage form, and country of origin; the Part 12 firewall is satisfied at the source.
 - Speciation: total As by ICP-MS; no inorganic-As fraction reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f1305b7](https://github.com/paleofoundation/heavymetalindex/commit/f1305b7) | 2026-06-08 | ingest: jairoun2020-uae-dietary-supplements-heavy-metals from June 8 (supplement occurrence) |
+<!-- END: hmi-page-history -->

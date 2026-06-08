@@ -76,3 +76,13 @@ A ~22 kg hijiki (Hizikia fusiforme) batch collected from the west coast of Japan
 - Brand firewall: not engaged. The materials are research reference materials (NMIJ/NIST CRMs); instrument and reference-material vendor names (Agilent, Thermo, Waters, NMIJ, NIST) are scientific-method reporting, permitted under Exception 2. No food brands.
 - Jurisdiction JP (hijiki collected west coast of Japan; NMIJ/AIST). sampling_locations records the west-coast-of-Japan origin.
 - matrices [edible-seaweed, macroalgae, dry-weight]: hijiki is a brown alga (Sargassum/Hizikia), not a kelp (Laminaria), so `kelp` is deliberately omitted here.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f8cb5c3](https://github.com/paleofoundation/heavymetalindex/commit/f8cb5c3) | 2026-06-08 | ingest: narukawa2020-hijiki-crm-arsenosugars-interlab fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

@@ -68,3 +68,13 @@ This source contributes direct Taiwanese fish and seafood organotin occurrence d
 - Speciation: analytes are organotin compounds (`TBT`, `DBT`, `MBT`, `MPT`, `DPT`, `TPT`). Frontmatter uses `Sn` for tin routing following existing organotin-source convention, but these values must not be treated as total tin or inorganic tin.
 - Brand firewall: samples were fishery-market product categories/species groups, with no sampled product brand values reported. Method-side vendor names are scientific reporting details.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented. A cephalopod-specific slug is not available, so the ammonite/cephalopod-type rows are carried under broad `shellfish`, `molluscs`, and `seafood` context.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b1522f2](https://github.com/paleofoundation/heavymetalindex/commit/b1522f2) | 2026-06-08 | audit: nagel1989-cadmium-resistant-chlamydomonas revised |
+<!-- END: hmi-page-history -->

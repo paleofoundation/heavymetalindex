@@ -6,7 +6,7 @@ name: Uranium
 species: [U, uranium-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 20
+sources: 21
 wiki_doi: null
 updated: 2026-04-30
 status: stub
@@ -59,11 +59,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 29 | [[sources/albals2021-coffee-jordan-icpms\|Albals et al. 2021]]. *Multi-element determination of essential and toxic metals in green and roasted coffee beans: A comparative study among different origins using ICP-MS*, Science Progress | 2021 | Peer-reviewed | JO Pb, Cd, Al, Cr, Ni, U occurrence in Green and roasted coffee beans from five origins (Brazil, Colombia, Ethiopia, Guatemala, Yemen) sold on the Jordanian market (n=56) |
 | 30 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | U concentrations in milk and dairy by ICP-MS |
 | 31 | [[sources/ufelle2021-metals-chapter\|Ufelle et al. 2021]]. *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*, Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education | 2021 | Textbook chapter | Toxicology reference text on uranium: mechanisms of toxicity, target organs, and clinical manifestations |
-| 32 | [[sources/pankavec2019-pickled-mushrooms-poland-minerals\|Pankavec et al. 2019]]. *Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2019 | Peer-reviewed | PL/EU Pb, Cd, tHg, tAs, Ni, Al, Cr, U, Sb occurrence in 100 unit packages of commercially available pickled white button mushrooms (Agaricus bisporus) from 6 manufacturers sold in Gdańsk,... (n=100) |
-| 33 | [[sources/aldayel2018-facial-cosmetics-saudi-arabia\|Aldayel et al. 2018]]. *Heavy Metals Concentration in Facial Cosmetics*, Natural Products Chemistry & Research 6(1): 1000303 | 2018 | Peer-reviewed | SA Pb, Cd, tAs, tHg, Al, Cr, Ni, Sn, Sb, U, Cu, Zn, Fe, Mn, Co, Ag, Ba, V, Mo, Li occurrence in Thirty facial-cosmetic samples representing nine 'most expensive' facial-cosmetic brands purchased from the Saudi Arabian (Riyadh) market. Four product... (n=30) |
-| 34 | [[sources/youssao2018-fruit-juices-syrup-benin\|Youssao et al. 2018]]. *Levels of Minor and Trace Elements of Some Commercial Fruit Juices and Syrup Produced in Artisanal and Semi-Industrial Units in Benin Republic*, International Journal of Chemistry | 2018 | Peer-reviewed | BJ/FR Al, tAs, Ba, Be, Cd, Hg, Pb, Sn, Tl, U occurrence in 92 fruit-juice and syrup samples: 85 Benin-produced bottled pineapple juices/cocktails from artisanal and semi-industrial units, 6 French pineapple... (n=92) |
-| 35 | [[sources/arsenic2012-arsenic-organic-foods-brown\|Arsenic 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US/EU iAs, tAs, DMA, MMA, Al, U concentrations (n=200) |
-| 36 | [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|Magdas et al. 2012]]. *Isotopic and Elemental Determination in Some Romanian Apple Fruit Juices*, The Scientific World Journal | 2012 | Peer-reviewed | RO Pb, Cd, tAs, Ni, Cr, U occurrence in 31 organic single-strength apple juices from four Transylvanian regions (Alba, Maramures, Salaj, Cluj), Romania; 2010 harvest (n=31) |
+| 32 | [[sources/ownsworth2019-estuarine-macroalgae-elements\|Ownsworth et al. 2019]]. *Tracing the natural and anthropogenic influence on the trace elemental chemistry of estuarine macroalgae and the implications for human consumption*, Science of the Total Environment | 2019 | Peer-reviewed | GB/JP tAs, iAs, Pb, Cd, Ni, U, Co, Cu, Zn, Ag occurrence in Fifty brown macroalgae samples collected from 25 Forth Estuary/Firth of Forth locations in Scotland, plus four Laminaria japonica... (n=55) |
+| 33 | [[sources/pankavec2019-pickled-mushrooms-poland-minerals\|Pankavec et al. 2019]]. *Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2019 | Peer-reviewed | PL/EU Pb, Cd, tHg, tAs, Ni, Al, Cr, U, Sb occurrence in 100 unit packages of commercially available pickled white button mushrooms (Agaricus bisporus) from 6 manufacturers sold in Gdańsk,... (n=100) |
+| 34 | [[sources/aldayel2018-facial-cosmetics-saudi-arabia\|Aldayel et al. 2018]]. *Heavy Metals Concentration in Facial Cosmetics*, Natural Products Chemistry & Research 6(1): 1000303 | 2018 | Peer-reviewed | SA Pb, Cd, tAs, tHg, Al, Cr, Ni, Sn, Sb, U, Cu, Zn, Fe, Mn, Co, Ag, Ba, V, Mo, Li occurrence in Thirty facial-cosmetic samples representing nine 'most expensive' facial-cosmetic brands purchased from the Saudi Arabian (Riyadh) market. Four product... (n=30) |
+| 35 | [[sources/youssao2018-fruit-juices-syrup-benin\|Youssao et al. 2018]]. *Levels of Minor and Trace Elements of Some Commercial Fruit Juices and Syrup Produced in Artisanal and Semi-Industrial Units in Benin Republic*, International Journal of Chemistry | 2018 | Peer-reviewed | BJ/FR Al, tAs, Ba, Be, Cd, Hg, Pb, Sn, Tl, U occurrence in 92 fruit-juice and syrup samples: 85 Benin-produced bottled pineapple juices/cocktails from artisanal and semi-industrial units, 6 French pineapple... (n=92) |
+| 36 | [[sources/arsenic2012-arsenic-organic-foods-brown\|Arsenic 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US/EU iAs, tAs, DMA, MMA, Al, U concentrations (n=200) |
+| 37 | [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|Magdas et al. 2012]]. *Isotopic and Elemental Determination in Some Romanian Apple Fruit Juices*, The Scientific World Journal | 2012 | Peer-reviewed | RO Pb, Cd, tAs, Ni, Cr, U occurrence in 31 organic single-strength apple juices from four Transylvanian regions (Alba, Maramures, Salaj, Cluj), Romania; 2010 harvest (n=31) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -73,9 +74,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

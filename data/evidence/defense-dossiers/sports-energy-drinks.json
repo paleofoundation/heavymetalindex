@@ -21,18 +21,201 @@
     "canonical_url": "https://heavymetalindex.com/products/sports-energy-drinks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d3916ca59fd1a13330823f7ad7c8fd7695eb6523dd49586afb063cd5063293ae",
-      "content_bytes": 7938,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "a371b534652f4f83abe361318a72f4e5dff42aa371ca49dd8671f6ced4627a28",
+      "content_bytes": 12951,
+      "last_commit_sha": "1ca3eb0",
+      "last_commit_date": "2026-06-06",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/sports-energy-drinks.md | sha256sum"
+      "verify_command": "git show 1ca3eb0:wiki/products/sports-energy-drinks.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 9,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/alsayyed2024-heavy-metals-energy-drinks-jordan",
+        "title": "Screening for the Presence of Some Heavy Metals, Total Soluble Solids and Caffeine Contents in Some Energy Drinks Sold in Jordanian Market",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cu",
+          "Ni",
+          "Cd",
+          "Fe"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/alsayyed2024-heavy-metals-energy-drinks-jordan",
+        "content_pin": {
+          "content_sha256": "69cc8bd8fb6b8c619548b66775d66617e12ad14a7440f774bf5aaa9c6fa4f8a1",
+          "content_bytes": 24219,
+          "last_commit_sha": "6ba7772",
+          "last_commit_date": "2026-06-06",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 6ba7772:wiki/sources/alsayyed2024-heavy-metals-energy-drinks-jordan.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/babayo2026-heavy-metals-energy-drinks-nigeria",
+        "title": "Contamination Factor, Metal Pollution Index and Estimated Daily Intake of Heavy Metals in Some Selected Energy Drinks in Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Cr",
+          "Ni",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/babayo2026-heavy-metals-energy-drinks-nigeria",
+        "content_pin": {
+          "content_sha256": "95dda466285392b1fa2beb92e091d68e4116d286a0d2884b3d4011d8909394e1",
+          "content_bytes": 29135,
+          "last_commit_sha": "e705b0a",
+          "last_commit_date": "2026-06-06",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show e705b0a:wiki/sources/babayo2026-heavy-metals-energy-drinks-nigeria.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bunu2023-heavy-metals-energy-drinks-bayelsa",
+        "title": "Heavy Metals Quantification and Correlative Carcinogenic-Risks Evaluation in Selected Energy Drinks Sold in Bayelsa State Using Atomic Absorption Spectroscopic Technique",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Fe",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bunu2023-heavy-metals-energy-drinks-bayelsa",
+        "content_pin": {
+          "content_sha256": "ff85c4305ef7080364264f62a7b466e91be9817b607083e9d8bbb96d449c0e0c",
+          "content_bytes": 27935,
+          "last_commit_sha": "fa76ab4",
+          "last_commit_date": "2026-06-06",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show fa76ab4:wiki/sources/bunu2023-heavy-metals-energy-drinks-bayelsa.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bunu2023-heavy-metals-energy-drinks-kogi",
+        "title": "Atomic Absorption Spectroscopic (AAS) Analysis of Heavy Metals and Health Risks Assessment of some Common Energy Drinks",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tAs",
+          "Al",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bunu2023-heavy-metals-energy-drinks-kogi",
+        "content_pin": {
+          "content_sha256": "75164ac336b38f40e2bb47bf341c8b7383cc8289d34f6fca80e654230b149ee8",
+          "content_bytes": 37858,
+          "last_commit_sha": "e088b3a",
+          "last_commit_date": "2026-06-06",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show e088b3a:wiki/sources/bunu2023-heavy-metals-energy-drinks-kogi.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/czarnek2024-heavy-metals-energy-drinks",
+        "title": "Nutritional Risks of Heavy Metals in the Human Diet—Multi-Elemental Analysis of Energy Drinks",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Cr",
+          "Ni",
+          "Al",
+          "Cu",
+          "Mn",
+          "Fe",
+          "Zn",
+          "Co",
+          "V",
+          "Sr",
+          "Ba",
+          "B"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/czarnek2024-heavy-metals-energy-drinks",
+        "content_pin": {
+          "content_sha256": "08f1231cd35fedd5043994d0f4c3dd754a55fd02acf971c79f5c7a0878dd60bf",
+          "content_bytes": 29291,
+          "last_commit_sha": "59a19f9",
+          "last_commit_date": "2026-06-06",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 59a19f9:wiki/sources/czarnek2024-heavy-metals-energy-drinks.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hamza2025-heavy-metals-energy-drinks-nigeria",
+        "title": "Determination of Some Physicochemical Properties, Heavy Metals and Micronutrients of Some Energy Drinks Available in Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Cr",
+          "Ni",
+          "Co",
+          "Cu",
+          "Fe",
+          "Mn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hamza2025-heavy-metals-energy-drinks-nigeria",
+        "content_pin": {
+          "content_sha256": "70a9549a54b009ae201fa83bd0ce344caf8c9a714a2715f4406ad85be132c48c",
+          "content_bytes": 35107,
+          "last_commit_sha": "e705b0a",
+          "last_commit_date": "2026-06-06",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show e705b0a:wiki/sources/hamza2025-heavy-metals-energy-drinks-nigeria.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hamza2026-heavy-metals-energy-drinks-health-risk",
+        "title": "Analysis of Heavy Metals and Health Risk Assessment of Selected Energy Drinks in Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Cr",
+          "Ni",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hamza2026-heavy-metals-energy-drinks-health-risk",
+        "content_pin": {
+          "content_sha256": "aba4865a734597d50bc8856fd1f97ba5d085127e5931356c36779636d24a01fc",
+          "content_bytes": 44448,
+          "last_commit_sha": "ac30be7",
+          "last_commit_date": "2026-06-06",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ac30be7:wiki/sources/hamza2026-heavy-metals-energy-drinks-health-risk.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/salaheldin2025-multimatrix-foods-egypt",
         "title": "Assessment of toxic heavy metals in commonly consumed foods in Egypt and their implications for public health and safety",
@@ -48,12 +231,36 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salaheldin2025-multimatrix-foods-egypt",
         "content_pin": {
-          "content_sha256": "0c5bb2fb137d2be712a4b4cb960fed8df5dd3b75e26d692b5f41ef89749c6a72",
-          "content_bytes": 12915,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "5b15cdc6a6025f5ff11359e3797289ba18e357b65b8bffb33e95ad1504eed702",
+          "content_bytes": 14167,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yahaya2022-heavy-metals-energy-drinks-birnin-kebbi",
+        "title": "Heavy Metal Content and Associated Health Risks in Selected Energy Drinks Sold in Birnin Kebbi, Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Zn",
+          "Cu",
+          "Pb",
+          "Fe",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yahaya2022-heavy-metals-energy-drinks-birnin-kebbi",
+        "content_pin": {
+          "content_sha256": "548a1cb1c2370faca3992a9e48704d942337ff5c200820c1645bf92717e92f6a",
+          "content_bytes": 30894,
+          "last_commit_sha": "c2a4d10",
+          "last_commit_date": "2026-06-06",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show c2a4d10:wiki/sources/yahaya2022-heavy-metals-energy-drinks-birnin-kebbi.md | sha256sum"
         }
       }
     ]

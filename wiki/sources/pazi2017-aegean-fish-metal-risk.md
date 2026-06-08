@@ -75,3 +75,13 @@ This source provides primary occurrence evidence for Turkish Eastern Aegean fish
 - Speciation: mercury is total/unspecified Hg (`tHg`), not MeHg. Chromium is total Cr, not Cr(VI).
 - Brand firewall: no sampled product brands are attached to contamination values.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7c421b9](https://github.com/paleofoundation/heavymetalindex/commit/7c421b9) | 2026-06-08 | ingest: pazi2017-aegean-fish-metal-risk fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

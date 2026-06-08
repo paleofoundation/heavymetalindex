@@ -17,7 +17,7 @@ review_state: phase3
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-09
-sources: 5
+sources: 10
 ---
 
 # Soft Drinks/Carbonated Beverages
@@ -140,9 +140,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/babeker2025-heavy-metals-microbial-sudanese-soft-drinks\|Babeker et al. 2025]]. *Assessment of Heavy Metals Concentration and Microbial Profile in Sudanese Carbonated Soft Drinks and Beverages*, SSRG International Journal of Applied Chemistry, 12(2): 18-22 | 2025 | Peer-reviewed | SD Pb, Cd, Fe, Cu, Cr occurrence in Twenty Sudanese-bottled non-alcoholic beverages collected in triplicate from the production factories in Khartoum: eleven carbonated soft drinks from... (n=20) |
 | 2 | [[sources/salaheldin2025-multimatrix-foods-egypt\|Salahel et al. 2025]]. *Assessment of toxic heavy metals in commonly consumed foods in Egypt and their implications for public health and safety*, Scientific Reports | 2025 | Peer-reviewed | EG Pb, Cd, Cr, tAs occurrence in Fifty-four food and beverage samples collected January-December 2022 from local markets in Qena Governorate, southern Egypt: beverages (n=20;... (n=54) |
-| 3 | [[sources/deka2023-monitoring-strategies-heavy-metals-chapter\|Deka et al. 2023]]. *Monitoring Strategies for Heavy Metals in Foods and Beverages: Limitations for Human Health Risks*, IntechOpen (Heavy Metals – Recent Advances) | 2023 | Book chapter | IN Pb, Cd, tHg, Cr, Cr-VI, tAs, Ni, Al, Sb, Mn, Fe, Co, Ba, Be occurrence in Narrative review chapter; no primary samples. Surveys analytical and remediation literature for heavy metals across foods and beverages... |
-| 4 | [[sources/sadhya2023-india-food-heavy-metals-regulation\|Sadhya et al. 2023]]. *Regulation in India of Heavy Metals in Food Items: A Critical Analysis*, Environmental Analysis & Ecology Studies | 2023 | Review | IN Pb, Cu, tAs, Sn, Cd, tHg, MeHg, Cr, Ni, Se, Sb, Ba, Co, Fe, Li, Mn, Zn occurrence in Legal review of the Indian regulatory framework governing heavy metals in food and food packaging. No primary measurements.... |
-| 5 | [[sources/tarigan2016-factors-tin-released-canned-beverages\|Tarigan et al. 2016]]. *Factors are Affecting Tin Released in Canned Beverages*, International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333 | 2016 | Peer-reviewed | ID Sn occurrence in 9 brand variants from each of three canned beverage categories (carbonated, beer, juice), tested at two expiration cohorts... (n=27) |
+| 3 | [[sources/bunu2023-heavy-metals-energy-drinks-kogi\|Bunu et al. 2023]]. *Atomic Absorption Spectroscopic (AAS) Analysis of Heavy Metals and Health Risks Assessment of some Common Energy Drinks*, Pharmacology and Toxicology of Natural Medicines | 2023 | Peer-reviewed | NG Pb, tAs, Al, Zn occurrence in Twelve commercially marketed soft-drink and energy-drink brands purchased from supermarkets in Lokoja, Kogi State, Southwest Nigeria; labelled B1–B12... (n=12) |
+| 4 | [[sources/deka2023-monitoring-strategies-heavy-metals-chapter\|Deka et al. 2023]]. *Monitoring Strategies for Heavy Metals in Foods and Beverages: Limitations for Human Health Risks*, IntechOpen (Heavy Metals – Recent Advances) | 2023 | Book chapter | IN Pb, Cd, tHg, Cr, Cr-VI, tAs, Ni, Al, Sb, Mn, Fe, Co, Ba, Be occurrence in Narrative review chapter; no primary samples. Surveys analytical and remediation literature for heavy metals across foods and beverages... |
+| 5 | [[sources/sadhya2023-india-food-heavy-metals-regulation\|Sadhya et al. 2023]]. *Regulation in India of Heavy Metals in Food Items: A Critical Analysis*, Environmental Analysis & Ecology Studies | 2023 | Review | IN Pb, Cu, tAs, Sn, Cd, tHg, MeHg, Cr, Ni, Se, Sb, Ba, Co, Fe, Li, Mn, Zn occurrence in Legal review of the Indian regulatory framework governing heavy metals in food and food packaging. No primary measurements.... |
+| 6 | [[sources/el-daouk2020-aluminum-food-lebanon\|EL et al. 2020]]. *Aluminum exposure from food in the population of Lebanon*, Toxicology Reports | 2020 | Peer-reviewed | LB Al occurrence in Ninety-seven food items collected May–September 2018 from the Beirut retail market (105 sampled; 8 discarded for turbidity), comprising... (n=97) |
+| 7 | [[sources/izah2016-beverages-heavy-metals-nigeria\|Izah et al. 2016]]. *A Review of Heavy Metal Concentration and Potential Health Implications of Beverages Consumed in Nigeria*, Toxics | 2016 | Peer-reviewed | NG/GLOBAL Pb, Cd, tAs, tHg, Cr, Ni, Sn, Sb, Cu, Mn, Zn occurrence in Narrative review of secondary data from Nigerian beverage studies published 2007-2016. No new measurements. Section 2 states the... |
+| 8 | [[sources/tarigan2016-factors-tin-released-canned-beverages\|Tarigan et al. 2016]]. *Factors are Affecting Tin Released in Canned Beverages*, International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333 | 2016 | Peer-reviewed | ID Sn occurrence in 9 brand variants from each of three canned beverage categories (carbonated, beer, juice), tested at two expiration cohorts... (n=27) |
+| 9 | [[sources/adegbola2015-nigeria-snacks-drinks-metals\|Adegbola et al. 2015]]. *Evaluation of some heavy metal contaminants in biscuits, fruit drinks, concentrates, candy, milk products and carbonated drinks sold in Ibadan, Nigeria*, International Journal of Biological and Chemical Sciences | 2015 | Peer-reviewed | NG Ca, Cr, Cu, Fe, Pb, Cd occurrence in Twelve sweet and milk-sweet brands, six biscuit brands, eleven fruit and flavoured concentrate brands, and five liquid drink... (n=34) |
+| 10 | [[sources/maduabuchi2007-nigeria-beverages-arsenic-chromium\|Maduabuchi et al. 2007]]. *Arsenic and Chromium in Canned and Non-Canned Beverages in Nigeria: A Potential Public Health Concern*, International Journal of Environmental Research and Public Health | 2007 | Peer-reviewed | NG tAs, Cr occurrence in Fifty commonly consumed canned and non-canned beverages purchased in Nigeria in March 2005: 21 canned beverages and 29... (n=50) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -152,9 +157,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-juice-not-canned.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 100c4514a1a0a8be4c7422395054c96f01e1c9e433ca9a46b98ae5f776cb111c
+source_page_sha256: 21a757a0bc2c63d876f95caa05c52bd0e5a789ce19f86c2efe3980cf0f6831ab
 total_claims: 125
 cited_claims: 125
 uncited_claims: 0
-distinct_cited_targets: 49
-distinct_cited_sources: 42
+distinct_cited_targets: 52
+distinct_cited_sources: 45
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 117
-audit_log_total_rows: 789
+audit_log_total_rows: 972
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 125 |
 | cited claims | 125 |
 | uncited claims | 0 |
-| distinct cited targets | 49 |
-| distinct cited `sources/` pages | 42 |
+| distinct cited targets | 52 |
+| distinct cited `sources/` pages | 45 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 117 |
-| audit log rows read | 789 |
+| audit log rows read | 972 |
 
 ## Page-level audit rows
 
@@ -1765,7 +1765,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `Industry | 2022 | Government guidance | FDA April 2022 draft guidance proposing 10 ppb Pb for single-strength apple juic`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -1779,6 +1779,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1800,11 +1802,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -1835,7 +1841,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `ril 2022 draft guidance proposing 10 ppb Pb for single-strength apple juice and 20 ppb for other single-strength juices,`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -1849,6 +1855,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1870,11 +1878,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -1905,7 +1917,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `on reference method (AOAC First Action 2016.04) for fruit juices; validates the 10 ppb iAs action level analytical basis`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -1919,6 +1931,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1940,11 +1954,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -1975,7 +1993,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1.24 mg/L`
 - Context: `ckaged cherry, mango, orange, and pineapple juice Al concentrations (n=48; mean 1.24 mg/L, range 0.10–3.30 mg/L), docume`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -1989,6 +2007,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2010,11 +2030,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -2045,7 +2069,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `3.30 mg/L`
 - Context: `orange, and pineapple juice Al concentrations (n=48; mean 1.24 mg/L, range 0.10–3.30 mg/L), documenting Al-leaching from`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2059,6 +2083,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2080,11 +2106,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -2115,7 +2145,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11.2 ppb`
 - Context: `1 grape and grape-containing juice rows with quantified iAs concentrations (p50 11.2 ppb, p90 22.6 ppb, max 49.6 ppb), t`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2129,6 +2159,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2150,11 +2182,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -2185,7 +2221,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `22.6 ppb`
 - Context: `ape-containing juice rows with quantified iAs concentrations (p50 11.2 ppb, p90 22.6 ppb, max 49.6 ppb), the grape-categ`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2199,6 +2235,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2220,11 +2258,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -2255,7 +2297,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `49.6 ppb`
 - Context: `juice rows with quantified iAs concentrations (p50 11.2 ppb, p90 22.6 ppb, max 49.6 ppb), the grape-category subcategor`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2269,6 +2311,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2290,11 +2334,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -2325,7 +2373,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11.3 µg/kg`
 - Context: `e juices and 4 pear juices reporting tAs and speciated iAs (apple iAs range 2.5–11.3 µg/kg in samples >LOR; AsV predomin`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2339,6 +2387,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2360,11 +2410,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -2395,7 +2449,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `e 2.5–11.3 µg/kg in samples >LOR; AsV predominant), directly supporting the FDA 10 ppb iAs apple-juice action-level basi`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2409,6 +2463,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2430,11 +2486,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -2465,7 +2525,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4.9 ppb`
 - Context: `dataset | 94-sample FDA single-strength apple-juice iAs speciation dataset (p50 4.9 ppb, p90 7.7 ppb, max 9.8 ppb), the`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2479,6 +2539,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2500,11 +2562,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -2535,7 +2601,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `7.7 ppb`
 - Context: `sample FDA single-strength apple-juice iAs speciation dataset (p50 4.9 ppb, p90 7.7 ppb, max 9.8 ppb), the direct specie`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2549,6 +2615,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2570,11 +2638,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -2605,7 +2677,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `9.8 ppb`
 - Context: `ngle-strength apple-juice iAs speciation dataset (p50 4.9 ppb, p90 7.7 ppb, max 9.8 ppb), the direct species-specific ap`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2619,6 +2691,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2640,11 +2714,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -2675,7 +2753,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `8 µg/L`
 - Context: `and mango commercial juice Cr (total) and Ni concentrations by GFAAS (means ~5–8 µg/L); no Pb, Cd, As, Hg, or Sn measur`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2689,6 +2767,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2710,11 +2790,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -2745,7 +2829,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `50 ppb`
 - Context: `| Government guidance | FDA Juice HACCP guidance recommending lead controls at 50 ppb for ready-to-drink fruit juices;`
-- Cited targets (33):
+- Cited targets (36):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2759,6 +2843,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2780,11 +2866,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` (page missing)
     - audit rows: none
   - `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -2836,6 +2926,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/farid2010-fruit-juices-jeddah-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2004-juice-haccp-lead.md` | sources | 0 | — | — |
@@ -2853,9 +2944,11 @@ _All claims trace to at least one cited source._
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
 | `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` | sources | 0 | — | — |
 | `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` | sources | 0 | — | — |
+| `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` | sources | 0 | — | — |
 | `wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda\.md` | sources | 0 | — | — |
 | `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental\.md` | sources | 0 | — | — |
 | `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` | sources | 0 | — | — |
+| `wiki/sources/masri2025-toxicant-foods-california\.md` | sources | 0 | — | — |
 | `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` | sources | 0 | — | — |
 | `wiki/sources/paula2015-fruit-juices-elements-portugal\.md` | sources | 0 | — | — |
 | `wiki/sources/reczajska2005-chromium-plant-foods-poland\.md` | sources | 0 | — | — |

@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 3
+sources: 4
 ---
 
 # White fish
@@ -170,7 +170,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/macdonald2025-fss-uk-fishery-contaminants-review\|MacDonald et al. 2025]]. *Occurrence of chemical contaminants in wild-caught fishery products of relevance to Scottish and wider UK Fishing Waters: A Review*, Fera Science Ltd report to Food Standards Scotland (Report FR/002826) | 2025 | Agency report | GB/EU tHg, MeHg, Cd, Pb, tAs, iAs, Ni, Cr occurrence in Narrative + tabular review of chemical contaminants in wild-caught and smoked fish, shellfish, crustaceans, and cephalopods from Scottish... (n=192) |
 | 2 | [[sources/ospar2022-metals-fish-shellfish-sediment\|Larsen et al. 2022]]. *Status and Trend for Heavy Metals (Mercury, Cadmium and Lead) in Fish, Shellfish and Sediment*, OSPAR Commission, Quality Status Report 2023 Common Indicator Assessment | 2022 | Government report | EU/BE/DK Pb, Cd, tHg, Cu, Zn, Cr, Ni, tAs, Co, Ag, Sn occurrence in Aggregated CEMP monitoring data from 603 to 647 biota monitoring sites and 393 to 401 sediment monitoring sites... |
-| 3 | [[sources/helcom2017-core-indicator-metals-baltic\|HELCOM et al. 2017]]. *Metals (lead, cadmium and mercury) — HELCOM core indicator report*, HELCOM Core Indicator Report (HOLAS II component), ISSN 2343-2543 | 2017 | Government report | EU/DE/DK Pb, Cd, tHg occurrence in Aggregated monitoring data from the HELCOM COMBINE database (held at ICES) for the assessment period 2011-2015, with all... |
+| 3 | [[sources/naess2020-norwegian-seafood-metals\|Naess et al. 2020]]. *Mercury, lead, arsenic, and cadmium in Norwegian seafood products and consumer exposure*, Food Additives & Contaminants: Part B | 2020 | Peer-reviewed | NO tHg, Pb, tAs, Cd occurrence in Market-representative commercially available seafood products collected in Norway in 2015, 2017, and 2018; each analytical sample was a... (n=84) |
+| 4 | [[sources/helcom2017-core-indicator-metals-baltic\|HELCOM et al. 2017]]. *Metals (lead, cadmium and mercury) — HELCOM core indicator report*, HELCOM Core Indicator Report (HOLAS II component), ISSN 2343-2543 | 2017 | Government report | EU/DE/DK Pb, Cd, tHg occurrence in Aggregated monitoring data from the HELCOM COMBINE database (held at ICES) for the assessment period 2011-2015, with all... |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -193,9 +194,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

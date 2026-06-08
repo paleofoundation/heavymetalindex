@@ -111,3 +111,14 @@ Single-author narrative review of laboratory digestion methodology, 6 printed pa
 - [[metals/zinc]]
 - [[ingredients/fruits]]
 - [[ingredients/fruit-juice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1c1eeb3](https://github.com/paleofoundation/heavymetalindex/commit/1c1eeb3) | 2026-06-07 | audit: wale2024-fruit-digestion-methods-review promoted |
+| [e6ae7b7](https://github.com/paleofoundation/heavymetalindex/commit/e6ae7b7) | 2026-06-07 | ingest: wale2024-fruit-digestion-methods-review fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

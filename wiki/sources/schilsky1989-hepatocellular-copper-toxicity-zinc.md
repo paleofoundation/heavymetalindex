@@ -171,3 +171,14 @@ Funding: NIH grants DK-34668, DK-17702, DK-32972; National Center for the Study 
 **Scope fit.** The paper sits in the "Black Market Peptide Metal Survey / heavy_metals_peptides" Manual Fetch Kimi folder alongside [[garrity1990-mt1-tissue-specific-promoter]], [[nagel1989-cadmium-resistant-chlamydomonas]], [[schett1998-hsp70-hsf1-rheumatoid-synovial]], and other peptide/metal mitigation papers. Per the 2026-06-02 scope commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`, peptide and metallothionein mechanism papers are in-scope as background for the mitigation-evidence chapter of the wiki. This 1989 HepG2 primary-experimental paper is foundational for the hepatocellular axis of zinc-induced metallothionein protection against copper toxicity that is referenced in Wilson's-disease therapeutic literature and in copper-page mechanistic background.
 
 **Audit subagent (2026-06-08) verdict: PROMOTE → minor concern applied.** Five checks returned ✅ on all five (Check 1 numerical fidelity, Check 2 slug vocabulary, Check 3 speciation/methods, Check 4 Part 12 brand firewall, Check 5 Part 2 HMTc firewall). One ⚠️ concern was raised in Check 3 (the Western-blot XAR-5 exposure temperature in Methods (brief) was written as "70°C" when the PDF p. 1563 has "−70°C" — film exposure for autoradiography is always at sub-freezing temperatures, +70°C would destroy the film, so this was a missing-minus-sign typo). Verified against PDF p. 1563 ("`exposure to XAR-5 film (Eastman Kodak Co.) at −70°C`") and against the parallel mentions of "−70°C" for SB-5 film exposure on p. 1562 and the [³⁵S]cysteine sample storage on p. 1564, all consistent with the standard autoradiography practice. Applied the correction: "70°C" → "−70°C" in the Western-blot Methods entry. Subagent ID a6ec741a344df5657.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7e3ca47](https://github.com/paleofoundation/heavymetalindex/commit/7e3ca47) | 2026-06-08 | audit: schilsky1989-hepatocellular-copper-toxicity-zinc revised |
+| [83a5ba6](https://github.com/paleofoundation/heavymetalindex/commit/83a5ba6) | 2026-06-08 | ingest: schilsky1989-hepatocellular-copper-toxicity-zinc fresh from MFK/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

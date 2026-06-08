@@ -79,3 +79,13 @@ This source contributes Italy-market occurrence evidence for Cd, Pb, total As, a
 - Internal consistency: a few Table 4 mean values appear below the printed range for the same row, such as Cinnamon (Indonesia) As mean 0,019 against range 0,021-0,027 and Cinnamon (Vietnam) Pb mean 2,224 against range 2,264-2,923. Values are transcribed as printed rather than recalculated.
 - `ginger` is not present in the current ingredient taxonomy snapshot, so ginger is included only as a matrix term.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4113edc](https://github.com/paleofoundation/heavymetalindex/commit/4113edc) | 2026-06-08 | ingest: bua2016-aromatic-spices-metals-italy fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

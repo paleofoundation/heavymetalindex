@@ -72,3 +72,13 @@ This source supplies direct fish occurrence evidence and a clear speciation warn
 - Units are preserved as `ug As/g` wet weight; the extracted text renders the micro sign as `p`, so no conversion was performed.
 - Speciation: `tAs` and `iAs` are separately reported. Inorganic arsenic duplicate values are not averaged.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; species-level fish slugs for fourhorn sculpin, burbot, Baltic herring, pike, perch, and roach are not present.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ad52d12](https://github.com/paleofoundation/heavymetalindex/commit/ad52d12) | 2026-06-08 | ingest: norin1985-swedish-fish-arsenic-speciation fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

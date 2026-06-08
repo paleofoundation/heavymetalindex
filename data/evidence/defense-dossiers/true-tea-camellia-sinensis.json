@@ -21,16 +21,16 @@
     "canonical_url": "https://heavymetalindex.com/products/true-tea-camellia-sinensis",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f83b20367650a1e3a23e440cdcad30b0b788363fe62c89acb1f7572b7e2e2f81",
-      "content_bytes": 19075,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "8da03faffb50a3da004ceb268f65488f493f6317fdc55fd6449ddf67d7cb8fb8",
+      "content_bytes": 25423,
+      "last_commit_sha": "1ca3eb0",
+      "last_commit_date": "2026-06-06",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/true-tea-camellia-sinensis.md | sha256sum"
+      "verify_command": "git show 1ca3eb0:wiki/products/true-tea-camellia-sinensis.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 31,
+    "contributing_source_count": 40,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abraheem2022-tea-coffee-lead-cadmium",
         "content_pin": {
-          "content_sha256": "6a15d45e4a156d83eaf1fad351fe30a7ef890fce843d431bee3a501d0f19358d",
-          "content_bytes": 2874,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "fdc4b86b70f3f23ce7401f23f47321ccea01edc57a760034fa7d3c7b8a63dd4c",
+          "content_bytes": 2942,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/abraheem2022-tea-coffee-lead-cadmium.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/abraheem2022-tea-coffee-lead-cadmium.md | sha256sum"
         }
       },
       {
@@ -74,12 +74,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bandara2025-bael-herbal-tea-minerals",
         "content_pin": {
-          "content_sha256": "727ca4e2f8737189fc4d6da50a0888ba872f112e53bf908acef4c7f7c8e42b08",
-          "content_bytes": 4242,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "eb1a28f9c6ec06b23d8418cdc736a34bd4751dfde2be26c9a8dfce9bbde9886c",
+          "content_bytes": 4310,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/bandara2025-bael-herbal-tea-minerals.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/bandara2025-bael-herbal-tea-minerals.md | sha256sum"
         }
       },
       {
@@ -102,12 +102,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brzezicha-cirocka2016-green-tea-geographic-origins",
         "content_pin": {
-          "content_sha256": "4f02acd736a9684fcce2a67493cdbc8aad7631683bb1f0f0553a605b35154582",
-          "content_bytes": 4821,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "8f8abe32a37a28f96e9dace79b5663c43bb073f64439935d41beb3570cde5d7a",
+          "content_bytes": 4889,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/brzezicha-cirocka2016-green-tea-geographic-origins.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/brzezicha-cirocka2016-green-tea-geographic-origins.md | sha256sum"
         }
       },
       {
@@ -123,12 +123,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dehghani2020-food-lead-cadmium-mspe",
         "content_pin": {
-          "content_sha256": "bf3e70e59d56a701208855877eeeeb777925b802d71aea940807648f919a20b7",
-          "content_bytes": 5730,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "9fa0615326c46c9a2bb08daeb3351fcf070b61ad51d6425d5d166f9a76a1f3aa",
+          "content_bytes": 5798,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/dehghani2020-food-lead-cadmium-mspe.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/dehghani2020-food-lead-cadmium-mspe.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa2012-cadmium-dietary-exposure-europe",
+        "title": "Cadmium dietary exposure in the European population",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
+        "content_pin": {
+          "content_sha256": "a9e18e6abdbe2e88582689b79abee5c0f8d8b4014da7c4881fe6d5106f5acb39",
+          "content_bytes": 7369,
+          "last_commit_sha": "0226413",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 0226413:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {
@@ -143,12 +163,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "ad9358db2769bc938c669cbf823cc217aa20914abad12e38b2da5a06687794b9",
-          "content_bytes": 30112,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "230bb3d82ddc62a76d5958a93fe400e7f0153d95462223e42f41d106db5f3829",
+          "content_bytes": 30180,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/el-daouk2020-aluminum-food-lebanon",
+        "title": "Aluminum exposure from food in the population of Lebanon",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/el-daouk2020-aluminum-food-lebanon",
+        "content_pin": {
+          "content_sha256": "5d870cdb1238a0b13b18fc0d07c6cffc7689a1a7dfdf681076686b2ec2a4cc98",
+          "content_bytes": 22319,
+          "last_commit_sha": "246411e",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 246411e:wiki/sources/el-daouk2020-aluminum-food-lebanon.md | sha256sum"
         }
       },
       {
@@ -177,12 +217,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fan2025-hangzhou-green-tea-metals",
         "content_pin": {
-          "content_sha256": "2d4282eff82b49858de85d0463d4d19a0ce689ebcdd62156bc977c85efaed2bb",
-          "content_bytes": 9954,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "33bec0f62d5c7fd4fdb3c255d1529b448a8b226c3c8866a59f30432a4fb64b63",
+          "content_bytes": 10022,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/fan2025-hangzhou-green-tea-metals.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/fan2025-hangzhou-green-tea-metals.md | sha256sum"
         }
       },
       {
@@ -200,12 +240,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/feszterova2025-herbal-tea-risk-elements",
         "content_pin": {
-          "content_sha256": "2b7146c2bbd2a35ad3ccac46b3aea1b4e7df52c569dd1a517d518c90ec8c54ec",
-          "content_bytes": 2882,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "9d18646d1ebb89946bf10a6bf94e28b747c59161f08a3e6c33b7d92c7f7d5bac",
+          "content_bytes": 2950,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/feszterova2025-herbal-tea-risk-elements.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/feszterova2025-herbal-tea-risk-elements.md | sha256sum"
         }
       },
       {
@@ -220,12 +260,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fogarasi2019-tea-aluminum",
         "content_pin": {
-          "content_sha256": "7dda6130627d574631e9c0e732684b18f5bd06bbecd88d981a1ea98f0033a86e",
-          "content_bytes": 2892,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "aaedb3bf9029a272029c3ed429517209cf78ee5ca67b98ea5589e3740f4971b7",
+          "content_bytes": 2960,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/fogarasi2019-tea-aluminum.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/fogarasi2019-tea-aluminum.md | sha256sum"
         }
       },
       {
@@ -249,12 +289,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/grzadka2024-tea-radioisotopes-heavy-metals",
         "content_pin": {
-          "content_sha256": "ae0559fc8b4e8594a78b81be10a9f019a5f06955522191bfa76e739473c5f12d",
-          "content_bytes": 7366,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "a80b264b97a37af2c558ea7d0043c4bf48429c168ca893a556e0e044314b8802",
+          "content_bytes": 8599,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/grzadka2024-tea-radioisotopes-heavy-metals.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/grzadka2024-tea-radioisotopes-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -276,12 +316,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hamitoglu2026-turkiye-tea-metals",
         "content_pin": {
-          "content_sha256": "a2de13d3c3722e113d18d908cbfd596e7190d214cfde5917d9a5c0a6f7588535",
-          "content_bytes": 3066,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "ba1cc0daf0a95cc3f1e64d20ddece834da045fa0c8a1a45b5054ad365882d1f1",
+          "content_bytes": 3134,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/hamitoglu2026-turkiye-tea-metals.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/hamitoglu2026-turkiye-tea-metals.md | sha256sum"
         }
       },
       {
@@ -296,12 +336,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hardisson2017-aluminium-dietary-exposure-review",
         "content_pin": {
-          "content_sha256": "0b1abadcaaa2d00d225fdbbe383ebfeb5530813a0c1f1417082139ab5211a15f",
-          "content_bytes": 7736,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "22848a34388643651327ea7300e75020b38577951b81a986b7460a0c12ba6ccc",
+          "content_bytes": 7804,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/hardisson2017-aluminium-dietary-exposure-review.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/hardisson2017-aluminium-dietary-exposure-review.md | sha256sum"
         }
       },
       {
@@ -321,12 +361,35 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hu2023-china-tea-heavy-metals",
         "content_pin": {
-          "content_sha256": "ee3ee5768afe262ff29b46da04f15608c8955e03ad508b4e821eb098501cf683",
-          "content_bytes": 5774,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "1a0c08b271d3f83169ebedaa506fd0938fb23033eaea13b3f70e03b5cd37dd20",
+          "content_bytes": 5842,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/hu2023-china-tea-heavy-metals.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/hu2023-china-tea-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jannat2018-iran-tea-heavy-metals",
+        "title": "Determination of trace elements and heavy metals content of green and black tea varieties consumed in Iran",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jannat2018-iran-tea-heavy-metals",
+        "content_pin": {
+          "content_sha256": "efce73d99068887465a058e27abcc717e733c5498058a7dfb2dd7581f5f19928",
+          "content_bytes": 9886,
+          "last_commit_sha": "5dce0bd",
+          "last_commit_date": "2026-06-07",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5dce0bd:wiki/sources/jannat2018-iran-tea-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -343,12 +406,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jurowski2023-heavy-metals-green-tea-poland",
         "content_pin": {
-          "content_sha256": "5fc5a7322ca5a8b569b4c593596554cd843da4627c2c0b9f2ce940d8cb64de9b",
-          "content_bytes": 4631,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "de951de3c6120f6b91780b8d868b536cd18045dd1b0dd9ad75e5248277e07e46",
+          "content_bytes": 4699,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/jurowski2023-heavy-metals-green-tea-poland.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/jurowski2023-heavy-metals-green-tea-poland.md | sha256sum"
         }
       },
       {
@@ -372,12 +435,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kazeminia2023-tea-heavy-metals-review",
         "content_pin": {
-          "content_sha256": "09cff9b0edb5a331c4ccf735eea2413821939784cd2ffaf267ceac124324619d",
-          "content_bytes": 3638,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "e011665ffd1cccbe3fd6ac2e686753dd2d6a2d8a90acf694a144e158e526caa3",
+          "content_bytes": 3706,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/kazeminia2023-tea-heavy-metals-review.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/kazeminia2023-tea-heavy-metals-review.md | sha256sum"
         }
       },
       {
@@ -395,12 +458,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland",
         "content_pin": {
-          "content_sha256": "e5a00b2d8aa7dcdcc75441c8139eceaa588bc2422b3d791ee8a5a9423413ef2b",
-          "content_bytes": 17043,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "57fedd2f6369eecc47dad4c97da594edf7a3459c8c5bef1b4057f8473ae6df8c",
+          "content_bytes": 17111,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland.md | sha256sum"
         }
       },
       {
@@ -419,12 +482,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kowalski2024-herbal-tea-heavy-metals",
         "content_pin": {
-          "content_sha256": "57e0a65842e9393a11ca770ec1bda5c05934f1a0860012ba858de8b3f9cd0e05",
-          "content_bytes": 2976,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "667775fb7bede3e3f900b90a96a5446a094ba207e4794a1fefc9950276ae09f9",
+          "content_bytes": 3044,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/kowalski2024-herbal-tea-heavy-metals.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/kowalski2024-herbal-tea-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -442,12 +505,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lee2019-food-processing-heavy-metals-migration",
         "content_pin": {
-          "content_sha256": "0ee26cbcaec4b4d10e3820fe091524b1c33a228754a30bfb2988954b48a7abd6",
-          "content_bytes": 16858,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "0f19871c0f047f0e82a643e2201db9205004506497438021bb24e265678c5219",
+          "content_bytes": 16926,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/lee2019-food-processing-heavy-metals-migration.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/lee2019-food-processing-heavy-metals-migration.md | sha256sum"
         }
       },
       {
@@ -466,12 +529,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/li2013-tea-chemical-contaminants-review",
         "content_pin": {
-          "content_sha256": "aceb2ada7a8c47c6c38cc0af5a2854a552b065c643ca2a5d4aae255d114f1896",
-          "content_bytes": 3726,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "313400ae5147bc0943523f3549ec788dfa4f14f7d01519c54c697467f2245fa9",
+          "content_bytes": 3794,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/li2013-tea-chemical-contaminants-review.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/li2013-tea-chemical-contaminants-review.md | sha256sum"
         }
       },
       {
@@ -490,12 +553,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/li2015-green-tea-jiangxi-al-heavy-metals",
         "content_pin": {
-          "content_sha256": "59de7aaa71a1a4a6f2d43ae424da31566a2f15a0ba2b286eda2402fd597b3296",
-          "content_bytes": 5542,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "ee740bc5eb38bf1723e25d66d1fd7a678b330ae9b6cf5247b71a7eb12e59d1dc",
+          "content_bytes": 5610,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/li2015-green-tea-jiangxi-al-heavy-metals.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/li2015-green-tea-jiangxi-al-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -513,12 +576,35 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2015-toxic-elements-infant-food-poland",
         "content_pin": {
-          "content_sha256": "67805bef1071a62d14e1fd4283b8ba94c628fe5107920c3d30d68cbc6de36d08",
-          "content_bytes": 10237,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "b513ad228d69debd7050b72ef8fa1c303fb10249e244be5175aab4f9da91e2f5",
+          "content_bytes": 10305,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/masri2025-toxicant-foods-california",
+        "title": "Assessing Dietary Consumption of Toxicant-Laden Foods and Beverages by Age and Ethnicity in California: Implications for Proposition 65",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/masri2025-toxicant-foods-california",
+        "content_pin": {
+          "content_sha256": "8080a1824e02c590594f2746d3ec13c01b42544c105c31c4735483e7c693055a",
+          "content_bytes": 34476,
+          "last_commit_sha": "3ce252a",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ce252a:wiki/sources/masri2025-toxicant-foods-california.md | sha256sum"
         }
       },
       {
@@ -541,12 +627,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/meng2023-electrochemical-sensors-food-heavy-metals",
         "content_pin": {
-          "content_sha256": "6b7a6237be4f4594617bf6c1ce9e12e942d20fec70fa6b62570e4f653e51c4cf",
-          "content_bytes": 15557,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "ff056898b70898e326a6684ce9a20b4f540bbc6fdf7beb92c09e30dce8c65d98",
+          "content_bytes": 15625,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/meng2023-electrochemical-sensors-food-heavy-metals.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/meng2023-electrochemical-sensors-food-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -561,12 +647,56 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ozturk2024-al-tea-infusion-teapot",
         "content_pin": {
-          "content_sha256": "b5da1fa2a76e03d18f939b2846e7757f7acacaba9c23b4314253c133914cec51",
-          "content_bytes": 12168,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "a45ec176479849f4503efb210491cd374a2ea327a1990396cf5a63f4dd17ba32",
+          "content_bytes": 12236,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/ozturk2024-al-tea-infusion-teapot.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/ozturk2024-al-tea-infusion-teapot.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/peng2023-al-fluoride-tea-stress",
+        "title": "Aluminum and Fluoride Stresses Altered Organic Acid and Secondary Metabolism in Tea (Camellia sinensis) Plants: Influences on Plant Tolerance, Tea Quality and Safety",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/peng2023-al-fluoride-tea-stress",
+        "content_pin": {
+          "content_sha256": "e5cfb48b31e67b7465fac317c72ab9a4d5ee2fec0953833a59d097fb56d97d35",
+          "content_bytes": 17759,
+          "last_commit_sha": "6b2d57e",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 6b2d57e:wiki/sources/peng2023-al-fluoride-tea-stress.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/pourramezani2019-iran-imported-black-tea-metals",
+        "title": "Evaluation of heavy metal concentration in imported black tea in Iran and consumer risk assessments",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cu",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pourramezani2019-iran-imported-black-tea-metals",
+        "content_pin": {
+          "content_sha256": "9265d75cc6c3e08db0dbde6dc3cb52030c31592af68ae56afbc97e12aee631e2",
+          "content_bytes": 13751,
+          "last_commit_sha": "6a6ebd3",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 6a6ebd3:wiki/sources/pourramezani2019-iran-imported-black-tea-metals.md | sha256sum"
         }
       },
       {
@@ -584,12 +714,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salaheldin2025-multimatrix-foods-egypt",
         "content_pin": {
-          "content_sha256": "0c5bb2fb137d2be712a4b4cb960fed8df5dd3b75e26d692b5f41ef89749c6a72",
-          "content_bytes": 12915,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "5b15cdc6a6025f5ff11359e3797289ba18e357b65b8bffb33e95ad1504eed702",
+          "content_bytes": 14167,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
         }
       },
       {
@@ -609,12 +739,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salmani2023-herbal-teas-metals-review",
         "content_pin": {
-          "content_sha256": "04fd75756e91a94b078277dfdb282c2cd192dc3d49820957203b16451761b3cb",
-          "content_bytes": 5503,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "0957b53e00cd6c568af0b899fb9e0ae7ed03490d25a054189873030f3cb7ef56",
+          "content_bytes": 5571,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/salmani2023-herbal-teas-metals-review.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/salmani2023-herbal-teas-metals-review.md | sha256sum"
         }
       },
       {
@@ -630,12 +760,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/song2024-crvi-hplc-icpms-food-reduction",
         "content_pin": {
-          "content_sha256": "82909456c7eeaf4db9e57174f2b68836f1a741ef4849e859658fd833960deae8",
-          "content_bytes": 13752,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "d1d0ddab5a9709a4b6ce4e08214600a971810db0974fe27cf67632a5670b0647",
+          "content_bytes": 13820,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
         }
       },
       {
@@ -652,12 +782,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/szymczykowska2026-matcha-elemental-composition",
         "content_pin": {
-          "content_sha256": "aafe2239388fdda6c7ef457a94bc1bdcbb10937aea4631cd5f3ac3a0add906f9",
-          "content_bytes": 25932,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "eb99bdff419d5b796afd10b34f518549223d93938f24840d729cab29e10b2bd3",
+          "content_bytes": 26000,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/szymczykowska2026-matcha-elemental-composition.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/szymczykowska2026-matcha-elemental-composition.md | sha256sum"
         }
       },
       {
@@ -676,12 +806,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/taha2026-saudi-tea-metals",
         "content_pin": {
-          "content_sha256": "ef63c1f08239d1db00a470697555bafc0de17393cc9a47175135df3be61397ce",
-          "content_bytes": 2657,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "19768a84c0d78f0d9b06b8fe07ad8c8e365453c656fc84e36c424f970297669b",
+          "content_bytes": 2725,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/taha2026-saudi-tea-metals.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/taha2026-saudi-tea-metals.md | sha256sum"
         }
       },
       {
@@ -704,12 +834,78 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/usda-fas2023-china-gb-2762-2022-translation",
         "content_pin": {
-          "content_sha256": "52e2a71b7dd30f51bec8847be2c5de5f41aa9ab621a338d4b4ebb0a026701994",
-          "content_bytes": 19884,
-          "last_commit_sha": null,
-          "last_commit_date": null,
+          "content_sha256": "78d8ccf0654ebe2b200d5b8a38a84256b3414c2440a6d304bdfa07f40cb75e06",
+          "content_bytes": 20536,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": null
+          "verify_command": "git show c679df8:wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/wu2025-se-enriched-tea-cadmium-anhui",
+        "title": "Cadmium in the Soil–Tea–Infusion Continuum of Selenium-Enriched Gardens: Implications for Food Safety",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/wu2025-se-enriched-tea-cadmium-anhui",
+        "content_pin": {
+          "content_sha256": "2a22d5b99f2152ffec86e3f73bb28173112208ebae10643880e9569d6e1855fd",
+          "content_bytes": 11676,
+          "last_commit_sha": "0d0cfb7",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 0d0cfb7:wiki/sources/wu2025-se-enriched-tea-cadmium-anhui.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yao2021-tieguanyin-white-tea-heavy-metals",
+        "title": "Dietary risk assessment of fluoride, lead, chromium, and cadmium through consumption of Tieguanyin tea and white tea",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yao2021-tieguanyin-white-tea-heavy-metals",
+        "content_pin": {
+          "content_sha256": "d99c2b17ce3f54bb0ebc5b30eda4dbacfe9675b5be2f297eb76c9f493c8b207a",
+          "content_bytes": 10553,
+          "last_commit_sha": "64cfb8b",
+          "last_commit_date": "2026-06-07",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 64cfb8b:wiki/sources/yao2021-tieguanyin-white-tea-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yao2022-tieguanyin-tea-heavy-metals",
+        "title": "Prediction and Health Risk Assessment of Copper, Lead, Cadmium, Chromium, and Nickel in Tieguanyin Tea: A Case Study from Fujian, China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cu",
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yao2022-tieguanyin-tea-heavy-metals",
+        "content_pin": {
+          "content_sha256": "328ab7bc2ccd1caf63afc85387c292e6fb327b0e8ceb3592e04adbf0db08232c",
+          "content_bytes": 11442,
+          "last_commit_sha": "e4938ae",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show e4938ae:wiki/sources/yao2022-tieguanyin-tea-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -728,12 +924,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yaqub2018-tea-metals-pesticides-pakistan",
         "content_pin": {
-          "content_sha256": "0148f0863a745e6a76f45b006b3dc969c564fb4800606d918704b9e386f9f3c9",
-          "content_bytes": 3923,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "5bb1250309f3ce662c79fa3db48aa02e7f134dc13a1d31af85dd14218ec84514",
+          "content_bytes": 3991,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/yaqub2018-tea-metals-pesticides-pakistan.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/yaqub2018-tea-metals-pesticides-pakistan.md | sha256sum"
         }
       },
       {
@@ -748,12 +944,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ye2026-tin-foods-dietary-exposure-zhejiang",
         "content_pin": {
-          "content_sha256": "ec8fb021b96a332bdd46b63f42eccfad9d0e1ff44a9218f99f163e5fb246e1b5",
-          "content_bytes": 24964,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "a3062f2d19ea221f32b95ece9153e483f2eacbe19929504b8c856e84f9e5740f",
+          "content_bytes": 25032,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/ye2026-tin-foods-dietary-exposure-zhejiang.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/ye2026-tin-foods-dietary-exposure-zhejiang.md | sha256sum"
         }
       },
       {
@@ -774,12 +970,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zhang2018-tea-puan-guizhou-heavy-metals",
         "content_pin": {
-          "content_sha256": "2ec23812101b69c1a27f537dae0c7e275fd474357bc0f9726e219c9e76696bf6",
-          "content_bytes": 5651,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "72294909691f875f5b9c3b05eb3125623c9579d3c0ebaa2612e16e25f3c51dc6",
+          "content_bytes": 5719,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/zhang2018-tea-puan-guizhou-heavy-metals.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/zhang2018-tea-puan-guizhou-heavy-metals.md | sha256sum"
         }
       }
     ]

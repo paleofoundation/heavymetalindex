@@ -112,3 +112,14 @@ This is a narrative review with no declared inclusion/exclusion criteria, no PRI
 - Checks 2, 3, 4, 5 returned ✅ — no further corrections applied.
 
 **Reviewer's note on scope fit.** This paper is in the "Black Market Peptide Metal Survey / heavy_metals_peptides" Manual Fetch Kimi folder alongside [[shalev2022-peptide-metal-nmr-review]], [[luo2024-peptides-heavy-metal-remediation]], and several other peptide-and-metals sources. Like Shalev 2022, this paper is in scope per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`, but its actual wiki contribution is the narrowest yet: it is a generalist therapeutic-peptide development review with no direct heavy-metals content. Its HMI-relevant payload is (a) the roster of approved peptide therapeutics that anchors the legitimate-pharmaceutical baseline for any black-market-peptide comparator work and (b) the documentation of copper-catalysed click chemistry as a synthesis route used in approved PEGylated peptide drugs (copper is not an HMTc analyte but the methodology is documented here for future reference if a metals-in-peptides workstream needs to trace synthesis-residue pathways). Readers expecting heavy-metals occurrence or contamination data in this paper should be redirected to the sibling sources in this same folder.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2bd570f](https://github.com/paleofoundation/heavymetalindex/commit/2bd570f) | 2026-06-08 | audit: wang2022-therapeutic-peptides-review revised |
+| [6603ebd](https://github.com/paleofoundation/heavymetalindex/commit/6603ebd) | 2026-06-08 | ingest: wang2022-therapeutic-peptides-review (source page follow-up after race-condition unstaging) |
+<!-- END: hmi-page-history -->

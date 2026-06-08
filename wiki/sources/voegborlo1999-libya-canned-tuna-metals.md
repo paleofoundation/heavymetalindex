@@ -56,3 +56,13 @@ This source contributes Libya/Mediterranean canned-tuna occurrence data for tota
 - Speciation: mercury is total mercury. The source discusses methylmercury historically but does not measure MeHg.
 - Brand firewall: the source uses factory/canned-tuna sampling, not consumer brand rankings.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bd0631b](https://github.com/paleofoundation/heavymetalindex/commit/bd0631b) | 2026-06-08 | ingest: voegborlo1999-libya-canned-tuna-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

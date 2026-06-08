@@ -57,3 +57,13 @@ This source is exposure and health-effect context for fish and seafood methylmer
 - Brand firewall: no sampled product brand values were reported.
 - Jurisdictions capture the source's explicit Japan, Iraq, United States, and European Union historical/regulatory examples; the review is not a single-market occurrence study.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented. Product routes are context routes only because the source has no original occurrence table.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d5f2eb8](https://github.com/paleofoundation/heavymetalindex/commit/d5f2eb8) | 2026-06-08 | ingest: grandjean2010-methylmercury-health-research fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

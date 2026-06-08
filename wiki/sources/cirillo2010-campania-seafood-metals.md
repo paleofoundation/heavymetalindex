@@ -73,3 +73,13 @@ This source provides Italian market seafood occurrence evidence for Pb, Cd, tota
 - Speciation: Hg is reported as total Hg and As as total As. The paper's methylmercury discussion is an estimated factor from total Hg, not measured MeHg, and is not used as a methylmercury occurrence value.
 - Brand firewall: samples were market-category/species groups, not branded products.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; narrow slugs for seabass, seabream, hake, mackerel, mullet, cephalopods, cuttlefish, octopus, squid, and mussels are not all available as product rows, so broad seafood/fish/shellfish routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7a0924b](https://github.com/paleofoundation/heavymetalindex/commit/7a0924b) | 2026-06-08 | ingest: cirillo2010-campania-seafood-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

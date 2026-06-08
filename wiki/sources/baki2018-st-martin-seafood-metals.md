@@ -61,3 +61,13 @@ This source provides Bangladesh seafood occurrence evidence for fish, shrimp, lo
 - Speciation: the paper states inorganic As was measured/detected for the As column and does not report total As. Hg is reported as Hg without methylmercury separation, so frontmatter uses `tHg`.
 - Units are preserved as `mg/kg ww`; no dry-weight or fresh-weight conversion was performed.
 - Brand firewall: samples were species/local-market categories, not branded products.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [02e4465](https://github.com/paleofoundation/heavymetalindex/commit/02e4465) | 2026-06-08 | ingest: baki2018-st-martin-seafood-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

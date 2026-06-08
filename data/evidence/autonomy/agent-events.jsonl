@@ -899,3 +899,10 @@
 {"ts":"2026-06-08T19:14:55.771Z","actor":"frank-opus","cite_key":"bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T19:27:23.500Z","actor":"frank-opus","cite_key":"sosnowska2025-phage-display-peptide-copper-chemosensor","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T19:51:52Z","actor":"codex","source_path":"raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-fruit-mixed-ni_2023_10-4236-anp-2023-123009.pdf","cite_key":"","status":"skip:not-target-cell","commit":"pending","blocker":"","next":"triage sweep"}
+{"ts":"2026-06-08T20:04:55.959Z","actor":"frank-opus","cite_key":"tran2025-magnesium-chelation-peptides-brewer-yeast-soybean","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T20:17:27.923Z","actor":"frank-opus","cite_key":"janvier2018-falsified-peptides-elemental-impurities","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T20:25:38.562Z","actor":"frank-opus","cite_key":"craven2025-aas-heavy-metals-australia","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T20:34:45.101Z","actor":"frank-opus","cite_key":"cleanlabel2020-collagen-heavy-metals","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T20:58:31.675Z","actor":"frank-opus","cite_key":"cleanlabel2025-protein-powder-heavy-metals","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T21:07:09.530Z","actor":"frank-opus","cite_key":"ucalgary2026-cpt-pearl-unauthorized-injectable-peptides","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T21:19:43.505Z","actor":"frank-opus","cite_key":"ema2025-synthetic-peptides-elemental-impurities","status":"ingested","source_path":"","commit":"","blocker":"","next":""}

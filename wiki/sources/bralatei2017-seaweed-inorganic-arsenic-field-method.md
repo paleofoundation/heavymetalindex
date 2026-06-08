@@ -65,3 +65,13 @@ This source provides edible seaweed and kelp iAs evidence with explicit analytic
 - Speciation: the source's routeable occurrence values are inorganic arsenic (`iAs`). Total As is included in frontmatter and body only because the paper reports total As context for the same seaweed samples.
 - Units are preserved as `mg kg−1` dry weight; no conversion was performed.
 - Brand firewall: commercial seaweed samples were purchased retail/online, but no brand names are attached to contamination values here.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ff6cbad](https://github.com/paleofoundation/heavymetalindex/commit/ff6cbad) | 2026-06-08 | ingest: bralatei2017-seaweed-inorganic-arsenic-field-method fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

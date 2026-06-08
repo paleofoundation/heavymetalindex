@@ -2,15 +2,15 @@
 source_page: wiki/products/plant-milks-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 52ad827feb97838567b01ce4c880486e2b4d66b8ea4f1f1e1ab59ff1e0a00c70
+source_page_sha256: 7a0d02df8f51bb32bd41b606b727aba5d15b983c4dfdc07a2c6fcc131295f066
 total_claims: 27
 cited_claims: 19
 uncited_claims: 8
-distinct_cited_targets: 4
-distinct_cited_sources: 4
+distinct_cited_targets: 9
+distinct_cited_sources: 9
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 789
+audit_log_total_rows: 972
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 27 |
 | cited claims | 19 |
 | uncited claims | 8 |
-| distinct cited targets | 4 |
-| distinct cited `sources/` pages | 4 |
+| distinct cited targets | 9 |
+| distinct cited `sources/` pages | 9 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 789 |
+| audit log rows read | 972 |
 
 ## Page-level audit rows
 
@@ -123,13 +123,23 @@ This is expected for pages whose content was written before the per-edit audit-r
 ### Sources
 
 #### Claim `758 µg/L`
-- Context: `ry multi-metal occurrence source for the soy plant-milk row (Al group means 176–758 µg/L; most others <LOQ) | | 3 | [[so`
-- Cited targets (3):
+- Context: `ry multi-metal occurrence source for the soy plant-milk row (Al group means 176–758 µg/L; most others <LOQ) | | 6 | [[so`
+- Cited targets (8):
+  - `wiki/sources/andrade2023-cow-milk-soy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/good2026-plant-milk-heavy-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/hariono2023-soy-milk-cookware-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium\.md` (page missing)
     - audit rows: none
   - `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/zverina2025-plant-dairy-toxic-elements\.md` (page missing)
     - audit rows: none
 
 ### CC candidate evidence map
@@ -221,8 +231,13 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
+| `wiki/sources/andrade2023-cow-milk-soy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/good2026-plant-milk-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/hariono2023-soy-milk-cookware-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium\.md` | sources | 0 | — | — |
 | `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` | sources | 0 | — | — |
 | `wiki/sources/milani2023-trace-elements-soy-based-beverages.md` | sources | 0 | — | — |
 | `wiki/sources/milani2023-trace-elements-soy-based-beverages\.md` | sources | 0 | — | — |
+| `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/zverina2025-plant-dairy-toxic-elements\.md` | sources | 0 | — | — |
 

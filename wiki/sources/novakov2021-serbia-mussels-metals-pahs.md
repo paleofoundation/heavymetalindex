@@ -60,3 +60,13 @@ This source supplies direct Serbian-market shellfish occurrence evidence for Pb,
 - Units are preserved as `mg/kg`; no wet/dry or serving-basis conversion was performed.
 - Speciation: arsenic is total arsenic and mercury is total mercury. The paper discusses methylmercury for exposure assumptions but does not measure MeHg, so frontmatter uses `tHg`, not `MeHg`.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; there is no mussel product slug, so values route through broad shellfish/seafood.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e9e6a5f](https://github.com/paleofoundation/heavymetalindex/commit/e9e6a5f) | 2026-06-08 | ingest: novakov2021-serbia-mussels-metals-pahs fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

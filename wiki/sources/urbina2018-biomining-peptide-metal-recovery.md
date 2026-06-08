@@ -158,3 +158,14 @@ Microbiome: Not applicable. No microbiota or microbial-community measurements; C
 - [[metals/copper]]
 - [[metals/nickel]]
 - [[metals/zinc]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [534c0e1](https://github.com/paleofoundation/heavymetalindex/commit/534c0e1) | 2026-06-08 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [6ff6179](https://github.com/paleofoundation/heavymetalindex/commit/6ff6179) | 2026-06-08 | ingest: urbina2018-biomining-peptide-metal-recovery fresh from MFK/June 8 Black Market Peptide Metal Survey |
+<!-- END: hmi-page-history -->

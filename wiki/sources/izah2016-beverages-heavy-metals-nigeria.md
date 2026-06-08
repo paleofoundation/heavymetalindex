@@ -150,3 +150,14 @@ The `jurisdictions:` list includes NG (Nigeria, the review's geographic scope) a
 No HMTc threshold proposals, no consumer-audience translations, no risk advisories, and no synthesis claims of the form "this confirms the literature consensus that..." appear in the body, per CLAUDE.md Part 2 wiki/HMTc firewall.
 
 Audit subagent (2026-06-06) raised three ❌ Part 12 findings against the initial revision (three Table 1 row labels still carrying brand names: "cocacola/Amstel/Fanta/malta Guinness/Maltina"; "Olympic and Three Crown milk"; "peak/milo/five alive juice"). All three verified against PDF page 7 and applied: each row label was rewritten to the product-form descriptor alone, matching the strict reading. The audit also raised three ⚠️ Check 1 findings against the Sn-units note: (1) the parenthetical "(0.003–0.261)" was a compression of two separate ref-[40] rows; (2) attribution to "Eno-obong and Ukoha 2013, reference [54]" was wrong because those two Sn values are reference [40] (Maduabuchi et al. 2007); (3) the µg/mL unit claim does not match the PDF asterisk-scoped footnote (ref-[40] rows are not asterisked, so are in mg/L per the table header). All three verified against PDF page 8 and applied: the note was rewritten to scope the µg/mL footnote to the four asterisked rows only and to clarify that the two ref-[40] rows are in mg/L. The audit also raised ⚠️ findings on five wiki-introduced brand-mix counts (n=8 / n=8 / n=5 for Table 2; "21 brands" and "38 brands per source" for Table 1) that did not match the PDF brand lists; all five verified against PDF pages 7 and 9 and applied by removing the count annotations rather than recounting (the source itself does not number the brand mixes, and reintroducing counts would be wiki annotation rather than source content).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f1bd563](https://github.com/paleofoundation/heavymetalindex/commit/f1bd563) | 2026-06-06 | audit: izah2016-beverages-heavy-metals-nigeria [revised] |
+| [d464542](https://github.com/paleofoundation/heavymetalindex/commit/d464542) | 2026-06-06 | ingest: izah2016-beverages-heavy-metals-nigeria [fresh] from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

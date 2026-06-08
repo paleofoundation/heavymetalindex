@@ -68,3 +68,13 @@ This source contributes Nigeria-market spice occurrence values for Cd, Pb, Cu, a
 - Speciation: Fe, Cu, Cd, and Pb are total-element AAS measurements. No arsenic, mercury, chromium, tin, or metal speciation was reported.
 - Brand firewall: the source uses spice descriptors and sample codes; no consumer brand names are attached to contamination values.
 - Frontmatter slugs were kept broad because not all individual spice descriptors have closed-vocabulary ingredient slugs in `docs/gpt-collaboration/taxonomy-snapshot.md`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cbcd8e3](https://github.com/paleofoundation/heavymetalindex/commit/cbcd8e3) | 2026-06-08 | ingest: oladoye2016-odo-ori-spices-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

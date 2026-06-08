@@ -76,3 +76,13 @@ The peptide–zinc coordination chemistry the review describes — coordination 
 - Wiki/HMTc firewall: no synthesis claims about contamination thresholds, occurrence values, or HMTc standards were imported from the review. The review does not bear on any HMI per-row P97/P45 calculation.
 - Evidence tier: C (narrative review reporting findings from primary studies; no original data, no systematic-review methodology).
 - Adjacent context: see [[wang2022-therapeutic-peptides-review]], [[shalev2022-peptide-metal-nmr-review]], [[luo2024-peptides-heavy-metal-remediation]] for related peptide-binding mechanism reviews already in the corpus.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [36496fb](https://github.com/paleofoundation/heavymetalindex/commit/36496fb) | 2026-06-08 | ingest: han2025-peptide-zinc-complexation-aquatic-review fresh from MFK/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

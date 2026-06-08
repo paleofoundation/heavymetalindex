@@ -83,7 +83,7 @@ used_in_products: [infant-formula-concentrated-liquid-soy-based, infant-formula-
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 0
+sources: 2
 ---
 
 # Soy Protein Isolate
@@ -115,9 +115,17 @@ This node is linked from [[products/infant-formula-concentrated-liquid-soy-based
 
 The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-No source pages are currently cited for this ingredient node.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/rebellato2023-plant-yogurt-inorganic-contaminants\|Rebellato et al. 2023]]. *Inorganic Contaminants in Plant-Based Yogurts Commercialized in Brazil*, International Journal of Environmental Research and Public Health | 2023 | Peer-reviewed | BR Al, Cr, Co, Ni, tAs, Mo, Cd, Sb, Ba, tHg, Pb occurrence in Forty-three samples of plant-based yogurt (17 different flavors across 5 brands) and 1 sample of cow-milk natural yogurt... (n=44) |
+| 2 | [[sources/rebellato2023b-plant-yogurt-element-bioaccessibility\|Rebellato et al. 2023]]. *Composition and bioaccessibility of inorganic elements in plant-based yogurts*, Journal of Food Composition and Analysis | 2023 | Peer-reviewed | BR Al, Cr, Co, Ni, Mo, Ba occurrence in Forty-four plant-based yogurt sample-lots and one cow-milk natural yogurt sample-lot purchased from August to October 2022 in commercial... (n=45) |
+<!-- END: hmi-source-legend -->
+
 ## Why this commodity accumulates heavy metals
 
 Soy protein isolate is the highly refined protein fraction of soybeans (Glycine max), produced at ≥90% protein content (dry-weight basis). It is the protein base for soy-based infant formula and a major ingredient in plant-based meat alternatives, protein bars, protein powders, and nutritional beverages. Heavy-metal load in soy protein isolate originates dominantly from the source soybean's inherited [[metals/aluminum|Al]], [[metals/nickel|Ni]], and [[metals/cadmium|Cd]] profile, which the protein-extraction process concentrates on a per-protein-mass basis. Soybeans naturally accumulate Al at concentrations multiples higher than most grains because soy plants have high-affinity Al uptake from acidic soils (a documented agronomic phenomenon — soy yields are Al-stress-sensitive in acidic soils because of root-zone Al toxicity, and the surviving plant tissue carries elevated Al). Cadmium accumulates via the soybean's high-efficiency Cd transporter (similar to rice's Cd uptake pathway but operating in upland not flooded conditions); Ni accumulates via the soy plant's urease-cofactor pathway.
@@ -169,9 +177,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

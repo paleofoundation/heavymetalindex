@@ -11,7 +11,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 8
+sources: 12
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -35,13 +35,17 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/bzikowska-jura2024-human-milk-elements-poland\|Bzikowska-Jura et al. 2024]]. *Essential and non-essential element concentrations in human milk samples and the assessment of infants' exposure*, Scientific Reports 14:8140 | 2024 | Peer-reviewed | PL Al, tAs, Ba, Be, Cd, Co, Cr, Cu, tHg, Mn, Mo, Ni, Pb, Sn, Tl, Th, U, V occurrence in Thirty human-milk samples from exclusively breastfeeding mothers in Warsaw, Poland, collected 4-6 weeks postpartum (n=30) |
-| 2 | [[sources/lin2023-donor-milk-lead-mercury\|Y-C et al. 2023]]. *Health Risk of Infants Exposed to Lead and Mercury Through Donor Human Milk*, Exposure and Health | 2023 | Peer-reviewed | TW Pb, tHg occurrence in donor milk from a Taiwanese human milk bank |
-| 3 | [[sources/mansouri2023-smoking-trace-elements-human-milk\|Mansouri et al. 2023]]. *The effects of active and passive smoking on selected trace element levels in human milk*, Scientific Reports 13:20756 | 2023 | Peer-reviewed | IR Mg, Mn, Fe, Co, Cu, Zn, tAs, Cd, Cr, tHg, Ni, Pb occurrence in One hundred breast-milk samples from lactating women in Kermanshah, western Iran, grouped as passive smokers, active smokers, and... (n=100) |
-| 4 | [[sources/freire2022-donor-breast-milk-metals\|Freire et al. 2022]]. *Concentrations and determinants of lead, mercury, cadmium, and arsenic in pooled donor breast milk in Spain*, International Journal of Hygiene and Environmental Health | 2022 | Peer-reviewed | ES Pb, tHg, Cd, tAs occurrence in 242 pooled breast milk samples from 83 human-milk-bank donors in Spain, 2015-2018 (n=242) |
-| 5 | [[sources/depa2019-baby-food-lead-cadmium\|Depa 2019]]. *Heavy Metals in Baby Foods and Cereal Products*, Turkish Journal of Computer and Mathematics Education | 2019 | Peer-reviewed | Pb, Cd occurrence in Baby foods and cereal products, including milk powder and cereal-based products (n=63) |
-| 6 | [[sources/abaas2018-breast-milk-nickel\|Abaas et al. 2018]]. *Determination of Nickel Concentration in the Breast Milk of Lactating Mothers Living In Hilla City*, Journal of University of Babylon for Pure and Applied Sciences | 2018 | Peer-reviewed | IQ Ni occurrence in lactating mothers living in Hilla City, Iraq |
-| 7 | [[sources/klein2017-human-milk-trace-elements\|Klein et al. 2017]]. *Concentrations of trace elements in human milk: Comparisons among women in Argentina, Namibia, Poland, and the United States*, PLOS ONE | 2017 | Peer-reviewed | AR/NA/PL Pb, tAs occurrence in lactating mothers from Argentina, Namibia, Poland, and the United States (n=70) |
-| 8 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
+| 2 | [[sources/amarh2023-ghana-infant-food-heavy-metals\|Amarh et al. 2023]]. *Health risk assessment of some selected heavy metals in infant food sold in Wa, Ghana*, Heliyon | 2023 | Peer-reviewed | GH tAs, Cd, Cr, tHg, Mn, Ni, Pb, Sb occurrence in Locally and internationally produced infant formula and baby-food samples sold in Wa, Ghana (n=22) |
+| 3 | [[sources/lin2023-donor-milk-lead-mercury\|Y-C et al. 2023]]. *Health Risk of Infants Exposed to Lead and Mercury Through Donor Human Milk*, Exposure and Health | 2023 | Peer-reviewed | TW Pb, tHg occurrence in donor milk from a Taiwanese human milk bank |
+| 4 | [[sources/mansouri2023-smoking-trace-elements-human-milk\|Mansouri et al. 2023]]. *The effects of active and passive smoking on selected trace element levels in human milk*, Scientific Reports 13:20756 | 2023 | Peer-reviewed | IR Mg, Mn, Fe, Co, Cu, Zn, tAs, Cd, Cr, tHg, Ni, Pb occurrence in One hundred breast-milk samples from lactating women in Kermanshah, western Iran, grouped as passive smokers, active smokers, and... (n=100) |
+| 5 | [[sources/freire2022-donor-breast-milk-metals\|Freire et al. 2022]]. *Concentrations and determinants of lead, mercury, cadmium, and arsenic in pooled donor breast milk in Spain*, International Journal of Hygiene and Environmental Health | 2022 | Peer-reviewed | ES Pb, tHg, Cd, tAs occurrence in 242 pooled breast milk samples from 83 human-milk-bank donors in Spain, 2015-2018 (n=242) |
+| 6 | [[sources/depa2019-baby-food-lead-cadmium\|Depa 2019]]. *Heavy Metals in Baby Foods and Cereal Products*, Turkish Journal of Computer and Mathematics Education | 2019 | Peer-reviewed | Pb, Cd occurrence in Baby foods and cereal products, including milk powder and cereal-based products (n=63) |
+| 7 | [[sources/abaas2018-breast-milk-nickel\|Abaas et al. 2018]]. *Determination of Nickel Concentration in the Breast Milk of Lactating Mothers Living In Hilla City*, Journal of University of Babylon for Pure and Applied Sciences | 2018 | Peer-reviewed | IQ Ni occurrence in lactating mothers living in Hilla City, Iraq |
+| 8 | [[sources/deroma2017-prepared-meals-italy-metals\|De et al. 2017]]. *Occurrence of cadmium, lead, mercury, and arsenic in prepared meals in Italy: Potential relevance for intake assessment*, Journal of Food Composition and Analysis | 2017 | Peer-reviewed | IT Cd, Pb, tHg, tAs occurrence in Seventeen pooled prepared-meal composites collected from Italian baby food, school canteen, office canteen, fast food, duplicate-portion, vegetarian, and... (n=17) |
+| 9 | [[sources/klein2017-human-milk-trace-elements\|Klein et al. 2017]]. *Concentrations of trace elements in human milk: Comparisons among women in Argentina, Namibia, Poland, and the United States*, PLOS ONE | 2017 | Peer-reviewed | AR/NA/PL Pb, tAs occurrence in lactating mothers from Argentina, Namibia, Poland, and the United States (n=70) |
+| 10 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
+| 11 | [[sources/efsa2012-cadmium-dietary-exposure-europe\|EFSA 2012]]. *Cadmium dietary exposure in the European population*, EFSA Journal 2012;10(1):2551 | 2012 | Government report | EU Cd occurrence in Cadmium occurrence results in food submitted to EFSA from 22 EU Member States, 3 European Economic Area or... (n=178541) |
+| 12 | [[sources/dabeka2003-canadian-total-diet-mercury\|Dabeka et al. 2003]]. *Survey of total mercury in total diet food composites and an estimation of the dietary intake of mercury by adults and children from two Canadian cities, 1998-2000*, Food Additives & Contaminants | 2003 | Peer-reviewed | CA tHg occurrence in Total mercury in 259 total-diet food composites prepared from retail foods purchased in Whitehorse in January-February 1998 and... (n=259) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for
@@ -91,9 +95,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

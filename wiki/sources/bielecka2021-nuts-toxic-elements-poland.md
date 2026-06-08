@@ -65,3 +65,13 @@ This source provides direct market occurrence evidence for nuts and peanuts acro
 - Units are preserved as `ug/kg`; no conversion to mg/kg or serving basis was performed.
 - Speciation: arsenic and mercury are total-element measurements. The source does not report inorganic arsenic or methylmercury.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow ingredient/product slugs include Brazil nuts, macadamia nuts, pecans, pine nuts, and pistachios.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2bae409](https://github.com/paleofoundation/heavymetalindex/commit/2bae409) | 2026-06-08 | ingest: bielecka2021-nuts-toxic-elements-poland fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

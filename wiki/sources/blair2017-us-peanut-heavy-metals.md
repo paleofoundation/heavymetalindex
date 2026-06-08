@@ -66,3 +66,13 @@ This source provides U.S.-market peanut occurrence evidence for Cd, total/unspec
 - Units are preserved as source-reported `ppm`; no conversion to `mg/kg` was performed.
 - Speciation: arsenic testing did not differentiate organic and inorganic forms, so arsenic is routed as `tAs`. Mercury is total/unspecified Hg; methylmercury was not measured.
 - Brand firewall: no product brands are tied to contamination values. Acknowledged industry entities are sample-logistics acknowledgements only, not contamination rankings.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f304ce8](https://github.com/paleofoundation/heavymetalindex/commit/f304ce8) | 2026-06-08 | ingest: blair2017-us-peanut-heavy-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

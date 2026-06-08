@@ -62,3 +62,13 @@ This source contributes secondary literature context for seafood, marine fish, a
 - Speciation: Table 4 reports `Hg`, not MeHg. The review discusses methylmercury in seafood toxicology, but no Table 4 occurrence value is promoted from total/unspecified Hg to MeHg.
 - Brand firewall: no sampled product brands are attached to contamination values; named locations and species are scientific/geographic descriptors.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. Crustacean- and cephalopod-specific ingredient/product slugs were not available in the snapshot, so those rows are carried under broad `shellfish`/`seafood` context rather than invented slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f2164bd](https://github.com/paleofoundation/heavymetalindex/commit/f2164bd) | 2026-06-08 | ingest: tamele2020-african-seafood-metals-review fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

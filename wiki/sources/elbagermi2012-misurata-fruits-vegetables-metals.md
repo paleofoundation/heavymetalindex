@@ -92,3 +92,13 @@ This source contributes Libya-market occurrence evidence for Pb, Cd, Zn, Cu, Co,
 - Source-internal inconsistency: the abstract reports the Zn range as 0.042-11.4 mg/kg while Table 2 prints spinach Zn as 16.83 ± 2.82 and also names spinach as the highest-Zn commodity. This page transcribes Table 2 as printed and records the abstract range separately.
 - Speciation: the paper reports only total elements for Pb, Cd, Zn, Cu, Co, and Ni. It does not report As, Hg, MeHg, iAs, Cr, Cr(III), or Cr(VI).
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [99cb844](https://github.com/paleofoundation/heavymetalindex/commit/99cb844) | 2026-06-08 | ingest: elbagermi2012-misurata-fruits-vegetables-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

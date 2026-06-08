@@ -90,3 +90,13 @@ This source contributes China/Jilin total-diet occurrence and exposure context f
 - Brand firewall: the source reports total-diet composite food/product groups, not brand-level values.
 - The current product taxonomy snapshot does not list a dairy product slug; milk/dairy findings are represented in frontmatter only with the closed ingredient slug `[[ingredients/milk-and-dairy]]`. Noodles are represented with the closed ingredient slug `[[ingredients/noodles]]` and routed through closed grain-product slugs rather than a nonexistent `products/noodles` slug.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0642913](https://github.com/paleofoundation/heavymetalindex/commit/0642913) | 2026-06-08 | ingest: wang2020-jilin-total-diet-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

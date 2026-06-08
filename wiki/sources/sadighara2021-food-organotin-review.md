@@ -67,3 +67,13 @@ This source is useful as an organotin literature map for seafood and edible-oil 
 - Speciation: values are organotin species, including TBT, TPhT, DBT, DOT, MBT, DPhT, MPhT, TMT, DMT, and MMT. Frontmatter uses `Sn` for tin routing following existing organotin-source convention, but these are not total tin or inorganic tin values.
 - Brand firewall: no sampled product brands are attached to contamination values.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented. A lard-specific product/ingredient slug was not available, so the lard row is documented in Key numbers without a frontmatter slug.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c58ed59](https://github.com/paleofoundation/heavymetalindex/commit/c58ed59) | 2026-06-08 | ingest: sadighara2021-food-organotin-review fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

@@ -17,18 +17,41 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-protein-collagen-powders",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0e017c82c82c7efbfe6fac145c44107e1678b9aa4a7dc65f772552738c2d1489",
-      "content_bytes": 12379,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "6f889f96e77c223bd3f48dc4362b81539c040661e29dddb94cd635f9fb823846",
+      "content_bytes": 16707,
+      "last_commit_sha": "1ca3eb0",
+      "last_commit_date": "2026-06-06",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/supplements-protein-collagen-powders.md | sha256sum"
+      "verify_command": "git show 1ca3eb0:wiki/products/supplements-protein-collagen-powders.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 16,
+    "contributing_source_count": 21,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/bandara2020-protein-powder-heavy-metals",
+        "title": "A human health risk assessment of heavy metal ingestion among consumers of protein powder supplements",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bandara2020-protein-powder-heavy-metals",
+        "content_pin": {
+          "content_sha256": "8eb2abd484aac00db00902dc36054802d096fd730540385849041a97fa92592d",
+          "content_bytes": 5939,
+          "last_commit_sha": "9d1697b",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9d1697b:wiki/sources/bandara2020-protein-powder-heavy-metals.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/barber2025-baby-food-elements-us",
         "title": "Toxic elements in baby and young children's foods in the US and correlation to ingredients",
@@ -47,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/barber2025-baby-food-elements-us",
         "content_pin": {
-          "content_sha256": "6c4c1398837c6876c701e76e62ec52a6386c7e6d3002df7f13d9b0422558c5c1",
-          "content_bytes": 13592,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "66e59eed54311e310f1798208c4335a053a7a96076aa63656dfcae950fefacdc",
+          "content_bytes": 13660,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/barber2025-baby-food-elements-us.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/barber2025-baby-food-elements-us.md | sha256sum"
         }
       },
       {
@@ -67,12 +90,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brodziak-dopierala2023-mercury-oil-supplements-poland",
         "content_pin": {
-          "content_sha256": "e90cf82ad95c4f54c079201be27b25d777c0d6db9461f433a880cc91cc877eb6",
-          "content_bytes": 11613,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "6fff891605176232281d9c39612b94a399a14937d431f2f657bcb37761040bf4",
+          "content_bytes": 11681,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/brodziak-dopierala2023-mercury-oil-supplements-poland.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/brodziak-dopierala2023-mercury-oil-supplements-poland.md | sha256sum"
         }
       },
       {
@@ -87,12 +110,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brodziak-dopierala2024-hg-supplements-poland",
         "content_pin": {
-          "content_sha256": "16ccec46533429b53e5161f9f5695187874d408d4d8b1010d817348e76e0cf5f",
-          "content_bytes": 4019,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "4f3f0bf8bcbff22b443551d30892cc554136d2a58905c77b1a946cdc9b3422fc",
+          "content_bytes": 4087,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/brodziak-dopierala2024-hg-supplements-poland.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/brodziak-dopierala2024-hg-supplements-poland.md | sha256sum"
         }
       },
       {
@@ -109,12 +132,35 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brzezinska-rojek2023-beetroot-supplements-safety",
         "content_pin": {
-          "content_sha256": "1c4ba21188038845c5e34007a038988ff1aef6b3d62b6c6f3a30e8db0dbb4b3e",
-          "content_bytes": 4505,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "e039d4c0d68896833b7c8010f49678456b17b77653e23cd2591449a350cffb40",
+          "content_bytes": 4573,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cammilleri2025-marine-collagen-toxic-metals",
+        "title": "Toxic metals in marine collagen supplements: occurrence and risk assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Pb",
+          "Cd",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cammilleri2025-marine-collagen-toxic-metals",
+        "content_pin": {
+          "content_sha256": "fcda5c88559388ca0d62c46614f4af02ee0efc5cb265f234d8e15d9c974248d4",
+          "content_bytes": 4517,
+          "last_commit_sha": "17d578a",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 17d578a:wiki/sources/cammilleri2025-marine-collagen-toxic-metals.md | sha256sum"
         }
       },
       {
@@ -132,12 +178,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfia2020-toxic-metals-selected-foods-2018-19",
         "content_pin": {
-          "content_sha256": "0f033951056dd6c666bbd00f3a1df9dd6d9b613f2b21bcacb462f756be232d3e",
-          "content_bytes": 9719,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "7ff00c02dad05f10724a93c465b81f5a358abbc088ecc265d1f9552c30042696",
+          "content_bytes": 11053,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md | sha256sum"
         }
       },
       {
@@ -154,12 +200,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ciocan2021-ayurvedic-lead-hg-poisoning",
         "content_pin": {
-          "content_sha256": "a109f9e7c51f2bcf9c24c65efed9755dd429d3a186f5e920fc348168d98b37e5",
-          "content_bytes": 4638,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "b76f8415f6cea939260c9fbb3c69c6a29fa21a4023464743c4588f4123b505b4",
+          "content_bytes": 4706,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/ciocan2021-ayurvedic-lead-hg-poisoning.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/ciocan2021-ayurvedic-lead-hg-poisoning.md | sha256sum"
         }
       },
       {
@@ -176,12 +222,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/coghlan2015-tcm-heavy-metals-audit",
         "content_pin": {
-          "content_sha256": "d945d6d27e15db6e952b7502dfc4d984136ef3e6aee33fae1f73ef2742a3db0e",
-          "content_bytes": 4836,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "24c00dae301eb1f21b85c3b4e3f29ef09241ec484d9105a8b09163ef384ab2c1",
+          "content_bytes": 6237,
+          "last_commit_sha": "feb2f85",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/coghlan2015-tcm-heavy-metals-audit.md | sha256sum"
+          "verify_command": "git show feb2f85:wiki/sources/coghlan2015-tcm-heavy-metals-audit.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa2012-cadmium-dietary-exposure-europe",
+        "title": "Cadmium dietary exposure in the European population",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
+        "content_pin": {
+          "content_sha256": "a9e18e6abdbe2e88582689b79abee5c0f8d8b4014da7c4881fe6d5106f5acb39",
+          "content_bytes": 7369,
+          "last_commit_sha": "0226413",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 0226413:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {
@@ -197,12 +263,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gao2025-cordyceps-arsenic-toxicity",
         "content_pin": {
-          "content_sha256": "5943ae83797cf25f2b8c252b6dc16080dcbcfa16e4d394ec07dca8ee5483e799",
-          "content_bytes": 4079,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "763d0f28984d416c0fac58c8808bf4174a7b053a5393f3666c11e3a2e51dded8",
+          "content_bytes": 4147,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/gao2025-cordyceps-arsenic-toxicity.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/gao2025-cordyceps-arsenic-toxicity.md | sha256sum"
         }
       },
       {
@@ -217,12 +283,34 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hosojima2017-rice-endosperm-protein-cadmium",
         "content_pin": {
-          "content_sha256": "398b35dab7a16dbf7c7e19bd4e1a218539b83dc07f18c0b30be7c41402f59dcf",
-          "content_bytes": 5041,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "2e3472d05b8d7a4d48ad4cad757fd70cef75dade808fa420483c1dc54c735130",
+          "content_bytes": 5538,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jairoun2020-uae-dietary-supplements-heavy-metals",
+        "title": "Heavy Metal contamination of Dietary Supplements products available in the UAE markets and the associated risk",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jairoun2020-uae-dietary-supplements-heavy-metals",
+        "content_pin": {
+          "content_sha256": "1dcdf02874d8e49d6e511d8a9d06333b6a63157e04467defbed377f8715393ac",
+          "content_bytes": 5540,
+          "last_commit_sha": "f1305b7",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show f1305b7:wiki/sources/jairoun2020-uae-dietary-supplements-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -237,12 +325,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liu2021-arsenolipids-seafood",
         "content_pin": {
-          "content_sha256": "9b2667243f6bf56474725b24ac87c56189598bd90f2b1b218bb8256260845b72",
-          "content_bytes": 4309,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "21af01c24e1fb1c70ffe7ffe77f9ca4a36bd4ce219cee58a6f14fadf1c78f28a",
+          "content_bytes": 4377,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/liu2021-arsenolipids-seafood.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/liu2021-arsenolipids-seafood.md | sha256sum"
         }
       },
       {
@@ -260,12 +348,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/porwollik2026-rhodiola-supplements-us-market",
         "content_pin": {
-          "content_sha256": "6ab8f125f898869bf6d0df2182b40831634b73e99287f66323ae93a0b6398116",
-          "content_bytes": 4801,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "e93f1041d5e49246886e691b42af27e78b0a9ae56339835c65448241a4a8fed0",
+          "content_bytes": 4869,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/porwollik2026-rhodiola-supplements-us-market.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/porwollik2026-rhodiola-supplements-us-market.md | sha256sum"
         }
       },
       {
@@ -289,12 +377,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-metals",
         "content_pin": {
-          "content_sha256": "0d33b1766d1e712949fcd85b019963f81a7253d0ad42d7d8819f76303609f1c3",
-          "content_bytes": 4153,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "66f52f0bfd3d5cf18659ec4c66ff5021dcd7cd486fd7c51b0f910aa9d34b868d",
+          "content_bytes": 4649,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/sattler2016-bee-pollen-metals.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/sattler2016-bee-pollen-metals.md | sha256sum"
         }
       },
       {
@@ -325,12 +413,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sochacka2025-spirulina-chlorella-supplements-poland",
         "content_pin": {
-          "content_sha256": "8c79c664462e545eebf77d7b84a0755af02fe397c3ad0ac699fa3228f29700cb",
-          "content_bytes": 23319,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "fd7971d9d7dc253e3e238a359c673e49e40a9283d4b3504e447ca7df129bb892",
+          "content_bytes": 24114,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
         }
       },
       {
@@ -345,12 +433,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/thomas2024-lead-poisoning-ayurvedic-herbal",
         "content_pin": {
-          "content_sha256": "d675ef5ce7c11d675e549fba49770e5ed6bc15417fc2e0ac6f646dce7adde643",
-          "content_bytes": 4247,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "d611050bcad9bf5d98a57e8aaa69edcd7dc59baefee54c3872dc29b741e5524f",
+          "content_bytes": 4315,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/thomas2024-lead-poisoning-ayurvedic-herbal.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/thomas2024-lead-poisoning-ayurvedic-herbal.md | sha256sum"
         }
       },
       {
@@ -365,12 +453,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/torovic2024-mercury-fish-oil-supplements-serbia",
         "content_pin": {
-          "content_sha256": "63891ba1ab51d427fa79029aa553ddffcab5dd6f9be74c40cffda9f57b2139fd",
-          "content_bytes": 6290,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "6e0ccd1083cb358b8baf172395720258eb52d1d9232c205fb2dd24e13f228055",
+          "content_bytes": 6358,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/torovic2024-mercury-fish-oil-supplements-serbia.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/torovic2024-mercury-fish-oil-supplements-serbia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/uneyama2007-arsenic-foods-cumulative-data",
+        "title": "Arsenic in various foods: Cumulative data",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/uneyama2007-arsenic-foods-cumulative-data",
+        "content_pin": {
+          "content_sha256": "594cb858f1aea7d2e7464a79f634cff8deef97ecf77c43f6d66e9093c01fb7cc",
+          "content_bytes": 8696,
+          "last_commit_sha": "e89e8e6",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show e89e8e6:wiki/sources/uneyama2007-arsenic-foods-cumulative-data.md | sha256sum"
         }
       },
       {
@@ -387,12 +496,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wang2021-agnh-cinnabar-realgar-hg-as",
         "content_pin": {
-          "content_sha256": "68fec4e349823fe366bdf6584c912a5e2cfcad0dd23fa1142e5ce1ed181eae06",
-          "content_bytes": 3652,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "18715d3a8b72fb37a77bd65e51037a947e397b64a8af085bde4542393fd36596",
+          "content_bytes": 3720,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/wang2021-agnh-cinnabar-realgar-hg-as.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/wang2021-agnh-cinnabar-realgar-hg-as.md | sha256sum"
         }
       }
     ]

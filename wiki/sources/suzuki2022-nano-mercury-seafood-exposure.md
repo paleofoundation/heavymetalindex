@@ -70,3 +70,13 @@ This source contributes Japanese-market seafood occurrence data for T-Hg, MeHg, 
 - Speciation: the page keeps T-Hg and MeHg separate. NP-Hg is reported as nano-sized mercury-containing particles, inferred by the authors as likely HgSe under stated assumptions; it is not collapsed into T-Hg, MeHg, or inorganic mercury frontmatter.
 - Brand firewall: samples were grouped by seafood type and no product brands were reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented. There is no closed-vocabulary metal/frontmatter slug for NP-Hg or HgSe nanoparticles, so they remain documented in the body.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [745b464](https://github.com/paleofoundation/heavymetalindex/commit/745b464) | 2026-06-08 | ingest: suzuki2022-nano-mercury-seafood-exposure fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

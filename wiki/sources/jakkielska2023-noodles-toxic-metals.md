@@ -68,3 +68,13 @@ This source contributes occurrence data for processed non-rice grain pasta/noodl
 - Brand firewall: the source's sample-characterization table names commercial pasta products. This page reports only aggregated product-form descriptors and does not attach brand names to contamination values.
 - The source text has an internal tension between a prose sentence listing ADI values near the Table 2 maxima and Table 2's mean ADI row. This page uses the table-labeled mean and min-max values and notes the table source.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ba7f1e7](https://github.com/paleofoundation/heavymetalindex/commit/ba7f1e7) | 2026-06-08 | ingest: jakkielska2023-noodles-toxic-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

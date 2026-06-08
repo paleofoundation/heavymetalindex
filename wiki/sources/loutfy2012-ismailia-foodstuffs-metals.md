@@ -84,3 +84,13 @@ This source contributes Egyptian local-market occurrence data across rice, bread
 - Brand firewall: the source sampled local markets and broad food categories only; no brand-level contamination values are reported.
 - The `seafood` row in Table 2 is described in Methods as seafood "crab and bivalves"; this page routes it to shellfish and does not infer species-specific fish rows.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [43b4711](https://github.com/paleofoundation/heavymetalindex/commit/43b4711) | 2026-06-08 | ingest: loutfy2012-ismailia-foodstuffs-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

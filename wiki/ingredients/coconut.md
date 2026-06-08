@@ -83,7 +83,7 @@ used_in_products: [plant-milks-non-soy-non-rice]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 2
+sources: 8
 ---
 
 # Coconut
@@ -122,8 +122,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/famurewa2023-coconut-oil-metals-pesticides\|Famurewa et al. 2023]]. *Comparative assessment of different coconut oils: Chromatographic and spectrometric analyses of pesticide residues, toxic heavy metals, and associated contents*, Measurement: Food | 2023 | Peer-reviewed | NG/PK Pb, Cd, tHg, tAs, Ni, Al, Cr, Co, Cu, Fe, Zn, Mn, Be, Ag, Mo, Se, Au occurrence in Three coconut oil samples sold or produced for the Nigerian market: one imported oil and two locally produced... (n=3) |
-| 2 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu et al. 2023]]. *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*, Foods | 2023 | Peer-reviewed | IR/CN/GR Pb, Cd, tAs, Ni, Cr, tHg, Al, Cu, Zn occurrence in Narrative literature review covering heavy metals in fruits and vegetables, milk and dairy, meat, edible oils, wine, and... |
+| 1 | [[sources/begday2026-plant-milk-heavy-metal-safety\|Begday et al. 2026]]. *Integral assessment of the environmental safety of plant-based milk alternatives based on heavy metal analysis*, Izvestiya KGTU (KSTU News) | 2026 | Peer-reviewed | RU Pb, Cd, Zn, Cu occurrence in Eight plant-based milk samples assessed on the Russian market: four commercial ready-to-drink beverages (one each of almond, rice,... (n=8) |
+| 2 | [[sources/good2026-plant-milk-heavy-metals\|Good et al. 2026]]. *Comparative exposure and risk assessment of heavy metals, nutrients, and organochlorine pesticides in cow and plant-based milks*, Scientific Reports | 2026 | Peer-reviewed | US Cr, tAs, Cd, Pb occurrence in Twenty-two commercially available milk products purchased from major grocery retailers in Houston, Texas, USA. Eight milk-type categories: cow... (n=22) |
+| 3 | [[sources/zverina2025-plant-dairy-toxic-elements\|Zvěřina et al. 2025]]. *Essential and toxic elements in plant-based dairy alternatives: implications for vegan diets*, European Food Research and Technology | 2025 | Peer-reviewed | CZ/EU Pb, Cd occurrence in Fifty-four plant-based dairy alternative (PBDA) samples sourced from the Czech market in Brno, Czech Republic. Composition: 35 milk... (n=54) |
+| 4 | [[sources/famurewa2023-coconut-oil-metals-pesticides\|Famurewa et al. 2023]]. *Comparative assessment of different coconut oils: Chromatographic and spectrometric analyses of pesticide residues, toxic heavy metals, and associated contents*, Measurement: Food | 2023 | Peer-reviewed | NG/PK Pb, Cd, tHg, tAs, Ni, Al, Cr, Co, Cu, Fe, Zn, Mn, Be, Ag, Mo, Se, Au occurrence in Three coconut oil samples sold or produced for the Nigerian market: one imported oil and two locally produced... (n=3) |
+| 5 | [[sources/rebellato2023-plant-yogurt-inorganic-contaminants\|Rebellato et al. 2023]]. *Inorganic Contaminants in Plant-Based Yogurts Commercialized in Brazil*, International Journal of Environmental Research and Public Health | 2023 | Peer-reviewed | BR Al, Cr, Co, Ni, tAs, Mo, Cd, Sb, Ba, tHg, Pb occurrence in Forty-three samples of plant-based yogurt (17 different flavors across 5 brands) and 1 sample of cow-milk natural yogurt... (n=44) |
+| 6 | [[sources/rebellato2023b-plant-yogurt-element-bioaccessibility\|Rebellato et al. 2023]]. *Composition and bioaccessibility of inorganic elements in plant-based yogurts*, Journal of Food Composition and Analysis | 2023 | Peer-reviewed | BR Al, Cr, Co, Ni, Mo, Ba occurrence in Forty-four plant-based yogurt sample-lots and one cow-milk natural yogurt sample-lot purchased from August to October 2022 in commercial... (n=45) |
+| 7 | [[sources/redan2023-plant-milk-alternatives-elements\|Redan et al. 2023]]. *Analysis of Eight Types of Plant-based Milk Alternatives from the United States Market for Target Minerals and Trace Elements*, Journal of Food Composition and Analysis | 2023 | Peer-reviewed | US tAs, Cd, Pb occurrence in Eighty-five plant-based milk alternative product units from 19 brands purchased from 10 retail markets and an online retailer... (n=85) |
+| 8 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu et al. 2023]]. *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*, Foods | 2023 | Peer-reviewed | IR/CN/GR Pb, Cd, tAs, Ni, Cr, tHg, Al, Cu, Zn occurrence in Narrative literature review covering heavy metals in fruits and vegetables, milk and dairy, meat, edible oils, wine, and... |
 <!-- END: hmi-source-legend -->
 
 ## Why this commodity accumulates heavy metals
@@ -190,9 +196,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

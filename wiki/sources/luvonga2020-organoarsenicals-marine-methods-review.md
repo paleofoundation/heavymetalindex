@@ -64,3 +64,14 @@ Narrative review (received 2019, published 2020). The authors survey the arsenic
 - matrices [edible-seaweed, macroalgae, dry-weight] and products [seaweed-kelp-foods]: the review spans all edible marine species (fish, shellfish, seaweed), but is ingested here for its seaweed relevance and routed to the seaweed row; fish/shellfish method relevance noted in body. `kelp` matrix token omitted because the review reports no kelp-specific occurrence data (it mentions kelp only as method examples — e.g., NIST SRM 3232 kelp powder, ribbon-kelp extraction); routing via the `seaweed-kelp-foods` product slug is sufficient.
 - Audit subagent (2026-06-08, fresh-context) returned REVISE; all concentration values, units, the analytical pipeline, speciation discipline (tAs/iAs lifted; organoarsenicals not mislabeled), and both firewalls verified clean. Two attribution ⚠️ applied: the page had labeled DMA "IARC group 2B" and iAs "IARC Group 1," but this source says "tumour promotor" and "Class A carcinogen" (US EPA) respectively and assigns no IARC group numbers — reworded to the source's actual wording (the IARC classifications are externally true but not stated by this source). Kelp verification note also tightened (the review does mention kelp in method examples).
 - Cross-source note: this review cites many primary speciation studies, some held in this folder (e.g., Llorente-Mirandes, Narukawa); cross-source reconciliation belongs to the Part 9 synthesis pass.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7b0d096](https://github.com/paleofoundation/heavymetalindex/commit/7b0d096) | 2026-06-08 | audit: luvonga2020-organoarsenicals-marine-methods-review revised |
+| [5b27d45](https://github.com/paleofoundation/heavymetalindex/commit/5b27d45) | 2026-06-08 | ingest: luvonga2020-organoarsenicals-marine-methods-review fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

@@ -69,3 +69,15 @@ Narrative critical review. The authors searched SCOPUS using keywords (marine al
 - Instrument/CRM names (SRM 3232, BCR-279, NMIJ 7405-a, NIES 09) retained in the analytical note as permitted scientific reporting.
 - Audit subagent (2026-06-08, fresh-context) returned REVISE; all numbers, speciation labels (tAs/iAs; As(V) not mislabeled as iAs), slugs, and both firewalls verified clean, and the B-tier/review/not-poolable framing and `jurisdictions: [AR]` confirmed defensible. One ⚠️ applied: the legislation summary had attributed an "EU: Commission Regulations" framing the review never makes (the review's actual statement is generic — existing food/water limits refer only to total or inorganic As); reworded the legislation line and its Implications echo to the review's actual unattributed wording. No numeric/speciation corrections needed.
 - Cross-source note: this review cites several primary studies also held in this folder (e.g., Almela 2002, Rose 2007, Ronan 2017, Taylor & Jackson 2016, Llorente-Mirandes 2010/2011); cross-source synthesis against them belongs to the Part 9 synthesis pass, not this source page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9912a16](https://github.com/paleofoundation/heavymetalindex/commit/9912a16) | 2026-06-08 | audit: camurati2019-edible-macroalgae-arsenic-review revised |
+| [365a5ca](https://github.com/paleofoundation/heavymetalindex/commit/365a5ca) | 2026-06-08 | fix: camurati2019 jurisdictions [] -> [AR] (clear non-blocking routing advisory) |
+| [e20b61f](https://github.com/paleofoundation/heavymetalindex/commit/e20b61f) | 2026-06-08 | ingest: camurati2019-edible-macroalgae-arsenic-review fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

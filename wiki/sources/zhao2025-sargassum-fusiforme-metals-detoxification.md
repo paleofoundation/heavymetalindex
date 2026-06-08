@@ -74,3 +74,14 @@ Mature *S. fusiforme* from Wenzhou (Zhejiang, China) were acclimatised and cultu
 - Jurisdiction CN (Wenzhou, Zhejiang; Chinese institutions). sampling_locations records the origin.
 - Instrument/CRM names (PerkinElmer ELAN DRC II, IonPac AS19, CRM laver GBW 10023, Illumina HiSeq) retained in Methods as permitted scientific reporting.
 - Audit subagent (2026-06-08, fresh-context) returned REVISE; it confirmed the critical points correct — the NOT-poolable / controlled-exposure flagging (5 places), control-baseline-only natural composition, iAs=As(V) speciation discipline (no DMA/MMA/AsS mislabeled), kelp omission, metals/jurisdiction/license, and all Table 1/2 values, Cd/Pb extraction percentages, and DEG counts (210/566/10,286/4,564, each verified as up+down vs Fig 3). Two wording ⚠️ applied: (1) narrowed the over-broad "As(III) not detected in any tissue" to "not detected in any As(III)-exposed tissue; trace 0.31% in the 10 µM As(V) group"; (2) softened the "AsS" arsenosugar label to "unidentified species, likely an arsenosugar" per the source's "unknown arsenic species." Also footnoted the source-internal Table-2-vs-text inconsistency on the 207.25 mg/kg value (page reproduces the source prose faithfully).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5a71ba7](https://github.com/paleofoundation/heavymetalindex/commit/5a71ba7) | 2026-06-08 | audit: zhao2025-sargassum-fusiforme-metals-detoxification revised |
+| [5dd4aba](https://github.com/paleofoundation/heavymetalindex/commit/5dd4aba) | 2026-06-08 | ingest: zhao2025-sargassum-fusiforme-metals-detoxification fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

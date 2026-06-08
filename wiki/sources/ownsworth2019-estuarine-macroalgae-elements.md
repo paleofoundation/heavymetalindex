@@ -66,3 +66,13 @@ This source provides seaweed-food occurrence evidence for total arsenic, inorgan
 - Speciation: total arsenic and inorganic arsenic are separate. Arsenosugars and DMA are documented in Key numbers but not collapsed into inorganic arsenic.
 - Brand firewall: a commercial Japanese sample was used as reference material in the source, but no brand name is attached to a contamination value in this page.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; species-level slugs for *Laminaria digitata*, *Fucus vesiculosus*, and *Laminaria japonica* are absent, so broad seaweed/kelp routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c8a44e8](https://github.com/paleofoundation/heavymetalindex/commit/c8a44e8) | 2026-06-08 | ingest: ownsworth2019-estuarine-macroalgae-elements fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

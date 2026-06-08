@@ -90,3 +90,13 @@ This report is an A-tier European regulatory occurrence and dietary-exposure anc
 - Speciation: cadmium is reported as cadmium occurrence; no cadmium species conversion is involved.
 - Brand firewall: the report aggregates FoodEx categories and European survey data; no brand-level values are attached to contamination results.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow closed-vocabulary product slugs include water molluscs, crustaceans, algal formulations, bitter chocolate, bitter-sweet chocolate, boiled potatoes, pastries/cakes, and carrots, so broad category routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0226413](https://github.com/paleofoundation/heavymetalindex/commit/0226413) | 2026-06-08 | ingest: efsa2012-cadmium-dietary-exposure-europe fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

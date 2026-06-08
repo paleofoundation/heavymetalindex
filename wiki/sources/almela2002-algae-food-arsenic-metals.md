@@ -90,3 +90,13 @@ Eighteen dried algae food products (12 brown, 4 red, 2 green) bought in Valencia
 - Jurisdiction ES (point of retail sale, Valencia). Products are of mixed/Japanese-style origin but the survey samples the Spanish retail market; sampling_locations left empty as the paper gives no harvest geocoordinates.
 - Method vendor/instrument names (Perkin-Elmer AAS, PS Analytical AFS, IAEA/BCR reference materials) retained in Methods as permitted scientific reporting, not brand attribution.
 - matrices [edible-seaweed, macroalgae, kelp, dry-weight] follow established corpus convention (cf. mosusu2023-edible-seaweeds-japan-metals); `kelp` included because *Laminaria japonica* (kombu) is present. Kept broad; the routing layer fans to sibling pages.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0bb8e85](https://github.com/paleofoundation/heavymetalindex/commit/0bb8e85) | 2026-06-08 | ingest: almela2002-algae-food-arsenic-metals fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

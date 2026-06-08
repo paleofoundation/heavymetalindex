@@ -165,3 +165,14 @@ None. The paper has no metal-content, food-matrix, ingredient, product, or juris
 The editorial decision is to report the scientifically correct units (µM and µg/ml) rather than the corrupted units (mM and mg/ml) printed in the PDF text layer, because the corrupted units would be both pharmacologically impossible and inconsistent with the cited methodological literature. This is a font-encoding artifact, not a numerical error in the original publication. Methotrexate and cyclosporine A doses ("100 nM") are unaffected because the n prefix character is correctly preserved in the PDF text layer. Audit subagent (2026-06-08) flagged the silent correction as a Check 1 numerical-fidelity defect; the correction is retained, the editorial rationale is documented here, and the µ→m artifact is named explicitly so that downstream readers can verify the substitution against any future re-extraction of this PDF.
 
 **Audit subagent (2026-06-08) verdict: REVISE → applied.** Five checks returned two ❌ on Check 1 (numerical fidelity — NSAID doses and dexamethasone range reported in µM/µg/ml where the PDF text layer prints mM/mg/ml) and ✅ on Checks 2/3/4/5 (slug vocabulary, speciation/methods, Part 12 brand firewall, Part 2 HMTc firewall). Both ❌ findings were independently re-verified against the PDF and against the cited methodological literature, with the convergent conclusion that the PDF text layer carries a systematic µ→m character substitution (consistent with the parallel α→a, β→b, γ→g, °→8 substitutions in the same text layer and with the pharmacological impossibility of mM-range dosing for these compounds). Values retained as µM/µg/ml; editorial rationale documented in full in the preceding Verification notes paragraph "Unit-prefix transcription discipline". No numerical values changed in Key numbers or Methods; 0 findings rejected as wrong; both findings reframed as appropriate-correction-needs-documentation rather than wrong-value-needs-revert. Audit subagent ID aadc3fd0d190e1d8e.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [02e92e3](https://github.com/paleofoundation/heavymetalindex/commit/02e92e3) | 2026-06-08 | audit: schett1998-hsp70-hsf1-rheumatoid-synovial revised |
+| [2febc49](https://github.com/paleofoundation/heavymetalindex/commit/2febc49) | 2026-06-08 | ingest: schett1998-hsp70-hsf1-rheumatoid-synovial fresh from MFK/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

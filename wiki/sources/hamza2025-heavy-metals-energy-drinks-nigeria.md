@@ -291,3 +291,15 @@ Open-access publication in Communication in Physical Sciences (CPS), Vol 12, Iss
 - Chi-square df attribution softened from asserted "df = 3" to inferred-not-stated, both in the Table 5 narrative and the Methods (brief) section.
 - The abstract paragraph's conflation of the 105 °C oven-drying step with the Kjeldahl-heater digestion step was tightened to match PDF p. 215, which states the 105 °C is the oven-drying step and the Kjeldahl heater digestion has no stated temperature.
 No false-positive findings to record. No frontmatter changes required. Routing unaffected (sports-energy-drinks direct_evidence row unchanged).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e705b0a](https://github.com/paleofoundation/heavymetalindex/commit/e705b0a) | 2026-06-06 | ingest: hamza2026-heavy-metals-energy-drinks-health-risk fresh from Manual Fetch Discovery |
+| [e7cfc9f](https://github.com/paleofoundation/heavymetalindex/commit/e7cfc9f) | 2026-06-06 | audit: hamza2025-heavy-metals-energy-drinks-nigeria revised |
+| [d3ac734](https://github.com/paleofoundation/heavymetalindex/commit/d3ac734) | 2026-06-06 | ingest: hamza2025-heavy-metals-energy-drinks-nigeria fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

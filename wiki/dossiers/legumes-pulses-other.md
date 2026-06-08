@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `8707c66` (2026-06-05). The body hashes to `sha256:cc7b383818209e131dc95f03702c79ab…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:5bc08d3d88852c6202aaa2018c57efa1…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=legumes-pulses-other&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/legumes-pulses-other&download=1`.
 
 ## Evidence base
 
-This category is supported by 12 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 1 numerical claim; 1 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 23 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 1 numerical claim; 1 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/legumes-pulses-other.md`.
 

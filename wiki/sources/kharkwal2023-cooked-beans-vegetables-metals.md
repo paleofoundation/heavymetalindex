@@ -65,3 +65,13 @@ This source provides cooked-food occurrence evidence for household-prepared legu
 - Speciation: source labels are arsenic, cadmium, lead, and mercury. No inorganic arsenic or methylmercury measurements are reported, so frontmatter uses `tAs` and `tHg`.
 - Frontmatter uses broad closed-vocabulary slugs for beans/legumes and vegetables; missing narrow cooked-food product slugs include `cooked-beans`, `dal`, `sabji`, and `cooked-vegetable-preparations`.
 - Brand firewall: no product brand names were reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c16b860](https://github.com/paleofoundation/heavymetalindex/commit/c16b860) | 2026-06-08 | ingest: kharkwal2023-cooked-beans-vegetables-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

@@ -83,3 +83,14 @@ Seven dominant brown macroalgae taxa were collected within a <100 m² area at Mo
 - Instrument/CRM/vendor names (PerkinElmer NexIon/NexSAR, Phenomenex PRP-X100, Supelcosil, NMIJ 7405-b) retained in Methods as permitted scientific reporting.
 - Audit subagent (2026-06-08, fresh-context) returned REVISE; all Table 1/3/4 values, the As(V)/iAs speciation discipline (no arsenosugar/methylated value mislabeled), the µg/g unit handling, slugs (kelp correctly omitted), license, and both firewalls verified clean — and it confirmed the page correctly did NOT propagate two source-internal typos (the Discussion's "all below 0.2 µg/kg/day" contradicting its own 0.29 max, and Table 4's stray "C. fragile" 8th-taxon row). One ❌ applied: the PRP-X100 anion-exchange column vendor was given as "Hamilton" but the source (p.1026) attributes it to Phenomenex — corrected (Hamilton is a common real-world PRP-X100 maker, the likely source of the slip). One ⚠️ applied: the BMDL comparison was reattributed to the imported-seaweed EDI (the range the source actually benchmarks), noting the study's own EDIs are also below both BMDLs.
 - Cross-source note: comparisons to Ronan 2017, Taylor & Jackson 2016, Sim 2023, Huang 2022, Wolle 2021 etc. (the source's Table 1/2 cross-study comparisons) belong to the Part 9 synthesis pass; this page reports only this study's own measurements.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e459171](https://github.com/paleofoundation/heavymetalindex/commit/e459171) | 2026-06-08 | audit: siregar2025-australian-brown-macroalgae-arsenic revised |
+| [6fe667b](https://github.com/paleofoundation/heavymetalindex/commit/6fe667b) | 2026-06-08 | ingest: siregar2025-australian-brown-macroalgae-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

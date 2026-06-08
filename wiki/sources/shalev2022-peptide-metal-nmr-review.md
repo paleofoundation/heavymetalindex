@@ -124,3 +124,14 @@ This is a narrative review with no declared inclusion/exclusion criteria, no PRI
 **Audit subagent (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) returned three ✅ and two ⚠️.
 - Check 1 numerical-fidelity ⚠️ flagged that the opening sentence listed "Na, K, Mg, Ca, Cu(I), Cu(II), Zn, Mn, Fe, Co, Mo" (11 entries) while the PDF p.1 §1 lists 10 essential metals ("Na, K, Mg, Ca, Fe, Mn, Co, Cu, Zn and Mo"). The Cu(I)/Cu(II) split is faithful to the review's diamagnetic-vs-paramagnetic methodological organisation (Sections 7.4 and 8.4 treat them as separate cases) but they are one essential element, not two. **Verified against PDF p.1 §1 — finding correct; corrected the opening sentence to "each of the ten essential metals (Na, K, Mg, Ca, Fe, Mn, Co, Cu, Zn, Mo — with copper split methodologically into diamagnetic Cu(I) and paramagnetic Cu(II) cases)".**
 - Check 2 slug-vocabulary ⚠️ flagged that `[[mitigation/remediation-evidence]]` is not in the taxonomy snapshot. **Verified against the snapshot — finding correct on snapshot coverage, but this is the same snapshot-coverage gap addressed on the [[luo2024-peptides-heavy-metal-remediation]] sibling audit (2026-06-08 commit `ba01991`) and is in-scope per commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The wikilink points to a real `wiki/mitigation/remediation-evidence.md` section. No content correction applied; the snapshot will catch up in a future refresh, per the Luo precedent.**
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [34bc585](https://github.com/paleofoundation/heavymetalindex/commit/34bc585) | 2026-06-08 | audit: shalev2022-peptide-metal-nmr-review promoted |
+| [e216223](https://github.com/paleofoundation/heavymetalindex/commit/e216223) | 2026-06-08 | ingest: shalev2022-peptide-metal-nmr-review fresh from Manual Fetch Kimi/June 8/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

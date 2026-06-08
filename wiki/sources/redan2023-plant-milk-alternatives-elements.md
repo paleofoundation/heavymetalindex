@@ -71,3 +71,13 @@ This source provides direct finished-product occurrence evidence for U.S. plant-
 - Units are preserved as source-reported `ug/kg`; no conversion to `ug/L` or serving basis was made.
 - Speciation: the source reports total arsenic only and states that it did not differentiate organic and inorganic arsenic species. Frontmatter therefore uses `tAs`, not `iAs`.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; hemp and pea ingredient slugs are not present, so those product types remain represented by the broad plant-milk product rows.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2809b06](https://github.com/paleofoundation/heavymetalindex/commit/2809b06) | 2026-06-08 | ingest: redan2023-plant-milk-alternatives-elements fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

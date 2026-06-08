@@ -21,18 +21,41 @@
     "canonical_url": "https://heavymetalindex.com/products/peanut-butter",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "05aa37911e8043783114f9fcf192722afef19c4e4d704fc6be2f2ed7e0f06fb6",
-      "content_bytes": 12044,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "35496e2dc07e6539aad54e0c9fb4c14c5bcb2bfa65f5fb82c5ad6791f3fb45b8",
+      "content_bytes": 12575,
+      "last_commit_sha": "c679df8",
+      "last_commit_date": "2026-06-08",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/peanut-butter.md | sha256sum"
+      "verify_command": "git show c679df8:wiki/products/peanut-butter.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 5,
+    "contributing_source_count": 6,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/dabeka1995-canadian-food-composites-metals",
+        "title": "Survey of Lead, Cadmium, Fluoride, Nickel, and Cobalt in Food Composites and Estimation of Dietary Intakes of These Elements by Canadians in 1986-1988",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dabeka1995-canadian-food-composites-metals",
+        "content_pin": {
+          "content_sha256": "6d8867d41c689cb828128ef8adffd657a2f9242110de276c0bdede5c6ae9e081",
+          "content_bytes": 6479,
+          "last_commit_sha": "df08614",
+          "last_commit_date": "2026-06-08",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show df08614:wiki/sources/dabeka1995-canadian-food-composites-metals.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/efsa2015-nickel-food-water",
         "title": "Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water",
@@ -45,12 +68,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "ad9358db2769bc938c669cbf823cc217aa20914abad12e38b2da5a06687794b9",
-          "content_bytes": 30112,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "230bb3d82ddc62a76d5958a93fe400e7f0153d95462223e42f41d106db5f3829",
+          "content_bytes": 30180,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -66,12 +89,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2016-infant-toddler-foods-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "e366476ff5168f012bdc076568af9ff9101b447151d9b2390fb8f144bccb137c",
-          "content_bytes": 7152,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "bb58034ca71dee4c3b09ddbc32d961c4d72317fcac19464ecbcf8f00f703ae6f",
+          "content_bytes": 7220,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
         }
       },
       {
@@ -103,12 +126,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
         "content_pin": {
-          "content_sha256": "20dbd53243f6bab78d57cc0499fb0e8995bc7434b8c1ab36852edec71dd19a9a",
-          "content_bytes": 10735,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "4518a85cd1a34e7c6c6bac437beaffd58fc55818effbf15fde0c731da7e0f0bf",
+          "content_bytes": 10803,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
         }
       },
       {
@@ -124,12 +147,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hovanec2004-peanut-butter-arsenic-speciation",
         "content_pin": {
-          "content_sha256": "d65d2e88b9bad7edbd7c985b51bcbccce65f18747b3bc610f4f00b09c9ae92fe",
-          "content_bytes": 10120,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "1e1a9f93ef5769ee6137b961c31d9e9d1ee5fa1abe48991977b446d6ba4dda22",
+          "content_bytes": 10188,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/hovanec2004-peanut-butter-arsenic-speciation.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/hovanec2004-peanut-butter-arsenic-speciation.md | sha256sum"
         }
       },
       {
@@ -144,12 +167,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/schaefer2020-cadmium-mitigation-strategies",
         "content_pin": {
-          "content_sha256": "6252296a7bd75de1ecee3c5088966add6dbacbdbc23836180e1f7dfd7df99ce0",
-          "content_bytes": 10291,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "d50c4915fb808223476b4cc3f2be30d7cbba345af3cc916c4138ae2460c6904b",
+          "content_bytes": 10359,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
         }
       }
     ]

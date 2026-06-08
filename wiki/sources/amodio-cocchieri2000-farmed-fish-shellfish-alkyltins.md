@@ -70,3 +70,13 @@ This source provides direct organotin occurrence evidence for fish and mussels i
 - Speciation: the paper reports `DBT` and `TBT` organotin species. Frontmatter uses `Sn` only because the metal vocabulary has no DBT/TBT entries; this page does not collapse organotins into total tin.
 - Brand firewall: no sampled seafood product brands were reported.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow closed-vocabulary slugs include mussels, salmon, trout, sea bass, gilthead bream, anchovy, mackerel, tuna, sole, and pandora, so broad fish/seafood/shellfish routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [632f0ae](https://github.com/paleofoundation/heavymetalindex/commit/632f0ae) | 2026-06-08 | ingest: amodio-cocchieri2000-farmed-fish-shellfish-alkyltins fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

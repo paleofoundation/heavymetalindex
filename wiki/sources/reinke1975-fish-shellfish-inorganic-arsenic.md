@@ -63,3 +63,13 @@ This source supplies early seafood occurrence evidence showing that total arseni
 - Speciation: inorganic arsenic is source-defined as arsenite plus arsenate (`As3+` plus `As5+`). Total arsenic remains `tAs`; no total arsenic value is promoted to inorganic arsenic.
 - Brand firewall: no retail brands were reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; species-level slugs for halibut, shrimp, haddock, crab, mackerel, herring, and lobster are absent, so broad seafood/fish/shellfish routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [19fd782](https://github.com/paleofoundation/heavymetalindex/commit/19fd782) | 2026-06-08 | ingest: reinke1975-fish-shellfish-inorganic-arsenic fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

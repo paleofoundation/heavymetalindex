@@ -174,3 +174,14 @@ This is a narrative review with no declared search strategy, no inclusion or exc
 **Date arithmetic.** Received 27 May 2024, revised 24 June 2024, accepted 26 June 2024, published 9 July 2024 — all consistent with the year frontmatter (2024) and the citation. Article DOI 10.3390/antiox13070825 resolves to *Antioxidants* 2024, Vol 13, Article 825.
 
 **Audit subagent (2026-06-08) verdict: REVISE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) returned ✅✅✅✅✅ at the body level with two ⚠️ findings, both minor; no ❌. (1) Table 1 row 9 initially read "MT expressed by engineered *Rhodococcus* (EcN-MT)"; verified against the PDF Table 1 Cont. on p. 5 and reference [35] (Zou et al. 2022, *Front. Pharmacol.* 13:857869, "Engineered Bacteria EcN-MT Alleviate Liver Injury in Cadmium-Exposed Mice via its Probiotics Characteristics and Expressing of Metallothionein") — the PDF says "engineered bacterium EcN-MT" and EcN denotes *E. coli* Nissle, not *Rhodococcus*; corrected to "engineered bacterium EcN-MT (*E. coli* Nissle, per ref 35)". (2) The auditor flagged `[[mitigation/remediation-evidence]]` in `## Wiki pages this source may touch` as outside the taxonomy snapshot's vocabulary; verified against `wiki/mitigation/remediation-evidence.md` (which exists) and against the 2026-06-02 scope commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip` — finding is a false positive because the taxonomy snapshot scopes ingredients/products/metals/regulations as GPT's drafting vocabulary, not the full wiki section index; the `mitigation/` subtree is a legitimate routing destination (and the same wikilink form is used in the sibling luo2024-peptides-heavy-metal-remediation page). No change applied on finding (2).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a9883dd](https://github.com/paleofoundation/heavymetalindex/commit/a9883dd) | 2026-06-08 | audit: yang2024-metallothionein-comprehensive-review revised |
+| [584b8c3](https://github.com/paleofoundation/heavymetalindex/commit/584b8c3) | 2026-06-08 | ingest: yang2024-metallothionein-comprehensive-review fresh from MFK/June 8/Kimi_Agent_Black Market Peptide Metal Survey |
+<!-- END: hmi-page-history -->

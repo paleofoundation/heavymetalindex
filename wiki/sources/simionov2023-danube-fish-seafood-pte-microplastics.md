@@ -84,3 +84,13 @@ This source provides primary market-occurrence evidence for fish, freshwater fis
 - Speciation: arsenic is total/unspecified As (`tAs`) in Table 3, not inorganic arsenic. Mercury is total/unspecified Hg (`tHg`) in Table 3, not methylmercury, even though the discussion notes that fish-tissue Hg is commonly present as MeHg.
 - Brand firewall: specimens were purchased from retailers and reported by taxon/origin; no product brand contamination values were present.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow closed-vocabulary slugs include the individual fish and shellfish species rows, crustaceans, cephalopods, mussels, clams, shrimp, squid, and gastropods, so broad seafood/fish/shellfish routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ce8e5d5](https://github.com/paleofoundation/heavymetalindex/commit/ce8e5d5) | 2026-06-08 | ingest: simionov2023-danube-fish-seafood-pte-microplastics fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

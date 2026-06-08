@@ -134,3 +134,14 @@ This is a narrative review with no declared search strategy, no inclusion or exc
 **Date arithmetic.** Received 14 January 2013, revised 14 February 2013, accepted 20 February 2013, published 15 March 2013 — all consistent with the year frontmatter (2013) and the citation. Article DOI 10.3390/ijms14036044 resolves to *Int. J. Mol. Sci.* 2013, Vol 14, pp. 6044–6066.
 
 **Audit subagent (2026-06-08) verdict: REVISE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) returned ✅✅✅✅✅ at the body level with three ⚠️ findings and no ❌. (1) The Why-this-matters bullet compressed Shiraishi et al.'s two distinct endpoints (5-fold MT-Zn content; 15-fold MT protein content) into a single ambiguous "5–15-fold" range; verified against PDF p. 6054 ("the hepatic MT-Zn content increased five-fold, and MT protein content increased 15-fold by 18 h following irradiation") — the body section already had the two-endpoint phrasing; the bullet has been rewritten to mirror it. (2) The MT-redox-cycle bullet contained a self-referential wikilink `[[ruttkay-nedecky2013-metallothionein-oxidative-stress]]-derived secondary literature` that was a copy-paste template artifact; removed, replaced with "review-derived secondary literature". (3) The auditor flagged `[[mitigation/remediation-evidence]]` as outside the taxonomy snapshot's vocabulary; verified against `wiki/mitigation/remediation-evidence.md` (which exists) — finding is a false positive because the taxonomy snapshot scopes ingredients/products/metals/regulations as the auditor's drafting vocabulary, not the full wiki section index; the `mitigation/` subtree is a legitimate routing destination (same wikilink form is used in the sibling yang2024-metallothionein-comprehensive-review page). No change applied on finding (3).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8f4be10](https://github.com/paleofoundation/heavymetalindex/commit/8f4be10) | 2026-06-08 | audit: ruttkay-nedecky2013-metallothionein-oxidative-stress revised |
+| [5096d9b](https://github.com/paleofoundation/heavymetalindex/commit/5096d9b) | 2026-06-08 | ingest: ruttkay-nedecky2013-metallothionein-oxidative-stress fresh from MFK/June 8 Black Market Peptide Metal Survey |
+<!-- END: hmi-page-history -->

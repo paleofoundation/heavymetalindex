@@ -98,3 +98,13 @@ The source is useful for routing Algerian and neighboring southwestern Mediterra
 - Speciation: arsenic is reported as `As` without inorganic speciation and is treated as total/unspecified arsenic (`tAs`) context. `Hg` and `MeHg` rows are kept separate; total/unspecified Hg is not promoted to MeHg.
 - Brand firewall: no sampled product brands are attached to contamination values.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. Crustacean- and sardine-specific product/ingredient slugs were not available in the snapshot, so those rows are carried under broad seafood, fish, and shellfish context rather than invented slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d795404](https://github.com/paleofoundation/heavymetalindex/commit/d795404) | 2026-06-08 | ingest: mehouel2021-algeria-seafood-metals-review fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

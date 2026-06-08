@@ -90,3 +90,13 @@ This source supplies Zhejiang-market dried-bean occurrence evidence for total ar
 - Speciation: arsenic was measured as total/unspecified As and mercury as total/unspecified Hg. The source's health-risk model assumes `72%` inorganic arsenic, but the occurrence data are not measured iAs.
 - Brand firewall: samples were purchased from markets but no brand-level contamination values are reported.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; narrow slugs for black bean, broad bean, mung bean, red bean, kidney bean, and pea are not available, so broad beans/legumes routing is used with soy added for soybean rows.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [72249d7](https://github.com/paleofoundation/heavymetalindex/commit/72249d7) | 2026-06-08 | ingest: yu2023-zhejiang-beans-toxic-elements fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

@@ -72,3 +72,14 @@ Fresh African spinach and tomato samples were collected from two locations in As
 - The source does not report arsenic or mercury and does not distinguish chromium species; Cr is treated as total chromium.
 - The source reports summary concentrations by vegetable matrix, not sample-level values, censoring details, LOD, or LOQ.
 - The conclusion text appears to say Cd in tomatoes exceeded the FAO/WHO limit, but Table 1 and the Results text identify African spinach Cd 0.210 mg/kg as the exceedance; this source page follows Table 1 and the Results discussion.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [46843a9](https://github.com/paleofoundation/heavymetalindex/commit/46843a9) | 2026-06-07 | apply audit fatai2024 african spinach tomato |
+| [f388120](https://github.com/paleofoundation/heavymetalindex/commit/f388120) | 2026-06-07 | ingest auto-fetched 2026-06-07: fatai2024-african-spinach-tomato-nigeria |
+<!-- END: hmi-page-history -->

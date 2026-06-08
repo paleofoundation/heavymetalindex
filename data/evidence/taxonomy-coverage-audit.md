@@ -1,6 +1,6 @@
 # HMTc Taxonomy v2.0 Coverage Audit
 
-Generated: 2026-06-05
+Generated: 2026-06-08
 
 Taxonomy version: **2.0** (2026-03-30)
 

@@ -2,7 +2,7 @@
 source_page: wiki/products/salt.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0b7de953c82543c367cc629ac82d99dc1ec532d4e76fb09d97e28ec4dc8cece7
+source_page_sha256: 685aad388ebe6be949b501b1ba51c4230464f3dfa92e99ea9cbfd00d8e7cd042
 total_claims: 2
 cited_claims: 0
 uncited_claims: 2
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 2
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 789
+audit_log_total_rows: 972
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 2 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 789 |
+| audit log rows read | 972 |
 
 ## Page-level audit rows
 

@@ -82,3 +82,13 @@ App: The study can inform a spinach risk explainer that distinguishes field cont
 ## Verification notes
 
 The DOI, title, authors, journal, year, and sample location were read from the PDF first page. The key numeric concentrations were read from Tables 1 and 2, with HRI values cross-checked against the abstract and Table 3 heading. The paper identifies the vegetable as African spinach and gives the botanical name as Amarantus caudatus; this page routes it to the existing spinach row because the product queue targeted spinach and the paper repeatedly uses spinach as the consumed vegetable label.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [aed2b92](https://github.com/paleofoundation/heavymetalindex/commit/aed2b92) | 2026-06-07 | ingest auto-fetched 2026-06-07: adebayo2020-wastewater-irrigated-spinach |
+<!-- END: hmi-page-history -->

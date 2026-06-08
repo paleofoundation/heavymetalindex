@@ -145,3 +145,13 @@ Sample-count limitation: the paper reports N = 122 total samples split between I
 Arsenic and mercury speciation: HGAAS and CV-AAS measure total fractions only. The authors compare their tAs values against an Iran national 0.15 mg/kg limit and their tHg values against a 0.02 mg/kg limit, both presented in the paper as "total" without speciation caveat. This is a known weakness of pre-2015-era tea heavy-metal surveys; the values are preserved here as reported and flagged as total fractions in the `metals:` array (`tAs`, `tHg`).
 
 Copper left-censoring: the reported Cu LOD of 0.033 mg/kg equals the reported Cu minimum for both Indian and Sri Lankan tea samples (Table 2). At least one sample in each origin sat at the detection floor. The paper does not disclose the number of left-censored Cu samples or the censoring substitution rule used in the mean (LOD, LOD/2, or zero). The per-origin Cu means are reported here as printed in Table 2 without adjustment.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6a6ebd3](https://github.com/paleofoundation/heavymetalindex/commit/6a6ebd3) | 2026-06-08 | ingest: pourramezani2019-iran-imported-black-tea-metals fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

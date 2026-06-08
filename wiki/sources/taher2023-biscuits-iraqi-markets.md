@@ -74,3 +74,13 @@ Flame atomic absorption spectroscopy (Buck Scientific 210 VGA), air/acetylene fl
 - Units are the source's mg/kg dry weight; ppb conversions here are 1 mg/kg = 1000 µg/kg. Basis is dry weight (oven-dried, pulverized biscuit), not as-consumed.
 - Speciation: total Pb and total Cd by flame AAS; no inorganic/organic speciation claimed and none inferred.
 - Zinc is reported as an essential element for completeness and is not an HMI/HMTc target analyte; it is not routed to a metals page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8c6cd7f](https://github.com/paleofoundation/heavymetalindex/commit/8c6cd7f) | 2026-06-08 | audit-queue: pourramezani2019-iran-imported-black-tea-metals -> audited-promote |
+<!-- END: hmi-page-history -->

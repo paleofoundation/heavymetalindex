@@ -54,3 +54,13 @@ This source contributes Iraq-market noodle occurrence ranges for total Cu, total
 - Speciation: Cu, Cd, and Pb are reported as total elements. The paper does not report arsenic, mercury, chromium, or metal speciation.
 - Brand firewall: the source names noodle flavor/type descriptors in the sampling section, but the occurrence page does not attach any product or brand name to a contamination value.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c216f24](https://github.com/paleofoundation/heavymetalindex/commit/c216f24) | 2026-06-08 | ingest: mohammed2021-salah-al-din-noodles-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

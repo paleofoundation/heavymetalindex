@@ -92,3 +92,14 @@ Within the wiki/HMTc firewall, this source bears on no per-row P97/P45 percentil
   - Mixed-bacterial 449.04/50.71 µmol/g labeled "at 500 µM total mixed ions": verified against PDF p. 10 ("The adsorption capacity of the mixed bacterial system for a single ion was firstly examined. As shown in Fig. 3c and d… when the ion concentration increased to 500 µM, the adsorption capacities of the mixed bacteria for Hg²⁺ and Cr⁶⁺ reached a maximum of 449.04 and 50.71 µmol/g CDW") — the 500 µM is single-ion (Hg²⁺ or Cr²⁺ alone) with the mixed-bacterial co-culture, not 500 µM total across the four-metal cocktail (the four-metal cocktail experiments are at 160/400/800 µM total per Fig. 4). Subagent finding verified correct; corrected the two Key numbers rows and added a dedicated four-metal cocktail concentration row.
   - BL21 Hg²⁺ baseline 273.2 µmol/g attributed to Fig. 3a: re-verification against Table 1 shows 273.2 µmol/g is the value for *Penicillium canescens* (ref [20], Say/Yilmaz/Denizli 2003), not for E. coli BL21. The Table 1 BL21 row from ref [22] reports only a 43.7% removal rate without a µmol/g capacity. The paper's own BL21 measurements appear only as the wild-type control curve in Fig. 3a, where BL21 visually plateaus around 270–280 µmol/g without a precise text value stated. The subagent's confirmation of "273.2 from Table 1 ref [22]" was itself based on a misread of Table 1 (the audit attributed the Penicillium canescens row's value to the BL21 ref [22] row), but the underlying issue — the 273.2 µmol/g number cannot be attributed to BL21 — is real. Corrected the Key numbers row to "~270 to 280 µmol/g CDW at 500 µM Hg²⁺ (Fig. 3a curve only; paper text does not state a precise numerical baseline for BL21)."
 - Subagent verdict: REVISE; both findings applied with verification against the source. No QUARANTINE triggers (no ❌ Check 1 cluster, no Check 4 or Check 5 ❌).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [feb2f85](https://github.com/paleofoundation/heavymetalindex/commit/feb2f85) | 2026-06-08 | audit: coghlan2015-tcm-heavy-metals-audit revised per autonomous audit |
+| [caaa2ee](https://github.com/paleofoundation/heavymetalindex/commit/caaa2ee) | 2026-06-08 | audit: demir2025-coffee-elements-turkiye revised per autonomous audit |
+<!-- END: hmi-page-history -->

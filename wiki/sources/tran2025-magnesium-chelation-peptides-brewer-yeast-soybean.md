@@ -36,12 +36,13 @@ Tran, Ha, Bui, Dam, To, Pham, and Le (School of Chemistry and Life Sciences, Han
 | SBM raw substrate | Total protein, water content (page 2, §2.1) | `48.62 ± 0.44 %` protein (Kjeldahl), `11.16 ± 0.57 %` water |
 | SBY autolysis end-state (12 h, pH 6, 50 °C) | Soluble protein increase from t=0 | `6.69-fold` rise (Fig. 1A, page 3) |
 | SBM hydrolysis end-state (8 h, pH 8, 50 °C) | Soluble protein increase from t=0 | `2.67-fold` rise (Fig. 1B, page 3) |
-| SBY hydrolysate Mg²⁺ chelating yield, 20 h | Chelating yield (Fig. 2A, page 4) | `≈54 %` (1.34× the SBM 8 h value) |
-| SBM hydrolysate Mg²⁺ chelating yield, 5 h plateau | Chelating yield (Fig. 2B, page 4) | `≈40 %` plateau |
-| SBY 3 kDa permeate (Pe 3 kDa) specific chelating yield (Fig. 3A) | Mg²⁺ chelated per g protein | `≈94.44 mg/g` protein (highest specific yield reported in the study) |
-| SBY 3 kDa permeate optimal conditions | pH for peak yield (Fig. 4A, page 5) | `pH 2 to 4`, peak at `pH 2` (`≈67 %` chelating yield at 150 mM Mg²⁺ loading) |
-| SBY 3 kDa permeate Mg²⁺ loading optimum (Fig. 4C, page 5) | Loading mM → yield | `5 mM` and `25 mM` Mg²⁺ → `99.83 %` chelating yield peak; declining to `≈74 %` at 150 mM |
-| SBM 3 kDa permeate Mg²⁺ loading optimum (Fig. 4F, page 5) | Loading mM → yield | `5 mM` → `82.5 %`, `25 mM` → `87.39 %` peak; declining to `42.05 %` at 150 mM |
+| SBY hydrolysate Mg²⁺ chelating yield (20 h) vs SBM (8 h) | Endpoint chelating-yield comparison (Fig. 2, page 4) | SBY chelating yield was `1.34×` that of SBM at endpoints (paper wording, page 4 §3.2: "the chelating yield of SBY was 1.34-time higher than that of SBM") |
+| SBM hydrolysate Mg²⁺ chelating yield, 5 h plateau | Chelating yield (Fig. 2B, page 4) | `≈40 %` from h 5 through h 8 (Fig. 2B, chart read; no tabulated value in text) |
+| SBY 3 kDa permeate (Pe 3 kDa) specific chelating yield (Fig. 3A; abstract page 1) | Mg²⁺ chelated per g protein | `94.44 mg/g` protein (highest specific yield reported in the study) |
+| SBY 3 kDa permeate optimal conditions | pH for peak yield (Fig. 4A, page 5; text page 6 §3.3) | `pH 2 to 4` window; peak at `pH 3` with `67.05 %` chelating yield at 150 mM Mg²⁺ loading |
+| SBM 3 kDa permeate optimal pH (Fig. 4D, page 5; text page 6 §3.3) | pH for peak yield | Peak at `pH 3` with `51.52 %` chelating yield at 150 mM Mg²⁺ loading |
+| SBY 3 kDa permeate Mg²⁺ loading optimum (Fig. 4C, page 5; text page 6 §3.3) | Loading mM → yield | `5 mM` and `25 mM` Mg²⁺ → `99.83 %` chelating yield peak; declining to `74.3 %` at 150 mM |
+| SBM 3 kDa permeate Mg²⁺ loading optimum (Fig. 4F, page 5; text page 6 §3.3) | Loading mM → yield | `25 mM` Mg²⁺ → `87.39 %` peak; declining to `42.05 %` at 150 mM |
 | Reaction time × temperature (Fig. 4B SBY / 4E SBM) | Effect | SBY peaks `74.8 %` at 30 min / 40 °C; SBM peaks `47.81 %` at 30 °C; temperature and time effects "minor" per discussion (page 6) |
 | FTIR amide II band shift (Fig. 5, page 6) | SBYP → Mg-SBYP | `1579.25 cm⁻¹` → `1611.71 cm⁻¹` (peptide–Mg interaction, paper's framing) |
 | FTIR N–H stretch shift | SBYP → Mg-SBYP | `3127.17 cm⁻¹` → `3271.24 cm⁻¹` (N–H vibration confirms amino-group involvement) |

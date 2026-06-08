@@ -83,3 +83,13 @@ This source provides Canadian total-diet composite occurrence and intake context
 - Speciation: the paper reports elemental lead, cadmium, nickel, cobalt, and fluoride; no arsenic or mercury speciation issue is present.
 - Brand firewall: Prosobee is named only as a laboratory reference material in Methods, not attached to consumer contamination values.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow total-diet composite slugs include canned luncheon meats, canned citrus fruit, canned peaches, canned pears, cherries, meat organs, potato chips, and soups, so broad product/category routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [df08614](https://github.com/paleofoundation/heavymetalindex/commit/df08614) | 2026-06-08 | ingest: dabeka1995-canadian-food-composites-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

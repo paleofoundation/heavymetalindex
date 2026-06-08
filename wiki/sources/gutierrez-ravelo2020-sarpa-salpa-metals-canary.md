@@ -91,3 +91,13 @@ This source contributes Tenerife/Canary Islands occurrence data for a marine non
 - Speciation: chromium is total Cr, not Cr-VI. Mercury and arsenic were not analyzed.
 - Brand firewall: source specimens came from fishermen's organizations/coastal zones, not consumer brands.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented. There is no closed product slug for fish liver/organ meat in the current snapshot, so liver is represented with `[[ingredients/organ-meats]]` and documented in the body.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6a28616](https://github.com/paleofoundation/heavymetalindex/commit/6a28616) | 2026-06-08 | ingest: gutierrez-ravelo2020-sarpa-salpa-metals-canary fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

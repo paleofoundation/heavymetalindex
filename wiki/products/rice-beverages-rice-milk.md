@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 3
+sources: 6
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -100,9 +100,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/efsa2024-organoarsenic-species\|EFSA 2024]]. *Risk assessment of small organoarsenic species in food*, EFSA Journal | 2024 | Government report | EU tAs occurrence in 1,260 analytical results on DMA(V) and 988 on MMA(V) submitted to the EFSA Data Warehouse covering sampling years... (n=2248) |
-| 2 | [[sources/gu2020-arsenic-rice-infant-food-australia\|Gu et al. 2020]]. *Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia*, International Journal of Environmental Research and Public Health 17(2):415 | 2020 | Peer-reviewed | AU tAs, iAs occurrence in Thirty-nine rice-based infant food products purchased in Australia: rice milk powder (n=3), rice pasta (n=3), rice cereal (n=12),... (n=39) |
-| 3 | [[sources/fda2013-ias-rice-products-sampling\|FDA 2013]]. *Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013*, U.S. Food and Drug Administration | 2013 | Regulation | US iAs, tAs concentrations (n=1300) |
+| 1 | [[sources/begday2026-plant-milk-heavy-metal-safety\|Begday et al. 2026]]. *Integral assessment of the environmental safety of plant-based milk alternatives based on heavy metal analysis*, Izvestiya KGTU (KSTU News) | 2026 | Peer-reviewed | RU Pb, Cd, Zn, Cu occurrence in Eight plant-based milk samples assessed on the Russian market: four commercial ready-to-drink beverages (one each of almond, rice,... (n=8) |
+| 2 | [[sources/good2026-plant-milk-heavy-metals\|Good et al. 2026]]. *Comparative exposure and risk assessment of heavy metals, nutrients, and organochlorine pesticides in cow and plant-based milks*, Scientific Reports | 2026 | Peer-reviewed | US Cr, tAs, Cd, Pb occurrence in Twenty-two commercially available milk products purchased from major grocery retailers in Houston, Texas, USA. Eight milk-type categories: cow... (n=22) |
+| 3 | [[sources/efsa2024-organoarsenic-species\|EFSA 2024]]. *Risk assessment of small organoarsenic species in food*, EFSA Journal | 2024 | Government report | EU tAs occurrence in 1,260 analytical results on DMA(V) and 988 on MMA(V) submitted to the EFSA Data Warehouse covering sampling years... (n=2248) |
+| 4 | [[sources/redan2023-plant-milk-alternatives-elements\|Redan et al. 2023]]. *Analysis of Eight Types of Plant-based Milk Alternatives from the United States Market for Target Minerals and Trace Elements*, Journal of Food Composition and Analysis | 2023 | Peer-reviewed | US tAs, Cd, Pb occurrence in Eighty-five plant-based milk alternative product units from 19 brands purchased from 10 retail markets and an online retailer... (n=85) |
+| 5 | [[sources/gu2020-arsenic-rice-infant-food-australia\|Gu et al. 2020]]. *Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia*, International Journal of Environmental Research and Public Health 17(2):415 | 2020 | Peer-reviewed | AU tAs, iAs occurrence in Thirty-nine rice-based infant food products purchased in Australia: rice milk powder (n=3), rice pasta (n=3), rice cereal (n=12),... (n=39) |
+| 6 | [[sources/fda2013-ias-rice-products-sampling\|FDA 2013]]. *Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013*, U.S. Food and Drug Administration | 2013 | Regulation | US iAs, tAs concentrations (n=1300) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -112,9 +115,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

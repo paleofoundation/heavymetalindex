@@ -115,3 +115,13 @@ The review's section 4.3 (p. 9) statement on Pb — "Toxic metals like lead (0.0
 The review's mineral-profile single-point estimates (one value per element from one paper) are not pooling-engine eligible for [[products/kombucha-tea-based]] occurrence on their own; they sit alongside the quantitative ceramic-vessel-leaching values in [[sources/munilla-garcia2023-lead-kombucha-ceramics]] (0.95–47 mg/kg Pb in vessel-fermented kombucha) and the dietary-intake comparator framework would need at least the Bauer-Petrovska underlying paper plus additional non-vessel kombucha primary studies before any synthesis pass on the kombucha-tea-based row.
 
 No HMTc threshold proposals, no consumer-audience translations, no risk advisories, and no synthesis claims of the form "this confirms the literature consensus that..." appear in the body, per CLAUDE.md Part 2 wiki/HMTc firewall.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [db9225b](https://github.com/paleofoundation/heavymetalindex/commit/db9225b) | 2026-06-06 | ingest: tandhanskul2025-kombucha-metabiotics-review [fresh] from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

@@ -69,3 +69,13 @@ This source supports rice-bulk-grain cadmium routing for a Chinese contaminated-
 - Rice occurrence vs soil context: soil Cd and CaCl2-extractable values are not product concentration values. This page routes to rice because the source reports rice-grain Cd exceedance percentages and rice-grain Cd models from paired soil/rice sampling.
 - Exact sample-level or area-mean rice Cd concentrations were not cleanly available in the extracted text; the page therefore does not invent or visually estimate them from figures.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c12da72](https://github.com/paleofoundation/heavymetalindex/commit/c12da72) | 2026-06-08 | ingest: li2017-jiangsu-rice-cadmium-transfer fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

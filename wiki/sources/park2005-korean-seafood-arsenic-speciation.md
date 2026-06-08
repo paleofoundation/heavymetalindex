@@ -70,3 +70,13 @@ This source provides arsenic-speciation occurrence evidence for Korean seafood a
 - The Summary text prints MDLs as `5-25 mgAs/kg`, while the abstract prints LODs as `0.5-2.5 µg/kg`; the page records the abstract LOD and does not harmonize the inconsistent line.
 - Brand firewall: no sampled seafood brands were reported.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; narrow slugs for shrimp, laver, tangle, croaker, oyster, mussel, squid, clam, mackerel, hairtail, cockle, and cuttlefish are absent, so broad seafood/fish/shellfish/seaweed routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [edb6dab](https://github.com/paleofoundation/heavymetalindex/commit/edb6dab) | 2026-06-08 | ingest: park2005-korean-seafood-arsenic-speciation fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

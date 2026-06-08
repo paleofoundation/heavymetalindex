@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/carpet-spot-removers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "95054aacfa17a1e9a3a125b5918880243b25ae79712ae5279f2e0c9d5ddcfc74",
-      "content_bytes": 10716,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "002c4ae07d9969e43aff0344a40e68c7440029f02b1c7ac95936205881584e72",
+      "content_bytes": 11493,
+      "last_commit_sha": "1ca3eb0",
+      "last_commit_date": "2026-06-06",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/carpet-spot-removers.md | sha256sum"
+      "verify_command": "git show 1ca3eb0:wiki/products/carpet-spot-removers.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/greenseal2009-gs37-version-comparison",
         "content_pin": {
-          "content_sha256": "2e119aed3719d95e2d139125b26b31ec5928f6904247695438977c9f52a9acec",
-          "content_bytes": 48951,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "a6b89bb7edd0917f2eb8b49e7ebabf069cdc4aec96d4dfda17176e0967e5b908",
+          "content_bytes": 50216,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/greenseal2009-gs37-version-comparison.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/greenseal2009-gs37-version-comparison.md | sha256sum"
         }
       },
       {
@@ -75,12 +75,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/greenseal2024-gs37-industrial-institutional-cleaners",
         "content_pin": {
-          "content_sha256": "3cf66711a5b140deecf143c131e84b683f38999e4b3c168773088620b37818c6",
-          "content_bytes": 65887,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "0c2da19924a2382e3aa9d4e17010dd68aa210fdcf4cc2ebaeb13e610b65f9a33",
+          "content_bytes": 67182,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/greenseal2024-gs37-industrial-institutional-cleaners.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/greenseal2024-gs37-industrial-institutional-cleaners.md | sha256sum"
         }
       },
       {
@@ -100,12 +100,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
         "content_pin": {
-          "content_sha256": "ace30203933264826c3a541fc4cd0f4499bd2f6aea4059b51f625affd77c9426",
-          "content_bytes": 47811,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "30bf9e55be09d1b4a7ff7a4fdb934ebfcb9d7b2c8b8f212672767bf89b916fa1",
+          "content_bytes": 49086,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
         }
       }
     ]

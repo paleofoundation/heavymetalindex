@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-decorative-decals-coatings",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "29e159c5be2508c41b7d2e1614a53c8cf56dde0617598d226fae2fe4c67b2413",
-      "content_bytes": 8537,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "3c3c38f768a6148d3aee5e9255ecd2c8cfe621a833996fc87177a466b710ffb6",
+      "content_bytes": 8893,
+      "last_commit_sha": "1ca3eb0",
+      "last_commit_date": "2026-06-06",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/tableware-decorative-decals-coatings.md | sha256sum"
+      "verify_command": "git show 1ca3eb0:wiki/products/tableware-decorative-decals-coatings.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "00e7ec9d495913436d7674d8b685794368ac2988a5f9fa4ecf2093060fd13c75",
-          "content_bytes": 19062,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "c6d6b3536b1ecedfcc9100b248a0d994de4b46bae6da26bcdc4d19a31fc4c20f",
+          "content_bytes": 19130,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
         }
       },
       {
@@ -67,12 +67,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rebeniak2014-pb-cd-ceramics-glassware-poland",
         "content_pin": {
-          "content_sha256": "c3fbab0d56e6d7b3748be380a68711b37c0f2a1bb8435c0581aab2708b9b75aa",
-          "content_bytes": 28422,
-          "last_commit_sha": "8707c66",
-          "last_commit_date": "2026-06-05",
+          "content_sha256": "9d623263a8315c4f7bf9ba555c0a9742ffd9d72d42194165d476b0d1ec4e8c09",
+          "content_bytes": 28440,
+          "last_commit_sha": "c679df8",
+          "last_commit_date": "2026-06-08",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8707c66:wiki/sources/rebeniak2014-pb-cd-ceramics-glassware-poland.md | sha256sum"
+          "verify_command": "git show c679df8:wiki/sources/rebeniak2014-pb-cd-ceramics-glassware-poland.md | sha256sum"
         }
       }
     ]

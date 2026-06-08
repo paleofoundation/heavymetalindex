@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 0
+sources: 1
 ---
 
 # Wheat cereal biscuits
@@ -161,11 +161,16 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The European Union sets a maximum level for Cd in cereal-based products under [[regulations/eu-2023-915-cadmium]] and [[regulations/eu2023-contaminants-maximum-levels]]: 0.10 mg/kg (100 ppb) for cereal products generally, with the caveat that wheat bran and wheat gluten carry a higher specific ML of 0.15 mg/kg under the 2023 regulation revisions. Wheat cereal biscuits, as a whole-wheat cereal product, fall under the general 0.10 mg/kg Cd limit. For Pb in cereals, the EU limit is 0.20 mg/kg (200 ppb). [[regulations/codex-cadmium-mls]] provides the international Codex Cd ML for cereal grains. [[regulations/fda-closer-to-zero]] Pb guidance (20 ppb for dry infant cereals) applies when wheat cereal biscuits are labelled or sold as infant or toddler food.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/fsa2016-infant-food-formula-metals-survey]]
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
-<!-- BEGIN: hmi-page-history -->
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/taher2023-biscuits-iraqi-markets\|Taher et al. 2023]]. *Assessment of Heavy Metals in Biscuit Samples Available in Iraqi Markets*, Biological Trace Element Research | 2023 | Peer-reviewed | IQ Pb, Cd occurrence in Biscuit products marketed for infants (stated age range 6–24 months) collected from local markets in Iraq, July 2023,... (n=13) |
+<!-- END: hmi-source-legend -->
+
 ## Page history
 
 The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
@@ -177,4 +182,18 @@ The five most recent substantive edits to this page. The full version history li
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
+<!-- END: hmi-page-history -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

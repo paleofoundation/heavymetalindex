@@ -133,3 +133,14 @@ This is a short (four-page) narrative review with no declared search strategy, n
 **DOI provenance.** The PDF does not print a DOI; the article carries only the article URL `http://www.wjgnet.com/1007-9327/13/993.asp`. The wiki-page frontmatter records `doi: null` with `no_doi_assigned: true` rather than fabricating a presumed `10.3748/wjg.v13.i7.993` DOI string. Should a DOI be confirmed independently via CrossRef in a later pass, update the frontmatter and the access URL together.
 
 **Audit subagent (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) returned ✅✅✅✅✅ with one minor location-pointer flag and no ❌ or ⚠️ at the verdict level. The flagged item: the Key-numbers table row "High-power fields scored per section | 10 (randomly chosen) | IHC scoring" attributed the *Negative control* paragraph to p. 996, but that paragraph appears at the top of journal page 995 (the *Negative control* section immediately precedes the *References* heading on the same page). Verified against the PDF and corrected from "p. 996" to "p. 995" in the Key numbers table. No firewall, slug-vocabulary, or numerical-fidelity changes were needed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4084fc2](https://github.com/paleofoundation/heavymetalindex/commit/4084fc2) | 2026-06-08 | audit: thirumoorthy2007-metallothionein-overview promoted |
+| [1cdae9b](https://github.com/paleofoundation/heavymetalindex/commit/1cdae9b) | 2026-06-08 | ingest: thirumoorthy2007-metallothionein-overview fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

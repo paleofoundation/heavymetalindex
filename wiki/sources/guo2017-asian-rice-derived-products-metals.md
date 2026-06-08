@@ -61,3 +61,13 @@ This source provides small-sample occurrence context for rice noodles, rice snac
 - Speciation: arsenic and mercury were measured only as total/unspecified elements. The introduction discusses inorganic arsenic in other rice literature, but those values are not occurrence data from this study.
 - Brand firewall: the source contains brand names in Table 1 and figure legends. This page reports only product-category findings and does not attach contamination values to any brand.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; a specific rice-wine product slug is not available, so the rice vinegar/wine category routes through the broad vinegar product row.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4f218cf](https://github.com/paleofoundation/heavymetalindex/commit/4f218cf) | 2026-06-08 | ingest: guo2017-asian-rice-derived-products-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

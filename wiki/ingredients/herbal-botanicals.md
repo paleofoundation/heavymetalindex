@@ -83,7 +83,7 @@ used_in_products: [herbal-botanical-infusions]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 39
+sources: 40
 ---
 
 # Herbal botanicals
@@ -158,6 +158,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 34 | [[sources/santos2017-yerba-mate-metals\|Santos et al. 2017]]. *Arsenic, cadmium and lead concentrations in Yerba mate commercialized in Southern Brazil by inductively coupled plasma mass spectrometry*, Ciencia Rural | 2017 | Peer-reviewed | BR tAs, Cd, Pb occurrence in Yerba mate samples marketed in Parana, Santa Catarina, and Rio Grande do Sul, Brazil (n=104) |
 | 35 | [[sources/mania2015-toxic-elements-infant-food-poland\|Mania et al. 2015]]. *Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland*, Polish Journal of Environmental Studies | 2015 | Peer-reviewed | PL/EU Pb, Cd, tAs, tHg occurrence in Approximately 1,000 commercial infant-food samples collected from retail markets in all Polish provinces during the 2009-2013 sanitary-epidemiological monitoring... (n=1000) |
 | 36 | [[sources/mansour2014-monitoring-health-risk-food-chapter\|Mansour 2014]]. *Monitoring and Health Risk Assessment of Heavy Metal Contamination in Food*, Practical Food Safety: Contemporary Issues and Future Directions (Wiley-Blackwell) | 2014 | Book chapter | EG/CN/IN Pb, Cd, tHg, tAs, Cr, Ni, Sn, Al occurrence in Book chapter authored by Sameeh A. Mansour (Environmental Toxicology Research Unit, Pesticide Chemistry Department, National Research Centre, Cairo)... |
+| 37 | [[sources/brizio2013-italian-food-supplements-metals\|Brizio et al. 2013]]. *Heavy metals occurrence in Italian food supplements*, E3S Web of Conferences | 2013 | Peer-reviewed | IT tAs, Cd, Cr, Pb, tHg occurrence in Twelve food supplements seized in a Piedmont shop by Italian food-adulteration authorities: six single-herbal samples and six mixed... (n=12) |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -207,9 +208,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

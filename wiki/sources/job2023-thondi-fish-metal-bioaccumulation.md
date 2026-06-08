@@ -78,3 +78,13 @@ This source contributes direct edible-fish muscle occurrence data for fresh mari
 - Speciation: arsenic was reported as `As` and chromium as `Cr`; the page records these as total/unspecified arsenic (`tAs`) and total chromium (`Cr`), not iAs or Cr-VI.
 - Brand firewall: fish were sampled by species/market context; no brand names were reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c6a83f3](https://github.com/paleofoundation/heavymetalindex/commit/c6a83f3) | 2026-06-08 | ingest: job2023-thondi-fish-metal-bioaccumulation fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

@@ -92,3 +92,13 @@ This source contributes Saudi Arabia-market occurrence context for imported cann
 - Selenium was measured and is included in frontmatter as Se, but the taxonomy snapshot does not list a `metals/selenium` page, so no selenium wiki-link is added.
 - K, Mg, and V are mentioned as target elements, but no K, Mg, or V values were visible in the extracted result tables, so they are not listed in frontmatter metals.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7fbaa8b](https://github.com/paleofoundation/heavymetalindex/commit/7fbaa8b) | 2026-06-08 | ingest: alrajhi2014-canned-food-chicken-stock-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

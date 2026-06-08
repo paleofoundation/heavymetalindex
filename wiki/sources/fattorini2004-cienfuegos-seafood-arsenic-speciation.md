@@ -65,3 +65,13 @@ This source provides seafood arsenic occurrence context under an acute contamina
 - Speciation: inorganic arsenic percentages are reported only for selected rows and are kept separate from total arsenic. Rows without speciation percentages are not treated as inorganic-arsenic values.
 - Brand firewall: no retail brands or commercial product labels are reported.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; narrow species slugs for snapper, jacks, bonefish, croaker, blue crab, and shrimp are not available, so broad seafood/fish/shellfish routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3f4345c](https://github.com/paleofoundation/heavymetalindex/commit/3f4345c) | 2026-06-08 | ingest: fattorini2004-cienfuegos-seafood-arsenic-speciation fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

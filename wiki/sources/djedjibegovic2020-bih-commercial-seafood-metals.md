@@ -70,3 +70,13 @@ This source provides primary Bosnia and Herzegovina retail-market occurrence evi
 - Speciation: mercury is total/unspecified Hg (`tHg`), not MeHg. The methylmercury RfD is a risk-model assumption, not a measured methylmercury occurrence value.
 - Brand firewall: products are described by species/form and country of origin; no sampled product brand values were reported or attached to contamination values.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow closed-vocabulary slugs include squid, mussel, shrimp, and prawn product rows, so broad `shellfish`/`seafood` routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a9c056a](https://github.com/paleofoundation/heavymetalindex/commit/a9c056a) | 2026-06-08 | ingest: djedjibegovic2020-bih-commercial-seafood-metals fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

@@ -324,3 +324,14 @@ Open-access publication in International Journal of Science, Engineering and Tec
 - Added a leading paragraph above Table 4 documenting the recomputation.
 - Added Verification notes inconsistency item (8) recording the printing artefact.
 No other findings to apply. Checks 2/3/4/5 all clean. No false-positive findings to record. No frontmatter changes required. Routing unaffected (sports-energy-drinks direct_evidence row unchanged).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ac30be7](https://github.com/paleofoundation/heavymetalindex/commit/ac30be7) | 2026-06-06 | audit: hamza2026-heavy-metals-energy-drinks-health-risk revised |
+| [e705b0a](https://github.com/paleofoundation/heavymetalindex/commit/e705b0a) | 2026-06-06 | ingest: hamza2026-heavy-metals-energy-drinks-health-risk fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

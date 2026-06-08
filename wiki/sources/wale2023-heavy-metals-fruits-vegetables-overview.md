@@ -99,3 +99,13 @@ Single-author narrative literature review, 3 printed pages including references,
 - [[ingredients/fruits]]
 - [[ingredients/vegetables]]
 - [[ingredients/fruit-juice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e7896b5](https://github.com/paleofoundation/heavymetalindex/commit/e7896b5) | 2026-06-07 | ingest: wale2023-heavy-metals-fruits-vegetables-overview fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

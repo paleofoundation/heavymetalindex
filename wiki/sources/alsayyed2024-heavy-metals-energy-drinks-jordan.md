@@ -195,3 +195,13 @@ Open-access article distributed under CC BY 4.0 (license declaration on p. 20 of
 **Wiki/HMTc firewall per CLAUDE.md Part 2.** No HMTc threshold proposals, no consumer-audience translations, no risk advisories, and no synthesis claims of the form "this confirms the literature consensus that..." appear in this wiki page body. The compliance/exceedance observations against Codex, WHO, EU, Gulf, Tanzanian, and Bangladesh references are reported as the source itself reports them — as unit-comparison observations against the regulatory comparator values the source itself cited — and are not framed as HMTc threshold recommendations or as consumer-safety claims.
 
 **Brand firewall per CLAUDE.md Part 12.** The source does not name commercial brands; samples are labelled 1–10 by number with only country of origin attached. No brand-firewall handling was required. The Methods (brief) section names scientific-method vendor identities (RayLEiGH atomic absorption spectrophotometer; Fluka HNO₃; Branson/ultrasonic; AZURA UV detector; Fortis C18 column; Abbé refractometer) per the scientific-method-vendor exception locked 2026-05-17.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6ba7772](https://github.com/paleofoundation/heavymetalindex/commit/6ba7772) | 2026-06-06 | ingest: alsayyed2024-heavy-metals-energy-drinks-jordan fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

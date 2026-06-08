@@ -82,3 +82,13 @@ This source contributes China-market occurrence evidence for total As, Cd, total
 - Units are copied as `mg/kg`, `mg/kg fresh weight`, and `mg/kg bw/day`; no conversion was made.
 - Speciation: As and Hg are total-element results only. The source does not report inorganic arsenic, methylmercury, inorganic mercury, or chromium.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7e20e49](https://github.com/paleofoundation/heavymetalindex/commit/7e20e49) | 2026-06-08 | ingest: huang2014-zhejiang-vegetables-heavy-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

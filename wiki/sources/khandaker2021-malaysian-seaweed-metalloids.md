@@ -72,3 +72,13 @@ This source provides dry-weight occurrence data for cultivated Malaysian seaweed
 - Speciation: the source labels the arsenic row `As (III)` and chromium row `Cr-VI`. However, the method was ICP-OES, and the text acknowledges that ICP-OES usually provides elemental arsenic rather than a particular species. This page preserves the source labels in Key numbers and frontmatter while flagging that limitation.
 - Brand firewall: no sampled product brands are attached to contamination values. Instrument and standard vendors appear only in Methods.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [334d994](https://github.com/paleofoundation/heavymetalindex/commit/334d994) | 2026-06-08 | ingest: khandaker2021-malaysian-seaweed-metalloids fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

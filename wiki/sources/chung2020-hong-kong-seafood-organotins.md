@@ -107,3 +107,13 @@ This source contributes broad Hong Kong market seafood occurrence evidence for o
 - Speciation: all values are organotin species (DBT, TBT, TPhT, DOT), not total Sn or inorganic tin. The frontmatter uses `Sn` only to route organometallic tin evidence.
 - Brand firewall: seafood samples were grouped by species/food item and no sampled product brand values were reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3f11482](https://github.com/paleofoundation/heavymetalindex/commit/3f11482) | 2026-06-08 | ingest: chung2020-hong-kong-seafood-organotins fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

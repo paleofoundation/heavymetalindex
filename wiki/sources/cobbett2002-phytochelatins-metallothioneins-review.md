@@ -214,3 +214,14 @@ Figures:
 - **Finding 2 (*C. glabrata* not a PCS-expressing organism):** verified PDF Table 2 (p. 164) lists only SpPCS1 as a fungal PCS; PDF p. 168 names *C. glabrata* only for the hem2/sulfide-pathway/Cd-tolerance work. Implications/Microbiome paragraph corrected to specify *S. pombe* as the catalogued fungal PCS-expressing organism, with *C. glabrata* called out as a hem2/sulfide-context organism rather than a PCS-bearing fungus.
 
 2 findings, 2 applied, 0 rejected. Audit subagent ID afe9fdc3247ec4cda.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [019808b](https://github.com/paleofoundation/heavymetalindex/commit/019808b) | 2026-06-08 | audit: cobbett2002-phytochelatins-metallothioneins-review revised |
+| [a40681c](https://github.com/paleofoundation/heavymetalindex/commit/a40681c) | 2026-06-08 | ingest: cobbett2002-phytochelatins-metallothioneins-review fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

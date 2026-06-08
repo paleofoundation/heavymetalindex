@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `8707c66` (2026-06-05). The body hashes to `sha256:8b1e33d99fb3652edd1e3fe730207a74…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `c679df8` (2026-06-08). The body hashes to `sha256:77217d46e791b13aa46a8d65d1080abf…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=plant-milks-non-soy-non-rice&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/plant-milks-non-soy-non-rice&download=1`.
 
 ## Evidence base
 
-This category is supported by 2 contributing literature sources mapped by the routing layer, of which 1 carry structured concentration values. The page makes 0 numerical claims; 0 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 6 contributing literature sources mapped by the routing layer, of which 1 carry structured concentration values. The page makes 0 numerical claims; 0 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/plant-milks-non-soy-non-rice.md`.
 

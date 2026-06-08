@@ -82,3 +82,13 @@ This source contributes Nigeria-market instant-noodle occurrence evidence for Pb
 - Speciation: arsenic is total As, mercury is total Hg, and chromium is total Cr. The source does not report iAs, MeHg, or Cr-VI.
 - Brand firewall: the source uses coded brand identifiers, but this page reports aggregate ranges and coded-brand counts only. No public brand names are paired with contamination values.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3c2ea92](https://github.com/paleofoundation/heavymetalindex/commit/3c2ea92) | 2026-06-08 | ingest: charles2017-instant-noodles-nigeria-risk fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

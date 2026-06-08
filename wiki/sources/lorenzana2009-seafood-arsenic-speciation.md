@@ -76,3 +76,13 @@ This review supports seafood evidence routing as speciation context rather than 
 - Speciation: all key values distinguish total arsenic from inorganic arsenic. The page does not treat total arsenic as inorganic arsenic.
 - Brand firewall: not applicable; the review discusses literature and site-assessment datasets, not branded products.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; broad seafood, shellfish, fish, and seaweed routing is used because the review spans multiple species and markets.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [01b3122](https://github.com/paleofoundation/heavymetalindex/commit/01b3122) | 2026-06-08 | ingest: lorenzana2009-seafood-arsenic-speciation fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

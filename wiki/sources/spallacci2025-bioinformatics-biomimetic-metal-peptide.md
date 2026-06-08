@@ -140,3 +140,13 @@ Microbiome: Not applicable. No microbiota or microbial-community measurements.
 ## Wiki pages updated on ingest
 
 - [[metals/copper]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1999876](https://github.com/paleofoundation/heavymetalindex/commit/1999876) | 2026-06-08 | ingest: spallacci2025-bioinformatics-biomimetic-metal-peptide fresh from Manual Fetch Kimi/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

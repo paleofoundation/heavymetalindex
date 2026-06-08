@@ -59,3 +59,13 @@ This source is useful as a broad map of plant-food occurrence literature and as 
 - Speciation: arsenic, mercury, and nickel values in the review are not consistently speciated. Frontmatter uses `tAs` and `tHg` for occurrence routing and does not claim inorganic arsenic or methylmercury.
 - Brand firewall: no brand-level values are used.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; generic "nuts" is not an ingredient slug, so nuts route through peanuts plus the broad `nuts-seeds-other` product row. `jurisdictions: [GLOBAL]` is used because the review compiles studies across many countries and does not have one sampling jurisdiction.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9fa1a51](https://github.com/paleofoundation/heavymetalindex/commit/9fa1a51) | 2026-06-08 | ingest: hussain2019-plant-food-heavy-metal-review fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

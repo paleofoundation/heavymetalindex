@@ -80,3 +80,13 @@ This source contributes Nigeria-market occurrence evidence for Pb, Cd, total Cr,
 - Brand firewall: the text states that popular brands were sampled, but the tables use coded sample IDs. This page reports product-group ranges only and does not attach public brand names to values.
 - Calcium was measured and is included in frontmatter as Ca, but the taxonomy snapshot does not list a `metals/calcium` page, so no calcium wiki-link is added.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ae87c34](https://github.com/paleofoundation/heavymetalindex/commit/ae87c34) | 2026-06-08 | ingest: adegbola2015-nigeria-snacks-drinks-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

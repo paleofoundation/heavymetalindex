@@ -17,7 +17,7 @@ review_state: phase3
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-15
-sources: 3
+sources: 9
 ---
 
 # Fermented Beverages, Non-Tea-Based
@@ -164,9 +164,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|Munilla et al. 2023]]. *Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers*, Revista Española de Salud Pública | 2023 | Peer-reviewed | FCM pathway: Pb leaching from ceramic containers under acidic fermentation conditions; documented for tea-based substrate but mechanism applies equally to non-tea acidic fermented beverages; regulatory gap (no EU ML for Pb in fermented beverages) |
-| 2 | [[sources/hc2008-aluminum-food-additives-industry-request\|Health Canada Bureau of 2008]]. *ARCHIVED — Health Canada Requests Information from Industry on the Use of Aluminum-Containing Food Additives*, Health Canada, Food Directorate, Bureau of Chemical Safety | 2008 | Regulation | CA Al occurrence in null |
-| 3 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska et al. 2005]]. *Determination of Chromium Content of Food and Beverages of Plant Origin*, Polish Journal of Food and Nutrition Sciences | 2005 | Peer-reviewed | PL Cr occurrence in Fresh fruits, vegetables, and wheat grains collected in 2001 from commercial plantations in three Polish provinces (Mazowieckie, Lubelskie,... (n=272) |
+| 1 | [[sources/bhattacharya2024-rice-beer-assam-metals\|Bhattacharya et al. 2024]]. *Metal Contents in Traditional Alcoholic Rice Beers Prepared by Rabha and Sonowal Kachari Tribes of Assam, India*, Asian Journal of Chemistry | 2024 | Peer-reviewed | IN Cd, Pb, Cr, Ni, Co, Cu, Fe, Mn, Zn occurrence in Four traditional alcoholic rice beers: sticky-rice beer of Pati Rabhas (Baksa and Bongaigaon districts), sticky-rice beer of Koch... (n=4) |
+| 2 | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|Munilla et al. 2023]]. *Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers*, Revista Española de Salud Pública | 2023 | Peer-reviewed | FCM pathway: Pb leaching from ceramic containers under acidic fermentation conditions; documented for tea-based substrate but mechanism applies equally to non-tea acidic fermented beverages; regulatory gap (no EU ML for Pb in fermented beverages) |
+| 3 | [[sources/ciont2022-beer-safety-heavy-metals-review\|Ciont et al. 2022]]. *Beer Safety: New Challenges and Future Trends within Craft and Large-Scale Production*, Foods | 2022 | Peer-reviewed | GLOBAL/ET Pb, Cd, Al, Sn, Cu, Mn, Zn occurrence in Narrative review; no new samples were measured. The Data Availability Statement on page 16 states: 'No new data... |
+| 4 | [[sources/durdjic2021-lead-isotopes-wine-origin\|Đurđić et al. 2021]]. *Is a Lead Isotope Ratios in Wine Good Marker for Origin Assessment?*, Frontiers in Chemistry | 2021 | Peer-reviewed | RS Pb occurrence in Fifty-nine red wine samples from four Serbian regions — Vojvodina (n=12), Belgrade (n=22), Central Serbia (n=14) and South... (n=59) |
+| 5 | [[sources/wang2020-jilin-total-diet-metals\|Wang et al. 2020]]. *Contamination and health risk assessment of lead, arsenic, cadmium, and aluminum from a total diet study of Jilin Province, China*, Food Science & Nutrition | 2020 | Peer-reviewed | CN Pb, tAs, Cd, Al occurrence in Jilin Province total-diet-study composites across 12 food groups and 48 product groups, with consumption inputs for 7700 residents... |
+| 6 | [[sources/izah2016-beverages-heavy-metals-nigeria\|Izah et al. 2016]]. *A Review of Heavy Metal Concentration and Potential Health Implications of Beverages Consumed in Nigeria*, Toxics | 2016 | Peer-reviewed | NG/GLOBAL Pb, Cd, tAs, tHg, Cr, Ni, Sn, Sb, Cu, Mn, Zn occurrence in Narrative review of secondary data from Nigerian beverage studies published 2007-2016. No new measurements. Section 2 states the... |
+| 7 | [[sources/bora2015-vineyard-wine-heavy-metals-romania\|F-D et al. 2015]]. *Vertical distribution and analysis of micro-, macroelements and heavy metals in the system soil-grapevine-wine in vineyard from North-West Romania*, Chemistry Central Journal | 2015 | Peer-reviewed | RO Pb, Cd, Cu, Zn, Ni, Co occurrence in Three Vitis vinifera cultivars (Feteasca albă, Feteasca regală, Riesling italian) grown in one 4-ha vineyard at Turulung (Satu... (n=3) |
+| 8 | [[sources/hc2008-aluminum-food-additives-industry-request\|Health Canada Bureau of 2008]]. *ARCHIVED — Health Canada Requests Information from Industry on the Use of Aluminum-Containing Food Additives*, Health Canada, Food Directorate, Bureau of Chemical Safety | 2008 | Regulation | CA Al occurrence in null |
+| 9 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska et al. 2005]]. *Determination of Chromium Content of Food and Beverages of Plant Origin*, Polish Journal of Food and Nutrition Sciences | 2005 | Peer-reviewed | PL Cr occurrence in Fresh fruits, vegetables, and wheat grains collected in 2001 from commercial plantations in three Polish provinces (Mazowieckie, Lubelskie,... (n=272) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -176,9 +182,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -83,7 +83,7 @@ used_in_products: ["[[products/spice-blends]]", "[[products/herbal-botanical-inf
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 6
+sources: 7
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
@@ -169,6 +169,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 4 | [[sources/gill2021-consumer-reports-spices\|Gill et al. 2021]]. *The Trouble With Spices: Heavy Metals in 15 Herbs and Spices*, Consumer Reports | 2021 | NGO report | US Pb, Cd, tAs occurrence in 126 individual products covering 38 brands and 15 herb/spice types from the US retail market (n=126) |
 | 5 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | Polish 37-herb-12-spice (n=240) 4-metal panel; species-variance evidence |
 | 6 | [[sources/dghaim2015-heavy-metals-uae-herbs\|Dghaim et al. 2015]]. *Determination of Heavy Metals Concentration in Traditional Herbs Commonly Consumed in the United Arab Emirates*, Journal of Environmental and Public Health | 2015 | Peer-reviewed | AE Pb, Cd, Cu, Fe, Zn occurrence in Seven traditional herbs (parsley n=13, basil n=11, sage n=11, oregano n=11, mint n=13, thyme n=13, chamomile n=9) purchased... (n=81) |
+| 7 | [[sources/darko2014-seasonings-ghana-metals\|Darko et al. 2014]]. *Heavy metal content in mixed and unmixed seasonings on the Ghanaian market*, African Journal of Food Science | 2014 | Peer-reviewed | GH Fe, Zn, Cu, Cd, Pb, tHg occurrence in Twenty-two powdered mixed and unmixed seasoning samples purchased at random from local shops and hawkers in the Asafo,... (n=22) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -178,9 +179,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

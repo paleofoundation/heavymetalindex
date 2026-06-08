@@ -172,3 +172,14 @@ Figure 1: schematic of the PC-mediated metal detoxification pathway in plants, s
 - **Finding 3 (induction list muddled — Ni omitted, As(III) where source has As(V)):** verified PDF p. 7 that the *R. serpentina* induction list explicitly includes Ni²⁺ (100 µM) and uses AsO₄³⁻ (As(V), arsenate, 20 µM). The wiki had omitted Ni and labelled the As form as As(III). Corrected: induction paragraph now reproduces the *R. serpentina* list verbatim including Ni²⁺ and AsO₄³⁻ (As(V)), and the broader cross-species induction context (Hg, Pt, Rh, Pd, V) is named separately.
 
 3 findings, 3 applied, 0 rejected. Audit subagent ID a4bb3f7c5e10832b8.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d764ca0](https://github.com/paleofoundation/heavymetalindex/commit/d764ca0) | 2026-06-08 | audit: seregin2023-phytochelatins-sulfur-metal-chelating revised |
+| [5aec7a9](https://github.com/paleofoundation/heavymetalindex/commit/5aec7a9) | 2026-06-08 | batch-report: June 8 Inorganic Arsenic Seaweed ingest progress (3/67 done) |
+<!-- END: hmi-page-history -->

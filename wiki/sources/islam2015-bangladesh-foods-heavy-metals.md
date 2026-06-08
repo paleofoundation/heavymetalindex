@@ -114,3 +114,13 @@ This source contributes Bangladesh-market occurrence evidence for total Cr, Ni, 
 - Chromium is reported as total Cr only; the source does not report Cr(VI). Mercury is not measured.
 - The exact total sample count was not reported cleanly in the extracted text, so `sample_n` is left null rather than inferred from the food-item table.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b1e03ce](https://github.com/paleofoundation/heavymetalindex/commit/b1e03ce) | 2026-06-08 | ingest: islam2015-bangladesh-foods-heavy-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

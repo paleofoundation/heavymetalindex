@@ -2,15 +2,15 @@
 source_page: wiki/products/plant-milks-rice-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6bec9b38c7fdeaadf592b4fc50ba5650d2fca2f6bd6c1da702d9a1ea6f4be194
+source_page_sha256: 62334d93bebaf339f1c664797baae981be152cd6b75dd3cba5e3e877d20ab80f
 total_claims: 20
 cited_claims: 17
 uncited_claims: 3
-distinct_cited_targets: 7
-distinct_cited_sources: 6
+distinct_cited_targets: 10
+distinct_cited_sources: 9
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 789
+audit_log_total_rows: 972
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 20 |
 | cited claims | 17 |
 | uncited claims | 3 |
-| distinct cited targets | 7 |
-| distinct cited `sources/` pages | 6 |
+| distinct cited targets | 10 |
+| distinct cited `sources/` pages | 9 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 789 |
+| audit log rows read | 972 |
 
 ## Page-level audit rows
 
@@ -116,72 +116,102 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `15 µg/kg`
 - Context: `LC-ICP-MS speciation of iAs in 25 Italian-market rice-based beverages (mean iAs 15 µg/kg); primary direct iAs occurrence`
-- Cited targets (5):
+- Cited targets (8):
+  - `wiki/sources/begday2026-plant-milk-heavy-metal-safety\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/good2026-plant-milk-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/gu2020-arsenic-rice-infant-food-australia\.md` (page missing)
     - audit rows: none
   - `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic\.md` (page missing)
+  - `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/zverina2025-plant-dairy-toxic-elements\.md` (page missing)
     - audit rows: none
 
 #### Claim `428 ppb`
 - Context: `P-MS tAs and iAs measurement in 3 Australian rice milk powder samples (mean tAs 428 ppb; mean iAs 160 ppb); triangulatio`
-- Cited targets (5):
+- Cited targets (8):
+  - `wiki/sources/begday2026-plant-milk-heavy-metal-safety\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/good2026-plant-milk-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/gu2020-arsenic-rice-infant-food-australia\.md` (page missing)
     - audit rows: none
   - `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic\.md` (page missing)
+  - `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/zverina2025-plant-dairy-toxic-elements\.md` (page missing)
     - audit rows: none
 
 #### Claim `160 ppb`
 - Context: `easurement in 3 Australian rice milk powder samples (mean tAs 428 ppb; mean iAs 160 ppb); triangulation source confirmin`
-- Cited targets (5):
+- Cited targets (8):
+  - `wiki/sources/begday2026-plant-milk-heavy-metal-safety\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/good2026-plant-milk-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/gu2020-arsenic-rice-infant-food-australia\.md` (page missing)
     - audit rows: none
   - `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic\.md` (page missing)
+  - `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/zverina2025-plant-dairy-toxic-elements\.md` (page missing)
     - audit rows: none
 
 #### Claim `6.45 µg/kg`
 - Context: `CV-AFS MeHg speciation in 87 commercial European rice products (MeHg range 0.11–6.45 µg/kg; mean 1.91 µg/kg); provides M`
-- Cited targets (5):
+- Cited targets (8):
+  - `wiki/sources/begday2026-plant-milk-heavy-metal-safety\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/good2026-plant-milk-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/gu2020-arsenic-rice-infant-food-australia\.md` (page missing)
     - audit rows: none
   - `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic\.md` (page missing)
+  - `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/zverina2025-plant-dairy-toxic-elements\.md` (page missing)
     - audit rows: none
 
 #### Claim `1.91 µg/kg`
 - Context: `ation in 87 commercial European rice products (MeHg range 0.11–6.45 µg/kg; mean 1.91 µg/kg); provides MeHg ingredient ca`
-- Cited targets (5):
+- Cited targets (8):
+  - `wiki/sources/begday2026-plant-milk-heavy-metal-safety\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/good2026-plant-milk-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/gu2020-arsenic-rice-infant-food-australia\.md` (page missing)
     - audit rows: none
   - `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic\.md` (page missing)
+  - `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/zverina2025-plant-dairy-toxic-elements\.md` (page missing)
     - audit rows: none
 
 ### Levers to reduce contamination
@@ -235,10 +265,13 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/regulations/eu2023-arsenic-rice-based-drinks.md` | regulations | 0 | — | — |
+| `wiki/sources/begday2026-plant-milk-heavy-metal-safety\.md` | sources | 0 | — | — |
 | `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` | sources | 0 | — | — |
 | `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages.md` | sources | 0 | — | — |
 | `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages\.md` | sources | 0 | — | — |
+| `wiki/sources/good2026-plant-milk-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/gu2020-arsenic-rice-infant-food-australia\.md` | sources | 0 | — | — |
 | `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` | sources | 0 | — | — |
-| `wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic\.md` | sources | 0 | — | — |
+| `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/zverina2025-plant-dairy-toxic-elements\.md` | sources | 0 | — | — |
 

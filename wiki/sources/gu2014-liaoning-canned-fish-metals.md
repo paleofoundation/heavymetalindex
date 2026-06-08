@@ -81,3 +81,13 @@ This source contributes China-market canned-fish occurrence evidence for Cd, tot
 - Speciation: chromium is total Cr. Tin is reported as elemental Sn, not TBT/DBT/organotin. The source does not report Hg, MeHg, As, iAs, Cr(III), or Cr(VI).
 - The source prints the table column as `Trichiuru shaumela` while the methods text uses `trichiurus haumela`; the Table 3 column heading is preserved in the key-number table.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c5c41dd](https://github.com/paleofoundation/heavymetalindex/commit/c5c41dd) | 2026-06-08 | ingest: gu2014-liaoning-canned-fish-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

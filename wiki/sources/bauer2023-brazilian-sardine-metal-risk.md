@@ -75,3 +75,13 @@ This source contributes Brazilian marine non-predatory fish occurrence data for 
 - Cd and Pb were mostly below LOQ and excluded by the authors; this page does not invent Cd or Pb concentration rows.
 - Brand firewall: samples came from commercial landings/vessels and regional sectors, not branded seafood products.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a2ef710](https://github.com/paleofoundation/heavymetalindex/commit/a2ef710) | 2026-06-08 | ingest: bauer2023-brazilian-sardine-metal-risk fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

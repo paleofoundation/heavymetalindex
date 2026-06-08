@@ -135,3 +135,14 @@ Microbiome: Not applicable. No microbiota or gut-microbial measurements.
 - [[metals/mercury-total]]
 - [[metals/cadmium]]
 - [[metals/lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0b61232](https://github.com/paleofoundation/heavymetalindex/commit/0b61232) | 2026-06-08 | audit: ding2015-soy-glycinin-thiol-peptides-heavy-metal-complexation revised |
+| [bf7a419](https://github.com/paleofoundation/heavymetalindex/commit/bf7a419) | 2026-06-08 | ingest: ding2015-soy-glycinin-thiol-peptides-heavy-metal-complexation fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

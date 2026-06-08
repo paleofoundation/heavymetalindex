@@ -69,3 +69,13 @@ This source contributes Nigerian market occurrence data for instant noodles, wit
 - Brand firewall: the source describes "eleven brands" but the extracted text uses anonymized sample letters A-K and does not expose product names. This page keeps the sample set anonymized and reports only aggregate ranges.
 - Table 4 appears to contain at least one typographic/transcription issue (`9.99E4` for sample K Cr THQ). That value is not used as a key number.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3488ede](https://github.com/paleofoundation/heavymetalindex/commit/3488ede) | 2026-06-08 | ingest: otitoju2018-noodle-products-nigeria-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

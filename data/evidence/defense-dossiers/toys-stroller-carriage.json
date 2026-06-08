@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-stroller-carriage",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9ad4240cfbafd6f85d8281b9e5ea5ed250ec3bb957b3b2d2d5251bdec279773d",
-      "content_bytes": 7283,
-      "last_commit_sha": "8707c66",
-      "last_commit_date": "2026-06-05",
+      "content_sha256": "07bbc75a7fd640ee54ca0fbe84ee042e53e14c5f60e0bb1e88c870222d1c6e05",
+      "content_bytes": 7351,
+      "last_commit_sha": "c679df8",
+      "last_commit_date": "2026-06-08",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8707c66:wiki/products/toys-stroller-carriage.md | sha256sum"
+      "verify_command": "git show c679df8:wiki/products/toys-stroller-carriage.md | sha256sum"
     }
   },
   "evidence_base": {

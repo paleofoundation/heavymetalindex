@@ -69,3 +69,13 @@ This source contributes Korean-market dried-seaweed occurrence data for total ar
 - Speciation: arsenic is total arsenic (`tAs`) and mercury is total/unspecified Hg (`tHg`). The paper discusses inorganic arsenic comparator values but does not report measured inorganic arsenic occurrence.
 - Brand firewall: no sampled product brand values were reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a6d2d79](https://github.com/paleofoundation/heavymetalindex/commit/a6d2d79) | 2026-06-08 | ingest: hwang2010-dried-seaweed-korea-metals fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

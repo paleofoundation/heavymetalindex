@@ -82,3 +82,13 @@ This source contributes shellfish occurrence evidence for organotin tin species 
 - Speciation: all values are organotin species, not total Sn or inorganic tin. The frontmatter uses `Sn` only to route the organometallic tin evidence.
 - Brand firewall: the source uses market/site codes and city locations only; no sampled product brand names were reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [77dca52](https://github.com/paleofoundation/heavymetalindex/commit/77dca52) | 2026-06-08 | ingest: chen2019-china-oyster-organotins fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

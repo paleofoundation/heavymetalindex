@@ -68,6 +68,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [ead8551](https://github.com/paleofoundation/heavymetalindex/commit/ead8551) | 2026-06-03 | frank-intake: dedup june-1-gems-data (skip-list + novelty) |
 | [fad08a8](https://github.com/paleofoundation/heavymetalindex/commit/fad08a8) | 2026-06-03 | ingest auto-fetched 2026-06-03: kataoka2018-japan-chocolate-cocoa-cadmium |
 <!-- END: hmi-page-history -->

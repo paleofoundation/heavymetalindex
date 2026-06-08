@@ -2,15 +2,15 @@
 source_page: wiki/products/spices.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 14a4c27463bbc71ad59dadc98d7b7e9701dcc3a03955748a9e94ccb05f49f8cf
-total_claims: 1
-cited_claims: 0
+source_page_sha256: 8d93af57fecd60aebd3d54a1dfdfc2507a7114ca4c02c89946d7f8029826170e
+total_claims: 2
+cited_claims: 1
 uncited_claims: 1
-distinct_cited_targets: 0
-distinct_cited_sources: 0
+distinct_cited_targets: 61
+distinct_cited_sources: 61
 audit_rows_for_page: 2
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 789
+audit_log_total_rows: 972
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
-| cited claims | 0 |
+| total claims | 2 |
+| cited claims | 1 |
 | uncited claims | 1 |
-| distinct cited targets | 0 |
-| distinct cited `sources/` pages | 0 |
+| distinct cited targets | 61 |
+| distinct cited `sources/` pages | 61 |
 | audit rows on this page | 2 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 789 |
+| audit log rows read | 972 |
 
 ## Page-level audit rows
 
@@ -51,6 +51,134 @@ This report joins every numerical claim on the page to its citation chain and th
 - Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 600 ppb | 0 | data gap | Basis not repor`
 - Cited targets: **none in section** — claim has no traceable provenance
 
+### Sources
+
+#### Claim `3 mg/L`
+- Context: `seedlings treated for 10 days with arsenite or arsenate solutions at 1, 2, and 3 mg/L,... (n=21) | | 44 | [[sources/kow`
+- Cited targets (61):
+  - `wiki/sources/adams2017-nigerian-processed-spices-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/alam2022-dhaka-spices-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/angelon-gaetz2018-lead-spices-north-carolina\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bahrouna2025-zawia-spices-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bekalu2025-black-cumin-heavy-metals-ethiopia\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/brima2025-african-foods-uk-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/brown2022-patna-spice-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bua2016-aromatic-spices-metals-italy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bulduk2020-vicia-faba-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/carpena2024-chemical-hazards-herbs-europe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2025-toxic-metals-selected-foods-2022-23\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/chime2025-nigerian-spices-as-cd-pb\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cicero2022-minerals-spices-aromatic-herbs\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/darko2014-seasonings-ghana-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dghaim2015-heavy-metals-uae-herbs\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/dokubo2023-nigeria-seasoning-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2012-cadmium-dietary-exposure-europe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fda-import-alert-99-42-spice-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fischer2022-mercury-spice-plants-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/forsyth2019-turmeric-lead-chromate-bangladesh\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/forsyth2024-turmeric-lead-chromate-south-asia\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/gafner2026-turmeric-adulteration-six-continents\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/gill2021-consumer-reports-spices\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/huff2025-spices-lancaster-pa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/inada2023-herbal-medicine-heavy-metal-regulations\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/islam2023-noakhali-spices-bangladesh\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/kaalieswari2021-fenugreek-arsenic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/kumar2022-bangladesh-agricultural-products-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/lech2020-turmeric-lead-united-states\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/lhaac2025-csp41-herbs-spices-wa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/marinescu2020-romanian-herbs-spices-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/masri2025-toxicant-foods-california\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/matloob2016-iraq-spices-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/mercan-yucel2022-van-spices-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/mercanyucel2022-van-spices-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/moussa2024-spices-herbs-lebanon\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/munarso2024-vanilla-indonesia-quality\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/njinga2022-nigeria-herbal-cd-cr\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/nys-doh2019-metals-spices-guidance\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oladoye2016-odo-ori-spices-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oseisafo2024-ghana-spices-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/patel2023-singrauli-herbal-plants-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pradhan2023-heracleum-nepalense-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/rahman2021-dhaka-turmeric-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sabri2025-moroccan-spices-casablanca-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/salmani2023-herbal-teas-metals-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sargsyan2024-rapid-market-spice-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/savic2019-serbian-spices-minerals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shah2025-commercial-turmeric-lead-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/spex2023-hot-sauce-chili-powder-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tinggi2025-spices-herbs-queensland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/usda-fas2023-china-gb-2762-2022-translation\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/wang2025-sers-nanogap-hg-pb-cd\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/zakrzewska2023-cadmium-soil-micp-parsley\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ziyaina2014-libya-spices-lead-cadmium\.md` (page missing)
+    - audit rows: none
+
 ## Uncited claims
 
 These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
@@ -59,5 +187,67 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/sources/adams2017-nigerian-processed-spices-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/alam2022-dhaka-spices-lead\.md` | sources | 0 | — | — |
+| `wiki/sources/angelon-gaetz2018-lead-spices-north-carolina\.md` | sources | 0 | — | — |
+| `wiki/sources/bahrouna2025-zawia-spices-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/bekalu2025-black-cumin-heavy-metals-ethiopia\.md` | sources | 0 | — | — |
+| `wiki/sources/brima2025-african-foods-uk-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/brown2022-patna-spice-lead\.md` | sources | 0 | — | — |
+| `wiki/sources/bua2016-aromatic-spices-metals-italy\.md` | sources | 0 | — | — |
+| `wiki/sources/bulduk2020-vicia-faba-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` | sources | 0 | — | — |
+| `wiki/sources/carpena2024-chemical-hazards-herbs-europe\.md` | sources | 0 | — | — |
+| `wiki/sources/cfia2025-toxic-metals-selected-foods-2022-23\.md` | sources | 0 | — | — |
+| `wiki/sources/chime2025-nigerian-spices-as-cd-pb\.md` | sources | 0 | — | — |
+| `wiki/sources/cicero2022-minerals-spices-aromatic-herbs\.md` | sources | 0 | — | — |
+| `wiki/sources/darko2014-seasonings-ghana-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter\.md` | sources | 0 | — | — |
+| `wiki/sources/dghaim2015-heavy-metals-uae-herbs\.md` | sources | 0 | — | — |
+| `wiki/sources/dokubo2023-nigeria-seasoning-powder\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa2012-cadmium-dietary-exposure-europe\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa2015-nickel-food-water\.md` | sources | 0 | — | — |
+| `wiki/sources/fda-import-alert-99-42-spice-lead\.md` | sources | 0 | — | — |
+| `wiki/sources/fischer2022-mercury-spice-plants-poland\.md` | sources | 0 | — | — |
+| `wiki/sources/forsyth2019-turmeric-lead-chromate-bangladesh\.md` | sources | 0 | — | — |
+| `wiki/sources/forsyth2024-turmeric-lead-chromate-south-asia\.md` | sources | 0 | — | — |
+| `wiki/sources/gafner2026-turmeric-adulteration-six-continents\.md` | sources | 0 | — | — |
+| `wiki/sources/gill2021-consumer-reports-spices\.md` | sources | 0 | — | — |
+| `wiki/sources/huff2025-spices-lancaster-pa\.md` | sources | 0 | — | — |
+| `wiki/sources/inada2023-herbal-medicine-heavy-metal-regulations\.md` | sources | 0 | — | — |
+| `wiki/sources/islam2023-noakhali-spices-bangladesh\.md` | sources | 0 | — | — |
+| `wiki/sources/kaalieswari2021-fenugreek-arsenic\.md` | sources | 0 | — | — |
+| `wiki/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\.md` | sources | 0 | — | — |
+| `wiki/sources/kumar2022-bangladesh-agricultural-products-lead\.md` | sources | 0 | — | — |
+| `wiki/sources/lech2020-turmeric-lead-united-states\.md` | sources | 0 | — | — |
+| `wiki/sources/lhaac2025-csp41-herbs-spices-wa\.md` | sources | 0 | — | — |
+| `wiki/sources/marinescu2020-romanian-herbs-spices-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/masri2025-toxicant-foods-california\.md` | sources | 0 | — | — |
+| `wiki/sources/matloob2016-iraq-spices-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/mercan-yucel2022-van-spices-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/mercanyucel2022-van-spices-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/moussa2024-spices-herbs-lebanon\.md` | sources | 0 | — | — |
+| `wiki/sources/munarso2024-vanilla-indonesia-quality\.md` | sources | 0 | — | — |
+| `wiki/sources/njinga2022-nigeria-herbal-cd-cr\.md` | sources | 0 | — | — |
+| `wiki/sources/nys-doh2019-metals-spices-guidance\.md` | sources | 0 | — | — |
+| `wiki/sources/oladoye2016-odo-ori-spices-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/oseisafo2024-ghana-spices-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/patel2023-singrauli-herbal-plants-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/pradhan2023-heracleum-nepalense-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/rahman2021-dhaka-turmeric-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/sabri2025-moroccan-spices-casablanca-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/salmani2023-herbal-teas-metals-review\.md` | sources | 0 | — | — |
+| `wiki/sources/sargsyan2024-rapid-market-spice-lead\.md` | sources | 0 | — | — |
+| `wiki/sources/savic2019-serbian-spices-minerals\.md` | sources | 0 | — | — |
+| `wiki/sources/shah2025-commercial-turmeric-lead-chromium\.md` | sources | 0 | — | — |
+| `wiki/sources/spex2023-hot-sauce-chili-powder-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/tinggi2025-spices-herbs-queensland\.md` | sources | 0 | — | — |
+| `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` | sources | 0 | — | — |
+| `wiki/sources/usda-fas2023-china-gb-2762-2022-translation\.md` | sources | 0 | — | — |
+| `wiki/sources/wang2025-sers-nanogap-hg-pb-cd\.md` | sources | 0 | — | — |
+| `wiki/sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\.md` | sources | 0 | — | — |
+| `wiki/sources/zakrzewska2023-cadmium-soil-micp-parsley\.md` | sources | 0 | — | — |
+| `wiki/sources/ziyaina2014-libya-spices-lead-cadmium\.md` | sources | 0 | — | — |
 

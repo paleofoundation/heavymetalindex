@@ -83,7 +83,7 @@ used_in_products: [fermented-beverages-non-tea-based, kombucha-tea-based]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 0
+sources: 1
 ---
 
 # Fermented beverage bases
@@ -115,9 +115,16 @@ This node is linked from [[products/fermented-beverages-non-tea-based]], [[produ
 
 The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-No source pages are currently cited for this ingredient node.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/wang2020-jilin-total-diet-metals\|Wang et al. 2020]]. *Contamination and health risk assessment of lead, arsenic, cadmium, and aluminum from a total diet study of Jilin Province, China*, Food Science & Nutrition | 2020 | Peer-reviewed | CN Pb, tAs, Cd, Al occurrence in Jilin Province total-diet-study composites across 12 food groups and 48 product groups, with consumption inputs for 7700 residents... |
+<!-- END: hmi-source-legend -->
+
 ## Why this commodity accumulates heavy metals
 
 Fermented beverage bases is the aggregate ingredient label for the substrate ingredients used in kombucha, water kefir, fermented juice products, jun, and other commercial fermented non-alcoholic beverages. The substrate is typically sweet tea (for kombucha and jun), juice (for water-kefir-on-fruit-juice), sweetened water (for water kefir), or a culture-medium blend. Heavy-metal load in fermented beverage bases comes from three pathways: the source tea or juice ingredient (with [[ingredients/tea|tea]] in particular carrying [[metals/lead|Pb]], [[metals/cadmium|Cd]], [[metals/aluminum|Al]], and Mn at notable levels per the [[ingredients/camellia-sinensis|camellia-sinensis]] page evidence base), the source sugar (refined sugar carries low trace metals; non-refined or organic-cane sugars carry more), and the fermentation-culture inputs (SCOBY, kefir grains, or other cultures can adsorb and release metals during fermentation).
@@ -167,9 +174,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

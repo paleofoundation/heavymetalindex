@@ -118,3 +118,13 @@ Field-survey design across 12 Se-enriched tea gardens in southwestern Anhui Prov
 ## Verification notes
 
 Source page newly created from `raw/Manual Fetch Discovery/wu2025-matcha-heavy-metal.pdf` (Manual Fetch Discovery folder). The PDF filename includes "matcha" but the paper is not about matcha — it characterizes green tea from cultivars 'Chuye' and 'Liuye' processed by "traditional green tea production methods." The cite-key was set to `wu2025-se-enriched-tea-cadmium-anhui` to reflect the actual subject; the misleading raw-handle is preserved for filesystem traceability. Three identity checks ran clean: DOI grep (`grep -rl "10.3390/foods14183156" wiki/sources/`) returned no hits; raw_handle grep returned no hits; `ls wiki/sources/ | grep wu2025` returned only `wu2025-climate-meghan-freshwater-fish-china.md` (different paper). No commercial brand attributions in the source; ICP-MS vendor (Thermo Fisher iCAP RQ) and statistical-software names (SPSS, Origin, RStudio rfPermute) are method-vendor mentions allowed under Part 12 Exception 2. Se data are reported here as context for the Cd–Se interaction finding; HMI tracks Cd, not Se, so Se appears only where it modulates Cd behavior.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d0cfb7](https://github.com/paleofoundation/heavymetalindex/commit/0d0cfb7) | 2026-06-08 | ingest: wu2025-se-enriched-tea-cadmium-anhui fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

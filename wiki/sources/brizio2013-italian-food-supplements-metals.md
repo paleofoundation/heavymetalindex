@@ -86,3 +86,13 @@ This source contributes Italy-market botanical supplement occurrence evidence fo
 - Speciation: arsenic is total As, mercury is total Hg, and chromium is total Cr. The source does not report iAs, MeHg, or Cr-VI.
 - Brand firewall: the source describes seized food supplements and botanical components but does not provide public brand-value pairs. This page does not attach consumer brand names to contamination values.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fba840f](https://github.com/paleofoundation/heavymetalindex/commit/fba840f) | 2026-06-08 | ingest: brizio2013-italian-food-supplements-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

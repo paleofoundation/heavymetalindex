@@ -90,3 +90,13 @@ This source contributes Algeria-market occurrence evidence for total Cr, Pb, Zn,
 - Speciation: chromium is total Cr only. The source does not report Cr(III), Cr(VI), arsenic, mercury, cadmium, methylmercury, or inorganic arsenic.
 - The EDI table prints global values with comma separators (`12,185`, `17,998`, `15,659`, `7547`) while the abstract prints Pb EDI as `15.66`; this page preserves the source-reported values and flags the formatting rather than recalculating them.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cb77313](https://github.com/paleofoundation/heavymetalindex/commit/cb77313) | 2026-06-08 | ingest: cherfi2014-algeria-fruits-vegetables-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

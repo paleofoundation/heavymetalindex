@@ -173,3 +173,14 @@ This is a narrative review with no declared inclusion/exclusion criteria, no PRI
 - Check 2 slug-vocabulary ⚠️ on `[[metals/aluminium]]` — verified by directory listing that `wiki/metals/aluminum.md` is the canonical page (US spelling per the 2026-05-18 snapshot convention); the British-spelling wikilink would not resolve. Corrected to `[[metals/aluminum]]` in the Implications section. Same ⚠️ on `[[mitigation/remediation-evidence]]` not in the 2026-05-18 snapshot — same snapshot-coverage gap as the Luo 2024 and Marques 2025 siblings, already disclosed in the slug-vocabulary note above and accepted per the cross-page Luo precedent. No content correction applied for the remediation-evidence link.
 - Check 3 (speciation/methods) ✅. Subagent verified that `tAs` and `tHg` are the appropriate broad labels given the source's lack of speciation discipline, that both `Cr` and `Cr-VI` are present in frontmatter to capture the explicit Cr(VI) attribution in ref [123], that the Methods (brief) section accurately characterises the source as a narrative review with no PRISMA / no inclusion-exclusion criteria / no primary measurements, and that no analytical instruments or LODs are invented.
 - Checks 4 (Part 12 brand firewall) and 5 (Part 2 wiki/HMTc firewall) ✅. Subagent verified that no commercial food/supplement/personal-care brand names appear in the body, that plant species names (Arabidopsis, Brassica juncea, rice, wheat) and cultivar/genotype identifiers (Yan66/Ea52 barley, Milas flax) are not brand attributions, that the Implications section does not propose HMTc thresholds or issue consumer risk advisories, and that the *TaPCS1*-Cd-sensitive rice hedge is faithful to the source rather than wiki-side synthesis. 2 findings flagged, 2 corrections applied, 0 rejected. Audit subagent ID ab86d090ed8a14aad.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c36d38b](https://github.com/paleofoundation/heavymetalindex/commit/c36d38b) | 2026-06-08 | audit: riyazuddin2022-heavy-metal-toxicity-sequestration-plants revised |
+| [9b3f9fe](https://github.com/paleofoundation/heavymetalindex/commit/9b3f9fe) | 2026-06-08 | ingest: riyazuddin2022-heavy-metal-toxicity-sequestration-plants fresh from Manual Fetch Kimi/June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

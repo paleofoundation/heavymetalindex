@@ -128,3 +128,14 @@ This is a narrative perspective article with no declared inclusion/exclusion cri
 - Check 1 numerical-fidelity ✅. Subagent independently verified the Web of Science filter chain 1395 → 1185 → 1075 → 93/89 → 39/44 against the Figure 2 flowchart, the ≈50% (row [65] OsPCS1 RNAi in rice seeds) and ≈51% (row [71] OsPCS1+OsPCS2 endosperm GluC-promoter silencing) Cd-reduction percentages against Table 1, the VOSviewer 1.6.15 version against p.13, the DOI 10.3390/ijms26104767 → Vol 26 Article 4767 against the citation block, the receipt/revision/acceptance/publication dates against p.1, and the gene/locus list (cad1-1 through cad1-6, AtPCS1/AtPCS2, OsPCS1/OsPCS2/OsPCS5/OsPCS15, TaPCS1, MpPCS, ZmPCS1, NtPCS1, AtABCC1/2/3, HMA2/HMA4, AsPCS1+GSH1, AsPCS1+YCF1, SpGSH1+SpPCS1, OsPCS1+OsABCC1+OsHMA3) against Table 1 row-by-row, with no invented entries detected. The Table 1 row count "~80" is a within-tolerance approximation of the ~76 distinct study rows the subagent counted by inspection.
 - Check 2 slug-vocabulary ⚠️ on `[[mitigation/remediation-evidence]]` not in the 2026-05-18 snapshot — same snapshot-coverage gap as the Luo 2024 and Shalev 2022 siblings, already disclosed in the slug-vocabulary note above and accepted per Luo precedent. No content correction applied.
 - Checks 3 (speciation/methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) all ✅. Subagent verified that arsenic and copper appear only as incidental mentions in the Gui et al. and cad1-3 phenotype rows respectively and do not rise to synthesis-level coverage warranting frontmatter inclusion, that the Methods (brief) section does not invent analytical instruments or LODs, that no commercial food/personal-care brand names appear, and that the Implications section does not propose HMTc thresholds or issue consumer risk advisories. 1 finding flagged, 0 corrections applied (the ⚠️ was a known cross-page taxonomy gap, not a defect on this page), 0 rejected. Audit subagent ID a3f323fbaa5d5301d.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [547dbcd](https://github.com/paleofoundation/heavymetalindex/commit/547dbcd) | 2026-06-08 | audit: marques2025-phytochelatins-cadmium-mitigation promoted |
+| [95b689d](https://github.com/paleofoundation/heavymetalindex/commit/95b689d) | 2026-06-08 | ingest: rose2007-seaweed-arsenic-forms-uk fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

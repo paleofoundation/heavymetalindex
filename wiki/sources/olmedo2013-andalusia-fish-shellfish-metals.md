@@ -103,3 +103,13 @@ This source contributes primary wet-weight occurrence evidence for fresh fish, c
 - Speciation: measured arsenic is total arsenic (`tAs`), not inorganic arsenic. The paper models inorganic-arsenic intake using EFSA assumptions but does not measure inorganic arsenic. Total Hg and MeHg are kept distinct; the page records the source's direct MeHg-speciation finding for selected high-Hg predatory fish.
 - Brand firewall: no sampled product brands are attached to contamination values.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. Cephalopod- and crustacean-specific product slugs were not available in the snapshot, so squid, octopus, prawn, and shrimp route through broad shellfish/seafood context.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e432f38](https://github.com/paleofoundation/heavymetalindex/commit/e432f38) | 2026-06-08 | ingest: olmedo2013-andalusia-fish-shellfish-metals fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

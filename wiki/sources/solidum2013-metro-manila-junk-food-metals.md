@@ -63,3 +63,13 @@ This source contributes Philippines-market snack-food occurrence context for Pb,
 - Speciation: chromium is total Cr. The source does not report Cr-VI.
 - Brand firewall: the source tables and abstract name individual snack products, but this page reports only aggregate ranges and describes the high-Pb item as an imported snack sample without naming it.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [418e6ee](https://github.com/paleofoundation/heavymetalindex/commit/418e6ee) | 2026-06-08 | ingest: solidum2013-metro-manila-junk-food-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

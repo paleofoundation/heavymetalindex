@@ -64,3 +64,13 @@ This source provides historical fish and shellfish evidence for inorganic arseni
 - Speciation: inorganic arsenic is source-reported total inorganic arsenic; total arsenic remains `tAs`. No total arsenic value is treated as inorganic arsenic.
 - Brand firewall: no retail brand contamination values are reported. NBS dried tuna is a reference material row and is not treated as a brand.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; narrow species/product slugs for herring, haddock, whelks, lobster, prawns, and plaice are not in the closed product vocabulary, so broad seafood/fish/shellfish routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [10ae140](https://github.com/paleofoundation/heavymetalindex/commit/10ae140) | 2026-06-08 | ingest: brooke1981-fish-shellfish-inorganic-arsenic fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

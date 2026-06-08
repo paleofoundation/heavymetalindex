@@ -63,3 +63,13 @@ This source contributes dry-weight occurrence evidence for rice and grouped non-
 - Speciation: arsenic is total arsenic by ICP-MS. The source discusses an inorganic-arsenic standard, but no inorganic arsenic was measured.
 - Brand firewall: rice and grain retail product brands were not named in the extracted text used for this page.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no closed-vocabulary ingredient slug exists for barley or peas, so they are represented through broad cereals, non-rice grains, and legumes.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7477f0c](https://github.com/paleofoundation/heavymetalindex/commit/7477f0c) | 2026-06-08 | ingest: tatahmentan2020-rice-grains-elements fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

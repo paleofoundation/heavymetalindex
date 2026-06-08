@@ -70,3 +70,13 @@ This source supplies Portugal-specific total-mercury context for seafood, shellf
 - Speciation: the source reports total mercury as `Hg`; methylmercury is not measured and is not listed in frontmatter.
 - Brand firewall: no retail brands were reported.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; species-level slugs for *Enteromorpha*, *Gracilaria*, *Fucus*, *Scrobicularia*, *Carcinus*, *Donax*, *Spisula*, and the fish species are absent, so broad seafood/shellfish/fish/seaweed routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a1c2ca9](https://github.com/paleofoundation/heavymetalindex/commit/a1c2ca9) | 2026-06-08 | ingest: pereira2008-ria-aveiro-mercury-review fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

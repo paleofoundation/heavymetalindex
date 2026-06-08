@@ -83,3 +83,13 @@ This source contributes a large Zhejiang-market vegetable occurrence dataset for
 - Speciation: arsenic is total As and mercury is total Hg. Chromium is total Cr. The source does not report iAs, MeHg, or Cr-VI.
 - The source references Table S1 for all 28 species, but the supplementary table was not present in the extracted PDF text; only narrative species-level highlights visible in the extracted text were captured.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6949562](https://github.com/paleofoundation/heavymetalindex/commit/6949562) | 2026-06-08 | ingest: pan2016-zhejiang-vegetables-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

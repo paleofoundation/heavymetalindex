@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T18:15:33.893Z",
+  "generated_at": "2026-06-08T21:33:20.639Z",
   "source": "gap-driven (build-targeted-queries.mjs)",
   "total_candidates": 3030,
   "emitted": 3000,
@@ -739,7 +739,7 @@
         "kind": "product",
         "slug": "bottled-drinking-water",
         "metal": "iAs",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -977,7 +977,7 @@
         "kind": "product",
         "slug": "canned-foods-general",
         "metal": "Sn",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": "250000"
       }
     },
@@ -1006,7 +1006,7 @@
         "kind": "product",
         "slug": "canned-seafood",
         "metal": "Cd",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -1035,7 +1035,7 @@
         "kind": "product",
         "slug": "canned-seafood",
         "metal": "MeHg",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -1064,7 +1064,7 @@
         "kind": "product",
         "slug": "canned-seafood",
         "metal": "Sn",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": "250000"
       }
     },
@@ -1093,7 +1093,7 @@
         "kind": "product",
         "slug": "cashews",
         "metal": "Cd",
-        "reason": "BLOCKED: PDF match review pending",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -1151,7 +1151,7 @@
         "kind": "product",
         "slug": "cashews",
         "metal": "Pb",
-        "reason": "BLOCKED: PDF match review pending",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -1589,7 +1589,7 @@
         "kind": "product",
         "slug": "coffee",
         "metal": "Cd",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -1619,7 +1619,7 @@
         "kind": "product",
         "slug": "coffee",
         "metal": "Pb",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -1651,7 +1651,7 @@
         "kind": "product",
         "slug": "coffee",
         "metal": "tAs",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -1975,7 +1975,7 @@
         "kind": "product",
         "slug": "fermented-beverages-non-tea-based",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -2005,7 +2005,7 @@
         "kind": "product",
         "slug": "fermented-beverages-non-tea-based",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -2476,7 +2476,7 @@
         "kind": "product",
         "slug": "fresh-fruit",
         "metal": "tAs",
-        "reason": "BLOCKED: PDF match review pending",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -2902,7 +2902,7 @@
         "kind": "product",
         "slug": "infant-formula-dairy",
         "metal": "Al",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -2993,7 +2993,7 @@
         "kind": "product",
         "slug": "infant-formula-dairy-free",
         "metal": "Al",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -3322,7 +3322,7 @@
         "kind": "product",
         "slug": "infant-formula-dairy",
         "metal": "MeHg",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -3471,7 +3471,7 @@
         "kind": "product",
         "slug": "infant-formula-dairy",
         "metal": "tHg",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -4342,7 +4342,7 @@
         "kind": "product",
         "slug": "infant-formula-rtf-dairy",
         "metal": "iAs",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -4489,7 +4489,7 @@
         "kind": "product",
         "slug": "infant-formula-rtf-dairy",
         "metal": "tAs",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -5515,7 +5515,7 @@
         "kind": "product",
         "slug": "infant-rice-cereal",
         "metal": "iAs",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: PDF match review pending",
         "regulatory_cap": ""
       }
     },
@@ -5662,7 +5662,7 @@
         "kind": "product",
         "slug": "infant-rice-cereal",
         "metal": "tAs",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -5753,7 +5753,7 @@
         "kind": "product",
         "slug": "kombucha-tea-based",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -5782,7 +5782,7 @@
         "kind": "product",
         "slug": "kombucha-tea-based",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -5840,7 +5840,7 @@
         "kind": "product",
         "slug": "leafy-vegetables-other",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -5900,7 +5900,7 @@
         "kind": "product",
         "slug": "legumes-pulses-other",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -5929,7 +5929,7 @@
         "kind": "product",
         "slug": "legumes-pulses-other",
         "metal": "Ni",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -5958,7 +5958,7 @@
         "kind": "product",
         "slug": "legumes-pulses-other",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6018,7 +6018,7 @@
         "kind": "product",
         "slug": "matcha",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6047,7 +6047,7 @@
         "kind": "product",
         "slug": "matcha",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6076,7 +6076,7 @@
         "kind": "product",
         "slug": "mineral-water",
         "metal": "Cd",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -6107,7 +6107,7 @@
         "kind": "product",
         "slug": "mineral-water",
         "metal": "iAs",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -6136,7 +6136,7 @@
         "kind": "product",
         "slug": "mineral-water",
         "metal": "Pb",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -6167,7 +6167,7 @@
         "kind": "product",
         "slug": "mineral-water",
         "metal": "tAs",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -6316,7 +6316,7 @@
         "kind": "product",
         "slug": "non-root-vegetables",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local candidate review pending",
         "regulatory_cap": ""
       }
     },
@@ -6345,7 +6345,7 @@
         "kind": "product",
         "slug": "non-root-vegetables",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local candidate review pending",
         "regulatory_cap": ""
       }
     },
@@ -6376,7 +6376,7 @@
         "kind": "product",
         "slug": "non-root-vegetables",
         "metal": "tAs",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6492,7 +6492,7 @@
         "kind": "product",
         "slug": "nuts-seeds-other",
         "metal": "Cd",
-        "reason": "BLOCKED: PDF match review pending",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6521,7 +6521,7 @@
         "kind": "product",
         "slug": "nuts-seeds-other",
         "metal": "Ni",
-        "reason": "BLOCKED: PDF match review pending",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6550,7 +6550,7 @@
         "kind": "product",
         "slug": "nuts-seeds-other",
         "metal": "Pb",
-        "reason": "BLOCKED: PDF match review pending",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6850,7 +6850,7 @@
         "kind": "product",
         "slug": "peanut-butter",
         "metal": "Ni",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6879,7 +6879,7 @@
         "kind": "product",
         "slug": "peanut-butter",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6910,7 +6910,7 @@
         "kind": "product",
         "slug": "peanuts",
         "metal": "Al",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6939,7 +6939,7 @@
         "kind": "product",
         "slug": "peanuts",
         "metal": "Cd",
-        "reason": "BLOCKED: PDF match review pending",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6968,7 +6968,7 @@
         "kind": "product",
         "slug": "peanuts",
         "metal": "Ni",
-        "reason": "BLOCKED: PDF match review pending",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6997,7 +6997,7 @@
         "kind": "product",
         "slug": "peanuts",
         "metal": "Pb",
-        "reason": "BLOCKED: PDF match review pending",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -7177,7 +7177,7 @@
         "kind": "product",
         "slug": "plant-milks-non-soy-non-rice",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -7267,7 +7267,7 @@
         "kind": "product",
         "slug": "plant-milks-rice-based",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -7297,7 +7297,7 @@
         "kind": "product",
         "slug": "plant-milks-rice-based",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -7357,7 +7357,7 @@
         "kind": "product",
         "slug": "rice-snacks-crackers",
         "metal": "iAs",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -7446,7 +7446,7 @@
         "kind": "product",
         "slug": "root-tuber-vegetables",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -7475,7 +7475,7 @@
         "kind": "product",
         "slug": "root-tuber-vegetables",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -7506,7 +7506,7 @@
         "kind": "product",
         "slug": "root-tuber-vegetables",
         "metal": "tAs",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -7535,7 +7535,7 @@
         "kind": "product",
         "slug": "salt",
         "metal": "Cd",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": "500"
       }
     },
@@ -7564,7 +7564,7 @@
         "kind": "product",
         "slug": "salt",
         "metal": "Pb",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": "1000"
       }
     },
@@ -7862,7 +7862,7 @@
         "kind": "product",
         "slug": "soy-products",
         "metal": "Al",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -7891,7 +7891,7 @@
         "kind": "product",
         "slug": "soy-products",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -7951,7 +7951,7 @@
         "kind": "product",
         "slug": "soy-products",
         "metal": "tHg",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -8069,7 +8069,7 @@
         "kind": "product",
         "slug": "spinach",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -8098,7 +8098,7 @@
         "kind": "product",
         "slug": "spinach",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -8482,7 +8482,7 @@
         "kind": "product",
         "slug": "teething-and-snacks-non-rice",
         "metal": "Cd",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -8514,7 +8514,7 @@
         "kind": "product",
         "slug": "teething-and-snacks-non-rice",
         "metal": "iAs",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: PDF match review pending",
         "regulatory_cap": ""
       }
     },
@@ -8544,7 +8544,7 @@
         "kind": "product",
         "slug": "teething-and-snacks-non-rice",
         "metal": "Pb",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -8573,7 +8573,7 @@
         "kind": "product",
         "slug": "toothpaste",
         "metal": "Cd",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -8602,7 +8602,7 @@
         "kind": "product",
         "slug": "toothpaste",
         "metal": "Pb",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -8695,7 +8695,7 @@
         "kind": "product",
         "slug": "true-tea-camellia-sinensis",
         "metal": "Al",
-        "reason": "BLOCKED: local extraction pending",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },

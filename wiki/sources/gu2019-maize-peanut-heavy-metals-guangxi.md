@@ -80,3 +80,13 @@ This source contributes supply-chain evidence for Cd, Cu, total Hg, Pb, and Zn i
 - Speciation: Hg is reported as total Hg. The source does not report methylmercury, inorganic arsenic, total arsenic, Cr, Cr(III), or Cr(VI).
 - Measured Figure 5 grain concentrations are shown graphically in the PDF but not exposed as exact numeric values in the extracted text; this page does not guess those values.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [375197a](https://github.com/paleofoundation/heavymetalindex/commit/375197a) | 2026-06-08 | ingest: gu2019-maize-peanut-heavy-metals-guangxi fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

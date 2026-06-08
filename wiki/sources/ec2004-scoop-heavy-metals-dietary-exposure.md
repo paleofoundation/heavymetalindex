@@ -57,3 +57,13 @@ This source supports EU regulatory-context routing for total arsenic in fish/sea
 - Speciation: arsenic is total arsenic in the submissions, with no inorganic-arsenic data available. Mercury submissions were total mercury; the report's methylmercury discussion is an overestimate assuming total Hg as MeHg, not measured methylmercury occurrence.
 - Brand firewall: the source reports country and food-category aggregates, not branded product values.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow slugs include wine, game meat, and several Member State-specific food groups, so broad product routing is used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b82425c](https://github.com/paleofoundation/heavymetalindex/commit/b82425c) | 2026-06-08 | ingest: ec2004-scoop-heavy-metals-dietary-exposure fresh from MFK/June 8 New Folder With Items 3 2 |
+<!-- END: hmi-page-history -->

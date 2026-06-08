@@ -148,3 +148,14 @@ The four commercial samples represent four different product botanical categorie
 The source contains two internal Russian-text vs. Table 1 inconsistencies that this page resolves in favor of Table 1: (a) the p. 62 Russian narrative says "the highest Pb is in rice milk «Здоровое меню» at 0.0241 mg/kg = 4.8% of MPC" but Table 1 shows the rice-beverage Pb cell as 0.0296 mg/kg, and the actual study maximum Pb is 0.0530 mg/kg in mature-buckwheat-groat lab milk; (b) the same p. 62 paragraph says Cd "ranged from 0.0106 to 0.0113 mg/kg" but Table 1 shows the Cd range across all four detected samples as 0.0068 to 0.0108 mg/kg. This page uses Table 1 throughout because the table is the primary data record; the narrative values are not propagated.
 
 Audit subagent (2026-06-08, agent a85bea8c) flagged that the Wiki-pages-this-source-may-touch list omitted `[[metals/zinc]]` and `[[metals/copper]]` despite the source measuring both metals and despite both metal pages existing in the wiki; verified independently — both pages confirmed present in `wiki/metals/` (zinc.md, copper.md). Added both wikilinks. All other audit checks returned ✅ clean; verdict PROMOTE with this single completeness improvement.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ca80310](https://github.com/paleofoundation/heavymetalindex/commit/ca80310) | 2026-06-08 | audit: begday2026-plant-milk-heavy-metal-safety promoted |
+| [a74b96c](https://github.com/paleofoundation/heavymetalindex/commit/a74b96c) | 2026-06-08 | ingest: begday2026-plant-milk-heavy-metal-safety fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

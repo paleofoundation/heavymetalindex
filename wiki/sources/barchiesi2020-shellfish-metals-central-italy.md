@@ -147,3 +147,13 @@ This source contributes official-monitoring shellfish occurrence data for Cd, Pb
 - Speciation: Hg is reported as total/unspecified Hg and is recorded as `tHg`, not MeHg.
 - Brand firewall: the source reports official monitoring by seafood class/species; no product brand values were reported.
 - Missing closed-vocabulary slugs: sea urchin/echinoderm-specific ingredient and product slugs were not available in the taxonomy snapshot, so frontmatter routes through the broad shellfish row and notes the gap here.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c58449d](https://github.com/paleofoundation/heavymetalindex/commit/c58449d) | 2026-06-08 | ingest: barchiesi2020-shellfish-metals-central-italy fresh from MFK/June 8 New Folder With Items 4 2 |
+<!-- END: hmi-page-history -->

@@ -167,3 +167,14 @@ Microbiome: Not applicable. No microbiota or microbial-community measurements; b
 - [[metals/zinc]]
 - [[metals/cobalt]]
 - [[metals/nickel]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [16fb63b](https://github.com/paleofoundation/heavymetalindex/commit/16fb63b) | 2026-06-08 | audit: zhang2025-metalorian-de-novo-metal-binding-peptides revised |
+| [86d0037](https://github.com/paleofoundation/heavymetalindex/commit/86d0037) | 2026-06-08 | ingest: zhang2025-metalorian-de-novo-metal-binding-peptides fresh from Manual Fetch Kimi/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 2
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -107,6 +107,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/sochacka2025-spirulina-chlorella-supplements-poland\|Sochacka et al. 2025]]. *Spirulina and Chlorella Dietary Supplements—Are They a Source Solely of Valuable Nutrients?*, International Journal of Molecular Sciences | 2025 | Peer-reviewed | PL/EU Al, Ba, Cd, Co, Cr, Cs, Cu, Ga, Mn, Mo, Ni, Pb, Rb, Sr, Tl, V, Zn occurrence in 52 commercially available microalgae-based dietary supplements sold on the Polish market: 29 Spirulina (Spirulina platensis) products and 23... (n=52) |
+| 2 | [[sources/brizio2013-italian-food-supplements-metals\|Brizio et al. 2013]]. *Heavy metals occurrence in Italian food supplements*, E3S Web of Conferences | 2013 | Peer-reviewed | IT tAs, Cd, Cr, Pb, tHg occurrence in Twelve food supplements seized in a Piedmont shop by Italian food-adulteration authorities: six single-herbal samples and six mixed... (n=12) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -116,9 +117,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
