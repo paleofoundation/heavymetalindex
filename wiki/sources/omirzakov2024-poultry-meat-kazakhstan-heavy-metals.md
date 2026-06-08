@@ -32,14 +32,16 @@ This study measured arsenic, cadmium, mercury, and lead in domestic and imported
 Source units are ug/kg unless otherwise noted.
 
 - Regulatory comparison values cited by the authors: tAs 0.1 mg/kg, Cd 0.05 mg/kg, Hg 0.03 mg/kg, Pb 0.5 mg/kg.
+- Sampling design: 41 total broiler chicken samples (25 domestic across 9 Kazakhstani enterprises, 16 imported from USA, Russian Federation, Belarus, and Ukraine), studied in 2023.
+- Arsenic averages per producer group ranged from 0.26 ug/kg to 20.7 ug/kg across the 10 sample groups; average tAs was 5.28 ug/kg domestic and 5.59 ug/kg imported.
 - Cadmium ranged from 0.06 ug/kg in the lowest domestic producer sample to 2.45 ug/kg in the highest domestic producer sample; average Cd was 0.65 ug/kg in domestic poultry and 0.51 ug/kg in imported poultry.
 - Mercury was detected in Astana market samples at 3.48 ug/kg, the highest domestic producer sample at 20.0 ug/kg, and imported products at 1.88 ug/kg; average Hg was 2.62 ug/kg domestic and 1.88 ug/kg imported.
 - Lead ranged from 0.13 ug/kg in the lowest domestic producer sample to 123.8 ug/kg in the highest domestic producer sample; average Pb was 21.51 ug/kg domestic and 12 ug/kg imported.
-- Average tAs was 5.28 ug/kg domestic and 5.59 ug/kg imported.
+- Student's t-test (df=23, p=0.05, critical t=2.069) gave calculated values of 0.10 (As), 0.38 (Cd), 0.26 (Hg), and 0.52 (Pb); domestic vs. imported differences were statistically insignificant for all four metals.
 
 ## Methods
 
-The authors report ICP-MS analysis against a linear dynamic range with blanks and interlaboratory quality-control support.
+Sample preparation used microwave decomposition under pressure on a Multiwave GO Plus system (Anton Paar GmbH, Germany), following EN 13805-2012. Analysis was performed on an Agilent Technologies 7500 quadrupole ICP-MS (operating mass range 5–240 amu) per ST RK EN 15763-2017, with data processed in MassHunter. Calibration used Inorganic Ventures multi-element solution IV-ICPMS-71A (As, Pb, Cd) and single-element mercury standard MSHGN-10PPM (NIST-traceable, ISO 17034/17025) across 5, 10, 20, 50, and 100 µg/L points, with a deionized-water nitric-acid blank. Triplicate measurements provided standard-deviation error bars; Student's t-test was used for independent populations. The NRCV food-analysis laboratory is GOST ISO IEC 17025-2019 accredited and participates in FAPAS interlaboratory proficiency testing.
 
 ## Implications
 
@@ -66,9 +68,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
