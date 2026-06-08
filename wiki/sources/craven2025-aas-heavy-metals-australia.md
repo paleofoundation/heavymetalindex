@@ -33,7 +33,7 @@ updated: 2026-06-08
 
 ## Summary
 
-This is a forensic occurrence study of heavy-metal contamination in the illicit, unregulated anabolic–androgenic steroid (AAS) market, a research-chemical product category the Heavy Metal Index has not previously held data on. The authors chemically analysed 28 anonymously donated AAS products sold in Australia (16 injectable oils, 10 oral tablets, 2 raw powders) by GC–MS, LC–MS and ICP-OES, reporting both active-ingredient fidelity and heavy-metal impurity concentrations interpreted against ICH Q3D permitted daily exposure limits. The product-quality finding is that 15 of 28 samples were mislabelled or mis-sold and only 4 of the 21 with a defined expected dose fell within ±5% of label. The Heavy Metal Index load-bearing finding is that 12 heavy metals were quantifiable in injectable and oral products: lead, cadmium and arsenic were detected throughout but, for the studied samples, the per-unit means stayed below the relevant parenteral or oral PDE — with the important exception that oral nickel (mean 27.48 µg/g) could exceed the 200 µg/day oral PDE depending on dose size, and oral aluminium was high (mean 651 µg/g). The authors frame the result as a harm-reduction surveillance gap: heavy-metal contamination is well documented in supplements but largely overlooked in AAS, leaving consumers of an unregulated injectable/oral product exposed to repeated low-dose toxic-metal intake.
+This is a forensic occurrence study of heavy-metal contamination in the illicit, unregulated anabolic–androgenic steroid (AAS) market, a research-chemical product category the Heavy Metal Index has not previously held data on. The authors chemically analysed 28 anonymously donated AAS products sold in Australia (16 injectable oils, 10 oral tablets, 2 raw powders) by GC–MS, LC–MS and ICP-OES, reporting both active-ingredient fidelity and heavy-metal impurity concentrations interpreted against ICH Q3D permitted daily exposure limits. The product-quality finding is that 15 of 28 samples were mislabelled or mis-sold and only 4 of the 21 with a defined expected dose fell within ±5% of label. The Heavy Metal Index load-bearing finding is that 12 heavy metals were quantifiable in injectable and oral products: lead was detected in all three product classes, arsenic in injectable and oral forms, and cadmium was quantifiable only in injectables (oral and raw values were below the <5 µg/g detection cut-off). For the studied samples, per-unit means stayed below the relevant parenteral or oral PDE — with the important exception that oral nickel (mean 27.48 µg/g) could exceed the 200 µg/day oral PDE depending on dose size, and oral aluminium was high (mean 651 µg/g). The authors frame the result as a harm-reduction surveillance gap: heavy-metal contamination is well documented in supplements but largely overlooked in AAS, leaving consumers of an unregulated injectable/oral product exposed to repeated low-dose toxic-metal intake.
 
 ## Key numbers
 
@@ -41,12 +41,12 @@ Source reports concentrations per product unit: injectable oils in µg/mL, oral 
 
 | Metal | Injectable oils (n=16), µg/mL | Oral (n=10), µg/g | Raw powders (n=2), µg/g | Cited PDE |
 | --- | --- | --- | --- | --- |
-| Pb | 1.57 (1.13–3.38) | 1.94 (1.15–3.10) | 1.18 | 5 µg/day |
-| Cd | 0.07 (0.07–0.07) | <5 | <5 | 2 µg/day (parenteral) |
-| As (tAs) | 0.09 (0.09–0.09) | 2.35 (0.52–3.42) | 0.37 | 15 µg/day |
-| Al | 47.31 (12.98–110.00) | 651.34 (83.42–1220.00) | 517.3 | not listed |
-| Cr | 1.59 (0.84–4.11) | 7.37 (1.04–17.37) | 2.16 | 1100 / 11000 µg/day |
-| Ni | 1.71 | 27.48 | <5 | 20 µg/day (parenteral) / 200 (oral) |
+| Pb | 1.57 (1.13–2.01) | 1.94 (1.15–3.10) | 1.18 (1.18–1.18) | 5 µg/day |
+| Cd | 0.07 (0.07–0.07) | <5 | <5 | 2 (parenteral) / 15 (oral) µg/day |
+| As (tAs) | 0.09 (0.09–0.09) | 2.35 (0.52–3.42) | 0.37 (0.37–0.37) | 15 µg/day |
+| Al | 47.31 (12.98–110.00) | 651.34 (83.42–1220.00) | 51.73 (29.57–73.89) | not listed |
+| Cr | 1.59 (0.84–4.11) | 7.37 (1.04–17.37) | 2.16 (1.66–2.66) | 1100 (parenteral) / 11000 (oral) µg/day |
+| Ni | 1.71 | 27.48 | <5 | 20 (parenteral) / 200 (oral) µg/day |
 
 - Lead was detected in every product class but stayed below the 5 µg/day PDE on a per-unit basis (injectable 1.57 µg/mL; oral 1.94 µg/g; raw 1.18 µg/g).
 - Oral nickel (mean 27.48 µg/g) "could exceed the 200 µg/day oral PDE depending on dose size," the single flagged exceedance risk.
@@ -62,14 +62,14 @@ ICP-OES (PerkinElmer AVIO 200) with acid digestion and external-standard calibra
 
 - This is the Index's first occurrence dataset for the unregulated AAS / research-chemical product category. It anchors the new [[products/research-chemicals-peptides-sarms]] scaffold with real per-unit Pb/Cd/As/Al/Cr/Ni concentrations across injectable, oral, and raw-powder forms.
 - The cross-form pattern (oral loads of Al, Cr, Ni and As markedly higher per gram than injectable oils per mL) is relevant to any future certification framing for this category: the oral route carries the larger toxic-metal burden, and nickel is the analyte nearest a regulatory ceiling.
-- For the metal pages, this contributes [[metals/nickel]] and [[metals/aluminium]] occurrence in a novel non-food product, and reinforces [[metals/lead]] as a pervasive low-level contaminant of unregulated injectables.
+- For the metal pages, this contributes [[metals/nickel]] and [[metals/aluminum]] occurrence in a novel non-food product, and reinforces [[metals/lead]] as a pervasive low-level contaminant of unregulated injectables.
 - Fitness caveat: n=28 from a single country via anonymous donation, ICP-OES totals only, per-unit (not per-dose) concentrations. Treat as a category-opening B-to-A signal, not a population-representative distribution.
 
 ## Wiki pages this source may touch
 
 - [[products/research-chemicals-peptides-sarms]] — first heavy-metal occurrence data for the illicit AAS sub-category.
 - [[metals/nickel]] — oral AAS Ni near the 200 µg/day oral PDE.
-- [[metals/aluminium]] — high oral AAS Al (up to 1220 µg/g).
+- [[metals/aluminum]] — high oral AAS Al (up to 1220 µg/g).
 - [[metals/lead]], [[metals/cadmium]], [[metals/arsenic]], [[metals/chromium]] — contaminant occurrence in injectable/oral AAS.
 
 ## Verification notes
@@ -78,4 +78,17 @@ ICP-OES (PerkinElmer AVIO 200) with acid digestion and external-standard calibra
 - No consumer brands are named; products were anonymously donated and identified only by form and expected compound, so there is no brand-by-brand mapping to withhold. Active-compound names (testosterone enanthate, oxandrolone, etc.) are drug identities, not consumer brands.
 - "12 heavy metals" includes essential elements (Cu, Zn, Fe, B, Mg, Ca) reported for completeness; only the six HMI target analytes present (Pb, Cd, tAs, Al, Cr, Ni) are routed. Sn and Sb were not measured.
 - Speciation: total metals by ICP-OES; arsenic recorded as tAs.
-- PDE thresholds (Pb 5 µg/day, Cd 2 µg/day parenteral, As 15 µg/day, Ni 20 parenteral / 200 oral µg/day) are the authors' citations to ICH Q3D / TGA guidance, reported as context, not as HMI/HMTc thresholds.
+- PDE thresholds (Pb 5 µg/day, Cd 2 µg/day parenteral / 15 µg/day oral, As 15 µg/day, Ni 20 parenteral / 200 oral µg/day) are the authors' citations to ICH Q3D / TGA guidance, reported as context, not as HMI/HMTc thresholds.
+- Merge-enhance 2026-06-08 (same-day): re-read Table 2 to verify ranges. Corrected Pb injectable max from 3.38 to 2.01 µg/mL (Table 2 row "Lead (μg/mL) Av (min–max) 1.57 (1.13–2.01)"); corrected raw-powder Al mean from 517.3 to 51.73 µg/g (Table 2 row "Aluminium Raw (μg/g) 51.73 (29.57–73.89)" — prior value was a decimal-place error); revised Summary to note Cd was quantifiable only in injectables (oral and raw both <5 µg/g); added oral Cd PDE (15 µg/day) and oral Cr PDE annotation; added explicit min–max ranges to raw-powder cells for Pb, As, Al and Cr.
+- Audit subagent (2026-06-08) flagged `[[metals/aluminium]]` wikilinks; verified against `wiki/metals/` directory — the canonical page is `wiki/metals/aluminum.md` (US spelling). Corrected the two wikilinks to `[[metals/aluminum]]`. Narrative prose retains "aluminium" where it directly mirrors the source paper's Australian spelling.
+- Scaffold-introducing slugs not yet in `docs/gpt-collaboration/taxonomy-snapshot.md`: `products/research-chemicals-peptides-sarms` (page exists at `wiki/products/research-chemicals-peptides-sarms.md`; snapshot is stale and will pick it up on next refresh) and the four AAS matrix labels `anabolic-androgenic-steroids`, `injectable-aas`, `oral-aas`, `raw-aas-powder` (introduced for this category). Surfaced for the next taxonomy-snapshot regeneration.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4dcfa39](https://github.com/paleofoundation/heavymetalindex/commit/4dcfa39) | 2026-06-08 | ingest: craven2025-aas-heavy-metals-australia from June 8 (research-chemical occurrence) |
+<!-- END: hmi-page-history -->
