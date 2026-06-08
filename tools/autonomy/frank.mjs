@@ -250,6 +250,16 @@ function heartbeat(doingNow) {
       syncAlarm = `\n> ⚠️ **origin-sync STALLED** — ${reason}\n> Local commits are not reaching GitHub. Recover: \`bash tools/autonomy/frank-resync.sh\`\n`
     }
   } catch {}
+  // Surface the standards-manual readiness verdict so "Cat N is MANUAL-READY"
+  // flags itself in the one status file Karen reads, instead of waiting to be asked.
+  let readiness = ""
+  try {
+    const rd = JSON.parse(fs.readFileSync(path.join(REPO, "data/evidence/category-standards-readiness.json"), "utf8"))
+    const parts = Object.entries(rd).map(([c, r]) => `Cat ${c} ${r.ready_rows}/${r.locked_rows}${r.manual_ready ? " ✅" : ""}`)
+    const ready = Object.entries(rd).filter(([, r]) => r.manual_ready).map(([c]) => c)
+    readiness = `\n## Standards readiness\n${parts.join(" · ")}\n` +
+      (ready.length ? `> 🎯 **Cat ${ready.join(", ")} is MANUAL-READY** — tell Claude: "produce the Cat ${ready.join("/")} standards manual."\n` : "")
+  } catch {}
   const md = `# FRANK — autonomous ingest status
 
 **Alive.** Last beat: ${new Date().toLocaleString()} (cycle ${cycle})
@@ -257,7 +267,7 @@ function heartbeat(doingNow) {
 ${syncAlarm}
 > If this timestamp is more than ~45 minutes old, FRANK is stuck. Tell Claude: "FRANK is stuck."
 > To pause FRANK: \`touch ~/.frank.STOP\`. To resume: \`rm ~/.frank.STOP\`.
-
+${readiness}
 ## Scoreboard
 - **Source pages:** ${sb.total}  (**+${sb.last24}** ingested in the last 24h)
 - **Open data gaps:** ${sb.gaps}
@@ -416,7 +426,11 @@ async function runIntake() {
   }
   const done = intakeDone()
   for (const name of subdirs) {
-    if (done.has(name)) continue
+    // Compare on the trimmed name: intakeDone() trims on read, so a folder
+    // whose name has a trailing space (e.g. "June 8 ") would never match the
+    // stored entry and would be re-intaked every pass forever. Trim here and
+    // on write (below) so read/lookup/write all agree on the trimmed form.
+    if (done.has(name.trim())) continue
     const full = path.join(DROP_ZONE, name)
     const ageMs = Date.now() - newestMtimeMs(full)
     if (ageMs < INTAKE_SETTLE_MS) {
@@ -432,7 +446,7 @@ async function runIntake() {
     // Mark done only on success so a transient failure retries next pass.
     if (r.ok) {
       try {
-        fs.appendFileSync(INTAKE_DONE, name + "\n")
+        fs.appendFileSync(INTAKE_DONE, name.trim() + "\n")
       } catch {}
     }
   }
