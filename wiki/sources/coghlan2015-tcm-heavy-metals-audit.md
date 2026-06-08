@@ -47,7 +47,9 @@ Table 3 reports heavy-metal results as exceedance bands rather than exact concen
 
 ## Methods (brief)
 
-Sixteen heavy metals were determined under ultra-trace clean conditions using sector-field ICP-MS (Thermo Fisher Scientific ELEMENT XR). Samples were mixed with an indium internal standard and introduced by autosampler under metal-free conditions. Instrumental blanks, full procedural blanks, replicates, and quality-control standards were run throughout. Heavy-metal non-compliance was evaluated against TGA threshold daily intake values for lead, cadmium, and arsenic using product dosage instructions.
+Powdered TCM samples (~0.3 g) were leached in 5 mL of ultrapure nitric acid (~70%, double distilled) for 24 hours at room temperature, then made up to 10 mL with ultrapure water, filtered through an acid-cleaned 0.2 µm PTFE membrane, and diluted 1:75 with 3% ultrapure HNO3. The authors flag that this "acid leachable" preparation does not determine total metal concentrations; it represents bioavailable metals released from the TCM samples in vitro, and reported values should be considered an underestimate of the total metal concentrations contained within each TCM.
+
+Sixteen heavy metals were determined under ultra-trace clean conditions using sector-field ICP-MS (Thermo Fisher Scientific ELEMENT XR) at the Curtin University ultra-clean TRACE facility. Samples were mixed with an indium internal standard and introduced via an Elemental Scientific Seafast II autosampler enclosed in a metal-free hood. Instrumental and full procedural blanks (3% HNO3), replicates, and quality-control standards (High Purity Standards CWW-TM-A) were run throughout. Internal-standard-normalized ion intensities were quantified against matrix-matched external standards prepared by serial dilution from commercial primary standards; results were blank-subtracted and dilution-corrected. Heavy-metal non-compliance was evaluated against TGA threshold daily intake values for lead, cadmium, and arsenic using product dosage instructions for a 60 kg person.
 
 ## Implications
 
@@ -66,6 +68,7 @@ For brand-firewall purposes, the source's TCM sample numbers are sufficient. The
 
 - Batch 1 auto-fetched ingest, 2026-05-25. The wishlist query targeted herbal/botanical infusions, but the actual PDF is a traditional Chinese medicine product audit. Ingested under the actual paper scope and routed to dietary supplements rather than tea/infusion product rows.
 - Evidence fitness: direct finished-product supplement evidence, but the article body reports exceedance bands for Table 3. Exact concentration values are pending supplementary-table extraction.
+- Digestion basis: SF-ICP-MS values are from a 24-hour cold nitric-acid leach, not a total digestion. The paper itself states the reported concentrations should be treated as underestimates of total metal content. Any downstream pooling must keep these values flagged as leachable/bioavailable, not pooled with total-digest occurrence data without basis-conversion notes.
 - Brand firewall: TCM product identifiers are kept as numbered samples only.
 
 <!-- BEGIN: hmi-page-history -->
