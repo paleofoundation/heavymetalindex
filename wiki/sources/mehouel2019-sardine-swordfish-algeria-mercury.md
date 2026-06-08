@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-mehg_2019_10-12681-jhvms-21792.pdf"
 metals: ["tHg", "MeHg"]
 ingredients: ["[[ingredients/swordfish]]", "[[ingredients/fish]]"]
-products: ["[[products/seafood]]", "[[products/fresh-fish]]"]
+products: ["[[products/seafood]]", "[[products/fresh-fish]]", "[[products/fish-marine-predatory]]", "[[products/fish-marine-non-predatory]]"]
 matrices: ["swordfish", "sardine"]
 jurisdictions: ["DZ"]
 sample_population: "Sardine and swordfish collected from Bejaia, Algiers, and Oran coasts in Algeria, April-September 2017"
@@ -32,7 +32,7 @@ This study measured total mercury and methylmercury in sardine and swordfish fro
 Source units are mg/kg wet weight unless otherwise stated.
 
 - Sample size: sardine n=43 and swordfish n=44, total n=87.
-- Sardine: total Hg 0.04 +/- 0.03; MeHg 0.04 +/- 0.028.
+- Sardine: total Hg 0.04 +/- 0.03; MeHg 0.04 +/- 0.02.
 - Swordfish: total Hg 0.61 +/- 0.47; MeHg 0.57 +/- 0.45.
 - Highest regional swordfish values reported in text: North Centre/Algiers total Hg 0.77 +/- 0.41 and MeHg 0.64 +/- 0.38.
 - EDI for swordfish: total Hg 0.098 ug/kg bw/day; MeHg 0.092 ug/kg bw/day.
@@ -40,7 +40,7 @@ Source units are mg/kg wet weight unless otherwise stated.
 
 ## Methods
 
-Total Hg was determined by direct mercury analyzer. MeHg was extracted and quantified as Hg; the paper reports LOD/LOQ of 0.010/0.020 mg/kg for MeHg.
+Total Hg was determined on a direct mercury analyzer (AMA-254) without prior chemical digestion; samples thermally degraded at 750 degC with the amalgamator heated to 900 degC and Hg measured at 254 nm. Reported LOD/LOQ for total Hg were 0.005 and 0.010 mg/kg w.w. MeHg was extracted with hydrobromic acid and toluene, back-extracted into L-cysteine, and quantified on the same AMA-254 instrument; reported LOD/LOQ for MeHg were 0.010 and 0.020 mg/kg w.w. Quality control used reference materials ERM-CE278k lyophilized mussels and a Fapas canned-fish RM for total Hg, and TORT-2 lyophilized fish for MeHg.
 
 ## Implications
 
@@ -51,6 +51,9 @@ This source supports Algerian swordfish and sardine mercury occurrence with expl
 - [[ingredients/swordfish]]
 - [[ingredients/fish]]
 - [[products/seafood]]
+- [[products/fresh-fish]]
+- [[products/fish-marine-predatory]]
+- [[products/fish-marine-non-predatory]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]
 
@@ -58,6 +61,8 @@ This source supports Algerian swordfish and sardine mercury occurrence with expl
 
 - Source identity checked against DOI 10.12681/jhvms.21792 and the downloaded PDF.
 - Total mercury and methylmercury values are separate species and should remain separate during routing.
+- No `ingredients/sardine` slug exists in the current taxonomy; Sardina pilchardus occurrence is routed via the generic `ingredients/fish`.
+- Xiphias gladius is an apex marine predator; Sardina pilchardus is a small pelagic forage fish. The two-species `products:` split routes occurrence values to the correct trophic-level aggregations.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
