@@ -1,5 +1,6 @@
 ---
 type: source
+raw_handle: MFK_determination-of-toxic-metals-in-canned-tuna-sol
 cite_key: ulusoy2023-canned-tuna-toxic-metals
 title: "Determination of toxic metals in canned tuna sold in developed and developing countries: Health risk assessment associated with human consumption"
 authors: [Ulusoy S]
@@ -9,84 +10,66 @@ doi: "10.1016/j.marpolbul.2022.114518"
 source_type: peer-reviewed
 evidence_tier: A
 license: "all-rights-reserved"
-raw_path: raw/studies/ulusoy2023-canned-tuna-toxic-metals.pdf
-sha256: ceb103564dc2bce7d715b0c8d543d9d7273efec09aaaccb8bcb12e517623d97a
-access_date: 2026-05-12
+raw_path: "raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/Determination-of-toxic-metals-in-canned-tuna-sold-in-developed-and-developing-countries-Health.pdf"
+raw_sha256: "ceb103564dc2bce7d715b0c8d543d9d7273efec09aaaccb8bcb12e517623d97a"
 access_url: "https://doi.org/10.1016/j.marpolbul.2022.114518"
-metals: [Cd, Pb, tHg, tAs, iAs]
-ingredients: ["[[ingredients/fish]]"]
-products: ["[[products/canned-fish]]"]
-matrices: [canned-tuna]
+metals: [Cd, Pb, tHg, tAs]
+ingredients: ["[[ingredients/canned-tuna]]", "[[ingredients/tinned-fish]]", "[[ingredients/fish]]", "[[ingredients/seafood]]"]
+products: ["[[products/canned-fish]]", "[[products/fish-marine-predatory]]"]
+matrices: [canned-tuna, canned-fish, wet-weight]
 jurisdictions: [US, DE, FI, MT, RO, GB, NL, BG, BE, GR, HR, LV, DK, PT, SE, PL, CA, AU, JP, SA, IR, JO, HK, KH, AE, TN, DZ, EG, MA, AR, CL, PE, BR, TR, RU, GE]
+near_duplicates: ["raw/studies/ulusoy2023-canned-tuna-toxic-metals.pdf"]
 sample_n: 222
-wiki_doi: null
-sampling_locations: []
-sampling_year_range: null
-updated: 2026-05-12
+sample_population: "Two hundred twenty-two canned tuna samples purchased from supermarkets in 36 countries during 2017-2019; samples covered 19 developed and 17 developing countries and 34 brands, with three cans from each country/brand grouping."
+updated: 2026-06-08
 ---
 
-# Ulusoy 2023 — Toxic Metals in Canned Tuna: 36-Country Survey with Health Risk Assessment
+# Ulusoy 2023 - Toxic metals in global canned tuna
 
-This peer-reviewed study measured cadmium, lead, mercury (total), and total/inorganic arsenic in 222 canned tuna samples purchased from supermarkets in 36 countries (19 developed, 17 developing) during 2017–2019, using ICP-MS (Perkin Elmer Nexion 1000). Health risk was assessed via target hazard quotient (THQ) for non-carcinogenic risk and target cancer risk (TCR) for carcinogenic risk from inorganic arsenic. The main findings are that Hg THQ values exceeded the safe limit (>1) for consumers eating canned tuna more than once per week, and TCR for iAs showed carcinogenic risk when consuming more than one meal per week. All Cd and Pb concentrations were well below regulatory limits.
+Ulusoy measured cadmium, lead, total mercury, and total arsenic in canned tuna purchased from supermarkets in 36 countries. The study used ICP-MS and reported country-of-purchase means for Cd, Pb, Hg, total As, and a calculated inorganic-arsenic surrogate. Inorganic arsenic was not directly measured; it was estimated as 3% of total As for the risk calculations.
 
 ## Key numbers
 
-**Toxic metals in canned tuna from developed countries (mean ± SD, µg/g wet weight, Table 4):**
-- Cd: 0.022 ± 0.01 µg/g (permissible limit 0.10 mg/kg EU)
-- Pb: 0.12 ± 0.06 µg/g (permissible limit 0.30 mg/kg FAO/WHO)
-- Hg (total): 0.09 ± 0.09 µg/g (permissible limit 1.0 mg/kg FAO/WHO)
-- Total As: 0.64 ± 0.28 µg/g
-- Inorganic As (estimated as 3% of total): 0.047 ± 0.01 µg/g
+Table 6 reports developed/developing-country summaries in `µg/g ww`:
 
-**Toxic metals in canned tuna from developing countries (mean ± SD, µg/g ww, Table 5):**
-- Cd: 0.017 ± 0.01 µg/g
-- Pb: 0.10 ± 0.20 µg/g
-- Hg (total): 0.13 ± 0.22 µg/g
-- Total As: 0.13 ± 0.22 µg/g
-- Inorganic As (estimated): 0.042 ± 0.01 µg/g
+| Metal or calculated surrogate | Developed countries, mean +/- SD | Developing countries, mean +/- SD | Developed EDI, µg/kg bw/day | Developing EDI, µg/kg bw/day | PTDI, µg/day/kg body weight |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Cd | 0.022 +/- 0.01 | 0.017 +/- 0.01 | 0.037 | 0.030 | 1.17 |
+| Pb | 0.12 +/- 0.15 | 0.10 +/- 0.20 | 0.197 | 0.179 | 3.57 |
+| tHg | 0.09 +/- 0.09 | 0.13 +/- 0.22 | 0.156 | 0.220 | 0.19 |
+| calculated iAs, 3% of tAs | 0.03 +/- 0.01 | 0.02 +/- 0.01 | 0.047 | 0.042 | 0.3 |
 
-**Notable outliers (from Tables 4–5):**
-- Holland (developed): Total As = 1.28 ± 0.64 µg/g — highest in developed group
-- England (developed): Pb = 1.28 ± 0.06 µg/g — exceeded limit; highest in study
-- Russia (developing): Pb = 0.83 ± 0.01 µg/g — exceeded limit
-- Saudi Arabia (developing): Pb = 0.29 µg/g — above limit
-- Croatia: Total As = 1.19 ± 0.04 µg/g
+Tables 4-5 report country-level concentration means. Selected high or source-highlighted values include:
 
-**Statistically significant differences between developed and developing countries:** iAs (p < 0.05) and Cd (p < 0.05) were significantly different; Pb and Hg were not (p > 0.05).
+| Country of purchase | Cd, µg/g ww | Pb, µg/g ww | tHg, µg/g ww | tAs, µg/g ww | calculated iAs, µg/g ww |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| England | 0.01 +/- 0.07 | 0.64 +/- 0.01 | 0.04 +/- 0.01 | 1.28 +/- 0.00 | 0.04 +/- 0.00 |
+| Latvian | 0.02 +/- 0.00 | 0.06 +/- 0.01 | 0.22 +/- 0.00 | 2.55 +/- 0.07 | 0.07 +/- 0.07 |
+| Malta | 0.02 +/- 0.00 | 0.20 +/- 0.01 | 0.51 +/- 0.00 | 0.93 +/- 0.01 | 0.03 +/- 0.01 |
+| Tunisia | 0.00 +/- 0.06 | 0.14 +/- 0.01 | 0.95 +/- 0.05 | 1.85 +/- 0.05 | 0.06 +/- 0.05 |
+| Brazil | 0.02 +/- 0.01 | 0.01 +/- 0.01 | 0.11 +/- 0.01 | 1.34 +/- 0.01 | 0.04 +/- 0.01 |
+| Russia | 0.02 +/- 0.01 | 0.83 +/- 0.01 | 0.03 +/- 0.01 | 0.80 +/- 0.01 | 0.02 +/- 0.01 |
+| Saudi Arabia | 0.01 +/- 0.00 | 0.29 +/- 0.01 | 0.05 +/- 0.00 | 0.87 +/- 0.00 | 0.03 +/- 0.00 |
 
-**Health risk (Table 6 summary):**
-- Cd: EDI 0.037 µg/kg bw/day (developed), 0.030 (developing); THQ << 1; safe at any frequency
-- Pb: EDI 0.197 µg/kg bw/day (developed), 0.179 (developing); THQ << 1
-- Hg: EDI 0.156 µg/kg bw/day (developed), 0.220 (developing); THQ > 1 when eating 7×/week; permissible at 1–3×/week
-- iAs: TCR (carcinogenic) exceeded 10⁻⁴ threshold when consuming >1 meal/week in some scenarios
-
-**ICP-MS LODs:** As 0.025 ppb, Cd 0.18 ppb, Pb 0.15 ppb, Hg 0.05 ppb.
-
-**Fish species:** primarily Katsuwonus pelamis (skipjack tuna) and Thunnus albacares (yellowfin); some Thunnus alalunga (albacore) and Thunnus tonggol.
+The results section states that Cd and Hg values were below the cited limit values in all samples, and that only Pb concentrations were found above limit values in samples purchased from England, Saudi Arabia, and Russia. The abstract states that Hg THQ values were above the source's safe-limit criterion for higher-frequency consumers and that calculated iAs TCR indicated carcinogenic risk when consuming more than one canned-tuna meal per week.
 
 ## Methods (brief)
 
-222 canned tuna samples from 36 countries, 34 brands, purchased 2017–2019. 3 cans per country per brand. Meal size 120 g (whole can). Microwave digestion (Milestone Ethos D Plus 1): HNO₃ 65% (7 mL) + H₂O₂ 30% (1 mL); program to 220°C. ICP-MS (Perkin Elmer Nexion 1000 NexION 1000, USA). iAs estimated as 3% of total As (Okati et al. 2021). THQ calculated per EPA/FAO WHO RfDs: Cd 0.3 µg/kg bw/day, Pb 0.10 µg/kg bw/day, Hg 1.0 µg/kg bw/day. Analysis per AOAC 999.10. CRM ERM-CE278k validated (recovery 98.17–108.45%).
-
-## Limitations
-
-Inorganic arsenic is estimated as 3% of total As rather than directly speciated — this is a significant limitation given that most arsenic in fish muscle is organic (arsenobetaine) and essentially non-toxic. The iAs carcinogenic risk estimates are therefore conservative and may substantially overestimate risk. The England and Russia Pb exceedances warrant follow-up but are based on n=3 samples each. The iAs 3% assumption is a methodological shortcut that overstates risk; direct speciation would likely show iAs < 1% of total As in skipjack tuna.
+Canned tuna samples were randomly purchased from supermarket chains in Europe, Asia, Africa, North America, South America, and Oceania. The liquid medium was poured off before digestion. Approximately 0.5 g sample was digested with 7 mL 65% nitric acid and 1 mL 30% hydrogen peroxide in a Milestone Ethos D microwave system, then diluted to 50 mL. As, Cd, Pb, and Hg were measured by Perkin Elmer NexION 1000 ICP-MS. Certified reference material ERM-CE278k was analyzed, with recoveries of 102.67% for Cd, 108.39% for Pb, 108.45% for Hg, and 98.17% for As.
 
 ## Implications
 
-- Certification: Confirms that Cd and Pb in canned tuna are consistently well below regulatory limits across all 36 countries tested. Mercury in canned tuna from high-frequency consumers (7×/week) warrants attention but is below limits at 1–3 servings/week — relevant for any HMT&C program extension to seafood.
-- Courses: Excellent example of why total arsenic is not the appropriate risk metric for seafood — the 3% iAs assumption illustrates the problem and directly supports the wiki's non-substitution rule (tAs ≠ iAs).
-- App: Provides global canned tuna concentration baseline: Cd mean ~0.02 µg/g ww; Pb mean ~0.10 µg/g ww; Hg mean ~0.10 µg/g ww; total As ~0.30–0.65 µg/g ww.
-- Microbiome: Not applicable.
+This source contributes broad global occurrence data for canned tuna. It is useful for canned-fish and predatory-marine-fish routing, but the arsenic and mercury species must stay constrained: arsenic concentration values are total As, and mercury concentration values are total Hg. The paper's calculated iAs and risk outputs are source assumptions, not direct inorganic-arsenic measurements.
 
-## Wiki pages updated on ingest
+## Verification notes
 
-- [[metals/arsenic]]
-- [[metals/lead]]
-- [[metals/cadmium]]
-- [[metals/mercury]]
-- [[ingredients/fish]]
-- [[products/canned-seafood]]
+- PDF text extracted with `pdftotext -layout`; title page, methods, Tables 3-6, results, and conclusions were readable.
+- DOI `10.1016/j.marpolbul.2022.114518` matched this existing source page. The manual-fetch PDF has the same SHA-256 as the prior raw/studies copy, so this edit is a merge-enhancement rather than a new duplicate page.
+- Table 6 group means and EDI values were checked against the extracted text. Selected Table 4-5 country rows were checked directly. A prior page transposition was corrected: England's Pb is `0.64 +/- 0.01`, while `1.28 +/- 0.00` is England's total As.
+- Units are preserved as `µg/g ww` for concentration values and `µg/kg bw/day` for EDI values. No unit conversion was performed.
+- Speciation: total As and total Hg were measured. Calculated iAs is a 3% total-As assumption used for risk assessment and is not treated as measured iAs occurrence. Hg is not reported as MeHg.
+- Brand firewall: although brands were sampled, this page reports country/group summaries only and does not attach brand names to contamination values.
+- Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
