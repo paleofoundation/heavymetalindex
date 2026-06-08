@@ -12,9 +12,9 @@ evidence_tier: B
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-thg_2018_10-26444-aaem-84934.pdf"
 metals: ["tHg"]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/swordfish]]"]
-products: ["[[products/seafood]]", "[[products/fresh-fish]]"]
-matrices: ["fish", "fish-products", "swordfish", "shark", "king-mackerel"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]"]
+products: ["[[products/seafood]]", "[[products/fish-freshwater]]"]
+matrices: ["fish", "fish-products", "freshwater-fish", "king-mackerel"]
 jurisdictions: ["SK"]
 sample_population: "Fish and fish-product samples from food retail in Eastern Slovakia and fish from the Ruzin water reservoir"
 wiki_doi: null
@@ -32,11 +32,12 @@ This study monitored total mercury in fish and fish products from retail in East
 Source units are mg/kg.
 
 - Total fish and fish-product samples: 384.
-- Samples above the European Commission mercury maximum level: 194 samples, 50.52% of all samples.
+- Samples above the European Commission mercury maximum level: 194 samples, 50.52% of all samples (Table 3, Results section; the abstract reports 184, a typo).
 - Mercury concentrations ranged from 0.08942 to 6.552.
-- Mean mercury concentration: 1.2 +/- 1.2.
-- Median mercury concentration: 0.6.
-- The highest concentration was 6.552 in muscle from fish from the Ruzin water reservoir, more than 13 times the 0.5 mg/kg comparison level.
+- Mean mercury concentration: 1.17265 (reported by the authors as 1.2 ± 1.2 in narrative; Table 3 reports SD 1.22670).
+- Median mercury concentration: 0.57220 (reported as 0.6 in narrative).
+- The highest concentration (6.552) was in muscle of asp (Leuciscus aspius) from the Ružín water reservoir, more than 13 times the 0.5 mg/kg comparison level.
+- The highest concentration among retail samples was 3.722 in King mackerel (Scomberomorus cavalla).
 
 ## Methods
 
@@ -44,19 +45,21 @@ Total mercury was measured using an AMA 254 atomic absorption mercury analyzer. 
 
 ## Implications
 
-The source supports fish/seafood total-mercury surveillance context for Slovakia. The dataset combines retail fish/products and reservoir fish, so local reservoir findings should not be pooled blindly with retail seafood. The authors' consumer-safety conclusion specifically calls out shark, swordfish, and king mackerel as categories of concern for children, women of childbearing age, pregnant women, and nursing mothers.
+The source supports fish/seafood total-mercury surveillance context for Slovakia. The dataset combines retail fish/products and reservoir fish, so local reservoir findings should not be pooled blindly with retail seafood. The reservoir samples (10 freshwater species from the Ružín reservoir, draining historic mining areas) drive the dataset's high-end values; the retail samples cover marine fish and processed fish products. The authors' consumer-safety conclusion echoes FDA/EPA advisories (citing refs 8, 47, 48) calling out shark, swordfish, and king mackerel as categories of concern for children, women of childbearing age, pregnant women, and nursing mothers — but shark and swordfish were not measured in this study; only king mackerel was. Direct evidence from this paper applies to freshwater fish and the measured retail species, not shark or swordfish.
 
 ## Wiki pages this source may touch
 
 - [[ingredients/fish]]
-- [[ingredients/swordfish]]
+- [[ingredients/freshwater-fish]]
 - [[products/seafood]]
+- [[products/fish-freshwater]]
 - [[metals/mercury-total]]
 
 ## Verification notes
 
 - Source identity checked against DOI 10.26444/aaem/84934 and the downloaded PDF.
 - The paper reports total mercury, not methylmercury.
+- Autonomous audit 2026-06-09 (kimakova2018-fish-products-slovakia-mercury): removed routing to swordfish and shark from frontmatter and from "Wiki pages this source may touch" — neither species was measured in this study; both appear only in the Conclusions/Recommendations text as a general FDA/EPA-derived consumer advisory citing refs 8, 47, 48. King mackerel WAS measured (retail max 3.722 mg/kg) and is preserved as a matrix. Added [[ingredients/freshwater-fish]] and [[products/fish-freshwater]] because the 10 reservoir species and the maximum-value sample (asp from Ružín reservoir) are freshwater. Refined Key numbers to show source-reported precision and to name the species (asp) underlying the 6.552 mg/kg maximum.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
