@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-cd_2022_10-47191-ijcsrr-v5-i7-03.pdf"
 metals: ["tHg", "Pb", "tAs", "Cd"]
 ingredients: ["[[ingredients/swordfish]]", "[[ingredients/fish]]"]
-products: ["[[products/seafood]]"]
+products: ["[[products/seafood]]", "[[products/fish-marine-predatory]]"]
 matrices: ["swordfish", "yellowfin-tuna"]
 jurisdictions: ["LK"]
 sample_population: "Secondary heavy-metal analysis data for swordfish and yellowfin tuna from Sri Lankan export companies, 2015-2017"
@@ -39,11 +39,11 @@ Source units are ppm/mg/kg as mapped categories unless otherwise stated.
 
 ## Methods
 
-The study used log-sheet waypoints from two major fish export companies and QGIS mapping of Hg values. Export-company testing was conducted once per three months.
+The study used secondary heavy-metal analysis data supplied by two unnamed Sri Lankan fish-export companies, with export-company testing conducted once per three months over January 2015 to August 2017. The authors then traced log-sheet waypoints to particular catching vessels and used QGIS to map Hg values against fish species, dividing the catch area into four stations (station 1: 64-70°E, 0-8°N; station 2: 76-80°E, 0-8°N; station 3: 88-92°E, 14-18°N; station 4: 82-90°E, 6-14°N). Mercury map color bins were 0.00-0.60 ppm (blue), 0.60-0.80 (green), 0.80-1.00 (yellow), and 1.00-2.00 (red). The paper does not describe any of the underlying analytical chemistry — no instrument (AAS, ICP-MS, CV-AAS), no limit of detection, no certified reference material, and no digestion or sample-preparation procedure is reported. This limits the analytical defensibility of the non-detect claims for Cd, As, and Pb and of the Hg values themselves.
 
 ## Implications
 
-The source is useful for geographic/seasonal swordfish mercury context and for non-detect flags for Cd, As, and Pb in the tested export dataset. The mapped categories should not be mistaken for individual sample values.
+The source is useful for geographic/seasonal swordfish mercury context in the Indian Ocean export fishery off Sri Lanka. It provides per-station exceedance proportions against the 1 ppm and 0.8 ppm thresholds (station 1: 40.33% > 1 ppm, 81.93% > 0.8 ppm; station 2: 9.73% > 1 ppm, 29.55% > 0.8 ppm; station 3: 10.81% > 1 ppm, 72.97% > 0.8 ppm) and seasonal exceedance proportions at station 2 across June, July, August, and September 2017. The Cd, As, and Pb non-detect flag should be cited only with the caveat that the source provides no LOD or analytical method, so non-detect cannot be quantified against any specific instrument floor. The mapped categories are not individual sample values.
 
 ## Wiki pages this source may touch
 
@@ -59,6 +59,8 @@ The source is useful for geographic/seasonal swordfish mercury context and for n
 
 - Source identity checked against DOI 10.47191/ijcsrr/V5-i7-03 and the downloaded PDF.
 - The paper misspells lead as "Led" in several places; this page records the analyte as Pb.
+- No `ingredients/yellowfin-tuna` slug exists in the current taxonomy; the yellowfin tuna n=33 cohort is captured via the `matrices: yellowfin-tuna` field and via the generic `ingredients/fish` and `products/seafood` plus `products/fish-marine-predatory` routing. If a yellowfin-tuna ingredient page is later created, this source should be added to its routing.
+- The Results section describes station 2 (76-80°E, 0-8°N) as containing the "highest capture" of swordfish; this refers to harvest density, not the highest Hg concentration. Station-level exceedance percentages and the paper's own abstract and conclusion identify station 1 (64-70°E, 0-8°N) as the area of highest Hg accumulation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -67,9 +69,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
