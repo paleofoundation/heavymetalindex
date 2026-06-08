@@ -17,13 +17,13 @@ ingredients: ["[[ingredients/wild-mushrooms]]"]
 products: ["[[products/non-root-vegetables]]"]
 matrices: [wild-mushroom, cultivated-mushroom]
 jurisdictions: [PL, EU]
-near_duplicates: []
+near_duplicates: ["raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Cadmium and Lead in Wild Edible Mushrooms from the Eastern Region of Poland's 'Green Lungs'.pdf"]
 sample_n: 63
 sample_population: "21 mushroom species (18 wild, 3 cultivated), 3 specimens each; wild species sampled from 6 communal areas in Podlaskie Province (eastern Green Lungs of Poland), 2007–2010; cultivated species (Agaricus bisporus, Pleurotus ostreatus, Lentinus edodes) purchased from local food markets; n=63 individual samples total"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-20
+updated: 2026-06-08
 ---
 
 # Mirończuk-Chodakowska et al. 2013 — Cadmium and lead in wild and cultivated mushrooms, eastern Poland
@@ -130,6 +130,8 @@ No speciation was performed; only total Pb and total Cd are reported. The study 
 - Brand-firewall compliance (Part 12 strict reading): no brand names in source-page content. "PerkinElmer NexION 300D" (ICP-MS instrument) and "Speedwave, Berghof" (microwave digester) are scientific-method vendor names per the Exception 2 carve-out and remain. "Agaricus bisporus (white)" is a species-and-form descriptor as reported by the paper, not a brand.
 - Speciation conventions (Part 14): paper measured total Pb and total Cd only by ICP-MS; no Hg, As, Cr, or Cr-VI speciation. Frontmatter `metals: [Pb, Cd]` matches.
 
+**2026-06-08 byte-identical filesystem-copy enhancement:** added a `near_duplicates` entry recording the Kimi agent's June 8 placement of the same PDF under `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/`. SHA-256 verified byte-identical to the canonical `raw_path` (`169923ea1feb51b63a9dd37049d480dd8d06aef31298e5c22a2c59d45d7bc0dc`); the same hash also appears at three other Kimi-corruption-issue paths (`May 21 .../papers/02_Vegetables_and_Vegetable_Products/`, `June 8/.../papers/02_Vegetables_and_Vegetable_Products/`, and `manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/`). Manual-fetch loop now recognizes the June 8 `_extracted_` location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -137,9 +139,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
