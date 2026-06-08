@@ -14,47 +14,50 @@ license: "CC BY-NC 4.0"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-meat-poultry-cd_2020_10-4081-ijfs-2020-8659.pdf"
 sha256: cb88d77158229bdf2a9cc47e8699de4ee7876bf52c1563b24be646d47870efb8
 metals: [Cd, Pb, tHg, Cr, Cu, Mn, Ni, Zn, Se, Co]
-ingredients: ["[[ingredients/chicken]]", "[[ingredients/meat]]"]
+ingredients: ["[[ingredients/chicken]]", "[[ingredients/meat]]", "[[ingredients/organ-meats]]"]
 products: ["[[products/poultry-product]]"]
 matrices: [chicken-liver, poultry-offal]
 jurisdictions: [IQ]
 sample_n: 20
-sample_population: "Chicken liver samples collected from markets in Erbil city, Kurdistan Region, Iraq."
+sample_population: "Twenty chicken liver samples — five frozen retail-market livers (one local Erbil pair plus imported Iran, Turkey, UAE) and fifteen fresh livers from local slaughterhouses in Erbil and Duhok, Kurdistan Region, Iraq, collected June-July 2019."
 wiki_doi: null
-sampling_locations: []
-sampling_year_range: null
-updated: 2026-05-25
+sampling_locations: [Erbil, Duhok]
+sampling_year_range: "2019"
+updated: 2026-06-08
 ---
 
 # Ali et al. 2020 - Chicken Liver Heavy Metals in Erbil
 
-Ali et al. measured ten trace and toxic elements in twenty chicken liver samples from Erbil city markets using ICP-OES. The paper is direct poultry offal occurrence evidence, not muscle-meat evidence.
+Ali et al. measured ten trace and toxic elements in twenty chicken liver samples from Erbil and Duhok (Kurdistan Region, Iraq) using ICP-OES on dried, acid-digested tissue. The paper is direct poultry offal occurrence evidence, not muscle-meat evidence, and reports all values on a dry-weight basis.
 
 ## Key numbers
 
-The abstract reports mean concentrations in mg/kg: Cd 0.07 +/- 0.037, Pb 0.278 +/- 0.10, Hg 0.11 +/- 0.083, Se 2.01 +/- 0.454, Cr 0.06 +/- 0.05, Cu 2.05 +/- 0.34, Mn 1.85 +/- 0.47, Ni 0.15 +/- 0.17, Zn 33.53 +/- 5.24, and Co 0.06 +/- 0.027. The authors state that Hg and Pb exceeded WHO permissible limits.
+All means are reported on a **dry-weight basis** (samples oven-dried at 100°C for 12 h to constant weight before digestion; Figure 1 explicitly labels totals as "mg/kg of dry weight"). Mean concentrations in mg/kg dry weight (n=20): Cd 0.07 ± 0.037, Pb 0.278 ± 0.10, tHg 0.11 ± 0.083, Se 2.01 ± 0.454, Cr 0.06 ± 0.05, Cu 2.05 ± 0.34, Mn 1.85 ± 0.47, Ni 0.15 ± 0.17, Zn 33.53 ± 5.24, Co 0.06 ± 0.027. The authors report that Cu, Pb, and Hg means significantly exceeded the WHO/FAO Codex permissible limits (Cu PL 0.4, Pb PL 0.10, Hg PL 0.1 mg/kg); about 45% of individual samples exceeded the Hg limit (Results section; the Discussion paragraph gives 40%, presumably a counting-rule difference) and 15% exceeded the Zn limit (PL 50 mg/kg). Cd, Co, Cr, Mn, and Ni means were below their respective WHO limits. Nickel was below the limit of detection in 60% (12/20) of samples and Cr in 45% (9/20).
 
 ## Methods (brief)
 
-Twenty chicken liver samples were collected from Erbil city markets and analyzed by inductively coupled plasma optical emission spectrometry for Cd, Co, Cr, Cu, Mn, Ni, Pb, Hg, Zn, and Se.
+Twenty chicken liver samples — five frozen retail-market livers (local Erbil plus imported product from Iran, Turkey, and UAE) and fifteen fresh livers from local Erbil and Duhok slaughterhouses (breeds noted as Broiler, Golden Comet, Country Chicken, Parent Broiler) — were collected June-July 2019. Liver tissue was homogenized, oven-dried at 100°C for 12 h, and 0.70 g was acid-digested with 5 mL HNO3 (65%) at 150°C for 20 min followed by 3 mL H2O2 (50%), diluted to 25 mL with deionized water, and analyzed in triplicate by inductively coupled plasma optical emission spectrometry (Spectro, Germany) for Cd, Co, Cr, Cu, Mn, Ni, Pb, Hg, Zn, and Se. Method accuracy was checked against NIST SRM 1640 (Trace Elements in Natural Water). Statistical comparisons used one-sample t-tests and one-way ANOVA in SPSS v21 at p=0.05.
 
 ## Implications
 
-This source supports poultry offal and chicken-liver context. It should not be pooled with breast/thigh muscle without an offal basis flag. Total mercury is not methylmercury.
+This source supports poultry offal and chicken-liver context. It should not be pooled with breast/thigh muscle without an offal basis flag, and its dry-weight values should not be pooled with fresh-weight regulatory ceilings without conversion. Total mercury is not methylmercury; the ICP-OES instrument measured total Hg without organic/inorganic speciation, so the value bounds (not equals) MeHg exposure.
 
 ## Wiki pages this source may touch
 
 - [[products/poultry-product]]
 - [[ingredients/chicken]]
 - [[ingredients/meat]]
+- [[ingredients/organ-meats]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
+- [[metals/copper]]
 
 ## Verification notes
 
-- Batch 5 auto-fetched ingest, 2026-05-25.
-- The PDF text layer is poorly ordered; the abstract and tables agree on the headline toxic-metal means used here.
+- Batch 5 auto-fetched ingest, 2026-05-25; audit applied 2026-06-08.
+- The PDF text layer is poorly ordered; the abstract, Tables 3-4, and Figure 1 agree on the headline toxic-metal means and on the dry-weight basis used here.
+- Source is internally inconsistent on Hg per-sample exceedance fraction: Results section reports "about 45%" while the Discussion paragraph reports 40%. Table 4 direct count is 9/20 (45%) using strict > 0.1 mg/kg.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -63,9 +66,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
