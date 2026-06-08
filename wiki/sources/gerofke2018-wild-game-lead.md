@@ -17,8 +17,8 @@ products: ["[[products/game-meats]]"]
 matrices: [wild-game-meat]
 jurisdictions: [DE]
 near_duplicates: []
-sample_n: null
-sample_population: "wild game meat from Germany shot with lead or non-lead ammunition"
+sample_n: 2108
+sample_population: "1,254 roe deer (Capreolus capreolus) and 854 wild boar (Sus scrofa) from six German regions stratified by topsoil lead content; shot with either lead or non-lead ammunition"
 updated: 2026-05-29
 ---
 # Gerofke et al. 2018 - Lead in wild game shot with lead and non-lead ammunition
@@ -27,14 +27,29 @@ Gerofke and colleagues measured lead in wild game meat and compared animals shot
 
 ## Key numbers
 
-- The study reports arithmetic mean, median, geometric mean, and 95th percentile lead values for game-meat groups.
-- Values below LOD or LOQ were substituted as 0.5 times the LOD or LOQ for arithmetic mean and median calculations.
-- The authors state that, for cervids and wild boar, lead ammunition significantly increased lead concentrations in game meat.
-- The paper notes that detected concentrations were in the range regularly found in game meat available from the German food trade.
+All values are total lead in mg/kg wet weight (muscle samples were digested without prior drying). Sub-LOD/LOQ values were substituted at 0.5 × LOD or LOQ (middle-bound) before mean and median calculation.
+
+Roe deer (Capreolus capreolus), pooled across haunch, saddle, and close-to-wound-channel subsamples (Table 5):
+
+- Lead-shot animals (n = 2,235 subsamples from 745 animals): arithmetic mean 5.032; geometric mean 0.0072 (95% CI 0.0036–0.013); median 0.011; P95 0.582; P97 1.713; max 4,727.979 mg/kg.
+- Non-lead-shot animals (n = 1,527 subsamples from 509 animals): arithmetic mean 0.276; geometric mean 0.0014 (95% CI 0.001–0.0018); median 0.003; P95 0.052; P97 0.084; max 190.400 mg/kg.
+
+Wild boar (Sus scrofa), pooled across haunch, saddle, and close-to-wound-channel subsamples (Table 6):
+
+- Lead-shot animals (n = 1,542 subsamples from 514 animals): arithmetic mean 5.367; geometric mean 0.0109 (95% CI 0.0047–0.075); median 0.025; P95 1.446; P97 5.809; max 1,582.060 mg/kg.
+- Non-lead-shot animals (n = 1,020 subsamples from 340 animals): arithmetic mean 0.883; geometric mean 0.0017 (95% CI 0.0012–0.0074); median 0.0025; P95 0.058; P97 0.125; max 351.932 mg/kg.
+
+Lead ammunition produced a statistically significant increase in median lead content across all three subsamples in both species (Tobit regression, P < 0.001). Lead content rose with proximity to the wound channel: in lead-shot roe deer, mean values were 0.169 mg/kg in the haunch, 0.968 mg/kg in the saddle, and 13.958 mg/kg close to the wound channel; the corresponding wild-boar means were 0.086, 1.716, and 14.302 mg/kg. The percentage of samples above LOD/LOQ exceeded 50% only for the area close to the wound channel.
+
+One within-paper anomaly: in the wild-boar saddle subsample the arithmetic mean for non-lead animals (1.904 mg/kg) slightly exceeded that for lead-shot animals (1.716 mg/kg), a result the authors flag as inconsistent with the overall pattern. Median, P95, and maximum at this same site remained higher for lead-shot animals.
+
+The authors place these values within the range reported by other European studies on roe deer and wild boar (Table 8).
 
 ## Methods (brief)
 
-The authors analyzed lead in game meat and compared ammunition categories. Statistical summaries include mean, median, geometric mean, and upper-percentile values. The study reports total lead; no lead isotope or species distinction is used for routing.
+Licensed hunters shot game during the regular German hunting season using preselected lead-based (semi-jacketed) or non-lead (monolithic copper or copper-alloy) bullets. Six regions were stratified by topsoil lead content (low <30, medium 30–75, high >75 mg Pb/kg soil) to separate ammunition-derived from background contamination. From each carcass, trained game traders collected three 100 g subsamples from the marketable meat: haunch, saddle, and the area close to the wound channel after the bullet path was trimmed by standard hygienic practice. Samples were frozen at -18 °C and distributed across 12 laboratories.
+
+Lead in muscle was measured after high-pressure microwave digestion in line with EN 13805:2014, with detection by inductively coupled plasma mass spectrometry (ICP-MS) or inductively coupled plasma optical emission spectrometry (ICP-OES). The study reports total lead only; no isotopic or chemical-species differentiation was performed. Arithmetic mean, median, geometric mean, 95th and 97th percentiles, and maxima are reported per species and per subsample, with sub-LOD/LOQ values substituted at 0.5 × LOD or LOQ (middle bound). Geometric means with 95% confidence intervals were estimated by Tobit regression to accommodate left-censoring; the underlying Tobit estimates were previously reported by the same group (Müller-Graf et al. 2017). Violin plots and statistical comparisons were produced in R 3.3.1 with ggplot2.
 
 ## Implications
 
@@ -49,6 +64,7 @@ App: Game-meat risk scoring can treat ammunition type as a meaningful exposure m
 - [[products/game-meats]]
 - [[ingredients/meat]]
 - [[metals/lead]]
+- [[regulations/efsa-lead-contam-2010]]
 
 ## Verification notes
 
