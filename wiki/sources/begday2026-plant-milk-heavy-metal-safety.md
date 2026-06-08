@@ -126,6 +126,8 @@ Courses: Useful for illustrating (a) the structural difference between commercia
 - [[products/rice-beverages-rice-milk]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+- [[metals/zinc]]
+- [[metals/copper]]
 
 ## Verification notes
 
@@ -142,3 +144,7 @@ The source reports a single basis ("mg/kg of product") without explicitly labeli
 The source's MPC reference (SanPiN 42-123-4089-86, "Predel'no dopustimyye kontsentratsii tyazhelykh metallov i mysh'yaka v prodovol'stvennom syr'ye i pishchevykh produktakh") is a Soviet-era 1986 sanitary regulation that remains in force in the Russian Federation for these analytes. No corresponding wiki regulation page exists at the time of ingest; future synthesis touching Russian-jurisdiction plant beverages may warrant a `regulations/ru-sanpin-42-123-4089-86-heavy-metals.md` page (Karen's Step 0 Lock if added).
 
 The four commercial samples represent four different product botanical categories (almond, rice, coconut, oat); within-category replication is n = 1 per botanical, which constrains the source to plausibility-anchor evidence rather than population-percentile evidence for any individual product category. The four laboratory-prepared samples likewise represent four different cereal raw materials (two buckwheat varieties, oat, rice) with n = 1 per raw material. The total study n = 8 split across eight distinct product-by-preparation combinations means the source contributes one data point per ingredient-by-product cell rather than a distribution.
+
+The source contains two internal Russian-text vs. Table 1 inconsistencies that this page resolves in favor of Table 1: (a) the p. 62 Russian narrative says "the highest Pb is in rice milk «Здоровое меню» at 0.0241 mg/kg = 4.8% of MPC" but Table 1 shows the rice-beverage Pb cell as 0.0296 mg/kg, and the actual study maximum Pb is 0.0530 mg/kg in mature-buckwheat-groat lab milk; (b) the same p. 62 paragraph says Cd "ranged from 0.0106 to 0.0113 mg/kg" but Table 1 shows the Cd range across all four detected samples as 0.0068 to 0.0108 mg/kg. This page uses Table 1 throughout because the table is the primary data record; the narrative values are not propagated.
+
+Audit subagent (2026-06-08, agent a85bea8c) flagged that the Wiki-pages-this-source-may-touch list omitted `[[metals/zinc]]` and `[[metals/copper]]` despite the source measuring both metals and despite both metal pages existing in the wiki; verified independently — both pages confirmed present in `wiki/metals/` (zinc.md, copper.md). Added both wikilinks. All other audit checks returned ✅ clean; verdict PROMOTE with this single completeness improvement.
