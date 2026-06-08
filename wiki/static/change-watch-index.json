@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-02T13:42:41.862Z",
+  "generated_at": "2026-06-05T17:58:48.343Z",
   "schema_version": "1.0.0",
   "canonical_base": "https://heavymetalindex.com",
-  "total_events": 716,
+  "total_events": 717,
   "categories_touched": 23,
   "recent_global": [
     {
@@ -1143,6 +1143,20 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/breakfast-cereal-non-rice": {
+      "slug": "products/breakfast-cereal-non-rice",
+      "label": "Breakfast cereal — non-rice (wheat, oat, corn, mixed-grain)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/breakfast-cereal-rice-based": {
+      "slug": "products/breakfast-cereal-rice-based",
+      "label": "Breakfast cereal — rice-based (puffed rice, rice flakes, crisped rice)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/breath-fresheners": {
       "slug": "products/breath-fresheners",
       "label": "Breath fresheners (sprays/strips/lozenges)",
@@ -1153,6 +1167,13 @@
     "products/butter-and-ghee": {
       "slug": "products/butter-and-ghee",
       "label": "Butter and ghee",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/canned-seafood": {
+      "slug": "products/canned-seafood",
+      "label": "Canned seafood (with tin flag)",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -1217,6 +1238,13 @@
       "slug": "products/childrens-nail-polish",
       "label": "Children's Nail Polish (ages 0-5)",
       "category_label": "Infant and Child Personal Care",
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/chocolate": {
+      "slug": "products/chocolate",
+      "label": "Chocolate",
+      "category_label": null,
       "event_count": 0,
       "recent_events": []
     },
@@ -2231,6 +2259,13 @@
     "products/home-air-emission-products-other": {
       "slug": "products/home-air-emission-products-other",
       "label": "Other home-air emission products (case-by-case, inhalation prioritized)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/honey": {
+      "slug": "products/honey",
+      "label": "Honey",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -5216,6 +5251,13 @@
     "products/sparkling-carbonated-water": {
       "slug": "products/sparkling-carbonated-water",
       "label": "Sparkling/carbonated water (unflavored)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/spices": {
+      "slug": "products/spices",
+      "label": "Spices",
       "category_label": null,
       "event_count": 0,
       "recent_events": []

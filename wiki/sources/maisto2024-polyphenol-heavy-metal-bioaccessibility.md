@@ -105,7 +105,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [81ae93e](https://github.com/paleofoundation/heavymetalindex/commit/81ae93e) | 2026-06-02 | audit: maisto2024-polyphenol-heavy-metal-bioaccessibility promoted |
 | [7f30262](https://github.com/paleofoundation/heavymetalindex/commit/7f30262) | 2026-06-02 | ingest: maisto2024-polyphenol-heavy-metal-bioaccessibility enhanced from Manual Fetch Kimi /June 2 Manual Fetches |
-| [657ade3](https://github.com/paleofoundation/heavymetalindex/commit/657ade3) | 2026-06-02 | ingest June 2: maisto2024-polyphenol-heavy-metal-bioaccessibility |
 <!-- END: hmi-page-history -->

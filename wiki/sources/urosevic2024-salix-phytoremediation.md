@@ -11,7 +11,7 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/plants-13-00735.pdf"
-metals: [Ni, Cu, Cd, Cr, Pb, As]
+metals: [Ni, Cu, Cd, Cr, Pb, tAs]
 ingredients: []
 products: []
 matrices: [mining-basin-soil, salix-root, salix-stem, salix-leaf, phytoremediation-trial]
@@ -66,9 +66,9 @@ The authors report significant genotype effects for Cd and Cr in contaminated pl
 
 ## Methods (brief)
 
-About 5 tons of contaminated soil were excavated from the Kanal Crnih voda site in Serbia's Kolubara Mining Basin, homogenized, and packed into 480 polyethylene bags for the contaminated-substrate experiment. The four willow genotypes were one basket willow genotype and three white willow clones: B-44, NS 73/6, and 347. Cuttings were planted in March 2019, and root, stem, and leaf samples were taken at the end of the 2021 growing season.
+About 5 tons of contaminated soil were excavated from the Kanal Crnih voda site in Serbia's Kolubara Mining Basin, homogenized, and packed into 480 polyethylene bags for the contaminated-substrate experiment. The four willow genotypes were one basket willow genotype and three white willow clones: B-44, NS 73/6, and 347. Cuttings were soaked in fungicide [Cu2(OH)3Cl] before planting, which is a methodological confounder for the reported Cu accumulation in willow tissues because the pre-treatment introduces Cu to the cuttings independent of soil uptake. Cuttings were planted in March 2019, and root, stem, and leaf samples were taken at the end of the 2021 growing season.
 
-Soils were air-dried, ground, sieved, and digested with aqua regia in a Milestone ETHOS EASY microwave digestion platform. Plant materials were dried at 40 degrees C, ground, digested with concentrated nitric acid and hydrogen peroxide, and brought to volume. Soil and plant metals were measured in repeated determinations using a VISTA-PRO ICP-OES system. The reported analytes are total elemental concentrations after digestion, not arsenic, chromium, or mercury species.
+Soils were air-dried, ground, sieved, and digested with aqua regia in a Milestone ETHOS EASY microwave digestion platform. Plant materials were dried at 40 degrees C, ground, digested with concentrated nitric acid and hydrogen peroxide, and brought to 25 mL. Soil and plant metals were measured in repeated determinations (n = 6 per soil condition and per organ/clone) using a VISTA-PRO ICP-OES system. The reported analytes are total elemental concentrations after digestion, not arsenic, chromium, or mercury species. Statistical analysis used ANOVA with Fisher's LSD post hoc test and canonical discriminant analysis in Statgraphics Centurion ver. XVI.I.
 
 ## Implications
 
@@ -94,6 +94,12 @@ Courses: Good teaching example for separating environmental remediation data fro
 
 This page was built from the full PDF, including the abstract, Table 1 soil concentrations, Figure 1 soil summaries, Table 2 root/stem/leaf concentrations, Figure 2 organ plots, Table 3 genotype comparisons and CDA results, the discussion, materials and methods, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source does not measure edible commodities or consumer products. The source reports total elemental concentrations after digestion; arsenic and chromium species are not separated.
 
+Audit subagent (2026-06-02) flagged frontmatter `metals: [..., As]` as inconsistent with CLAUDE.md Part 14, which lists tAs/iAs as non-negotiable speciation distinctions; verified against source Methods (aqua regia + HNO3/H2O2 digestion, ICP-OES, no inorganic-arsenic separation) — corrected frontmatter to `tAs`. Body prose retains "As" per the dominant convention in other tAs-tagged source pages.
+
+Audit subagent (2026-06-02) flagged the Cu2(OH)3Cl fungicide pre-treatment as a methodologically important omission from the prior Methods section; verified against source page 13 ("The willow cuttings were soaked in fungicide [Cu2(OH)3Cl] before planting.") — added a one-sentence note in Methods that this is a confounder for Cu accumulation results.
+
+Audit subagent (2026-06-02) flagged the five `matrices:` strings (mining-basin-soil, salix-root, salix-stem, salix-leaf, phytoremediation-trial) as outside the standard matrices vocabulary. Per the systemic-vocab-gap precedent established by jarwar2023, houston2023, yang2023, and tang2024 retro-audits on 2026-06-02, non-standard remediation-domain matrices are documented as a systemic vocabulary gap rather than a per-page defect; matrices are retained as descriptive bare strings.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -101,5 +107,8 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [95683a0](https://github.com/paleofoundation/heavymetalindex/commit/95683a0) | 2026-06-02 | ingest June 2: urosevic2024-salix-phytoremediation |
 <!-- END: hmi-page-history -->

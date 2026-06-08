@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-toppers-mixers-broths.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 57e7ec47a03170364ab601b7fc4e8d3d063b6f1faa12020b8a0513b49df06b64
+source_page_sha256: 0f3bd05e6c36c9c18908ec301218cc2d67ed6269a1e1ffdc04d6df5a169680e2
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 635
+audit_log_total_rows: 789
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 635 |
+| audit log rows read | 789 |
 
 ## Page-level audit rows
 

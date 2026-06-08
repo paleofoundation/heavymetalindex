@@ -101,3 +101,16 @@ Limitations explicitly named by the authors (paper p. 11, §5): the SHIME® mode
 - `matrices: [simulated-gastrointestinal, in-vitro-digestion, intestinal-epithelium, gut-microbiome]` reuses bare-string matrix tokens that already appear in the corpus for SHIME / GEVS / bioaccessibility studies; no new matrix terms invented.
 - Jurisdictions are author-affiliation codes (Italy: Probiotical / University of Piemonte Orientale; Belgium: Ghent University CMET; Netherlands: Bron Consultancy) — the experiments are bench / ex vivo, not site-specific population sampling, so country codes describe where the science was performed rather than a sampling jurisdiction.
 - Audit subagent (2026-06-03) flagged four findings against the source: (1) ❌ asterisk-inequality bounds in the SHIME significance bullet ("0.05 < p ≤ 0.01" is mathematically impossible) — verified against paper p. 4 §2.4.5; corrected to the paper's verbatim "0.01 < p ≤ 0.05 (*)" and explicitly noted that the paper's printed ** bound is non-monotonic; (2) ⚠️ FITC-Dextran significance level on the LCR04 GEVS panel — verified against Figure 4A; corrected from ** to *** for the MIX vs MIX+LCR04 comparison; (3) ⚠️ Figure 4's atypical * = p < 0.1 convention (the paper's caption diverges from the standard p < 0.05 cutoff) — applied to the IL-10 LA12 line and flagged here so downstream readers do not silently inherit the standard threshold; (4) ⚠️ minor rounding of SHIME pancreatic juice oxgall from the paper's 15.9 g/L to 16 g/L in Methods — verified against paper p. 3 §2.4.1; corrected to 15.9 g/L. Audit verdict pre-revision: REVISE; post-revision: PROMOTE.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [281f6ec](https://github.com/paleofoundation/heavymetalindex/commit/281f6ec) | 2026-06-03 | audit: pane2026-probiotic-detoxification-heavy-metals-shime [revised] |
+| [453f365](https://github.com/paleofoundation/heavymetalindex/commit/453f365) | 2026-06-03 | ingest: pane2026-probiotic-detoxification-heavy-metals-shime [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/05_Wipes_Odor_Green_Cleaners |
+<!-- END: hmi-page-history -->

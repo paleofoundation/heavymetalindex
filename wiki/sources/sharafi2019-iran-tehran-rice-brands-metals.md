@@ -196,8 +196,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [e59ea58](https://github.com/paleofoundation/heavymetalindex/commit/e59ea58) | 2026-06-01 | audit: sharafi2019-iran-tehran-rice-brands-metals promoted |
-| [08b94a9](https://github.com/paleofoundation/heavymetalindex/commit/08b94a9) | 2026-06-01 | ingest: sharafi2019-iran-tehran-rice-brands-metals fresh from Manual Fetch Kimi/June 1 |
 <!-- END: hmi-page-history -->

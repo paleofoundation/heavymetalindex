@@ -240,3 +240,13 @@ Toxicology synthesis drew on US EPA 2001a, US NRC 1999 and 2001, ATSDR 2000, WHO
 - 2026-06-04 — Audit subagent (general-purpose, fresh context) verdict REVISE. Two ⚠️ findings in Check 5 (Part 2 wiki/HMTc firewall), no ❌ findings. Checks 1 (numerical fidelity across MAC, unit-risk, Table 1, all provincial occurrence ranges, Table 2 MDLs, dietary intake, Taiwan/Antofagasta/Steinmaus/Lamm/EPA-AwwaRF figures, lethal-dose range, half-life, relative-toxicity order), 2 (slug vocabulary), 3 (speciation and methods), and 4 (Part 12 brand firewall) returned clean. Both ⚠️ findings independently verified against the PDF and applied:
   - "This contrasts with later assessments (US EPA, EFSA) that have applied subgroup-specific exposure scaling for children" removed from the Subgroup-framing Implications bullet — verified against PDF pp. 2–3, 24: source only states that subpopulations are not at greater risk, does not contrast its position with later EFSA/US EPA assessments. Replaced with the source-internal US NRC reference Health Canada itself cites (US EPA 2001a, §9.1).
   - "all built on the southwestern Taiwan internal-organ cancer evidence with the Morales et al. 2000 Poisson-Weibull dose-response fit" narrowed to the Health Canada derivation alone — verified against PDF pp. 22–23: source documents only the Canadian use of Morales 2000 (cited Section 10.0). WHO 2003 and US EPA derivations of the 10 µg/L limit are not described in this document; the "all built on" phrasing over-claimed methodological identity across three agencies. Top-paragraph sentence and Implications bullet both narrowed accordingly.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

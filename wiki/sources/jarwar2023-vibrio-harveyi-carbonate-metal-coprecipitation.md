@@ -43,6 +43,8 @@ Source-reported standard deviations were +/- 1.948, 0.30, 0.26, and 0.86 mg/L fo
 
 The authors report that after 2 days, only 2.28% +/- 3.5% of the four metals remained in solution on average, equivalent to about 97.2% removal. They interpret the initial removal order as Cd greater than Cr greater than Pb greater than Zn. Zn, Cr, and Pb concentrations rose again after day 2, which the authors attribute to a precipitation-dissolution cycle during microbial carbonate precipitation; Cd continued to decline through day 10.
 
+Table 2 in the paper compares V. harveyi removal efficiency against other MICP-active bacterial strains from the literature; for V. harveyi at 2 days of incubation with 100 ppm single-metal spikes the authors report removal efficiencies of 92.4% Zn, 99.4% Cr, 99.6% Cd, and 99.1% Pb (Table 2 column order preserved).
+
 ### Carbonate precipitates
 
 The microbe precipitated calcium carbonate in the metal-bearing medium, while uninoculated controls did not show carbonate or heavy-metal precipitation. XRD and SEM/EDX linked metal removal to carbonate mineral phases:
@@ -50,7 +52,7 @@ The microbe precipitated calcium carbonate in the metal-bearing medium, while un
 | Metal treatment | Main precipitate observation | Source-reported metal in precipitate |
 | --- | --- | --- |
 | Cd | Calcite crystals with Cd associated mainly with crystal surfaces | SEM/EDX Cd ranged from 0.04 to 1.08 wt% |
-| Cr | Diverse carbonate morphologies; the paper describes Cr association with precipitates | Source notes high EDX variability but does not provide a single tabled range |
+| Cr | Diverse carbonate morphologies (rhombohedral and globular calcite) with deep dissolution marks; EDX varies greatly along crystal surfaces | SEM/EDX Cr ranged from 0.21 to 3.25 wt% |
 | Pb | Spherical aggregates of rhombohedral calcite; no cerussite or hydrocerussite detected | SEM/EDX Pb ranged from 0.11 to 1.53 wt%; ICP-AES digestion of selected crystals found Pb up to 41 +/- 1 ppm |
 | Zn | Vaterite was dominant, up to about 80% of the sample | SEM/EDX Zn on vaterite surfaces ranged from 0.08 to 1.52 wt% |
 
@@ -81,7 +83,11 @@ Courses: Useful for teaching why remediation capacity, dissolved supernatant con
 
 ## Verification notes
 
-This page was built from the full PDF, including the isolation methods, metal-resistance screening, precipitation test design, Table 1 supernatant concentrations, XRD discussion, SEM/EDX sections for Cd, Cr, Pb, and Zn, the Pb ICP-AES note, controls, and conclusion. The paper's Table 1 prints day-10 Cr as 0.53 mg/L and 9.30% remaining; those two values are internally inconsistent with each other and with the prose statement that day-10 Cr was 15.5 times higher than day-2 Cr, so the table is preserved as printed rather than repaired. The source uses broad chromium notation in its results and does not provide a product-relevant chromium species split; route as chromium context only, not Cr(VI) occurrence evidence.
+This page was built from the full PDF, including the isolation methods, metal-resistance screening, precipitation test design, Table 1 supernatant concentrations, Table 2 cross-strain comparison, XRD discussion, SEM/EDX sections for Cd, Cr, Pb, and Zn, the Pb ICP-AES note, controls, and conclusion. The paper's Table 1 prints day-10 Cr as 0.53 mg/L and 9.30% remaining; those two values are internally inconsistent with each other and with the prose statement that day-10 Cr was 15.5 times higher than day-2 Cr, so the table is preserved as printed rather than repaired. The source uses broad chromium notation in its results and does not provide a product-relevant chromium species split; route as chromium context only, not Cr(VI) occurrence evidence.
+
+2026-06-02 merge-enhance: added the Cr SEM/EDX range (0.21-3.25 wt%) from section 3.2 — earlier draft incorrectly stated the paper provided no tabled Cr EDX range. Added the Table 2 summary removal efficiencies for V. harveyi (92.4% Zn, 99.4% Cr, 99.6% Cd, 99.1% Pb at day 2 with 100 ppm single-metal spikes). No changes to frontmatter slugs; products and ingredients remain empty because this is a remediation/MICP study with no food, ingredient, or product matrix.
+
+2026-06-02 audit application: a fresh-context audit subagent re-read the PDF and the wiki page, verified all Table 1 dissolved-metal values, Cd/Cr/Pb/Zn SEM/EDX ranges, the Pb ICP-AES ±41 ppm value, and the methods narrative against the source; verdict PROMOTE. Two ⚠️ concerns were raised and applied: (1) the new Table 2 prose was reordered from removal-rank to source-Table-2 column order (Zn, Cr, Cd, Pb) for consistency with the Key numbers table; (2) the four matrices slugs (marine-sediment-bacteria, microbial-carbonate-precipitation, aqueous-spike-test, wastewater-remediation) are off-controlled-matrices-vocabulary placeholders because this paper has no consumer matrix — aqueous-spike-test is also used by other remediation source pages in the corpus, while the other three are bespoke; flagging here so future controlled-vocabulary work can absorb them cleanly.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -90,5 +96,8 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [6d13cb0](https://github.com/paleofoundation/heavymetalindex/commit/6d13cb0) | 2026-06-02 | ingest June 2: jarwar2023-vibrio-harveyi-carbonate-metal-coprecipitation |
 <!-- END: hmi-page-history -->

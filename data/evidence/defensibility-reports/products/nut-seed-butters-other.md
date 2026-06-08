@@ -2,7 +2,7 @@
 source_page: wiki/products/nut-seed-butters-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 154ff172048a708e11dc95be137b6857d64820329ce2b37faa3a5d6cca00e51e
+source_page_sha256: b3e880726657cf49b9fec79be203558d362722925b6d3bb21207ffb1f56a02ad
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 635
+audit_log_total_rows: 789
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 635 |
+| audit log rows read | 789 |
 
 ## Page-level audit rows
 

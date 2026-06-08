@@ -17,18 +17,39 @@
     "canonical_url": "https://heavymetalindex.com/products/period-underwear-reusable-garments",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "df30c94ab9ff303503b2cf364cc3ddc1ebecf94cf79fff9213bdf3409976dad5",
-      "content_bytes": 7431,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "content_sha256": "812fdec25dc9bb791459a9d42dc960c7c7f9fac90ada81f5e73a1aae9f58f656",
+      "content_bytes": 7995,
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/period-underwear-reusable-garments.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/period-underwear-reusable-garments.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/yamada1993-organotin-household-commodities",
+        "title": "Small-Scale Survey of Organotin Compounds in Household Commodities",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yamada1993-organotin-household-commodities",
+        "content_pin": {
+          "content_sha256": "2e70945658f13800dcf677e76fd9124d1639e54701b8abb7f2b676d74db41f79",
+          "content_bytes": 26864,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/yamada1993-organotin-household-commodities.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

@@ -60,3 +60,13 @@ App: The source can support a low-specificity fresh-fruit context flag for Ximen
 - The auto-fetched filename targeted supplement enzymes, but the PDF itself is a food-occurrence paper on wild fruits. Routing follows the actual PDF content, not the filename.
 - The extracted table text contains OCR artifacts for some Sclerocarya birrea entries, including dropped decimals. The values above follow the abstract and the narrative result paragraphs, which agree on Fe 8.83 mg/g and Cr 0.19 mg/g rather than the malformed table text.
 - The source reports total chromium as Cr and does not identify Cr(VI); it must not be routed as hexavalent chromium evidence.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

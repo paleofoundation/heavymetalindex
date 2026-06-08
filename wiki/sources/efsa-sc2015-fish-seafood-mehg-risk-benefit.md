@@ -231,3 +231,13 @@ This statement contributes the operative EU-level synthesis of how methylmercury
 - **Sample size:** `sample_n: null` because this is a scenario-based risk-benefit assessment, not a primary occurrence study; the occurrence and consumption datasets it integrates have their own sample sizes documented in CONTAM (2012) and the EFSA Comprehensive Food Consumption Database respectively.
 - **Brand firewall:** no commercial brand names appear in this paper; all species are identified by common species name or by the FoodEx grouping (Fish meat, Fish products). Cohort/study names (DIPP, STRIP, NUT INK05, Aesan-Fiab, enKid, NFA, INCA2, INRAN SCAI, FINDIET, DONALD, NUTRICHILD, SISP04, etc.) are dietary survey identifiers, not commercial brands, and are retained as method context.
 - **Audit subagent (2026-06-03, fresh-context general-purpose) verdict PROMOTE.** All five checks ✅ except Check 1 ⚠️ on the Belgian worked-example per-contributor values (6.48/2.05/0.45/0.14 µg/week). Verified against source as a false positive: PDF page 13's contributor table prints rounded values 6.5/2.1/0.5/0.1, but PDF page 14 explicitly writes the per-serving MeHg computation as `[(6.48+2.05+0.45+0.14)/(0.86×17.88)] = 0.6 µg/kg bw/week`. The wiki page reproduces the page-14 unrounded equation verbatim. No correction applied; subagent saw the p. 13 table but missed the p. 14 explicit equation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

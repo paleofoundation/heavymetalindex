@@ -153,3 +153,13 @@ Total mercury and arsenic were not measured in this paper; the Abstract mentions
 Audit subagent (2026-06-04, fresh-context general-purpose Agent) flagged four ❌ findings on Check 1 (numerical fidelity) involving TWI percentage transcription. Re-verifying independently against PDF Table 1 (pages 4–5) cross-referenced with Table A4 PTWI denominators (page 20): the `TWI (%)` column values are direct percentages (e.g., sample 39 Al column reads 56.10, which the discussion text confirms as 56.10%), not raw decimal ratios that need a ×100 conversion. The page initially mis-read the Cd and Cr columns as raw ratios. Corrections applied: Cd corpus-maximum TWI changed from 7.35% to 0.0735% (sample 48; 0.36 ÷ 490 µg/week PTWI at 70 kg = 0.0735%); Cr corpus-maximum TWI changed from 20.69% to 0.2069% (sample 2; 3.38 ÷ 1631 µg/week PTWI at 70 kg = 0.2069%); Mn maximum corrected to sample 52 alone at 0.20% (samples 17 and 31, originally claimed at 0.20%, are in fact at 0.02% and 0.01% respectively per Table 1); Ni maximum corrected to sample 28 at 0.00334% (the 0.00477% value originally reported on the page is in fact sample 28's Cr TWI, not Ni TWI — a column-misalignment error). The Pb 0.112% (sample 2) value was independently re-verified and remains correct. Al TWI values (Spirulina sample 39 at 56.10%, sample 49 at 22.57%, sample 52 at 22.01%; Chlorella sample 16 at 28.92%, sample 2 at 25.04%, sample 23 at 17.13%) were re-verified and remain correct.
 
 EFSA Al TWI citation: the paper states EFSA's TWI for Al as "2 µg/g bw/week" (page 14, citation [26]). EFSA's published TWI for aluminium is 1 mg/kg bw/week (EFSA Journal 2008;754:1–34), equivalent to 1 µg/g bw/week, not 2 µg/g bw/week. Table A4 of the paper reports the PTWI for Al as 28.6 µg/week/kg bw or 2,000 µg/week per 70 kg, which is twice the EFSA value (consistent with the older JECFA PTWI of 2 mg/kg bw/week withdrawn and reduced to 1 mg/kg bw/week in 2011). The paper appears to be using the older JECFA PTWI rather than the current EFSA TWI. This is a paper-quality concern, not a transcription error; the source page reports the paper's values verbatim with this caveat surfaced here.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

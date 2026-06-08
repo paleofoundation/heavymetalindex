@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-capsules",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1ac3033d131198b6aad122fb908f68bdb271cb0e3149b367f83b2f6094011adf",
+      "content_sha256": "e1f01afe3253a211f562f316e9b5cd4857a3781ab1f32034de1f392e292c3051",
       "content_bytes": 7286,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/supplements-oral-solids-capsules.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/supplements-oral-solids-capsules.md | sha256sum"
     }
   },
   "evidence_base": {

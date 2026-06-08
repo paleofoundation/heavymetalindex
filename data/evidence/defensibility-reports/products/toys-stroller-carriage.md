@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-stroller-carriage.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 781bf5cb719c15e751a571f9d2bb11dabedaf9577a2856070819f5f181857529
+source_page_sha256: c4c7f911735e608f3d804d896f450b4e0b85d228c105bbca39f011978985ef04
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 635
+audit_log_total_rows: 789
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 635 |
+| audit log rows read | 789 |
 
 ## Page-level audit rows
 

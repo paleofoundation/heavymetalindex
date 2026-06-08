@@ -49,6 +49,8 @@ Table 4 reports seedling organ mass and Ni, Cu, and Cd concentrations. Concentra
 
 The authors report that Na2EDTA produced the strongest increase in shoot uptake: shoot concentrations increased by 5.96x for Ni, 6.03x for Cu, and 3.26x for Cd compared with the no-amendment contaminated treatment. In roots, Na2EDTA increased Ni and Cu by 1.42x and 2.36x, respectively, but root Cd was 3.33x lower than the no-amendment contaminated treatment.
 
+K2HEDP produced no significant change in shoot Ni, Cu, or Cd concentrations compared with the no-amendment contaminated treatment, but increased root Ni by 2.63x and root Cu by 1.58x. The authors describe this as a shift toward a metal "exclusion" strategy in which the ligand concentrates metals in roots and limits transfer to shoots.
+
 ### Accumulation and translocation
 
 Na2EDTA gave the highest shoot-to-root translocation coefficient for Ni and also increased Cu distribution into shoots. The paper reports total Ni accumulation across three pots of 5.4 ug for Na2EDTA and 2.5 ug for K2HEDP + GA + IAA + Na(FeEDDHA). Total Cu accumulation was highest with Na2EDTA at 4.2 ug; the no-amendment treatment accumulated 1.9 ug Cu.
@@ -63,7 +65,7 @@ The visual plant-condition table reports high shoot turgor and green leaves for 
 
 ## Methods (brief)
 
-The pot experiment followed ISO 22030:2005 for chronic toxicity in higher plants. Universal soil was mixed with NPK fertilizer and spiked with Ni, Cu, and Cd salts. White clover seedlings were harvested 31 days after planting. Samples were washed, separated into shoots and roots, digested by autoclaved acid decomposition, and analyzed by ICP methods: AES-ICP for selected light elements and MS-ICP for Ni, Cu, Cd, and a broader elemental panel.
+The pot experiment followed ISO 22030:2005 for chronic toxicity in higher plants. Universal soil was mixed with NPK fertilizer and spiked with Ni, Cu, and Cd salts. White clover seedlings were harvested 31 days after planting. Samples were washed, separated into shoots and roots, digested by autoclaved acid decomposition, and analyzed by two ICP methods. ICP-AES on an iCAP-6500 (Thermo Scientific, Waltham, MA, USA) was used for Li, B, Na, and Ba; ICP-MS on an X-7 (Thermo Electron, Waltham, MA, USA) was used for Ni, Cu, Cd and a broader elemental panel including Li, Be, B, Sc, Ti, V, Cr, Mn, Co, Ni, Cu, Zn, Ga, As, Se, Rb, Sr, Y, Mo, Rh, Ag, Cd, Sn, Sb, Te, Cs, Ba, La, Ce, Pr, Nd, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Re, Ir, Pt, Au, Hg, Tl, Pb, Bi, Th, and U. Group differences were assessed using Fisher's test in Microsoft Excel 2007.
 
 The study also compared Ni behavior under polymetallic contamination with Ni-only contamination. The absolute Ni content in white-clover organs was higher when the soil was not also contaminated with Cu and Cd. In both polymetallic and Ni-only settings, Na2EDTA showed a clearer positive effect on Ni uptake than K2HEDP.
 
@@ -87,6 +89,8 @@ Courses: Useful for teaching how a treatment can increase metal translocation wh
 
 This page was built from the full PDF, including the abstract, problem formulation, materials and methods, Tables 1-4, Figures 1-9, discussion, conclusions, and conflict statement. Products and ingredients are intentionally empty because the source reports simulated-soil phytoextraction and white-clover tissue concentrations only. The reported metal values are total elemental concentrations in plant organs after acid digestion; no speciation split is provided for Cd, Ni, or Cu.
 
+2026-06-02 merge-enhance pass: added K2HEDP root fold-increases for Ni (2.63x) and Cu (1.58x) from the discussion section, and added instrument-vendor and statistical-method detail (Thermo Scientific iCAP-6500 ICP-AES, Thermo Electron X-7 ICP-MS, Fisher's test in Excel) under the scientific-method exception to the brand firewall. No numerical values in Table 4 were altered; verification of Tables 3-4 and Figures 3-5 confirmed prior values were correct.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -94,5 +98,8 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [e4e75bb](https://github.com/paleofoundation/heavymetalindex/commit/e4e75bb) | 2026-06-02 | ingest June 2: makarova2021-trifolium-phytoextraction-amendments |
 <!-- END: hmi-page-history -->

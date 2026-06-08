@@ -139,3 +139,13 @@ Mercury is reported throughout as total mercury (tHg) with no methylmercury spec
 Brand identities were withheld by the authors for ethical reasons; no brand names appear in the paper or on this page. The seven domestic Turkish brands are referenced only as a count, which is consistent with both the source's ethical framing and the wiki's Part 12 brand firewall.
 
 The CRM is referred to in the abstract as "DORM-4 Fish Protein" and in the references as "DORM-4 Fish protein certified reference material (Willie et al. 2012)"; the methods text describes it as "DORM-4 Fish Protein Certified Reference Material (NRCC)." All three are the same NRCC material; the page uses "DORM-4 Fish Protein" per the abstract.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

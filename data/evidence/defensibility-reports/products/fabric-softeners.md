@@ -2,7 +2,7 @@
 source_page: wiki/products/fabric-softeners.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f1725b8defce62eecb104e780002ecc124aa3cde5be894cd20f68f57ba7bf8b8
+source_page_sha256: 1ae05673697522cce20e1161de1ad483904878077994ba0c4fb433387232fddf
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 635
+audit_log_total_rows: 789
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 635 |
+| audit log rows read | 789 |
 
 ## Page-level audit rows
 

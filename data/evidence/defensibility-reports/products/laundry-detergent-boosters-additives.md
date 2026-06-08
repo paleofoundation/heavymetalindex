@@ -2,7 +2,7 @@
 source_page: wiki/products/laundry-detergent-boosters-additives.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c41c8e3a43d8d0838e862e1d76b389448a17ef25da8500c2e265d0e5c362882e
+source_page_sha256: 93fb6b5ec5b2539022eea0d38a21861a9c3caac1d7051d1b4921c7d1e79f7df5
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 635
+audit_log_total_rows: 789
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 635 |
+| audit log rows read | 789 |
 
 ## Page-level audit rows
 

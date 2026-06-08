@@ -62,3 +62,15 @@ App: Route as India-market spice and turmeric risk evidence. The household-use d
 - Table 3 and Table 6 are the numeric basis for this source page. The abstract rounds the geometric means to 46.8 vs. 134.5 ppm for all spices and 59.4 vs. 216.9 ppm for turmeric.
 - The ICP-MS/XRD subset was selected from high-pXRF samples, not randomly from all household spices; it supports adulteration/speciation context but should not be treated as the distribution for all Patna spices.
 - Chromium is present as Pb:Cr molar-ratio and XRD context for lead chromate. The paper does not report routine total chromium concentrations for every spice sample and does not provide Cr(VI) occurrence values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [6e51e85](https://github.com/paleofoundation/heavymetalindex/commit/6e51e85) | 2026-06-03 | ingest auto-fetched 2026-06-03: brown2022-patna-spice-lead |
+<!-- END: hmi-page-history -->

@@ -15,7 +15,7 @@ raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/metals-13-00878-v2.pdf"
 metals: [tAs, Pb, Zn, Cu, Ni, Cr, Cd, tHg]
 ingredients: []
 products: []
-matrices: [riparian-soil, riverbank-soil, watershed-soil, environmental-monitoring]
+matrices: [soil]
 jurisdictions: [CN]
 near_duplicates: []
 sample_n: 122
@@ -82,6 +82,8 @@ Speciation is not reported. Arsenic is routed as total arsenic, chromium as tota
 
 No brand names are present. Instrument and vendor names are analytical-method identifiers and are retained as scientific context. The data availability statement says the study data are available on request from the corresponding author and are not publicly available because they involve environmental-status information for Urumqi.
 
+Merge-enhance 2026-06-02: matrices was previously set to `[riparian-soil, riverbank-soil, watershed-soil, environmental-monitoring]`. The controlled matrices vocabulary in `docs/gpt-collaboration/system-prompt.md` only recognises `soil` and `sediment` for non-food/environmental samples. Downgraded to `matrices: [soil]`; the riparian/riverbank framing remains documented in `sample_population` and the page body where it belongs.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -89,5 +91,8 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [70b02d3](https://github.com/paleofoundation/heavymetalindex/commit/70b02d3) | 2026-06-02 | ingest June 2: zhang2023-shuimo-river-soil-heavy-metals |
 <!-- END: hmi-page-history -->

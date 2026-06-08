@@ -65,3 +65,15 @@ App: Route as unpackaged spice evidence from Turkey, with black pepper and cumin
 - The PDF prints both English and Turkish abstracts; the English title and DOI are used here.
 - Arsenic is reported as As by ICP-MS and is treated here as total arsenic. The paper's risk calculation assumes 3% inorganic arsenic, but the source does not measure inorganic arsenic directly.
 - Red pepper is a real sampled matrix in the paper, but only existing ingredient slugs were used in frontmatter.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [90e7e6a](https://github.com/paleofoundation/heavymetalindex/commit/90e7e6a) | 2026-06-03 | ingest auto-fetched 2026-06-03: mercanyucel2022-van-spices-metals |
+<!-- END: hmi-page-history -->

@@ -7023,10 +7023,10 @@
       "range_high": 2500,
       "central_low": 100,
       "central_high": 2500,
-      "n_sources": 17,
+      "n_sources": 15,
       "confidence": "medium",
       "tier": "ingredient_synthesis",
-      "coverage_note": "No finished-product sampling for Aluminum in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, carrots, potatoes); treat it as indicative context, not finished-product evidence.",
+      "coverage_note": "No finished-product sampling for Aluminum in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, potatoes); treat it as indicative context, not finished-product evidence.",
       "source_summaries": []
     },
     {
@@ -7034,14 +7034,14 @@
       "metal": "Cd",
       "basis": "ingredient_synthesis",
       "unit": "ppb",
-      "range_low": 3,
+      "range_low": 5,
       "range_high": 300,
-      "central_low": 3,
+      "central_low": 5,
       "central_high": 300,
-      "n_sources": 68,
+      "n_sources": 58,
       "confidence": "medium",
       "tier": "ingredient_synthesis",
-      "coverage_note": "No finished-product sampling for Cadmium in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, carrots, potatoes); treat it as indicative context, not finished-product evidence.",
+      "coverage_note": "No finished-product sampling for Cadmium in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, potatoes); treat it as indicative context, not finished-product evidence.",
       "source_summaries": []
     },
     {
@@ -7064,14 +7064,14 @@
       "metal": "iAs",
       "basis": "ingredient_synthesis",
       "unit": "ppb",
-      "range_low": 0,
+      "range_low": 1,
       "range_high": 25,
-      "central_low": 0,
+      "central_low": 1,
       "central_high": 25,
       "n_sources": 18,
       "confidence": "medium",
       "tier": "ingredient_synthesis",
-      "coverage_note": "No finished-product sampling for Arsenic (inorganic) in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, carrots, potatoes); treat it as indicative context, not finished-product evidence.",
+      "coverage_note": "No finished-product sampling for Arsenic (inorganic) in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, potatoes); treat it as indicative context, not finished-product evidence.",
       "source_summaries": []
     },
     {
@@ -7098,10 +7098,10 @@
       "range_high": 340,
       "central_low": 0,
       "central_high": 340,
-      "n_sources": 35,
+      "n_sources": 29,
       "confidence": "medium",
       "tier": "ingredient_synthesis",
-      "coverage_note": "No finished-product sampling for Nickel in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, carrots, potatoes); treat it as indicative context, not finished-product evidence.",
+      "coverage_note": "No finished-product sampling for Nickel in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, potatoes); treat it as indicative context, not finished-product evidence.",
       "source_summaries": []
     },
     {
@@ -7113,10 +7113,10 @@
       "range_high": 200,
       "central_low": 0,
       "central_high": 200,
-      "n_sources": 59,
+      "n_sources": 49,
       "confidence": "medium",
       "tier": "ingredient_synthesis",
-      "coverage_note": "No finished-product sampling for Lead in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, carrots, potatoes); treat it as indicative context, not finished-product evidence.",
+      "coverage_note": "No finished-product sampling for Lead in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, potatoes); treat it as indicative context, not finished-product evidence.",
       "source_summaries": []
     },
     {
@@ -7131,7 +7131,7 @@
       "n_sources": 11,
       "confidence": "medium",
       "tier": "ingredient_synthesis",
-      "coverage_note": "No finished-product sampling for Tin in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, carrots, potatoes); treat it as indicative context, not finished-product evidence.",
+      "coverage_note": "No finished-product sampling for Tin in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, potatoes); treat it as indicative context, not finished-product evidence.",
       "source_summaries": []
     },
     {
@@ -7143,10 +7143,10 @@
       "range_high": 100,
       "central_low": 0,
       "central_high": 100,
-      "n_sources": 48,
+      "n_sources": 39,
       "confidence": "medium",
       "tier": "ingredient_synthesis",
-      "coverage_note": "No finished-product sampling for Arsenic (total) in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, carrots, potatoes); treat it as indicative context, not finished-product evidence.",
+      "coverage_note": "No finished-product sampling for Arsenic (total) in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, potatoes); treat it as indicative context, not finished-product evidence.",
       "source_summaries": []
     },
     {
@@ -7158,10 +7158,10 @@
       "range_high": 20,
       "central_low": 0,
       "central_high": 20,
-      "n_sources": 30,
+      "n_sources": 27,
       "confidence": "medium",
       "tier": "ingredient_synthesis",
-      "coverage_note": "No finished-product sampling for Mercury (total) in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, carrots, potatoes); treat it as indicative context, not finished-product evidence.",
+      "coverage_note": "No finished-product sampling for Mercury (total) in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (vegetables, potatoes); treat it as indicative context, not finished-product evidence.",
       "source_summaries": []
     },
     {

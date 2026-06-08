@@ -76,3 +76,13 @@ App: The source supports a higher concern flag for wild mushrooms than cultivate
 ## Verification notes
 
 The DOI, title, author, year, publication, sample count, methods, and tables were taken from the PDF article text in the September 2023 Spectroscopy issue. The PDF SHA-256 at ingest was `411d4a46de9f89479989aa65ddbecef3b0d250c36f0e68e747a45dbd59c038aa`. The article byline gives the author as Javier Peinador Asensio; the cite key uses Asensio as the surname token. The article title says "Methyl-Mercury"; the body and method use methylmercury/MeHg. Table III is the source for Cd, Pb, and total Hg summary statistics; Table IV is the source for MeHg values. The source reports total mercury separately from methylmercury and does not support substituting total Hg values for MeHg occurrence.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [68051c8](https://github.com/paleofoundation/heavymetalindex/commit/68051c8) | 2026-06-04 | ingest auto-fetched 2026-06-04: asensio2023-madrid-mushrooms-mercury |
+<!-- END: hmi-page-history -->

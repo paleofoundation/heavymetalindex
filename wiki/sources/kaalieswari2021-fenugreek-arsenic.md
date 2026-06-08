@@ -59,3 +59,15 @@ App: Treat as contaminated-growing-condition context for fenugreek and spices ra
 - The PDF title spells the botanical name as "Trigonellna Foenum- Granecum"; this page preserves the printed title in frontmatter.
 - The study describes fenugreek seeds as spices and fenugreek leaves as vegetables, but no dedicated fenugreek ingredient page exists; existing broad spice and herbs-and-spices slugs are used.
 - The measured plant values are handled as total arsenic. They are not inorganic-arsenic occurrence values for standards pooling.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [7e43bff](https://github.com/paleofoundation/heavymetalindex/commit/7e43bff) | 2026-06-03 | ingest auto-fetched 2026-06-03: kaalieswari2021-fenugreek-arsenic |
+<!-- END: hmi-page-history -->

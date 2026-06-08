@@ -216,3 +216,16 @@ Samples were collected from the intertidal zone by hand, by diving, or by wading
 - Part 2 wiki/HMTc firewall: this page reports the Nielsen & Nathan 1972-1974 species means, the Appendix site-level samples, and the authors' geological-volcanic and urban-runoff hypotheses. It does not propose, soften, or strengthen any HMTc shellfish threshold; the Implications section is restricted to noting routing destinations, the historical-baseline framing for any future HMTc pooling, and the dataset's pre-leaded-petrol-phase-out temporal context.
 - One contextual fact for downstream readers: the Appendix table cells in the PDF show some samples with a hand-written "YUCK" annotation on page 477 and crossed-out blocks on pages 478-480 (visible in the scanned PDF). These appear to be reader's annotations on the archival copy, not authors' marks; the underlying numeric data are otherwise legible and were transcribed directly from the printed values. None of the transcribed numbers in this wiki page depend on the annotated cells.
 - The opening abstract sentence states "Cadmium, lead, copper, mercury, zinc and iron were analysed by atomic absorption spectrophotometry in 13 species of edible molluscs from 199 sites around New Zealand." The Appendix Samples 1-203 reflect that some sites contributed multiple samples (e.g., separate cultured-mussel samples or replicate sub-tissue samples); the 199-site figure is from the abstract, and the 203-numbered-sample figure is from the Appendix table — both are stated in the source and not in conflict.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [72b0c6d](https://github.com/paleofoundation/heavymetalindex/commit/72b0c6d) | 2026-06-03 | audit: nielsen1975-nz-molluscs-heavy-metals revised |
+| [8d7fa45](https://github.com/paleofoundation/heavymetalindex/commit/8d7fa45) | 2026-06-03 | ingest: nielsen1975-nz-molluscs-heavy-metals fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish |
+<!-- END: hmi-page-history -->

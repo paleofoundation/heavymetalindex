@@ -129,3 +129,15 @@ Species classification note: Table 1 places wels catfish (Silurus glanis) under 
 Speciation: The paper measured total mercury by direct thermal-decomposition AAS only; no methylmercury speciation was performed. The `metals:` frontmatter carries `tHg` only. The paper compares its EDI values against EFSA's MeHg TWI in the discussion (a conservative bound treating measured tHg as if it were entirely MeHg), but this is a comparison move, not a measurement of MeHg, so MeHg is not added to the metals array.
 
 Brand-firewall handling: No brand names appear in the source. Sample identification used species names and FAO catch areas only. Scientific-equipment vendor names (AMA 254 / Altec; IKA Analytical Mill; RADWAG balance; Statistica / Statsoft; MODAS CRMs from the Institute of Nuclear Chemistry and Technology and Technical University of Gdańsk) are retained per the Part 12 Exception 2 scientific-method carve-out.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [6c04f51](https://github.com/paleofoundation/heavymetalindex/commit/6c04f51) | 2026-06-03 | ingest: brodziak-dopierala2023-mercury-fish-poland [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/03_Marine_Predatory |
+<!-- END: hmi-page-history -->

@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/honey",
+    "title": "Honey",
+    "hmtc_category": 7,
+    "hmtc_row": 4,
+    "category_label": null,
+    "age_range": null,
+    "label": "Honey",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd",
+      "Ni",
+      "Cr"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "general_population",
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/honey",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "4353bf5510f012db03824422d29a09aeba479dd96f836d90f356b9b4007c5a58",
+      "content_bytes": 12081,
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show 8707c66:wiki/products/honey.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 19,
+    "sources_with_structured_values": 1,
+    "contributing_sources": [
+      {
+        "slug": "sources/abeslami2025-moroccan-honey-minerals",
+        "title": "Mineral Profile and Heavy Metal Content of Seven Monofloral and Multifloral Honeys from Eastern Morocco",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cr",
+          "Ni",
+          "Zn",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/abeslami2025-moroccan-honey-minerals",
+        "content_pin": {
+          "content_sha256": "c590d80d90cae227ed8332d192d6de64606f17a9b5c873fbe8c6fd39b3dfc65a",
+          "content_bytes": 4527,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/abeslami2025-moroccan-honey-minerals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/aburas2023-libyan-honey-lead-cadmium",
+        "title": "Pollution assessment by estimation of Lead and Cadmium concentrations and some physical properties in a number of types of Libyan Honey",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/aburas2023-libyan-honey-lead-cadmium",
+        "content_pin": {
+          "content_sha256": "8c9f5c67aa27df44ecb9b38903853cf9d0e2530d38a8be6c4030470a9b70cb59",
+          "content_bytes": 2663,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/aburas2023-libyan-honey-lead-cadmium.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/aghamirlou2015-iranian-honey-metals",
+        "title": "Heavy metals determination in honey samples using inductively coupled plasma-optical emission spectrometry",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "Pb",
+          "Ni",
+          "Zn",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/aghamirlou2015-iranian-honey-metals",
+        "content_pin": {
+          "content_sha256": "948e78abe7efe78df3d212bebc77630a64d2d167db265e286c0e66eb2323acb1",
+          "content_bytes": 3428,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/aghamirlou2015-iranian-honey-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/aljedani2017-honeybee-honey-saudi-arabia",
+        "title": "Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni",
+          "Cr",
+          "Cu",
+          "Fe",
+          "Mn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/aljedani2017-honeybee-honey-saudi-arabia",
+        "content_pin": {
+          "content_sha256": "5fa32dcbc09e3bdfc1d1a636c08e4026b5d7ce4efd9cacfc71f74d307e416111",
+          "content_bytes": 11487,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/aljedani2017-honeybee-honey-saudi-arabia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bektashi2021-honey-metals-sugars-balkans",
+        "title": "Characterization of honey: determination of metal and sugar content",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Fe",
+          "Mn",
+          "Al",
+          "Cu",
+          "Zn",
+          "Se",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bektashi2021-honey-metals-sugars-balkans",
+        "content_pin": {
+          "content_sha256": "aa9656bc9ba5d541e95ffd80b41d08789a72fb44c6c56ff7093078cfbf6fddd5",
+          "content_bytes": 3473,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/bektashi2021-honey-metals-sugars-balkans.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cfia2025-toxic-metals-selected-foods-2022-23",
+        "title": "Toxic metals in selected foods – April 1, 2022 to March 31, 2023: Food chemistry – Targeted surveys – Final report",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cfia2025-toxic-metals-selected-foods-2022-23",
+        "content_pin": {
+          "content_sha256": "d9f81db1a624f552dd77cc12b94beb2f6aa522ad144b62d9de177e80187118fa",
+          "content_bytes": 5175,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/cfia2025-toxic-metals-selected-foods-2022-23.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gunes2021-yalova-chestnut-honey-metals",
+        "title": "Chestnut Honey as a Complementary Medicine: Determination of Antibacterial Activity, Heavy Metal Residue and Health Risk Assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Pb",
+          "Cd",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gunes2021-yalova-chestnut-honey-metals",
+        "content_pin": {
+          "content_sha256": "65e73e07c774ef10a0bbb58a4cbb741aef9e28bf58a5d9f3bbf7914ef1084fda",
+          "content_bytes": 3040,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/gunes2021-yalova-chestnut-honey-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jackson2012-brown-rice-syrup-arsenic",
+        "title": "Arsenic, Organic Foods, and Brown Rice Syrup",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs",
+          "DMA",
+          "MMA"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jackson2012-brown-rice-syrup-arsenic",
+        "content_pin": {
+          "content_sha256": "30a4151f9c1a177d48cc23289508006823469b46fe6b744185e0adb3f0840b73",
+          "content_bytes": 3368,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/jackson2012-brown-rice-syrup-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/knoll2024-honeybee-cadmium-review",
+        "title": "Foraging Activity of Honey Bees (Apis mellifera L., 1758) and Exposure to Cadmium: a Review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/knoll2024-honeybee-cadmium-review",
+        "content_pin": {
+          "content_sha256": "939c0dcaabc1faa1aec53e2909e2070832035c5de5d1e81c9b0c8f3f8f0b5cd6",
+          "content_bytes": 5167,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/knoll2024-honeybee-cadmium-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/manouchehri2021-honey-heavy-metals-review",
+        "title": "The Possible Effects of Heavy Metals in Honey as Toxic and Carcinogenic Substances on Human Health: A Systematic Review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "Cr",
+          "Ni",
+          "Al",
+          "Fe",
+          "Zn",
+          "Cu",
+          "tAs",
+          "Mn",
+          "Co",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/manouchehri2021-honey-heavy-metals-review",
+        "content_pin": {
+          "content_sha256": "b7867b31aee5a5290efd966b236ee88113cf9e4f53765b4392ede98a26f5d48c",
+          "content_bytes": 10961,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/manouchehri2021-honey-heavy-metals-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/margaoan2024-bee-products-heavy-metals",
+        "title": "Environmental pollution effect on honey bees and their derived products: a comprehensive analysis",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Hg",
+          "As",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/margaoan2024-bee-products-heavy-metals",
+        "content_pin": {
+          "content_sha256": "86559f20a7df5ee206f20deda7f94f22a3d1bddf356c2d8595413249df9e3841",
+          "content_bytes": 3580,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/margaoan2024-bee-products-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/naccari2025-honey-toxic-metals-microelements",
+        "title": "Study of Toxic Metals and Microelements in Honey as a Tool to Support Beekeeping Production and Consumer Safety",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Al",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/naccari2025-honey-toxic-metals-microelements",
+        "content_pin": {
+          "content_sha256": "59dc2ca48b176d5a3396b9ca140eeafa8b3717f63a50bfc0cf4bdce1745780aa",
+          "content_bytes": 4764,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/naccari2025-honey-toxic-metals-microelements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/salama2019-libya-honey-metals",
+        "title": "Determination of Physicochemical Properties and Toxic Heavy Metals Levels in Honey Samples from West of Libya",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/salama2019-libya-honey-metals",
+        "content_pin": {
+          "content_sha256": "916e63cf55e2a5be36408169da958d826f826021d2cb2b406237b1bf5a6aad21",
+          "content_bytes": 2982,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/salama2019-libya-honey-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/shukla2020-honey-prayagraj-metals",
+        "title": "Melissopalynological and physicochemical analysis of honey samples from Prayagraj District, Uttar Pradesh",
+        "route_kind": "direct_evidence",
+        "route_status": "partial_structured_values_present",
+        "evidence_use": "partial_structured_value_candidate",
+        "value_record_count": 1,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/shukla2020-honey-prayagraj-metals",
+        "content_pin": {
+          "content_sha256": "627b92683cb2b5b5f1b73c092156b932fab9283e10b32cfeb3c63e5c4ad347ec",
+          "content_bytes": 3139,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/shukla2020-honey-prayagraj-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/teferi2026-honey-ethiopia-kellem-wollega",
+        "title": "Assessment of Heavy Metal Contamination and Associated Health Risks in Honey from Kellem Wollega Zone, Ethiopia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni",
+          "Cu",
+          "Fe",
+          "Mn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/teferi2026-honey-ethiopia-kellem-wollega",
+        "content_pin": {
+          "content_sha256": "fd2cd5ac55b00010c4c699134850bddda66258c892b03118ddf3c9066457c79c",
+          "content_bytes": 8653,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/teferi2026-honey-ethiopia-kellem-wollega.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/tomczyk2020-polish-honey-metal-transfer",
+        "title": "Transfer of some toxic metals from soil to honey depending on bee habitat conditions",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Al",
+          "Mn",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/tomczyk2020-polish-honey-metal-transfer",
+        "content_pin": {
+          "content_sha256": "5051146485cefb23da0bf116ba2b3b932b014b016c4b32c765cba2d7f4924244",
+          "content_bytes": 4595,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/tomczyk2020-polish-honey-metal-transfer.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/usda-fas2023-china-gb-2762-2022-translation",
+        "title": "China Releases the Standard for Maximum Levels of Contaminants in Foods (USDA FAS GAIN Report CH2023-0040, unofficial translation of GB 2762-2022)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "MeHg",
+          "tAs",
+          "iAs",
+          "Sn",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/usda-fas2023-china-gb-2762-2022-translation",
+        "content_pin": {
+          "content_sha256": "52e2a71b7dd30f51bec8847be2c5de5f41aa9ab621a338d4b4ebb0a026701994",
+          "content_bytes": 19884,
+          "last_commit_sha": null,
+          "last_commit_date": null,
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": null
+        }
+      },
+      {
+        "slug": "sources/wise2025-elevated-metals-us-honeys",
+        "title": "Elevated Metal Levels in U.S. Honeys: Is There a Concern for Human Health?",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Al",
+          "Cu",
+          "Fe",
+          "Mn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/wise2025-elevated-metals-us-honeys",
+        "content_pin": {
+          "content_sha256": "5f5b716705686a3713556e6341bf461084ef85ca7081e700c40e685ca565456b",
+          "content_bytes": 14054,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/wise2025-elevated-metals-us-honeys.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zhang2024-mip-pb-honey-cyprus",
+        "title": "Molecularly imprinted polymer electrochemical sensor for lead detection in honey",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zhang2024-mip-pb-honey-cyprus",
+        "content_pin": {
+          "content_sha256": "c1d8a1e7779139b1fefc6455efa75954cbe47f356659c7f10fd5e74ca0eda40f",
+          "content_bytes": 2091,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/zhang2024-mip-pb-honey-cyprus.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/honey.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

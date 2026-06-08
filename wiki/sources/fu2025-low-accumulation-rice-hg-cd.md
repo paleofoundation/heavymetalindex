@@ -14,7 +14,7 @@ raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/processes-13-01542.pdf"
 metals: [tHg, Cd, tAs, Pb, Cr]
 ingredients: ["[[ingredients/rice]]"]
 products: ["[[products/rice-bulk-grain]]"]
-matrices: [paddy-soil, brown-rice-grain, rice-variety-field-trial, soil-conditioner-field-trial, foliar-barrier-field-trial]
+matrices: [paddy-soil, brown-rice-grain]
 jurisdictions: [CN]
 near_duplicates: []
 sample_n: 66
@@ -90,7 +90,7 @@ Table 8 reports EDI and RI values for each treatment. The CK rice Cd RI was 1.02
 
 The one-year field experiment was conducted in May 2023 in Tongren City, Guizhou, China, in Hg-Cd co-contaminated karst farmland. Treatments used three replicate plots for conditioner type, foliar barrier combinations, rice-variety screening, and conditioner-rate screening. Rice plants and corresponding rhizosphere soils were collected at maturity. Soil samples were taken at 0-20 cm using a five-point composite method and kept cold during transport.
 
-Rice samples were washed, dried at 40 degrees C to constant weight, dehusked, and milled. Husked brown rice was digested with HNO3/HClO4 (5:2). Hg and As were measured by atomic fluorescence spectrometry; Cd, Pb, and Cr were measured by ICP-MS. Detection limits were Hg 0.003 mg/kg, Cd 0.002 mg/kg, As 0.002 mg/kg, Pb 0.02 mg/kg, and Cr 0.05 mg/kg. Soil available Hg was extracted with thioglycolic acid-dibasic sodium phosphate and measured by atomic fluorescence spectrometry; available Cd was extracted with DTPA-CaCl2-TEA and measured by ICP-MS.
+Rice samples were washed, dried at 40 degrees C to constant weight, dehusked, and milled. Husked brown rice was digested with HNO3/HClO4 (5:2). Hg was measured by atomic fluorescence spectrometry on an AFS-933 (Jitian Instruments, Beijing, China); As was measured by AFS on an AFS-8220 (Jitian Instruments). Cd, Pb, and Cr were measured by ICP-MS on an ICAP RQ instrument (Thermo Fisher, Waltham, MA, USA). Detection limits were Hg 0.003 mg/kg, Cd 0.002 mg/kg, As 0.002 mg/kg, Pb 0.02 mg/kg, and Cr 0.05 mg/kg. Soil available Hg was extracted with thioglycolic acid-dibasic sodium phosphate and measured by atomic fluorescence spectrometry; available Cd was extracted with DTPA-CaCl2-TEA and measured by ICP-MS on an Avio 200 (PerkinElmer, Waltham, MA, USA).
 
 ## Implications
 
@@ -117,6 +117,10 @@ Courses: Useful for teaching how cultivar selection, soil chemistry, selenium/si
 
 This page was built from the full PDF, including the abstract, Tables 1-8, Figures 3-8, rice and soil collection methods, digestion and analytical methods, health-risk equations, discussion, conclusions, and data-availability statement. The source reports total Hg, Cd, total As, Pb, and total Cr in husked/milled rice grain; it does not separate inorganic arsenic, methylmercury, or chromium species. Several Hg/Cd treatment results are reported as source-text reductions rather than extractable numeric concentration tables because the underlying Figure 3, Figure 4, and Figure 6 values are plotted graphically in the PDF. D1, D2, D3, D4, and Y1-Y4 are source treatment labels, not product brands. This page omits brand names and uses category-level conditioner labels.
 
+Merge-enhance pass 2026-06-02: trimmed `matrices:` from five entries to the two actual measurement matrices (paddy-soil, brown-rice-grain); the prior `rice-variety-field-trial`, `soil-conditioner-field-trial`, and `foliar-barrier-field-trial` entries described the experimental design rather than what was measured, and are removed.
+
+Audit-application 2026-06-02 (subagent PROMOTE verdict): added instrument vendor and model identifiers to the Methods section (AFS-933 and AFS-8220 from Jitian Instruments Beijing; ICAP RQ from Thermo Fisher; Avio 200 from PerkinElmer) per CLAUDE.md Part 12 Exception 2 (scientific-method vendor names are not brand-firewall violations and aid reproducibility). Audit also flagged that `[[mitigation/agronomic]]`, `[[mitigation/remediation-evidence]]`, and `[[testing/index]]` in Wiki-pages-touched fall outside the four-list taxonomy snapshot; verified that all three target pages exist in the live wiki (`wiki/mitigation/`, `wiki/testing/`), so the links are valid — the snapshot is the file with limited scope, not the wiki structure.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -124,5 +128,8 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [bbc6d2a](https://github.com/paleofoundation/heavymetalindex/commit/bbc6d2a) | 2026-06-02 | ingest June 2: fu2025-low-accumulation-rice-hg-cd |
 <!-- END: hmi-page-history -->

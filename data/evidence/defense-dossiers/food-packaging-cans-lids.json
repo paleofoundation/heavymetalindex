@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-cans-lids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "840bc3c39669a4e8bee1dcf25bd131ffcb17763d5cf7f1af1375828389ba8ccb",
-      "content_bytes": 8377,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "content_sha256": "e3408d81bb1a832f47817b82684c887bfec767f7d255793da8956a3f248117da",
+      "content_bytes": 8620,
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/food-packaging-cans-lids.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/food-packaging-cans-lids.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 3,
+    "contributing_source_count": 4,
     "sources_with_structured_values": 1,
     "contributing_sources": [
       {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/buculei2012-tin-iron-migration-canned-food-romania",
         "content_pin": {
-          "content_sha256": "d86648510c0a3c09c62a3130e59ea9fdb190565d7bf66704c7aa09f4b6d38d58",
-          "content_bytes": 17821,
-          "last_commit_sha": "87acb21",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "481be4e265c47305be4c68746a6f40b9360e574e4a64fcc32cae2f8b29642801",
+          "content_bytes": 16973,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 87acb21:wiki/sources/buculei2012-tin-iron-migration-canned-food-romania.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/buculei2012-tin-iron-migration-canned-food-romania.md | sha256sum"
         }
       },
       {
@@ -62,12 +62,48 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/imsi2015-gmp-maple-syrup-lead",
         "content_pin": {
-          "content_sha256": "f1759467ee63cd30f58254ce4b5207276240519367cdf6acdde3be214d43e446",
-          "content_bytes": 20805,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "ae90e5f808ec56a020fb7fcd5923e36213d18d607b5230b05065bb811404df83",
+          "content_bytes": 20658,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/imsi2015-gmp-maple-syrup-lead.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/imsi2015-gmp-maple-syrup-lead.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sadhya2023-india-food-heavy-metals-regulation",
+        "title": "Regulation in India of Heavy Metals in Food Items: A Critical Analysis",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cu",
+          "tAs",
+          "Sn",
+          "Cd",
+          "tHg",
+          "MeHg",
+          "Cr",
+          "Ni",
+          "Se",
+          "Sb",
+          "Ba",
+          "Co",
+          "Fe",
+          "Li",
+          "Mn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sadhya2023-india-food-heavy-metals-regulation",
+        "content_pin": {
+          "content_sha256": "e1b886dc5b7cab14fab0c48b5920b15e2de249128083c697bf3afe803f00ed39",
+          "content_bytes": 20676,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
         }
       },
       {
@@ -83,12 +119,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yamanaka2025-tinplate-pineapple-cans",
         "content_pin": {
-          "content_sha256": "db46f4ba7bf2462d95a92c7008d566080f7e68292ca776aef08fe6ad0ca65d1f",
-          "content_bytes": 5079,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "c8de6c3be4ce99ee728899c2590d855e2db7126eae040948da0693bc3dd1f80b",
+          "content_bytes": 4932,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/yamanaka2025-tinplate-pineapple-cans.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/yamanaka2025-tinplate-pineapple-cans.md | sha256sum"
         }
       }
     ]

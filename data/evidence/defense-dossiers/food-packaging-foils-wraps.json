@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-foils-wraps",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "adf3403f42de2132a85e255fd0b1c27d907729dae110245cc192243ed13e0910",
-      "content_bytes": 8129,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "content_sha256": "3a4bea4a3889f13f0c160dd2950f05e7a964658743858dc7245dfcd7bdeeab80",
+      "content_bytes": 8526,
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/food-packaging-foils-wraps.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/food-packaging-foils-wraps.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 4,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -41,12 +41,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bassioni2012-aluminum-foil-meat-cooking-uae",
         "content_pin": {
-          "content_sha256": "f2998ffcfe1825f018167bdf88312f045e58fc1dc53f9d54938851fcb7b9a2e7",
-          "content_bytes": 16626,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "cf629894a9210c1e0333e63e195b930afc5504dcee1d9749f685decd1e620827",
+          "content_bytes": 16479,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/bassioni2012-aluminum-foil-meat-cooking-uae.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/bassioni2012-aluminum-foil-meat-cooking-uae.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bfr2020-aluminium-faq-consumer-products",
+        "title": "FAQs about aluminium in food and products intended for consumers",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bfr2020-aluminium-faq-consumer-products",
+        "content_pin": {
+          "content_sha256": "9c0ce568454e55b0b89090663eb1c760f7a7080dd31ed2950835bb5c8409ed1d",
+          "content_bytes": 13591,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/bfr2020-aluminium-faq-consumer-products.md | sha256sum"
         }
       },
       {
@@ -61,12 +81,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dordevic2019-aluminum-foil-culinary-baking-czech",
         "content_pin": {
-          "content_sha256": "0c57ab2bb6f49f0ba20a8d5a7c98fd52b2f262f18ea59e1afd4d8bb786416e6a",
-          "content_bytes": 14624,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "8842a5248948b3006638a3a2de8b5c12e4b5b57e9eef171398da8d9474ac0597",
+          "content_bytes": 14477,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/dordevic2019-aluminum-foil-culinary-baking-czech.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/dordevic2019-aluminum-foil-culinary-baking-czech.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa-aluminium-afc-2008",
+        "title": "Safety of Aluminium from Dietary Intake",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa-aluminium-afc-2008",
+        "content_pin": {
+          "content_sha256": "8b4d6369f544125cf3424a1cdf5eb89e9c51b091067baea64f47bc12b1f4a1b5",
+          "content_bytes": 20276,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/efsa-aluminium-afc-2008.md | sha256sum"
         }
       }
     ]

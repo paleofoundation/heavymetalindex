@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `566c7b2` (2026-06-02). The body hashes to `sha256:d9e2d4178e2da07a691199790986cc5d…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `8707c66` (2026-06-05). The body hashes to `sha256:1bab126cb7acc485e39c469e4b2b4776…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=dried-fruit&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/dried-fruit&download=1`.
 

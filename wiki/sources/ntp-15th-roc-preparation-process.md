@@ -79,3 +79,13 @@ Procedural-record reproduction of the NTP front-matter description of the four-p
 - **Empty `metals`, `products`, `ingredients`, `matrices` arrays.** This is a procedural-framework document; it discusses no specific metal, no specific product, no specific ingredient, and no specific exposure matrix. The empty arrays are an honest reflection of the document's scope and parallel the routing-baseline treatment of [[ntp-15th-roc-nickel-2021]] (which is in the advisory-malformed backlog with the same pattern of empty `products`, `ingredients`, `matrices`). The routing layer falls back to broad scope; downstream substance-specific RoC listings are routed via the per-substance pages (e.g., [[ntp-15th-roc-nickel-2021]] for nickel).
 - **No primary contamination measurements.** This document reports no analytical chemistry, no exposure data, no per-substance carcinogenicity findings. Its contribution to the corpus is procedural: it is the primary-record citation for how NTP RoC listings are produced and the institutional pipeline behind the substance-level classifications relied on elsewhere in the wiki.
 - **Audit subagent (2026-06-04) ⚠️ Check 5 wiki/HMTc firewall:** flagged Implications → Certification and Methods (brief) for enumerating substance-specific RoC classifications (nickel/Cr-VI/arsenic/cadmium/lead/beryllium with "known" or "reasonably anticipated" labels) that are *not* in this 2-page procedural PDF. Verified against source: the PDF discusses only the four-step procedural pipeline, with no per-substance listings. Both passages were cross-corpus synthesis attributed to a procedural source that does not carry the claim — corrected to drop the substance enumeration in Methods (brief) and to reframe the Implications → Certification block around process-rigor citation (with classifications routed to the per-substance source pages such as [[ntp-15th-roc-nickel-2021]]).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

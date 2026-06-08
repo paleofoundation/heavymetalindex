@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pacifiers-and-sucking-teething-aids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "47a55617d14dcc86b109f7be23b7f6084a722829542d839cfd356ba55daab73b",
+      "content_sha256": "06820057502d9a2d8fd91b0bc187222f6c14b76075b45928c17c9876ae814782",
       "content_bytes": 11877,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/pacifiers-and-sucking-teething-aids.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/pacifiers-and-sucking-teething-aids.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bfr2009-lead-cadmium-toys",
         "content_pin": {
-          "content_sha256": "205b48e16bd3c697f19e7af3d5bcd69802e0ae5a6c4a1eb52ac92d5a5dc58d75",
+          "content_sha256": "3af268a5eba4e597dc35cdf93dba4b9a74ca54d2bc3a30d97ea6f4690d39c3d2",
           "content_bytes": 23745,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/bfr2009-lead-cadmium-toys.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/bfr2009-lead-cadmium-toys.md | sha256sum"
         }
       },
       {
@@ -75,12 +75,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "01d473df4008624112e8b94dab0cc5810244592263abcbdc551db479e1af1a5a",
-          "content_bytes": 59313,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "c631d01228baca6d1e77c9ea769d4547ef90c60b37761e77ac91b5f64726796e",
+          "content_bytes": 59166,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -95,12 +95,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fowles2021-lead-toys",
         "content_pin": {
-          "content_sha256": "079ccf52428443a56000a278334de5f2541030ccfda271d76994504a1d1cc06d",
+          "content_sha256": "8334bfe16b65321b1efed03bc2a46d201e16d195b3693da14231e497b087a268",
           "content_bytes": 32954,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/fowles2021-lead-toys.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/fowles2021-lead-toys.md | sha256sum"
         }
       },
       {
@@ -120,12 +120,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/masu2016-pacifiers-sippy-cups-my",
         "content_pin": {
-          "content_sha256": "d0ea04d1a1724483f33fd9f4bc96b98771db85d7290e1143ce9b8c7304c7b28a",
+          "content_sha256": "2626d3109885c9c6616d0b466ccbfc4785156bc2880ae76eeac26b73dc191ad0",
           "content_bytes": 23529,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/masu2016-pacifiers-sippy-cups-my.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/masu2016-pacifiers-sippy-cups-my.md | sha256sum"
         }
       },
       {
@@ -145,12 +145,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
         "content_pin": {
-          "content_sha256": "0181b51c3c1ef3a8d935d118b50ec2212b9bc1af9ecc5aac43b1f551b14ec0cb",
-          "content_bytes": 29585,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "c78e2644f0a85df482f7d753c04ab0e06831347c373a6c03e457dfe1c1280831",
+          "content_bytes": 29584,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       },
       {
@@ -169,12 +169,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/seifi2026-iran-toys-pb-cr-hg",
         "content_pin": {
-          "content_sha256": "70734e91f866329f512d898d93404e00bf4948b86397471e0b00c587188760c3",
+          "content_sha256": "3e80aa0e049d2313296516f004756b88f9cc3c392540376d0b1ece799e4438ba",
           "content_bytes": 29032,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
         }
       },
       {
@@ -198,12 +198,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
         "content_pin": {
-          "content_sha256": "7ce8663650e1d381a92ff9c119e4070cf64d3921c189fde8b1abd2e4e8872527",
-          "content_bytes": 39424,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "653ecbf55186069256109145af3a553be798ab53f29e69b666bd153c1b5d5632",
+          "content_bytes": 39574,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
         }
       },
       {
@@ -220,12 +220,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stringer2001-greenpeace-pvc-children-products",
         "content_pin": {
-          "content_sha256": "7552742d8f8721f8086eb8862620fe0612c4fe6c21382dc94bc3051fedee3233",
-          "content_bytes": 33035,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "54b71cc3663119364f694b74b0f4201884d5262a1d01de7a77a23f8049cf810d",
+          "content_bytes": 32888,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
         }
       }
     ]

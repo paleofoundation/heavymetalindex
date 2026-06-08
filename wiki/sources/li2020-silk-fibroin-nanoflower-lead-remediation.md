@@ -58,7 +58,7 @@ Table 3 reports that the Langmuir model fit the equilibrium data better than Fre
 | Freundlich | y = 0.1895x + 6.36 | KF = 578.25; n = 5.277 | 0.79 |
 | Temkin | y = 230.24x + 409.93 | A = 230.24; B = 409.93 | 0.77 |
 
-The paper states that the maximum capacity of 1908 mg/g was about 3-20 times higher than previously reported comparator adsorbents. Thermodynamic calculations indicated spontaneous and exothermic Pb(II) adsorption: the absolute value of delta G decreased from 9.07 to 3.63 kJ/mol as temperature rose from 298 to 328 K, and delta H was negative for both 100 and 500 mg/L Pb(II). The authors classify the adsorption as physical because the absolute delta G values were below 40 kJ/mol and no new FTIR functional group appeared after Pb(II) uptake.
+The paper states that the maximum capacity of 1908 mg/g was about 3-20 times higher than previously reported comparator adsorbents. The Langmuir, Freundlich, and Temkin fits used only the high-concentration range of 80 to 500 mg/L Pb(II), because at 5 to 50 mg/L the Pb(II) was adsorbed essentially completely and the residual equilibrium concentration could not be reliably resolved. Thermodynamic calculations indicated spontaneous and exothermic Pb(II) adsorption: the absolute value of delta G decreased from 9.07 to 3.63 kJ/mol as temperature rose from 298 to 328 K, and the absolute value of delta H decreased from 64.30 to 17.91 kJ/mol as the initial Pb(II) concentration rose from 100 to 500 mg/L (both ΔH values negative). The authors classify the adsorption as physical because the absolute delta G values were below 40 kJ/mol and no new FTIR functional group appeared after Pb(II) uptake.
 
 ### Selectivity
 
@@ -96,6 +96,10 @@ Courses: Useful for teaching adsorbent selectivity, pH/precipitation control, an
 
 This page was built from the full PDF, including the self-assembly synthesis method, pH optimization section, adsorption kinetics, Table 2 kinetic parameters, Table 3 isotherm parameters, selectivity experiment, FTIR/zeta/XRD mechanism discussion, conclusion, and supplementary-materials note. The source is specific to Pb(II) adsorption, with Cd(II) and Ni(II) used for selectivity comparison. Products and ingredients are intentionally empty because no food, ingredient, drinking-water sample, or consumer-product matrix was sampled.
 
+The matrices slugs (silk-fibroin, protein-inorganic-hybrid-nanoflower, aqueous-sorption-test, wastewater-remediation) are remediation-domain proposals outside the current controlled food-matrix vocabulary; they follow the precedent set by wang2020-lignin-residue-biochar-heavy-metal-remediation and are flagged here for a future taxonomy refresh that adds a remediation-matrix controlled vocabulary.
+
+Audit subagent 2026-06-02 (v2 skill, fresh-context general-purpose agent) returned PROMOTE on all five checks; two optional completeness concerns were applied to the Key numbers Pb(II) isotherms and thermodynamics paragraph (added the 80-500 mg/L isotherm-fitting concentration range that the paper used because 5-50 mg/L was fully adsorbed, and added the source's absolute delta H magnitudes of 64.30 and 17.91 kJ/mol at 100 and 500 mg/L Pb(II)).
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -103,5 +107,8 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [e17005e](https://github.com/paleofoundation/heavymetalindex/commit/e17005e) | 2026-06-02 | ingest June 2: li2020-silk-fibroin-nanoflower-lead-remediation |
 <!-- END: hmi-page-history -->

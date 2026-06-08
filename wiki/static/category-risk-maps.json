@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T13:42:38.866Z",
+  "generated_at": "2026-06-05T17:58:43.910Z",
   "schema_version": "hmi.risk-map.v1",
   "canonical_base": "https://heavymetalindex.com",
   "disclaimer": "Ranks where heavy-metal exposure originates within each category's declared ingredient targets, by literature-reported concentration. Ingredient-level evidence, not finished-product measurement, and not a certification threshold.",
@@ -6719,9 +6719,9 @@
         },
         {
           "query": "carrots",
-          "resolved_slug": "carrots",
-          "title": "Carrots",
-          "match": "slug"
+          "resolved_slug": "carrot",
+          "title": "Carrot",
+          "match": "alias"
         },
         {
           "query": "potatoes",
@@ -6752,7 +6752,7 @@
         "Pb": {
           "label": "Lead",
           "top_driver": "vegetables",
-          "top_driver_share": 0.8,
+          "top_driver_share": 0.876,
           "driver_count": 2,
           "drivers": [
             {
@@ -6767,28 +6767,28 @@
               "p95_ppb": 200,
               "confidence": "high",
               "n_studies": 38,
-              "share": 0.8
+              "share": 0.876
             },
             {
-              "ingredient": "carrots",
-              "title": "Carrots",
-              "page_url": "https://heavymetalindex.com/ingredients/carrots",
-              "risk_ppb": 50,
+              "ingredient": "carrot",
+              "title": "Carrot",
+              "page_url": "https://heavymetalindex.com/ingredients/carrot",
+              "risk_ppb": 28.4,
               "typical_ppb": [
-                5,
-                30
+                9.5,
+                27.5
               ],
-              "p95_ppb": 50,
+              "p95_ppb": 28.4,
               "confidence": "medium",
-              "n_studies": 10,
-              "share": 0.2
+              "n_studies": 4,
+              "share": 0.124
             }
           ]
         },
         "Cd": {
           "label": "Cadmium",
           "top_driver": "vegetables",
-          "top_driver_share": 0.774,
+          "top_driver_share": 0.76,
           "driver_count": 3,
           "drivers": [
             {
@@ -6803,21 +6803,21 @@
               "p95_ppb": 300,
               "confidence": "high",
               "n_studies": 41,
-              "share": 0.774
+              "share": 0.76
             },
             {
-              "ingredient": "carrots",
-              "title": "Carrots",
-              "page_url": "https://heavymetalindex.com/ingredients/carrots",
-              "risk_ppb": 50,
+              "ingredient": "carrot",
+              "title": "Carrot",
+              "page_url": "https://heavymetalindex.com/ingredients/carrot",
+              "risk_ppb": 57,
               "typical_ppb": [
-                3,
-                10
+                0,
+                41
               ],
-              "p95_ppb": 50,
+              "p95_ppb": 57,
               "confidence": "medium",
-              "n_studies": 10,
-              "share": 0.129
+              "n_studies": 4,
+              "share": 0.144
             },
             {
               "ingredient": "potatoes",
@@ -6831,16 +6831,30 @@
               "p95_ppb": 37.7,
               "confidence": "high",
               "n_studies": 17,
-              "share": 0.097
+              "share": 0.096
             }
           ]
         },
         "iAs": {
           "label": "Arsenic (inorganic)",
-          "top_driver": "potatoes",
-          "top_driver_share": 0.556,
-          "driver_count": 2,
+          "top_driver": "carrot",
+          "top_driver_share": 0.895,
+          "driver_count": 3,
           "drivers": [
+            {
+              "ingredient": "carrot",
+              "title": "Carrot",
+              "page_url": "https://heavymetalindex.com/ingredients/carrot",
+              "risk_ppb": 384.2,
+              "typical_ppb": [
+                3.3,
+                239.4
+              ],
+              "p95_ppb": 384.2,
+              "confidence": "low",
+              "n_studies": 1,
+              "share": 0.895
+            },
             {
               "ingredient": "potatoes",
               "title": "Potatoes",
@@ -6853,7 +6867,7 @@
               "p95_ppb": 25,
               "confidence": "low",
               "n_studies": 4,
-              "share": 0.556
+              "share": 0.058
             },
             {
               "ingredient": "vegetables",
@@ -6867,15 +6881,15 @@
               "p95_ppb": 20,
               "confidence": "high",
               "n_studies": 14,
-              "share": 0.444
+              "share": 0.047
             }
           ]
         },
         "tAs": {
           "label": "Arsenic (total)",
           "top_driver": "vegetables",
-          "top_driver_share": 0.655,
-          "driver_count": 3,
+          "top_driver_share": 0.974,
+          "driver_count": 2,
           "drivers": [
             {
               "ingredient": "vegetables",
@@ -6889,21 +6903,7 @@
               "p95_ppb": 100,
               "confidence": "high",
               "n_studies": 30,
-              "share": 0.655
-            },
-            {
-              "ingredient": "carrots",
-              "title": "Carrots",
-              "page_url": "https://heavymetalindex.com/ingredients/carrots",
-              "risk_ppb": 50,
-              "typical_ppb": [
-                10,
-                30
-              ],
-              "p95_ppb": 50,
-              "confidence": "medium",
-              "n_studies": 9,
-              "share": 0.327
+              "share": 0.974
             },
             {
               "ingredient": "potatoes",
@@ -6917,14 +6917,14 @@
               "p95_ppb": 2.7,
               "confidence": "medium",
               "n_studies": 9,
-              "share": 0.018
+              "share": 0.026
             }
           ]
         },
         "tHg": {
           "label": "Mercury (total)",
           "top_driver": "vegetables",
-          "top_driver_share": 0.952,
+          "top_driver_share": 0.939,
           "driver_count": 2,
           "drivers": [
             {
@@ -6939,29 +6939,29 @@
               "p95_ppb": 20,
               "confidence": "high",
               "n_studies": 22,
-              "share": 0.952
+              "share": 0.939
             },
             {
-              "ingredient": "carrots",
-              "title": "Carrots",
-              "page_url": "https://heavymetalindex.com/ingredients/carrots",
-              "risk_ppb": 1,
+              "ingredient": "carrot",
+              "title": "Carrot",
+              "page_url": "https://heavymetalindex.com/ingredients/carrot",
+              "risk_ppb": 1.3,
               "typical_ppb": [
                 0,
-                1
+                0.9
               ],
-              "p95_ppb": 1,
-              "confidence": "medium",
-              "n_studies": 3,
-              "share": 0.048
+              "p95_ppb": 1.3,
+              "confidence": "high",
+              "n_studies": 1,
+              "share": 0.061
             }
           ]
         },
         "Ni": {
           "label": "Nickel",
           "top_driver": "vegetables",
-          "top_driver_share": 0.52,
-          "driver_count": 3,
+          "top_driver_share": 0.811,
+          "driver_count": 2,
           "drivers": [
             {
               "ingredient": "vegetables",
@@ -6975,21 +6975,7 @@
               "p95_ppb": 340,
               "confidence": "high",
               "n_studies": 21,
-              "share": 0.52
-            },
-            {
-              "ingredient": "carrots",
-              "title": "Carrots",
-              "page_url": "https://heavymetalindex.com/ingredients/carrots",
-              "risk_ppb": 234,
-              "typical_ppb": [
-                40,
-                200
-              ],
-              "p95_ppb": 234,
-              "confidence": "medium",
-              "n_studies": 6,
-              "share": 0.358
+              "share": 0.811
             },
             {
               "ingredient": "potatoes",
@@ -7003,14 +6989,14 @@
               "p95_ppb": 79.4,
               "confidence": "medium",
               "n_studies": 8,
-              "share": 0.122
+              "share": 0.189
             }
           ]
         },
         "Al": {
           "label": "Aluminum",
           "top_driver": "potatoes",
-          "top_driver_share": 0.369,
+          "top_driver_share": 0.409,
           "driver_count": 3,
           "drivers": [
             {
@@ -7025,21 +7011,7 @@
               "p95_ppb": 2500,
               "confidence": "medium",
               "n_studies": 5,
-              "share": 0.369
-            },
-            {
-              "ingredient": "carrots",
-              "title": "Carrots",
-              "page_url": "https://heavymetalindex.com/ingredients/carrots",
-              "risk_ppb": 2140,
-              "typical_ppb": [
-                500,
-                2000
-              ],
-              "p95_ppb": 2140,
-              "confidence": "low",
-              "n_studies": 2,
-              "share": 0.316
+              "share": 0.409
             },
             {
               "ingredient": "vegetables",
@@ -7053,15 +7025,29 @@
               "p95_ppb": 2140,
               "confidence": "medium",
               "n_studies": 10,
-              "share": 0.316
+              "share": 0.35
+            },
+            {
+              "ingredient": "carrot",
+              "title": "Carrot",
+              "page_url": "https://heavymetalindex.com/ingredients/carrot",
+              "risk_ppb": 1468,
+              "typical_ppb": [
+                0,
+                1340
+              ],
+              "p95_ppb": 1468,
+              "confidence": "medium",
+              "n_studies": 1,
+              "share": 0.24
             }
           ]
         },
         "Cr": {
           "label": "Chromium (total)",
           "top_driver": "vegetables",
-          "top_driver_share": 0.8,
-          "driver_count": 2,
+          "top_driver_share": 1,
+          "driver_count": 1,
           "drivers": [
             {
               "ingredient": "vegetables",
@@ -7075,29 +7061,15 @@
               "p95_ppb": 500,
               "confidence": "high",
               "n_studies": 21,
-              "share": 0.8
-            },
-            {
-              "ingredient": "carrots",
-              "title": "Carrots",
-              "page_url": "https://heavymetalindex.com/ingredients/carrots",
-              "risk_ppb": 125,
-              "typical_ppb": [
-                10,
-                100
-              ],
-              "p95_ppb": 125,
-              "confidence": "medium",
-              "n_studies": 7,
-              "share": 0.2
+              "share": 1
             }
           ]
         },
         "Sn": {
           "label": "Tin",
           "top_driver": "vegetables",
-          "top_driver_share": 0.909,
-          "driver_count": 2,
+          "top_driver_share": 0.802,
+          "driver_count": 3,
           "drivers": [
             {
               "ingredient": "vegetables",
@@ -7111,7 +7083,21 @@
               "p95_ppb": 500,
               "confidence": "medium",
               "n_studies": 8,
-              "share": 0.909
+              "share": 0.802
+            },
+            {
+              "ingredient": "carrot",
+              "title": "Carrot",
+              "page_url": "https://heavymetalindex.com/ingredients/carrot",
+              "risk_ppb": 73.7,
+              "typical_ppb": [
+                0,
+                67.7
+              ],
+              "p95_ppb": 73.7,
+              "confidence": "medium",
+              "n_studies": 1,
+              "share": 0.118
             },
             {
               "ingredient": "potatoes",
@@ -7125,7 +7111,7 @@
               "p95_ppb": 50,
               "confidence": "low",
               "n_studies": 3,
-              "share": 0.091
+              "share": 0.08
             }
           ]
         }

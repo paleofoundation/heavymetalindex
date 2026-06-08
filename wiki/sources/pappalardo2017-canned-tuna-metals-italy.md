@@ -74,3 +74,15 @@ Microbiome (if applicable): Not addressed.
 ## Verification notes
 
 The PDF title, byline, DOI, journal, year, Table I species labels, Table II metal concentrations, methods, method detection limits, and risk-assessment summary were read from the auto-fetched PDF. The auto-fetched filename was an olive-oil cadmium gap hit, but the routeable food matrix is canned tuna in olive oil or brine; no olive-oil contaminant concentration was measured separately. Mercury is reported as Hg by ICP-MS, not methylmercury.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [2442451](https://github.com/paleofoundation/heavymetalindex/commit/2442451) | 2026-06-03 | ingest auto-fetched 2026-06-03: pappalardo2017-canned-tuna-metals-italy |
+<!-- END: hmi-page-history -->

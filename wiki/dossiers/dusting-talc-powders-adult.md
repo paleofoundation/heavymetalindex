@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `566c7b2` (2026-06-02). The body hashes to `sha256:c075c6e92f142fa824eb64a9907e4b9d…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `8707c66` (2026-06-05). The body hashes to `sha256:69b5e4f629c74cf224a46de6fbc57249…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=dusting-talc-powders-adult&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/dusting-talc-powders-adult&download=1`.
 

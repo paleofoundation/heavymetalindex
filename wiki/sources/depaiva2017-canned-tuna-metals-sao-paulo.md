@@ -112,3 +112,13 @@ The four-cans-per-week threshold (water conserve) is the headline number. Adults
 - Direct evidence for `[[ingredients/canned-tuna]]` and `[[products/canned-fish]]`, `[[products/canned-seafood]]`. Broad-product-category context for `[[products/seafood]]` and `[[products/fish-marine-predatory]]` (the source measures canned product, not fresh predatory tuna species).
 - Direct evidence on Cd, Pb, tHg, and MeHg in canned tuna for the Brazilian (ANVISA RDC 42/2013) and EU (Regulation 1881/2006) regulatory comparators.
 - Sn finding is a non-detect across all 30 samples; this is a coverage-relevant negative for canned-tuna Sn migration discussion on `[[metals/tin]]` and on the canned-fish product page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

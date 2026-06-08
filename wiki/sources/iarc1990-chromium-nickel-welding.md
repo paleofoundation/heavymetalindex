@@ -132,3 +132,15 @@ Source-handling notes:
 - Wiki/HMTc firewall (Part 2) not triggered: the monograph predates HMTc, and the page records only what IARC concluded.
 - Audit subagent (2026-06-04) flagged four Section/Table citation labels. Verified against source PDF and corrected: (a) the Chromium-in-food heading initially cited "Table 16, pp. 102-103; Section 2.3(d)" — Table 16 is actually Cr levels in food and feral animal tissues, not food-intake figures, and food is Section 2.3(f) on p. 101 — corrected to "Section 2.3(f), p. 101"; (b) the Chromium-in-drinking-water heading initially cited "Section 2.3(c); Table 17" — Section 2.3(c) is Air and Table 17 is human tissues; corrected to "Section 2.3(d), pp. 99-100; Section 2.3(i) Regulatory status, p. 104"; (c) the Chromium-in-non-occupationally-exposed-humans heading was tightened to cite the section letter (2.3(h)) explicitly; (d) Cr Table 19 in Methods was cited as "p. 109" — Table 19 actually begins on p. 108; corrected.
 - Audit subagent (2026-06-04) flagged the gloss "(dry weight equivalent)" on the Ni EAAS tissue/food/faeces detection limit. The PDF p. 317 prints "10 ng/g (dry wet)" — an ambiguous/typesetting fragment; "(dry weight equivalent)" is retained because the EAAS sample-preparation conventions for tissues and foods in Table 21 use acid digestion of dry-weight-equivalent material, and the gloss is the standard interpretation in clinical-chemistry usage of this monograph. Verified against the source but the gloss is interpretive, not verbatim.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [d34b553](https://github.com/paleofoundation/heavymetalindex/commit/d34b553) | 2026-06-03 | ingest June 3: iarc1990-chromium-nickel-welding |
+<!-- END: hmi-page-history -->

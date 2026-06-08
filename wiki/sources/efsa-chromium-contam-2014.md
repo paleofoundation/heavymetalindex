@@ -200,3 +200,16 @@ The opinion uses the EFSA Comprehensive Database version 1, comprising 32 dietar
 The opinion is internally inconsistent about which sex the BMDL10 of 0.11 mg Cr(VI)/kg b.w. per day for diffuse epithelial hyperplasia of the duodenum was modelled in. The abstract (page 1), the risk-characterisation text on page 115, and the final conclusions bullet on page 126 attribute the BMDL10 to female mice; the BMD-analysis text on page 113 ("For male mice the BMD approach was only applicable to the data of diffuse epithelial hyperplasia in duodenum and resulted in a BMDL10 of 0.11"), the risk-characterisation text on page 117, the Dose-Response Conclusions bullet on page 125, and — most decisively — Table 22 (page 113) attribute it to male mice, with female mice marked "No BMDL could be determined." The wiki uses the data-authoritative male-mice attribution from Table 22 and the supporting BMD-analysis text. Source citation: BMDL10 0.11 male mice → Table 22 page 113 and page 113 supporting text; female mice → no BMDL determinable per Table 22.
 
 Fresh-context audit subagent (Claude Opus 4.7, 2026-06-03) returned verdict REVISE with the BMDL10-sex finding above (applied). All other checks clean: ✅ Check 1 (numerical fidelity verified across Tables 6, 7, 8, 21–25 and abstract/summary/conclusions; one minor rounding note — page 42 actual food LC is 49.1% rounded to "50%" in summary, accepted), ✅ Check 2 (all 13 ingredient slugs and both metal slugs in taxonomy snapshot), ✅ Check 3 (BMD modelling software, BMRs, endpoints accurately reported), ✅ Check 4 (Part 12 brand firewall — Latin botanical names are taxonomic identifiers, "Schmaltz" is a generic culinary term, no per-brand rankings), ✅ Check 5 (Part 2 wiki/HMTc firewall — no threshold proposals, no consumer advisories, EFSA conclusions paraphrased not synthesised).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [dc4ecda](https://github.com/paleofoundation/heavymetalindex/commit/dc4ecda) | 2026-06-03 | audit: efsa-chromium-contam-2014 revised |
+| [75d8263](https://github.com/paleofoundation/heavymetalindex/commit/75d8263) | 2026-06-03 | ingest: efsa-chromium-contam-2014 fresh from Manual Fetch Kimi/June 3 Folder |
+<!-- END: hmi-page-history -->

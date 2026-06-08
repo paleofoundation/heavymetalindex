@@ -75,3 +75,13 @@ Source PDF is the ATSDR ToxFAQs fact sheet for tin (filename `tfacts55 2.pdf` in
 - Audit subagent (2026-06-04) flagged that `matrices: [drinking-water]` overstated the PDF, which discusses water only as an environmental compartment (binding to sediment, persistence in water for organotin) and not as a human drinking-water exposure route. Verified; `drinking-water` removed from `matrices:`. Remaining matrices (`canned-food`, `seafood`, `workplace-air`) are the three the fact sheet explicitly frames as human exposure routes.
 - The fact sheet uses the phrase "metallic tin and inorganic tin compounds have been found in at least 214 of the 1,662 National Priority List (NPL) sites" on page 1; "Organic tin compounds have been identified in at least 8 of the NPL sites" follows immediately. Both NPL counts are reproduced verbatim.
 - No brand-firewall or wiki/HMTc-firewall concerns surfaced; the fact sheet names no brands and makes no HMT&C-comparable threshold claims.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

@@ -77,35 +77,35 @@ updated: 2026-04-30
   <dl class="hmi-home-corpus-counter-grid">
     <div>
       <dt>Peer-reviewed studies</dt>
-      <dd><a href="sources/">1,148</a></dd>
+      <dd><a href="sources/">1,213</a></dd>
     </div>
     <div>
       <dt>Government reports and datasets</dt>
-      <dd><a href="sources/">132</a></dd>
+      <dd><a href="sources/">156</a></dd>
     </div>
     <div>
       <dt>Programmatic databases indexed</dt>
-      <dd><a href="sources/">44</a></dd>
+      <dd><a href="sources/">47</a></dd>
     </div>
     <div>
       <dt>A-tier curated sources</dt>
-      <dd><a href="sources/">1,111</a></dd>
+      <dd><a href="sources/">1,186</a></dd>
     </div>
     <div>
       <dt>Structured evidence records</dt>
-      <dd><a href="methodology/">689</a></dd>
+      <dd><a href="methodology/">695</a></dd>
     </div>
     <div>
       <dt>Jurisdictions covered</dt>
-      <dd><a href="regulations/">162</a></dd>
+      <dd><a href="regulations/">173</a></dd>
     </div>
     <div>
       <dt>Ingredient profiles</dt>
-      <dd><a href="ingredients/">269</a></dd>
+      <dd><a href="ingredients/">256</a></dd>
     </div>
     <div>
       <dt>Product categories</dt>
-      <dd><a href="products/">360</a></dd>
+      <dd><a href="products/">363</a></dd>
     </div>
     <div>
       <dt>Metal profiles</dt>
@@ -113,10 +113,10 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>Regulation pages</dt>
-      <dd><a href="regulations/">55</a></dd>
+      <dd><a href="regulations/">56</a></dd>
     </div>
   </dl>
-  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-06-02. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
+  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-06-05. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
 </section>
 <!-- END: hmi-corpus-counter -->
 
@@ -124,13 +124,13 @@ updated: 2026-04-30
 <!-- BEGIN: hmi-feature-grid -->
 <section class="hmi-home-feature-grid" aria-label="Heavy Metal Index sections">
   <div class="hmi-home-feature-card">
-    <span>360 pages</span>
+    <span>363 pages</span>
     <h2><a href="products/">Products</a></h2>
     <p>Risk profiles for infant and child foods, formula, cereals, purees, snacks, and related categories.</p>
     <div class="hmi-home-card-meta">Consumer-facing categories</div>
   </div>
   <div class="hmi-home-feature-card">
-    <span>269 pages</span>
+    <span>256 pages</span>
     <h2><a href="ingredients/">Ingredients</a></h2>
     <p>Ingredient-level profiles for rice, cocoa, fish, vegetables, grains, and formula inputs.</p>
     <div class="hmi-home-card-meta">Commodity drivers</div>
@@ -142,13 +142,13 @@ updated: 2026-04-30
     <div class="hmi-home-card-meta">Metal profiles</div>
   </div>
   <div class="hmi-home-feature-card">
-    <span>55 pages</span>
+    <span>56 pages</span>
     <h2><a href="regulations/">Regulations</a></h2>
     <p>Agency values, action levels, tolerable intakes, and jurisdiction-specific regulatory references.</p>
     <div class="hmi-home-card-meta">Thresholds and agencies</div>
   </div>
   <div class="hmi-home-feature-card">
-    <span>1,420 pages</span>
+    <span>1,539 pages</span>
     <h2><a href="sources/">Sources</a></h2>
     <p>The source archive behind the index, with linked methods, extracted values, and page cross-references.</p>
     <div class="hmi-home-card-meta">Traceable evidence</div>

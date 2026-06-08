@@ -173,3 +173,16 @@ The paper-internal GSH wording "falling by 185.71% and 235.04%" in the Section 3
 Brand-firewall scan: the source does not name any consumer-product brands attached to contamination values. All vendor names retained in the page (PerkinElmer ELAN DRC-e, Perkin Elmer SCIEX DRC-e, PANalytical EMPYREAN, Malvern Panalytical, ZEISS EVO 25LS, EDAX Trident, Brookhaven Bi-90 plus, Mastersizer 3000, Micromeritics 3Flex, MindRay BC-30Vet, OPTIKA B-383 FL, Merck/Merck KGaA reagent catalogues, IAEA-H-8 and NIES N6 reference materials, GraphPad Prism, G*Power, GOLDSPAN bedding, Tecniplast ULTEM caging) refer to scientific instruments, reagents, reference materials, software, or husbandry materials and are permitted per Part 12 Exception 2 (scientific-method vendor/material names).
 
 Audit subagent (2026-06-02) flagged two units concerns; both verified against PDF p. 13 Table 4 header. Applied: MO column units corrected from `MO (10^9/L)` to `MO (10^8/L)` to match the source header. Documented: the wiki's WBC column units `(10^9/L)` are a silent normalisation of the source's `WBC (g/L)` (clearly a source-side typo, since g/L is a protein-concentration unit and the other leucocyte columns in the same table use 10^x/L); the underlying numerical values are unchanged. The source also reports an anomalous RBC value for the C (control) group at day 45 of 0.9 +/- 2.6 (mean smaller than SD, and an order of magnitude below the C group's day-30 RBC of 5.3 +/- 2.0); the wiki reproduces this verbatim because the auditor confirmed it is in the source as printed, but downstream synthesis passes should treat the C day-45 RBC datum as a likely source-side transcription error.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [1409a48](https://github.com/paleofoundation/heavymetalindex/commit/1409a48) | 2026-06-02 | audit: beltcheva2025-clinoptilolite-cd-mice-detox [revised] |
+| [1368bb9](https://github.com/paleofoundation/heavymetalindex/commit/1368bb9) | 2026-06-02 | ingest: beltcheva2025-clinoptilolite-cd-mice-detox [fresh] from Manual Fetch Kimi /June 2 Manual Fetches |
+<!-- END: hmi-page-history -->

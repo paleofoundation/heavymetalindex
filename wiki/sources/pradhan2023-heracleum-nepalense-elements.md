@@ -66,3 +66,15 @@ App: Route as spice/herb context only unless a future Heracleum-specific ingredi
 - The source repeatedly describes H. nepalense fruit as used as a spice, food additive, and flavoring agent in Sikkim, which supports routeability to the broad spices product page.
 - Concentrations are recorded exactly as ppb from Table 1. The page does not convert them to mg/kg because the source's digestion-volume reporting makes direct commodity-basis conversion ambiguous.
 - The PDF does not state a license in the extracted front matter.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [a79beff](https://github.com/paleofoundation/heavymetalindex/commit/a79beff) | 2026-06-03 | ingest auto-fetched 2026-06-03: pradhan2023-heracleum-nepalense-elements |
+<!-- END: hmi-page-history -->

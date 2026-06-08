@@ -159,3 +159,16 @@ Not applicable. This is an NGO consumer-education article, not an experimental s
 - Audit subagent (2026-06-03) flagged the article reference count as "twenty-three" when the PDF reference list (pp. 6-7) totals twenty-two distinct entries (Check 1, ⚠️). Verified by re-counting the references on pp. 6-7: ATSDR (3), B.C. MoE, Burrows et al. 2009, Canada 2006, Canada 2009, Env Canada 2010 P2 NPE, Env Canada/Health Canada 2001 NPE PSL, Env Canada 2010 NTA, EWG 2008 EPA roll-back, EWG Skin Deep SLS, EU Parliament/Council 2009, Foundation for Water Research, Gorman 2007, Hegstad et al. 2010, Labour Environmental Alliance Society, Renner 2002, Santa Cruz Biotech MSDS, Steinemann et al. 2011, Steinman & Epstein 1995, US EPA 2011 = 22. Corrected the Methods section count to "twenty-two."
 - Audit subagent (2026-06-03) flagged the coal-tar-dye locator as "p. 2" when the section spans pp. 2-3 (Check 1, ⚠️ minor). Verified against the PDF — the heading "Coal tar dyes" and the full heavy-metal sentence ("Derived from petrochemicals, and may be contaminated with trace amounts of heavy metals like arsenic, cadmium and lead") sit wholly on p. 2; only the continuation prose ("through the skin or ingested in the case of soap residue on dishes") spills onto p. 3. The wiki cites the sentence locator, not the section locator. Finding rejected as a false positive; no change applied. The wiki's "(p. 2)" cite for the heavy-metal sentence stands; the separate "(p. 3)" cite for the "Found in: most types of cleaning products" footer is independently correct (that "Found in" line does sit on p. 3).
 - Audit verdict was PROMOTE. After this audit-application pass: two minor findings applied (Steinemann sampling-structure phrasing and reference count); one finding rejected as a false positive (coal-tar-dye locator). No heavy-metal data integrity issues. No firewall changes. Page is REVISE-grade per the audit on the strength of the two ⚠️ Check 1 fixes being applied; treated as audited-revised in the audit queue.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [2401454](https://github.com/paleofoundation/heavymetalindex/commit/2401454) | 2026-06-03 | audit: davidsuzuki2014-toxic-household-cleaners revised |
+| [668eb9c](https://github.com/paleofoundation/heavymetalindex/commit/668eb9c) | 2026-06-03 | ingest: davidsuzuki2014-toxic-household-cleaners fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/06_Regulatory_EPA_GreenSeal |
+<!-- END: hmi-page-history -->

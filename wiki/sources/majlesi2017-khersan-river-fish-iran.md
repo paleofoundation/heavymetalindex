@@ -89,3 +89,15 @@ App: total-Hg, Cd, and Pb point data for three named freshwater species from a s
 - Wet vs dry weight basis: not stated in the paper. Methods describe oven-drying to constant weight before the 0.5 g digestion aliquot is taken, which would yield dry-weight values; the authors then compare directly to WHO/EC limits (defined on wet weight) without explicit conversion. Reported here as the authors reported them, with the basis ambiguity flagged in Key numbers.
 - Discussion-section paragraph on p. 157 reports Cd in pike and common carp as 0.052 and 0.045 mg/kg and Pb in rainbow trout as "0.22 and 0.33 mg/kg," which do not match Table 1 means or any obvious decomposition; the Table 1 values are taken as authoritative and the discrepancy is flagged.
 - DOI not printed in the PDF; the publisher (Shiraz University of Medical Sciences, ijns.sums.ac.ir) hosts the article at the access_url above. License terms are not displayed on the article landing page; treated as publisher-hosted with unspecified reuse terms.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [0ae2561](https://github.com/paleofoundation/heavymetalindex/commit/0ae2561) | 2026-06-03 | ingest: majlesi2017-khersan-river-fish-iran [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish |
+<!-- END: hmi-page-history -->

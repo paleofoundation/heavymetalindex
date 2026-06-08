@@ -72,7 +72,7 @@ The intraparticle-diffusion plots were non-linear and involved three stages: rap
 
 ## Methods (brief)
 
-The membrane materials were prepared in DMF from PEG-6000, maleic anhydride, and the silane coupler WD-60 via epoxy ring-opening and sol-gel reactions. Reaction mixtures were heated at 80 C for 8 hours, coated on Teflon, dried at room temperature for 2-3 days, and then oven-dried with stepwise temperature increases to 50 C. Membranes were characterized by SEM, FTIR, and TGA/DSC.
+The membrane materials were prepared in DMF from PEG-6000, maleic anhydride, and the silane coupler WD-60 via epoxy ring-opening and sol-gel reactions. Reaction mixtures were heated at 80 C for 8 hours, coated on Teflon, dried at room temperature for 2-3 days, and then oven-dried starting at 35 C with 5 C step increases every other day to 50 C. Membranes were characterized by SEM, FTIR, and TGA/DSC.
 
 Cu2+ and Pb2+ adsorption experiments used aqueous nitrate solutions as the adsorption medium. The main paper reports condition sweeps for pH, temperature, initial metal-ion concentration, and contact time; detailed capacity-determination procedures are in supplementary Files S1 and S2.
 
@@ -95,6 +95,8 @@ Courses: Useful for teaching condition optimization, membrane adsorbent design, 
 
 This page was built from the full PDF, including Table 1 membrane recipes, SEM/FTIR/TGA characterization, Table 2 capacity comparison, Cu2+ and Pb2+ condition-optimization sections, Tables 3 and 4 time-fraction summaries, intraparticle-diffusion discussion, conclusion, and supplementary-materials note. The source reports Cu2+ and Pb2+ adsorption capacities in prepared aqueous systems only. Products and ingredients are intentionally empty because no food, ingredient, drinking-water field sample, or consumer-product matrix was sampled.
 
+Audit subagent (2026-06-02, v2 skill) returned PROMOTE on all five checks: numerical fidelity verified across Tables 1-4 and Cu2+/Pb2+ optima; speciation, methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall all clean. One optional source-fidelity tightening applied: oven-drying step now states the full PDF-described ramp (35 C with 5 C step increases every other day to 50 C) rather than the compressed earlier wording. Cu is outside the HMTc 10-analyte primary vocabulary but `[[metals/copper]]` exists and the wiki-page slug is valid. The remediation-domain matrices vocabulary (organic-inorganic-hybrid-membrane, aqueous-sorption-test, wastewater-remediation) is not in the formal taxonomy snapshot but is precedented in li2020-silk-fibroin-nanoflower-lead-remediation, mehanathan2023-magnesium-oxide-arsenate-remediation, and macias2023-polymer-inclusion-membranes-seawater-metals; this is a taxonomy-housekeeping gap, not a per-page defect. The advisory entry in routing_malformed.csv (missing products/ingredients) is intentional for this remediation-methods paper class.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -102,5 +104,8 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [ad5622a](https://github.com/paleofoundation/heavymetalindex/commit/ad5622a) | 2026-06-02 | ingest June 2: wu2023-hybrid-membranes-lead-copper-adsorption |
 <!-- END: hmi-page-history -->

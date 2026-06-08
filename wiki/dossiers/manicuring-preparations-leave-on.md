@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `566c7b2` (2026-06-02). The body hashes to `sha256:0b5da22251b89538626df9cb0ea76855…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `8707c66` (2026-06-05). The body hashes to `sha256:e765c6891db6ec1fb868c60879db7f6f…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=manicuring-preparations-leave-on&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/manicuring-preparations-leave-on&download=1`.
 

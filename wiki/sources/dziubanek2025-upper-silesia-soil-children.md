@@ -148,3 +148,16 @@ EF-3 (Geographic exposure context). This source supplies recreational-soil occur
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/zinc]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [94dc97b](https://github.com/paleofoundation/heavymetalindex/commit/94dc97b) | 2026-06-02 | audit: dziubanek2025-upper-silesia-soil-children revised |
+| [578f0cc](https://github.com/paleofoundation/heavymetalindex/commit/578f0cc) | 2026-06-02 | ingest: dziubanek2025-upper-silesia-soil-children fresh from Manual Fetch Kimi/June 2 Manual Fetches |
+<!-- END: hmi-page-history -->

@@ -136,3 +136,13 @@ App: Drinking water can be added to the per-age aluminum exposure model using th
 - Brand-firewall exception 1 (regulatory event subject) does not apply — the document does not name any branded products as the subject of a regulatory action.
 - Audit subagent (2026-06-04) flagged a Manitoba/Saskatchewan jurisdictional mis-attribution in the Canadian occurrence block: the non-municipal-ground row `0.003 / 0.023 / 0.011 / 14.000` (n = 1 983/4 128) was attributed to Manitoba but belongs to Saskatchewan per source Table 2 (page 5). Manitoba's actual non-municipal-ground row is `0.002 / 0.010 / 0.014 / 0.266` (n = 51/144). Verified against source page 5 — finding correct; corrected.
 - Audit subagent (2026-06-04) flagged the Poirier 2011 study size as `(80 sex/group)` being ambiguous (could be misread as 80 per group total). Source page 15 Table 3 explicitly states "80/sex/group" with the slash. Verified — finding correct; disambiguated to `(80/sex/group; 160 per dose group)`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

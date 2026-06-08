@@ -2,15 +2,15 @@
 source_page: wiki/products/vinegar.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f645e08f6fb3aa4c5fc117b40f306f147280659ca3015c015e4d4c237a17c5a4
+source_page_sha256: a43437ad6a8f68f66cbc6ecf2e6192c6ac729481a3265d22bb36809317e9d88d
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 0
+audit_rows_for_page: 2
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 635
+audit_log_total_rows: 789
 noindex: true
 ---
 
@@ -34,15 +34,14 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 0 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 0 |
+| audit rows on this page | 2 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 635 |
+| audit log rows read | 789 |
 
 ## Page-level audit rows
 
-_No audit rows reference this page directly._
-
-This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
+- `edit_id=cat7-primary-metals-vinegar-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-primary-metals
+- `edit_id=cat7-step0-lock-vinegar-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-step0-lock
 
 ## Claims by section
 

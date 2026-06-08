@@ -21,18 +21,42 @@
     "canonical_url": "https://heavymetalindex.com/products/sports-energy-drinks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "280f40264f26458085d4424aa913c494de7d0c0434ad65813411d0ee9a804564",
-      "content_bytes": 7372,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "content_sha256": "d3916ca59fd1a13330823f7ad7c8fd7695eb6523dd49586afb063cd5063293ae",
+      "content_bytes": 7938,
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/sports-energy-drinks.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/sports-energy-drinks.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/salaheldin2025-multimatrix-foods-egypt",
+        "title": "Assessment of toxic heavy metals in commonly consumed foods in Egypt and their implications for public health and safety",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/salaheldin2025-multimatrix-foods-egypt",
+        "content_pin": {
+          "content_sha256": "0c5bb2fb137d2be712a4b4cb960fed8df5dd3b75e26d692b5f41ef89749c6a72",
+          "content_bytes": 12915,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

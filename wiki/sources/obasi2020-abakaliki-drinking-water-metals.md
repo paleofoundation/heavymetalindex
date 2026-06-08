@@ -62,3 +62,15 @@ App: The source may support warnings or context for private wells and community 
 ## Verification notes
 
 The auto-fetch filename described this as a mineral-water cadmium product hit, but the PDF is an Applied Water Science article on community water resources in Nigerian lead-zinc mining areas. The DOI in the PDF is 10.1007/s13201-020-01233-z, and no existing `wiki/sources/` DOI match was found before ingest. Because the paper reports total As, total Hg, and total Cr without species resolution, the source page does not route those values as iAs, MeHg, or Cr(VI).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [d0c918a](https://github.com/paleofoundation/heavymetalindex/commit/d0c918a) | 2026-06-02 | ingest auto-fetched 2026-06-02: obasi2020-abakaliki-drinking-water-metals |
+<!-- END: hmi-page-history -->

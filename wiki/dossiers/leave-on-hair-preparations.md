@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `566c7b2` (2026-06-02). The body hashes to `sha256:c09a6acaed4a3089c274949ba64bc38c…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `8707c66` (2026-06-05). The body hashes to `sha256:376c02c76138ac07d33d561fd8046708…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=leave-on-hair-preparations&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/leave-on-hair-preparations&download=1`.
 

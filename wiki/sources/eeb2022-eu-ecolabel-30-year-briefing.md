@@ -204,3 +204,15 @@ Not applicable. This is an NGO advocacy briefing, not an experimental study; the
   - `products/growing-media-soil-improvers` — would let the gardening heavy-metals restriction route precisely; not in current taxonomy.
   - `products/floor-coverings` and `products/hard-coverings` — would let the coverings heavy-metals restriction route precisely; not in current taxonomy.
   - `regulations/eu-ecolabel-regulation-66-2010` — parent EU Ecolabel Regulation; not in current taxonomy.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [b7896be](https://github.com/paleofoundation/heavymetalindex/commit/b7896be) | 2026-06-03 | ingest: eeb2022-eu-ecolabel-30-year-briefing fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/06_Regulatory_EPA_GreenSeal |
+<!-- END: hmi-page-history -->

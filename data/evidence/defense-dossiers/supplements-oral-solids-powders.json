@@ -17,18 +17,55 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-powders",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "dd86f705c7e02c610d69029c951a0c074fd32f7b81e4f1d7002c3304b2b70562",
-      "content_bytes": 7447,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "content_sha256": "dadf42024d1e306f64d4c5712ee55f8de3fc085a9d410f4f00b1d82ff1c8c791",
+      "content_bytes": 8032,
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/supplements-oral-solids-powders.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/supplements-oral-solids-powders.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/sochacka2025-spirulina-chlorella-supplements-poland",
+        "title": "Spirulina and Chlorella Dietary Supplements—Are They a Source Solely of Valuable Nutrients?",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Ba",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cs",
+          "Cu",
+          "Ga",
+          "Mn",
+          "Mo",
+          "Ni",
+          "Pb",
+          "Rb",
+          "Sr",
+          "Tl",
+          "V",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sochacka2025-spirulina-chlorella-supplements-poland",
+        "content_pin": {
+          "content_sha256": "8c79c664462e545eebf77d7b84a0755af02fe397c3ad0ac699fa3228f29700cb",
+          "content_bytes": 23319,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

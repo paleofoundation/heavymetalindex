@@ -17,18 +17,44 @@
     "canonical_url": "https://heavymetalindex.com/products/descalers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5aa12aa505d86f4cf417a250f1d88af3b7dc7c2c2f656216e209afeb876491c7",
-      "content_bytes": 7166,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "content_sha256": "1cb46d3cd1eaef9bbbc886ea7c04f271175fe2170dfeadb8efdf07c77f93e633",
+      "content_bytes": 8645,
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/descalers.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/descalers.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/nydec2020-cleansing-product-disclosure-bmp",
+        "title": "Cleansing Product Information Disclosure Program — Recommended Best Management Practices",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Cr-VI",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
+        "content_pin": {
+          "content_sha256": "ace30203933264826c3a541fc4cd0f4499bd2f6aea4059b51f625affd77c9426",
+          "content_bytes": 47811,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

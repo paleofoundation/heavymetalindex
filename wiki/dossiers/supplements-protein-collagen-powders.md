@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `566c7b2` (2026-06-02). The body hashes to `sha256:7ba092550ed4aa75229bc5ae6a49ff09…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `8707c66` (2026-06-05). The body hashes to `sha256:0e017c82c82c7efbfe6fac145c44107e…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=supplements-protein-collagen-powders&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/supplements-protein-collagen-powders&download=1`.
 
 ## Evidence base
 
-This category is supported by 2 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 0 numerical claims; 0 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 16 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 0 numerical claims; 0 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/supplements-protein-collagen-powders.md`.
 

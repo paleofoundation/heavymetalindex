@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T13:42:38.934Z",
+  "generated_at": "2026-06-05T17:58:43.973Z",
   "schema_version": "1.0.0",
   "license": {
     "prose": "CC BY 4.0",
@@ -8,7 +8,7 @@
   },
   "attribution": "Heavy Metal Index (heavymetalindex.com), Paleo Foundation. Cite page_url or wiki_doi.",
   "canonical_base": "https://heavymetalindex.com",
-  "record_count": 54,
+  "record_count": 55,
   "records": [
     {
       "slug": "regulations/atsdr-aluminum-mrls",
@@ -1095,6 +1095,43 @@
       "updated": "2026-05-03T00:00:00.000Z"
     },
     {
+      "slug": "regulations/eu-2024-907-nickel-monitoring",
+      "rule_id": "eu-2024-907-nickel-monitoring",
+      "title": "Commission Recommendation (EU) 2024/907 on the monitoring of nickel in food",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "European Commission",
+      "program": "Commission Recommendation",
+      "metal": "Ni",
+      "metals": [
+        "Ni"
+      ],
+      "matrix": "food (multiple categories)",
+      "matrices": [
+        "food (multiple categories)"
+      ],
+      "limit_value": "monitoring-recommendation",
+      "limit_unit": "none",
+      "status": "in-force",
+      "effective_date": "2024-03-22T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/eu-2024-907-nickel-monitoring-recommendation",
+        "sources/efsa-nickel-contam-2020"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "brand-qa",
+        "brand-legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-2024-907-nickel-monitoring",
+      "updated": "2026-06-03T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/eu-466-2001-contaminants-superseded",
       "rule_id": "ec-466-2001",
       "title": "Commission Regulation (EC) No 466/2001 setting maximum levels for certain contaminants in foodstuffs",
@@ -1314,7 +1351,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/eu2023-contaminants-maximum-levels",
-      "updated": "2026-05-02T00:00:00.000Z"
+      "updated": "2026-06-03T00:00:00.000Z"
     },
     {
       "slug": "regulations/fda-cpg-540-600-methylmercury-fish",

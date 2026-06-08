@@ -14,7 +14,7 @@ raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-spices-
 metals: [Cu, Zn, Fe, Mn, Cr, Ni, Co, Cd, Pb, tHg]
 ingredients: ["[[ingredients/spices]]", "[[ingredients/turmeric]]", "[[ingredients/black-pepper]]"]
 products: ["[[products/spices]]"]
-matrices: [spices, dried-spices]
+matrices: [spices]
 jurisdictions: [IQ]
 near_duplicates: []
 sample_n: 160
@@ -37,7 +37,7 @@ Matloob measured ten elements in 160 samples representing 32 natural spices trad
 
 ## Methods (brief)
 
-The study used dry ashing followed by analysis with anodic, cathodic, and adsorptive stripping voltammetry on a Metrohm 797 VA Trace Analyzer. The author used standard additions for quantification. Samples were washed, dried at 80 degrees C for 24 hours, ashed at 550 degrees C, dissolved in 0.25 percent nitric acid, diluted to 50 mL, and analyzed immediately.
+The study used dry ashing followed by analysis with anodic, cathodic, and adsorptive stripping voltammetry on a Metrohm 797 VA Trace Analyzer. The author used standard additions for quantification. Most samples were washed, dried at 80 degrees C for 24 hours, ashed at 550 degrees C, dissolved in 0.25 percent nitric acid, diluted to 50 mL, and analyzed immediately. The source states that tamarind and saffron were wiped rather than washed because they lose substantial weight during washing.
 
 The reported basis is dry spice weight. Mercury is reported as total Hg; chromium is total chromium.
 
@@ -66,3 +66,16 @@ App: Ingredient-level signals are strongest for spices as a broad category, with
 - The PDF uses "Tumeric" in Table 5 and Table 6; this source page routes that row to [[ingredients/turmeric]].
 - Concentrations are mg/kg dry weight, equivalent to ppm and to micrograms per gram.
 - The study reports total chromium and total mercury; it does not provide Cr(VI), inorganic arsenic, or methylmercury speciation.
+- The wiki uses the Table 6 and Table 9 mean Hg value of 0.400 mg/kg; the discussion text elsewhere reports Hg as 0.440 mg/kg.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [1d5a965](https://github.com/paleofoundation/heavymetalindex/commit/1d5a965) | 2026-06-03 | ingest auto-fetched 2026-06-03: matloob2016-iraq-spices-heavy-metals |
+<!-- END: hmi-page-history -->

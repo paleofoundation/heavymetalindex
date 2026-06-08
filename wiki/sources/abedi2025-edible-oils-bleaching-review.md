@@ -148,6 +148,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [8944265](https://github.com/paleofoundation/heavymetalindex/commit/8944265) | 2026-06-02 | audit: abedi2025-edible-oils-bleaching-review revised |
 | [bfd34e4](https://github.com/paleofoundation/heavymetalindex/commit/bfd34e4) | 2026-06-02 | ingest: abedi2025-edible-oils-bleaching-review fresh from Manual Fetch Kimi /June 1 more |
 <!-- END: hmi-page-history -->

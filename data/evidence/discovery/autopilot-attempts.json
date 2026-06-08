@@ -1,0 +1,62 @@
+{
+  "wiki/products/fermented-beverages-non-tea-based.md": {
+    "last_attempted_at": "2026-06-06T05:33:01.876Z",
+    "attempts": 1,
+    "last_outcome": "fetched=8 (partial:timeout) — relabeled; logged pre-dir-diff-fix"
+  },
+  "wiki/products/soft-drinks-carbonated-beverages.md": {
+    "last_attempted_at": "2026-06-06T10:44:39.723Z",
+    "attempts": 1,
+    "last_outcome": "fetched=3 novel=14"
+  },
+  "wiki/products/sports-energy-drinks.md": {
+    "last_attempted_at": "2026-06-06T16:55:16.914Z",
+    "attempts": 1,
+    "last_outcome": "fetched=6 novel=9"
+  },
+  "wiki/products/vegetable-juices-non-root.md": {
+    "last_attempted_at": "2026-06-06T22:53:33.523Z",
+    "attempts": 1,
+    "last_outcome": "fetched=3 novel=39"
+  },
+  "wiki/products/plant-milks-non-soy-non-rice.md": {
+    "last_attempted_at": "2026-06-07T05:25:35.967Z",
+    "attempts": 1,
+    "last_outcome": "fail:timeout (20m), 0 PDFs"
+  },
+  "wiki/products/true-tea-camellia-sinensis.md": {
+    "last_attempted_at": "2026-06-07T12:08:42.881Z",
+    "attempts": 1,
+    "last_outcome": "fetched=1 (partial:timeout) novel=?"
+  },
+  "wiki/products/kombucha-tea-based.md": {
+    "last_attempted_at": "2026-06-07T18:48:39.603Z",
+    "attempts": 1,
+    "last_outcome": "fetched=2 novel=28"
+  },
+  "wiki/products/plant-milks-rice-based.md": {
+    "last_attempted_at": "2026-06-08T01:24:34.560Z",
+    "attempts": 1,
+    "last_outcome": "fetched=7 novel=15"
+  },
+  "wiki/products/matcha.md": {
+    "last_attempted_at": "2026-06-08T04:10:30.505Z",
+    "attempts": 1,
+    "last_outcome": "fetched=7 novel=21"
+  },
+  "wiki/products/herbal-botanical-infusions.md": {
+    "last_attempted_at": "2026-06-08T06:35:02.111Z",
+    "attempts": 1,
+    "last_outcome": "fail:timeout (20m), 0 PDFs"
+  },
+  "wiki/products/infant-formula-rtf-liquid-soy-based.md": {
+    "last_attempted_at": "2026-06-08T10:12:55.639Z",
+    "attempts": 1,
+    "last_outcome": "fetched=4 novel=16"
+  },
+  "wiki/products/flavored-waters.md": {
+    "last_attempted_at": "2026-06-08T14:26:24.871Z",
+    "attempts": 1,
+    "last_outcome": "fetched=2 (partial:timeout) novel=?"
+  }
+}

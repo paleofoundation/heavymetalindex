@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T13:42:38.651Z",
+  "generated_at": "2026-06-05T17:58:43.707Z",
   "schema_version": "1.0.0",
   "license": {
     "prose": "CC BY 4.0",
@@ -7,7 +7,7 @@
     "contact": "karen@paleofoundation.com"
   },
   "attribution": "Heavy Metal Index (heavymetalindex.com), Paleo Foundation. Cite the page URL or wiki_doi.",
-  "record_count": 237,
+  "record_count": 229,
   "records": [
     {
       "ingredient": "almond",
@@ -650,7 +650,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/asparagus",
-      "sources_count": 1,
+      "sources_count": 2,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -1530,7 +1530,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/beans",
-      "sources_count": 30,
+      "sources_count": 32,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -1653,7 +1653,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/beef",
-      "sources_count": 16,
+      "sources_count": 17,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -2032,7 +2032,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/bivalve-molluscs",
-      "sources_count": 25,
+      "sources_count": 37,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -2155,7 +2155,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/black-pepper",
-      "sources_count": 8,
+      "sources_count": 11,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -2782,7 +2782,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/bread",
-      "sources_count": 8,
+      "sources_count": 13,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -2906,11 +2906,14 @@
         "breast milk",
         "human milk",
         "mother's milk",
-        "breastfeeding"
+        "breastfeeding",
+        "human-milk",
+        "Human Milk",
+        "ingredients/human-milk"
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/breastmilk",
-      "sources_count": 36,
+      "sources_count": 42,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -4051,7 +4054,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/canned-mushrooms",
-      "sources_count": 33,
+      "sources_count": 34,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -4301,7 +4304,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/canned-tomatoes",
-      "sources_count": 5,
+      "sources_count": 6,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -4429,7 +4432,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/canned-tuna",
-      "sources_count": 13,
+      "sources_count": 19,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -4676,7 +4679,9 @@
       "commodity": "carrot",
       "category": "root-vegetable",
       "aliases": [
-        "carrots"
+        "carrots",
+        "Carrots",
+        "ingredients/carrots"
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/carrot",
@@ -4796,264 +4801,18 @@
       }
     },
     {
-      "ingredient": "carrots",
-      "title": "Carrots",
-      "commodity": "carrots",
-      "category": "root-vegetable",
-      "aliases": [
-        "carrot",
-        "carrot puree",
-        "carrot-based baby food"
-      ],
-      "wiki_doi": null,
-      "page_url": "https://heavymetalindex.com/ingredients/carrots",
-      "sources_count": 37,
-      "last_updated": "2026-05-16",
-      "metals": {
-        "Pb": {
-          "status": "populated",
-          "typical_ppb": [
-            5,
-            30
-          ],
-          "p95_ppb": 50,
-          "confidence": "medium",
-          "n_studies": 10,
-          "last_reviewed": "2026-05-16"
-        },
-        "Cd": {
-          "status": "populated",
-          "typical_ppb": [
-            3,
-            10
-          ],
-          "p95_ppb": 50,
-          "confidence": "medium",
-          "n_studies": 10,
-          "last_reviewed": "2026-05-16"
-        },
-        "iAs": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "tHg": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            1
-          ],
-          "p95_ppb": 1,
-          "confidence": "medium",
-          "n_studies": 3,
-          "last_reviewed": "2026-05-16"
-        },
-        "Ni": {
-          "status": "populated",
-          "typical_ppb": [
-            40,
-            200
-          ],
-          "p95_ppb": 234,
-          "confidence": "medium",
-          "n_studies": 6,
-          "last_reviewed": "2026-05-16"
-        },
-        "Al": {
-          "status": "populated",
-          "typical_ppb": [
-            500,
-            2000
-          ],
-          "p95_ppb": 2140,
-          "confidence": "low",
-          "n_studies": 2,
-          "last_reviewed": "2026-05-16"
-        },
-        "tAs": {
-          "status": "populated",
-          "typical_ppb": [
-            10,
-            30
-          ],
-          "p95_ppb": 50,
-          "confidence": "medium",
-          "n_studies": 9,
-          "last_reviewed": "2026-05-16"
-        },
-        "Cr": {
-          "status": "populated",
-          "typical_ppb": [
-            10,
-            100
-          ],
-          "p95_ppb": 125,
-          "confidence": "medium",
-          "n_studies": 7,
-          "last_reviewed": "2026-05-16"
-        },
-        "Sn": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "U": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        }
-      }
-    },
-    {
-      "ingredient": "cashew-nuts",
-      "title": "Cashew Nuts",
-      "commodity": "cashew-nuts",
-      "category": "nut",
-      "aliases": [],
-      "wiki_doi": null,
-      "page_url": "https://heavymetalindex.com/ingredients/cashew-nuts",
-      "sources_count": 4,
-      "last_updated": "2026-05-16",
-      "metals": {
-        "Pb": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Cd": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "iAs": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "tAs": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "tHg": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Ni": {
-          "status": "populated",
-          "typical_ppb": [
-            1500,
-            5350
-          ],
-          "p95_ppb": 5350,
-          "confidence": "low",
-          "n_studies": 2,
-          "last_reviewed": "2026-05-16"
-        },
-        "Al": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Cr": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Sn": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "U": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        }
-      }
-    },
-    {
       "ingredient": "cashews",
       "title": "Cashews",
       "commodity": "cashews",
       "category": "nut",
-      "aliases": [],
+      "aliases": [
+        "cashew-nuts",
+        "Cashew Nuts",
+        "ingredients/cashew-nuts"
+      ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/cashews",
-      "sources_count": 3,
+      "sources_count": 6,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -5435,7 +5194,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/cereals",
-      "sources_count": 51,
+      "sources_count": 58,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -5810,7 +5569,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/chicken",
-      "sources_count": 28,
+      "sources_count": 29,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -6318,7 +6077,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/chocolate",
-      "sources_count": 26,
+      "sources_count": 32,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -6825,7 +6584,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/cinnamon",
-      "sources_count": 15,
+      "sources_count": 17,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -7084,7 +6843,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/cocoa",
-      "sources_count": 48,
+      "sources_count": 60,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -7337,7 +7096,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/coffee",
-      "sources_count": 15,
+      "sources_count": 20,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -7585,11 +7344,14 @@
       "category": "vegetable-grain",
       "aliases": [
         "Corn, frozen, boiled",
-        "corn"
+        "corn",
+        "maize",
+        "Maize",
+        "ingredients/maize"
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/corn",
-      "sources_count": 33,
+      "sources_count": 45,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -8094,7 +7856,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/cornbread",
-      "sources_count": 1,
+      "sources_count": 2,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -8469,11 +8231,14 @@
       "commodity": "cucumber",
       "category": "vegetable",
       "aliases": [
-        "cucumber"
+        "cucumber",
+        "cucumbers",
+        "Cucumbers",
+        "ingredients/cucumbers"
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/cucumber",
-      "sources_count": 11,
+      "sources_count": 15,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -8585,129 +8350,6 @@
           "confidence": "high",
           "n_studies": 2,
           "last_reviewed": "2026-05-13"
-        }
-      }
-    },
-    {
-      "ingredient": "cucumbers",
-      "title": "Cucumbers",
-      "commodity": "cucumbers",
-      "category": "vegetable-fruit",
-      "aliases": [],
-      "wiki_doi": null,
-      "page_url": "https://heavymetalindex.com/ingredients/cucumbers",
-      "sources_count": 4,
-      "last_updated": "2026-05-16",
-      "metals": {
-        "Pb": {
-          "status": "populated",
-          "typical_ppb": [
-            50,
-            220
-          ],
-          "p95_ppb": 220,
-          "confidence": "low",
-          "n_studies": 2,
-          "last_reviewed": "2026-05-16"
-        },
-        "Cd": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            20
-          ],
-          "p95_ppb": 20,
-          "confidence": "low",
-          "n_studies": 2,
-          "last_reviewed": "2026-05-16"
-        },
-        "iAs": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "tAs": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "tHg": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Ni": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Al": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Cr": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Sn": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "U": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
         }
       }
     },
@@ -9226,7 +8868,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/eggs",
-      "sources_count": 25,
+      "sources_count": 28,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -9493,7 +9135,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/fish",
-      "sources_count": 203,
+      "sources_count": 236,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -10508,7 +10150,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/freshwater-fish",
-      "sources_count": 57,
+      "sources_count": 63,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -10897,11 +10539,14 @@
         "lemon",
         "muskmelon",
         "melons",
-        "pineapple-peel"
+        "pineapple-peel",
+        "fruits",
+        "Fruits",
+        "ingredients/fruits"
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/fruit",
-      "sources_count": 71,
+      "sources_count": 93,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -11397,129 +11042,6 @@
       }
     },
     {
-      "ingredient": "fruits",
-      "title": "Fruits",
-      "commodity": "fruits",
-      "category": "fruit",
-      "aliases": [],
-      "wiki_doi": null,
-      "page_url": "https://heavymetalindex.com/ingredients/fruits",
-      "sources_count": 18,
-      "last_updated": "2026-05-16",
-      "metals": {
-        "Pb": {
-          "status": "populated",
-          "typical_ppb": [
-            1,
-            15
-          ],
-          "p95_ppb": 60,
-          "confidence": "medium",
-          "n_studies": 4,
-          "last_reviewed": "2026-05-16"
-        },
-        "Cd": {
-          "status": "populated",
-          "typical_ppb": [
-            1,
-            10
-          ],
-          "p95_ppb": 30,
-          "confidence": "medium",
-          "n_studies": 4,
-          "last_reviewed": "2026-05-16"
-        },
-        "iAs": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            5
-          ],
-          "p95_ppb": 88,
-          "confidence": "low",
-          "n_studies": 2,
-          "last_reviewed": "2026-05-16"
-        },
-        "tAs": {
-          "status": "populated",
-          "typical_ppb": [
-            1,
-            5
-          ],
-          "p95_ppb": null,
-          "confidence": "medium",
-          "n_studies": 3,
-          "last_reviewed": "2026-05-16"
-        },
-        "tHg": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Ni": {
-          "status": "populated",
-          "typical_ppb": [
-            20,
-            100
-          ],
-          "p95_ppb": null,
-          "confidence": "medium",
-          "n_studies": 3,
-          "last_reviewed": "2026-05-16"
-        },
-        "Al": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Cr": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Sn": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "U": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        }
-      }
-    },
-    {
       "ingredient": "grape-juice",
       "title": "Grape Juice",
       "commodity": "grape-juice",
@@ -11779,7 +11301,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/grapefruit-juice",
-      "sources_count": 2,
+      "sources_count": 3,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -12406,7 +11928,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/guava",
-      "sources_count": 3,
+      "sources_count": 4,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -12914,7 +12436,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/herbal-botanicals",
-      "sources_count": 40,
+      "sources_count": 39,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -13040,7 +12562,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/herbs-and-spices",
-      "sources_count": 23,
+      "sources_count": 30,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -13166,7 +12688,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/honey",
-      "sources_count": 14,
+      "sources_count": 21,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -14424,7 +13946,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/leafy-vegetables",
-      "sources_count": 78,
+      "sources_count": 82,
       "last_updated": "2026-05-15",
       "metals": {
         "Pb": {
@@ -14549,7 +14071,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/legumes",
-      "sources_count": 20,
+      "sources_count": 22,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -14674,7 +14196,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/lentils",
-      "sources_count": 18,
+      "sources_count": 19,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -15170,129 +14692,6 @@
       }
     },
     {
-      "ingredient": "maize",
-      "title": "Maize",
-      "commodity": "maize",
-      "category": "grain",
-      "aliases": [],
-      "wiki_doi": null,
-      "page_url": "https://heavymetalindex.com/ingredients/maize",
-      "sources_count": 20,
-      "last_updated": "2026-05-16",
-      "metals": {
-        "Pb": {
-          "status": "populated",
-          "typical_ppb": [
-            1260,
-            2092
-          ],
-          "p95_ppb": 2673,
-          "confidence": "medium",
-          "n_studies": 4,
-          "last_reviewed": "2026-05-16"
-        },
-        "Cd": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            179
-          ],
-          "p95_ppb": null,
-          "confidence": "medium",
-          "n_studies": 3,
-          "last_reviewed": "2026-05-16"
-        },
-        "iAs": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "tAs": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "tHg": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Ni": {
-          "status": "populated",
-          "typical_ppb": [
-            180,
-            620
-          ],
-          "p95_ppb": 620,
-          "confidence": "medium",
-          "n_studies": 3,
-          "last_reviewed": "2026-05-16"
-        },
-        "Al": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Cr": {
-          "status": "populated",
-          "typical_ppb": [
-            300,
-            680
-          ],
-          "p95_ppb": 680,
-          "confidence": "medium",
-          "n_studies": 4,
-          "last_reviewed": "2026-05-16"
-        },
-        "Sn": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "U": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        }
-      }
-    },
-    {
       "ingredient": "mango",
       "title": "Mango",
       "commodity": "mango",
@@ -15306,7 +14705,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/mango",
-      "sources_count": 7,
+      "sources_count": 8,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -15935,7 +15334,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/meat",
-      "sources_count": 50,
+      "sources_count": 53,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -16062,11 +15461,14 @@
         "turkey",
         "beef",
         "pork",
-        "game"
+        "game",
+        "meat-poultry",
+        "Meat Poultry",
+        "ingredients/meat-poultry"
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/meat-and-poultry",
-      "sources_count": 86,
+      "sources_count": 90,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -16445,7 +15847,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/milk-and-dairy",
-      "sources_count": 73,
+      "sources_count": 80,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -16691,7 +16093,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/molluscs",
-      "sources_count": 8,
+      "sources_count": 19,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -17072,7 +16474,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/non-rice-grains",
-      "sources_count": 20,
+      "sources_count": 22,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -17328,7 +16730,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/non-root-vegetables",
-      "sources_count": 15,
+      "sources_count": 16,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -17828,7 +17230,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/oat",
-      "sources_count": 13,
+      "sources_count": 14,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -18586,7 +17988,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/orange-juice",
-      "sources_count": 8,
+      "sources_count": 10,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -19098,7 +18500,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/parsley",
-      "sources_count": 7,
+      "sources_count": 8,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -19348,7 +18750,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/pasta",
-      "sources_count": 3,
+      "sources_count": 4,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -19468,10 +18870,14 @@
       "title": "Peach",
       "commodity": "peach",
       "category": "taxonomy-placeholder",
-      "aliases": [],
+      "aliases": [
+        "peaches",
+        "Peaches",
+        "ingredients/peaches"
+      ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/peach",
-      "sources_count": 4,
+      "sources_count": 7,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -19583,131 +18989,6 @@
           "confidence": "high",
           "n_studies": 2,
           "last_reviewed": "2026-05-13"
-        }
-      }
-    },
-    {
-      "ingredient": "peaches",
-      "title": "Peaches",
-      "commodity": "peaches",
-      "category": "fruit",
-      "aliases": [
-        "peach"
-      ],
-      "wiki_doi": null,
-      "page_url": "https://heavymetalindex.com/ingredients/peaches",
-      "sources_count": 2,
-      "last_updated": "2026-05-13",
-      "metals": {
-        "Pb": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            5
-          ],
-          "p95_ppb": 7.5,
-          "confidence": "low",
-          "n_studies": 1,
-          "last_reviewed": "2026-05-13"
-        },
-        "Cd": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            2
-          ],
-          "p95_ppb": 3.9,
-          "confidence": "high",
-          "n_studies": 1,
-          "last_reviewed": "2026-05-13"
-        },
-        "iAs": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "tHg": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            0.8
-          ],
-          "p95_ppb": 1.3,
-          "confidence": "high",
-          "n_studies": 1,
-          "last_reviewed": "2026-05-13"
-        },
-        "Ni": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Al": {
-          "status": "populated",
-          "typical_ppb": [
-            299.6,
-            1746
-          ],
-          "p95_ppb": 1808,
-          "confidence": "low",
-          "n_studies": 1,
-          "last_reviewed": "2026-05-13"
-        },
-        "Cr": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Sn": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            26.5
-          ],
-          "p95_ppb": 29.6,
-          "confidence": "low",
-          "n_studies": 1,
-          "last_reviewed": "2026-05-13"
-        },
-        "tAs": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-12"
-        },
-        "U": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-12"
         }
       }
     },
@@ -19971,7 +19252,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/peanuts",
-      "sources_count": 26,
+      "sources_count": 27,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -20091,10 +19372,14 @@
       "title": "Pear",
       "commodity": "pear",
       "category": "taxonomy-placeholder",
-      "aliases": [],
+      "aliases": [
+        "pears",
+        "Pears",
+        "ingredients/pears"
+      ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/pear",
-      "sources_count": 9,
+      "sources_count": 10,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -20206,131 +19491,6 @@
           "confidence": "high",
           "n_studies": 2,
           "last_reviewed": "2026-05-13"
-        }
-      }
-    },
-    {
-      "ingredient": "pears",
-      "title": "Pears",
-      "commodity": "pears",
-      "category": "fruit",
-      "aliases": [
-        "pear"
-      ],
-      "wiki_doi": null,
-      "page_url": "https://heavymetalindex.com/ingredients/pears",
-      "sources_count": 1,
-      "last_updated": "2026-05-13",
-      "metals": {
-        "Pb": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            7.6
-          ],
-          "p95_ppb": 11.9,
-          "confidence": "medium",
-          "n_studies": 1,
-          "last_reviewed": "2026-05-13"
-        },
-        "Cd": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            7
-          ],
-          "p95_ppb": 9.9,
-          "confidence": "medium",
-          "n_studies": 1,
-          "last_reviewed": "2026-05-13"
-        },
-        "iAs": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            6
-          ],
-          "p95_ppb": 7.3,
-          "confidence": "low",
-          "n_studies": 1,
-          "last_reviewed": "2026-05-13"
-        },
-        "tHg": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            2
-          ],
-          "p95_ppb": 3,
-          "confidence": "high",
-          "n_studies": 1,
-          "last_reviewed": "2026-05-13"
-        },
-        "Ni": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Al": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            1195
-          ],
-          "p95_ppb": 1568,
-          "confidence": "medium",
-          "n_studies": 1,
-          "last_reviewed": "2026-05-13"
-        },
-        "Cr": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Sn": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            15.7
-          ],
-          "p95_ppb": 25.4,
-          "confidence": "medium",
-          "n_studies": 1,
-          "last_reviewed": "2026-05-13"
-        },
-        "tAs": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-12"
-        },
-        "U": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-12"
         }
       }
     },
@@ -21236,7 +20396,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/potatoes",
-      "sources_count": 40,
+      "sources_count": 42,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -21359,7 +20519,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/poultry",
-      "sources_count": 16,
+      "sources_count": 17,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -21486,7 +20646,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/processed-american-cheese",
-      "sources_count": 3,
+      "sources_count": 6,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -21867,7 +21027,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/rapeseed-oil",
-      "sources_count": 10,
+      "sources_count": 11,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -22249,7 +21409,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/rice",
-      "sources_count": 233,
+      "sources_count": 237,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -23122,7 +22282,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/root-vegetables",
-      "sources_count": 59,
+      "sources_count": 69,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -23374,7 +22534,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/seafood",
-      "sources_count": 104,
+      "sources_count": 129,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -23503,7 +22663,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/seaweed",
-      "sources_count": 20,
+      "sources_count": 28,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -23878,7 +23038,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/shark",
-      "sources_count": 5,
+      "sources_count": 7,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -24006,7 +23166,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/shellfish",
-      "sources_count": 42,
+      "sources_count": 56,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -24389,7 +23549,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/soy",
-      "sources_count": 21,
+      "sources_count": 22,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -24515,7 +23675,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/soy-based-infant-formula",
-      "sources_count": 10,
+      "sources_count": 12,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -24892,7 +24052,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/spices",
-      "sources_count": 23,
+      "sources_count": 33,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -25523,7 +24683,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/sunflower-oil",
-      "sources_count": 16,
+      "sources_count": 17,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -25908,7 +25068,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/tea",
-      "sources_count": 38,
+      "sources_count": 46,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -26156,7 +25316,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/tinned-fish",
-      "sources_count": 13,
+      "sources_count": 15,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -26284,7 +25444,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/tomato",
-      "sources_count": 37,
+      "sources_count": 39,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -26910,7 +26070,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/turmeric",
-      "sources_count": 17,
+      "sources_count": 23,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -27152,132 +26312,6 @@
       }
     },
     {
-      "ingredient": "vegetable-oil",
-      "title": "Vegetable Oil",
-      "commodity": "vegetable-oil",
-      "category": "oil",
-      "aliases": [
-        "palm-oil",
-        "oilseeds"
-      ],
-      "wiki_doi": null,
-      "page_url": "https://heavymetalindex.com/ingredients/vegetable-oil",
-      "sources_count": 10,
-      "last_updated": "2026-05-16",
-      "metals": {
-        "Pb": {
-          "status": "populated",
-          "typical_ppb": [
-            1,
-            20
-          ],
-          "p95_ppb": null,
-          "confidence": "low",
-          "n_studies": 2,
-          "last_reviewed": "2026-05-16"
-        },
-        "Cd": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            5
-          ],
-          "p95_ppb": null,
-          "confidence": "low",
-          "n_studies": 2,
-          "last_reviewed": "2026-05-16"
-        },
-        "iAs": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "tAs": {
-          "status": "populated",
-          "typical_ppb": [
-            0,
-            10
-          ],
-          "p95_ppb": null,
-          "confidence": "low",
-          "n_studies": 2,
-          "last_reviewed": "2026-05-16"
-        },
-        "tHg": {
-          "status": "populated",
-          "typical_ppb": [
-            0.1,
-            0.5
-          ],
-          "p95_ppb": null,
-          "confidence": "low",
-          "n_studies": 2,
-          "last_reviewed": "2026-05-16"
-        },
-        "Ni": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Al": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Cr": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "Sn": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        },
-        "U": {
-          "status": "populated",
-          "typical_ppb": [
-            null,
-            null
-          ],
-          "p95_ppb": null,
-          "confidence": null,
-          "n_studies": 0,
-          "last_reviewed": "2026-05-16"
-        }
-      }
-    },
-    {
       "ingredient": "vegetable-oils",
       "title": "Vegetable Oils",
       "commodity": "vegetable-oils",
@@ -27285,11 +26319,14 @@
       "aliases": [
         "edible-oils",
         "cooking-oils",
-        "plant-oils"
+        "plant-oils",
+        "vegetable-oil",
+        "Vegetable Oil",
+        "ingredients/vegetable-oil"
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/vegetable-oils",
-      "sources_count": 20,
+      "sources_count": 22,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -27541,7 +26578,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/vegetables",
-      "sources_count": 89,
+      "sources_count": 96,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -28046,7 +27083,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/water",
-      "sources_count": 34,
+      "sources_count": 48,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -28309,7 +27346,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/wheat",
-      "sources_count": 78,
+      "sources_count": 83,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -28684,7 +27721,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/white-fish",
-      "sources_count": 0,
+      "sources_count": 3,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -28935,7 +27972,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/whole-milk",
-      "sources_count": 7,
+      "sources_count": 8,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -29319,7 +28356,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/wild-mushrooms",
-      "sources_count": 18,
+      "sources_count": 20,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {

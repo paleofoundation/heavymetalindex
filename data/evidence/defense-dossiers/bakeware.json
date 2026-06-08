@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/bakeware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c23d89f59b2e14c763e92d449f5a2ab5b99217b82413e09d19cd29e0e5ac9080",
+      "content_sha256": "6dfc1c95a4cb3d6857a4b08f771dfd39ea8823c2519b11817aaa388c1752ecd9",
       "content_bytes": 7211,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/bakeware.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/bakeware.md | sha256sum"
     }
   },
   "evidence_base": {

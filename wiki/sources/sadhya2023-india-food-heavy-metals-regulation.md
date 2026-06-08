@@ -169,3 +169,13 @@ Microbiome: Not applicable. The review does not discuss microbiome endpoints.
   - **Check 1 ⚠️ (applied):** the body-text figure of 76 ppm arsenic in fish and crustaceans is reproduced verbatim from PDF p. 1335 but is anomalously high relative to typical fish-arsenic regulatory limits worldwide (which generally sit below 2 mg/kg total arsenic) and may be a typographic error in the source. An inline caveat plus a Verification-notes flag now warn downstream readers that the value is reproduced as-printed and requires verification against the FSSAI Gazette before any use as a regulatory comparator. The wiki page does not unilaterally correct the value because the source paper is the artifact being recorded.
   - **Check 2 ❌ (applied as a documented inconsistency, not removed):** the `metals:` frontmatter array lists `Se` (the abbreviation vocabulary covers selenium because the Indian Regulation Table 1 explicitly names selenium with a 0.05 mg/L mineral-water limit). However no `wiki/metals/selenium.md` page exists, and `selenium` is absent from the metals taxonomy snapshot (snapshot lists 36 slugs: aluminum through zinc; selenium is not among them). The `## Wiki pages this source may touch` section accordingly omits a `[[metals/selenium]]` link to avoid creating an orphan wikilink. `Se` is retained in the frontmatter array as a true subject-matter tag because the Regulation does name selenium; this is surfaced here as a missing-page proposal for Karen's Part 10 review (proposed slug: `metals/selenium`). The same logic applies in principle to barium, cobalt, iron, lithium, manganese, zinc — all listed in `metals:` (and all present in the metals snapshot/page set as confirmed at ingest), so no inconsistency for those six. Selenium is the only metal in the array whose wiki page does not yet exist.
   - Checks 3 (speciation/methods), 4 (brand firewall), 5 (wiki/HMTc firewall) returned ✅. Check 1 numerical fidelity returned ✅ for all 11 Regulation Table 1 rows, the seven Table 3 migration-limit rows, the six Table 2 mycotoxin rows, and all five cited primary studies (Das & Das 2018; Sharma et al. 2009; Santhi et al. 2008; Mathaiyan et al. 2021; Swati & Chhaya 2019).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

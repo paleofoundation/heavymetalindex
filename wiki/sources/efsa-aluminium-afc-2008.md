@@ -188,3 +188,17 @@ Findings noted but not changed:
 - Check 2 ⚠️ on `matrices: [dietary-intake]` — the auditor flagged this as not strictly a "matrix" slug. Left in place because it follows the established cross-page convention for whole-diet EFSA regulatory opinions (e.g., `efsa-arsenic-contam-2009.md`, `efsa-cadmium-contam-2009.md`). If Karen decides the matrices vocabulary should distinguish exposure-pathway opinions from per-commodity studies, the change would apply uniformly across those sibling pages.
 
 All five audit-check categories were verified. Numerical fidelity ✅ across ~25 spot-checked values (TWI, prior PTWI, NOAELs/LOAELs by endpoint, country-level adult and child 97.5th-percentile exposures, infant exposures by age band and formula type, chemistry/bioavailability reference points, drinking-water parametric value, EU additive maxima from Table 3). Brand firewall ✅. Speciation discipline ✅ (total aluminium throughout; no invented speciation). Wiki/HMT&C firewall now ✅ after the Implications rewrite.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
+<!-- END: hmi-page-history -->

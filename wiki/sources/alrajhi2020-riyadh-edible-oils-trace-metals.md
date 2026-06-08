@@ -10,10 +10,10 @@ doi: "10.20937/RICA.53562"
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/maricruz-acosta,+19-53562-Alrajhi (1).pdf"
-metals: [Cd, Cr, Cu, Fe, Mn, Ni, Zn, Al, Pb, tAs, Se]
+metals: [Cd, Cr, Cu, Fe, Mn, Ni, Zn, Al, Pb, tAs]
 ingredients: ["[[ingredients/vegetable-oils]]"]
 products: ["[[products/cooking-oils-other]]"]
-matrices: [edible-oil, vegetable-oil, soybean-oil, palm-oil, olive-oil]
+matrices: [edible-oil, vegetable-oil]
 jurisdictions: [SA]
 sample_n: 54
 sample_population: "Fifty-four edible vegetable oil samples, described as soybean, palm, and olive oils, collected from supermarkets around Riyadh, Saudi Arabia."
@@ -72,12 +72,17 @@ Courses: Useful for teaching non-detect notation, table-vs-text contradictions, 
 - [[metals/aluminum]]
 - [[metals/lead]]
 - [[metals/arsenic-total]]
-- [[metals/selenium]]
 - [[testing/icp-oes]]
 
 ## Verification notes
 
-This page was built from the full PDF, including Table I sample rows and summary statistics, the digestion and ICP-OES method description, the discussion sections for each metal, Table II correlations, and the conclusion. Two internal inconsistencies were retained rather than silently corrected: Table I reports an average Cr concentration of 0.072 mg/kg while the discussion text gives 0.026 mg/kg, and the Pb discussion says "16 of the 37 samples" although the study and Table I describe 54 samples. This page follows the Table I summary statistics for concentration values and flags both conflicts for audit.
+This page was built from the full PDF, including Table I sample rows and summary statistics, the digestion and ICP-OES method description, the discussion sections for each metal, Table II correlations, and the conclusion. Three internal inconsistencies were retained rather than silently corrected: Table I reports an average Cr concentration of 0.072 mg/kg while the discussion text gives 0.026 mg/kg; the Mn discussion text on page 981 reports an average of 0.002 mg/kg while Table I gives 0.006 mg/kg; and the Pb discussion says "16 of the 37 samples" although the study and Table I describe 54 samples. This page follows the Table I summary statistics for concentration values and flags all three conflicts for audit. A separate paper-side typo where the Cd discussion paragraph opens with "Ca was detected in 14 of the 54 samples" is also noted; the paper clearly intends Cd given the surrounding numbers and FAO/WHO Cd limit.
+
+Audit subagent 2026-06-02 flagged Se / selenium as outside the current Metals taxonomy (no `metals/selenium.md` page; `selenium` not in the snapshot's Metals list). Verified — Se was dropped from `metals:` frontmatter and the `[[metals/selenium]]` bullet was removed from "Wiki pages this source may touch". The selenium data in Table I (range 0.05-0.89 mg/kg, average 0.172 mg/kg, strong correlation with total As at 0.997) remains in the Key numbers table and is preserved here for the day a selenium metal page is added; flagging selenium as a proposed Metals slug addition for Karen.
+
+Audit subagent 2026-06-02 flagged `matrices: [edible-oil, vegetable-oil, soybean-oil, palm-oil, olive-oil]` as over-specified because Table I sample rows are not labeled by oil type. Verified — the page's own Implications already states that values should not be split into soybean-oil/palm-oil/olive-oil benchmark pools. Collapsed matrices to `[edible-oil, vegetable-oil]` per the system-prompt broad-scope rule.
+
+`[[testing/icp-oes]]` is referenced in the "Wiki pages this source may touch" section but no `wiki/testing/icp-oes.md` exists yet. Retained because five other source pages use the same placeholder; flagging `testing/icp-oes` as a proposed testing-methods page (companion to the existing `wiki/testing/icp-ms.md`).
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -86,5 +91,8 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [d86ebb7](https://github.com/paleofoundation/heavymetalindex/commit/d86ebb7) | 2026-06-02 | ingest June 2: alrajhi2020-riyadh-edible-oils-trace-metals |
 <!-- END: hmi-page-history -->

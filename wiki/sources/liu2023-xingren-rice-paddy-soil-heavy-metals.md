@@ -106,6 +106,10 @@ Speciation guardrails: the source reports total As and total Hg, not inorganic a
 
 Paper-internal caution: Figure 2/table text shows Pb soil SD as 38.20 mg/kg in the repeated caption, while one prose extraction line renders 36.57 mg/kg. The repeated Figure 2 caption value is used here and the discrepancy is flagged rather than silently harmonized. The abstract/conclusion also refer to risk caused by ingesting "rice husk," although the methods state that husks were removed before grain analysis; this page treats the concentration values as dehulled rice-grain data because that is the stated analytical matrix.
 
+Matrices vocabulary note (added 2026-06-02 post-audit): the matrix strings `paddy-soil`, `dehulled-rice-grain`, `rice-root`, `rice-stem`, and `rice-leaf` extend the common matrices vocabulary documented in `docs/gpt-collaboration/system-prompt.md`. `paddy-soil` has precedent in five other source pages; the four rice-tissue matrices are shared with `seyfferth2025-rice-water-management-as-hg-cd`. They are retained here for analytical precision (the paper reports tissue-level transfer factors that the canonical `rice` matrix would erase). Flagging per the system-prompt rule that vocabulary extensions be surfaced.
+
+Audit (2026-06-02 v2 skill subagent): verdict REVISE with two ⚠️ concerns. Concern on `[[mitigation/agronomic]]` and `[[testing/index]]` as out-of-snapshot wiki targets verified as a false positive — both pages exist in `wiki/mitigation/agronomic.md` and `wiki/testing/index.md`; the taxonomy snapshot only enumerates ingredient/product/metal/regulation slugs by design and is not a complete cross-namespace target list. Concern on non-canonical matrices verified as partially correct and documented in the matrices-vocabulary note above. Numerical fidelity, speciation, brand firewall, and HMTc firewall checks were all ✅ clean.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -113,5 +117,8 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [7e58115](https://github.com/paleofoundation/heavymetalindex/commit/7e58115) | 2026-06-02 | ingest June 2: liu2023-xingren-rice-paddy-soil-heavy-metals |
 <!-- END: hmi-page-history -->

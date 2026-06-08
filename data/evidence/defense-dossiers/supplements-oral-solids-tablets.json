@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-tablets",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ce88b05905f9ba6af8a74461c88dcce2c6164e93bbc88894ff0c3a069b2414c8",
-      "content_bytes": 7463,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "content_sha256": "5f3a225aa27429898a70fa7f0c1203822c68077f55b6b7df064770f863687cfd",
+      "content_bytes": 7747,
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/supplements-oral-solids-tablets.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/supplements-oral-solids-tablets.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -43,12 +43,48 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brzezinska-rojek2023-beetroot-supplements-safety",
         "content_pin": {
-          "content_sha256": "9b1f445e0f74cc871568d03e8278ac1c8c3f54f232559f51fa82a9fc136b9a39",
+          "content_sha256": "1c4ba21188038845c5e34007a038988ff1aef6b3d62b6c6f3a30e8db0dbb4b3e",
           "content_bytes": 4505,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sochacka2025-spirulina-chlorella-supplements-poland",
+        "title": "Spirulina and Chlorella Dietary Supplements—Are They a Source Solely of Valuable Nutrients?",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Ba",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cs",
+          "Cu",
+          "Ga",
+          "Mn",
+          "Mo",
+          "Ni",
+          "Pb",
+          "Rb",
+          "Sr",
+          "Tl",
+          "V",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sochacka2025-spirulina-chlorella-supplements-poland",
+        "content_pin": {
+          "content_sha256": "8c79c664462e545eebf77d7b84a0755af02fe397c3ad0ac699fa3228f29700cb",
+          "content_bytes": 23319,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
         }
       }
     ]

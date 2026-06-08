@@ -20,18 +20,38 @@
     "canonical_url": "https://heavymetalindex.com/products/fermented-beverages-non-tea-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "cf8f1426d8c634e9ac7c89183a03581df44c51028b44e03c3d5e4e70ecd403f3",
-      "content_bytes": 17114,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "content_sha256": "852bb529dad9652979c3ff5de6c619fdba9fe80b08c73dbfa88f637aa79ff6a0",
+      "content_bytes": 17431,
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/fermented-beverages-non-tea-based.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/fermented-beverages-non-tea-based.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/hc2008-aluminum-food-additives-industry-request",
+        "title": "ARCHIVED — Health Canada Requests Information from Industry on the Use of Aluminum-Containing Food Additives",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hc2008-aluminum-food-additives-industry-request",
+        "content_pin": {
+          "content_sha256": "52f3a9030a6b97b6862e555abd64dd46d6e0a266c370aa0f2e086b77c6e78f2b",
+          "content_bytes": 11246,
+          "last_commit_sha": null,
+          "last_commit_date": null,
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": null
+        }
+      },
       {
         "slug": "sources/munilla-garcia2023-lead-kombucha-ceramics",
         "title": "Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers",
@@ -44,12 +64,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/munilla-garcia2023-lead-kombucha-ceramics",
         "content_pin": {
-          "content_sha256": "7b3559f42ae6ea1ade5ab571b114532529e558b3126b1c9fab3c6cdd2a57e0e1",
+          "content_sha256": "a74d62005418b0ca7f3b813cc8c7019120be9bcb5339e9d38f6242d0302f2007",
           "content_bytes": 5705,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/munilla-garcia2023-lead-kombucha-ceramics.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/munilla-garcia2023-lead-kombucha-ceramics.md | sha256sum"
         }
       },
       {
@@ -64,12 +84,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/reczajska2005-chromium-plant-foods-poland",
         "content_pin": {
-          "content_sha256": "c607610affd3d3a96bd2eb480c52ed6c82fad3a8d49c8b30763773b5ca01fe61",
+          "content_sha256": "4b1b6165442d10e1406a7ce0d1e45b20b07d7728cb6a35aa7bc407ec4cc443e7",
           "content_bytes": 10081,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/reczajska2005-chromium-plant-foods-poland.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/reczajska2005-chromium-plant-foods-poland.md | sha256sum"
         }
       }
     ]

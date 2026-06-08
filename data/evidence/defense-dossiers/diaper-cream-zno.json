@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/diaper-cream-zno",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ecf9fda600658051f67e8eb3216972c2e2b3aacbef99420b6a791a6d86cf3e3d",
+      "content_sha256": "3f54300c842a05bee13e83bf05084f19800ff4ccf7c9da6f4d5b3cd2de8e7b85",
       "content_bytes": 12076,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/diaper-cream-zno.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/diaper-cream-zno.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed",
         "content_pin": {
-          "content_sha256": "37da5cebd63105c6de02d86a83e26f76a07c304689e8468d3e5e0430817b9bf4",
-          "content_bytes": 24254,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "64ceb7a4d91361d85ddec0c892f0fa9c411b58e6b6a6254b6585c77c458a2ed1",
+          "content_bytes": 24107,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed.md | sha256sum"
         }
       },
       {
@@ -63,12 +63,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/gosens2014-parabens-aggregate-exposure-children",
         "content_pin": {
-          "content_sha256": "5f810e8a8ca732e12f522b0c88e7aa88c7f535064cafa11a60e7a58b4b0c523a",
+          "content_sha256": "261cd8e86cca39410b0c7e0f012899ffac76547572dd6f8d4618aae88d65aa8b",
           "content_bytes": 8472,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
         }
       },
       {
@@ -81,12 +81,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/rahma2022-infant-skin-barrier-function-review",
         "content_pin": {
-          "content_sha256": "448a60901741ac24f1c079d86758eaf35ed4da377a977c0b39c66ada1474d8cb",
+          "content_sha256": "3e8a42fec99373fb677089964a11c17312f886c2919287b88cd4c92264f999c8",
           "content_bytes": 15891,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/rahma2022-infant-skin-barrier-function-review.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/rahma2022-infant-skin-barrier-function-review.md | sha256sum"
         }
       },
       {
@@ -107,12 +107,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12",
         "content_pin": {
-          "content_sha256": "4e069a9cdfbf89c9498e9ebe5073a03dff03e1e644087ea7d6f8164a21e49d4f",
+          "content_sha256": "694dfe4d9ada775c8d87ef43c3ccf2568952cc43ab81df684091ee1ca5796a36",
           "content_bytes": 24278,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
         }
       },
       {
@@ -125,12 +125,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "427273f75081fa544d566bb65cd9a87e0fcd773957452c41bd3fca02ef8d64ff",
-          "content_bytes": 30966,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "12ac2697b7e4ed9df28677691dd078b1d637ea60ffab13e7d5971f47f3666f1c",
+          "content_bytes": 30819,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       }
     ]

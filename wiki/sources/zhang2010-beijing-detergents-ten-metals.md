@@ -119,3 +119,15 @@ Correlation coefficients of all calibration curves exceeded 0.940; limits of det
 - **No DOI assigned.** Asian Journal of Chemistry papers from 2010 in this issue carry an article identifier (AJC-8474 for this paper) rather than a CrossRef DOI. `no_doi_assigned: true` is set in frontmatter.
 - **License.** Asian Journal of Chemistry is a copyrighted paywalled journal published by Asian Publishing Corporation. The wiki page reproduces only table-level summary data and methodological description consistent with fair-use / scholarly-citation norms.
 - **Jurisdiction scope.** Beijing retail market, single shopping trip at the Chaoshifa supermarket, late 2009. Feeds the CN jurisdiction signal on [[products/dish-soaps-manual]].
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [19f813f](https://github.com/paleofoundation/heavymetalindex/commit/19f813f) | 2026-06-03 | ingest: zhang2010-beijing-detergents-ten-metals [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/08_Laundry_Bleach_Fabric |
+<!-- END: hmi-page-history -->

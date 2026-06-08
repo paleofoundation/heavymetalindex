@@ -19,8 +19,8 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 3,"Grains, Cereals, and Rice Products",2,Bread and baked goods,bread-and-baked-goods,exact,bread-and-baked-goods.md,bread-and-baked-goods,3,2,scaffold
 3,"Grains, Cereals, and Rice Products",3,Pasta (wheat-based),pasta-wheat-based,exact,pasta-wheat-based.md,pasta-wheat-based,3,3,scaffold
 3,"Grains, Cereals, and Rice Products",4,Pasta (rice-based),pasta-rice-based,exact,pasta-rice-based.md,pasta-rice-based,3,4,scaffold
-3,"Grains, Cereals, and Rice Products",5,Breakfast cereal (non-rice),breakfast-cereal-non-rice,by_alias,breakfast-cereals.md,breakfast-cereals,,,
-3,"Grains, Cereals, and Rice Products",6,Breakfast cereal (rice-based),breakfast-cereal-rice-based,by_alias,breakfast-cereals.md,breakfast-cereals,,,
+3,"Grains, Cereals, and Rice Products",5,Breakfast cereal (non-rice),breakfast-cereal-non-rice,exact,breakfast-cereal-non-rice.md,breakfast-cereal-non-rice,3,5,locked
+3,"Grains, Cereals, and Rice Products",6,Breakfast cereal (rice-based),breakfast-cereal-rice-based,exact,breakfast-cereal-rice-based.md,breakfast-cereal-rice-based,3,6,locked
 3,"Grains, Cereals, and Rice Products",7,"Rice (white, brown, wild — bulk grain)",rice-bulk-grain,exact,rice-bulk-grain.md,rice-bulk-grain,3,7,scaffold
 3,"Grains, Cereals, and Rice Products",8,Rice snacks/crackers,rice-snacks-crackers,exact,rice-snacks-crackers.md,rice-snacks-crackers,3,8,scaffold
 3,"Grains, Cereals, and Rice Products",9,Rice noodles,rice-noodles,exact,rice-noodles.md,rice-noodles,3,9,scaffold
@@ -44,21 +44,21 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 5,Beverages,7,"Coffee (ground, instant, brewed)",coffee,exact,plant-milks-rice-based.md,plant-milks-rice-based,5,7,
 5,Beverages,8,Soft drinks/carbonated beverages,soft-drinks-carbonated-beverages,exact,flavored-waters.md,flavored-waters,5,8,
 5,Beverages,9,Kombucha and fermented beverages,kombucha-and-fermented-beverages,exact,sports-energy-drinks.md,sports-energy-drinks,5,9,
-6,Seafood,1,"Fish — freshwater (tilapia, catfish, trout)",fish-freshwater,exact,fish-freshwater.md,fish-freshwater,6,1,scaffold
-6,Seafood,2,"Fish — marine, non-predatory (sardines, anchovies, salmon, cod)",fish-marine-non-predatory,exact,fish-marine-non-predatory.md,fish-marine-non-predatory,6,2,scaffold
-6,Seafood,3,"Fish — marine, predatory (tuna, swordfish, shark, king mackerel)",fish-marine-predatory,exact,fish-marine-predatory.md,fish-marine-predatory,6,3,scaffold
-6,Seafood,4,"Shellfish (shrimp, crab, lobster, clams, oysters, mussels)",shellfish,exact,shellfish.md,shellfish,6,4,scaffold
-6,Seafood,5,"Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)",seaweed-kelp-foods,exact,seaweed-kelp-foods.md,seaweed-kelp-foods,6,5,scaffold
-6,Seafood,6,Canned seafood (with tin flag),canned-seafood,by_alias,canned-fish.md,canned-fish,,,
-7,"Oils, Condiments, and Specialty Foods",1,Olive oil,olive-oil,exact,olive-oil.md,olive-oil,7,1,scaffold
-7,"Oils, Condiments, and Specialty Foods",2,"Other cooking oils (canola, sunflower, coconut, avocado, sesame)",cooking-oils-other,exact,cooking-oils-other.md,cooking-oils-other,7,2,scaffold
-7,"Oils, Condiments, and Specialty Foods",3,Butter and ghee,butter-and-ghee,exact,butter-and-ghee.md,butter-and-ghee,7,3,scaffold
-7,"Oils, Condiments, and Specialty Foods",4,"Honey and syrups (maple, agave, molasses)",honey-and-syrups,by_alias,honey.md,honey,,,
-7,"Oils, Condiments, and Specialty Foods",5,Vinegar,vinegar,exact,vinegar.md,vinegar,7,5,scaffold
+6,Seafood,1,"Fish — freshwater (tilapia, catfish, trout)",fish-freshwater,exact,fish-freshwater.md,fish-freshwater,6,1,locked
+6,Seafood,2,"Fish — marine, non-predatory (sardines, anchovies, salmon, cod)",fish-marine-non-predatory,exact,fish-marine-non-predatory.md,fish-marine-non-predatory,6,2,locked
+6,Seafood,3,"Fish — marine, predatory (tuna, swordfish, shark, king mackerel)",fish-marine-predatory,exact,fish-marine-predatory.md,fish-marine-predatory,6,3,locked
+6,Seafood,4,"Shellfish (shrimp, crab, lobster, clams, oysters, mussels)",shellfish,exact,shellfish.md,shellfish,6,4,locked
+6,Seafood,5,"Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)",seaweed-kelp-foods,exact,seaweed-kelp-foods.md,seaweed-kelp-foods,6,5,locked
+6,Seafood,6,Canned seafood (with tin flag),canned-seafood,exact,canned-seafood.md,canned-seafood,6,6,locked
+7,"Oils, Condiments, and Specialty Foods",1,Olive oil,olive-oil,exact,olive-oil.md,olive-oil,7,1,locked
+7,"Oils, Condiments, and Specialty Foods",2,"Other cooking oils (canola, sunflower, coconut, avocado, sesame)",cooking-oils-other,exact,cooking-oils-other.md,cooking-oils-other,7,2,locked
+7,"Oils, Condiments, and Specialty Foods",3,Butter and ghee,butter-and-ghee,exact,butter-and-ghee.md,butter-and-ghee,7,3,locked
+7,"Oils, Condiments, and Specialty Foods",4,"Honey and syrups (maple, agave, molasses)",honey-and-syrups,exact,honey.md,honey,7,4,locked
+7,"Oils, Condiments, and Specialty Foods",5,Vinegar,vinegar,exact,vinegar.md,vinegar,7,5,locked
 7,"Oils, Condiments, and Specialty Foods",6,"Condiments (hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)",condiments-general,exact,condiments-general.md,condiments-general,7,6,scaffold
-7,"Oils, Condiments, and Specialty Foods",7,"Cocoa/chocolate products (cocoa powder, dark chocolate, milk chocolate, chocolate chips)",cocoa-chocolate-products,by_alias,chocolate.md,chocolate,,,
-7,"Oils, Condiments, and Specialty Foods",8,"Herbs/spices/dried seasonings (turmeric, cinnamon, paprika, oregano, cumin, chili powder, pepper)",herbs-spices-dried-seasonings,by_alias,spices.md,spices,,,
-7,"Oils, Condiments, and Specialty Foods",9,"Salt (table, sea, Himalayan)",salt,exact,salt.md,salt,7,9,scaffold
+7,"Oils, Condiments, and Specialty Foods",7,"Cocoa/chocolate products (cocoa powder, dark chocolate, milk chocolate, chocolate chips)",cocoa-chocolate-products,exact,chocolate.md,chocolate,7,7,locked
+7,"Oils, Condiments, and Specialty Foods",8,"Herbs/spices/dried seasonings (turmeric, cinnamon, paprika, oregano, cumin, chili powder, pepper)",herbs-spices-dried-seasonings,exact,spices.md,spices,7,8,locked
+7,"Oils, Condiments, and Specialty Foods",9,"Salt (table, sea, Himalayan)",salt,exact,salt.md,salt,7,9,locked
 7,"Oils, Condiments, and Specialty Foods",10,"Snacks (crackers, granola/snack bars, cookies, chips, popcorn — when not primarily a grain or produce product)",snacks-general,by_slug,snacks-general.md,snacks-general,NaN,NaN,
 7,"Oils, Condiments, and Specialty Foods",11,"Canned foods, general (canned tomatoes, beans, soups — with tin flag)",canned-foods-general,by_slug,canned-foods-general.md,canned-foods-general,NaN,NaN,
 7,"Oils, Condiments, and Specialty Foods",12,"Mixed meals/prepared foods (frozen dinners, boxed meals, ready-to-eat)",mixed-meals-prepared-foods,by_slug,mixed-meals-prepared-foods.md,mixed-meals-prepared-foods,NaN,NaN,

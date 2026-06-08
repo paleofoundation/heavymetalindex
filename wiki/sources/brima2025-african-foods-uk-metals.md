@@ -66,3 +66,15 @@ App: The source supports a category-level flag for imported African spices and a
 - The abstract reports average concentrations for broad categories, including spices; Table 2 contains the subcategory structure used by the authors.
 - The source is UK-market evidence for African foods, not primary evidence for African in-country market samples.
 - Arsenic values are total arsenic unless otherwise stated; the authors' risk calculation applies an inorganic-arsenic assumption for fishery products only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [53e71d4](https://github.com/paleofoundation/heavymetalindex/commit/53e71d4) | 2026-06-03 | ingest auto-fetched 2026-06-03: brima2025-african-foods-uk-metals |
+<!-- END: hmi-page-history -->

@@ -109,3 +109,15 @@ This paper is also useful as a worked example of the EFSA-TDI-to-PTWI recalculat
 - Evidence tier: B. Peer-reviewed MDPI Biology article with documented FAAS methodology, DOLT-3 CRM recovery (88.8–119%, at the upper edge of acceptable), transparent risk-assessment arithmetic, and reproducible numbers. Not A because: the fish dataset is thin (3 replicates × 19 species at a single estuary, single 2016–2017 collection window); the snail and cockle datasets pool across 3–4 sampling years (2005–2010); the mussel dataset is cited verbatim from Yap et al. 2016 rather than newly measured; per-sample RSD is not reported. Not C because the analytical and risk-assessment methods are documented and the QA-QC is real.
 - The fish-species ordering by Ni (*A. maculatus* > *T. lepturus* > *A. indica* > *N. hexodon* > *A. chacunda* > others) and the highest/lowest pair (*A. maculatus* 3.84 mg/kg DW max; *M. cordyla* 0.48 mg/kg DW min) are extracted from the figure text on p. 9 of 20 rather than from a per-species table in the body of the PDF; Tables S4–S10 would contain the per-species and per-site values.
 - The EWI body-text "mg/week" notation on p. 14 of 20 and the Table 1 "EWI" notation in µg/week are reconciled in Key numbers: the Table 1 EWI columns are per-mean values in µg/week (a single mean fish replicate yields 1.24–10.2 µg/week Ni intake at the species mean), and the body-text MWI in mg/week is the per-consumer weekly intake after the 0.70 kg/week or 1.40 kg/week consumption multiplier (e.g., for *Atule maculatus* at 0.90 mg/kg WW, MWI = 0.90 × 0.70 = 0.63 mg/week ≈ 11.2% of 5642 µg/week PTWI).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [2eb0dab](https://github.com/paleofoundation/heavymetalindex/commit/2eb0dab) | 2026-06-03 | ingest: yap-almutairi2022-nickel-seafood-malaysia [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory |
+<!-- END: hmi-page-history -->

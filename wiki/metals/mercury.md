@@ -9,7 +9,7 @@ microbiome_relevance: medium
 wikibiome_crosswalk: ["[[microbiome/mercury-gut-axis]]"]
 wiki_doi: null
 updated: 2026-04-30
-sources: 234
+sources: 265
 ---
 
 # Mercury
@@ -25,7 +25,7 @@ Mercury occurs in three toxicologically distinct forms relevant to food and envi
 
 The dominant dietary exposure route for methylmercury is fish and seafood, particularly long-lived predatory fish (swordfish, shark, king mackerel, tilefish, bigeye tuna) which biomagnify methylmercury to concentrations substantially above the surrounding water and lower-trophic-level prey ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]], [[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]). Inorganic mercury exposure through diet is less common; dental amalgam release contributes elemental mercury vapor to occupational and dental-patient inhalation exposure ([[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]]). The [[sources/minamata-convention-2013|Minamata Convention]] on Mercury (2013, with 2024 revisions) is the international treaty regulating anthropogenic mercury emissions worldwide, named for the 1950s-1960s methylmercury poisoning event in Minamata Bay, Japan, that established the developmental and adult neurotoxicity of methylmercury at high exposure ([[sources/minamata-convention-2013|Minamata Convention]]).
 
-The methylmercury reference values across EPA IRIS (oral RfD 0.1 µg/kg/day) ([[sources/epa-iris-methylmercury|EPA IRIS MeHg]]), EFSA (TWI 1.3 µg Hg/kg b.w./week, daily-equivalent ~0.19) ([[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]), and JECFA (PTWI 1.6, daily-equivalent ~0.23) ([[sources/jecfa-61st-methylmercury|JECFA 61st]]) converge to within a factor of 2.3, all anchored on the same Faroe Islands and Seychelles cohort developmental-neurotoxicity endpoint. This is the most harmonized of the heavy-metal regulatory landscapes covered by the wiki — in stark contrast to lead (no harmonized PTWI), arsenic (PTWI withdrawn), and [[metals/cadmium|cadmium]] (3-way EFSA/JECFA/ATSDR divergence).
+The methylmercury reference values across EPA IRIS (oral RfD 0.1 µg/kg/day) ([[sources/epa-iris-methylmercury|EPA IRIS MeHg]]), EFSA (TWI 1.3 µg Hg/kg b.w./week, daily-equivalent ~0.19) ([[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]), and JECFA (PTWI 1.6, daily-equivalent ~0.23) ([[sources/jecfa-61st-methylmercury|JECFA 61st]]) converge to within a factor of 2.3, all anchored on the same Faroe Islands and Seychelles cohort developmental-neurotoxicity endpoint. This is the most harmonized of the heavy-metal regulatory landscapes covered by the wiki; it stands in stark contrast to lead (no harmonized PTWI), arsenic (PTWI withdrawn), and [[metals/cadmium|cadmium]] (3-way EFSA/JECFA/ATSDR divergence).
 
 ## At a glance
 <!-- audience: consumer -->
@@ -191,9 +191,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

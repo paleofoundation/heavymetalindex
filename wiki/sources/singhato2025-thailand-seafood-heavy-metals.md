@@ -203,3 +203,16 @@ Unit and basis discipline: all concentrations on this page are mg/kg fresh weigh
 - Finding 1 (⚠️ Check 1, As-MOE narrative incorrectly applied the Pb <100 cutoff): verified against PDF p. 6 — the EFSA-defined health-concern threshold for arsenic MOE is the 2.0-0.4 (average consumers) and 0.9-0.2 (high consumers) band; the <100 cutoff is the Pb convention, not As. Applied: the per-capita MOE preamble and the post-table narrative both now reference the correct EFSA As risk band (≤2.0) and explicitly note that this is distinct from the Pb <100 convention. The post-table sentence also names which four species (razor clam, oysters, clam, silver pomfret) remain above the 2.0 band at 3-5.9 y boiled.
 - Finding 2 (⚠️ Check 3, omission of 10% iAs baseline reference): verified against PDF p. 16 Discussion 4.2 — the paper does cite a baseline assumption that iAs constitutes 10% of total As in seafood (ref [22], EFSA Margin of Exposure resource), alongside the operative 5%/2% figures from Dwiyitno et al. 2024 (ref [25]) that were actually applied to the risk calculation. Applied: Methods section now notes both the 10% baseline reference and the 5%/2% operative figures, with the distinction between baseline and applied figures made explicit.
 - All Check 2/4/5 findings clean per subagent. Check 3 was otherwise clean. Routing audit re-run after fix: 0 blocking changes.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [b350787](https://github.com/paleofoundation/heavymetalindex/commit/b350787) | 2026-06-03 | audit: singhato2025-thailand-seafood-heavy-metals revised |
+| [108a710](https://github.com/paleofoundation/heavymetalindex/commit/108a710) | 2026-06-03 | ingest: singhato2025-thailand-seafood-heavy-metals fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish |
+<!-- END: hmi-page-history -->

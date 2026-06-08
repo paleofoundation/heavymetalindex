@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/bleaching-whitening-additives",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0c01e6c5b25c52e6d832c0a838f8baacf45eee6be4894d4fc23708774c0648b7",
-      "content_bytes": 7942,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "content_sha256": "82d6ce2dbec7ab3c5822e65978f52db956a7bee69bcd2afb808ea32b18f1a9f4",
+      "content_bytes": 9120,
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/bleaching-whitening-additives.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/bleaching-whitening-additives.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -44,12 +44,37 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ecetoc1992-tr045-ni-co-cr-consumer-products",
         "content_pin": {
-          "content_sha256": "346ea13869cd274f66f4e4c4e776b3cba12307ae82dd1f82a6dccd3549d02fca",
-          "content_bytes": 28293,
-          "last_commit_sha": "c036da0",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "2d8e14cfe2ed08cb6bf02f08b3e0c870714f5531b904de664dc1e7e19bb1d93c",
+          "content_bytes": 27459,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c036da0:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nydec2020-cleansing-product-disclosure-bmp",
+        "title": "Cleansing Product Information Disclosure Program — Recommended Best Management Practices",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Cr-VI",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
+        "content_pin": {
+          "content_sha256": "ace30203933264826c3a541fc4cd0f4499bd2f6aea4059b51f625affd77c9426",
+          "content_bytes": 47811,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
         }
       }
     ]

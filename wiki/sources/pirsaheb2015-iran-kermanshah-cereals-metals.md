@@ -177,8 +177,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [0c00555](https://github.com/paleofoundation/heavymetalindex/commit/0c00555) | 2026-06-01 | audit: pirsaheb2015-iran-kermanshah-cereals-metals [revised] |
-| [c546ac0](https://github.com/paleofoundation/heavymetalindex/commit/c546ac0) | 2026-06-01 | ingest: pirsaheb2015-iran-kermanshah-cereals-metals [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

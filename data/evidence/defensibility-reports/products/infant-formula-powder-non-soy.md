@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-powder-non-soy.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5b012ab1b2315bb52e46268c66ed36cf08fef55d60248aab408ab319c8019f1f
+source_page_sha256: 6d6737f027f4a58767fb9038564639bb9353bcbdbf0013f3e66b6dbfaf2e26e8
 total_claims: 116
 cited_claims: 116
 uncited_claims: 0
-distinct_cited_targets: 113
-distinct_cited_sources: 108
+distinct_cited_targets: 119
+distinct_cited_sources: 114
 audit_rows_for_page: 1
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 635
+audit_rows_for_cited_targets: 62
+audit_log_total_rows: 789
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 116 |
 | cited claims | 116 |
 | uncited claims | 0 |
-| distinct cited targets | 113 |
-| distinct cited `sources/` pages | 108 |
+| distinct cited targets | 119 |
+| distinct cited `sources/` pages | 114 |
 | audit rows on this page | 1 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 635 |
+| audit rows on cited target pages | 62 |
+| audit log rows read | 789 |
 
 ## Page-level audit rows
 
@@ -52,7 +52,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `97 ppb`
 - Context: `er (direct row-fit) | mean/median 0.2 to 64.2 ppb (6 sources); highest reported 97 ppb | 73% detected (169/230, FDA 2026`
@@ -60,7 +62,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `20 ppb`
 - Context: `26, prepared-for-feeding) | [[regulations/eu2023-contaminants-maximum-levels]]: 20 ppb (product as placed on market) | 6`
@@ -68,7 +72,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `8 ppb`
 - Context: `|Cd]] | non-soy (cow milk-based), powder (direct row-fit) | mean/median 0.17 to 8 ppb (7 sources); highest reported 12.3`
@@ -76,7 +82,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `12.3 ppb`
 - Context: `wder (direct row-fit) | mean/median 0.17 to 8 ppb (7 sources); highest reported 12.3 ppb | 63% detected (145/230, FDA 20`
@@ -84,7 +92,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `10 ppb`
 - Context: `145/230, FDA 2026, prepared-for-feeding) | [[regulations/eu-2023-915-cadmium]]: 10 ppb (product as placed on market) | 7`
@@ -92,7 +102,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `34 ppb`
 - Context: `|tAs]] | non-soy (cow milk-based), powder (direct row-fit) | mean/median 0.4 to 34 ppb (3 sources); highest reported 34`
@@ -100,7 +112,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `34 ppb`
 - Context: `wder (direct row-fit) | mean/median 0.4 to 34 ppb (3 sources); highest reported 34 ppb | 92% detected (212/230, FDA 2026`
@@ -108,7 +122,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `7 ppb`
 - Context: `] | non-soy (cow milk-based), powder (summary-only / supporting context) | mean 7 ppb (1 source); highest reported 7 ppb`
@@ -116,7 +132,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `7 ppb`
 - Context: `r (summary-only / supporting context) | mean 7 ppb (1 source); highest reported 7 ppb | Sample-level detection rate not`
@@ -124,7 +142,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `20 ppb`
 - Context: `tection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 20 ppb (product as placed on market) | 1`
@@ -132,7 +152,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `113 ppb`
 - Context: `l\|tHg]] | non-soy (cow milk-based), powder (direct row-fit) | mean/median 0 to 113 ppb (2 sources); highest reported 11`
@@ -140,7 +162,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `113 ppb`
 - Context: `owder (direct row-fit) | mean/median 0 to 113 ppb (2 sources); highest reported 113 ppb | 1% detected (3/230, FDA 2026,`
@@ -148,7 +172,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `100 ppb`
 - Context: `] | non-soy (cow milk-based), powder (summary-only / supporting context) | mean 100 ppb (1 source); highest reported 100`
@@ -156,7 +182,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `100 ppb`
 - Context: `(summary-only / supporting context) | mean 100 ppb (1 source); highest reported 100 ppb | Sample-level detection rate no`
@@ -164,7 +192,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `1241 ppb`
 - Context: `luminum\|Al]] | non-soy (cow milk-based), powder (direct row-fit) | mean 177 to 1241 ppb (4 sources); highest reported 1`
@@ -172,7 +202,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `1520 ppb`
 - Context: `), powder (direct row-fit) | mean 177 to 1241 ppb (4 sources); highest reported 1520 ppb | 100% detected (57/57, Dabeka`
@@ -180,7 +212,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `75 ppb`
 - Context: `(cow milk-based), powder (summary-only / supporting context) | highest reported 75 ppb | Sample-level detection rate not`
@@ -188,7 +222,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `95 ppb`
 - Context: `on-soy (cow milk-based), powder (summary-only / supporting context) | mean 7 to 95 ppb (2 sources); highest reported 95`
@@ -196,7 +232,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 #### Claim `95 ppb`
 - Context: `ary-only / supporting context) | mean 7 to 95 ppb (2 sources); highest reported 95 ppb | Sample-level detection rate not`
@@ -204,7 +242,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
 
 ### Federal / Regulatory Limits vs Field Findings
 
@@ -214,7 +254,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -224,7 +266,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -234,7 +278,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -244,7 +290,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -254,7 +302,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -264,7 +314,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -274,7 +326,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -284,7 +338,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -294,7 +350,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -304,7 +362,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -314,7 +374,9 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
     - audit rows: none
 
@@ -1376,7 +1438,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `10 ppb`
 - Context: `and powdered infant formula (n=330 total; historical baseline; AAS method with 10 ppb LOD floor) | <!-- END: hmi-source`
-- Cited targets (89):
+- Cited targets (95):
   - `wiki/sources/abstract2020-content-dietary-exposure-toxic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin\.md` (page missing)
@@ -1396,6 +1458,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2020-aluminium-faq-consumer-products\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -1439,7 +1503,13 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/efsa-lead-contam-2010\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2014-dietary-exposure-iAs\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2024-organoarsenic-species\.md` (page missing)
     - audit rows: none
   - `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` (page missing)
     - audit rows: none
@@ -1555,6 +1625,10 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/unuvar2017-commercial-infant-formula-elements-turkey\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/usda-fas2023-china-gb-2762-2022-translation\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/who-gdwq-2022-fourth-edition\.md` (page missing)
+    - audit rows: none
 
 ### Contradiction watch
 
@@ -1665,7 +1739,7 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/california-prop65.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
-| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 2 | 2026-06-02 | 2026-06-03 |
 | `wiki/regulations/fda-closer-to-zero.md` | regulations | 0 | — | — |
 | `wiki/sources/abstract2020-content-dietary-exposure-toxic\.md` | sources | 0 | — | — |
 | `wiki/sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin\.md` | sources | 0 | — | — |
@@ -1679,6 +1753,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` | sources | 0 | — | — |
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
+| `wiki/sources/bfr2020-aluminium-faq-consumer-products\.md` | sources | 0 | — | — |
 | `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` | sources | 0 | — | — |
 | `wiki/sources/burrell2010-aluminium-in-infant-formulas.md` | sources | 0 | — | — |
 | `wiki/sources/burrell2010-aluminium-in-infant-formulas\.md` | sources | 0 | — | — |
@@ -1708,7 +1783,10 @@ _All claims trace to at least one cited source._
 | `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` | sources | 0 | — | — |
 | `wiki/sources/editor2019-manganese-levels-infant-formula\.md` | sources | 0 | — | — |
 | `wiki/sources/efsa-cadmium-contam-2009\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa-lead-contam-2010\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa2014-dietary-exposure-iAs\.md` | sources | 0 | — | — |
 | `wiki/sources/efsa2015-nickel-food-water\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa2024-organoarsenic-species\.md` | sources | 0 | — | — |
 | `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` | sources | 0 | — | — |
 | `wiki/sources/estimated2015-estimated-exposure-arsenic-breastfed\.md` | sources | 0 | — | — |
 | `wiki/sources/eticha2018-infant-formula-metals-mekelle-ethiopia\.md` | sources | 0 | — | — |
@@ -1775,4 +1853,6 @@ _All claims trace to at least one cited source._
 | `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` | sources | 0 | — | — |
 | `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` | sources | 0 | — | — |
 | `wiki/sources/unuvar2017-commercial-infant-formula-elements-turkey\.md` | sources | 0 | — | — |
+| `wiki/sources/usda-fas2023-china-gb-2762-2022-translation\.md` | sources | 0 | — | — |
+| `wiki/sources/who-gdwq-2022-fourth-edition\.md` | sources | 0 | — | — |
 

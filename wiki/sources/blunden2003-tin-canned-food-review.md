@@ -239,3 +239,13 @@ App: No ingredient `contamination_profile` impact directly from this review. Per
   - **Check 1 European beverage cans figure (audit ⚠️; clarification rather than correction):** Audit noted that the abstract says "15,000 million tinplate beverage cans" while the body (p. 1652) says "approximately 40,000 million [beverage] cans per annum, of which almost half are made of tinplate and all are internally lacquered." The wiki's row "European beverage cans per annum: >15,000 million tinplate" matches the abstract and is consistent with "almost half of ~40,000 million total" in the body. The two figures are not in conflict; they refer to total beverage cans (40,000 million) and tinplate beverage cans specifically (>15,000 million). No correction applied.
   - **Check 1 cat-dose orange juice "498 ppm not emetic" omission (audit ⚠️; clarification only):** Audit noted that the page omits the PDF detail that 498 ppm orange juice did not produce emesis in cats and that dogs (groups of four) did not vomit at 540 or 1370 ppm. Omission rather than error; the page's purpose is to summarise tin-occurrence and acute-effect ranges, not reproduce every animal-dosing data point. Not applied; flagged here for future readers.
 - Audit-application summary: 6 ❌/⚠️ findings applied (Benoy dose structure; Barker-Runte case framing; Johnson-Greger absorption sign; Winship half-life framing; JECFA PTWI unit basis; Greger-Baier juice labelling); 2 findings rejected as false positives (invented-slug claim contradicted by filesystem; European-beverage-can figure consistent with abstract). Subagent's other ✅ confirmations on Checks 3 (speciation/methods), 4 (Part 12 brand firewall — sponsorship-context disclosure correctly handled), and 5 (Part 2 wiki/HMTc firewall — source-attribution framing correctly preserved) recorded.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

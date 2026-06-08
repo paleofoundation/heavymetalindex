@@ -17,18 +17,40 @@
     "canonical_url": "https://heavymetalindex.com/products/household-specialty-cleaners-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b284eb6cf47e1e24b53b8ce61da4e9219355e7e163a7d2678aa67afec522e131",
-      "content_bytes": 8120,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "content_sha256": "e6a914047bf49a7e8ad6607b8a72accb717e220dd7fd438f9388cbb76b98b425",
+      "content_bytes": 10914,
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/household-specialty-cleaners-other.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/household-specialty-cleaners-other.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 6,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/davidsuzuki2014-toxic-household-cleaners",
+        "title": "The dirt on toxic chemicals in household cleaning products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "As",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/davidsuzuki2014-toxic-household-cleaners",
+        "content_pin": {
+          "content_sha256": "278595be0b585d600944f3482ca5d79f4e12187733bc3fc8715738be29227efb",
+          "content_bytes": 21113,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/ecetoc1992-tr045-ni-co-cr-consumer-products",
         "title": "Nickel, Cobalt and Chromium in Consumer Products: Allergic Contact Dermatitis",
@@ -44,12 +66,102 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ecetoc1992-tr045-ni-co-cr-consumer-products",
         "content_pin": {
-          "content_sha256": "346ea13869cd274f66f4e4c4e776b3cba12307ae82dd1f82a6dccd3549d02fca",
-          "content_bytes": 28293,
-          "last_commit_sha": "c036da0",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "2d8e14cfe2ed08cb6bf02f08b3e0c870714f5531b904de664dc1e7e19bb1d93c",
+          "content_bytes": 27459,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c036da0:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/epa2024-safer-choice-master-criteria-ingredients",
+        "title": "EPA's Safer Choice Program — Master Criteria for Safer Ingredients (Version 2.1, October 2024)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/epa2024-safer-choice-master-criteria-ingredients",
+        "content_pin": {
+          "content_sha256": "2b55e6116b3ed22d3d3a21a0a406ce3f200741c695998df847bd59c2635b760e",
+          "content_bytes": 28622,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/epa2024-safer-choice-master-criteria-ingredients.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/epa2024-safer-choice-standard-dfe",
+        "title": "EPA's Safer Choice and Design for the Environment (DfE) Standard (August 2024)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Hg",
+          "Cr-VI"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/epa2024-safer-choice-standard-dfe",
+        "content_pin": {
+          "content_sha256": "ca4d4415f8ff15977fbefb1eae9af494470802e28f81863f6795d0d7eeb5e1d9",
+          "content_bytes": 31276,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/epa2024-safer-choice-standard-dfe.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nydec2020-cleansing-product-disclosure-bmp",
+        "title": "Cleansing Product Information Disclosure Program — Recommended Best Management Practices",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Cr-VI",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
+        "content_pin": {
+          "content_sha256": "ace30203933264826c3a541fc4cd0f4499bd2f6aea4059b51f625affd77c9426",
+          "content_bytes": 47811,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
+        "title": "Sources of contaminants in domestic wastewater: nutrients and additional elements from household products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sb",
+          "Cr",
+          "Co",
+          "Mo",
+          "Se"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
+        "content_pin": {
+          "content_sha256": "56e6dc9dc486544c8ee7777737a7f3307a7a299b9dd853cf6dfb7b780df4483d",
+          "content_bytes": 30461,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       }
     ]

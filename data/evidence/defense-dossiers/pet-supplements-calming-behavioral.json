@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-supplements-calming-behavioral",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8fb2359c6b83516e5e02ae56865964e8d9a8b52eea40755dfe116da3dea6de94",
+      "content_sha256": "e5ba94f80310f47a05b76f198718547a961b85d91950846f6e9d154cee41a5ec",
       "content_bytes": 7334,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/pet-supplements-calming-behavioral.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/pet-supplements-calming-behavioral.md | sha256sum"
     }
   },
   "evidence_base": {

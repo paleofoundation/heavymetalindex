@@ -72,3 +72,13 @@ Microbiome: No direct microbiome endpoint.
 - Values are source-reported ppm in palm oil. No conversion to ppb or alternate oil basis is made on this source page.
 - The source states that most assayed metals were above acceptable limits, but Table 3 shows Cu below the listed WHO limit and Pb as non-detect. The numeric table is preserved over the broader narrative statement.
 - The source is not brand-specific and does not identify consumer brands.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4496362](https://github.com/paleofoundation/heavymetalindex/commit/4496362) | 2026-06-05 | ingest auto-fetched 2026-06-05: enemuor2021-palm-oil-kogi-metals |
+<!-- END: hmi-page-history -->

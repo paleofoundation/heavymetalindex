@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 118454477dbde0143862ab97ffd2664a50be9f1d6a7683e0f8ea2d4417ff9b2d
+source_page_sha256: 1972872718c9a69aeea33709ccea199dfcf452260ece6459e5cd19a4abc93f0a
 total_claims: 122
 cited_claims: 122
 uncited_claims: 0
 distinct_cited_targets: 46
 distinct_cited_sources: 40
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 635
+audit_rows_for_cited_targets: 28
+audit_log_total_rows: 789
 noindex: true
 ---
 
@@ -35,8 +35,8 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited targets | 46 |
 | distinct cited `sources/` pages | 40 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 635 |
+| audit rows on cited target pages | 28 |
+| audit log rows read | 789 |
 
 ## Page-level audit rows
 
@@ -54,7 +54,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
@@ -66,7 +68,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
@@ -78,7 +82,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
@@ -90,7 +96,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
@@ -104,7 +112,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
@@ -114,7 +124,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
@@ -124,7 +136,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
@@ -134,7 +148,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
@@ -144,7 +160,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
@@ -154,7 +172,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
@@ -164,7 +184,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
@@ -174,7 +196,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
@@ -184,7 +208,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
@@ -194,7 +220,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
   - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
@@ -2193,7 +2221,7 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/california-prop65.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
-| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 2 | 2026-06-02 | 2026-06-03 |
 | `wiki/regulations/fda-closer-to-zero.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda2025-lead-processed-baby-foods.md` | regulations | 0 | — | — |
 | `wiki/sources/bair2022-heavy-metals-infant-toddler-foods.md` | sources | 0 | — | — |

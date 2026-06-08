@@ -1,0 +1,109 @@
+---
+type: source
+raw_handle: MFK_archived-health-canada-review-of-dietary-exposure-
+cite_key: hc2008-review-dietary-exposure-aluminum
+title: "ARCHIVED — Health Canada Review of Dietary Exposure to Aluminum"
+authors: [Health Canada Bureau of Chemical Safety]
+year: 2008
+publication: "Health Canada, Food Directorate, Bureau of Chemical Safety"
+doi: null
+no_doi_assigned: true
+access_url: "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives/review-dietary-exposure-aluminum.html"
+source_type: government-regulatory
+evidence_tier: A
+license: "crown-copyright-open-government"
+raw_path: "raw/Manual Fetch Kimi /June 3 Folder/ARCHIVED - Health Canada Review of Dietary Exposure to Aluminum - Canada.ca 2.pdf"
+raw_sha256: e7bc17422d54e0bbba2532a3ec80da2cb97adf831a8a7138d3018ddedd3ef989
+access_date: 2026-06-03
+metals: [Al]
+ingredients: ["[[ingredients/processed-american-cheese]]", "[[ingredients/wheat]]", "[[ingredients/water]]"]
+products: ["[[products/flour-non-rice]]"]
+matrices: [food-additive, dietary-intake, processed-cheese, baking-powder, drinking-water]
+jurisdictions: [CA, GLOBAL]
+near_duplicates: ["raw/Manual Fetch Kimi /June 3 Folder/ARCHIVED - Health Canada Review of Dietary Exposure to Aluminum - Canada.ca.pdf"]
+sample_n: null
+sample_population: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
+updated: 2026-06-03
+---
+
+# Health Canada 2008 — Review of dietary exposure to aluminum (Q&A overview)
+
+In the wake of the 2006 Joint FAO/WHO Expert Committee on Food Additives (JECFA) re-evaluation of aluminum toxicology and its associated reduction of the Provisional Tolerable Weekly Intake (PTWI), Health Canada's Bureau of Chemical Safety (BCS) initiated a review of aluminum in foods available in Canada. This archived Canada.ca page is the public-facing Q&A overview that accompanies the BCS industry-information request documented separately in `hc2008-aluminum-food-additives-industry-request.md`. The Q&A frames why the review was initiated, how aluminum enters the Canadian food supply (naturally occurring background, aluminum-containing food additives, and migration from cookware/packaging), how Canadian additive permissions are administered (pre-clearance, Good Manufacturing Practice convention, numerical maximum levels), how dietary exposure is monitored (Canadian Total Diet Study), and what health effects are associated with aluminum exposure at the population level. The page also notes a parallel Health Canada/Environment Canada review of aluminum under the Canadian Environmental Protection Act, 1999 (CEPA 1999) Priority Substances framework. The page is archived ("we have archived this page and will not be updating it"; Date modified 2025-04-02 reflects formatting, not content) and is preserved here as the Canadian regulatory communication record of how Health Canada explained the 2006 JECFA-triggered aluminum review to the public.
+
+## Key numbers
+
+JECFA PTWI context (p. 2):
+
+- JECFA reduced its Provisional Tolerable Weekly Intake (PTWI) for aluminum from all sources, including food additives, following its 2006 re-evaluation. The page does not state the pre- and post-2006 PTWI values numerically; the sister industry-letter page records the values as 7 → 1 mg/kg bw/week.
+- JECFA observed that the revised PTWI "is likely to be exceeded to a large extent by some population groups, particularly children, who regularly consume foods that include aluminium-containing additives" (direct quotation, p. 2).
+
+Canadian food additive permission example (p. 4):
+
+- Sea urchin roe (caviar) may contain potassium aluminum silicate up to a maximum level of **350 ppm** under Canadian Food and Drug Regulations.
+- Other Canadian aluminum-containing food additives operate under a Good Manufacturing Practice (GMP) convention — the minimum amount necessary to achieve the technical effect, with no numerical ceiling — though Health Canada signalled an intent to replace GMP listings for aluminum-containing food additives with numerical maximum levels of use.
+
+Functional uses of aluminum-containing food additives identified by name (pp. 3-4):
+
+- Sodium aluminum sulphate and potassium aluminum sulphate as pH-adjusting agents in baking powder and flour.
+- Sodium aluminum phosphate as an emulsifying agent in certain processed cheeses.
+- Aluminum-containing additives also used in coloring preparations, as firming agents, and as anti-caking agents.
+
+CEPA 1999 parallel review (p. 2): aluminum was being reviewed jointly by Health Canada and Environment Canada under the Priority Substances Lists of the Canadian Environmental Protection Act, 1999.
+
+Exposure-context findings (pp. 5-6):
+
+- Health Canada routinely monitors aluminum in foods consumed by Canadians through the on-going Total Diet Study program.
+- Recent (i.e., circa-2008) Canadian data was reported to suggest that current *average* aluminum intake through food does not pose an unacceptable health risk to Canadians.
+- In light of the JECFA evaluation, Health Canada was conducting a more detailed dietary-exposure assessment using more sophisticated modelling techniques to characterize the *range* of exposures and identify whether any segments of the Canadian population were exposed to unacceptable levels.
+
+Health-effects framing (pp. 5-6):
+
+- Most studies show very little aluminum is absorbed by the body from the gastrointestinal tract; absorption depends on food composition, aluminum compound type, and the age and health of the person.
+- Long-term exposure to elevated aluminum levels may adversely affect humans and animals.
+- Experimental-animal studies of various aluminum compounds added to diet or drinking water at high enough levels are capable of causing adverse effects related to reproduction, neurological behaviour, and neurological development.
+- The association between high aluminum accumulation in the body and Alzheimer's disease is "not considered conclusive" (direct quotation, p. 6).
+
+## Methods (brief)
+
+Regulatory-communication document, not an analytical study. The page is the Q&A overview component of Health Canada's 2008 aluminum-additive review and does not report new contamination measurements, sampling, or analytical methods. The single quantitative additive ceiling cited (350 ppm potassium aluminum silicate in sea urchin roe) is an excerpt of the Canadian Food and Drug Regulations in force at the time. References to the Canadian Total Diet Study program describe ongoing federal monitoring without re-stating per-food values here. The JECFA PTWI revision is referenced qualitatively; the numerical 7 → 1 mg/kg bw/week revision is documented on the companion industry-letter page.
+
+## Limitations
+
+- The document is a public-facing Q&A overview, not a primary toxicological or exposure assessment. Quantitative content is limited to the single 350 ppm sea urchin roe example and a qualitative JECFA PTWI reference. Readers seeking the full Division 16 maximum-levels-of-use tabulation should consult the companion sister page (`hc2008-aluminum-food-additives-industry-request.md`).
+- The page does not state the pre- and post-2006 JECFA PTWI numerical values; those values are recorded only on the companion sister page.
+- The page asserts that "most studies have shown that the amount of aluminum leached from these sources [cookware, utensils, wrapping materials] is generally negligible" without citing the underlying studies; this claim is the 2008 Health Canada framing and should not be treated as a settled cross-source conclusion in the wiki. Subsequent literature (e.g., aluminum cookware migration studies under varying acidity, cooking time, and temperature) reports leaching ranges that are not negligible in many conditions; see the relevant cookware and aluminum-foil source pages.
+- The page is archived; the Canadian regulatory state and the Total Diet Study findings have evolved since 2008, and downstream regulatory provisions for aluminum-containing food additives should be verified against the current Food and Drug Regulations rather than treated as live from this document.
+- The Alzheimer's-disease framing on this page reports the 2008 regulatory-communication interpretation; later epidemiological and biological literature should be consulted separately, not displaced by this page.
+
+## Implications
+
+- Certification: This Q&A page documents the qualitative regulatory rationale that accompanied Canada's 2008 aluminum additive review. It complements the companion industry-letter page (which carries the Division 16 quantitative ceilings) by recording how Health Canada framed the review's motivation, monitoring infrastructure (Canadian Total Diet Study), and health-effects rationale for tightening or numericalizing GMP listings on aluminum-containing additives.
+- Courses: Useful as a public-communication example of how a national food-safety agency translates a JECFA PTWI revision into a public-facing rationale for regulatory review — including how it acknowledges that children consuming aluminum-additive-containing foods may exceed the revised PTWI.
+- App: The page's functional-class taxonomy (pH adjusters in baking powder and flour, emulsifying salts in processed cheese, anti-caking agents, firming agents, colouring preparations) is consistent with the additive-identifier inference logic established on the companion sister page.
+- Microbiome: Not addressed in the document.
+
+## Verification notes
+
+- Cite-key follows the same agency-and-year pattern (`hc2008-`) as the companion industry-letter source page; the suffix `review-dietary-exposure-aluminum` mirrors the canada.ca URL slug `review-dietary-exposure-aluminum.html`.
+- The "Date modified: 2025-04-02" at the foot of the archived page reflects formatting/archive maintenance, not substantive content revision; year is recorded as 2008 (the contemporaneous period when BCS initiated the review and distributed the companion industry letter dated July 03, 2008).
+- `near_duplicates` lists the non-"2"-suffixed sibling PDF in the same Manual Fetch Kimi/June 3 Folder; both files are the same size (105,422 bytes) — flagged for downstream dedupe.
+- No matching `[[regulations/canada-food-drug-regulations-division-16-aluminum]]`, `[[regulations/jecfa-aluminum-ptwi]]`, or `[[regulations/cepa-1999-priority-substances-aluminum]]` page exists in the current taxonomy snapshot; the document references all three substantively and they are flagged here as backlog regulation-page candidates — NOT created here, since regulation pages require a hard agency identifier per CLAUDE.md Part 10.
+- Frontmatter `ingredients` populated with the in-taxonomy slugs whose pages correspond to foods named in the page body (`processed-american-cheese` for processed cheeses, `wheat` for flour, `water` for the drinking-water-treatment use of aluminum compounds). `products`: `flour-non-rice` only (the only in-snapshot product slug that maps to a named additive-bearing food in this Q&A page; baking powder, processed cheese spreads beyond `processed-american-cheese`, sea urchin roe, and icing sugar lack closer in-snapshot slugs and are captured via the matrices entries).
+- `jurisdictions` includes `GLOBAL` alongside `CA` because the JECFA PTWI revision is an international determination cited as the trigger for the Canadian-jurisdictional review; the page's content is otherwise Canada-specific.
+- The page is a qualitative regulatory communication; only one numerical occurrence/ceiling value (350 ppm potassium aluminum silicate in sea urchin roe) is present in the text. Other quantitative content (Division 16 maximum levels of use across the full list of aluminum-containing additives, JECFA 7 → 1 mg/kg bw/week PTWI revision) is captured on the companion sister page and not duplicated here.
+- Audit subagent (2026-06-03) flagged `products: [salt]` as unsupported by this Q&A page's text (Check 2 ❌); verified against PDF pp. 1-7 — "anti-caking agents" is named only as a generic functional class on p. 3, and salt is not named as a food category in this Q&A page (the salt-specific Division 16 ceilings live on the sister industry-letter page). `salt` removed from `products` frontmatter.
+- Audit subagent (2026-06-03) flagged `[[regulations/efsa-aluminium-twi]]` in Wiki-pages-this-source-may-touch as unsupported (Check 2 ❌; PDF references JECFA only, not EFSA); rejected as false positive — consistent with the prior audit treatment of the companion sister page, the EFSA TWI page is the natural Al-PTWI/TWI sibling regulation page when no `jecfa-aluminum-ptwi` stub yet exists in the taxonomy. The thematic relevance of the wiki-pages-this-source-may-touch section is what the source documents touch, not only what it names literally.
+
+## Wiki pages this source may touch
+
+- [[metals/aluminum]]
+- [[regulations/efsa-aluminium-twi]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+This page has no committed history yet. Future edits will be recorded here once the change lands in git.
+<!-- END: hmi-page-history -->

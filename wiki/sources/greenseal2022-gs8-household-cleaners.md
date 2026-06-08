@@ -255,3 +255,15 @@ The standard references the following test-method identifiers in its non-metal c
   - `regulations/eu-directive-94-62-ec-packaging` — same missing-slug observation as the sibling Green Seal pages (EU Directive 94/62/EC Article 11; same 100 ppm sum parallel).
 - The PDF is 22 pages including the cover page, mission statement (p. 2), contents (p. 3), Foreword (p. 4), Acronyms (p. 5), main standard text (pp. 6-12), Annex A Definitions (pp. 13-17), Annex B Powders/Solids/Non-Aqueous Liquids (p. 18), Annex C Enzymes (p. 19), Annex D Microorganisms (pp. 20-21), and Appendix 1 Scope (p. 22). All 22 pages were read in full during ingest (pp. 1-10 in the first read pass, pp. 11-20 in the second, pp. 21-22 in the third). All four normative annexes and the informative appendix were read in full. The CARB regulatory limits table (split across pp. 9-10) was read in full and reproduced in Key numbers.
 - This page is `manual_phase1` ingest by Claude Opus 4.7 on 2026-06-03.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [1d88059](https://github.com/paleofoundation/heavymetalindex/commit/1d88059) | 2026-06-03 | ingest: greenseal2022-gs8-household-cleaners [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/06_Regulatory_EPA_GreenSeal |
+<!-- END: hmi-page-history -->

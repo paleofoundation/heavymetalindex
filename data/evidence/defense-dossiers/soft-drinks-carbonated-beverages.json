@@ -20,16 +20,16 @@
     "canonical_url": "https://heavymetalindex.com/products/soft-drinks-carbonated-beverages",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3f309f69b9ab474b7eb12bab81aa45f4f7c8ee2a6fbd1580ebbd658db84e10d8",
-      "content_bytes": 11271,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "content_sha256": "e770b4af0f9a33624adac901ef00aaf289a913f9604bb4c0f9cc6c265a5aa88c",
+      "content_bytes": 11786,
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/soft-drinks-carbonated-beverages.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/soft-drinks-carbonated-beverages.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 3,
+    "contributing_source_count": 5,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/babeker2025-heavy-metals-microbial-sudanese-soft-drinks",
         "content_pin": {
-          "content_sha256": "e58583fcc459bc8184b39edb9da71ca23999d070456c7cc1a18cd8c36a72d2f9",
+          "content_sha256": "974500dca0192efcbf5811017ec49c40dc195db920e5a4d7ff03f81620defe29",
           "content_bytes": 15962,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/babeker2025-heavy-metals-microbial-sudanese-soft-drinks.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/babeker2025-heavy-metals-microbial-sudanese-soft-drinks.md | sha256sum"
         }
       },
       {
@@ -81,12 +81,71 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/deka2023-monitoring-strategies-heavy-metals-chapter",
         "content_pin": {
-          "content_sha256": "26b7ee997d80c330e8e21916f77c9f1efff788b38aef00b64bc8ea9dd031aebe",
+          "content_sha256": "0aad97eab1c596b55db7bffcfec4ef32ab8fe78799ef4f99527d5e5d0f567582",
           "content_bytes": 10243,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sadhya2023-india-food-heavy-metals-regulation",
+        "title": "Regulation in India of Heavy Metals in Food Items: A Critical Analysis",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cu",
+          "tAs",
+          "Sn",
+          "Cd",
+          "tHg",
+          "MeHg",
+          "Cr",
+          "Ni",
+          "Se",
+          "Sb",
+          "Ba",
+          "Co",
+          "Fe",
+          "Li",
+          "Mn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sadhya2023-india-food-heavy-metals-regulation",
+        "content_pin": {
+          "content_sha256": "e1b886dc5b7cab14fab0c48b5920b15e2de249128083c697bf3afe803f00ed39",
+          "content_bytes": 20676,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/salaheldin2025-multimatrix-foods-egypt",
+        "title": "Assessment of toxic heavy metals in commonly consumed foods in Egypt and their implications for public health and safety",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/salaheldin2025-multimatrix-foods-egypt",
+        "content_pin": {
+          "content_sha256": "0c5bb2fb137d2be712a4b4cb960fed8df5dd3b75e26d692b5f41ef89749c6a72",
+          "content_bytes": 12915,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
         }
       },
       {
@@ -101,12 +160,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tarigan2016-factors-tin-released-canned-beverages",
         "content_pin": {
-          "content_sha256": "1f119f52f1abeee96d12ff9438d42468b932f7ecf4f947435dff00a5b7022037",
+          "content_sha256": "b39efb92cdc8b5f7703a7ed18700366f95a99689315f741db50ffe0fa117aa13",
           "content_bytes": 4537,
-          "last_commit_sha": "566c7b2",
-          "last_commit_date": "2026-06-02",
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 566c7b2:wiki/sources/tarigan2016-factors-tin-released-canned-beverages.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/tarigan2016-factors-tin-released-canned-beverages.md | sha256sum"
         }
       }
     ]

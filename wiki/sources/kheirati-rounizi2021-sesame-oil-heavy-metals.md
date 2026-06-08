@@ -14,7 +14,7 @@ raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/kheiratirounizi2021.pdf"
 metals: [tAs, Pb, Cd, Zn, Cu]
 ingredients: ["[[ingredients/sesame-oil]]"]
 products: ["[[products/cooking-oils-other]]"]
-matrices: [sesame-seed, edible-oil, ardeh-oil, sesame-paste-oil, virgin-sesame-oil, refined-sesame-oil]
+matrices: [sesame-seed, sesame-oil, edible-oil]
 jurisdictions: [IR]
 near_duplicates: []
 sample_n: 4
@@ -78,6 +78,10 @@ Courses: Useful for teaching processing effects, seed-to-oil contaminant partiti
 
 This page was built from the full PDF, including the sample-preparation methods, microwave digestion section, Table 2 recovery data, Table 5 heavy-metal concentrations, Table 6 EDI/HQ/HI values, and the discussion/conclusion. The source reports total arsenic only; no arsenic speciation was performed. The paper contains an internal Pb concentration conflict: Table 5 reports Pb in Ardeh, virgin sesame, and refined sesame oil as 0.37, 0.25, and 0.20 mg/kg, and Table 6 EDI/HQ values are consistent with those Table 5 concentrations. The narrative text instead says 3.72, 2.59, and 2.33 ppm. This page follows Table 5 and the internally consistent risk table, while flagging the conflict for audit.
 
+Audit subagent 2026-06-02 flagged the `matrices:` array as overspecified (six tokens including narrow processing variants ardeh-oil, sesame-paste-oil, virgin-sesame-oil, refined-sesame-oil). Verified against the system-prompt matrices guidance ("pick the broadest term") and sibling oil source pages (chen2001, mehri2024) that use `sesame-oil` as the broader matrix token. Collapsed to `[sesame-seed, sesame-oil, edible-oil]`; processing-variant detail is retained in the body prose where it belongs.
+
+Audit subagent 2026-06-02 also raised a license-field fidelity nit: paper p.1 footer says "Creative Commons Attribution License" without version. License retained as `"CC BY 4.0"` because Wiley Food Science & Nutrition open-access publications in 2021 default to CC BY 4.0; this is the most accurate version and matches the wider corpus convention.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -85,5 +89,8 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [012e2a5](https://github.com/paleofoundation/heavymetalindex/commit/012e2a5) | 2026-06-02 | ingest June 2: kheirati-rounizi2021-sesame-oil-heavy-metals |
 <!-- END: hmi-page-history -->

@@ -257,3 +257,16 @@ The standard references the following test-method identifiers in its non-metal c
   - Finding 2 (Check 1 ⚠️): Methods (brief) biodegradability bullet conflated two distinct test-method lists into one undifferentiated list — primary ready-biodegradability criterion methods (ISO 7827, 9439, 10707, 10708, 9408, 14593; OECD 301A-F; OECD 310) from PDF p. 7 § 2.1.1 primary criterion, and alternative-option methods (ISO 9887, 9888; OECD 302A-C; OECD 303A Coupled Units Test) from PDF p. 8 § 2.1.1 Alternative Evaluation Options. All eight ISO identifiers do appear in the source, but the conflation obscured the primary-vs-alternative structure. Verified against PDF pp. 7-8; split the bullet to separate primary from alternative methods with their respective DOC-removal / LC50 thresholds.
   - Finding 3 (Check 1 ⚠️): Inhalation toxicity vapor-pressure threshold Key-numbers row cited source location as "p. 11 § 2.2 inhalation-tox carve-in" — imprecise clause attribution. Verified against PDF p. 11: the 1 mm Hg threshold first appears as the closing sentence of § 2.2.1 Acute Toxicity ("Inhalation toxicity shall be determined from all ingredients with a vapor pressure greater than 1 mm Hg at ambient conditions (1 atm pressure and 20-25° C)") and is re-asserted at § 2.2.3.1 Chronic Inhalation Toxicity ("a vapor pressure above 1 mm mercury (1 atm pressure and 20-25° C)"). Tightened the row's section reference to point to both locations with § 2.2.1 as the originating clause.
   - Audit checks 2 (slug vocabulary), 3 (speciation/methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall): all ✅ clean per subagent verdict with no findings to apply or push back on. No commercial brand attribution, no HMTc threshold proposals, no consumer-audience advisories, no invented analytical methods, speciation correctly handled (Cr-VI specific everywhere; arsenic and mercury non-speciated as source uses), all 8 metal and 8 product slugs in taxonomy, selenium/chromium-umbrella exclusions appropriate and documented. No false-positive findings to record. No content changes applied for Checks 2-5.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [cc102c1](https://github.com/paleofoundation/heavymetalindex/commit/cc102c1) | 2026-06-03 | audit: greenseal2024-gs37-industrial-institutional-cleaners revised |
+| [5e6fa08](https://github.com/paleofoundation/heavymetalindex/commit/5e6fa08) | 2026-06-03 | ingest: greenseal2024-gs37-industrial-institutional-cleaners fresh from KADC/06_Regulatory_EPA_GreenSeal |
+<!-- END: hmi-page-history -->

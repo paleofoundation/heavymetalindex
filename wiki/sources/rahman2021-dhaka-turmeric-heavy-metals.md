@@ -73,3 +73,16 @@ Microbiome (if applicable): The paper does not study microbiome outcomes.
 ## Verification notes
 
 The PDF title, byline, DOI, year, journal, sample frame, methods, and source-reported numeric maxima/minima were read from the auto-fetched PDF. Figures 1-3 contain additional plotted per-sample values, but the text layer does not preserve all plotted numbers cleanly; this page records exact values stated in prose and keeps the rest as qualitative comparator statements. The source reports arsenic and chromium without speciation, so these values must not substitute for inorganic arsenic or Cr(VI). Audit note: `turmeric-powder` is retained as an established matrix-map label used by sibling turmeric source pages and `data/evidence/matrix-to-product-map.json`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [997a957](https://github.com/paleofoundation/heavymetalindex/commit/997a957) | 2026-06-03 | audit auto-fetched 2026-06-03: spices source pages |
+| [2207ee9](https://github.com/paleofoundation/heavymetalindex/commit/2207ee9) | 2026-06-03 | ingest auto-fetched 2026-06-03: rahman2021-dhaka-turmeric-heavy-metals |
+<!-- END: hmi-page-history -->

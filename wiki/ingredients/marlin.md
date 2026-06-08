@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 2
+sources: 3
 wiki_doi: null
 updated: 2026-05-18
 ---
@@ -124,8 +124,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 | 2016 | Conference proceedings | CZ/EU tHg, Cd, Pb occurrence in 33 species of fish purchased in Brno City (Czech Republic) markets from 17 FAO localities, September 2015–June 2016;... (n=159) |
-| 2 | [[sources/bhoyroo2015-scombrids-heavy-metals-mauritius\|Bhoyroo et al. 2015]]. *Detection of heavy metals bio-accumulation in scombrids for the determination of possible health hazard*, African Journal of Food Science and Technology 6(4):098-107 | 2015 | Peer-reviewed | MU Zn, Cu, Ni, Cr, Cd, Pb, tHg, tAs occurrence in Muscle tissue from yellowfin tuna, dogtooth tuna, marlin, and dorado caught in the Mauritian EEZ and sold/consumed as... (n=Four commercially edible pelagic fish species sampled in summer and winter from the Exclusive Economic Zone of Mauritius; per-species replicate counts not extractable from the text layer.) |
+| 1 | [[sources/usda-fas2023-china-gb-2762-2022-translation\|USDA 2023]]. *China Releases the Standard for Maximum Levels of Contaminants in Foods (USDA FAS GAIN Report CH2023-0040, unofficial translation of GB 2762-2022)*, USDA Foreign Agricultural Service, Global Agricultural Information Network (GAIN), Report Number CH2023-0040 | 2023 | Regulation | CN Pb, Cd, tHg, MeHg, tAs, iAs, Sn, Ni, Cr occurrence in null |
+| 2 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 | 2016 | Conference proceedings | CZ/EU tHg, Cd, Pb occurrence in 33 species of fish purchased in Brno City (Czech Republic) markets from 17 FAO localities, September 2015–June 2016;... (n=159) |
+| 3 | [[sources/bhoyroo2015-scombrids-heavy-metals-mauritius\|Bhoyroo et al. 2015]]. *Detection of heavy metals bio-accumulation in scombrids for the determination of possible health hazard*, African Journal of Food Science and Technology 6(4):098-107 | 2015 | Peer-reviewed | MU Zn, Cu, Ni, Cr, Cd, Pb, tHg, tAs occurrence in Muscle tissue from yellowfin tuna, dogtooth tuna, marlin, and dorado caught in the Mauritian EEZ and sold/consumed as... (n=Four commercially edible pelagic fish species sampled in summer and winter from the Exclusive Economic Zone of Mauritius; per-species replicate counts not extractable from the text layer.) |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -146,9 +147,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

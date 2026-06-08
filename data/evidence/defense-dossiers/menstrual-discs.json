@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/menstrual-discs",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "430af5b1a2bbac3aa8700406221452d6f27fe0dd980d73058c902f3f1aee44de",
+      "content_sha256": "f273f22784809df60f87728a6f9c4208714618689215917a9fb1ee5498612770",
       "content_bytes": 7190,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/menstrual-discs.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/menstrual-discs.md | sha256sum"
     }
   },
   "evidence_base": {

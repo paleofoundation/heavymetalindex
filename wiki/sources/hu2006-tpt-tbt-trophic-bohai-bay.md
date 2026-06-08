@@ -137,3 +137,13 @@ Samples were collected May, June, and September 2002 from Bohai Bay (six plankto
 - The seawater results (TBT and TPT in 14 sites) are cited from the companion paper Gao et al. 2004 (Bull. Environ. Contam. Toxicol. 72:945, ref. 35 in this article) rather than measured in this article itself; the authors use them as the surface-water surrogate for input-vs-trophic-magnification interpretation. Reproduced here exactly as the authors report them and attributed in the table notes.
 - No brand names appear in the source's Key numbers or biota tables; species are reported with Linnaean binomials. No brand-firewall edits required. Instrument vendor names (Hewlett-Packard, ACROS, Aldrich, Wako, Hayashi, Fisher, DIKMA, Siyou, Waters) appear only in Materials and Methods and are retained per the locked-2026-05-17 scientific-method-vendor exception.
 - The earlier matrix `seawater` is not in the documented matrices vocabulary; seawater results are confined to the Key numbers narrative and the matrices array lists `sediment` plus the three biota matrices that fan out to routed ingredient pages.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

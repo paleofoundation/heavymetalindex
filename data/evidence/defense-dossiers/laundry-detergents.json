@@ -17,18 +17,41 @@
     "canonical_url": "https://heavymetalindex.com/products/laundry-detergents",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "28a56242efc65d5481125ea1489de36c76c34dd7ea784ce74be171e0951c9eaa",
-      "content_bytes": 8400,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "content_sha256": "f37b01c769dcd62496c9edb6dc69c4ea33b03605c787d5fdd9359763a3fe4999",
+      "content_bytes": 14990,
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/laundry-detergents.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/laundry-detergents.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 13,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/abulude2007-soaps-detergents-akure-nigeria",
+        "title": "Assessment of the Content of Pb, Cd, Ni and Cr in Soaps and Detergents from Akure, Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/abulude2007-soaps-detergents-akure-nigeria",
+        "content_pin": {
+          "content_sha256": "371de7b847d868a0dc2354be2be75c90ec23ade553d83858e5010e9a70ade5a0",
+          "content_bytes": 22144,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/abulude2007-soaps-detergents-akure-nigeria.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/barkodia2020-jhansi-detergent-heavy-metals",
         "title": "Analysis of heavy metals in Detergent Sample of Jhansi, India",
@@ -44,12 +67,54 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/barkodia2020-jhansi-detergent-heavy-metals",
         "content_pin": {
-          "content_sha256": "4f7247becf4e62bf29d3ffd66eae1c420fe014e05e0ae6ddb4b91a0d0f256b7e",
-          "content_bytes": 20110,
-          "last_commit_sha": "bb51519",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "ebc95c46a1337e611639852d985998a961e19695a69735d688c919aef00b4ef2",
+          "content_bytes": 19278,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show bb51519:wiki/sources/barkodia2020-jhansi-detergent-heavy-metals.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/barkodia2020-jhansi-detergent-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/davidsuzuki2014-toxic-household-cleaners",
+        "title": "The dirt on toxic chemicals in household cleaning products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "As",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/davidsuzuki2014-toxic-household-cleaners",
+        "content_pin": {
+          "content_sha256": "278595be0b585d600944f3482ca5d79f4e12187733bc3fc8715738be29227efb",
+          "content_bytes": 21113,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ec2024-eu-ecolabel-user-manual-detergents",
+        "title": "EU Ecolabel User Manual for Detergents and Cleaning Products (Version 1.5, February 2024) — guidance supporting Commission Decisions (EU) 2017/1214, 2017/1215, 2017/1216, 2017/1217, 2017/1218 and 2017/1219",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "[[metals/silver]]"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ec2024-eu-ecolabel-user-manual-detergents",
+        "content_pin": {
+          "content_sha256": "ca19713882924ee2263d1f07ec17962a7ecf4bc3ebbd429dc05dbf196f4db484",
+          "content_bytes": 47517,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/ec2024-eu-ecolabel-user-manual-detergents.md | sha256sum"
         }
       },
       {
@@ -67,12 +132,191 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ecetoc1992-tr045-ni-co-cr-consumer-products",
         "content_pin": {
-          "content_sha256": "346ea13869cd274f66f4e4c4e776b3cba12307ae82dd1f82a6dccd3549d02fca",
-          "content_bytes": 28293,
-          "last_commit_sha": "c036da0",
-          "last_commit_date": "2026-06-02",
+          "content_sha256": "2d8e14cfe2ed08cb6bf02f08b3e0c870714f5531b904de664dc1e7e19bb1d93c",
+          "content_bytes": 27459,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c036da0:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+          "verify_command": "git show 8707c66:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/epa2024-safer-choice-master-criteria-ingredients",
+        "title": "EPA's Safer Choice Program — Master Criteria for Safer Ingredients (Version 2.1, October 2024)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/epa2024-safer-choice-master-criteria-ingredients",
+        "content_pin": {
+          "content_sha256": "2b55e6116b3ed22d3d3a21a0a406ce3f200741c695998df847bd59c2635b760e",
+          "content_bytes": 28622,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/epa2024-safer-choice-master-criteria-ingredients.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/epa2024-safer-choice-standard-dfe",
+        "title": "EPA's Safer Choice and Design for the Environment (DfE) Standard (August 2024)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Hg",
+          "Cr-VI"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/epa2024-safer-choice-standard-dfe",
+        "content_pin": {
+          "content_sha256": "ca4d4415f8ff15977fbefb1eae9af494470802e28f81863f6795d0d7eeb5e1d9",
+          "content_bytes": 31276,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/epa2024-safer-choice-standard-dfe.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/iwegbue2019-household-hygienic-products-nigeria",
+        "title": "Risk of human exposure to metals in some household hygienic products in Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cr",
+          "Cu",
+          "Co",
+          "Ni",
+          "Mn",
+          "Zn",
+          "Fe"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/iwegbue2019-household-hygienic-products-nigeria",
+        "content_pin": {
+          "content_sha256": "ab7a1dc6ce622f7bf2848d5ae168c38c85d359e424ebbc9294d736752da451ff",
+          "content_bytes": 30611,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/iwegbue2019-household-hygienic-products-nigeria.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2",
+        "title": "Revision of the EU Ecolabel criteria for Detergent and Cleaning Products — 2nd Ad-hoc Working Group Meeting (12-13 March 2025), Technical Report 2 (TR2) consultation deck",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "[[metals/mercury]]"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2",
+        "content_pin": {
+          "content_sha256": "10d4c40da9900c51cc2b5d2d8453dabca87234573083c1eaae39f2b8ba14c5cb",
+          "content_bytes": 45475,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nydec2020-cleansing-product-disclosure-bmp",
+        "title": "Cleansing Product Information Disclosure Program — Recommended Best Management Practices",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Cr-VI",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
+        "content_pin": {
+          "content_sha256": "ace30203933264826c3a541fc4cd0f4499bd2f6aea4059b51f625affd77c9426",
+          "content_bytes": 47811,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ral2024-eu-ecolabel-factsheet-household-detergents",
+        "title": "The EU Ecolabel for household detergents — The EU Ecolabel is the official European Union label for environmental excellence",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/ral2024-eu-ecolabel-factsheet-household-detergents",
+        "content_pin": {
+          "content_sha256": "224e9622f1abfd684de2871d7eb99c929a475573b1b83eed21ab2cab45415efe",
+          "content_bytes": 24330,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/ral2024-eu-ecolabel-factsheet-household-detergents.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
+        "title": "Sources of contaminants in domestic wastewater: nutrients and additional elements from household products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sb",
+          "Cr",
+          "Co",
+          "Mo",
+          "Se"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
+        "content_pin": {
+          "content_sha256": "56e6dc9dc486544c8ee7777737a7f3307a7a299b9dd853cf6dfb7b780df4483d",
+          "content_bytes": 30461,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/torres2024-soap-detergent-heavy-metals-brazil",
+        "title": "Potentially Toxic Elements in Commercial Soap and Powder Detergent Samples",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Zn",
+          "Mg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/torres2024-soap-detergent-heavy-metals-brazil",
+        "content_pin": {
+          "content_sha256": "79637437f729e822f5fcad58c684c50befc678d291d885acb30d270acdbf075c",
+          "content_bytes": 13821,
+          "last_commit_sha": "8707c66",
+          "last_commit_date": "2026-06-05",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8707c66:wiki/sources/torres2024-soap-detergent-heavy-metals-brazil.md | sha256sum"
         }
       }
     ]

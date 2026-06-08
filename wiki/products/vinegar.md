@@ -11,11 +11,18 @@ exposure_pathway: "Ingestion (oral, typically small serving sizes)"
 regulatory_jurisdiction: "FDA, EU, Codex"
 panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
-products_status: scaffold
-splits_locked: false
+products_status: locked
+splits_locked: true
 sources: 10
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-06-02
+variant_type: independent
+step0_lock_date: 2026-06-02
+step0_lock_doc: docs/governance/category-7-step0-lock.md
+step0_basis: "literature-baseline (Pb); regulatory-alignment (tAs·Cd·tHg·Ni·Cr·Al·Sn)"
+step0_confidence: medium
+across_row_review_hook: "ACTIVE: balsamic carries elevated Pb/As — review for balsamic split"
+primary_metals_of_concern: [Pb, tAs, Cd]
 ---
 # Vinegar
 
@@ -51,7 +58,19 @@ The applicable regulatory jurisdictions for this row are: **FDA, EU, Codex**.
 ## Literature Evidence Summary
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-*Pending ingest. The routing layer will surface direct-row-fit sources here as they are added to the corpus with `products: [vinegar]` in source-page frontmatter.*
+## Literature Evidence Summary
+
+<!-- audience: regulator, educator, consumer, app -->
+
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Vinegar. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
+
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | Vinegar (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/arsenic-total\|tAs]] | Vinegar (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Vinegar (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -119,9 +138,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

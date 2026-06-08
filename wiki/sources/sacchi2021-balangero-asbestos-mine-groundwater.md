@@ -150,3 +150,16 @@ Missing-regulation-slug proposals (surfaced for Karen, not auto-created per Part
 - **Check 1 ⚠️ Table 4 column-shift caveat overstatement.** Audit subagent flagged that the Verification-notes paragraph claiming the printed Table 4 has "Cr-VI mean (6.979) and Cr-VI median (3.1) shifted relative to the Co column header" overstates the case and reads the Co row in a way that does not match the source. Verified independently by re-reading PDF p.13 Table 4 and its surrounding text: the source's own narrative on p.13 already says "Concerning Co, the statistics are not relevant as this element shows only two measurements > LOD, both from the same MS", which is the correct anchor for the Co caveat. Rewrote the Table 4 caveat to cite this source statement directly and removed the column-shift speculation. The Co=not-quantifiable conclusion is preserved; the disputed mechanism explanation is removed.
 
 - **Check 2 ⚠️ Two regulation wikilinks not in taxonomy snapshot.** Audit subagent flagged that `[[regulations/italian-groundwater-quality-thresholds]]` and `[[regulations/eu-groundwater-directive-2006-118-ec]]` were listed under "Wiki pages this source may touch" but neither slug exists in `wiki/regulations/` and neither is in the taxonomy snapshot. Verified by listing `wiki/regulations/`: confirmed both are absent (existing groundwater-adjacent regulations are EPA arsenic MCL and EU drinking-water/contaminants regs only). Removed both wikilinks from the page body and added a "Missing-regulation-slug proposals" subsection in Verification notes surfacing the two regulations (D.Lgs. 152/2006 Allegato 5 and EU Groundwater Directive 2006/118/EC) for Karen's review per Part 10 regulation Step 0 Lock.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [0377ad4](https://github.com/paleofoundation/heavymetalindex/commit/0377ad4) | 2026-06-03 | audit: sacchi2021-balangero-asbestos-mine-groundwater revised |
+| [1cd4db4](https://github.com/paleofoundation/heavymetalindex/commit/1cd4db4) | 2026-06-03 | ingest: sacchi2021-balangero-asbestos-mine-groundwater fresh from Manual Fetch Kimi /June 2 Manual Fetches |
+<!-- END: hmi-page-history -->

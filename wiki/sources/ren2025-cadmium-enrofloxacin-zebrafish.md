@@ -112,3 +112,17 @@ Limitations the authors acknowledge: exposure concentrations are higher than typ
 - No brand names attached to contamination values (per Part 12). Scientific instrument/reagent vendor names retained per the Exception 2 carve-out: Agilent 7800 ICP-MS, Agilent 1290-6470A UHPLC-MS/MS, CEM Mars 6 microwave digestion, Sorvall Legend Micro 21R, Thermo Fisher Multiskan GO, Nanjing Jiancheng Bioengineering Institute assay kits, Shanghai Macklin Biochemical Co., Tianjin Komiou Chemical Reagent Co., Sinopharm Chemical Reagent Co., Shanghai Hongye Ornamental Fish Farm, Sangon Biotech, Illumina NextSeq2000, Majorbio Cloud Platform, SILVA v138, SPSS 2019, Origin 2020.
 - Cite key derived from first author + year + topic (Ren + 2025 + cadmium-enrofloxacin-zebrafish). No triage-manifest cite key was pre-populated.
 - Jurisdiction: CN (Guizhou University and Guizhou Academy of Testing and Analysis, Guiyang). Funding/approval at Guizhou Provincial Analytical Testing Research Institute (Approval No. BMY-ZY-202402).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [944248a](https://github.com/paleofoundation/heavymetalindex/commit/944248a) | 2026-06-02 | audit: ren2025-cadmium-enrofloxacin-zebrafish revised |
+| [fb09f4d](https://github.com/paleofoundation/heavymetalindex/commit/fb09f4d) | 2026-06-02 | ingest: ren2025-cadmium-enrofloxacin-zebrafish fresh from Manual Fetch Kimi/June 2 Manual Fetches |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+<!-- END: hmi-page-history -->

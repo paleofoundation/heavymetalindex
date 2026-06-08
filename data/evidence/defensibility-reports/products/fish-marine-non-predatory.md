@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-marine-non-predatory.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 25d51b9890e38c1e3c5d11e8ba0c076aa54eb345c962eedde659e473e72a4b12
-total_claims: 0
+source_page_sha256: 40bd7842a89b4cbf4675143753e5f85dc2d9e2d4cd812c075cdf9321091fc004
+total_claims: 1
 cited_claims: 0
-uncited_claims: 0
+uncited_claims: 1
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 0
+audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 635
+audit_log_total_rows: 789
 noindex: true
 ---
 
@@ -29,28 +29,32 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
+| total claims | 1 |
 | cited claims | 0 |
-| uncited claims | 0 |
+| uncited claims | 1 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 0 |
+| audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 635 |
+| audit log rows read | 789 |
 
 ## Page-level audit rows
 
-_No audit rows reference this page directly._
-
-This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
+- `edit_id=cat6-step0-lock-fish-marine-non-predatory-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat6-step0-lock
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `50 ppb`
+- Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 50 ppb | 0 | data gap | Basis not report`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `50 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 50 ppb | 0 | data gap | Basis not report`
 
 ## Defensibility chain — distinct cited targets
 

@@ -59,3 +59,15 @@ App: Route as broad global spice lead context with explicit market/geography fla
 - The 1,084 spice samples are part of a wider consumer-product screening study. This source page captures the spice-specific numbers and does not route foodware, toys, paints, or cosmetics as food-occurrence evidence.
 - Values are total lead by portable XRF. The paper notes stronger XRF/lab correlation for powdered spices than for some other consumer-product types, but it does not provide full laboratory-confirmed sample-level spice data.
 - The country percentages in Table 3 are exceedance rates above the source's 2 ppm reference level, not country prevalence estimates; some country/product cells are based on five or fewer samples.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [cc26126](https://github.com/paleofoundation/heavymetalindex/commit/cc26126) | 2026-06-03 | ingest auto-fetched 2026-06-03: sargsyan2024-rapid-market-spice-lead |
+<!-- END: hmi-page-history -->

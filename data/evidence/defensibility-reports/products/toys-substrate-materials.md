@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-substrate-materials.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d65f645af71aac04352f8e67d09cc3ed32c23174cdaf8113513cc9bba37a56be
+source_page_sha256: 4ebe0409b22968a663e24bb1c6b4406305265fbc541d8ee074f56dc6aa631431
 total_claims: 2
 cited_claims: 2
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 23
 distinct_cited_sources: 23
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 635
+audit_log_total_rows: 789
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 23 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 635 |
+| audit log rows read | 789 |
 
 ## Page-level audit rows
 

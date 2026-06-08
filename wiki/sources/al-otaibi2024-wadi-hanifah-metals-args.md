@@ -108,7 +108,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [bf58886](https://github.com/paleofoundation/heavymetalindex/commit/bf58886) | 2026-06-02 | audit: al-otaibi2024-wadi-hanifah-metals-args revised |
 | [68e8029](https://github.com/paleofoundation/heavymetalindex/commit/68e8029) | 2026-06-02 | ingest: al-otaibi2024-wadi-hanifah-metals-args enhanced from Manual Fetch Kimi /June 2 Manual Fetches |
-| [24ab1a9](https://github.com/paleofoundation/heavymetalindex/commit/24ab1a9) | 2026-06-02 | ingest June 2: al-otaibi2024-wadi-hanifah-metals-args |
 <!-- END: hmi-page-history -->

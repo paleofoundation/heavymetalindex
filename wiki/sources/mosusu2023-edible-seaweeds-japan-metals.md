@@ -70,3 +70,13 @@ The source provides geographic-origin signal for Kombu and Wakame consumed in Ja
 - Numerical values: none in the abstract; the Key numbers table records only the qualitative ranking statements the source actually makes.
 - Audit subagent (2026-06-04) flagged `matrices: [edible-seaweed, macroalgae, kelp, dry-weight]` for vocabulary verification (⚠️). Verified against existing corpus: all four slugs are in active use across `wiki/sources/*.md` — `dry-weight` appears alongside `red-seaweed` in `aziz2021-gracilaria-seaweed-bangladesh.md`; `edible-seaweed`, `macroalgae`, and `kelp` each appear across multiple source pages. The basis-vs-matrix critique on `dry-weight` is structurally valid but reflects established Heavy Metal Index convention rather than a defect of this page. No correction applied; finding logged as false positive against current corpus convention.
 - Audit subagent (2026-06-04) recommended adding `## Wiki pages this source may touch` section. Declined: the v2.0 ingest skill (line 92, `docs/ingest-workflows`) explicitly treats `## Wiki pages updated on ingest` as a legacy heading; the routing layer (Part 5b of CLAUDE.md) is now the system's responsibility, not the source page's. Recommendation logged as false positive against current architecture.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

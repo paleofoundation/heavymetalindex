@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-stuffing-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5652da0534c175dc12c64f94bd68b3ffb5b36e6f553648df59110e7230fb8337",
+      "content_sha256": "2b868adb2a1adb29e37b31c58acd6efe64fe9a3d6cabb45f5d4293ad0fef0fc3",
       "content_bytes": 7266,
-      "last_commit_sha": "566c7b2",
-      "last_commit_date": "2026-06-02",
+      "last_commit_sha": "8707c66",
+      "last_commit_date": "2026-06-05",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 566c7b2:wiki/products/toys-stuffing-materials.md | sha256sum"
+      "verify_command": "git show 8707c66:wiki/products/toys-stuffing-materials.md | sha256sum"
     }
   },
   "evidence_base": {

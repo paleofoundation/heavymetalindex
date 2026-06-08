@@ -881,3 +881,6 @@
 {"ts":"2026-06-08T13:44:24.053Z","actor":"frank-opus","cite_key":"wang2022-therapeutic-peptides-review","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T14:26:24.872Z","actor":"discover-autopilot","cite_key":"","status":"discovered","source_path":"wiki/products/flavored-waters.md","commit":"","blocker":"","next":"awaiting-ingest:Manual Fetch Discovery (2 PDF)"}
 {"ts":"2026-06-08T14:51:58.775Z","actor":"frank-opus","cite_key":"bishop2004-amyloid-metal-paradox","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T15:29:30.817Z","actor":"frank-opus","cite_key":"nagel1989-cadmium-resistant-chlamydomonas","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T15:44:22.923Z","actor":"frank-opus","cite_key":"garrity1990-mt1-tissue-specific-promoter","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T15:56:31.215Z","actor":"frank-opus","cite_key":"schett1998-hsp70-hsf1-rheumatoid-synovial","status":"ingested","source_path":"","commit":"","blocker":"","next":""}

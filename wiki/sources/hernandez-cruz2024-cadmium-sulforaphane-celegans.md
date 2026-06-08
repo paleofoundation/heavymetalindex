@@ -96,7 +96,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [80150df](https://github.com/paleofoundation/heavymetalindex/commit/80150df) | 2026-06-02 | audit: hernandez-cruz2024-cadmium-sulforaphane-celegans promoted |
 | [f4c9c11](https://github.com/paleofoundation/heavymetalindex/commit/f4c9c11) | 2026-06-02 | ingest: hernandez-cruz2024-cadmium-sulforaphane-celegans enhanced from Manual Fetch Kimi /June 2 Manual Fetches |
-| [c6649eb](https://github.com/paleofoundation/heavymetalindex/commit/c6649eb) | 2026-06-02 | ingest June 2: hernandez-cruz2024-cadmium-sulforaphane-celegans |
 <!-- END: hmi-page-history -->

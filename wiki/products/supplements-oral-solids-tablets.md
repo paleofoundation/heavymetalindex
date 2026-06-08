@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 1
+sources: 2
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -100,7 +100,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/brzezinska-rojek2023-beetroot-supplements-safety\|Brzezinska-Rojek et al. 2023]]. *Evaluation of the Safety and Potential Benefits of Beetroot-Based Dietary Supplements According to Their Elemental Composition*, Biological Trace Element Research (published online 7 October 2023) | 2023 | Peer-reviewed | PL Cd, Pb, Al occurrence in 37 beetroot-based dietary supplements (10 tablets, 14 capsules, 13 powders) from Polish market (online and in-person shops); products... (n=37) |
+| 1 | [[sources/sochacka2025-spirulina-chlorella-supplements-poland\|Sochacka et al. 2025]]. *Spirulina and Chlorella Dietary Supplements—Are They a Source Solely of Valuable Nutrients?*, International Journal of Molecular Sciences | 2025 | Peer-reviewed | PL/EU Al, Ba, Cd, Co, Cr, Cs, Cu, Ga, Mn, Mo, Ni, Pb, Rb, Sr, Tl, V, Zn occurrence in 52 commercially available microalgae-based dietary supplements sold on the Polish market: 29 Spirulina (Spirulina platensis) products and 23... (n=52) |
+| 2 | [[sources/brzezinska-rojek2023-beetroot-supplements-safety\|Brzezinska-Rojek et al. 2023]]. *Evaluation of the Safety and Potential Benefits of Beetroot-Based Dietary Supplements According to Their Elemental Composition*, Biological Trace Element Research (published online 7 October 2023) | 2023 | Peer-reviewed | PL Cd, Pb, Al occurrence in 37 beetroot-based dietary supplements (10 tablets, 14 capsules, 13 powders) from Polish market (online and in-person shops); products... (n=37) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -110,9 +111,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

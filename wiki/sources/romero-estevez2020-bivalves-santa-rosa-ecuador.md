@@ -163,3 +163,16 @@ For routing purposes, the source belongs to bivalve-molluscs, shellfish, and sea
   - Check 1 — Cr accuracy upper bound at *A. similis* E3 "Playa al otro lado": prior version recorded **100.11**; verified against PDF p. 5, Table 1 — the Cr accuracy column reads "91.01–100.00". Corrected to **100.00**.
   - Check 3 — Methods terminology: prior version said "in-house natural-flour method"; verified against PDF p. 4 — the paper reads "natural food method validated for its use in plant tissues (Romero-Estévez et al., 2019)". Corrected to "natural food method".
   - Check 2 — Routing destinations: prior version omitted `[[regulations/codex-cadmium-mls]]`; the paper explicitly cites the FAO/WHO Codex CXS 193 Cd 2.0 mg/kg fresh-weight bivalve threshold on p. 2. Added.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [aa68e07](https://github.com/paleofoundation/heavymetalindex/commit/aa68e07) | 2026-06-03 | feat(routing): clear remaining Check-3 backlog — 5 broad pages fanned to locked rows |
+| [978b4f8](https://github.com/paleofoundation/heavymetalindex/commit/978b4f8) | 2026-06-03 | ingest: romero-estevez2020-bivalves-santa-rosa-ecuador fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish |
+<!-- END: hmi-page-history -->

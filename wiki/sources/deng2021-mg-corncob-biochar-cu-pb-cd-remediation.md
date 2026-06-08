@@ -113,3 +113,15 @@ The source measured aqueous solutions of Cu(II), Cd(II), and Pb(II) prepared as 
 The `matrices` slugs (`biochar`, `aqueous-sorption-test`, `wastewater-remediation`) follow the convention established for the existing remediation-context sources (e.g., [[sources/wang2020-lignin-residue-biochar-heavy-metal-remediation]]) and are remediation-domain proposals outside the project's current food-matrix controlled vocabulary. The routing audit may flag empty `products`/`ingredients` as advisory; this reflects the genuine non-food scope of the study, not a defect.
 
 Methods-section vendor and instrument names (Vario Macro Cube, PerkinElmer Optima 8000, Quadrasorb 2MP, Nicolet iS20, ZEISS Evo18 500, PANalytical X'Pert Powder, Esclab 250Xi) are retained per the Part 12 brand-firewall Exception 2 (scientific-method vendor/material names locked 2026-05-17).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [54cf1a3](https://github.com/paleofoundation/heavymetalindex/commit/54cf1a3) | 2026-06-03 | ingest: deng2021-mg-corncob-biochar-cu-pb-cd-remediation fresh from Manual Fetch Kimi /June 2 Manual Fetches |
+<!-- END: hmi-page-history -->
