@@ -18,9 +18,9 @@ matrices: ["leafy-vegetables", "bitter-leaf", "garden-egg-leaf", "amaranth"]
 jurisdictions: ["NG"]
 sample_population: "Ten composite samples from six leafy vegetable types in Ondo Metropolis, Nigeria"
 wiki_doi: null
-sampling_locations: []
-sampling_year_range: null
-updated: 2026-05-25
+sampling_locations: ["Ondo Metropolis, Ondo State, Nigeria"]
+sampling_year_range: "September 2018"
+updated: 2026-06-08
 ---
 
 # Osuolale et al. 2025 - Leafy vegetables in Ondo, Nigeria
@@ -31,17 +31,17 @@ This study measured trace elements in commonly consumed leafy vegetables from On
 
 Source units are mg/kg dry weight.
 
-- Sample frame: ten composite samples from six vegetables: Vernonia amygdalina, Talinum triangulare, Solanum macrocarpon, Amaranthus hybridus, Telfairia occidentalis, and Solanecio biafrae.
-- Ni detected in 60% of samples; range 0.4-6.4; mean 2.3 +/- 2.1; median 1.6.
+- Sample frame: ten composite samples collected September 2018 (late wet season) from six vegetables: Bitter Leaf (Vernonia amygdalina), Waterleaf (Talinum triangulare), Garden Egg Leaf (Solanum macrocarpon), African Spinach (Amaranthus hybridus), Fluted Pumpkin Leaf (Telfairia occidentalis), and Worowo (Solanecio biafrae).
+- Ni detected in 60% of samples; range 0.4-6.4; mean 2.3 +/- 2.1; median 1.6. Per the Table 2 footnote, the Ni mean and statistics are calculated only over the detected subset (n=6), not over the full ten-sample frame.
 - Co was present in all samples; range 0.8-6.1; mean 3.0 +/- 1.8; median 3.2.
-- Cd range 0.029-0.049; mean 0.038 +/- 0.007.
+- Cd range 0.029-0.049; mean 0.038 +/- 0.007; median 0.036.
 - Pb was below LOD in the summarized table.
-- Bitter leaf and garden egg leaf were identified as higher accumulators for Co and Ni.
-- Health-risk assessment reported THQ > 1 for Ni through Vernonia amygdalina consumption.
+- Bitter leaf and garden egg leaf were identified as higher accumulators for Co and Ni; the paper reports that median Ni in Bitter Leaf was approximately five times that in African Spinach.
+- Health-risk assessment using the highest mean concentration in Vernonia amygdalina as the worst-case (FIR 150 g/day, BW 70 kg, RfD Ni 0.02 mg/kg/day, RfD Co 0.0003 mg/kg/day) gave THQ 1.17 for Ni and 0.04 for Co, with Hazard Index 1.21.
 
 ## Methods
 
-Samples were dried, ground, pelletized, and analyzed by proton induced X-ray emission (PIXE). Reported LODs included Co 0.2 mg/kg, Ni 0.3 mg/kg, Cd 0.02 mg/kg, and Pb 0.1 mg/kg.
+Samples were oven-dried at 60 C, pulverized with an agate mortar, sieved through a 2 mm stainless steel sieve, and pressed into 13 mm pellets without binders. PIXE was performed at the Centre for Energy Research and Development, Obafemi Awolowo University, Ile-Ife, using a 2.5 MeV proton beam and a Si(Li) detector. Quality control used NIST SRM 1573a (Tomato Leaves) and IAEA V-10 (Hay Powder), with reported recoveries of 85-110% and RSD below 10%. Reported LODs included Co 0.2 mg/kg, Ni 0.3 mg/kg, Cd 0.02 mg/kg, and Pb 0.1 mg/kg. Below-LOD values were imputed as LOD/sqrt(2) for statistical work.
 
 ## Implications
 
