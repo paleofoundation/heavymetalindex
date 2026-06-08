@@ -1,37 +1,46 @@
 # Manual-fetch ingest progress — June 8 Inorganic Arsenic Seaweed
 
 **Folder:** `raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/`
-**Date:** 2026-06-08
-**Session:** Claude Code (Opus 4.8), interactive
-**Purpose:** ingest this folder to populate HMTc Category 6 (Seafood) Row 5 `seaweed-kelp-foods` (iAs/tAs/Cd platform) for standards-setting.
+**Date:** 2026-06-08 (updated through 10/67)
+**Session:** Claude Code (Opus 4.8), interactive, driven via a self-paced `/loop` of `ingest-next-manual-fetch-pdf`
+**Purpose:** populate HMTc Category 6 (Seafood) Row 5 `seaweed-kelp-foods` (iAs/tAs/Cd platform) for standards-setting.
 
 ## Folder inventory
 
-68 PDF files; 67 unique papers (one in-folder duplicate: `10.1016@j.fct.2011.11.024.pdf` and `…(1).pdf`). One likely corpus duplicate: `llorente-mirandes2016.pdf` ↔ existing `llorente-mirandes2016-ias-food-analytical-review` (verify on reach).
+68 PDFs; 67 unique papers (one in-folder duplicate: `…fct.2011.11.024.pdf` and `…(1).pdf`). One likely corpus duplicate to verify on reach: `llorente-mirandes2016.pdf` ↔ existing `llorente-mirandes2016-ias-food-analytical-review`.
 
-## Completed this session (3) — all audited PROMOTE, routing direct_evidence to seaweed-kelp-foods
+## Completed: 10 of 67 — all routed `direct_evidence` → `seaweed-kelp-foods`, all audited (fresh-context subagent per page)
 
-| cite_key | tier | metals | n | headline | ingest commit | audit |
-|---|---|---|---|---|---|---|
-| almela2002-algae-food-arsenic-metals | A | tAs,iAs,Pb,Cd,tHg | 18 | edible algae food products (Spain), dry wt; hijiki iAs 83–88 mg/kg (60–72% of tAs); Cd ≤1.9 | 0bb8e85 | PROMOTE (43b3c40) |
-| rose2007-seaweed-arsenic-forms-uk | A | tAs,iAs | 31 | UK FSA survey; iAs hijiki-only 67–96 mg/kg as sold; as-sold/prepared/water bases | 95b689d | PROMOTE→revised (c5a5510, b2bb901) — 30→"30-50-fold" exposure fix applied |
-| fsanz2012-seaweed-inorganic-arsenic-au | A | iAs | 38 | FSANZ gov-survey; iAs dried basis; hijiki 7.80 mg/kg sole ML exceedance | fdd6098 | PROMOTE (b7de8bd) |
+| # | cite_key | tier | type | headline (dry-weight basis) | audit |
+|---|---|---|---|---|---|
+| 1 | almela2002-algae-food-arsenic-metals | A | occurrence | 18 algae food products (ES); tAs+iAs+Pb+Cd+Hg; hijiki iAs 83–88 mg/kg | PROMOTE |
+| 2 | rose2007-seaweed-arsenic-forms-uk | A | occurrence | UK FSA; iAs hijiki-only 67–96 mg/kg; n=31; as-sold/prepared/water | revised |
+| 3 | fsanz2012-seaweed-inorganic-arsenic-au | A | gov-survey | FSANZ; iAs dried; hijiki 7.80 mg/kg sole ML exceedance; n=38 | PROMOTE |
+| 4 | ronan2017-laminaria-ascophyllum-ias-ireland | A | occurrence/speciation | kelp *L. digitata* iAs 2.2–87 mg/kg (>50% of tAs); *A. nodosum* iAs <1% | revised |
+| 5 | taylor2016-new-england-seaweed-arsenic | A | occurrence/speciation | 20 NE-US species; *L. digitata* iAs 2.8–20.4 mg/kg; others <1 mg/kg | revised |
+| 6 | llorente-mirandes2011-commercial-seaweed-arsenic | A | occurrence/speciation | 6 ES products; iAs <LOD in kombu (*L. ochroleuca/saccharina*) + nori | revised |
+| 7 | camurati2019-edible-macroalgae-arsenic-review | B | review | corroborates iAs rarely >1 mg/kg except hijiki + *L. digitata*; legislation | revised |
+| 8 | narukawa2020-hijiki-crm-arsenosugars-interlab | A | CRM/metrology | hijiki iAs(as As(V)) 10.1 (CRM 7405-a) / 24.4 mg/kg (candidate); EF-3 flag | PROMOTE |
+| 9 | lynch2014-inorganic-arsenic-food-review | B | meta-analysis | seaweed inAs mean 11,000 µg/kg (n=312); NOT poolable (aggregate) | revised |
+| 10 | luvonga2020-organoarsenicals-marine-methods-review | B | methods review | speciation methods; total As inadequate; seaweed extraction caveats | revised |
 
-All three independently re-verified table-by-table by fresh-context audit subagents. The recurring, cross-source structural finding: inorganic arsenic in wakame/kombu/nori/arame/sea-vegetable clusters low (≈0.09–0.57 mg/kg dw), while **hijiki/*Hizikia*/*Sargassum fusiforme* is a categorical outlier** (67–96 mg/kg dw speciated; 7.80 mg/kg in the FSANZ composite). This directly supports the within-row hijiki species sub-split flagged in `docs/governance/category-6-step0-lock.md`.
+## Emerging row finding (for the standards / synthesis pass)
 
-## Stop reason
+Across primary occurrence sources from Spain, UK, Australia/NZ, Ireland, and the US, the row's structure is consistent and well-supported: **inorganic arsenic in seaweed is generally <1 mg/kg dw, with two high-iAs exceptions — hijiki (*Hizikia/Sargassum fusiforme*) and the kelp *Laminaria digitata*.** The kombu-marketed kelps *L. ochroleuca* / *L. saccharina* (Saccharina) ran iAs-below-detection (Llorente-Mirandes 2011), so the high-iAs concern is species-specific, not generic to "kombu." This directly supports the within-row hijiki/*Laminaria* clean/dirty sub-treatment flagged in `docs/governance/category-6-step0-lock.md`.
 
-Context-budget checkpoint after the three highest-value occurrence/speciation surveys. Not a defect or contradiction stop.
+## Pooling guidance recorded on the pages
 
-## Remaining work (~64 papers)
+- Poolable market-occurrence primaries so far: almela2002, rose2007, fsanz2012, ronan2017, taylor2016, llorente-mirandes2011 (all dry, as-sold basis).
+- NOT poolable (flagged on-page): narukawa2020 (reference materials, EF-3), lynch2014 (meta-analysis aggregate — would double-count), camurati2019 & luvonga2020 (reviews, no primary data).
 
-Priority order for the remainder (occurrence first, since that feeds the P97):
-- **High (occurrence/speciation surveys):** ronan2017 (kelp iAs), llorente-mirandes2011 (iAs edible algae), lynch2014, taylor2016, camurati2019, hata2014, narukawa2020, luvonga2020, almela-2006-equivalent (`s12403-025-00708-1`, `s00216-024-05250-8`, `molecules-29-01348`, `1-s2.0-S0147651325007936`), the EFSA 2021 iAs opinion (large, regulatory A-tier exposure anchor), `Knowledgeupdateonmacroalgaefoodandfeedsafety2020`, `Arsenic in Marine Macroalgae Booklet v2`.
-- **Method-development (HPLC-ICP-MS speciation; capture LOD/LOQ + any validation occurrence):** the `10.1016@j.chroma…`/`j.aca…` papers, mcsheehy2000, nischwitz2006, vanhulle2004, vanelteren2007, narukawa2020, ichikawa2006/2010, shimoda2010.
-- **Mechanism/metabolism/uptake (lower occurrence value):** effects-of-dietary-intake-of-arsenosugars, Neff_1997 marine As toxicology (review), bolan2017, bhattacharya2016.
-- **Check matrix-fit before ingest (possible out-of-scope):** `Heavy-metal-accumulation…seagrass` (seagrass ≠ edible macroalgae), `Characteristics…organotin compounds in marine organisms` (Sn/organotin focus), `water-16-00005`.
-- **Likely scanned (may need OCR):** morita1990, yamaoka1986, stoeppler1986, toxic_elements_Pacin.
+## Remaining (~57)
 
-## Next gate after ingest (to actually ship the Cat 6 seaweed standard)
+Priority occurrence/speciation still to do: hata2014 (hijiki), the recent ones (`s12403-025-00708-1`, `s00216-024-05250-8`, `molecules-29-01348`, `1-s2.0-S0147651325007936`), `Survey of inorganic arsenic in seaweed` (done = fsanz), the EFSA 2021 iAs opinion (large, A-tier exposure anchor), `Knowledgeupdateonmacroalgaefoodandfeedsafety2020`, `Arsenic in Marine Macroalgae Booklet v2`. Method-development papers (chroma/aca/mcsheehy/nischwitz/vanhulle/vanelteren/ichikawa/shimoda). Mechanism/uptake (effects-of-dietary-intake-of-arsenosugars, Neff_1997, bolan2017, bhattacharya2016). Matrix-fit check before ingest: `Heavy-metal-accumulation…seagrass` (seagrass ≠ macroalgae), `Characteristics…organotin` (Sn focus), `water-16-00005`. Likely scanned/OCR: morita1990, yamaoka1986, stoeppler1986, toxic_elements_Pacin.
 
-Ingest produces source pages; the P97 comes from the occurrence-extraction → pooling pass per `docs/tasks/cat6-7-occurrence-extraction.md`, scoped to `row_slug = seaweed-kelp-foods`. Result lands in `data/evidence/hmtc_aggregate_distributions.csv`.
+## Next gate after ingest (to ship the Cat 6 seaweed standard)
+
+Occurrence-extraction → pooling per `docs/tasks/cat6-7-occurrence-extraction.md`, scoped to `row_slug = seaweed-kelp-foods`, using ONLY the poolable primaries above. Result → `data/evidence/hmtc_aggregate_distributions.csv` (P97, cap, final, rationale). The occurrence core is already strong enough to run a preliminary seaweed P97 if desired, while the loop drains the remainder.
+
+## Live tracker
+
+Authoritative per-paper status is in `data/evidence/audit-queue.csv` (one row per cite_key); git log has one ingest commit + one audit/queue commit per paper.
