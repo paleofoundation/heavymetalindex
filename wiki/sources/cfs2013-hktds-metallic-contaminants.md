@@ -20,6 +20,9 @@ duplicate_filesystem_copies:
   - path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf"
     sha256: "f87da014f81ceae5a964f8df6b5b7274bb2da1c805a1f7466cc27359b51d1f6c"
     note: "Byte-identical copy of the canonical raw_path; Kimi agent also filed the 1st HKTDS Metallic Contaminants report PDF in the seafood/marine-nonpredatory subfolder of the corruption-issue folder tree, presumably because the report's MeHg-in-fish chapter and seafood food-group tables are topically relevant. Recorded 2026-06-03 so future manual-fetch identity-check cycles recognize this third Kimi-folder location as already-ingested."
+  - path: "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf"
+    sha256: "f87da014f81ceae5a964f8df6b5b7274bb2da1c805a1f7466cc27359b51d1f6c"
+    note: "Byte-identical copy of the canonical raw_path; surfaced as a June 8 re-extraction batch under raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/ (vegetables-and-vegetable-products subfolder). Same sha256 as the canonical raw_path and the three previously-recorded duplicate locations. Recorded 2026-06-08 so future manual-fetch identity-check cycles recognize this fourth Kimi-folder location as already-ingested."
 metals: [Al, Sb, Cd, Pb, MeHg, Ni, Sn, V]
 ingredients: ["[[ingredients/cereals]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/vegetables]]", "[[ingredients/legumes]]", "[[ingredients/fruits]]", "[[ingredients/meat]]", "[[ingredients/seafood]]", "[[ingredients/eggs]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/beverages]]"]
 products: ["[[products/seafood]]", "[[products/fruit-juices-non-apple]]"]
@@ -32,7 +35,7 @@ sample_population: "Hong Kong general adult population aged 20-84; 150 TDS food 
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-06-03
+updated: 2026-06-08
 ---
 
 # CFS 2013 — First Hong Kong Total Diet Study: Metallic Contaminants
@@ -203,6 +206,7 @@ Merge-enhance pass 2026-05-20 from the original 2026-05-13 ingest:
 - Audit subagent (2026-05-20) flagged three ⚠️ items under Check 1 about item-level Al ranges (Chinese spinach, deep-fried dough, ear fungus/cake/fermented bean products) not visible in §3.7-3.8 chapter prose. Independently verified: all three sets of values are present in Appendix I Table A of the source PDF, which the auditor did not read. A genuine source-internal discrepancy was surfaced for Chinese spinach: §3.8 chapter prose says "range 25-35 mg/kg" while Appendix I Table A row says "mean 35, range 25-45 mg/kg". Resolution: the page now cites both numbers and tags item-level ranges as sourced from Appendix I Table A explicitly. No values changed; only sourcing made explicit. Audit verdict: PROMOTE (with minor wording revision applied).
 - 2026-06-02 byte-identical filesystem-copy enhancement: added `duplicate_filesystem_copies` block recording the second filesystem location of the canonical 1st HKTDS Metallic Contaminants report PDF at `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/HongKong_CFS_1st_HKTDS_Metallic_Contaminants.pdf` (sha256 `f87da014f81ceae5a964f8df6b5b7274bb2da1c805a1f7466cc27359b51d1f6c`, byte-identical to the canonical `raw_path` under `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/`). Kimi agent filed the same report PDF in two locations; both now resolve back to this canonical source page. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
 - 2026-06-03 byte-identical filesystem-copy enhancement: appended a third filesystem location to `duplicate_filesystem_copies` at `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf` (same sha256 `f87da014f81ceae5a964f8df6b5b7274bb2da1c805a1f7466cc27359b51d1f6c`, verified byte-identical via `shasum -a 256`). The Kimi agent filed the same 1st HKTDS Metallic Contaminants report PDF a third time, this time in the seafood/marine-nonpredatory subfolder — likely because the report's Chapter 7 (Methylmercury) and Chapter 5 (Cadmium) include fish/seafood food-group tables (oyster Cd 1,300 µg/kg, tuna MeHg 330 µg/kg, etc.). All three filesystem locations now resolve to this canonical source page so future manual-fetch identity-check cycles in any of the three Kimi-corruption subfolders skip re-ingest. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
+- 2026-06-08 byte-identical filesystem-copy enhancement: appended a fourth filesystem location to `duplicate_filesystem_copies` at `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf` (same sha256 `f87da014f81ceae5a964f8df6b5b7274bb2da1c805a1f7466cc27359b51d1f6c`, verified byte-identical via `shasum -a 256` against the canonical `raw_path` copy). Surfaced via a June 8 re-extraction batch placing the report PDF a fourth time under the vegetables-and-vegetable-products subfolder of the corruption-issue tree. All four filesystem locations now resolve to this canonical source page so future manual-fetch identity-check cycles in the June 8 batch skip re-ingest. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
 
 ## Wiki pages updated on ingest
 
@@ -233,9 +237,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
-| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [ac2c093](https://github.com/paleofoundation/heavymetalindex/commit/ac2c093) | 2026-06-03 | enhance: cfs2013-hktds-metallic-contaminants — third byte-identical Kimi-folder copy logged |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| [1e52d64](https://github.com/paleofoundation/heavymetalindex/commit/1e52d64) | 2026-06-02 | ingest: cfs2013-hktds-metallic-contaminants duplicate_filesystem_copies path from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared |
 <!-- END: hmi-page-history -->
