@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-cd_2023_10-14202-vetworld-2023-858-868.pdf"
 metals: ["Cd", "Pb", "tHg"]
 ingredients: ["[[ingredients/swordfish]]", "[[ingredients/fish]]"]
-products: ["[[products/seafood]]"]
+products: ["[[products/seafood]]", "[[products/fish-marine-predatory]]"]
 matrices: ["swordfish", "yellowfin-tuna"]
 jurisdictions: ["ID"]
 sample_population: "Fresh yellowfin tuna and swordfish from FAO zones 57 and 71 collected at Indonesian ports"
@@ -29,13 +29,17 @@ This study measured Cd, Pb, and Hg in fresh yellowfin tuna and swordfish caught 
 
 ## Key numbers
 
-- The abstract reports that none of the sampled yellowfin tuna or swordfish exceeded Indonesian National Standard or European Commission Regulation No. 1881/2006 threshold levels for Cd, Pb, or Hg.
-- The adult PTWI value for Pb in yellowfin tuna from the Indian Ocean was 0.0038 mg/kg, higher than the recommended standard cited by the authors.
-- Target hazard quotient and total target hazard quotient values were within the acceptable range according to the authors.
+- Total sample: 163 fresh fish — 40 yellowfin tuna and 36 swordfish from the Pacific Ocean (FAO Zone 71); 51 yellowfin tuna and 36 swordfish from the Indian Ocean (FAO Zone 57). Average weight 90 kg (yellowfin tuna) and 100 kg (swordfish). Values reported on wet-weight basis (mg/kg ww).
+- Yellowfin tuna Cd mean was 0.036 mg/kg in Pacific Ocean samples versus 0.020 mg/kg in Indian Ocean samples (approximately twofold higher in the Pacific, p < 0.05; Figure 2a).
+- Yellowfin tuna Pb and Hg means were higher in Pacific than Indian Ocean samples but not statistically significant (p > 0.05; Figures 2b–c). Swordfish Cd was higher in Pacific than Indian Ocean (p < 0.05; Figure 3a); swordfish Pb and Hg differences were not significant.
+- Table 1 ranges (mg/kg wet weight): *Thunnus albacares* Pacific Cd 0.006–0.387, Pb 0.024–0.189, Hg 0.100–0.352; Indian Cd 0.000–0.074, Pb 0.000–0.159, Hg 0.005–0.235. *Xiphias gladius* Pacific Cd 0.006–0.239, Pb 0.004–0.168, Hg 0.020–0.569; Indian Cd 0.000–0.185, Pb 0.000–0.120, Hg 0.025–0.442.
+- The abstract reports that none of the sampled yellowfin tuna or swordfish exceeded Indonesian National Standard (SNI) or European Commission Regulation No. 1881/2006 threshold levels for Cd, Pb, or Hg. Cited quality standards (mg/kg ww): SNI Cd 0.10, Pb 0.20, Hg 1.0; CR Cd 0.05, Pb 0.30, Hg 1.0.
+- The adult PTWI value for Pb in yellowfin tuna from the Indian Ocean was 0.0038 mg/kg, which exceeded the recommended PTWI of 0.0025 mg/kg for adults. The paper's Results-section text labels this same value as EWI (estimated weekly intake); the abstract labels it PTWI. Other age groups remained within the safe range.
+- Target hazard quotient and total target hazard quotient values were reported by the authors as within the acceptable range (less than 1) for both species across age groups, although the tabulated Table 6 and 7 values are presented in scientific notation orders of magnitude above 1; the abstract's "within acceptable range" claim is what is summarized here.
 
 ## Methods
 
-Fish were obtained from fishermen's catches in FAO Fishing Zone 57 and Zone 71, collected at Benoa Harbor and Bitung, and analyzed for Pb, Cd, and Hg by atomic absorption spectroscopy. The study also calculated EDI and THQ/TTHQ.
+A total of 163 yellowfin tuna and swordfish were obtained from fishermen's catches in FAO Fishing Zone 57 (Indian Ocean) and Zone 71 (Pacific Ocean) and collected at Benoa Harbor (Bali) and Bitung (North Sulawesi). Samples were stored at −32 °C, ground, and wet-destructed in a microwave with 8 mL of 65 % HNO₃ plus 2 mL of 2 % H₂O₂ per Indonesian National Standard method SNI 2354.5.2011, alongside a 0.25 g DORM Certified Reference Material control. Pb, Cd, and Hg were measured by atomic absorption spectroscopy at 283 nm, 288 nm, and 253 nm respectively (no inorganic-versus-organic speciation; Hg reported as total Hg). The study also calculated estimated daily intake (EDI), estimated weekly intake (EWI) / provisional tolerable weekly index (PTWI), and target hazard quotient / total target hazard quotient (THQ / TTHQ).
 
 ## Implications
 
@@ -46,14 +50,17 @@ This source supports seafood context for Indonesian tuna and swordfish export/co
 - [[ingredients/swordfish]]
 - [[ingredients/fish]]
 - [[products/seafood]]
+- [[products/fish-marine-predatory]]
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
+- [[regulations/eu-1881-2006-contaminants-superseded]]
 
 ## Verification notes
 
 - Source identity checked against DOI 10.14202/vetworld.2023.858-868 and the downloaded PDF.
 - The title uses "Hindian" in the source; this appears to mean Indian Ocean, but the source title is preserved as published.
+- Autonomous audit 2026-06-09 added the headline Cd Pacific-vs-Indian finding, Table 1 ranges, the 0.0025 mg/kg PTWI comparator, sample size, and CRM-DORM/wet-destruction methods detail; added `[[products/fish-marine-predatory]]` and `[[regulations/eu-1881-2006-contaminants-superseded]]` routing destinations. Audit also flagged `matrices: ["yellowfin-tuna"]` as not in the snapshot ingredient/product lists; rejected as a false positive — `matrices` uses a separate controlled-vocabulary bare-string field per the audit prompt itself, and `yellowfin-tuna` is the established matrix string used by five other tuna/swordfish source pages.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -62,9 +69,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
