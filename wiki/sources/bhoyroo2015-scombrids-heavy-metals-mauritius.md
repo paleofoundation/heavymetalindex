@@ -18,7 +18,7 @@ ingredients: ["[[ingredients/marlin]]", "[[ingredients/fish]]", "[[ingredients/s
 products: ["[[products/fish-marine-predatory]]", "[[products/fresh-fish]]", "[[products/seafood]]"]
 matrices: [marlin, dorado, yellowfin-tuna, dogtooth-tuna, marine-fish-muscle]
 jurisdictions: [MU]
-sample_n: "Four commercially edible pelagic fish species sampled in summer and winter from the Exclusive Economic Zone of Mauritius; per-species replicate counts not extractable from the text layer."
+sample_n: "n=3 replicates per species per season for each of four commercially edible pelagic fish species (yellowfin tuna, dogtooth tuna, marlin, dorado), sampled from the Exclusive Economic Zone of Mauritius in both summer and winter (24 fish samples total before laboratory replication)."
 sample_population: "Muscle tissue from yellowfin tuna, dogtooth tuna, marlin, and dorado caught in the Mauritian EEZ and sold/consumed as commercially important fish."
 wiki_doi: null
 sampling_locations: []
@@ -36,9 +36,11 @@ The article reports concentrations on a wet-weight basis for summer and winter c
 
 | Finding | Source-reported value |
 | --- | --- |
-| Matrices | Muscle tissue from yellowfin tuna, dogtooth tuna, marlin, and dorado |
+| Matrices | Muscle tissue from yellowfin tuna, dogtooth tuna, marlin, and dorado; n=3 replicates per species per season |
 | Methods | AAS after digestion; Cd, Pb, and As converted from ppb to ppm; Hg by flameless AAS/hydride method |
-| Nickel | 0.2-0.9 mg/kg wet weight across the four fish species; dorado in summer reached 0.89 mg/kg wet weight |
+| Zinc | 1.34-10.03 mg/kg wet weight across the four fish species, summer and winter combined (abstract range); highest summer means around 9.5-10 mg/kg wet weight |
+| Copper | 0.0-1.42 mg/kg wet weight across the four fish species (abstract range); yellowfin tuna summer reached the highest summer mean near 1.4 mg/kg wet weight |
+| Nickel | 0.2-0.9 mg/kg wet weight across the four fish species (body text); dorado in summer reached 0.89 mg/kg wet weight |
 | Chromium | Marlin in summer 1.7 mg/kg wet weight; dorado in summer 2.5 mg/kg wet weight; both above the cited 1.0 mg/kg international comparator |
 | Cadmium | Not detected at ppm levels in the four fish species |
 | Lead | Summer-season values for the four fish species reported as 3.60-5.44 mg/kg wet weight, above the cited WHO 2.0 mg/kg comparator |
@@ -84,9 +86,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
