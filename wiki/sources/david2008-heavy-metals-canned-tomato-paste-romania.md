@@ -12,6 +12,11 @@ source_type: peer-reviewed
 evidence_tier: B
 license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/The heavy metals analyses in canned tomato paste.pdf"
+raw_sha256: "d55ba8748cd2c467df61ffd0b3de7f3076d6faca578e73f29cbedc7d44f829e9"
+duplicate_filesystem_copies:
+  - path: "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/The heavy metals analyses in canned tomato paste (Romanian study on sauces).pdf"
+    sha256: "d55ba8748cd2c467df61ffd0b3de7f3076d6faca578e73f29cbedc7d44f829e9"
+    note: "Byte-identical copy of the canonical raw_path; Kimi agent re-extracted the David 2008 Romanian canned-tomato-paste paper into the processed-foods/snacks/beverages subfolder of the June 8 corruption-issue tree under the parenthetical-filename variant '(Romanian study on sauces)'. Recorded 2026-06-08 so future manual-fetch identity-check cycles in the June 8 batch recognize this location as already-ingested. The canonical-folder parenthetical variant at raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/The heavy metals analyses in canned tomato paste (Romanian study on sauces).pdf and the same-named copy at raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/The heavy metals analyses in canned tomato paste.pdf also share this sha256 and will be appended in their own per-PDF cycles."
 metals: [Pb, Cd, Sn, Al, Cr, Fe, Zn, tAs]
 ingredients: ["[[ingredients/tomato-paste]]", "[[ingredients/tomato]]"]
 products: ["[[products/canned-tomatoes]]", "[[products/tomato-paste]]", "[[products/tomato-sauce]]"]
@@ -23,7 +28,7 @@ sample_population: "Five commercial canned tomato paste and tomato sauce product
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-20
+updated: 2026-06-08
 ---
 
 # David et al. 2008 — Heavy metals in canned tomato paste (Romania)
@@ -74,6 +79,7 @@ App: Limited utility for ingredient-level contamination profiling given the smal
 - 2026-05-20 — Audit subagent flagged Part-2 wiki/HMTc firewall: original Implications recommended that "HMT&C product standards for canned tomato products should explicitly address packaging type and weld-seam migration as a risk factor for Sn." Verified against Part 2 — the wiki should report literature, not prescribe to HMTc. Rewrote as observation: "this is one data point on packaging-pathway Sn/Al migration in canned tomato matrices, weld-seam-biased and dated to 2008." Also removed brand-line-tied risk-management framing about "older Italian-canned imports... for the same brand line."
 - 2026-05-20 — Audit subagent flagged regulation wikilink: `[[regulations/eu-1881-2006]]` does not exist (taxonomy slug is `eu-1881-2006-contaminants-superseded`). Verified against `ls wiki/regulations/` — finding correct. Corrected the wikilink below.
 - 2026-05-20 — Audit subagent flagged matrices `canned-tomato` (singular) as inconsistent with the matrices vocabulary used elsewhere (e.g., `canned-tomato-paste`, `canned-tomato-concentrate`, `canned-tomato-mix`). Verified by grepping `wiki/sources/` — `canned-tomato` singular is unused. Dropped the redundant slug; `canned-tomato-paste` + `tomato-sauce` correctly cover the five sampled products.
+- 2026-06-08 — Byte-identical filesystem-copy enhancement. Added `raw_sha256` (`d55ba8748cd2c467df61ffd0b3de7f3076d6faca578e73f29cbedc7d44f829e9`) and a `duplicate_filesystem_copies` block recording a second filesystem location of the canonical PDF at `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/The heavy metals analyses in canned tomato paste (Romanian study on sauces).pdf`. Verified byte-identical via `shasum -a 256` against the canonical `raw_path` copy. Surfaced via the June 8 re-extraction batch placing the paper a second time under the processed-foods/snacks/beverages subfolder of the corruption-issue tree, under the parenthetical-filename variant. Both filesystem locations now resolve to this canonical source page so future manual-fetch identity-check cycles in the June 8 batch skip re-ingest. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. Metadata-only enhancement; no new audit cycle spawned per 2026-06-02 precedent (no body or evidence-bearing frontmatter changed).
 
 ## Wiki pages updated on ingest
 
@@ -89,9 +95,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
