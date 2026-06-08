@@ -386,12 +386,50 @@ function newestMtimeMs(root) {
   return max
 }
 
-function intakeDone() {
-  try {
-    return new Set(fs.readFileSync(INTAKE_DONE, "utf8").split("\n").map((s) => s.trim()).filter(Boolean))
-  } catch {
-    return new Set()
+// Count .pdf files anywhere under a folder. The intake "done" marker stores
+// this count so an expanded folder (more PDFs than last time) re-preps instead
+// of being skipped forever.
+function countPdfsDeep(root) {
+  let n = 0
+  const walk = (d) => {
+    let entries
+    try {
+      entries = fs.readdirSync(d, { withFileTypes: true })
+    } catch {
+      return
+    }
+    for (const e of entries) {
+      if (e.isDirectory()) walk(path.join(d, e.name))
+      else if (e.name.toLowerCase().endsWith(".pdf")) n++
+    }
   }
+  walk(root)
+  return n
+}
+
+function intakeDone() {
+  // Map folderName -> highest PDF count seen at intake. New records are written
+  // as "name\tcount"; legacy "name" lines (no tab) read as Infinity so a
+  // historical folder is never needlessly re-prepped. A folder that has GROWN
+  // since its recorded count re-preps once (see runIntake); a numeric record
+  // always wins over a legacy Infinity for the same name.
+  const m = new Map()
+  try {
+    for (const line of fs.readFileSync(INTAKE_DONE, "utf8").split("\n")) {
+      const s = line.trim()
+      if (!s) continue
+      const tab = s.lastIndexOf("\t")
+      const name = (tab === -1 ? s : s.slice(0, tab)).trim()
+      const count = tab === -1 ? Infinity : parseInt(s.slice(tab + 1), 10) || 0
+      const prev = m.get(name)
+      if (count === Infinity) {
+        if (prev === undefined) m.set(name, Infinity)
+      } else {
+        m.set(name, prev === undefined || prev === Infinity ? count : Math.max(prev, count))
+      }
+    }
+  } catch {}
+  return m
 }
 
 // Periodic dashboard + gap-metric refresh. The retired daemon used to own this;
@@ -409,7 +447,7 @@ async function runDashboard() {
   // because these are deterministic regenerations, not LLM wiki edits.
   await runStage(
     "dashboard-commit",
-    ["bash", "-c", "git add wiki/sprint-status.md wiki/coverage.md data/evidence/completion-matrix.csv data/evidence/autonomy/agent-events.jsonl 2>/dev/null; git commit --no-verify -q -m 'frank: dashboard + gap-metric + ledger refresh' 2>&1 | tail -1 || true"],
+    ["bash", "-c", "git add wiki data/evidence 2>/dev/null; git commit --no-verify -q -m 'frank: generated-layer + dashboard + gap-metric + ledger refresh' 2>&1 | tail -1 || true"],
     2 * 60 * 1000,
   )
 }
@@ -426,27 +464,31 @@ async function runIntake() {
   }
   const done = intakeDone()
   for (const name of subdirs) {
-    // Compare on the trimmed name: intakeDone() trims on read, so a folder
-    // whose name has a trailing space (e.g. "June 8 ") would never match the
-    // stored entry and would be re-intaked every pass forever. Trim here and
-    // on write (below) so read/lookup/write all agree on the trimmed form.
-    if (done.has(name.trim())) continue
     const full = path.join(DROP_ZONE, name)
+    // Re-prep an EXPANDED folder. The done-record stores the PDF count at last
+    // intake; if the folder has grown since (more papers dropped into an
+    // existing folder), re-run intake so the new papers get deduped instead of
+    // being silently skipped. Trim throughout so a trailing-space name (e.g.
+    // "June 8 ") matches the stored entry instead of re-intaking forever.
+    const preppedCount = done.get(name.trim())
+    const curCount = countPdfsDeep(full)
+    if (preppedCount !== undefined && curCount <= preppedCount) continue
+    const why = preppedCount === undefined ? "new" : `expanded ${preppedCount === Infinity ? "?" : preppedCount}→${curCount}`
     const ageMs = Date.now() - newestMtimeMs(full)
     if (ageMs < INTAKE_SETTLE_MS) {
       log(`intake: "${name}" still settling (${Math.round(ageMs / 60000)}m) — will retry next pass`)
       continue
     }
-    heartbeat(`intaking new folder "${name}" — extract + dedup`)
-    log(`intake: processing "${name}"`)
+    heartbeat(`intaking "${name}" (${why}) — extract + dedup`)
+    log(`intake: processing "${name}" (${why})`)
     const r = await runStage("intake", [NODE, "tools/autonomy/frank-intake.mjs", `--dir=${full}`], 12 * 60 * 1000)
-    r.summary = r.timedOut ? `⏱ intake timeout on "${name}"` : r.ok ? `✓ intaked "${name}"` : `intake exit ${r.code} on "${name}"`
+    r.summary = r.timedOut ? `⏱ intake timeout on "${name}"` : r.ok ? `✓ intaked "${name}" (${why})` : `intake exit ${r.code} on "${name}"`
     RECENT.push(r)
     log(`intake: ${r.summary}`)
-    // Mark done only on success so a transient failure retries next pass.
+    // Record name + current PDF count on success so a later expansion re-preps.
     if (r.ok) {
       try {
-        fs.appendFileSync(INTAKE_DONE, name.trim() + "\n")
+        fs.appendFileSync(INTAKE_DONE, name.trim() + "\t" + curCount + "\n")
       } catch {}
     }
   }

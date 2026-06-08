@@ -72,4 +72,6 @@ data/evidence/autonomy/frank.log
 data/evidence/autonomy/frank-sync.log
 data/evidence/autonomy/frank-codex.heartbeat
 data/evidence/autonomy/frank-intake-done.txt
+# Engine lock files (runtime mutex, not corpus state)
+data/evidence/autonomy/*.lock
 data/evidence/gems-aggregates.jsonl
