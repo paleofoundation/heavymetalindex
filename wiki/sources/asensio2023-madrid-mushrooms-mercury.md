@@ -38,6 +38,7 @@ Summary rows from Table III:
 | Agaricus bisporus | 6 | <0.0040-<0.0040; not quantifiable | <0.010-0.036; 0.027 | <0.0050-<0.0050; not quantifiable |
 | Agaricus brunnescens | 3 | <0.0040-0.070; 0.070 | <0.010-0.034; 0.034 | <0.0050-0.0070; 0.0070 |
 | Lentinula edodes | 3 | 0.0040-0.080; 0.053 | <0.010-<0.010; not quantifiable | <0.0050-<0.0050; not quantifiable |
+| Pleurotus eryngii, cultivated | 1 | <0.0040 | <0.010 | <0.0050 |
 | Pleurotus ostreatus, cultivated | 2 | 0.012-0.030; 0.021 | <0.010-<0.010; not quantifiable | <0.0050-<0.0050; not quantifiable |
 | Wild mushrooms | 33 | 0.0070-0.24; 0.063 | <0.010-0.30; 0.046 | <0.0050-0.97; 0.15 |
 | Boletus edulis | 4 | 0.027-0.12; 0.078 | 0.015-0.033; 0.025 | 0.090-0.52; 0.24 |
