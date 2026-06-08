@@ -18,13 +18,13 @@ ingredients: ["[[ingredients/canned-fruit-cocktail]]", "[[ingredients/canned-tom
 products: ["[[products/canned-vegetables]]", "[[products/canned-fruit]]", "[[products/canned-tomatoes]]", "[[products/canned-fish]]"]
 matrices: [canned-food]
 jurisdictions: [RO, EU]
-near_duplicates: []
+near_duplicates: ["raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Determination of Tin in Canned Foods by Inductively Coupled Plasma-Mass Spectrometry.pdf"]
 sample_n: 14
 sample_population: "14 canned food products (4 pineapple brands, mandarin oranges, fruit cocktail, small whole carrots, mushrooms, 2 peeled-tomato-in-juice brands, peas, cut green beans, whole kernel corn, tuna flakes in water) purchased at local markets in Romania; 3 cans per product batch, each can analysed 6 times by ICP-MS"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-20
+updated: 2026-06-08
 ---
 
 # Trandafir et al. 2012 — Tin in canned foods by ICP-MS
@@ -135,6 +135,8 @@ What this method measures and does not measure: total dissolved tin (Sn) includi
 - Routing: `matrices: [canned-food]` covers the analytical matrix; product slugs cover the four canned-product categories the source touches (canned-vegetables, canned-fruit, canned-tomatoes, canned-fish). `jurisdictions: [RO, EU]` because the survey is Romanian-market and the regulatory frame cited is EU plus Codex.
 - 2026-05-20 — Audit subagent verdict REVISE; one ❌ on Check 2 (slug vocabulary): `[[ingredients/canned-vegetables]]` was not a valid ingredient slug (the slug exists only as a product slug under `wiki/products/`, not as an ingredient page under `wiki/ingredients/`). Verified against `ls wiki/ingredients/canned-*.md` — confirmed no `canned-vegetables.md` ingredient page exists. Finding applied: removed the invalid `[[ingredients/canned-vegetables]]` entry from the `ingredients:` frontmatter array and from the "Wiki pages this source may touch" section. The specific canned-ingredient slugs already in the page (`canned-corn`, `canned-green-beans`, `canned-mushrooms`, `canned-tomatoes`, `canned-fruit-cocktail`, `canned-tuna`) cover the canned vegetables actually measured. Checks 1, 3, 4, and 5 were ✅; no other findings to apply.
 
+**2026-06-08 byte-identical filesystem-copy enhancement:** added a `near_duplicates` entry recording the Kimi agent's June 8 placement of the same PDF under `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/`. SHA-256 verified byte-identical to the canonical `raw_path` (`cf02363493b9f24ba353e181ba3ac7fac20dea26b5356fec7584283be8fe8862`); the same hash also appears at three other Kimi-corruption-issue paths (`May 21 .../papers/02_Vegetables_and_Vegetable_Products/`, `June 8/.../papers/02_Vegetables_and_Vegetable_Products/`, and `manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/`). Manual-fetch loop now recognizes the June 8 `_extracted_` location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -142,9 +144,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
