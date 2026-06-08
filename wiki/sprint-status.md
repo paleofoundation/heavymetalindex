@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-08T05:28:29.106Z
+updated: 2026-06-08T07:22:16.285Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -35,8 +35,8 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 5 |
-| Commits last 24 hours | 64 |
+| Commits last 1 hour | 7 |
+| Commits last 24 hours | 78 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-3da107d 16 minutes ago — audit-queue: fsanz2012-arsenic-apple-pear-juice-australia-nz backfill commit hash
+6c16974 16 minutes ago — audit-queue: el-daouk2020-aluminum-food-lebanon → audited-revised
 ```
 
 ## How to read this

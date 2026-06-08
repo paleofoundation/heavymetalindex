@@ -804,3 +804,10 @@
 {"ts":"2026-06-08T05:01:53.155Z","actor":"frank-opus","cite_key":"mawari2022-heavy-metals-fruits-vegetables-india","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T05:06:05.475Z","actor":"frank-opus","cite_key":"farid2010-fruit-juices-jeddah-trace-elements","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T05:13:10.624Z","actor":"frank-opus","cite_key":"fsanz2012-arsenic-apple-pear-juice-australia-nz","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T05:35:36.075Z","actor":"frank-opus","cite_key":"mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T05:41:19.203Z","actor":"frank-opus","cite_key":"trandafir2012-tin-canned-foods-icp-ms","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T05:56:46.304Z","actor":"frank-opus","cite_key":"cfs2013-hktds-metallic-contaminants","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T06:35:02.112Z","actor":"discover-autopilot","cite_key":"","status":"discover-failed","source_path":"wiki/products/herbal-botanical-infusions.md","commit":"","blocker":"timeout (20m), 0 PDFs","next":""}
+{"ts":"2026-06-08T06:38:56.524Z","actor":"frank-opus","cite_key":"aljedani2017-honeybee-honey-saudi-arabia","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T06:49:37.551Z","actor":"frank-opus","cite_key":"david2008-heavy-metals-canned-tomato-paste-romania","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T07:06:22.654Z","actor":"frank-opus","cite_key":"el-daouk2020-aluminum-food-lebanon","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
