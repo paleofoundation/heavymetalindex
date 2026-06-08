@@ -25,7 +25,7 @@ updated: 2026-06-08
 
 # Andrade et al. 2023 - Metals in Portuguese cow milk and soy beverages
 
-Andrade and colleagues measured lead, cadmium, and manganese in 28 retail beverages purchased on the Portuguese market in Lisbon between February and May 2019, split evenly between 14 cow-milk (CM) brands and 14 soy-beverage (SB) brands. The basis is liquid as-purchased, measured in microliters per liter; the authors do not convert to per-kilogram or apply a reconstitution factor. Soy beverages carried significantly higher cadmium (mean 5.6 μg/L vs 2.2 μg/L, p < 0.05) and roughly twenty-fold higher manganese (mean 117.4 μg/L vs 5.9 μg/L, p < 0.05) than cow milk; lead was numerically higher in cow milk (19.3 vs 13.4 μg/L) but the difference was not statistically significant (p > 0.05). The cow-milk Pb mean sat just under the EU 2023/915 maximum level of 20 μg/kg, and one cow-milk brand's cadmium value exceeded the 5 μg/kg EU ceiling that applies to infant-formula products manufactured from cow's milk proteins.
+Andrade and colleagues measured lead, cadmium, and manganese in 28 retail beverages purchased on the Portuguese market in Lisbon between February and May 2019, split evenly between 14 cow-milk (CM) brands and 14 soy-beverage (SB) brands. The basis is liquid as-purchased, measured in micrograms per liter; the authors do not convert to per-kilogram or apply a reconstitution factor. Soy beverages carried significantly higher cadmium (mean 5.6 μg/L vs 2.15 μg/L, p < 0.05) and roughly twenty-fold higher manganese (mean 117.4 μg/L vs 5.93 μg/L, p < 0.05) than cow milk; lead was numerically higher in cow milk (19.3 vs 13.4 μg/L) but the difference was not statistically significant (p > 0.05). The cow-milk Pb mean sat just under the EU 2023/915 maximum level of 20 μg/kg, and one cow-milk brand's cadmium value exceeded the 5 μg/kg EU ceiling that applies to infant-formula products manufactured from cow's milk proteins.
 
 ## Key numbers
 
@@ -36,8 +36,8 @@ All concentrations below are in micrograms per liter (μg/L) of the beverage as 
 | Metal | Cow milk (CM, N = 14) mean ± SD (μg/L) | Soy beverage (SB, N = 14) mean ± SD (μg/L) | Mann-Whitney p-value |
 | --- | --- | --- | --- |
 | Pb | 19.3 ± 12.1 | 13.4 ± 9.7 | > 0.05 (not significant) |
-| Cd | 2.2 ± 1.8 | 5.6 ± 4.2 | < 0.05 (SB > CM) |
-| Mn | 5.9 ± 1.2 | 117.4 ± 30.4 | < 0.05 (SB > CM) |
+| Cd | 2.15 ± 1.84 | 5.6 ± 4.2 | < 0.05 (SB > CM) |
+| Mn | 5.93 ± 1.21 | 117.4 ± 30.4 | < 0.05 (SB > CM) |
 
 ### Within-class ranges across brands
 
@@ -45,7 +45,7 @@ Within the 14 cow-milk brands, lead ranged from 5.6 to 39.9 μg/L, cadmium from 
 
 ### Regulatory benchmarks the authors cite
 
-The Commission Regulation (EU) 2023/915 maximum level for lead in milk is 0.020 mg/kg, or 20 μg/kg. Converting the cow-milk lead mean of 19.3 μg/L using the cited density of 1.030 kg/L gives roughly 18.7 μg/kg, close to but below the ceiling. The same regulation sets a 5 μg/kg ceiling on cadmium in infant formula, follow-on formula, foods for special medical purposes intended for infants and young children, and formulas for young children placed on the market in liquid form and manufactured from cow's milk proteins or cow's milk protein hydrolysates. The mean cow-milk cadmium of 2.2 μg/L falls below that 5 μg/kg ceiling, but one cow-milk brand reached 6.8 μg/L of cadmium, which is above the 5 μg/kg ceiling that would apply if that milk were used as the cow's-milk protein source in a liquid infant formula. The paper notes that European legislation has not set maximum levels for the metals studied here in soy beverages specifically.
+The Commission Regulation (EU) 2023/915 maximum level for lead in milk is 0.020 mg/kg, or 20 μg/kg. Converting the cow-milk lead mean of 19.3 μg/L using the cited density of 1.030 kg/L gives roughly 18.7 μg/kg, close to but below the ceiling. The same regulation sets a 5 μg/kg ceiling on cadmium in infant formula, follow-on formula, foods for special medical purposes intended for infants and young children, and formulas for young children placed on the market in liquid form and manufactured from cow's milk proteins or cow's milk protein hydrolysates. The mean cow-milk cadmium of 2.15 μg/L falls below that 5 μg/kg ceiling, but one cow-milk brand reached 6.8 μg/L of cadmium, which is above the 5 μg/kg ceiling that would apply if that milk were used as the cow's-milk protein source in a liquid infant formula. The paper notes that European legislation has not set maximum levels for the metals studied here in soy beverages specifically.
 
 ### Method validation
 
@@ -89,4 +89,8 @@ The source provides no speciation for any of the three metals; all values are to
 
 The source's Mann-Whitney p-value for cadmium is reported in the abstract as p < 0.05, in Figure 2 as p < 0.05 with an asterisk, and in the Results text consistently as p < 0.05. The source's Mann-Whitney p-value for manganese is reported identically (p < 0.05 in abstract, Figure 3, and Results text). The source's Mann-Whitney p-value for lead is reported in Figure 1 and in the Results text as p > 0.05 (not significant). This page preserves all three p-value reportings verbatim.
 
-The paper's Conclusions characterize the SB mean Mn (117.4 μg/L) as "about 20 times higher than the Mn concentrations in the CM brands (5.9 μg/L)"; the actual ratio is 117.4 / 5.9 = 19.9, which rounds to 20, so this page reports the paper's "twenty-fold" framing in the lead paragraph and the exact arithmetic ratio in the Implications section.
+The paper's Conclusions characterize the SB mean Mn (117.4 μg/L) as "about 20 times higher than the Mn concentrations in the CM brands (5.9 μg/L)"; the actual ratio is 117.4 / 5.93 = 19.8, which rounds to 20, so this page reports the paper's "twenty-fold" framing in the lead paragraph and the exact arithmetic ratio in the Implications section.
+
+The source reports its cow-milk Cd and Mn global means at two different precisions: the abstract and Discussion narrative give CM Cd as 2.15 ± 1.84 μg/L and CM Mn as 5.93 ± 1.21 μg/L, while Table 10's "Global mean / Global SD" rows round these to 2.2 ± 1.8 and 5.9 ± 1.2 respectively. This page uses the higher-precision abstract values throughout because they are what downstream readers will most often see cited. Two minor source-internal precision mismatches are preserved without reconciliation: the abstract reports SB Mn SD as 30.3 while Table 11 reports 30.4, and the abstract reports SB Pb SD as 9.6 while Table 11 reports 9.7; in both cases this page follows Table 11 because the table is the primary data record.
+
+Audit subagent (2026-06-08) flagged `products/milk-and-dairy` as absent from `docs/gpt-collaboration/taxonomy-snapshot.md`; verified independently — finding was a false positive because the taxonomy snapshot was generated 2026-05-18 and is stale relative to the live wiki. `wiki/products/milk-and-dairy.md` exists as a provisional scaffold created 2026-06-01 (provisional_scaffold: true, hmtc_category: pending_taxonomy_review), and the routing audit successfully resolves this source to that target with 0 unresolved and 0 malformed. No frontmatter change applied. Audit subagent (2026-06-08) also flagged the original `2.2 ± 1.8` and `5.9 ± 1.2` cow-milk Cd and Mn values as rounded relative to the abstract's `2.15 ± 1.84` and `5.93 ± 1.21`; verified against PDF page 1 abstract — finding was correct; values updated to the abstract precision.
