@@ -14,7 +14,7 @@ license: unknown
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-fruit-mixed-cd_2018_10-15376-biores-13-3-5432-5449.pdf"
 sha256: 68f0aafc8d677d999e8c14335acbf4ae873cb548d9ccc46f92821ea7e1b314ad
 metals: [Cd, Pb, tHg, tAs]
-ingredients: ["[[ingredients/vegetables]]", "[[ingredients/wild-mushrooms]]"]
+ingredients: ["[[ingredients/mushrooms]]"]
 products: []
 matrices: [oyster-mushroom, pleurotus-ostreatus, edible-mushroom, dried-fruiting-body]
 jurisdictions: [CN]
@@ -35,8 +35,8 @@ Zhou et al. evaluated whether chicken-manure biogas residue could be used as a s
 | Finding | Source-reported value |
 | --- | --- |
 | Highest mushroom Pb | 1.1550 +/- 0.0550 mg/kg dry weight in treatment T1 |
-| Lowest mushroom Pb | 0.0550 +/- 0.0000 mg/kg dry weight in treatment T6 |
-| Highest mushroom Cd | 0.1400 +/- 0.0100 mg/kg dry weight |
+| Lowest mushroom Pb | 0.7850 +/- 0.0350 mg/kg dry weight in treatment T4 |
+| Highest mushroom Cd | 0.1400 +/- 0.0100 mg/kg dry weight in treatment T3 |
 | Lowest mushroom Cd | 0.0550 +/- 0.0000 mg/kg dry weight in treatment T6 |
 | Highest mushroom Hg | 0.0074 +/- 0.0000 mg/kg dry weight in treatment T6 |
 | Highest mushroom As | 0.1650 +/- 0.0050 mg/kg dry weight in treatment T6 |
@@ -47,7 +47,7 @@ The authors state that Pb, Cd, Hg, and As in all dried Pleurotus fruiting bodies
 
 ## Methods (brief)
 
-Pleurotus ostreatus was cultivated on seven substrate formulas using cottonseed hull, wheat bran, lime, water, and increasing fractions of biogas residue. Three flushes were harvested; chemical composition and heavy metals were measured in dried first-flush fruiting bodies. Heavy metals were analyzed by an external testing laboratory, and results are reported as dry-weight mg/kg.
+Pleurotus ostreatus (strain Huimei No. 2) was cultivated on seven substrate formulas using cottonseed hull, wheat bran, lime, water, and increasing fractions of chicken-manure biogas residue (0 to 60%). Three flushes were harvested; chemical composition and heavy metals were measured in dried first-flush fruiting bodies. Heavy metals were analyzed by Pony Testing International Group (Beijing, China); results are reported as dry-weight mg/kg. Differences among treatment means were assessed by Duncan's multiple range test at the 95% confidence level using IBM SPSS Statistics V22.0. The paper does not name the analytical instrument or report LODs, and reports total arsenic and total mercury without speciation.
 
 ## Implications
 
@@ -55,8 +55,7 @@ This source contributes cultivated edible-mushroom occurrence context for Pb, Cd
 
 ## Wiki pages this source may touch
 
-- [[ingredients/vegetables]]
-- [[ingredients/wild-mushrooms]]
+- [[ingredients/mushrooms]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
@@ -67,6 +66,8 @@ This source contributes cultivated edible-mushroom occurrence context for Pb, Cd
 - Batch 3 auto-fetched ingest, 2026-05-25. The wishlist row targeted mixed fruit, but the actual paper measures oyster mushroom fruiting bodies.
 - Speciation: arsenic and mercury are total/unspecified measurements; do not treat them as inorganic arsenic or methylmercury.
 - Basis: mushroom concentrations are dry-weight values. The authors discuss fresh-mushroom regulatory limits but note the reported mushroom data are dried fruiting-body measurements.
+- Mushroom routing: routed to the umbrella [[ingredients/mushrooms]] scaffold. `wild-mushrooms` is reserved for foraged species (porcini, chanterelle, morel, boletus per the alias list); this paper studies cultivated Pleurotus ostreatus and must not aggregate into the wild-mushroom contamination profile.
+- Audited 2026-06-08 (autonomous audit): corrected lowest mushroom Pb from a Cd-column transposition (0.0550 mg/kg in T6) to the actual lowest Pb value (0.7850 ± 0.0350 mg/kg in T4); added treatment attribution for highest Cd (T3); dropped misrouted `vegetables` and `wild-mushrooms` ingredients in favor of the umbrella `mushrooms` slug; named the testing laboratory (Pony Testing International Group, Beijing) in Methods.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -75,9 +76,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
