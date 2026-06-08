@@ -5,7 +5,7 @@ cite_key: bhat2022-brick-kilns-milk-rice-heavy-metals
 title: "Long-Term Operation of Brick-Kilns Led Heavy Metal Contamination of Soil-Plant-Animal Continuum in Kashmir Himalayas"
 authors: ["Bhat AM", "Bashir S", "Sofi JA", "Hassan GI", "Wani FJ", "Sheikh GN", "Dar AA"]
 year: 2022
-publication: "International Journal of Agriculture, Environment and Biotechnology"
+publication: "Journal of Animal Research"
 doi: 10.30954/2277-940X.03.2022.11
 source_type: peer-reviewed
 evidence_tier: B
@@ -20,7 +20,7 @@ sample_population: "Soil-plant-animal samples near brick kilns in Kashmir Himala
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-25
+updated: 2026-06-09
 ---
 
 # Bhat et al. 2022 - Long-Term Operation of Brick-Kilns Led Heavy Metal Contamination of Soil-Plant-Animal Continuum in Kashmir Himalayas
@@ -29,17 +29,18 @@ This study measured Pb, Cd, and Cr through a soil-plant-animal continuum near br
 
 ## Key numbers
 
-Source units are mg/kg.
+Source units are mg/kg. Table 1 reports Mean±SE across the four distance zones: D0 (control), D1 (0-250 m), D2 (250-500 m), D3 (500-750 m).
 
-- Milk Pb exceeded the cited maximum permissible level of 0.2 mg/kg in D1 and D2 areas: D2 0.74 +/- 0.30 and D1 0.57 +/- 0.29.
-- Paddy straw Pb in D1 was 6.15 +/- 0.38 mg/kg, above the cited 5 mg/kg comparison level.
-- Rice bran Pb was comparable in D1 0.56 +/- 0.01 and D2 0.52 +/- 0.01, and higher than D0 0.44 +/- 0.01 and D3 0.40 +/- 0.01.
-- Cadmium in soil was higher in D1 23.89 +/- 0.27 and D2 22.57 +/- 1.30 than D3 17.28 +/- 1.08 and D0 15.49 +/- 0.21.
-- The abstract states Pb and Cr in milk from cows within 500 m exceeded maximum permissible levels.
+- Milk Pb exceeded the cited maximum permissible level of 0.2 mg/kg (FSSAI, 2011) in D1 and D2 areas: D2 0.74 +/- 0.30 and D1 0.57 +/- 0.29.
+- Paddy straw Pb in D1 was 6.15 +/- 0.38 mg/kg, above the cited 5 mg/kg comparison level (WHO/FAO, 2007).
+- Rice bran Pb followed the distance gradient: D2 4.64 +/- 0.58 and D1 4.52 +/- 0.26 were higher than D3 3.18 +/- 0.29 and D0 2.58 +/- 0.28.
+- Soil Cd was higher in D1 0.56 +/- 0.01 and D2 0.52 +/- 0.01 than D0 0.44 +/- 0.01 and D3 0.40 +/- 0.00; all values were below the cited EU 2002 maximum permissible level of 3 mg/kg for soil Cd.
+- Soil Cr was higher in D1 22.50 +/- 0.73 and D2 22.57 +/- 1.30 than D3 17.28 +/- 1.08 and D0 15.49 +/- 0.21; all values exceeded the cited WHO 1996a permissible limit of 1.3 mg/kg.
+- The abstract states Pb and Cr in milk from cows residing up to 500 m exceeded maximum permissible levels.
 
 ## Methods
 
-The study analyzed Pb, Cd, and Cr in soil, paddy straw, rice bran, cow milk, and serum after field sampling at distance bands from brick-kiln sites.
+The study analyzed Pb, Cd, and Cr in soil, paddy straw, rice bran, cattle serum, and cow milk (n=6 per zone) collected from Hablish village (brick-kiln area, three kilns 10-11 years old) and Tankipora village (matched control, 1.8 km away), with the brick-kiln side stratified into D1 (0-250 m), D2 (250-500 m), and D3 (500-750 m) distance bands. Samples were digested per the procedures of Maurya et al. 2018, Jones et al. 1991, AOAC 2000, Kolmer et al. 1951, and Richards 1968, then analyzed by Atomic Absorption Spectrometer (AAS-Agilent Technologies 200 series AA) at the Research Centre for Residue and Quality Analysis, SKUAST-Kashmir. Data were analyzed by factorial Completely Randomized Design in R, with Pearson's correlation among variables.
 
 ## Implications
 
@@ -57,7 +58,8 @@ Milk values are directly routeable for dairy context. Rice bran and paddy straw 
 ## Verification notes
 
 - Source identity checked against DOI 10.30954/2277-940X.03.2022.11 and the downloaded PDF.
-- The PDF extraction makes some table rows difficult to reconstruct; this page records only visible values from the abstract/results text.
+- 2026-06-09 autonomous audit (verdict QUARANTINE) corrected two cross-row transpositions in `## Key numbers`: the "rice bran Pb" sentence had been populated with soil-Cd values (D0 0.44, D1 0.56, D2 0.52, D3 0.40), and the "Cd in soil" sentence had been populated with soil-Cr values (D2 22.57, D3 17.28, D0 15.49) plus a fabricated D1 value 23.89±0.27 that appeared in no Table 1 cell. The actual values were transcribed directly from Table 1 (p. 385): rice bran Pb D0 2.58, D1 4.52, D2 4.64, D3 3.18 mg/kg; soil Cd D0 0.44, D1 0.56, D2 0.52, D3 0.40 mg/kg; soil Cr D0 15.49, D1 22.50, D2 22.57, D3 17.28 mg/kg. Statistic type is Mean±SE per the Table 1 caption.
+- Independent verification caught: the `publication` frontmatter field previously read "International Journal of Agriculture, Environment and Biotechnology"; the PDF first-page header reads "Journal of Animal Research: v.12 n.3, p. 381-388, June 2022". Corrected.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -66,9 +68,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
