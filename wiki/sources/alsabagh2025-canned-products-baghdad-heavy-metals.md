@@ -5,16 +5,16 @@ cite_key: alsabagh2025-canned-products-baghdad-heavy-metals
 title: "Assessment of heavy metal and nitrate contamination in canned products from local markets in Baghdad"
 authors: ["Alsabagh AAA"]
 year: 2025
-publication: "Al-Kufa Journal for Agricultural Sciences"
+publication: "Alnakhla Journal of Science"
 doi: 10.63799/AJOS/14.2.7
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-pineapple-cd_2025_10-63799-ajos-14-2-7.pdf"
 metals: ["Pb", "Cd", "Co", "Mn", "Fe", "Zn", "Cu"]
-ingredients: ["[[ingredients/pineapple]]"]
-products: ["[[products/canned-fruit]]", "[[products/canned-vegetables]]"]
-matrices: ["canned-pineapple", "canned-fruit-cocktail", "canned-vegetables"]
+ingredients: ["[[ingredients/pineapple]]", "[[ingredients/canned-fruit-cocktail]]"]
+products: ["[[products/canned-fruit]]"]
+matrices: ["canned-pineapple", "canned-fruit-cocktail"]
 jurisdictions: ["IQ"]
 sample_population: "Canned products from local markets in Baghdad, Iraq"
 wiki_doi: null
@@ -29,33 +29,57 @@ This study measured heavy metals and nitrate in canned products sold in Baghdad 
 
 ## Key numbers
 
-Source units are mg/100 g.
+Source units are mg/100 g on a dry-weight basis (samples dried at 75 °C; dry-solids percentages reported per row in Tables 1 and 2). Two product categories are within the scope of this page: canned pineapple slices and canned fruit cocktail.
 
-- Canned pineapple: Pb 0.21 in Thai product and 0.30 in Chinese product; Cd not present in both origins; Co 0.01 in Thai product and not detected in Chinese product.
-- Canned pineapple nitrate: 39.8 to 44.6.
-- Canned pineapple Mn: 1.01 to 2.37; Fe 12.5 and 0.34; Zn 7.67 and 2.62; Cu 2.08 and 0.25 for Thai and Chinese products, respectively.
-- Canned fruit cocktail: Pb 0.12 and 0.28 in Malaysian and Thai products; Cd and Co reported as zero in both products.
+Canned pineapple slices (Thai 16.7% dry solids / Chinese 19.5% dry solids):
+
+- Pb 0.21 Thai, 0.30 Chinese.
+- Cd 0.00 in both origins.
+- Co 0.01 Thai, 0.00 Chinese.
+- NO3 39.8 Thai, 44.6 Chinese.
+- Mn: the source is internally inconsistent. The body-text paragraph and abstract state "1.01 to 2.37 mg/100g for the Thai and Chinese products, respectively"; Table 2 row for pineapple shows Mn 1.01 Thai and Mn 0.30 Chinese. The Table 2 value (0.30 for Chinese) is preferred for downstream routing because the 2.37 figure in the prose matches an unrelated mushroom row, suggesting a transcription slip in the body text and abstract.
+- Fe 12.5 Thai, 0.34 Chinese.
+- Zn 7.67 Thai, 2.62 Chinese.
+- Cu 2.08 Thai, 0.25 Chinese.
+
+Canned fruit cocktail (chopped fruit; Malaysian 15.2% dry solids / Thai 18.8% dry solids):
+
+- Pb 0.12 Malaysian, 0.28 Thai.
+- Cd 0.00 in both origins.
+- Co 0.00 in both origins.
+- NO3 28.3 Malaysian, 38.6 Thai.
+- Mn 0.54 Malaysian, 0.24 Thai (body text); Table 2 row for fruit-cocktail shows Mn 0.12 Malaysian and 0.28 Thai, another body-text vs Table 2 disagreement. Both pairs are reported here for transparency.
+- Fe 0.56 Malaysian, 0.77 Thai.
+- Zn 1.83 Malaysian, 0.95 Thai.
+- Cu 0.66 Malaysian, 0.23 Thai.
 
 ## Methods
 
-The paper reports solid-material heavy metals for canned products and nitrate/nitrite measurements with selective-electrode methods.
+Heavy metals (Pb, Cd, Co, Mn, Fe, Zn, Cu) were measured by atomic absorption spectrophotometry per AL-Swaidan (1988); the instrument was calibrated with element-specific standard solutions and re-zeroed every ten readings. Sample preparation: heterogeneous canned contents were homogenised with a food mixer, dried at 75 °C in an electric oven, ground in a dry porcelain mortar, and reported on a dry-weight basis. Digestion: 2 g of dry sample placed in a 200 ml glass flask with 10 ml nitric acid, gradually heated at 250 °C for 1 h, with repeated additions of 5 ml concentrated acid until the sample solution became clear, then quantitatively transferred to volumetric flasks. Nitrate and nitrite were extracted from 105 g of dried sample in 50 ml deionized water (shaker, 2 h, Whatman No. 1 filtration) and measured with a nitrite-nitrate selective electrode (range 0.1 to 62000 ppm; pH 2 to 11; reproducibility 2 %) calibrated against potassium nitrate and nitrite standards, per Kharazi et al. (2021).
 
 ## Implications
 
-The source supports canned-pineapple and canned-fruit context. Units are mg/100 g, so route only after preserving unit/basis or converting explicitly.
+The source contributes country-of-origin-stratified occurrence values for canned pineapple slices and canned fruit cocktail sold in Baghdad markets. Units are mg/100 g on a dry-weight basis; downstream routing must preserve both the unit and the dry-weight basis (or convert explicitly using the reported dry-solids percentages) before comparison with regulatory limits or other studies reporting wet-weight ppb. The paper does not measure arsenic, mercury, nickel, aluminium, chromium, tin, or other HMTc-priority analytes.
 
 ## Wiki pages this source may touch
 
 - [[ingredients/pineapple]]
+- [[ingredients/canned-fruit-cocktail]]
 - [[products/canned-fruit]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/cobalt]]
+- [[metals/manganese]]
+- [[metals/iron]]
+- [[metals/zinc]]
+- [[metals/copper]]
 
 ## Verification notes
 
-- Source identity checked against DOI 10.63799/AJOS/14.2.7 and the downloaded PDF.
-- The PDF labels cobalt as "Cobalt" and "Co"; no arsenic values are reported for the pineapple rows in the extracted table text.
+- Source identity checked against DOI 10.63799/AJOS/14.2.7 and the downloaded PDF; journal of record is *Alnakhla Journal of Science (AJOS)*, 2025, 14(2):97-103.
+- The PDF labels cobalt as "Cobalt" and "Co"; no arsenic values are reported for the pineapple or fruit-cocktail rows.
+- Source-internal contradictions noted in `## Key numbers` for pineapple Mn and fruit-cocktail Mn (body-text/abstract values disagree with Table 2 row values). Table values are preferred for downstream routing, but the contradiction is preserved here so a future audit can re-examine the original PDF.
+- The paper also reports values for canned mixed vegetables, mushrooms, fava beans, chickpeas (whole grain and tahini), corn, and peaches that are out of scope for this page; those rows can be lifted into separate source-page slices or matrix-specific pages if and when those routing targets exist.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -64,9 +88,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
