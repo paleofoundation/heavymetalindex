@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-pineap
 metals: ["Pb", "Ni", "Cd", "Fe"]
 ingredients: ["[[ingredients/pineapple]]"]
 products: ["[[products/fresh-fruit]]"]
-matrices: ["pineapple-fruit", "pineapple-leaves", "pineapple-roots", "pineapple-cultivated-soil"]
+matrices: ["pineapple-fruit", "soil"]
 jurisdictions: ["IN"]
 sample_population: "Pineapple cultivated tracts in Ernakulam district, Kerala, India"
 wiki_doi: null
@@ -58,6 +58,8 @@ The fruit values are routeable for pineapple ingredient context, while root, lea
 
 - Source identity checked against DOI 10.47191/ijcsrr/V4-i5-14 and the downloaded PDF.
 - The PDF text reports high soil Cd; fruit Cd is separately reported as 4 mg/kg and should not be pooled with soil values.
+- Matrices narrowed to `pineapple-fruit` and `soil` (controlled-vocabulary terms). Pineapple roots and leaves are measured in the source but are not consumed matrices; their values appear in `## Key numbers` as plant-uptake context only and intentionally do not drive routing.
+- AAS instrument detail (flame vs graphite furnace), reference materials, LODs, and per-metal QC are not reported by the source; the methods section reflects only what is in the paper.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -66,9 +68,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
