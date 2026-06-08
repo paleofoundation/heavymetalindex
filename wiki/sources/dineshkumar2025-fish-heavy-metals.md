@@ -11,30 +11,36 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-pb-product_2025_10-3389-fmars-2025-1634855.pdf"
-metals: [Cd, Pb, Cr, Ni, Al]
+metals: [Cd, Pb, Cr, Ni, Al, Cu, Zn, Co, Fe, Mn, tHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
-products: ["[[products/seafood]]", "[[products/fresh-fish]]", "[[products/fish-marine-non-predatory]]"]
-matrices: [fish-tissue, fish-organs]
+products: ["[[products/seafood]]", "[[products/fresh-fish]]", "[[products/fish-marine-non-predatory]]", "[[products/fish-marine-predatory]]"]
+matrices: [fish]
 jurisdictions: [IN]
 near_duplicates: []
-sample_n: null
-sample_population: "three commercially important fish species assessed by tissue and organ"
-updated: 2026-05-29
+sample_n: 60
+sample_population: "60 organ samples (15 fish × 4 organs) from three species: Sardinella longiceps (Indian Oil Sardine, planktivorous), Rastrelliger kanagurta (Indian Mackerel, planktivorous), Lutjanus campechanus (Red Snapper, predatory); Ennore fishing port, Chennai (Bay of Bengal), India"
+updated: 2026-06-09
 ---
 # Dinesh Kumar et al. 2025 - Heavy metals in commercially important fish
 
-Dinesh Kumar and colleagues compared heavy-metal concentrations across organs and species in three commercially important fish. The study is routeable for seafood occurrence context because it reports metal concentrations in fish tissues and discusses suitability for human consumption. The paper emphasizes organ-specific variation, so edible-muscle values should be separated from organ values during extraction.
+Dinesh Kumar and colleagues compared heavy-metal concentrations across four organs (muscle, liver, intestine, gills) in three commercially important fish species landed at Ennore fishing port, Chennai (Bay of Bengal, India): Indian Oil Sardine (*Sardinella longiceps*, planktivorous), Indian Mackerel (*Rastrelliger kanagurta*, planktivorous), and Red Snapper (*Lutjanus campechanus*, carnivorous predator). The study is routeable for marine-fish occurrence context across both non-predatory and predatory product categories. The paper emphasizes organ-specific variation, so edible-muscle values must be separated from non-edible organ values during downstream extraction.
 
 ## Key numbers
 
-- Metals were quantified by inductively coupled plasma mass spectrometry and expressed in ppm.
-- The overall mean concentration ranking reported in the extracted text was Fe 525.23 ppm, Al 275.57 ppm, Zn 29.12 ppm, Mn 5.87 ppm, Cu 3.92 ppm, Cr 1.49 ppm, Ni 0.99 ppm, and Co 0.25 ppm.
-- The authors state that Cd and Pb were present at very low concentrations and were often below the limit of quantification.
-- The study reports organ-specific and interspecies variability, with supplementary tables carrying detailed fish-tissue values.
+- All concentrations are reported on a **dry-weight basis** in ppm (mg/kg dry tissue); the digestion procedure used 1 g of dried tissue.
+- Metals quantified (11): Cu, Cr, Al, Zn, Co, Hg, Pb, Ni, Fe, Cd, Mn, by inductively coupled plasma mass spectrometry.
+- Overall mean concentration ranking (Supplementary Table S1): Fe 525.23 ppm > Al 275.57 ppm > Zn 29.12 ppm > Mn 5.87 ppm > Cu 3.92 ppm > Cr 1.49 ppm > Ni 0.99 ppm > Co 0.25 ppm.
+- Fe ranged 4.05–4717.2 ppm and Al ranged 0.52–2663.81 ppm across organs.
+- Cd and Pb were often below the limit of quantification (BLQ). BLQ frequencies: Co 49/60 samples, Pb 34/60, Cd 32/60. Maximum observed concentrations: Cd 1.19 ppm, Pb 2.95 ppm.
+- Mean concentrations in muscle tissue (edible part): Cd 0.047 ± 0.05 ppm, Pb 0.084 ± 0.04 ppm (both dry weight).
+- Hg was consistently BLQ across all sampled tissues; the paper measured total Hg by ICP-MS and did not perform mercury speciation.
+- The authors compared muscle-tissue Cd and Pb means against WHO/FAO/Codex Alimentarius (2024) maxima of Pb 0.3 mg/kg, Cd 0.05–0.1 mg/kg, and Hg 0.5 mg/kg for methylmercury in fish.
+- Interspecies pattern: Snapper accumulated higher concentrations of most metals; Sardine carried elevated Fe, Al, and Zn; Mackerel showed the lowest levels.
+- Organ-level pattern: muscle consistently had the lowest values; liver was associated with Pb and Cu; intestine accumulated Fe, Al, Cr, and Ni; gills reflected waterborne exposure.
 
 ## Methods (brief)
 
-Fish tissues were dissected, digested, and analyzed by ICP-MS. Results are total element concentrations in ppm. The source does not report methylmercury and does not support mercury speciation.
+15 fish per species × 4 organs (muscle, liver, intestine, gills) = 60 organ samples. Tissues were dissected with sterile tools, stored at -20 °C, and 1 g of dried tissue digested at 140 °C with 5 mL concentrated nitric acid (Suprapur, Merck) in an Anton Paar microwave digestion system. Trace-element concentrations were quantified by ICP-MS (Agilent 7500). Analytical accuracy was validated against NIST CRM QC3163 (seawater). Results are total element concentrations in ppm on a dry-weight basis. The source measured total Hg by ICP-MS (consistently BLQ) and did not perform mercury speciation; report any downstream Hg routing as tHg, not MeHg.
 
 ## Implications
 
@@ -49,6 +55,7 @@ App: Can inform seafood context if species and edible portion are retained.
 - [[products/seafood]]
 - [[products/fresh-fish]]
 - [[products/fish-marine-non-predatory]]
+- [[products/fish-marine-predatory]]
 - [[ingredients/fish]]
 - [[ingredients/seafood]]
 - [[metals/cadmium]]
@@ -56,10 +63,16 @@ App: Can inform seafood context if species and edible portion are retained.
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[metals/aluminum]]
+- [[metals/copper]]
+- [[metals/zinc]]
+- [[metals/cobalt]]
+- [[metals/iron]]
+- [[metals/manganese]]
+- [[metals/mercury-total]]
 
 ## Verification notes
 
-The paper reports ppm total-element values. Because organ-specific tables are central, downstream extraction should preserve tissue type and should not treat organ means as fillet means.
+The paper reports total-element values on a dry-weight basis (1 g dried tissue digested). Downstream extraction must preserve tissue type, retain the dry-weight basis flag, and route Snapper rows to predatory product pages and Sardine/Mackerel rows to non-predatory product pages. Organ means cannot be silently pooled with fillet (muscle) means.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
