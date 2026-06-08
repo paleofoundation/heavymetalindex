@@ -27,9 +27,9 @@ Sadee measured arsenic, cadmium, chromium, copper, and lead in ten commonly cons
 
 ## Key numbers
 
-- Sample frame: ten vegetable types from Erbil local markets, including chard, celery, garden cress, spinach, Egyptian leek, wild mint, spring onion, arum, mallow, and sunflower.
-- Reported concentration ranges in µg/g: As 0.198-0.436; Cd <LOD-0.396; Cr 1.653-11.915; Cu 3.956-17.782; Pb 0.244-1.323.
-- The method was validated with GBW10015 spinach certified reference material.
+- Sample frame: ten vegetable types from Erbil local markets, including chard, celery, garden cress, spinach, Egyptian leek, wild mint, spring onion, arum, mallow, and sunflower. Each vegetable was analyzed in triplicate (n=3 measurements per type).
+- Reported concentration ranges in µg/g dry weight: As 0.160-0.436; Cd <LOD-0.396; Cr 1.653-11.915; Cu 3.956-17.782; Pb 0.244-1.323. (The abstract states the As minimum as 0.198, but Table 4, Section 3.2.1, and the Conclusion all give 0.160 µg/g in celery as the minimum; the data-supported range is used here.)
+- The method was validated with GBW10015 spinach certified reference material; recoveries for As, Cd, Cr, Cu, and Pb were 103, 105, 104, 96, and 109 percent, respectively.
 - The authors state that estimated daily intake values were below maximum tolerable daily intake, while carcinogenic risk for As, Cd, Cr, and Pb exceeded the acceptable level.
 
 ## Methods (brief)
@@ -55,6 +55,7 @@ App: Can inform vegetable risk priors for Kurdistan/Iraq market context, not US-
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
+- [[metals/copper]]
 - [[metals/lead]]
 
 ## Verification notes
