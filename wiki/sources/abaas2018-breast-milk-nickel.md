@@ -3,7 +3,7 @@ type: source
 raw_handle: AUTO_ing-human-milk-ni-2018-10-29196-jubpas-v26i8-1672
 cite_key: abaas2018-breast-milk-nickel
 title: "Determination of Nickel Concentration in the Breast Milk of Lactating Mothers Living In Hilla City"
-authors: ["Abaas I M N", "Al-Sharify N", "Baiee H A"]
+authors: ["Nassir I M", "Al-Sharify A N", "Baiee H A"]
 year: 2018
 publication: "Journal of University of Babylon for Pure and Applied Sciences"
 doi: 10.29196/jubpas.v26i8.1672
@@ -12,14 +12,14 @@ evidence_tier: A
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-human-milk-ni_2018_10-29196-jubpas-v26i8-1672.pdf"
 metals: [Ni]
-ingredients: ["[[ingredients/human-milk]]", "[[ingredients/breastmilk]]"]
+ingredients: ["[[ingredients/breastmilk]]"]
 products: ["[[products/infant-food-general]]"]
 matrices: [breast-milk]
 jurisdictions: [IQ]
 near_duplicates: []
-sample_n: null
+sample_n: 68
 sample_population: "lactating mothers living in Hilla City, Iraq"
-updated: 2026-05-29
+updated: 2026-06-08
 ---
 # Abaas et al. 2018 - Nickel in breast milk in Hilla City
 
@@ -27,14 +27,15 @@ Abaas and colleagues measured nickel in breast milk from lactating mothers livin
 
 ## Key numbers
 
-- The reported mean nickel concentration in human milk was 23.83 +/- 15.57 ppb.
-- The authors describe the value as high compared with concentrations reported in other countries.
-- The paper reports associations between higher nickel concentrations and rural residence, maternal factors, and water-source variables.
-- The extracted text states abnormal concentration prevalence values of 99% and 93%, but the table context should be rechecked before using those percentages in public synthesis.
+- Sample size: 68 apparently healthy lactating mothers, sampled mid-February through end of April 2012.
+- Mean nickel concentration in breast milk: 23.83 +/- 15.57 ppb (µg/L).
+- Subgroup means (mean ± SD, µg/L): rural (n=36) 30.81 ± 16.59 vs urban (n=32) 24.95 ± 19.55 (p<0.05); near street (n=32) 31.59 ± 17.41 vs far from street (n=36) 25.3 ± 18.89; near industrial area (n=22) 30.99 ± 12.98 vs normal area (n=46) 24.31 ± 13.40; tap water (n=43) 26.15 ± 2.31 vs bottled (n=18) 17.4 ± 2.43 vs river (n=7) 22.12 ± 5.42; smoker (n=8) 47.5 ± 20.05 vs non-smoker (n=60) 20.68 ± 11.89.
+- The authors describe the overall mean as high compared with concentrations reported in Turkey (3 µg/L) and the USA (15 µg/L) per the paper's Table 8.
+- Prevalence of mothers with abnormal nickel concentration: 45 of 68 (66%) per Table 9. The abstract's "99% and 93% respectively" appears to be templating leftover from a multi-metal study; the paper itself only reports nickel and Table 9 is the only prevalence table.
 
 ## Methods (brief)
 
-Breast milk samples were collected from lactating mothers, stored frozen, and analyzed for nickel by atomic absorption methods. The paper reports total nickel concentration.
+Ten millilitres of breast milk were self-expressed by manual breast pump after washing the breast with deionized water and discarding the first drops; midstream milk was collected into sterile polypropylene tubes, transported at -18 to -21 °C, and stored at -30 °C at the chemical laboratory of the College of Science, Babylon University. Nickel was determined by graphite furnace atomic absorption spectrometry with a calibration curve at 232 nm (Figure 1). Statistical analysis used SPSS v17 with Student's t-test and one-way ANOVA at p<0.05 significance. The paper reports total nickel concentration.
 
 ## Implications
 
@@ -46,7 +47,6 @@ App: Can inform human-milk exposure context if the app tracks breastfeeding sepa
 
 ## Wiki pages this source may touch
 
-- [[ingredients/human-milk]]
 - [[ingredients/breastmilk]]
 - [[products/infant-food-general]]
 - [[metals/nickel]]
@@ -54,6 +54,10 @@ App: Can inform human-milk exposure context if the app tracks breastfeeding sepa
 ## Verification notes
 
 The filename came from a human-milk Ni gap and matches the source content. No speciation issue applies for nickel.
+
+Cite-key/filename caveat for Karen: the assigned cite-key `abaas2018-breast-milk-nickel` was derived from a misreading of the byline. The PDF's first-author surname is Nassir (Ishtar Munim Nassir, Babylon Health Directorate); "Abaas" is the second author's first name (Abaas Noor Al-Sharify). A future rename to `nassir2018-breast-milk-nickel` would be more accurate. The `authors` frontmatter has been corrected; the cite-key itself is preserved here under the hard-constraint rule that the audit step does not rename cite-keys or raw handles.
+
+The paper's abstract contains two internal inconsistencies that do not affect the wiki extraction but are flagged here for transparency: (1) the abstract says higher Ni concentrations were associated with "living in urban regions", but Table 1 and the Discussion both state Ni was higher in rural mothers — Table 1's data is treated as authoritative; (2) Table 8 labels the comparison column "Cd(µg/L)" while the entire paper measures Ni — the values in Table 8 are Ni, not Cd, as confirmed by the matching 23.83 ± 15.57 figure.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
