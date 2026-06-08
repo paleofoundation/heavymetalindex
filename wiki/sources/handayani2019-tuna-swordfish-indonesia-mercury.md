@@ -13,14 +13,14 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-thg_2019_10-15578-jpbkp-v14i1-572.pdf"
 metals: ["tHg"]
 ingredients: ["[[ingredients/swordfish]]", "[[ingredients/fish]]"]
-products: ["[[products/seafood]]"]
-matrices: ["yellowfin-tuna", "bigeye-tuna", "swordfish"]
+products: ["[[products/seafood]]", "[[products/fish-marine-predatory]]"]
+matrices: ["fish"]
 jurisdictions: ["ID"]
 sample_population: "895 official-control mercury records for yellowfin tuna, bigeye tuna, and swordfish from Indian and Pacific Ocean catch areas"
 wiki_doi: null
-sampling_locations: []
-sampling_year_range: null
-updated: 2026-05-25
+sampling_locations: ["Indian Ocean (southern, off Indonesia)", "Pacific Ocean (western, off Indonesia)"]
+sampling_year_range: "2012-2017"
+updated: 2026-06-09
 ---
 
 # Handayani et al. 2019 - Kandungan Logam Berat Merkuri Pada Ikan Tuna (Yellowfin dan Bigeye) dan Tuna-like (Swordfish) Hasil Tangkapan dari Samudera Hindia dan Samudera Pasifik
@@ -29,18 +29,21 @@ This study analyzed 895 secondary official-control records for mercury in yellow
 
 ## Key numbers
 
-Source units are mg/kg.
+Source units are mg/kg, fresh weight.
 
-- Dataset size: 895 mercury testing records.
-- Yellowfin tuna: 0.06 +/- 0.06 to 0.33 +/- 0.18.
-- Bigeye tuna: 0.05 +/- 0.02 to 0.33 +/- 0.14.
-- Swordfish: 0.08 +/- 0.01 to 1.61 +/- 0.02, increasing with fish weight.
-- 34% of swordfish over 50 kg from the Indian Ocean exceeded 1.0 mg/kg mercury.
-- Mercury in tuna and tuna-like fish from the Indian Ocean was significantly higher than from the Pacific Ocean.
+- Dataset size: 895 mercury testing records collected 2012-2017. 443 records from Indian Ocean catch areas (167 yellowfin, 126 bigeye, 150 swordfish) processed at units in Muara Baru-Jakarta and Benoa-Bali; 452 records from Pacific Ocean catch areas (179 yellowfin, 218 bigeye, 55 swordfish) processed at units in Bitung-North Sulawesi.
+- Yellowfin tuna: mean range 0.06 +/- 0.06 to 0.33 +/- 0.18; no records above 1.0 mg/kg.
+- Bigeye tuna: mean range 0.05 +/- 0.02 to 0.33 +/- 0.14; no records above 1.0 mg/kg.
+- Swordfish: mean range 0.08 +/- 0.01 to 1.61 +/- 0.02; concentration increases strongly with fish weight (linear regression R² = 0.86 Indian Ocean, R² = 0.85 Pacific Ocean).
+- 34% of swordfish over 50 kg from the Indian Ocean exceeded 1.0 mg/kg mercury (abstract and conclusions headline figure). A body-text figure of 27.3% of all Indian Ocean swordfish (no weight qualifier) exceeding 1.0 mg/kg appears alongside the 34% figure; the two use different denominators.
+- Pacific Ocean swordfish ranged 0.08 to 0.57 mg/kg with no records above 1.0 mg/kg.
+- Indian Ocean highest mean concentrations: yellowfin 0.33, bigeye 0.39, swordfish 1.61 mg/kg. Pacific Ocean highest: yellowfin 0.20, bigeye 0.21, swordfish 0.57 mg/kg.
+- Mercury concentration in tuna and tuna-like fish from the Indian Ocean was significantly higher than from the Pacific Ocean (independent-sample t-test).
+- Yellowfin and bigeye tuna mercury showed weak or no correlation with fish weight (R² = 0.08-0.20 across ocean and species).
 
 ## Methods
 
-The study used secondary official-control data from BKIPM and analyzed associations with fish weight and ocean origin using regression and t-tests. Mercury was measured by AAS.
+The study analyzed secondary BKIPM (Badan Karantina Ikan, Pengendalian Mutu dan Keamanan Hasil Perikanan) official-control monitoring data 2012-2017 from fish processing units exporting whole, loin, saku, or steak product to the EU and USA. Mercury was determined by graphite furnace atomic absorption spectrophotometry (Perkin Elmer AAnalyst 800) with wet ashing digestion (SNI 01-2354.6-2006), in ISO 17025-accredited laboratories. Statistical analysis used linear regression on weight-class group means and independent-sample t-tests to compare Indian and Pacific Ocean catch areas. Weight classes followed commercial trade categories: 1-10, 11-30, 31-50, 51-100, and >100 kg.
 
 ## Implications
 
