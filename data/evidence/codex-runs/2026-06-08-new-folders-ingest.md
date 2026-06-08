@@ -11,7 +11,7 @@ Scope: drained `raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/` first,
 
 ## Verification and checks
 
-- `npm run evidence:source-routes`: exit 0. Final run processed 1730 source pages, wrote 3688 product-source routing rows, and reported 18 unresolved targets plus 855 malformed sources as non-blocking existing corpus state. New/late cite keys checked for this wrap-up (`ho2016-hong-kong-rock-shell-organotins`, `reinke1975-fish-shellfish-inorganic-arsenic`, `schoof2007-seafood-arsenic-speciation`, `pereira2008-ria-aveiro-mercury-review`, `uneyama2007-arsenic-foods-cumulative-data`) were absent from `routing_unresolved.csv` and `routing_malformed.csv`.
+- `npm run evidence:source-routes`: exit 0. Final run processed 1731 source pages, wrote 3676 product-source routing rows, and reported 18 unresolved targets plus 856 malformed sources as non-blocking existing corpus state. New/late cite keys checked for this wrap-up (`ho2016-hong-kong-rock-shell-organotins`, `reinke1975-fish-shellfish-inorganic-arsenic`, `schoof2007-seafood-arsenic-speciation`, `pereira2008-ria-aveiro-mercury-review`, `uneyama2007-arsenic-foods-cumulative-data`) were absent from `routing_unresolved.csv` and `routing_malformed.csv`.
 - `npm run evidence:local-reingest`: exit 0; wrote 2510 local reingest queue rows and refreshed `data/evidence/local_reingest_summary.json`.
 - `npm run evidence:standards-gaps`: exit 0; wrote standards gap/action/adjudication/aggregate-distribution artifacts.
 - `npm run evidence:ai-adjudication`: exit 0; wrote 102 AI adjudication rows and summary.
