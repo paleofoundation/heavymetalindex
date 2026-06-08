@@ -49,7 +49,7 @@ Rice cereal samples were not analyzed for iAs because the as-consumed (reconstit
 
 Brown-vs-white rice differential, rice crackers only (Figure 3, page 7): white-rice crackers (n=9) mean tAs 95 ppb; brown-rice crackers (n=9) mean tAs 170 ppb; mixed white+brown (n=3) ~150 ppb. The brown-vs-white difference was significant (p = 0.02), attributed to higher arsenic retention in the bran layer.
 
-Country-of-origin tAs in rice crackers (Figure 4, page 8): China n=9 mean ~95 ppb (lowest); Thailand n=3 ~145 ppb; Europe (Belgium and Netherlands) n=6 ~160 ppb; Australia made from local ingredients n=12 ~205 ppb; Australia mixed-origin n=12 ~175 ppb; USA n=3 ~235 ppb (highest).
+Country-of-origin tAs across all rice-based products (Figure 4 and Section 3.2.4, page 8): the paper reports the following means in source text — China n=9, 100 ppb (lowest, attributed to the Chinese national maximum level of 0.15 mg/kg for iAs in rice); USA n=3, 240 ppb (highest); Australia produced from Australian ingredients n=12, 210 ppb; Australia produced from mixed Australian and imported ingredients n=12, 180 ppb. Thailand (n=3) and Europe (Belgium and Netherlands, n=6) values are shown only in Figure 4 (no explicit text values); the figure shows Thailand and Europe means falling between China and the Australian categories.
 
 Rice-content correlation in rice crackers (Figure 1, page 6): tAs (mg/kg) = 0.32 × (rice fraction) − 0.13, r² = 0.41, p = 0.002 across n=21. Other rice-based foods had narrow rice-content ranges (~99%) and were not amenable to this correlation.
 
@@ -75,18 +75,18 @@ Quality control: for tAs, instrumental LOD was 0.02 µg/kg and dry-sample LOD wa
 | Product category | Routes to | n_a_tier impact |
 | --- | --- | --- |
 | Rice cereal n=12 | [[products/baby-cereals-dry-rice-based]] | Summary-statistic A-tier source for tAs (Table 2 row mean 134 ppb). The paper does not provide a rice-cereal-specific iAs mean (samples not analyzed for iAs); the ~75% overall iAs-exceedance claim covers rice cereal categorically but does not yield a routable iAs central value for this row. |
-| Rice crackers n=21 | [[products/teething-and-snacks-rice-based]], [[products/rice-snacks-crackers]] | A-tier source for tAs (mean 132 ppb) and iAs (mean 94 ppb, iAs:tAs 74.3%) in rice-based teething/snacks. Brown-vs-white-rice differential (170 vs 95 ppb) and country-of-origin spread (China 95 to USA 235 ppb) are routable as occurrence sub-strata. |
+| Rice crackers n=21 | [[products/teething-and-snacks-rice-based]], [[products/rice-snacks-crackers]] | A-tier source for tAs (mean 132 ppb) and iAs (mean 94 ppb, iAs:tAs 74.3%) in rice-based teething/snacks. Brown-vs-white-rice differential (170 vs 95 ppb) and country-of-origin spread (China 100 to USA 240 ppb) are routable as occurrence sub-strata. |
 | Rice milk powder n=3 | [[products/plant-milks-rice-based]], [[products/rice-beverages-rice-milk]] | A-tier summary source for tAs (mean 428 ppb) and iAs (mean 160 ppb). Sample size (n=3) is below the 10-sample defensibility floor and the paper notes that reconstitution dilutes as-consumed exposure; treat as triangulation evidence. |
 | Rice pasta n=3 | [[products/pasta-rice-based]] | A-tier summary source for tAs (mean 186 ppb) and iAs (mean 155 ppb, iAs:tAs 84.8%, the highest in the study). Sample size (n=3) is below the 10-sample floor; treat as triangulation. The paper flags rice pasta as the highest dietary-exposure category in both age groups. |
 | Wheat pasta n=3 (non-rice comparator) | [[products/pasta-wheat-based]] | Broad product context — clean comparator (tAs 6 ± 2 ppb) demonstrating that rice content is the contamination driver. Not routable as a central value but useful as the rice-vs-non-rice contrast. |
 
-## Geographic and dietary-exposure context
-
-Australian-market rice cereal mean tAs (134 ppb) is in the same range as U.S. FDA 2024 rice-named dry infant cereal p50 (115 ppb) and FDA 2016 rice infant cereal mean (103 ppb), indicating consistency across U.S., EU, and Australian markets for total arsenic in rice cereal. The iAs:tAs ratio of 74–85% across rice products is consistent with the inorganic-arsenic-dominant speciation pattern reported in U.S. and EU literature.
+## Dietary-exposure context (within-paper)
 
 For 9-month-old infants, the tAs mean dietary exposure for all food groups was below the EFSA BMDL01 range of 0.3–8 µg/kg b.w./day. At the 90th percentile, however, all rice pasta samples and 33% of rice cracker samples fell within the BMDL01 range. For iAs, only the 90th-percentile rice-pasta exposure for 9-month-olds reached the BMDL01 range. For 2–5-year-old children, mean rice-pasta and rice-cracker tAs 90th-percentile exposures were within the BMDL01 range, and 90th-percentile iAs for rice pasta was within the BMDL01 range.
 
 The paper notes that the current Australian permissible limit for tAs in rice (1.0 mg/kg per Australia New Zealand Food Standards Code Schedule 19, 2017) is more than three times the proposed WHO maximum level for tAs in rice (0.3 mg/kg) and is therefore less protective for infants and children than EU and FAO/WHO reference values (Table 1, page 2).
+
+The paper's own Discussion (Section 3.1, Table 3) compares its results to studies in Spain, Switzerland, the United States, and the United Kingdom; that within-paper comparison is reported here for completeness but is not used as a cross-source synthesis claim — cross-source synthesis belongs in the Part 9 synthesis workflow, not on a source page.
 
 ## Evidence Fitness
 
@@ -103,7 +103,7 @@ EF-3 limited evidence: summary statistics (mean ± SE) rather than sample-level 
 
 ## Implications
 
-Certification: A-tier summary evidence for rice-cereal tAs, rice-cracker iAs and tAs, rice-milk-powder iAs and tAs, and rice-pasta iAs and tAs cells. Combined with FDA 2024 rice-named dry infant cereal sample-level data (n=256 for tAs) and Signes-Pastor 2016 (n=199 EU+US rice crackers), Gu 2020 brings several rice-based cells closer to the n_a_tier=2 threshold for medium-confidence designation. The brown-vs-white-rice differential in rice crackers (170 vs 95 ppb) is the kind of within-category stratification that supports clean/dirty subcategory analysis under the locked methodology in Part 19.
+Certification: A-tier summary occurrence evidence for rice-cereal tAs, rice-cracker iAs and tAs, rice-milk-powder iAs and tAs, and rice-pasta iAs and tAs cells. The brown-vs-white-rice differential in rice crackers (170 vs 95 ppb) provides within-category stratification data; whether that differential warrants subcategory treatment is a question for Part 19 standards-setting, not for this source page.
 
 Courses: Useful for teaching rice-vs-non-rice contamination differentials, brown-vs-white-rice differentials, iAs:tAs speciation ratios (74–85% in rice products), and the dietary-exposure mechanism (concentration × consumption rate ÷ body weight) for infant and toddler audiences.
 
@@ -135,6 +135,18 @@ Merge-enhanced from the 2026-05-09 JATS-XML-only ingest on 2026-06-08 after the 
 Numerical fidelity spot-check (existing page vs PDF Table 2, page 5): rice milk powder tAs 0.428 mg/kg = 428 ppb ✓; rice pasta iAs 0.155 mg/kg = 155 ppb ✓; rice crackers iAs:tAs 74.3% ✓; non-rice pasta tAs 0.006 mg/kg = 6 ppb ✓. All previously-reported values verified correct.
 
 Brand-firewall spot-check: the paper notes "11 brands from 6 countries of origin" in Section 2.1 without naming individual brands in the results; no brand-level rankings to scrub. The wiki page contains no brand names in contamination contexts.
+
+### Phase 2 audit applied (2026-06-08, subagent a6e7a9db5979803f1)
+
+Subagent verdict: REVISE.
+
+Findings applied (all verified against the PDF):
+
+- Check 1 ❌ Figure 4 country-of-origin values: subagent flagged that the wiki had figure-read estimates (China ~95, Australia local ~205, Australia mix ~175, USA ~235 ppb) when the source text Section 3.2.4 (page 8) gives explicit values (China 100, Australia local 210, Australia mix 180, USA 240 ppb). Verified by re-reading page 8: text says "from China had the lowest mean tAs concentration (0.10 mg kg⁻¹)" and "from the United States of America (USA) had the most elevated mean tAs concentration (0.24 mg kg⁻¹)" and "Rice-based foods produced in Australia and products made from Australian and imported ingredients had mean tAs concentrations of 0.21 mg kg⁻¹ and 0.18 mg kg⁻¹, respectively." Corrected the Key Numbers narrative and the country-of-origin spread cell in the Routing table. Thailand and Europe values reclassified as figure-only estimates since the text does not quote explicit means for them.
+- Check 5 ❌ Cross-source synthesis (FDA 2016 / FDA 2024 / Signes-Pastor comparisons): subagent flagged three places where the wiki page compared Gu 2020 to other-paper values or did synthesis math. Verified against Part 2 and the audit-prompt Check 5 boundary (the page may report what Gu 2020 contributes; it may not synthesize across sources — Part 9 owns that). Removed the FDA-2016/2024 rice-cereal comparison from the geographic-context section, removed the "consistent with U.S. and EU literature" speciation generalization, and removed the "Combined with FDA 2024... and Signes-Pastor 2016... brings to n_a_tier=2" claim from Implications. The within-paper comparison Gu 2020 makes in its own Discussion (Section 3.1, Table 3) is now reported with an explicit note that within-paper context is not cross-source synthesis.
+- Check 5 ⚠️ Part 19 framework editorializing: subagent flagged "supports clean/dirty subcategory analysis under the locked methodology in Part 19" as borderline. Softened to "provides within-category stratification data; whether that differential warrants subcategory treatment is a question for Part 19 standards-setting, not for this source page" — preserves the empirical observation while moving the framework-judgment call back to Part 19.
+
+Findings rejected (false positives): none. The Check 1 ⚠️ items (Figure 3 mixed-rice "~150 ppb" eyeballed from the figure box; "ranged 37% to 91% across rice products" framing) and the Check 1 numerical-fidelity ✅ items required no action.
 
 ## Wiki Pages Updated On Ingest
 
