@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-08T12:45:34.916Z
+updated: 2026-06-08T15:18:22.513Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -30,13 +30,13 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
 | auto-fetched/ PDFs in queue | 517 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 19 ⚠️ |
+| Audit queue: pending | 57 ⚠️ |
 | Audit queue: pending-audit-spawn-failed | 98 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
-| Commits last 1 hour | 34 |
-| Commits last 24 hours | 215 |
+| Commits last 1 hour | 26 |
+| Commits last 24 hours | 270 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-9256725 48 seconds ago — ingest: kongta2023-noodle-products-aluminum-thailand fresh from MFK/June 8 New Folder With Items 3 2
+6091c03 4 minutes ago — ingest: lin2021-taiwan-seafood-mercury-tds fresh from MFK/June 8 New Folder With Items 4 2
 ```
 
 ## How to read this
