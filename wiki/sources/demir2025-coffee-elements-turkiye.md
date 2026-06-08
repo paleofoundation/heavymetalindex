@@ -41,7 +41,8 @@ Element concentrations were reported for brewed coffee. Table 1 reports aluminum
 | Arsenic | Not detected in all coffee types |
 | Cadmium | Not detected in all coffee types |
 | Lead | Detected in four coffee types: Gold P2 11.50 +/- 0.7 ug/L; Gold P3 20.50 +/- 0.7 ug/L; Decaffeinated P3 36.00 +/- 2.8 ug/L; Decaffeinated P1 19.00 +/- 1.4 ug/L |
-| Nickel | Detected in six coffee types: 26.50, 12.50, 7.50, 7.50, 7.50 ug/L-class values depending on product; several products not detected |
+| Nickel | Detected in five coffee types: Classic P1 26.50 +/- 2.1; Milicano P2 12.50 +/- 0.7; Gold P1 7.50 +/- 0.7; Gold P2 7.50 +/- 0.7; Decaffeinated P1 7.50 +/- 0.7 ug/L; five products not detected |
+| Chromium | Detected in four coffee types: Green P1 13.10 +/- 1.3; Gold P2 6.00 +/- 0.7; Gold P3 11.50 +/- 0.7; Decaffeinated P1 10.50 +/- 0.7 ug/L; total/unspecified Cr by ICP-OES |
 | Aluminum | Detected in all coffee types, 8.50-57.50 ug/L across Table 1 |
 | Barium | Detected in all coffee types, 8.00-72.50 ug/L across Table 1 |
 | Risk screening | All hazard index values were below 1 for 300 mL/day; target carcinogenic risk was below 1e-4 for all types except Classic P1 per the authors' conclusion |
@@ -65,8 +66,11 @@ For standards and app work, the source is summary-table evidence rather than sam
 - [[metals/lead]]
 - [[metals/nickel]]
 - [[metals/aluminum]]
+- [[metals/barium]]
+- [[metals/chromium]]
 - [[metals/arsenic]]
 - [[metals/cadmium]]
+- [[metals/antimony]]
 
 ## Verification notes
 
