@@ -45,7 +45,7 @@ The cis-acting regulatory landscape of the MT-I promoter spans approximately -20
 
 ### The six start-site groups (Figure 2A)
 
-The transcription start sites were operationally grouped into six clusters labelled A through F (panel B), where A = +3 to -1, B = -25 to -35, C = -39 to -45, D = -51 to -119, E = -82 to -146, F = -133 to -146. Group A is the canonical TATA-dependent +1 RNA. Groups B-F are the upstream TATA-independent RNAs. Quantitation in panel A shows, for each of testis, kidney, and L cells, the total MT-I RNA (left bars) and the start-site distribution (right bars). In L cells and kidney the +1 (Group A) transcript dominates; in testis the upstream groups dominate, with Group A constituting only ~15% of total MT-I RNA.
+The transcription start sites were operationally grouped into six clusters labelled A through F (panel B), where A = +3 to -1, B = -25 to -35, C = -39 to -75, D = -51 to -119, E = -82 to -146, F = -133 to -146 (per Fig. 2 legend, p. 5649). Group A is the canonical TATA-dependent +1 RNA. Groups B-F are the upstream TATA-independent RNAs. Quantitation in panel A shows, for each of testis, kidney, and L cells, the total MT-I RNA (left bars) and the start-site distribution (right bars). In L cells and kidney the +1 (Group A) transcript dominates; in testis the upstream groups dominate, with Group A constituting only ~15% of total MT-I RNA.
 
 ### Tissue distribution (Figure 1B, 1C)
 
@@ -72,9 +72,9 @@ The paper's central conclusion is that the upstream RNAs are mechanistically TAT
 - **Acute Cd dose (mouse subcutaneous, sacrifice 3 h post-injection):** 200 µL of H₂O or 0.9% NaCl with or without CdSO₄ at 10 mg Cd/kg body weight.
 - **Chronic Cd pretreatment dose:** 0.25 mg Cd/kg/day (subcutaneous CdSO₄ in saline) for 12 days; saline control n=5; Cd pretreated n=6.
 - **High-dose Cd challenge after pretreatment:** single 1 mg Cd/kg subcutaneous injection 13 days post-treatment.
-- **Effect of high-dose Cd alone (no pretreatment):** ~50% decrease in testicular weight at 13 days (n=4).
+- **Effect of high-dose Cd after saline pretreatment:** testes "weighed approximately half as much" as saline-control testes (n=6 high-dose Cd arm; n=5 saline-only control) at 13 days.
 - **Effect of high-dose Cd after Cd pretreatment:** "no discernible decrease in testicular weight" (n=4); body and kidney weights unaffected in either arm.
-- **MT-I transcription start site groupings (numbering relative to the +1 start site):** A = +3 to -1; B = -25 to -35; C = -39 to -45; D = -51 to -119; E = -82 to -146; F = -133 to -146.
+- **MT-I transcription start site groupings (numbering relative to the +1 start site, per Fig. 2 legend, p. 5649):** A = +3 to -1; B = -25 to -35; C = -39 to -75; D = -51 to -119; E = -82 to -146; F = -133 to -146.
 - **Approximate position of canonical MT-I TATA element:** -25 to -30 (TATAAA → TCGAGA in the TATA-mutant construct pMCT).
 - **Approximate positions of two Sp1 sites:** distal ~-145 (mutated in pMCSPA: GGGGCGG → GCCCGGG); proximal ~-50.
 
@@ -146,3 +146,9 @@ Funded by NIH, the Rita Allen Foundation, the Lucille P. Markey Charitable Trust
 **Raw-handle stem.** The MFK_31 handle stem `MFK_31-tissue-specific-expression-of-metallothionein-i` is taken from the Kimi-generated PDF filename `31_Tissue-Specific_Expression_of_Metallothionein-I_Gene.pdf`. The Kimi label uses "Metallothionein-I Gene" as the descriptive index-card title; the actual journal article title is "Tissue-Specific Expression from a Compound TATA-Dependent and TATA-Independent Promoter". The discrepancy between handle stem and actual title is a known artifact of the Kimi indexing and is documented here rather than corrected, because changing the raw_handle would lose the audit trail back to the source folder.
 
 **Scope fit.** The paper sits in the "Black Market Peptide Metal Survey / heavy_metals_peptides" Manual Fetch Kimi folder alongside [[ruttkay-nedecky2013-metallothionein-oxidative-stress]], [[thirumoorthy2007-metallothionein-overview]], [[yang2024-metallothionein-comprehensive-review]], [[grill1989-phytochelatins-heavy-metal-binding-peptides-plants]], [[nagel1989-cadmium-resistant-chlamydomonas]], and other peptide/metal mitigation papers. Per the 2026-06-02 scope commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`, peptide/metallothionein mechanism papers are in-scope as background for the mitigation-evidence chapter. This 1990 primary-experimental paper is the foundational mechanism of metallothionein-I gene transcriptional regulation that the contemporary reviews lean on.
+
+**Audit subagent (2026-06-08) verdict: REVISE → applied.** Five checks returned two ❌ on Check 1 (numerical fidelity) and ✅ on Checks 2/3/4/5 (slug vocabulary, speciation/methods, Part 12 brand firewall, Part 2 HMTc firewall). Both ❌ findings were independently re-verified against the PDF and applied:
+- **Finding 1 (Group C boundary, ❌):** verified PDF Fig. 2 legend on p. 5649 gives "C, −39 to −75" as the boundary, not "C = −39 to −45" as originally written. The wiki had the wrong upper boundary for Group C in two places (the "six start-site groups" paragraph and the Key numbers list). Corrected both occurrences to "C = −39 to −75" and added the page-citation anchor.
+- **Finding 2 (n attribution for high-dose Cd protection arms, ❌):** verified PDF p. 5647 col. 2 states "The testes of mice given a single injection of 1 mg of Cd per kg after pretreatment with saline (n = 6)…weighed approximately half as much as those from mice injected with saline after the saline pretreatment (n = 5)" and "Mice pretreated with CdSO₄ showed no such decrease in testicle weight (n = 4)." The wiki had labelled the half-weight (saline-pretreatment → Cd-challenge) arm as n=4; the correct n for that arm is n=6, with n=5 the saline-only control. The n=4 belongs to the Cd-pretreated → Cd-challenge "no decrease" arm. Rewrote the bullet to reflect the source's three-arm structure (n=6 Cd-after-saline, n=5 saline-only control, n=4 Cd-after-Cd).
+
+2 findings, 2 applied, 0 rejected. Audit subagent ID a9f6f632d54da1a39.
