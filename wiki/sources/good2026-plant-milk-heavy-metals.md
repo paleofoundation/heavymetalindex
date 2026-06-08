@@ -43,7 +43,7 @@ All concentrations are reported in micrograms per liter (µg/L) of the beverage 
 | Oat | 0.49 ± 0.09 | 0.13 ± 0.03 | 0.10 ± 0.04 | 0.26 ± 0.06 |
 | Rice | 0.26 ± 0.05 | 0.64 ± 0.27 | 0.04 ± 0.01 | 0.26 ± 0.06 |
 | Hemp | 0.68 ± 0.55 | 0.28 ± 0.22 | 0.05 ± 0.02 | 0.21 ± 0.03 |
-| Cashew | 0.41 ± 0.05 | 0.05 ± 0.02 | 0.03 ± 0.01 | 0.18 ± 0.02 |
+| Cashew | 0.41 ± 0.05 | 0.05 ± 0.02 | 0.03 ± 0.02 | 0.18 ± 0.02 |
 
 Per-analyte ranges across the eight milk categories: Cr 0.11 to 0.68 µg/L (lowest cow, highest hemp); total As 0.02 to 0.64 µg/L (lowest cow, highest rice); Cd 0.03 to 0.17 µg/L (lowest cow/cashew, highest soy); Pb 0.18 to 0.28 µg/L (lowest almond/cashew, highest coconut/soy). The authors highlight three patterns: Cr, As, and Cd were predominantly higher in PBMAs than in cow milk; rice and hemp milks led the As column; Pb concentrations were comparable across cow milk and PBMAs.
 
@@ -158,3 +158,5 @@ Methods note: the source's Materials and Methods section contains the editorial 
 Brand attribution: the source does not name individual brands in any of the four data tables; samples are reported only by milk-type category (cow, almond, soy, etc.) and brand replication count (n = 2 to 4). No brand-firewall (Part 12) translation was needed on this page because the source itself does not surface brand-level identifiers in its data. The Materials and Methods section notes only that samples were "selected based on market availability and consumer prevalence rather than geographic sourcing."
 
 License confirmed CC-BY 4.0 from source p. 11 (Additional information / Open Access statement). DOI 10.1038/s41598-026-44766-0 resolves to the Nature Scientific Reports article; received 14 August 2025, accepted 13 March 2026, published online 09 April 2026; volume 16, article 16730. Funding: U.S. National Science Foundation grant 2306877. Competing interests: none declared.
+
+Audit subagent (2026-06-08, agent a4f698242d203b557) flagged that the Cashew Cd standard deviation was reported in this page as 0.03 ± 0.01 but source Table 1 (p. 3) reports 0.03 ± 0.02; verified independently against PDF Table 1 — source confirms 0.03 ± 0.02. Cashew Cd SD corrected to 0.03 ± 0.02. The Cashew Cd mean (0.03) is unchanged and the cross-milk-type "Cd 0.03 to 0.17 µg/L (lowest cow/cashew)" range statement remains correct. All other audit checks (slug vocabulary, speciation, methods, Part 12 brand-firewall, Part 2 wiki/HMTc firewall) returned ✅ clean; verdict REVISE with this single SD typo correction.
