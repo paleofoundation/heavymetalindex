@@ -13,6 +13,11 @@ source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY-NC-ND 4.0"
 raw_path: "raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia.pdf"
+raw_sha256: "71bd6c3131c0ef4a160e3c26afc45f57cf8a3a83c8ac00c0b36ed3013c4a692f"
+duplicate_filesystem_copies:
+  - path: "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia.pdf"
+    sha256: "71bd6c3131c0ef4a160e3c26afc45f57cf8a3a83c8ac00c0b36ed3013c4a692f"
+    note: "Byte-identical copy of the canonical raw_path; Kimi agent re-extracted the Aljedani 2017 Saudi Arabia honeybee/honey paper into the processed-foods/snacks/beverages subfolder of the June 8 corruption-issue tree. Recorded 2026-06-08 so future manual-fetch identity-check cycles in the June 8 batch recognize this location as already-ingested."
 metals: [Pb, Cd, Ni, Cr, Cu, Fe, Mn, Zn]
 ingredients: ["[[ingredients/honey]]"]
 products: ["[[products/honey]]"]
@@ -23,7 +28,7 @@ sample_population: "Honeybee (Apis mellifera jemenatica) and honey samples from 
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-20
+updated: 2026-06-08
 ---
 
 # Aljedani 2017 — Heavy metals and elements in honeybees and honey from Saudi Arabia
@@ -107,6 +112,8 @@ Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existin
 - **Internal precision discrepancy noted.** Cr Al-Baha honey is reported as 0.1599 in the paper's prose (p. 4) and as 0.159 in Table 3 (p. 5); the higher-precision prose value is shown in Key numbers, consistent with the prior revision.
 - Preserved cite_key, raw_handle, license, access_url, sample_n, frontmatter slugs, and the overall page structure. No new ingredient, product, or regulation pages proposed; all metals referenced are in the current `wiki/metals/` taxonomy.
 
+2026-06-08 byte-identical filesystem-copy enhancement: added `raw_sha256` (`71bd6c3131c0ef4a160e3c26afc45f57cf8a3a83c8ac00c0b36ed3013c4a692f`) and a `duplicate_filesystem_copies` block recording a second filesystem location of the canonical PDF at `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia.pdf`. Verified byte-identical via `shasum -a 256` against the canonical `raw_path` copy. Surfaced via the June 8 re-extraction batch placing the paper a second time under the processed-foods/snacks/beverages subfolder of the corruption-issue tree. Both filesystem locations now resolve to this canonical source page so future manual-fetch identity-check cycles in the June 8 batch skip re-ingest. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. Metadata-only enhancement; no new audit cycle spawned per 2026-06-02 precedent (no body or evidence-bearing frontmatter changed).
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -114,9 +121,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
