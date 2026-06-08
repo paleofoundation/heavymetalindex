@@ -23,24 +23,27 @@ updated: 2026-05-29
 ---
 # Mesinger and Ocieczek 2021 - Heavy metals in red deer meat in Poland
 
-Mesinger and Ocieczek measured arsenic, cadmium, lead, and mercury in meat samples from red deer does and assessed game-meat intake risk in Poland. The study is routeable for game-meat occurrence because Table 1 reports measured concentrations in meat samples. It found arsenic and mercury below detection in the sampled red deer meat, with lead and cadmium reported in mg/kg meat.
+Mesinger and Ocieczek measured arsenic, cadmium, lead, and mercury in meat samples from red deer does and assessed game-meat intake risk in Poland. The study is routeable for game-meat occurrence because Table 1 reports measured concentrations in meat samples. Arsenic, cadmium, and mercury were below the method detection limit in all 12 samples, and lead was below detection in 11 of 12 samples with a single sample at 0.018 mg/kg.
 
 ## Key numbers
 
-- Sample frame: 12 red deer doe meat samples.
-- Method range stated in the PDF: arsenic 0.010-5.0 mg/kg, cadmium 0.002-1.00 mg/kg, lead 0.010-5.0 mg/kg, and mercury 0.001-5.0 mg/kg.
+- Sample frame: 12 red deer doe meat samples from the northern part of the Pomeranian Voivodship, animals obtained January-February 2019.
+- Method working range stated in the PDF: arsenic 0.010-5.0 mg/kg, cadmium 0.002-1.00 mg/kg, lead 0.010-5.0 mg/kg, and mercury 0.001-5.0 mg/kg; the lower bound is the limit of detection for each analyte.
 - Table 1 reports arsenic, cadmium, lead, and mercury contents in red deer meat samples.
-- The authors state that arsenic and mercury were not determined in any of the 12 samples because they were below the method detection limit.
-- The discussion cites lead values around 0.1000 +/- 0.09 mg/kg in the tested red deer meat and notes comparison values from western Poland near 0.1200 +/- 0.10 mg/kg.
-- The source cites Polish or EU limits of 0.10 mg/kg fresh product for lead and 0.050 mg/kg fresh product for cadmium for slaughter-animal meat comparison.
+- Arsenic: <0.010 mg/kg in all 12 samples (12/12 below detection).
+- Cadmium: <0.002 mg/kg in all 12 samples (12/12 below detection).
+- Lead: <0.010 mg/kg in 11 samples and 0.018 mg/kg in one sample (sample 4).
+- Mercury: <0.001 mg/kg in all 12 samples (12/12 below detection).
+- The discussion cites comparison literature for lead: a mean of 0.1000 +/- 0.09 mg/kg in red deer meat from north-eastern Poland (Falandysz et al. 2005, Warmia and Mazury) and 0.1200 +/- 0.10 mg/kg in red deer meat from south-western Poland. These are cited values from other studies, not measurements from this study's 12 samples.
+- The source cites Commission Regulation 1881/2006 limits of 0.10 mg/kg fresh product for lead and 0.050 mg/kg fresh product for cadmium for slaughter-animal meat comparison.
 
 ## Methods (brief)
 
-The study analyzed meat samples for toxic elements and used the results in a dietary risk assessment. The paper reports total arsenic and total mercury, with no speciation into inorganic arsenic or methylmercury.
+Analyses were conducted at an independent accredited laboratory using inductively coupled plasma mass spectrometry (ICP-MS) per Polish Standard PN-EN 15763:2010. Each 300 g sample combined leg, shoulder, saddle, and diaphragm muscle from a single doe carcass. The paper reports total arsenic and total mercury, with no speciation into inorganic arsenic or methylmercury.
 
 ## Implications
 
-Certification: Supports direct game-meat Pb and Cd occurrence context for red deer, while As and Hg are non-detect context only.
+Certification: Supplies game-meat occurrence context for red deer as a near-total non-detect dataset at the stated method LODs. Arsenic, cadmium, and mercury are non-detect context across all 12 samples; lead contributes one above-LOD value at 0.018 mg/kg with 11 below-LOD samples.
 
 Courses: Useful for showing how game-meat risk assessments compare wild meat with slaughter-animal regulatory limits.
 
