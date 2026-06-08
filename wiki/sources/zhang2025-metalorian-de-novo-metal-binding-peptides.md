@@ -31,7 +31,7 @@ Zhang and colleagues (University of Pennsylvania, Duke-NUS Medical School, Duke 
 ## Why this matters
 
 - It is the first published platform that uses a protein-language-model-based classifier together with a diffusion model to generate, by sequence design alone, candidate heavy-metal chelators for cytotoxic targets including Cd. Prior peptide-design work in the wiki's chelation/bioremediation literature ([[sources/luo2024-peptides-heavy-metal-remediation]], [[sources/spallacci2025-bioinformatics-biomimetic-metal-peptide]], [[sources/shalev2022-peptide-metal-nmr-review]]) relies either on fixed natural scaffolds (metallothionein, phytochelatin), bioinformatic mining of known metal-binding fragments, or directed evolution; Metalorian extends the space to fully *de novo* sequence generation conditioned on metal label.
-- The MbPA training-set proportions reported in Figure 1A document a severe class imbalance across heavy metals: Zn (21,423 binders) and Fe (17,805) dominate; Pb (90), V (11), W (14), Pt (10), Mo (131), Ag (10) and Cd (149) are under-represented. The paper's MetaLATTE classifier achieves AUCROC 0.86-0.99 across all 14 metals despite this imbalance, which is the load-bearing claim for using the classifier as a guidance signal. The class-imbalance numbers are useful as a structural fact about the available metal-binding-protein training data — they reflect how much primary literature exists for each metal's binding biology, not how much exposure data exists.
+- The MbPA training-set proportions reported in Figure 1A document a severe class imbalance across heavy metals: Zn (21,423 binders) and Fe (17,805) dominate; V (6), W (10), Ag (10), Pt (11), Mo (14), Pb (90), Cd (131), Hg (149) and Co (197) are under-represented. The paper's MetaLATTE classifier achieves AUCROC 0.86-0.99 across all 14 metals despite this imbalance, which is the load-bearing claim for using the classifier as a guidance signal. The class-imbalance numbers are useful as a structural fact about the available metal-binding-protein training data — they reflect how much primary literature exists for each metal's binding biology, not how much exposure data exists.
 - For HMI's metal taxonomy, the paper's experimental validation directly addresses Cu and Zn (both in vitro binders confirmed via ELISA); the in silico generation addresses Cd, Co, and Ni in addition. The discussion frames the platform as a bioremediation tool — generating peptides for environmental remediation of toxic metals at industrial-scale contaminated sites — rather than a dietary or supply-chain intervention. Relevance for the wiki is to peptide-based chelation chemistry, not to food matrices.
 - The paper is methodologically transparent: model weights, code, and an inference pipeline are released at https://huggingface.co/ChatterjeeLab/MetaLATTE, https://huggingface.co/spaces/ChatterjeeLab/MetaLATTE-demo, and https://huggingface.co/ChatterjeeLab/Metalorian. This places it within reach for future external validation against larger benchmark sets and for combination with peer-reviewed peptide-chelation literature already in the wiki.
 
@@ -39,23 +39,25 @@ Zhang and colleagues (University of Pennsylvania, Duke-NUS Medical School, Duke 
 
 Training-data composition (Figure 1A; MbPA database; Methods, "Metal-Binding Protein Data Curation"; pp. 2, 7).
 
+Bars on Figure 1A are plotted in ascending count order; x-axis (left to right) is V, Ag, W, Pt, Mo, Pb, Cd, Hg, Co, Ni, Cu, Mn, N/A, Fe, Zn with the corresponding bar-top counts 6, 10, 10, 11, 14, 90, 131, 149, 197, 829, 913, 3,839, 5,230, 17,805, 21,423.
+
 | Metal label | Count of metal-binding proteins in MbPA training set | Source location |
 | --- | --- | --- |
+| V (vanadium) | 6 | Fig. 1A |
 | Ag (silver) | 10 | Fig. 1A |
-| Cd (cadmium) | 149 | Fig. 1A |
-| Co (cobalt) | 829 | Fig. 1A |
-| Cu (copper) | 3,839 | Fig. 1A |
-| Fe (iron) | 17,805 | Fig. 1A |
-| Hg (mercury) | 197 | Fig. 1A |
-| Mn (manganese) | 5,230 | Fig. 1A |
-| Mo (molybdenum) | 131 | Fig. 1A |
-| Ni (nickel) | 913 | Fig. 1A |
+| W (tungsten) | 10 | Fig. 1A |
+| Pt (platinum) | 11 | Fig. 1A |
+| Mo (molybdenum) | 14 | Fig. 1A |
 | Pb (lead) | 90 | Fig. 1A |
-| Pt (platinum) | 10 | Fig. 1A |
-| V (vanadium) | 11 | Fig. 1A |
-| W (tungsten) | 14 | Fig. 1A |
+| Cd (cadmium) | 131 | Fig. 1A |
+| Hg (mercury) | 149 | Fig. 1A |
+| Co (cobalt) | 197 | Fig. 1A |
+| Ni (nickel) | 829 | Fig. 1A |
+| Cu (copper) | 913 | Fig. 1A |
+| Mn (manganese) | 3,839 | Fig. 1A |
+| N/A (non-binding negatives, from Mpbipred) | 5,230 | Fig. 1A |
+| Fe (iron) | 17,805 | Fig. 1A |
 | Zn (zinc) | 21,423 | Fig. 1A |
-| N/A (non-binding negatives, from Mpbipred) | 3,839 | Fig. 1A |
 
 Classifier performance (MetaLATTE; Figure 1D, Figure 2B; Results, "MetaLATTE enables accurate classification of peptide binders for cognate heavy metals"; p. 2).
 
@@ -130,13 +132,13 @@ In vitro ELISA validation (Results, "Metalorian-generated proteins bind Cu and Z
 
 **Datasets.** Metal-binding-protein training data drawn primarily from the MbPA database, restricted to fourteen transition/heavy metals (Ag, Cd, Co, Cu, Fe, Hg, Mn, Mo, Ni, Pb, Pt, V, W, Zn); labels with fewer than 6 protein samples were excluded. Negative (non-binding) examples drawn from the Mpbipred database. Three benchmark test sets used: a stratified validation split from a stage-2 contaminated set, a non-overlapping MetalPDB extract, and a newly-sequenced mollusk dataset from Calatayud et al. 2021.
 
-**MetaLATTE classifier.** Two-stage fine-tuning on top of ESM-2-650M (last two transformer layers unfrozen) with attention-pooling layer and rotary position embeddings before the classification head. Stage 1: class-balanced focal loss + F1 loss + cross-entropy reconstruction loss on the balanced multi-label task. Stage 2: triplet loss with adaptive margins over synthetically-mutated (alanine-swap and BLOSUM62-substituted) "semi-hard" and "hard" negatives, to enforce site-specific sensitivity. Triplet sampling progresses from easy to hard negatives during training. Stage 1 trained for up to 30 epochs (early stopping on validation macro-F1); Stage 2 trained ~15 epochs. Hardware: 32 GPU-hours on a 7× A6000 DGX node for stage 1; 56 GPU-hours for stage 2.
+**MetaLATTE classifier.** Two-stage fine-tuning on top of ESM-2-650M (last two transformer layers unfrozen) with attention-pooling layer and rotary position embeddings before the classification head. Stage 1: class-balanced focal loss + F1 loss + cross-entropy reconstruction loss on the balanced multi-label task. Stage 2: triplet loss with adaptive margins over synthetically-mutated (alanine-swap and BLOSUM62-substituted) "semi-hard" and "hard" negatives, to enforce site-specific sensitivity. Triplet sampling progresses from easy to hard negatives during training. Stage 1 trained for up to 30 epochs (early stopping on validation macro-F1); Stage 2 trained ~15 epochs. Hardware: 32 GPU-hours on a 7× NVIDIA A6000 DGX server (350 GB shared VRAM) for stage 1; 56 GPU-hours on the same hardware for stage 2.
 
 **Metalorian generator.** Co-evolving conditional diffusion (CoDi-style; Lee et al. 2023) over two coupled processes: a continuous diffusion over MetaLATTE's ESM-2 embeddings (x_C ∈ ℝ^(B×L×1280)) and a discrete multinomial diffusion over a one-hot metal label vector (x_D ∈ ℝ^(B×15), 14 metals plus N/A) using a TabularUnet backbone. Bidirectional conditioning between the two processes at every timestep. Joint loss combines per-process diffusion losses with two contrastive (triplet) terms over matched/mismatched (embedding, label) pairs. Trained on 7 × A100 GPUs at batch size 140, learning rate 2e-4 (AdamW), PyTorch Lightning. Sampling supports controllable peptide length via masking.
 
 **Sampling strategies.** Progressive Verification Sampling for well-represented metal classes (Zn, Fe, Mn): standard diffusion sampling in phase one followed by phase-two verification timesteps where predictor confidence (MetaLATTE P(x_t)[y_target]) and discrete-label alignment (argmax(x_t^D) = y_target) must agree. Gradient-Guided Sampling for under-represented metals (Cd, Pb, Pt, V, W, Ag): extension of classifier guidance (Dhariwal & Nichol 2021) with dynamic scaling — guidance scale λ doubles when predictor confidence falls below threshold τ.
 
-**MD simulations.** AlphaFold3 (2024.08.19 build) initial structures; AutoDock VINA docking for metal-ion placement; AMBER ToolS 24 system prep with MCPB.py and GAMESS-US for bonded/nonbonded parameters and RESP charge derivation. Most transition metals used the 6-31G(d,p)/LANL2TZ basis set; Cd used SBKJC-ECP for tighter convergence on its larger atomic radius. TIP3P water with Na⁺/Cl⁻ at 0.155 mM (physiological PBS); AMBER19SB protein + GAFF other atoms; GROMACS 5.0 workflow (energy minimization → NVT → NPT → 2.5 ns production NPT at 300 K, 1 bar, c-rescale barostat). gmx_MMPBSA for binding free energy; PyEMMA for TICA conformational analysis.
+**MD simulations.** AlphaFold3 (2024.08.19 build) initial structures; AutoDock VINA docking for metal-ion placement; AMBER ToolS 24 system prep with MCPB.py and GAMESS-US for bonded/nonbonded parameters and RESP charge derivation. Most transition metals used the 6-31G(d,p)/LANL2TZ basis set; Cd used SBKJC-ECP for tighter convergence on its larger atomic radius. TIP3P water with Na⁺/Cl⁻ at 0.155 mM [sic — the preprint reads "0.155 mM," but physiological PBS ionic strength is 155 mM NaCl; likely a typo in the manuscript]; AMBER19SB protein + GAFF other atoms; GROMACS 5.0 workflow (energy minimization → NVT → NPT → 2.5 ns production NPT at 300 K, 1 bar, c-rescale barostat). gmx_MMPBSA for binding free energy; PyEMMA for TICA conformational analysis.
 
 **SUMO-fusion expression and ELISA validation.** Constructs designed with N-terminal 6xHis-SUMO tag and modified TEV protease cleavage site (vector derived from Chen et al. 2023a); Gibson Assembly with NEB enzymes; Sanger-verified inserts; transformation into BL21(DE3); IPTG induction (1 mM at OD₆₀₀ 0.6-0.8); Ni-NTA affinity purification; TEV cleavage and reverse His-purification; biotinylation with EZ-Link Micro Sulfo-NHS-Biotinylation Kit; SDS-PAGE and anti-His Western blot for purity confirmation. Sandwich ELISA: blocked Cu- or Zn-coated bioWORLD microplates incubated with serial dilutions of biotinylated constructs (10 µg mL⁻¹ → 0.0001 µg mL⁻¹) in PBS-T; detection via HRP-streptavidin (1:20,000) and TMB; absorbance at 450 nm read on a Promega GloMax Discover plate reader; IC₅₀ fit by four-parameter sigmoid (GraphPad Prism v10).
 
@@ -151,6 +153,12 @@ Courses: Potentially useful as a methods reference in a future advanced module o
 App: Not applicable. No contamination-profile data, no consumer-product matrices.
 
 Microbiome: Not applicable. No microbiota or microbial-community measurements; bacterial work is limited to *E. coli* BL21(DE3) as an expression host.
+
+## Verification notes
+
+- 2026-06-08 audit subagent flagged systematic mis-mapping of Figure 1A bar-top counts to metal labels in the original Key-numbers table and the corresponding "Why this matters" narrative bullet. The figure plots bars in ascending count order (V, Ag, W, Pt, Mo, Pb, Cd, Hg, Co, Ni, Cu, Mn, N/A, Fe, Zn = 6, 10, 10, 11, 14, 90, 131, 149, 197, 829, 913, 3,839, 5,230, 17,805, 21,423); the original draft had shifted ten of the fifteen counts onto the wrong metal label. Verified against PDF p. 3 Fig. 1A and corrected. Ag, Pb, Fe, Zn counts in the original draft were already correct.
+- 2026-06-08 audit subagent noted that the preprint's MD-system PBS ionic-strength statement reads "Na⁺ and Cl⁻ ions at a concentration of 0.155 mM" (PDF p. 11) — almost certainly a typo for 155 mM, the conventional physiological PBS value. Retained the figure as the preprint reports it, with a `[sic]` flag.
+- 2026-06-08 audit subagent noted the original draft omitted the "350 GB shared VRAM" detail of the A6000 DGX server (PDF p. 8). Added.
 
 ## Wiki pages updated on ingest
 
