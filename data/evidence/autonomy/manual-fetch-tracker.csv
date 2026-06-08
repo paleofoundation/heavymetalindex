@@ -474,7 +474,7 @@ raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-fruit-mixed-ias_2
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-fruit-mixed-ias_2019_10-5772-intechopen-82511.pdf,AUTO_ing-fruit-mixed-ias_2019_10-5772-intechopen-82511,skipped-codex,2026-05-25T13:05:00Z,,Batch 3 auto-fetched triage: skip:review-only-no-primary-data
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-fruit-mixed-ias_2023_10-3389-fagro-2023-1183691.pdf,AUTO_ing-fruit-mixed-ias_2023_10-3389-fagro-2023-1183691,skipped-codex,2026-05-25T13:05:00Z,,Batch 3 auto-fetched triage: skip:review-only-no-primary-data
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-fruit-mixed-ni_2019_10-5772-intechopen-82511.pdf,AUTO_ing-fruit-mixed-ni_2019_10-5772-intechopen-82511,skipped-codex,2026-05-25T13:05:00Z,,Batch 3 auto-fetched triage: skip:review-only-no-primary-data
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-fruit-mixed-ni_2023_10-4236-anp-2023-123009.pdf,AUTO_ing-fruit-mixed-ni_2023_10-4236-anp-2023-123009,skip:no-occurrence-data,2026-06-08T08:52:06.662Z,,Nickel oxide nanocomposite synthesis using carambola juice as reagent; no fruit concentration occurrence data
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-fruit-mixed-ni_2023_10-4236-anp-2023-123009.pdf,AUTO_ing-fruit-mixed-ni-2023-10-4236-anp-2023-123009,stopped,2026-06-01T22:26:08.669Z,,skip:not-target-cell
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-fruit-mixed-pb_2018_10-15376-biores-13-3-5432-5449.pdf,AUTO_ing-fruit-mixed-pb_2018_10-15376-biores-13-3-5432-5449,dedup-rollup-codex,2026-05-25T13:05:00Z,zhou2018-pleurotus-biogas-residue-metals,Batch 3 duplicate/covered PDF rolled up to canonical source page
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-fruit-mixed-pb_2021_10-3389-ffgc-2021-689836.pdf,AUTO_ing-fruit-mixed-pb-2021-10-3389-ffgc-2021-689836,skip:no-heavy-metal-data,2026-06-05T10:15:18Z,,European beech/oak mast-year resource dynamics paper; no heavy-metal occurrence data.
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-fruit-mixed-tas_2017_10-3126-ije-v6i1-16869.pdf,AUTO_ing-fruit-mixed-tas-2017-10-3126-ije-v6i1-16869,ingested-by-codex,2026-05-29T07:17:43.327Z,ahmed2017-bangladesh-vegetable-arsenic,existing canonical page [[sources/ahmed2017-bangladesh-vegetable-arsenic]]
@@ -648,7 +648,7 @@ raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-game-meats-tas-p
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-game-meats-tas-product_2022_10-1007-s11356-022-23329-6.pdf,AUTO_auto-game-meats-tas-product-2022-10-1007-s11356-022-23329-6,ingested-by-codex,2026-05-29T07:17:43.327Z,lenart2023-wild-boar-metals,duplicate DOI/path rolled into [[sources/lenart2023-wild-boar-metals]]
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-game-meats-thg-product_2016_10-1007-s12011-016-0845-6.pdf,AUTO_auto-game-meats-thg-product-2016-10-1007-s12011-016-0845-6,ingested-by-codex,2026-05-29T07:17:43.327Z,zarski2017-mallard-mercury,source page commit 6eea0b9
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-game-meats-thg-product_2022_10-1007-s11356-022-23329-6.pdf,AUTO_auto-game-meats-thg-product-2022-10-1007-s11356-022-23329-6,ingested-by-codex,2026-05-29T07:17:43.327Z,lenart2023-wild-boar-metals,duplicate DOI/path rolled into [[sources/lenart2023-wild-boar-metals]]
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-infant-bottles-pb-product_2020_10-3389-fnhum-2020-00077.pdf,AUTO_auto-infant-bottles-pb-product_2020_10-3389-fnhum-2020-00077,skip:not-target-cell,2026-06-08T08:52:06.662Z,,Vagus-nerve stimulation feeding rehabilitation pilot; no heavy-metal/product occurrence data
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-infant-bottles-pb-product_2020_10-3389-fnhum-2020-00077.pdf,AUTO_auto-infant-bottles-pb-product-2020-10-3389-fnhum-2020-00077,skipped-by-codex,2026-06-04T00:08:00Z,,skip:no-heavy-metal-data; neonatal bottle-feeding rehabilitation clinical pilot with no metal concentration measurements
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-infant-bottles-pb-product_2023_10-51249-hs-v3i02-1314.pdf,AUTO_auto-infant-bottles-pb-product-2023-10-51249-hs-v3i02-1314,skipped-by-codex,2026-05-29T07:10:30.199Z,,environmental/non-food matrix
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-cd-product_2016_10-1007-s40789-016-0126-1.pdf,AUTO_auto-mineral-water-cd-product-2016-10-1007-s40789-016-0126-1,skipped-by-codex,2026-05-29T07:10:30.199Z,,primary occurrence data likely extractable
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-cd-product_2020_10-1007-s13201-020-01233-z.pdf,AUTO_auto-mineral-water-cd-product-2020-10-1007-s13201-020-01233-z,ingested-by-codex,2026-06-05T02:56:41Z,obasi2020-abakaliki-drinking-water-metals,dedup-rollup; DOI already has canonical source page.
@@ -1308,11 +1308,11 @@ raw/manual-fetch/seasonal-geographic-variance/auto-fetched/lever-mixed-meals-non
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/lever-mixed-meals-non-rice-pb-mitigation-efficacy_2025_10-1038-s43856-025-01155-4.pdf,AF_lever-mixed-meals-non-rice-pb-mitigation-efficacy-,skipped-by-codex,2026-05-30T19:36:47.321Z,,triage skip in wishlist-fetch-audit
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/lever-mixed-meals-non-rice-pb-mitigation-efficacy_2025_10-3389-fendo-2025-1690486.pdf,AF_lever-mixed-meals-non-rice-pb-mitigation-efficacy-,skipped-by-codex,2026-05-30T19:36:47.321Z,,triage skip in wishlist-fetch-audit
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/lever-mixed-meals-non-rice-pb-mitigation-efficacy_2026_10-1038-s41366-025-02000-3.pdf,AF_lever-mixed-meals-non-rice-pb-mitigation-efficacy-,skipped-by-codex,2026-05-30T19:36:47.321Z,,triage skip in wishlist-fetch-audit
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-fruit-snacks-pb-product_2025_10-3389-fnut-2025-1513343.pdf,AUTO_auto-fruit-snacks-pb-product_2025_10-3389-fnut-2025-1513343,skip:review-only-no-primary-data,2026-06-08T08:52:06.662Z,,Opinion on investigator bias in nutrition research; no primary occurrence data
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-fruit-snacks-pb-product_2025_10-3389-fnut-2025-1513343.pdf,AUTO_auto-fruit-snacks-pb-product-2025-10-3389-fnut-2025-1513343,skip:review-only-no-primary-data,2026-06-05T08:28:07Z,,Frontiers opinion on investigator bias in nutrition research; no fruit-snack or heavy-metal occurrence data.
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-fruit-snacks-tas-product_2023_10-33088-jp-v2i1-365.pdf,AF_auto-fruit-snacks-tas-product-2023-10-33088-jp-v2i,claimed-by-codex,2026-05-31T15:58:56Z,,
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-leafy-vegetables-other-pb-product_2024_10-62051-10-62051-ijnres-v2n1-21.pdf,AF_auto-leafy-vegetables-other-pb-product-2024-10-620,claimed-by-codex,2026-05-31T15:58:56Z,,
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-matcha-al-product_2025_10-54536-ajlsi-v4i2-5050.pdf,AUTO_auto-matcha-al-product_2025_10-54536-ajlsi-v4i2-5050,skip:no-heavy-metal-data,2026-06-08T08:52:06.662Z,,Milk/fruit tea antioxidant DPPH assay; no heavy-metal data
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-matcha-pb-product_2022_10-5650-jos-ess22135.pdf,AUTO_auto-matcha-pb-product_2022_10-5650-jos-ess22135,skip:no-heavy-metal-data,2026-06-08T08:52:06.662Z,,Green-tea organic acid HPLC paper; no heavy-metal occurrence data
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-matcha-al-product_2025_10-54536-ajlsi-v4i2-5050.pdf,AUTO_auto-matcha-al-product_2025_10-54536-ajlsi-v4i2-5050,skip:no-heavy-metal-data,2026-06-04T17:57:03Z,,Commercial tea antioxidant DPPH assay; no heavy-metal concentration measurements.
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-matcha-pb-product_2022_10-5650-jos-ess22135.pdf,AF_auto-matcha-pb-product-2022-10-5650-jos-ess22135,skipped-by-codex,2026-06-04T13:54:27Z,,skip:no-heavy-metal-data; Organic acid analysis in green tea leaves by HPLC; no heavy-metal occurrence data.
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-matcha-pb-product_2025_the-association-between-caffeinated-beverages-consumption-with-sociodemographic-.pdf,AUTO_auto-matcha-pb-product-2025-the-association-between-caffeinated-beverages-consumption-with-sociodemographic,skip:no-heavy-metal-data,2026-06-05T08:28:07Z,,Student dissertation on caffeinated-beverage consumption and sleep; no matcha lead occurrence data.
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-soft-drinks-carbonated-beverages-cd-product_2025_10-14445-23939133-ijac-v12i2p104.pdf,AF_auto-soft-drinks-carbonated-beverages-cd-product-2,claimed-by-codex,2026-05-31T15:58:56Z,,
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-soy-products-al-product_2015_10-15740-has-fsrj-6-1-119-123.pdf,AF_auto-soy-products-al-product-2015-10-15740-has-fsr,claimed-by-codex,2026-05-31T15:58:56Z,,
@@ -1919,10 +1919,10 @@ raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-rice-noodles-pb-
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-root-tuber-vegetables-tas-product_2020_10-18174-520363.pdf,AF_auto-root-tuber-vegetables-tas-product-2020-10-18174-520363,skipped-by-codex,2026-05-31T16:32:31Z,,skip:review-only-no-primary-data
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-root-tuber-vegetables-tas-product_2023_10-31285-agro-27-1060.pdf,AF_auto-root-tuber-vegetables-tas-product-2023-10-31285-agro-27-1060,ingested-by-codex,2026-05-31T16:35:17Z,sixto2023-potatoes-sweet-potatoes-metals,source commit d47f995
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-soy-products-ni-product_2021_10-20535-ibb-2021-5-2-230081.pdf,AUTO_auto-soy-products-ni-product_2021_10-20535-ibb-2021-5-2-230081,skip:not-food-occurrence,2026-06-04T17:57:03Z,,Polymer-waste sludge phytotoxicity and plant uptake experiment; not market soy-product occurrence.
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-infant-bottles-pb-product_2026_10-64290-bima-v10i1a-1514.pdf,AUTO_auto-infant-bottles-pb-product_2026_10-64290-bima-v10i1a-1514,ingested-by-codex,2026-06-08T08:52:06.662Z,sule2026-gombe-drinking-water-metals,dedup-rollup; DOI already represented by canonical source page
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-infant-bottles-pb-product_2026_10-64290-bima-v10i1a-1514.pdf,AUTO_auto-infant-bottles-pb-product-2026-10-64290-bima-v10i1a-1514,ingested-by-codex,2026-06-02T19:35:41Z,sule2026-gombe-drinking-water-metals,dedup-rollup; same DOI and PDF content as canonical source page
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-sunflower-seeds-pb_2024_10-37934-araset-51-2-177189.pdf,AUTO_gap-sunflower-seeds-pb-2024-10-37934-araset-51-2-177189,claimed-by-codex,2026-06-02T02:38:12.789Z,,snapshot /tmp/codex-snapshot-1780367792.txt
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-sunflower-seeds-pb_2024_10-37934-arefmht-11-1.pdf,AUTO_gap-sunflower-seeds-pb-2024-10-37934-arefmht-11-1,claimed-by-codex,2026-05-31T23:13:16.539Z,,Codex snapshot claim codex-snapshot-1780269048.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-infant-bottles-cd-product_2026_10-64290-bima-v10i1a-1514.pdf,AUTO_auto-infant-bottles-cd-product_2026_10-64290-bima-v10i1a-1514,ingested-by-codex,2026-06-08T08:52:06.662Z,sule2026-gombe-drinking-water-metals,dedup-rollup; DOI already represented by canonical source page
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-infant-bottles-cd-product_2026_10-64290-bima-v10i1a-1514.pdf,AUTO_auto-infant-bottles-cd-product-2026-10-64290-bima-v10i1a-1514,ingested-by-codex,2026-06-04T00:08:00Z,sule2026-gombe-drinking-water-metals,dedup-rollup; DOI already represented by canonical source page
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-cd-product_2018_10-5194-acp-18-11793-2018.pdf,AUTO_auto-mineral-water-cd-product-2018-10-5194-acp-18-11793-2018,skip:not-food-occurrence,2026-06-05T02:56:41Z,,Urban atmospheric PM2.5 trace-element source-apportionment paper; no food or personal-care matrix.
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-ias-product_2017_10-3389-fmicb-2017-00971.pdf,AUTO_auto-mineral-water-ias-product_2017_10-3389-fmicb-2017-00971,skip:review-only-no-primary-data,2026-06-04T23:04:44Z,,Review of microbial phosphorus solubilization in agriculture; no primary mineral-water occurrence data.
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-ias-product_2018_10-1039-c8ra08512a.pdf,AUTO_auto-mineral-water-ias-product_2018_10-1039-c8ra08512a,skip:review-only-no-primary-data,2026-06-04T23:04:44Z,,Review of arsenic removal from water using iron-based adsorbents; no primary mineral-water occurrence data.
@@ -2318,7 +2318,7 @@ raw/Manual Fetch Kimi /June 3 Folder/EFSA Journal - 2008 -  - Safety of aluminiu
 raw/Manual Fetch Kimi /June 3 Folder/EFSA Journal - 2014 -  - Scientific Opinion on the risks to public health related to the presence of chromium in food and.pdf,MFK_efsa-journal-2014-scientific-opinion-on-the-risks-,ingested,2026-06-03T10:56:34.962Z,efsa-chromium-contam-2014,Ingested 2026-06-03T10:56:34.962Z
 raw/Manual Fetch Kimi /June 3 Folder/OJ_L_202400907_EN_TXT.pdf,MFK_oj-l-202400907-en-txt,stopped,2026-06-03T11:15:10.924Z,,Stop: eu-2024-907-nickel-monitoring-recommendation already ingested earlier today (commit 0aa71d5); page is post-2026-05-14 clean and not in routing malformed.
 raw/Manual Fetch Kimi /June 3 Folder/[AUTO-DE] FAQs about aluminium in food and products intended for consumers.pdf,MFK_auto-de-faqs-about-aluminium-in-food-and-products-,ingested,2026-06-03T11:40:49.266Z,bfr2020-aluminium-faq-consumer-products,Ingested 2026-06-03T11:40:49.266Z
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-fresh-fruit-pb-product_2026_10-54373-hijm-v4i3-5683.pdf,AUTO_auto-fresh-fruit-pb-product_2026_10-54373-hijm-v4i3-5683,skip:no-heavy-metal-data,2026-06-08T08:52:06.662Z,,Palm-oil fresh fruit bunch transportation/FTA-PDCA logistics paper; no heavy-metal data
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-fresh-fruit-pb-product_2026_10-54373-hijm-v4i3-5683.pdf,AUTO-fresh-fruit-Pb-product,skipped-by-codex,2026-06-03T11:39:21Z,,skip:no-heavy-metal-data
 raw/Manual Fetch Kimi /June 3 Folder/1a940e6f-ed1b-436b-9435-65e54c78e54c.pdf,MFK_1a940e6f-ed1b-436b-9435-65e54c78e54c,failed,2026-06-03T13:07:37.806Z,,Fail: exit 1: 
 raw/Manual Fetch Kimi /June 3 Folder/41598_2025_Article_27798.pdf,MFK_41598-2025-article-27798,ingested,2026-06-03T13:08:06.881Z,salaheldin2025-multimatrix-foods-egypt,Ingested 2026-06-03T13:08:06.881Z
 raw/Manual Fetch Kimi /June 3 Folder/EFSA Journal - 2009 -  - Cadmium in food ‐ Scientific opinion of the Panel on Contaminants in the Food Chain.pdf,MFK_efsa-journal-2009-cadmium-in-food-scientific-opini,ingested,2026-06-03T13:18:19.925Z,efsa-cadmium-contam-2009,Ingested 2026-06-03T13:18:19.925Z
@@ -2540,7 +2540,7 @@ raw/Manual Fetch Discovery/good2026-plant-milk-heavy-metals.pdf,MFD_good2026-pla
 raw/Manual Fetch Discovery/marques2021-milk-plant-drinks-trace-elements.pdf,MFD_marques2021-milk-plant-drinks-trace-elements,ingested,2026-06-08T02:00:42.668Z,marques2021-trace-elements-milks-plant-based-drinks,Ingested 2026-06-08T02:00:42.668Z
 raw/Manual Fetch Discovery/rebellato2023-plant-yogurt-inorganic-contaminants.pdf,MFD_rebellato2023-plant-yogurt-inorganic-contaminants,ingested,2026-06-08T02:11:51.180Z,rebellato2023-plant-yogurt-inorganic-contaminants,Ingested 2026-06-08T02:11:51.180Z
 raw/Manual Fetch Discovery/rebellato2023b-plant-yogurt-element-bioaccessibility.pdf,MFD_rebellato2023b-plant-yogurt-element-bioaccessibili,ingested,2026-06-08T08:04:59.711Z,rebellato2023b-plant-yogurt-element-bioaccessibility,Ingested 2026-06-08T08:04:59.711Z
-raw/Manual Fetch Discovery/zverina2025-plant-dairy-toxic-elements.pdf,MFD_zverina2025-plant-dairy-toxic-elements,unprocessed,,,
+raw/Manual Fetch Discovery/zverina2025-plant-dairy-toxic-elements.pdf,MFD_zverina2025-plant-dairy-toxic-elements,ingested,2026-06-08T08:57:17.506Z,zverina2025-plant-dairy-toxic-elements,Ingested 2026-06-08T08:57:17.506Z
 raw/Manual Fetch Kimi /June 8 /Kimi_Agent_Download Corruption Issue/_extracted_06_Infant_Foods_Formula/06_Infant_Foods_Formula/A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy.pdf,MFK_a-narrative-review-of-toxic-heavy-metal-content-of,stopped,2026-06-08T02:24:54.481Z,,Skip-list: duplicate_doi:10.3389/fnut.2022.919913 -> bair2022-infant-toddler-food-heavy-metals-policy
 raw/Manual Fetch Kimi /June 8 /Kimi_Agent_Download Corruption Issue/_extracted_06_Infant_Foods_Formula/06_Infant_Foods_Formula/Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5-3 Years on the Polish Market.pdf,MFK_health-safety-assessment-of-ready-to-eat-products-,stopped,2026-06-08T02:24:54.481Z,,Skip-list: duplicate_doi:10.3390/nu14112325 -> zmudzinska2022-rte-baby-foods-poland
 raw/Manual Fetch Kimi /June 8 /Kimi_Agent_Download Corruption Issue/_extracted_06_Infant_Foods_Formula/06_Infant_Foods_Formula/Inorganic arsenic in rice-based products for infants and young children.pdf,MFK_inorganic-arsenic-in-rice-based-products-for-infan,stopped,2026-06-08T02:24:54.481Z,,Skip-list: duplicate_doi:10.1016/j.foodchem.2014.11.078 -> signes-pastor2016-inorganic-arsenic-rice-products-infants
@@ -4310,12 +4310,12 @@ raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/condiment_pap
 raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine.pdf,MFK_the-content-of-cd-and-pb-in-herbs-and-single-compo,stopped,2026-06-08T06:55:34.013Z,,Skip-list: byte-identical -> winiarska-mieczan2023-cd-pb-polish-herbs-spices
 raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/The Mercury Concentration in Spice Plants.pdf,MFK_the-mercury-concentration-in-spice-plants,stopped,2026-06-08T06:55:34.013Z,,Skip-list: duplicate_in_folder -> raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_05_PB_Vanilla_Spices/05_PB_Vanilla_Spices/The Mercury Concentration in Spice 
 "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland.pdf",MFK_the-safety-assessment-of-toxic-metals-in-commonly-,stopped,2026-06-08T06:55:34.013Z,,Skip-list: duplicate_in_folder -> raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_05_PB_Vanilla_Spices/05_PB_Vanilla_Spices/The Safety Assessment of Toxic Meta
-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/01_Peptides_Used_for_Heavy_Metal_Remediation_A_Promising_Appro.pdf,MFK_01-peptides-used-for-heavy-metal-remediation-a-pro,unprocessed,,,
-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/02_Studying_Peptide-Metal_Ion_Complex_Structures_by_Solution-St.pdf,MFK_02-studying-peptide-metal-ion-complex-structures-b,unprocessed,,,
-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/03_Phytochelatins_and_Cadmium_Mitigation_Harnessing_Genetic_Av.pdf,MFK_03-phytochelatins-and-cadmium-mitigation-harnessin,unprocessed,,,
-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/04_Phytochelatins_Sulfur-Containing_Metalloid-Chelating_Liga.pdf,MFK_04-phytochelatins-sulfur-containing-metalloid-chel,unprocessed,,,
-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/05_Metallothionein_A_Comprehensive_Review_of_Its_Classificatio.pdf,MFK_05-metallothionein-a-comprehensive-review-of-its-c,unprocessed,,,
-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/06_Phytochelatins_a_Class_of_Heavy-Metal-Binding_Peptides_from.pdf,MFK_06-phytochelatins-a-class-of-heavy-metal-binding-p,unprocessed,,,
+raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/01_Peptides_Used_for_Heavy_Metal_Remediation_A_Promising_Appro.pdf,MFK_01-peptides-used-for-heavy-metal-remediation-a-pro,ingested,2026-06-08T09:07:34.709Z,luo2024-peptides-heavy-metal-remediation,Ingested 2026-06-08T09:07:34.709Z
+raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/02_Studying_Peptide-Metal_Ion_Complex_Structures_by_Solution-St.pdf,MFK_02-studying-peptide-metal-ion-complex-structures-b,failed,2026-06-08T09:17:51.314Z,,"Fail: unrecognized final line: ""Per-PDF cycle complete. Fresh source page written for Shalev 2022 (Int. J. Mol. Sci. 23:15957, DOI 10.3390/ijms232415957) — a B-tier sole-author methodological narrativ"
+raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/03_Phytochelatins_and_Cadmium_Mitigation_Harnessing_Genetic_Av.pdf,MFK_03-phytochelatins-and-cadmium-mitigation-harnessin,ingested,2026-06-08T09:28:24.470Z,marques2025-phytochelatins-cadmium-mitigation,Ingested 2026-06-08T09:28:24.470Z
+raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/04_Phytochelatins_Sulfur-Containing_Metalloid-Chelating_Liga.pdf,MFK_04-phytochelatins-sulfur-containing-metalloid-chel,ingested,2026-06-08T09:40:24.702Z,seregin2023-phytochelatins-sulfur-metal-chelating,Ingested 2026-06-08T09:40:24.702Z
+raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/05_Metallothionein_A_Comprehensive_Review_of_Its_Classificatio.pdf,MFK_05-metallothionein-a-comprehensive-review-of-its-c,ingested,2026-06-08T10:40:55.098Z,yang2024-metallothionein-comprehensive-review,Ingested 2026-06-08T10:40:55.098Z
+raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/06_Phytochelatins_a_Class_of_Heavy-Metal-Binding_Peptides_from.pdf,MFK_06-phytochelatins-a-class-of-heavy-metal-binding-p,stopped,2026-06-08T10:50:16.835Z,,"Stop: filename-content mismatch (Kimi Mode C); actual bytes are Barnea & Cho 1987 PNAS Cu/PGE2/LH-RH neuroendocrinology paper, off-topic for HMI"
 raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/08_A_Bioinformatics_Approach_to_Design_Minimal_Biomimetic_Metal.pdf,MFK_08-a-bioinformatics-approach-to-design-minimal-bio,unprocessed,,,
 raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/10_De_Novo_Generation_of_Heavy_Metal-Binding_Peptides_with_Mach.pdf,MFK_10-de-novo-generation-of-heavy-metal-binding-pepti,unprocessed,,,
 raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/11_The_Role_of_Metallothionein_in_Oxidative_Stress.pdf,MFK_11-the-role-of-metallothionein-in-oxidative-stress,unprocessed,,,
@@ -5449,19 +5449,168 @@ raw/Manual Fetch Discovery/peng2023-matcha-heavy-metal.pdf,MFD_peng2023-matcha-h
 raw/Manual Fetch Discovery/pourramezani2019-matcha-heavy-metal.pdf,MFD_pourramezani2019-matcha-heavy-metal,ingested,2026-06-08T07:53:43.974Z,pourramezani2019-iran-imported-black-tea-metals,Ingested 2026-06-08T07:53:43.974Z
 raw/Manual Fetch Discovery/rainafulton2018-matcha-heavy-metal.pdf,MFD_rainafulton2018-matcha-heavy-metal,stopped,2026-06-08T08:01:40.801Z,,"Stop: out-of-scope (pesticide-residue methods paper, no heavy metals measured; discover-skill filename false positive — DOI 10.3390/toxics6040064)"
 raw/Manual Fetch Discovery/wu2025-matcha-heavy-metal.pdf,MFD_wu2025-matcha-heavy-metal,ingested,2026-06-08T08:18:13.075Z,wu2025-se-enriched-tea-cadmium-anhui,Ingested 2026-06-08T08:18:13.075Z
-raw/Manual Fetch Discovery/yao2022-matcha-heavy-metal.pdf,MFD_yao2022-matcha-heavy-metal,unprocessed,,,
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-hair-removal-products-tas-product_2018_10-17221-20363022-2018-v6i10a10.pdf,AUTO_auto-hair-removal-products-tas-product_2018_10-17221-20363022-2018-v6i10a10,skip:not-pdf:missing-at-triage,2026-06-08T08:52:06.662Z,,Snapshot entry disappeared before triage; file not present on disk
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-infant-foods-pb-product_2026_10-1038-s41598-026-44766-0.pdf,AUTO_auto-infant-foods-pb-product_2026_10-1038-s41598-026-44766-0,skip:not-pdf:missing-at-triage,2026-06-08T08:52:06.662Z,,Snapshot entry disappeared before triage; DOI already has good2026 canonical page
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-infant-foods-tas-product_2026_10-1038-s41598-026-44766-0.pdf,AUTO_auto-infant-foods-tas-product_2026_10-1038-s41598-026-44766-0,skip:not-pdf:missing-at-triage,2026-06-08T08:52:06.662Z,,Snapshot entry disappeared before triage; DOI already has good2026 canonical page
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-chitosan-sn_2015_10-4236-pp-2015-62008.pdf,AUTO_ing-chitosan-sn_2015_10-4236-pp-2015-62008,skip:no-heavy-metal-data,2026-06-08T08:52:06.662Z,,Grape-polyphenol/chitosan microcapsule preparation; no heavy-metal data
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-palm-oil-thg_2024_10-54517-ssd-v2i2-2410.pdf,AUTO_ing-palm-oil-thg_2024_10-54517-ssd-v2i2-2410,skip:no-occurrence-data,2026-06-08T08:52:06.662Z,,Soil contamination from spent engine oil and palm-oil mill effluent; no palm-oil product concentration data
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-all-purpose-cleaners-tas-product_2025_10-3389-fpubh-2025-1684269.pdf,AUTO_auto-all-purpose-cleaners-tas-product-2025-10-3389-fpubh-2025-1684269,skip:no-occurrence-data,2026-06-08T09:37:57Z,,Previously handled; hazardous-waste One Health opinion with no consumer-product concentration data.
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-anti-static-products-tas-product_2017_anti-fouling-protection-on-a-ship-s-hull-evaluation-of-recent-developments-and-f.pdf,AUTO_auto-anti-static-products-tas-product-2017-anti-fouling-protection-on-a-ship-s-hull-evaluation-of-recent-developments-and-f,skip:no-occurrence-data,2026-06-08T09:37:57Z,,Previously handled; ship-hull anti-fouling discussion with no extractable product concentration data.
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-appliance-cleaners-tas-product_2025_10-3389-fpubh-2025-1684269.pdf,AUTO_auto-appliance-cleaners-tas-product-2025-10-3389-fpubh-2025-1684269,skip:no-occurrence-data,2026-06-08T09:37:57Z,,Previously handled duplicate DOI; hazardous-waste One Health opinion with no consumer-product concentration data.
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-baby-oil-cd-product_2024_10-3389-fnut-2024-1513864.pdf,AUTO_auto-baby-oil-cd-product-2024-10-3389-fnut-2024-1513864,skip:review-only-no-primary-data,2026-06-08T09:37:57Z,,Previously handled; Frontiers food-safety editorial with no primary concentration data.
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-children-personal-care-pb-product_2016_10-1007-s11999-016-5100-0.pdf,AUTO_auto-children-personal-care-pb-product-2016-10-1007-s11999-016-5100-0,skip:no-heavy-metal-data,2026-06-08T09:37:57Z,,Previously handled; orthopaedic gratitude essay with no heavy-metal data.
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-ias-product_2020_10-15495-epub-ubt-00004609.pdf,AUTO_auto-mineral-water-ias-product-2020-10-15495-epub-ubt-00004609,skip:no-heavy-metal-data,2026-06-08T09:37:57Z,,Human-resource practices in SME Turkey; no heavy-metal or mineral-water data.
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-ias-product_2021_10-22427-ntp-other-1003.pdf,AUTO_auto-mineral-water-ias-product-2021-10-22427-ntp-other-1003,skip:review-only-no-primary-data,2026-06-08T09:37:57Z,,NTP Report on Carcinogens process document; no mineral-water occurrence data.
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-ias-product_2021_10-5772-intechopen-98985.pdf,AUTO_auto-mineral-water-ias-product-2021-10-5772-intechopen-98985,skip:review-only-no-primary-data,2026-06-08T09:37:57Z,,IntechOpen arsenic adsorption/removal chapter; review/remediation context with no consumer mineral-water occurrence dataset.
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-ias-product_2022_10-3133-sir20175070c.pdf,AUTO_auto-mineral-water-ias-product-2022-10-3133-sir20175070c,skip:no-occurrence-data,2026-06-08T09:37:57Z,,USGS Williston Basin water-resources report; environmental-resource context not consumer mineral-water occurrence.
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-ias-product_2023_10-22271-allresearch-2023-v9-i9a-11245.pdf,AUTO_auto-mineral-water-ias-product-2023-10-22271-allresearch-2023-v9-i9a-11245,skip:review-only-no-primary-data,2026-06-08T09:37:57Z,,Arsenic toxicity mini-review; no primary mineral-water occurrence data.
+raw/Manual Fetch Discovery/yao2022-matcha-heavy-metal.pdf,MFD_yao2022-matcha-heavy-metal,ingested,2026-06-08T08:48:42.863Z,yao2022-tieguanyin-tea-heavy-metals,Ingested 2026-06-08T08:48:42.863Z
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/1-s2.0-S0147651325007936-main.pdf,MFK_1-s20-s0147651325007936-main,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/10.1016@j.aca.2011.12.001.pdf,MFK_101016jaca201112001,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/10.1016@j.chroma.2006.06.083.pdf,MFK_101016jchroma200606083,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/10.1016@j.chroma.2010.09.065.pdf,MFK_101016jchroma201009065,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/10.1016@j.fct.2011.11.024 (1).pdf,MFK_101016jfct201111024-1,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/10.1016@j.fct.2011.11.024.pdf,MFK_101016jfct201111024,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/10.1071@en11164.pdf,MFK_101071en11164,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/10.1071@en14229.pdf,MFK_101071en14229,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/103189.pdf,MFK_103189,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/1801_19411952.pdf,MFK_1801-19411952,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/242-1358-1-PB.pdf,MFK_242-1358-1-pb,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/4498-18828-2-PB.pdf,MFK_4498-18828-2-pb,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/52.pdf,MFK_52,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/Arsenic in Marine Macroalgae Booklet v2.pdf,MFK_arsenic-in-marine-macroalgae-booklet-v2,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/Arsenic species and their health risks in intertidal macroalgae in response to seasonal variations - ScienceDirect.pdf,MFK_arsenic-species-and-their-health-risks-in-intertid,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/Arsenic_2024.pdf,MFK_arsenic-2024,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/Characteristics-sources-and-health-risks-of-organotin-compounds-in-marine-organisms-from.pdf,MFK_characteristics-sources-and-health-risks-of-organo,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/EFSA Journal - 2021 -  - Chronic dietary exposure to inorganic arsenic.pdf,MFK_efsa-journal-2021-chronic-dietary-exposure-to-inor,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/Effect-of-thermal-processing-on-toxic-heavy-metals-in-edible-seaweeds-of-Gulf-of-Mannar-and.pdf,MFK_effect-of-thermal-processing-on-toxic-heavy-metals,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/Heavy-metal-accumulation-and-ecological-risk-on-four-seagrass-species-in-South-China.pdf,MFK_heavy-metal-accumulation-and-ecological-risk-on-fo,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/Knowledgeupdateonmacroalgaefoodandfeedsafety2020.pdf,MFK_knowledgeupdateonmacroalgaefoodandfeedsafety2020,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/Neff_1997_Marine_Arsenic_Toxicology.pdf,MFK_neff-1997-marine-arsenic-toxicology,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/Survey of inorganic arsenic in seaweed and seaweed .pdf,MFK_survey-of-inorganic-arsenic-in-seaweed-and-seaweed,unprocessed,,,
+"raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/TFG_QU Ruiz Monterde, Alejandro.pdf",MFK_tfg-qu-ruiz-monterde-alejandro,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/al-dhabi2013.pdf,MFK_al-dhabi2013,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/almela2002.pdf,MFK_almela2002,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/bhattacharya2016.pdf,MFK_bhattacharya2016,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/bolan2017.pdf,MFK_bolan2017,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/camurati2019.pdf,MFK_camurati2019,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/cao2014.pdf,MFK_cao2014,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/cherry2019.pdf,MFK_cherry2019,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/cheyns2021.pdf,MFK_cheyns2021,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/effects-of-dietary-intake-of-arsenosugars-and-other-organic-arsenic-species-on-studies-of-arsenic-methylation.pdf,MFK_effects-of-dietary-intake-of-arsenosugars-and-othe,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/hata2014.pdf,MFK_hata2014,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/ichikawa2006.pdf,MFK_ichikawa2006,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/ichikawa2010.pdf,MFK_ichikawa2010,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/laparra2003.pdf,MFK_laparra2003,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/lewis2007.pdf,MFK_lewis2007,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/li2017.pdf,MFK_li2017,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/liu2018.pdf,MFK_liu2018,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/llorente-mirandes2011.pdf,MFK_llorente-mirandes2011,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/llorente-mirandes2016.pdf,MFK_llorente-mirandes2016,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/lorenc2020.pdf,MFK_lorenc2020,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/luvonga2020.pdf,MFK_luvonga2020,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/lynch2014.pdf,MFK_lynch2014,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/ma2018.pdf,MFK_ma2018,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/matsumoto-tanibuchi2019.pdf,MFK_matsumoto-tanibuchi2019,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/mcsheehy2000.pdf,MFK_mcsheehy2000,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/molecules-29-01348.pdf,MFK_molecules-29-01348,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/morita1990.pdf,MFK_morita1990,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/narukawa2020.pdf,MFK_narukawa2020,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/nihms809539.pdf,MFK_nihms809539,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/nischwitz2006.pdf,MFK_nischwitz2006,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/ronan2017.pdf,MFK_ronan2017,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/rose2007.pdf,MFK_rose2007,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/s00216-024-05250-8.pdf,MFK_s00216-024-05250-8,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/s12403-025-00708-1.pdf,MFK_s12403-025-00708-1,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/shimoda2010.pdf,MFK_shimoda2010,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/stoeppler1986.pdf,MFK_stoeppler1986,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/taylor2016.pdf,MFK_taylor2016,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/toxic_elements_Pacin.pdf,MFK_toxic-elements-pacin,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/tukai2002.pdf,MFK_tukai2002,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/vanelteren2007.pdf,MFK_vanelteren2007,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/vanhulle2004.pdf,MFK_vanhulle2004,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/water-16-00005.pdf,MFK_water-16-00005,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/wei2003.pdf,MFK_wei2003,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/yamaoka1986.pdf,MFK_yamaoka1986,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/zhao2014.pdf,MFK_zhao2014,unprocessed,,,
+raw/Manual Fetch Discovery/gu2020arsenic-rice-infant-food-australia.pdf,MFD_gu2020arsenic-rice-infant-food-australia,ingested,2026-06-08T10:13:56.592Z,gu2020-arsenic-rice-infant-food-australia,Ingested 2026-06-08T10:13:56.592Z
+raw/Manual Fetch Discovery/mgbemena2026heavy-metal-infant-formula-nigeria.pdf,MFD_mgbemena2026heavy-metal-infant-formula-nigeria,stopped,2026-06-08T10:26:34.543Z,,Stop: byte-identical duplicate of already-clean page mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals (MFK_nutrient-exploration-baby-milk-infant-formulae-umuahia)
+raw/Manual Fetch Discovery/odhiambo2015trace-elements-infant-formulae-nairobi.pdf,MFD_odhiambo2015trace-elements-infant-formulae-nairobi,stopped,2026-06-08T10:31:54.984Z,,Pre-spawn dedup: byte-identical to odhiambo2015-infant-formula-nairobi-trace-elements (sha256:89f21bf29fe67a70…)
+raw/Manual Fetch Discovery/shibata2016arsenic-rice-cereal-dietary-infants.pdf,MFD_shibata2016arsenic-rice-cereal-dietary-infants,failed,2026-06-08T10:32:02.109Z,,"Fail: unrecognized final line: ""Summary: Merge-enhanced the pre-2026-05-14 page after the discover skill re-fetched the same paper (DOI 10.3390/ijerph13040361). FM_4661673 Marker handle preserved as c"
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/10.2478_aucft-2023-0008.pdf,MFK_102478-aucft-2023-0008,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/10.5897@ajfs2013.1107.pdf,MFK_105897ajfs20131107,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/11.pdf,MFK_11,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/Health-risk-assessment-of-some-selected-heavy-metals-in-infant-food-sold-in-Wa-Ghana.pdf,MFK_health-risk-assessment-of-some-selected-heavy-meta,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/JOPAS.V23I2.3111.pdf,MFK_jopasv23i23111,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/Probabilistic-health-risk-assessment-of-inorganic-arsenic-and-some-heavy-metals-in-rice-produced.pdf,MFK_probabilistic-health-risk-assessment-of-inorganic-,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/Safwan23125.pdf,MFK_safwan23125,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/Source-based-health-risk-assessment-of-heavy-metal-contamination-in-soil-a-case-study-from.pdf,MFK_source-based-health-risk-assessment-of-heavy-metal,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/Spatiotemporal-variation-of-soil-heavy-metals-in-China-The-pollution-status-and-risk-assessment.pdf,MFK_spatiotemporal-variation-of-soil-heavy-metals-in-c,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/ajol-file-journals_314_articles_121833_submission_proof_121833-3745-334648-1-10-20150909.pdf,MFK_ajol-file-journals-314-articles-121833-submission-,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/al-rajhi2014.pdf,MFK_al-rajhi2014,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/brizio2013.pdf,MFK_brizio2013,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/bua2016.pdf,MFK_bua2016,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/buchet1983.pdf,MFK_buchet1983,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/charles2017.pdf,MFK_charles2017,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/cherfi2014.pdf,MFK_cherfi2014,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/deroma2017.pdf,MFK_deroma2017,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/elbagermi2012.pdf,MFK_elbagermi2012,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/fnut-10-1209574.pdf,MFK_fnut-10-1209574,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/foods-12-03960.pdf,MFK_foods-12-03960,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/gardener2019.pdf,MFK_gardener2019,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/gu2014.pdf,MFK_gu2014,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/gu2017.pdf,MFK_gu2017,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/gu2019.pdf,MFK_gu2019,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/guo2017 (1).pdf,MFK_guo2017-1,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/guo2017.pdf,MFK_guo2017,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/huang2014 (1).pdf,MFK_huang2014-1,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/huang2014.pdf,MFK_huang2014,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/islam2015.pdf,MFK_islam2015,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/islam2018.pdf,MFK_islam2018,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/iyabo2015.pdf,MFK_iyabo2015,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/jiang2020.pdf,MFK_jiang2020,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/kukusamude2021.pdf,MFK_kukusamude2021,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/lee2019.pdf,MFK_lee2019,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/li2017.pdf,MFK_li2017,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/loutfy2012.pdf,MFK_loutfy2012,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/maduabuchi2007.pdf,MFK_maduabuchi2007,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/mohamed2014.pdf,MFK_mohamed2014,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/mohammed2021.pdf,MFK_mohammed2021,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/olusakino2016.pdf,MFK_olusakino2016,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/pan2016.pdf,MFK_pan2016,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/peng2016.pdf,MFK_peng2016,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/repository_1016.pdf,MFK_repository-1016,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/roya2016.pdf,MFK_roya2016,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/solidum2013.pdf,MFK_solidum2013,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/tajdar-oranj2018.pdf,MFK_tajdar-oranj2018,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/uroko2019.pdf,MFK_uroko2019,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/voegborlo1999.pdf,MFK_voegborlo1999,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/wang2019.pdf,MFK_wang2019,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/wang2020.pdf,MFK_wang2020,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/yu2021.pdf,MFK_yu2021,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/1-s2.0-S0025326X22004581-main.pdf,MFK_1-s20-s0025326x22004581-main,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/10.3390@ijerph17197212.pdf,MFK_103390ijerph17197212,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/Assessment-of-Human-Health-Risk-of-Metal-Loid-Content-in-Brazilian-Sardine-Along-the-Southwestern.pdf,MFK_assessment-of-human-health-risk-of-metal-loid-cont,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/Determination-of-toxic-metals-in-canned-tuna-sold-in-developed-and-developing-countries-Health.pdf,MFK_determination-of-toxic-metals-in-canned-tuna-sold-,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/EFS2-21-e07798.pdf,MFK_efs2-21-e07798,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/EJABF_Volume 17_Issue 3_Pages 57-68.pdf,MFK_ejabf-volume-17-issue-3-pages-57-68,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/Evaluation-of-water-quality-and-bioaccumulation-of-metals-in-commercially-important-fishes.pdf,MFK_evaluation-of-water-quality-and-bioaccumulation-of,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/Health risks of exposure to organotin compounds via seafood consumption after their legal ban - ScienceDirect.pdf,MFK_health-risks-of-exposure-to-organotin-compounds-vi,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/Organotin-Contamination-in-Seafood-from-the-Yucat-n-Peninsula-Mexico-Is-There-a-Potential.pdf,MFK_organotin-contamination-in-seafood-from-the-yucat-,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/Presence-of-nano-sized-mercury-containing-particles-in-seafoods-and-an-estimate-of-dietary.pdf,MFK_presence-of-nano-sized-mercury-containing-particle,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/chen2019.pdf,MFK_chen2019,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/chung2020.pdf,MFK_chung2020,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/copat2013.pdf,MFK_copat2013,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/ehp-0901757.pdf,MFK_ehp-0901757,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/file (1).pdf,MFK_file-1,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/file.pdf,MFK_file,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/foods-09-01720.pdf,MFK_foods-09-01720,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/foods-12-03750.pdf,MFK_foods-12-03750,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/foods-14-00451.pdf,MFK_foods-14-00451,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/foods-14-03725-v2.pdf,MFK_foods-14-03725-v2,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/harada1995.pdf,MFK_harada1995,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/ho2014.pdf,MFK_ho2014,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/hwang2010.pdf,MFK_hwang2010,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/ijerph-18-12227.pdf,MFK_ijerph-18-12227,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/ijerph-19-04944.pdf,MFK_ijerph-19-04944,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/ijerph-19-16767.pdf,MFK_ijerph-19-16767,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/ijms-25-01590.pdf,MFK_ijms-25-01590,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/jmse-08-00344-v2.pdf,MFK_jmse-08-00344-v2,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/khandaker2021.pdf,MFK_khandaker2021,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/lee2016.pdf,MFK_lee2016,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/main.pdf,MFK_main,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/mehouel2021.pdf,MFK_mehouel2021,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/nuy066.pdf,MFK_nuy066,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/olmedo2013.pdf,MFK_olmedo2013,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/pazi2017.pdf,MFK_pazi2017,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/s41598-020-70205-9.pdf,MFK_s41598-020-70205-9,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/shamsel-din2014.pdf,MFK_shamsel-din2014,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/sustainability-13-12311.pdf,MFK_sustainability-13-12311,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/sustainability-17-00701.pdf,MFK_sustainability-17-00701,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/toxics-13-00153-v2.pdf,MFK_toxics-13-00153-v2,unprocessed,,,
+raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/toxics-13-00333-v2.pdf,MFK_toxics-13-00333-v2,unprocessed,,,
