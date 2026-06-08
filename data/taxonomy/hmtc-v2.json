@@ -1,7 +1,7 @@
 {
-  "$comment": "HMTc Comprehensive Testing Category Taxonomy v2.0 (2026-03-30). Source: /Users/karenpendergrass/Desktop/document_pdf.pdf. This file is the single source of truth for the 23-category structure that drives wiki/products/ scaffolding. Authored by K. Pendergrass, K. Eyer, D. Aleru.",
-  "version": "2.0",
-  "version_date": "2026-03-30",
+  "$comment": "HMTc Comprehensive Testing Category Taxonomy v2.1 (2026-06-08). Source: /Users/karenpendergrass/Desktop/document_pdf.pdf (v2.0 base); v2.1 is an additive expansion per docs/governance/taxonomy-reorganization-2026-06.md. Drives wiki/products/ scaffolding for the original cohort. For Step Zero-locked categories the live row identity is the page frontmatter + routing layer, which this seed does not fully mirror: the Cat 1/2/4 row arrays below remain at their v2.0 scaffold and are stale versus the locked 16-row state (flagged for a separate reconciliation). Envelope: 26 categories (24 Dairy, 25 Cannabis/Hemp/CBD, 26 Peptides/SARMs/Research Chemicals appended) plus reserved Cat 27 (tobacco, pending). Authored by K. Pendergrass, K. Eyer, D. Aleru; v2.1 expansion by Claude (co-architect).",
+  "version": "2.1",
+  "version_date": "2026-06-08",
   "panel_metals": ["Pb", "iAs", "Hg", "Cd", "Cr", "Ni", "Sn", "Al"],
   "organizing_principle": "exposure pathway × regulatory jurisdiction, with user population (ages 0-5 vs general) as a secondary routing variable only where regulation explicitly distinguishes it",
   "categories": [
@@ -647,6 +647,81 @@
         "Infant bottles/nipples route to Category 9 when marketed for ages 0-5 — even though they are food-contact items, the infant exposure pathway and regulatory treatment take priority."
       ],
       "regulatory_anchors": "FDA food-contact substance definitions (21 CFR Parts 170-199); EU food-contact material framework regulation (Regulation 1935/2004) and implementing measures; EU Annex I material-family list (Regulation 10/2011 for plastics, Directive 84/500/EEC for ceramics); FDA ceramics/lead leaching compliance policy guide; California Prop 65 (Pb/Cd in ceramicware, cookware)."
+    },
+    {
+      "n": 24,
+      "name": "Dairy and Milk Products",
+      "slug_prefix": "",
+      "status": "v2.1 scaffold (Step Zero lock; no candidate values)",
+      "domain": "Foods, ingestion",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA (Grade A PMO, 21 CFR), EU Reg. 2023/915, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Liquid milk — cow", "slug": "dairy-milk-cow" },
+        { "row": 2, "name": "Liquid milk — goat / sheep / other ruminant", "slug": "dairy-milk-goat-sheep" },
+        { "row": 3, "name": "Camel milk", "slug": "dairy-milk-camel" },
+        { "row": 4, "name": "Cheese", "slug": "dairy-cheese" },
+        { "row": 5, "name": "Yogurt and cultured dairy", "slug": "dairy-yogurt-cultured" },
+        { "row": 6, "name": "Cream", "slug": "dairy-cream" },
+        { "row": 7, "name": "Milk powders (whole, skim, specialty)", "slug": "dairy-milk-powders" },
+        { "row": 8, "name": "Condensed and evaporated milks", "slug": "dairy-condensed-evaporated" }
+      ],
+      "boundary_rules": [
+        "Product marketed for ages 0-5, or any infant/follow-on formula, routes to Category 1 regardless of dairy base.",
+        "Butter and ghee remain Category 7 Row 3 (dairy-fat platform, already locked) and cross-link here; they do not migrate in this pass.",
+        "Plant milks (oat, almond, soy, rice) route to Category 5, not here.",
+        "A dairy product with a Supplement Facts panel routes to Category 16."
+      ],
+      "contamination_platform_notes": "Cd and Pb enter milk via feed and soil; milk is a comparatively low-metal matrix. Powders are the concentration-format variant. Camel milk is assessed on its own evidence, not by analogy to cow milk.",
+      "regulatory_anchors": "FDA Grade A Pasteurized Milk Ordinance; EU Reg. 2023/915 (Pb, Cd in milk and dairy); Codex MLs for milk products."
+    },
+    {
+      "n": 25,
+      "name": "Cannabis, Hemp, and CBD Products",
+      "slug_prefix": "",
+      "status": "v2.1 scaffold (Step Zero lock; no candidate values)",
+      "domain": "Ingestible and applied health products",
+      "exposure_pathway": "Multi-route: inhalation (flower, vape aerosol), ingestion (edibles, tinctures), dermal (topicals)",
+      "regulatory_jurisdiction": "State cannabis programs (testing rules vary by state), FDA (CBD/hemp-derived, hemp foods), USDA (hemp); no uniform federal contaminant limit",
+      "subcategories": [
+        { "row": 1, "name": "Cannabis flower / dried herb", "slug": "cannabis-flower" },
+        { "row": 2, "name": "Edibles (gummies, baked goods, beverages)", "slug": "cannabis-edibles" },
+        { "row": 3, "name": "Tinctures and sublingual oils", "slug": "cannabis-tinctures-oils" },
+        { "row": 4, "name": "Topicals (creams, balms, salves)", "slug": "cannabis-topicals" },
+        { "row": 5, "name": "Concentrates and extracts", "slug": "cannabis-concentrates" },
+        { "row": 6, "name": "Vape cartridges and hardware", "slug": "cannabis-vape-hardware" }
+      ],
+      "boundary_rules": [
+        "CBD/hemp-derived ingestibles route here even with a Supplement Facts panel; FDA does not recognize CBD as a lawful dietary-supplement ingredient, so they are distinct from Category 16.",
+        "Hemp seed and hemp oil sold as conventional food (no cannabinoid actives marketed) route to Category 4 / Category 7.",
+        "Cannabis products marketed for animals route to the Pet domain (Category 17/18).",
+        "Vape-hardware factoring (per-category vs one shared inhalable-hardware treatment) is a reserved decision; see docs/governance/taxonomy-reorganization-2026-06.md."
+      ],
+      "contamination_platform_notes": "Documented hyperaccumulator: soil uptake drives Pb/Cd/Ni in flower and derivatives; concentrates and vape oils can concentrate the load. Vape hardware leaches Pb/Ni/Cr from the coil into inhaled aerosol.",
+      "regulatory_anchors": "State cannabis heavy-metal action limits (e.g., California Pb/Cd/As/Hg); USP <232>/<233> elemental-impurity framework as reference; FDA hemp/CBD enforcement posture."
+    },
+    {
+      "n": 26,
+      "name": "Peptides, SARMs, and Research Chemicals",
+      "slug_prefix": "",
+      "status": "v2.1 scaffold (Step Zero lock; no candidate values)",
+      "domain": "Ingestible and applied health products",
+      "exposure_pathway": "Parenteral (injection) + oral gray-market — a pathway absent from v2.0",
+      "regulatory_jurisdiction": "FDA (unapproved/misbranded drugs); no certification framework exists for this class",
+      "subcategories": [
+        { "row": 1, "name": "Injectable peptide hormones (GLP-1 analogs, GH secretagogues, synthetic peptides)", "slug": "peptides-injectable-hormones" },
+        { "row": 2, "name": "Oral SARMs", "slug": "sarms-oral" },
+        { "row": 3, "name": "Injectable anabolic-androgenic steroids (AAS)", "slug": "aas-injectable" },
+        { "row": 4, "name": "Raw AAS / peptide powders (pre-formulation)", "slug": "research-chem-raw-powders" }
+      ],
+      "boundary_rules": [
+        "Collagen and protein-hydrolysate peptide supplements with a Supplement Facts panel route to Category 16 Row 20, not here.",
+        "Amino-acid and di-/tri-peptide isolate supplements route to Category 16 Row 16, not here.",
+        "Topical copper-peptide serums and cosmetic peptide actives route to Category 13 Row 3, not here.",
+        "Only unregulated/gray-market ingestible and injectable research compounds sold outside the supplement framework route here."
+      ],
+      "contamination_platform_notes": "Overseas/unregulated synthesis drives Pb, Cd, As, Al, Ni, Cr contamination (Craven 2025: oral Ni near the ~200 ug/day PDE; oral Al mean 651 ug/g). The parenteral route bypasses gut absorption — see the standards-methodology variants in category-26-step0-lock.md.",
+      "regulatory_anchors": "No lawful product limit exists; the locked min(percentile, regulatory ceiling) rule loses its cap term for this class (see category-26-step0-lock.md). USP <232> PDEs referenced as a toxicological anchor only."
     }
   ],
   "novel_product_routing_protocol": [
@@ -656,5 +731,26 @@
     "Determine whether the product fits an existing category with a boundary-rule clarification — if yes, update the boundary rules for that category and assign the product.",
     "If no existing category can accommodate the product without distorting its scope — propose a new category with exposure pathway, regulatory anchors, and subcategories. The new category must be approved before any standards build begins.",
     "No product is certified until its category assignment is resolved. An unassigned product does not default to a general or other bucket — it waits."
+  ],
+  "navigational_domains": {
+    "$comment": "Presentational navigation layer (v2.1). Groups categories for browsing and citation; changes no category number or identity. See docs/governance/taxonomy-reorganization-2026-06.md.",
+    "Foods, ingestion": [1, 3, 4, 5, 6, 7, 8, 11, 24],
+    "Ingestible and applied health products": [16, 25, 26],
+    "Personal care and cosmetics": [2, 13, 14, 15, 20],
+    "Home and household": [12, 19, 22, 23],
+    "Children, durable and contact goods": [9, 10, 21],
+    "Pet products": [17, 18],
+    "Methodology and crosswalk nodes": ["lead-benchmark-context", "regulatory-crosswalk-field-findings", "cat-2-non-ingestion-exposure-pathways", "base-and-bridge-nodes"]
+  },
+  "v2_1_changelog": [
+    "2026-06-08 — v2.1 additive expansion (no renumbering). Per docs/governance/taxonomy-reorganization-2026-06.md.",
+    "Added Category 24 Dairy and Milk Products (8 rows; scaffold, no candidate values).",
+    "Added Category 25 Cannabis, Hemp, and CBD Products (6 rows; scaffold).",
+    "Added Category 26 Peptides, SARMs, and Research Chemicals (4 rows; scaffold; introduces the parenteral pathway).",
+    "Added navigational_domains (seven-domain presentational layer).",
+    "New rows in locked categories — recorded canonically in page frontmatter + Step Zero amendment docs with their live row numbers, not mirrored into the stale v2.0 row arrays above: Category 4 mushrooms cultivated (row 17, clean) and wild (row 18, contaminated) per category-4-step0-amendment-1.md; Category 21 children's metal jewelry (row 22) per category-21-step0-amendment-1.md.",
+    "Category 22 gains an evaporative-vs-combustion clean/platform framing (no new row numbers).",
+    "Reserved, not added: Category 27 Tobacco/Nicotine/Vaping; vape-hardware factoring; candidate rows (imported confectionery Cat 7, wine/spirits Cat 5, non-food pet toys).",
+    "Deferred: the canned/snacks matrix-beats-format reorganization (kept in place per the local Cat 6 lock)."
   ]
 }
