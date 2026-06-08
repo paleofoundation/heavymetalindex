@@ -17,13 +17,13 @@ ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/pear-juice]]"]
 products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-apple-containing]]", "[[products/fruit-juices-non-apple]]", "[[products/fresh-fruit]]"]
 matrices: [apple-juice, pear-juice]
 jurisdictions: [AU, NZ]
-near_duplicates: []
+near_duplicates: ["raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Survey of total arsenic and inorganic arsenic in apple and pear juice.pdf"]
 sample_n: 100
 sample_population: "96 apple juice samples (48 Australian-purchased, 48 New Zealand-purchased) plus 4 pear juice samples (all Queensland-purchased, Australia); apple juice samples collected April/May 2012 for a parallel cyanogenic-glycoside (HCN) survey and re-analysed in 2012 for arsenic; pear juice samples purchased separately from Queensland stores"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-20
+updated: 2026-06-08
 ---
 
 # FSANZ 2012 — Total and inorganic arsenic in apple and pear juice (Australia and New Zealand)
@@ -93,6 +93,8 @@ Sample-by-sample verification: the highest-iAs sample (11.3 µg/kg, paired with 
 - Finding 1 (Check 1 numerical fidelity): the "AsV was the predominant inorganic species when quantifiable: 41% of speciated samples had AsV at trace level and 59% had AsV ≥LOR" sentence conflated AsV ≥LOR with iAs (AsIII+AsV) ≥LOR. Source p.7 text "Fourteen (41%) samples had trace amounts of AsV and 20 (59%) of samples analysed for inorganic arsenic had concentrations greater than 2.5 µg/kg" attributes the 59% to total iAs ≥LOR, not to AsV ≥LOR specifically. **Applied:** revised the Arsenic speciation paragraph to attribute 59% to combined iAs ≥LOR with AsV the quantifiable component (since AsIII never exceeded trace).
 - Finding 2 (Check 2 slug vocabulary): `ingredients/pear-juice` is not in the taxonomy snapshot. **Already addressed in the ingest commit** — provisional ingredient scaffold was created via `tools/autonomy/create-provisional-ingredient-scaffold.mjs` and committed alongside the source page; taxonomy snapshot will pick it up on the next refresh.
 
+**2026-06-08 byte-identical filesystem-copy enhancement:** added a `near_duplicates` entry recording the Kimi agent's June 8 placement of the same FSANZ report PDF under `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Survey of total arsenic and inorganic arsenic in apple and pear juice.pdf`. SHA-256 verified byte-identical to the canonical `raw_path` (`6bd162cc2e489587c62aa70e2ae6146311b73005dc41e81e53ca605a42669ca0`); the same hash also appears at three other Kimi-corruption-issue paths (`May 21 .../papers/01_Fruits_and_Fruit_Products/`, `June 8/.../papers/01_Fruits_and_Fruit_Products/`, and `manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/`). Manual-fetch loop now recognizes the June 8 `_extracted_` location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
+
 ## Wiki pages updated on ingest
 
 - [[ingredients/apple-juice]]
@@ -109,9 +111,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
-| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
