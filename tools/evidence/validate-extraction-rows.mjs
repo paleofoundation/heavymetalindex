@@ -88,6 +88,15 @@ function splitLine(line) {
 }
 const numOr = (v) => { const n = Number(v); return Number.isFinite(n) && String(v).trim() !== "" ? n : null }
 
+function reviewNoteFor(row, defaultNote) {
+  const notes = String(row.notes || "").trim()
+  const source = String(row.source_id || "").trim()
+  if (/Rechecked 2026-06-08/.test(notes)) {
+    return [source, notes].filter(Boolean).join(": ")
+  }
+  return defaultNote
+}
+
 let totalKept = 0, totalReject = 0, totalFlag = 0
 const quarantine = []
 const review = []
@@ -116,7 +125,11 @@ for (const { file, category } of TARGETS) {
     if (reason) { quarantine.push({ file, slug, metal, reason, raw: r.__raw }); totalReject++; continue }
 
     const hi = HIGH_FLAG[metal]
-    if (hi && prim.some((v) => v > hi)) { review.push({ file, slug, metal, value: Math.max(...prim), note: `above ${hi} ppb — confirm real (e.g. seafood As / canned Sn), not a unit error` }); totalFlag++ }
+    if (hi && prim.some((v) => v > hi)) {
+      const defaultNote = `above ${hi} ppb — confirm real (e.g. seafood As / canned Sn), not a unit error`
+      review.push({ file, slug, metal, value: Math.max(...prim), note: reviewNoteFor(r, defaultNote) })
+      totalFlag++
+    }
     kept.push(r)
   }
   // rewrite cleaned file (pre-gate version recoverable from git)
