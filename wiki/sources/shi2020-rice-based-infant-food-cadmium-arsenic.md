@@ -15,8 +15,8 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-plant-
 sha256: aca16bad52a4ba7ca9f4be067fee9df82c8579b313cd7557aacaf7bf3f598c7c
 metals: [Cd, iAs]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/infant-rice-cereal]]"]
-products: ["[[products/infant-rice-cereal]]", "[[products/plant-milks-rice-based]]", "[[products/teething-and-snacks-rice-based]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/rice-snacks-crackers]]"]
-matrices: [rice-based-infant-food, rice-cereal, rice-porridge, rice-cake, rice-grain, rice-milk-context]
+products: ["[[products/infant-rice-cereal]]", "[[products/teething-and-snacks-rice-based]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/rice-snacks-crackers]]"]
+matrices: [rice-based-infant-food, rice-cereal, rice-porridge, rice-cake, rice-grain]
 jurisdictions: [UK, EU]
 sample_n: "Rice-based baby foods, generic rice crackers/cakes/cereals, and UK-purchased polished rice by origin; exact per-category n is figure/table dependent."
 sample_population: "Rice-based products available on the UK market, including products labeled for infants and generic rice products that infants may eat; polished rice grain purchased in Northern Ireland from supermarkets, health-food shops, specialty shops, and Halal shops."
@@ -40,7 +40,7 @@ Shi et al. measured cadmium and inorganic arsenic in rice-based foods marketed f
 | Infant mixed grain porridge | Lowest infant-food median Cd: 5.1 ug/kg dry weight |
 | Non-infant Cd exceedances | 6 of 44 generic/non-infant rice-based samples exceeded about 44.8 ug/kg dry-weight Cd; exceedances ranged from 46.0 to 66.2 ug/kg dry weight |
 | Non-infant iAs exceedances | Some generic products exceeded the proxy iAs standard; pure rice cakes and pure rice cereals had medians above about 112 ug/kg dry weight |
-| Non-infant product medians for Cd | Mixed grain infant cereals 7.8 ug/kg dry weight; porridges 11.9; mixed cake 60.6; pure porridge 65.9; cake 74.4 |
+| Infant-food medians for iAs by sub-category | Mixed grain infant cereals 7.8 ug/kg dry weight; infant porridges 11.9; infant mixed cake 60.6; infant pure porridge 65.9; infant pure cake 74.4; all below the ~112 ug/kg dry-weight proxy threshold (P < 0.0001 within infant products) |
 | Polished rice Cd by origin | Basmati median 33.4 ug/kg dry weight; Italian median 40.1 with maximum 117; Egyptian and Spanish medians at half-LOD 4.9; USA about double half-LOD with n=3 |
 | Polished rice iAs by origin | Italian median 106 ug/kg dry weight, 75th percentile 126, maximum 244; basmati 28.9 and Egyptian 30.2 had the lowest medians |
 
@@ -61,7 +61,7 @@ For plant-milk pages, the source is context only. It discusses rice milk and UK 
 - [[products/infant-rice-cereal]]
 - [[products/baby-cereals-dry-rice-based]]
 - [[products/teething-and-snacks-rice-based]]
-- [[products/plant-milks-rice-based]]
+- [[products/rice-snacks-crackers]]
 - [[ingredients/rice]]
 - [[ingredients/infant-rice-cereal]]
 - [[metals/cadmium]]
@@ -72,6 +72,7 @@ For plant-milk pages, the source is context only. It discusses rice milk and UK 
 - Batch 1 auto-fetched ingest, 2026-05-25. The wishlist filename targeted rice-based plant milks, but the actual paper's direct measurements are rice-based infant foods, generic rice products, and polished rice. Rice milk is discussed as regulatory/advice context only.
 - Basis: values are primarily reported as dry-weight concentrations. The paper provides wet-weight regulatory standards and converts them to approximate dry-weight thresholds using a 1.12 factor for rice moisture. Do not pool dry-weight values with wet-weight infant food values without conversion.
 - Speciation: arsenic values are inorganic arsenic by IC-ICP-MS, not total arsenic.
+- Audit 2026-06-08 (autonomous): corrected a numerical fidelity error in the Key numbers table — the row formerly labeled "Non-infant product medians for Cd" listed values (7.8, 11.9, 60.6, 65.9, 74.4 µg/kg d.wt.) that the source (p231-232) reports as INFANT-food medians for INORGANIC ARSENIC, not non-infant Cd medians. Row re-labeled accordingly. Also dropped `products/plant-milks-rice-based` from the products array and `rice-milk-context` from matrices: the paper discusses rice-milk advisory context (citing Meharg 2008a,b and FSA 2018) but reports no new rice-milk concentration data, so routing it as direct evidence would misrepresent the source.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
