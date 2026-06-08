@@ -1,0 +1,52 @@
+rel_path,status,doi,matches,sha256
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/10.2478_aucft-2023-0008.pdf,novel,10.2478/aucft-2023-0008,,58adae15a74ea037ca96373045a0983a802145dccabb42ba6e7e61a00e2a80c0
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/10.5897@ajfs2013.1107.pdf,novel,10.5897/ajfs2013.1107,,d2e1654ae92dfcff76ce6d7ccf6a91c089ca565cc8b86de2f8ac0f15f5e0f2a0
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/11.pdf,no_doi_needs_claude,,,ec8ae60e407aa9a076339d73d10b3fdc08f7741788c8116391024e7a8460fe2c
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/Health-risk-assessment-of-some-selected-heavy-metals-in-infant-food-sold-in-Wa-Ghana.pdf,duplicate_doi,10.1016/j.heliyon.2023.e16225,amarh2023-ghana-infant-food-heavy-metals,bfff2a710bc3abd699f24f5bea2ae4013c0852c6f9f6abd4ad8f1184d1034f58
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/JOPAS.V23I2.3111.pdf,novel,10.51984/jopas.v23i2.3111,,6d11e7b8d9d263fad67a8e45c2061278e7329616d90919eecc971b0e67788d67
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/Probabilistic-health-risk-assessment-of-inorganic-arsenic-and-some-heavy-metals-in-rice-produced.pdf,duplicate_doi,10.1007/s11356-021-16583-7,hao2022-probabilistic-risk-rice-mining-county,ef11e0d82fe1f7fd2bc82d9cfdc6d52021973610de2745ce029ee3637e1642a3
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/Safwan23125.pdf,novel,10.18697/ajfand.120.23125,,8336e2eda5532d55aba7c12d77d62bc99475ac69030c2fda0e73e2590ce3b2e0
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/Source-based-health-risk-assessment-of-heavy-metal-contamination-in-soil-a-case-study-from.pdf,novel,10.1007/s10653-023-01804-4,,885a800a276687db5623b7ffdfca32fda4a39e2a7b37c2f54e13d6da27bdabfa
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/Spatiotemporal-variation-of-soil-heavy-metals-in-China-The-pollution-status-and-risk-assessment.pdf,novel,10.1016/j.scitotenv.2023.161768,,3a332756591a9393e68091e50a116c95bf8b8ba7f093b265916c8c45193e5b43
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/ajol-file-journals_314_articles_121833_submission_proof_121833-3745-334648-1-10-20150909.pdf,novel,10.4314/ijbcs.v9i3.47,,53ebe8f04df59c9ab4ec849af2826a98c54c8f5c801a74f32f15ba80bd34da16
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/al-rajhi2014.pdf,novel,10.3844/ajessp.2014.283.288,,ce0c33c48b0a6d62fc3e6948a548e3c0c9fa5570041289781d0f01f66ed89e39
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/brizio2013.pdf,novel,10.1051/e3s,,6bcb99c6d6a791c88c45c232a093bf79cd945ef0058d2e9e577c861a0afaa2e2
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/bua2016.pdf,novel,10.1080/19393210.2016.1175516,,d9281d7597b41a08cabe3e9cb69634dcfcea1cb9541c567dd9504a9bf98383fd
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/buchet1983.pdf,no_doi_needs_claude,,,f8b4db2a445c4415ea666b8271a2d131155d5946b46376ac8f3b66e02a2cabbf
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/charles2017.pdf,novel,10.1007/s11356-017-0583-0,,053d1d6f282758ca18e3bcfbdecb2dffbf0a06349587c70d627862211680d904
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/cherfi2014.pdf,novel,10.1016/j.fct.2014.04.044,,d42b50884f3cf719b980c95ac132c1074839720dc99c56e0e9e0273c0be97796
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/deroma2017.pdf,novel,10.1016/j.jfca.2017.07.027,,4b3ed4181d487667f2dc6358efbba0f7ea8c52b0d0ae4237b2b6358cffdbd5e6
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/elbagermi2012.pdf,novel,10.5402/2012/827645,,a85187cbf406da081a38c16b14c4524c9eea3b3d9dbdf59caf62749385ee22f8
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/fnut-10-1209574.pdf,duplicate_doi,10.3389/fnut.2023.1209574,su-2023-arsenic-brown-rice,9e49927df6a067f6e6b0ad08c71b3702c711bd875b96f767b951fa9a21db0ccc
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/foods-12-03960.pdf,novel,10.3390/foods12213960,,c7c0ffcab3afec2c7fc0e8a3da36dd88c010f51f959f70546e854de47451e4d9
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/gardener2019.pdf,duplicate_doi,10.1016/j.scitotenv.2018.09.026,gardener2019-pb-cd-us-infant-formula-baby-foods,c71d7379145be56c2a783bb004f9354b24a0284acd23125358bc43a6a7aebe92
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/gu2014.pdf,novel,10.14233/ajchem.2014.16225,,80fd540e1fc3218bd41967c21ef12773046afc173db2bd4207f33a7569ed1c31
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/gu2017.pdf,novel,10.1016/j.jclepro.2017.08.004,,09cf541b831e8c64a85f997ad2b1ebc354d777a2e36bb59456746072ae126cdf
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/gu2019.pdf,novel,10.1016/j.etap.2019.103199,,289263881e69737ae29957573a230eb3bdb8377c5f23869e13610706923f38fd
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/guo2017 (1).pdf,novel,10.1007/s11270-017-3262-3,,4d495698e0532feea9259f845caca0c2d0d957e9d4332c182de3793fc8c2d564
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/guo2017.pdf,duplicate_in_folder,,raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/guo2017 (1).pdf,4d495698e0532feea9259f845caca0c2d0d957e9d4332c182de3793fc8c2d564
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/huang2014 (1).pdf,novel,10.1016/j.foodcont.2013.08.036,,e42d7a7037b664f53b2a3c4f6287e6252443a6be39be34f6fe2dd5b69daafa27
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/huang2014.pdf,novel,10.1016/j.scitotenv.2014.01.115,,85e9b222aacd65f23d9dd6c14f53c8bde0bcb70c9666276923f032725157a6d6
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/islam2015.pdf,novel,10.1016/j.ecoenv.2015.09.022,,cc084df883fda2e9b14e6cca679b9d75ffe0f72c367ef4ed9138f038416f2f7d
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/islam2018.pdf,novel,10.1080/10106049.2018.1516246,,aa87b0b92a2f2ec402a881a41e248a9b7862d3c8e1613665b9e6966fae88c4d8
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/iyabo2015.pdf,novel,10.5539/ijc.v7n1p155,,1666da5d53168fad1732f5970ea5715691ca2dfbda15f9374358fc5443801527
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/jiang2020.pdf,novel,10.1039/d0em00104j,,5a2306d66c3d0ce56479566926c7f30b7a29a6563f697a3ef014eb12b40cb8df
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/kukusamude2021.pdf,novel,10.1016/j.foodchem.2020.127402,,dcb763c038e0dbc049008b93f21aa425c9d954d4714dcdf13c5dd3ec64c3ac9f
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/lee2019.pdf,duplicate,,lee2019-food-processing-heavy-metals-migration,fab5791c4916291ee4130f251b9a87f804a7a390da00e6c5bd28e84f7b14826c
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/li2017.pdf,novel,10.1039/c6em00631k,,1e74aff554b0fa0edfec5da152591bc71969fcfdaa6426e2db5305abbf479742
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/loutfy2012.pdf,novel,10.1080/02772248.2011.638445,,e4340b0a293bafc4bfbb0c625aa941c3e75858ef1bd7d6dc9c1a1bc8778f5908
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/maduabuchi2007.pdf,no_doi_needs_claude,,,79ee0b2a285c870941a41c00e38f566835436e31c3c319449410dc44818af998
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/mohamed2014.pdf,novel,10.5897/ajbr2014.0766,,0fea1161e3cf154385a3e0eebcc3f674c25c1b81fc2a0e2e38cf101ffbe7d8d4
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/mohammed2021.pdf,novel,10.1088/1742-6596/1879/2/022006,,ac214a784e7ed8b0156e215ae0272fbfb4641c80e6ad1c218a0343e428bc3a4f
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/olusakino2016.pdf,novel,10.4172/2380-2391.1000174,,e7b9207e1626b21493c0516bd46a42f61a45c9f79e0e4e07f64cc90ebbaea991
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/pan2016.pdf,novel,10.1038/srep20317,,7b6124e5696e26f57ea801fe351954e21fedc646d5133169a1ff33cd82858ac5
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/peng2016.pdf,novel,10.1038/srep37084,,509541f7b356778355376191ff1ff9003a254c5d02e40e9305ade26d919b7614
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/repository_1016.pdf,no_doi_needs_claude,,,b896da37f44e18d2e2ecf0191b8f74296fe4da4be19ca26afafda6d875a05c18
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/roya2016.pdf,duplicate_doi,10.1080/19393210.2016.1247918,roya2016-iran-torbat-heidarieh-rice-metals,5b2a9f16836dc6be144b8de2f49103fb704135969df7f1098e3f6b75ca715137
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/solidum2013.pdf,novel,10.4028/www.scientific.net/amr.634-638.1581,,11de488238c93e102ff91e5aeb8e043fddda2c3e69ac4d2a2a687ecd04b52232
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/tajdar-oranj2018.pdf,duplicate_doi,10.1007/s11356-018-3030-y,tajdar-oranj2018-iran-instant-noodles-metals,fbe947835a20bb4b173fcc47b2c737bb884be73442c53fbfa77684a594a19e2b
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/uroko2019.pdf,novel,10.3329/jbs.v28i0.44705,,fc8783ea3d5db1c40bc9442b309dcef7ea78de88ef0a862fb5df28d8e8add870
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/voegborlo1999.pdf,no_doi_needs_claude,,,1ac39dd80d9f6e5666c835728a2a20679467ecf64306cd55c3b00cbc57b9efc0
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/wang2019.pdf,novel,10.3390/ijerph16081417,,08ea42686668185e9451e1fca0dc3ad26e00e18573e5b3f6403560587a96671d
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/wang2020.pdf,novel,10.1002/fsn3.1851,,9c0a02cd9e77d1315a4267c1810ec0cb5b8465b9d2c9837a137746477e9207a0
+raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/yu2021.pdf,novel,10.1080/20964129.2020.1859948,,8a1160c4fae21105849876aa6e4b608e9e9ef4002327e15eadb2d997fdadeda0
