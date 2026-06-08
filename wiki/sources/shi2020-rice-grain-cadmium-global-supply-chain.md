@@ -16,7 +16,7 @@ sha256: d91931d503a85f177e2dae076fab15d1561210f092f8c3d41f18ff34067d9a0c
 metals: [Cd]
 ingredients: ["[[ingredients/rice]]"]
 products: ["[[products/rice-bulk-grain]]", "[[products/infant-rice-cereal]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/teething-and-snacks-rice-based]]"]
-matrices: [polished-white-rice, rice-grain, rice-based-infant-food-context]
+matrices: [polished-white-rice, rice-grain]
 jurisdictions: [GLOBAL]
 sample_n: 2270
 sample_population: "Global polished white market-rice supply-chain samples purchased from retailers across 32 countries on six continents; country-level n and distribution statistics reported in Table 1."
@@ -68,6 +68,7 @@ This source supports rice bulk-grain and rice-based infant-food context for cadm
 - Batch 2 auto-fetched ingest, 2026-05-25. The wishlist row targeted cereal-bars inorganic arsenic, but the actual paper measures cadmium in global polished rice grain. It is retained because it is a real food-occurrence dataset for rice and rice-based infant-food context.
 - Speciation: the measured analyte in this paper is cadmium. Inorganic arsenic appears as contextual comparison only and is not a measured value in this source.
 - Basis: concentrations are reported in ug/kg rice grain; do not pool with prepared or wet-basis infant-food values without conversion.
+- Matrix scope: the paper measures cadmium in polished white rice grain only. The 40 µg/kg processed-infant-food standard appears as a regulatory comparison point, not a directly-measured matrix; rice-based infant food is therefore listed under routing contexts (the product wikilinks) rather than as a measured matrix.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -76,9 +77,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

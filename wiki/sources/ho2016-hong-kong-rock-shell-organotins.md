@@ -67,3 +67,13 @@ This source contributes Hong Kong shellfish-organotin context for wild gastropod
 - Row-fit caveat: the paper is wild rock-shell biomonitoring, not sampled consumer seafood. Broad shellfish routing is used to keep the source visible, with the context caveat above.
 - Brand firewall: no sampled seafood product brands were reported; method-side vendor names are scientific-method details only.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [350dc42](https://github.com/paleofoundation/heavymetalindex/commit/350dc42) | 2026-06-08 | ingest: sosnowska2025-phage-display-peptide-copper-chemosensor fresh from MFK/June 8 Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->
