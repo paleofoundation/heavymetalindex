@@ -2,23 +2,31 @@
 type: product-category
 category: wild-mushrooms
 title: "Wild Mushrooms"
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
-provisional_scaffold: true
-provisional_created: 2026-06-01
-provisional_reason: "ingest of hanc2021-amanita-muscaria-hg-se declared a raw wild mushroom food matrix with no existing product route"
-provisional_source: "[[sources/hanc2021-amanita-muscaria-hg-se]]"
-primary_metals_of_concern: []
+hmtc_category: 4
+hmtc_category_name: "Fruits, Vegetables, and Produce"
+hmtc_row: 18
+hmtc_subcategory_name: "Mushrooms — wild and processed-wild"
+hmtc_taxonomy_version: "2.1"
+hmtc_taxonomy_version_date: "2026-06-08"
+variant_type: contaminated-platform
+platform_metals: [Cd, tHg, Pb]
+exposure_pathway: "Ingestion (oral)"
+regulatory_jurisdiction: "FDA, EU, Codex"
+panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
+products_status: scaffold
+splits_locked: false
+primary_metals_of_concern: [Cd, tHg, Pb]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 6
-updated: 2026-06-01
+wiki_doi: null
+updated: 2026-06-08
 ---
 
 # Wild Mushrooms
 
-> **Provisional scaffold.** This page was created automatically on 2026-06-01 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
+> **HMTc Category 4, Row 18 — Mushrooms (wild and processed-wild), contaminated side.** Promoted from a provisional scaffold under the v2.1 reorganization ([[docs/governance/category-4-step0-amendment-1]], 2026-06-08). Wild mushrooms are the Cd/Hg/Pb-accumulating side of the mushrooms clean/contaminated pair; cultivated mushrooms (Row 17) are the clean counterpart. Canned and pickled wild mushrooms merge here. No candidate values are derived in this pass.
 >
 > **Reason:** ingest of hanc2021-amanita-muscaria-hg-se declared a raw wild mushroom food matrix with no existing product route
 >
@@ -50,9 +58,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

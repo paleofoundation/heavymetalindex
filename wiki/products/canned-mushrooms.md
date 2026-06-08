@@ -2,24 +2,28 @@
 type: product-category
 category: canned-mushrooms
 title: "Canned Mushrooms"
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
-provisional_scaffold: true
-provisional_created: 2026-05-28
-provisional_reason: "merge-enhance ingest of pankavec2019-pickled-mushrooms-poland-minerals declared products/canned-mushrooms which did not exist"
-provisional_source: "[[sources/pankavec2019-pickled-mushrooms-poland-minerals]]"
+hmtc_category: 4
+hmtc_row: 18
+hmtc_subcategory_name: "Mushrooms — wild and processed-wild"
+hmtc_taxonomy_version: "2.1"
+hmtc_taxonomy_version_date: "2026-06-08"
+review_state: retired
+retired: true
+retirement_date: 2026-06-08
+retirement_authority: "Category 4 Step Zero Amendment 1 (docs/governance/category-4-step0-amendment-1.md)"
+redirect_target: products/wild-mushrooms
 primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 2
 wiki_doi: null
-updated: 2026-05-28
+updated: 2026-06-08
 ---
 
 # Canned Mushrooms
 
-> **Provisional scaffold.** This page was created automatically on 2026-05-28 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
+> **Merged into Category 4, Row 18 (wild and processed-wild mushrooms).** Under the v2.1 reorganization ([[docs/governance/category-4-step0-amendment-1]], 2026-06-08), canned wild mushrooms are processed-wild and pool into the contaminated side at [[products/wild-mushrooms]], carrying the usual canned Sn flag (which cross-references the Category 23 cans/lids tin mechanism). This page is retained as a redirect; its evidence routes to Row 18.
 >
 > **Reason:** merge-enhance ingest of pankavec2019-pickled-mushrooms-poland-minerals declared products/canned-mushrooms which did not exist
 >
@@ -89,9 +93,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

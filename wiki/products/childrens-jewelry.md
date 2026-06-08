@@ -2,23 +2,29 @@
 type: product-category
 category: childrens-jewelry
 title: "Children's Jewelry"
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
-provisional_scaffold: true
-provisional_created: 2026-05-31
-provisional_reason: "ingest of nelson2023-wa-childrens-jewelry-followup declared products/childrens-jewelry, which did not exist in the 2026-05-18 taxonomy snapshot"
-provisional_source: "[[sources/nelson2023-wa-childrens-jewelry-followup]]"
-primary_metals_of_concern: []
+hmtc_category: 21
+hmtc_category_name: "Children's Toys, Arts, and Crafts"
+hmtc_row: 22
+hmtc_subcategory_name: "Children's metal jewelry"
+hmtc_taxonomy_version: "2.1"
+hmtc_taxonomy_version_date: "2026-06-08"
+exposure_pathway: "Oral (mouthing) + dermal (handling)"
+regulatory_jurisdiction: "CPSC (ASTM F963, CPSIA), EU Toy Safety Directive"
+panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
+products_status: scaffold
+splits_locked: false
+primary_metals_of_concern: [Pb, Cd]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 12
-updated: 2026-05-31
+wiki_doi: null
+updated: 2026-06-08
 ---
 
 # Children's Jewelry
 
-> **Provisional scaffold.** This page was created automatically on 2026-05-31 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
+> **HMTc Category 21, Row 22 — Children's metal jewelry.** Promoted from a provisional scaffold under the v2.1 reorganization ([[docs/governance/category-21-step0-amendment-1]], 2026-06-08). A leading Pb/Cd recall category; the adult nickel-contact sibling is [[products/piercing-post-assemblies]]. No candidate values are derived in this pass.
 >
 > **Reason:** ingest of nelson2023-wa-childrens-jewelry-followup declared products/childrens-jewelry, which did not exist in the 2026-05-18 taxonomy snapshot
 >
@@ -56,9 +62,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

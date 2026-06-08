@@ -12,8 +12,8 @@ Cat 4's live row list ends at row 16 (`sunflower-seed-butter`). Two rows append:
 
 | Row | Name | Slug | Side |
 |----:|------|------|------|
-| 17 | Mushrooms — cultivated (button, cremini, portobello, oyster) | `mushrooms-cultivated` | clean counterpart |
-| 18 | Mushrooms — wild and processed-wild | `mushrooms-wild` | contaminated platform |
+| 17 | Mushrooms — cultivated (button, cremini, portobello, oyster) | `cultivated-mushrooms` | clean counterpart |
+| 18 | Mushrooms — wild and processed-wild | `wild-mushrooms` | contaminated platform |
 
 ## Why a cultivated-vs-wild split
 

@@ -12,7 +12,7 @@ Cat 21's live row list ends at row 21 (`toys-crafts-other`). One row appends:
 
 | Row | Name | Slug |
 |----:|------|------|
-| 22 | Children's metal jewelry | `childrens-metal-jewelry` |
+| 22 | Children's metal jewelry | `childrens-jewelry` |
 
 ## Why it earns a row
 
@@ -23,7 +23,7 @@ jurisdiction without distorting scope.
 
 ## Scaffold resolved and cross-link
 
-- `childrens-jewelry` → **row 22** (`childrens-metal-jewelry`).
+- `childrens-jewelry` → **row 22** (`childrens-jewelry`).
 - The existing `piercing-post-assemblies` page is the adult nickel-contact sibling. It stays where it
   is as a specialized nickel-contact node and **cross-links** to row 22; it does not merge.
 
