@@ -62,7 +62,7 @@ Hijiki — full per-sample arsenic across the three basis states (Table 1; mg/kg
 Additional source-reported facts:
 
 - Inorganic arsenic was found only in hijiki; the as-sold inorganic fraction was 68–73% of total As, falling to 61–73% after preparation (mean 71% → 67%). Soaking transfers arsenic to the water but does not remove the inorganic fraction from the seaweed, contradicting producer claims.
-- Risk assessment: a 25 g hijiki portion at the maximum inorganic arsenic concentration (the paper states 22.7 mg/kg on the as-consumed basis) gives 0.57 mg inorganic arsenic intake — roughly a 30-fold increase over typical UK dietary inorganic-arsenic exposure (≈one to two months' worth in a single portion).
+- Risk assessment: a 25 g hijiki portion at the maximum inorganic arsenic concentration (the paper states 22.7 mg/kg on the as-consumed basis) gives 0.57 mg inorganic arsenic intake — a 30- to 50-fold increase over typical UK dietary inorganic-arsenic exposure per the risk-assessment section (the paper's conclusion states "around 30 times"; equivalent to roughly one to two months' worth of dietary inorganic arsenic in a single portion).
 - The method's inorganic-arsenic back-extraction co-extracts monomethylarsonic acid (MMA) but not arsenobetaine or arsenosugars.
 - Regulatory context: UK Arsenic in Food Regulations (SI 1959 no. 831) set a general 1 mg/kg total-As limit but explicitly exempt fish and edible seaweed; no EU-wide arsenic-in-food limit existed at the time. JECFA PTWI for arsenic was 15 µg/kg bw/week (1989); COT (2003) recommended inorganic-arsenic exposure be kept ALARP.
 
@@ -87,3 +87,4 @@ Thirty-one samples (five varieties) were collected at random from UK retail outl
 - Jurisdiction GB (UK retail market); samples imported, origin not individually specified, so sampling_locations left empty. sampling_year_range 2003 (collection period Oct–Dec 2003).
 - matrices [edible-seaweed, macroalgae, kelp, dry-weight] per established corpus convention; `kelp` included because kombu (*Laminaria*) is among the varieties. Kept broad for the routing layer.
 - Instrument/vendor name (Perkin-Elmer Multiwave) retained in Methods as permitted scientific reporting.
+- Audit subagent (2026-06-08, fresh-context) returned PROMOTE on all five checks (hijiki 9-row block re-verified cell-by-cell across all three basis blocks, no transposition). One ⚠️ applied: the dietary-exposure multiplier was understated as "30-fold"; verified against source (risk-assessment section states "30–50-fold increase"; conclusion states "around 30 times") and broadened to "30- to 50-fold".
