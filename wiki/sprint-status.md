@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-08T21:46:49.817Z
+updated: 2026-06-08T23:41:18.052Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -31,12 +31,12 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Daemon heartbeat | ⚠️ unknown |
 | auto-fetched/ PDFs in queue | 517 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 110 ⚠️ |
-| Audit queue: pending-audit-spawn-failed | 71 (async lane) |
+| Audit queue: pending-audit-spawn-failed | 52 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 18 |
-| Commits last 24 hours | 432 |
+| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Commits last 1 hour | 10 |
+| Commits last 24 hours | 459 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-8658e9b 75 seconds ago — audit: oktariani2023-tuna-swordfish-indian-pacific-heavy-metals revised per autonomous audit
+576bd5f 6 minutes ago — audit: jasinska2019-mushroom-cadmium revised per autonomous audit
 ```
 
 ## How to read this

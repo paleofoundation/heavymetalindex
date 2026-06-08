@@ -58,5 +58,10 @@
     "last_attempted_at": "2026-06-08T14:26:24.871Z",
     "attempts": 1,
     "last_outcome": "fetched=2 (partial:timeout) novel=?"
+  },
+  "wiki/products/coffee.md": {
+    "last_attempted_at": "2026-06-08T23:06:41.900Z",
+    "attempts": 1,
+    "last_outcome": "fail:timeout (20m), 0 PDFs"
   }
 }

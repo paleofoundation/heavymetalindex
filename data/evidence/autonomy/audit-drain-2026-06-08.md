@@ -34,3 +34,45 @@
 - `maikanov2021-meats-shuchinsk-burabay-metals` — maikanov2021-meats-shuchinsk-burabay-metals audited-revised
 - `alam2021-bangladesh-poultry-feed-meat-metals` — alam2021-bangladesh-poultry-feed-meat-metals audited-revised
 - `lysenko2021-organic-broiler-meat-heavy-metals` — lysenko2021-organic-broiler-meat-heavy-metals REVISE
+
+## Run 2026-06-08T20:39:42.655Z
+
+- Candidates this run: 12
+- Succeeded (audited and committed): 12
+- Stopped (genuine block, no commit): 0
+- Failed (error, no commit): 0
+
+### Succeeded
+- `okolo2022-chicken-drumstick-umuhia-heavy-metals` — okolo2022-chicken-drumstick-umuhia-heavy-metals REVISE
+- `bazzaz2023-poultry-products-erbil-heavy-metals` — bazzaz2023-poultry-products-erbil-heavy-metals revised
+- `omirzakov2024-poultry-meat-kazakhstan-heavy-metals` — omirzakov2024-poultry-meat-kazakhstan-heavy-metals REVISE
+- `alzagtat2016-fruit-nectars-libya-heavy-metals` — alzagtat2016-fruit-nectars-libya-heavy-metals REVISE
+- `samitha2021-pineapple-kerala-heavy-metals` — samitha2021-pineapple-kerala-heavy-metals REVISE
+- `alsabagh2025-canned-products-baghdad-heavy-metals` — alsabagh2025-canned-products-baghdad-heavy-metals revised
+- `mariadi2017-juaro-fish-pineapple-extract-pb-hg` — mariadi2017-juaro-fish-pineapple-extract-pb-hg audited-revised
+- `bhat2022-brick-kilns-milk-rice-heavy-metals` — bhat2022-brick-kilns-milk-rice-heavy-metals quarantined
+- `digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals` — digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals REVISE
+- `oktariani2023-tuna-swordfish-indian-pacific-heavy-metals` — oktariani2023-tuna-swordfish-indian-pacific-heavy-metals REVISE
+- `hsi2016-fish-methylmercury-taiwan` — hsi2016-fish-methylmercury-taiwan REVISE
+- `watanabe2017-retail-fish-mercury-methylmercury-japan` — watanabe2017-retail-fish-mercury-methylmercury-japan REVISE
+
+## Run 2026-06-08T21:57:11.401Z
+
+- Candidates this run: 12
+- Succeeded (audited and committed): 12
+- Stopped (genuine block, no commit): 0
+- Failed (error, no commit): 0
+
+### Succeeded
+- `mehouel2019-sardine-swordfish-algeria-mercury` — mehouel2019-sardine-swordfish-algeria-mercury REVISE
+- `handayani2019-tuna-swordfish-indonesia-mercury` — handayani2019-tuna-swordfish-indonesia-mercury REVISE
+- `tjoa2023-peanut-choy-sum-nickel-laterite` — tjoa2023-peanut-choy-sum-nickel-laterite REVISE
+- `kimakova2018-fish-products-slovakia-mercury` — kimakova2018-fish-products-slovakia-mercury REVISE
+- `osuolale2025-leafy-vegetables-ondo-trace-elements` — osuolale2025-leafy-vegetables-ondo-trace-elements REVISE
+- `ngodhe2018-kale-soil-sludge-kisumu-heavy-metals` — ngodhe2018-kale-soil-sludge-kisumu-heavy-metals REVISE
+- `lenart2023-wild-boar-metals` — lenart2023-wild-boar-metals REVISE
+- `boisteanu2024-wild-boar-romania-metals` — boisteanu2024-wild-boar-romania-metals audited-revised
+- `paulsen2015-game-meat-metal-bioaccessibility` — paulsen2015-game-meat-metal-bioaccessibility revised
+- `gerofke2018-wild-game-lead` — gerofke2018-wild-game-lead REVISE
+- `mesinger2021-red-deer-heavy-metals` — mesinger2021-red-deer-heavy-metals REVISE
+- `zarski2017-mallard-mercury` — zarski2017-mallard-mercury REVISE

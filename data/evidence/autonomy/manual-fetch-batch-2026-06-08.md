@@ -1099,3 +1099,123 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/12_Ashraf_2024_JMIR_Online_Semaglutide_Quality.pdf`: MFK_12-ashraf-2024-jmir-online-semaglutide-quality
+
+## Tick 2026-06-08T21:47:52.588Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `jairoun2020-uae-dietary-supplements-heavy-metals` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/13_Jairoun_2020_UAE_Supplements_Heavy_Metals.pdf)
+
+## Tick 2026-06-08T21:55:16.564Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/15_Gaudiano_2024_Italian_Online_SARMs.pdf`: out-of-scope; no heavy metals data (Gaudiano 2024 measures SARM identity by LC-QTOF-MS and assay by 19F qNMR; the single "cadmium or arsenic" mention is a rice-excipient literature aside, not a measurement)
+
+## Tick 2026-06-08T22:06:23.357Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/17_Mendias_2026_Research_Peptides_6441_Samples_Quality.pdf`: out_of_scope:gray_market_peptide_purity_abundance_endotoxin_not_heavy_metals
+
+## Tick 2026-06-08T22:10:09.283Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/18_VanDorpe_2011_Purity_Profiling_Peptide_Drugs.pdf`: MFK_18-vandorpe-2011-purity-profiling-peptide-drugs (out of scope; 2011 Ghent University DruQuaR review of organic peptide-drug related-impurity profiling — synthesis byproducts, protecting groups, degradation chemistry — predates ICH Q3D by three years, no HMI analytes measured anywhere, "metal" appears once as a generic oxidation-mechanism aside)
+
+## Tick 2026-06-08T22:15:26.075Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/19_Breindahl_2015_MelanotanII_Online_Purity.pdf`: out-of-scope (MFK_19-breindahl-2015-melanotanii-online-purity — LC-UV-MS/MS identity+assay+organic-impurity profile of illicit melanotan II vials, no HMI analytes measured; seventh STOP from peptide_contamination_pdfs/)
+
+## Tick 2026-06-08T22:20:24.638Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cammilleri2025-marine-collagen-toxic-metals` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/21_Cammilleri_2025_Toxic_Metals_Collagen_Supplements.pdf)
+
+## Tick 2026-06-08T23:07:43.809Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_babycare_01_Exposure_Pathways/01_Exposure_Pathways/ATSDR_Exposure_Dose_Guidance_for_Soil_Sediment_Dermal_Absorption.pdf`: duplicate-of-already-clean-page (atsdr2023-soil-dermal-absorption-guidance)
+
+## Tick 2026-06-08T23:11:17.877Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_babycare_01_Exposure_Pathways/01_Exposure_Pathways/Appendix_F_-_Dermal_Uptake_of_Chemicals_from_Soil_OEHHA.pdf`: dup_of_already_clean_page
+
+## Tick 2026-06-08T23:14:42.350Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_babycare_01_Exposure_Pathways/01_Exposure_Pathways/Considerations_when_Estimating_Exposure_to_Crafts_and_Toys_in_Children.pdf`: dup_of_already_clean_page — oecd2024-crafts-toys-children-exposure already at Cochrane bar (post-2026-05-14, two prior fresh-context audits, malformed.csv hit is advisory-only for intentionally-empty metals/ingredients/matrices on a methodology-only document)
+
+## Tick 2026-06-08T23:18:13.594Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_babycare_01_Exposure_Pathways/01_Exposure_Pathways/SCCS_Notes_of_Guidance_for_the_Testing_of_Cosmetic_Ingredients_12th_Revision.pdf`: duplicate of already-clean page sccs2023-notes-of-guidance-cosmetic-ingredients-v12 (sha256 match; advisory-only malformed flag is correct empty-ingredients state for regulatory methodology document)
+
+## Tick 2026-06-08T23:20:14.820Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_babycare_01_Exposure_Pathways/01_Exposure_Pathways/SCCS_Scientific_Advice_on_Children_Exposure_to_Methyl_Salicylate_SCCS_1654_23.pdf`: dup_of_already_clean_page — wiki/sources/sccs2025-methyl-salicylate-children-exposure-1676-25.md (post-2026-05-14, audited-revised 2026-05-17, advisory-only malformed reflects correct empty metals/ingredients for organic-substance methodology document)
+
+## Tick 2026-06-08T23:23:39.565Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_babycare_02_Regulatory_Reports/02_Regulatory_Reports/CPSIA_and_Lead_Fact_Sheet.pdf`: dup_of_already_clean_page -> cfa2012-cpsia-lead-fact-sheet

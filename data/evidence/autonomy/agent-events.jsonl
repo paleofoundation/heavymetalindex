@@ -906,3 +906,6 @@
 {"ts":"2026-06-08T20:58:31.675Z","actor":"frank-opus","cite_key":"cleanlabel2025-protein-powder-heavy-metals","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T21:07:09.530Z","actor":"frank-opus","cite_key":"ucalgary2026-cpt-pearl-unauthorized-injectable-peptides","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
 {"ts":"2026-06-08T21:19:43.505Z","actor":"frank-opus","cite_key":"ema2025-synthetic-peptides-elemental-impurities","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T21:54:14.967Z","actor":"frank-opus","cite_key":"jairoun2020-uae-dietary-supplements-heavy-metals","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T22:31:15.724Z","actor":"frank-opus","cite_key":"cammilleri2025-marine-collagen-toxic-metals","status":"ingested","source_path":"","commit":"","blocker":"","next":""}
+{"ts":"2026-06-08T23:06:41.946Z","actor":"discover-autopilot","cite_key":"","status":"discover-failed","source_path":"wiki/products/coffee.md","commit":"","blocker":"timeout (20m), 0 PDFs","next":""}
