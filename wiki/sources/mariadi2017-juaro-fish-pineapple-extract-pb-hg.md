@@ -20,7 +20,7 @@ sample_population: "Juaro fish treated with citric acid from pineapple extract"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-25
+updated: 2026-06-09
 ---
 
 # Mariadi et al. 2017 - Removal lead (Pb) and mercury (Hg) from juaro fish (Pangasius polyuranodon) using citric acid from pineapple extract (Ananas comosus) as chelating agent
@@ -38,7 +38,7 @@ Source units are mg/kg.
 
 ## Methods
 
-Pb and Hg in fish meat were analyzed by atomic absorption spectrophotometry; Hg analysis used a mercury vaporizer unit.
+Juaro fish (Pangasius polyuranodon) was purchased at a traditional market in Palembang, South Sumatera, Indonesia; shells were separated and the meat retained for analysis. Five-gram samples were digested in a mixture of 25 ml concentrated H2SO4, 20 ml concentrated HNO3, and 20 ml HNO3-HClO4 (1:1). Pb and Hg in fish meat were quantified by atomic absorption spectrophotometry on a Shimadzu AA 7000 at the Industrial Research and Standardization Laboratory Palembang and a Shimadzu AA 2800 at the Environmental Health and Disease Control Laboratory Palembang. Hg analysis used a mercury vaporizer unit (HVU) coupled to the AAS. Group differences across treatment conditions were tested by one-way ANOVA (p < 0.05).
 
 ## Implications
 
@@ -64,9 +64,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
