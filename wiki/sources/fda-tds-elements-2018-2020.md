@@ -18,6 +18,9 @@ duplicate_filesystem_copies:
   - path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/FDA_TDS_FY2018-2020_Elements_Report.pdf"
     sha256: "ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef"
     note: "Byte-identical copy of the canonical raw_path; Kimi agent filed the FDA TDS FY2018–FY2020 Elements report PDF in the snacks/canned/prepared subfolder of the corruption-issue folder tree. Recorded 2026-06-02 so future manual-fetch identity-check cycles recognize this Kimi-folder location as already-ingested."
+  - path: "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/FDA Total Diet Study Report_ Fiscal Years 2018-2020 Elements Data.pdf"
+    sha256: "ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef"
+    note: "Third byte-identical copy of the canonical raw_path; Kimi agent placed the same report PDF under the June 8 fruit-products extraction subtree of the corruption-issue folder. Recorded 2026-06-08 so the manual-fetch loop recognizes this Kimi-folder location as already-ingested."
 access_date: 2026-04-25
 metals: [Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb]
 other_elements_in_file: [Calcium, Magnesium, Phosphorus, Potassium, Sodium, Copper, Iron, Strontium, Zinc, Manganese, Molybdenum, Selenium, Vanadium, Iodine, Barium, Beryllium, Thallium]
@@ -32,7 +35,7 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-06-02
+updated: 2026-06-08
 ---
 
 # FDA TDS — Fiscal Years 2018-2020 Elements Data Report
@@ -226,6 +229,7 @@ License `us-government-work`. The TDS data is published on the FDA website at th
   - Rejected (Check 2 ⚠️ matrices vocabulary): subagent flagged `total-diet-study-prepared-food` in `matrices:` as not in the supplied taxonomy snapshot. False positive: the matrices field uses its own controlled vocabulary that is not enumerated in `docs/gpt-collaboration/taxonomy-snapshot.md` (only ingredients/products/metals/regulations are in that file). The matrices label `total-diet-study-prepared-food` is the established convention used by the companion source page [[sources/fda2022-tds-elements-analytical-key]] (verified: that page's frontmatter carries `matrices: [total-diet-study-prepared-food]`). Keeping the same label here is intentional and correct.
   - Figure 10 / Figure 12 approximation flags: subagent confirmed approximations are directionally consistent with the source bar charts and the explicit "approximate, rounded" caveat in the wiki body is appropriate. No change needed.
 - 2026-06-02 byte-identical filesystem-copy enhancement: added `duplicate_filesystem_copies` block recording the second filesystem location of the canonical July 2022 TDS Elements report PDF at `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/FDA_TDS_FY2018-2020_Elements_Report.pdf` (sha256 `ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef`, byte-identical to the canonical `raw_path` under `raw/reports/`). Kimi agent filed the same report PDF in two locations; both now resolve back to this canonical source page. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
+- 2026-06-08 byte-identical filesystem-copy enhancement: added a third entry to `duplicate_filesystem_copies` recording the Kimi agent's June 8 placement of the same report PDF under `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/FDA Total Diet Study Report_ Fiscal Years 2018-2020 Elements Data.pdf` (sha256 verified byte-identical to canonical `raw_path`). Manual-fetch loop now recognizes this third Kimi-folder location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
 
 ## Wiki pages updated on ingest
 
@@ -275,9 +279,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c6f2117](https://github.com/paleofoundation/heavymetalindex/commit/c6f2117) | 2026-06-02 | ingest: fda-tds-elements-2018-2020 duplicate_filesystem_copies path from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared |
-| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
-| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
