@@ -1,0 +1,64 @@
+---
+type: source
+raw_handle: AUTO_gap-coffee-cd_2024_10-3390-foods13142212
+cite_key: pokorskaniewiada2024-polish-coffee-trace-elements
+title: "Tracking Trace Elements Found in Coffee and Infusions of Commercially Available Coffee Products Marketed in Poland"
+authors: ["Kamila Pokorska-Niewiada", "Aniela Scheffler", "Laura Przedpelska", "Agata Witczak"]
+year: 2024
+publication: "Foods"
+doi: "10.3390/foods13142212"
+source_type: peer-reviewed
+evidence_tier: A
+license: "CC BY"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-cd_2024_10-3390-foods13142212.pdf"
+metals: [Pb, Cd]
+ingredients: ["[[ingredients/coffee]]"]
+products: ["[[products/coffee]]"]
+matrices: [ground-coffee, instant-coffee, coffee-infusion]
+jurisdictions: [PL]
+near_duplicates: []
+sample_n: 40
+sample_population: "Ground and instant coffees from eight producers available on the Polish market, with five product batches per assortment and paired brewed infusions prepared from 6.33 g coffee per 100 mL water."
+updated: 2026-06-09
+---
+
+# Pokorska-Niewiada et al. 2024 - trace elements in Polish-market coffee
+
+Pokorska-Niewiada and colleagues measured lead and cadmium in commercially available ground and instant coffees sold in Poland, then measured transfer into brewed coffee infusions. The dry coffee concentrations were low, and the authors reported limited transfer into ground-coffee brews, especially for lead.
+
+## Key numbers
+
+The study analyzed instant and ground coffees from eight producers, with each assortment represented by five batches. Coffee infusions were prepared from 6.330 g of ground or instant coffee in 100 mL hot deionized water with a 10-minute brewing time.
+
+Table 2a reports dry coffee concentrations. Ground coffee beans had mean Pb 0.015 +/- 0.004 ug/g (range 0.009-0.020 ug/g) and Cd 0.017 +/- 0.002 ug/g (range 0.013-0.019 ug/g). Instant coffee had mean Pb 0.014 +/- 0.003 ug/g (range 0.010-0.020 ug/g) and Cd 0.015 +/- 0.002 ug/g (range 0.012-0.019 ug/g).
+
+Table 2b reports transfer from ground coffee into infusion: Pb 7.10 +/- 1.63% and Cd 30.05 +/- 3.27%. Instant coffee was treated as 100% transferred because the dry instant product dissolves in the drink.
+
+Table 2c reports coffee-drink concentrations. Ground-coffee drink had mean Pb 0.0007 +/- 0.0002 ug/100 mL (range 0.0004-0.0009 ug/100 mL) and Cd 0.0031 +/- 0.0003 ug/100 mL (range 0.0025-0.0035 ug/100 mL). Instant coffee had mean Pb 0.0090 +/- 0.0016 ug/100 mL (range 0.0065-0.0126 ug/100 mL) and Cd 0.0096 +/- 0.0014 ug/100 mL (range 0.0078-0.0118 ug/100 mL).
+
+The authors' exposure calculations found low toxic-element intake from coffee brews. Table 5 reports Cd THQ ranges of 0.0004-0.0005 for ground coffee and 0.0011-0.0017 for instant coffee. The abstract states that lead did not exceed 0.9% of the BMDL0.1 and cadmium did not exceed 0.2% of PTMI even under higher-consumption assumptions.
+
+## Methods (brief)
+
+The authors digested 0.500 g coffee samples with nitric acid by microwave-assisted mineralization. Infusions were mineralized from 10 mL aliquots after brewing and cooling. Lead and cadmium were quantified by graphite-furnace atomic absorption spectrometry, while Fe, Zn, Cu, and Mn were measured by ICP-AES but are not HMI metals.
+
+Reported LOD/LOQ values were 1.3/4.4 ug/kg for Pb and 0.11/0.37 ug/kg for Cd. Recovery was 99.1 +/- 0.8% for Pb and 98.1 +/- 0.9% for Cd.
+
+## Implications
+
+Certification: Routeable coffee occurrence evidence for Poland-market ground and instant coffee. Dry coffee values and drink values use different bases and should not be pooled without preserving the product form and infusion conversion.
+
+Courses: Useful example of why coffee occurrence values should distinguish dry product from beverage exposure; ground-coffee brew transferred about 7% of Pb and 30% of Cd into the prepared drink.
+
+App: Supports coffee product and ingredient context for Polish-market coffees, with values labeled by product form.
+
+## Wiki pages this source may touch
+
+- [[products/coffee]]
+- [[ingredients/coffee]]
+- [[metals/lead]]
+- [[metals/cadmium]]
+
+## Verification notes
+
+The DOI, title, author list, journal, and year were taken from the Foods PDF. The author surname contains a hyphen in the PDF; the cite key removes punctuation for slug stability. The paper also measures Fe, Zn, Cu, and Mn, but only Pb and Cd are recorded in the HMI metals frontmatter.
