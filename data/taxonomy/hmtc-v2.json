@@ -327,7 +327,7 @@
         { "row": 5, "name": "Makeup — foundation, powders, blush/rouge", "slug": "makeup-foundation-powders-blush" },
         { "row": 6, "name": "Makeup — body/leg paints, bases, fixatives (including airbrush)", "slug": "makeup-body-paints-bases-fixatives" },
         { "row": 7, "name": "Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)", "slug": "eye-makeup" },
-        { "row": 8, "name": "Lip products (lipstick, gloss, lip balm)", "slug": "lip-products" },
+        { "row": 8, "name": "Lip products (lipstick, gloss, lip balm)", "slug": "lipstick" },
         { "row": 9, "name": "Deodorants (sticks, roll-ons, gels, creams, wipes, sprays)", "slug": "deodorants" },
         { "row": 10, "name": "Sun/suntan products (including spray, self-tan, airbrush)", "slug": "sun-suntan-products" },
         { "row": 11, "name": "Leave-on hair preparations (leave-in conditioners, tonics/dressings, styling aids, hair sprays, color sprays)", "slug": "leave-on-hair-preparations" },

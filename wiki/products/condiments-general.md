@@ -1,11 +1,11 @@
 ---
 title: "Condiments (hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)"
 type: product-category
-hmtc_category: 7
+hmtc_category: 32
 hmtc_category_name: "Oils, Condiments, and Specialty Foods"
 hmtc_row: 6
-hmtc_subcategory_name: "Condiments (hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)"
-hmtc_taxonomy_version: "2.0"
+hmtc_subcategory_name: "Coarse condiments node (decomposes to Cat 32 rows + hot/chili sauce -> Cat 34, per category-7-dissolution-step0-event.md)"
+hmtc_taxonomy_version: "2.2"
 hmtc_taxonomy_version_date: "2026-03-30"
 exposure_pathway: "Ingestion (oral, typically small serving sizes)"
 regulatory_jurisdiction: "FDA, EU, Codex"
@@ -15,7 +15,7 @@ products_status: scaffold
 splits_locked: false
 sources: 25
 wiki_doi: null
-updated: 2026-06-02
+updated: 2026-06-09
 step0_status: provisional
 step0_provisional_reason: "Fractured across 6 incompatible platforms (fish-sauce tHg; hot-sauce/spice Pb; soy-sauce Pb/Cd; tomato/ketchup Cd; broad TDS). No sub-platform clears n>=5. SPLIT pending into ketchup-tomato / soy-sauce / fish-sauce; route spice/hot-sauce sources to Row 8."
 step0_lock_doc: docs/governance/category-7-step0-lock.md

@@ -3,10 +3,12 @@ type: product-category
 category: snacks-general
 aliases: [snack-foods, savory-snacks, salty-snacks]
 title: "Snacks, General"
-hmtc_category: 7
+hmtc_category: 3
 hmtc_category_name: "Oils, Condiments, and Specialty Foods"
 hmtc_row: 10
-hmtc_subcategory_name: "Snacks (crackers, granola/snack bars, cookies, chips, popcorn)"
+hmtc_subcategory_name: "Coarse snacks node (snacks fan to Cat 3 grain rows / Cat 4 produce by matrix)"
+hmtc_taxonomy_version: "2.2"
+products_status: scaffold
 provisional_scaffold: true
 provisional_created: 2026-05-30
 provisional_reason: "HMTc Cat 7 row 10 taxonomy destination existed in products/index.md but had no page; rollup of snacks-crackers-biscuits/snack-bars-energy-bars/biscuits. Created during fan-out repair 2026-05-30."
@@ -15,7 +17,7 @@ typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 1
-updated: 2026-06-02
+updated: 2026-06-09
 step0_status: provisional
 step0_provisional_reason: "1 routed source (lamb-meat snacks), off-platform for the row definition (crackers/granola/chips/popcorn). Discovery target needed."
 step0_lock_doc: docs/governance/category-7-step0-lock.md
