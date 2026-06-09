@@ -46,6 +46,7 @@ Additional source-reported grain findings:
 - The text states that Cd in all measured maize grains was below 0.1 mg·kg−1 and Pb in maize grains was below 0.2 mg·kg−1.
 - The text states that 5.17% of measured peanut-grain Cd and 8.57% of measured peanut-grain Pb exceeded the MHC values of 0.5 and 0.2 mg·kg−1, respectively.
 - The text states that Cd, Cu, Hg, Pb, and Zn in maize grains scarcely exceeded MHC maximum values of 0.2 mg·kg−1 for Cd, 0.02 mg·kg−1 for Hg, and 0.2 mg·kg−1 for Pb.
+- Model-estimated PCS (percentage of estimated grain concentrations from Table 5 exceeding the MHC, 2012 limits) was 0.01% for Cd, 0.04% for Hg, and 0.04% for Pb in maize grains, and 8.58% for Cd and 22.11% for Pb in peanut grains. These are distinct from the measured-grain exceedance percentages above and derive from the regression-model output rather than direct sample distributions.
 - Table 6 maize-grain risk outputs: mean CDI values were Cd 6.78E-05, Cu 1.40E-02, Hg 5.52E-06, Pb 2.45E-04, and Zn 1.69E-01 `mg·kg−1·d−1`.
 - Table 6 mean HQ values were Cd 6.78E-02, Cu 3.49E-01, Hg 1.84E-02, Pb 6.14E-01, and Zn 5.62E-01; the mean HI was 1.61E+00 and maximum HI was 7.72E+00.
 - The authors did not assess health risk via peanut-grain consumption because peanut grains were described as oils that were not consumed directly by local residents.
