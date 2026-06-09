@@ -3,8 +3,12 @@
   "buildCommand": "npm run build",
   "outputDirectory": "public",
   "installCommand": "npm install",
-  "ignoreCommand": "bash tools/vercel-ignore-build.sh",
   "framework": null,
+  "git": {
+    "deploymentEnabled": {
+      "main": false
+    }
+  },
   "cleanUrls": true,
   "functions": {
     "api/ask.js": {
