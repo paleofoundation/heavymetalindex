@@ -65,3 +65,4 @@ App: Supports a context warning that 3D-printing emissions can include Pb, tAs, 
 - DOI, authors, journal, and publication year were read from the PDF title page and citation block.
 - The auto-fetch row labelled the target as `fabric-protectants`; the actual paper is about material-extrusion 3D-printing filaments and emitted particles. The source page therefore leaves `products` empty and lists the fetched product page only as a may-touch/misroute context, not as direct evidence.
 - Arsenic and chromium were measured as total elemental concentrations by ICP-MS; no inorganic arsenic or Cr-VI substitution is made.
+- Matrix vocabulary note: `indoor-air` is already used in the wiki; `3d-printer-filament` and `emitted-particles` are source-specific matrix descriptors retained so the routing layer does not misclassify this as fabric-protectant occurrence evidence. If a durable-goods 3D-printing category is locked later, these should be normalized into that taxonomy.
