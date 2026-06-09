@@ -583,6 +583,7 @@ let totalSkippedIndexed = 0
 let totalSkippedWeak = 0
 let totalSkippedNoOa = 0
 let totalFailed = 0
+let totalUnpaywallRescued = 0
 
 // Sprint mode 2026-05-25: wall-clock budget per invocation so the fetcher
 // fits inside a 30-min daemon tick when the wishlist generator emits up to
@@ -731,6 +732,40 @@ async function queryPubMed(q, searchTerms, fetchOne) {
     const batch = fetchCandidates.slice(bi, bi + CONCURRENT_FETCHES)
     await Promise.all(batch.map(fetchOne))
     await new Promise((r) => setTimeout(r, DOWNLOAD_DELAY_MS))
+  }
+}
+
+// Unpaywall DOI → direct OA PDF resolver. Used as a fallback when a candidate's
+// primary OA URL resolves to an HTML landing page or a 403-blocked publisher
+// link — the two dominant fetch-loss modes (empirically ~477 not-pdf + ~69 http
+// per ~1096 decisions, vs only 2 missing-OA-URL). Unpaywall's
+// best_oa_location.url_for_pdf is a resolved direct-PDF link, frequently a
+// repository copy that is neither a landing page nor publisher-blocked. Free
+// API; the email param is required for the polite pool. Returns "" on any error
+// or when no direct-PDF OA location exists (caller treats "" as "no fallback"),
+// so it can never reduce existing downloads.
+async function resolveUnpaywallPdf(doi) {
+  const clean = String(doi || "").replace(/^https?:\/\/(dx\.)?doi\.org\//i, "").trim()
+  if (!clean) return ""
+  const url = `https://api.unpaywall.org/v2/${encodeURIComponent(clean)}?email=${encodeURIComponent(MAILTO)}`
+  try {
+    const res = await Promise.race([
+      fetch(url, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" } }),
+      new Promise((_, rej) => setTimeout(() => rej(new Error("unpaywall-timeout")), 15000)),
+    ])
+    if (!res.ok) return ""
+    const data = await res.json()
+    const locs = []
+    if (data.best_oa_location) locs.push(data.best_oa_location)
+    if (Array.isArray(data.oa_locations)) locs.push(...data.oa_locations)
+    for (const l of locs) {
+      if (!l) continue
+      if (l.url_for_pdf) return l.url_for_pdf
+      if (typeof l.url === "string" && /\.pdf($|\?)/i.test(l.url)) return l.url
+    }
+    return ""
+  } catch {
+    return ""
   }
 }
 
@@ -909,48 +944,67 @@ for (let i = startIndex; i < queries.length; i += 1) {
   // Concurrent fetch pass: CONCURRENT_FETCHES (default 5) in flight at any time.
   // Each candidate has a hard 25s deadline via Promise.race to prevent hung
   // sockets from blocking the whole query batch.
-  async function fetchOne({ row, target, oaUrl }) {
-    process.stdout.write(`  ↓ ${row.title.slice(0, 65)} ... `)
+  // Fetch one URL and write its body to `target` if it is a PDF. Returns
+  // { saved:true, bytes } on success, or { saved:false, decision, kind } with
+  // kind ∈ {http, not-pdf, error} so the caller can decide whether the
+  // Unpaywall fallback is worth attempting.
+  async function attemptDownload(url, target) {
     try {
       const response = await Promise.race([
-        fetch(oaUrl, { headers: { "User-Agent": USER_AGENT }, redirect: "follow" }),
+        fetch(url, { headers: { "User-Agent": USER_AGENT }, redirect: "follow" }),
         new Promise((_, rej) => setTimeout(() => rej(new Error("hard-timeout")), 25000)),
       ])
-      if (!response.ok) {
-        process.stdout.write(`HTTP ${response.status}\n`)
-        row.decision = `fail:http-${response.status}`
-        totalFailed += 1
-      } else {
-        const contentType = response.headers.get("content-type") || ""
-        if (!contentType.includes("pdf") && !contentType.includes("octet-stream")) {
-          process.stdout.write(`not PDF\n`)
-          row.decision = `skip:not-pdf:${contentType.slice(0, 40)}`
-          totalSkippedNoOa += 1
-        } else {
-          const buffer = Buffer.from(await Promise.race([
-            response.arrayBuffer(),
-            new Promise((_, rej) => setTimeout(() => rej(new Error("body-timeout")), 25000)),
-          ]))
-          fs.writeFileSync(target, buffer)
-          process.stdout.write(`${formatBytes(buffer.length)}\n`)
-          row.decision = "downloaded"
-          row.downloaded_path = path.relative(repoRoot, target)
-          totalDownloaded += 1
-          // 2026-05-28 fix: cross-query DOI dedup. The same paper is
-          // discovered by multiple queries (e.g., "rice cadmium" and
-          // "infant rice cereal cadmium" both surface Williams 2018).
-          // Without this, query #50 would re-download the same PDF
-          // that query #5 already saved. Adding the freshly-downloaded
-          // DOI + normalized title to the in-memory sets means the
-          // next query will see alreadyIndexed=true.
-          if (row.doi) existingDOIs.add(normalizeDoi(row.doi))
-          if (row.title) existingTitles.add(normalizeTitle(row.title))
-        }
+      if (!response.ok) return { saved: false, decision: `fail:http-${response.status}`, kind: "http" }
+      const contentType = response.headers.get("content-type") || ""
+      if (!contentType.includes("pdf") && !contentType.includes("octet-stream")) {
+        return { saved: false, decision: `skip:not-pdf:${contentType.slice(0, 40)}`, kind: "not-pdf" }
       }
+      const buffer = Buffer.from(await Promise.race([
+        response.arrayBuffer(),
+        new Promise((_, rej) => setTimeout(() => rej(new Error("body-timeout")), 25000)),
+      ]))
+      fs.writeFileSync(target, buffer)
+      return { saved: true, bytes: buffer.length }
     } catch (err) {
-      process.stdout.write(`error: ${err.message.slice(0, 50)}\n`)
-      row.decision = `fail:${err.message.slice(0, 40)}`
-      totalFailed += 1
+      return { saved: false, decision: `fail:${err.message.slice(0, 40)}`, kind: "error" }
+    }
+  }
+
+  async function fetchOne({ row, target, oaUrl }) {
+    process.stdout.write(`  ↓ ${row.title.slice(0, 65)} ... `)
+
+    let r = await attemptDownload(oaUrl, target)
+
+    // Unpaywall fallback. The dominant fetch-loss modes are oa_url resolving to
+    // an HTML landing page (skip:not-pdf) and publisher 403s — not missing OA
+    // URLs. Unpaywall maps the DOI to a direct OA PDF (often a repository copy
+    // that is neither a landing page nor publisher-blocked), rescuing both. It
+    // fires only on a failed primary fetch for a candidate carrying a DOI, so it
+    // can never reduce existing downloads — purely additive.
+    if (!r.saved && row.doi && (r.kind === "not-pdf" || r.kind === "http")) {
+      const upUrl = await resolveUnpaywallPdf(row.doi)
+      if (upUrl && upUrl !== oaUrl) {
+        const r2 = await attemptDownload(upUrl, target)
+        if (r2.saved) { r = r2; row.oa_url = upUrl; totalUnpaywallRescued += 1 }
+      }
+    }
+
+    if (r.saved) {
+      process.stdout.write(`${formatBytes(r.bytes)}\n`)
+      row.decision = "downloaded"
+      row.downloaded_path = path.relative(repoRoot, target)
+      totalDownloaded += 1
+      // 2026-05-28 fix: cross-query DOI dedup. The same paper is discovered by
+      // multiple queries; without this a later query re-downloads it. Adding the
+      // freshly-downloaded DOI + normalized title means the next query sees
+      // alreadyIndexed=true.
+      if (row.doi) existingDOIs.add(normalizeDoi(row.doi))
+      if (row.title) existingTitles.add(normalizeTitle(row.title))
+    } else {
+      process.stdout.write(`${r.kind === "not-pdf" ? "not PDF" : r.kind === "http" ? r.decision.replace("fail:", "") : "error"}\n`)
+      row.decision = r.decision
+      if (r.kind === "not-pdf") totalSkippedNoOa += 1
+      else totalFailed += 1
     }
     audit.push(row)
   }
@@ -1010,6 +1064,7 @@ writeCsv(auditPath, audit, [
 console.log(`\nWishlist fetch complete.`)
 console.log(`  candidates returned by OpenAlex + PubMed combined: ${totalFound}`)
 console.log(`  downloaded (relevance >= ${DOWNLOAD_THRESHOLD}, OA, not indexed): ${totalDownloaded}`)
+console.log(`    of which rescued via Unpaywall (landing-page/403 → direct OA PDF): ${totalUnpaywallRescued}`)
 console.log(`  skipped (already in wiki/sources/ or staging): ${totalSkippedIndexed}`)
 console.log(`  skipped (weak match, logged for review): ${totalSkippedWeak}`)
 console.log(`  skipped (no OA URL or not-PDF): ${totalSkippedNoOa}`)
