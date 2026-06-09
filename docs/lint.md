@@ -53,6 +53,14 @@ These categories require reading judgment rather than a structural script, so th
 - **Bullets where prose is required:** study summaries, mechanism explanations, synthesis paragraphs, consumer risk explanations, and implications sections rendered as bullet lists instead of prose.
 - **Undefined consumer qualifiers:** "small," "trace," "safe," "dangerous," "high," "low" and similar used without a quantitative anchor (dose, population, consumption frequency). Per Part 7 and [[docs/conventions]], consumer translations must specify dose, population, and frequency.
 
+## Other delegated semantic sweeps (language-judgment, no .mjs tool)
+
+Read-only reader sweeps that fill semantic gaps the structural audits cannot reach. Each writes a dated report to `wiki/lint/`, triaged and applied by an editing-capable session, never auto-applied.
+
+- **Citation-support sweep** ([[docs/tasks/citation-support-sweep]]): `audit-claim-provenance.mjs` confirms a `[[sources/...]]` citation exists near every numeric claim but cannot verify the source actually states the value (its own deferred "v2"). This sweep reads each cited source page and checks it supports the number, flagging mismatch / not-in-source / wrong-source. Highest defensibility value.
+- **Source-tagging fidelity sweep** ([[docs/tasks/source-tagging-fidelity-sweep]]): reads each `wiki/sources/` abstract against its `products`/`ingredients`/`matrices`/`metals`/`jurisdictions` frontmatter and flags measured analytes or matrices missing from the tags (which silently breaks routing fan-out, Part 5b), over-specific scopes, and over-tagging.
+- **Prose-vs-frontmatter consistency sweep** ([[docs/tasks/prose-frontmatter-consistency-sweep]]): checks each ingredient/metal page's narrative and body table against its own `contamination_profile` numbers, flagging table≠frontmatter staleness, prose magnitude that contradicts the data, and confidence/coverage mismatches.
+
 ## Output and log conventions
 
 Lint results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`. Lint entries in `log.md` use `op: lint`. Routing lint failures should block builds, not just produce reports, because routing drift propagates silently.
