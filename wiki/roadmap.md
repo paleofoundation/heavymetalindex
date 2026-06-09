@@ -17,7 +17,7 @@ The strategic frame is in [[CLAUDE|CLAUDE.md § Part 1]] (the internal operating
 The Heavy Metal Index is a curated, citation-grounded reference covering heavy metals in food, ingredients, supply-chain inputs, mitigation, and regulation. As of 2026-05-28 it carries:
 
 - Over 1,000 source pages (peer-reviewed papers, agency reports, datasets) with structured frontmatter and per-claim provenance.
-- 260+ ingredient profiles with structured `contamination_profile` blocks for the HMTc-10 analytes.
+- 260+ ingredient profiles with structured `contamination_profile` blocks for the [[heavy-metal-tested-certified|HMTc-10]] analytes.
 - 350+ product-category pages organised against the HMTc Comprehensive Testing Category Taxonomy v2.0.
 - 36 metal pages covering the HMTc-10 plus aluminium, chromium, hexavalent chromium, tin, antimony, and uranium.
 - 55 regulation pages spanning 11 jurisdictions and 11 metals, plus auto-generated [[regulations/by-jurisdiction|cross-jurisdiction]] and [[regulations/timeline|chronological]] views.

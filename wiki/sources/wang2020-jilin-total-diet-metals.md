@@ -15,7 +15,7 @@ raw_sha256: "9c0a02cd9e77d1315a4267c1810ec0cb5b8465b9d2c9837a137746477e9207a0"
 access_url: "https://doi.org/10.1002/fsn3.1851"
 metals: [Pb, tAs, Cd, Al]
 ingredients: ["[[ingredients/noodles]]", "[[ingredients/rice]]", "[[ingredients/bread]]", "[[ingredients/soy]]", "[[ingredients/peanuts]]", "[[ingredients/potatoes]]", "[[ingredients/pork-chop]]", "[[ingredients/organ-meats]]", "[[ingredients/beef]]", "[[ingredients/chicken]]", "[[ingredients/eggs]]", "[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/vegetables]]", "[[ingredients/root-vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/seaweed]]", "[[ingredients/wild-mushrooms]]", "[[ingredients/fruits]]", "[[ingredients/water]]", "[[ingredients/orange-juice]]", "[[ingredients/white-sugar]]", "[[ingredients/fermented-beverage-bases]]"]
-products: ["[[products/rice-bulk-grain]]", "[[products/pasta-wheat-based]]", "[[products/bread-and-baked-goods]]", "[[products/other-grain-products]]", "[[products/soy-products]]", "[[products/peanuts]]", "[[products/root-tuber-vegetables]]", "[[products/pork-product]]", "[[products/beef-product]]", "[[products/poultry-product]]", "[[products/processed-meats]]", "[[products/eggs-product]]", "[[products/fresh-fish]]", "[[products/seafood]]", "[[products/non-root-vegetables]]", "[[products/leafy-vegetables-other]]", "[[products/seaweed-kelp-foods]]", "[[products/fresh-fruit]]", "[[products/bottled-drinking-water]]", "[[products/fruit-juices-non-apple]]", "[[products/fermented-beverages-non-tea-based]]"]
+products: ["[[products/rice-bulk-grain]]", "[[products/pasta-wheat-based]]", "[[products/bread-and-baked-goods]]", "[[products/other-grain-products]]", "[[products/soy-products]]", "[[products/peanuts]]", "[[products/root-tuber-vegetables]]", "[[products/pork-product]]", "[[products/beef-product]]", "[[products/poultry-product]]", "[[products/processed-meats]]", "[[products/eggs-product]]", "[[products/fresh-fish]]", "[[products/fish-freshwater]]", "[[products/fish-marine-non-predatory]]", "[[products/seafood]]", "[[products/non-root-vegetables]]", "[[products/leafy-vegetables-other]]", "[[products/seaweed-kelp-foods]]", "[[products/fresh-fruit]]", "[[products/bottled-drinking-water]]", "[[products/fruit-juices-non-apple]]", "[[products/fermented-beverages-non-tea-based]]"]
 matrices: [total-diet-study, cooked-foods, market-basket, grains, legumes, root-vegetables, meat, eggs, fish, seafood, vegetables, fruit, beverages]
 jurisdictions: [CN]
 near_duplicates: []
@@ -71,7 +71,7 @@ Table 5 reports mean dietary exposure:
 | >65 years | 1243 | 0.26 | 4.66 | 0.26 | 11.71 | 0.07 | 8.70 | 94.62 | 33.12 |
 | Overall population | 7700 | 0.32 | 3.71 | 0.35 | 8.57 | 0.12 | 14.64 | 138.89 | 48.61 |
 
-The contribution analysis reports potatoes and their products as the main Pb exposure source at 24.89%, followed by beans/nuts/products at 17.21%. Aquatic products and derivatives contributed 52.14% of As exposure, vegetables and vegetable products contributed 31.3% of Cd exposure, and cereals and cereal products contributed 70.22% of Al exposure.
+The contribution analysis (§3.4) reports potatoes and their products as the main Pb exposure source at 24.89%, followed by beans/nuts/products at 17.21%. Aquatic products and derivatives contributed 52.14% of As exposure, followed by vegetables and vegetable products at 34.82%. Vegetables and vegetable products contributed 31.3% of Cd exposure, followed by beans/nuts/products at 19.97%. Cereals and cereal products contributed 70.22% of Al exposure, followed by vegetables and vegetable products at 7.71%. The Discussion section reports a different Al figure of 77.22% for cereals and cereal products; recomputing from Table 6 confirms the §3.4 value (70.22%) is correct.
 
 ## Methods (brief)
 
@@ -90,6 +90,7 @@ This source contributes China/Jilin total-diet occurrence and exposure context f
 - Brand firewall: the source reports total-diet composite food/product groups, not brand-level values.
 - The current product taxonomy snapshot does not list a dairy product slug; milk/dairy findings are represented in frontmatter only with the closed ingredient slug `[[ingredients/milk-and-dairy]]`. Noodles are represented with the closed ingredient slug `[[ingredients/noodles]]` and routed through closed grain-product slugs rather than a nonexistent `products/noodles` slug.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+- Audit revision 2026-06-09: added `[[products/fish-freshwater]]` (carp) and `[[products/fish-marine-non-predatory]]` (cod) for more precise routing of the two named aquatic-products species. Added second-highest contribution percentages for As, Cd, and Al for parity with Pb. Flagged the internal §3.4-vs-Discussion inconsistency on the Al cereal contribution rate (70.22% vs 77.22%); Table 6 arithmetic confirms 70.22% (= 225.282 / 320.802) is correct.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history

@@ -68,7 +68,7 @@ This deserves its own subsection because the question is asked often.
 
 ## What this page does not license
 
-- **Heavy Metal Tested & Certified (HMT&C) certification marks, certified-brand lists, and HMT&C threshold derivations.** These live at heavymetaltested.com and are governed separately by the HMT&C program's terms.
+- **Heavy Metal Tested & Certified (HMT&C) certification marks, certified-brand lists, and HMT&C threshold derivations.** These live at heavymetaltested.com and are governed separately by the HMT&C program's terms. See [[heavy-metal-tested-certified]].
 - **The Paleo Foundation's name, logos, and trademarks.** These are not licensed under any open-source or open-data licence.
 - **Brand-identifying contamination data.** None of this is published on the Heavy Metal Index by design (see [[editorial-standards]] § Brand-level data: hard firewall).
 

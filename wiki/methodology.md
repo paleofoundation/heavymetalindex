@@ -65,7 +65,7 @@ Existing public pages may contain manually reviewed, source-cited synthesis whil
 
 ## HMT&C firewall
 
-The Heavy Metal Index and HMT&C use the same evidence base but do not share publication rules. The Index reports literature, occurrence, regulatory, toxicology, and exposure evidence. HMT&C uses approved evidence downstream to decide certification standards.
+The Heavy Metal Index and [[heavy-metal-tested-certified|HMT&C]] use the same evidence base but do not share publication rules. The Index reports literature, occurrence, regulatory, toxicology, and exposure evidence. HMT&C uses approved evidence downstream to decide certification standards.
 
 HMT&C thresholds are not evidence for public Index claims. They must not be used to prove that a metal concentration is safe, typical, acceptable, or literature-supported. When HMT&C uses the Index, the direction is one-way: HMT&C cites the Index for the evidence baseline, then applies its own standards methodology.
 

@@ -18,7 +18,7 @@ Microbiome effects of heavy metal exposure are in scope where the primary connec
 
 ## What this index does not cover
 
-Brand-level testing results, certification decisions, and internal lab data do not appear in this wiki. Those live in separate infrastructure. The index is evidentially independent from the Paleo Foundation's Heavy Metal Tested and Certified program; keeping that architectural separation intact is what makes the index defensible as a reference.
+Brand-level testing results, certification decisions, and internal lab data do not appear in this wiki. Those live in separate infrastructure. The index is evidentially independent from the Paleo Foundation's [[heavy-metal-tested-certified|Heavy Metal Tested and Certified]] program; keeping that architectural separation intact is what makes the index defensible as a reference.
 
 ## Methodology
 

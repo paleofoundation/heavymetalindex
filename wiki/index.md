@@ -201,6 +201,7 @@ updated: 2026-04-30
       <h3>Reference governance</h3>
       <a href="methodology/">Editorial methodology</a>
       <a href="editorial-standards/">Editorial standards</a>
+      <a href="heavy-metal-tested-certified/">Heavy Metal Tested &amp; Certified</a>
       <a href="licensing/">Licensing &amp; downstream use</a>
       <a href="errata/">Errata &amp; corrections</a>
       <a href="roadmap/">Roadmap</a>

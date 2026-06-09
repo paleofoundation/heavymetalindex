@@ -9,7 +9,7 @@ updated: 2026-05-30
 
 Heavy Metal Index is an independent, source-traceable record of the heavy-metals food-and-supply-chain literature. For a brand, the value of that record is not the badge. It is that the evidence behind a certification can be produced, version-pinned, and traced to the peer-reviewed and regulatory literature on demand, so that a certification survives a regulator's question, a retailer's compliance review, or a plaintiff's expert in a class action. This page is the entry point to the four instruments that deliver that value.
 
-Each instrument reports what the literature and the regulations say. None of them states an HMTc certification threshold or a pass/fail determination. Those are policy choices that live in the certification program, separate from this evidence base by design, which is what lets this record stay defensible when a threshold is challenged.
+Each instrument reports what the literature and the regulations say. None of them states an [[heavy-metal-tested-certified|HMTc]] certification threshold or a pass/fail determination. Those are policy choices that live in the certification program, separate from this evidence base by design, which is what lets this record stay defensible when a threshold is challenged.
 
 ## The certification defense dossier
 

@@ -15,7 +15,7 @@ The stated aim is to be the canonical reference for heavy metals in food. "Canon
 
 ## Editorial independence
 
-The Paleo Foundation also operates the Heavy Metal Tested and Certified (HMT&amp;C) certification program at [heavymetaltested.com](https://heavymetaltested.com). These properties are maintained as architecturally separate products with one-way reference only. HMT&amp;C documents may cite Heavy Metal Index pages for the literature baseline. The Heavy Metal Index does not mention HMT&amp;C-certified brands, does not endorse specific products, and does not function as justification material for the certification program. This separation is deliberate, enforced in the editorial policy, and reviewable by inspecting the published content.
+The Paleo Foundation also operates the Heavy Metal Tested and Certified (HMT&amp;C) certification program at [heavymetaltested.com](https://heavymetaltested.com); the program is described at [[heavy-metal-tested-certified]]. These properties are maintained as architecturally separate products with one-way reference only. HMT&amp;C documents may cite Heavy Metal Index pages for the literature baseline. The Heavy Metal Index does not mention HMT&amp;C-certified brands, does not endorse specific products, and does not function as justification material for the certification program. This separation is deliberate, enforced in the editorial policy, and reviewable by inspecting the published content.
 
 ## Governance
 
