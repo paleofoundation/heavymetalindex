@@ -2,8 +2,10 @@
 type: product-category
 category: legumes-pulses-other
 title: "Legumes and Pulses, Other"
-hmtc_row: 8
-hmtc_category: 4
+hmtc_row: 1
+hmtc_taxonomy_version: "2.2"
+hmtc_category: 27
+hmtc_category_name: "Legumes and Pulses"
 category_label: "Fruits, Vegetables, and Produce"
 evidence_fitness: EF-5
 public_evidence_label: Modeled or limited evidence
@@ -16,7 +18,7 @@ pair_row: 9
 pair_rows: [9, 10]
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-09
 sources: 23
 created_by: cat4_step0_scaffold_2026_05_16
 ---

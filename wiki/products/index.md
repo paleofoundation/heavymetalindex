@@ -24,7 +24,7 @@ Product-category pages describe heavy-metal evidence for consumer-facing product
 
 The HMTc categories group into seven navigational domains (v2.1; presentational only — category and row numbers are unchanged). See [[docs/governance/taxonomy-reorganization-2026-06]] §2.
 
-- **Foods, ingestion** — Categories 1, 3, 4, 5, 6, 7, 8, 11, and 24 (Dairy)
+- **Foods, ingestion** — Categories 1, 3, 4, 5, 6, 7, 8, 11, 24 (Dairy), 27 (Legumes), 28 (Nuts/Seeds/Butters), 29 (Edible Fungi)
 - **Ingestible and applied health products** — Categories 16, 25 (Cannabis/CBD), and 26 (Peptides/research chemicals)
 - **Personal care and cosmetics** — Categories 2, 13, 14, 15, 20
 - **Home and household** — Categories 12, 19, 22, 23
@@ -116,9 +116,9 @@ Bridge / coarse-grained node (broad author-scope page spanning rows 5–6 above;
 
 - [[products/breakfast-cereals|Breakfast cereals (coarse, pre rice/non-rice split)]] (15 sources)
 
-## Category 4: Fruits, Vegetables, and Produce
+## Category 4: Fruits and Vegetables
 
-These pages carry the Category 4 Step 0 lock, extended to 18 rows under v2.1 (the mushrooms cultivated/wild split, [[docs/governance/category-4-step0-amendment-1|Amendment 1]]). Six within-row clean/contaminated splits document categorical metal-load differences: spinach (Cd) split from leafy vegetables; soy and peanut (each carrying their own platform load) split from legumes/pulses; cashew (Ni) and sunflower seed (Cd) each split from nuts and seeds; peanut butter and sunflower seed butter inherit from their whole-kernel parents within the nut and seed butters family; cultivated mushrooms split from wild mushrooms (Cd, Hg, Pb).
+Under the v2.2 matrix-family re-cut ([[docs/governance/category-4-split-step0-amendment-2|Cat 4 split]]) this category slims to produce proper. Legumes and pulses moved to **Category 27**, nuts/seeds and their butters to **Category 28**, and mushrooms to **Category 29 (Edible Fungi)** — fungi are not produce. What remains is fruits, leafy/green vegetables (with the spinach Cd split from leafy vegetables), non-root vegetables, and roots/tubers: the soil-uptake Cd/Pb produce story.
 
 - [[products/fresh-fruit|Fresh and Frozen Fruits]] (52 sources)
 - [[products/dried-fruit|Dried Fruit]] (5 sources)
@@ -127,16 +127,6 @@ These pages carry the Category 4 Step 0 lock, extended to 18 rows under v2.1 (th
 - [[products/spinach|Spinach]] (17 sources)
 - [[products/non-root-vegetables|Non-Root Vegetables]] (53 sources)
 - [[products/root-tuber-vegetables|Root and Tuber Vegetables]] (52 sources)
-- [[products/legumes-pulses-other|Legumes and Pulses, Other]] (23 sources)
-- [[products/soy-products|Soy Products]] (7 sources)
-- [[products/peanuts|Peanuts]] (19 sources)
-- [[products/nuts-seeds-other|Nuts and Seeds, Other]] (10 sources)
-- [[products/cashews|Cashews]] (7 sources)
-- [[products/sunflower-seeds|Sunflower Seeds]] (8 sources)
-- [[products/nut-seed-butters-other|Nut and Seed Butters, Other]] (2 sources)
-- [[products/peanut-butter|Peanut Butter]] (6 sources)
-- [[products/sunflower-seed-butter|Sunflower Seed Butter]] (0 sources)- [[products/cultivated-mushrooms|Mushrooms — cultivated (clean counterpart, Row 17)]] (0 sources)
-- [[products/wild-mushrooms|Mushrooms — wild and processed-wild (contaminated platform, Row 18)]] (6 sources)
 
 ## Category 5: Beverages
 
@@ -582,6 +572,38 @@ Scaffolded under HMTc Taxonomy v2.1 (2026-06-08); see [[docs/governance/category
 2. [[products/sarms-oral|Oral SARMs]] (0 sources)
 3. [[products/aas-injectable|Injectable anabolic-androgenic steroids (AAS)]] (0 sources)
 4. [[products/research-chem-raw-powders|Raw AAS / peptide powders (pre-formulation)]] (0 sources)
+
+## HMTc Category 27: Legumes and Pulses
+
+Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
+
+Re-cut from Cat 4 under v2.2 ([[docs/governance/category-4-split-step0-amendment-2]]). Cd/Pb soil uptake; peanuts carry the legume Al/Ni platform. Peanuts and peanut butter live here (peanuts are legumes), cross-linked from Cat 28.
+
+1. [[products/legumes-pulses-other|Legumes and pulses (beans, lentils, chickpeas, peas)]]
+2. [[products/soy-products|Soy products]]
+3. [[products/peanuts|Peanuts]]
+4. [[products/peanut-butter|Peanut butter]]
+
+## HMTc Category 28: Nuts, Seeds, and Their Butters
+
+Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
+
+Re-cut from Cat 4 under v2.2. Cd (sunflower seed, cashew) and Ni (cashew); within-family clean/dirty splits. Peanuts and peanut butter route to Cat 27.
+
+1. [[products/nuts-seeds-other|Tree nuts and seeds (whole, raw, roasted)]]
+2. [[products/cashews|Cashews]]
+3. [[products/sunflower-seeds|Sunflower seeds]]
+4. [[products/nut-seed-butters-other|Nut and seed butters, other]]
+5. [[products/sunflower-seed-butter|Sunflower-seed butter]]
+
+## HMTc Category 29: Edible Fungi
+
+Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
+
+Re-cut from Cat 4 under v2.2. Fungi are a distinct kingdom, not produce. Wild fungi hyperaccumulate Cd, Hg, Pb, and radiocesium; cultivated (controlled substrate) are the clean counterpart.
+
+1. [[products/cultivated-mushrooms|Mushrooms — cultivated (clean counterpart)]]
+2. [[products/wild-mushrooms|Mushrooms — wild and processed-wild (contaminated platform)]]
 
 <!-- BEGIN: hmi-auto-linked-stubs -->
 

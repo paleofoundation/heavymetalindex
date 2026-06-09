@@ -2,8 +2,10 @@
 type: product-category
 category: peanuts
 title: "Peanuts"
-hmtc_row: 10
-hmtc_category: 4
+hmtc_row: 3
+hmtc_taxonomy_version: "2.2"
+hmtc_category: 27
+hmtc_category_name: "Legumes and Pulses"
 category_label: "Fruits, Vegetables, and Produce"
 evidence_fitness: EF-5
 public_evidence_label: Modeled or limited evidence
@@ -16,7 +18,7 @@ platform_metals: [Al, Ni]
 pair_row: 8
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-09
 sources: 19
 created_by: cat4_step0_scaffold_2026_05_16
 ---
