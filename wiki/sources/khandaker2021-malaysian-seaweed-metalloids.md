@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /June 8 New Folder With Items 4 2/khandaker2021.pdf"
 raw_sha256: "527f6f4f9e2b3b5a519d8c630be605119970dccc0defebbf40869418f11b46f0"
 access_url: "https://doi.org/10.3390/foods10020381"
-metals: [K, Ca, Mg, Pb, Cd, Se, Al, Mn, Cu, Zn, Fe, iAs, Na, Ni, Cr-VI, Ag, Si]
+metals: [K, Ca, Mg, Pb, Cd, Se, Al, Mn, Cu, Zn, Fe, tAs, Na, Ni, Cr, Ag, Si]
 ingredients: ["[[ingredients/seaweed]]"]
 products: ["[[products/seaweed-kelp-foods]]"]
 matrices: [seaweed, dry-weight]
@@ -52,7 +52,7 @@ Table 2 reports LoD values in `µg/kg`: Pb `11.31`, Cd `2.15`, Al `3.08`, Mn `1.
 
 Table 1 reports CRM 7405-a recovery checks for HMT-relevant analytes: Pb certified `0.43 ± 0.03 mg/kg`, recovered `0.45 ± 0.04`, recovery `104.7%`; Cd certified `0.79 ± 0.02`, recovered `0.75 ± 0.03`, recovery `94.9%`; Al certified `147 ± 7`, recovered `141 ± 6`, recovery `95.9%`; As certified `35.8 ± 0.9`, recovered `35.26 ± 0.88`, recovery `98.5%`; Ni certified `2.2 ± 0.1`, recovered `2.3 ± 0.08`, recovery `104.6%`; Cr certified `3.4 ± 0.1`, recovered `3.29 ± 0.09`, recovery `96.8%`.
 
-Table 4 estimates daily intake in `Microgram Per Kilogram/kg/Day` for an assumed East Asian adult consuming Malaysian seaweed at `10 g/adult/day` and body weight `65 kg`. Mean daily intakes were Pb `1.2`, Cd `0.3`, As `0.7`, Ni `1.5`, Cr-VI `4.0`, Al `6.3`, and Ag `0.03`.
+Table 4 estimates daily intake in `Microgram Per Kilogram/kg/Day` for an assumed East Asian adult consuming Malaysian seaweed at `10 g/adult/day`. The paper's equation 2 cites a default adult body weight of `70 kg`, but the East Asian risk assessment uses `65 kg` as the nominal body weight; back-calculating Table 4 values from Table 3 concentrations confirms the published intakes were computed with `65 kg`. Mean daily intakes were Pb `1.2`, Cd `0.3`, As `0.7`, Ni `1.5`, Cr-VI `4.0`, Al `6.3`, and Ag `0.03`.
 
 Table 5 reports noncarcinogenic and carcinogenic risk estimates for the same assumed intake scenario: Pb HQ `0.203` and LTCR `6.08 × 10−4`; Cd HQ `0.171` and LTCR `4.89 × 10−3`; As HQ `1.547` and LTCR `5.22 × 10−2`; Ni HQ `0.053` and LTCR `1.34 × 10−1`; Cr-VI HQ `0.912` and LTCR `1.03 × 10−1`. The summed hazard index is `4.38`, and the summed lifetime carcinogenic risk is `2.94 × 10−1`.
 
@@ -62,14 +62,15 @@ Fresh *Eucheuma cottoni* seaweed was collected from three Malaysian farming loca
 
 ## Implications
 
-This source provides dry-weight occurrence data for cultivated Malaysian seaweed in the seaweed-kelp-foods product row. It is directly relevant for Pb, Cd, Al, Ni, and the source-reported As (III) and Cr-VI values, while downstream extraction should keep the ICP-OES speciation limitation visible. The paper's risk calculations are source-reported scenario estimates, not HMTc threshold calculations.
+This source provides dry-weight occurrence data for cultivated Malaysian seaweed in the seaweed-kelp-foods product row. It is directly relevant for Pb, Cd, Al, and Ni; arsenic and chromium values are reported elementally by ICP-OES and routed as `tAs` and `Cr` rather than the source's claimed `As (III)` and `Cr-VI` species labels (see Verification notes). The paper's risk calculations are source-reported scenario estimates, not HMTc threshold calculations.
 
 ## Verification notes
 
 - PDF text extracted with `pdftotext -layout`; title page, sample preparation, Tables 1-5, arsenic-speciation discussion, and conclusions were readable.
 - DOI `10.3390/foods10020381`, raw handle `MFK_khandaker2021`, and cite-key checks found no existing source page before creation.
 - Table 3 concentration values, Table 2 LoDs, Table 1 recovery checks, Table 4 intake estimates, and Table 5 risk estimates were checked against extracted text. Units are preserved as `microgram per gram`, `µg/kg`, `mg/kg`, and `Microgram Per Kilogram/kg/Day`; no conversion was performed.
-- Speciation: the source labels the arsenic row `As (III)` and chromium row `Cr-VI`. However, the method was ICP-OES, and the text acknowledges that ICP-OES usually provides elemental arsenic rather than a particular species. This page preserves the source labels in Key numbers and frontmatter while flagging that limitation.
+- Speciation: the source labels the arsenic row `As (III)` and chromium row `Cr-VI` in Table 3. The analytical method, however, was ICP-OES with no chromatographic step. The arsenic-speciation discussion on page 11 acknowledges that ICP-OES provides elemental `75As` rather than a particular species and infers inorganic As(III) only by analogy to Zhao et al. [45], who used HPLC-ICP-MS on different seaweed samples. The chromium discussion on page 10 provides no chromatographic speciation evidence at all; `Cr-VI` is asserted on toxicological grounds. Per CLAUDE.md Part 14, the `metals:` frontmatter therefore routes this paper as `tAs` and `Cr` (the species the method actually measured), while the body preserves the source's own `As (III)` and `Cr-VI` labels in Table 3 transcription.
+- Source-internal anomalies preserved without correction: (a) Table 3's overall mean for Cr-VI is reported as `26.0 µg/g`, which is not consistent with the LKW/SPN/KBL location means of 40.57, 30.3, and 40.15; an n-weighted mean of the three locations is approximately 36.6, not 26.0. (b) The arsenic-speciation paragraph on page 11 states "SPN (1.6 ± 5.86 µg/g)" while Table 3 reports SPN As (III) as `6.3 ± 2.86`. Table 3 was used as the authoritative source for both values in this page.
 - Brand firewall: no sampled product brands are attached to contamination values. Instrument and standard vendors appear only in Methods.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
 
