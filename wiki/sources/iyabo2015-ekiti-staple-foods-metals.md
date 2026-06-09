@@ -14,7 +14,7 @@ raw_path: "raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/iyabo2015.pdf
 raw_sha256: "1666da5d53168fad1732f5970ea5715691ca2dfbda15f9374358fc5443801527"
 access_url: "https://doi.org/10.5539/ijc.v7n1p155"
 metals: [Zn, Cu, Cd, Pb]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/noodles]]", "[[ingredients/beans]]", "[[ingredients/peanuts]]", "[[ingredients/root-vegetables]]", "[[ingredients/potatoes]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/noodles]]", "[[ingredients/beans]]", "[[ingredients/peanuts]]", "[[ingredients/root-vegetables]]", "[[ingredients/potatoes]]", "[[ingredients/yam]]", "[[ingredients/melon]]"]
 products: ["[[products/mixed-meals-rice-containing]]", "[[products/mixed-meals-non-rice]]", "[[products/pasta-wheat-based]]", "[[products/other-grain-products]]", "[[products/legumes-pulses-other]]", "[[products/peanuts]]", "[[products/root-tuber-vegetables]]"]
 matrices: [prepared-staple-foods, nigeria-market]
 jurisdictions: [NG]
@@ -40,10 +40,10 @@ Table 1 reports heavy metal concentrations in food items in `mg/kg`:
 | Rice with beans & fish | 14.7 | 12.4 | 0.50 | 0.30 |
 | Palp with milk (Solid) | 23.0 | 3.30 | 0.40 | 0.20 |
 | Wheat with soup | 39.5 | 3.40 | 0.20 | 0.22 |
-| Semovita with soup | 18.0 | 6.90 | 0.30 | 0.03 |
-| Indomine | 29.4 | 5.50 | 0.25 | LT DL |
+| Semolina porridge with soup | 18.0 | 6.90 | 0.30 | 0.03 |
+| Instant noodles | 29.4 | 5.50 | 0.25 | LT DL |
 | Ordinary palp | 0.43 | 2.40 | 0.20 | LT DL |
-| Semovita | 11.0 | 1.30 | 0.20 | 0.10 |
+| Semolina porridge | 11.0 | 1.30 | 0.20 | 0.10 |
 | Beans (White) | 3.48 | 1.05 | 0.01 | 0.01 |
 | Beans with plantain | 25.4 | 6.00 | 0.28 | 0.15 |
 | Akara ball | 34.9 | 4.50 | 0.07 | 0.16 |
@@ -78,7 +78,7 @@ Table 2 reports average levels in `mg/kg` by food group:
 
 | Food group | Zn mean +/- SD (range) | Cu mean +/- SD (range) | Cd mean +/- SD (range) | Pb mean +/- SD (range) |
 | --- | ---: | ---: | ---: | ---: |
-| Cereals Products (A) | 16.6 +/- 11.9 (0.43-39.5) | 4.70 +/- 2.99 (1.30-12.20) | 0.28 +/- 0.23 (0.06-0.50) | 0.10 +/- 0.15 (LTDL-0.30) |
+| Cereals Products (A) | 16.6 +/- 11.9 (0.43-39.5) | 4.70 +/- 2.99 (1.30-12.2) | 0.28 +/- 0.23 (0.06-0.50) | 0.10 +/- 0.15 (LTDL-0.30) |
 | Legumes products with others (B) | 16.1 +/- 10.5 (3.48-34.9) | 5.60 +/- 5.10 (1.05-17.60) | 0.10 +/- 0.10 (LTDL-0.50) | 0.10 +/- 0.10 (LTDL-0.25) |
 | Tubers product with others (C) | 11.1 +/- 5.34 (6.26-18.1) | 3.70 +/- 3.30 (0.82-8.13) | 0.02 +/- 0.02 (LTDL-0. 50) | 0.22 +/- 0.17 (0.03-0.30) |
 
@@ -107,6 +107,8 @@ This source contributes Nigeria-market occurrence evidence for Zn, Cu, Cd, and P
 - [[ingredients/peanuts]]
 - [[ingredients/root-vegetables]]
 - [[ingredients/potatoes]]
+- [[ingredients/yam]]
+- [[ingredients/melon]]
 - [[products/mixed-meals-rice-containing]]
 - [[products/mixed-meals-non-rice]]
 - [[products/pasta-wheat-based]]
@@ -127,6 +129,12 @@ This source contributes Nigeria-market occurrence evidence for Zn, Cu, Cd, and P
 - `LT DL`/`LTDL` is preserved as the source's less-than-detection-limit label. Blank Cd cells for Sweet Beans (Red), Potato, and Fufu are recorded as `not reported in table` rather than filled.
 - The source reports Zn, Cu, Cd, and Pb only. It does not report arsenic, mercury, chromium, nickel, inorganic arsenic, methylmercury, or Cr(VI).
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- Audit 2026-06-09 (autonomous, Part 12 strict reading): the Table 1 rows "Indomine" and "Semovita"/"Semovita with soup" originally reproduced brand names attached to contamination values. Indomie (Dufil Prima Foods) is a registered instant-noodle brand; Semovita (Flour Mills of Nigeria) is a registered semolina brand. Rows relabeled to product-form descriptors "Instant noodles" and "Semolina porridge" / "Semolina porridge with soup". Numerical values unchanged.
+- Audit 2026-06-09: Table 2 Cu range for cereals corrected from "(1.30-12.20)" to "(1.30-12.2)"; the source's run-together text "1.30-12.20.28±0.23" was parse-error transcribed into the wiki with the leading "0" of the next column's Cd mean concatenated onto the Cu range upper bound.
+- Audit 2026-06-09: Source page 158 prose attributes the Cu max (17.6) to "beans" and the Cd max (0.50) to "rice". Table 1 maps Cu 17.6 to the "Groundnut" row (in the legumes section, where the paper grouped groundnut under "Legumes/Legumes product with others") and Cd 0.50 to the "Rice with beans & fish" row. The wiki's `## Key numbers` bullet reports Table 1 row labels rather than the source's prose words; the discrepancy is internal to the source.
+- Audit 2026-06-09: Frontmatter `ingredients:` extended with `yam` and `melon` to reflect the Table 1 yam-based rows (Yam, Pounded Yam With Melon, Amala (Yam Flour), Yam With Oil, Yam With Egg) and melon-bearing rows (Melon, Eba With Melon, Pounded Yam With Melon).
+- Audit 2026-06-09: Garri, Amala (Cassava Flour), Eba, and Fufu are cassava-derived foods, but `cassava` is not in the current `docs/gpt-collaboration/taxonomy-snapshot.md` ingredient list. Routing for these foods currently lands on `[[ingredients/root-vegetables]]` and `[[products/root-tuber-vegetables]]`. Flag for taxonomy maintenance: a `cassava` ingredient page (or `cassava-flour`/`garri` sub-slugs) may be warranted given how broad the West-African cassava-foods literature is.
+- Audit 2026-06-09: `matrices: [prepared-staple-foods, nigeria-market]` uses descriptive bare strings that are not in the standard matrices controlled vocabulary. Retained pending matrices-vocabulary review rather than silently relabeled.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
