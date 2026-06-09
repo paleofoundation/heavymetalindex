@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-09T05:15:46.736Z
+updated: 2026-06-09T07:29:14.629Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -29,14 +29,14 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Component | State |
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
-| auto-fetched/ PDFs in queue | 665 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 108 ⚠️ |
-| Audit queue: pending-audit-spawn-failed | 43 (async lane) |
-| Wishlist: total downloaded historically | 49 |
+| auto-fetched/ PDFs in queue | 759 (fresh work for Codex/daemon ingest) |
+| Audit queue: pending | 87 ⚠️ |
+| Audit queue: pending-audit-spawn-failed | 79 (async lane) |
+| Wishlist: total downloaded historically | 48 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 3 commit(s) ahead of origin/main |
-| Commits last 1 hour | 32 |
-| Commits last 24 hours | 576 |
+| Repo sync | ⚠️ 5 commit(s) ahead of origin/main |
+| Commits last 1 hour | 36 |
+| Commits last 24 hours | 649 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-afbab74 2 minutes ago — ingest: duinker2020-macroalgae-food-feed-safety fresh from MFK/June 8 Inorganic Arsenic Seaweed
+ad95097 2 minutes ago — audit: islam2015-bangladesh-foods-heavy-metals revised per autonomous audit
 ```
 
 ## How to read this

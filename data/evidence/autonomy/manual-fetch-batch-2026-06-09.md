@@ -429,3 +429,123 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/Jenkins_Russell_1994_Heavy_Metals_Household_Washing_Products.pdf`: kimi_corruption_pdf_mislabeled — PDF labeled Jenkins/Russell 1994 actually contains Verstraete & Vlaeminck ZeroWasteWater wastewater-treatment keynote with no HMI-target analyte data; cannot ingest under labeled cite-key (wrong paper) and reframed cite-key (out of scope).
+
+## Tick 2026-06-09T05:32:36.614Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Discovery/bair2022-heavy-metal-infant-toddler-foods.pdf`: dup_of_already_clean_page (bair2022-infant-toddler-food-heavy-metals-policy already post-2026-05-14 clean; discover-skill filename-stem dedup missed the variant cite-key)
+
+## Tick 2026-06-09T05:35:45.390Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Discovery/gu2020-arsenic-rice-infant-food-australia.pdf`: already-ingested-and-audited-2026-06-08
+
+## Tick 2026-06-09T05:39:02.574Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `jung2017-iAs-infant-rice-snacks-korea` (raw/Manual Fetch Discovery/jung2017-inorganic-arsenic-infant-rice-snacks.pdf)
+
+## Tick 2026-06-09T05:46:11.964Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `mielech2021-contamination-food-infants-toddlers` (raw/Manual Fetch Discovery/mielech2021-contamination-food-infants-toddlers.pdf)
+
+## Tick 2026-06-09T05:58:29.987Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `neuwirth2022-baby-cereals-lead-arsenic` (raw/Manual Fetch Discovery/neuwirth2022-lead-arsenic-baby-foods-fda.pdf)
+
+## Tick 2026-06-09T06:09:34.941Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `noh2023-arsenic-rice-snacks-korea` (raw/Manual Fetch Discovery/noh2023-arsenic-rice-snacks-korea.pdf)
+
+## Tick 2026-06-09T06:40:42.062Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `soni2024-additives-contaminants-infant-foods-review` (raw/Manual Fetch Discovery/soni2024-contaminants-infant-foods-review.pdf)
+
+## Tick 2026-06-09T06:52:04.958Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Discovery/zmudzinska2022-ready-to-eat-children-poland.pdf`: existing_page_post_2026-05-14_clean — duplicate of FM_9183086 already ingested + audited-promote on 2026-05-17.
+
+## Tick 2026-06-09T06:53:35.693Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/Ogulur_2023_Gut_Barrier_Dishwasher_Rinse_Aid.pdf`: MFK_ogulur-2023-gut-barrier-dishwasher-rinse-aid (kimi_corruption_pdf_mislabeled — PDF is actually Ferraro 2025 epithelial-barrier-hypothesis review with zero heavy metals content; out of HMI scope)
+
+## Tick 2026-06-09T06:57:03.948Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/Rezaee_Eskandarnezhad_2026_Dishwashing_Liquid_Residue.pdf`: MFK_rezaee-eskandarnezhad-2026-dishwashing-liquid-resi out_of_scope_for_hmi
+
+## Tick 2026-06-09T07:00:09.231Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_04_Carpet_Degreaser_BBQ_Appliance/04_Carpet_Degreaser_BBQ_Appliance/EPA_2016_TCE_Prepub_Copy.pdf`: out_of_scope_non_metal_solvent (TCE chlorinated organic solvent, not a heavy metal)
+
+## Tick 2026-06-09T07:04:38.796Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_04_Carpet_Degreaser_BBQ_Appliance/04_Carpet_Degreaser_BBQ_Appliance/Lavoue_2003_Metal_Degreasing_Occupational_Health.pdf`: kimi_corruption_pdf_mislabeled — filename labels Lavoué 2003 metal-degreasing occupational health but actual PDF is Starkweather 1998 UTK master's thesis on surfactant oil-removal physics (Triton X-100 / SDS, glass + stainless steel coupons); zero heavy-metals content, out of scope for HMI under either identity.

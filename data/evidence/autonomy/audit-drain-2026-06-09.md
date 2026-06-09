@@ -141,3 +141,49 @@
 ### Failed
 - `abou-abbass2023-drinking-water-lebanon-metals`: unrecognized final line: "Audit summary: 5-check audit returned REVISE with one applied finding (extended internal-inconsistency note to cover Na/Ca text-vs-Table 4 discrepancies, mirroring existing arsenic flag) and one rejec"
 - `enemuor2021-palm-oil-kogi-metals`: unrecognized final line: "Applied: Methods section restored to source-faithful text (verbatim acid mixture, Flame AAS) and Cr methods-provenance inconsistency noted. Rejected: the two slug-vocabulary ⚠️ findings as false posit"
+
+## Run 2026-06-09T04:39:26.046Z
+
+- Candidates this run: 12
+- Succeeded (audited and committed): 11
+- Stopped (genuine block, no commit): 0
+- Failed (error, no commit): 1
+
+### Succeeded
+- `mercanyucel2022-van-spices-metals` — mercanyucel2022-van-spices-metals PROMOTE
+- `kaalieswari2021-fenugreek-arsenic` — kaalieswari2021-fenugreek-arsenic REVISE
+- `pradhan2023-heracleum-nepalense-elements` — pradhan2023-heracleum-nepalense-elements REVISE
+- `bahrouna2025-zawia-spices-metals` — bahrouna2025-zawia-spices-metals REVISE
+- `gutierrez2022-ecuador-cacao-cadmium-compost` — gutierrez2022-ecuador-cacao-cadmium-compost REVISE
+- `jecfa-67th-aluminium-methylmercury-2007` — jecfa-67th-aluminium-methylmercury-2007 audited-revised
+- `alfaraji2023-infant-formula-baghdad-minerals` — alfaraji2023-infant-formula-baghdad-minerals REVISE
+- `jakkielska2023-noodles-toxic-metals` — jakkielska2023-noodles-toxic-metals REVISE
+- `darko2014-seasonings-ghana-metals` — darko2014-seasonings-ghana-metals REVISE
+- `otitoju2018-noodle-products-nigeria-metals` — otitoju2018-noodle-products-nigeria-metals PROMOTE
+- `amarh2023-ghana-infant-food-heavy-metals` — amarh2023-ghana-infant-food-heavy-metals audited-revised
+
+### Failed
+- `elziani2024-instant-noodles-libya-metals`: unrecognized final line: "Audit verdict was PROMOTE with all 5 checks clean. Verified Table 1 numerical fidelity end-to-end (7 samples × 5 metals + summary rows, all exact), speciation correct (tAs/Cr since paper reports total"
+
+## Run 2026-06-09T05:51:42.137Z
+
+- Candidates this run: 12
+- Succeeded (audited and committed): 11
+- Stopped (genuine block, no commit): 0
+- Failed (error, no commit): 1
+
+### Succeeded
+- `hao2022-probabilistic-risk-rice-mining-county` — hao2022-probabilistic-risk-rice-mining-county REVISE
+- `safwan2023-instant-soup-chicken-stock-jordan` — safwan2023-instant-soup-chicken-stock-jordan PROMOTE
+- `adegbola2015-nigeria-snacks-drinks-metals` — adegbola2015-nigeria-snacks-drinks-metals REVISE
+- `alrajhi2014-canned-food-chicken-stock-metals` — alrajhi2014-canned-food-chicken-stock-metals REVISE
+- `brizio2013-italian-food-supplements-metals` — brizio2013-italian-food-supplements-metals promote
+- `bua2016-aromatic-spices-metals-italy` — bua2016-aromatic-spices-metals-italy PROMOTE
+- `buchet1983-belgium-duplicate-meal-metals` — buchet1983-belgium-duplicate-meal-metals REVISE
+- `cherfi2014-algeria-fruits-vegetables-metals` — cherfi2014-algeria-fruits-vegetables-metals REVISE
+- `deroma2017-prepared-meals-italy-metals` — deroma2017-prepared-meals-italy-metals PROMOTE
+- `elbagermi2012-misurata-fruits-vegetables-metals` — elbagermi2012-misurata-fruits-vegetables-metals PROMOTE
+- `kongta2023-noodle-products-aluminum-thailand` — kongta2023-noodle-products-aluminum-thailand PROMOTE
+
+### Failed
+- `charles2017-instant-noodles-nigeria-risk`: unrecognized final line: "Summary: GPT-style audit ran 5 checks against the PDF. Check 1 (numerical fidelity), 2 (slug vocabulary), 3 (speciation/methods), 4 brand firewall, and 5 wiki/HMTc firewall all passed. One consistency"
