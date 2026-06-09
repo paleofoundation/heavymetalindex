@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee
 metals: [Cd, Pb, Cr, Ni, Cu, Zn, Mn]
 ingredients: ["[[ingredients/coffee]]"]
 products: ["[[products/coffee]]"]
-matrices: [coffee-beans, coffee-washing-plant-beans, agricultural-soil]
+matrices: [coffee-beans, agricultural-soil]
 jurisdictions: [ET]
 near_duplicates: []
 sample_n: 12
@@ -30,7 +30,7 @@ Berego and colleagues measured essential and toxic metals in coffee beans and as
 
 For farmer-farm coffee beans, Table 4 reports K from 69.06 +/- 0.047 to 99.93 +/- 0.037 mg/kg, Ca from 3.05 +/- 0.04 to 17.23 +/- 0.36 mg/kg, Na from 3.10 +/- 0.10 to 22.04 +/- 0.042 mg/kg, and Mn from 0.082 +/- 0.003 to 0.927 +/- 0.004 mg/kg.
 
-For farmer-farm coffee beans, Table 5 reports Ni from 0.052 +/- 0.005 to 0.074 +/- 0.003 mg/kg, Zn from 0.055 +/- 0.002 to 0.073 +/- 0.003 mg/kg, and Cu from 0.14 +/- 0.0020 to 0.28 +/- 0.0037 mg/kg. Co, Cr, Pb, and Cd were not detected in every farmer-farm bean row.
+For farmer-farm coffee beans, Table 5 reports Ni from 0.052 +/- 0.005 to 0.074 +/- 0.003 mg/kg, Zn from 0.055 +/- 0.004 to 0.073 +/- 0.003 mg/kg, and Cu from 0.14 +/- 0.0020 to 0.28 +/- 0.0037 mg/kg. Co, Cr, Pb, and Cd were not detected in every farmer-farm bean row.
 
 For coffee-washing-plant beans, Table 7 reports Ca from 2.81 +/- 0.017 to 4.33 +/- 0.035 mg/kg, Cu from 0.146 +/- 0.004 to 0.277 +/- 0.011 mg/kg, K from 61.39 +/- 0.026 to 77.93 +/- 0.115 mg/kg, Mn from 0.08 +/- 0.003 to 0.92 +/- 0.001 mg/kg, Na from 1.43 +/- 0.035 to 15.04 +/- 0.041 mg/kg, Ni from 0.052 +/- 0.001 to 0.074 +/- 0.003 mg/kg, and Zn from 0.053 +/- 0.002 to 0.094 +/- 0.004 mg/kg. Cd and Co were not detected in all six washing-plant bean rows; the authors also state that Cr, Pb, and Cd were not detected in washing-plant beans.
 
