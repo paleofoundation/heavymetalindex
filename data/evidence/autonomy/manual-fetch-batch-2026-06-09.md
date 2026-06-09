@@ -189,3 +189,123 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_02_Vinegars/02_Vinegars/Determination of heavy metal contents of apple and grape vinegars by using ICP-MS (Inductively Coupl.pdf`: corrupted_pdf_filename_content_mismatch — filename promises Tekin 2014 ICP-MS heavy-metals-in-vinegar thesis; actual PDF is Duman & Türkmen 2024 vinegar chemical-composition paper (pH/acidity/color only, zero heavy-metal analytes). Off-topic for HMI. Stop note logged at `data/evidence/autonomy/manual-fetch-stops-2026-06-09.md`.
+
+## Tick 2026-06-09T02:26:57.861Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_02_Vinegars/02_Vinegars/Levels of Cd, Pb, and Ni in Different Types of Vinegars.pdf`: dup_of_already_clean_page (acosta1993-cd-pb-ni-vinegar-types updated 2026-05-26, post-2026-05-14 schema, byte-identical SHA-256 to existing raw_path, not in malformed/unresolved, 1 clean routing row on products/vinegar)
+
+## Tick 2026-06-09T02:30:25.714Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_02_Vinegars/02_Vinegars/Metallic Contaminants in Andalusian Vinegars.pdf`: dup_of_already_clean_page (MFK_metallic-contaminants-in-andalusian-vinegars — byte-identical SHA-256 match to existing post-2026-05-14 clean page `troncoso1988-metallic-contaminants-andalusian-vinegars.md`)
+
+## Tick 2026-06-09T02:32:03.154Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_03_Olives_and_Pickles/03_Olives_and_Pickles/Investigation on the Concentration of Heavy Metals found in Olives and Olive Mill Waste.pdf`: dup_of_already_clean_page — `wiki/sources/vella2024-malta-olive-cultivars-aas.md` is `updated: 2026-05-28`, post-2026-05-14 schema, audited PROMOTE / 0 findings on 2026-05-28, and the corruption-folder PDF is byte-identical (SHA-256 `18db255d…e37d137`) to the sibling copy already cited in the existing page's `raw_path`.
+
+## Tick 2026-06-09T02:36:23.641Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_03_Olives_and_Pickles/03_Olives_and_Pickles/Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China.pdf`: kimi_corruption_filename_mismatch_offtopic_content
+
+## Tick 2026-06-09T02:38:16.717Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_04_Condiments_and_Sauces/04_Condiments_and_Sauces/Exposure assessment of dietary cadmium_ findings from Shanghainese over 40 years, China.pdf`: dup_of_already_clean_page (he2013-shanghai-cadmium — page updated 2026-05-28 post-cutoff, fully audited 2026-05-28 with REVISE verdict applied; PDF byte-identical SHA-256 956c9541… to existing valid raw_path; advisory-only malformed entry is documented-intentional `products: []` for exposure-assessment design)
+
+## Tick 2026-06-09T02:41:57.816Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_04_Condiments_and_Sauces/04_Condiments_and_Sauces/Heavy Metal Contamination of Hot Sauce and Chili Powder.pdf`: dup_of_already_clean_page (spex2023-hot-sauce-chili-powder-metals)
+
+## Tick 2026-06-09T03:20:27.247Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_04_Condiments_and_Sauces/04_Condiments_and_Sauces/Heavy metal migration, exposure, and health risk through canned tomato mix under different marketing.pdf`: dup_of_already_clean_page (kangre2024-canned-tomato-pb-sn-ghana already cleanly ingested+enhanced 2026-05-28)
+
+## Tick 2026-06-09T03:24:09.325Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_04_Condiments_and_Sauces/04_Condiments_and_Sauces/The First Hong Kong Total Diet Study_ Inorganic Arsenic.pdf`: cfs2012-hktds-inorganic-arsenic
+
+## Tick 2026-06-09T03:25:53.330Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_05_PB_Vanilla_Spices/05_PB_Vanilla_Spices/Aluminum in Food (Q&A)_ Sources, Safety and Regulations.pdf`: dup_of_already_clean_page (efsa2021-aluminium-food-qa — byte-identical re-extract of already post-schema audited page, suggested handle already matches existing `raw_handle`, advisory-only routing entry is documented intentional design per existing verification notes)
+
+## Tick 2026-06-09T03:29:19.302Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_05_PB_Vanilla_Spices/05_PB_Vanilla_Spices/Consumer Reports_ Heavy Metals in 15 Herbs and Spices.pdf`: already-ingested (existing page `gill2021-consumer-reports-spices.md` updated 2026-05-28 is clean and audited; this PDF is a Kimi corruption-recovery duplicate of the same article)
+
+## Tick 2026-06-09T03:31:44.593Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_05_PB_Vanilla_Spices/05_PB_Vanilla_Spices/Coordinated Sampling Project 41_ Microbial and Heavy Metal Detections in Herbs and Spices.pdf`: dup_of_already_clean_page (lhaac2025-csp41-herbs-spices-wa already post-2026-05-14 clean, audit-queue status `audited-revised`, byte-identical SHA-256 to existing page)
+
+## Tick 2026-06-09T03:33:34.722Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_05_PB_Vanilla_Spices/05_PB_Vanilla_Spices/Impact of source, packaging and presence of food safety management system on heavy metals levels in.pdf`: dup_of_already_clean_page

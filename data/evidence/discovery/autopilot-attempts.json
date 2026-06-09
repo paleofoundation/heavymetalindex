@@ -68,5 +68,10 @@
     "last_attempted_at": "2026-06-09T01:36:09.375Z",
     "attempts": 1,
     "last_outcome": "fetched=1 (partial:timeout) novel=?"
+  },
+  "wiki/products/vegetable-juices-root-vegetable-containing.md": {
+    "last_attempted_at": "2026-06-09T03:19:25.474Z",
+    "attempts": 1,
+    "last_outcome": "fail:timeout (20m), 0 PDFs"
   }
 }

@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-09T02:26:52.058Z
+updated: 2026-06-09T03:58:17.490Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -29,14 +29,14 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Component | State |
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
-| auto-fetched/ PDFs in queue | 548 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 110 ⚠️ |
-| Audit queue: pending-audit-spawn-failed | 31 (async lane) |
-| Wishlist: total downloaded historically | 0 |
+| auto-fetched/ PDFs in queue | 573 (fresh work for Codex/daemon ingest) |
+| Audit queue: pending | 109 ⚠️ |
+| Audit queue: pending-audit-spawn-failed | 37 (async lane) |
+| Wishlist: total downloaded historically | 25 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
-| Commits last 1 hour | 18 |
-| Commits last 24 hours | 495 |
+| Repo sync | ⚠️ 5 commit(s) ahead of origin/main |
+| Commits last 1 hour | 38 |
+| Commits last 24 hours | 534 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-eb11108 3 minutes ago — audit: tkachuk2024-sunflower-seeds-metals [revised] per autonomous audit
+9a16df2 2 minutes ago — audit: sixto2023-potatoes-sweet-potatoes-metals [revised] per autonomous audit
 ```
 
 ## How to read this

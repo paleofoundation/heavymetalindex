@@ -97,3 +97,24 @@
 - `orosun2023-vegetables-nigeria-ptms` — orosun2023-vegetables-nigeria-ptms REVISE
 - `salawu2015-spinach-irrigation-metals` — salawu2015-spinach-irrigation-metals REVISE
 - `salhotra2017-vegetables-fruits-heavy-metals` — salhotra2017-vegetables-fruits-heavy-metals REVISE
+
+## Run 2026-06-09T02:13:01.921Z
+
+- Candidates this run: 12
+- Succeeded (audited and committed): 12
+- Stopped (genuine block, no commit): 0
+- Failed (error, no commit): 0
+
+### Succeeded
+- `ozyazici2021-sunflower-seeds-metals` — ozyazici2021-sunflower-seeds-metals QUARANTINE
+- `tkachuk2024-sunflower-seeds-metals` — tkachuk2024-sunflower-seeds-metals REVISE
+- `shaikh2026-sunflower-seeds-heavy-metals` — shaikh2026-sunflower-seeds-heavy-metals REVISE
+- `santos2017-yerba-mate-metals` — santos2017-yerba-mate-metals revised
+- `kiczorowski2022-fermented-vegetables-metals` — kiczorowski2022-fermented-vegetables-metals REVISE
+- `shukla2020-honey-prayagraj-metals` — shukla2020-honey-prayagraj-metals REVISE
+- `wu2021-edible-salt-soy-sauce-pb-cd` — wu2021-edible-salt-soy-sauce-pb-cd REVISE
+- `hossain2024-rice-cadmium-soil-ph` — hossain2024-rice-cadmium-soil-ph REVISE
+- `samsiyah2019-indonesia-salt-lead` — samsiyah2019-indonesia-salt-lead REVISE
+- `anwar2021-canned-tuna-aceh-metals` — anwar2021-canned-tuna-aceh-metals audited-revised
+- `shaughnessy2023-sugar-kelp-new-england-metals` — shaughnessy2023-sugar-kelp-new-england-metals REVISE
+- `sund2026-saccharina-pte-processing` — sund2026-saccharina-pte-processing PROMOTE
