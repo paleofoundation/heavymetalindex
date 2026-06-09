@@ -17,7 +17,7 @@ metals: [Cd, Pb, tHg, tAs]
 ingredients: ["[[ingredients/canned-tuna]]", "[[ingredients/tinned-fish]]", "[[ingredients/fish]]", "[[ingredients/seafood]]"]
 products: ["[[products/canned-fish]]", "[[products/fish-marine-predatory]]"]
 matrices: [canned-tuna, canned-fish, wet-weight]
-jurisdictions: [US, DE, FI, MT, RO, GB, NL, BG, BE, GR, HR, LV, DK, PT, SE, PL, CA, AU, JP, SA, IR, JO, HK, KH, AE, TN, DZ, EG, MA, AR, CL, PE, BR, TR, RU, GE]
+jurisdictions: [FR, DE, FI, MT, RO, GB, NL, BG, BE, GR, HR, LV, DK, PT, SE, PL, CA, AU, JP, SA, IR, JO, HK, KH, AE, TN, DZ, EG, MA, AR, CL, PE, BR, TR, RU, GE]
 near_duplicates: ["raw/studies/ulusoy2023-canned-tuna-toxic-metals.pdf"]
 sample_n: 222
 sample_population: "Two hundred twenty-two canned tuna samples purchased from supermarkets in 36 countries during 2017-2019; samples covered 19 developed and 17 developing countries and 34 brands, with three cans from each country/brand grouping."
@@ -44,11 +44,11 @@ Tables 4-5 report country-level concentration means. Selected high or source-hig
 | Country of purchase | Cd, µg/g ww | Pb, µg/g ww | tHg, µg/g ww | tAs, µg/g ww | calculated iAs, µg/g ww |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | England | 0.01 +/- 0.07 | 0.64 +/- 0.01 | 0.04 +/- 0.01 | 1.28 +/- 0.00 | 0.04 +/- 0.00 |
-| Latvian | 0.02 +/- 0.00 | 0.06 +/- 0.01 | 0.22 +/- 0.00 | 2.55 +/- 0.07 | 0.07 +/- 0.07 |
+| Latvian | 0.02 +/- 0.00 | 0.06 +/- 0.01 | 0.22 +/- 0.01 | 2.55 +/- 0.07 | 0.07 +/- 0.07 |
 | Malta | 0.02 +/- 0.00 | 0.20 +/- 0.01 | 0.51 +/- 0.00 | 0.93 +/- 0.01 | 0.03 +/- 0.01 |
 | Tunisia | 0.00 +/- 0.06 | 0.14 +/- 0.01 | 0.95 +/- 0.05 | 1.85 +/- 0.05 | 0.06 +/- 0.05 |
 | Brazil | 0.02 +/- 0.01 | 0.01 +/- 0.01 | 0.11 +/- 0.01 | 1.34 +/- 0.01 | 0.04 +/- 0.01 |
-| Russia | 0.02 +/- 0.01 | 0.83 +/- 0.01 | 0.03 +/- 0.01 | 0.80 +/- 0.01 | 0.02 +/- 0.01 |
+| Russia | 0.02 +/- 0.01 | 0.83 +/- 0.00 | 0.03 +/- 0.00 | 0.80 +/- 0.01 | 0.02 +/- 0.01 |
 | Saudi Arabia | 0.01 +/- 0.00 | 0.29 +/- 0.01 | 0.05 +/- 0.00 | 0.87 +/- 0.00 | 0.03 +/- 0.00 |
 
 The results section states that Cd and Hg values were below the cited limit values in all samples, and that only Pb concentrations were found above limit values in samples purchased from England, Saudi Arabia, and Russia. The abstract states that Hg THQ values were above the source's safe-limit criterion for higher-frequency consumers and that calculated iAs TCR indicated carcinogenic risk when consuming more than one canned-tuna meal per week.
