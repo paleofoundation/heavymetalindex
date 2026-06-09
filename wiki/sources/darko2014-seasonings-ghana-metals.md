@@ -13,10 +13,10 @@ license: unknown
 raw_path: "raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/10.5897@ajfs2013.1107.pdf"
 raw_sha256: "d2e1654ae92dfcff76ce6d7ccf6a91c089ca565cc8b86de2f8ac0f15f5e0f2a0"
 access_url: "https://doi.org/10.5897/AJFS2013.1107"
-metals: [Fe, Zn, Cu, Cd, Pb, tHg]
-ingredients: ["[[ingredients/spices]]", "[[ingredients/herbs-and-spices]]", "[[ingredients/dried-herbs]]"]
+metals: [Cd, Pb, tHg]
+ingredients: ["[[ingredients/spices]]", "[[ingredients/herbs-and-spices]]"]
 products: ["[[products/spices]]", "[[products/condiments-general]]"]
-matrices: [spices, seasonings, powdered-seasoning, dry-weight]
+matrices: [spices, seasonings, powdered-seasoning]
 jurisdictions: [GH]
 near_duplicates: []
 sample_n: 22
@@ -45,7 +45,8 @@ Darko and colleagues measured Fe, Zn, Cu, Cd, Pb, and Hg in 22 mixed and unmixed
 | Mixed seasonings, Cd | below detection limit (0.01) to 0.06 mg/kg |
 | Mixed seasonings, Pb | 0.63-1.39 mg/kg |
 | Hg | below the detection limit (0.01) in all seasonings |
-| Source-reported Pb comparator | All seasoning samples were above the FAO/WHO (2003) permissible limit for spices of 0.3 mg/kg |
+| Cd detection frequency | 23% of sampled seasonings contained cadmium above the 0.01 mg/kg detection limit (one of 16 unmixed and four of 6 mixed) |
+| Source-reported Pb comparator | All 22 seasoning samples were above the FAO/WHO (2003) permissible limit for spices of 0.3 mg/kg |
 | Source-reported Cd comparator | All seasoning samples except nutmeg were below the FAO/WHO (2001) permissible level of 0.20 mg/kg for spices; nutmeg was reported at 0.9 mg/kg |
 
 The highest reported Cd value in unmixed seasonings was 0.9 mg/kg in nutmeg, while the rest of the unmixed seasonings were below the detection limit. In mixed seasonings, the highest Cd value was 0.06 mg/kg. For Pb, unmixed seasonings ranged from 0.6 to 1.8 mg/kg and mixed seasonings from 0.63 to 1.39 mg/kg. The source discusses individual seasoning types and source countries, but this page keeps the evidence at the grouped product-form level.
@@ -56,7 +57,7 @@ Twenty-two powdered seasonings were purchased from local shops and hawkers in Ku
 
 ## Implications
 
-This source adds Ghana-market occurrence data for powdered spices, herbs, and seasoning blends, with direct relevance to the `spices` and `condiments-general` product routes. Its strongest HMI-target findings are Pb occurrence across all seasonings and Cd occurrence above the source-cited spice comparator in one unmixed seasoning type. Hg should be routed as total mercury context only and specifically as non-detect at the reported 0.01 mg/kg detection limit. The non-HMI essential metals Fe, Zn, and Cu are retained as source context because they were part of the same analytical panel.
+This source adds Ghana-market occurrence data for powdered spices, herbs, and seasoning blends, with direct relevance to the `spices` and `condiments-general` product routes. Its strongest HMI-target finding is that every one of the 22 sampled seasonings reported a Pb value above the FAO/WHO (2003) 0.3 mg/kg permissible limit for spices, with unmixed-seasoning Pb ranging 0.6-1.8 mg/kg and mixed-seasoning Pb ranging 0.63-1.39 mg/kg. Cd was detected in 23% of samples, with nutmeg (0.9 mg/kg) the single point above the FAO/WHO (2001) 0.20 mg/kg spice comparator. Hg should be routed as total mercury context only and specifically as non-detect at the reported 0.01 mg/kg detection limit. Fe, Zn, and Cu were measured on the same analytical panel and are retained in the page body for source context only; they are not HMI target analytes.
 
 ## Verification notes
 
