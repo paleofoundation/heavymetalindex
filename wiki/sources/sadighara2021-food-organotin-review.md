@@ -16,7 +16,7 @@ access_url: "https://doi.org/10.1016/j.fochx.2021.100154"
 metals: [Sn]
 ingredients: ["[[ingredients/seafood]]", "[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/vegetable-oils]]"]
 products: ["[[products/seafood]]", "[[products/fish-marine-predatory]]", "[[products/fish-marine-non-predatory]]", "[[products/shellfish]]", "[[products/cooking-oils-other]]"]
-matrices: [seafood, fish, shellfish, vegetable-oils, organotin, review]
+matrices: [seafood, fish, shellfish, vegetable-oils, organotin]
 jurisdictions: [JP, IT, CL, CN, HK, ES]
 near_duplicates: []
 sample_n: null
