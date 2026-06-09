@@ -1,5 +1,5 @@
 {
-  "$comment": "HMTc Comprehensive Testing Category Taxonomy v2.2 (2026-06-09). Source: /Users/karenpendergrass/Desktop/document_pdf.pdf (v2.0 base); v2.1 appended cats 24-26 (docs/governance/taxonomy-reorganization-2026-06.md); v2.2 is the matrix-family re-cut (docs/governance/taxonomy-v2.2-matrix-family-recut.md). For Step Zero-locked categories the live row identity is the page frontmatter + routing layer, which this seed does not mirror: the Cat 1/2/4 row arrays below remain the v2.0 scaffold and are STALE versus the live locked state. In particular the v2.2 Cat 4 split (live rows 8-18 re-homed to Cat 27 Legumes / 28 Nuts-Seeds-Butters / 29 Edible Fungi) and the Cat 7 dissolution (Phase B, cats 30-35) are tracked in governance + frontmatter, not by editing these stale arrays. Envelope: 29 categories appended through Cat 29 (Phase A); Cat 30-35 (Cat 7 split) and any elected tobacco category append in later phases at the next free numbers. The v2.1 'reserved Cat 27 = tobacco' is superseded: Cat 27 is now Legumes; tobacco renumbers. Authored by K. Pendergrass, K. Eyer, D. Aleru; v2.1/v2.2 expansion by Claude (co-architect).",
+  "$comment": "HMTc Comprehensive Testing Category Taxonomy v2.2 (2026-06-09). Source: /Users/karenpendergrass/Desktop/document_pdf.pdf (v2.0 base); v2.1 appended cats 24-26 (docs/governance/taxonomy-reorganization-2026-06.md); v2.2 is the matrix-family re-cut (docs/governance/taxonomy-v2.2-matrix-family-recut.md). For Step Zero-locked categories the live row identity is the page frontmatter + routing layer, which this seed does not mirror: the Cat 1/2/4 row arrays below remain the v2.0 scaffold and are STALE versus the live locked state. In particular the v2.2 Cat 4 split (live rows 8-18 re-homed to Cat 27 Legumes / 28 Nuts-Seeds-Butters / 29 Edible Fungi) and the Cat 7 dissolution (Phase B, cats 30-35) are tracked in governance + frontmatter, not by editing these stale arrays. Envelope: 35 categories. Cat 30-35 are the Cat 7 dissolution (30 Culinary Oils & Fats, 31 Sweeteners & Syrups, 32 Condiments/Sauces/Dressings, 33 Chocolate/Cocoa/Confectionery, 34 Herbs/Spices/Seasonings/Salt, 35 Prepared & Packaged Meals), 2026-06-09, per category-7-dissolution-step0-event.md; Cat 7 retired-in-place. Any elected tobacco category appends after 35. The v2.1 'reserved Cat 27 = tobacco' is superseded: Cat 27 is now Legumes; tobacco renumbers. Authored by K. Pendergrass, K. Eyer, D. Aleru; v2.1/v2.2 expansion by Claude (co-architect).",
   "version": "2.2",
   "version_date": "2026-06-09",
   "panel_metals": ["Pb", "iAs", "Hg", "Cd", "Cr", "Ni", "Sn", "Al"],
@@ -664,7 +664,8 @@
         { "row": 5, "name": "Yogurt and cultured dairy", "slug": "dairy-yogurt-cultured" },
         { "row": 6, "name": "Cream", "slug": "dairy-cream" },
         { "row": 7, "name": "Milk powders (whole, skim, specialty)", "slug": "dairy-milk-powders" },
-        { "row": 8, "name": "Condensed and evaporated milks", "slug": "dairy-condensed-evaporated" }
+        { "row": 8, "name": "Condensed and evaporated milks", "slug": "dairy-condensed-evaporated" },
+        { "row": 9, "name": "Butter and ghee (dairy fat)", "slug": "butter-and-ghee" }
       ],
       "boundary_rules": [
         "Product marketed for ages 0-5, or any infant/follow-on formula, routes to Category 1 regardless of dairy base.",
@@ -786,6 +787,130 @@
       ],
       "contamination_platform_notes": "Wild fungi hyperaccumulate Cd, Hg, Pb, and radiocesium; cultivated (controlled substrate) are the clean counterpart.",
       "regulatory_anchors": "EU Reg. 2023/915 Cd/Pb in cultivated fungi; Codex; national wild-mushroom advisories."
+    },
+    {
+      "n": 30,
+      "name": "Culinary Oils and Fats",
+      "slug_prefix": "",
+      "status": "v2.2 Cat 7 dissolution; shipped rows re-parented verbatim (category-7-dissolution-step0-event.md)",
+      "domain": "Foods, ingestion",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Olive oil", "slug": "olive-oil" },
+        { "row": 2, "name": "Other cooking/seed oils (canola, sunflower, coconut, avocado, sesame)", "slug": "cooking-oils-other" }
+      ],
+      "boundary_rules": [
+        "Butter and ghee are dairy fat and route to Cat 24 Dairy, cross-linked here.",
+        "Products marketed for ages 0-5 route to Category 1."
+      ],
+      "contamination_platform_notes": "Lipophilic matrix + refining pathway; refined seed oils clean vs unrefined/origin-specific dirty (Pb/Ni).",
+      "regulatory_anchors": "EU Reg. 2023/915 (Pb in fats and oils); Codex STAN 33 (olive oil); FDA Pb action levels."
+    },
+    {
+      "n": 31,
+      "name": "Sweeteners and Syrups",
+      "slug_prefix": "",
+      "status": "v2.2 Cat 7 dissolution; honey re-parented verbatim",
+      "domain": "Foods, ingestion",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Honey", "slug": "honey" },
+        { "row": 2, "name": "Tree and plant syrups (maple, agave, molasses)", "slug": "syrups-maple-agave-molasses" },
+        { "row": 3, "name": "Refined sugars (cane, beet, brown)", "slug": "refined-sugar" },
+        { "row": 4, "name": "Rice and grain syrups", "slug": "rice-grain-syrup" }
+      ],
+      "boundary_rules": [
+        "Chocolate and confectionery are eaten as treats, not used to sweeten; they route to Cat 33.",
+        "A sweetener with a Supplement Facts panel routes to Cat 16."
+      ],
+      "contamination_platform_notes": "Refined sugar/agave clean; honey Pb/Cd (apiary proximity), maple Pb/Sn (evaporator), rice syrup iAs, molasses Pb/Cd dirty.",
+      "regulatory_anchors": "Codex MLs; FDA Pb action levels; EU Reg. 2023/915."
+    },
+    {
+      "n": 32,
+      "name": "Condiments, Sauces and Dressings",
+      "slug_prefix": "",
+      "status": "v2.2 Cat 7 dissolution; vinegar re-parented; condiments-general decomposed by platform",
+      "domain": "Foods, ingestion",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Vinegar", "slug": "vinegar" },
+        { "row": 2, "name": "Soy sauce and fermented sauces", "slug": "soy-sauce-fermented" },
+        { "row": 3, "name": "Fish sauce", "slug": "fish-sauce" },
+        { "row": 4, "name": "Tomato condiments (ketchup, salsa)", "slug": "tomato-condiments" },
+        { "row": 5, "name": "Mustard, mayonnaise, dressings", "slug": "mustard-mayo-dressings" }
+      ],
+      "boundary_rules": [
+        "Hot sauce / chili sauce route to Cat 34 (Spices): their Pb/Cr is chili-borne (the spice-adulteration platform).",
+        "Tomato condiments cross-link to the Cat 4 tomato matrix row; canned/jarred adds a tin flag.",
+        "Fish sauce cross-links to Cat 6 Seafood (its contamination speciates as fish tHg/iAs)."
+      ],
+      "contamination_platform_notes": "Acid-extraction / fermentation Pb axis; balsamic vinegar Pb/As and aged soy/fish sauce Pb/Cd/tHg are the dirty sub-populations.",
+      "regulatory_anchors": "FDA balsamic-vinegar Pb warning-letter history; Codex; EU Reg. 2023/915."
+    },
+    {
+      "n": 33,
+      "name": "Chocolate, Cocoa and Confectionery",
+      "slug_prefix": "",
+      "status": "v2.2 Cat 7 dissolution; chocolate re-parented verbatim; confectionery gap filled",
+      "domain": "Foods, ingestion",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Cocoa and chocolate products (cocoa powder, dark, milk, chips)", "slug": "chocolate" },
+        { "row": 2, "name": "Candy and confectionery (hard candy, caramels, imported/ethnic sweets)", "slug": "confectionery-candy" },
+        { "row": 3, "name": "Gummies and jelly sweets", "slug": "gummies-jellies" }
+      ],
+      "boundary_rules": [
+        "Cocoa sold as a beverage mix routes to Cat 5 Beverages; cocoa-as-confection routes here.",
+        "A confection with a Supplement Facts panel (e.g., supplement gummies) routes to Cat 16.",
+        "Products marketed for ages 0-5 route to Category 1."
+      ],
+      "contamination_platform_notes": "Cacao soil-uptake Cd (dark/high-cocoa/Latin-American origin dirty); imported/tamarind/chili candy Pb (adulteration + packaging).",
+      "regulatory_anchors": "EU Reg. 2023/915 (Cd in cocoa/chocolate, the binding cap); FDA Pb action levels and imported-candy guidance."
+    },
+    {
+      "n": 34,
+      "name": "Herbs, Spices, Seasonings and Salt",
+      "slug_prefix": "",
+      "status": "v2.2 Cat 7 dissolution; spices + salt re-parented verbatim",
+      "domain": "Foods, ingestion",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Herbs, spices, and dried seasonings (turmeric, cinnamon, paprika, chili powder, pepper)", "slug": "spices" },
+        { "row": 2, "name": "Salt (table, sea, Himalayan)", "slug": "salt" },
+        { "row": 3, "name": "Hot sauce and chili sauces", "slug": "hot-chili-sauces" }
+      ],
+      "boundary_rules": [
+        "Hot/chili sauces route here, not to Cat 32: their Pb/Cr is chili-borne (same adulteration platform as turmeric).",
+        "Salt is a mineral, co-located on the seasoning shelf but split on its own Codex-anchored row.",
+        "Products marketed for ages 0-5 route to Category 1."
+      ],
+      "contamination_platform_notes": "Pb/Cr adulteration (turmeric, chili) + soil uptake; salt independent (Codex ML).",
+      "regulatory_anchors": "FDA spice-Pb guidance; EU Reg. 2023/915 (Pb in spices); Codex (Pb in salt)."
+    },
+    {
+      "n": 35,
+      "name": "Prepared and Packaged Meals",
+      "slug_prefix": "",
+      "status": "v2.2 Cat 7 dissolution; composite (provisional, no own clean/dirty split until component evidence)",
+      "domain": "Foods, ingestion",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)", "slug": "mixed-meals-prepared-foods" }
+      ],
+      "boundary_rules": [
+        "A composite meal inherits its component-matrix platforms; route by dominant ingredient until evidence supports own rows.",
+        "Infant/toddler mixed meals route to Category 1.",
+        "A product that is primarily a single matrix (e.g., plain pasta) routes to that matrix category."
+      ],
+      "contamination_platform_notes": "No standalone platform; inherits component-matrix contamination. Provisional until component evidence accumulates.",
+      "regulatory_anchors": "Composite; per-component regulatory anchors apply."
     }
   ],
   "novel_product_routing_protocol": [
