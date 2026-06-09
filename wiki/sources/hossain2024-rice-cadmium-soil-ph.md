@@ -30,20 +30,53 @@ Hossain and coauthors tested how soil pH and organic matter affected cadmium acc
 
 ## Key numbers
 
-The abstract reports Cd-stressed soil at 5 mg/kg and soil pH treatments of 4, 7, and 9 with organic matter at 1%, 2%, and 3%. Table 3 reports grain Cd and soil-bioavailable Cd examples under organic-matter treatments:
+The Cd-stressed soil was spiked to 5 mg/kg (CdCl₂·2H₂O added to topsoil with baseline total Cd 2.60 mg/kg, pH 7.86, EC 1.90 dS/m, silty clay loam). Soil pH treatments were 4, 7, and 9; organic matter (cow dung) was applied at 1%, 2%, and 3%. Each treatment was replicated in triplicate under complete randomized design.
 
-| Variety | Organic matter | Grain Cd | Soil bioavailable Cd |
-|---|---:|---:|---:|
-| BRRI 28 | 1% | 1.00 mg/kg | 0.44 mg/kg |
-| BRRI 28 | 2% | 0.61 mg/kg | 0.32 mg/kg |
-| BRRI 28 | 3% | 0.10 mg/kg | 0.18 mg/kg |
-| Heera | 1% | 1.15 mg/kg | value continues in source table |
+Grain Cd under the soil pH series (Table 2; reported in mg/kg dry-weight grain alongside soil bioavailable Cd):
 
-The authors state that low-pH soil increased Cd uptake and that increasing pH and organic matter decreased grain Cd concentration.
+| Variety | Soil pH | Grain Cd | Soil bioavailable Cd | Pearson r (grain × bioavailable) |
+|---|---:|---:|---:|---:|
+| BRRI 28 | 4 | 1.73 mg/kg | 0.56 mg/kg | 0.93** |
+| BRRI 28 | 7 | 0.88 mg/kg | 0.37 mg/kg | |
+| BRRI 28 | 9 | 0.74 mg/kg | 0.19 mg/kg | |
+| Heera | 4 | 1.91 mg/kg | 0.68 mg/kg | 0.87** |
+| Heera | 7 | 0.82 mg/kg | 0.48 mg/kg | |
+| Heera | 9 | 0.75 mg/kg | 0.25 mg/kg | |
+| BRRI 67 | 4 | 1.59 mg/kg | 0.60 mg/kg | 0.96** |
+| BRRI 67 | 7 | 1.30 mg/kg | 0.40 mg/kg | |
+| BRRI 67 | 9 | 0.78 mg/kg | 0.24 mg/kg | |
+| BRRI 47 | 4 | 1.15 mg/kg | 0.53 mg/kg | 0.92** |
+| BRRI 47 | 7 | 1.18 mg/kg | 0.43 mg/kg | |
+| BRRI 47 | 9 | 0.72 mg/kg | 0.23 mg/kg | |
+
+Grain Cd under the organic matter series (Table 3, reported in mg/kg dry-weight grain alongside soil bioavailable Cd):
+
+| Variety | Organic matter | Grain Cd | Soil bioavailable Cd | Pearson r |
+|---|---:|---:|---:|---:|
+| BRRI 28 | 1% | 1.00 mg/kg | 0.44 mg/kg | 0.99** |
+| BRRI 28 | 2% | 0.61 mg/kg | 0.32 mg/kg | |
+| BRRI 28 | 3% | 0.10 mg/kg | 0.18 mg/kg | |
+| Heera | 1% | 1.15 mg/kg | 0.59 mg/kg | 0.95** |
+| Heera | 2% | 0.32 mg/kg | 0.26 mg/kg | |
+| Heera | 3% | 0.84 mg/kg | 0.38 mg/kg | |
+| BRRI 67 | 1% | 1.17 mg/kg | 0.29 mg/kg | 0.99** |
+| BRRI 67 | 2% | 0.53 mg/kg | 0.15 mg/kg | |
+| BRRI 67 | 3% | 0.49 mg/kg | 0.13 mg/kg | |
+| BRRI 47 | 1% | 0.41 mg/kg | 0.55 mg/kg | 0.92** |
+| BRRI 47 | 2% | 0.19 mg/kg | 0.26 mg/kg | |
+| BRRI 47 | 3% | 0.33 mg/kg | 0.35 mg/kg | |
+
+Transfer factor (TF = grain Cd / soil Cd) ranged 0.06–0.13 at low pH, 0.04–0.08 at neutral pH, and 0.04–0.09 at high pH; TF<1 for every variety × pH × OM cell. At pH 4 the highest TF was Heera (0.13) and the lowest was BRRI 47 (0.06).
+
+Hazard quotient was calculated as HQ = grain Cd (mg/kg) × 9.47 (adult) or × 9.38 (child). HQ exceeded 1 for both adults and children in nearly every scenario; the only safe-zone result was BRRI 28 with 3% OM amendment, where HQ was 0.92 (adult) and 0.91 (child).
+
+The authors report that low-pH soil increases Cd bioavailability and grain Cd, that raising pH or adding organic matter (up to 2%) reduces grain Cd, and that beyond 2% OM the effect partially reverses for some varieties (Heera at 3% OM accumulated more grain Cd than at 2%).
 
 ## Methods (brief)
 
-The study used separate pot experiments in Cd-stressed soil. It compared non-salt-tolerant rice varieties BRRI 28 and Heera with salt-tolerant BRRI 67 and BRRI 47. Soil pH and organic-matter treatments were varied, and grain Cd and soil-bioavailable Cd were measured.
+Topsoil (0–15 cm) from the Khulna University campus was air-dried, sieved to 2 mm, and spiked with CdCl₂·2H₂O at 5 mg Cd kg⁻¹. Soil pH was adjusted with NaOH or HCl to three levels (4, 7, 9) in one factorial; cow-dung organic matter was applied at three rates (1%, 2%, 3%) in a second factorial. Each treatment was replicated in triplicate in earthen pots under complete randomized design. Four rice cultivars were grown for the January–April 2021 season under continuous flooding: non-salt-tolerant BRRI 28 and Heera, and salt-tolerant BRRI 47 and BRRI 67.
+
+Grain and soil samples were digested in HNO₃:HClO₄ (2:1 v/v) at 180 °C following Hseu (2004). Cd was quantified by atomic absorption spectrophotometry on a Shimadzu AAS System AA-7000 (Japan). Soil pH was read per Li et al. (2005); EC was measured on a Hanna HI2315 conductivity meter (Hardie and Doyle 2012). Triplicate samples, reagent blanks, and continuing check verifications were used for QA/QC. ANOVA with Tukey HSD at α = 0.05 was performed in STATISTIX v10.0. Transfer factor was reported as grain Cd / soil Cd. Hazard quotient followed Kibria et al. (2022): HQ = grain Cd (mg kg⁻¹) × 9.47 for adults and × 9.38 for children.
 
 ## Implications
 
@@ -58,11 +91,11 @@ App: Should not directly set consumer rice occurrence values, but can inform sou
 - [[products/rice-bulk-grain]]
 - [[ingredients/rice]]
 - [[metals/cadmium]]
-- [[mitigation/cadmium-soil-management]]
+- [[mitigation/agronomic]]
 
 ## Verification notes
 
-The fetched filename placed the paper in a salt Cd queue because "salt tolerant rice" appeared in the title. The actual matrix is rice grain from a controlled pot experiment. Table 3 text extraction truncates the later rows; audit should verify the full treatment table before structured expansion.
+The fetched filename placed the paper in a salt Cd queue because "salt tolerant rice" appeared in the title. The actual matrix is rice grain from a controlled pot experiment, not edible salt; routing should ignore the salt cue from the filename. The `sample_n: 36` frontmatter value represents the 4 varieties × 3 pH × 3 OM = 36 unique treatment cells; the paper ran two separate factorial experiments (pH series and OM series), each replicated in triplicate, so total pot count is higher. BRRI 28, BRRI 47, BRRI 67, and Heera are rice cultivar/genotype identifiers (Bangladesh Rice Research Institute lines and a private hybrid), not consumer brands, and are retained per the scientific-method exception to Part 12.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
