@@ -38,11 +38,11 @@ The authors report As, Cd, and Pb in yerba mate leaves as mg/kg.
 | Santa Catarina | 11 | 0.06 +/- 0.03 mg/kg | 0.42 +/- 0.19 mg/kg | 0.29 +/- 0.09 mg/kg | As 0.015-0.114; Cd 0.25-0.71; Pb 0.20-0.54 mg/kg |
 | Parana | 16 | 0.056 +/- 0.03 mg/kg | 0.47 +/- 0.15 mg/kg | 0.44 +/- 0.10 mg/kg | As 0.015-0.15; Cd 0.21-0.72; Pb 0.25-0.70 mg/kg |
 
-The abstract summarizes whole-study ranges as tAs 0.015-0.15 mg/kg, Cd 0.18-1.25 mg/kg, and Pb 0.1-1.20 mg/kg. The authors state that Cd exceeded 0.4 mg/kg in 84% of Rio Grande do Sul samples, 63% of Parana samples, and 75% of Santa Catarina samples; Pb was unsatisfactory in 7% of Rio Grande do Sul and 5% of Parana samples.
+The abstract summarizes whole-study ranges as tAs 0.015-0.15 mg/kg, Cd 0.18-1.25 mg/kg, and Pb 0.1-1.20 mg/kg. The authors state that Cd exceeded 0.4 mg/kg in 84% of Rio Grande do Sul samples, 63% of Parana samples, and 75% of Santa Catarina samples; pooled across the full 104-sample set, 74% exceeded the 0.4 mg/kg Cd limit. Pb was unsatisfactory in 7% of Rio Grande do Sul samples and, per the abstract, 5% of Parana samples; the Discussion text reports the underlying Pb-exceedance counts as five samples in Rio Grande do Sul, three in Parana, and zero in Santa Catarina, so the Parana figure is closer to 19% (3 of 16) than the 5% printed in the abstract.
 
 ## Methods (brief)
 
-Samples were extracted after hot-water treatment and analyzed by ICP-MS on a PerkinElmer NexION 300D. The method detection limits were 5.5 ng/L for As, 4.9 ng/L for Cd, and 43 ng/L for Pb, with reported recoveries of 104%, 109%, and 114%, respectively.
+Concentrations reported in the key-numbers table reflect total acid digestion: approximately 0.5 g of each ground sample was digested in Teflon tubes with 2 mL deionized water, 2 mL concentrated nitric acid, and 2 mL hydrogen peroxide in a closed-vessel microwave (Berghof SpeedWave), then diluted to 25 mL prior to analysis by ICP-MS on a PerkinElmer NexION 300D with rhodium as internal standard. The method detection limits were 5.5 ng/L for As, 4.9 ng/L for Cd, and 43 ng/L for Pb, with reported recoveries of 104%, 109%, and 114%, respectively. A separate sub-experiment simulated the chimarrao infusion (about 1.5 g in 10 mL of 80 C deionized water, 5 minutes, centrifuged); approximately 10% of the Cd and 5% of the Pb in the dry leaf transferred to the infusion supernatant, and infusion As was below the method limit of quantification.
 
 ## Implications
 
@@ -63,6 +63,8 @@ App: The values can inform a Brazil-specific yerba mate or herbal-botanical flag
 ## Verification notes
 
 The wishlist filename misclassified this as mineral-water inorganic-arsenic evidence. The PDF is a yerba mate leaf occurrence study and reports total arsenic, not inorganic arsenic. State names and sample counts were taken from Table 2.
+
+Internal source inconsistency on Parana Pb exceedance: the abstract reports 5% of Parana samples above 0.6 mg/kg, but the Discussion's per-state count (three of sixteen samples) implies about 19%. The page reproduces both figures and does not attempt to reconcile them; synthesis should treat the Discussion count as the primary record.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
