@@ -16,7 +16,7 @@ access_url: "https://doi.org/10.1007/s11356-021-16583-7"
 metals: [tAs, iAs, Pb, Cd, Cr, tHg]
 ingredients: ["[[ingredients/rice]]"]
 products: ["[[products/rice-bulk-grain]]"]
-matrices: [rice-grain, brown-rice, mining-area-rice]
+matrices: [rice-grain, brown-rice]
 jurisdictions: [CN]
 near_duplicates: [MFK_probabilistic-health-risk-assessment-of-inorganic]
 sample_n: 220
@@ -76,6 +76,8 @@ This source contributes China-market rice occurrence evidence for tAs, iAs, Cd, 
 - Speciation: arsenic is reported as both tAs and iAs, which are kept separate. Mercury is total Hg only; no methylmercury value is reported. Chromium is total Cr only; no Cr-VI value is reported.
 - Soil and mining-area information is source-attribution context. Only rice concentration values were routed as product occurrence evidence.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- Autonomous audit 2026-06-09: removed `mining-area-rice` from `matrices` because it is a study-context descriptor, not a standard matrix slug; mining-area provenance is captured in the body and in this notes block.
+- Autonomous audit 2026-06-09 flagged Adult HI P95 as 5.51 (per narrative on p.11515) vs the wiki's 5.50 (per Table 4 on p.11517); verified against PDF — Table 4 reports 5.50 and Table 4 is the canonical tabular source. The narrative line ("5.51 for adults and ... 6.16 for children") is internally inconsistent with the table (6.21 for children), so the wiki tracks Table 4 throughout. Finding rejected as false positive.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
