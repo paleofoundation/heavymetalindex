@@ -41,7 +41,7 @@ Enemuor and colleagues measured physicochemical quality, microbial contamination
 
 ## Methods (brief)
 
-The study collected palm oil samples in sterile universal bottles from three main local markets in Kogi East and transported them to the laboratory for microbiological and heavy-metal analysis. For metals, each 5 g oil sample was digested with 20 ml of acid mixture, heated for approximately 15 minutes until the solution became clear, filtered, and diluted to 50 ml. Chromium, cadmium, lead, arsenic, copper, and iron were measured by atomic absorption spectroscopy.
+The study collected palm oil samples in sterile universal bottles from three main local markets in Kogi East and transported them to the laboratory for microbiological and heavy-metal analysis. For metals, each 5 g oil sample was digested with 20 ml of an acid mixture (650 ml concentrated HNO3, 80 ml perchloric acid, and 20 ml concentrated H2SO4), and metals were quantified by flame atomic absorption spectrometry. The methods section names lead, cadmium, iron, arsenic, and copper as the analytes, but Table 3 also reports chromium concentrations without describing a separate Cr workup.
 
 ## Implications
 
@@ -72,6 +72,7 @@ Microbiome: No direct microbiome endpoint.
 - Values are source-reported ppm in palm oil. No conversion to ppb or alternate oil basis is made on this source page.
 - The source states that most assayed metals were above acceptable limits, but Table 3 shows Cu below the listed WHO limit and Pb as non-detect. The numeric table is preserved over the broader narrative statement.
 - The source is not brand-specific and does not identify consumer brands.
+- Internal inconsistency in the source: the heavy-metals methods section lists only Pb, Cd, Fe, As, and Cu as analytes, but Table 3 reports Cr alongside the other five. No separate Cr digestion or instrument calibration step is described. The Cr values are preserved on this page because they appear in the source's own results table, but Cr should be treated as having weaker methods provenance than the other five metals.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
