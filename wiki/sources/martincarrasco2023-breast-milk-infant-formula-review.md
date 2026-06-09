@@ -12,7 +12,7 @@ source_type: peer-reviewed-review
 evidence_tier: B
 license: "CC BY-NC-ND 4.0"
 raw_path: "raw/Manual Fetch Discovery/martin-carrasco2023-breast-milk-infant-formula.pdf"
-metals: [Pb, Cd, tHg, MeHg, tAs, iAs, Al, Cr, Cu, Ni, Zn, Fe, Mn, Co, Sn, Se, Sb]
+metals: [Pb, Cd, tHg, MeHg, tAs, Al, Cr, Cu, Ni, Zn, Fe, Mn, Co, Sn, Se, Sb]
 ingredients: ["[[ingredients/breastmilk]]"]
 products: ["[[products/infant-formula-powder]]", "[[products/infant-formula-rtf-liquid-non-soy]]"]
 matrices: [breast-milk, infant-formula]
@@ -57,7 +57,7 @@ The review reproduces values from the constituent studies as the original author
 - Saudi Arabia (Al-Saleh et al. 2013), n=155, AAS/GC-MS/AMA: Hg 1.191 ± 0.764.
 - Turkey (Nazlican et al. 2022), n=34, ICP-MS: Cr 8.249 ± 11.69, As 1.64 ± 1.85, Cd 0.37 ± 0.47, Hg 2.59 ± 3.47, Pb 12.12 ± 9.08.
 - Cyprus (Kunter et al. 2017), n=50, ELISA/ICP-MS: Pb 1.19 ± 1.53, Cd 0.45 ± 0.23, As 0.73 ± 0.58, Hg 0 ± 0.20.
-- Norway (Vollset et al. 2019), n=300, ICP-MS/MS: Hg 0.2 ± 0.17 µg/kg; Cd 0.08 ± 0.10 µg/kg; Pb not detected.
+- Norway (Vollset et al. 2019), n=300, ICP-MS/MS: Hg 0.2 ± 0.17 µg/L; Cd 0.08 ± 0.10 µg/kg; Pb not detected. (Source Table 3 prints Hg in µg/L and Cd in µg/kg for this row — unit inconsistency preserved as published.)
 - Poland (Winiarska-Mieczan 2014), n=320, GFAAS: Cd 2.114 ± 2.112, Pb 6.331 ± 4.614, Cu 0.137 ± 0.092, Zn 1.623 ± 1.763.
 - Spain (Motas et al. 2021), n=50, ICP-MS: Al 34.3 ± 133.0, Zn 1402.6 ± 1742.7, As 0.9 ± 2.71, Cd 0.4 ± 1.6, Pb 5.2 ± 16.7, Hg 5.6 ± 12.4, Cr 16.1 ± 63.6, Mn 10.7 ± 63.6, Fe 679.1 ± 1387.3, Ni 25.3 ± 33.8, Cu 368.5 ± 301.0, Se 44.5 ± 49.5.
 - Spain (Freire et al. 2022), n=242, ICP-MS: As 1.49 (range 0.56–3.50), Hg 0.26 (0.05–1.17), Pb 0.14 (0.10–0.65); Cd not detected.
@@ -81,7 +81,7 @@ The review reproduces values from the constituent studies as the original author
 - Pakistan (Saeed et al. 2021), n=10, FAAS: Fe 5230–7530, Zn 3200–5370, Cu 304.67–487.0, Pb 290–1050, Cd 280–980, Al 1480–2050.
 - Pakistan (Lutfullah et al. 2014), n=46, AAS: Ca 3081 ± 277, Mg 540 ± 206, Cu 1 ± 0.76, Zn 8.97 ± 2.35, Fe 4.33 ± 2.22, Mn 0.0318 ± 0.02, Pb 0.0091 ± 0.01, Cd 0.1507 ± 0.28, Cr 0.0007 ± 0.00, Ni 0.0146 ± 0.01.
 - Italy (Astolfi et al. 2021), n=19, ICP-MS, 40-element profile in powdered formulas; toxic-element subset Sn 25 ± 2, Cd reported under non-essentials, Pb reported under non-essentials (see Table 4 for full per-element values).
-- Malta (Vella and Attard 2019), n=6, MP-AES, by age band: 0–6 mo Cr 290 ± 50, Cu 3330 ± 240, Ni 18,340 ± 0.00, Fe 18,340 ± 2510 (as printed; see Methods caveat — the source row reproduces a Ni value with 0.00 ± 0.00 SD next to an Fe row of identical numeric value, an internal table-layout artifact preserved here as published), Mn 2130 ± 410, Zn 27,240 ± 2770; 6–12 mo Cr 240 ± 30, Cu 3370 ± 210, Ni 820 ± 60, Fe 18,870 ± 3060, Mn 2050 ± 210, Zn 33,000 ± 950; Hg not detected in either band.
+- Malta (Vella and Attard 2019), n=6, MP-AES, by age band: 0–6 mo Cr 290 ± 50, Cu 3330 ± 240, Ni 760 ± 0.00, Fe 18,340 ± 2510, Mn 2130 ± 410, Zn 27,240 ± 2770; 6–12 mo Cr 240 ± 30, Cu 3370 ± 210, Ni 820 ± 60, Fe 18,870 ± 3060, Mn 2050 ± 210, Zn 33,000 ± 950; Hg not detected in either band.
 - Portugal (Pereira et al. 2020), n=26, GFAAS: Ni 40.2.
 - Spain (Gómez-Nieto et al. 2020), n=2, HR-CS-GFAAS: Cu 3850; Cd not detected.
 - Spain (Paz 2017), n=30, ICP-OES, full mineral profile; toxic-element subset Cr 130 ± 20, Mn 1000 ± 230, Mo 140 ± 10, Ni 70 ± 40, Sr 2470 ± 950, Cd 10 ± 0.00, Pb 70 ± 20.
@@ -125,7 +125,7 @@ Data treatment (Section 2.2): two parallel databases were assembled, each with s
 - [[metals/iron]]
 - [[metals/cobalt]]
 - [[metals/tin]]
-- [[metals/selenium]]
+- [[metals/antimony]]
 - [[regulations/efsa-lead-contam-2010]]
 - [[regulations/efsa-cadmium-twi]]
 - [[regulations/efsa-arsenic-contam-2009]]
@@ -140,6 +140,12 @@ Data treatment (Section 2.2): two parallel databases were assembled, each with s
 - Scope discipline: the review covers seven contaminant categories; only metals are reproduced in Key numbers because the wiki is HMI-scope. The non-metal categories are summarized in the description so future synthesis can locate the underlying primary studies via this review. No values for mycotoxins, pesticides, packaging, etc., are pulled into the wiki page.
 - Brand firewall (Part 12): the source does not name brands in the metals tables (Tables 3 and 4 identify studies only by country, sample size, and citation); no brand-naming risk in the metals subset reproduced here. The non-metal tables (Tables 5–16) include some product-form descriptors and dietary-supplement / cosmetic / pharmaceutical descriptors but no brand-by-brand contamination rankings; this is not reproduced on this wiki page in any case.
 - Speciation discipline (Part 14): the review reports total mercury (Hg) in most constituent studies and explicitly distinguishes MeHg only in Table 1's regulatory section; the metals frontmatter therefore lists both `tHg` and `MeHg` to reflect that the source uses both labels in different contexts. Arsenic similarly: the review's Table 1 distinguishes "As" (with TDI 0.3 µg/kg b.w., which matches EFSA inorganic-arsenic guidance) from regulatory context where iAs is the species of concern, while Tables 3 and 4 report total As from the constituent studies without speciation. `tAs` and `iAs` are both included in the metals array to preserve that distinction; the per-cell numbers reproduced under Key numbers are total As as reported in the constituent studies.
-- Unit handling: Table 3 (breast milk) values reported as µg/L; Table 4 (infant formula) values reported as µg/kg or µg/100 kcal as printed. No conversions applied. The Malta Vella and Attard 2019 row for 0–6 mo Ni "18,340 ± 0.00" is a layout artifact in Table 4 where Ni and Fe rows share a value; preserved as-printed with a methods caveat rather than silently corrected because the constituent study is the authoritative source.
+- Unit handling: Table 3 (breast milk) values are reported predominantly as µg/L; Table 4 (infant formula) values predominantly as µg/kg or µg/100 kcal. No conversions applied. Within-row unit inconsistencies in the source (e.g., Vollset et al. 2019 reports Hg in µg/L and Cd in µg/kg in the same row of Table 3) are preserved as printed.
 - Wiki/HMTc firewall (Part 2): no threshold proposals, no synthesis claims comparing this review to other literature, no consumer guidance. The regulatory intake table is reproduced as the source presents it (EFSA TDI values translated to age-banded intakes); no HMTc-side commentary added.
 - Jurisdiction coverage: `jurisdictions:` lists country codes for cohorts named in Tables 3 and 4 plus a few non-metals tables where the cohort country is salient. This is a navigation aid for downstream routing; the underlying constituent studies are the authoritative sources for any per-country claim.
+- 2026-06-09 (fresh-context audit application, Claude Opus 4.7): audit subagent (general-purpose) returned REVISE verdict. Applied:
+  - ❌ Malta Vella & Attard 2019, 0–6 mo Ni: audit caught a real transposition — wiki had "Ni 18,340 ± 0.00" with a fabricated table-layout-artifact rationale; the source (Table 4, p11) actually prints "Ni: 760 ± 0.00 µg/kg" and "Fe: 18,340 ± 2510 µg/kg" as two unambiguously separate rows. Corrected Ni to 760 ± 0.00 and removed the fabricated artifact note.
+  - ⚠️ Norway Vollset 2019 Hg unit: audit caught µg/kg where the source prints µg/L. Corrected to µg/L; added the within-row unit-inconsistency note to acknowledge the source's own labeling.
+  - ⚠️ `iAs` in `metals:` frontmatter: per Part 14 strict reading, removed `iAs` from frontmatter. The constituent studies in Tables 3 and 4 measure total As; Table 1's reference to EFSA iAs TDI is a regulatory citation, not a measurement claim by this paper, so keeping `iAs` in frontmatter was over-reach. `tAs` retained.
+  - ⚠️ `MeHg` in `metals:` frontmatter: retained. Table 1 explicitly separates MeHg (TDI 1.6 µg/kg b.w.) from total Hg (4 µg/kg b.w.) as distinct regulatory rows, so the paper does distinguish the species in regulatory context even though Tables 3 and 4 report constituent-study total Hg.
+  - ⚠️ `[[metals/selenium]]`: audit caught a missing slug — selenium has no page in `wiki/metals/`. Replaced with `[[metals/antimony]]` because Sb is in the metals frontmatter array (the source reports Sb in Ghuniem 2020a Table 4), antimony is a valid metals slug, and selenium values from constituent studies were the original justification but cannot route without a target page. Se remains in the metals frontmatter abbreviation array because the source does report it; the routing layer will reach `wiki/metals/selenium` if and when that page is created.
