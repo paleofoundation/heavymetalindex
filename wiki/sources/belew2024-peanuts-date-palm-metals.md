@@ -19,29 +19,31 @@ jurisdictions: [ET]
 near_duplicates: []
 sample_n: "12"
 sample_population: "six peanut samples and six date palm samples from Jigjiga City markets, Ethiopia"
-updated: 2026-05-30
+updated: 2026-06-09
 sources: 1
 audience: [regulator, educator, consumer, app]
 ---
 
 # Belew et al. 2024 - metals in peanuts and date palms from Jigjiga markets
 
-Belew and coauthors measured metals in peanut and date palm samples from Jigjiga City markets in Ethiopia. The source is directly routeable to peanuts and provides explicit mean concentrations for Fe, Zn, Cu, As, Pb, and Cr. Date-palm findings are retained as context because no date ingredient/product slug is currently declared here.
+Belew and coauthors measured Fe, Zn, Cu, total As, Pb, and total Cr in peanut and date palm samples from Jigjiga City markets in Ethiopia, and computed estimated daily intake, target hazard quotient, hazard index, and incremental lifetime cancer risk for adult males and females. The source is directly routeable to peanuts. Date palm findings are recorded here in full; routing to a date ingredient or product slug is deferred until that slug is created in the taxonomy.
 
 ## Key numbers
 
-- n=12 total samples: six peanut samples and six date palm samples purchased in February 2024.
-- Peanuts: Fe 12.6 +/- 0.54 mg/kg, Zn 5.3 +/- 0.1 mg/kg, Cu 3.53 +/- 0.33 mg/kg, As 0.001 +/- 0.0 mg/kg, Pb 0.01 +/- 0.0 mg/kg, and Cr 0.02 +/- 0.0 mg/kg.
-- Date palms: Fe 40.23 +/- 2.5 mg/kg, Zn 48.31 +/- 0.8 mg/kg, Cu 10.65 +/- 0.05 mg/kg, As 0.05 +/- 0.002 mg/kg; the abstract continues with additional date-palm values.
-- Hazard index for peanuts was within safe limits; hazard index for date palms exceeded 1.
+- Sample design: six peanut samples (P1–P6, *Arachis hypogaea*) and six date palm samples (D1–D6, *Phoenix dactylifera*) purchased in February 2024 from different shops in Jigjiga, Ethiopia. Each sample was analyzed in triplicate (n=3 per sample, 36 total measurements). The `sample_n: "12"` frontmatter records the count of sample types, not measurements.
+- Peanut means in mg/kg (Table 8 and Section 3.2): Fe 27.6 ± 2.3, Zn 24.3 ± 1.67, Cu 6.50 ± 0.47, total As 0.017 ± 0.002, Pb 0.02 ± 0.004, total Cr 0.145 ± 0.007. Peanut sample ranges (Table 8): Pb 0.01 to 0.04 mg/kg; total As 0.001 to 0.05 mg/kg; total Cr 0.01 to 0.5 mg/kg.
+- Date palm means in mg/kg (Table 9 and Section 3.2): Fe 21.8 ± 1.8, Zn 36.7 ± 3.3, Cu 7.17 ± 0.17, total As 0.003 ± 0.0008, Pb 0.07 ± 0.002, total Cr 0.050 ± 0.001. Date palm sample ranges (Table 9): Pb 0.03 to 0.2 mg/kg; total As 0.001 to 0.006 mg/kg; total Cr 0.020 to 0.15 mg/kg.
+- All measured concentrations were below WHO/FAO recommended limits (Table 10 comparison: WHO/FAO Pb cap 2.30 mg/kg, As cap 0.300 mg/kg, Cr cap not stated alongside the others).
+- Hazard index (HI, Table 12): peanut HI 0.269 for adult males and 0.352 for adult females, both below 1 (no significant non-carcinogenic risk). Date palm HI 1.03 for males and 1.348 for females, both at or above 1 (potential non-carcinogenic risk, larger for females, driven primarily by Cu and Zn THQ contributions).
+- Incremental lifetime cancer risk (ILCR, Table 13): peanut TILCR 6.99 × 10⁻⁵ (males) to 9.16 × 10⁻⁵ (females); date palm TILCR 8.36 × 10⁻⁵ (males) to 1.09 × 10⁻⁴ (females). The date palm female TILCR slightly exceeds the 1 × 10⁻⁴ threshold the paper cites for significant carcinogenic risk; the authors flag this as the rationale for targeted intervention in date palm products.
 
 ## Methods (brief)
 
-Samples were wet-acid digested and analyzed by flame atomic absorption spectroscopy. The study calculated EDI, THQ, HI, and ILCR for adult males and females.
+Samples were rinsed with tap water and distilled water; peanut samples were air-dried for ten days at room temperature in shade, date palm samples were not dried. Samples were ground in an electric grinder and passed through a 100 µm sieve. Wet-acid digestion used HNO₃:HClO₄:H₂O₂ in a 5:3:1 ratio at 200 °C for 2 h. Metal concentrations were measured by Flame Atomic Absorption Spectroscopy on a Buck Scientific Model 210VGP with an air-acetylene flame and a deuterium background corrector. The paper does not separate inorganic from total arsenic, so As values are reported as total As; chromium is reported as total Cr without Cr-VI speciation. Each sample was measured in triplicate. Health-risk parameters (EDI, THQ, HI, ILCR) were computed for adult males (72 kg, 65 y) and adult females (55 kg, 55 y), with ingestion rates of 50 g/day for peanuts and 200 g/day for date palms based on the Ethiopian Federal Government Food-Based Dietary Guidelines.
 
 ## Implications
 
-Certification: peanut occurrence evidence for As, Pb, and Cr in Ethiopia. Courses: example of low peanut values but different risk profile in date palms. App: supports Ethiopia/Jigjiga market context.
+Certification: occurrence evidence for total As, Pb, and total Cr in Ethiopian market peanuts and date palms, all below WHO/FAO ceilings on a marginal-mean basis. Courses: contrast example where the same metal panel produces a benign non-carcinogenic profile in peanuts and a near-threshold cancer-risk profile in date palms because of the higher assumed ingestion rate. App: supports Ethiopia / Jigjiga market context for peanuts.
 
 ## Wiki pages this source may touch
 
@@ -53,7 +55,15 @@ Certification: peanut occurrence evidence for As, Pb, and Cr in Ethiopia. Course
 
 ## Verification notes
 
-Peanut means and sample counts were taken from the PDF abstract. Date-palm values are only partially transcribed here and should not be used until full-table extraction.
+The PDF abstract reports peanut means of Fe 12.6, Zn 5.3, Cu 3.53, As 0.001, Pb 0.01, Cr 0.02 mg/kg and date palm means of Fe 40.23, Zn 48.31, Cu 10.65, As 0.05, Pb 0.2, Cr 0.5 mg/kg. These abstract values are internally inconsistent with the paper's own Table 8, Table 9, Table 10, and Section 3.2 body discussion, which together report the correct means recorded above. The abstract appears to mix individual per-sample rows (for example, Fe 12.6 ± 0.54 is the D6 date palm value, Zn 48.31 ± 0.8 is the D4 date palm value, Cu 3.53 ± 0.33 is the D6 date palm value) into what is presented as the mean. This wiki page treats Tables 8/9/10 and Section 3.2 as authoritative and disregards the abstract.
+
+Locked frontmatter fields with known errors that ingestion constraints prevent this audit from editing:
+
+- `license: "CC BY 4.0"` is incorrect. The PDF Open Access notice states the article is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).
+- `raw_path` points to `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/...`. The PDF has since been moved to `raw/manual-fetch/seasonal-geographic-variance/ingested/gap-peanuts-pb_2024_10-1007-s44274-024-00151-0.pdf`.
+- `raw_handle` is `AUTO_gap-peanuts-pb-2024-10-1007-s44274-024-00151-0` (with hyphens) but the upstream ingest record uses underscores in the year separator (`AUTO_gap-peanuts-pb_2024_10-1007-s44274-024-00151-0`).
+
+No date ingredient or product slug exists in the current taxonomy snapshot. Date palm findings are material (HI > 1, female TILCR > 1 × 10⁻⁴) and would be routable to a future `ingredients/dates` or product page. The `matrices: [date-palm]` entry may register as routing-unresolved until that slug is created.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
