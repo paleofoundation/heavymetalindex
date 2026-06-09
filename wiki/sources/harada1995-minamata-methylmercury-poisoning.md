@@ -16,7 +16,7 @@ access_url: "https://doi.org/10.3109/10408449509089885"
 metals: [MeHg, tHg]
 ingredients: ["[[ingredients/seafood]]", "[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]"]
 products: ["[[products/seafood]]", "[[products/fish-marine-predatory]]", "[[products/fish-marine-non-predatory]]", "[[products/shellfish]]"]
-matrices: [fish, shellfish, seafood, dietary-intake, health-effects, historical-exposure]
+matrices: [fish, shellfish, seafood, dietary-intake, health-effects]
 jurisdictions: [JP]
 near_duplicates: []
 sample_n: null
@@ -42,7 +42,7 @@ After the wastewater drainage channel was diverted in `1958`, the review reports
 
 For early animal evidence, the review states that imported cats developed Minamata-like symptoms within `32 to 65 d` of arrival in the area. It reports total Hg detected in cat brains at `18.6 ppm max`, livers at `145.5 ppm max`, kidneys at `36.1 ppm max`, and hair at `134.0 ppm max`.
 
-For human biomarkers, Section IV reports patient hair Hg, even `4 to 5 years` after onset, ranging from `2.46 ppm` to `705 ppm`. Hair samples from heavily affected inhabitants who believed themselves unaffected had a highest recorded level of `191 ppm`. Table 1 reports hair-Hg frequency distributions for healthy fishermen in `1960`, including Minamata `n = 199`, Tsunagi `n = 102`, Yunoura `n = 24`, Ashikita `n = 40`, Ryugatake `n = 87`, Goshonoura `n = 482`, Komenotsu `n = 445`, Akune `n = 33`, Takaono `n = 10`, Higashi Town `n = 75`, and Kumamoto City control `n = 31`.
+For human biomarkers, Section IV reports patient hair Hg, even `4 to 5 years` after onset, ranging from `2.46 ppm` to `705 ppm`. Hair samples from heavily affected inhabitants who believed themselves unaffected had a highest recorded level of `191 ppm`. Table 1 reports hair-Hg frequency distributions for healthy fishermen in `1960`, including Minamata `n = 199`, Tsunagi `n = 102`, Yunoura `n = 24`, Ashikita `n = 40`, Tanoura `n = 33`, Ryugatake `n = 87`, Goshonoura `n = 482`, Komenotsu `n = 445`, Akune `n = 33`, Takaono `n = 10`, Higashi Town `n = 75`, and Kumamoto City control `n = 31`.
 
 For congenital Minamata disease, the review reports that between `1955` and `1958` there were `188` births in the fishing villages of Yudo, Tsukinowa, and Modo, with a `9.0%` incidence of cerebral palsy, compared with a stated national incidence range of `0.2 to 2.3%`. It also states that mothers' hair Hg measured `5 to 8 years` after giving birth ranged from `1.82 ppm` to `191 ppm`, while congenital patients ranged from `5.25 ppm` to `110 ppm`.
 
