@@ -13,6 +13,11 @@ raw_handle: KADC_07-fda-tds-fy2018-2020-elements
 raw_path: raw/reports/fda-tds-elements-fy2018-fy2020-results.csv
 pdf_path: raw/reports/fda-tds-elements-analytical-results-key-fy2018-fy2020.pdf
 supplement_pdf_path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/07_FDA_TDS_FY2018-2020_elements.pdf"
+supplement_pdf_sha256: f4c28e22c3bbeb083b9be60303b6ee20d141f29d9cd2c6d9b7630c0df8fa11a3
+supplement_pdf_duplicate_copies:
+  - path: "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_03_Condiments/03_Condiments/07_FDA_TDS_FY2018-2020_elements.pdf"
+    sha256: "f4c28e22c3bbeb083b9be60303b6ee20d141f29d9cd2c6d9b7630c0df8fa11a3"
+    note: "Byte-identical re-extraction of the canonical supplement PDF under the June 8 _extracted_condiments2_03_Condiments subtree of the Kimi corruption-issue folder. Recorded 2026-06-09 so the manual-fetch loop recognizes this Kimi-folder location as already-ingested."
 access_url: https://www.fda.gov/food/total-diet-study/total-diet-study-results
 data_path: data/evidence/fda_tds_fy2018_2020_element_results_samples.csv
 summary_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
@@ -119,7 +124,7 @@ jurisdictions: [US-FDA]
 wiki_doi: null
 sampling_locations: [US-Regional-3-cities-per-region, US-National-KCL]
 sampling_year_range: 2017-2020
-updated: 2026-06-02
+updated: 2026-06-09
 ---
 
 # FDA 2022 - TDS Elements Analytical Results FY2018-FY2020
@@ -280,6 +285,8 @@ The public CSV does not include brand names, lot identifiers, lab replicate meta
 ## Verification notes
 
 2026-06-02 (manual-fetch v2 ingest, KADC handle `KADC_07-fda-tds-fy2018-2020-elements`): merge-enhance pass against the official FDA "Total Diet Study (TDS) FY2018-FY2020 Report Supplement: Summary of Analytical Results" PDF (July 2022, 83 pages, 2.8 MB) fetched into `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/07_FDA_TDS_FY2018-2020_elements.pdf`. The PDF is FDA's printed summary-statistics supplement (N of detects/non-detects, mean, std. dev., min/max, reporting limit per TDS-food × analyte cell) — the same statistical view that this page's `summary_path` already exposes from the underlying analytical-results CSV. No new structured data layer is added; the supplement PDF is recorded as a corroborating artifact via `supplement_pdf_path`. Frontmatter modernization in this pass: added `raw_handle`, `license: us-government-work` (matching the sibling key page), `access_url` to the FDA TDS results landing page, `matrices: [total-diet-study-prepared-food]` (matching the sibling key page convention), and U to the `metals:` list (uranium is in the body's per-metal highlights table and in the "9,714 HMI-relevant rows" count but had been omitted from frontmatter). Uranium removed from `other_elements_in_file` since it now belongs in `metals`. `sampling_year_range: 2017-2020` and regional/national `sampling_locations` populated per the analytical-key methodology. No changes to ingredient/product routing, narrative body, key numbers, or structured-data references.
+
+2026-06-09 (manual-fetch v2 sweep, suggested handle `MFK_07-fda-tds-fy2018-2020-elements`): the Kimi June 8 corruption-issue re-extraction surfaced a byte-identical copy of the canonical supplement PDF at `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_03_Condiments/03_Condiments/07_FDA_TDS_FY2018-2020_elements.pdf` (sha256 `f4c28e22c3bbeb083b9be60303b6ee20d141f29d9cd2c6d9b7630c0df8fa11a3`, identical to the existing supplement_pdf_path). Recorded under new `supplement_pdf_duplicate_copies` frontmatter list and pinned the canonical supplement sha256 via `supplement_pdf_sha256` so future manual-fetch identity-check cycles recognize the Kimi-folder duplicate as already-ingested. No body/narrative/Key-numbers/routing/structured-data changes; pure provenance audit-trail update.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
