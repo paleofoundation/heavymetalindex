@@ -14,11 +14,11 @@ raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/lever-coffe
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/coffee]]"]
 products: ["[[products/coffee]]"]
-matrices: [ground-robusta-coffee]
+matrices: [ground-coffee]
 jurisdictions: [ID]
 near_duplicates: []
-sample_n: 6
-sample_population: "Merapi Robusta green coffee roasted by traditional, semi-modern, and modern methods at two roast times"
+sample_n: 3
+sample_population: "Three best-scoring hedonic samples (traditional 20 min, semi-modern 20 min, modern 25 min) selected from a sensory panel of six Merapi Robusta roasting conditions, tested by ICP-MS for Pb and Cd"
 updated: 2026-05-30
 sources: 1
 audience: [regulator, educator, consumer, app]
@@ -26,20 +26,27 @@ audience: [regulator, educator, consumer, app]
 
 # Noor et al. 2023 - Pb and Cd screening in Merapi Robusta coffee
 
-Noor and coauthors compared Merapi Robusta coffee roasted by traditional, semi-modern, and modern methods. The primary study focus is quality and sensory performance, but the three best hedonic samples were tested for Pb, Cd, and ochratoxin. Pb was reported as not detected in Table 2; the abstract states that no lead, cadmium, or ochratoxin were found in the three best samples.
+Noor and coauthors compared Merapi Robusta coffee roasted by traditional, semi-modern, and modern methods at two roasting durations (20 and 25 min). The primary study focus is quality and sensory performance; the three best-scoring hedonic samples (sample 1: traditional 20 min; sample 3: semi-modern 20 min; sample 6: modern 25 min) were then tested by ICP-MS for Pb and Cd and by LC-MS/MS for ochratoxin A. All three samples were below the limits of detection for all three analytes.
 
 ## Key numbers
 
-Table 2 reports SNI ground-coffee comparison values:
+Table 2 reports SNI 01-3542-2004 ground-coffee compliance values across the six roasting conditions:
 
-| Criterion | Reported result |
-|---|---:|
-| Water | 0.13 +/- 0.02% to 0.29 +/- 0.01% w/w |
-| Coffee extract | 30.70 +/- 0.15% to 36.59 +/- 0.02% w/w |
-| Caffeine | 1.32 +/- 0.00% to 1.52 +/- 0.01% w/w |
-| Pb | Not detected |
+| Criterion | Reported range | Meets SNI |
+|---|---:|:-:|
+| Water | 0.13 +/- 0.02% to 0.29 +/- 0.01% w/w | yes |
+| Coffee extract | 30.70 +/- 0.15% to 36.59 +/- 0.02% w/w | yes |
+| Caffeine (anhydrous) | 1.32 +/- 0.00% to 1.52 +/- 0.01% w/w | yes |
 
-The abstract states that Pb, Cd, and ochratoxin were not found in the three best samples. The method section states that Pb and Cd were tested by ICP-MS.
+Table 4 reports the metal contamination and ochratoxin screening on the three best hedonic samples (samples 1, 3, 6) with the analytical limits of detection:
+
+| Analyte | Unit | Sample 1 | Sample 3 | Sample 6 | LOD |
+|---|---|:-:|:-:|:-:|---:|
+| Lead (Pb) | mg/kg | Not detected | Not detected | Not detected | 0.00025 |
+| Cadmium (Cd) | mg/kg | Not detected | Not detected | Not detected | 0.0005 |
+| Ochratoxin A | mg/kg | Not detected | Not detected | Not detected | 1.01 |
+
+The methods section states that Pb and Cd were tested by ICP-MS and ochratoxin A by LC-MS/MS.
 
 ## Methods (brief)
 
@@ -47,11 +54,11 @@ The study used Grade A Merapi Robusta green coffee from the Tunggak Semi Farmers
 
 ## Implications
 
-Certification: Limited coffee occurrence evidence because metals were tested only in the three best sensory samples and are reported as not detected without visible LOD/LOQ in the extracted text.
+Certification: Three-sample left-censored occurrence evidence for ground Robusta coffee from one Indonesian origin (Sleman, Yogyakarta). Pb and Cd LODs (0.25 ppb and 0.5 ppb in mg/kg terms) are sufficiently sensitive that left-censored values would not bias a pooled occurrence percentile if treated as LOD/2 or zero in synthesis.
 
-Courses: Useful for teaching why quality studies can contain contaminant screens, but why non-detects without LOD/LOQ are weak for standards math.
+Courses: Useful for teaching that quality and sensory studies frequently contain contaminant screens, and that when LODs are reported a non-detect carries quantitative meaning (an upper bound).
 
-App: Can support a low-confidence coffee non-detect note only if synthesis accepts the method limitations.
+App: Supports a low-confidence non-detect note for single-origin Indonesian Robusta only; insufficient on its own to anchor a contamination profile.
 
 ## Wiki pages this source may touch
 
@@ -62,7 +69,7 @@ App: Can support a low-confidence coffee non-detect note only if synthesis accep
 
 ## Verification notes
 
-The source is a conference proceeding and is assigned B-tier. Because the extracted text does not expose the Pb/Cd LODs, the non-detect results should not be converted into numeric zeros.
+The source is a conference proceeding (ICSARD 2022) and is assigned B-tier. Pb and Cd LODs are exposed in Table 4 (p. 324) and restated in Sections 3.5.1 and 3.5.2 (Pb LOD 0.00025 mg/kg, Cd LOD 0.0005 mg/kg, ochratoxin A LOD 1.01 mg/kg). Non-detects can be handled as left-censored values at these LODs in downstream synthesis. Only three of the six prepared samples (samples 1, 3, 6) were metals-tested; sample_n reflects the metals-tested N, not the sensory-panel N.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
