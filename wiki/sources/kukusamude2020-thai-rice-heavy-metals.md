@@ -13,7 +13,7 @@ license: unknown
 raw_path: "raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/kukusamude2021.pdf"
 raw_sha256: "dcb763c038e0dbc049008b93f21aa425c9d954d4714dcdf13c5dd3ec64c3ac9f"
 access_url: "https://doi.org/10.1016/j.foodchem.2020.127402"
-metals: [Cr, Mn, Co, Ni, Cu, Zn, tAs, iAs, Cd]
+metals: [Cr, Mn, Co, Ni, Cu, Zn, tAs, Cd]
 ingredients: ["[[ingredients/rice]]"]
 products: ["[[products/rice-bulk-grain]]"]
 matrices: [rice-grain, polished-rice, unpolished-rice, dry-weight]
@@ -69,7 +69,7 @@ This source contributes Thai-market rice-grain occurrence data for Cr, Mn, Co, N
 - DOI verified from the PDF title page as `10.1016/j.foodchem.2020.127402`; DOI, raw handle `MFK_kukusamude2021`, and cite-key checks found no existing source page before creation.
 - Table 1 means, SD-bearing occurrence rows, total As ranges, Cd ranges, and sample counts were checked against the extracted table and Results prose.
 - Units are preserved as reported (`mg kg-1`, `μg kg-1`, `μg kg-1 BW`); no conversion to ppm, ppb, wet weight, or as-consumed basis was performed.
-- Speciation: the occurrence table reports total As. The inorganic As note is explicitly source-estimated by a 70% conversion factor from total As and is not a measured HPLC-ICP-MS speciation result. Chromium is reported as Cr, not Cr-VI.
+- Speciation: the occurrence table reports total As. The inorganic As note is explicitly source-estimated by a 70% conversion factor from total As and is not a measured HPLC-ICP-MS speciation result; for that reason `iAs` is not listed in the frontmatter `metals:` array. Chromium is reported as Cr, not Cr-VI.
 - Brand firewall: the source reports rice varieties and provinces, not brands; no brand-specific contamination values are repeated.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
 
