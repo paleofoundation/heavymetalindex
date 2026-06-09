@@ -17,9 +17,9 @@ products: ["[[products/salt]]"]
 matrices: [salt]
 jurisdictions: [ID]
 near_duplicates: []
-sample_n: null
-sample_population: "Salt from Pamekasan Regency, Indonesia"
-updated: 2026-05-30
+sample_n: 28
+sample_population: "Salt from 28 villages across five subdistricts of Pamekasan Regency, Madura, East Java, Indonesia"
+updated: 2026-06-09
 sources: 1
 audience: [regulator, educator, consumer, app]
 ---
@@ -36,7 +36,7 @@ The discussion also notes that earlier salt near a landfill had an average Pb le
 
 ## Methods (brief)
 
-The study is described as descriptive research with observation and interviews about salt-production stages. The analytical details are not fully visible in the extracted first-page text, but the paper reports measured Pb concentration in salt.
+Descriptive study of 28 salt samples drawn from salt-storage warehouses in 28 named villages across five subdistricts of Pamekasan Regency (Tlanakan, Galis, Pademawu, Pasean, and Batumarmar). Salt sampling followed SNI 19-0428 (1998) for solid-sample collection: a sampling spear was used to take salt into coded plastic zip bags. Lead was measured by atomic absorption spectrophotometry (AAS) at the Balai Besar Laboratorium Kesehatan (BBLK), Surabaya. Measured values were compared against SNI 3556-2010 (iodized salt) and SNI 7387-2009 (maximum heavy-metal contamination in food), both of which set a maximum Pb of 10 ppm. Production-stage context (pre-production, production, and post-production sources of potential contamination) was collected via observation and structured interviews with the head salt-farmer in each subdistrict.
 
 ## Implications
 
@@ -53,7 +53,7 @@ App: Can support country-specific salt context after synthesis.
 
 ## Verification notes
 
-The source is in Indonesian with an English abstract. Values here were taken from the English abstract and source discussion; audit should verify the methods and sample count from the Indonesian full text.
+The source is in Indonesian with an English abstract. Methods, sample count (n=28), and per-village values were verified against the Indonesian full text (journal pp. 45 and 47, Figure 1) during the 2026-06-09 audit. Figure 1 labels its Y-axis "Kadar Pb (mg/l)", which is an internal labelling inconsistency in the source — the abstract, conclusion, and section 3.6 all report the same values in ppm (mg/kg, appropriate for a solid). This page follows the source's text and reports in ppm.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history

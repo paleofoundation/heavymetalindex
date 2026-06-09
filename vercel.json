@@ -35,19 +35,24 @@
       "maxDuration": 30
     },
     "api/queue/discovery.mjs": {
-      "maxDuration": 300
+      "maxDuration": 300,
+      "excludeFiles": "data/**"
     },
     "api/queue/extraction.mjs": {
-      "maxDuration": 300
+      "maxDuration": 300,
+      "excludeFiles": "data/**"
     },
     "api/queue/routing.mjs": {
-      "maxDuration": 300
+      "maxDuration": 300,
+      "excludeFiles": "data/**"
     },
     "api/queue/dead-letter.mjs": {
-      "maxDuration": 30
+      "maxDuration": 30,
+      "excludeFiles": "data/**"
     },
     "api/cron/enqueue-discovery.mjs": {
-      "maxDuration": 60
+      "maxDuration": 60,
+      "excludeFiles": "data/evidence/**"
     }
   },
   "crons": [
