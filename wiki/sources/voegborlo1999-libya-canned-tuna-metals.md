@@ -26,19 +26,19 @@ updated: 2026-06-08
 
 # Voegborlo et al. 1999 — Mercury, cadmium, and lead in Libyan canned tuna
 
-Voegborlo and colleagues measured total mercury, cadmium, and lead in canned tuna fish from Misurata, Libya. Mercury was measured by cold-vapour atomic absorption spectrophotometry, while cadmium and lead were measured by flame atomic absorption spectrophotometry. Results are reported in `mg g-1 wet weight` in the extracted text layer, with mercury detected in 20 of 50 samples and cadmium and lead detected in 12 of 50 samples.
+Voegborlo and colleagues measured total mercury, cadmium, and lead in canned tuna fish from Misurata, Libya. Mercury was measured by cold-vapour atomic absorption spectrophotometry, while cadmium and lead were measured by flame atomic absorption spectrophotometry. Results are reported in µg g⁻¹ wet weight (equivalent to mg kg⁻¹ or ppm), with mercury detected in 20 of 50 samples and cadmium and lead detected in 12 of 50 samples.
 
 ## Key numbers
 
-Table 4 reports mean contents of mercury, cadmium, and lead in canned tuna samples:
+Table 4 reports mean contents of mercury, cadmium, and lead in canned tuna samples. Values are shown as published (µg g⁻¹ wet weight) with ppb wet-weight equivalents (1 µg g⁻¹ = 1000 ppb):
 
-| Metal | Samples with detections | Range, mg g-1 | Mean, mg g-1 | Standard deviation | Coefficient of variation, % |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| tHg | 20 | 0.20-0.66 | 0.29 | 0.12 | 40.7 |
-| Pb | 12 | 0.18-0.40 | 0.28 | 0.07 | 24.3 |
-| Cd | 12 | 0.09-0.32 | 0.18 | 0.08 | 42.2 |
+| Metal | Samples with detections | Range, µg g⁻¹ | Mean, µg g⁻¹ | SD, µg g⁻¹ | CV, % | Range, ppb | Mean, ppb |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| tHg | 20 | 0.20-0.66 | 0.29 | 0.12 | 40.7 | 200-660 | 290 |
+| Pb | 12 | 0.18-0.40 | 0.28 | 0.07 | 24.3 | 180-400 | 280 |
+| Cd | 12 | 0.09-0.32 | 0.18 | 0.08 | 42.2 | 90-320 | 180 |
 
-The discussion states that all but two mercury-detected samples were below the 0.5 mg g-1 FAO/WHO limit cited by the source; the two higher mercury values were 0.55 and 0.66 mg g-1. The abstract reports the same ranges and mean values for mercury, cadmium, and lead.
+The discussion states that all but two mercury-detected samples were below the 0.5 µg g⁻¹ (500 ppb) FAO/WHO 1972 limit cited by the source; the two higher mercury values were 0.55 and 0.66 µg g⁻¹ (550 and 660 ppb). The abstract reports the same ranges and mean values for mercury, cadmium, and lead.
 
 ## Methods (brief)
 
@@ -50,12 +50,13 @@ This source contributes Libya/Mediterranean canned-tuna occurrence data for tota
 
 ## Verification notes
 
-- PDF text extracted with `pdftotext -layout`; the title page, abstract, methods, recovery tables, Table 4, and discussion were readable, though the text layer renders "fish" with a ligature artifact.
+- PDF text extracted with `pdftotext -layout`; the title page, abstract, methods, recovery tables, Table 4, and discussion were readable, though the text layer renders "fish" with a ligature artifact AND drops the Greek mu (µ) symbol in unit headers — pdftotext renders "µg g⁻¹" as "mg g⁻¹" or "g g⁻¹". The published typeset PDF unambiguously prints µg g⁻¹ throughout (abstract p.341, results p.343, discussion p.344, Tables 1-4). All concentration units on this page are µg g⁻¹ wet weight (= mg kg⁻¹ = ppm); ppb conversions are shown alongside.
 - The PDF prints PII `S0308-8146(98)00008-9`; DOI was derived as `10.1016/S0308-8146(98)00008-9`. DOI/PII, raw handle `MFK_voegborlo1999`, and cite-key checks found no existing source page before creation.
-- All concentration values in Key numbers were checked against Table 4 and the abstract. Units are preserved as `mg g-1 wet weight` as rendered in the extracted text; no conversion to mg/kg or ppm was performed.
+- All concentration values in Key numbers were checked against Table 4 and the abstract (typeset PDF, not pdftotext text layer).
 - Speciation: mercury is total mercury. The source discusses methylmercury historically but does not measure MeHg.
-- Brand firewall: the source uses factory/canned-tuna sampling, not consumer brand rankings.
+- Brand firewall: the source uses factory/canned-tuna sampling at the Misurata canning factory, not consumer brand rankings.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- 2026-06-09 audit applied: corrected 1000× unit error (mg g⁻¹ → µg g⁻¹) in body prose, Key numbers table, and FAO/WHO limit reference. Numeric values themselves were correct; only the unit attribution was wrong because the ingest session trusted the pdftotext text layer rather than the typeset units.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
