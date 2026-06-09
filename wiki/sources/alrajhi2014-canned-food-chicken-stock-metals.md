@@ -14,8 +14,8 @@ raw_path: "raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/al-rajhi2014.
 raw_sha256: "ce0c33c48b0a6d62fc3e6948a548e3c0c9fa5570041289781d0f01f66ed89e39"
 access_url: "https://doi.org/10.3844/ajessp.2014.283.288"
 metals: [Cd, Cr, Cu, Fe, Mn, Ni, Pb, Zn, tAs, Se, Al]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/chicken]]", "[[ingredients/spices]]"]
-products: ["[[products/canned-fish]]", "[[products/condiments-general]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/chicken]]"]
+products: ["[[products/canned-fish]]"]
 matrices: [imported-canned-food, canned-fish, chicken-stock, dry-weight]
 jurisdictions: [SA]
 near_duplicates: []
@@ -64,15 +64,13 @@ Imported canned-food and chicken-stock samples were purchased from supermarkets 
 
 ## Implications
 
-This source contributes Saudi Arabia-market occurrence context for imported canned foods and chicken stock, including canned fish and stock/condiment products. The sample coding does not identify which values belong to tuna, sardine, or chicken stock, so later extraction should keep the result at broad product-family level unless the original sample key is recovered. Total As cannot be used as inorganic arsenic evidence, and total Cr cannot be used as Cr-VI evidence.
+This source contributes Saudi Arabia-market occurrence context for imported canned foods and chicken stock, including canned fish (tuna, sardine). The sample coding does not identify which values belong to tuna, sardine, or chicken stock, so later extraction should keep the result at broad product-family level unless the original sample key is recovered. Total As cannot be used as inorganic arsenic evidence, and total Cr cannot be used as Cr-VI evidence.
 
 ## Wiki pages this source may touch
 
 - [[ingredients/fish]]
 - [[ingredients/chicken]]
-- [[ingredients/spices]]
 - [[products/canned-fish]]
-- [[products/condiments-general]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/copper]]
@@ -87,7 +85,7 @@ This source contributes Saudi Arabia-market occurrence context for imported cann
 - DOI verified from the first page as `10.3844/ajessp.2014.283.288`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
 - Concentration values were checked against Tables 1-2 and the abstract. Units are preserved as `mg/kg` and `mg kg−1`; no unit conversions were performed.
 - Speciation: arsenic is total As and chromium is total Cr. The source does not report iAs or Cr-VI.
-- Internal consistency: the methods text says 21 sample types were collected, but Tables 1-2 report 13 coded samples. Table 1's Cr statistical row conflicts with two printed sample-row Cr values, and the source-reported Cr average is smaller than the printed minimum. These conflicts are recorded and not reconciled.
+- Internal consistency: the methods text says 21 sample types were collected, but Tables 1-2 report 13 coded samples. Table 1's Cr statistical row conflicts with two printed sample-row Cr values, and the source-reported Cr average is smaller than the printed minimum. Table 2's Al statistical row reports a minimum of 0.0070 mg/kg, but Sample 10 prints 0.0048 mg/kg. Table 2's Se statistical row reports a minimum of 0.0011 mg/kg (and the narrative on p. 285 echoes 0.001), but the lowest non-LDL Se sample value is 0.0031 mg/kg (Sample 1) with all other non-LDL Se rows at 0.0086 mg/kg or higher. These conflicts are recorded and not reconciled.
 - Brand firewall: the paper reports coded sample numbers only; this page does not attach public product or brand names to contamination values.
 - Selenium was measured and is included in frontmatter as Se, but the taxonomy snapshot does not list a `metals/selenium` page, so no selenium wiki-link is added.
 - K, Mg, and V are mentioned as target elements, but no K, Mg, or V values were visible in the extracted result tables, so they are not listed in frontmatter metals.
