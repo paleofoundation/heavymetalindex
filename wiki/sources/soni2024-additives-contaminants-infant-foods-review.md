@@ -57,7 +57,7 @@ Tolerable Daily Intake (TDI) values consolidated for non-metal additives and pac
 | Sodium hydrogen carbonate | 0.2 g | FSSAI 2020 |
 | Sodium carbonate (pH adjusting) | GMP | Arora 2019 |
 | Natural fruit extracts (flavours) | 5 mg | Arora 2019 |
-| MSG (ADI) | 14 mg/kg BW/day (30 mg/lb/day) | Appaiah 2010 |
+| MSG (ADI) | 14 mg/lb (30 mg/kg BW/day) | Appaiah 2010 |
 | Aspartame (FDA ADI) | 50 mg/kg BW/day | Magnuson 2007 |
 | Aspartame (EFSA ADI) | 40 mg/kg BW/day | Magnuson 2007 |
 | Sulfites (EFSA ADI) | 0.7 mg SO₂-equivalent/kg BW/day | Kaliner 1989 |
@@ -105,3 +105,4 @@ PDF retrieved during the 2026-06-09 multi-database `/discover` autopilot run for
 - HMTc firewall: the review does not endorse or critique any certification program. No HMTc-drift risk in the source itself; the page implication language was written to avoid promoting any Soni 2024 numeric value into an HMTc threshold rationale.
 - Evidence tier: B-tier. The journal *Food Production, Processing and Nutrition* is peer-reviewed and BMC-published, but this is a narrative review with no systematic-review methodology, no PRISMA, and no quantitative synthesis. A-tier is reserved for original measurements and systematic reviews/meta-analyses. The Bair 2022 narrative review carries A-tier because of its uniqueness as the primary US-policy consolidation for infant heavy metals; Soni 2024 does not fill an equivalent unique-source role.
 - Evidence fitness: EF-4 (Context only). The review establishes regulatory landscape and qualitative additive/contaminant overview but contains no measurements, no occurrence percentiles, and no metal-specific dietary-exposure modeling that an HMI cell could ingest as a contributing source.
+- Autonomous audit subagent 2026-06-09 flagged MSG unit assignment in the Key numbers TDI table; verified against p.12 of the PDF — initial draft had transposed the per-pound and per-kilogram labels relative to the source. Source text is "14 mg per pound (30 mg per kilogram of body weight per day)" (Appaiah 2010); table now mirrors the source exactly. The two values are internally consistent (14 mg/lb × 2.2 lb/kg ≈ 30.8 mg/kg). All other audit checks returned clean.
