@@ -1,0 +1,118 @@
+---
+type: source
+raw_handle: MFD_noh2023-arsenic-rice-snacks-korea
+cite_key: noh2023-arsenic-rice-snacks-korea
+title: "Monitoring arsenic species concentration in rice-based processed products distributed in South Korean markets and related risk assessment"
+authors: [Noh CH, Chun SH, Lim J, Kim MH, Choi S, Joo YS, Lee KW]
+year: 2023
+publication: "Food Science and Biotechnology 32(10):1361-1372"
+doi: 10.1007/s10068-023-01270-9
+access_url: https://doi.org/10.1007/s10068-023-01270-9
+source_type: peer-reviewed
+evidence_tier: A
+license: publisher-copyright
+raw_path: raw/Manual Fetch Discovery/noh2023-arsenic-rice-snacks-korea.pdf
+metals: [iAs, tAs]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/seaweed]]"]
+products: ["[[products/rice-bulk-grain]]", "[[products/rice-snacks-crackers]]", "[[products/rice-noodles]]", "[[products/bread-and-baked-goods]]", "[[products/mixed-meals-rice-containing]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/teething-and-snacks-rice-based]]", "[[products/infant-porridges-dairy-free]]"]
+matrices: [rice, rice-cereal, baby-snack, infant-rice-cereal]
+jurisdictions: [KR]
+near_duplicates: []
+sample_n: 239
+sample_population: "239 rice-based processed foods purchased from South Korean domestic markets February–August 2019 across ten categories: home-meal-replacement (HMR) rice (n=30), rice cake (n=30), porridge for adults (n=25), noodle (n=33), bread (n=20), snack (n=45), powder for adults (n=19), snack for baby (n=14), porridge for baby (n=14), and rice-based powder for baby (n=9)"
+wiki_doi: null
+sampling_locations: ["South Korea (domestic online and offline markets)"]
+sampling_year_range: "2019"
+updated: 2026-06-09
+---
+
+# Noh et al. 2023 — Arsenic species in rice-based processed products in South Korean markets
+
+Cross-sectional market-survey monitoring study of total arsenic (tAs) and four arsenic species (AsV, AsIII, MMA, DMA) in 239 rice-based processed foods purchased from South Korean domestic markets between February and August 2019. The authors stratified samples into ten product categories (seven adult, three for infants and young children) and ran a margin-of-exposure (MOE) risk assessment against the EFSA BMDL₀₁ of 0.3 µg iAs/kg bw/day across five Korean age strata. Inorganic arsenic (iAs) was computed as the sum of AsV and AsIII. The paper concludes that mean iAs is broadly comparable to international rice-based-food monitoring data; that rice cakes, adult snacks, and rice-based baby powder represent the categories with MOE values low enough to flag for age-specific concern; and that the iAs/tAs correlation is modulated by ingredient diversity (seaweed-containing categories show low iAs/tAs because organoarsenicals from seaweed inflate tAs without inflating iAs).
+
+## Key numbers
+
+All values are µg/kg wet-weight on the as-marketed product (HMR rice, rice cake, etc. are sold cooked or shelf-stable; powders sold as dry product). Tables 2, 3, 4, and 5 anchor the figures below; page numbers reference Food Science and Biotechnology 32:1361–1372.
+
+- Total arsenic (tAs, mean ± SD µg/kg; detection frequency %), Table 2 page 1366:
+  - HMR rice (n=30): 110 ± 150 (97%)
+  - Rice cake (n=30): 69 ± 33 (97%)
+  - Porridge adult (n=25): 49 ± 43 (72%)
+  - Noodle (n=33): 180 ± 190 (94%)
+  - Bread (n=20): 40 ± 30 (90%)
+  - Snack adult (n=45): 120 ± 150 (84%)
+  - Powder adult (n=19): 160 ± 170 (100%)
+  - Snack for baby (n=14): 110 ± 80 (100%)
+  - Porridge for baby (n=14): 22 ± 40 (29%)
+  - Powder for baby (n=9): 160 ± 70 (100%)
+- Inorganic arsenic (iAs = AsV + AsIII; mean ± SD µg/kg; detection frequency %), Table 2 page 1366:
+  - HMR rice: 31 ± 18 (97%)
+  - Rice cake: 37 ± 18 (97%)
+  - Porridge adult: 19 ± 22 (72%)
+  - Noodle: 48 ± 34 (93%)
+  - Bread: 23 ± 16 (90%)
+  - Snack adult: 43 ± 36 (82%)
+  - Powder adult: 85 ± 56 (100%)
+  - Snack for baby: 62 ± 55 (100%)
+  - Porridge for baby: 4.4 ± 8 (29%)
+  - Powder for baby: 74 ± 31 (100%)
+- iAs range and iAs/tAs ratio by category, Table 3 page 1367 (this study columns only):
+  - HMR rice: ND–90.5 µg/kg, mean 30.9, iAs/tAs 29%
+  - Rice cake: ND–87.2, mean 36.6, 53%
+  - Porridge: ND–73.0, mean 18.8, 39%
+  - Noodle: ND–150, mean 48, 26%
+  - Bread: ND–46.4, mean 22.7, 57%
+  - Snack: ND–144, mean 43.2, 36%
+  - Powder: ND–283, mean 84.7, 52%
+- tAs–iAs correlation factor r and ingredient diversity index H′ by category, Table 4 page 1369 (asterisks mark correlations significant at the t-test p<0.05 threshold the authors used):
+  - HMR rice: r=0.0657, p=7.30×10⁻¹, H′=3.45 (no significant correlation)
+  - Adult snack: r=0.280, p=6.23×10⁻², H′=3.23 (no significant correlation)
+  - Noodle: r=0.311, p=7.81×10⁻², H′=2.87 (no significant correlation)
+  - Porridge adult: r=0.565, p=3.23×10⁻³, H′=2.95
+  - Rice cake: r=0.781, p=3.56×10⁻⁷, H′=2.88
+  - Bread: r=0.823, p=8.47×10⁻⁶, H′=2.29
+  - Porridge for baby: r=0.829, p=2.51×10⁻⁴, H′=2.85
+  - Powder for baby: r=0.896, p=1.08×10⁻³, H′=2.03
+  - Powder adult: r=0.925, p=1.54×10⁻⁸, H′=1.97
+  - Snack for baby: r=0.990, p=1.20×10⁻¹¹, H′=1.84
+- Risk assessment (MOE = BMDL₀₁ / EDI; BMDL₀₁ = 0.3 µg iAs/kg bw/day; MOE < 100 = concern), Table 5 page 1369. Reference body weights: age 1–2 = 12.0 kg, age 3–5 = 17.6 kg, age 6–18 = 45.5 kg, age 19–64 = 64.5 kg, age ≥65 = 60.6 kg (KNHANES 7th edition 2016–2018).
+  - Age 6–18: rice cake MOE 24, adult snack MOE 37.1, bread MOE 193, noodle MOE 564, adult powder MOE 531, HMR rice MOE 8 460, all categories combined MOE 1 920.
+  - Age 19–64: rice cake MOE 30.3, adult snack MOE 162, adult powder MOE 226, noodle MOE 457, bread MOE 4 760, HMR rice MOE 16 000, all combined MOE 27 100.
+  - Age ≥65: rice cake MOE 31.2, adult snack MOE 259, adult powder MOE 252, noodle MOE 1 050, bread MOE 6 840, HMR rice MOE 94 000, all combined MOE 137 000.
+  - Age 1–2: rice-based powder for baby MOE 29.3, porridge for baby MOE 35 700, snack for baby MOE 64 900, all combined MOE 33 600.
+  - Age 3–5: rice-based powder for baby MOE 1 430, porridge for baby MOE 5 510, all combined MOE 3 470.
+- Analytical performance, Table 1 page 1365: tAs R²=0.9961, MDL 0.32 µg/kg, MQL 1.03 µg/kg; per-species MDL 0.26–0.37 µg/kg; interday accuracy 94.9–103% and interday precision 0.94–8.2% RSD across tAs, iAs, MMA, DMA. CRM NIST SRM 1568b rice flour (certified tAs 285 µg/kg, iAs 92 µg/kg, MMA 11.6 µg/kg, DMA 180 µg/kg) used for accuracy validation.
+- Diet-driven speciation findings, page 1367–1368: husked rice noodles had significantly (p<0.05) higher iAs than polished rice noodles (Figure 1F); seaweed-containing noodles had significantly (p<0.05) higher tAs than seaweed-free noodles (Figure 1C) without a comparable iAs shift, supporting the authors' interpretation that the seaweed organoarsenicals inflate tAs but not iAs.
+
+## Methods (brief)
+
+Samples were purchased from offline retailers and online markets in South Korea between February and August 2019. The ten categories were chosen by sales volume and purchasing preference per Kim et al. 2018 and Han & Gouk 2014, with per-category sample counts set proportional to category sales volume. Total arsenic was digested per Korean Food Code (KFC) method 8.9.1.4: 0.5 g of dried, powdered sample microwave-digested in 4 mL of 70% HNO₃ plus 1 mL of 30% H₂O₂ in PTFE vessels (ETHOS EASY, Milestone, Italy; five-stage temperature ramp to 190 °C). Speciation extraction followed KFC method 8.9.1.5: 1.0 g of sample heated in 5 mL of 1% HNO₃ at 90 °C for 90 min, centrifuged at 3000×g, filtered through 0.45 µm nylon. tAs quantified by ICP-MS (Agilent 7700x with He collision cell at 4 mL/min, m/z 75). Speciation by HPLC-ICP-MS using a CAPCELL PAK C18 MG column (4.6×250 mm, 5 µm; Shiseido) with mobile phase 0.05% methanol / 10 mM sodium 1-butane sulfonate / 4 mM malonic acid / 4 mM tetramethylammonium hydroxide (pH 2.7, nitric acid) at 0.75 mL/min, 25 °C, 15 µL injection. iAs was computed as AsV + AsIII; AsV and AsIII were not independently certified in NIST SRM 1568b, so the manufacturer's combined AsV+AsIII value (92 µg/kg) was used for the iAs accuracy check. Values below MDL were set to 0 for risk-assessment purposes (Table 2 footnote d). Daily iAs intake was computed as (daily category-specific consumption × mean iAs concentration) / mean body weight, using KNHANES 7th edition (2016–2018) intake data and the conservative lower-bound BMDL₀₁ of 0.3 µg iAs/kg bw/day from EFSA 2009 (Alexander et al. 2009). Statistical comparisons used t-test and one-way ANOVA at α=0.05 in R; an ingredient diversity index H′ = −Σ pᵢ ln pᵢ was computed per category to test whether non-rice ingredients drive the tAs–iAs decoupling. Grant funding: Korean Ministry of Food and Drug Safety (15162MFDS077) and Korea University internal grant K2207571; authors declare no conflicts of interest.
+
+## Implications
+
+The paper contributes A-tier occurrence data for the rice-bulk-grain, rice-cake (rice-snacks-crackers), rice-noodle, rice-bread (bread-and-baked-goods), adult-snack, baby-rice-cereal (baby-cereals-dry-rice-based), baby-rice-snack (teething-and-snacks-rice-based), and rice-based baby porridge (infant-porridges-dairy-free) routes for both iAs and tAs in a Korean (East Asian) jurisdiction. It is the second-largest single-study Korean dataset on speciated arsenic in rice-derived processed foods after Lee et al. 2018 (polished-rice survey, cited inline), and the first published Korean monitoring effort to extend speciated arsenic measurement across noodles, bread, and the full HMR / baby-food product slate using a single validated method. The three operationally important findings for HMTc threshold work are (1) the rice-based powder for baby category has both high mean iAs (74 µg/kg) and the lowest MOE among baby products (29.3 at age 1–2), placing it in the same age-1–2 concern band as the worst rice cake values for older children; (2) the iAs/tAs ratio varies fivefold across categories (26% in noodle to 57% in bread) and tracks ingredient diversity, so any threshold-setting that converts a tAs result into an inferred iAs result needs a category-specific conversion factor and should treat the per-category H′ as a covariate; (3) husked vs polished rice is the within-category lever for iAs variation in noodles and snacks, and seaweed inclusion is the lever for tAs inflation. The complete per-category mean ± SD pool admits to the standards-methodology workbench for native-basis P-percentile computation on the rice-bulk-grain, rice-snacks-crackers, rice-noodles, bread-and-baked-goods, baby-cereals-dry-rice-based, teething-and-snacks-rice-based, and infant-porridges-dairy-free rows.
+
+## Verification notes
+
+- 2026-06-09 fresh ingest from `raw/Manual Fetch Discovery/noh2023-arsenic-rice-snacks-korea.pdf` (Karen-fetched via the `/discover` skill into the Manual Fetch Discovery folder). Three identity checks all negative: no existing wiki source page matches DOI 10.1007/s10068-023-01270-9, raw_handle MFD_noh2023-arsenic-rice-snacks-korea, or cite-key noh2023. NEW path.
+- Sample-size cross-check: the abstract gives a seven-category breakdown (rice n=30; rice cake n=30; porridge n=39; noodles n=33; bread n=20; snack n=59; powder n=28; total 239); Materials and methods plus Table 2 give a ten-category breakdown (HMR rice n=30; rice cake n=30; porridge adult n=25; noodle n=33; bread n=20; snack adult n=45; powder adult n=19; snack for baby n=14; porridge for baby n=14; powder for baby n=9; total 239). The two presentations are arithmetically consistent — the abstract pre-aggregated baby and adult porridge (25+14=39), snack (45+14=59), and powder (19+9=28). Wiki page uses the ten-category breakdown because it is the basis for all downstream tables and the MOE risk assessment.
+- Speciation discipline (Part 14 / audit Check 3): the paper measures both tAs (via microwave digestion + ICP-MS) and iAs (via HPLC-ICP-MS speciation, iAs = AsV + AsIII). Both `tAs` and `iAs` are correct in `metals:`. AsV and AsIII are reported separately in Table 2 but are not separate metal slugs in the wiki taxonomy; they are subsumed under `iAs`. MMA and DMA are reported but the wiki does not currently track organoarsenicals as a separate metals slug, so they are documented in Key numbers and Methods but not in `metals:`.
+- "Powder adult" product slug: the paper's adult powder category is a Korean retail category of rice-based powder mixes (often used in beverages, breakfast drinks, or instant porridge preparation). No existing wiki product slug is a clean fit. Routed via `rice-bulk-grain` as the closest broad-scope rice-product slug; this matches the system-prompt rule "underspecifying is safer than overspecifying" — downstream synthesis or a future Step 0 Lock review may want a dedicated `rice-flour-powders` or similar slug, but that is not this ingest's call.
+- "Porridge for baby" routing: routed to `infant-porridges-dairy-free` rather than `infant-porridges-dairy` because rice-based Korean baby porridge is the rice-grain-and-water (mieumi) form, not a dairy-containing porridge. The paper does not specify whether any of the 14 baby porridge samples contain dairy; the slug call is the safer dairy-free assumption pending paper-level disclosure.
+- Brand firewall (Part 12, strict 2026-05-17): the paper reports category-level mean ± SD across n samples without naming any brand of HMR rice, rice cake, noodle, etc. No brand-firewall content to strip. Methods-section vendor names (Agilent 7700x, Shiseido CAPCELL PAK C18 MG column, ETHOS EASY Milestone microwave digester, NIST SRM 1568b rice flour, R statistical software) are scientific-method vendor names and are preserved per the 2026-05-17 Exception 2 carve-out.
+- License: the published article is © Korean Society of Food Science and Technology 2023, published by Springer Nature under a standard publisher-copyright (subscription) agreement. No open-access CC license declared. `license: publisher-copyright` reflects that posture.
+
+## Wiki pages this source may touch
+
+- [[metals/arsenic-inorganic]]
+- [[metals/arsenic-total]]
+- [[ingredients/rice]]
+- [[ingredients/seaweed]]
+- [[products/rice-bulk-grain]]
+- [[products/rice-snacks-crackers]]
+- [[products/rice-noodles]]
+- [[products/bread-and-baked-goods]]
+- [[products/mixed-meals-rice-containing]]
+- [[products/baby-cereals-dry-rice-based]]
+- [[products/teething-and-snacks-rice-based]]
+- [[products/infant-porridges-dairy-free]]
