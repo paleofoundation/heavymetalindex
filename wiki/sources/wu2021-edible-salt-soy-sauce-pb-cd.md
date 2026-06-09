@@ -14,7 +14,7 @@ raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-salt-c
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/salt]]", "[[ingredients/soy]]"]
 products: ["[[products/salt]]", "[[products/condiments-general]]"]
-matrices: [edible-salt, soy-sauce]
+matrices: [salt, soy-sauce]
 jurisdictions: [CN]
 near_duplicates: []
 sample_n: 2
@@ -37,7 +37,7 @@ The abstract reports LODs of Pb 0.0140 mg/kg in edible salt and 0.0470 mg/kg in 
 | Edible salt | Pb | 0.021 mg/kg | 1.030 mg/kg after 1.00 mg/kg addition | 101.0% |
 | Edible salt | Cd | 0.017 mg/kg | 0.110 mg/kg after 0.10 mg/kg addition | 93.0% |
 | Soy sauce | Pb | 0.013 mg/kg | 0.480 mg/kg after 0.50 mg/kg addition | 93.4% |
-| Soy sauce | Cd | 0.012 mg/kg | not fully visible in extracted table | not fully visible in extracted table |
+| Soy sauce | Cd | 0.012 mg/kg | 0.059 mg/kg after 0.05 mg/kg addition | 94.0% |
 
 The authors report precision of 0.19-0.85% RSD and recovery of 93.0-101.0%.
 
@@ -57,6 +57,7 @@ App: Can support a low-confidence high-salt-food evidence note if synthesis admi
 
 - [[products/salt]]
 - [[products/condiments-general]]
+- [[ingredients/salt]]
 - [[ingredients/soy]]
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -64,7 +65,7 @@ App: Can support a low-confidence high-salt-food evidence note if synthesis admi
 
 ## Verification notes
 
-The fetched filename correctly identifies salt Cd context, but the paper also covers soy sauce and Pb. The soy-sauce Cd spiked row was truncated in the extracted text and should be checked against the rendered PDF during audit before extracting a recovery value.
+The fetched filename correctly identifies salt Cd context, but the paper also covers soy sauce and Pb. The soy-sauce Cd spiked row was recovered from the rendered PDF Table 2 during audit (added 0.05 mg/kg, found 0.059 mg/kg, recovery 94.0%, RSD 0.23%), corroborated by the paper's prose statement that Cd recoveries ranged from 93.0 to 94.0%.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
