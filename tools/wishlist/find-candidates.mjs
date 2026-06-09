@@ -24,6 +24,8 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import { spawn } from "node:child_process"
+import { fileURLToPath } from "node:url"
 
 const repoRoot = process.cwd()
 // Query source: defaults to the wishlist generator's output, but accepts an
@@ -90,6 +92,24 @@ const DOWNLOAD_DELAY_MS = 200
 // globally; per-publisher concurrency is implicitly limited by the
 // candidate diversity within a single OpenAlex result set.
 const CONCURRENT_FETCHES = 5
+// Europe PMC PDF rescue (added 2026-06-09). MDPI (10.3390/*) was losing ~44% of
+// strong candidates: the publisher PDF 403s our UA, and OpenAlex hands us the
+// PMC interstitial (/pmc/articles/PMCxxxx/pdf/) which returns an HTML bot-page,
+// not the binary. Europe PMC mirrors PMC and serves the real PDF at
+// europepmc.org/api/getPdf?pmcid=PMCxxxx in one hop with content-type
+// application/pdf — empirically verified against the failing audit rows. This
+// rescues ANY PMC-deposited paper stuck behind a PMC interstitial, not just MDPI.
+const EUROPEPMC_GETPDF = "https://europepmc.org/api/getPdf" // ?pmcid=PMCxxxx
+const EUROPEPMC_SEARCH = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+// Headless last resort for the residual case (MDPI papers with no PMC deposit,
+// whose publisher PDF needs a real browser to clear Cloudflare's JS challenge).
+// OFF by default — in-scope MDPI clusters in PMC-indexed journals, so this is
+// ~0% of observed losses and not worth a heavy dependency. When enabled, the
+// browser runs in an isolated child process that is hard-killed on timeout, so
+// it can never stall the time-boxed fetch stage (CLAUDE.md: FRANK safety).
+const MDPI_HEADLESS_ENABLED = process.env.HMI_MDPI_HEADLESS === "1"
+const MDPI_HEADLESS_TIMEOUT_MS = parseInt(process.env.HMI_MDPI_HEADLESS_TIMEOUT_MS || "45000", 10)
+const MDPI_HEADLESS_SCRIPT = fileURLToPath(new URL("./mdpi-headless.mjs", import.meta.url))
 // Threshold history:
 //   2026-05-19: 3 → 1 (was over-rejecting; negative-keyword filter was the
 //                       real precision gate, raw score 1+ worth checking).
@@ -584,6 +604,8 @@ let totalSkippedWeak = 0
 let totalSkippedNoOa = 0
 let totalFailed = 0
 let totalUnpaywallRescued = 0
+let totalEpmcRescued = 0
+let totalHeadlessRescued = 0
 
 // Sprint mode 2026-05-25: wall-clock budget per invocation so the fetcher
 // fits inside a 30-min daemon tick when the wishlist generator emits up to
@@ -769,6 +791,183 @@ async function resolveUnpaywallPdf(doi) {
   }
 }
 
+// PDF signature check. The spec permits a few stray leading bytes before the
+// "%PDF-" header, so we scan the first 1 KB rather than requiring it at byte 0;
+// HTML interstitials (which begin with "<!doctype"/"<html"/newlines) never
+// contain it there, so this cleanly separates a real binary from a bot-page.
+function looksLikePdf(buffer) {
+  if (!buffer || buffer.length < 5) return false
+  return buffer.subarray(0, 1024).toString("latin1").includes("%PDF-")
+}
+
+// Extract a PMCID from a URL. The PMC interstitial OA URLs OpenAlex hands us
+// embed it directly (…/pmc/articles/PMC4808979/pdf/), so the common rescue
+// path needs no extra API call — we read the PMCID straight off the failed URL.
+function pmcidFromUrl(url) {
+  const m = String(url || "").match(/PMC(\d+)/i)
+  return m ? `PMC${m[1]}` : ""
+}
+
+// DOI → PMCID via the Europe PMC search REST API. Only called when the failed
+// URLs carry no PMCID (e.g. an mdpi.com publisher OA URL with no PMC copy in
+// the OpenAlex record); returns "" when the DOI has no open PMC deposit. Time-
+// boxed like resolveUnpaywallPdf so a slow lookup can't stall the fetch stage.
+async function resolveEuropePmcId(doi) {
+  const clean = String(doi || "").replace(/^https?:\/\/(dx\.)?doi\.org\//i, "").trim()
+  if (!clean) return ""
+  const url = `${EUROPEPMC_SEARCH}?query=DOI:%22${encodeURIComponent(clean)}%22&format=json&resultType=lite`
+  try {
+    const res = await Promise.race([
+      fetch(url, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" } }),
+      new Promise((_, rej) => setTimeout(() => rej(new Error("epmc-search-timeout")), 12000)),
+    ])
+    if (!res.ok) return ""
+    const data = await res.json()
+    const r = data.resultList?.result?.[0]
+    return r && r.pmcid ? r.pmcid : ""
+  } catch {
+    return ""
+  }
+}
+
+// Europe PMC getPdf rescue. Builds the one-hop direct-PDF URL for a PMCID and
+// hands it to attemptDownload, which time-boxes and magic-byte-validates it.
+// Returns "" PMCID-less inputs early so the caller can skip cleanly. Purely
+// additive: only ever called on a candidate whose primary fetch already failed.
+async function resolveEpmcPdf(oaUrl, knownUrl, doi) {
+  let pmcid = pmcidFromUrl(oaUrl) || pmcidFromUrl(knownUrl)
+  if (!pmcid && doi) pmcid = await resolveEuropePmcId(doi)
+  return pmcid ? `${EUROPEPMC_GETPDF}?pmcid=${pmcid}` : ""
+}
+
+// Download an Europe PMC getPdf URL with one retry. The endpoint is reliable
+// per-request but flaky under load — transient 5xx, and large (multi-MB) PDFs
+// occasionally render slower than the default deadline. Both clear on a retry,
+// so one extra attempt with a longer (40s) budget and a short backoff takes the
+// rescue from flaky to effectively deterministic. A deterministic not-pdf is
+// not retried. Uses a longer timeout than the publisher path because EPMC
+// render latency is the bottleneck, not a hung socket.
+async function attemptEpmcDownload(epmcUrl, target) {
+  const first = await attemptDownload(epmcUrl, target, 40000)
+  if (first.saved || first.kind === "not-pdf") return first
+  await new Promise((r) => setTimeout(r, 2500))
+  return attemptDownload(epmcUrl, target, 40000)
+}
+
+// Headless last resort for not-in-PMC MDPI papers (publisher PDF behind a
+// Cloudflare JS challenge that no UA/header set clears). Runs the browser in an
+// ISOLATED child process that is hard-killed on timeout, so a hung browser can
+// never stall the parent's time-boxed fetch loop. Playwright is loaded only by
+// the child (dynamic import); when the dep is absent the child exits 66 and we
+// degrade to a clean, distinctly-logged skip — Playwright is never a hard
+// dependency of this pipeline. OFF unless HMI_MDPI_HEADLESS=1.
+function fetchMdpiHeadless(doi, target) {
+  return new Promise((resolve) => {
+    let settled = false
+    const done = (v) => { if (!settled) { settled = true; resolve(v) } }
+    let child
+    try {
+      child = spawn(process.execPath, [MDPI_HEADLESS_SCRIPT, doi, target], {
+        stdio: ["ignore", "ignore", "ignore"],
+        env: process.env,
+      })
+    } catch {
+      return done({ saved: false, decision: "fail:mdpi-headless-spawn-error", kind: "error" })
+    }
+    const killer = setTimeout(() => { try { child.kill("SIGKILL") } catch {} }, MDPI_HEADLESS_TIMEOUT_MS)
+    child.on("error", () => { clearTimeout(killer); done({ saved: false, decision: "fail:mdpi-headless-spawn-error", kind: "error" }) })
+    child.on("exit", (code) => {
+      clearTimeout(killer)
+      if (code === 0 && fs.existsSync(target)) {
+        try {
+          const buf = fs.readFileSync(target)
+          if (looksLikePdf(buf)) return done({ saved: true, bytes: buf.length, url: `mdpi-headless:${doi}` })
+          fs.unlinkSync(target)
+        } catch {}
+      }
+      done({
+        saved: false,
+        decision: code === 66 ? "fail:mdpi-headless-unavailable" : "fail:mdpi-headless-failed",
+        kind: "error",
+      })
+    })
+  })
+}
+
+// Fetch one URL and write its body to `target` if it is a real PDF. Returns
+// { saved:true, bytes } on success, or { saved:false, decision, kind } with
+// kind ∈ {http, not-pdf, error} so the caller can decide whether a fallback
+// (Unpaywall, Europe PMC, headless) is worth attempting. Hard 25s deadlines on
+// both the response and the body via Promise.race. Defined once at module scope
+// (was previously redefined on every query iteration).
+async function attemptDownload(url, target, timeoutMs = 25000) {
+  try {
+    const response = await Promise.race([
+      fetch(url, { headers: { "User-Agent": USER_AGENT }, redirect: "follow" }),
+      new Promise((_, rej) => setTimeout(() => rej(new Error("hard-timeout")), timeoutMs)),
+    ])
+    if (!response.ok) return { saved: false, decision: `fail:http-${response.status}`, kind: "http" }
+    const contentType = response.headers.get("content-type") || ""
+    if (!contentType.includes("pdf") && !contentType.includes("octet-stream")) {
+      return { saved: false, decision: `skip:not-pdf:${contentType.slice(0, 40)}`, kind: "not-pdf" }
+    }
+    const buffer = Buffer.from(await Promise.race([
+      response.arrayBuffer(),
+      new Promise((_, rej) => setTimeout(() => rej(new Error("body-timeout")), timeoutMs)),
+    ]))
+    // Validate the body, not just the content-type header. Bot-check and error
+    // pages are routinely served with an application/pdf or octet-stream
+    // content-type but an HTML body; writing that to a .pdf poisons the staging
+    // dir and burns a downstream ingest spawn on garbage. Require the PDF
+    // signature to actually appear near the top of the body, and treat a miss as
+    // not-pdf so the Unpaywall / Europe PMC fallbacks still fire.
+    if (!looksLikePdf(buffer)) {
+      return { saved: false, decision: "skip:not-pdf:body-not-pdf", kind: "not-pdf" }
+    }
+    fs.writeFileSync(target, buffer)
+    return { saved: true, bytes: buffer.length }
+  } catch (err) {
+    return { saved: false, decision: `fail:${err.message.slice(0, 40)}`, kind: "error" }
+  }
+}
+
+// Self-test: exercise the real rescue path against a DOI + PMC interstitial OA
+// URL without running the full discovery loop. Used to verify the MDPI/Europe
+// PMC rescue against real failing audit rows. Exits after the probe.
+//   node tools/wishlist/find-candidates.mjs --selftest-rescue <doi> <oaUrl>
+const _selftestArgIdx = process.argv.indexOf("--selftest-rescue")
+if (_selftestArgIdx !== -1) {
+  const doi = process.argv[_selftestArgIdx + 1] || ""
+  const oaUrl = process.argv[_selftestArgIdx + 2] || ""
+  const tmp = path.join(stagingDir, `__selftest_${(doi || "x").replace(/[^a-z0-9]+/gi, "-")}.pdf`)
+  // Reproduce the primary failure, then run the exact fallbacks fetchOne uses.
+  const primary = await attemptDownload(oaUrl, tmp)
+  let r = primary
+  let epmcUrl = null
+  let epmcDecision = null
+  if (!r.saved && (r.kind === "not-pdf" || r.kind === "http")) {
+    epmcUrl = await resolveEpmcPdf(oaUrl, "", doi)
+    if (epmcUrl && epmcUrl !== oaUrl) {
+      const r3 = await attemptEpmcDownload(epmcUrl, tmp)
+      epmcDecision = r3.saved ? "saved" : r3.decision
+      if (r3.saved) { r = r3; r.via = epmcUrl }
+    }
+  }
+  const ok = r.saved && looksLikePdf(fs.readFileSync(tmp))
+  console.log(JSON.stringify({
+    doi, oaUrl,
+    primary_decision: primary.decision || "saved",
+    rescued: r.saved && !primary.saved,
+    epmc_url: epmcUrl,
+    epmc_decision: epmcDecision,
+    via: r.via || null,
+    bytes: r.saved ? r.bytes : 0,
+    is_pdf: ok,
+  }))
+  try { fs.unlinkSync(tmp) } catch {}
+  process.exit(ok ? 0 : 1)
+}
+
 for (let i = startIndex; i < queries.length; i += 1) {
   if (Date.now() - FETCH_START > FETCH_BUDGET_MS) {
     if (!budgetExhausted) {
@@ -941,35 +1140,9 @@ for (let i = startIndex; i < queries.length; i += 1) {
     }
   }
 
-  // Concurrent fetch pass: CONCURRENT_FETCHES (default 5) in flight at any time.
-  // Each candidate has a hard 25s deadline via Promise.race to prevent hung
-  // sockets from blocking the whole query batch.
-  // Fetch one URL and write its body to `target` if it is a PDF. Returns
-  // { saved:true, bytes } on success, or { saved:false, decision, kind } with
-  // kind ∈ {http, not-pdf, error} so the caller can decide whether the
-  // Unpaywall fallback is worth attempting.
-  async function attemptDownload(url, target) {
-    try {
-      const response = await Promise.race([
-        fetch(url, { headers: { "User-Agent": USER_AGENT }, redirect: "follow" }),
-        new Promise((_, rej) => setTimeout(() => rej(new Error("hard-timeout")), 25000)),
-      ])
-      if (!response.ok) return { saved: false, decision: `fail:http-${response.status}`, kind: "http" }
-      const contentType = response.headers.get("content-type") || ""
-      if (!contentType.includes("pdf") && !contentType.includes("octet-stream")) {
-        return { saved: false, decision: `skip:not-pdf:${contentType.slice(0, 40)}`, kind: "not-pdf" }
-      }
-      const buffer = Buffer.from(await Promise.race([
-        response.arrayBuffer(),
-        new Promise((_, rej) => setTimeout(() => rej(new Error("body-timeout")), 25000)),
-      ]))
-      fs.writeFileSync(target, buffer)
-      return { saved: true, bytes: buffer.length }
-    } catch (err) {
-      return { saved: false, decision: `fail:${err.message.slice(0, 40)}`, kind: "error" }
-    }
-  }
-
+  // Concurrent fetch pass: CONCURRENT_FETCHES (default 5) in flight at any time,
+  // each with a hard 25s deadline inside attemptDownload (module scope) so a
+  // hung socket can't block the whole query batch.
   async function fetchOne({ row, target, oaUrl }) {
     process.stdout.write(`  ↓ ${row.title.slice(0, 65)} ... `)
 
@@ -986,6 +1159,43 @@ for (let i = startIndex; i < queries.length; i += 1) {
       if (upUrl && upUrl !== oaUrl) {
         const r2 = await attemptDownload(upUrl, target)
         if (r2.saved) { r = r2; row.oa_url = upUrl; totalUnpaywallRescued += 1 }
+      }
+    }
+
+    // Europe PMC getPdf rescue. The dominant residual loss after Unpaywall is
+    // MDPI (10.3390/*): its publisher PDF 403s our UA and Unpaywall typically
+    // lists only that publisher location, while OpenAlex hands us the PMC
+    // interstitial (HTML, not the binary). Europe PMC serves the real PDF for
+    // any PMC-deposited paper, so this recovers the MDPI losses (and any other
+    // PMC-mirrored paper stuck behind a PMC interstitial). Fires only on a
+    // still-failed candidate, so it can never reduce existing downloads.
+    let epmcAttempted = false // a PMCID existed and getPdf was tried (paper IS in PMC)
+    if (!r.saved && (r.kind === "not-pdf" || r.kind === "http")) {
+      const epmcUrl = await resolveEpmcPdf(oaUrl, row.oa_url, row.doi)
+      if (epmcUrl && epmcUrl !== oaUrl) {
+        epmcAttempted = true
+        const r3 = await attemptEpmcDownload(epmcUrl, target)
+        if (r3.saved) { r = r3; row.oa_url = epmcUrl; totalEpmcRescued += 1 }
+      }
+    }
+
+    // Residual MDPI handling (publisher PDF behind a Cloudflare JS challenge).
+    // Headless rescue is OFF by default — ~0% of observed losses, in-scope MDPI
+    // clusters in PMC-indexed journals. When HMI_MDPI_HEADLESS=1, an isolated,
+    // hard-killed child renders it. Otherwise we tag a distinct, quantifiable
+    // decision so the residual stays visible in the audit, and distinguish a
+    // transient Europe PMC failure (paper IS in PMC, getPdf 5xx/timeout — retry
+    // next run) from a genuine no-PMC-deposit case (only a headless browser can
+    // reach the publisher PDF). Honest labeling keeps the audit actionable.
+    if (!r.saved && /^10\.3390\//.test(row.doi || "") && (r.kind === "not-pdf" || r.kind === "http")) {
+      if (MDPI_HEADLESS_ENABLED) {
+        const r4 = await fetchMdpiHeadless(row.doi, target)
+        if (r4.saved) { r = r4; row.oa_url = r4.url || row.oa_url; totalHeadlessRescued += 1 }
+        else r = r4 // carries fail:mdpi-headless-{unavailable,failed,spawn-error}
+      } else {
+        r = epmcAttempted
+          ? { saved: false, decision: "fail:epmc-pdf-failed", kind: "error" }
+          : { saved: false, decision: "fail:mdpi-no-pmc-copy", kind: "error" }
       }
     }
 
@@ -1065,6 +1275,8 @@ console.log(`\nWishlist fetch complete.`)
 console.log(`  candidates returned by OpenAlex + PubMed combined: ${totalFound}`)
 console.log(`  downloaded (relevance >= ${DOWNLOAD_THRESHOLD}, OA, not indexed): ${totalDownloaded}`)
 console.log(`    of which rescued via Unpaywall (landing-page/403 → direct OA PDF): ${totalUnpaywallRescued}`)
+console.log(`    of which rescued via Europe PMC (PMC interstitial → getPdf binary, incl. MDPI): ${totalEpmcRescued}`)
+console.log(`    of which rescued via headless MDPI render (HMI_MDPI_HEADLESS): ${totalHeadlessRescued}`)
 console.log(`  skipped (already in wiki/sources/ or staging): ${totalSkippedIndexed}`)
 console.log(`  skipped (weak match, logged for review): ${totalSkippedWeak}`)
 console.log(`  skipped (no OA URL or not-PDF): ${totalSkippedNoOa}`)
