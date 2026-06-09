@@ -33,6 +33,21 @@ const maxEntries = Number(args.get("max") ?? 3)
 const citeKeyOverride = args.get("cite-key") ?? null
 const model = args.get("model") ?? "claude-opus-4-7"
 
+// Resolve the claude CLI by absolute path. spawnSync with a bare "claude"
+// relies on PATH, which is fragile in non-interactive/background shells and,
+// critically, during the overnight Claude Code auto-update window when the
+// /opt/homebrew/bin/claude symlink is rebuilt — that caused a run of
+// `spawnSync claude ENOENT` failures on 2026-06-09. Prefer an explicit
+// override, then the known Homebrew location, then fall back to PATH.
+const CLAUDE_BIN = (() => {
+  for (const c of [process.env.CLAUDE_BIN, "/opt/homebrew/bin/claude"]) {
+    try {
+      if (c && fs.existsSync(c)) return c
+    } catch {}
+  }
+  return "claude"
+})()
+
 const queuePath = path.join(repoRoot, "data/evidence/audit-queue.csv")
 const autonomyDir = path.join(repoRoot, "data/evidence/autonomy")
 const today = new Date().toISOString().slice(0, 10)
@@ -148,7 +163,7 @@ When done with this one cite-key (audited or stopped cleanly), exit. Print a sin
 function invokeClaude(prompt) {
   const cliArgs = ["--print", "--model", model, "--add-dir", repoRoot]
   try {
-    const res = spawnSync("claude", cliArgs, {
+    const res = spawnSync(CLAUDE_BIN, cliArgs, {
       cwd: repoRoot,
       input: prompt,
       encoding: "utf8",
