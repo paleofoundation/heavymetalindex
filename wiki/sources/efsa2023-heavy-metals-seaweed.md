@@ -75,6 +75,8 @@ This A-tier EFSA report contributes occurrence and exposure context for seaweed-
 - Speciation is preserved: total arsenic and inorganic arsenic are separate EFSA occurrence tables; total mercury is not treated as methylmercury. The summary notes that only a few methylmercury and arsenobetaine data were available.
 - Brand firewall: no brand-level values were reported in the PDF-visible tables.
 - Frontmatter ingredient and product slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented. Missing closed slugs noted for halophytes, seaweed snacks, seaweed pasta, seaweed tea, and seaweed condiments/relishes.
+- LC% cells shown as `0` in the occurrence table reflect source cells printed as `–` in Tables 3, 5, and 6 (Brown algae unspecified Cd/tAs, Snacks Cd, Relishes tAs). In every such cell the source reports `LB = UB`, so `0%` left-censored is the correct semantic; the wiki normalizes the dash for readability.
+- 2026-06-09 audit pass (autonomous QA subagent) verified all Table 3-7 occurrence values, all Table 23 exposure values, and the Cd/Pb/tAs/iAs/tHg occurrence-count totals against the PDF; verdict PROMOTE with the LC%-dash normalization above as the only adjusted item.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
