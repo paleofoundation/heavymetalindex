@@ -72,6 +72,7 @@ For standards and app work, the paper is source-scope evidence rather than an HM
 - Brand firewall: the PDF names consumer brands in keywords and background, but this source page does not reproduce brand-level contamination findings or brand names.
 - Speciation: the source reports arsenic as As and does not state inorganic arsenic; route as total/unspecified arsenic only.
 - Numerical fidelity: Pb and Cd ranges are taken from the Discussion text. Figure-only values were not manually digitized.
+- LOD units as printed: the source's Discussion states LODs as "0.01, 0.002, and 0.004 ug/kg" for Pb, As, and Cd. Those values are implausibly low for ICP-MS/MS in an acid-digested food matrix (typical food-matrix LODs are µg/kg = ppb at numerically larger values, e.g., 0.1 to 1 µg/kg). The wiki transcribes the printed values verbatim; the apparent unit inconsistency lies with the source, not this page.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
