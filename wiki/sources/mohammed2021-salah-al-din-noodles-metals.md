@@ -21,22 +21,22 @@ jurisdictions: [IQ]
 near_duplicates: []
 sample_n: 10
 sample_population: "Ten types of noodles collected from markets in Salah Al-din Governorate, Iraq, with three replicates; the heavy-metal method describes analysis of 10 duplicate noodle samples."
-updated: 2026-06-08
+updated: 2026-06-09
 ---
 
 # Mohammed et al. 2021 — Copper, cadmium, and lead in noodles from Salah Al-din markets
 
-Mohammed and colleagues measured mycotoxins, fungi, and selected heavy metals in ten noodle types collected from markets in Salah Al-din Governorate, Iraq. The heavy-metal occurrence portion reports copper and cadmium concentration ranges and states that lead was below 0.1 ppm in all samples. The paper reports total-element Cu, Cd, and Pb only; it does not report arsenic, mercury, chromium, or metal speciation.
+Mohammed and colleagues measured mycotoxins, fungi, and selected heavy metals in ten noodle types collected from markets in Salah Al-din Governorate, Iraq. The heavy-metal occurrence portion reports per-sample copper and cadmium values in Figures 4 and 5 (n=10) plus the abstracted ranges, and a censored Pb result of less than 0.1 ppm in all ten samples. The paper reports total-element Cu, Cd, and Pb only; it does not report arsenic, mercury, chromium, or metal speciation.
 
 ## Key numbers
 
-| Metal | Reported finding | Unit | Source location |
-| --- | --- | --- | --- |
-| Cu | 0.50 - 1.23 | ppm | Abstract; Section 3.3 |
-| Cd | 0.05 - 0.31 | ppm | Abstract; Section 3.3 |
-| Pb | less than 0.1 in all samples | ppm | Abstract; Section 3.3 |
+| Metal | Reported finding | Unit | n | Source location |
+| --- | --- | --- | --- | --- |
+| Cu | range 0.50 - 1.23; mean approx 0.89; median approx 0.84 | ppm | 10 | Abstract; Section 3.3; Figure 4 |
+| Cd | range 0.05 - 0.31; mean approx 0.14; median approx 0.13 | ppm | 10 | Abstract; Section 3.3; Figure 5 |
+| Pb | less than 0.1 in all samples | ppm | 10 | Abstract; Section 3.3; Figure 6 |
 
-The extracted text shows captions for Figure 4, Figure 5, and Figure 6, but the figure graphics did not yield readable sample-level values. No per-sample copper, cadmium, or lead table was present in the extracted text.
+Per-sample bar values are reported in Figures 4 (Cu), 5 (Cd), and 6 (Pb) and were used to compute the distribution statistics above. The source identifies samples by flavor or product descriptor; one descriptor embeds a brand identifier, so per-sample values are not tabulated against descriptors here (Part 12).
 
 ## Methods (brief)
 
@@ -44,16 +44,17 @@ Ten noodle types were collected from Salah Al-din Governorate markets with three
 
 ## Implications
 
-This source contributes Iraq-market noodle occurrence ranges for total Cu, total Cd, and total Pb. It is useful for routing to broad noodle and wheat-based pasta product pages, but it is summary-only for metals because the extracted figure graphics do not provide a readable sample-level table. It is not suitable for iAs, MeHg, or Cr-VI routing because those analytes were not measured.
+This source contributes Iraq-market noodle occurrence ranges plus per-sample distribution statistics (n=10) for total Cu and total Cd, and a censored-below-0.1 ppm result for total Pb. It is useful for routing to broad noodle and wheat-based pasta product pages. It is not suitable for iAs, MeHg, or Cr-VI routing because those analytes were not measured.
 
 ## Verification notes
 
-- PDF text extracted with `pdftotext -layout`; the title page, DOI, abstract, sampling description, heavy-metal method, and Section 3.3 were readable.
+- PDF text extracted with `pdftotext -layout`; the title page, DOI, abstract, sampling description, heavy-metal method, and Section 3.3 were readable. Figures 4 (Cu), 5 (Cd), and 6 (Pb) were re-read directly from the PDF for per-sample bar values.
 - DOI verified from the page header as `10.1088/1742-6596/1879/2/022006`; DOI, raw handle `MFK_mohammed2021`, and cite-key checks found no existing source page before creation.
-- All metal numbers in Key numbers were checked against the abstract and Section 3.3. Units are preserved as `ppm`; no conversion to mg/kg or ppb was performed.
+- All metal ranges and per-sample distribution statistics in Key numbers were checked against the abstract, Section 3.3, and Figures 4-6. Units are preserved as `ppm`; no conversion to mg/kg or ppb was performed. The figure-derived per-sample values are: Cu 0.82, 0.65, 1.23, 0.80, 1.21, 0.86, 0.76, 0.50, 0.98, 1.08; Cd 0.14, 0.16, 0.19, 0.08, 0.31, 0.09, 0.16, 0.05, 0.12, 0.10; Pb all <0.1 ppm.
 - Speciation: Cu, Cd, and Pb are reported as total elements. The paper does not report arsenic, mercury, chromium, or metal speciation.
-- Brand firewall: the source names noodle flavor/type descriptors in the sampling section, but the occurrence page does not attach any product or brand name to a contamination value.
+- Brand firewall: the source's Section 2.1 sample list contains 10 flavor or product descriptors, one of which embeds a brand identifier. The wiki page reports the range and distribution statistics across the 10 samples but does not pair per-sample values with their descriptors, so no brand attribution attaches to any contamination value (Part 12).
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- 2026-06-09 autonomous audit: GPT-style 5-check audit returned PROMOTE with one ⚠️ on figure readability. Independent verification confirmed Figures 4-6 do show readable per-sample bar values; Key numbers, Implications, and Verification notes updated to add per-sample distribution statistics for Cu (n=10) and Cd (n=10) and to clarify the Part 12 reasoning for not pairing per-sample values with descriptors. Numerical fidelity, slug vocabulary, speciation/methods, and wiki/HMTc firewall checks all clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
