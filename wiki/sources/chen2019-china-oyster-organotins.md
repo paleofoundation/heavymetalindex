@@ -16,7 +16,7 @@ access_url: "https://doi.org/10.1016/j.scitotenv.2018.09.310"
 metals: [Sn]
 ingredients: ["[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/molluscs]]", "[[ingredients/seafood]]"]
 products: ["[[products/shellfish]]"]
-matrices: [shellfish, mollusk, seafood, oyster, dry-weight]
+matrices: [shellfish, mollusk, seafood, oyster, dry-weight, organotins]
 jurisdictions: [CN]
 near_duplicates: []
 sample_n: null
@@ -64,7 +64,7 @@ Table 2 reports organotin concentrations in wild oysters from China's coastline 
 | Southern | S13 | Shenzhen | ND | 10.6 ± 0.3 | 15.4 ± 0.3 | 11.2 ± 0.2 | 25 ± 1.6 | 144 ± 3.8 | 206 ± 5.9 |
 | Southern | S14 | Beihai | 6.0 ± 0.8 | 2.8 ± 0.9 | 24.6 ± 0.8 | 570 ± 10 | 257 ± 2.1 | 753 ± 34 | 1613 ± 37 |
 
-The results text reports commercial-oyster phenyltins in all samples and states that phenyltins contributed over `76%` of total organotins. For wild oysters, butyltin concentrations did not differ significantly between northern and southern coastal zones, while phenyltin levels were higher in the south at `436-2564 ng Sn g−1 dw` than in the north at `18.8-59.1 ng Sn g−1 dw`.
+The results text reports commercial-oyster phenyltins in all samples and states that phenyltins contributed over `76%` of total organotins. For wild oysters, butyltin concentrations did not differ significantly between northern and southern coastal zones (`p > 0.05`), while phenyltin levels were significantly greater in the south at `436-2564 ng Sn g−1 dw` than in the north at `18.8-59.1 ng Sn g−1 dw` (`p < 0.05`).
 
 ## Methods (brief)
 
@@ -79,9 +79,11 @@ This source contributes shellfish occurrence evidence for organotin tin species 
 - PDF text extracted with `pdftotext -layout`; title page, methods, Tables 1-2, results, risk-assessment section, and conclusion were readable.
 - DOI `10.1016/j.scitotenv.2018.09.310`, raw handle `MFK_chen2019`, and cite-key checks found no existing source page before creation.
 - Tables 1 and 2 were checked against the extracted text. Units are preserved as `ng Sn g−1 dw`; no conversion was performed. The commercial-oyster table repeats SHS1 and SHS2 labels in the extracted text; the labels were copied as extracted rather than corrected.
-- Speciation: all values are organotin species, not total Sn or inorganic tin. The frontmatter uses `Sn` only to route the organometallic tin evidence.
+- Internal-paper discrepancy: the abstract states the commercial-oyster total range as `251 to 1949 ng Sn g−1 dw`, but Table 1's maximum total is `2328 ± 35 ng Sn g−1 dw` (site SHS6). The wiki reports the abstract figure verbatim; the table's higher maximum is also preserved as the row value in the Table 1 block above. The discrepancy is in the source itself.
+- Speciation: all values are organotin species, not total Sn or inorganic tin. Following the established convention for organotin source pages in this wiki (ho2014, ho2016, uc-peraza2022, shu2023, jiang2026, efsa2004), the frontmatter uses `metals: [Sn]` with `organotins` added to `matrices:` to signal that downstream routing must treat these values as organotin-species evidence, not bulk Sn.
 - Brand firewall: the source uses market/site codes and city locations only; no sampled product brand names were reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- Audit 2026-06-09 (autonomous): GPT-style audit flagged `metals: [Sn]` as a speciation error; verified against repo convention — eight other organotin source pages use the same `metals: [Sn]` plus `organotins` in matrices, so the bare `Sn` tag is correct but the missing `organotins` matrix entry was a real defect (added). Audit also flagged the abstract-vs-Table-1 discrepancy and the softened `significantly greater` qualifier; both applied.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
