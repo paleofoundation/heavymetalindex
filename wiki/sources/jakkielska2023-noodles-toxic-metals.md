@@ -13,7 +13,7 @@ license: unknown
 raw_path: "raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/10.2478_aucft-2023-0008.pdf"
 raw_sha256: "58adae15a74ea037ca96373045a0983a802145dccabb42ba6e7e61a00e2a80c0"
 access_url: "https://doi.org/10.2478/aucft-2023-0008"
-metals: [Pb, Cd, tAs, iAs, tHg]
+metals: [Pb, Cd, tAs, tHg]
 ingredients: ["[[ingredients/noodles]]", "[[ingredients/pasta]]", "[[ingredients/wheat]]", "[[ingredients/corn]]", "[[ingredients/non-rice-grains]]"]
 products: ["[[products/pasta-wheat-based]]", "[[products/other-grain-products]]"]
 matrices: [noodles, pasta, cereal-grain, dry-weight]
@@ -41,11 +41,11 @@ Jakkielska and colleagues measured Pb, Cd, As, and Hg in 20 commercially availab
 | Total Hg range | <LOD-13.55 μg·kg-1 |
 | Mean Pb | 9.241 μg·kg-1 |
 | Pb range | <LOD-52.13 μg·kg-1 |
-| Mean ADI values from Table 2 | As 0.0019, Cd 0.0065, Hg 0.0004, Pb 0.0020 μg·kg-1 per day |
+| Mean ADI values from Table 2 | As 0.0019, Cd 0.0065, Hg 0.0004, Pb 0.0020 μg·kg-1 bw·day-1 |
 | Mean THQ values from Table 2 | As 0.0063, Cd 0.0065, Hg 0.0037, Pb 0.0006 |
 | Mean HI | 0.0171, with min-max 0.0077-0.0331 |
 | Mean CR values | As 2.820 x 10-6, Cd 2.475 x 10-6, Pb 1.741 x 10-8; Hg CR not calculated |
-| Source-estimated i-As | Estimated by applying a 70% conversion factor to total arsenic data; mean estimated ADI for i-As reported as 0.0013 μg·kg-1·day-1 |
+| Source-estimated i-As | Estimated by applying a 70% conversion factor to total arsenic data; mean estimated ADI for i-As reported as 0.0013 μg·kg-1 bw·day-1 |
 | Instrumental LODs | As 0.0063, Cd 0.0031, Hg 0.0009, Pb 0.0030 µg·L-1 |
 
 The text reports the lowest total arsenic value in a corn-flour sample and the highest total arsenic value in a wheat-flour sample with spirulina and salt. It reports the lowest cadmium value in a corn-flour sample and the highest cadmium value in a whole-grain buckwheat tube pasta sample. The lowest mercury value was reported for a wheat pasta sample and the highest mercury value for a gluten-free penne sample; the lowest and highest lead values occurred in the same samples as the lowest and highest arsenic values. Product brand names from the source table are intentionally omitted from this page.
@@ -63,8 +63,10 @@ This source contributes occurrence data for processed non-rice grain pasta/noodl
 - PDF text extracted with `pdftotext -layout`; the extracted text had a readable title page, methods, Table 1, Table 2, Figure 1 caption, and conclusions.
 - DOI verified from the title page as `10.2478/aucft-2023-0008`; DOI, raw handle `MFK_10-2478-aucft-2023-0008`, and cite-key checks found no existing source page before creation.
 - All concentration means, ranges, ADI, THQ, HI, CR, and LOD values above were checked against the extracted title-page abstract, Results text, methods LOD sentence, and Table 2.
-- Units are preserved as reported (`μg·kg-1`, `μg·kg-1 per day`, `μg·kg-1·day-1`, `µg·L-1`); no ppb/ppm conversion was performed.
-- Speciation: arsenic in the occurrence table is total As; mercury is total Hg. The i-As entry is source-estimated by a 70% conversion factor and is not a measured arsenic-speciation result.
+- Units are preserved as reported (`μg·kg-1`, `μg·kg-1 bw·day-1`, `µg·L-1`); no ppb/ppm conversion was performed.
+- Speciation: arsenic in the occurrence table is total As; mercury is total Hg. The i-As entry is source-estimated by a 70% conversion factor and is not a measured arsenic-speciation result. Per CLAUDE.md Part 14, `iAs` was removed from the frontmatter `metals` array (2026-06-09 autonomous audit) so this source does not route as direct iAs evidence; the estimated i-As discussion is preserved in body text only.
+- Frontmatter slug check (2026-06-09 autonomous audit): GPT-style audit flagged `[[ingredients/non-rice-grains]]` as off-vocabulary. Verified false positive — the slug appears in `docs/gpt-collaboration/taxonomy-snapshot.md` ingredients list and `wiki/ingredients/non-rice-grains.md` exists. No change applied.
+- ADI unit correction (2026-06-09 autonomous audit): the source defines ADIHMs in `μg·kg-1 bw·day-1` (body-weight normalized); earlier draft dropped the `bw` qualifier. Corrected in Key numbers and verification-notes unit list.
 - Brand firewall: the source's sample-characterization table names commercial pasta products. This page reports only aggregated product-form descriptors and does not attach brand names to contamination values.
 - The source text has an internal tension between a prose sentence listing ADI values near the Table 2 maxima and Table 2's mean ADI row. This page uses the table-labeled mean and min-max values and notes the table source.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
