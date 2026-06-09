@@ -70,6 +70,7 @@ This source contributes Japanese-market seafood occurrence data for T-Hg, MeHg, 
 - Speciation: the page keeps T-Hg and MeHg separate. NP-Hg is reported as nano-sized mercury-containing particles, inferred by the authors as likely HgSe under stated assumptions; it is not collapsed into T-Hg, MeHg, or inorganic mercury frontmatter.
 - Brand firewall: samples were grouped by seafood type and no product brands were reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented. There is no closed-vocabulary metal/frontmatter slug for NP-Hg or HgSe nanoparticles, so they remain documented in the body.
+- Source-internal group-name inconsistency: the methods describe the `n = 2` group as "sea bream and flounder" (section 2.1) while Table 2 labels the same row "Red snapper and flounder." Both names refer to the same group; downstream pooling should not treat them as separate cells.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
