@@ -37,7 +37,7 @@ Amarh and colleagues measured eight metals in 22 locally and internationally pro
 | --- | ---: | --- | --- |
 | tAs | 0.028 | 0.006-0.057 | Table 1 and section 3.1.1 |
 | Cd | 0.051 | 0.043-0.064 | Table 1 and abstract; section 3.1.2 has a likely typo `0.0043-0.064` |
-| Cr | 0.211 | 0.113-0.339 | Total Cr; no Cr-VI speciation |
+| Cr | 0.211 | 0.113-0.339 | Total Cr; no Cr-VI speciation. The abstract prints the upper bound as `0.33`; Table 1 and section 3.1.4 give `0.339`. |
 | tHg | 0.001 | not detected-0.002 | Total Hg; no methylmercury speciation |
 | Mn | 2.117 | 1.720-3.568 | Included because the source measured it and used it in HI |
 | Ni | 0.100 | 0.065-0.183 | Table 1 and section 3.1.7 |
@@ -71,6 +71,7 @@ This source is high-value broad Category 1 evidence for infant foods and formula
 - Speciation: arsenic is total As, mercury is total Hg, and chromium is total Cr. The source does not report iAs, MeHg, or Cr-VI.
 - Brand firewall: the paper states that 22 brands were sampled, but the extracted text uses coded sample IDs. This page does not attach brand names to contamination values.
 - Frontmatter product and ingredient slugs were corrected to existing taxonomy-snapshot slugs. The source mentions infant formula broadly, but powder/liquid and soy/non-soy status are not resolved in the extracted text, so formula is kept as matrix context rather than overspecified as a formula product row.
+- Audited 2026-06-09 against `raw/markdown/FM_10196951/FM_10196951.md`: all eight per-metal means and ranges, EDI assumptions, recovery values, and methods text reproduce the source. Cr upper-bound abstract/table discrepancy is now noted in Key numbers alongside the existing Cd and HI notes. Audit also flagged `products/baby-food` as missing from the taxonomy snapshot; verified false positive — `wiki/products/baby-food.md` exists and the slug is in the canonical product list.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
