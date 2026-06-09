@@ -14,8 +14,8 @@ raw_path: "raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/uroko2019.pdf
 raw_sha256: "fc8783ea3d5db1c40bc9442b309dcef7ea78de88ef0a862fb5df28d8e8add870"
 access_url: "https://doi.org/10.3329/jbs.v28i0.44705"
 metals: [Pb, Ni, Cu, Co, Fe, Cr, Cd, Mn, Zn]
-ingredients: ["[[ingredients/canned-tomatoes]]", "[[ingredients/tomato-paste]]", "[[ingredients/tomato]]"]
-products: ["[[products/canned-tomatoes]]", "[[products/tomato-paste]]"]
+ingredients: ["[[ingredients/tomato-paste]]", "[[ingredients/tomato]]"]
+products: ["[[products/tomato-paste]]"]
 matrices: [canned-tomato-paste, canned-food]
 jurisdictions: [NG]
 near_duplicates: []
@@ -44,7 +44,7 @@ Aggregate Table 1 ranges for canned tomato paste, in `ppm`:
 | Mn | 0.039-0.086 | 0.140 |
 | Zn | ND in nine samples; 0.029 in one sample | 6.000 |
 
-The text states that lead and nickel were not detected in all canned tomato pastes, copper, iron, and manganese were detected at low concentrations, and chromium and cadmium were high relative to their respective permissible limits. Daily-intake estimates in Table 2 were below the tolerable values cited by the source. Hazard-index values in Table 3 ranged from 0.0648 to 0.8194.
+The text states that lead and nickel were not detected in all canned tomato pastes, copper, iron, and manganese were detected at low concentrations, and chromium and cadmium were high relative to their respective permissible limits. Daily-intake estimates in Table 2 were below the tolerable values cited by the source. Hazard-index values in Table 3 ranged from 0.0648 to 0.8194. The source's carcinogenic-risk-index calculations for Cd and Cr fell within the EPA-cited acceptable range of 1.0E-6 to 1.0E-4.
 
 ## Methods (brief)
 
@@ -52,7 +52,7 @@ Ten canned tomato-paste products were removed from tins, dried in foil in a micr
 
 ## Implications
 
-This source contributes Nigeria-market canned tomato-paste occurrence context for Pb, Ni, Cu, Co, Fe, total Cr, Cd, Mn, and Zn. It is directly relevant to canned-tomato and tomato-paste product routing, while the coded sample design and explicit brand list in the methods mean public-facing extraction should remain aggregate unless a later private evidence register needs code-level review. It is not suitable for Cr-VI routing because chromium is reported only as total Cr.
+This source contributes Nigeria-market canned tomato-paste occurrence context for Pb, Ni, Cu, Co, Fe, total Cr, Cd, Mn, and Zn. It is directly relevant to tomato-paste product routing, while the coded sample design and explicit brand list in the methods mean public-facing extraction should remain aggregate unless a later private evidence register needs code-level review. It is not suitable for Cr-VI routing because chromium is reported only as total Cr, and it is not direct evidence for whole canned tomatoes because every sampled product was tomato paste.
 
 ## Verification notes
 
