@@ -14,7 +14,7 @@ raw_path: "raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/islam2015.pdf
 raw_sha256: "cc084df883fda2e9b14e6cca679b9d75ffe0f72c367ef4ed9138f038416f2f7d"
 access_url: "https://doi.org/10.1016/j.ecoenv.2015.09.022"
 metals: [Cr, Ni, Cu, tAs, Cd, Pb]
-ingredients: ["[[ingredients/meat-and-poultry]]", "[[ingredients/eggs]]", "[[ingredients/fish]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/vegetables]]", "[[ingredients/root-vegetables]]", "[[ingredients/non-root-vegetables]]", "[[ingredients/rice]]", "[[ingredients/maize]]", "[[ingredients/wheat]]", "[[ingredients/fruits]]"]
+ingredients: ["[[ingredients/meat-and-poultry]]", "[[ingredients/eggs]]", "[[ingredients/fish]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/vegetables]]", "[[ingredients/root-vegetables]]", "[[ingredients/non-root-vegetables]]", "[[ingredients/rice]]", "[[ingredients/corn]]", "[[ingredients/wheat]]", "[[ingredients/fruit]]"]
 products: ["[[products/beef-product]]", "[[products/lamb-mutton]]", "[[products/poultry-product]]", "[[products/eggs-product]]", "[[products/fish-freshwater]]", "[[products/milk-and-dairy]]", "[[products/non-root-vegetables]]", "[[products/root-tuber-vegetables]]", "[[products/rice-bulk-grain]]", "[[products/other-grain-products]]", "[[products/fresh-fruit]]"]
 matrices: [fresh-weight, bangladesh-market, mixed-foods]
 jurisdictions: [BD]
@@ -84,9 +84,9 @@ This source contributes Bangladesh-market occurrence evidence for total Cr, Ni, 
 - [[ingredients/root-vegetables]]
 - [[ingredients/non-root-vegetables]]
 - [[ingredients/rice]]
-- [[ingredients/maize]]
+- [[ingredients/corn]]
 - [[ingredients/wheat]]
-- [[ingredients/fruits]]
+- [[ingredients/fruit]]
 - [[products/beef-product]]
 - [[products/lamb-mutton]]
 - [[products/poultry-product]]
