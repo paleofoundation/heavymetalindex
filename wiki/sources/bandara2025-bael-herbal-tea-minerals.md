@@ -12,8 +12,8 @@ evidence_tier: A
 license: "open access"
 raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-herbal-botanical-infusions-al_2025_10-12691-wjar-13-2-1.pdf
 metals: [Al, Cr, Mn, Ni, Pb, tAs, Cd, tHg, Ba]
-ingredients: ["[[ingredients/herbal-botanicals]]", "[[ingredients/tea]]"]
-products: ["[[products/herbal-botanical-infusions]]", "[[products/tea-infusions]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
+products: ["[[products/herbal-botanical-infusions]]"]
 matrices: [herbal-tea, botanical-infusion, bael-fruit-tea, bael-flower-tea, bael-stamen-tea]
 jurisdictions: [LK]
 near_duplicates: []
@@ -61,10 +61,8 @@ Microbiome: No microbiome findings.
 ## Wiki pages this source may touch
 
 - [[products/herbal-botanical-infusions]]
-- [[products/tea-infusions]]
 - [[ingredients/herbal-botanicals]]
-- [[ingredients/tea]]
-- [[metals/aluminium]]
+- [[metals/aluminum]]
 - [[metals/lead]]
 - [[metals/chromium]]
 - [[metals/nickel]]
