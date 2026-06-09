@@ -16,7 +16,7 @@ access_url: "https://doi.org/10.14233/ajchem.2014.16225"
 metals: [Cd, Cr, Cu, Fe, Pb, Sn, Zn]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/tinned-fish]]"]
 products: ["[[products/canned-fish]]", "[[products/fish-marine-non-predatory]]", "[[products/fish-marine-predatory]]", "[[products/fish-freshwater]]"]
-matrices: [canned-fish, wet-weight, edible-part-plus-soup]
+matrices: [canned-fish, fish]
 jurisdictions: [CN]
 near_duplicates: []
 sample_n: null
@@ -46,7 +46,7 @@ Additional source-reported values:
 
 - Asterisks in Table 3 mark Cd values "out of limits" for canned sardines and yellow croaker.
 - The paper states Chinese maximum levels used in the comparison: Cd 0.1 mg/kg, Pb 1 mg/kg, Sn 250 mg/kg, Zn 50 mg/kg, Cr 2 mg/kg, and Cu 50 mg/kg; no limited iron level for fish samples in China standards.
-- Table 4 estimated weekly intakes for an adult consuming 0.182 kg canned fish/week: Cd 0.33 mg (7.86% PTWI), Cr 0.23 mg (57.5%), Cu 1.34 mg (0.64%), Fe 7.77 mg (2.31%), Pb 0.062 mg (4.13%), Sn 1.54 mg (0.18%), and Zn 3.66 mg (0.87%).
+- Table 4 estimated weekly intakes for an adult consuming 0.182 kg canned fish/week, using the per-element maximum concentration across species (Cd 0.18, Cr 1.28, Cu 7.39, Fe 42.70, Pb 0.34, Sn 6.34, Zn 20.13 mg/kg) rather than a species mean: Cd 0.33 mg (7.86% PTWI), Cr 0.23 mg (57.5%), Cu 1.34 mg (0.64%), Fe 7.77 mg (2.31%), Pb 0.062 mg (4.13%), Sn 1.54 mg (0.18%), and Zn 3.66 mg (0.87%).
 - The abstract and conclusion state that Cr, Cu, Pb, and Zn were below maximum levels, Cd in canned sardines and yellow croaker exceeded the maximum levels, and all estimated heavy-metal intakes were below PTWI.
 
 ## Methods (brief)
