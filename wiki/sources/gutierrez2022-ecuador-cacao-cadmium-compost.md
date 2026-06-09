@@ -30,22 +30,22 @@ Gutiérrez and colleagues studied cadmium behavior in four Ecuadorian cacao farm
 
 The four cacao farms were in Manabi and Guayas provinces, Ecuador. Total soil Cd ranged from 0.37 to 0.92 mg/kg. The compost used in the trial contained 0.03 mg/kg Cd, and the treatment rates were 6.25 Mg/ha per year and 12.5 Mg/ha per year as described in Methods; Tables 2 and 3 label the low and high rates as 12.5 and 25 Mg/ha per year because farm 4 received two applications.
 
-Table 3 reports Cd bound to humic acid and fulvic acid in micrograms per kilogram soil:
+Table 3 reports Cd bound to humic acid and fulvic acid in micrograms per kilogram soil. Asterisks mark high-rate values that differed significantly from the control by Dunnett's post-hoc test (p < 0.05) in the source table.
 
 | Fraction | Farm/depth | Control | Low rate | High rate |
 |---|---|---:|---:|---:|
-| Humic acid Cd | Farm 1, 0-5 cm | 1.35 +/- 0.5 ug/kg | 2.25 +/- 0.8 ug/kg | 8.08 +/- 1.1 ug/kg |
-| Humic acid Cd | Farm 1, 5-20 cm | 0.41 +/- 0.2 ug/kg | 0.43 +/- 0.1 ug/kg | 3.22 +/- 0.3 ug/kg |
+| Humic acid Cd | Farm 1, 0-5 cm | 1.35 +/- 0.5 ug/kg | 2.25 +/- 0.8 ug/kg | 8.08 +/- 1.1* ug/kg |
+| Humic acid Cd | Farm 1, 5-20 cm | 0.41 +/- 0.2 ug/kg | 0.43 +/- 0.1 ug/kg | 3.22 +/- 0.3* ug/kg |
 | Fulvic acid Cd | Farm 4, 0-5 cm | 52.5 +/- 12 ug/kg | 85.7 +/- 8.7 ug/kg | 86.6 +/- 10 ug/kg |
-| Fulvic acid Cd | Farm 4, 5-20 cm | 22.0 +/- 4.1 ug/kg | 33.3 +/- 0.8 ug/kg | 72.1 +/- 5.8 ug/kg |
+| Fulvic acid Cd | Farm 4, 5-20 cm | 22.0 +/- 4.1 ug/kg | 33.3 +/- 0.8 ug/kg | 72.1 +/- 5.8* ug/kg |
 
 Across farms, the authors state that soil Cd distribution by sequential extraction generally followed EDTA > HNO3 > NaOH >> KNO3/H2O. Compost-amended soils tended to increase Cd bound to NaOH and EDTA fractions, and high-rate compost increased Cd bound to humic or fulvic acid pools in several farm-depth combinations.
 
-For plant transfer, the authors report that leaf and bean Cd were negatively and significantly correlated with Cd extracted by EDTA, NaOH, HNO3, and fulvic-acid pools. In the below-surface correlation table, bean Cd was negatively correlated with soil organic carbon, NaOH-bound Cd, HNO3-bound Cd, and fulvic-acid-bound Cd, while humic-acid-bound Cd showed a positive correlation with leaf and bean Cd. The main text does not print a simple per-farm cacao-bean Cd concentration table.
+For plant transfer, the authors report that leaf and bean Cd were negatively and significantly correlated with Cd extracted by EDTA, NaOH, HNO3, and fulvic-acid pools. In the below-surface (5-20 cm) correlation table, bean Cd was negatively correlated with soil organic carbon, NaOH-bound Cd, HNO3-bound Cd, and fulvic-acid-bound Cd. In the surface (0-5 cm) correlation table, humic-acid-bound Cd was positively correlated with both leaf and bean Cd (Cd-HA vs Leaf-Cd1 = 0.39, vs Leaf-Cd2 = 0.38, vs Bean-Cd = 0.36; all p < 0.05); the below-surface table does not reproduce that positive bean-Cd association. The main text does not print a simple per-farm cacao-bean Cd concentration table.
 
 ## Methods (brief)
 
-The trial used four cacao farms with three treatments: no compost, low compost, and high compost. Soil samples were collected at 0-5 cm and 5-20 cm. Leaf samples and ripe cacao pods were collected from each treatment; beans were digested from 300 mg aliquots. Soil Cd was fractionated into KNO3, H2O, NaOH, EDTA, and HNO3 extractable pools, with separate humic-acid and fulvic-acid extractions. The study used graphite-furnace atomic absorption spectrometry for the soil fraction extracts and ICP-OES for total soil Cd. Cacao-bean recovery was reported as 98.3 +/- 0.01% for FDA-CP36 and 91.5 +/- 10.2% for NIST 2384 in farm 4 checks; Cd coefficients of variation for bean, leaf, and soil measurements ranged from 7.58% to 17.5%, averaging 11.5%.
+The trial used four cacao farms with three treatments: no compost, low compost, and high compost. Soil samples were collected at 0-5 cm and 5-20 cm. Leaf samples and ripe cacao pods were collected from each treatment; beans were digested from 300 mg aliquots. Soil Cd was fractionated into KNO3, H2O, NaOH, EDTA, and HNO3 extractable pools, with separate humic-acid and fulvic-acid extractions. Total soil Cd was quantified by ICP-OES; the KNO3, NaOH, and HNO3 sequential fractions plus the humic- and fulvic-acid fractions were quantified by graphite-furnace atomic absorption spectrometry; the H2O and EDTA sequential fractions were quantified by ICP-MS. Leaves and beans were quantified by ICP-OES for farms 1-3 and by ICP-MS for farm 4 after microwave-assisted digestion. Cacao-bean recovery was reported as 98.3 +/- 0.01% against FDA-CP36 across all farms, and 91.5 +/- 10.2% against NIST 2384 in the farm-4 cross-check. The coefficient of variation for replicate Cd measurements was 1.29% to 2.80% (average 2.04%) in beans, 2.09% to 2.75% (average 2.37%) in leaves, and 7.58% to 17.5% (average 11.5%) in soil.
 
 ## Implications
 
