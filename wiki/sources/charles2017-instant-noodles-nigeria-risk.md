@@ -36,7 +36,7 @@ Table 2 reports heavy metal concentrations in selected noodle samples (`mg/kg`, 
 | --- | --- | --- | --- |
 | Pb | Detected in 4 of 6 coded brands | ND to 3.163 ± 0.21; detected values ranged 0.043 ± 0.15 to 3.163 ± 0.21 | WHO standard 0.025 |
 | tAs | Not detected in all 6 coded brands | ND | WHO standard 0.015 |
-| Ni | Detected in 3 of 6 coded brands | ND to 0.354 ± 0.20 | WHO standard 1.00 |
+| Ni | Detected in 3 of 6 coded brands | ND to 0.354 ± 0.20; detected values ranged 0.012 ± 0.01 to 0.354 ± 0.20 | WHO standard 1.00 |
 | tHg | Not detected in all 6 coded brands | ND | WHO standard 0.005 |
 | Cu | Detected in all 6 coded brands | 0.021 ± 0.01 to 0.119 ± 0.10 | NA |
 | Cd | Not detected in all 6 coded brands | ND | WHO standard 0.003 |
@@ -82,6 +82,7 @@ This source contributes Nigeria-market instant-noodle occurrence evidence for Pb
 - Speciation: arsenic is total As, mercury is total Hg, and chromium is total Cr. The source does not report iAs, MeHg, or Cr-VI.
 - Brand firewall: the source uses coded brand identifiers, but this page reports aggregate ranges and coded-brand counts only. No public brand names are paired with contamination values.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- Autonomous audit 2026-06-09 flagged Ni row inconsistency (only maximum detected value reported, unlike Pb and Cr which show full detected range); applied — Ni row now reports both ND-to-max and detected min-to-max for parallelism. Audit also flagged `dry-weight` in matrices and unverified "70% market share" claim; verified both as false positives — `dry-weight` is established matrices vocabulary across 82+ source pages (precedent: elziani2024-instant-noodles-libya-metals), and the 70% claim is supported verbatim by the source (Sampling section, citing Marketing Edge 2017).
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
