@@ -17,7 +17,7 @@ products: ["[[products/spinach]]", "[[products/non-root-vegetables]]"]
 matrices: [spinach-leaf, tomato]
 jurisdictions: [IN]
 near_duplicates: []
-sample_n: "not reported in abstract"
+sample_n: "not reported"
 sample_population: "spinach leaf and tomato grown near Amba Nalla, Amravati City, India"
 updated: 2026-05-30
 sources: 1
@@ -30,14 +30,17 @@ Mohod reports AAS measurements of heavy metals in spinach leaf and tomato grown 
 
 ## Key numbers
 
-- Spinach Pb is reported as 5.5 mg/kg and tomato Pb as 5.5 mg/kg.
-- Spinach Cd is reported as 0.3 mg/kg and tomato Cd as 0.2 mg/kg.
-- The abstract states that Pb and Cd were above permissible limits according to FAO/WHO-style comparators.
-- The paper also names Cu and Zn as measured analytes.
+All values are reported on a dry-weight basis (samples oven-dried at 70 °C for three days before digestion; Methods §II).
+
+- Spinach Pb is reported as 5.5 mg/kg dw and tomato Pb as 5.5 mg/kg dw (Table I).
+- Spinach Cd is reported as 0.3 mg/kg dw and tomato Cd as 0.2 mg/kg dw (Table I).
+- Spinach Cu is reported as 0.03 mg/kg dw and tomato Cu as 0.045 mg/kg dw (Table I).
+- Spinach Zn is reported as 2.5 mg/kg dw and tomato Zn as 3.8 mg/kg dw (Table I). The abstract reports the spinach Zn as 2.0 mg/kg, which conflicts with Table I and with the discussion text on page 2; Table I value is treated as the measured value.
+- The paper reports Pb and Cd as above permissible limits according to FAO/WHO-style comparators, while Cu and Zn are within their permissible limits.
 
 ## Methods (brief)
 
-The abstract states that concentrations were studied using AAS. Sample count and basis details require full methods extraction before pooling.
+Vegetable samples were washed, oven-dried at 70 °C for three days, ground, and wet-digested with HNO3 and conc. H2SO4 in a 25 mL conical flask, then analysed by atomic absorption spectrometry. The paper does not report sample size, AAS instrument vendor or model, LODs, certified reference material, or the number of analytical replicates. Comparators in the discussion include WHO and FAO drinking-water and crop-production limits and Codex Alimentarius Commission 1984 vegetable limits.
 
 ## Implications
 
@@ -46,9 +49,13 @@ Certification: India/Amravati spinach occurrence context for Pb and Cd. Courses:
 ## Wiki pages this source may touch
 
 - [[products/spinach]]
+- [[products/non-root-vegetables]]
 - [[ingredients/spinach]]
+- [[ingredients/tomato]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+- [[metals/copper]]
+- [[metals/zinc]]
 
 ## Verification notes
 
