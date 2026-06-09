@@ -41,14 +41,14 @@ All concentration results are reported as mg/kg fresh weight, mean +/- standard 
 | Peeled sweet potato | 1 | ND | ND | ND |
 | Peeled sweet potato | 2 | ND | ND | ND |
 | Peeled sweet potato | 3 | ND | <LOQ | <LOQ |
-| Peeled sweet potato | 4 | ND | <LOQ | <LOQ |
-| Peeled sweet potato | 5 | ND | ND | 0.067 +/- 0.001 |
-| Peeled sweet potato | 6 | ND | <LOQ | <LOQ |
+| Peeled sweet potato | 4 | ND | ND | <LOQ |
+| Peeled sweet potato | 5 | ND | <LOQ | 0.067 +/- 0.001 |
+| Peeled sweet potato | 6 | ND | ND | <LOQ |
 | Peeled sweet potato | 7 | ND | ND | ND |
 | Peeled sweet potato | 8 | ND | ND | ND |
 | Peeled sweet potato | 9 | ND | ND | ND |
-| Peeled sweet potato | 10 | ND | ND | ND |
-| Peeled sweet potato | 11 | ND | <LOQ | ND |
+| Peeled sweet potato | 10 | ND | <LOQ | ND |
+| Peeled sweet potato | 11 | ND | ND | ND |
 | Peeled potato | 1 | ND | 0.0097 +/- 0.0005 | 0.0333 +/- 0.0005 |
 | Peeled potato | 2 | ND | 0.0022 +/- 0.0001 | 0.041 +/- 0.003 |
 | Peeled potato | 3 | ND | 0.010 +/- 0.001 | 0.029 +/- 0.005 |
