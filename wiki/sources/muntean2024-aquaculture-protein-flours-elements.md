@@ -17,7 +17,7 @@ products: []
 matrices: [aquaculture-feed-ingredient, protein-flour, spent-coffee-grounds, gastropod-flour, oilseed-flour, spent-brewers-yeast]
 jurisdictions: [RO]
 near_duplicates: []
-sample_n: 35
+sample_n: 55
 sample_population: "Alternative protein flours for potential fish-nutrition use, including gastropod flours, hepatopancreas flour, sunflower, hemp, flax, pumpkin, coffee grounds, and spent brewer's yeast flours."
 updated: 2026-06-09
 ---
@@ -38,9 +38,9 @@ The quantification limit was 0.005 mg/kg for Table 2 and 0.05 mg/kg for Table 3.
 
 ## Methods (brief)
 
-The authors used FT-NIR spectroscopy for nutritional characterization with matrix-specific calibration correction factors. Elemental analysis was performed after microwave digestion; PAHs were also measured to evaluate contaminant safety for feed-use screening.
+The authors used FT-NIR spectroscopy (Tango Bruker) for nutritional characterization with matrix-specific calibration correction factors derived against Kjeldahl protein and Soxhlet lipid references. Elemental concentrations were determined after microwave-assisted acid digestion (500 mg sample in 8 mL 65 % HNO3 + 2 mL 30 % H2O2) by ICP-OES (Perkin Elmer Optima 5300 DV), with trace elements quantified in the mineralised solutions by ICP-MS. PAHs were measured by HPLC with fluorescence detection after saponification and cyclohexane extraction.
 
-The plant-origin sample frame included sunflower, hemp, flax, pumpkin, coffee grounds, and spent brewer's yeast flours. The animal-origin sample frame included Helix pomatia snail flour, Arion spp. slug flour, and Helix pomatia hepatopancreas flour. The text reports five collection events for Helix pomatia, eight for Arion spp., twelve coffee-grounds samples, and seven spent brewer's yeast samples.
+The plant-origin sample frame included sunflower, hemp, flax, pumpkin, coffee grounds, and spent brewer's yeast flours. The animal-origin sample frame included Helix pomatia snail flour, Arion spp. slug flour, and Helix pomatia hepatopancreas flour. The text reports five collection events for Helix pomatia, eight for Arion spp., and three hepatopancreas collection events, with nine sunflower-oilcake, five hemp-oilcake, three flax-oilcake, three pumpkin-seed-oilcake, twelve coffee-grounds, and seven spent brewer's yeast samples on the plant side.
 
 ## Implications
 
