@@ -17,7 +17,7 @@ metals: [tHg, MeHg, Cd, Pb, Sn, tAs]
 ingredients: ["[[ingredients/seafood]]", "[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/canned-tuna]]", "[[ingredients/shark]]", "[[ingredients/swordfish]]"]
 products: ["[[products/seafood]]", "[[products/fresh-fish]]", "[[products/canned-fish]]", "[[products/fish-marine-predatory]]", "[[products/fish-marine-non-predatory]]", "[[products/shellfish]]"]
 matrices: [fish, shellfish, fresh-fish, canned-fish, frozen-fish, wet-weight, methylmercury-speciation]
-jurisdictions: [ES, MA, MR, TN, PA, AR, CL, GB, IT, NO, VN]
+jurisdictions: [ES, MA, MR, TN, PA, AR, CL, GB, IT, NO, VN, TZ]
 near_duplicates: []
 sample_n: 485
 sample_population: "Fresh, canned, and frozen fish and shellfish products representing 43 frequently consumed species/products in Andalusia, Spain; samples collected in 2009-2010 and analyzed for Hg, Cd, Pb, As, and canned-product Sn, with MeHg speciation in high-Hg predatory fish."
