@@ -30,8 +30,8 @@ Kataoka and colleagues measured cadmium in 180 chocolate products and 140 cocoa 
 
 | Matrix | n | Cd range | Mean | Median | Maximum | Notes |
 |---|---:|---:|---:|---:|---:|---|
-| Chocolate products, total | 180 | 0.00021-2.3 mg/kg | 0.20 mg/kg | 0.12 mg/kg | 2.3 mg/kg | Table 3; includes 140 dark, 35 milk, and 5 white chocolate products. |
-| Dark chocolate | 140 | 0.025-2.3 mg/kg | 0.25 mg/kg | 0.15 mg/kg | 2.3 mg/kg | Table 3; eight of 180 total chocolate products exceeded the applicable EU maximum levels by the authors' comparison. |
+| Chocolate products, total | 180 | 0.00021-2.3 mg/kg | 0.20 mg/kg | 0.12 mg/kg | 2.3 mg/kg | Table 3; includes 140 dark, 35 milk, and 5 white chocolate products. Eight of the 180 chocolate products exceeded the applicable EU maximum levels by the authors' comparison (4.4%); per Table 2, seven of those eight were dark chocolate and one was milk chocolate. |
+| Dark chocolate | 140 | 0.025-2.3 mg/kg | 0.25 mg/kg | 0.15 mg/kg | 2.3 mg/kg | Table 3. |
 | Milk chocolate | 35 | 0.012-0.31 mg/kg | 0.043 mg/kg | 0.023 mg/kg | 0.31 mg/kg | Table 3. |
 | White chocolate | 5 | 0.00021-0.0016 mg/kg | 0.00059 mg/kg | 0.00028 mg/kg | 0.0016 mg/kg | Table 3. |
 | Cocoa powder products | 140 | 0.015-1.8 mg/kg | 0.32 mg/kg | 0.16 mg/kg | 1.8 mg/kg | Tables 3 and 4; 26 of 140 cocoa powder products exceeded the EU maximum level by the authors' comparison. |
