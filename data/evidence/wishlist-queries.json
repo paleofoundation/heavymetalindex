@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-09T07:07:12.905Z",
+  "generated_at": "2026-06-09T09:13:08.792Z",
   "source": "gap-driven (build-targeted-queries.mjs)",
-  "total_candidates": 3030,
+  "total_candidates": 3039,
   "emitted": 3000,
   "cap": 3000,
   "breakdown": {
     "hmtc_blocked": 302,
     "autonomy_gap_driven": 2500,
-    "ingredient_pending": 228
+    "ingredient_pending": 237
   },
   "queries": [
     {
@@ -84998,6 +84998,275 @@
       "_autonomy_row_index": 2499
     },
     {
+      "id": "ING-bee-pollen-Al",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "bee pollen aluminum concentration",
+      "search_query_full": "bee pollen aluminum OR aluminium OR Al (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "bee pollen"
+        ],
+        "regions": [],
+        "metals": [
+          "aluminum",
+          "aluminium",
+          "Al"
+        ],
+        "metal_search_terms": [
+          "aluminum",
+          "aluminium",
+          "Al"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "bee-pollen",
+        "metal": "Al",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-bee-pollen-Cd",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "bee pollen cadmium concentration",
+      "search_query_full": "bee pollen cadmium OR Cd (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "bee pollen"
+        ],
+        "regions": [],
+        "metals": [
+          "cadmium",
+          "Cd"
+        ],
+        "metal_search_terms": [
+          "cadmium",
+          "Cd"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "bee-pollen",
+        "metal": "Cd",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-bee-pollen-iAs",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "bee pollen inorganic arsenic concentration",
+      "search_query_full": "bee pollen inorganic arsenic OR arsenic OR As (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "bee pollen"
+        ],
+        "regions": [],
+        "metals": [
+          "inorganic arsenic",
+          "arsenic",
+          "As"
+        ],
+        "metal_search_terms": [
+          "inorganic arsenic",
+          "arsenic",
+          "As"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "bee-pollen",
+        "metal": "iAs",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-bee-pollen-MeHg",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "bee pollen methylmercury concentration",
+      "search_query_full": "bee pollen methylmercury OR MeHg (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "bee pollen"
+        ],
+        "regions": [],
+        "metals": [
+          "methylmercury",
+          "MeHg"
+        ],
+        "metal_search_terms": [
+          "methylmercury",
+          "MeHg"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "bee-pollen",
+        "metal": "MeHg",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-bee-pollen-Ni",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "bee pollen nickel concentration",
+      "search_query_full": "bee pollen nickel OR Ni (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "bee pollen"
+        ],
+        "regions": [],
+        "metals": [
+          "nickel",
+          "Ni"
+        ],
+        "metal_search_terms": [
+          "nickel",
+          "Ni"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "bee-pollen",
+        "metal": "Ni",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-bee-pollen-Pb",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "bee pollen lead concentration",
+      "search_query_full": "bee pollen lead OR Pb (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "bee pollen"
+        ],
+        "regions": [],
+        "metals": [
+          "lead",
+          "Pb"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "Pb"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "bee-pollen",
+        "metal": "Pb",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-bee-pollen-Sn",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "bee pollen tin concentration",
+      "search_query_full": "bee pollen tin OR Sn (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "bee pollen"
+        ],
+        "regions": [],
+        "metals": [
+          "tin",
+          "Sn"
+        ],
+        "metal_search_terms": [
+          "tin",
+          "Sn"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "bee-pollen",
+        "metal": "Sn",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-bee-pollen-tAs",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "bee pollen arsenic concentration",
+      "search_query_full": "bee pollen arsenic OR total arsenic OR As (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "bee pollen"
+        ],
+        "regions": [],
+        "metals": [
+          "arsenic",
+          "total arsenic",
+          "As"
+        ],
+        "metal_search_terms": [
+          "arsenic",
+          "total arsenic",
+          "As"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "bee-pollen",
+        "metal": "tAs",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-bee-pollen-tHg",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "bee pollen mercury concentration",
+      "search_query_full": "bee pollen mercury OR total mercury OR Hg (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "bee pollen"
+        ],
+        "regions": [],
+        "metals": [
+          "mercury",
+          "total mercury",
+          "Hg"
+        ],
+        "metal_search_terms": [
+          "mercury",
+          "total mercury",
+          "Hg"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "bee-pollen",
+        "metal": "tHg",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
       "id": "ING-casein-Al",
       "section": "ingredient-cell-pending",
       "priority": "medium",
@@ -90639,275 +90908,6 @@
       "target": {
         "kind": "ingredient",
         "slug": "rice-milk",
-        "metal": "Pb",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-rice-milk-Sn",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "rice milk tin concentration",
-      "search_query_full": "rice milk tin OR Sn (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "rice milk"
-        ],
-        "regions": [],
-        "metals": [
-          "tin",
-          "Sn"
-        ],
-        "metal_search_terms": [
-          "tin",
-          "Sn"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "rice-milk",
-        "metal": "Sn",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-rice-milk-tAs",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "rice milk arsenic concentration",
-      "search_query_full": "rice milk arsenic OR total arsenic OR As (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "rice milk"
-        ],
-        "regions": [],
-        "metals": [
-          "arsenic",
-          "total arsenic",
-          "As"
-        ],
-        "metal_search_terms": [
-          "arsenic",
-          "total arsenic",
-          "As"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "rice-milk",
-        "metal": "tAs",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-rice-milk-tHg",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "rice milk mercury concentration",
-      "search_query_full": "rice milk mercury OR total mercury OR Hg (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "rice milk"
-        ],
-        "regions": [],
-        "metals": [
-          "mercury",
-          "total mercury",
-          "Hg"
-        ],
-        "metal_search_terms": [
-          "mercury",
-          "total mercury",
-          "Hg"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "rice-milk",
-        "metal": "tHg",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-salt-Al",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "salt aluminum concentration",
-      "search_query_full": "salt aluminum OR aluminium OR Al (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "salt"
-        ],
-        "regions": [],
-        "metals": [
-          "aluminum",
-          "aluminium",
-          "Al"
-        ],
-        "metal_search_terms": [
-          "aluminum",
-          "aluminium",
-          "Al"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "salt",
-        "metal": "Al",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-salt-Cd",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "salt cadmium concentration",
-      "search_query_full": "salt cadmium OR Cd (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "salt"
-        ],
-        "regions": [],
-        "metals": [
-          "cadmium",
-          "Cd"
-        ],
-        "metal_search_terms": [
-          "cadmium",
-          "Cd"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "salt",
-        "metal": "Cd",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-salt-iAs",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "salt inorganic arsenic concentration",
-      "search_query_full": "salt inorganic arsenic OR arsenic OR As (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "salt"
-        ],
-        "regions": [],
-        "metals": [
-          "inorganic arsenic",
-          "arsenic",
-          "As"
-        ],
-        "metal_search_terms": [
-          "inorganic arsenic",
-          "arsenic",
-          "As"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "salt",
-        "metal": "iAs",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-salt-MeHg",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "salt methylmercury concentration",
-      "search_query_full": "salt methylmercury OR MeHg (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "salt"
-        ],
-        "regions": [],
-        "metals": [
-          "methylmercury",
-          "MeHg"
-        ],
-        "metal_search_terms": [
-          "methylmercury",
-          "MeHg"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "salt",
-        "metal": "MeHg",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-salt-Ni",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "salt nickel concentration",
-      "search_query_full": "salt nickel OR Ni (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "salt"
-        ],
-        "regions": [],
-        "metals": [
-          "nickel",
-          "Ni"
-        ],
-        "metal_search_terms": [
-          "nickel",
-          "Ni"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "salt",
-        "metal": "Ni",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-salt-Pb",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "salt lead concentration",
-      "search_query_full": "salt lead OR Pb (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "salt"
-        ],
-        "regions": [],
-        "metals": [
-          "lead",
-          "Pb"
-        ],
-        "metal_search_terms": [
-          "lead",
-          "Pb"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "salt",
         "metal": "Pb",
         "status": "pending",
         "n_studies": 0

@@ -187,3 +187,24 @@
 
 ### Failed
 - `charles2017-instant-noodles-nigeria-risk`: unrecognized final line: "Summary: GPT-style audit ran 5 checks against the PDF. Check 1 (numerical fidelity), 2 (slug vocabulary), 3 (speciation/methods), 4 brand firewall, and 5 wiki/HMTc firewall all passed. One consistency"
+
+## Run 2026-06-09T07:02:19.114Z
+
+- Candidates this run: 12
+- Succeeded (audited and committed): 12
+- Stopped (genuine block, no commit): 0
+- Failed (error, no commit): 0
+
+### Succeeded
+- `gu2014-liaoning-canned-fish-metals` — gu2014-liaoning-canned-fish-metals REVISE
+- `gu2019-maize-peanut-heavy-metals-guangxi` — gu2019-maize-peanut-heavy-metals-guangxi REVISE
+- `huang2014-zhejiang-vegetables-heavy-metals` — huang2014-zhejiang-vegetables-heavy-metals REVISE
+- `islam2015-bangladesh-foods-heavy-metals` — islam2015-bangladesh-foods-heavy-metals REVISE
+- `islam2018-tangail-food-crops-heavy-metals` — islam2018-tangail-food-crops-heavy-metals REVISE
+- `iyabo2015-ekiti-staple-foods-metals` — iyabo2015-ekiti-staple-foods-metals REVISE
+- `jiang2020-henan-battery-factory-crops-metals` — jiang2020-henan-battery-factory-crops-metals PROMOTE
+- `kukusamude2020-thai-rice-heavy-metals` — kukusamude2020-thai-rice-heavy-metals revised
+- `li2017-jiangsu-rice-cadmium-transfer` — li2017-jiangsu-rice-cadmium-transfer REVISE
+- `loutfy2012-ismailia-foodstuffs-metals` — loutfy2012-ismailia-foodstuffs-metals PROMOTE
+- `maduabuchi2007-nigeria-beverages-arsenic-chromium` — maduabuchi2007-nigeria-beverages-arsenic-chromium PROMOTE
+- `ziyaina2014-libya-spices-lead-cadmium` — ziyaina2014-libya-spices-lead-cadmium PROMOTE

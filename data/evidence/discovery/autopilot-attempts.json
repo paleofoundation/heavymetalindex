@@ -78,5 +78,10 @@
     "last_attempted_at": "2026-06-09T05:31:34.496Z",
     "attempts": 1,
     "last_outcome": "fetched=8 novel=18"
+  },
+  "wiki/products/infant-formula-powder-non-soy.md": {
+    "last_attempted_at": "2026-06-09T08:32:20.386Z",
+    "attempts": 1,
+    "last_outcome": "fetched=2 novel=16"
   }
 }

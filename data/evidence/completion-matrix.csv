@@ -139,6 +139,16 @@ beans,Al,populated,null,0,2026-05-16,10,10,0
 beans,Cr,populated,low,2,2026-05-16,10,8,0
 beans,Sn,populated,low,2,2026-05-16,10,8,0
 beans,U,populated,null,0,2026-05-16,10,10,0
+bee-pollen,Pb,pending,null,0,null,10,10,0
+bee-pollen,Cd,pending,null,0,null,10,10,0
+bee-pollen,iAs,pending,null,0,null,10,10,0
+bee-pollen,tAs,pending,null,0,null,10,10,0
+bee-pollen,tHg,pending,null,0,null,10,10,0
+bee-pollen,Ni,pending,null,0,null,10,10,0
+bee-pollen,Al,pending,null,0,null,10,10,0
+bee-pollen,Cr,missing,null,0,,10,10,0
+bee-pollen,Sn,pending,null,0,null,10,10,0
+bee-pollen,U,missing,null,0,,10,10,0
 beef,Pb,populated,medium,7,2026-05-16,10,3,0
 beef,Cd,populated,medium,7,2026-05-16,10,3,0
 beef,iAs,populated,null,0,2026-05-16,10,10,0

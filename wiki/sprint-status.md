@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-09T07:29:14.629Z
+updated: 2026-06-09T09:14:03.289Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -9,7 +9,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 ## Headline
 
-**1224 / 2560 cells done (47.8%)** — 1336 remaining
+**1224 / 2570 cells done (47.6%)** — 1346 remaining
 
 Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
@@ -21,7 +21,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | populated n=0 (declared gap) | 793 | ✅ done |
 | confidence: medium | 322 | ⏳ needs more sources |
 | confidence: low | 482 | ⏳ needs more sources |
-| pending / missing | 513 | 🔴 needs first research |
+| pending / missing | 523 | 🔴 needs first research |
 | other / unknown | 19 | 🟡 audit |
 
 ## Pipeline health
@@ -29,20 +29,21 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Component | State |
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
-| auto-fetched/ PDFs in queue | 759 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 87 ⚠️ |
-| Audit queue: pending-audit-spawn-failed | 79 (async lane) |
-| Wishlist: total downloaded historically | 48 |
+| auto-fetched/ PDFs in queue | 814 (fresh work for Codex/daemon ingest) |
+| Audit queue: pending | 71 ⚠️ |
+| Audit queue: pending-audit-spawn-failed | 97 (async lane) |
+| Wishlist: total downloaded historically | 1 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 5 commit(s) ahead of origin/main |
-| Commits last 1 hour | 36 |
-| Commits last 24 hours | 649 |
+| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Commits last 1 hour | 38 |
+| Commits last 24 hours | 674 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
 | Slug | Source-delta needed |
 |---|---|
 | baby-food | 100 |
+| bee-pollen | 100 |
 | beverages | 100 |
 | black-pepper | 100 |
 | bread | 100 |
@@ -51,12 +52,11 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | cereal-bars | 100 |
 | cereal-based-infant-formula | 100 |
 | cereal | 100 |
-| chitosan | 100 |
 
 ## Last commit
 
 ```
-ad95097 2 minutes ago — audit: islam2015-bangladesh-foods-heavy-metals revised per autonomous audit
+a76bed7 2 minutes ago — ingest: thomas2022-lead-game-meat-awareness fresh from MFK/June 8
 ```
 
 ## How to read this

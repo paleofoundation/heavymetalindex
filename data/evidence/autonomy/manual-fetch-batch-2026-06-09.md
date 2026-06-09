@@ -549,3 +549,123 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_04_Carpet_Degreaser_BBQ_Appliance/04_Carpet_Degreaser_BBQ_Appliance/Lavoue_2003_Metal_Degreasing_Occupational_Health.pdf`: kimi_corruption_pdf_mislabeled — filename labels Lavoué 2003 metal-degreasing occupational health but actual PDF is Starkweather 1998 UTK master's thesis on surfactant oil-removal physics (Triton X-100 / SDS, glass + stainless steel coupons); zero heavy-metals content, out of scope for HMI under either identity.
+
+## Tick 2026-06-09T07:30:16.455Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_05_Wipes_Odor_Green_Cleaners/05_Wipes_Odor_Green_Cleaners/Harding-Smith_Green_Clean_VOC_2024.pdf`: out_of_scope_voc_indoor_air_chemistry
+
+## Tick 2026-06-09T07:33:25.193Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_05_Wipes_Odor_Green_Cleaners/05_Wipes_Odor_Green_Cleaners/Steinemann_Fragranced_Products_EHP_2010.pdf`: out_of_scope_voc_news_forum_commentary — MFK_steinemann-fragranced-products-ehp-2010 is a 1-page Potera 2011 EHP News/Forum item about VOCs in fragranced consumer products; zero heavy-metals content; same disposition as the prior 2026-06-03 KADC_steinemann stop and the Harding-Smith 2024 VOC stop in the same household-05 sub-folder.
+
+## Tick 2026-06-09T07:36:37.997Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_06_Regulatory_EPA_GreenSeal/06_Regulatory_EPA_GreenSeal/Bello_Occupational_Exposures_Cleaning_2009.pdf`: off_topic_no_heavy_metals (Bello et al. 2009 is a correctly-labeled occupational-hygiene paper on cleaning-product VOCs/quats/2-BE/ethanolamines with zero heavy metals content; ingesting would require fabricating analyte data; logged to data/evidence/autonomy/manual-fetch-stops-2026-06-09.md)
+
+## Tick 2026-06-09T07:39:56.837Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `bcpp2017-ca-sb258-factsheet` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_06_Regulatory_EPA_GreenSeal/06_Regulatory_EPA_GreenSeal/California_SB258_Factsheet_2017.pdf)
+
+## Tick 2026-06-09T07:49:28.207Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `wve2017-ca-sb258-passage-summary` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_06_Regulatory_EPA_GreenSeal/06_Regulatory_EPA_GreenSeal/California_SB258_Right_to_Know_Summary.pdf)
+
+## Tick 2026-06-09T07:57:50.330Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_06_Regulatory_EPA_GreenSeal/06_Regulatory_EPA_GreenSeal/NIOSH_HHE_Hospital_Cleaning_2015-0053.pdf`: off_topic_no_heavy_metals — NIOSH HHE 2015-0053 measures only hydrogen peroxide, peracetic acid, and acetic acid; no heavy-metals content. Stop note appended to data/evidence/autonomy/manual-fetch-stops-2026-06-09.md.
+
+## Tick 2026-06-09T08:33:22.588Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `martincarrasco2023-breast-milk-infant-formula-review` (raw/Manual Fetch Discovery/martin-carrasco2023-breast-milk-infant-formula.pdf)
+
+## Tick 2026-06-09T08:45:24.095Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `silva2022-total-mercury-baby-food` (raw/Manual Fetch Discovery/silva2022-total-mercury-baby-food.pdf)
+
+## Tick 2026-06-09T08:59:20.322Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_07_Dermal_Exposure_Dish_Residue/07_Dermal_Exposure_Dish_Residue/Anselm_2022.pdf`: kimi_corruption_filename_mismatch_armstrong_2022_carbon_in_mineralised_plutons_out_of_scope
+
+## Tick 2026-06-09T09:02:32.111Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_07_Dermal_Exposure_Dish_Residue/07_Dermal_Exposure_Dish_Residue/Bello_2020.pdf`: kimi_corruption_filename_mismatch + out_of_scope_occupational_asthma_surveillance
+
+## Tick 2026-06-09T09:06:48.206Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_07_Dermal_Exposure_Dish_Residue/07_Dermal_Exposure_Dish_Residue/Parks_2020.pdf`: off_topic_no_heavy_metals — Parks 2020 (CMAJ, DOI 10.1503/cmaj.190819) measures only self-reported cleaning-product use frequency vs childhood asthma/wheeze/atopy in the CHILD cohort; zero heavy-metal analytical chemistry. Identity-clean (no existing wiki page). Stop note appended to data/evidence/autonomy/manual-fetch-stops-2026-06-09.md.
+
+## Tick 2026-06-09T09:10:02.676Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_08_Laundry_Bleach_Fabric/08_Laundry_Bleach_Fabric/HERA_LAS_Risk_Assessment_2013.pdf`: off_topic_no_heavy_metals — HERA_LAS_Risk_Assessment_2013.pdf is an industry risk assessment of LAS (Linear Alkylbenzene Sulphonate, CAS 68411-30-3), an organic surfactant. Zero heavy metals analytes anywhere in the report. Stop documented at data/evidence/autonomy/manual-fetch-stops-2026-06-09.md.
