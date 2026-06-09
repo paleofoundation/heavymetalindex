@@ -3,7 +3,7 @@ type: source
 raw_handle: MFK_li2017
 cite_key: li2017-jiangsu-rice-cadmium-transfer
 title: "Cadmium transfer from contaminated soils to the human body through rice consumption in southern Jiangsu Province, China"
-authors: [Li T, Chang Q, Yuan X, Li J, Ayoko GA, Frost RLW, Chen H, Zhang X, Song Y, Song W]
+authors: [Li T, Chang Q, Yuan X, Li J, Ayoko GA, Frost RL, Chen H, Zhang X, Song Y, Song W]
 year: 2017
 publication: "Environmental Science: Processes & Impacts"
 doi: "10.1039/C6EM00631K"
