@@ -309,3 +309,123 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_05_PB_Vanilla_Spices/05_PB_Vanilla_Spices/Impact of source, packaging and presence of food safety management system on heavy metals levels in.pdf`: dup_of_already_clean_page
+
+## Tick 2026-06-09T03:59:19.191Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_05_PB_Vanilla_Spices/05_PB_Vanilla_Spices/Survey of Aluminium Content of Processed Food Using Baking Powder (2015-2016).pdf`: dup_of_already_clean_page (takanashi2018-aluminium-baking-powder-japan already merge-enhanced + audited 2026-05-29; advisory routing_malformed entry is intentional design)
+
+## Tick 2026-06-09T04:03:50.209Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_05_PB_Vanilla_Spices/05_PB_Vanilla_Spices/Technical Support Document for Derivation of Health-Based Guidance Values for Metals in Spices.pdf`: dup_of_already_clean_page (nys-doh2019-metals-spices-guidance; PDF byte-identical to existing page's raw_path, page updated 2026-05-29 with post-2026-05-14 schema and applied audit, not in malformed/unresolved)
+
+## Tick 2026-06-09T04:07:17.458Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/Basketter_1993_Ni_Co_Cr_Consumer_Products_ACD.pdf`: kimi_corruption_pdf_mislabeled
+
+## Tick 2026-06-09T04:09:09.611Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/Basketter_2003_Ni_Cr_Co_Safe_Levels_Millennium.pdf`: kimi_corruption_pdf_mislabeled — Basketter_2003_Ni_Cr_Co_Safe_Levels_Millennium.pdf contains Eleftheriadis et al. 1988 bile-duct mucosa paper (HPB Surgery 1988;1:15-20), unrelated to heavy metals and out of scope for HMI; same corruption pattern as the prior 1993 Basketter stop in the same Kimi_Agent_Download Corruption Issue tree.
+
+## Tick 2026-06-09T04:11:07.582Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/Jang_2024_Invisible_Threats_Daily_Life_19_Metals_75_Korean_HCPs.pdf`: kimi_corruption_pdf_mislabeled — PDF content is Mehta/Woods/Akpotaire 2024 HIV-and-prospective-memory neuropsychology (doi:10.1080/13803395.2024.2350577), not the labeled Jang 2024 19-metals-in-75-Korean-HCPs paper; off-topic for HMI and cannot be ingested under either identity. Stop note appended to `data/evidence/autonomy/manual-fetch-stops-2026-06-09.md`.
+
+## Tick 2026-06-09T04:14:10.179Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/Vilaplana_1987_Cobalt_Content_Household_Cleaning_Products_Spain.pdf`: kimi_corruption_pdf_mislabeled (Vilaplana_1987_Cobalt_Content_Household_Cleaning_Products_Spain.pdf is actually BMJ 1981;282:141–142 correspondence on mastectomy counselling / breast-cancer chemo / spectacle-pricing — off-topic for HMI, no cobalt, no cleaning products, no Spain; fourth confirmed mislabel in the `_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/` sub-tree)
+
+## Tick 2026-06-09T04:38:10.688Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_02_Toilet_Bathroom_Descaler/02_Toilet_Bathroom_Descaler/Hostynek_Maibach_1988_Chromium_US_Household_Bleach.pdf`: MFK_hostynek-maibach-1988-chromium-us-household-bleach
+
+## Tick 2026-06-09T04:40:15.619Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/Bavcon_Kralj_2020_Dish_Handwashing_Contamination.pdf`: kimi_corruption_pdf_mislabeled
+
+## Tick 2026-06-09T04:42:07.881Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/Comber_Gunn_1996_Heavy_Metals_Sewage_Domestic.pdf`: kimi_corruption_pdf_mislabeled — PDF labeled `Comber_Gunn_1996_Heavy_Metals_Sewage_Domestic.pdf` actually contains Ziolko et al. 2011 CREST wastewater-treatment review (DOI `10.1080/10643380903140299`); seventh confirmed mislabel in the `Kimi_Agent_Download Corruption Issue` extraction tree.
+
+## Tick 2026-06-09T04:45:33.957Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/Cressey_Pattis_2014_Dishwasher_Powder_Risk_Assessment.pdf`: out_of_scope_no_heavy_metals — Cressey & Pattis 2014 is a correctly-labeled NZ ESR caustic-risk assessment of dishwasher powder (sodium carbonate, STPP, sodium percarbonate, alcohol ethoxylates), but contains zero HMI-target analyte data; documented in `data/evidence/autonomy/manual-fetch-stops-2026-06-09.md`. Distinct from the seven prior `kimi_corruption_pdf_mislabeled` stops in the same parent folder — file content matches filename here, the curation itself is off-topic.
+
+## Tick 2026-06-09T04:49:27.424Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/Fromme_2005_Organotin_House_Dust_Berlin.pdf`: kimi_corruption_pdf_mislabeled — Fromme_2005_Organotin_House_Dust_Berlin.pdf actually contains Lützhøft et al. 2012 SETAC abstract on Copenhagen catchment micropollutants (no organotin, no Berlin, no Fromme); off-topic for HMI
+
+## Tick 2026-06-09T04:51:25.112Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/Jenkins_Russell_1994_Heavy_Metals_Household_Washing_Products.pdf`: kimi_corruption_pdf_mislabeled — PDF labeled Jenkins/Russell 1994 actually contains Verstraete & Vlaeminck ZeroWasteWater wastewater-treatment keynote with no HMI-target analyte data; cannot ingest under labeled cite-key (wrong paper) and reframed cite-key (out of scope).

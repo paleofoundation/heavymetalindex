@@ -7,6 +7,86 @@ updated: 2026-06-09
 
 # Manual-fetch ingest stops — 2026-06-09
 
+## STOP MFK_fromme-2005-organotin-house-dust-berlin
+
+- **Reason:** `kimi_corruption_pdf_mislabeled` — paper-internal data-integrity issue (the file content does not match the file label, and the actual content is off-topic for HMI). Same pattern as multiple prior stops in the `Kimi_Agent_Download Corruption Issue/_extracted_household_*` extraction tree documented below.
+- **PDF path:** `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/Fromme_2005_Organotin_House_Dust_Berlin.pdf`
+- **SHA-256:** `70ff5411931b821947dc70dcbfd1aa7ae9abdd7857e287ed2808a63fb5c46640`
+- **Folder context:** `Kimi_Agent_Download Corruption Issue` — known-corrupted batch from the Kimi download flow; this is the first stop for the `_extracted_household_03_Dish_Soap_Dishwasher` sub-tree, extending the corruption pattern to a third extracted household sub-folder.
+- **Labeled identity (per filename):** Fromme et al. 2005, organotin compounds in house dust in Berlin (Germany). Would be in scope for HMI (organotin → tin/Sn occurrence, indoor dust matrix, dermal/inhalation/ingestion contact pathway, German jurisdiction).
+- **Actual content (per PDF read, pages 1–7 of 85, plus pdfinfo confirming an 85-page A4 PDF produced by iText 4.2.0 on 2017-12-20):**
+  - Cover page (DTU Library / Technical University of Denmark publisher's PDF): title "Comparing chemical analysis with literature studies to identify micropollutants to be treated or upstream source controlled in a catchment of Copenhagen (DK)"
+  - Authors: H-C. Holten Lützhøft, H. Birch, E. Eriksson, P. S. Mikkelsen (Technical University of Denmark, Kgs. Lyngby)
+  - Published in: *Abstract Book: 6th SETAC World Congress / SETAC Europe 22nd Annual Meeting* (2012), pp. 287–288
+  - Document version: Publisher's PDF (Version of record), accessed via DTU Orbit
+  - DOI: none assigned (conference abstract)
+  - Topic: stormwater micropollutant identification in a Copenhagen catchment under the EU Water Framework Directive — chemical-analysis vs literature-review approaches to prioritising micropollutants requiring treatment or upstream source control. Heavy metals are mentioned only as a single line item ("trace metals (Cd, Cu, Pb, Zn, Al, Fe, Cr, Ni, Sn)") in a single abstract (TH 306, Bersinger et al., Pau urban catchment) buried inside the 85-page conference proceedings dump bundled into this PDF; the bulk of the content is wastewater treatment plant performance, organic micropollutants (pharmaceuticals, pesticides, surfactants, PAHs, dyes), bioassay-based whole-effluent assessment, illicit drugs in surface water, dishwasher detergent ecotoxicity, etc. No organotin-in-house-dust data, no Berlin sampling, no Fromme et al. authorship anywhere in the read pages.
+- **Identity checks (three-way) against `wiki/sources/`:**
+  - DOI grep — no DOI to grep (conference abstract; the wrapping PDF is the DTU Orbit deposit, no DOI on the abstract itself).
+  - `raw_handle: MFK_fromme-2005` grep → 0 hits.
+  - `ls wiki/sources/ | grep -iE "fromme|lutzhoft|lützhøft|lutzhof"` → 0 hits. Neither the labeled-identity author (Fromme) nor any actually-present author (Lützhøft, Birch, Eriksson, Mikkelsen) is in the corpus.
+  - Conclusion: not a duplicate in either direction; mislabeled-content situation.
+- **Why this is a STOP, not a quarantine-ingest:**
+  - Cannot ingest as Fromme 2005 — the PDF does not contain that paper; writing a Fromme source page from a missing source would be fabrication (violates `verify, don't fabricate`).
+  - Cannot ingest as Lützhøft 2012 — the actual content is a 1-page SETAC conference abstract on stormwater micropollutant prioritisation methodology, with no measured heavy-metal concentrations, no occurrence data, no analytical methods specific to metals, and no contamination-profile contribution. Off-topic for HMI; the autonomous skill is not authorized to ingest off-topic papers, especially when the file label asserts a different (in-scope) identity.
+- **Pattern note:** This is the third extracted-household sub-folder in the `Kimi_Agent_Download Corruption Issue` tree to surface a labeled-vs-content mismatch (after `_extracted_household_01_AP_Countertop_Tile_Floor/` Jang/Mehta and Basketter/Ocaña-Morgner stops). The corruption appears systematic across the extraction tree rather than incidental to one sub-folder; the case for quarantining the entire `Kimi_Agent_Download Corruption Issue` tree out of the manual-fetch loop continues to strengthen.
+- **Action:** none. No new ingest, no commit, no audit-queue entry. Karen-side resolution: either (a) the real Fromme 2005 Chemosphere paper (Fromme H, Mattulat A, Lahrz T, Rüden H, "Occurrence of organotin compounds in house dust in Berlin (Germany)") needs to be re-fetched into the same `_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/` directory under the same filename, or (b) the entire `Kimi_Agent_Download Corruption Issue` extraction tree should be quarantined out of the manual-fetch loop until the corruption is reconciled.
+
+
+
+## STOP MFK_jang-2024-invisible-threats-daily-life-19-metals-7
+
+- **Reason:** `kimi_corruption_pdf_mislabeled` — paper-internal data-integrity issue (the file content does not match the file label, and the actual content is off-topic for HMI). Same pattern as the prior `Basketter_1993_Ni_Co_Cr_Consumer_Products_ACD.pdf` stop in the same `Kimi_Agent_Download Corruption Issue/_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/` extraction tree below in this file.
+- **PDF path:** `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/Jang_2024_Invisible_Threats_Daily_Life_19_Metals_75_Korean_HCPs.pdf`
+- **SHA-256:** `417a6f532206cdc604d0032cfa7162da0a01e9bc2712e14e238f56b75c3c5cc8`
+- **Folder context:** `Kimi_Agent_Download Corruption Issue` — a known-corrupted batch from the Kimi download flow; multiple prior stops in this same parent folder document the corruption pattern.
+- **Labeled identity (per filename):** Jang 2024, "Invisible Threats in Daily Life: 19 metals in 75 Korean HCPs (household consumer products)." Would be in scope for HMI (multi-metal occurrence in household consumer products — countertop, tile, floor — i.e., dermal/inhalation/ingestion contact pathways, Korean jurisdiction).
+- **Actual content (per PDF read, all 11 pages):**
+  - Title: "An Evaluation of the Moderating Effects of Routine and Busyness on the Relationship Between Prospective Memory and Everyday Functioning in Older Persons with HIV Disease"
+  - Authors: Dhruvi M Mehta (Rush Alzheimer's Disease Center), Steven Paul Woods (corresponding; Dept of Psychology, University of Houston), Nneka Akpotaire (Dept of Psychology, University of Houston-Clear Lake)
+  - Journal: *Journal of Clinical and Experimental Neuropsychology* 2024;46(4):341–351
+  - DOI: `10.1080/13803395.2024.2350577`
+  - PMC author manuscript; HHS Public Access (PMC 2025 May 04)
+  - Funding: NIH R01-MH073419, P30-MH62512
+  - Topic: cross-sectional analysis (n=145 older PLWH aged 50–79) of whether contextual factors of routine and busyness moderate the relationship between strategic/executive aspects of prospective memory (CAMPROMPT Time-based PM and Event-based PM) and everyday functioning (Lawton & Brody ADLs + Karnofsky Performance Status; self-report cognitive symptoms via FrSBe, POMS, PRMQ). Conducted in the UCSD HIV Neurobehavioral Research Program. No heavy-metals content, no contamination measurements, no exposure data, no Korean cohort, no consumer-product sampling.
+- **Identity checks (three-way) against `wiki/sources/`:**
+  - DOI grep `10.1080/13803395.2024.2350577` → 0 hits.
+  - Filename/cite-key grep for `jang` → 0 hits (false positives: meng/ecetoc/bhattacharya non-author matches).
+  - Filename/cite-key grep for `mehta`, `woods.*prosp`, `invisible.threats` → 0 hits for Mehta 2024 neuropsych.
+  - Conclusion: not a duplicate in either direction; this is genuinely a mislabeled-content situation.
+- **Why this is a STOP, not a quarantine-ingest:**
+  - Cannot ingest as Jang 2024 — the PDF does not contain that paper, and writing a Jang source page from a missing source would be fabrication (violates `verify, don't fabricate`).
+  - Cannot ingest as Mehta/Woods/Akpotaire 2024 — the paper is off-topic for HMI (HIV-cognition neuropsychology, no metals, no contamination, no exposure data), and the autonomous skill is not authorized to ingest off-topic papers, especially when the file label asserts a different (in-scope) identity. An ingest under the neuropsychology-paper identity would silently drop the Jang paper from the retrieval queue while polluting the corpus with off-topic content.
+- **Action:** none. No new ingest, no commit. Karen-side resolution: either (a) the real Jang 2024 PDF needs to be re-fetched into the same `_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/` directory under the same filename, or (b) the entire `Kimi_Agent_Download Corruption Issue` extraction tree should be quarantined out of the manual-fetch loop until the corruption is reconciled. Same skip pattern as other `kimi_corruption_pdf_mislabeled` stops in this file. Two label-vs-content mismatches in the same extraction subdirectory in one day strengthens the case for option (b) — the entire extracted_household tree appears to have stuffed neuropsychology / immunology / off-topic PDFs into heavy-metal filename slots.
+
+
+
+## STOP MFK_basketter-1993-ni-co-cr-consumer-products-acd
+
+- **Reason:** `kimi_corruption_pdf_mislabeled` — paper-internal data-integrity issue (the file content does not match the file label, and the actual content is off-topic for HMI).
+- **PDF path:** `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/Basketter_1993_Ni_Co_Cr_Consumer_Products_ACD.pdf`
+- **SHA-256:** `d45519c9a15bf64729a3fcc9cc1152c04aab1690760a74a0f22f5c4015dfadb1`
+- **Folder context:** `Kimi_Agent_Download Corruption Issue` — a known-corrupted batch from the Kimi download flow (multiple prior stops in this same parent folder document the corruption pattern).
+- **Labeled identity (per filename):** Basketter 1993, nickel/cobalt/chromium in consumer products, allergic contact dermatitis (ACD). Would be in scope for HMI (metals/nickel, metals/chromium, products/household, occupational/consumer dermal exposure).
+- **Actual content (per PDF read, pages 1–6 of 11):**
+  - Title: "Interactions between dendritic cells and CD4⁺ T cells during *Plasmodium* infection"
+  - Authors: Carlos Ocaña-Morgner, Kurt A Wong, Ana Rodriguez (NYU School of Medicine, Dept of Medical Parasitology, + TU Dresden Institute of Physiological Chemistry)
+  - Journal: *Malaria Journal* 2008;7:88
+  - DOI: `10.1186/1475-2875-7-88`
+  - License: CC BY 2.0 (BMC Open Access)
+  - Topic: mouse-model immunology — *Plasmodium yoelii*-infected erythrocytes' effect on dendritic-cell MHC-I vs MHC-II antigen presentation and naïve CD4⁺ T cell activation. Methods are FACS, immunofluorescence, ELISA-detected IL-2, time-lapse video microscopy. No heavy-metals content, no contamination measurements, no occupational/consumer exposure data.
+- **Identity checks (three-way) against `wiki/sources/`:**
+  - DOI grep `10.1186/1475-2875-7-88` → 0 hits.
+  - Filename/cite-key grep for `basketter` → 0 hits.
+  - Filename/cite-key grep for `ocana` or `morgner` → only `soto-ocana2024-metal-availability-early-life-microbiome.md` (different author, different paper). 0 hits for Ocaña-Morgner 2008.
+  - Conclusion: not a duplicate in either direction; this is genuinely a mislabeled-content situation.
+- **Why this is a STOP, not a quarantine-ingest:**
+  - Cannot ingest as Basketter 1993 — the PDF does not contain that paper, and writing a Basketter source page from a missing source would be fabrication (violates `verify, don't fabricate`).
+  - Cannot ingest as Ocaña-Morgner 2008 malaria immunology — the paper is off-topic for HMI (no heavy metals, no contamination, no exposure data), and the autonomous skill is not authorized to ingest off-topic papers, especially when the file label asserts a different (in-scope) identity. An ingest under the malaria-paper identity would silently drop the Basketter paper from the retrieval queue while polluting the corpus with off-topic content.
+- **Action:** none. No new ingest, no commit. Karen-side resolution: either (a) the real Basketter 1993 PDF needs to be re-fetched into `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/` under the same filename, or (b) the entire `Kimi_Agent_Download Corruption Issue` extraction tree should be quarantined out of the manual-fetch loop until the corruption is reconciled. Same skip pattern as other Kimi-corruption-folder stops, except this one is a label-vs-content mismatch rather than a byte-identical duplicate.
+
+
+
 ## STOP MFK_exposure-assessment-of-dietary-cadmium-findings-fr (he2013-shanghai-cadmium)
 
 - **Reason:** `dup_of_already_clean_page`
@@ -380,3 +460,210 @@ updated: 2026-06-09
   - Byte-identical. Same PLOS ONE 2024 Moussa et al. paper (DOI 10.1371/journal.pone.0307884, CC BY) re-surfaced under the June-8 Kimi-corruption-folder `_extracted_condiments_05_PB_Vanilla_Spices/` extraction tree. The existing page's `raw_path` points at the Marker-converted markdown `raw/markdown/FM_11343411/FM_11343411.md`, which is the FM_-pipeline rendering of this same PDF; `raw_handle: FM_11343411` is preserved.
 - **Routing status:** Not in `data/evidence/routing_unresolved.csv`. Not in `data/evidence/routing_malformed.csv`. Present in `data/evidence/product_source_routing_audit.csv` at `spices` as `direct_evidence`.
 - **Action:** No ingest, no audit, no commit. Existing page remains authoritative.
+
+## STOP MFK_survey-of-aluminium-content-of-processed-food-usin (takanashi2018-aluminium-baking-powder-japan)
+
+- **Reason:** `dup_of_already_clean_page`
+- **Existing page:** `wiki/sources/takanashi2018-aluminium-baking-powder-japan.md`
+- **Existing-page state:** `updated: 2026-05-29`, post-2026-05-14 schema, full Part 6 body (4-group sample structure narrative, complete Key numbers covering 41/123 detection, per-group detection rates 13% / 35% / 60% / 12%, within-confectionery sub-class breakdown 56% wagashi vs 14% non-Japanese, 2009 → 2011–2014 → 2015–2016 non-Japanese-confectionery detection-rate trend, four PTWI-exceeding-at-one-serving samples with per-piece weights and intake calculations, five PTWI-approaching samples, JECFA-67 / JECFA-74 / Japan FSC 2017 reference exposure benchmarks, imported-vs-domestic takoyaki concentration ranges, same-product re-purchase comparison, China per-class Al limits cited via JETRO, source-author 0.1 mg/g use-cap worked example, Methods brief naming Milestone General ETHOS One digester / PerkinElmer Optima 7300DV ICP-OES / Wako HNO3 / Kanto Chemical Al standard / MHLW Shokuan-Hatsu 0926001 method-validation guideline as Part 12 Exception 2 vendor names, Implications reworded to remove two prior Part 2 wiki/HMTc-firewall slips, Verification notes documenting the full merge-enhance pass and the prior subagent audit that surfaced and applied invalid-slug fixes). Subagent audit recorded 2026-05-29 with verdict REVISE; 4 findings, 2 applied (products replaced with `[[products/bread-and-baked-goods]]` + `[[products/snacks-crackers-biscuits]]`, ingredients set to `[]` because no in-vocab slug for baking powder or wheat flour exists that does not misrepresent the Al source), 0 rejected, 2 noted-not-changed (Karen-curatorial new-slug proposals for baking-powder / wheat-flour ingredient pages and confectionery / bakery product pages, which are Step 0 Lock decisions per Part 10).
+- **Identity verification:**
+  - SHA-256 of `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_05_PB_Vanilla_Spices/05_PB_Vanilla_Spices/Survey of Aluminium Content of Processed Food Using Baking Powder (2015-2016).pdf` = `6f74f4a2ab52ffe079fd5d4c25dc2da8442276a30347d3166040734848004a1f`
+  - SHA-256 of sibling copy `raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Survey of Aluminium Content of Processed Food Using Baking Powder (2015-2016).pdf` = `6f74f4a2ab52ffe079fd5d4c25dc2da8442276a30347d3166040734848004a1f`
+  - Both bytes-identical to the existing page's `raw_sha256`. Same Takanashi et al. 2018 Shokuhin Eiseigaku Zasshi paper (DOI 10.3358/shokueishi.59.275, Vol. 59 No. 6 pp. 275–281) re-surfaced under the June-8 Kimi-corruption-folder `_extracted_condiments_05_PB_Vanilla_Spices/` extraction tree; existing page's `raw_path` points at the sibling copy under `raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/`.
+- **Routing status:** Present in `data/evidence/routing_malformed.csv` at `advisory` severity only — entry reads `advisory,,,ingredients,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.` Not present in `data/evidence/routing_unresolved.csv`. The advisory entry is a documented and intentional design choice from the 2026-05-29 audit cycle: the previous Claude+subagent pass deliberately set `ingredients: []` because no in-vocab slug for "baking powder" or "wheat flour" exists that captures the Al source (alum / aluminium-potassium-sulfate is a leavening-agent food additive, not the wheat flour itself); the audit-queue notes record `missing-slug proposals surfaced to Karen` as a Step 0 Lock / Part 10 curatorial decision. This advisory-severity malformed entry does NOT meet the "in malformed" merge-enhance re-trigger because it is an already-resolved-by-design state, not a defect requiring re-ingest.
+- **Audit-queue status:** already present in `data/evidence/audit-queue.csv` from the 2026-05-29 cycle with `status=audited-revised`, `audit_verdict=REVISE`, `audit_applied_at=2026-05-29`.
+- **PDF content check:** read all 7 pages of the PDF; abstract Al-detection figure (41/123 at 0.01–0.40 mg/g), Table 1 (Aluminium content in food samples, complete by-product breakdown), Fig. 1 (per-group detection rates and content distributions), Fig. 2 (Japanese-vs-non-Japanese confectionery 2009 → 2011–2014 → 2015–2016 trend), Fig. 3 (same-product re-purchase comparison), Fig. 4 (per-piece intake bar chart with 32 mg PTWI line), Methods (Milestone ETHOS One digester, PerkinElmer Optima 7300DV ICP-OES, Wako HNO3, Kanto Chemical Al standard, MHLW Shokuan-Hatsu 0926001 validation guideline, 0.01 mg/g LOQ per 2003 alum testing method), regulatory narrative (JECFA-67 1 mg/kg/week → JECFA-74 2 mg/kg/week → Japan FSC 2017 TWI 2.1 mg/kg/week, MHLW 0.1 mg/g use cap proposal, China per-class limits per JETRO) — all values match the existing page's Key numbers and Methods sections verbatim. No defects.
+- **Action:** No ingest, no audit, no commit. Existing page remains authoritative.
+
+## STOP MFK_technical-support-document-for-derivation-of-healt (nys-doh2019-metals-spices-guidance)
+
+- **Reason:** `dup_of_already_clean_page`
+- **Existing page:** `wiki/sources/nys-doh2019-metals-spices-guidance.md`
+- **Existing-page state:** `updated: 2026-05-29`, post-2026-05-14 schema, full Part 6 body (NYS DOH Bureau of Toxic Substance Assessment narrative, Table 1 complete iAs/Cd/Cr-VI/Pb noncancer-child / noncancer-adult / cancer health-based guidance values plus Pb 2.64 mg/kg comparison value with Table B.1 footnote b framing as screening comparison value not threshold, recommended-value enumeration with which scenario governs each metal, Table B.1 selected oral toxicity values with sources (US EPA IRIS iAs, CA EPA 2005 chRfD for Cd, ATSDR 2012b for Cr-VI, NYS DOH IEUBK-derived for Pb), 8-spice FCID list, child and adult body-weight-normalized total spice consumption rates with 20% RSC, race/ethnic-stratified consumption ranges from Supplementary Tables 10 & 11 with sesame-included and sesame-excluded breakdowns, sesame-seed dominance in <1 year band, EPA-EFH 2011 age-band body-weight ladder, Methods brief covering both noncancer and cancer HBGV equations with FCID WWEIA-FCID 2005-10 single-day eaters-only ingestion data and 16 exposure scenarios, dose-response selection rationale per metal including NYS-DOH IEUBK-derived Pb noncancer from 1 mcg/dL BLL POD via CA EPA 2009 framework, cancer toxicity-value sourcing from NYS HHFS 2015a-d unit risks, key limitations on per-spice vs per-product scope and FCID coverage gaps for oregano/cumin, Implications across certification/courses/app surfaces, comprehensive Verification notes documenting the merge-enhance pass and the 2026-05-29 audit-application pass). Subagent audit recorded 2026-05-29 with verdict REVISE; 5 findings, 4 applied (Pb 2.64 mg/kg cancer comparison value added to Key numbers Table 1, Implications/Certification "far below typical international regulatory maxima" cross-source comparative removed, Implications/App "2-4×" derived-multiplier framing replaced with direct race/ethnic-range citation, dead `[[health/vulnerable-populations]]` wikilink removed), 1 documented in verification notes (aspirational `[[regulations/nys-metals-spices-guidance-2019]]` slug preserved), 0 rejected.
+- **Identity verification:**
+  - SHA-256 of `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_05_PB_Vanilla_Spices/05_PB_Vanilla_Spices/Technical Support Document for Derivation of Health-Based Guidance Values for Metals in Spices.pdf` = `1a3a84534cb585b5e826b5ee9d93a18535a681a0453fadc30f59ae8a657e5920`
+  - SHA-256 of sibling copy `raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Technical Support Document for Derivation of Health-Based Guidance Values for Metals in Spices.pdf` = `1a3a84534cb585b5e826b5ee9d93a18535a681a0453fadc30f59ae8a657e5920`
+  - Byte-identical. Same NYS DOH 2019 Bureau of Toxic Substance Assessment / Center for Environmental Health methodology document (no DOI; `no_doi_assigned: true`) re-surfaced under the June-8 Kimi-corruption-folder `_extracted_condiments_05_PB_Vanilla_Spices/` extraction tree; existing page's `raw_path` points at the sibling copy under `raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/`.
+- **Routing status:** Not present in `data/evidence/routing_unresolved.csv`. Not present in `data/evidence/routing_malformed.csv`. Generates 0 product-page rows in `data/evidence/product_source_routing_audit.csv`, consistent with sibling spice-guidance sources (Spices is not an HMTc-locked product slug; the source declares `products: ["[[products/spices]]"]` but the routing layer correctly emits no rows until the spices product receives Step 0 Lock).
+- **Audit-queue status:** already present in `data/evidence/audit-queue.csv` from the 2026-05-29 cycle with `status=audited-revised`, `audit_verdict=REVISE`, `audit_applied_at=2026-05-29`, commit hashes 5b2a96d (ingest, bundled with fischer due to daemon concurrent commit) and b5eb8ff (audit-application).
+- **Action:** No ingest, no audit, no commit. Existing page remains authoritative.
+
+## STOP MFK_basketter-2003-ni-cr-co-safe-levels-millennium
+
+- **Reason:** `kimi_corruption_pdf_mislabeled` — paper-internal data-integrity issue (the file content does not match the file label, and the actual content is off-topic for HMI). Same pattern as the prior `MFK_basketter-1993-ni-co-cr-consumer-products-acd` stop higher in this file; this is a different physical PDF (distinct SHA) but the same label-vs-content corruption in the same `_extracted_household_01_AP_Countertop_Tile_Floor/` extraction tree.
+- **PDF path:** `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/Basketter_2003_Ni_Cr_Co_Safe_Levels_Millennium.pdf`
+- **SHA-256:** `c7cbd8cb410139c40ad4477f6f25acccfbb1b45fc414db8b55c21dad3ba207e2` (distinct from the 1993 mislabel at `d45519c9a15bf64729a3fcc9cc1152c04aab1690760a74a0f22f5c4015dfadb1`).
+- **Folder context:** `Kimi_Agent_Download Corruption Issue` — the same known-corrupted Kimi batch where the 1993 Basketter mislabel and other label/content mismatches were previously documented in this file.
+- **Labeled identity (per filename):** Basketter 2003, nickel/cobalt/chromium "safe levels" at the millennium, presumably the J Eur Acad Dermatol Venereol / Contact Dermatitis-genre threshold paper. Would be in scope for HMI (metals/nickel, metals/chromium, metals/cobalt, dermal-sensitization threshold derivation relevant to children's jewelry, costume cosmetics, household exposure).
+- **Actual content (per PDF read, pages 1–6 of 6):**
+  - Title: "Common Bile-Duct Mucosa in Choledochoduodenostomy Patients — Histological and Histochemical Study"
+  - Authors: E. Eleftheriadis, V. Tzioufa, K. Kotzampassi, H. Aletras (Departments of Surgery and Pathology, University of Thessaloniki, Greece)
+  - Journal: *HPB Surgery* 1988;1:15–20
+  - Publisher: Harwood Academic Publishers GmbH (© 1988)
+  - DOI: not printed on the article; the journal is open-access via Hindawi's HPB Surgery archive but no DOI is asserted in-document. (Modern reprint indexes the paper as `10.1155/1988/87410` but that was not verifiable from the PDF itself.)
+  - Topic: nine human volunteers, 1–12 years post-choledochoduodenal-anastomosis (CDA) for CBD lithiasis, biopsy of common bile-duct mucosa with H&E + Alcian-blue/PAS + high-iron-diamine histochemistry. Findings are hyperplasia of superficial epithelium, metaplastic goblet cells with acid sialomucins, pyloric-like (Brunner-type) gland formation with neutral mucins, inflammatory infiltrate and fibrosis — framed as adaptive mucosal differentiation to gastric acid/food reflux. No heavy-metals content, no contamination measurements, no occupational or consumer exposure data, no analytical chemistry.
+- **Identity checks (three-way) against `wiki/sources/`:**
+  - DOI grep `10.1155/1988/87410` and `hpb surgery` / `eleftheriadis` → 0 hits.
+  - Filename/cite-key grep for `basketter` → 0 hits in `wiki/sources/`.
+  - Filename/cite-key grep for `eleftheriadis` → 0 hits.
+  - Conclusion: not a duplicate in either direction; this is genuinely a mislabeled-content situation distinct from the 1993 Basketter case (different actual paper inside).
+- **Why this is a STOP, not a quarantine-ingest:**
+  - Cannot ingest as Basketter 2003 — the PDF does not contain that paper, and writing a Basketter source page from a missing source would be fabrication (violates `verify, don't fabricate`).
+  - Cannot ingest as Eleftheriadis 1988 bile-duct-mucosa adaptation — the paper is off-topic for HMI (no heavy metals, no contamination, no exposure data, no environmental or food-supply linkage), and the autonomous skill is not authorized to ingest off-topic papers, especially when the file label asserts a different (in-scope) identity. An ingest under the surgical-histology identity would silently drop the Basketter paper from the retrieval queue while polluting the corpus with off-topic content.
+- **Action:** none. No new ingest, no commit. Karen-side resolution: same options as the 1993 Basketter stop — either (a) re-fetch the real Basketter 2003 Ni/Cr/Co safe-levels paper into the same path under the same filename, or (b) quarantine the entire `Kimi_Agent_Download Corruption Issue` extraction tree out of the manual-fetch loop until the corruption is reconciled. The fact that two distinct Basketter filenames in the same `_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/` directory both contain unrelated content reinforces that this sub-tree's contents should be treated as untrusted at the file-identity level.
+
+
+
+## STOP MFK_vilaplana-1987-cobalt-content-household-cleaning-p
+
+- **Reason:** `kimi_corruption_pdf_mislabeled` — paper-internal data-integrity issue (the file content does not match the file label, and the actual content is off-topic for HMI). Same pattern as the prior `Jang_2024_Invisible_Threats_Daily_Life_19_Metals_75_Korean_HCPs.pdf`, `Basketter_1993_Ni_Co_Cr_Consumer_Products_ACD.pdf`, and `Basketter_2003_Ni_Cr_Co_Safe_Levels_Consumer_Products.pdf` stops in this same `_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/` extraction sub-tree above in this file. Fourth confirmed mislabel in the same sub-tree.
+- **PDF path:** `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/Vilaplana_1987_Cobalt_Content_Household_Cleaning_Products_Spain.pdf`
+- **SHA-256:** `cb2ceed3fb8ffcf347f93fe8adb555c0b8802274b7f7d43e9c35e120f28d870d`
+- **Folder context:** `Kimi_Agent_Download Corruption Issue` — a known-corrupted batch from the Kimi download flow; multiple prior stops in this same parent folder document the corruption pattern.
+- **Labeled identity (per filename):** Vilaplana 1987, "Cobalt Content of Household Cleaning Products, Spain." Would be in scope for HMI (cobalt occurrence in household cleaning products — dermal/inhalation exposure pathway, Spanish jurisdiction).
+- **Actual content (per PDF read, both pages of 2):**
+  - Title: "CORRESPONDENCE" section of *British Medical Journal* Volume 282, 10 January 1981, pages 141–142.
+  - Letters cover: effect of counselling on psychiatric morbidity associated with mastectomy (Pettingale, Greer, Morris, Watson — King's College Hospital); adjuvant chemotherapy for breast cancer (Fennelly, Cantwell — St Vincent's Hospital, Dublin); chemotherapy in pancreatic cancer (Reynolds, Allen-Mersh — Charing Cross Hospital; Slater); spectacle problems (Hamblin, Ruben, Wilson, Smalley, Wilson, Schofield).
+  - Journal: *British Medical Journal* 1981;282:141–142.
+  - Wrong author, wrong year (1981 not 1987), wrong country (UK not Spain), wrong topic (oncology / spectacle-pricing correspondence, not cobalt in cleaning products), wrong document type (correspondence letters, not a primary occurrence study). No cobalt content, no household cleaning products, no Spain, no heavy-metals content, no contamination measurements, no occurrence data.
+- **Identity checks (three-way) against `wiki/sources/`:**
+  - DOI/citation grep `10.1136/bmj.282` → 0 hits.
+  - Filename/cite-key grep for `vilaplana` → 0 hits.
+  - Filename/cite-key grep for `pettingale`, `fennelly`, `reynolds-1981`, `slater-1981` → 0 hits.
+  - Conclusion: not a duplicate in either direction; this is genuinely a mislabeled-content situation.
+- **Why this is a STOP, not a quarantine-ingest:**
+  - Cannot ingest as Vilaplana 1987 — the PDF does not contain that paper, and writing a Vilaplana source page from a missing source would be fabrication (violates `verify, don't fabricate`).
+  - Cannot ingest as BMJ 1981 oncology / spectacle-pricing correspondence — the content is off-topic for HMI (no heavy metals, no contamination, no exposure data, no environmental or food-supply linkage), and the autonomous skill is not authorized to ingest off-topic papers, especially when the file label asserts a different (in-scope) identity. An ingest under the BMJ-correspondence identity would silently drop the Vilaplana paper from the retrieval queue while polluting the corpus with off-topic content.
+- **Action:** none. No new ingest, no commit. Karen-side resolution: same options as the prior Kimi-corruption stops — either (a) re-fetch the real Vilaplana 1987 cobalt-in-cleaning-products paper into the same path under the same filename, or (b) quarantine the entire `Kimi_Agent_Download Corruption Issue` extraction tree (especially the `_extracted_household_01_AP_Countertop_Tile_Floor/01_AP_Countertop_Tile_Floor/` sub-tree, now four-for-four on mislabels) out of the manual-fetch loop until the corruption is reconciled. The accumulation of four distinct mislabels in the same sub-tree in this file strongly favors option (b) — the sub-tree's filename-to-content mapping is unreliable and the entire sub-tree should be skipped at the wrapper level.
+
+## STOP MFK_hostynek-maibach-1988-chromium-us-household-bleach
+
+- **Reason:** `kimi_corruption_pdf_mislabeled` — paper-internal data-integrity issue (the file content does not match the file label, and the actual content is off-topic for HMI). First confirmed mislabel in the `_extracted_household_02_Toilet_Bathroom_Descaler/02_Toilet_Bathroom_Descaler/` sub-tree, extending the documented corruption pattern beyond the `_01_AP_Countertop_Tile_Floor/` sub-tree (which is now four-for-four on mislabels per the four prior stops above in this file). The `Kimi_Agent_Download Corruption Issue` parent folder is the labelled corruption bucket, and the corruption now spans at least two sibling extraction sub-trees.
+- **PDF path:** `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_02_Toilet_Bathroom_Descaler/02_Toilet_Bathroom_Descaler/Hostynek_Maibach_1988_Chromium_US_Household_Bleach.pdf`
+- **SHA-256:** `880fb6d80cbfb70a4387064028d8b950ee032cca376d47876ac911831174114a`
+- **Folder context:** `Kimi_Agent_Download Corruption Issue` — a known-corrupted batch from the Kimi download flow; multiple prior stops in this same parent folder document the corruption pattern.
+- **Labeled identity (per filename):** Hostynek & Maibach 1988, "Chromium, US Household Bleach." Would be in scope for HMI (chromium occurrence in household bleach — dermal/inhalation/ingestion contact pathway, US jurisdiction; Maibach is a recognized contact-dermatitis researcher whose chromium-in-consumer-products work is genuinely in scope).
+- **Actual content (per PDF read, single-page document):**
+  - Source: *British Medical Journal* Volume 283, 19 September 1981, pages 767–770.
+  - Pieces on the page:
+    - "Sex Problems in Practice: Homosexuality — Misconceptions and problems" by Richard Bath & John Sketchley (BLAT Centre for Health and Medical Education, British Medical Association, London W1).
+    - "Unemployment in My Practice" by John Wilson, Carrickfergus, Co Antrim (rural NI general practice; commentary on rising unemployment in early-1980s Northern Ireland and its effect on a GP's caseload).
+    - "Clinical curio: sugaring the pill" (anonymous short note).
+    - "Searching for a practice" (Dr Dickinson, Indian-trained GP, on finding a UK general-practice position; with editor's note "Eds, BMJ").
+  - Wrong author (Bath/Sketchley/Wilson, not Hostynek/Maibach), wrong year (1981 not 1988), wrong country focus (UK general practice, not US household products), wrong topic (general-practice commentary on homosexuality, unemployment, and practice-hunting, not chromium in bleach), wrong document type (BMJ commentary/correspondence column, not a primary occurrence study). No chromium content, no bleach, no household consumer products, no heavy-metals content, no contamination measurements, no occurrence data.
+- **Identity checks (three-way) against `wiki/sources/`:**
+  - DOI grep `10.1136/bmj.283` and Hostynek/Maibach 1988 DOI candidates → 0 hits.
+  - Filename/cite-key grep for `hostynek` → 0 hits.
+  - Filename/cite-key grep for `bath-1981`, `sketchley`, `wilson-1981-carrickfergus` → 0 hits.
+  - Conclusion: not a duplicate in either direction; this is genuinely a mislabeled-content situation.
+- **Why this is a STOP, not a quarantine-ingest:**
+  - Cannot ingest as Hostynek & Maibach 1988 — the PDF does not contain that paper, and writing a Hostynek/Maibach source page from a missing source would be fabrication (violates `verify, don't fabricate`).
+  - Cannot ingest as BMJ 1981 general-practice commentary — the content is off-topic for HMI (no heavy metals, no contamination, no exposure data, no environmental or food-supply linkage), and the autonomous skill is not authorized to ingest off-topic papers, especially when the file label asserts a different (in-scope) identity. An ingest under the BMJ-commentary identity would silently drop the Hostynek/Maibach paper from the retrieval queue while polluting the corpus with off-topic content.
+- **Action:** none. No new ingest, no commit. Karen-side resolution: same options as the prior Kimi-corruption stops — either (a) re-fetch the real Hostynek & Maibach 1988 chromium-in-US-household-bleach paper into the same path under the same filename, or (b) quarantine the entire `Kimi_Agent_Download Corruption Issue` extraction tree out of the manual-fetch loop until the corruption is reconciled. With five distinct mislabels now documented across two sibling extraction sub-trees (4 in `_01_AP_Countertop_Tile_Floor/`, 1 in `_02_Toilet_Bathroom_Descaler/`), the evidence strongly favors option (b) at the parent-folder level — the corruption is systemic to the `Kimi_Agent_Download Corruption Issue` extraction, not localized to one sub-tree, and the entire parent should be skipped at the wrapper level pending re-fetch.
+
+## STOP MFK_bavcon-kralj-2020-dish-handwashing-contamination
+
+- **Reason:** `kimi_corruption_pdf_mislabeled` — same systemic pattern as the prior five Kimi-corruption stops above. The file is mislabeled: filename asserts a 2020 dish-handwashing contamination paper by Bavcon-Kralj, but the actual content is a 2015 Liberty University undergraduate honors thesis by Daniel Remillard on the history and psychology of hand hygiene. No heavy-metals content.
+- **PDF path:** `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/Bavcon_Kralj_2020_Dish_Handwashing_Contamination.pdf`
+- **SHA-256:** `a65bd097779759e9b1da3abcf6c0ad0aaf0dcc7e8b21c55f7bd9c83310ca27db`
+- **Folder context:** `Kimi_Agent_Download Corruption Issue` — this is now the third sibling sub-tree (`_03_Dish_Soap_Dishwasher/`) where mislabeled content has been confirmed, after `_01_AP_Countertop_Tile_Floor/` (4 stops) and `_02_Toilet_Bathroom_Descaler/` (1 stop). Six total documented mislabels across three sub-trees as of this entry.
+- **Labeled identity (per filename):** Bavcon-Kralj 2020, dish-handwashing contamination. Would plausibly be in scope for HMI (dish soap / handwashing dermal-exposure pathway, dishware contact).
+- **Actual content (per PDF read, pages 1–10 of 31; remaining pages not read since identity was already disconfirmed):**
+  - Title: "Handwashing: A Study of the History, Methods, and Psychology Surrounding Hand Hygiene"
+  - Author: Daniel Remillard
+  - Institution: Liberty University, Honors Program
+  - Document type: Senior honors thesis, Spring 2015 (not peer-reviewed)
+  - Thesis Chair: Dr. Mark Blais, DPM. Committee: Dr. Ben Kalu (M.D.), Mr. David Feldman (M.M.). Honors Director: James H. Nutter (D.A.).
+  - Hosted on CORE / Liberty University Digital Commons (banner: "View metadata, citation and similar papers at core.ac.uk; brought to you by CORE; provided by Liberty University Digital Commons")
+  - Topic: a narrative review of (a) the history of handwashing from Old Testament ritual through Semmelweis and Pasteur/Koch, (b) modern medical-microbiology arguments for non-antibacterial soap, and (c) psychology of handwashing compliance among medical professionals and OCD sufferers. Religious framing throughout (Bible-as-source-of-knowledge passages). No heavy-metals content, no contamination measurements, no dish soap analytical chemistry, no exposure data.
+- **Identity checks (three-way) against `wiki/sources/`:**
+  - Filename/cite-key grep for `bavcon` → 0 hits.
+  - Filename/cite-key grep for `kralj` → 0 hits.
+  - Filename/cite-key grep for `remillard` → 0 hits.
+  - Filename/cite-key grep for `handwashing` → 0 hits.
+  - Conclusion: not a duplicate in either direction; genuinely a mislabeled-content situation.
+- **Why this is a STOP, not a quarantine-ingest:**
+  - Cannot ingest as Bavcon-Kralj 2020 — the PDF does not contain that paper, and writing a Bavcon-Kralj source page from a missing source would be fabrication (violates `verify, don't fabricate`).
+  - Cannot ingest as Remillard 2015 Liberty thesis — the content is off-topic for HMI (no heavy metals, no contamination, no dish soap chemistry, no exposure data, no environmental/food-supply linkage), the document is an undergraduate honors thesis (C-tier-or-below by Cochrane standards even on a relevant topic), and the autonomous skill is not authorized to ingest off-topic papers, especially when the file label asserts a different (in-scope) identity.
+- **Action:** none. No new ingest, no commit. The recommendation from the prior Kimi-corruption stops stands and is now further reinforced: quarantine the entire `Kimi_Agent_Download Corruption Issue` parent folder out of the manual-fetch loop until the corruption is reconciled. Six confirmed mislabels across three sibling sub-trees is conclusive evidence that the corruption is systemic to the parent extraction, not localized.
+
+
+
+## STOP MFK_comber-gunn-1996-heavy-metals-sewage-domestic
+
+- **Reason:** `kimi_corruption_pdf_mislabeled` — paper-internal data-integrity issue (the file content does not match the file label). Distinct from the prior 6 stops in this file: this time the actual content IS a heavy-metals paper, but it is (a) a different paper than the filename asserts and (b) out of HMI scope on its own merits.
+- **PDF path:** `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/Comber_Gunn_1996_Heavy_Metals_Sewage_Domestic.pdf`
+- **SHA-256:** `1a3bafbaa4a04c0c27bbbff6ce6e9d510c06bd531910ac7f2e997ac2a23b09b9`
+- **Folder context:** `Kimi_Agent_Download Corruption Issue` — the seventh confirmed mislabel across this parent folder, and the second in the `_03_Dish_Soap_Dishwasher/` sub-tree after Bavcon-Kralj/Remillard above.
+- **Labeled identity (per filename):** Comber & Gunn 1996, "Heavy Metals from Domestic Sources in Sewage." Would plausibly be in scope for HMI if it actually quantified per-product household contributions (dish soap, detergents, cookware leachate) to the metals burden of domestic sewage.
+- **Actual content (per PDF read, pages 1–15 of the document):**
+  - Title: "An Evaluation of Metal Removal During Wastewater Treatment: the Potential to Achieve More Stringent Final Effluent Standards"
+  - Authors: D. Ziolko¹, O.V. Martin², M.D. Scrimshaw¹* (corresponding; mark.scrimshaw@brunel.ac.uk), J.N. Lester³
+  - Affiliations: ¹ Institute for the Environment, Brunel University, Uxbridge, Middlesex, UB8 3PH, UK; ² Centre for Environmental Policy, Imperial College London, London, SW7 2AZ, UK; ³ Centre for Water Science, School of Applied Science, Cranfield University, Bedfordshire, MK43 0AL, UK
+  - Distribution: Brunel University Research Archive via CORE (banner: "View metadata, citation and similar papers at core.ac.uk; brought to you by CORE; provided by Brunel University Research Archive")
+  - Internal citations to Itoh et al. 2008, European Commission 2008, Crane et al. 2007, USEPA 2007, plus a June 2008 European Parliament directive amendment place the manuscript date at 2008 or later. Published as: Ziolko D, Martin OV, Scrimshaw MD, Lester JN, 2011. *Critical Reviews in Environmental Science and Technology* 41(8):733–807, doi `10.1080/10643380903140299`. The phrase "Comber and Gunn, 1996" appears in the text only as a citation (for household stainless-steel as a source of Cr/Ni and for urban runoff as a source of Cu/Pb/Zn), not as the paper itself.
+  - Topic: a literature review of sewage treatment works (STW) metal-removal performance. Discusses EU Water Framework Directive / US Clean Water Act EQS and WQC tables, mean influent metal concentrations across seven international STW (Oxford UK, Whitlingham UK, Henriksdal Sweden, Thessaloniki Greece, Takatori Japan, Ribeirao Preto Brazil, plus a 30-plant UK survey), apportioned diffuse-source contributions from plumbing/roofing/runoff/dental amalgam/etc., and primary-sedimentation + activated-sludge fate mechanisms for Cd/Cr/Cu/Hg/Ni/Pb/Zn. **No measurements of dish soap, dishwasher detergent, or any consumer product** as a contamination source. The "domestic" framing in the filename is downstream-engineering (what reaches the sewer), not upstream-product (what is in the bottle on the shelf).
+- **Identity checks (three-way) against `wiki/sources/`:**
+  - Filename/cite-key grep for `comber.*gunn` / `comber-gunn` → 0 hits.
+  - Filename/cite-key grep for `ziolko` → 0 hits.
+  - Raw-handle grep for `MFK_comber-gunn-1996` → 0 hits.
+  - DOI grep for `10.1080/10643380903140299` → 0 hits.
+  - Conclusion: not a duplicate in either direction; genuinely a mislabeled-content situation distinct from a true-duplicate conflict.
+- **Why this is a STOP, not a quarantine-ingest:**
+  - Cannot ingest as Comber & Gunn 1996 — the PDF does not contain that paper, and writing a Comber-Gunn source page from a missing source would be fabrication (violates `verify, don't fabricate`).
+  - Cannot ingest as Ziolko et al. 2011 (CREST review) under the labeled cite-key — even though the actual paper is technically about heavy metals, it is (i) a wastewater-treatment-process engineering review measuring metals in crude sewage influent and effluent across STW worldwide, not consumer-product contamination of dish soap or dishwasher detergent (which is what the `03_Dish_Soap_Dishwasher` folder is curated to populate); (ii) per CLAUDE.md Part 3 and Part 4, the HMI corpus is heavy metals in food, supplements, personal care, and consumer products as encountered by end users — environmental fate / wastewater treatment / discharge regulation reviews fall outside this curation scope. The autonomous skill is not authorized to silently reframe the cite-key from the labeled `MFK_comber-gunn-1996-...` to `MFK_ziolko-2011-...` and ingest the alternative paper, especially when the alternative paper is out of HMI scope on its own merits.
+- **Action:** none. No new ingest, no commit. The pattern across all 7 documented mislabels in this folder is now: the `Kimi_Agent_Download Corruption Issue` extraction tree contains the wrong PDFs under in-scope-looking filenames. Recommended Karen-side resolution is unchanged from prior entries: quarantine the entire parent folder out of the manual-fetch loop until either (a) Kimi re-fetches the correctly-named papers into the same filename slots, or (b) the folder is purged from the daemon's manual-fetch input set.
+
+
+
+## STOP MFK_cressey-pattis-2014-dishwasher-powder-risk-assessm
+
+- **Reason:** `out_of_scope_no_heavy_metals` — the PDF content **does** match its filename (this is genuinely the Cressey & Pattis 2014 dishwasher-powder risk assessment, not a mislabel like the other `Kimi_Agent_Download Corruption Issue` stops in this file), but the paper is off-topic for the Heavy Metal Index — it contains zero analytical heavy-metals data on any HMI target analyte (Pb, tAs, iAs, Cd, MeHg, tHg, Ni, Al, Cr-VI, Sn, Sb, U).
+- **PDF path:** `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/Cressey_Pattis_2014_Dishwasher_Powder_Risk_Assessment.pdf`
+- **SHA-256:** `cabd93cdd0e9cd9cb7472acf9e07a4e69fe9ee68a5ca1054b443440cb4e31b0c`
+- **Folder context:** `Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher` — same parent extraction tree as the seven prior mislabel stops, but this PDF is correctly labeled. The corruption is upstream in the folder's curation (Kimi pulled an off-topic paper into a heavy-metals queue), not in the file content itself.
+- **Labeled identity (per filename):** Cressey & Pattis 2014, Health Risk Assessment: Dishwasher Powder. Looks plausibly in-scope at the filename level (household consumer product, NZ jurisdiction).
+- **Actual content (per PDF read, all 46 pages including all 11 tables and references):**
+  - Title: "Health Risk Assessment: Dishwasher Powder" (Client Report FW14027)
+  - Authors: P. Cressey, I. Pattis (Institute of Environmental Science and Research, ESR; Matt Ashworth project leader, Jefferson Fowles peer reviewer, Brent Gilpin science programme manager)
+  - Date: September 2014
+  - Commissioning body: NZ Ministry of Health (contract for scientific services)
+  - Publisher / report series: ESR Client Report (grey literature; no DOI; no journal citation)
+  - Scope: generic health risk assessment of formulated automatic dishwasher powder for the NZ population, focused on caustic / alkalinity hazard from the four most-common ingredients (sodium carbonate, sodium tripolyphosphate, sodium percarbonate, alcohol ethoxylates). Hazard identification via OECD-SIDS / HERA / NZEPA classifications; dose-response via additive LD50/LC50 for the four ingredients (Table 3); exposure scenarios for accidental child ingestion, dishware-residue ingestion (adult and 1–2 y child), and inhalation (adult loading + child spillage); risk characterisation via Margin of Exposure against derived LD50 and via Hazard Quotient against MTDI (550 mg/kg bw, derived from phosphorus MTDI for STPP). Key risk finding: MoE for direct child ingestion = 1.5–3.9 (toxicologically concerning); all other scenarios MoE ≥20 million or HQ ≤1.7E-4.
+  - Heavy-metals content audit: zero HMI-target analyte values. The only "metal" mentions in the entire document are (i) STPP forming complex salts with calcium/magnesium/iron (chemistry context — water softening — not contamination), (ii) trace ingredient list items (titanium dioxide colorant, kaolin filler, calcium stearate lubricant, manganese oxalate bleach activator, magnesium stearate, zinc stearate) — none of which are HMI target analytes and none of which are reported with concentrations or contamination measurements, and (iii) Watters 1957 reference on triphosphate–alkali-metal complexation. No Pb, no Cd, no As (iAs or tAs), no Hg (MeHg or tHg), no Ni, no Al, no Cr (Cr-VI or total), no Sn, no Sb, no U anywhere in the text, tables, or referenced data.
+- **Identity checks (three-way) against `wiki/sources/`:**
+  - DOI grep: no DOI on this grey-literature report.
+  - Filename / cite-key grep for `cressey` → 0 hits.
+  - Filename / cite-key grep for `FW14027` → 0 hits.
+  - Conclusion: not a duplicate; the paper has never been ingested.
+- **Why this is a STOP, not an ingest:**
+  - Per CLAUDE.md Part 3 / Part 4, the HMI corpus curates heavy-metals contamination and exposure data for food, supplements, personal care, and consumer products. A risk assessment whose analytes are entirely non-metallic alkaline/surfactant chemicals (sodium carbonate, STPP, sodium percarbonate, AEs) does not contribute to any wiki/metals/* page, any wiki/ingredients/* contamination_profile, or any wiki/products/* heavy-metals row. Ingesting it would create a wiki/sources/ page with empty `metals: []` frontmatter and no extractable contamination values — a dead-weight page that the routing audit would either drop as unresolved or route nowhere useful.
+  - The autonomous skill is not authorized to ingest off-topic papers (the existing-pages-aware Phase 1 rule in CLAUDE.md Part 5 explicitly states that an empty `products: []` on a food/personal-care paper is a defect; the same logic applies to empty `metals: []` on a chemical-toxicology paper). Per `feedback_verify_dont_fabricate`, the right move when the evidence does not support the claim is to surface the situation, not to write a thin shell page.
+  - Distinct from the seven prior `kimi_corruption_pdf_mislabeled` stops in this same parent folder: those are mislabeled PDFs (file content ≠ filename claim); this one is correctly labeled but the paper itself is off-topic for HMI. Same parent folder, different failure mode.
+- **Action:** none. No new ingest, no commit. Karen-side resolution: the `_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/` folder appears to have been seeded from a "dishwasher health risks" topic search rather than a "heavy metals in dishwasher detergent" search; the folder should be re-curated against the HMI scope (e.g., papers reporting Pb/Cd/As/Hg/Ni in dishwasher detergent formulations, or in dishware leachates) or quarantined out of the manual-fetch loop. Combined with the seven mislabel stops already documented in this file, the case for option (b) — purging the entire `Kimi_Agent_Download Corruption Issue` extraction tree from the daemon's manual-fetch input set — is now stronger.
+
+
+
+## STOP MFK_jenkins-russell-1994-heavy-metals-household-washin
+
+- **Reason:** `kimi_corruption_pdf_mislabeled` + `out_of_scope_no_heavy_metals` — the PDF labeled `Jenkins_Russell_1994_Heavy_Metals_Household_Washing_Products.pdf` does not contain the Jenkins/Russell 1994 paper; its actual content is a 20-page conference keynote by Verstraete & Vlaeminck on wastewater treatment, with no analytical heavy-metals data on any HMI target analyte (Pb, tAs, iAs, Cd, MeHg, tHg, Ni, Al, Cr-VI, Sn, Sb, U).
+- **PDF path:** `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher/Jenkins_Russell_1994_Heavy_Metals_Household_Washing_Products.pdf`
+- **SHA-256:** `cad9f023ed47a2335d3234ca6823c16838a13d028ada6689bb0d9b2a0a0a7884`
+- **Folder context:** `Kimi_Agent_Download Corruption Issue/_extracted_household_03_Dish_Soap_Dishwasher/03_Dish_Soap_Dishwasher` — eighth filename-vs-content mismatch documented in this folder; consistent with the parent-folder name's explicit warning.
+- **Labeled identity (per filename):** Jenkins & Russell 1994, Heavy Metals in Household Washing Products. Plausibly in-scope at the filename level (1994 study of heavy metals in dish/laundry detergents would be a useful occurrence reference for `wiki/products/dishwashing-liquid` and `wiki/products/dishwasher-detergent`).
+- **Actual content (per PDF read, all 20 pages including title page, references, all 6 figures, and Tables 1–2):**
+  - Title: "ZeroWasteWater: Short-cycling of Wastewater Resources for Sustainable Cities of the Future"
+  - Authors: Willy Verstraete*, Siegfried E. Vlaeminck (Laboratory of Microbial Ecology and Technology / LabMET, Ghent University, Belgium)
+  - Venue: Keynote Paper, 2nd Xiamen International Forum on Urban Environment (no DOI; conference proceedings; ~2010 from internal references)
+  - Scope: comparative review of conventional activated sludge (CAS) wastewater treatment vs a proposed "ZeroWasteWater" concept (source-separated black/grey/yellow water + advanced concentration + anaerobic digestion + OLAND + MF/UF/RO upgrade to potable). Energy and CO₂ balances (Tables 1–2); case studies of Windhoek (Namibia), Singapore NEWater, Koksijde (Belgium IWVA), Sneek (NL black/grey water demo).
+  - Heavy-metals content audit: zero HMI-target analyte values. The token "heavy metals" appears three times — (i) Section 3 header "Safety first: no short-cycling of faecal pathogens, heavy metals and trace organics"; (ii) Section 3 body sentence citing Sorme & Lagerkvist 2002 on Stockholm urban-wastewater metal sources (Cu, Zn, Ni, Hg traceable; Pb, Cr, Cd less clear) — narrative only, no concentrations reported here; (iii) Section 6 sentence on heavy-metals re-entry risk via biochar from pyrolysed sludge. No tables, no measurements, no LODs, no speciation, no jurisdictional limits. None of the four pathways the HMI consumer-product scope cares about (dish soap, dishwasher detergent, laundry detergent, hard-surface cleaner contamination) is studied.
+- **Identity checks (three-way) against `wiki/sources/`:**
+  - DOI grep for jenkins/russell 1994: no match (no DOI for the labeled paper is known).
+  - `grep -rl "verstraete.*vlaeminck\|ZeroWasteWater" wiki/sources/` → 0 hits; the actual-content paper has never been ingested.
+  - `ls wiki/sources/ | grep -iE "jenkins|russell|verstraete|vlaeminck"` → 0 hits.
+  - Conclusion: neither the labeled paper nor the actual-content paper is in the wiki.
+- **Why this is a STOP, not an ingest:**
+  - Cannot ingest as Jenkins/Russell 1994 under the labeled cite-key — the PDF is a different paper entirely, and per `feedback_verify_dont_fabricate` the autonomous skill must not write a source page citing one paper's title/authors/year while the underlying evidence is from another.
+  - Cannot ingest as Verstraete & Vlaeminck (2010, ZeroWasteWater) under a reframed cite-key — per CLAUDE.md Part 3/Part 4 the HMI corpus is heavy metals in food, supplements, personal care, and consumer products as encountered by end users; a wastewater-treatment-engineering conference keynote with no analytical metals data is out of scope for the same reasons documented in the Ziolko 2011 stop (third mislabel above). The actual paper's only quantitative heavy-metals reference is a one-sentence narrative citation to Sorme & Lagerkvist 2002, which itself would be the appropriate source if Karen wanted Stockholm urban-wastewater metal-source-apportionment data.
+  - Same failure-mode family as the seven prior `kimi_corruption_pdf_mislabeled` stops in this folder, but adds the secondary diagnostic that even if the autonomous skill reframed the cite-key to match the actual content (which it will not), the actual content is also out of scope. Strengthens the case for Karen-side option (b): purging the entire `Kimi_Agent_Download Corruption Issue` extraction tree from the daemon's manual-fetch input set.
+- **Action:** none. No new ingest, no commit. Eighth filename-vs-content mismatch in this folder; pattern is now unambiguous.

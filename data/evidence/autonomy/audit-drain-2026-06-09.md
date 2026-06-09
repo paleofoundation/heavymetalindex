@@ -118,3 +118,26 @@
 - `anwar2021-canned-tuna-aceh-metals` — anwar2021-canned-tuna-aceh-metals audited-revised
 - `shaughnessy2023-sugar-kelp-new-england-metals` — shaughnessy2023-sugar-kelp-new-england-metals REVISE
 - `sund2026-saccharina-pte-processing` — sund2026-saccharina-pte-processing PROMOTE
+
+## Run 2026-06-09T03:26:50.508Z
+
+- Candidates this run: 12
+- Succeeded (audited and committed): 10
+- Stopped (genuine block, no commit): 0
+- Failed (error, no commit): 2
+
+### Succeeded
+- `noor2023-merapi-robusta-coffee-metals` — noor2023-merapi-robusta-coffee-metals REVISED
+- `babeker2025-heavy-metals-microbial-sudanese-soft-drinks` — babeker2025-heavy-metals-microbial-sudanese-soft-drinks revised
+- `katyal2020-instant-noodles-canada-metals` — katyal2020-instant-noodles-canada-metals PROMOTE
+- `sixto2023-potatoes-sweet-potatoes-metals` — sixto2023-potatoes-sweet-potatoes-metals revised
+- `bandara2025-bael-herbal-tea-minerals` — bandara2025-bael-herbal-tea-minerals REVISED
+- `rakib2021-macroalgae-bangladesh-metals` — rakib2021-macroalgae-bangladesh-metals PROMOTE
+- `kataoka2018-japan-chocolate-cocoa-cadmium` — kataoka2018-japan-chocolate-cocoa-cadmium REVISE
+- `adams2017-nigerian-processed-spices-metals` — adams2017-nigerian-processed-spices-metals REVISE
+- `brown2022-patna-spice-lead` — brown2022-patna-spice-lead REVISE
+- `sargsyan2024-rapid-market-spice-lead` — sargsyan2024-rapid-market-spice-lead REVISE
+
+### Failed
+- `abou-abbass2023-drinking-water-lebanon-metals`: unrecognized final line: "Audit summary: 5-check audit returned REVISE with one applied finding (extended internal-inconsistency note to cover Na/Ca text-vs-Table 4 discrepancies, mirroring existing arsenic flag) and one rejec"
+- `enemuor2021-palm-oil-kogi-metals`: unrecognized final line: "Applied: Methods section restored to source-faithful text (verbatim acid mixture, Flame AAS) and Cr methods-provenance inconsistency noted. Rejected: the two slug-vocabulary ⚠️ findings as false posit"

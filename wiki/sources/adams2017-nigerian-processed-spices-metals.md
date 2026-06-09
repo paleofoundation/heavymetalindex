@@ -12,7 +12,7 @@ evidence_tier: A
 license: "not stated"
 raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-spices-cd_2017_10-22192-ijarbs-2017-04-09-004.pdf
 metals: [Pb, Cd, Cr, Ni]
-ingredients: []
+ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/dried-herbs]]"]
 products: ["[[products/spices]]"]
 matrices: [spices]
 jurisdictions: [NG]
@@ -41,7 +41,7 @@ The paper lists standard-limit comparator values of 5.0 mg/kg for Pb, 0.20 mg/kg
 
 ## Methods (brief)
 
-The spice samples were ashed, dissolved with concentrated nitric acid, evaporated to dryness, digested with hydrochloric acid, filtered hot through Whatman No. 4 paper, and made up to 100 mL. Minerals were determined by atomic absorption spectrometry. The paper does not report LOD/LOQ values for the heavy-metal table, so non-detects should remain source-level ND values rather than zeroes.
+The spice samples were ashed, dissolved with concentrated nitric acid, evaporated to dryness, digested with hydrochloric acid, filtered hot through Whatman No. 4 paper, and made up to 100 mL. Minerals were determined by flame atomic absorption spectrometry (FAAS) with a hollow-cathode lamp and a fuel-rich flame. The paper does not report LOD/LOQ values for the heavy-metal table, so non-detects should remain source-level ND values rather than zeroes.
 
 ## Implications
 
@@ -64,6 +64,8 @@ Microbiome (if applicable): The paper reports microbial counts for suya and pepp
 ## Verification notes
 
 The PDF title, byline, DOI, year, journal, methods, and Table 5 values were read from the auto-fetched PDF. The routeable metals are total Pb, Cd, Cr, and Ni as reported by AAS; the source does not provide chromium speciation and does not report whether Pb non-detects reflect a specific detection limit.
+
+The paper has internal inconsistencies between Table 5 and the Discussion/Conclusion body text. Table 5 reports standard-limit values of 0.20 mg/kg (Cd) and 1.63 mg/kg (Ni), while the Discussion body text states the limits as 0.02 mg/kg (Cd) and 0.163 mg/kg (Ni); the Discussion also gives a single Cd figure of 0.426 mg/kg (the unweighted mean across the four spices) and the Conclusion cites suya-spice nickel as 3.223 mg/kg where Table 5 shows 3.258 mg/kg. The wiki page cites Table 5 values throughout because the table is the primary data report; the inconsistencies are flagged here so a future auditor does not mistake them for wiki transcription errors.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history

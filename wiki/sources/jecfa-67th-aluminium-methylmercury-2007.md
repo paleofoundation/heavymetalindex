@@ -48,7 +48,7 @@ The sixty-seventh meeting of the Joint FAO/WHO Expert Committee on Food Additive
 | Uncertainty factor for inter- and intraspecies differences | 100 | p. 43 |
 | Additional uncertainty factor for database deficiencies (no NOELs, no long-term studies on relevant endpoints) | 3 | p. 43 |
 | Composite uncertainty factor | 300 | p. 43 (50 ÷ 300 ≈ 0.17 mg/kg b.w./day ≈ 1 mg/kg b.w./week) |
-| Critical endpoints driving the revision | Reproductive and developmental effects (LOELs 13-200 mg/kg b.w./day, soluble Al), histopathological changes in kidney/brain at 17-20 mg/kg b.w./day, neurobehavioural effects at 50-200 mg/kg b.w./day | p. 35-37 |
+| Critical endpoints driving the revision | Reproductive and developmental effects (LOELs 13-200 mg/kg b.w./day, soluble Al); histopathological changes in kidney and liver at 17 mg/kg b.w./day (aluminium sulfate by gavage, 21 days); histopathological changes in kidney and brain at 20 mg/kg b.w./day (aluminium chloride in drinking-water, 6 months); neurobehavioural effects at 50-200 mg/kg b.w./day | p. 35-37 |
 | Form basis | PTWI applies to all aluminium compounds in food, including additives | p. 43 |
 | All previously established Al ADIs and PTWIs | Withdrawn | p. 43 |
 
@@ -88,7 +88,6 @@ The sixty-seventh meeting of the Joint FAO/WHO Expert Committee on Food Additive
 | Germany — change in dietary Al, 1988 vs 1996 | Decreased by about half | Germany (p. 41) |
 | Cereal-products mean Al concentration | 50 mg/kg (highest food-group mean) | China 1992-1993 TDS (p. 41) |
 | Miscellaneous-cereals mean Al concentration | 19 mg/kg (highest food-group mean) | UK 2000 TDS (p. 41) |
-| French model-diet exposure (general population) | 0.03 mg/kg b.w./day | France (p. 38, from 2 L water/day at 1 mg/L) |
 
 ### Aluminium — concentrations in source foods (this meeting)
 
