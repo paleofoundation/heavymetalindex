@@ -13,7 +13,7 @@ license: unknown
 raw_path: "raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/buchet1983.pdf"
 raw_sha256: "f8b4db2a445c4415ea666b8271a2d131155d5946b46376ac8f3b66e02a2cabbf"
 access_url: "https://doi.org/10.1016/0278-6915(83)90263-6"
-metals: [Cd, Pb, Mn, Cu, Cr, tHg, Ca, Zn, tAs]
+metals: [Cd, Pb, Mn, Cu, Cr, tHg, Zn, tAs]
 ingredients: ["[[ingredients/mixed-meals]]", "[[ingredients/beverages]]"]
 products: ["[[products/mixed-meals-non-rice]]"]
 matrices: [duplicate-meal, dietary-intake, mixed-meals, beverages]
@@ -48,7 +48,7 @@ Additional source-reported values:
 
 - Meal sources: 21 daily meals from a Brussels hospital kitchen; 63 domestic meals from Brussels; 20 from Liege; and 20 from Charleroi.
 - The abstract reports median 24-hour intakes of Cd 15 µg, Pb 95.7 µg, Mn 2.6 mg, Cu 1.3 mg, Cr 0.24 mg, Hg 6.5 µg, Ca 541 mg, Zn 13.2 mg, and As 11.5 µg.
-- The extracted abstract states that about 1-2% of sampled daily meals had mercury and cadmium contents exceeding WHO tolerable levels; for lead, the printed value appears to be 16%.
+- The abstract states that about 1-2% of sampled daily meals had mercury and cadmium contents exceeding the WHO tolerable level, and in the case of lead this level was exceeded in 10%. The Discussion confirms "Some 10% of our samples had lead values above this standard."
 - Recovery values from Table 1 were Ca 107.0±3.3%, Zn 97.0±3.3%, Cu 98.2±1.5%, Cr 94.3±7.7%, Mn 105.9±6.6%, As 101.6±5.3%, Hg 105.4±4.0%, Pb 92.8±8.0%, and Cd 109.0±9.4%.
 
 ## Methods (brief)
@@ -80,7 +80,7 @@ This source contributes historical Belgian duplicate-diet exposure context for m
 - Table 2 values were checked against the extracted text. Units are preserved as printed (`mg` and `µg` per 24-hour diet); no conversion to concentration units was performed.
 - Speciation: arsenic is total As and mercury is total Hg. The source does not report iAs or MeHg.
 - Routeability: this is duplicate-meal exposure evidence, not product concentration evidence. It is routed only to the broad mixed-meal row and should remain context-only for product standards unless a later method explicitly handles duplicate-diet composites.
-- Calcium was measured and is included in frontmatter as Ca, but the taxonomy snapshot does not list a `metals/calcium` page, so no calcium wiki-link is added.
+- Calcium was measured and reported in the Key numbers table as printed in the source, but Ca is not a Part 14 canonical HMI metal abbreviation and the taxonomy snapshot does not list a `metals/calcium` page, so Ca is omitted from the `metals:` frontmatter array and no calcium wiki-link is added.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
