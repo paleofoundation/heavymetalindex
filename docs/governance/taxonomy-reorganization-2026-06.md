@@ -134,14 +134,22 @@ Each auto-created scaffold gets one decision: promote, redirect/merge, or assign
 
 ## Flagged conflicts (brief vs local)
 
-1. **Canned / snacks (matrix-beats-format).** An earlier relayed message recommended retiring the locked
-   Cat 6 `canned-seafood` row and redistributing canned products by matrix with a tin flag. This v2.1
-   brief §7 instead keeps canned and snacks in their current homes ("confirm and close"). The local Cat 6
-   Step Zero lock keeps `canned-seafood` as Row 6. Per §1 and the brief's own "local lock wins" rule, the
-   matrix-beats-format retirement is **not executed**; canned/snacks stay in place. **Deferred, not
-   discarded:** the four-way Sn-governance incoherence (Cat 6/7/11/23) and the MeHg-correctness point
-   (canned sardines pooled with canned tuna) remain open and are logged here for a future dedicated Step
-   Zero pass if Karen elects it.
+1. **Canned / snacks (matrix-beats-format) — RESOLVED 2026-06-09 by design panel.** The earlier
+   recommendation (retire the locked Cat 6 `canned-seafood` row, redistribute canned by matrix with a tin
+   flag) and the v2.1 brief §7 ("keep canned/snacks in place") were adjudicated by a four-lens, repo-grounded
+   design panel (strategic, adversarial-defensibility, execution-cost, methodology) — unanimous on the
+   outcome. **Matrix-beats-format is adopted as the governing rule** (`docs/standards-methodology.md`
+   §"Packaging and processing format is a flag, not a category"), which resolves the four-way Sn-governance
+   incoherence (Cat 6/7/11/23) at the rule level. The **physical** redistribution is **staged**, not executed
+   this sprint, because the panel established that the locked Cat 6 row carries **147 species-unresolved
+   sources** (per-source judgment, not mechanical), a same-week reversal of a dated lock is a defensibility
+   liability, and the canned-tin flag mechanism must precede any retirement. See
+   `category-6-step0-amendment-1.md` (the canned-seafood MeHg matrix-mixing artifact — P97 ≈ 30.5 vs
+   predatory ≈ 829 — plus the staged fish-species redistribution; tin cap = lowest applicable **inorganic**
+   ceiling, not the looser Codex total-tin value) and `category-7-step0-amendment-1.md` (canned produce →
+   Cat 4 matrix rows with a tin flag; `canned-foods-general` reframed as the cross-matrix tin-evidence node,
+   not retired; snacks **deferred, not dissolved** — an empty provisional row). The MeHg-correctness point
+   (sardines pooled with tuna) is the load-bearing defect the rule fixes.
 2. **"Scalable to 23 categories."** Brief §8 expected this in the governing principles; it is not there
    (see §8 above). No conflict in substance; the "23" lives in the JSON `$comment`.
 
