@@ -24,7 +24,7 @@ Product-category pages describe heavy-metal evidence for consumer-facing product
 
 The HMTc categories group into seven navigational domains (v2.1; presentational only — category and row numbers are unchanged). See [[docs/governance/taxonomy-reorganization-2026-06]] §2.
 
-- **Foods, ingestion** — Categories 1, 3, 4, 5, 6, 7, 8, 11, 24 (Dairy), 27 (Legumes), 28 (Nuts/Seeds/Butters), 29 (Edible Fungi)
+- **Foods, ingestion** — Categories 1, 3, 4, 5, 6, 8, 11, 24 (Dairy), 27 (Legumes), 28 (Nuts/Seeds/Butters), 29 (Edible Fungi), 30 (Oils & Fats), 31 (Sweeteners), 32 (Condiments/Sauces), 33 (Chocolate/Confectionery), 34 (Spices & Salt), 35 (Prepared Meals). Cat 7 dissolved.
 - **Ingestible and applied health products** — Categories 16, 25 (Cannabis/CBD), and 26 (Peptides/research chemicals)
 - **Personal care and cosmetics** — Categories 2, 13, 14, 15, 20
 - **Home and household** — Categories 12, 19, 22, 23
@@ -172,37 +172,19 @@ Bridge / coarse-grained nodes (broad author-scope pages that span several rows a
 - [[products/seafood|Seafood (category-level, all fish and shellfish)]] (151 sources)
 - [[products/fresh-fish|Fresh and frozen fish (coarse, pre fresh/marine split)]] (130 sources)
 
-## HMTc Category 7: Oils, Condiments, and Specialty Foods
+## HMTc Category 7: Oils, Condiments, and Specialty Foods — DISSOLVED (v2.2)
 
-Exposure pathway: **Ingestion (oral, typically small serving sizes)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
+Category 7 was a grab-bag (fats, sweeteners, acids, a Cd platform, a Pb/Cr platform, a mineral, grain snacks, a packaging platform, frozen meals — sharing no contamination logic). It is **dissolved** under the v2.2 matrix-family re-cut ([[docs/governance/category-7-dissolution-step0-event]], 2026-06-09), its members re-homed to intuitive, platform-coherent aisles with shipped standards carried forward verbatim:
 
-Contamination platform notes: Cacao → Cd, Pb (from soil); spices → Pb, Cr (from adulteration, processing); canned goods → Sn (from tinplate migration).
+- Olive oil, cooking oils → **Category 30 Culinary Oils & Fats**
+- Honey, syrups → **Category 31 Sweeteners & Syrups**
+- Vinegar, soy/fish sauce, ketchup, mustard, mayo, dressings → **Category 32 Condiments, Sauces & Dressings** (hot/chili sauce → Cat 34, its Pb is chili-borne)
+- Chocolate, cocoa, confectionery → **Category 33 Chocolate, Cocoa & Confectionery**
+- Herbs, spices, salt → **Category 34 Herbs, Spices, Seasonings & Salt**
+- Mixed/prepared meals → **Category 35 Prepared & Packaged Meals**
+- Butter & ghee → **Category 24 Dairy**; snacks → **Category 3 Grains** / **Category 4 Produce** by matrix; canned produce → its matrix row with a tin flag ([[products/food-packaging-cans-lids|Cat 23 cans/lids]] documents the tin platform).
 
-These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
-
-1. [[products/olive-oil|Olive oil]] (21 sources)
-2. [[products/cooking-oils-other|Other cooking oils (canola, sunflower, coconut, avocado, sesame)]] (29 sources)
-3. [[products/butter-and-ghee|Butter and ghee]] (3 sources)
-4. [[products/honey|Honey and syrups (maple, agave, molasses)]] (20 sources)
-5. [[products/vinegar|Vinegar]] (11 sources)
-6. [[products/condiments-general|Condiments (hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)]] (25 sources)
-7. [[products/chocolate|Cocoa/chocolate products (cocoa powder, dark chocolate, milk chocolate, chocolate chips)]] (31 sources)
-8. [[products/spices|Herbs/spices/dried seasonings (turmeric, cinnamon, paprika, oregano, cumin, chili powder, pepper)]] (62 sources)
-9. [[products/salt|Salt (table, sea, Himalayan)]] (9 sources)
-10. [[products/snacks-general|Snacks (crackers, granola/snack bars, cookies, chips, popcorn — when not primarily a grain or produce product)]] (1 source)
-11. [[products/canned-foods-general|Canned foods, general (canned tomatoes, beans, soups — with tin flag)]] (4 sources)
-12. [[products/mixed-meals-prepared-foods|Mixed meals/prepared foods (frozen dinners, boxed meals, ready-to-eat)]] (0 sources)
-
-Sub-variant and bridge nodes. Evidence routes up to the parent rows above via the routing layer's inheritance map; these pages are surfaced for visibility and URL preservation, not as standalone HMTc rows. RETIRED pages are aliased redirects to their parent row; PROVISIONAL pages are scaffolds pending taxonomy review.
-
-- [[products/canned-tomatoes|Canned tomatoes]] (11 sources) — RETIRED, routes to Row 11
-- [[products/canned-vegetables|Canned vegetables]] (14 sources) — RETIRED, routes to Row 11
-- [[products/canned-fruit|Canned fruit]] (10 sources) — RETIRED, routes to Row 11
-- [[products/tomato-paste|Tomato paste]] (8 sources) — RETIRED, routes to Row 11
-- [[products/tomato-sauce|Tomato sauce]] (5 sources) — RETIRED, routes to Row 11
-- [[products/snacks-crackers-biscuits|Crackers and biscuits]] (18 sources) — RETIRED, routes to Row 10
-- [[products/snack-bars-energy-bars|Snack and energy bars]] (2 sources) — PROVISIONAL, pending taxonomy review
-- [[products/biscuits|Biscuits]] (2 sources) — PROVISIONAL, pending taxonomy review
+The number 7 is retired-in-place and not reused.
 
 ## HMTc Category 8: Water and Water-Based Products
 
@@ -604,6 +586,66 @@ Re-cut from Cat 4 under v2.2. Fungi are a distinct kingdom, not produce. Wild fu
 
 1. [[products/cultivated-mushrooms|Mushrooms — cultivated (clean counterpart)]]
 2. [[products/wild-mushrooms|Mushrooms — wild and processed-wild (contaminated platform)]]
+
+## HMTc Category 30: Culinary Oils and Fats
+
+Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
+
+Re-homed from the dissolved Cat 7 ([[docs/governance/category-7-dissolution-step0-event]]); shipped standards verbatim. Refined seed oils (clean) vs unrefined/origin-specific (dirty); Pb/Ni. Butter/ghee are dairy fat → Cat 24.
+
+1. [[products/olive-oil|Olive oil]] (21 sources)
+2. [[products/cooking-oils-other|Other cooking/seed oils (canola, sunflower, coconut, avocado, sesame)]] (29 sources)
+
+## HMTc Category 31: Sweeteners and Syrups
+
+Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
+
+Honey from Cat 7 + gap-fill. Refined sugar/agave clean; honey Pb/Cd, maple Pb/Sn, rice syrup iAs, molasses Pb/Cd dirty. Chocolate/candy are confections → Cat 33.
+
+1. [[products/honey|Honey]] (20 sources)
+2. [[products/syrups-maple-agave-molasses|Tree and plant syrups (maple, agave, molasses)]] (0 sources)
+3. [[products/refined-sugar|Refined sugars (cane, beet, brown)]] (0 sources)
+4. [[products/rice-grain-syrup|Rice and grain syrups]] (0 sources)
+
+## HMTc Category 32: Condiments, Sauces and Dressings
+
+Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
+
+The decomposed condiments grab-bag: after hot sauce → Cat 34 (chili-Pb) and canned tomato → Cat 4, the residual shares an acid-extraction / fermentation Pb axis. Balsamic Pb/As and aged soy/fish sauce Pb/Cd/tHg are dirty.
+
+1. [[products/vinegar|Vinegar]] (11 sources)
+2. [[products/soy-sauce-fermented|Soy sauce and fermented sauces]] (0 sources)
+3. [[products/fish-sauce|Fish sauce]] (0 sources)
+4. [[products/tomato-condiments|Tomato condiments (ketchup, salsa)]] (0 sources)
+5. [[products/mustard-mayo-dressings|Mustard, mayonnaise, dressings]] (0 sources)
+
+## HMTc Category 33: Chocolate, Cocoa and Confectionery
+
+Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
+
+Chocolate from Cat 7 + the confectionery gap. Cacao Cd (dark/high-cocoa/origin dirty); imported/tamarind/chili candy Pb. Cocoa-as-beverage → Cat 5.
+
+1. [[products/chocolate|Cocoa and chocolate products (cocoa powder, dark, milk, chips)]] (31 sources)
+2. [[products/confectionery-candy|Candy and confectionery (hard candy, caramels, imported/ethnic sweets)]] (0 sources)
+3. [[products/gummies-jellies|Gummies and jelly sweets]] (0 sources)
+
+## HMTc Category 34: Herbs, Spices, Seasonings and Salt
+
+Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
+
+Spices + salt from Cat 7. Pb/Cr adulteration (turmeric, chili) + soil uptake; salt independent (Codex anchor). Hot/chili sauces route here — their Pb is chili-borne.
+
+1. [[products/spices|Herbs, spices, and dried seasonings (turmeric, cinnamon, paprika, chili powder, pepper)]] (62 sources)
+2. [[products/salt|Salt (table, sea, Himalayan)]] (9 sources)
+3. [[products/hot-chili-sauces|Hot sauce and chili sauces]] (0 sources)
+
+## HMTc Category 35: Prepared and Packaged Meals
+
+Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
+
+Composite — inherits its component-matrix platforms; provisional until component evidence accumulates. Route by dominant ingredient.
+
+1. [[products/mixed-meals-prepared-foods|Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)]] (0 sources)
 
 <!-- BEGIN: hmi-auto-linked-stubs -->
 
