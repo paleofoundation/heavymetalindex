@@ -1,7 +1,7 @@
 {
-  "$comment": "HMTc Comprehensive Testing Category Taxonomy v2.1 (2026-06-08). Source: /Users/karenpendergrass/Desktop/document_pdf.pdf (v2.0 base); v2.1 is an additive expansion per docs/governance/taxonomy-reorganization-2026-06.md. Drives wiki/products/ scaffolding for the original cohort. For Step Zero-locked categories the live row identity is the page frontmatter + routing layer, which this seed does not fully mirror: the Cat 1/2/4 row arrays below remain at their v2.0 scaffold and are stale versus the locked 16-row state (flagged for a separate reconciliation). Envelope: 26 categories (24 Dairy, 25 Cannabis/Hemp/CBD, 26 Peptides/SARMs/Research Chemicals appended) plus reserved Cat 27 (tobacco, pending). Authored by K. Pendergrass, K. Eyer, D. Aleru; v2.1 expansion by Claude (co-architect).",
-  "version": "2.1",
-  "version_date": "2026-06-08",
+  "$comment": "HMTc Comprehensive Testing Category Taxonomy v2.2 (2026-06-09). Source: /Users/karenpendergrass/Desktop/document_pdf.pdf (v2.0 base); v2.1 appended cats 24-26 (docs/governance/taxonomy-reorganization-2026-06.md); v2.2 is the matrix-family re-cut (docs/governance/taxonomy-v2.2-matrix-family-recut.md). For Step Zero-locked categories the live row identity is the page frontmatter + routing layer, which this seed does not mirror: the Cat 1/2/4 row arrays below remain the v2.0 scaffold and are STALE versus the live locked state. In particular the v2.2 Cat 4 split (live rows 8-18 re-homed to Cat 27 Legumes / 28 Nuts-Seeds-Butters / 29 Edible Fungi) and the Cat 7 dissolution (Phase B, cats 30-35) are tracked in governance + frontmatter, not by editing these stale arrays. Envelope: 29 categories appended through Cat 29 (Phase A); Cat 30-35 (Cat 7 split) and any elected tobacco category append in later phases at the next free numbers. The v2.1 'reserved Cat 27 = tobacco' is superseded: Cat 27 is now Legumes; tobacco renumbers. Authored by K. Pendergrass, K. Eyer, D. Aleru; v2.1/v2.2 expansion by Claude (co-architect).",
+  "version": "2.2",
+  "version_date": "2026-06-09",
   "panel_metals": ["Pb", "iAs", "Hg", "Cd", "Cr", "Ni", "Sn", "Al"],
   "organizing_principle": "exposure pathway × regulatory jurisdiction, with user population (ages 0-5 vs general) as a secondary routing variable only where regulation explicitly distinguishes it",
   "categories": [
@@ -722,6 +722,70 @@
       ],
       "contamination_platform_notes": "Overseas/unregulated synthesis drives Pb, Cd, As, Al, Ni, Cr contamination (Craven 2025: oral Ni near the ~200 ug/day PDE; oral Al mean 651 ug/g). The parenteral route bypasses gut absorption — see the standards-methodology variants in category-26-step0-lock.md.",
       "regulatory_anchors": "No lawful product limit exists; the locked min(percentile, regulatory ceiling) rule loses its cap term for this class (see category-26-step0-lock.md). USP <232> PDEs referenced as a toxicological anchor only."
+    },
+    {
+      "n": 27,
+      "name": "Legumes and Pulses",
+      "slug_prefix": "",
+      "status": "v2.2 re-cut from Cat 4 (rows retired-in-place and re-homed); see category-4-split-step0-amendment-2.md",
+      "domain": "Foods, ingestion",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Legumes/pulses (beans, lentils, chickpeas, peas)", "slug": "legumes-pulses-other" },
+        { "row": 2, "name": "Soy products", "slug": "soy-products" },
+        { "row": 3, "name": "Peanuts", "slug": "peanuts" },
+        { "row": 4, "name": "Peanut butter", "slug": "peanut-butter" }
+      ],
+      "boundary_rules": [
+        "Peanuts and peanut butter route here, not to Cat 28 (Nuts/Seeds): peanuts are legumes botanically and carry the legume-uptake Al/Ni platform.",
+        "Products marketed for ages 0-5 route to Category 1."
+      ],
+      "contamination_platform_notes": "Cd/Pb soil uptake; peanut Al/Ni platform; soy carries its own platform load.",
+      "regulatory_anchors": "EU Reg. 2023/915 Cd in legumes/pulses; FDA Pb action levels; Codex MLs."
+    },
+    {
+      "n": 28,
+      "name": "Nuts, Seeds, and Their Butters",
+      "slug_prefix": "",
+      "status": "v2.2 re-cut from Cat 4 (rows retired-in-place and re-homed); see category-4-split-step0-amendment-2.md",
+      "domain": "Foods, ingestion",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Tree nuts and seeds (whole, raw, roasted)", "slug": "nuts-seeds-other" },
+        { "row": 2, "name": "Cashews", "slug": "cashews" },
+        { "row": 3, "name": "Sunflower seeds", "slug": "sunflower-seeds" },
+        { "row": 4, "name": "Nut and seed butters, other", "slug": "nut-seed-butters-other" },
+        { "row": 5, "name": "Sunflower-seed butter", "slug": "sunflower-seed-butter" }
+      ],
+      "boundary_rules": [
+        "Peanuts and peanut butter route to Cat 27 (Legumes), not here.",
+        "Butters inherit their whole-kernel parent's platform (cashew-Ni, sunflower-Cd).",
+        "Products marketed for ages 0-5 route to Category 1."
+      ],
+      "contamination_platform_notes": "Cd (sunflower seed, cashew), Ni (cashew); within-family clean/dirty splits.",
+      "regulatory_anchors": "EU Reg. 2023/915 Cd in oilseeds and tree nuts; FDA Pb action levels; Codex MLs."
+    },
+    {
+      "n": 29,
+      "name": "Edible Fungi",
+      "slug_prefix": "",
+      "status": "v2.2 re-cut from Cat 4 (rows retired-in-place and re-homed); see category-4-split-step0-amendment-2.md",
+      "domain": "Foods, ingestion",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Mushrooms — cultivated (clean counterpart)", "slug": "cultivated-mushrooms" },
+        { "row": 2, "name": "Mushrooms — wild and processed-wild (contaminated)", "slug": "wild-mushrooms" }
+      ],
+      "boundary_rules": [
+        "Fungi are a distinct kingdom, not produce; this category holds edible fungi (mushrooms now; truffles and others later).",
+        "Canned/pickled wild mushrooms are processed-wild and pool into row 2 with a tin flag (canned/tin rule).",
+        "A mushroom product with a Supplement Facts panel routes to Category 16."
+      ],
+      "contamination_platform_notes": "Wild fungi hyperaccumulate Cd, Hg, Pb, and radiocesium; cultivated (controlled substrate) are the clean counterpart.",
+      "regulatory_anchors": "EU Reg. 2023/915 Cd/Pb in cultivated fungi; Codex; national wild-mushroom advisories."
     }
   ],
   "novel_product_routing_protocol": [
@@ -752,5 +816,12 @@
     "Category 22 gains an evaporative-vs-combustion clean/platform framing (no new row numbers).",
     "Reserved, not added: Category 27 Tobacco/Nicotine/Vaping; vape-hardware factoring; candidate rows (imported confectionery Cat 7, wine/spirits Cat 5, non-food pet toys).",
     "Deferred: the canned/snacks matrix-beats-format reorganization (kept in place per the local Cat 6 lock)."
+  ],
+  "v2_2_changelog": [
+    "2026-06-09 — v2.2 matrix-family re-cut. Per docs/governance/taxonomy-v2.2-matrix-family-recut.md.",
+    "Phase A (this commit): Cat 4 slimmed from 'Fruits, Vegetables, and Produce' to 'Fruits and Vegetables' (live rows 1-7); live rows 8-18 retired-in-place and re-homed to new Cat 27 Legumes and Pulses, Cat 28 Nuts/Seeds/Butters, Cat 29 Edible Fungi. Scaffold-level; Cat 4 has no shipped standards.",
+    "Phase B (staged): Cat 7 dissolves — its 9 shipped rows re-home to Cat 30 Culinary Oils and Fats, Cat 31 Sweeteners and Syrups, Cat 32 Condiments/Sauces/Vinegars, Cat 33 Cocoa and Chocolate, Cat 34 Herbs/Spices/Seasonings/Salt, with butter/ghee to Cat 24 Dairy, snacks to Cat 3, mixed-meals to Cat 35 Prepared and Packaged Meals; shipped values carried forward unchanged.",
+    "Supersedes v2.1: mushrooms move from Cat 4 r17/18 to Cat 29; the v2.1 'reserved Cat 27 = tobacco' is reassigned (Cat 27 = Legumes; tobacco renumbers to the next free number).",
+    "Never renumber: re-homed rows retire in place (Cat 4 r8-18, and Cat 7 r1-12 in Phase B, become gaps); new categories append; live row identity is page frontmatter, not the stale Cat 4 array above."
   ]
 }
