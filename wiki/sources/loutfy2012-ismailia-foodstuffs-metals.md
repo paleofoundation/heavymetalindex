@@ -84,6 +84,7 @@ This source contributes Egyptian local-market occurrence data across rice, bread
 - Brand firewall: the source sampled local markets and broad food categories only; no brand-level contamination values are reported.
 - The `seafood` row in Table 2 is described in Methods as seafood "crab and bivalves"; this page routes it to shellfish and does not infer species-specific fish rows.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+- Autonomous audit 2026-06-09 flagged `products/milk-and-dairy` as not in the taxonomy snapshot; verified false positive — `wiki/products/milk-and-dairy.md` is the HMTc Category 24 master page (created 2026-06-08 per Taxonomy v2.1) and is actively used by 20+ other source pages in the routing audit. The taxonomy snapshot is stale relative to the recent Cat 24 dairy reorg.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
