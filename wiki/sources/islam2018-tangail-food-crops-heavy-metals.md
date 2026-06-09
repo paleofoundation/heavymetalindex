@@ -16,7 +16,7 @@ access_url: "https://doi.org/10.1080/10106049.2018.1516246"
 metals: [Cr, Ni, Cu, tAs, Cd, Pb]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/non-root-vegetables]]", "[[ingredients/beans]]", "[[ingredients/fruits]]"]
 products: ["[[products/rice-bulk-grain]]", "[[products/non-root-vegetables]]", "[[products/legumes-pulses-other]]", "[[products/fresh-fruit]]"]
-matrices: [dry-weight, bangladesh-market, industrial-area-crops]
+matrices: [dry-weight, industrial-area-crops, agricultural-field]
 jurisdictions: [BD]
 near_duplicates: []
 sample_n: 75
@@ -89,6 +89,8 @@ This source contributes dry-weight Bangladesh industrial-area crop occurrence ev
 - Table 1 values above were checked against the extracted table. Units are copied as `mg/kg dw` or `mg/kg`; no conversion was made.
 - Speciation: arsenic is total As only. The source's risk model assumed 50% inorganic As in foods, but no measured inorganic-arsenic values are reported. Chromium is total Cr only; no Cr(VI) is reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- Audit subagent 2026-06-09 (REVISE verdict) flagged `matrices: [dry-weight, bangladesh-market, industrial-area-crops]` for vocabulary review. Verified against source §2.1: samples were "collected by hand from the selected agricultural fields during March-April, 2016" — NOT market-collected. The `bangladesh-market` slug (an established country-market idiom in the corpus for retail-market surveys) was factually wrong on this page and was dropped; replaced with `agricultural-field` to capture the field-collected provenance, alongside the existing descriptive `industrial-area-crops`. `dry-weight` retained per controlled vocabulary.
+- Source-internal discrepancy noted (not a wiki defect): the abstract and §2.1 state "Seventy five samples of eight different agricultural crops" and `sample_n: 75` faithfully reports that figure, but the sum of Table 1 row-level n's is 93 (57+3+9+6+6+3+5+4). Carry forward for any future synthesis pass that needs to weight rice-vs-vegetable contributions; the wiki uses the source's stated sample size as authoritative.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
