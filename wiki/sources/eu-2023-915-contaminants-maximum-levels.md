@@ -23,6 +23,9 @@ near_duplicates:
   - path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/EU_2023-915_Maximum_Levels_Contaminants_Food.pdf"
     sha256: "b382ed1dfeb8bb640fc5b2d2c931ddba76966b061256120ec1dc2dce025f2515"
     note: "Byte-identical to the 03_Condiments copy above (same sha256). Kimi agent filed the same Official Journal PDF in two subfolders of the corruption-issue folder tree."
+  - path: "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_03_Condiments/03_Condiments/10_EU_2023_915_contaminants.pdf"
+    sha256: "b382ed1dfeb8bb640fc5b2d2c931ddba76966b061256120ec1dc2dce025f2515"
+    note: "Byte-identical Kimi copy under the June 8 daemon-staging folder tree (same sha256 as the two raw/manual-fetch/ paths above). Recorded so the manual-fetch loop recognizes this path as already-ingested."
 metals: [Pb, Cd, tHg, iAs, tAs, Sn]
 matrices: [infant-formula, baby-food, processed-cereal-based-food, rice, fruit-juice, fish, bivalve-molluscs, cocoa, cereals, vegetables, canned-food]
 products: ["[[products/infant-formula-powder]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/fruit-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/root-vegetable-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]", "[[products/fruit-juice-not-canned]]", "[[products/teething-and-snacks-rice-based]]", "[[products/teething-and-snacks-non-rice]]", "[[products/fresh-fish]]", "[[products/seafood]]", "[[products/canned-fish]]", "[[products/chocolate]]", "[[products/infant-formula]]", "[[products/salt]]", "[[products/infant-and-child-foods-master]]"]
@@ -33,7 +36,7 @@ review_state: approved_for_public
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-06-02
+updated: 2026-06-09
 ---
 
 # EU 2023/915 Contaminants Maximum Levels
@@ -223,6 +226,8 @@ Both fixes are conservative re-mappings to the current taxonomy snapshot, not ne
 A `near_duplicates` entry was added for the Kimi-agent manual-fetch copy at `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/10_EU_2023_915_contaminants.pdf` (sha256 `b382ed1dfeb8bb640fc5b2d2c931ddba76966b061256120ec1dc2dce025f2515`). Both files are the same Official Journal text; the canonical raw_path under `raw/reports/` is preserved.
 
 A second `near_duplicates` entry was added 2026-06-02 for the byte-identical Kimi copy at `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/EU_2023-915_Maximum_Levels_Contaminants_Food.pdf` (same sha256 `b382ed1d...`). The Kimi agent filed the same Official Journal PDF in two subfolders of the condiments2 corruption-issue folder tree; both paths now point back to this canonical source page so future manual-fetch cycles recognize either copy as already-ingested.
+
+A third `near_duplicates` entry was added 2026-06-09 for the same byte-identical copy under the daemon's June 8 staging folder tree at `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_03_Condiments/03_Condiments/10_EU_2023_915_contaminants.pdf` (same sha256 `b382ed1d...`). The manual-fetch loop reached this PDF via the new staging path and the duplicate was confirmed by sha256 against the canonical raw_path; no body changes were made because the existing page is post-2026-05-14 clean and PROMOTE-audited on 2026-06-02.
 
 A `## Key numbers` section was added with the major heavy-metal Annex I rows transcribed directly from the source PDF's tables 3.1 (lead), 3.2 (cadmium), 3.3 (mercury), 3.4 (arsenic — inorganic and total), and 3.5 (inorganic tin). Decimal commas are preserved verbatim from the Official Journal text. The section is a quick-reference for downstream synthesis and product-page work and is bounded to the metals HMI tracks; PAH, mycotoxin, dioxin, melamine, perchlorate, and POP rows are not transcribed here.
 
