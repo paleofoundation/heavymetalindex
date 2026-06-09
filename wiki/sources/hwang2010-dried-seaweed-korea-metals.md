@@ -69,6 +69,7 @@ This source contributes Korean-market dried-seaweed occurrence data for total ar
 - Speciation: arsenic is total arsenic (`tAs`) and mercury is total/unspecified Hg (`tHg`). The paper discusses inorganic arsenic comparator values but does not report measured inorganic arsenic occurrence.
 - Brand firewall: no sampled product brand values were reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- Source-internal discrepancy noted: the abstract reports weekly intakes of `0.11`, `0.65`, and `0.45 µg kg−1 body weight week−1` for total mercury, lead, and cadmium, while Table 4 reports `0.010`, `0.658`, and `0.472`. The Pb and Cd abstract figures are consistent with Table 4 to rounding; the abstract's tHg `0.11` value is ten times the Table 4 value (`0.010`) and is almost certainly a typo in the abstract. The page uses the Table 4 values throughout.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
