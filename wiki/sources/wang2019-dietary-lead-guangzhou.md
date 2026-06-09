@@ -79,7 +79,7 @@ Table 3 reports total-population contribution fractions of 21.42% for rice and r
 
 ## Methods (brief)
 
-Lead concentration data came from the Guangzhou food safety risk monitoring system for 2014-2017. Investigators acting as consumers purchased samples from retailers including supermarkets, restaurants, agricultural product wholesale markets, and stores. After edible-portion preparation, samples were homogenized, digested in acid, and analyzed by ICP-MS. Non-detected results were assigned a value of `1/2 LOD` for occurrence and dietary exposure calculations; the authors report a lead LOD of `0.003 mg/kg`.
+Lead concentration data came from the Guangzhou food safety risk monitoring system for 2014-2017. Investigators acting as consumers purchased samples from retailers including supermarkets, restaurants, agricultural product wholesale markets, and stores. Samples were placed in sealed plastic bags and sent to the laboratory for cryopreservation until digestion. Aliquots of 0.3-0.8 g were digested in 5 mL nitric acid plus 2 mL 30% hydrogen peroxide in a microwave decomposition system, then analyzed by ICP-MS. Non-detected results were assigned a value of `1/2 LOD` for occurrence and dietary exposure calculations; the authors report a lead LOD of `0.003 mg/kg`.
 
 ## Implications
 
