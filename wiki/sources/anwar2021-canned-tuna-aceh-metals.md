@@ -17,8 +17,8 @@ products: ["[[products/canned-fish]]"]
 matrices: [canned-tuna]
 jurisdictions: [ID]
 near_duplicates: []
-sample_n: null
-sample_population: "Tuna from Aceh waters canned under pressure-canner sterilization treatments"
+sample_n: 12
+sample_population: "Yellowfin tuna (Thunnus albacares) from Aceh waters canned under a 2×2 factorial of pressure-canner sterilization conditions (121°C/20 min, 115°C/50 min) and media (5% brine, palm oil); three replicates per treatment"
 updated: 2026-05-30
 sources: 1
 audience: [regulator, educator, consumer, app]
@@ -26,27 +26,36 @@ audience: [regulator, educator, consumer, app]
 
 # Anwar et al. 2021 - lead and mercury in canned tuna from Aceh waters
 
-Anwar and coauthors evaluated canned tuna made from fish caught in Aceh waters under different pressure-canner sterilization conditions and media. Heavy metals were one of the quality parameters. The paper reports very low lead and measurable mercury in canned tuna, making it routeable to canned fish rather than salt.
+Anwar and coauthors evaluated canned tuna made from yellowfin tuna (Thunnus albacares) caught in Aceh waters, Indonesia, under different pressure-canner sterilization conditions and media. Heavy metals were one of several quality parameters. The paper reports lead below the analytical detection limit and measurable total mercury in canned tuna, making it routeable to canned fish rather than salt.
 
 ## Key numbers
 
-The abstract reports:
+All values are reported on the canned-tuna product as packed (wet weight). Pb values are censored at the method detection limit of 0.0001 mg/kg.
 
-| Matrix | Pb | tHg |
-|---|---:|---:|
-| Canned tuna | <0.0001 mg/kg | 0.29-0.58 mg/kg |
+Per-treatment means from Table 1 (n=3 replicates each):
 
-The same study tested fresh-tuna histamine, total plate count, and pH, and tested canned-tuna total plate count, pH, Pb, Hg, and sensory acceptance.
+| Treatment | Sterilization / medium | Pb (mg/kg) | tHg (mg/kg) |
+|---|---|---:|---:|
+| S1M1 | 121°C/20 min, brine | <0.0001 | 0.29 ± 0.164 |
+| S1M2 | 121°C/20 min, palm oil | <0.0001 | 0.58 ± 0.247 |
+| S2M1 | 115°C/50 min, brine | <0.0001 | 0.35 ± 0.042 |
+| S2M2 | 115°C/50 min, palm oil | <0.0001 | 0.39 ± 0.045 |
+
+Pooled across all 12 cans, the body text reports individual-replicate tHg values spanning 0.13-0.80 mg/kg with a mean of 0.40 mg/kg. The abstract reports the narrower 0.29-0.58 mg/kg range, which is the span of treatment-group means rather than individual measurements. ANOVA showed no significant effect of sterilization condition, medium, or their interaction on Pb or Hg (p>0.05).
+
+The Indonesian SNI 8223:2016 canned-tuna standard sets maxima of 0.3 mg/kg Pb and 1.0 mg/kg Hg. All samples in this study were below both ceilings; the highest individual Hg value (0.80 mg/kg) sits at 80% of the SNI Hg ceiling.
+
+The same study tested fresh-tuna histamine, total plate count, and pH, and tested canned-tuna total plate count, pH, and sensory acceptance, none of which contribute to this wiki's metals scope.
 
 ## Methods (brief)
 
-Tuna from Aceh waters was canned using a 24 L pressure canner. Sterilization treatments were 121 degrees C for 20 minutes and 115 degrees C for 50 minutes, with brine or palm-oil media. Heavy metals were reported as Pb and Hg without methylmercury speciation.
+Yellowfin tuna (Thunnus albacares; 49 kg total) was sourced from Pelabuhan Pendaratan Samudera Lampulo, Banda Aceh, and canned in three-piece tin-coated cans (diameter 7.3 cm, height 5.6 cm, volume 234.26 cm³) using a 24 L pressure canner. Sterilization treatments were 121°C for 20 minutes and 115°C for 50 minutes, paired with 5% brine or palm-oil media in a 2×2 factorial design with three replicates per cell (n=12). Lead was determined by method code MU/MO/10-AAS and mercury by MU/MO/12-AAS, both consistent with atomic absorption spectroscopy; no methylmercury versus total mercury speciation was reported, so the mercury values are treated as total mercury.
 
 ## Implications
 
-Certification: Useful for canned fish Hg context, but total mercury should not be substituted for methylmercury.
+Certification: Useful for canned fish total-mercury context in Indonesian waters, but total mercury should not be substituted for methylmercury in any threshold-setting work.
 
-Courses: Illustrates why processing studies may still contain finished-product metal values.
+Courses: Illustrates why processing studies that vary thermal treatments still produce finished-product metal values that route to product-category synthesis.
 
 App: Can support canned tuna mercury context with Indonesia/Aceh geography preserved.
 
@@ -55,11 +64,12 @@ App: Can support canned tuna mercury context with Indonesia/Aceh geography prese
 - [[products/canned-fish]]
 - [[ingredients/canned-tuna]]
 - [[metals/mercury]]
+- [[metals/mercury-total]]
 - [[metals/lead]]
 
 ## Verification notes
 
-The fetched filename classified this as salt total-mercury evidence, but the actual food matrix is canned tuna. Mercury is total mercury; methylmercury is not reported.
+The auto-fetch filename classified this as salt total-mercury evidence, but the actual food matrix is canned tuna. Mercury values are total mercury; methylmercury was not measured. Pb is reported as <0.0001 mg/kg across all treatments; downstream synthesis should treat this as a censored value at the method LOD rather than as a numeric typical_ppb. SNI 8223:2016 (Indonesia canned-tuna standard) is the source's comparator regulation but does not currently have a slug in `wiki/regulations/`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
