@@ -1219,3 +1219,53 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_babycare_02_Regulatory_Reports/02_Regulatory_Reports/CPSIA_and_Lead_Fact_Sheet.pdf`: dup_of_already_clean_page -> cfa2012-cpsia-lead-fact-sheet
+
+## Tick 2026-06-08T23:42:18.881Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Petroleum_Jelly_Vaseline_Specification.pdf`: not_a_research_paper — manufacturer petroleum-jelly product-spec sheet with Pb/As rows reporting only "Passed" (no concentration, no LOD, no sample size, no DOI, no authors). Logged to manual-fetch-stops-2026-06-08.md and added to manual-fetch-skip.csv so the wrapper short-circuits future cycles.
+
+## Tick 2026-06-08T23:46:07.162Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Thermo_Fisher_Heavy_Metals_Cosmetics.pdf`: skip_already_clean_post_2026-05-14_page (moriceau2025-cosmetics-icpms-iso21392; updated 2026-06-01; twice-audited; malformed entry is advisory-only and intentional per Part 6 cosmetics-not-food-taxonomy)
+
+## Tick 2026-06-08T23:49:39.064Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_babycare_05_Other_Categories/05_Other_Categories/Mercury_Exposure_Associated_with_Use_of_Skin_Lightening_Products_in_Jamaica.pdf`: MFK_mercury-exposure-associated-with-use-of-skin-light
+
+## Tick 2026-06-08T23:53:40.461Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_02_Honey_Syrups_Vinegar/02_Honey_Syrups_Vinegar/Agave_Syrup_Chemical_Analysis_Nutritional_Profile_2022.pdf`: out_of_scope_no_heavy_metals_data
+
+## Tick 2026-06-08T23:57:16.672Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_02_Honey_Syrups_Vinegar/02_Honey_Syrups_Vinegar/Bassioni_Risk_Assessment_Aluminum_Foil_Food_2012.pdf`: dup_of_already_clean_page (bassioni2012-aluminum-foil-meat-cooking-uae; byte-identical SHA-256 to existing raw_path; post-2026-05-14 audited-revised; routing clean)

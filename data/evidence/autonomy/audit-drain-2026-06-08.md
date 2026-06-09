@@ -76,3 +76,26 @@
 - `gerofke2018-wild-game-lead` — gerofke2018-wild-game-lead REVISE
 - `mesinger2021-red-deer-heavy-metals` — mesinger2021-red-deer-heavy-metals REVISE
 - `zarski2017-mallard-mercury` — zarski2017-mallard-mercury REVISE
+
+## Run 2026-06-08T23:06:21.815Z
+
+- Candidates this run: 12
+- Succeeded (audited and committed): 11
+- Stopped (genuine block, no commit): 0
+- Failed (error, no commit): 1
+
+### Succeeded
+- `sadee2022-erbil-vegetables` — sadee2022-erbil-vegetables REVISE
+- `dineshkumar2025-fish-heavy-metals` — dineshkumar2025-fish-heavy-metals REVISE
+- `lodico2015-infant-formula-metals` — lodico2015-infant-formula-metals REVISE
+- `birsan2023-cosmetics-mercury` — birsan2023-cosmetics-mercury REVISE
+- `jasinska2019-mushroom-cadmium` — jasinska2019-mushroom-cadmium REVISE
+- `freire2022-donor-breast-milk-metals` — freire2022-donor-breast-milk-metals revised
+- `abaas2018-breast-milk-nickel` — abaas2018-breast-milk-nickel REVISE
+- `davidov2019-cow-milk-heavy-metals` — davidov2019-cow-milk-heavy-metals REVISE
+- `parsaei2019-milk-cadmium-lead-mercury` — parsaei2019-milk-cadmium-lead-mercury REVISE
+- `lin2023-donor-milk-lead-mercury` — lin2023-donor-milk-lead-mercury REVISE
+- `alyasiri2024-infant-formula-heavy-metals` — alyasiri2024-infant-formula-heavy-metals REVISE
+
+### Failed
+- `klein2017-human-milk-trace-elements`: unrecognized final line: "The audit ran the 5-check sweep, returned REVISE with concerns on Checks 1/2/5 (numerical fidelity gaps, the non-existent `ingredients/human-milk` slug, and HMTc-flavored Implications framing). All fi"

@@ -46,3 +46,29 @@ updated: 2026-06-09
 - **Prior tracker precedent:** earlier copies of the same byte content are already marked `ingested` (line 1064, 2026-06-02 KADC handle) and `stopped` with skip-list note (line 1788, May-21 path). The June-8 row remains `unprocessed` only because no FRANK pass has triaged it yet; not a defect.
 - **Suggested-handle discrepancy:** orchestrator suggested `MFK_08b-efsa-cadmium-food-2009-alt`; existing page uses `raw_handle: KADC_08b-efsa-cadmium-food-2009-alt`. Preserved per skill rule "preserve raw_handle from the existing page." Same cosmetic prefix carve-out as the Shindoh stop above.
 - **Action:** none. No new ingest, no re-audit, no commit to the wiki source page. Same stop pattern as the earlier 2026-06-09 `STOP MFK_05-shindoh-cadmium-soy-sauce-processing` entry. FRANK will resolve the tracker row on its next pass.
+
+## STOP MFK_09-codex-cxs-193-1995
+
+- **Reason:** `dup_of_already_clean_page`
+- **Existing page:** `wiki/sources/codex-cxs-193-1995.md`
+- **Existing-page state:** `updated: 2026-06-02`, post-2026-05-14 schema. Comprehensive Part 6 body covering Cd MLs (22 matrices), Pb MLs (30+ matrices), As MLs (fats/oils + iAs-in-rice), Hg/MeHg MLs, Sn MLs (canned-foods schedule). Already merge-enhanced 2026-06-02 with `raw_path` and `sha256` populated, full Snapshot context section enumerating 2009-PDF-vs-current-standard deltas (CCCF11–CCCF17 amendments). Already audited 2026-06-02 — subagent verdict REVISE, all ❌ findings applied (Cd Fruiting-vegetables row split; cereal-grains bran/germ exclusion; dropped invented wheat descriptor / bivalve positive list / Brassica leafy addition / Fish digestive-tract qualifier / Meat "without bones" / offal organ enumerations; added new Arsenic body section + `tAs` to `metals:`), ⚠️ findings applied (over-specified ingredient slugs dropped; HMTc-firewall softening; App "most-cited" → "commonly-referenced examples"). 0 findings rejected as false positives.
+- **Identity verification:**
+  - SHA-256 of `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_03_Condiments/03_Condiments/09_Codex_CXS_193_1995.pdf` = `5adf44c2d50c2cf6fa2f8cafac9db379fda930f6337c2d8dfe0e2fcddf8534dc`
+  - `sha256` on existing page = `5adf44c2d50c2cf6fa2f8cafac9db379fda930f6337c2d8dfe0e2fcddf8534dc`
+  - Byte-identical. Same 2009-amended PDF snapshot re-surfaced under the June-8 Kimi-corruption-folder `_extracted_condiments2_03_Condiments/` extraction tree; the existing page's `raw_path` points at a sibling copy under `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/09_Codex_CXS_193_1995.pdf` (both copies exist on disk, both byte-identical).
+- **Cite-key match:** suggested-handle `MFK_09-codex-cxs-193-1995` resolves to existing cite-key `codex-cxs-193-1995` (the Codex agency-identifier form). Per skill rule "preserve cite_key from the existing page" — no rename.
+- **Routing status:** entry in `routing_malformed.csv` is `advisory` only (`Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible`), flagging just `products: []`. Intentional steady-state convention for international Codex regulatory sources (sibling pages `codex-cccf17-2024` and `codex-cxc-81-2022` carry the same advisory by design — international Codex MLs route to product-category pages via the `regulations/codex-cadmium-mls` and sibling regulation pages, not via per-source `products:` declarations). Already documented in the existing page's verification notes (lines 290–291). Not a defect — not a merge-enhance trigger.
+- **Action:** none. No new ingest, no re-audit, no commit to the wiki source page. Same stop pattern as the earlier 2026-06-09 entries above. FRANK will resolve the tracker row on its next pass.
+
+## STOP MFK_11-fish-sauce-heavy-metals-malaysia
+
+- **Reason:** `dup_of_already_clean_page`
+- **Existing page:** `wiki/sources/abdullah2009-fish-sauce-malaysia-heavy-metals.md`
+- **Existing-page state:** `updated: 2026-06-02`, post-2026-05-14 schema. Full Part 6 body (Key numbers per-sample table, Methods, Speciation, Quality control, Implications, Verification notes) with explicit truncation disclaimers (the 5-page PDF copy contains only title/TOC/abstract/first two pages of Chapter 1; methods chapter and results chapter are not present in the raw file). Already audited 2026-06-02 — subagent verdict PROMOTE; 0 findings, 0 applied, 0 rejected across all five checks.
+- **Identity verification:**
+  - SHA-256 of `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_03_Condiments/03_Condiments/11_Fish_sauce_heavy_metals_Malaysia.pdf` = `0b036e65db6e620b8bc00a99509ad49eb960bf3d58ba4dba3f2fd082390af00c`
+  - `raw_sha256` on existing page = `0b036e65db6e620b8bc00a99509ad49eb960bf3d58ba4dba3f2fd082390af00c`
+  - Byte-identical. Same truncated 5-page UiTM B.Sc. thesis PDF re-surfaced under the June-8 Kimi-corruption-folder `_extracted_condiments2_03_Condiments/` extraction tree; existing page's `raw_path` points at a sibling copy under `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/11_Fish_sauce_heavy_metals_Malaysia.pdf` (both copies exist on disk, both byte-identical).
+- **Cite-key match:** suggested-handle `MFK_11-fish-sauce-heavy-metals-malaysia` resolves to existing cite-key `abdullah2009-fish-sauce-malaysia-heavy-metals` (Abdullah is the thesis author; UiTM Shah Alam, November 2009). Per skill rule "preserve cite_key from the existing page" — no rename.
+- **Routing status:** not in `routing_unresolved.csv`, not in `routing_malformed.csv`. Clean single-row routing (`products/condiments-general` direct_evidence) per the existing audit-queue notes.
+- **Action:** none. No new ingest, no re-audit, no commit to the wiki source page. Same stop pattern as the earlier 2026-06-09 entries above. FRANK will resolve the tracker row on its next pass.
