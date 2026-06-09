@@ -17,8 +17,8 @@ products: ["[[products/coffee]]"]
 matrices: [ground-coffee, instant-coffee, coffee-infusion]
 jurisdictions: [PL]
 near_duplicates: []
-sample_n: 40
-sample_population: "Ground and instant coffees from eight producers available on the Polish market, with five product batches per assortment and paired brewed infusions prepared from 6.33 g coffee per 100 mL water."
+sample_n: 120
+sample_population: "Ground coffees from four producers (brands A-D) and instant coffees from four producers (brands E-H) available on the Polish market, with five batches per brand and three samples per batch (n=15 per brand; n=60 per coffee type; n=120 total). Paired brewed infusions were prepared from 6.330 g coffee per 100 mL hot deionized water."
 updated: 2026-06-09
 ---
 
@@ -28,13 +28,13 @@ Pokorska-Niewiada and colleagues measured lead and cadmium in commercially avail
 
 ## Key numbers
 
-The study analyzed instant and ground coffees from eight producers, with each assortment represented by five batches. Coffee infusions were prepared from 6.330 g of ground or instant coffee in 100 mL hot deionized water with a 10-minute brewing time.
+The study analyzed instant and ground coffees from eight producers (four ground, four instant), with each assortment represented by five batches and three samples per batch, giving n=60 per coffee type and n=120 total. Coffee infusions were prepared from 6.330 g of ground or instant coffee in 100 mL hot deionized water with a 10-minute brewing time.
 
 Table 2a reports dry coffee concentrations. Ground coffee beans had mean Pb 0.015 +/- 0.004 ug/g (range 0.009-0.020 ug/g) and Cd 0.017 +/- 0.002 ug/g (range 0.013-0.019 ug/g). Instant coffee had mean Pb 0.014 +/- 0.003 ug/g (range 0.010-0.020 ug/g) and Cd 0.015 +/- 0.002 ug/g (range 0.012-0.019 ug/g).
 
 Table 2b reports transfer from ground coffee into infusion: Pb 7.10 +/- 1.63% and Cd 30.05 +/- 3.27%. Instant coffee was treated as 100% transferred because the dry instant product dissolves in the drink.
 
-Table 2c reports coffee-drink concentrations. Ground-coffee drink had mean Pb 0.0007 +/- 0.0002 ug/100 mL (range 0.0004-0.0009 ug/100 mL) and Cd 0.0031 +/- 0.0003 ug/100 mL (range 0.0025-0.0035 ug/100 mL). Instant coffee had mean Pb 0.0090 +/- 0.0016 ug/100 mL (range 0.0065-0.0126 ug/100 mL) and Cd 0.0096 +/- 0.0014 ug/100 mL (range 0.0078-0.0118 ug/100 mL).
+Table 2c reports coffee-drink concentrations. Ground-coffee drink had mean Pb 0.007 +/- 0.002 ug/100 mL (range 0.004-0.009 ug/100 mL) and Cd 0.031 +/- 0.003 ug/100 mL (range 0.025-0.035 ug/100 mL). Instant coffee had mean Pb 0.090 +/- 0.016 ug/100 mL (range 0.065-0.126 ug/100 mL) and Cd 0.096 +/- 0.014 ug/100 mL (range 0.078-0.118 ug/100 mL).
 
 The authors' exposure calculations found low toxic-element intake from coffee brews. Table 5 reports Cd THQ ranges of 0.0004-0.0005 for ground coffee and 0.0011-0.0017 for instant coffee. The abstract states that lead did not exceed 0.9% of the BMDL0.1 and cadmium did not exceed 0.2% of PTMI even under higher-consumption assumptions.
 
