@@ -32,7 +32,7 @@ Sargsyan and colleagues screened 5,007 consumer products from 25 low- and middle
 - Spices had n=1,084 samples. Table 2 reports minimum non-detect, 25th percentile non-detect, median non-detect, 75th percentile non-detect, maximum 622 ppm Pb, and 2% above the 2 ppm spice reference level.
 - The authors state that the highest spice concentrations were found in turmeric and blends.
 - Table 1 sets the spice reference level at 2 ppm Pb, described as the highest of several European regulatory levels applying to different spice types.
-- Country-level exceedance percentages for spices in Table 3 include Tajikistan 60% (marked as five or fewer samples), Turkey 25% (five or fewer samples), Uttar Pradesh India 12%, Pakistan 9%, Bangladesh 7%, Armenia 4%, Mexico 3%, Vietnam 3%, Tanzania 2%, Colombia 2%, Peru 2%, Egypt 2%, and 0% for many other sampled countries or Indian states.
+- Country-level exceedance percentages for spices in Table 3 include Tajikistan 60% (marked as five or fewer samples), Turkey 25% (five or fewer samples), Uttar Pradesh India 12%, Pakistan 9%, Bangladesh 7%, Georgia 7%, Maharashtra India 7%, Armenia 4%, Mexico 3%, Vietnam 3%, Tanzania 2%, Colombia 2%, Peru 2%, Egypt 2%, and 0% for the remaining sampled countries or Indian states.
 - The authors note that the XRF minimum detection level for spices is often 2-4 ppm, so some non-detect readings could still have exceeded the 2 ppm reference level.
 
 ## Methods (brief)
