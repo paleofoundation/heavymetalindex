@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-09T09:14:03.289Z
+updated: 2026-06-09T10:55:27.097Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -29,14 +29,14 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Component | State |
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
-| auto-fetched/ PDFs in queue | 814 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 71 ⚠️ |
-| Audit queue: pending-audit-spawn-failed | 97 (async lane) |
-| Wishlist: total downloaded historically | 1 |
+| auto-fetched/ PDFs in queue | 935 (fresh work for Codex/daemon ingest) |
+| Audit queue: pending | 54 ⚠️ |
+| Audit queue: pending-audit-spawn-failed | 119 (async lane) |
+| Wishlist: total downloaded historically | 72 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
-| Commits last 1 hour | 38 |
-| Commits last 24 hours | 674 |
+| Commits last 1 hour | 35 |
+| Commits last 24 hours | 682 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-a76bed7 2 minutes ago — ingest: thomas2022-lead-game-meat-awareness fresh from MFK/June 8
+9b96798 36 seconds ago — audit: hwang2010-dried-seaweed-korea-metals promoted per autonomous audit
 ```
 
 ## How to read this

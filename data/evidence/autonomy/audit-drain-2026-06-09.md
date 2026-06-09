@@ -208,3 +208,45 @@
 - `loutfy2012-ismailia-foodstuffs-metals` — loutfy2012-ismailia-foodstuffs-metals PROMOTE
 - `maduabuchi2007-nigeria-beverages-arsenic-chromium` — maduabuchi2007-nigeria-beverages-arsenic-chromium PROMOTE
 - `ziyaina2014-libya-spices-lead-cadmium` — ziyaina2014-libya-spices-lead-cadmium PROMOTE
+
+## Run 2026-06-09T08:17:52.307Z
+
+- Candidates this run: 12
+- Succeeded (audited and committed): 12
+- Stopped (genuine block, no commit): 0
+- Failed (error, no commit): 0
+
+### Succeeded
+- `mohammed2021-salah-al-din-noodles-metals` — mohammed2021-salah-al-din-noodles-metals PROMOTE
+- `oladoye2016-odo-ori-spices-metals` — oladoye2016-odo-ori-spices-metals REVISE
+- `pan2016-zhejiang-vegetables-metals` — pan2016-zhejiang-vegetables-metals PROMOTE
+- `solidum2013-metro-manila-junk-food-metals` — solidum2013-metro-manila-junk-food-metals PROMOTE
+- `uroko2020-ubani-canned-tomato-paste-metals` — uroko2020-ubani-canned-tomato-paste-metals revised
+- `voegborlo1999-libya-canned-tuna-metals` — voegborlo1999-libya-canned-tuna-metals REVISE
+- `wang2019-dietary-lead-guangzhou` — wang2019-dietary-lead-guangzhou REVISE
+- `wang2020-jilin-total-diet-metals` — wang2020-jilin-total-diet-metals PROMOTE
+- `gutierrez-ravelo2020-sarpa-salpa-metals-canary` — gutierrez-ravelo2020-sarpa-salpa-metals-canary PROMOTE
+- `bauer2023-brazilian-sardine-metal-risk` — bauer2023-brazilian-sardine-metal-risk PROMOTE
+- `ulusoy2023-canned-tuna-toxic-metals` — ulusoy2023-canned-tuna-toxic-metals REVISE
+- `efsa2023-heavy-metals-seaweed` — efsa2023-heavy-metals-seaweed PROMOTE
+
+## Run 2026-06-09T09:37:26.529Z
+
+- Candidates this run: 12
+- Succeeded (audited and committed): 12
+- Stopped (genuine block, no commit): 0
+- Failed (error, no commit): 0
+
+### Succeeded
+- `job2023-thondi-fish-metal-bioaccumulation` — job2023-thondi-fish-metal-bioaccumulation PROMOTE
+- `jiang2026-organotin-seafood-hong-kong` — jiang2026-organotin-seafood-hong-kong PROMOTE
+- `uc-peraza2022-yucatan-seafood-organotins` — uc-peraza2022-yucatan-seafood-organotins PROMOTE
+- `suzuki2022-nano-mercury-seafood-exposure` — suzuki2022-nano-mercury-seafood-exposure PROMOTE
+- `chen2019-china-oyster-organotins` — chen2019-china-oyster-organotins revised
+- `chung2020-hong-kong-seafood-organotins` — chung2020-hong-kong-seafood-organotins REVISED
+- `copat2013-mediterranean-fish-shellfish-metals` — copat2013-mediterranean-fish-shellfish-metals PROMOTE
+- `grandjean2010-methylmercury-health-research` — grandjean2010-methylmercury-health-research PROMOTE
+- `barchiesi2020-shellfish-metals-central-italy` — barchiesi2020-shellfish-metals-central-italy REVISE
+- `kim2023-korea-fishery-products-metals` — kim2023-korea-fishery-products-metals PROMOTE
+- `harada1995-minamata-methylmercury-poisoning` — harada1995-minamata-methylmercury-poisoning REVISE
+- `ho2014-hong-kong-seafood-organotins` — ho2014-hong-kong-seafood-organotins PROMOTE

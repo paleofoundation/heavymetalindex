@@ -669,3 +669,123 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_08_Laundry_Bleach_Fabric/08_Laundry_Bleach_Fabric/HERA_LAS_Risk_Assessment_2013.pdf`: off_topic_no_heavy_metals — HERA_LAS_Risk_Assessment_2013.pdf is an industry risk assessment of LAS (Linear Alkylbenzene Sulphonate, CAS 68411-30-3), an organic surfactant. Zero heavy metals analytes anywhere in the report. Stop documented at data/evidence/autonomy/manual-fetch-stops-2026-06-09.md.
+
+## Tick 2026-06-09T09:15:09.674Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_household_08_Laundry_Bleach_Fabric/08_Laundry_Bleach_Fabric/HERA_Reference_Document_2005.pdf`: off_topic_no_heavy_metals — HERA Reference Book 2005 is a program-description booklet (no analytical chemistry, zero metals data)
+
+## Tick 2026-06-09T09:18:56.464Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/02_2016_IMEKO-TC23-2016-038.pdf`: already-merged-near-duplicate (IMEKO-TC23-2016-038 was processed on 2026-05-31 as a strict-subset near-duplicate of onghena2016-baby-bottle-migration-duration-tests; existing journal page already documents it in `near_duplicates`, audit queue already has the `near-duplicate-merged` row, no new work needed)
+
+## Tick 2026-06-09T09:20:53.013Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `houlihan2019-hbbf-whats-in-baby-food` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/03_2019_BabyFoodReport_EXEC-SUMM-ENGLISH_R6.pdf)
+
+## Tick 2026-06-09T09:28:07.608Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Failed
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/07_2019_BabyFoodReport_FULLREPORT_ENGLISH_R5b.pdf`: exit 1:
+
+## Tick 2026-06-09T09:29:43.224Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/08_133572.pdf`: already_merged_near_duplicate — MFK_08-133572 (Onghena 2016 PhD thesis) is a re-stage of the May 21 PDF (SHA-256 7dcddc15…2ee92a6f98) already registered on 2026-05-31 as a near-duplicate superset of `onghena2016-baby-bottle-migration-duration-tests`; whole thesis is organic-FCM-migrants scope with no heavy-metals occurrence data; existing page is post-2026-05-14 clean (`updated: 2026-06-01`, audited-promote, routing_malformed is advisory-only).
+
+## Tick 2026-06-09T09:33:41.284Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Failed
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/01_ijerph-19-14760_2022.pdf`: unrecognized final line: "This is a different Bernard 2022 paper. The existing `bernard2022-anses-diaper-risk-reevaluation.md` is DOI `10.3390/ijerph19074159` — a single-author critique. The new PDF is Bernard & Dudler 2022 (DOI `10.3390/ijerph192214760`) — a primary measurement study. No existing page; NEW path. Let me finish reading."
+
+## Tick 2026-06-09T09:56:44.497Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `toxicslink2021-india-diaper-phthalates` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/03_New_Diaper_study_FINAL_2015.pdf)
+
+## Tick 2026-06-09T10:08:57.382Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `devito2002-tampons-diapers-dioxin-exposure` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/05_ehp0110-000023_2002.pdf)
+
+## Tick 2026-06-09T10:18:57.581Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_04_Feeding_Accessories/04_Feeding_Accessories/07_fillable-articles-made-from-melamine-formaldehyde-resin_2022.pdf`: off_topic_no_heavy_metals
+
+## Tick 2026-06-09T10:20:51.970Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/09_blk_media_toyweb4_en_2025.pdf`: already_ingested_clean_post_2026-05-14
+
+## Tick 2026-06-09T10:25:19.176Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `houlihan2019-hbbf-whats-in-baby-food` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/16_What's_in_My_Baby's_Food__2019.pdf)
+
+## Tick 2026-06-09T10:31:29.264Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/18_Products_Covered_2011.pdf`: already_ingested_clean_post_2026-05-14 — `cpsc2012-cpsia-101b-functional-purpose-exception` (updated 2026-06-01, audit-applied 2026-06-01, SHA-identical to May 21 copy; only routing_malformed entry is advisory for documented-correct empty `ingredients`/`matrices`)
