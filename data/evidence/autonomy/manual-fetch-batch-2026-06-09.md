@@ -69,3 +69,123 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_03_Condiments/03_Condiments/11_Fish_sauce_heavy_metals_Malaysia.pdf`: dup_of_already_clean_page (abdullah2009-fish-sauce-malaysia-heavy-metals already updated 2026-06-02, audited PROMOTE, byte-identical SHA-256, not in malformed/unresolved)
+
+## Tick 2026-06-09T01:36:15.494Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_04_Chocolate_Seasonings_Salt/04_Chocolate_Seasonings_Salt/11_Celtic_Sea_Salt_heavy_metals_analysis.pdf`: brand_firewall_violation MFK_11-celtic-sea-salt-heavy-metals-analysis
+
+## Tick 2026-06-09T01:38:00.869Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_04_Chocolate_Seasonings_Salt/04_Chocolate_Seasonings_Salt/12_EU_Cadmium_Limits_2021_Regulation_488_2014.pdf`: dup_of_already_clean_page — eu-2021-1323-cadmium-foodstuffs-amendment already updated 2026-06-02, audited REVISE, byte-identical SHA-256 to the re-surfaced PDF.
+
+## Tick 2026-06-09T01:39:58.156Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_04_Chocolate_Seasonings_Salt/04_Chocolate_Seasonings_Salt/13_EU_Cadmium_Chocolate_Contaminants_Catalogue_2019.pdf`: dup_of_already_clean_page (ec2019-cadmium-chocolate-leaflet — byte-identical SHA, post-2026-05-14 schema, audit PROMOTE 2026-06-02, clean in routing)
+
+## Tick 2026-06-09T01:41:42.204Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_04_Chocolate_Seasonings_Salt/04_Chocolate_Seasonings_Salt/14_CBI_EU_Requirements_Cadmium_Cocoa_2023.pdf`: dup_of_already_clean_page — `cbi2024-cocoa-eu-market-requirements.md` (updated 2026-06-02, SHA256-matched, audited PROMOTE, clean routing).
+
+## Tick 2026-06-09T01:43:37.453Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_04_Chocolate_Seasonings_Salt/04_Chocolate_Seasonings_Salt/19_As_You_Sow_2022_Expert_Investigation_Cocoa_Chocolate_Products.pdf`: dup_of_already_clean_page
+
+## Tick 2026-06-09T01:45:39.162Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cfs2019-hk-metallic-contamination-guidelines` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_05_Snacks_Canned_Prepared/05_Snacks_Canned_Prepared/HongKong_Guidelines_Metallic_Contamination.pdf)
+
+## Tick 2026-06-09T01:59:33.360Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_01_Oils/01_Oils/Determination of some inorganic metals in edible vegetable oils by ICP-AES.pdf`: dup_of_already_clean_page (pehlivan2008-vegetable-oils-turkey-icp-aes; byte-identical SHA `ea8699fd…` to existing `raw_path`; existing page `updated: 2026-05-18`, not malformed, not unresolved)
+
+## Tick 2026-06-09T02:01:26.351Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_01_Oils/01_Oils/Levels of Selected Heavy Metals in Varieties of Vegetable Oils Collected from Saudi Arabia.pdf`: dup_of_already_clean_page (ashraf2012-heavy-metals-vegetable-oils-saudi-arabia already audited-promote; PDF byte-identical to existing `raw_path`)
+
+## Tick 2026-06-09T02:04:28.515Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_01_Oils/01_Oils/Report on a Total Diet Study carried out by the Food Safety Authority of Ireland (FSAI TDS).pdf`: dup_of_already_clean_page — fsai2016-total-diet-study-ireland-2012-2014 already ingested and audited (REVISE, 2026-05-26); target PDF is byte-identical SHA `00faba9a…` to the existing page's `raw_path` sibling. No ingest, no re-audit, no commit.
+
+## Tick 2026-06-09T02:06:29.333Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_02_Vinegars/02_Vinegars/Alarming Lead, Arsenic Levels Found in Popular Vinegar Brands - ESCP_Food & Water Watch Testing.pdf`: dup_of_already_clean_page
+
+## Tick 2026-06-09T02:08:23.690Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_02_Vinegars/02_Vinegars/Aluminum Leaching from Cooking Pans and Food Containers into Vinegar.pdf`: corrupted_pdf_filename_content_mismatch
+
+## Tick 2026-06-09T02:09:58.720Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments_02_Vinegars/02_Vinegars/Determination of heavy metal contents of apple and grape vinegars by using ICP-MS (Inductively Coupl.pdf`: corrupted_pdf_filename_content_mismatch — filename promises Tekin 2014 ICP-MS heavy-metals-in-vinegar thesis; actual PDF is Duman & Türkmen 2024 vinegar chemical-composition paper (pH/acidity/color only, zero heavy-metal analytes). Off-topic for HMI. Stop note logged at `data/evidence/autonomy/manual-fetch-stops-2026-06-09.md`.

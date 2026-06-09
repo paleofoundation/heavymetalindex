@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-09T01:16:08.679Z
+updated: 2026-06-09T02:26:52.058Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -29,14 +29,14 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Component | State |
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
-| auto-fetched/ PDFs in queue | 543 (fresh work for Codex/daemon ingest) |
+| auto-fetched/ PDFs in queue | 548 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 110 ⚠️ |
-| Audit queue: pending-audit-spawn-failed | 41 (async lane) |
-| Wishlist: total downloaded historically | 23 |
+| Audit queue: pending-audit-spawn-failed | 31 (async lane) |
+| Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
-| Commits last 1 hour | 23 |
-| Commits last 24 hours | 492 |
+| Commits last 1 hour | 18 |
+| Commits last 24 hours | 495 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-5a4f942 54 seconds ago — audit-queue: ranjbar2025-mineral-water-metals [audited-revised]
+eb11108 3 minutes ago — audit: tkachuk2024-sunflower-seeds-metals [revised] per autonomous audit
 ```
 
 ## How to read this

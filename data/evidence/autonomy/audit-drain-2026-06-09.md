@@ -76,3 +76,24 @@
 - `chaiyasut2018-coffee-cosmetic-heavy-metals` — chaiyasut2018-coffee-cosmetic-heavy-metals REVISE
 - `brima2026-drinking-water-elements` — brima2026-drinking-water-elements PROMOTE
 - `nkwocha2021-cashew-nuts-metals` — nkwocha2021-cashew-nuts-metals REVISE
+
+## Run 2026-06-09T00:56:48.476Z
+
+- Candidates this run: 12
+- Succeeded (audited and committed): 12
+- Stopped (genuine block, no commit): 0
+- Failed (error, no commit): 0
+
+### Succeeded
+- `alatise2025-fruit-nuts-metals` — alatise2025-fruit-nuts-metals REVISE
+- `mahmood2025-dried-fruit-metals` — mahmood2025-dried-fruit-metals REVISE
+- `ranjbar2025-mineral-water-metals` — ranjbar2025-mineral-water-metals REVISE
+- `decharat2020-school-drinking-water-pb-cd` — decharat2020-school-drinking-water-pb-cd PROMOTE
+- `bazie2022-burkina-faso-foodstuffs-metals` — bazie2022-burkina-faso-foodstuffs-metals revised
+- `liu2025-nanyang-crops-heavy-metals` — liu2025-nanyang-crops-heavy-metals revised
+- `belew2024-peanuts-date-palm-metals` — belew2024-peanuts-date-palm-metals revised
+- `mohod2015-spinach-tomato-metals` — mohod2015-spinach-tomato-metals REVISE
+- `naser2018-leafy-vegetables-bangladesh-metals` — naser2018-leafy-vegetables-bangladesh-metals REVISE
+- `orosun2023-vegetables-nigeria-ptms` — orosun2023-vegetables-nigeria-ptms REVISE
+- `salawu2015-spinach-irrigation-metals` — salawu2015-spinach-irrigation-metals REVISE
+- `salhotra2017-vegetables-fruits-heavy-metals` — salhotra2017-vegetables-fruits-heavy-metals REVISE
