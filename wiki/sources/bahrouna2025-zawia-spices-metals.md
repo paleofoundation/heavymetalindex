@@ -11,7 +11,7 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC 4.0"
 raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-spices-tas_2025_10-26629-uzjns-2025-10.pdf
-metals: [Pb, Cd, tAs, Hg, Mn, Ni, Cu, Zn, Fe, Co, Cr]
+metals: [Pb, Cd, tAs, tHg, Mn, Ni, Cu, Zn, Fe, Co, Cr]
 ingredients: ["[[ingredients/spices]]"]
 products: ["[[products/spices]]"]
 matrices: [mixed-spices, seasoning-spices, spices]
@@ -36,7 +36,7 @@ Bahrouna and colleagues measured 11 metals in 13 spice and seasoning samples pur
 
 ## Methods (brief)
 
-The authors collected dry spice samples from local markets and spice shops, ground and wet-digested 4 g portions using nitric acid, filtered digests to 25 ml, and measured metals using an XSupreme 8000 X-ray fluorescence instrument. Results are reported as total elemental concentrations in ppm; arsenic, mercury, and chromium are not speciated.
+The authors collected dry spice samples from local markets and spice shops, ground them, and wet-digested 4 g portions in 40 ml of an oxi-acidic mixture of 70 percent nitric acid and 30 percent hydrogen peroxide (4:1) at 130 degrees Celsius for 3 hours. Digests were filtered through Whatman No. 42 paper and diluted to 25 ml, and metals were measured using an XSupreme 8000 X-ray fluorescence instrument (Oxford Instruments). Results are reported as total elemental concentrations in ppm; arsenic, mercury, and chromium are not speciated.
 
 ## Implications
 
@@ -66,6 +66,8 @@ App: Route as broad mixed-spice evidence for Libya, with no brand-level extracti
 
 - The PDF names several commercial sample labels in the methods section; this source page keeps the finding at category level under the brand firewall.
 - The article body gives arsenic as 0.09 +/- 0.03 ppm in Table 2, while the abstract and conclusion give 0.086 +/- 0.03 ppm. This page records both and treats Table 2 as the table value for routing.
+- Table 2 reports Cr SD as 0.51 ppm, while section 3.11 and the section 4 conclusion give 0.56 +/- 0.50 ppm. This page treats the Table 2 value as authoritative for routing and notes the internal inconsistency in the source.
+- Copper is reported as 0.26 +/- 0.15 ppm in Table 2 and 0.262 +/- 0.147 ppm in section 3.8 and section 4 conclusion. The values are consistent at table precision; this page uses the Table 2 rounding.
 - The DOI and publication metadata are taken from the first page of the PDF.
 
 <!-- BEGIN: hmi-page-history -->
