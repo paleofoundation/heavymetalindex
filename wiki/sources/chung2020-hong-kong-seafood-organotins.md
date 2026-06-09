@@ -15,8 +15,8 @@ raw_sha256: "24deedf2908dbb1ce5db622583fa6b15e5f28496f182c24fdaad5472686f6377"
 access_url: "https://doi.org/10.1016/j.marpolbul.2020.111116"
 metals: [Sn]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]", "[[ingredients/seafood]]", "[[ingredients/shellfish]]", "[[ingredients/molluscs]]", "[[ingredients/bivalve-molluscs]]"]
-products: ["[[products/fish-marine-predatory]]", "[[products/fish-marine-non-predatory]]", "[[products/fish-freshwater]]", "[[products/shellfish]]"]
-matrices: [fish, shellfish, mollusk, seafood, market-fish, wet-weight]
+products: ["[[products/seafood]]", "[[products/fish-marine-predatory]]", "[[products/fish-marine-non-predatory]]", "[[products/fish-freshwater]]", "[[products/shellfish]]"]
+matrices: [fish, shellfish, mollusk, seafood, market-samples, wet-weight, organotins]
 jurisdictions: [HK]
 near_duplicates: []
 sample_n: 341
@@ -107,6 +107,10 @@ This source contributes broad Hong Kong market seafood occurrence evidence for o
 - Speciation: all values are organotin species (DBT, TBT, TPhT, DOT), not total Sn or inorganic tin. The frontmatter uses `Sn` only to route organometallic tin evidence.
 - Brand firewall: seafood samples were grouped by species/food item and no sampled product brand values were reported.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- Audit subagent 2026-06-09 (REVISE verdict) recommended switching `metals: [Sn]` to `metals: [organotins]`. Verified against corpus convention: 9 sibling organotin source pages (chen2019, ho2014, ho2016, jiang2026, lee2016, shu2023, uc-peraza2022, zanon2008, cfs2019) all use `metals: [Sn]` per the taxonomy-snapshot.md note that frontmatter `metals:` uses the abbreviation vocabulary (Sn) and not the page slug. False positive against established corpus convention — rejected.
+- Same audit flagged the `ingredients/seafood` + `products/seafood` co-routing as redundant. Verified: 185 source pages in this corpus use this same dual-route pattern (the routing layer treats `seafood` as both an ingredient bucket and an umbrella product). False positive — rejected.
+- Same audit suggested removing `wet-weight` from `matrices` as "a basis, not a matrix." Verified: 8 of 9 sibling organotin pages encode `wet-weight`/`dry-weight` inside `matrices` for downstream basis routing. Corpus convention — rejected.
+- Same audit caught real issues: `matrices` was missing the `organotins` speciation token (6+ sibling pages include it); `market-fish` was an idiomatic outlier (corpus uses `market-samples` or `<country>-market`). Both fixed. `products/seafood` added to capture the broad multi-group scope per lee2016-taiwan-seafood-organotins precedent.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
