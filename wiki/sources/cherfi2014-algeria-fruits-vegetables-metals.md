@@ -54,8 +54,8 @@ Additional source-reported ranges and exposure estimates:
 
 - Abstract concentration ranges were Cu 4-29.49, Zn 11.17-49, Pb 12.33-39.33, and Cr 3-16.33 `mg/kg dry wt.`.
 - The results section gives the same ranges, with Cu minimum 3.83 mg/kg in zucchinis and Cr maximum 16.33 mg/kg in onions.
-- Table 3 global estimated daily intake values were Cu 12,185, Zn 17,998, Pb 15,659, and Cr 7547 `lg/day kg body weight`; the decimal separator appears to be printed as a comma in the extracted table.
-- The abstract states Pb EDI was `15.66 lg Pb/kg body weight/day` and Pb THQ was `4.37`.
+- Table 3 global estimated daily intake values were Cu 12.185, Zn 17.998, Pb 15.659, and Cr 7.547 µg/day/kg body weight; the printed table renders these as `12,185`, `17,998`, `15,659`, and `7547`, but the discussion on page 5 confirms the comma is a decimal separator and the µ is rendered as "l" in the PDF extraction.
+- The abstract states Pb EDI was 15.66 µg Pb/kg body weight/day and Pb THQ was 4.37 (a rounded form of the 15.659 in Table 3 and the 4.38628 GTHQ in Table 4).
 - Table 4 global target hazard quotients were Cu 0.30463, Zn 0.05999, Pb 4.38628, and Cr 0.00503; the combined global THQ was 4.75594.
 - Table 4 reports the highest food-level combined target hazard quotient for potatoes at 2.06995, driven by Pb THQi 1.83633.
 
@@ -88,8 +88,9 @@ This source contributes Algeria-market occurrence evidence for total Cr, Pb, Zn,
 - DOI verified from the first page as `10.1016/j.fct.2014.04.044`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
 - The concentration table values above were checked against Table 1 in the extracted text. Units are copied as `mg/kg dry weight`; no conversion to fresh weight was made.
 - Speciation: chromium is total Cr only. The source does not report Cr(III), Cr(VI), arsenic, mercury, cadmium, methylmercury, or inorganic arsenic.
-- The EDI table prints global values with comma separators (`12,185`, `17,998`, `15,659`, `7547`) while the abstract prints Pb EDI as `15.66`; this page preserves the source-reported values and flags the formatting rather than recalculating them.
+- The Table 3 EDI row prints global values with comma separators (`12,185`, `17,998`, `15,659`, `7547`); the discussion text on page 5 confirms these are decimals (`12.185–17.998–7.547 µg metal/kg body weight/day` for Cu, Zn, Cr and `15.659 µg Pb/kg body weight/day` for Pb), so the Key numbers section reports the period-separated forms. The PDF text extraction renders µ as "l"; this page normalises the unit to µg.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- The `matrices: algeria-market` token follows the existing country-market idiom (`libya-market`, `nigeria-market`, `bangladesh-market`) used on other market-survey source pages; it is not a formal controlled-vocabulary entry but matches the established pattern for "purchased from country X retail markets" provenance.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
