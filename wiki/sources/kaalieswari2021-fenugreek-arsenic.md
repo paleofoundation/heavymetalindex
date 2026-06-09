@@ -14,7 +14,7 @@ raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-spices-
 metals: [tAs]
 ingredients: ["[[ingredients/spices]]", "[[ingredients/herbs-and-spices]]"]
 products: ["[[products/spices]]"]
-matrices: [fenugreek, edible-plant, spice]
+matrices: [fenugreek, spice]
 jurisdictions: [IN]
 near_duplicates: []
 sample_n: 21
@@ -33,7 +33,7 @@ Kaalieswari, Chakraborty, and Mukhopadhyay tested whether fenugreek, an edible p
 - Table 3 reports arsenate-treatment soil and plant arsenic concentrations of 0.536 +/- 0.004 and 0.159 +/- 0.002 mg/kg at 1 mg/L, 0.159 +/- 0.001 and 0.116 +/- 0.003 mg/kg at 2 mg/L, and 0.133 +/- 0.004 and 0.209 +/- 0.002 mg/kg at 3 mg/L.
 - Reported bioaccumulation factors ranged from 0.651 to 1.028 for arsenite treatments and from 0.297 to 1.573 for arsenate treatments.
 - Table 5 reports hazard indices below 1 for all grouped exposures: arsenite HI was 2.85E-01 for adults and 4.16E-01 for children; arsenate HI was 2.23E-01 for adults and 3.25E-01 for children.
-- Table 6 reports ILTCR values above 10^-4 for adults and children across all arsenite and arsenate treatments.
+- Table 6 reports ILTCR values above 10^-4 for adults and children across all arsenite and arsenate treatments. Note: the paper's Table 6 ILTCR columns are numerically identical to the Table 5 HQ columns, which appears to be a printing or calculation error in the source; the ILTCR numbers should not be reused downstream without independently recomputing them from the EDD and cancer slope factor.
 
 ## Methods (brief)
 
@@ -53,12 +53,14 @@ App: Treat as contaminated-growing-condition context for fenugreek and spices ra
 - [[ingredients/spices]]
 - [[ingredients/herbs-and-spices]]
 - [[metals/arsenic]]
+- [[metals/arsenic-total]]
 
 ## Verification notes
 
 - The PDF title spells the botanical name as "Trigonellna Foenum- Granecum"; this page preserves the printed title in frontmatter.
 - The study describes fenugreek seeds as spices and fenugreek leaves as vegetables, but no dedicated fenugreek ingredient page exists; existing broad spice and herbs-and-spices slugs are used.
 - The measured plant values are handled as total arsenic. They are not inorganic-arsenic occurrence values for standards pooling.
+- Audit 2026-06-09 caught that the source PDF's Table 6 ILTCR columns are numerically identical to Table 5 HQ columns, which is internally inconsistent and looks like a printing error in the paper itself; the wiki page flags this so future synthesis sessions do not propagate the duplicated values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
