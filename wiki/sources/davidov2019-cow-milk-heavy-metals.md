@@ -17,9 +17,9 @@ products: ["[[products/category-5-beverages]]"]
 matrices: [cow-milk]
 jurisdictions: [RS]
 near_duplicates: []
-sample_n: null
-sample_population: "cow milk samples from Serbia"
-updated: 2026-05-29
+sample_n: 150
+sample_population: "150 cow milk samples (50 cows from each of 3 dairy farms) in Vojvodina district, Serbia, collected during morning milking April–May 2016"
+updated: 2026-06-08
 ---
 # Davidov et al. 2019 - Heavy metals in cow milk in Serbia
 
@@ -33,7 +33,7 @@ Davidov and colleagues measured heavy metals in cow milk in Serbia. The study is
 
 ## Methods (brief)
 
-Milk samples were collected during morning milking and analyzed by atomic absorption spectrometry. Results are total element concentrations in milk; arsenic and chromium are not speciated.
+Milk samples were collected during morning milking and analyzed by inductively coupled plasma optical emission spectrometry (ICP-OES; Thermo ICAP 6500 Duo) using EPA method 6010C. The reported detection limit was 0.005 ppm for all analytes. Results are total element concentrations in milk; arsenic and chromium are not speciated.
 
 ## Implications
 
@@ -56,6 +56,8 @@ App: Can inform dairy ingredient priors with non-US market caveats.
 ## Verification notes
 
 The paper reports total As and total Cr. Do not route it to iAs or Cr(VI).
+
+The paper contains an internal inconsistency on the lowest-concentration metals: the abstract states that "Cobalt and Lead" were the lowest at "less than 0.005 mg/kg," but the Results, Discussion, and Figure 1 all give specific values of Co 0.002 mg/kg and Pb 0.08 mg/kg, and the Discussion explicitly notes Pb 0.08 mg/kg is "just above recommended values by International Dairy Federation." The wiki page uses the Results/Discussion/Figure 1 values, which are the internally consistent set. The reported instrumental detection limit was 0.005 ppm, so Co at 0.002 mg/kg sits below the stated LOD and should be treated as <LOD context, not a defensible point estimate.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
