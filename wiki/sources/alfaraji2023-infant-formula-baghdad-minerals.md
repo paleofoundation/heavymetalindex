@@ -74,6 +74,8 @@ The DOI, author, publication, year, and license were read from the PDF header an
 
 The abstract says lead was measured in powdered infant formula and the results section states that all samples except one had detectable lead. Table 3 provides the routeable values. The paper also contains some internal wording ambiguity about whether lead should be absent under one cited Iraqi standard versus within permitted residue concentrations under other cited Iraqi standards; this source page treats the regulatory comparison as source context and routes only the occurrence measurements.
 
+The paper carries an internal date discrepancy on the sample-collection window: the abstract reports "for the period from February to August 2021" while the Materials and Methods section reports "for the period from July to August 2021". This source page follows the Materials and Methods statement (July-August 2021) on the basis that the M&M section is the authoritative sample-collection record.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
