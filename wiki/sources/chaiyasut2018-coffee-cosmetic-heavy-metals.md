@@ -14,7 +14,7 @@ raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-
 metals: [Pb, tAs, tHg]
 ingredients: ["[[ingredients/coffee]]"]
 products: ["[[products/body-hand-leave-on-skin-care]]"]
-matrices: [body-lotion, hand-moisturizing-cream, coffee-extract-cosmetic]
+matrices: [body-lotion, hand-moisturizing-cream]
 jurisdictions: [TH]
 near_duplicates: []
 sample_n: 12
@@ -28,12 +28,16 @@ Chaiyasut et al. formulated body lotion and hand moisturizing cream with Arabica
 
 ## Key numbers
 
-Table 4 reports heavy metals in body lotion and hand moisturizing cream after storage at 40°C for 3 months. The analytical basis is finished cosmetic product, reported as mg/kg product.
+Table 4 reports heavy metals in body lotion and hand moisturizing cream after storage at 40°C for 3 months. The analytical basis is finished cosmetic product, reported as mg/kg product. Table 4 populates lead and arsenic cells only for the no-extract control (Formula 1) in both products; mercury is reported across formulas only for the hand cream. The abstract generalizes the Formula 1 lead and arsenic values to the whole body-lotion and hand-cream series.
 
 | Matrix | Product/formula scope | Lead | Arsenic | Mercury |
-|---|---:|---:|---:|---:|
-| Body lotion | Formula 1 control plus formulas 2-3 with Arabica or civet coffee extract | Not detected | <0.16 mg/kg | <0.09 mg/kg |
-| Hand moisturizing cream | Formula 1 control plus formulas 2-3 with Arabica or civet coffee extract | Not detected | <0.16 mg/kg | <0.09-0.28 mg/kg |
+|---|---|---:|---:|---:|
+| Body lotion | Formula 1 no-extract control (abstract generalizes to whole BL series) | Not detected | <0.16 mg/kg | <0.09 mg/kg |
+| Hand moisturizing cream | Formula 1 no-extract control (abstract generalizes Pb/As to whole HMC series) | Not detected | <0.16 mg/kg | <0.28 mg/kg |
+| Hand moisturizing cream | Formula 2 with 5% Arabica coffee extract | (not reported) | (not reported) | <0.09 mg/kg |
+| Hand moisturizing cream | Formula 2 with 5% civet coffee extract | (not reported) | (not reported) | <0.28 mg/kg |
+| Hand moisturizing cream | Formula 3 with 10% Arabica coffee extract | (not reported) | (not reported) | <0.09 mg/kg |
+| Hand moisturizing cream | Formula 3 with 10% civet coffee extract | (not reported) | (not reported) | <0.28 mg/kg |
 
 The authors compare these values with Thai Industrial Standard TIS 478-2555 limits for skin-care products: lead <20 mg/kg, arsenic <5 mg/kg, and mercury <1 mg/kg.
 
