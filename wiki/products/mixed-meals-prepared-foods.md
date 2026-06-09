@@ -3,9 +3,10 @@ type: product-category
 category: mixed-meals-prepared-foods
 aliases: [prepared-foods, prepared-food, ready-to-eat-meals, ready-meals, frozen-dinners, frozen-meals, boxed-meals]
 title: "Mixed Meals / Prepared Foods"
-hmtc_category: 7
-hmtc_category_name: "Oils, Condiments, and Specialty Foods"
-hmtc_row: 12
+hmtc_category: 35
+hmtc_category_name: "Prepared and Packaged Meals"
+hmtc_row: 1
+hmtc_taxonomy_version: "2.2"
 hmtc_subcategory_name: "Mixed meals/prepared foods (frozen dinners, boxed meals, ready-to-eat)"
 provisional_scaffold: true
 provisional_created: 2026-05-30
@@ -15,7 +16,7 @@ typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 0
-updated: 2026-06-02
+updated: 2026-06-09
 step0_status: provisional
 step0_provisional_reason: "Zero routed sources. Aggregates across matrices; populates as component-matrix evidence accumulates."
 step0_lock_doc: docs/governance/category-7-step0-lock.md

@@ -1,11 +1,11 @@
 ---
 title: "Butter and ghee"
 type: product-category
-hmtc_category: 7
-hmtc_category_name: "Oils, Condiments, and Specialty Foods"
-hmtc_row: 3
+hmtc_category: 24
+hmtc_category_name: "Dairy and Milk Products"
+hmtc_row: 9
 hmtc_subcategory_name: "Butter and ghee"
-hmtc_taxonomy_version: "2.0"
+hmtc_taxonomy_version: "2.2"
 hmtc_taxonomy_version_date: "2026-03-30"
 exposure_pathway: "Ingestion (oral, typically small serving sizes)"
 regulatory_jurisdiction: "FDA, EU, Codex"
@@ -15,7 +15,7 @@ products_status: locked
 splits_locked: true
 sources: 3
 wiki_doi: null
-updated: 2026-06-02
+updated: 2026-06-09
 variant_type: independent
 step0_lock_date: 2026-06-02
 step0_lock_doc: docs/governance/category-7-step0-lock.md

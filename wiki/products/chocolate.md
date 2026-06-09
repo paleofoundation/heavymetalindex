@@ -9,16 +9,16 @@ vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-02
+updated: 2026-06-09
 sources: 31
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
-hmtc_category: 7
-hmtc_category_name: "Oils, Condiments, and Specialty Foods"
-hmtc_row: 7
+hmtc_category: 33
+hmtc_category_name: "Chocolate, Cocoa and Confectionery"
+hmtc_row: 1
 hmtc_subcategory_name: "Cocoa/chocolate products (cocoa powder, dark chocolate, milk chocolate, chocolate chips)"
-hmtc_taxonomy_version: "2.0"
+hmtc_taxonomy_version: "2.2"
 hmtc_taxonomy_version_date: "2026-03-30"
 exposure_pathway: "Ingestion (oral, typically small serving sizes)"
 regulatory_jurisdiction: "FDA, EU, Codex"

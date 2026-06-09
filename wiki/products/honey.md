@@ -9,16 +9,16 @@ vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-02
+updated: 2026-06-09
 sources: 20
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
-hmtc_category: 7
-hmtc_category_name: "Oils, Condiments, and Specialty Foods"
-hmtc_row: 4
+hmtc_category: 31
+hmtc_category_name: "Sweeteners and Syrups"
+hmtc_row: 1
 hmtc_subcategory_name: "Honey and syrups (maple, agave, molasses)"
-hmtc_taxonomy_version: "2.0"
+hmtc_taxonomy_version: "2.2"
 hmtc_taxonomy_version_date: "2026-03-30"
 exposure_pathway: "Ingestion (oral, typically small serving sizes)"
 regulatory_jurisdiction: "FDA, EU, Codex"

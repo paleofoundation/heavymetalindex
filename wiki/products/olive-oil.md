@@ -1,11 +1,11 @@
 ---
 title: "Olive oil"
 type: product-category
-hmtc_category: 7
-hmtc_category_name: "Oils, Condiments, and Specialty Foods"
+hmtc_category: 30
+hmtc_category_name: "Culinary Oils and Fats"
 hmtc_row: 1
 hmtc_subcategory_name: "Olive oil"
-hmtc_taxonomy_version: "2.0"
+hmtc_taxonomy_version: "2.2"
 hmtc_taxonomy_version_date: "2026-03-30"
 exposure_pathway: "Ingestion (oral, typically small serving sizes)"
 regulatory_jurisdiction: "FDA, EU, Codex"
@@ -16,7 +16,7 @@ splits_locked: true
 literature_scope: thin
 sources: 21
 wiki_doi: null
-updated: 2026-06-02
+updated: 2026-06-09
 variant_type: independent
 step0_lock_date: 2026-06-02
 step0_lock_doc: docs/governance/category-7-step0-lock.md
