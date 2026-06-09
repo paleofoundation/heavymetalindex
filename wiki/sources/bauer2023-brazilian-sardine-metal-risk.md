@@ -60,7 +60,7 @@ For As risk only, the authors assumed 3% of total As was inorganic As; the measu
 
 ## Methods (brief)
 
-Fish from the northern sector were acquired from commercial fish landings off Niteroi, Arraial do Cabo, and Macae in April-May 2018. Fish from the southern sector were obtained from a commercial fishing vessel off Rio Grande, Rio Grande do Sul. Dorsal muscle was freeze-dried, digested in nitric acid, and analyzed by ICP-OES for metals except mercury; mercury was digested with nitric acid/hydrochloric acid and analyzed with a CETAC Quick Trace M-7500 Hg Analyzer. DORM-4 certified reference material was used for method validation.
+Fish from the northern sector were acquired from commercial fish landings off Niteroi, Arraial do Cabo, and Macae in April-May 2018. Fish from the southern sector were obtained from a commercial fishing vessel off Rio Grande, Rio Grande do Sul. Dorsal muscle was freeze-dried, digested in 65% HNO3 in a CEM Mars Xpress microwave system, and analyzed by ICP-OES (Varian 720 ES) for metals except mercury; mercury was digested with HNO3/HCl and analyzed with a CETAC Quick Trace M-7500 Hg Analyzer. DORM-4 certified reference material was used for method validation. The source reports LOQ values (µg/g) of 0.42 for Al and Fe; 0.18 for Mn, Ba, Zn; 0.24 for Cr, Ni, Pb, Cu; 0.06 for Cd and Sr; 0.23 for Hg. Cd and Pb were below LOQ in most samples and the authors excluded both from quantitative analysis.
 
 ## Implications
 
@@ -75,6 +75,7 @@ This source contributes Brazilian marine non-predatory fish occurrence data for 
 - Cd and Pb were mostly below LOQ and excluded by the authors; this page does not invent Cd or Pb concentration rows.
 - Brand firewall: samples came from commercial landings/vessels and regional sectors, not branded seafood products.
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- Audit 2026-06-09: fresh-context subagent audit returned PROMOTE. Two ⚠️ completeness notes applied: instrument models (Varian 720 ES ICP-OES, CEM Mars Xpress microwave) and source LOQ table added to Methods for reproducibility and Cd/Pb censoring traceability. All Table 2/Table 3 numbers, sector sample sizes (n=42 north, n=32 south), exceedance percentages, and speciation logic (tAs/tHg/Cr) re-verified against the PDF — clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
