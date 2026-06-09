@@ -65,6 +65,7 @@ App: Route as unpackaged spice evidence from Turkey, with black pepper and cumin
 - The PDF prints both English and Turkish abstracts; the English title and DOI are used here.
 - Arsenic is reported as As by ICP-MS and is treated here as total arsenic. The paper's risk calculation assumes 3% inorganic arsenic, but the source does not measure inorganic arsenic directly.
 - Red pepper is a real sampled matrix in the paper, but only existing ingredient slugs were used in frontmatter.
+- The source itself reports two slightly different red-pepper AFB1 means: Table 1 gives 13.81 +/- 8.9 ppb, while the discussion narrative on the same paper reports 14.2 +/- 8.4 ppb over the same 0.286-37.491 ppb range. The wiki page cites the discussion value; the gap is internal to the paper, not a wiki extraction error.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
