@@ -12,10 +12,10 @@ source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY 4.0"
 raw_path: raw/markdown/FM_9140990/FM_9140990.md
-metals: [Pb, iAs]
+metals: [Pb, tAs]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/fruit-juice]]"]
 products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/fruit-juices-apple-containing]]", "[[products/fruit-juices-non-apple]]"]
-matrices: [infant-rice-cereal, baby-juice]
+matrices: [infant-rice-cereal, fruit-juice]
 jurisdictions: [US]
 near_duplicates: []
 sample_n: null
@@ -53,13 +53,14 @@ The paper contributes no primary concentration data for HMTc threshold-setting. 
 ## Verification notes
 
 - 2026-06-09: Merge-enhanced from the directly-fetched PDF at `raw/Manual Fetch Discovery/neuwirth2022-lead-arsenic-baby-foods-fda.pdf` (the FM_9140990 raw_handle is preserved; the MFD copy is a re-fetch of the same DOI). Title expanded to the full published title; author list completed (was "Neuwirth LS, et al."); license refined to "CC BY 4.0"; products expanded to include the two juice slugs the paper explicitly discusses (the prior page underweighted the juice content despite "Juice" appearing in the title); ingredients added `fruit-juice`; an explicit `## Methods (brief)` section added per Part 6; key numbers expanded from 3 lines to the full set of cited figures with page-anchor references. Evidence tier kept at B (opinion/commentary, no primary data).
-- Speciation note (Part 14 / audit Check 3): the paper itself uses bare "As" throughout, but every cited primary source it draws on for the 85 ppb infant-cereal figure (HBBF 2017) and the EPA 10 ppb drinking-water comparison is specifically inorganic-As; on that basis the `metals:` field uses `iAs`. The Clean Label Project 65% As detection figure is reported by CLP as total As; downstream synthesis should not conflate the two.
+- Speciation note (Part 14 / audit Check 3): the paper itself uses bare "As" throughout and does not speciate. Per system-prompt rule 5 / Part 14 strict reading, when the paper does not separate inorganic vs total As, `tAs` is the conservative call. The page's `metals:` field therefore uses `tAs` even though some cited primary sources are specifically inorganic-As (HBBF 2017 infant cereal 85 ppb; EPA drinking-water MCL 10 ppb) — downstream synthesis that wants to use the iAs-specific figures should cite the underlying primary sources directly, not this commentary. The Clean Label Project 65% As detection figure is reported by CLP as total As; the FDA Total Diet juice figures are also total-As unless the EDF re-analysis specified otherwise.
+- 2026-06-09 audit-application (fresh-context subagent verdict REVISE): two findings applied — (1) `metals:` changed from `[Pb, iAs]` to `[Pb, tAs]` per Part 14 strict reading; (2) `matrices:` `baby-juice` replaced with `fruit-juice` (only 1 source page used `baby-juice`; broader vocabulary `fruit-juice` is canonical and consistent with system-prompt rule 2). The audit's Check 1 note that EPA 2008 attribution for the 10 ppb drinking-water MCL is slightly imprecise (the MCL is from 40 CFR 141, not the Child-Specific Exposure Factors Handbook) is acknowledged but not "fixed" because the wiki page faithfully reproduces the paper's own citation; the paper's [3] EPA citation is the imprecise one.
 - Duplicate-page conflict flagged for Karen: `wiki/sources/cereal2013-cereal-juice-lead-arsenic.md` is a second wiki source page covering this same DOI (10.3390/ijerph19105788, same raw_handle FM_9140990). Its cite-key encodes the wrong year (2013 vs the paper's 2022), uses non-canonical slugs (`infant-cereal`, `infant-juice`, `cereal-grains`, `cereal-powder`), assigns evidence_tier A (incorrect for an opinion piece), and lists Cd in `metals:` (Cd appears only in passing in the CLP citation). Per Part 10 the wiki page merge is Karen's call; flagged here so the cereal2013- duplicate can be removed and its routing rows cleaned up.
 
 ## Wiki pages updated on ingest
 
 - [[metals/lead]]
-- [[metals/arsenic-inorganic]]
+- [[metals/arsenic-total]]
 - [[ingredients/rice]]
 - [[ingredients/fruit-juice]]
 - [[products/baby-cereals-dry-rice-based]]
