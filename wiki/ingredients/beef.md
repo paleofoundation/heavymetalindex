@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [meat-and-poultry-purees]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 8
+sources: 10
 ---
 
 # Beef
@@ -117,17 +117,20 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/altalib2025-frozen-meat-libya\|Altalib et al. 2025]]. *Estimation of heavy metal concentrations in imported frozen meat sold in the Libyan market*, Mediterranean Journal of Medical Research | 2025 | Peer-reviewed | LY Pb, Cd, Cr occurrence in Imported frozen meat (chicken, beef, lamb, processed products) from Tripoli commercial markets; origins: Brazil, USA, Jordan, Spain, Australia;... (n=30) |
 | 2 | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|Rabeey et al. 2025]]. *Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt*, Scientific Reports | 2025 | Peer-reviewed | EG/BR/IN tHg, Pb, Cd occurrence in Imported frozen bovine muscle, liver, and kidney (105 each) collected from local markets in Sohag governorate, Egypt; origin... (n=315) |
 | 3 | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|Rabeey et al. 2025]]. *Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt*, Scientific Reports (in press 2025) | 2025 | Peer-reviewed | EG/BR/IN Pb, Cd, tHg occurrence in 315 imported frozen bovine samples (105 muscle + 105 liver + 105 kidney) from local markets in Sohag... (n=315) |
-| 4 | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|Henríquez-Hernández et al. 2023]]. *Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market*, Nutrients 15(14):3251 | 2023 | Peer-reviewed | tAs, tHg, Pb, Cd, Ni, Al, Cr, and U in 40 beef baby purees from Spanish retail by ICP-MS; multi-metal occurrence data for beef as complementary-food matrix |
-| 5 | [[sources/mohamed2023-heavy-metals-beef-egypt\|Mohamed et al. 2023]]. *Detection and health risk assessment of toxic heavy metals in chilled and frozen meat collected from Sharkia province in Egypt* | 2023 | Peer-reviewed | EG Pb, tHg, tAs, Cd occurrence in 15 chilled and 15 frozen beef samples from marketing stores, Sharkia Governorate, Egypt (n=30) |
-| 6 | [[sources/kasozi2021-uganda-beef-metals\|Kasozi et al. 2021]]. *Descriptive Analysis of Heavy Metals Content of Beef From Eastern Uganda and Their Safety for Public Consumption*, Frontiers in Nutrition | 2021 | Peer-reviewed | UG Pb, Cd, Ni, Cr occurrence in Beef samples from butchery points of sale in Soroti district, Eastern Uganda (collected December 2019 - March 2020) (n=40) |
-| 7 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency (FERA) Report for UK Food Standards Agency | 2015 | Government report | GB Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, Sb occurrence in 3312 retail food samples from 24 UK locations, combined into 138 food categories and 28 food groups, all... (n=3312) |
+| 4 | [[sources/garuba2024-heavy-metals-commercial-baby-foods\|Garuba et al. 2024]]. *Evaluation of Heavy Metals in Commercial Baby Foods*, Archives of Food and Nutritional Science | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|Henríquez-Hernández et al. 2023]]. *Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market*, Nutrients 15(14):3251 | 2023 | Peer-reviewed | tAs, tHg, Pb, Cd, Ni, Al, Cr, and U in 40 beef baby purees from Spanish retail by ICP-MS; multi-metal occurrence data for beef as complementary-food matrix |
+| 6 | [[sources/mohamed2023-heavy-metals-beef-egypt\|Mohamed et al. 2023]]. *Detection and health risk assessment of toxic heavy metals in chilled and frozen meat collected from Sharkia province in Egypt* | 2023 | Peer-reviewed | EG Pb, tHg, tAs, Cd occurrence in 15 chilled and 15 frozen beef samples from marketing stores, Sharkia Governorate, Egypt (n=30) |
+| 7 | [[sources/kasozi2021-uganda-beef-metals\|Kasozi et al. 2021]]. *Descriptive Analysis of Heavy Metals Content of Beef From Eastern Uganda and Their Safety for Public Consumption*, Frontiers in Nutrition | 2021 | Peer-reviewed | UG Pb, Cd, Ni, Cr occurrence in Beef samples from butchery points of sale in Soroti district, Eastern Uganda (collected December 2019 - March 2020) (n=40) |
+| 8 | [[sources/saraiva2021-cr-iii-cr-vi-ssid-method-validation-talanta\|Saraiva et al. 2021]]. *Development and validation of a single run method based on species specific isotope dilution and HPLC-ICP-MS for simultaneous species interconversion correction and speciation analysis of Cr(III)/Cr(VI) in meat and dairy products*, Talanta 222 (2021) 121538 | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency (FERA) Report for UK Food Standards Agency | 2015 | Government report | GB Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, Sb occurrence in 3312 retail food samples from 24 UK locations, combined into 138 food categories and 28 food groups, all... (n=3312) |
+| 10 | [[sources/kazimov2014-dietary-heavy-metals-azerbaijan\|Kazimov et al. 2014]]. *Examination and Hygienic Assessment of Health Risk Depending on Heavy Metals Content in Foods*, Kazanskiy Meditsinskiy Zhurnal (Kazan Medical Journal), vol. 95, no. 5, pp. 706–709 | 2014 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 

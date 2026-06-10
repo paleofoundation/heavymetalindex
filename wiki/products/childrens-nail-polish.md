@@ -87,9 +87,10 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/moriceau2025-cosmetics-icpms-iso21392\|Moriceau et al. 2025]]. *Measurement of traces of heavy metals in cosmetic raw materials and finished products according to ISO/DIS 21392:2021 using triple quadrupole ICP-MS*, Thermo Fisher Scientific Application Note 003602 | 2025 | Industry | *[awaiting synthesis]* |
+| 2 | [[sources/medley2023-childrens-makeup-body-products-us-usage\|Medley et al. 2023]]. *Usage of Children's Makeup and Body Products in the United States and Implications for Childhood Environmental Exposures*, International Journal of Environmental Research and Public Health 20(3): 2114 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

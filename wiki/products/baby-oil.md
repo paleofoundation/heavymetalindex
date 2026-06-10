@@ -81,9 +81,10 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/oranges2015-skin-physiology-neonate-infant-clinical\|Oranges et al. 2015]]. *Skin Physiology of the Neonate and Infant: Clinical Implications*, Advances in Wound Care 4(10): 587-595 | 2015 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

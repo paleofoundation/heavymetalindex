@@ -86,7 +86,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 10
+sources: 11
 ---
 
 # Honey
@@ -190,7 +190,7 @@ The EU sets a maximum level for Pb in honey of 0.10 mg/kg (100 ppb) wet weight [
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -200,9 +200,10 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 4 | [[sources/wise2025-elevated-metals-us-honeys\|Jr et al. 2025]]. *Elevated Metal Levels in U.S. Honeys: Is There a Concern for Human Health?*, Biological Trace Element Research | 2025 | Peer-reviewed | Twenty-metal XRF survey of 28 US small-beekeeper honeys across 15 states with majority Pb and tHg exceedances of EU MRLs |
 | 5 | [[sources/knoll2024-honeybee-cadmium-review\|Knoll et al. 2024]]. *Foraging Activity of Honey Bees (Apis mellifera L., 1758) and Exposure to Cadmium: a Review* | 2024 | Peer-reviewed | EU/global Cd occurrence in Narrative review; no primary samples. Synthesizes studies on Apis mellifera foraging and Cd exposure pathways. |
 | 6 | [[sources/margaoan2024-bee-products-heavy-metals\|Margaoan et al. 2024]]. *Environmental pollution effect on honey bees and their derived products: a comprehensive analysis*, Environmental Science and Pollution Research | 2024 | Peer-reviewed | Pb, Cd, Hg, As, Cr, Ni occurrence in Review study; synthesizes literature on heavy metals and other contaminants in honey, pollen, beeswax, and other bee products;... |
-| 7 | [[sources/zhang2024-mip-pb-honey-cyprus\|Zhang 2024]]. *Molecularly imprinted polymer electrochemical sensor for lead detection in honey*, unknown | 2024 | Peer-reviewed | MIP electrochemical sensor development and Pb validation in honey matrix (Cyprus context); analytical method paper, occurrence data require full-paper confirmation |
-| 8 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | Primary occurrence data for Pb, Cd, Ni, Cr, U, tAs, and tHg in honey (TDS Food 172; n=3 per analyte); all analytes at or near reporting limit |
-| 9 | [[sources/manouchehri2021-honey-heavy-metals-review\|Manouchehri et al. 2021]]. *The Possible Effects of Heavy Metals in Honey as Toxic and Carcinogenic Substances on Human Health: A Systematic Review*, Arı Dergisi / Uludag Bee Journal | 2021 | Review | Cross-country review of Pb, Cd, tHg, Cr, Ni, and Al in honey with bee uptake pathways and industrial-proximity contamination patterns |
-| 10 | [[sources/aljedani2017-honeybee-honey-saudi-arabia\|Aljedani 2017]]. *Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia*, Entomology and Applied Science Letters | 2017 | Peer-reviewed | Pb, Cd, Cr, and Ni in Saudi Arabian honey from four agricultural regions, providing a clean rural-baseline reference distant from industrial sources |
+| 7 | [[sources/si2024-nanomaterial-detection-heavy-metals-food\|Si et al. 2024]]. *Research progress in the detection of trace heavy metal ions in food samples*, Frontiers in Chemistry | 2024 | Review | *[awaiting synthesis]* |
+| 8 | [[sources/zhang2024-mip-pb-honey-cyprus\|Zhang 2024]]. *Molecularly imprinted polymer electrochemical sensor for lead detection in honey*, unknown | 2024 | Peer-reviewed | MIP electrochemical sensor development and Pb validation in honey matrix (Cyprus context); analytical method paper, occurrence data require full-paper confirmation |
+| 9 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | Primary occurrence data for Pb, Cd, Ni, Cr, U, tAs, and tHg in honey (TDS Food 172; n=3 per analyte); all analytes at or near reporting limit |
+| 10 | [[sources/manouchehri2021-honey-heavy-metals-review\|Manouchehri et al. 2021]]. *The Possible Effects of Heavy Metals in Honey as Toxic and Carcinogenic Substances on Human Health: A Systematic Review*, Arı Dergisi / Uludag Bee Journal | 2021 | Review | Cross-country review of Pb, Cd, tHg, Cr, Ni, and Al in honey with bee uptake pathways and industrial-proximity contamination patterns |
+| 11 | [[sources/aljedani2017-honeybee-honey-saudi-arabia\|Aljedani 2017]]. *Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia*, Entomology and Applied Science Letters | 2017 | Peer-reviewed | Pb, Cd, Cr, and Ni in Saudi Arabian honey from four agricultural regions, providing a clean rural-baseline reference distant from industrial sources |
 <!-- END: hmi-source-legend -->
 

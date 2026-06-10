@@ -158,7 +158,7 @@ The Codex Alimentarius General Standard CXS 193-1995 does not set spice-specific
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -167,5 +167,6 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 3 | [[sources/spex2023-hot-sauce-chili-powder-metals\|ZeptoMetrix 2023]]. *Heavy Metal Contamination of Hot Sauce and Chili Powder*, SPEX Application Note (ZeptoMetrix) | 2023 | Industry | US Pb, Cd, tAs, Cr occurrence in 7 chili powders (1 organic) and 6 hot sauces (1 organic) purchased at US dollar stores, farmer's markets,... (n=13) |
 | 4 | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|Winiarska-Mieczan et al. 2023]]. *The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine*, Biological Trace Element Research | 2023 | Peer-reviewed | PL/EU Cd, Pb occurrence in Retail herbs and spices from Lublin, eastern Poland; 9 dried herb species (n=100), 15 fresh herb species (n=184),... (n=432) |
 | 5 | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|Fechner et al. 2022]]. *Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods*, Food Chemistry: X | 2022 | Peer-reviewed | DE/EU tHg, MeHg, Cd, Pb, Ni occurrence in 869 pooled samples from 356 foods representing 90%+ of German food consumption; adults and adolescents N=13,926 (NVS II... (n=869) |
-| 6 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | PL/EU Cd, Pb, tAs, tHg occurrence in 240 plant material samples from eastern Poland: herbs (n=163), spices (n=61), China tea/green tea (n=8), Arabica roasted coffee... (n=240) |
+| 6 | [[sources/gill2021-consumer-reports-spices\|Gill 2021]]. *Heavy Metals in 15 Herbs and Spices*, Consumer Reports | 2021 | NGO report | *[awaiting synthesis]* |
+| 7 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | PL/EU Cd, Pb, tAs, tHg occurrence in 240 plant material samples from eastern Poland: herbs (n=163), spices (n=61), China tea/green tea (n=8), Arabica roasted coffee... (n=240) |
 <!-- END: hmi-source-legend -->

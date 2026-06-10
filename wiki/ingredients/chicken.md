@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 10
+sources: 11
 ---
 
 # Chicken
@@ -165,17 +165,20 @@ EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) and the associated 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/altalib2025-frozen-meat-libya\|Altalib et al. 2025]]. *Estimation of heavy metal concentrations in imported frozen meat sold in the Libyan market*, Mediterranean Journal of Medical Research | 2025 | Peer-reviewed | Pb, Cd, and Cr in imported frozen chicken muscle from the Tripoli market |
-| 2 | [[sources/morshed2024-heavy-metals-poultry-organs-bangladesh\|Morshed et al. 2024]]. *Heavy Metals Accumulation in Different Organs of Poultry and Hypothetical Risk Analysis: Evidence from Experimental Feeding with Assorted Metal Feed*, Research Square (preprint) | 2024 | Peer-reviewed | Pb, Cd, and Cr organ-distribution data in broiler chicken muscle, bone, liver, kidney, and lung from a controlled-feeding experiment |
-| 3 | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|Henríquez-Hernández et al. 2023]]. *Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market*, Nutrients 15(14):3251 | 2023 | Peer-reviewed | tAs, tHg, Pb, Cd, Ni, Al, Cr, and U in 39 chicken baby purees from Spanish retail by ICP-MS; multi-metal occurrence for processed chicken complementary foods |
-| 4 | [[sources/hossain2023-bangladesh-chicken-metals\|Hossain et al. 2023]]. *Human health risk assessment of edible body parts of chicken through heavy metals and trace elements quantitative analysis*, PLoS ONE | 2023 | Peer-reviewed | BD Pb, Cd, Cr occurrence in 108 samples from 18 broiler chickens (6 body parts × 3 chickens × 6 Dhaka North City Corporation... (n=108) |
-| 5 | [[sources/iqbal2023-poultry-feed-pakistan\|Iqbal et al. 2023]]. *Evaluation of Heavy Metals Concentration in Poultry Feed and Poultry Products*, Saudi Journal of Medical and Pharmaceutical Sciences 9(7): 489-495 | 2023 | Peer-reviewed | PK Pb, Cd, Cr, tHg, Fe occurrence in 6 solid feeds, 6 liquid feeds (water), 33 livers (composite from 6 farms), 33 breast muscles (composite), 33... (n=39) |
-| 6 | [[sources/kamaly2023-egypt-poultry-metals\|Kamaly et al. 2023]]. *Health risk assessment of metals in chicken meat and liver in Egypt*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | Al, Cd, Pb, Ni, and Cr in 360 Egyptian broiler chicken chest, thigh, and liver samples by ICP-MS, with Pb exceeding FAO/WHO limits in 94% of samples |
-| 7 | [[sources/lasky2013-arsenic-chicken-correspondence\|Lasky et al. 2013]]. *Arsenic Levels in Chicken (correspondence: Lasky letter and Nachman et al. response)*, Environmental Health Perspectives | 2013 | Peer-reviewed | Commentary on roxarsone/Nitarsone veterinary drug withdrawal and residual tAs/iAs in US broiler chicken muscle; arsenic-in-poultry supply-chain context |
-| 8 | [[sources/mahmud2011-crvi-chicken-pakistan\|Mahmud et al. 2011]]. *Estimation of Chromium (VI) in various body parts of Local Chicken*, Journal of the Chemical Society of Pakistan | 2011 | Peer-reviewed | Speciated Cr-VI (not total Cr) in Pakistani local chicken muscle and bone, evidencing leather-tanning waste in feed as a supply-chain contamination pathway |
+| 2 | [[sources/garuba2024-heavy-metals-commercial-baby-foods\|Garuba et al. 2024]]. *Evaluation of Heavy Metals in Commercial Baby Foods*, Archives of Food and Nutritional Science | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/morshed2024-heavy-metals-poultry-organs-bangladesh\|Morshed et al. 2024]]. *Heavy Metals Accumulation in Different Organs of Poultry and Hypothetical Risk Analysis: Evidence from Experimental Feeding with Assorted Metal Feed*, Research Square (preprint) | 2024 | Peer-reviewed | Pb, Cd, and Cr organ-distribution data in broiler chicken muscle, bone, liver, kidney, and lung from a controlled-feeding experiment |
+| 4 | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|Henríquez-Hernández et al. 2023]]. *Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market*, Nutrients 15(14):3251 | 2023 | Peer-reviewed | tAs, tHg, Pb, Cd, Ni, Al, Cr, and U in 39 chicken baby purees from Spanish retail by ICP-MS; multi-metal occurrence for processed chicken complementary foods |
+| 5 | [[sources/hossain2023-bangladesh-chicken-metals\|Hossain et al. 2023]]. *Human health risk assessment of edible body parts of chicken through heavy metals and trace elements quantitative analysis*, PLoS ONE | 2023 | Peer-reviewed | BD Pb, Cd, Cr occurrence in 108 samples from 18 broiler chickens (6 body parts × 3 chickens × 6 Dhaka North City Corporation... (n=108) |
+| 6 | [[sources/iqbal2023-poultry-feed-pakistan\|Iqbal et al. 2023]]. *Evaluation of Heavy Metals Concentration in Poultry Feed and Poultry Products*, Saudi Journal of Medical and Pharmaceutical Sciences 9(7): 489-495 | 2023 | Peer-reviewed | PK Pb, Cd, Cr, tHg, Fe occurrence in 6 solid feeds, 6 liquid feeds (water), 33 livers (composite from 6 farms), 33 breast muscles (composite), 33... (n=39) |
+| 7 | [[sources/kamaly2023-egypt-poultry-metals\|Kamaly et al. 2023]]. *Health risk assessment of metals in chicken meat and liver in Egypt*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | Al, Cd, Pb, Ni, and Cr in 360 Egyptian broiler chicken chest, thigh, and liver samples by ICP-MS, with Pb exceeding FAO/WHO limits in 94% of samples |
+| 8 | [[sources/kurniawati2021-jakarta-staple-foods-naa\|Kurniawati et al. 2021]]. *Determination of several heavy metals in staple foods from traditional markets in Jakarta using neutron activation analysis*, AIP Conference Proceedings (4th International Seminar on Chemistry) | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/kazimov2014-dietary-heavy-metals-azerbaijan\|Kazimov et al. 2014]]. *Examination and Hygienic Assessment of Health Risk Depending on Heavy Metals Content in Foods*, Kazanskiy Meditsinskiy Zhurnal (Kazan Medical Journal), vol. 95, no. 5, pp. 706–709 | 2014 | Peer-reviewed | *[awaiting synthesis]* |
+| 10 | [[sources/lasky2013-arsenic-chicken-correspondence\|Lasky et al. 2013]]. *Arsenic Levels in Chicken (correspondence: Lasky letter and Nachman et al. response)*, Environmental Health Perspectives | 2013 | Peer-reviewed | Commentary on roxarsone/Nitarsone veterinary drug withdrawal and residual tAs/iAs in US broiler chicken muscle; arsenic-in-poultry supply-chain context |
+| 11 | [[sources/mahmud2011-crvi-chicken-pakistan\|Mahmud et al. 2011]]. *Estimation of Chromium (VI) in various body parts of Local Chicken*, Journal of the Chemical Society of Pakistan | 2011 | Peer-reviewed | Speciated Cr-VI (not total Cr) in Pakistani local chicken muscle and bone, evidencing leather-tanning waste in feed as a supply-chain contamination pathway |
 <!-- END: hmi-source-legend -->
 

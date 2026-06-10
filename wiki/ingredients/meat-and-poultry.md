@@ -51,7 +51,7 @@ _Pending meat- and poultry-specific occurrence extraction._
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -65,8 +65,10 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 8 | [[sources/kamaly2023-egypt-poultry-metals\|Kamaly et al. 2023]]. *Health risk assessment of metals in chicken meat and liver in Egypt*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | Al, Cd, Pb, Ni, and Cr by ICP-MS in 360 broiler chest, thigh, and liver samples across six Assiut commercial brands; Pb exceeded FAO/WHO limits in 94% of samples and EOS limits in 33% of chest muscle |
 | 9 | [[sources/pain2023-lead-pheasant-dogfood-uk\|Pain et al. 2023]]. *Lead concentrations in commercial dogfood containing pheasant in the UK*, Ambio | 2023 | Peer-reviewed | Pb in 193 UK commercial pheasant-based dogfood and human-grade pheasant samples; raw pheasant dogfood mean 220.99 ppm dw, 34× higher than human-grade pheasant; 77% exceeded EU feed MRL — ammunition-driven contamination |
 | 10 | [[sources/berky2022-wildgame-lead-peru\|Berky et al. 2022]]. *Risk of lead exposure from wild game consumption from cross-sectional studies in Madre de Dios, Peru*, Lancet Regional Health – Americas | 2022 | Peer-reviewed | Pb and tHg in 307 Peruvian Amazon residents across 26 indigenous and rural communities; wild-game consumption independently raised BLL by 1.41 µg/dL, with ~500 µg Pb per single meal against a 20 µg/day baseline |
-| 11 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | French TDS Al, Sb, tAs, Cd, Cr, Ni, Sn means for meat and fish infant foods (as-consumed); provides Sn and Sb data not in FDA TDS; French regulatory diet context |
-| 12 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency (FERA) Report for UK Food Standards Agency | 2015 | Government report | UK FERA/FSA TDS occurrence of Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, and Sb in beef and meat-and-poultry food groups composited from 3,312 retail samples across 24 UK locations on an as-consumed basis |
+| 11 | [[sources/zmudzinska2022-rte-baby-foods-poland\|Zmudzinska et al. 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*, Nutrients 14(11):2325 | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 12 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | French TDS Al, Sb, tAs, Cd, Cr, Ni, Sn means for meat and fish infant foods (as-consumed); provides Sn and Sb data not in FDA TDS; French regulatory diet context |
+| 13 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency (FERA) Report for UK Food Standards Agency | 2015 | Government report | UK FERA/FSA TDS occurrence of Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, and Sb in beef and meat-and-poultry food groups composited from 3,312 retail samples across 24 UK locations on an as-consumed basis |
+| 14 | [[sources/mahaffey1975-fda-total-diet-study-heavy-metals\|Mahaffey et al. 1975]]. *Heavy Metal Exposure from Foods*, Environmental Health Perspectives | 1975 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 

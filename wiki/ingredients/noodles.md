@@ -163,10 +163,10 @@ European Union Regulation (EU) 2023/915 and the predecessor regulation EU 2023/9
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/lee2019-food-processing-heavy-metals-migration\|Lee et al. 2019]]. *Effects of food processing methods on migration of heavy metals to food*, Applied Biology and Chemistry | 2019 | Peer-reviewed | Pb, Cd, tAs, and Al migration from Korean wheat-flour and sweet-potato glass noodles to boiling water, quantifying cooking-loss as a processing lever |
+| 1 | [[sources/lee2019-food-processing-heavy-metals-migration\|Lee et al. 2019]]. *Effects of food processing methods on migration of heavy metals to food*, Applied Biological Chemistry | 2019 | Peer-reviewed | Pb, Cd, tAs, and Al migration from Korean wheat-flour and sweet-potato glass noodles to boiling water, quantifying cooking-loss as a processing lever |
 <!-- END: hmi-source-legend -->
 

@@ -86,7 +86,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 1
+sources: 2
 ---
 
 # Pork bacon
@@ -196,10 +196,11 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Pork bacon, oven-cooked (n=27); detectable concentrations for Cd, Cr, Ni, Pb, U, tAs |
+| 2 | [[sources/ren2018-crvi-pork-electron-beam\|Ren et al. 2018]]. *One-Step and Nondestructive Reduction of Cr(VI) in Pork by High-Energy Electron Beam Irradiation*, Journal of Food Science | 2018 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 

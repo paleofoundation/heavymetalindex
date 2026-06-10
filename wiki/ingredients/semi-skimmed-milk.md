@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 0
+sources: 1
 ---
 
 # Semi-skimmed milk
@@ -160,6 +160,13 @@ Standard HDPE, glass, or Tetra Pak packaging does not contribute metals to semi-
 
 Under EU Regulation (EC) No 1881/2006 as amended (see [[regulations/eu2023-contaminants-maximum-levels]]), the maximum Pb level for raw milk, heat-treated milk, and milk-based products is 0.020 mg/kg (20 ppb) wet weight. The corresponding Cd maximum level for milk and milk products is 0.020 mg/kg (20 ppb) wet weight. Semi-skimmed milk falls squarely within the dairy product matrix for which these limits apply. The FDA does not publish a specific action level for Pb or Cd in fluid milk; the general surveillance framework under 21 CFR applies, and fluid dairy is not among the high-priority categories identified in the Closer to Zero program (see [[regulations/fda-closer-to-zero]]) for Pb reduction efforts targeting infant and young child foods.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/fsa2016-infant-food-formula-metals-survey]]
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/saraiva2021-cr-iii-cr-vi-ssid-method-validation-talanta\|Saraiva et al. 2021]]. *Development and validation of a single run method based on species specific isotope dilution and HPLC-ICP-MS for simultaneous species interconversion correction and speciation analysis of Cr(III)/Cr(VI) in meat and dairy products*, Talanta 222 (2021) 121538 | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/cassia-cinnamon-ground-imported]]"]
 used_in_products: ["[[products/apple-cinnamon-puree]]", "[[products/spice-blends]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 10
+sources: 11
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 5
@@ -158,7 +158,7 @@ The Codex Alimentarius General Standard CXS 193-1995 does not set a cinnamon-spe
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -166,7 +166,8 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 2 | [[sources/lhaac2025-csp41-herbs-spices-wa\|LHAAC 2025]]. *Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices*, Local Health Authorities Analytical Committee, Edith Cowan University | 2025 | Government report | Australian retail-and-import cinnamon 7-metal panel (n=380 cross-spice) |
 | 3 | [[sources/tinggi2025-spices-herbs-queensland\|Tinggi et al. 2025]]. *Heavy metal analysis in commercial spices and herbs by inductively coupled plasma mass spectrometry (ICP-MS) and estimated dietary exposure*, Journal of Environmental Exposure Assessment | 2025 | Peer-reviewed | Australian-market cinnamon across 7 origin countries (n=69 cross-spice) |
 | 4 | [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|Napier et al. 2024]]. *Childhood Lead Exposure Linked to Apple Cinnamon Fruit Puree Pouches — North Carolina, June 2023–January 2024*, MMWR Morbidity and Mortality Weekly Report | 2024 | Agency report | WanaBana outbreak: Ecuadorian-processor cinnamon adulteration via lead chromate, finished-product baby-food contamination, 500+ pediatric cases |
-| 5 | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|Bair 2022]]. *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*, Frontiers in Nutrition | 2022 | Peer-reviewed | US/EU tAs, iAs, Pb, Cd, tHg occurrence in Narrative review; no original measurements. Synthesizes US Congressional Subcommittee on Economic and Consumer Policy findings (Feb 2021 and... |
-| 6 | [[sources/cicero2022-minerals-spices-aromatic-herbs\|Cicero et al. 2022]]. *Mineral and Microbiological Analysis of Spices and Aromatic Herbs*, Foods | 2022 | Peer-reviewed | Multi-origin (IT, SA, IN, IR, ID, VN) cinnamon 8-metal baseline (n=13 multi-species) |
-| 7 | [[sources/angelon-gaetz2018-lead-spices-north-carolina\|Angelon-Gaetz et al. 2018]]. *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018*, MMWR Morbidity and Mortality Weekly Report | 2018 | Government report | NC home-investigation cohort cinnamon Pb identification (n=386 cross-spice) |
+| 5 | [[sources/childhood2023-childhood-lead-exposure-linked\|Napier et al. 2023]]. *Childhood Lead Exposure Linked to Apple Cinnamon Fruit Puree Pouches — North Carolina, June 2023–January 2024*, Morbidity and Mortality Weekly Report | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|Bair 2022]]. *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*, Frontiers in Nutrition | 2022 | Peer-reviewed | US/EU tAs, iAs, Pb, Cd, tHg occurrence in Narrative review; no original measurements. Synthesizes US Congressional Subcommittee on Economic and Consumer Policy findings (Feb 2021 and... |
+| 7 | [[sources/cicero2022-minerals-spices-aromatic-herbs\|Cicero et al. 2022]]. *Mineral and Microbiological Analysis of Spices and Aromatic Herbs*, Foods | 2022 | Peer-reviewed | Multi-origin (IT, SA, IN, IR, ID, VN) cinnamon 8-metal baseline (n=13 multi-species) |
+| 8 | [[sources/angelon-gaetz2018-lead-spices-north-carolina\|Angelon-Gaetz et al. 2018]]. *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018*, MMWR Morbidity and Mortality Weekly Report | 2018 | Government report | NC home-investigation cohort cinnamon Pb identification (n=386 cross-spice) |
 <!-- END: hmi-source-legend -->

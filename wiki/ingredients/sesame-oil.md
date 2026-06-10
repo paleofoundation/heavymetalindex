@@ -51,13 +51,15 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|Mehri et al. 2024]]. *A probabilistic health risk assessment of potentially toxic elements in edible vegetable oils consumed in Hamadan, Iran*, BMC Public Health | 2024 | Peer-reviewed | IR Pb, Cd, tAs, Fe, Zn occurrence in Traditional and industrial edible vegetable oils (peanut, sunflower, olive, sesame) from Hamadan, western Iran, 2022; n=20 traditional +... (n=40) |
-| 2 | [[sources/lee2019-food-processing-heavy-metals-migration\|Lee et al. 2019]]. *Effects of food processing methods on migration of heavy metals to food*, Applied Biology and Chemistry | 2019 | Peer-reviewed | KR/LK Pb, Cd, tAs, Al occurrence in Korean market oilseeds (sesame, perilla, flaxseed), noodles (flour and glass), and teas (black, green, Solomon's seal) — 3... (n=27) |
-| 3 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*, Asian Journal of Chemistry (Uncorrected Proof) | 2012 | Peer-reviewed | SA Pb, Cd, tAs, Cu, Zn, Fe, Mn occurrence in 161 edible vegetable oil samples (32 corn, 28 sunflower, 21 soybean, 19 sesame, 17 rapeseed, 17 peanut, 27... (n=161) |
+| 1 | [[sources/silva2025-edible-oils-health-sustainability\|VdS et al. 2025]]. *Edible Oils from Health to Sustainability: Influence of the Production Processes in the Quality, Consumption Benefits and Risks*, Lipidology | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|Mehri et al. 2024]]. *A probabilistic health risk assessment of potentially toxic elements in edible vegetable oils consumed in Hamadan, Iran*, BMC Public Health | 2024 | Peer-reviewed | IR Pb, Cd, tAs, Fe, Zn occurrence in Traditional and industrial edible vegetable oils (peanut, sunflower, olive, sesame) from Hamadan, western Iran, 2022; n=20 traditional +... (n=40) |
+| 3 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu et al. 2023]]. *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*, Foods | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/lee2019-food-processing-heavy-metals-migration\|Lee et al. 2019]]. *Effects of food processing methods on migration of heavy metals to food*, Applied Biological Chemistry | 2019 | Peer-reviewed | KR/LK Pb, Cd, tAs, Al occurrence in Korean market oilseeds (sesame, perilla, flaxseed), noodles (flour and glass), and teas (black, green, Solomon's seal) — 3... (n=27) |
+| 5 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*, Asian Journal of Chemistry (Uncorrected Proof) | 2012 | Peer-reviewed | SA Pb, Cd, tAs, Cu, Zn, Fe, Mn occurrence in 161 edible vegetable oil samples (32 corn, 28 sunflower, 21 soybean, 19 sesame, 17 rapeseed, 17 peanut, 27... (n=161) |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 

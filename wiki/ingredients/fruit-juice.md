@@ -20,7 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: ["[[products/fruit-juice-not-canned]]"]
 audience: [regulator, educator, consumer, app]
-sources: 4
+sources: 6
 updated: 2026-05-16
 ---
 
@@ -53,14 +53,16 @@ The FDA 2022 draft action levels ([[sources/fda2022-draft-lead-juice|FDA 2022]])
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/fda2022-draft-lead-juice\|FDA 2022]]. *Draft Guidance for Industry: Action Levels for Lead in Juice*, FDA Draft Guidance for Industry | 2022 | Government guidance | FDA 2022 draft Pb action levels for juice: 10 ppb for single-strength apple juice and 20 ppb for other juices, replacing the older 50 ppb HACCP context |
-| 2 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | French infant TDS occurrence data for Al, Sb, tAs, Cd, Cr, Ni, and Sn in fruit juice products consumed by infants and toddlers (n=291 total foods) |
-| 3 | [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|Kubachka et al. 2019]]. *Quantitative Determination of Arsenic Species from Fruit Juices Using Acidic Extraction with HPLC-ICPMS*, Food Analytical Methods | 2019 | Peer-reviewed | FDA AOAC First Action 2016.04 HPLC-ICP-MS method for iAs, DMA, MMA, and AsB in apple, pear, grape, pomegranate, prune, and cherry juices |
-| 4 | [[sources/fda2004-juice-haccp-lead\|FDA 2004]]. *Juice HACCP Hazards and Controls Guidance, First Edition — Lead in Juice*, FDA Guidance for Industry | 2004 | Government guidance | FDA Juice HACCP guidance establishing 50 ppb Pb as the original hazard threshold for ready-to-drink fruit juices; superseded by the 2022 draft action levels |
+| 1 | [[sources/si2024-nanomaterial-detection-heavy-metals-food\|Si et al. 2024]]. *Research progress in the detection of trace heavy metal ions in food samples*, Frontiers in Chemistry | 2024 | Review | *[awaiting synthesis]* |
+| 2 | [[sources/meng2023-electrochemical-sensors-food-heavy-metals\|Meng et al. 2023]]. *The innovative and accurate detection of heavy metals in foods: A critical review on electrochemical sensors*, Food Control | 2023 | Review | *[awaiting synthesis]* |
+| 3 | [[sources/fda2022-draft-lead-juice\|FDA 2022]]. *Draft Guidance for Industry: Action Levels for Lead in Juice*, FDA Draft Guidance for Industry | 2022 | Government guidance | FDA 2022 draft Pb action levels for juice: 10 ppb for single-strength apple juice and 20 ppb for other juices, replacing the older 50 ppb HACCP context |
+| 4 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | French infant TDS occurrence data for Al, Sb, tAs, Cd, Cr, Ni, and Sn in fruit juice products consumed by infants and toddlers (n=291 total foods) |
+| 5 | [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|Kubachka et al. 2019]]. *Quantitative Determination of Arsenic Species from Fruit Juices Using Acidic Extraction with HPLC-ICPMS*, Food Analytical Methods | 2019 | Peer-reviewed | FDA AOAC First Action 2016.04 HPLC-ICP-MS method for iAs, DMA, MMA, and AsB in apple, pear, grape, pomegranate, prune, and cherry juices |
+| 6 | [[sources/fda2004-juice-haccp-lead\|FDA 2004]]. *Juice HACCP Hazards and Controls Guidance, First Edition — Lead in Juice*, FDA Guidance for Industry | 2004 | Government guidance | FDA Juice HACCP guidance establishing 50 ppb Pb as the original hazard threshold for ready-to-drink fruit juices; superseded by the 2022 draft action levels |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 

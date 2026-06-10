@@ -163,13 +163,13 @@ In the United States, FDA has established an action level of 0.020 mg/kg (20 ppb
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/zhang2026-trace-metals-five-crops-chongqing\|Zhang et al. 2026]]. *Trace metal pollution and ecological effects on five crops around a typical manganese mining area in Chongqing, China*, Scientific Reports | 2026 | Peer-reviewed | Measured tAs, Pb, Cd, Cr, and Ni in sweet potato tubers from a manganese mining area in Chongqing, China (n=15); mining-area contamination context for this crop |
 | 2 | [[sources/fda-ctz-Pb-babyfood-2025\|FDA 2025]]. *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*, U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program | 2025 | Government guidance | FDA Closer to Zero Pb action levels for root-vegetable baby foods including sweet potato-based purees; regulatory Pb limits context |
-| 3 | [[sources/garuba2024-heavy-metals-commercial-baby-foods\|Garuba et al. 2024]]. *Heavy Metals Analysis in Selected Commercial Baby Foods for Infant and Toddler: Health Risk Assessment of Baby Foods*, Archives of Food and Nutritional Science | 2024 | Peer-reviewed | Sweet potato-based US baby food purees measured for Pb, Cd, Al, and tAs |
+| 3 | [[sources/garuba2024-heavy-metals-commercial-baby-foods\|Garuba et al. 2024]]. *Evaluation of Heavy Metals in Commercial Baby Foods*, Archives of Food and Nutritional Science | 2024 | Peer-reviewed | Sweet potato-based US baby food purees measured for Pb, Cd, Al, and tAs |
 | 4 | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|Bair 2022]]. *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*, Frontiers in Nutrition | 2022 | Peer-reviewed | Narrative review identifying root-vegetable purees including sweet potato as frequently flagged U.S. infant food categories for Pb detection |
 | 5 | [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|Parker et al. 2022]]. *Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods*, Toxicology Reports | 2022 | Peer-reviewed | Root-vegetable baby-food category tAs, Cd, tHg, and Pb concentrations including sweet-potato samples |
 | 6 | [[sources/gardener2019-pb-cd-us-infant-formula-baby-foods\|Gardener et al. 2019]]. *Lead and cadmium contamination in a large sample of United States infant formulas and baby foods*, Science of the Total Environment | 2019 | Peer-reviewed | Large-scale US baby food Pb and Cd detection rates with sweet-potato-containing jars and pouches included |

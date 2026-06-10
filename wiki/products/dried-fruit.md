@@ -77,9 +77,11 @@ Cat 4 (produce, nuts, seeds) regulatory enforcement intersects two domains: heav
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|Mania et al. 2021]]. *The content of lead, cadmium, arsenic, mercury and tin in fruit and their products based on monitoring studies – exposure assessment*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2021 | Peer-reviewed | PL/EU Pb, Cd, tAs, tHg, Sn occurrence in Approximately 600 samples of fresh, frozen, dried fruits, fruit preserves and canned fruits collected throughout Poland in 2015... (n=600) |
+| 2 | [[sources/fda2016-infant-toddler-foods-inorganic-arsenic\|FDA 2016]]. *Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers*, U.S. Food and Drug Administration | 2016 | Government dataset | *[awaiting synthesis]* |
+| 3 | [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|Saei-Dehkordi et al. 2012]]. *Determination of Lead, Cadmium, Copper, and Zinc Content in Commercial Iranian Vinegars Using Stripping Chronopotentiometry*, Food Analytical Methods | 2012 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

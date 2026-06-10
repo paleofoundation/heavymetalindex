@@ -188,12 +188,13 @@ In the European Union, Regulation (EU) 2023/915 applies the fresh fruit maximum 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|Yoplac-Navarro et al. 2026]]. *Ecological and Human Health Risk Assessment of Metals in Peruvian Avocados Using a Probabilistic Approach*, Foods | 2026 | Peer-reviewed | tAs, Cd, Cr, tHg, Ni, and Pb in paired avocado-pulp and soil samples across eight Peruvian producing regions including the EU-RASFF-flagged Ica and La Libertad |
 | 2 | [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|Anastario et al. 2025]]. *Metal profiling of Hass avocados: a cross-sectional study using ICP-MS and pXRF*, BMC Research Notes | 2025 | Peer-reviewed | Pb, Cd, tAs, tHg, Ni, and Al in Hass avocado mesocarp vs exocarp stratified by California vs Michoacán origin and organic vs conventional practice |
 | 3 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Avocado, raw (n=27); detectable concentrations for Cd, Ni, Pb, tAs, tHg |
+| 4 | [[sources/munir2022-heavy-metals-natural-foods-review\|Munir et al. 2022]]. *Heavy Metal Contamination of Natural Foods Is a Serious Health Issue: A Review*, Sustainability | 2022 | Review | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 

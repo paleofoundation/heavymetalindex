@@ -98,9 +98,16 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/lead\|Pb]] | Flavored waters (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/fda-21cfr165110-bottled-water-lead]]: 5 ppb (bottled water) | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- Source promotion pending.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/zmudzinska2022-rte-baby-foods-poland\|Zmudzinska et al. 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*, Nutrients 14(11):2325 | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+
 ## Who this page is for
 
 _Pending. The brand-legal, retailer-compliance, HMTc-internal, and regulator audiences are listed in OPERATING.md Part 2; this section will frame what each is looking for on this page._

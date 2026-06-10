@@ -81,9 +81,15 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Peer-reviewed | US/EU/WHO Pb, Cd, Ni, tHg, tAs occurrence in Multi-variate meta-analysis of published studies covering 16 cosmetic formulation categories |
+| 1 | [[sources/jitareanu2025-heavy-metals-cosmetics-overview\|Jităreanu et al. 2025]]. *An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact*, Applied Sciences 15: 12883 | 2025 | Review | *[awaiting synthesis]* |
+| 2 | [[sources/moriceau2025-cosmetics-icpms-iso21392\|Moriceau et al. 2025]]. *Measurement of traces of heavy metals in cosmetic raw materials and finished products according to ISO/DIS 21392:2021 using triple quadrupole ICP-MS*, Thermo Fisher Scientific Application Note 003602 | 2025 | Industry | *[awaiting synthesis]* |
+| 3 | [[sources/mercan2024-istanbul-toy-makeup-14-elements\|Mercan et al. 2024]]. *Experimental study for inorganic and organic profiling of toy makeup products: Estimating the potential threat to child health*, Environmental Science and Pollution Research 31: 33975–33992 | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/medley2023-childrens-makeup-body-products-us-usage\|Medley et al. 2023]]. *Usage of Children's Makeup and Body Products in the United States and Implications for Childhood Environmental Exposures*, International Journal of Environmental Research and Public Health 20(3): 2114 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/salles2023-face-paints-pancakes-brazil-cancer-risk\|Salles et al. 2023]]. *Potentially Toxic Elements in Costume Cosmetics Used by Children and Adults Are Associated with Cancer Risk*, International Journal of Environmental Research and Public Health 20:531 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Review | US/EU/WHO Pb, Cd, Ni, tHg, tAs occurrence in Multi-variate meta-analysis of published studies covering 16 cosmetic formulation categories |
+| 7 | [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan\|Arshad et al. 2020]]. *Evaluation of heavy metals in cosmetic products and their health risk assessment*, Saudi Pharmaceutical Journal 28(2020):779-790 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

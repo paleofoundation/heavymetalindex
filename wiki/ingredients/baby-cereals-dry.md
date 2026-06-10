@@ -117,11 +117,11 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/original2020-original-a\|Alharbi et al. 2023]]. *Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia*, Food Science & Nutrition (Wiley) | 2023 | Peer-reviewed | iAs, tAs, Cd, and Pb in Saudi-market dry cereal-based baby meals and biscuits with dietary exposure modeling for infants and toddlers |
+| 1 | [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\|Alharbi et al. 2023]]. *Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia*, Food Science & Nutrition | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 

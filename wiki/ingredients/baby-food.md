@@ -54,5 +54,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/introduction2025-concentrations-heavy-metals-processed\|Introduction 2025]]. *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*, Unknown journal | 2025 | Peer reviewed review | *[awaiting synthesis]* |
+| 2 | [[sources/research2024-research-b\|Tatsuta et al. 2024]]. *Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan*, BMC Public Health | 2024 | Peer reviewed journal | *[awaiting synthesis]* |
+| 3 | [[sources/extending2023-extending-regulatory-biokinetic-lead\|Price et al. 2023]]. *Extending Regulatory Biokinetic Lead Models towards Food Safety—Evaluation of Consumer Baby Food Contribution to Infant Blood Lead Levels and Variability*, Foods | 2023 | Peer reviewed journal article | *[awaiting synthesis]* |
+| 4 | [[sources/henriquez_hernandez2023-elemental-infant-purees\|Henríquez-Hernández et al. 2023]]. *Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market*, Nutrients | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

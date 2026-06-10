@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 0
+sources: 1
 ---
 
 # Yam
@@ -160,6 +160,13 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 European Union Regulation 2023/915 sets maximum levels for root vegetables in the Pb and Cd analyte categories. Root vegetables, including tubers such as yam, fall under the root vegetable matrix scope with a Pb ML of 0.10 mg/kg (100 ppb) wet weight and a Cd ML of 0.10 mg/kg (100 ppb) wet weight. These limits apply to the commodity as placed on the market before peeling; they are distinct from the limits applicable to vegetable-based baby foods, which are governed by the Closer to Zero framework in the US and by the EU baby food directive in the EU. See [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/eu-2023-915-cadmium]] for the full scope of applicability. Codex STAN 193-1995 sets a Cd ML of 0.10 mg/kg for root and tuber vegetables, consistent with the EU value for this category; see [[regulations/codex-cadmium-mls]]. The UK retained EU maximum levels in domestic law following Brexit; UK root vegetable limits for Cd and Pb are equivalent to EU values as of 2026. The US FDA does not maintain specific federal action levels for Cd or Pb in yam as a fresh or processed commodity outside the baby-food context.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/fsa2016-infant-food-formula-metals-survey]]
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/afonne2020-heavy-metals-plant-foods\|Afonne et al. 2020]]. *Heavy metals risks in plant foods – need to step up precautionary measures*, Current Opinion in Toxicology | 2020 | Review | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

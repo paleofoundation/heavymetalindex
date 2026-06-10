@@ -83,10 +83,9 @@ Cat 4 (produce, nuts, seeds) regulatory enforcement intersects two domains: heav
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | PL/EU Cd, Pb, Cr, Ni occurrence in Commercial nuts (almonds, cashews, hazelnuts, peanuts, walnuts) available on the Polish market (n=69) |
-| 2 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | TR Pb, Cd, Cu, Fe, Mn, Co, Cr, Ni, Zn occurrence in 17 edible vegetable oil samples from Turkish food markets: soybean, hazelnut, almond, natural olive, riviera olive (3 types),... (n=17) |
 <!-- END: hmi-source-legend -->

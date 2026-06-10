@@ -75,9 +75,13 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
+| 1 | [[sources/sccs2025-methyl-salicylate-children-exposure-1676-25\|Scientific Committee on Consumer 2025]]. *SCCS Scientific Advice on children's exposure to Methyl Salicylate (methyl 2-hydroxybenzoate) — revision of SCCS/1654/23 (SCCS/1676/25)*, European Commission, Directorate-General for Health and Food Safety | 2025 | Government report | *[awaiting synthesis]* |
+| 2 | [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12\|Scientific Committee on Consumer 2023]]. *The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)*, European Commission, Directorate-General for Health and Food Safety | 2023 | Government report | *[awaiting synthesis]* |
+| 3 | [[sources/oranges2015-skin-physiology-neonate-infant-clinical\|Oranges et al. 2015]]. *Skin Physiology of the Neonate and Infant: Clinical Implications*, Advances in Wound Care 4(10): 587-595 | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
+| 5 | [[sources/poulsen2007-cosmetic-products-children-denmark\|Poulsen et al. 2007]]. *A survey and health assessment of cosmetic products for children*, Survey of Chemical Substances in Consumer Products, No. 88, 2007 (Danish Ministry of the Environment, Environmental Protection Agency) | 2007 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

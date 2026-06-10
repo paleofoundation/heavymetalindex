@@ -158,11 +158,11 @@ The EU Regulation 2023/915 sets dedicated maximum levels for "dried seaweed" ent
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|Groleau et al. 2025]]. *Heavy metals, trace elements, and nutrients in traditional Inuit country foods: Assessing risks and benefits for pregnant women in Nunavik, Canada*, Science of the Total Environment | 2025 | Peer-reviewed | Nunavik traditional-harvest seaweed and country-food metals (n=140 multi-matrix) |
+| 1 | [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|Groleau et al. 2025]]. *Improving nutritional intakes and reducing metal(loid) exposures from wild fish broth among Inuit pregnant women*, Science of the Total Environment | 2025 | Peer-reviewed | Nunavik traditional-harvest seaweed and country-food metals (n=140 multi-matrix) |
 | 2 | [[sources/raab2024-arsenolipids-chlamydomonas.md\|Raab et al. 2024]]. *Arsenolipids in the green microalga Chlamydomonas reinhardtii: first report of arsenosugar phospholipid (AsSugPhytol)*, Metallomics | 2024 | Peer-reviewed | Arsenolipid speciation in green microalga and macroalga Saccharina latissima, evidence that algae partition tAs into lipid-soluble organoarsenicals |
 | 3 | [[sources/sadee2024-arsenic-speciation-marine-organisms-review\|Sadee et al. 2024]]. *Recent developments in speciation and determination of arsenic in marine organisms using different analytical techniques. A review*, RSC Advances | 2024 | Peer-reviewed | Marine-organism iAs vs tAs speciation review establishing that seaweed tAs is dominated by low-toxicity organoarsenicals, not iAs |
 | 4 | [[sources/sim2024-inorganic-arsenic-seaweed-hplc\|Sim et al. 2024]]. *Determination of inorganic arsenic in seaweed, grain, grass silage, and insect protein by HPLC-ICP-MS using a design of experiments optimization approach*, Food Chemistry | 2024 | Peer-reviewed | Validated HPLC-ICP-MS iAs method applied to Laminaria, Fucus, Saccharina, Asparagopsis, and Porphyra species with iAs fraction of tAs |

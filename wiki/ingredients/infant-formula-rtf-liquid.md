@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 0
+sources: 1
 ---
 
 # Infant Formula Rtf Liquid
@@ -114,9 +114,16 @@ This node is linked from [[products/infant-formula-rtf-liquid-non-soy]], [[produ
 
 The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-No source pages are currently cited for this ingredient node.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/saraiva2021-cr-iii-cr-vi-ssid-method-validation-talanta\|Saraiva et al. 2021]]. *Development and validation of a single run method based on species specific isotope dilution and HPLC-ICP-MS for simultaneous species interconversion correction and speciation analysis of Cr(III)/Cr(VI) in meat and dairy products*, Talanta 222 (2021) 121538 | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+
 ## Why this commodity accumulates heavy metals
 
 Ready-to-feed (RTF) liquid infant formula carries the same ingredient-inheritance pathway as powder formula (see [[ingredients/infant-formula-powder]]) but in as-consumed liquid form rather than spray-dried powder form. The per-volume metal concentration is approximately the powder formula divided by the reconstitution ratio (the 1:7 powder-to-water reconstitution is the canonical conservative factor; commercial RTF liquid product is at the manufacturer-specified ratio). RTF formula therefore typically carries 1/7 the per-mass metal of the same recipe in powder form, with the per-feed serving size also adjusted (a 4-ounce RTF bottle delivers approximately the same dose as 1 teaspoon of powder + 4 ounces water).

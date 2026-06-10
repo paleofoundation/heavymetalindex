@@ -80,9 +80,10 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/li2021-lead-lip-cosmetics-china-ecommerce\|Li et al. 2021]]. *Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis*, Frontiers in Public Health 9:766984 | 2021 | Peer-reviewed | CN Pb occurrence in 34 best-selling lip cosmetics (12 lipsticks, 13 lip glosses, 9 lip balms) from JingDong (Chinese top-10 e-commerce market),... (n=34) |
+| 1 | [[sources/sccs2025-methyl-salicylate-children-exposure-1676-25\|Scientific Committee on Consumer 2025]]. *SCCS Scientific Advice on children's exposure to Methyl Salicylate (methyl 2-hydroxybenzoate) — revision of SCCS/1654/23 (SCCS/1676/25)*, European Commission, Directorate-General for Health and Food Safety | 2025 | Government report | *[awaiting synthesis]* |
+| 2 | [[sources/li2021-lead-lip-cosmetics-china-ecommerce\|Li et al. 2021]]. *Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis*, Frontiers in Public Health 9:766984 | 2021 | Peer-reviewed | CN Pb occurrence in 34 best-selling lip cosmetics (12 lipsticks, 13 lip glosses, 9 lip balms) from JingDong (Chinese top-10 e-commerce market),... (n=34) |
 <!-- END: hmi-source-legend -->
