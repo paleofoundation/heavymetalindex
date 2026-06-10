@@ -1,0 +1,36 @@
+---
+title: "Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives)"
+type: product-category
+category: pickled-fermented-vegetables
+hmtc_category: 4
+hmtc_category_name: "Fruits, Vegetables, and Produce"
+hmtc_row: 8
+hmtc_subcategory_name: "Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives)"
+hmtc_taxonomy_version: "2.2"
+hmtc_taxonomy_version_date: "2026-06-09"
+exposure_pathway: "Ingestion (oral)"
+regulatory_jurisdiction: "FDA, EU, Codex"
+panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
+audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
+products_status: scaffold
+splits_locked: false
+literature_scope: none
+sources: 0
+wiki_doi: null
+updated: 2026-06-09
+---
+
+# Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives)
+
+> **v2.2 Step Zero scaffold — Category 4 (Fruits, Vegetables, and Produce), Row 8.** New row from the
+> 2026-06-09 whole-taxonomy completeness audit; carries **no candidate values** yet. Routing
+> destination; sources populate it as ingest proceeds, then synthesis fills the evidence sections.
+
+## Literature scope
+
+No sources are routed to this row yet. The corpus will accumulate via the source-routing layer.
+
+## Sources
+
+<!-- BEGIN: source-legend -->
+<!-- END: source-legend -->
