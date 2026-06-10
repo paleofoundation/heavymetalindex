@@ -74,4 +74,7 @@ data/evidence/autonomy/frank-codex.heartbeat
 data/evidence/autonomy/frank-intake-done.txt
 # Engine lock files (runtime mutex, not corpus state)
 data/evidence/autonomy/*.lock
+# FRANK control sentinels (local halt switches, not corpus state)
+.FRANK.STOP
+.FRANK.PAUSE
 data/evidence/gems-aggregates.jsonl
