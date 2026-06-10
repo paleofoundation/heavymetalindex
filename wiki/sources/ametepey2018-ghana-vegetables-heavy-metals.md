@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1186/s40550-018-0067-0"
 metals: [Cd, Pb, Cr, Ni, Mn, Fe, Zn, Cu]
 ingredients: ["[[ingredients/leafy-greens]]", "[[ingredients/tomato]]", "[[ingredients/onions]]"]
-products: []
+products: ["[[products/non-root-vegetables]]"]
 matrices: [leafy-vegetable, tomato, onion]
 jurisdictions: [GH]
 sample_n: 75

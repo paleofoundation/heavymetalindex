@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1007/s11756-023-01401-x"
 metals: [Ni, Cd, Pb, Co]
 ingredients: ["[[ingredients/carrot]]"]
-products: []
+products: ["[[products/root-tuber-vegetables]]"]
 matrices: [carrot, wastewater-irrigated-carrot]
 jurisdictions: [EG]
 sample_n: null

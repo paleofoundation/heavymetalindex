@@ -1,6 +1,6 @@
 # Session prompt: draft missing mandatory sections on product-category pages
 
-CLAUDE.md Part 6 mandates 10 H2 sections on every non-stub product-category page, including a new "Levers to reduce contamination" section. 4 pages currently fail this lint; 4 are missing the load-bearing Levers section specifically.
+CLAUDE.md Part 6 mandates 10 H2 sections on every non-stub product-category page, including a new "Levers to reduce contamination" section. 2 pages currently fail this lint; 2 are missing the load-bearing Levers section specifically.
 
 Brand-legal reads these pages. The Levers section is the brand-legal-actionable surface. Drafting it well is the load-bearing element of this action.
 
@@ -61,12 +61,10 @@ For each page in scope:
 - Don't restructure existing Methodology, Source Evidence Inventory, or other already-present sections.
 - Don't reorder existing sections; insert missing sections in the canonical Part 6 order alongside what's there.
 
-## Pages in scope (4)
+## Pages in scope (2)
 
-  - coffee (missing 7, levers: true): who_for;methodology;source_evidence_inventory;broad_context_index;levers;standards_math;recalls_enforcement
-  - fermented-beverages-non-tea-based (missing 7, levers: true): who_for;methodology;source_evidence_inventory;broad_context_index;levers;standards_math;recalls_enforcement
-  - herbal-botanical-infusions (missing 7, levers: true): who_for;methodology;source_evidence_inventory;broad_context_index;levers;standards_math;recalls_enforcement
-  - kombucha-tea-based (missing 7, levers: true): who_for;methodology;source_evidence_inventory;broad_context_index;levers;standards_math;recalls_enforcement
+  - true-tea-camellia-sinensis (missing 7, levers: true): who_for;methodology;source_evidence_inventory;broad_context_index;levers;standards_math;recalls_enforcement
+  - vegetable-juices-non-root (missing 7, levers: true): who_for;methodology;source_evidence_inventory;broad_context_index;levers;standards_math;recalls_enforcement
 
 ## Reference
 

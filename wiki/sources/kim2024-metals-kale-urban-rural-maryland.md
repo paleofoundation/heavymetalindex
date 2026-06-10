@@ -14,7 +14,7 @@ license: "CC0"
 raw_path: raw/markdown/FM_11020932/FM_11020932.md
 metals: [tAs, Pb, Cd, Cr, Ni, U]
 ingredients: ["[[ingredients/leafy-greens]]"]
-products: []
+products: ["[[products/leafy-vegetables-other]]"]
 matrices: [kale, leafy-vegetables]
 jurisdictions: [US]
 near_duplicates: []

@@ -1,6 +1,6 @@
 # Session prompt: triage routing-unresolved entries
 
-140 entries in `data/evidence/routing_unresolved.csv`. Each is a source page whose frontmatter declared a product / ingredient / metal / regulation that does not match any existing wiki page.
+134 entries in `data/evidence/routing_unresolved.csv`. Each is a source page whose frontmatter declared a product / ingredient / metal / regulation that does not match any existing wiki page.
 
 ## Decision tree per entry
 
@@ -20,11 +20,11 @@ Sample first 5 rows:
   - abebe2017-popcorn-cornflake-metals-ethiopia declared product `popcorn` (does not exist)
   - afonne2020-heavy-metals-plant-foods declared ingredient `cassava` (does not exist)
   - alzabadi2018-canned-foods-palestine-cd-pb-cu-zn declared product `canned-foods` (does not exist)
-  - alzabadi2018-canned-foods-palestine-cd-pb-cu-zn declared ingredient `canned-beans` (does not exist)
+  - alzabadi2018-canned-foods-palestine-cd-pb-cu-zn declared ingredient `chickpeas` (does not exist)
 
 ## At the end
 
-Append a triage report at `wiki/lint/2026-05-15-routing-triage.md` listing:
+Append a triage report at `wiki/lint/2026-05-16-routing-triage.md` listing:
 - Frontmatter fixes made (count + sample)
 - Below-threshold redirects made (count + sample)
 - New-page proposals for Karen's approval (full list — these need her decision per Part 10)

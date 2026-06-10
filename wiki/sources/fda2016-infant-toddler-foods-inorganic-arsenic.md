@@ -16,7 +16,7 @@ data_paths:
 license: public-domain-us-government
 metals: [iAs, tAs]
 other_arsenic_species: [DMA, MMA]
-products: [baby-cereals-dry-rice-based, baby-cereals-dry-non-rice, fruit-juices-non-apple, fruit-juice-not-canned]
+products: [baby-cereals-dry-rice-based, baby-cereals-dry-non-rice, fruit-juices-non-apple, fruit-juice-not-canned, "[[products/peanut-butter]]", "[[products/dried-fruit]]"]
 matrices: [infant-rice-cereal, multigrain-cereal-with-rice, non-rice-infant-cereal, oat-ring-cereal, juice-grape, juice-apricot, juice-peach, juice-pear, juice-boxes-and-pouches, peanut-butter, quinoa, raisins, stage-2-toddler-foods, teething-biscuits, toddler-puffs, apples]
 product_metal_scope:
   baby-cereals-dry-rice-based: [iAs]
