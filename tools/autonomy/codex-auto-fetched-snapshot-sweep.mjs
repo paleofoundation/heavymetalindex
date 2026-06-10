@@ -148,14 +148,20 @@ async function triageOne(item, doiIndex, finalAuditNames) {
   // regex was food + toothpaste/cosmetic only, which silently dropped feminine
   // care (tampons), cleaning products, toys/durables, textiles, and research
   // chemicals/peptides. Broadened 2026-06-08 to match the program's real breadth.
-  // Broadened again 2026-06-10 to recognise the UPSTREAM supply-chain / contamination-
-  // pathway matrices (soil, sediment, irrigation/ground/waste water, fertiliser,
-  // atmospheric deposition, feed, transfer factors). These (a3) source papers explain
-  // HOW a food crop gets contaminated and were being pre-skipped as `not-target-cell`.
-  // This gate only PASSES candidates to full-text triage; the prompt's "THE LINE" test
-  // still rejects no-food-link aerosol/geology papers, and the firewall keeps soil/water
-  // numbers out of occurrence thresholds, so over-passing here is cheap.
-  const hasProductMatrix = /\b(food|foods|edible|diet|dietary|rice|wheat|flour|cereal|coffee|tea|fruit|vegetable|formula|infant|beverage|milk|meat|fish|seafood|seed|nut|oil|butter|spice|honey|sugar|supplement|nutraceutical|protein powder|drinking water|tampon|menstrual|sanitary|feminine|cosmetic|makeup|lipstick|foundation|mascara|eyeshadow|nail|lotion|shampoo|soap|sunscreen|deodorant|antiperspirant|toothpaste|wipe|wipes|diaper|cleaner|detergent|bleach|disinfectant|laundry|toy|toys|crib|stroller|car seat|mattress|textile|fabric|clothing|footwear|paint|pigment|plastic|pvc|vinyl|silicone|rubber|latex|ceramic|cookware|tableware|glaze|packaging|food contact|peptide|sarm|injectable|vial|nootropic|phytoremediation|bioremediation|remediation|biochar|chelation|sequestration|immobiliz|phytochelatin|metallothionein|mitigation|soil amendment|soil|sediment|irrigation|irrigated|groundwater|ground water|wastewater|waste water|sewage|sludge|biosolid|tailing|smelter|smelting|mining|atmospheric deposition|transfer factor|bioaccumulat|biomagnif|paddy|cropland|farmland|arable|fertiliser|fertilizer|manure|animal feed|forage|leachate|effluent|estuar)\b/.test(titleText)
+  // Broadened again 2026-06-10 (then widened the same day) to recognise the full
+  // upstream + downstream literature the corpus must hold for defensibility:
+  //   a3 SUPPLY-CHAIN / PATHWAY / ATTRIBUTION — soil, sediment, irrigation/ground/waste
+  //      water, MARINE water & sediment (the ocean is the "soil" of seafood), fertiliser,
+  //      atmospheric deposition (smelting, mining, shipping, traffic, AVIATION/leaded
+  //      avgas), feed, transfer factors, and source-attribution (which industry pollutes).
+  //   a4 EXPOSURE & HEALTH EFFECT — biomonitoring (blood/urine/hair/serum), dietary
+  //      intake, toxicology/epidemiology, and metal-microbiome (-> WikiBiome).
+  // INCLUSION IS THE DEFAULT: this gate exists only to PASS candidates to full-text
+  // triage. The genuinely-out residue is now narrow (no metal, or a metal with no
+  // path to any consumable/supply-chain/exposure/health/attribution vector), so this
+  // matrix gate is intentionally broad — the firewall keeps non-occurrence numbers out
+  // of thresholds, so over-passing is cheap and a wrong skip breaks the completeness claim.
+  const hasProductMatrix = /\b(food|foods|edible|diet|dietary|rice|wheat|flour|cereal|coffee|tea|fruit|vegetable|formula|infant|beverage|milk|meat|fish|seafood|shellfish|mollus|oyster|mussel|clam|crustacean|shrimp|prawn|crab|algae|seaweed|macroalga|kelp|aquaculture|fishery|seed|nut|oil|butter|spice|honey|sugar|supplement|nutraceutical|protein powder|drinking water|tampon|menstrual|sanitary|feminine|cosmetic|makeup|lipstick|foundation|mascara|eyeshadow|nail|lotion|shampoo|soap|sunscreen|deodorant|antiperspirant|toothpaste|wipe|wipes|diaper|cleaner|detergent|bleach|disinfectant|laundry|toy|toys|crib|stroller|car seat|mattress|textile|fabric|clothing|footwear|paint|pigment|plastic|pvc|vinyl|silicone|rubber|latex|ceramic|cookware|tableware|glaze|packaging|food contact|peptide|sarm|injectable|vial|nootropic|phytoremediation|bioremediation|remediation|biochar|chelation|sequestration|immobiliz|phytochelatin|metallothionein|mitigation|soil amendment|soil|sediment|irrigation|irrigated|groundwater|ground water|wastewater|waste water|sewage|sludge|biosolid|tailing|smelter|smelting|mining|mine |atmospheric|deposition|aerosol|shipping|vessel|aviation|aircraft|avgas|traffic|exhaust|combustion|e-waste|transfer factor|bioaccumulat|biomagnif|paddy|cropland|farmland|arable|fertiliser|fertilizer|manure|animal feed|forage|leachate|effluent|estuar|marine|ocean|seawater|sea water|coastal|lagoon|lake|river|blood|urine|serum|breast milk|biomonitor|exposure|dietary intake|toxicit|toxicolog|neurotox|reproductive|epidemiolog|microbiome|gut microbiota)\b/.test(titleText)
   const hasConcentration = /\b(mg\/kg|µg\/kg|ug\/kg|mg kg|µg kg|ug kg|ppm|ppb|ng\/g|µg\/g|ug\/g|mg\/l|µg\/l|ug\/l|concentration|contents?|levels?)\b/.test(titleText)
   const primaryTableSignal = /\b(table|mean|median|range|samples?|n\s*=|icp|aas|atomic absorption|mass spectrometry)\b/.test(titleText)
   const reviewOnly = /\b(systematic review|meta-analysis|narrative review|review article|cochrane|scoping review)\b/.test(titleText)

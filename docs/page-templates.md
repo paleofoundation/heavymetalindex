@@ -312,7 +312,7 @@ updated: 2026-06-10
 ---
 ```
 
-Supply-chain pages are the hub/synthesis pages for the **upstream** half of the corpus: how heavy metals reach a food crop or supply-chain input before it is ever a finished product. They cover soil geochemistry and root uptake, irrigation/ground/process/waste water, fertilisers, sewage sludge and biosolids, atmospheric deposition from mining and smelting, animal feed, food-contact equipment, packaging, and storage. The archetype is `supply-chain/soil-to-plant-transfer.md`.
+Supply-chain pages are the hub/synthesis pages for the **upstream** half of the corpus: how heavy metals reach a consumable before it is ever a finished product, and which sources put them there. They cover soil geochemistry and root uptake; irrigation/ground/process/waste water; marine and estuarine sediment and water (the ocean is the upstream matrix for the seafood, shellfish, algae, and seaweed supply chain); fertilisers, sewage sludge and biosolids; atmospheric deposition from smelting, mining, shipping, traffic, and aviation (leaded avgas); animal feed; food-contact equipment, packaging, and storage; and **source attribution** — which industry or activity loads metals into the shared environment (the burden-apportionment evidence that supports a brand's ambient/shared-liability defense, Governing Principle 4). The archetype is `supply-chain/soil-to-plant-transfer.md`.
 
 Sections: the pathway mechanism; the quantitative discipline governing how the upstream evidence may be used (transfer factors, bioavailability); element-specific behaviour; agronomic and environmental drivers; anthropogenic vs geogenic sources; and how upstream-source evidence connects to the downstream `ingredients`/`products` pages.
 
