@@ -2,8 +2,14 @@
 type: product-category
 category: bathing-soaps
 title: "Bathing soaps"
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
+hmtc_category: 14
+hmtc_row: 12
+review_state: retired
+retired: true
+retirement_date: 2026-06-09
+retirement_authority: "taxonomy-completeness-2026-06.md (orphan homing)"
+redirect_target: products/bar-bath-soap
+hmtc_taxonomy_version: "2.2"
 provisional_scaffold: true
 provisional_created: 2026-06-02
 provisional_reason: "ingest of oviri2024-nigeria-bathing-soaps-metals declared bathing-soaps as the author-stated product class for Nigerian medicated, moisturizing, toilet, and skin-whitening soaps"
@@ -13,7 +19,7 @@ typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 6
-updated: 2026-06-02
+updated: 2026-06-09
 ---
 
 # Bathing soaps
@@ -50,9 +56,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [6809e03](https://github.com/paleofoundation/heavymetalindex/commit/6809e03) | 2026-06-02 | ingest auto-fetched 2026-06-02 08:02 batch 1: 1 source page |
 <!-- END: hmi-page-history -->

@@ -1,5 +1,13 @@
 ---
 type: product-category
+hmtc_category: 5
+hmtc_row: 10
+review_state: retired
+retired: true
+retirement_date: 2026-06-09
+retirement_authority: "taxonomy-completeness-2026-06.md (orphan homing)"
+redirect_target: products/herbal-botanical-infusions
+hmtc_taxonomy_version: "2.2"
 category: tea-infusions
 title: "Tea Infusions"
 typical_ingredients: []
@@ -8,7 +16,7 @@ vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-14
+updated: 2026-06-09
 sources: 22
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -77,9 +85,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

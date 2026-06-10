@@ -5,18 +5,20 @@ category: skin-contact-product
 category1_food_status: not-a-food-product
 metals: [Ni]
 source_refs: [lgc2003-nickel-piercing-post-assemblies]
-sources: 3
+node_type: standalone-adult-ni-contact
+cross_link: products/childrens-jewelry
+sources: 4
 wiki_doi: null
-updated: 2026-04-29
+updated: 2026-06-09
 ---
 
 # Piercing Post Assemblies
 
 Piercing post assemblies are the product category evaluated in [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]], a final report on nickel sensitisation risk from stainless steel posts inserted into pierced ears and other pierced body parts during wound epithelization.
 
-## Category 1 Boundary
+## Classification (standalone adult nickel-contact node)
 
-This is not an infant/child food product page. It exists because the source's actual product category must be visible and connected, but it does not create food occurrence evidence for the Category 1 build.
+This is a non-food, adult nickel-contact node — body-piercing posts and studs evaluated under the EN 1811 nickel-release standard, not a food product. It is the adult sibling of the children's metal jewelry row ([[products/childrens-jewelry|Cat 21 Row 22]]), cross-linked but not merged: the children's mouthing/handling Pb/Cd platform differs from this adult prolonged-skin-contact Ni-sensitization platform. Per [[docs/governance/taxonomy-completeness-2026-06]].
 
 ## Source-Grounded Values
 
@@ -102,9 +104,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
