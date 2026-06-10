@@ -125,6 +125,11 @@ ingredient,balsamic-vinegar,Mitigation options,5 ppb,true,"evel ICP-MS testing f
 ingredient,banana,Why this commodity accumulates heavy metals,3.2 ppb,true,all reported at zero across all or nearly all samples; tAs reached a maximum of 3.2 ppb but had a median of zero; Ni was
 ingredient,banana,Why this commodity accumulates heavy metals,140 ppb,true,"; Ni was the only analyte with a meaningful distribution, reaching a maximum of 140 ppb and a p90 of 57 ppb ([[sources/f"
 ingredient,banana,Why this commodity accumulates heavy metals,57 ppb,true,"lyte with a meaningful distribution, reaching a maximum of 140 ppb and a p90 of 57 ppb ([[sources/fda2022-tds-elements-f"
+ingredient,banana,Why this commodity accumulates heavy metals,0.001 mg/kg,true,"anana, Bahir Dar, Northwest Ethiopia), which reported Pb non-detect, Cd 0.130 ± 0.001 mg/kg dry weight (below the FAO/WH"
+ingredient,banana,Why this commodity accumulates heavy metals,0.2 mg/kg,true,"ch reported Pb non-detect, Cd 0.130 ± 0.001 mg/kg dry weight (below the FAO/WHO 0.2 mg/kg limit), and Cr 0.773 ± 0.010 m"
+ingredient,banana,Why this commodity accumulates heavy metals,0.010 mg/kg,true,"30 ± 0.001 mg/kg dry weight (below the FAO/WHO 0.2 mg/kg limit), and Cr 0.773 ± 0.010 mg/kg dry weight in the edible por"
+ingredient,banana,"Ranges by source, region, and variety",0.001 mg/kg,true,"a n=9 composite from 40 individual samples) reporting Pb non-detect, Cd 0.130 ± 0.001 mg/kg dw, and Cr 0.773 ± 0.010 mg/"
+ingredient,banana,"Ranges by source, region, and variety",0.010 mg/kg,true,"ual samples) reporting Pb non-detect, Cd 0.130 ± 0.001 mg/kg dw, and Cr 0.773 ± 0.010 mg/kg dw on a dry-weight basis — c"
 ingredient,banana,Ingredient-derivative risk,3.2 ppb,true,examined weaning foods including fruit-category foods); banana's tAs maximum of 3.2 ppb in TDS data indicates negligible
 ingredient,banana,Regulatory limits that apply,0.10 mg/kg,true,ation (EU) 2023/915 applies the general fresh fruit maximum level to banana: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg 
 ingredient,banana,Regulatory limits that apply,100 ppb,true,"023/915 applies the general fresh fruit maximum level to banana: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg (50 ppb), we"
