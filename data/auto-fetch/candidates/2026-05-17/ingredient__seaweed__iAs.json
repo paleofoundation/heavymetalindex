@@ -1,0 +1,378 @@
+{
+  "target": "ingredient:seaweed",
+  "metal": "iAs",
+  "status": "ok",
+  "query": "(\"seaweed\" OR \"Seaweed\" OR \"sea vegetable\" OR \"sea vegetables\" OR \"edible algae\" OR \"macroalgae\") AND (\"inorganic arsenic\" OR \"iAs\" OR \"arsenite\" OR \"arsenate\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+  "terms": [
+    "seaweed",
+    "Seaweed",
+    "sea vegetable",
+    "sea vegetables",
+    "edible algae",
+    "macroalgae",
+    "kelp",
+    "algae"
+  ],
+  "candidates_count": 18,
+  "dropped": {
+    "dedup": 1,
+    "language": 0,
+    "no-doi": 0,
+    "too-old": 0,
+    "no-allowed-license": 45,
+    "low-impact-old": 0,
+    "off-topic": 36
+  },
+  "candidates": [
+    {
+      "openalex_id": "https://openalex.org/W3082578482",
+      "doi": "10.3390/environments7090068",
+      "title": "Monitoring Arsenic Species Content in Seaweeds Produced off the Southern Coast of Korea and Its Risk Assessment",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 23,
+      "pdf_url": "https://www.mdpi.com/2076-3298/7/9/68/pdf",
+      "landing_page_url": "https://doi.org/10.3390/environments7090068",
+      "license": "cc-by",
+      "source_display": "Environments",
+      "authors": [
+        "Min‐Hyuk Kim",
+        "Junseob Kim",
+        "Chang-Hyun Noh",
+        "Seogyeong Choi",
+        "Yong-Sung Joo"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2693288291",
+      "doi": "10.1038/s41598-017-03883-7",
+      "title": "Distinct arsenic metabolites following seaweed consumption in humans",
+      "year": 2017,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 64,
+      "pdf_url": "https://www.nature.com/articles/s41598-017-03883-7.pdf",
+      "landing_page_url": "https://doi.org/10.1038/s41598-017-03883-7",
+      "license": "cc-by",
+      "source_display": "Scientific Reports",
+      "authors": [
+        "Vivien F. Taylor",
+        "Zhigang Li",
+        "Vicki Sayarath",
+        "Thomas J. Palys",
+        "Kevin R. Morse"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4320497283",
+      "doi": "10.3390/life13020511",
+      "title": "Characterization and Quantification of Arsenic Species in Foodstuffs of Plant Origin by HPLC/ICP-MS",
+      "year": 2023,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 21,
+      "pdf_url": "https://www.mdpi.com/2075-1729/13/2/511/pdf?version=1676194402",
+      "landing_page_url": "https://doi.org/10.3390/life13020511",
+      "license": "cc-by",
+      "source_display": "Life",
+      "authors": [
+        "Teresa D’Amore",
+        "Oto Miedico",
+        "Ciro Pompa",
+        "Chiara Preite",
+        "Marco Iammarino"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4285043156",
+      "doi": "10.3390/app12147000",
+      "title": "Comparison of Heavy Metals and Arsenic Species in Seaweeds Collected from Different Regions in Korea",
+      "year": 2022,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 26,
+      "pdf_url": "https://www.mdpi.com/2076-3417/12/14/7000/pdf?version=1657537012",
+      "landing_page_url": "https://doi.org/10.3390/app12147000",
+      "license": "cc-by",
+      "source_display": "Applied Sciences",
+      "authors": [
+        "Ka Jeong Lee",
+        "Eun Hye Kang",
+        "Minchul Yoon",
+        "Mi Ra Jo",
+        "Hongsik Yu"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2109167454",
+      "doi": "10.1289/ehp.11827",
+      "title": "Arsenic Exposure within the Korean Community (United States) Based on Dietary Behavior and Arsenic Levels in Hair, Urine, Air, and Water",
+      "year": 2008,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 53,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.11827",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Bill Cleland",
+        "Ami Tsuchiya",
+        "David A. Kalman",
+        "Russell L. Dills",
+        "Thomas M. Burbacher"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2596427177",
+      "doi": "10.1007/s00604-017-2151-1",
+      "title": "A field deployable method for a rapid screening analysis of inorganic arsenic in seaweed",
+      "year": 2017,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 21,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs00604-017-2151-1.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s00604-017-2151-1",
+      "license": "cc-by",
+      "source_display": "Microchimica Acta",
+      "authors": [
+        "Edi Bralatei",
+        "Karolina Nekrosiute",
+        "Jenny Ronan",
+        "Andrea Raab",
+        "Evin McGovern"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4393114633",
+      "doi": "10.1007/s00216-024-05250-8",
+      "title": "Inorganic arsenic in seaweed: a fast HPLC-ICP-MS method without coelution of arsenosugars",
+      "year": 2024,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 8,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00216-024-05250-8.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s00216-024-05250-8",
+      "license": "cc-by",
+      "source_display": "Analytical and Bioanalytical Chemistry",
+      "authors": [
+        "Rebecca Sim",
+        "Marta Weyer",
+        "Ásta H. Pétursdóttir"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4388007211",
+      "doi": "10.1016/j.ecoenv.2023.115634",
+      "title": "Species-specific arsenic species and health risk assessment in seaweeds from tropic coasts of South China Sea",
+      "year": 2023,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 13,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1016/j.ecoenv.2023.115634",
+      "license": "cc-by",
+      "source_display": "Ecotoxicology and Environmental Safety",
+      "authors": [
+        "Ziting Peng",
+        "Yu-Ke He",
+        "Zhiqiang Guo",
+        "Qian Wu",
+        "Shuyi Li"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4392931298",
+      "doi": "10.1016/j.foodcont.2024.110461",
+      "title": "A case study on Norwegian commercial harvesting and production of Saccharina latissima (Part 1): Effect of processing seaweed on chemical hazards, allergens, and microbiological hazards",
+      "year": 2024,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 10,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1016/j.foodcont.2024.110461",
+      "license": "cc-by",
+      "source_display": "Food Control",
+      "authors": [
+        "J.L. Banach",
+        "Y. Hoffmans",
+        "Elisabeth J. Faassen"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4409112674",
+      "doi": "10.1007/s10811-025-03489-x",
+      "title": "Seasonal variation in the composition and antioxidant potential of Codium tomentosum and Ulva lacinulata produced in a land-based integrated multi-trophic aquaculture system",
+      "year": 2025,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 9,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1007/s10811-025-03489-x",
+      "license": "cc-by",
+      "source_display": "Journal of Applied Phycology",
+      "authors": [
+        "Carla Sousa",
+        "Isabel Sousa‐Pinto",
+        "Ingryd Raiany Silva de Oliveira",
+        "Gonçalo Silva Marinho"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4394691879",
+      "doi": "10.1002/jsfa.13528",
+      "title": "Speciation of arsenic in milk from cows fed seaweed",
+      "year": 2024,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 6,
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jsfa.13528",
+      "landing_page_url": "https://doi.org/10.1002/jsfa.13528",
+      "license": "cc-by",
+      "source_display": "Journal of the Science of Food and Agriculture",
+      "authors": [
+        "Chan Xiong",
+        "Ásta H. Pétursdóttir",
+        "Gunnar Ríkharðsson",
+        "Sokratis Stergiadis",
+        "Andrea Raab"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4399048347",
+      "doi": "10.3390/nu16111614",
+      "title": "Supplementation of Seaweed Extracts to the Diet Reduces Symptoms of Alzheimer’s Disease in the APPswePS1ΔE9 Mouse Model",
+      "year": 2024,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 12,
+      "pdf_url": "https://www.mdpi.com/2072-6643/16/11/1614/pdf?version=1716790530",
+      "landing_page_url": "https://doi.org/10.3390/nu16111614",
+      "license": "cc-by",
+      "source_display": "Nutrients",
+      "authors": [
+        "Nikita Martens",
+        "Na Zhan",
+        "Sammie C. Yam",
+        "Frank Leijten",
+        "Marcella Palumbo"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2155374330",
+      "doi": "10.1051/e3sconf/20130126006",
+      "title": "Arsenic metabolites in humans after ingestion of wakame seaweed",
+      "year": 2013,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 5,
+      "pdf_url": "https://www.e3s-conferences.org/articles/e3sconf/pdf/2013/01/e3sconf_ichm13_26006.pdf",
+      "landing_page_url": "https://doi.org/10.1051/e3sconf/20130126006",
+      "license": "cc-by",
+      "source_display": "E3S Web of Conferences",
+      "authors": [
+        "Akihisa Hata",
+        "Kenzo Yamanaka",
+        "Ginji Endo",
+        "Yuko Yamano",
+        "Ryota Haba"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2257131504",
+      "doi": "10.5897/ajb12.2509",
+      "title": "Brown macroalgae as bio-indicators for heavy metals pollution of Al-Jubail coastal area of Saudi Arabia",
+      "year": 2012,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 30,
+      "pdf_url": "https://academicjournals.org/journal/AJB/article-full-text-pdf/08299F930243.pdf",
+      "landing_page_url": "https://doi.org/10.5897/ajb12.2509",
+      "license": "cc-by",
+      "source_display": "AFRICAN JOURNAL OF BIOTECHNOLOGY",
+      "authors": [
+        "H Alkhalifa Areej",
+        "Aldalbahi Ali",
+        "I. Shehata Afaf",
+        "H Al Khamis Hussein",
+        "A Al Ghanayem Abdullah"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4282830506",
+      "doi": "10.1093/cdn/nzac077.020",
+      "title": "Arsenic and Nutrient Composition Across Different Edible Seaweeds From Hawaii",
+      "year": 2022,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 3,
+      "pdf_url": "https://academic.oup.com/cdn/article-pdf/6/Supplement_1/517/44041481/nzac077.020.pdf",
+      "landing_page_url": "https://doi.org/10.1093/cdn/nzac077.020",
+      "license": "cc-by",
+      "source_display": "Current Developments in Nutrition",
+      "authors": [
+        "Samuel Kim",
+        "Sean D. Conklin",
+        "Benjamin W. Redan",
+        "Kacie K.H.Y. Ho"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4410027715",
+      "doi": "10.1007/s12403-025-00708-1",
+      "title": "Distribution of Water-Soluble Arsenic Species in the Sub-thallus of Australian Brown Macroalgae",
+      "year": 2025,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 4,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12403-025-00708-1.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s12403-025-00708-1",
+      "license": "cc-by",
+      "source_display": "Exposure and Health",
+      "authors": [
+        "Tuti Hartati Siregar",
+        "Jill Bartlett",
+        "Ross M. Thompson"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3165186277",
+      "doi": "10.1016/j.fct.2021.112285",
+      "title": "Dietary exposure to potentially toxic elements through sushi consumption in Catalonia, Spain",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 6,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1016/j.fct.2021.112285",
+      "license": "cc-by",
+      "source_display": "Food and Chemical Toxicology",
+      "authors": [
+        "Neus González",
+        "Eudald Correig",
+        "Isa Marmelo",
+        "António Marques",
+        "Rasmus la Cour"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4403973972",
+      "doi": "10.1265/ehpm.24-00073",
+      "title": "Assessing the feasibility of using toenails as biomarkers for estimating inorganic arsenic exposure in Japanese adults",
+      "year": 2024,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 3,
+      "pdf_url": "https://www.jstage.jst.go.jp/article/ehpm/29/0/29_24-00073/_pdf",
+      "landing_page_url": "https://doi.org/10.1265/ehpm.24-00073",
+      "license": "cc-by",
+      "source_display": "Environmental Health and Preventive Medicine",
+      "authors": [
+        "Tomoko Oguri",
+        "Naohide Shinohara",
+        "Shoji F. Nakayama"
+      ]
+    }
+  ]
+}

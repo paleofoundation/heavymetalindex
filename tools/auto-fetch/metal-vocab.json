@@ -1,0 +1,54 @@
+{
+  "Pb": {
+    "names": ["lead", "Pb", "plumbum"],
+    "species": []
+  },
+  "Cd": {
+    "names": ["cadmium", "Cd"],
+    "species": []
+  },
+  "iAs": {
+    "names": ["inorganic arsenic", "iAs", "arsenite", "arsenate", "As(III)", "As(V)"],
+    "species": ["iAs", "tAs"]
+  },
+  "tAs": {
+    "names": ["total arsenic", "arsenic", "tAs", "As"],
+    "species": ["tAs"]
+  },
+  "MeHg": {
+    "names": ["methylmercury", "methyl mercury", "MeHg", "CH3Hg"],
+    "species": []
+  },
+  "tHg": {
+    "names": ["total mercury", "mercury", "tHg", "Hg"],
+    "species": ["tHg", "MeHg"]
+  },
+  "Ni": {
+    "names": ["nickel", "Ni"],
+    "species": []
+  },
+  "Al": {
+    "names": ["aluminium", "aluminum", "Al"],
+    "species": []
+  },
+  "Cr": {
+    "names": ["chromium", "Cr", "total chromium"],
+    "species": ["Cr", "Cr-VI"]
+  },
+  "Cr-VI": {
+    "names": ["hexavalent chromium", "chromium VI", "Cr(VI)", "Cr-VI", "chromate"],
+    "species": []
+  },
+  "Sn": {
+    "names": ["tin", "Sn", "organotin"],
+    "species": []
+  },
+  "U": {
+    "names": ["uranium", "U"],
+    "species": []
+  },
+  "Sb": {
+    "names": ["antimony", "Sb"],
+    "species": []
+  }
+}

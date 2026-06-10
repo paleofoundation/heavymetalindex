@@ -1,0 +1,733 @@
+{
+  "target": "ingredient:maize",
+  "metal": "Al",
+  "status": "ok",
+  "query": "(\"maize\" OR \"Maize\" OR \"grain\") AND (\"aluminium\" OR \"aluminum\" OR \"Al\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+  "terms": [
+    "maize",
+    "Maize",
+    "grain"
+  ],
+  "candidates_count": 37,
+  "dropped": {
+    "dedup": 0,
+    "language": 0,
+    "no-doi": 0,
+    "too-old": 0,
+    "no-allowed-license": 55,
+    "low-impact-old": 0,
+    "off-topic": 8
+  },
+  "candidates": [
+    {
+      "openalex_id": "https://openalex.org/W2018012415",
+      "doi": "10.1104/pp.110.156794",
+      "title": "Development of a Novel Aluminum Tolerance Phenotyping Platform Used for Comparisons of Cereal Aluminum Tolerance and Investigations into Rice Aluminum Tolerance Mechanisms   ",
+      "year": 2010,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 262,
+      "pdf_url": "https://academic.oup.com/plphys/article-pdf/153/4/1678/38107696/plphys_v153_4_1678.pdf",
+      "landing_page_url": "https://doi.org/10.1104/pp.110.156794",
+      "license": "cc-by",
+      "source_display": "PLANT PHYSIOLOGY",
+      "authors": [
+        "Adam Famoso",
+        "Randy T. Clark",
+        "Jon E. Shaff",
+        "Eric Craft",
+        "Susan R. McCouch"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2176149203",
+      "doi": "10.3390/ijerph121214963",
+      "title": "Assessment of the Phytotoxicity of Metal Oxide Nanoparticles on Two Crop Plants, Maize (Zea mays L.) and Rice (Oryza sativa L.)",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 242,
+      "pdf_url": "https://www.mdpi.com/1660-4601/12/12/14963/pdf?version=1448869978",
+      "landing_page_url": "https://doi.org/10.3390/ijerph121214963",
+      "license": "cc-by",
+      "source_display": "International Journal of Environmental Research and Public Health",
+      "authors": [
+        "Zhongzhou Yang",
+        "Jing Chen",
+        "Runzhi Dou",
+        "Xiang Gao",
+        "Chuanbin Mao"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3123910448",
+      "doi": "10.1186/s12302-021-00501-2",
+      "title": "Heavy metal pollutants and their spatial distribution in surface sediments from Thondi coast, Palk Bay, South India",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 184,
+      "pdf_url": "https://enveurope.springeropen.com/track/pdf/10.1186/s12302-021-00501-2",
+      "landing_page_url": "https://doi.org/10.1186/s12302-021-00501-2",
+      "license": "cc-by",
+      "source_display": "Environmental Sciences Europe",
+      "authors": [
+        "Karthikeyan Perumal",
+        "Joseph Thatheyus Antony",
+        "Subagunasekar Muthuramalingam"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2048133691",
+      "doi": "10.3390/ijerph7020395",
+      "title": "Heavy Metals in Soil and Crops of an Intensively Farmed Area: A Case Study in Yucheng City, Shandong Province, China",
+      "year": 2010,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 139,
+      "pdf_url": "https://www.mdpi.com/1660-4601/7/2/395/pdf?version=1403137711",
+      "landing_page_url": "https://doi.org/10.3390/ijerph7020395",
+      "license": "cc-by",
+      "source_display": "International Journal of Environmental Research and Public Health",
+      "authors": [
+        "Lin Jia",
+        "Wuyi Wang",
+        "Yonghua Li",
+        "Linsheng Yang"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2034216009",
+      "doi": "10.1016/j.solmat.2015.03.015",
+      "title": "Grain size dependence of degradation of aluminium/calcium cathodes in organic solar cells following exposure to humid air",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 48,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1016/j.solmat.2015.03.015",
+      "license": "cc-by",
+      "source_display": "Solar Energy Materials and Solar Cells",
+      "authors": [
+        "Thomas Glen",
+        "Nicholas W. Scarratt",
+        "Yi Huang",
+        "Ahmed Iraqi",
+        "Tao Wang"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4226404303",
+      "doi": "10.1016/j.pmatsci.2022.100947",
+      "title": "Making sustainable aluminum by recycling scrap: The science of “dirty” alloys",
+      "year": 2022,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 554,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1016/j.pmatsci.2022.100947",
+      "license": "cc-by",
+      "source_display": "Progress in Materials Science",
+      "authors": [
+        "Dierk Raabe",
+        "Dirk Ponge",
+        "Peter J. Uggowitzer",
+        "Moritz Roscher",
+        "Mario Paolantonio"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2947329761",
+      "doi": "10.1186/s12867-019-0131-1",
+      "title": "Characterization of cadmium-responsive MicroRNAs and their target genes in maize (Zea mays) roots",
+      "year": 2019,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 64,
+      "pdf_url": "https://bmcmolbiol.biomedcentral.com/track/pdf/10.1186/s12867-019-0131-1",
+      "landing_page_url": "https://doi.org/10.1186/s12867-019-0131-1",
+      "license": "cc-by",
+      "source_display": "BMC Molecular Biology",
+      "authors": [
+        "Jian Gao",
+        "Mao Luo",
+        "Hua Peng",
+        "Fabo Chen",
+        "Wenbo Li"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3007658829",
+      "doi": "10.1016/j.scitotenv.2020.137455",
+      "title": "The effect of biochar, lime and ash on maize yield in a long-term field trial in a Ultisol in the humid tropics",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 111,
+      "pdf_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0048969720309657-ga1_lrg.jpg",
+      "landing_page_url": "https://doi.org/10.1016/j.scitotenv.2020.137455",
+      "license": "cc-by",
+      "source_display": "The Science of The Total Environment",
+      "authors": [
+        "Sarah E. Hale",
+        "Neneng Laela Nurida",
+        "Jubaedah",
+        "Jan Mulder",
+        "Erlend Sørmo"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2100160946",
+      "doi": "10.1186/1471-2229-10-196",
+      "title": "Transcriptional profile of maize roots under acid soil growth",
+      "year": 2010,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 70,
+      "pdf_url": "https://bmcplantbiol.biomedcentral.com/counter/pdf/10.1186/1471-2229-10-196",
+      "landing_page_url": "https://doi.org/10.1186/1471-2229-10-196",
+      "license": "cc-by",
+      "source_display": "BMC Plant Biology",
+      "authors": [
+        "Lucia Mattiello",
+        "Matias Kirst",
+        "Felipe Rodrigues da Silva",
+        "Renato Atílio Jorge",
+        "Marcelo Menossi"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3185967784",
+      "doi": "10.1016/j.jmrt.2021.07.116",
+      "title": "Influences of strain rate, Al concentration and grain heterogeneity on mechanical behavior of CoNiFeAlxCu1-x high-entropy alloys: a molecular dynamics simulation",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 42,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/9ae3e8d0a4484cc4a208ec8f48274f7a",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Luling Wang",
+        "Weitao Liu",
+        "Binyin Zhu",
+        "Wei Chen",
+        "Feng Zhang"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2609066508",
+      "doi": "10.1371/journal.pone.0176357",
+      "title": "Morpho-physiological analysis of tolerance to aluminum toxicity in rice varieties of North East India",
+      "year": 2017,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 122,
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0176357&type=printable",
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0176357",
+      "license": "cc-by",
+      "source_display": "PLoS ONE",
+      "authors": [
+        "Jay Prakash Awasthi",
+        "Bedabrata Saha",
+        "Preetom Regon",
+        "Smita Sahoo",
+        "Umakanta Chowra"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2285430752",
+      "doi": "10.1590/1678-4499.142",
+      "title": "Effects of aluminum on the elongation and external morphology of root tips in two maize genotypes",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 40,
+      "pdf_url": "https://www.scielo.br/j/brag/a/5wNBHLkJbBgfJjvgyKQLXph/?lang=en&format=pdf",
+      "landing_page_url": "https://doi.org/10.1590/1678-4499.142",
+      "license": "cc-by",
+      "source_display": "Bragantia",
+      "authors": [
+        "Leandro Torres de Souza",
+        "José Cambraia",
+        "Cléberson Ribeiro",
+        "Juraci Alves de Oliveira",
+        "Luzimar Campos da Silva"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2890657717",
+      "doi": "10.1016/j.tplants.2018.08.012",
+      "title": "Perspective on Wheat Yield and Quality with Reduced Nitrogen Supply",
+      "year": 2018,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 309,
+      "pdf_url": "http://www.cell.com/article/S1360138518301924/pdf",
+      "landing_page_url": "https://doi.org/10.1016/j.tplants.2018.08.012",
+      "license": "cc-by",
+      "source_display": "Trends in Plant Science",
+      "authors": [
+        "Christian Zörb",
+        "Uwe Ludewig",
+        "Malcolm J. Hawkesford"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2950193109",
+      "doi": "10.1007/s10853-019-03736-w",
+      "title": "Inter-particle bonding in cold spray deposition of a gas-atomised and a solution heat-treated Al 6061 powder",
+      "year": 2019,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 77,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10853-019-03736-w.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s10853-019-03736-w",
+      "license": "cc-by",
+      "source_display": "Journal of Materials Science",
+      "authors": [
+        "Alexandre Sabard",
+        "Tanvir Hussain"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2186031083",
+      "doi": "10.1038/am.2015.129",
+      "title": "Hybrid nanostructured aluminum alloy with super-high strength",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 102,
+      "pdf_url": "https://www.nature.com/articles/am2015129.pdf",
+      "landing_page_url": "https://doi.org/10.1038/am.2015.129",
+      "license": "cc-by",
+      "source_display": "NPG Asia Materials",
+      "authors": [
+        "Zhi Wang",
+        "Rui Qu",
+        "S. Scudino",
+        "Bao An Sun",
+        "Konda Gokuldoss Prashanth"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2081617676",
+      "doi": "10.1074/jbc.m009574200",
+      "title": "The Cytosolic O-Acetylserine(thiol)lyase Gene Is Regulated by Heavy Metals and Can Function in Cadmium Tolerance",
+      "year": 2001,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 193,
+      "pdf_url": "http://www.jbc.org/article/S0021925819462339/pdf",
+      "landing_page_url": "https://doi.org/10.1074/jbc.m009574200",
+      "license": "cc-by",
+      "source_display": "Journal of Biological Chemistry",
+      "authors": [
+        "José R. Domı́nguez-Solı́s",
+        "Gloria Gutiérrez-Alcalá",
+        "Luís C. Romero",
+        "Cecilia Gotor"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2034006667",
+      "doi": "10.1590/s0103-90162005000300010",
+      "title": "Efficiency of maize cultivars for zinc uptake and use",
+      "year": 2005,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 41,
+      "pdf_url": "https://www.scielo.br/j/sa/a/JmGCmjM4fWLT7Wz4jvbC36B/?lang=en&format=pdf",
+      "landing_page_url": "https://doi.org/10.1590/s0103-90162005000300010",
+      "license": "cc-by",
+      "source_display": "Scientia Agricola",
+      "authors": [
+        "A. M. C. Furlani",
+        "Pedro Roberto Furlani",
+        "Anderson Rotter Meda",
+        "Aildson Pereira Duarte"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1530894340",
+      "doi": "10.3390/agronomy5020200",
+      "title": "Genotypic Variation in Seedling Tolerance to Aluminum Toxicity in Historical Maize Inbred Lines of Zambia",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 22,
+      "pdf_url": "https://www.mdpi.com/2073-4395/5/2/200/pdf?version=1434110076",
+      "landing_page_url": "https://doi.org/10.3390/agronomy5020200",
+      "license": "cc-by",
+      "source_display": "Agronomy",
+      "authors": [
+        "Chanda Richard",
+        "Kalaluka Munyinda",
+        "T. Kinkese",
+        "D.S.O. Osiru"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3119763181",
+      "doi": "10.1016/j.jmrt.2021.01.030",
+      "title": "Realization of structural evolution in grain boundary, solute redistribution and improved mechanical properties by adding TiCnps in wire and arc additive manufacturing 2219 aluminium alloy",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 57,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/797ba58e282447c1ae440a7198c3c56a",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Peng Jin",
+        "Yibo Liu",
+        "Fuxiang Li",
+        "Junzhao Li",
+        "Qingjie Sun"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2159301508",
+      "doi": "10.1590/s0103-90162007000100008",
+      "title": "Pb-phytoextraction by maize in a Pb-EDTA treated Oxisol",
+      "year": 2007,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 37,
+      "pdf_url": "https://www.scielo.br/j/sa/a/pVbZSzKJrpgcQ58YgVNvCpN/?lang=en&format=pdf",
+      "landing_page_url": "https://doi.org/10.1590/s0103-90162007000100008",
+      "license": "cc-by",
+      "source_display": "Scientia Agricola",
+      "authors": [
+        "Bruno Fernando Faria Pereira",
+        "Cleide Aparecida de Abreu",
+        "Solange Romeiro",
+        "Ana Maria Magalhães Andrade Lagôa",
+        "Antônio Paz González"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2135072891",
+      "doi": "10.1155/2013/131537",
+      "title": "Thermoelectric Properties of Al‐Doped Mesoporous ZnO Thin Films",
+      "year": 2013,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 85,
+      "pdf_url": "https://downloads.hindawi.com/journals/jnm/2013/131537.pdf",
+      "landing_page_url": "https://doi.org/10.1155/2013/131537",
+      "license": "cc-by",
+      "source_display": "Journal of Nanomaterials",
+      "authors": [
+        "Min Hee Hong",
+        "Chang-Sun Park",
+        "Won‐Seon Seo",
+        "Young Soo Lim",
+        "Jung‐Kun Lee"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2885698369",
+      "doi": "10.1016/s2095-3119(17)61832-x",
+      "title": "Transcriptomic responses to aluminum (Al) stress in maize",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 35,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/5e090376bc7b4a31a4b29393bf96c81f",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Liming Xu",
+        "Chan Liu",
+        "Baoming Cui",
+        "Ning Wang",
+        "Zhuo Zhao"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2170660844",
+      "doi": "10.1088/1748-9326/9/4/041001",
+      "title": "Future crop production threatened by extreme heat",
+      "year": 2014,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 83,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1088/1748-9326/9/4/041001",
+      "license": "cc-by",
+      "source_display": "Environmental Research Letters",
+      "authors": [
+        "Stefan Siebert",
+        "Frank Ewert"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2591795584",
+      "doi": "10.1016/j.rinp.2017.02.038",
+      "title": "Structural and magnetic properties of yttrium iron garnet (YIG) and yttrium aluminum iron garnet (YAlG) nanoferrite via sol-gel synthesis",
+      "year": 2017,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 119,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/174a22e674ea42b9aec177d0cfbd3be3",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Makiyyu Abdullahi Musa",
+        "Raba’ah Syahidah Azis",
+        "Nurul Huda Osman",
+        "Jumiah Hassan",
+        "Tasiu Zangina"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1500816261",
+      "doi": "10.1186/2228-5326-2-1",
+      "title": "Retracted: Study of the wettability of ZnO nanofilms",
+      "year": 2012,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 104,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1186/2228-5326-2-1.pdf",
+      "landing_page_url": "https://doi.org/10.1186/2228-5326-2-1",
+      "license": "cc-by",
+      "source_display": "International nano letters.",
+      "authors": [
+        "Deepak Prasad Subedi",
+        "Dinesh Kumar Madhup",
+        "Ashish Sharma",
+        "Ujjwal Man Joshi",
+        "A. Huczko"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2814811103",
+      "doi": "10.1016/j.jmrt.2018.04.019",
+      "title": "Development of aluminium-based composites reinforced with steel and graphite particles: structural, mechanical and wear characterization",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 118,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/0f68fa6207e248a49df35564c8fe93cb",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Kenneth Kanayo Alaneme",
+        "Adetomilola Victoria Fajemisin",
+        "Nthabiseng Maledi"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4293393302",
+      "doi": "10.1016/j.jmrt.2022.08.093",
+      "title": "Enhancing the microstructure and mechanical properties of Si3N4–BN strengthened Al–Zn–Mg alloy hybrid nano composites using vacuum assisted stir casting method",
+      "year": 2022,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 79,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/06cc1339dc7142e0835af77a4976bb8b",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "L. Tharanikumar",
+        "B. Mohan",
+        "G. Anbuchezhiyan"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2128697477",
+      "doi": "10.5194/tc-7-515-2013",
+      "title": "Variations in snow and firn chemistry along US ITASE traverses and the effect of surface glazing",
+      "year": 2013,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 49,
+      "pdf_url": "https://tc.copernicus.org/articles/7/515/2013/tc-7-515-2013.pdf",
+      "landing_page_url": "https://doi.org/10.5194/tc-7-515-2013",
+      "license": "cc-by",
+      "source_display": "The cryosphere",
+      "authors": [
+        "Daniel A. Dixon",
+        "Paul A. Mayewski",
+        "Elena Korotkikh",
+        "Sharon B. Sneed",
+        "Michael Handley"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2789497664",
+      "doi": "10.1016/j.corsci.2018.01.009",
+      "title": "A closer inspection of a grain boundary immune to intergranular corrosion in a sensitised Al-Mg alloy",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 112,
+      "pdf_url": null,
+      "landing_page_url": "https://figshare.com/articles/journal_contribution/A_closer_inspection_of_a_grain_boundary_immune_to_intergranular_corrosion_in_a_sensitised_Al-Mg_alloy/24041544",
+      "license": "cc-by",
+      "source_display": "Figshare",
+      "authors": [
+        "Ruifeng Zhang",
+        "Yao Qiu",
+        "Yuanshen Qi",
+        "N. Birbilis"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2795784501",
+      "doi": "10.1016/j.gr.2018.02.021",
+      "title": "A window into the lower crust: Trace element systematics and the occurrence of inclusions/intergrowths in granulite-facies rutile",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 26,
+      "pdf_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1342937X18300856-fx1_lrg.jpg",
+      "landing_page_url": "https://doi.org/10.1016/j.gr.2018.02.021",
+      "license": "cc-by",
+      "source_display": "Gondwana Research",
+      "authors": [
+        "Emma Hart",
+        "Craig Storey",
+        "Simon L. Harley",
+        "Mike Fowler"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2407675821",
+      "doi": "10.34101/actaagrar/15/3355",
+      "title": "Effect of Copper, Zinc and Lead and Their Combinations on the Germination Capacity of Two Cereals",
+      "year": 2004,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 34,
+      "pdf_url": "https://ojs.lib.unideb.hu/actaagrar/article/download/3355/3320",
+      "landing_page_url": "https://doi.org/10.34101/actaagrar/15/3355",
+      "license": "cc-by",
+      "source_display": "Acta Agraria Debreceniensis",
+      "authors": [
+        "Ioana Mihaela Tomulescu",
+        "Edith Mihaela Radoviciu",
+        "Vasilica Viorica Merca",
+        "Adela Dana Tuduce"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1946546309",
+      "doi": "10.1007/s13204-015-0493-8",
+      "title": "Characterization and study of antibacterial activity of spray pyrolysed ZnO:Al thin films",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 77,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s13204-015-0493-8.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s13204-015-0493-8",
+      "license": "cc-by",
+      "source_display": "Applied Nanoscience",
+      "authors": [
+        "C. Manoharan",
+        "G. P. Pavithra",
+        "M. Bououdina",
+        "S. Dhanapandian",
+        "P. Dhamodharan"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1983157183",
+      "doi": "10.1371/journal.pone.0077869",
+      "title": "Difference in Yield and Physiological Features in Response to Drought and Salinity Combined Stress during Anthesis in Tibetan Wild and Cultivated Barleys",
+      "year": 2013,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 145,
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0077869&type=printable",
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0077869",
+      "license": "cc-by",
+      "source_display": "PLoS ONE",
+      "authors": [
+        "Imrul Mosaddek Ahmed",
+        "Fangbin Cao",
+        "Mian Zhang",
+        "Xianhong Chen",
+        "Guoping Zhang"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2804763928",
+      "doi": "10.1080/23311916.2018.1473002",
+      "title": "Analysis of <i>SiC</i> grain size variation and NaCl concentration on the corrosion susceptibility of AA1070 aluminium matrix composites",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 9,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1080/23311916.2018.1473002",
+      "license": "cc-by",
+      "source_display": "Cogent Engineering",
+      "authors": [
+        "Roland Tolulope Loto",
+        "P.O. Babalola"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2887481558",
+      "doi": "10.1007/s00217-018-3117-1",
+      "title": "Grains, whole flour, white flour, and some final goods: an elemental comparison",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 55,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00217-018-3117-1.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s00217-018-3117-1",
+      "license": "cc-by",
+      "source_display": "European Food Research and Technology",
+      "authors": [
+        "Kathrin Ertl",
+        "Walter Goessler"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2898933293",
+      "doi": "10.1016/j.msea.2018.10.116",
+      "title": "Microstructure and mechanical properties of friction stir welded AA6092/SiC metal matrix composite",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 116,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1016/j.msea.2018.10.116",
+      "license": "cc-by",
+      "source_display": "Materials Science and Engineering A",
+      "authors": [
+        "Omar S. Salih",
+        "Hengan Ou",
+        "Xingguo Wei",
+        "Wei Sun"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2894394927",
+      "doi": "10.1371/journal.pone.0204401",
+      "title": "Effects of clinoptilolite zeolite on phosphorus dynamics and yield of Zea Mays L. cultivated on an acid soil",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 73,
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0204401&type=printable",
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0204401",
+      "license": "cc-by",
+      "source_display": "PLoS ONE",
+      "authors": [
+        "Nur Aainaa Hasbullah",
+        "Osumanu Haruna Ahmed",
+        "Nik Muhamad Ab. Majid"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "target": "ingredient:infant-formula-powder",
+  "metal": "Al",
+  "status": "ok",
+  "query": "(\"infant formula powder\" OR \"Infant Formula Powder\" OR \"taxonomy placeholder\") AND (\"aluminium\" OR \"aluminum\" OR \"Al\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+  "terms": [
+    "infant formula powder",
+    "Infant Formula Powder",
+    "taxonomy placeholder"
+  ],
+  "candidates_count": 0,
+  "dropped": {
+    "dedup": 0,
+    "language": 0,
+    "no-doi": 0,
+    "too-old": 0,
+    "no-allowed-license": 37,
+    "low-impact-old": 0,
+    "off-topic": 63
+  },
+  "candidates": []
+}

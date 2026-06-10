@@ -1,0 +1,237 @@
+{
+  "run_date": "2026-05-17",
+  "targets_processed": 11,
+  "total_candidates": 258,
+  "results": [
+    {
+      "target": "ingredient:rice",
+      "metal": "iAs",
+      "status": "ok",
+      "query": "(\"rice\" OR \"Rice\" OR \"grain\" OR \"rice flour\" OR \"rice syrup\" OR \"brown rice syrup\") AND (\"inorganic arsenic\" OR \"iAs\" OR \"arsenite\" OR \"arsenate\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+      "terms": [
+        "rice",
+        "Rice",
+        "grain",
+        "rice flour",
+        "rice syrup",
+        "brown rice syrup",
+        "rice protein",
+        "rice starch",
+        "white rice",
+        "brown rice",
+        "polished rice",
+        "husked rice"
+      ],
+      "candidates_count": 39,
+      "dropped": {
+        "dedup": 1,
+        "language": 0,
+        "no-doi": 0,
+        "too-old": 0,
+        "no-allowed-license": 58,
+        "low-impact-old": 0,
+        "off-topic": 2
+      }
+    },
+    {
+      "target": "ingredient:maize",
+      "metal": "Al",
+      "status": "ok",
+      "query": "(\"maize\" OR \"Maize\" OR \"grain\") AND (\"aluminium\" OR \"aluminum\" OR \"Al\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+      "terms": [
+        "maize",
+        "Maize",
+        "grain"
+      ],
+      "candidates_count": 37,
+      "dropped": {
+        "dedup": 0,
+        "language": 0,
+        "no-doi": 0,
+        "too-old": 0,
+        "no-allowed-license": 55,
+        "low-impact-old": 0,
+        "off-topic": 8
+      }
+    },
+    {
+      "target": "ingredient:cassava",
+      "metal": "tAs",
+      "status": "query-error",
+      "error": "OpenAlex HTTP 503: <!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta charset=\"utf-8\">\n    <title>Application Error</title>\n    <style media=\"screen\">\n      html,body,iframe {\n        margin: 0;\n        padding: 0;\n      }\n\n      html,body {\n        height: 100%;\n        overflow: hidden;\n      }\n\n      iframe {\n        width: 100%;\n        height: 100%;\n        border: 0;\n      }\n    </style>\n  </head>\n  <body>\n    <iframe src=\"https://www.herokucdn.com/error-pages/application-error.html\"></iframe>\n  </body>\n</html>"
+    },
+    {
+      "target": "ingredient:seaweed",
+      "metal": "iAs",
+      "status": "ok",
+      "query": "(\"seaweed\" OR \"Seaweed\" OR \"sea vegetable\" OR \"sea vegetables\" OR \"edible algae\" OR \"macroalgae\") AND (\"inorganic arsenic\" OR \"iAs\" OR \"arsenite\" OR \"arsenate\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+      "terms": [
+        "seaweed",
+        "Seaweed",
+        "sea vegetable",
+        "sea vegetables",
+        "edible algae",
+        "macroalgae",
+        "kelp",
+        "algae"
+      ],
+      "candidates_count": 18,
+      "dropped": {
+        "dedup": 1,
+        "language": 0,
+        "no-doi": 0,
+        "too-old": 0,
+        "no-allowed-license": 45,
+        "low-impact-old": 0,
+        "off-topic": 36
+      }
+    },
+    {
+      "target": "ingredient:fish",
+      "metal": "MeHg",
+      "status": "ok",
+      "query": "(\"fish\" OR \"Fish\" OR \"aquatic animal\" OR \"seafood\" OR \"finfish\" OR \"tuna\") AND (\"methylmercury\" OR \"methyl mercury\" OR \"MeHg\" OR \"CH3Hg\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+      "terms": [
+        "fish",
+        "Fish",
+        "aquatic animal",
+        "seafood",
+        "finfish",
+        "tuna",
+        "salmon",
+        "swordfish",
+        "mackerel",
+        "cod",
+        "tilapia",
+        "trout",
+        "sardines",
+        "herring",
+        "anchovies",
+        "fish oil",
+        "anchovy",
+        "cod liver oil",
+        "shark liver oil"
+      ],
+      "candidates_count": 60,
+      "dropped": {
+        "dedup": 0,
+        "language": 0,
+        "no-doi": 0,
+        "too-old": 0,
+        "no-allowed-license": 36,
+        "low-impact-old": 0,
+        "off-topic": 4
+      }
+    },
+    {
+      "target": "ingredient:fish",
+      "metal": "tHg",
+      "status": "query-error",
+      "error": "OpenAlex HTTP 503: <!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta charset=\"utf-8\">\n    <title>Application Error</title>\n    <style media=\"screen\">\n      html,body,iframe {\n        margin: 0;\n        padding: 0;\n      }\n\n      html,body {\n        height: 100%;\n        overflow: hidden;\n      }\n\n      iframe {\n        width: 100%;\n        height: 100%;\n        border: 0;\n      }\n    </style>\n  </head>\n  <body>\n    <iframe src=\"https://www.herokucdn.com/error-pages/application-error.html\"></iframe>\n  </body>\n</html>"
+    },
+    {
+      "target": "ingredient:shark",
+      "metal": "MeHg",
+      "status": "ok",
+      "query": "(\"shark\" OR \"Shark\" OR \"fish seafood\") AND (\"methylmercury\" OR \"methyl mercury\" OR \"MeHg\" OR \"CH3Hg\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+      "terms": [
+        "shark",
+        "Shark",
+        "fish seafood"
+      ],
+      "candidates_count": 7,
+      "dropped": {
+        "dedup": 0,
+        "language": 0,
+        "no-doi": 0,
+        "too-old": 0,
+        "no-allowed-license": 44,
+        "low-impact-old": 0,
+        "off-topic": 49
+      }
+    },
+    {
+      "target": "ingredient:shellfish",
+      "metal": "iAs",
+      "status": "query-error",
+      "error": "OpenAlex HTTP 503: <!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <meta charset=\"utf-8\">\n    <title>Application Error</title>\n    <style media=\"screen\">\n      html,body,iframe {\n        margin: 0;\n        padding: 0;\n      }\n\n      html,body {\n        height: 100%;\n        overflow: hidden;\n      }\n\n      iframe {\n        width: 100%;\n        height: 100%;\n        border: 0;\n      }\n    </style>\n  </head>\n  <body>\n    <iframe src=\"https://www.herokucdn.com/error-pages/application-error.html\"></iframe>\n  </body>\n</html>"
+    },
+    {
+      "target": "ingredient:infant-formula-powder",
+      "metal": "Al",
+      "status": "ok",
+      "query": "(\"infant formula powder\" OR \"Infant Formula Powder\" OR \"taxonomy placeholder\") AND (\"aluminium\" OR \"aluminum\" OR \"Al\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+      "terms": [
+        "infant formula powder",
+        "Infant Formula Powder",
+        "taxonomy placeholder"
+      ],
+      "candidates_count": 0,
+      "dropped": {
+        "dedup": 0,
+        "language": 0,
+        "no-doi": 0,
+        "too-old": 0,
+        "no-allowed-license": 37,
+        "low-impact-old": 0,
+        "off-topic": 63
+      }
+    },
+    {
+      "target": "ingredient:cassava",
+      "metal": "Cd",
+      "status": "ok",
+      "query": "(\"cassava\" OR \"Cassava\" OR \"root vegetable\" OR \"manioc\" OR \"manihot esculenta\" OR \"yuca\") AND (\"cadmium\" OR \"Cd\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+      "terms": [
+        "cassava",
+        "Cassava",
+        "root vegetable",
+        "manioc",
+        "manihot esculenta",
+        "yuca",
+        "tapioca",
+        "gari",
+        "fufu",
+        "cassava flour"
+      ],
+      "candidates_count": 45,
+      "dropped": {
+        "dedup": 3,
+        "language": 1,
+        "no-doi": 0,
+        "too-old": 0,
+        "no-allowed-license": 43,
+        "low-impact-old": 0,
+        "off-topic": 8
+      }
+    },
+    {
+      "target": "ingredient:cassava",
+      "metal": "Pb",
+      "status": "ok",
+      "query": "(\"cassava\" OR \"Cassava\" OR \"root vegetable\" OR \"manioc\" OR \"manihot esculenta\" OR \"yuca\") AND (\"lead\" OR \"Pb\" OR \"plumbum\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+      "terms": [
+        "cassava",
+        "Cassava",
+        "root vegetable",
+        "manioc",
+        "manihot esculenta",
+        "yuca",
+        "tapioca",
+        "gari",
+        "fufu",
+        "cassava flour"
+      ],
+      "candidates_count": 52,
+      "dropped": {
+        "dedup": 3,
+        "language": 1,
+        "no-doi": 0,
+        "too-old": 0,
+        "no-allowed-license": 42,
+        "low-impact-old": 0,
+        "off-topic": 2
+      }
+    }
+  ]
+}

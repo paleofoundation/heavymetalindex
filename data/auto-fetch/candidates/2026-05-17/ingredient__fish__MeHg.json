@@ -1,0 +1,1189 @@
+{
+  "target": "ingredient:fish",
+  "metal": "MeHg",
+  "status": "ok",
+  "query": "(\"fish\" OR \"Fish\" OR \"aquatic animal\" OR \"seafood\" OR \"finfish\" OR \"tuna\") AND (\"methylmercury\" OR \"methyl mercury\" OR \"MeHg\" OR \"CH3Hg\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+  "terms": [
+    "fish",
+    "Fish",
+    "aquatic animal",
+    "seafood",
+    "finfish",
+    "tuna",
+    "salmon",
+    "swordfish",
+    "mackerel",
+    "cod",
+    "tilapia",
+    "trout",
+    "sardines",
+    "herring",
+    "anchovies",
+    "fish oil",
+    "anchovy",
+    "cod liver oil",
+    "shark liver oil"
+  ],
+  "candidates_count": 60,
+  "dropped": {
+    "dedup": 0,
+    "language": 0,
+    "no-doi": 0,
+    "too-old": 0,
+    "no-allowed-license": 36,
+    "low-impact-old": 0,
+    "off-topic": 4
+  },
+  "candidates": [
+    {
+      "openalex_id": "https://openalex.org/W2099440341",
+      "doi": "10.1289/ehp.1001915",
+      "title": "In Inland China, Rice, Rather than Fish, Is the Major Pathway for Methylmercury Exposure",
+      "year": 2010,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 509,
+      "pdf_url": "https://ehp.niehs.nih.gov/doi/epdf/10.1289/ehp.1001915",
+      "landing_page_url": "https://doi.org/10.1289/ehp.1001915",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Hua Zhang",
+        "Xinbin Feng",
+        "Thorjørn Larssen",
+        "Guangle Qiu",
+        "Rolf D. Vogt"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2007951248",
+      "doi": "10.1067/mpd.2000.102774",
+      "title": "Maternal seafood diet, methylmercury exposure, and neonatal neurologic function",
+      "year": 2000,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 380,
+      "pdf_url": null,
+      "landing_page_url": "http://nrs.harvard.edu/urn-3:HUL.InstRepos:34787288",
+      "license": "cc-by",
+      "source_display": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+      "authors": [
+        "Ulrike Steuerwald",
+        "Pál Weihe",
+        "Poul J. Jørgensen",
+        "Kristian S. Bjerve",
+        "John W. Brock"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2129652339",
+      "doi": "10.3961/jpmph.2014.47.2.74",
+      "title": "Environmental Mercury and Its Toxic Effects",
+      "year": 2014,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 1110,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/27817987c6da4d468f69a565bb73be73",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Kevin M. Rice",
+        "Ernest M. Walker",
+        "Miaozong Wu",
+        "Chris Gillette",
+        "Eric R. Blough"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2123403933",
+      "doi": "10.2471/blt.12.116152",
+      "title": "Global methylmercury exposure from seafood consumption and risk of developmental neurotoxicity: a systematic review",
+      "year": 2014,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 275,
+      "pdf_url": "https://doi.org/10.2471/blt.12.116152",
+      "landing_page_url": "https://doi.org/10.2471/blt.12.116152",
+      "license": "cc-by",
+      "source_display": "Bulletin of the World Health Organization",
+      "authors": [
+        "Mary C. Sheehan",
+        "Thomas A. Burke",
+        "Ana Navas‐Acién",
+        "Patrick N. Breysse",
+        "John McGready"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1972966614",
+      "doi": "10.3390/ijerph7062666",
+      "title": "Methylmercury Exposure and Health Effects from Rice and Fish Consumption: A Review",
+      "year": 2010,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 207,
+      "pdf_url": "https://www.mdpi.com/1660-4601/7/6/2666/pdf?version=1403138319",
+      "landing_page_url": "https://doi.org/10.3390/ijerph7062666",
+      "license": "cc-by",
+      "source_display": "International Journal of Environmental Research and Public Health",
+      "authors": [
+        "Ping Li",
+        "Xinbin Feng",
+        "Guangle Qiu"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2110086012",
+      "doi": "10.1111/j.1753-4887.2011.00415.x",
+      "title": "Balancing the benefits of n-3 polyunsaturated fatty acids and the risks of methylmercury exposure from fish consumption",
+      "year": 2011,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 249,
+      "pdf_url": null,
+      "landing_page_url": "http://nrs.harvard.edu/urn-3:HUL.InstRepos:34767900",
+      "license": "cc-by",
+      "source_display": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+      "authors": [
+        "Kathryn R. Mahaffey",
+        "Elsie M. Sunderland",
+        "Hing Man Chan",
+        "Anna L. Choi",
+        "Philippe Grandjean"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2106724200",
+      "doi": "10.1289/ehp.1104494",
+      "title": "Evidence on the Human Health Effects of Low-Level Methylmercury Exposure",
+      "year": 2012,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 644,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.1104494",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Margaret R. Karagas",
+        "Anna L. Choi",
+        "Emily Oken",
+        "Milena Horvat",
+        "Rita Schoeny"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2791475547",
+      "doi": "10.1289/ehp2644",
+      "title": "Decadal Changes in the Edible Supply of Seafood and Methylmercury Exposure in the United States",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 117,
+      "pdf_url": "https://ehp.niehs.nih.gov/doi/pdf/10.1289/EHP2644",
+      "landing_page_url": "https://doi.org/10.1289/ehp2644",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Elsie M. Sunderland",
+        "Miling Li",
+        "Kurt Bullard"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2109920192",
+      "doi": "10.1021/es305071v",
+      "title": "Mercury as a Global Pollutant: Sources, Pathways, and Effects",
+      "year": 2013,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 2433,
+      "pdf_url": null,
+      "landing_page_url": "http://nrs.harvard.edu/urn-3:HUL.InstRepos:33490983",
+      "license": "cc-by",
+      "source_display": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+      "authors": [
+        "Charles T. Driscoll",
+        "Robert P. Mason",
+        "Hing Man Chan",
+        "Daniel J. Jacob",
+        "Nicola Pirrone"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2022086221",
+      "doi": "10.1289/ehp.6587",
+      "title": "Blood organic mercury and dietary mercury intake: National Health and Nutrition Examination Survey, 1999 and 2000.",
+      "year": 2003,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 489,
+      "pdf_url": "https://ehp.niehs.nih.gov/doi/epdf/10.1289/ehp.6587",
+      "landing_page_url": "https://doi.org/10.1289/ehp.6587",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Kathryn R. Mahaffey",
+        "Robert P. Clickner",
+        "Catherine C Bodurow"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2052598520",
+      "doi": "10.1289/ehp.02110s111",
+      "title": "The three modern faces of mercury.",
+      "year": 2002,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 1017,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.02110s111",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Thomas W. Clarkson"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1996425341",
+      "doi": "10.1289/ehp.9377",
+      "title": "Mercury Exposure from Domestic and Imported Estuarine and Marine Fish in the U.S. Seafood Market",
+      "year": 2006,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 330,
+      "pdf_url": "https://ehp.niehs.nih.gov/doi/epdf/10.1289/ehp.9377",
+      "landing_page_url": "https://doi.org/10.1289/ehp.9377",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Elsie M. Sunderland"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2406621998",
+      "doi": "10.1371/journal.pone.0155704",
+      "title": "Methylmercury Concentration in Fish and Risk-Benefit Assessment of Fish Intake among Pregnant versus Infertile Women in Taiwan",
+      "year": 2016,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 47,
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0155704&type=printable",
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0155704",
+      "license": "cc-by",
+      "source_display": "PLoS ONE",
+      "authors": [
+        "Hsing‐Cheng Hsi",
+        "You-Wen Hsu",
+        "Tien-Chin Chang",
+        "Ling‐Chu Chien"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1952477000",
+      "doi": "10.1007/s12011-015-0516-z",
+      "title": "Selenium Health Benefit Values: Updated Criteria for Mercury Risk Assessments",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 177,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs12011-015-0516-z.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s12011-015-0516-z",
+      "license": "cc-by",
+      "source_display": "Biological Trace Element Research",
+      "authors": [
+        "Nicholas V.C. Ralston",
+        "Carla R. Ralston",
+        "Laura J. Raymond"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1785518762",
+      "doi": "10.1186/1476-069x-4-20",
+      "title": "Inter-individual variations of human mercury exposure biomarkers: a cross-sectional assessment",
+      "year": 2005,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 315,
+      "pdf_url": "https://ehjournal.biomedcentral.com/track/pdf/10.1186/1476-069X-4-20",
+      "landing_page_url": "https://doi.org/10.1186/1476-069x-4-20",
+      "license": "cc-by",
+      "source_display": "Environmental Health",
+      "authors": [
+        "Marika Berglund",
+        "Birger Lind",
+        "Karolin Ask Björnberg",
+        "Brita Palm",
+        "Östen Einarsson"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2168194798",
+      "doi": "10.1186/1476-069x-6-30",
+      "title": "Mercury in human brain, blood, muscle and toenails in relation to exposure: an autopsy study",
+      "year": 2007,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 199,
+      "pdf_url": "https://ehjournal.biomedcentral.com/counter/pdf/10.1186/1476-069X-6-30",
+      "landing_page_url": "https://doi.org/10.1186/1476-069x-6-30",
+      "license": "cc-by",
+      "source_display": "Environmental Health",
+      "authors": [
+        "Lars Björkman",
+        "Birgitte Fos Lundekvam",
+        "Torgils Lægreid",
+        "Bjørn I. Bertelsen",
+        "Inge Morild"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2586225365",
+      "doi": "10.3390/ijerph14020169",
+      "title": "A Review of Mercury Bioavailability in Humans and Fish",
+      "year": 2017,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 238,
+      "pdf_url": "https://www.mdpi.com/1660-4601/14/2/169/pdf?version=1486950179",
+      "landing_page_url": "https://doi.org/10.3390/ijerph14020169",
+      "license": "cc-by",
+      "source_display": "International Journal of Environmental Research and Public Health",
+      "authors": [
+        "Mark Bradley",
+        "Benjamin D. Barst",
+        "Niladri Basu"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4205603913",
+      "doi": "10.3390/ijerph19020788",
+      "title": "Determination of Mercury, Methylmercury and Selenium Concentrations in Elasmobranch Meat: Fish Consumption Safety",
+      "year": 2022,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 41,
+      "pdf_url": "https://www.mdpi.com/1660-4601/19/2/788/pdf?version=1641980598",
+      "landing_page_url": "https://doi.org/10.3390/ijerph19020788",
+      "license": "cc-by",
+      "source_display": "International Journal of Environmental Research and Public Health",
+      "authors": [
+        "A. Storelli",
+        "Grazia Barone",
+        "Rita Garofalo",
+        "Antonio Busco",
+        "M.M. Storelli"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2000649411",
+      "doi": "10.1289/ehp.111-1241457",
+      "title": "Methyl mercury and inorganic mercury in Swedish pregnant women and in cord blood: influence of fish consumption.",
+      "year": 2003,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 193,
+      "pdf_url": "https://ehp.niehs.nih.gov/doi/pdf/10.1289/ehp.111-1241457",
+      "landing_page_url": "https://doi.org/10.1289/ehp.111-1241457",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Karolin Ask Björnberg",
+        "Marie Vahter",
+        "Kierstin Petersson-Grawé",
+        "Anders Glynn",
+        "Sven Cnattingius"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2087080835",
+      "doi": "10.1289/ehp.1003012",
+      "title": "Evaluation of the Cardiovascular Effects of Methylmercury Exposures: Current Evidence Supports Development of a Dose–Response Function for Regulatory Benefits Analysis",
+      "year": 2011,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 256,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.1003012",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Henry Roman",
+        "Tyra L. Walsh",
+        "Brent A. Coull",
+        "Éric Dewailly",
+        "Eliseo Güallar"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1978500097",
+      "doi": "10.2754/avb200574030427",
+      "title": "Total Mercury and Methylmercury Contamination of Fish from the Skalka Reservoir: A Case Study",
+      "year": 2005,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 44,
+      "pdf_url": "https://actavet.vfu.cz/media/pdf/avb_2005074030427.pdf",
+      "landing_page_url": "https://doi.org/10.2754/avb200574030427",
+      "license": "cc-by",
+      "source_display": "Acta Veterinaria Brno",
+      "authors": [
+        "Petr Maršálek",
+        "Zdeňka Svobodová",
+        "Tomáš Randák",
+        "Jaroslav Švehla"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2045883346",
+      "doi": "10.1289/ehp.11608",
+      "title": "Methylmercury Exposure and Adverse Cardiovascular Effects in Faroese Whaling Men",
+      "year": 2008,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 234,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.11608",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Anna L. Choi",
+        "Pál Weihe",
+        "Esben Budtz–Jørgensen",
+        "Poul J. Jørgensen",
+        "Jukka T. Salonen"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2065302287",
+      "doi": "10.1289/ehp.9738",
+      "title": "Separation of Risks and Benefits of Seafood Intake",
+      "year": 2006,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 223,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.9738",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Esben Budtz–Jørgensen",
+        "Philippe Grandjean",
+        "Pál Weihe"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2113322012",
+      "doi": "10.1371/journal.pone.0058401",
+      "title": "Experimental and Natural Warming Elevates Mercury Concentrations in Estuarine Fish",
+      "year": 2013,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 128,
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0058401&type=printable",
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0058401",
+      "license": "cc-by",
+      "source_display": "PLoS ONE",
+      "authors": [
+        "Jennifer A. Dijkstra",
+        "Kate L. Buckman",
+        "Darren M. Ward",
+        "David W. Evans",
+        "Michele Dionne"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1975767768",
+      "doi": "10.1289/ehp.7743",
+      "title": "Public Health and Economic Consequences of Methyl Mercury Toxicity to the Developing Brain",
+      "year": 2005,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 472,
+      "pdf_url": "https://ehp.niehs.nih.gov/doi/epdf/10.1289/ehp.7743",
+      "landing_page_url": "https://doi.org/10.1289/ehp.7743",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Leonardo Trasande",
+        "Philip J. Landrigan",
+        "Clyde B. Schechter"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3007004443",
+      "doi": "10.1016/j.envint.2019.105420",
+      "title": "Methyl mercury concentrations in seafood collected from Zhoushan Islands, Zhejiang, China, and their potential health risk for the fishing community",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 33,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/4b6c22fef9de493bb27a05ded74f329f",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Xinwei Yu",
+        "Sardar Khan",
+        "Anwarzeb Khan",
+        "Yu-Ting Tang",
+        "L. M. Nunes"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2003996417",
+      "doi": "10.1371/journal.pone.0089305",
+      "title": "Benthic and Pelagic Pathways of Methylmercury Bioaccumulation in Estuarine Food Webs of the Northeast United States",
+      "year": 2014,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 136,
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0089305&type=printable",
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0089305",
+      "license": "cc-by",
+      "source_display": "PLoS ONE",
+      "authors": [
+        "Celia Y. Chen",
+        "Mark E. Borsuk",
+        "Deenie M. Buggé",
+        "Terill A. Hollweg",
+        "Prentiss H. Balcom"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2075082468",
+      "doi": "10.1289/ehp.7603",
+      "title": "Mercury, Food Webs, and Marine Mammals: Implications of Diet and Climate Change for Human Health",
+      "year": 2005,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 231,
+      "pdf_url": "https://ehp.niehs.nih.gov/doi/epdf/10.1289/ehp.7603",
+      "landing_page_url": "https://doi.org/10.1289/ehp.7603",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Shawn Booth",
+        "Dirk Zeller"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2104821136",
+      "doi": "10.1367/1539-4409(2003)003<0018:nrcbsa>2.0.co;2",
+      "title": "Neurotoxic Risk Caused by Stable and Variable Exposure to Methylmercury From Seafood",
+      "year": 2003,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 119,
+      "pdf_url": null,
+      "landing_page_url": "http://nrs.harvard.edu/urn-3:HUL.InstRepos:34787262",
+      "license": "cc-by",
+      "source_display": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+      "authors": [
+        "Philippe Grandjean",
+        "Roberta F. White",
+        "Pál Weihe",
+        "Poul J. Jørgensen"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2050374679",
+      "doi": "10.1289/ehp.00108s129",
+      "title": "The influence of nutrition on methyl mercury intoxication.",
+      "year": 2000,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 189,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.00108s129",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Laurie Chapman",
+        "Hing Man Chan"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2010527642",
+      "doi": "10.1289/ehp.1103741",
+      "title": "Biomarkers of Methylmercury Exposure Immunotoxicity among Fish Consumers in Amazonian Brazil",
+      "year": 2011,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 117,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.1103741",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Jennifer F. Nyland",
+        "Myriam Fillion",
+        "Fernando Barbosa",
+        "Devon L. Shirley",
+        "Chiameka Chine"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1490456033",
+      "doi": "10.1186/1476-069x-2-8",
+      "title": "Low level methylmercury exposure affects neuropsychological function in adults",
+      "year": 2003,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 207,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/9700f1e73f8d4bdb99a944af92b2e63e",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Edna Massae Yokoo",
+        "Joaquim Gonçalves Valente",
+        "Lynn M. Grattan",
+        "Sergio L. Schmidt",
+        "Illeane Platt"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3200982851",
+      "doi": "10.1007/s11356-021-17483-6",
+      "title": "Exposure Assessment of methyl mercury from consumption of fish and seafood in Peninsular Malaysia",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 16,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11356-021-17483-6.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s11356-021-17483-6",
+      "license": "cc-by",
+      "source_display": "Environmental Science and Pollution Research",
+      "authors": [
+        "Nurul Izzah Ahmad",
+        "Wan Rozita Wan Mahiyuddin",
+        "Wan Nurul Farah Wan Azmi",
+        "Ruzanaz Syafira Ruzman Azlee",
+        "Rafiza Shaharudin"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1785699085",
+      "doi": "10.1186/1476-069x-5-29",
+      "title": "A preliminary study of mercury exposure and blood pressure in the Brazilian Amazon",
+      "year": 2006,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 178,
+      "pdf_url": "https://ehjournal.biomedcentral.com/track/pdf/10.1186/1476-069X-5-29",
+      "landing_page_url": "https://doi.org/10.1186/1476-069x-5-29",
+      "license": "cc-by",
+      "source_display": "Environmental Health",
+      "authors": [
+        "Myriam Fillion",
+        "Donna Mergler",
+        "Carlos José Sousa Passos",
+        "Fabrice Larribe",
+        "Mélanie Lemire"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2022350320",
+      "doi": "10.2754/avb200877040637",
+      "title": "Mercury and Methylmercury Concentrations in Muscle Tissue of Fish Caught in Major Rivers of the Czech Republic",
+      "year": 2008,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 26,
+      "pdf_url": "https://actavet.vfu.cz/media/pdf/avb_2008077040637.pdf",
+      "landing_page_url": "https://doi.org/10.2754/avb200877040637",
+      "license": "cc-by",
+      "source_display": "Acta Veterinaria Brno",
+      "authors": [
+        "Kamila Kružíková",
+        "Tomáš Randák",
+        "Renáta Kenšová",
+        "Hana Kocour Kroupová",
+        "Drahomíra Leontovyčová"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2057229862",
+      "doi": "10.1289/ehp.1307864",
+      "title": "Mercury Exposure and Health Impacts among Individuals in the Artisanal and Small-Scale Gold Mining Community: A Comprehensive Review",
+      "year": 2014,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 453,
+      "pdf_url": "https://ehp.niehs.nih.gov/doi/epdf/10.1289/ehp.1307864",
+      "landing_page_url": "https://doi.org/10.1289/ehp.1307864",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Herman J. Gibb",
+        "Keri O’Leary"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2128506713",
+      "doi": "10.2754/avb200675040579",
+      "title": "Total Mercury and Methylmercury Contamination in Fish from Sites along the Elbe River",
+      "year": 2006,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 23,
+      "pdf_url": "https://actavet.vfu.cz/media/pdf/avb_2006075040579.pdf",
+      "landing_page_url": "https://doi.org/10.2754/avb200675040579",
+      "license": "cc-by",
+      "source_display": "Acta Veterinaria Brno",
+      "authors": [
+        "Petr Maršálek",
+        "Zdeňka Svobodová",
+        "Tomáš Randák"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2093216526",
+      "doi": "10.2478/v10004-007-0025-3",
+      "title": "Contaminants in Fish: Risk-Benefit Considerations",
+      "year": 2007,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 68,
+      "pdf_url": "https://content.sciendo.com/downloadpdf/journals/aiht/58/3/article-p367.pdf",
+      "landing_page_url": "https://doi.org/10.2478/v10004-007-0025-3",
+      "license": "cc-by",
+      "source_display": "Archives of Industrial Hygiene and Toxicology",
+      "authors": [
+        "Lucio G. Costa"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2055394608",
+      "doi": "10.3923/pjn.2005.276.281",
+      "title": "Mercury Contamination in Fish and Public Health Aspects: A Review",
+      "year": 2005,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 43,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.3923/pjn.2005.276.281",
+      "license": "cc-by",
+      "source_display": "Pakistan Journal of Nutrition",
+      "authors": [
+        "Gholamreza Jahed Khaniki",
+        "Inteaz Alli",
+        "Ebrahim Nowroozi .",
+        "Ramin Nabizadeh"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2021119799",
+      "doi": "10.1289/ehp.1002609",
+      "title": "Fish Consumption and Mercury Exposure among Louisiana Recreational Anglers",
+      "year": 2010,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 86,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.1002609",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Rebecca A. Lincoln",
+        "James P. Shine",
+        "Edward Chesney",
+        "Donna J. Vorhees",
+        "Philippe Grandjean"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2034719301",
+      "doi": "10.1289/ehp.02110523",
+      "title": "Inorganic mercury and methylmercury in placentas of Swedish women.",
+      "year": 2002,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 165,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.02110523",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Karolin Ask",
+        "Agneta Åkesson",
+        "Marika Berglund",
+        "Marie Vahter"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2066666023",
+      "doi": "10.1289/ehp.7046",
+      "title": "Hair Mercury Levels in U.S. Children and Women of Childbearing Age: Reference Range Data from NHANES 1999–2000",
+      "year": 2004,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 362,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.7046",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Margaret McDowell",
+        "Charles Dillon",
+        "John Osterloh",
+        "P. Michael Bolger",
+        "Edo D. Pellizzari"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4293018668",
+      "doi": "10.1007/s40726-022-00226-7",
+      "title": "The Causes and Effects of Mercury and Methylmercury Contamination in the Marine Environment: A Review",
+      "year": 2022,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 170,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40726-022-00226-7.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s40726-022-00226-7",
+      "license": "cc-by",
+      "source_display": "Current Pollution Reports",
+      "authors": [
+        "Maetha Al‐Sulaiti",
+        "Lama Soubra",
+        "Mohammad A. Al‐Ghouti"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2021113490",
+      "doi": "10.1080/10408440802273164",
+      "title": "Negative Confounding in the Evaluation of Toxicity: The Case of Methylmercury in Fish and Seafood",
+      "year": 2008,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 134,
+      "pdf_url": null,
+      "landing_page_url": "http://nrs.harvard.edu/urn-3:HUL.InstRepos:34786599",
+      "license": "cc-by",
+      "source_display": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+      "authors": [
+        "Anna L. Choi",
+        "Sylvaine Cordier",
+        "Pál Weihe",
+        "Philippe Grandjean"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2884096627",
+      "doi": "10.1016/j.scitotenv.2018.07.328",
+      "title": "The importance of bioconcentration into the pelagic food web base for methylmercury biomagnification: A meta-analysis",
+      "year": 2018,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 102,
+      "pdf_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0048969718328250-ga1_lrg.jpg",
+      "landing_page_url": "https://doi.org/10.1016/j.scitotenv.2018.07.328",
+      "license": "cc-by",
+      "source_display": "The Science of The Total Environment",
+      "authors": [
+        "Pianpian Wu",
+        "Martin J. Kainz",
+        "Andrea G. Bravo",
+        "Staffan Åkerblom",
+        "Lars Sonesten"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2611504720",
+      "doi": "10.1371/journal.pone.0176155",
+      "title": "Mercury-induced epigenetic transgenerational inheritance of abnormal neurobehavior is correlated with sperm epimutations in zebrafish",
+      "year": 2017,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 134,
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0176155&type=printable",
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0176155",
+      "license": "cc-by",
+      "source_display": "PLoS ONE",
+      "authors": [
+        "Michael J. Carvan",
+        "Thomas Achankunju Kalluvila",
+        "Rebekah Klingler",
+        "Jeremy K. Larson",
+        "Matthew Christopher Pickens"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2013081518",
+      "doi": "10.1155/2012/681016",
+      "title": "Dietary Mercury Exposure Resulted in Behavioral Differences in Mice Contaminated with Fish-Associated Methylmercury Compared to Methylmercury Chloride Added to Diet",
+      "year": 2012,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 20,
+      "pdf_url": "https://downloads.hindawi.com/journals/bmri/2012/681016.pdf",
+      "landing_page_url": "https://doi.org/10.1155/2012/681016",
+      "license": "cc-by",
+      "source_display": "Journal of Biomedicine and Biotechnology",
+      "authors": [
+        "Jean‐Paul Bourdineaud",
+        "Masumi Marumoto",
+        "Akira Yasutake",
+        "Masatake Fujimura"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2124994069",
+      "doi": "10.1289/ehp.7857",
+      "title": "New Evidence on Variations of Human Body Burden of Methylmercury from Fish Consumption",
+      "year": 2006,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 114,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.7857",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "René Canuel",
+        "Sylvie Boucher de Grosbois",
+        "Laura Atikessé",
+        "Marc Lucotte",
+        "Paul A. Arp"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2984759517",
+      "doi": "10.1038/s41467-019-13221-2",
+      "title": "Rice life cycle-based global mercury biotransport and human methylmercury exposure",
+      "year": 2019,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 152,
+      "pdf_url": "https://www.nature.com/articles/s41467-019-13221-2.pdf",
+      "landing_page_url": "https://doi.org/10.1038/s41467-019-13221-2",
+      "license": "cc-by",
+      "source_display": "Nature Communications",
+      "authors": [
+        "Мaodian Liu",
+        "Qianru Zhang",
+        "Menghan Cheng",
+        "Yipeng He",
+        "Long Chen"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2056205471",
+      "doi": "10.1289/ehp.00108s3413",
+      "title": "Does methylmercury have a role in causing developmental disabilities in children?",
+      "year": 2000,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 94,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.00108s3413",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Gary J. Myers",
+        "Philip W. Davidson"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3130255145",
+      "doi": "10.3390/toxics9020039",
+      "title": "Levels of Mercury, Methylmercury and Selenium in Fish: Insights into Children Food Safety",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 81,
+      "pdf_url": "https://www.mdpi.com/2305-6304/9/2/39/pdf?version=1614322317",
+      "landing_page_url": "https://doi.org/10.3390/toxics9020039",
+      "license": "cc-by",
+      "source_display": "Toxics",
+      "authors": [
+        "Grazia Barone",
+        "A. Storelli",
+        "Daniela Meleleo",
+        "Angela Dambrosio",
+        "Rita Garofalo"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1995186537",
+      "doi": "10.1021/es500340r",
+      "title": "Assessing Sources of Human Methylmercury Exposure Using Stable Mercury Isotopes",
+      "year": 2014,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 85,
+      "pdf_url": null,
+      "landing_page_url": "http://nrs.harvard.edu/urn-3:HUL.InstRepos:16389371",
+      "license": "cc-by",
+      "source_display": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+      "authors": [
+        "Miling Li",
+        "Laura S. Sherman",
+        "Joel D. Blum",
+        "Philippe Grandjean",
+        "Bjarni Mikkelsen"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2131787397",
+      "doi": "10.1056/nejmoa1006876",
+      "title": "Mercury Exposure and Risk of Cardiovascular Disease in Two U.S. Cohorts",
+      "year": 2011,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 197,
+      "pdf_url": null,
+      "landing_page_url": "http://nrs.harvard.edu/urn-3:HUL.InstRepos:26861745",
+      "license": "cc-by",
+      "source_display": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+      "authors": [
+        "Dariush Mozaffarian",
+        "Peilin Shi",
+        "J. Steven Morris",
+        "Donna Spiegelman",
+        "Philippe Grandjean"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2015524512",
+      "doi": "10.1289/ehp.9329",
+      "title": "Maternal Fish Consumption, Mercury Levels, and Risk of Preterm Delivery",
+      "year": 2006,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 168,
+      "pdf_url": "https://ehp.niehs.nih.gov/doi/epdf/10.1289/ehp.9329",
+      "landing_page_url": "https://doi.org/10.1289/ehp.9329",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Fei Xue",
+        "Claudia Holzman",
+        "Mohammad H. Rahbar",
+        "Kay Trosko",
+        "Lawrence Fischer"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2801027379",
+      "doi": "10.1038/s41598-018-24938-3",
+      "title": "Mercury transport and human exposure from global marine fisheries",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 111,
+      "pdf_url": "https://www.nature.com/articles/s41598-018-24938-3.pdf",
+      "landing_page_url": "https://doi.org/10.1038/s41598-018-24938-3",
+      "license": "cc-by",
+      "source_display": "Scientific Reports",
+      "authors": [
+        "Raphaël A. Lavoie",
+        "Ariane Bouffard",
+        "Roxane Maranger",
+        "Marc Amyot"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4200299035",
+      "doi": "10.1038/s41586-021-04222-7",
+      "title": "Experimental evidence for recovery of mercury-contaminated fish populations",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 102,
+      "pdf_url": "https://www.nature.com/articles/s41586-021-04222-7.pdf",
+      "landing_page_url": "https://doi.org/10.1038/s41586-021-04222-7",
+      "license": "cc-by",
+      "source_display": "Nature",
+      "authors": [
+        "Paul J. Blanchfield",
+        "John W. M. Rudd",
+        "Lee E. Hrenchuk",
+        "Marc Amyot",
+        "Christopher L. Babiarz"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2021312517",
+      "doi": "10.1289/ehp.8786",
+      "title": "Gene Expression Changes Related to Endocrine Function and Decline in Reproduction in Fathead Minnow ( <i>Pimephales promelas</i> ) after Dietary Methylmercury Exposure",
+      "year": 2006,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 79,
+      "pdf_url": "https://ehp.niehs.nih.gov/doi/epdf/10.1289/ehp.8786",
+      "landing_page_url": "https://doi.org/10.1289/ehp.8786",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Rebecca Klaper",
+        "Christopher B. Rees",
+        "Paul E. Drevnick",
+        "Daniel N. Weber",
+        "Mark B. Sandheinrich"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3205745049",
+      "doi": "10.1007/s12011-021-02968-9",
+      "title": "Total Blood Mercury Predicts Methylmercury Exposure in Fish and Shellfish Consumers",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 16,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12011-021-02968-9.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s12011-021-02968-9",
+      "license": "cc-by",
+      "source_display": "Biological Trace Element Research",
+      "authors": [
+        "Ellen M. Wells",
+        "Leonid Kopylev",
+        "Rebecca Nachman",
+        "Elizabeth G. Radke",
+        "Johanna Congleton"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2887269283",
+      "doi": "10.3390/toxics6030045",
+      "title": "Health Impacts and Biomarkers of Prenatal Exposure to Methylmercury: Lessons from Minamata, Japan",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 80,
+      "pdf_url": "https://www.mdpi.com/2305-6304/6/3/45/pdf?version=1533436776",
+      "landing_page_url": "https://doi.org/10.3390/toxics6030045",
+      "license": "cc-by",
+      "source_display": "Toxics",
+      "authors": [
+        "Mineshi Sakamoto",
+        "Nozomi Tatsuta",
+        "Kimiko Izumo",
+        "Phuong Thanh Phan",
+        "Vu Duc Loi"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2050917577",
+      "doi": "10.1155/2011/983072",
+      "title": "Recognizing and Preventing Overexposure to Methylmercury from Fish and Seafood Consumption: Information for Physicians",
+      "year": 2011,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 76,
+      "pdf_url": "https://downloads.hindawi.com/journals/jt/2011/983072.pdf",
+      "landing_page_url": "https://doi.org/10.1155/2011/983072",
+      "license": "cc-by",
+      "source_display": "Journal of Toxicology",
+      "authors": [
+        "Susan Silbernagel",
+        "David O. Carpenter",
+        "Steven G. Gilbert",
+        "Michael Gochfeld",
+        "Edward Groth"
+      ]
+    }
+  ]
+}

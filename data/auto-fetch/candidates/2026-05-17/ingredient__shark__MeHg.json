@@ -1,0 +1,156 @@
+{
+  "target": "ingredient:shark",
+  "metal": "MeHg",
+  "status": "ok",
+  "query": "(\"shark\" OR \"Shark\" OR \"fish seafood\") AND (\"methylmercury\" OR \"methyl mercury\" OR \"MeHg\" OR \"CH3Hg\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+  "terms": [
+    "shark",
+    "Shark",
+    "fish seafood"
+  ],
+  "candidates_count": 7,
+  "dropped": {
+    "dedup": 0,
+    "language": 0,
+    "no-doi": 0,
+    "too-old": 0,
+    "no-allowed-license": 44,
+    "low-impact-old": 0,
+    "off-topic": 49
+  },
+  "candidates": [
+    {
+      "openalex_id": "https://openalex.org/W2921923911",
+      "doi": "10.1371/journal.pone.0212410",
+      "title": "Heavy metal accumulation in and food safety of shark meat from Jeju island, Republic of Korea",
+      "year": 2019,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 46,
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0212410&type=printable",
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0212410",
+      "license": "cc-by",
+      "source_display": "PLoS ONE",
+      "authors": [
+        "Sang Wha Kim",
+        "Se Jin Han",
+        "Yonggab Kim",
+        "Jin Woo Jun",
+        "Sib Sankar Giri"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2884902589",
+      "doi": "10.1371/journal.pone.0197220",
+      "title": "Bioaccumulation of methylmercury within the marine food web of the outer Bay of Fundy, Gulf of Maine",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 131,
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0197220&type=printable",
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0197220",
+      "license": "cc-by",
+      "source_display": "PLoS ONE",
+      "authors": [
+        "Gareth Harding",
+        "J. Dalziel",
+        "P.A. Vass"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4280529199",
+      "doi": "10.1016/j.scitotenv.2022.156031",
+      "title": "Decadal trends of mercury cycling and bioaccumulation within Everglades National Park",
+      "year": 2022,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 24,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1016/j.scitotenv.2022.156031",
+      "license": "cc-by",
+      "source_display": "The Science of The Total Environment",
+      "authors": [
+        "Sarah E. Janssen",
+        "Michael T. Tate",
+        "Brett A. Poulin",
+        "David P. Krabbenhoft",
+        "John F. DeWild"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3039854734",
+      "doi": "10.1525/elementa.425",
+      "title": "Mercury cycling in Australian estuaries and near shore coastal ecosystems: Triggers for management",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 10,
+      "pdf_url": "https://online.ucpress.edu/elementa/article-pdf/doi/10.1525/elementa.425/441620/425-7307-2-pb.pdf",
+      "landing_page_url": "https://doi.org/10.1525/elementa.425",
+      "license": "cc-by",
+      "source_display": "Elementa Science of the Anthropocene",
+      "authors": [
+        "William A. Maher",
+        "Frank Krikowa",
+        "Michael J. Ellwood"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4380536438",
+      "doi": "10.22146/ijc.82512",
+      "title": "Development of Methylmercury Analysis by Ultra-High Performance Liquid Chromatography Coupled with ICP-MS and Its Application on Sharks’ Meat Measurement",
+      "year": 2023,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 3,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/b23fe9b960064b70be4ec06a18af1463",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Suratno Suratno",
+        "Satriyo Krido Wahono",
+        "Dwi Siswanta",
+        "Nurul Hidayat Aprilita"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4220972765",
+      "doi": "10.3389/fcosc.2022.807252",
+      "title": "Framing Effects on Attitudes and Intentions Toward Shark Meat Consumption in Lima, Peru",
+      "year": 2022,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 4,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.3389/fcosc.2022.807252",
+      "license": "cc-by",
+      "source_display": "Frontiers in Conservation Science",
+      "authors": [
+        "Daniella Biffi",
+        "Adam S. Richards",
+        "Molly Weinburgh"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4415816625",
+      "doi": "10.3390/foods14213752",
+      "title": "Bioaccumulation and Biomagnification of Mercury Along the Seafood Chain in Europe: A Systematic Review",
+      "year": 2025,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 2,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.3390/foods14213752",
+      "license": "cc-by",
+      "source_display": "Foods",
+      "authors": [
+        "Riccardo Fioravanti",
+        "Luca Muzzioli",
+        "Eleonora Maurel",
+        "Giuseppe Palma",
+        "Giorgio Calabrese"
+      ]
+    }
+  ]
+}

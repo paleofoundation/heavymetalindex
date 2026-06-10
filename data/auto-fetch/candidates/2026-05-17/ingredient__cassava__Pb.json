@@ -1,0 +1,1015 @@
+{
+  "target": "ingredient:cassava",
+  "metal": "Pb",
+  "status": "ok",
+  "query": "(\"cassava\" OR \"Cassava\" OR \"root vegetable\" OR \"manioc\" OR \"manihot esculenta\" OR \"yuca\") AND (\"lead\" OR \"Pb\" OR \"plumbum\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+  "terms": [
+    "cassava",
+    "Cassava",
+    "root vegetable",
+    "manioc",
+    "manihot esculenta",
+    "yuca",
+    "tapioca",
+    "gari",
+    "fufu",
+    "cassava flour"
+  ],
+  "candidates_count": 52,
+  "dropped": {
+    "dedup": 3,
+    "language": 1,
+    "no-doi": 0,
+    "too-old": 0,
+    "no-allowed-license": 42,
+    "low-impact-old": 0,
+    "off-topic": 2
+  },
+  "candidates": [
+    {
+      "openalex_id": "https://openalex.org/W2291559168",
+      "doi": "10.3390/ijerph13030289",
+      "title": "Accumulation of Heavy Metals in Vegetable Species Planted in Contaminated Soils and the Health Risk Assessment",
+      "year": 2016,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 481,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.3390/ijerph13030289",
+      "license": "cc-by",
+      "source_display": "International Journal of Environmental Research and Public Health",
+      "authors": [
+        "Hang Zhou",
+        "Wentao Yang",
+        "Xin Zhou",
+        "Li Liu",
+        "Jiao-Feng Gu"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2137565056",
+      "doi": "10.1186/1752-153x-6-77",
+      "title": "Heavy metals health risk assessment for population via consumption of food crops and fruits in Owerri, South Eastern, Nigeria",
+      "year": 2012,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 215,
+      "pdf_url": "https://bmcchem.biomedcentral.com/counter/pdf/10.1186/1752-153X-6-77",
+      "landing_page_url": "https://doi.org/10.1186/1752-153x-6-77",
+      "license": "cc-by",
+      "source_display": "Chemistry Central Journal",
+      "authors": [
+        "Orish Ebere Orisakwe",
+        "John Kanayochukwu Nduka",
+        "Cecilia Nwadiuto Amadi",
+        "Daniel Onyekachi Dike",
+        "Onyinyechi Bede"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2587184486",
+      "doi": "10.1080/23311843.2017.1291107",
+      "title": "Health risk assessment for carcinogenic and non-carcinogenic heavy metal exposures from vegetables and fruits of Bangladesh",
+      "year": 2017,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 258,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1080/23311843.2017.1291107",
+      "license": "cc-by",
+      "source_display": "Sustainable Environment",
+      "authors": [
+        "Mahfuza Sharifa Sultana",
+        "Sumandeep Rana",
+        "Shunsuke Yamazaki",
+        "Tatsuo Aono",
+        "S. Yoshida"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2752507701",
+      "doi": "10.1186/s40068-017-0098-1",
+      "title": "Bioaccumulation of heavy metals in soil and selected food crops cultivated in Kogi State, north central Nigeria",
+      "year": 2017,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 93,
+      "pdf_url": "https://environmentalsystemsresearch.springeropen.com/track/pdf/10.1186/s40068-017-0098-1",
+      "landing_page_url": "https://doi.org/10.1186/s40068-017-0098-1",
+      "license": "cc-by",
+      "source_display": "ENVIRONMENTAL SYSTEMS RESEARCH",
+      "authors": [
+        "Jude Ehwevwerhere Emurotu",
+        "P. C. Onianwa"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1952679093",
+      "doi": "10.3390/ijerph120808811",
+      "title": "Accumulation of Heavy Metals and Metalloid in Foodstuffs from Agricultural Soils around Tarkwa Area in Ghana, and Associated Human Health Risks",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 74,
+      "pdf_url": "https://www.mdpi.com/1660-4601/12/8/8811/pdf?version=1438069192",
+      "landing_page_url": "https://doi.org/10.3390/ijerph120808811",
+      "license": "cc-by",
+      "source_display": "International Journal of Environmental Research and Public Health",
+      "authors": [
+        "Nesta Bortey‐Sam",
+        "Shouta M.M. Nakayama",
+        "Osei Akoto",
+        "Yoshinori Ikenaka",
+        "Julius N. Fobil"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2155293262",
+      "doi": "10.1186/1752-153x-5-64",
+      "title": "Heavy metals health risk assessment for population via consumption of vegetables grown in old mining area; a case study: Banat County, Romania",
+      "year": 2011,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 409,
+      "pdf_url": "https://bmcchem.biomedcentral.com/counter/pdf/10.1186/1752-153X-5-64",
+      "landing_page_url": "https://doi.org/10.1186/1752-153x-5-64",
+      "license": "cc-by",
+      "source_display": "Chemistry Central Journal",
+      "authors": [
+        "Monica Hărmănescu",
+        "L. M. Alda",
+        "Despina-Maria Bordean",
+        "I. Gogoaşă",
+        "I. Gergen"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2208645267",
+      "doi": "10.1038/srep18296",
+      "title": "Metabolomic analysis with GC-MS to reveal potential metabolites and biological pathways involved in Pb &amp; Cd stress response of radish roots",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 149,
+      "pdf_url": "https://www.nature.com/articles/srep18296.pdf",
+      "landing_page_url": "https://doi.org/10.1038/srep18296",
+      "license": "cc-by",
+      "source_display": "Scientific Reports",
+      "authors": [
+        "Yan Wang",
+        "Liang Xu",
+        "Hong Shen",
+        "Juanjuan Wang",
+        "Wei Liu"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4200292920",
+      "doi": "10.3390/toxins13120870",
+      "title": "Quantification of Heavy Metals and Pesticide Residues in Widely Consumed Nigerian Food Crops Using Atomic Absorption Spectroscopy (AAS) and Gas Chromatography (GC)",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 78,
+      "pdf_url": "https://www.mdpi.com/2072-6651/13/12/870/pdf?version=1639481353",
+      "landing_page_url": "https://doi.org/10.3390/toxins13120870",
+      "license": "cc-by",
+      "source_display": "Toxins",
+      "authors": [
+        "Kingsley O. Omeje",
+        "Benjamin O. Ezema",
+        "Finbarr Okonkwo",
+        "Nnenna C. Onyishi",
+        "Juliet N. Ozioko"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3036280179",
+      "doi": "10.3389/fchem.2020.571790",
+      "title": "Synthesis of Zinc Oxide Nanoparticles by Ecofriendly Routes: Adsorbent for Copper Removal From Wastewater",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 153,
+      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fchem.2020.571790/pdf",
+      "landing_page_url": "https://doi.org/10.3389/fchem.2020.571790",
+      "license": "cc-by",
+      "source_display": "Frontiers in Chemistry",
+      "authors": [
+        "Julia de O. Primo",
+        "Carla Bittencourt",
+        "Selene Acosta",
+        "Ayrton Sierra-Castillo",
+        "Jean‐François Colomer"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2087156790",
+      "doi": "10.1371/journal.pone.0066539",
+      "title": "Transcriptome Profiling of Radish (Raphanus sativus L.) Root and Identification of Genes Involved in Response to Lead (Pb) Stress with Next Generation Sequencing",
+      "year": 2013,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 137,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0066539",
+      "license": "cc-by",
+      "source_display": "PLoS ONE",
+      "authors": [
+        "Yan Wang",
+        "Liang Xu",
+        "Yinglong Chen",
+        "Hong Shen",
+        "Yiqin Gong"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2289310167",
+      "doi": "10.4314/jasem.v19i4.18",
+      "title": "Physicochemical Characteristics and Heavy Metals Contents in Soils and Cassava Plants from Farmlands along A Major Highway in Delta State, Nigeria",
+      "year": 2016,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 32,
+      "pdf_url": "https://www.ajol.info/index.php/jasem/article/download/131233/120827",
+      "landing_page_url": "https://doi.org/10.4314/jasem.v19i4.18",
+      "license": "cc-by",
+      "source_display": "Journal of Applied Sciences and Environmental Management",
+      "authors": [
+        "Stephen Anapuwa Osakwe",
+        "Lucky Precious Okolie"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3020543706",
+      "doi": "10.24925/turjaf.v8i4.800-806.2737",
+      "title": "Heavy Metals in Cassava (Manihot esculenta Crantz) Harvested from Farmlands along Highways in Owerri, Nigeria",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 22,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/84059cef8bb2497fa263a1e5500d2b2d",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Josephat Nwabueze Okereke",
+        "Judith Nkeiru Nduka",
+        "A. A. Ukaoma",
+        "Odangowei Inetiminebi Ogidi"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3214527062",
+      "doi": "10.1016/j.toxrep.2021.11.001",
+      "title": "Effect of home processing methods on the levels of heavy metal contaminants in four food crops grown in and around two mining towns in Ghana",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 31,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/434f8298b5fb43a89fb2281c0c7a3836",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Rebecca Adjei-Mensah",
+        "Hayford Ofori",
+        "Charles Tortoe",
+        "Paa‐Nii T. Johnson",
+        "David Aryee"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1562592129",
+      "doi": "10.3389/fpls.2015.00293",
+      "title": "Transport, ultrastructural localization, and distribution of chemical forms of lead in radish (Raphanus sativus L.)",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 72,
+      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpls.2015.00293/pdf",
+      "landing_page_url": "https://doi.org/10.3389/fpls.2015.00293",
+      "license": "cc-by",
+      "source_display": "Frontiers in Plant Science",
+      "authors": [
+        "Yan Wang",
+        "Hong Shen",
+        "Liang Xu",
+        "Xianwen Zhu",
+        "Chao Li"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3165025063",
+      "doi": "10.1038/s41438-021-00561-8",
+      "title": "Melatonin-induced DNA demethylation of metal transporters and antioxidant genes alleviates lead stress in radish plants",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 86,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1038/s41438-021-00561-8",
+      "license": "cc-by",
+      "source_display": "Horticulture Research",
+      "authors": [
+        "Mingjia Tang",
+        "Liang Xu",
+        "Yan Wang",
+        "Junhui Dong",
+        "Xiaoli Zhang"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2180475987",
+      "doi": "10.1504/ijfsnph.2015.070157",
+      "title": "Occurrence of mycotoxins in cassava (Manihot esculenta Crantz) and its products",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 12,
+      "pdf_url": "https://hal.science/hal-01594243v1/document",
+      "landing_page_url": "https://hal.science/hal-01594243",
+      "license": "cc-by-sa",
+      "source_display": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "authors": [
+        "Yann Christie Sissinto Adjovi",
+        "Benoit J.G. Gnonlonfin",
+        "Sylviane Bailly",
+        "Jean‐Denis Bailly",
+        "Soraya Tadrist"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2126916858",
+      "doi": "10.3923/pjn.2008.418.420",
+      "title": "Lead, Zinc and Cadmium in Root Crops from Mineralized Galena-Sphalerite Mining Areas and Environment",
+      "year": 2008,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 14,
+      "pdf_url": "https://scialert.net/qredirect.php?doi=pjn.2008.418.420&linkid=pdf",
+      "landing_page_url": "https://doi.org/10.3923/pjn.2008.418.420",
+      "license": "cc-by",
+      "source_display": "Pakistan Journal of Nutrition",
+      "authors": [
+        "Gerald Onyedika",
+        "G.U. Nwosu"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2981028075",
+      "doi": "10.3390/chemosensors7040049",
+      "title": "Simultaneous Voltammetric Detection of Acetaminophen and Caffeine Base on Cassava Starch—Fe3O4 Nanoparticles Modified Glassy Carbon Electrode",
+      "year": 2019,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 44,
+      "pdf_url": "https://www.mdpi.com/2227-9040/7/4/49/pdf?version=1575337983",
+      "landing_page_url": "https://doi.org/10.3390/chemosensors7040049",
+      "license": "cc-by",
+      "source_display": "Chemosensors",
+      "authors": [
+        "Ani Mulyasuryani",
+        "Rachmat Triandi Tjahjanto",
+        "Robi’atul Andawiyah"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2900533464",
+      "doi": "10.1016/j.envint.2018.10.054",
+      "title": "An apple a day? Assessing gardeners' lead exposure in urban agriculture sites to improve the derivation of soil assessment criteria",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 48,
+      "pdf_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0160412018313138-ga1_lrg.jpg",
+      "landing_page_url": "https://doi.org/10.1016/j.envint.2018.10.054",
+      "license": "cc-by",
+      "source_display": "Environment International",
+      "authors": [
+        "Jane Entwistle",
+        "Patrick Amaibi",
+        "John R. Dean",
+        "Michael E. Deary",
+        "Daniel Medock"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2167462682",
+      "doi": "10.5897/ajb2014.13733",
+      "title": "Heavy metal and proximate composition associated with the composting of cassava (Manihot esculenta) peels used in the cultivation of mushrooms in Ghana",
+      "year": 2014,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 15,
+      "pdf_url": "https://academicjournals.org/journal/AJB/article-full-text-pdf/E70DF0244897.pdf",
+      "landing_page_url": "https://doi.org/10.5897/ajb2014.13733",
+      "license": "cc-by",
+      "source_display": "AFRICAN JOURNAL OF BIOTECHNOLOGY",
+      "authors": [
+        "M. Obodai",
+        "Hayford Ofori",
+        "Matilda Dzomeku",
+        "Richard Takli",
+        "Gregory Komlega"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3129122812",
+      "doi": "10.3390/jcs5020046",
+      "title": "Removal of Pb(II) Ions from Aqueous Solution Using Modified Starch",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 33,
+      "pdf_url": "https://www.mdpi.com/2504-477X/5/2/46/pdf?version=1612331529",
+      "landing_page_url": "https://doi.org/10.3390/jcs5020046",
+      "license": "cc-by",
+      "source_display": "Journal of Composites Science",
+      "authors": [
+        "Oneesha H. P. Gunawardene",
+        "Chamila Gunathilake",
+        "Sumedha M. Amaraweera",
+        "N. M. L. Fernando",
+        "A. Manipura"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4296280685",
+      "doi": "10.3389/fpls.2022.996981",
+      "title": "Overexpression of MePMEI1 in Arabidopsis enhances Pb tolerance",
+      "year": 2022,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 13,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.3389/fpls.2022.996981",
+      "license": "cc-by",
+      "source_display": "Frontiers in Plant Science",
+      "authors": [
+        "Yangjiao Zhou",
+        "Ruimei Li",
+        "Shijia Wang",
+        "Zhongping Ding",
+        "Qin Zhou"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4412721941",
+      "doi": "10.1038/s41598-025-09307-1",
+      "title": "Thermodynamic, isotherm and kinetic studies lead ions adsorption onto Manihot esculenta chaff surface",
+      "year": 2025,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 14,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/ea6b79be35f6428a9fc42d9bcddc8220",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Ali El‐Rayyes",
+        "Ibrahim Arogundade",
+        "Edwin Andrew Ofudje",
+        "Moamen S. Refat",
+        "Amnah Mohammed Alsuhaibani"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2981331722",
+      "doi": "10.3390/app9214486",
+      "title": "Characterization of Residual Biomasses and Its Application for the Removal of Lead Ions from Aqueous Solution",
+      "year": 2019,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 46,
+      "pdf_url": "https://www.mdpi.com/2076-3417/9/21/4486/pdf",
+      "landing_page_url": "https://doi.org/10.3390/app9214486",
+      "license": "cc-by",
+      "source_display": "Applied Sciences",
+      "authors": [
+        "Candelaria Tejada-Tovar",
+        "Ángel Darío González-Delgado",
+        "Ángel Villabona-Ortíz"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3202057697",
+      "doi": "10.4236/jep.2021.129038",
+      "title": "Risk Assessment of Heavy Metals in Food Crops at Abandoned Lead-Zinc Mining Site at Tse-Faga, Logo, Lga, Benue State, Nigeria",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 10,
+      "pdf_url": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=112181",
+      "landing_page_url": "https://doi.org/10.4236/jep.2021.129038",
+      "license": "cc-by",
+      "source_display": "Journal of Environmental Protection",
+      "authors": [
+        "Samuel N. Paul",
+        "Bolaji Benard Babatunde"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3042471320",
+      "doi": "10.3390/ijerph17145172",
+      "title": "Health Risk Assessment of Dietary Heavy Metals Intake from Fruits and Vegetables Grown in Selected Old Mining Areas—A Case Study: The Banat Area of Southern Carpathians",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 77,
+      "pdf_url": "https://www.mdpi.com/1660-4601/17/14/5172/pdf?version=1595576500",
+      "landing_page_url": "https://doi.org/10.3390/ijerph17145172",
+      "license": "cc-by",
+      "source_display": "International Journal of Environmental Research and Public Health",
+      "authors": [
+        "D. Manea",
+        "A. Ienciu",
+        "Ramona Ştef",
+        "Iosefina Laura Şmuleac",
+        "I. Gergen"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2313560699",
+      "doi": "10.3390/wsf-4-a004",
+      "title": "Cassava Processing and the Environmental Effect",
+      "year": 2014,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 17,
+      "pdf_url": "https://sciforum.net/paper/download/2474/manuscript",
+      "landing_page_url": "https://doi.org/10.3390/wsf-4-a004",
+      "license": "cc-by",
+      "source_display": null,
+      "authors": [
+        "Peter Kolawole"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2563586090",
+      "doi": "10.3389/fpls.2016.01871",
+      "title": "Functional and Integrative Analysis of the Proteomic Profile of Radish Root under Pb Exposure",
+      "year": 2016,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 35,
+      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpls.2016.01871/pdf",
+      "landing_page_url": "https://doi.org/10.3389/fpls.2016.01871",
+      "license": "cc-by",
+      "source_display": "Frontiers in Plant Science",
+      "authors": [
+        "Yan Wang",
+        "Liang Xu",
+        "Mingjia Tang",
+        "Haiyan Jiang",
+        "Wei Chen"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3046098949",
+      "doi": "10.1016/j.emcon.2020.07.003",
+      "title": "Application of activated biomass waste as an adsorbent for the removal of lead (II) ion from wastewater",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 59,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/4a9a81b5b81a4e7f971af7dfe0c521d3",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Chime O. Thompson",
+        "Agu O. Ndukwe",
+        "Christian O. Asadu"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2762872340",
+      "doi": "10.17485/ijst/2017/v10i34/117269",
+      "title": "Removal of Heavy Metals from Waste Water by using Various Adsorbents- A Review",
+      "year": 2017,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 39,
+      "pdf_url": "http://www.indjst.org/index.php/indjst/article/download/117269/81864",
+      "landing_page_url": "https://doi.org/10.17485/ijst/2017/v10i34/117269",
+      "license": "cc-by",
+      "source_display": "Indian Journal of Science and Technology",
+      "authors": [
+        "Amandeep Kaur",
+        "Sangeeta Sharma"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3008433860",
+      "doi": "10.36263/nijest.2020.01.0173",
+      "title": "Determination of Heavy Metal Contamination in Soil and Accumulation in Cassava (Manihot Esculenta) in Automobile Waste Dumpsite at Ohiya Mechanic Village",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 8,
+      "pdf_url": "https://nijest.com/wp-content/uploads/2020/02/54-69_0173_Vol-4-No-1_NIJEST.pdf",
+      "landing_page_url": "https://doi.org/10.36263/nijest.2020.01.0173",
+      "license": "cc-by",
+      "source_display": "Nigerian Journal of Environmental Sciences and Technology",
+      "authors": [
+        "P. C. Ogbonna",
+        "O. O. Osim",
+        "Ekene Biose"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2601666767",
+      "doi": "10.20473/j.djmkg.v49.i3.p137-142",
+      "title": "Effect of Cassave leaf flavonoid extract on TNF-&amp;#945; expressions in rat models suffering from periodontitis",
+      "year": 2016,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 6,
+      "pdf_url": "https://e-journal.unair.ac.id/MKG/article/download/2010/2533",
+      "landing_page_url": "https://doi.org/10.20473/j.djmkg.v49.i3.p137-142",
+      "license": "cc-by-sa",
+      "source_display": "Dental Journal (Majalah Kedokteran Gigi)",
+      "authors": [
+        "Zahara Meilawaty",
+        "Banun Kusumawardani"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3016707568",
+      "doi": "10.1371/journal.pone.0226180",
+      "title": "Uptake and speciation of zinc in edible plants grown in smelter contaminated soils",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 29,
+      "pdf_url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0226180/1/pone.0226180.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20210218%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20210218T094136Z&X-Goog-Expires=3600&X-Goog-SignedHeaders=host&X-Goog-Signature=9757108ca28e1a2c6695d564eacf75f8cff572a14679ef34b9ca97880875b3560fe51ea29a1daf6a5af5a725835c5c0df3b47393f71d5af0445f56990ee7d128d2b838847d4706c670084d853d342cac3e968f2e996ac24c9b3dfc3f5ff8ac2781f0414d86ae9565e405001ebd850ad57da782ad97ee6875906237c52ef70d9bf5371feb6c93e9d8108364e2a89847cc8bd1367a148b458e07485f5698531bcb73aba96d72b64641262385573a157a2a72a722d3b4b94d26435512aebbca333b64036d6ae399496c7fb5e753baa4ee62abaed6889afa53511baeadf3f408d16a0a239934579a6f2d0d989c473b6eb5e259aa9fe65d48945f68d92eae360c8b21",
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0226180",
+      "license": "cc-by",
+      "source_display": "PLoS ONE",
+      "authors": [
+        "Bhoopesh Mishra",
+        "Louis M. McDonald",
+        "Mimi Roy",
+        "Antonio Lanzirotti",
+        "Satish C. B. Myneni"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4309874702",
+      "doi": "10.1016/j.jtemin.2022.100037",
+      "title": "Assessment of human exposure to food crops contaminated with lead and cadmium in Owerri, South-eastern Nigeria",
+      "year": 2022,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 9,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/6286cbc13fdf4749b87f19895dd859aa",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Joseph Ikechukwu Nwachukwu",
+        "Leon J. Clarke",
+        "Elías Symeonakis",
+        "Francis Q. Brearley"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3211081977",
+      "doi": "10.1038/s41598-021-00672-1",
+      "title": "Investigation of the effects of pretreatment on the elemental composition of ash derived from selected Nigerian lignocellulosic biomass",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 18,
+      "pdf_url": "https://www.nature.com/articles/s41598-021-00672-1.pdf",
+      "landing_page_url": "https://doi.org/10.1038/s41598-021-00672-1",
+      "license": "cc-by",
+      "source_display": "Scientific Reports",
+      "authors": [
+        "Adeolu A. Awoyale",
+        "David Lokhat",
+        "Patrick Okete"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4401015322",
+      "doi": "10.1016/j.enceco.2024.07.009",
+      "title": "Human health risk exposure from suspected BTEX and HMs contamination of Manihot spp. from nearby remediated oil spill field in Niger Delta, Nigeria",
+      "year": 2024,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 8,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/6e6f860b73fd4d75b5b6e3b489d323d8",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Omobolaji O. Afolabi",
+        "Maureen O. Ugwu",
+        "Alex Igbarima Alhamdu Fubara",
+        "Toochukwu T. Ugwuechendu",
+        "Okechukwu N.N. Okoye"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2232585529",
+      "doi": "10.1186/s40550-015-0024-0",
+      "title": "Variations in trace metal and aflatoxin content during processing of High Quality Cassava Flour (HQCF)",
+      "year": 2016,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 20,
+      "pdf_url": "https://foodcontaminationjournal.biomedcentral.com/track/pdf/10.1186/s40550-015-0024-0",
+      "landing_page_url": "https://doi.org/10.1186/s40550-015-0024-0",
+      "license": "cc-by",
+      "source_display": "International Journal of Food Contamination",
+      "authors": [
+        "Hayford Ofori",
+        "Papa Toah Akonor",
+        "N.T. Dziedzoave"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1514176977",
+      "doi": "10.4314/jasem.v19i2.7",
+      "title": "Levels of some heavy metals in cassava and plantain from farmlands in Kaani and Kpean in Khana Local Government Area of Rivers State",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 5,
+      "pdf_url": "https://www.ajol.info/index.php/jasem/article/download/119944/109403",
+      "landing_page_url": "https://doi.org/10.4314/jasem.v19i2.7",
+      "license": "cc-by",
+      "source_display": "Journal of Applied Sciences and Environmental Management",
+      "authors": [
+        "I. A. Kalagbor",
+        "NK Dighi",
+        "R James"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1833705403",
+      "doi": "10.24154/jhs.v7i1.392",
+      "title": "Heavy Metal Contamination of Water Bodies, Soils and Vegetables in Peri-Urban Areas: A Case Study in Bangaluru",
+      "year": 2012,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 9,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/6ad8bbf472304c3ebc0184af41179cc3",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "L. R. Varalakshmi",
+        "A. N. Ganeshamurthy"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2610796851",
+      "doi": "10.5897/ajb2016.15841",
+      "title": "Proximate composition, microbiological safety and heavy metal contaminations of garri sold in Benue, North-Central Nigeria",
+      "year": 2017,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 5,
+      "pdf_url": "https://academicjournals.org/journal/AJB/article-full-text-pdf/A4BB53964073.pdf",
+      "landing_page_url": "https://doi.org/10.5897/ajb2016.15841",
+      "license": "cc-by",
+      "source_display": "AFRICAN JOURNAL OF BIOTECHNOLOGY",
+      "authors": [
+        "Okonkwo Ogbonna Innocent",
+        "Ifeoma Agbowu Blessing",
+        "A. P. FÉLIX"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1964560891",
+      "doi": "10.4314/gjass.v11i1.1",
+      "title": "A comparative study of the influence of heavy metals on soil and crops growing within quarry environment at Akamkpa, Cross River State, Nigeria",
+      "year": 2012,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 7,
+      "pdf_url": "https://www.ajol.info/index.php/gjass/article/download/79126/69432",
+      "landing_page_url": "https://doi.org/10.4314/gjass.v11i1.1",
+      "license": "cc-by",
+      "source_display": "Global Journal of Agricultural Sciences",
+      "authors": [
+        "F. E. Ekpo",
+        "EC Nzegblue",
+        "ME Asuquo"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2130426686",
+      "doi": "10.1186/s12870-014-0262-y",
+      "title": "Transcript profiling of structural genes involved in cyanidin-based anthocyanin biosynthesis between purple and non-purple carrot (Daucus carotaL.) cultivars reveals distinct patterns",
+      "year": 2014,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 100,
+      "pdf_url": "https://bmcplantbiol.biomedcentral.com/counter/pdf/10.1186/s12870-014-0262-y",
+      "landing_page_url": "https://doi.org/10.1186/s12870-014-0262-y",
+      "license": "cc-by",
+      "source_display": "BMC Plant Biology",
+      "authors": [
+        "Zhi‐Sheng Xu",
+        "Ying Huang",
+        "Feng Wang",
+        "Xiong Song",
+        "Guang‐Long Wang"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4213106165",
+      "doi": "10.3390/polym14040828",
+      "title": "Cassava Starch-Based Thermo-Responsive Pb(II)-Imprinted Material: Preparation and Adsorption Performance on Pb(II)",
+      "year": 2022,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 15,
+      "pdf_url": "https://www.mdpi.com/2073-4360/14/4/828/pdf?version=1645440898",
+      "landing_page_url": "https://doi.org/10.3390/polym14040828",
+      "license": "cc-by",
+      "source_display": "Polymers",
+      "authors": [
+        "Meiyuan Lv",
+        "Yuhan Du",
+        "Tingting Zhang",
+        "Xueyu Du",
+        "Xueqiong Yin"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4252380097",
+      "doi": "10.22435/hsr.v19i1.4989.55-61",
+      "title": "Heavy Metal In Food Ingredients In Oil Refi nery Industrial Area, Dumai",
+      "year": 2016,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 4,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.22435/hsr.v19i1.4989.55-61",
+      "license": "cc-by-sa",
+      "source_display": "Buletin Penelitian Sistem Kesehatan",
+      "authors": [
+        "Dian Sundari",
+        "Miko Hananto",
+        "Suharjo Suharjo"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4388729002",
+      "doi": "10.1007/s42452-023-05550-1",
+      "title": "Assessment of heavy metal contents in farm produce around Ewekoro and its health implications on consumers",
+      "year": 2023,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 5,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s42452-023-05550-1.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s42452-023-05550-1",
+      "license": "cc-by",
+      "source_display": "SN Applied Sciences",
+      "authors": [
+        "O.O Adewoyin",
+        "Maxwell Omeje",
+        "Omonhinmin A. Conrad",
+        "Obinna C. Nwinyi",
+        "T. E. Arijaje"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2809583511",
+      "doi": "10.17485/ijst/2018/v11i21/123250",
+      "title": "Effect of pH and particle size for lead and nickel uptake from aqueous solution using cassava (Manihot esculenta) and yam (Dioscorea alata) residual biomasses modified with titanium dioxide nanoparticles",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 11,
+      "pdf_url": "https://sciresol.s3.us-east-2.amazonaws.com/IJST/Articles/2018/Issue-21/Article14.pdf",
+      "landing_page_url": "https://doi.org/10.17485/ijst/2018/v11i21/123250",
+      "license": "cc-by",
+      "source_display": "Indian Journal of Science and Technology",
+      "authors": [
+        "Adriana Herrera",
+        "Candelaria Tejada-Tovar",
+        "Ángel Villabona-Ortíz",
+        "Ángel Darío González-Delgado",
+        "Luis Fornaris-Lozada"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3198176370",
+      "doi": "10.29121/granthaalayah.v9.i8.2021.4012",
+      "title": "COMPARATIVE ANALYSIS OF SOME HEAVY METALS LEVELS IN LEAVES, PEELS AND TUBERS OF CASSAVA PLANTED ALONG EAST-WEST ROAD RIVERS STATE",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 5,
+      "pdf_url": "https://www.granthaalayahpublication.org/journals/index.php/granthaalayah/article/download/4012/4235",
+      "landing_page_url": "https://doi.org/10.29121/granthaalayah.v9.i8.2021.4012",
+      "license": "cc-by",
+      "source_display": "International Journal of Research -GRANTHAALAYAH",
+      "authors": [
+        "Isaac Eguarkhide Ogah",
+        "Ekpete A. Ozioma"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3170122894",
+      "doi": "10.15421/022113",
+      "title": "Safety of livestock products of bulls on various diets during fattening in the conditions of radioactive contamination",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 8,
+      "pdf_url": "https://medicine.dp.ua/index.php/med/article/download/693/707",
+      "landing_page_url": "https://doi.org/10.15421/022113",
+      "license": "cc-by",
+      "source_display": "Regulatory Mechanisms in Biosystems",
+      "authors": [
+        "I. Savchuk",
+        "O. Skydan",
+        "В. М. Степаненко",
+        "M. Kryvyi",
+        "С. П. Ковальова"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2967040637",
+      "doi": "10.5696/2156-9614-9.23.190908",
+      "title": "Efficacy of Cassava Peel Extracts for the Removal of Heavy Metals from Hospital Sewage Sludge in Nigeria",
+      "year": 2019,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 9,
+      "pdf_url": "https://meridian.allenpress.com/jhp/article-pdf/9/23/190908/2608563/2156-9614-9_23_190908.pdf",
+      "landing_page_url": "https://doi.org/10.5696/2156-9614-9.23.190908",
+      "license": "public-domain",
+      "source_display": "Journal of Health and Pollution",
+      "authors": [
+        "Adedotun Timothy Adeolu",
+        "Solomon Olayinka Adewoye"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4220741317",
+      "doi": "10.1155/2022/5935712",
+      "title": "Ecofriendly Biosorbents Produced from Cassava Solid Wastes: Sustainable Technology for the Removal of Cd <sup>2+</sup> , Pb <sup>2+</sup> , and Cr <sup>total</sup>",
+      "year": 2022,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 8,
+      "pdf_url": "https://downloads.hindawi.com/journals/ast/2022/5935712.pdf",
+      "landing_page_url": "https://doi.org/10.1155/2022/5935712",
+      "license": "cc-by",
+      "source_display": "Adsorption Science & Technology",
+      "authors": [
+        "Daniel Schwantes",
+        "Affonso Celso Gonçalves",
+        "Henrique Alipio Perina",
+        "César Ricardo Teixeira Tarley",
+        "Douglas Cardoso Dragunski"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3046269205",
+      "doi": "10.11648/j.ijee.20200502.12",
+      "title": "Comparative Study on Heavy Metals and Hydrocarbons Accumulation in Cassava Tubers Harvested from Four Different Locations in Rivers State, Nigeria",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 4,
+      "pdf_url": "http://article.sciencepublishinggroup.com/pdf/10.11648.j.ijee.20200502.12.pdf",
+      "landing_page_url": "https://doi.org/10.11648/j.ijee.20200502.12",
+      "license": "cc-by",
+      "source_display": "International Journal of Ecotoxicology and Ecobiology",
+      "authors": [
+        "Ndukwe Gloria Ihuoma",
+        "Odinga Tamuno-boma",
+        "Gabriel-Brisibe Christine Umanu",
+        "George Damiete Amabinba",
+        "Fou Erekedoumene"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2646777488",
+      "doi": "10.1088/1757-899x/206/1/012020",
+      "title": "Experimental study of bioethanol production using mixed cassava and durian seed",
+      "year": 2017,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 14,
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1757-899X/206/1/012020/pdf",
+      "landing_page_url": "https://doi.org/10.1088/1757-899x/206/1/012020",
+      "license": "cc-by",
+      "source_display": "IOP Conference Series Materials Science and Engineering",
+      "authors": [
+        "Qiu Han Seer",
+        "Jobrun Nandong",
+        "T Shanon"
+      ]
+    }
+  ]
+}

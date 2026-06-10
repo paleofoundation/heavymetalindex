@@ -1,0 +1,784 @@
+{
+  "target": "ingredient:rice",
+  "metal": "iAs",
+  "status": "ok",
+  "query": "(\"rice\" OR \"Rice\" OR \"grain\" OR \"rice flour\" OR \"rice syrup\" OR \"brown rice syrup\") AND (\"inorganic arsenic\" OR \"iAs\" OR \"arsenite\" OR \"arsenate\") AND (\"concentration\" OR \"contamination\" OR \"occurrence\" OR \"exposure\" OR \"heavy metal\" OR \"trace element\")",
+  "terms": [
+    "rice",
+    "Rice",
+    "grain",
+    "rice flour",
+    "rice syrup",
+    "brown rice syrup",
+    "rice protein",
+    "rice starch",
+    "white rice",
+    "brown rice",
+    "polished rice",
+    "husked rice"
+  ],
+  "candidates_count": 39,
+  "dropped": {
+    "dedup": 1,
+    "language": 0,
+    "no-doi": 0,
+    "too-old": 0,
+    "no-allowed-license": 58,
+    "low-impact-old": 0,
+    "off-topic": 2
+  },
+  "candidates": [
+    {
+      "openalex_id": "https://openalex.org/W4254235362",
+      "doi": "10.2903/j.efsa.2014.3597",
+      "title": "Dietary exposure to inorganic arsenic in the European population",
+      "year": 2014,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 335,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/7be174559ba34761897080df29cfb599",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "European Food Safety Authority"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2510561099",
+      "doi": "10.1289/ehp418",
+      "title": "Estimating Inorganic Arsenic Exposure from U.S. Rice and Total Water Intakes",
+      "year": 2016,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 65,
+      "pdf_url": "https://ehp.niehs.nih.gov/doi/pdf/10.1289/EHP418",
+      "landing_page_url": "https://doi.org/10.1289/ehp418",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Madhavi Mantha",
+        "Edward Yeary",
+        "J. A. Trent",
+        "Patricia A. Creed",
+        "Kevin M. Kubachka"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2986293157",
+      "doi": "10.1038/s41467-019-12946-4",
+      "title": "Rice production threatened by coupled stresses of climate and soil arsenic",
+      "year": 2019,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 279,
+      "pdf_url": "https://www.nature.com/articles/s41467-019-12946-4.pdf",
+      "landing_page_url": "https://doi.org/10.1038/s41467-019-12946-4",
+      "license": "cc-by",
+      "source_display": "Nature Communications",
+      "authors": [
+        "E. Marie Muehe",
+        "Tianmei Wang",
+        "Carolin F. Kerl",
+        "Britta Planer‐Friedrich",
+        "Scott Fendorf"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2528816338",
+      "doi": "10.1104/pp.16.01332",
+      "title": "OsHAC1;1 and OsHAC1;2 Function as Arsenate Reductases and Regulate Arsenic Accumulation",
+      "year": 2016,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 237,
+      "pdf_url": null,
+      "landing_page_url": "http://eprints.nottingham.ac.uk/43931/",
+      "license": "cc-by",
+      "source_display": "Nottingham ePrints (University of Nottingham)",
+      "authors": [
+        "Shulin Shi",
+        "Tao Wang",
+        "Ziru Chen",
+        "Zhong Tang",
+        "Zhongchang Wu"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2762665591",
+      "doi": "10.3390/agronomy7040067",
+      "title": "Arsenic Accumulation in Rice and Probable Mitigation Approaches: A Review",
+      "year": 2017,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 179,
+      "pdf_url": "https://www.mdpi.com/2073-4395/7/4/67/pdf?version=1507812883",
+      "landing_page_url": "https://doi.org/10.3390/agronomy7040067",
+      "license": "cc-by",
+      "source_display": "Agronomy",
+      "authors": [
+        "Anindita Mitra",
+        "Soumya Chatterjee",
+        "Roxana Moogouei",
+        "Dharmendra K. Gupta"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2600261454",
+      "doi": "10.3389/fpls.2017.00268",
+      "title": "Arsenic Transport in Rice and Biological Solutions to Reduce Arsenic Risk from Rice",
+      "year": 2017,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 228,
+      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpls.2017.00268/pdf",
+      "landing_page_url": "https://doi.org/10.3389/fpls.2017.00268",
+      "license": "cc-by",
+      "source_display": "Frontiers in Plant Science",
+      "authors": [
+        "Yanshan Chen",
+        "Yong-He Han",
+        "Yue Cao",
+        "Yong‐Guan Zhu",
+        "Bala Rathinasabapathi"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2070440540",
+      "doi": "10.1289/ehp.0901205",
+      "title": "Probabilistic Modeling of Dietary Arsenic Exposure and Dose and Evaluation with 2003–2004 NHANES Data",
+      "year": 2009,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 200,
+      "pdf_url": "https://ehp.niehs.nih.gov/doi/epdf/10.1289/ehp.0901205",
+      "landing_page_url": "https://doi.org/10.1289/ehp.0901205",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Jianping Xue",
+        "Valerie Zartarian",
+        "Sheng‐Wei Wang",
+        "Shi V. Liu",
+        "Panos G. Georgopoulos"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3028536875",
+      "doi": "10.3389/fsufs.2020.00053",
+      "title": "Arsenic in Rice Agro-Ecosystem: Solutions for Safe and Sustainable Rice Production",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 93,
+      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fsufs.2020.00053/pdf",
+      "landing_page_url": "https://doi.org/10.3389/fsufs.2020.00053",
+      "license": "cc-by",
+      "source_display": "Frontiers in Sustainable Food Systems",
+      "authors": [
+        "Munish Kumar Upadhyay",
+        "Arnab Majumdar",
+        "Jisha Suresh Kumar",
+        "Sudhakar Srivastava"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3037669126",
+      "doi": "10.1016/j.scitotenv.2020.140534",
+      "title": "Association of low-level inorganic arsenic exposure from rice with age-standardized mortality risk of cardiovascular disease (CVD) in England and Wales",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 33,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1016/j.scitotenv.2020.140534",
+      "license": "cc-by",
+      "source_display": "The Science of The Total Environment",
+      "authors": [
+        "Lingqian Xu",
+        "David A. Polya",
+        "Qian Li",
+        "Debapriya Mondal"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3010629835",
+      "doi": "10.1007/s12403-020-00349-6",
+      "title": "Rice Grain Cadmium Concentrations in the Global Supply-Chain",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 118,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12403-020-00349-6.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s12403-020-00349-6",
+      "license": "cc-by",
+      "source_display": "Exposure and Health",
+      "authors": [
+        "Zhengyu Shi",
+        "Manus Carey",
+        "Caroline Meharg",
+        "Paul N. Williams",
+        "Antonio J. Signes‐Pastor"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2026693849",
+      "doi": "10.1016/j.foodchem.2014.11.078",
+      "title": "Inorganic arsenic in rice-based products for infants and young children",
+      "year": 2014,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 166,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1016/j.foodchem.2014.11.078",
+      "license": "cc-by",
+      "source_display": "Food Chemistry",
+      "authors": [
+        "Antonio J. Signes‐Pastor",
+        "Manus Carey",
+        "Andrew A. Meharg"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2986999620",
+      "doi": "10.1007/s12403-019-00330-y",
+      "title": "Global Sourcing of Low-Inorganic Arsenic Rice Grain",
+      "year": 2019,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 66,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12403-019-00330-y.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s12403-019-00330-y",
+      "license": "cc-by",
+      "source_display": "Exposure and Health",
+      "authors": [
+        "Manus Carey",
+        "Caroline Meharg",
+        "Paul N. Williams",
+        "Ernest Marwa",
+        "Xiao Jiujin"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4311858219",
+      "doi": "10.3390/ijerph192416460",
+      "title": "Exposure to Inorganic Arsenic in Rice in Brazil: A Human Health Risk Assessment",
+      "year": 2022,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 15,
+      "pdf_url": "https://www.mdpi.com/1660-4601/19/24/16460/pdf?version=1670487125",
+      "landing_page_url": "https://doi.org/10.3390/ijerph192416460",
+      "license": "cc-by",
+      "source_display": "International Journal of Environmental Research and Public Health",
+      "authors": [
+        "M.C. Fischer de Toledo",
+        "Janice S. Lee",
+        "Bruno Lemos Batista",
+        "Kelly Polido Kaneshiro Olympio",
+        "Adelaide Cássia Nardocci"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2135829420",
+      "doi": "10.1093/jxb/eru018",
+      "title": "Identification and quantification of phytochelatins in roots of rice to long-term exposure: evidence of individual role on arsenic accumulation and translocation",
+      "year": 2014,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 170,
+      "pdf_url": null,
+      "landing_page_url": "http://dx.doi.org/10.1093/jxb/eru018",
+      "license": "cc-by",
+      "source_display": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+      "authors": [
+        "Bruno Lemos Batista",
+        "Meher Nigar",
+        "Adrien Mestrot",
+        "Bruno Alves Rocha",
+        "Fernando Barbosa"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2132509033",
+      "doi": "10.1104/pp.111.173088",
+      "title": "High-Resolution Secondary Ion Mass Spectrometry Reveals the Contrasting Subcellular Distribution of Arsenic and Silicon in Rice Roots      ",
+      "year": 2011,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 142,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1104/pp.111.173088",
+      "license": "cc-by",
+      "source_display": "PLANT PHYSIOLOGY",
+      "authors": [
+        "Katie L. Moore",
+        "Markus Schröder",
+        "Zhongchang Wu",
+        "Barry Martin",
+        "Chris Hawes"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2154223973",
+      "doi": "10.1289/ehp.9322",
+      "title": "<i>In Vivo</i> Assessment of Arsenic Bioavailability in Rice and Its Significance for Human Health Risk Assessment",
+      "year": 2006,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 254,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1289/ehp.9322",
+      "license": "public-domain",
+      "source_display": "Environmental Health Perspectives",
+      "authors": [
+        "Albert L. Juhasz",
+        "Euan Smith",
+        "John Weber",
+        "Matthew Rees",
+        "Allan M. Rofe"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3017056785",
+      "doi": "10.1016/j.ecoenv.2020.110601",
+      "title": "Do arsenic levels in rice pose a health risk to the UK population?",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 67,
+      "pdf_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0147651320304401-fx1_lrg.jpg",
+      "landing_page_url": "https://doi.org/10.1016/j.ecoenv.2020.110601",
+      "license": "cc-by",
+      "source_display": "Ecotoxicology and Environmental Safety",
+      "authors": [
+        "Manoj Menon",
+        "Binoy Sarkar",
+        "Joseph Hufton",
+        "Christian Reynolds",
+        "Saúl Vázquez Reina"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3135213049",
+      "doi": "10.1038/s41467-021-21282-5",
+      "title": "A molecular switch in sulfur metabolism to reduce arsenic and enrich selenium in rice grain",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 120,
+      "pdf_url": "https://www.nature.com/articles/s41467-021-21282-5.pdf",
+      "landing_page_url": "https://doi.org/10.1038/s41467-021-21282-5",
+      "license": "cc-by",
+      "source_display": "Nature Communications",
+      "authors": [
+        "Sheng‐Kai Sun",
+        "Xuejie Xu",
+        "Zhong Tang",
+        "Zhu Tang",
+        "Xin‐Yuan Huang"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2765470376",
+      "doi": "10.3389/fpls.2017.01868",
+      "title": "OsARM1, an R2R3 MYB Transcription Factor, Is Involved in Regulation of the Response to Arsenic Stress in Rice",
+      "year": 2017,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 213,
+      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpls.2017.01868/pdf",
+      "landing_page_url": "https://doi.org/10.3389/fpls.2017.01868",
+      "license": "cc-by",
+      "source_display": "Frontiers in Plant Science",
+      "authors": [
+        "Fengzhu Wang",
+        "Mo‐Xian Chen",
+        "Lu-Jun Yu",
+        "Li-Juan Xie",
+        "Li‐Bing Yuan"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2004391803",
+      "doi": "10.1016/j.foodchem.2013.10.155",
+      "title": "The intake of inorganic arsenic from long grain rice and rice-based baby food in Finland – Low safety margin warrants follow up",
+      "year": 2013,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 80,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1016/j.foodchem.2013.10.155",
+      "license": "cc-by",
+      "source_display": "Food Chemistry",
+      "authors": [
+        "Eeva-Maria Rintala",
+        "Päivi Ekholm",
+        "Pertti Koivisto",
+        "Kimmo Peltonen",
+        "Eija-Riitta Venäläinen"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3123304946",
+      "doi": "10.1186/s12870-021-02929-3",
+      "title": "Zinc oxide nanoparticles alleviate the arsenic toxicity and decrease the accumulation of arsenic in rice (Oryza sativa L.)",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 141,
+      "pdf_url": "https://bmcplantbiol.biomedcentral.com/counter/pdf/10.1186/s12870-021-02929-3",
+      "landing_page_url": "https://doi.org/10.1186/s12870-021-02929-3",
+      "license": "cc-by",
+      "source_display": "BMC Plant Biology",
+      "authors": [
+        "Shiwei Yan",
+        "Fan Wu",
+        "Song Zhou",
+        "Jianhao M. Yang",
+        "Xianjin Tang"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1970537167",
+      "doi": "10.1016/j.arabjc.2014.02.004",
+      "title": "Rice is a potential dietary source of not only arsenic but also other toxic elements like lead and chromium",
+      "year": 2014,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 111,
+      "pdf_url": null,
+      "landing_page_url": "https://doaj.org/article/f3c551aa864540549d219ffe83349388",
+      "license": "cc-by-sa",
+      "source_display": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        "Amjad Shraim"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2895408490",
+      "doi": "10.3390/ijerph15102191",
+      "title": "A Comprehensive Review of Arsenic Exposure and Risk from Rice and a Risk Assessment among a Cohort of Adolescents in Kunming, China",
+      "year": 2018,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 57,
+      "pdf_url": "https://www.mdpi.com/1660-4601/15/10/2191/pdf?version=1538982361",
+      "landing_page_url": "https://doi.org/10.3390/ijerph15102191",
+      "license": "cc-by",
+      "source_display": "International Journal of Environmental Research and Public Health",
+      "authors": [
+        "Noelle S. Liao",
+        "Edmund Seto",
+        "Brenda Eskenazi",
+        "May D. Wang",
+        "Yan Li"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4319787141",
+      "doi": "10.3390/agriculture13020401",
+      "title": "Multifarious Effects of Arsenic on Plants and Strategies for Mitigation",
+      "year": 2023,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 44,
+      "pdf_url": "https://www.mdpi.com/2077-0472/13/2/401/pdf?version=1675934463",
+      "landing_page_url": "https://doi.org/10.3390/agriculture13020401",
+      "license": "cc-by",
+      "source_display": "Agriculture",
+      "authors": [
+        "Rahul Beniwal",
+        "Radheshyam Yadav",
+        "Wusirika Ramakrishna"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2768857549",
+      "doi": "10.1007/s11356-017-0515-z",
+      "title": "Transcriptional changes measured in rice roots after exposure to arsenite-contaminated sediments",
+      "year": 2017,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 15,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11356-017-0515-z.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s11356-017-0515-z",
+      "license": "cc-by",
+      "source_display": "Environmental Science and Pollution Research",
+      "authors": [
+        "Alexandra Brinke",
+        "Georg Reifferscheid",
+        "Roland Klein",
+        "Ute Feiler",
+        "Sebastian Buchinger"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2572471293",
+      "doi": "10.1038/srep40522",
+      "title": "Accumulation and transformation of inorganic and organic arsenic in rice and role of thiol-complexation to restrict their translocation to shoot",
+      "year": 2017,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 111,
+      "pdf_url": "https://www.nature.com/articles/srep40522.pdf",
+      "landing_page_url": "https://doi.org/10.1038/srep40522",
+      "license": "cc-by",
+      "source_display": "Scientific Reports",
+      "authors": [
+        "Seema Mishra",
+        "Jürgen Mattusch",
+        "Rainer Wennrich"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3158268707",
+      "doi": "10.3390/ijerph18094643",
+      "title": "Impact of Water Regimes and Amendments on Inorganic Arsenic Exposure to Rice",
+      "year": 2021,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 7,
+      "pdf_url": "https://www.mdpi.com/1660-4601/18/9/4643/pdf?version=1619576368",
+      "landing_page_url": "https://doi.org/10.3390/ijerph18094643",
+      "license": "cc-by",
+      "source_display": "International Journal of Environmental Research and Public Health",
+      "authors": [
+        "Supriya Majumder",
+        "Pabitra Kumar Biswas⃰",
+        "Pabitra Banik"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3097283207",
+      "doi": "10.1016/j.scitotenv.2020.143341",
+      "title": "Improved rice cooking approach to maximise arsenic removal while preserving nutrient elements",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 58,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1016/j.scitotenv.2020.143341",
+      "license": "cc-by",
+      "source_display": "The Science of The Total Environment",
+      "authors": [
+        "Manoj Menon",
+        "Wanrong Dong",
+        "Xumin Chen",
+        "Joseph Hufton",
+        "Edward J. Rhodes"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2172071398",
+      "doi": "10.1038/srep16205",
+      "title": "Sulfur alleviates arsenic toxicity by reducing its accumulation and modulating proteome, amino acids and thiol metabolism in rice leaves",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 114,
+      "pdf_url": "https://www.nature.com/articles/srep16205.pdf",
+      "landing_page_url": "https://doi.org/10.1038/srep16205",
+      "license": "cc-by",
+      "source_display": "Scientific Reports",
+      "authors": [
+        "Garima Dixit",
+        "Amit Singh",
+        "Amit Kumar",
+        "Sanjay Dwivedi",
+        "Farah Deeba"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2419167692",
+      "doi": "10.1038/srep13611",
+      "title": "The diversity and abundance of As(III) oxidizers on root iron plaque is critical for arsenic bioavailability to rice",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 87,
+      "pdf_url": "https://www.nature.com/articles/srep13611.pdf",
+      "landing_page_url": "https://doi.org/10.1038/srep13611",
+      "license": "cc-by",
+      "source_display": "Scientific Reports",
+      "authors": [
+        "Min Hu",
+        "Fangbai Li",
+        "Chuanping Liu",
+        "Weijian Wu"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3051416389",
+      "doi": "10.1007/s12403-020-00376-3",
+      "title": "Avoiding Rice-Based Cadmium and Inorganic Arsenic in Infant Diets Through Selection of Products Low in Concentration of These Contaminants",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 8,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12403-020-00376-3.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s12403-020-00376-3",
+      "license": "cc-by",
+      "source_display": "Exposure and Health",
+      "authors": [
+        "Zhengyu Shi",
+        "Manus Carey",
+        "Emily Davidson",
+        "Caroline Meharg",
+        "Andrew A. Meharg"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2237805763",
+      "doi": "10.3389/fpls.2015.01272",
+      "title": "Nitric Oxide Alleviated Arsenic Toxicity by Modulation of Antioxidants and Thiol Metabolism in Rice (Oryza sativa L.)",
+      "year": 2016,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 154,
+      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpls.2015.01272/pdf",
+      "landing_page_url": "https://doi.org/10.3389/fpls.2015.01272",
+      "license": "cc-by",
+      "source_display": "Frontiers in Plant Science",
+      "authors": [
+        "Amit Singh",
+        "Garima Dixit",
+        "Amit Kumar",
+        "Seema Mishra",
+        "Pradyumna Kumar Singh"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W1982863651",
+      "doi": "10.1155/2013/835371",
+      "title": "The Determination of Arsenic Compounds: A Critical Review",
+      "year": 2013,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 53,
+      "pdf_url": "https://downloads.hindawi.com/archive/2013/835371.pdf",
+      "landing_page_url": "https://doi.org/10.1155/2013/835371",
+      "license": "cc-by",
+      "source_display": "ISRN Analytical Chemistry",
+      "authors": [
+        "Julian F. Tyson"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W3000599075",
+      "doi": "10.3390/ijerph17020415",
+      "title": "Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia",
+      "year": 2020,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 36,
+      "pdf_url": "https://www.mdpi.com/1660-4601/17/2/415/pdf?version=1578483807",
+      "landing_page_url": "https://doi.org/10.3390/ijerph17020415",
+      "license": "cc-by",
+      "source_display": "International Journal of Environmental Research and Public Health",
+      "authors": [
+        "Zhuyun Gu",
+        "Shamali De Silva",
+        "Suzie M. Reichman"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2116028202",
+      "doi": "10.1186/s40550-015-0007-1",
+      "title": "Presence of arsenic in Sri Lankan rice",
+      "year": 2015,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 40,
+      "pdf_url": "https://foodcontaminationjournal.biomedcentral.com/track/pdf/10.1186/s40550-015-0007-1",
+      "landing_page_url": "https://doi.org/10.1186/s40550-015-0007-1",
+      "license": "cc-by",
+      "source_display": "International Journal of Food Contamination",
+      "authors": [
+        "Channa Jayasumana",
+        "P.A. Paranagama",
+        "Saranga Fonseka",
+        "M. D. Amarasinghe",
+        "Sarath Gunatilake"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W2888791351",
+      "doi": "10.3389/fpls.2018.01330",
+      "title": "OsWRKY28 Regulates Phosphate and Arsenate Accumulation, Root System Architecture and Fertility in Rice",
+      "year": 2018,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 92,
+      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.3389/fpls.2018.01330",
+      "license": "cc-by",
+      "source_display": "Frontiers in Plant Science",
+      "authors": [
+        "Peitong Wang",
+        "Xuan Xu",
+        "Zhong Tang",
+        "Wenwen Zhang",
+        "Xin‐Yuan Huang"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4320497283",
+      "doi": "10.3390/life13020511",
+      "title": "Characterization and Quantification of Arsenic Species in Foodstuffs of Plant Origin by HPLC/ICP-MS",
+      "year": 2023,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 21,
+      "pdf_url": "https://www.mdpi.com/2075-1729/13/2/511/pdf?version=1676194402",
+      "landing_page_url": "https://doi.org/10.3390/life13020511",
+      "license": "cc-by",
+      "source_display": "Life",
+      "authors": [
+        "Teresa D’Amore",
+        "Oto Miedico",
+        "Ciro Pompa",
+        "Chiara Preite",
+        "Marco Iammarino"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4318480136",
+      "doi": "10.1016/j.envpol.2023.121152",
+      "title": "Decreasing arsenic in rice: Interactions of soil sulfate amendment and water management",
+      "year": 2023,
+      "language": "en",
+      "type": "article",
+      "cited_by_count": 26,
+      "pdf_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0269749123001549-gr001_lrg.jpg",
+      "landing_page_url": "https://doi.org/10.1016/j.envpol.2023.121152",
+      "license": "cc-by",
+      "source_display": "Environmental Pollution",
+      "authors": [
+        "Xu Fang",
+        "Iso Christl",
+        "Andrea E. Colina Blanco",
+        "Britta Planer‐Friedrich",
+        "Fang‐Jie Zhao"
+      ]
+    },
+    {
+      "openalex_id": "https://openalex.org/W4403042641",
+      "doi": "10.1007/s40572-024-00462-7",
+      "title": "Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies",
+      "year": 2024,
+      "language": "en",
+      "type": "review",
+      "cited_by_count": 45,
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40572-024-00462-7.pdf",
+      "landing_page_url": "https://doi.org/10.1007/s40572-024-00462-7",
+      "license": "cc-by",
+      "source_display": "Current Environmental Health Reports",
+      "authors": [
+        "Di Zhao",
+        "Peng Wang",
+        "Fang-Jie Zhao"
+      ]
+    }
+  ]
+}
