@@ -82,13 +82,20 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/lead\|Pb]] | apple-containing (summary-only / supporting context) | median 1.5 ppb (1 source); highest reported 2.7 ppb | 67% detected (2/3, Fda 2022, FDA TDS prepared food/composite; reported concentration values retained) | [[regulations/fda2022-draft-lead-juice]]: 10 ppb (single-strength ready-to-drink juice) | 1 cited | low (1-2 sources) | FDA TDS prepared food/composite; reported concentration values retained |
 <!-- END: hmi-hmtc-evidence-summary -->
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/fda2011-apple-juice-arsenic-speciation]] — n=94 single-strength apple juice; iAs sample-level (primary admitted-pool source for the at-bar iAs cell).
-- [[sources/fda2016-infant-toddler-foods-inorganic-arsenic]] — Grape-and-grape-containing juice subset (n=58 quantified iAs cells); supporting context for fruit-juices-apple-containing's apple-grape blend subset.
-- [[sources/fda2018-lead-in-juice-fy2005-fy2018]] — FDA longitudinal Pb in juice FY2005-FY2018; sample-level Pb extraction pending for the approaching Pb cell.
-- [[sources/fda2022-tds-elements-fy2018-fy2020]] — FDA TDS Pb/Cd/tAs/Ni in apple juice (n=3 small-N).
-- [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]] — Ethiopia n=80 packaged fruit juices including apple-containing subset; Pb/Cd/Cr/Ni sample-level.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | *[awaiting synthesis]* |
+| 2 | [[sources/fda2018-lead-in-juice-fy2005-fy2018\|FDA 2018]]. *Analytical Results for Lead in Juice Sampled Under the FDA's Toxic Elements in Food and Foodware, and Radionuclides in Food – Import and Domestic Compliance Program (FY2005-FY2018)*, FDA analytical results table | 2018 | Government dataset | *[awaiting synthesis]* |
+| 3 | [[sources/tarigan2016-factors-tin-released-canned-beverages\|Tarigan et al. 2016]]. *Factors are Affecting Tin Released in Canned Beverages*, International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333 | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/fda2011-apple-juice-arsenic-speciation\|FDA 2011]]. *Results of Arsenic Analysis in Single-Strength Apple Juice 2011 (ORA Sampling Assignment 2011102701)*, U.S. Food and Drug Administration | 2011 | Government dataset | *[awaiting synthesis]* |
+| 5 | [[sources/atsdr2005-tin-toxicological-profile\|Harper et al. 2005]]. *Toxicological Profile for Tin and Tin Compounds*, U.S. Department of Health and Human Services, ATSDR | 2005 | Government report | *[awaiting synthesis]* |
+| 6 | [[sources/benoy1971-tin-toxicity-canned-fruit-juices\|Benoy et al. 1971]]. *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*, Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 | 1971 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
 
 ## CC candidate evidence map
 

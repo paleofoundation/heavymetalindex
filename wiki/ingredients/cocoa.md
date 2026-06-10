@@ -154,17 +154,23 @@ The remaining HMI-tracked metals on cocoa (iAs, tAs, tHg, MeHg, Sn, U) do not ha
 - [[sources/efsa-nickel-contam-2020|EFSA Nickel 2020]] — Chronic TDI 13 µg Ni/kg b.w./day; acute LOAEL 4.3 µg Ni/kg b.w. for eczematous flare-up in sensitized individuals. No cocoa-specific Ni ML at international level.
 - FDA Pb in candy: recommended maximum level 0.1 mg/kg for candy including chocolate candy ([[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|Abt and Robin 2020]] cites the FDA guidance).
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Abt et al. 2018]] — FDA U.S. market convenience-sample survey of 144 cocoa-and-chocolate products with Cd and Pb by ICP-MS; per-matrix means and percent-cocoa-and-origin correlation.
-- [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|Abt and Robin 2020]] — FDA perspective synthesizing Abt 2018 with JECFA 2013, FDA 2014-2016 dietary exposure, and Codex international standards efforts.
-- [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment; cocoa-inclusive child exposure up to 96 percent of PTMI.
-- [[sources/codex-cccf17-2024|Codex CCCF17 2024]] — Codex CCCF, April 2024. Report of the 17th Session (REP24/CF17).
-- [[sources/codex-cxc-81-2022|Codex CXC 81-2022]] — Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans.
-- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — International General Standard for Contaminants and Toxins in Food and Feed; cocoa powder Cd ML 2.0 mg/kg and chocolate Cd MLs scaled by cocoa-solid percentage.
-- [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] — EFSA Scientific Opinion on cadmium in food; 140,000-sample occurrence dataset identifying chocolate among major dietary Cd contributors.
-- [[sources/efsa-nickel-contam-2020|EFSA Ni 2020]] — EFSA CONTAM Panel update; cocoa explicitly named among top dietary Ni sources alongside drinking water, nuts, legumes, and cereals.
-- [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] — Foundational Ni-in-food review (2,221 samples post-1969 literature, AAS/PIXE methods); cocoa mean 9.8 µg/g (range 8.2-12 µg/g, n=7), highest of any food matrix surveyed.
-- [[sources/pacor2003-nickel-recurrent-aphthous-stomatitis-dbpc|Pacor et al. 2003]] — DBPC trial in recurrent aphthous stomatitis; cocoa identified as aggravating food in 92.6 percent of nickel-reactive patients.
-- [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france|Hernandez et al. 2019]] — French Cr-VI/Cr-III speciation in milk, dairy, and cereal products; cocoa-containing breakfast cereals 360-483 ppb total Cr, chocolate biscuit 103 ppb.
-- [[sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi|Elsheikh et al. 2020]] — Saudi children's-foods elements by ICP-OES; cocoa sweets is one of the matrices analyzed for Al-and-others (B-tier journal).
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/codex-cxc-81-2022\|Codex 2022]]. *Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)*, FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome. | 2022 | Government report | *[awaiting synthesis]* |
+| 2 | [[sources/jecfa-91st-cadmium-2022\|JECFA 2022]]. *Cadmium: dietary exposure assessment*, WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA) | 2022 | Government report | *[awaiting synthesis]* |
+| 3 | [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate\|Abt et al. 2020]]. *Perspective on Cadmium and Lead in Cocoa and Chocolate*, Journal of Agricultural and Food Chemistry | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\|Paiva et al. 2020]]. *Aluminium in infant foods: Total content, effect of in vitro digestion on bioaccessible fraction and preliminary exposure assessment*, Journal of Food Composition and Analysis 90:103493 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/efsa-nickel-contam-2020\|EFSA 2020]]. *Update of the Risk Assessment of Nickel in Food and Drinking Water*, EFSA Journal 2020;18(11):6268 | 2020 | Government report | *[awaiting synthesis]* |
+| 6 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market\|Abt et al. 2018]]. *Cadmium and Lead in Cocoa Powder and Chocolate Products in the U.S. Market*, Food Additives & Contaminants: Part B Surveillance | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | *[awaiting synthesis]* |
+| 9 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | *[awaiting synthesis]* |
+| 10 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | *[awaiting synthesis]* |
+| 11 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

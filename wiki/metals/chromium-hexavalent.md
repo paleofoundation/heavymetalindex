@@ -67,10 +67,18 @@ What Cr-VI speciation evidence exists outside the infant-formula matrix? Drinkin
 
 How do supply-chain Cr-VI exposures (chromated wood pallets, chromate-containing process equipment, chromated leather and gelatin) propagate into finished food? This is a manufacturing and packaging question, not a primary-agriculture question, and the loaded sources do not address it.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/ufelle2021-metals-chapter|Ufelle and Barchowsky 2021]] — Ufelle AC, Barchowsky A. Toxic Effects of Metals. Casarett and Doull's Essentials of Toxicology, 4th ed. Chapter 23. Cr-VI toxicology, mechanism of cellular entry, carcinogenicity, immune reactivity, and population susceptibility.
-- [[sources/soares2000-chromium-vi-powdered-milk-formulas|Soares et al. 2000]] — Soares ME, Bastos ML, Ferreira M. Selective Determination of Chromium (VI) in Powdered Milk Infant Formulas by Electrothermal Atomization Atomic Absorption Spectrometry after Ion Exchange. J. AOAC International. The wiki's only loaded Cr-VI food-occurrence source: 20 powdered milk infant formula samples from Portugal, with group means of 12 to 33 ppb Cr-VI and source-scope ranges to 75 ppb.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/sadiq-beauchemin-2021-multielemental-baby-rice-cereals\|Sadiq et al. 2021]]. *Multi-elemental risk assessment of various baby rice cereals: some cause for concern?*, Canadian Journal of Chemistry 99(8):742-750 | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/saraiva2021-chromium-speciation-milk-meat-cooking-france\|Saraiva et al. 2021]]. *Chromium speciation analysis in raw and cooked milk and meat samples by species-specific isotope dilution and HPLC-ICP-MS*, Food Additives & Contaminants Part A 38(2):304-314 | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\|Hernandez et al. 2019]]. *Cr(VI) and Cr(III) in milk, dairy and cereal products and dietary exposure assessment*, Food Additives & Contaminants Part B: Surveillance | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/soares2000-chromium-vi-powdered-milk-formulas\|Soares et al. 2000]]. *Selective Determination of Chromium (VI) in Powdered Milk Infant Formulas by Electrothermal Atomization Atomic Absorption Spectrometry after Ion Exchange*, Journal of AOAC International 83(1):220-223 | 2000 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
 
 ## Total-chromium sources that explicitly do not speciate Cr-VI
 

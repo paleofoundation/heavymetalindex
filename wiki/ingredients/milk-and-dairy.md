@@ -31,11 +31,18 @@ _Stub page. Chekri et al. 2019 reports infant formulae, follow-on formulae, grow
 
 _Pending dairy-specific occurrence extraction. Formula-specific values remain filed under the relevant product pages._
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] — French infant/toddler TDS formula and dairy category rows.
-- [[sources/burrell2010-aluminium-in-infant-formulas]] — UK infant formula aluminum survey covering cow-milk-based ready-made and powdered formula products.
-- [[sources/chuchu2013-aluminium-in-infant-formulas]] — UK 30-product infant formula aluminum survey.
-- [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] — Canadian milk-based formula format rows; product-level context only for this ingredient page.
-- [[sources/astolfi2021-italy-powdered-infant-formula-elements]] — Italian powdered infant formula multi-element survey; product-level context only for this ingredient page.
-- [[sources/kazi2009-toxic-elements-in-infant-formulae]] — milk-based infant formula Al, Cd, and Pb comparator values; product-level context only for this ingredient page.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|Collado-Lopez et al. 2025]]. *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*, Nutrition Reviews | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/chuchu2013-aluminium-in-infant-formulas\|Chuchu et al. 2013]]. *The aluminium content of infant formulas remains too high*, BMC Pediatrics | 2013 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|Dabeka et al. 2011]]. *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*, Food Additives & Contaminants: Part A | 2011 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/burrell2010-aluminium-in-infant-formulas\|Burrell et al. 2010]]. *There is (still) too much aluminium in infant formulas*, BMC Pediatrics | 2010 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/kazi2009-toxic-elements-in-infant-formulae\|Kazi et al. 2009]]. *Determination of toxic elements in infant formulae by using electrothermal atomic absorption spectrometer*, Food and Chemical Toxicology | 2009 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

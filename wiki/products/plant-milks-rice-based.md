@@ -76,12 +76,18 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/lead\|Pb]] | rice-based (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/damato2026-inorganic-arsenic-rice-based-beverages]] — n=25 Italian rice-based beverages; iAs/tAs summary-level (mean+median+range). Primary source for the approaching iAs cell.
-- [[sources/gu2020-arsenic-rice-infant-food-australia]] — Rice-milk-powder subset n=3 triangulation (below 10-sample defensibility floor). Supports n_a_tier=2 with caveat.
-- [[sources/marques2021-trace-elements-milks-plant-based-drinks]] — Spanish ICP-MS plant-drink survey including rice drinks; Pb/Hg/Ni/U/V (no iAs measurement). Supports Pb/Hg/Ni cells.
-- [[sources/brombach2017-methylmercury-european-commercial-rice]] — European rice ingredient MeHg/tHg cascade context for rice plant-milk subcategory.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/damato2026-inorganic-arsenic-rice-based-beverages\|D'Amato et al. 2026]]. *Inorganic Arsenic in Rice-Based Beverages: Occurrence in Products Available on the Italian Market and Dietary Exposure Assessment*, Foods | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/gu2020-arsenic-rice-infant-food-australia\|Gu et al. 2020]]. *Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia*, International Journal of Environmental Research and Public Health 17(2):415 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/brombach2017-methylmercury-european-commercial-rice\|C-C et al. 2016]]. *Methylmercury varies more than one order of magnitude in commercial European rice*, Food Chemistry | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
 
 ## CC candidate evidence map
 

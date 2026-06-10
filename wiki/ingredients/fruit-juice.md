@@ -31,6 +31,15 @@ _Stub page. Chekri et al. 2019 reports a French infant fruit-juice category with
 
 _Pending juice-specific extraction. Current Category 1 values are product-level context for [[products/fruit-juice-not-canned]]._
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] — French infant/toddler TDS fruit-juice category row.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/fda2022-draft-lead-juice\|FDA 2022]]. *Draft Guidance for Industry: Action Levels for Lead in Juice*, FDA Draft Guidance for Industry | 2022 | Government guidance | *[awaiting synthesis]* |
+| 2 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/fda2004-juice-haccp-lead\|FDA 2004]]. *Juice HACCP Hazards and Controls Guidance, First Edition — Lead in Juice*, FDA Guidance for Industry | 2004 | Government guidance | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

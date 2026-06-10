@@ -23,3 +23,13 @@ _Stub page. This bridge node exists because Dabeka et al. 2011 measured 5% gluco
 ## Row Mapping
 
 Keep these values separate from infant formula and food rows. They may matter for infant exposure context, but they should not be pooled into formula p90 or p100 calculations.
+
+<!-- BEGIN: hmi-source-legend -->
+## Sources
+
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|Dabeka et al. 2011]]. *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*, Food Additives & Contaminants: Part A | 2011 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
