@@ -86,6 +86,23 @@ const rows = rawLines
   .filter((l) => l.trim())
   .map((line) => ({ raw: line, cells: parseCsvLine(line) }))
 
+// ---------- Attempts cap (FRANK v2) ----------
+// The 2026-06-09 runaway: this script selected {pending, pending-audit-spawn-
+// failed} and, on failure, only logged — it never wrote the row's status back,
+// so the same 154 rows were re-selected and re-burned every cycle. The cap makes
+// that impossible: a cite_key that has failed MAX_AUDIT_ATTEMPTS times is dropped
+// from selection (dead-lettered), and the count increments on every failure here.
+// Seeded by tools/autonomy/quarantine-spawn-failed.mjs.
+const MAX_AUDIT_ATTEMPTS = 5
+const attemptsPath = path.join(autonomyDir, "audit-attempts.json")
+function loadAttempts() {
+  try { return fs.existsSync(attemptsPath) ? JSON.parse(fs.readFileSync(attemptsPath, "utf8")) : {} } catch { return {} }
+}
+function saveAttempts(a) {
+  try { fs.mkdirSync(autonomyDir, { recursive: true }); fs.writeFileSync(attemptsPath, JSON.stringify(a, null, 2) + "\n", "utf8") } catch {}
+}
+const auditAttempts = loadAttempts()
+
 // ---------- Candidate selection ----------
 
 let candidates
@@ -97,7 +114,14 @@ if (citeKeyOverride) {
   }
 } else {
   const PENDING_STATUSES = new Set(["pending", "pending-audit-spawn-failed"])
-  candidates = rows.filter((r) => PENDING_STATUSES.has(r.cells[COL_STATUS])).slice(0, maxEntries)
+  const eligible = rows.filter((r) => PENDING_STATUSES.has(r.cells[COL_STATUS]))
+  const capped = eligible.filter((r) => (auditAttempts[r.cells[COL_CITE]] || 0) >= MAX_AUDIT_ATTEMPTS)
+  if (capped.length) {
+    console.log(`Skipping ${capped.length} cite-key(s) at the ${MAX_AUDIT_ATTEMPTS}-attempt cap (dead-lettered, will not be re-burned).`)
+  }
+  candidates = eligible
+    .filter((r) => (auditAttempts[r.cells[COL_CITE]] || 0) < MAX_AUDIT_ATTEMPTS)
+    .slice(0, maxEntries)
 }
 
 if (candidates.length === 0) {
@@ -216,7 +240,10 @@ for (const candidate of candidates) {
     console.log(`  STOP: ${result.reason}`)
   } else {
     failed.push({ citeKey, error: result.error })
-    console.log(`  FAIL: ${result.error}`)
+    auditAttempts[citeKey] = (auditAttempts[citeKey] || 0) + 1
+    saveAttempts(auditAttempts)
+    const capNote = auditAttempts[citeKey] >= MAX_AUDIT_ATTEMPTS ? " — now dead-lettered from rotation" : ""
+    console.log(`  FAIL: ${result.error} (attempt ${auditAttempts[citeKey]}/${MAX_AUDIT_ATTEMPTS}${capNote})`)
   }
 }
 
