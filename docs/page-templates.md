@@ -300,6 +300,24 @@ Sections: Principle, What it measures (and what it does not — total vs speciat
 
 Speciation deserves its own page (`testing/arsenic-speciation.md`) because the regulatory and health distinction between inorganic and organic arsenic is central to the whole domain.
 
+## Supply-chain page (`wiki/supply-chain/<pathway>.md`)
+
+```yaml
+---
+type: supply-chain
+status: in_progress
+metals: [Cd, iAs, tAs, Pb, Ni]
+audience: [regulator, educator, commercial, researcher]
+updated: 2026-06-10
+---
+```
+
+Supply-chain pages are the hub/synthesis pages for the **upstream** half of the corpus: how heavy metals reach a food crop or supply-chain input before it is ever a finished product. They cover soil geochemistry and root uptake, irrigation/ground/process/waste water, fertilisers, sewage sludge and biosolids, atmospheric deposition from mining and smelting, animal feed, food-contact equipment, packaging, and storage. The archetype is `supply-chain/soil-to-plant-transfer.md`.
+
+Sections: the pathway mechanism; the quantitative discipline governing how the upstream evidence may be used (transfer factors, bioavailability); element-specific behaviour; agronomic and environmental drivers; anthropogenic vs geogenic sources; and how upstream-source evidence connects to the downstream `ingredients`/`products` pages.
+
+Load-bearing rule (the Part 2 firewall in operational form): **soil/sediment/water concentration is not food concentration.** A supply-chain page reports transfer factors, uptake mechanisms, and drivers; it never promotes an upstream number into the measured food-occurrence record on an ingredient page, and upstream numbers never enter the HMT&C threshold percentiles. Individual upstream studies are ingested as ordinary **source pages** in `wiki/sources/` (with `products: []`, `ingredients: []`, and an environmental `matrices:` slug such as `soil`/`sediment`/`irrigation-water`); the routing layer attaches each to the relevant supply-chain hub and to the food crop it informs as upstream context, never as direct food-occurrence evidence. This is the in-scope **Supply-chain source / contamination pathway** dimension in [[docs/conventions]] "Ingest scope" and lane (a3) of the Codex sprint-ingest prompt.
+
 ## Microbiome page (`wiki/microbiome/<topic>.md`)
 
 ```yaml
