@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-formul
 metals: [Cd, Co, Cr, Cu, Mn, Ni, Pb, Zn, Fe]
 ingredients: []
 products: []
-matrices: [agricultural-soil, saffron-cultivation-soil]
+matrices: [agricultural-soil]
 jurisdictions: [IR]
 near_duplicates: []
 sample_n: 16
@@ -56,6 +56,7 @@ App: Context only. The soil values should not populate a saffron or spice contam
 
 - [[supply-chain/soil-to-plant-transfer]]
 - [[metals/cadmium]]
+- [[metals/cobalt]]
 - [[metals/chromium]]
 - [[metals/lead]]
 - [[metals/nickel]]
