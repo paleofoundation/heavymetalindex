@@ -22,7 +22,7 @@ jurisdictions: [UK]
 near_duplicates: []
 sample_n: null
 sample_population: "Food Standards Agency-commissioned literature review and secondary tabulation of published, FSA, and University of Aberdeen rice arsenic data, including market rice, rice drinks, baby rice, rice-based infant foods, and exposure modeling; no brand/manufacturer names are reproduced on this source page."
-updated: 2026-06-09
+updated: 2026-06-10
 ---
 
 # Meharg et al. 2008 - Rice arsenic literature review
@@ -41,11 +41,11 @@ Meharg and colleagues prepared this Food Standards Agency contract review to sum
 - FSA baby-food survey total arsenic: Table 3.10 reports pure/organic baby rice dry products from `0.150` to `0.276 mg/kg`, organic rice porridge `0.217 mg/kg`, organic rice cakes orange `0.404 mg/kg`, organic rice cakes `0.272 mg/kg`, chocolate rice sandwiches `0.106 mg/kg`, and organic rice cakes apple `0.220 mg/kg`.
 - FSA baby-food descriptive statistics: Table 3.11 reports total arsenic means of `0.200 mg/kg` for `7` rice products, `0.250 mg/kg` for `4` rice bars, `0.217 mg/kg` for `1` rice porridge, `0.069 mg/kg` for `1` rice + milk product, and `0.003` to `0.006 mg/kg` for the two infant-formula groups.
 - Weaning-food speciation: Table 3.12 reports `13` rice-labelled infant/weaning foods with average total arsenic `0.197 mg/kg`, average inorganic arsenic `0.135 mg/kg`, and average percent inorganic arsenic `63%`. Individual rice-labelled rows span total arsenic `0.098` to `0.318 mg/kg` and inorganic arsenic `0.067` to `0.230 mg/kg`.
-- Exposure modeling: Table 5.5 estimates inorganic arsenic intake from rice, using rice inorganic arsenic concentrations from `0.03 mg/kg` for Indian rice to `0.12 mg/kg` for Italian rice purchased in the UK. Reported rice-derived inorganic arsenic intake ranges are `0.009 - 0.035 µg/kg/d` for adults at the 50th percentile, `0.030 - 0.119 µg/kg/d` for adults at the 95th percentile, and `0.089 - 0.358 µg/kg/d` for toddlers at the 95th percentile.
+- Exposure modeling: Table 5.5 (from the 1999 Total Diet Study, FSA report 51/04, combined with NDNS rice consumption data) estimates inorganic arsenic intake from rice using concentrations from `0.03 mg/kg` for Indian rice to `0.12 mg/kg` for Italian rice purchased in the UK. At the 50th percentile: adults `0.009 - 0.035 µg/kg/d`, young people (4–18y) `0.018 - 0.071 µg/kg/d`, toddlers (1.5–4.5y) `0.030 - 0.090 µg/kg/d`. At the 95th percentile: adults `0.030 - 0.119 µg/kg/d`, young people `0.065 - 0.260 µg/kg/d`, toddlers `0.089 - 0.358 µg/kg/d`.
 
 ## Methods (brief)
 
-This is a literature review and agency-commissioned synthesis rather than a single new laboratory survey. The report tabulates published rice arsenic surveys, FSA reports `FSIS 17/06` and `Fd 06/12`, and University of Aberdeen data on total arsenic, DMA(V), and total inorganic arsenic in rice and rice-containing foods. The PDF metadata creation date is `Thu Jun 5 18:22:52 2008 EEST`, and no DOI is printed in the extracted report. The source does not provide one harmonized sample frame or one analytical method for all values, so routeable numbers should retain their table provenance and should not be treated as one pooled primary dataset.
+This is a literature review and agency-commissioned synthesis rather than a single new laboratory survey. The report tabulates published rice arsenic surveys, FSA reports `FSIS 17/06` and `Fd 06/12`, and University of Aberdeen data on total arsenic, DMA(V), and total inorganic arsenic in rice and rice-containing foods. Speciation of the Aberdeen market-basket dataset (Tables 3.7, 3.12) was by HPLC-ICP-MS (per Figure 3.4 caption). The PDF metadata creation date is `Thu Jun 5 18:22:52 2008 EEST`, and no DOI is printed in the extracted report. The source does not provide one harmonized sample frame or one analytical method for all values, so routeable numbers should retain their table provenance and should not be treated as one pooled primary dataset.
 
 ## Implications
 
@@ -81,3 +81,16 @@ App: The source can support UK rice-arsenic context, including category-level wa
 - Speciation: Table 3.7 and Table 3.12 report total arsenic and total inorganic arsenic separately. DMA(V) values are retained as organic/speciation context in prose and are not treated as inorganic arsenic.
 - Brand firewall: Table 3.8 and Table 3.9 include manufacturer/product labels. This page reports product-form/category values and omits manufacturer names.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy lacks a broad resolved product row for unspecified infant formula in this review, so the formula means in Table 3.11 remain in Key numbers but are not routed to a formula product row.
+- Audit subagent (2026-06-10), Check 1, Table 3.9: flagged "four manufacturers" vs three; verified against PDF p.27 ("four different makes of rice were examined from three different manufacturers") and Table 3.9 — wiki says "four anonymized baby-rice product groups" (accurate), not "four manufacturers"; finding was a false positive; no change made.
+- Audit subagent (2026-06-10), Check 1, Table 5.5: flagged missing 50th-percentile toddler (0.030–0.090 µg/kg/d) and young-people (0.018–0.071 µg/kg/d) rows and absent provenance note; verified against PDF Table 5.5 (p.46) — rows confirmed present in source; all three missing rows and provenance (1999 TDS, FSA report 51/04 + NDNS) added to Key numbers.
+- Audit subagent (2026-06-10), Check 3: flagged missing HPLC-ICP-MS attribution for Aberdeen speciation dataset; verified against PDF Figure 3.4 caption (p.24) — "by HPLC-ICP-ms" confirmed; one sentence added to Methods section.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5d5a7f8](https://github.com/paleofoundation/heavymetalindex/commit/5d5a7f8) | 2026-06-09 | ingest: meharg2008-rice-arsenic-literature-review fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->
