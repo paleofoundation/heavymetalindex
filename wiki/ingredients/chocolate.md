@@ -86,7 +86,7 @@ updated: 2026-05-16
 
 # Chocolate
 
-Chocolate is a processed derivative of [[ingredients/cocoa]] and inherits cadmium from its cocoa-solid fraction; cadmium content scales approximately with cocoa-solid percentage and with cocoa origin.
+Chocolate is both a derivative ingredient (used in chocolate ice cream, chocolate cereal, chocolate biscuits, chocolate cake, chocolate-coated snacks, chocolate milk, and many other formulated foods) and a finished product category in its own right (chocolate bars and confections). This page covers the ingredient role — what chocolate contributes when it appears as a component of another finished food. For finished-bar and confection contamination, see [[products/chocolate]]. Both pages draw on the same upstream cocoa-solid evidence base; chocolate inherits cadmium from its cocoa-solid fraction, and cadmium content scales approximately with cocoa-solid percentage and with cocoa origin ([[ingredients/cocoa]] holds the upstream story).
 
 ## Heavy metal contamination profile
 
