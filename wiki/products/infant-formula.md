@@ -6,8 +6,8 @@ hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
 provisional_created: 2026-05-28
-provisional_reason: "heal-gaps: routing_unresolved entry from source open2017-open-infants-dietary-arsenic declared product/infant-formula, no close-slug match"
-provisional_source: "[[sources/open2017-open-infants-dietary-arsenic]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source signes-pastor2018-infants-dietary-arsenic-solid-food declared product/infant-formula, no close-slug match"
+provisional_source: "[[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]"
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
@@ -21,9 +21,9 @@ updated: 2026-05-28
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-28 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source open2017-open-infants-dietary-arsenic declared product/infant-formula, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source signes-pastor2018-infants-dietary-arsenic-solid-food declared product/infant-formula, no close-slug match
 >
-> **Triggering source:** [[sources/open2017-open-infants-dietary-arsenic]]
+> **Triggering source:** [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
 
 ## Literature scope
 
@@ -55,15 +55,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 17 | [[sources/depa2019-baby-food-lead-cadmium\|Depa 2019]]. *Heavy Metals in Baby Foods and Cereal Products*, Turkish Journal of Computer and Mathematics Education | 2019 | Peer-reviewed | Pb, Cd occurrence in Baby foods and cereal products, including milk powder and cereal-based products (n=63) |
 | 18 | [[sources/keywords2019-appropriateness-essentials-trace-metals\|Igweze et al. 2019]]. *Appropriateness of Essentials Trace Metals in Commonly Consumed Infant Formulae in Nigeria*, Open Access Macedonian Journal of Medical Sciences | 2019 | Peer-reviewed | Cited reference from Open Access Macedonian Journal of Medical Sciences |
 | 19 | [[sources/meyer2018-hydrolysed-rice-formula-arsenic\|Meyer et al. 2018]]. *Low inorganic arsenic in hydrolysed-rice formula used for cow's milk protein allergy*, Pediatric Allergy and Immunology | 2018 | Peer-reviewed | IT/FR/BE iAs occurrence in Commercially available hydrolysed-rice infant formula powders sourced from Italy, France, and Belgium; six distinct product variants, two batches... (n=10) |
-| 20 | [[sources/open2017-open-infants-dietary-arsenic\|Signes-Pastor et al. 2018]]. *OPEN Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | — | During the transition to solid foods, infants' urinary arsenic concentrations increase substantially, with rice cereal emerging as the dominant dietary... |
-| 21 | [[sources/open2017-open-infants-dietary-arsenic-a\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Journal article | Cited reference from Scientific Reports |
-| 22 | [[sources/scheer2017-aluminium-tolerable-intake-toys\|SCHEER 2017]]. *Final Opinion on tolerable intake of aluminium with regards to adapting the migration limits for aluminium in toys*, Scientific Committee on Health, Environmental and Emerging Risks (SCHEER), European Commission | 2017 | Government report | EU Al occurrence in Review of regulatory opinions and dietary exposure data for children and adults; no primary animal or human study |
-| 23 | [[sources/unknown2016-risk-arsenic-rice-cereal\|Shibata et al. 2016]]. *Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S.*, International Journal of Environmental Research and Public Health | 2016 | Peer reviewed journal | Cited reference from International Journal of Environmental Research and Public Health |
-| 24 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
-| 25 | [[sources/lodico2015-infant-formula-metals\|Lo et al. 2015]]. *Simultaneous Determination of As, Cu, Cr, Se, Sn, Cd, Sb and Pb Levels in Infant Formulas by ICP-MS after Microwave-Assisted Digestion: Method Validation*, Journal of Environmental & Analytical Toxicology | 2015 | Peer-reviewed | IT tAs, Cr, Sn, Cd, Pb, Sb occurrence in infant formula samples analyzed during ICP-MS method validation |
-| 26 | [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals\|Lutfullah et al. 2014]]. *Comparative study of heavy metals in dried and fluid milk in Peshawar by atomic absorption spectrophotometry*, The Scientific World Journal | 2014 | Peer-reviewed | PK Pb, Cd, Cr, Ni, Ca, Mg, Cu, Zn, Fe, Mn occurrence in Dried infant formula, powdered milk, fresh milk, and processed milk purchased in Peshawar, Pakistan (n=46) |
-| 27 | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\|Jackson et al. 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US tAs, iAs concentrations |
-| 28 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EU Cd concentrations |
+| 20 | [[sources/scheer2017-aluminium-tolerable-intake-toys\|SCHEER 2017]]. *Final Opinion on tolerable intake of aluminium with regards to adapting the migration limits for aluminium in toys*, Scientific Committee on Health, Environmental and Emerging Risks (SCHEER), European Commission | 2017 | Government report | EU Al occurrence in Review of regulatory opinions and dietary exposure data for children and adults; no primary animal or human study |
+| 21 | [[sources/unknown2016-risk-arsenic-rice-cereal\|Shibata et al. 2016]]. *Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S.*, International Journal of Environmental Research and Public Health | 2016 | Peer reviewed journal | Cited reference from International Journal of Environmental Research and Public Health |
+| 22 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
+| 23 | [[sources/lodico2015-infant-formula-metals\|Lo et al. 2015]]. *Simultaneous Determination of As, Cu, Cr, Se, Sn, Cd, Sb and Pb Levels in Infant Formulas by ICP-MS after Microwave-Assisted Digestion: Method Validation*, Journal of Environmental & Analytical Toxicology | 2015 | Peer-reviewed | IT tAs, Cr, Sn, Cd, Pb, Sb occurrence in infant formula samples analyzed during ICP-MS method validation |
+| 24 | [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals\|Lutfullah et al. 2014]]. *Comparative study of heavy metals in dried and fluid milk in Peshawar by atomic absorption spectrophotometry*, The Scientific World Journal | 2014 | Peer-reviewed | PK Pb, Cd, Cr, Ni, Ca, Mg, Cu, Zn, Fe, Mn occurrence in Dried infant formula, powdered milk, fresh milk, and processed milk purchased in Peshawar, Pakistan (n=46) |
+| 25 | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\|Jackson et al. 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US tAs, iAs concentrations |
+| 26 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EU Cd concentrations |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for

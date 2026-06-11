@@ -1,24 +1,29 @@
 ---
 type: source
+raw_handle: FM_5940663
 cite_key: signes-pastor2018-infants-dietary-arsenic-solid-food
 title: "Infants' dietary arsenic exposure during transition to solid food"
 authors: [Signes-Pastor AJ, Cottingham KL, Carey M, Sayarath V, Palys T, Meharg AA, Folt CL, Karagas MR]
 year: 2018
-publication: "Scientific Reports"
+publication: "Scientific Reports 8(1):7114"
 doi: 10.1038/s41598-018-25372-1
 source_type: peer-reviewed
 evidence_tier: A
+license: "CC BY 4.0"
 raw_path: raw/markdown/FM_5940663/FM_5940663.md
 access_url: https://doi.org/10.1038/s41598-018-25372-1
 pdf_path: raw/studies/FM_5940663_Infants_dietary_arsenic_exposure_during_transition_to_solid.pdf
 metals: [iAs, tAs]
 ingredients: [infant-formula-powder, rice-cereal, fruit, vegetables, apple, non-rice-grains]
 products: [infant-formula-powder, rice-cereal, fruit-purees, vegetable-purees, mixed-cereals, rice-based-snacks]
+matrices: [infant-urine-biomarker, breast-milk, rice-cereal, wet-weight]
 jurisdictions: [US]
+sample_n: 15
+sample_population: "15 infants (8 female, 7 male) from the New Hampshire Birth Cohort Study (NHBCS), non-Hispanic white, assessed at 4 months (pre-weaning) and 6 months (post-weaning initiation); US northeast private well water region"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-04-28
+updated: 2026-06-11
 ---
 
 # Signes-Pastor 2018 — Infants' Dietary Arsenic Exposure During Transition To Solid Food
