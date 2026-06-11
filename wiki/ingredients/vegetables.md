@@ -35,7 +35,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=205 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: staple) | OK | 8/10 HMTc analytes, total n=205 | — |
 | D2 Regional coverage | OK | 54 jurisdictions, top CN 22% | — |
 | D3 Anthropogenic evidence | GAP | 9 soil + 3 irrigation-water + 4 agricultural-soil + 12 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 4 drivers, 23 upstream source(s) | — |
@@ -45,7 +45,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 16 claims checked, 16 supported; 21 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming vegetables: chekri2019-french-infant-toddler-tds-trace-elements, fda-tds-elements-2018-2020; 1 contributing source(s) malformed (strict): open2017-open-infants-dietary-arsenic |
 | D9 Mitigation | OK | 4 cited lever(s), 6 mitigation/ link(s) | — |
 | D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn; pairing 6 paired, 3 single, 0 unpaired | iAs: THIN, needs 2 distinct source(s); tHg: THIN, needs 1 distinct source(s); Ni: THIN, needs 2 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn; pairing 6 paired, 3 single, 0 unpaired | Pb: POOLABLE; iAs: THIN, needs 2 distinct source(s); tHg: THIN, needs 1 distinct source(s); Ni: THIN, needs 2 distinct source(s); Al: POOLABLE; Sn: POOLABLE; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
 
 <!-- /hmi-completeness-scorecard -->

@@ -96,7 +96,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 7/10 HMTc analytes, total n=64 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: occasional) | OK | 7/10 HMTc analytes, total n=64 | labeled data-gaps: Sn |
 | D2 Regional coverage | OK | 63 jurisdictions, top EU 19% | — |
 | D3 Anthropogenic evidence | GAP | 4 sediment + 5 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 5 drivers, 9 upstream source(s) | — |
@@ -106,7 +106,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 3 claims checked, 3 supported; 3 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming shellfish: codex-cxs-193-1995 |
 | D9 Mitigation | GAP | 0 cited lever(s), 4 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tHg, Ni, Al, Cr, tAs |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, tAs; pairing 0 paired, 8 single, 0 unpaired | Al: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, tAs; pairing 0 paired, 8 single, 0 unpaired | Al: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->

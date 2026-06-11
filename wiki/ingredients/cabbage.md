@@ -99,7 +99,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=17 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: occasional) | OK | 6/10 HMTc analytes, total n=17 | labeled data-gaps: iAs, Sn |
 | D2 Regional coverage | OK | 13 jurisdictions, top NG 18% | — |
 | D3 Anthropogenic evidence | GAP | 3 irrigation-water + 1 soil + 1 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 4 drivers, 3 upstream source(s) | — |
@@ -109,7 +109,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 5 claims checked, 5 supported; 5 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming cabbage: islam2007-dietary-toxicity-vegetables-food-crops |
 | D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
 | D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 2 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 2 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.25, scale 0.25 | spread 0.75 — starved: legal-defensibility |
 
 <!-- /hmi-completeness-scorecard -->

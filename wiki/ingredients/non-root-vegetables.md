@@ -96,7 +96,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | GAP | 2/10 HMTc analytes, total n=2 | only 2/10 analytes have evidence |
+| D1 Analyte coverage (tier: staple) | GAP | 2/10 HMTc analytes, total n=2 | only 2/10 analytes have evidence |
 | D2 Regional coverage | OK | 9 jurisdictions, top CN 30% | — |
 | D3 Anthropogenic evidence | GAP | 1 irrigation-water + 1 agricultural-soil + 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 2 upstream source(s) | drivers[] empty |
@@ -106,7 +106,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 3 claims checked, 3 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming non-root-vegetables: fsa2016-infant-food-formula-metals-survey |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | — |
-| D11 Standards-readiness | NOT-READY | priority: iAs, tHg; pairing 0 paired, 2 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); tHg: THIN, needs 2 more study(ies); basis: 8 populated cell(s) lack a basis token: iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: iAs, tHg; pairing 0 paired, 2 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); tHg: THIN, needs 2 more study(ies); basis: 8 populated cell(s) lack a basis token: iAs, tHg, Ni, Al, Cr, Sn, tAs, U; depth below staple bar |
 | **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | — |
 
 <!-- /hmi-completeness-scorecard -->

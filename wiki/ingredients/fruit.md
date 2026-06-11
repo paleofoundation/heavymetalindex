@@ -35,7 +35,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=108 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: staple) | OK | 8/10 HMTc analytes, total n=108 | — |
 | D2 Regional coverage | below-tier | 38 jurisdictions, top US 23% | only 38 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | 8 drinking-water + 4 soil + 2 agricultural-soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 4 drivers, 12 upstream source(s) | — |
@@ -45,7 +45,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 6 claims checked, 6 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming fruit: chekri2019-french-infant-toddler-tds-trace-elements |
 | D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | below-tier | 4 rule link(s), 2 metal(s) covered | crosswalk thin: 7/9 populated analytes have no linked governing limit |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | Al: THIN, needs a sample-level-backed source; Sn: THIN, needs a sample-level-backed source; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | tHg: POOLABLE; Al: THIN, needs a sample-level-backed source; Cr: POOLABLE; Sn: THIN, needs a sample-level-backed source; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.25, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->

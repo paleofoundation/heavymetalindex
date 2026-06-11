@@ -95,7 +95,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=73 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: common) | OK | 8/10 HMTc analytes, total n=73 | — |
 | D2 Regional coverage | below-tier | 51 jurisdictions, top EU 26% | only 51 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | 6 drinking-water + 3 soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 4 drivers, 9 upstream source(s) | — |
@@ -105,8 +105,8 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 13 claims checked, 13 supported; 4 citations, 0 orphan, 3 foreign | 3 foreign citation(s) not naming potatoes: fda-ctz-Pb-babyfood-2025, fda-iAs-rice-cereal-2020, fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | Mitigation options section empty/missing |
 | D10 Regulatory coverage | OK | 4 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; pairing 0 paired, 10 single, 0 unpaired | iAs: THIN; Sn: THIN; U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.38, scale 0.25 | spread 0.75 — starved: contamination-reduction |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; pairing 0 paired, 10 single, 0 unpaired | iAs: THIN; Sn: THIN; U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.38, scale 0.25 | spread 0.83 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
 

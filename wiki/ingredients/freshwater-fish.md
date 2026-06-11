@@ -96,7 +96,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 7/10 HMTc analytes, total n=119 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: occasional) | OK | 7/10 HMTc analytes, total n=119 | labeled data-gaps: Sn |
 | D2 Regional coverage | OK | 58 jurisdictions, top US 22% | — |
 | D3 Anthropogenic evidence | GAP | 6 sediment + 4 drinking-water + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 6 drivers, 11 upstream source(s) | — |
@@ -106,8 +106,8 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 14 claims checked, 14 supported; 2 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming freshwater-fish: codex-cxs-193-1995 |
 | D9 Mitigation | GAP | 0 cited lever(s), 4 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tHg, Ni, Al, Cr, tAs |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, tAs; pairing 0 paired, 2 single, 6 unpaired | Pb: THIN, needs 2 distinct source(s); Cd: THIN, needs 3 distinct source(s); iAs: THIN; tHg: THIN, needs 1 distinct source(s); Ni: THIN, needs 2 distinct source(s); Al: THIN, needs 2 distinct source(s); tAs: THIN, needs 1 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; Pb: clean/dirty UNPAIRED (dirty-side limit unsupportable); Cd: clean/dirty UNPAIRED (dirty-side limit unsupportable); tHg: clean/dirty UNPAIRED (dirty-side limit unsupportable); Ni: clean/dirty UNPAIRED (dirty-side limit unsupportable); Al: clean/dirty UNPAIRED (dirty-side limit unsupportable); tAs: clean/dirty UNPAIRED (dirty-side limit unsupportable); consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: contamination-reduction |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, tAs; pairing 0 paired, 2 single, 6 unpaired | Pb: THIN, needs 2 distinct source(s); Cd: THIN, needs 3 distinct source(s); iAs: THIN; tHg: THIN, needs 1 distinct source(s); Ni: THIN, needs 2 distinct source(s); Al: THIN, needs 2 distinct source(s); tAs: THIN, needs 1 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; Pb: clean/dirty UNPAIRED (dirty-side limit unsupportable); Cd: clean/dirty UNPAIRED (dirty-side limit unsupportable); tHg: clean/dirty UNPAIRED (dirty-side limit unsupportable); Ni: clean/dirty UNPAIRED (dirty-side limit unsupportable); Al: clean/dirty UNPAIRED (dirty-side limit unsupportable); tAs: clean/dirty UNPAIRED (dirty-side limit unsupportable) |
+| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.83 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
 

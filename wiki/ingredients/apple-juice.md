@@ -96,7 +96,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=32 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: common) | OK | 8/10 HMTc analytes, total n=32 | — |
 | D2 Regional coverage | OK | 13 jurisdictions, top US 44% | — |
 | D3 Anthropogenic evidence | GAP | 2 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 2 upstream source(s) | drivers[] empty |
@@ -106,7 +106,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 20 claims checked, 20 supported; 8 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming apple-juice: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | OK | 5 cited lever(s), 0 mitigation/ link(s) | — |
 | D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; pairing 0 paired, 10 single, 0 unpaired | Cd: THIN; tHg: THIN; Ni: THIN; Al: THIN, needs 2 more study(ies); Cr: THIN; U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; pairing 0 paired, 10 single, 0 unpaired | Cd: THIN; tHg: THIN; Ni: THIN; Al: THIN, needs 2 more study(ies); Cr: THIN; U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
 
 <!-- /hmi-completeness-scorecard -->

@@ -96,7 +96,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=76 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: staple) | OK | 8/10 HMTc analytes, total n=76 | — |
 | D2 Regional coverage | OK | 45 jurisdictions, top EU 20% | — |
 | D3 Anthropogenic evidence | GAP | 8 drinking-water + 2 soil; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 8 upstream source(s) | drivers[] empty |
@@ -106,8 +106,8 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 21 claims checked, 21 supported; 5 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming meat: fsa2016-infant-food-formula-metals-survey, fda-tds-elements-2018-2020 |
 | D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
 | D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr |
-| D11 Standards-readiness | PARTIAL | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.75 | spread 1.00 — starved: brand-value |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | iAs: POOLABLE; tHg: POOLABLE; Ni: POOLABLE; Al: POOLABLE; Cr: POOLABLE; Sn: POOLABLE; tAs: POOLABLE; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.50 | spread 1.00 — starved: brand-value |
 
 <!-- /hmi-completeness-scorecard -->
 

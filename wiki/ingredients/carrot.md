@@ -96,7 +96,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=12 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: common) | below-tier | 6/10 HMTc analytes, total n=12 | common tier expects total n>=15; have 12 |
 | D2 Regional coverage | OK | 11 jurisdictions, top IR 18% | — |
 | D3 Anthropogenic evidence | GAP | 1 irrigation-water + 1 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 1 upstream source(s) | drivers[] empty |
@@ -106,8 +106,8 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 12 claims checked, 12 supported; 4 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming carrot: fsa2016-infant-food-formula-metals-survey |
 | D9 Mitigation | OK | 2 cited lever(s), 0 mitigation/ link(s) | — |
 | D10 Regulatory coverage | OK | 4 rule link(s), 6 metal(s) covered | unmapped analytes: Al |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Al, Sn; pairing 0 paired, 6 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); tHg: THIN, needs 2 more study(ies); Al: THIN, needs 2 more study(ies); Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Al, Sn; pairing 0 paired, 6 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); tHg: THIN, needs 2 more study(ies); Al: THIN, needs 2 more study(ies); Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; depth below common bar |
+| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
 
 <!-- /hmi-completeness-scorecard -->
 

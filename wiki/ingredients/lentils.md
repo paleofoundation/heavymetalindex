@@ -96,7 +96,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=45 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: occasional) | OK | 8/10 HMTc analytes, total n=45 | — |
 | D2 Regional coverage | OK | 23 jurisdictions, top EU 29% | — |
 | D3 Anthropogenic evidence | GAP | 2 drinking-water + 1 soil; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 3 upstream source(s) | drivers[] empty |
@@ -106,7 +106,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 10 claims checked, 10 supported; 7 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming lentils: fsa2016-infant-food-formula-metals-survey |
 | D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
 | D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN, needs 1 more study(ies); Ni: THIN; Al: THIN, needs 2 more study(ies); Cr: THIN; tAs: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN, needs 1 more study(ies); Ni: THIN; Al: THIN, needs 2 more study(ies); Cr: THIN; tAs: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
 
 <!-- /hmi-completeness-scorecard -->

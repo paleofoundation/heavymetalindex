@@ -96,7 +96,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=31 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: staple) | below-tier | 6/10 HMTc analytes, total n=31 | staple tier expects total n>=40; have 31 |
 | D2 Regional coverage | OK | 18 jurisdictions, top EG 38% | — |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
@@ -106,8 +106,8 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 0 claims checked, 0 supported; 3 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming beef: hoha2014-pork-pb-cd-cu-zn-romania |
 | D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, tHg, Ni, Al, Cr, tAs |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Ni, Al, Cr, tAs; pairing 0 paired, 7 single, 0 unpaired | Al: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: contamination-reduction |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Ni, Al, Cr, tAs; pairing 0 paired, 7 single, 0 unpaired | Pb: POOLABLE; Cd: POOLABLE; tHg: POOLABLE; Ni: POOLABLE; Al: THIN, needs 1 more study(ies); Cr: POOLABLE; tAs: POOLABLE; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; depth below staple bar |
+| **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | — |
 
 <!-- /hmi-completeness-scorecard -->
 

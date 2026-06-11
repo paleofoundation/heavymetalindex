@@ -96,7 +96,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | GAP | 0/10 HMTc analytes, total n=0 | only 0/10 analytes have evidence |
+| D1 Analyte coverage (tier: occasional) | GAP | 0/10 HMTc analytes, total n=0 | only 0/10 analytes have evidence |
 | D2 Regional coverage | OK | 17 jurisdictions, top US 38% | — |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
@@ -106,7 +106,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | OK | 0 claims checked, 0 supported; 0 citations, 0 orphan, 0 foreign | — |
 | D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | — |
-| D11 Standards-readiness | NOT-READY | no priority analytes | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | no priority analytes | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; depth below occasional bar |
 | **Principle balance** | **flag** | consumer-protection 0.50, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.75, scale 0.00 | spread 0.75 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->

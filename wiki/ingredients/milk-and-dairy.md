@@ -35,7 +35,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=114 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: staple) | OK | 8/10 HMTc analytes, total n=114 | — |
 | D2 Regional coverage | below-tier | 46 jurisdictions, top CN 16% | only 46 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | 3 soil + 9 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 5 drivers, 10 upstream source(s) | — |
@@ -45,8 +45,8 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 6 claims checked, 6 supported; 9 citations, 0 orphan, 5 foreign | 5 foreign citation(s) not naming milk-and-dairy: chekri2019-french-infant-toddler-tds-trace-elements, chuchu2013-aluminium-in-infant-formulas, dabeka2011-canada-infant-formula-lead-cadmium-aluminum |
 | D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN, needs 1 distinct source(s); Ni: THIN, needs 1 distinct source(s); Al: THIN, needs a sample-level-backed source; Sn: THIN, needs 1 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.38, scale 0.25 | spread 0.75 — starved: contamination-reduction |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN, needs 1 distinct source(s); tHg: POOLABLE; Ni: THIN, needs 1 distinct source(s); Al: THIN, needs a sample-level-backed source; Cr: POOLABLE; Sn: THIN, needs 1 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U |
+| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.38, scale 0.25 | spread 0.83 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
 

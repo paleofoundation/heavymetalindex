@@ -39,7 +39,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | GAP | 2/10 HMTc analytes, total n=4 | only 2/10 analytes have evidence |
+| D1 Analyte coverage (tier: occasional) | GAP | 2/10 HMTc analytes, total n=4 | only 2/10 analytes have evidence |
 | D2 Regional coverage | OK | 4 jurisdictions, top PL 60% | — |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 3 drivers, 0 upstream source(s) | no upstream source to substantiate |
@@ -49,7 +49,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 4 claims checked, 4 supported; 2 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming raspberries: fda-ctz-Pb-babyfood-2025, codex-cxs-193-1995 |
 | D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd; pairing 0 paired, 2 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd; pairing 0 paired, 2 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; depth below occasional bar |
 | **Principle balance** | **OK** | consumer-protection 0.50, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | — |
 
 <!-- /hmi-completeness-scorecard -->

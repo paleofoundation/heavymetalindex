@@ -95,7 +95,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=440 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: common) | OK | 8/10 HMTc analytes, total n=440 | — |
 | D2 Regional coverage | OK | 73 jurisdictions, top CN 27% | — |
 | D3 Anthropogenic evidence | GAP | 18 soil + 15 drinking-water + 12 paddy-soil + 3 irrigation-water + 7 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 6 drivers, 51 upstream source(s) | — |
@@ -105,8 +105,8 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 881 claims checked, 881 supported; 13 citations, 0 orphan, 3 foreign | 3 foreign citation(s) not naming rice: collado-lopez2025-heavy-metals-baby-food-formula, damato2026-inorganic-arsenic-rice-based-beverages, fda2022-tds-elements-fy2018-fy2020; 1 contributing source(s) malformed (strict): open2017-open-infants-dietary-arsenic |
 | D9 Mitigation | OK | 1 cited lever(s), 5 mitigation/ link(s) | — |
 | D10 Regulatory coverage | OK | 5 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; pairing 0 paired, 10 single, 0 unpaired | Pb: THIN, needs 3 distinct source(s); Cd: THIN, needs 2 distinct source(s); iAs: THIN, needs 2 distinct source(s); tHg: THIN, needs 3 distinct source(s); Ni: THIN, needs 3 distinct source(s); Al: THIN, needs 3 distinct source(s); Sn: THIN, needs 3 distinct source(s); tAs: THIN, needs 3 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; pairing 0 paired, 10 single, 0 unpaired | Pb: THIN, needs 3 distinct source(s); Cd: THIN, needs 2 distinct source(s); iAs: THIN, needs 2 distinct source(s); tHg: THIN, needs 3 distinct source(s); Ni: THIN, needs 3 distinct source(s); Al: THIN, needs 3 distinct source(s); Sn: THIN, needs 3 distinct source(s); tAs: THIN, needs 3 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
 
 <!-- /hmi-completeness-scorecard -->
 

@@ -96,7 +96,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 7/10 HMTc analytes, total n=46 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: staple) | OK | 7/10 HMTc analytes, total n=46 | labeled data-gaps: Sn |
 | D2 Regional coverage | OK | 22 jurisdictions, top PL 23% | — |
 | D3 Anthropogenic evidence | GAP | 1 soil + 2 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 3 upstream source(s) | drivers[] empty |
@@ -106,7 +106,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 17 claims checked, 17 supported; 13 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming non-rice-grains: signes-pastor2018-infants-dietary-arsenic-solid-food |
 | D9 Mitigation | OK | 2 cited lever(s), 6 mitigation/ link(s) | — |
 | D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tHg, Ni, Al, Cr, tAs |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, tAs; pairing 0 paired, 8 single, 0 unpaired | Ni: THIN, needs 1 more study(ies); Al: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, tAs; pairing 0 paired, 8 single, 0 unpaired | iAs: POOLABLE; tHg: POOLABLE; Ni: THIN, needs 1 more study(ies); Al: THIN; Cr: POOLABLE; tAs: POOLABLE; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
 
 <!-- /hmi-completeness-scorecard -->

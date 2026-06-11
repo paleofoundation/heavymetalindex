@@ -95,7 +95,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=273 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: common) | OK | 8/10 HMTc analytes, total n=273 | — |
 | D2 Regional coverage | OK | 112 jurisdictions, top EU 21% | — |
 | D3 Anthropogenic evidence | GAP | 8 sediment + 15 drinking-water + 1 soil + 1 atmospheric-deposition; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 5 drivers, 24 upstream source(s) | — |
@@ -105,7 +105,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D8 Provenance integrity | GAP | 14 claims checked, 14 supported; 4 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming fish: collado-lopez2025-heavy-metals-baby-food-formula; 1 contributing source(s) malformed (strict): open2017-open-infants-dietary-arsenic |
 | D9 Mitigation | GAP | 0 cited lever(s), 3 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 4 rule link(s), 7 metal(s) covered | unmapped analytes: Ni, Al, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | Pb: THIN, needs 2 distinct source(s); Cd: THIN, needs a sample-level-backed source; iAs: THIN, needs 2 distinct source(s); tHg: THIN, needs a sample-level-backed source; Al: THIN, needs 2 distinct source(s); Sn: THIN, needs 2 distinct source(s); tAs: THIN, needs 2 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | Pb: THIN, needs 2 distinct source(s); Cd: THIN, needs a sample-level-backed source; iAs: THIN, needs 2 distinct source(s); tHg: THIN, needs a sample-level-backed source; Al: THIN, needs 2 distinct source(s); Sn: THIN, needs 2 distinct source(s); tAs: THIN, needs 2 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
