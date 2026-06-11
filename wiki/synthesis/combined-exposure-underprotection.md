@@ -16,7 +16,7 @@ updated: 2026-05-13
 
 The regulatory architecture for heavy metals in food is built almost entirely on single-metal reference values. EFSA's tolerable weekly intake for cadmium, JECFA's provisional tolerable monthly intake for cadmium, the FDA's action levels for inorganic arsenic in infant rice cereal, the EU's maximum levels under Regulation 2023/915, and the parallel national-level frameworks all set thresholds one metal at a time. Three lines of recent evidence converge on the finding that this architecture systematically underprotects: even when consumers are at or near the most permissive single-metal reference value for each individual metal, their cumulative dietary exposure to the regulated metal mixture exceeds the cumulative hazard threshold for health-protective endpoints. The single-metal floor is the wrong floor.
 
-This is the synthesis foundation for HMTc's combined-exposure framing. The wiki documents the regulatory positions honestly per the firewall rule in [[../CLAUDE|CLAUDE.md]] Part 2; the synthesis here is that the regulatory positions, taken at face value and combined, do not add up to a health-protective outcome. The certification implication is that a program calibrated to cumulative exposure rather than single-metal floors rests on a defensible scientific footing that the floors themselves cannot support.
+The synthesis here is that the regulatory positions, taken at face value and combined, do not add up to a health-protective outcome. A framework calibrated to cumulative exposure rather than to single-metal floors is what the convergent evidence below supports.
 
 ## A national-population baseline with HI greater than one (Suomi 2023)
 
@@ -34,7 +34,7 @@ The dietary attribution in Suomi 2023 is also worth noting because it does not m
 
 The JECFA finding is a single-metal saturation result, not a cumulative-exposure result. But its implication for the cumulative framing is direct. If cadmium alone reaches 96 percent of the most-permissive single-metal reference value in a vulnerable subpopulation, the cumulative HI for that subpopulation across the full regulated mixture is necessarily above 1 even before lead, arsenic, mercury, nickel, and aluminum contributions are added. The single-metal saturation finding from JECFA's own assessment is the regulatory-internal acknowledgment that the cumulative framing is needed.
 
-The point matters for HMTc certification calibration because the population JECFA documents at saturation is the population HMTc certifies for: infants and children, in the matrices (cocoa, rice cereal, baby food) where the program operates. The JECFA finding is not from an outside-the-system researcher pointing to a gap; it is from the same body whose reference value is the operative regulatory floor in much of the world.
+The point matters because the population JECFA documents at saturation — infants and children, in the cocoa, rice cereal, and baby food matrices — is the population for which the developmental-risk case is strongest. The JECFA finding is not from an outside-the-system researcher pointing to a gap; it is from the same body whose reference value is the operative regulatory floor in much of the world.
 
 ## The third independent confirmation (EFSA 2024 iAs)
 
@@ -48,9 +48,7 @@ In the EFSA framing, MOE below 1 for inorganic arsenic at the mean adult Europea
 
 Three independent assessments, three different methods, three different jurisdictions, three different endpoint classes, one finding: the regulatory architecture for heavy metals in food is calibrated to a level of risk that population-level data show is regularly exceeded. Suomi 2023 measures cumulative dietary exposure against neurotoxic and renal endpoints in Finland and finds HI greater than 1 across all adult age groups. JECFA's 91st meeting measures single-metal cadmium exposure against the JECFA PTMI in the under-12 child population and finds saturation at 96 percent. EFSA 2024 measures single-metal inorganic arsenic exposure against a rigorous genotoxic-carcinogen Benchmark Dose and finds Margins of Exposure below 1 across the full adult European population.
 
-The three studies are not measuring the same thing. They are measuring different aspects of the same architectural problem. The regulatory floors that the food-safety system relies on are not, in aggregate, health-protective for the consumers the system is built to protect. This is the synthesis foundation that HMTc's combined-exposure standards rest on. The certification program is not setting tighter limits because it can; it is setting tighter limits because the literature documents that the looser limits do not add up to safety.
-
-The brand-legal implication is the cleanest of the four wiki-relevant implications. A defense counsel reading a class-action complaint about an HMTc-certified product needs to be able to point to a published, peer-reviewed evidence base that justifies why the certification standard is tighter than the regulatory floor. The three anchor sources for this synthesis page are that evidence base, presented honestly without overclaim, with the regulatory positions stated accurately and the gap between regulatory positions and population-level outcomes documented in the regulators' own framings.
+The three studies are not measuring the same thing. They are measuring different aspects of the same architectural problem. The regulatory floors that the food-safety system relies on are not, in aggregate, health-protective for the consumers the system is built to protect. They are presented here as the regulators' own framings state them, with the gap between those framings and the population-level outcomes documented in the three anchor sources.
 
 ## What this synthesis does not yet rest on
 
@@ -67,9 +65,6 @@ The Margin of Exposure framing in EFSA 2024 is specific to genotoxic carcinogens
 [[metals/cadmium]] should carry the JECFA 91st 2022 cocoa-driven exposure update with its 96 percent of PTMI finding in children. The page should also reference [[../synthesis|the cadmium regulatory divergence content in synthesis.md]] which documents the EFSA-JECFA-ATSDR-EPA divergence in reference values.
 
 [[metals/arsenic-inorganic]] should carry the EFSA 2024 MOE update with its below-1 findings for adult European consumers across the full intake range. The MOE framing is methodologically distinct from the cadmium PTMI framing and should be presented as such; speciation discipline applies (inorganic arsenic specifically, not total arsenic).
-
-[[certification/scientific-basis]], if it exists or when it is written, is the most directly downstream consumer of this synthesis. The combined-exposure framing is the scientific basis for HMTc's existence as a tighter-than-regulatory standard; this synthesis page is what the certification document should cite.
-
 ## Anchor sources
 
 - [[sources/suomi2023-finland-dietary-metals-cumulative|Suomi and Tuominen 2023]]. *Cumulative risk assessment of the dietary heavy metal and aluminum exposure of Finnish adults*, Environmental Science and Pollution Research. FinDiet 2012 national dietary survey, n=1,295 Finnish adults aged 25-74; six-metal mixture (Cd, Pb, iAs, MeHg, Ni, Al); relative potency factors referenced to lead neurotoxicity; HI greater than 1 across all adult age groups for neurotoxicity and kidney endpoints; >95 percent of women under 45 have HI greater than 1 for neurotoxicity.
@@ -78,7 +73,7 @@ The Margin of Exposure framing in EFSA 2024 is specific to genotoxic carcinogens
 
 ## How this page was promoted
 
-Promoted 2026-05-13. Three independent A-tier anchors meeting all four promotion criteria: independent (different research groups, different jurisdictions, different methodologies), spans multiple metals and ingredients, not obvious from any single source, strategic relevance to brand-legal (HMTc combined-exposure standard scientific basis), regulator (cumulative-exposure framework gap), and educator (the architectural argument for tighter-than-regulatory certification) audiences. Re-synthesis is expected when the FDA TDS 2018-2020 multi-metal exposure-versus-reference analysis is fully integrated as a fourth anchor, when a non-Suomi cumulative analysis appears in the corpus, or when EFSA or JECFA reissues a single-metal reference value in response to the cumulative framing.
+Promoted 2026-05-13. Three independent A-tier anchors meeting all four promotion criteria: independent (different research groups, different jurisdictions, different methodologies), spans multiple metals and ingredients, not obvious from any single source, with relevance to regulator (the cumulative-exposure framework gap) and educator (the architectural argument that single-metal floors under-protect) audiences. Re-synthesis is expected when the FDA TDS 2018-2020 multi-metal exposure-versus-reference analysis is fully integrated as a fourth anchor, when a non-Suomi cumulative analysis appears in the corpus, or when EFSA or JECFA reissues a single-metal reference value in response to the cumulative framing.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
@@ -89,7 +84,7 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
 <!-- BEGIN: hmi-page-history -->
