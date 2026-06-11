@@ -26,6 +26,9 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+// Shared cell-level classifier so the per-ingredient scorecard (D11) and this
+// category monitor can never silently disagree.
+import { classifyCell } from "./lib/standards-readiness.mjs"
 
 const repoRoot = process.cwd()
 const evidenceDir = path.join(repoRoot, "data/evidence")
@@ -79,31 +82,11 @@ for (const f of fs.readdirSync(productDir)) {
   rowsByCat[cat].push({ slug, title: d.hmtc_subcategory_name || d.title || slug, metals })
 }
 
-const num = (v) => { const n = Number(v); return Number.isFinite(n) && String(v).trim() !== "" ? n : null }
-
-// A cell is SHIPPABLE (resolves the row for manual purposes) when it has a
-// defensible value the manual can print with an honest confidence label:
-//   - literature-baseline, stable        -> firm
-//   - literature-baseline, provisional   -> publishable, labeled provisional
-//   - regulatory-alignment (cap-bound)   -> firm
-// Only genuine gaps block: no value at all, or a value still flagged untrusted.
-// (The manual ships mixed-confidence rows, as the Cat 1 manual did; it does NOT
-// require every cell stable.)
+// Classifier lifted to tools/evidence/lib/standards-readiness.mjs (classifyCell)
+// and shared with the per-ingredient completeness scorecard.
 function classify(slug, metal) {
   const key = `${slug}|${metal}`
-  const r = cell.get(key)
-  const cand = r ? num(r.candidate_value_ppb) : null
-  const cap = r ? num(r.lowest_regulatory_cap_ppb) : null
-  const p97 = r ? num(r.pooled_p97) : null
-  const sens = (r?.sens_band || "").toLowerCase()
-  const value = cand ?? cap ?? p97
-  if (value === null) return { state: "pending", why: "no usable evidence (needs data)" }
-  if (flagged.has(key)) return { state: "pending", why: "flagged untrusted (extraction_review)" }
-  if (cand !== null && cap !== null && (p97 === null || cap <= p97)) return { state: "resolved", basis: "regulatory-alignment", confidence: "firm", value }
-  if (p97 !== null && sens === "stable") return { state: "resolved", basis: "literature-baseline", confidence: "firm", value }
-  if (p97 !== null) return { state: "resolved", basis: "literature-baseline", confidence: "provisional", value }
-  if (cap !== null) return { state: "resolved", basis: "regulatory-alignment", confidence: "firm", value }
-  return { state: "pending", why: "no usable evidence (needs data)" }
+  return classifyCell(cell.get(key), flagged.has(key))
 }
 
 const report = {}
