@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-06-08T19:26:46.888Z",
+  "generated_at": "2026-06-11T11:13:27.543Z",
   "product_filter": "all",
-  "total_action_rows": 102,
+  "total_action_rows": 106,
   "by_action_priority": {
-    "P0": 26,
+    "P0": 27,
     "P1": 12,
-    "P2": 64
+    "P2": 67
   },
   "by_action_type": {
     "extract-local-source-values": 25,
-    "review-local-candidate-values": 1,
+    "review-local-candidate-values": 2,
     "confirm-local-pdf-match": 9,
     "resolve-species-specific-gap": 3,
-    "find-or-route-fit-source-evidence": 64
+    "find-or-route-fit-source-evidence": 67
   },
   "by_aggregate_status": {
     "BLOCKED: local extraction pending": 25,
-    "BLOCKED: local candidate review pending": 1,
+    "BLOCKED: local candidate review pending": 2,
     "BLOCKED: PDF match review pending": 9,
     "BLOCKED: species-specific evidence missing": 3,
-    "BLOCKED: no structured evidence loaded": 64
+    "BLOCKED: no structured evidence loaded": 67
   },
   "by_standard_percentile_target": {
-    "independent_p97_pooled": 84,
+    "independent_p97_pooled": 88,
     "clean_p97_pooled": 18
   },
   "top_actions": [
