@@ -29,25 +29,30 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
+    typical_ppb: [0, 28]
+    p95_ppb: null
+    confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: cooked-pork-sausage-composite-wet-weight
+    speciation: total-As-only
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 7]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-06-11
+    basis: cooked-pork-sausage-composite-wet-weight
+    speciation: total-Hg-only
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 43]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: cooked-pork-sausage-composite-wet-weight
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -57,11 +62,13 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, null]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: cooked-pork-sausage-composite-wet-weight
+    speciation: total-Cr-only
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -82,8 +89,8 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
-sources: 2
+updated: 2026-06-11
+sources: 3
 ---
 
 # Pork sausages
@@ -133,13 +140,27 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Pb | n=3 | 0–4.4 | 4.9 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Cd | n=3 | 0 | 0.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — | — |
-| tAs | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=3 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=3 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=2 | <3–28 | — | low | [[sources/zhang2022-pork-heavy-metals-china\|3]], [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | <1–7 | — | low | [[sources/zhang2022-pork-heavy-metals-china\|3]], [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=1 | <40–43 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — | — |
-| Cr | n=3 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=1 | <50 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — | — |
 | U | n=2 | 0–1.3 | 1.6 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The total-arsenic, total-mercury, nickel, and chromium cells were resynthesized on 2026-06-11 in the page's native basis, the cooked pork-sausage composite as placed on the table (pan-cooked link or patty, wet weight), the form FDA reports for this matrix. Values below the analytical reporting limit are treated as left-censored bounds, not as measured zeros.
+
+The earlier profile reported all four of these analytes at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Pork sausage (link/patty), pan-cooked" (n=27), in which every sample (or all but one, for nickel) fell below the reporting limit and the below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limits total arsenic 3, total mercury 1, nickel 40, total chromium 50 µg/kg). The resynthesis replaces the literal zeros with left-censored floors and folds in the one non-FDA occurrence anchor available for pork, so each of the four cells now exposes a non-zero understanding rather than a measured zero.
+
+Total arsenic rests on the FDA fully-censored floor (all 27 composites below the 3 µg/kg reporting limit, carried as "<3") together with the secondary China-market pork aggregate of Zhang et al. 2022 ([[sources/zhang2022-pork-heavy-metals-china|Zhang et al. 2022]], fitted total-arsenic concentration in pork of 0.028 mg/kg = 28 µg/kg, drawn from 26 published concentration records). The 28 µg/kg upper anchor is a broader-pork fitted central, not a pork-sausage-specific value and not a distribution, so it is carried as the typical upper bound at low confidence; no 95th-percentile value is published, because the FDA distribution is fully censored and the Zhang figure is a single fitted central rather than an ordered set. Total arsenic and inorganic arsenic are kept as distinct analytes; no speciated measurement exists for this commodity, so the inorganic-arsenic cell remains a reviewed data gap and total arsenic is not promoted to inorganic arsenic.
+
+Total mercury rests on the same two sources: the FDA fully-censored floor (all 27 composites below the 1 µg/kg reporting limit, carried as "<1") and the Zhang et al. 2022 China-market pork aggregate (fitted total-mercury concentration 0.007 mg/kg = 7 µg/kg, from 22 records). As with arsenic, the 7 µg/kg upper anchor is a broader-pork fitted central rather than a sausage-specific distribution, so it is the low-confidence typical upper bound and no 95th-percentile is computed. Total mercury is held distinct from methylmercury and is not derived from it.
+
+Nickel rests on the FDA composite alone: 26 of 27 samples fell below the 40 µg/kg reporting limit and a single sample (2019 summer, West region) returned a detect of 43 µg/kg. The honest reading is a left-censored floor of "<40" with one detected value at 43 µg/kg; the FDA distribution's own 90th and 95th percentiles remain zero because the lone detect sits at the maximum rather than in the upper-percentile band. The typical range is therefore carried as the censored floor up to the single 43 µg/kg detect, at low confidence, with no published 95th-percentile value and no second source for the commodity. The earlier zero is replaced because nickel is demonstrably not absent: one composite detected it above the reporting limit.
+
+Chromium is reported as total chromium at low confidence. Every one of the 27 FDA composites fell below the 50 µg/kg total-chromium reporting limit, so the only defensible value is a left-censored floor of "<50"; no positive total-chromium occurrence value exists for pork sausage in the corpus, and the upper typical bound and 95th-percentile are left null rather than inferred. No fluid hexavalent-chromium measurement exists for this commodity, so no Cr-VI value is inferred. The only chromium-speciation evidence routed to pork is Ren et al. 2018 ([[sources/ren2018-crvi-pork-electron-beam|Ren et al. 2018]]), a laboratory electron-beam mitigation study in which lean, marbled, and fat pork were deliberately spiked with potassium dichromate to 150-250 ppm Cr(VI); it establishes that Cr(VI) adsorbs to pork tissue in a protein-dependent manner (fat pork carrying 80-85 percent of total Cr(VI) as free, lean pork only 2-4 percent) but provides no naturally occurring concentration, so it substantiates the total-Cr-only, no-Cr-VI-occurrence reading without populating a number.
 
 ## Routing
 
@@ -225,8 +246,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Pork sausage (link/patty), pan-cooked (n=27); detectable concentrations for Cd, Ni, Pb, U |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Pork sausage (link/patty), pan-cooked (n=27); detectable concentrations for Cd, Ni (one 43 µg/kg detect), Pb, U; left-censored floors for tAs (<3), tHg (<1), Ni (<40), Cr (<50) |
 | 2 | [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|Hoha et al. 2014]]. *Heavy metals contamination levels in processed meat marketed in Romania*, Environmental Engineering and Management Journal | 2014 | Peer-reviewed | RO Pb, Cd, Cu, Zn occurrence in Bacon (n=6), ham (n=6), sausage (n=12), and salami (n=12) purchased from four commercial centers in Iasi, Romania; produced... (n=36) |
+| 3 | [[sources/zhang2022-pork-heavy-metals-china\|Zhang et al. 2022]]. *Risk assessment of heavy metals contamination in pork*, Food Control | 2022 | Peer-reviewed | CN broader-pork fitted total-arsenic (28 µg/kg) and total-mercury (7 µg/kg) central concentrations from a secondary CNKI aggregate (126 records); carried as low-confidence typical upper anchors for the otherwise fully-censored tAs and tHg cells, not as sausage-specific distributions |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
