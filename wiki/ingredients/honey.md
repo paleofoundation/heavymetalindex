@@ -12,18 +12,18 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 50]
+    p95_ppb: 190
     confidence: medium
     n_studies: 9
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-06-11
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 40]
+    p95_ppb: 125
     confidence: medium
     n_studies: 9
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-06-11
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -47,11 +47,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 650]
+    p95_ppb: 1100
+    confidence: low
+    n_studies: 5
+    last_reviewed: 2026-06-11
   Al:
     status: populated
     typical_ppb: [50, 500]
@@ -61,11 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 6
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 160]
+    p95_ppb: 900
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-06-11
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -86,7 +86,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-11
 sources: 21
 ---
 
@@ -128,16 +128,28 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=9 | 0 | 0 | medium | [[sources/teferi2026-honey-ethiopia-kellem-wollega\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/wise2025-elevated-metals-us-honeys\|3]] |
-| Cd | n=9 | 0 | 0 | medium | [[sources/teferi2026-honey-ethiopia-kellem-wollega\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/wise2025-elevated-metals-us-honeys\|3]] |
+| Pb | n=9 | <4–50 | 190 | medium | [[sources/abeslami2025-moroccan-honey-minerals\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/naccari2025-honey-toxic-metals-microelements\|3]] |
+| Cd | n=9 | <1–40 | 125 | medium | [[sources/aghamirlou2015-iranian-honey-metals\|1]], [[sources/tomczyk2020-polish-honey-metal-transfer\|2]], [[sources/abeslami2025-moroccan-honey-minerals\|3]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=4 | 0 | 0 | medium | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/margaoan2024-bee-products-heavy-metals\|3]] |
 | tHg | n=4 | 0 | 0 | medium | [[sources/wise2025-elevated-metals-us-honeys\|1]], [[sources/margaoan2024-bee-products-heavy-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Ni | n=8 | 0 | 0 | medium | [[sources/teferi2026-honey-ethiopia-kellem-wollega\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/wise2025-elevated-metals-us-honeys\|3]] |
+| Ni | n=5 | <40–650 | 1100 | low | [[sources/aghamirlou2015-iranian-honey-metals\|1]], [[sources/tomczyk2020-polish-honey-metal-transfer\|2]], [[sources/naccari2025-honey-toxic-metals-microelements\|3]] |
 | Al | n=3 | 50–500 | — | low | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/manouchehri2021-honey-heavy-metals-review\|3]] |
-| Cr | n=6 | 0 | 0 | medium | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/abeslami2025-moroccan-honey-minerals\|2]], [[sources/margaoan2024-bee-products-heavy-metals\|3]] |
+| Cr | n=4 | <50–160 | 900 | low | [[sources/aghamirlou2015-iranian-honey-metals\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/aljedani2017-honeybee-honey-saudi-arabia\|3]] |
 | Sn | data gap | — | — | — | — |
 | U | n=2 | 0 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, cadmium, nickel, and chromium cells were resynthesized on 2026-06-11 on a honey-as-sold basis, the form in which honey enters the ingredient supply chain. The primary occurrence literature reports honey concentrations directly on this basis, so no reconstitution or moisture conversion is applied; sources reporting in mg/kg are read as ppb without rebasing.
+
+Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported lead, cadmium, nickel, and chromium at typical and 95th-percentile values of zero. Those figures were an artifact of the FDA Total Diet Study, which measured honey as TDS Food 172 with only three composites, every one of which fell below the reporting limit (lead 4 µg/kg, cadmium 1 µg/kg, nickel 40 µg/kg, chromium 50 µg/kg). With every composite censored, the FDA distribution collapsed into a degenerate tail (p10 equal to p90 equal to p95 equal to zero), and the reported zeros were pooled as literal zeros. The resynthesis records the honest left-censored floor as the reporting limit for each analyte (written `<4`, `<1`, `<40`, and `<50` in the typical-low position) and recomputes the central estimate and upper tail from the detected primary-literature distributions, in which all four metals are low but non-zero, with right tails driven by industrial-proximity, traffic, and mining-region production.
+
+The lead distribution rests on European and North African market surveys. Abeslami et al. 2025 report 130 to 190 µg/kg across seven eastern-Moroccan honey types by ICP-MS ([[sources/abeslami2025-moroccan-honey-minerals|Abeslami et al. 2025]]); Jr et al. 2025 (Wise) report a 28-sample US mean of 178 µg/kg by XRF with the highest single states at 367 to 918 µg/kg ([[sources/wise2025-elevated-metals-us-honeys|Jr et al. 2025]]); Naccari et al. 2025 report Calabrian variety means of 79 to 125 µg/kg, exceeding the EU 100 µg/kg maximum level in the majority of samples ([[sources/naccari2025-honey-toxic-metals-microelements|Naccari et al. 2025]]); Aghamirlou et al. 2015 report an Iranian all-sample mean of 508 µg/kg (117 to 1628 µg/kg) ([[sources/aghamirlou2015-iranian-honey-metals|Aghamirlou et al. 2015]]). The central estimate is anchored to the lower European and US market means and the 95th-percentile to the Abeslami and Wise upper bulk near 190 µg/kg. Documented industrial and artisanal-mining honeys are stratified out of the headline distribution: Salama et al. 2019 report western-Libyan location means of 2,420 to 10,980 µg/kg ([[sources/salama2019-libya-honey-metals|Salama et al. 2019]]) and Teferi et al. 2026 report 18,000 to 21,420 µg/kg from artisanal-gold-mining districts in western Ethiopia ([[sources/teferi2026-honey-ethiopia-kellem-wollega|Teferi et al. 2026]]); these are reported as a separate mining and industrial stratum, not folded into the global percentile.
+
+The cadmium distribution rests on the Iranian all-sample mean of 27.6 µg/kg (1.4 to 125.9 µg/kg) ([[sources/aghamirlou2015-iranian-honey-metals|Aghamirlou et al. 2015]]), Polish variety means of 10 to 40 µg/kg with a sample maximum near 70 µg/kg ([[sources/tomczyk2020-polish-honey-metal-transfer|Tomczyk et al. 2020]]), Moroccan values of 1.7 to 18 µg/kg ([[sources/abeslami2025-moroccan-honey-minerals|Abeslami et al. 2025]]), and Calabrian variety means of 6 to 9 µg/kg ([[sources/naccari2025-honey-toxic-metals-microelements|Naccari et al. 2025]]); the 95th-percentile anchor is set near the Aghamirlou maximum of 126 µg/kg. The industrial and mining stratum is again separated: Salama et al. 2019 report 125 to 150 µg/kg and Teferi et al. 2026 report 1,380 to 2,300 µg/kg, both above the headline distribution.
+
+Nickel and chromium are characterized at low confidence because few honey datasets in the corpus report them and the FDA reporting limits are high (40 and 50 µg/kg). The nickel distribution rests on the Iranian all-sample mean of 652 µg/kg (65 to 1,094 µg/kg) ([[sources/aghamirlou2015-iranian-honey-metals|Aghamirlou et al. 2015]]), Polish variety means of 80 to 720 µg/kg with sample maxima to 1,660 µg/kg ([[sources/tomczyk2020-polish-honey-metal-transfer|Tomczyk et al. 2020]]), and Calabrian variety means of 71 to 108 µg/kg ([[sources/naccari2025-honey-toxic-metals-microelements|Naccari et al. 2025]]); the 95th-percentile is anchored to the Aghamirlou maximum near 1,100 µg/kg. The Teferi mining honeys at 6,050 to 8,850 µg/kg are stratified out. Chromium is reported as total chromium at low confidence; no honey hexavalent-chromium measurement exists in the corpus, so no Cr-VI value is inferred. The total-chromium distribution rests on the Iranian all-sample mean of 900 µg/kg (172 to 1,220 µg/kg) ([[sources/aghamirlou2015-iranian-honey-metals|Aghamirlou et al. 2015]]), Calabrian variety means of 11 to 86 µg/kg ([[sources/naccari2025-honey-toxic-metals-microelements|Naccari et al. 2025]]), and the single Saudi Al-Baha detection of 160 µg/kg ([[sources/aljedani2017-honeybee-honey-saudi-arabia|Aljedani 2017]], chromium not detected in the other three regions); the central estimate is anchored near the Aljedani detection and the 95th-percentile to the Aghamirlou all-sample mean near 900 µg/kg, with a single-sample maximum of 1,220 µg/kg.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

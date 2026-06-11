@@ -12,11 +12,11 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 11
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 80]
+    p95_ppb: 240
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-06-11
   Cd:
     status: populated
     typical_ppb: [0.6, 6.7]
@@ -47,11 +47,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-05-16
+    typical_ppb: [16, 230]
+    p95_ppb: 250
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-06-11
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -61,11 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-05-16
+    typical_ppb: [32, 410]
+    p95_ppb: 410
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-06-11
   Sn:
     status: populated
     typical_ppb: [50, 400]
@@ -75,18 +75,18 @@ contamination_profile:
     last_reviewed: 2026-05-16
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-11
 sources: 43
 ---
 
@@ -128,16 +128,34 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=11 | 0 | 0 | high | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| Pb | n=6 | 0–80 | 240 | medium | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|1]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|2]], [[sources/heshmati2020-iran-vegetables-cereals-pb-cd\|3]] |
 | Cd | n=9 | 0.6–6.7 | 7.2 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=4 | 0 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | tHg | n=3 | 0 | 0 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/li2017-mercury-coal-power-plants-vegetables-grains\|3]] |
-| Ni | n=7 | 0 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/salem2024-tomato-remediated-soil-egypt\|3]] |
+| Ni | n=4 | 16–230 | 250 | low | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|1]], [[sources/fatai2024-african-spinach-tomato-nigeria\|2]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|3]] |
 | Al | data gap | — | — | — | — |
-| Cr | n=7 | 0 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/samma2024-bangladesh-vegetable-metals\|3]] |
+| Cr (total) | n=4 | 32–410 | 410 | low | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]], [[sources/fatai2024-african-spinach-tomato-nigeria\|3]] |
 | Sn | n=3 | 50–400 | 600 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/kangre2024-canned-tomato-pb-sn-ghana\|2]], [[sources/muniz2018-tomato-sauce-packaging-metals\|3]] |
-| U | n=2 | 0 | 0 | high | — |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, nickel, chromium, and uranium cells were resynthesized on 2026-06-11 on the native basis of this page, fresh (raw) tomato fruit. Most of the primary occurrence literature reports dry-weight produce concentrations; those values run several-fold higher than the fresh-weight figures because the fruit is roughly 94 percent water, so dry-weight anchors are read as upper-bounding corroboration rather than as the headline distribution. Chromium and nickel are reported as total elemental concentrations throughout the contributing corpus; no hexavalent-chromium measurement exists for tomato, so the chromium cell is total chromium only and no Cr-VI value is inferred from it.
+
+Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported lead, nickel, chromium, and uranium at typical and 95th-percentile values of zero. Those figures were an artifact of the FDA Total Diet Study composites for "Tomato, raw," in which every one of the 27 samples fell below the reporting limit (lead 4 µg/kg, nickel 40 µg/kg, chromium 50 µg/kg, uranium 1 µg/kg) and the reported zeros were pooled as literal zeros. The resynthesis replaces the literal zeros with the detected fresh-weight distributions from the broader literature, in which lead, nickel, and total chromium are all low but non-zero, and records the lower bound of each cell as a left-censored zero rather than as a measured zero. The applicable FDA reporting limit (4 µg/kg for lead) is stated here in prose rather than carried in the machine-readable cell, where the censored lower bound is encoded as the numeric value 0.
+
+**Lead** in tomato is low in clean retail production but non-zero. The central distribution rests on fresh-weight retail surveys: Iranian Hamadan-market tomato at a mean of 7 µg/kg fresh weight ([[sources/heshmati2020-iran-vegetables-cereals-pb-cd|Heshmati et al. 2020]], n=50 composites), Polish retail fresh tomato at a mean of 16 µg/kg and a fresh-tomato maximum of 52 µg/kg ([[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]]), and a Polish multi-variety survey averaging 21 µg/kg fresh weight across 25 fresh and processed samples ([[sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland|Grochowska-Niedworok et al. 2020]]). The upper tail is set by the Tehran supermarket survey, which reports fresh tomato at 79 µg/kg (summer) and 241 µg/kg (autumn) fresh weight ([[sources/alimohammadi2018-tehran-supermarket-vegetables|Alimohammadi et al. 2018]]), corroborated by Nigerian field tomato at 167 µg/kg ([[sources/fatai2024-african-spinach-tomato-nigeria|Fatai et al. 2024]]); the Fatai values were reported after the tomato was dried and ground, and the source does not state whether its mg/kg figures are on a fresh-weight or dry-weight basis, so this corroboration is read with that basis ambiguity in mind. The 95th-percentile anchor of 240 µg/kg reflects the Alimohammadi autumn value. A single Polish frozen-tomato sample at 537 µg/kg fresh weight ([[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]], a one-sample frozen outlier) and the documented wastewater-irrigated and industrial-soil stratum (Bangladeshi Bogura-district tomato at 3,120 to 21,690 µg/kg dry weight, [[sources/samma2024-bangladesh-vegetable-metals|Samma et al. 2024]]; Quito market tomato at 460 to 650 µg/kg dry weight, [[sources/vela2023-quito-vegetables-cd-pb|Vela et al. 2023]]; wastewater-irrigated Cairo tomato, [[sources/ahmed2023-trace-metals-tomato-wastewater|Ahmed et al. 2023]]) are held out of the central estimate and reported separately below as a contaminated-production stratum.
+
+**Nickel** in tomato is reported as total nickel and rests on a thin fresh-weight pool. The Tehran supermarket survey reports tomato Ni at 161 µg/kg (summer) and 232 µg/kg (autumn) fresh weight ([[sources/alimohammadi2018-tehran-supermarket-vegetables|Alimohammadi et al. 2018]]), Nigerian field tomato at 133 µg/kg ([[sources/fatai2024-african-spinach-tomato-nigeria|Fatai et al. 2024]]), and a Chinese-market all-vegetable category aggregate (n=114; leafy greens, edible mushrooms, solanaceous fruits, tubers, and kale combined) at a mean of 16 µg/kg and a maximum of 86 µg/kg fresh weight, used here as a broad cross-vegetable proxy rather than a tomato-specific value ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]). The typical range spans this low Chinese-market cross-vegetable central tendency to the Tehran autumn central value; the 95th-percentile anchor of 250 µg/kg sits just above the Alimohammadi autumn figure. Egyptian tomato grown in heavily contaminated, non-remediated soil reached 1,000 µg/kg ([[sources/salem2024-tomato-remediated-soil-egypt|Salem et al. 2024]], untreated control) and is reported separately as a contaminated-soil stratum rather than folded into the central estimate. Confidence is low given the four-source pool and the wide geographic spread.
+
+**Chromium** is reported as total chromium at low confidence; no tomato hexavalent-chromium measurement exists in the corpus. The Tehran supermarket survey reports tomato total Cr at 234 µg/kg (summer) and 412 µg/kg (autumn) fresh weight ([[sources/alimohammadi2018-tehran-supermarket-vegetables|Alimohammadi et al. 2018]]), the Chinese-market all-vegetable category aggregate (n=114; leafy greens, edible mushrooms, solanaceous fruits, tubers, and kale combined) at a mean of 32 µg/kg and a maximum of 278 µg/kg fresh weight, used here as a broad cross-vegetable proxy rather than a tomato-specific value ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]), and Nigerian field tomato at 99 µg/kg ([[sources/fatai2024-african-spinach-tomato-nigeria|Fatai et al. 2024]]). The typical range runs from the Chinese-market cross-vegetable central tendency to the Tehran autumn value, with the 95th-percentile anchor set at 410 µg/kg. Bangladeshi industrial-district tomato reached 5,440 µg/kg dry weight ([[sources/samma2024-bangladesh-vegetable-metals|Samma et al. 2024]]) and is held out as a contaminated-soil stratum.
+
+**Uranium** is recorded as a reviewed data gap. The FDA Total Diet Study reported all 27 tomato samples below its 1 µg/kg uranium reporting limit, and no routed non-FDA source in the corpus reports an extractable quantitative uranium value for tomato fruit. Consistent with the uranium treatment on [[ingredients/rice]], no distribution is published; the cell is left as a gap rather than recorded as a measured zero.
+
+### Contaminated-production stratum (not pooled into the central estimates)
+
+Several sources document tomato grown under wastewater irrigation or on industrially contaminated soil at concentrations one to two orders of magnitude above the clean-retail distributions above. These are stratified out so they do not set the central estimate, but they bound the supply-chain risk for tomato sourced from such regions. Bangladeshi Bogura-district tomato reached 3.12 to 21.69 mg/kg dry weight lead and up to 5.44 mg/kg dry weight total chromium ([[sources/samma2024-bangladesh-vegetable-metals|Samma et al. 2024]]); Ecuadorian Quito-market tomato reached 0.46 to 0.65 mg/kg dry weight lead ([[sources/vela2023-quito-vegetables-cd-pb|Vela et al. 2023]]); wastewater-irrigated Cairo tomato carried elevated lead, chromium, and nickel ([[sources/ahmed2023-trace-metals-tomato-wastewater|Ahmed et al. 2023]]); and Egyptian tomato grown on contaminated soil reached 1.00 mg/kg nickel before remediation ([[sources/salem2024-tomato-remediated-soil-egypt|Salem et al. 2024]]). Irrigation-water source and growing-region soil history are the sourcing levers that distinguish this stratum from clean-retail production.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

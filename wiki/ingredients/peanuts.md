@@ -12,11 +12,11 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 90]
+    p95_ppb: 230
     confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    n_studies: 7
+    last_reviewed: 2026-06-11
   Cd:
     status: populated
     typical_ppb: [36.4, 44.4]
@@ -33,11 +33,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [1.0, 5.0]
-    p95_ppb: 5.0
+    typical_ppb: [5, 36]
+    p95_ppb: 71
     confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-05-16
+    n_studies: 6
+    last_reviewed: 2026-06-11
   tHg:
     status: populated
     typical_ppb: [0, 0]
@@ -61,11 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 290]
+    p95_ppb: 720
+    confidence: low
+    n_studies: 5
+    last_reviewed: 2026-06-11
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -86,7 +86,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-11
 sources: 35
 ---
 
@@ -130,16 +130,28 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=8 | 0 | 0 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|3]] |
+| Pb | n=7 | 0–90 | 230 | medium | [[sources/blair2017-us-peanut-heavy-metals\|1]], [[sources/bielecka2021-nuts-toxic-elements-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
 | Cd | n=11 | 36.4–44.4 | 44.7 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|3]] |
 | iAs | n=3 | 1–2 | 2 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|3]] |
-| tAs | n=7 | 1.0–5.0 | 5.0 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|3]] |
+| tAs | n=6 | 5–36 | 71 | medium | [[sources/blair2017-us-peanut-heavy-metals\|1]], [[sources/bielecka2021-nuts-toxic-elements-poland\|2]], [[sources/chen2022-peanut-elements-china\|3]] |
 | tHg | n=3 | 0 | 0 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Ni | n=9 | 408–528 | 539 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|3]] |
 | Al | data gap | — | — | — | — |
-| Cr | n=7 | 0 | 0 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|3]] |
+| Cr | n=5 | 0–290 | 720 | low | [[sources/chen2022-peanut-elements-china\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/alatise2025-fruit-nuts-metals\|3]] |
 | Sn | data gap | — | — | — | — |
 | U | n=2 | 0 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, total-arsenic, and chromium cells above were resynthesized on 2026-06-11 on a whole peanut-kernel basis, the form in which peanuts enter the ingredient supply chain. Most primary occurrence literature reports kernel concentrations on a dry or as-sold basis; the FDA Total Diet Study figures for dry-roasted salted peanuts (TDS Food 48, n=3 per analyte) are carried as a corroborating as-consumed anchor rather than the headline basis. Inorganic arsenic and total arsenic are kept as distinct analytes and are never derived from one another by a fixed ratio; only the speciated peanut-butter measurement ([[sources/hovanec2004-peanut-butter-arsenic-speciation|Hovanec 2004]]) populates the iAs cell, and the total-arsenic values synthesized here are not propagated to it.
+
+Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported lead, total arsenic, and chromium at typical and 95th-percentile values that mis-recorded FDA reporting-limit non-detects as literal zeros. In the FDA TDS composites every dry-roasted-peanut sample fell below the reporting limit for lead (4 µg/kg) and chromium (50 µg/kg), and the total-arsenic distribution collapsed against a 3 µg/kg reporting limit (one of three samples non-detect, the rest pinned near 5 µg/kg). The resynthesis replaces those degenerate cells with the detected kernel distributions from the primary literature, in which all three metals are low but non-zero, with right tails driven by market-sample and contaminated-soil production. The honest floor for lead and chromium is the FDA reporting limit expressed as a left-censored bound (`<4` and `<50` µg/kg respectively), not zero.
+
+The lead distribution rests on US farmer-stock data ([[sources/blair2017-us-peanut-heavy-metals|Blair et al. 2017]], n=290, regression-on-order-statistics mean 32 µg/kg, 95% upper confidence limit 37 µg/kg, with 94 of 290 samples censored below 20 µg/kg) together with Polish-market surveys ([[sources/bielecka2021-nuts-toxic-elements-poland|Bielecka et al. 2021]], peanut median 82 µg/kg, mean 189 µg/kg; [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland|Ćwieląg-Drabek et al. 2025]], peanut mean 229 µg/kg, 49 percent below the quantification limit) and Chinese provincial data ([[sources/chen2022-peanut-elements-china|Chen et al. 2022]], province means 7 to 60 µg/kg, Hebei non-detect). The 95th-percentile anchor of 230 µg/kg is set at the Polish retail mean; documented single-sample maxima (Bielecka 1,354 µg/kg, Ćwieląg-Drabek 818 µg/kg, Blair 640 µg/kg Virginia-Carolina outlier) and a 5,800 µg/kg peanut from a Burkina Faso open market ([[sources/bazie2022-burkina-faso-foodstuffs-metals|Bazie et al. 2022]]) are reported as a separate market-contamination and mining-region stratum and are not folded into the global percentile.
+
+The total-arsenic distribution rests on Blair et al. 2017 (US, ROS mean 28 µg/kg, 109 of 290 censored below 20 µg/kg, single Southwest-region outlier at 410 µg/kg), Bielecka et al. 2021 (peanut median 24 µg/kg, mean 36 µg/kg, range 21 to 71 µg/kg), Chen et al. 2022 (province means 9 to 20 µg/kg), and Belew et al. 2024 (Ethiopia, mean 17 µg/kg, range 1 to 50 µg/kg). The typical band of 5 to 36 µg/kg spans the FDA as-consumed central value to the Polish retail mean; the 95th-percentile anchor of 71 µg/kg is the Bielecka upper range, with the Blair 410 µg/kg Southwest outlier held out of the percentile.
+
+Chromium is reported as total chromium at low confidence; no peanut-kernel hexavalent-chromium measurement exists in the corpus, and no Cr-VI value is inferred from the total. The total-chromium distribution rests on Chen et al. 2022 (province means 234 to 293 µg/kg by ICP-MS), Ćwieląg-Drabek et al. 2025 (peanut mean approximately 230 µg/kg, 4 percent below the quantification limit), Belew et al. 2024 (Ethiopia, mean 145 µg/kg, range 10 to 500 µg/kg), and Alatise et al. 2025 (Nigeria, peanut 720 µg/kg). The typical band of `<50` to 290 µg/kg runs from the FDA left-censored floor to the upper Chinese provincial mean; the 95th-percentile anchor of 720 µg/kg is the Nigerian market value. Legume composites that pool peanut with soybean ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]], legume Cr to 2,600 µg/kg) are soybean-driven and are not adopted as a peanut percentile.
 
 ## Ranges by source, region, and variety
 
