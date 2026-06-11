@@ -198,7 +198,11 @@ for (const dir of targetDirs) {
       }
       // Escape pipe chars so they don't break the markdown table
       const escaped = description.replace(/\|/g, "\\|")
-      newLines.push(line.replace("*[awaiting synthesis]*", escaped))
+      // Function replacer: a string replacement would let `$&`, `$'`, `` $` ``,
+      // `$$` in a dollar-bearing description (e.g. "$12–18 billion") be
+      // interpreted as backreferences. Same idempotency hazard as
+      // build-source-legend.mjs.
+      newLines.push(line.replace("*[awaiting synthesis]*", () => escaped))
       cellsFilled += 1
     }
     const newLegend = newLines.join("\n")

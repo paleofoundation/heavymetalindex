@@ -418,7 +418,13 @@ function upsertLegend(raw, citeKeys, targetPath, targetKey) {
     const m = raw.match(re)
     const preserved = m ? parseExistingContributions(m[1]) : new Map()
     const rendered = renderLegend(citeKeys, preserved)
-    return raw.replace(re, rendered)
+    // Function replacer, not a string: a string replacement would interpret
+    // `$&`, `$1`, `$'`, etc. inside the rendered table. Preserved "Used on
+    // this page for" cells routinely contain literal dollar amounts (e.g.
+    // chiger2017's "$12–18 billion"), where `$1` would expand to capture
+    // group 1 — the entire matched block — re-inserting every prior table on
+    // each run. That was the source-legend non-idempotency bug.
+    return raw.replace(re, () => rendered)
   }
   // Case 2: page has an existing `## Sources` heading with content
   const sourcesHeadingMatch = raw.match(/(^|\n)##\s+Sources\s*\n([\s\S]*?)(?=\n##\s+|\n\s*$)/i)
@@ -436,7 +442,10 @@ function upsertLegend(raw, citeKeys, targetPath, targetKey) {
     const isStructuredTable = preserved.size > 0
     const isBulletList = isSimpleBulletList(existingContent)
     const rendered = renderLegend(citeKeys, preserved)
-    return raw.replace(sourcesHeadingMatch[0], `\n${rendered}\n`)
+    // Function replacer for the same reason as Case 1 — keep `$`-bearing
+    // citation/contribution text literal rather than letting String.replace
+    // treat it as a backreference.
+    return raw.replace(sourcesHeadingMatch[0], () => `\n${rendered}\n`)
   }
   // Case 3: no `## Sources` heading at all — append at end of page
   const rendered = renderLegend(citeKeys)
