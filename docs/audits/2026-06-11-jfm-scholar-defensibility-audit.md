@@ -57,3 +57,21 @@ The Scholar-target infrastructure exists and is **live**, contrary to the Claude
 - Build Zenodo deposit packages (16 works; abstract = needs a `description:` field added per page, not body-scraping) → mint DOIs → `mint-dois.mjs --from-map` → shared `citation_doi` for Scholar dedup. Output to `data/evidence/migrations/`.
 
 **Phase C — venue (Karen-led, humans are the long pole):** independent EIC + 5 reviewers seated → real verdicts on 2–3 inaugural works → only then use the "peer-reviewed journal" label / ISSN / Crossref / DOAJ. In parallel, pursue 1–2 external-journal submissions (the reframe above).
+
+---
+
+## 2026-06-11 (PM) — UPDATE: cleanup COMPLETE + Zenodo correction + ROI sequencing
+
+**Firewall cleanup COMPLETE.** All 26 dirty synthesis+metal pages neutralized via workflow wf_03ca78e9-df7 (neutralize → adversarial-verify, each checked vs git HEAD for science-preservation). Firewall lint now: **0 HIGH / 0 MEDIUM hand-authored-prose hits** (was 110/26). Commits 8677b6c (exemplar + overclaims + lint) and cfa4fda (25 pages). The lint now separates hand-authored prose from generated source-legend blocks; 2 generated-block HMTc strings (cadmium, lead, fed from source-page frontmatter) remain → fix at the source / `populate-source-legends` generator, a separate sweep. Next: wire `audit-synthesis-firewall.mjs --strict` into prebuild now that prose is clean.
+
+**CORRECTION — supersedes finding #4 and the Phase B Zenodo bullet above.** Verified + red-teamed against Zenodo's own FAQ, Google Scholar's Inclusion Guidelines, three practitioner reports, and open Zenodo GitHub tickets: **Google Scholar does NOT index Zenodo.** The "Zenodo is an already-trusted Scholar front door" premise is FALSE (Zenodo/Google never resolved the resource-type/URL-pattern standoff). Therefore:
+- Zenodo DOI value = a permanent, citable, third-party-resolvable DataCite identifier + CrossRef/DataCite citation tracking + the "durably published, not just self-hosted" defensibility posture. It does NOT buy Scholar visibility.
+- Scholar visibility must come from the WIKI's own landing pages (already set up correctly: Highwire `citation_*` + `citation_pdf_url`). Timeline weeks-to-~6mo, probabilistic, because heavymetalindex.com is a fresh non-journal domain with no crawl trust. Scholar is crawl-only (no submission dashboard).
+- arXiv IS Scholar-trusted (~7–14 days); generalist repos (Zenodo, Figshare) are not. The reliable, fast path into Scholar is a venue Scholar already trusts (an established journal) — this reinforces the external-publication-first reframe.
+- Still set the SAME `citation_doi` on the Zenodo record and the wiki page, with identical title/author/year, so IF Scholar ever indexes both it merges rather than splits citations (belt-and-suspenders; the primary merge lever is shared DOI + identical metadata, not DataCite relatedIdentifier).
+
+**ROI sequencing (Karen's order: brand-ROI first; Scholar authority serves it; JFM gated on its own ROI):**
+1. **Fix substance** (DONE — firewall) — a breached firewall is the plaintiff's exhibit; this protects brand ROI and is the precondition for any honest authority signal.
+2. **Cheap authority path** (near-$0): keep the already-live wiki citation infra + add Zenodo DOIs for archival/defensibility. Delivers "found + durably-published (not self-hosted)" and arms the brand pitch's litigation-insurance framing — but only PARTIAL "authority" (Scholar gates on inbound citations, which 16 uncited works don't have).
+3. **Earn ONE external anchor**: place 1–2 genuinely novel syntheses in an established external journal → produces the inbound citation Scholar actually gates on + an independent top anchor for the authority chain. Highest-ROI move for "seen as authorities"; directly closes GC/defense-counsel objections and supports insurer repricing.
+4. **Gate JFM-as-separate-entity**: build only if the gate clears — external EIC + reviewers seated AND synthesis cadence exceeds what external venues will absorb AND a concrete defensibility/revenue need the cheap path can't serve. A capstone, never the first move, never on the certifier domain without structural independence.
