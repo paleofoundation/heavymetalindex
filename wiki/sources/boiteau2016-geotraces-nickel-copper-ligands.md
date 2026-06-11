@@ -1,0 +1,55 @@
+---
+type: source
+raw_handle: AUTO_ing-formula-ni-2016-10-3389-fmars-2016-00243
+cite_key: boiteau2016-geotraces-nickel-copper-ligands
+title: "Structural Characterization of Natural Nickel and Copper Binding Ligands along the US GEOTRACES Eastern Pacific Zonal Transect"
+authors: ["Rene M. Boiteau", "Claire P. Till", "Angel Ruacho", "Randelle M. Bundy", "Nicholas J. Hawco", "Amy M. McKenna", "Katherine A. Barbeau", "Kenneth W. Bruland", "Mak A. Saito", "Daniel J. Repeta"]
+year: 2016
+publication: "Frontiers in Marine Science"
+doi: "10.3389/fmars.2016.00243"
+source_type: peer-reviewed
+evidence_tier: A
+license: "unknown"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-formula-ni_2016_10-3389-fmars-2016-00243.pdf"
+metals: [Ni, Cu]
+ingredients: []
+products: []
+matrices: [marine-water, aquatic-bioaccumulation, geotraces-transect]
+jurisdictions: [US]
+near_duplicates: []
+sample_n: null
+sample_population: "US GEOTRACES Eastern Pacific Zonal Transect marine-water samples analyzed for natural nickel- and copper-binding ligands."
+updated: 2026-06-11
+---
+
+# Boiteau et al. 2016 - Nickel and copper ligands on the US GEOTRACES transect
+
+Boiteau and colleagues characterized natural nickel- and copper-binding ligands in Eastern Pacific seawater along the US GEOTRACES transect. This is in-scope lane a3 aquatic pathway evidence and not infant-formula occurrence evidence.
+
+## Key numbers
+
+The paper reports marine nickel and copper ligand characterization across the transect and notes that dissolved ligand concentrations exceeded dissolved nickel concentrations across the section by a factor of 1.6-12, with results summarized in Table 1.
+
+The methods used 1000 ppm metal reference standards, FT-ICRMS with sub-ppm mass-measurement accuracy, and ICP-MS / voltammetric workflows described throughout the methods section.
+
+## Methods (brief)
+
+The study combined chromatographic separation, high-resolution mass spectrometry, voltammetry, and marine-sample collection from the US GEOTRACES Eastern Pacific Zonal Transect. The focus is dissolved marine-metal speciation and ligand structure, not food or formula matrices.
+
+## Implications
+
+Certification: Not product-occurrence evidence.
+
+Courses: Useful marine-pathway case for explaining how dissolved metal chemistry shapes downstream bioavailability and eventual aquatic-food contamination.
+
+App: Context only.
+
+## Wiki pages this source may touch
+
+- [[supply-chain/aquatic-bioaccumulation]]
+- [[metals/nickel]]
+- [[metals/copper]]
+
+## Verification notes
+
+Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The queue handle mislabeled this paper as formula-related; on reading, it is in-scope lane a3 marine-pathway evidence for aquatic metal availability.
