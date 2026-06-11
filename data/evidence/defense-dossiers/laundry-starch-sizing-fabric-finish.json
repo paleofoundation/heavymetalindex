@@ -17,18 +17,45 @@
     "canonical_url": "https://heavymetalindex.com/products/laundry-starch-sizing-fabric-finish",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "073a43deb0060d633bdccc05bb6920a30c5dfba5a7d31f3adf120a94cbc1f0b4",
-      "content_bytes": 9105,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "14cc9f7b2b0cd0a5072d55966a7eb7bf46492b8a3bb112b52962450d626a8ba7",
+      "content_bytes": 9708,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/laundry-starch-sizing-fabric-finish.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/laundry-starch-sizing-fabric-finish.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/greenseal2020-gs51-laundry-care-products",
+        "title": "GS-51: Green Seal Standard for Laundry Care Products for Industrial and Institutional Use, Edition 1.6",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tHg",
+          "Cd",
+          "Cr-VI",
+          "tAs",
+          "Co",
+          "Mn",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/greenseal2020-gs51-laundry-care-products",
+        "content_pin": {
+          "content_sha256": "5c9d524531ce65ee684e5d28956ed268701383bb316e7ed3086664be3795cdf6",
+          "content_bytes": 8958,
+          "last_commit_sha": "c7e5aec",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show c7e5aec:wiki/sources/greenseal2020-gs51-laundry-care-products.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/nydec2020-cleansing-product-disclosure-bmp",
         "title": "Cleansing Product Information Disclosure Program — Recommended Best Management Practices",
@@ -46,12 +73,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
         "content_pin": {
-          "content_sha256": "30bf9e55be09d1b4a7ff7a4fdb934ebfcb9d7b2c8b8f212672767bf89b916fa1",
-          "content_bytes": 49086,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "9c281c4a4e5966302158f16335801edaee712f209b5b440c13d50c0ff82fa4f4",
+          "content_bytes": 49056,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
         }
       }
     ]

@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-supplements-calming-behavioral.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 29880e752afed6b4b88b7f18a6dea9814f355f9091d4a882d90a1aa6b307e277
+source_page_sha256: 9fcf76cb11c53e3d65707f562b758442dc15bc1df51260f57a3af0023a0bf818
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 1261
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 1261 |
 
 ## Page-level audit rows
 

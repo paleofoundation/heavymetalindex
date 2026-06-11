@@ -4,8 +4,8 @@ type: brand-dossier
 noindex: true
 audience: [regulator, brand-legal, commercial]
 category: products/butter-and-ghee
-hmtc_category: 7
-hmtc_row: 3
+hmtc_category: 24
+hmtc_row: 9
 generated: true
 ---
 
@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c679df8` (2026-06-08). The body hashes to `sha256:f74d34579637663ac3de21454f7286e8…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `496b50d` (2026-06-09). The body hashes to `sha256:29bf24768f982dfc754105f1c49b8488…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=butter-and-ghee&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/butter-and-ghee&download=1`.
 

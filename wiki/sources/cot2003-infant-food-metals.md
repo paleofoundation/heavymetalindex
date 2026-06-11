@@ -82,3 +82,13 @@ App: The source can support UK infant-food profiles for total arsenic, cadmium, 
 - Units are preserved as `µg/kg` for product concentrations and `µg/kg bw/day` for exposure estimates.
 - Speciation: the source states the analytical method did not determine metal species. Arsenic is recorded as `tAs`, mercury as `tHg`, and chromium as total Cr; no iAs, MeHg, or Cr(VI) values were inferred.
 - Brand firewall: the survey considered main types and brands on sale, but this page records category and diet-scenario values only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb63f6e](https://github.com/paleofoundation/heavymetalindex/commit/fb63f6e) | 2026-06-09 | Co-Authored-By: Codex GPT-5.5 <noreply@openai.com> |
+<!-- END: hmi-page-history -->

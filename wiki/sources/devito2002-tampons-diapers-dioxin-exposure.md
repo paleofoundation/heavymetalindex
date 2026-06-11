@@ -129,3 +129,13 @@ Brand firewall (Part 12) clean: the paper uses anonymized brand codes (A, B, C, 
 Wiki/HMTc firewall (Part 2) clean: the paper's "dioxin exposure from these products is negligible compared with dietary intake" conclusion is reported as the authors' own conclusion (their own framing, their own assumptions), not as wiki synthesis or as justification for any HMTc decision. No HMTc threshold proposal, no synthesis claim ("this confirms the literature consensus..."), no consumer risk advisory.
 
 Paper-internal copy-edit slip noted but not propagated: the Results/Diapers paragraph (p. 26) states the diaper dioxin concentration range as `1.6-3.0 pg TEQ/g diaper` while citing Table 1, but Table 1 reports total dioxin mass concentrations of `1.8-3.7 pg/g` (not pg TEQ/g, and not 1.6-3.0). Table 2 separately reports TEQ concentrations of `0.0042-0.023 pg TEQ/g`. The tables themselves are mutually consistent; the textual range conflates Table 1 (total mass) with Table 2 (TEQ) and is off-range for both. This page cites the table values directly and notes the discrepancy in Key numbers. This is a copy-edit slip in the published paper, not a paper-internal data-integrity contradiction that would trigger a stop condition.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b739a4c](https://github.com/paleofoundation/heavymetalindex/commit/b739a4c) | 2026-06-09 | ingest: devito2002-tampons-diapers-dioxin-exposure fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

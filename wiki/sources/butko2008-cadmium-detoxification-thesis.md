@@ -166,6 +166,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [927fa84](https://github.com/paleofoundation/heavymetalindex/commit/927fa84) | 2026-06-08 | audit: butko2008-cadmium-detoxification-thesis promoted |
 | [db200d4](https://github.com/paleofoundation/heavymetalindex/commit/db200d4) | 2026-06-08 | ingest: butko2008-cadmium-detoxification-thesis fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

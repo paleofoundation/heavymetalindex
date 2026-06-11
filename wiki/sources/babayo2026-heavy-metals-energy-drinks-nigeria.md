@@ -257,6 +257,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [e705b0a](https://github.com/paleofoundation/heavymetalindex/commit/e705b0a) | 2026-06-06 | ingest: hamza2026-heavy-metals-energy-drinks-health-risk fresh from Manual Fetch Discovery |
 | [5890fa4](https://github.com/paleofoundation/heavymetalindex/commit/5890fa4) | 2026-06-06 | audit: babayo2026-heavy-metals-energy-drinks-nigeria [revised] |
 | [da3fd32](https://github.com/paleofoundation/heavymetalindex/commit/da3fd32) | 2026-06-06 | ingest: babayo2026-heavy-metals-energy-drinks-nigeria [fresh] from Manual Fetch Discovery |

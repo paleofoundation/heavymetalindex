@@ -82,6 +82,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [5a71ba7](https://github.com/paleofoundation/heavymetalindex/commit/5a71ba7) | 2026-06-08 | audit: zhao2025-sargassum-fusiforme-metals-detoxification revised |
 | [5dd4aba](https://github.com/paleofoundation/heavymetalindex/commit/5dd4aba) | 2026-06-08 | ingest: zhao2025-sargassum-fusiforme-metals-detoxification fresh from MFK/June 8 Inorganic Arsenic Seaweed |
 <!-- END: hmi-page-history -->

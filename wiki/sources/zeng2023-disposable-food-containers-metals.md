@@ -91,3 +91,13 @@ This source provides food-contact-material migration evidence for disposable pap
 - Product routing is broad because the taxonomy snapshot has no exact `paper-cups`, `plastic-cups`, `plastic-bags`, or `plastic-bowls` product slugs. Existing food-packaging and plastic-drinkware slugs are used, and exact physical forms are kept in `matrices:`.
 - Brand firewall: the source describes an online purchasing channel but no brand-specific values are reported here. Instrument and method vendor names are scientific reproducibility details, not product-brand contamination claims.
 - The source's HQ and ELCR calculations are not treated as HMTc thresholds or consumer guidance; this page records the occurrence/migration values and leaves risk-model interpretation to source-attributed context.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [761b542](https://github.com/paleofoundation/heavymetalindex/commit/761b542) | 2026-06-09 | ingest: zeng2023-disposable-food-containers-metals fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

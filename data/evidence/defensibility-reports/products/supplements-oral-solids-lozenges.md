@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-solids-lozenges.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b138c0632da9165eae9ab2a06b06929c9c0a35b4f7f192d3fb634fcba6913efb
+source_page_sha256: 282cd584d2fafe81406971d5ded9b54b0855966d882498c1536aa2ce746898db
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 1261
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 1261 |
 
 ## Page-level audit rows
 

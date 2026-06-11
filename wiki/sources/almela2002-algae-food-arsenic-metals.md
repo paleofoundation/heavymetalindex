@@ -98,5 +98,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [0bb8e85](https://github.com/paleofoundation/heavymetalindex/commit/0bb8e85) | 2026-06-08 | ingest: almela2002-algae-food-arsenic-metals fresh from MFK/June 8 Inorganic Arsenic Seaweed |
 <!-- END: hmi-page-history -->

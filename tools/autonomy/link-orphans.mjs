@@ -45,9 +45,18 @@ for (const cat of CATEGORIES) {
     .sort()
 
   let indexText = fs.existsSync(indexPath) ? fs.readFileSync(indexPath, "utf8") : ""
+  const dirName = path.basename(cat.dir)
 
-  // Find orphan slugs (not referenced anywhere in the index file)
-  const orphans = allSlugs.filter((slug) => !indexText.includes(slug))
+  // Find orphan slugs: a page is "linked" only if the index references it as a
+  // wikilink target — `[[<dir>/<slug>]]`, `[[<dir>/<slug>|Label]]`, or
+  // `[[<dir>/<slug>#anchor]]`. The previous bare `indexText.includes(slug)`
+  // substring check permanently masked any slug that happens to be a substring
+  // of another linked slug (e.g. `beans` inside `green-beans`, `lettuce` inside
+  // `iceberg-lettuce`, `cereal` inside `rice-cereal`), so those orphans were
+  // never surfaced no matter how often this ran.
+  const isLinked = (slug) =>
+    new RegExp(`\\[\\[${escapeRe(dirName)}\\/${escapeRe(slug)}(?:\\||#|\\]\\])`).test(indexText)
+  const orphans = allSlugs.filter((slug) => !isLinked(slug))
   if (orphans.length === 0) continue
 
   // Build the auto-linked section

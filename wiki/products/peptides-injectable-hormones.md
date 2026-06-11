@@ -15,7 +15,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: none
-sources: 0
+sources: 1
 wiki_doi: null
 updated: 2026-06-08
 ---
@@ -31,7 +31,22 @@ updated: 2026-06-08
 
 No sources are routed to this row yet. The corpus will accumulate via the source-routing layer.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<!-- BEGIN: source-legend -->
-<!-- END: source-legend -->
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/ucalgary2026-cpt-pearl-unauthorized-injectable-peptides\|University of Calgary Clinical 2026]]. *Clinical Pharmacology & Toxicology Pearl of the Week — Unauthorized Injectable Peptides*, CPT Pearl of the Week (Alberta Health Services / University of Calgary Cumming School of Medicine) | 2026 | Government report | CA tAs, Pb occurrence in Clinical bulletin from the Alberta Health Services Clinical Pharmacology & Toxicology service summarizing four case reports of unauthorized... |
+<!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c794d6b](https://github.com/paleofoundation/heavymetalindex/commit/c794d6b) | 2026-06-08 | reorg(taxonomy-v2.1): stand up cats 24/25/26 + mushrooms/jewelry rows |
+<!-- END: hmi-page-history -->

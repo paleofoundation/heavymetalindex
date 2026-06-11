@@ -250,3 +250,24 @@
 - `kim2023-korea-fishery-products-metals` — kim2023-korea-fishery-products-metals PROMOTE
 - `harada1995-minamata-methylmercury-poisoning` — harada1995-minamata-methylmercury-poisoning REVISE
 - `ho2014-hong-kong-seafood-organotins` — ho2014-hong-kong-seafood-organotins PROMOTE
+
+## Run 2026-06-09T10:48:30.949Z
+
+- Candidates this run: 12
+- Succeeded (audited and committed): 12
+- Stopped (genuine block, no commit): 0
+- Failed (error, no commit): 0
+
+### Succeeded
+- `hwang2010-dried-seaweed-korea-metals` — hwang2010-dried-seaweed-korea-metals PROMOTE
+- `lin2021-taiwan-seafood-mercury-tds` — lin2021-taiwan-seafood-mercury-tds REVISE
+- `tamele2020-african-seafood-metals-review` — tamele2020-african-seafood-metals-review PROMOTE
+- `khandaker2021-malaysian-seaweed-metalloids` — khandaker2021-malaysian-seaweed-metalloids REVISE
+- `lee2016-taiwan-seafood-organotins` — lee2016-taiwan-seafood-organotins PROMOTE
+- `sadighara2021-food-organotin-review` — sadighara2021-food-organotin-review REVISE
+- `mehouel2021-algeria-seafood-metals-review` — mehouel2021-algeria-seafood-metals-review PROMOTE
+- `cherry2019-edible-seaweeds-risks-benefits` — cherry2019-edible-seaweeds-risks-benefits PROMOTE
+- `olmedo2013-andalusia-fish-shellfish-metals` — olmedo2013-andalusia-fish-shellfish-metals REVISE
+- `pazi2017-aegean-fish-metal-risk` — pazi2017-aegean-fish-metal-risk PROMOTE
+- `djedjibegovic2020-bih-commercial-seafood-metals` — djedjibegovic2020-bih-commercial-seafood-metals PROMOTE
+- `akkaya2025-marmara-fishery-products-metals` — akkaya2025-marmara-fishery-products-metals PROMOTE

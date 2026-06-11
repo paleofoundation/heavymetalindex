@@ -62,3 +62,13 @@ Microbiome: Not measured. The paper discusses endometriosis and dioxin exposure 
 ## Verification notes
 
 Identity checks before drafting found no existing `wiki/sources/` hit for raw handle `MFK_paper-27-archer-2005-dioxins-tampons`, cite key `archer2005-tampon-dioxins-furans`, or exact title. No DOI is printed in the extracted PDF text, so `doi: null` is retained rather than guessed. The PDF SHA-256 is `64b1ac4b923a438bb8618d95ea05bf5d17741f07936a4bc500fdbecd05f4a4bd`. The first page, Methods, Results/Discussion, Follow-up, and Conclusions were re-opened from `/tmp/hmi-fem-018.txt`; units are preserved without conversion. The figure images contain brand-code concentration bars, but this page reports only text-supported aggregate and product-form findings to avoid brand-coded value presentation. `metals: []` is intentional: the analytes are dioxins/furans, not Pb, Cd, As, Hg, Cr, Sn, organotin, or other HMT metal species. The source's JECFA comparison is quoted as the authors' own exposure-context statement, not converted into an HMTc threshold.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b40cbd3](https://github.com/paleofoundation/heavymetalindex/commit/b40cbd3) | 2026-06-09 | ingest: archer2005-tampon-dioxins-furans fresh from MFK/June 8 Kimi_Agent_Feminine Care Heavy Metal Papers |
+<!-- END: hmi-page-history -->

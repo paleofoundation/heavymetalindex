@@ -21,16 +21,16 @@
     "canonical_url": "https://heavymetalindex.com/products/dried-fruit",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "71164a7663f338d38ecce59c885eeb5d65b71cf3e9ac6d561285d6b5e85eafc8",
-      "content_bytes": 10919,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "a813db1abe5b85f413e93395b43070a1190158fb2574dcafe002ca65d365636b",
+      "content_bytes": 11472,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/dried-fruit.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/dried-fruit.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 5,
+    "contributing_source_count": 6,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2016-infant-toddler-foods-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "bb58034ca71dee4c3b09ddbc32d961c4d72317fcac19464ecbcf8f00f703ae6f",
-          "content_bytes": 7220,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "8890b71b9575d8a35c1a74e7948763796342ee0d3603f44bf5f3baf563e5d581",
+          "content_bytes": 7234,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
         }
       },
       {
@@ -64,16 +64,19 @@
         "metal_species": [
           "Pb",
           "Cr",
-          "Ni"
+          "Ni",
+          "Cu",
+          "Mn",
+          "Fe"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mahmood2025-dried-fruit-metals",
         "content_pin": {
-          "content_sha256": "197fe7bdb05412e7aef1a1356e8e5da15799d0b3bafe94c435ef9d99f59e9176",
-          "content_bytes": 2885,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b80208d829d0593d16814849936ae079299bfee708faa750784fd1d824995718",
+          "content_bytes": 6856,
+          "last_commit_sha": "6915292",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/mahmood2025-dried-fruit-metals.md | sha256sum"
+          "verify_command": "git show 6915292:wiki/sources/mahmood2025-dried-fruit-metals.md | sha256sum"
         }
       },
       {
@@ -92,12 +95,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland",
         "content_pin": {
-          "content_sha256": "2bbcff61da9f2ad838f607e9a895973017cb95042423ab8aa284c6f213c36da5",
-          "content_bytes": 12509,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c586817ed58ea4fd24ec0326741158dfa1374d2f275ceca9ec1b9221c13fa78b",
+          "content_bytes": 12523,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland.md | sha256sum"
         }
       },
       {
@@ -113,12 +116,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rusin2021-vegetables-fruits-cadmium-lead-poland",
         "content_pin": {
-          "content_sha256": "753fe3a6dca43b8c7e71d67d193429d0958135cf500c8f16d4332ea8cf3f02e4",
-          "content_bytes": 18567,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "42823d50fb54f9dca7e7eaec6efd3c395a5c5d38cdb6bfea85cf830446233eb3",
+          "content_bytes": 18581,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/rusin2021-vegetables-fruits-cadmium-lead-poland.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/rusin2021-vegetables-fruits-cadmium-lead-poland.md | sha256sum"
         }
       },
       {
@@ -136,12 +139,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars",
         "content_pin": {
-          "content_sha256": "876d16e0166d989130a674f92effbbe92de2f8b4a4d34b391f5e26d7ce8e9ba8",
-          "content_bytes": 13009,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "82dc63e138784f951f1574a25b24a4b329e7d18fccc6b842c68a538fb4cc7c02",
+          "content_bytes": 13023,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/stahl2017-aluminum-food-contact-part1",
+        "title": "Migration of aluminum from food contact materials to food - a health risk for consumers? Part I of III: exposure to aluminum, release of aluminum, tolerable weekly intake (TWI), toxicological effects of aluminum, study design, and methods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/stahl2017-aluminum-food-contact-part1",
+        "content_pin": {
+          "content_sha256": "04ed640616d244f923d3fa5e2504790c9d09efa60c2b2387298b75f183177d6c",
+          "content_bytes": 7268,
+          "last_commit_sha": "0469391",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 0469391:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
         }
       }
     ]

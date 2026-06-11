@@ -91,5 +91,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [bc3f27c](https://github.com/paleofoundation/heavymetalindex/commit/bc3f27c) | 2026-06-09 | audit: huang2014-zhejiang-vegetables-heavy-metals revised per autonomous audit |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [7e20e49](https://github.com/paleofoundation/heavymetalindex/commit/7e20e49) | 2026-06-08 | ingest: huang2014-zhejiang-vegetables-heavy-metals fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

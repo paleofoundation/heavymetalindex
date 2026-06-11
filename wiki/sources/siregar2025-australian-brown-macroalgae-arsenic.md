@@ -91,6 +91,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [e459171](https://github.com/paleofoundation/heavymetalindex/commit/e459171) | 2026-06-08 | audit: siregar2025-australian-brown-macroalgae-arsenic revised |
 | [6fe667b](https://github.com/paleofoundation/heavymetalindex/commit/6fe667b) | 2026-06-08 | ingest: siregar2025-australian-brown-macroalgae-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
 <!-- END: hmi-page-history -->

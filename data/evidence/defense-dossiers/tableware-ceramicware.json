@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-ceramicware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fe25814bc3831e3213e99c5a3799051d3af407ecbb286438ece63d749ccf6676",
-      "content_bytes": 9130,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "30886dc7d342f28bb2982fa83c3f511f5857b829a07f822e95f2761647f88c13",
+      "content_bytes": 9997,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/tableware-ceramicware.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/tableware-ceramicware.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 3,
+    "contributing_source_count": 5,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -46,12 +46,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "c6d6b3536b1ecedfcc9100b248a0d994de4b46bae6da26bcdc4d19a31fc4c20f",
-          "content_bytes": 19130,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ca3a085c9c90212c5deea3c9960a36f8bdccdfd6676a7f67a284267e176bef74",
+          "content_bytes": 19144,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/dtu2024-food-contact-pb-cd-limits",
+        "title": "Suggestive maximum limits for lead and cadmium in food contact materials",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dtu2024-food-contact-pb-cd-limits",
+        "content_pin": {
+          "content_sha256": "24442f444e5f201fe8bdc7dfdc19b75ddfc1db083c1776589779377f33d968ee",
+          "content_bytes": 11943,
+          "last_commit_sha": "8d05884",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8d05884:wiki/sources/dtu2024-food-contact-pb-cd-limits.md | sha256sum"
         }
       },
       {
@@ -67,12 +88,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hsn2019-prop65-compliance-requirements",
         "content_pin": {
-          "content_sha256": "575754a7dcbaa53c34e72d5b6e31faf06de542a8bd7ae190600ab3338977fefc",
-          "content_bytes": 35894,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "5c1f96e669266c4123a35d3a552c82bdf2288ab0669321e8b97bc0e0dd0d8fee",
+          "content_bytes": 35908,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/hsn2019-prop65-compliance-requirements.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/hsn2019-prop65-compliance-requirements.md | sha256sum"
         }
       },
       {
@@ -88,12 +109,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rebeniak2014-pb-cd-ceramics-glassware-poland",
         "content_pin": {
-          "content_sha256": "9d623263a8315c4f7bf9ba555c0a9742ffd9d72d42194165d476b0d1ec4e8c09",
-          "content_bytes": 28440,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "210f53339fdce48898d40800012c3e376194fa6fb83577eaa75850905a4f5f98",
+          "content_bytes": 28454,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/rebeniak2014-pb-cd-ceramics-glassware-poland.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/rebeniak2014-pb-cd-ceramics-glassware-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/szynal2016-polish-ceramic-glassware-ni-cr",
+        "title": "Migration studies of nickel and chromium from ceramic and glass tableware into food simulants",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/szynal2016-polish-ceramic-glassware-ni-cr",
+        "content_pin": {
+          "content_sha256": "d5b52e9db3b01dbc8fa99117bb25f2512d020ef348c62a1106849787a6bced80",
+          "content_bytes": 7477,
+          "last_commit_sha": "cf74b7c",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show cf74b7c:wiki/sources/szynal2016-polish-ceramic-glassware-ni-cr.md | sha256sum"
         }
       }
     ]

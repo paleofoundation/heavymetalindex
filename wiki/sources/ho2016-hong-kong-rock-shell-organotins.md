@@ -75,5 +75,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [0e923e9](https://github.com/paleofoundation/heavymetalindex/commit/0e923e9) | 2026-06-08 | audit: shi2020-rice-grain-cadmium-global-supply-chain revised per autonomous audit |
 | [350dc42](https://github.com/paleofoundation/heavymetalindex/commit/350dc42) | 2026-06-08 | ingest: sosnowska2025-phage-display-peptide-copper-chemosensor fresh from MFK/June 8 Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

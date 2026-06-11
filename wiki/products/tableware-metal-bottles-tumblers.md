@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 2
+sources: 3
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,8 +106,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/padoh2023-pahan-727-cpsc-lead-cup-recall\|Pennsylvania Department of Health 2023]]. *Consumer Product Safety Commission (CPSC) Lead Recall: PandaEar, LAOION, and Green Sprouts Stainless Steel Bottles and Cups (PAHAN # 727-11-29-ADV)*, Pennsylvania Department of Health, Health Alert Network (PAHAN) Advisory | 2023 | Regulatory | US Pb occurrence in Three CPSC consumer-product recall actions documented in a Pennsylvania Department of Health Health Alert Network Advisory (PAHAN #... |
-| 2 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | HK/EU/US Pb, Cd, Ni, Cr, Cr-VI, Al occurrence in Narrative literature review; no original measurements. The review summarises secondary toxicology and migration evidence from FAO/WHO, EFSA, USFDA,... |
+| 1 | [[sources/edqm2024-metals-alloys-food-contact-guide\|HealthCare 2024]]. *Metals and alloys used in food contact materials and articles: a technical guide for manufacturers and regulators, 2nd edition*, Council of Europe / EDQM, European Committee for Food Contact Materials and Articles (CD-P-MCA) | 2024 | Regulatory report | EU Al, Sb, Cr, Co, Cu, Fe, Mg, Mn, Mo, Ni, Ag, Sn, Ti, V, Zn, Zr, tAs, Ba, Be, Cd, Pb, Li, tHg, Tl occurrence in Regulatory technical guide supplementing Council of Europe Resolution CM/Res(2020)9; no primary sample population. |
+| 2 | [[sources/padoh2023-pahan-727-cpsc-lead-cup-recall\|Pennsylvania Department of Health 2023]]. *Consumer Product Safety Commission (CPSC) Lead Recall: PandaEar, LAOION, and Green Sprouts Stainless Steel Bottles and Cups (PAHAN # 727-11-29-ADV)*, Pennsylvania Department of Health, Health Alert Network (PAHAN) Advisory | 2023 | Regulatory | US Pb occurrence in Three CPSC consumer-product recall actions documented in a Pennsylvania Department of Health Health Alert Network Advisory (PAHAN #... |
+| 3 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | HK/EU/US Pb, Cd, Ni, Cr, Cr-VI, Al occurrence in Narrative literature review; no original measurements. The review summarises secondary toxicology and migration evidence from FAO/WHO, EFSA, USFDA,... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -117,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

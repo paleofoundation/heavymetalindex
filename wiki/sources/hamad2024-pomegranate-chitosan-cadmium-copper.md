@@ -69,3 +69,13 @@ App: No direct ingredient or product-risk signal; retain as mitigation-method co
 ## Verification notes
 
 This page was built from the PDF text, including the abstract, material/methods, batch adsorption setup, dose-response results, contact-time results, initial-concentration results, kinetic-fit discussion, and Table 1 kinetic parameters. Products and ingredients are intentionally empty because the study uses synthetic aqueous metal solutions and adsorbent composites. The auto-fetch filename's "fabric-contact-products" label is not supported by the paper content.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [534c593](https://github.com/paleofoundation/heavymetalindex/commit/534c593) | 2026-06-09 | ingest auto-fetched 2026-06-09: hamad2024-pomegranate-chitosan-cadmium-copper |
+<!-- END: hmi-page-history -->

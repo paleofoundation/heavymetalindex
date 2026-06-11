@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 2
+sources: 4
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -107,7 +107,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/sadhya2023-india-food-heavy-metals-regulation\|Sadhya et al. 2023]]. *Regulation in India of Heavy Metals in Food Items: A Critical Analysis*, Environmental Analysis & Ecology Studies | 2023 | Review | IN Pb, Cu, tAs, Sn, Cd, tHg, MeHg, Cr, Ni, Se, Sb, Ba, Co, Fe, Li, Mn, Zn occurrence in Legal review of the Indian regulatory framework governing heavy metals in food and food packaging. No primary measurements.... |
-| 2 | [[sources/bergerritchie2013-hot-sauce-lead\|Berger Ritchie et al. 2013]]. *An evaluation of lead concentrations in imported hot sauces*, Journal of Environmental Science and Health, Part B: Pesticides, Food Contaminants, and Agricultural Wastes | 2013 | Peer-reviewed | US/MX/GT Pb occurrence in 25 bottles of imported hot sauces purchased Sep 2009–Jan 2010 at 5 ethnic markets, 2 grocery stores, and... (n=25) |
+| 2 | [[sources/zeng2023-disposable-food-containers-metals\|Zeng et al. 2023]]. *Heavy metal risk of disposable food containers on human health*, Ecotoxicology and Environmental Safety | 2023 | Peer-reviewed | CN Be, V, Ni, Zn, Mn, Cd, Cr, Co, Sb, Ba, Pb, Fe, Cu, Se occurrence in Disposable paper cups, plastic cups, plastic bags, and plastic bowls purchased through an online retail channel in China;... (n=28) |
+| 3 | [[sources/li2019-plastic-packaging-metal-migration\|Li et al. 2019]]. *Evaluation of heavy metal migration from plastic food packaging materials to aqueous simulants by ICP-MS*, Shimadzu Application News No. AD-0207 | 2019 | Application note | EU Al, tAs, Ba, Cd, Co, Cr, Cu, Fe, Li, Mn, Ni, Pb, Sb, Zn occurrence in Three plastic food-packaging material types obtained from local food markets: polystyrene container, polypropylene container, and polyethylene film. (n=3) |
+| 4 | [[sources/bergerritchie2013-hot-sauce-lead\|Berger Ritchie et al. 2013]]. *An evaluation of lead concentrations in imported hot sauces*, Journal of Environmental Science and Health, Part B: Pesticides, Food Contaminants, and Agricultural Wastes | 2013 | Peer-reviewed | US/MX/GT Pb occurrence in 25 bottles of imported hot sauces purchased Sep 2009–Jan 2010 at 5 ethnic markets, 2 grocery stores, and... (n=25) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -117,9 +119,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -61,3 +61,13 @@ App: Supports a wild Suillus/luteus context note where foraged mushrooms can con
 
 - The DOI and publication metadata are printed in the PDF.
 - The source reports total Hg only; this page does not infer methylmercury.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6661f46](https://github.com/paleofoundation/heavymetalindex/commit/6661f46) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

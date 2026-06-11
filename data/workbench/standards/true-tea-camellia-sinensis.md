@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: true-tea-camellia-sinensis
 public_page: products/true-tea-camellia-sinensis
-updated: 2026-06-02
+updated: 2026-06-09
 ---
 
 # Workbench standards snapshot — True tea (Camellia sinensis)

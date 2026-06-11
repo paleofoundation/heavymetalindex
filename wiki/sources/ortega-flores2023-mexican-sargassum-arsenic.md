@@ -80,3 +80,13 @@ This source is high-value inorganic-arsenic evidence for raw stranded *Sargassum
 - Units and basis are preserved as `mg kg-1 dw`, `%`, `µg L-1`, and `mg kg-1`; no conversions were performed.
 - Evidence tier A reflects peer-reviewed primary iAs data with n=101, seasonal/morphotype structure, reference material checks, detection limits, and triplicate extract measurements.
 - Brand firewall: no sampled brands are reported; company names in the discussion are not attached to contamination values and are not used in Key numbers.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [81d0374](https://github.com/paleofoundation/heavymetalindex/commit/81d0374) | 2026-06-09 | ingest: ortega-flores2023-mexican-sargassum-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

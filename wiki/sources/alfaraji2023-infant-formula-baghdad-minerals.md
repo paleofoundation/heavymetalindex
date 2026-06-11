@@ -83,5 +83,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [4dfc2ac](https://github.com/paleofoundation/heavymetalindex/commit/4dfc2ac) | 2026-06-09 | audit: alfaraji2023-infant-formula-baghdad-minerals [revised] per autonomous audit |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [826e27a](https://github.com/paleofoundation/heavymetalindex/commit/826e27a) | 2026-06-07 | ingest auto-fetched 2026-06-07: alfaraji2023-infant-formula-baghdad-minerals |
 <!-- END: hmi-page-history -->

@@ -17,18 +17,36 @@
     "canonical_url": "https://heavymetalindex.com/products/car-seats",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2c7866d92ed4d35a1490d0c5d711d7ef05add66512eaa10db434b0d7b14566e3",
-      "content_bytes": 9812,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "e27efcb85d5cbd77057d5a6caa9af166da7a70a2ce6fe117de6725184ca515f8",
+      "content_bytes": 10308,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/car-seats.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/car-seats.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 4,
+    "contributing_source_count": 5,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/cooper2016-flame-retardants-puf-consumer-products",
+        "title": "Results from Screening Polyurethane Foam Based Consumer Products for Flame Retardant Chemicals: Assessing Impacts on the Change in the Furniture Flammability Standards",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/cooper2016-flame-retardants-puf-consumer-products",
+        "content_pin": {
+          "content_sha256": "7f9bd4564813b85e169c657e3b85c2eab5807cc2939e0f86f3a7b871ead9d9d6",
+          "content_bytes": 26077,
+          "last_commit_sha": "a46bb8b",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show a46bb8b:wiki/sources/cooper2016-flame-retardants-puf-consumer-products.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/echa2023-cmr-childcare-articles",
         "title": "Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)",
@@ -49,12 +67,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "b99cbe00b9f53aecd919031d72fb878617de0d39017862450690312d5b9018e5",
-          "content_bytes": 59374,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "d8517544f8bf0b8156d55e43e071f0406b3245f0234637f94517e66c1daa9c09",
+          "content_bytes": 59388,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -67,12 +85,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature",
         "content_pin": {
-          "content_sha256": "f1b9cda57730898d121b9e7f36c1a8d27a670a2839bcb2aa255d43fab995e7d3",
-          "content_bytes": 38524,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "69d481d59ef95a8ddcd184cc9aa27640355ecac604c5d6bad6f17dbb609a930b",
+          "content_bytes": 38538,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature.md | sha256sum"
         }
       },
       {
@@ -87,12 +105,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kjolholt2015-car-safety-seats-childrens-textiles",
         "content_pin": {
-          "content_sha256": "f0722f89a40f6e995163bb42f7327661dade9d8137076b116f5a070ec3d5e156",
-          "content_bytes": 13840,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ceec288a292b7bf2dc51dbf7737d32585fa7022622ff55144235b04d7ebd9594",
+          "content_bytes": 13854,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/kjolholt2015-car-safety-seats-childrens-textiles.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/kjolholt2015-car-safety-seats-childrens-textiles.md | sha256sum"
         }
       },
       {
@@ -105,12 +123,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/stapleton2010-flame-retardants-baby-product-foam",
         "content_pin": {
-          "content_sha256": "27deada06ce0c941b0a9e91b5496f1273a8f7ac4989bd2dc4f5a87a148519802",
-          "content_bytes": 18941,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "a16ee3d01f548234d2a0ffc8b33dee3d6d2a542ebfc11c72abe6a67fdcdc9bb1",
+          "content_bytes": 18955,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/stapleton2010-flame-retardants-baby-product-foam.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/stapleton2010-flame-retardants-baby-product-foam.md | sha256sum"
         }
       }
     ]

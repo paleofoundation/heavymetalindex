@@ -17,7 +17,7 @@ review_state: phase3
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-09
-sources: 10
+sources: 11
 ---
 
 # Soft Drinks/Carbonated Beverages
@@ -147,7 +147,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 7 | [[sources/izah2016-beverages-heavy-metals-nigeria\|Izah et al. 2016]]. *A Review of Heavy Metal Concentration and Potential Health Implications of Beverages Consumed in Nigeria*, Toxics | 2016 | Peer-reviewed | NG/GLOBAL Pb, Cd, tAs, tHg, Cr, Ni, Sn, Sb, Cu, Mn, Zn occurrence in Narrative review of secondary data from Nigerian beverage studies published 2007-2016. No new measurements. Section 2 states the... |
 | 8 | [[sources/tarigan2016-factors-tin-released-canned-beverages\|Tarigan et al. 2016]]. *Factors are Affecting Tin Released in Canned Beverages*, International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333 | 2016 | Peer-reviewed | ID Sn occurrence in 9 brand variants from each of three canned beverage categories (carbonated, beer, juice), tested at two expiration cohorts... (n=27) |
 | 9 | [[sources/adegbola2015-nigeria-snacks-drinks-metals\|Adegbola et al. 2015]]. *Evaluation of some heavy metal contaminants in biscuits, fruit drinks, concentrates, candy, milk products and carbonated drinks sold in Ibadan, Nigeria*, International Journal of Biological and Chemical Sciences | 2015 | Peer-reviewed | NG Ca, Cr, Cu, Fe, Pb, Cd occurrence in Twelve sweet and milk-sweet brands, six biscuit brands, eleven fruit and flavoured concentrate brands, and five liquid drink... (n=34) |
-| 10 | [[sources/maduabuchi2007-nigeria-beverages-arsenic-chromium\|Maduabuchi et al. 2007]]. *Arsenic and Chromium in Canned and Non-Canned Beverages in Nigeria: A Potential Public Health Concern*, International Journal of Environmental Research and Public Health | 2007 | Peer-reviewed | NG tAs, Cr occurrence in Fifty commonly consumed canned and non-canned beverages purchased in Nigeria in March 2005: 21 canned beverages and 29... (n=50) |
+| 10 | [[sources/godwill2015-soft-drinks-metals-nigeria\|Godwill et al. 2015]]. *Determination of some soft drink constituents and contamination by some heavy metals in Nigeria*, Toxicology Reports | 2015 | Peer-reviewed | NG Cd, Pb, tHg occurrence in Twenty-six soft-drink and juice samples purchased from local grocery stores in Enugu, Enugu State, Nigeria; sample names are... (n=26) |
+| 11 | [[sources/maduabuchi2007-nigeria-beverages-arsenic-chromium\|Maduabuchi et al. 2007]]. *Arsenic and Chromium in Canned and Non-Canned Beverages in Nigeria: A Potential Public Health Concern*, International Journal of Environmental Research and Public Health | 2007 | Peer-reviewed | NG tAs, Cr occurrence in Fifty commonly consumed canned and non-canned beverages purchased in Nigeria in March 2005: 21 canned beverages and 29... (n=50) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -157,9 +158,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

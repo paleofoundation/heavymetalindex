@@ -2,7 +2,7 @@
 source_page: wiki/products/home-air-emission-products-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3c5930e3d1552cf81d84e6c42213a0530cbc45012e1566dfc65874f690a2be69
+source_page_sha256: fc5af6f8093e2492184c50c32b637616238609800c1b6e6804e3af378090ff3b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 1261
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 1261 |
 
 ## Page-level audit rows
 

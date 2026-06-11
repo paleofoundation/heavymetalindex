@@ -70,5 +70,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [4e739d1](https://github.com/paleofoundation/heavymetalindex/commit/4e739d1) | 2026-06-09 | audit: harada1995-minamata-methylmercury-poisoning revised per autonomous audit |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [3b3fd81](https://github.com/paleofoundation/heavymetalindex/commit/3b3fd81) | 2026-06-08 | ingest: harada1995-minamata-methylmercury-poisoning fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->

@@ -46,6 +46,7 @@ import fs from "node:fs"
 import path from "node:path"
 import crypto from "node:crypto"
 import { spawnSync, spawn } from "node:child_process"
+const CLAUDE_BIN = process.env.CLAUDE_BIN || "/opt/homebrew/bin/claude" // pinned: bare "claude" ENOENTs in bg shells + nightly auto-update window
 
 const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
@@ -305,7 +306,7 @@ When done with this one PDF (whether successfully ingested+audited or stopped cl
 async function invokeClaudeAsync(prompt, candidate) {
   return new Promise((resolve) => {
     const cliArgs = ["--print", "--model", model, "--add-dir", repoRoot]
-    const proc = spawn("claude", cliArgs, { cwd: repoRoot })
+    const proc = spawn(CLAUDE_BIN, cliArgs, { cwd: repoRoot })
     let stdout = "", stderr = ""
     let timedOut = false
     const timeoutMs = 25 * 60 * 1000
@@ -339,7 +340,7 @@ function invokeClaude(prompt, candidate) {
   ]
 
   try {
-    const res = spawnSync("claude", args, {
+    const res = spawnSync(CLAUDE_BIN, args, {
       cwd: repoRoot,
       input: prompt,
       encoding: "utf8",

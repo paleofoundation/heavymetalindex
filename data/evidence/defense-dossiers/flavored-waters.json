@@ -19,12 +19,12 @@
     "canonical_url": "https://heavymetalindex.com/products/flavored-waters",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "18445b0095102f3a7f4c21ed082b94ef67d368fc185c5bfc1822be28671edc8e",
-      "content_bytes": 11550,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "84d20f30b93972f49250aa39751fcd63a06ed47b65ce9ecbee89856fcd221016",
+      "content_bytes": 11564,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/flavored-waters.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/flavored-waters.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zmudzinska2022-rte-baby-foods-poland",
         "content_pin": {
-          "content_sha256": "6816551f026007c333aa32cb208d9cef9877eb381401b843bcd87b23cfb132a8",
-          "content_bytes": 15285,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "54640c72fa80f523cfdc1abf366129d98dbaf1797f9db58b1c9cc189183e988d",
+          "content_bytes": 15299,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/zmudzinska2022-rte-baby-foods-poland.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/zmudzinska2022-rte-baby-foods-poland.md | sha256sum"
         }
       }
     ]

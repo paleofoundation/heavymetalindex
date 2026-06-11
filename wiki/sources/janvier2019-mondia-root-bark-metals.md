@@ -65,3 +65,13 @@ Microbiome: Not applicable.
 ## Verification notes
 
 The DOI, authors, journal, license, and final citation are visible in the PDF. The auto-fetched filename places this in a vitamin-mineral supplement lead queue, but the actual matrix is Mondia whytei root bark used as a wild edible plant and food supplement. Table 3 appears to repeat Kinkware as the last column while the discussion identifies that high-K/Pb column as Kinigi; this page follows the table values and notes the locality label issue for future synthesis review.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cea70cc](https://github.com/paleofoundation/heavymetalindex/commit/cea70cc) | 2026-06-09 | ingest auto-fetched 2026-06-09: janvier2019-mondia-root-bark-metals |
+<!-- END: hmi-page-history -->

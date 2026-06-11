@@ -91,3 +91,13 @@ This source should be treated as targeted arsenic exposure and bioaccessibility 
 - Speciation check: total arsenic is recorded as tAs. Inorganic arsenic is included because the source explicitly reports inorganic fractions dominating ayurvedic medicines and EXAFS-identified arsenic minerals; no numeric iAs concentration is inferred from the figures.
 - Brand firewall: the page does not reproduce manufacturer/brand names or attach values to product labels. Traditional formulation names are not tabulated as brand-ranked values; category-level herbal versus ayurvedic results are used for the occurrence summary.
 - Source-scope caution: rice samples were grown under arsenic-contaminated/spiked irrigation conditions and are not representative general-market rice samples.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4b02337](https://github.com/paleofoundation/heavymetalindex/commit/4b02337) | 2026-06-09 | ingest: bolan2017-rice-complementary-medicines-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

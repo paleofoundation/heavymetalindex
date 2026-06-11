@@ -17,18 +17,59 @@
     "canonical_url": "https://heavymetalindex.com/products/feminine-wipes",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2ccde684225de21b3a543285ed587810cabd105ddb0d3d30ba658ca217bbb4b2",
-      "content_bytes": 7304,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "9c55218d6083b07310b9d43283b95487ae68ea66969b32a47b4d6f4608c558f2",
+      "content_bytes": 8488,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/feminine-wipes.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/feminine-wipes.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/gao2020-feminine-hygiene-edcs",
+        "title": "Phthalates, bisphenols, parabens, and triclocarban in feminine hygiene products from the United States and their implications for human exposure",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/gao2020-feminine-hygiene-edcs",
+        "content_pin": {
+          "content_sha256": "1ad984c191b7e3e4b6c1b26114233073cfb0b91318076d12398f9873ac11554e",
+          "content_bytes": 7730,
+          "last_commit_sha": "cdfa4e4",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show cdfa4e4:wiki/sources/gao2020-feminine-hygiene-edcs.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/upson2022-menstrual-products-exposure-review",
+        "title": "Menstrual products as a source of environmental chemical exposure: A review from the epidemiologic perspective",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/upson2022-menstrual-products-exposure-review",
+        "content_pin": {
+          "content_sha256": "f4c20a84203a99d4110cc0d93466b29e568e39137e80babc2f925d80aff65b20",
+          "content_bytes": 8208,
+          "last_commit_sha": "99df3ab",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 99df3ab:wiki/sources/upson2022-menstrual-products-exposure-review.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

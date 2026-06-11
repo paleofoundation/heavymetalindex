@@ -149,3 +149,14 @@ Data treatment (Section 2.2): two parallel databases were assembled, each with s
   - ⚠️ `iAs` in `metals:` frontmatter: per Part 14 strict reading, removed `iAs` from frontmatter. The constituent studies in Tables 3 and 4 measure total As; Table 1's reference to EFSA iAs TDI is a regulatory citation, not a measurement claim by this paper, so keeping `iAs` in frontmatter was over-reach. `tAs` retained.
   - ⚠️ `MeHg` in `metals:` frontmatter: retained. Table 1 explicitly separates MeHg (TDI 1.6 µg/kg b.w.) from total Hg (4 µg/kg b.w.) as distinct regulatory rows, so the paper does distinguish the species in regulatory context even though Tables 3 and 4 report constituent-study total Hg.
   - ⚠️ `[[metals/selenium]]`: audit caught a missing slug — selenium has no page in `wiki/metals/`. Replaced with `[[metals/antimony]]` because Sb is in the metals frontmatter array (the source reports Sb in Ghuniem 2020a Table 4), antimony is a valid metals slug, and selenium values from constituent studies were the original justification but cannot route without a target page. Se remains in the metals frontmatter abbreviation array because the source does report it; the routing layer will reach `wiki/metals/selenium` if and when that page is created.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9a8e388](https://github.com/paleofoundation/heavymetalindex/commit/9a8e388) | 2026-06-09 | audit: martincarrasco2023-breast-milk-infant-formula-review revised |
+| [7a7aba5](https://github.com/paleofoundation/heavymetalindex/commit/7a7aba5) | 2026-06-09 | ingest: martincarrasco2023-breast-milk-infant-formula-review fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

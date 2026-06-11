@@ -88,3 +88,14 @@ The paper is a single-laboratory process-development study whose central claim â
 - Adjacent context: see [[han2025-peptide-zinc-complexation-aquatic-review]] and [[lu2022-metal-chelating-peptides-review]] for peptide-divalent-metal coordination-chemistry reviews, [[ding2015-soy-glycinin-thiol-peptides-heavy-metal-complexation]] for the upstream soy-protein peptide-metal binding mechanism, [[sosnowska2025-phage-display-peptide-copper-chemosensor]] for a parallel single-metal-target peptide methodology study in the same Kimi peptide folder, and [[luo2024-peptides-heavy-metal-remediation]] for the application-side review on peptide-mediated heavy-metal remediation.
 </content>
 </invoke>
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [6519db5](https://github.com/paleofoundation/heavymetalindex/commit/6519db5) | 2026-06-08 | ingest: tran2025-magnesium-chelation-peptides-brewer-yeast-soybean fresh from MFK/June 8 Black Market Peptide Metal Survey/heavy_metals_peptides |
+<!-- END: hmi-page-history -->

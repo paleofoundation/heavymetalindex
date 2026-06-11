@@ -73,3 +73,13 @@ The paper supports botanical raw-material occurrence context for medicinal plant
 - Speciation check: Cr is total chromium by ICP emission spectrometry. The page does not claim Cr-VI.
 - Soil values are included only as paired collection-site context and should not be pooled as plant/product occurrence.
 - Brand firewall: no commercial brands or producers are reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8cad64e](https://github.com/paleofoundation/heavymetalindex/commit/8cad64e) | 2026-06-09 | ingest: barthwal2008-medicinal-plants-heavy-metals-lucknow fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

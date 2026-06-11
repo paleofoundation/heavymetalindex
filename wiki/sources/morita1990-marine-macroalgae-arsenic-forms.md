@@ -89,3 +89,13 @@ This source is a historical speciation anchor for seaweed arsenic. It supports t
 - Speciation check: total As, inorganic arsenate, lipid-soluble arsenic, water-soluble arsenic, arsenosugars/arsenic-containing ribofuranosides, DMA, As-I through As-VI, and unidentified species are not collapsed into a single arsenic species.
 - Brand firewall: no consumer brands are named.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact algae species remain in Key numbers/prose while frontmatter uses broad seaweed/kelp food and algae/seaweed supplement routing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5eb91ed](https://github.com/paleofoundation/heavymetalindex/commit/5eb91ed) | 2026-06-09 | ingest: morita1990-marine-macroalgae-arsenic-forms fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

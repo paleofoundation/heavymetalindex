@@ -96,3 +96,13 @@ App: If tableware context is surfaced, this source can support a low-detection P
 - Units are preserved as printed: migration results and validation parameters use `mg/L`; contextual comparisons use `mg/kg`, `μg/kg bw/day`, `µg/L`, and `μg/mL` as printed.
 - Speciation: chromium is reported as chromium migration by FAAS, not hexavalent chromium. Frontmatter uses `Cr`, and the page does not substitute Cr(VI).
 - Closed-vocabulary check: product slugs are the broad ceramic tableware, glassware, and decorative decals/coatings rows in the current taxonomy snapshot. No over-specified bowl, dish, or decorated-rim slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cf74b7c](https://github.com/paleofoundation/heavymetalindex/commit/cf74b7c) | 2026-06-09 | ingest: szynal2016-polish-ceramic-glassware-ni-cr fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

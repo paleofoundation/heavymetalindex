@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:4a66b57eac348ef68b792a8bb6efb5b1…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `aca5e21` (2026-06-09). The body hashes to `sha256:7a64e70976c0192506e1a2c17b023850…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fruit-juices-apple-containing&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fruit-juices-apple-containing&download=1`.
 
 ## Evidence base
 
-This category is supported by 23 contributing literature sources mapped by the routing layer, of which 2 carry structured concentration values. The page makes 46 numerical claims; 44 of them trace to an in-section cited source, leaving 2 that do not yet trace to an in-section source and are flagged for synthesis.
+This category is supported by 25 contributing literature sources mapped by the routing layer, of which 2 carry structured concentration values. The page makes 46 numerical claims; 44 of them trace to an in-section cited source, leaving 2 that do not yet trace to an in-section source and are flagged for synthesis.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/fruit-juices-apple-containing.md`.
 

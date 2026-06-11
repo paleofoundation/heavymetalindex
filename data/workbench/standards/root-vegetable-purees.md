@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: root-vegetable-purees
 public_page: products/root-vegetable-purees
-updated: 2026-06-02
+updated: 2026-06-09
 ---
 
 # Workbench standards snapshot — Root-vegetable purees

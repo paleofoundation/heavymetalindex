@@ -62,3 +62,13 @@ Microbiome: Directly relevant to cadmium-gut-microbiome interactions because the
 
 - DOI, title, authors, year, journal, license, and methods were transcribed from the PDF first pages and methods section.
 - The source reports food-derived cadmium forms, but the measurements are in a mouse challenge model. Products and ingredients are intentionally empty to prevent spiked-dose data from entering occurrence pools.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ace40d4](https://github.com/paleofoundation/heavymetalindex/commit/ace40d4) | 2026-06-09 | ingest auto-fetched 2026-06-09: zhu2021-food-derived-cadmium-probiotic |
+<!-- END: hmi-page-history -->

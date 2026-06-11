@@ -146,3 +146,13 @@ App: If a future food-contact-material module surfaces metal kitchenware context
 - HMTc firewall: the guide's SRLs are Council of Europe regulatory values and are not presented as HMTc certification thresholds.
 - Closed-vocabulary check: product slugs appear in the current taxonomy snapshot. `food-contact-material-leachate` and `food-simulant` follow established food-contact-material matrix terms already used in sibling source pages. Exact product-row slugs for industrial food-processing equipment, pipes, tanks, and coffee-maker pathways are absent or not in the current snapshot, so those use cases are retained in prose rather than added to frontmatter.
 - Missing slug note: the current metal-page vocabulary lacks a `metals/zirconium` page slug, so the Zr SRL is retained in the frontmatter metal list and Key numbers but no zirconium wiki-page link was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2894f25](https://github.com/paleofoundation/heavymetalindex/commit/2894f25) | 2026-06-09 | ingest: edqm2024-metals-alloys-food-contact-guide fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

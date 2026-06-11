@@ -17,18 +17,64 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-capsules",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f8258627fac416adaef23c6599b5f263b3c0d26d0bfaf1fbdefe7dc10407e57c",
-      "content_bytes": 7354,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "650bdbc1c4ccec2cfb04c20a7922887303b73a535eacfd9826453b7819780be0",
+      "content_bytes": 8474,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/supplements-oral-solids-capsules.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/supplements-oral-solids-capsules.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/al-dhabi2013-spirulina-products-metals",
+        "title": "Heavy metal analysis in commercial Spirulina products for human consumption",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni",
+          "Zn",
+          "tHg",
+          "Pt",
+          "Mg",
+          "Mn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/al-dhabi2013-spirulina-products-metals",
+        "content_pin": {
+          "content_sha256": "54fc867330c7bdd149ce3836415ec293e4ba48cc4c5afb2072508542b0d78667",
+          "content_bytes": 6020,
+          "last_commit_sha": "3bb71fc",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3bb71fc:wiki/sources/al-dhabi2013-spirulina-products-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/falandysz2020-yunnan-fungi-mercury",
+        "title": "Mercury in traditionally foraged species of fungi (macromycetes) from the karst area across Yunnan province in China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/falandysz2020-yunnan-fungi-mercury",
+        "content_pin": {
+          "content_sha256": "9fee5f9a39d99ae48163df6b8e08b6c6df320bbc1765389f05688b6a83ccd467",
+          "content_bytes": 5433,
+          "last_commit_sha": "04c4ff3",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 04c4ff3:wiki/sources/falandysz2020-yunnan-fungi-mercury.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

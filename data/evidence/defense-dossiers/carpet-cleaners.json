@@ -17,18 +17,36 @@
     "canonical_url": "https://heavymetalindex.com/products/carpet-cleaners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fafc114e3a4e710cd554be8423b9e7414e40d82aaf1707966d8db020fc700139",
-      "content_bytes": 14388,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "519d5ddf0889c00482c25988710f659739b69b1175e6d2dae8fe1354549966f4",
+      "content_bytes": 15211,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/carpet-cleaners.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/carpet-cleaners.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 7,
+    "contributing_source_count": 8,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/bcpp2017-ca-sb258-factsheet",
+        "title": "SB 258 (Lara): The Cleaning Product Right to Know Act of 2017 — factsheet",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/bcpp2017-ca-sb258-factsheet",
+        "content_pin": {
+          "content_sha256": "acc4ffe22f35dc0069d808e9fc95c22f948972549c130e8bc313924c9eed0a4c",
+          "content_bytes": 24885,
+          "last_commit_sha": "5b087c8",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5b087c8:wiki/sources/bcpp2017-ca-sb258-factsheet.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/davidsuzuki2014-toxic-household-cleaners",
         "title": "The dirt on toxic chemicals in household cleaning products",
@@ -43,12 +61,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/davidsuzuki2014-toxic-household-cleaners",
         "content_pin": {
-          "content_sha256": "77a63e0f7cd290fb5ca308025880516756fb79b14161319f0af39f071841a37e",
-          "content_bytes": 22446,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b453c45639dd5775d8ec4d67da33b9ede380470e175ca22610e491e1946627a9",
+          "content_bytes": 22356,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
         }
       },
       {
@@ -61,12 +79,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/epa2024-safer-choice-master-criteria-ingredients",
         "content_pin": {
-          "content_sha256": "5ba7cc909c28b0c4397137506cc44d17e3db624b6afc53d6834ae07daf3893e5",
-          "content_bytes": 29811,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "d2db69625f1a39683a6ed78dc2af8b3804fc80d36d9eb06b506dc817b32ca8dd",
+          "content_bytes": 29972,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/epa2024-safer-choice-master-criteria-ingredients.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/epa2024-safer-choice-master-criteria-ingredients.md | sha256sum"
         }
       },
       {
@@ -84,12 +102,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/epa2024-safer-choice-standard-dfe",
         "content_pin": {
-          "content_sha256": "97aa55b3cb311d300bc8bcdca0fcbebeeb6641e5a719cdfb968a6a09c64770e4",
-          "content_bytes": 32450,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ce74c1f44b33b0271fad53decaf0e9c45d913d17c2bd05a2c7ed07ebca063f1f",
+          "content_bytes": 32611,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/epa2024-safer-choice-standard-dfe.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/epa2024-safer-choice-standard-dfe.md | sha256sum"
         }
       },
       {
@@ -111,12 +129,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/greenseal2009-gs37-version-comparison",
         "content_pin": {
-          "content_sha256": "a6b89bb7edd0917f2eb8b49e7ebabf069cdc4aec96d4dfda17176e0967e5b908",
-          "content_bytes": 50216,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c7d69404e400595e9407739cdbd767f045cc2413198ae78e5a68dfb8d2315380",
+          "content_bytes": 50191,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/greenseal2009-gs37-version-comparison.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/greenseal2009-gs37-version-comparison.md | sha256sum"
         }
       },
       {
@@ -134,12 +152,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/greenseal2022-gs8-household-cleaners",
         "content_pin": {
-          "content_sha256": "63a328c6bbf93c109a8b3409e2b87147b3ede1e4ed03d924ae712228dcdc0d6b",
-          "content_bytes": 70327,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0abd4b197e4b3f834cc228a3ca3e942d77e6a3893f0a39e5b414c5563f1a5d14",
+          "content_bytes": 70488,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/greenseal2022-gs8-household-cleaners.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/greenseal2022-gs8-household-cleaners.md | sha256sum"
         }
       },
       {
@@ -161,12 +179,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/greenseal2024-gs37-industrial-institutional-cleaners",
         "content_pin": {
-          "content_sha256": "0c2da19924a2382e3aa9d4e17010dd68aa210fdcf4cc2ebaeb13e610b65f9a33",
-          "content_bytes": 67182,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "e2eef6613b81e1c137b0f7fdff64ab171bf597658ea09fb68380fc2532fdae25",
+          "content_bytes": 67142,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/greenseal2024-gs37-industrial-institutional-cleaners.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/greenseal2024-gs37-industrial-institutional-cleaners.md | sha256sum"
         }
       },
       {
@@ -186,12 +204,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
         "content_pin": {
-          "content_sha256": "30bf9e55be09d1b4a7ff7a4fdb934ebfcb9d7b2c8b8f212672767bf89b916fa1",
-          "content_bytes": 49086,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "9c281c4a4e5966302158f16335801edaee712f209b5b440c13d50c0ff82fa4f4",
+          "content_bytes": 49056,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
         }
       }
     ]

@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 2
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,7 +106,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/yamada1993-organotin-household-commodities\|Yamada et al. 1993]]. *Small-Scale Survey of Organotin Compounds in Household Commodities*, Journal of AOAC International, Vol. 76, No. 2, pp. 436–441 | 1993 | Peer-reviewed | JP Sn occurrence in 95 commercially available household commodity items purchased between 1990 and 1992 from retail stores in Aichi Prefecture, Japan,... (n=95) |
+| 1 | [[sources/nic-corcrain2025-menstrual-products-metal-leaching\|Nic 2025]]. *Investigating links between heavy metals in menstrual hygiene products and reproductive hormonal health*, Laidlaw Undergraduate Research and Leadership Programme poster | 2025 | Conference proceedings | Pb, tAs occurrence in Four menstrual products incubated in synthetic vaginal fluid for Pb and As leaching tests, plus a survey of... (n=4) |
+| 2 | [[sources/yamada1993-organotin-household-commodities\|Yamada et al. 1993]]. *Small-Scale Survey of Organotin Compounds in Household Commodities*, Journal of AOAC International, Vol. 76, No. 2, pp. 436–441 | 1993 | Peer-reviewed | JP Sn occurrence in 95 commercially available household commodity items purchased between 1990 and 1992 from retail stores in Aichi Prefecture, Japan,... (n=95) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -116,9 +117,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

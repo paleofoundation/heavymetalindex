@@ -135,3 +135,13 @@ This source supports seaweed/kelp food and algae/seaweed supplement context by i
 - Brand firewall: the review names no consumer brands. Species names, zones, analytical methods, and cited primary-study authors are retained as scientific context.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact seaweed species and phylum names remain in prose/tables while frontmatter uses broad seaweed/kelp and algae/seaweed supplement slugs.
 - Evidence-fitness note: this page is secondary literature context. The `sample_n` field is `null` because the review does not report primary samples; n values in Table 1 are compiled literature records and should not be treated as primary sample counts.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e892a1b](https://github.com/paleofoundation/heavymetalindex/commit/e892a1b) | 2026-06-09 | ingest: ma2018-seaweed-arsenic-contents fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

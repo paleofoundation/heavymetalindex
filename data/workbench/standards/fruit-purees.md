@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fruit-purees
 public_page: products/fruit-purees
-updated: 2026-06-02
+updated: 2026-06-09
 ---
 
 # Workbench standards snapshot — Fruit purees (general)

@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:f968bb83b4932c55466557a97996a56e…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `aca5e21` (2026-06-09). The body hashes to `sha256:09640a4dc4900a6b93c372d34a5782de…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fruit-juice-not-canned&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fruit-juice-not-canned&download=1`.
 
 ## Evidence base
 
-This category is supported by 36 contributing literature sources mapped by the routing layer, of which 5 carry structured concentration values. The page makes 125 numerical claims; 125 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 37 contributing literature sources mapped by the routing layer, of which 5 carry structured concentration values. The page makes 125 numerical claims; 125 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/fruit-juice-not-canned.md`.
 

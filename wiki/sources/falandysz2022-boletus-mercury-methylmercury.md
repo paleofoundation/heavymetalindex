@@ -61,3 +61,13 @@ App: Supports a wild Boletus mercury context note and shows that MeHg is a small
 
 - The DOI was minted in 2021, but the journal issue printed in the PDF is 2022; the cite key uses the publication year shown in the PDF header.
 - This page preserves the distinction between total Hg and MeHg; total Hg values must not be used as methylmercury values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6661f46](https://github.com/paleofoundation/heavymetalindex/commit/6661f46) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

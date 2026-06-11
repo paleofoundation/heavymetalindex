@@ -256,9 +256,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [7fa5634](https://github.com/paleofoundation/heavymetalindex/commit/7fa5634) | 2026-06-03 | audit: jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2 promoted |
-| [0d10c1a](https://github.com/paleofoundation/heavymetalindex/commit/0d10c1a) | 2026-06-03 | ingest: jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2 fresh from KADC/06_Regulatory_EPA_GreenSeal |
 <!-- END: hmi-page-history -->

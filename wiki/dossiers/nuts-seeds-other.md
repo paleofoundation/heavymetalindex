@@ -4,8 +4,8 @@ type: brand-dossier
 noindex: true
 audience: [regulator, brand-legal, commercial]
 category: products/nuts-seeds-other
-hmtc_category: 4
-hmtc_row: 11
+hmtc_category: 28
+hmtc_row: 1
 generated: true
 ---
 
@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c679df8` (2026-06-08). The body hashes to `sha256:8772a8ec1bdb0d528143e70408a92978…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `55f6bde` (2026-06-09). The body hashes to `sha256:9152ea7043affd4de9a3c0a8c42b99d8…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=nuts-seeds-other&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/nuts-seeds-other&download=1`.
 
 ## Evidence base
 
-This category is supported by 10 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 1 numerical claim; 1 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 12 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 1 numerical claim; 1 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/nuts-seeds-other.md`.
 

@@ -156,3 +156,13 @@ The source is useful as historical China vegetable-contamination context and as 
 - Product-scope note: Table 5 includes mealie and paddy along with vegetables; frontmatter therefore includes broad grain/rice routing in addition to vegetable routing.
 - Brand firewall: no brands are reported.
 - Missing slug note: the taxonomy snapshot has no exact product slugs for all vegetable commodity names in the review. Frontmatter uses broad vegetable, leafy-vegetable, root/tuber, rice, and other-grain rows while commodity names remain in table text.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f33cae4](https://github.com/paleofoundation/heavymetalindex/commit/f33cae4) | 2026-06-09 | ingest: zhou2000 fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

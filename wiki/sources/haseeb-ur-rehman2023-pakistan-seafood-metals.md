@@ -73,3 +73,13 @@ App: The source can support product/ingredient profiles for seafood and shellfis
 - Speciation: mercury is total mercury/nondetect context (`tHg`); no methylmercury values are reported or inferred.
 - Brand firewall: samples came from processing plants/export consignments, but no plant or brand names are attached to values.
 - Closed-vocabulary note: no crustacean or cephalopod product slug exists in the current snapshot, so shrimp, crab, squid, and cuttlefish route through broad `seafood`, `shellfish`, and `molluscs` context.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b4580e4](https://github.com/paleofoundation/heavymetalindex/commit/b4580e4) | 2026-06-09 | ingest: June 8 product occurrence batch from MFK |
+<!-- END: hmi-page-history -->

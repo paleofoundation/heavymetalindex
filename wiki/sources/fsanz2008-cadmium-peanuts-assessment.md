@@ -73,3 +73,13 @@ App: The source can support peanut cadmium profiles with jurisdiction-aware cont
 - Speciation: the report measures/models cadmium only; no species substitution issue is present.
 - Brand firewall: the report discusses industry applicants and peanut suppliers, but Table A1.1 is country/source-level occurrence data and this source page does not attach a company or brand name to a contamination value.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; `peanut-containing-foods` is a matrix descriptor rather than a product or ingredient slug.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5766871](https://github.com/paleofoundation/heavymetalindex/commit/5766871) | 2026-06-09 | ingest: fsanz2008-cadmium-peanuts-assessment fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

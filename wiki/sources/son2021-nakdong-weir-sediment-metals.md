@@ -168,9 +168,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [aeb3d84](https://github.com/paleofoundation/heavymetalindex/commit/aeb3d84) | 2026-06-03 | audit: son2021-nakdong-weir-sediment-metals revised |
-| [549d33d](https://github.com/paleofoundation/heavymetalindex/commit/549d33d) | 2026-06-03 | ingest: son2021-nakdong-weir-sediment-metals enhanced from Manual Fetch Kimi /June 2 Manual Fetches |
 <!-- END: hmi-page-history -->

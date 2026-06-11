@@ -71,5 +71,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [418e6ee](https://github.com/paleofoundation/heavymetalindex/commit/418e6ee) | 2026-06-08 | ingest: solidum2013-metro-manila-junk-food-metals fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

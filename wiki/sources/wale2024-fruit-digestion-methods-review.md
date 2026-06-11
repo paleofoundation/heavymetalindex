@@ -119,6 +119,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1c1eeb3](https://github.com/paleofoundation/heavymetalindex/commit/1c1eeb3) | 2026-06-07 | audit: wale2024-fruit-digestion-methods-review promoted |
 | [e6ae7b7](https://github.com/paleofoundation/heavymetalindex/commit/e6ae7b7) | 2026-06-07 | ingest: wale2024-fruit-digestion-methods-review fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

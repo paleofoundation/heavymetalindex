@@ -119,5 +119,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [a0fe52a](https://github.com/paleofoundation/heavymetalindex/commit/a0fe52a) | 2026-06-09 | audit: chung2020-hong-kong-seafood-organotins [revised] per autonomous audit |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [3f11482](https://github.com/paleofoundation/heavymetalindex/commit/3f11482) | 2026-06-08 | ingest: chung2020-hong-kong-seafood-organotins fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->

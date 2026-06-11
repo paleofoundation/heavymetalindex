@@ -65,3 +65,13 @@ App: The source can support lipstick contamination profiles for Malaysian-market
 - Speciation: chromium is total Cr; no Cr(VI) speciation is reported.
 - Brand firewall: the survey collected brand information, but no brand names are reported in this page and values are summarized by coded samples, price category, country of production, and product category.
 - Source-internal range note: the abstract's Cr range (`0.48-2.50 mg kg-1`) differs from Table 2, which includes two `0.24 mg kg-1` means; both are recorded without correction.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ecf202b](https://github.com/paleofoundation/heavymetalindex/commit/ecf202b) | 2026-06-09 | ingest: June 8 personal product occurrence batch from MFK |
+<!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cleaning-wipes-household",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2cf27faa9244981d8d5cdff51f51a371f8e6173a0b0871ec56b14c622e4004ed",
-      "content_bytes": 9048,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "a72ad678ee1373ec358a5bb8a43f9242e4621b5c3f17c70fa58959c3b965e230",
+      "content_bytes": 9062,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/cleaning-wipes-household.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/cleaning-wipes-household.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
         "content_pin": {
-          "content_sha256": "30bf9e55be09d1b4a7ff7a4fdb934ebfcb9d7b2c8b8f212672767bf89b916fa1",
-          "content_bytes": 49086,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "9c281c4a4e5966302158f16335801edaee712f209b5b440c13d50c0ff82fa4f4",
+          "content_bytes": 49056,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
         }
       }
     ]

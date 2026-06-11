@@ -83,3 +83,13 @@ This source adds seaweed organoarsenic speciation context for commercial Wakame 
 - Units and basis are preserved as `µg As g-1 dry mass`, `%`, `µg As kg-1`, and `µg As g-1`; no conversions were performed.
 - Evidence tier B reflects peer-reviewed primary speciation data with exact species and QA/QC, but only two commercial materials and a rapid-communication scope.
 - Brand firewall: no sampled brands are reported. Instrument, column, and reference-material names are retained only as scientific method details.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2f0d1d7](https://github.com/paleofoundation/heavymetalindex/commit/2f0d1d7) | 2026-06-09 | ingest: garcia-salgado2012-brown-algae-arsenolipids fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

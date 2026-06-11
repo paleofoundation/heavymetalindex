@@ -117,3 +117,13 @@ This source is high-value macroalgae occurrence evidence because it separates in
 - The report contains both primary IMR data and literature/project summaries. The concentration rows in Tables 2-8 and the sugar-kelp standardized trial summary are treated as the source's own occurrence data; referenced literature and project background remain context.
 - Brand firewall: the report describes species, production origin, and Norwegian/Asian source categories; no consumer brands are attached to contamination values.
 - Missing-slug note: the taxonomy snapshot has no animal-feed or aquafeed seaweed row. Frontmatter routes the source to seaweed food and algae/seaweed supplement rows, while fish-feed and insect-larvae feed-chain context remains in prose only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [afbab74](https://github.com/paleofoundation/heavymetalindex/commit/afbab74) | 2026-06-09 | ingest: duinker2020-macroalgae-food-feed-safety fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

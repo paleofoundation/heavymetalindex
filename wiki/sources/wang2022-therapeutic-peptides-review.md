@@ -120,6 +120,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [2bd570f](https://github.com/paleofoundation/heavymetalindex/commit/2bd570f) | 2026-06-08 | audit: wang2022-therapeutic-peptides-review revised |
 | [6603ebd](https://github.com/paleofoundation/heavymetalindex/commit/6603ebd) | 2026-06-08 | ingest: wang2022-therapeutic-peptides-review (source page follow-up after race-condition unstaging) |
 <!-- END: hmi-page-history -->

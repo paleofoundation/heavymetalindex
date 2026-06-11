@@ -100,6 +100,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [feb2f85](https://github.com/paleofoundation/heavymetalindex/commit/feb2f85) | 2026-06-08 | audit: coghlan2015-tcm-heavy-metals-audit revised per autonomous audit |
 | [caaa2ee](https://github.com/paleofoundation/heavymetalindex/commit/caaa2ee) | 2026-06-08 | audit: demir2025-coffee-elements-turkiye revised per autonomous audit |
 <!-- END: hmi-page-history -->

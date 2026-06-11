@@ -89,3 +89,13 @@ The paper contributes Pakistan occurrence data for herbal-botanical raw material
 - Soil values are included only as paired collection-site context and should not be pooled as plant/product occurrence.
 - Brand firewall check: no commercial brands or producers are reported.
 - Closed vocabulary check: products, ingredients, metals, and wiki-page links use slugs present in `docs/gpt-collaboration/taxonomy-snapshot.md`. Species-specific *Withania somnifera* has no closed ingredient slug in the snapshot, so it remains in the title, prose, and matrix text only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [10548e7](https://github.com/paleofoundation/heavymetalindex/commit/10548e7) | 2026-06-09 | ingest: khan2007-withania-somnifera-metals-pakistan fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

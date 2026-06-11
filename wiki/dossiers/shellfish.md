@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c679df8` (2026-06-08). The body hashes to `sha256:52cf83b574f32ee1b0e9e3a56cbbc25e…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `aca5e21` (2026-06-09). The body hashes to `sha256:872b3175e79e7f93ff58284d68ed1d57…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=shellfish&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/shellfish&download=1`.
 
 ## Evidence base
 
-This category is supported by 161 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 2 numerical claims; 0 of them trace to an in-section cited source, leaving 2 that do not yet trace to an in-section source and are flagged for synthesis.
+This category is supported by 172 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 2 numerical claims; 0 of them trace to an in-section cited source, leaving 2 that do not yet trace to an in-section source and are flagged for synthesis.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/shellfish.md`.
 

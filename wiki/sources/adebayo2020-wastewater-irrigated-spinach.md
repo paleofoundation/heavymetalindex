@@ -90,5 +90,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [aed2b92](https://github.com/paleofoundation/heavymetalindex/commit/aed2b92) | 2026-06-07 | ingest auto-fetched 2026-06-07: adebayo2020-wastewater-irrigated-spinach |
 <!-- END: hmi-page-history -->

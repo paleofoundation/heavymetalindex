@@ -20,16 +20,16 @@
     "canonical_url": "https://heavymetalindex.com/products/breakfast-cereal-non-rice",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6a75f60b43bbaa603e2939ffc5e5b9ee7f249fafa1c94694de76f5df51d2675d",
-      "content_bytes": 9444,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "967e4b1d3e61a9787fb5e61dd506b75fb87cfb0be4d0c1e1073ebb6026b37345",
+      "content_bytes": 10899,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/breakfast-cereal-non-rice.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/breakfast-cereal-non-rice.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 14,
+    "contributing_source_count": 17,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -56,12 +56,95 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abebe2017-popcorn-cornflake-metals-ethiopia",
         "content_pin": {
-          "content_sha256": "b137c0eb5a4b2a7e768ab2ee43b659711aaecc3adce79022504466be53e6e6c8",
-          "content_bytes": 12243,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "e4613bb6b7a7c5a5c397df67c923b4b2766923e22a4620c8b66f010488141273",
+          "content_bytes": 12257,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/abebe2017-popcorn-cornflake-metals-ethiopia.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/abebe2017-popcorn-cornflake-metals-ethiopia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/anses2026-tds3-metals-france",
+        "title": "Opinion of the French Agency for Food, Environmental and Occupational Health & Safety on the results of the Third French Total Diet Study (TDS3) - Acrylamide, aluminium, silver, cadmium, mercury and lead",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Ag",
+          "Cd",
+          "Pb",
+          "tHg",
+          "iHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/anses2026-tds3-metals-france",
+        "content_pin": {
+          "content_sha256": "64378c4c8e025a84a76c8490abacd3db5999f6481527f910b66a6b92776fd866",
+          "content_bytes": 6721,
+          "last_commit_sha": "fb63f6e",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show fb63f6e:wiki/sources/anses2026-tds3-metals-france.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cot2003-arsenic-food-tds",
+        "title": "Statement on arsenic in food: results of the 1999 Total Diet Study",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cot2003-arsenic-food-tds",
+        "content_pin": {
+          "content_sha256": "d4eb4fdc6f3e08d9209a6b77f7a14b56ed49eb9112d3c6af54f15dcc4b9f509c",
+          "content_bytes": 5101,
+          "last_commit_sha": "fb63f6e",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show fb63f6e:wiki/sources/cot2003-arsenic-food-tds.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cot2008-uk-tds-metals",
+        "title": "COT Statement on the 2006 UK Total Diet Study of Metals and Other Elements",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Sb",
+          "tAs",
+          "iAs",
+          "Ba",
+          "Cd",
+          "Cr",
+          "Cu",
+          "Pb",
+          "Mn",
+          "tHg",
+          "Mo",
+          "Ni",
+          "Se",
+          "Sn",
+          "Tl",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cot2008-uk-tds-metals",
+        "content_pin": {
+          "content_sha256": "db2546963656bea6bebc9d8151fc4ee9f307963f0c141cc8d98ccd8c21e6f3de",
+          "content_bytes": 6138,
+          "last_commit_sha": "fb63f6e",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show fb63f6e:wiki/sources/cot2008-uk-tds-metals.md | sha256sum"
         }
       },
       {
@@ -76,12 +159,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cot2013-uk-aluminium-infant-diet",
         "content_pin": {
-          "content_sha256": "e6318f1077f41e6213224c67db81b3036d516f14838e8e1f136f275186c540d0",
-          "content_bytes": 16996,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "8756c1e052f898b8e41b659f8727c93a60ef2d73b20a7ef3aa23d1b7b14ea9f4",
+          "content_bytes": 17010,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cot2013-uk-aluminium-infant-diet.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/cot2013-uk-aluminium-infant-diet.md | sha256sum"
         }
       },
       {
@@ -99,12 +182,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dabeka1995-canadian-food-composites-metals",
         "content_pin": {
-          "content_sha256": "6d8867d41c689cb828128ef8adffd657a2f9242110de276c0bdede5c6ae9e081",
-          "content_bytes": 6479,
-          "last_commit_sha": "df08614",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "6489e3911888c2cb435e7d9a648ce10bea1bb89a75062a2b97c99437ad698bb5",
+          "content_bytes": 6640,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show df08614:wiki/sources/dabeka1995-canadian-food-composites-metals.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/dabeka1995-canadian-food-composites-metals.md | sha256sum"
         }
       },
       {
@@ -122,12 +205,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ec2004-scoop-heavy-metals-dietary-exposure",
         "content_pin": {
-          "content_sha256": "9cc6569614c57ce17bb25526ae77ae25938373a00be74680ae62bdd1bb38f16a",
-          "content_bytes": 6829,
-          "last_commit_sha": "b82425c",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "2896e3e61bd7f7e1defe6a8365fa06b8ea5572c95fbaeaf4e47c09e6e2d3bcb6",
+          "content_bytes": 6990,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b82425c:wiki/sources/ec2004-scoop-heavy-metals-dietary-exposure.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/ec2004-scoop-heavy-metals-dietary-exposure.md | sha256sum"
         }
       },
       {
@@ -142,12 +225,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa-lead-contam-2010",
         "content_pin": {
-          "content_sha256": "421e0c58e8b48e343db3e51c2a6f2124c8b2a9445e02635bbc5617d4a9acb3d2",
-          "content_bytes": 21903,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "fa73a501a6ba8e05590939f90d804f36f156ccc1146be7738e2868dde4b274ff",
+          "content_bytes": 21891,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/efsa-lead-contam-2010.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/efsa-lead-contam-2010.md | sha256sum"
         }
       },
       {
@@ -162,12 +245,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
         "content_pin": {
-          "content_sha256": "a9e18e6abdbe2e88582689b79abee5c0f8d8b4014da7c4881fe6d5106f5acb39",
-          "content_bytes": 7369,
-          "last_commit_sha": "0226413",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "4381ceb5cc289c93c2b443070139e70044762e564eea35e5ceaa4fad0b2f4c38",
+          "content_bytes": 7530,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 0226413:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {
@@ -182,12 +265,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "230bb3d82ddc62a76d5958a93fe400e7f0153d95462223e42f41d106db5f3829",
-          "content_bytes": 30180,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "d07747a4ff5135caa9393a3304afff1dbc8d0df7b9b5ea05b46dbfc836dd73de",
+          "content_bytes": 30194,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -219,12 +302,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
         "content_pin": {
-          "content_sha256": "4518a85cd1a34e7c6c6bac437beaffd58fc55818effbf15fde0c731da7e0f0bf",
-          "content_bytes": 10803,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "186993a5f8e83a61f40c9dbbd1997c5598c6dc8ce5dbdc8f2f6c72ef578992d0",
+          "content_bytes": 10817,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
         }
       },
       {
@@ -243,12 +326,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hassan2025-cornflakes-lebanon-metals",
         "content_pin": {
-          "content_sha256": "81dc69ac76378743f97fd707836cf49be36ef00a8011d0c8c7d6f1b6318a4940",
-          "content_bytes": 4251,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b86632e532292f00b15052745700c109fe598534145bf61bda78fe9509ed2dca",
+          "content_bytes": 4265,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/hassan2025-cornflakes-lebanon-metals.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/hassan2025-cornflakes-lebanon-metals.md | sha256sum"
         }
       },
       {
@@ -265,12 +348,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france",
         "content_pin": {
-          "content_sha256": "0bbd24351017abdc4c1b5b54e84ed4c2532335d973e4242f9bf08bccf2dc2449",
-          "content_bytes": 13632,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "10c5b797a40ad61d741b485439d0627029701fc616462a27fe21c9ead38cff38",
+          "content_bytes": 13646,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france.md | sha256sum"
         }
       },
       {
@@ -287,12 +370,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jecfa-67th-aluminium-methylmercury-2007",
         "content_pin": {
-          "content_sha256": "bcfd68daaba3da4bcad9f3bdcdeb03fc3af15f1b32de581b805b7bd6d61a34fe",
-          "content_bytes": 21811,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b95482668777296c8c4db43f4b4c462a809d6bb6ba783d48d7203388d4e1008c",
+          "content_bytes": 22169,
+          "last_commit_sha": "81b1da7",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/jecfa-67th-aluminium-methylmercury-2007.md | sha256sum"
+          "verify_command": "git show 81b1da7:wiki/sources/jecfa-67th-aluminium-methylmercury-2007.md | sha256sum"
         }
       },
       {
@@ -312,12 +395,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/oduro2023-cereal-breakfast-ghana-health-risk",
         "content_pin": {
-          "content_sha256": "4d446804aed683c9ba909829e766e5b8ed38444d92ca191e2a818abde3b2f63c",
-          "content_bytes": 10290,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7427db7be0f3e0647f96078f2857e3c99eb469a54c19e64460f87b35ddd707cb",
+          "content_bytes": 10304,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/oduro2023-cereal-breakfast-ghana-health-risk.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/oduro2023-cereal-breakfast-ghana-health-risk.md | sha256sum"
         }
       },
       {
@@ -333,12 +416,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp",
         "content_pin": {
-          "content_sha256": "5d25dd27b0c10033caada26ec9b952304c297b37973d41736342b2f0b62ff1f5",
-          "content_bytes": 20100,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "28a8d2206dd6beb6f6911569544f162e8f981b9f2da6ae4ea107c32e7de1034b",
+          "content_bytes": 20114,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp.md | sha256sum"
         }
       },
       {
@@ -353,12 +436,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/schaefer2020-cadmium-mitigation-strategies",
         "content_pin": {
-          "content_sha256": "d50c4915fb808223476b4cc3f2be30d7cbba345af3cc916c4138ae2460c6904b",
-          "content_bytes": 10359,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "f266966ddc47bd2551fadaf4aad80e2b8c0621b6cc1ebbaca3ad8bb4631e50d7",
+          "content_bytes": 10373,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
         }
       }
     ]

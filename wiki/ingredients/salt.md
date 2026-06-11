@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 9
+sources: 10
 updated: 2026-05-30
 ---
 
@@ -128,10 +128,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 3 | [[sources/eu-2023-915-contaminants-maximum-levels\|EU 2023]]. *Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006*, Official Journal of the European Union | 2023 | Regulation | EU Pb, Cd, tHg, iAs, tAs, Sn concentrations |
 | 4 | [[sources/eu-2021-1323-cadmium-foodstuffs-amendment\|EU 2021]]. *Commission Regulation (EU) 2021/1323 of 10 August 2021 amending Regulation (EC) No 1881/2006 as regards maximum levels of cadmium in certain foodstuffs*, Official Journal of the European Union (OJ L 288, 11.8.2021, p. 13–18) | 2021 | Regulation | EU Cd concentrations |
 | 5 | [[sources/wu2021-edible-salt-soy-sauce-pb-cd\|Wu et al. 2021]]. *Determination of Trace Cd and Pb in Edible Salt and Soy Sauce by ETAAS Using Fluorescent Carbon Nanoparticles (FCNs) as Matrix Modifier*, Atomic Spectroscopy | 2021 | Peer-reviewed | CN Pb, Cd occurrence in Edible salt and soy sauce samples used for ETAAS method validation (n=2) |
-| 6 | [[sources/samsiyah2019-indonesia-salt-lead\|Samsiyah et al. 2019]]. *The Quality of Indonesia Salt: Study of Heavy Metal Lead (Pb) Levels in the Salt*, Jurnal Ilmiah Perikanan dan Kelautan | 2019 | Peer-reviewed | ID Pb occurrence in Salt from Pamekasan Regency, Indonesia |
-| 7 | [[sources/bergerritchie2013-hot-sauce-lead\|Berger Ritchie et al. 2013]]. *An evaluation of lead concentrations in imported hot sauces*, Journal of Environmental Science and Health, Part B: Pesticides, Food Contaminants, and Agricultural Wastes | 2013 | Peer-reviewed | US/MX/GT Pb occurrence in 25 bottles of imported hot sauces purchased Sep 2009–Jan 2010 at 5 ethnic markets, 2 grocery stores, and... (n=25) |
-| 8 | [[sources/bassioni2012-aluminum-foil-meat-cooking-uae\|Bassioni et al. 2012]]. *Risk Assessment of Using Aluminum Foil in Food Preparation*, International Journal of Electrochemical Science | 2012 | Peer-reviewed | AE/EG Al occurrence in Six experimental cooking-solution recipes (variants on 40% minced-beef extract + tomato juice + citric acid + NaCl, with... (n=6) |
-| 9 | [[sources/jecfa-67th-aluminium-methylmercury-2007\|JECFA 2007]]. *Evaluation of certain food additives and contaminants — Sixty-seventh report of the Joint FAO/WHO Expert Committee on Food Additives*, WHO Technical Report Series 940 (Sixty-seventh meeting of JECFA, Rome, 20-29 June 2006) | 2007 | Government report | international Al, MeHg, tHg occurrence in Aluminium: total dietary exposure derived from market-basket and duplicate-diet surveys in adults (France, Germany, UK, USA, China), Total... |
+| 6 | [[sources/ericson2020-georgian-spices-lead\|Ericson et al. 2020]]. *Elevated Levels of Lead (Pb) Identified in Georgian Spices*, Annals of Global Health | 2020 | Peer-reviewed | GE Pb occurrence in Spice samples from 25 homes and four bazaars in Georgia, with additional household media assessed during a lead-exposure... (n=128) |
+| 7 | [[sources/samsiyah2019-indonesia-salt-lead\|Samsiyah et al. 2019]]. *The Quality of Indonesia Salt: Study of Heavy Metal Lead (Pb) Levels in the Salt*, Jurnal Ilmiah Perikanan dan Kelautan | 2019 | Peer-reviewed | ID Pb occurrence in Salt from Pamekasan Regency, Indonesia |
+| 8 | [[sources/bergerritchie2013-hot-sauce-lead\|Berger Ritchie et al. 2013]]. *An evaluation of lead concentrations in imported hot sauces*, Journal of Environmental Science and Health, Part B: Pesticides, Food Contaminants, and Agricultural Wastes | 2013 | Peer-reviewed | US/MX/GT Pb occurrence in 25 bottles of imported hot sauces purchased Sep 2009–Jan 2010 at 5 ethnic markets, 2 grocery stores, and... (n=25) |
+| 9 | [[sources/bassioni2012-aluminum-foil-meat-cooking-uae\|Bassioni et al. 2012]]. *Risk Assessment of Using Aluminum Foil in Food Preparation*, International Journal of Electrochemical Science | 2012 | Peer-reviewed | AE/EG Al occurrence in Six experimental cooking-solution recipes (variants on 40% minced-beef extract + tomato juice + citric acid + NaCl, with... (n=6) |
+| 10 | [[sources/jecfa-67th-aluminium-methylmercury-2007\|JECFA 2007]]. *Evaluation of certain food additives and contaminants — Sixty-seventh report of the Joint FAO/WHO Expert Committee on Food Additives*, WHO Technical Report Series 940 (Sixty-seventh meeting of JECFA, Rome, 20-29 June 2006) | 2007 | Government report | international Al, MeHg, tHg occurrence in Aluminium: total dietary exposure derived from market-basket and duplicate-diet surveys in adults (France, Germany, UK, USA, China), Total... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -141,9 +142,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

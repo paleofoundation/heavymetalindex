@@ -1,0 +1,3 @@
+{"id":"lease-1781084001420-12117","event":"spawn","ts":"2026-06-10T09:33:21.420Z","ts_ms":1781084001420,"workType":"manual-fetch-ingest","engine":"anthropic","model":"claude-sonnet-4-6","effort":"high","count":1,"est_tokens":75000}
+{"event":"success","ts":"2026-06-10T09:41:34.487Z","ts_ms":1781084494487,"workType":"manual-fetch-ingest","engine":"anthropic","lease":"lease-1781084001420-12117"}
+{"event":"outcome-summary","ts":"2026-06-10T09:41:34.487Z","ts_ms":1781084494487,"workType":"manual-fetch-ingest","engine":"anthropic","lease":"lease-1781084001420-12117","ok":1,"stopped":0,"failed":0,"est_tokens":75000,"note":"batch parsed"}

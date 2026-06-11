@@ -87,3 +87,13 @@ Microbiome: Not applicable.
 ## Verification notes
 
 Identity checks before drafting found no existing `wiki/sources/` hit for raw handle `MFK_paper-15-danish-epa-2006-sex-toys-chemicals`, candidate cite key `nilsson2006-sex-toys-chemicals`, cover/title strings, or Danish EPA Survey No. 77 sex-toy references. The report has no DOI in the local PDF; `doi: null` and `no_doi_assigned: true` are retained. The raw PDF SHA-256 from the novelty CSV and local check is `a5f1b554cc423932f3285e136c20d59611a13eb2251238a8d20fe92a2a9a4e32`. The title is copied from the cover, including the source misspellings "assesment" and "chemicals substances." Table 4.2, Table 4.6, Table 6.1, Section 5.1.1, Section 7.3.9.2, Table 7.15, and Table 7.16 were re-opened from `/tmp/hmi-fem-009.txt`; all numbers above preserve the source's units and decimal punctuation without conversion. Arsenic is total arsenic only, chromium is total chromium, and tin is total Sn except where trimethyltin chloride is explicitly named; organotin values are not collapsed into inorganic Sn. No brand names are attached to contaminant values. `menstrual-intimate-products-other` is used because the existing product page states it is for "Other menstrual/intimate products (case-by-case)" and no closed sex-toy slug exists; `ingredients: []` is intentional because no closed ingredient/material slug fits these consumer-product materials. `npm run evidence:source-routes` exited 0 and generated one `menstrual-intimate-products-other` product route; `routing_malformed.csv` contains an advisory-only missing-ingredients warning.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [96007b0](https://github.com/paleofoundation/heavymetalindex/commit/96007b0) | 2026-06-09 | ingest: nilsson2006-sex-toys-chemicals fresh from MFK/June 8 Kimi_Agent_Feminine Care Heavy Metal Papers |
+<!-- END: hmi-page-history -->

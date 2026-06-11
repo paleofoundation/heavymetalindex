@@ -89,5 +89,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b1df588](https://github.com/paleofoundation/heavymetalindex/commit/b1df588) | 2026-06-09 | audit: gu2019-maize-peanut-heavy-metals-guangxi revised per autonomous audit |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [375197a](https://github.com/paleofoundation/heavymetalindex/commit/375197a) | 2026-06-08 | ingest: gu2019-maize-peanut-heavy-metals-guangxi fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

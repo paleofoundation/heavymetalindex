@@ -47,3 +47,13 @@ No sources are routed to this category yet. The corpus will accumulate via the s
 
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c794d6b](https://github.com/paleofoundation/heavymetalindex/commit/c794d6b) | 2026-06-08 | reorg(taxonomy-v2.1): stand up cats 24/25/26 + mushrooms/jewelry rows |
+<!-- END: hmi-page-history -->

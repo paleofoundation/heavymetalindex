@@ -69,3 +69,13 @@ App: The source can provide Persian Gulf fish context for Ni, Zn, Cu, Pb, and Cd
 - Speciation: the paper measured total elemental Ni, Zn, Cu, Pb, and Cd in fish muscle. It did not measure Hg, MeHg, arsenic, or metal speciation.
 - Brand firewall is not relevant; samples are wild fish species and ports, not brands.
 - Source-quality note: no averaging, unit conversion, or table correction was performed because the source itself is internally inconsistent.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b4580e4](https://github.com/paleofoundation/heavymetalindex/commit/b4580e4) | 2026-06-09 | ingest: June 8 product occurrence batch from MFK |
+<!-- END: hmi-page-history -->

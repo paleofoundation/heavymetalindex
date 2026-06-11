@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-refresher-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1b50a4aa9a0529616b2a481347a20baeac01efe41d9a7d5b0931d79a2f6f4ce3",
-      "content_bytes": 8047,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "7c451073f2b765dd12c239dd5982105245d939ee15b8d8b6819cb32da9e8bea6",
+      "content_bytes": 8650,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/fabric-refresher-products.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/fabric-refresher-products.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -43,12 +43,39 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/davidsuzuki2014-toxic-household-cleaners",
         "content_pin": {
-          "content_sha256": "77a63e0f7cd290fb5ca308025880516756fb79b14161319f0af39f071841a37e",
-          "content_bytes": 22446,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b453c45639dd5775d8ec4d67da33b9ede380470e175ca22610e491e1946627a9",
+          "content_bytes": 22356,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/greenseal2020-gs51-laundry-care-products",
+        "title": "GS-51: Green Seal Standard for Laundry Care Products for Industrial and Institutional Use, Edition 1.6",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tHg",
+          "Cd",
+          "Cr-VI",
+          "tAs",
+          "Co",
+          "Mn",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/greenseal2020-gs51-laundry-care-products",
+        "content_pin": {
+          "content_sha256": "5c9d524531ce65ee684e5d28956ed268701383bb316e7ed3086664be3795cdf6",
+          "content_bytes": 8958,
+          "last_commit_sha": "c7e5aec",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show c7e5aec:wiki/sources/greenseal2020-gs51-laundry-care-products.md | sha256sum"
         }
       }
     ]

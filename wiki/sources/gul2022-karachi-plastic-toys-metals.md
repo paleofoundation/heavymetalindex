@@ -140,3 +140,13 @@ App: If toy-material context is surfaced, this source can say that the Karachi l
 - Product slug note: DCT values route to `toys-substrate-materials`; DPCT values route to `toys-painted`. There is no separate matrix slug for non-food toy material, so `matrices` is intentionally empty.
 - Source-internal anomalies preserved: Table 4 reports Pb maximum `1190 mg/kg`, while Table 3 and the Results text list DPCT14 Pb as `1191 mg/kg`; Table 4 reports Cd maximum `459.01 mg/kg`, while Table 2 lists DCT11 Cd as `459`; Table 3 lists DPCT14 Cd as `09`. These are copied as the source renders them rather than normalized.
 - Evidence tier: `B` because the version of record is peer-reviewed and the study reports sample-level values and methods, but the local extracted PDF is the preprint version and the sample frame is a small local market survey.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [85a5b33](https://github.com/paleofoundation/heavymetalindex/commit/85a5b33) | 2026-06-09 | ingest: gul2022-karachi-plastic-toys-metals fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

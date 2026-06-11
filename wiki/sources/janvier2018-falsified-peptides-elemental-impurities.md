@@ -87,5 +87,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [420f119](https://github.com/paleofoundation/heavymetalindex/commit/420f119) | 2026-06-08 | audit: janvier2018-falsified-peptides-elemental-impurities revised |
+| [d4b5a7d](https://github.com/paleofoundation/heavymetalindex/commit/d4b5a7d) | 2026-06-08 | ingest: janvier2018-falsified-peptides-elemental-impurities enhanced from MFK June 8/peptide_contamination_pdfs |
 | [a5451d9](https://github.com/paleofoundation/heavymetalindex/commit/a5451d9) | 2026-06-08 | ingest: janvier2018-falsified-peptides-elemental-impurities + close peptide_contamination set (June 8) |
 <!-- END: hmi-page-history -->

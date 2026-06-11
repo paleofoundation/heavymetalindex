@@ -17,18 +17,121 @@
     "canonical_url": "https://heavymetalindex.com/products/menstrual-intimate-products-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "58d633b7865e24307988122cf62761425e65f5e38170d9d63d2ccb32663bd32a",
-      "content_bytes": 7496,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "655c1a092c3139c8745eaeb00e41178bb257fac5fb07632a03272a4575dba13e",
+      "content_bytes": 9232,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/menstrual-intimate-products-other.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/menstrual-intimate-products-other.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/marcelis2024-feminine-intimate-products-thesis",
+        "title": "Development of a generic safety assessment strategy for feminine intimate products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Li",
+          "Al",
+          "Cr",
+          "Mn",
+          "Fe",
+          "Co",
+          "Ni",
+          "Cu",
+          "Zn",
+          "tAs",
+          "Se",
+          "Cd",
+          "Sb",
+          "Ba",
+          "Pb",
+          "Sn",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/marcelis2024-feminine-intimate-products-thesis",
+        "content_pin": {
+          "content_sha256": "8bc2315c3394f19bbe1da0f0930a4f9489133d1ba8151072d87aed2b124b0a77",
+          "content_bytes": 8602,
+          "last_commit_sha": "7408d1c",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 7408d1c:wiki/sources/marcelis2024-feminine-intimate-products-thesis.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/marcelis2025-micp-leachables-metals",
+        "title": "Chemical characterization of menstrual and intimate care products: An extractables & leachables investigation",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Li",
+          "Al",
+          "Cr",
+          "Mn",
+          "Fe",
+          "Co",
+          "Ni",
+          "Cu",
+          "Zn",
+          "tAs",
+          "Se",
+          "Cd",
+          "Sb",
+          "Ba",
+          "Pb",
+          "Sn",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/marcelis2025-micp-leachables-metals",
+        "content_pin": {
+          "content_sha256": "abb2046a2210a9bcf51aa4f04a2614020bf1e427791692af454bbba7dbedb1b5",
+          "content_bytes": 7389,
+          "last_commit_sha": "a2319d6",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show a2319d6:wiki/sources/marcelis2025-micp-leachables-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nilsson2006-sex-toys-chemicals",
+        "title": "Survey and health assesment of chemicals substances in sex toys",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Cr",
+          "Co",
+          "Ni",
+          "Cu",
+          "Zn",
+          "tAs",
+          "Cd",
+          "Sn",
+          "Sb",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nilsson2006-sex-toys-chemicals",
+        "content_pin": {
+          "content_sha256": "bb69cebd56f756a422df167155a1052ecd7bd396d4d3aaf420c83f3b1b6bfdfd",
+          "content_bytes": 7843,
+          "last_commit_sha": "96007b0",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 96007b0:wiki/sources/nilsson2006-sex-toys-chemicals.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

@@ -85,3 +85,13 @@ App: The source can support broad UK TDS context for cereals, bread, fish, canne
 - Units are preserved as printed (`mg/kg`, `mg/day`, `µg/day`, `µg/kg body weight/day`). No unit conversion was made.
 - Speciation: arsenic is split into tAs/iAs only where the source does; mercury is total mercury unless otherwise stated. Total chromium is not Cr(VI).
 - Closed vocabulary: no exact miscellaneous-cereals product slug exists, so the page uses broad breakfast-cereal, baked-goods, and other-grain rows.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb63f6e](https://github.com/paleofoundation/heavymetalindex/commit/fb63f6e) | 2026-06-09 | Co-Authored-By: Codex GPT-5.5 <noreply@openai.com> |
+<!-- END: hmi-page-history -->

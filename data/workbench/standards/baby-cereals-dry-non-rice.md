@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: baby-cereals-dry-non-rice
 public_page: products/baby-cereals-dry-non-rice
-updated: 2026-06-02
+updated: 2026-06-09
 ---
 
 # Workbench standards snapshot — Baby cereals / grain products, dry (non-rice)

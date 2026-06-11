@@ -158,6 +158,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [f1bd563](https://github.com/paleofoundation/heavymetalindex/commit/f1bd563) | 2026-06-06 | audit: izah2016-beverages-heavy-metals-nigeria [revised] |
 | [d464542](https://github.com/paleofoundation/heavymetalindex/commit/d464542) | 2026-06-06 | ingest: izah2016-beverages-heavy-metals-nigeria [fresh] from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

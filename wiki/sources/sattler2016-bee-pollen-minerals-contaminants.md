@@ -61,3 +61,12 @@ Dried bee pollen can carry measurable Cd, Pb, Ba, Li, and V. For HMTc, the sourc
 
 The PDF includes DOI, authors, journal, year, and complete Table 3 values. The authors state that samples 3, 4, and 5 failed cited Cd/Pb standards; the tabulated Cd values clearly exceed the cited 0.003 mg/100 g level in samples 3-5, while all tabulated Pb values are below the cited 0.05 mg/100 g level, so downstream routing should preserve the table values rather than infer a Pb exceedance.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6661f46](https://github.com/paleofoundation/heavymetalindex/commit/6661f46) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

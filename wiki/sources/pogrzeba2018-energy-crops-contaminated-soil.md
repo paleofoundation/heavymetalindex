@@ -77,3 +77,13 @@ Courses: This is a useful teaching case for preserving matrix fit. The same anal
 ## Verification notes
 
 This page was built from the PDF text, including the abstract, site description, experimental design, Table 1 soil characteristics, Figure 3/Table 2 biomass-pattern summaries, Table 3 ANOVA summary, methods, discussion, and conclusions. Products and ingredients are intentionally empty because the source does not measure edible commodities, mineral water, or consumer products. The source reports total elemental Pb, Cd, and Zn after digestion; no speciation is reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5a8f7b8](https://github.com/paleofoundation/heavymetalindex/commit/5a8f7b8) | 2026-06-09 | ingest auto-fetched 2026-06-09: pogrzeba2018-energy-crops-contaminated-soil |
+<!-- END: hmi-page-history -->

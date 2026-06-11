@@ -70,5 +70,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [6b0d2f1](https://github.com/paleofoundation/heavymetalindex/commit/6b0d2f1) | 2026-06-08 | ingest: schoof2007-seafood-arsenic-speciation fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

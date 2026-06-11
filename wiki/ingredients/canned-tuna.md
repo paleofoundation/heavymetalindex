@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 23
+sources: 25
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
@@ -183,8 +183,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 18 | [[sources/efsa-sc2015-fish-seafood-mehg-risk-benefit\|EFSA 2015]]. *Statement on the benefits of fish/seafood consumption compared to the risks of methylmercury in fish/seafood*, EFSA Journal 2015;13(1):3982, 36 pp. | 2015 | Government report | EU MeHg, tHg occurrence in Scenario-based risk-benefit assessment across 26 chronic dietary surveys from 17 EU Member States (Belgium, Bulgaria, Cyprus, Czech Republic,... |
 | 19 | [[sources/olmedo2013-andalusia-fish-shellfish-metals\|Olmedo et al. 2013]]. *Determination of toxic elements (mercury, cadmium, lead, tin and arsenic) in fish and shellfish samples. Risk assessment for the consumers*, Environment International | 2013 | Peer-reviewed | ES/MA/MR tHg, MeHg, Cd, Pb, Sn, tAs occurrence in Fresh, canned, and frozen fish and shellfish products representing 43 frequently consumed species/products in Andalusia, Spain; samples collected... (n=485) |
 | 20 | [[sources/trandafir2012-tin-canned-foods-icp-ms\|Trandafir et al. 2012]]. *Determination of Tin in Canned Foods by Inductively Coupled Plasma-Mass Spectrometry*, Polish Journal of Environmental Studies | 2012 | Peer-reviewed | RO/EU Sn occurrence in 14 canned food products (4 pineapple brands, mandarin oranges, fruit cocktail, small whole carrots, mushrooms, 2 peeled-tomato-in-juice brands,... (n=14) |
-| 21 | [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel\|Shim et al. 2004]]. *Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel*, Journal of Food Science | 2004 | Peer-reviewed | US-market canned-tuna-salmon-mackerel mercury distribution (n=272); largest US-jurisdiction tuna-mercury dataset |
-| 22 | [[sources/voegborlo1999-libya-canned-tuna-metals\|Voegborlo et al. 1999]]. *Mercury, cadmium and lead content of canned tuna fish*, Food Chemistry | 1999 | Peer-reviewed | LY tHg, Cd, Pb occurrence in Fifty 5 kg cans of tuna fish from the Tuna Canning Factory in Misurata, Libya; tuna were caught... (n=50) |
+| 21 | [[sources/fsanz2011-23rd-australian-total-diet-study\|Zealand 2011]]. *The 23rd Australian Total Diet Study*, Food Standards Australia New Zealand | 2011 | Government report | AU/NZ Al, tAs, iAs, Cd, Pb, tHg, iHg, MeHg occurrence in Ninety-two Australian foods and beverages, including tap and bottled water, represented by 570 composite samples; each composite used... (n=570) |
+| 22 | [[sources/cot2004-mercury-fish-shellfish\|Committee on Toxicity of 2004]]. *Updated COT statement on a survey of mercury in fish and shellfish*, Advice on fish consumption, Annex 3 | 2004 | Government report | GB tHg, MeHg occurrence in COT/SACN review of the 2002 FSA fish and shellfish mercury survey, 1998 MAFF marine fish/shellfish survey context, and... |
+| 23 | [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel\|Shim et al. 2004]]. *Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel*, Journal of Food Science | 2004 | Peer-reviewed | US-market canned-tuna-salmon-mackerel mercury distribution (n=272); largest US-jurisdiction tuna-mercury dataset |
+| 24 | [[sources/voegborlo1999-libya-canned-tuna-metals\|Voegborlo et al. 1999]]. *Mercury, cadmium and lead content of canned tuna fish*, Food Chemistry | 1999 | Peer-reviewed | LY tHg, Cd, Pb occurrence in Fifty 5 kg cans of tuna fish from the Tuna Canning Factory in Misurata, Libya; tuna were caught... (n=50) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -194,9 +196,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -4,8 +4,8 @@ type: brand-dossier
 noindex: true
 audience: [regulator, brand-legal, commercial]
 category: products/sunflower-seed-butter
-hmtc_category: 4
-hmtc_row: 16
+hmtc_category: 28
+hmtc_row: 5
 generated: true
 ---
 
@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c679df8` (2026-06-08). The body hashes to `sha256:8fb4b6ac1659d207bad5e86365fd937a…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `55f6bde` (2026-06-09). The body hashes to `sha256:1d49c18a813df63801bfd3b1ba43f2b8…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=sunflower-seed-butter&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/sunflower-seed-butter&download=1`.
 

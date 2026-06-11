@@ -64,3 +64,12 @@ The source supports human-milk occurrence evidence for western Iran and health-r
 
 The PDF contains full DOI, author, journal, and year metadata. Product routing is limited to infant-exposure context because breast milk is not a commercial product row. The source's As and Hg methods do not provide speciation.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6661f46](https://github.com/paleofoundation/heavymetalindex/commit/6661f46) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

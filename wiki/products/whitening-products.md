@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 5
+sources: 6
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -111,6 +111,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 3 | [[sources/dauda2023-cosmetics-heavy-metals\|Dauda et al. 2023]]. *Harmful effects of heavy metals in cosmetics*, World Journal of Advanced Engineering Technology and Sciences | 2023 | Peer-reviewed | NG tHg, Pb, Cd, Cr, Ni occurrence in Three lipsticks, three fairness creams, three lip balms, and three anti-aging creams purchased from local markets in Kafanchan,... (n=12) |
 | 4 | [[sources/alamgir2022-karachi-whitening-creams-metals\|Alamgir et al. 2022]]. *Quantitative Analysis of Heavy Metals in Unbranded Whitening Creams Sold in Karachi*, Pak-Euro Journal of Medical and Life Sciences | 2022 | Peer-reviewed | PK Pb, Ni, Cr, tAs, Cu occurrence in Twenty-five unbranded skin-whitening cream samples purchased from Sunday Market near Farooq-e-Azam, Paposh Market, and Boltan Market in Karachi,... (n=25) |
 | 5 | [[sources/agustina2021-whitening-creams-pb-cd\|Agustina et al. 2021]]. *Analysis of Lead (Pb) and Cadmium (Cd) in Whitening Creams using Atomic Absorption Spectroscopy*, Indonesian Journal of Chemistry and Environment | 2021 | Peer-reviewed | ID Pb, Cd occurrence in Five face whitening cream samples sold in stores around Sleman, Yogyakarta, Indonesia. (n=5) |
+| 6 | [[sources/sahu2014-cosmetics-metals-india\|Sahu et al. 2014]]. *Heavy Metals in Cosmetics*, Centre for Science and Environment Pollution Monitoring Laboratory report PML/PR-45/2014 | 2014 | Nonprofit | IN Pb, Cd, Cr, Ni, tHg occurrence in Seventy-three cosmetic products purchased from markets in Delhi: 30 lipsticks, 8 lip balms, and 3 anti-ageing creams tested... (n=73) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -120,9 +121,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

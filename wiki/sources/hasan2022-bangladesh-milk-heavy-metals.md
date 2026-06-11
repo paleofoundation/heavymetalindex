@@ -68,3 +68,13 @@ App: Supports a country-specific dairy context note for Bangladesh cow milk; Pb 
 - The filename labels this as `ing-human-milk-cd`, but the PDF is about cow raw milk and liquid pasteurized cow milk, not human milk. Routing follows the PDF content.
 - The DOI, authors, title, publication, and year are printed in the PDF.
 - Arsenic is routed as `tAs`; no inorganic arsenic speciation is reported. Chromium is routed as total `Cr`, not `Cr-VI`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6661f46](https://github.com/paleofoundation/heavymetalindex/commit/6661f46) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

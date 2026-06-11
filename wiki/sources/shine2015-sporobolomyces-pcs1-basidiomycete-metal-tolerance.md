@@ -111,6 +111,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [dc90421](https://github.com/paleofoundation/heavymetalindex/commit/dc90421) | 2026-06-08 | audit: shine2015-sporobolomyces-pcs1-basidiomycete-metal-tolerance revised |
 | [7bec9a1](https://github.com/paleofoundation/heavymetalindex/commit/7bec9a1) | 2026-06-08 | ingest: shine2015-sporobolomyces-pcs1-basidiomycete-metal-tolerance fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

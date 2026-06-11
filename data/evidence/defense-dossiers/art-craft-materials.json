@@ -17,18 +17,47 @@
     "canonical_url": "https://heavymetalindex.com/products/art-craft-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c6ae589db502dbcf68ef90a34f4c8f0bdff58150a865bc1c858247eb1e4a418a",
-      "content_bytes": 10221,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "92fe731ec6101a9ad7356ba76e3f911807b3503c9f2dc3835b85d1b177799656",
+      "content_bytes": 11224,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/art-craft-materials.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/art-craft-materials.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 4,
+    "contributing_source_count": 6,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/gautam2024-finger-paints-metals-formaldehyde",
+        "title": "Health Risk Assessment: Formaldehyde and Heavy Metals in Finger Paints",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "Pb",
+          "Ni",
+          "Al",
+          "Cu",
+          "Co",
+          "Mn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gautam2024-finger-paints-metals-formaldehyde",
+        "content_pin": {
+          "content_sha256": "a03dc0a375e3f6a74f210191903f2739ebfa32fe5089aeb58c1b5c8e9d8dac70",
+          "content_bytes": 12333,
+          "last_commit_sha": "5714927",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5714927:wiki/sources/gautam2024-finger-paints-metals-formaldehyde.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/iso2020-8124-3-toy-migration-elements",
         "title": "ISO 8124-3:2020 — Safety of toys — Part 3: Migration of certain elements (Third edition, 2020-03)",
@@ -48,12 +77,35 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/iso2020-8124-3-toy-migration-elements",
         "content_pin": {
-          "content_sha256": "1b24bee8321a6fcd1c517a44f737bc377d626abb69fb35b11141b9dd3134a281",
-          "content_bytes": 33683,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "3cf30c49b8e57f34c2ea74ec00f4c8ae9245b9855a1e20ab5331407cb7d1c8d0",
+          "content_bytes": 33697,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/iso2020-8124-3-toy-migration-elements.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/iso2020-8124-3-toy-migration-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jalal2020-modeling-clay-metals",
+        "title": "Estimation of Some Metals in Children's Colorful Modeling Clay Sold in the Markets of Erbil City, Kurdistan Region, Iraq",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Cr",
+          "Cu",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jalal2020-modeling-clay-metals",
+        "content_pin": {
+          "content_sha256": "a4652a6199c78822a9f990ae1db67dbb75b410ac004476d23d422f180e4e3406",
+          "content_bytes": 6178,
+          "last_commit_sha": "50336a4",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50336a4:wiki/sources/jalal2020-modeling-clay-metals.md | sha256sum"
         }
       },
       {
@@ -74,12 +126,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015",
         "content_pin": {
-          "content_sha256": "4de57bb5a7dcc8e59990c2c1fc5d6a7d877ed227a4d583617d5000b33e7522d0",
-          "content_bytes": 40591,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "10797bbc12cf877ad43cf645bdd5e796844de6dacd72713dc61770c2e5fab6df",
+          "content_bytes": 40605,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015.md | sha256sum"
         }
       },
       {
@@ -101,12 +153,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ul2012-chemicals-childrens-toys",
         "content_pin": {
-          "content_sha256": "2c7cd44904ba216629459e1d42ae831486c0e1fb96a5795dd6a641b3c1625840",
-          "content_bytes": 31726,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "55845538ccce85351599a2954fa533d224207ab3532eafb7960550581f0419a6",
+          "content_bytes": 31740,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
         }
       },
       {
@@ -121,12 +173,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/villarreal2021-ic-icpms-cr-vi-toys",
         "content_pin": {
-          "content_sha256": "4621ee1f9de982d39fcb05e5a9ae7e76741f5cbc1dbbbd6e925cc512a935594c",
-          "content_bytes": 24899,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "28cc96b9d961bb648a7e8196c871b54040379dca1f9b871335abbf6c50603110",
+          "content_bytes": 24913,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/villarreal2021-ic-icpms-cr-vi-toys.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/villarreal2021-ic-icpms-cr-vi-toys.md | sha256sum"
         }
       }
     ]

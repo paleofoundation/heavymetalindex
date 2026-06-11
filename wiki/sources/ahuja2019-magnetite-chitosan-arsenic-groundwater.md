@@ -79,3 +79,13 @@ App: Context-only remediation evidence for arsenic-removal strategies; not a con
 ## Verification notes
 
 This page was built from the PDF chapter title/byline, abstract, methods, Tables 1-2, results, and conclusion. Products and ingredients are intentionally empty because the source tests prepared As(III)/As(V) solutions and nanoparticle adsorbents, not market occurrence. The source explicitly tests arsenite and arsenate, so frontmatter uses `iAs` rather than `tAs`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [61f5b12](https://github.com/paleofoundation/heavymetalindex/commit/61f5b12) | 2026-06-09 | ingest auto-fetched 2026-06-09: ahuja2019-magnetite-chitosan-arsenic-groundwater |
+<!-- END: hmi-page-history -->

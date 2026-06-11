@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 3
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -107,6 +107,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/echa2023-cmr-childcare-articles\|ECHA 2023]]. *Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)*, European Chemicals Agency (ECHA), Helsinki, Finland. Investigation report version 2.0 (Final), 31 October 2023, prepared at the request of the European Commission under REACH Article 68(2). | 2023 | Regulatory agency report | EU Pb, Cd, Cr-VI, Co, tAs, tHg, Sn, Li, V occurrence in Not a primary-measurement study. The report aggregates 1,559 entries reporting measurements of CMR 1A or 1B substances in... |
+| 2 | [[sources/iec2020-cpsc-cribs-rule-review\|Industrial Economics 2020]]. *Full-Size Cribs and Non-Full-Size Cribs Standards Rule Review — Final Contractor Technical Report*, U.S. Consumer Product Safety Commission, Directorate for Economic Analysis (Contractor Technical Report, August 2020; prepared by Industrial Economics, Incorporated under Contract CPSC-D-15-004, Task Order 61320619F1109, in support of CPSC's section 610 Regulatory Flexibility Act review of 16 CFR 1219 and 16 CFR 1220) | 2020 | Government guidance | US Pb occurrence in Nine current (as of 2019) or former (exited the U.S. crib market between 2010 and 2019) crib-supplier firms... (n=9) |
+| 3 | [[sources/cpsc2010-cribs-104-standard-npr\|Falvey et al. 2010]]. *Proposed Standards for Full-Size and Non-Full-Size Cribs under Section 104 of the Consumer Product Safety Improvement Act and Related Documents — Staff Briefing Memorandum*, U.S. Consumer Product Safety Commission, Office of General Counsel and Directorate for Engineering Sciences (Briefing Memorandum to the Commission, June 30, 2010; cleared for public release under CPSA 6(b)(1)) | 2010 | Government guidance | US Pb occurrence in No primary heavy-metal concentration measurements are reported in this document. The briefing memorandum's incident data are drawn from... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -116,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

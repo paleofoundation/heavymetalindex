@@ -65,3 +65,13 @@ App: The study supports bottled-water and mineral-water evidence surfaces, with 
 - The source title page reports publication in 2022 even though the auto-fetched filename includes 2023.
 - Table 1 appears to print unusually large uncertainty values for several means, including Pb and Cd. This page preserves the table text and separately records the authors' detection-rate and exceedance statements.
 - The paper measures total chromium only; it does not provide Cr(VI) speciation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f0a8e1f](https://github.com/paleofoundation/heavymetalindex/commit/f0a8e1f) | 2026-06-09 | ingest auto-fetched 2026-06-09: ungureanu2022-bottled-water-toxic-elements |
+<!-- END: hmi-page-history -->

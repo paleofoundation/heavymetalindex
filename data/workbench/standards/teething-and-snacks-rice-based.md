@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: teething-and-snacks-rice-based
 public_page: products/teething-and-snacks-rice-based
-updated: 2026-06-02
+updated: 2026-06-09
 ---
 
 # Workbench standards snapshot — Teething & snacks (rice-based)

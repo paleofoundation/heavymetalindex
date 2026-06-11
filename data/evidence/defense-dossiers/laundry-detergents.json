@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/laundry-detergents",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4f31ddb20cd406c4a796fe572b12184d002187a212ace0f69f08ed6c2b541ddf",
-      "content_bytes": 16948,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "971f6d7fe01bff960140329311f1b6caede6027392172b0ef38b818103ea083a",
+      "content_bytes": 18362,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/laundry-detergents.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/laundry-detergents.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 13,
+    "contributing_source_count": 15,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abulude2007-soaps-detergents-akure-nigeria",
         "content_pin": {
-          "content_sha256": "1d3a54a66a7f70b314c800b3b42c844e44a6cd3898f1017ecbf67d37d7c4ed25",
-          "content_bytes": 23419,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "870e456c356ce32d27aee726c19c401b6c994d70052ea41b998e4914ae9acff4",
+          "content_bytes": 23389,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/abulude2007-soaps-detergents-akure-nigeria.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/abulude2007-soaps-detergents-akure-nigeria.md | sha256sum"
         }
       },
       {
@@ -67,12 +67,30 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/barkodia2020-jhansi-detergent-heavy-metals",
         "content_pin": {
-          "content_sha256": "e2bcf0f55e329168fe2ec81a3afe3836191a04d2caae237fb583141be224e655",
-          "content_bytes": 20511,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ef04731c1b176ac3e04d78205b32dbc1c2609a37b0b1bcd0356e1cc8656ec0d5",
+          "content_bytes": 20518,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/barkodia2020-jhansi-detergent-heavy-metals.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/barkodia2020-jhansi-detergent-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bcpp2017-ca-sb258-factsheet",
+        "title": "SB 258 (Lara): The Cleaning Product Right to Know Act of 2017 — factsheet",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/bcpp2017-ca-sb258-factsheet",
+        "content_pin": {
+          "content_sha256": "acc4ffe22f35dc0069d808e9fc95c22f948972549c130e8bc313924c9eed0a4c",
+          "content_bytes": 24885,
+          "last_commit_sha": "5b087c8",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5b087c8:wiki/sources/bcpp2017-ca-sb258-factsheet.md | sha256sum"
         }
       },
       {
@@ -89,12 +107,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/davidsuzuki2014-toxic-household-cleaners",
         "content_pin": {
-          "content_sha256": "77a63e0f7cd290fb5ca308025880516756fb79b14161319f0af39f071841a37e",
-          "content_bytes": 22446,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b453c45639dd5775d8ec4d67da33b9ede380470e175ca22610e491e1946627a9",
+          "content_bytes": 22356,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
         }
       },
       {
@@ -109,12 +127,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ec2024-eu-ecolabel-user-manual-detergents",
         "content_pin": {
-          "content_sha256": "6922785192970e9f5c74a65d1f72dc7dda65473c8e88e2717b27f2ca9f4ddf4b",
-          "content_bytes": 48637,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "602b3fa7f8821fe6b9a2a94d9c9f1d1b2a9b7f253e22830f9395f4dd8dcb9add",
+          "content_bytes": 48798,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ec2024-eu-ecolabel-user-manual-detergents.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/ec2024-eu-ecolabel-user-manual-detergents.md | sha256sum"
         }
       },
       {
@@ -132,12 +150,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ecetoc1992-tr045-ni-co-cr-consumer-products",
         "content_pin": {
-          "content_sha256": "9bd4df1cffa6bb2e23c8035baadc791916fa181e9de684f7848d56a8294cb258",
-          "content_bytes": 28693,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "943f1a9141c015069b948b085f34ee56d4e9a4297b52ac346066de3f5c293f5f",
+          "content_bytes": 28699,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
         }
       },
       {
@@ -150,12 +168,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/epa2024-safer-choice-master-criteria-ingredients",
         "content_pin": {
-          "content_sha256": "5ba7cc909c28b0c4397137506cc44d17e3db624b6afc53d6834ae07daf3893e5",
-          "content_bytes": 29811,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "d2db69625f1a39683a6ed78dc2af8b3804fc80d36d9eb06b506dc817b32ca8dd",
+          "content_bytes": 29972,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/epa2024-safer-choice-master-criteria-ingredients.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/epa2024-safer-choice-master-criteria-ingredients.md | sha256sum"
         }
       },
       {
@@ -173,12 +191,39 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/epa2024-safer-choice-standard-dfe",
         "content_pin": {
-          "content_sha256": "97aa55b3cb311d300bc8bcdca0fcbebeeb6641e5a719cdfb968a6a09c64770e4",
-          "content_bytes": 32450,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ce74c1f44b33b0271fad53decaf0e9c45d913d17c2bd05a2c7ed07ebca063f1f",
+          "content_bytes": 32611,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/epa2024-safer-choice-standard-dfe.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/epa2024-safer-choice-standard-dfe.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/greenseal2020-gs51-laundry-care-products",
+        "title": "GS-51: Green Seal Standard for Laundry Care Products for Industrial and Institutional Use, Edition 1.6",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tHg",
+          "Cd",
+          "Cr-VI",
+          "tAs",
+          "Co",
+          "Mn",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/greenseal2020-gs51-laundry-care-products",
+        "content_pin": {
+          "content_sha256": "5c9d524531ce65ee684e5d28956ed268701383bb316e7ed3086664be3795cdf6",
+          "content_bytes": 8958,
+          "last_commit_sha": "c7e5aec",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show c7e5aec:wiki/sources/greenseal2020-gs51-laundry-care-products.md | sha256sum"
         }
       },
       {
@@ -201,12 +246,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/iwegbue2019-household-hygienic-products-nigeria",
         "content_pin": {
-          "content_sha256": "ee12f49e1c2f62771762b3d6a89364e75d09e2ecbee652a1da1a4a5150f69738",
-          "content_bytes": 31896,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "3d864acfd83ddee68d2e533fb7d2389e8104fef699639eebf347da23fe4559a6",
+          "content_bytes": 31861,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/iwegbue2019-household-hygienic-products-nigeria.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/iwegbue2019-household-hygienic-products-nigeria.md | sha256sum"
         }
       },
       {
@@ -221,12 +266,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2",
         "content_pin": {
-          "content_sha256": "2f9a99bc410c6dc7b87c7ee76f5cfecc9683dcdb2c83a4c4d88aeac03a86d9b5",
-          "content_bytes": 46765,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7c3c1da6cef941459e11d53da1c1081a1ae94d9bfe6774b1ee38dbd2a02a9816",
+          "content_bytes": 46728,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2.md | sha256sum"
         }
       },
       {
@@ -246,12 +291,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
         "content_pin": {
-          "content_sha256": "30bf9e55be09d1b4a7ff7a4fdb934ebfcb9d7b2c8b8f212672767bf89b916fa1",
-          "content_bytes": 49086,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "9c281c4a4e5966302158f16335801edaee712f209b5b440c13d50c0ff82fa4f4",
+          "content_bytes": 49056,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
         }
       },
       {
@@ -264,12 +309,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/ral2024-eu-ecolabel-factsheet-household-detergents",
         "content_pin": {
-          "content_sha256": "6158001015e4469b9ee06e950e0788e90b76c7c1f2b704f7b8268db5070c0dd3",
-          "content_bytes": 25683,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "42d50bc72d5d7f4547354660594c4eb9786579ae437a970b33b562ad64225022",
+          "content_bytes": 25583,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ral2024-eu-ecolabel-factsheet-household-detergents.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/ral2024-eu-ecolabel-factsheet-household-detergents.md | sha256sum"
         }
       },
       {
@@ -288,12 +333,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "19ec2fab306d46f9c6c4c0f3fc34e746329f915c869bfd4e387f7b16daf6d8e1",
-          "content_bytes": 31839,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0a0bc94b1c397eed7122b09f1845a26c42513bce298bac3e18edad05f6e39741",
+          "content_bytes": 31728,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       },
       {
@@ -311,12 +356,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/torres2024-soap-detergent-heavy-metals-brazil",
         "content_pin": {
-          "content_sha256": "caabd47da2239a08b4d566d6c346f99b7b8d372bd72cd97d112dd0e81b460a30",
-          "content_bytes": 15169,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "6f0f09be50200ae3f0d367a6aad7c63043768931fe2fe4511481e482b54e8dcf",
+          "content_bytes": 15071,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/torres2024-soap-detergent-heavy-metals-brazil.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/torres2024-soap-detergent-heavy-metals-brazil.md | sha256sum"
         }
       }
     ]

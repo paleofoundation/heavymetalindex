@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 3
+sources: 4
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,9 +106,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/alblooshi2025-perfumes-cosmetics-health-review\|Alblooshi 2025]]. *The impact of perfumes and cosmetic products on human health: a narrative review*, Frontiers in Toxicology 7:1646075 (Frontiers in Toxicology; published 29 August 2025; corrected 16 December 2025) | 2025 | Review | US/EU/CA Pb, Cd, tHg, tAs, Ni, Cr, Cr-VI occurrence in Single-author narrative review compiling peer-reviewed literature published 2005–2025 on health impacts of perfumes and cosmetic products. Sources drawn... |
-| 2 | [[sources/moriceau2025-cosmetics-icpms-iso21392\|Moriceau et al. 2025]]. *Measurement of traces of heavy metals in cosmetic raw materials and finished products according to ISO/DIS 21392:2021 using triple quadrupole ICP-MS*, Thermo Fisher Scientific Application Note 003602 | 2025 | Industry | EU/FR Pb, Cd, tAs, tHg, Cr, Ni, Sb, Al, Sn, Co, Mn, Fe, Zn, Be, Se, Tl, Ti, W, Pt occurrence in 17 finished cosmetic products sold on the French and European market (creams, gels, pastes, liquids, varnishes, solids) plus... (n=27) |
-| 3 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of... |
+| 1 | [[sources/yorgwara2026-personal-care-metals-nigeria\|Yorgwara et al. 2026]]. *Assessment of Heavy Metal Concentration in Some Selected Cosmetic Products and Human Health Risk in Eleme LGA, Rivers State, Nigeria*, Research Journal of Pure Science and Technology 9(2):20-37 | 2026 | Peer-reviewed | NG Pb, Cd, Cr, tAs, tHg, Co occurrence in Twenty-six cosmetic and personal-care products purchased from cosmetic stores and markets in Eleme LGA, Rivers State, Nigeria, grouped... (n=26) |
+| 2 | [[sources/alblooshi2025-perfumes-cosmetics-health-review\|Alblooshi 2025]]. *The impact of perfumes and cosmetic products on human health: a narrative review*, Frontiers in Toxicology 7:1646075 (Frontiers in Toxicology; published 29 August 2025; corrected 16 December 2025) | 2025 | Review | US/EU/CA Pb, Cd, tHg, tAs, Ni, Cr, Cr-VI occurrence in Single-author narrative review compiling peer-reviewed literature published 2005–2025 on health impacts of perfumes and cosmetic products. Sources drawn... |
+| 3 | [[sources/moriceau2025-cosmetics-icpms-iso21392\|Moriceau et al. 2025]]. *Measurement of traces of heavy metals in cosmetic raw materials and finished products according to ISO/DIS 21392:2021 using triple quadrupole ICP-MS*, Thermo Fisher Scientific Application Note 003602 | 2025 | Industry | EU/FR Pb, Cd, tAs, tHg, Cr, Ni, Sb, Al, Sn, Co, Mn, Fe, Zn, Be, Se, Tl, Ti, W, Pt occurrence in 17 finished cosmetic products sold on the French and European market (creams, gels, pastes, liquids, varnishes, solids) plus... (n=27) |
+| 4 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -118,9 +119,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: rice-snacks-crackers
 public_page: products/rice-snacks-crackers
-updated: 2026-06-02
+updated: 2026-06-09
 ---
 
 # Workbench standards snapshot — Rice snacks/crackers

@@ -77,5 +77,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [e6f480e](https://github.com/paleofoundation/heavymetalindex/commit/e6f480e) | 2026-06-09 | audit: li2017-jiangsu-rice-cadmium-transfer revised per autonomous audit |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c12da72](https://github.com/paleofoundation/heavymetalindex/commit/c12da72) | 2026-06-08 | ingest: li2017-jiangsu-rice-cadmium-transfer fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

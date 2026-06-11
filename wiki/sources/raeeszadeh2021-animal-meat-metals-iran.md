@@ -73,3 +73,13 @@ App: The source can populate international meat contamination context for Pb, Cd
 - Speciation: arsenic is `tAs` and chromium is total `Cr`; no iAs or Cr(VI) values are reported.
 - Source inconsistencies are flagged in Key numbers for ostrich lead, beef arsenic range, and turkey chromium SD.
 - Closed-vocabulary note: no ostrich or sheep-meat ingredient slug exists, so routing uses broad `meat`, `meat-and-poultry`, `beef`, `turkey`, `lamb-mutton`, and `game-meats` slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b4580e4](https://github.com/paleofoundation/heavymetalindex/commit/b4580e4) | 2026-06-09 | ingest: June 8 product occurrence batch from MFK |
+<!-- END: hmi-page-history -->

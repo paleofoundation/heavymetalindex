@@ -67,3 +67,13 @@ App: No direct ingredient or product-risk distribution; retain as mitigation-con
 ## Verification notes
 
 This page was built from the PDF text, including the abstract, pH experiment, Table 1 narrative, Table 2 kinetic parameters, soil-culture results, conclusions, and materials/methods. Products and ingredients are intentionally empty because the study does not measure a consumer product or edible crop. The auto-fetch filename's "fabric-protectants" label is not supported by the paper content.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [265c6d1](https://github.com/paleofoundation/heavymetalindex/commit/265c6d1) | 2026-06-09 | ingest auto-fetched 2026-06-09: wang2024-biochar-alginate-cadmium-soil |
+<!-- END: hmi-page-history -->

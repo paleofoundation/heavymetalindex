@@ -98,3 +98,13 @@ This source contributes seaweed/kelp food occurrence evidence for both total ars
 - Speciation check: total As, As(III), As(V), DMA, and MMA are kept distinct. As(III) and As(V) are treated as inorganic arsenic context; DMA and MMA are not promoted to iAs.
 - Brand firewall: samples are supermarket-purchased seaweeds by species, with no product brand names reported.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact seaweed species remain in Key numbers while frontmatter routes broadly to seaweed/kelp foods.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3ad0149](https://github.com/paleofoundation/heavymetalindex/commit/3ad0149) | 2026-06-09 | ingest: zhao2014-edible-seaweed-arsenic-digestion fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

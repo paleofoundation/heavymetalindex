@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/tattoo-inks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fdd2ac5e3279fd5b9232786a8575590dddcd9af6383e9ea61926474185fb498a",
-      "content_bytes": 8461,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "ed2b237ea9fd54ab9f8b1ae11098032377333a6eeda5a8a9d3a3d8f592f9eaff",
+      "content_bytes": 10851,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/tattoo-inks.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/tattoo-inks.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 6,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -48,12 +48,146 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cirs2023-reach-annex-xvii-restrictions",
         "content_pin": {
-          "content_sha256": "1e4417a2424511aa65261b784173926b52c461c0e1a7ef240a521df7e7efee66",
-          "content_bytes": 34262,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "d64dfb2a78852d9fc7c610403cef3601420815cdd6a96ee87afc2ad67d5d345d",
+          "content_bytes": 34276,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cwielag-drabek2025-tattoo-inks-metals",
+        "title": "Heavy Metal Content in Tattoo and Permanent Makeup Inks and European Standards-Is There Still a Health Risk?",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Zn",
+          "Cr",
+          "Cr-VI",
+          "Ni",
+          "Cu",
+          "iAs",
+          "Co",
+          "Sb",
+          "Se",
+          "Mn",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cwielag-drabek2025-tattoo-inks-metals",
+        "content_pin": {
+          "content_sha256": "2a36c88907462c4cb6969fe61ffb4e7115039dd48aabcaae4d6e5ae0f26ab06d",
+          "content_bytes": 6219,
+          "last_commit_sha": "80c2df5",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 80c2df5:wiki/sources/cwielag-drabek2025-tattoo-inks-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gautam2023-tattoo-ink-heavy-metals-risk",
+        "title": "Health Risk Assessment: Heavy Metals (Antimony, Arsenic, Barium, Cadmium, Chromium, Lead, Mercury, and Nickel) in Tattoo Ink (Intra-Dermal Contact)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ba",
+          "Pb",
+          "Ni",
+          "Cr-VI",
+          "tHg",
+          "Cd",
+          "Sb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gautam2023-tattoo-ink-heavy-metals-risk",
+        "content_pin": {
+          "content_sha256": "ce68ff70a172fd0cf74373c86c368635ce50602bfbaf8f9ad8bd6345b47477ed",
+          "content_bytes": 9812,
+          "last_commit_sha": "5382895",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5382895:wiki/sources/gautam2023-tattoo-ink-heavy-metals-risk.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hardy2025-uk-reach-tattoo-pmu-decision",
+        "title": "Substances in tattoo inks and permanent make-up: restriction decision",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni",
+          "Cr-VI"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hardy2025-uk-reach-tattoo-pmu-decision",
+        "content_pin": {
+          "content_sha256": "cfd35389487838bc30cd4bc5c384a6ab66ff4f3b06cb40377c94d3fa8dc2653b",
+          "content_bytes": 6859,
+          "last_commit_sha": "0cbacf5",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 0cbacf5:wiki/sources/hardy2025-uk-reach-tattoo-pmu-decision.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/piccinini2016-tattoo-pmu-safety",
+        "title": "Safety of tattoos and permanent make-up. Final report",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Ba",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cr-VI",
+          "Cu",
+          "tHg",
+          "Ni",
+          "Pb",
+          "Se",
+          "Sb",
+          "Sn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/piccinini2016-tattoo-pmu-safety",
+        "content_pin": {
+          "content_sha256": "2f3ed05e1379d856891952a9d8fd885e3bcf1dd435a5f6d734570268964ebca2",
+          "content_bytes": 9191,
+          "last_commit_sha": "931973c",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 931973c:wiki/sources/piccinini2016-tattoo-pmu-safety.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zafarzadeh2018-cosmetics-lead-cadmium-iran",
+        "title": "Assessment of cadmium and lead concentrations in different types of cosmetics products consumed in Iran",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zafarzadeh2018-cosmetics-lead-cadmium-iran",
+        "content_pin": {
+          "content_sha256": "dc068eb12737f1a7028b1b7288502a10a1fc9c91f6ba5deb60e5f7f422b3e886",
+          "content_bytes": 10703,
+          "last_commit_sha": "381306d",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 381306d:wiki/sources/zafarzadeh2018-cosmetics-lead-cadmium-iran.md | sha256sum"
         }
       }
     ]

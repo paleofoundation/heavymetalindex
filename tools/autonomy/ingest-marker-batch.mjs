@@ -33,6 +33,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { spawnSync } from "node:child_process"
+const CLAUDE_BIN = process.env.CLAUDE_BIN || "/opt/homebrew/bin/claude" // pinned: bare "claude" ENOENTs in bg shells + nightly auto-update window
 
 const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
@@ -275,7 +276,7 @@ function invokeClaude(prompt, model) {
   ]
 
   try {
-    const res = spawnSync("claude", args, {
+    const res = spawnSync(CLAUDE_BIN, args, {
       cwd: repoRoot,
       input: prompt,
       encoding: "utf8",

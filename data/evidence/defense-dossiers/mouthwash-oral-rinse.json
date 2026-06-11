@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/mouthwash-oral-rinse",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c426ae3442704cb7a798232ca2fa20b7d2ce7e09ec0aee5224ee5e2858301827",
-      "content_bytes": 9033,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "bfa20d5ead0d3619d070213a4e1976ed0f8d7e9d7dad5eef26c258d9fbe21223",
+      "content_bytes": 9582,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/mouthwash-oral-rinse.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/mouthwash-oral-rinse.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 3,
+    "contributing_source_count": 4,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -45,12 +45,39 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/opss2023-feasibility-action-limits-cosmetics-uk",
         "content_pin": {
-          "content_sha256": "59c96237d34947c7e894b90a584d277f7faa0524404e8d2ce963efee7c8b034a",
-          "content_bytes": 28268,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7c22f347a4a844f6eba9137e9036e8bd9b0277ee9ea7b7027b5fef8a91d5b530",
+          "content_bytes": 28282,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sccs2023-hydroxyapatite-nano-opinion",
+        "title": "SCCS Opinion on Hydroxyapatite (nano), SCCS/1648/22",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Ba",
+          "Pb",
+          "Fe",
+          "Cu",
+          "Mg",
+          "Mn",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sccs2023-hydroxyapatite-nano-opinion",
+        "content_pin": {
+          "content_sha256": "fd46979bca4c7ef0190bef83b0d587c3a66637046a6f62dff01ceef6960fb4d3",
+          "content_bytes": 7245,
+          "last_commit_sha": "2c7ad5f",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 2c7ad5f:wiki/sources/sccs2023-hydroxyapatite-nano-opinion.md | sha256sum"
         }
       },
       {
@@ -69,12 +96,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "19ec2fab306d46f9c6c4c0f3fc34e746329f915c869bfd4e387f7b16daf6d8e1",
-          "content_bytes": 31839,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0a0bc94b1c397eed7122b09f1845a26c42513bce298bac3e18edad05f6e39741",
+          "content_bytes": 31728,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       },
       {
@@ -87,12 +114,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "7c084db648a27770989212b919d6cac3540af9b5860430bf9bd4aa418a2bdbfe",
-          "content_bytes": 31113,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "db8f7dbdc9361c1b73d97c8192a3103881f1a0d1206ca138710139f879b757af",
+          "content_bytes": 31127,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       }
     ]

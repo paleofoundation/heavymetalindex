@@ -4,8 +4,8 @@ type: brand-dossier
 noindex: true
 audience: [regulator, brand-legal, commercial]
 category: products/salt
-hmtc_category: 7
-hmtc_row: 9
+hmtc_category: 34
+hmtc_row: 2
 generated: true
 ---
 
@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c679df8` (2026-06-08). The body hashes to `sha256:fb7b005029b22ab332ebc22362bfba1c…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `496b50d` (2026-06-09). The body hashes to `sha256:fcd5d7bdcfed337dfe0b6035ec9fbf3a…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=salt&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/salt&download=1`.
 

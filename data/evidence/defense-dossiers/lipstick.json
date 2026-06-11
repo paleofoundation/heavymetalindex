@@ -1,0 +1,610 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/lipstick",
+    "title": "Lip products (lipstick, gloss, lip liner, adult lip balm)",
+    "hmtc_category": 13,
+    "hmtc_row": 8,
+    "category_label": null,
+    "age_range": null,
+    "label": "Lip products (lipstick, gloss, lip liner, adult lip balm)",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd",
+      "Cr",
+      "Al"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/lipstick",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "541be9cc7cfbdcaf149cdfb6cda90d744038ddb003cbefa523452f50654cfabe",
+      "content_bytes": 16690,
+      "last_commit_sha": "4d418d7",
+      "last_commit_date": "2026-06-09",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show 4d418d7:wiki/products/lipstick.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 23,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/alblooshi2025-perfumes-cosmetics-health-review",
+        "title": "The impact of perfumes and cosmetic products on human health: a narrative review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "tAs",
+          "Ni",
+          "Cr",
+          "Cr-VI"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/alblooshi2025-perfumes-cosmetics-health-review",
+        "content_pin": {
+          "content_sha256": "8137829b429270511db71ce17ca06bad62ef8959a06c97a01daaaf2275994aa5",
+          "content_bytes": 14791,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/alblooshi2025-perfumes-cosmetics-health-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ali2024-facial-cosmetics-metals-benghazi",
+        "title": "The Health Risk Assessment of Some Toxic Metals in Some Commonly Demand Facial Cosmetics in Benghazi-Libya Markets During 2022",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Fe",
+          "Ni",
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ali2024-facial-cosmetics-metals-benghazi",
+        "content_pin": {
+          "content_sha256": "789e18857f36d0798b39bb0119eb9f1d45c9ced810ed9beabb8817f4a25c6c95",
+          "content_bytes": 7259,
+          "last_commit_sha": "5f6db76",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5f6db76:wiki/sources/ali2024-facial-cosmetics-metals-benghazi.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/almukainzi2022-saudi-topical-cosmetics-icpms",
+        "title": "Quality and safety investigation of commonly used topical cosmetic preparations",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Al",
+          "Cr",
+          "Cu",
+          "Ni",
+          "Fe",
+          "Zn",
+          "Mn",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
+        "content_pin": {
+          "content_sha256": "5e7f96322734c197d99b18836f290b0ddeaefd92114f6586f4169ae87df03333",
+          "content_bytes": 35255,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/arshad2020-heavy-metals-cosmetic-products-pakistan",
+        "title": "Evaluation of heavy metals in cosmetic products and their health risk assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Cr",
+          "Fe",
+          "Ni",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/arshad2020-heavy-metals-cosmetic-products-pakistan",
+        "content_pin": {
+          "content_sha256": "32f313c4fd85344f7cc33271c01c612fcccae434ca0b77e99393b6a1e458e6d9",
+          "content_bytes": 11011,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/arshad2020-heavy-metals-cosmetic-products-pakistan.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/attard2022-heavy-metals-cosmetics-review",
+        "title": "Heavy Metals in Cosmetics",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni",
+          "tHg",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/attard2022-heavy-metals-cosmetics-review",
+        "content_pin": {
+          "content_sha256": "7566561f24c9945844b29d497ef4d2464bd16acc873a3a641cf128a9f0129cba",
+          "content_bytes": 11715,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bfr2020-aluminium-faq-consumer-products",
+        "title": "FAQs about aluminium in food and products intended for consumers",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bfr2020-aluminium-faq-consumer-products",
+        "content_pin": {
+          "content_sha256": "847f719ebbb22b42b3d834a7652cd343ddd6f888ddfb9054a74e99484c282560",
+          "content_bytes": 14768,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/bfr2020-aluminium-faq-consumer-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/campaignsafecosmetics2007-lead-lipstick",
+        "title": "A Poison Kiss: The Problem of Lead in Lipstick",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/campaignsafecosmetics2007-lead-lipstick",
+        "content_pin": {
+          "content_sha256": "43ec9b4c3718f0873be47ed3e14b129968a6f45863cd031cb8c6a845e0914fc6",
+          "content_bytes": 6979,
+          "last_commit_sha": "e7586c3",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show e7586c3:wiki/sources/campaignsafecosmetics2007-lead-lipstick.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/dauda2023-cosmetics-heavy-metals",
+        "title": "Harmful effects of heavy metals in cosmetics",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dauda2023-cosmetics-heavy-metals",
+        "content_pin": {
+          "content_sha256": "c36cd699e0815a3e767c412256a452132f391ef8aa1117c7e7c5f2ac6a54d902",
+          "content_bytes": 3897,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/dauda2023-cosmetics-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ecetoc1992-tr045-ni-co-cr-consumer-products",
+        "title": "Nickel, Cobalt and Chromium in Consumer Products: Allergic Contact Dermatitis",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni",
+          "Co",
+          "Cr",
+          "Cr-VI"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ecetoc1992-tr045-ni-co-cr-consumer-products",
+        "content_pin": {
+          "content_sha256": "943f1a9141c015069b948b085f34ee56d4e9a4297b52ac346066de3f5c293f5f",
+          "content_bytes": 28699,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hepp2014-fda-cosmetics-seven-elements",
+        "title": "Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "Co",
+          "Pb",
+          "tHg",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
+        "content_pin": {
+          "content_sha256": "98ba53f4652c96978bc2049577f811242d35dd55051fa25197014d758fb9f95f",
+          "content_bytes": 29024,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jitareanu2025-heavy-metals-cosmetics-overview",
+        "title": "An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "tAs",
+          "iAs",
+          "Cr",
+          "Cr-VI",
+          "Ni",
+          "Al",
+          "Fe",
+          "Cu",
+          "Zn",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jitareanu2025-heavy-metals-cosmetics-overview",
+        "content_pin": {
+          "content_sha256": "621e559aa92b124deb2462c6e373e7676e5c2b386dc9a57433615a06f3d5ee8c",
+          "content_bytes": 11828,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kicinska2025-cosmetics-online-market-heavy-metals",
+        "title": "Health risks from heavy metals in cosmetic products available in the online consumer market",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Fe",
+          "Mn",
+          "Ni",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kicinska2025-cosmetics-online-market-heavy-metals",
+        "content_pin": {
+          "content_sha256": "5dc68cbc0760aaf86de54a16a3f4952e7bd624026c303ba91bd58aa9b373b3ff",
+          "content_bytes": 13476,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/kicinska2025-cosmetics-online-market-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kopru2024-children-cosmetics-icpms",
+        "title": "Inductively coupled plasma-mass spectrometry (ICP-MS) detection of trace metal contents of children cosmetics",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Cr",
+          "Mn",
+          "Fe",
+          "Co",
+          "Ni",
+          "Cu",
+          "Zn",
+          "tAs",
+          "Se",
+          "tHg",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kopru2024-children-cosmetics-icpms",
+        "content_pin": {
+          "content_sha256": "7ccb627732ab09427fe29fe0592a5a7bcb36199b6e9d1ab2e8e27f01629a4c38",
+          "content_bytes": 34312,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/kopru2024-children-cosmetics-icpms.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/li2021-lead-lip-cosmetics-china-ecommerce",
+        "title": "Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/li2021-lead-lip-cosmetics-china-ecommerce",
+        "content_pin": {
+          "content_sha256": "c76ebe67889be01d869587de45974cd44f03aabef84a2ad5034f543c6a53d8bc",
+          "content_bytes": 31048,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/li2021-lead-lip-cosmetics-china-ecommerce.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/medley2023-childrens-makeup-body-products-us-usage",
+        "title": "Usage of Children's Makeup and Body Products in the United States and Implications for Childhood Environmental Exposures",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/medley2023-childrens-makeup-body-products-us-usage",
+        "content_pin": {
+          "content_sha256": "4f789902d27c1b6f13565bb9f8e8fbb77bf990095a1f98bfbe052ebf50367c35",
+          "content_bytes": 11927,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/moriceau2025-cosmetics-icpms-iso21392",
+        "title": "Measurement of traces of heavy metals in cosmetic raw materials and finished products according to ISO/DIS 21392:2021 using triple quadrupole ICP-MS",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Cr",
+          "Ni",
+          "Sb",
+          "Al",
+          "Sn",
+          "Co",
+          "Mn",
+          "Fe",
+          "Zn",
+          "Be",
+          "Se",
+          "Tl",
+          "Ti",
+          "W",
+          "Pt"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/moriceau2025-cosmetics-icpms-iso21392",
+        "content_pin": {
+          "content_sha256": "9b6823b3c0503513bcafea508e9ca264c5d1d055b2bf74e2daba44f76629158a",
+          "content_bytes": 20800,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nourmoradi2013-iran-isfahan-cosmetics-pb-cd",
+        "title": "Assessment of Lead and Cadmium Levels in Frequently Used Cosmetic Products in Iran",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nourmoradi2013-iran-isfahan-cosmetics-pb-cd",
+        "content_pin": {
+          "content_sha256": "549f2753b702318021c9cfe0c1f709b8c71a0d2bafc087d78a511223705e58db",
+          "content_bytes": 17535,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/nourmoradi2013-iran-isfahan-cosmetics-pb-cd.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sahu2014-cosmetics-metals-india",
+        "title": "Heavy Metals in Cosmetics",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sahu2014-cosmetics-metals-india",
+        "content_pin": {
+          "content_sha256": "d622844b7a0ef44092379d39113ed9ff39e08183fce6f057285a591edb3aedf9",
+          "content_bytes": 8518,
+          "last_commit_sha": "c896ce8",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show c896ce8:wiki/sources/sahu2014-cosmetics-metals-india.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/us-epa-2011-efh-chapter17-consumer-products",
+        "title": "Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
+        "content_pin": {
+          "content_sha256": "db8f7dbdc9361c1b73d97c8192a3103881f1a0d1206ca138710139f879b757af",
+          "content_bytes": 31127,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/waecology2024-interim-policy-lead-cosmetics",
+        "title": "Policy Statement: Interim Policy on Lead in Cosmetics — enforcement discretion under the Washington Toxic-Free Cosmetics Act (Chapter 70A.560 RCW)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/waecology2024-interim-policy-lead-cosmetics",
+        "content_pin": {
+          "content_sha256": "d8b8832219c4cda7a2c1aaf14727eaeadc8b1053a3dd4123e30b373f91129db8",
+          "content_bytes": 28377,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/waecology2024-interim-policy-lead-cosmetics.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yorgwara2026-personal-care-metals-nigeria",
+        "title": "Assessment of Heavy Metal Concentration in Some Selected Cosmetic Products and Human Health Risk in Eleme LGA, Rivers State, Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "tAs",
+          "tHg",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yorgwara2026-personal-care-metals-nigeria",
+        "content_pin": {
+          "content_sha256": "85f6359cac272b795a52db6f8b04e8a38a8260ea4c94969897b230a8a456eac3",
+          "content_bytes": 9841,
+          "last_commit_sha": "fa86cc3",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show fa86cc3:wiki/sources/yorgwara2026-personal-care-metals-nigeria.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zafarzadeh2018-cosmetics-lead-cadmium-iran",
+        "title": "Assessment of cadmium and lead concentrations in different types of cosmetics products consumed in Iran",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zafarzadeh2018-cosmetics-lead-cadmium-iran",
+        "content_pin": {
+          "content_sha256": "dc068eb12737f1a7028b1b7288502a10a1fc9c91f6ba5deb60e5f7f422b3e886",
+          "content_bytes": 10703,
+          "last_commit_sha": "381306d",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 381306d:wiki/sources/zafarzadeh2018-cosmetics-lead-cadmium-iran.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zakaria2015-lipstick-heavy-metals-malaysia",
+        "title": "Heavy metals contamination in lipsticks and their associated health risks to lipstick consumers",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zakaria2015-lipstick-heavy-metals-malaysia",
+        "content_pin": {
+          "content_sha256": "7ebb155307f1d106f2a01a35ea4c0a90ea589e86a1f3ad1fa770d328f0026823",
+          "content_bytes": 4861,
+          "last_commit_sha": "ecf202b",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ecf202b:wiki/sources/zakaria2015-lipstick-heavy-metals-malaysia.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/lipstick.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

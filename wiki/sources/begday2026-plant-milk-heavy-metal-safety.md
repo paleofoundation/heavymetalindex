@@ -156,6 +156,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [ca80310](https://github.com/paleofoundation/heavymetalindex/commit/ca80310) | 2026-06-08 | audit: begday2026-plant-milk-heavy-metal-safety promoted |
 | [a74b96c](https://github.com/paleofoundation/heavymetalindex/commit/a74b96c) | 2026-06-08 | ingest: begday2026-plant-milk-heavy-metal-safety fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

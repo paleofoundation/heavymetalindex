@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-06-08T19:26:46.955Z",
+  "generated_at": "2026-06-09T12:44:58.139Z",
   "product_filter": "all",
-  "total_adjudication_rows": 102,
+  "total_adjudication_rows": 106,
   "by_priority": {
-    "P0": 26,
+    "P0": 33,
     "P1": 12,
-    "P2": 64
+    "P2": 61
   },
   "by_machine_task": {
-    "extract_local_source_to_structured_rows": 25,
-    "validate_and_promote_local_candidate_rows": 1,
+    "extract_local_source_to_structured_rows": 31,
+    "validate_and_promote_local_candidate_rows": 2,
     "discover_or_route_species_specific_source": 3,
     "verify_pdf_provenance_before_extraction": 9,
-    "find_or_route_fit_product_evidence": 64
+    "find_or_route_fit_product_evidence": 61
   },
   "by_aggregate_status": {
-    "BLOCKED: local extraction pending": 25,
-    "BLOCKED: local candidate review pending": 1,
+    "BLOCKED: local extraction pending": 31,
+    "BLOCKED: local candidate review pending": 2,
     "BLOCKED: species-specific evidence missing": 3,
     "BLOCKED: PDF match review pending": 9,
-    "BLOCKED: no structured evidence loaded": 64
+    "BLOCKED: no structured evidence loaded": 61
   },
   "by_standard_percentile_target": {
-    "independent_p97_pooled": 84,
-    "clean_p97_pooled": 18
+    "independent_p97_pooled": 90,
+    "clean_p97_pooled": 16
   },
-  "public_claim_blockers": 102,
-  "hmtc_threshold_blockers": 102,
+  "public_claim_blockers": 106,
+  "hmtc_threshold_blockers": 106,
   "human_role": "source retrieval, low-confidence exception review, policy-conflict resolution, and final governance approval",
   "top_adjudications": [
     {
@@ -34,84 +34,84 @@
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
       "product_slug": "bottled-drinking-water",
-      "metal_species": "Pb; Cd; tAs"
+      "metal_species": "Pb; Cd; iAs; tAs"
     },
     {
       "adjudication_order": 2,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
-      "product_slug": "cashews",
+      "product_slug": "childrens-jewelry",
       "metal_species": "Pb; Cd"
     },
     {
       "adjudication_order": 3,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
-      "product_slug": "fermented-beverages-non-tea-based",
-      "metal_species": "Pb; Cd"
+      "product_slug": "childrens-makeup",
+      "metal_species": "Pb"
     },
     {
       "adjudication_order": 4,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "coffee",
+      "metal_species": "Pb; Cd; tAs"
+    },
+    {
+      "adjudication_order": 5,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
       "product_slug": "fish-freshwater",
       "metal_species": "Pb; MeHg"
     },
     {
-      "adjudication_order": 5,
+      "adjudication_order": 6,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
       "product_slug": "fish-marine-non-predatory",
       "metal_species": "Cd; iAs; MeHg; tHg"
     },
     {
-      "adjudication_order": 6,
+      "adjudication_order": 7,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
       "product_slug": "fish-marine-predatory",
       "metal_species": "Cd; MeHg; tHg"
     },
     {
-      "adjudication_order": 7,
+      "adjudication_order": 8,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
       "product_slug": "fresh-fruit",
       "metal_species": "Pb; Cd; tAs"
     },
     {
-      "adjudication_order": 8,
-      "priority": "P0",
-      "machine_task": "extract_local_source_to_structured_rows",
-      "product_slug": "herbal-botanical-infusions",
-      "metal_species": "Pb; Cd"
-    },
-    {
       "adjudication_order": 9,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
-      "product_slug": "kombucha-tea-based",
-      "metal_species": "Pb; Cd"
+      "product_slug": "herbal-botanical-infusions",
+      "metal_species": "Pb; Cd; Al"
     },
     {
       "adjudication_order": 10,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
-      "product_slug": "leafy-vegetables-other",
-      "metal_species": "Pb; Cd"
+      "product_slug": "infant-formula",
+      "metal_species": "tAs"
     },
     {
       "adjudication_order": 11,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
-      "product_slug": "legumes-pulses-other",
-      "metal_species": "Pb; Cd; Ni"
+      "product_slug": "infant-formula-dairy",
+      "metal_species": "Pb; Cd; iAs; tAs; tHg; Al; Ni; Sn"
     },
     {
       "adjudication_order": 12,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
-      "product_slug": "matcha",
-      "metal_species": "Pb; Cd"
+      "product_slug": "infant-formula-powder-dairy",
+      "metal_species": "tAs"
     }
   ]
 }

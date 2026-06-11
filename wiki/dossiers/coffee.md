@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c679df8` (2026-06-08). The body hashes to `sha256:5da970dad6aa6479dc4ff30892a05ee2…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `aca5e21` (2026-06-09). The body hashes to `sha256:520b8de88c88c726d19c0426023e58ca…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=coffee&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/coffee&download=1`.
 
 ## Evidence base
 
-This category is supported by 12 contributing literature sources mapped by the routing layer, of which 1 carry structured concentration values. The page makes 7 numerical claims; 7 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 17 contributing literature sources mapped by the routing layer, of which 1 carry structured concentration values. The page makes 7 numerical claims; 7 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/coffee.md`.
 

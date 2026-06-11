@@ -51,7 +51,7 @@ Flag bolded words inside running prose used for emphasis. **Not a violation:** b
 
 ### 3. Bullets where prose is required  (priority P2)
 
-Flag bullet lists used for: study summaries, mechanism explanations, synthesis paragraphs, consumer-facing risk explanations, or implications sections. These must be prose — the reasoning needs connective tissue. **Not a violation** (legitimate bullets): enumerated regulatory values/thresholds across jurisdictions, stepwise procedures (test methods, sampling, mitigation steps), a page's table-of-contents, parallel lists of discrete items (taxa, ingredients in a category, vulnerable populations), and audience-tag metadata. Suggested fix: note that the list should become a prose paragraph; do not rewrite it yourself.
+Flag bullet lists used for: study summaries, mechanism explanations, synthesis paragraphs, consumer-facing risk explanations, or implications sections. These must be prose — the reasoning needs connective tissue. **Not a violation** (legitimate bullets): enumerated regulatory values/thresholds across jurisdictions, stepwise procedures (test methods, sampling, mitigation steps), a page's table-of-contents, parallel lists of discrete items (taxa, ingredients in a category, vulnerable populations), and audience-tag metadata. **Decisive test:** if each item opens with a bold definition label naming a discrete entity (a gene, a high-exposure food, an open research question) and the surrounding prose already carries the analysis, treat it as a legitimate catalog, not flattened analysis — even inside a consumer or mechanism section. Reserve this flag for lists where the bullets themselves are doing the reasoning. Suggested fix: note that the list should become a prose paragraph; do not rewrite it yourself.
 
 ### 4. Undefined consumer qualifiers  (priority P1 for safe/dangerous, P2 otherwise)
 
@@ -61,7 +61,7 @@ This is the highest-value check. Flag a qualifier that characterizes *how risky,
 - Flag: "only trace amounts were found" (no number).
 - Do **not** flag: "below the FDA action level of 100 ppb, which is considered safe for the general adult population at typical consumption" (anchored by value + population).
 
-**Avoid false positives:** skip technical/method usages where the word is not a consumer risk characterization — "statistically significant," "high-performance liquid chromatography," "low-income households," "low detection limit." These are not the target. The target is reader-facing magnitude-of-risk language without a number behind it. `safe` and `dangerous` describing a food/exposure to a consumer are the top priority; record those first.
+**Avoid false positives:** skip technical/method usages where the word is not a consumer risk characterization — "statistically significant," "high-performance liquid chromatography," "low-income households," "low detection limit." Also out of scope: evidence-quality hedges that characterize the *literature* rather than the food ("small but suggestive," "limited evidence," "few studies," "preliminary") — those are appropriate scientific caution, not the target. The target is reader-facing magnitude-of-risk language without a number behind it. `safe` and `dangerous` describing a food/exposure to a consumer are the top priority; record those first.
 
 ---
 

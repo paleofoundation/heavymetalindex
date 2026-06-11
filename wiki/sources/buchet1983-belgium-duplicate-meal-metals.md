@@ -90,5 +90,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [7714be7](https://github.com/paleofoundation/heavymetalindex/commit/7714be7) | 2026-06-09 | audit: buchet1983-belgium-duplicate-meal-metals revised per autonomous audit |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1263b06](https://github.com/paleofoundation/heavymetalindex/commit/1263b06) | 2026-06-08 | ingest: buchet1983-belgium-duplicate-meal-metals fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

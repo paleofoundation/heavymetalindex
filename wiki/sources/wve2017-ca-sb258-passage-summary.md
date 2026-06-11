@@ -140,3 +140,13 @@ Not applicable. This is a one-page coalition post-passage summary letter, not an
 - Quantitative content in this page (100 ppm fragrance-disclosure threshold, 23 hazard-list count, statutory-provision quotations) is reproduced exactly from the source PDF.
 - No new ingredient pages, no new product pages, no new regulation pages were created during this ingest, per CLAUDE.md Part 10 and the skill's hard constraints.
 - If a `regulations/ca-sb258-cleaning-product-right-to-know.md` page is ever created (Step 0 Lock decision), this post-passage letter and the sibling pre-passage factsheet would together be the principal coalition-document citations, with the binding statutory text at Cal. Health & Safety Code §§ 108950–108997 as the regulatory anchor and DTSC's implementing materials as the source for the 23 hazard lists.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [270ad58](https://github.com/paleofoundation/heavymetalindex/commit/270ad58) | 2026-06-09 | ingest: wve2017-ca-sb258-passage-summary fresh from MFK/June 8 Kimi_Agent_Download Corruption Issue (06_Regulatory_EPA_GreenSeal) |
+<!-- END: hmi-page-history -->

@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-06-08T19:26:46.888Z",
+  "generated_at": "2026-06-09T12:44:58.063Z",
   "product_filter": "all",
-  "total_action_rows": 102,
+  "total_action_rows": 106,
   "by_action_priority": {
-    "P0": 26,
+    "P0": 33,
     "P1": 12,
-    "P2": 64
+    "P2": 61
   },
   "by_action_type": {
-    "extract-local-source-values": 25,
-    "review-local-candidate-values": 1,
+    "extract-local-source-values": 31,
+    "review-local-candidate-values": 2,
     "confirm-local-pdf-match": 9,
     "resolve-species-specific-gap": 3,
-    "find-or-route-fit-source-evidence": 64
+    "find-or-route-fit-source-evidence": 61
   },
   "by_aggregate_status": {
-    "BLOCKED: local extraction pending": 25,
-    "BLOCKED: local candidate review pending": 1,
+    "BLOCKED: local extraction pending": 31,
+    "BLOCKED: local candidate review pending": 2,
     "BLOCKED: PDF match review pending": 9,
     "BLOCKED: species-specific evidence missing": 3,
-    "BLOCKED: no structured evidence loaded": 64
+    "BLOCKED: no structured evidence loaded": 61
   },
   "by_standard_percentile_target": {
-    "independent_p97_pooled": 84,
-    "clean_p97_pooled": 18
+    "independent_p97_pooled": 90,
+    "clean_p97_pooled": 16
   },
   "top_actions": [
     {
@@ -31,84 +31,84 @@
       "action_priority": "P0",
       "action_type": "extract-local-source-values",
       "product_slug": "bottled-drinking-water",
-      "metal_species": "Pb; Cd; tAs"
+      "metal_species": "Pb; Cd; iAs; tAs"
     },
     {
       "action_order": 2,
       "action_priority": "P0",
       "action_type": "extract-local-source-values",
-      "product_slug": "cashews",
+      "product_slug": "childrens-jewelry",
       "metal_species": "Pb; Cd"
     },
     {
       "action_order": 3,
       "action_priority": "P0",
       "action_type": "extract-local-source-values",
-      "product_slug": "fermented-beverages-non-tea-based",
-      "metal_species": "Pb; Cd"
+      "product_slug": "childrens-makeup",
+      "metal_species": "Pb"
     },
     {
       "action_order": 4,
+      "action_priority": "P0",
+      "action_type": "extract-local-source-values",
+      "product_slug": "coffee",
+      "metal_species": "Pb; Cd; tAs"
+    },
+    {
+      "action_order": 5,
       "action_priority": "P0",
       "action_type": "extract-local-source-values",
       "product_slug": "fish-freshwater",
       "metal_species": "Pb; MeHg"
     },
     {
-      "action_order": 5,
+      "action_order": 6,
       "action_priority": "P0",
       "action_type": "extract-local-source-values",
       "product_slug": "fish-marine-non-predatory",
       "metal_species": "Cd; iAs; MeHg; tHg"
     },
     {
-      "action_order": 6,
+      "action_order": 7,
       "action_priority": "P0",
       "action_type": "extract-local-source-values",
       "product_slug": "fish-marine-predatory",
       "metal_species": "Cd; MeHg; tHg"
     },
     {
-      "action_order": 7,
+      "action_order": 8,
       "action_priority": "P0",
       "action_type": "extract-local-source-values",
       "product_slug": "fresh-fruit",
       "metal_species": "Pb; Cd; tAs"
     },
     {
-      "action_order": 8,
-      "action_priority": "P0",
-      "action_type": "extract-local-source-values",
-      "product_slug": "herbal-botanical-infusions",
-      "metal_species": "Pb; Cd"
-    },
-    {
       "action_order": 9,
       "action_priority": "P0",
       "action_type": "extract-local-source-values",
-      "product_slug": "kombucha-tea-based",
-      "metal_species": "Pb; Cd"
+      "product_slug": "herbal-botanical-infusions",
+      "metal_species": "Pb; Cd; Al"
     },
     {
       "action_order": 10,
       "action_priority": "P0",
       "action_type": "extract-local-source-values",
-      "product_slug": "leafy-vegetables-other",
-      "metal_species": "Pb; Cd"
+      "product_slug": "infant-formula",
+      "metal_species": "tAs"
     },
     {
       "action_order": 11,
       "action_priority": "P0",
       "action_type": "extract-local-source-values",
-      "product_slug": "legumes-pulses-other",
-      "metal_species": "Pb; Cd; Ni"
+      "product_slug": "infant-formula-dairy",
+      "metal_species": "Pb; Cd; iAs; tAs; tHg; Al; Ni; Sn"
     },
     {
       "action_order": 12,
       "action_priority": "P0",
       "action_type": "extract-local-source-values",
-      "product_slug": "matcha",
-      "metal_species": "Pb; Cd"
+      "product_slug": "infant-formula-powder-dairy",
+      "metal_species": "tAs"
     }
   ]
 }

@@ -179,6 +179,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [7e3ca47](https://github.com/paleofoundation/heavymetalindex/commit/7e3ca47) | 2026-06-08 | audit: schilsky1989-hepatocellular-copper-toxicity-zinc revised |
 | [83a5ba6](https://github.com/paleofoundation/heavymetalindex/commit/83a5ba6) | 2026-06-08 | ingest: schilsky1989-hepatocellular-copper-toxicity-zinc fresh from MFK/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

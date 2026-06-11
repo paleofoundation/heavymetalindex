@@ -83,7 +83,7 @@ used_in_products: [soft-drinks-carbonated-beverages]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 0
+sources: 1
 ---
 
 # Soft drink bases
@@ -115,9 +115,16 @@ This node is linked from [[products/soft-drinks-carbonated-beverages]].
 
 The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-No source pages are currently cited for this ingredient node.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/godwill2015-soft-drinks-metals-nigeria\|Godwill et al. 2015]]. *Determination of some soft drink constituents and contamination by some heavy metals in Nigeria*, Toxicology Reports | 2015 | Peer-reviewed | NG Cd, Pb, tHg occurrence in Twenty-six soft-drink and juice samples purchased from local grocery stores in Enugu, Enugu State, Nigeria; sample names are... (n=26) |
+<!-- END: hmi-source-legend -->
+
 ## Why this commodity accumulates heavy metals
 
 Soft drink bases is the aggregate ingredient label for the syrup-and-concentrate ingredients used in carbonated soft drinks (cola, lemon-lime, root beer, fruit-flavored sodas), including flavoring concentrates, sweetener syrups (high-fructose corn syrup, refined sugar syrup, or non-nutritive sweetener solutions), acidulants (phosphoric acid in cola, citric acid in citrus sodas), and color compounds (caramel coloring in cola). Heavy-metal load in soft drink bases comes from four pathways: source-sweetener inheritance ([[ingredients/white-sugar|sugar]] at low metal baseline; HFCS at slightly different baseline reflecting corn-source metals); flavoring-and-color concentrate impurities (some natural colorings, particularly older caramel coloring formulations, carry trace metals); acidulant impurities (phosphoric acid produced from phosphate rock can carry trace Pb and Cd from the source phosphate rock); and packaging migration (canned soft drinks introduce Sn from tinplate; bottled soft drinks in glass or PET avoid that pathway).
@@ -165,9 +172,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

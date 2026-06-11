@@ -12,7 +12,7 @@ primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 9
+sources: 11
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -43,8 +43,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 5 | [[sources/durovic2017-human-milk-infant-formula-microelements\|Durovic et al. 2017]]. *Determination of Microelements in Human Milk and Infant Formula Without Digestion by ICP-OES*, Acta Chimica Slovenica | 2017 | Peer-reviewed | ME/RS Zn, Fe, Cu occurrence in 28 mature human milk samples from lactating mothers and 15 powdered infant formula units representing five formula products... (n=43) |
 | 6 | [[sources/unuvar2017-commercial-infant-formula-elements-turkey\|Unuvar et al. 2017]]. *Determination of Element Concentrations in Commercial Infant Formulas Using Atomic Absorption Spectrometry*, Atomic Spectroscopy | 2017 | Peer-reviewed | TR Al, Pb, Fe, Mg, Zn occurrence in Twenty commercial infant formula samples from five manufacturers, purchased from pharmacies and supermarkets in Malatya, Turkey and grouped... (n=20) |
 | 7 | [[sources/odhiambo2015-infant-formula-nairobi-trace-elements\|Odhiambo et al. 2015]]. *Toxic trace elements in different brands of milk infant formulae in Nairobi market, Kenya*, African Journal of Food Science | 2015 | Peer-reviewed | KE Al, Cd, Pb, Ni occurrence in Seven imported cow-milk infant formula powder products for infants aged 0-6 months, purchased from stores in Nairobi County,... (n=7) |
-| 8 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal 2008;754:1-34 | 2008 | Government report | EU Al concentrations |
-| 9 | [[sources/jecfa-67th-aluminium-methylmercury-2007\|JECFA 2007]]. *Evaluation of certain food additives and contaminants — Sixty-seventh report of the Joint FAO/WHO Expert Committee on Food Additives*, WHO Technical Report Series 940 (Sixty-seventh meeting of JECFA, Rome, 20-29 June 2006) | 2007 | Government report | international Al, MeHg, tHg occurrence in Aluminium: total dietary exposure derived from market-basket and duplicate-diet surveys in adults (France, Germany, UK, USA, China), Total... |
+| 8 | [[sources/fsa2014-infant-foods-metals\|FSA 2014]]. *Survey of metals and other elements in commercial infant foods, infant formula and non-infant specific foods*, Food Standards Agency report | 2014 | Government report | GB Al, Sb, tAs, iAs, Cd, Cr, Cu, Pb, Mn, tHg, Ni, Se, Sn, Zn occurrence in Forty-seven infant formula samples, 200 commercial infant foods, and 50 composite 'other foods' samples purchased from UK retail... (n=297) |
+| 9 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal 2008;754:1-34 | 2008 | Government report | EU Al concentrations |
+| 10 | [[sources/jecfa-67th-aluminium-methylmercury-2007\|JECFA 2007]]. *Evaluation of certain food additives and contaminants — Sixty-seventh report of the Joint FAO/WHO Expert Committee on Food Additives*, WHO Technical Report Series 940 (Sixty-seventh meeting of JECFA, Rome, 20-29 June 2006) | 2007 | Government report | international Al, MeHg, tHg occurrence in Aluminium: total dietary exposure derived from market-basket and duplicate-diet surveys in adults (France, Germany, UK, USA, China), Total... |
+| 11 | [[sources/cot2003-infant-food-metals\|Committee on Toxicity of 2003]]. *COT statement on a survey of metals in infant food*, Committee on Toxicity statement | 2003 | Government report | GB Al, Sb, tAs, Cd, Cr, Cu, Pb, tHg, Ni, Se, Sn, Zn occurrence in Commercial UK baby foods and formulae, including infant formulae, manufactured baby foods, desserts, rusks, and infant drinks, surveyed... (n=189) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for
@@ -117,9 +119,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

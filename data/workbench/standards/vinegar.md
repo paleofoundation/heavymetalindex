@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: vinegar
 public_page: products/vinegar
-updated: 2026-06-04
+updated: 2026-06-09
 ---
 
 # Workbench standards snapshot — Vinegar

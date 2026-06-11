@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/wild-mushrooms",
+    "title": "Wild Mushrooms",
+    "hmtc_category": 29,
+    "hmtc_row": 2,
+    "category_label": null,
+    "age_range": null,
+    "label": "Wild Mushrooms",
+    "primary_metals_of_concern": [
+      "Cd",
+      "tHg",
+      "Pb"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/wild-mushrooms",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "e0c7d8f1bab874b5b3f62ac67e062312cdb5f3abab755360355db33154b1ca57",
+      "content_bytes": 6657,
+      "last_commit_sha": "55f6bde",
+      "last_commit_date": "2026-06-09",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show 55f6bde:wiki/products/wild-mushrooms.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 9,
+    "sources_with_structured_values": 1,
+    "contributing_sources": [
+      {
+        "slug": "sources/asensio2023-madrid-mushrooms-mercury",
+        "title": "Study of Heavy Metals and Methyl-Mercury in Fungi in Markets of Madrid",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/asensio2023-madrid-mushrooms-mercury",
+        "content_pin": {
+          "content_sha256": "c6b0fb93cc1ff0cea41499d2de4794c2dca04763fd20fd23448b690d20b4c808",
+          "content_bytes": 6436,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/asensio2023-madrid-mushrooms-mercury.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland",
+        "title": "Bio- and toxic elements in edible wild mushrooms from two regions of potentially different environmental conditions in eastern Poland",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Ag",
+          "Cu",
+          "Zn",
+          "Fe",
+          "Mn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland",
+        "content_pin": {
+          "content_sha256": "3f4d80a599ca88dc77c9f9fc13ab2c200b14c6cd55fde8fe94506c302b6ac878",
+          "content_bytes": 6750,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/falandysz2020-yunnan-fungi-mercury",
+        "title": "Mercury in traditionally foraged species of fungi (macromycetes) from the karst area across Yunnan province in China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/falandysz2020-yunnan-fungi-mercury",
+        "content_pin": {
+          "content_sha256": "9fee5f9a39d99ae48163df6b8e08b6c6df320bbc1765389f05688b6a83ccd467",
+          "content_bytes": 5433,
+          "last_commit_sha": "04c4ff3",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 04c4ff3:wiki/sources/falandysz2020-yunnan-fungi-mercury.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hanc2021-amanita-muscaria-hg-se",
+        "title": "Mercury and selenium in developing and mature fruiting bodies of Amanita muscaria",
+        "route_kind": "direct_evidence",
+        "route_status": "structured_values_present",
+        "evidence_use": "structured_value_candidate",
+        "value_record_count": 4,
+        "metal_species": [
+          "Se",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hanc2021-amanita-muscaria-hg-se",
+        "content_pin": {
+          "content_sha256": "cefbf4cc5f2a35d06aee1216a7b92e900f15eb59b437581710bfc55ac9aac0b6",
+          "content_bytes": 5656,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/hanc2021-amanita-muscaria-hg-se.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/keles2023-turkiye-wild-mushrooms-elements",
+        "title": "Wild mushrooms from Eastern Black Sea Region (Turkiye): Element concentrations and their health risk assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni",
+          "Cd",
+          "Pb",
+          "Mn",
+          "Fe",
+          "Zn",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/keles2023-turkiye-wild-mushrooms-elements",
+        "content_pin": {
+          "content_sha256": "782e495802cab596e9df6174937e5615c7b998440eb7d36cb321c069faba7044",
+          "content_bytes": 4453,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/keles2023-turkiye-wild-mushrooms-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kumar2022-bangladesh-agricultural-products-lead",
+        "title": "Lead (Pb) Contamination in Agricultural Products and Human Health Risk Assessment in Bangladesh",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kumar2022-bangladesh-agricultural-products-lead",
+        "content_pin": {
+          "content_sha256": "c448240c29a33c9021d632a382001cc4befa5aa01e0f2fe80d43d6e83dd7aae1",
+          "content_bytes": 6688,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/kumar2022-bangladesh-agricultural-products-lead.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/leskova2024-transbaikal-wild-mushrooms-elements",
+        "title": "Content of some chemical elements in wild mushrooms of the Transbaikal Territory",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Mn",
+          "Fe",
+          "Co",
+          "Ni",
+          "Cu",
+          "Zn",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/leskova2024-transbaikal-wild-mushrooms-elements",
+        "content_pin": {
+          "content_sha256": "359199d16d0f9661740c6e6c22bdf171624486eb535504a28474c905a4d9055e",
+          "content_bytes": 5517,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/leskova2024-transbaikal-wild-mushrooms-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/pankavec2019-pickled-mushrooms-poland-minerals",
+        "title": "Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "tAs",
+          "Ag",
+          "Sb",
+          "Tl",
+          "U",
+          "Ni",
+          "Al",
+          "Cr",
+          "Co",
+          "Cu",
+          "Zn",
+          "Mn",
+          "Mg",
+          "Se",
+          "Li",
+          "Cs",
+          "Ba",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pankavec2019-pickled-mushrooms-poland-minerals",
+        "content_pin": {
+          "content_sha256": "cc796f9f651a46f292436e7124995d89885e1c467529603fb23d6b3da5a591c1",
+          "content_bytes": 14495,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/usman2022-pleurotus-mushroom-substrates",
+        "title": "Proximate composition and heavy metal content of Pleurotus tuberregium mushroom grown on different substrates in (Aba) Nigeria",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/usman2022-pleurotus-mushroom-substrates",
+        "content_pin": {
+          "content_sha256": "f715eb3cdbbd28d6c2aa2d6ca409c25646083c5ed13df634efb5c4dac5848cb9",
+          "content_bytes": 3639,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e21:wiki/sources/usman2022-pleurotus-mushroom-substrates.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/wild-mushrooms.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

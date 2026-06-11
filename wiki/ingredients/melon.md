@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 2
+sources: 3
 ---
 
 # Melon
@@ -169,7 +169,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna\|Elbagory et al. 2025]]. *Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin*, Horticulturae | 2025 | Peer-reviewed | IN Cd, Cr, Cu, Pb, tAs, Fe, Mn, Zn occurrence in 200 composite melon fruit samples (50 per variety, each from 5 fruits pooled per site across 10 sampling... (n=200) |
-| 2 | [[sources/rashid2015-metals-rock-melon-malaysia\|Rashid et al. 2015]]. *Determination of Metals Contamination in Rock Melon (Cucumis melo) and Coco Peat*, Jurnal Intelek 10(1): 33–36 (ISSN 2231-7716; UiTM Perlis) | 2015 | Peer-reviewed | MY Al, Cr, Cu, Fe, Mn, Ni, Pb, Zn, B, Co occurrence in Rock melon (Cucumis melo, cultivar Glamour) randomly sampled from 5 farm locations in Mantin (Negeri Sembilan; 3 farms)... (n=70) |
+| 2 | [[sources/iyabo2015-ekiti-staple-foods-metals\|Iyabo et al. 2015]]. *Toxic and Essential Metals in Staple Foods Commonly Consumed by Students in Ekiti State, South West, Nigeria*, International Journal of Chemistry | 2015 | Peer-reviewed | NG Zn, Cu, Cd, Pb occurrence in Thirty listed staple food items identified from a questionnaire of 200 volunteered Ekiti State University students and purchased... (n=30) |
+| 3 | [[sources/rashid2015-metals-rock-melon-malaysia\|Rashid et al. 2015]]. *Determination of Metals Contamination in Rock Melon (Cucumis melo) and Coco Peat*, Jurnal Intelek 10(1): 33–36 (ISSN 2231-7716; UiTM Perlis) | 2015 | Peer-reviewed | MY Al, Cr, Cu, Fe, Mn, Ni, Pb, Zn, B, Co occurrence in Rock melon (Cucumis melo, cultivar Glamour) randomly sampled from 5 farm locations in Mantin (Negeri Sembilan; 3 farms)... (n=70) |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -192,9 +193,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

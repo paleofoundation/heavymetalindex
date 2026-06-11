@@ -82,3 +82,13 @@ Microbiome: The paper discusses menstrual toxic shock syndrome, *S. aureus*, vag
 - Brand firewall: no brand-linked values are reported in this page. Product types are kept at category level.
 - Evidence tier: `B` because the paper is peer-reviewed and useful secondary evidence, but it is a narrative review and not a primary occurrence or systematic-review dataset.
 - Routing: `npm run evidence:source-routes` exited 0. The source generated 6 product routing rows, was absent from `routing_unresolved.csv`, and had only the expected advisory `routing_malformed.csv` entry for empty optional `ingredients`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [99df3ab](https://github.com/paleofoundation/heavymetalindex/commit/99df3ab) | 2026-06-09 | ingest: upson2022-menstrual-products-exposure-review fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:669a90f9320bf1d32402ed721deccb62…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `aca5e21` (2026-06-09). The body hashes to `sha256:3baaed162b5439e407b676bc959584a2…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=seaweed-kelp-foods&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/seaweed-kelp-foods&download=1`.
 
 ## Evidence base
 
-This category is supported by 173 contributing literature sources mapped by the routing layer, of which 2 carry structured concentration values. The page makes 0 numerical claims; 0 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 207 contributing literature sources mapped by the routing layer, of which 2 carry structured concentration values. The page makes 0 numerical claims; 0 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/seaweed-kelp-foods.md`.
 

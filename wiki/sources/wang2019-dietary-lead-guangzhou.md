@@ -102,5 +102,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [75c0add](https://github.com/paleofoundation/heavymetalindex/commit/75c0add) | 2026-06-09 | audit: wang2019-dietary-lead-guangzhou revised per autonomous audit |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [def1a1b](https://github.com/paleofoundation/heavymetalindex/commit/def1a1b) | 2026-06-08 | ingest: wang2019-dietary-lead-guangzhou fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

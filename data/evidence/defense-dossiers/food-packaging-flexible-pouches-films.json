@@ -17,18 +17,91 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-flexible-pouches-films",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "39abcd1daf074e357cfe3a90a8899ed87669f8a1c572087c9821f179588ba658",
-      "content_bytes": 8148,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "eb90531803f7c9d211703eccda83bbf871f21ceca707becc0429ba0ecf2c2487",
+      "content_bytes": 9967,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/food-packaging-flexible-pouches-films.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/food-packaging-flexible-pouches-films.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 5,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/cstee2003-organotin-consumer-exposure",
+        "title": "Opinion on the non-food aspects of assessment of the risks to health and the environment posed by the use of organostannic compounds",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cstee2003-organotin-consumer-exposure",
+        "content_pin": {
+          "content_sha256": "315b0147f4d801b91c05ae7aaf5f6bb224f69f8e6ac77a28a5fd9e0d5d81bcf9",
+          "content_bytes": 8488,
+          "last_commit_sha": "19c75a0",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 19c75a0:wiki/sources/cstee2003-organotin-consumer-exposure.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/li2019-plastic-packaging-metal-migration",
+        "title": "Evaluation of heavy metal migration from plastic food packaging materials to aqueous simulants by ICP-MS",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "tAs",
+          "Ba",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cu",
+          "Fe",
+          "Li",
+          "Mn",
+          "Ni",
+          "Pb",
+          "Sb",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/li2019-plastic-packaging-metal-migration",
+        "content_pin": {
+          "content_sha256": "9083f5f6b66eeb723b878d90b5a316ebe1cf78ef5ae3f09bd340a247489fd6c6",
+          "content_bytes": 7460,
+          "last_commit_sha": "0a208c5",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 0a208c5:wiki/sources/li2019-plastic-packaging-metal-migration.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mandrile2020-organotin-food-packaging-sers",
+        "title": "Migration study of organotin compounds from food packaging by surface-enhanced Raman scattering",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mandrile2020-organotin-food-packaging-sers",
+        "content_pin": {
+          "content_sha256": "f2e3a1fe3ef57b28858810f3c44e14d216aaf3b7398812d69af0f198037aca42",
+          "content_bytes": 7783,
+          "last_commit_sha": "1ec89b2",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 1ec89b2:wiki/sources/mandrile2020-organotin-food-packaging-sers.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/sadhya2023-india-food-heavy-metals-regulation",
         "title": "Regulation in India of Heavy Metals in Food Items: A Critical Analysis",
@@ -57,12 +130,45 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadhya2023-india-food-heavy-metals-regulation",
         "content_pin": {
-          "content_sha256": "c86013e2348f872d54033c147accde35b6be373e8ed66e82790634a6c6e6e5d3",
-          "content_bytes": 21471,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "861549844e1b435c7b9f888aafdd3397f9595d30031187d4fb342e5431fcf227",
+          "content_bytes": 21632,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zeng2023-disposable-food-containers-metals",
+        "title": "Heavy metal risk of disposable food containers on human health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Be",
+          "V",
+          "Ni",
+          "Zn",
+          "Mn",
+          "Cd",
+          "Cr",
+          "Co",
+          "Sb",
+          "Ba",
+          "Pb",
+          "Fe",
+          "Cu",
+          "Se"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zeng2023-disposable-food-containers-metals",
+        "content_pin": {
+          "content_sha256": "62aaa08437e438b4f2c5bbf880516b1938fae7917064c563df6c02e42a8553f0",
+          "content_bytes": 7069,
+          "last_commit_sha": "761b542",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 761b542:wiki/sources/zeng2023-disposable-food-containers-metals.md | sha256sum"
         }
       }
     ]

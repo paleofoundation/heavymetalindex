@@ -4,8 +4,8 @@ type: brand-dossier
 noindex: true
 audience: [regulator, brand-legal, commercial]
 category: products/spices
-hmtc_category: 7
-hmtc_row: 8
+hmtc_category: 34
+hmtc_row: 1
 generated: true
 ---
 
@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:8ae51a1d23f2549ccbd64d1bb3e19041…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `496b50d` (2026-06-09). The body hashes to `sha256:62351b6640aaee5eabf9e24ed7806c90…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=spices&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/spices&download=1`.
 
 ## Evidence base
 
-This category is supported by 61 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 2 numerical claims; 1 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
+This category is supported by 64 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 2 numerical claims; 1 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/spices.md`.
 

@@ -160,6 +160,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [de0b14e](https://github.com/paleofoundation/heavymetalindex/commit/de0b14e) | 2026-06-08 | audit: garrity1990-mt1-tissue-specific-promoter revised |
 | [9792010](https://github.com/paleofoundation/heavymetalindex/commit/9792010) | 2026-06-08 | ingest: garrity1990-mt1-tissue-specific-promoter fresh from MFK/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

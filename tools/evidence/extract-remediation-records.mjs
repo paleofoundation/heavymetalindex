@@ -26,6 +26,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { spawnSync } from "node:child_process"
+const CLAUDE_BIN = process.env.CLAUDE_BIN || "/opt/homebrew/bin/claude" // pinned: bare "claude" ENOENTs in bg shells + nightly auto-update window
 
 const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
@@ -111,7 +112,7 @@ const today = new Date().toISOString().slice(0, 10)
 for (const c of picked) {
   console.log(`\n[${picked.indexOf(c) + 1}/${picked.length}] ${c.citeKey}`)
   const prompt = buildPrompt(c, schema)
-  const res = spawnSync("claude", ["--print", "--model", model, "--add-dir", repoRoot], {
+  const res = spawnSync(CLAUDE_BIN, ["--print", "--model", model, "--add-dir", repoRoot], {
     cwd: repoRoot, input: prompt, encoding: "utf8",
     maxBuffer: 64 * 1024 * 1024, timeout: 6 * 60 * 1000,
   })

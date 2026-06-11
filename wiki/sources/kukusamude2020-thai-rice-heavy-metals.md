@@ -80,5 +80,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [92d02ae](https://github.com/paleofoundation/heavymetalindex/commit/92d02ae) | 2026-06-09 | audit: kukusamude2020-thai-rice-heavy-metals revised per autonomous audit |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [efeb675](https://github.com/paleofoundation/heavymetalindex/commit/efeb675) | 2026-06-08 | ingest: kukusamude2020-thai-rice-heavy-metals fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

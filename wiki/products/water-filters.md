@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 2
 wiki_doi: null
 updated: 2026-05-17
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
@@ -120,7 +120,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/decharat2020-school-drinking-water-pb-cd\|Decharat et al. 2020]]. *Risk assessment of lead and cadmium in drinking water for school use in Nakhon Si Thammarat Province, Thailand*, Environmental Analysis Health and Toxicology | 2020 | Peer-reviewed | TH Pb, Cd occurrence in drinking water used by 44 primary schools in Nakhon Si Thammarat Province, Thailand (n=146) |
+| 1 | [[sources/abuawad2023-folic-creatine-arsenic-methylation\|Abuawad et al. 2023]]. *The Folic Acid and Creatine Trial: Treatment Effects of Supplementation on Arsenic Methylation Indices and Metabolite Concentrations in Blood in a Bangladeshi Population*, Environmental Health Perspectives | 2023 | Peer-reviewed | BD iAs, tAs occurrence in Bangladeshi adults aged 20-65 years with household well-water arsenic concentrations above 50 ug/L for at least one year (n=622) |
+| 2 | [[sources/decharat2020-school-drinking-water-pb-cd\|Decharat et al. 2020]]. *Risk assessment of lead and cadmium in drinking water for school use in Nakhon Si Thammarat Province, Thailand*, Environmental Analysis Health and Toxicology | 2020 | Peer-reviewed | TH Pb, Cd occurrence in drinking water used by 44 primary schools in Nakhon Si Thammarat Province, Thailand (n=146) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -130,9 +131,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

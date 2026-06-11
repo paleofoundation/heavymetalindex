@@ -174,6 +174,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [f7072bd](https://github.com/paleofoundation/heavymetalindex/commit/f7072bd) | 2026-06-08 | audit: bishop2004-amyloid-metal-paradox revised |
 | [42af497](https://github.com/paleofoundation/heavymetalindex/commit/42af497) | 2026-06-08 | ingest: bishop2004-amyloid-metal-paradox fresh from MFK/June 8 Black Market Peptide Metal Survey |
 <!-- END: hmi-page-history -->

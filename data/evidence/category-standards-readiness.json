@@ -43,50 +43,9 @@
   },
   "7": {
     "name": "Oils, Condiments, and Specialty Foods",
-    "locked_rows": 8,
-    "ready_rows": 8,
-    "manual_ready": true,
-    "rows": [
-      {
-        "slug": "butter-and-ghee",
-        "ready": true,
-        "blocking": []
-      },
-      {
-        "slug": "chocolate",
-        "ready": true,
-        "blocking": []
-      },
-      {
-        "slug": "cooking-oils-other",
-        "ready": true,
-        "blocking": []
-      },
-      {
-        "slug": "honey",
-        "ready": true,
-        "blocking": []
-      },
-      {
-        "slug": "olive-oil",
-        "ready": true,
-        "blocking": []
-      },
-      {
-        "slug": "salt",
-        "ready": true,
-        "blocking": []
-      },
-      {
-        "slug": "spices",
-        "ready": true,
-        "blocking": []
-      },
-      {
-        "slug": "vinegar",
-        "ready": true,
-        "blocking": []
-      }
-    ]
+    "locked_rows": 0,
+    "ready_rows": 0,
+    "manual_ready": false,
+    "rows": []
   }
 }

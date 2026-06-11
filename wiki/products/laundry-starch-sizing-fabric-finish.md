@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 2
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,7 +106,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/nydec2020-cleansing-product-disclosure-bmp\|New York State Department 2020]]. *Cleansing Product Information Disclosure Program — Recommended Best Management Practices*, New York State Department of Environmental Conservation (NY DEC) — undated post-court-ruling Recommended Best Management Practices (BMP) document supporting the statutory household-cleansing-product disclosure requirement at 6 NYCRR Part 659.6 (authorised by Environmental Conservation Law (ECL) Article 35). The predecessor Program Policy on Household Cleansing Product Information Disclosure was declared null and void by the NYS Supreme Court (Household & Commercial Products Association v. Seggos, ruling issued August 2020); DEC maintains the present BMP document as recommended practice while moving forward to implement the underlying statute and regulation. Document text references EPA's pre-MCL drinking-water values for 1,4-dioxane (350 ppt) and PFOA/PFOS (70 ppt combined), consistent with pre-July-2020 publication of the BMP framework prior to NY DOH's August 2020 adoption of stricter state MCLs for those chemicals. | 2020 | Government guidance | US-NY Pb, Cd, tAs, tHg, Cr-VI, Ni occurrence in Not applicable: post-2020 court-ruling Recommended Best Management Practices (BMP) guidance document. The 22-page document (sections A. Form of... |
+| 1 | [[sources/greenseal2020-gs51-laundry-care-products\|Green Seal 2020]]. *GS-51: Green Seal Standard for Laundry Care Products for Industrial and Institutional Use, Edition 1.6*, Green Seal, Inc. voluntary environmental certification standard; Edition 1.6 issued April 8, 2020, replacing Edition 1.5 from September 12, 2019, with corrections/clarifications last made July 30, 2021. | 2020 | Regulatory standard | US Pb, tHg, Cd, Cr-VI, tAs, Co, Mn, Ni occurrence in Not applicable: this is the binding text of Green Seal GS-51 Edition 1.6 for industrial and institutional laundry... |
+| 2 | [[sources/nydec2020-cleansing-product-disclosure-bmp\|New York State Department 2020]]. *Cleansing Product Information Disclosure Program — Recommended Best Management Practices*, New York State Department of Environmental Conservation (NY DEC) — undated post-court-ruling Recommended Best Management Practices (BMP) document supporting the statutory household-cleansing-product disclosure requirement at 6 NYCRR Part 659.6 (authorised by Environmental Conservation Law (ECL) Article 35). The predecessor Program Policy on Household Cleansing Product Information Disclosure was declared null and void by the NYS Supreme Court (Household & Commercial Products Association v. Seggos, ruling issued August 2020); DEC maintains the present BMP document as recommended practice while moving forward to implement the underlying statute and regulation. Document text references EPA's pre-MCL drinking-water values for 1,4-dioxane (350 ppt) and PFOA/PFOS (70 ppt combined), consistent with pre-July-2020 publication of the BMP framework prior to NY DOH's August 2020 adoption of stricter state MCLs for those chemicals. | 2020 | Government guidance | US-NY Pb, Cd, tAs, tHg, Cr-VI, Ni occurrence in Not applicable: post-2020 court-ruling Recommended Best Management Practices (BMP) guidance document. The 22-page document (sections A. Form of... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -116,9 +117,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

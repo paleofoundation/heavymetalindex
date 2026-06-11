@@ -124,3 +124,13 @@ App: The source can support explanatory game-meat cards about lead-fragment diss
 - Speciation: the source concerns metallic elemental lead fragments and dissolved/bioaccessible lead compounds from those fragments. No arsenic, mercury, chromium, or organotin speciation is involved.
 - Brand firewall: ammunition model names printed in table headings and methods were not attached to contamination values on this page. Instrument and laboratory details are scientific-method context.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy has `game-meats` as a product slug but lacks exact `wild-boar-meat` or `game-meat` ingredient slugs, so ingredients route through broad `meat`, `meat-and-poultry`, and `organ-meats`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f54cd50](https://github.com/paleofoundation/heavymetalindex/commit/f54cd50) | 2026-06-09 | ingest: qvarfort2025-game-meat-lead-bioaccessibility fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

@@ -81,5 +81,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [bd323d5](https://github.com/paleofoundation/heavymetalindex/commit/bd323d5) | 2026-06-09 | ingest: dobrzynska2025-milk-formulae-elemental-composition fresh from Manual Fetch Discovery |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [334d994](https://github.com/paleofoundation/heavymetalindex/commit/334d994) | 2026-06-08 | ingest: khandaker2021-malaysian-seaweed-metalloids fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->

@@ -87,7 +87,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 21
+sources: 22
 ---
 
 # Honey
@@ -216,6 +216,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 19 | [[sources/salama2019-libya-honey-metals\|Salama et al. 2019]]. *Determination of Physicochemical Properties and Toxic Heavy Metals Levels in Honey Samples from West of Libya*, Journal of Advanced Chemical Sciences | 2019 | Peer-reviewed | LY Pb, Cd, tHg, tAs occurrence in Bee honey samples from eight locations in western Libya, three samples per locality (n=24) |
 | 20 | [[sources/aljedani2017-honeybee-honey-saudi-arabia\|Aljedani 2017]]. *Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia*, Entomology and Applied Science Letters | 2017 | Peer-reviewed | Pb, Cd, Cr, and Ni in Saudi Arabian honey from four agricultural regions, providing a clean rural-baseline reference distant from industrial sources |
 | 21 | [[sources/aghamirlou2015-iranian-honey-metals\|Aghamirlou et al. 2015]]. *Heavy metals determination in honey samples using inductively coupled plasma-optical emission spectrometry*, Journal of Environmental Health Science & Engineering | 2015 | Peer-reviewed | IR tAs, Cd, Cr, Pb, Ni, Zn, Cu occurrence in Multifloral honey samples from four regions of Ardabil province, Iran, collected from individual beekeepers in 2013 (n=25) |
+| 22 | [[sources/fsanz2011-23rd-australian-total-diet-study\|Zealand 2011]]. *The 23rd Australian Total Diet Study*, Food Standards Australia New Zealand | 2011 | Government report | AU/NZ Al, tAs, iAs, Cd, Pb, tHg, iHg, MeHg occurrence in Ninety-two Australian foods and beverages, including tap and bottled water, represented by 570 composite samples; each composite used... (n=570) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -225,9 +226,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

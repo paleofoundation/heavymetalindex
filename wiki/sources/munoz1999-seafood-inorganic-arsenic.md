@@ -16,7 +16,7 @@ access_url: "https://doi.org/10.1039/a904999a"
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/seafood]]", "[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/molluscs]]", "[[ingredients/bivalve-molluscs]]"]
 products: ["[[products/seafood]]", "[[products/fresh-fish]]", "[[products/fish-marine-non-predatory]]", "[[products/shellfish]]", "[[products/canned-seafood]]"]
-matrices: [seafood, fish, shellfish, mollusk, fresh-seafood, canned-seafood, frozen-seafood, dry-mass, fresh-mass]
+matrices: [seafood, fish, shellfish, mollusk, fresh-seafood, canned-seafood, frozen-seafood, dry-weight, fresh-weight]
 jurisdictions: [ES]
 near_duplicates: []
 sample_n: 21
@@ -86,5 +86,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [ab99091](https://github.com/paleofoundation/heavymetalindex/commit/ab99091) | 2026-06-08 | ingest: munoz1999-seafood-inorganic-arsenic fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

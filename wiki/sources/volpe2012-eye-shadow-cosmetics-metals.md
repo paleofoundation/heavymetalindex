@@ -64,3 +64,13 @@ App: The source supports eye-makeup contamination profiles for Pb, Cd, Co, Cr, a
 - Units are preserved exactly as printed: Pb in `µg g-1 wet weight`, Cd/Co/Cr/Ni in `ng g-1 wet weight`.
 - Speciation: chromium is total Cr; no Cr(VI) speciation is reported.
 - Brand firewall: sample group/brand identifiers are not used to create brand claims; values are summarized at eye-shadow product level.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ecf202b](https://github.com/paleofoundation/heavymetalindex/commit/ecf202b) | 2026-06-09 | ingest: June 8 personal product occurrence batch from MFK |
+<!-- END: hmi-page-history -->

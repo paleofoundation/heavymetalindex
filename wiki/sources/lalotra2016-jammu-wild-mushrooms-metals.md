@@ -63,3 +63,13 @@ App: Supports a general caution that wild mushrooms can accumulate Pb and Cd, bu
 
 - The DOI, title, authors, publication, and year are printed in the PDF.
 - The page does not treat total chromium as Cr(VI); chromium is not one of the primary routed metals for this source page because the candidate file was Cd/Pb-focused and the key extractable toxic values are Pb and Cd.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6661f46](https://github.com/paleofoundation/heavymetalindex/commit/6661f46) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

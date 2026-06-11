@@ -84,5 +84,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [04500c1](https://github.com/paleofoundation/heavymetalindex/commit/04500c1) | 2026-06-09 | audit: jairoun2020-uae-dietary-supplements-heavy-metals revised |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [f1305b7](https://github.com/paleofoundation/heavymetalindex/commit/f1305b7) | 2026-06-08 | ingest: jairoun2020-uae-dietary-supplements-heavy-metals from June 8 (supplement occurrence) |
 <!-- END: hmi-page-history -->

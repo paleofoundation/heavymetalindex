@@ -149,6 +149,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [d70d6eb](https://github.com/paleofoundation/heavymetalindex/commit/d70d6eb) | 2026-06-06 | audit: bora2015-vineyard-wine-heavy-metals-romania [promoted] |
 | [6d519cf](https://github.com/paleofoundation/heavymetalindex/commit/6d519cf) | 2026-06-06 | ingest: bora2015-vineyard-wine-heavy-metals-romania [fresh] from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

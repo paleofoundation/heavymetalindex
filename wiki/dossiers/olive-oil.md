@@ -4,7 +4,7 @@ type: brand-dossier
 noindex: true
 audience: [regulator, brand-legal, commercial]
 category: products/olive-oil
-hmtc_category: 7
+hmtc_category: 30
 hmtc_row: 1
 generated: true
 ---
@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:3152a7982b5835460283e01c44616c4e…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `496b50d` (2026-06-09). The body hashes to `sha256:63aafb389d3bb543093f24dcb45845be…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=olive-oil&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/olive-oil&download=1`.
 

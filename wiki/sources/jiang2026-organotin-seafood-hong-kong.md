@@ -74,5 +74,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [a063a8d](https://github.com/paleofoundation/heavymetalindex/commit/a063a8d) | 2026-06-08 | manual-fetch stop: MFD weldegebriel2025 bit-identical dup of MFK-already-merged page |
 <!-- END: hmi-page-history -->

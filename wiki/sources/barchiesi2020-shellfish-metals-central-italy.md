@@ -157,5 +157,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [85fa839](https://github.com/paleofoundation/heavymetalindex/commit/85fa839) | 2026-06-09 | ingest: houlihan2019-hbbf-whats-in-baby-food [enhanced] from MFK/June 8/05_Regulatory_CPSIA_CPSC_FDA |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c58449d](https://github.com/paleofoundation/heavymetalindex/commit/c58449d) | 2026-06-08 | ingest: barchiesi2020-shellfish-metals-central-italy fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->

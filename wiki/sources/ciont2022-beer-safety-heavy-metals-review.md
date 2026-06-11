@@ -110,6 +110,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [20a969f](https://github.com/paleofoundation/heavymetalindex/commit/20a969f) | 2026-06-06 | audit: ciont2022-beer-safety-heavy-metals-review [revised] |
 | [0f9cd1a](https://github.com/paleofoundation/heavymetalindex/commit/0f9cd1a) | 2026-06-06 | ingest: ciont2022-beer-safety-heavy-metals-review [fresh] from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

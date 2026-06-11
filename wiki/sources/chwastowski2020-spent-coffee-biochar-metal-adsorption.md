@@ -61,3 +61,13 @@ App: Context only. The paper does not support consumer-facing coffee contaminati
 ## Verification notes
 
 The DOI, title, author list, journal, and year were taken from the Materials PDF. The auto-fetched filename is a coffee/cadmium gap hit, but the PDF measures adsorption from spiked aqueous solutions, not native metal occurrence in coffee. Products and ingredients are intentionally empty so the remediation values do not enter occurrence threshold calculations.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [50336a4](https://github.com/paleofoundation/heavymetalindex/commit/50336a4) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

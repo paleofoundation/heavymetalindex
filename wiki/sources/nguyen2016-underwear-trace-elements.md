@@ -68,3 +68,13 @@ App: The source supports a fabric-contact product context note for Cr, Pb, Ni, C
 - Speciation: arsenic and mercury are elemental totals from ICP-MS extraction (`tAs`, `tHg`); chromium is total Cr, not Cr(VI).
 - Brand firewall: brand names listed in the sampling paragraph are omitted from Key numbers and no brand is attached to any value.
 - Closed-vocabulary note: no general underwear product slug exists, so `products/fabric-contact-products-other` is used. `period-underwear-reusable-garments` was not used because the source is ordinary underwear rather than menstrual/period underwear.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ecf202b](https://github.com/paleofoundation/heavymetalindex/commit/ecf202b) | 2026-06-09 | ingest: June 8 personal product occurrence batch from MFK |
+<!-- END: hmi-page-history -->

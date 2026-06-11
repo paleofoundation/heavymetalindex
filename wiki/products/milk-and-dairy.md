@@ -17,7 +17,7 @@ typical_ingredients: []
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 literature_scope: thin
-sources: 10
+sources: 12
 wiki_doi: null
 created_by: cat24_step0_2026_06_08
 updated: 2026-06-08
@@ -57,9 +57,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c794d6b](https://github.com/paleofoundation/heavymetalindex/commit/c794d6b) | 2026-06-08 | reorg(taxonomy-v2.1): stand up cats 24/25/26 + mushrooms/jewelry rows |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

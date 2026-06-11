@@ -91,5 +91,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [a00479a](https://github.com/paleofoundation/heavymetalindex/commit/a00479a) | 2026-06-09 | audit: charles2017-instant-noodles-nigeria-risk revised per autonomous audit |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [3c2ea92](https://github.com/paleofoundation/heavymetalindex/commit/3c2ea92) | 2026-06-08 | ingest: charles2017-instant-noodles-nigeria-risk fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

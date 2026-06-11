@@ -66,3 +66,13 @@ App: Supports a wild Boletus warning context for Cd and Hg, especially where soi
 
 - The paper reports total Hg, not MeHg.
 - The source prints "cadmiumand" and other spacing artifacts in the extracted text; numeric values are copied from the abstract table prose.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6661f46](https://github.com/paleofoundation/heavymetalindex/commit/6661f46) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

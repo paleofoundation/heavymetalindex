@@ -69,3 +69,13 @@ App: The source can contribute Cd, Pb, and tHg occurrence context for `beverages
 - Speciation: the paper reports cadmium, lead, and mercury by AAS with no species separation. Mercury is therefore recorded as `tHg`, not MeHg.
 - Brand firewall: the original table lists named beverages. This page omits sample names and reports only aggregate/category-level findings.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; `beverage` and `soft-drink` are matrix descriptors rather than product or ingredient slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2411ebe](https://github.com/paleofoundation/heavymetalindex/commit/2411ebe) | 2026-06-09 | ingest: godwill2015-soft-drinks-metals-nigeria fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

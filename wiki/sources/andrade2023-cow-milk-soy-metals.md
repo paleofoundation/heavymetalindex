@@ -102,6 +102,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [4808881](https://github.com/paleofoundation/heavymetalindex/commit/4808881) | 2026-06-08 | audit: andrade2023-cow-milk-soy-metals revised |
 | [38e8071](https://github.com/paleofoundation/heavymetalindex/commit/38e8071) | 2026-06-08 | ingest: andrade2023-cow-milk-soy-metals fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

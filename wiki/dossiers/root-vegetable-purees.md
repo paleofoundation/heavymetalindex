@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:cf276b8e8cc3f9691ecf448828b3aca9…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `aca5e21` (2026-06-09). The body hashes to `sha256:6d337c67363071f140823f2e8b97b7fb…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=root-vegetable-purees&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/root-vegetable-purees&download=1`.
 
 ## Evidence base
 
-This category is supported by 19 contributing literature sources mapped by the routing layer, of which 3 carry structured concentration values. The page makes 135 numerical claims; 133 of them trace to an in-section cited source, leaving 2 that do not yet trace to an in-section source and are flagged for synthesis.
+This category is supported by 20 contributing literature sources mapped by the routing layer, of which 3 carry structured concentration values. The page makes 135 numerical claims; 133 of them trace to an in-section cited source, leaving 2 that do not yet trace to an in-section source and are flagged for synthesis.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/root-vegetable-purees.md`.
 

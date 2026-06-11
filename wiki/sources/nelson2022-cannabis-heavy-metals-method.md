@@ -73,3 +73,13 @@ The native values in Table 5 provide bounded occurrence context for cannabis-der
 - Jurisdictions record the method-regulatory scope the paper states: U.S. state cannabis testing programs and Canadian cannabis laws. The paper does not report purchase or production jurisdictions for the validation samples, so these codes should not be read as sample-provenance claims.
 - Missing slug note: the taxonomy snapshot has no `hemp`, `cannabis`, `CBD`, or `cannabis-derived-products` ingredient/product slug. Frontmatter uses the existing broad `[[ingredients/herbal-botanicals]]`, `[[products/supplements-botanicals-herbs]]`, `[[products/dietary-supplements]]`, and `[[products/body-hand-leave-on-skin-care]]` slugs instead of inventing cannabis-specific pages.
 - Brand firewall: sample labels are generic matrix descriptors. Instrument/vendor names in Methods are scientific reproducibility details, not product-brand contamination claims.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f3c71fe](https://github.com/paleofoundation/heavymetalindex/commit/f3c71fe) | 2026-06-09 | ingest: nelson2022-cannabis-heavy-metals-method fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

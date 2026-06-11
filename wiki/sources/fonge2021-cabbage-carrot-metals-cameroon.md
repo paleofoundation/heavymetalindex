@@ -91,3 +91,13 @@ App: The source can support leafy-vegetable and root-vegetable profiles for tAs,
 - Speciation check: As is reported as total As (`tAs`) by the source. The paper does not report inorganic arsenic, Cr-VI, methylmercury, or total mercury.
 - Soil-context firewall: soil values are recorded only as supply-chain context and are not described as product occurrence values.
 - Closed vocabulary check: all product, ingredient, metal, and jurisdiction slugs used in frontmatter or wiki-page links are present in `docs/gpt-collaboration/taxonomy-snapshot.md` or established source-page jurisdiction codes.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f609b13](https://github.com/paleofoundation/heavymetalindex/commit/f609b13) | 2026-06-09 | ingest: fonge2021-cabbage-carrot-metals-cameroon fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

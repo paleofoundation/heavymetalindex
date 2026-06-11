@@ -72,3 +72,13 @@ App: The source adds a rice ingredient contamination-profile example for `tAs` o
 - Scope separation: edible raw rice, brown rice, and polish rice values are product occurrence evidence; soil, irrigation water, root, straw, husk, and bran-polish are recorded as supply-chain or processing context.
 - Missing table extraction: the source states that Table 4 contains the grain-fraction values. The extracted text provides the edible-rice and husk/BRRI dhan28 bran-polish values in the Results prose, but the BRRI hybrid dhan1 bran-polish numeric cells did not extract cleanly; those cells are therefore not reconstructed.
 - Closed-vocabulary check: `ingredients/rice`, `products/rice-bulk-grain`, `matrices: [rice-grain]`, `jurisdictions: [BD]`, and `metals: [tAs]` match the current taxonomy/metals vocabulary. No rice-fraction-specific product slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7b00118](https://github.com/paleofoundation/heavymetalindex/commit/7b00118) | 2026-06-09 | ingest: rahman2007-rice-grain-arsenic-fractions fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

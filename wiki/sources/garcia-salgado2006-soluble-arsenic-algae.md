@@ -87,3 +87,13 @@ The market *Hizikia* result is the most directly relevant food occurrence row in
 - Units are preserved as `µg g−1`, `%`, `ng As`, and `µg`; no conversions were performed.
 - Evidence tier B reflects peer-reviewed method/speciation data with exact species and method validation, but a small sample set and inclusion of a CRM/research material rather than a full market survey.
 - Brand firewall: no sampled brands are reported; market purchase is retained only at category level.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b22465f](https://github.com/paleofoundation/heavymetalindex/commit/b22465f) | 2026-06-09 | ingest: garcia-salgado2006 fresh from MFK/seaweed |
+<!-- END: hmi-page-history -->

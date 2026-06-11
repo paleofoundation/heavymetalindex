@@ -75,3 +75,13 @@ App: The source can support beef and organ-meat context for Egypt, including tis
 - Speciation: arsenic is reported as total arsenic (`tAs`), mercury as total mercury (`tHg`), and chromium as total chromium (`Cr`). This page does not relabel these as iAs, MeHg, or Cr(VI).
 - Brand firewall: the source reports abattoir-level cattle tissue samples and does not name brands or sellers. No brand-linked contamination values are reported here.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy lacks exact beef kidney/liver/muscle ingredient/product slugs, so tissue forms remain matrix descriptors and broad routing uses `beef`, `meat`, `organ-meats`, and `beef-product`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [10eda49](https://github.com/paleofoundation/heavymetalindex/commit/10eda49) | 2026-06-09 | ingest: khalafalla2011-beef-carcasses-metals-egypt fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

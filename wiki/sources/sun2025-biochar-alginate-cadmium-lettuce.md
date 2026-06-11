@@ -60,3 +60,13 @@ App: No direct product-risk distribution. The lettuce result can support a mitig
 ## Verification notes
 
 This page was built from the PDF title page, abstract, results sections on pH, isotherms, soil Cd fractions, lettuce Cd, soil physicochemical properties, and pot/field methods. The auto-fetch filename's "fabric-protectants" label is not supported by the paper content. Products and ingredients are intentionally empty because the source is mitigation evidence, not a direct survey of a finished consumer product.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [dcf2ea4](https://github.com/paleofoundation/heavymetalindex/commit/dcf2ea4) | 2026-06-09 | ingest auto-fetched 2026-06-09: sun2025-biochar-alginate-cadmium-lettuce |
+<!-- END: hmi-page-history -->

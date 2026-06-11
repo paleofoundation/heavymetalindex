@@ -152,9 +152,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [0667533](https://github.com/paleofoundation/heavymetalindex/commit/0667533) | 2026-06-03 | audit: jecfa-33rd-tin-1989 revised |
-| [91a8703](https://github.com/paleofoundation/heavymetalindex/commit/91a8703) | 2026-06-03 | ingest: jecfa-33rd-tin-1989 fresh from manual-fetch-kimi/june-3-folder |
 <!-- END: hmi-page-history -->

@@ -80,3 +80,13 @@ App: Can inform Argentina-specific dairy and infant-formula arsenic priors, with
 ## Verification notes
 
 This page was built from the PDF chapter title/byline, abstract, methods, Tables 1-3, Figure 2 caption/text, and conclusions. Frontmatter uses `tAs` because the chapter reports arsenic by ICP-MS and does not provide inorganic arsenic speciation. The raw handle follows the auto-fetched filename, although the filename year is `2024`; the chapter itself is in a 2023 edited volume.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a85d096](https://github.com/paleofoundation/heavymetalindex/commit/a85d096) | 2026-06-09 | audit: belew2024-peanuts-date-palm-metals [revised] per autonomous audit |
+<!-- END: hmi-page-history -->

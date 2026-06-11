@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 9
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,7 +106,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/bae2018-absorbent-hygiene-pads-safety-review\|Bae et al. 2018]]. *Safety Evaluation of Absorbent Hygiene Pads: A Review on Assessment Framework and Test Methods*, Sustainability 10(11): 4146 | 2018 | Peer-reviewed | This Sustainability review article describes the exposure-based quantitative risk-assessment (QRA) framework applied to disposable absorbent hygiene pads — baby diapers,... |
+| 1 | [[sources/marcelis2025-micp-leachables-metals\|Marcelis et al. 2025]]. *Chemical characterization of menstrual and intimate care products: An extractables & leachables investigation*, Environment International | 2025 | Peer-reviewed | EU/US/CN Li, Al, Cr, Mn, Fe, Co, Ni, Cu, Zn, tAs, Se, Cd, Sb, Ba, Pb, Sn, tHg occurrence in 64 menstrual and intimate care products originating from the EU, US, and China: tampons n=9, menstrual pads n=6,... (n=64) |
+| 2 | [[sources/nic-corcrain2025-menstrual-products-metal-leaching\|Nic 2025]]. *Investigating links between heavy metals in menstrual hygiene products and reproductive hormonal health*, Laidlaw Undergraduate Research and Leadership Programme poster | 2025 | Conference proceedings | Pb, tAs occurrence in Four menstrual products incubated in synthetic vaginal fluid for Pb and As leaching tests, plus a survey of... (n=4) |
+| 3 | [[sources/ma2024-sanitary-napkins-metals\|Ma et al. 2024]]. *Occurrence of heavy metals in sanitary napkins from seven countries: Implication for risk management of female hygiene products*, Environmental Technology & Innovation | 2024 | Peer-reviewed | CN/JP/KR tAs, Co, Cu, Pb, Cd, Zn, Ni, Cr occurrence in 56 sanitary-napkin composite samples from seven countries: China n=20, Japan n=6, South Korea n=6, United States n=6, United... (n=56) |
+| 4 | [[sources/marcelis2024-feminine-intimate-products-thesis\|Marcelis 2024]]. *Development of a generic safety assessment strategy for feminine intimate products*, PhD thesis, Vrije Universiteit Brussel | 2024 | Thesis | EU/US/CN Li, Al, Cr, Mn, Fe, Co, Ni, Cu, Zn, tAs, Se, Cd, Sb, Ba, Pb, Sn, tHg occurrence in PhD thesis built around a market survey of 64 feminine intimate products from the EU, US, and Asia/China:... (n=64) |
+| 5 | [[sources/marroquin2024-menstrual-products-chemicals\|Marroquin et al. 2024]]. *Chemicals in menstrual products: A systematic review*, BJOG: An International Journal of Obstetrics & Gynaecology | 2024 | Peer-reviewed | Marroquin et al. systematically reviewed studies that measured environmental chemicals in menstrual products or in biospecimens linked to menstrual-product use.... |
+| 6 | [[sources/upson2022-menstrual-products-exposure-review\|Upson et al. 2022]]. *Menstrual products as a source of environmental chemical exposure: A review from the epidemiologic perspective*, Current Environmental Health Reports 9(1):38-52 | 2022 | Peer reviewed review | US/SE/DK Cd, Pb, tHg occurrence in Narrative review of 23 studies measuring environmental chemicals in menstrual products plus 3 epidemiologic studies of menstrual-product use... (n=26) |
+| 7 | [[sources/gao2020-feminine-hygiene-edcs\|Gao et al. 2020]]. *Phthalates, bisphenols, parabens, and triclocarban in feminine hygiene products from the United States and their implications for human exposure*, Environment International | 2020 | Peer-reviewed | Gao and Kannan measured 24 endocrine-disrupting chemicals in 77 feminine hygiene products purchased in the Albany, New York area. The... |
+| 8 | [[sources/bae2018-absorbent-hygiene-pads-safety-review\|Bae et al. 2018]]. *Safety Evaluation of Absorbent Hygiene Pads: A Review on Assessment Framework and Test Methods*, Sustainability 10(11): 4146 | 2018 | Peer-reviewed | This Sustainability review article describes the exposure-based quantitative risk-assessment (QRA) framework applied to disposable absorbent hygiene pads — baby diapers,... |
+| 9 | [[sources/shin2009-womens-sanitary-products-metals\|Shin et al. 2009]]. *Determination of Heavy Metals in Sanitary Products of Women*, Journal of the Korean Society of Clothing and Textiles | 2009 | Peer-reviewed | KR/JP/US Cr, Co, Ni, Cu, Cd, Pb occurrence in Thirteen sanitary napkins and five tampons manufactured in Korea, Japan, the United States, Germany, and China; the Conclusion... (n=18) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -116,9 +124,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

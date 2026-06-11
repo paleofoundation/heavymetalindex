@@ -95,3 +95,13 @@ This source provides a method-centered but routeable arsenic-speciation dataset 
 - Speciation check: As(III), As(V), DMA, AsB, MMA, unknown arsenic, and arsenosugar/organic species remain separate. No tAs value or arsenosugar identification is promoted to iAs.
 - Brand firewall: the source does not name consumer brands; the page records product forms/material types and CRM/SRM identities only.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact nori, hijiki, serrated wrack, Fucus, and kelp powder terms remain in source text while frontmatter uses broad seaweed/kelp and algae/seaweed supplement slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cb6df2f](https://github.com/paleofoundation/heavymetalindex/commit/cb6df2f) | 2026-06-09 | ingest: lorenc2020-marine-algae-arsenic-species fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 3
+sources: 4
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,9 +106,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/waecology2024-interim-policy-lead-cosmetics\|Washington State Department of 2024]]. *Policy Statement: Interim Policy on Lead in Cosmetics — enforcement discretion under the Washington Toxic-Free Cosmetics Act (Chapter 70A.560 RCW)*, Washington State Department of Ecology, Publication 24-04-036 (issued December 19, 2024; minor revisions and clarifications January 15, 2025) | 2024 | Government report | US-WA Pb occurrence in Regulatory enforcement-discretion policy issued by the Washington State Department of Ecology under authority of the Toxic-Free Cosmetics Act... |
-| 2 | [[sources/campaignsafecosmetics2016-pretty-scary-2-kids-makeup\|Engel et al. 2016]]. *Pretty Scary 2: Unmasking Toxic Chemicals in Kids' Makeup*, Breast Cancer Fund; Campaign for Safe Cosmetics (October 2016) | 2016 | Nonprofit | US Pb, Cd, Cr, tAs, tHg occurrence in 48 individual face-paint colors from 14 Halloween face-paint kits ordered from an online Halloween retailer in 2016 and... (n=48) |
-| 3 | [[sources/campaignsafecosmetics2009-pretty-scary-face-paints\|Sarantis et al. 2009]]. *Pretty Scary: Could Halloween Face Paint Cause Lifelong Health Problems? A Report on Heavy Metals in Face Paints*, Campaign for Safe Cosmetics; Breast Cancer Fund; Commonwealth (October 2009) | 2009 | Nonprofit | US Pb, Ni, Co, Cr, tAs, tHg occurrence in 10 children's face paint and theater makeup products purchased through Amazon.com (shipped by a variety of distribution companies)... (n=10) |
+| 1 | [[sources/cwielag-drabek2025-tattoo-inks-metals\|Cwielag-Drabek et al. 2025]]. *Heavy Metal Content in Tattoo and Permanent Makeup Inks and European Standards-Is There Still a Health Risk?*, Toxics | 2025 | Peer-reviewed | EU Pb, Cd, Zn, Cr, Cr-VI, Ni, Cu, iAs, Co, Sb, Se, Mn, tHg occurrence in Commercial tattoo inks, permanent makeup inks, and dual-use inks purchased in the European Union in 2022-2023 (n=41) |
+| 2 | [[sources/waecology2024-interim-policy-lead-cosmetics\|Washington State Department of 2024]]. *Policy Statement: Interim Policy on Lead in Cosmetics — enforcement discretion under the Washington Toxic-Free Cosmetics Act (Chapter 70A.560 RCW)*, Washington State Department of Ecology, Publication 24-04-036 (issued December 19, 2024; minor revisions and clarifications January 15, 2025) | 2024 | Government report | US-WA Pb occurrence in Regulatory enforcement-discretion policy issued by the Washington State Department of Ecology under authority of the Toxic-Free Cosmetics Act... |
+| 3 | [[sources/campaignsafecosmetics2016-pretty-scary-2-kids-makeup\|Engel et al. 2016]]. *Pretty Scary 2: Unmasking Toxic Chemicals in Kids' Makeup*, Breast Cancer Fund; Campaign for Safe Cosmetics (October 2016) | 2016 | Nonprofit | US Pb, Cd, Cr, tAs, tHg occurrence in 48 individual face-paint colors from 14 Halloween face-paint kits ordered from an online Halloween retailer in 2016 and... (n=48) |
+| 4 | [[sources/campaignsafecosmetics2009-pretty-scary-face-paints\|Sarantis et al. 2009]]. *Pretty Scary: Could Halloween Face Paint Cause Lifelong Health Problems? A Report on Heavy Metals in Face Paints*, Campaign for Safe Cosmetics; Breast Cancer Fund; Commonwealth (October 2009) | 2009 | Nonprofit | US Pb, Ni, Co, Cr, tAs, tHg occurrence in 10 children's face paint and theater makeup products purchased through Amazon.com (shipped by a variety of distribution companies)... (n=10) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -118,9 +119,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

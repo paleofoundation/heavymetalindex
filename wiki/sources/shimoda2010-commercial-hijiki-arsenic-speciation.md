@@ -108,3 +108,13 @@ This source contributes primary occurrence evidence for hijiki seaweed with tota
 - Source-side consistency check: the abstract says W-iAs/A-TAs ranged from `24.5` to `60.1%`, while Table 4 reports sample 9 as `23.9%`; the table value was transcribed as printed and the discrepancy was not corrected.
 - Brand firewall: consumer brands/stores are not named. Instrument, reagent, and reference-material vendors are retained only as scientific-method context.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact hijiki product forms, production systems, and source areas remain in Key numbers while frontmatter uses broad seaweed/kelp food routing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f94b108](https://github.com/paleofoundation/heavymetalindex/commit/f94b108) | 2026-06-09 | ingest: shimoda2010-commercial-hijiki-arsenic-speciation fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

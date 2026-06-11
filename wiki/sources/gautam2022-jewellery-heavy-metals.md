@@ -121,3 +121,13 @@ App: If a jewelry or pierced-contact-product exposure surface is built, this sou
 - Product slug note: no adult-jewelry product slug is available in the current routing vocabulary, so the page routes to the existing children's jewelry and piercing-post product pages and records the broader adult-jewelry context in text only.
 - Evidence tier: `A` because this is an ESR/Ministry of Health agency risk-assessment report with transparent source tables, regulatory review, and risk-characterization logic. Its occurrence contribution is secondary/contextual, not primary market sampling.
 - Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `1` product routing row (`childrens-jewelry`), was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients;matrices` advisory in `data/evidence/routing_malformed.csv` because this is a non-food hard-goods/jewelry source with no ingredient matrix.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5fb79cc](https://github.com/paleofoundation/heavymetalindex/commit/5fb79cc) | 2026-06-09 | ingest: gautam2022-jewellery-heavy-metals fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

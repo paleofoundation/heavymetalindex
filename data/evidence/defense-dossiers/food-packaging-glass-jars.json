@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-glass-jars",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "489f193ca77c63b4613ba84064b68c533c9f7969403fc28730cb058f04fafc51",
-      "content_bytes": 7356,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "c14b0b2d7284e2b489b353bd0aea89ef62449b759422e45810931cc2d0f34b42",
+      "content_bytes": 7370,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/food-packaging-glass-jars.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/food-packaging-glass-jars.md | sha256sum"
     }
   },
   "evidence_base": {

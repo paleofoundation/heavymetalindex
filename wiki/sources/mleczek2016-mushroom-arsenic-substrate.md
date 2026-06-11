@@ -60,3 +60,13 @@ App: Supports a supply-chain note that cultivated mushroom substrate quality can
 
 - This is a controlled substrate-amendment experiment, not a retail or field occurrence survey. It should be retained as mechanistic/context evidence unless a standards pool explicitly admits experimental contaminated-substrate studies.
 - The source reports arsenic species in the experiment design; this page does not convert total As values into inorganic As values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6661f46](https://github.com/paleofoundation/heavymetalindex/commit/6661f46) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

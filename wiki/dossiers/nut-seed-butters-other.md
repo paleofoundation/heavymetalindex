@@ -4,8 +4,8 @@ type: brand-dossier
 noindex: true
 audience: [regulator, brand-legal, commercial]
 category: products/nut-seed-butters-other
-hmtc_category: 4
-hmtc_row: 14
+hmtc_category: 28
+hmtc_row: 4
 generated: true
 ---
 
@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:1defabeebf5040b9d68fa6cddc4d62aa…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `55f6bde` (2026-06-09). The body hashes to `sha256:64fb86646821c738394eeb04750b7400…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=nut-seed-butters-other&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/nut-seed-butters-other&download=1`.
 

@@ -83,3 +83,13 @@ This source adds Ethiopian lupine-seed occurrence data for the broad legumes/pul
 - Matrix separation: Table 4 lupine seed values are product occurrence values; Table 5 soil concentrations and Table 7 BAF/MAI values are retained as pathway context only.
 - Missing slug note: the taxonomy snapshot has no exact `lupine` or `lupine-seeds` ingredient/product slug. Frontmatter uses the broad existing `[[ingredients/legumes]]` and `[[products/legumes-pulses-other]]` slugs.
 - Brand firewall: no commercial brands were present. Instrument and reagent vendor names are methods details rather than product contamination values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f15cb50](https://github.com/paleofoundation/heavymetalindex/commit/f15cb50) | 2026-06-09 | ingest: woreta2023-lupine-seeds-metals-ethiopia fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

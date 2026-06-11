@@ -79,6 +79,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [8bc7757](https://github.com/paleofoundation/heavymetalindex/commit/8bc7757) | 2026-06-08 | audit: lynch2014-inorganic-arsenic-food-review revised |
 | [78199c2](https://github.com/paleofoundation/heavymetalindex/commit/78199c2) | 2026-06-08 | ingest: lynch2014-inorganic-arsenic-food-review fresh from MFK/June 8 Inorganic Arsenic Seaweed |
 <!-- END: hmi-page-history -->

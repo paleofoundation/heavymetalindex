@@ -81,3 +81,13 @@ This source supports wastewater-irrigated vegetable occurrence context for leafy
 - Matrix separation: water and soil concentrations are not product occurrence values.
 - Missing slug note: the taxonomy snapshot has no exact `tinda`, `taro`, `Colocasia`, `radish`, or `turnip` ingredient/product slug. Frontmatter uses broad existing root/tuber, leafy, non-root vegetable, and spinach slugs.
 - No brand names were present.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3714d50](https://github.com/paleofoundation/heavymetalindex/commit/3714d50) | 2026-06-09 | ingest: ullah2022-khyber-vegetables-metals fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

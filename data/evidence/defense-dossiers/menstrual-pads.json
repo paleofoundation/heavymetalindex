@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/menstrual-pads",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "bd4d19c21b904c1b9dd4ac23cf36b7bc709e64f095571fc7b58c560ce5cae2d2",
-      "content_bytes": 8309,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "8010eb9bfc90b71c3e03d4548ad0937f24ee7aa3948375f27a4b33ed360f40f8",
+      "content_bytes": 11758,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/menstrual-pads.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/menstrual-pads.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 9,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -39,12 +39,215 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/bae2018-absorbent-hygiene-pads-safety-review",
         "content_pin": {
-          "content_sha256": "c02860590699af40a9527af0e6d86bda8e19af695d0969dc57dd7b2ac82e4f2a",
-          "content_bytes": 18089,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "90ab386d28c8dbc2008b6b8a0b6a82ab5f5f3599425d8ef6f202ca2fb00666e2",
+          "content_bytes": 18103,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/bae2018-absorbent-hygiene-pads-safety-review.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/bae2018-absorbent-hygiene-pads-safety-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gao2020-feminine-hygiene-edcs",
+        "title": "Phthalates, bisphenols, parabens, and triclocarban in feminine hygiene products from the United States and their implications for human exposure",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/gao2020-feminine-hygiene-edcs",
+        "content_pin": {
+          "content_sha256": "1ad984c191b7e3e4b6c1b26114233073cfb0b91318076d12398f9873ac11554e",
+          "content_bytes": 7730,
+          "last_commit_sha": "cdfa4e4",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show cdfa4e4:wiki/sources/gao2020-feminine-hygiene-edcs.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ma2024-sanitary-napkins-metals",
+        "title": "Occurrence of heavy metals in sanitary napkins from seven countries: Implication for risk management of female hygiene products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Co",
+          "Cu",
+          "Pb",
+          "Cd",
+          "Zn",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ma2024-sanitary-napkins-metals",
+        "content_pin": {
+          "content_sha256": "3dcece77bd4736de664f32d5f871756e6889ae42e1fdb5434776a7e5c376e5f8",
+          "content_bytes": 7738,
+          "last_commit_sha": "607df17",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 607df17:wiki/sources/ma2024-sanitary-napkins-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/marcelis2024-feminine-intimate-products-thesis",
+        "title": "Development of a generic safety assessment strategy for feminine intimate products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Li",
+          "Al",
+          "Cr",
+          "Mn",
+          "Fe",
+          "Co",
+          "Ni",
+          "Cu",
+          "Zn",
+          "tAs",
+          "Se",
+          "Cd",
+          "Sb",
+          "Ba",
+          "Pb",
+          "Sn",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/marcelis2024-feminine-intimate-products-thesis",
+        "content_pin": {
+          "content_sha256": "8bc2315c3394f19bbe1da0f0930a4f9489133d1ba8151072d87aed2b124b0a77",
+          "content_bytes": 8602,
+          "last_commit_sha": "7408d1c",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 7408d1c:wiki/sources/marcelis2024-feminine-intimate-products-thesis.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/marcelis2025-micp-leachables-metals",
+        "title": "Chemical characterization of menstrual and intimate care products: An extractables & leachables investigation",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Li",
+          "Al",
+          "Cr",
+          "Mn",
+          "Fe",
+          "Co",
+          "Ni",
+          "Cu",
+          "Zn",
+          "tAs",
+          "Se",
+          "Cd",
+          "Sb",
+          "Ba",
+          "Pb",
+          "Sn",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/marcelis2025-micp-leachables-metals",
+        "content_pin": {
+          "content_sha256": "abb2046a2210a9bcf51aa4f04a2614020bf1e427791692af454bbba7dbedb1b5",
+          "content_bytes": 7389,
+          "last_commit_sha": "a2319d6",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show a2319d6:wiki/sources/marcelis2025-micp-leachables-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/marroquin2024-menstrual-products-chemicals",
+        "title": "Chemicals in menstrual products: A systematic review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/marroquin2024-menstrual-products-chemicals",
+        "content_pin": {
+          "content_sha256": "993e65a017f17ef922d618d43eef88b8683020c061b2ea1a5991a8ad40009cea",
+          "content_bytes": 8328,
+          "last_commit_sha": "2452c18",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 2452c18:wiki/sources/marroquin2024-menstrual-products-chemicals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nic-corcrain2025-menstrual-products-metal-leaching",
+        "title": "Investigating links between heavy metals in menstrual hygiene products and reproductive hormonal health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nic-corcrain2025-menstrual-products-metal-leaching",
+        "content_pin": {
+          "content_sha256": "b1a4bda2adde5d33db4eafbb3960add65f07178475abf48d0e2fadfdc1633856",
+          "content_bytes": 4846,
+          "last_commit_sha": "ecf202b",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ecf202b:wiki/sources/nic-corcrain2025-menstrual-products-metal-leaching.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/shin2009-womens-sanitary-products-metals",
+        "title": "Determination of Heavy Metals in Sanitary Products of Women",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Co",
+          "Ni",
+          "Cu",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/shin2009-womens-sanitary-products-metals",
+        "content_pin": {
+          "content_sha256": "6bdbcd5cf18b20f4529546e8488d964c3225d3a774ebfa4a0882df312e6e1cc7",
+          "content_bytes": 4714,
+          "last_commit_sha": "b4580e4",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show b4580e4:wiki/sources/shin2009-womens-sanitary-products-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/upson2022-menstrual-products-exposure-review",
+        "title": "Menstrual products as a source of environmental chemical exposure: A review from the epidemiologic perspective",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/upson2022-menstrual-products-exposure-review",
+        "content_pin": {
+          "content_sha256": "f4c20a84203a99d4110cc0d93466b29e568e39137e80babc2f925d80aff65b20",
+          "content_bytes": 8208,
+          "last_commit_sha": "99df3ab",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 99df3ab:wiki/sources/upson2022-menstrual-products-exposure-review.md | sha256sum"
         }
       }
     ]

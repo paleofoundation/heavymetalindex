@@ -78,3 +78,13 @@ This source supports a local China occurrence route for rice grain, fresh fruit,
 - Matrix separation: soil rows are excluded from product occurrence values; they are only soil-crop pathway context.
 - Missing slug note: the taxonomy snapshot has no exact `bayberry` or fresh-mustard crop slug. Frontmatter uses broad existing `[[ingredients/fruit]]`, `[[ingredients/leafy-vegetables]]`, `[[products/fresh-fruit]]`, and `[[products/leafy-vegetables-other]]` slugs.
 - No brand names were present.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [44a2b20](https://github.com/paleofoundation/heavymetalindex/commit/44a2b20) | 2026-06-09 | ingest: liu2023-yuyao-soil-crop-metals fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

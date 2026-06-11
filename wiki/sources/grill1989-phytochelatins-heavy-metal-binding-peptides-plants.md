@@ -158,6 +158,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [2687dcf](https://github.com/paleofoundation/heavymetalindex/commit/2687dcf) | 2026-06-08 | audit: grill1989-phytochelatins-heavy-metal-binding-peptides-plants revised |
 | [d3d6cc0](https://github.com/paleofoundation/heavymetalindex/commit/d3d6cc0) | 2026-06-08 | ingest: grill1989-phytochelatins-heavy-metal-binding-peptides-plants fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

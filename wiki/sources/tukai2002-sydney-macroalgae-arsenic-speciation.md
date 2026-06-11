@@ -100,3 +100,13 @@ This paper contributes raw macroalgae arsenic occurrence and arsenic-speciation 
 - Tables 1 and 2 are Tukey HSD ranking tables rather than concentration tables; they were read but not reproduced as occurrence values.
 - Brand firewall: no consumer brands are named. *Ascophyllum nodosum* material used as an arsenoriboside standard is method context only.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact macroalgal species remain in Key numbers while frontmatter uses broad seaweed/kelp food routing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [89d8eeb](https://github.com/paleofoundation/heavymetalindex/commit/89d8eeb) | 2026-06-09 | ingest: tukai2002-sydney-macroalgae-arsenic-speciation fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

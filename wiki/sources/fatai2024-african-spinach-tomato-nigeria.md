@@ -80,6 +80,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [46843a9](https://github.com/paleofoundation/heavymetalindex/commit/46843a9) | 2026-06-07 | apply audit fatai2024 african spinach tomato |
 | [f388120](https://github.com/paleofoundation/heavymetalindex/commit/f388120) | 2026-06-07 | ingest auto-fetched 2026-06-07: fatai2024-african-spinach-tomato-nigeria |
 <!-- END: hmi-page-history -->

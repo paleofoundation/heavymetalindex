@@ -84,3 +84,13 @@ App: The source can support infant formula, baby cereal, baby snacks, fruit/meat
 - Units and basis are preserved: ready-to-feed formula values use `µg/l`, dry formula and foods use `µg/kg`, and exposure estimates use `µg/kg bw/day`. Powder formula and dried cereal products are as sold, not reconstituted.
 - Speciation: total arsenic and inorganic arsenic are separated. Chromium is total Cr assumed by the source to be Cr(III) for exposure; no Cr(VI) values are inferred. Mercury exposure is total mercury assumed as methylmercury by the source for risk assessment, but this page labels product occurrence as `tHg`.
 - Brand firewall: the report measured brand-name products, but this page records only category/group values and no brand-by-value table.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb63f6e](https://github.com/paleofoundation/heavymetalindex/commit/fb63f6e) | 2026-06-09 | Co-Authored-By: Codex GPT-5.5 <noreply@openai.com> |
+<!-- END: hmi-page-history -->

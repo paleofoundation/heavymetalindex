@@ -175,6 +175,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [16fb63b](https://github.com/paleofoundation/heavymetalindex/commit/16fb63b) | 2026-06-08 | audit: zhang2025-metalorian-de-novo-metal-binding-peptides revised |
 | [86d0037](https://github.com/paleofoundation/heavymetalindex/commit/86d0037) | 2026-06-08 | ingest: zhang2025-metalorian-de-novo-metal-binding-peptides fresh from Manual Fetch Kimi/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

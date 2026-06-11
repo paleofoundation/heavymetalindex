@@ -89,3 +89,13 @@ This source supports seaweed/kelp food and algae-seaweed supplement occurrence c
 - Units and basis are preserved as `mg/kg` dry-product values; no conversions were performed. The source uses decimal commas for most numeric values, which are retained here except the extracted `267.3` Table 3 Sr value.
 - Speciation check: arsenic is reported as `As` only and is recorded as tAs; mercury is reported as `Hg` only and is recorded as tHg; chromium is reported as `Cr` only and is not treated as Cr(VI).
 - Brand firewall: the paper describes purchase from Moscow pharmacy chains but does not report pharmacy or product brand names.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [20eea6c](https://github.com/paleofoundation/heavymetalindex/commit/20eea6c) | 2026-06-09 | ingest: shchukin2018-brown-algae-metals fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

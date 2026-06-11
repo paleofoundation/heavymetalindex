@@ -83,3 +83,13 @@ App: The source supports broad French-market context for seafood MeHg, crustacea
 - Units are preserved as printed: concentrations use `mg/kg fresh weight` for aluminum and `µg/kg fresh weight` for silver, cadmium, mercury, and lead; exposure uses `µg (kg bw-1) day-1` or `µg (kg bw-1) week-1`.
 - Speciation: methylmercury, inorganic mercury, and total/inorganic mercury assumptions are kept distinct. This page does not promote total mercury to methylmercury.
 - Brand firewall: INCA3 could record brands, but ANSES reports composite food groups and exposure categories; no brand-linked values are used.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb63f6e](https://github.com/paleofoundation/heavymetalindex/commit/fb63f6e) | 2026-06-09 | Co-Authored-By: Codex GPT-5.5 <noreply@openai.com> |
+<!-- END: hmi-page-history -->

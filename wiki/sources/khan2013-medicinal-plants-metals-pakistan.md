@@ -88,3 +88,13 @@ The paper contributes Pakistan occurrence data for medicinal-plant raw materials
 - Soil values are included only as paired collection-site context and should not be pooled as plant/product occurrence.
 - Brand firewall check: no commercial brands or producers are reported.
 - Closed vocabulary check: products, ingredients, metals, and wiki-page links use slugs present in `docs/gpt-collaboration/taxonomy-snapshot.md`. Exact species names such as *Dodonaea viscosa*, *Withania somnifera*, *Solanum nigrum*, *Calotropis gigantea*, *Mentha spicata*, *Paganum hermala*, *Cannabis sativa*, and *Adhatoda vasica* do not all have closed ingredient slugs, so they remain in table text and matrix descriptions only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e453966](https://github.com/paleofoundation/heavymetalindex/commit/e453966) | 2026-06-09 | ingest: khan2013-medicinal-plants-metals-pakistan fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

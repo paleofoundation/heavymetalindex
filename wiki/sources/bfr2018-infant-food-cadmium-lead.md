@@ -85,3 +85,13 @@ App: The source can support infant-food Cd/Pb context, especially formula powder
 - Speciation: the source reports cadmium and lead totals only; no iAs/tAs, MeHg/tHg, or Cr/Cr(VI) substitution issue is present.
 - The source-reported EU maximum levels in Table 1 are regulatory context only. This page does not propose, justify, or compare against any HMTc threshold.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; matrix descriptors such as `rusk-biscuits` are not product or ingredient slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8eb689c](https://github.com/paleofoundation/heavymetalindex/commit/8eb689c) | 2026-06-09 | ingest: bfr2018-infant-food-cadmium-lead fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

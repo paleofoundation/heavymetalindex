@@ -80,6 +80,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [f732e64](https://github.com/paleofoundation/heavymetalindex/commit/f732e64) | 2026-06-08 | audit: ronan2017-laminaria-ascophyllum-ias-ireland revised |
 | [ab2b5a0](https://github.com/paleofoundation/heavymetalindex/commit/ab2b5a0) | 2026-06-08 | ingest: ronan2017-laminaria-ascophyllum-ias-ireland fresh from MFK/June 8 Inorganic Arsenic Seaweed |
 <!-- END: hmi-page-history -->

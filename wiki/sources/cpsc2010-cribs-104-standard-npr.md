@@ -107,3 +107,14 @@ Third, it documents the CPSC staff position — based on EWS surveillance from N
 - **Audit subagent (2026-06-09) flagged the 36 structural-fatality breakdown** as internally inconsistent — original wording summed to 37 (35 entrapments + 1 screw + 1 wall-crib). Verified against staff memorandum p. 9: "Thirty-five of the 36 fatalities were due to head/neck/body entrapments… One death resulted from a child getting trapped between a wall and a crib… The non-entrapment death resulted from a screw getting lodged in the decedent's throat." The "non-entrapment death" is the definite-singular 36th; the wall-crib death is one of the 35 entrapments (a body entrapment between wall and crib caused by assembly error). Corrected the Key numbers bullet to read 35 entrapments (including the wall-crib body-entrapment) + 1 non-entrapment (screw) = 36. Finding correct, applied.
 - **Audit subagent (2026-06-09) flagged the methods-section lead-test-positive disposition** as summing to 6 (3 home-test-kit + 2 recall + 1 BLL) when source p. 15 reports 2 home-test-kit + 2 recall-associated + 1 BLL = 5. Verified — original text had a "3 of 5" arithmetic slip on home-test-kit count. Corrected to 2 home-test-kit + 2 recall + 1 BLL = 5. Finding correct, applied.
 - **Audit verdict**: REVISE. Two findings (one ❌, one ⚠️) both verified correct against the source and applied. Checks 2, 4, 5 returned ✅ clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1ec89b2](https://github.com/paleofoundation/heavymetalindex/commit/1ec89b2) | 2026-06-09 | audit: cpsc2010-cribs-104-standard-npr revised |
+| [af854f2](https://github.com/paleofoundation/heavymetalindex/commit/af854f2) | 2026-06-09 | ingest: cpsc2010-cribs-104-standard-npr fresh from MFK/June 8/Cribs_Bassinets_Enclosures |
+<!-- END: hmi-page-history -->

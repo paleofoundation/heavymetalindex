@@ -214,9 +214,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [57ef202](https://github.com/paleofoundation/heavymetalindex/commit/57ef202) | 2026-06-03 | audit: ospar2022-metals-fish-shellfish-sediment [revised] |
-| [b852b9b](https://github.com/paleofoundation/heavymetalindex/commit/b852b9b) | 2026-06-03 | ingest: ospar2022-metals-fish-shellfish-sediment [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory |
 <!-- END: hmi-page-history -->

@@ -169,6 +169,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [ba1c4cd](https://github.com/paleofoundation/heavymetalindex/commit/ba1c4cd) | 2026-06-08 | audit: rebellato2023b-plant-yogurt-element-bioaccessibility revised |
 | [07a005f](https://github.com/paleofoundation/heavymetalindex/commit/07a005f) | 2026-06-08 | ingest: rebellato2023b-plant-yogurt-element-bioaccessibility fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 3
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,7 +106,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/depa2015-cmr-toys\|Heckmann et al. 2015]]. *CMR Substances in Toys – Market Surveillance and Risk Assessment*, Survey of Chemical Substances in Consumer Products No. 141, 2015. Danish Environmental Protection Agency, Copenhagen. ISBN 978-87-93352-79-7. | 2015 | Regulatory agency report | DK/EU Sn, Al, Pb, Cd, Cr, Ni, Sb, tAs occurrence in Phase 2 chemical analyses: 28 toy products extracted by the Danish EPA's Chemical Inspection Service (CIS) from 30... (n=28) |
+| 1 | [[sources/gautam2024-finger-paints-metals-formaldehyde\|Gautam et al. 2024]]. *Health Risk Assessment: Formaldehyde and Heavy Metals in Finger Paints*, Institute of Environmental Science and Research client report FW24026 for Health New Zealand, National Public Health Service, November 2024 | 2024 | Agency report | NZ/EU/AU tAs, Cd, Cr, Pb, Ni, Al, Cu, Co, Mn, Zn occurrence in No original New Zealand market sampling. ESR/Health New Zealand risk assessment summarizing published finger-paint studies, European Safety Gate/RAPEX... |
+| 2 | [[sources/jalal2020-modeling-clay-metals\|Jalal et al. 2020]]. *Estimation of Some Metals in Children's Colorful Modeling Clay Sold in the Markets of Erbil City, Kurdistan Region, Iraq*, ZANCO Journal of Pure and Applied Sciences 32(5):134-145 | 2020 | Peer-reviewed | IQ/EU Cd, Cr, Cu, Ni occurrence in 54 colorful modeling-clay samples from nine brands purchased in Erbil city markets, Kurdistan Region, Iraq, during January 2018 (n=54) |
+| 3 | [[sources/depa2015-cmr-toys\|Heckmann et al. 2015]]. *CMR Substances in Toys – Market Surveillance and Risk Assessment*, Survey of Chemical Substances in Consumer Products No. 141, 2015. Danish Environmental Protection Agency, Copenhagen. ISBN 978-87-93352-79-7. | 2015 | Regulatory agency report | DK/EU Sn, Al, Pb, Cd, Cr, Ni, Sb, tAs occurrence in Phase 2 chemical analyses: 28 toy products extracted by the Danish EPA's Chemical Inspection Service (CIS) from 30... (n=28) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -116,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

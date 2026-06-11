@@ -117,3 +117,14 @@ The paper contributes A-tier occurrence data for the rice-bulk-grain, rice-cake 
 - [[products/baby-cereals-dry-rice-based]]
 - [[products/teething-and-snacks-rice-based]]
 - [[products/infant-porridges-dairy-free]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fba2f89](https://github.com/paleofoundation/heavymetalindex/commit/fba2f89) | 2026-06-09 | audit: noh2023-arsenic-rice-snacks-korea [revised] |
+| [329e2a6](https://github.com/paleofoundation/heavymetalindex/commit/329e2a6) | 2026-06-09 | ingest: noh2023-arsenic-rice-snacks-korea [fresh] from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

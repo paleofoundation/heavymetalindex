@@ -68,3 +68,13 @@ App: If home-air emission product context is surfaced, this source can flag that
 - Brand firewall: the paper does not report brand-specific values in the extracted text; product identities are treated as car air-freshener types only.
 - Product slug note: no exact car-air-freshener product slug exists in the current taxonomy. The page routes through `home-air-emission-products-other`.
 - Evidence tier: `B` because this is a peer-reviewed emissions study with transparent analytical methods, but it is not a quantitative metal occurrence study and the nickel-related result is presence/prevalence only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [224e9d8](https://github.com/paleofoundation/heavymetalindex/commit/224e9d8) | 2026-06-09 | ingest: steinemann2020-car-air-freshener-vocs fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

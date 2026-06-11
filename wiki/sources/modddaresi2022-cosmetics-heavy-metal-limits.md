@@ -84,3 +84,13 @@ App: If a regulatory comparison view is added for adult cosmetic/personal-care p
 - Speciation: the paper discusses regulatory limits and prohibitions, not new chemical speciation measurements. This page records As and Hg as total-context regulatory rows and does not treat them as iAs or MeHg.
 - Evidence tier: `C` because the paper is a useful review/crosswalk but not an official regulation, agency report, or primary occurrence dataset.
 - Routing: `products` is intentionally left empty because the source is a context-only regulatory/method review covering cosmetics generally; no specific product category has occurrence measurements in this source. No product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [01f3943](https://github.com/paleofoundation/heavymetalindex/commit/01f3943) | 2026-06-09 | ingest: modddaresi2022-cosmetics-heavy-metal-limits fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

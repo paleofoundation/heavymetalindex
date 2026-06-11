@@ -17,18 +17,365 @@
     "canonical_url": "https://heavymetalindex.com/products/menstrual-tampons",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "bdb654a32d9c1693b5d0ba600349170e72de136b92294c83b591377fabfa9da3",
-      "content_bytes": 7581,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "6ee5c25c05eb206f2e97ff00d0f95e5beeb692ac58dd1b0d1b661fa3d3f83882",
+      "content_bytes": 13812,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/menstrual-tampons.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/menstrual-tampons.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 14,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/archer2005-tampon-dioxins-furans",
+        "title": "Dioxin and Furan Levels Found in Tampons",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/archer2005-tampon-dioxins-furans",
+        "content_pin": {
+          "content_sha256": "cbc5894cdcec10ee133b7435a24abe787cad7cb6208f35ffb915b00793dd5d0a",
+          "content_bytes": 6268,
+          "last_commit_sha": "b40cbd3",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show b40cbd3:wiki/sources/archer2005-tampon-dioxins-furans.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/carlin2020-tampons-eyeshadows-chemistry",
+        "title": "Analytical Chemistry of Consumer Products: Research and Regulation of Tampons and Eyeshadows",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "Cr",
+          "tAs",
+          "Co",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/carlin2020-tampons-eyeshadows-chemistry",
+        "content_pin": {
+          "content_sha256": "d57ec66aa9414001ec523229c0db2de035784dca1aba046d5fffab746ae062e4",
+          "content_bytes": 7400,
+          "last_commit_sha": "fba0e51",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show fba0e51:wiki/sources/carlin2020-tampons-eyeshadows-chemistry.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/devito2002-tampons-diapers-dioxin-exposure",
+        "title": "Exposure Assessment to Dioxins from the Use of Tampons and Diapers",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/devito2002-tampons-diapers-dioxin-exposure",
+        "content_pin": {
+          "content_sha256": "4ce16d4a79ca5dc4bc080a34298d4f6d5c9931da36c16b70c365f4f34f8da86e",
+          "content_bytes": 14869,
+          "last_commit_sha": "b739a4c",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show b739a4c:wiki/sources/devito2002-tampons-diapers-dioxin-exposure.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ellison2026-tampon-lead-exposure",
+        "title": "Integrating experimental data and mechanistic modeling to assess potential lead exposure from tampon use",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ellison2026-tampon-lead-exposure",
+        "content_pin": {
+          "content_sha256": "670e5d3fdf559e6aaaa7383abef79f0cd6d38faa798d2da687ed508793eb2fd9",
+          "content_bytes": 6025,
+          "last_commit_sha": "cb847a2",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show cb847a2:wiki/sources/ellison2026-tampon-lead-exposure.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gao2020-feminine-hygiene-edcs",
+        "title": "Phthalates, bisphenols, parabens, and triclocarban in feminine hygiene products from the United States and their implications for human exposure",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/gao2020-feminine-hygiene-edcs",
+        "content_pin": {
+          "content_sha256": "1ad984c191b7e3e4b6c1b26114233073cfb0b91318076d12398f9873ac11554e",
+          "content_bytes": 7730,
+          "last_commit_sha": "cdfa4e4",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show cdfa4e4:wiki/sources/gao2020-feminine-hygiene-edcs.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ica2024-tampon-contaminants-review",
+        "title": "Contaminants in Vaginal Tampons: A Systematic Literature Review (SLR)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Ba",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cu",
+          "Fe",
+          "tHg",
+          "Mn",
+          "Ni",
+          "Pb",
+          "Se",
+          "Sr",
+          "V",
+          "Zn",
+          "Ca"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ica2024-tampon-contaminants-review",
+        "content_pin": {
+          "content_sha256": "37b01a0edd895ade74c766d09bbab34c48caadb26b2a13ce5d8de36d6a7d0da9",
+          "content_bytes": 7845,
+          "last_commit_sha": "c558e17",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show c558e17:wiki/sources/ica2024-tampon-contaminants-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/marcelis2024-feminine-intimate-products-thesis",
+        "title": "Development of a generic safety assessment strategy for feminine intimate products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Li",
+          "Al",
+          "Cr",
+          "Mn",
+          "Fe",
+          "Co",
+          "Ni",
+          "Cu",
+          "Zn",
+          "tAs",
+          "Se",
+          "Cd",
+          "Sb",
+          "Ba",
+          "Pb",
+          "Sn",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/marcelis2024-feminine-intimate-products-thesis",
+        "content_pin": {
+          "content_sha256": "8bc2315c3394f19bbe1da0f0930a4f9489133d1ba8151072d87aed2b124b0a77",
+          "content_bytes": 8602,
+          "last_commit_sha": "7408d1c",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 7408d1c:wiki/sources/marcelis2024-feminine-intimate-products-thesis.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/marcelis2025-micp-leachables-metals",
+        "title": "Chemical characterization of menstrual and intimate care products: An extractables & leachables investigation",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Li",
+          "Al",
+          "Cr",
+          "Mn",
+          "Fe",
+          "Co",
+          "Ni",
+          "Cu",
+          "Zn",
+          "tAs",
+          "Se",
+          "Cd",
+          "Sb",
+          "Ba",
+          "Pb",
+          "Sn",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/marcelis2025-micp-leachables-metals",
+        "content_pin": {
+          "content_sha256": "abb2046a2210a9bcf51aa4f04a2614020bf1e427791692af454bbba7dbedb1b5",
+          "content_bytes": 7389,
+          "last_commit_sha": "a2319d6",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show a2319d6:wiki/sources/marcelis2025-micp-leachables-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/marroquin2024-menstrual-products-chemicals",
+        "title": "Chemicals in menstrual products: A systematic review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/marroquin2024-menstrual-products-chemicals",
+        "content_pin": {
+          "content_sha256": "993e65a017f17ef922d618d43eef88b8683020c061b2ea1a5991a8ad40009cea",
+          "content_bytes": 8328,
+          "last_commit_sha": "2452c18",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 2452c18:wiki/sources/marroquin2024-menstrual-products-chemicals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nic-corcrain2025-menstrual-products-metal-leaching",
+        "title": "Investigating links between heavy metals in menstrual hygiene products and reproductive hormonal health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nic-corcrain2025-menstrual-products-metal-leaching",
+        "content_pin": {
+          "content_sha256": "b1a4bda2adde5d33db4eafbb3960add65f07178475abf48d0e2fadfdc1633856",
+          "content_bytes": 4846,
+          "last_commit_sha": "ecf202b",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ecf202b:wiki/sources/nic-corcrain2025-menstrual-products-metal-leaching.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/okwuegbuna2025-tampon-metal-release-thesis",
+        "title": "Integrated Analytical Approaches for Menstrual Health Assessment: Heavy Metal Quantification and Optimized Sample Collection for Biomarker Analysis",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/okwuegbuna2025-tampon-metal-release-thesis",
+        "content_pin": {
+          "content_sha256": "f901641d30f05e45c56604abe0c0c8dd77af4f777f1133c45ffb921365684518",
+          "content_bytes": 7910,
+          "last_commit_sha": "a2f6ace",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show a2f6ace:wiki/sources/okwuegbuna2025-tampon-metal-release-thesis.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/shearston2024-tampon-metalloids",
+        "title": "Tampons as a source of exposure to metal(loid)s",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cu",
+          "Fe",
+          "tHg",
+          "Mn",
+          "Ni",
+          "Pb",
+          "Se",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/shearston2024-tampon-metalloids",
+        "content_pin": {
+          "content_sha256": "b211ca314bc0233012719e4d6af0f1846e242b21d47fe9196c83e8b04a3f56f6",
+          "content_bytes": 4008,
+          "last_commit_sha": "83e8ad1",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 83e8ad1:wiki/sources/shearston2024-tampon-metalloids.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/shin2009-womens-sanitary-products-metals",
+        "title": "Determination of Heavy Metals in Sanitary Products of Women",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Co",
+          "Ni",
+          "Cu",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/shin2009-womens-sanitary-products-metals",
+        "content_pin": {
+          "content_sha256": "6bdbcd5cf18b20f4529546e8488d964c3225d3a774ebfa4a0882df312e6e1cc7",
+          "content_bytes": 4714,
+          "last_commit_sha": "b4580e4",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show b4580e4:wiki/sources/shin2009-womens-sanitary-products-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/upson2022-menstrual-products-exposure-review",
+        "title": "Menstrual products as a source of environmental chemical exposure: A review from the epidemiologic perspective",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/upson2022-menstrual-products-exposure-review",
+        "content_pin": {
+          "content_sha256": "f4c20a84203a99d4110cc0d93466b29e568e39137e80babc2f925d80aff65b20",
+          "content_bytes": 8208,
+          "last_commit_sha": "99df3ab",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 99df3ab:wiki/sources/upson2022-menstrual-products-exposure-review.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

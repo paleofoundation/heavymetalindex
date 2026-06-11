@@ -65,3 +65,13 @@ App: Supports a wild-mushroom higher-risk flag, especially near urban or contami
 
 - The PDF table labels "cooper"; this page uses copper in prose but preserves the source's numeric values.
 - Units are ug/g dry weight in the source tables, equivalent to mg/kg dry weight.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6661f46](https://github.com/paleofoundation/heavymetalindex/commit/6661f46) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

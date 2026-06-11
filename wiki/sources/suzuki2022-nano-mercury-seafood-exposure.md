@@ -79,5 +79,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [59be7b5](https://github.com/paleofoundation/heavymetalindex/commit/59be7b5) | 2026-06-09 | audit: suzuki2022-nano-mercury-seafood-exposure [promoted] per autonomous audit |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [745b464](https://github.com/paleofoundation/heavymetalindex/commit/745b464) | 2026-06-08 | ingest: suzuki2022-nano-mercury-seafood-exposure fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->

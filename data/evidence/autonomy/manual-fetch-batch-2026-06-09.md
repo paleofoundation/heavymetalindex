@@ -789,3 +789,63 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/18_Products_Covered_2011.pdf`: already_ingested_clean_post_2026-05-14 — `cpsc2012-cpsia-101b-functional-purpose-exception` (updated 2026-06-01, audit-applied 2026-06-01, SHA-identical to May 21 copy; only routing_malformed entry is advisory for documented-correct empty `ingredients`/`matrices`)
+
+## Tick 2026-06-09T11:09:20.220Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `dobrzynska2025-milk-formulae-elemental-composition` (raw/Manual Fetch Discovery/dobrzynska2026-milk-formulae-elemental-composition.pdf)
+
+## Tick 2026-06-09T11:21:15.997Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `largueza2026-milk-formulas-toxic-elements-review` (raw/Manual Fetch Discovery/largueza2026-milk-formulas-toxic-elements-review.pdf)
+
+## Tick 2026-06-09T11:35:39.753Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cpsc2010-cribs-104-standard-npr` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_01_Cribs_Bassinets_Enclosures/01_Cribs_Bassinets_Enclosures/06_Unknown.pdf)
+
+## Tick 2026-06-09T11:49:30.023Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `iec2020-cpsc-cribs-rule-review` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings/09_Unknown.pdf)
+
+## Tick 2026-06-09T12:06:23.057Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings/15_Unknown.pdf`: off_topic_no_heavy_metals — MFK_15-unknown is a 2008 Washington Toxics Coalition phthalates-in-toys advocacy report; zero heavy-metal analytes measured
+
+## Tick 2026-06-09T12:12:29.116Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cooper2016-flame-retardants-puf-consumer-products` (raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats/05_Unknown.pdf)

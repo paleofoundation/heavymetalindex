@@ -242,9 +242,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [a7df828](https://github.com/paleofoundation/heavymetalindex/commit/a7df828) | 2026-06-03 | audit: tjandraatmadja2010-csiro-household-products-nutrients-elements [revised] |
-| [c365a26](https://github.com/paleofoundation/heavymetalindex/commit/c365a26) | 2026-06-03 | ingest: tjandraatmadja2010-csiro-household-products-nutrients-elements [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/08_Laundry_Bleach_Fabric |
 <!-- END: hmi-page-history -->

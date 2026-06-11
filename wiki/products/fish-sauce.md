@@ -15,7 +15,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: none
-sources: 0
+sources: 2
 wiki_doi: null
 updated: 2026-06-09
 ---
@@ -31,7 +31,23 @@ updated: 2026-06-09
 
 No sources are routed to this row yet. The corpus will accumulate via the source-routing layer.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<!-- BEGIN: source-legend -->
-<!-- END: source-legend -->
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/divis2020-mercury-fish-sauce-dgt-tda-aas\|Diviš et al. 2020]]. *Determination of Mercury in Fish Sauces by Thermal Decomposition Gold Amalgamation Atomic Absorption Spectroscopy after Preconcentration by Diffusive Gradients in Thin Films Technique*, Foods | 2020 | Peer-reviewed | VN/TH/CZ tHg occurrence in Ten commercial fish sauces purchased at Asian markets in Brno (Czech Republic) and Brussels (Belgium); three coded as... (n=10) |
+| 2 | [[sources/rodriguez2009-fish-sauce-arsenic-speciation\|Rodriguez et al. 2009]]. *Arsenic speciation in fish sauce samples determined by HPLC coupled to inductively coupled plasma mass spectrometry*, Food Chemistry | 2009 | Peer-reviewed | AT/TH/VN tAs, iAs occurrence in Six commercial fish sauces — four brands from Thailand and two from Vietnam — purchased at local stores... (n=6) |
+<!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [08c8f83](https://github.com/paleofoundation/heavymetalindex/commit/08c8f83) | 2026-06-09 | reorg(taxonomy-v2.2): scaffold new Cat 30-35 rows (no candidate values) |
+<!-- END: hmi-page-history -->

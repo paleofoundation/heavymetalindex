@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 3
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,7 +106,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/oeko-tex2024-new-limit-values\|Association 2024]]. *OEKO-TEX® Limit values: New regulations 2024*, OEKO-TEX® Service GmbH customer information notice, 09 January 2024, Zurich, Switzerland. Updates applicable test criteria, limit values, and requirements for the OEKO-TEX® STANDARD 100, ORGANIC COTTON, LEATHER STANDARD, ECO PASSPORT, and STeP certification labels; new values binding from 01 April 2024 after a three-month transition period. | 2024 | Industry | INT/EU/CH Pb, Cd, tAs, Sb, Cr, Cr-VI, Ni, tHg occurrence in Not a primary-measurement study. The notice publishes the OEKO-TEX Association's updated 2024 limit values for the STANDARD 100,... |
+| 1 | [[sources/zhang2026-cotton-arsenic-amf-calcium\|Zhang et al. 2026]]. *Arbuscular Mycorrhizal Fungi and Exogenous Calcium Synergistically Alleviate Arsenic Stress in Cotton Seedlings*, Journal of Fungi | 2026 | Peer-reviewed | CN iAs occurrence in Cotton seedlings grown in a controlled pot experiment with arsenate-spiked soil, Funneliformis mosseae inoculation, and exogenous calcium treatments (n=24) |
+| 2 | [[sources/oeko-tex2024-new-limit-values\|Association 2024]]. *OEKO-TEX® Limit values: New regulations 2024*, OEKO-TEX® Service GmbH customer information notice, 09 January 2024, Zurich, Switzerland. Updates applicable test criteria, limit values, and requirements for the OEKO-TEX® STANDARD 100, ORGANIC COTTON, LEATHER STANDARD, ECO PASSPORT, and STeP certification labels; new values binding from 01 April 2024 after a three-month transition period. | 2024 | Industry | INT/EU/CH Pb, Cd, tAs, Sb, Cr, Cr-VI, Ni, tHg occurrence in Not a primary-measurement study. The notice publishes the OEKO-TEX Association's updated 2024 limit values for the STANDARD 100,... |
+| 3 | [[sources/nguyen2016-underwear-trace-elements\|Nguyen et al. 2016]]. *Exposure of women to trace elements through the skin by direct contact with underwear clothing*, Journal of Environmental Science and Health, Part A | 2016 | Peer-reviewed | Ag, Al, tAs, Ba, Be, Bi, Cd, Co, Cr, Cu, Fe, tHg, Li, Mn, Ni, Pb, Sb, Se, Sr, Ti, V, Zn occurrence in Women undergarments: 63 cotton, 44 nylon, and 13 polyester samples manufactured in 14 countries and purchased as direct-skin-contact... (n=120) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -116,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

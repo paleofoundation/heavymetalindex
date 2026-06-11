@@ -113,3 +113,13 @@ This source contributes direct occurrence evidence for commercial kelp/algal pow
 - Speciation check: total arsenic, arsenate, DMA, arsenobetaine, TMA, and individual arsenosugar/thioarsenosugar species are kept distinct. Arsenate detections are treated as inorganic arsenic context only for the source-reported arsenate rows; total As is not substituted for iAs.
 - Brand firewall: consumer suppliers/brands are not named. Instrument/reagent/reference-material vendors are retained only as scientific-method context.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact algal types and sample codes remain in Key numbers while frontmatter uses broad seaweed/kelp and algae/seaweed supplement routing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6a040f2](https://github.com/paleofoundation/heavymetalindex/commit/6a040f2) | 2026-06-09 | ingest: nischwitz2006-commercial-kelp-arsenic-speciation fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

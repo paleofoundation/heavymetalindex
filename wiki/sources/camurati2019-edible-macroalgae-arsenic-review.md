@@ -77,6 +77,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [9912a16](https://github.com/paleofoundation/heavymetalindex/commit/9912a16) | 2026-06-08 | audit: camurati2019-edible-macroalgae-arsenic-review revised |
 | [365a5ca](https://github.com/paleofoundation/heavymetalindex/commit/365a5ca) | 2026-06-08 | fix: camurati2019 jurisdictions [] -> [AR] (clear non-blocking routing advisory) |
 | [e20b61f](https://github.com/paleofoundation/heavymetalindex/commit/e20b61f) | 2026-06-08 | ingest: camurati2019-edible-macroalgae-arsenic-review fresh from MFK/June 8 Inorganic Arsenic Seaweed |

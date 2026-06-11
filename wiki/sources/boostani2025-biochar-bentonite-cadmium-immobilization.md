@@ -66,3 +66,14 @@ The DOI, title, author list, journal, and year were taken from the Scientific Re
 The `matrices:` slugs (calcareous-soil, coffee-grounds-biochar, municipal-solid-waste-biochar, bentonite, soil-remediation) are descriptive free-text outside the controlled food/personal-care matrices vocabulary, which is appropriate for a Cd-spiked soil-remediation study; with empty `products:` and `ingredients:` arrays, the routing layer correctly treats this source as remediation evidence only.
 
 GPT audit (2026-06-09 autonomous) flagged "M + B2 carbonate-bound Cd 14.0 mg/kg" as a transposition of the 14.9 mean; verified against Table 3 (M+B2 cell = 14.0) and the page 6 source text ("the combined treatments of G + B0 (14.0 mg Cd kg-1) and M + B2 (14.0 mg Cd kg-1)") — finding was a false positive because the auditor confused the M-column mean (14.9) with the M+B2 cell value (14.0).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5298c6f](https://github.com/paleofoundation/heavymetalindex/commit/5298c6f) | 2026-06-09 | audit: boostani2025-biochar-bentonite-cadmium-immobilization revised per autonomous audit |
+| [f27a79b](https://github.com/paleofoundation/heavymetalindex/commit/f27a79b) | 2026-06-09 | ingest auto-fetched 2026-06-09: boostani2025-biochar-bentonite-cadmium-immobilization |
+<!-- END: hmi-page-history -->

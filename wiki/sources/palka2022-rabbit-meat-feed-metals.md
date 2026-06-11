@@ -66,3 +66,13 @@ Microbiome: Not applicable.
 ## Verification notes
 
 The DOI, authors, journal, publication date, and CC BY license are visible on the first page of the PDF. The auto-fetched filename contains `2023`, but the actual article was published in 2022 as Animals 12, article 827. A duplicate auto-fetched copy exists under the lead-targeted vitamin-mineral supplement filename; this page uses the cadmium-targeted copy as the canonical raw path.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c80862a](https://github.com/paleofoundation/heavymetalindex/commit/c80862a) | 2026-06-09 | ingest auto-fetched 2026-06-09: palka2022-rabbit-meat-feed-metals |
+<!-- END: hmi-page-history -->

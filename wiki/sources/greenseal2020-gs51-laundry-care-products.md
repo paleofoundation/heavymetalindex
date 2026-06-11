@@ -92,3 +92,13 @@ App: The source can support a laundry-product regulatory context card where HMI 
 - Evidence tier: `B` because this is a binding third-party voluntary certification standard with routeable regulatory context but no primary occurrence data.
 - Missing slug note: selenium is named in the product prohibited-components and colorants clauses, but no selenium metal page exists in the current taxonomy snapshot. It is preserved in Key numbers rather than linked through a non-existent slug.
 - Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `11` laundry/fabric-contact product routing rows, was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients` advisory in `data/evidence/routing_malformed.csv`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c7e5aec](https://github.com/paleofoundation/heavymetalindex/commit/c7e5aec) | 2026-06-09 | ingest: greenseal2020-gs51-laundry-care-products fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

@@ -62,3 +62,13 @@ App: The paper supports supply-chain context around coffee silverskin and insect
 - The paper reports arsenic as total As and mercury as total Hg; this page uses tAs and tHg and does not infer inorganic arsenic or methylmercury.
 - The auto-fetched filename is a coffee gap hit, but the routeable matrix is coffee silverskin as an insect-rearing substrate plus insect biomass, not brewed coffee.
 - Products are intentionally empty because this source does not measure a named consumer product row; it is supply-chain/feed-ingredient evidence.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6712f3d](https://github.com/paleofoundation/heavymetalindex/commit/6712f3d) | 2026-06-09 | ingest auto-fetched 2026-06-09: truzzi2020-insect-biomass-feed-metals |
+<!-- END: hmi-page-history -->

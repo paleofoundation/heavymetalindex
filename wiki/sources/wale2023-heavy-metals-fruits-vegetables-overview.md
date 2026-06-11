@@ -107,5 +107,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [e7896b5](https://github.com/paleofoundation/heavymetalindex/commit/e7896b5) | 2026-06-07 | ingest: wale2023-heavy-metals-fruits-vegetables-overview fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

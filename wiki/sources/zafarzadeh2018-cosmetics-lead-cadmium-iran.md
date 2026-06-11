@@ -114,3 +114,13 @@ App: If adult personal-care product profiles are added later, the Table 1 produc
 - Evidence tier: `B` because the paper is peer-reviewed and reports a primary 264-sample analytical survey, but the journal/method detail does not meet A-tier expectations. The paper does not report CRM recovery, blanks, LOD/LOQ values in finished-product units, or per-sample raw data; it also contains several source-side transposition/caption inconsistencies.
 - Routing: all product slugs used in frontmatter appear in `docs/gpt-collaboration/taxonomy-snapshot.md`. Missing exact slugs: the snapshot has no non-retired adult `lip-products` page despite a planned product-index row, no eye-makeup-remover slug, and no explicit pancake-makeup slug. The page uses `lipstick` for exact closed-vocabulary continuity, `facial-cleansers` for eye makeup remover, and `makeup-foundation-powders-blush` for pancake makeup.
 - Speciation: Cd and Pb are elemental total-metal measurements only; no cadmium/lead species distinction is reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [381306d](https://github.com/paleofoundation/heavymetalindex/commit/381306d) | 2026-06-09 | ingest: zafarzadeh2018-cosmetics-lead-cadmium-iran fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

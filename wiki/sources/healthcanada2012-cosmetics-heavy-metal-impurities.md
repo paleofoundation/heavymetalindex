@@ -76,3 +76,13 @@ App: The source can support a Canada cosmetic-regulatory-context card for lead, 
 - Brand firewall: no brand names or brand-linked contamination values are reported in the guidance.
 - Evidence tier: `A` because this is official Health Canada guidance; it is context-only because no primary occurrence table or analyte-by-product dataset is printed.
 - Routing: the taxonomy snapshot has metal slugs for lead, arsenic-total, cadmium, mercury-total, and antimony, but no broad all-cosmetics product slug. `products` is left empty rather than inventing a destination or over-specifying many cosmetic subcategories. `npm run evidence:source-routes` exited 0, generated no product routing rows for this context-only source, left the source absent from `routing_unresolved.csv`, and recorded only the expected nonblocking `products;ingredients` advisory in `routing_malformed.csv`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [11e3a05](https://github.com/paleofoundation/heavymetalindex/commit/11e3a05) | 2026-06-09 | ingest: healthcanada2012-cosmetics-heavy-metal-impurities fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

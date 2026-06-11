@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-contact-combination-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c4d67e1fbf83b19af93f6ef943cdbaf4100a1c1fc92c71cc56b2b4b7fc2791be",
-      "content_bytes": 8445,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "00e44c93c5a55c24f704ee4609afe15e69e1ff2d346e9e133d81a04b1635f1f9",
+      "content_bytes": 8459,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/fabric-contact-combination-products.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/fabric-contact-combination-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/oeko-tex2024-new-limit-values",
         "content_pin": {
-          "content_sha256": "4f59c50d1fb41932016e5f63f136e4139ff3ad60831d3ed2dc7cbe4401add3ad",
-          "content_bytes": 22476,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "892bae14ecd314c0d6d98403681676aa92cbc3f950d5a29a189534e9cafe4a4f",
+          "content_bytes": 22490,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
         }
       }
     ]

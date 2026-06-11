@@ -162,6 +162,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [7cde25b](https://github.com/paleofoundation/heavymetalindex/commit/7cde25b) | 2026-06-06 | audit: mahlungulu2023-heavy-metals-grapevine-soil [revised] |
 | [a559069](https://github.com/paleofoundation/heavymetalindex/commit/a559069) | 2026-06-06 | ingest: mahlungulu2023-heavy-metals-grapevine-soil [fresh] from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

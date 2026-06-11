@@ -90,3 +90,13 @@ App: Can inform market- and ingredient-aware arsenic priors for infant/toddler f
 ## Verification notes
 
 This page was built from the PDF title/byline, abstract, methods, Tables 1-4, discussion, and conclusions. The source uses `tAs` because ICP-MS total arsenic was reported without arsenic speciation. The Table 4 heading says "ITF-wheat" in the PDF, but its section title, row labels, and discussion identify the table as rice-containing ITF; this page records it as ITF-rice and notes no change to source values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6e46f87](https://github.com/paleofoundation/heavymetalindex/commit/6e46f87) | 2026-06-09 | ingest auto-fetched 2026-06-09: vincevica-gaile2024-libya-infant-toddler-food-arsenic |
+<!-- END: hmi-page-history -->

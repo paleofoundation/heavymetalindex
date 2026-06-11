@@ -40,6 +40,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { spawnSync } from "node:child_process"
+const CLAUDE_BIN = process.env.CLAUDE_BIN || "/opt/homebrew/bin/claude" // pinned: bare "claude" ENOENTs in bg shells + nightly auto-update window
 
 const repoRoot = process.cwd()
 const autonomyDir = path.join(repoRoot, "data/evidence/autonomy")
@@ -237,7 +238,7 @@ function buildScoutPrompt(snap) {
 
 function runScout(prompt) {
   const r = spawnSync(
-    "claude",
+    CLAUDE_BIN,
     ["--print", "--model", claudeModel],
     { input: prompt, encoding: "utf8", timeout: 3 * 60 * 1000 },
   )

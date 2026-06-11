@@ -17,18 +17,59 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-contact-products-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6ab80ce147e45d609dee86948a5351fdacebee973faf5368389115af88a48661",
-      "content_bytes": 8431,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "80b179390074551cdb196e6b40cd569a22444bc78fc72f6d85644c5825a66062",
+      "content_bytes": 9354,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/fabric-contact-products-other.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/fabric-contact-products-other.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/nguyen2016-underwear-trace-elements",
+        "title": "Exposure of women to trace elements through the skin by direct contact with underwear clothing",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ag",
+          "Al",
+          "tAs",
+          "Ba",
+          "Be",
+          "Bi",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cu",
+          "Fe",
+          "tHg",
+          "Li",
+          "Mn",
+          "Ni",
+          "Pb",
+          "Sb",
+          "Se",
+          "Sr",
+          "Ti",
+          "V",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nguyen2016-underwear-trace-elements",
+        "content_pin": {
+          "content_sha256": "4152d111347301404b81462dc9e04ba925ad03fba60c3eced50bb2128a11ec09",
+          "content_bytes": 5731,
+          "last_commit_sha": "ecf202b",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ecf202b:wiki/sources/nguyen2016-underwear-trace-elements.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/oeko-tex2024-new-limit-values",
         "title": "OEKO-TEX® Limit values: New regulations 2024",
@@ -48,12 +89,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/oeko-tex2024-new-limit-values",
         "content_pin": {
-          "content_sha256": "4f59c50d1fb41932016e5f63f136e4139ff3ad60831d3ed2dc7cbe4401add3ad",
-          "content_bytes": 22476,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "892bae14ecd314c0d6d98403681676aa92cbc3f950d5a29a189534e9cafe4a4f",
+          "content_bytes": 22490,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zhang2026-cotton-arsenic-amf-calcium",
+        "title": "Arbuscular Mycorrhizal Fungi and Exogenous Calcium Synergistically Alleviate Arsenic Stress in Cotton Seedlings",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zhang2026-cotton-arsenic-amf-calcium",
+        "content_pin": {
+          "content_sha256": "b479c01c2fc86581c8126b697a9cb4f7713ad2ae869837bcc78ee6b557f80b95",
+          "content_bytes": 5629,
+          "last_commit_sha": "3ec492d",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ec492d:wiki/sources/zhang2026-cotton-arsenic-amf-calcium.md | sha256sum"
         }
       }
     ]

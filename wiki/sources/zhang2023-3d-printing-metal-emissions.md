@@ -66,3 +66,14 @@ App: Supports a context warning that 3D-printing emissions can include Pb, tAs, 
 - The auto-fetch row labelled the target as `fabric-protectants`; the actual paper is about material-extrusion 3D-printing filaments and emitted particles. The source page therefore leaves `products` empty and lists the fetched product page only as a may-touch/misroute context, not as direct evidence.
 - Arsenic and chromium were measured as total elemental concentrations by ICP-MS; no inorganic arsenic or Cr-VI substitution is made.
 - Matrix vocabulary note: `indoor-air` is already used in the wiki; `3d-printer-filament` and `emitted-particles` are source-specific matrix descriptors retained so the routing layer does not misclassify this as fabric-protectant occurrence evidence. If a durable-goods 3D-printing category is locked later, these should be normalized into that taxonomy.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [728fe75](https://github.com/paleofoundation/heavymetalindex/commit/728fe75) | 2026-06-09 | audit auto-fetched 2026-06-09: zhang2023-3d-printing-metal-emissions |
+| [3dd241d](https://github.com/paleofoundation/heavymetalindex/commit/3dd241d) | 2026-06-09 | ingest auto-fetched 2026-06-09: zhang2023-3d-printing-metal-emissions |
+<!-- END: hmi-page-history -->

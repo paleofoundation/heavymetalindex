@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/swings-and-bouncers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f5aba208f2395979cc7c4dac3d35f5aa01aea6571db9aee788e7403153ab3562",
-      "content_bytes": 8667,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "b7abb0d4fdad5aee64993c7d81f2ce99d94c8cf5562df0117ff3c04e1bf6943e",
+      "content_bytes": 8681,
+      "last_commit_sha": "aca5e21",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/swings-and-bouncers.md | sha256sum"
+      "verify_command": "git show aca5e21:wiki/products/swings-and-bouncers.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "b99cbe00b9f53aecd919031d72fb878617de0d39017862450690312d5b9018e5",
-          "content_bytes": 59374,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "d8517544f8bf0b8156d55e43e071f0406b3245f0234637f94517e66c1daa9c09",
+          "content_bytes": 59388,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -76,12 +76,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ul2012-chemicals-childrens-toys",
         "content_pin": {
-          "content_sha256": "2c7cd44904ba216629459e1d42ae831486c0e1fb96a5795dd6a641b3c1625840",
-          "content_bytes": 31726,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "55845538ccce85351599a2954fa533d224207ab3532eafb7960550581f0419a6",
+          "content_bytes": 31740,
+          "last_commit_sha": "aca5e21",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
+          "verify_command": "git show aca5e21:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
         }
       }
     ]

@@ -96,6 +96,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [7ec1c2c](https://github.com/paleofoundation/heavymetalindex/commit/7ec1c2c) | 2026-06-08 | audit: taylor2016-new-england-seaweed-arsenic revised |
 | [04a1578](https://github.com/paleofoundation/heavymetalindex/commit/04a1578) | 2026-06-08 | ingest: taylor2016-new-england-seaweed-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
 <!-- END: hmi-page-history -->

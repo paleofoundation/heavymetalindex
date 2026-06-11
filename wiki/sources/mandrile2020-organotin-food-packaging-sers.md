@@ -108,3 +108,13 @@ App: If flexible food-packaging organotin context is surfaced, this source can s
 - The `3,91 ± 0.78` SERS value for PVC + TBT h.c. is copied with the source table's comma decimal mark.
 - The page records the source's regulatory migration-limit comparison as context only and does not propose any HMTc threshold.
 - Closed-vocabulary check: product routing uses the broad flexible food-packaging films row. No PVC-cling-film product or organotin ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1ec89b2](https://github.com/paleofoundation/heavymetalindex/commit/1ec89b2) | 2026-06-09 | audit: cpsc2010-cribs-104-standard-npr revised |
+<!-- END: hmi-page-history -->

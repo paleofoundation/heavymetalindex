@@ -64,3 +64,13 @@ App: Context only. The paper does not support consumer-facing product contaminat
 ## Verification notes
 
 The DOI, author list, journal, and year were taken from the ACS Omega PDF. The paper is not occurrence evidence: products and ingredients are intentionally empty, and the matrices are wastewater, river-water, and bioflocculation contexts. Table 1 has a formatting gap in the extracted text for the first ES phosphate value, so the source page preserves only clearly aligned values and avoids inferring the missing cell.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [80fee29](https://github.com/paleofoundation/heavymetalindex/commit/80fee29) | 2026-06-09 | ingest auto-fetched 2026-06-09: picos-corrales2020-chitosan-bean-straw-bioflocculants |
+<!-- END: hmi-page-history -->

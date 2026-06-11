@@ -69,3 +69,12 @@ The source supports Pakistan freshwater fish occurrence context for total/source
 
 The OCR of several figure labels is noisy and the species name appears as both Crossocheilus aplocheilus and Crossocheilus diplocheilus in the PDF text. The DOI and article metadata are clear. Arsenic is not speciated; route as total/source-reported As, not inorganic arsenic.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6661f46](https://github.com/paleofoundation/heavymetalindex/commit/6661f46) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

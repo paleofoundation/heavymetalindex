@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: infant-formula-powder-soy-based
 public_page: products/infant-formula-powder-soy-based
-updated: 2026-06-02
+updated: 2026-06-09
 ---
 
 # Workbench standards snapshot — Infant formula, powder (soy-based)
@@ -38,9 +38,9 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/aluminum\|Al]] | 5 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 5 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/nickel\|Ni]] | 2 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/cadmium\|Cd]] | 6 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 6 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (eu2023_cd_formula_soy_powder_20). |
+| [[metals/aluminum\|Al]] | 5 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: process local extraction backlog first | 5 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
+| [[metals/nickel\|Ni]] | 2 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: process local extraction backlog first | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
+| [[metals/cadmium\|Cd]] | 6 | Path A (sample-level distribution) | POOLING ENGINE PENDING: process local extraction backlog first | 6 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (eu2023_cd_formula_soy_powder_20). |
 
 ## Operational reminders
 

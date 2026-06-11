@@ -65,3 +65,13 @@ Microbiome: Not applicable.
 ## Verification notes
 
 The PDF is an author manuscript of the final Environment International article. The DOI, authors, journal, and year are visible on the first page. The source names brands in Table 1, but this page intentionally reports only category-level and study-level statistics under the brand firewall. The source does not speciate arsenic or mercury.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [83e8ad1](https://github.com/paleofoundation/heavymetalindex/commit/83e8ad1) | 2026-06-09 | ingest auto-fetched 2026-06-09: shearston2024-tampon-metalloids |
+<!-- END: hmi-page-history -->

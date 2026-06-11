@@ -60,3 +60,13 @@ App: No direct consumer-product risk distribution. The source can support contex
 ## Verification notes
 
 This page was built from the PDF title page, abstract, contact-time results, concentration/isotherm sections, kinetic discussion, reusability results, and conclusion. The auto-fetch filename's "fabric-protectants" label is not supported by the paper content. Products and ingredients are intentionally empty because the study reports aqueous remediation performance, not consumer-product occurrence.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74df705](https://github.com/paleofoundation/heavymetalindex/commit/74df705) | 2026-06-09 | ingest auto-fetched 2026-06-09: adaileh2025-pan-composite-lead-cadmium-wastewater |
+<!-- END: hmi-page-history -->

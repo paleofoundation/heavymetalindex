@@ -82,3 +82,13 @@ App: The source can support Australian-market food-category context for prepared
 - Units and basis are preserved as printed: food concentrations use `mg/kg`; dietary exposure uses `µg/kg bw/day` or PTWI percentages.
 - Speciation: seafood total arsenic, inorganic arsenic, total mercury, inorganic mercury, and methylmercury are recorded separately. No total arsenic was promoted to iAs, and no total mercury was promoted to MeHg.
 - Brand firewall: this is a government total diet study using food categories and composites; no brand-linked values are reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb63f6e](https://github.com/paleofoundation/heavymetalindex/commit/fb63f6e) | 2026-06-09 | Co-Authored-By: Codex GPT-5.5 <noreply@openai.com> |
+<!-- END: hmi-page-history -->

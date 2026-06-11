@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: mixed-meals-rice-containing
 public_page: products/mixed-meals-rice-containing
-updated: 2026-06-02
+updated: 2026-06-09
 ---
 
 # Workbench standards snapshot — Mixed meals, rice-containing

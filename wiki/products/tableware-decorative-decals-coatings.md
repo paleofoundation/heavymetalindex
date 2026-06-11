@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 2
+sources: 4
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,8 +106,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/rebeniak2014-pb-cd-ceramics-glassware-poland\|Rebeniak et al. 2014]]. *Exposure to lead and cadmium released from ceramics and glassware intended to come into contact with food*, Roczniki Państwowego Zakładu Higieny / Annals of the National Institute of Hygiene 2014;65(4):301-309 | 2014 | Peer-reviewed | PL/EU Pb, Cd occurrence in 1,273 ceramic and glassware items (mainly decorated) sampled from the Polish retail market 2010–2012 by Sanitary-Epidemiological Stations across... (n=1273) |
-| 2 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | HK/EU/US Pb, Cd, Ni, Cr, Cr-VI, Al occurrence in Narrative literature review; no original measurements. The review summarises secondary toxicology and migration evidence from FAO/WHO, EFSA, USFDA,... |
+| 1 | [[sources/dtu2024-food-contact-pb-cd-limits\|DTU National Food Institute 2024]]. *Suggestive maximum limits for lead and cadmium in food contact materials*, DTU National Food Institute memo no. 24/1014518 for the Danish Veterinary and Food Administration | 2024 | Regulatory report | DK/EU/DE Pb, Cd occurrence in DVFA 2023 internal testing summary for 47 ceramic cups, bowls, plates, and ovenproof dishes on the Danish market,... (n=47) |
+| 2 | [[sources/szynal2016-polish-ceramic-glassware-ni-cr\|Szynal et al. 2016]]. *Migration studies of nickel and chromium from ceramic and glass tableware into food simulants*, Roczniki Panstwowego Zakladu Higieny | 2016 | Peer-reviewed | PL/EU Ni, Cr occurrence in Ceramic tableware and decorated-rim glassware available on the Polish retail market and manufactured on an industrial scale in... (n=224) |
+| 3 | [[sources/rebeniak2014-pb-cd-ceramics-glassware-poland\|Rebeniak et al. 2014]]. *Exposure to lead and cadmium released from ceramics and glassware intended to come into contact with food*, Roczniki Państwowego Zakładu Higieny / Annals of the National Institute of Hygiene 2014;65(4):301-309 | 2014 | Peer-reviewed | PL/EU Pb, Cd occurrence in 1,273 ceramic and glassware items (mainly decorated) sampled from the Polish retail market 2010–2012 by Sanitary-Epidemiological Stations across... (n=1273) |
+| 4 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | HK/EU/US Pb, Cd, Ni, Cr, Cr-VI, Al occurrence in Narrative literature review; no original measurements. The review summarises secondary toxicology and migration evidence from FAO/WHO, EFSA, USFDA,... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -117,9 +119,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aca5e21](https://github.com/paleofoundation/heavymetalindex/commit/aca5e21) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 | [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

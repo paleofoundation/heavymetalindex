@@ -4,7 +4,7 @@ type: brand-dossier
 noindex: true
 audience: [regulator, brand-legal, commercial]
 category: products/condiments-general
-hmtc_category: 7
+hmtc_category: 32
 hmtc_row: 6
 generated: true
 ---
@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `1ca3eb0` (2026-06-06). The body hashes to `sha256:9078d854db304decb9873bbc611285d7…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `4d418d7` (2026-06-09). The body hashes to `sha256:7dc86991d9ba081e4911153f0dd88858…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=condiments-general&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/condiments-general&download=1`.
 

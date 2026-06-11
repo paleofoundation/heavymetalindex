@@ -112,3 +112,13 @@ This paper is routeable occurrence evidence for edible seaweed from India and pr
 - Speciation check: As is reported as `As` only and is recorded as tAs; Hg is reported as `Hg` only and is recorded as tHg; Cr is reported as total Cr and is not treated as Cr(VI).
 - The Table 2 mass-balanced values and Table 1 processed concentrations are both retained because they answer different questions: concentration as measured in processed material versus mass-balanced retention/reduction.
 - Brand firewall: the paper reports species, collection region, and laboratory processing methods; no consumer brands are attached to contamination values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8159e6d](https://github.com/paleofoundation/heavymetalindex/commit/8159e6d) | 2026-06-09 | ingest: sundhar2023-gulf-mannar-seaweed-metals fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

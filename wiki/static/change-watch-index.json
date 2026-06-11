@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T19:27:52.359Z",
+  "generated_at": "2026-06-09T12:47:18.395Z",
   "schema_version": "1.0.0",
   "canonical_base": "https://heavymetalindex.com",
   "total_events": 717,
@@ -477,6 +477,13 @@
     }
   ],
   "by_category": {
+    "products/aas-injectable": {
+      "slug": "products/aas-injectable",
+      "label": "Injectable anabolic-androgenic steroids (AAS)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/air-product-refill-materials": {
       "slug": "products/air-product-refill-materials",
       "label": "Replacement/refill materials for any dispensing system (oil refills, gel refills, spray refills)",
@@ -1171,6 +1178,55 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/cannabis-concentrates": {
+      "slug": "products/cannabis-concentrates",
+      "label": "Concentrates and extracts",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/cannabis-edibles": {
+      "slug": "products/cannabis-edibles",
+      "label": "Edibles (gummies, baked goods, beverages)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/cannabis-flower": {
+      "slug": "products/cannabis-flower",
+      "label": "Cannabis flower / dried herb",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/cannabis-tinctures-oils": {
+      "slug": "products/cannabis-tinctures-oils",
+      "label": "Tinctures and sublingual oils",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/cannabis-topicals": {
+      "slug": "products/cannabis-topicals",
+      "label": "Topicals (creams, balms, salves)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/cannabis-vape-hardware": {
+      "slug": "products/cannabis-vape-hardware",
+      "label": "Vape cartridges and hardware",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/canned-mushrooms": {
+      "slug": "products/canned-mushrooms",
+      "label": "Canned Mushrooms",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/canned-seafood": {
       "slug": "products/canned-seafood",
       "label": "Canned seafood (with tin flag)",
@@ -1210,6 +1266,13 @@
       "slug": "products/cashews",
       "label": "Cashews",
       "category_label": "Fruits, Vegetables, and Produce",
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/childrens-jewelry": {
+      "slug": "products/childrens-jewelry",
+      "label": "Children's Jewelry",
+      "category_label": null,
       "event_count": 0,
       "recent_events": []
     },
@@ -1283,6 +1346,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/confectionery-candy": {
+      "slug": "products/confectionery-candy",
+      "label": "Candy and confectionery (hard candy, caramels, imported/ethnic sweets)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/cooking-oils-other": {
       "slug": "products/cooking-oils-other",
       "label": "Other cooking oils (canola, sunflower, coconut, avocado, sesame)",
@@ -1325,9 +1395,72 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/cultivated-mushrooms": {
+      "slug": "products/cultivated-mushrooms",
+      "label": "Mushrooms — cultivated (button, cremini, portobello, oyster)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/cutting-boards": {
       "slug": "products/cutting-boards",
       "label": "Cutting boards (wood, plastic)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-cheese": {
+      "slug": "products/dairy-cheese",
+      "label": "Cheese",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-condensed-evaporated": {
+      "slug": "products/dairy-condensed-evaporated",
+      "label": "Condensed and evaporated milks",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-cream": {
+      "slug": "products/dairy-cream",
+      "label": "Cream",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-milk-camel": {
+      "slug": "products/dairy-milk-camel",
+      "label": "Camel milk",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-milk-cow": {
+      "slug": "products/dairy-milk-cow",
+      "label": "Liquid milk — cow",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-milk-goat-sheep": {
+      "slug": "products/dairy-milk-goat-sheep",
+      "label": "Liquid milk — goat / sheep / other ruminant",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-milk-powders": {
+      "slug": "products/dairy-milk-powders",
+      "label": "Milk powders (whole, skim, specialty)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-yogurt-cultured": {
+      "slug": "products/dairy-yogurt-cultured",
+      "label": "Yogurt and cultured dairy",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -1566,6 +1699,13 @@
     "products/fish-marine-predatory": {
       "slug": "products/fish-marine-predatory",
       "label": "Fish — marine, predatory (tuna, swordfish, shark, king mackerel)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/fish-sauce": {
+      "slug": "products/fish-sauce",
+      "label": "Fish sauce",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -2214,6 +2354,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/gummies-jellies": {
+      "slug": "products/gummies-jellies",
+      "label": "Gummies and jelly sweets",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/hair-dye-rinse-off": {
       "slug": "products/hair-dye-rinse-off",
       "label": "Hair dye/color rinses (rinse-off after processing)",
@@ -2266,6 +2413,13 @@
     "products/honey": {
       "slug": "products/honey",
       "label": "Honey",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/hot-chili-sauces": {
+      "slug": "products/hot-chili-sauces",
+      "label": "Hot sauce and chili sauces",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -3208,6 +3362,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/lipstick": {
+      "slug": "products/lipstick",
+      "label": "Lip products (lipstick, gloss, lip liner, adult lip balm)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/makeup-body-paints-bases-fixatives": {
       "slug": "products/makeup-body-paints-bases-fixatives",
       "label": "Makeup — body/leg paints, bases, fixatives (including airbrush)",
@@ -4077,6 +4238,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/mustard-mayo-dressings": {
+      "slug": "products/mustard-mayo-dressings",
+      "label": "Mustard, mayonnaise, dressings",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/nebula-diffusers": {
       "slug": "products/nebula-diffusers",
       "label": "Nebula diffusers",
@@ -4358,6 +4526,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/peptides-injectable-hormones": {
+      "slug": "products/peptides-injectable-hormones",
+      "label": "Injectable peptide hormones (GLP-1 analogs, GH secretagogues, synthetic peptides)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/period-underwear-reusable-garments": {
       "slug": "products/period-underwear-reusable-garments",
       "label": "Period underwear and reusable menstrual garments",
@@ -4480,6 +4655,13 @@
     "products/pet-treats-snacks": {
       "slug": "products/pet-treats-snacks",
       "label": "Pet treats/snacks",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/pickled-mushrooms": {
+      "slug": "products/pickled-mushrooms",
+      "label": "Pickled Mushrooms",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -4970,6 +5152,20 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/refined-sugar": {
+      "slug": "products/refined-sugar",
+      "label": "Refined sugars (cane, beet, brown)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/research-chem-raw-powders": {
+      "slug": "products/research-chem-raw-powders",
+      "label": "Raw AAS / peptide powders (pre-formulation)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/rice-beverages-rice-milk": {
       "slug": "products/rice-beverages-rice-milk",
       "label": "Rice beverages (rice milk)",
@@ -4980,6 +5176,13 @@
     "products/rice-bulk-grain": {
       "slug": "products/rice-bulk-grain",
       "label": "Rice (white, brown, wild — bulk grain)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/rice-grain-syrup": {
+      "slug": "products/rice-grain-syrup",
+      "label": "Rice and grain syrups",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -5178,6 +5381,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/sarms-oral": {
+      "slug": "products/sarms-oral",
+      "label": "Oral SARMs",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/scented-candles": {
       "slug": "products/scented-candles",
       "label": "Scented candles",
@@ -5245,6 +5455,13 @@
       "slug": "products/soy-products",
       "label": "Soy Products",
       "category_label": "Fruits, Vegetables, and Produce",
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/soy-sauce-fermented": {
+      "slug": "products/soy-sauce-fermented",
+      "label": "Soy sauce and fermented sauces",
+      "category_label": null,
       "event_count": 0,
       "recent_events": []
     },
@@ -5454,6 +5671,13 @@
     "products/swings-and-bouncers": {
       "slug": "products/swings-and-bouncers",
       "label": "Swings and bouncers",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/syrups-maple-agave-molasses": {
+      "slug": "products/syrups-maple-agave-molasses",
+      "label": "Tree and plant syrups (maple, agave, molasses)",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -5967,6 +6191,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/tomato-condiments": {
+      "slug": "products/tomato-condiments",
+      "label": "Tomato condiments (ketchup, salsa)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/tongue-cleaners-scrapers": {
       "slug": "products/tongue-cleaners-scrapers",
       "label": "Tongue cleaners/scrapers",
@@ -6281,6 +6512,13 @@
     "products/whitening-products": {
       "slug": "products/whitening-products",
       "label": "Whitening products (strips/gels/powders/pens)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/wild-mushrooms": {
+      "slug": "products/wild-mushrooms",
+      "label": "Wild Mushrooms",
       "category_label": null,
       "event_count": 0,
       "recent_events": []

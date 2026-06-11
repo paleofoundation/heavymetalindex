@@ -53,6 +53,7 @@
 //   --timeout-mins=N per-/discover hard cap (default 14)
 
 import { spawn } from "node:child_process"
+const CLAUDE_BIN = process.env.CLAUDE_BIN || "/opt/homebrew/bin/claude" // pinned: bare "claude" ENOENTs in bg shells + nightly auto-update window
 import fs from "node:fs"
 import os from "node:os"
 import path from "node:path"
@@ -307,7 +308,7 @@ function runDiscover(topic) {
     let stdout = "",
       stderr = "",
       timedOut = false
-    const proc = spawn("claude", cliArgs, { cwd: REPO, env: process.env })
+    const proc = spawn(CLAUDE_BIN, cliArgs, { cwd: REPO, env: process.env })
     const killer = setTimeout(() => {
       timedOut = true
       try {
