@@ -37,7 +37,7 @@ All concentration values below are reported by the paper in mg/kg.
 
 ## Methods (brief)
 
-Samples were digested and analyzed by atomic absorption spectrophotometry for Fe, Cu, Mn, Zn, Pb, Cd, Cr, and As. The paper reports separate descriptive statistics for raw cow milk and liquid pasteurized milk, allowing row-fit to stay in the native milk forms rather than mixing raw and processed samples. The arsenic result is total arsenic; no inorganic arsenic speciation is provided.
+Samples were collected in sterile glass bottles, held below 4 C during transport and storage, and analyzed within 24 hours. Digestion used microwave digestion with 5 mL 65% nitric acid and 2 mL 30% hydrogen peroxide, and metals were measured on a Thermo Scientific iCE 3000 atomic absorption spectrophotometer for Fe, Cu, Mn, Zn, Pb, Cd, Cr, and As. Reported method detection limits were 0.005 mg/kg for Cr and Zn, 0.002 mg/kg for Mn and Pb, and 0.001 mg/kg for Cd, Fe, and Cu; the extracted method text does not list an As detection limit. The paper reports separate descriptive statistics for raw cow milk and liquid pasteurized milk, allowing row-fit to stay in the native milk forms rather than mixing raw and processed samples. The method reports total element concentrations: total arsenic, total chromium, total lead, and total cadmium. The arsenic result is total arsenic; no inorganic arsenic speciation is provided.
 
 ## Implications
 
