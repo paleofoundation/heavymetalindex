@@ -2,7 +2,7 @@
 type: synthesis
 title: "Aquaculture vs wild-caught contamination differential — why farmed fish carry systematically lower MeHg"
 slug: aquaculture-vs-wild-contamination-differential
-audience: [regulator, brand-legal, hmtc-staff, brand-qa]
+audience: [regulator, brand-legal, brand-qa]
 metals: [MeHg, tHg, Cd, Pb, tAs]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]", "[[ingredients/seafood]]"]
 products: ["[[products/fresh-fish]]", "[[products/seafood]]", "[[products/canned-fish]]", "[[products/fish-containing-baby-foods]]"]
@@ -16,7 +16,7 @@ updated: 2026-05-18
 
 Farmed fish from controlled-feed aquaculture systems (US/EU-farmed salmon, US-farmed catfish, US/EU-farmed tilapia, farmed trout) carry systematically lower methylmercury concentrations than wild-caught counterparts of the same species. The differential is large and consistent: [[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]] documents freshwater wild fish carrying MeHg concentrations 2.9 to 6.2 times higher than freshwater farmed fish across multiple trophic classes in Chinese systems. The mechanism is straightforward: farmed fish eat formulated feed manufactured to specifications that exclude high-MeHg fish-meal inputs; wild fish accumulate MeHg over their entire lifespan from prey already carrying MeHg through biomagnification.
 
-This is a powerful and underused sourcing lever for HMTc seafood certification. A standard that distinguishes farmed-with-controlled-feed-documentation from wild-caught at the certification level can deliver substantial MeHg reduction in certified products without changing species mix or processing. The certification implication is that "farmed salmon" and "wild salmon," sold under the same species label, should not be treated as a single category in HMTc threshold work.
+Because the differential is driven by feed regime rather than species, distinguishing farmed-with-controlled-feed-documentation from wild-caught of the same species captures a substantial MeHg difference without any change in species mix or processing. "Farmed salmon" and "wild salmon," sold under the same species label, therefore carry materially different MeHg burdens and are not a single contamination population.
 
 The differential applies primarily to MeHg (the metal whose burden depends on cumulative dietary uptake over the organism's lifespan). Pb, Cd, and total arsenic show smaller or absent differentials between farmed and wild because their uptake routes are less dependent on lifetime food-web exposure.
 
@@ -55,34 +55,34 @@ The aquaculture-vs-wild differential is metal-specific. Pb, Cd, and tAs uptake r
 - **Cd**: somewhat lower in farmed fish than wild fish from Cd-contaminated waters; the differential is region-specific rather than uniformly favoring farmed.
 - **tAs**: marine farmed fish carry similar tAs to wild marine fish because tAs in seafood is largely organic arsenobetaine from incorporated dietary sources, present in both farmed and wild. Freshwater farmed fish have lower tAs than freshwater wild fish from arsenic-impacted regions (e.g., Latin American mining-impacted watersheds), but the wild-vs-farmed differential is overshadowed by regional-water-burden differences.
 
-So the certification implication is MeHg-specific. An HMTc standard distinguishing farmed-vs-wild can defensibly tighten MeHg thresholds for the farmed sub-category; Pb/Cd/As thresholds need separate calibration that may not benefit from the same distinction.
+So the farmed-vs-wild distinction is MeHg-specific. It separates two distinct MeHg populations for the farmed sub-category, but Pb, Cd, and As distributions are not separated by the same distinction and would require separate calibration on their own occurrence data.
 
-## The traceability and documentation requirement
+## Traceability that the distinction depends on
 
-The aquaculture-vs-wild distinction at the certification level requires supply-chain traceability documentation. Standards-level requirements:
+Operationalizing the farmed-vs-wild distinction depends on supply-chain traceability, because the MeHg difference is tied to feed regime rather than to anything observable in the finished fillet. The data elements that establish which population a sample belongs to:
 
-- **Aquaculture certification source documentation**: farm location, species, feed-regime documentation (ideally feed-MeHg input testing), production year and harvest date.
+- **Aquaculture source documentation**: farm location, species, feed-regime documentation (ideally feed-MeHg input testing), production year and harvest date.
 - **Feed specification audit trail**: feed manufacturer specifications including fish-meal input species and MeHg testing records on a per-lot basis where available.
-- **Chain-of-custody from harvest to processing**: standard aquaculture certification frameworks (ASC, BAP, GlobalG.A.P. Aquaculture) provide infrastructure that HMTc certification can layer onto without duplicating.
-- **Lot-level confirmatory MeHg testing**: even with feed-regime documentation, lot-level MeHg testing remains the most defensible certification basis. The aquaculture-vs-wild differential reduces the probability of certification-breaching lots, not their possibility.
+- **Chain-of-custody from harvest to processing**: standard aquaculture traceability frameworks (ASC, BAP, GlobalG.A.P. Aquaculture) already provide this infrastructure.
+- **Lot-level confirmatory MeHg testing**: even with feed-regime documentation, lot-level MeHg measurement remains the most direct evidence of a sample's MeHg burden. The aquaculture-vs-wild differential reduces the probability of high-MeHg lots, not their possibility.
 
-Wild-caught seafood is harder to certify under tighter MeHg thresholds for the obvious reason that the fish ate whatever was in the water. Wild-caught certification standards effectively become origin-specification standards (catch region, season, species body-size limits to bound the trophic-and-age accumulation window).
+Wild-caught seafood is harder to bound under tighter MeHg expectations for the obvious reason that the fish ate whatever was in the water. For wild-caught fish, the available levers are origin specifications: catch region, season, and species body-size limits to bound the trophic-and-age accumulation window.
 
 ## What this synthesis does not yet rest on
 
 - **Non-Chinese aquaculture data is thinner.** Wu 2025's 2.9-6.2× ratio is parameterized on Chinese inland aquaculture systems. US-farmed salmon, Norwegian farmed salmon, UK/Scottish farmed salmon, Chilean farmed salmon, US-farmed catfish, US/Asian-farmed tilapia all have substantial aquaculture industries with potentially different feed-MeHg profiles. The 2.9-6.2× ratio may not transfer cleanly across regions; verification with non-Chinese aquaculture datasets would strengthen the synthesis substantially.
-- **PCB, dioxin, pesticide differentials.** Aquaculture vs wild differentials exist for other contaminants (PCBs and dioxins are sometimes HIGHER in farmed salmon than wild because they accumulate in fish-meal lipid; pesticides can show either direction). HMTc certification scope is heavy metals; this synthesis does not address those other-contaminant differentials, but a certified-low-MeHg farmed-salmon product is not automatically lower-contaminant overall.
+- **PCB, dioxin, pesticide differentials.** Aquaculture vs wild differentials exist for other contaminants (PCBs and dioxins are sometimes HIGHER in farmed salmon than wild because they accumulate in fish-meal lipid; pesticides can show either direction). This synthesis is scoped to heavy metals and does not address those other-contaminant differentials, but the corollary matters: a low-MeHg farmed salmon is not automatically lower-contaminant overall.
 - **Recirculating aquaculture system (RAS) effects.** Land-based RAS with closed water reuse may have different MeHg dynamics than net-pen marine aquaculture or pond aquaculture. The Wu 2025 dataset does not separately characterize RAS; this is a research gap.
 - **Organic-certified vs conventional aquaculture.** Some farmed-fish certifications (organic, eco-label) impose additional feed-input restrictions. Whether these translate to measurable MeHg differences between organic-certified and conventional farmed fish is not well-characterized in the wiki's current corpus.
 
-## Certification framework recommendation
+## Two distinct MeHg populations within the seafood category
 
-HMTc standards on the seafood category should consider a two-tier MeHg framework:
+The evidence supports treating farmed and wild seafood as two distinct MeHg occurrence populations rather than one:
 
-- **Farmed-with-documented-feed-regime tier**: tighter MeHg ceiling (e.g., 50% of the wild-caught ceiling) calibrated against the farmed-fish distribution; requires aquaculture-certification chain-of-custody documentation.
-- **Wild-caught tier**: looser MeHg ceiling reflecting the irreducible biomagnification floor; pairs with species-and-origin specification.
+- **Farmed-with-documented-feed-regime**: a lower-MeHg distribution determined by feed regime, identifiable only where aquaculture chain-of-custody documentation establishes the feed regime.
+- **Wild-caught**: a higher-MeHg distribution whose lower bound is set by the irreducible biomagnification floor, and whose variability is structured mainly by species, origin, and age.
 
-The "farmed-with-documented-feed-regime" qualifier matters: not all farmed fish operations have feed-MeHg testing infrastructure. The certification standard would functionally identify those farms that do, creating market pull for the feed-testing infrastructure to expand.
+The "with-documented-feed-regime" qualifier is load-bearing: not all farmed-fish operations have feed-MeHg testing infrastructure, so the lower-MeHg population can only be established for those that do. Whether and how any threshold-setting program responds to this two-population structure is a policy choice that the wiki does not prescribe; what the literature supports is that the two populations exist and have different distributions.
 
 ## Downstream pages updated
 
@@ -100,7 +100,7 @@ The "farmed-with-documented-feed-regime" qualifier matters: not all farmed fish 
 
 ## How this page was promoted
 
-Established 2026-05-18 from the seafood-axis evidence consolidation. The aquaculture-vs-wild MeHg differential is one of the most powerful sourcing levers available to HMTc seafood certification but had not been treated as a standalone synthesis. The page exists to ensure HMTc standards consider farmed-vs-wild distinction in their threshold architecture rather than defaulting to a single seafood-category MeHg cap.
+Established 2026-05-18 from the seafood-axis evidence consolidation. The aquaculture-vs-wild MeHg differential is a large and consistent effect in the literature that had not been treated as a standalone synthesis. The page consolidates that evidence so the farmed-vs-wild distinction is documented as a distinct MeHg axis within the seafood category rather than being averaged into a single seafood-category figure.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state

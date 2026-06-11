@@ -58,10 +58,15 @@ for (const dir of SCAN_DIRS) {
     const raw = fs.readFileSync(path.join(abs, file), "utf8")
     const { fmLineCount, body } = splitFrontmatter(raw)
     const lines = body.split("\n")
+    let inGenerated = false
     lines.forEach((line, i) => {
-      // Skip the generated peer-review / page-history footer blocks and the
-      // marker comments — those are tool-owned, not synthesis prose.
-      if (/^<!--\s*(BEGIN|END):/.test(line.trim())) return
+      const t = line.trim()
+      // Generated marker blocks (peer-review footer, page-history, source-legend)
+      // are tool-owned: regenerated from source-page frontmatter, not hand-authored
+      // prose. An HMT&C string inside one is fixed at the source / generator, not
+      // in the page — so we tally those separately and never block the build on them.
+      if (/^<!--\s*BEGIN:/.test(t)) { inGenerated = true; return }
+      if (/^<!--\s*END:/.test(t)) { inGenerated = false; return }
       for (const p of PATTERNS) {
         if (p.re.test(line)) {
           findings.push({
@@ -69,7 +74,8 @@ for (const dir of SCAN_DIRS) {
             line: fmLineCount + 1 + i,
             sev: p.sev,
             label: p.label,
-            text: line.trim().slice(0, 140),
+            text: t.slice(0, 140),
+            generated: inGenerated,
           })
         }
       }
@@ -77,10 +83,14 @@ for (const dir of SCAN_DIRS) {
   }
 }
 
-// Per-file rollup, worst severity first.
+// Split hand-authored prose (the firewall's concern) from generated-block
+// content (regenerated from source-page frontmatter; fixed at the source).
+const prose = findings.filter((f) => !f.generated)
+const gen = findings.filter((f) => f.generated)
+
 const sevRank = { HIGH: 0, MEDIUM: 1, SOFT: 2 }
 const byFile = new Map()
-for (const f of findings) {
+for (const f of prose) {
   if (!byFile.has(f.file)) byFile.set(f.file, [])
   byFile.get(f.file).push(f)
 }
@@ -90,16 +100,12 @@ const fileOrder = [...byFile.entries()].sort((a, b) => {
   return aw - bw || b[1].length - a[1].length
 })
 
-const high = findings.filter((f) => f.sev === "HIGH").length
-const medium = findings.filter((f) => f.sev === "MEDIUM").length
-const soft = findings.filter((f) => f.sev === "SOFT").length
+const high = prose.filter((f) => f.sev === "HIGH").length
+const medium = prose.filter((f) => f.sev === "MEDIUM").length
+const soft = prose.filter((f) => f.sev === "SOFT").length
 
-console.log("Part 2 firewall audit — wiki/synthesis + wiki/metals")
+console.log("Part 2 firewall audit — wiki/synthesis + wiki/metals (hand-authored prose)")
 console.log("=".repeat(60))
-if (findings.length === 0) {
-  console.log("✓ clean — no HMT&C advocacy in the scholarly-claim pages.")
-  process.exit(0)
-}
 for (const [file, fs_] of fileOrder) {
   const h = fs_.filter((x) => x.sev === "HIGH").length
   console.log(`\n${file}  (${fs_.length} hits${h ? `, ${h} HIGH` : ""})`)
@@ -109,16 +115,21 @@ for (const [file, fs_] of fileOrder) {
   }
 }
 console.log("\n" + "=".repeat(60))
-console.log(
-  `${findings.length} hits across ${byFile.size} pages — ${high} HIGH, ${medium} MEDIUM, ${soft} SOFT`,
-)
-console.log(
-  "Neutralise to literature-native prose (state the science, drop the HMT&C framing).",
-)
-console.log("HMT&C-facing material belongs on the certifier side (one-way citation in).")
+if (prose.length === 0) {
+  console.log("✓ hand-authored prose is clean — no HMT&C advocacy in the scholarly-claim pages.")
+} else {
+  console.log(`${prose.length} hand-authored-prose hits across ${byFile.size} pages — ${high} HIGH, ${medium} MEDIUM, ${soft} SOFT`)
+  console.log("Neutralise to literature-native prose (state the science, drop the HMT&C framing).")
+  console.log("HMT&C-facing material belongs on the certifier side (one-way citation in).")
+}
+if (gen.length) {
+  const genFiles = [...new Set(gen.map((f) => f.file))]
+  console.log(`\nℹ ${gen.length} hit(s) inside GENERATED blocks (source-legend etc.) on ${genFiles.length} page(s): ${genFiles.join(", ")}`)
+  console.log("  These regenerate from source-page frontmatter — fix at the source / generator, not in the page.")
+}
 
 if (strict && high + medium > 0) {
-  console.log("\n✗ --strict: HIGH/MEDIUM firewall hits remain; failing.")
+  console.log("\n✗ --strict: hand-authored HIGH/MEDIUM firewall hits remain; failing.")
   process.exit(1)
 }
 process.exit(0)

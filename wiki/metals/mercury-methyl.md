@@ -51,7 +51,7 @@ The dominant individual climate driver is increased solar radiation (approximate
 
 The present-day baseline from the same dataset establishes that freshwater wild fish carry MeHg concentrations 2.9 to 6.2 times higher than freshwater farmed fish across trophic classes, and 1.7 times higher than marine wild fish in the same trophic class. Mean MeHg in freshwater wild fish of typical adult size (40 ± 5 cm body length) was 30.9 µg/kg wet weight. Freshwater fish consumption accounted for 51 percent of China's total fish MeHg intake in 2011.
 
-The certification implication is that MeHg thresholds and fish-consumption advisories calibrated against historical fish Hg data are drawing on a baseline that is actively shifting. See [[synthesis/climate-metals-tradeoffs]] for the convergent analysis with rice irrigation trade-offs, and [[synthesis/subsistence-fishing-mehg-disparity]] for the equity dimension.
+A consequence of this trend is that MeHg thresholds and fish-consumption advisories calibrated against historical fish Hg data are drawing on a baseline that is actively shifting. See [[synthesis/climate-metals-tradeoffs]] for the convergent analysis with rice irrigation trade-offs, and [[synthesis/subsistence-fishing-mehg-disparity]] for the equity dimension.
 
 ## Biogeochemical mechanism of MeHg production
 
@@ -61,7 +61,7 @@ Counteracting demethylation pathways operate in parallel. Photochemical demethyl
 
 [[sources/zhou2025-microbial-methylmercury-rice-china|Zhou et al. 2025]] (Nature Communications) demonstrates that microbial communities in Chinese paddy soils can actively mitigate MeHg accumulation in rice when methylation-suppressing taxa are present, suggesting future microbiome-engineering approaches to rice MeHg control. [[sources/cui2022-mercury-speciation-rice-china|Cui et al. 2022]] models MeHg distribution across 464,368 1-km² Chinese rice paddy grids and shows tight coupling between paddy water management, sediment Hg burden, and rice-grain MeHg. [[sources/sonke2023-mercury-global-change|Sonke et al. 2023]] synthesizes the global Hg biogeochemistry context: legacy emissions from coal combustion, artisanal gold mining, and industrial sources are the primary anthropogenic Hg loading into watersheds, with atmospheric deposition the dominant transport pathway to remote receiving systems.
 
-For the certification-relevant takeaway: MeHg burden in any food commodity reflects upstream biogeochemistry that operates over decades-to-centuries timescales. Even if Hg emissions stopped tomorrow, the legacy Hg already in watershed sediments and oceans would continue producing MeHg for decades. Per [[sources/dietz2025-arctic-mercury-isotopes-greenland|Dietz et al. 2025]] isotope-based source attribution, ocean-transported legacy Hg drives Arctic food web MeHg even where local emissions are negligible.
+A consequence for food-system exposure is that MeHg burden in any food commodity reflects upstream biogeochemistry that operates over decades-to-centuries timescales. Even if Hg emissions stopped tomorrow, the legacy Hg already in watershed sediments and oceans would continue producing MeHg for decades. Per [[sources/dietz2025-arctic-mercury-isotopes-greenland|Dietz et al. 2025]] isotope-based source attribution, ocean-transported legacy Hg drives Arctic food web MeHg even where local emissions are negligible.
 
 ## Biomagnification and the trophic-level rule
 
@@ -73,7 +73,7 @@ The trophic-level dependence is why fish-species selection is the dominant lever
 
 Selenium (Se) and mercury share a high binding affinity (Hg-Se bond formation energy approximately 70 kcal/mol, among the strongest in biochemistry). The Selenium Health Benefit Value (HBV) framework, formalized by [[sources/ralston2014-selenium-hbv-methylmercury-seafood|Ralston et al. 2014]], proposes that the Se:Hg molar ratio in a consumed seafood determines whether Se is bioavailable to support selenoprotein synthesis after Hg-Se binding, or whether Hg sequesters all dietary Se as inert HgSe particles. When molar Se exceeds molar Hg in the consumed matrix, net Se is bioavailable and selenoprotein-mediated antioxidant defenses (glutathione peroxidase, thioredoxin reductase, iodothyronine deiodinases) remain functional; when molar Hg exceeds molar Se, Hg-Se sequestration depletes Se from selenoprotein synthesis and the secondary cascade — oxidative stress, thyroid disruption, peroxidative tissue damage — drives the toxicological endpoint as much as direct MeHg neurotoxicity does.
 
-Most fin-fish and shellfish have Se:Hg molar ratios above 1 (Se in excess); the notable exception is large predatory fish (swordfish, mako shark, marlin) where Hg can exceed Se. [[sources/chamorro2024-bluefin-tuna-mercury-review|Chamorro et al. 2024]] documents Se:Hg above 1 in most Atlantic bluefin tuna samples despite high absolute Hg burden, interpreted as net selenium bioavailability that may partially mitigate MeHg neurotoxicity. The mechanism is consistent with experimental data but quantitative risk modulation for certification thresholds is not yet established. The Se:Hg framework is therefore best treated as an explanatory factor for differential cohort sensitivity, not yet as a basis for relaxing MeHg ceilings on Se-rich species.
+Most fin-fish and shellfish have Se:Hg molar ratios above 1 (Se in excess); the notable exception is large predatory fish (swordfish, mako shark, marlin) where Hg can exceed Se. [[sources/chamorro2024-bluefin-tuna-mercury-review|Chamorro et al. 2024]] documents Se:Hg above 1 in most Atlantic bluefin tuna samples despite high absolute Hg burden, interpreted as net selenium bioavailability that may partially mitigate MeHg neurotoxicity. The mechanism is consistent with experimental data but quantitative risk modulation has not yet been established. The Se:Hg framework is therefore best treated as an explanatory factor for differential cohort sensitivity, and the literature does not support relaxing MeHg ceilings on Se-rich species on the basis of this mechanism alone.
 
 ## Faroe Islands and Seychelles cohort dose-response
 
@@ -89,7 +89,7 @@ The same fish-consumption pattern that delivers MeHg also delivers long-chain om
 
 [[sources/vejrup2022-prenatal-mehg-fish-behavior|Vejrup et al. 2022]] (Norwegian Mother, Father and Child Cohort, n=51,238 mother-child pairs) finds that prenatal MeHg exposure from fish intake associates with child emotional and behavioral problems at certain MeHg levels, but the association is attenuated when fish intake is decomposed into species categories with different PUFA content. [[sources/mcsorley2020-seychelles-mehg-immunity|McSorley et al. 2020]] (Seychelles cohort follow-up at age 19) finds that both MeHg and long-chain PUFA associate with immune endpoints, with PUFA showing potentially protective effects that complicate any single-marker interpretation.
 
-For certification: the MeHg ceiling on its own is not the complete picture. Standards that recommend tuna-substitution toward small oily fish (sardine, anchovy, herring, mackerel) deliver a double benefit: lower MeHg AND higher PUFA. This favors species-level guidance over uniform-MeHg-cap-applied-equally framing.
+A MeHg ceiling on its own is therefore not the complete picture. Substitution from tuna toward small oily fish (sardine, anchovy, herring, mackerel) delivers a double benefit in the literature: lower MeHg and higher PUFA. This is why the evidence supports species-level guidance rather than a single uniform MeHg cap applied equally across all fish.
 
 ## Biomarkers and exposure assessment
 
@@ -99,7 +99,7 @@ Three biomarkers anchor MeHg exposure assessment, each with different exposure-w
 - **Whole blood mercury (total Hg by ICP-MS or CV-AFS).** Reflects recent (days-to-weeks) MeHg exposure. Used clinically for acute/recent exposure assessment and in pregnancy monitoring where cord blood is the gold-standard fetal-exposure indicator.
 - **Urine mercury.** Reflects inorganic mercury exposure primarily, not MeHg (MeHg is excreted predominantly in feces). Used for occupational dental and chlor-alkali exposure assessment, not MeHg.
 
-[[sources/martinez-morata-2023-metal-biomarkers-state-of-science|Martinez-Morata et al. 2023]] is the current state-of-the-science review on metal biomarkers for exposure assessment. For HMTc certification work, hair mercury is the most defensible biomarker for population-level intake validation; whole blood is appropriate for acute-exposure investigation.
+[[sources/martinez-morata-2023-metal-biomarkers-state-of-science|Martinez-Morata et al. 2023]] is the current state-of-the-science review on metal biomarkers for exposure assessment. Hair mercury is the best-validated biomarker for population-level intake assessment, reflecting integrated exposure over the preceding 2-3 months; whole blood is appropriate for acute-exposure investigation, reflecting recent days-to-weeks exposure.
 
 ## Analytical methods for MeHg in food
 
@@ -110,7 +110,7 @@ Mercury speciation methods separate MeHg from inorganic Hg before quantification
 - **Gas chromatography ICP-MS (GC-ICP-MS) and liquid chromatography ICP-MS (LC-ICP-MS).** Direct MeHg quantification after derivatization or extraction. The reference methods for MeHg speciation in regulatory and certification contexts.
 - **Isotope-dilution MS.** Highest-accuracy MeHg quantification for reference-material certification and trace-level work.
 
-For HMTc certification: tHg by TDA-AAS is acceptable for routine lot-level screening on finfish; speciated MeHg by GC-ICP-MS or LC-ICP-MS is required for any threshold work that explicitly distinguishes MeHg from total Hg or that applies tighter standards to lower-trophic species than to apex predators.
+On the analytical hierarchy: tHg by TDA-AAS is a sound proxy for routine lot-level screening on finfish, where MeHg accounts for 80-95 percent of total Hg; speciated MeHg by GC-ICP-MS or LC-ICP-MS is required wherever a measurement must explicitly distinguish MeHg from total Hg, including any threshold work that differentiates lower-trophic species from apex predators.
 
 ## Rice as a secondary MeHg exposure pathway
 
@@ -118,7 +118,7 @@ Rice is the second-most-important dietary MeHg source after fish, particularly i
 
 [[sources/brombach2017-methylmercury-european-commercial-rice|Brombach et al. 2016]] reports that MeHg in commercial European rice varies more than one order of magnitude across products, with country of origin (rice from regions with documented sediment Hg burden carrying more MeHg) as the primary explanatory variable. [[sources/cui2022-mercury-speciation-rice-china|Cui et al. 2022]] models MeHg in Chinese paddy systems at 1-km² resolution. [[sources/rothenberg2021-maternal-methylmercury-rice-child-neurodevelopment-china|Rothenberg et al. 2021]] documents a cohort in rural China where rice-derived maternal MeHg exposure associates with child neurodevelopmental endpoints — the first cohort study to demonstrate the rice-MeHg pathway as a meaningful contributor to developmental risk independent of the fish pathway.
 
-For certification and advisory: populations with high rice intake (especially from at-risk regions) and low fish intake may still have meaningful MeHg exposure that fish-consumption advisories do not address. The wiki's rice-related ingredient pages ([[ingredients/rice]], [[ingredients/rice-cereal]], [[ingredients/rice-flour]]) should record the MeHg pathway alongside the better-known iAs pathway.
+A consequence for exposure assessment is that populations with high rice intake (especially from at-risk regions) and low fish intake may still have meaningful MeHg exposure that fish-consumption advisories do not address. The wiki's rice-related ingredient pages ([[ingredients/rice]], [[ingredients/rice-cereal]], [[ingredients/rice-flour]]) record the MeHg pathway alongside the better-known iAs pathway.
 
 ## Open questions
 
@@ -127,7 +127,7 @@ Several MeHg-toxicology and -exposure questions remain active research areas whe
 - **Cardiovascular MeHg effects.** Some cohort studies report MeHg-cardiovascular associations; others do not. Whether MeHg contributes meaningfully to cardiovascular risk in moderate-intake populations remains contested.
 - **Thyroid cancer and MeHg.** [[sources/webster2024-mercury-thyroid-cancer|Webster et al. 2024]] meta-analysis examines this; the evidence base is small but suggestive.
 - **Climate-change projection robustness outside China.** [[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]] documents +60% MeHg projection by 2031-2060 for Chinese freshwater fish. Whether this generalizes to non-Chinese watersheds depends on parameter transferability that has not been independently validated.
-- **Selenium-MeHg quantitative risk modulation.** The Ralston Se HBV framework is mechanistically supported but not yet quantitatively integrated into regulatory thresholds. Whether HMTc certification standards should differentiate by Se:Hg ratio is an open question.
+- **Selenium-MeHg quantitative risk modulation.** The Ralston Se HBV framework is mechanistically supported but not yet quantitatively integrated into regulatory thresholds. Whether the Se:Hg molar ratio can be operationalized into a validated quantitative adjustment of MeHg risk, rather than remaining an explanatory factor for differential cohort sensitivity, is an open question.
 - **Microbiome-mediated MeHg modulation.** [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Coe et al. 2023]] documents gnotobiotic-mouse evidence that gut microbiota influence MeHg demethylation; human translation is incomplete.
 - **PUFA-MeHg risk-benefit quantification.** Net risk-benefit modeling is methodologically complex and current frameworks (FDA-EPA Best/Good/Avoid tiers, EFSA recommendations) treat species-level guidance as the operational summary.
 

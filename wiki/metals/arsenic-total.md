@@ -37,9 +37,9 @@ The matrices with elevated total arsenic, regardless of speciation, are rice and
 
 For per-commodity occurrence detail see [[ingredients/rice|rice]], [[ingredients/seaweed|seaweed]], [[ingredients/fish|fish]], [[ingredients/seafood|seafood]], and [[ingredients/shellfish|shellfish]]. For regulatory limits applying to inorganic arsenic in rice, seaweed, and rice-based beverages see [[regulations/eu-2023-915|EU Reg. 2023/915]]. For the FDA action level for inorganic arsenic in infant rice cereal see [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal|FDA Closer to Zero — iAs in infant rice cereal]].
 
-## How HMTc handles total vs inorganic arsenic
+## How the index records total versus inorganic arsenic
 
-HMTc certification distinguishes the two analytes throughout the protocol. The HMTc panel lists tAs and iAs separately. Source pages declaring `metals: [tAs]` route to this page; source pages declaring `metals: [iAs]` route to [[metals/arsenic-inorganic|the inorganic arsenic page]]. Source pages declaring both route to both. The ingredient `contamination_profile` schema carries a separate tAs sub-block, allowing the wiki to record the total-arsenic literature for a commodity even where the iAs literature is thin. A pooled HMTc threshold cannot be set against inorganic arsenic using total arsenic measurements; the certification protocol either uses iAs-speciated lots or applies a documented matrix-specific iAs share when the regulatory limit is iAs-anchored.
+The Heavy Metal Index records the two analytes separately throughout. Source pages declaring `metals: [tAs]` route to this page; source pages declaring `metals: [iAs]` route to [[metals/arsenic-inorganic|the inorganic arsenic page]]. Source pages declaring both route to both. The ingredient `contamination_profile` schema carries a separate tAs sub-block, allowing the wiki to record the total-arsenic literature for a commodity even where the iAs literature is thin. Total arsenic measurements cannot substitute for inorganic arsenic where the applicable regulatory limit is anchored to the inorganic species; closing that gap requires iAs-speciated values or a documented matrix-specific inorganic share applied to the total measurement.
 
 ## Testing
 

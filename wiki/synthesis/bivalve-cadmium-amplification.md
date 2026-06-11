@@ -1,8 +1,8 @@
 ---
 type: synthesis
-title: "Bivalve cadmium amplification through filter feeding — why mussels and oysters need a different threshold than finfish"
+title: "Bivalve cadmium amplification through filter feeding — why mussels and oysters carry an order-of-magnitude higher cadmium load than finfish"
 slug: bivalve-cadmium-amplification
-audience: [regulator, brand-legal, hmtc-staff, educator]
+audience: [regulator, brand-legal, educator]
 metals: [Cd, Pb, tHg]
 ingredients: ["[[ingredients/bivalve-molluscs]]", "[[ingredients/shellfish]]", "[[ingredients/molluscs]]", "[[ingredients/seafood]]"]
 products: ["[[products/seafood]]", "[[products/canned-fish]]"]
@@ -12,11 +12,11 @@ wiki_doi: null
 updated: 2026-05-18
 ---
 
-# Bivalve cadmium amplification through filter feeding — why mussels and oysters need a different threshold than finfish
+# Bivalve cadmium amplification through filter feeding — why mussels and oysters carry an order-of-magnitude higher cadmium load than finfish
 
 Cadmium concentrations in bivalve molluscs (mussels, clams, oysters, scallops) and cephalopods (squid, octopus, cuttlefish without viscera) are consistently one-to-two orders of magnitude higher than cadmium in finfish muscle from the same waters. The mechanism is filter feeding: bivalves process hundreds of liters of seawater per day, concentrating dissolved and particulate-bound Cd from the water column into their soft tissue. EU regulation acknowledges the differential by setting a 1.0 mg/kg wet-weight Cd cap for bivalves and cephalopods (without viscera) vs the 0.05 mg/kg default for fin-fish muscle — a 20-fold permitted ceiling reflecting the biological reality that bivalves accumulate Cd at qualitatively different rates than fish do.
 
-The certification implication is that HMTc seafood standards should NOT apply the same Cd ceiling across the entire seafood category. Bivalves require a separately-calibrated Cd threshold informed by the bivalve-specific evidence base; conflating bivalves and finfish under a single Cd standard either leaves the bivalve category effectively uncertified (if the threshold is set to the finfish floor, almost no bivalves pass) or under-protects the finfish category (if the threshold is set to the bivalve ceiling, finfish that should be below the line easily clear it).
+Because the bivalve and finfish cadmium distributions are separated by one-to-two orders of magnitude, a single cadmium concentration threshold applied across the whole seafood category is not scientifically supportable: a threshold set near the finfish distribution would exclude nearly all bivalves regardless of how clean the source water is, while a threshold set near the bivalve distribution would fall well above the finfish distribution and discriminate poorly among finfish. EU regulation reflects this by setting separate per-category cadmium ceilings, and the bivalve-specific evidence base is the appropriate reference distribution for any bivalve cadmium benchmark.
 
 ## The bivalve-finfish Cd differential
 
@@ -25,7 +25,7 @@ Across the wiki's seafood-axis evidence base, the Cd concentration pattern is:
 - **Finfish muscle (most species, wild and farmed)**: typically 0.005-0.05 mg/kg wet weight. [[sources/hussein2023-freshwater-marine-fish-egypt|Hussein 2023]] Egyptian fish dataset (n=120, 6 species) reports Cd means 0.03-0.13 mg/kg across species. [[sources/rusko2026-mercury-fish-latvia-risk-benefit|Rusko 2026]] Latvian inland freshwater fish (n=460, 7 species) reports Cd ALL below LOQ. [[sources/cardoso2023-mercury-portuguese-coast-seafood|Cardoso 2023]] Portuguese coastal finfish typically below the EU 0.05 mg/kg fin-fish cap.
 - **Bivalves (mussels, clams, oysters)**: typically 0.1-1.0 mg/kg wet weight, with regional outliers approaching the EU 1.0 mg/kg bivalve cap. [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily|Bruno 2024]] reports Sicilian lagoon mussel/clam Cd values approaching the EU bivalve cap in specific sub-locations. [[sources/dogruyol2024-mediterranean-mussels-health-risk|Dogruyol 2024]] Mediterranean mussel survey reports Cd at consumer-relevant concentrations supporting weekly-intake risk modeling. [[sources/bao2024-sp-icp-ms-nps-mussels|Bao 2024]] uses single-particle ICP-MS to characterize Cd nanoparticle forms in mussels in addition to total Cd; the nanoparticle form is a load-bearing finding because nanoparticle-bound Cd has potentially different bioavailability than dissolved Cd.
 - **Cephalopods (squid, octopus, cuttlefish, muscle/mantle without viscera)**: typically 0.1-0.5 mg/kg wet weight. Cephalopod viscera (digestive gland) concentrate Cd at much higher levels (often >5 mg/kg) and are typically excluded from the EU cap accordingly.
-- **Cd-rich bivalve species (scallops, certain oysters)**: can approach or exceed the EU 1.0 mg/kg cap routinely; specific HMTc-bound certification standards in scallop-and-oyster sub-categories require source-by-source pooling at the species level rather than the broader bivalve aggregate.
+- **Cd-rich bivalve species (scallops, certain oysters)**: can approach or exceed the EU 1.0 mg/kg cap routinely; characterizing these species reliably requires source-by-source pooling at the species level rather than relying on the broader bivalve aggregate, because the species-level distributions diverge from the pooled bivalve distribution.
 
 The 10-100× differential between finfish-muscle Cd and bivalve Cd is consistent across all geographies and seasons in the wiki's evidence corpus. This is not measurement noise; it is a biological feature of filter feeding.
 
@@ -45,22 +45,16 @@ Hg (specifically MeHg) in bivalves and cephalopods is generally similar to or lo
 
 So the bivalve-finfish differential is Cd-specific. Pb and Hg patterns in bivalves are not similarly amplified.
 
-## Certification implication: separate Cd thresholds for bivalves vs finfish
+## Structure of the seafood cadmium distribution
 
-HMTc certification standards on the seafood category should treat bivalves (mussels, clams, oysters, scallops) and cephalopods (squid, octopus, cuttlefish) as a separately-calibrated sub-category for Cd specifically. A single Cd ceiling applied across the whole seafood category will not work. Three options:
-
-1. **Two-tier Cd standard**: One Cd ceiling for finfish (calibrated against the finfish-muscle distribution, well below the EU 0.05 mg/kg cap), a separate Cd ceiling for bivalves and cephalopods-without-viscera (calibrated against the bivalve distribution, below the EU 1.0 mg/kg cap). This is the simplest defensible approach and mirrors EU regulatory architecture.
-2. **Species-specific Cd standards**: One ceiling per major species (mussel, oyster, scallop, squid, octopus, etc.). More precise but more administrative overhead.
-3. **Source-region Cd standards**: Add origin-specification to the certification, with regional ceilings reflecting documented water-column Cd burden by source region. This is the strictest framework but requires supplier-side traceability documentation.
-
-The two-tier framework (option 1) is the recommended starting point. Option 2 or 3 can be layered on later as evidence accumulates.
+The seafood category does not have a single cadmium distribution; it is at least two distributions separated by one-to-two orders of magnitude. Finfish muscle clusters well below the EU 0.05 mg/kg fin-fish cap, while bivalves and cephalopods-without-viscera occupy a distinct, much higher range bounded by the EU 1.0 mg/kg bivalve cap. EU regulatory architecture mirrors this by setting separate per-category cadmium ceilings rather than a single seafood-wide ceiling. Within the bivalve range, the species-level distributions diverge further: scallops and certain oysters sit higher than mussels and clams, so species-resolved characterization carries more information than the pooled bivalve aggregate. The water-column cadmium burden of the source region is an additional documented axis of variation, which is why origin is informative for cadmium when supplier traceability data are available.
 
 ## What this synthesis does not yet rest on
 
 - **Scallop and oyster-specific evidence is thinner than mussel evidence.** Most of the bivalve corpus in the wiki today is mussel-focused; scallops and oysters have less species-specific characterization. Future ingest should prioritize scallop and oyster-specific surveys for the bivalve sub-category to be evidence-supported beyond extrapolation from mussels.
 - **Nanoparticle-bound Cd bioavailability.** [[sources/bao2024-sp-icp-ms-nps-mussels|Bao 2024]] single-particle ICP-MS evidence that some bivalve Cd is in nanoparticle form raises a follow-up question about whether nanoparticle Cd has lower bioavailability than dissolved Cd. If yes, the actual human-relevant exposure may be lower than total-Cd-derived risk models suggest. If no, the existing risk models are accurate. The mechanism is open.
 - **Aquaculture vs wild-caught bivalve Cd.** The aquaculture-vs-wild differential well-documented for finfish ([[synthesis/aquaculture-vs-wild-contamination-differential]]) may operate differently in bivalves because farmed bivalves still filter-feed on ambient water (unlike farmed finfish which eat controlled feed). Whether farmed mussels in Cd-managed waters carry meaningfully different Cd than wild mussels in the same region needs separate characterization.
-- **Cephalopod viscera consumption patterns.** In some culinary traditions (Mediterranean, East Asian), cephalopod viscera are consumed; the EU "without viscera" caveat does not protect consumers in those contexts. HMTc certification on cephalopod products with viscera-included recipes needs a separate evidence treatment.
+- **Cephalopod viscera consumption patterns.** In some culinary traditions (Mediterranean, East Asian), cephalopod viscera are consumed; the EU "without viscera" caveat does not protect consumers in those contexts, and viscera-inclusive products fall outside the evidence base that the muscle-only cadmium values characterize. Whole-animal or viscera-inclusive cephalopod products therefore require their own cadmium characterization rather than extrapolation from muscle-only data.
 
 ## Downstream pages updated
 
@@ -79,7 +73,7 @@ The two-tier framework (option 1) is the recommended starting point. Option 2 or
 
 ## How this page was promoted
 
-Established 2026-05-18 from the seafood-axis evidence consolidation. The bivalve-finfish Cd differential has been documented in the literature for decades (the EU's per-category Cd cap differential dates to the original EC 466/2001 framework) but had not been treated as a standalone synthesis on the wiki. The page exists to ensure HMTc Cd certification thresholds on the seafood category are designed with the bivalve-finfish differential built in from the start.
+Established 2026-05-18 from the seafood-axis evidence consolidation. The bivalve-finfish Cd differential has been documented in the literature for decades (the EU's per-category Cd cap differential dates to the original EC 466/2001 framework) but had not been treated as a standalone synthesis on the wiki. The page consolidates that differential and its filter-feeding mechanism into a single literature-native reference.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state

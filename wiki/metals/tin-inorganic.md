@@ -15,7 +15,7 @@ n_sources: 4
 
 # Tin, Inorganic
 
-Inorganic tin denotes tin in the +2 (stannous, Sn2+) and +4 (stannic, Sn4+) oxidation states bound to non-carbon ligands such as chloride, sulfate, or oxide. It is the form of tin overwhelmingly present in food packaged in tinplated metal cans, the dominant dietary tin pathway in modern food systems. Inorganic tin is the form HMTc certifies against under the analyte symbol Sn (per CLAUDE.md Part 14); when occurrence surveys report total tin without speciating, the wiki treats those values as inorganic tin in food matrices unless the matrix is one with documented organotin loading (seafood, drinking water from PVC pipes, food contact with PVC plastics). For the parent element page see [[metals/tin]]; for the toxicologically distinct organotin compounds see [[metals/organotins]].
+Inorganic tin denotes tin in the +2 (stannous, Sn2+) and +4 (stannic, Sn4+) oxidation states bound to non-carbon ligands such as chloride, sulfate, or oxide. It is the form of tin overwhelmingly present in food packaged in tinplated metal cans, the dominant dietary tin pathway in modern food systems. Inorganic tin is the form addressed by the standard heavy-metal analyte symbol Sn; when occurrence surveys report total tin without speciating, the wiki treats those values as inorganic tin in food matrices unless the matrix is one with documented organotin loading (seafood, drinking water from PVC pipes, food contact with PVC plastics). For the parent element page see [[metals/tin]]; for the toxicologically distinct organotin compounds see [[metals/organotins]].
 
 ## Toxicology
 
@@ -76,7 +76,7 @@ What is the dietary tin intake for infants on heavy reliance on canned commercia
 - [[sources/atsdr2005-tin-toxicological-profile|ATSDR 2005]] — Comprehensive ATSDR Toxicological Profile for Tin and Tin Compounds. Source for inorganic-tin MRLs (intermediate oral MRL 0.3 mg Sn/kg/day for stannous chloride), food occurrence summary, exposure-route discussion, and toxic-mechanism characterization.
 - [[sources/benoy1971-tin-toxicity-canned-fruit-juices|Benoy, Hooper, Schneider 1971]] — Primary controlled-dose canned-juice toxicity study; establishes the 1,000-1,400 ppm symptomatic threshold and the local-irritation absorption-limited mechanism.
 - [[sources/tarigan2016-factors-tin-released-canned-beverages|Tarigan, Silalahi, Muchlisyam 2016]] — Indonesian canned-beverage tin occurrence with pH-and-storage-time dependence; supporting evidence on the release mechanism.
-- [[sources/schafer1984-tin-toxic-heavy-metal-review|Schafer & Femfert 1984]] — Historical European synthesis review establishing the species-distinction principle the wiki and HMTc both maintain.
+- [[sources/schafer1984-tin-toxic-heavy-metal-review|Schafer & Femfert 1984]] — Historical European synthesis review establishing the inorganic-tin-versus-organotin species-distinction principle.
 - [[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]] — Binding maximum levels for inorganic tin in canned food, canned beverages, and canned infant/young-child foods.
 
 <!-- BEGIN: hmi-page-history -->

@@ -171,7 +171,7 @@ Two load-bearing open questions for nickel:
 
 First, the population-level TDI exceedance reported by [[sources/efsa-nickel-contam-2020|EFSA 2020]] is a regulatory finding without a clear individual-level intervention pathway. Reducing dietary nickel below the TDI through ordinary food choice is difficult given nickel's broad distribution across plant foods and beverages. Whether this constitutes a population-health concern warranting policy intervention beyond the existing EU Nickel Directive on skin-contact items is an open question the wiki tracks as the regulatory landscape develops.
 
-Second, the relationship between dermal sensitization (the gateway exposure for many sensitized individuals) and dietary flare-up tolerance is mechanistically established but quantitatively variable across sensitized populations. Whether an HMT&C or analogous certification program targeting "low nickel" finished products would meaningfully serve sensitized consumers depends on individual-level threshold variation that the literature has not fully characterized.
+Second, the relationship between dermal sensitization (the gateway exposure for many sensitized individuals) and dietary flare-up tolerance is mechanistically established but quantitatively variable across sensitized populations. The individual-level oral nickel threshold at which a sensitized person experiences a flare-up is not fully characterized in the literature, so the dietary nickel concentration that would reliably benefit sensitized consumers cannot be specified from current evidence.
 
 Third, [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]] shows why dermal/contact-material evidence must be route-gated inside the wiki: a robust release-rate page for piercing post assemblies can coexist with Category 1 food data gaps without letting a skin-contact migration limit masquerade as a food occurrence value.
 
@@ -198,7 +198,7 @@ The clinical-trial cluster above expands the population for whom dietary nickel 
 | Endometriosis with GI / extra-intestinal symptoms | 90.3 percent Ni ACM prevalence in symptomatic subset | [[sources/borghini2020-endometriosis-ibs-nickel-low-diet-pilot|Borghini 2020]] |
 | H. pylori infection on triple therapy | Global; H. pylori colonizes ~50 percent of humans | [[sources/campanale2014-nickel-free-diet-h-pylori-eradication|Campanale 2014]] |
 
-The implication for HMTc Ni threshold rationale: the EFSA TDI framework calibrates against direct host endpoints in healthy populations. The clinical-trial cluster documents that dietary nickel modulates clinically meaningful endpoints across a population substantially larger than the EFSA framework recognizes, and that intervention via reduced dietary intake produces measurable response in most of these populations. Population-level Ni-threshold setting should reference this body of evidence as it does the EFSA TDI.
+The EFSA TDI framework calibrates against direct host endpoints in healthy populations. The clinical-trial cluster documents that dietary nickel modulates clinically meaningful endpoints across a population substantially larger than the EFSA framework recognizes, and that intervention via reduced dietary intake produces measurable response in most of these populations. The literature therefore identifies a population for whom dietary nickel matters that is wider than the reproductive/developmental and contact-allergy endpoints anchoring the EFSA reference values capture.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
