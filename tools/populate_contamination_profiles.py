@@ -29,6 +29,7 @@ with open('data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv') as f:
             'p90': float(r['p90_ppb_equivalent']),
             'p95': float(r['p95_ppb_equivalent']),
             'max': float(r['max_ppb_equivalent']),
+            'rl': float(r['reporting_limit_max_ppb_equivalent']) if r.get('reporting_limit_max_ppb_equivalent') else 0.0,
         }
 
 # ── 2. Load WHO GEMS/Food data ───────────────────────────────────────────────
@@ -291,7 +292,24 @@ def decide_values(slug, metal, cp_info):
         p10 = tds_row['p10']
         p90 = tds_row['p90']
         p95 = tds_row['p95']
+        # Censored-value guard: FDA TDS reports non-detects as literal 0. When
+        # every (or nearly every) composite fell below the reporting limit, the
+        # distribution is left-censored, not a measured zero. Publishing
+        # typical/p95 = 0 at high confidence understates contamination (the
+        # 2026-06-11 rice Pb/tHg/Cr artifact, Part 2 drift audit finding A1). Do
+        # not populate a measured zero from a fully-censored TDS cell; leave it
+        # for source-grounded synthesis against the broader literature.
+        if tds_row['reported_zero_n'] >= n and p90 == 0 and p95 == 0:
+            print(f'  [censored-skip] {slug} x {metal}: all {n} TDS composites '
+                  f'below RL {tds_row["rl"]} ppb (non-detect); left-censored, not '
+                  f'populated as a measured zero')
+            return None
         conf = confidence(n)
+        # Degenerate-distribution guard: a single composite, or an all-equal
+        # percentile vector, is a point, not a distribution. Never publish it at
+        # high confidence with p95 == typical (the rice iAs n=1 41.6 artifact).
+        if n <= 1 or (p10 == p90 == p95):
+            conf = 'low'
         # TDS is 1 study. If current page already has n_studies > 0 from prior source, add TDS on top.
         new_n = current_n + 1 if current_n > 0 else 1
         return {
@@ -315,7 +333,16 @@ def decide_values(slug, metal, cp_info):
         p10 = who_row['p10']
         p90 = who_row['p90']
         p95 = who_row['p95']
+        # Same censored-/degenerate-value guards as the TDS path: WHO GEMS
+        # lower-bound percentiles code non-detects as 0, so an all-zero upper
+        # tail is left-censored, not a measured zero.
+        if p90 == 0 and p95 == 0:
+            print(f'  [censored-skip] {slug} x {metal}: WHO GEMS lower-bound '
+                  f'p90/p95 = 0 (non-detect-dominated); not populated as a measured zero')
+            return None
         conf = confidence(n)
+        if p10 == p90 == p95:
+            conf = 'low'
         # Preserve existing n_studies (source page contribution already counted)
         return {
             'status': 'populated',

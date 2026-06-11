@@ -7,32 +7,32 @@ category: grain
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 61
-    last_reviewed: 2026-05-16
+    typical_ppb: [2, 40]
+    p95_ppb: 110
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-06-11
   Cd:
     status: populated
-    typical_ppb: [3.5, 9.7]
-    p95_ppb: 19
+    typical_ppb: [4, 40]
+    p95_ppb: 160
     confidence: high
-    n_studies: 86
-    last_reviewed: 2026-05-16
+    n_studies: 8
+    last_reviewed: 2026-06-11
   iAs:
     status: populated
-    typical_ppb: [41.6, 41.6]
-    p95_ppb: 41.6
+    typical_ppb: [40, 150]
+    p95_ppb: 190
     confidence: high
-    n_studies: 74
-    last_reviewed: 2026-05-16
+    n_studies: 8
+    last_reviewed: 2026-06-11
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 45
-    last_reviewed: 2026-05-16
+    typical_ppb: [0.5, 6]
+    p95_ppb: 20
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-06-11
   Ni:
     status: populated
     typical_ppb: [80, 450]
@@ -49,11 +49,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 30
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 30]
+    p95_ppb: 50
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-06-11
   Sn:
     status: populated
     typical_ppb: [0, 20]
@@ -63,18 +63,18 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [30.2, 62]
-    p95_ppb: 66.9
+    typical_ppb: [90, 250]
+    p95_ppb: 350
     confidence: high
-    n_studies: 95
-    last_reviewed: 2026-05-16
+    n_studies: 6
+    last_reviewed: 2026-06-11
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: [soil-uptake, flooded-paddy, irrigation-water-management, geography, cultivar, processing]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
@@ -82,7 +82,7 @@ used_in_products: ["[[products/infant-rice-cereal]]", "[[products/rice-milk]]", 
 audience: [regulator, educator, consumer, app]
 sources: 260
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-11
 ---
 
 # Rice
@@ -119,16 +119,26 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=61 | 0 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|3]] |
-| Cd | n=86 | 3.5–9.7 | 19 | high | [[sources/qin2026-rice-cadmium-liver-cancer-guangxi\|1]], [[sources/ji2026-agricultural-soil-metals-zhejiang\|2]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|3]] |
-| iAs | n=74 | 41.6 | 41.6 | high | [[sources/damato2026-inorganic-arsenic-rice-based-beverages\|1]], [[sources/yan2025-rice-heavy-metals-henan-china\|2]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|3]] |
-| tAs | n=95 | 30.2–62 | 66.9 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|2]], [[sources/xie2026-selenium-enriched-rice-china\|3]] |
-| tHg | n=45 | 0 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|3]] |
+| Pb | n=5 | 2–40 | 110 | medium | [[sources/huang2022-pb-cd-rice-china-meta\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Cd | n=8 | 4–40 | 160 | high | [[sources/huang2022-pb-cd-rice-china-meta\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/bandara2010-cadmium-rice-sri-lanka-crf\|3]] |
+| iAs | n=8 | 40–150 | 190 | high | [[sources/meharg2009-geographic-variation-arsenic-white-rice\|1]], [[sources/cr-fsasc2014-arsenic-rice-grains\|2]], [[sources/yan2025-rice-heavy-metals-henan-china\|3]] |
+| tAs | n=6 | 90–250 | 350 | high | [[sources/meharg2009-geographic-variation-arsenic-white-rice\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=5 | 0.5–6 | 20 | medium | [[sources/brombach2017-methylmercury-european-commercial-rice\|1]], [[sources/palmieri2020-mercury-rice\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Ni | n=23 | 80–450 | — | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
 | Al | n=11 | 200–1500 | — | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|3]] |
-| Cr | n=30 | 0 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|3]] |
+| Cr | n=3 | 0–30 | 50 | low | [[sources/yan2025-rice-heavy-metals-henan-china\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/tatahmentan2020-rice-grains-elements\|3]] |
 | Sn | n=11 | 0–20 | — | high | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/du2025-infant-thickener-urinary-arsenic\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
-| U | n=4 | 0 | 0 | medium | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/gama2025-bvl-rice-trace-elements\|2]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|3]] |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The per-analyte values above were resynthesized on 2026-06-11 on a dry raw polished (white) rice-grain basis, the form in which rice enters the ingredient supply chain. Most primary occurrence literature reports dry-grain concentrations; the FDA Total Diet Study values for cooked rice run lower because cooking dilutes the grain with water, and are carried as a corroborating as-consumed anchor rather than the headline basis. Inorganic arsenic and total arsenic are kept as distinct analytes and are never derived from one another by a fixed ratio; only speciated measurements populate the iAs cell.
+
+Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported lead, total mercury, and chromium at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of FDA Total Diet Study composites in which every cooked-rice sample fell below the reporting limit (lead 4 µg/kg, mercury 1 µg/kg, chromium 50 µg/kg) and the reported zeros were pooled as literal zeros. The resynthesis replaces them with the detected dry-grain distributions from the primary literature, in which all three metals are low but non-zero, with right tails driven by elevated-soil and industrial-region production.
+
+The lead and cadmium upper tails rest on the pooled Chinese-rice meta-analysis ([[sources/huang2022-pb-cd-rice-china-meta|Huang et al. 2022]], 24 lead and 29 cadmium studies; pooled Pb 0.10 mg/kg and Cd 0.16 mg/kg dry weight) together with US retail-grain data ([[sources/tatahmentan2020-rice-grains-elements|TatahMentan et al. 2020]]) and the Sri Lankan cadmium hot-spot dataset ([[sources/bandara2010-cadmium-rice-sri-lanka-crf|Bandara et al. 2010]], to 92.5 µg/kg). The inorganic-arsenic distribution rests on the 901-sample ten-country market-basket survey ([[sources/meharg2009-geographic-variation-arsenic-white-rice|Meharg et al. 2009]]), the 697-sample composite ([[sources/cr-fsasc2014-arsenic-rice-grains|CR-FSASC 2014]]), and the 6,632-sample Henan survey ([[sources/yan2025-rice-heavy-metals-henan-china|Yan et al. 2025]], inorganic-arsenic median 110 µg/kg). Total mercury rests on the 87-sample European commercial-rice study ([[sources/brombach2017-methylmercury-european-commercial-rice|Brombach et al. 2017]], 0.53 to 11.1 µg/kg) for the central distribution; the 95th-percentile anchor is set above that European bulk to reflect heavier Asian and contaminated-region tails ([[sources/cui2022-mercury-speciation-rice-china|Cui et al. 2022]] high-resolution Chinese model; [[sources/kurniawati2021-jakarta-staple-foods-naa|Kurniawati et al. 2021]] reports a Jakarta market sample at 150 µg/kg by neutron activation, which may be an analytical outlier and is not adopted as a percentile). Brown rice and rice bran carry higher arsenic and cadmium than polished white rice and are characterized separately on [[ingredients/brown-rice]] and [[ingredients/rice-bran]].
+
+Chromium is reported as total chromium at low confidence; no rice-grain hexavalent-chromium measurement exists in the corpus. Uranium is recorded as a reviewed data gap: the routed sources report rice uranium below regulatory concern without extractable quantitative values, so no distribution is published. Aluminium, tin, and nickel retain their prior values and were outside the scope of this resynthesis.
 
 ## Why this commodity accumulates cadmium
 
@@ -152,7 +162,7 @@ The dominant axes of variance in rice heavy-metal load are growing region, paddy
 
 **Cadmium** in rice is driven by paddy-soil Cd content and pH, with elevated Cd documented in some Chinese and Sri Lankan growing regions ([[sources/bandara2010-cadmium-rice-sri-lanka-crf|Bandara 2010]] is the foundational Sri Lankan dataset; [[sources/qin2026-rice-cadmium-liver-cancer-guangxi|Qin 2026]] documents the Guangxi epidemiological signal). The cadmium-rice exposure pathway is particularly consequential in populations with high per-capita rice consumption.
 
-**Lead** in rice is generally low except where soil Pb loading is elevated (historic mining regions, agricultural-area contamination from past pesticide use, irrigation-water Pb in industrial-zone production). The wiki's pooled rice Pb data show low population-level concentrations.
+**Lead** in rice is generally low in clean-soil production but non-zero, with elevated concentrations where soil Pb loading is high (historic mining regions, agricultural-area contamination from past pesticide use, irrigation-water Pb in industrial-zone production). US retail white rice runs at a few µg/kg ([[sources/tatahmentan2020-rice-grains-elements|TatahMentan et al. 2020]] reports a median of 2.8 µg/kg dry weight), while pooled Chinese rice sits near 0.10 mg/kg dry weight ([[sources/huang2022-pb-cd-rice-china-meta|Huang et al. 2022]]); the upper tail is driven by growing-region geography rather than by rice biology. FDA Total Diet Study cooked white rice fell below the 4 µg/kg reporting limit in every composite, which the earlier profile mis-recorded as a population-level zero.
 
 **Variety effects** within a single growing region: brown rice and rice bran carry higher cadmium and higher inorganic arsenic than polished white rice from the same source, because both metals concentrate in the bran layer rather than the endosperm. Basmati rice (long-grain aromatic Indian/Pakistani cultivars) is documented at lower iAs than typical South-Asian short-grain rice. Wild rice (Zizania, a different species) carries different metal profiles from Oryza rice and is not characterized on this page.
 

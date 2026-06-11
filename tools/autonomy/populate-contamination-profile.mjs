@@ -260,6 +260,37 @@ for (const [slug, metalMap] of bySlug) {
       continue
     }
 
+    // Integrity gate (mirrors tools/audit-contamination-profile-integrity.mjs).
+    // Never publish a degenerate distribution — p95 not strictly above the
+    // typical-range maximum across >5 sources — nor an all-zero cell. Both
+    // understate contamination: the first is a collapsed single-value pool
+    // published as a distribution, the second is below-LOQ non-detects coded as
+    // literal 0 (the 2026-06-11 rice Pb/iAs/tHg/Cr artifact, Part 2 drift audit
+    // finding A1). Route to staff review rather than auto-publishing the
+    // understatement. CLAUDE.md Part 2: softening reported contamination is the
+    // failure direction this guard blocks.
+    const typHi = decision.typical_ppb[1]
+    const p95Val = decision.p95_ppb
+    const degenerateTail =
+      p95Val !== null && typHi !== null && decision.n_studies > 5 && p95Val <= typHi
+    const censoredZero =
+      decision.typical_ppb[0] === 0 && typHi === 0 && p95Val === 0
+    if (degenerateTail || censoredZero) {
+      cellsReview += 1
+      reviewQueue.push({
+        slug,
+        metal,
+        verdict: row.verdict,
+        distinct_sources: decision.n_studies,
+        weak_recon_share: "",
+        pooled_p10: row.pooled_p10 ?? "",
+        pooled_p90: row.pooled_p90 ?? "",
+        pooled_p95: row.pooled_p95 ?? "",
+        reason: degenerateTail ? "degenerate_upper_tail" : "censored_zero_distribution",
+      })
+      continue
+    }
+
     const newSub = updateMetalSubBlock(metalSub.text, decision)
     if (newSub === metalSub.text) {
       cellsUnchanged += 1
