@@ -125,7 +125,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
 | Pb | n=1 | 0–2 | 2 | high | — |
-| Cd | n=1 | 0–0.0 | 1 | high | — |
+| Cd | n=1 | 0 | 1 | high | — |
 | iAs | n=1 | 0–5 | 6 | high | — |
 | tAs | data gap | — | — | — | — |
 | tHg | n=1 | 0–0.1 | 0.5 | high | — |

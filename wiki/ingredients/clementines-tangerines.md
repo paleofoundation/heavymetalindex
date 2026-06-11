@@ -124,7 +124,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 10.2–19.7 | 20.0 | medium | — |
+| Pb | n=1 | 10.2–19.7 | 20 | medium | — |
 | Cd | n=1 | 0–2 | 4.8 | low | — |
 | iAs | n=1 | 0 | 0 | low | — |
 | tAs | data gap | — | — | — | — |
@@ -132,7 +132,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Ni | n=1 | 63 | 63 | low | — |
 | Al | n=1 | 95.7–861.3 | 909.1 | low | — |
 | Cr | n=1 | 30 | 30 | low | — |
-| Sn | n=1 | 3.7–6.8 | 7.0 | low | — |
+| Sn | n=1 | 3.7–6.8 | 7 | low | — |
 | U | data gap | — | — | — | — |
 
 ## Routing

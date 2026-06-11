@@ -130,11 +130,11 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0–3.6 | 4.0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Pb | n=2 | 0–3.6 | 4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Cd | n=2 | 12.4–34 | 36.5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | n=2 | 86.7–100.5 | 101.7 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tAs | n=2 | 138–202 | 206 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0.6–3.9 | 4.0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0.6–3.9 | 4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=2 | 97.2–166 | 173 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — | — |
 | Cr | n=2 | 10.8–90.8 | 95.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |

@@ -132,7 +132,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Ni | data gap | — | — | — | — |
 | Al | n=1 | 0–4292 | 6160 | high | — |
 | Cr | data gap | — | — | — | — |
-| Sn | n=1 | 0.7–6.0 | 6.4 | low | — |
+| Sn | n=1 | 0.7–6 | 6.4 | low | — |
 | U | data gap | — | — | — | — |
 
 ## Routing

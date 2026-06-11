@@ -125,7 +125,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
 | Pb | n=3 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=3 | 0.3–2.9 | 3.0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=3 | 0.3–2.9 | 3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tHg | n=3 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |

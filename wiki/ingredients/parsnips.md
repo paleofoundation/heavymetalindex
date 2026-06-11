@@ -130,7 +130,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=1 | 0–90.5 | 142.8 | high | — |
 | iAs | n=1 | 16.4–112.7 | 152.8 | medium | — |
 | tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–0.6 | 2.0 | high | — |
+| tHg | n=1 | 0–0.6 | 2 | high | — |
 | Ni | data gap | — | — | — | — |
 | Al | data gap | — | — | — | — |
 | Cr | data gap | — | — | — | — |

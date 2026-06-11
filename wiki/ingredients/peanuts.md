@@ -133,7 +133,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Pb | n=8 | 0 | 0 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|3]] |
 | Cd | n=11 | 36.4–44.4 | 44.7 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|3]] |
 | iAs | n=3 | 1–2 | 2 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|3]] |
-| tAs | n=7 | 1.0–5.0 | 5.0 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|3]] |
+| tAs | n=7 | 1–5 | 5 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|3]] |
 | tHg | n=3 | 0 | 0 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Ni | n=9 | 408–528 | 539 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|3]] |
 | Al | data gap | — | — | — | — |

@@ -130,7 +130,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0–3.5 | 4.0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/abebe2017-popcorn-cornflake-metals-ethiopia\|2]] |
+| Pb | n=2 | 0–3.5 | 4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/abebe2017-popcorn-cornflake-metals-ethiopia\|2]] |
 | Cd | n=2 | 1.2–1.3 | 1.3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |

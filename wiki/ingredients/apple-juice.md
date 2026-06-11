@@ -134,7 +134,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Ni | n=3 | 0–16 | 18 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]] |
 | Al | n=1 | 0–2560 | 2875 | low | — |
 | Cr | n=3 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]] |
-| Sn | n=4 | 0–8.9 | 9.0 | medium | [[sources/tarigan2016-factors-tin-released-canned-beverages\|1]], [[sources/atsdr2005-tin-toxicological-profile\|2]], [[sources/schafer1984-tin-toxic-heavy-metal-review\|3]] |
+| Sn | n=4 | 0–8.9 | 9 | medium | [[sources/tarigan2016-factors-tin-released-canned-beverages\|1]], [[sources/atsdr2005-tin-toxicological-profile\|2]], [[sources/schafer1984-tin-toxic-heavy-metal-review\|3]] |
 | U | n=2 | 0 | 0 | low | [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|1]] |
 
 ## Routing

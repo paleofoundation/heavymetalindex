@@ -137,7 +137,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Al | data gap | — | — | — | — |
 | Cr | n=2 | 200–300 | 300 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — | — |
-| U | n=2 | 1.2–2.6 | 3.0 | high | — |
+| U | n=2 | 1.2–2.6 | 3 | high | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 

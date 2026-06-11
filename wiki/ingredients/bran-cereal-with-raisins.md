@@ -128,7 +128,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 1.0–13.8 | 14.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Pb | n=2 | 1–13.8 | 14.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Cd | n=2 | 30–43.6 | 43.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=2 | 13.2–23.6 | 24.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
@@ -137,7 +137,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Al | data gap | — | — | — | — |
 | Cr | n=2 | 100–260 | 280 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — | — |
-| U | n=2 | 0.2–4.0 | 4.3 | low | — |
+| U | n=2 | 0.2–4 | 4.3 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 

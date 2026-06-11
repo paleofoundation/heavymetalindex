@@ -127,7 +127,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Pb | n=4 | 0 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
 | Cd | n=4 | 2.1–15 | 17.8 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
 | iAs | n=1 | 21.4–66.3 | 75.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tAs | n=3 | 0–5.7 | 6.0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
+| tAs | n=3 | 0–5.7 | 6 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
 | tHg | n=3 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]] |
 | Ni | n=3 | 0–64 | 70.5 | high | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
 | Al | n=1 | 236.5–1665 | 1668 | low | — |

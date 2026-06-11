@@ -130,7 +130,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 5.3–6 | 6.0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Pb | n=2 | 5.3–6 | 6 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Cd | n=2 | 44.6–59 | 59.5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/schaefer2020-cadmium-mitigation-strategies\|2]] |
 | iAs | n=2 | 3–9 | 10 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|2]] |
 | tAs | n=2 | 6.3–9.5 | 9.7 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|2]] |

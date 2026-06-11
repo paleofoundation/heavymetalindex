@@ -134,7 +134,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Ni | n=7 | 27–258 | 1006 | medium | [[sources/han2024-nickel-zhejiang-china\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
 | Al | n=6 | 0–1391 | 1503 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/fda-tds-elements-2018-2020\|3]] |
 | Cr | n=6 | 40–472 | 1014 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/henriksen2023-chromium-nordic-nnr\|2]], [[sources/fda-tds-elements-2018-2020\|3]] |
-| Sn | n=4 | 4.6–21.0 | 32.2 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/cfs2013-hktds-metallic-contaminants\|3]] |
+| Sn | n=4 | 4.6–21 | 32.2 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/cfs2013-hktds-metallic-contaminants\|3]] |
 | U | data gap | — | — | — | — |
 
 ## Routing

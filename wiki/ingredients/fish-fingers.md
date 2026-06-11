@@ -128,7 +128,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=3 | 11.2–12.8 | 12.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | n=1 | 0 | 2.5 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tAs | n=2 | 682–810 | 810 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=3 | 5.7–9.0 | 9.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=3 | 5.7–9 | 9.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=3 | 93.2–134 | 137 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | n=1 | 0–1752 | 2617 | medium | — |
 | Cr | n=3 | 200–360 | 380 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |

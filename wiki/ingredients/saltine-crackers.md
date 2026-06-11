@@ -131,7 +131,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Pb | n=2 | 0–3.3 | 3.7 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Cd | n=2 | 22.4–33.6 | 34.3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — | — |
-| tAs | n=2 | 3.1–3.9 | 4.0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=2 | 3.1–3.9 | 4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tHg | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=2 | 76–105.6 | 107.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — | — |

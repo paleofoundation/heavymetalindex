@@ -129,7 +129,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
 | Pb | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn\|2]] |
-| Cd | n=2 | 0.2–2.0 | 2.1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn\|2]] |
+| Cd | n=2 | 0.2–2 | 2.1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn\|2]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=2 | 0.7–4.7 | 4.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tHg | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |

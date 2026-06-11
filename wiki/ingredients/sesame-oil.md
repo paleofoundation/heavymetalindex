@@ -62,16 +62,16 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | — | — | — | — | — |
-| Cd | — | — | — | — | — |
-| iAs | — | — | — | — | — |
-| tAs | — | — | — | — | — |
-| tHg | — | — | — | — | — |
-| Ni | — | — | — | — | — |
-| Al | — | — | — | — | — |
-| Cr | — | — | — | — | — |
-| Sn | — | — | — | — | — |
-| U | — | — | — | — | — |
+| Pb | n=3 | 9–17 | 17 | medium | — |
+| Cd | n=3 | 5–9 | 9 | medium | — |
+| iAs | data gap | — | — | — | — |
+| tAs | n=3 | 18–91 | 124 | medium | — |
+| tHg | data gap | — | — | — | — |
+| Ni | data gap | — | — | — | — |
+| Al | data gap | — | — | — | — |
+| Cr | data gap | — | — | — | — |
+| Sn | data gap | — | — | — | — |
+| U | data gap | — | — | — | — |
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

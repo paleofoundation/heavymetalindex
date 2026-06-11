@@ -127,7 +127,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Pb | n=8 | 0 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Cd | n=8 | 0 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | iAs | data gap | — | — | — | — |
-| tAs | n=4 | 0–7.0 | 8.1 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tAs | n=4 | 0–7 | 8.1 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | tHg | n=3 | 0 | 0 | high | [[sources/chen2024-trimodal-hg-food-sensor\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
 | Ni | n=5 | 0 | 44.1 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
 | Al | n=1 | 0–1966 | 2411 | medium | — |

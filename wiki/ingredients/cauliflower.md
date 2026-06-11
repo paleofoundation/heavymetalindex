@@ -137,7 +137,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Al | data gap | — | — | — | — |
 | Cr | n=2 | 0 | 0 | high | [[sources/samma2024-bangladesh-vegetable-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
 | Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 1.0 | high | — |
+| U | n=2 | 0 | 1 | high | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 

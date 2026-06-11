@@ -131,7 +131,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Pb | n=3 | 0 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]], [[sources/codex-cxs-193-1995\|3]] |
 | Cd | n=3 | 20–59.4 | 73.3 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]], [[sources/codex-cxs-193-1995\|3]] |
 | iAs | n=2 | 0–2 | 4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| tAs | n=2 | 0–3.6 | 4.0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]] |
+| tAs | n=2 | 0–3.6 | 4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]] |
 | tHg | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
 | Ni | n=2 | 0–59.8 | 67.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — | — |

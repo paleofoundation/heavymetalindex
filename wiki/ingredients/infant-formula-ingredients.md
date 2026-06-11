@@ -58,16 +58,16 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | — | — | — | — | — |
-| Cd | — | — | — | — | — |
-| iAs | — | — | — | — | — |
-| tAs | — | — | — | — | — |
-| tHg | — | — | — | — | — |
-| Ni | — | — | — | — | — |
-| Al | — | — | — | — | — |
-| Cr | — | — | — | — | — |
-| Sn | — | — | — | — | — |
-| U | — | — | — | — | — |
+| Pb | n=7 | 1–5 | 100 | medium | — |
+| Cd | n=7 | 0–5 | 15 | medium | — |
+| iAs | n=2 | 0–5 | 20 | low | — |
+| tAs | n=3 | 1–5 | 10 | low | — |
+| tHg | n=5 | 0–3 | 5 | low | — |
+| Ni | n=2 | 10–80 | 200 | low | — |
+| Al | n=7 | 150–1000 | 2700 | medium | — |
+| Cr | n=2 | 5–35 | 100 | low | — |
+| Sn | n=2 | 0–50 | 100 | low | — |
+| U | data gap | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

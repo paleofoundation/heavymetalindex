@@ -132,7 +132,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Ni | n=4 | 0–60.2 | 74.1 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/afrin2020-heavy-metals-fruits-dhaka\|3]] |
 | Al | n=1 | 95.7–861.3 | 909.1 | low | — |
 | Cr | n=5 | 0 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Sn | n=1 | 3.7–6.8 | 7.0 | low | — |
+| Sn | n=1 | 3.7–6.8 | 7 | low | — |
 | U | n=2 | 0 | 0 | high | — |
 
 ## Routing
