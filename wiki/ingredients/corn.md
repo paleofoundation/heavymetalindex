@@ -12,11 +12,12 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 19
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 60]
+    p95_ppb: 130
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-06-11
+    basis: corn-grain-as-sold-mixed-wet-and-dry-weight
   Cd:
     status: populated
     typical_ppb: [1.4, 3.5]
@@ -33,18 +34,22 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 13
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 7]
+    p95_ppb: 10
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-06-11
+    basis: corn-grain-as-sold-mixed-wet-and-dry-weight
+    speciation: total-As-only
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 1]
+    p95_ppb: 18
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-06-11
+    basis: corn-grain-as-sold-mixed-wet-and-dry-weight
+    speciation: total-Hg-only
   Ni:
     status: populated
     typical_ppb: [0, 54.4]
@@ -61,11 +66,13 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 15
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 256]
+    p95_ppb: 740
+    confidence: low
+    n_studies: 5
+    last_reviewed: 2026-06-11
+    basis: corn-grain-as-sold-mixed-wet-and-dry-weight
+    speciation: total-Cr-only; no Cr-VI measurement in corpus
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -75,18 +82,18 @@ contamination_profile:
     last_reviewed: 2026-05-12
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 52
 ---
 
@@ -122,7 +129,7 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Maize (corn) accumulates cadmium through root uptake from soil, a mechanism that is modulated by soil pH, organic matter content, and the competing presence of zinc. In acidic soils or soils with elevated cadmium from phosphate fertilizer application, maize grain can carry detectable cadmium, though whole-grain corn is generally a lower Cd accumulator than leafy vegetables or root vegetables because the grain is a reproductive structure with some buffering against cadmium translocation from vegetative tissue. [[sources/romero-crespo2023-ecuador-mining-crops-metals]] documented substantially elevated cadmium, chromium, lead, and arsenic in maize grain grown near mining operations in Ecuador, where soil-to-plant transfer is driven by contaminated parent rock and tailings rather than agricultural inputs alone.
 
-Arsenic in corn is typically low: the FDA TDS FY2018-FY2020 data shows tAs at or near zero across all 27 composite samples for frozen boiled corn [[sources/fda2022-tds-elements-fy2018-fy2020]], consistent with the broader literature showing that corn does not concentrate arsenic the way flooded-paddy rice does. Nickel shows episodic elevation in the TDS corn data, with a p90 of 54.4 ppb and a maximum of 160 ppb, indicating that some market-basket composites captured nickel from soil or processing sources at levels notably higher than typical. Lead and mercury are essentially non-detectable in the TDS corn dataset.
+Arsenic in corn is typically low: the FDA TDS FY2018-FY2020 data report total arsenic below the 3 µg/kg reporting limit across all 27 composite samples for frozen boiled corn [[sources/fda2022-tds-elements-fy2018-fy2020]], and the primary corn-grain literature confirms a low but non-zero total-arsenic burden (Beijing retail corn flour 7 µg/kg, Nigerian corn grain at or below 10 µg/kg dry weight), consistent with corn not concentrating arsenic the way flooded-paddy rice does. Nickel shows episodic elevation in the TDS corn data, with a p90 of 54.4 ppb and a maximum of 160 ppb, indicating that some market-basket composites captured nickel from soil or processing sources at levels notably higher than typical. Lead, total mercury, total chromium, and uranium are all below their respective reporting limits across the FDA composites; those below-limit results are carried as left-censored bounds rather than as measured zeros, and the routed primary literature recovers low but non-zero lead, mercury, and chromium in corn grain (see the Synthesis basis and censoring treatment section).
 
 ## Heavy metal contamination profile
 
@@ -130,16 +137,34 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=19 | 0 | 0 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
+| Pb | n=9 | <4–60 | 130 | medium | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/ataee2016-iran-cereals-pb-cd\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
 | Cd | n=18 | 1.4–3.5 | 3.8 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hassan2025-cornflakes-lebanon-metals\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
 | iAs | data gap | — | — | — | — |
-| tAs | n=13 | 0 | 0 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
-| tHg | n=8 | 0 | 0 | medium | [[sources/hassan2025-cornflakes-lebanon-metals\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
+| tAs | n=4 | <3–7 | 10 | low | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/abatemi-usman2023-corn-cement-nigeria\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=3 | <1–1 | 18 | low | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/gu2019-maize-peanut-heavy-metals-guangxi\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Ni | n=8 | 0–54.4 | 60.1 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abatemi-usman2023-corn-cement-nigeria\|3]] |
 | Al | data gap | — | — | — | — |
-| Cr | n=15 | 0 | 0 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
+| Cr | n=5 | <50–256 | 740 | low | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/pirsaheb2015-iran-kermanshah-cereals-metals\|3]] |
 | Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 0 | high | — |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, total-arsenic, total-mercury, chromium, and uranium cells were resynthesized on 2026-06-11. The native basis for this page is corn grain as sold; FDA Total Diet Study Food 54 reports the matrix as "Corn, frozen, boiled" (whole-kernel corn), while most of the routed primary literature reports corn grain or corn flour on a dry-weight basis. Where dry-weight or corn-flour anchors are pooled against the FDA whole-kernel composite, the basis difference is stated rather than silently harmonized, and the mixed basis is recorded in the cell as `corn-grain-as-sold-mixed-wet-and-dry-weight`. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
+
+The earlier profile reported lead, total arsenic, total mercury, chromium, and uranium at typical and 95th-percentile values of zero. Those figures were an artifact of the FDA Total Diet Study composite for frozen boiled corn (n=27), in which every sample fell below the reporting limit for each of these five analytes and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limits Pb 4, tAs 3, tHg 1, Cr 50, U 1 µg/kg). Cadmium and nickel were not part of this resynthesis: they carry genuine FDA detects (Cd p50 2.6 µg/kg, max 4.8; Ni p90 54.4 µg/kg, max 160) and remain as previously synthesized. The resynthesis replaces the literal zeros for the five censored analytes with a left-censored floor at the FDA reporting limit and recovers the upper distribution from the routed primary corn-grain occurrence literature, in which lead, total arsenic, total mercury, and total chromium are low but non-zero in corn grain.
+
+Lead rests on the FDA censored floor for the low bound and on commercial-market corn anchors for the central and upper distribution. Beijing retail corn flour carried lead at 60 µg/kg ([[sources/liang2019-beijing-foodstuffs-health-risk|Liang et al. 2019]]); Kermanshah retail corn ran 93 to 146 µg/kg dry weight across three markets ([[sources/ataee2016-iran-cereals-pb-cd|Ataee et al. 2016]]); and an industrial-region Chinese cereal survey reported a mean of 45 µg/kg with a maximum of 284 µg/kg ([[sources/wang2023-toxic-metals-daily-diet-ningxia|Wang et al. 2023]]). The clean-platform floor is corroborated by Egyptian freshwater-irrigated maize, which ran below detection to 40 µg/kg at all five Nile-irrigated sites ([[sources/el-hassanin2020-egypt-maize-pb-cd|El-Hassanin et al. 2020]]). The pooled lead typical of [0, 60] takes the FDA censored floor as the low bound and the Beijing retail-flour and Kermanshah lower-market values as the upper central; the 95th-percentile of 130 µg/kg is anchored to the elevated commercial-market tail (Ataee 146 µg/kg, Wang 284 µg/kg maximum). Confidence is held at medium: the pool is deep, but the contributors mix whole-kernel, dry-weight, and corn-flour bases and span commercial markets of differing background burden.
+
+Total arsenic is genuinely low in corn, in contrast to flooded-paddy rice, because corn is not grown under the anaerobic conditions that mobilize arsenite into grain. The honest floor is the FDA 3 µg/kg reporting limit; the central rests on Beijing retail corn flour at 7 µg/kg ([[sources/liang2019-beijing-foodstuffs-health-risk|Liang et al. 2019]]) and on Nigerian cement-vicinity corn grain, in which total arsenic was uniformly at or below 10 µg/kg dry weight across all sites including the contaminated downwind farmlands ([[sources/abatemi-usman2023-corn-cement-nigeria|Abatemi-Usman et al. 2023]]). The pooled typical of [0, 7] and 95th-percentile of 10 µg/kg reflect this narrow low-arsenic band. Confidence is low because only two primary anchors report an extractable positive corn total-arsenic value. Total arsenic is held distinct from inorganic arsenic, which remains a reviewed data gap for this commodity; no speciated corn-arsenic measurement exists in the corpus, and the inorganic fraction is never inferred from total arsenic.
+
+Total mercury rests on the FDA censored floor and two primary anchors. Guangxi maize grain carried total mercury at a mean of about 1 µg/kg with a maximum of 33 µg/kg ([[sources/gu2019-maize-peanut-heavy-metals-guangxi|Gu et al. 2019]]), and Beijing retail corn flour carried total mercury at 18 µg/kg ([[sources/liang2019-beijing-foodstuffs-health-risk|Liang et al. 2019]]). The pooled typical of [0, 1] spans the FDA reporting-limit floor to the Guangxi central; the 95th-percentile of 18 µg/kg is the Beijing retail-flour value, which sits at the top of the ordered pooled set. Confidence is low: only two single-region positive contributors exist. Total mercury is held distinct from methylmercury and is not derived from it.
+
+Chromium is reported as total chromium only, and no corn hexavalent-chromium measurement exists in the corpus, so no Cr-VI value is inferred. Total chromium is the standout analyte in commercial corn-derived products: an independent Lebanese retail survey of 42 cornflake products found chromium at the highest mean concentration of the five metals measured ([[sources/hassan2025-cornflakes-lebanon-metals|Hassan et al. 2025]]). The honest floor is the FDA 50 µg/kg reporting limit; the central and upper distribution rest on Beijing retail corn flour at 76 µg/kg ([[sources/liang2019-beijing-foodstuffs-health-risk|Liang et al. 2019]]), an industrial-region Chinese cereal mean of 256 µg/kg with a maximum of 770 µg/kg ([[sources/wang2023-toxic-metals-daily-diet-ningxia|Wang et al. 2023]]), and Kermanshah retail corn at 740 µg/kg ([[sources/pirsaheb2015-iran-kermanshah-cereals-metals|Pirsaheb et al. 2015]]). The pooled typical of [0, 256] and 95th-percentile of 740 µg/kg span the FDA floor to the Wang and Pirsaheb commercial-market central-to-upper values. Confidence is low because total chromium carries no speciation, the contributors mix whole-kernel and dry-weight bases, and the distribution is wide.
+
+The mining-area, industrial, and wastewater-irrigated corn anchors are deliberately excluded from the headline percentiles above and recorded as a separate contamination stratum. Maize grown adjacent to a Chongqing manganese mining and smelting area, in an oil-industry zone of Khuzestan Province (lead mean 1,840 µg/kg, total arsenic 1,570 µg/kg, chromium 4,920 µg/kg), in the industrialized Chengdu Plain (maize lead mean 290 µg/kg), near the Obajana cement plant (corn lead 230 to 380 µg/kg dry weight downwind, chromium 2,080 to 3,560 µg/kg), and on Egyptian sites irrigated with mixed sewage and industrial effluent (maize lead 260 to 550 µg/kg, 19 to 30-fold above the freshwater-irrigated controls) all carried metal burdens far above commercial-market corn ([[sources/zhang2026-trace-metals-five-crops-chongqing|Zhang et al. 2026]]; [[sources/gholami2025-heavy-metals-corn-iran-khuzestan|Gholami et al. 2025]]; [[sources/liu2022-heavy-metals-rice-maize-chengdu|Liu et al. 2022]]; [[sources/abatemi-usman2023-corn-cement-nigeria|Abatemi-Usman et al. 2023]]; [[sources/el-hassanin2020-egypt-maize-pb-cd|El-Hassanin et al. 2020]]). These define an upper bound for industrially or geologically anomalous origins and are not representative of the general commercial corn supply.
+
+Uranium is recorded as a reviewed data gap. The only corn uranium measurement in the corpus is the fully censored FDA Total Diet Study cell (all 27 frozen-boiled-corn composites below the 1 µg/kg reporting limit), and no routed primary source reports an extractable quantitative corn-grain uranium value. The FDA cornbread composite carries detectable uranium (2.2 to 2.7 µg/kg), but cornbread is a flour-and-leavening derivative, not corn grain, and its value is not relabeled as corn. With no positive corn-grain anchor, no distribution is published, following the rice-uranium precedent.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

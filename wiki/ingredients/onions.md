@@ -8,11 +8,12 @@ category: vegetable
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 16]
+    p95_ppb: 76
     confidence: medium
-    n_studies: 9
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-06-11
+    basis: raw-onion-bulb-wet-weight
   Cd:
     status: populated
     typical_ppb: [2.9, 13.8]
@@ -36,11 +37,13 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 1]
+    p95_ppb: 1
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-06-11
+    basis: raw-onion-bulb-wet-weight
+    speciation: total-Hg-only; not derived from MeHg
   Ni:
     status: populated
     typical_ppb: [0, 58.6]
@@ -57,11 +60,14 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 6
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 34]
+    p95_ppb: 60
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-06-11
+    basis: raw-onion-bulb-wet-weight
+    basis_note: "Headline values are native wet-weight, anchored on the only directly-measured wet-weight onion-bulb Cr in the corpus (Loutfy 2012, Egypt). Dry-weight onion-bulb anchors (Saleem 2025, Stasinos 2014 Latvian/Spanish allotment) are moisture-converted to wet-weight (wet ~= dry x 0.11 at ~89% onion moisture) and corroborate at a lower level; they are not presented as wet-weight."
+    speciation: total-Cr-only; no Cr-VI measurement in corpus
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -71,18 +77,18 @@ contamination_profile:
     last_reviewed: 2026-05-16
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-11
 sources: 23
 ---
 
@@ -124,16 +130,30 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=9 | 0 | 0 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/owusuadoma2024-ghana-lettuce-metals\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Pb | n=5 | <4–16 | 76 | medium | [[sources/heshmati2020-iran-vegetables-cereals-pb-cd\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/rempelos2023-vegetable-organic-conventional-metals\|3]] |
 | Cd | n=7 | 2.9–13.8 | 20.6 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=4 | 0–8.6 | 10.3 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=3 | 0 | 0 | high | [[sources/adhikari2024-leafy-vegetables-johannesburg\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/codex-cxs-193-1995\|3]] |
+| tHg | n=2 | <1–1 | 1 | low | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
 | Ni | n=6 | 0–58.6 | 85 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/owusuadoma2024-ghana-lettuce-metals\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
 | Al | data gap | — | — | — | — |
-| Cr | n=6 | 0 | 0 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/owusuadoma2024-ghana-lettuce-metals\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Cr | n=4 | 0–34 | 60 | low | [[sources/loutfy2012-ismailia-foodstuffs-metals\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/stasinos2014-heavy-metals-tubers-review\|3]] |
 | Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 0 | high | — |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, total-mercury, chromium, and uranium cells were resynthesized on 2026-06-11 on a raw onion-bulb wet-weight basis, the form in which the fresh vegetable enters the ingredient supply chain and the basis FDA Total Diet Study Food 128 ("Onion, mature, raw") reports. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported lead, total mercury, chromium, and uranium at typical and 95th-percentile values of zero; those figures were an artifact of the FDA Total Diet Study composites for raw onion, in which every sample (or all but one) fell below the reporting limit and the reported below-limit results were pooled as literal zeros. FDA reported lead below the 4 µg/kg reporting limit in 26 of 27 composites with a single detect to 7.4 µg/kg, total mercury below the 1 µg/kg reporting limit in all 27, chromium below the 50 µg/kg reporting limit in all 27, and uranium below the 1 µg/kg reporting limit in all 27 ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The resynthesis replaces the literal zeros with a left-censored floor at the FDA reporting limit and recovers the upper distribution, where primary onion-named occurrence literature supports it.
+
+Lead rests on onion-specific retail and field surveys rather than on broad-vegetable aggregates. The largest is a Hamadan, Iran market-basket survey of fifty onion composites ([[sources/heshmati2020-iran-vegetables-cereals-pb-cd|Heshmati et al. 2020]]), in which onion lead averaged 16 µg/kg fresh weight (range 2 to 76 µg/kg), with every composite below the EU 100 µg/kg maximum level. A North Dakota farmers'-market survey ([[sources/saleem2025-locally-grown-vegetables-north-dakota|Saleem et al. 2025]], n=7 onion) reports onion lead at 14 µg/kg fresh weight, and the long-term UK Nafferton field trial ([[sources/rempelos2023-vegetable-organic-conventional-metals|Rempelos et al. 2023]]) reports onion-bulb lead main-effect means of 7 to 14.5 µg/kg fresh weight. The pooled lead typical of [0, 16] takes the FDA 4 µg/kg reporting limit as the censored low bound and the Heshmati clean-retail mean as the upper central; the 95th-percentile of 76 µg/kg is the top of the Heshmati clean-retail range, the highest value in the ordered clean pooled set and still below the EU maximum level. An Isfahan, Iran survey reports a markedly higher onion lead 95% upper confidence limit of 250 µg/kg ([[sources/salehipour2015-iran-isfahan-cereals-vegetables-metals|Salehipour et al. 2015]], n=8); that figure is an upper-confidence-limit statistic rather than a mean and is treated as an upper-tail regional anchor, not folded into the central estimate. Lead is held at medium confidence: five distinct onion-named contributors agree on a low-tens-of-ppb central, against a censored FDA floor.
+
+Total mercury is recovered at low confidence from a single onion-named positive measurement against censored corroboration. The North Dakota survey measured onion mercury by direct mercury analyzer (EPA 7473) at 1.0 µg/kg fresh weight ([[sources/saleem2025-locally-grown-vegetables-north-dakota|Saleem et al. 2025]]), the only positive onion-named total-mercury value in the corpus. FDA reported onion mercury below the 1 µg/kg reporting limit across all 27 composites, and a 153-sample New Zealand market-garden survey that includes Allium reported mercury below its 10 µg/kg limit of detection in every sample ([[sources/dearing2025-hawkes-bay-organic-nonorganic-vegetables|Dearing et al. 2025]]). The total-mercury typical of [0, 1] spans the FDA censored floor to the single Saleem onion central, and the 95th-percentile of 1 µg/kg reflects that no onion-named value above approximately 1 µg/kg exists in the corpus. Total mercury is held distinct from methylmercury and is not derived from it; the prior high-confidence zero is corrected to an honest low non-zero value bounded by two censored surveys.
+
+Chromium is reported as total chromium only at low confidence; no onion hexavalent-chromium measurement exists in the corpus, and Cr-VI is never inferred from total chromium. This cell is held on the page's native raw onion-bulb wet-weight basis, and the headline values are anchored on the only directly-measured wet-weight onion-bulb chromium in the corpus. An Ismailia, Egypt market-basket survey ([[sources/loutfy2012-ismailia-foodstuffs-metals|Loutfy et al. 2012]], n=13 onion pools) reports onion total chromium at a mean of 34.3 µg/kg wet weight, range 18.7 to 59.5 µg/kg wet weight; the authors report cadmium, lead, and chromium explicitly in µg/kg wet weight. FDA reported onion chromium below the 50 µg/kg reporting limit across all 27 composites of TDS raw mature onion, a wet-weight censored floor on the same basis. The chromium typical of [0, 34] takes the FDA censored floor as the left-censored low bound and the Loutfy wet-weight mean as the upper central; the 95th-percentile of 60 µg/kg is the top of the Loutfy directly-measured wet-weight range, the highest value in the ordered clean pooled set on the page's native basis.
+
+The remaining onion-bulb chromium anchors in the corpus are reported on a dry-weight basis and are not presented as wet-weight. The North Dakota farmers'-market survey reports onion total chromium at 32 µg/kg dry weight ([[sources/saleem2025-locally-grown-vegetables-north-dakota|Saleem et al. 2025]], all concentrations µg/g dry weight per its methods), and the Stasinos review compiles Spanish allotment onions at 30 to 36 µg/kg and a Latvian allotment-garden onion at 90 µg/kg, both dry weight ([[sources/stasinos2014-heavy-metals-tubers-review|Stasinos et al. 2014]], citing Bakkali et al. 2012 and Vincevica-Gaile et al. 2013). Converted to the row's native wet-weight basis at the corpus-stated onion moisture of approximately 89 percent (wet is approximately dry times 0.11), these become roughly 3.5 µg/kg (Saleem), 3.3 to 4.0 µg/kg (Spanish), and 9.9 µg/kg (Latvian) wet weight. They corroborate the Loutfy wet-weight anchor at the low end and are not folded into the central estimate at their dry-weight magnitude. The prior synthesis of this cell mis-stated these dry-weight values (a typical upper of 32 and a 95th-percentile of 90) as wet-weight on the page's native basis; that mis-attribution overstated the wet-weight distribution by an order of magnitude and is corrected here. The Greek Thiva-basin onions at 2.1 to 4.6 mg/kg dry weight and Asopos-basin onion bulbs subject to direct injection of Cr(VI)-rich industrial waste (Stasinos review, citing Economou-Eliopoulos) are industrial-contamination outliers and are stratified in the ranges section rather than folded into the central estimate.
+
+Uranium is recorded as a reviewed data gap: the only onion uranium measurement in the corpus is the fully censored FDA Total Diet Study cell (all 27 composites below the 1 µg/kg reporting limit), and no primary onion-named source reports an extractable quantitative uranium value, so no distribution is published (the rice-uranium precedent). The cell is held as a reviewed gap, not as a measured zero.
 
 ## Routing
 
@@ -168,7 +188,9 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 
 ## Ranges by source, region, and variety
 
-The FDA TDS FY2018-FY2020 dataset [[sources/fda2022-tds-elements-fy2018-fy2020]] for raw mature onion (n=27) shows Cd ranging from 2.3 to 26 ppb (p90 approximately 14 ppb, max 26 ppb) and Ni from 0 to 100 ppb (p90 approximately 59 ppb, max 100 ppb), providing a US retail baseline. The [[sources/ametepey2018-ghana-vegetables-heavy-metals]] survey measured Cd, Pb, Cr, and Ni in spring onion from three markets in Tamale, Ghana (n=15 samples), offering a West African occurrence context that may reflect higher soil contamination than managed European or North American growing regions. Geographic variation in Cd is primarily driven by soil Cd levels and pH; regions with history of phosphate fertilizer application on onion-growing soils may show elevated Cd relative to low-contamination baseline soils. Onion variety (yellow, white, red, spring onion, shallot) may show modest differences in metal concentrations, but cross-variety comparison data are not yet available in the current corpus to quantify this dimension.
+The FDA TDS FY2018-FY2020 dataset [[sources/fda2022-tds-elements-fy2018-fy2020]] for raw mature onion (n=27) shows Cd ranging from 2.3 to 26 ppb (p90 approximately 14 ppb, max 26 ppb) and Ni from 0 to 100 ppb (p90 approximately 59 ppb, max 100 ppb), providing a US retail baseline; lead, total mercury, chromium, and uranium were below their reporting limits across essentially the full distribution in that dataset and are carried as left-censored floors rather than measured zeros. For lead, the clean retail and field anchors cluster in the low tens of ppb: onion lead averaged 16 ppb fresh weight (range 2 to 76 ppb) across fifty Iranian market composites [[sources/heshmati2020-iran-vegetables-cereals-pb-cd]], 14 ppb in a North Dakota farmers'-market survey [[sources/saleem2025-locally-grown-vegetables-north-dakota]], and 7 to 14.5 ppb in long-term UK field trials [[sources/rempelos2023-vegetable-organic-conventional-metals]]. For total chromium, the only directly-measured wet-weight onion-bulb anchor is an Ismailia, Egypt market survey at a mean of 34 ppb wet weight (range 19 to 60 ppb) [[sources/loutfy2012-ismailia-foodstuffs-metals]]; the other onion-named anchors are dry-weight (32 ppb in the North Dakota survey, 30 to 36 ppb in Spanish allotment onions, and 90 ppb in a Latvian allotment onion) [[sources/saleem2025-locally-grown-vegetables-north-dakota]] [[sources/stasinos2014-heavy-metals-tubers-review]], which convert to roughly 3 to 10 ppb on a wet-weight basis at approximately 89 percent onion moisture and are not comparable to the wet-weight headline at their dry-weight magnitude.
+
+Mining, industrial, and wastewater-irrigated onion contexts sit well above these retail baselines and are stratified out of the headline values. The Stasinos review compiles Asopos-basin onion bulbs with site-specific lead from 2.5 mg/kg (Vourinos) to 76 mg/kg (Holargos, suburban Athens) and Thiva-basin onions with dry-weight total chromium of 2.1 to 4.6 mg/kg, the latter attributed to direct injection of Cr(VI)-rich industrial wastes [[sources/stasinos2014-heavy-metals-tubers-review]]. A synchrotron study of leek (Allium tenuissimum) grown in mine soil at 787 mg/kg soil lead and additionally spiked with lead nitrate solution is a mechanistic speciation experiment, not a food-occurrence measurement, and is excluded from the occurrence distribution entirely [[sources/sun2023-pb-leek-speciation-xanes]]. Ghanaian spring onion from anthropogenic activity sites (traffic corridors, sewage-treatment farms) likewise carries elevated nickel and chromium that reflect site contamination rather than typical retail produce [[sources/owusuadoma2024-ghana-lettuce-metals]] [[sources/ametepey2018-ghana-vegetables-heavy-metals]]. Geographic variation in Cd is primarily driven by soil Cd levels and pH; regions with history of phosphate fertilizer application on onion-growing soils may show elevated Cd relative to low-contamination baseline soils. Onion variety (yellow, white, red, spring onion, shallot) may show modest differences in metal concentrations, but cross-variety comparison data are not yet available in the current corpus to quantify this dimension.
 
 ## Processing effects
 

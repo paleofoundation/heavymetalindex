@@ -8,11 +8,12 @@ category: vegetable
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 98]
+    p95_ppb: 112
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-06-11
+    basis: raw-cucumber-edible-flesh-wet-weight
   Cd:
     status: populated
     typical_ppb: [0, 2.4]
@@ -36,11 +37,13 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
+    typical_ppb: [0, 2.3]
+    p95_ppb: 2.3
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: raw-cucumber-edible-flesh-wet-weight
+    speciation: total-Hg-only
   Ni:
     status: populated
     typical_ppb: [0, 0]
@@ -57,11 +60,13 @@ contamination_profile:
     last_reviewed: 2026-05-13
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 175]
+    p95_ppb: 222
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-06-11
+    basis: raw-cucumber-edible-flesh-wet-weight
+    speciation: total-Cr-only; no Cr-VI measurement in corpus
   Sn:
     status: populated
     typical_ppb: [0, 10.1]
@@ -71,18 +76,18 @@ contamination_profile:
     last_reviewed: 2026-05-13
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 16
 ---
 
@@ -118,7 +123,7 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Cucumber is a cucurbit fruit that is botanically a berry of a vine plant and is consumed as a vegetable in virtually all culinary contexts. It is characterized by a very high water content (approximately 96% water by weight), which substantially dilutes any metal concentration in the edible flesh. Root uptake of cadmium and lead from soil does occur, but the translocation of these metals from root to fruit is limited: cucurbit fruits are physiologically distal from the root system and are not preferred sink tissues for cadmium or lead accumulation under normal soil conditions. The outer skin may carry somewhat more Pb than the interior flesh through atmospheric particle deposition, but the inner flesh is generally the consumed portion when peeled.
 
-The FDA TDS FY2018-FY2020 data for peeled raw cucumber (n=27 composites, TDS Food 123) is consistent with this low-risk characterization: Pb is at zero across all 27 samples, Cr is at zero, U is at zero, and tHg is at zero [[sources/fda2022-tds-elements-fy2018-fy2020]]. Cadmium shows low-level detection in some samples (median 1.6 ppb, maximum 3.2 ppb), and Ni appears in the upper tail (p95 28 ppb, maximum 76 ppb) and tAs is consistently detectable at moderate levels (median 14 ppb, maximum 31 ppb, p90 20 ppb). The total arsenic signal is unexpected given the cucurbit's low-risk general reputation and warrants attention, though without iAs speciation it is not possible to determine the proportion attributable to inorganic versus organic arsenic species in this matrix.
+The FDA TDS FY2018-FY2020 data for peeled raw cucumber (n=27 composites, TDS Food 123) is consistent with this low-risk characterization, but the lead, total-mercury, chromium, and uranium cells in that dataset are fully left-censored rather than measured zeros: every one of the 27 composites fell below the FDA reporting limit for Pb (4 µg/kg), tHg (1 µg/kg), Cr (50 µg/kg), and U (1 µg/kg) [[sources/fda2022-tds-elements-fy2018-fy2020]]. Those below-limit results constrain the flesh metal burden from above; they are carried here as left-censored bounds, not as evidence that the metals are absent. The primary fresh-cucumber occurrence literature confirms that lead, total mercury, and total chromium are low but non-zero in cucumber flesh (see the Synthesis basis and censoring treatment section). Cadmium shows low-level detection in some FDA samples (median 1.6 ppb, maximum 3.2 ppb), Ni appears in the upper tail (p95 28 ppb, maximum 76 ppb), and tAs is consistently detectable at moderate levels (median 14 ppb, maximum 31 ppb, p90 20 ppb). The total arsenic signal is notable given the cucurbit's low-risk general reputation and warrants attention, though without iAs speciation it is not possible to determine the proportion attributable to inorganic versus organic arsenic species in this matrix.
 
 ## Heavy metal contamination profile
 
@@ -126,16 +131,30 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | 0 | 0 | high | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Pb | n=5 | <4–98 | 112 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/mohammadi2025-iran-carrot-cucumber-metals\|2]], [[sources/alimohammadi2018-tehran-supermarket-vegetables\|3]] |
 | Cd | n=3 | 0–2.4 | 2.9 | high | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
 | iAs | n=1 | 0.5–680.2 | 774.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tAs | n=2 | 3.6–20 | 20.7 | high | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| tHg | n=3 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=3 | <1–2.3 | 2.3 | low | [[sources/li2017-mercury-vegetables-grains-coal-power-china\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Ni | n=3 | 0 | 28 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | n=1 | 0–703 | 827 | medium | — |
-| Cr | n=3 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=4 | <50–175 | 222 | low | [[sources/mohammadi2025-iran-carrot-cucumber-metals\|1]], [[sources/alimohammadi2018-tehran-supermarket-vegetables\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
 | Sn | n=1 | 0–10.1 | 20.1 | medium | — |
-| U | n=2 | 0 | 0 | high | — |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, total-mercury, chromium, and uranium cells were resynthesized on 2026-06-11 on a raw-cucumber edible-flesh wet-weight basis, the form in which the peeled fruit is consumed and the basis FDA Total Diet Study Food 123 ("Cucumber, peeled, raw") reports. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
+
+The earlier profile reported lead, total mercury, chromium, and uranium at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study composite for peeled raw cucumber (n=27), in which every sample fell below the reporting limit for each of these metals and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limits Pb 4, tHg 1, Cr 50, U 1 µg/kg). The resynthesis replaces the literal zeros with the honest FDA censored floor expressed as a left-censored low bound and recovers the upper distribution, where primary fresh-cucumber occurrence literature supports it.
+
+Lead is recovered at medium confidence from five distinct contributors against the FDA censored floor. The Romanian retail-and-amateur survey ([[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Bora et al. 2022]], ICP-MS, fresh weight) reports long-cucumber lead of 112.0 µg/kg in market produce and 59.8 µg/kg in amateur-farm produce, with kirby cucumber below the limit of detection. The Iranian Fars Province survey ([[sources/mohammadi2025-iran-carrot-cucumber-metals|Mohammadi et al. 2025]], ICP, fresh-weight-converted) reports a cucumber lead mean of 75 µg/kg across seven sampling points (site means 46 to 109 µg/kg). The Tehran supermarket survey ([[sources/alimohammadi2018-tehran-supermarket-vegetables|Alimohammadi et al. 2018]], fresh weight) reports cucumber lead of 40 µg/kg in summer and 98 µg/kg in autumn. The North Dakota farmers-market survey ([[sources/saleem2025-locally-grown-vegetables-north-dakota|Saleem et al. 2025]]) reports cucumber lead of 21 µg/kg on a dry-weight basis. The pooled lead typical of [0, 98] takes the FDA censored floor as the low bound and the Tehran autumn value as the upper central; the 95th-percentile of 112 µg/kg is the Bora market long-cucumber value, the top of the ordered pooled set of fresh-weight market values. Confidence is held at medium because the contributors converge in the 40 to 112 µg/kg range but are all non-US fresh-weight surveys set against a fully censored US composite. One source is excluded from the pooled distribution as an apparent unit anomaly: the Polish fermentation study ([[sources/kiczorowski2022-fermented-vegetables-metals|Kiczorowski et al. 2022]]) reports raw cucumber lead of 5.30 µg/g fresh matter, which is 5,300 µg/kg, roughly fifty times every other cucumber lead measurement in the corpus and above any regulatory maximum, yet the source flags no exceedance; the value is most consistent with a dry-weight or unit-label error and is recorded here as excluded rather than allowed to corrupt the headline.
+
+Total mercury is recovered at low confidence from three contributors. The background (non-industrial) signal rests on the control sample of the Chinese coal-plant survey ([[sources/li2017-mercury-vegetables-grains-coal-power-china|Li et al. 2017]], fresh weight), which reports control-farmland cucumber total mercury of 0.87 µg/kg more than 55 km from any power plant, and on the North Dakota survey (Saleem et al. 2025), which reports cucumber total mercury of 2.3 µg/kg on a dry-weight basis. The FDA composite is below its 1 µg/kg reporting limit throughout. The pooled total-mercury typical of [0, 2.3] spans the FDA censored floor to the Saleem dry-weight value, with the 95th-percentile set at the same 2.3 µg/kg; confidence is low because only the dry-weight North Dakota value and a single Chinese control point sit above the censored floor. The Li et al. cucumber samples collected within 10 km of operating coal-fired power plants ran from 2.18 to 38.45 µg/kg fresh weight, an industrial-deposition stratum that is held separate from the background distribution (see Ranges by source, region, and variety). Total mercury is held distinct from methylmercury, which is not measured for this commodity and is not inferred from total mercury.
+
+Total chromium is recovered at low confidence and is reported as total chromium only; no cucumber hexavalent-chromium measurement exists in the corpus, so no Cr-VI value is inferred. The Iranian Fars Province survey (Mohammadi et al. 2025) reports a cucumber total-chromium mean of 175 µg/kg fresh weight (site means 192 to 211 µg/kg), the Tehran survey (Alimohammadi et al. 2018) reports 127 µg/kg in summer and 222 µg/kg in autumn, and the North Dakota survey (Saleem et al. 2025) reports 34 µg/kg on a dry-weight basis, against a fully censored FDA cell below the 50 µg/kg reporting limit. The pooled total-chromium typical of [0, 175] spans the FDA censored floor to the Mohammadi fresh-weight mean; the 95th-percentile of 222 µg/kg is the Tehran autumn value, the top of the ordered pooled set. Confidence is low because chromium is total-only, the positive measurements are non-US fresh-weight surveys, and the FDA composite is fully censored.
+
+Uranium is recorded as a reviewed data gap: the only cucumber uranium measurement in the corpus is the fully censored FDA Total Diet Study cell (all 27 composites below the 1 µg/kg reporting limit), and no primary fresh-vegetable source reports an extractable quantitative cucumber uranium value, so no distribution is published (the rice-uranium precedent). This is a reviewed finding, not a placeholder.
 
 ## Routing
 
@@ -170,9 +189,11 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 
 ## Ranges by source, region, and variety
 
-The FDA TDS FY2018-FY2020 data for peeled cucumber (n=27) provides the most structured occurrence dataset currently in the corpus for this commodity [[sources/fda2022-tds-elements-fy2018-fy2020]]. The 27-sample US market-basket composites show low cadmium (median 1.6 ppb, max 3.2 ppb) and near-zero lead, chromium, and mercury. The tAs distribution is the most notable feature: a median of 14 ppb and a maximum of 31 ppb across 27 composite samples is consistently detectable, and the FSA/Fera FS102048 survey provides additional data points awaiting structured integration [[sources/fsa2016-infant-food-formula-metals-survey]].
+The FDA TDS FY2018-FY2020 data for peeled cucumber (n=27) provide the most structured single occurrence dataset currently in the corpus for this commodity [[sources/fda2022-tds-elements-fy2018-fy2020]]. The 27-sample US market-basket composites report lead, chromium, total mercury, and uranium below their reporting limits throughout the distribution; those are left-censored bounds, not measured zeros. The detected analytes in that dataset are cadmium (median 1.6 ppb, max 3.2 ppb), nickel (p95 28 ppb, max 76 ppb), and total arsenic (median 14 ppb, max 31 ppb), the last being the most notable consistently detectable signal. The FSA/Fera FS102048 survey provides additional data points awaiting structured integration [[sources/fsa2016-infant-food-formula-metals-survey]].
 
-No comprehensive peer-reviewed survey comparing heavy metals in cucumber across different growing regions or cultivation systems (greenhouse vs field, hydroponic vs soil) is currently in the corpus. Cucumber grown in contaminated or mining-adjacent soils would be expected to carry higher Cd and Pb than market-basket composites, but no regional breakdown is available from the current sources.
+The fresh-cucumber lead, chromium, and total-mercury signal recovered from the primary literature shows a clear geographic and exposure gradient. Background-condition retail and farmers-market cucumber from Romania, Iran, and the United States carries lead in the 21 to 112 µg/kg range and total chromium in the 34 to 222 µg/kg range, with the higher values in autumn-harvest Tehran produce ([[sources/alimohammadi2018-tehran-supermarket-vegetables|Alimohammadi et al. 2018]]) and Iranian Fars Province produce ([[sources/mohammadi2025-iran-carrot-cucumber-metals|Mohammadi et al. 2025]]); both of these are total-chromium measurements with no hexavalent-chromium fraction resolved. Romanian market cucumber carried roughly twice the lead of amateur-farm cucumber from the same region (112 vs 60 µg/kg), which the source attributes to commercial supply-chain inputs rather than farm-gate exposure ([[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Bora et al. 2022]]).
+
+Industrial and atmospheric-deposition settings drive cucumber metal loads well above this background range and are held as a separate stratum. The Chinese coal-fired-power-plant survey found cucumber total mercury rising from a control-farmland value of 0.87 µg/kg (more than 55 km from any plant) to 38.45 µg/kg within 1 km of an operating plant, a roughly forty-fold enrichment driven by atmospheric mercury deposition onto the growing crop ([[sources/li2017-mercury-vegetables-grains-coal-power-china|Li et al. 2017]]). These industrially exposed values are not pooled into the headline total-mercury distribution, which rests on the background control point and the US dry-weight measurement. The Egyptian farming-system comparison reports conventional cucumber carrying about 1.3 times the total heavy-metal load of greenhouse or organic cucumber from the same market, with lead at roughly 0.25 to 0.45 mg/kg in conventional samples ([[sources/mansour2014-monitoring-health-risk-food-chapter|Mansour 2014]], cited from Mansour et al. 2009a); these are total-metal-fraction estimates and are treated as context rather than as a pooled anchor.
 
 ## Processing effects
 
@@ -204,7 +225,7 @@ _No quantified data on formulation substitution effects on cucumber metal conten
 
 ### Testing and QC levers
 
-The tAs signal in the TDS peeled cucumber data (median 14 ppb, max 31 ppb across n=27 composites) [[sources/fda2022-tds-elements-fy2018-fy2020]] is worth monitoring with speciated arsenic testing (iAs vs tAs) to characterize whether the detected arsenic is primarily inorganic or organic. Nickel in the upper tail (max 76 ppb) also warrants periodic testing for commercial cucumber-based products.
+The tAs signal in the TDS peeled cucumber data (median 14 ppb, max 31 ppb across n=27 composites) [[sources/fda2022-tds-elements-fy2018-fy2020]] is worth monitoring with speciated arsenic testing (iAs vs tAs) to characterize whether the detected arsenic is primarily inorganic or organic. Lead is the analyte most worth routine monitoring: although the US TDS composite is below its 4 µg/kg reporting limit, fresh-market cucumber in the primary literature reaches a pooled 95th-percentile of 112 µg/kg, at the EU non-leafy-vegetable maximum level, with market produce running roughly double amateur-farm produce [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing]]. Total chromium is detectable in fresh cucumber up to roughly 220 µg/kg in non-US surveys; because no hexavalent-chromium fraction has been measured in this commodity, speciated Cr-VI testing would resolve the toxicologically relevant question that total-chromium data leave open. Nickel in the upper tail (max 76 ppb) also warrants periodic testing for commercial cucumber-based products.
 
 ### Packaging and storage levers
 
@@ -212,7 +233,7 @@ _No quantified data on packaging or storage effects on heavy metal content in cu
 
 ## Regulatory limits that apply
 
-Under the European Union [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for lead in vegetables (other than leafy vegetables and brassicas) is 0.10 mg/kg (100 ppb) wet weight, and for cadmium in vegetables it is 0.050 mg/kg (50 ppb) wet weight. Cucumber falls within the general vegetable category. The TDS Pb values of zero and Cd maximum of 3.2 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]] are well within these limits. Codex Alimentarius (CXS 193-1995 and revisions) sets a general vegetable lead limit of 0.10 mg/kg. No US federal maximum level for lead or cadmium in cucumbers has been finalized as of 2026.
+Under the European Union [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for lead in vegetables (other than leafy vegetables and brassicas) is 0.10 mg/kg (100 ppb) wet weight, and for cadmium in vegetables it is 0.050 mg/kg (50 ppb) wet weight. Cucumber falls within the general vegetable category. The FDA TDS cadmium maximum of 3.2 ppb sits well within the cadmium limit [[sources/fda2022-tds-elements-fy2018-fy2020]]. Lead is below the FDA reporting limit in the US composite, but the fresh-cucumber lead distribution recovered from the primary literature reaches a pooled 95th-percentile of 112 µg/kg (Romanian market long cucumber), which is at the EU 100 ppb maximum level for non-leafy vegetables; most surveyed fresh cucumber sits below it, but the upper tail of market produce approaches the limit, so lead is the analyte most worth watching for compliance in this commodity. Codex Alimentarius (CXS 193-1995 and revisions) sets a general vegetable lead limit of 0.10 mg/kg. No US federal maximum level for lead or cadmium in cucumbers has been finalized as of 2026.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
