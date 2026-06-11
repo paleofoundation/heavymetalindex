@@ -8,8 +8,11 @@
 # commit 0740fec.
 #
 # This script provides acquire_lock / release_lock helpers that both sides
-# source. The lock is an atomic mkdir on .git/hmi-commit.lock.d. Stale
-# locks (older than HMI_LOCK_STALE_SECS) are reclaimed automatically.
+# source. The lock is an atomic mkdir on <common-git-dir>/hmi-commit.lock.d
+# (see the lock-dir resolution below for why it is the COMMON git dir, not
+# <toplevel>/.git — that distinction is what makes the lock work from linked
+# worktrees). Stale locks (older than HMI_LOCK_STALE_SECS) are reclaimed
+# automatically.
 #
 # Usage:
 #   source "$REPO_ROOT/tools/autonomy/commit-lock.sh"
@@ -26,7 +29,31 @@
 # Re-resolve REPO_ROOT in case this is sourced from a hook running in a
 # subdirectory. Use git rev-parse so we don't depend on caller setup.
 HMI_LOCK_REPO_ROOT="${HMI_LOCK_REPO_ROOT:-$(git rev-parse --show-toplevel 2>/dev/null)}"
-HMI_LOCK_DIR="${HMI_LOCK_REPO_ROOT}/.git/hmi-commit.lock.d"
+
+# Resolve the lock dir under the COMMON git dir, NOT "<toplevel>/.git". In a
+# linked git worktree, "<toplevel>/.git" is a FILE (a "gitdir:" pointer), so
+# `mkdir <toplevel>/.git/hmi-commit.lock.d` fails with ENOTDIR and the lock can
+# never be acquired: acquire_lock spins until timeout and reports
+# "could not acquire ... held by: unknown" forever, forcing every worktree
+# session to bypass the mutex entirely with HMI_SKIP_COMMIT_LOCK=1 (which
+# defeats the mutex for any tooling that DOES share the worktree index).
+# Confirmed broken 2026-06-11 from the hmi-defensibility-sprint worktree.
+#
+# The common git dir is the main repo's real .git directory and is shared by
+# every linked worktree, so a single lock there serializes commits across the
+# main repo AND all worktrees. `--path-format=absolute` (git >= 2.31) returns
+# it as the same absolute path from any worktree or subdirectory; the fallback
+# normalizes the cwd-relative form (".git" at the repo top, "../../.git" from a
+# subdir) by hand for older git.
+HMI_LOCK_GIT_COMMON_DIR="${HMI_LOCK_GIT_COMMON_DIR:-$(git rev-parse --path-format=absolute --git-common-dir 2>/dev/null)}"
+if [[ -z "$HMI_LOCK_GIT_COMMON_DIR" ]]; then
+  HMI_LOCK_GIT_COMMON_DIR="$(git rev-parse --git-common-dir 2>/dev/null)"
+  case "$HMI_LOCK_GIT_COMMON_DIR" in
+    /*) ;; # already absolute (always so from a linked worktree)
+    *) HMI_LOCK_GIT_COMMON_DIR="$(cd "$HMI_LOCK_GIT_COMMON_DIR" 2>/dev/null && pwd)" ;;
+  esac
+fi
+HMI_LOCK_DIR="${HMI_LOCK_GIT_COMMON_DIR}/hmi-commit.lock.d"
 HMI_LOCK_STALE_SECS="${HMI_LOCK_STALE_SECS:-300}" # 5 minutes — any healthy commit finishes well within this
 HMI_LOCK_OWNERLESS_GRACE="${HMI_LOCK_OWNERLESS_GRACE:-15}" # secs an ownerless lock dir may exist before it is treated as a dead holder (see acquire_lock)
 HMI_LOCK_HELD_BY_THIS_SHELL=0
