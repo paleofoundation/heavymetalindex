@@ -12,11 +12,13 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 4]
+    p95_ppb: 4.1
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-06-11
+    basis: green-beans-fresh-frozen-boiled-wet-weight
+    speciation_note: wet-weight FDA cell carries one detect; dry-weight surveys reported separately and not pooled into the wet-weight percentile
   Cd:
     status: populated
     typical_ppb: [0, 1.9]
@@ -41,10 +43,12 @@ contamination_profile:
   tHg:
     status: populated
     typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
+    p95_ppb: null
+    confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: green-beans-fresh-frozen-boiled-wet-weight
+    speciation_note: total-Hg-only; not derived from MeHg; all wet-weight samples below reporting limit
   Ni:
     status: populated
     typical_ppb: [0, 428]
@@ -62,10 +66,12 @@ contamination_profile:
   Cr:
     status: populated
     typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
+    p95_ppb: null
+    confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: green-beans-fresh-frozen-boiled-wet-weight
+    speciation_note: total-Cr-only; no Cr-VI measurement in corpus; all wet-weight samples below reporting limit
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -86,7 +92,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 5
 ---
 
@@ -128,16 +134,30 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Pb | n=3 | 0–4 | 4.1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|3]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/hossain2016-bangladesh-vegetables-pb-cd-cr\|5]] |
 | Cd | n=2 | 0–1.9 | 2.1 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=2 | 0 | 2.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|3]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]] |
 | Ni | n=2 | 0–428 | 498 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — | — |
-| Cr | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=2 | 0 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|3]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]] |
 | Sn | data gap | — | — | — | — |
 | U | n=2 | 0 | 0.7 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, total-mercury, and chromium cells were resynthesized on 2026-06-11 on the native basis of this page, "Green beans, fresh/frozen, boiled" as FDA Total Diet Study Food 121 reports it, a prepared as-consumed wet-weight basis. Values below the analytical limit of detection or quantification are treated as left-censored bounds, not as measured zeros.
+
+The earlier profile reported lead, total mercury, and chromium at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study composites for boiled green beans, in which the analytes fell below the reporting limit across most or all of the distribution and the reported below-limit results were pooled as literal zeros. For lead, 26 of 27 composites were below the 4 µg/kg reporting limit, with a single detect at the 4.1 µg/kg maximum; for total mercury, all 27 composites were below the 1 µg/kg reporting limit; for chromium, all 27 composites were below the 50 µg/kg reporting limit ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The resynthesis replaces the literal zeros with a left-censored floor at the FDA reporting limit and, where a grounded measured value exists, recovers the upper bound from primary fresh-vegetable occurrence literature.
+
+A basis caveat governs the non-FDA evidence for this commodity. The two routed primary surveys that report green-bean-specific values, the North Dakota farmer's-market survey ([[sources/saleem2025-locally-grown-vegetables-north-dakota|Saleem et al. 2025]]) and the Bangladesh national surveillance study ([[sources/hossain2016-bangladesh-vegetables-pb-cd-cr|Hossain et al. 2016]]), both report on a dry-weight basis. Green beans are roughly ninety percent water, so dry-weight concentrations are on the order of ten times the corresponding wet-weight value. These dry-weight figures are reported below as a separate stratum and are not converted into, or pooled with, the FDA wet-weight percentiles, because the corpus does not contain a measured moisture fraction for these specific samples and a converted number would not trace to a measured value.
+
+For lead, the wet-weight floor is the FDA 4 µg/kg reporting limit and the only grounded wet-weight detect is the single FDA composite at 4.1 µg/kg, which anchors the typical upper bound and the 95th percentile; the cell is held at low confidence because that single detect is the only positive wet-weight measurement. The dry-weight literature corroborates a low but non-zero picture: Saleem et al. report a green-bean lead mean of 0.009 µg/g dry weight (9 µg/kg dry weight, n=7), which at roughly ninety percent moisture corresponds to about 1 µg/kg wet weight, below the FDA reporting limit and consistent with the censored wet-weight cell. Hossain et al. report a green-bean lead maximum of 48.43 µg/g dry weight from a nationwide Bangladesh survey in which 20 of 64 green-bean samples (31.25 percent) exceeded the source comparison standard and lead-contaminated samples were drawn from 49 of 64 districts; that distribution is a contaminated-supply stratum, an order of magnitude above clean-market wet-weight green beans, and is described below rather than folded into the central estimate.
+
+Total mercury is held distinct from methylmercury and is not derived from it. Every wet-weight measurement of green-bean total mercury in the corpus is at or below the detection limit: the FDA cell is fully below the 1 µg/kg reporting limit across all 27 composites, and the New Zealand market-garden survey ([[sources/dearing2025-hawkes-bay-organic-nonorganic-vegetables|Dearing et al. 2025]]) reported mercury below its 0.01 mg/kg fresh-weight limit of detection in all 153 composite samples across seventeen vegetable genera, green beans (Phaseolus) included. The only positive green-bean mercury value is the Saleem et al. dry-weight mean of 0.0020 µg/g dry weight (2.0 µg/kg dry weight, n=7), which at roughly ninety percent moisture corresponds to about 0.2 µg/kg wet weight, below the FDA reporting limit. The cell therefore carries a left-censored floor and no grounded wet-weight upper value: the 95th percentile is left null rather than reported as a measured zero, and confidence is low.
+
+Chromium is reported as total chromium only; no green-bean hexavalent-chromium measurement exists in the corpus, and Cr-VI is never inferred from total chromium. Every wet-weight green-bean chromium measurement is below detection: the FDA cell is fully below the 50 µg/kg reporting limit across all 27 composites. The only green-bean-specific positive value is the Saleem et al. dry-weight mean of 0.024 µg/g dry weight (24 µg/kg dry weight total chromium, n=7), which at roughly ninety percent moisture corresponds to about 2 µg/kg wet weight, well below the FDA reporting limit. The Bangladesh survey reports total-chromium statistics pooled across its five vegetable types rather than for green beans alone (median 1.637 µg/g dry weight, upper quartile 4.614 µg/g dry weight, with only 2 of 290 samples above the comparison standard), and the New Zealand survey reports chromium at the dataset level rather than by genus (all-sample median 0.01 mg/kg fresh weight, with only 4 of 153 samples above the limit of detection); neither provides a green-bean-specific chromium value, so both are treated as corroborating low-chromium context rather than as percentile drivers. The chromium cell carries a left-censored floor and a null 95th percentile at low confidence pending a grounded mid-range wet-weight green-bean chromium measurement.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -173,6 +193,8 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 ## Ranges by source, region, and variety
 
 Nickel concentrations in green beans show a wide range in the FDA TDS data (0 to 740 ppb, median 100 ppb, n=27) [[sources/fda2022-tds-elements-fy2018-fy2020]], suggesting meaningful variation by source, growing conditions, or crop variety, though the TDS dataset does not disaggregate by origin. Green beans grown on naturally high-Ni soils (serpentine soils or soils overlying ultramafic geology) would carry elevated Ni. Cadmium is detected in some samples (median 0 ppb, max 4.2 ppb, n=27), indicating that while most green beans carry negligible Cd, a fraction of commercial supply comes from soils with sufficient Cd availability to produce measurable grain Cd. Regional variation in soil Cd driven by phosphate fertilizer use would be expected to explain part of this variation. Green versus yellow wax bean varieties of Phaseolus vulgaris are not expected to differ materially in metal burden.
+
+Lead in green beans separates into a clean-market wet-weight stratum and a contaminated-supply dry-weight stratum. In the US clean-market context the FDA Total Diet Study cell is at or below the 4 µg/kg reporting limit with a single 4.1 µg/kg detect ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]), and the North Dakota farmer's-market survey corroborates a low dry-weight mean of 9 µg/kg ([[sources/saleem2025-locally-grown-vegetables-north-dakota|Saleem et al. 2025]]). The Bangladesh nationwide surveillance study ([[sources/hossain2016-bangladesh-vegetables-pb-cd-cr|Hossain et al. 2016]]) documents a markedly higher contaminated-supply distribution: green-bean lead reached a maximum of 48.43 µg/g dry weight, 20 of 64 green-bean samples (31.25 percent) exceeded the source comparison standard, and lead-contaminated samples were drawn from 49 of 64 districts, a pattern the authors describe as broadly distributed nationally rather than confined to point sources. These dry-weight values, an order of magnitude above clean-market wet-weight green beans even before the moisture difference is accounted for, are treated as a contaminated-supply stratum reflecting growing regions with elevated soil and atmospheric lead loading, and are not folded into the central wet-weight estimate.
 
 ## Processing effects
 

@@ -63,9 +63,11 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: collards-boiled-as-consumed-wet-weight
+    speciation_note: total-Cr-only; no Cr-VI measurement in corpus
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -86,7 +88,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 1
 ---
 
@@ -137,9 +139,17 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | tHg | n=2 | 0–1.2 | 1.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=2 | 0–51 | 66.5 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — | — |
-| Cr | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=1 | 0 (left-censored, RL 50) | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — | — |
 | U | n=2 | 0–2.4 | 4.5 | high | — |
+
+## Synthesis basis
+
+The chromium cell was resynthesized on 2026-06-11 on a boiled, as-consumed wet-weight basis, the form FDA Total Diet Study Food 108 ("Collards, fresh/frozen, boiled") reports and the form in which this ingredient is consumed.
+
+Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported chromium at typical and 95th-percentile values of zero at high confidence with two contributing studies. Both of those properties were artifacts. The high-confidence literal zero came from pooling FDA Total Diet Study composites in which 26 of 27 boiled-collard samples fell below the 50 µg/kg chromium reporting limit and the reported zeros were carried as literal zeros; the inflated study count attributed two contributors to a cell that only the FDA dataset populates. The single detected composite, a 2019 winter Southeast sample, was reported at 75 µg/kg, which is the distribution maximum. With one source, a fully censored central distribution, and a single detect, the cell is reported as total chromium at low confidence with one contributing source ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The median through the 95th percentile remain at the censored floor because the rank-95 sample is still below the reporting limit; the floor is expressed as a numeric zero with the 50 µg/kg reporting limit stated here rather than inside the value.
+
+Chromium is reported as total chromium only. No hexavalent-chromium (Cr-VI) measurement for collard greens exists in the corpus, and Cr-VI is never inferred from total chromium. No collard-specific multi-region occurrence survey has been integrated, so the upper distribution is not recovered from primary literature; broad mixed-vegetable surveys are not adopted here because they do not measure collard greens as a named commodity. Leafy-green chromium can run substantially higher in produce grown near smelters, tanneries, chromite mining, or wastewater-irrigated soils; should collard-specific data from such settings be integrated, the upper tail and confidence would be revised upward.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

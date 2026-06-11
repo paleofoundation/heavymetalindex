@@ -42,9 +42,12 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: celery-raw-wet-weight
+    speciation: total-Hg-only; not derived from MeHg
+    censoring: left-censored; every contributing value below reporting/detection limit
   Ni:
     status: populated
     typical_ppb: [0, 59.8]
@@ -62,10 +65,13 @@ contamination_profile:
   Cr:
     status: populated
     typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
+    p95_ppb: 69
+    confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: celery-raw-wet-weight
+    speciation: total-Cr-only; no Cr-VI measurement in corpus
+    censoring: left-censored; 26 of 27 FDA composites below 50 µg/kg reporting limit, single detect at 69 µg/kg
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -75,18 +81,18 @@ contamination_profile:
     last_reviewed: 2026-05-12
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-11
 sources: 8
 ---
 
@@ -132,12 +138,24 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=3 | 20–59.4 | 73.3 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]], [[sources/codex-cxs-193-1995\|3]] |
 | iAs | n=2 | 0–2 | 4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
 | tAs | n=2 | 0–3.6 | 4.0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]] |
-| tHg | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| tHg | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dearing2025-hawkes-bay-organic-nonorganic-vegetables\|2]] |
 | Ni | n=2 | 0–59.8 | 67.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — | — |
-| Cr | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]] |
+| Cr | n=2 | 0 | 69 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dearing2025-hawkes-bay-organic-nonorganic-vegetables\|2]] |
 | Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 0 | high | — |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The total-mercury, chromium, and uranium cells were resynthesized on 2026-06-11 on a raw celery wet-weight basis, the form in which the vegetable enters the supply chain and the basis FDA Total Diet Study Food 114 ("Celery, raw") reports. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported all three analytes at typical and 95th-percentile values of zero at high confidence; those figures were an artifact of the FDA Total Diet Study composites for raw celery, in which every sample (or all but one) fell below the reporting limit and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]).
+
+Total mercury rests on two wet-weight contributors, both fully non-detect. FDA reported all 27 raw-celery composites below the 1 µg/kg reporting limit; the New Zealand Hawke's Bay market-garden survey ([[sources/dearing2025-hawkes-bay-organic-nonorganic-vegetables|Dearing et al. 2025]]) found mercury below its 0.01 mg/kg (10 µg/kg) fresh-weight limit of detection in all 153 vegetable composites across 17 genera, the celery genus (*Apium graveolens*) among them, and excluded mercury from statistical analysis on that basis. Because every contributing value is left-censored and no positive celery total-mercury measurement exists in the corpus, the cell is carried at a left-censored floor (numeric low bound zero, with the FDA 1 µg/kg reporting limit and the Dearing 10 µg/kg fresh-weight limit of detection stated here in prose) at low confidence. Total mercury is held distinct from methylmercury and is not derived from it.
+
+Chromium is reported as total chromium only; no celery hexavalent-chromium measurement exists in the corpus, and Cr-VI is never inferred from total chromium. On the wet-weight FDA distribution, 26 of 27 raw-celery composites fell below the 50 µg/kg reporting limit, with a single detect at the maximum of 69 µg/kg ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]); that single detect is the only positive wet-weight celery total-chromium value in the corpus and is carried as the 95th-percentile anchor, with the typical range held at the left-censored floor (numeric low bound zero, FDA 50 µg/kg reporting limit stated in prose). The Dearing New Zealand survey corroborates a low fresh-weight chromium central for the vegetable corpus (all-included median 0.01 mg/kg fresh weight; excluding the four below-detection composites, mean 0.33 and median 0.208 mg/kg fresh weight, maximum 0.84 mg/kg fresh weight), but reports chromium only as a 153-sample, 17-genus aggregate and does not break out a celery-genus chromium concentration, so it enters as a broad-vegetable wet-weight proxy at low confidence rather than as a celery-specific anchor. Confidence is capped at low because the central rests on a single censored wet-weight distribution with one detect and a non-commodity-specific corroborating aggregate.
+
+Two dry-weight industrial-region surveys measure celery total chromium directly and are recorded as a separate elevated stratum rather than folded into the wet-weight cell, because no documented celery dry-matter fraction is available in this worktree to convert them into the row's native wet-weight basis. The Kaduna Metropolis survey ([[sources/imongben2026-kaduna-vegetables-hra|Imongben et al. 2026]]) reports celery chromium at 10.3 mg/kg dry weight by ED-XRF on oven-dried tissue, attributing the elevated burden to Kaduna River irrigation and refinery, textile, and fertilizer-industry discharge; the Erbil market survey ([[sources/sadee2022-erbil-vegetables|Sadee 2022]]) reports total chromium across ten leafy vegetables in the range 1.653 to 11.915 µg/g dry weight by ICP-MS, without a celery-specific chromium figure (the source attributes only the arsenic minimum of 0.160 µg/g to celery). Both are total chromium, not Cr-VI, and both are on a dry-weight basis roughly an order of magnitude denser than the FDA wet-weight composites; neither is adopted as the central or 95th-percentile celery value.
+
+Uranium is recorded as a reviewed data gap. The only celery uranium measurement in the corpus is the fully censored FDA Total Diet Study cell, in which all 27 raw-celery composites fell below the 1 µg/kg reporting limit; no primary fresh-vegetable source in the corpus reports an extractable quantitative celery uranium value, so no distribution is published (the rice-uranium precedent). The earlier high-confidence zero is replaced with a null data-gap cell rather than asserting a measured absence.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

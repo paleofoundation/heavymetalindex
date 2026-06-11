@@ -40,11 +40,13 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 1]
+    p95_ppb: 1
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: fluid-chocolate-reduced-fat-milk-wet-weight
+    speciation: total-Hg-only
   Ni:
     status: populated
     typical_ppb: [47.2, 93.6]
@@ -75,18 +77,18 @@ contamination_profile:
     last_reviewed: 2026-05-12
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 1
 ---
 
@@ -132,12 +134,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=2 | 1.5–4.3 | 5.1 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=2 | 0–1.1 | 1.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=1 | <1 | <1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=2 | 47.2–93.6 | 96.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — | — |
 | Cr | n=2 | 0–35.4 | 39.5 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 0 | high | — |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The total-mercury and uranium cells were resynthesized on 2026-06-11 on a fluid chocolate reduced-fat milk wet-weight basis, the form in which the ingredient is placed on market. Values below the analytical reporting limit are treated as left-censored bounds, not as measured zeros.
+
+The earlier profile reported both analytes at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Milk, chocolate, reduced fat, fluid" (n=27), in which every sample fell below the reporting limit for mercury and for uranium and the below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limit 1 µg/kg for each). FDA is the only source in the corpus that names this fluid chocolate-milk composite; the cocoa- and chocolate-product literature routed elsewhere in the wiki measures lead, cadmium, nickel, and chromium in cocoa powder and solid chocolate, not mercury or uranium in fluid chocolate milk, so neither analyte has a non-FDA fluid-matrix occurrence value to pool.
+
+Total mercury is therefore carried at the honest FDA censored floor: all 27 composites fell below the 1 µg/kg mercury reporting limit, so the cell is recorded as a left-censored bound at that reporting limit rather than as a measured zero, at n_studies of 1 and low confidence pending a second fluid-chocolate-milk source. Total mercury is held distinct from methylmercury and is not derived from it; no speciated value exists for this matrix. The biological basis for the low result is consistent with the fluid-dairy literature, in which mercury transfer from feed to milk is strongly restricted, and the cocoa fraction is not a recognised mercury source.
+
+Uranium is recorded as a reviewed data gap: FDA reports it below the 1 µg/kg reporting limit across all 27 composites and no source in the corpus publishes an extractable uranium value for this commodity, so no distribution is published (the rice-uranium and whole-milk-uranium precedent). The cell carries null typical and 95th-percentile values at null confidence rather than an inferred number.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -219,7 +231,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Milk, chocolate, reduced fat, fluid (n=27); detectable concentrations for Cd, Cr, Ni, Pb, tAs |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Milk, chocolate, reduced fat, fluid (n=27); detectable concentrations for Cd, Cr, Ni, Pb, tAs; left-censored floor (<1 µg/kg reporting limit) for tHg and U |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

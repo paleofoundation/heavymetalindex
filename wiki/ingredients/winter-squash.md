@@ -14,9 +14,11 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: medium
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: squash-flesh-wet-weight
+    censoring_note: both contributing sources non-detect for the squash/Cucurbita matrix; left-censored at reporting/detection limit (FDA RL 4 µg/kg; Dearing LOD ~10 µg/kg FW)
   Cd:
     status: populated
     typical_ppb: [1.2, 4.0]
@@ -42,9 +44,11 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: medium
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: squash-flesh-wet-weight
+    censoring_note: both contributing sources fully non-detect; left-censored at the higher detection floor (Dearing Hg LOD 10 µg/kg FW; FDA RL 1 µg/kg); total mercury, held distinct from methylmercury
   Ni:
     status: populated
     typical_ppb: [0, 168]
@@ -63,9 +67,12 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: squash-flesh-wet-weight
+    speciation: total-Cr-only
+    censoring_note: total chromium only, no Cr-VI measurement in corpus; both sources mostly non-detect for the squash matrix; left-censored at reporting/detection limit (FDA RL 50 µg/kg; Dearing 149/153 < LOD)
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -86,8 +93,8 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
-sources: 1
+updated: 2026-06-11
+sources: 3
 ---
 
 # Winter squash
@@ -128,16 +135,28 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Pb | n=2 | 0 (left-censored) | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]] |
 | Cd | n=2 | 1.2–4.0 | 4.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=2 | 0–6.2 | 8.1 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 (left-censored) | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]] |
 | Ni | n=2 | 0–168 | 254 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — | — |
-| Cr | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=2 | 0 (left-censored, total Cr) | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]] |
 | Sn | data gap | — | — | — | — |
 | U | n=2 | 0 | 0.8 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, total-mercury, and total-chromium cells were resynthesized on 2026-06-11 on a squash-flesh wet-weight basis, the basis on which FDA Total Diet Study Food 126 ("Squash, winter, fresh/frozen, boiled") reports and the form in which the commodity enters the supply chain. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
+
+The earlier profile reported lead, total mercury, and total chromium at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study composites for boiled winter squash, in which every sample fell below the reporting limit for each of these three metals and the reported below-limit results were pooled as literal zeros: FDA reported all 27 composites below the 4 µg/kg reporting limit for lead, all 27 below the 1 µg/kg reporting limit for total mercury, and all 27 below the 50 µg/kg reporting limit for total chromium ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The resynthesis retains a numeric floor of zero but reclassifies it as a left-censored bound at the reporting limit rather than a measured zero, lowers confidence from the unsupported "high," and adds a second independent contributor that corroborates the non-detect picture for the squash matrix specifically.
+
+The second contributor is the Hawke's Bay (New Zealand) market-garden survey ([[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing et al. 2025]]), which measured these metals by ICP-MS on a fresh-weight basis across 153 composite vegetable samples spanning seventeen genera, including Cucurbita (butternut and grey pumpkin), the winter-squash genus. For lead, that survey detected concentrations above its limit in only 12 of 153 samples, and every lead exceedance and top individual value was attributed to lettuce (*Lactuca sativa*) or parsley (*Petroselinum crispum*); no Cucurbita lead detect is reported, so the squash-genus samples sit within the censored majority (study-wide median 5 µg/kg fresh weight, most samples below the detection limit). The survey therefore corroborates that lead in the squash matrix is low and predominantly non-detect but does not supply a positive squash-specific lead value; the lead cell is held at a left-censored floor with no published positive central or upper-tail figure for the commodity. For total mercury, the survey reported every one of the 153 samples below its 0.01 mg/kg fresh-weight (10 µg/kg) detection limit and excluded mercury from statistical analysis; combined with the fully censored FDA cell, both independent sources return a complete non-detect for total mercury in the squash matrix, and the honest floor is the higher 10 µg/kg detection limit rather than a measured zero. Total mercury is held distinct from methylmercury and is not derived from it.
+
+Chromium is reported as total chromium only at low confidence; no winter-squash hexavalent-chromium measurement exists in the corpus, and Cr-VI is never inferred from total chromium. The FDA cell is fully censored at the 50 µg/kg reporting limit, and the Dearing survey detected total chromium in only 4 of 153 samples (none attributed to Cucurbita), with the four detects reaching a maximum of 0.84 mg/kg fresh weight in unattributed genera. No squash-specific total-chromium detect is available from either source, so the cell is held at a left-censored floor at low confidence. The single Cucurbita-genus chromium signal in the corpus comes from a Malawi wastewater-irrigation study ([[sources/chiutula2025-wastewater-vegetables-malawi|Chiutula et al. 2025]]), which reported total chromium up to 4.65 mg/kg in *Cucurbita moschata* stems; that value is a wastewater-irrigated leaf-and-stem tissue measurement rather than an edible-flesh value from clean-market squash and is stratified out of the central estimate, recorded only as a contaminated-irrigation upper stratum below.
+
+The cadmium, total-arsenic, nickel, and uranium cells were not part of this resynthesis pass and retain their prior FDA-anchored values.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -173,6 +192,10 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 ## Ranges by source, region, and variety
 
 Within the winter squash category, variation in heavy metal content is driven primarily by soil conditions at the growing site rather than by varietal differences among cucurbit species. Squash grown on soils with elevated Cd from historical phosphate fertilizer application or naturally elevated parent material can accumulate more Cd in fruit tissue than squash grown on low-Cd soils, though the absolute concentrations remain low relative to root vegetables or cereals on equivalent soils. In the FDA FY2018-FY2020 Total Diet Study, Cd in winter squash samples ranged from 0 to 4.4 ppb (p50 approximately 1.6 ppb, n=27), and total arsenic ranged from 0 to 17 ppb (p50 approximately 0 ppb, with the upper tail driven by individual composites) ([[sources/fda2022-tds-elements-fy2018-fy2020|1]]). These distributions reflect mixed US growing-region origins typical of retail composite sampling. Nickel showed the widest distribution among detectable analytes in that dataset, ranging from 0 to 480 ppb with a p90 of 168 ppb, suggesting that Ni in squash is episodic and origin-dependent. Variety-level data for Cd across butternut, acorn, and Hubbard types are not resolved in the current corpus.
+
+The New Zealand Hawke's Bay market-garden survey provides a second clean-market reference for the squash genus on a fresh-weight basis ([[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing et al. 2025]]). In that 153-sample dataset, total mercury was below the 10 µg/kg detection limit in every sample, lead was detectable in only 12 of 153 samples (with all exceedances in lettuce and parsley rather than Cucurbita), and total chromium was detectable in only 4 of 153 samples; the Cucurbita samples carried no reported lead or chromium detect, placing the squash genus within the non-detect majority for all three of these metals.
+
+A contaminated-irrigation upper stratum sits well above these clean-market distributions and is held separate from the central estimate. A Malawi study of wastewater-effluent-irrigated peri-urban plots reported total chromium up to 4.65 mg/kg in *Cucurbita moschata* stems, with chromium exceeding the 2.3 mg/kg threshold in a majority of vegetable samples ([[sources/chiutula2025-wastewater-vegetables-malawi|Chiutula et al. 2025]]). That value is a leaf-and-stem tissue measurement from plants irrigated with treated sewage effluent, not an edible-flesh value from clean-market squash, and it should not be read as a baseline for the commodity; it documents the upper-bound risk where squash is grown on wastewater-irrigated land near point sources.
 
 ## Processing effects
 
@@ -219,7 +242,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Squash, winter, fresh/frozen, boiled (n=27); detectable concentrations for Cd, Ni, U, tAs |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Squash, winter, fresh/frozen, boiled (n=27); detectable concentrations for Cd, Ni, U, tAs; Pb, tHg, Cr fully below reporting limit (left-censored floors at 4, 1, 50 µg/kg) |
+| 2 | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|Dearing et al. 2025]]. *Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle*, F1000Research | 2025 | Peer-reviewed | NZ Cucurbita-inclusive fresh-weight ICP-MS survey (n=153); corroborates squash-matrix non-detect for Pb (no Cucurbita detect), tHg (all 153 < 10 µg/kg LOD), and total Cr (4/153 detects, none Cucurbita) |
+| 3 | [[sources/chiutula2025-wastewater-vegetables-malawi\|Chiutula et al. 2025]]. *Heavy metals in wastewater-irrigated vegetables*, Malawi | 2025 | Peer-reviewed | Contaminated-irrigation upper stratum: total Cr up to 4.65 mg/kg in *Cucurbita moschata* stems under treated-sewage-effluent irrigation; stratified out of the central squash estimate |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

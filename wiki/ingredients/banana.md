@@ -36,11 +36,12 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
+    basis: raw-banana-pulp-wet-weight
   Ni:
     status: populated
     typical_ppb: [0, 57]
@@ -71,18 +72,19 @@ contamination_profile:
     last_reviewed: 2026-05-13
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
+    basis: raw-banana-pulp-wet-weight
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [fruit-purees]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 12
 ---
 
@@ -118,7 +120,7 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Bananas are tropical monocarpic fruits grown in perennial rhizome-based plants across equatorial regions including Central and South America, the Caribbean, West Africa, Southeast Asia, and the Philippines. The banana fruit is enclosed in a thick peel that provides a significant physical barrier between the edible pulp and the external environment, substantially limiting direct surface deposition of atmospheric metals on the flesh. The primary metal exposure route for the pulp is root uptake through the corm and rhizome from surrounding soil, which delivers metals via the vascular system into the developing fruit.
 
-The FDA FY2018-FY2020 TDS data for raw banana (TDS Food 80, n=27) show that bananas are a low-metal-burden commodity by most measures: Pb, Cd, Cr, U, and tHg were all reported at zero across all or nearly all samples; tAs reached a maximum of 3.2 ppb but had a median of zero; Ni was the only analyte with a meaningful distribution, reaching a maximum of 140 ppb and a p90 of 57 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). This is consistent with the general understanding that thick-skinned tropical fruits present low metal risk to consumers, and is corroborated by [[sources/mekonnen2024-ethiopia-fruit-metals|Mekonnen et al. 2024]] (open-market banana, Bahir Dar, Northwest Ethiopia), which reported Pb non-detect, Cd 0.130 ± 0.001 mg/kg dry weight (below the FAO/WHO 0.2 mg/kg limit), and Cr 0.773 ± 0.010 mg/kg dry weight in the edible portion — yielding the lowest hazard index (0.02) of the three fruits surveyed at those markets, against mango at 3.69.
+The FDA FY2018-FY2020 TDS data for raw banana (TDS Food 80, n=27) show that bananas are a low-metal-burden commodity by most measures: Pb and Cd fell below their reporting limits in all 27 composites, and total mercury and uranium were below the 1 µg/kg reporting limit in all 27 (left-censored non-detects, not measured zeros, and the sole banana measurement in the corpus for each, so both are carried as reviewed data gaps rather than as a published distribution); total chromium was below the 50 µg/kg reporting limit in all 27; tAs reached a maximum of 3.2 ppb but had a median of zero; Ni was the only analyte with a meaningful distribution, reaching a maximum of 140 ppb and a p90 of 57 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). This is consistent with the general understanding that thick-skinned tropical fruits present low metal risk to consumers, and is corroborated by [[sources/mekonnen2024-ethiopia-fruit-metals|Mekonnen et al. 2024]] (open-market banana, Bahir Dar, Northwest Ethiopia), which reported Pb non-detect, Cd 0.130 ± 0.001 mg/kg dry weight (below the FAO/WHO 0.2 mg/kg limit), and Cr 0.773 ± 0.010 mg/kg dry weight in the edible portion — yielding the lowest hazard index (0.02) of the three fruits surveyed at those markets, against mango at 3.69.
 
 ## Heavy metal contamination profile
 
@@ -130,12 +132,20 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=5 | 0 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|2]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|3]] |
 | iAs | n=1 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tAs | n=3 | 0 | 0 | medium | [[sources/garuba2024-heavy-metals-commercial-baby-foods\|1]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=3 | 0 | 0 | high | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| tHg | data gap | — | — | — | — |
 | Ni | n=3 | 0–57 | 109.9 | high | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
 | Al | n=1 | 0 | 0 | low | [[sources/garuba2024-heavy-metals-commercial-baby-foods\|1]] |
 | Cr | n=4 | 0 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Sn | n=1 | 1.5–13.4 | 14.2 | low | — |
-| U | n=2 | 0 | 0 | high | — |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The total-mercury and uranium cells were resynthesized on 2026-06-11 on a raw banana-pulp wet-weight basis, the form in which the fruit enters the ingredient supply chain and the basis the FDA Total Diet Study reports for Food 80, "Banana, raw."
+
+Both cells are recorded as reviewed data gaps. The earlier profile reported total mercury at a typical and 95th-percentile of zero at high confidence (n=3) and uranium at zero at high confidence (n=2). Neither figure was supported by a banana-specific measurement. The only banana mercury and uranium data in the corpus are the FDA Total Diet Study composites, in which all 27 banana samples fell below the 1 µg/kg reporting limit for both analytes ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]); the reported zeros are left-censored non-detects at that reporting limit, not measured zeros, and a single fully-censored source does not support a published distribution under synthesis discipline.
+
+The prior total-mercury study count rested on two sources that do not measure banana mercury. The systematic review of Bangladeshi fruits reports its only mercury value as a non-detect-to-0.006 mg/kg range for elephant apple (Dillenia indica), a different species, not banana ([[sources/islam2024-heavy-metals-bangladeshi-fruits-review|Islam et al. 2024]]); attributing that value to banana conflated two commodities. The fruit-by-product review names mercury among its analytes but reports no banana mercury figure and notes that mercury speciation is absent throughout ([[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review|Tsegay et al. 2025]]). Two further banana datasets in the corpus excluded mercury by design ([[sources/garuba2024-heavy-metals-commercial-baby-foods|Garuba et al. 2024]], which states mercury was excluded; [[sources/loutfy2012-ismailia-foodstuffs-metals|Loutfy et al. 2012]], which did not analyze arsenic or mercury). No banana source in the corpus measures uranium other than the censored FDA cell. With no extractable non-censored banana value for either analyte, both are published as reviewed data gaps rather than as zeros, consistent with the treatment of uranium on [[ingredients/apple]] and [[ingredients/rice]]. Total mercury and total methylmercury are kept distinct; no methylmercury measurement for banana exists in the corpus.
 
 ## Routing
 

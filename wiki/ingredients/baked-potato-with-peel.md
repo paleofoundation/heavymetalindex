@@ -42,9 +42,11 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: baked-potato-with-peel-as-consumed
+    speciation_note: total-Hg-only; held distinct from MeHg; single fully-censored FDA TDS source (all 27 composites below the 1 µg/kg reporting limit)
   Ni:
     status: populated
     typical_ppb: [0, 87.8]
@@ -86,7 +88,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 1
 ---
 
@@ -134,12 +136,18 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=2 | 25–63.4 | 64.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=2 | 0–7.8 | 9.6 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=1 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=2 | 0–87.8 | 92 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — | — |
 | Cr | n=2 | 0 | 38.5 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — | — |
 | U | n=2 | 0–3.5 | 5.3 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The total-mercury cell was resynthesized on 2026-06-11 on a baked-potato-with-peel as-consumed basis, the form in which the food is reported by FDA. The earlier profile reported total mercury at a typical and 95th-percentile value of zero at high confidence with two contributing studies. Those figures were an artifact: the only potato-specific total-mercury measurement in the corpus is the FDA Total Diet Study FY2018-FY2020 composite for "Potato, with peel, baked" (TDS Food 137, n=27), in which every one of the 27 composites fell below the 1 µg/kg reporting limit, and the reported below-limit results were pooled as literal zeros at an overstated source count ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The cell rests on this single source, so the contributor count is corrected to one and confidence to low; the fully censored distribution is carried as a left-censored bound at the 1 µg/kg reporting limit rather than as a measured zero, and the honest floor is that reporting limit, not a positive occurrence value.
+
+No second independent source supplies an extractable potato total-mercury occurrence value. The broader root-and-tuber literature is consistent with a non-detect floor in this matrix but does not provide a poolable potato value: the tuber-vegetable review compiling open-field, greenhouse, and laboratory studies on carrots, onions, and potatoes reports nickel, chromium, cadmium, lead, arsenic, copper, and zinc for potato tubers but no mercury occurrence concentration, its only mercury datapoint being an *Allium*-test root-physiology EC₅₀ on onion rather than an edible-tissue measurement ([[sources/stasinos2014-heavy-metals-tubers-review|Stasinos et al. 2014]]); the Uruguayan peeled-and-whole potato occurrence study measured only total arsenic, cadmium, and lead ([[sources/sixto2023-potatoes-sweet-potatoes-metals|Sixto et al. 2023]]); and the historical FDA market-basket study found mercury effectively confined to the meat-fish-poultry composite with all non-fish food classes, vegetables included, returning no detectable mercury by flameless atomic absorption ([[sources/mahaffey1975-fda-total-diet-study-heavy-metals|Mahaffey et al. 1975]]). These sources corroborate that potato is a non-accumulator matrix for mercury but none yields a positive potato-specific number, so the cell remains a single-source left-censored result rather than a multi-source pooled distribution. Total mercury is held distinct from methylmercury and is not derived from it; no speciated methylmercury value exists for this commodity.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -221,7 +229,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Potato, with peel, baked (n=27); detectable concentrations for Cd, Cr, Ni, Pb, U, tAs |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Potato, with peel, baked (n=27); detectable concentrations for Cd, Cr, Ni, Pb, U, tAs; total mercury fully below the 1 µg/kg reporting limit across all 27 composites (left-censored) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

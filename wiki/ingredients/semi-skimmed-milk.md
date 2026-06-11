@@ -22,11 +22,12 @@ contamination_profile:
     last_reviewed: 2026-05-13
   iAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
+    speciation: no-speciated-iAs-measurement
   tHg:
     status: populated
     typical_ppb: [0, 0.5]
@@ -82,7 +83,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 1
 ---
 
@@ -126,7 +127,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|-----------|------------|-------------|
 | Pb | n=1 | 0–13.8 | 23.3 | medium | — |
 | Cd | n=1 | 0–1 | 2 | high | — |
-| iAs | n=1 | 0 | 0 | high | — |
+| iAs | data gap | — | — | — | — |
 | tAs | data gap | — | — | — | — |
 | tHg | n=1 | 0–0.5 | 1 | high | — |
 | Ni | data gap | — | — | — | — |
@@ -134,6 +135,12 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cr | data gap | — | — | — | — |
 | Sn | n=1 | 0–23.5 | 31.3 | high | — |
 | U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The inorganic-arsenic cell was reviewed on 2026-06-11 on a fluid semi-skimmed-milk wet-weight basis, the form in which the ingredient enters the supply chain. Inorganic arsenic is held distinct from total arsenic and is never derived from it by a fixed ratio; only a speciated measurement can populate the inorganic-arsenic cell.
+
+Inorganic arsenic is recorded as a reviewed data gap. The earlier profile reported inorganic arsenic at a typical and 95th-percentile value of zero at high confidence. That figure was not supported by any speciated measurement of this commodity: no fluid-milk inorganic-arsenic value exists in the corpus, and every milk arsenic measurement available is total arsenic by hydride-generation or ICP-MS without inorganic/organic fractionation. The FDA Total Diet Study FY2018-FY2020 fluid-milk composites measure total arsenic only and report it below the 1 µg/kg reporting limit across all 27 samples for whole, reduced-fat, and skim milk ([[sources/fda2022-tds-elements-fy2018-fy2020]]); that is a left-censored total-arsenic result, not a measured inorganic-arsenic zero. The clean-market fluid-milk occurrence surveys are likewise total-arsenic only and state explicitly that their arsenic values must not be routed as inorganic arsenic: the Polish national monitoring measures arsenic by hydride-generation AAS without speciation ([[sources/starska2011-noxious-elements-milk-products-poland|Starska et al. 2011]]), the Bangladesh raw-and-pasteurized survey records "total arsenic; no inorganic arsenic speciation" ([[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals|Hasan et al. 2022]]), the Egyptian retail-milk survey reports "total arsenic only, no inorganic/organic separation" ([[sources/salaheldin2025-multimatrix-foods-egypt|Salahel din et al. 2025]]), the Polish powdered-formula survey reports arsenic below detection without speciation ([[sources/dobrzynska2025-milk-formulae-elemental-composition|Dobrzyńska et al. 2025]]), and the Spanish ICP-MS retail-milk survey, which enumerates semi-skimmed cow milk in its product frame, does not measure inorganic arsenic as a target analyte ([[sources/marques2021-trace-elements-milks-plant-based-drinks|Marques et al. 2021]]). Because no speciated inorganic-arsenic value exists for fluid milk, the honest state for this cell is a reviewed data gap rather than a measured zero, following the uranium precedent on [[ingredients/rice]] and the inorganic-arsenic treatment on [[ingredients/whole-milk]]. The cell will populate when a speciated fluid-milk inorganic-arsenic measurement is ingested.
 
 ## Routing
 

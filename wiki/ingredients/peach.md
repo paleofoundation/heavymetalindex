@@ -8,11 +8,12 @@ category: taxonomy-placeholder
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
+    typical_ppb: [0, 9]
+    p95_ppb: 12
+    confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: raw-peach-wet-weight
   Cd:
     status: populated
     typical_ppb: [0, 1.8]
@@ -36,11 +37,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
   Ni:
     status: populated
     typical_ppb: [0, 100]
@@ -57,11 +58,13 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 8]
+    p95_ppb: 12
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-06-11
+    basis: raw-peach-wet-weight
+    speciation_note: total-Cr-only; no Cr-VI measurement in corpus
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -82,7 +85,7 @@ higher_risk_variants: []
 used_in_products: [fruit-purees]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 7
 ---
 
@@ -128,16 +131,28 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| Pb | n=2 | 0–9 | 12 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
 | Cd | n=2 | 0–1.8 | 2.9 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=2 | 0–8.3 | 9.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | data gap | — | — | — | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=2 | 0–100 | 107 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
 | Al | data gap | — | — | — | — |
-| Cr | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| Cr | n=3 | 0–8 | 12 | low | [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]], [[sources/rezaei2020-fruits-markazi-essential-elements\|3]], [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — | — |
 | U | n=2 | 0 | 1.0 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, chromium, and total-mercury cells were resynthesized on 2026-06-11 on a raw peach wet-weight basis, the form in which the fruit enters the ingredient supply chain and the basis on which FDA Total Diet Study Food 83, "Peach, raw/frozen," reports.
+
+Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported lead and chromium at typical and 95th-percentile values of zero. Those figures were an artifact of the FDA Total Diet Study composites for raw/frozen peach, in which every sample fell below the reporting limit and the reported zeros were pooled as literal zeros. For lead, FDA reported all 27 composites below the 4 µg/kg reporting limit; for chromium, all 27 below the 50 µg/kg reporting limit; for mercury, all 27 below the 1 µg/kg reporting limit ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The resynthesis replaces the literal zeros with a left-censored floor at the FDA reporting limit and, where a second source supplies a usable fresh-fruit measurement, recovers the upper distribution from primary occurrence literature in which these metals are low but non-zero in peach flesh.
+
+The lead floor is set at the FDA 4 µg/kg reporting limit. The central and upper distribution rests on the Pakistani retail survey ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Rahim et al. 2020]]), which reported peach lead at 0.0738 mg/kg dry weight (73.8 µg/kg) from 28 Khyber Pakhtunkhwa markets, a low-industry baseline region. That value is on a dry-weight basis; the source itself states that at typical peach moisture of about 85 to 90 percent the fresh-weight equivalent is roughly seven to ten times lower, placing the as-marketed wet-weight central estimate near 9 µg/kg and the upper bound near 12 µg/kg. Because the wet-weight central anchor rests on a single dry-weight-converted survey set against a fully censored FDA cell, lead confidence is capped at low. The chromium floor is the FDA 50 µg/kg reporting limit; chromium is reported as total chromium only, no peach hexavalent-chromium measurement exists in the corpus, and Cr-VI is never inferred from total chromium. The total-chromium distribution rests on two dry-weight fresh-peach anchors converted to wet weight on the same moisture factor: Rahim reports peach total chromium at 0.0641 mg/kg dry weight (about 8 µg/kg wet weight), and the Markazi-province industrial-zone survey reports peach total chromium at 2.86 µg/kg dry weight (well under 1 µg/kg wet weight) ([[sources/rezaei2020-fruits-markazi-essential-elements|Rezaei et al. 2020]]). Both fresh-fruit anchors sit far below the FDA 50 µg/kg reporting limit, so the central estimate is low and confidence is low.
+
+Total mercury is recorded as a reviewed data gap. The only peach mercury measurement in the corpus is the fully censored FDA Total Diet Study cell, in which all 27 composites fell below the 1 µg/kg reporting limit, and no primary fresh-peach source in the corpus measures mercury, so no distribution is published. The earlier literal-zero entry overstated the strength of the evidence and has been replaced with an honest single-source censored gap.
+
+Dried and canned peach carry substantially higher per-gram metal loads than fresh peach and are recorded as separate concentration strata, not folded into the fresh-peach percentiles above. A single dried-peach sample reported lead at 1.093 mg/kg and total chromium at 1.289 mg/kg ([[sources/hadi2025-dried-fruits-heavy-metals-iraq|Hadi et al. 2025]]), reflecting weight-loss concentration during drying rather than a higher fresh-fruit burden. Historical canned-peach composites from the lead-soldered-can era reported lead near 133 µg/kg ([[sources/dabeka1995-canadian-food-composites-metals|Dabeka et al. 1995]]); these values reflect packaging-derived lead from solder no longer in use and are not representative of modern canned peach. A secondary narrative review reports peach by-product (peel and seed) total chromium at 0.17 to 1.38 mg/kg and lead below 0.10 mg/kg ([[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review|Tsegay et al. 2025]]); these by-product values describe discarded peel and kernel fractions rather than edible flesh and are retained as low-weight context only.
 
 ## Routing
 

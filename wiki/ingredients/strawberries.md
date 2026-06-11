@@ -36,11 +36,13 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 2]
+    p95_ppb: 5
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-06-11
+    basis: fresh-strawberry-wet-weight
+    speciation_note: total-Hg-only; no MeHg measurement in corpus; upper anchor is a Polish fresh-berry-subgroup proxy, not strawberry-specific
   Ni:
     status: populated
     typical_ppb: [0, 64]
@@ -57,11 +59,13 @@ contamination_profile:
     last_reviewed: 2026-05-13
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [6, 32]
+    p95_ppb: 56
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-06-11
+    basis: fresh-strawberry-wet-weight
+    speciation_note: total-Cr-only; no Cr-VI measurement in corpus
   Sn:
     status: populated
     typical_ppb: [0, 14.1]
@@ -82,7 +86,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 9
 ---
 
@@ -128,12 +132,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=4 | 2.1–15 | 17.8 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
 | iAs | n=1 | 21.4–66.3 | 75.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tAs | n=3 | 0–5.7 | 6.0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
-| tHg | n=3 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]] |
+| tHg | n=2 | 0–2 | 5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]] |
 | Ni | n=3 | 0–64 | 70.5 | high | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
 | Al | n=1 | 236.5–1665 | 1668 | low | — |
-| Cr | n=3 | 0 | 0 | high | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/reczajska2005-chromium-plant-foods-poland\|3]] |
+| Cr | n=2 | 6–32 | 56 | low | [[sources/reczajska2005-chromium-plant-foods-poland\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|3]] |
 | Sn | n=1 | 0–14.1 | 14.5 | low | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|1]] |
 | U | n=2 | 0 | 0.8 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The total mercury and chromium cells were resynthesized on 2026-06-11 on a fresh-strawberry wet-weight basis, the form in which the fruit enters the ingredient supply chain and the basis FDA Total Diet Study Food 86 ("Strawberry, raw/frozen") reports.
+
+Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported total mercury and chromium at typical and 95th-percentile values of zero with high confidence. Those figures were an artifact of the FDA Total Diet Study composites for strawberry, in which every sample fell below the reporting limit and the reported zeros were pooled as literal zeros. For total mercury, FDA reported all 27 composites below the 1 µg/kg reporting limit; for chromium, all 27 below the 50 µg/kg reporting limit ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). A fully censored cell does not establish that the analyte is absent; it establishes only that the analyte is below the reporting limit in this dataset. The resynthesis replaces the literal zeros with a left-censored floor at the FDA reporting limit and recovers the upper distribution from primary fresh-fruit occurrence literature.
+
+Total mercury is recovered at low confidence. No strawberry-specific quantitative mercury value exists in the corpus: the only strawberry-specific measurement is the fully censored FDA cell. The upper anchor is a Polish national-monitoring proxy ([[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Mania et al. 2021]], total mercury by cold-vapor atomic absorption), which reports the fresh-berries-and-small-fruits subgroup — a group the source defines to include strawberries, raspberries, currants, blackberries, gooseberries, cranberries, blueberries, and grapes — at a mean of 0.4 to 2.1 µg/kg fresh weight (lower-to-upper-bound substitution) and a 90th percentile of 1 to 5 µg/kg fresh weight. Because this anchor is a berry-subgroup aggregate and not a strawberry-specific measurement, it is carried as an explicitly labeled proxy and caps confidence at low; the typical upper bound of 2 µg/kg is the subgroup mean upper bound and the published 5 µg/kg figure entered as the p95 anchor is the subgroup 90th percentile (no true 95th percentile is published). Mercury here is total mercury measured by cold-vapor AAS; no methylmercury speciation exists for this matrix, and methylmercury is never inferred from total mercury. Mania's authors note that mercury in fruit is treated as essentially inorganic for exposure modeling, consistent with EFSA's position that organic mercury contributes negligibly outside fish and seafood.
+
+Chromium is recovered at low confidence and is reported as total chromium only; no strawberry hexavalent-chromium measurement exists in the corpus, and Cr-VI is never inferred from total chromium. The distribution rests on a strawberry-specific Polish survey ([[sources/reczajska2005-chromium-plant-foods-poland|Reczajska et al. 2005]], total chromium by Zeeman electrothermal atomic absorption, n=42), in which strawberries were among the highest-chromium plant commodities measured, with a range of 6 to 134 µg/kg fresh weight, a mean of 32 µg/kg, a median of 28 µg/kg, and a 90th percentile of 56 µg/kg. Regional means within Poland varied roughly twofold, from 21 µg/kg in Lubelskie to 47 µg/kg in Kujawsko-Pomorskie, with the single highest lot of 134 µg/kg in Mazowieckie. The typical band of 6 to 32 µg/kg is anchored to the Reczajska range minimum and mean; the p95 anchor of 56 µg/kg is the Reczajska 90th percentile, with the species maximum of 134 µg/kg noted as the upper tail rather than folded into the headline percentile. The South Korean fresh-fruit survey ([[sources/lee2023-south-korea-fresh-fruits-seven-metals|Lee et al. 2023]]) corroborates the central tendency at the fruit-category level — total chromium was detected in 100 percent of 207 fruit samples at a fruit-wide mean of 30.7 µg/kg fresh weight, with apple highest at 56.7 µg/kg and persimmon lowest at 15.5 µg/kg — but does not report a strawberry-specific chromium mean, so it is carried as fruit-category corroboration rather than as a strawberry anchor. The fully censored FDA cell (all 27 composites below the 50 µg/kg reporting limit) is consistent with the Reczajska distribution, whose median of 28 µg/kg sits well below that reporting limit. A separate strawberry-pomace value of below 0.01 mg/kg total chromium appears in a by-product review ([[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review|Tsegay et al. 2025]]); it is a processing-fraction (pomace) measurement, not fresh fruit, and is not folded into the fresh-strawberry percentiles.
 
 ## Routing
 

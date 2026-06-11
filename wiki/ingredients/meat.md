@@ -22,11 +22,13 @@ contamination_profile:
     last_reviewed: 2026-05-16
   iAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 6
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 4]
+    p95_ppb: 27
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: meat-poultry-game-as-consumed-wet-weight
+    speciation_note: direct-iAs-speciation; modeled-iAs-from-tAs-and-biomonitoring-sources-excluded
   tHg:
     status: populated
     typical_ppb: [0, 1]
@@ -82,7 +84,7 @@ higher_risk_variants: []
 used_in_products: [mixed-meals-non-rice, mixed-meals-rice-containing]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-11
 sources: 55
 ---
 
@@ -128,7 +130,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|-----------|------------|-------------|
 | Pb | n=15 | 0–13.1 | 28.4 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/wysok2025-heavy-metals-sheep-casings\|3]] |
 | Cd | n=15 | 0–3 | 7 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/wysok2025-heavy-metals-sheep-casings\|3]] |
-| iAs | n=6 | 0 | 0 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/ashley-martin2022-ias-biomonitoring-pregnancy\|2]], [[sources/fda-tds-elements-2018-2020\|3]] |
+| iAs | n=1 | 0–4 | 27 | low | [[sources/cfs2012-hktds-inorganic-arsenic\|1]] |
 | tAs | n=9 | 5–40 | 80 | medium | [[sources/wysok2025-heavy-metals-sheep-casings\|1]], [[sources/dai2024-chongqing-dietary-arsenic-exposure\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
 | tHg | n=8 | 0–1 | 2 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/wysok2025-heavy-metals-sheep-casings\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
 | Ni | n=7 | 27–258 | 1006 | medium | [[sources/han2024-nickel-zhejiang-china\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
@@ -136,6 +138,14 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cr | n=6 | 40–472 | 1014 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/henriksen2023-chromium-nordic-nnr\|2]], [[sources/fda-tds-elements-2018-2020\|3]] |
 | Sn | n=4 | 4.6–21.0 | 32.2 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/cfs2013-hktds-metallic-contaminants\|3]] |
 | U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The inorganic-arsenic cell was resynthesized on 2026-06-11 on a meat-poultry-game as-consumed wet-weight basis. Values below the analytical limit of detection are treated as left-censored, not as measured zeros, and total arsenic and inorganic arsenic are kept as distinct analytes throughout.
+
+The earlier profile reported meat inorganic arsenic at typical and 95th-percentile values of zero at medium confidence with a study count of six. That figure was not supported by speciated occurrence data. Of the six contributors that count carried, three measured only total arsenic or modeled inorganic arsenic from it rather than measuring the inorganic fraction directly: the FDA Total Diet Study FY2018-FY2020 reports total arsenic only for every meat food (ground beef, ham, pork chop, pork sausage, pork bacon, lamb chop, turkey, frankfurter, bologna; reporting limit 3 µg/kg, prepared/cooked composite basis) and carries no speciated inorganic-arsenic column, and the Chongqing cumulative-risk model ([[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi|Chen et al. 2025]]) and the Chongqing dietary-arsenic assessment ([[sources/dai2024-chongqing-dietary-arsenic-exposure|Dai et al. 2024]]) both estimate meat inorganic arsenic by applying an inorganic-to-total ratio (70 to 100 percent for non-fish foods) to a measured total-arsenic value rather than by direct speciation. A fourth contributor, the pregnancy biomonitoring review ([[sources/ashley-martin2022-ias-biomonitoring-pregnancy|Ashley-Martin et al. 2022]]), reports urinary and blood arsenic-species fractions, not a food occurrence concentration in meat, and supplies exposure context only. None of these establish a speciated inorganic-arsenic concentration for the commodity, so they are excluded from the inorganic-arsenic occurrence anchor and the count is reduced to the genuine speciated contributors.
+
+The single source that measures inorganic arsenic in meat directly is the First Hong Kong Total Diet Study ([[sources/cfs2012-hktds-inorganic-arsenic|CFS 2012]]), which speciated inorganic arsenic by hydride-generation ICP-MS (limit of detection 3 µg/kg, non-detects substituted at half the limit of detection per WHO GEMS/Food-EURO guidance). Its meat, poultry and game group (48 composite samples, 54 percent below the limit of detection) had a group mean of 4 µg/kg and a range of not-detected to 27 µg/kg on an as-consumed wet-weight basis. The typical band is therefore set with a left-censored floor of 0 (the limit of detection is 3 µg/kg, and a majority of composites fell below it) and an upper-typical anchor of 4 µg/kg, the source's group mean. The 95th-percentile slot is anchored to the reported group maximum of 27 µg/kg; because the source reports a group mean and range rather than a percentile distribution, this is the highest grounded value available and is carried as the upper anchor rather than as a computed percentile. Confidence is held at low: the cell rests on one government total-diet survey, a majority of its composites are censored, and the upper bound is a reported maximum rather than a measured percentile. No second independent speciated meat inorganic-arsenic occurrence source exists in the current corpus; the cumulative review of arsenic in food ([[sources/uneyama2007-arsenic-foods-cumulative-data|Uneyama et al. 2007]]) likewise estimates the inorganic fraction from total arsenic using category ratios and does not contribute a primary speciated meat row. The total-arsenic cell on this page is held separate and is not derived from, nor used to derive, this inorganic-arsenic value.
 
 ## Routing
 

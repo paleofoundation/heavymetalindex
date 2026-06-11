@@ -40,11 +40,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
   Ni:
     status: populated
     typical_ppb: [150, 220]
@@ -61,11 +61,12 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
+    speciation: total-Cr-only; Cr-VI not detected (<0.1 ug/kg) by HPLC-ICP-MS speciation
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -132,12 +133,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=2 | 25–39.2 | 41 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=2 | 7.8–13.8 | 15.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | data gap | — | — | — | — |
 | Ni | n=2 | 150–220 | 241 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — | — |
-| Cr | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | data gap | — | — | — | [[sources/song2024-crvi-hplc-icpms-food-reduction\|1]] |
 | Sn | data gap | — | — | — | — |
 | U | n=2 | 1.2–2.5 | 3.0 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The total-mercury and total-chromium cells were resynthesized on 2026-06-11 on a whole-wheat-bread-as-sold basis, the form FDA Total Diet Study Food 62 ("Bread, whole wheat, pre-sliced") reports and the form in which the product reaches the consumer. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
+
+The earlier profile reported total mercury and total chromium at typical and 95th-percentile values of zero at high confidence with two contributing studies. Those figures were an artifact of the FDA Total Diet Study composites for whole wheat bread, in which every one of the 27 composites fell below the reporting limit for each of these two metals and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]], total-mercury reporting limit 1 µg/kg, all 27 composites below limit; total-chromium reporting limit 50 µg/kg, all 27 composites below limit). For both metals the only occurrence measurement specific to whole wheat bread in the corpus is the fully censored FDA cell, and no primary food survey reports an extractable quantitative whole-wheat-bread value for either, so each is recorded as a reviewed data gap rather than as a measured zero. The honest floor is the FDA reporting limit expressed as a left-censored bound (total mercury below 1 µg/kg, total chromium below 50 µg/kg), not a measured zero.
+
+Total mercury and inorganic mercury are kept distinct, and total mercury is not derived from methylmercury; the FDA Total Diet Study measures total mercury only, and that measurement was fully censored, so no whole-wheat-bread mercury distribution is published. The single non-FDA source routed to this ingredient ([[sources/song2024-crvi-hplc-icpms-food-reduction|Song et al. 2024]]) is a Cr(VI) speciation method paper and does not measure mercury.
+
+Chromium is reported as total chromium only. The one speciated measurement in the corpus is from Song et al. 2024, in which a commercially purchased whole wheat bread from a Nanjing supermarket was analyzed by HPLC-ICP-MS with a 0.1 µg/kg detection limit and hexavalent chromium was not detected (below 0.1 µg/kg, triplicate measurement). Cr(VI) is therefore recorded as not detected at that speciation detection limit, and no Cr(VI) value is inferred from total chromium. Song et al. report no total-chromium concentration for the tested foods (their analysis targets the Cr(VI) species), and the FDA total-chromium cell for whole wheat bread is fully censored, so the total-chromium distribution is a reviewed data gap with no published central or 95th-percentile value. No mining-region, industrial, or wastewater-affected whole-wheat-bread chromium or mercury stratum exists in the corpus to report separately.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

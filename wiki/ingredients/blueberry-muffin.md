@@ -12,11 +12,12 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 5]
+    p95_ppb: 5
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: blueberry-muffin-as-baked-wet-weight
   Cd:
     status: populated
     typical_ppb: [7.3, 10]
@@ -40,11 +41,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
   Ni:
     status: populated
     typical_ppb: [0, 56.8]
@@ -61,11 +62,13 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 56]
+    p95_ppb: 56
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: blueberry-muffin-as-baked-wet-weight
+    speciation: total-Cr-only
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -86,7 +89,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 1
 ---
 
@@ -130,16 +133,24 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Pb | n=1 | 0–5 | 5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Cd | n=2 | 7.3–10 | 10.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=2 | 0–4.3 | 4.5 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | data gap | — | — | — | — |
 | Ni | n=2 | 0–56.8 | 60.8 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — | — |
-| Cr | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=1 | 0–56 | 56 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — | — |
 | U | n=2 | 0.7–2.8 | 3.4 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, total-mercury, and chromium cells were resynthesized on 2026-06-11 on a blueberry-muffin as-baked wet-weight basis, the form FDA Total Diet Study Food 65 ("Muffin, blueberry") reports and the form in which the finished bakery product reaches the consumer. Values below the analytical reporting limit are treated as left-censored, not as measured zeros.
+
+The earlier profile reported lead, total mercury, and chromium at typical and 95th-percentile values of zero at high confidence with a sample count of two. Those figures were an artifact of the single FDA Total Diet Study composite for "Muffin, blueberry" (n=27), in which the reported below-limit results were pooled as literal zeros and the sample count was overstated; this commodity has exactly one quantitative occurrence source in the corpus, the FDA Total Diet Study, so the honest contributor count for each of these cells is one, not two ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Blueberry muffin is a composite bakery product, and no primary occurrence study in the corpus measures the finished muffin matrix for any metal; flour, biscuit, and breakfast-cereal surveys in the corpus address different commodities and are not folded into these cells, because presenting wheat-flour, biscuit, or cereal-base data as blueberry-muffin occurrence data would misattribute another commodity's distribution to this one.
+
+Lead rests on the FDA Total Diet Study cell alone, in which 26 of 27 composites fell below the 4 µg/kg reporting limit and a single composite was detected at 5 µg/kg. The resynthesis replaces the literal zeros with a left-censored floor at the 4 µg/kg reporting limit and carries the single detect of 5 µg/kg as the honest top of the observed distribution; with one fully-censored source and a single detect, confidence is low and no percentile beyond the lone maximum is published. Chromium rests on the same FDA cell, in which 26 of 27 composites fell below the 50 µg/kg reporting limit with a single detect at 56 µg/kg. Chromium is reported as total chromium only; no hexavalent-chromium measurement exists for blueberry muffin or for any bakery composite in the corpus, and Cr-VI is never inferred from total chromium, so no Cr-VI value is published and the total-chromium cell is held at low confidence on the strength of one source and one detect. Total mercury is recorded as a reviewed data gap: all 27 FDA composites fell below the 1 µg/kg reporting limit with no detect anywhere in the distribution, and no primary source in the corpus reports an extractable quantitative blueberry-muffin mercury value, so no occurrence distribution is published (the reviewed-data-gap idiom used for rice uranium). Total mercury is held distinct from methylmercury and is not derived from it.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

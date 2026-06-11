@@ -7,11 +7,12 @@ category: starchy-root
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 11
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 31]
+    p95_ppb: 200
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-06-11
+    basis: raw-potato-wet-weight
   Cd:
     status: populated
     typical_ppb: [15, 34]
@@ -49,11 +50,13 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 9
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 9]
+    p95_ppb: 63
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-06-11
+    basis: raw-potato-wet-weight
+    speciation_note: total-Cr-only; no Cr-VI measurement in corpus
   Sn:
     status: populated
     typical_ppb: [0, 20]
@@ -70,11 +73,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: [soil-uptake, tuber-formation-in-soil, geography, peel-versus-flesh]
 lower_risk_variants: ["[[ingredients/peeled-potato]]", "[[ingredients/potato-starch]]"]
 higher_risk_variants: ["[[ingredients/unpeeled-potato]]", "[[ingredients/potato-skin]]", "[[ingredients/potato-peel-heavy-products]]"]
@@ -119,16 +122,28 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=11 | 0 | 0 | high | [[sources/samma2024-bangladesh-vegetable-metals\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
+| Pb | n=5 | 0–31 | 200 | medium | [[sources/rempelos2023-vegetable-organic-conventional-metals\|1]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|2]], [[sources/sixto2023-potatoes-sweet-potatoes-metals\|3]] |
 | Cd | n=17 | 15–34 | 37.7 | high | [[sources/mohammadian-hafshejani2024-cadmium-prostate-cancer-meta\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
 | iAs | n=4 | 2–15 | 25 | low | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
 | tAs | n=9 | 0 | 2.7 | medium | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/romero-crespo2023-ecuador-mining-crops-metals\|3]] |
 | tHg | n=5 | 0 | 0 | medium | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]], [[sources/mawari2022-heavy-metals-fruits-vegetables-india\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Ni | n=8 | 0–48 | 79.4 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/romero-crespo2023-ecuador-mining-crops-metals\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
 | Al | n=5 | 200–1000 | 2500 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
-| Cr | n=9 | 0 | 0 | medium | [[sources/samma2024-bangladesh-vegetable-metals\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/romero-crespo2023-ecuador-mining-crops-metals\|3]] |
+| Cr | n=3 | 0–9 | 63 | low | [[sources/reczajska2005-chromium-plant-foods-poland\|1]], [[sources/stasinos2014-heavy-metals-tubers-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Sn | n=3 | 0–20 | 50 | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| U | n=2 | 0 | 0 | high | — |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, chromium, and uranium cells were resynthesized on 2026-06-11 on a raw-potato wet-weight basis, the form in which the commodity enters the ingredient supply chain. The FDA Total Diet Study reports this matrix as cooked Food 136 "Potato, peeled, boiled"; its values are carried as a corroborating as-consumed anchor rather than the headline basis, because most primary occurrence literature reports raw potato tubers and because peeling-plus-boiling removes a small fraction of the metal load relative to the raw tuber.
+
+Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported lead, chromium, and uranium at typical and 95th-percentile values of zero. Those figures were an artifact of the FDA Total Diet Study composites, in which every sample (or all but one) fell below the reporting limit and the reported zeros were pooled as literal zeros. For lead, FDA reported all 27 composites below the 4 µg/kg reporting limit; for uranium, all 27 below the 1 µg/kg reporting limit; for chromium, 26 of 27 below the 50 µg/kg reporting limit with a single detect at 63 µg/kg ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The resynthesis replaces the literal zeros with a left-censored floor at the FDA reporting limit and recovers the upper distribution from primary raw-potato occurrence literature, in which lead and chromium are low but non-zero in tuber flesh.
+
+The lead floor is set at the FDA 4 µg/kg reporting limit. The central distribution rests on the long-term UK Nafferton field trials ([[sources/rempelos2023-vegetable-organic-conventional-metals|Rempelos et al. 2023]], potato-tuber Pb main-effect means 21 to 31 µg/kg fresh weight) and on the Uruguayan wholesale-market survey ([[sources/sixto2023-potatoes-sweet-potatoes-metals|Sixto et al. 2023]], whole-potato pools mostly non-detect or below the limit of quantification on a fresh-weight basis). The 95th-percentile anchor of 200 µg/kg is the Babol, Iran retail potato mean ([[sources/abdolahpour2023-heavy-metals-babol-vegetables|Abdolahpour et al. 2023]], potato Pb 0.20 mg/kg fresh weight), which exceeds the Iranian national 0.1 mg/kg non-leafy limit and is drawn from a single agricultural plain with documented industrial and irrigation pressure. Industrial-zone potato exceeds this by one to two orders of magnitude and is treated as a stratified outlier rather than folded into the percentile: the Bogura, Bangladesh survey ([[sources/samma2024-bangladesh-vegetable-metals|Samma et al. 2024]]) reports potato lead of 5,970 to 25,770 µg/kg dry weight across the most-industrialized northern district, with a Pb contamination factor above 6, and is direct evidence only for produce grown in or near that kind of industrial soil-loading context.
+
+Chromium is reported as total chromium only; no potato hexavalent-chromium measurement exists in the corpus, and Cr-VI is never inferred from total chromium. The chromium floor is the FDA 50 µg/kg reporting limit. The central fresh-weight distribution rests on the Polish plant-food survey ([[sources/reczajska2005-chromium-plant-foods-poland|Reczajska et al. 2005]], potato n=24, range below 1 to 11 µg/kg fresh weight, mean 3, median 4, 90th percentile 9 µg/kg). The 95th-percentile anchor of 63 µg/kg is the single FDA detect, the highest fresh-weight-comparable potato value in the corpus. Polluted-irrigation and industrial tubers run substantially higher on a dry-weight basis and are stratified rather than pooled: the tuber review ([[sources/stasinos2014-heavy-metals-tubers-review|Stasinos et al. 2014]]) compiles Thiva-basin Greek tuber total chromium of 1.9 to 4.1 mg/kg dry weight and a Latvian allotment mean of 0.16 mg/kg dry weight, and the Bogura survey reports vegetable-level total chromium below the detection limit to 5.44 mg/kg dry weight in an industrial district. These dry-weight polluted-region values are not basis-comparable to the fresh-weight percentile and are recorded as a separate contamination stratum, holding chromium confidence at low.
+
+Uranium is recorded as a reviewed data gap: the only potato uranium measurement in the corpus is the fully censored FDA Total Diet Study cell (all 27 composites below the 1 µg/kg reporting limit), and no primary raw-potato source reports an extractable quantitative uranium value, so no distribution is published. The earlier non-zero-confidence zero was the same censoring artifact and is withdrawn.
 
 ## Why this commodity accumulates cadmium
 

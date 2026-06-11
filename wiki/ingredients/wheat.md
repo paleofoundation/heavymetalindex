@@ -23,9 +23,11 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 12]
     p95_ppb: 12
-    confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: bread-and-cereal-composite-as-consumed
+    speciation: inorganic-arsenic-speciated; left-censored at UK-TDS LoQ 12 µg/kg
   tHg:
     status: populated
     typical_ppb: [0, 5]
@@ -42,18 +44,21 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Al:
     status: populated
-    typical_ppb: [2700, 6000]
-    p95_ppb: 6000
+    typical_ppb: [2300, 5200]
+    p95_ppb: 7000
     confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    n_studies: 4
+    last_reviewed: 2026-06-11
+    basis: bread-and-flour-as-marketed
   Cr:
     status: populated
-    typical_ppb: [100, 1000]
-    p95_ppb: 1000
-    confidence: high
-    n_studies: 18
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 100]
+    p95_ppb: 305
+    confidence: low
+    n_studies: 6
+    last_reviewed: 2026-06-11
+    basis: wheat-grain-and-bread-mixed-basis
+    speciation: total-Cr-only; no Cr-VI measurement in wheat corpus
   Sn:
     status: populated
     typical_ppb: [0, 20]
@@ -82,7 +87,7 @@ used_in_products: ["[[products/bread]]", "[[products/pasta]]", "[[products/cerea
 audience: [regulator, educator, consumer, app]
 sources: 96
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-11
 ---
 
 # Wheat
@@ -121,14 +126,24 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|-----------|------------|-------------|
 | Pb | n=28 | 10–100 | 650 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
 | Cd | n=39 | 10–50 | 216 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/ozkutlu2026-wheat-cd-zinc-mitigation\|2]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|3]] |
-| iAs | n=8 | 0–12 | 12 | medium | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|2]], [[sources/hao2024-amf-arsenic-plants-meta-analysis\|3]] |
+| iAs | n=1 | 0–12 | 12 | low | [[sources/fera2015-uk-tds-metals\|1]] |
 | tAs | n=19 | 3–20 | 50 | high | [[sources/asaditouranlou2025-bread-wheat-mashhad\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/dai2024-chongqing-dietary-arsenic-exposure\|3]] |
 | tHg | n=14 | 0–5 | 30 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
 | Ni | n=16 | 100–800 | — | high | [[sources/asaditouranlou2025-bread-wheat-mashhad\|1]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
-| Al | n=8 | 2700–6000 | 6000 | medium | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
-| Cr | n=18 | 100–1000 | 1000 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
+| Al | n=4 | 2300–5200 | 7000 | medium | [[sources/fera2015-uk-tds-metals\|1]], [[sources/balbo2022-bread-contaminants-poland\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
+| Cr | n=6 | 0–100 | 305 | low | [[sources/reczajska2005-chromium-plant-foods-poland\|1]], [[sources/balbo2022-bread-contaminants-poland\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Sn | n=5 | 0–20 | 20 | medium | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/vasilachi2023-heavy-metals-cereal-crops\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
 | U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The inorganic-arsenic, aluminium, and chromium cells were resynthesized on 2026-06-11. Wheat is reported by sources in two distinct bases: wheat grain or wheat flour as marketed (the form that enters the supply chain) and finished bread or cereal as consumed. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros, and the lower bound of a fully or near-fully censored cell is carried as a numeric zero with the reporting limit stated here in prose. The FDA Total Diet Study FY2018-FY2020 element panel does not speciate inorganic arsenic and does not report aluminium, so the FDA dataset contributes only to the total-chromium cell for the routed wheat foods (white bread, whole wheat bread, cream of wheat).
+
+Inorganic arsenic rests on a single primary speciated source, and its central and 95th-percentile values are a left-censored bound rather than a measured concentration. The UK Food Standards Agency Total Diet Study measured inorganic arsenic separately from total arsenic by hydride-generation ICP-MS and reported every bread and cereal composite below the 12 µg/kg limit of quantification, including white sliced bread, white unsliced bread, brown bread, wholemeal and granary bread, flour, breakfast cereals, other cereal products, pasta, and pizza ([[sources/fera2015-uk-tds-metals|Baxter et al. 2015]], iAs <0.012 mg/kg in all wheat-matrix rows; the one cereal-group exception, miscellaneous cereals at ~0.013 mg/kg, is above the limit of detection but below the limit of quantification and is treated as semi-quantitative). The cell is therefore carried as a left-censored 0-to-12 µg/kg with the 95th percentile pinned at the 12 µg/kg reporting limit, at low confidence on a single speciated source. Total arsenic in wheat is held distinct from inorganic arsenic and is not used to populate this cell; the elevated total-arsenic readings in wheat grain from arsenic-affected groundwater regions, such as the maximum of 775 µg/kg total arsenic reported for wheat in arsenic-contaminated districts of Bihar ([[sources/kumar2024-arsenic-breast-milk-bihar-gangetic|Kumar et al. 2024]]), and the secondary citation of inorganic arsenic above 200 µg/kg in South Asian wheat grain in a hydroponic mechanism study ([[sources/shi2022-sulfur-as-cd-wheat|Shi et al. 2022]]), are documented high-arsenic-region strata and are not folded into the speciated central estimate.
+
+Aluminium rests on bread and flour as marketed and is supported by three A-tier sources in agreement on a central concentration of roughly 4,000 to 5,000 µg/kg. The UK Total Diet Study reports aluminium at 4,010 µg/kg in the bread group, with individual bread composites from 2,720 µg/kg (wholemeal and granary) to 5,120 µg/kg (white sliced) and flour at 5,190 µg/kg ([[sources/fera2015-uk-tds-metals|Baxter et al. 2015]]); the EFSA EU-FORA assessment of Polish rye-wheat bread reports an aluminium mean of 4,054 µg/kg with a median of 3,919 and a standard deviation of 1,251 on a fresh-weight basis ([[sources/balbo2022-bread-contaminants-poland|Balbo and Wozniak 2022]]); and the Iranian multi-province bread survey reports an aluminium mean of 4,980 µg/kg at 96 percent detection ([[sources/asaditouranlou2025-bread-iran-montecarlo|Asadi Touranlou et al. 2025]], dry-weight basis by ICP-OES). The Mashhad flour-dough-bread triplet study confirms aluminium exceeding the source-cited WHO/FAO comparator in all five city regions on a dry-weight basis ([[sources/asaditouranlou2025-bread-wheat-mashhad|Asadi Touranlou et al. 2025]]). The 95th percentile of 7,000 µg/kg is set from the upper tail of the Polish bread distribution (mean plus roughly two-and-a-third standard deviations) and the Iranian mean-plus-spread, both of which place the high tail near 7,000 to 8,000 µg/kg. Confidence is held at medium because the contributing values mix a fresh-bread basis (UK, Poland) with a dry-weight basis (Iran) and a dedicated wheat-grain aluminium distribution is not in the corpus. The prior aluminium cell drew its headline anchor from an infant-formula and baby-food survey ([[sources/rahati2026-infant-formula-baby-food-iran-health-risk|Rahati et al. 2026]], aluminium mean 1 mg/kg in powdered infant formula), which is a different commodity; that source has been removed from the wheat aluminium synthesis and is retained only on the relevant infant-formula pages.
+
+Chromium is reported as total chromium across the entire wheat corpus; no hexavalent-chromium measurement exists for any wheat matrix, and Cr-VI is never inferred from total chromium. The central estimate is built from the clean-market wheat-grain and bread distribution on a fresh or as-consumed basis, which four sources characterize in agreement. Polish wheat grain measured by graphite-furnace AAS averages 39 µg/kg with a median of 27, a 90th percentile of 79, and a range of less than 2 to 183 µg/kg ([[sources/reczajska2005-chromium-plant-foods-poland|Reczajska et al. 2005]], n=45 wheat-grain samples; the reporting limit is approximately 1 to 2 µg/kg and the below-limit minimum is carried as a numeric-zero censored floor). Egyptian wheat flour averages 6.8 µg/kg (range 5 to 9) and bread 2.7 µg/kg (range 1 to 4) at a limit of quantification near 0.6 to 1.5 µg/kg ([[sources/salaheldin2025-multimatrix-foods-egypt|Salahel din et al. 2025]]). Polish rye-wheat bread averages 134.6 µg/kg with a median of 106 and a standard deviation of 84.5, placing its upper tail near 300 µg/kg ([[sources/balbo2022-bread-contaminants-poland|Balbo and Wozniak 2022]], n=51). The FDA Total Diet Study reports US wheat foods against a 50 µg/kg reporting limit: white bread is below that limit in 22 of 27 composites with detected values from 54 to 100 µg/kg, whole wheat bread and cream of wheat are fully below the limit and carried as numeric-zero censored floors, and the highest wheat-derived composites are flour tortilla and bran-with-raisins cereal at 200 to 300 µg/kg ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Pooled across these four clean-market sources in their native fresh or as-consumed basis, the ordered distribution sits at a numeric-zero censored floor through its lower half, reaches a 90th percentile near 100 µg/kg, and has a 95th-percentile tail near 300 µg/kg set by the Polish rye-wheat-bread upper tail and the highest FDA wheat-derivative composites. The cell is therefore carried with a typical range of a numeric-zero censored floor to 100 µg/kg and a 95th percentile of 305 µg/kg, an honest upper tail rather than a collapsed single value. Against this clean-market distribution, two strata sit an order of magnitude higher and are stratified out of the central estimate rather than allowed to set it: Iranian bread on a dry-weight basis reaches a total-chromium mean of 1,000 µg/kg with a standard deviation of 1,420 at 63 percent detection, non-detects assigned zero ([[sources/asaditouranlou2025-bread-iran-montecarlo|Asadi Touranlou et al. 2025]], n=248, dry-weight ICP-OES), and wheat grain from the karst and lead-and-phosphate-mining region of Guizhou, China reaches a mean of 3,250 µg/kg with a median of 1,488 and a maximum of 8,546 µg/kg, with 58 percent of samples above the FAO limit ([[sources/li2022-wheat-pte-guizhou-health-risk|Li et al. 2022]], n=149, an industrial-mining region the authors attribute to industrial activity by principal-component analysis). Confidence is held at low because every contributing value is total chromium only with no Cr-VI speciation, the corpus spans a fresh-to-dry basis gap, and the industrial-region and dry-weight strata reach two orders of magnitude above the clean-market central. The prior chromium cell carried a high-confidence headline anchored on an infant-formula survey ([[sources/rahati2026-infant-formula-baby-food-iran-health-risk|Rahati et al. 2026]], chromium mean 0.5 mg/kg in infant formula); that commodity-mismatched source has been removed from the wheat chromium synthesis.
 
 ## Why this commodity accumulates cadmium
 
