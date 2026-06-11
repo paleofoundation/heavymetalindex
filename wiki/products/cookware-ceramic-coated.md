@@ -106,7 +106,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/esoyan2024-matsoun-ceramic-packaging\|Esoyan et al. 2024]]. *Impact of ceramic packaging on the quality and safety of Armenian fermented dairy product Matsoun*, Functional Food Science | 2024 | Peer-reviewed | AM Pb, Cd, tHg, tAs occurrence in Six matsoun samples packaged in sterilized glass or ceramic containers and stored at 4 degrees C for 1,... (n=6) |
+| 1 | [[sources/dtu2024-food-contact-pb-cd-limits\|DTU National Food Institute 2024]]. *Suggestive maximum limits for lead and cadmium in food contact materials*, DTU National Food Institute memo no. 24/1014518 for the Danish Veterinary and Food Administration | 2024 | Regulatory report | DK/EU/DE Pb, Cd occurrence in DVFA 2023 internal testing summary for 47 ceramic cups, bowls, plates, and ovenproof dishes on the Danish market,... (n=47) |
+| 2 | [[sources/esoyan2024-matsoun-ceramic-packaging\|Esoyan et al. 2024]]. *Impact of ceramic packaging on the quality and safety of Armenian fermented dairy product Matsoun*, Functional Food Science | 2024 | Peer-reviewed | AM Pb, Cd, tHg, tAs occurrence in Six matsoun samples packaged in sterilized glass or ceramic containers and stored at 4 degrees C for 1,... (n=6) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

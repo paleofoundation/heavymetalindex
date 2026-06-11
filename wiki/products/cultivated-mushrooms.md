@@ -31,7 +31,14 @@ updated: 2026-06-09
 
 No sources are routed to this row yet. The corpus will accumulate via the source-routing layer.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<!-- BEGIN: source-legend -->
-<!-- END: source-legend -->
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/falandysz2020-yunnan-fungi-mercury\|Falandysz et al. 2020]]. *Mercury in traditionally foraged species of fungi (macromycetes) from the karst area across Yunnan province in China*, Applied Microbiology and Biotechnology | 2020 | Peer-reviewed | CN tHg occurrence in Composite samples from 42 traditionally foraged or medicinal fungal species collected at 23 sites across Yunnan province, China,... |
+| 2 | [[sources/jasinska2019-mushroom-cadmium\|Jasińska et al. 2019]]. *Relationship between zinc and cadmium contents and cultivating conditions of gourmet and medicinal mushroom Agaricus subrufescens*, International Journal of Horticultural Science | 2019 | Peer-reviewed | PL Cd, Zn occurrence in Agaricus subrufescens cultivated on four mushroom composts (food waste digestate 10/20/30/40 % by dry matter) over five harvest... (n=20) |
+<!-- END: hmi-source-legend -->
+

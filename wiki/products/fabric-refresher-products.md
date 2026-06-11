@@ -106,7 +106,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/davidsuzuki2014-toxic-household-cleaners\|Foundation 2014]]. *The dirt on toxic chemicals in household cleaning products*, David Suzuki Foundation (consumer-education article, web copy archived as PDF) | 2014 | NGO report | CA As, Cd, Pb occurrence in Not applicable: consumer-education article; no original sampling, no analytical measurements. Compiled from cited secondary sources (ATSDR ToxFAQs sheets,... |
+| 1 | [[sources/greenseal2020-gs51-laundry-care-products\|Green Seal 2020]]. *GS-51: Green Seal Standard for Laundry Care Products for Industrial and Institutional Use, Edition 1.6*, Green Seal, Inc. voluntary environmental certification standard; Edition 1.6 issued April 8, 2020, replacing Edition 1.5 from September 12, 2019, with corrections/clarifications last made July 30, 2021. | 2020 | Regulatory standard | US Pb, tHg, Cd, Cr-VI, tAs, Co, Mn, Ni occurrence in Not applicable: this is the binding text of Green Seal GS-51 Edition 1.6 for industrial and institutional laundry... |
+| 2 | [[sources/davidsuzuki2014-toxic-household-cleaners\|Foundation 2014]]. *The dirt on toxic chemicals in household cleaning products*, David Suzuki Foundation (consumer-education article, web copy archived as PDF) | 2014 | NGO report | CA As, Cd, Pb occurrence in Not applicable: consumer-education article; no original sampling, no analytical measurements. Compiled from cited secondary sources (ATSDR ToxFAQs sheets,... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

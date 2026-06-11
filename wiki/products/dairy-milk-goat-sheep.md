@@ -31,7 +31,13 @@ updated: 2026-06-08
 
 No sources are routed to this row yet. The corpus will accumulate via the source-routing layer.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<!-- BEGIN: source-legend -->
-<!-- END: source-legend -->
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/arellano2023-dairy-products-arsenic-argentina\|Arellano et al. 2023]]. *Arsenic risk assessment through dairy products ingestion*, Arsenic in the Environment: Bridging Science to Practice for Sustainable Development | 2023 | Conference proceedings | AR tAs occurrence in Raw bovine, caprine, and ovine milk from 37 farms in Cordoba and Buenos Aires provinces, plus market commercial... (n=157) |
+<!-- END: hmi-source-legend -->
+

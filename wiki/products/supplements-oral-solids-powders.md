@@ -107,7 +107,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/sochacka2025-spirulina-chlorella-supplements-poland\|Sochacka et al. 2025]]. *Spirulina and Chlorella Dietary Supplements—Are They a Source Solely of Valuable Nutrients?*, International Journal of Molecular Sciences | 2025 | Peer-reviewed | PL/EU Al, Ba, Cd, Co, Cr, Cs, Cu, Ga, Mn, Mo, Ni, Pb, Rb, Sr, Tl, V, Zn occurrence in 52 commercially available microalgae-based dietary supplements sold on the Polish market: 29 Spirulina (Spirulina platensis) products and 23... (n=52) |
-| 2 | [[sources/brizio2013-italian-food-supplements-metals\|Brizio et al. 2013]]. *Heavy metals occurrence in Italian food supplements*, E3S Web of Conferences | 2013 | Peer-reviewed | IT tAs, Cd, Cr, Pb, tHg occurrence in Twelve food supplements seized in a Piedmont shop by Italian food-adulteration authorities: six single-herbal samples and six mixed... (n=12) |
+| 2 | [[sources/li2017-spirulina-arsenic-speciation\|Li et al. 2017]]. *Determination of different arsenic species in food-grade spirulina powder by ion chromatography combined with inductively coupled plasma mass spectrometry*, Journal of Separation Science | 2017 | Peer-reviewed | CN tAs, iAs occurrence in Food-grade spirulina powder samples purchased at production sites in seven Chinese provinces: Yunnan, Hainan, Guangxi, Fujian, Inner Mongolia,... (n=7) |
+| 3 | [[sources/brizio2013-italian-food-supplements-metals\|Brizio et al. 2013]]. *Heavy metals occurrence in Italian food supplements*, E3S Web of Conferences | 2013 | Peer-reviewed | IT tAs, Cd, Cr, Pb, tHg occurrence in Twelve food supplements seized in a Piedmont shop by Italian food-adulteration authorities: six single-herbal samples and six mixed... (n=12) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

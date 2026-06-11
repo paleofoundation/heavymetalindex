@@ -106,7 +106,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/yamada1993-organotin-household-commodities\|Yamada et al. 1993]]. *Small-Scale Survey of Organotin Compounds in Household Commodities*, Journal of AOAC International, Vol. 76, No. 2, pp. 436–441 | 1993 | Peer-reviewed | JP Sn occurrence in 95 commercially available household commodity items purchased between 1990 and 1992 from retail stores in Aichi Prefecture, Japan,... (n=95) |
+| 1 | [[sources/nic-corcrain2025-menstrual-products-metal-leaching\|Nic 2025]]. *Investigating links between heavy metals in menstrual hygiene products and reproductive hormonal health*, Laidlaw Undergraduate Research and Leadership Programme poster | 2025 | Conference proceedings | Pb, tAs occurrence in Four menstrual products incubated in synthetic vaginal fluid for Pb and As leaching tests, plus a survey of... (n=4) |
+| 2 | [[sources/yamada1993-organotin-household-commodities\|Yamada et al. 1993]]. *Small-Scale Survey of Organotin Compounds in Household Commodities*, Journal of AOAC International, Vol. 76, No. 2, pp. 436–441 | 1993 | Peer-reviewed | JP Sn occurrence in 95 commercially available household commodity items purchased between 1990 and 1992 from retail stores in Aichi Prefecture, Japan,... (n=95) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

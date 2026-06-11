@@ -106,7 +106,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
+| 1 | [[sources/upson2022-menstrual-products-exposure-review\|Upson et al. 2022]]. *Menstrual products as a source of environmental chemical exposure: A review from the epidemiologic perspective*, Current Environmental Health Reports 9(1):38-52 | 2022 | Peer reviewed review | US/SE/DK Cd, Pb, tHg occurrence in Narrative review of 23 studies measuring environmental chemicals in menstrual products plus 3 epidemiologic studies of menstrual-product use... (n=26) |
+| 2 | [[sources/gao2020-feminine-hygiene-edcs\|Gao et al. 2020]]. *Phthalates, bisphenols, parabens, and triclocarban in feminine hygiene products from the United States and their implications for human exposure*, Environment International | 2020 | Peer-reviewed | Gao and Kannan measured 24 endocrine-disrupting chemicals in 77 feminine hygiene products purchased in the Albany, New York area. The... |
+| 3 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

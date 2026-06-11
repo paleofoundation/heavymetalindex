@@ -106,7 +106,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | HK/EU/US Pb, Cd, Ni, Cr, Cr-VI, Al occurrence in Narrative literature review; no original measurements. The review summarises secondary toxicology and migration evidence from FAO/WHO, EFSA, USFDA,... |
+| 1 | [[sources/zeng2023-disposable-food-containers-metals\|Zeng et al. 2023]]. *Heavy metal risk of disposable food containers on human health*, Ecotoxicology and Environmental Safety | 2023 | Peer-reviewed | CN Be, V, Ni, Zn, Mn, Cd, Cr, Co, Sb, Ba, Pb, Fe, Cu, Se occurrence in Disposable paper cups, plastic cups, plastic bags, and plastic bowls purchased through an online retail channel in China;... (n=28) |
+| 2 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | HK/EU/US Pb, Cd, Ni, Cr, Cr-VI, Al occurrence in Narrative literature review; no original measurements. The review summarises secondary toxicology and migration evidence from FAO/WHO, EFSA, USFDA,... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

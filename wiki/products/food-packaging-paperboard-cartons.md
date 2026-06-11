@@ -107,6 +107,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/sadhya2023-india-food-heavy-metals-regulation\|Sadhya et al. 2023]]. *Regulation in India of Heavy Metals in Food Items: A Critical Analysis*, Environmental Analysis & Ecology Studies | 2023 | Review | IN Pb, Cu, tAs, Sn, Cd, tHg, MeHg, Cr, Ni, Se, Sb, Ba, Co, Fe, Li, Mn, Zn occurrence in Legal review of the Indian regulatory framework governing heavy metals in food and food packaging. No primary measurements.... |
+| 2 | [[sources/zeng2023-disposable-food-containers-metals\|Zeng et al. 2023]]. *Heavy metal risk of disposable food containers on human health*, Ecotoxicology and Environmental Safety | 2023 | Peer-reviewed | CN Be, V, Ni, Zn, Mn, Cd, Cr, Co, Sb, Ba, Pb, Fe, Cu, Se occurrence in Disposable paper cups, plastic cups, plastic bags, and plastic bowls purchased through an online retail channel in China;... (n=28) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
