@@ -31,6 +31,30 @@ created_routed_sources: 2
 
 # Black Pepper
 
+<!-- hmi-completeness-scorecard -->
+
+## Completeness scorecard
+
+_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
+
+| Dimension | Status | What's there (auditable counts) | What's missing |
+|---|---|---|---|
+| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=14 | consumption tier unset; depth bar uncheckable |
+| D2 Regional coverage | OK | 23 jurisdictions, top SA 15% | — |
+| D3 Anthropogenic evidence | GAP | 1 soil + 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
+| D4 Background mechanism | OK | section present, 3 drivers, 1 upstream source(s) | — |
+| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Al THIN, Cr THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Al: needs 1 more study(ies); Cr: needs 1 more study(ies) |
+| D6 Speciation | OK | iAs, tAs, tHg declared | — |
+| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D8 Provenance integrity | OK | 4 claims checked, 4 supported; 2 citations, 0 orphan, 0 foreign | — |
+| D9 Mitigation | GAP | 0 cited lever(s), 4 mitigation/ link(s) | section present but no source-cited lever |
+| D10 Regulatory coverage | OK | 3 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, tAs, tHg, Ni, Al, Cr |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
+| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.75, scale 0.25 | spread 0.75 — starved: contamination-reduction |
+
+<!-- /hmi-completeness-scorecard -->
+
+
 Source-grounded narrative on this page is populated incrementally from the routed source pages per CLAUDE.md Part 9; values for analytes marked as data gap below have not yet accumulated 2+ A-tier contributing sources.
 ## Heavy metal contamination profile
 

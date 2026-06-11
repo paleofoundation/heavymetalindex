@@ -88,6 +88,30 @@ sources: 55
 
 # Meat and poultry
 
+<!-- hmi-completeness-scorecard -->
+
+## Completeness scorecard
+
+_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
+
+| Dimension | Status | What's there (auditable counts) | What's missing |
+|---|---|---|---|
+| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=76 | consumption tier unset; depth bar uncheckable |
+| D2 Regional coverage | OK | 45 jurisdictions, top EU 20% | — |
+| D3 Anthropogenic evidence | GAP | 8 drinking-water + 2 soil; no supply-chain link | link a supply-chain/ hub page |
+| D4 Background mechanism | GAP | section present, 0 drivers, 8 upstream source(s) | drivers[] empty |
+| D5 Pooling depth | POOLABLE | Pb CONFIDENT, Cd CONFIDENT, iAs POOLABLE, tHg POOLABLE, Ni POOLABLE, Al POOLABLE, Cr POOLABLE, Sn POOLABLE, tAs POOLABLE | — |
+| D6 Speciation | OK | iAs, tHg, tAs declared | — |
+| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| D8 Provenance integrity | GAP | 21 claims checked, 21 supported; 5 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming meat: fsa2016-infant-food-formula-metals-survey, fda-tds-elements-2018-2020 |
+| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
+| D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr |
+| D11 Standards-readiness | PARTIAL | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
+| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.75 | spread 1.00 — starved: brand-value |
+
+<!-- /hmi-completeness-scorecard -->
+
+
 FSA/Fera measured this ingredient or a closely matching non-infant-specific food composite in the FS102048 survey. Exact concentrations remain in progress until Table 6 is parsed into structured ingredient rows with quantitation flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
 ## Why this commodity accumulates heavy metals

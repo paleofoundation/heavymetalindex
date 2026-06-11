@@ -33,6 +33,12 @@ if (!fs.existsSync(auditScript)) {
   process.exit(1)
 }
 
+// The completeness scorecard reads source-page frontmatter (its ingredient
+// source set), so a source change can move a scorecard chip. Rebuild it after
+// the routing audit. The scorecard writes only to wiki/ingredients/, which this
+// watcher does NOT watch, so there is no self-trigger loop.
+const scorecardScript = path.join(repoRoot, "tools/evidence/build-ingredient-scorecard.mjs")
+
 const DEBOUNCE_MS = 500
 let debounceTimer = null
 let running = false
@@ -49,14 +55,20 @@ function runAudit() {
   console.log(`\n[watch-sources ${startedAt}] running routing audit...`)
   const child = spawn("node", [auditScript], { stdio: "inherit" })
   child.on("exit", (code) => {
-    running = false
     if (code !== 0) {
       console.error(`[watch-sources] audit exited with code ${code}; watcher continues.`)
     }
-    if (pending) {
-      pending = false
-      setTimeout(runAudit, 100)
-    }
+    // Chain the scorecard rebuild after the audit so its source-derived chips
+    // stay fresh. Failure is non-fatal; the watcher keeps running.
+    const sc = spawn("node", [scorecardScript], { stdio: "inherit" })
+    sc.on("exit", (scCode) => {
+      running = false
+      if (scCode !== 0) console.error(`[watch-sources] scorecard exited with code ${scCode}; watcher continues.`)
+      if (pending) {
+        pending = false
+        setTimeout(runAudit, 100)
+      }
+    })
   })
 }
 

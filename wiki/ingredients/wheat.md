@@ -87,6 +87,30 @@ updated: 2026-05-16
 
 # Wheat
 
+<!-- hmi-completeness-scorecard -->
+
+## Completeness scorecard
+
+_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
+
+| Dimension | Status | What's there (auditable counts) | What's missing |
+|---|---|---|---|
+| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=155 | consumption tier unset; depth bar uncheckable |
+| D2 Regional coverage | below-tier | 53 jurisdictions, top CN 24% | only 53 distinct jurisdiction(s) |
+| D3 Anthropogenic evidence | GAP | 2 irrigation-water + 4 soil + 4 drinking-water + 2 agricultural-soil + 1 paddy-soil; no supply-chain link | link a supply-chain/ hub page |
+| D4 Background mechanism | OK | section present, 5 drivers, 10 upstream source(s) | — |
+| D5 Pooling depth | POOLABLE | Pb CONFIDENT, Cd CONFIDENT, iAs POOLABLE, tHg CONFIDENT, Ni CONFIDENT, Al POOLABLE, Cr CONFIDENT, Sn POOLABLE, tAs CONFIDENT | — |
+| D6 Speciation | OK | iAs, tHg, tAs declared | — |
+| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| D8 Provenance integrity | GAP | 30 claims checked, 30 supported; 4 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming wheat: fda-ctz-Pb-babyfood-2025 |
+| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | Mitigation options section empty/missing |
+| D10 Regulatory coverage | below-tier | 3 rule link(s), 2 metal(s) covered | crosswalk thin: 7/9 populated analytes have no linked governing limit |
+| D11 Standards-readiness | PARTIAL | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
+| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.25, scale 0.75 | spread 0.75 — starved: contamination-reduction |
+
+<!-- /hmi-completeness-scorecard -->
+
+
 Wheat is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as one of the top population-level dietary cadmium contributors, with the bran and germ fractions carrying higher cadmium than refined endosperm.
 
 ## Heavy metal contamination profile

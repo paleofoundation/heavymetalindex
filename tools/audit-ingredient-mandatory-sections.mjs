@@ -18,6 +18,10 @@
 
 import fs from "node:fs"
 import path from "node:path"
+// The role-based matcher now lives in a shared module so the completeness
+// scorecard (tools/evidence/build-ingredient-scorecard.mjs) and this audit can
+// never silently disagree about whether a section exists.
+import { MANDATORY_SECTIONS } from "./evidence/lib/ingredient-sections.mjs"
 
 const args = process.argv.slice(2)
 const warnOnly = args.includes("--warn-only")
@@ -25,77 +29,6 @@ const repoRoot = process.cwd()
 const ingredientsDir = path.join(repoRoot, "wiki/ingredients")
 const routingAuditPath = path.join(repoRoot, "data/evidence/product_source_routing_audit.csv")
 const auditOutPath = path.join(repoRoot, "data/evidence/ingredient-mandatory-sections-audit.csv")
-
-// The mandatory section H2 headings, in the order Part 6 prescribes. Each is
-// matched case-insensitive on the H2 heading line. Multiple acceptable phrasings
-// per section accommodate historical page variation; the section-completion
-// subprocess will eventually standardize the phrasings.
-const MANDATORY_SECTIONS = [
-  {
-    key: "why_accumulates",
-    patterns: [
-      /^##\s+Why this commodity accumulates/im,
-      /^##\s+Why .* accumulate/im,
-      /^##\s+Accumulation mechanism/im,
-    ],
-  },
-  {
-    key: "contamination_profile_table",
-    patterns: [
-      /^##\s+Heavy metal contamination profile/im,
-      /^##\s+Contamination profile/im,
-    ],
-  },
-  {
-    key: "ranges_by_source",
-    patterns: [
-      /^##\s+Ranges by source/im,
-      /^##\s+Ranges by region/im,
-      /^##\s+Concentration ranges/im,
-      /^##\s+Geographic and varietal variation/im,
-    ],
-  },
-  {
-    key: "processing_effects",
-    patterns: [
-      /^##\s+Processing effects/im,
-      /^##\s+Effects of processing/im,
-      /^##\s+Processing/im,
-    ],
-  },
-  {
-    key: "ingredient_derivative_risk",
-    patterns: [
-      /^##\s+Ingredient-derivative risk/im,
-      /^##\s+Derivative risk/im,
-      /^##\s+Derivatives and concentrates/im,
-    ],
-  },
-  {
-    key: "mitigation_options",
-    patterns: [
-      /^##\s+Mitigation options/im,
-      /^##\s+Mitigation/im,
-      /^##\s+Remediation/im,
-      /^##\s+Reducing contamination/im,
-      /^##\s+How to reduce/im,
-    ],
-  },
-  {
-    key: "regulatory_limits",
-    patterns: [
-      /^##\s+Regulatory limits/im,
-      /^##\s+Applicable regulations/im,
-      /^##\s+Regulatory framework/im,
-    ],
-  },
-  {
-    key: "sources",
-    patterns: [
-      /^##\s+Sources\s*$/im,
-    ],
-  },
-]
 
 // ---------- Step 1: identify stubs vs non-stubs ----------
 
