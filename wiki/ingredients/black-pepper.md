@@ -6,23 +6,24 @@ label: "Black Pepper"
 aliases: []
 category: herb-spice
 contamination_profile:
-  Pb: { status: populated, typical_ppb: [10, 130], p95_ppb: 370, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
-  Cd: { status: populated, typical_ppb: [20, 80], p95_ppb: 100, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
-  iAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
-  tAs: { status: populated, typical_ppb: [50, 200], p95_ppb: 1700, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
-  tHg: { status: populated, typical_ppb: [1, 10], p95_ppb: 60, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
-  Ni: { status: populated, typical_ppb: [850, 2080], p95_ppb: 4800, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
-  Al: { status: populated, typical_ppb: [10000, 60000], p95_ppb: 178000, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
-  Cr: { status: populated, typical_ppb: [100, 600], p95_ppb: 2400, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
-  Sn: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
-  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  Pb: { status: populated, typical_ppb: [130, 640], p95_ppb: 2500, confidence: medium, n_studies: 8, basis: dry-weight, last_reviewed: 2026-06-11 }
+  Cd: { status: populated, typical_ppb: [27, 200], p95_ppb: 390, confidence: medium, n_studies: 6, basis: dry-weight, last_reviewed: 2026-06-11 }
+  iAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-06-11 }
+  tAs: { status: populated, typical_ppb: [33, 200], p95_ppb: 1700, confidence: low, n_studies: 4, basis: dry-weight, last_reviewed: 2026-06-11 }
+  tHg: { status: populated, typical_ppb: [null, 17], p95_ppb: 17, confidence: low, n_studies: 2, basis: dry-weight, last_reviewed: 2026-06-11 }
+  Ni: { status: populated, typical_ppb: [1700, 4900], p95_ppb: 5100, confidence: medium, n_studies: 4, basis: dry-weight, last_reviewed: 2026-06-11 }
+  Al: { status: populated, typical_ppb: [110000, 210000], p95_ppb: 540000, confidence: low, n_studies: 4, basis: dry-weight, last_reviewed: 2026-06-11 }
+  Cr: { status: populated, typical_ppb: [800, 2300], p95_ppb: 6600, confidence: low, n_studies: 3, basis: dry-weight, last_reviewed: 2026-06-11 }
+  Sn: { status: populated, typical_ppb: [null, 1200], p95_ppb: 1200, confidence: low, n_studies: 1, basis: dry-weight, last_reviewed: 2026-06-11 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-06-11 }
 drivers: [soil-uptake, geography, processing]
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-11
+last_full_resynthesis: 2026-06-11
 sources: 12
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -39,18 +40,18 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=14 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: unset) | tier-unset | 7/10 HMTc analytes, total n=32 | consumption tier unset; depth bar uncheckable |
 | D2 Regional coverage | OK | 23 jurisdictions, top SA 15% | — |
 | D3 Anthropogenic evidence | GAP | 1 soil + 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 3 drivers, 1 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Al THIN, Cr THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Al: needs 1 more study(ies); Cr: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni POOLABLE, Al THIN, Cr THIN, Sn THIN | tAs: THIN; tHg: needs 1 more study(ies); Al: THIN; Cr: THIN; Sn: needs 2 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 4 claims checked, 4 supported; 2 citations, 0 orphan, 0 foreign | — |
+| D7 Basis declaration | GAP | 8/10 populated cells declare a basis token | 2 populated cell(s) lack a basis token: iAs, U |
+| D8 Provenance integrity | OK | 4 claims checked, 4 supported; 8 citations, 0 orphan, 0 foreign | — |
 | D9 Mitigation | GAP | 0 cited lever(s), 4 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, tAs, tHg, Ni, Al, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.75, scale 0.25 | spread 0.75 — starved: contamination-reduction |
+| D10 Regulatory coverage | OK | 3 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, tAs, tHg, Ni, Al, Cr, Sn |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr, Sn; pairing 0 paired, 8 single, 0 unpaired | tAs: THIN; tHg: THIN, needs 1 more study(ies); Al: THIN; Cr: THIN; Sn: THIN, needs 2 more study(ies); basis: 2 populated cell(s) lack a basis token: iAs, U; consumption tier unset (depth bar uncheckable) |
+| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.75, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
 
@@ -62,15 +63,15 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 10–130 | 370 | low | — |
-| Cd | n=2 | 20–80 | 100 | low | — |
+| Pb | n=8 | 130–640 | 2500 | medium | [[sources/ziyaina2014-libya-spices-lead-cadmium\|1]], [[sources/sabri2025-moroccan-spices-casablanca-metals\|2]], [[sources/tinggi2025-spices-herbs-queensland\|3]] |
+| Cd | n=6 | 27–200 | 390 | medium | [[sources/ziyaina2014-libya-spices-lead-cadmium\|1]], [[sources/mercan-yucel2022-van-spices-heavy-metals\|2]], [[sources/sabri2025-moroccan-spices-casablanca-metals\|3]] |
 | iAs | data gap | — | — | — | — |
-| tAs | n=2 | 50–200 | 1700 | low | — |
-| tHg | n=2 | 1–10 | 60 | low | — |
-| Ni | n=2 | 850–2080 | 4800 | low | — |
-| Al | n=2 | 10000–60000 | 178000 | low | — |
-| Cr | n=2 | 100–600 | 2400 | low | — |
-| Sn | data gap | — | — | — | — |
+| tAs | n=4 | 33–200 | 1700 | low | [[sources/sabri2025-moroccan-spices-casablanca-metals\|1]], [[sources/tinggi2025-spices-herbs-queensland\|2]], [[sources/ammar2023-element-migration-aluminum-cookware\|3]] |
+| tHg | n=2 | up to 17 | 17 | low | [[sources/tinggi2025-spices-herbs-queensland\|1]], [[sources/matloob2016-iraq-spices-heavy-metals\|2]] |
+| Ni | n=4 | 1700–4900 | 5100 | medium | [[sources/mercan-yucel2022-van-spices-heavy-metals\|1]], [[sources/matloob2016-iraq-spices-heavy-metals\|2]], [[sources/tinggi2025-spices-herbs-queensland\|3]] |
+| Al | n=4 | 110000–210000 | 540000 | low | [[sources/mercan-yucel2022-van-spices-heavy-metals\|1]], [[sources/tinggi2025-spices-herbs-queensland\|2]], [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]] |
+| Cr | n=3 | 800–2300 | 6600 | low | [[sources/sabri2025-moroccan-spices-casablanca-metals\|1]], [[sources/matloob2016-iraq-spices-heavy-metals\|2]], [[sources/tinggi2025-spices-herbs-queensland\|3]] |
+| Sn | n=1 | up to 1200 | 1200 | low | [[sources/cicero2022-minerals-spices-aromatic-herbs\|1]] |
 | U | data gap | — | — | — | — |
 
 <!-- BEGIN: hmi-source-legend -->
@@ -96,15 +97,17 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-Black pepper (Piper nigrum) accumulates lead, cadmium, and chromium through two distinct pathways. Soil-uptake delivers cadmium and lead in proportion to soil-Cd and soil-Pb in the growing region; black pepper is grown predominantly in South and Southeast Asia (India, Indonesia, Vietnam, Sri Lanka, Brazil), and several major production zones have elevated soil-Cd legacies from prior agricultural practice. Post-harvest contamination is the second pathway and the more variable contributor: drying on bare ground without barrier protection, equipment metal contact during grinding, and storage-bag contamination all introduce Pb that the corn did not carry as harvested. Black pepper has been less affected than turmeric by the documented intentional adulteration with lead chromate or lead oxide pigments, but the post-harvest contamination pathway remains the dominant source of pepper Pb above baseline.
+Black pepper (Piper nigrum) accumulates heavy metals through two distinct pathways. Soil uptake delivers cadmium, nickel, and chromium in proportion to their availability in the growing-region soil; black pepper is grown predominantly in South and Southeast Asia (India, Indonesia, Vietnam, Sri Lanka) and Brazil, and several major production zones carry elevated soil-metal legacies from prior agricultural practice. The high nickel and chromium concentrations that recur across the corpus[^tinggi2025][^matloob2016][^sabri2025] are consistent with root uptake from these soils rather than with post-harvest introduction. Post-harvest contamination is the second pathway and the more variable contributor to lead: drying on bare ground without barrier protection, equipment metal contact during grinding, and storage-bag contamination all introduce lead that the berry did not carry as harvested. The widest single driver of between-sample lead variation in the corpus is market segment — unpackaged spice sold loose from open containers[^mercan2022] carries far more lead than packaged retail product,[^tinggi2025] a gap of more than an order of magnitude. Black pepper has been less affected than turmeric by the documented intentional adulteration with lead chromate or lead oxide pigments, but the post-harvest pathway remains the dominant source of pepper lead above its agronomic baseline.
 
-The HMTc panel concerns are dominantly Pb and Cr, with Cd as secondary. Total arsenic in pepper can be elevated in some production regions per [[sources/cicero2022-minerals-spices-aromatic-herbs|Cicero 2022]] and [[sources/tinggi2025-spices-herbs-queensland|Tinggi 2025]]; the iAs/tAs split is not consistently reported in the corpus for pepper.
+The HMTc panel concerns for black pepper are lead, cadmium, chromium, and nickel, each quantified at non-trivial concentrations across multiple sources. Two analyte-specification caveats bound the synthesis and must be read with the numbers. First, every contributing source reports total arsenic only; none speciates inorganic arsenic, so the arsenic row is total arsenic (tAs) and the toxicologically governing inorganic-arsenic (iAs) fraction for pepper is a genuine data gap, not a measured low value.[^sabri2025][^tinggi2025] Second, chromium is reported as total chromium with no Cr(VI) fraction resolved. Mercury evidence is thin and internally contradictory: the one A-tier ICP-MS survey finds black-pepper total mercury at or below its limit of reporting (most samples under 0.005 mg/kg, maximum 0.017 mg/kg),[^tinggi2025] while a single older stripping-voltammetry study reports 0.31 mg/kg,[^matloob2016] roughly eighteen times higher. The ICP-MS value is weighted as the reliable estimate and the voltammetry figure is flagged as a method-driven outlier, not pooled into the central value.
 
 ## Ranges by source, region, and variety
 
-The contributing corpus is small (n=2 A-tier sources). Cicero 2022 reports Italian-market pepper Pb and Cd in the same survey alongside other aromatic herbs and spices; Tinggi 2025 reports Queensland-Australia retail-market pepper sampled with a broader spice survey. Across the two sources, Pb means cluster in the 10-130 ppb range with p95 around 370 ppb, Cd means cluster in the 20-80 ppb range with p95 around 100 ppb, and Cr means run higher than Cd, consistent with the equipment-contact and post-harvest contamination pathway. Geographic variation by origin region is documented in the broader spice corpus but not yet resolved at black-pepper-specific scale; expanding the source corpus to include India-origin and Vietnam-origin pepper specifically would tighten the geographic-segmented sourcing analysis.
+The black-pepper-specific corpus comprises eight sources reporting quantified per-analyte values: Sabri 2025 (Morocco-market, n=25),[^sabri2025] Tinggi 2025 (Queensland retail, n=13, A-tier ICP-MS),[^tinggi2025] Ziyaina 2014 (Libya-market imported spice, n=60),[^ziyaina2014] Mercan 2022 (Van Province unpackaged, n=20),[^mercan2022] Matloob 2016 (Iraq-market, n=5),[^matloob2016] Ammar 2023 (intrinsic pre-cooking baseline, n=3),[^ammar2023] Savić 2019 (Serbia-market, single sample),[^savic2019] and Cicero 2022 (single Vietnam-origin sample).[^cicero2022] All report on a dry-weight basis. Values are pooled by taking the interquartile band of the per-source means as the typical range and the highest reported value (sample maximum where available, otherwise the highest source mean) as the p95 proxy; below-detection results are excluded from central tendency rather than entered as zero, so the profile is not pulled down by censored nondetects.
 
-Variety effects (black vs white vs green pepper, prepared from the same Piper nigrum berry at different ripeness and processing stages) are documented qualitatively: white pepper, prepared by removing the outer skin, can carry slightly less Pb than black pepper from the same source when post-harvest contamination was on the surface, because the soak-and-strip processing removes the skin where surface deposition concentrates.
+Lead spans more than two orders of magnitude across the corpus, from 8 ppb in a single clean Vietnam-origin sample[^cicero2022] to a 2,470 ppb mean in unpackaged Van Province spice.[^mercan2022] The central band sits at roughly 130–640 ppb (median ~300), with the large Libyan survey at ~775 ppb (n=60)[^ziyaina2014] and the Moroccan survey at 600 ppb (n=25)[^sabri2025] anchoring the upper-typical, and the high tail reaching ~2,500 ppb in loose-sold product. This is materially higher than the two-source estimate the page previously carried (10–130 ppb), which had sampled only the cleanest packaged-retail end of the distribution. Cadmium runs 27–200 ppb typical (p95 ~390 ppb),[^ziyaina2014][^mercan2022] nickel 1,700–4,900 ppb (p95 ~5,100 ppb) — among the highest nickel loads of any commodity in the Queensland survey[^tinggi2025][^matloob2016][^mercan2022] — total chromium 800–2,300 ppb (p95 ~6,600 ppb),[^sabri2025][^matloob2016] and aluminium 110,000–210,000 ppb (p95 ~540,000 ppb).[^tinggi2025][^mercan2022] Total arsenic is 33–200 ppb typical but strongly right-skewed, with one Queensland sample at 1,700 ppb driving the upper tail.[^tinggi2025] Tin rests on a single Vietnam sample (~1,170 ppb)[^cicero2022] and is carried as preliminary; uranium and inorganic arsenic are unmeasured in the black-pepper corpus.
+
+Geographic and market-segment structure dominates variety structure: origin region (soil-metal legacy) and market segment (packaged retail versus loose, unpackaged street sale) explain more of the between-sample variance than the black-versus-white-versus-green distinction does. White pepper, prepared by removing the outer skin, can carry slightly less surface-deposited lead than black pepper from the same lot, because the soak-and-strip processing removes the skin where post-harvest deposition concentrates; this is a within-lot processing effect, smaller in magnitude than the origin and market-segment effects.
 
 ## Processing effects
 
@@ -130,10 +133,25 @@ Pepper essential oil and pepper oleoresin are derivatives used in flavor and die
 
 ## Regulatory limits that apply
 
+Where the synthesized distribution can be read against the binding ceiling, a non-trivial share of the global-market black-pepper supply sits at or above it. Sabri 2025 reports the Moroccan-market lead mean (600 ppb) exactly at the EU fruit-spice lead maximum,[^sabri2025] and the Libyan-market and unpackaged Van Province means exceed it.[^ziyaina2014][^mercan2022] The exceedances concentrate in loose, unpackaged, and imported-from-high-legacy-region product rather than in packaged retail spice.
+
 - [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb in spices including pepper (the spice-specific Pb ML applies).
 - Codex Alimentarius standards for spices and culinary herbs (CXS 327-2017) set quality and composition specifications but defer heavy-metal MLs to national authorities.
 - FDA does not maintain a binding action level for Pb in pepper specifically; FDA's guidance on heavy metals in spices ([[regulations/fda-guidance-heavy-metals-spices]] when added) anchors the US framing.
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to pepper-containing consumer products sold in California; the serving-based screen drives most enforcement attention.
+
+## References
+
+The numbered citations above correspond to the contributing sources below; each links to its full source page, where the per-analyte values and any transcription caveats are recorded.
+
+[^sabri2025]: Sabri et al. 2025. *Essential and Toxic Element Profiles in Selected Spices from Greater Casablanca, Morocco*. World's Veterinary Journal 15(4):863–881. [[sources/sabri2025-moroccan-spices-casablanca-metals|source page]].
+[^tinggi2025]: Tinggi et al. 2025. *Heavy metal analysis in commercial spices and herbs by ICP-MS and estimated dietary exposure*. Journal of Environmental Exposure Assessment. [[sources/tinggi2025-spices-herbs-queensland|source page]].
+[^ammar2023]: Ammar et al. 2023. *Investigation of Element Migration from Aluminum Cooking Pots Using ICP-MS* (Table 5 intrinsic-ingredient baseline). Applied Sciences (MDPI). [[sources/ammar2023-element-migration-aluminum-cookware|source page]].
+[^cicero2022]: Cicero et al. 2022. *Mineral and Microbiological Analysis of Spices and Aromatic Herbs*. Foods. [[sources/cicero2022-minerals-spices-aromatic-herbs|source page]].
+[^mercan2022]: Mercan 2022. *Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment*. Balıkesir Health Sciences Journal. [[sources/mercan-yucel2022-van-spices-heavy-metals|source page]].
+[^savic2019]: Savić et al. 2019. *Determination of the mineral content of spices by ICP-OES*. Advanced Technologies. [[sources/savic2019-serbian-spices-minerals|source page]].
+[^matloob2016]: Matloob 2016. *Using Stripping Voltammetry to Determine Heavy Metals in Cooking Spices Used in Iraq*. Polish Journal of Environmental Studies. [[sources/matloob2016-iraq-spices-heavy-metals|source page]].
+[^ziyaina2014]: Ziyaina et al. 2014. *Lead and cadmium residue determination in spices available in Tripoli City markets (Libya)*. African Journal of Biochemistry Research. [[sources/ziyaina2014-libya-spices-lead-cadmium|source page]].
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
