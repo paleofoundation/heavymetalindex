@@ -1,0 +1,24 @@
+# CORPUS INVENTORY COVERAGE PASS - 0 newly queued
+
+- Records scanned this run: 16473
+- Cumulative totals: {"total_inventory":16473,"ingested":2215,"duplicate":1433,"queued_rescreen":9697,"queued_deep_ingest":153,"wikibiome":45,"needs_ocr":2,"genuinely_out":77,"corrupt_error":46,"missing_source":2805,"unknown_unaccounted":0}
+- Newly queued re-screen candidates: 0
+- Unknown/unaccounted count: 0
+- Missing-source count: 2805
+- Needs-OCR count: 2
+- Source families covered:
+- digest: 45
+- other: 735
+- reports: 48
+- auto-fetched: 1100
+- manual-fetch-kimi: 4290
+- papers-cube-manual-fetch: 57
+- manual-resourcing: 1
+- manual-fetch-discovery: 69
+- no-path: 9699
+- raw-markdown: 429
+- Cursor progress: raw/markdown present=false; processed=0; remaining=0; last=n/a
+- Top risk patterns:
+  - Raw corpus is not mounted in this checkout; most ledger-only paths resolve as missing-source unless represented by wiki source pages.
+  - Large missing-source count means preserved-path accountability depends on source pages and queue ledgers rather than on-disk raw artifacts.
+- Coverage complete: no
