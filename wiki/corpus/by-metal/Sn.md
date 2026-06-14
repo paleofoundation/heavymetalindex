@@ -78,7 +78,7 @@ sources: 0
 - **FM_10883532** (2024) — Chemical characterization of baby food consumed in Italy — [[sources/meli2024-chemical-characterization-baby-food-italy]]
 - **FM_9650290** (2022) — Comparison of nutritional composition between plant-based drinks and cow's milk
 - **FM_2072823** (1983) — Time to Re-evaluate the Guideline Value for Manganese in Drinking Water?
-- **FM_11111292** (n.d.) — RESEARCH ARTICLE — [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet]]
+- **FM_11111292** (n.d.) — RESEARCH ARTICLE — [[sources/tatsuta2024-mehg-duplicate-diet-children-japan]]
 - **FM_12174183** (n.d.) — Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers
 - **FM_6830775** (2019) — Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations
 - **FM_12451096** (2004) — Plant-Based Analogs: Potential Chemical Risks & Mitigation Strategies

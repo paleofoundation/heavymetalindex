@@ -6,8 +6,8 @@ aliases: []
 category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-05-28
-provisional_reason: "heal-gaps: routing_unresolved entry from source keywords2019-appropriateness-essentials-trace-metals declared ingredient/milk-based-infant-formula, no close-slug match"
-provisional_source: "[[sources/keywords2019-appropriateness-essentials-trace-metals]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source igweze2019-trace-metals-infant-formula-nigeria declared ingredient/milk-based-infant-formula, no close-slug match"
+provisional_source: "[[sources/igweze2019-trace-metals-infant-formula-nigeria]]"
 contamination_profile:
   Pb:
     status: pending
@@ -118,9 +118,9 @@ _Not yet characterized — scorecard activates at 2 contributing A-tier sources.
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-28 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source keywords2019-appropriateness-essentials-trace-metals declared ingredient/milk-based-infant-formula, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source igweze2019-trace-metals-infant-formula-nigeria declared ingredient/milk-based-infant-formula, no close-slug match
 >
-> **Triggering source:** [[sources/keywords2019-appropriateness-essentials-trace-metals]]
+> **Triggering source:** [[sources/igweze2019-trace-metals-infant-formula-nigeria]]
 
 ## Literature scope
 

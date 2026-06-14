@@ -30,7 +30,7 @@ sources: 0
 - **FM_9407326** (2020) — 4.3. Risk Assessment of the Exposure of Lebanese Infants to Aluminum from Infant Formulas and Complementary Foods. Metals: Pb, Cd, tAs, tHg, Al, Cr, Sn
 - **FM_9965120** (2023) — Characterization and Quantification of Arsenic Species in Foodstuffs of Plant Origin by HPLC/ICP-MS. Metals: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U
 - **FM_12524768** (2021) — Zinc-Mediated Defenses Against Toxic Heavy Metals and Metalloids: Mechanisms, Immunomodulation, and Therapeutic Relevance. Metals: Pb, Cd, iAs, tAs, tHg, MeHg, Ni, Al, Cr, Sn, U
-- **FM_11111292** (n.d.) — RESEARCH ARTICLE. Metals: Pb, Cd, iAs, tAs, tHg, MeHg, Al, Sn, U — [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet]]
+- **FM_11111292** (n.d.) — RESEARCH ARTICLE. Metals: Pb, Cd, iAs, tAs, tHg, MeHg, Al, Sn, U — [[sources/tatsuta2024-mehg-duplicate-diet-children-japan]]
 - **FM_8066597** (2021) — Evaluation and Dietary Exposure Assessment of Selected Toxic Trace Elements in Durum Wheat (Triticum durum) Imported into the Italian Market: Six Years of Official Controls. Metals: Pb, Cd, tAs, tHg, MeHg, Ni, Al, Cr, Sn, U
 - **FM_11673565** (2024) — Effects of different processing methods on the functional, nutritional, and physicochemical profiles of cowpea leaf powder. Metals: Pb, Cd, iAs, tAs, tHg, Ni, Al, Sn
 - **FM_5059550** (2016) — Research Article. Metals: Pb, Cd, iAs, tAs, tHg, Al, Cr, Sn, U

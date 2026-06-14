@@ -37,7 +37,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
-| 2 | [[sources/infant2018-research\|Eticha et al. 2018]]. *Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia*, Hindawi International Journal of Analytical Chemistry | 2018 | Peer-reviewed | ET Pb, Cd occurrence in Five milk-based infant formula brands from Mekelle, Ethiopia for infants 6–12 months old (n=5) |
+| 2 | [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|Eticha et al. 2018]]. *Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia*, Hindawi International Journal of Analytical Chemistry | 2018 | Peer-reviewed | ET Pb, Cd occurrence in Five milk-based infant formula brands from Mekelle, Ethiopia for infants 6–12 months old (n=5) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for
@@ -75,7 +75,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 ## Source Evidence Inventory
 
-[[sources/infant2018-research]] provides direct Pb and Cd evidence for five milk-based infant formula powders sold in Mekelle, Ethiopia for infants 6-12 months old. Cd was not detected, while Pb ranged from not detected to 0.103 mg/kg, with the source reporting estimated intakes below its cited tolerable-intake comparators.
+[[sources/eticha2018-infant-formula-metals-mekelle-ethiopia]] provides direct Pb and Cd evidence for five milk-based infant formula powders sold in Mekelle, Ethiopia for infants 6-12 months old. Cd was not detected, while Pb ranged from not detected to 0.103 mg/kg, with the source reporting estimated intakes below its cited tolerable-intake comparators.
 
 [[sources/editor2019-manganese-levels-infant-formula]] contributes Mn context across infant formula powders, ready-to-feed formulas, and child nutritional beverages in US and French markets. Its contribution here is product-form context for Mn, not evidence for Pb, Cd, arsenic, mercury, Ni, Al, Cr(VI), or Sn.
 

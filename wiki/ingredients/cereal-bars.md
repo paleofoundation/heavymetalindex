@@ -6,8 +6,8 @@ aliases: []
 category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-05-20
-provisional_reason: "heal-gaps: routing_unresolved entry from source arsenic2012-arsenic-organic-foods-brown declared ingredient/cereal-bars, no close-slug match"
-provisional_source: "[[sources/arsenic2012-arsenic-organic-foods-brown]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source jackson2012-arsenic-organic-foods-brown-rice-syrup declared ingredient/cereal-bars, no close-slug match"
+provisional_source: "[[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]]"
 contamination_profile:
   Pb:
     status: pending
@@ -118,9 +118,9 @@ _Not yet characterized — scorecard activates at 2 contributing A-tier sources.
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-20 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source arsenic2012-arsenic-organic-foods-brown declared ingredient/cereal-bars, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source jackson2012-arsenic-organic-foods-brown-rice-syrup declared ingredient/cereal-bars, no close-slug match
 >
-> **Triggering source:** [[sources/arsenic2012-arsenic-organic-foods-brown]]
+> **Triggering source:** [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]]
 
 ## Literature scope
 
@@ -134,7 +134,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/hidalgo2015-gluten-free-cereal-bars-argentina\|Hidalgo et al. 2015]]. *Toxic Trace Element Contents in Gluten-free Cereal Bars Marketed in Argentina*, International Journal of Celiac Disease 3(1):12-16 | 2015 | Peer-reviewed | AR tAs, Cd, Pb occurrence in Seventy-two commercial gluten-free cereal bars marketed in Argentina, grouped by flavor/main formulation into apple, blueberry, chocolate, coconut, honey,... (n=72) |
-| 2 | [[sources/arsenic2012-arsenic-organic-foods-brown\|Arsenic 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US/EU iAs, tAs, DMA, MMA, Al, U concentrations (n=200) |
+| 2 | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\|Arsenic 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US/EU iAs, tAs, DMA, MMA, Al, U concentrations (n=200) |
 <!-- END: hmi-source-legend -->
 
 ## Page history

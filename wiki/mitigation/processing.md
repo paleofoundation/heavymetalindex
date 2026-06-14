@@ -18,7 +18,7 @@ Processing interventions are commercially relevant for HMT&C certification becau
 
 ## Intervention sub-classes
 
-Milling and polishing physically remove the bran and germ layers from cereals, where many metals concentrate. For rice specifically, polishing reduces both inorganic arsenic and cadmium content in the finished white grain by substantial fractions because the bran is the primary site of accumulation; the trade-off is the simultaneous loss of nutrients (fiber, magnesium, B vitamins, manganese, selenium, antioxidants, and certain phytochemicals) that the bran also carries. The trade-off is the subject of [[sources/su-2023-arsenic-brown-rice|Su et al. 2023]] for the brown-rice-versus-white-rice case.
+Milling and polishing physically remove the bran and germ layers from cereals, where many metals concentrate. For rice specifically, polishing reduces both inorganic arsenic and cadmium content in the finished white grain by substantial fractions because the bran is the primary site of accumulation; the trade-off is the simultaneous loss of nutrients (fiber, magnesium, B vitamins, manganese, selenium, antioxidants, and certain phytochemicals) that the bran also carries. The trade-off is the subject of [[sources/su2023-arsenic-brown-rice-benefits-risks|Su et al. 2023]] for the brown-rice-versus-white-rice case.
 
 Parboiling is the partial pre-cooking of rice in the husk, which redistributes metals between bran and endosperm. The literature on parboiling and inorganic arsenic in rice is extensive and includes both reduction-claiming and no-effect studies depending on the parboiling protocol; specific reduction percentages and protocol-dependent variation will be source-populated when the primary literature is promoted.
 
@@ -30,7 +30,7 @@ Cooking method effects (boiling versus steaming, cooking-water discard versus no
 
 ## Metal-specific applications
 
-Inorganic arsenic in rice is the processing-mitigation domain with the most-developed evidence base. Polishing, multi-water rinsing, and cooking-water discard are documented as substantial reductions of inorganic arsenic in finished consumed rice; the combined effect is documented in primary literature and in [[sources/su-2023-arsenic-brown-rice|Su et al. 2023]].
+Inorganic arsenic in rice is the processing-mitigation domain with the most-developed evidence base. Polishing, multi-water rinsing, and cooking-water discard are documented as substantial reductions of inorganic arsenic in finished consumed rice; the combined effect is documented in primary literature and in [[sources/su2023-arsenic-brown-rice-benefits-risks|Su et al. 2023]].
 
 Cadmium in rice is partially addressable by polishing (since cadmium also concentrates in the bran) but the reduction is smaller than for inorganic arsenic and the trade-off with nutrient loss is the same.
 
@@ -59,4 +59,4 @@ Specific primary studies in the corpus that should be promoted to populate this 
 - [[mitigation/supply-chain-screening|Supply-chain screening]] — sourcing-side interventions that decide which post-harvest processing regimes are applicable.
 - [[mitigation/formulation|Formulation mitigation]] — recipe-level interventions that follow processing.
 - [[ingredients/rice|Rice]], [[ingredients/cocoa|Cocoa]] — the highest-salience commodities for processing mitigation.
-- [[sources/su-2023-arsenic-brown-rice|Su et al. 2023]] — brown-rice-versus-white-rice nutrient-versus-contaminant trade-off.
+- [[sources/su2023-arsenic-brown-rice-benefits-risks|Su et al. 2023]] — brown-rice-versus-white-rice nutrient-versus-contaminant trade-off.

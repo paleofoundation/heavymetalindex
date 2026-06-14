@@ -6,8 +6,8 @@ hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
 provisional_created: 2026-05-19
-provisional_reason: "heal-gaps: routing_unresolved entry from source concentration2023-concentration-essential-toxic-rare declared product/infant-food-puree-fish, no close-slug match"
-provisional_source: "[[sources/concentration2023-concentration-essential-toxic-rare]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source henriquez-hernandez2023-baby-purees-spain-elements declared product/infant-food-puree-fish, no close-slug match"
+provisional_source: "[[sources/henriquez-hernandez2023-baby-purees-spain-elements]]"
 primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
@@ -21,9 +21,9 @@ updated: 2026-05-19
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-19 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source concentration2023-concentration-essential-toxic-rare declared product/infant-food-puree-fish, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source henriquez-hernandez2023-baby-purees-spain-elements declared product/infant-food-puree-fish, no close-slug match
 >
-> **Triggering source:** [[sources/concentration2023-concentration-essential-toxic-rare]]
+> **Triggering source:** [[sources/henriquez-hernandez2023-baby-purees-spain-elements]]
 
 ## Literature scope
 
@@ -36,7 +36,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/concentration2023-concentration-essential-toxic-rare\|source) 2023]]. *Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market*, Nutrients | 2023 | Journal article | Cited reference from Nutrients |
+| 1 | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|source) 2023]]. *Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market*, Nutrients | 2023 | Journal article | Cited reference from Nutrients |
 <!-- END: hmi-source-legend -->
 
 ## Page history
