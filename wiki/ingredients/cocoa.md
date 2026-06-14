@@ -121,18 +121,18 @@ Cocoa is identified by [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as th
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=11 | 30–110 | 380 | high | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/codex-cccf17-2024\|3]] |
-| Cd | n=32 | 200–990 | 3150 | high | [[sources/jaramillo-mazo2026-cacao-cd-bacteria\|1]], [[sources/vega-jara2025-cocoa-cd-mitigation-amf-biochar\|2]], [[sources/garciaporras2025-cadmium-cacao-farmland\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=6 | 50–100 | — | medium | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/codex-cccf17-2024\|3]] |
-| tHg | n=4 | 10–35 | — | medium | [[sources/codex-cccf17-2024\|1]], [[sources/mancuso2024-food-contamination-cvd\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
-| Ni | n=8 | 8200–12000 | — | medium | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]], [[sources/bfr2022-nickel-dietary-intake-germany-meal\|2]], [[sources/efsa-nickel-contam-2020\|3]] |
-| Al | n=5 | 5000–10000 | — | medium | [[sources/efsa2021-aluminium-food-qa\|1]], [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\|2]], [[sources/fechner2019-cocoa-origin-al-cd-exposure\|3]] |
-| Cr | data gap | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=11 | 30–110 | high | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/codex-cccf17-2024\|3]] |
+| Cd | n=32 | 200–990 | high | [[sources/jaramillo-mazo2026-cacao-cd-bacteria\|1]], [[sources/vega-jara2025-cocoa-cd-mitigation-amf-biochar\|2]], [[sources/garciaporras2025-cadmium-cacao-farmland\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=6 | 50–100 | medium | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/codex-cccf17-2024\|3]] |
+| tHg | n=4 | 10–35 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/mancuso2024-food-contamination-cvd\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
+| Ni | n=8 | 8200–12000 | medium | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]], [[sources/bfr2022-nickel-dietary-intake-germany-meal\|2]], [[sources/efsa-nickel-contam-2020\|3]] |
+| Al | n=5 | 5000–10000 | medium | [[sources/efsa2021-aluminium-food-qa\|1]], [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\|2]], [[sources/fechner2019-cocoa-origin-al-cd-exposure\|3]] |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates cadmium
 

@@ -124,18 +124,18 @@ Tin (Sn) is a secondary contamination concern specific to canned apple juice, wh
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 0.3–2.5 | 2.6 | medium | [[sources/paudel2024-packaged-fruit-juices-nepal\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fda2018-lead-in-juice-fy2005-fy2018\|3]] |
-| Cd | n=3 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]] |
-| iAs | n=4 | 0–3.6 | 5.5 | medium | [[sources/fda2023-ias-apple-juice-guidance\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|3]] |
-| tAs | n=5 | 1.4–4 | 4.2 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|2]], [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\|3]] |
-| tHg | n=3 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=3 | 0–16 | 18 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]] |
-| Al | n=1 | 0–2560 | 2875 | low | — |
-| Cr | n=3 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]] |
-| Sn | n=4 | 0–8.9 | 9 | medium | [[sources/tarigan2016-factors-tin-released-canned-beverages\|1]], [[sources/atsdr2005-tin-toxicological-profile\|2]], [[sources/schafer1984-tin-toxic-heavy-metal-review\|3]] |
-| U | n=2 | 0 | 0 | low | [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|1]] |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 0.3–2.5 | medium | [[sources/paudel2024-packaged-fruit-juices-nepal\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fda2018-lead-in-juice-fy2005-fy2018\|3]] |
+| Cd | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]] |
+| iAs | n=4 | 0–3.6 | medium | [[sources/fda2023-ias-apple-juice-guidance\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|3]] |
+| tAs | n=5 | 1.4–4 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|2]], [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\|3]] |
+| tHg | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=3 | 0–16 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]] |
+| Al | n=1 | 0–2560 | low | — |
+| Cr | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]] |
+| Sn | n=4 | 0–8.9 | medium | [[sources/tarigan2016-factors-tin-released-canned-beverages\|1]], [[sources/atsdr2005-tin-toxicological-profile\|2]], [[sources/schafer1984-tin-toxic-heavy-metal-review\|3]] |
+| U | n=2 | 0 | low | [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|1]] |
 
 ## Routing
 
@@ -143,7 +143,7 @@ This node is linked from [[products/fruit-juice-not-canned]].
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -156,21 +156,21 @@ FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix 
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Juice, apple, bottled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Cr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 3 | 0 | 0 | 0 | 16 | 18 | 20 | in profile |
-| Pb | 3 | 0 | 0.3 | 1.5 | 2.46 | 2.58 | 2.7 | in profile |
-| U | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 3 | 1.1 | 1.36 | 2.4 | 4 | 4.2 | 4.4 | in profile |
-| tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 3 | 0 | 0 | in profile |
+| Cr | 3 | 0 | 0 | in profile |
+| Ni | 3 | 0 | 20 | in profile |
+| Pb | 3 | 0 | 2.7 | in profile |
+| U | 3 | 0 | 0 | in profile |
+| tAs | 3 | 1.1 | 4.4 | in profile |
+| tHg | 3 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA FY2018-FY2020 TDS data for bottled apple juice (TDS Food 99, n=3) show Pb with a p50 of 1.5 ppb and a maximum of 2.7 ppb, and tAs with a p50 of 2.4 ppb and a maximum of 4.4 ppb; Ni reached a maximum of 20 ppb in that small sample set ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The FDA FY2005-FY2011 compliance program covering 160 apple juice and concentrate samples provides a larger dataset with country-of-origin breakdown, showing variation by source country ([[sources/fda2011-arsenic-apple-juice-2005-2011|FDA 2011]]). The FY2005-FY2018 Pb dataset spanning 1,643 juice samples ([[sources/fda2018-lead-in-juice-fy2005-fy2018|FDA 2018]]) provides the most extensive US distribution data currently in the corpus. Country of origin for apple juice concentrate is a key variance driver: concentrate sourced from regions with documented orchard pesticide legacies or elevated soil arsenic can produce higher-arsenic juice than domestically concentrated US product. Specific per-country quantitative values will be populated when table extraction of these datasets is completed.
+The FDA FY2018-FY2020 TDS data for bottled apple juice (TDS Food 99, n=3) show Pb with a median of 1.5 ppb and a maximum of 2.7 ppb, and tAs with a median of 2.4 ppb and a maximum of 4.4 ppb; Ni reached a maximum of 20 ppb in that small sample set ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The FDA FY2005-FY2011 compliance program covering 160 apple juice and concentrate samples provides a larger dataset with country-of-origin breakdown, showing variation by source country ([[sources/fda2011-arsenic-apple-juice-2005-2011|FDA 2011]]). The FY2005-FY2018 Pb dataset spanning 1,643 juice samples ([[sources/fda2018-lead-in-juice-fy2005-fy2018|FDA 2018]]) provides the most extensive US distribution data currently in the corpus. Country of origin for apple juice concentrate is a key variance driver: concentrate sourced from regions with documented orchard pesticide legacies or elevated soil arsenic can produce higher-arsenic juice than domestically concentrated US product. Specific per-country quantitative values will be populated when table extraction of these datasets is completed.
 
 ## Processing effects
 

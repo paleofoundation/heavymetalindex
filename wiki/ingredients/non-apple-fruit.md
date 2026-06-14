@@ -17,21 +17,21 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 11.3]
     p95_ppb: 17.9
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   iAs:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tHg:
     status: populated
     typical_ppb: [0, 1.9]
     p95_ppb: 9.4
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Ni:
@@ -124,18 +124,18 @@ This is a broad category page covering non-apple fruits that cannot be attribute
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 0–13.4 | 15.6 | low | — |
-| Cd | n=1 | 0–11.3 | 17.9 | high | — |
-| iAs | n=1 | 0 | 0 | medium | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–1.9 | 9.4 | high | — |
-| Ni | data gap | — | — | — | — |
-| Al | n=1 | 0–3075 | 3918 | low | — |
-| Cr | data gap | — | — | — | — |
-| Sn | n=1 | 53.5–32000 | 32900 | low | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–13.4 | low | — |
+| Cd | n=1 | 0–11.3 | low | — |
+| iAs | n=1 | 0 | low | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–1.9 | low | — |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 0–3075 | low | — |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 53.5–32000 | low | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -143,7 +143,7 @@ This node is linked from [[products/fruit-juices-non-apple]].
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 

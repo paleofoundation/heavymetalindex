@@ -14,14 +14,14 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [1.2, 4.0]
     p95_ppb: 4.3
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -35,21 +35,21 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 6.2]
     p95_ppb: 8.1
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Ni:
     status: populated
     typical_ppb: [0, 168]
     p95_ppb: 254
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -63,7 +63,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Sn:
@@ -77,7 +77,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0.8
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -126,18 +126,18 @@ Winter squash (Cucurbita maxima and related cucurbit species, including butternu
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 1.2–4 | 4.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 0–6.2 | 8.1 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 0–168 | 254 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 0.8 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 1.2–4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0–6.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 0–168 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -149,7 +149,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -158,21 +158,21 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Squash, winter, fresh/frozen, boiled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 1.16 | 1.6 | 4.02 | 4.27 | 4.4 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | 0 | 168 | 254 | 480 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0.77 | 3.9 | in profile |
-| tAs | 27 | 0 | 0 | 0 | 6.18 | 8.05 | 17 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 4.4 | in profile |
+| Cr | 27 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 480 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 3.9 | in profile |
+| tAs | 27 | 0 | 17 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-Within the winter squash category, variation in heavy metal content is driven primarily by soil conditions at the growing site rather than by varietal differences among cucurbit species. Squash grown on soils with elevated Cd from historical phosphate fertilizer application or naturally elevated parent material can accumulate more Cd in fruit tissue than squash grown on low-Cd soils, though the absolute concentrations remain low relative to root vegetables or cereals on equivalent soils. In the FDA FY2018-FY2020 Total Diet Study, Cd in winter squash samples ranged from 0 to 4.4 ppb (p50 approximately 1.6 ppb, n=27), and total arsenic ranged from 0 to 17 ppb (p50 approximately 0 ppb, with the upper tail driven by individual composites) ([[sources/fda2022-tds-elements-fy2018-fy2020|1]]). These distributions reflect mixed US growing-region origins typical of retail composite sampling. Nickel showed the widest distribution among detectable analytes in that dataset, ranging from 0 to 480 ppb with a p90 of 168 ppb, suggesting that Ni in squash is episodic and origin-dependent. Variety-level data for Cd across butternut, acorn, and Hubbard types are not resolved in the current corpus.
+Within the winter squash category, variation in heavy metal content is driven primarily by soil conditions at the growing site rather than by varietal differences among cucurbit species. Squash grown on soils with elevated Cd from historical phosphate fertilizer application or naturally elevated parent material can accumulate more Cd in fruit tissue than squash grown on low-Cd soils, though the absolute concentrations remain low relative to root vegetables or cereals on equivalent soils. In the FDA FY2018-FY2020 Total Diet Study, Cd in winter squash samples ranged from 0 to 4.4 ppb (median approximately 1.6 ppb, n=27), and total arsenic ranged from 0 to 17 ppb with most samples at or below detection, the upper tail driven by individual composites ([[sources/fda2022-tds-elements-fy2018-fy2020|1]]). These distributions reflect mixed US growing-region origins typical of retail composite sampling. Nickel showed the widest distribution among detectable analytes in that dataset, ranging from 0 to 480 ppb, suggesting that Ni in squash is episodic and origin-dependent. Variety-level data for Cd across butternut, acorn, and Hubbard types are not resolved in the current corpus.
 
 ## Processing effects
 

@@ -35,21 +35,21 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 3.6]
     p95_ppb: 4.0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Ni:
     status: populated
     typical_ppb: [0, 59.8]
     p95_ppb: 67.7
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -63,7 +63,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Sn:
@@ -77,7 +77,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -126,18 +126,18 @@ Celery is a high-water-content stalk vegetable that draws metals into its petiol
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | 0 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]], [[sources/codex-cxs-193-1995\|3]] |
-| Cd | n=3 | 20–59.4 | 73.3 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]], [[sources/codex-cxs-193-1995\|3]] |
-| iAs | n=2 | 0–2 | 4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| tAs | n=2 | 0–3.6 | 4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]] |
-| tHg | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| Ni | n=2 | 0–59.8 | 67.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 0 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]], [[sources/codex-cxs-193-1995\|3]] |
+| Cd | n=3 | 20–59.4 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]], [[sources/codex-cxs-193-1995\|3]] |
+| iAs | n=2 | 0–2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| tAs | n=2 | 0–3.6 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| Ni | n=2 | 0–59.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -149,7 +149,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -158,21 +158,21 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Celery, raw" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 12 | 20 | 32 | 59.4 | 73.3 | 100 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 69 | in profile |
-| Ni | 27 | 0 | 0 | 0 | 59.8 | 67.7 | 71 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | 0 | 3.62 | 4.01 | 9 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 12 | 100 | in profile |
+| Cr | 27 | 0 | 69 | in profile |
+| Ni | 27 | 0 | 71 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 9 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA Total Diet Study FY2018-FY2020 is the primary quantitative reference for celery in the US market, reporting cadmium with a median of 32 ppb, 90th percentile of 59.4 ppb, and maximum of 100 ppb across 27 composite samples (wet weight, as consumed raw) [[sources/fda2022-tds-elements-fy2018-fy2020]]. Nickel was detected at the 90th percentile (59.8 ppb) but was below the reporting limit at the median, indicating right-skewed distribution. Total arsenic was detectable at the 90th percentile (3.62 ppb) and at a maximum of 9 ppb; lead and mercury were below reporting limits in all samples [[sources/fda2022-tds-elements-fy2018-fy2020]]. Celery cadmium is known to vary substantially with soil origin: irrigated production in arid regions using groundwater with elevated dissolved cadmium, and production on soils with elevated natural cadmium background or historical phosphate-fertiliser use, tends to produce higher concentrations. The Codex limit for celery cadmium (0.1 mg/kg, [[sources/codex-cxs-193-1995]]) is double the limit for most other fresh vegetables, which itself reflects empirical evidence that celery occupies a higher position in the cadmium accumulation spectrum than standard vegetable crops. Geographic and varietal breakdown for celery is not currently available in this corpus beyond the US TDS aggregate.
+The FDA Total Diet Study FY2018-FY2020 is the primary quantitative reference for celery in the US market, reporting cadmium with a median of 32 ppb and a maximum of 100 ppb across 27 composite samples (wet weight, as consumed raw) [[sources/fda2022-tds-elements-fy2018-fy2020]]. Nickel was detectable in some market samples but below the reporting limit at the median, indicating right-skewed distribution. Total arsenic was detectable in the upper part of the distribution, reaching a maximum of 9 ppb; lead and mercury were below reporting limits in all samples [[sources/fda2022-tds-elements-fy2018-fy2020]]. Celery cadmium is known to vary substantially with soil origin: irrigated production in arid regions using groundwater with elevated dissolved cadmium, and production on soils with elevated natural cadmium background or historical phosphate-fertiliser use, tends to produce higher concentrations. The Codex limit for celery cadmium (0.1 mg/kg, [[sources/codex-cxs-193-1995]]) is double the limit for most other fresh vegetables, which itself reflects empirical evidence that celery occupies a higher position in the cadmium accumulation spectrum than standard vegetable crops. Geographic and varietal breakdown for celery is not currently available in this corpus beyond the US TDS aggregate.
 
 ## Processing effects
 
@@ -212,7 +212,7 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 ## Regulatory limits that apply
 
-The Codex Alimentarius general standard CXS 193-1995 ([[regulations/codex-cadmium-mls]]) sets a cadmium maximum level of 0.1 mg/kg fresh weight specifically for celery (Apium graveolens), which is notably higher than the 0.050 mg/kg limit applied to most other fresh vegetables and reflects celery's status as a known cadmium accumulator [[sources/codex-cxs-193-1995]]. The EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) applies the general vegetable cadmium maximum of 0.050 mg/kg fresh weight to celery, and the general Pb maximum of 0.10 mg/kg fresh weight. No specific US FDA action level applies to lead or cadmium in fresh celery; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler foods rather than fresh vegetables. The FDA TDS median Cd (32 ppb) is 32% of the Codex celery-specific limit and 64% of the EU general vegetable limit, indicating that typical US market celery sits within regulatory bounds on average while individual samples at the 90th percentile (59.4 ppb) approach the EU threshold.
+The Codex Alimentarius general standard CXS 193-1995 ([[regulations/codex-cadmium-mls]]) sets a cadmium maximum level of 0.1 mg/kg fresh weight specifically for celery (Apium graveolens), which is notably higher than the 0.050 mg/kg limit applied to most other fresh vegetables and reflects celery's status as a known cadmium accumulator [[sources/codex-cxs-193-1995]]. The EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) applies the general vegetable cadmium maximum of 0.050 mg/kg fresh weight to celery, and the general Pb maximum of 0.10 mg/kg fresh weight. No specific US FDA action level applies to lead or cadmium in fresh celery; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler foods rather than fresh vegetables. The FDA TDS median Cd (32 ppb) is 32% of the Codex celery-specific limit and 64% of the EU general vegetable limit, indicating that typical US market celery sits within regulatory bounds on average while samples in the upper part of the distribution approach the EU threshold.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

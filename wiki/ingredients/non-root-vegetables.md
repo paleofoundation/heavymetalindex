@@ -24,14 +24,14 @@ contamination_profile:
     status: populated
     typical_ppb: [9.4, 125.3]
     p95_ppb: 150.2
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tHg:
     status: populated
     typical_ppb: [0, 0.2]
     p95_ppb: 2.7
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Ni:
@@ -124,18 +124,18 @@ This is a broad category page. Individual pages for specific vegetables carry mo
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | pending | — | — | — | — |
-| Cd | pending | — | — | — | — |
-| iAs | n=1 | 9.4–125.3 | 150.2 | medium | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–0.2 | 2.7 | medium | — |
-| Ni | data gap | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | data gap | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | pending | — | — | — |
+| Cd | pending | — | — | — |
+| iAs | n=1 | 9.4–125.3 | low | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–0.2 | low | — |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -143,7 +143,7 @@ This node is linked from [[products/non-root-vegetable-purees]], [[products/vege
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 

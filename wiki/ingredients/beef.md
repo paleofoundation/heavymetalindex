@@ -118,18 +118,18 @@ This is a structural ingredient node created so product pages can link to a real
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=7 | 3–100 | 700 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/altalib2025-frozen-meat-libya\|3]] |
-| Cd | n=7 | 1–30 | 100 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/altalib2025-frozen-meat-libya\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=3 | 2–10 | 50 | medium | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|1]], [[sources/mohamed2023-heavy-metals-beef-egypt\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| tHg | n=5 | 0–50 | 312 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|3]] |
-| Ni | n=3 | 50–200 | 15000 | medium | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|1]], [[sources/kasozi2021-uganda-beef-metals\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| Al | n=2 | 200–500 | 500 | low | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| Cr | n=4 | 10–50 | 83 | medium | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|2]], [[sources/kasozi2021-uganda-beef-metals\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 3–100 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/altalib2025-frozen-meat-libya\|3]] |
+| Cd | n=7 | 1–30 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/altalib2025-frozen-meat-libya\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=3 | 2–10 | medium | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|1]], [[sources/mohamed2023-heavy-metals-beef-egypt\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| tHg | n=5 | 0–50 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|3]] |
+| Ni | n=3 | 50–200 | medium | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|1]], [[sources/kasozi2021-uganda-beef-metals\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Al | n=2 | 200–500 | low | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| Cr | n=4 | 10–50 | medium | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|2]], [[sources/kasozi2021-uganda-beef-metals\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -137,7 +137,7 @@ This node is linked from [[products/meat-and-poultry-purees]].
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

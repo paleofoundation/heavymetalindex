@@ -125,18 +125,18 @@ The leafy vegetable contamination problem combines plant biology with siting and
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=13 | 10–600 | 1500 | high | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|3]] |
-| Cd | n=12 | 20–400 | 900 | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|3]] |
-| iAs | n=3 | 1–50 | — | low | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/cfs2012-hktds-inorganic-arsenic\|2]] |
-| tAs | n=7 | 5–200 | — | medium | [[sources/malone2024-community-garden-soils-us\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|3]] |
-| tHg | n=2 | 0–20 | — | low | [[sources/li2017-mercury-coal-power-plants-vegetables-grains\|1]], [[sources/khan2015-heavy-metals-food-plants-bioaccumulation\|2]] |
-| Ni | n=6 | 50–1500 | — | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/han2024-nickel-zhejiang-china\|2]], [[sources/ali2024-leek-microbial-metals-iraq\|3]] |
-| Al | n=4 | 4000–35000 | 45000 | medium | [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|1]], [[sources/khan2015-heavy-metals-food-plants-bioaccumulation\|2]], [[sources/cfs2013-hktds-metallic-contaminants\|3]] |
-| Cr | n=6 | 10–500 | — | low | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/sultana2022-dhaka-root-leafy-vegetables\|3]] |
-| Sn | n=2 | 0–40 | 210 | low | [[sources/ye2026-tin-foods-dietary-exposure-zhejiang\|1]], [[sources/cfs2013-hktds-metallic-contaminants\|2]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=13 | 10–600 | high | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|3]] |
+| Cd | n=12 | 20–400 | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|3]] |
+| iAs | n=3 | 1–50 | low | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/cfs2012-hktds-inorganic-arsenic\|2]] |
+| tAs | n=7 | 5–200 | medium | [[sources/malone2024-community-garden-soils-us\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|3]] |
+| tHg | n=2 | 0–20 | low | [[sources/li2017-mercury-coal-power-plants-vegetables-grains\|1]], [[sources/khan2015-heavy-metals-food-plants-bioaccumulation\|2]] |
+| Ni | n=6 | 50–1500 | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/han2024-nickel-zhejiang-china\|2]], [[sources/ali2024-leek-microbial-metals-iraq\|3]] |
+| Al | n=4 | 4000–35000 | medium | [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|1]], [[sources/khan2015-heavy-metals-food-plants-bioaccumulation\|2]], [[sources/cfs2013-hktds-metallic-contaminants\|3]] |
+| Cr | n=6 | 10–500 | low | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/sultana2022-dhaka-root-leafy-vegetables\|3]] |
+| Sn | n=2 | 0–40 | low | [[sources/ye2026-tin-foods-dietary-exposure-zhejiang\|1]], [[sources/cfs2013-hktds-metallic-contaminants\|2]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

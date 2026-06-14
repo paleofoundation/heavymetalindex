@@ -10,14 +10,14 @@ contamination_profile:
     status: populated
     typical_ppb: [50, 500]
     p95_ppb: 1500
-    confidence: high
+    confidence: medium
     n_studies: 4
     last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [1, 30]
     p95_ppb: null
-    confidence: medium
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-16
   iAs:
@@ -31,7 +31,7 @@ contamination_profile:
     status: populated
     typical_ppb: [20, 200]
     p95_ppb: 500
-    confidence: medium
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-16
   tHg:
@@ -125,18 +125,18 @@ Balsamic vinegar accumulates heavy metals through two principal pathways: the gr
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 50–500 | 1500 | high | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|1]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|3]] |
-| Cd | n=2 | 1–30 | — | medium | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 20–200 | 500 | medium | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|1]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]] |
-| tHg | data gap | — | — | — | — |
-| Ni | n=2 | 10–200 | — | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]] |
-| Al | n=2 | 50–500 | — | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|2]] |
-| Cr | n=2 | 10–100 | — | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 50–500 | medium | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|1]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|3]] |
+| Cd | n=2 | 1–30 | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 20–200 | low | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|1]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]] |
+| tHg | data gap | — | — | — |
+| Ni | n=2 | 10–200 | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]] |
+| Al | n=2 | 50–500 | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|2]] |
+| Cr | n=2 | 10–100 | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|2]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

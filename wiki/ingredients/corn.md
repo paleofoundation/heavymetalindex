@@ -77,7 +77,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -122,24 +122,24 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Maize (corn) accumulates cadmium through root uptake from soil, a mechanism that is modulated by soil pH, organic matter content, and the competing presence of zinc. In acidic soils or soils with elevated cadmium from phosphate fertilizer application, maize grain can carry detectable cadmium, though whole-grain corn is generally a lower Cd accumulator than leafy vegetables or root vegetables because the grain is a reproductive structure with some buffering against cadmium translocation from vegetative tissue. [[sources/romero-crespo2023-ecuador-mining-crops-metals]] documented substantially elevated cadmium, chromium, lead, and arsenic in maize grain grown near mining operations in Ecuador, where soil-to-plant transfer is driven by contaminated parent rock and tailings rather than agricultural inputs alone.
 
-Arsenic in corn is typically low: the FDA TDS FY2018-FY2020 data shows tAs at or near zero across all 27 composite samples for frozen boiled corn [[sources/fda2022-tds-elements-fy2018-fy2020]], consistent with the broader literature showing that corn does not concentrate arsenic the way flooded-paddy rice does. Nickel shows episodic elevation in the TDS corn data, with a p90 of 54.4 ppb and a maximum of 160 ppb, indicating that some market-basket composites captured nickel from soil or processing sources at levels notably higher than typical. Lead and mercury are essentially non-detectable in the TDS corn dataset.
+Arsenic in corn is typically low: the FDA TDS FY2018-FY2020 data shows tAs at or near zero across all 27 composite samples for frozen boiled corn [[sources/fda2022-tds-elements-fy2018-fy2020]], consistent with the broader literature showing that corn does not concentrate arsenic the way flooded-paddy rice does. Nickel shows episodic elevation in the TDS corn data, with a maximum of 160 ppb, indicating that some market-basket composites captured nickel from soil or processing sources at levels notably higher than typical. Lead and mercury are essentially non-detectable in the TDS corn dataset.
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=19 | 0 | 0 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
-| Cd | n=18 | 1.4–3.5 | 3.8 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hassan2025-cornflakes-lebanon-metals\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=13 | 0 | 0 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
-| tHg | n=8 | 0 | 0 | medium | [[sources/hassan2025-cornflakes-lebanon-metals\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
-| Ni | n=8 | 0–54.4 | 60.1 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abatemi-usman2023-corn-cement-nigeria\|3]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=15 | 0 | 0 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 0 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=19 | 0 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
+| Cd | n=18 | 1.4–3.5 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hassan2025-cornflakes-lebanon-metals\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=13 | 0 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
+| tHg | n=8 | 0 | medium | [[sources/hassan2025-cornflakes-lebanon-metals\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
+| Ni | n=8 | 0–54.4 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abatemi-usman2023-corn-cement-nigeria\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=15 | 0 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -151,7 +151,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -160,15 +160,15 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Corn, frozen, boiled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 1.36 | 2.6 | 3.54 | 3.81 | 4.8 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | 0 | 54.4 | 60.1 | 160 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 4.8 | in profile |
+| Cr | 27 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 160 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 0 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 

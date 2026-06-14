@@ -148,18 +148,18 @@ Non-soy formula carries a substantially different heavy-metal profile from [[ing
 
 The body-level analyte snapshot for non-soy formula follows the per-format pages: see [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-rtf-liquid-non-soy]] for the format-specific concentration tables. The non-soy profile is dominated by trace Pb (≈1-10 ppb) and trace iAs (≈3-8 ppb), with Cd and Hg at near-LOQ background.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 1–10 | — | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|4]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
-| Cd | n=4 | 0.5–5 | — | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|4]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
-| iAs | n=5 | 3–8 | — | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|8]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|7]], [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\|5]] |
-| tAs | n=7 | 3–9 | — | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|8]], [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|7]] |
-| tHg | n=3 | 0.1–2 | — | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
-| Ni | data gap | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | data gap | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 1–10 | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|4]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
+| Cd | n=4 | 0.5–5 | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|4]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
+| iAs | n=5 | 3–8 | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|8]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|7]], [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\|5]] |
+| tAs | n=7 | 3–9 | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|8]], [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|7]] |
+| tHg | n=3 | 0.1–2 | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

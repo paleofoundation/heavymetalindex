@@ -120,18 +120,18 @@ This page is the structural anchor for freshwater-specific fish evidence. The br
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=22 | 20–300 | 1000 | high | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/venant2025-lake-victoria-sardine-cd-pb\|3]] |
-| Cd | n=19 | 5–100 | 300 | high | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/venant2025-lake-victoria-sardine-cd-pb\|3]] |
-| iAs | n=6 | 1–20 | 50 | low | [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|3]] |
-| tAs | n=16 | 50–500 | 2000 | medium | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/paul2025-meghna-fish-arsenic\|2]], [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|3]] |
-| tHg | n=33 | 50–500 | 1500 | high | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/auzier-guimaraes2025-mercury-tapajos-fish\|2]], [[sources/wu2025-climate-meghan-freshwater-fish-china\|3]] |
-| Ni | n=10 | 50–400 | 800 | medium | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/naz2025-trace-elements-punjnad-fish\|2]], [[sources/han2024-nickel-zhejiang-china\|3]] |
-| Al | n=5 | 500–3000 | 6000 | low | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|2]], [[sources/kovacik2024-grass-carp-muscle-microelements\|3]] |
-| Cr | n=8 | 50–400 | 1000 | medium | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/aljufaili2024-garra-shamal-oman\|2]], [[sources/shaalan2024-nile-tilapia-heavy-metals-egypt\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=22 | 20–300 | high | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/venant2025-lake-victoria-sardine-cd-pb\|3]] |
+| Cd | n=19 | 5–100 | high | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/venant2025-lake-victoria-sardine-cd-pb\|3]] |
+| iAs | n=6 | 1–20 | low | [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|3]] |
+| tAs | n=16 | 50–500 | medium | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/paul2025-meghna-fish-arsenic\|2]], [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|3]] |
+| tHg | n=33 | 50–500 | high | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/auzier-guimaraes2025-mercury-tapajos-fish\|2]], [[sources/wu2025-climate-meghan-freshwater-fish-china\|3]] |
+| Ni | n=10 | 50–400 | medium | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/naz2025-trace-elements-punjnad-fish\|2]], [[sources/han2024-nickel-zhejiang-china\|3]] |
+| Al | n=5 | 500–3000 | low | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|2]], [[sources/kovacik2024-grass-carp-muscle-microelements\|3]] |
+| Cr | n=8 | 50–400 | medium | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/aljufaili2024-garra-shamal-oman\|2]], [[sources/shaalan2024-nile-tilapia-heavy-metals-egypt\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Climate-driven methylmercury trajectory
 

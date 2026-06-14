@@ -118,18 +118,18 @@ This is a structural ingredient node created so product pages can link to a real
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=11 | 10–80 | 200 | high | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/katebe2024-vegetables-lubumbashi\|3]] |
-| Cd | n=11 | 20–150 | 400 | high | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/katebe2024-vegetables-lubumbashi\|3]] |
-| iAs | n=4 | 5–30 | — | medium | [[sources/codex-cccf17-2024\|1]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|2]], [[sources/efsa-arsenic-contam-2009\|3]] |
-| tAs | n=6 | 10–80 | — | medium | [[sources/katebe2024-vegetables-lubumbashi\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/balbo2022-bread-contaminants-poland\|3]] |
-| tHg | n=5 | 1–10 | — | medium | [[sources/ibrahim2024-food-heavy-metals-nigeria\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
-| Ni | n=2 | 100–800 | — | low | [[sources/balbo2022-bread-contaminants-poland\|1]], [[sources/mania2020-nickel-cereal-grains-poland\|2]] |
-| Al | n=3 | 500–5000 | — | low | [[sources/balbo2022-bread-contaminants-poland\|1]] |
-| Cr | n=4 | 30–200 | — | medium | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/balbo2022-bread-contaminants-poland\|2]], [[sources/getu2022-heavy-metals-cereals-ethiopia\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=11 | 10–80 | high | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/katebe2024-vegetables-lubumbashi\|3]] |
+| Cd | n=11 | 20–150 | high | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/katebe2024-vegetables-lubumbashi\|3]] |
+| iAs | n=4 | 5–30 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|2]], [[sources/efsa-arsenic-contam-2009\|3]] |
+| tAs | n=6 | 10–80 | medium | [[sources/katebe2024-vegetables-lubumbashi\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/balbo2022-bread-contaminants-poland\|3]] |
+| tHg | n=5 | 1–10 | medium | [[sources/ibrahim2024-food-heavy-metals-nigeria\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
+| Ni | n=2 | 100–800 | low | [[sources/balbo2022-bread-contaminants-poland\|1]], [[sources/mania2020-nickel-cereal-grains-poland\|2]] |
+| Al | n=3 | 500–5000 | low | [[sources/balbo2022-bread-contaminants-poland\|1]] |
+| Cr | n=4 | 30–200 | medium | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/balbo2022-bread-contaminants-poland\|2]], [[sources/getu2022-heavy-metals-cereals-ethiopia\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -137,7 +137,7 @@ This node is linked from [[products/baby-cereals-dry-non-rice]], [[products/mixe
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -163,7 +163,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 15 | [[sources/usda-fas2023-china-gb-2762-2022-translation\|USDA 2023]]. *China Releases the Standard for Maximum Levels of Contaminants in Foods (USDA FAS GAIN Report CH2023-0040, unofficial translation of GB 2762-2022)*, USDA Foreign Agricultural Service, Global Agricultural Information Network (GAIN), Report Number CH2023-0040 | 2023 | Regulation | CN Pb, Cd, tHg, MeHg, tAs, iAs, Sn, Ni, Cr occurrence in null |
 | 16 | [[sources/balbo2022-bread-contaminants-poland\|Balbo et al. 2022]]. *Dietary exposure and risk characterisation of multiple chemical contaminants in rye-wheat bread marketed in Poland*, EFSA Journal | 2022 | Government report | EFSA EU-FORA report — Al, tAs, Cd, Cr, Pb, and Ni by ICP-MS (EN 15763:2009) in 51 rye-wheat refined-flour breads from Warsaw supermarkets; all below EU MLs but Al, Pb, and Ni exposures raised concern for toddlers and children |
 | 17 | [[sources/getu2022-heavy-metals-cereals-ethiopia\|Getu et al. 2022]]. *Determination of the Level of Heavy Metals in the Selected Cereals from Debre Markos Local Market, Amhara Region, Ethiopia*, International Journal of Analytical Chemistry | 2022 | Peer-reviewed | Pb, Cd, and Cr by MP-AES in four cereals (barley, tef, wheat, maize) from Debre Markos market, Ethiopia; Pb (e.g., barley 0.49 mg/kg) and Cd above FAO/WHO limits in all four cereals, linked to DAP/urea fertilizer use |
-| 18 | [[sources/mania2020-nickel-cereal-grains-poland\|Mania et al. 2020]]. *Assessment of exposure to nickel intake with selected cereal grains and cereal-based products*, Roczniki Panstwowego Zakladu Higieny (Annals of the National Institute of Hygiene) | 2020 | Peer-reviewed | Ni by GFAAS in 56 Polish-market cereal-grain and grain-based products (millet, rye, wheat, barley, pasta, flours, groats, flakes, bran); whole grains mean 1.16 mg/kg vs processed 0.61, 95th percentile 1.93 mg/kg, individual values up to 4.80 in millet |
+| 18 | [[sources/mania2020-nickel-cereal-grains-poland\|Mania et al. 2020]]. *Assessment of exposure to nickel intake with selected cereal grains and cereal-based products*, Roczniki Panstwowego Zakladu Higieny (Annals of the National Institute of Hygiene) | 2020 | Peer-reviewed | Ni by GFAAS in 56 Polish-market cereal-grain and grain-based products (millet, rye, wheat, barley, pasta, flours, groats, flakes, bran); whole grains mean 1.16 mg/kg vs processed 0.61, individual values up to 4.80 in millet |
 | 19 | [[sources/tatahmentan2020-rice-grains-elements\|TatahMentan et al. 2020]]. *Toxic and Essential Elements in Rice and Other Grains from the United States and Other Countries*, International Journal of Environmental Research and Public Health | 2020 | Peer-reviewed | US/CA/TH tAs, Pb, Cd, Cu, Fe, Mn, Zn occurrence in Rice and other grains purchased from local stores in Louisiana, USA: 28 white rice samples, 11 brown rice... |
 | 20 | [[sources/liang2019-beijing-foodstuffs-health-risk\|Liang et al. 2019]]. *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | Pb, Cd, Cr, tAs, and tHg in cereal group (wheat, non-rice grains, corn, rice) within 25 Beijing foodstuffs; Hg exceeded limits in millet, and cereals plus vegetables accounted for 91.5% of total dietary Cd intake |
 | 21 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports 8(1):7114 | 2018 | Peer-reviewed | Longitudinal biomarker study including non-rice mixed cereals and oat/barley-based infant foods as iAs/tAs exposure sources during weaning |

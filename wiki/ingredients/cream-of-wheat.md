@@ -122,24 +122,24 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Cream of wheat (farina) is a hot cereal made from the inner endosperm of durum or hard wheat, ground to a fine or medium granularity after the bran and germ have been removed. Because cadmium in wheat grain concentrates in the outer bran layers and the germ, this refined endosperm product carries substantially less cadmium than whole-wheat products such as whole-wheat flour or wheat bran. The refining step that defines farina is the principal reason this product sits at the lower end of wheat-derived metal risk.
 
-Uranium shows consistent low-level detectability in the FDA TDS FY2018-FY2020 data for cream of wheat (n=3, TDS Food 52), ranging from 2.7 to 5.5 ppb and with a p50 of 4.3 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]]. Uranium in grain products reflects geogenic uranium in the soil from which the wheat was grown; wheat does not hyperaccumulate uranium but does take up trace amounts from soil water. The uranium signal in this product is consistent with background dietary uranium intake from grain consumption generally and is not specific to cream of wheat. Total arsenic shows episodic low-level detection (one sample at 4.8 ppb tAs), consistent with background wheat arsenic levels rather than rice-level accumulation. Cadmium is low but consistently detectable (4.6 to 4.9 ppb), and lead, chromium, nickel, and mercury are all at zero across the three TDS composites.
+Uranium shows consistent low-level detectability in the FDA TDS FY2018-FY2020 data for cream of wheat (n=3, TDS Food 52), ranging from 2.7 to 5.5 ppb with a median of 4.3 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]]. Uranium in grain products reflects geogenic uranium in the soil from which the wheat was grown; wheat does not hyperaccumulate uranium but does take up trace amounts from soil water. The uranium signal in this product is consistent with background dietary uranium intake from grain consumption generally and is not specific to cream of wheat. Total arsenic shows episodic low-level detection (one sample at 4.8 ppb tAs), consistent with background wheat arsenic levels rather than rice-level accumulation. Cadmium is low but consistently detectable (4.6 to 4.9 ppb), and lead, chromium, nickel, and mercury are all at zero across the three TDS composites.
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 4.6–4.9 | 4.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 0–3.8 | 4.3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 3–5.3 | 5.4 | low | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 4.6–4.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0–3.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 3–5.3 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -151,7 +151,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -160,21 +160,21 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Cream of wheat (farina), enriched, cooked" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 3 | 4.6 | 4.62 | 4.7 | 4.86 | 4.88 | 4.9 | in profile |
-| Cr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Pb | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 3 | 2.7 | 3.02 | 4.3 | 5.26 | 5.38 | 5.5 | in profile |
-| tAs | 3 | 0 | 0 | 0 | 3.84 | 4.32 | 4.8 | in profile |
-| tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 3 | 4.6 | 4.9 | in profile |
+| Cr | 3 | 0 | 0 | in profile |
+| Ni | 3 | 0 | 0 | in profile |
+| Pb | 3 | 0 | 0 | in profile |
+| U | 3 | 2.7 | 5.5 | in profile |
+| tAs | 3 | 0 | 4.8 | in profile |
+| tHg | 3 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA TDS FY2018-FY2020 dataset is the only structured occurrence source for cream of wheat currently integrated into this corpus (n=3 composites representing the US commercial market basket) [[sources/fda2022-tds-elements-fy2018-fy2020]]. Cd ranges from 4.6 to 4.9 ppb (median 4.7 ppb), U from 2.7 to 5.5 ppb (p50 4.3 ppb), and tAs shows one detection at up to 4.8 ppb; all other analytes are at zero. The n=3 sample size is insufficient to characterize the upper tail of the distribution.
+The FDA TDS FY2018-FY2020 dataset is the only structured occurrence source for cream of wheat currently integrated into this corpus (n=3 composites representing the US commercial market basket) [[sources/fda2022-tds-elements-fy2018-fy2020]]. Cd ranges from 4.6 to 4.9 ppb (median 4.7 ppb), U from 2.7 to 5.5 ppb (median 4.3 ppb), and tAs shows one detection at up to 4.8 ppb; all other analytes are at zero. The n=3 sample size is insufficient to characterize the upper tail of the distribution.
 
 No peer-reviewed multi-region or multi-variety survey of heavy metals specifically in farina or cream of wheat is currently in this corpus. Wheat cadmium varies by growing region, soil type, and wheat variety, with some high-Cd soils (particularly in some European regions with elevated geogenic Cd or legacy phosphate application) producing wheat with higher Cd than US market averages. Uranium in wheat also varies geochemically with the uranium content of the source soils and irrigation water; regions with elevated groundwater uranium (parts of the western United States, South Asia) can produce grain with somewhat higher uranium content.
 

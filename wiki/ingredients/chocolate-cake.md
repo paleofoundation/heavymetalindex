@@ -14,14 +14,14 @@ contamination_profile:
     status: populated
     typical_ppb: [6.5, 12.4]
     p95_ppb: 13.7
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [11.8, 26]
     p95_ppb: 26.7
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -35,21 +35,21 @@ contamination_profile:
     status: populated
     typical_ppb: [3.2, 4.6]
     p95_ppb: 4.6
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
     typical_ppb: [0, 1.4]
     p95_ppb: 1.6
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Ni:
     status: populated
     typical_ppb: [452, 652]
     p95_ppb: 677
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -63,7 +63,7 @@ contamination_profile:
     status: populated
     typical_ppb: [200, 300]
     p95_ppb: 300
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Sn:
@@ -77,7 +77,7 @@ contamination_profile:
     status: populated
     typical_ppb: [1.2, 2.6]
     p95_ppb: 3.0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -126,18 +126,18 @@ Chocolate cake with chocolate icing is a highly composite baked product whose he
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 6.5–12.4 | 13.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 11.8–26 | 26.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 3.2–4.6 | 4.6 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0–1.4 | 1.6 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 452–652 | 677 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 200–300 | 300 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 1.2–2.6 | 3 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 6.5–12.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 11.8–26 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 3.2–4.6 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0–1.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 452–652 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 200–300 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 1.2–2.6 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -149,7 +149,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -158,21 +158,21 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Cake, chocolate with chocolate icing" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 10 | 11.8 | 15 | 26 | 26.7 | 40 | in profile |
-| Cr | 27 | 200 | 200 | 300 | 300 | 300 | 300 | in profile |
-| Ni | 27 | 380 | 452 | 530 | 652 | 677 | 680 | in profile |
-| Pb | 27 | 6.1 | 6.46 | 7.8 | 12.4 | 13.7 | 16 | in profile |
-| U | 27 | 0 | 1.2 | 1.8 | 2.64 | 2.98 | 3.3 | in profile |
-| tAs | 27 | 0 | 3.16 | 3.8 | 4.6 | 4.6 | 4.6 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 1.44 | 1.57 | 1.9 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 10 | 40 | in profile |
+| Cr | 27 | 200 | 300 | in profile |
+| Ni | 27 | 380 | 680 | in profile |
+| Pb | 27 | 6.1 | 16 | in profile |
+| U | 27 | 0 | 3.3 | in profile |
+| tAs | 27 | 0 | 4.6 | in profile |
+| tHg | 27 | 0 | 1.9 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA TDS FY2018-FY2020 provides the primary quantitative reference with 27 composite samples of chocolate cake with chocolate icing, reporting: cadmium median 15 ppb (p90 26 ppb, max 40 ppb), nickel median 530 ppb (p90 652 ppb, max 680 ppb), lead median 7.8 ppb (p90 12.4 ppb, max 16 ppb), chromium median 300 ppb (all values in range 200-300 ppb), total arsenic median 3.8 ppb, and uranium median 1.8 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]]. The relatively tight distributions observed for chromium (300 ppb across most samples) and nickel are consistent with cocoa as the primary driver, since cocoa Ni concentrations are high and relatively consistent within a given cocoa-sourcing geography. The wide range in cadmium (10-40 ppb in the finished cake) reflects variation in cocoa-origin cadmium, since Andean cocoa carries substantially higher Cd than West African cocoa. Variation across brand and recipe formulation would be expected primarily from the cocoa fraction: dark chocolate icing carries more cocoa solids and thus more cadmium and nickel than milk chocolate icing; recipes using higher-Andean-origin cocoa carry more cadmium than recipes using West-African-origin cocoa.
+The FDA TDS FY2018-FY2020 provides the primary quantitative reference with 27 composite samples of chocolate cake with chocolate icing, reporting: cadmium median 15 ppb (max 40 ppb), nickel median 530 ppb (max 680 ppb), lead median 7.8 ppb (max 16 ppb), chromium median 300 ppb (all values in range 200-300 ppb), total arsenic median 3.8 ppb, and uranium median 1.8 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]]. The relatively tight distributions observed for chromium (300 ppb across most samples) and nickel are consistent with cocoa as the primary driver, since cocoa Ni concentrations are high and relatively consistent within a given cocoa-sourcing geography. The wide range in cadmium (10-40 ppb in the finished cake) reflects variation in cocoa-origin cadmium, since Andean cocoa carries substantially higher Cd than West African cocoa. Variation across brand and recipe formulation would be expected primarily from the cocoa fraction: dark chocolate icing carries more cocoa solids and thus more cadmium and nickel than milk chocolate icing; recipes using higher-Andean-origin cocoa carry more cadmium than recipes using West-African-origin cocoa.
 
 ## Processing effects
 

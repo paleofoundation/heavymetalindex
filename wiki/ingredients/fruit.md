@@ -56,18 +56,18 @@ Chekri et al. 2019 reports a French infant fruit-puree category and identifies f
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=21 | 5–50 | 150 | high | — |
-| Cd | n=21 | 5–50 | 130 | high | — |
-| iAs | n=8 | 1–10 | 15 | medium | — |
-| tAs | n=18 | 5–30 | 50 | high | — |
-| tHg | n=12 | 1–10 | 42 | high | — |
-| Ni | n=6 | 30–200 | 500 | medium | — |
-| Al | n=8 | 100–4000 | 9100 | medium | — |
-| Cr | n=9 | 20–100 | 200 | medium | — |
-| Sn | n=5 | 10–100 | 500 | medium | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=21 | 5–50 | high | — |
+| Cd | n=21 | 5–50 | high | — |
+| iAs | n=8 | 1–10 | medium | — |
+| tAs | n=18 | 5–30 | high | — |
+| tHg | n=12 | 1–10 | high | — |
+| Ni | n=6 | 30–200 | medium | — |
+| Al | n=8 | 100–4000 | medium | — |
+| Cr | n=9 | 20–100 | medium | — |
+| Sn | n=5 | 10–100 | medium | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

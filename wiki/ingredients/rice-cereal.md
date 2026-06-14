@@ -24,7 +24,7 @@ contamination_profile:
     status: populated
     typical_ppb: [80, 200]
     p95_ppb: 323
-    confidence: high
+    confidence: medium
     n_studies: 6
     last_reviewed: 2026-05-16
   tHg:
@@ -66,7 +66,7 @@ contamination_profile:
     status: populated
     typical_ppb: [100, 300]
     p95_ppb: 400
-    confidence: high
+    confidence: medium
     n_studies: 5
     last_reviewed: 2026-05-16
   U:
@@ -118,18 +118,18 @@ This is a structural ingredient node created so product pages can link to a real
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=6 | 5–20 | 170 | medium | [[sources/fda-ctz-Pb-babyfood-2025\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/price2023-biokinetic-lead-baby-food-blls\|3]] |
-| Cd | n=4 | 10–60 | 190 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
-| iAs | n=6 | 80–200 | 323 | high | [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|1]], [[sources/fda-iAs-rice-cereal-2020\|2]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|3]] |
-| tAs | n=5 | 100–300 | 400 | high | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
-| tHg | n=3 | 0–2 | — | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|2]], [[sources/codex-cxs-193-1995\|3]] |
-| Ni | data gap | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | data gap | — | — | — | — |
-| Sn | n=2 | 0–50 | — | low | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 5–20 | medium | [[sources/fda-ctz-Pb-babyfood-2025\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/price2023-biokinetic-lead-baby-food-blls\|3]] |
+| Cd | n=4 | 10–60 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
+| iAs | n=6 | 80–200 | medium | [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|1]], [[sources/fda-iAs-rice-cereal-2020\|2]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|3]] |
+| tAs | n=5 | 100–300 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
+| tHg | n=3 | 0–2 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|2]], [[sources/codex-cxs-193-1995\|3]] |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | n=2 | 0–50 | low | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -137,7 +137,7 @@ This node is linked from [[products/baby-cereals-dry-rice-based]].
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -173,7 +173,7 @@ Rice cereal carries the rice-base [[ingredients/rice|rice]] inheritance of inorg
 
 Variance within rice cereal tracks four dimensions per the corpus. First, source-rice cultivar and origin region: rice cereal made from US southern long-grain (Texas, Arkansas, Louisiana, Mississippi) carries higher iAs than rice cereal made from California-grown medium-grain or Indian Basmati per [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|Signes-Pastor 2016]] EU and US market sampling, which documents geographic variance up to 3-fold in iAs across rice-based infant products. Second, milling fraction: white rice cereal carries lower iAs than brown rice cereal because polishing removes the bran fraction where iAs concentrates. Third, fortification-premix supplier: the [[sources/meli2024-chemical-characterization-baby-food-italy|Meli 2024]] Italian baby-food survey documents Pb below LOD in measured samples reflecting tight EU premix specifications, while [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf|Chiger 2017]] documents wider US-market variance reflecting historical premix-quality heterogeneity. Fourth, historical generation: post-FDA-CTZ-2020 production typically carries lower iAs than pre-2020 production because manufacturer responses to the 100 ppb action level drove reformulation and supply-chain tightening per [[sources/fda-iAs-rice-cereal-2020|FDA 2020]].
 
-The high-confidence p95 iAs of 323 ppb across the 6-study evidence base reflects the upper end of the post-FDA-CTZ commercial supply; outliers above this level in older product or lower-tier emerging-market supply are documented in the broader corpus.
+The upper tail of the iAs distribution across the 6-study evidence base reflects the upper end of the post-FDA-CTZ commercial supply, at approximately 323 ppb; outliers above this level in older product or lower-tier emerging-market supply are documented in the broader corpus.
 
 ## Processing effects
 

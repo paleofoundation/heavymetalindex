@@ -17,7 +17,7 @@ contamination_profile:
     status: populated
     typical_ppb: [20, 150]
     p95_ppb: 400
-    confidence: high
+    confidence: medium
     n_studies: 3
     last_reviewed: 2026-05-16
   iAs:
@@ -45,7 +45,7 @@ contamination_profile:
     status: populated
     typical_ppb: [800, 4000]
     p95_ppb: 8000
-    confidence: high
+    confidence: medium
     n_studies: 3
     last_reviewed: 2026-05-16
   Al:
@@ -59,7 +59,7 @@ contamination_profile:
     status: populated
     typical_ppb: [50, 300]
     p95_ppb: null
-    confidence: medium
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-16
   Sn:
@@ -125,18 +125,18 @@ Hazelnut trees take up metals from soil through root uptake into the kernel-bear
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | 10–200 | 400 | medium | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
-| Cd | n=3 | 20–150 | 400 | high | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–5 | — | low | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]] |
-| Ni | n=3 | 800–4000 | 8000 | high | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 50–300 | — | medium | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 10–200 | medium | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
+| Cd | n=3 | 20–150 | medium | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–5 | low | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]] |
+| Ni | n=3 | 800–4000 | medium | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 50–300 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|2]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

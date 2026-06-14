@@ -10,21 +10,21 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 14.7]
     p95_ppb: 32.1
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0, 14]
     p95_ppb: 21
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   iAs:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tHg:
@@ -45,7 +45,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 2702]
     p95_ppb: 3037
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
@@ -122,18 +122,18 @@ Canned tomatoes present a metal risk profile dominated by the interaction betwee
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 0–14.7 | 32.1 | medium | — |
-| Cd | n=1 | 0–14 | 21 | medium | — |
-| iAs | n=1 | 0 | 0 | medium | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–0.9 | 1 | low | — |
-| Ni | data gap | — | — | — | — |
-| Al | n=1 | 0–2702 | 3037 | medium | — |
-| Cr | data gap | — | — | — | — |
-| Sn | n=2 | 0–2439 | 3949 | low | [[sources/atsdr2005-tin-toxicological-profile\|1]], [[sources/schafer1984-tin-toxic-heavy-metal-review\|2]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–14.7 | low | — |
+| Cd | n=1 | 0–14 | low | — |
+| iAs | n=1 | 0 | low | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–0.9 | low | — |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 0–2702 | low | — |
+| Cr | data gap | — | — | — |
+| Sn | n=2 | 0–2439 | low | [[sources/atsdr2005-tin-toxicological-profile\|1]], [[sources/schafer1984-tin-toxic-heavy-metal-review\|2]] |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -141,7 +141,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 

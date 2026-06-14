@@ -10,14 +10,14 @@ contamination_profile:
     status: populated
     typical_ppb: [5, 200]
     p95_ppb: 500
-    confidence: high
+    confidence: medium
     n_studies: 6
     last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [1, 50]
     p95_ppb: 100
-    confidence: high
+    confidence: medium
     n_studies: 6
     last_reviewed: 2026-05-16
   iAs:
@@ -125,18 +125,18 @@ The vegetable-oil category aggregates oils with different upstream profiles into
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=6 | 5–200 | 500 | high | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|2]], [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|3]] |
-| Cd | n=6 | 1–50 | 100 | high | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|2]], [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=5 | 5–100 | — | medium | [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]] |
-| tHg | n=1 | — | — | — | — |
-| Ni | n=4 | 10–300 | — | medium | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|3]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=3 | 5–200 | — | low | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|1]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 5–200 | medium | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|2]], [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|3]] |
+| Cd | n=6 | 1–50 | medium | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|2]], [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=5 | 5–100 | medium | [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]] |
+| tHg | n=1 | — | — | — |
+| Ni | n=4 | 10–300 | medium | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=3 | 5–200 | low | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|1]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|2]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

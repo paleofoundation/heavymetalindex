@@ -10,28 +10,28 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 41]
     p95_ppb: 84
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0, 21.8]
     p95_ppb: 39.8
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   iAs:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tHg:
     status: populated
     typical_ppb: [0, 3.3]
     p95_ppb: 17.9
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Ni:
@@ -45,7 +45,7 @@ contamination_profile:
     status: populated
     typical_ppb: [873.4, 4994]
     p95_ppb: 5503
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
@@ -59,7 +59,7 @@ contamination_profile:
     status: populated
     typical_ppb: [6.9, 480.9]
     p95_ppb: 909.4
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tAs:
@@ -122,18 +122,18 @@ Canned spaghetti in tomato sauce is a composite food product whose heavy metal r
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 0–41 | 84 | high | — |
-| Cd | n=1 | 0–21.8 | 39.8 | high | — |
-| iAs | n=1 | 0 | 0 | medium | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–3.3 | 17.9 | high | — |
-| Ni | data gap | — | — | — | — |
-| Al | n=1 | 873.4–4994 | 5503 | high | — |
-| Cr | data gap | — | — | — | — |
-| Sn | n=1 | 6.9–480.9 | 909.4 | high | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–41 | low | — |
+| Cd | n=1 | 0–21.8 | low | — |
+| iAs | n=1 | 0 | low | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–3.3 | low | — |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 873.4–4994 | low | — |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 6.9–480.9 | low | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -141,7 +141,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 

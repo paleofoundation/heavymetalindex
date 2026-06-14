@@ -117,18 +117,18 @@ Organ meats, particularly kidney and liver, are identified by [[sources/efsa-cad
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=9 | 100–800 | 4600 | medium | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
-| Cd | n=11 | 50–230 | 1500 | high | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=2 | 10–280 | 500 | low | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| Ni | n=2 | 100–220 | 300 | low | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/kamaly2023-egypt-poultry-metals\|2]] |
-| Al | n=1 | 290–14000 | 18000 | low | [[sources/kamaly2023-egypt-poultry-metals\|1]] |
-| Cr | n=5 | 110–600 | 1422 | medium | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/meligy2024-camel-meat-toxic-elements\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=9 | 100–800 | medium | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
+| Cd | n=11 | 50–230 | high | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | data gap | — | — | — |
+| tHg | n=2 | 10–280 | low | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| Ni | n=2 | 100–220 | low | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/kamaly2023-egypt-poultry-metals\|2]] |
+| Al | n=1 | 290–14000 | low | [[sources/kamaly2023-egypt-poultry-metals\|1]] |
+| Cr | n=5 | 110–600 | medium | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/meligy2024-camel-meat-toxic-elements\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates cadmium
 

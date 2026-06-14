@@ -10,28 +10,28 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 29.9]
     p95_ppb: 49.9
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0, 0.2]
     p95_ppb: 6
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   iAs:
     status: populated
     typical_ppb: [0, 3.6]
     p95_ppb: 5.5
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tHg:
     status: populated
     typical_ppb: [0, 0.2]
     p95_ppb: 1
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Ni:
@@ -122,18 +122,18 @@ Orange juice, as a squeezed or processed citrus product, carries a metal profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 0–29.9 | 49.9 | medium | [[sources/paudel2024-packaged-fruit-juices-nepal\|1]] |
-| Cd | n=1 | 0–0.2 | 6 | high | — |
-| iAs | n=1 | 0–3.6 | 5.5 | medium | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–0.2 | 1 | high | — |
-| Ni | n=1 | 63 | 63 | low | [[sources/farid2010-fruit-juices-jeddah-trace-elements\|1]] |
-| Al | n=1 | 0–2560 | 2875 | low | [[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\|1]] |
-| Cr | n=1 | 48.6–65.4 | 66.5 | low | [[sources/farid2010-fruit-juices-jeddah-trace-elements\|1]] |
-| Sn | n=1 | 0–8.9 | 9 | low | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–29.9 | low | [[sources/paudel2024-packaged-fruit-juices-nepal\|1]] |
+| Cd | n=1 | 0–0.2 | low | — |
+| iAs | n=1 | 0–3.6 | low | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–0.2 | low | — |
+| Ni | n=1 | 63 | low | [[sources/farid2010-fruit-juices-jeddah-trace-elements\|1]] |
+| Al | n=1 | 0–2560 | low | [[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\|1]] |
+| Cr | n=1 | 48.6–65.4 | low | [[sources/farid2010-fruit-juices-jeddah-trace-elements\|1]] |
+| Sn | n=1 | 0–8.9 | low | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -141,7 +141,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 

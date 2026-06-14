@@ -31,7 +31,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0.9]
     p95_ppb: 1.3
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Ni:
@@ -45,7 +45,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 1340]
     p95_ppb: 1468
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
@@ -59,7 +59,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 67.7]
     p95_ppb: 73.7
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tAs:
@@ -122,18 +122,18 @@ Carrot (Daucus carota) is a root vegetable that grows entirely underground, posi
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 9.5–27.5 | 28.4 | medium | [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|3]] |
-| Cd | n=4 | 0–41 | 57 | medium | [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|3]] |
-| iAs | n=1 | 3.3–239.4 | 384.2 | low | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–0.9 | 1.3 | high | [[sources/kurniawati2021-jakarta-staple-foods-naa\|1]] |
-| Ni | data gap | — | — | — | — |
-| Al | n=1 | 0–1340 | 1468 | medium | — |
-| Cr | data gap | — | — | — | — |
-| Sn | n=1 | 0–67.7 | 73.7 | medium | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 9.5–27.5 | medium | [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|3]] |
+| Cd | n=4 | 0–41 | medium | [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|3]] |
+| iAs | n=1 | 3.3–239.4 | low | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–0.9 | low | [[sources/kurniawati2021-jakarta-staple-foods-naa\|1]] |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 0–1340 | low | — |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 0–67.7 | low | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -141,7 +141,7 @@ This node is linked from [[products/root-vegetable-purees]].
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 

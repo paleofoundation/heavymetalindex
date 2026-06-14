@@ -10,14 +10,14 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 6.5]
     p95_ppb: 7.3
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0.9, 2.2]
     p95_ppb: 2.8
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   iAs:
@@ -31,7 +31,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0.2]
     p95_ppb: 1
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Ni:
@@ -45,7 +45,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 3215]
     p95_ppb: 3478
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
@@ -59,7 +59,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 10.5]
     p95_ppb: 12.8
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tAs:
@@ -122,18 +122,18 @@ Butternut squash is a cucurbit (Cucurbitaceae family) whose edible flesh is phys
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 0–6.5 | 7.3 | medium | — |
-| Cd | n=1 | 0.9–2.2 | 2.8 | medium | — |
-| iAs | n=1 | 5.2–43.2 | 45.6 | low | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–0.2 | 1 | high | — |
-| Ni | data gap | — | — | — | — |
-| Al | n=1 | 0–3215 | 3478 | medium | — |
-| Cr | data gap | — | — | — | — |
-| Sn | n=1 | 0–10.5 | 12.8 | medium | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–6.5 | low | — |
+| Cd | n=1 | 0.9–2.2 | low | — |
+| iAs | n=1 | 5.2–43.2 | low | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–0.2 | low | — |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 0–3215 | low | — |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 0–10.5 | low | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -141,7 +141,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 

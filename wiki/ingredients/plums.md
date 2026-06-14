@@ -10,14 +10,14 @@ contamination_profile:
     status: populated
     typical_ppb: [5, 100]
     p95_ppb: 250
-    confidence: medium
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [1, 30]
     p95_ppb: 80
-    confidence: medium
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-16
   iAs:
@@ -125,18 +125,18 @@ Plums take metals from soil through root uptake into the fruit-bearing tissue, a
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 5–100 | 250 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]] |
-| Cd | n=2 | 1–30 | 80 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 | 1–50 | — | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
-| tHg | data gap | — | — | — | — |
-| Ni | n=1 | 50–500 | — | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 | 10–200 | — | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 5–100 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]] |
+| Cd | n=2 | 1–30 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=1 | 1–50 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
+| tHg | data gap | — | — | — |
+| Ni | n=1 | 50–500 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=1 | 10–200 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

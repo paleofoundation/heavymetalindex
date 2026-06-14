@@ -10,14 +10,14 @@ contamination_profile:
     status: populated
     typical_ppb: [10, 300]
     p95_ppb: 800
-    confidence: high
+    confidence: medium
     n_studies: 3
     last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [5, 80]
     p95_ppb: 200
-    confidence: high
+    confidence: medium
     n_studies: 3
     last_reviewed: 2026-05-16
   iAs:
@@ -38,7 +38,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 10]
     p95_ppb: null
-    confidence: medium
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-16
   Ni:
@@ -125,18 +125,18 @@ Fresh herbs take metals through the same plant-physiology pathways as the broade
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | 10–300 | 800 | high | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|1]] |
-| Cd | n=3 | 5–80 | 200 | high | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 | 5–50 | — | low | — |
-| tHg | n=2 | 0–10 | — | medium | [[sources/fischer2022-mercury-spice-plants-poland\|1]] |
-| Ni | n=1 | — | — | — | — |
-| Al | n=1 | — | — | — | — |
-| Cr | n=1 | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 10–300 | medium | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|1]] |
+| Cd | n=3 | 5–80 | medium | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=1 | 5–50 | low | — |
+| tHg | n=2 | 0–10 | low | [[sources/fischer2022-mercury-spice-plants-poland\|1]] |
+| Ni | n=1 | — | — | — |
+| Al | n=1 | — | — | — |
+| Cr | n=1 | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

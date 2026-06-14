@@ -56,18 +56,18 @@ Burrell and Exley 2010 argues that aluminum in infant formula is likely contamin
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=7 | 1–5 | 100 | medium | — |
-| Cd | n=7 | 0–5 | 15 | medium | — |
-| iAs | n=2 | 0–5 | 20 | low | — |
-| tAs | n=3 | 1–5 | 10 | low | — |
-| tHg | n=5 | 0–3 | 5 | low | — |
-| Ni | n=2 | 10–80 | 200 | low | — |
-| Al | n=7 | 150–1000 | 2700 | medium | — |
-| Cr | n=2 | 5–35 | 100 | low | — |
-| Sn | n=2 | 0–50 | 100 | low | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 1–5 | medium | — |
+| Cd | n=7 | 0–5 | medium | — |
+| iAs | n=2 | 0–5 | low | — |
+| tAs | n=3 | 1–5 | low | — |
+| tHg | n=5 | 0–3 | low | — |
+| Ni | n=2 | 10–80 | low | — |
+| Al | n=7 | 150–1000 | medium | — |
+| Cr | n=2 | 5–35 | low | — |
+| Sn | n=2 | 0–50 | low | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

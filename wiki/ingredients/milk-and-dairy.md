@@ -56,18 +56,18 @@ Chekri et al. 2019 reports infant formulae, follow-on formulae, growing-up milks
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=20 | 1–15 | 50 | high | — |
-| Cd | n=21 | 0–3 | 10 | high | — |
-| iAs | n=6 | 4–20 | — | medium | — |
-| tAs | n=16 | 1–5 | — | high | — |
-| tHg | n=14 | 0–2 | — | high | — |
-| Ni | n=11 | 25–50 | — | high | — |
-| Al | n=12 | 130–700 | 1500 | high | — |
-| Cr | n=9 | 10–30 | — | medium | — |
-| Sn | n=5 | 0–50 | — | medium | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=20 | 1–15 | high | — |
+| Cd | n=21 | 0–3 | high | — |
+| iAs | n=6 | 4–20 | medium | — |
+| tAs | n=16 | 1–5 | high | — |
+| tHg | n=14 | 0–2 | high | — |
+| Ni | n=11 | 25–50 | high | — |
+| Al | n=12 | 130–700 | high | — |
+| Cr | n=9 | 10–30 | medium | — |
+| Sn | n=5 | 0–50 | medium | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

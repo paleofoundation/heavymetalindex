@@ -38,7 +38,7 @@ contamination_profile:
     status: populated
     typical_ppb: [100, 500]
     p95_ppb: 1500
-    confidence: high
+    confidence: medium
     n_studies: 5
     last_reviewed: 2026-05-16
   Ni:
@@ -125,18 +125,18 @@ Mercury in canned tuna originates from the marine biogeochemical cycle: atmosphe
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 5–100 | 300 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
-| Cd | n=4 | 5–50 | 150 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
-| iAs | n=1 | 1–20 | — | low | — |
-| tAs | n=3 | 500–5000 | 10000 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
-| tHg | n=5 | 100–500 | 1500 | high | [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador\|1]], [[sources/ec-reg-2022-617-mercury-fishery\|2]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|3]] |
-| Ni | n=2 | 50–500 | — | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
-| Al | n=2 | 100–2000 | — | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
-| Cr | n=3 | 10–200 | — | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
-| Sn | n=1 | 0–500 | — | low | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 5–100 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
+| Cd | n=4 | 5–50 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
+| iAs | n=1 | 1–20 | low | — |
+| tAs | n=3 | 500–5000 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
+| tHg | n=5 | 100–500 | medium | [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador\|1]], [[sources/ec-reg-2022-617-mercury-fishery\|2]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|3]] |
+| Ni | n=2 | 50–500 | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
+| Al | n=2 | 100–2000 | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
+| Cr | n=3 | 10–200 | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
+| Sn | n=1 | 0–500 | low | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

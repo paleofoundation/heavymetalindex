@@ -56,18 +56,18 @@ Chekri et al. 2019 reports meat/fish-based ready-to-eat infant meals as a combin
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=8 | 1–50 | 700 | medium | — |
-| Cd | n=6 | 1–30 | 230 | medium | — |
-| iAs | data gap | — | — | — | — |
-| tAs | n=5 | 1–30 | — | medium | — |
-| tHg | n=5 | 0–20 | 310 | medium | — |
-| Ni | n=5 | 50–250 | — | medium | — |
-| Al | n=3 | 300–600 | — | low | — |
-| Cr | n=4 | 10–70 | — | low | — |
-| Sn | n=2 | 0–50 | — | low | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=8 | 1–50 | medium | — |
+| Cd | n=6 | 1–30 | medium | — |
+| iAs | data gap | — | — | — |
+| tAs | n=5 | 1–30 | medium | — |
+| tHg | n=5 | 0–20 | medium | — |
+| Ni | n=5 | 50–250 | medium | — |
+| Al | n=3 | 300–600 | low | — |
+| Cr | n=4 | 10–70 | low | — |
+| Sn | n=2 | 0–50 | low | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

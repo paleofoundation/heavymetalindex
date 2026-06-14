@@ -10,28 +10,28 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 10.6]
     p95_ppb: 15.8
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0, 22.0]
     p95_ppb: 32.5
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   iAs:
     status: populated
     typical_ppb: [46.5, 132.5]
     p95_ppb: 150
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tHg:
     status: populated
     typical_ppb: [0, 1.2]
     p95_ppb: 1.9
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Ni:
@@ -122,18 +122,18 @@ Rice cakes are produced by puffing or compressing whole or milled rice under hea
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 0–10.6 | 15.8 | high | — |
-| Cd | n=1 | 0–22 | 32.5 | high | — |
-| iAs | n=1 | 46.5–132.5 | 150 | medium | [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants\|1]] |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–1.2 | 1.9 | medium | — |
-| Ni | data gap | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | data gap | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–10.6 | low | — |
+| Cd | n=1 | 0–22 | low | — |
+| iAs | n=1 | 46.5–132.5 | low | [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants\|1]] |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–1.2 | low | — |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -141,7 +141,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 

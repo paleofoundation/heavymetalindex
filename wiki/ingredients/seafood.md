@@ -118,18 +118,18 @@ This is a structural ingredient node created so product pages can link to a real
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=28 | 20–150 | 300 | high | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|3]] |
-| Cd | n=31 | 50–500 | 1500 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|3]] |
-| iAs | n=18 | 5–50 | 100 | high | [[sources/codex-cccf17-2024\|1]], [[sources/mancuso2024-food-contamination-cvd\|2]], [[sources/sadee2024-arsenic-speciation-marine-organisms-review\|3]] |
-| tAs | n=35 | 500–5000 | 10000 | high | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|3]] |
-| tHg | n=44 | 50–300 | 700 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/wu2025-climate-meghan-freshwater-fish-china\|2]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|3]] |
-| Ni | n=10 | 50–500 | — | medium | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/olgunoglu2025-scorpionfish-izmir-metals\|3]] |
-| Al | n=7 | 100–1000 | — | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/berber2024-crayfish-metal-content-turkey\|2]], [[sources/hussein2023-freshwater-marine-fish-egypt\|3]] |
-| Cr | n=6 | 50–300 | — | medium | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/olgunoglu2025-scorpionfish-izmir-metals\|2]], [[sources/nour2025-djiboutian-seaweeds-metals\|3]] |
-| Sn | n=7 | 100–500 | — | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/hussein2024-toxic-metals-canned-fish-egypt\|2]], [[sources/benjamin2023-canned-fish-ghana\|3]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=28 | 20–150 | high | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|3]] |
+| Cd | n=31 | 50–500 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|3]] |
+| iAs | n=18 | 5–50 | high | [[sources/codex-cccf17-2024\|1]], [[sources/mancuso2024-food-contamination-cvd\|2]], [[sources/sadee2024-arsenic-speciation-marine-organisms-review\|3]] |
+| tAs | n=35 | 500–5000 | high | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|3]] |
+| tHg | n=44 | 50–300 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/wu2025-climate-meghan-freshwater-fish-china\|2]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|3]] |
+| Ni | n=10 | 50–500 | medium | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/olgunoglu2025-scorpionfish-izmir-metals\|3]] |
+| Al | n=7 | 100–1000 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/berber2024-crayfish-metal-content-turkey\|2]], [[sources/hussein2023-freshwater-marine-fish-egypt\|3]] |
+| Cr | n=6 | 50–300 | medium | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/olgunoglu2025-scorpionfish-izmir-metals\|2]], [[sources/nour2025-djiboutian-seaweeds-metals\|3]] |
+| Sn | n=7 | 100–500 | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/hussein2024-toxic-metals-canned-fish-egypt\|2]], [[sources/benjamin2023-canned-fish-ghana\|3]] |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -137,7 +137,7 @@ This node is linked from [[products/fish-containing-baby-foods]].
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

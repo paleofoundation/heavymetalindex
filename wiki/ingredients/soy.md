@@ -56,18 +56,18 @@ Kazi et al. 2009 reports higher average Al, Cd, and Pb in soy-based infant formu
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=9 | 2–35 | 109 | medium | — |
-| Cd | n=7 | 1–12 | 15 | medium | — |
-| iAs | data gap | — | — | — | — |
-| tAs | n=4 | 5–50 | 100 | medium | — |
-| tHg | data gap | — | — | — | — |
-| Ni | n=6 | 4700–5900 | 7800 | medium | — |
-| Al | n=7 | 700–2300 | 2720 | medium | — |
-| Cr | n=3 | 5–2000 | 2280 | medium | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=9 | 2–35 | medium | — |
+| Cd | n=7 | 1–12 | medium | — |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 5–50 | medium | — |
+| tHg | data gap | — | — | — |
+| Ni | n=6 | 4700–5900 | medium | — |
+| Al | n=7 | 700–2300 | medium | — |
+| Cr | n=3 | 5–2000 | medium | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

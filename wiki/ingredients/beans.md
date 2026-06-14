@@ -45,7 +45,7 @@ contamination_profile:
     status: populated
     typical_ppb: [100, 1500]
     p95_ppb: null
-    confidence: high
+    confidence: medium
     n_studies: 3
     last_reviewed: 2026-05-16
   Al:
@@ -125,18 +125,18 @@ Beans accumulate metals through root uptake into the seed-pod and seed tissues, 
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=6 | 10–200 | 500 | medium | [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]] |
-| Cd | n=5 | 10–150 | 300 | medium | [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=3 | 10–100 | — | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|2]] |
-| tHg | data gap | — | — | — | — |
-| Ni | n=3 | 100–1500 | — | high | [[sources/han2024-nickel-zhejiang-china\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 10–200 | — | low | — |
-| Sn | n=2 | 0–1000 | — | low | [[sources/trandafir2012-tin-canned-foods-icp-ms\|1]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 10–200 | medium | [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]] |
+| Cd | n=5 | 10–150 | medium | [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=3 | 10–100 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|2]] |
+| tHg | data gap | — | — | — |
+| Ni | n=3 | 100–1500 | medium | [[sources/han2024-nickel-zhejiang-china\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 10–200 | low | — |
+| Sn | n=2 | 0–1000 | low | [[sources/trandafir2012-tin-canned-foods-icp-ms\|1]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

@@ -16,14 +16,14 @@ contamination_profile:
     status: populated
     typical_ppb: [4, 40]
     p95_ppb: 160
-    confidence: high
+    confidence: medium
     n_studies: 8
     last_reviewed: 2026-06-11
   iAs:
     status: populated
     typical_ppb: [40, 150]
     p95_ppb: 190
-    confidence: high
+    confidence: medium
     n_studies: 8
     last_reviewed: 2026-06-11
   tHg:
@@ -65,7 +65,7 @@ contamination_profile:
     status: populated
     typical_ppb: [90, 250]
     p95_ppb: 350
-    confidence: high
+    confidence: medium
     n_studies: 6
     last_reviewed: 2026-06-11
   U:
@@ -117,18 +117,18 @@ Rice is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and 
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=5 | 2–40 | 110 | medium | [[sources/huang2022-pb-cd-rice-china-meta\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Cd | n=8 | 4–40 | 160 | high | [[sources/huang2022-pb-cd-rice-china-meta\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/bandara2010-cadmium-rice-sri-lanka-crf\|3]] |
-| iAs | n=8 | 40–150 | 190 | high | [[sources/meharg2009-geographic-variation-arsenic-white-rice\|1]], [[sources/cr-fsasc2014-arsenic-rice-grains\|2]], [[sources/yan2025-rice-heavy-metals-henan-china\|3]] |
-| tAs | n=6 | 90–250 | 350 | high | [[sources/meharg2009-geographic-variation-arsenic-white-rice\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=5 | 0.5–6 | 20 | medium | [[sources/brombach2017-methylmercury-european-commercial-rice\|1]], [[sources/palmieri2020-mercury-rice\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Ni | n=23 | 80–450 | — | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
-| Al | n=11 | 200–1500 | — | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|3]] |
-| Cr | n=3 | 0–30 | 50 | low | [[sources/yan2025-rice-heavy-metals-henan-china\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/tatahmentan2020-rice-grains-elements\|3]] |
-| Sn | n=11 | 0–20 | — | high | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/du2025-infant-thickener-urinary-arsenic\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 2–40 | medium | [[sources/huang2022-pb-cd-rice-china-meta\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Cd | n=8 | 4–40 | medium | [[sources/huang2022-pb-cd-rice-china-meta\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/bandara2010-cadmium-rice-sri-lanka-crf\|3]] |
+| iAs | n=8 | 40–150 | medium | [[sources/meharg2009-geographic-variation-arsenic-white-rice\|1]], [[sources/cr-fsasc2014-arsenic-rice-grains\|2]], [[sources/yan2025-rice-heavy-metals-henan-china\|3]] |
+| tAs | n=6 | 90–250 | medium | [[sources/meharg2009-geographic-variation-arsenic-white-rice\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=5 | 0.5–6 | medium | [[sources/brombach2017-methylmercury-european-commercial-rice\|1]], [[sources/palmieri2020-mercury-rice\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Ni | n=23 | 80–450 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Al | n=11 | 200–1500 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|3]] |
+| Cr | n=3 | 0–30 | low | [[sources/yan2025-rice-heavy-metals-henan-china\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/tatahmentan2020-rice-grains-elements\|3]] |
+| Sn | n=11 | 0–20 | high | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/du2025-infant-thickener-urinary-arsenic\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 
@@ -227,16 +227,16 @@ FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix 
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Rice, white, enriched, cooked" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 3.1 | 3.46 | 5.2 | 9.66 | 19 | 23 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | 0 | 72.2 | 78.2 | 170 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| iAs | 1 | 41.6 | 41.6 | 41.6 | 41.6 | 41.6 | 41.6 | in profile |
-| tAs | 27 | 20 | 30.2 | 43 | 62 | 66.9 | 75 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 1.4 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 3.1 | 23 | in profile |
+| Cr | 27 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 170 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | in profile |
+| iAs | 1 | 41.6 | 41.6 | in profile |
+| tAs | 27 | 20 | 75 | in profile |
+| tHg | 27 | 0 | 1.4 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 

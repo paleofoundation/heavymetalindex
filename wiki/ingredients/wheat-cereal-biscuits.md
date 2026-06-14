@@ -10,28 +10,28 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 15.4]
     p95_ppb: 20.5
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0, 30]
     p95_ppb: 42
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   iAs:
     status: populated
     typical_ppb: [0, 230]
     p95_ppb: 260
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tHg:
     status: populated
     typical_ppb: [0, 1]
     p95_ppb: 2.3
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Ni:
@@ -45,7 +45,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 4292]
     p95_ppb: 6160
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
@@ -59,7 +59,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 67.3]
     p95_ppb: 267
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tAs:
@@ -122,18 +122,18 @@ Wheat cereal biscuits (typified by the Weetabix format) are whole-wheat products
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 0–15.4 | 20.5 | medium | — |
-| Cd | n=1 | 0–30 | 42 | high | — |
-| iAs | n=1 | 0–230 | 260 | high | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–1 | 2.3 | high | — |
-| Ni | data gap | — | — | — | — |
-| Al | n=1 | 0–4292 | 6160 | high | — |
-| Cr | data gap | — | — | — | — |
-| Sn | n=1 | 0–67.3 | 267 | high | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–15.4 | low | — |
+| Cd | n=1 | 0–30 | low | — |
+| iAs | n=1 | 0–230 | low | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–1 | low | — |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 0–4292 | low | — |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 0–67.3 | low | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -141,7 +141,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 

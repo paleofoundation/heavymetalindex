@@ -14,14 +14,14 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 3.0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [5.7, 39.2]
     p95_ppb: 41.7
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -35,21 +35,21 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 5.7]
     p95_ppb: 7.6
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Ni:
     status: populated
     typical_ppb: [59.8, 204]
     p95_ppb: 210
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -63,7 +63,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
   Sn:
@@ -77,7 +77,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 1.2]
     p95_ppb: 1.4
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -120,26 +120,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 ## Why this commodity accumulates heavy metals
 
-Asparagus is a perennial vegetable whose edible portion is the young shoot harvested before the fern stage. The shoot grows from a crown embedded in the soil, and metal transfer from soil to the shoot tissue occurs via root uptake through the vascular system. Cadmium is the analyte of greatest concern in asparagus within the FDA TDS FY2018-FY2020 dataset: the TDS data for "Asparagus, fresh/frozen, boiled" (TDS Food 115, n=27) show Cd detectable at all 27 samples with a median of 10 ppb, a p90 of 39.2 ppb, and a maximum of 54 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Nickel is also detectable in most samples, with a median of 130 ppb and a maximum of 240 ppb. These concentrations are consistent with asparagus being a moderate-accumulator vegetable for Cd and Ni under typical soil conditions.
+Asparagus is a perennial vegetable whose edible portion is the young shoot harvested before the fern stage. The shoot grows from a crown embedded in the soil, and metal transfer from soil to the shoot tissue occurs via root uptake through the vascular system. Cadmium is the analyte of greatest concern in asparagus within the FDA TDS FY2018-FY2020 dataset: the TDS data for "Asparagus, fresh/frozen, boiled" (TDS Food 115, n=27) show Cd detectable at all 27 samples with a median of 10 ppb and a maximum of 54 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Nickel is also detectable in most samples, with a median of 130 ppb and a maximum of 240 ppb. These concentrations are consistent with asparagus being a moderate-accumulator vegetable for Cd and Ni under typical soil conditions.
 
-Lead concentrations in asparagus are generally low in the TDS data: the p90 is 0 ppb and only the p95 (3.01 ppb) and maximum (4.3 ppb) indicate any detectable Pb in the dataset ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Total arsenic is detectable at moderate levels, with a median of 3.5 ppb and a maximum of 10 ppb. These patterns are consistent with the general understanding that asparagus occupies an intermediate position among vegetables for metal accumulation: more than fruits, less than leafy greens grown in contaminated soils or root vegetables with high soil contact.
+Lead concentrations in asparagus are generally low in the TDS data: most samples were at or below detection, with the maximum reaching 4.3 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Total arsenic is detectable at moderate levels, with a median of 3.5 ppb and a maximum of 10 ppb. These patterns are consistent with the general understanding that asparagus occupies an intermediate position among vegetables for metal accumulation: more than fruits, less than leafy greens grown in contaminated soils or root vegetables with high soil contact.
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0 | 3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 5.7–39.2 | 41.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 0–5.7 | 7.6 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 59.8–204 | 210 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0–1.2 | 1.4 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 5.7–39.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0–5.7 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 59.8–204 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0–1.2 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -151,7 +151,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -160,15 +160,15 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Asparagus, fresh/frozen, boiled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 3 | 5.7 | 10 | 39.2 | 41.7 | 54 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 59.8 | 130 | 204 | 210 | 240 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 3.01 | 4.3 | in profile |
-| U | 27 | 0 | 0 | 0 | 1.22 | 1.4 | 1.8 | in profile |
-| tAs | 27 | 0 | 0 | 3.5 | 5.72 | 7.58 | 10 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 3 | 54 | in profile |
+| Cr | 27 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 240 | in profile |
+| Pb | 27 | 0 | 4.3 | in profile |
+| U | 27 | 0 | 1.8 | in profile |
+| tAs | 27 | 0 | 10 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 

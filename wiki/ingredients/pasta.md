@@ -10,7 +10,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 41]
     p95_ppb: 84
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cd:
@@ -24,14 +24,14 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tHg:
     status: populated
     typical_ppb: [0, 3.3]
     p95_ppb: 17.9
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Ni:
@@ -45,7 +45,7 @@ contamination_profile:
     status: populated
     typical_ppb: [873.4, 4994]
     p95_ppb: 5503
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
@@ -59,7 +59,7 @@ contamination_profile:
     status: populated
     typical_ppb: [6.9, 480.9]
     p95_ppb: 909.4
-    confidence: high
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   tAs:
@@ -124,18 +124,18 @@ Semolina is produced by milling durum wheat to separate the starchy endosperm fr
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 0–41 | 84 | high | [[sources/fera2015-uk-tds-metals\|1]] |
-| Cd | n=2 | 0–21.8 | 39.8 | low | [[sources/maccaferri2019-durum-wheat-genome-cadmium\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| iAs | n=1 | 0 | 0 | medium | [[sources/fera2015-uk-tds-metals\|1]] |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–3.3 | 17.9 | high | [[sources/fera2015-uk-tds-metals\|1]] |
-| Ni | n=2 | 260–1040 | 1790 | low | [[sources/mania2020-nickel-cereal-grains-poland\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| Al | n=1 | 873.4–4994 | 5503 | high | [[sources/fera2015-uk-tds-metals\|1]] |
-| Cr | data gap | — | — | — | — |
-| Sn | n=1 | 6.9–480.9 | 909.4 | high | [[sources/fera2015-uk-tds-metals\|1]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–41 | low | [[sources/fera2015-uk-tds-metals\|1]] |
+| Cd | n=2 | 0–21.8 | low | [[sources/maccaferri2019-durum-wheat-genome-cadmium\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| iAs | n=1 | 0 | low | [[sources/fera2015-uk-tds-metals\|1]] |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–3.3 | low | [[sources/fera2015-uk-tds-metals\|1]] |
+| Ni | n=2 | 260–1040 | low | [[sources/mania2020-nickel-cereal-grains-poland\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| Al | n=1 | 873.4–4994 | low | [[sources/fera2015-uk-tds-metals\|1]] |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 6.9–480.9 | low | [[sources/fera2015-uk-tds-metals\|1]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
@@ -193,7 +193,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

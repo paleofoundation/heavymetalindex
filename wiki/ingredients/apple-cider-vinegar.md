@@ -125,18 +125,18 @@ Apple cider vinegar's metal profile follows the standard vinegar pattern (see [[
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=5 | 5–100 | 300 | medium | [[sources/ozbek2016-mip-oes-turkish-vinegars\|1]], [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|2]], [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|3]] |
-| Cd | n=4 | 1–30 | — | medium | [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|1]], [[sources/acosta1993-cd-pb-ni-vinegar-types\|2]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 5–100 | — | low | — |
-| tHg | data gap | — | — | — | — |
-| Ni | n=2 | 10–200 | — | low | [[sources/acosta1993-cd-pb-ni-vinegar-types\|1]] |
-| Al | n=1 | 10–500 | — | low | [[sources/ozbek2016-mip-oes-turkish-vinegars\|1]] |
-| Cr | n=2 | 5–100 | — | low | [[sources/ozbek2016-mip-oes-turkish-vinegars\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 5–100 | medium | [[sources/ozbek2016-mip-oes-turkish-vinegars\|1]], [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|2]], [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|3]] |
+| Cd | n=4 | 1–30 | medium | [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|1]], [[sources/acosta1993-cd-pb-ni-vinegar-types\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 5–100 | low | — |
+| tHg | data gap | — | — | — |
+| Ni | n=2 | 10–200 | low | [[sources/acosta1993-cd-pb-ni-vinegar-types\|1]] |
+| Al | n=1 | 10–500 | low | [[sources/ozbek2016-mip-oes-turkish-vinegars\|1]] |
+| Cr | n=2 | 5–100 | low | [[sources/ozbek2016-mip-oes-turkish-vinegars\|1]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
