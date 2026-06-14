@@ -1,6 +1,6 @@
-name: scheduled-production-deploy
+name: manual-production-deploy
 
-# Publish heavymetalindex.com on a SCHEDULE, not on every git push.
+# Publish heavymetalindex.com manually, not on every git push.
 #
 # WHY THIS EXISTS (2026-06-09):
 # FRANK + Codex push to main ~140x/day. Vercel's git integration was building a
@@ -11,16 +11,13 @@ name: scheduled-production-deploy
 # failing builds.
 #
 # The fix: push-triggered auto-deploys are disabled in vercel.json
-# (git.deploymentEnabled.main = false). FRANK keeps pushing every 15 min (backup
-# + multi-agent sync are untouched), but the public site rebuilds only when this
-# workflow fires a Vercel Deploy Hook. One scheduled build batches every push
-# since the last run, so cost scales with the SCHEDULE, not the commit rate.
+# (git.deploymentEnabled = false). FRANK and Codex can keep pushing for backup
+# + multi-agent sync, but the public site rebuilds only when this workflow is
+# manually run. One manual build batches every push since the last publish, so
+# cost scales with human publish decisions, not commit rate or a timer.
 #
-# COST/FRESHNESS KNOB: edit the cron below. This is the single number that sets
-# the bill.
-#   '7 */3 * * *'  every 3 hours  (~8 builds/day  — CURRENT; the sensible default)
-#   '7 * * * *'    hourly         (~24 builds/day — only if you want the live feel)
-#   '7 6,18 * * *' twice a day    (~2 builds/day  — maximum savings)
+# COST/FRESHNESS KNOB: manual workflow_dispatch is the default emergency brake.
+# Add a cron back only when a specific build budget has been approved.
 #
 # SETUP (one-time, Vercel + GitHub dashboards):
 #   1. Vercel → Project heavymetalindex → Settings → Git → Deploy Hooks:
@@ -32,8 +29,6 @@ name: scheduled-production-deploy
 # at any time, e.g. right after setup to unfreeze prod.
 
 on:
-  schedule:
-    - cron: "7 */3 * * *" # every 3 hours at :07 UTC — see COST/FRESHNESS KNOB above
   workflow_dispatch: {} # manual "Run workflow" button for on-demand publishes
 
 concurrency:

@@ -81,7 +81,7 @@ One ingredient page per commit. Commit message format:
 synthesis(<commodity>): 6 narrative sections — Cochrane-level prose with N sources cited
 ```
 
-Push every 5-10 commits. Each push triggers Vercel auto-deploy; the audit dashboard regenerates with the new state. The `tools/audit-claim-provenance.mjs` and `tools/audit-ingredient-mandatory-sections.mjs` audits will confirm the page has graduated.
+Push every 5-10 commits for GitHub backup and multi-agent sync only. Git pushes must not be treated as publish events: Vercel Git auto-deploys are disabled, and production publishing happens through the manual production deploy workflow or an explicitly approved `npm run publish:wiki`. The `tools/audit-claim-provenance.mjs` and `tools/audit-ingredient-mandatory-sections.mjs` audits confirm the page has graduated before any manual publish.
 
 ### 6. Priority order
 

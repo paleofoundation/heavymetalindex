@@ -73,6 +73,7 @@ COMMIT + PUSH AFTER EACH PAGE (not in batches — a batch you don't finish is lo
   git add <the source page> data/evidence/autonomy/manual-fetch-tracker.csv data/evidence/autonomy/agent-events.jsonl
   git commit -m "ingest auto-fetched <date>: <cite-key>"
   git push origin main
+The push is GitHub backup/sync only. It must not be used as a production publish trigger; Vercel auto-deploys are disabled and site publishing is manual-only.
 Then append the agent-events.jsonl ledger line for that page (see AGENT LEDGER above), and move to the next of your ≤3.
 
 STEP 5 — UPDATE TRACKER. As part of each page's single commit (above), set its row in data/evidence/autonomy/manual-fetch-tracker.csv to status="ingested-by-codex" with the commit hash.
