@@ -15,11 +15,14 @@
  *      collapsed — a degenerate single-value pool published as if it were a
  *      distribution. (Rice iAs typical [41.6, 41.6] p95 41.6 n=74.)
  *
- *   2. censored-zero-at-high-confidence: typical_ppb [0, 0] AND p95_ppb 0 at
- *      confidence: high. Exact-zero point AND tail at high confidence almost
- *      always means below-LOQ non-detects were coded as literal 0 and pooled as
- *      0 (FDA TDS reports non-detects as 0; the reporting limit, not 0, is the
- *      defensible upper bound). (Rice Pb/tHg/Cr [0,0] p95 0 high.)
+ *   2. censored-zero: typical_ppb [0, 0] AND p95_ppb 0 when EITHER confidence is
+ *      high OR n_studies >= 3. Exact-zero point AND tail across 3+ studies (or at
+ *      high confidence) almost always means below-LOQ non-detects were coded as
+ *      literal 0 and pooled as 0 (FDA TDS reports non-detects as 0; the reporting
+ *      limit, not 0, is the defensible upper bound). (Rice Pb/tHg/Cr [0,0] p95 0.)
+ *      The trigger is keyed on n_studies, not only the confidence label, so that
+ *      clamping an over-claimed confidence down to its n_studies ceiling cannot
+ *      silently hide the underlying censoring artifact from this audit.
  *
  * Both block the build (exit 1) unless --warn-only is passed. Per CLAUDE.md
  * Part 18, integrity drift that understates contamination must fail the build,
@@ -64,19 +67,19 @@ for (const file of fs.readdirSync(ingredientsDir).sort()) {
     if (b.status !== "populated") continue
     const { metal, typicalLo, typicalHi, p95, confidence, nStudies } = b
 
-    // Signature 2: censored-zero at high confidence.
+    // Signature 2: censored-zero — at high confidence OR across 3+ studies.
     if (
       typicalLo === 0 &&
       typicalHi === 0 &&
       p95 === 0 &&
-      confidence === "high"
+      (confidence === "high" || nStudies >= 3)
     ) {
       failures.push({
         page: `wiki/ingredients/${slug}.md`,
         slug,
         metal,
-        signature: "censored-zero-at-high-confidence",
-        detail: `typical_ppb [0, 0], p95_ppb 0, confidence high, n_studies ${nStudies}. Exact-zero distribution at high confidence — below-LOQ non-detects coded as literal 0. Re-synthesize with the reporting limit as the censored upper bound.`,
+        signature: "censored-zero",
+        detail: `typical_ppb [0, 0], p95_ppb 0, confidence ${confidence}, n_studies ${nStudies}. Exact-zero point AND tail ${nStudies >= 3 ? `across ${nStudies} studies` : "at high confidence"} — below-LOQ non-detects coded as literal 0. Re-synthesize with the reporting limit as the censored upper bound.`,
       })
       continue
     }

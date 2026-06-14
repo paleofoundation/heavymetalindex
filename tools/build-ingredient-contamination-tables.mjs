@@ -19,8 +19,12 @@
  *     them; regenerating with sweep would have lost them on 235 pages.) A cell
  *     with no value — pending / data gap — shows no sources.
  *
- * Output: regenerated 6-column table (Analyte | Coverage | Typical | p95 |
- * Confidence | Key sources). Legacy 5-column tables are normalised to 6 columns.
+ * Output: regenerated 5-column table (Analyte | Coverage | Typical | Confidence |
+ * Key sources). The per-page tail percentile (p95) is staff-side per the
+ * percentile-arithmetic firewall (CLAUDE.md Part 19; docs/schema-history.md
+ * 2026-05-16) and MUST NOT surface on the public page; the p95_ppb frontmatter
+ * field remains for app/workbench consumers. Legacy 6-column tables (a regression
+ * this generator previously introduced) are normalised back to 5 columns.
  *
  * Usage:
  *   node tools/build-ingredient-contamination-tables.mjs            # report only
@@ -40,8 +44,8 @@ const HEADING = "Heavy metal contamination profile"
 const APPLY = process.argv.includes("--apply")
 const CHECK = process.argv.includes("--check")
 
-const HEADER = "| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |"
-const SEP = "|---------|----------|---------------|-----------|------------|-------------|"
+const HEADER = "| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |"
+const SEP = "|---------|----------|---------------|------------|-------------|"
 
 let scanned = 0
 let changed = 0
@@ -125,11 +129,10 @@ function buildTable(cp, existingSources) {
     const c = cp[metal] || {}
     const coverage = renderCoverage(c)
     const typical = renderTypical(c.typical_ppb)
-    const p95 = renderScalar(c.p95_ppb)
     const confidence = renderScalar(c.confidence)
     const hasValue = typical !== "—"
     const sources = hasValue ? existingSources[metal] || "—" : "—"
-    lines.push(`| ${metal} | ${coverage} | ${typical} | ${p95} | ${confidence} | ${sources} |`)
+    lines.push(`| ${metal} | ${coverage} | ${typical} | ${confidence} | ${sources} |`)
   }
   return lines.join("\n")
 }
