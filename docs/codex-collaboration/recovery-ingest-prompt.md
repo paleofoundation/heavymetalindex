@@ -60,6 +60,7 @@ STEP 6 — RUN THE ROUTING AUDIT then COMMIT + PUSH EACH PAGE INDIVIDUALLY:
   git add wiki/sources/<page> data/evidence/wishlist-fetch-audit.csv data/evidence/autonomy/manual-fetch-tracker.csv data/evidence/autonomy/pathway-reingest-worklist-2026-06-10.csv data/evidence/autonomy/agent-events.jsonl
   git commit -m "recover-ingest 2026-06-10: <cite-key> (lane <aN>, was <old-skip-reason>)"
   git push origin main
+  The push is GitHub backup/sync only. It must not be used as a production publish trigger; Vercel auto-deploys are disabled and site publishing is manual-only.
   Confirm the routing audit exits 0 and the source is not in routing_unresolved.csv / routing_malformed.csv before committing.
 
 STEP 7 — AUDIT (best-effort), same as the sprint prompt: try to spawn a fresh-context audit per docs/gpt-collaboration/audit-prompt.md; if the agent thread limit is reached, write the audit-queue row status=pending-audit-spawn-failed and CONTINUE. Never stop on spawn failure.
