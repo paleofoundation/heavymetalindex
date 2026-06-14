@@ -319,7 +319,9 @@ ${endMarker}`
 function upsertBlock(text, block) {
   const pattern = new RegExp(`${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}`)
   if (pattern.test(text)) {
-    return text.replace(pattern, block)
+    // Function replacer: keep `$`-sequences in the block literal (the
+    // source-legend idempotency bug class).
+    return text.replace(pattern, () => block)
   }
 
   // Find the insertion point: after the first paragraph following the # H1,

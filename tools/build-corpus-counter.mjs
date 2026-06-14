@@ -304,7 +304,10 @@ function upsertHomepageBlock(filePath, block) {
 
   let next
   if (pattern.test(text)) {
-    next = text.replace(pattern, block)
+    // Function replacer: keep `$&`/`$1`/`$'`/`` $` `` in the generated block
+    // literal rather than letting String.replace treat them as backreferences
+    // (the source-legend idempotency bug class).
+    next = text.replace(pattern, () => block)
   } else {
     // Insert after the hero section, before the feature grid. If the hero
     // section isn't where expected, append at the end of the file.
@@ -326,7 +329,7 @@ function upsertFeatureGridBlock(filePath, block) {
   const text = fs.readFileSync(filePath, "utf8")
   const pattern = new RegExp(`${escapeRegExp(featureBeginMarker)}[\\s\\S]*?${escapeRegExp(featureEndMarker)}`)
   if (!pattern.test(text)) return
-  const next = text.replace(pattern, block)
+  const next = text.replace(pattern, () => block)  // literal replacement, no $-backreference interpretation
   if (next === text) return
   fs.writeFileSync(filePath, next, "utf8")
 }

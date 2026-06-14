@@ -549,7 +549,9 @@ function numberText(value, singular) {
 
 function upsertSection(text, section) {
   const pattern = new RegExp(`${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}`)
-  if (pattern.test(text)) return text.replace(pattern, section)
+  // Function replacer: keep `$`-sequences in the generated section literal (the
+  // source-legend idempotency bug class).
+  if (pattern.test(text)) return text.replace(pattern, () => section)
   const base = text
 
   const productCrosswalk = "\n<!-- BEGIN: hmi-product-crosswalk -->"
