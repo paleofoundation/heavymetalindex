@@ -53,12 +53,15 @@ jobs:
       - name: Evaluate daemon liveness from last commit age
         id: liveness
         env:
-          # Alert if main has had no commit in this many hours. The daemon
-          # commits briefings/reports/sync-counts every tick even when there
-          # is no ingest work, and observed cadence is a commit every 1-6 min
-          # during active operation, so 6h of TOTAL silence is abnormal and
-          # indicates a real stall — not a quiet patch. Tune here if needed.
-          STALE_HOURS: '6'
+          # Alert if main has had no commit in this many hours. The original 6h
+          # threshold assumed the always-on Mac-mini daemon committing every
+          # 1-6 min. Operation has since shifted to intermittent manual recovery
+          # and batch ingest, where multi-hour gaps on main are NORMAL, so 6h
+          # produced false-alarm failures on every quiet window (2026-06-15).
+          # Raised to 36h: short enough to still catch a genuine multi-day
+          # outage (power/network loss, agent unload, wedged tree), long enough
+          # that an ordinary quiet stretch no longer pages the owner. Tune here.
+          STALE_HOURS: '36'
         run: |
           set -uo pipefail
           last_epoch="$(git log -1 --format=%ct)"
