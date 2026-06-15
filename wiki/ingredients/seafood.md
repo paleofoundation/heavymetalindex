@@ -103,7 +103,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D5 Pooling depth | POOLABLE | Pb CONFIDENT, Cd CONFIDENT, iAs CONFIDENT, tHg CONFIDENT, Ni POOLABLE, Al POOLABLE, Cr POOLABLE, Sn POOLABLE, tAs CONFIDENT | — |
 | D6 Speciation | OK | iAs, tHg, tAs declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 8 claims checked, 8 supported; 1 citations, 0 orphan, 0 foreign | 1 contributing source(s) malformed (strict): open2017-open-infants-dietary-arsenic |
+| D8 Provenance integrity | GAP | 8 claims checked, 8 supported; 1 citations, 0 orphan, 0 foreign | 1 contributing source(s) malformed (strict): signes-pastor2018-infants-dietary-arsenic-solid-food |
 | D9 Mitigation | GAP | 0 cited lever(s), 4 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 3 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs |
 | D11 Standards-readiness | PARTIAL | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |

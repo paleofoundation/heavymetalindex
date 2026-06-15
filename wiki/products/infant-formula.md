@@ -6,8 +6,8 @@ hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
 provisional_created: 2026-05-28
-provisional_reason: "heal-gaps: routing_unresolved entry from source open2017-open-infants-dietary-arsenic declared product/infant-formula, no close-slug match"
-provisional_source: "[[sources/open2017-open-infants-dietary-arsenic]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source signes-pastor2018-infants-dietary-arsenic-solid-food declared product/infant-formula, no close-slug match"
+provisional_source: "[[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]"
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
@@ -21,9 +21,9 @@ updated: 2026-05-28
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-28 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source open2017-open-infants-dietary-arsenic declared product/infant-formula, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source signes-pastor2018-infants-dietary-arsenic-solid-food declared product/infant-formula, no close-slug match
 >
-> **Triggering source:** [[sources/open2017-open-infants-dietary-arsenic]]
+> **Triggering source:** [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
 
 ## Literature scope
 
@@ -49,14 +49,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 11 | [[sources/bfr2022-nickel-dietary-intake-germany-meal\|BfR 2022]]. *Nickel: estimate of long-term intake via food based on the BfR MEAL Study*, BfR Communication No. 033/2022 | 2022 | Government report | DE/EU Ni occurrence in 840 food pools from 356 foods representing 90%+ of German food consumption; adults and adolescents N=13,926 (NVS II,... (n=840) |
 | 12 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*,  | 2022 | Peer-reviewed | Cited reference from |
 | 13 | [[sources/ouyang2022-early-life-microbiota-delivery-feeding\|Ouyang et al. 2022]]. *Early Life Microbiota — Impact of Delivery Mode and Infant Feeding*, Comprehensive Gut Microbiota, Volume 2 (Elsevier), Chapter 2.03, pp. 25-38 | 2022 | Review | This **B-tier review chapter** from Elsevier's *Comprehensive Gut Microbiota* Volume 2 synthesizes ~75 cited primary studies on infant gut microbiome... |
-| 14 | [[sources/chung2021-china-infant-formula-toxic-elements\|Chung et al. 2021]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods 9(12):1839 | 2021 | Peer-reviewed | CN Cr, tAs, Cd, Pb concentrations |
+| 14 | [[sources/su2020-infant-formula-china-toxic-elements\|Chung et al. 2021]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods 9(12):1839 | 2021 | Peer-reviewed | CN Cr, tAs, Cd, Pb concentrations |
 | 15 | [[sources/dehghani2020-food-lead-cadmium-mspe\|Zahra et al. 2020]]. *Magnetic Multi-Walled Carbon Nanotubes Modified with Polythiophene as a Sorbent for Simultaneous Solid Phase Microextraction of Lead and Cadmium from Water and Food Samples*, Analytical and Bioanalytical Chemistry Research | 2020 | Peer-reviewed | IR Pb, Cd occurrence in Black tea, rice, infant dry formula milk, and cow milk samples purchased in Yazd, Iran (n=5) |
 | 16 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | FR Al, Sb, tAs, Cd, Cr, Co, Ni, Sn, V occurrence in French infant and toddler foods (n=291) |
 | 17 | [[sources/depa2019-baby-food-lead-cadmium\|Depa 2019]]. *Heavy Metals in Baby Foods and Cereal Products*, Turkish Journal of Computer and Mathematics Education | 2019 | Peer-reviewed | Pb, Cd occurrence in Baby foods and cereal products, including milk powder and cereal-based products (n=63) |
-| 18 | [[sources/keywords2019-appropriateness-essentials-trace-metals\|Igweze et al. 2019]]. *Appropriateness of Essentials Trace Metals in Commonly Consumed Infant Formulae in Nigeria*, Open Access Macedonian Journal of Medical Sciences | 2019 | Peer-reviewed | Cited reference from Open Access Macedonian Journal of Medical Sciences |
+| 18 | [[sources/igweze2019-trace-metals-infant-formula-nigeria\|Igweze et al. 2019]]. *Appropriateness of Essentials Trace Metals in Commonly Consumed Infant Formulae in Nigeria*, Open Access Macedonian Journal of Medical Sciences | 2019 | Peer-reviewed | Cited reference from Open Access Macedonian Journal of Medical Sciences |
 | 19 | [[sources/meyer2018-hydrolysed-rice-formula-arsenic\|Meyer et al. 2018]]. *Low inorganic arsenic in hydrolysed-rice formula used for cow's milk protein allergy*, Pediatric Allergy and Immunology | 2018 | Peer-reviewed | IT/FR/BE iAs occurrence in Commercially available hydrolysed-rice infant formula powders sourced from Italy, France, and Belgium; six distinct product variants, two batches... (n=10) |
-| 20 | [[sources/open2017-open-infants-dietary-arsenic\|Signes-Pastor et al. 2018]]. *OPEN Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | — | During the transition to solid foods, infants' urinary arsenic concentrations increase substantially, with rice cereal emerging as the dominant dietary... |
-| 21 | [[sources/open2017-open-infants-dietary-arsenic-a\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Journal article | Cited reference from Scientific Reports |
+| 20 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|Signes-Pastor et al. 2018]]. *OPEN Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | — | During the transition to solid foods, infants' urinary arsenic concentrations increase substantially, with rice cereal emerging as the dominant dietary... |
+| 21 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food-a\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Journal article | Cited reference from Scientific Reports |
 | 22 | [[sources/scheer2017-aluminium-tolerable-intake-toys\|SCHEER 2017]]. *Final Opinion on tolerable intake of aluminium with regards to adapting the migration limits for aluminium in toys*, Scientific Committee on Health, Environmental and Emerging Risks (SCHEER), European Commission | 2017 | Government report | EU Al occurrence in Review of regulatory opinions and dietary exposure data for children and adults; no primary animal or human study |
 | 23 | [[sources/unknown2016-risk-arsenic-rice-cereal\|Shibata et al. 2016]]. *Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S.*, International Journal of Environmental Research and Public Health | 2016 | Peer reviewed journal | Cited reference from International Journal of Environmental Research and Public Health |
 | 24 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |

@@ -6,8 +6,8 @@ hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
 provisional_created: 2026-05-20
-provisional_reason: "heal-gaps: routing_unresolved entry from source cereal2013-cereal-juice-lead-arsenic declared product/infant-juice, no close-slug match"
-provisional_source: "[[sources/cereal2013-cereal-juice-lead-arsenic]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source neuwirth2022-baby-cereals-lead-arsenic declared product/infant-juice, no close-slug match"
+provisional_source: "[[sources/neuwirth2022-baby-cereals-lead-arsenic]]"
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 typical_ingredients: []
 applicable_regulations: []
@@ -21,9 +21,9 @@ updated: 2026-05-20
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-20 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source cereal2013-cereal-juice-lead-arsenic declared product/infant-juice, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source neuwirth2022-baby-cereals-lead-arsenic declared product/infant-juice, no close-slug match
 >
-> **Triggering source:** [[sources/cereal2013-cereal-juice-lead-arsenic]]
+> **Triggering source:** [[sources/neuwirth2022-baby-cereals-lead-arsenic]]
 
 ## Literature scope
 
@@ -36,7 +36,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/cereal2013-cereal-juice-lead-arsenic\|Neuwirth 2022]]. *Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest*, International Journal of Environmental Research and Public Health | 2022 | Peer-reviewed | Cited reference from International Journal of Environmental Research and Public Health |
+| 1 | [[sources/neuwirth2022-baby-cereals-lead-arsenic\|Neuwirth 2022]]. *Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest*, International Journal of Environmental Research and Public Health | 2022 | Peer-reviewed | Cited reference from International Journal of Environmental Research and Public Health |
 <!-- END: hmi-source-legend -->
 
 ## Page history

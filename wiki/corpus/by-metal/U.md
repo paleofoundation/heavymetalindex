@@ -70,7 +70,7 @@ sources: 0
 - **FM_12524768** (2021) — Zinc-Mediated Defenses Against Toxic Heavy Metals and Metalloids: Mechanisms, Immunomodulation, and Therapeutic Relevance
 - **FM_10883532** (2024) — Chemical characterization of baby food consumed in Italy — [[sources/meli2024-chemical-characterization-baby-food-italy]]
 - **FM_2072823** (1983) — Time to Re-evaluate the Guideline Value for Manganese in Drinking Water?
-- **FM_11111292** (n.d.) — RESEARCH ARTICLE — [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet]]
+- **FM_11111292** (n.d.) — RESEARCH ARTICLE — [[sources/tatsuta2024-mehg-duplicate-diet-children-japan]]
 - **FM_12174183** (n.d.) — Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers
 - **FM_12451096** (2004) — Plant-Based Analogs: Potential Chemical Risks & Mitigation Strategies
 - **FM_11720090** (2024) — Toxic Trace Elements in Meat and Meat Products Across Asia: A Comprehensive Literature Review and Implications for Human Health

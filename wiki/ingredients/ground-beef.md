@@ -131,8 +131,8 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | 0 | 0 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
-| Cd | n=3 | 0 | 0 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
+| Pb | n=3 | 0 | 0 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
+| Cd | n=3 | 0 | 0 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
 | iAs | data gap | — | — | — | — |
 | tAs | n=2 | 1.9–5.9 | 6.1 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tHg | n=4 | 0–4 | 80 | low | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/khalafalla2011-beef-carcasses-metals-egypt\|2]], [[sources/mohamed2023-heavy-metals-beef-egypt\|3]] |

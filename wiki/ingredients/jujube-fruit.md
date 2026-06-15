@@ -6,8 +6,8 @@ aliases: []
 category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-05-28
-provisional_reason: "heal-gaps: routing_unresolved entry from source introduction2014-randomized-controlled-trial-jujube declared ingredient/jujube-fruit, no close-slug match"
-provisional_source: "[[sources/introduction2014-randomized-controlled-trial-jujube]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source kelishadi2016-jujube-fruit-heavy-metals-breast-milk declared ingredient/jujube-fruit, no close-slug match"
+provisional_source: "[[sources/kelishadi2016-jujube-fruit-heavy-metals-breast-milk]]"
 contamination_profile:
   Pb:
     status: pending
@@ -118,9 +118,9 @@ _Not yet characterized — scorecard activates at 2 contributing A-tier sources.
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-28 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source introduction2014-randomized-controlled-trial-jujube declared ingredient/jujube-fruit, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source kelishadi2016-jujube-fruit-heavy-metals-breast-milk declared ingredient/jujube-fruit, no close-slug match
 >
-> **Triggering source:** [[sources/introduction2014-randomized-controlled-trial-jujube]]
+> **Triggering source:** [[sources/kelishadi2016-jujube-fruit-heavy-metals-breast-milk]]
 
 ## Literature scope
 
