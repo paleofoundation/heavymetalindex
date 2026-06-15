@@ -28,6 +28,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { looksGarbageKey, authorPrefix } from "./lib/cite-key-validity.mjs"
 
 const repoRoot = process.cwd()
 const sourcesDir = path.join(repoRoot, "wiki/sources")
@@ -49,36 +50,9 @@ function normalizeDoi(raw) {
   return d
 }
 
-// A cite-key looks like an OCR title-fragment / non-author key when it does NOT
-// start with an author-surname-ish token followed by a 4-digit year. These are
-// the auto-ingest artifacts the dedup should prefer to drop.
-// Leading tokens that mark a cite-key as an OCR title-fragment / section-header
-// artifact rather than an author surname. The auto-ingest builds keys from the
-// first word it OCRs, so these are section headers, common nouns, analyte names,
-// and article-metadata words — never a real first author.
-const GARBAGE_LEAD = new RegExp(
-  "^(open|abstract|introduction|editor|content|contents|concentration|concentrations|" +
-    "estimated|estimation|research|article|original|review|reviews|study|studies|determination|" +
-    "assessment|evaluation|analysis|comparison|effect|effects|association|associations|" +
-    "keywords|keyword|highlights|background|methods|methodology|materials|results|" +
-    "discussion|conclusion|conclusions|summary|objective|objectives|purpose|aim|aims|" +
-    "findings|corresponding|received|accepted|published|available|citation|copyright|" +
-    "license|licensee|licence|vol|volume|issue|doi|http|https|www|figure|table|" +
-    "arsenic|cadmium|lead|mercury|nickel|aluminum|aluminium|chromium|antimony|" +
-    "infant|infants|cereal|cereals|baby|rice|toxic|heavy|trace|elemental|elements|element|" +
-    "the|a|an|of|in|on|to|and|for|with|unknown)[-0-9]",
-  "i",
-)
-function looksGarbageKey(citeKey) {
-  return GARBAGE_LEAD.test(citeKey) || /unknown/i.test(citeKey)
-}
-// Author-surname prefix of a (non-garbage) cite-key: the leading letters before
-// the 4-digit year, hyphens collapsed. Used to check that the members of a DOI
-// cluster really name the same first author before auto-merging.
-function authorPrefix(citeKey) {
-  const m = citeKey.match(/^([a-z][a-z'’-]*?)-?\d{4}/i)
-  return m ? m[1].toLowerCase().replace(/-/g, "") : ""
-}
+// looksGarbageKey() and authorPrefix() now live in ./lib/cite-key-validity.mjs
+// (single source of truth for the garbage-lead vocabulary, shared with the
+// ingest gates and tools/build-triage-manifest.py). Imported above.
 
 // ---- read source frontmatter ----
 const pages = []
