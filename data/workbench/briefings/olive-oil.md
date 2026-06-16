@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: olive-oil
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-16T09:38:39.936Z
+generated_at: 2026-06-16T12:13:01.615Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -44,8 +44,8 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 |---|---|---|---|---:|---|---|
 | Pb | **100 ppb** [as-sold]<br>≈ 10 ppb [prepared] | 69.725 ppb | literature-baseline | 7 | stable | 100 ppb (eu2023_pb_fats_oils_100) |
 | iAs | *data gap* | — | no-data | 0 | no_data | — |
-| tAs | **1000 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 607.952 ppb | literature-baseline | 5 | provisional | — |
-| Ni | **1000 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 577.054 ppb | literature-baseline | 9 | stable | — |
+| tAs | _adjudication pending_<br>≈ 100 ppb [prepared] | 607.952 ppb | literature-baseline | 5 | provisional | — |
+| Ni | _adjudication pending_<br>≈ 100 ppb [prepared] | 577.054 ppb | literature-baseline | 9 | stable | — |
 | Cd | **5 ppb** [as-sold]<br>≈ 0.5 ppb [prepared] | 3.102 ppb | literature-baseline | 2 | provisional | — |
 | Al | **1000 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 581.619 ppb | literature-baseline | 2 | stable | — |
 | tHg | *data gap* | — | no-data | 0 | no_data | — |
@@ -141,7 +141,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### tAs
 
-**Published HMTc threshold:** 1000 ppb [as-sold] · 607.952 ppb (pre-rounding)
+**Published HMTc threshold:** adjudication pending — held provisional (heavy-tail-review) · 607.952 ppb (pre-rounding)
 **Cross-basis: ≈ 100 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
@@ -177,7 +177,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Ni
 
-**Published HMTc threshold:** 1000 ppb [as-sold] · 577.054 ppb (pre-rounding)
+**Published HMTc threshold:** adjudication pending — held provisional (heavy-tail-review) · 577.054 ppb (pre-rounding)
 **Cross-basis: ≈ 100 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
@@ -405,17 +405,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `3b52992aa03267827b2453e9c23df2b175826138` in the heavymetalindex.com repository.
+1. Checking out commit `9893e9eff63d3b5b23423844722f9bbcfe271a48` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=olive-oil` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-16T09:38:39.946Z |
+| Generated at | 2026-06-16T12:13:01.625Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `3b52992aa03267827b2453e9c23df2b175826138` |
+| Git commit | `9893e9eff63d3b5b23423844722f9bbcfe271a48` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: vinegar
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-16T09:38:40.103Z
+generated_at: 2026-06-16T12:13:01.813Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -42,7 +42,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Pb | **1000 ppb** [as-sold]<br>≈ 200 ppb [prepared] | 868.425 ppb | literature-baseline | 14 | stable | — |
+| Pb | _adjudication pending_<br>≈ 200 ppb [prepared] | 868.425 ppb | literature-baseline | 14 | stable | — |
 | tAs | **500 ppb** [as-sold]<br>≈ 50 ppb [prepared] | 205.607 ppb | literature-baseline | 2 | stable | — |
 | Ni | **500 ppb** [as-sold]<br>≈ 50 ppb [prepared] | 334.626 ppb | literature-baseline | 6 | provisional | — |
 | Cd | **100 ppb** [as-sold]<br>≈ 10 ppb [prepared] | 51.083 ppb | literature-baseline | 10 | provisional | — |
@@ -80,7 +80,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Pb
 
-**Published HMTc threshold:** 1000 ppb [as-sold] · 868.425 ppb (pre-rounding)
+**Published HMTc threshold:** adjudication pending — held provisional (heavy-tail-review) · 868.425 ppb (pre-rounding)
 **Cross-basis: ≈ 200 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
@@ -420,17 +420,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `3b52992aa03267827b2453e9c23df2b175826138` in the heavymetalindex.com repository.
+1. Checking out commit `9893e9eff63d3b5b23423844722f9bbcfe271a48` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=vinegar` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-16T09:38:40.113Z |
+| Generated at | 2026-06-16T12:13:01.824Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `3b52992aa03267827b2453e9c23df2b175826138` |
+| Git commit | `9893e9eff63d3b5b23423844722f9bbcfe271a48` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

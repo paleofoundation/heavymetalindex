@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: chocolate
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-16T09:38:40.187Z
+generated_at: 2026-06-16T12:13:01.902Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -42,7 +42,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Pb | **500 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 361.892 ppb | literature-baseline | 14 | needs_review | — |
+| Pb | _adjudication pending_<br>≈ 100 ppb [prepared] | 361.892 ppb | literature-baseline | 14 | needs_review | — |
 | tAs | **200 ppb** [as-sold]<br>≈ 20 ppb [prepared] | 121.906 ppb | literature-baseline | 1 | needs_review | — |
 | Ni | **10000 ppb** [as-sold]<br>≈ 1300 ppb [prepared] | 7513.566 ppb | literature-baseline | 4 | provisional | — |
 | Cd | **100 ppb** [as-sold]<br>≈ 15 ppb [prepared] | 1202.897 ppb (capped to 100 by reg cap) | regulatory-alignment | 22 | stable | 100 ppb (eu2023_cd_chocolate_lowcocoa_100) |
@@ -79,7 +79,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Pb
 
-**Published HMTc threshold:** 500 ppb [as-sold] · 361.892 ppb (pre-rounding)
+**Published HMTc threshold:** adjudication pending — held provisional (heavy-tail-review) · 361.892 ppb (pre-rounding)
 **Cross-basis: ≈ 100 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
@@ -401,17 +401,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `3b52992aa03267827b2453e9c23df2b175826138` in the heavymetalindex.com repository.
+1. Checking out commit `9893e9eff63d3b5b23423844722f9bbcfe271a48` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=chocolate` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-16T09:38:40.197Z |
+| Generated at | 2026-06-16T12:13:01.913Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `3b52992aa03267827b2453e9c23df2b175826138` |
+| Git commit | `9893e9eff63d3b5b23423844722f9bbcfe271a48` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

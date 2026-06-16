@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: canned-seafood
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-16T09:38:39.238Z
+generated_at: 2026-06-16T12:13:00.891Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -429,17 +429,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `3b52992aa03267827b2453e9c23df2b175826138` in the heavymetalindex.com repository.
+1. Checking out commit `9893e9eff63d3b5b23423844722f9bbcfe271a48` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=canned-seafood` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-16T09:38:39.251Z |
+| Generated at | 2026-06-16T12:13:00.901Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `3b52992aa03267827b2453e9c23df2b175826138` |
+| Git commit | `9893e9eff63d3b5b23423844722f9bbcfe271a48` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

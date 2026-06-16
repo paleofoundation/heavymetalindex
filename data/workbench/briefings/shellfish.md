@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: shellfish
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-16T09:38:39.683Z
+generated_at: 2026-06-16T12:13:01.350Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -46,7 +46,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | iAs | **50 ppb** [as-sold]<br>≈ 5 ppb [prepared] | 34.234 ppb | literature-baseline | 2 | stable | — |
 | tAs | **10000 ppb** [as-sold]<br>≈ 5000 ppb [prepared] | 33023.140 ppb | literature-baseline | 6 | needs_review | — |
 | Ni | **10000 ppb** [as-sold]<br>≈ 2000 ppb [prepared] | 12189.015 ppb | literature-baseline | 5 | provisional | — |
-| Cd | **1000 ppb** [as-sold]<br>≈ 200 ppb [prepared] | 5152.922 ppb (capped to 1000 by reg cap) | regulatory-alignment | 20 | stable | 1000 ppb (eu2023_cd_bivalve_1000) |
+| Cd | _adjudication pending_<br>≈ 200 ppb [prepared] | 5152.922 ppb (capped to 1000 by reg cap) | regulatory-alignment | 20 | stable | 1000 ppb (eu2023_cd_bivalve_1000) |
 | Al | *data gap* | — | no-data | 0 | no_data | — |
 | tHg | **500 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 376.492 ppb | literature-baseline | 15 | stable | — |
 | MeHg | **200 ppb** [as-sold]<br>≈ 25 ppb [prepared] | 140.720 ppb | literature-baseline | 4 | stable | — |
@@ -236,7 +236,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Cd
 
-**Published HMTc threshold:** 1000 ppb [as-sold] · 1000 ppb (pre-rounding)
+**Published HMTc threshold:** adjudication pending — held provisional (heavy-tail-review) · 1000 ppb (pre-rounding)
 **Cross-basis: ≈ 200 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 1000 ppb (eu2023_cd_bivalve_1000)
@@ -505,17 +505,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `3b52992aa03267827b2453e9c23df2b175826138` in the heavymetalindex.com repository.
+1. Checking out commit `9893e9eff63d3b5b23423844722f9bbcfe271a48` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=shellfish` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-16T09:38:39.693Z |
+| Generated at | 2026-06-16T12:13:01.361Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `3b52992aa03267827b2453e9c23df2b175826138` |
+| Git commit | `9893e9eff63d3b5b23423844722f9bbcfe271a48` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 
