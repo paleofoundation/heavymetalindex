@@ -204,6 +204,9 @@ unmatched_slug,infant-formula-powder-amino-acid-based-out-of-scope,tAs,true,fda2
 unmatched_slug,infant-formula-powder-amino-acid-based-out-of-scope,Pb,true,fda2026-infant-formula-toxic-elements-special-survey,category1_formula_concentration_summary.csv
 unmatched_slug,infant-formula-powder-amino-acid-based-out-of-scope,Cd,true,fda2026-infant-formula-toxic-elements-special-survey,category1_formula_concentration_summary.csv
 unmatched_slug,infant-formula-powder-amino-acid-based-out-of-scope,tHg,true,fda2026-infant-formula-toxic-elements-special-survey,category1_formula_concentration_summary.csv
+unmatched_slug,seaweed-hijiki-sargassum,iAs,true,almela2002-algae-food-arsenic-metals,category6_seaweed_hijiki_ias_summary.csv
+unmatched_slug,seaweed-hijiki-sargassum,iAs,true,bralatei2017-seaweed-inorganic-arsenic-field-method,category6_seaweed_hijiki_ias_summary.csv
+unmatched_slug,seaweed-hijiki-sargassum,iAs,true,fsanz2012-seaweed-inorganic-arsenic-au,category6_seaweed_hijiki_ias_summary.csv
 unmatched_slug,grain-based-snacks-rice-status-unspecified,tAs,true,fda2024-toxic-elements-baby-food-compliance-2009-2024,category1_fda_baby_food_compliance_samples.csv
 unmatched_slug,grain-based-snacks-rice-status-unspecified,tAs,true,fda2024-toxic-elements-baby-food-compliance-2009-2024,category1_fda_baby_food_compliance_samples.csv
 unmatched_slug,grain-based-snacks-rice-status-unspecified,tAs,true,fda2024-toxic-elements-baby-food-compliance-2009-2024,category1_fda_baby_food_compliance_samples.csv
