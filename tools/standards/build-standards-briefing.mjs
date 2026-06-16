@@ -128,6 +128,19 @@ function loadPooledRows(slug) {
   return parseCsv(text).filter((r) => r.product_slug === slug)
 }
 
+// Cells flagged in the outlier-adjudication register are HELD PROVISIONAL — they
+// render "adjudication pending", never a firm published value, until adjudicated
+// (Karen global-pool-flag-and-adjudicate policy, 2026-06-16).
+function loadAdjudicationFlags(slug) {
+  const p = path.join(path.dirname(pooledPath), "standards-outlier-adjudication.csv")
+  const flags = new Map()
+  if (!fs.existsSync(p)) return flags
+  for (const r of parseCsv(fs.readFileSync(p, "utf8"))) {
+    if (r.row_slug === slug) flags.set(r.metal_species, r.flag || r.disposition || "under review")
+  }
+  return flags
+}
+
 function indexRegulations() {
   const map = new Map()
   if (!fs.existsSync(regulationDir)) return map
@@ -157,6 +170,7 @@ function indexRegulations() {
 
 function buildAnalyteRecords(product, pooledRows, regs) {
   const rowByMetal = new Map(pooledRows.map((r) => [r.metal_species, r]))
+  const adjFlags = loadAdjudicationFlags(product.slug)
   const records = []
   for (const metal of ANALYTE_ORDER) {
     const pooled = rowByMetal.get(metal)
@@ -237,6 +251,8 @@ function buildAnalyteRecords(product, pooledRows, regs) {
       candidate,
       candidate_precise: candidate,
       candidate_published: published,
+      adjudication_pending: adjFlags.has(metal),
+      adjudication_flag: adjFlags.get(metal) || "",
       candidate_basis: basis,
       candidate_cross_basis: cross,
       rationale,
@@ -394,9 +410,11 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 function renderMasterLimitTable(analytes) {
   const rows = analytes
     .map((a) => {
-      const limit = a.candidate_published !== null
-        ? `**${formatNumber(a.candidate_published)} ppb** ${basisShortLabel(a.candidate_basis)}`
-        : "*data gap*"
+      const limit = a.adjudication_pending
+        ? `_adjudication pending_`
+        : a.candidate_published !== null
+          ? `**${formatNumber(a.candidate_published)} ppb** ${basisShortLabel(a.candidate_basis)}`
+          : "*data gap*"
       const cross = a.candidate_cross_basis
         ? `≈ ${formatNumber(roundToLadder(a.candidate_cross_basis.value))} ppb ${basisShortLabel(a.candidate_cross_basis.basis)}`
         : ""
@@ -464,7 +482,7 @@ function renderPerAnalyteSections(analytes, sourceLookup) {
 }
 
 function renderOneAnalyte(a, sourceLookup) {
-  const lim = a.candidate_published !== null ? `${formatNumber(a.candidate_published)} ppb ${basisShortLabel(a.candidate_basis)}` : "*data gap*"
+  const lim = a.adjudication_pending ? `adjudication pending — held provisional (${a.adjudication_flag})` : a.candidate_published !== null ? `${formatNumber(a.candidate_published)} ppb ${basisShortLabel(a.candidate_basis)}` : "*data gap*"
   const precise = a.candidate_precise !== null ? `${formatNumber(a.candidate_precise, 3)} ppb (pre-rounding)` : ""
   const cross = a.candidate_cross_basis
     ? `Cross-basis: ≈ ${formatNumber(roundToLadder(a.candidate_cross_basis.value))} ppb ${basisShortLabel(a.candidate_cross_basis.basis)} (${a.candidate_cross_basis.formula})`
