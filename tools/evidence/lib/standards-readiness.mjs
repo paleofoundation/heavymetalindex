@@ -25,13 +25,18 @@ export function classifyCell(row, flagged) {
   const cand = row ? num(row.candidate_value_ppb) : null
   const cap = row ? num(row.lowest_regulatory_cap_ppb) : null
   const p97 = row ? num(row.pooled_p97) : null
+  const distinct = row ? num(row.distinct_sources) ?? 0 : 0
   const sens = (row?.sens_band || "").toLowerCase()
   const value = cand ?? cap ?? p97
   if (value === null) return { state: "pending", why: "no usable evidence (needs data)" }
   if (flagged) return { state: "pending", why: "flagged untrusted (extraction_review)" }
   if (cand !== null && cap !== null && (p97 === null || cap <= p97))
     return { state: "resolved", basis: "regulatory-alignment", confidence: "firm", value }
-  if (p97 !== null && sens === "stable")
+  // A literature-baseline standard is "firm" only with a stable, multi-source pool.
+  // Single-source standards are emitted (HMTc regulates the under-studied) but
+  // graded provisional — never firm — so the firewall is not violated by
+  // over-claiming evidence the pool does not support.
+  if (p97 !== null && sens === "stable" && distinct >= 2)
     return { state: "resolved", basis: "literature-baseline", confidence: "firm", value }
   if (p97 !== null) return { state: "resolved", basis: "literature-baseline", confidence: "provisional", value }
   if (cap !== null) return { state: "resolved", basis: "regulatory-alignment", confidence: "firm", value }

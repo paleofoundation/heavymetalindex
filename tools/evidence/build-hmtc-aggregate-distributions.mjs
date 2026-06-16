@@ -550,15 +550,23 @@ function targetForProduct(product) {
 
 // ---- Pool usability + rationale tag
 
-// A pool is usable for a literature value only if it clears the quality gates.
-// Returns the block reason, or null when the pool is usable. Shared by the
-// candidate picker, the rationale tag, and the verdict so they cannot disagree.
-function poolBlockReason({ pooledLength, distinctSources, pooledP10, pooledP95, sensBand }) {
+// A pooled VALUE is unusable only when there is no evidence at all, or when the
+// pool is affirmatively CORRUPT (p95/p10 > 1e4 ⇒ almost certainly mixed units,
+// i.e. a value wrong by orders of magnitude where publishing it would mislead).
+//
+// Thinness and parametric-sensitivity disagreement do NOT make a value unusable —
+// they make it PROVISIONAL. HMTc exists to set standards where regulators have not
+// (Part 1: ratcheting, epistemic asymmetry). Refusing to emit a standard merely
+// because the literature is sparse, for an analyte no one else regulates, is
+// antithetical to the program: the standard is emitted, graded low/provisional,
+// and ratchets as data accumulates. BLOCK is reserved for zero-evidence or a
+// corrupt value, never for sparse-but-clean evidence. (Karen, 2026-06-16.)
+// Shared by the candidate picker, the rationale tag, and the verdict so they
+// cannot disagree.
+function valueUnusableReason({ pooledLength, pooledP10, pooledP95 }) {
   if (pooledLength === 0) return "no usable evidence"
-  if (distinctSources < 2) return "pool too thin (≥2 distinct sources required)"
   if (pooledP10 > 0 && pooledP95 / pooledP10 > MAX_INTERNAL_SPAN)
-    return "pool internally inconsistent (p95/p10 > 1e4, likely mixed units)"
-  if (sensBand === "needs_review") return "sensitivity unstable across parametric assumptions"
+    return "pool internally inconsistent (p95/p10 > 1e4, likely mixed units — fix units before use)"
   return null
 }
 
@@ -764,12 +772,10 @@ function main() {
 
       const regCap = lookupRegCap(slug, metal, gapRows)
       const poolUsable =
-        poolBlockReason({
+        valueUnusableReason({
           pooledLength: pooled.length,
-          distinctSources,
           pooledP10: pooledStats.p10,
           pooledP95: pooledStats.p95,
-          sensBand,
         }) === null
       // A usable pool can tighten the standard below the cap; an unusable pool
       // (empty/thin/mixed-unit/unstable) falls back to the cap as an interim
@@ -889,21 +895,27 @@ function main() {
 }
 
 function deriveVerdict({ distinctSources, sensBand, regCap, pooled, pooledP10, pooledP95 }) {
-  const blockReason = poolBlockReason({
+  const unusable = valueUnusableReason({
     pooledLength: pooled.length,
-    distinctSources,
     pooledP10,
     pooledP95,
-    sensBand,
   })
-  if (blockReason) {
-    // Interim regulatory-alignment: a binding regulatory ceiling is a defensible
-    // standard even without usable occurrence literature (Karen decision
-    // 2026-06-16). Only cells with neither a usable pool nor a cap stay BLOCKED.
+  if (unusable) {
+    // A binding regulatory ceiling is still a defensible interim standard even
+    // when the pool is empty or corrupt (Karen decision 2026-06-16). Only cells
+    // with neither a usable value nor a cap stay BLOCKED.
     if (regCap.value !== null)
       return "READY FOR REVIEW (regulatory cap applies; interim, occurrence characterization pending)"
-    return `BLOCKED: ${blockReason}`
+    return `BLOCKED: ${unusable}`
   }
+  // The value is usable. Grade confidence rather than blocking: a sparse or
+  // sensitivity-divergent pool yields a PROVISIONAL standard that ratchets as
+  // data accumulates — HMTc sets standards where regulators have not, rather
+  // than refusing to regulate the under-studied. (Karen decision 2026-06-16.)
+  if (distinctSources < 2)
+    return "PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates"
+  if (sensBand === "needs_review")
+    return "PROVISIONAL: sensitivity unstable across parametric assumptions"
   if (sensBand === "provisional") return "PROVISIONAL: review sensitivity disagreement"
   if (regCap.value !== null) return "READY FOR REVIEW (regulatory cap applies)"
   return "READY FOR REVIEW"
