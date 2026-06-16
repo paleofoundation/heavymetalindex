@@ -1,0 +1,3 @@
+row_slug,metal_species,source_id,source_value_ppb,pool_context,flag,policy,disposition,date
+infant-formula-powder-non-soy,tAs,demir2023-infant-formulas-turkey-toxic-elements,529,~20x the non-demir pooled tAs (other sources P97 ~24 ppb),elevated-market-outlier,global-pool-flag-and-adjudicate (Karen 2026-06-16),HOLD PROVISIONAL pending market-stratification adjudication,2026-06-16
+infant-formula-powder-non-soy,tHg,demir2023-infant-formulas-turkey-toxic-elements,8600,~5-7x prior pool tHg (was P97 1.575 ppb); same elevated Turkish market as the tAs flag,elevated-market-outlier,global-pool-flag-and-adjudicate (Karen 2026-06-16),HOLD PROVISIONAL pending market-stratification adjudication,2026-06-16
