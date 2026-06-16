@@ -548,13 +548,33 @@ function targetForProduct(product) {
   return { target_p: INDEPENDENT_TARGET_P, target_label: "independent_p97", role: "independent_clean_by_default" }
 }
 
-// ---- Rationale tag
+// ---- Pool usability + rationale tag
 
-function rationaleTag(pooled, regCap) {
-  if (pooled === null) return "no-data"
-  if (regCap.value === null) return "literature-baseline"
-  if (pooled > regCap.value) return "regulatory-alignment"
-  return "literature-baseline"
+// A pool is usable for a literature value only if it clears the quality gates.
+// Returns the block reason, or null when the pool is usable. Shared by the
+// candidate picker, the rationale tag, and the verdict so they cannot disagree.
+function poolBlockReason({ pooledLength, distinctSources, pooledP10, pooledP95, sensBand }) {
+  if (pooledLength === 0) return "no usable evidence"
+  if (distinctSources < 2) return "pool too thin (≥2 distinct sources required)"
+  if (pooledP10 > 0 && pooledP95 / pooledP10 > MAX_INTERNAL_SPAN)
+    return "pool internally inconsistent (p95/p10 > 1e4, likely mixed units)"
+  if (sensBand === "needs_review") return "sensitivity unstable across parametric assumptions"
+  return null
+}
+
+// Rationale per CLAUDE.md Part 19. When the pool is usable, the lower of the
+// pooled percentile and the regulatory cap binds (regulatory-alignment when the
+// cap is the lower value, else literature-baseline). When the pool is NOT usable,
+// a binding regulatory ceiling is still a defensible interim standard
+// (regulatory-alignment; occurrence characterization pending — Karen decision
+// 2026-06-16). Only a cell with neither a usable pool nor a cap is genuine no-data.
+function rationaleTag(targetValue, regCap, poolUsable) {
+  if (poolUsable && targetValue !== null) {
+    if (regCap.value === null) return "literature-baseline"
+    return targetValue > regCap.value ? "regulatory-alignment" : "literature-baseline"
+  }
+  if (regCap.value !== null) return "regulatory-alignment"
+  return "no-data"
 }
 
 // ---- Main loop
@@ -743,11 +763,24 @@ function main() {
           : { lo: null, hi: null }
 
       const regCap = lookupRegCap(slug, metal, gapRows)
+      const poolUsable =
+        poolBlockReason({
+          pooledLength: pooled.length,
+          distinctSources,
+          pooledP10: pooledStats.p10,
+          pooledP95: pooledStats.p95,
+          sensBand,
+        }) === null
+      // A usable pool can tighten the standard below the cap; an unusable pool
+      // (empty/thin/mixed-unit/unstable) falls back to the cap as an interim
+      // regulatory-alignment standard — never to an unreliable pooled value.
       const candidate =
-        targetValue !== null && regCap.value !== null
-          ? Math.min(targetValue, regCap.value)
-          : targetValue ?? regCap.value
-      const tag = rationaleTag(targetValue, regCap)
+        poolUsable && targetValue !== null
+          ? regCap.value !== null
+            ? Math.min(targetValue, regCap.value)
+            : targetValue
+          : regCap.value ?? targetValue
+      const tag = rationaleTag(targetValue, regCap, poolUsable)
 
       const verdict = deriveVerdict({
         admittedCount,
@@ -855,12 +888,22 @@ function main() {
   )
 }
 
-function deriveVerdict({ admittedCount, distinctSources, sampleLevelCount, sensBand, regCap, pooled, pooledP10, pooledP95 }) {
-  if (pooled.length === 0) return "BLOCKED: no usable evidence"
-  if (distinctSources < 2) return "BLOCKED: pool too thin (≥2 distinct sources required)"
-  if (pooledP10 > 0 && pooledP95 / pooledP10 > MAX_INTERNAL_SPAN)
-    return "BLOCKED: pool internally inconsistent (p95/p10 > 1e4, likely mixed units)"
-  if (sensBand === "needs_review") return "BLOCKED: sensitivity unstable across parametric assumptions"
+function deriveVerdict({ distinctSources, sensBand, regCap, pooled, pooledP10, pooledP95 }) {
+  const blockReason = poolBlockReason({
+    pooledLength: pooled.length,
+    distinctSources,
+    pooledP10,
+    pooledP95,
+    sensBand,
+  })
+  if (blockReason) {
+    // Interim regulatory-alignment: a binding regulatory ceiling is a defensible
+    // standard even without usable occurrence literature (Karen decision
+    // 2026-06-16). Only cells with neither a usable pool nor a cap stay BLOCKED.
+    if (regCap.value !== null)
+      return "READY FOR REVIEW (regulatory cap applies; interim, occurrence characterization pending)"
+    return `BLOCKED: ${blockReason}`
+  }
   if (sensBand === "provisional") return "PROVISIONAL: review sensitivity disagreement"
   if (regCap.value !== null) return "READY FOR REVIEW (regulatory cap applies)"
   return "READY FOR REVIEW"
