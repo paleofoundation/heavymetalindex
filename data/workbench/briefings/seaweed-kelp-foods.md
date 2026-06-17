@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: seaweed-kelp-foods
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-16T12:13:01.252Z
+generated_at: 2026-06-17T19:30:25.747Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** whole_row_platform
 **Native basis for published thresholds:** as_sold
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-06-16
+**Date generated:** 2026-06-17
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -44,9 +44,9 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 |---|---|---|---|---:|---|---|
 | Pb | **10000 ppb** [as-sold]<br>≈ 2000 ppb [prepared] | 13020.408 ppb | literature-baseline | 4 | needs_review | — |
 | iAs | **2000 ppb** [as-sold]<br>≈ 500 ppb [prepared] | 1829.114 ppb | literature-baseline | 4 | stable | — |
-| tAs | **10000 ppb** [as-sold]<br>≈ 1000 ppb [prepared] | 5516.476 ppb | literature-baseline | 3 | stable | — |
+| tAs | _adjudication pending_<br>≈ 1000 ppb [prepared] | 5516.476 ppb | literature-baseline | 3 | stable | — |
 | Ni | *data gap* | — | no-data | 0 | no_data | — |
-| Cd | **1300 ppb** [as-sold]<br>≈ 200 ppb [prepared] | 1241.306 ppb | literature-baseline | 3 | needs_review | — |
+| Cd | _adjudication pending_<br>≈ 200 ppb [prepared] | 1241.306 ppb | literature-baseline | 3 | needs_review | — |
 | tHg | **100 ppb** [as-sold]<br>≈ 10 ppb [prepared] | 62.916 ppb | literature-baseline | 1 | stable | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
@@ -149,7 +149,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### tAs
 
-**Published HMTc threshold:** 10000 ppb [as-sold] · 5516.476 ppb (pre-rounding)
+**Published HMTc threshold:** adjudication pending — held provisional (suspect-needs-karen) · 5516.476 ppb (pre-rounding)
 **Cross-basis: ≈ 1000 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
@@ -206,7 +206,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Cd
 
-**Published HMTc threshold:** 1300 ppb [as-sold] · 1241.306 ppb (pre-rounding)
+**Published HMTc threshold:** adjudication pending — held provisional (sensitivity-needs-review) · 1241.306 ppb (pre-rounding)
 **Cross-basis: ≈ 200 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
@@ -363,17 +363,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `9893e9eff63d3b5b23423844722f9bbcfe271a48` in the heavymetalindex.com repository.
+1. Checking out commit `ab29385c5de7db8654be6c315d1657f93e89b1a4` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=seaweed-kelp-foods` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-16T12:13:01.263Z |
+| Generated at | 2026-06-17T19:30:25.757Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `9893e9eff63d3b5b23423844722f9bbcfe271a48` |
+| Git commit | `ab29385c5de7db8654be6c315d1657f93e89b1a4` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

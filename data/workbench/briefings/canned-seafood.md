@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: canned-seafood
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-16T12:13:00.891Z
+generated_at: 2026-06-17T19:30:25.827Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** whole_row_platform
 **Native basis for published thresholds:** as_sold
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-06-16
+**Date generated:** 2026-06-17
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -43,13 +43,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
 | Pb | **200 ppb** [as-sold]<br>≈ 25 ppb [prepared] | 162.352 ppb | literature-baseline | 2 | stable | — |
-| tAs | **5000 ppb** [as-sold]<br>≈ 1000 ppb [prepared] | 3680.398 ppb | literature-baseline | 1 | stable | — |
-| Sn | **10000 ppb** [as-sold]<br>≈ 10000 ppb [prepared] | 136028.555 ppb | literature-baseline | 1 | provisional | 250000 ppb (codex_cxs193_sn_canned_250000) |
+| tAs | _adjudication pending_<br>≈ 1000 ppb [prepared] | 3680.398 ppb | literature-baseline | 1 | stable | — |
+| Sn | _adjudication pending_<br>≈ 10000 ppb [prepared] | 136028.555 ppb | literature-baseline | 1 | provisional | 250000 ppb (codex_cxs193_sn_canned_250000) |
 | Ni | **500 ppb** [as-sold]<br>≈ 50 ppb [prepared] | 240.985 ppb | literature-baseline | 1 | provisional | — |
-| Cd | **200 ppb** [as-sold]<br>≈ 25 ppb [prepared] | 155.110 ppb | literature-baseline | 1 | stable | — |
+| Cd | _adjudication pending_<br>≈ 25 ppb [prepared] | 155.110 ppb | literature-baseline | 1 | stable | — |
 | Al | **10000 ppb** [as-sold]<br>≈ 5000 ppb [prepared] | 21016.012 ppb | literature-baseline | 1 | stable | — |
 | tHg | **2000 ppb** [as-sold]<br>≈ 500 ppb [prepared] | 1500.434 ppb | literature-baseline | 2 | stable | — |
-| MeHg | **50 ppb** [as-sold]<br>≈ 5 ppb [prepared] | 30.515 ppb | literature-baseline | 1 | needs_review | — |
+| MeHg | _adjudication pending_<br>≈ 5 ppb [prepared] | 30.515 ppb | literature-baseline | 1 | needs_review | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
@@ -114,7 +114,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### tAs
 
-**Published HMTc threshold:** 5000 ppb [as-sold] · 3680.398 ppb (pre-rounding)
+**Published HMTc threshold:** adjudication pending — held provisional (wrong-analyte-not-material) · 3680.398 ppb (pre-rounding)
 **Cross-basis: ≈ 1000 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
@@ -146,7 +146,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Sn
 
-**Published HMTc threshold:** 10000 ppb [as-sold] · 136028.555 ppb (pre-rounding)
+**Published HMTc threshold:** adjudication pending — held provisional (structural-defect-canned-tin-rule) · 136028.555 ppb (pre-rounding)
 **Cross-basis: ≈ 10000 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 250000 ppb (codex_cxs193_sn_canned_250000)
@@ -210,7 +210,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Cd
 
-**Published HMTc threshold:** 200 ppb [as-sold] · 155.110 ppb (pre-rounding)
+**Published HMTc threshold:** adjudication pending — held provisional (structural-defect-canned-tin-rule) · 155.110 ppb (pre-rounding)
 **Cross-basis: ≈ 25 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
@@ -307,7 +307,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### MeHg
 
-**Published HMTc threshold:** 50 ppb [as-sold] · 30.515 ppb (pre-rounding)
+**Published HMTc threshold:** adjudication pending — held provisional (structural-defect-canned-tin-rule) · 30.515 ppb (pre-rounding)
 **Cross-basis: ≈ 5 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
@@ -429,17 +429,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `9893e9eff63d3b5b23423844722f9bbcfe271a48` in the heavymetalindex.com repository.
+1. Checking out commit `ab29385c5de7db8654be6c315d1657f93e89b1a4` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=canned-seafood` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-16T12:13:00.901Z |
+| Generated at | 2026-06-17T19:30:25.837Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `9893e9eff63d3b5b23423844722f9bbcfe271a48` |
+| Git commit | `ab29385c5de7db8654be6c315d1657f93e89b1a4` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

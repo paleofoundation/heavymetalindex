@@ -136,7 +136,11 @@ function loadAdjudicationFlags(slug) {
   const flags = new Map()
   if (!fs.existsSync(p)) return flags
   for (const r of parseCsv(fs.readFileSync(p, "utf8"))) {
-    if (r.row_slug === slug) flags.set(r.metal_species, r.flag || r.disposition || "under review")
+    // A CLEARED disposition means the flag was reviewed and the cell may publish
+    // (e.g. a regulatory cap binds below an outlier tail, so the outlier is immaterial).
+    // Only HELD / pending cells render "adjudication pending".
+    if (r.row_slug === slug && !/^cleared/i.test(r.disposition || ""))
+      flags.set(r.metal_species, r.flag || r.disposition || "under review")
   }
   return flags
 }
@@ -239,7 +243,12 @@ function buildAnalyteRecords(product, pooledRows, regs) {
       methodologyChain = null
     }
 
-    const published = candidate !== null ? roundToLadder(candidate) : null
+    let published = candidate !== null ? roundToLadder(candidate) : null
+    // Governing Principle 4: a published HMTc value may NEVER exceed the lowest
+    // applicable regulatory ceiling. The increment ladder rounds UP, which can push
+    // a cap-bound value above the cap (e.g. EU fish-muscle Pb 300 → ladder 500).
+    // Clamp to the cap itself (the regulatory ML is always a defensible published value).
+    if (published !== null && capValue !== null && published > capValue) published = capValue
     const ciLo = numericOrNull(pooled.target_ci_lo)
     const ciHi = numericOrNull(pooled.target_ci_hi)
     const cross = crossBasisEquivalent(candidate, basis)
