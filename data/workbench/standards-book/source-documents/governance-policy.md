@@ -122,6 +122,20 @@ Brands whose initial baseline results do not qualify for Status A or Status B ma
 
 A primary value proposition of HMTc enrollment, including the confidential remediation track, is the creation of a documented, timestamped, third-party-verified record of continuous improvement. In the current litigation environment, the most legally exposed posture for a brand is the absence of any documented heavy metal reduction program. HMTc participation, whether or not the mark is yet displayed, establishes evidence of due diligence that can serve as a defense in regulatory inquiries or civil litigation.
 
+### 4.5 Expedited Baseline via Prior-Data Credit
+
+A brand entering the Program with a documented history of accredited third-party heavy-metal lot testing may apply to credit up to two (2) of the three (3) baseline lots required under §4.1, completing the baseline with a single new full-panel HMTc-methodology lot. This pathway recognizes that a brand already operating a mature, accredited lot-testing program has, in substance, already begun the baseline; it shortens time-to-status without compromising the statistical and data-integrity purposes the three-lot baseline exists to serve. The pathway is available only when all of the following conditions are met:
+
+- **(a) Accreditation.** The prior lot results were produced by laboratories accredited to ISO/IEC 17025 for the relevant methods and matrices, and meet the laboratory and Limit-of-Quantitation requirements of §8.3 for each credited analyte.
+- **(b) Recency and distinctness.** Each credited lot was tested within the twelve (12) months preceding application and represents a distinct production run, consistent with the distinct-lot logic of §4.1.
+- **(c) Structured data and custody.** The prior results are supplied in structured, machine-readable form per §8.1, with chain-of-custody documentation meeting §10.2. PDF-only submissions are not eligible for credit.
+- **(d) Basis comparability.** The prior results are expressed in, or reliably convertible to, the row's native basis (as-sold). Where basis cannot be verified or reconciled, the lot is not credited.
+- **(e) Analyte coverage.** A prior lot is credited only for the analytes it actually measured at or below the applicable HMTc LOQ. Analytes not covered by the prior testing receive no credit and are established solely by the completing lot under (f).
+- **(f) Completing lot.** At least one (1) new lot is tested under the Program's required methodology across the full panel (all eight metals, with speciation per §9 where required), including every analyte not covered by the credited prior lots. The completing lot is sampled under the Program's independent-sampling and chain-of-custody requirements.
+- **(g) Status assignment and confirmation.** Initial status is assigned per §4.2 from the combined credited and completing-lot results. For any analyte established by the completing lot alone (an analyte not covered by credited prior testing), the next two routine surveillance lots serve as confirmatory baseline points, and the more conservative interpretation governs if they diverge from the completing lot. For high-risk categories under monthly surveillance, this confirmation completes within the first surveillance cycle.
+
+This pathway is not available to brands entering under the confidential remediation track (§4.3) and does not reduce the per-analyte data requirements for any analyte lacking qualifying prior data. The Program Operator may decline credit, in whole or in part, where data quality, basis comparability, or method fitness cannot be verified.
+
 ---
 
 ## 5. Certification Status Framework
@@ -441,3 +455,4 @@ Individuals involved in certification determinations shall be free from conflict
 |---------|------|---------|
 | 1.0 | March 2026 | Initial issuance (PDF). |
 | 2.0 | May 2026 | Markdown migration. §12 Standards Ratchet Mechanism revised to specify trigger conditions (§12.3), step size cap (§12.4), expanded transition rules (§12.5), and forward forecast obligation (§12.6). Net effect: ratchet behavior is now fully specified rather than directional, capping per-cycle tightening at 20% and providing brands with multi-year planning visibility. |
+| 2.1 | June 2026 | Added §4.5 Expedited Baseline via Prior-Data Credit. A brand with a documented history of accredited (ISO/IEC 17025) third-party lot testing may credit up to two of the three baseline lots and complete the baseline with one new full-panel lot. Baseline integrity is preserved through accreditation, recency, distinct-lot, basis-comparability, analyte-coverage, and confirmatory-surveillance conditions. Not available on the confidential remediation track. |
