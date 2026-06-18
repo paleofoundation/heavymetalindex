@@ -498,7 +498,10 @@ const NEGATIVE_KEYWORDS = [
   "thin-film", "thin film transistor", "TFT", "coffee-ring", "coffee ring effect",
   // plant molecular biology / experiment contexts
   "transcriptomic", "QTL mapping", "gene expression analysis", "transgenic",
-  "stress tolerance", "phytoextraction", "phytoremediation", "hydroponic",
+  "stress tolerance", "hydroponic",
+  // NOTE: "phytoextraction"/"phytoremediation" REMOVED 2026-06-18 — field
+  // remediation of cropland is IN SCOPE (soil-to-plant-transfer hub, remediation
+  // pages); they were miscategorized here as molecular-biology lab contexts.
   "CRISPR", "rhizosphere", "metallothionein gene", "transporter gene",
   "salinity stress", "abiotic stress", "antioxidant defense",
   // AMR / microbiology contexts
@@ -519,7 +522,9 @@ const NEGATIVE_KEYWORDS = [
   "biochar", "activated carbon", "chitosan composite",
   "removal of heavy metals", "removal of lead", "removal of cadmium",
   "wastewater treatment", "effluent treatment", "leachate",
-  "remediation of", "chelation therapy", "chelating agent",
+  // NOTE: "remediation of" REMOVED 2026-06-18 — over-broad; it matched in-scope
+  // soil/crop remediation papers, not just food-as-adsorbent water treatment.
+  "chelation therapy", "chelating agent",
   // biomonitoring / human-sample studies (blood/urine/hair, not food matrix)
   "biomonitoring", "blood lead level", "blood cadmium",
   "maternal whole blood", "hair sample", "urine sample",
@@ -527,9 +532,11 @@ const NEGATIVE_KEYWORDS = [
   // review / secondary literature (not primary occurrence data)
   ": a review", ": a systematic review", "a meta-analysis",
   "systematic review of", "scoping review", "narrative review",
-  // pure ecology / soil-only / non-food applications
-  "sediment ecology", "bioindicator species", "mining tailings remediation",
-  "soil microbial community", "soil contamination assessment",
+  // pure ecology / non-food applications
+  // NOTE: "mining tailings remediation" + "soil contamination assessment"
+  // REMOVED 2026-06-18 — in-scope upstream remediation / soil-burden context.
+  "sediment ecology", "bioindicator species",
+  "soil microbial community",
   // water / drinking-water / occupational / air — major skip categories per
   // auto-fetched-hygiene-2026-05-27 (49 not-food-occurrence skips).
   // Drinking water bottled-for-consumption studies are sometimes legitimate
@@ -542,10 +549,11 @@ const NEGATIVE_KEYWORDS = [
   "air pollution", "particulate matter", "pm2.5 exposure", "atmospheric deposition",
   "fly ash", "incinerator", "indoor dust", "household dust", "settled dust",
   "e-waste", "electronic waste", "wastewater", "sewage sludge",
-  // soil-bioavailability papers using crops as accumulators (study about soil
-  // mobility / uptake mechanism, not retail food occurrence)
-  "soil-to-plant transfer", "soil-plant transfer", "transfer factor",
-  "bioaccumulation factor", "translocation factor",
+  // NOTE: the soil-to-plant-transfer cluster ("soil-to-plant transfer",
+  // "soil-plant transfer", "transfer factor", "bioaccumulation factor",
+  // "translocation factor") was REMOVED 2026-06-18. It is the in-scope upstream
+  // soil->plant mechanism literature the soil-to-plant-transfer hub is built to
+  // hold; excluding it contradicted CLAUDE.md inclusion-by-default scope.
   // veterinary / wildlife / aquaculture-environment (not retail food)
   "wild bird", "wild mammal", "marine mammal", "wildlife exposure",
   "veterinary drug", "veterinary residue", "aquaculture environment",
