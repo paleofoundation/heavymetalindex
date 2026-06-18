@@ -28,11 +28,17 @@ import { execSync } from "node:child_process"
 import { marked } from "marked"
 
 const REPO_ROOT = process.cwd()
-const MASTER_MD = path.join(REPO_ROOT, "data/workbench/standards-book/build/HMTc-Program-Manual-2026-v0.md")
+// --input=<path-to-master.md> renders any category's manual; defaults to Cat 1.
+const inputArg = (process.argv.find((a) => a.startsWith("--input=")) || "").split("=")[1]
+const MASTER_MD = inputArg
+  ? path.resolve(REPO_ROOT, inputArg)
+  : path.join(REPO_ROOT, "data/workbench/standards-book/build/HMTc-Program-Manual-2026-v0.md")
 const TEMPLATE_PATH = path.join(REPO_ROOT, "tools/standards/typst-template.typ")
-const OUTPUT_TYP = path.join(REPO_ROOT, "data/workbench/standards-book/build/HMTc-Program-Manual-2026-v0.typ")
-const OUTPUT_PDF = path.join(REPO_ROOT, "data/workbench/standards-book/build/HMTc-Program-Manual-2026-v0.pdf")
-const FONT_PATH = path.join(process.env.HOME, "Desktop/reportify/fonts")
+const OUTPUT_TYP = MASTER_MD.replace(/\.md$/, ".typ")
+const OUTPUT_PDF = MASTER_MD.replace(/\.md$/, ".pdf")
+// Licensed display/body fonts (FreightText Pro, Avenir Next Cyr). Override the
+// location with TYPST_FONT_PATH when the fonts live outside the default path.
+const FONT_PATH = process.env.TYPST_FONT_PATH || path.join(process.env.HOME, "Desktop/reportify/fonts")
 
 // Characters in markdown text that need Typst escaping.
 // Typst reserves: # @ $ ` < > = / \ * _ [ ] { } ~ ' " - . + : ; |
