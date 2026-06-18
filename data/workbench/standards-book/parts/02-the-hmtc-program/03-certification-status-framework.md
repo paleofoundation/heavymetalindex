@@ -23,6 +23,10 @@ Following completion of the three-lot baseline, the Program Operator will assign
 
 Brands whose baseline does not qualify for Status A or B may enter the program under the **Confidential Remediation Track** described in Part 2.4 rather than being excluded from the program entirely. The Track is the structural answer to the chilling-effect dynamics analyzed in Part 1.2: brands not yet at certification standards need a pathway that builds an improvement record without creating public exposure risk.
 
+### Expedited Baseline via Prior-Data Credit
+
+A brand entering the Program with a documented history of accredited third-party heavy-metal lot testing has, in substance, already begun its baseline. The Program recognizes this directly. Under Governance Policy §4.5, such a brand may credit up to two of the three baseline lots and complete the baseline with a single new full-panel HMTc-methodology lot, shortening time-to-status without compromising the statistical and data-integrity purposes the three-lot baseline exists to serve. The pathway is available only when the prior results are produced by laboratories accredited to ISO/IEC 17025 for the relevant methods and matrices, meeting the limit-of-quantitation requirement for each credited analyte; tested within the twelve months preceding application, each lot a distinct production run; supplied in structured, machine-readable form with chain-of-custody documentation; and expressed in, or reliably convertible to, the row's native basis. A prior lot is credited only for the analytes it actually measured at or below the applicable HMTc limit of quantitation. Any analyte not covered by the credited prior testing receives no credit and is established by the completing lot, which is sampled under the Program's independent-sampling and chain-of-custody requirements and run across the full panel with speciation where required. For an analyte established by the completing lot alone, the next two routine surveillance lots serve as confirmatory baseline points, and the more conservative interpretation governs if they diverge; in high-risk categories under monthly surveillance, that confirmation completes within the first surveillance cycle. The pathway is not available to brands entering under the Confidential Remediation Track, and it does not reduce the per-analyte data requirements for any analyte lacking qualifying prior data.
+
 ## The five statuses
 
 ### Status A: Certified (Full Compliance)
@@ -91,6 +95,7 @@ Brands whose baseline does not qualify for Status A or B may enter the program u
 ## Cross-references
 
 - Confidential Remediation Track (for brands whose baseline does not qualify for A or B): Part 2.4.
+- Expedited Baseline via Prior-Data Credit: Governance Policy §4.5; Lot Testing Schedule §4.3 (Part 4).
 - Lot Testing Schedule (testing frequency by Status × Risk Tier): Part 4.
 - CAPA procedures: Part 2.8.
 - Mark Usage Rules: Part 2.5.

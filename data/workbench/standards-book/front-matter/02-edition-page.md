@@ -34,6 +34,8 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 **Publication date:** 2026-05-18
 **DOI:** [10.5281/zenodo.20270512](https://doi.org/10.5281/zenodo.20270512)
 
+**Revision 2026-06-18.** This printing incorporates the Expedited Baseline via Prior-Data Credit pathway added to the foundational documents (Governance Policy §4.5, reproduced in Part 2.3; Lot Testing Schedule §4.3, reproduced in Part 4). The reproduced Governance Policy and Lot Testing Schedule are updated to version 2.1. A new version DOI is assigned to this printing on deposit.
+
 **Copyright** © 2026 Paleo Certified, Inc. dba The Paleo Foundation. All rights reserved. The HMTc Certification Mark, the Paleo Foundation name, and the seal artwork are trademarks of Paleo Certified, Inc. The methodology described in this manual is protected as a trade secret to the extent set forth in the Colophon (back matter).
 
 **License for citation and reference.** This manual may be cited in academic, regulatory, and legal contexts using standard citation practice. Direct reproduction of substantial portions requires written permission from Paleo Certified, Inc. The HMTc Certification Mark may not be used by any party not licensed under a current HMTc license agreement.
