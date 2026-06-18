@@ -94,3 +94,6 @@ fish-marine-predatory,fish-marine-predatory,Pb,eu2023_pb_fish_muscle_300,300,max
 fish-marine-predatory,fish-marine-predatory,Cd,eu2023_cd_fish_muscle_50,50,maximum level,muscle meat of fish (EU 2023/915),,,External EU legal ceiling; wet weight; fish muscle.,
 fish-marine-non-predatory,fish-marine-non-predatory,Pb,eu2023_pb_fish_muscle_300,300,maximum level,muscle meat of fish (EU 2023/915),,,External EU legal ceiling; wet weight; fish muscle.,
 fish-freshwater,fish-freshwater,Cd,eu2023_cd_fish_muscle_50,50,maximum level,muscle meat of fish (EU 2023/915),,,External EU legal ceiling; wet weight; fish muscle.,
+fish-freshwater,fish-freshwater,tHg,eu2023_hg_fish_muscle_500,500,maximum level,"muscle meat of fish, general (EU 2023/915)",,,EU legal ceiling; wet weight.,
+fish-marine-non-predatory,fish-marine-non-predatory,tHg,eu2023_hg_fish_muscle_500,500,maximum level,"muscle meat of fish, general (EU 2023/915)",,,EU legal ceiling; wet weight.,
+shellfish,shellfish,tHg,eu2023_hg_crustaceans_molluscs_500,500,maximum level,crustaceans/molluscs (EU 2023/915),,,EU legal ceiling; wet weight.,

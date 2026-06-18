@@ -1,0 +1,312 @@
+product_slug,metal_species,candidate_value_ppb,cap,rationale,verdict_level,reasons
+baby-cereals-dry-non-rice,iAs,24.4395,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+baby-cereals-dry-non-rice,Cd,40,40,regulatory-alignment,PASS,
+baby-cereals-dry-non-rice,Pb,20,20,regulatory-alignment,PASS,
+baby-cereals-dry-non-rice,tAs,81.0672,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+baby-cereals-dry-non-rice,tHg,0,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+baby-cereals-dry-non-rice,Ni,2751.1126,,literature-baseline,PASS,
+baby-cereals-dry-non-rice,Al,13753.9019,,literature-baseline,PASS,
+baby-cereals-dry-rice-based,iAs,100,100,regulatory-alignment,PASS,
+baby-cereals-dry-rice-based,Cd,40,40,regulatory-alignment,PASS,
+baby-cereals-dry-rice-based,Pb,20,20,regulatory-alignment,PASS,
+baby-cereals-dry-rice-based,tAs,987.1145,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+baby-cereals-dry-rice-based,tHg,0,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+baby-cereals-dry-rice-based,Ni,2778.9505,,literature-baseline,PASS,
+baby-cereals-dry-rice-based,Al,0,,literature-baseline,PASS,
+baby-food,tHg,230.4653,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+baby-food,Cd,6.9943,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+bottled-drinking-water,Pb,0.2082,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+bottled-drinking-water,Cd,0.7558,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+bottled-drinking-water,Ni,0.2653,,literature-baseline,PASS,
+breakfast-cereals,Cd,0.0013,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+butter-and-ghee,Pb,20.6242,100,literature-baseline,PASS,
+butter-and-ghee,Cd,36.9461,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+butter-and-ghee,tAs,62.8598,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+butter-and-ghee,tHg,1.3994,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+canned-fish,tHg,5.5169,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+canned-fish,tAs,0.1624,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+canned-fish,iAs,0.012,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+canned-fish,Cd,0.5183,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+canned-fish,Pb,0.4003,,no-data,PASS,
+canned-fish,Sn,0.0055,,literature-baseline,PASS,
+canned-fruit,Sn,183771.3274,,no-data,PASS,
+canned-seafood,Sn,136028.5549,250000,literature-baseline,PASS,
+canned-seafood,MeHg,30.5148,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+canned-seafood,Cd,155.1101,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+canned-seafood,Pb,162.3525,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+canned-seafood,tHg,1500.4335,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+canned-seafood,Al,21016.0123,,literature-baseline,PASS,
+canned-seafood,Ni,240.9853,,literature-baseline,PASS,
+canned-seafood,tAs,3680.3985,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+canned-vegetables,Sn,0.01,,literature-baseline,PASS,
+children-personal-care,Pb,1.2231,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+chocolate,Cd,100,100,regulatory-alignment,PASS,
+chocolate,Pb,361.8917,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+chocolate,tAs,121.9063,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+chocolate,Ni,7513.5663,,literature-baseline,PASS,
+chocolate,Al,118654.6921,,literature-baseline,PASS,
+coffee,Pb,0.2661,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+coffee,Cd,19135.262,,no-data,PASS,
+cooking-oils-other,Pb,100,100,regulatory-alignment,PASS,
+cooking-oils-other,Cd,56.7457,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+cooking-oils-other,Ni,82.5589,,literature-baseline,PASS,
+cooking-oils-other,tAs,56.1827,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+cooking-oils-other,Al,1.4567,,literature-baseline,PASS,
+cooking-oils-other,tHg,166.4379,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+dietary-supplements,Cd,10.2325,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+dietary-supplements,Al,2317.9481,,literature-baseline,PASS,
+fish-containing-baby-foods,MeHg,2.6,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fish-containing-baby-foods,Pb,8,10,literature-baseline,PASS,
+fish-containing-baby-foods,Cd,40,40,regulatory-alignment,PASS,
+fish-containing-baby-foods,tAs,161.1103,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fish-containing-baby-foods,tHg,15.7239,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fish-containing-baby-foods,Al,135.8845,,literature-baseline,PASS,
+fish-containing-baby-foods,Ni,62.7809,,literature-baseline,PASS,
+fish-freshwater,MeHg,359.65,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fish-freshwater,Pb,300,300,regulatory-alignment,PASS,
+fish-freshwater,Cd,50,50,regulatory-alignment,PASS,
+fish-freshwater,tHg,500,500,regulatory-alignment,PASS,
+fish-freshwater,tAs,2024.8922,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending"
+fish-freshwater,iAs,359.4715,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fish-marine-non-predatory,tHg,454.1975,500,literature-baseline,PASS,
+fish-marine-non-predatory,MeHg,174.69,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fish-marine-non-predatory,Cd,50,50,regulatory-alignment,PASS,
+fish-marine-non-predatory,iAs,122.0992,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fish-marine-non-predatory,Pb,300,300,regulatory-alignment,PASS,
+fish-marine-non-predatory,tAs,83013.9665,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending"
+fish-marine-non-predatory,Ni,324.2936,,literature-baseline,PASS,
+fish-marine-predatory,MeHg,829.0015,1000,literature-baseline,PASS,
+fish-marine-predatory,tHg,1000,1000,regulatory-alignment,PASS,
+fish-marine-predatory,Cd,50,50,regulatory-alignment,PASS,
+fish-marine-predatory,Ni,146.6746,,literature-baseline,PASS,
+fish-marine-predatory,Pb,300,300,regulatory-alignment,PASS,
+fish-marine-predatory,tAs,41247.268,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fish-marine-predatory,iAs,107.0887,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fish-marine-predatory,Al,11961.1757,,literature-baseline,PASS,
+flavored-waters,Pb,5,5,regulatory-alignment,PASS,
+flour-non-rice,Cd,31.875,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+flour-non-rice,Pb,15.3263,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fresh-fish,Pb,80.9353,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fresh-fish,Cd,100.1334,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fresh-fish,tAs,0.2,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fresh-fish,MeHg,612.9333,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fresh-fish,tHg,3508.6343,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fresh-fish,iAs,1.9829,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fresh-fish,Al,455.912,,literature-baseline,PASS,
+fresh-fish,Sn,434.9497,,literature-baseline,PASS,
+fresh-fruit,Pb,10.7985,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fresh-fruit,Cd,0.461,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fruit-juice-not-canned,iAs,10,10,regulatory-alignment,PASS,
+fruit-juice-not-canned,Ni,498.7413,,literature-baseline,PASS,
+fruit-juice-not-canned,Cd,576.1947,,no-data,PASS,
+fruit-juice-not-canned,Pb,10,10,regulatory-alignment,PASS,
+fruit-juice-not-canned,Al,1622.9068,,literature-baseline,PASS,
+fruit-juice-not-canned,tAs,16.426,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fruit-juice-not-canned,Sn,463.6327,,literature-baseline,PASS,
+fruit-juices-apple-containing,iAs,0,10,literature-baseline,PASS,
+fruit-juices-apple-containing,Pb,0.383,10,literature-baseline,PASS,
+fruit-juices-apple-containing,tAs,1.8358,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fruit-juices-non-apple,Pb,0,20,literature-baseline,PASS,
+fruit-juices-non-apple,iAs,5.4,20,literature-baseline,PASS,
+fruit-juices-non-apple,tAs,0,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fruit-purees,Pb,6.1598,10,literature-baseline,PASS,
+fruit-purees,Cd,5.9467,40,literature-baseline,PASS,
+fruit-purees,iAs,0.8469,20,literature-baseline,PASS,
+fruit-purees,tAs,5.0008,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fruit-purees,MeHg,12.9447,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fruit-purees,tHg,14.2964,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fruit-purees,Al,1114.8579,,literature-baseline,PASS,
+fruit-purees,Ni,232.0537,,literature-baseline,PASS,
+fruit-purees,Sn,429.4174,,literature-baseline,PASS,
+honey,Pb,1410.2946,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+honey,Cd,87.7977,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+honey,Ni,1294.478,,literature-baseline,PASS,
+honey,tAs,63.6963,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+honey,tHg,74.738,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+honey,Al,139113.117,,literature-baseline,PASS,
+infant-and-child-foods-master,Pb,3.8301,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-and-child-foods-master,Cd,62.704,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-and-child-foods-master,tAs,6094.4836,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-and-child-foods-master,tHg,54.0356,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-cereal,Pb,8.2608,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-cereal,Cd,0.5212,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-cereal,iAs,39.6231,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-clothing,Cd,0.1788,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-clothing,Ni,1.6334,,literature-baseline,PASS,
+infant-clothing,Pb,0.0679,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-food-general,Ni,1.1613,,literature-baseline,PASS,
+infant-formula,Pb,73.7651,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula,Cd,14.6087,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula,Ni,6.416,,literature-baseline,PASS,
+infant-formula,Al,18.24,,literature-baseline,PASS,
+infant-formula-concentrated-liquid-non-soy,tAs,0.2,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-concentrated-liquid-non-soy,Pb,0.4857,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-concentrated-liquid-non-soy,Cd,0.3905,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-concentrated-liquid-non-soy,tHg,0,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-concentrated-liquid-non-soy,Al,490.1306,,literature-baseline,PASS,
+infant-formula-concentrated-liquid-soy-based,tAs,0.6,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-concentrated-liquid-soy-based,Pb,1.5333,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-concentrated-liquid-soy-based,Cd,1.4004,,no-data,PASS,
+infant-formula-concentrated-liquid-soy-based,tHg,0,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-concentrated-liquid-soy-based,Al,1842.198,,literature-baseline,PASS,
+infant-formula-powder,Ni,0.0881,,literature-baseline,PASS,
+infant-formula-powder,Cd,0.193,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-powder,Pb,17.2772,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-powder,tHg,1067.066,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-powder-non-soy,Pb,20,20,regulatory-alignment,PASS,
+infant-formula-powder-non-soy,Cd,8.6552,10,literature-baseline,PASS,
+infant-formula-powder-non-soy,tAs,923.3316,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending"
+infant-formula-powder-non-soy,iAs,8.6554,20,literature-baseline,PASS,
+infant-formula-powder-non-soy,tHg,11.3324,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending"
+infant-formula-powder-non-soy,Ni,416.7045,,literature-baseline,PASS,
+infant-formula-powder-non-soy,Al,6040.6687,,literature-baseline,PASS,
+infant-formula-powder-non-soy,Cr-VI,34.7047,,literature-baseline,PASS,
+infant-formula-powder-non-soy,Sn,76.2,,literature-baseline,PASS,
+infant-formula-powder-soy-based,Al,7245.9175,,literature-baseline,PASS,
+infant-formula-powder-soy-based,Ni,1267,,literature-baseline,PASS,
+infant-formula-powder-soy-based,Cd,20,20,regulatory-alignment,PASS,
+infant-formula-powder-soy-based,Pb,20,20,regulatory-alignment,PASS,
+infant-formula-powder-soy-based,tAs,6.937,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-powder-soy-based,tHg,11.3348,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-powder-soy-based,iAs,4.6,20,literature-baseline,PASS,
+infant-formula-powder-soy-based,Sn,4.556,,literature-baseline,PASS,
+infant-formula-rtf-liquid-non-soy,Al,714.4781,,literature-baseline,PASS,
+infant-formula-rtf-liquid-non-soy,Ni,19.4078,,literature-baseline,PASS,
+infant-formula-rtf-liquid-non-soy,Cd,0.7609,5,literature-baseline,PASS,
+infant-formula-rtf-liquid-non-soy,tAs,2.2862,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-rtf-liquid-non-soy,Pb,1.4981,10,literature-baseline,PASS,
+infant-formula-rtf-liquid-non-soy,tHg,0.1993,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-rtf-liquid-non-soy,iAs,0.3883,10,literature-baseline,PASS,
+infant-formula-rtf-liquid-non-soy,Sn,3.1332,,literature-baseline,PASS,
+infant-formula-rtf-liquid-soy-based,Al,768.7472,,literature-baseline,PASS,
+infant-formula-rtf-liquid-soy-based,Cd,3.6165,10,literature-baseline,PASS,
+infant-formula-rtf-liquid-soy-based,tAs,0.9851,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-formula-rtf-liquid-soy-based,Pb,1.7054,10,literature-baseline,PASS,
+infant-formula-rtf-liquid-soy-based,tHg,0,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-rice-cereal,Cd,45.5623,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+infant-rice-cereal,iAs,220.5365,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+leafy-vegetables-other,Cd,0.038,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+leafy-vegetables-other,Ni,2.3,,literature-baseline,PASS,
+legumes-pulses-other,Cd,8.6656,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+lipstick,Pb,0.2134,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+makeup-foundation-powders-blush,Cd,0.0042,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+makeup-foundation-powders-blush,Pb,1.3835,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+meat-and-poultry-purees,Pb,10,10,regulatory-alignment,PASS,
+meat-and-poultry-purees,Cd,40,40,regulatory-alignment,PASS,
+meat-and-poultry-purees,tHg,3.9151,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+meat-and-poultry-purees,Al,2202.8701,,literature-baseline,PASS,
+meat-and-poultry-purees,Ni,70.5585,,literature-baseline,PASS,
+meat-and-poultry-purees,Sn,264.2024,,literature-baseline,PASS,
+mixed-meals-non-rice,iAs,7.5051,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+mixed-meals-non-rice,Cd,5.1489,40,literature-baseline,PASS,
+mixed-meals-non-rice,Pb,7.6353,10,literature-baseline,PASS,
+mixed-meals-non-rice,tAs,24.9374,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+mixed-meals-non-rice,tHg,2.5849,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+mixed-meals-non-rice,Ni,57.5512,,literature-baseline,PASS,
+mixed-meals-rice-containing,iAs,12.3796,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+mixed-meals-rice-containing,Cd,9.73,40,literature-baseline,PASS,
+mixed-meals-rice-containing,Pb,10,10,regulatory-alignment,PASS,
+mixed-meals-rice-containing,tAs,45.03,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+mixed-meals-rice-containing,tHg,0,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+mixed-meals-rice-containing,Ni,14.8845,,literature-baseline,PASS,
+non-root-vegetable-purees,Cd,1.5381,40,literature-baseline,PASS,
+non-root-vegetable-purees,Pb,5.1452,10,literature-baseline,PASS,
+non-root-vegetable-purees,tAs,5.0026,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+non-root-vegetable-purees,tHg,1.5003,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+non-root-vegetables,Pb,380.656,,no-data,PASS,
+non-root-vegetables,Cd,373.7567,,no-data,PASS,
+non-root-vegetables,tAs,1532.3437,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+non-root-vegetables,Al,0.1078,,literature-baseline,PASS,
+non-root-vegetables,Ni,2213.6822,,no-data,PASS,
+nuts-seeds-other,Pb,965.6792,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+nuts-seeds-other,Cd,383.0208,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+nuts-seeds-other,Ni,2068.3835,,literature-baseline,PASS,
+nuts-seeds-other,Al,21434.2337,,literature-baseline,PASS,
+olive-oil,Pb,69.7254,100,literature-baseline,PASS,
+olive-oil,Cd,3.1023,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+olive-oil,tAs,607.9522,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+olive-oil,Ni,577.0539,,literature-baseline,HOLD,C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending
+olive-oil,Al,581.6188,,literature-baseline,PASS,
+pet-food-dry-kibble,tAs,94.1869,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+pet-food-dry-kibble,tHg,1292.0052,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+pet-food-dry-kibble,Pb,79687.8421,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+pet-food-dry-kibble,Cd,149.2,,no-data,PASS,
+plant-milks-rice-based,iAs,30,30,regulatory-alignment,PASS,
+plant-milks-soy-based,Al,758,,literature-baseline,PASS,
+pork-product,Pb,1.0224,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+pork-product,Cd,0.2266,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+poultry-product,Pb,1070.6288,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+poultry-product,Cd,82.4072,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+poultry-product,Cr-VI,1.5946,,literature-baseline,PASS,
+processed-meats,Pb,0.2197,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+processed-meats,Cd,0.1082,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+processed-meats,tAs,0.1023,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+rice-bulk-grain,tHg,2360.6637,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+rice-bulk-grain,Cd,81.266,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+rice-bulk-grain,iAs,56.94,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+rice-bulk-grain,tAs,15000,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+rice-snacks-crackers,iAs,0.042,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+root-tuber-vegetables,Pb,45.3889,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+root-tuber-vegetables,Cd,175.6976,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+root-tuber-vegetables,Ni,2.2,,literature-baseline,PASS,
+root-vegetable-purees,Cd,5.0028,40,literature-baseline,PASS,
+root-vegetable-purees,Pb,17.3036,20,literature-baseline,PASS,
+root-vegetable-purees,tAs,12.0094,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+root-vegetable-purees,tHg,1.5,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+salt,Pb,181.8199,1000,literature-baseline,PASS,
+salt,Cd,16.6321,500,literature-baseline,PASS,
+salt,Al,164000,,literature-baseline,PASS,
+salt,tAs,7.7168,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+seafood,Cd,270,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+seafood,tAs,110000,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+seafood,MeHg,2108.2427,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+seafood,tHg,200.2554,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+seafood,iAs,74690.9768,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+seaweed-kelp-foods,iAs,1829.1142,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+seaweed-kelp-foods,tAs,5516.4765,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending"
+seaweed-kelp-foods,Cd,1241.3061,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+seaweed-kelp-foods,Pb,13020.4082,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+seaweed-kelp-foods,tHg,62.9155,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+shellfish,Cd,1000,1000,regulatory-alignment,PASS,
+shellfish,iAs,34.2337,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending"
+shellfish,Pb,1500,1500,regulatory-alignment,PASS,
+shellfish,tHg,376.4919,500,literature-baseline,PASS,
+shellfish,tAs,33023.1401,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+shellfish,Ni,12189.015,,literature-baseline,PASS,
+shellfish,MeHg,140.72,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+snacks-crackers-biscuits,Pb,935.0197,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+snacks-crackers-biscuits,Cd,25.6876,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+spices,Pb,600,600,regulatory-alignment,PASS,
+spices,Cd,623.2948,,no-data,PASS,
+spices,tAs,702.9366,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+spices,tHg,1501.5989,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+spices,Ni,6976.2889,,literature-baseline,PASS,
+spices,Al,846635.6069,,literature-baseline,PASS,
+spices,Sn,508.8446,,literature-baseline,PASS,
+spinach,Cd,1.528,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+sun-suntan-products,Pb,3048.9999,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+supplements-oral-solids-tablets,Cd,26.0209,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+supplements-oral-solids-tablets,Al,17.0973,,literature-baseline,PASS,
+tea,Pb,0.4789,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+tea,Cd,0.0647,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+tea,Al,403.4467,,literature-baseline,PASS,
+tea,Ni,15.0264,,literature-baseline,PASS,
+tea,Sn,0.0984,,literature-baseline,PASS,
+tea-infusions,Pb,0.6409,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+tea-infusions,Cd,0.216,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+teething-and-snacks-rice-based,iAs,231.6598,300,literature-baseline,PASS,
+teething-and-snacks-rice-based,Cd,6.8092,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+teething-and-snacks-rice-based,Pb,7.8283,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+teething-and-snacks-rice-based,tAs,121.8012,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+tomato-paste,iAs,22.7436,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+tomato-paste,Pb,23.2478,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+toothpaste,Pb,1.8651,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+toys-painted,tAs,0.9441,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+vegetable-juices-non-root,Pb,20,20,regulatory-alignment,PASS,
+vegetable-juices-root-vegetable-containing,Pb,20,20,regulatory-alignment,PASS,
+vinegar,Pb,868.4254,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending"
+vinegar,tAs,205.6072,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+vinegar,Cd,51.0834,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+vinegar,Ni,334.6261,,literature-baseline,PASS,
+vinegar,tHg,0.4057,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+vinegar,Al,4859.3046,,literature-baseline,PASS,
