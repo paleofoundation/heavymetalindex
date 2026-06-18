@@ -21,6 +21,14 @@ const category = args.get("category") || "6"
 
 // --- per-category config (extend as categories finalize) ---
 const CATEGORIES = {
+  "24": {
+    title: "Butter and Ghee",
+    subtitle: "Butter and Ghee (Dairy Fats)",
+    chapters: [
+      { num: "3.1", slug: "butter-and-ghee", title: "Butter and Ghee" },
+    ],
+    note: "This volume covers the butter-and-ghee dairy-fat subcategory; other dairy rows publish separately as they finalize.",
+  },
   "6": {
     title: "Seafood",
     subtitle: "Seafood (Fish and Shellfish)",
@@ -90,7 +98,7 @@ const master = [
 
 const outDir = path.join(BOOK, "build")
 fs.mkdirSync(outDir, { recursive: true })
-const out = path.join(outDir, `HMTc-${cfg.title}-Program-Manual-2026.md`)
+const out = path.join(outDir, `HMTc-${cfg.title.replace(/\s+/g, "-")}-Program-Manual-2026.md`)
 fs.writeFileSync(out, master)
 const words = master.split(/\s+/).length
 console.log(`Wrote ${path.relative(repoRoot, out)} — ${cfg.chapters.length} standards chapters, ~${Math.round(words / 250)} pages (${words} words)`)
