@@ -264,11 +264,11 @@ seafood,tHg,200.2554,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxi
 seafood,iAs,74690.9768,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 seaweed-kelp-foods,iAs,1829.1142,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 seaweed-kelp-foods,tAs,5516.4765,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending"
-seaweed-kelp-foods,Cd,1241.3061,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+seaweed-kelp-foods,Cd,1874.0873,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 seaweed-kelp-foods,Pb,13020.4082,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 seaweed-kelp-foods,tHg,62.9155,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 shellfish,Cd,1000,1000,regulatory-alignment,PASS,
-shellfish,iAs,34.2337,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending"
+shellfish,iAs,109.4872,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 shellfish,Pb,1500,1500,regulatory-alignment,PASS,
 shellfish,tHg,376.4919,500,literature-baseline,PASS,
 shellfish,tAs,33023.1401,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"

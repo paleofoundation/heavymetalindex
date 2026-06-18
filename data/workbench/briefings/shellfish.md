@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: shellfish
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-17T19:30:25.664Z
+generated_at: 2026-06-18T13:34:11.991Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** whole_row_platform
 **Native basis for published thresholds:** as_sold
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-06-17
+**Date generated:** 2026-06-18
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -43,12 +43,12 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
 | Pb | **1500 ppb** [as-sold]<br>≈ 500 ppb [prepared] | 3043.451 ppb (capped to 1500 by reg cap) | regulatory-alignment | 18 | stable | 1500 ppb (eu2023_pb_bivalve_1500) |
-| iAs | _adjudication pending_<br>≈ 5 ppb [prepared] | 34.234 ppb | literature-baseline | 2 | stable | — |
+| iAs | **200 ppb** [as-sold]<br>≈ 20 ppb [prepared] | 109.487 ppb | literature-baseline | 4 | needs_review | — |
 | tAs | _adjudication pending_<br>≈ 5000 ppb [prepared] | 33023.140 ppb | literature-baseline | 6 | needs_review | — |
 | Ni | **10000 ppb** [as-sold]<br>≈ 2000 ppb [prepared] | 12189.015 ppb | literature-baseline | 5 | provisional | — |
 | Cd | **1000 ppb** [as-sold]<br>≈ 200 ppb [prepared] | 5152.922 ppb (capped to 1000 by reg cap) | regulatory-alignment | 20 | stable | 1000 ppb (eu2023_cd_bivalve_1000) |
 | Al | *data gap* | — | no-data | 0 | no_data | — |
-| tHg | **500 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 376.492 ppb | literature-baseline | 15 | stable | — |
+| tHg | **500 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 376.492 ppb | literature-baseline | 15 | stable | 500 ppb (eu2023_hg_crustaceans_molluscs_500) |
 | MeHg | **200 ppb** [as-sold]<br>≈ 25 ppb [prepared] | 140.720 ppb | literature-baseline | 4 | stable | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
@@ -130,34 +130,36 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### iAs
 
-**Published HMTc threshold:** adjudication pending — held provisional (suspect-fix-mechanical) · 34.234 ppb (pre-rounding)
-**Cross-basis: ≈ 5 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** 200 ppb [as-sold] · 109.487 ppb (pre-rounding)
+**Cross-basis: ≈ 20 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
-**Pool composition:** 2 sources contributing · 2 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [4.32, 35] ppb**
-**Sensitivity: log-normal 34.24 · gamma 34.24 · nonparametric 34.24 ppb · spread 0% (stable)**
+**Pool composition:** 4 sources contributing · 34 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [27.13, 221.49] ppb**
+**Sensitivity: log-normal 69.42 · gamma 162.83 · nonparametric 88.98 ppb · spread 57% (needs_review)**
 
 
 
-**Defensibility.** Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+**Defensibility.** Pooled P97 from 4 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+**Brand legal read.** The value is pooled P97 from 4 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 50 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 200 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 2 contributing sources across multiple jurisdictions. Sensitivity band stable.
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 4 contributing sources across multiple jurisdictions. Sensitivity band needs_review.
 
 <details>
-<summary>Per-source contribution log (2 admitted)</summary>
+<summary>Per-source contribution log (4 admitted)</summary>
 
 | Source | Title | Basis | N used | Reconstruction | Pool share |
 |---|---|---|---:|---|---:|
-| fera2015-uk-tds-metals (2015) · GB | Total Diet Study of metals and other elements in food | shellfish composite, as consumed/as prepared | 1 | single_point | 50.0% |
-| macdonald2025-fss-uk-fishery-contaminants-review (2025) · GB, EU | Occurrence of chemical contaminants in wild-caught fishery p… | crab/lobster shellfish subset, whole weight/wet weight | 5 | uniform_max_only | 50.0% |
+| fera2015-uk-tds-metals (2015) · GB | Total Diet Study of metals and other elements in food | shellfish composite, as consumed/as prepared | 1 | single_point | 2.9% |
+| macdonald2025-fss-uk-fishery-contaminants-review (2025) · GB, EU | Occurrence of chemical contaminants in wild-caught fishery p… | crab/lobster shellfish subset, whole weight/wet weight | 5 | uniform_max_only | 14.7% |
+| munoz1999-seafood-inorganic-arsenic (1999) · ES | Rapid and quantitative release, separation and determination… | shellfish soft tissue, wet weight | 11 | lognormal_mean_median | 32.4% |
+| schoof2007-seafood-arsenic-speciation (2007) · US, ES, NO, TH | Variation of total and speciated arsenic in commonly consume… | seafood soft tissue, wet weight | 120 | lognormal_mean_max | 50.0% |
 
 </details>
 
@@ -313,14 +315,14 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Published HMTc threshold:** 500 ppb [as-sold] · 376.492 ppb (pre-rounding)
 **Cross-basis: ≈ 100 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
-**Regulatory ceiling reference:** no applicable cap loaded
+**Regulatory ceiling reference:** 500 ppb (eu2023_hg_crustaceans_molluscs_500)
 **Pool composition:** 15 sources contributing · 1260 pseudo-samples in pool · 1 sample-level contributors
 **Bootstrap 95% CI: [133.06, 817.96] ppb**
 **Sensitivity: log-normal 392.21 · gamma 403.85 · nonparametric 372.65 ppb · spread 8% (stable)**
 
 
 
-**Defensibility.** Pooled P97 from 15 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+**Defensibility.** Pooled P97 from 15 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 500 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
 <!-- audience: brand-legal -->
 **Brand legal read.** The value is pooled P97 from 15 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
@@ -476,12 +478,14 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 | `helcom2017-core-indicator-metals-baltic` (A) | Metals (lead, cadmium and mercury) — HELCOM core indicator report | HELCOM; Zalewska T; Larsen MM; Fryer R; Danielsson S; Nyberg E · 2017 · HELCOM Core Indicator Report (HOLAS II component), ISSN 2343-2543 · doi:null |
 | `lordan2022-brown-crab-cadmium-review` (A) | Cadmium: A Focus on the Brown Crab (Cancer pagurus) Industry and Potential Human Health Risks | Ronan Lordan; Ioannis Zabetakis · 2022 · Toxics · doi:10.3390/toxics10100591 |
 | `macdonald2025-fss-uk-fishery-contaminants-review` (A) | Occurrence of chemical contaminants in wild-caught fishery products of relevance to Scottish and wider UK Fishing Waters: A Review | MacDonald S; Stead S; Rose M; Boss K; Campbell K · 2025 · Fera Science Ltd report to Food Standards Scotland (Report FR/002826) · doi:null |
+| `munoz1999-seafood-inorganic-arsenic` (A) | Rapid and quantitative release, separation and determination of inorganic arsenic [As(III)+As(V)] in seafood products by microwave-assisted distillation and hydride generation atomic absorption spectrometry | Munoz O; Velez D; Cervera ML; Montoro R · 1999 · Journal of Analytical Atomic Spectrometry · doi:10.1039/a904999a |
 | `nielsen1975-nz-molluscs-heavy-metals` (B) | Heavy metal levels in New Zealand molluscs | Nielsen SA; Nathan A · 1975 · New Zealand Journal of Marine and Freshwater Research 9(4), 467-481 · doi:10.1080/00288330.1975.9515582 |
 | `onyegeme-okerenta2023-shellfish-nigeria` (A) | Potential Toxic elements in shellfish from three rivers in Niger Delta, Nigeria: bioaccumulation, dietary intake, and human health risk assessment | Onyegeme-Okerenta BM; West LO · 2023 · Environmental Analysis, Health and Toxicology · doi:10.5620/eaht.2023015 |
 | `pawlaczyk2020-mercury-canned-fish-poland` (A) | Risk of Mercury Ingestion from Canned Fish in Poland | Pawlaczyk A; Przerywacz A; Gajek M; Szynkowska-Jozwik MI · 2020 · Molecules · doi:10.3390/molecules25245884 |
 | `rajeshkumar2018-taihu-lake-fish-oyster-metals` (A) | Studies on seasonal pollution of heavy metals in water, sediment, fish and oyster from the Meiliang Bay of Taihu Lake in China | Rajeshkumar S; Liu Y; Zhang X; Ravikumar B; Bai G; Li X · 2018 · Chemosphere · doi:10.1016/j.chemosphere.2017.10.078 |
 | `raju2021-bivalves-cagayan-philippines` (B) | Heavy Metal Determination of Bivalves in Cagayan Valley, Philippines | Raju J; Johnson J; Jeevan A; Capili JT · 2021 · Scholars Academic Journal of Biosciences 9(10):256-258 · doi:10.36347/sajb.2021.v09i10.001 |
 | `romero-estevez2020-bivalves-santa-rosa-ecuador` (B) | An Overview of Cadmium, Chromium, and Lead Content in Bivalves Consumed by the Community of Santa Rosa Island (Ecuador) and Its Health Risk Assessment | Romero-Estévez D; Yánez-Jácome GS; Dazzini Langdon M; Simbaña-Farinango K; Rebolledo Monsalve E; Durán Cobo G; Navarrete H · 2020 · Frontiers in Environmental Science 8:134 · doi:10.3389/fenvs.2020.00134 |
+| `schoof2007-seafood-arsenic-speciation` (B) | Variation of total and speciated arsenic in commonly consumed fish and seafood | Schoof RA; Yager JW · 2007 · Human and Ecological Risk Assessment · doi:10.1080/10807030701506454 |
 | `sepulveda2020-callista-clam-metals` (B) | Trace metals in two wild populations of the squalid callista clam (Megapitaria squalida) in the southeastern Gulf of California, Mexico | Sepulveda Carlos Humberto; Gongora-Gomez Andres Martin; Perez-Alvarez Sandra; Rodriguez-Gonzalez Hervey; Munoz-Sevilla Norma Patricia; Villanueva-Fonseca Brenda Paulina; Hernandez-Sepulveda Juan Antonio; Garcia-Ulloa Gomez Manuel · 2020 · Revista Internacional de Contaminacion Ambiental · doi:10.20937/rica.53565 |
 | `shue2012-bivalves-tapeng-taiwan` (B) | Seasonal variations of heavy metals in the bivalve's mollusks from Ta-Peng Bay lagoon in southwestern Taiwan | Shue MF; Chen JJ; Tseng LH; Lai WL · 2012 · Advanced Materials Research · doi:10.4028/www.scientific.net/AMR.599.100 |
 | `singhato2025-thailand-seafood-heavy-metals` (A) | Risk Assessment of Toxic Heavy Metal Exposure in Selected Seafood Species from Thailand | Alongkote Singhato; Narisa Rueangsri; Purimprat Thanaratsotornkun; Konpong Boonyingsathit; Piyanut Sridonpai; Nunnapus Laitip; Nattikarn Ornthai; Kunchit Judprasong · 2025 · Foods · doi:10.3390/foods14213725 |
@@ -505,17 +509,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `ab29385c5de7db8654be6c315d1657f93e89b1a4` in the heavymetalindex.com repository.
+1. Checking out commit `e51473a013e92827fd88e3716dd7713928984779` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=shellfish` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-17T19:30:25.674Z |
+| Generated at | 2026-06-18T13:34:12.002Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `ab29385c5de7db8654be6c315d1657f93e89b1a4` |
+| Git commit | `e51473a013e92827fd88e3716dd7713928984779` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

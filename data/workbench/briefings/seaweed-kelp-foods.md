@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: seaweed-kelp-foods
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-17T19:30:25.747Z
+generated_at: 2026-06-18T13:34:12.076Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** whole_row_platform
 **Native basis for published thresholds:** as_sold
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-06-17
+**Date generated:** 2026-06-18
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -46,7 +46,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | iAs | **2000 ppb** [as-sold]<br>≈ 500 ppb [prepared] | 1829.114 ppb | literature-baseline | 4 | stable | — |
 | tAs | _adjudication pending_<br>≈ 1000 ppb [prepared] | 5516.476 ppb | literature-baseline | 3 | stable | — |
 | Ni | *data gap* | — | no-data | 0 | no_data | — |
-| Cd | _adjudication pending_<br>≈ 200 ppb [prepared] | 1241.306 ppb | literature-baseline | 3 | needs_review | — |
+| Cd | **2000 ppb** [as-sold]<br>≈ 500 ppb [prepared] | 1874.087 ppb | literature-baseline | 5 | stable | — |
 | tHg | **100 ppb** [as-sold]<br>≈ 10 ppb [prepared] | 62.916 ppb | literature-baseline | 1 | stable | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
@@ -149,7 +149,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### tAs
 
-**Published HMTc threshold:** adjudication pending — held provisional (suspect-needs-karen) · 5516.476 ppb (pre-rounding)
+**Published HMTc threshold:** adjudication pending — held provisional (wrong-analyte-not-material) · 5516.476 ppb (pre-rounding)
 **Cross-basis: ≈ 1000 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
@@ -206,35 +206,37 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Cd
 
-**Published HMTc threshold:** adjudication pending — held provisional (sensitivity-needs-review) · 1241.306 ppb (pre-rounding)
-**Cross-basis: ≈ 200 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** 2000 ppb [as-sold] · 1874.087 ppb (pre-rounding)
+**Cross-basis: ≈ 500 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
-**Pool composition:** 3 sources contributing · 9 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [36.99, 4084.43] ppb**
-**Sensitivity: log-normal 1046.76 · gamma 2022.26 · nonparametric 3324.21 ppb · spread 69% (needs_review)**
+**Pool composition:** 5 sources contributing · 54 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [870.68, 3475.73] ppb**
+**Sensitivity: log-normal 1845.42 · gamma 2074.72 · nonparametric 2370.78 ppb · spread 22% (stable)**
 
 
 
-**Defensibility.** Pooled P97 from 3 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+**Defensibility.** Pooled P97 from 5 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 3 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+**Brand legal read.** The value is pooled P97 from 5 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 1300 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 2000 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 3 contributing sources across multiple jurisdictions. Sensitivity band needs_review.
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 5 contributing sources across multiple jurisdictions. Sensitivity band stable.
 
 <details>
-<summary>Per-source contribution log (3 admitted)</summary>
+<summary>Per-source contribution log (5 admitted)</summary>
 
 | Source | Title | Basis | N used | Reconstruction | Pool share |
 |---|---|---|---:|---|---:|
-| aziz2021-gracilaria-seaweed-bangladesh (2021) · BD | Potential of Gracilaria tenuistipitata var. liui grown in Nu… | dried Gracilaria, dry weight | 3 | lognormal_mean_only | 33.3% |
-| martinleon2021-edible-seaweeds-canary-metals-nitrates (2021) · ES, EU, JP, KR | Human Exposure to Toxic Metals (Cd, Pb, Hg) and Nitrates (NO… | edible algae, dry weight | 3 | lognormal_mean_only | 33.3% |
-| razi-parjikolaei2016-red-macroalgae-metals (2016) · DK | Valuable Biomolecules from Nine North Atlantic Red Macroalga… | red macroalgae, dry matter | 3 | lognormal_mean_only | 33.3% |
+| aziz2021-gracilaria-seaweed-bangladesh (2021) · BD | Potential of Gracilaria tenuistipitata var. liui grown in Nu… | dried Gracilaria, dry weight | 3 | lognormal_mean_only | 5.6% |
+| martinleon2021-edible-seaweeds-canary-metals-nitrates (2021) · ES, EU, JP, KR | Human Exposure to Toxic Metals (Cd, Pb, Hg) and Nitrates (NO… | edible algae, dry weight | 3 | lognormal_mean_only | 5.6% |
+| razi-parjikolaei2016-red-macroalgae-metals (2016) · DK | Valuable Biomolecules from Nine North Atlantic Red Macroalga… | red macroalgae, dry matter | 3 | lognormal_mean_only | 5.6% |
+| hwang2010-dried-seaweed-korea-metals (2010) · KR | Total arsenic, mercury, lead, and cadmium contents in edible… | dried seaweed, dry weight | 426 | lognormal_mean_max | 50.0% |
+| almela2002-algae-food-arsenic-metals (2002) · ES | Heavy Metal, Total Arsenic, and Inorganic Arsenic Contents o… | algae food product, dry weight | 18 | uniform_range_only | 33.3% |
 
 </details>
 
@@ -341,6 +343,7 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 | `aziz2021-gracilaria-seaweed-bangladesh` (A) | Potential of Gracilaria tenuistipitata var. liui grown in Nuniachara, Cox's Bazar, Bangladesh | Aziz A; Hassan A; Roy S K; Haque M Z; Saha B K; Ahmed S; Rahman M; Mohanta L C; Mashuk O F · 2021 · Bangladesh Journal of Scientific and Industrial Research · doi:10.3329/bjsir.v56i1.52694 |
 | `bralatei2017-seaweed-inorganic-arsenic-field-method` (A) | A field deployable method for a rapid screening analysis of inorganic arsenic in seaweed | Bralatei E; Nekrosiute K; Ronan J; Raab A; McGovern E; Stengel DB; Krupp EM; Feldmann J · 2017 · Microchimica Acta · doi:10.1007/s00604-017-2151-1 |
 | `fsanz2012-seaweed-inorganic-arsenic-au` (A) | Survey of Inorganic Arsenic in Seaweed and Seaweed-Containing Products Available in Australia | Food Standards Australia New Zealand · 2012 · Food Standards Australia New Zealand (FSANZ), Survey report · doi:null |
+| `hwang2010-dried-seaweed-korea-metals` (A) | Total arsenic, mercury, lead, and cadmium contents in edible dried seaweed in Korea | Hwang YO; Park SG; Park GY; Choi SM; Kim MY · 2010 · Food Additives & Contaminants: Part B: Surveillance · doi:10.1080/19440040903532079 |
 | `llorente-mirandes2011-commercial-seaweed-arsenic` (A) | Determination of Water-Soluble Arsenic Compounds in Commercial Edible Seaweed by LC-ICPMS | Llorente-Mirandes T; Ruiz-Chancho MJ; Barbero M; Rubio R; López-Sánchez JF · 2011 · Journal of Agricultural and Food Chemistry · doi:10.1021/jf2040466 |
 | `martinleon2021-edible-seaweeds-canary-metals-nitrates` (A) | Human Exposure to Toxic Metals (Cd, Pb, Hg) and Nitrates (NO3−) from Seaweed Consumption | Martín-León V; Paz S; D'Eufemia PA; Plasencia JJ; Sagratini G; Marcantoni G; Navarro-Romero M; Gutiérrez ÁJ; Hardisson A; Rubio-Armendáriz C · 2021 · Applied Sciences · doi:10.3390/app11156934 |
 | `rakib2021-macroalgae-bangladesh-metals` (A) | Macroalgae in biomonitoring of metal pollution in the Bay of Bengal coastal waters of Cox's Bazar and surrounding areas | Rakib Md Refat Jahan; Jolly Y N; Dioses-Salinas Diana Carolina; Pizarro-Ortega Carlos Ivan; De-la-Torre Gabriel Enrique; Khandaker Mayeen Uddin; Alsubaie Abdullah; Almalki Abdulraheem S A; Bradley D A · 2021 · Scientific Reports · doi:10.1038/s41598-021-99750-7 |
@@ -363,17 +366,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `ab29385c5de7db8654be6c315d1657f93e89b1a4` in the heavymetalindex.com repository.
+1. Checking out commit `e51473a013e92827fd88e3716dd7713928984779` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=seaweed-kelp-foods` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-17T19:30:25.757Z |
+| Generated at | 2026-06-18T13:34:12.086Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `ab29385c5de7db8654be6c315d1657f93e89b1a4` |
+| Git commit | `e51473a013e92827fd88e3716dd7713928984779` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 
