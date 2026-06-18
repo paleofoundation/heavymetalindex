@@ -84,6 +84,10 @@ All SKUs entering the HMTc Program must undergo baseline testing across three (3
 
 The three-lot baseline results are evaluated collectively. The initial certification status is assigned based on the worst-performing lot among the three, subject to the decision rules and Tier 1/Tier 2 metal classifications defined in the Governance Policy. If one lot is Status A and another is Status B, the initial assignment is Status B with the CAPA and elevated surveillance obligations that entails.
 
+### 4.3 Expedited Baseline via Prior-Data Credit
+
+A brand operating a mature, accredited lot-testing program may complete the three-lot baseline with a single new full-panel lot under the prior-data-credit pathway defined in Governance Policy §4.5. Up to two of the three baseline lots may be satisfied by qualifying prior results (ISO/IEC 17025-accredited, within the prior twelve months, structured and chain-of-custody documented, basis-comparable), credited per analyte only for the analytes those lots actually measured. The completing lot is sampled under this Schedule's independent-sampling and chain-of-custody requirements (§10) and run across the full panel, including any analyte not covered by the credited prior data. For an analyte established by the completing lot alone, the next two routine surveillance lots serve as confirmatory baseline points; in high-risk categories under monthly surveillance (§5.1), that confirmation completes within the first surveillance cycle. The pathway is not available on the confidential remediation track.
+
 ---
 
 ## 5. Status A: Routine Surveillance Protocol
@@ -323,3 +327,4 @@ This Lot Testing Schedule shall be reviewed at least annually or upon any update
 |---------|------|---------|
 | 1.0 | March 2026 | Initial issuance (PDF). |
 | 2.0 | May 2026 | Markdown migration. No substantive change to testing protocols; reformatted for repo-based version control and cross-referencing with the Program Manual. |
+| 2.1 | June 2026 | Added §4.3 Expedited Baseline via Prior-Data Credit, the testing-schedule companion to Governance Policy §4.5. Completing lot uses independent sampling; new-analyte confirmation folds into routine surveillance. |
