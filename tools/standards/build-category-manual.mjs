@@ -105,7 +105,7 @@ function transformBriefingToChapter(ch) {
   c = stripSection(c, "Anti-Circumvention")
   c = stripSection(c, "Pre-Publication Checklist")
   c = c.replace(/MAX_SOURCE_SHARE\s*=\s*[0-9.]+/g, "the per-source share cap")
-  const opener = `\n*One of ${cfg.chapters.length} per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Held/withdrawn analytes (e.g. total arsenic in fish and seaweed, which is arsenosugar/arsenobetaine-dominated — inorganic arsenic is the toxic and regulated analyte) are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling).*\n`
+  const opener = `\n*One of ${cfg.chapters.length} per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Analytes whose occurrence pool is contaminated, unstable, or analyte-mismatched are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling).*\n`
   c = c.replace(new RegExp(`(# ${ch.num} [^\\n]+)\\n`), `$1\n${opener}`)
   return c
 }
@@ -191,8 +191,25 @@ const ALLOWLIST = [
 // Tokens that are legitimate ONLY inside an allowlisted line.
 const SOFT_TOKENS = [/infant/i, /\bbaby\b/i, /\bbabies\b/i, /young children/i, /rice cereal/i, /children's food/i]
 
-function leakGuard(md) {
+// Cross-category guard. Adapting one category's substitution set to another can leave
+// FOREIGN-category content (e.g. the seafood set keeps "methylmercury speciation for
+// fish-containing products", which is wrong for a butter/oils/salt manual and which the
+// infant denylist would not catch). These fish/marine terms are hard-denied for every
+// category EXCEPT seafood (category 6), where they are the native subject matter. The
+// few EU-regulation cross-references that legitimately name fish caps are allowlisted.
+// Fish/marine NOUNS are the reliable foreign-category signal. "methylmercury"/"MeHg" are
+// NOT denied: they are a legitimate HMTc-10 analyte that appears in every category's
+// reference list and tier tables; the fish nouns catch the actual fish-context leaks.
+const SEAFOOD_DENY = [/\bfish\b/i, /shellfish/i, /seaweed/i, /\bkelp\b/i, /arsenosugar/i, /arsenobetaine/i, /predatory/i, /\bmarine\b/i, /\bmussel/i, /crustacean/i, /bivalve/i]
+const SEAFOOD_ALLOWLIST = [
+  // Real reference-list titles that name fish because they are documents about
+  // methylmercury (a panel analyte). They appear verbatim in every category manual.
+  "Fish Advice: Technical Information",
+]
+
+function leakGuard(md, cat) {
   const failures = []
+  const denyForeign = cat !== "6" // non-seafood manuals must not contain fish/marine content
   const lines = md.split("\n")
   lines.forEach((line, i) => {
     for (const re of HARD_DENY) {
@@ -202,6 +219,12 @@ function leakGuard(md) {
     if (hasSoft) {
       const allowed = ALLOWLIST.some((frag) => line.includes(frag))
       if (!allowed) failures.push(`L${i + 1} UNALLOWLISTED infant token: ${line.trim().slice(0, 120)}`)
+    }
+    if (denyForeign) {
+      for (const re of SEAFOOD_DENY) {
+        if (re.test(line) && !SEAFOOD_ALLOWLIST.some((frag) => line.includes(frag)))
+          failures.push(`L${i + 1} FOREIGN-category (seafood/fish) term '${re.source}': ${line.trim().slice(0, 120)}`)
+      }
     }
   })
   return failures
@@ -261,9 +284,9 @@ const p3end = master.indexOf("<!--PART3-END-->")
 const part3Text = p3start !== -1 ? master.slice(p3start, p3end) : ""
 const wrapperText = p3start !== -1 ? master.slice(0, p3start) + master.slice(p3end) : master
 
-const leaks = leakGuard(wrapperText)
+const leaks = leakGuard(wrapperText, category)
 if (leaks.length) {
-  console.error(`\n[build-category-manual] WRAPPER LEAK-GUARD FAILED — ${leaks.length} Cat-1 term(s) survived outside the allowlisted citations:`)
+  console.error(`\n[build-category-manual] WRAPPER LEAK-GUARD FAILED — ${leaks.length} foreign-category term(s) survived outside the allowlisted citations:`)
   for (const l of leaks) console.error("  - " + l)
   console.error("\nEach line above either needs a substitution in category-substitutions/" + category + ".json,")
   console.error("or, if it is a genuine published-paper title / real citation that must stay verbatim, add a fragment of it to ALLOWLIST in this script.")
@@ -271,7 +294,7 @@ if (leaks.length) {
 }
 console.log("[build-category-manual] wrapper leak-guard: clean (no Cat-1 leakage outside allowlisted citations).")
 
-const p3residue = leakGuard(part3Text)
+const p3residue = leakGuard(part3Text, category)
 if (p3residue.length) {
   console.warn(`\n[build-category-manual] NOTE — ${p3residue.length} Cat-1-template residue line(s) in Part 3 (the seafood Standards Briefings), NOT blocking:`)
   const seen = new Set()
