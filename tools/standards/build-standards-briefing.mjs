@@ -312,9 +312,23 @@ function roundToLadder(value) {
   return INCREMENT_LADDER[INCREMENT_LADDER.length - 1]
 }
 
+// Basis predicate: an as-sold-native category (seafood, oils, etc.) is sold and consumed
+// in the same edible-tissue/as-sold basis. It has NO powder→prepared reconstitution
+// partner, so the 1:7 reconstitution conversion does not apply and no cross-basis
+// [prepared] column should be emitted. The 1:7 ratio is specific to infant formula
+// (powder_as_placed). Lumping as_sold into the reconstitution set is the bug that put a
+// meaningless "≈ X ppb [prepared] (÷7)" column on fish/shellfish rows.
+function isAsSoldBasis(basis) {
+  return basis === "as_sold" || basis === "as_sold_or_source_reported"
+}
+
 function crossBasisEquivalent(value, basis) {
   if (value === null || value === undefined) return null
-  const POWDER = new Set(["powder_as_placed", "as_sold", "as_sold_or_source_reported", "dry_as_sold"])
+  // Only true powder rows reconstitute 1:7. as_sold / as_sold_or_source_reported have no
+  // prepared partner → no cross-basis. (dry_as_sold is left here to preserve the Cat-1
+  // infant-cereal manual's exact reproduction on regeneration; its 1:7 is a separate
+  // infant-review item, not a seafood concern.)
+  const POWDER = new Set(["powder_as_placed", "dry_as_sold"])
   const PREPARED = new Set(["prepared_for_feeding", "as_consumed"])
   if (POWDER.has(basis)) {
     return {
@@ -375,10 +389,10 @@ function renderBriefing(product, analytes, sourceLookup) {
     renderTitle(productLabel, variantRole, nativeBasis, today),
     renderAudienceMap(),
     renderMasterLimitTable(analytes),
-    renderMethodologyOnePage(),
+    renderMethodologyOnePage(nativeBasis),
     renderPerAnalyteSections(analytes, sourceLookup),
-    renderAdversarialRead(analytes),
-    renderAntiCircumvention(),
+    renderAdversarialRead(analytes, nativeBasis),
+    renderAntiCircumvention(nativeBasis),
     renderPrePublicationChecklist(analytes),
     renderSourcesCited(analytes, sourceLookup),
     renderProvenanceFooter(),
@@ -484,7 +498,10 @@ ${rows}
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: \`literature-baseline\` (pooled value binds), \`regulatory-alignment\` (regulatory ceiling binds), \`feasibility-driven\` (analytical method binds), and \`precautionary\` (manual override below pooled and regulatory).`
 }
 
-function renderMethodologyOnePage() {
+function renderMethodologyOnePage(nativeBasis) {
+  const basisPara = isAsSoldBasis(nativeBasis)
+    ? `**Basis.** Each product row's standard is published in the native basis of the product form, the edible form as sold (edible muscle or tissue for fish and shellfish; the product as placed on market for other as-sold forms). Brands ship and test in their product's native as-sold form; the certification mark matches that form. As-sold product is not reconstituted from a concentrate, so no powder-to-prepared conversion applies and the published value is the as-sold value. Sources reporting in a non-native basis are converted into the row's native basis during pooling via documented per-source factors recorded in the contribution log; conversions of unknown factor are flagged and not silently coerced.`
+    : `**Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.`
   return `## Methodology — one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -495,7 +512,7 @@ function renderMethodologyOnePage() {
 
 **Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
-**Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
+${basisPara}
 
 **Regulatory cap.** The final published HMTc value never exceeds the lowest applicable loaded regulatory ceiling, expressed in the product's native basis. When the pooled P97/P45 exceeds the regulatory cap, the cap binds and the rationale tag is \`regulatory-alignment\`. When the pooled value is below the cap, the rationale is \`literature-baseline\` and the cap is shown for context only.
 
@@ -622,10 +639,15 @@ ${rows}
 </details>`
 }
 
-function renderAdversarialRead(analytes) {
+function renderAdversarialRead(analytes, nativeBasis) {
   const provisional = analytes.filter((a) => a.sensitivity_band === "provisional")
   const feasibility = analytes.filter((a) => a.rationale === "feasibility-driven")
   const capBound = analytes.filter((a) => a.rationale === "regulatory-alignment")
+  const attack7 = isAsSoldBasis(nativeBasis)
+    ? `**Attack 7: "Where does basis conversion happen and what authority do you cite?"**
+Response: Published thresholds for this category are in the as-sold edible basis (edible muscle or tissue). As-sold product is not reconstituted from a powder, so no fixed reconstitution ratio is applied and the published value is the as-sold value. Where a source reports in a different basis, the conversion factor is documented per source in the contribution log, and conversions of unknown factor are flagged rather than silently coerced. There is no powder-to-prepared dilution step a brand could exploit to claim compliance in a more favorable basis.`
+    : `**Attack 7: "Where does basis conversion happen and what authority do you cite?"**
+Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.`
   return `## Adversarial Read — what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -642,14 +664,16 @@ Response: P45 of the dirty subcategory's distribution, applied per-analyte, deli
 ${capBound.length > 0 ? `**Attack 4: "Your threshold matches the EU/FDA cap; HMTc adds no value over the regulator."**
 Response: For ${capBound.map((a) => a.metal).join(", ")}, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification — a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.\n\n` : ""}${provisional.length > 0 ? `**Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."**
 Response: The sensitivity bands are explicitly reported per analyte. ${provisional.length} analytes (${provisional.map((a) => a.metal).join(", ")}) are flagged provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.\n\n` : ""}${feasibility.length > 0 ? `**Attack 6: "Methylmercury — you have no data, but you published a value anyway."**
-Response: The four-anchor read-across is documented in the MeHg per-analyte section. The empirical anchor (parent species pool: tHg ≈ 0 ppb in this matrix), the analytical anchor (Path B LOQ × 5), the regulatory anchor (EFSA TWI as exposure context), and the inferential anchor (non-fish matrix chemistry) are independently citable. The published value is the analytical floor — the smallest concentration a competent lab can verify. Tagged \`feasibility-driven\` with scheduled Tier 2 review when MeHg-specific occurrence data lands. The "no data" framing misrepresents the four-anchor defense.\n\n` : ""}**Attack 7: "Where does basis conversion happen and what authority do you cite?"**
-Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
+Response: The four-anchor read-across is documented in the MeHg per-analyte section. The empirical anchor (parent species pool: tHg ≈ 0 ppb in this matrix), the analytical anchor (Path B LOQ × 5), the regulatory anchor (EFSA TWI as exposure context), and the inferential anchor (non-fish matrix chemistry) are independently citable. The published value is the analytical floor — the smallest concentration a competent lab can verify. Tagged \`feasibility-driven\` with scheduled Tier 2 review when MeHg-specific occurrence data lands. The "no data" framing misrepresents the four-anchor defense.\n\n` : ""}${attack7}
 
 **Attack 8: "Show me one source you excluded."**
 Response: No source contributing a usable statistic is excluded. Sources marked "no_usable_statistic" in the contribution log are LOD-censored entries with neither mean nor lb/ub recorded. Sources without a structured CSV row are documented in the routing audit and the gap report; those are extraction gaps, not exclusions, and they are tracked in Phase 1 backlog with target completion timelines.`
 }
 
-function renderAntiCircumvention() {
+function renderAntiCircumvention(nativeBasis) {
+  const move3 = isAsSoldBasis(nativeBasis)
+    ? `**Move 3 — Native basis discipline.** The standard is published in the product's native as-sold basis (edible muscle or tissue). Brands cannot test a diluted, drained, or otherwise differently-prepared form and claim compliance against the as-sold cap. Each row tests in its native as-sold form; any documented basis conversion is for source pooling only, never a substitute for testing in the certified basis.`
+    : `**Move 3 — Native basis discipline.** The standard is published in the product's native basis. Brands cannot reconstitute their powder, test the prepared form, then claim "we meet the standard in prepared basis" against a powder cap. Each row tests in its native form; cross-basis conversions are documented but never substitute.`
   return `## Anti-Circumvention — the six-move argument
 
 Per the hmtc-standards skill rule #6, every Standards Briefing publishes the anti-circumvention argument that defends the program against the most common evasion strategies. The six moves are:
@@ -658,7 +682,7 @@ Per the hmtc-standards skill rule #6, every Standards Briefing publishes the ant
 
 **Move 2 — Row-level certification.** A brand certifies a product (one row, ten analytes simultaneously), not one analyte. The single-analyte attack "you let 70% of brands pass on Pb individually" misses the joint test. Per-analyte P97 delivers ~90% row-pass; the joint discipline is the certification.
 
-**Move 3 — Native basis discipline.** The standard is published in the product's native basis. Brands cannot reconstitute their powder, test the prepared form, then claim "we meet the standard in prepared basis" against a powder cap. Each row tests in its native form; cross-basis conversions are documented but never substitute.
+${move3}
 
 **Move 4 — Regulatory ceiling absolute.** The final HMTc value never exceeds the lowest applicable loaded regulatory cap. Brands cannot game an "HMTc-only" framing — the regulatory cap is the absolute floor on the HMTc limit, regardless of where the pooled literature value falls.
 

@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: fish-marine-non-predatory
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-17T19:30:25.580Z
+generated_at: 2026-06-18T19:37:34.488Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** independent
 **Native basis for published thresholds:** as_sold
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-06-17
+**Date generated:** 2026-06-18
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -42,13 +42,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Pb | **300 ppb** [as-sold]<br>≈ 50 ppb [prepared] | 816.514 ppb (capped to 300 by reg cap) | regulatory-alignment | 3 | stable | 300 ppb (eu2023_pb_fish_muscle_300) |
-| iAs | **200 ppb** [as-sold]<br>≈ 20 ppb [prepared] | 122.099 ppb | literature-baseline | 3 | stable | — |
-| tAs | _adjudication pending_<br>≈ 10000 ppb [prepared] | 83013.966 ppb | literature-baseline | 3 | stable | — |
-| Ni | **500 ppb** [as-sold]<br>≈ 50 ppb [prepared] | 324.294 ppb | literature-baseline | 1 | stable | — |
-| Cd | **50 ppb** [as-sold]<br>≈ 10 ppb [prepared] | 277.083 ppb (capped to 50 by reg cap) | regulatory-alignment | 3 | provisional | 50 ppb (eu2023_cd_fish_muscle_50) |
-| tHg | **500 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 454.197 ppb | literature-baseline | 6 | stable | — |
-| MeHg | **200 ppb** [as-sold]<br>≈ 25 ppb [prepared] | 174.690 ppb | literature-baseline | 10 | stable | — |
+| Pb | **300 ppb** [as-sold] | 761.380 ppb (capped to 300 by reg cap) | regulatory-alignment | 4 | stable | 300 ppb (eu2023_pb_fish_muscle_300) |
+| iAs | **200 ppb** [as-sold] | 122.099 ppb | literature-baseline | 3 | stable | — |
+| tAs | _adjudication pending_ | 82627.236 ppb | literature-baseline | 4 | stable | — |
+| Ni | **500 ppb** [as-sold] | 324.294 ppb | literature-baseline | 1 | stable | — |
+| Cd | **50 ppb** [as-sold] | 277.083 ppb (capped to 50 by reg cap) | regulatory-alignment | 3 | provisional | 50 ppb (eu2023_cd_fish_muscle_50) |
+| tHg | **500 ppb** [as-sold] | 516.042 ppb (capped to 500 by reg cap) | regulatory-alignment | 8 | stable | 500 ppb (eu2023_hg_fish_muscle_500) |
+| MeHg | **200 ppb** [as-sold] | 174.690 ppb | literature-baseline | 10 | stable | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
@@ -64,7 +64,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 **Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
-**Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
+**Basis.** Each product row's standard is published in the native basis of the product form, the edible form as sold (edible muscle or tissue for fish and shellfish; the product as placed on market for other as-sold forms). Brands ship and test in their product's native as-sold form; the certification mark matches that form. As-sold product is not reconstituted from a concentrate, so no powder-to-prepared conversion applies and the published value is the as-sold value. Sources reporting in a non-native basis are converted into the row's native basis during pooling via documented per-source factors recorded in the contribution log; conversions of unknown factor are flagged and not silently coerced.
 
 **Regulatory cap.** The final published HMTc value never exceeds the lowest applicable loaded regulatory ceiling, expressed in the product's native basis. When the pooled P97/P45 exceeds the regulatory cap, the cap binds and the rationale tag is `regulatory-alignment`. When the pooled value is below the cap, the rationale is `literature-baseline` and the cap is shown for context only.
 
@@ -81,16 +81,15 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 ### Pb
 
 **Published HMTc threshold:** 300 ppb [as-sold] · 300 ppb (pre-rounding)
-**Cross-basis: ≈ 50 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 300 ppb (eu2023_pb_fish_muscle_300)
-**Pool composition:** 3 sources contributing · 15 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [94.16, 907.43] ppb**
-**Sensitivity: log-normal 795.59 · gamma 843.71 · nonparametric 823.02 ppb · spread 6% (stable)**
+**Pool composition:** 4 sources contributing · 30 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [89.82, 908.49] ppb**
+**Sensitivity: log-normal 692.82 · gamma 724.63 · nonparametric 808.61 ppb · spread 14% (stable)**
 
 
 
-**Defensibility.** The published value matches the lowest applicable regulatory ceiling (eu2023_pb_fish_muscle_300). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot — the cap binds. The pooled P97 of 816.51 ppb sits above the cap, confirming the cap is the protective constraint.
+**Defensibility.** The published value matches the lowest applicable regulatory ceiling (eu2023_pb_fish_muscle_300). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot — the cap binds. The pooled P97 of 761.38 ppb sits above the cap, confirming the cap is the protective constraint.
 
 <!-- audience: brand-legal -->
 **Brand legal read.** This threshold matches the binding government cap (eu2023_pb_fish_muscle_300). A Daubert challenge on the value reduces to "is eu2023_pb_fish_muscle_300 a legitimate regulatory anchor?" — and the answer is yes, it is published, finalized, and enforced.
@@ -99,23 +98,23 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Retailer compliance read.** A certified product tests at or below 300 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** HMTc threshold = eu2023_pb_fish_muscle_300 cap. The pooled occurrence distribution from 3 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
+**Regulator read.** HMTc threshold = eu2023_pb_fish_muscle_300 cap. The pooled occurrence distribution from 4 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
 
 <details>
-<summary>Per-source contribution log (3 admitted)</summary>
+<summary>Per-source contribution log (4 admitted)</summary>
 
 | Source | Title | Basis | N used | Reconstruction | Pool share |
 |---|---|---|---:|---|---:|
-| macdonald2025-fss-uk-fishery-contaminants-review (2025) · GB, EU | Occurrence of chemical contaminants in wild-caught fishery p… | marine fish whole weight/wet weight as reported | 5 | uniform_max_only | 33.3% |
-| singhato2025-thailand-seafood-heavy-metals (2025) · TH | Risk Assessment of Toxic Heavy Metal Exposure in Selected Se… | marine fish fresh weight | 5 | uniform_max_only | 33.3% |
-| tolkou2023-fish-heavy-metals-review (2023) · AR, BD, CN, ES, GN, IN, IT, PK, PL, SA, SK, TR, VN | Detection of Arsenic, Chromium, Cadmium, Lead, and Mercury i… | marine fish muscle, as reported | 5 | uniform_max_only | 33.3% |
+| macdonald2025-fss-uk-fishery-contaminants-review (2025) · GB, EU | Occurrence of chemical contaminants in wild-caught fishery p… | unknown | 192 | lognormal_mean_max | 50.0% |
+| macdonald2025-fss-uk-fishery-contaminants-review (2025) · GB, EU | Occurrence of chemical contaminants in wild-caught fishery p… | marine fish whole weight/wet weight as reported | 5 | uniform_max_only | 16.7% |
+| singhato2025-thailand-seafood-heavy-metals (2025) · TH | Risk Assessment of Toxic Heavy Metal Exposure in Selected Se… | marine fish fresh weight | 5 | uniform_max_only | 16.7% |
+| tolkou2023-fish-heavy-metals-review (2023) · AR, BD, CN, ES, GN, IN, IT, PK, PL, SA, SK, TR, VN | Detection of Arsenic, Chromium, Cadmium, Lead, and Mercury i… | marine fish muscle, as reported | 5 | uniform_max_only | 16.7% |
 
 </details>
 
 ### iAs
 
 **Published HMTc threshold:** 200 ppb [as-sold] · 122.099 ppb (pre-rounding)
-**Cross-basis: ≈ 20 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 3 sources contributing · 8 pseudo-samples in pool · 0 sample-level contributors
@@ -148,42 +147,41 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### tAs
 
-**Published HMTc threshold:** adjudication pending — held provisional (wrong-analyte-not-material) · 83013.966 ppb (pre-rounding)
-**Cross-basis: ≈ 10000 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** adjudication pending — held provisional (wrong-analyte-not-material) · 82627.236 ppb (pre-rounding)
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
-**Pool composition:** 3 sources contributing · 15 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [3274.66, 107462.96] ppb**
-**Sensitivity: log-normal 87006.27 · gamma 97962.96 · nonparametric 92465.67 ppb · spread 11% (stable)**
+**Pool composition:** 4 sources contributing · 16 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [2645.55, 106128.40] ppb**
+**Sensitivity: log-normal 86257.33 · gamma 97943.14 · nonparametric 92103.84 ppb · spread 12% (stable)**
 
 
 
-**Defensibility.** Pooled P97 from 3 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+**Defensibility.** Pooled P97 from 4 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 3 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+**Brand legal read.** The value is pooled P97 from 4 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 <!-- audience: retailer-compliance -->
 **Retailer compliance read.** A certified product tests at or below 10000 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 3 contributing sources across multiple jurisdictions. Sensitivity band stable.
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 4 contributing sources across multiple jurisdictions. Sensitivity band stable.
 
 <details>
-<summary>Per-source contribution log (3 admitted)</summary>
+<summary>Per-source contribution log (4 admitted)</summary>
 
 | Source | Title | Basis | N used | Reconstruction | Pool share |
 |---|---|---|---:|---|---:|
-| macdonald2025-fss-uk-fishery-contaminants-review (2025) · GB, EU | Occurrence of chemical contaminants in wild-caught fishery p… | marine fish whole weight/wet weight as reported | 5 | uniform_max_only | 33.3% |
-| singhato2025-thailand-seafood-heavy-metals (2025) · TH | Risk Assessment of Toxic Heavy Metal Exposure in Selected Se… | marine fish fresh weight | 5 | uniform_max_only | 33.3% |
-| tolkou2023-fish-heavy-metals-review (2023) · AR, BD, CN, ES, GN, IN, IT, PK, PL, SA, SK, TR, VN | Detection of Arsenic, Chromium, Cadmium, Lead, and Mercury i… | marine fish muscle, as reported | 5 | uniform_max_only | 33.3% |
+| macdonald2025-fss-uk-fishery-contaminants-review (2025) · GB, EU | Occurrence of chemical contaminants in wild-caught fishery p… | unknown | 192 | single_point | 6.3% |
+| macdonald2025-fss-uk-fishery-contaminants-review (2025) · GB, EU | Occurrence of chemical contaminants in wild-caught fishery p… | marine fish whole weight/wet weight as reported | 5 | uniform_max_only | 31.3% |
+| singhato2025-thailand-seafood-heavy-metals (2025) · TH | Risk Assessment of Toxic Heavy Metal Exposure in Selected Se… | marine fish fresh weight | 5 | uniform_max_only | 31.3% |
+| tolkou2023-fish-heavy-metals-review (2023) · AR, BD, CN, ES, GN, IN, IT, PK, PL, SA, SK, TR, VN | Detection of Arsenic, Chromium, Cadmium, Lead, and Mercury i… | marine fish muscle, as reported | 5 | uniform_max_only | 31.3% |
 
 </details>
 
 ### Ni
 
 **Published HMTc threshold:** 500 ppb [as-sold] · 324.294 ppb (pre-rounding)
-**Cross-basis: ≈ 50 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 1 sources contributing · 1 pseudo-samples in pool · 0 sample-level contributors
@@ -215,7 +213,6 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 ### Cd
 
 **Published HMTc threshold:** 50 ppb [as-sold] · 50 ppb (pre-rounding)
-**Cross-basis: ≈ 10 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 50 ppb (eu2023_cd_fish_muscle_50)
 **Pool composition:** 3 sources contributing · 15 pseudo-samples in pool · 0 sample-level contributors
@@ -248,45 +245,45 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### tHg
 
-**Published HMTc threshold:** 500 ppb [as-sold] · 454.197 ppb (pre-rounding)
-**Cross-basis: ≈ 100 ppb [prepared] (÷7 (1:7 reconstitution))**
-**Rationale tag:** `literature-baseline`
-**Regulatory ceiling reference:** no applicable cap loaded
-**Pool composition:** 6 sources contributing · 50 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [145.93, 1016.73] ppb**
-**Sensitivity: log-normal 453.75 · gamma 454.72 · nonparametric 454.68 ppb · spread 0% (stable)**
+**Published HMTc threshold:** 500 ppb [as-sold] · 500 ppb (pre-rounding)
+**Rationale tag:** `regulatory-alignment`
+**Regulatory ceiling reference:** 500 ppb (eu2023_hg_fish_muscle_500)
+**Pool composition:** 8 sources contributing · 818 pseudo-samples in pool · 1 sample-level contributors
+**Bootstrap 95% CI: [277.86, 986.57] ppb**
+**Sensitivity: log-normal 638.60 · gamma 660.26 · nonparametric 584.44 ppb · spread 12% (stable)**
 
 
 
-**Defensibility.** Pooled P97 from 6 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+**Defensibility.** The published value matches the lowest applicable regulatory ceiling (eu2023_hg_fish_muscle_500). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot — the cap binds. The pooled P97 of 516.04 ppb sits above the cap, confirming the cap is the protective constraint.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 6 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+**Brand legal read.** This threshold matches the binding government cap (eu2023_hg_fish_muscle_500). A Daubert challenge on the value reduces to "is eu2023_hg_fish_muscle_500 a legitimate regulatory anchor?" — and the answer is yes, it is published, finalized, and enforced.
 
 <!-- audience: retailer-compliance -->
 **Retailer compliance read.** A certified product tests at or below 500 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 6 contributing sources across multiple jurisdictions. Sensitivity band stable.
+**Regulator read.** HMTc threshold = eu2023_hg_fish_muscle_500 cap. The pooled occurrence distribution from 8 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
 
 <details>
-<summary>Per-source contribution log (6 admitted)</summary>
+<summary>Per-source contribution log (8 admitted)</summary>
 
 | Source | Title | Basis | N used | Reconstruction | Pool share |
 |---|---|---|---:|---|---:|
-| brodziak-dopierala2023-mercury-fish-poland (2023) · PL, EU | Analysis of the Mercury Content in Fish for Human Consumptio… | marine fish edible flesh, wet weight | 5 | uniform_max_only | 10.0% |
+| macdonald2025-fss-uk-fishery-contaminants-review (2025) · GB, EU | Occurrence of chemical contaminants in wild-caught fishery p… | unknown | 192 | lognormal_mean_max | 23.5% |
+| macdonald2025-fss-uk-fishery-contaminants-review (2025) · GB, EU | Occurrence of chemical contaminants in wild-caught fishery p… | unknown | 192 | lognormal_mean_max | 23.5% |
+| brodziak-dopierala2023-mercury-fish-poland (2023) · PL, EU | Analysis of the Mercury Content in Fish for Human Consumptio… | marine fish edible flesh, wet weight | 5 | uniform_max_only | 0.6% |
 | garofalo2025-seafood-cd-pb-hg-italy-10yr (2025) · IT, EU | Monitoring of Cadmium, Lead, and Mercury Levels in Seafood P… | marine fish, wet weight | 1142 | percentile_interpolation | 50.0% |
-| helcom2017-core-indicator-metals-baltic (2017) · EU, DE, DK, EE, FI, LV, LT, PL, RU, SE | Metals (lead, cadmium and mercury) — HELCOM core indicator r… | fish muscle, wet weight | 5 | uniform_max_only | 10.0% |
-| macdonald2025-fss-uk-fishery-contaminants-review (2025) · GB, EU | Occurrence of chemical contaminants in wild-caught fishery p… | marine fish whole weight/wet weight as reported | 5 | uniform_max_only | 10.0% |
-| singhato2025-thailand-seafood-heavy-metals (2025) · TH | Risk Assessment of Toxic Heavy Metal Exposure in Selected Se… | marine fish fresh weight | 5 | uniform_max_only | 10.0% |
-| tolkou2023-fish-heavy-metals-review (2023) · AR, BD, CN, ES, GN, IN, IT, PK, PL, SA, SK, TR, VN | Detection of Arsenic, Chromium, Cadmium, Lead, and Mercury i… | marine fish muscle, as reported | 5 | uniform_max_only | 10.0% |
+| helcom2017-core-indicator-metals-baltic (2017) · EU, DE, DK, EE, FI, LV, LT, PL, RU, SE | Metals (lead, cadmium and mercury) — HELCOM core indicator r… | fish muscle, wet weight | 5 | uniform_max_only | 0.6% |
+| macdonald2025-fss-uk-fishery-contaminants-review (2025) · GB, EU | Occurrence of chemical contaminants in wild-caught fishery p… | marine fish whole weight/wet weight as reported | 5 | uniform_max_only | 0.6% |
+| singhato2025-thailand-seafood-heavy-metals (2025) · TH | Risk Assessment of Toxic Heavy Metal Exposure in Selected Se… | marine fish fresh weight | 5 | uniform_max_only | 0.6% |
+| tolkou2023-fish-heavy-metals-review (2023) · AR, BD, CN, ES, GN, IN, IT, PK, PL, SA, SK, TR, VN | Detection of Arsenic, Chromium, Cadmium, Lead, and Mercury i… | marine fish muscle, as reported | 5 | uniform_max_only | 0.6% |
 
 </details>
 
 ### MeHg
 
 **Published HMTc threshold:** 200 ppb [as-sold] · 174.690 ppb (pre-rounding)
-**Cross-basis: ≈ 25 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 10 sources contributing · 10 pseudo-samples in pool · 0 sample-level contributors
@@ -340,13 +337,13 @@ Response: P97 per analyte is calibrated to deliver approximately 90% row-pass fo
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
 
 **Attack 4: "Your threshold matches the EU/FDA cap; HMTc adds no value over the regulator."**
-Response: For Pb, Cd, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification — a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.
+Response: For Pb, Cd, tHg, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification — a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.
 
 **Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."**
 Response: The sensitivity bands are explicitly reported per analyte. 1 analytes (Cd) are flagged provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.
 
 **Attack 7: "Where does basis conversion happen and what authority do you cite?"**
-Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
+Response: Published thresholds for this category are in the as-sold edible basis (edible muscle or tissue). As-sold product is not reconstituted from a powder, so no fixed reconstitution ratio is applied and the published value is the as-sold value. Where a source reports in a different basis, the conversion factor is documented per source in the contribution log, and conversions of unknown factor are flagged rather than silently coerced. There is no powder-to-prepared dilution step a brand could exploit to claim compliance in a more favorable basis.
 
 **Attack 8: "Show me one source you excluded."**
 Response: No source contributing a usable statistic is excluded. Sources marked "no_usable_statistic" in the contribution log are LOD-censored entries with neither mean nor lb/ub recorded. Sources without a structured CSV row are documented in the routing audit and the gap report; those are extraction gaps, not exclusions, and they are tracked in Phase 1 backlog with target completion timelines.
@@ -361,7 +358,7 @@ Per the hmtc-standards skill rule #6, every Standards Briefing publishes the ant
 
 **Move 2 — Row-level certification.** A brand certifies a product (one row, ten analytes simultaneously), not one analyte. The single-analyte attack "you let 70% of brands pass on Pb individually" misses the joint test. Per-analyte P97 delivers ~90% row-pass; the joint discipline is the certification.
 
-**Move 3 — Native basis discipline.** The standard is published in the product's native basis. Brands cannot reconstitute their powder, test the prepared form, then claim "we meet the standard in prepared basis" against a powder cap. Each row tests in its native form; cross-basis conversions are documented but never substitute.
+**Move 3 — Native basis discipline.** The standard is published in the product's native as-sold basis (edible muscle or tissue). Brands cannot test a diluted, drained, or otherwise differently-prepared form and claim compliance against the as-sold cap. Each row tests in its native as-sold form; any documented basis conversion is for source pooling only, never a substitute for testing in the certified basis.
 
 **Move 4 — Regulatory ceiling absolute.** The final HMTc value never exceeds the lowest applicable loaded regulatory cap. Brands cannot game an "HMTc-only" framing — the regulatory cap is the absolute floor on the HMTc limit, regardless of where the pooled literature value falls.
 
@@ -381,7 +378,7 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 | 2 | Every published value has a rationale tag from the allowed vocabulary | ✓ PASS |
 | 3 | Every published value is on the primary increment ladder | ✗ FAIL |
 | 4 | No HMTc value exceeds the lowest applicable regulatory cap | ✓ PASS |
-| 5 | Every basis-tagged value carries the cross-basis equivalent | ✓ PASS |
+| 5 | Every basis-tagged value carries the cross-basis equivalent | ⚠ partial (non-formula rows may have no defined cross-basis) |
 | 6 | The six-move anti-circumvention argument is present | ✓ PASS |
 | 7 | Every contributing source has a source page in `wiki/sources/` | (verified at generation time) |
 | 8 | Human sign-off by Karen + co-authors | ⚠ PENDING (this is the draft) |
@@ -428,17 +425,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `ab29385c5de7db8654be6c315d1657f93e89b1a4` in the heavymetalindex.com repository.
+1. Checking out commit `756c01d83dd5e6e0815cc016b990e494c2c32783` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=fish-marine-non-predatory` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-17T19:30:25.591Z |
+| Generated at | 2026-06-18T19:37:34.498Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `ab29385c5de7db8654be6c315d1657f93e89b1a4` |
+| Git commit | `756c01d83dd5e6e0815cc016b990e494c2c32783` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

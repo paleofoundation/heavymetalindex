@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: seaweed-kelp-foods
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-18T13:34:12.076Z
+generated_at: 2026-06-18T19:43:35.241Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -42,12 +42,12 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Pb | **10000 ppb** [as-sold]<br>≈ 2000 ppb [prepared] | 13020.408 ppb | literature-baseline | 4 | needs_review | — |
-| iAs | **2000 ppb** [as-sold]<br>≈ 500 ppb [prepared] | 1829.114 ppb | literature-baseline | 4 | stable | — |
-| tAs | _adjudication pending_<br>≈ 1000 ppb [prepared] | 5516.476 ppb | literature-baseline | 3 | stable | — |
+| Pb | **10000 ppb** [as-sold] | 13020.408 ppb | literature-baseline | 4 | needs_review | — |
+| iAs | _adjudication pending_ | 69934.012 ppb | literature-baseline | 7 | needs_review | — |
+| tAs | _adjudication pending_ | 5516.476 ppb | literature-baseline | 3 | stable | — |
 | Ni | *data gap* | — | no-data | 0 | no_data | — |
-| Cd | **2000 ppb** [as-sold]<br>≈ 500 ppb [prepared] | 1874.087 ppb | literature-baseline | 5 | stable | — |
-| tHg | **100 ppb** [as-sold]<br>≈ 10 ppb [prepared] | 62.916 ppb | literature-baseline | 1 | stable | — |
+| Cd | **2000 ppb** [as-sold] | 1874.087 ppb | literature-baseline | 5 | stable | — |
+| tHg | **100 ppb** [as-sold] | 62.916 ppb | literature-baseline | 1 | stable | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
@@ -63,7 +63,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 **Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
-**Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
+**Basis.** Each product row's standard is published in the native basis of the product form, the edible form as sold (edible muscle or tissue for fish and shellfish; the product as placed on market for other as-sold forms). Brands ship and test in their product's native as-sold form; the certification mark matches that form. As-sold product is not reconstituted from a concentrate, so no powder-to-prepared conversion applies and the published value is the as-sold value. Sources reporting in a non-native basis are converted into the row's native basis during pooling via documented per-source factors recorded in the contribution log; conversions of unknown factor are flagged and not silently coerced.
 
 **Regulatory cap.** The final published HMTc value never exceeds the lowest applicable loaded regulatory ceiling, expressed in the product's native basis. When the pooled P97/P45 exceeds the regulatory cap, the cap binds and the rationale tag is `regulatory-alignment`. When the pooled value is below the cap, the rationale is `literature-baseline` and the cap is shown for context only.
 
@@ -80,7 +80,6 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 ### Pb
 
 **Published HMTc threshold:** 10000 ppb [as-sold] · 13020.408 ppb (pre-rounding)
-**Cross-basis: ≈ 2000 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 4 sources contributing · 20 pseudo-samples in pool · 0 sample-level contributors
@@ -114,43 +113,44 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### iAs
 
-**Published HMTc threshold:** 2000 ppb [as-sold] · 1829.114 ppb (pre-rounding)
-**Cross-basis: ≈ 500 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** adjudication pending — held provisional (sensitivity-needs-review) · 69934.012 ppb (pre-rounding)
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
-**Pool composition:** 4 sources contributing · 52 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [519.08, 1954.83] ppb**
-**Sensitivity: log-normal 1889.06 · gamma 1690.20 · nonparametric 1766.73 ppb · spread 11% (stable)**
+**Pool composition:** 7 sources contributing · 138 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [1763.90, 81276.38] ppb**
+**Sensitivity: log-normal 77075.51 · gamma 52330.61 · nonparametric 36907.35 ppb · spread 52% (needs_review)**
 
 
 
-**Defensibility.** Pooled P97 from 4 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+**Defensibility.** Pooled P97 from 7 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 4 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+**Brand legal read.** The value is pooled P97 from 7 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 2000 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 10000 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 4 contributing sources across multiple jurisdictions. Sensitivity band stable.
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 7 contributing sources across multiple jurisdictions. Sensitivity band needs_review.
 
 <details>
-<summary>Per-source contribution log (4 admitted)</summary>
+<summary>Per-source contribution log (7 admitted)</summary>
 
 | Source | Title | Basis | N used | Reconstruction | Pool share |
 |---|---|---|---:|---|---:|
-| fsanz2012-seaweed-inorganic-arsenic-au (2012) · AU, NZ | Survey of Inorganic Arsenic in Seaweed and Seaweed-Containin… | dried seaweed, dry weight | 37 | uniform_range_only | 38.5% |
-| almela2002-algae-food-arsenic-metals (2002) · ES | Heavy Metal, Total Arsenic, and Inorganic Arsenic Contents o… | algae food product, dry weight | 15 | uniform_range_only | 28.8% |
-| llorente-mirandes2011-commercial-seaweed-arsenic (2011) · ES | Determination of Water-Soluble Arsenic Compounds in Commerci… | dried seaweed, dry weight | 6 | uniform_range_only | 11.5% |
-| bralatei2017-seaweed-inorganic-arsenic-field-method (2017) · GB, JP, CN, KR, IE | A field deployable method for a rapid screening analysis of … | commercial dried seaweed, dry weight | 11 | uniform_range_only | 21.1% |
+| lynch2014-inorganic-arsenic-food-review (2014) · US | A comprehensive evaluation of inorganic arsenic in food and … | unknown | 312 | lognormal_mean_only | 50.0% |
+| ronan2017-laminaria-ascophyllum-ias-ireland (2017) · IE | High proportions of inorganic arsenic in Laminaria digitata … | dry_as_sold | 30 | uniform_max_only | 7.2% |
+| siregar2025-australian-brown-macroalgae-arsenic (2025) · AU | Distribution of Water-Soluble Arsenic Species in the Sub-tha… | unknown | 7 | uniform_max_only | 5.1% |
+| fsanz2012-seaweed-inorganic-arsenic-au (2012) · AU, NZ | Survey of Inorganic Arsenic in Seaweed and Seaweed-Containin… | dried seaweed, dry weight | 37 | uniform_range_only | 14.5% |
+| almela2002-algae-food-arsenic-metals (2002) · ES | Heavy Metal, Total Arsenic, and Inorganic Arsenic Contents o… | algae food product, dry weight | 15 | uniform_range_only | 10.9% |
+| llorente-mirandes2011-commercial-seaweed-arsenic (2011) · ES | Determination of Water-Soluble Arsenic Compounds in Commerci… | dried seaweed, dry weight | 6 | uniform_range_only | 4.3% |
+| bralatei2017-seaweed-inorganic-arsenic-field-method (2017) · GB, JP, CN, KR, IE | A field deployable method for a rapid screening analysis of … | commercial dried seaweed, dry weight | 11 | uniform_range_only | 8.0% |
 
 </details>
 
 ### tAs
 
 **Published HMTc threshold:** adjudication pending — held provisional (wrong-analyte-not-material) · 5516.476 ppb (pre-rounding)
-**Cross-basis: ≈ 1000 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 3 sources contributing · 12 pseudo-samples in pool · 0 sample-level contributors
@@ -207,7 +207,6 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 ### Cd
 
 **Published HMTc threshold:** 2000 ppb [as-sold] · 1874.087 ppb (pre-rounding)
-**Cross-basis: ≈ 500 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 5 sources contributing · 54 pseudo-samples in pool · 0 sample-level contributors
@@ -243,7 +242,6 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 ### tHg
 
 **Published HMTc threshold:** 100 ppb [as-sold] · 62.916 ppb (pre-rounding)
-**Cross-basis: ≈ 10 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 1 sources contributing · 1 pseudo-samples in pool · 0 sample-level contributors
@@ -288,7 +286,7 @@ Response: P97 per analyte is calibrated to deliver approximately 90% row-pass fo
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
 
 **Attack 7: "Where does basis conversion happen and what authority do you cite?"**
-Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
+Response: Published thresholds for this category are in the as-sold edible basis (edible muscle or tissue). As-sold product is not reconstituted from a powder, so no fixed reconstitution ratio is applied and the published value is the as-sold value. Where a source reports in a different basis, the conversion factor is documented per source in the contribution log, and conversions of unknown factor are flagged rather than silently coerced. There is no powder-to-prepared dilution step a brand could exploit to claim compliance in a more favorable basis.
 
 **Attack 8: "Show me one source you excluded."**
 Response: No source contributing a usable statistic is excluded. Sources marked "no_usable_statistic" in the contribution log are LOD-censored entries with neither mean nor lb/ub recorded. Sources without a structured CSV row are documented in the routing audit and the gap report; those are extraction gaps, not exclusions, and they are tracked in Phase 1 backlog with target completion timelines.
@@ -303,7 +301,7 @@ Per the hmtc-standards skill rule #6, every Standards Briefing publishes the ant
 
 **Move 2 — Row-level certification.** A brand certifies a product (one row, ten analytes simultaneously), not one analyte. The single-analyte attack "you let 70% of brands pass on Pb individually" misses the joint test. Per-analyte P97 delivers ~90% row-pass; the joint discipline is the certification.
 
-**Move 3 — Native basis discipline.** The standard is published in the product's native basis. Brands cannot reconstitute their powder, test the prepared form, then claim "we meet the standard in prepared basis" against a powder cap. Each row tests in its native form; cross-basis conversions are documented but never substitute.
+**Move 3 — Native basis discipline.** The standard is published in the product's native as-sold basis (edible muscle or tissue). Brands cannot test a diluted, drained, or otherwise differently-prepared form and claim compliance against the as-sold cap. Each row tests in its native as-sold form; any documented basis conversion is for source pooling only, never a substitute for testing in the certified basis.
 
 **Move 4 — Regulatory ceiling absolute.** The final HMTc value never exceeds the lowest applicable loaded regulatory cap. Brands cannot game an "HMTc-only" framing — the regulatory cap is the absolute floor on the HMTc limit, regardless of where the pooled literature value falls.
 
@@ -323,7 +321,7 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 | 2 | Every published value has a rationale tag from the allowed vocabulary | ✓ PASS |
 | 3 | Every published value is on the primary increment ladder | ✓ PASS |
 | 4 | No HMTc value exceeds the lowest applicable regulatory cap | ✓ PASS |
-| 5 | Every basis-tagged value carries the cross-basis equivalent | ✓ PASS |
+| 5 | Every basis-tagged value carries the cross-basis equivalent | ⚠ partial (non-formula rows may have no defined cross-basis) |
 | 6 | The six-move anti-circumvention argument is present | ✓ PASS |
 | 7 | Every contributing source has a source page in `wiki/sources/` | (verified at generation time) |
 | 8 | Human sign-off by Karen + co-authors | ⚠ PENDING (this is the draft) |
@@ -345,9 +343,12 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 | `fsanz2012-seaweed-inorganic-arsenic-au` (A) | Survey of Inorganic Arsenic in Seaweed and Seaweed-Containing Products Available in Australia | Food Standards Australia New Zealand · 2012 · Food Standards Australia New Zealand (FSANZ), Survey report · doi:null |
 | `hwang2010-dried-seaweed-korea-metals` (A) | Total arsenic, mercury, lead, and cadmium contents in edible dried seaweed in Korea | Hwang YO; Park SG; Park GY; Choi SM; Kim MY · 2010 · Food Additives & Contaminants: Part B: Surveillance · doi:10.1080/19440040903532079 |
 | `llorente-mirandes2011-commercial-seaweed-arsenic` (A) | Determination of Water-Soluble Arsenic Compounds in Commercial Edible Seaweed by LC-ICPMS | Llorente-Mirandes T; Ruiz-Chancho MJ; Barbero M; Rubio R; López-Sánchez JF · 2011 · Journal of Agricultural and Food Chemistry · doi:10.1021/jf2040466 |
+| `lynch2014-inorganic-arsenic-food-review` (B) | A comprehensive evaluation of inorganic arsenic in food and considerations for dietary intake analyses | Lynch HN; Greenberg GI; Pollock MC; Lewis AS · 2014 · Science of the Total Environment 496:299–313 · doi:10.1016/j.scitotenv.2014.07.032 |
 | `martinleon2021-edible-seaweeds-canary-metals-nitrates` (A) | Human Exposure to Toxic Metals (Cd, Pb, Hg) and Nitrates (NO3−) from Seaweed Consumption | Martín-León V; Paz S; D'Eufemia PA; Plasencia JJ; Sagratini G; Marcantoni G; Navarro-Romero M; Gutiérrez ÁJ; Hardisson A; Rubio-Armendáriz C · 2021 · Applied Sciences · doi:10.3390/app11156934 |
 | `rakib2021-macroalgae-bangladesh-metals` (A) | Macroalgae in biomonitoring of metal pollution in the Bay of Bengal coastal waters of Cox's Bazar and surrounding areas | Rakib Md Refat Jahan; Jolly Y N; Dioses-Salinas Diana Carolina; Pizarro-Ortega Carlos Ivan; De-la-Torre Gabriel Enrique; Khandaker Mayeen Uddin; Alsubaie Abdullah; Almalki Abdulraheem S A; Bradley D A · 2021 · Scientific Reports · doi:10.1038/s41598-021-99750-7 |
 | `razi-parjikolaei2016-red-macroalgae-metals` (A) | Valuable Biomolecules from Nine North Atlantic Red Macroalgae: Amino Acids, Fatty Acids, Carotenoids, Minerals and Metals | Behnaz Razi Parjikolaei; Annette Bruhn; Karin Loft Eybye; Martin Mork Larsen; Michael Bo Rasmussen; Knud Villy Christensen; Xavier C. Frette · 2016 · Natural Resources · doi:10.4236/nr.2016.74016 |
+| `ronan2017-laminaria-ascophyllum-ias-ireland` (A) | High proportions of inorganic arsenic in Laminaria digitata but not in Ascophyllum nodosum samples from Ireland | Ronan JM; Stengel DB; Raab A; Feldmann J; O'Hea L; Bralatei E; McGovern E · 2017 · Chemosphere · doi:10.1016/j.chemosphere.2017.07.076 |
+| `siregar2025-australian-brown-macroalgae-arsenic` (A) | Distribution of Water-Soluble Arsenic Species in the Sub-thallus of Australian Brown Macroalgae | Siregar TH; Bartlett J; Thompson RM · 2025 · Exposure and Health 2025, 17:1023–1036 · doi:10.1007/s12403-025-00708-1 |
 
 In addition to occurrence sources, this briefing cites:
 
@@ -366,17 +367,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `e51473a013e92827fd88e3716dd7713928984779` in the heavymetalindex.com repository.
+1. Checking out commit `756c01d83dd5e6e0815cc016b990e494c2c32783` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=seaweed-kelp-foods` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-18T13:34:12.086Z |
+| Generated at | 2026-06-18T19:43:35.250Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `e51473a013e92827fd88e3716dd7713928984779` |
+| Git commit | `756c01d83dd5e6e0815cc016b990e494c2c32783` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 
