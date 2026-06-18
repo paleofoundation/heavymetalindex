@@ -106,6 +106,9 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 *DOI:* #link("https://doi.org/10.5281/zenodo.20270512")[10.5281/zenodo.20270512]
 
 
+*Revision 2026-06-18.* This printing incorporates the Expedited Baseline via Prior-Data Credit pathway added to the foundational documents (Governance Policy §4.5, reproduced in Part 2.3; Lot Testing Schedule §4.3, reproduced in Part 4). The reproduced Governance Policy and Lot Testing Schedule are updated to version 2.1. A new version DOI is assigned to this printing on deposit.
+
+
 *Copyright* © 2026 Paleo Certified, Inc. dba The Paleo Foundation. All rights reserved. The HMTc Certification Mark, the Paleo Foundation name, and the seal artwork are trademarks of Paleo Certified, Inc. The methodology described in this manual is protected as a trade secret to the extent set forth in the Colophon (back matter).
 
 
@@ -1257,6 +1260,13 @@ Brands whose baseline does not qualify for Status A or B may enter the program u
 
 
 
+=== Expedited Baseline via Prior-Data Credit
+
+
+A brand entering the Program with a documented history of accredited third-party heavy-metal lot testing has, in substance, already begun its baseline. The Program recognizes this directly. Under Governance Policy §4.5, such a brand may credit up to two of the three baseline lots and complete the baseline with a single new full-panel HMTc-methodology lot, shortening time-to-status without compromising the statistical and data-integrity purposes the three-lot baseline exists to serve. The pathway is available only when the prior results are produced by laboratories accredited to ISO/IEC 17025 for the relevant methods and matrices, meeting the limit-of-quantitation requirement for each credited analyte; tested within the twelve months preceding application, each lot a distinct production run; supplied in structured, machine-readable form with chain-of-custody documentation; and expressed in, or reliably convertible to, the row's native basis. A prior lot is credited only for the analytes it actually measured at or below the applicable HMTc limit of quantitation. Any analyte not covered by the credited prior testing receives no credit and is established by the completing lot, which is sampled under the Program's independent-sampling and chain-of-custody requirements and run across the full panel with speciation where required. For an analyte established by the completing lot alone, the next two routine surveillance lots serve as confirmatory baseline points, and the more conservative interpretation governs if they diverge; in high-risk categories under monthly surveillance, that confirmation completes within the first surveillance cycle. The pathway is not available to brands entering under the Confidential Remediation Track, and it does not reduce the per-analyte data requirements for any analyte lacking qualifying prior data.
+
+
+
 == The five statuses
 
 
@@ -1364,6 +1374,7 @@ Brands whose baseline does not qualify for Status A or B may enter the program u
 
 
 - Confidential Remediation Track (for brands whose baseline does not qualify for A or B): Part 2.4.
+- Expedited Baseline via Prior-Data Credit: Governance Policy §4.5; Lot Testing Schedule §4.3 (Part 4).
 - Lot Testing Schedule (testing frequency by Status × Risk Tier): Part 4.
 - CAPA procedures: Part 2.8.
 - Mark Usage Rules: Part 2.5.
@@ -10261,6 +10272,13 @@ The three-lot baseline results are evaluated collectively. The initial certifica
 
 
 
+=== 4.3 Expedited Baseline via Prior-Data Credit
+
+
+A brand operating a mature, accredited lot-testing program may complete the three-lot baseline with a single new full-panel lot under the prior-data-credit pathway defined in Governance Policy §4.5. Up to two of the three baseline lots may be satisfied by qualifying prior results (ISO/IEC 17025-accredited, within the prior twelve months, structured and chain-of-custody documented, basis-comparable), credited per analyte only for the analytes those lots actually measured. The completing lot is sampled under this Schedule's independent-sampling and chain-of-custody requirements (§10) and run across the full panel, including any analyte not covered by the credited prior data. For an analyte established by the completing lot alone, the next two routine surveillance lots serve as confirmatory baseline points; in high-risk categories under monthly surveillance (§5.1), that confirmation completes within the first surveillance cycle. The pathway is not available on the confidential remediation track.
+
+
+
 #line(length: 100%, stroke: 0.4pt + rgb("#bbb"))
 
 
@@ -10757,6 +10775,9 @@ This Lot Testing Schedule shall be reviewed at least annually or upon any update
   [2.0],
   [May 2026],
   [Markdown migration. No substantive change to testing protocols; reformatted for repo-​based version control and cross-​referencing with the Program Manual.],
+  [2.1],
+  [June 2026],
+  [Added §4.3 Expedited Baseline via Prior-​Data Credit, the testing-​schedule companion to Governance Policy §4.5. Completing lot uses independent sampling; new-​analyte confirmation folds into routine surveillance.],
 )
 
 
