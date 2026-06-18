@@ -145,6 +145,18 @@ function loadAdjudicationFlags(slug) {
   return flags
 }
 
+// Cells in the not-material registry render a DEFINITIVE "not material" judgment — the analyte
+// is structurally not a contaminant for this matrix (lipid non-partition, permitted additive,
+// natural accumulator). This is a resolved scientific call, distinct from "adjudication pending".
+function loadNotMaterial(slug) {
+  const p = path.join(path.dirname(pooledPath), "standards-not-material.csv")
+  const flags = new Map()
+  if (!fs.existsSync(p)) return flags
+  for (const r of parseCsv(fs.readFileSync(p, "utf8")))
+    if (r.row_slug === slug) flags.set(r.metal_species, r.rationale || "not a material contaminant for this matrix")
+  return flags
+}
+
 function indexRegulations() {
   const map = new Map()
   if (!fs.existsSync(regulationDir)) return map
@@ -175,6 +187,7 @@ function indexRegulations() {
 function buildAnalyteRecords(product, pooledRows, regs) {
   const rowByMetal = new Map(pooledRows.map((r) => [r.metal_species, r]))
   const adjFlags = loadAdjudicationFlags(product.slug)
+  const notMaterialFlags = loadNotMaterial(product.slug)
   const records = []
   for (const metal of ANALYTE_ORDER) {
     const pooled = rowByMetal.get(metal)
@@ -262,6 +275,8 @@ function buildAnalyteRecords(product, pooledRows, regs) {
       candidate_published: published,
       adjudication_pending: adjFlags.has(metal),
       adjudication_flag: adjFlags.get(metal) || "",
+      not_material: notMaterialFlags.has(metal),
+      not_material_reason: notMaterialFlags.get(metal) || "",
       candidate_basis: basis,
       candidate_cross_basis: cross,
       rationale,
@@ -419,12 +434,14 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 function renderMasterLimitTable(analytes) {
   const rows = analytes
     .map((a) => {
-      const limit = a.adjudication_pending
+      const limit = a.not_material
+        ? `_not material_`
+        : a.adjudication_pending
         ? `_adjudication pending_`
         : a.candidate_published !== null
           ? `**${formatNumber(a.candidate_published)} ppb** ${basisShortLabel(a.candidate_basis)}`
           : "*data gap*"
-      const cross = a.candidate_cross_basis
+      const cross = (!a.not_material && a.candidate_cross_basis)
         ? `≈ ${formatNumber(roundToLadder(a.candidate_cross_basis.value))} ppb ${basisShortLabel(a.candidate_cross_basis.basis)}`
         : ""
       // Show the pre-cap pooled P97 explicitly when the cap binds — that's
@@ -432,7 +449,11 @@ function renderMasterLimitTable(analytes) {
       // For non-cap-bound rows, pooled P97 == candidate. For MeHg read-across
       // rows, pooled P97 is null and we show the read-across-derived value.
       let precise
-      if (a.is_mehg_readacross) {
+      if (a.not_material) {
+        // Show the pool we saw, marked as deliberately not standardized — transparency that
+        // the value was seen and declined as not-material, not missed.
+        precise = a.pooled_p97 !== null ? `${formatNumber(a.pooled_p97, 3)} ppb (pool not standardized — not material)` : "—"
+      } else if (a.is_mehg_readacross) {
         precise = `${formatNumber(a.candidate_precise, 3)} ppb (read-across)`
       } else if (a.pooled_p97 !== null && a.candidate_precise !== null && a.pooled_p97 > a.candidate_precise + 0.01) {
         precise = `${formatNumber(a.pooled_p97, 3)} ppb (capped to ${formatNumber(a.candidate_precise)} by reg cap)`
@@ -491,22 +512,27 @@ function renderPerAnalyteSections(analytes, sourceLookup) {
 }
 
 function renderOneAnalyte(a, sourceLookup) {
-  const lim = a.adjudication_pending ? `adjudication pending — held provisional (${a.adjudication_flag})` : a.candidate_published !== null ? `${formatNumber(a.candidate_published)} ppb ${basisShortLabel(a.candidate_basis)}` : "*data gap*"
-  const precise = a.candidate_precise !== null ? `${formatNumber(a.candidate_precise, 3)} ppb (pre-rounding)` : ""
-  const cross = a.candidate_cross_basis
+  const lim = a.not_material ? `**not material** — ${a.not_material_reason}` : a.adjudication_pending ? `adjudication pending — held provisional (${a.adjudication_flag})` : a.candidate_published !== null ? `${formatNumber(a.candidate_published)} ppb ${basisShortLabel(a.candidate_basis)}` : "*data gap*"
+  // Suppress the pre-rounding pooled value for not-material cells — there is no published number.
+  const precise = (!a.not_material && a.candidate_precise !== null) ? `${formatNumber(a.candidate_precise, 3)} ppb (pre-rounding)` : ""
+  // A not-material cell has no published number — suppress every value-derived render
+  // (cross-basis, CI, numeric sensitivity, and the "tests at or below X ppb" retailer callouts).
+  const cross = (!a.not_material && a.candidate_cross_basis)
     ? `Cross-basis: ≈ ${formatNumber(roundToLadder(a.candidate_cross_basis.value))} ppb ${basisShortLabel(a.candidate_cross_basis.basis)} (${a.candidate_cross_basis.formula})`
     : ""
-  const ci = a.ci_lo !== null && a.ci_hi !== null
+  const ci = (!a.not_material && a.ci_lo !== null && a.ci_hi !== null)
     ? `Bootstrap 95% CI: [${formatNumber(a.ci_lo, 2)}, ${formatNumber(a.ci_hi, 2)}] ppb`
     : ""
-  const sens = a.sens_lognormal !== null
+  const sens = a.not_material
+    ? ""
+    : a.sens_lognormal !== null
     ? `Sensitivity: log-normal ${formatNumber(a.sens_lognormal, 2)} · gamma ${formatNumber(a.sens_gamma, 2)} · nonparametric ${formatNumber(a.sens_nonparametric, 2)} ppb · spread ${a.sens_spread_pct ?? "—"}% (${a.sensitivity_band})`
     : a.sensitivity_band
 
   const sourcesBlock = renderAnalyteSources(a.contribution_log, sourceLookup)
   const methodologyBlock = a.methodology_chain ? renderMeHgChain(a.methodology_chain) : ""
   const defensibility = renderAnalyteDefensibility(a)
-  const audienceCallouts = renderAudienceCallouts(a)
+  const audienceCallouts = a.not_material ? "" : renderAudienceCallouts(a)
 
   return `### ${a.metal}
 

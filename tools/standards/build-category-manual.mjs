@@ -41,6 +41,24 @@ const CATEGORIES = {
     ],
     note: "Canned seafood is not a standalone row: per the canned/tin rule, canned forms route to their matrix-native fish or shellfish chapter carrying a tin (Sn) flag handled by the food-contact cans platform.",
   },
+  "30": {
+    title: "Culinary Oils and Fats",
+    subtitle: "Culinary Oils and Fats (Olive and Other Cooking Oils)",
+    chapters: [
+      { num: "3.1", slug: "olive-oil", title: "Olive Oil" },
+      { num: "3.2", slug: "cooking-oils-other", title: "Other Cooking Oils (seed, vegetable, nut)" },
+    ],
+    note: "Arsenic, cadmium, and mercury do not partition into the extracted lipid fraction and carry no regulatory maximum level for oils; they are recorded as not material. The material analytes for this category are lead (EU-capped), nickel (hydrogenation-catalyst residue), and aluminium.",
+  },
+  "34": {
+    title: "Herbs, Spices, and Salt",
+    subtitle: "Herbs, Spices, Seasonings, and Salt",
+    chapters: [
+      { num: "3.1", slug: "salt", title: "Salt (table, sea, and rock)" },
+      { num: "3.2", slug: "spices", title: "Herbs, Spices, and Dried Seasonings" },
+    ],
+    note: "Aluminium is recorded as not material in both rows (a permitted anti-caking additive in salt; natural soil uptake by accumulator botanicals in spices), carrying no regulatory maximum level as a contaminant. Spice lead publishes at the most-conservative EU botanical tier (fruit-spice, 600 ppb), tighter than the root and bark tiers that turmeric and cinnamon fall under; a high-adulteration-risk sub-split is deferred to a post-publication ratchet because adulteration is a fraud vector caught by lot testing, not by a tighter concentration standard. Spice cadmium is held pending unit normalization of a mixed-unit occurrence pool.",
+  },
 }
 const cfg = CATEGORIES[category]
 if (!cfg) { console.error(`No manual config for category ${category}`); process.exit(1) }
@@ -98,7 +116,7 @@ const master = [
 
 const outDir = path.join(BOOK, "build")
 fs.mkdirSync(outDir, { recursive: true })
-const out = path.join(outDir, `HMTc-${cfg.title.replace(/\s+/g, "-")}-Program-Manual-2026.md`)
+const out = path.join(outDir, `HMTc-${cfg.title.replace(/[,\s]+/g, "-").replace(/-+/g, "-")}-Program-Manual-2026.md`)
 fs.writeFileSync(out, master)
 const words = master.split(/\s+/).length
 console.log(`Wrote ${path.relative(repoRoot, out)} — ${cfg.chapters.length} standards chapters, ~${Math.round(words / 250)} pages (${words} words)`)

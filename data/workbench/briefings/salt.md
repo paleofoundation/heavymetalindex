@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: salt
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-16T12:13:01.993Z
+generated_at: 2026-06-18T17:32:06.606Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** independent
 **Native basis for published thresholds:** as_sold
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-06-16
+**Date generated:** 2026-06-18
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -43,9 +43,9 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
 | Pb | **200 ppb** [as-sold]<br>≈ 50 ppb [prepared] | 181.820 ppb | literature-baseline | 3 | stable | 1000 ppb (eu2023_pb_salt_1000) |
-| tAs | **10 ppb** [as-sold]<br>≈ 2 ppb [prepared] | 7.717 ppb | literature-baseline | 1 | stable | — |
+| tAs | **10 ppb** [as-sold]<br>≈ 2 ppb [prepared] | 7.717 ppb | literature-baseline | 1 | stable | 500 ppb (aunz_sch19_tas_salt_500) |
 | Cd | **20 ppb** [as-sold]<br>≈ 3 ppb [prepared] | 16.632 ppb | literature-baseline | 2 | needs_review | 500 ppb (eu2023_cd_salt_500) |
-| Al | **10000 ppb** [as-sold]<br>≈ 10000 ppb [prepared] | 164000 ppb | literature-baseline | 1 | stable | — |
+| Al | _not material_ | 164000 ppb (pool not standardized — not material) | literature-baseline | 1 | stable | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
@@ -114,14 +114,14 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Published HMTc threshold:** 10 ppb [as-sold] · 7.717 ppb (pre-rounding)
 **Cross-basis: ≈ 2 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
-**Regulatory ceiling reference:** no applicable cap loaded
+**Regulatory ceiling reference:** 500 ppb (aunz_sch19_tas_salt_500)
 **Pool composition:** 1 sources contributing · 1 pseudo-samples in pool · 0 sample-level contributors
 **Bootstrap 95% CI: [6.36, 9.28] ppb**
 **Sensitivity: log-normal 7.95 · gamma 8.33 · nonparametric 8.58 ppb · spread 7% (stable)**
 
 
 
-**Defensibility.** Pooled P97 from 1 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+**Defensibility.** Pooled P97 from 1 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 500 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
 <!-- audience: brand-legal -->
 **Brand legal read.** The value is pooled P97 from 1 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
@@ -176,26 +176,17 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Al
 
-**Published HMTc threshold:** 10000 ppb [as-sold] · 164000 ppb (pre-rounding)
-**Cross-basis: ≈ 10000 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** **not material** — Aluminium in salt derives from permitted anti-caking additives (E554/E555/E559), not contamination; the single pooled source (n=1, 164 mg/kg) is an additive/unit artifact, not a contaminant signal
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 1 sources contributing · 1 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [164000, 164000] ppb**
-**Sensitivity: log-normal 164000 · gamma 164000 · nonparametric 164000 ppb · spread 0% (stable)**
+
 
 
 
 **Defensibility.** Pooled P97 from 1 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
-<!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 1 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
-<!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 10000 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
-
-<!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 1 contributing sources across multiple jurisdictions. Sensitivity band stable.
 
 <details>
 <summary>Per-source contribution log (1 admitted)</summary>
@@ -295,17 +286,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `9893e9eff63d3b5b23423844722f9bbcfe271a48` in the heavymetalindex.com repository.
+1. Checking out commit `84f65cb8c69a1d320c06d1daa940216bec001014` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=salt` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-16T12:13:02.005Z |
+| Generated at | 2026-06-18T17:32:06.615Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `9893e9eff63d3b5b23423844722f9bbcfe271a48` |
+| Git commit | `84f65cb8c69a1d320c06d1daa940216bec001014` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

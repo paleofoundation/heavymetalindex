@@ -46,6 +46,36 @@ const heldSet = new Set(
   adj.filter((r) => !/^cleared/i.test(r.disposition || "")).map((r) => `${r.row_slug}|${r.metal_species}`),
 )
 
+// per-metal median of candidate values among trusted (>=3 distinct sources) cells — the
+// multi-source baseline the artifact check measures thin-source outliers against.
+const trustedMedian = {}
+{
+  const byMetal = {}
+  for (const r of dist) {
+    const m = r.metal_species, c = num(r.candidate_value_ppb), d = num(r.distinct_sources) ?? 0
+    if (!PANEL.has(m) || c === null || d < 3) continue
+    ;(byMetal[m] ||= []).push(c)
+  }
+  for (const [m, vs] of Object.entries(byMetal)) {
+    vs.sort((a, b) => a - b)
+    trustedMedian[m] = vs[Math.floor((vs.length - 1) / 2)]
+  }
+}
+
+// not-material registry: cells where the analyte is definitively not a material contaminant for
+// this matrix (structural non-partition, additive-not-contaminant, accumulator-natural). These
+// resolve to NOT_MATERIAL — a deliberate scientific judgment, no published value, not a defect.
+const notMaterialSet = new Set(
+  (fs.existsSync(ev("standards-not-material.csv")) ? parseCsv(fs.readFileSync(ev("standards-not-material.csv"), "utf8")) : [])
+    .map((r) => `${r.row_slug}|${r.metal_species}`),
+)
+// confirmed-no-ML registry: cells verified to have no regulatory ML in any jurisdiction, so a
+// literature-baseline value with no mapped cap is COMPLETE, not an unmapped-cap defect (silences C1b).
+const noMlSet = new Set(
+  (fs.existsSync(ev("standards-no-ml-confirmed.csv")) ? parseCsv(fs.readFileSync(ev("standards-no-ml-confirmed.csv"), "utf8")) : [])
+    .map((r) => `${r.row_slug}|${r.metal_species}`),
+)
+
 const report = []
 for (const r of dist) {
   const slug = r.product_slug, metal = r.metal_species
@@ -60,6 +90,16 @@ for (const r of dist) {
   const n = num(r.pooled_n) ?? 0
   const firm = isFirmVerdict(verdict)
   const held = heldSet.has(`${slug}|${metal}`)
+  const noMl = noMlSet.has(`${slug}|${metal}`)
+
+  // NOT_MATERIAL short-circuit: a definitively-immaterial analyte renders no value and is not
+  // gated for defects — it is a resolved scientific judgment, recorded in standards-not-material.csv.
+  if (notMaterialSet.has(`${slug}|${metal}`)) {
+    report.push({ product_slug: slug, metal_species: metal, candidate_value_ppb: r.candidate_value_ppb,
+      cap: cap ?? "", rationale: "not-material", verdict_level: "NOT_MATERIAL",
+      reasons: "designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)" })
+    continue
+  }
 
   const checks = []
   // C1 — CRITICAL: a published value may never exceed its regulatory cap (Principle 4)
@@ -67,7 +107,7 @@ for (const r of dist) {
     checks.push({ level: "CRITICAL_FAIL", check: "C1-value-exceeds-cap", detail: `candidate ${cand} > cap ${cap}` })
   // C1b — WARN: cap-completeness. A big-4 toxic published on literature with NO mapped cap
   // is the fish-Pb class — a regulatory ML very likely exists and must be loaded.
-  if (BIG4.has(metal) && rat === "literature-baseline" && cap === null && cand !== null)
+  if (BIG4.has(metal) && rat === "literature-baseline" && cap === null && cand !== null && !noMl)
     checks.push({ level: "WARN", check: "C1b-cap-completeness", detail: `big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML` })
   // C8 — FAIL: rationale honesty. If the cap binds (value == cap) the tag must be regulatory-alignment.
   if (cand !== null && cap !== null && Math.abs(cand - cap) < 0.5 && rat !== "regulatory-alignment")
@@ -81,6 +121,26 @@ for (const r of dist) {
   // C6 — HOLD: a cell in the adjudication register must not render firm.
   if (held && firm)
     checks.push({ level: "HOLD", check: "C6-adjudication-register", detail: `in outlier/suspect register but verdict is firm — must render pending` })
+  // C10 — HOLD: a BLOCKED pool (mixed units / internally inconsistent, p95/p10 > 1e4) is not
+  // publishable even though it carries a candidate value — units must be fixed before use.
+  // (spices Cd: 21-source pool, p95/p10 > 1e4 — a real value is unrecoverable until units align.)
+  if (/^BLOCKED/.test(verdict))
+    checks.push({ level: "HOLD", check: "C10-blocked-pool", detail: verdict })
+  // C9 — HOLD: artifact / non-meaningful-limit plausibility. Two ways a literature-baseline
+  // value is indefensible as a published standard:
+  //   (a) absolute: > 100 mg/kg. No food *contaminant* standard is that high. Either an
+  //       artifact, or a no-cap accumulator analyte (Al/Ni in spices) that is not-material and
+  //       must resolve by feasibility/not-material, not a literature P97. Fires regardless of n.
+  //   (b) thin-source outlier: < 3 distinct sources AND > 15x the metal's multi-source median —
+  //       a unit / single-sample / censoring artifact (salt Al 164,000 ppb n=1).
+  // (salt Al 164,000 n=1; spices Al 846,635 multi-source). Hold until verified — never publish.
+  if (cand !== null && rat === "literature-baseline") {
+    const med = trustedMedian[metal]
+    if (cand > 100000)
+      checks.push({ level: "HOLD", check: "C9-artifact-implausible", detail: `value ${cand} ppb > 100 mg/kg — no literature contaminant standard is that high; artifact or not-material/feasibility analyte; verify before publishing` })
+    else if (distinct < 3 && med != null && med > 0 && cand > 15 * med)
+      checks.push({ level: "HOLD", check: "C9-artifact-implausible", detail: `thin-source (distinct=${distinct}) value ${cand} ppb > 15x ${metal} multi-source median ${Math.round(med)} — likely unit/single-sample artifact; verify before publishing` })
+  }
 
   const level = checks.some((c) => c.level === "CRITICAL_FAIL") ? "CRITICAL_FAIL"
     : checks.some((c) => c.level === "FAIL") ? "FAIL"

@@ -1,0 +1,4 @@
+row_slug,metal_species,rationale,regulatory_basis,jurisdictions_checked,date
+olive-oil,tAs,Arsenic does not partition into the extracted lipid fraction; the pooled tail is a luka2019 unit self-contradiction (50-100x sibling sources) confirmed in the 2026-06-11 suspect-cell audit,No regulatory ML for As in vegetable/olive oils,EU 2023/915; Codex CXS 193; AU/NZ Sch 19,2026-06-18
+salt,Al,"Aluminium in salt derives from permitted anti-caking additives (E554/E555/E559), not contamination; the single pooled source (n=1, 164 mg/kg) is an additive/unit artifact, not a contaminant signal",No contaminant ML for Al in salt; Al is an approved additive,EU; Codex; AU/NZ,2026-06-18
+spices,Al,"Aluminium in dried spices/herbs reflects natural soil uptake by Al-accumulating botanicals; pooled P97 (846 mg/kg, n=149) is natural mineral content, not a contaminant signal",No regulatory ML for Al in spices in any jurisdiction,EU; Codex; AU/NZ,2026-06-18

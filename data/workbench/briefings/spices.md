@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: spices
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-16T12:13:02.151Z
+generated_at: 2026-06-18T17:35:00.355Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** whole_row_platform
 **Native basis for published thresholds:** as_sold
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-06-16
+**Date generated:** 2026-06-18
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -42,12 +42,12 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Pb | _adjudication pending_<br>≈ 100 ppb [prepared] | 4553.808 ppb (capped to 600 by reg cap) | regulatory-alignment | 45 | stable | 600 ppb (eu2023_pb_spice_fruit_600) |
+| Pb | **600 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 4553.808 ppb (capped to 600 by reg cap) | regulatory-alignment | 45 | stable | 600 ppb (eu2023_pb_spice_fruit_600) |
 | tAs | **1000 ppb** [as-sold]<br>≈ 200 ppb [prepared] | 702.937 ppb | literature-baseline | 16 | provisional | — |
 | Sn | **1000 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 508.845 ppb | literature-baseline | 1 | provisional | — |
 | Ni | **10000 ppb** [as-sold]<br>≈ 1000 ppb [prepared] | 6976.289 ppb | literature-baseline | 16 | stable | — |
 | Cd | *data gap* | 623.295 ppb | no-data | 35 | stable | — |
-| Al | **10000 ppb** [as-sold]<br>≈ 10000 ppb [prepared] | 846635.607 ppb | literature-baseline | 6 | stable | — |
+| Al | _not material_ | 846635.607 ppb (pool not standardized — not material) | literature-baseline | 6 | stable | — |
 | tHg | **2000 ppb** [as-sold]<br>≈ 500 ppb [prepared] | 1501.599 ppb | literature-baseline | 9 | stable | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
@@ -80,7 +80,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Pb
 
-**Published HMTc threshold:** adjudication pending — held provisional (heavy-tail-review) · 600 ppb (pre-rounding)
+**Published HMTc threshold:** 600 ppb [as-sold] · 600 ppb (pre-rounding)
 **Cross-basis: ≈ 100 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 600 ppb (eu2023_pb_spice_fruit_600)
@@ -96,7 +96,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Brand legal read.** This threshold matches the binding government cap (eu2023_pb_spice_fruit_600). A Daubert challenge on the value reduces to "is eu2023_pb_spice_fruit_600 a legitimate regulatory anchor?" — and the answer is yes, it is published, finalized, and enforced.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 1000 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 600 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
 **Regulator read.** HMTc threshold = eu2023_pb_spice_fruit_600 cap. The pooled occurrence distribution from 45 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
@@ -307,26 +307,17 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Al
 
-**Published HMTc threshold:** 10000 ppb [as-sold] · 846635.607 ppb (pre-rounding)
-**Cross-basis: ≈ 10000 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** **not material** — Aluminium in dried spices/herbs reflects natural soil uptake by Al-accumulating botanicals; pooled P97 (846 mg/kg, n=149) is natural mineral content, not a contaminant signal
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 6 sources contributing · 149 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [595142.71, 1577492.79] ppb**
-**Sensitivity: log-normal 906160.57 · gamma 876561.12 · nonparametric 1007002.01 ppb · spread 13% (stable)**
+
 
 
 
 **Defensibility.** Pooled P97 from 6 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
-<!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 6 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
-<!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 10000 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
-
-<!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 6 contributing sources across multiple jurisdictions. Sensitivity band stable.
 
 <details>
 <summary>Per-source contribution log (6 admitted)</summary>
@@ -437,8 +428,8 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 |---|---|---|
 | 1 | All HMTc-10 analytes have a row in the Master Limit Table | ✗ FAIL (7 of 10) |
 | 2 | Every published value has a rationale tag from the allowed vocabulary | ✓ PASS |
-| 3 | Every published value is on the primary increment ladder | ✓ PASS |
-| 4 | No HMTc value exceeds the lowest applicable regulatory cap | ✗ FAIL |
+| 3 | Every published value is on the primary increment ladder | ✗ FAIL |
+| 4 | No HMTc value exceeds the lowest applicable regulatory cap | ✓ PASS |
 | 5 | Every basis-tagged value carries the cross-basis equivalent | ✓ PASS |
 | 6 | The six-move anti-circumvention argument is present | ✓ PASS |
 | 7 | Every contributing source has a source page in `wiki/sources/` | (verified at generation time) |
@@ -505,17 +496,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `9893e9eff63d3b5b23423844722f9bbcfe271a48` in the heavymetalindex.com repository.
+1. Checking out commit `84f65cb8c69a1d320c06d1daa940216bec001014` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=spices` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-16T12:13:02.165Z |
+| Generated at | 2026-06-18T17:35:00.370Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `9893e9eff63d3b5b23423844722f9bbcfe271a48` |
+| Git commit | `84f65cb8c69a1d320c06d1daa940216bec001014` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: olive-oil
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-16T12:13:01.615Z
+generated_at: 2026-06-18T17:32:06.436Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** independent
 **Native basis for published thresholds:** as_sold
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-06-16
+**Date generated:** 2026-06-18
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -44,8 +44,8 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 |---|---|---|---|---:|---|---|
 | Pb | **100 ppb** [as-sold]<br>≈ 10 ppb [prepared] | 69.725 ppb | literature-baseline | 7 | stable | 100 ppb (eu2023_pb_fats_oils_100) |
 | iAs | *data gap* | — | no-data | 0 | no_data | — |
-| tAs | _adjudication pending_<br>≈ 100 ppb [prepared] | 607.952 ppb | literature-baseline | 5 | provisional | — |
-| Ni | _adjudication pending_<br>≈ 100 ppb [prepared] | 577.054 ppb | literature-baseline | 9 | stable | — |
+| tAs | _not material_ | 607.952 ppb (pool not standardized — not material) | literature-baseline | 5 | provisional | — |
+| Ni | **1000 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 577.054 ppb | literature-baseline | 9 | stable | — |
 | Cd | **5 ppb** [as-sold]<br>≈ 0.5 ppb [prepared] | 3.102 ppb | literature-baseline | 2 | provisional | — |
 | Al | **1000 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 581.619 ppb | literature-baseline | 2 | stable | — |
 | tHg | *data gap* | — | no-data | 0 | no_data | — |
@@ -141,26 +141,17 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### tAs
 
-**Published HMTc threshold:** adjudication pending — held provisional (heavy-tail-review) · 607.952 ppb (pre-rounding)
-**Cross-basis: ≈ 100 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** **not material** — Arsenic does not partition into the extracted lipid fraction; the pooled tail is a luka2019 unit self-contradiction (50-100x sibling sources) confirmed in the 2026-06-11 suspect-cell audit
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 5 sources contributing · 57 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [2.67, 716.47] ppb**
-**Sensitivity: log-normal 535.61 · gamma 560.14 · nonparametric 362.39 ppb · spread 35% (provisional)**
+
 
 
 
 **Defensibility.** Pooled P97 from 5 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
 
-<!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 5 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
-<!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 1000 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
-
-<!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 5 contributing sources across multiple jurisdictions. Sensitivity band provisional.
 
 <details>
 <summary>Per-source contribution log (5 admitted)</summary>
@@ -177,7 +168,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Ni
 
-**Published HMTc threshold:** adjudication pending — held provisional (heavy-tail-review) · 577.054 ppb (pre-rounding)
+**Published HMTc threshold:** 1000 ppb [as-sold] · 577.054 ppb (pre-rounding)
 **Cross-basis: ≈ 100 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
@@ -405,17 +396,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `9893e9eff63d3b5b23423844722f9bbcfe271a48` in the heavymetalindex.com repository.
+1. Checking out commit `84f65cb8c69a1d320c06d1daa940216bec001014` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=olive-oil` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-16T12:13:01.625Z |
+| Generated at | 2026-06-18T17:32:06.453Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `9893e9eff63d3b5b23423844722f9bbcfe271a48` |
+| Git commit | `84f65cb8c69a1d320c06d1daa940216bec001014` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 
