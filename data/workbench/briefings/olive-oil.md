@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: olive-oil
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-18T17:32:06.436Z
+generated_at: 2026-06-19T12:28:12.859Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** independent
 **Native basis for published thresholds:** as_sold
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-06-18
+**Date generated:** 2026-06-19
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -42,13 +42,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Pb | **100 ppb** [as-sold]<br>≈ 10 ppb [prepared] | 69.725 ppb | literature-baseline | 7 | stable | 100 ppb (eu2023_pb_fats_oils_100) |
-| iAs | *data gap* | — | no-data | 0 | no_data | — |
+| Pb | **100 ppb** [as-sold] | 69.725 ppb | literature-baseline | 7 | stable | 100 ppb (eu2023_pb_fats_oils_100) |
+| iAs | _not material_ | — | no-data | 0 | no_data | — |
 | tAs | _not material_ | 607.952 ppb (pool not standardized — not material) | literature-baseline | 5 | provisional | — |
-| Ni | **1000 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 577.054 ppb | literature-baseline | 9 | stable | — |
-| Cd | **5 ppb** [as-sold]<br>≈ 0.5 ppb [prepared] | 3.102 ppb | literature-baseline | 2 | provisional | — |
-| Al | **1000 ppb** [as-sold]<br>≈ 100 ppb [prepared] | 581.619 ppb | literature-baseline | 2 | stable | — |
-| tHg | *data gap* | — | no-data | 0 | no_data | — |
+| Ni | **1000 ppb** [as-sold] | 577.054 ppb | literature-baseline | 9 | stable | — |
+| Cd | _not material_ | 3.102 ppb (pool not standardized — not material) | literature-baseline | 2 | provisional | — |
+| Al | **1000 ppb** [as-sold] | 581.619 ppb | literature-baseline | 2 | stable | — |
+| tHg | _not material_ | — | no-data | 0 | no_data | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
@@ -64,7 +64,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 **Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
-**Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
+**Basis.** Each product row's standard is published in the native basis of the product form, the form as sold and placed on market. Brands ship and test in their product's native as-sold form; the certification mark matches that form. As-sold product is not reconstituted from a concentrate, so no powder-to-prepared conversion applies and the published value is the as-sold value. Sources reporting in a non-native basis are converted into the row's native basis during pooling via documented per-source factors recorded in the contribution log; conversions of unknown factor are flagged and not silently coerced.
 
 **Regulatory cap.** The final published HMTc value never exceeds the lowest applicable loaded regulatory ceiling, expressed in the product's native basis. When the pooled P97/P45 exceeds the regulatory cap, the cap binds and the rationale tag is `regulatory-alignment`. When the pooled value is below the cap, the rationale is `literature-baseline` and the cap is shown for context only.
 
@@ -81,7 +81,6 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 ### Pb
 
 **Published HMTc threshold:** 100 ppb [as-sold] · 69.725 ppb (pre-rounding)
-**Cross-basis: ≈ 10 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 100 ppb (eu2023_pb_fats_oils_100)
 **Pool composition:** 7 sources contributing · 60 pseudo-samples in pool · 0 sample-level contributors
@@ -118,24 +117,17 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### iAs
 
-**Published HMTc threshold:** *data gap*
+**Published HMTc threshold:** **not material** — Inorganic arsenic does not partition into the extracted lipid fraction; vegetable and olive oils are among the cleanest matrices for arsenic
 **Rationale tag:** `no-data`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 0 sources contributing · 0 pseudo-samples in pool · 0 sample-level contributors
-**no_data**
+
 
 
 
 **Defensibility.** This analyte has no defensible threshold today. The pool is empty; no read-across is available; no regulatory cap applies. The HMTc certification mark on this product does NOT cover this analyte until evidence is loaded. This is the honest position; we explicitly do not pretend coverage we cannot defend.
 
-<!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 0 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
-<!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below no published value (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
-
-<!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 0 contributing sources across multiple jurisdictions. Sensitivity band no_data.
 
 
 
@@ -169,7 +161,6 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 ### Ni
 
 **Published HMTc threshold:** 1000 ppb [as-sold] · 577.054 ppb (pre-rounding)
-**Cross-basis: ≈ 100 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 9 sources contributing · 79 pseudo-samples in pool · 0 sample-level contributors
@@ -208,26 +199,17 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Cd
 
-**Published HMTc threshold:** 5 ppb [as-sold] · 3.102 ppb (pre-rounding)
-**Cross-basis: ≈ 0.5 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** **not material** — Cadmium does not partition into the extracted lipid fraction; it remains with the press cake/meal, not the oil
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 2 sources contributing · 2 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [1.16, 7.19] ppb**
-**Sensitivity: log-normal 2.19 · gamma 3.10 · nonparametric 2.26 ppb · spread 29% (provisional)**
+
 
 
 
 **Defensibility.** Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
 
-<!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
-<!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 5 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
-
-<!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 2 contributing sources across multiple jurisdictions. Sensitivity band provisional.
 
 <details>
 <summary>Per-source contribution log (2 admitted)</summary>
@@ -242,7 +224,6 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 ### Al
 
 **Published HMTc threshold:** 1000 ppb [as-sold] · 581.619 ppb (pre-rounding)
-**Cross-basis: ≈ 100 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 2 sources contributing · 6 pseudo-samples in pool · 0 sample-level contributors
@@ -274,24 +255,17 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### tHg
 
-**Published HMTc threshold:** *data gap*
+**Published HMTc threshold:** **not material** — Mercury does not partition into the extracted lipid fraction
 **Rationale tag:** `no-data`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 0 sources contributing · 0 pseudo-samples in pool · 0 sample-level contributors
-**no_data**
+
 
 
 
 **Defensibility.** This analyte has no defensible threshold today. The pool is empty; no read-across is available; no regulatory cap applies. The HMTc certification mark on this product does NOT cover this analyte until evidence is loaded. This is the honest position; we explicitly do not pretend coverage we cannot defend.
 
-<!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 0 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
-<!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below no published value (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
-
-<!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 0 contributing sources across multiple jurisdictions. Sensitivity band no_data.
 
 
 
@@ -314,7 +288,7 @@ Response: P45 of the dirty subcategory's distribution, applied per-analyte, deli
 Response: The sensitivity bands are explicitly reported per analyte. 2 analytes (tAs, Cd) are flagged provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.
 
 **Attack 7: "Where does basis conversion happen and what authority do you cite?"**
-Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
+Response: Published thresholds for this category are in the as-sold edible basis (edible muscle or tissue). As-sold product is not reconstituted from a powder, so no fixed reconstitution ratio is applied and the published value is the as-sold value. Where a source reports in a different basis, the conversion factor is documented per source in the contribution log, and conversions of unknown factor are flagged rather than silently coerced. There is no powder-to-prepared dilution step a brand could exploit to claim compliance in a more favorable basis.
 
 **Attack 8: "Show me one source you excluded."**
 Response: No source contributing a usable statistic is excluded. Sources marked "no_usable_statistic" in the contribution log are LOD-censored entries with neither mean nor lb/ub recorded. Sources without a structured CSV row are documented in the routing audit and the gap report; those are extraction gaps, not exclusions, and they are tracked in Phase 1 backlog with target completion timelines.
@@ -329,7 +303,7 @@ Per the hmtc-standards skill rule #6, every Standards Briefing publishes the ant
 
 **Move 2 — Row-level certification.** A brand certifies a product (one row, ten analytes simultaneously), not one analyte. The single-analyte attack "you let 70% of brands pass on Pb individually" misses the joint test. Per-analyte P97 delivers ~90% row-pass; the joint discipline is the certification.
 
-**Move 3 — Native basis discipline.** The standard is published in the product's native basis. Brands cannot reconstitute their powder, test the prepared form, then claim "we meet the standard in prepared basis" against a powder cap. Each row tests in its native form; cross-basis conversions are documented but never substitute.
+**Move 3 — Native basis discipline.** The standard is published in the product's native as-sold basis (edible muscle or tissue). Brands cannot test a diluted, drained, or otherwise differently-prepared form and claim compliance against the as-sold cap. Each row tests in its native as-sold form; any documented basis conversion is for source pooling only, never a substitute for testing in the certified basis.
 
 **Move 4 — Regulatory ceiling absolute.** The final HMTc value never exceeds the lowest applicable loaded regulatory cap. Brands cannot game an "HMTc-only" framing — the regulatory cap is the absolute floor on the HMTc limit, regardless of where the pooled literature value falls.
 
@@ -349,7 +323,7 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 | 2 | Every published value has a rationale tag from the allowed vocabulary | ✓ PASS |
 | 3 | Every published value is on the primary increment ladder | ✓ PASS |
 | 4 | No HMTc value exceeds the lowest applicable regulatory cap | ✓ PASS |
-| 5 | Every basis-tagged value carries the cross-basis equivalent | ✓ PASS |
+| 5 | Every basis-tagged value carries the cross-basis equivalent | ⚠ partial (non-formula rows may have no defined cross-basis) |
 | 6 | The six-move anti-circumvention argument is present | ✓ PASS |
 | 7 | Every contributing source has a source page in `wiki/sources/` | (verified at generation time) |
 | 8 | Human sign-off by Karen + co-authors | ⚠ PENDING (this is the draft) |
@@ -396,17 +370,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `84f65cb8c69a1d320c06d1daa940216bec001014` in the heavymetalindex.com repository.
+1. Checking out commit `c3e342f14d43f38b64d5b59a0c14ea2137971a71` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=olive-oil` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-18T17:32:06.453Z |
+| Generated at | 2026-06-19T12:28:12.870Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `84f65cb8c69a1d320c06d1daa940216bec001014` |
+| Git commit | `c3e342f14d43f38b64d5b59a0c14ea2137971a71` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

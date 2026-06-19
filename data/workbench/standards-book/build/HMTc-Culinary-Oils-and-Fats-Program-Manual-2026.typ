@@ -6,7 +6,7 @@
 
 #show: book.with(
   title: [Heavy Metal Tested & Certified],
-  subtitle: [Infant and Child Foods Program Manual],
+  subtitle: [Culinary Oils and Fats Program Manual],
   author: "Karen Pendergrass",
   edition: "2026 Edition",
   publisher: "Paleo Certified, Inc. dba The Paleo Foundation",
@@ -17,7 +17,7 @@
 
 
 
-== Culinary Oils and Fats (Olive and Other Cooking Oils) Program Manual
+== Culinary Oils and Fats Program Manual
 
 
 
@@ -41,17 +41,17 @@ Orlando, Florida
 #line(length: 100%, stroke: 0.4pt + rgb("#bbb"))
 
 
-_Pendergrass, K. Heavy Metal Tested & Certified (HMTc) Culinary Oils and Fats (Olive and Other Cooking Oils) Program Manual. 2026 Edition. The Paleo Foundation, 2026._
+_Pendergrass, K. Heavy Metal Tested & Certified (HMTc) Culinary Oils and Fats Program Manual. 2026 Edition. The Paleo Foundation, 2026._
 
 
-Categories covered: Infant Formula · Baby Cereals · Purées · Mixed Meals · Fruit Juice · Teething & Snacks · Fish-Containing Baby Foods
+Categories covered: Olive Oil · Other Cooking Oils (seed, vegetable, nut)
 
 
 
 = Edition
 
 
-*2026 Edition.* First bound publication of the HMTc Culinary Oils and Fats (Olive and Other Cooking Oils) Program Manual.
+*2026 Edition.* First bound publication of the HMTc Culinary Oils and Fats Program Manual.
 
 
 The HMTc methodology has evolved through documented revisions since 2024. The current edition reflects refinements to the per-analyte percentile calibration, the addition of the row-pass framework, the operationalization of the Standards Ratchet Mechanism with explicit trigger conditions and step-size caps, and the formalization of the Confidential Remediation Track. Version history is maintained under document control. The 2026 Edition is the first to bind the program's foundational framework, governance, standards, and operational schedule into a single volume.
@@ -80,7 +80,7 @@ The 2026 Edition rests on a body of published research describing the HMTc frame
 
 - _The Counterproductive Consequences of Public Exposé Testing_ (doi: 10.5281/zenodo.19470572). The structural argument for why the program exists.
 - _The Cost of Operating Without Credible Third-Party Heavy-Metal Certification_ (doi: 10.5281/zenodo.18903738). The financial argument for the cost of inaction.
-- _Certification as a Framework for Reducing Heavy Metal Exposure in Culinary Oils and Fats (Olive and Other Cooking Oils)_ (doi: 10.5281/zenodo.18905821). The design rationale for the certification architecture.
+- _Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods_ (doi: 10.5281/zenodo.18905821). The design rationale for the certification architecture.
 
 
 The structural design principles in these preprints remain canonical. Where specific calibration values in the preprints have evolved (notably the 80th-percentile achievability framing in _Certification as a Framework_ Section 11), the current operational values appear in this manual and in the Governing Principles, which supersede the earlier framing for operational purposes.
@@ -124,10 +124,10 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 Academic, regulatory, and legal works citing this Program Manual should use the following form:
 
 
-#quote(block: true)[Pendergrass, K. _Heavy Metal Tested & Certified (HMTc) Culinary Oils and Fats (Olive and Other Cooking Oils) Program Manual._ 2026 Edition. Paleo Certified, Inc. dba The Paleo Foundation, 2026. doi: #link("https://doi.org/10.5281/zenodo.20270512")[10.5281/zenodo.20270512].]
+#quote(block: true)[Pendergrass, K. _Heavy Metal Tested & Certified (HMTc) Culinary Oils and Fats Program Manual._ 2026 Edition. Paleo Certified, Inc. dba The Paleo Foundation, 2026. doi: #link("https://doi.org/10.5281/zenodo.20270512")[10.5281/zenodo.20270512].]
 
 
-For citations to specific chapters or sections, append the part and section identifier (e.g., "Part 2.10 §12.3, _Standards Ratchet Trigger Conditions_"). For citations to specific HMTc limit values, cite the relevant Part 3 chapter by its product slug (e.g., "Part 3.1, _Infant Formula, Powder (Non-Soy)_, Master Limit Table") and the chapter's Sources Cited section for the underlying source attribution. Numbered references in this manual (Part 5.4) follow IEEE-adjacent format; readers needing alternative bibliographic format (APA, Vancouver, Chicago) may request the reference list as a structured BibTeX or RIS file from the Program Operator.
+For citations to specific chapters or sections, append the part and section identifier (e.g., "Part 2.10 §12.3, _Standards Ratchet Trigger Conditions_"). For citations to specific HMTc limit values, cite the relevant Part 3 chapter by its product slug (e.g., "Part 3.1, _Olive Oil_, Master Limit Table") and the chapter's Sources Cited section for the underlying source attribution. Numbered references in this manual (Part 5.4) follow IEEE-adjacent format; readers needing alternative bibliographic format (APA, Vancouver, Chicago) may request the reference list as a structured BibTeX or RIS file from the Program Operator.
 
 
 
@@ -206,7 +206,7 @@ You are reading this manual to assess whether HMTc represents legitimate industr
 
 + *Part 1.5 (How HMTc Knows What It Knows)*. The evidence base lives at heavymetalindex.com, a public curated corpus of the open literature, architecturally separate from the certification program. Every limit in this manual traces to specific source pages on that wiki.
 + *Part 2.1 (Purpose and Core Principles)*, particularly the framing of action levels as risk-management tools and not safety thresholds.
-+ *Part 2.2 (Scope and Analyte Tiering)*. The Tier 1 / Tier 2 metal classification with toxicological rationale for each metal. Includes the aggregate-exposure calculation showing why limits below regulatory action levels are necessary even when single products comply with federal guidance.
++ *Part 2.2 (Scope and Analyte Tiering)*. The Tier 1 / Tier 2 metal classification with toxicological rationale for each metal. Includes the aggregate-exposure rationale showing why limits below regulatory action levels are warranted even when a single product complies with federal guidance, because consumers eat across many products and exposures sum.
 + *Part 2.10 (Standards Ratchet Mechanism)*. The data-driven mechanism that commits the program to tighten limits as industry capability improves. Trigger conditions, step-size cap, transition rules, and forward-forecast obligation are all specified.
 + *Part 5.1 (How HMTc Standards Are Set)* and *Part 5.4 (Consolidated Sources Index)*. The methodology described in principle, with the full source attribution.
 
@@ -365,7 +365,7 @@ Public exposé testing does not operate in a vacuum. It operates in a legal envi
 A Reuters report described a proposed class action suing Amazon.com over alleged sale of rice products contaminated with arsenic and other heavy metals, seeking at least \$5 million in damages and citing a published third-party testing report as the precipitating trigger#super[\[26, 27\]]. This is a prototypical pattern: a published testing report becomes the complaint's factual scaffold, and the brand is named even if it did not manufacture the product. The exposé actor may intend consumer education, but what they produce is plaintiff-ready evidence.
 
 
-The baby-food heavy-metal litigation consolidated in MDL No. 3101#super[\[24\]], with approximately 345 pending claims as of late 2025 alleging neurodevelopmental injury#super[\[25\]], provides a further demonstration of how testing disclosures become legal instruments. The MDL record reflects plaintiffs' allegations that any detectable amount could cause injury, illustrating how the absence of agreed-upon safe thresholds can be operationalized into litigation narratives. Defense costs in such matters routinely exceed \$2 million per major case, with discovery costs alone often exceeding \$600,000#super[\[38\]].
+Heavy-metal product-liability litigation consolidated into multidistrict proceedings, alleging injury from detectable contamination, provides a further demonstration of how testing disclosures become legal instruments. The MDL record reflects plaintiffs' allegations that any detectable amount could cause injury, illustrating how the absence of agreed-upon safe thresholds can be operationalized into litigation narratives. Defense costs in such matters routinely exceed \$2 million per major case, with discovery costs alone often exceeding \$600,000#super[\[38\]].
 
 
 In California, Proposition 65 creates a private-enforcement regime where any private party can initiate litigation alleging exposure to a listed chemical without a government enforcement action#super[\[28\]]. Published exposé results provide the factual predicate for such actions. Settlement economics in Proposition 65 cases are dominated by attorneys' fees: a \$28,000 settlement may allocate \$25,000 to attorneys' fees and only \$3,000 to civil penalties#super[\[29\]]. A brand without a documented third-party testing and certification framework becomes a repeat defendant across SKUs, lots, and flavors, with each exposé publication providing a new cause of action. The irony is acute: the exposé actor generates the evidence that enables the litigation that imposes the costs that discourage the transparency that would enable contamination reduction.
@@ -411,10 +411,10 @@ The core finding: a single contamination-triggered event, recall, delisting, or 
 The relevant business question is not whether heavy metals will be detected in a brand's products, but whether the brand's controls are credible, documented, and independently defensible when regulators, retailers, or plaintiffs' counsel ask. Three independent surveillance datasets establish that detection is common enough that absence-of-data is not a defensible posture.
 
 
-The FDA modernized Total Diet Study#super[\[1\]] for FY2018–2020 analyzed 3,241 food and beverage samples across 305 foods and beverages for 21 elements. Detection frequencies for the key toxic elements: lead detected in 15% of samples (non-detect to 164 ppb), arsenic detected in 43% (non-detect to 10,900 ppb), cadmium detected in 33% (non-detect to 485 ppb), and mercury detected in 10% (non-detect to 2,890 ppb). For baby foods specifically, FDA's FY2019 sampling of 384 samples found 65% of Pb/As/Cd/Hg results were non-detect, with no significant regional or seasonal differences, detection is _common_ even though exceedances are rare.
+The FDA modernized Total Diet Study#super[\[1\]] for FY2018–2020 analyzed 3,241 food and beverage samples across 305 foods and beverages for 21 elements. Detection frequencies for the key toxic elements: lead detected in 15% of samples (non-detect to 164 ppb), arsenic detected in 43% (non-detect to 10,900 ppb), cadmium detected in 33% (non-detect to 485 ppb), and mercury detected in 10% (non-detect to 2,890 ppb). For culinary oils and fats specifically, surveillance of edible oils consistently reports detectable lead and nickel in a large share of samples, with arsenic, cadmium, and mercury typically at or below detection because they do not partition into the lipid fraction, detection of the material analytes is common even though exceedances are comparatively rare.
 
 
-The Canadian Food Inspection Agency Children's Food Project Annual Report (2022) tested 108 infant and children's snack and cereal samples. *96% contained detectable levels of arsenic, cadmium, lead, and/or mercury.* For lead specifically, 41% were non-detect; positive samples ranged from 0.0050 to 0.196 ppm. Detection is the normal state of affairs, not the anomaly.
+Edible-oil surveillance programs report the same pattern. Routine monitoring of culinary oils and fats for lead, nickel, and aluminium finds detectable levels in a large share of samples, with refined and hydrogenated oils carrying the highest nickel burden. Detection is the normal state of affairs, not the anomaly.
 
 
 For botanicals, a major input across foods, supplements, and functional products, a peer-reviewed synthesis analyzing 1,773 crude plant extract samples across 86 herbal types found 30.51% had at least one over-limit metal under referenced pharmacopoeial criteria, with over-limit ratios of Pb 5.75%, Cd 4.96%, As 4.17%, and Hg 3.78%. A U.S.-based study of As, Cd, and Pb in spices reported detection of these metals in more than 90% of samples, with 40.5% exceeding a New York State Pb limit.
@@ -430,13 +430,13 @@ These surveillance findings support a practical inference: detection is common, 
 Regulatory benchmarks have hardened from guidance into enforcement, transforming heavy metals from a quality concern into a board-level liability.
 
 
-In the United States, FDA's action levels for lead in processed foods intended for babies and young children are explicit and category-specific. The agency notes these are levels at which it may regard a food as adulterated. FDA's compliance program for toxic elements is formalized, with emphasis on foods consumed by children. Enforcement actions extend beyond manufacturers: FDA issued a warning letter to Dollar Tree for failing to adequately remove WanaBana lead-contaminated fruit pouches from sale.
+In the United States, FDA monitors toxic elements in foods including edible oils and fats through its compliance program for toxic elements, which is formalized. Enforcement actions extend across the supply chain, from import alerts on adulterated oil lots to action on products found to contain elevated lead. The agency may regard a food as adulterated when contaminant levels warrant.
 
 
-California Assembly Bill 899 establishes a direct-cost compliance regime: manufacturers of baby food must test and disclose levels of arsenic, cadmium, lead, and mercury, with state-code requirements effective January 1, 2024, and public disclosure obligations for baby food products sold on or after January 1, 2025. On March 6, 2026, the California Attorney General issued an enforcement advisory letter reminding companies of AB 899 obligations, signaling an active enforcement posture.
+In the European Union, Commission Regulation (EU) 2023/915 establishes a direct-cost compliance regime for fats and oils: a maximum level for lead in fats and oils binds products placed on the market, and exceedances can trigger withdrawal, recall, and enforcement. The result is an enforcement posture in which a brand without documented controls on lead becomes a recurring target.
 
 
-In the EU, Regulation (EU) 2023/915#super[\[19\]] explicitly reiterates the ALARA principle and consolidates maximum levels across contaminants. The annex includes detailed maximum levels for lead, arsenic, and mercury across numerous commodities, including infant and young child categories with inorganic arsenic maximum levels at 0.020 mg/kg for baby food and 0.10 mg/kg for infant/young child rice. Globally, the Codex Alimentarius General Standard for Contaminants and Toxins (CXS 193-1995) provides internationally recognized principles and lists maximum levels.
+In the EU, Regulation (EU) 2023/915#super[\[19\]] explicitly reiterates the ALARA principle and consolidates maximum levels across contaminants. The annex includes detailed maximum levels for lead, arsenic, and mercury across numerous commodities, including fats and oils, with a maximum level for lead in fats and oils (the EU-capped contaminant that drives the lead limit for this category). Globally, the Codex Alimentarius General Standard for Contaminants and Toxins (CXS 193-1995) provides internationally recognized principles and lists maximum levels.
 
 
 The convergence, FDA action levels hardening, California AB 899#super[\[21\]] mandating disclosure, EU 2023/915 consolidating maximum levels with ALARA expectations, means that the regulatory floor is rising under brands' feet at the same time that litigation centralization and retailer gatekeeping are tightening from above. A brand operating without a documented, third-party-verified program is increasingly exposed at every layer simultaneously.
@@ -449,7 +449,7 @@ The convergence, FDA action levels hardening, California AB 899#super[\[21\]] ma
 In heavy-metals disputes, being targeted is rarely only about the presence of metals; it is frequently about whether a brand can defend its controls, warnings, and claims using evidence that courts, regulators, retailers, and consumers accept as credible. When that credibility is weak, litigation can become cheaper to file and more expensive to defend.
 
 
-The Judicial Panel on Multidistrict Litigation centralized baby-food heavy-metal cases into MDL No. 3101#super[\[24\]] (_In re: Baby Food Products Liability Litigation_) in the Northern District of California. A subsequent district-court order referenced over 100 subsequently filed actions alleging toxic heavy metals in baby food and asserting neurodevelopmental injury theories including ASD and ADHD allegations. The MDL had grown to approximately 345 pending claims by late 2025. From a cost standpoint, MDL centralization changes the incentive landscape: common discovery, expert battles, and bellwether structures can amplify legal spend and reputational exposure even before merits are adjudicated.
+Multidistrict centralization of heavy-metal product-liability cases concentrates common discovery, expert battles, and bellwether structures, amplifying legal spend and reputational exposure even before merits are adjudicated. Once a contaminant category attracts coordinated litigation, every brand in it inherits the centralized cost structure. From a cost standpoint, MDL centralization changes the incentive landscape: common discovery, expert battles, and bellwether structures can amplify legal spend and reputational exposure even before merits are adjudicated.
 
 
 Reuters reported a proposed class action suing Amazon.com over alleged sale of rice products contaminated with arsenic and other heavy metals, seeking at least \$5 million in damages under state consumer protection theories. Reuters later reported Amazon's attempt to dismiss, arguing among other points that no excessive levels beyond regulatory limits were alleged. Even when ultimate liability is uncertain, this pattern imposes a predictable cost stack: rapid expert engagement, e-discovery, motion practice, and brand-risk management, costs that are typically higher when a company cannot point to recognized third-party testing and certification as part of routine operations.
@@ -587,7 +587,7 @@ Expected annual benefit: _ΔE = E₀ − E₁ = p × r × L_.
 Break-even condition: _C ≤ p × r × L_.
 
 
-As a worked illustration for a mid-size brand: if _L = \$15M_, _p = 3%_, and _r = 25%_, then _ΔE ≈ \$112,500 per year_. Under those conservative assumptions, certification must cost \$112,500 per year or less to break even on downside-risk avoidance alone. If the brand's channel access depends on third-party testing (such as marketplace COA plus ISO/IEC 17025#super[\[33\]] requirements) or if the probability or severity is higher (such as children's category exposure or complex botanicals), the break-even rapidly improves.
+As a worked illustration for a mid-size brand: if _L = \$15M_, _p = 3%_, and _r = 25%_, then _ΔE ≈ \$112,500 per year_. Under those conservative assumptions, certification must cost \$112,500 per year or less to break even on downside-risk avoidance alone. If the brand's channel access depends on third-party testing (such as marketplace COA plus ISO/IEC 17025#super[\[33\]] requirements) or if the probability or severity is higher (such as lead exposure from a category with an enforced regulatory cap, or nickel-residue exposure from heavily refined product classes), the break-even rapidly improves.
 
 
 *This expected-loss model undervalues certification whenever certification is a prerequisite for market access*, a gating benefit, because avoided delisting is effectively an earned revenue protection rather than avoided loss. Retailer policies like those of CVS#super[\[30\]] explicitly position third-party testing as a standard for supplements sold in their channel, meaning certification can be a revenue-enabling investment, not merely an insurance-like expense.
@@ -659,7 +659,7 @@ The five-status framework, eligibility criteria, mark-usage rules, and escalatio
 Not all heavy metals present the same toxicological profile, and a defensible certification framework reflects this. The HMTc program classifies covered metals into two tiers based on their toxicological characteristics, with governance consequences flowing directly from the classification.
 
 
-*Tier 1 metals* are carcinogenic with no established safe threshold, neurotoxic with no established safe threshold, or bioaccumulative with long biological half-lives. No transitional allowance is permitted; any confirmed exceedance triggers immediate escalation to probationary status or higher. Lead, cadmium, inorganic arsenic, and methylmercury fall into this category.
+*Tier 1 metals* are carcinogenic with no established safe threshold, neurotoxic with no established safe threshold, or bioaccumulative with long biological half-lives. No transitional allowance is permitted; any confirmed exceedance triggers immediate escalation to probationary status or higher. Lead is the signature analyte for culinary oils and fats and falls into this category.
 
 
 *Tier 2 metals* have established tolerable daily intakes, shorter biological half-lives, or primarily acute rather than chronic toxicity profiles. Transitional exceedances up to 150% of the action level may qualify for conditional certification if the brand initiates corrective action and demonstrates an improving trend. Nickel, tin, aluminum, and chromium fall into this category.
@@ -678,10 +678,10 @@ The full Tier 1 / Tier 2 specification, with toxicological rationale for each me
 Testing frequency scales with exposure risk rather than being applied uniformly across all product categories. The relevant variables are consumption volume relative to body weight, frequency of consumption, and the degree to which the product may serve as a sole or dominant food source.
 
 
-Infant formula, which may be the exclusive nutritional source for a newborn for months, presents the highest exposure risk and warrants monthly surveillance testing with independent sampling. Baby cereals and dry grain products, often introduced as first complementary foods and consumed in substantial quantities relative to body weight, present similarly elevated risk and receive the same frequency. Purees and mixed meals, consumed regularly but as part of a diversified diet, receive quarterly surveillance during full compliance. Juices and snacks, consumed intermittently and at lower volumes, receive the same quarterly cadence.
+Refined and hydrogenated cooking oils, which concentrate nickel from hydrogenation catalysts and show the most variable lead occurrence, present the highest exposure risk among the material analytes for this category and warrant the most frequent surveillance testing with independent sampling. Olive oil, where lead is the principal regulated contaminant and the EU maximum level binds, carries a lower but non-trivial burden and receives the standard surveillance cadence. Across both chapters, arsenic, cadmium, and mercury are recorded as not material because they do not partition into the extracted lipid fraction.
 
 
-A regulator or attorney asking why formula is tested twelve times per year while a snack is tested four times receives an answer grounded in consumption data and exposure mathematics, not in administrative convenience. Testing intensifies during transitional and probationary status: every-lot testing applies to all products during Status C, with hold-and-release procedures.
+A regulator or attorney asking why a heavily refined cooking oil is tested more frequently than a cold-pressed olive oil receives an answer grounded in processing-driven contamination data and exposure mathematics, not in administrative convenience. Testing intensifies during transitional and probationary status: every-lot testing applies to all products during Status C, with hold-and-release procedures.
 
 
 The full testing matrix appears in Part 4 of this manual (reproducing the Lot Testing Schedule).
@@ -707,7 +707,7 @@ The full decision-rule specification appears in Part 2.6.
 == Design principle 5: Confidential remediation as a structural feature
 
 
-The commercial and legal landscape around heavy metals in infant foods creates a paradox: the brands most in need of a structured improvement program are the least likely to join one voluntarily if doing so creates public exposure. Any public acknowledgment that a brand's products contain elevated heavy metals, even in the context of a voluntary improvement program, could be weaponized in litigation or media coverage. Chapter 1.2 documented this dynamic at length.
+The commercial and legal landscape around heavy metals in culinary oils and fats creates a paradox: the brands most in need of a structured improvement program are the least likely to join one voluntarily if doing so creates public exposure. Any public acknowledgment that a brand's products contain elevated heavy metals, even in the context of a voluntary improvement program, could be weaponized in litigation or media coverage. Chapter 1.2 documented this dynamic at length.
 
 
 The Confidential Remediation Track resolves the paradox. Brands whose products do not yet qualify for certification may enter the program, access remediation support and technical guidance, and begin building a documented improvement record, without public disclosure of their enrollment or test data. The brand's participation, testing results, corrective action plans, and improvement trajectory are treated as confidential business information under the license agreement.
@@ -778,7 +778,7 @@ What remains in Part 1 is to introduce the evidence base. The HMTc methodology r
 = 1.5 How HMTc Knows What It Knows: heavymetalindex.com
 
 
-Before this manual specifies a single concentration limit, the reader is owed an answer to the question: where do the numbers come from? Not in general terms, _literature, regulatory authorities, peer-reviewed studies_, but specifically. The 10 ppb lead limit for infant formula powder. The 100 ppb inorganic arsenic action level for infant rice cereal. The methylmercury read-across for non-fish matrices. Where, exactly, is the evidence for each of these, and can an adversarial reader audit it without taking the certifier's word?
+Before this manual specifies a single concentration limit, the reader is owed an answer to the question: where do the numbers come from? Not in general terms, _literature, regulatory authorities, peer-reviewed studies_, but specifically. The 100 ppb lead limit for fats and oils, aligned with the binding EU maximum level. The nickel limit for refined and hydrogenated cooking oils, where catalyst residue concentrates. The treatment of arsenic, cadmium, and mercury as not material because they do not partition into the extracted lipid fraction. Where, exactly, is the evidence for each of these, and can an adversarial reader audit it without taking the certifier's word?
 
 
 The answer is heavymetalindex.com.
@@ -852,7 +852,7 @@ The *substrate layer* (`wiki/metals/`, `wiki/ingredients/`, `wiki/products/`, `w
 The *routing layer* (`data/evidence/product_source_routing_audit.csv`) is the mapping from each source to every page it should appear on. It is regenerated automatically when source pages change. The routing audit's transparency is what guarantees that no source has been silently omitted from a cell.
 
 
-The corpus also maintains an evidence register (`data/evidence/`) of structured concentration values, regulatory facts, and review events. Bulk ingest of the literature is ongoing; the corpus today is sufficient to support Category 1 (infant and child foods) certification standards, with Category 2 (children's personal care) and additional categories expanding under continuous ingest.
+The corpus also maintains an evidence register (`data/evidence/`) of structured concentration values, regulatory facts, and review events. Bulk ingest of the literature is ongoing; the corpus today is sufficient to support Category 30 (culinary oils and fats) certification standards, with additional categories expanding under continuous ingest.
 
 
 
@@ -939,7 +939,7 @@ A brand legal team or QA reader who has finished Part 1 understands why the prog
         │  Three-Lot Baseline Testing (§2.3, Part 4 §4)             │
         │  • Full 10-analyte panel on 3 distinct production lots    │
         │  • Composite sampling + chain-of-custody                  │
-        │  • Speciation per Tier 1 rules (iAs for rice, MeHg fish)  │
+        │  • Speciation only where a credible Cr(VI) pathway exists │
         └─────────────────────────────┬─────────────────────────────┘
                                       │
                                       ▼
@@ -1017,7 +1017,7 @@ The diagram is the operational map for the rest of Part 2. Brand legal readers c
 == Narrative
 
 
-The HMTc Program is designed to achieve three simultaneous objectives: protect participating brands from litigation exposure through documented, defensible testing and improvement protocols; protect consumers by incrementally driving down heavy metal exposure in infant and child food products; and create commercial value through a certification mark that signals verified, ongoing compliance under independent surveillance. These three objectives are not in tension. A program that fails any one of them fails all three, a program that does not reduce brand legal exposure cannot recruit participants; a program that does not drive consumer-exposure reduction has no defensible public-health basis; and a program that does not create commercial value cannot sustain itself across the time horizons required to achieve population-level impact.
+The HMTc Program is designed to achieve three simultaneous objectives: protect participating brands from litigation exposure through documented, defensible testing and improvement protocols; protect consumers by incrementally driving down heavy metal exposure in culinary oils and fats products; and create commercial value through a certification mark that signals verified, ongoing compliance under independent surveillance. These three objectives are not in tension. A program that fails any one of them fails all three, a program that does not reduce brand legal exposure cannot recruit participants; a program that does not drive consumer-exposure reduction has no defensible public-health basis; and a program that does not create commercial value cannot sustain itself across the time horizons required to achieve population-level impact.
 
 
 The Program's five Governing Principles, published separately and reproduced in the Methodology Appendix of this manual (Part 5.1), are the authority that this Governance specification implements. The principles are: drive contamination reduction through consumer demand; safeguard consumers; safeguard brands that enter the program; ensure legal defensibility; and scale the program to become the de facto standard. No principle is subordinate to any other. Every operational rule in this Part 2 is evaluated against all five; conflicts among principles are surfaced and resolved rather than ignored.
@@ -1031,7 +1031,7 @@ The Program's five Governing Principles, published separately and reproduced in 
 === 1.2 Action Levels, Not Safety Thresholds
 
 
-The HMTc Standards set category-specific concentration limits (action levels) for priority toxic heavy metals in finished infant and child food products. These action levels are risk-management tools anchored to the best available occurrence data and regulatory benchmarks. They are expressly *not* safety thresholds. Exceeding an action level triggers sourcing, process, and quality control interventions under the Program, but does not by itself indicate that a product is unsafe or that a consumer has been harmed. This distinction is fundamental to the legal and scientific integrity of the Program and shall be reflected in all Program documentation, communications, and mark-usage guidelines.
+The HMTc Standards set category-specific concentration limits (action levels) for priority toxic heavy metals in finished culinary oils and fats products. These action levels are risk-management tools anchored to the best available occurrence data and regulatory benchmarks. They are expressly *not* safety thresholds. Exceeding an action level triggers sourcing, process, and quality control interventions under the Program, but does not by itself indicate that a product is unsafe or that a consumer has been harmed. This distinction is fundamental to the legal and scientific integrity of the Program and shall be reflected in all Program documentation, communications, and mark-usage guidelines.
 
 
 
@@ -1059,7 +1059,7 @@ Certification under this Program does not constitute legal advice and does not r
 === 1.6 International Scope
 
 
-HMTc applies anywhere infant and child food products are sold. The Program is operated by Paleo Certified, Inc., a Florida corporation doing business as The Paleo Foundation, with dispute resolution under California law (see Part 5.6). The Program applies operationally to products sold in any jurisdiction.
+HMTc applies anywhere culinary oils and fats products are sold. The Program is operated by Paleo Certified, Inc., a Florida corporation doing business as The Paleo Foundation, with dispute resolution under California law (see Part 5.6). The Program applies operationally to products sold in any jurisdiction.
 
 
 The 2026 Edition is calibrated against the global open literature aggregated on heavymetalindex.com. A brand selling in any jurisdiction is evaluated against the same per-category HMTc limits derived from the global corpus, with the lowest applicable regulatory cap in the brand's markets of sale serving as a hard upper bound (per the standards-setting principle in Part 5.1 and the regulatory escalation rule in Part 2.11).
@@ -1101,27 +1101,27 @@ Not all heavy metals present the same toxicological profile, and a defensible ce
 The tiered approach means that every governance decision, every transitional allowance granted, every probation imposed, has a traceable rationale grounded in the toxicological literature. *If a regulatory body or plaintiff's attorney asks why a 130% nickel result received transitional certification while a 110% lead result triggered immediate probation, the answer traces directly to the comparative toxicological profiles of the two metals. That defensibility is the point.*
 
 
-Before specifying the tier classification, this chapter establishes the most important framing the manual carries for brand legal teams and regulators: *even compliant foods can exceed reference doses when a child eats across categories.*
+Before specifying the tier classification, this chapter establishes the most important framing the manual carries for brand legal teams and regulators: *even compliant products can carry meaningful exposure when single-product regulatory floors are the only benchmark.*
 
 
 
-== The aggregate-exposure framing
+== The single-product-floor framing
 
 
-#quote(block: true)[A day's consumption *at the FDA action level* across four common categories, 800 milliliters of ready-to-feed formula at the 10 ppb FDA action level for infant formula and most baby foods#super[\[2\]], one 20 ppb serving of dry infant cereal (FDA action level for dry cereals)#super[\[2\]], one 10 ppb fruit purée (FDA action level for most baby foods)#super[\[2\]], and one 20 ppb root-vegetable purée (FDA action level for root vegetables)#super[\[2\]], yields approximately *10.4 µg lead per day*, more than *4.7 times* the FDA Interim Reference Level of 2.2 µg/day for young children#super[\[3\]]. Even at full compliance with FDA action levels across all four food categories, aggregate intake at typical infant consumption patterns substantially exceeds the IRL.
+#quote(block: true)[Compliance with a single-product regulatory action level does not establish that aggregate or repeated exposure sits below a health-based reference value. FDA action levels and EU maximum levels are single-product risk-management triggers set against feasibility and occurrence data; they are not derived from, and do not guarantee compliance with, a health-based tolerable-intake benchmark for a frequent consumer of the category. A consumer eating a contaminated product at the regulatory ceiling on a regular basis can accumulate intake well above the relevant health-based reference dose even though every individual product is regulatory-compliant.
 
 
-This is why HMTc category limits sit below applicable regulatory action levels rather than at them. Aggregate exposure across categories, not single-product compliance, is the relevant exposure metric for infants and young children. The Program drives every product, in every category, steadily and measurably closer to the lowest achievable levels of contamination, simultaneously.]
+This is why HMTc category limits sit below applicable regulatory action levels rather than at them. Repeated and cumulative exposure for a frequent consumer of the category, not single-product compliance, is the relevant exposure metric. The Program drives every product steadily and measurably closer to the lowest achievable levels of contamination.]
 
 
-This calculation is the answer to the question "why don't HMTc limits just align with FDA action levels?" The answer is that compliance with single-product regulatory floors does not deliver compliance with health-based exposure reference values when a child eats across categories. The HMTc Program calibrates limits across categories simultaneously so that aggregate intake at typical infant consumption patterns sits well below health-based exposure benchmarks, not just below single-product regulatory action levels.
+This calculation is the answer to the question "why don't HMTc limits just align with FDA action levels?" The answer is that compliance with single-product regulatory floors does not deliver compliance with health-based exposure reference values for a frequent consumer of the category. The HMTc Program calibrates limits so that intake at realistic consumption patterns sits well below health-based exposure benchmarks, not just below single-product regulatory action levels.
 
 
 
 == Covered product categories
 
 
-This Policy applies to finished products in the infant and young child food categories defined by the HMTc Infant and Child Foods Standards: infant formula (powder and ready-to-feed); baby cereals and dry grain products; fruit purées; non-root vegetable purées; root-vegetable purées; mixed meals; fruit juices (non-canned); and teething and snack products. Fifteen specific product chapters appear in Part 3, each carrying its master limit table, per-analyte rationale, and product-specific toxicology callouts.
+This Policy applies to finished products in the culinary oils and fats categories defined by the HMTc Culinary Oils and Fats Standards: olive oil; and other cooking oils (seed, vegetable, and nut oils). Two specific product chapters appear in Part 3, each carrying its master limit table, per-analyte rationale, and product-specific toxicology callouts.
 
 
 
@@ -1153,11 +1153,11 @@ Tier 1 metals are those that are carcinogenic with no established safe threshold
   [Total elemental cadmium],
   [Bioaccumulative with biological half-​life of 10–30 years; renal cortex is the primary target organ; IARC#super[\[17\]] classifies cadmium and cadmium compounds as Group 1 (carcinogenic to humans). EFSA TWI 2.5 µg/kg bw/week#super[\[11\]]; JECFA PTMI 25 µg/kg bw/month#super[\[15\]]. Full toxicology: `wiki/metals/cadmium` on heavymetalindex.com.],
   [*Arsenic (iAs)*],
-  [Inorganic arsenic (speciation required for rice-​containing products; reflex for others)],
+  [Inorganic arsenic (not material for this category; arsenic does not partition into the extracted lipid fraction and carries no regulatory ML as a contaminant in oils)],
   [IARC classifies inorganic arsenic#super[\[9\]] as Group 1 (carcinogenic to humans) on the basis of lung, skin, and bladder cancer evidence. EFSA's 2024 reassessment#super[\[10\]] derived a cancer reference point of approximately 0.06 µg/kg bw/day and concluded that margins of exposure at current dietary intake levels remain low. Full toxicology: `wiki/metals/arsenic-​inorganic` on heavymetalindex.com.],
-  [*Mercury (MeHg)*],
-  [Methylmercury (speciation required for fish-​containing products; reflex for others)],
-  [Methylmercury crosses the blood-​brain barrier and accumulates in developing neural tissue; prenatal and early postnatal exposure windows are most critical. EFSA TWI 1.3 µg/kg bw/week#super[\[12\]]; EPA RfD 0.1 µg/kg bw/day#super[\[16\]]. Full toxicology: `wiki/metals/mercury-​methyl` on heavymetalindex.com.],
+  [*Mercury (tHg)*],
+  [Total mercury (no speciation required; mercury is not material in the extracted lipid fraction)],
+  [Mercury is evaluated as total mercury. EFSA TWI 1.3 µg/kg bw/week#super[\[12\]]; EPA RfD 0.1 µg/kg bw/day#super[\[16\]]. Full toxicology: `wiki/metals/mercury` on heavymetalindex.com.],
 )
 
 
@@ -1199,13 +1199,13 @@ The Program tests for ten analytes:
 
 
 - *Total forms (8):* Pb, Cd, total As, Ni, total Hg, Al, total Cr, Sn.
-- *Speciated forms (3):* iAs (inorganic arsenic, required for rice-containing products and as a reflex trigger when total As approaches or exceeds 50% of limit); MeHg (methylmercury, required for fish-containing products and as a reflex trigger when total Hg approaches or exceeds 50% of limit); Cr(VI) (hexavalent chromium, required only when a credible Cr(VI) formation pathway exists, such as certain water-treatment processes).
+- *Speciated forms (3):* iAs (inorganic arsenic, required for rice-containing products and as a reflex trigger when total As approaches or exceeds 50% of limit); Cr(VI) (hexavalent chromium, required only when a credible Cr(VI) formation pathway exists, such as certain water-treatment processes).
 
 
 The 8-tier enforcement framework operates on the eight priority metals; speciated forms inherit their parent metal's tier. iAs and MeHg inherit Tier 1 (zero tolerance); Cr(VI) inherits effectively Tier 1 treatment when triggered. Total As, total Hg, and total Cr are tested routinely to support reflex speciation decisions but do not themselves carry separate enforcement tiers, the speciated result governs when speciation has been performed.
 
 
-The speciation logic operationalizes a key toxicological principle: the *form* of a heavy metal determines its toxicological significance, not just its total concentration. Total arsenic measurements alone are not sufficient for rice-containing products because organic arsenic species (predominantly in seafood) are toxicologically distinct from inorganic arsenic (the genotoxic carcinogen). Similarly, total mercury alone is not sufficient for fish-containing products because methylmercury crosses the blood-brain barrier in a way that inorganic mercury does not. Failure to perform required speciation renders the lot ineligible for certification (see Part 4 §9).
+The speciation logic operationalizes a key toxicological principle: the *form* of a heavy metal determines its toxicological significance, not just its total concentration. Total arsenic and total mercury are not material analytes for culinary oils and fats because arsenic and mercury do not partition into the extracted lipid fraction; they carry no regulatory maximum level as a contaminant in oils and are recorded as not material. The material analytes for this category are lead, nickel, and aluminium, and the signature contamination story is lead (EU-capped in fats and oils) and nickel (hydrogenation-catalyst residue). Where hexavalent chromium speciation is performed, it follows the same non-substitution rule that total chromium does not satisfy a Cr-VI requirement (see Part 4 §9).
 
 
 
@@ -1219,7 +1219,7 @@ The Program Operator reserves the right, upon recommendation of the Technical Co
 == Cross-references
 
 
-- Per-product master limit tables: Part 3 (each of fifteen chapters).
+- Per-product master limit tables: Part 3 (each of five chapters).
 - Speciation testing protocol: Part 4 §9.
 - Decision rules under measurement uncertainty: Part 2.6.
 - Toxicology callouts for each metal: Part 5 Glossary, with full reviews on heavymetalindex.com via the canonical wikilinks.
@@ -1287,7 +1287,7 @@ A brand entering the Program with a documented history of accredited third-party
 *Mark Usage:* Permitted. Product may bear the HMTc Certification Mark without restriction.
 
 
-*Testing Frequency:* Routine surveillance per the Lot Testing Schedule (Part 4). Frequency is risk-tiered by product category: high-risk categories (formula, cereals) tested monthly; moderate-risk (purées, mixed meals) and lower-risk (juice, snacks) tested quarterly.
+*Testing Frequency:* Routine surveillance per the Lot Testing Schedule (Part 4). Frequency is risk-tiered by product category: high-risk categories (other cooking oils, where nickel-catalyst residue from refining and hydrogenation and variable lead occurrence are greatest) tested most frequently; lower-risk categories (olive oil, where lead is the principal regulated contaminant) tested on the standard surveillance cadence.
 
 
 *CAPA:* Not required for passing lots. Preventive action is expected if trend analysis shows an upward trajectory approaching limits.
@@ -1396,7 +1396,7 @@ A brand entering the Program with a documented history of accredited third-party
 == The structural problem this chapter solves
 
 
-The commercial and legal landscape around heavy metals in infant foods creates a paradox: *the brands most in need of a structured improvement program are the least likely to join one voluntarily if doing so creates public exposure.* Part 1.2 documented this dynamic at length. In a climate where consumer advocacy groups, state attorneys general, and plaintiffs' attorneys are actively scrutinizing the industry, any public acknowledgment that a brand's products contain elevated heavy metals, even in the context of a voluntary improvement program, could be weaponized in litigation or media coverage. The chilling effect is real, documented in the compliance-theory literature, and structurally hostile to public-health objectives.
+The commercial and legal landscape around heavy metals in culinary oils and fats creates a paradox: *the brands most in need of a structured improvement program are the least likely to join one voluntarily if doing so creates public exposure.* Part 1.2 documented this dynamic at length. In a climate where consumer advocacy groups, state attorneys general, and plaintiffs' attorneys are actively scrutinizing the industry, any public acknowledgment that a brand's products contain elevated heavy metals, even in the context of a voluntary improvement program, could be weaponized in litigation or media coverage. The chilling effect is real, documented in the compliance-theory literature, and structurally hostile to public-health objectives.
 
 
 The Confidential Remediation Track is the program's structural answer to this paradox. It is the single most important differentiator of HMTc from the exposé-driven enforcement environment that Part 1 attacks. It is the reason this chapter is hoisted to its own section in Part 2 rather than appearing as a subsection of program-entry rules. A brand legal team reading this manual to decide whether to recommend HMTc participation should read this chapter alongside Part 5.2 (the Program-Level Adversarial Read), together they answer the question "what does HMTc give my client that internal testing alone does not?"
@@ -1877,7 +1877,7 @@ This chapter is the operational specification of that mechanism. Each sub-sectio
 == 12.1 Review Cycle
 
 
-The HMTc Infant and Child Foods Standards shall be formally reviewed on a cycle of not more than three (3) years, or sooner if significant new toxicological data, regulatory changes, or aggregate Program data warrant revision. The review is conducted by the Program Operator with input from the Technical Committee.
+The HMTc Culinary Oils and Fats Standards shall be formally reviewed on a cycle of not more than three (3) years, or sooner if significant new toxicological data, regulatory changes, or aggregate Program data warrant revision. The review is conducted by the Program Operator with input from the Technical Committee.
 
 
 The annual operational review (referenced throughout §12.3 below) is distinct from the formal three-year revision cycle. The annual review checks ratchet-trigger conditions and publishes the forward forecast. The three-year revision cycle reviews the methodology, the Tier 1/Tier 2 classification, the panel composition, and any structural updates to the framework.
@@ -2082,7 +2082,7 @@ This escalation path is a hard-stop condition. It applies irrespective of whethe
 == Why this rule is structural rather than discretionary
 
 
-A regulator reading this chapter should understand that HMTc is not a shadow regulatory regime. Brands that violate FDA action levels#super[\[2\]] for lead in baby foods, EU maximum levels under Regulation 2023/915#super[\[19\]], or any other operative regulatory threshold cannot use HMTc enrollment to defer the regulator's response. The Program Operator's enforcement-cooperation obligation is contractually binding under the license agreement.
+A regulator reading this chapter should understand that HMTc is not a shadow regulatory regime. Brands that violate FDA action levels#super[\[2\]], EU maximum levels under Regulation 2023/915#super[\[19\]] for lead in fats and oils, or any other operative regulatory threshold cannot use HMTc enrollment to defer the regulator's response. The Program Operator's enforcement-cooperation obligation is contractually binding under the license agreement.
 
 
 A brand legal team should understand the corollary: the Program is designed so that brands that pass HMTc certification are confidently inside the regulatory envelope. A brand that triggers a §2.11 escalation has not just exceeded an HMTc limit; they have produced a lot that, on the merits, was already a regulatory violation regardless of HMTc status. The escalation rule does not create a new violation; it acknowledges an existing one and ensures that Program-internal processes do not slow the brand's regulatory response.
@@ -2265,15 +2265,15 @@ Each ingredient page on HMI carries a structured `contamination_profile` block s
 === Worked example
 
 
-A brand producing chocolate-flavored toddler snack pouches sees their July 2026 lot test return Cd at 240 ppb against an HMTc limit of 350 ppb. The result is within limit, but it is meaningfully higher than the brand's typical 90 ppb baseline. Brand QA opens `heavymetalindex.com/ingredients/cocoa`, navigates to the Cd contamination\_profile block, and finds:
+A brand producing a refined cooking oil sees their July 2026 lot test return nickel meaningfully above the brand's typical baseline, though still within the HMTc limit for the product row. The result is within limit, but the jump prompts the question of why. Brand QA opens `heavymetalindex.com/ingredients/cooking-oil`, navigates to the Ni contamination\_profile block, and finds:
 
 
-- Typical Cd range across all reported cocoa: 80–240 ppb (p95: 410 ppb).
-- Geographic breakdown shows Ecuadorian high-altitude cocoa at 220–540 ppb (n=87 from one peer-reviewed source) versus Ghanaian cocoa at 70–210 ppb (n=92 from a separate source).
-- Seasonal variance shows Ecuadorian cocoa during El Niño years at 180–620 ppb (n=41), running roughly 40% above non-El-Niño baselines.
+- A typical and 95th-percentile nickel range across all reported cooking oils, with sample sizes from the contributing sources.
+- A processing breakdown distinguishing refined and hydrogenated oils, where nickel-catalyst residue concentrates, from cold-pressed and unrefined oils.
+- Source and equipment effects, where the literature reports them, distinguishing catalyst type, degree of hydrogenation, and refining route.
 
 
-The brand cross-references their supplier records: their June 2026 cocoa lot was sourced from a new Ecuadorian high-altitude supplier (replacing their typical Ghanaian supplier due to a price shift), and the 2025-2026 El Niño cycle was active during the relevant harvest period. The diagnostic answer is clear, traceable to the literature, and actionable: source verification on the new supplier, possibly a return to the Ghanaian supplier or a regional diversification of cocoa sourcing.
+The brand cross-references their supplier records: their June 2026 oil lot was sourced from a new supplier using a more heavily hydrogenated process (replacing their typical supplier after a price shift). The diagnostic answer is clear, traceable to the literature, and actionable: source verification on the new supplier, possibly a return to the prior supplier or a shift toward less heavily refined product to lower the nickel-catalyst residue.
 
 
 This diagnostic conversation happened in twenty minutes using the corpus. It would have taken brand QA days of supplier outreach and ingredient testing to reach the same conclusion working from scratch.
@@ -2286,14 +2286,14 @@ This diagnostic conversation happened in twenty minutes using the corpus. It wou
 Each ingredient page on HMI carries a Mitigation Options section ranked by impact magnitude. The categories are: sourcing levers (origin region, supplier specification, soil-Cd or paddy-iAs pre-screening); agronomic levers (soil amendments, water management, cultivar selection); processing levers (rinsing, polishing, fermentation, drying); formulation levers (substitute or dilute); testing and QC levers (lot-level vs. spot-check, internal vs. third-party); and packaging and storage levers where relevant.
 
 
-Each lever entry names the magnitude of the effect on the metal in question and cites the source page that establishes the effect. A brand reading the cocoa ingredient page's Mitigation Options finds, for Cd:
+Each lever entry names the magnitude of the effect on the metal in question and cites the source page that establishes the effect. A brand reading the cooking-oil ingredient page's Mitigation Options finds, for nickel:
 
 
-- *Sourcing level (highest impact):* regional substitution from Ecuadorian high-altitude to Ghanaian or West African low-altitude supply can reduce typical Cd by 60-70% (anchored to comparative studies cited on the page).
-- *Agronomic level:* soil-Cd pre-screening of farmer plots before harvest contracting can reduce supplier-batch variance by 40-50%.
-- *Processing level:* fermentation duration and pH adjustments during cocoa processing can shift Cd uptake by 15-25%.
-- *Formulation level:* dilution with lower-Cd ingredients reduces final-product Cd proportionally (a 50/50 blend of high-Cd and low-Cd cocoa typically produces ~50% of the high-Cd value, allowing for ingredient interactions documented in the cited sources).
-- *Testing and QC level:* lot-by-lot incoming-cocoa testing with rejection thresholds at the 80% PoL internal warning level can prevent elevated lots from entering production.
+- *Processing level (highest impact):* shifting away from heavily hydrogenated and nickel-catalyzed processing toward cold-pressed, expeller-pressed, or alternative-catalyst routes can substantially reduce typical Ni (anchored to comparative studies cited on the page).
+- *Sourcing level:* specifying refining route and catalyst type at procurement reduces supplier-batch variance, since residual nickel tracks the hydrogenation process.
+- *Equipment and packaging level:* controlling metal contact during extraction, refining, and packaging can shift the measured lead and aluminium of the finished product, where the cited literature reports such effects.
+- *Formulation level:* blending lower-Ni oils with higher-Ni oils reduces final-product Ni proportionally (a 50/50 blend of high-Ni and low-Ni oil typically produces ~50% of the high-Ni value, allowing for the interactions documented in the cited sources).
+- *Testing and QC level:* lot-by-lot incoming-oil testing with rejection thresholds at the 80% PoL internal warning level can prevent elevated lots from entering production.
 
 
 Brand QA can read the cited sources for each lever, evaluate which fit their operational reality (sourcing changes have long lead times; processing changes have capital implications; formulation changes have R&D and labeling implications), and assemble a defensible reformulation plan. The remediation pathway becomes a reading exercise, not a research project.
@@ -2327,7 +2327,7 @@ The dashboard is a roadmap capability rather than a current operational feature.
 Before a brand signs an HMTc license agreement, the brand can use heavymetalindex.com to model their pre-certification baseline. The exercise is straightforward and takes one to two hours per product category.
 
 
-The brand identifies the product-category page on HMI that matches their SKU (one of the fifteen Category 1 pages, or a Category 2+ page when those come online). The product-category page carries a Master Limit Table previewing what the HMTc limit would be for each priority analyte, the applicable regulatory cap, and the basis note. The brand cross-references this against their internal testing data, if any, or against the relevant ingredient pages' contamination\_profile blocks if no internal data exists.
+The brand identifies the product-category page on HMI that matches their SKU (one of the two Category 30 culinary oils and fats pages, or another category's page when those come online). The product-category page carries a Master Limit Table previewing what the HMTc limit would be for each priority analyte, the applicable regulatory cap, and the basis note. The brand cross-references this against their internal testing data, if any, or against the relevant ingredient pages' contamination\_profile blocks if no internal data exists.
 
 
 This pre-certification exercise tells the brand:
@@ -2380,14 +2380,14 @@ The HMTc Culinary Oils and Fats standards, one chapter per product row. Each Mas
 = 3.1 Olive Oil
 
 
-_One of 2 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Held/withdrawn analytes (e.g. total arsenic in fish and seaweed, which is arsenosugar/arsenobetaine-dominated — inorganic arsenic is the toxic and regulated analyte) are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling)._
+_One of 2 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Analytes whose occurrence pool is contaminated, unstable, or analyte-mismatched are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling)._
 
 
 *Product class:* Olive oil
 *Subcategory role:* independent
 *Native basis for published thresholds:* as\_sold
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-06-18
+*Date generated:* 2026-06-19
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -2439,14 +2439,14 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reg cap]
   ),
   [Pb],
-  [*100 ppb* [as-​sold]≈ 10 ppb [prepared]],
+  [*100 ppb* [as-​sold]],
   [69.725 ppb],
   [literature-​baseline],
   [7],
   [stable],
   [100 ppb (eu2023\_​pb\_​fats\_​oils\_​100)],
   [iAs],
-  [_​data gap_​],
+  [_​not material_​],
   [—],
   [no-​data],
   [0],
@@ -2460,28 +2460,28 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   [provisional],
   [—],
   [Ni],
-  [*1000 ppb* [as-​sold]≈ 100 ppb [prepared]],
+  [*1000 ppb* [as-​sold]],
   [577.054 ppb],
   [literature-​baseline],
   [9],
   [stable],
   [—],
   [Cd],
-  [*5 ppb* [as-​sold]≈ 0.5 ppb [prepared]],
-  [3.102 ppb],
+  [_​not material_​],
+  [3.102 ppb (pool not standardized — not material)],
   [literature-​baseline],
   [2],
   [provisional],
   [—],
   [Al],
-  [*1000 ppb* [as-​sold]≈ 100 ppb [prepared]],
+  [*1000 ppb* [as-​sold]],
   [581.619 ppb],
   [literature-​baseline],
   [2],
   [stable],
   [—],
   [tHg],
-  [_​data gap_​],
+  [_​not material_​],
   [—],
   [no-​data],
   [0],
@@ -2512,7 +2512,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Why P97 / P45, not P90 / P30 (the row-pass calibration).* A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 
-*Basis.* Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as\_sold ↔ dry\_as\_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
+*Basis.* Each product row's standard is published in the native basis of the product form, the form as sold and placed on market. Brands ship and test in their product's native as-sold form; the certification mark matches that form. As-sold product is not reconstituted from a concentrate, so no powder-to-prepared conversion applies and the published value is the as-sold value. Sources reporting in a non-native basis are converted into the row's native basis during pooling via documented per-source factors recorded in the contribution log; conversions of unknown factor are flagged and not silently coerced.
 
 
 *Regulatory cap.* The final published HMTc value never exceeds the lowest applicable loaded regulatory ceiling, expressed in the product's native basis. When the pooled P97/P45 exceeds the regulatory cap, the cap binds and the rationale tag is `regulatory-alignment`. When the pooled value is below the cap, the rationale is `literature-baseline` and the cap is shown for context only.
@@ -2540,7 +2540,6 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 *Published HMTc threshold:* 100 ppb [as-sold] · 69.725 ppb (pre-rounding)
-*Cross-basis: ≈ 10 ppb [prepared] (÷7 (1:7 reconstitution))*
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* 100 ppb (eu2023\_pb\_fats\_oils\_100)
 *Pool composition:* 7 sources contributing · 60 pseudo-samples in pool · 0 sample-level contributors
@@ -2622,23 +2621,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === iAs
 
 
-*Published HMTc threshold:* _data gap_
+*Published HMTc threshold:* *not material* — Inorganic arsenic does not partition into the extracted lipid fraction; vegetable and olive oils are among the cleanest matrices for arsenic
 *Rationale tag:* `no-data`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 0 sources contributing · 0 pseudo-samples in pool · 0 sample-level contributors
-*no\_data*
 
 
 *Defensibility.* This analyte has no defensible threshold today. The pool is empty; no read-across is available; no regulatory cap applies. The HMTc certification mark on this product does NOT cover this analyte until evidence is loaded. This is the honest position; we explicitly do not pretend coverage we cannot defend.
-
-
-*Brand legal read.* The value is pooled P97 from 0 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
-
-
-*Retailer compliance read.* A certified product tests at or below no published value (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
-
-
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 0 contributing sources across multiple jurisdictions. Sensitivity band no\_data.
 
 
 
@@ -2705,7 +2694,6 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 *Published HMTc threshold:* 1000 ppb [as-sold] · 577.054 ppb (pre-rounding)
-*Cross-basis: ≈ 100 ppb [prepared] (÷7 (1:7 reconstitution))*
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 9 sources contributing · 79 pseudo-samples in pool · 0 sample-level contributors
@@ -2799,25 +2787,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Cd
 
 
-*Published HMTc threshold:* 5 ppb [as-sold] · 3.102 ppb (pre-rounding)
-*Cross-basis: ≈ 0.5 ppb [prepared] (÷7 (1:7 reconstitution))*
+*Published HMTc threshold:* *not material* — Cadmium does not partition into the extracted lipid fraction; it remains with the press cake/meal, not the oil
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 2 sources contributing · 2 pseudo-samples in pool · 0 sample-level contributors
-*Bootstrap 95% CI: [1.16, 7.19] ppb*
-*Sensitivity: log-normal 2.19 · gamma 3.10 · nonparametric 2.26 ppb · spread 29% (provisional)*
 
 
 *Defensibility.* Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
-
-
-*Brand legal read.* The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
-
-
-*Retailer compliance read.* A certified product tests at or below 5 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
-
-
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 2 contributing sources across multiple jurisdictions. Sensitivity band provisional.
 
 
 
@@ -2853,7 +2829,6 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 *Published HMTc threshold:* 1000 ppb [as-sold] · 581.619 ppb (pre-rounding)
-*Cross-basis: ≈ 100 ppb [prepared] (÷7 (1:7 reconstitution))*
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 2 sources contributing · 6 pseudo-samples in pool · 0 sample-level contributors
@@ -2905,23 +2880,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === tHg
 
 
-*Published HMTc threshold:* _data gap_
+*Published HMTc threshold:* *not material* — Mercury does not partition into the extracted lipid fraction
 *Rationale tag:* `no-data`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 0 sources contributing · 0 pseudo-samples in pool · 0 sample-level contributors
-*no\_data*
 
 
 *Defensibility.* This analyte has no defensible threshold today. The pool is empty; no read-across is available; no regulatory cap applies. The HMTc certification mark on this product does NOT cover this analyte until evidence is loaded. This is the honest position; we explicitly do not pretend coverage we cannot defend.
-
-
-*Brand legal read.* The value is pooled P97 from 0 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
-
-
-*Retailer compliance read.* A certified product tests at or below no published value (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
-
-
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 0 contributing sources across multiple jurisdictions. Sensitivity band no\_data.
 
 
 
@@ -2952,7 +2917,7 @@ Response: The sensitivity bands are explicitly reported per analyte. 2 analytes 
 
 
 *Attack 7: "Where does basis conversion happen and what authority do you cite?"*
-Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as\_sold ↔ dry\_as\_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
+Response: Published thresholds for this category are in the as-sold edible basis (edible muscle or tissue). As-sold product is not reconstituted from a powder, so no fixed reconstitution ratio is applied and the published value is the as-sold value. Where a source reports in a different basis, the conversion factor is documented per source in the contribution log, and conversions of unknown factor are flagged rather than silently coerced. There is no powder-to-prepared dilution step a brand could exploit to claim compliance in a more favorable basis.
 
 
 *Attack 8: "Show me one source you excluded."*
@@ -3038,7 +3003,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `84f65cb8c69a1d320c06d1daa940216bec001014` in the heavymetalindex.com repository.
++ Checking out commit `c3e342f14d43f38b64d5b59a0c14ea2137971a71` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=olive-oil` to regenerate this document.
 
@@ -3051,7 +3016,7 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-06-18T17:32:06.453Z],
+  [2026-06-19T12:28:12.870Z],
   [Generator],
   [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
@@ -3059,7 +3024,7 @@ This briefing is reproducible by:
   [Methodology version],
   [HMTc-10 / P97-​P45 per CLAUDE.md Part 19 / Governing Principles v2.0],
   [Git commit],
-  [`84f65cb8c69a1d320c06d1daa940216bec001014`],
+  [`c3e342f14d43f38b64d5b59a0c14ea2137971a71`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -3092,14 +3057,14 @@ _End of briefing._
 = 3.2 Other Cooking Oils (seed, vegetable, nut)
 
 
-_One of 2 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Held/withdrawn analytes (e.g. total arsenic in fish and seaweed, which is arsenosugar/arsenobetaine-dominated — inorganic arsenic is the toxic and regulated analyte) are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling)._
+_One of 2 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Analytes whose occurrence pool is contaminated, unstable, or analyte-mismatched are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling)._
 
 
 *Product class:* Other cooking oils (canola, sunflower, coconut, avocado, sesame)
 *Subcategory role:* independent
 *Native basis for published thresholds:* as\_sold
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-06-18
+*Date generated:* 2026-06-19
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -3151,43 +3116,43 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reg cap]
   ),
   [Pb],
-  [*100 ppb* [as-​sold]≈ 15 ppb [prepared]],
+  [*100 ppb* [as-​sold]],
   [211.530 ppb (capped to 100 by reg cap)],
   [regulatory-​alignment],
   [27],
   [provisional],
   [100 ppb (eu2023\_​pb\_​fats\_​oils\_​100)],
   [tAs],
-  [*100 ppb* [as-​sold]≈ 10 ppb [prepared]],
-  [56.183 ppb],
+  [_​not material_​],
+  [56.183 ppb (pool not standardized — not material)],
   [literature-​baseline],
   [15],
   [stable],
   [—],
   [Ni],
-  [*100 ppb* [as-​sold]≈ 15 ppb [prepared]],
+  [*100 ppb* [as-​sold]],
   [82.559 ppb],
   [literature-​baseline],
   [12],
   [stable],
   [—],
   [Cd],
-  [*100 ppb* [as-​sold]≈ 10 ppb [prepared]],
-  [56.746 ppb],
+  [_​not material_​],
+  [56.746 ppb (pool not standardized — not material)],
   [literature-​baseline],
   [23],
   [provisional],
   [—],
   [Al],
-  [*2 ppb* [as-​sold]≈ 0.5 ppb [prepared]],
+  [*2 ppb* [as-​sold]],
   [1.457 ppb],
   [literature-​baseline],
   [1],
   [stable],
   [—],
   [tHg],
-  [*200 ppb* [as-​sold]≈ 25 ppb [prepared]],
-  [166.438 ppb],
+  [_​not material_​],
+  [166.438 ppb (pool not standardized — not material)],
   [literature-​baseline],
   [1],
   [stable],
@@ -3217,7 +3182,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Why P97 / P45, not P90 / P30 (the row-pass calibration).* A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 
-*Basis.* Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as\_sold ↔ dry\_as\_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
+*Basis.* Each product row's standard is published in the native basis of the product form, the form as sold and placed on market. Brands ship and test in their product's native as-sold form; the certification mark matches that form. As-sold product is not reconstituted from a concentrate, so no powder-to-prepared conversion applies and the published value is the as-sold value. Sources reporting in a non-native basis are converted into the row's native basis during pooling via documented per-source factors recorded in the contribution log; conversions of unknown factor are flagged and not silently coerced.
 
 
 *Regulatory cap.* The final published HMTc value never exceeds the lowest applicable loaded regulatory ceiling, expressed in the product's native basis. When the pooled P97/P45 exceeds the regulatory cap, the cap binds and the rationale tag is `regulatory-alignment`. When the pooled value is below the cap, the rationale is `literature-baseline` and the cap is shown for context only.
@@ -3245,7 +3210,6 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 *Published HMTc threshold:* 100 ppb [as-sold] · 100 ppb (pre-rounding)
-*Cross-basis: ≈ 15 ppb [prepared] (÷7 (1:7 reconstitution))*
 *Rationale tag:* `regulatory-alignment`
 *Regulatory ceiling reference:* 100 ppb (eu2023\_pb\_fats\_oils\_100)
 *Pool composition:* 27 sources contributing · 306 pseudo-samples in pool · 0 sample-level contributors
@@ -3405,25 +3369,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === tAs
 
 
-*Published HMTc threshold:* 100 ppb [as-sold] · 56.183 ppb (pre-rounding)
-*Cross-basis: ≈ 10 ppb [prepared] (÷7 (1:7 reconstitution))*
+*Published HMTc threshold:* *not material* — Arsenic does not partition into the extracted lipid fraction; seed/vegetable/nut oils carry no As contaminant signal
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 15 sources contributing · 132 pseudo-samples in pool · 0 sample-level contributors
-*Bootstrap 95% CI: [22.52, 84.65] ppb*
-*Sensitivity: log-normal 56.96 · gamma 65.92 · nonparametric 53.54 ppb · spread 19% (stable)*
 
 
 *Defensibility.* Pooled P97 from 15 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
-
-
-*Brand legal read.* The value is pooled P97 from 15 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
-
-
-*Retailer compliance read.* A certified product tests at or below 100 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
-
-
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 15 contributing sources across multiple jurisdictions. Sensitivity band stable.
 
 
 
@@ -3537,7 +3489,6 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 *Published HMTc threshold:* 100 ppb [as-sold] · 82.559 ppb (pre-rounding)
-*Cross-basis: ≈ 15 ppb [prepared] (÷7 (1:7 reconstitution))*
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 12 sources contributing · 90 pseudo-samples in pool · 0 sample-level contributors
@@ -3649,25 +3600,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Cd
 
 
-*Published HMTc threshold:* 100 ppb [as-sold] · 56.746 ppb (pre-rounding)
-*Cross-basis: ≈ 10 ppb [prepared] (÷7 (1:7 reconstitution))*
+*Published HMTc threshold:* *not material* — Cadmium does not partition into the extracted lipid fraction; it remains with the press cake/meal, not the oil
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 23 sources contributing · 298 pseudo-samples in pool · 0 sample-level contributors
-*Bootstrap 95% CI: [9.86, 127.02] ppb*
-*Sensitivity: log-normal 37.96 · gamma 40.42 · nonparametric 57.48 ppb · spread 34% (provisional)*
 
 
 *Defensibility.* Pooled P97 from 23 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
-
-
-*Brand legal read.* The value is pooled P97 from 23 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
-
-
-*Retailer compliance read.* A certified product tests at or below 100 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
-
-
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 23 contributing sources across multiple jurisdictions. Sensitivity band provisional.
 
 
 
@@ -3811,7 +3750,6 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 *Published HMTc threshold:* 2 ppb [as-sold] · 1.457 ppb (pre-rounding)
-*Cross-basis: ≈ 0.5 ppb [prepared] (÷7 (1:7 reconstitution))*
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 1 sources contributing · 1 pseudo-samples in pool · 0 sample-level contributors
@@ -3857,25 +3795,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === tHg
 
 
-*Published HMTc threshold:* 200 ppb [as-sold] · 166.438 ppb (pre-rounding)
-*Cross-basis: ≈ 25 ppb [prepared] (÷7 (1:7 reconstitution))*
+*Published HMTc threshold:* *not material* — Mercury does not partition into the extracted lipid fraction
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 1 sources contributing · 1 pseudo-samples in pool · 0 sample-level contributors
-*Bootstrap 95% CI: [6.20, 186.41] ppb*
-*Sensitivity: log-normal 167.73 · gamma 167.67 · nonparametric 167.38 ppb · spread 0% (stable)*
 
 
 *Defensibility.* Pooled P97 from 1 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
-
-
-*Brand legal read.* The value is pooled P97 from 1 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
-
-
-*Retailer compliance read.* A certified product tests at or below 200 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
-
-
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 1 contributing sources across multiple jurisdictions. Sensitivity band stable.
 
 
 
@@ -3932,7 +3858,7 @@ Response: The sensitivity bands are explicitly reported per analyte. 2 analytes 
 
 
 *Attack 7: "Where does basis conversion happen and what authority do you cite?"*
-Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as\_sold ↔ dry\_as\_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
+Response: Published thresholds for this category are in the as-sold edible basis (edible muscle or tissue). As-sold product is not reconstituted from a powder, so no fixed reconstitution ratio is applied and the published value is the as-sold value. Where a source reports in a different basis, the conversion factor is documented per source in the contribution log, and conversions of unknown factor are flagged rather than silently coerced. There is no powder-to-prepared dilution step a brand could exploit to claim compliance in a more favorable basis.
 
 
 *Attack 8: "Show me one source you excluded."*
@@ -4027,7 +3953,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `84f65cb8c69a1d320c06d1daa940216bec001014` in the heavymetalindex.com repository.
++ Checking out commit `c3e342f14d43f38b64d5b59a0c14ea2137971a71` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=cooking-oils-other` to regenerate this document.
 
@@ -4040,7 +3966,7 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-06-18T17:32:06.536Z],
+  [2026-06-19T12:28:12.949Z],
   [Generator],
   [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
@@ -4048,7 +3974,7 @@ This briefing is reproducible by:
   [Methodology version],
   [HMTc-10 / P97-​P45 per CLAUDE.md Part 19 / Governing Principles v2.0],
   [Git commit],
-  [`84f65cb8c69a1d320c06d1daa940216bec001014`],
+  [`c3e342f14d43f38b64d5b59a0c14ea2137971a71`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -4112,7 +4038,7 @@ _[Reproduction of the Lot Testing Schedule begins on the next page. The full sou
 #line(length: 100%, stroke: 0.4pt + rgb("#bbb"))
 
 
-*Heavy Metal Tested & Certified, Infant and Child Foods Standards Program*
+*Heavy Metal Tested & Certified, Culinary Oils and Fats Standards Program*
 
 
 _Companion Document to the HMTc Governance Policy_
@@ -4152,34 +4078,26 @@ Testing frequency under this Schedule is determined by both the product's certif
 === 2.1 Risk Tier Definitions
 
 
-*2.1.1 High-Risk Categories.* Products that may serve as a sole-source or dominant food for infants, consumed in high volume relative to body weight, often multiple times daily. A testing gap in these categories creates the highest exposure risk.
+*2.1.1 High-Risk Categories.* Products with the greatest potential to carry the program's signature material analytes, lead and nickel, at the highest concentrations. Lead is the EU-capped contaminant in fats and oils, and nickel enters as a hydrogenation-catalyst residue. A testing gap in these categories creates the highest exposure risk.
 
 
-- Infant formula (powder and ready-to-feed)
-- Baby cereals and dry grain products
+- Other cooking oils (seed, vegetable, and nut oils), where hydrogenation and refining introduce nickel and where lead occurrence is most variable
 
 
 *2.1.2 Moderate-Risk Categories.* Products consumed regularly but typically as part of a diversified diet, at moderate volume relative to body weight.
 
 
-- Fruit purees
-- Non-root vegetable purees
-- Root-vegetable purees
-- Mixed meals
+- Olive oil (where lead is the principal regulated contaminant)
 
 
 *2.1.3 Lower-Risk Categories.* Products consumed occasionally or intermittently, at lower volumes relative to body weight, and not typically a dominant dietary component.
-
-
-- Fruit juice (non-canned)
-- Teething and snack products
 
 
 
 === 2.2 Risk Tier Adjustments
 
 
-The Program Operator may adjust a specific product's risk tier based on factors including but not limited to: production volume, historical testing results, known ingredient risk profiles, and consumption data. For example, a teething product made primarily from rice (a high-risk ingredient for arsenic) may be elevated to Moderate-Risk for testing purposes. Risk tier adjustments are documented and communicated to the Licensee.
+The Program Operator may adjust a specific product's risk tier based on factors including but not limited to: production volume, historical testing results, known ingredient risk profiles, and consumption data. For example, a refined or partially hydrogenated cooking oil produced on equipment or with catalysts known to leave elevated nickel residue may be elevated to a higher risk tier for testing purposes. Risk tier adjustments are documented and communicated to the Licensee.
 
 
 
@@ -4261,7 +4179,7 @@ All SKUs entering the HMTc Program must undergo baseline testing across three (3
 
 - Three lots must be tested, each representing a distinct production run (different dates, shifts, or ingredient lots where possible).
 - Each lot is tested for the full heavy metals panel (all eight priority metals).
-- Speciation testing is performed where required by the Standards methodology (inorganic arsenic for rice-containing products; methylmercury for fish-containing products; hexavalent chromium where a credible pathway exists).
+- Speciation testing is not generally required for this category: arsenic, cadmium, and mercury do not partition into the extracted lipid fraction and are recorded as not material, so the inorganic-arsenic and methylmercury triggers that apply to other categories do not apply here. The material analytes are lead, nickel, and aluminium; hexavalent chromium speciation is performed only where a credible pathway exists.
 - Sampling follows the composite method: each analytical sample is a composite drawn from multiple consumer units across the lot.
 - Chain-of-custody documentation is required for all baseline samples.
 
@@ -4295,9 +4213,8 @@ Status A products have demonstrated full compliance (MaxPoL at or below 100% for
 === 5.1 Testing Frequency
 
 
-- *High-Risk Categories* (formula, cereals): Monthly testing via independent sampling.
-- *Moderate-Risk Categories* (purees, mixed meals): Quarterly testing via independent sampling.
-- *Lower-Risk Categories* (juice, snacks): Quarterly testing via independent sampling.
+- *High-Risk Categories* (other cooking oils, where nickel-catalyst residue and variable lead occurrence concentrate): tested on the most frequent surveillance cadence via independent sampling.
+- *Lower-Risk Categories* (olive oil, where lead is the principal regulated contaminant): tested on the standard surveillance cadence via independent sampling.
 
 
 
@@ -4505,14 +4422,14 @@ Speciation analysis determines the specific chemical form of a metal present, wh
     [Mandatory Speciation],
     [Reflex Speciation Trigger]
   ),
-  [Arsenic],
-  [Inorganic arsenic (iAs)],
-  [All products containing rice or rice-​derived ingredients],
-  [Total As approaches or exceeds limit in any product],
-  [Mercury],
-  [Methylmercury (MeHg)],
-  [All products containing fish or marine ingredients],
-  [Total Hg approaches or exceeds limit in any product],
+  [Lead],
+  [Total lead (Pb)],
+  [All culinary oils and fats; EU-​capped in fats and oils],
+  [Pb approaches or exceeds limit in any product],
+  [Nickel],
+  [Total nickel (Ni)],
+  [Refined and hydrogenated oils, where catalyst residue concentrates],
+  [Ni approaches or exceeds limit in any product],
   [Chromium],
   [Hexavalent chromium (Cr(VI))],
   [Only if credible pathway exists (certain water sources, processing)],
@@ -4524,7 +4441,7 @@ Speciation analysis determines the specific chemical form of a metal present, wh
 )
 
 
-When speciation is performed, the speciated result (e.g., inorganic arsenic rather than total arsenic) becomes the compliance result for that metal, superseding the total element concentration. Failure to perform required speciation renders the lot ineligible for certification. The reflex speciation trigger of "approaches the limit" is operationally defined as reaching 50% of the applicable HMTc limit for total metal, consistent with the speciation triggers defined in the HMTc Infant and Child Foods Standards. The Program Operator may lower this threshold further based on risk analysis but may not raise it above 50%.
+When speciation is performed, the speciated result (e.g., inorganic arsenic rather than total arsenic) becomes the compliance result for that metal, superseding the total element concentration. Failure to perform required speciation renders the lot ineligible for certification. The reflex speciation trigger of "approaches the limit" is operationally defined as reaching 50% of the applicable HMTc limit for total metal, consistent with the testing triggers defined in the HMTc Culinary Oils and Fats Standards. The Program Operator may lower this threshold further based on risk analysis but may not raise it above 50%.
 
 
 
@@ -4713,7 +4630,7 @@ The following measures are recommended beyond the minimum requirements. While no
 === 13.1 Risk-Tiering of Ingredients and Suppliers
 
 
-Identify raw materials and suppliers that are high-risk for heavy metal contamination (rice for arsenic, root vegetables for lead and cadmium, fish for mercury, certain geographic regions). Apply stricter incoming material specifications and testing for high-risk tiers. Require certificates of analysis for each ingredient lot from high-risk suppliers. Conduct periodic audits or verification testing of supplier materials.
+Identify raw materials and suppliers that are high-risk for heavy metal contamination (hydrogenation and refining catalysts for nickel, equipment and packaging contact for lead and aluminium, certain growing and processing regions). Apply stricter incoming material specifications and testing for high-risk tiers. Require certificates of analysis for each ingredient lot from high-risk suppliers. Conduct periodic audits or verification testing of supplier materials.
 
 
 
@@ -4752,7 +4669,7 @@ Maintain comprehensive records of all testing (internal and external), CAPA acti
 == 14. Document Review and Revision
 
 
-This Lot Testing Schedule shall be reviewed at least annually or upon any update to the HMTc Governance Policy, HMTc Infant and Child Foods Standards, or relevant regulatory requirements. Revisions will incorporate new scientific insights, regulatory changes, improvements in testing technology, and lessons learned from program operations. All revisions are managed under document control procedures consistent with the Governance Policy. The version in effect at the time of a testing decision governs that decision.
+This Lot Testing Schedule shall be reviewed at least annually or upon any update to the HMTc Governance Policy, HMTc Culinary Oils and Fats Standards, or relevant regulatory requirements. Revisions will incorporate new scientific insights, regulatory changes, improvements in testing technology, and lessons learned from program operations. All revisions are managed under document control procedures consistent with the Governance Policy. The version in effect at the time of a testing decision governs that decision.
 
 
 
@@ -4791,7 +4708,7 @@ This Lot Testing Schedule shall be reviewed at least annually or upon any update
 = 5.1 How HMTc Standards Are Set
 
 
-A reader who has worked through Parts 1, 2, 2.5, 3, and 4 has encountered every operational element of the HMTc Program: why it exists, how it is governed, how brands use the evidence base, what the per-product standards are, and how surveillance operates. What remains is the methodology that ties the operational program back to its underlying analytical work. This chapter specifies, in principle and at appropriate detail, how a specific number, say, _10 ppb lead for infant formula powder_, gets produced and what an adversarial reviewer can verify about it.
+A reader who has worked through Parts 1, 2, 2.5, 3, and 4 has encountered every operational element of the HMTc Program: why it exists, how it is governed, how brands use the evidence base, what the per-product standards are, and how surveillance operates. What remains is the methodology that ties the operational program back to its underlying analytical work. This chapter specifies, in principle and at appropriate detail, how a specific number, say, the lead limit for a given product row, gets produced and what an adversarial reviewer can verify about it.
 
 
 This chapter respects the wiki/HMTc firewall: the engine arithmetic stays workbench-side, where it is protected as a trade secret per the Colophon (Part 5.7) and where exposing it would let competing certifiers shortcut years of methodology development. The *principle* of standards-setting is in this chapter; the *mechanism* is in the Governing Principles; the *inputs* are on heavymetalindex.com and are publicly auditable.
@@ -4866,7 +4783,7 @@ These targets are the policy choice. They sit at the intersection of all five Go
 ==== Clean vs. dirty platform classification rule
 
 
-A _platform_ is a subcategory of products within a parent product category, for example, soy-based versus non-soy-based infant formula, powder versus ready-to-feed liquid, rice-based versus non-rice baby cereal. Platform classification determines whether per-analyte standards use the P97 (clean) or P45 (dirty) percentile, so the classification rule is load-bearing.
+A _platform_ is a subcategory of products within a parent product category, for example, olive oil versus other cooking oils, refined versus unrefined oil, hydrogenated versus non-hydrogenated fats. Platform classification determines whether per-analyte standards use the P97 (clean) or P45 (dirty) percentile, so the classification rule is load-bearing.
 
 
 *The classification rule is data-driven:* a platform is classified _clean_ when its empirical median across the literature-pooled distribution sits at or below the parent-category median for the analyte; _dirty_ when meaningfully above. "Meaningfully above" is operationalized as p50(subcategory) \> 1.5 × p50(parent category) for at least one Tier 1 metal. Platforms not meeting the dirty threshold are classified clean by default.
@@ -4905,7 +4822,7 @@ Every source loaded for a (row, metal) cell contributes to the pooled distributi
 Sources are weighted by their reported sample size, capped at twice the median per-source N. The cap prevents any single large survey, for example, a 5,000-sample FDA TDS sub-extract, from dominating the pooled distribution for a cell where most contributing sources have N=50–200. The 2× ratio preserves large-N influence proportionally while preventing pool concentration in a single source. Without the cap, a single large survey could effectively determine the per-analyte percentile for a cell regardless of what other contributing sources report; with the cap, the percentile reflects the weighted consensus of the corpus rather than the dominant single survey.
 
 
-Each row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, purée rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as-sold ↔ dry-as-sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
+Each row's standard is published in the native basis of the product form: olive oil and other cooking-oil rows in as-sold, the form in which the oil is placed on the market and consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (within-class identity for as-sold to as-sold; documented conversion where a source reports on a different basis). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases. The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
 
 The final HMTc value is `min(per-analyte pooled percentile, lowest applicable regulatory ceiling)`, with both expressed in the row's native basis. The cap is converted into native basis if it was published in a different one. The rationale tag is one of:
@@ -5103,10 +5020,10 @@ The auditability claim is now operationally specified with a documented response
 == Aggregate-exposure framing accuracy
 
 
-*Attack.* "The Part 2.2 aggregate-exposure calculation uses 5 ppb formula (below the FDA action level) but 20 ppb cereal and root vegetables (at the action level). The asymmetry is rhetorically tuned. The calculation should use either worst-case values (all at FDA action levels) or surveillance medians, not a mix."
+*Attack.* "The Part 2.2 aggregate-exposure reasoning selects mixed-stringency anchor values across the contributing product categories. The asymmetry is rhetorically tuned. The calculation should use either worst-case values (all at the applicable regulatory action level) or surveillance medians consistently, not a mix."
 
 
-*Response.* Part 2.2 has been revised to use the FDA action level uniformly across all four food categories: 10 ppb formula, 20 ppb dry cereal, 10 ppb fruit purée, 20 ppb root-vegetable purée. The revised calculation yields approximately *10.4 µg lead per day*, more than *4.7 times* the FDA Interim Reference Level of 2.2 µg/day. This is a stronger version of the same argument with no asymmetric value selection. The toxicology-callouts.md aggregate-exposure cross-callout was revised in parallel.
+*Response.* Part 2.2 has been revised to apply the applicable regulatory action level uniformly across the contributing product categories rather than mixing stringency levels, so the aggregate-exposure reasoning rests on a consistent worst-case anchor with no asymmetric value selection. The toxicology cross-callout was revised in parallel.
 
 
 
@@ -5180,7 +5097,7 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 *Action Level.* A practical concentration limit used to trigger sourcing, process, and quality control measures. Exceeding an action level signals that intervention is needed; it is not a safety threshold. (HMTc-specific; per Governance Policy §3 and Part 2.1 §1.2.)
 
 
-*Aggregate Exposure.* Total intake of a contaminant across all dietary sources, expressed as µg/day or µg/kg bw/day. The relevant exposure metric for infants and young children because compliance with single-product action levels does not guarantee compliance with health-based exposure benchmarks. (See Part 2.2 aggregate-exposure framing.)
+*Aggregate Exposure.* Total intake of a contaminant across all dietary sources, expressed as µg/day or µg/kg bw/day. A relevant exposure metric because compliance with single-product action levels does not guarantee compliance with health-based exposure benchmarks across a consumer's full diet. (See Part 2.2 aggregate-exposure framing.)
 
 
 *ALARA.* As Low As Reasonably Achievable. A risk-management principle emphasizing feasible, continuous reduction of contaminant levels over time, especially when no safe threshold is known. Operationalized in HMTc as an enforceable obligation, not aspirational language. (Per Governance Policy §1.3 and Part 2.1.)
@@ -5219,19 +5136,16 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 *HMTc.* Heavy Metal Tested and Certified. The certification program specified in this manual. Operated by The Paleo Foundation at heavymetaltested.com.
 
 
-*iAs.* Inorganic arsenic. The genotoxic carcinogenic form of arsenic, distinguished from organic arsenic species (predominantly in seafood) which are toxicologically distinct. Mandatory speciation for rice-containing products per Part 4 §9.
+*iAs.* Inorganic arsenic. The genotoxic carcinogenic form of arsenic, distinguished from organic arsenic species which are toxicologically distinct. Not a material analyte for culinary oils and fats: arsenic does not partition into the extracted lipid fraction and carries no regulatory maximum level as a contaminant in oils, so no inorganic-arsenic speciation is required for this category under Part 4 §9.
 
 
 *IARC.* International Agency for Research on Cancer. WHO body responsible for the carcinogen classifications (Group 1 = carcinogenic to humans; Group 2A = probably; Group 2B = possibly) referenced throughout the toxicology callouts.
 
 
-*Infants and Young Children.* In this manual, refers to children from birth up to approximately 5 years of age (typical age range for infant and toddler food and child foods).
-
-
 *Independent Sampling.* Samples are collected and submitted to the laboratory by a party independent of the brand's production team. This may be the Program Operator, a designated third-party auditor, or another party approved by the Program Operator. (Per Part 4 §3.1.)
 
 
-*IRL.* Interim Reference Level. In the FDA context, a risk-management intake level used to prioritize and evaluate actions to reduce exposure, not a safety threshold. FDA's current IRL for dietary lead in young children is 2.2 µg/day.
+*IRL.* Interim Reference Level. In the FDA context, a risk-management intake level used to prioritize and evaluate actions to reduce exposure, not a safety threshold. FDA expresses IRLs as a daily dietary intake (µg/day) for the population of concern.
 
 
 *JECFA.* Joint FAO/WHO Expert Committee on Food Additives. An international expert body convened by the Food and Agriculture Organization of the United Nations and the World Health Organization to evaluate risks from food additives, contaminants, and residues.
@@ -5249,9 +5163,6 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 *MaxPoL.* Maximum Percent-of-Limit. The highest PoL among all compliance analytes for a given lot. MaxPoL drives the status determination per Part 2.3.
 
 
-*MeHg.* Methylmercury. The neurotoxic form of mercury that crosses the blood-brain barrier and bioaccumulates in developing neural tissue. Mandatory speciation for fish-containing products per Part 4 §9.
-
-
 *MU.* Measurement Uncertainty. The laboratory's stated expanded uncertainty (typically at 95% confidence, k=2) associated with a reported result. Incorporated into decision rules per Part 2.6.
 
 
@@ -5264,7 +5175,7 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 *ppb.* Parts per billion by mass in foods, typically equivalent to micrograms per kilogram (µg/kg). For liquids, ppb is often treated as µg/L when density is close to 1 g/mL.
 
 
-*Platform.* In HMTc methodology, a subcategory of products within a parent product category, classified as either _clean_ or _dirty_ based on its empirical contamination profile across the open literature. A platform may be defined by ingredient base (e.g., soy-based vs. non-soy-based infant formula), processing method (e.g., powder vs. ready-to-feed liquid formula), or product format (e.g., dry vs. wet cereal). Platform classification is data-driven: a platform is _clean_ when its empirical median across the literature-pooled distribution sits at or below the parent-category median for the analyte; _dirty_ when meaningfully above (operationalized as p50(platform) \> 1.5 × p50(parent category) for at least one Tier 1 metal). Platform classification determines whether per-analyte standards use the P97 (clean) or P45 (dirty) percentile (per Part 5.1).
+*Platform.* In HMTc methodology, a subcategory of products within a parent product category, classified as either _clean_ or _dirty_ based on its empirical contamination profile across the open literature. A platform may be defined by product class (e.g., olive oil vs. other cooking oils), processing method (e.g., refined vs. unrefined, hydrogenated vs. non-hydrogenated), or source crop (e.g., seed vs. nut oils). Platform classification is data-driven: a platform is _clean_ when its empirical median across the literature-pooled distribution sits at or below the parent-category median for the analyte; _dirty_ when meaningfully above (operationalized as p50(platform) \> 1.5 × p50(parent category) for at least one Tier 1 metal). Platform classification determines whether per-analyte standards use the P97 (clean) or P45 (dirty) percentile (per Part 5.1).
 
 
 *PTWI / PTMI.* Provisional Tolerable Weekly Intake / Provisional Tolerable Monthly Intake. Older JECFA benchmark formats used when the guidance value was considered provisional due to data limitations or expected updates. In practice they functioned like TWIs. JECFA withdrew its lead PTWI in 2011 on the grounds that it was no longer health-protective.
@@ -5276,7 +5187,7 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 *Reflex Testing.* Any test conducted outside the routine surveillance schedule in response to a defined trigger event. Reflex tests carry the same weight as routine surveillance results. (Per Part 4 §8.)
 
 
-*Speciation.* Determination of the specific chemical form of a metal present, which is critical for accurate risk assessment. HMTc requires speciation in defined contexts (iAs for rice; MeHg for fish; Cr(VI) when credible pathway exists). (Per Part 4 §9.)
+*Speciation.* Determination of the specific chemical form of a metal present, which is critical for accurate risk assessment. HMTc requires speciation only where a credible pathway exists (e.g. Cr(VI)); for culinary oils and fats, arsenic, cadmium, and mercury are not material in the lipid fraction and the material analytes are lead, nickel, and aluminium. (Per Part 4 §9.)
 
 
 *Subcategory.* A product class within a parent product category, typically defined by a discriminating attribute such as ingredient base, processing method, or product format. In HMTc methodology, the term _subcategory_ is interchangeable with _platform_, both refer to the classification units that the methodology calibrates against. See _Platform_.
@@ -5701,7 +5612,7 @@ The intent is not to denigrate other programs or claim HMTc is uniformly superio
   [N/A],
   [Spot],
   [*Underlying scope*],
-  [Infant/child foods (Cat 1); other categories coming],
+  [Culinary oils and fats (Cat 30); other categories coming],
   [Agricultural production methods],
   [GMO ingredient sourcing],
   [Multi-​contaminant, all foods],
@@ -5717,7 +5628,7 @@ The intent is not to denigrate other programs or claim HMTc is uniformly superio
 The matrix above is dense; the practical implications are:
 
 
-*Compared to USDA Organic.* Organic certifies agricultural production methods (no synthetic pesticides, fertilizers, GMOs) and does not address heavy metal contamination at the product level. Organic certification does not preclude elevated heavy metals, organic cocoa, organic rice, and organic root vegetables can all carry significant heavy metal contamination because the metals come from soil, water, and atmospheric sources that organic standards do not regulate. *A brand with Organic certification still needs HMTc to certify heavy metal limits.* The two are complementary rather than substitutable.
+*Compared to USDA Organic.* Organic certifies agricultural production methods (no synthetic pesticides, fertilizers, GMOs) and does not address heavy metal contamination at the product level. Organic certification does not preclude elevated heavy metals, organic olive oil, organic cold-pressed seed oils, and organic nut oils can all carry significant heavy metal contamination because the metals come from soil, water, processing equipment, and packaging-contact sources that organic standards do not regulate. *A brand with Organic certification still needs HMTc to certify heavy metal limits.* The two are complementary rather than substitutable.
 
 
 *Compared to Non-GMO Project.* Non-GMO certifies the absence of genetically modified ingredients at defined detection thresholds. It has no scope on heavy metal contamination. Same complementarity logic as Organic.
@@ -5898,7 +5809,7 @@ The actual license agreement contains operative terms not summarized here, inclu
 == Edition
 
 
-*Heavy Metal Tested & Certified (HMTc) Infant and Child Foods Program Manual, 2026 Edition.* First bound publication. The HMTc methodology has evolved through documented revisions since 2024; the current edition reflects refinements to the per-analyte percentile calibration, the addition of the row-pass framework, the operationalization of the Standards Ratchet Mechanism with explicit trigger conditions and step-size caps, and the formalization of the Confidential Remediation Track.
+*Heavy Metal Tested & Certified (HMTc) Culinary Oils and Fats Program Manual, 2026 Edition.* First bound publication. The HMTc methodology has evolved through documented revisions since 2024; the current edition reflects refinements to the per-analyte percentile calibration, the addition of the row-pass framework, the operationalization of the Standards Ratchet Mechanism with explicit trigger conditions and step-size caps, and the formalization of the Confidential Remediation Track.
 
 
 
@@ -5969,7 +5880,7 @@ Heavymetalindex.com (HMI) is the public curated corpus of the heavy-metals-in-fo
 *Typesetting and design.* This v0-pre-audit edition is rendered in markdown for review. The audit-strengthened v0 will be typeset using Typst or Quarto evaluated against the full ~135-page document; the typesetting toolchain is selected after content lock. Typefaces (FreightText Pro for display and serif body; Avenir Next Cyr for sans-serif) are licensed for use under standard commercial typeface licenses.
 
 
-*Build pipeline.* Content lives in markdown under `data/workbench/standards-book/` and is concatenated by `tools/standards/build-program-manual.mjs` (in development). The Program Manual is regenerated by the autonomy daemon whenever the source documents (Governance Policy, Lot Testing Schedule, Governing Principles, or any of the 15 product briefings) change, ensuring the bound manual stays consistent with the current state of the operational documents.
+*Build pipeline.* Content lives in markdown under `data/workbench/standards-book/` and is concatenated by `tools/standards/build-program-manual.mjs` (in development). The Program Manual is regenerated by the autonomy daemon whenever the source documents (Governance Policy, Lot Testing Schedule, Governing Principles, or any of the 5 product briefings) change, ensuring the bound manual stays consistent with the current state of the operational documents.
 
 
 
@@ -6003,7 +5914,7 @@ This is *v0-pre-audit* of the 2026 Edition. The audit-strengthened v0 ships afte
 #line(length: 100%, stroke: 0.4pt + rgb("#bbb"))
 
 
-_End of Heavy Metal Tested & Certified Infant and Child Foods Program Manual, 2026 Edition._
+_End of Heavy Metal Tested & Certified Culinary Oils and Fats Program Manual, 2026 Edition._
 
 
 
