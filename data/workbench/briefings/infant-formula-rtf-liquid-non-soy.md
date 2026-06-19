@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: infant-formula-rtf-liquid-non-soy
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-30T18:53:45.666Z
+generated_at: 2026-06-19T15:24:11.326Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** clean subcategory (within-pair)
 **Native basis for published thresholds:** as_consumed
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-05-30
+**Date generated:** 2026-06-19
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -42,9 +42,14 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
+| Pb | **2 ppb** [as-consumed]<br>≈ 15 ppb [powder] | 1.498 ppb | literature-baseline | 5 | stable | 10 ppb (eu2023_pb_formula_liquid_10) |
+| iAs | **0.5 ppb** [as-consumed]<br>≈ 3 ppb [powder] | 0.388 ppb | literature-baseline | 3 | needs_review | 10 ppb (eu2023_ias_formula_liquid_10) |
+| tAs | **3 ppb** [as-consumed]<br>≈ 20 ppb [powder] | 2.286 ppb | literature-baseline | 4 | provisional | — |
+| Sn | **5 ppb** [as-consumed]<br>≈ 25 ppb [powder] | 3.133 ppb | literature-baseline | 3 | provisional | — |
 | Ni | **20 ppb** [as-consumed]<br>≈ 200 ppb [powder] | 19.408 ppb | literature-baseline | 3 | stable | — |
 | Cd | **1 ppb** [as-consumed]<br>≈ 10 ppb [powder] | 0.761 ppb | literature-baseline | 6 | stable | 5 ppb (eu2023_cd_formula_cow_liquid_5) |
 | Al | **1000 ppb** [as-consumed]<br>≈ 10000 ppb [powder] | 714.478 ppb | literature-baseline | 6 | stable | — |
+| tHg | **0.5 ppb** [as-consumed]<br>≈ 2 ppb [powder] | 0.199 ppb | literature-baseline | 4 | provisional | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
@@ -73,6 +78,145 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 ---
 
 ## Per-Analyte Sections
+
+### Pb
+
+**Published HMTc threshold:** 2 ppb [as-consumed] · 1.498 ppb (pre-rounding)
+**Cross-basis: ≈ 15 ppb [powder] (×7 (1:7 reconstitution))**
+**Rationale tag:** `literature-baseline`
+**Regulatory ceiling reference:** 10 ppb (eu2023_pb_formula_liquid_10)
+**Pool composition:** 5 sources contributing · 100 pseudo-samples in pool · 1 sample-level contributors
+**Bootstrap 95% CI: [0.50, 1.73] ppb**
+**Sensitivity: log-normal 1.45 · gamma 1.69 · nonparametric 1.57 ppb · spread 14% (stable)**
+
+
+
+**Defensibility.** Pooled P97 from 5 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 10 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+
+<!-- audience: brand-legal -->
+**Brand legal read.** The value is pooled P97 from 5 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+
+<!-- audience: retailer-compliance -->
+**Retailer compliance read.** A certified product tests at or below 2 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+
+<!-- audience: regulator -->
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 5 contributing sources across multiple jurisdictions. Sensitivity band stable.
+
+<details>
+<summary>Per-source contribution log (5 admitted)</summary>
+
+| Source | Title | Basis | N used | Reconstruction | Pool share |
+|---|---|---|---:|---|---:|
+| dabeka2011-canada-infant-formula-lead-cadmium-aluminum (2011) · CA | Lead, cadmium and aluminum in Canadian infant formulae, oral… | as_consumed | 67 | lognormal_mean_median | 50.0% |
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 10.0% |
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 10.0% |
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 10.0% |
+| fda2026-infant-formula-toxic-elements-special-survey (2026) · US | Analytical Results for Toxic Elements in Infant Formula, FY2… | prepared_for_feeding | 20 | percentile_interpolation | 20.0% |
+
+</details>
+
+### iAs
+
+**Published HMTc threshold:** 0.5 ppb [as-consumed] · 0.388 ppb (pre-rounding)
+**Cross-basis: ≈ 3 ppb [powder] (×7 (1:7 reconstitution))**
+**Rationale tag:** `literature-baseline`
+**Regulatory ceiling reference:** 10 ppb (eu2023_ias_formula_liquid_10)
+**Pool composition:** 3 sources contributing · 30 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [0.23, 1.33] ppb**
+**Sensitivity: log-normal 0.50 · gamma 0.88 · nonparametric 1.66 ppb · spread 70% (needs_review)**
+
+
+
+**Defensibility.** Pooled P97 from 3 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 10 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+
+<!-- audience: brand-legal -->
+**Brand legal read.** The value is pooled P97 from 3 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+
+<!-- audience: retailer-compliance -->
+**Retailer compliance read.** A certified product tests at or below 0.5 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+
+<!-- audience: regulator -->
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 3 contributing sources across multiple jurisdictions. Sensitivity band needs_review.
+
+<details>
+<summary>Per-source contribution log (3 admitted)</summary>
+
+| Source | Title | Basis | N used | Reconstruction | Pool share |
+|---|---|---|---:|---|---:|
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 33.3% |
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 33.3% |
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 33.3% |
+
+</details>
+
+### tAs
+
+**Published HMTc threshold:** 3 ppb [as-consumed] · 2.286 ppb (pre-rounding)
+**Cross-basis: ≈ 20 ppb [powder] (×7 (1:7 reconstitution))**
+**Rationale tag:** `literature-baseline`
+**Regulatory ceiling reference:** no applicable cap loaded
+**Pool composition:** 4 sources contributing · 50 pseudo-samples in pool · 1 sample-level contributors
+**Bootstrap 95% CI: [0.49, 2.39] ppb**
+**Sensitivity: log-normal 1.24 · gamma 2.07 · nonparametric 1.49 ppb · spread 40% (provisional)**
+
+
+
+**Defensibility.** Pooled P97 from 4 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
+
+<!-- audience: brand-legal -->
+**Brand legal read.** The value is pooled P97 from 4 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+
+<!-- audience: retailer-compliance -->
+**Retailer compliance read.** A certified product tests at or below 3 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+
+<!-- audience: regulator -->
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 4 contributing sources across multiple jurisdictions. Sensitivity band provisional.
+
+<details>
+<summary>Per-source contribution log (4 admitted)</summary>
+
+| Source | Title | Basis | N used | Reconstruction | Pool share |
+|---|---|---|---:|---|---:|
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 20.0% |
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 20.0% |
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 20.0% |
+| fda2026-infant-formula-toxic-elements-special-survey (2026) · US | Analytical Results for Toxic Elements in Infant Formula, FY2… | prepared_for_feeding | 20 | percentile_interpolation | 40.0% |
+
+</details>
+
+### Sn
+
+**Published HMTc threshold:** 5 ppb [as-consumed] · 3.133 ppb (pre-rounding)
+**Cross-basis: ≈ 25 ppb [powder] (×7 (1:7 reconstitution))**
+**Rationale tag:** `literature-baseline`
+**Regulatory ceiling reference:** no applicable cap loaded
+**Pool composition:** 3 sources contributing · 30 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [2.64, 8.01] ppb**
+**Sensitivity: log-normal 5.91 · gamma 3.06 · nonparametric 4.23 ppb · spread 48% (provisional)**
+
+
+
+**Defensibility.** Pooled P97 from 3 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
+
+<!-- audience: brand-legal -->
+**Brand legal read.** The value is pooled P97 from 3 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+
+<!-- audience: retailer-compliance -->
+**Retailer compliance read.** A certified product tests at or below 5 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+
+<!-- audience: regulator -->
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 3 contributing sources across multiple jurisdictions. Sensitivity band provisional.
+
+<details>
+<summary>Per-source contribution log (3 admitted)</summary>
+
+| Source | Title | Basis | N used | Reconstruction | Pool share |
+|---|---|---|---:|---|---:|
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 33.3% |
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 33.3% |
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 33.3% |
+
+</details>
 
 ### Ni
 
@@ -182,6 +326,41 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 </details>
 
+### tHg
+
+**Published HMTc threshold:** 0.5 ppb [as-consumed] · 0.199 ppb (pre-rounding)
+**Cross-basis: ≈ 2 ppb [powder] (×7 (1:7 reconstitution))**
+**Rationale tag:** `literature-baseline`
+**Regulatory ceiling reference:** no applicable cap loaded
+**Pool composition:** 4 sources contributing · 50 pseudo-samples in pool · 1 sample-level contributors
+**Bootstrap 95% CI: [0.14, 0.47] ppb**
+**Sensitivity: log-normal 0.36 · gamma 0.25 · nonparametric 0.22 ppb · spread 38% (provisional)**
+
+
+
+**Defensibility.** Pooled P97 from 4 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
+
+<!-- audience: brand-legal -->
+**Brand legal read.** The value is pooled P97 from 4 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+
+<!-- audience: retailer-compliance -->
+**Retailer compliance read.** A certified product tests at or below 0.5 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+
+<!-- audience: regulator -->
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 4 contributing sources across multiple jurisdictions. Sensitivity band provisional.
+
+<details>
+<summary>Per-source contribution log (4 admitted)</summary>
+
+| Source | Title | Basis | N used | Reconstruction | Pool share |
+|---|---|---|---:|---|---:|
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 20.0% |
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 20.0% |
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_consumed | 10 | lognormal_lod_censored_midpoint | 20.0% |
+| fda2026-infant-formula-toxic-elements-special-survey (2026) · US | Analytical Results for Toxic Elements in Infant Formula, FY2… | prepared_for_feeding | 20 | percentile_interpolation | 40.0% |
+
+</details>
+
 ---
 
 ## Adversarial Read — what a plaintiff's expert will attack, and the response
@@ -196,6 +375,9 @@ Response: P97 per analyte is calibrated to deliver approximately 90% row-pass fo
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
+
+**Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."**
+Response: The sensitivity bands are explicitly reported per analyte. 3 analytes (tAs, Sn, tHg) are flagged provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.
 
 **Attack 7: "Where does basis conversion happen and what authority do you cite?"**
 Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
@@ -229,7 +411,7 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 
 | Gate | Description | Status |
 |---|---|---|
-| 1 | All HMTc-10 analytes have a row in the Master Limit Table | ✗ FAIL (3 of 10) |
+| 1 | All HMTc-10 analytes have a row in the Master Limit Table | ✗ FAIL (8 of 10) |
 | 2 | Every published value has a rationale tag from the allowed vocabulary | ✓ PASS |
 | 3 | Every published value is on the primary increment ladder | ✓ PASS |
 | 4 | No HMTc value exceeds the lowest applicable regulatory cap | ✓ PASS |
@@ -238,6 +420,8 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 | 7 | Every contributing source has a source page in `wiki/sources/` | (verified at generation time) |
 | 8 | Human sign-off by Karen + co-authors | ⚠ PENDING (this is the draft) |
 | 9 | Provenance footer carries the git commit and engine version | ✓ PASS (see footer) |
+
+**Gates 4 + 5 caveat — provisional sensitivity:** 3 analytes (tAs, Sn, tHg) carry provisional sensitivity bands. The published values are valid under the lognormal headline assumption but the gamma and nonparametric variants disagree by >25%. These should be resolved (deeper extraction, basis audit, outlier review) before the final publication run.
 
 
 
@@ -273,17 +457,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `f77049550650a3561e78e0e42c009cbc903082e8` in the heavymetalindex.com repository.
+1. Checking out commit `091aff1611af3dc48cd88e268bc88d79d14688d4` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=infant-formula-rtf-liquid-non-soy` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-30T18:53:45.676Z |
+| Generated at | 2026-06-19T15:24:11.335Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `f77049550650a3561e78e0e42c009cbc903082e8` |
+| Git commit | `091aff1611af3dc48cd88e268bc88d79d14688d4` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

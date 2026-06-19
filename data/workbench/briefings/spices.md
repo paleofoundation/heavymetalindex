@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: spices
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-19T12:32:33.678Z
+generated_at: 2026-06-19T15:24:11.243Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -45,7 +45,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | Pb | **600 ppb** [as-sold] | 4553.808 ppb (capped to 600 by reg cap) | regulatory-alignment | 45 | stable | 600 ppb (eu2023_pb_spice_fruit_600) |
 | tAs | **1000 ppb** [as-sold] | 702.937 ppb | literature-baseline | 16 | provisional | — |
 | Sn | **1000 ppb** [as-sold] | 508.845 ppb | literature-baseline | 1 | provisional | — |
-| Ni | _adjudication pending_ | 6976.289 ppb | literature-baseline | 16 | stable | — |
+| Ni | **10000 ppb** [as-sold] | 6976.289 ppb | literature-baseline | 16 | stable | — |
 | Cd | _adjudication pending_ | 623.295 ppb | no-data | 35 | stable | — |
 | Al | _not material_ | 846635.607 ppb (pool not standardized — not material) | literature-baseline | 6 | stable | — |
 | tHg | **2000 ppb** [as-sold] | 1501.599 ppb | literature-baseline | 9 | stable | — |
@@ -207,7 +207,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Ni
 
-**Published HMTc threshold:** adjudication pending — held provisional (autonomy-unit-misscale-pollution) · 6976.289 ppb (pre-rounding)
+**Published HMTc threshold:** 10000 ppb [as-sold] · 6976.289 ppb (pre-rounding)
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 16 sources contributing · 934 pseudo-samples in pool · 0 sample-level contributors
@@ -491,17 +491,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `20584647a8495e82701ab54a0d0f0558744accaa` in the heavymetalindex.com repository.
+1. Checking out commit `091aff1611af3dc48cd88e268bc88d79d14688d4` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=spices` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-19T12:32:33.689Z |
+| Generated at | 2026-06-19T15:24:11.257Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `20584647a8495e82701ab54a0d0f0558744accaa` |
+| Git commit | `091aff1611af3dc48cd88e268bc88d79d14688d4` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

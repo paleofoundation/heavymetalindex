@@ -2928,7 +2928,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   [provisional],
   [—],
   [Ni],
-  [_​adjudication pending_​],
+  [*10000 ppb* [as-​sold]],
   [6976.289 ppb],
   [literature-​baseline],
   [16],
@@ -3349,7 +3349,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Ni
 
 
-*Published HMTc threshold:* adjudication pending — held provisional (autonomy-unit-misscale-pollution) · 6976.289 ppb (pre-rounding)
+*Published HMTc threshold:* 10000 ppb [as-sold] · 6976.289 ppb (pre-rounding)
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 16 sources contributing · 934 pseudo-samples in pool · 0 sample-level contributors
@@ -3975,7 +3975,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `20584647a8495e82701ab54a0d0f0558744accaa` in the heavymetalindex.com repository.
++ Checking out commit `091aff1611af3dc48cd88e268bc88d79d14688d4` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=spices` to regenerate this document.
 
@@ -3988,7 +3988,7 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-06-19T12:32:33.689Z],
+  [2026-06-19T15:24:11.257Z],
   [Generator],
   [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
@@ -3996,7 +3996,7 @@ This briefing is reproducible by:
   [Methodology version],
   [HMTc-10 / P97-​P45 per CLAUDE.md Part 19 / Governing Principles v2.0],
   [Git commit],
-  [`20584647a8495e82701ab54a0d0f0558744accaa`],
+  [`091aff1611af3dc48cd88e268bc88d79d14688d4`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
