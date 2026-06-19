@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: spices
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-19T15:24:11.243Z
+generated_at: 2026-06-19T16:40:50.943Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -46,7 +46,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | tAs | **1000 ppb** [as-sold] | 702.937 ppb | literature-baseline | 16 | provisional | — |
 | Sn | **1000 ppb** [as-sold] | 508.845 ppb | literature-baseline | 1 | provisional | — |
 | Ni | **10000 ppb** [as-sold] | 6976.289 ppb | literature-baseline | 16 | stable | — |
-| Cd | _adjudication pending_ | 623.295 ppb | no-data | 35 | stable | — |
+| Cd | **1000 ppb** [as-sold] | 641.466 ppb | literature-baseline | 27 | stable | — |
 | Al | _not material_ | 846635.607 ppb (pool not standardized — not material) | literature-baseline | 6 | stable | — |
 | tHg | **2000 ppb** [as-sold] | 1501.599 ppb | literature-baseline | 9 | stable | — |
 
@@ -253,51 +253,51 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Cd
 
-**Published HMTc threshold:** adjudication pending — held provisional (blocked-pool-mixed-unit)
-**Rationale tag:** `no-data`
+**Published HMTc threshold:** 1000 ppb [as-sold] · 641.466 ppb (pre-rounding)
+**Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
-**Pool composition:** 35 sources contributing · 3354 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [196.49, 1034.28] ppb**
-**Sensitivity: log-normal 652.92 · gamma 634.54 · nonparametric 690.20 ppb · spread 8% (stable)**
+**Pool composition:** 27 sources contributing · 896 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [365.68, 886.40] ppb**
+**Sensitivity: log-normal 643.37 · gamma 596.68 · nonparametric 582.04 ppb · spread 10% (stable)**
 
 
 
-**Defensibility.** This analyte has no defensible threshold today. The pool is empty; no read-across is available; no regulatory cap applies. The HMTc certification mark on this product does NOT cover this analyte until evidence is loaded. This is the honest position; we explicitly do not pretend coverage we cannot defend.
+**Defensibility.** Pooled P97 from 27 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 35 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+**Brand legal read.** The value is pooled P97 from 27 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below no published value (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 1000 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 35 contributing sources across multiple jurisdictions. Sensitivity band stable.
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 27 contributing sources across multiple jurisdictions. Sensitivity band stable.
 
 <details>
-<summary>Per-source contribution log (35 admitted)</summary>
+<summary>Per-source contribution log (27 admitted)</summary>
 
 | Source | Title | Basis | N used | Reconstruction | Pool share |
 |---|---|---|---:|---|---:|
-| winiarska-mieczan2023-cd-pb-polish-herbs-spices (2023) · PL, EU | The Content of Cd and Pb in Herbs and Single-Component Spice… | unknown | 432 | lognormal_mean_median | 12.9% |
-| winiarska-mieczan2023-cd-pb-polish-herbs-spices (2023) · PL, EU | The Content of Cd and Pb in Herbs and Single-Component Spice… | unknown | 432 | lognormal_mean_only | 12.9% |
-| winiarska-mieczan2023-cd-pb-polish-herbs-spices (2023) · PL, EU | The Content of Cd and Pb in Herbs and Single-Component Spice… | unknown | 432 | lognormal_mean_max | 12.9% |
-| winiarska-mieczan2023-cd-pb-polish-herbs-spices (2023) · PL, EU | The Content of Cd and Pb in Herbs and Single-Component Spice… | unknown | 432 | lognormal_mean_max | 12.9% |
-| kowalska2021-metals-herbs-spices-tea-coffee-poland (2021) · PL, EU | The Safety Assessment of Toxic Metals in Commonly Used Herbs… | unknown | 240 | lognormal_mean_only | 7.2% |
-| kowalska2021-metals-herbs-spices-tea-coffee-poland (2021) · PL, EU | The Safety Assessment of Toxic Metals in Commonly Used Herbs… | unknown | 240 | uniform_max_only | 0.3% |
-| kowalska2021-metals-herbs-spices-tea-coffee-poland (2021) · PL, EU | The Safety Assessment of Toxic Metals in Commonly Used Herbs… | unknown | 240 | lognormal_mean_max | 7.2% |
-| kowalska2021-metals-herbs-spices-tea-coffee-poland (2021) · PL, EU | The Safety Assessment of Toxic Metals in Commonly Used Herbs… | unknown | 240 | lognormal_mean_only | 7.2% |
-| adams2017-nigerian-processed-spices-metals (2017) · NG | Genotoxic studies of cooked and uncooked processed spices us… | Nigerian processed spices, as-sold | 4 | uniform_max_only | 0.1% |
-| bahrouna2025-zawia-spices-metals (2025) · LY | Evaluation of Heavy Metals Contents in Spices Available on Z… | mixed spices and seasonings, as-sold | 13 | lognormal_mean_only | 0.4% |
-| bekalu2025-black-cumin-heavy-metals-ethiopia (2025) · ET | Analysis of Nigella sativa L. (Black Cumin) seeds for levels… | black cumin seed, dry weight | 3 | uniform_max_only | 0.1% |
-| brima2025-african-foods-uk-metals (2025) · GB | Assessment of Human Health Risk Based on Analysis of Potenti… | spices, dry weight | 1 | single_point | 0.0% |
-| cicero2022-minerals-spices-aromatic-herbs (2022) · SA, IN, IR, ID, VN | Mineral and Microbiological Analysis of Spices and Aromatic … | dried spices and aromatic herbs, as-sold | 13 | uniform_max_only | 0.3% |
-| dghaim2015-heavy-metals-uae-herbs (2015) · AE | Determination of Heavy Metals Concentration in Traditional H… | dried culinary/medicinal herbs, dry weight | 78 | uniform_max_only | 0.3% |
-| marinescu2020-romanian-herbs-spices-metals (2020) · RO | Assessment of heavy metals content in some medicinal plants … | packaged and wild-growing culinary herbs/spices, source mg/kg basis | 18 | uniform_max_only | 0.3% |
-| matloob2016-iraq-spices-heavy-metals (2016) · IQ | Using Stripping Voltammetry to Determine Heavy Metals in Coo… | spices, dry weight | 160 | lognormal_mean_max | 4.8% |
-| mercan-yucel2022-van-spices-heavy-metals (2022) · TR | Determination of Aflatoxin and Heavy Metal Levels in Some Sp… | black pepper, unpackaged as-sold | 20 | lognormal_mean_only | 0.6% |
-| mercan-yucel2022-van-spices-heavy-metals (2022) · TR | Determination of Aflatoxin and Heavy Metal Levels in Some Sp… | cumin, unpackaged as-sold | 20 | lognormal_mean_only | 0.6% |
-| mercan-yucel2022-van-spices-heavy-metals (2022) · TR | Determination of Aflatoxin and Heavy Metal Levels in Some Sp… | red pepper, unpackaged as-sold | 20 | lognormal_mean_only | 0.6% |
-| munarso2024-vanilla-indonesia-quality (2024) · ID | From bean to market: exploring the chemical and production d… | cured vanilla beans, as-sold | 5 | uniform_max_only | 0.1% |
+| adams2017-nigerian-processed-spices-metals (2017) · NG | Genotoxic studies of cooked and uncooked processed spices us… | Nigerian processed spices, as-sold | 4 | uniform_max_only | 0.4% |
+| bahrouna2025-zawia-spices-metals (2025) · LY | Evaluation of Heavy Metals Contents in Spices Available on Z… | mixed spices and seasonings, as-sold | 13 | lognormal_mean_only | 1.5% |
+| bekalu2025-black-cumin-heavy-metals-ethiopia (2025) · ET | Analysis of Nigella sativa L. (Black Cumin) seeds for levels… | black cumin seed, dry weight | 3 | uniform_max_only | 0.3% |
+| brima2025-african-foods-uk-metals (2025) · GB | Assessment of Human Health Risk Based on Analysis of Potenti… | spices, dry weight | 1 | single_point | 0.1% |
+| cicero2022-minerals-spices-aromatic-herbs (2022) · SA, IN, IR, ID, VN | Mineral and Microbiological Analysis of Spices and Aromatic … | dried spices and aromatic herbs, as-sold | 13 | uniform_max_only | 1.1% |
+| dghaim2015-heavy-metals-uae-herbs (2015) · AE | Determination of Heavy Metals Concentration in Traditional H… | dried culinary/medicinal herbs, dry weight | 78 | uniform_max_only | 1.1% |
+| marinescu2020-romanian-herbs-spices-metals (2020) · RO | Assessment of heavy metals content in some medicinal plants … | packaged and wild-growing culinary herbs/spices, source mg/kg basis | 18 | uniform_max_only | 1.1% |
+| matloob2016-iraq-spices-heavy-metals (2016) · IQ | Using Stripping Voltammetry to Determine Heavy Metals in Coo… | spices, dry weight | 160 | lognormal_mean_max | 17.9% |
+| mercan-yucel2022-van-spices-heavy-metals (2022) · TR | Determination of Aflatoxin and Heavy Metal Levels in Some Sp… | black pepper, unpackaged as-sold | 20 | lognormal_mean_only | 2.2% |
+| mercan-yucel2022-van-spices-heavy-metals (2022) · TR | Determination of Aflatoxin and Heavy Metal Levels in Some Sp… | cumin, unpackaged as-sold | 20 | lognormal_mean_only | 2.2% |
+| mercan-yucel2022-van-spices-heavy-metals (2022) · TR | Determination of Aflatoxin and Heavy Metal Levels in Some Sp… | red pepper, unpackaged as-sold | 20 | lognormal_mean_only | 2.2% |
+| munarso2024-vanilla-indonesia-quality (2024) · ID | From bean to market: exploring the chemical and production d… | cured vanilla beans, as-sold | 5 | uniform_max_only | 0.6% |
+| savic2019-serbian-spices-minerals (2019) · RS | Determination of the mineral content of spices by ICP-OES | spices, as-sold | 10 | uniform_max_only | 1.1% |
+| spex2023-hot-sauce-chili-powder-metals (2023) · US | Heavy Metal Contamination of Hot Sauce and Chili Powder | chili powder, as-sold | 7 | uniform_max_only | 0.8% |
+| tinggi2025-spices-herbs-queensland (2025) · AU, IN, CN, LK, VN, BD, MY, EG, FJ, ES | Heavy metal analysis in commercial spices and herbs by induc… | dried commercial spices and herbs, as-sold | 69 | lognormal_mean_max | 7.7% |
+| winiarska-mieczan2023-cd-pb-polish-herbs-spices (2023) · PL, EU | The Content of Cd and Pb in Herbs and Single-Component Spice… | dried herbs, fresh-weight reporting basis | 100 | lognormal_mean_median | 11.2% |
+| winiarska-mieczan2023-cd-pb-polish-herbs-spices (2023) · PL, EU | The Content of Cd and Pb in Herbs and Single-Component Spice… | single-component spices, fresh-weight reporting basis | 148 | lognormal_mean_max | 16.5% |
+| cfia2025-toxic-metals-selected-foods-2022-23 (2025) · CA | Toxic metals in selected foods – April 1, 2022 to March 31, … | spices, as-sold | 115 | lognormal_mean_max | 12.8% |
+| huff2025-spices-lancaster-pa (2025) · US | Heavy metals in spices from Lancaster, PA: arsenic, cadmium,… | spices, as-sold | 116 | uniform_max_only | 1.1% |
+| dokubo2023-nigeria-seasoning-powder (2023) · NG | Heavy Metal Concentration and Human Health Risk Assessment o… | dry seasoning powder, as-sold | 4 | lognormal_mean_max | 0.4% |
 
 </details>
 
@@ -433,7 +433,7 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 
 **Gates 4 + 5 caveat — provisional sensitivity:** 2 analytes (tAs, Sn) carry provisional sensitivity bands. The published values are valid under the lognormal headline assumption but the gamma and nonparametric variants disagree by >25%. These should be resolved (deeper extraction, basis audit, outlier review) before the final publication run.
 
-**Gate 1 caveat — uncovered analytes:** 1 analytes (Cd) have no defensible threshold and the certification mark for this product explicitly does NOT cover them. This is honest gap reporting, not a gate failure — but the Master Limit Table flags the gap clearly so retailers, regulators, and adversarial readers can see what is and is not covered.
+
 
 ---
 
@@ -491,17 +491,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `091aff1611af3dc48cd88e268bc88d79d14688d4` in the heavymetalindex.com repository.
+1. Checking out commit `6dfe2d3e96de11533a4db182d0dd711d9a2c0607` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=spices` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-19T15:24:11.257Z |
+| Generated at | 2026-06-19T16:40:50.961Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `091aff1611af3dc48cd88e268bc88d79d14688d4` |
+| Git commit | `6dfe2d3e96de11533a4db182d0dd711d9a2c0607` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

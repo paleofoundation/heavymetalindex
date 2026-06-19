@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-18T13:34:11.860Z",
+  "generated_at": "2026-06-19T16:39:01.347Z",
   "product_filter": null,
   "metal_filter": null,
   "cells_total": 784,
   "cells_by_verdict": {
-    "READY FOR REVIEW": 86,
+    "READY FOR REVIEW": 87,
     "READY FOR REVIEW (regulatory cap applies)": 30,
     "PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates": 217,
     "BLOCKED: no usable evidence": 384,
     "PROVISIONAL: sensitivity unstable across parametric assumptions": 17,
-    "BLOCKED: pool internally inconsistent (p95/p10 > 1e4, likely mixed units — fix units before use)": 10,
+    "BLOCKED: pool internally inconsistent (p95/p10 > 1e4, likely mixed units — fix units before use)": 9,
     "PROVISIONAL: review sensitivity disagreement": 29,
     "READY FOR REVIEW (regulatory cap applies; interim, occurrence characterization pending)": 11
   },
   "cells_by_rationale": {
-    "literature-baseline": 358,
+    "literature-baseline": 359,
     "regulatory-alignment": 32,
-    "no-data": 394
+    "no-data": 393
   },
   "cells_by_role": {
     "clean_subcategory": 95,
@@ -29,11 +29,11 @@
     "needs_review": 40
   },
   "pool_starvation": {
-    "structured_rows_total": 7232,
-    "stranded_rows_total": 2365,
-    "stranded_rows_carrying_a_statistic": 564,
+    "structured_rows_total": 7224,
+    "stranded_rows_total": 2369,
+    "stranded_rows_carrying_a_statistic": 568,
     "stranded_by_reason": {
-      "empty_slug": 193,
+      "empty_slug": 197,
       "unmatched_slug": 374,
       "no_metal_species": 1798
     },
