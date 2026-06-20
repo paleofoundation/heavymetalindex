@@ -528,15 +528,18 @@ const NEGATIVE_KEYWORDS = [
   // biomonitoring / human-sample studies (blood/urine/hair, not food matrix)
   "biomonitoring", "blood lead level", "blood cadmium",
   "maternal whole blood", "hair sample", "urine sample",
-  "human exposure assessment", "dietary exposure assessment",
-  // review / secondary literature (not primary occurrence data)
-  ": a review", ": a systematic review", "a meta-analysis",
-  "systematic review of", "scoping review", "narrative review",
+  // NOTE: "human exposure assessment" + "dietary exposure assessment" REMOVED
+  // 2026-06-18 — exposure assessment is an in-scope lane (scope-manifest.json).
+  // NOTE: the review/secondary-literature cluster (": a review",
+  // ": a systematic review", "a meta-analysis", "systematic review of",
+  // "scoping review", "narrative review") was REMOVED 2026-06-18 — systematic
+  // reviews and meta-analyses are A/B-tier evidence (Part 13), in scope.
   // pure ecology / non-food applications
   // NOTE: "mining tailings remediation" + "soil contamination assessment"
   // REMOVED 2026-06-18 — in-scope upstream remediation / soil-burden context.
   "sediment ecology", "bioindicator species",
-  "soil microbial community",
+  // NOTE: "soil microbial community" REMOVED 2026-06-18 — microbiome is in-scope
+  // (federates to WikiBiome); scope-manifest.json in_scope.microbiome.
   // water / drinking-water / occupational / air — major skip categories per
   // auto-fetched-hygiene-2026-05-27 (49 not-food-occurrence skips).
   // Drinking water bottled-for-consumption studies are sometimes legitimate
@@ -546,7 +549,9 @@ const NEGATIVE_KEYWORDS = [
   "estuarine sediment", "marine sediment", "coastal sediment",
   "occupational exposure", "workplace exposure", "smelter workers",
   "battery workers", "lead-acid", "battery recycling",
-  "air pollution", "particulate matter", "pm2.5 exposure", "atmospheric deposition",
+  "air pollution", "particulate matter", "pm2.5 exposure",
+  // NOTE: "atmospheric deposition" REMOVED 2026-06-18 — atmospheric deposition
+  // onto cropland is an in-scope lane (scope-manifest.json).
   "fly ash", "incinerator", "indoor dust", "household dust", "settled dust",
   "e-waste", "electronic waste", "wastewater", "sewage sludge",
   // NOTE: the soil-to-plant-transfer cluster ("soil-to-plant transfer",
