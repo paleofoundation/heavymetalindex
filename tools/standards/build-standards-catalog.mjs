@@ -55,11 +55,6 @@ const outPath = path.join(outDir, "hmtc_standards_catalog.json")
 // order as build-category-standards-tables.mjs PANEL.
 const PANEL = ["Pb", "tAs", "iAs", "Cd", "tHg", "MeHg", "Ni", "Cr-VI", "Sn", "Al"]
 
-// HMTc primary increment ladder (hmtc-standards skill rule #4 / build-standards-briefing.mjs).
-const INCREMENT_LADDER = [
-  0.5, 1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000,
-]
-
 // 1:7 reconstitution factor (powder <-> prepared). Mirrors RECONSTITUTION_FACTOR
 // in build-standards-briefing.mjs and BASIS_RECONSTITUTION_FACTOR in the pooler.
 // The CSV values are ALREADY in native basis; this is display-only cross-basis.
@@ -258,14 +253,18 @@ function evaluateCell({ product, metal, inScope, csvRow, heldOutlier, flagged })
   }
 
   // --- Firm value. candidate_value_ppb is already in native basis & already ---
-  // min(P97, cap)'d upstream. Round UP to the ladder, then clamp to the cap so
-  // rounding never pushes the published value above a regulatory ceiling
-  // (Governing Principle 4 / build-standards-briefing.mjs cap clamp).
-  let published = roundToLadder(precise)
+  // min(P97, cap)'d upstream. Round DOWN to 2 significant figures so a published
+  // limit is NEVER looser than the pooled evidence — a ratcheting program must not
+  // loosen a standard through rounding (the old round-UP-to-ladder did: 1829 → 2000).
+  // When a regulatory cap binds, publish the cap EXACTLY (it is a precise legal
+  // number; rounding it down would misstate the regulation). (Governing Principle 4.)
+  let published
   let capBinds = false
-  if (published !== null && cap !== null && published >= cap) {   // >= not > (FIX-2)
+  if (cap !== null && precise !== null && precise >= cap - 1e-9) {
     published = cap
     capBinds = true
+  } else {
+    published = roundStandardDown(precise)
   }
 
   // Validate the rationale tag against the 4 Part-19 tags. The auto-emitter only
@@ -517,10 +516,18 @@ function buildSummary(rows) {
 
 // ============================ value helpers ============================
 
-function roundToLadder(value) {
-  if (value === null || value === undefined || !Number.isFinite(value)) return null
-  for (const bin of INCREMENT_LADDER) if (bin >= value) return bin
-  return INCREMENT_LADDER[INCREMENT_LADDER.length - 1]
+// Round a literature-baseline value DOWN to `sig` significant figures. Rounding
+// down (toward zero) guarantees the published standard is never looser than the
+// pooled evidence supports — the direction a ratcheting program must round. Two
+// sig figs keeps the number clean and communicable (1829 → 1800, 471 → 470,
+// 12.7 → 12, 0.83 → 0.83) while discarding < ~10% at worst. Replaces the old
+// round-UP-to-a-sparse-ladder rule, which loosened standards (1829 → 2000, and a
+// 300 ppb value → 500, an order-of-magnitude-class over-allowance).
+function roundStandardDown(value, sig = 2) {
+  if (value === null || value === undefined || !Number.isFinite(value) || value <= 0) return null
+  const magnitude = Math.floor(Math.log10(value))
+  const factor = Math.pow(10, magnitude - (sig - 1))
+  return Math.round(Math.floor(value / factor) * factor * 1e6) / 1e6
 }
 
 // Display-only cross-basis equivalent (the firm published value stays native).

@@ -62,10 +62,6 @@ const ceoDualRoleNote = args.get("ceo-dual-role-note") ??
 // HMTc-10 analyte order (per CLAUDE.md Part 19, ordered for briefing readability)
 const ANALYTE_ORDER = ["Pb", "iAs", "tAs", "Sn", "Ni", "Cd", "Cr-VI", "Al", "tHg", "MeHg"]
 
-// HMTc primary increment ladder (per the hmtc-standards skill rule #4)
-const INCREMENT_LADDER = [
-  0.5, 1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000,
-]
 
 // MeHg read-across constants
 const MEHG_LOQ_PPB = 0.1            // typical ICP-MS-HG LOQ for MeHg in formula
@@ -256,12 +252,19 @@ function buildAnalyteRecords(product, pooledRows, regs) {
       methodologyChain = null
     }
 
-    let published = candidate !== null ? roundToLadder(candidate) : null
-    // Governing Principle 4: a published HMTc value may NEVER exceed the lowest
-    // applicable regulatory ceiling. The increment ladder rounds UP, which can push
-    // a cap-bound value above the cap (e.g. EU fish-muscle Pb 300 → ladder 500).
-    // Clamp to the cap itself (the regulatory ML is always a defensible published value).
-    if (published !== null && capValue !== null && published > capValue) published = capValue
+    // Round DOWN to 2 sig figs so a published limit is never looser than the
+    // pooled evidence (a ratcheting program must not loosen a standard through
+    // rounding — the old round-UP-to-ladder did, e.g. 1829 → 2000). When a
+    // regulatory cap binds, publish the cap EXACTLY (Governing Principle 4: a
+    // published value may never exceed the cap, and the ML is a precise legal number).
+    let published
+    if (candidate === null) {
+      published = null
+    } else if (capValue !== null && candidate >= capValue - 1e-9) {
+      published = capValue
+    } else {
+      published = roundStandardDown(candidate)
+    }
     const ciLo = numericOrNull(pooled.target_ci_lo)
     const ciHi = numericOrNull(pooled.target_ci_hi)
     const cross = crossBasisEquivalent(candidate, basis)
@@ -303,13 +306,16 @@ function buildAnalyteRecords(product, pooledRows, regs) {
   return records
 }
 
-function roundToLadder(value) {
-  if (value === null || value === undefined || !Number.isFinite(value)) return null
-  // Round UP to the next ladder bin (more conservative for limits).
-  for (const bin of INCREMENT_LADDER) {
-    if (bin >= value) return bin
-  }
-  return INCREMENT_LADDER[INCREMENT_LADDER.length - 1]
+// Round a literature value DOWN to `sig` significant figures. Rounding toward
+// zero guarantees a published standard is never looser than the pooled evidence —
+// the direction a ratcheting program must round. (Replaces round-UP-to-ladder,
+// which loosened: 1829 → 2000, and a 300 ppb value → 500.) Mirrors
+// roundStandardDown in build-standards-catalog.mjs.
+function roundStandardDown(value, sig = 2) {
+  if (value === null || value === undefined || !Number.isFinite(value) || value <= 0) return null
+  const magnitude = Math.floor(Math.log10(value))
+  const factor = Math.pow(10, magnitude - (sig - 1))
+  return Math.round(Math.floor(value / factor) * factor * 1e6) / 1e6
 }
 
 // Basis predicate: an as-sold-native category (seafood, oils, etc.) is sold and consumed
@@ -456,7 +462,7 @@ function renderMasterLimitTable(analytes) {
           ? `**${formatNumber(a.candidate_published)} ppb** ${basisShortLabel(a.candidate_basis)}`
           : "*data gap*"
       const cross = (!a.not_material && a.candidate_cross_basis)
-        ? `≈ ${formatNumber(roundToLadder(a.candidate_cross_basis.value))} ppb ${basisShortLabel(a.candidate_cross_basis.basis)}`
+        ? `≈ ${formatNumber(roundStandardDown(a.candidate_cross_basis.value))} ppb ${basisShortLabel(a.candidate_cross_basis.basis)}`
         : ""
       // Show the pre-cap pooled P97 explicitly when the cap binds — that's
       // what the methodology produced before regulatory-alignment capped it.
@@ -535,7 +541,7 @@ function renderOneAnalyte(a, sourceLookup) {
   // A not-material cell has no published number — suppress every value-derived render
   // (cross-basis, CI, numeric sensitivity, and the "tests at or below X ppb" retailer callouts).
   const cross = (!a.not_material && a.candidate_cross_basis)
-    ? `Cross-basis: ≈ ${formatNumber(roundToLadder(a.candidate_cross_basis.value))} ppb ${basisShortLabel(a.candidate_cross_basis.basis)} (${a.candidate_cross_basis.formula})`
+    ? `Cross-basis: ≈ ${formatNumber(roundStandardDown(a.candidate_cross_basis.value))} ppb ${basisShortLabel(a.candidate_cross_basis.basis)} (${a.candidate_cross_basis.formula})`
     : ""
   const ci = (!a.not_material && a.ci_lo !== null && a.ci_hi !== null)
     ? `Bootstrap 95% CI: [${formatNumber(a.ci_lo, 2)}, ${formatNumber(a.ci_hi, 2)}] ppb`
@@ -702,7 +708,7 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 |---|---|---|
 | 1 | All HMTc-10 analytes have a row in the Master Limit Table | ${analytes.length === 10 ? "✓ PASS" : `✗ FAIL (${analytes.length} of 10)`} |
 | 2 | Every published value has a rationale tag from the allowed vocabulary | ${analytes.every((a) => ["literature-baseline", "regulatory-alignment", "feasibility-driven", "precautionary", "no-data"].includes(a.rationale)) ? "✓ PASS" : "✗ FAIL"} |
-| 3 | Every published value is on the primary increment ladder | ${analytes.filter((a) => a.candidate_published !== null).every((a) => INCREMENT_LADDER.includes(a.candidate_published)) ? "✓ PASS" : "✗ FAIL"} |
+| 3 | Every published value rounds toward the evidence (≤ the precise candidate; never loosened) | ${analytes.filter((a) => a.candidate_published !== null).every((a) => a.candidate_precise === null || a.candidate_published <= a.candidate_precise + 1e-9) ? "✓ PASS" : "✗ FAIL"} |
 | 4 | No HMTc value exceeds the lowest applicable regulatory cap | ${analytes.every((a) => a.candidate_published === null || a.cap_value === null || a.candidate_published <= a.cap_value) ? "✓ PASS" : "✗ FAIL"} |
 | 5 | Every basis-tagged value carries the cross-basis equivalent | ${analytes.filter((a) => a.candidate_published !== null).every((a) => a.candidate_cross_basis !== null) ? "✓ PASS" : "⚠ partial (non-formula rows may have no defined cross-basis)"} |
 | 6 | The six-move anti-circumvention argument is present | ✓ PASS |
