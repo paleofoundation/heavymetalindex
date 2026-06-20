@@ -54,7 +54,7 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 ## Publication metadata
 
 **Publication date:** 2026-05-18
-**DOI:** [10.5281/zenodo.20270512](https://doi.org/10.5281/zenodo.20270512)
+**DOI:** DOI pending (assigned on Zenodo deposit of this volume)
 
 **Revision 2026-06-18.** This printing incorporates the Expedited Baseline via Prior-Data Credit pathway added to the foundational documents (Governance Policy §4.5, reproduced in Part 2.3; Lot Testing Schedule §4.3, reproduced in Part 4). The reproduced Governance Policy and Lot Testing Schedule are updated to version 2.1. A new version DOI is assigned to this printing on deposit.
 
@@ -68,7 +68,7 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 
 Academic, regulatory, and legal works citing this Program Manual should use the following form:
 
-> Pendergrass, K. *Heavy Metal Tested & Certified (HMTc) Butter and Ghee Program Manual.* 2026 Edition. Paleo Certified, Inc. dba The Paleo Foundation, 2026. doi: [10.5281/zenodo.20270512](https://doi.org/10.5281/zenodo.20270512).
+> Pendergrass, K. *Heavy Metal Tested & Certified (HMTc) Butter and Ghee Program Manual.* 2026 Edition. Paleo Certified, Inc. dba The Paleo Foundation, 2026. doi: DOI pending (assigned on Zenodo deposit of this volume).
 
 For citations to specific chapters or sections, append the part and section identifier (e.g., "Part 2.10 §12.3, *Standards Ratchet Trigger Conditions*"). For citations to specific HMTc limit values, cite the relevant Part 3 chapter by its product slug (e.g., "Part 3.1, *Butter and Ghee*, Master Limit Table") and the chapter's Sources Cited section for the underlying source attribution. Numbered references in this manual (Part 5.4) follow IEEE-adjacent format; readers needing alternative bibliographic format (APA, Vancouver, Chicago) may request the reference list as a structured BibTeX or RIS file from the Program Operator.
 

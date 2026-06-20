@@ -54,7 +54,7 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 ## Publication metadata
 
 **Publication date:** 2026-05-18
-**DOI:** [10.5281/zenodo.20270512](https://doi.org/10.5281/zenodo.20270512)
+**DOI:** DOI pending (assigned on Zenodo deposit of this volume)
 
 **Revision 2026-06-18.** This printing incorporates the Expedited Baseline via Prior-Data Credit pathway added to the foundational documents (Governance Policy §4.5, reproduced in Part 2.3; Lot Testing Schedule §4.3, reproduced in Part 4). The reproduced Governance Policy and Lot Testing Schedule are updated to version 2.1. A new version DOI is assigned to this printing on deposit.
 
@@ -68,7 +68,7 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 
 Academic, regulatory, and legal works citing this Program Manual should use the following form:
 
-> Pendergrass, K. *Heavy Metal Tested & Certified (HMTc) Seafood Program Manual.* 2026 Edition. Paleo Certified, Inc. dba The Paleo Foundation, 2026. doi: [10.5281/zenodo.20270512](https://doi.org/10.5281/zenodo.20270512).
+> Pendergrass, K. *Heavy Metal Tested & Certified (HMTc) Seafood Program Manual.* 2026 Edition. Paleo Certified, Inc. dba The Paleo Foundation, 2026. doi: DOI pending (assigned on Zenodo deposit of this volume).
 
 For citations to specific chapters or sections, append the part and section identifier (e.g., "Part 2.10 §12.3, *Standards Ratchet Trigger Conditions*"). For citations to specific HMTc limit values, cite the relevant Part 3 chapter by its product slug (e.g., "Part 3.1, *Fish — Marine, Predatory*, Master Limit Table") and the chapter's Sources Cited section for the underlying source attribution. Numbered references in this manual (Part 5.4) follow IEEE-adjacent format; readers needing alternative bibliographic format (APA, Vancouver, Chicago) may request the reference list as a structured BibTeX or RIS file from the Program Operator.
 
@@ -1558,7 +1558,7 @@ The HMTc Seafood standards, one chapter per product row. Each Master Limit Table
 
 # 3.1 Marine Fish, Predatory (tuna, swordfish, shark, marlin)
 
-*One of 5 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Held/withdrawn analytes (e.g. total arsenic in fish and seaweed, which is arsenosugar/arsenobetaine-dominated — inorganic arsenic is the toxic and regulated analyte) are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling).*
+*One of 5 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Analytes whose occurrence pool is contaminated, unstable, or analyte-mismatched are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling).*
 
 **Product class:** Fish — marine, predatory (tuna, swordfish, shark, king mackerel)
 **Subcategory role:** whole_row_platform
@@ -2007,7 +2007,7 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 # 3.2 Marine Fish, Non-Predatory (cod, herring, sardine, anchovy, mackerel)
 
-*One of 5 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Held/withdrawn analytes (e.g. total arsenic in fish and seaweed, which is arsenosugar/arsenobetaine-dominated — inorganic arsenic is the toxic and regulated analyte) are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling).*
+*One of 5 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Analytes whose occurrence pool is contaminated, unstable, or analyte-mismatched are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling).*
 
 **Product class:** Fish — marine, non-predatory (sardines, anchovies, salmon, cod)
 **Subcategory role:** independent
@@ -2412,7 +2412,7 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 # 3.3 Freshwater Fish
 
-*One of 5 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Held/withdrawn analytes (e.g. total arsenic in fish and seaweed, which is arsenosugar/arsenobetaine-dominated — inorganic arsenic is the toxic and regulated analyte) are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling).*
+*One of 5 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Analytes whose occurrence pool is contaminated, unstable, or analyte-mismatched are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling).*
 
 **Product class:** Fish — freshwater (tilapia, catfish, trout)
 **Subcategory role:** independent
@@ -2799,7 +2799,7 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 # 3.4 Shellfish (Bivalves and Crustaceans)
 
-*One of 5 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Held/withdrawn analytes (e.g. total arsenic in fish and seaweed, which is arsenosugar/arsenobetaine-dominated — inorganic arsenic is the toxic and regulated analyte) are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling).*
+*One of 5 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Analytes whose occurrence pool is contaminated, unstable, or analyte-mismatched are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling).*
 
 **Product class:** Shellfish (shrimp, crab, lobster, clams, oysters, mussels)
 **Subcategory role:** whole_row_platform
@@ -3280,7 +3280,7 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 # 3.5 Seaweed and Kelp Foods (nori, wakame, kombu, dulse)
 
-*One of 5 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Held/withdrawn analytes (e.g. total arsenic in fish and seaweed, which is arsenosugar/arsenobetaine-dominated — inorganic arsenic is the toxic and regulated analyte) are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling).*
+*One of 5 per-product chapters in Part 3, self-contained as a licensing exhibit. The methodology is in Part 5.1; the certification status framework in Part 2.3; the Standards Ratchet in Part 2.10. Analytes whose occurrence pool is contaminated, unstable, or analyte-mismatched are shown as "adjudication pending" and carry no published threshold; the published values are validated by the Publication QC Gate (no value exceeds a regulatory ceiling).*
 
 **Product class:** Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)
 **Subcategory role:** whole_row_platform

@@ -271,6 +271,16 @@ if (subsDoc) {
   console.warn(`[build-category-manual] WARNING: no substitution set for category ${category}; the shared parts will leak Cat-1 content. Author category-substitutions/${category}.json.`)
 }
 
+// 2b. Per-volume DOI. The shared edition page carries the Cat-1 manual's OWN Zenodo DOI
+//     (10.5281/zenodo.20270512). A category manual is a DISTINCT publication and must not
+//     claim the infant manual's DOI; it gets its own on Zenodo deposit. Replace the self-DOI
+//     with a pending-deposit placeholder. The three preprint reference DOIs (18903738,
+//     18905821, 19470572) are real cited works and are left untouched.
+master = master
+  .replace(/\[10\.5281\/zenodo\.20270512\]\(https:\/\/doi\.org\/10\.5281\/zenodo\.20270512\)/g, "DOI pending (assigned on Zenodo deposit of this volume)")
+  .replace(/doi:\s*10\.5281\/zenodo\.20270512/gi, "DOI: pending Zenodo deposit")
+  .replace(/10\.5281\/zenodo\.20270512/g, "[DOI pending Zenodo deposit]")
+
 // 3. Build-blocking leak-guard, scoped to the WRAPPER (front matter + Parts 1/2/4/5),
 //    which is the domain of the verified substitution set. Part 3 is assembled from the
 //    category's own Standards Briefings; any Cat-1 residue there is a briefing-generator
