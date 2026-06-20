@@ -44,8 +44,17 @@ const OUT = path.join(REPO, "data/evidence/gems-aggregates.jsonl")
 const MAX_VALUES_PER_GROUP = 200000 // memory guard; reservoir beyond this
 
 const METAL = { // GEMS ContaminantName -> wiki analyte symbol
-  lead: "Pb", cadmium: "Cd", mercury: "tHg", "methylmercury": "MeHg",
-  arsenic: "tAs", "arsenic (inorganic)": "iAs", "arsenic, inorganic": "iAs",
+  lead: "Pb", cadmium: "Cd",
+  // mercury species — "Mercury"/"Total mercury" both = total Hg (tHg); methyl
+  // and inorganic kept distinct. (2026-06-20: the WHO export names total Hg as
+  // "Total mercury", which previously fell through to a literal bucket and split
+  // tHg in two — 180k rows mislabeled. Same for "Arsenic (total)" -> tAs.)
+  mercury: "tHg", "total mercury": "tHg",
+  methylmercury: "MeHg", "methyl mercury": "MeHg",
+  "mercury (inorganic)": "Hg-inorganic",
+  arsenic: "tAs", "arsenic (total)": "tAs",
+  "arsenic (inorganic)": "iAs", "arsenic, inorganic": "iAs",
+  "arsenic (organic)": "As-organic",
   aluminum: "Al", aluminium: "Al", chromium: "Cr", nickel: "Ni", tin: "Sn",
 }
 function metalSymbol(name) { return METAL[(name || "").trim().toLowerCase()] || (name || "").trim() }
