@@ -342,6 +342,16 @@ Defensibility is preserved per-certificate by per-analyte version pins against i
 
 ## 7. Open decisions for Karen
 
+### ✅ Resolved 2026-06-20 (Karen)
+
+- **Legal entity:** ICS is a **DBA of Paleo Certified Inc.** (not a new entity) — preserves the Cyprus / EU database-rights posture. (Resolves the §9 open decision in `web-data-architecture.md` and the Part-5 carry-over.)
+- **Pricing (supersedes #4 and the whole abstract engine):** ICS **adopts the existing paleofoundation.com pricing calculator** — `~/paleo-foundation/src/lib/pricing.ts`, model = **revenue-band × cert-count scaling × multi-year discount** (CP 1/2/3 = ×1.0/1.4/1.7; HMT lookup by bundled-CP count; 2yr 10%, 3yr 20%). The tenure/breadth/bundle/cross-vertical engine in §3 and the cap/bonus question in #4 are **moot** — do not build a parallel engine; adopt the existing structure. (Reference port + the two spec-example errors it caught live at `contaminantstandards/lib/pricing/`, marked superseded.)
+- **Refund policy (#3):** Refunds occur **only if a brand cannot qualify.** Because certification has **two paths — public and non-public — every brand qualifies through one of them**, so refunds effectively never fire. No prorated-credit machinery needed at launch.
+- **Defense dossier (#8):** Relocates to the **authenticated brand backend on `heavymetalcertified.com`** (shown in the brand's logged-in backend), **not** the public index. The public dossier pages + `for-brands` are already removed from the index (finding B1). The `api/defense-dossier.mjs` endpoint relocation onto the cert brand-backend remains the live-endpoint action.
+- **Registry posture (#6) + verification single-owner (#7):** Confirmed as recommended (search-only, opt-in, no browsable directory; one `verify.` owner). Implemented in the parent build.
+
+The items below remain open or are carried by counsel.
+
 1. **Discount-accrual level.** `BillingGroup` defaults to one-per-Account, pooling all of an account's brands. Confirm conglomerates should be able to *partition* (separate billing relationships per brand house), and whether breadth/tenure ever count across a multi-brand BillingGroup or only within a brand.
 
 2. **Tenure-on-transfer vs tenure-on-lapse policy values.** The model uses cumulative paid-active intervals with a grace bridge. Set the numbers: grace-window length for a lapse that doesn't reset; on ownership transfer, does the *seller's* hold-harmless window run one cycle or longer; does a returning brand resume its prior intervals or start a new one after a long gap.
