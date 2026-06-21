@@ -22,6 +22,33 @@ const riceRaw = fs.readFileSync(ricePath, "utf8")
 const riceContent = riceRaw.replace(/<!-- hmi-completeness-scorecard -->[\s\S]*?<!-- \/hmi-completeness-scorecard -->\n?/g, "")
 const riceFm = matter(riceContent).data
 
+// Frozen fixture for the count-logic test. Deliberately NOT read from the live
+// corpus: the previous version of that test asserted a hand-counted total_n
+// against the live rice.md, so every legitimate resynthesis of rice (e.g. the
+// 2026-06-11 contamination-profile integrity drain, which corrected rice from
+// total n=440 to n=80) silently broke CI. This fixture pins the INPUT so the
+// test exercises the scorer's counting logic, not today's corpus state. The
+// hand-computed expectations below are derived from this object alone.
+const FIXTURE_FM = {
+  used_in_products: [],
+  contamination_profile: {
+    // 8 of the HMTc-10 analytes populated with n_studies>0 (MeHg and Cr-VI
+    // absent) -> D1 breadth 8/10. Speciated iAs/tAs/tHg, no bare As/Hg -> D6 OK.
+    Pb: { status: "populated", n_studies: 10 },
+    Cd: { status: "populated", n_studies: 10 },
+    iAs: { status: "populated", n_studies: 10 },
+    tAs: { status: "populated", n_studies: 10 },
+    tHg: { status: "populated", n_studies: 10 },
+    Ni: { status: "populated", n_studies: 10 },
+    Al: { status: "populated", n_studies: 10 },
+    Sn: { status: "populated", n_studies: 10 },
+    // non-HMTc cells: counted in total_n, not in breadth.
+    Cr: { status: "populated", n_studies: 5 },
+    U: { status: "populated", n_studies: 5 },
+  },
+}
+const FIXTURE_CONTENT = "# Fixture grain\n\nFrozen fixture page for scorecard count-logic tests.\n"
+
 test("tier-unset degradation when consumption-tiers.csv is absent", () => {
   // point the tier table at a path that does not exist
   const ctx = buildContext({ repoRoot, tierTablePath: path.join(os.tmpdir(), "nonexistent-tiers-xyz.csv") })
@@ -38,24 +65,24 @@ test("tier-unset degradation when consumption-tiers.csv is absent", () => {
   }
 })
 
-test("known-page chips match hand-computed counts (rice)", () => {
+test("chips match hand-computed counts (frozen fixture)", () => {
   const ctx = buildContext({ repoRoot, tierTablePath: path.join(os.tmpdir(), "nonexistent-tiers-xyz.csv") })
-  const r = scoreIngredient("rice", riceFm, riceContent, ctx)
+  const r = scoreIngredient("fixture-grain", FIXTURE_FM, FIXTURE_CONTENT, ctx)
 
-  // breadth: HMTc-10 analytes populated with n_studies>0. rice keys Pb,Cd,iAs,
-  // tAs,tHg,Ni,Al,Sn (8 of the list); MeHg and Cr-VI absent -> 8/10.
+  // breadth: HMTc-10 analytes populated with n_studies>0. Fixture keys Pb,Cd,
+  // iAs,tAs,tHg,Ni,Al,Sn (8 of the list); MeHg and Cr-VI absent -> 8/10.
   assert.equal(r.dims.D1.breadth, 8)
   assert.match(r.dims.D1.have, /8\/10 HMTc analytes/)
 
-  // total_n: sum of n_studies across the whole profile.
-  // Pb61+Cd86+iAs74+tHg45+Ni23+Al11+Cr30+Sn11+tAs95+U4 = 440
-  assert.equal(r.dims.D1.totalN, 440)
-  assert.match(r.dims.D1.have, /total n=440/)
+  // total_n: sum of n_studies across the whole profile (HMTc + non-HMTc cells).
+  // 8 analytes x 10 + Cr5 + U5 = 90.
+  assert.equal(r.dims.D1.totalN, 90)
+  assert.match(r.dims.D1.have, /total n=90/)
 
-  // D6 speciation: rice declares iAs/tAs/tHg, no bare As/Hg cell -> OK.
+  // D6 speciation: fixture declares iAs/tAs/tHg, no bare As/Hg cell -> OK.
   assert.equal(r.dims.D6.status, "OK")
 
-  // D7: rice declares no basis tokens -> GAP naming the populated cells.
+  // D7: fixture declares no basis tokens -> GAP naming the populated cells.
   assert.equal(r.dims.D7.status, "GAP")
 })
 
@@ -129,7 +156,7 @@ test("tier table present: D1 renders against the tier, not tier-unset", () => {
   const r = scoreIngredient("rice", riceFm, riceContent, ctx)
   assert.match(r.dims.D1.label, /tier: staple/)
   assert.notEqual(r.dims.D1.status, "tier-unset")
-  // staple bar is total n>=40; rice has 440 -> not below-tier on depth
+  // staple bar is total n>=40; rice sits comfortably above it -> not below-tier on depth
   assert.notEqual(r.dims.D1.status, "below-tier")
   fs.rmSync(dir, { recursive: true, force: true })
 })
