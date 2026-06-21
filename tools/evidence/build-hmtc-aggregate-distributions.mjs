@@ -31,6 +31,9 @@
 import fs from "node:fs"
 import path from "node:path"
 import { writeStableJsonSummary } from "./stable-json-summary.mjs"
+// Single source of truth for the 1:7 reconstitution factor + basis conversion
+// (CLAUDE.md Part 19 names this file as its canonical home).
+import { BASIS_RECONSTITUTION_FACTOR, convertBasis } from "./basis-conversion.mjs"
 
 const repoRoot = process.cwd()
 const productDir = path.join(repoRoot, "wiki/products")
@@ -54,7 +57,8 @@ const CLEAN_TARGET_P = 0.97       // per-analyte clean standard
 const DIRTY_TARGET_P = 0.45       // per-analyte dirty standard
 const INDEPENDENT_TARGET_P = 0.97 // default for variant_type other than clean/dirty
 const DEFAULT_CV_FOR_MEAN_ONLY = 1.0 // EFSA/JECFA convention for contaminant data
-const BASIS_RECONSTITUTION_FACTOR = 7 // 1 g powder + 6 g water (1:7 dilution)
+// BASIS_RECONSTITUTION_FACTOR is imported from ./basis-conversion.mjs (single
+// source of truth per CLAUDE.md Part 19); re-exported below for test access.
 const MAX_SOURCE_SHARE = 0.5      // no single source > 50% of pool weight
 // A pooled distribution whose p95 exceeds its p10 by more than this factor is
 // almost certainly contaminated by a unit mismatch among its source rows (e.g.
@@ -182,6 +186,16 @@ function reconstructPseudoSamples(row, rng) {
 
   const Nfit = n > 0 ? Math.min(n, pseudoSampleCap) : 0
 
+  // Sensitivity variant: "lognormal" (default — byte-identical to the historical
+  // engine and the source of the headline value), "gamma" (a genuine second
+  // parametric family matched to the same mean and CV), or "nonparametric"
+  // (defined only where the source reports an empirical percentile vector or a
+  // range; summary-moment-only paths return null under nonparametric so the
+  // sensitivity band reflects real cross-family disagreement instead of a
+  // fabricated third lognormal draw).
+  const variant = row._sensitivity_variant || "lognormal"
+  const nonparametricUnavailable = { samples: [], method: "nonparametric_unavailable", weak: true, unavailable: true }
+
   // Path 1: Full p-vector + N — quantile interpolation.
   const reportedPercentiles = [p10, p30, p50, p90, p95, p100].filter((v) => v !== null)
   if (reportedPercentiles.length >= 3 && Nfit > 0) {
@@ -209,7 +223,12 @@ function reconstructPseudoSamples(row, rng) {
 
   // Path 2: mean + median + max + N — log-normal moment-match.
   if (mean !== null && median !== null && median > 0 && Nfit > 0) {
+    if (variant === "nonparametric") return nonparametricUnavailable
     const sigmaLog = Math.sqrt(Math.max(2 * Math.log(mean / median), 1e-6))
+    if (variant === "gamma") {
+      const cv = Math.sqrt(Math.max(Math.exp(sigmaLog * sigmaLog) - 1, 1e-9))
+      return { samples: gammaFromMeanCV(mean, cv, Nfit, rng), method: "gamma_mean_median", weak: false }
+    }
     const muLog = Math.log(Math.max(median, 1e-6))
     const samples = []
     for (let i = 0; i < Nfit; i++) {
@@ -221,21 +240,33 @@ function reconstructPseudoSamples(row, rng) {
 
   // Path 3: mean + max + N — log-normal with CV heuristic from (max/mean).
   if (mean !== null && max !== null && Nfit > 0) {
+    if (variant === "nonparametric") return nonparametricUnavailable
     const cv = Math.max((max - mean) / Math.max(mean, 1e-6), 0.3) / 3  // 3-sigma heuristic
+    if (variant === "gamma") {
+      return { samples: gammaFromMeanCV(mean, cv, Nfit, rng), method: "gamma_mean_max", weak: false }
+    }
     const samples = lognormalFromMeanCV(mean, cv, Nfit, rng)
     return { samples, method: "lognormal_mean_max", weak: false }
   }
 
   // Path 4: mean + N only — log-normal with EFSA/JECFA default CV.
   if (mean !== null && Nfit > 0) {
+    if (variant === "nonparametric") return nonparametricUnavailable
+    if (variant === "gamma") {
+      return { samples: gammaFromMeanCV(mean, DEFAULT_CV_FOR_MEAN_ONLY, Nfit, rng), method: "gamma_mean_only", weak: true }
+    }
     const samples = lognormalFromMeanCV(mean, DEFAULT_CV_FOR_MEAN_ONLY, Nfit, rng)
     return { samples, method: "lognormal_mean_only", weak: true }
   }
 
   // Path 5: LOD-censored lb/ub mean — Tobit-style interval, midpoint estimate.
   if (meanLb !== null && meanUb !== null) {
+    if (variant === "nonparametric") return nonparametricUnavailable
     const midpoint = (meanLb + meanUb) / 2
     const Nfallback = Math.max(Nfit, 10)
+    if (variant === "gamma") {
+      return { samples: gammaFromMeanCV(midpoint, DEFAULT_CV_FOR_MEAN_ONLY, Nfallback, rng), method: "gamma_lod_censored_midpoint", weak: true }
+    }
     const samples = lognormalFromMeanCV(midpoint, DEFAULT_CV_FOR_MEAN_ONLY, Nfallback, rng)
     return { samples, method: "lognormal_lod_censored_midpoint", weak: true }
   }
@@ -279,6 +310,43 @@ function lognormalFromMeanCV(mean, cv, n, rng) {
   return samples
 }
 
+// Genuine gamma reconstruction for the sensitivity analysis: a real second
+// parametric family (not a re-seeded lognormal). Matched to the SAME mean and
+// CV as the lognormal path — shape k = 1/CV², scale θ = mean·CV² — so the only
+// thing that differs is the distributional form, which is exactly what a
+// parametric-sensitivity band is meant to probe. Deterministic via SeededRng.
+function gammaFromMeanCV(mean, cv, n, rng) {
+  const cvSafe = Math.max(cv, 1e-6)
+  const k = 1 / (cvSafe * cvSafe)
+  const theta = Math.max(mean, 0) * cvSafe * cvSafe
+  const samples = []
+  for (let i = 0; i < n; i++) samples.push(Math.max(0, sampleGamma(k, rng) * theta))
+  return samples
+}
+
+// Marsaglia–Tsang gamma sampler (shape k, unit scale), using the seeded RNG's
+// normal() and next() so the draw sequence is reproducible. k<1 handled via the
+// standard boosting transform.
+function sampleGamma(k, rng) {
+  if (k < 1) {
+    const u = Math.max(rng.next(), 1e-12)
+    return sampleGamma(1 + k, rng) * Math.pow(u, 1 / k)
+  }
+  const d = k - 1 / 3
+  const c = 1 / Math.sqrt(9 * d)
+  for (;;) {
+    let x, v
+    do {
+      x = rng.normal()
+      v = 1 + c * x
+    } while (v <= 0)
+    v = v * v * v
+    const u = rng.next()
+    if (u < 1 - 0.0331 * x * x * x * x) return d * v
+    if (Math.log(Math.max(u, 1e-12)) < 0.5 * x * x + d * (1 - v + Math.log(v))) return d * v
+  }
+}
+
 function generateFromPercentileVector(percentilePoints, n, rng) {
   // percentilePoints is [[p, value], ...] sorted by p in [0,1].
   const sorted = [...percentilePoints].sort((a, b) => a[0] - b[0])
@@ -305,24 +373,9 @@ function interpolatePercentile(p, points) {
 }
 
 // ---- Basis homogenization
-
-function convertBasis(value, fromBasis, toBasis) {
-  if (!fromBasis || !toBasis || fromBasis === toBasis) return { value, factor: 1 }
-  // Powder ↔ prepared (1:7 reconstitution by mass).
-  const POWDER_BASES = new Set(["powder_as_placed", "as_sold", "as_sold_or_source_reported", "dry_as_sold"])
-  const PREPARED_BASES = new Set(["prepared_for_feeding", "as_consumed"])
-  if (POWDER_BASES.has(fromBasis) && PREPARED_BASES.has(toBasis)) {
-    return { value: value / BASIS_RECONSTITUTION_FACTOR, factor: 1 / BASIS_RECONSTITUTION_FACTOR }
-  }
-  if (PREPARED_BASES.has(fromBasis) && POWDER_BASES.has(toBasis)) {
-    return { value: value * BASIS_RECONSTITUTION_FACTOR, factor: BASIS_RECONSTITUTION_FACTOR }
-  }
-  // Within-class conversions (as_sold ↔ dry_as_sold, etc.) — treat as 1:1 with caveat flag.
-  if (POWDER_BASES.has(fromBasis) && POWDER_BASES.has(toBasis)) return { value, factor: 1 }
-  if (PREPARED_BASES.has(fromBasis) && PREPARED_BASES.has(toBasis)) return { value, factor: 1 }
-  // Mixed / unknown — pass through with factor 1 and flag.
-  return { value, factor: 1, unknown_conversion: true }
-}
+// convertBasis() now lives in ./basis-conversion.mjs (imported above) so the
+// 1:7 reconstitution factor has exactly one definition shared by the engine
+// and the standards-briefing generator. Re-exported below for test access.
 
 // ---- Pooling math
 
@@ -536,16 +589,59 @@ function lookupRegCap(productSlug, metal, gapRows) {
 }
 
 // ---- Target picker per variant_type
+//
+// The P45-vs-P97 selection is the single most consequential choice in the
+// methodology (~2x on the limit), so it must never be made silently. Each
+// governance variant_type maps to an EXPLICIT role. The previous
+// includes("contamination_platform") substring test silently sent the dirty
+// siblings actually used in the corpus — `higher-contamination-sibling` (24
+// rows) and `contaminated-platform` — to the looser clean P97 instead of the
+// dirty P45, because neither string contains the underscore token. Unrecognized
+// labels are now flagged (variant_type_recognized:false) and surfaced for a
+// governance decision rather than silently receiving the looser target.
+
+const VARIANT_TYPE_ROLE = new Map([
+  // clean subcategory → P97
+  ["clean_benchmark", "clean"],
+  ["clean-counterpart", "clean"],
+  // dirty subcategory → P45
+  ["contamination_platform", "dirty"],
+  ["contaminated-platform", "dirty"],
+  ["higher-contamination-sibling", "dirty"],
+  // independent (no within-pair partner) → P97 clean-by-default
+  ["independent", "independent"],
+  ["independent_no_split", "independent"],
+  ["independent_serves_as_cross_row_cc", "independent"],
+  ["independent_scope_qualified", "independent"],
+  ["independent_added_step_0c", "independent"],
+  ["distinct_exposure_pathway", "independent"],
+])
+
+const _warnedVariantTypes = new Set()
 
 function targetForProduct(product) {
-  const v = product.variant_type || ""
-  if (v.includes("clean_benchmark")) {
-    return { target_p: CLEAN_TARGET_P, target_label: "clean_p97", role: "clean_subcategory" }
+  const v = String(product.variant_type || "").trim()
+  const role = VARIANT_TYPE_ROLE.get(v)
+  if (role === "clean") {
+    return { target_p: CLEAN_TARGET_P, target_label: "clean_p97", role: "clean_subcategory", variant_type_recognized: true }
   }
-  if (v.includes("contamination_platform")) {
-    return { target_p: DIRTY_TARGET_P, target_label: "dirty_p45", role: "dirty_subcategory" }
+  if (role === "dirty") {
+    return { target_p: DIRTY_TARGET_P, target_label: "dirty_p45", role: "dirty_subcategory", variant_type_recognized: true }
   }
-  return { target_p: INDEPENDENT_TARGET_P, target_label: "independent_p97", role: "independent_clean_by_default" }
+  if (role === "independent") {
+    return { target_p: INDEPENDENT_TARGET_P, target_label: "independent_p97", role: "independent_clean_by_default", variant_type_recognized: true }
+  }
+  // Unrecognized governance label (e.g. whole_row_platform, bridge, base): do
+  // NOT silently assert clean/dirty. Default to the documented independent P97
+  // clean-by-default, but FLAG it so a Step 0 governance pass resolves the
+  // clean/dirty designation rather than the engine guessing.
+  if (v && !_warnedVariantTypes.has(v)) {
+    _warnedVariantTypes.add(v)
+    process.stderr.write(
+      `[targetForProduct] WARNING: unrecognized variant_type "${v}" — defaulting to P97 clean-by-default and flagging for governance review (variant_type_recognized:false). Resolve its clean/dirty designation in the Step 0 Lock.\n`,
+    )
+  }
+  return { target_p: INDEPENDENT_TARGET_P, target_label: "unmapped_default_p97", role: "unmapped_needs_governance", variant_type_recognized: false }
 }
 
 // ---- Rationale tag
@@ -1116,6 +1212,7 @@ export {
   pool,
   reconstructPseudoSamples,
   lognormalFromMeanCV,
+  gammaFromMeanCV,
   convertBasis,
   percentile,
   interpolatePercentile,

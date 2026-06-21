@@ -14,6 +14,7 @@ import {
   pool,
   reconstructPseudoSamples,
   lognormalFromMeanCV,
+  gammaFromMeanCV,
   convertBasis,
   percentile,
   interpolatePercentile,
@@ -314,6 +315,78 @@ describe("targetForProduct()", () => {
   test("independent variant → P97 (clean by default)", () => {
     const t = targetForProduct({ variant_type: "independent_no_split" })
     assert.strictEqual(t.target_p, 0.97)
+  })
+  // Regression: the dirty siblings actually used in the corpus must get P45.
+  // The old includes("contamination_platform") substring test sent these to the
+  // looser clean P97 because neither string contains the underscore token.
+  test("higher-contamination-sibling → P45 (was silently P97)", () => {
+    const t = targetForProduct({ variant_type: "higher-contamination-sibling" })
+    assert.strictEqual(t.target_p, 0.45)
+    assert.strictEqual(t.role, "dirty_subcategory")
+    assert.strictEqual(t.variant_type_recognized, true)
+  })
+  test("contaminated-platform (hyphen form) → P45", () => {
+    const t = targetForProduct({ variant_type: "contaminated-platform" })
+    assert.strictEqual(t.target_p, 0.45)
+  })
+  test("clean-counterpart → P97 (clean)", () => {
+    const t = targetForProduct({ variant_type: "clean-counterpart" })
+    assert.strictEqual(t.target_p, 0.97)
+    assert.strictEqual(t.role, "clean_subcategory")
+  })
+  test("unrecognized variant_type is flagged, not silently defaulted", () => {
+    const t = targetForProduct({ variant_type: "whole_row_platform" })
+    assert.strictEqual(t.variant_type_recognized, false)
+    assert.strictEqual(t.target_label, "unmapped_default_p97")
+    assert.strictEqual(t.role, "unmapped_needs_governance")
+  })
+})
+
+// --------------------------------------------------------------------------
+// Genuine sensitivity variants (gamma is a real second family; nonparametric
+// is honestly unavailable for summary-moment-only data)
+// --------------------------------------------------------------------------
+
+describe("gammaFromMeanCV()", () => {
+  test("produces n non-negative samples whose mean tracks the target", () => {
+    const rng = new SeededRng(7)
+    const s = gammaFromMeanCV(10, 1.0, 4000, rng)
+    assert.strictEqual(s.length, 4000)
+    for (const v of s) assert.ok(v >= 0)
+    const m = s.reduce((a, b) => a + b, 0) / s.length
+    assert.ok(m > 7 && m < 13, `gamma sample mean ${m} should be near 10`)
+  })
+  test("is deterministic under a fixed seed", () => {
+    const a = gammaFromMeanCV(5, 0.8, 200, new SeededRng(3))
+    const b = gammaFromMeanCV(5, 0.8, 200, new SeededRng(3))
+    assert.deepStrictEqual(a, b)
+  })
+})
+
+describe("sensitivity variant reconstruction", () => {
+  test("gamma variant yields a genuine gamma path, distinct from lognormal", () => {
+    const row = { n: "50", mean_ppb: "10" }
+    const ln = reconstructPseudoSamples({ ...row, _sensitivity_variant: "lognormal" }, new SeededRng(9))
+    const ga = reconstructPseudoSamples({ ...row, _sensitivity_variant: "gamma" }, new SeededRng(9))
+    assert.strictEqual(ln.method, "lognormal_mean_only")
+    assert.strictEqual(ga.method, "gamma_mean_only")
+    assert.ok(ga.samples.length === 50)
+    assert.notDeepStrictEqual(ln.samples, ga.samples)
+  })
+  test("nonparametric is unavailable for summary-moment-only data (no fabricated draw)", () => {
+    const row = { n: "50", mean_ppb: "10", _sensitivity_variant: "nonparametric" }
+    const r = reconstructPseudoSamples(row, new SeededRng(9))
+    assert.strictEqual(r.method, "nonparametric_unavailable")
+    assert.strictEqual(r.samples.length, 0)
+  })
+  test("nonparametric IS available when the source reports a percentile vector", () => {
+    const row = {
+      n: "100", p10_ppb: "1", p50_ppb: "5", p90_ppb: "20", p95_ppb: "30", p100_ppb: "50",
+      _sensitivity_variant: "nonparametric",
+    }
+    const r = reconstructPseudoSamples(row, new SeededRng(9))
+    assert.strictEqual(r.method, "percentile_interpolation")
+    assert.strictEqual(r.samples.length, 100)
   })
 })
 

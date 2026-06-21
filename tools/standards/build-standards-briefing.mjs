@@ -28,6 +28,7 @@
  */
 
 import fs from "node:fs"
+import { BASIS_RECONSTITUTION_FACTOR } from "../evidence/basis-conversion.mjs"
 import path from "node:path"
 import { execSync } from "node:child_process"
 
@@ -71,7 +72,7 @@ const INCREMENT_LADDER = [
 const MEHG_LOQ_PPB = 0.1            // typical ICP-MS-HG LOQ for MeHg in formula
 const MEHG_PATH_B_FLOOR = MEHG_LOQ_PPB * 5  // 0.5 ppb
 const NON_FISH_MEHG_FRACTION = 0.5  // conservative bound; for fish matrices use 0.9+
-const RECONSTITUTION_FACTOR = 7
+const RECONSTITUTION_FACTOR = BASIS_RECONSTITUTION_FACTOR // single source of truth: tools/evidence/basis-conversion.mjs
 
 main()
 
@@ -451,7 +452,7 @@ function renderMethodologyOnePage() {
 
 **Regulatory cap.** The final published HMTc value never exceeds the lowest applicable loaded regulatory ceiling, expressed in the product's native basis. When the pooled P97/P45 exceeds the regulatory cap, the cap binds and the rationale tag is \`regulatory-alignment\`. When the pooled value is below the cap, the rationale is \`literature-baseline\` and the cap is shown for context only.
 
-**Sensitivity.** Each pooled value is recomputed under three parametric assumptions: log-normal (headline), gamma (alternative), and nonparametric reconstruction. The spread across the three is reported as the sensitivity band: stable (≤25%), provisional (25–50%), or needs_review (>50%). Confidence intervals are computed via meta-analytic bootstrap that resamples whole sources (not individual pseudo-samples) to capture between-source uncertainty.
+**Sensitivity.** Each pooled value is recomputed under alternative distributional assumptions: log-normal (headline) and a genuine gamma family matched to the same mean and coefficient of variation, plus a nonparametric reconstruction wherever the contributing sources report an empirical percentile vector or range. Summary-moment-only cells have no defined nonparametric form and are excluded from that variant rather than fabricated. The spread across the variants that apply is reported as the sensitivity band: stable (≤25%), provisional (25–50%), or needs_review (>50%). Confidence intervals are computed via meta-analytic bootstrap that resamples whole sources (not individual pseudo-samples) to capture between-source uncertainty.
 
 **Methodology authorities.** The pooling approach follows WHO/JECFA pooled total-diet study methodology, the EFSA Scientific Opinions on lead (2010, 2024) and cadmium (2009, 2024) for log-normal contaminant occurrence reconstruction, ATSDR moment-matching guidance for summary-statistic-only sources, and Codex CAC/GL 50-2004 weighted pooling. Per-source contribution logs document every admission decision and every basis conversion.
 
@@ -516,7 +517,7 @@ function renderAnalyteDefensibility(a) {
   }
   if (a.rationale === "literature-baseline") {
     const provisional = a.sensitivity_band === "provisional"
-    return `**Defensibility.** Pooled P97 from ${a.sources_contributing} contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination${a.cap_value !== null ? ` below the pooled value (cap = ${formatNumber(a.cap_value)} ppb)` : ""}. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. ${provisional ? "Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions." : "Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants."}`
+    return `**Defensibility.** Pooled P97 from ${a.sources_contributing} contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination${a.cap_value !== null ? ` below the pooled value (cap = ${formatNumber(a.cap_value)} ppb)` : ""}. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. ${provisional ? "Sensitivity band is provisional — the log-normal and gamma families (and the nonparametric variant where the sources support it) disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions." : "Sensitivity band is stable across the log-normal and gamma families (and the nonparametric variant where the sources support it)."}`
   }
   if (a.rationale === "feasibility-driven") {
     return `**Defensibility.** No direct occurrence data for this analyte in this matrix; the value is anchored by the four-anchor read-across documented above. The empirical anchor (parent species pool), analytical anchor (Path B LOQ × 5), regulatory anchor (EFSA/EPA/JECFA exposure framework), and inferential anchor (matrix chemistry) are independently defensible. A plaintiff's "no MeHg data" attack does not land because each anchor stands on its own; rebutting one does not invalidate the threshold.`
@@ -588,7 +589,7 @@ Response: P45 of the dirty subcategory's distribution, applied per-analyte, deli
 
 ${capBound.length > 0 ? `**Attack 4: "Your threshold matches the EU/FDA cap; HMTc adds no value over the regulator."**
 Response: For ${capBound.map((a) => a.metal).join(", ")}, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification — a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.\n\n` : ""}${provisional.length > 0 ? `**Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."**
-Response: The sensitivity bands are explicitly reported per analyte. ${provisional.length} analytes (${provisional.map((a) => a.metal).join(", ")}) are flagged provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.\n\n` : ""}${feasibility.length > 0 ? `**Attack 6: "Methylmercury — you have no data, but you published a value anyway."**
+Response: The sensitivity bands are explicitly reported per analyte. ${provisional.length} analytes (${provisional.map((a) => a.metal).join(", ")}) are flagged provisional — the log-normal and gamma families (and the nonparametric variant where the sources support it) disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.\n\n` : ""}${feasibility.length > 0 ? `**Attack 6: "Methylmercury — you have no data, but you published a value anyway."**
 Response: The four-anchor read-across is documented in the MeHg per-analyte section. The empirical anchor (parent species pool: tHg ≈ 0 ppb in this matrix), the analytical anchor (Path B LOQ × 5), the regulatory anchor (EFSA TWI as exposure context), and the inferential anchor (non-fish matrix chemistry) are independently citable. The published value is the analytical floor — the smallest concentration a competent lab can verify. Tagged \`feasibility-driven\` with scheduled Tier 2 review when MeHg-specific occurrence data lands. The "no data" framing misrepresents the four-anchor defense.\n\n` : ""}**Attack 7: "Where does basis conversion happen and what authority do you cite?"**
 Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
 
