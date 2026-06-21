@@ -1,0 +1,7 @@
+{
+  "generated_at": "2026-06-21T12:50:34.575Z",
+  "note": "Grandfathered uncited-claim backlog. --strict fails only if the current uncited count EXCEEDS unsupported_claims.",
+  "unsupported_claims": 0,
+  "total_claims": 6443,
+  "uncited_claim_ids": []
+}

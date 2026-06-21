@@ -23,10 +23,23 @@
 // Output:
 //   data/evidence/claim-provenance-audit.csv  per-claim records
 //   data/evidence/claim-provenance-summary.json  aggregate scores
+//   data/evidence/claim-provenance-backlog.csv  uncited-claim inventory
+//
+// Modes:
+//   Default (report-only): writes the artifacts and exits 0 regardless of how
+//   many claims are uncited. This is what prebuild uses, so CI stays green.
+//
+//   --strict: still report-only by default behavior, but exits non-zero if the
+//   current uncited-claim count EXCEEDS the committed baseline in
+//   data/evidence/claim-provenance-baseline.json. Regressions block; the
+//   existing backlog is grandfathered. If no baseline file exists, --strict
+//   writes one from the current count (and exits 0 against it).
 //
 // Usage:
-//   node tools/audit-claim-provenance.mjs              # full corpus
-//   node tools/audit-claim-provenance.mjs --sample 10  # sample N pages per type
+//   node tools/audit-claim-provenance.mjs                # full corpus, report-only
+//   node tools/audit-claim-provenance.mjs --sample 10    # sample N pages per type
+//   node tools/audit-claim-provenance.mjs --strict       # fail on regression vs baseline
+//   node tools/audit-claim-provenance.mjs --update-baseline  # rewrite baseline to current
 
 import fs from "node:fs"
 import path from "node:path"
@@ -36,8 +49,12 @@ const today = new Date().toISOString().slice(0, 10)
 const args = process.argv.slice(2)
 const sampleIdx = args.indexOf("--sample")
 const sampleN = sampleIdx >= 0 ? Number(args[sampleIdx + 1]) : null
+const strict = args.includes("--strict")
+const updateBaseline = args.includes("--update-baseline")
 
 const LOOKBACK_CHARS = 2000
+const BASELINE_PATH = path.join(repoRoot, "data/evidence/claim-provenance-baseline.json")
+const BACKLOG_PATH = path.join(repoRoot, "data/evidence/claim-provenance-backlog.csv")
 
 // Numerical claim regex: matches <number><optional decimal><optional unit>
 // Examples: "100 ppb", "1.5 mg/kg", "92.3 µg/kg", "50%"
@@ -150,8 +167,15 @@ function auditPage(filePath) {
   return { claims, skipped: null }
 }
 
-function auditDir(dir, pageType) {
-  const fullDir = path.join(repoRoot, dir)
+function claimId(r) {
+  // Stable identifier for an uncited claim: page slug + section + claim value
+  // + offset. Offset disambiguates repeated identical claims within a section.
+  // Stable across runs as long as the page text around the claim is unchanged.
+  return `${r.type}/${r.slug}#${r.section}@${r.offset}:${r.claim}`
+}
+
+function auditDir(dir, pageType, root = repoRoot) {
+  const fullDir = path.join(root, dir)
   if (!fs.existsSync(fullDir)) return []
   let files = fs.readdirSync(fullDir)
     .filter(f => f.endsWith(".md") && f !== "index.md" && !f.startsWith("_"))
@@ -171,14 +195,22 @@ function auditDir(dir, pageType) {
   return results
 }
 
-function main() {
-  const ingredientClaims = auditDir("wiki/ingredients", "ingredient")
-  const productClaims = auditDir("wiki/products", "product")
+function csvCell(v) {
+  const s = String(v ?? "")
+  return /[,"\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s
+}
+
+// Run the audit across the corpus and return the per-claim records plus
+// aggregates. Pure with respect to the filesystem reads only; writes nothing.
+// Exported so tests can drive it against a fixture corpus.
+export function auditAll({ root = repoRoot } = {}) {
+  const ingredientClaims = auditDir("wiki/ingredients", "ingredient", root)
+  const productClaims = auditDir("wiki/products", "product", root)
   const all = [...ingredientClaims, ...productClaims]
 
-  // Aggregate
   const total = all.length
   const supported = all.filter(c => c.supported).length
+  const unsupported = total - supported
   const pct = total ? Math.round(supported / total * 1000) / 10 : 100
 
   const byType = {}
@@ -188,17 +220,58 @@ function main() {
     if (c.supported) byType[c.type].supported++
   }
 
-  // Write CSV
+  return { all, total, supported, unsupported, pct, byType }
+}
+
+function readBaseline() {
+  if (!fs.existsSync(BASELINE_PATH)) return null
+  try {
+    return JSON.parse(fs.readFileSync(BASELINE_PATH, "utf8"))
+  } catch {
+    return null
+  }
+}
+
+function writeBaseline(result) {
+  const uncited = result.all.filter(c => !c.supported)
+  const baseline = {
+    generated_at: new Date().toISOString(),
+    note: "Grandfathered uncited-claim backlog. --strict fails only if the current uncited count EXCEEDS unsupported_claims.",
+    unsupported_claims: result.unsupported,
+    total_claims: result.total,
+    uncited_claim_ids: uncited.map(claimId).sort(),
+  }
+  fs.writeFileSync(BASELINE_PATH, JSON.stringify(baseline, null, 2) + "\n")
+  return baseline
+}
+
+function main() {
+  const result = auditAll()
+  const { all, total, supported, unsupported, pct, byType } = result
+
+  // Write per-claim CSV (all claims)
   const headers = ["type", "slug", "section", "claim", "supported", "context"]
   const csv = [headers.join(",")]
   for (const r of all) {
-    csv.push(headers.map(h => {
-      const v = String(r[h] ?? "")
-      return /[,"\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v
-    }).join(","))
+    csv.push(headers.map(h => csvCell(r[h])).join(","))
   }
   const csvPath = path.join(repoRoot, "data/evidence/claim-provenance-audit.csv")
   fs.writeFileSync(csvPath, csv.join("\n") + "\n")
+
+  // Write the uncited-claims backlog CSV (trackable inventory).
+  const uncited = all.filter(c => !c.supported)
+  const backlogHeaders = ["claim_id", "page", "section", "claim", "snippet"]
+  const backlog = [backlogHeaders.join(",")]
+  for (const r of uncited) {
+    backlog.push([
+      csvCell(claimId(r)),
+      csvCell(`${r.type}/${r.slug}`),
+      csvCell(r.section),
+      csvCell(r.claim),
+      csvCell(r.context),
+    ].join(","))
+  }
+  fs.writeFileSync(BACKLOG_PATH, backlog.join("\n") + "\n")
 
   // Write JSON summary
   const summary = {
@@ -206,7 +279,7 @@ function main() {
     sample_size: sampleN,
     total_claims: total,
     supported_claims: supported,
-    unsupported_claims: total - supported,
+    unsupported_claims: unsupported,
     supported_pct: pct,
     by_type: byType,
   }
@@ -216,13 +289,51 @@ function main() {
   console.log("Claim provenance audit (v1):")
   console.log(`  total claims scanned: ${total}`)
   console.log(`  supported (source link within section+${LOOKBACK_CHARS} chars): ${supported} (${pct}%)`)
-  console.log(`  unsupported: ${total - supported}`)
+  console.log(`  unsupported: ${unsupported}`)
   for (const t of Object.keys(byType)) {
     const b = byType[t]
     console.log(`    ${t}: ${b.supported}/${b.total} (${Math.round(b.supported/b.total*100)}%)`)
   }
   console.log(`Wrote ${csvPath}`)
   console.log(`Wrote ${jsonPath}`)
+  console.log(`Wrote ${BACKLOG_PATH}`)
+
+  // Baseline maintenance / strict gating.
+  if (updateBaseline) {
+    const b = writeBaseline(result)
+    console.log(`Wrote ${BASELINE_PATH} (baseline unsupported_claims=${b.unsupported_claims})`)
+  }
+
+  if (!strict) {
+    // Default path: report-only. Never fails the build.
+    process.exit(0)
+  }
+
+  // --strict path: compare against the committed baseline.
+  let baseline = readBaseline()
+  if (!baseline) {
+    baseline = writeBaseline(result)
+    console.log(`No baseline found; wrote ${BASELINE_PATH} (baseline unsupported_claims=${baseline.unsupported_claims})`)
+    console.log("strict: PASS (baseline initialized to current count)")
+    process.exit(0)
+  }
+
+  const baselineCount = Number(baseline.unsupported_claims ?? 0)
+  console.log(`strict: current uncited=${unsupported}, baseline=${baselineCount}`)
+  if (unsupported > baselineCount) {
+    console.error(
+      `strict: FAIL — uncited claims regressed by ${unsupported - baselineCount} ` +
+      `(current ${unsupported} > baseline ${baselineCount}). ` +
+      `New uncited claims are listed in ${BACKLOG_PATH}. ` +
+      `Add citations, or run --update-baseline if the increase is intentional.`
+    )
+    process.exit(1)
+  }
+  console.log("strict: PASS")
+  process.exit(0)
 }
 
-main()
+// Run as CLI only when invoked directly (not when imported by tests).
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main()
+}

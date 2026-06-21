@@ -1,0 +1,9 @@
+category,row_slug,analyte,finding_type,detail
+higher-contamination-sibling,fish-containing-baby-foods,Cd,MISSING_RATIONALE_TAG,"staged value 40 ppb carries tag ""no-data"" which is outside the allowed four (literature-baseline|regulatory-alignment|precautionary|feasibility-driven)"
+independent,fish-freshwater,Hg,MISSING_RATIONALE_TAG,"staged value 500 ppb carries tag ""no-data"" which is outside the allowed four (literature-baseline|regulatory-alignment|precautionary|feasibility-driven)"
+independent_no_split,flavored-waters,Pb,MISSING_RATIONALE_TAG,"staged value 5 ppb carries tag ""no-data"" which is outside the allowed four (literature-baseline|regulatory-alignment|precautionary|feasibility-driven)"
+independent_added_step_0c,meat-and-poultry-purees,Pb,MISSING_RATIONALE_TAG,"staged value 10 ppb carries tag ""no-data"" which is outside the allowed four (literature-baseline|regulatory-alignment|precautionary|feasibility-driven)"
+independent_added_step_0c,meat-and-poultry-purees,Cd,MISSING_RATIONALE_TAG,"staged value 40 ppb carries tag ""no-data"" which is outside the allowed four (literature-baseline|regulatory-alignment|precautionary|feasibility-driven)"
+higher-contamination-sibling,plant-milks-rice-based,iAs,MISSING_RATIONALE_TAG,"staged value 30 ppb carries tag ""no-data"" which is outside the allowed four (literature-baseline|regulatory-alignment|precautionary|feasibility-driven)"
+clean_benchmark,vegetable-juices-non-root,Pb,MISSING_RATIONALE_TAG,"staged value 20 ppb carries tag ""no-data"" which is outside the allowed four (literature-baseline|regulatory-alignment|precautionary|feasibility-driven)"
+higher-contamination-sibling,vegetable-juices-root-vegetable-containing,Pb,MISSING_RATIONALE_TAG,"staged value 20 ppb carries tag ""no-data"" which is outside the allowed four (literature-baseline|regulatory-alignment|precautionary|feasibility-driven)"

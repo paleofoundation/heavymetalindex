@@ -21,6 +21,21 @@
  *      0 (FDA TDS reports non-detects as 0; the reporting limit, not 0, is the
  *      defensible upper bound). (Rice Pb/tHg/Cr [0,0] p95 0 high.)
  *
+ *   3. censored-zero-lower-bound: a populated metal block whose typical_ppb
+ *      lower bound is a literal 0 while the upper bound is > 0
+ *      (typical_ppb [0, X], X > 0). A non-detect coded as a literal 0 understates
+ *      the contamination floor; the reporting limit, not 0, is the defensible
+ *      low end of "typical", and the consumer app reads typical_ppb[0] as the
+ *      low end of the typical range. (fromage-frais Pb [0, 14.8].)
+ *
+ *      This signature has a committed grandfather baseline
+ *      (data/evidence/contamination-integrity-censored-zero-baseline.json): the
+ *      pre-existing backlog of offenders is tracked, not blocking, so the build
+ *      stays green while source-grounded resynthesis drains it. Only NEW
+ *      offenders absent from the baseline block the build. The full current
+ *      inventory is emitted to
+ *      data/evidence/contamination-integrity-censored-zero-backlog.csv.
+ *
  * Both block the build (exit 1) unless --warn-only is passed. Per CLAUDE.md
  * Part 18, integrity drift that understates contamination must fail the build,
  * not merely report, because it propagates silently into the consumer app's
@@ -41,9 +56,15 @@ import path from "node:path"
 
 const repoRoot = process.cwd()
 const ingredientsDir = path.join(repoRoot, "wiki/ingredients")
+const evidenceDir = path.join(repoRoot, "data/evidence")
+const baselinePath = path.join(evidenceDir, "contamination-integrity-censored-zero-baseline.json")
+const backlogCsvPath = path.join(evidenceDir, "contamination-integrity-censored-zero-backlog.csv")
 const args = new Set(process.argv.slice(2).map((a) => a.replace(/^--/, "")))
 const warnOnly = args.has("warn-only")
 const asJson = args.has("json")
+// Regenerate the committed grandfather baseline from the current corpus and exit.
+// Run once to capture the existing backlog; CI never passes this flag.
+const writeBaseline = args.has("write-baseline")
 
 // n_studies above which a collapsed upper tail is treated as an artifact rather
 // than a legitimately thin pool. Below this, p95 == typical-max can be a real
@@ -52,6 +73,11 @@ const DEGENERATE_N_THRESHOLD = 5
 
 const failures = []
 const advisories = []
+// Full current inventory of censored-zero-lower-bound offenders (for the backlog
+// CSV and for partitioning into grandfathered vs new-blocking against the baseline).
+const censoredZeroLowerAll = []
+
+const baseline = loadBaseline()
 
 for (const file of fs.readdirSync(ingredientsDir).sort()) {
   if (!file.endsWith(".md") || file === "index.md") continue
@@ -82,6 +108,8 @@ for (const file of fs.readdirSync(ingredientsDir).sort()) {
     }
 
     // Signature 1: degenerate upper tail (p95 does not exceed typical max).
+    // Checked before signature 3 so a [0, X] cell that is ALSO a collapsed-tail
+    // artifact keeps its original blocking degenerate-upper-tail diagnosis.
     if (
       p95 !== null &&
       typicalHi !== null &&
@@ -98,6 +126,35 @@ for (const file of fs.readdirSync(ingredientsDir).sort()) {
       continue
     }
 
+    // Signature 3: censored-zero lower bound. typical_ppb [0, X] with X > 0 — the
+    // non-detect floor was coded as a literal 0. Does NOT double-flag the all-zero
+    // case ([0, 0]), which is handled by signature 2: here typicalHi > 0 is required.
+    if (typicalLo === 0 && typicalHi !== null && typicalHi > 0) {
+      const key = `${slug} ${metal}`
+      censoredZeroLowerAll.push({
+        page: `wiki/ingredients/${slug}.md`,
+        slug,
+        metal,
+        typicalLo,
+        typicalHi,
+        p95,
+        confidence,
+        nStudies,
+        grandfathered: baseline.has(key),
+      })
+      // Only NEW offenders (absent from the committed baseline) block the build.
+      if (!baseline.has(key)) {
+        failures.push({
+          page: `wiki/ingredients/${slug}.md`,
+          slug,
+          metal,
+          signature: "censored-zero-lower-bound",
+          detail: `typical_ppb [0, ${typicalHi}] (p95_ppb ${p95}, confidence ${confidence}, n_studies ${nStudies}). Lower bound coded as literal 0 — a censored non-detect understating the contamination floor. Re-synthesize with the reporting limit as the censored lower bound. (Not in the grandfather baseline, so this is a new regression and blocks the build.)`,
+        })
+      }
+      continue
+    }
+
     // Advisory: populated with a null upper tail. Honest gap, not a fabrication,
     // but surfaced so it does not sit unreviewed forever.
     if (p95 === null && (typicalLo !== null || typicalHi !== null)) {
@@ -111,8 +168,40 @@ for (const file of fs.readdirSync(ingredientsDir).sort()) {
   }
 }
 
+// Emit the full current censored-zero-lower-bound inventory to the backlog CSV so
+// the source-grounded resynthesis pass has a trackable worklist. Sorted, stable.
+writeBacklogCsv(censoredZeroLowerAll)
+
+// --write-baseline: rewrite the committed grandfather baseline from the current
+// inventory and exit before any pass/fail accounting. Run once to capture backlog.
+if (writeBaseline) {
+  const keys = censoredZeroLowerAll
+    .map((o) => `${o.slug} ${o.metal}`)
+    .sort()
+  fs.writeFileSync(baselinePath, JSON.stringify(keys, null, 2) + "\n")
+  console.log(`Wrote grandfather baseline: ${keys.length} censored-zero-lower-bound offender(s) → ${path.relative(repoRoot, baselinePath)}`)
+  process.exit(0)
+}
+
+const grandfatheredCount = censoredZeroLowerAll.filter((o) => o.grandfathered).length
+const newCensoredZeroCount = censoredZeroLowerAll.length - grandfatheredCount
+
 if (asJson) {
-  console.log(JSON.stringify({ failures, advisories }, null, 2))
+  console.log(
+    JSON.stringify(
+      {
+        failures,
+        advisories,
+        censoredZeroLowerBound: {
+          total: censoredZeroLowerAll.length,
+          grandfathered: grandfatheredCount,
+          newBlocking: newCensoredZeroCount,
+        },
+      },
+      null,
+      2,
+    ),
+  )
 } else {
   if (failures.length === 0) {
     console.log("contamination-profile integrity: PASS (no censored-zero or degenerate-upper-tail artifacts)")
@@ -127,6 +216,12 @@ if (asJson) {
     console.log(`\n${advisories.length} advisory(ies) — populated cells with null p95 (not build-blocking):`)
     for (const a of advisories.slice(0, 40)) console.log(`  ${a.slug} × ${a.metal}: ${a.note}`)
     if (advisories.length > 40) console.log(`  … and ${advisories.length - 40} more`)
+  }
+  if (censoredZeroLowerAll.length > 0) {
+    console.log(
+      `\ncensored-zero-lower-bound [0, X]: ${grandfatheredCount} grandfathered, ${newCensoredZeroCount} new (blocking). ` +
+        `Full inventory: ${path.relative(repoRoot, backlogCsvPath)}`,
+    )
   }
 }
 
@@ -188,4 +283,39 @@ function numOrNull(s) {
   if (t === "" || t === "null" || t === "~") return null
   const n = Number(t)
   return Number.isFinite(n) ? n : null
+}
+
+// Load the committed grandfather baseline of censored-zero-lower-bound offenders.
+// Each entry is a "<slug> <metal>" key. Missing baseline => empty set (every
+// offender is treated as new/blocking), which is the safe default for a fresh repo.
+function loadBaseline() {
+  try {
+    const parsed = JSON.parse(fs.readFileSync(baselinePath, "utf8"))
+    return new Set(Array.isArray(parsed) ? parsed : [])
+  } catch {
+    return new Set()
+  }
+}
+
+// Write the full current censored-zero-lower-bound inventory to a stable CSV so the
+// backlog is trackable for the future source-grounded resynthesis pass.
+function writeBacklogCsv(rows) {
+  const sorted = [...rows].sort((a, b) =>
+    a.slug === b.slug ? a.metal.localeCompare(b.metal) : a.slug.localeCompare(b.slug),
+  )
+  const header = "page,slug,metal,typical_lo,typical_hi,p95_ppb,confidence,n_studies,grandfathered"
+  const lines = sorted.map((r) =>
+    [
+      r.page,
+      r.slug,
+      r.metal,
+      r.typicalLo,
+      r.typicalHi,
+      r.p95 === null ? "" : r.p95,
+      r.confidence === null ? "" : r.confidence,
+      r.nStudies,
+      r.grandfathered,
+    ].join(","),
+  )
+  fs.writeFileSync(backlogCsvPath, header + "\n" + lines.join("\n") + (lines.length ? "\n" : ""))
 }
