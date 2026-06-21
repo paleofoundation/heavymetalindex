@@ -122,18 +122,18 @@ Yogurt is a fermented dairy product produced from whole or reduced-fat cow's mil
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 0–14.8 | 51.1 | medium | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/sarkis2025-heavy-metals-yogurt-lebanon\|2]], [[sources/fda-ctz-Pb-babyfood-2025\|3]] |
-| Cd | n=3 | 0–4.3 | 5.2 | medium | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/sarkis2025-heavy-metals-yogurt-lebanon\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
-| iAs | n=1 | 0–11.2 | 33.6 | low | — |
-| tAs | n=2 | 3–37 | 68 | low | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]] |
-| tHg | n=3 | 0–1 | 2.4 | medium | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/pankiewicz2012-mercury-dairy-products-poland\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
-| Ni | data gap | — | — | — | — |
-| Al | n=1 | 0–1734 | 2352 | high | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]] |
-| Cr | data gap | — | — | — | — |
-| Sn | n=1 | 0–200.6 | 245.4 | high | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 0–14.8 | medium | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/sarkis2025-heavy-metals-yogurt-lebanon\|2]], [[sources/fda-ctz-Pb-babyfood-2025\|3]] |
+| Cd | n=3 | 0–4.3 | medium | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/sarkis2025-heavy-metals-yogurt-lebanon\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
+| iAs | n=1 | 0–11.2 | low | — |
+| tAs | n=2 | 3–37 | low | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]] |
+| tHg | n=3 | 0–1 | medium | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/pankiewicz2012-mercury-dairy-products-poland\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 0–1734 | high | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]] |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 0–200.6 | high | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

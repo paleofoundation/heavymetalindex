@@ -126,18 +126,18 @@ Grapes (Vitis vinifera and related species) are a vine fruit whose metal burden 
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=5 | <4–28 | 84 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|3]] |
-| Cd | n=5 | <1–15 | 30 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=4 | 0–7.0 | 8.1 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=1 | <1 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=5 | 0 | 44.1 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
-| Al | n=1 | 0–1966 | 2411 | medium | — |
-| Cr | n=5 | 0 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
-| Sn | n=1 | 0–15.3 | 16.5 | medium | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|1]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 0–28 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|3]] |
+| Cd | n=5 | 0–15 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 0–7.0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=5 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Al | n=1 | 0–1966 | medium | — |
+| Cr | n=5 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Sn | n=1 | 0–15.3 | medium | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|1]] |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

@@ -128,18 +128,18 @@ Onions (Allium cepa) are bulb vegetables grown underground, but their metal accu
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=5 | <4–16 | 76 | medium | [[sources/heshmati2020-iran-vegetables-cereals-pb-cd\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/rempelos2023-vegetable-organic-conventional-metals\|3]] |
-| Cd | n=7 | 2.9–13.8 | 20.6 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=4 | 0–8.6 | 10.3 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=2 | <1–1 | 1 | low | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Ni | n=6 | 0–58.6 | 85 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/owusuadoma2024-ghana-lettuce-metals\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=4 | 0–34 | 60 | low | [[sources/loutfy2012-ismailia-foodstuffs-metals\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/stasinos2014-heavy-metals-tubers-review\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 0–16 | medium | [[sources/heshmati2020-iran-vegetables-cereals-pb-cd\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/rempelos2023-vegetable-organic-conventional-metals\|3]] |
+| Cd | n=7 | 2.9–13.8 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 0–8.6 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=2 | 0–1 | low | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Ni | n=6 | 0–58.6 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/owusuadoma2024-ghana-lettuce-metals\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=4 | 0–34 | low | [[sources/loutfy2012-ismailia-foodstuffs-metals\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/stasinos2014-heavy-metals-tubers-review\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

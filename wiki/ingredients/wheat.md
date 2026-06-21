@@ -122,18 +122,18 @@ Wheat is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=28 | 10–100 | 650 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
-| Cd | n=39 | 10–50 | 216 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/ozkutlu2026-wheat-cd-zinc-mitigation\|2]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|3]] |
-| iAs | n=1 | 0–12 | 12 | low | [[sources/fera2015-uk-tds-metals\|1]] |
-| tAs | n=19 | 3–20 | 50 | high | [[sources/asaditouranlou2025-bread-wheat-mashhad\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/dai2024-chongqing-dietary-arsenic-exposure\|3]] |
-| tHg | n=14 | 0–5 | 30 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
-| Ni | n=16 | 100–800 | — | high | [[sources/asaditouranlou2025-bread-wheat-mashhad\|1]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
-| Al | n=4 | 2300–5200 | 7000 | medium | [[sources/fera2015-uk-tds-metals\|1]], [[sources/balbo2022-bread-contaminants-poland\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
-| Cr | n=6 | 0–100 | 305 | low | [[sources/reczajska2005-chromium-plant-foods-poland\|1]], [[sources/balbo2022-bread-contaminants-poland\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Sn | n=5 | 0–20 | 20 | medium | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/vasilachi2023-heavy-metals-cereal-crops\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=28 | 10–100 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
+| Cd | n=39 | 10–50 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/ozkutlu2026-wheat-cd-zinc-mitigation\|2]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|3]] |
+| iAs | n=1 | 0–12 | low | [[sources/fera2015-uk-tds-metals\|1]] |
+| tAs | n=19 | 3–20 | high | [[sources/asaditouranlou2025-bread-wheat-mashhad\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/dai2024-chongqing-dietary-arsenic-exposure\|3]] |
+| tHg | n=14 | 0–5 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
+| Ni | n=16 | 100–800 | high | [[sources/asaditouranlou2025-bread-wheat-mashhad\|1]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| Al | n=4 | 2300–5200 | medium | [[sources/fera2015-uk-tds-metals\|1]], [[sources/balbo2022-bread-contaminants-poland\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
+| Cr | n=6 | 0–100 | low | [[sources/reczajska2005-chromium-plant-foods-poland\|1]], [[sources/balbo2022-bread-contaminants-poland\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Sn | n=5 | 0–20 | medium | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/vasilachi2023-heavy-metals-cereal-crops\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

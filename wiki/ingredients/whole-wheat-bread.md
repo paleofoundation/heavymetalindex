@@ -127,18 +127,18 @@ Whole wheat bread retains the bran and germ fractions of the wheat grain, and th
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0–6.4 | 6.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 25–39.2 | 41 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 7.8–13.8 | 15.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | data gap | — | — | — | — |
-| Ni | n=2 | 150–220 | 241 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | data gap | — | — | — | [[sources/song2024-crvi-hplc-icpms-food-reduction\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 1.2–2.5 | 3.0 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0–6.4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 25–39.2 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 7.8–13.8 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | data gap | — | — | — |
+| Ni | n=2 | 150–220 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | n=2 | 1.2–2.5 | high | — |
 
 ## Synthesis basis and censoring treatment
 

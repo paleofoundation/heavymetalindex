@@ -126,18 +126,18 @@ The FDA FY2018-FY2020 TDS data for raw banana (TDS Food 80, n=27) show that bana
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=5 | 0 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|2]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|3]] |
-| Cd | n=5 | 0 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|2]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|3]] |
-| iAs | n=1 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tAs | n=3 | 0 | 0 | medium | [[sources/garuba2024-heavy-metals-commercial-baby-foods\|1]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | data gap | — | — | — | — |
-| Ni | n=3 | 0–57 | 109.9 | high | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
-| Al | n=1 | 0 | 0 | low | [[sources/garuba2024-heavy-metals-commercial-baby-foods\|1]] |
-| Cr | n=4 | 0 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Sn | n=1 | 1.5–13.4 | 14.2 | low | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|2]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|3]] |
+| Cd | n=5 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|2]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|3]] |
+| iAs | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=3 | 0 | medium | [[sources/garuba2024-heavy-metals-commercial-baby-foods\|1]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | data gap | — | — | — |
+| Ni | n=3 | 0–57 | high | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Al | n=1 | 0 | low | [[sources/garuba2024-heavy-metals-commercial-baby-foods\|1]] |
+| Cr | n=4 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Sn | n=1 | 1.5–13.4 | low | — |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

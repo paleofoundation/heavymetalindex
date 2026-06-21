@@ -125,18 +125,18 @@ The spices-as-a-category accumulation pathways compound: soil uptake into the li
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=8 | 100–3000 | — | high | [[sources/chime2025-nigerian-spices-as-cd-pb\|1]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|2]], [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|3]] |
-| Cd | n=6 | 30–500 | — | high | [[sources/chime2025-nigerian-spices-as-cd-pb\|1]], [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|2]], [[sources/spex2023-hot-sauce-chili-powder-metals\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=5 | 20–500 | — | medium | [[sources/chime2025-nigerian-spices-as-cd-pb\|1]], [[sources/spex2023-hot-sauce-chili-powder-metals\|2]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|3]] |
-| tHg | n=3 | 1–50 | — | medium | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
-| Ni | n=2 | 200–3000 | — | low | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]] |
-| Al | n=2 | 1000–20000 | — | low | — |
-| Cr | n=2 | 50–1000 | — | low | [[sources/spex2023-hot-sauce-chili-powder-metals\|1]] |
-| Sn | n=1 | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=8 | 100–3000 | high | [[sources/chime2025-nigerian-spices-as-cd-pb\|1]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|2]], [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|3]] |
+| Cd | n=6 | 30–500 | high | [[sources/chime2025-nigerian-spices-as-cd-pb\|1]], [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|2]], [[sources/spex2023-hot-sauce-chili-powder-metals\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=5 | 20–500 | medium | [[sources/chime2025-nigerian-spices-as-cd-pb\|1]], [[sources/spex2023-hot-sauce-chili-powder-metals\|2]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|3]] |
+| tHg | n=3 | 1–50 | medium | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
+| Ni | n=2 | 200–3000 | low | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]] |
+| Al | n=2 | 1000–20000 | low | — |
+| Cr | n=2 | 50–1000 | low | [[sources/spex2023-hot-sauce-chili-powder-metals\|1]] |
+| Sn | n=1 | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

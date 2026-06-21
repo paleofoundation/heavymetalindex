@@ -125,18 +125,18 @@ Cabbage takes metals from soil predominantly through root uptake, with brassicas
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 10–200 | 500 | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria\|3]] |
-| Cd | n=4 | 10–100 | 250 | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 5–50 | — | low | — |
-| tHg | n=1 | 0–10 | — | low | [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria\|1]] |
-| Ni | n=2 | 50–800 | — | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria\|2]] |
-| Al | n=1 | — | — | — | — |
-| Cr | n=3 | 10–300 | — | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/reczajska2005-chromium-plant-foods-poland\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 10–200 | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria\|3]] |
+| Cd | n=4 | 10–100 | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 5–50 | low | — |
+| tHg | n=1 | 0–10 | low | [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria\|1]] |
+| Ni | n=2 | 50–800 | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria\|2]] |
+| Al | n=1 | — | — | — |
+| Cr | n=3 | 10–300 | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/reczajska2005-chromium-plant-foods-poland\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

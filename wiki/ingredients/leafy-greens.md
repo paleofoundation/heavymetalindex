@@ -118,18 +118,18 @@ This is a structural ingredient node created so product pages can link to a real
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=19 | 5–200 | 610 | high | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/chiutula2025-wastewater-vegetables-malawi\|3]] |
-| Cd | n=22 | 5–150 | 400 | high | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/chiutula2025-wastewater-vegetables-malawi\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=11 | 5–250 | 410 | high | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
-| tHg | n=6 | 1–15 | 50 | medium | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
-| Ni | n=13 | 35–560 | 3465 | high | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
-| Al | n=3 | 1000–50000 | 150000 | medium | [[sources/adhikari2024-leafy-vegetables-johannesburg\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| Cr | n=15 | 10–560 | 1551 | high | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
-| Sn | n=2 | 0–10 | — | low | [[sources/fera2015-uk-tds-metals\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=19 | 5–200 | high | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/chiutula2025-wastewater-vegetables-malawi\|3]] |
+| Cd | n=22 | 5–150 | high | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/chiutula2025-wastewater-vegetables-malawi\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=11 | 5–250 | high | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| tHg | n=6 | 1–15 | medium | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Ni | n=13 | 35–560 | high | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
+| Al | n=3 | 1000–50000 | medium | [[sources/adhikari2024-leafy-vegetables-johannesburg\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Cr | n=15 | 10–560 | high | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
+| Sn | n=2 | 0–10 | low | [[sources/fera2015-uk-tds-metals\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| U | data gap | — | — | — |
 
 ## Routing
 

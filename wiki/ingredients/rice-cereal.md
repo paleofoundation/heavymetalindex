@@ -118,18 +118,18 @@ This is a structural ingredient node created so product pages can link to a real
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=6 | 5–20 | 170 | medium | [[sources/fda-ctz-Pb-babyfood-2025\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/price2023-biokinetic-lead-baby-food-blls\|3]] |
-| Cd | n=4 | 10–60 | 190 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
-| iAs | n=6 | 80–200 | 323 | high | [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|1]], [[sources/fda-iAs-rice-cereal-2020\|2]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|3]] |
-| tAs | n=5 | 100–300 | 400 | high | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
-| tHg | n=3 | 0–2 | — | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|2]], [[sources/codex-cxs-193-1995\|3]] |
-| Ni | data gap | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | data gap | — | — | — | — |
-| Sn | n=2 | 0–50 | — | low | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 5–20 | medium | [[sources/fda-ctz-Pb-babyfood-2025\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/price2023-biokinetic-lead-baby-food-blls\|3]] |
+| Cd | n=4 | 10–60 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
+| iAs | n=6 | 80–200 | high | [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|1]], [[sources/fda-iAs-rice-cereal-2020\|2]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|3]] |
+| tAs | n=5 | 100–300 | high | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
+| tHg | n=3 | 0–2 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|2]], [[sources/codex-cxs-193-1995\|3]] |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | n=2 | 0–50 | low | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| U | data gap | — | — | — |
 
 ## Routing
 

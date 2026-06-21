@@ -133,18 +133,18 @@ Lamb chop is skeletal muscle from young sheep, and its metal contamination profi
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | <4–30 | 100 | medium | [[sources/gorbanov2025-lamb-meat-snacks-metals\|1]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|2]], [[sources/altalib2025-frozen-meat-libya\|3]] |
-| Cd | n=4 | <1–2 | 10 | medium | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/gorbanov2025-lamb-meat-snacks-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=3 | <3–10 | 10 | low | [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|1]], [[sources/gorbanov2025-lamb-meat-snacks-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=2 | <1–30 | 30 | low | [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Ni | n=1 | <40 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | <50–25 | 83 | low | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 0–30 | medium | [[sources/gorbanov2025-lamb-meat-snacks-metals\|1]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|2]], [[sources/altalib2025-frozen-meat-libya\|3]] |
+| Cd | n=4 | 0–2 | medium | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/gorbanov2025-lamb-meat-snacks-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=3 | 0–10 | low | [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|1]], [[sources/gorbanov2025-lamb-meat-snacks-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=2 | 0–30 | low | [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Ni | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0–25 | low | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

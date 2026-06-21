@@ -129,18 +129,18 @@ The FDA TDS FY2018-FY2020 data for peeled raw cucumber (n=27 composites, TDS Foo
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=5 | <4–98 | 112 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/mohammadi2025-iran-carrot-cucumber-metals\|2]], [[sources/alimohammadi2018-tehran-supermarket-vegetables\|3]] |
-| Cd | n=3 | 0–2.4 | 2.9 | high | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| iAs | n=1 | 0.5–680.2 | 774.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tAs | n=2 | 3.6–20 | 20.7 | high | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| tHg | n=3 | <1–2.3 | 2.3 | low | [[sources/li2017-mercury-vegetables-grains-coal-power-china\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Ni | n=3 | 0 | 28 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | n=1 | 0–703 | 827 | medium | — |
-| Cr | n=4 | <50–175 | 222 | low | [[sources/mohammadi2025-iran-carrot-cucumber-metals\|1]], [[sources/alimohammadi2018-tehran-supermarket-vegetables\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
-| Sn | n=1 | 0–10.1 | 20.1 | medium | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 0–98 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/mohammadi2025-iran-carrot-cucumber-metals\|2]], [[sources/alimohammadi2018-tehran-supermarket-vegetables\|3]] |
+| Cd | n=3 | 0–2.4 | high | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| iAs | n=1 | 0.5–680.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=2 | 3.6–20 | high | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| tHg | n=3 | 0–2.3 | low | [[sources/li2017-mercury-vegetables-grains-coal-power-china\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Ni | n=3 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | n=1 | 0–703 | medium | — |
+| Cr | n=4 | 0–175 | low | [[sources/mohammadi2025-iran-carrot-cucumber-metals\|1]], [[sources/alimohammadi2018-tehran-supermarket-vegetables\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
+| Sn | n=1 | 0–10.1 | medium | — |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

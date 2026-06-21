@@ -117,18 +117,18 @@ Wild mushrooms, as distinct from cultivated mushrooms, are identified by [[sourc
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 200–1200 | 2600 | medium | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|1]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|2]], [[sources/orywal2021-heavy-metals-dried-mushrooms\|3]] |
-| Cd | n=5 | 400–2000 | 4000 | medium | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|1]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|2]], [[sources/orywal2021-heavy-metals-dried-mushrooms\|3]] |
-| iAs | n=2 | 50–200 | 400 | low | [[sources/walenta2024-arsenic-speciation-mushrooms\|1]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|2]] |
-| tAs | n=5 | 280–900 | 1500 | low | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|1]], [[sources/walenta2024-arsenic-speciation-mushrooms\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
-| tHg | n=3 | 100–3000 | 5000 | low | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|1]], [[sources/braeuer2022-mercury-selenium-mushrooms-la-icpms\|2]], [[sources/orywal2021-heavy-metals-dried-mushrooms\|3]] |
-| Ni | data gap | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | data gap | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 200–1200 | medium | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|1]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|2]], [[sources/orywal2021-heavy-metals-dried-mushrooms\|3]] |
+| Cd | n=5 | 400–2000 | medium | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|1]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|2]], [[sources/orywal2021-heavy-metals-dried-mushrooms\|3]] |
+| iAs | n=2 | 50–200 | low | [[sources/walenta2024-arsenic-speciation-mushrooms\|1]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|2]] |
+| tAs | n=5 | 280–900 | low | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|1]], [[sources/walenta2024-arsenic-speciation-mushrooms\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
+| tHg | n=3 | 100–3000 | low | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|1]], [[sources/braeuer2022-mercury-selenium-mushrooms-la-icpms\|2]], [[sources/orywal2021-heavy-metals-dried-mushrooms\|3]] |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates cadmium
 

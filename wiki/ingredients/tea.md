@@ -125,18 +125,18 @@ Tea's heavy-metals profile is shaped by three interacting factors: soil chemistr
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=8 | 100–2000 | 5000 | high | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|1]], [[sources/lee2019-food-processing-heavy-metals-migration\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
-| Cd | n=8 | 20–200 | 500 | high | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|1]], [[sources/lee2019-food-processing-heavy-metals-migration\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
-| iAs | n=1 | — | — | — | — |
-| tAs | n=5 | 10–300 | — | medium | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|1]], [[sources/lee2019-food-processing-heavy-metals-migration\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
-| tHg | n=4 | 1–30 | — | medium | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| Ni | n=3 | 1000–8000 | — | medium | [[sources/bfr2022-nickel-dietary-intake-germany-meal\|1]] |
-| Al | n=6 | 10000–100000 | 200000 | medium | [[sources/ozturk2024-al-tea-infusion-teapot\|1]], [[sources/efsa2021-aluminium-food-qa\|2]], [[sources/lee2019-food-processing-heavy-metals-migration\|3]] |
-| Cr | n=3 | 100–2000 | — | low | [[sources/song2024-crvi-hplc-icpms-food-reduction\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| Sn | n=2 | 80–130 | 490 | low | [[sources/ye2026-tin-foods-dietary-exposure-zhejiang\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=8 | 100–2000 | high | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|1]], [[sources/lee2019-food-processing-heavy-metals-migration\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
+| Cd | n=8 | 20–200 | high | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|1]], [[sources/lee2019-food-processing-heavy-metals-migration\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
+| iAs | n=1 | — | — | — |
+| tAs | n=5 | 10–300 | medium | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|1]], [[sources/lee2019-food-processing-heavy-metals-migration\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
+| tHg | n=4 | 1–30 | medium | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| Ni | n=3 | 1000–8000 | medium | [[sources/bfr2022-nickel-dietary-intake-germany-meal\|1]] |
+| Al | n=6 | 10000–100000 | medium | [[sources/ozturk2024-al-tea-infusion-teapot\|1]], [[sources/efsa2021-aluminium-food-qa\|2]], [[sources/lee2019-food-processing-heavy-metals-migration\|3]] |
+| Cr | n=3 | 100–2000 | low | [[sources/song2024-crvi-hplc-icpms-food-reduction\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| Sn | n=2 | 80–130 | low | [[sources/ye2026-tin-foods-dietary-exposure-zhejiang\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

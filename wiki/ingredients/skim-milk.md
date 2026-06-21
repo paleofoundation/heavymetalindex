@@ -133,18 +133,18 @@ Skim milk (also known as fat-free or nonfat milk) is fluid cow milk from which e
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | <1 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]] |
-| Cd | n=1 | <1 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | <1–27 | — | low | [[sources/arellano2023-dairy-products-arsenic-argentina\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| tHg | n=3 | <1–2 | 10 | low | [[sources/starska2011-noxious-elements-milk-products-poland\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Ni | n=1 | <20 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 6–12 | — | low | [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]] |
+| Cd | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0–27 | low | [[sources/arellano2023-dairy-products-arsenic-argentina\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| tHg | n=3 | 0–2 | low | [[sources/starska2011-noxious-elements-milk-products-poland\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Ni | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 6–12 | low | [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

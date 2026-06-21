@@ -206,18 +206,18 @@ This page is an autonomy-created stub. The routing audit identified ${entry.coun
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb  | pending | — | — | — |
+| Cd  | pending | — | — | — |
+| iAs | pending | — | — | — |
+| tAs | pending | — | — | — |
+| tHg | pending | — | — | — |
+| Ni  | pending | — | — | — |
+| Al  | pending | — | — | — |
+| Cr  | pending | — | — | — |
+| Sn  | pending | — | — | — |
+| U   | pending | — | — | — |
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

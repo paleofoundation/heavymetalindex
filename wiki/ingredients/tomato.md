@@ -126,18 +126,18 @@ Tomato is a botanical fruit grown close to the soil surface, and its metal burde
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=6 | 0–80 | 240 | medium | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|1]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|2]], [[sources/heshmati2020-iran-vegetables-cereals-pb-cd\|3]] |
-| Cd | n=9 | 0.6–6.7 | 7.2 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=4 | 0 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=3 | 0 | 0 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/li2017-mercury-vegetables-grains-coal-power-china\|3]] |
-| Ni | n=4 | 16–230 | 250 | low | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|1]], [[sources/fatai2024-african-spinach-tomato-nigeria\|2]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|3]] |
-| Al | data gap | — | — | — | — |
-| Cr (total) | n=4 | 32–410 | 410 | low | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]], [[sources/fatai2024-african-spinach-tomato-nigeria\|3]] |
-| Sn | n=3 | 50–400 | 600 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/kangre2024-canned-tomato-pb-sn-ghana\|2]], [[sources/muniz2018-tomato-sauce-packaging-metals\|3]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 0–80 | medium | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|1]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|2]], [[sources/heshmati2020-iran-vegetables-cereals-pb-cd\|3]] |
+| Cd | n=9 | 0.6–6.7 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=3 | 0 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/li2017-mercury-vegetables-grains-coal-power-china\|3]] |
+| Ni | n=4 | 16–230 | low | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|1]], [[sources/fatai2024-african-spinach-tomato-nigeria\|2]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=4 | 32–410 | low | — |
+| Sn | n=3 | 50–400 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/kangre2024-canned-tomato-pb-sn-ghana\|2]], [[sources/muniz2018-tomato-sauce-packaging-metals\|3]] |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

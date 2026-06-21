@@ -44,18 +44,18 @@ This page is an autonomy-created stub. The routing audit identified 2 source pag
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | — | — | — | — | — |
-| Cd | — | — | — | — | — |
-| iAs | — | — | — | — | — |
-| tAs | — | — | — | — | — |
-| tHg | — | — | — | — | — |
-| Ni | — | — | — | — | — |
-| Al | — | — | — | — | — |
-| Cr | — | — | — | — | — |
-| Sn | — | — | — | — | — |
-| U | — | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | — | — | — | — |
+| Cd | — | — | — | — |
+| iAs | — | — | — | — |
+| tAs | — | — | — | — |
+| tHg | — | — | — | — |
+| Ni | — | — | — | — |
+| Al | — | — | — | — |
+| Cr | — | — | — | — |
+| Sn | — | — | — | — |
+| U | — | — | — | — |
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

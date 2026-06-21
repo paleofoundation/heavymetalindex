@@ -117,18 +117,18 @@ Rice is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and 
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=5 | 2–40 | 110 | medium | [[sources/huang2022-pb-cd-rice-china-meta\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Cd | n=8 | 4–40 | 160 | high | [[sources/huang2022-pb-cd-rice-china-meta\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/bandara2010-cadmium-rice-sri-lanka-crf\|3]] |
-| iAs | n=8 | 40–150 | 190 | high | [[sources/meharg2009-geographic-variation-arsenic-white-rice\|1]], [[sources/cr-fsasc2014-arsenic-rice-grains\|2]], [[sources/yan2025-rice-heavy-metals-henan-china\|3]] |
-| tAs | n=6 | 90–250 | 350 | high | [[sources/meharg2009-geographic-variation-arsenic-white-rice\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=5 | 0.5–6 | 20 | medium | [[sources/brombach2017-methylmercury-european-commercial-rice\|1]], [[sources/palmieri2020-mercury-rice\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Ni | n=23 | 80–450 | — | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
-| Al | n=11 | 200–1500 | — | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|3]] |
-| Cr | n=3 | 0–30 | 50 | low | [[sources/yan2025-rice-heavy-metals-henan-china\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/tatahmentan2020-rice-grains-elements\|3]] |
-| Sn | n=11 | 0–20 | — | high | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/du2025-infant-thickener-urinary-arsenic\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 2–40 | medium | [[sources/huang2022-pb-cd-rice-china-meta\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Cd | n=8 | 4–40 | high | [[sources/huang2022-pb-cd-rice-china-meta\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/bandara2010-cadmium-rice-sri-lanka-crf\|3]] |
+| iAs | n=8 | 40–150 | high | [[sources/meharg2009-geographic-variation-arsenic-white-rice\|1]], [[sources/cr-fsasc2014-arsenic-rice-grains\|2]], [[sources/yan2025-rice-heavy-metals-henan-china\|3]] |
+| tAs | n=6 | 90–250 | high | [[sources/meharg2009-geographic-variation-arsenic-white-rice\|1]], [[sources/tatahmentan2020-rice-grains-elements\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=5 | 0.5–6 | medium | [[sources/brombach2017-methylmercury-european-commercial-rice\|1]], [[sources/palmieri2020-mercury-rice\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Ni | n=23 | 80–450 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Al | n=11 | 200–1500 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|3]] |
+| Cr | n=3 | 0–30 | low | [[sources/yan2025-rice-heavy-metals-henan-china\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/tatahmentan2020-rice-grains-elements\|3]] |
+| Sn | n=11 | 0–20 | high | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/du2025-infant-thickener-urinary-arsenic\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

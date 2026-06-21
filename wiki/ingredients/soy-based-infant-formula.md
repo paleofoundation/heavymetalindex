@@ -140,18 +140,18 @@ Soy-based formula is medically indicated for infants with cow-milk-protein aller
 
 The body-level analyte snapshot for soy-based formula follows the per-format pages: see [[products/infant-formula-powder-soy-based]] and [[products/infant-formula-rtf-liquid-soy-based]] for the format-specific concentration tables. The dominant analytes of concern (Al, Ni, Cd) reflect the soy-protein-isolate inheritance described above; the contributing sources documented in the Source legend collectively establish the multi-fold Al elevation versus cow-milk formula.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | data gap | — | — | — | — |
-| Cd | data gap | — | — | — | — |
-| iAs | n=3 | 7–12 | 12 | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|5]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|4]], [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]] |
-| tAs | n=4 | 7–12 | 12 | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|5]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|4]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|3]] |
-| tHg | data gap | — | — | — | — |
-| Ni | data gap | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | data gap | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | data gap | — | — | — |
+| Cd | data gap | — | — | — |
+| iAs | n=3 | 7–12 | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|5]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|4]], [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]] |
+| tAs | n=4 | 7–12 | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|5]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|4]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|3]] |
+| tHg | data gap | — | — | — |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

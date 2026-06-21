@@ -132,18 +132,18 @@ Green beans (Phaseolus vulgaris) are a leguminous pod vegetable harvested at an 
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | 0–4 | 4.1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|3]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/hossain2016-bangladesh-vegetables-pb-cd-cr\|5]] |
-| Cd | n=2 | 0–1.9 | 2.1 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 0 | 2.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|3]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]] |
-| Ni | n=2 | 0–428 | 498 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 0 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|3]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 0.7 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 0–4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|3]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/hossain2016-bangladesh-vegetables-pb-cd-cr\|5]] |
+| Cd | n=2 | 0–1.9 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|3]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]] |
+| Ni | n=2 | 0–428 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|3]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | high | — |
 
 ## Synthesis basis and censoring treatment
 

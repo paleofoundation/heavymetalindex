@@ -122,18 +122,18 @@ Rice cakes are produced by puffing or compressing whole or milled rice under hea
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 0–10.6 | 15.8 | high | — |
-| Cd | n=1 | 0–22.0 | 32.5 | high | — |
-| iAs | n=1 | 46.5–132.5 | 150 | medium | [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants\|1]] |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–1.2 | 1.9 | medium | — |
-| Ni | data gap | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | data gap | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–10.6 | high | — |
+| Cd | n=1 | 0–22.0 | high | — |
+| iAs | n=1 | 46.5–132.5 | medium | [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants\|1]] |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–1.2 | medium | — |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

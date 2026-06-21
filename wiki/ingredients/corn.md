@@ -135,18 +135,18 @@ Arsenic in corn is typically low: the FDA TDS FY2018-FY2020 data report total ar
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=9 | <4–60 | 130 | medium | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/ataee2016-iran-cereals-pb-cd\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
-| Cd | n=18 | 1.4–3.5 | 3.8 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hassan2025-cornflakes-lebanon-metals\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=4 | <3–7 | 10 | low | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/abatemi-usman2023-corn-cement-nigeria\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=3 | <1–1 | 18 | low | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/gu2019-maize-peanut-heavy-metals-guangxi\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Ni | n=8 | 0–54.4 | 60.1 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abatemi-usman2023-corn-cement-nigeria\|3]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=5 | <50–256 | 740 | low | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/pirsaheb2015-iran-kermanshah-cereals-metals\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=9 | 0–60 | medium | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/ataee2016-iran-cereals-pb-cd\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
+| Cd | n=18 | 1.4–3.5 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hassan2025-cornflakes-lebanon-metals\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 0–7 | low | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/abatemi-usman2023-corn-cement-nigeria\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=3 | 0–1 | low | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/gu2019-maize-peanut-heavy-metals-guangxi\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Ni | n=8 | 0–54.4 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abatemi-usman2023-corn-cement-nigeria\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=5 | 0–256 | low | [[sources/liang2019-beijing-foodstuffs-health-risk\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/pirsaheb2015-iran-kermanshah-cereals-metals\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

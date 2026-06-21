@@ -135,18 +135,18 @@ Feed composition is the primary determinant of pork muscle metal content. Commer
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | <4–38 | 38 | low | [[sources/wang2020-jilin-total-diet-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|3]] |
-| Cd | n=3 | <1–8 | 8 | low | [[sources/wang2020-jilin-total-diet-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=3 | <3–18 | 18 | low | [[sources/wang2020-jilin-total-diet-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|3]] |
-| tHg | n=2 | <1 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|2]] |
-| Ni | n=1 | <40 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 | <50 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 0–38 | low | [[sources/wang2020-jilin-total-diet-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|3]] |
+| Cd | n=3 | 0–8 | low | [[sources/wang2020-jilin-total-diet-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=3 | 0–18 | low | [[sources/wang2020-jilin-total-diet-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|3]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|2]] |
+| Ni | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

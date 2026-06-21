@@ -133,18 +133,18 @@ Reduced-fat milk is fluid cow milk from which a portion of the milk fat has been
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | <1–17 | 30 | medium | [[sources/starska2011-noxious-elements-milk-products-poland\|1]], [[sources/salaheldin2025-multimatrix-foods-egypt\|2]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|3]] |
-| Cd | n=3 | <1–27 | 45 | medium | [[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals\|1]], [[sources/salaheldin2025-multimatrix-foods-egypt\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=3 | <1–43 | 80 | medium | [[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]], [[sources/salaheldin2025-multimatrix-foods-egypt\|3]] |
-| tHg | n=2 | <1–2 | 10 | low | [[sources/starska2011-noxious-elements-milk-products-poland\|1]], [[sources/pankiewicz2012-thg-dairy-products-poland\|2]] |
-| Ni | n=1 | <20 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 | 3–8 | — | low | [[sources/salaheldin2025-multimatrix-foods-egypt\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 0–17 | medium | [[sources/starska2011-noxious-elements-milk-products-poland\|1]], [[sources/salaheldin2025-multimatrix-foods-egypt\|2]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|3]] |
+| Cd | n=3 | 0–27 | medium | [[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals\|1]], [[sources/salaheldin2025-multimatrix-foods-egypt\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=3 | 0–43 | medium | [[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]], [[sources/salaheldin2025-multimatrix-foods-egypt\|3]] |
+| tHg | n=2 | 0–2 | low | [[sources/starska2011-noxious-elements-milk-products-poland\|1]], [[sources/pankiewicz2012-thg-dairy-products-poland\|2]] |
+| Ni | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=1 | 3–8 | low | [[sources/salaheldin2025-multimatrix-foods-egypt\|1]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

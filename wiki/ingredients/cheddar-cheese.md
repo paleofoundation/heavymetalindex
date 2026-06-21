@@ -151,18 +151,18 @@ Aluminium, tin, inorganic arsenic, and uranium were outside the scope of this re
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | <4–50 | 250 | medium | [[sources/hasan2021-bangladesh-dairy-trace-elements\|1]], [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|2]], [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|3]] |
-| Cd | n=4 | <1–30 | 120 | medium | [[sources/hasan2021-bangladesh-dairy-trace-elements\|1]], [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|2]], [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=3 | <3–21 | 90 | medium | [[sources/arellano2023-dairy-products-arsenic-argentina\|1]], [[sources/hasan2021-bangladesh-dairy-trace-elements\|2]], [[sources/erol2025-turkish-cheese-metals\|3]] |
-| tHg | n=2 | <1–1 | — | low | [[sources/pankiewicz2012-thg-dairy-products-poland\|1]], [[sources/erol2025-turkish-cheese-metals\|2]] |
-| Ni | n=2 | <40–150 | — | low | [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|1]], [[sources/erol2025-turkish-cheese-metals\|2]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=3 | <50–80 | — | low | [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|1]], [[sources/erol2025-turkish-cheese-metals\|2]], [[sources/hasan2021-bangladesh-dairy-trace-elements\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0–1.2 | 1.3 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 0–50 | medium | [[sources/hasan2021-bangladesh-dairy-trace-elements\|1]], [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|2]], [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|3]] |
+| Cd | n=4 | 0–30 | medium | [[sources/hasan2021-bangladesh-dairy-trace-elements\|1]], [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|2]], [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=3 | 0–21 | medium | [[sources/arellano2023-dairy-products-arsenic-argentina\|1]], [[sources/hasan2021-bangladesh-dairy-trace-elements\|2]], [[sources/erol2025-turkish-cheese-metals\|3]] |
+| tHg | n=2 | 0–1 | low | [[sources/pankiewicz2012-thg-dairy-products-poland\|1]], [[sources/erol2025-turkish-cheese-metals\|2]] |
+| Ni | n=2 | 0–150 | low | [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|1]], [[sources/erol2025-turkish-cheese-metals\|2]] |
+| Al | data gap | — | — | — |
+| Cr | n=3 | 0–80 | low | [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|1]], [[sources/erol2025-turkish-cheese-metals\|2]], [[sources/hasan2021-bangladesh-dairy-trace-elements\|3]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0–1.2 | high | — |
 
 ## Routing
 

@@ -118,18 +118,18 @@ This is a structural ingredient node created so product pages can link to a real
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=19 | 50–2000 | 3583 | high | [[sources/porwollik2026-rhodiola-supplements-us-market\|1]], [[sources/rylander2025-georgia-children-blood-lead\|2]], [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|3]] |
-| Cd | n=17 | 20–450 | 985 | high | [[sources/porwollik2026-rhodiola-supplements-us-market\|1]], [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=14 | 50–1000 | 14012 | high | [[sources/porwollik2026-rhodiola-supplements-us-market\|1]], [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
-| tHg | n=10 | 3–33 | 107 | medium | [[sources/porwollik2026-rhodiola-supplements-us-market\|1]], [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|2]], [[sources/moussa2024-spices-herbs-lebanon\|3]] |
-| Ni | n=4 | 8000–200000 | — | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/salmani2023-herbal-teas-metals-review\|3]] |
-| Al | n=3 | 245–500 | — | medium | [[sources/adhikari2024-leafy-vegetables-johannesburg\|1]], [[sources/salmani2023-herbal-teas-metals-review\|2]], [[sources/zafeiraki2021-hemp-cannabis-metals-greece\|3]] |
-| Cr | n=7 | 337–1686 | 7886 | medium | [[sources/troeschel2024-cinnamon-applesauce-lead\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=19 | 50–2000 | high | [[sources/porwollik2026-rhodiola-supplements-us-market\|1]], [[sources/rylander2025-georgia-children-blood-lead\|2]], [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|3]] |
+| Cd | n=17 | 20–450 | high | [[sources/porwollik2026-rhodiola-supplements-us-market\|1]], [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=14 | 50–1000 | high | [[sources/porwollik2026-rhodiola-supplements-us-market\|1]], [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| tHg | n=10 | 3–33 | medium | [[sources/porwollik2026-rhodiola-supplements-us-market\|1]], [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|2]], [[sources/moussa2024-spices-herbs-lebanon\|3]] |
+| Ni | n=4 | 8000–200000 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/salmani2023-herbal-teas-metals-review\|3]] |
+| Al | n=3 | 245–500 | medium | [[sources/adhikari2024-leafy-vegetables-johannesburg\|1]], [[sources/salmani2023-herbal-teas-metals-review\|2]], [[sources/zafeiraki2021-hemp-cannabis-metals-greece\|3]] |
+| Cr | n=7 | 337–1686 | medium | [[sources/troeschel2024-cinnamon-applesauce-lead\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

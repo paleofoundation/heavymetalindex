@@ -94,18 +94,18 @@ const PLACEHOLDER_BY_SECTION = {
 function buildContaminationTable(slug, kind) {
   return `_Pending synthesis. The per-analyte concentration table for this commodity will be populated as contributing sources accumulate per CLAUDE.md Part 9. Stub state until then._
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |`
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb  | pending | — | — | — |
+| Cd  | pending | — | — | — |
+| iAs | pending | — | — | — |
+| tAs | pending | — | — | — |
+| tHg | pending | — | — | — |
+| Ni  | pending | — | — | — |
+| Al  | pending | — | — | — |
+| Cr  | pending | — | — | — |
+| Sn  | pending | — | — | — |
+| U   | pending | — | — | — |`
 }
 
 const ingredientFailures = []

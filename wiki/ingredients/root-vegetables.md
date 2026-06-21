@@ -122,18 +122,18 @@ Root vegetables are a broad category of edible plant storage organs that develop
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=10 | 9.5–27.5 | 28.4 | medium | [[sources/albishi2026-cassava-flour-biofortification\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
-| Cd | n=13 | 0–41 | 57 | high | [[sources/albishi2026-cassava-flour-biofortification\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
-| iAs | n=2 | 3.3–239.4 | 384.2 | low | [[sources/sadee2023-arsenic-speciation-vegetables\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| tAs | n=8 | 5–50 | 150 | medium | [[sources/albishi2026-cassava-flour-biofortification\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
-| tHg | n=5 | 0–0.9 | 1.3 | medium | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/li2017-mercury-vegetables-grains-coal-power-china\|3]] |
-| Ni | n=6 | 400–1600 | 24700 | medium | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
-| Al | n=1 | 0–1340 | 1468 | medium | [[sources/khan2015-heavy-metals-food-plants-bioaccumulation\|1]] |
-| Cr | n=7 | 50–1500 | 13500 | medium | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/albishi2026-cassava-flour-biofortification\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
-| Sn | n=2 | 0–67.7 | 73.7 | low | [[sources/ye2026-tin-foods-dietary-exposure-zhejiang\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=10 | 9.5–27.5 | medium | [[sources/albishi2026-cassava-flour-biofortification\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
+| Cd | n=13 | 0–41 | high | [[sources/albishi2026-cassava-flour-biofortification\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
+| iAs | n=2 | 3.3–239.4 | low | [[sources/sadee2023-arsenic-speciation-vegetables\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| tAs | n=8 | 5–50 | medium | [[sources/albishi2026-cassava-flour-biofortification\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
+| tHg | n=5 | 0–0.9 | medium | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/li2017-mercury-vegetables-grains-coal-power-china\|3]] |
+| Ni | n=6 | 400–1600 | medium | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|3]] |
+| Al | n=1 | 0–1340 | medium | [[sources/khan2015-heavy-metals-food-plants-bioaccumulation\|1]] |
+| Cr | n=7 | 50–1500 | medium | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/albishi2026-cassava-flour-biofortification\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
+| Sn | n=2 | 0–67.7 | low | [[sources/ye2026-tin-foods-dietary-exposure-zhejiang\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| U | data gap | — | — | — |
 
 ## Routing
 

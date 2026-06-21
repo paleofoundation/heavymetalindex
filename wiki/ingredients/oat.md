@@ -118,18 +118,18 @@ This is a structural ingredient node created so product pages can link to a real
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=5 | 10–100 | 400 | medium | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
-| Cd | n=4 | 10–100 | 310 | medium | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 10–100 | 600 | low | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|2]] |
-| tHg | data gap | — | — | — | — |
-| Ni | n=5 | 300–1000 | 1970 | medium | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|2]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|3]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 10–100 | 5400 | low | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0–1 | — | low | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]] |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 10–100 | medium | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
+| Cd | n=4 | 10–100 | medium | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 10–100 | low | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|2]] |
+| tHg | data gap | — | — | — |
+| Ni | n=5 | 300–1000 | medium | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|2]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 10–100 | low | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|2]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0–1 | low | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]] |
 
 ## Routing
 

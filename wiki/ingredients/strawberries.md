@@ -126,18 +126,18 @@ Strawberries (Fragaria x ananassa and related species) are a low-accumulation fr
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | 0 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
-| Cd | n=4 | 2.1–15 | 17.8 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
-| iAs | n=1 | 21.4–66.3 | 75.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tAs | n=3 | 0–5.7 | 6.0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
-| tHg | n=2 | 0–2 | 5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]] |
-| Ni | n=3 | 0–64 | 70.5 | high | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Al | n=1 | 236.5–1665 | 1668 | low | — |
-| Cr | n=2 | 6–32 | 56 | low | [[sources/reczajska2005-chromium-plant-foods-poland\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|3]] |
-| Sn | n=1 | 0–14.1 | 14.5 | low | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|1]] |
-| U | n=2 | 0 | 0.8 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
+| Cd | n=4 | 2.1–15 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
+| iAs | n=1 | 21.4–66.3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=3 | 0–5.7 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
+| tHg | n=2 | 0–2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]] |
+| Ni | n=3 | 0–64 | high | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Al | n=1 | 236.5–1665 | low | — |
+| Cr | n=2 | 6–32 | low | [[sources/reczajska2005-chromium-plant-foods-poland\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|3]] |
+| Sn | n=1 | 0–14.1 | low | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|1]] |
+| U | n=2 | 0 | high | — |
 
 ## Synthesis basis and censoring treatment
 

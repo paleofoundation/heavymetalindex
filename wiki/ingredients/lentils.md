@@ -122,18 +122,18 @@ Lentils are small pulse legumes (Lens culinaris) with a pronounced capacity to a
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=8 | 13.8–46.3 | 47.2 | medium | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
-| Cd | n=11 | 0–10 | 18.3 | high | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
-| iAs | n=2 | 0 | 0 | low | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| tAs | n=6 | 10–50 | 100 | low | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
-| tHg | n=5 | 0–10 | 15 | medium | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
-| Ni | n=4 | 400–1500 | 2500 | low | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/galal2021-heavy-metals-pisum-sativum\|2]], [[sources/efsa-nickel-contam-2020\|3]] |
-| Al | n=1 | 4720–10765 | 13200 | medium | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]] |
-| Cr | n=4 | 100–900 | 1500 | low | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/henriksen2023-chromium-nordic-nnr\|3]] |
-| Sn | n=4 | 12.5–60.4 | 94.6 | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/valizadeh2023-canned-beans-iran-health-risk\|3]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=8 | 13.8–46.3 | medium | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Cd | n=11 | 0–10 | high | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| iAs | n=2 | 0 | low | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| tAs | n=6 | 10–50 | low | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| tHg | n=5 | 0–10 | medium | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
+| Ni | n=4 | 400–1500 | low | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/galal2021-heavy-metals-pisum-sativum\|2]], [[sources/efsa-nickel-contam-2020\|3]] |
+| Al | n=1 | 4720–10765 | medium | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]] |
+| Cr | n=4 | 100–900 | low | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/henriksen2023-chromium-nordic-nnr\|3]] |
+| Sn | n=4 | 12.5–60.4 | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/valizadeh2023-canned-beans-iran-health-risk\|3]] |
+| U | data gap | — | — | — |
 
 ## Routing
 

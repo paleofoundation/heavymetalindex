@@ -122,18 +122,18 @@ Wholemeal bread is the British English designation for bread made from flour tha
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 31.6–65.5 | 70.8 | low | — |
-| Cd | n=1 | 11–31 | 35.5 | low | — |
-| iAs | n=1 | 22.6–25 | 25 | low | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–1.7 | 2.1 | medium | — |
-| Ni | data gap | — | — | — | — |
-| Al | n=1 | 0–4292 | 6160 | high | — |
-| Cr | data gap | — | — | — | — |
-| Sn | n=1 | 0.7–6.0 | 6.4 | low | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 31.6–65.5 | low | — |
+| Cd | n=1 | 11–31 | low | — |
+| iAs | n=1 | 22.6–25 | low | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–1.7 | medium | — |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 0–4292 | high | — |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 0.7–6.0 | low | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

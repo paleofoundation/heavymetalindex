@@ -129,18 +129,18 @@ Ground beef accumulates trace metals primarily through the feed, water, and past
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | 0 | 0 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
-| Cd | n=3 | 0 | 0 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 1.9–5.9 | 6.1 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=4 | 0–4 | 80 | low | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/khalafalla2011-beef-carcasses-metals-egypt\|2]], [[sources/mohamed2023-heavy-metals-beef-egypt\|3]] |
-| Ni | n=2 | 0–18.8 | 47 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 0–90.4 | 100 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0–2.3 | 3.1 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 0 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
+| Cd | n=3 | 0 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 1.9–5.9 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=4 | 0–4 | low | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/khalafalla2011-beef-carcasses-metals-egypt\|2]], [[sources/mohamed2023-heavy-metals-beef-egypt\|3]] |
+| Ni | n=2 | 0–18.8 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0–90.4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0–2.3 | high | — |
 
 ## Synthesis basis and censoring treatment
 

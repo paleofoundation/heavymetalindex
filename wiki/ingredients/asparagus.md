@@ -132,18 +132,18 @@ Lead concentrations in asparagus are generally low in the TDS data: the p90 is 0
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0 | 3.0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 5.7–39.2 | 41.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 0–5.7 | 7.6 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | 0.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/who-gemsfood-heavy-metal-contaminants\|2]] |
-| Ni | n=2 | 59.8–204 | 210 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 0–390.5 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/who-gemsfood-heavy-metal-contaminants\|2]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0–1.2 | 1.4 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 5.7–39.2 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0–5.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/who-gemsfood-heavy-metal-contaminants\|2]] |
+| Ni | n=2 | 59.8–204 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0–390.5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/who-gemsfood-heavy-metal-contaminants\|2]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0–1.2 | high | — |
 
 ## Synthesis basis and censoring treatment
 

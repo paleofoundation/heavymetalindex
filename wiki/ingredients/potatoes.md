@@ -120,18 +120,18 @@ Potatoes are identified by [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] as 
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=5 | 0–31 | 200 | medium | [[sources/rempelos2023-vegetable-organic-conventional-metals\|1]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|2]], [[sources/sixto2023-potatoes-sweet-potatoes-metals\|3]] |
-| Cd | n=17 | 15–34 | 37.7 | high | [[sources/mohammadian-hafshejani2024-cadmium-prostate-cancer-meta\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
-| iAs | n=4 | 2–15 | 25 | low | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
-| tAs | n=9 | 0 | 2.7 | medium | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|3]] |
-| tHg | n=5 | 0 | 0 | medium | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]], [[sources/mawari2022-heavy-metals-fruits-vegetables-india\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Ni | n=8 | 0–48 | 79.4 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
-| Al | n=5 | 200–1000 | 2500 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
-| Cr | n=3 | 0–9 | 63 | low | [[sources/reczajska2005-chromium-plant-foods-poland\|1]], [[sources/stasinos2014-heavy-metals-tubers-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Sn | n=3 | 0–20 | 50 | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 0–31 | medium | [[sources/rempelos2023-vegetable-organic-conventional-metals\|1]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|2]], [[sources/sixto2023-potatoes-sweet-potatoes-metals\|3]] |
+| Cd | n=17 | 15–34 | high | [[sources/mohammadian-hafshejani2024-cadmium-prostate-cancer-meta\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
+| iAs | n=4 | 2–15 | low | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
+| tAs | n=9 | 0 | medium | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|3]] |
+| tHg | n=5 | 0 | medium | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]], [[sources/mawari2022-heavy-metals-fruits-vegetables-india\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Ni | n=8 | 0–48 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
+| Al | n=5 | 200–1000 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
+| Cr | n=3 | 0–9 | low | [[sources/reczajska2005-chromium-plant-foods-poland\|1]], [[sources/stasinos2014-heavy-metals-tubers-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Sn | n=3 | 0–20 | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

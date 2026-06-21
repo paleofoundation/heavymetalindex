@@ -122,18 +122,18 @@ Butternut squash is a cucurbit (Cucurbitaceae family) whose edible flesh is phys
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 0–6.5 | 7.3 | medium | — |
-| Cd | n=1 | 0.9–2.2 | 2.8 | medium | — |
-| iAs | n=1 | 5.2–43.2 | 45.6 | low | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–0.2 | 1 | high | — |
-| Ni | data gap | — | — | — | — |
-| Al | n=1 | 0–3215 | 3478 | medium | — |
-| Cr | data gap | — | — | — | — |
-| Sn | n=1 | 0–10.5 | 12.8 | medium | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–6.5 | medium | — |
+| Cd | n=1 | 0.9–2.2 | medium | — |
+| iAs | n=1 | 5.2–43.2 | low | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–0.2 | high | — |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 0–3215 | medium | — |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 0–10.5 | medium | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

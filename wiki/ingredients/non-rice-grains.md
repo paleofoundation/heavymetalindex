@@ -118,18 +118,18 @@ This is a structural ingredient node created so product pages can link to a real
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=11 | 10–80 | 200 | high | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/katebe2024-vegetables-lubumbashi\|3]] |
-| Cd | n=11 | 20–150 | 400 | high | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/katebe2024-vegetables-lubumbashi\|3]] |
-| iAs | n=4 | 5–30 | — | medium | [[sources/codex-cccf17-2024\|1]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|2]], [[sources/efsa-arsenic-contam-2009\|3]] |
-| tAs | n=6 | 10–80 | — | medium | [[sources/katebe2024-vegetables-lubumbashi\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/balbo2022-bread-contaminants-poland\|3]] |
-| tHg | n=5 | 1–10 | — | medium | [[sources/ibrahim2024-food-heavy-metals-nigeria\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
-| Ni | n=2 | 100–800 | — | low | [[sources/balbo2022-bread-contaminants-poland\|1]], [[sources/mania2020-nickel-cereal-grains-poland\|2]] |
-| Al | n=3 | 500–5000 | — | low | [[sources/balbo2022-bread-contaminants-poland\|1]] |
-| Cr | n=4 | 30–200 | — | medium | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/balbo2022-bread-contaminants-poland\|2]], [[sources/getu2022-heavy-metals-cereals-ethiopia\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=11 | 10–80 | high | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/katebe2024-vegetables-lubumbashi\|3]] |
+| Cd | n=11 | 20–150 | high | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/katebe2024-vegetables-lubumbashi\|3]] |
+| iAs | n=4 | 5–30 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|2]], [[sources/efsa-arsenic-contam-2009\|3]] |
+| tAs | n=6 | 10–80 | medium | [[sources/katebe2024-vegetables-lubumbashi\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/balbo2022-bread-contaminants-poland\|3]] |
+| tHg | n=5 | 1–10 | medium | [[sources/ibrahim2024-food-heavy-metals-nigeria\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
+| Ni | n=2 | 100–800 | low | [[sources/balbo2022-bread-contaminants-poland\|1]], [[sources/mania2020-nickel-cereal-grains-poland\|2]] |
+| Al | n=3 | 500–5000 | low | [[sources/balbo2022-bread-contaminants-poland\|1]] |
+| Cr | n=4 | 30–200 | medium | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/balbo2022-bread-contaminants-poland\|2]], [[sources/getu2022-heavy-metals-cereals-ethiopia\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

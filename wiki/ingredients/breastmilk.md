@@ -122,18 +122,18 @@ This page is the structural anchor for breastmilk-as-exposure-route claims; the 
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=10 | 0.1–13 | 41 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea\|2]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|3]] |
-| Cd | n=9 | 0.01–1.4 | 3.5 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea\|2]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=10 | 0.1–2.8 | 35 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea\|2]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|3]] |
-| tHg | n=8 | 0.04–14 | 54 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea\|2]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|3]] |
-| Ni | data gap | — | — | — | — |
-| Al | n=3 | 9–80 | 100 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|2]], [[sources/atsdr-aluminum-toxprofile-2008\|3]] |
-| Cr | n=4 | 0.6–1.5 | 7.5 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|2]], [[sources/sushila2024-heavy-metals-human-milk-review\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=10 | 0.1–13 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea\|2]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|3]] |
+| Cd | n=9 | 0.01–1.4 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea\|2]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=10 | 0.1–2.8 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea\|2]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|3]] |
+| tHg | n=8 | 0.04–14 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea\|2]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|3]] |
+| Ni | data gap | — | — | — |
+| Al | n=3 | 9–80 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|2]], [[sources/atsdr-aluminum-toxprofile-2008\|3]] |
+| Cr | n=4 | 0.6–1.5 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|2]], [[sources/sushila2024-heavy-metals-human-milk-review\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

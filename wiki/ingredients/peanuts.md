@@ -128,18 +128,18 @@ Cadmium accumulation in peanuts is further documented in authoritative toxicolog
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=7 | 0–90 | 230 | medium | [[sources/blair2017-us-peanut-heavy-metals\|1]], [[sources/bielecka2021-nuts-toxic-elements-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
-| Cd | n=11 | 36.4–44.4 | 44.7 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
-| iAs | n=3 | 1–2 | 2 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|3]] |
-| tAs | n=6 | 5–36 | 71 | medium | [[sources/blair2017-us-peanut-heavy-metals\|1]], [[sources/bielecka2021-nuts-toxic-elements-poland\|2]], [[sources/chen2022-peanut-elements-china\|3]] |
-| tHg | n=3 | 0 | 0 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Ni | n=9 | 408–528 | 539 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=5 | 0–290 | 720 | low | [[sources/chen2022-peanut-elements-china\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/alatise2025-fruit-nuts-metals\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 0 | low | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 0–90 | medium | [[sources/blair2017-us-peanut-heavy-metals\|1]], [[sources/bielecka2021-nuts-toxic-elements-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
+| Cd | n=11 | 36.4–44.4 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
+| iAs | n=3 | 1–2 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|3]] |
+| tAs | n=6 | 5–36 | medium | [[sources/blair2017-us-peanut-heavy-metals\|1]], [[sources/bielecka2021-nuts-toxic-elements-poland\|2]], [[sources/chen2022-peanut-elements-china\|3]] |
+| tHg | n=3 | 0 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Ni | n=9 | 408–528 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=5 | 0–290 | low | [[sources/chen2022-peanut-elements-china\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/alatise2025-fruit-nuts-metals\|3]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## Synthesis basis and censoring treatment
 

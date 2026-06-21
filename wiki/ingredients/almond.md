@@ -118,18 +118,18 @@ This is a structural ingredient node created so product pages can link to a real
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | 10–220 | 400 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| Cd | n=2 | 10–30 | 60 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 1–10 | 30 | low | [[sources/dai2024-chongqing-dietary-arsenic-exposure\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| tHg | n=2 | 1–10 | 20 | low | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| Ni | n=4 | 1000–1500 | — | medium | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=3 | 100–253 | 500 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/henriksen2023-chromium-nordic-nnr\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 10–220 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Cd | n=2 | 10–30 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 1–10 | low | [[sources/dai2024-chongqing-dietary-arsenic-exposure\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| tHg | n=2 | 1–10 | low | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| Ni | n=4 | 1000–1500 | medium | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=3 | 100–253 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/henriksen2023-chromium-nordic-nnr\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates heavy metals
 

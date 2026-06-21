@@ -135,18 +135,18 @@ The exception to this low-risk characterization is environmental contamination a
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | <4–200 | 690 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
-| Cd | n=4 | <1–37 | 67 | low | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]], [[sources/ezike2024-nigerian-poultry-pte\|3]] |
-| iAs | n=4 | 0 | 0 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| tAs | n=5 | <3–230 | 230 | low | [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]], [[sources/ezike2024-nigerian-poultry-pte\|3]] |
-| tHg | n=4 | <1–43 | 266 | low | [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
-| Ni | n=2 | <40–63 | 1300 | low | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]] |
-| Al | n=2 | 0–1773 | 2689 | low | [[sources/kim2022-bsf-larvae-oil-eggs-heavy-metals\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| Cr | n=3 | <50–140 | 140 | low | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/kurniawati2021-jakarta-staple-foods-naa\|2]], [[sources/mahbub2018-poultry-feed-meat-eggs-metals\|3]] |
-| Sn | n=1 | 0–35.5 | 47.2 | medium | [[sources/fera2015-uk-tds-metals\|1]] |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 0–200 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
+| Cd | n=4 | 0–37 | low | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]], [[sources/ezike2024-nigerian-poultry-pte\|3]] |
+| iAs | n=4 | 0 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| tAs | n=5 | 0–230 | low | [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]], [[sources/ezike2024-nigerian-poultry-pte\|3]] |
+| tHg | n=4 | 0–43 | low | [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
+| Ni | n=2 | 0–63 | low | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]] |
+| Al | n=2 | 0–1773 | low | [[sources/kim2022-bsf-larvae-oil-eggs-heavy-metals\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| Cr | n=3 | 0–140 | low | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/kurniawati2021-jakarta-staple-foods-naa\|2]], [[sources/mahbub2018-poultry-feed-meat-eggs-metals\|3]] |
+| Sn | n=1 | 0–35.5 | medium | [[sources/fera2015-uk-tds-metals\|1]] |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

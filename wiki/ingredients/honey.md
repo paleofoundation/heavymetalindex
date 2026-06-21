@@ -126,18 +126,18 @@ Honey is unusual among food commodities in that its metal content reflects the s
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=9 | <4–50 | 190 | medium | [[sources/abeslami2025-moroccan-honey-minerals\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/naccari2025-honey-toxic-metals-microelements\|3]] |
-| Cd | n=9 | <1–40 | 125 | medium | [[sources/aghamirlou2015-iranian-honey-metals\|1]], [[sources/tomczyk2020-polish-honey-metal-transfer\|2]], [[sources/abeslami2025-moroccan-honey-minerals\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=4 | 0 | 0 | medium | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/margaoan2024-bee-products-heavy-metals\|3]] |
-| tHg | n=4 | 0 | 0 | medium | [[sources/wise2025-elevated-metals-us-honeys\|1]], [[sources/margaoan2024-bee-products-heavy-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Ni | n=5 | <40–650 | 1100 | low | [[sources/aghamirlou2015-iranian-honey-metals\|1]], [[sources/tomczyk2020-polish-honey-metal-transfer\|2]], [[sources/naccari2025-honey-toxic-metals-microelements\|3]] |
-| Al | n=3 | 50–500 | — | low | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/manouchehri2021-honey-heavy-metals-review\|3]] |
-| Cr | n=4 | <50–160 | 900 | low | [[sources/aghamirlou2015-iranian-honey-metals\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/aljedani2017-honeybee-honey-saudi-arabia\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 0 | low | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=9 | 0–50 | medium | [[sources/abeslami2025-moroccan-honey-minerals\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/naccari2025-honey-toxic-metals-microelements\|3]] |
+| Cd | n=9 | 0–40 | medium | [[sources/aghamirlou2015-iranian-honey-metals\|1]], [[sources/tomczyk2020-polish-honey-metal-transfer\|2]], [[sources/abeslami2025-moroccan-honey-minerals\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 0 | medium | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/margaoan2024-bee-products-heavy-metals\|3]] |
+| tHg | n=4 | 0 | medium | [[sources/wise2025-elevated-metals-us-honeys\|1]], [[sources/margaoan2024-bee-products-heavy-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Ni | n=5 | 0–650 | low | [[sources/aghamirlou2015-iranian-honey-metals\|1]], [[sources/tomczyk2020-polish-honey-metal-transfer\|2]], [[sources/naccari2025-honey-toxic-metals-microelements\|3]] |
+| Al | n=3 | 50–500 | low | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/manouchehri2021-honey-heavy-metals-review\|3]] |
+| Cr | n=4 | 0–160 | low | [[sources/aghamirlou2015-iranian-honey-metals\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/aljedani2017-honeybee-honey-saudi-arabia\|3]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## Synthesis basis and censoring treatment
 

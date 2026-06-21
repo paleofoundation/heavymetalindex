@@ -129,18 +129,18 @@ Despite these exposure routes, apples are generally a low-risk commodity for hea
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=5 | <4–46 | 90 | medium | [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|3]] |
-| Cd | n=5 | <1–10 | 30 | medium | [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
-| iAs | n=4 | 0 | 0 | medium | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/houlihan2019-hbbf-whats-in-baby-food\|3]] |
-| tAs | n=6 | 0–5.4 | 8.0 | medium | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|3]] |
-| tHg | n=4 | 0 | 0 | medium | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/tan2022-carbon-dots-cd-hg-food\|3]] |
-| Ni | n=4 | <40–360 | 360 | low | [[sources/amer2019-egyptian-fruits-heavy-metals\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]], [[sources/unaegbu2016-fruit-heavy-metals-enugu\|3]] |
-| Al | n=1 | 0–1410 | 1645 | medium | — |
-| Cr | n=3 | <50–57 | 126 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Sn | n=1 | 0–16.4 | 20.8 | medium | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 0–46 | medium | [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|3]] |
+| Cd | n=5 | 0–10 | medium | [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| iAs | n=4 | 0 | medium | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/houlihan2019-hbbf-whats-in-baby-food\|3]] |
+| tAs | n=6 | 0–5.4 | medium | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|3]] |
+| tHg | n=4 | 0 | medium | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/tan2022-carbon-dots-cd-hg-food\|3]] |
+| Ni | n=4 | 0–360 | low | [[sources/amer2019-egyptian-fruits-heavy-metals\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]], [[sources/unaegbu2016-fruit-heavy-metals-enugu\|3]] |
+| Al | n=1 | 0–1410 | medium | — |
+| Cr | n=3 | 0–57 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Sn | n=1 | 0–16.4 | medium | — |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

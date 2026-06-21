@@ -129,23 +129,22 @@ function buildTable(frontmatter) {
   for (const metal of METALS) {
     const sb = getSubBlockRange(frontmatter, metal);
     if (!sb) {
-      rows.push(`| ${metal} | — | — | — | — | — |`);
+      rows.push(`| ${metal} | — | — | — | — |`);
       continue;
     }
     const parsed = parseSubBlock(sb.fullMatch);
     const coverage = renderCoverageCell(parsed);
     const typical = renderTypicalCell(parsed);
-    const p95 = renderScalarCell(parsed.p95_ppb);
     const confidence = renderScalarCell(parsed.confidence);
-    rows.push(`| ${metal} | ${coverage} | ${typical} | ${p95} | ${confidence} | — |`);
+    rows.push(`| ${metal} | ${coverage} | ${typical} | ${confidence} | — |`);
   }
   return [
     `## ${TABLE_HEADING}`,
     '',
     'Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.',
     '',
-    '| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |',
-    '|---------|----------|---------------|-----------|------------|-------------|',
+    '| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |',
+    '|---------|----------|---------------|------------|-------------|',
     ...rows,
     '',
   ].join('\n');

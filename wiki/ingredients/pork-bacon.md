@@ -133,18 +133,18 @@ The curing process (salt and nitrite immersion or dry application) introduces no
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 0–4.0 | 4.2 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 0–4.5 | 5.9 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 0–3.1 | 3.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=4 | 0–7 | 7 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/zhang2022-pork-heavy-metals-china\|Zhang 2022]], [[sources/dibella2020-augusta-meat-milk-seafood-metals\|Di Bella 2020]] |
-| Ni | n=2 | 0–16.4 | 50.8 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 0–40 | 240 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0–3.2 | 4.9 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0–4.0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 0–4.5 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0–3.1 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=4 | 0–7 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/zhang2022-pork-heavy-metals-china\|Zhang 2022]], [[sources/dibella2020-augusta-meat-milk-seafood-metals\|Di Bella 2020]] |
+| Ni | n=2 | 0–16.4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0–40 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0–3.2 | high | — |
 
 ## Synthesis basis and censoring treatment
 

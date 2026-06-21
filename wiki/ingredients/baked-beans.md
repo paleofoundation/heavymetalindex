@@ -124,18 +124,18 @@ The FSA/Fera UK survey ([[sources/fsa2016-infant-food-formula-metals-survey]]) m
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 0–39 | 63 | low | — |
-| Cd | n=1 | 0 | 0 | low | — |
-| iAs | data gap | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–1 | 4.2 | medium | — |
-| Ni | data gap | — | — | — | — |
-| Al | n=1 | 1015–3692 | 3911 | low | — |
-| Cr | data gap | — | — | — | — |
-| Sn | n=1 | 33.6–82.8 | 85.2 | low | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–39 | low | — |
+| Cd | n=1 | 0 | low | — |
+| iAs | data gap | — | — | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–1 | medium | — |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 1015–3692 | low | — |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 33.6–82.8 | low | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

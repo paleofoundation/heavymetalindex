@@ -123,18 +123,18 @@ Semi-skimmed milk is fluid cow milk from which a portion of the milk fat has bee
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 | 0–13.8 | 23.3 | medium | — |
-| Cd | n=1 | 0–1 | 2 | high | — |
-| iAs | data gap | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 | 0–0.5 | 1 | high | — |
-| Ni | data gap | — | — | — | — |
-| Al | n=1 | 0–1437 | 1830 | high | — |
-| Cr | data gap | — | — | — | — |
-| Sn | n=1 | 0–23.5 | 31.3 | high | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–13.8 | medium | — |
+| Cd | n=1 | 0–1 | high | — |
+| iAs | data gap | — | — | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–0.5 | high | — |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 0–1437 | high | — |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 0–23.5 | high | — |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 

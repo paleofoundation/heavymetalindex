@@ -117,18 +117,18 @@ Spinach is a representative leafy vegetable for which the EFSA 2009 occurrence d
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=7 | 30–300 | 800 | medium | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/seyfferth2024-spinach-cd-pb-review\|3]] |
-| Cd | n=10 | 100–500 | 1100 | medium | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/cardini2025-cadmium-speciation-plant-foods-sec-icp\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=4 | 10–100 | — | low | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|3]] |
-| tHg | n=2 | 1–20 | — | low | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/kurniawati2021-jakarta-staple-foods-naa\|2]] |
-| Ni | n=4 | 200–1500 | — | low | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/sultana2022-dhaka-root-leafy-vegetables\|3]] |
-| Al | n=4 | 2000–10000 | — | low | [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/efsa2021-aluminium-food-qa\|3]] |
-| Cr | n=6 | 100–800 | — | medium | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 30–300 | medium | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/seyfferth2024-spinach-cd-pb-review\|3]] |
+| Cd | n=10 | 100–500 | medium | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/cardini2025-cadmium-speciation-plant-foods-sec-icp\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 10–100 | low | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|3]] |
+| tHg | n=2 | 1–20 | low | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/kurniawati2021-jakarta-staple-foods-naa\|2]] |
+| Ni | n=4 | 200–1500 | low | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/sultana2022-dhaka-root-leafy-vegetables\|3]] |
+| Al | n=4 | 2000–10000 | low | [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/efsa2021-aluminium-food-qa\|3]] |
+| Cr | n=6 | 100–800 | medium | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates cadmium
 

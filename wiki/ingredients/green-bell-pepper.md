@@ -132,18 +132,18 @@ Green bell pepper (Capsicum annuum) is a fruit vegetable with a hollow, thick-wa
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | 0–100 | 100 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/emmanuel2025-kano-urban-vegetables-metals\|1]], [[sources/salhotra2017-vegetables-fruits-heavy-metals\|Salhotra 2017, dw]] |
-| Cd | n=2 | 3.6–17.6 | 22.1 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 | 0 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| tHg | n=2 | 0–1 | 62 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/li2017-mercury-vegetables-grains-coal-power-china\|4]] |
-| Ni | n=2 | 0–124 | 151 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=2 | 0–130 | 130 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/emmanuel2025-kano-urban-vegetables-metals\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 0–100 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/emmanuel2025-kano-urban-vegetables-metals\|1]], [[sources/salhotra2017-vegetables-fruits-heavy-metals\|Salhotra 2017, dw]] |
+| Cd | n=2 | 3.6–17.6 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| tHg | n=2 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/li2017-mercury-vegetables-grains-coal-power-china\|4]] |
+| Ni | n=2 | 0–124 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0–130 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/emmanuel2025-kano-urban-vegetables-metals\|1]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Synthesis basis and censoring treatment
 
