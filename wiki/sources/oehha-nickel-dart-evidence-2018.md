@@ -48,7 +48,7 @@ The document is a hazard-identification (toxicology) review, not a food-occurren
 
 **Developmental toxicity — animal evidence (B.2, B.3):**
 - Most studies used the oral route in rats or mice; one used inhalation (Weischer et al. 1980), others used injection routes. Regardless of species or route, the most sensitive and commonly reported adverse effects of prenatal nickel exposure were reductions in offspring viability and reductions in body weight of surviving offspring. Both dose and timing of exposure affected the frequency and severity of effects.
-- Mouse oral studies were conducted at doses of 46, 92, 185 mg Ni/kg bw-day (Saini et al. 2014b) and up to 100–200 mg Ni/kg bw-day in other studies; rat oral studies spanned roughly 0.4–50 mg Ni/kg bw-day (Figures B.7–B.12). In Saini et al. (2014b), live litter size and fetal weight were significantly reduced (p < 0.05 to p < 0.01) at 92 and 185 mg Ni/kg bw-day, with the timing of exposure (gestation days 0–5, 6–13, or 14–18) modulating which endpoints were affected.
+- Mouse oral studies were conducted at doses of 46, 92, 185 mg Ni/kg bw-day (Saini et al. 2014b) and up to 100–200 mg Ni/kg bw-day in other studies; rat oral studies spanned roughly 0.4–50 mg Ni/kg bw-day (Figures B.7–B.12). In Saini et al. (2014b), live litter size was significantly reduced at 92 mg Ni/kg bw-day (gestation days 0–5) and at 185 mg Ni/kg bw-day (all exposure windows) (Figure B.9), and fetal weight was significantly reduced at 46 (gestation days 6–13, p < 0.05), 92, and 185 mg Ni/kg bw-day (p < 0.05 to p < 0.01) (Figure B.10), with both dose and exposure window (gestation days 0–5, 6–13, or 14–18) modulating which endpoints were affected.
 - Saini et al. (2014b) example of timing dependence: the live birth index was affected only at the highest dose; birthweights were adversely affected at all doses with exposure during organogenesis, only at the two higher doses during the fetal period, and only at the highest dose with preimplantation exposure.
 
 **Female reproductive toxicity (C; Executive Summary):**
@@ -75,6 +75,8 @@ Courses: useful as the canonical citation for nickel reproductive/developmental 
 App: low direct utility — no food-occurrence values or matrix-specific contamination data; the content is hazard characterisation, not exposure quantification.
 
 ## Verification notes
+
+Fresh-context audit subagent (2026-06-22) verified every discrete figure (Bloom 2011 blood-Ni means/SDs/ranges, β and p, LOD; Zheng 2015 PCOS medians/means and P-value; mouse oral doses 46/92/185; the five-cohort and two-of-three case-control developmental claims; document-identity facts) as exactly faithful to the source, with no invented taxonomy slug and no brand- or HMTc-firewall violation. One finding applied: the Saini et al. (2014b) significance sentence was tightened — fetal weight was significant at 46 mg/kg (gestation days 6–13) in addition to 92 and 185 mg/kg (Figure B.10), which the original "at 92 and 185" phrasing had narrowed. Verdict: REVISE → corrected.
 
 Frontmatter `products` is intentionally empty: this is a toxicology hazard-identification document, not a food-occurrence study, so there is no product-level occurrence to route (mirrors the [[sources/oehha-nickel-prop65-factsheet-2025|companion Prop 65 fact sheet]]). Ingredient and metal fan-out proceeds via the `[[metals/nickel]]` wikilink and the single `[[ingredients/water]]` link (drinking-water pathway). The resulting routing advisory for empty `products` is non-blocking and accurate.
 
