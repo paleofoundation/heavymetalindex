@@ -3,7 +3,7 @@ title: "Regulatory tightening over time"
 description: "Chronological view of every dated regulation in the Heavy Metal Index, grouped by decade. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-06-08
+updated: 2026-06-22
 noindex: false
 ---
 
@@ -15,7 +15,7 @@ The page is auto-regenerated on every build from the `effective_date` frontmatte
 
 ## Headline trajectory
 
-The index carries **41 dated regulations**. Earliest in the timeline: 1984-11-06 (FDA CPG Sec. 540.600 Fish, Shellfish, Crustaceans and other Aquatic Animals — Methyl Mercury, FDA). Most recent: 2025-01-01 (washington-tfca-toothpaste-pb-1000ppb, Washington State Department of Ecology). By decade: **1980s**: 2 · **1990s**: 5 · **2000s**: 10 · **2010s**: 13 · **2020s**: 11.
+The index carries **43 dated regulations**. Earliest in the timeline: 1984-11-06 (FDA CPG Sec. 540.600 Fish, Shellfish, Crustaceans and other Aquatic Animals — Methyl Mercury, FDA). Most recent: 2025-01-01 (washington-tfca-toothpaste-pb-1000ppb, Washington State Department of Ecology). By decade: **1980s**: 2 · **1990s**: 5 · **2000s**: 11 · **2010s**: 13 · **2020s**: 12.
 
 ## Chronology by decade
 
@@ -48,6 +48,7 @@ The index carries **41 dated regulations**. Earliest in the timeline: 1984-11-06
 | 2007-03-01 | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation (EC) No 1881/2006 setting maximum levels for certain contaminants in foodstuffs]] | European Union | European Commission | Lead, Cadmium, Total mercury, Methylmercury, Inorganic arsenic, Tin | — | superseded |
 | 2008-05-22 | [[regulations/efsa-aluminium-twi\|EFSA — Aluminium Tolerable Weekly Intake (1 mg/kg b.w./week)]] | European Union | EFSA | Aluminium | 1 mg/kg-bw/week | in-force |
 | 2008-09-01 | [[regulations/atsdr-aluminum-mrls\|ATSDR — Minimal Risk Levels for Aluminum]] | United States (federal) | ATSDR | Aluminium | 1 mg/kg-bw/day | in-force |
+| 2008-12-19 | [[regulations/oehha-chromium-vi-prop65\|California Proposition 65 — Hexavalent Chromium Listing and Safe-Harbor Levels]] | United States — California | OEHHA | Hexavalent chromium | 8.2 µg/day-oral-MADL | in-force |
 | 2009-01-30 | [[regulations/efsa-cadmium-twi\|EFSA — Tolerable Weekly Intake for Cadmium, 2.5 µg/kg b.w./week]] | European Union | EFSA | Cadmium | 2.5 µg/kg-bw/week | in-force |
 | 2009-10-01 | [[regulations/efsa-arsenic-contam-2009\|EFSA — Arsenic in Food (2009), No-PTWI Position]] | European Union | EFSA | Inorganic arsenic | BMDL01 | in-force-no-threshold |
 
@@ -82,6 +83,7 @@ The index carries **41 dated regulations**. Earliest in the timeline: 1984-11-06
 | 2023-06-30 | [[regulations/china-gb-2762-2022-contaminants\|china-gb-2762-2022-contaminants]] | China | National Health Commission; State Administration for Market Regulation | Lead, Cadmium, Total mercury, Methylmercury, Total arsenic, Inorganic arsenic, Tin, Nickel, Chromium | multiple mg/kg; food-specific maximum levels | active |
 | 2023-11-05 | [[regulations/turkey-food-codex-contaminants-2023-lead-raw-milk\|turkey-food-codex-contaminants-2023-lead-raw-milk]] | Turkey | Ministry of Agriculture and Forestry | Lead | 0.02 mg/kg wet weight | in-force |
 | 2024-03-22 | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation (EU) 2024/907 on the monitoring of nickel in food]] | European Union | European Commission | Nickel | monitoring-recommendation none | in-force |
+| 2024-10-01 | [[regulations/ca-swrcb-hexavalent-chromium-mcl\|California — Maximum Contaminant Level for Hexavalent Chromium in Drinking Water]] | United States — California | SWRCB | Hexavalent chromium | 10 ppb | in-force |
 | 2025-01-01 | [[regulations/epa-iris-inorganic-arsenic-rfd\|EPA IRIS — Inorganic Arsenic Toxicological Review (January 2025)]] | United States (federal) | EPA | Inorganic arsenic | pending-extraction | finalized-2025 |
 | 2025-01-01 | [[regulations/washington-tfca-toothpaste-pb-1000ppb\|washington-tfca-toothpaste-pb-1000ppb]] | United States — Washington State | Washington State Department of Ecology | Lead | 1000 ppb | enforced |
 
@@ -112,9 +114,3 @@ The following regulation pages exist in the index but do not yet carry an `effec
 A regulation's appearance in the timeline does not imply endorsement by the Heavy Metal Index. The wiki reports what regulators have published; the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program sets its own thresholds, which can be tighter than the regulatory floor by design. See [[CLAUDE|wiki/HMTc separation policy]] for the rationale.
 
 For the cross-jurisdiction matrix view, see [[regulations/by-jurisdiction]].
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-This page is auto-regenerated from upstream data on every build. Edits by hand are overwritten on the next prebuild. See the generator named in the page intro for the data source and update cadence; the full commit history lives in [git](https://github.com/paleofoundation/heavymetalindex).
-<!-- END: hmi-page-history -->

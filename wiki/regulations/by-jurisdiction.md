@@ -3,7 +3,7 @@ title: "Regulations by jurisdiction"
 description: "Country/region × metal cross-cut of every regulatory threshold the Heavy Metal Index tracks. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-06-08
+updated: 2026-06-22
 noindex: false
 ---
 
@@ -29,6 +29,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | Nickel |  |  |  | 3 |  | 3 |  |  |  |  |  | 6 |
 | Aluminium | 1 |  |  | 1 |  |  |  | 1 | 1 |  |  | 3 |
 | Chromium |  |  |  |  |  | 3 |  |  |  |  |  | 3 |
+| Hexavalent chromium |  | 2 |  |  |  |  |  |  |  |  |  | 2 |
 | Tin |  |  |  | 2 | 1 | 3 | 2 | 1 | 1 |  |  | 9 |
 
 ## Regulations grouped by jurisdiction
@@ -60,6 +61,8 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | Title | Agency | Metals | Limit | Status | Effective |
 | --- | --- | --- | --- | --- | --- |
 | [[regulations/oehha-cadmium-prop65\|California Proposition 65 — Cadmium Listing and Maximum Allowable Daily Level]] | OEHHA | Cadmium | 4.1 µg/day-oral | in-force | 1997-05-01 |
+| [[regulations/oehha-chromium-vi-prop65\|California Proposition 65 — Hexavalent Chromium Listing and Safe-Harbor Levels]] | OEHHA | Hexavalent chromium | 8.2 µg/day-oral-MADL | in-force | 2008-12-19 |
+| [[regulations/ca-swrcb-hexavalent-chromium-mcl\|California — Maximum Contaminant Level for Hexavalent Chromium in Drinking Water]] | SWRCB | Hexavalent chromium | 10 ppb | in-force | 2024-10-01 |
 | [[regulations/oehha-arsenic-prop65\|California Proposition 65 — Inorganic Arsenic Compounds Listing]] | OEHHA | Inorganic arsenic | NSRL-pending | in-force | — |
 | [[regulations/oehha-lead-prop65\|California Proposition 65 — Lead and Lead Compounds Listing]] | OEHHA | Lead | multiple ug/day | in-force | — |
 
@@ -150,9 +153,3 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 This is a navigation index, not a substitute for reading the underlying regulations. Limits expressed in different units (mg/kg vs µg/kg-bw/week vs ppb) are not directly comparable across rows — use the limit column to confirm the basis before comparing values. Where a cell carries multiple regulations for the same metal, the most recent supersedes the older one unless both remain in force in different matrices. The [[regulations/timeline|timeline view]] shows the chronological tightening.
 
 The wiki tracks regulatory limits as published; it does not endorse them. See [[CLAUDE|wiki/HMTc separation policy]] for why the wiki's reporting of regulatory values is kept architecturally separate from the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program's threshold-setting.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-This page is auto-regenerated from upstream data on every build. Edits by hand are overwritten on the next prebuild. See the generator named in the page intro for the data source and update cadence; the full commit history lives in [git](https://github.com/paleofoundation/heavymetalindex).
-<!-- END: hmi-page-history -->

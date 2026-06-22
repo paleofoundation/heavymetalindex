@@ -8,7 +8,7 @@ audience: [regulator, educator, researcher]
 microbiome_relevance: medium
 sources: 376
 wiki_doi: null
-updated: 2026-05-08
+updated: 2026-06-22
 status: stub
 n_sources: 2
 ---
@@ -20,6 +20,8 @@ Chromium (Cr, atomic number 24) in the food system is a split case. Trivalent ch
 This page covers chromium as element and the trivalent species (Cr-III) by default, plus chromium speciation discipline. The hexavalent species has a dedicated page at [[metals/chromium-hexavalent]] because Cr-VI is a priority heavy-metal analyte whose toxicology, occurrence, regulatory, and testing posture all differ sharply from Cr-III. Sources that report total chromium without speciating route here as total-chromium occurrence context and must not be silently substituted for Cr-VI.
 
 [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] supports the Cr(III)/Cr(VI) distinction at the toxicology level, including hexavalent chromium absorption through sulfate/phosphate transporters, corrosive injury, allergic contact dermatitis, acute renal injury after high-dose ingestion, and lung-cancer/genotoxicity framing for Cr(VI); see [[metals/chromium-hexavalent]] for the species-specific synthesis.
+
+Regulatory limits track the species split. The enforceable thresholds that name hexavalent chromium specifically are California's drinking-water Maximum Contaminant Level of 10 µg/L ([[regulations/ca-swrcb-hexavalent-chromium-mcl]]) and California's Proposition 65 listing and safe-harbor levels ([[regulations/oehha-chromium-vi-prop65]]); both are covered on the [[metals/chromium-hexavalent]] page. Total-chromium drinking-water MCLs (US EPA 100 µg/L, California 50 µg/L) apply to chromium as element and do not separate the hexavalent fraction.
 
 ## Status
 

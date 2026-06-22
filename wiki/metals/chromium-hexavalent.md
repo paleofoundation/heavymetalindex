@@ -8,7 +8,7 @@ audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: low
 sources: 63
 wiki_doi: null
-updated: 2026-05-08
+updated: 2026-06-22
 status: scaffold
 n_sources: 2
 ---
@@ -37,7 +37,11 @@ The Soares 2000 dataset is small, market-specific, and reports group means and r
 
 ## Regulatory limits
 
-No regulation page in the current wiki corpus carries a Cr-VI maximum level for a food matrix. The regulatory frameworks that do impose Cr-VI limits live in adjacent domains the wiki has not yet ingested: drinking-water standards (US EPA national primary drinking-water regulation for total chromium with a non-Cr-VI-specific MCL; California state-level Cr-VI MCL of 10 ug/L; European drinking-water directive total-chromium limits), occupational exposure limits (OSHA, NIOSH, ACGIH inhalation values), Proposition 65 listings (Cr-VI as a carcinogen and as a reproductive toxicant), and Codex Alimentarius general standards which do not separately specify Cr-VI for food. This page should be updated as the regulatory corpus expands. There is at present no food-specific regulatory benchmark for Cr-VI: any concentration of toxicological concern for a food matrix is derived from drinking-water-derived toxicology and a thin food-occurrence base, not from food-specific regulatory limits.
+No regulation in the current wiki corpus carries a Cr-VI maximum level for a food matrix. The regulatory instruments that do address hexavalent chromium specifically sit in adjacent domains, principally drinking water and consumer-product labeling, and two of them are now cited here.
+
+California sets an enforceable drinking-water Maximum Contaminant Level for hexavalent chromium of 10 µg/L (0.010 mg/L), adopted by the State Water Resources Control Board on April 17, 2024 and effective October 1, 2024 ([[regulations/ca-swrcb-hexavalent-chromium-mcl]]). This MCL is species-specific to Cr-VI and is tighter than the total-chromium MCL of 50 µg/L it supplements; an earlier California Cr-VI MCL at the same value took effect in 2014 and was invalidated in 2017 for an inadequate economic-feasibility record before the present re-adoption. Hexavalent chromium is also listed under California Proposition 65, as a carcinogen since February 27, 1987 and as a developmental and reproductive toxicant since December 19, 2008, with a cancer No Significant Risk Level of 0.001 µg/day by inhalation and a reproductive Maximum Allowable Dose Level of 8.2 µg/day by the oral route ([[regulations/oehha-chromium-vi-prop65]]).
+
+Both instruments are drinking-water or product-labeling measures, not food maximum levels. The MCL governs the concentration of Cr-VI permitted in public-water-system water, and the Proposition 65 listing governs consumer-product warning obligations; neither sets a permitted concentration in a food. The other frameworks that touch hexavalent chromium remain un-ingested: the US EPA national primary drinking-water regulation sets a total-chromium MCL (100 µg/L) that is not Cr-VI-specific, occupational exposure limits (OSHA, NIOSH, ACGIH) are inhalation values, and Codex Alimentarius general standards do not separately specify Cr-VI for food. The practical consequence is unchanged: there is at present no food-specific regulatory benchmark for Cr-VI, so any concentration of toxicological concern for a food matrix is derived from drinking-water-derived toxicology and a thin food-occurrence base, not from a food-specific regulatory limit.
 
 ## Testing methods
 

@@ -78,11 +78,11 @@ updated: 2026-04-30
   <dl class="hmi-home-corpus-counter-grid">
     <div>
       <dt>Peer-reviewed studies</dt>
-      <dd><a href="sources/">1,538</a></dd>
+      <dd><a href="sources/">1,580</a></dd>
     </div>
     <div>
       <dt>Government reports and datasets</dt>
-      <dd><a href="sources/">175</a></dd>
+      <dd><a href="sources/">176</a></dd>
     </div>
     <div>
       <dt>Programmatic databases indexed</dt>
@@ -90,7 +90,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>A-tier curated sources</dt>
-      <dd><a href="sources/">1,403</a></dd>
+      <dd><a href="sources/">1,415</a></dd>
     </div>
     <div>
       <dt>Structured evidence records</dt>
@@ -98,7 +98,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>Jurisdictions covered</dt>
-      <dd><a href="regulations/">181</a></dd>
+      <dd><a href="regulations/">180</a></dd>
     </div>
     <div>
       <dt>Ingredient profiles</dt>
@@ -106,7 +106,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>Product categories</dt>
-      <dd><a href="products/">395</a></dd>
+      <dd><a href="products/">414</a></dd>
     </div>
     <div>
       <dt>Metal profiles</dt>
@@ -117,7 +117,7 @@ updated: 2026-04-30
       <dd><a href="regulations/">56</a></dd>
     </div>
   </dl>
-  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-06-09. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
+  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-06-14. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
 </section>
 <!-- END: hmi-corpus-counter -->
 
@@ -125,7 +125,7 @@ updated: 2026-04-30
 <!-- BEGIN: hmi-feature-grid -->
 <section class="hmi-home-feature-grid" aria-label="Heavy Metal Index sections">
   <div class="hmi-home-feature-card">
-    <span>395 pages</span>
+    <span>414 pages</span>
     <h2><a href="products/">Products</a></h2>
     <p>Risk profiles for infant and child foods, formula, cereals, purees, snacks, and related categories.</p>
     <div class="hmi-home-card-meta">Consumer-facing categories</div>
@@ -149,7 +149,7 @@ updated: 2026-04-30
     <div class="hmi-home-card-meta">Thresholds and agencies</div>
   </div>
   <div class="hmi-home-feature-card">
-    <span>1,944 pages</span>
+    <span>1,989 pages</span>
     <h2><a href="sources/">Sources</a></h2>
     <p>The source archive behind the index, with linked methods, extracted values, and page cross-references.</p>
     <div class="hmi-home-card-meta">Traceable evidence</div>
@@ -188,6 +188,7 @@ updated: 2026-04-30
       <a href="regulations/efsa-cadmium-twi/">EFSA cadmium TWI</a>
       <a href="regulations/eu-nickel-directive-94-27-ec/">EU nickel directive</a>
       <a href="regulations/oehha-lead-prop65/">California Prop 65 lead MADL</a>
+      <a href="regulations/ca-swrcb-hexavalent-chromium-mcl/">California Cr-VI drinking-water MCL</a>
       <a href="regulations/">See all regulations</a>
     </div>
     <div>
