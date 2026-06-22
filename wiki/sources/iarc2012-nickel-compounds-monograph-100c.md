@@ -36,8 +36,8 @@ This is the International Agency for Research on Cancer's authoritative carcinog
 ## Key numbers
 
 **Classification and target organs (Section 5, Evaluation):**
-- Nickel compounds are carcinogenic to humans, **Group 1**. There is *sufficient evidence* in humans for the carcinogenicity of mixtures that include nickel compounds and nickel metal; the evidence is strongest for soluble nickel compounds, with independent evidence for oxidic and sulfidic nickel compounds. Target sites: cancers of the lung and of the nose and nasal sinuses.
-- Metallic (elemental) nickel is classified Group 2B (possibly carcinogenic to humans) in the standing IARC classification (carried from IARC 1990); in 100C the Working Group judged that separately excluding metallic-nickel studies from the cancer review was not warranted because nickel metal dust can become solubilized and bioavailable after inhalation.
+- Nickel compounds are carcinogenic to humans, **Group 1**. There is *sufficient evidence* in humans for the carcinogenicity of mixtures that include nickel compounds and nickel metal; the evidence is strongest for soluble nickel compounds, with independent evidence for oxidic and sulfidic nickel compounds. Target sites: cancers of the lung and of the nose and nasal sinuses. This Group 1 statement is the only carcinogenicity classification printed in the 100C chapter's Evaluation.
+- On metallic nickel, the 100C Working Group judged that separately excluding metallic-nickel studies from the cancer review was not warranted because nickel metal dust can become solubilized and bioavailable after inhalation (Section 2.1). The standing IARC classification of metallic (elemental) nickel as Group 2B (possibly carcinogenic to humans) derives from the earlier IARC 1990 evaluation ([[sources/iarc1990-chromium-nickel-welding]]); 100C does not itself print a Group 2B designation for metallic nickel.
 - *Sufficient evidence* in experimental animals: nickel monoxides, nickel hydroxides, nickel sulfides (including nickel subsulfide), nickel acetate, and nickel metal.
 - *Limited evidence* in animals: nickelocene, nickel carbonyl, nickel sulfate, nickel chloride, nickel arsenides, nickel antimonide, nickel selenides, nickel sulfarsenide, nickel telluride.
 - *Inadequate evidence* in animals: nickel titanate, nickel trioxide, amorphous nickel sulfide.
@@ -76,6 +76,10 @@ Certification: IARC Group 1 is the highest carcinogenicity classification and is
 Courses: useful as the canonical citation for "nickel is an IARC Group 1 carcinogen," with the important qualifier that this is an inhalation/occupational finding, and as a source of food-category nickel concentration benchmarks (cocoa, soy, nuts, oats highest among common foods).
 
 App: the Section 1.5.3 food-category concentration figures (cocoa beans 9.8 µg/g, soyabeans 5.2, walnuts 3.6, peanuts 2.8, oats 2.3) are useful order-of-magnitude priors for nickel contamination likelihood by ingredient, though they are coarse literature averages, not matrix-specific occurrence distributions.
+
+## Verification notes
+
+Fresh-context audit subagent (2026-06-22) confirmed numerical fidelity across all Key-numbers figures (food-category concentrations, daily-intake estimates, Table 2.2 lung-cancer relative risks and CIs, environmental occurrence) against the PDF with no transposition, no invented taxonomy slug, and no brand- or HMTc-firewall violation. One finding applied: the "metallic nickel = Group 2B" designation was reattributed to the standing IARC classification / IARC 1990 evaluation because the 100C chapter prints only the Group 1 classification for nickel compounds and does not itself state a Group 2B figure for metallic nickel (verified against Section 5 Evaluation, printed pp. 210–211). Verdict: REVISE → corrected.
 
 ## Wiki pages updated on ingest
 
