@@ -48,9 +48,11 @@ test("known-page chips match hand-computed counts (rice)", () => {
   assert.match(r.dims.D1.have, /8\/10 HMTc analytes/)
 
   // total_n: sum of n_studies across the whole profile.
-  // Pb61+Cd86+iAs74+tHg45+Ni23+Al11+Cr30+Sn11+tAs95+U4 = 440
-  assert.equal(r.dims.D1.totalN, 440)
-  assert.match(r.dims.D1.have, /total n=440/)
+  // Pb5+Cd8+iAs8+tHg5+Ni23+Al11+Cr3+Sn11+tAs6+U0 = 80
+  // (counts dropped from 440 after the 2026-06-15 batch-dedup of 45
+  //  duplicate-DOI source clusters, #81, collapsed each cell's contributors.)
+  assert.equal(r.dims.D1.totalN, 80)
+  assert.match(r.dims.D1.have, /total n=80/)
 
   // D6 speciation: rice declares iAs/tAs/tHg, no bare As/Hg cell -> OK.
   assert.equal(r.dims.D6.status, "OK")
