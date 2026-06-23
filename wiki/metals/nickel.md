@@ -100,6 +100,7 @@ For consumers with diagnosed nickel-sensitivity contact dermatitis: the acute LO
 | --- | --- | --- | --- |
 | EFSA (EU) | Chronic dietary TDI | 13 µg Ni/kg b.w./day | [[regulations/efsa-nickel-tdi]] |
 | EFSA (EU) | Acute oral LOAEL (sensitized) | 4.3 µg Ni/kg b.w.; MOE ≥ 30 for low concern | [[regulations/efsa-nickel-tdi]] |
+| EU | Reg (EU) 2024/1987 — binding food maximum levels (amending 2023/915, Annex entry 3.6) | 0.10 mg/kg (liquid infant formula) to 40 mg/kg (wakame); e.g. infant formula powder 0.25, baby food excl. juices 0.50, processed cereal-based baby food 3.0, cereals 0.80; applies from 1 Jul 2025 (cereals 1 Jul 2026) | [[regulations/eu-2024-1987-nickel-maximum-levels]] |
 | EU | Nickel Directive 94/27/EC (skin-contact items, as described in LGC 2003) | 0.5 µg Ni/cm2/week release-rate limit for direct/prolonged skin contact; 0.05% m/m content limit for post assemblies; LGC recommendation: 0.2 µg/cm2/week migration limit for all post assemblies | [[regulations/eu-nickel-directive-94-27-ec]] |
 | US NTP | 15th Report on Carcinogens | Ni compounds: known human carcinogen; metallic Ni: reasonably anticipated | [[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]] |
 | US EPA | Ecological Soil Screening Levels | Threshold values for ecological-risk screening at hazardous waste sites | [[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]] |
@@ -109,6 +110,8 @@ For consumers with diagnosed nickel-sensitivity contact dermatitis: the acute LO
 <!-- audience: consumer -->
 
 The two EFSA reference points operate together as the dietary nickel benchmark: the chronic TDI of 13 µg/kg/day for general-population reproductive/developmental risk, and the acute LOAEL of 4.3 µg/kg b.w. for nickel-sensitized contact dermatitis flare-up. For a 70-kilogram adult, the chronic TDI corresponds to 910 µg Ni/day; the acute LOAEL corresponds to 300 µg per single dose; the MOE of 30 for "low concern" sets the practical acute target at approximately 10 µg Ni in a single sitting for a sensitized individual.
+
+Beyond the health-based TDI, the EU has set its first binding nickel maximum levels in food under Regulation (EU) 2024/1987 (amending 2023/915, Annex entry 3.6), with category limits ranging from 0.10 mg/kg for liquid infant formula to 40 mg/kg for wakame seaweed; most entries apply from 1 July 2025, and the cereal limits from 1 July 2026 ([[regulations/eu-2024-1987-nickel-maximum-levels]]).
 
 Typical European dietary nickel intakes routinely exceed the chronic TDI ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
