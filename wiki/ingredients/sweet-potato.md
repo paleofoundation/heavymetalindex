@@ -122,18 +122,18 @@ Sweet potato (Ipomoea batatas) is a true root tuber that develops entirely withi
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=7 | 0–39 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/fda-ctz-Pb-babyfood-2025\|2]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|3]] |
-| Cd | n=6 | 1–32 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|2]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|3]] |
-| iAs | data gap | — | — | — |
-| tAs | n=5 | 10–22 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|2]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|3]] |
-| tHg | n=3 | 0–1 | medium | [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|1]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|2]], [[sources/houlihan2019-hbbf-whats-in-baby-food\|3]] |
-| Ni | data gap | — | — | — |
-| Al | data gap | — | — | — |
-| Cr | data gap | — | — | — |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=7 | 0–39 | 56.9 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/fda-ctz-Pb-babyfood-2025\|2]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|3]] |
+| Cd | n=6 | 1–32 | 42 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|2]], [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|3]] |
+| iAs | data gap | — | — | — | — |
+| tAs | n=5 | 10–22 | 22 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|2]], [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|3]] |
+| tHg | n=3 | 0–1 | 1 | medium | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|1]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|2]], [[sources/houlihan2019-hbbf-whats-in-baby-food\|3]] |
+| Ni | data gap | — | — | — | — |
+| Al | data gap | — | — | — | — |
+| Cr | data gap | — | — | — | — |
+| Sn | data gap | — | — | — | — |
+| U | data gap | — | — | — | — |
 
 ## Routing
 
@@ -141,7 +141,7 @@ This node is linked from [[products/root-vegetable-purees]].
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 
@@ -200,7 +200,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 6 | [[sources/sixto2023-potatoes-sweet-potatoes-metals\|Sixto et al. 2023]]. *Inorganic contaminants (As, Cd, Pb) in peeled and whole potatoes and sweet potatoes*, Agrociencia Uruguay | 2023 | Peer-reviewed | UY tAs, Cd, Pb occurrence in Pooled potato and sweet-potato samples from Uruguay's Metropolitan Agrifood Market, collected in February and July-August between 2018 and... (n=22) |
 | 7 | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|Bair 2022]]. *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*, Frontiers in Nutrition | 2022 | Peer-reviewed | Narrative review identifying root-vegetable purees including sweet potato as frequently flagged U.S. infant food categories for Pb detection |
 | 8 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | US Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in Composite TDS samples across 307 foods (3,241 food/beverage samples + 35 bottled-water samples) collected across six US regions... (n=3276) |
-| 9 | [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|Parker et al. 2022]]. *Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods*, Toxicology Reports | 2022 | Peer-reviewed | Root-vegetable baby-food category tAs, Cd, tHg, and Pb concentrations including sweet-potato samples |
+| 9 | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|Parker et al. 2022]]. *Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods*, Toxicology Reports | 2022 | Peer-reviewed | Root-vegetable baby-food category tAs, Cd, tHg, and Pb concentrations including sweet-potato samples |
 | 10 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | US iAs, tAs, Pb, Cd, tHg occurrence in Internal company testing records (ingredient pre-shipment tests and finished-product tests) subpoenaed from seven major US baby-food manufacturers covering... |
 | 11 | [[sources/gardener2019-pb-cd-us-infant-formula-baby-foods\|Gardener et al. 2019]]. *Lead and cadmium contamination in a large sample of United States infant formulas and baby foods*, Science of the Total Environment | 2019 | Peer-reviewed | Large-scale US baby food Pb and Cd detection rates with sweet-potato-containing jars and pouches included |
 | 12 | [[sources/houlihan2019-hbbf-whats-in-baby-food\|Houlihan et al. 2019]]. *What's in My Baby's Food? A National Investigation Finds 95 Percent of Baby Foods Tested Contain Toxic Chemicals That Lower Babies' IQ, Including Arsenic and Lead*, Healthy Babies Bright Futures | 2019 | Nonprofit | HBBF retail US baby food detection rates for tAs, iAs, Pb, Cd, and tHg with sweet-potato samples in the panel |

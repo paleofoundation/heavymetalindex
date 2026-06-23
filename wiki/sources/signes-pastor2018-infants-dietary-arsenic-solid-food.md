@@ -2,6 +2,11 @@
 type: source
 raw_handle: FM_5940663
 cite_key: signes-pastor2018-infants-dietary-arsenic-solid-food
+matrices: [infant-urine-biomarker, breast-milk, rice-cereal, wet-weight]
+sample_population: "15 infants (8 female, 7 male) from the New Hampshire Birth Cohort Study (NHBCS), non-Hispanic white, assessed at 4 months (pre-weaning) and 6 months (post-weaning initiation); US northeast private well water region"
+sample_n: 15
+license: "CC BY 4.0"
+raw_handle: FM_5940663
 title: "Infants' dietary arsenic exposure during transition to solid food"
 authors: [Signes-Pastor AJ, Cottingham KL, Carey M, Sayarath V, Palys T, Meharg AA, Folt CL, Karagas MR]
 year: 2018

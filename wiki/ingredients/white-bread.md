@@ -10,14 +10,14 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 5.3]
     p95_ppb: 5.6
-    confidence: medium
+    confidence: high
     n_studies: 3
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [21, 33.4]
     p95_ppb: 35.4
-    confidence: medium
+    confidence: high
     n_studies: 3
     last_reviewed: 2026-05-13
   iAs:
@@ -31,49 +31,49 @@ contamination_profile:
     status: populated
     typical_ppb: [3.3, 6.8]
     p95_ppb: 7.2
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
   Ni:
     status: populated
     typical_ppb: [61.6, 104]
     p95_ppb: 117
-    confidence: medium
+    confidence: high
     n_studies: 3
     last_reviewed: 2026-05-13
   Al:
     status: populated
     typical_ppb: [0, 4292]
     p95_ppb: 6160
-    confidence: low
+    confidence: high
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
     status: populated
     typical_ppb: [0, 61.6]
     p95_ppb: 68.9
-    confidence: medium
+    confidence: high
     n_studies: 3
     last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [0, 67.3]
     p95_ppb: 267
-    confidence: low
+    confidence: high
     n_studies: 1
     last_reviewed: 2026-05-13
   U:
     status: populated
     typical_ppb: [1.3, 11]
     p95_ppb: 11.7
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 3
 ---
 
@@ -116,24 +116,30 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 ## Why this commodity accumulates heavy metals
 
-White bread is produced from refined wheat flour (typically enriched white flour in the US) that has had the bran and germ fractions removed during milling. This processing step is the defining feature of white bread's metal profile: Cd partitions preferentially to the bran and germ of the wheat kernel, so refined flour carries approximately half the Cd of whole-wheat flour. The endosperm-dominant composition of white flour therefore results in a materially lower Cd content than whole-wheat bread or bran-enriched products made from the same grain. FDA TDS FY2018-FY2020 data (n=27) for enriched white pre-sliced bread confirm this pattern, with Cd showing a median of 29 ppb and a maximum of 37 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Nickel in the same dataset has a median of 79 ppb and a maximum of 120 ppb, consistent with wheat's background Ni contribution even through refining. Lead is near detection limits across the distribution (max = 23 ppb). The primary metal accumulation pathway for all values present is soil uptake by the wheat crop; commercial yeast, salt, and water additives in bread manufacturing contribute negligible metals.
+White bread is produced from refined wheat flour (typically enriched white flour in the US) that has had the bran and germ fractions removed during milling. This processing step is the defining feature of white bread's metal profile: Cd partitions preferentially to the bran and germ of the wheat kernel, so refined flour carries approximately half the Cd of whole-wheat flour. The endosperm-dominant composition of white flour therefore results in a materially lower Cd content than whole-wheat bread or bran-enriched products made from the same grain. FDA TDS FY2018-FY2020 data (n=27) for enriched white pre-sliced bread confirm this pattern, with Cd showing a median of 29 ppb and a p95 of 35.4 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Nickel in the same dataset has a median of 79 ppb and a p95 of 117 ppb, consistent with wheat's background Ni contribution even through refining. Lead is near detection limits across the distribution (p90 = 5.3 ppb, max = 23 ppb). The primary metal accumulation pathway for all values present is soil uptake by the wheat crop; commercial yeast, salt, and water additives in bread manufacturing contribute negligible metals.
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0–5.3 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| Cd | n=3 | 21–33.4 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| iAs | n=2 | 0–230 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| tAs | n=2 | 3.3–6.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| tHg | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| Ni | n=3 | 61.6–104 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | n=1 | 0–4292 | low | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|1]] |
-| Cr | n=3 | 0–61.6 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| Sn | n=1 | 0–67.3 | low | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|1]] |
-| U | n=2 | 1.3–11 | low | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=3 | 0–5.3 | 5.6 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| Cd | n=3 | 21–33.4 | 35.4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| iAs | n=2 | 0–230 | 260 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| tAs | n=2 | 3.3–6.8 | 7.2 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| tHg | data gap | — | — | — | — |
+| Ni | n=3 | 61.6–104 | 117 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | n=1 | 0–4292 | 6160 | high | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|1]] |
+| Cr | n=3 | 0–61.6 | 68.9 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| Sn | n=1 | 0–67.3 | 267 | high | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|1]] |
+| U | n=2 | 1.3–11 | 11.7 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The total-mercury cell was resynthesized on 2026-06-11 and is recorded as a reviewed data gap. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported total mercury at a typical and 95th-percentile value of zero at high confidence with three contributing studies. That figure was an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Bread, white, enriched, pre-sliced" (TDS food 58, n=27), in which every one of the 27 composites fell below the 1 µg/kg reporting limit and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]]). The prior study count also overstated the evidence: of the three sources nominally attached to the cell, the El-Daouk Lebanon survey reports aluminium only and the FSA/Fera FS102048 survey is an infant-food and infant-formula matrix in which mercury was reported for cereal-based infant foods rather than for white bread, so neither contributes a white-bread total-mercury measurement.
+
+The only second source carrying mercury for any bread-containing matrix is the Irish Total Diet Study, which reports total mercury at the broad "Cereals" food-category level (0 to 10 µg/kg fresh weight, against a total-mercury LOD/LOQ of 5/17 µg/kg) across a composite spanning white flour, wholemeal flour, breads, biscuits, cakes, pasta, rice, and breakfast cereals ([[sources/fsai2016-total-diet-study-ireland-2012-2014]]). This is a broad cereal aggregate rather than a white-bread-specific measurement, and it too sits at or below its reporting limit, so it does not establish a detected white-bread total-mercury distribution. With the single white-bread-specific dataset entirely censored at 1 µg/kg and no primary source reporting an extractable detected white-bread total-mercury value, no distribution is published; the honest floor is a left-censored bound at the FDA reporting limit, not a measured zero. Total mercury is held distinct from methylmercury and is not derived from it. The cell is reopened for synthesis whenever a primary source reports a detected white-bread total-mercury value.
 
 ## Routing
 
@@ -141,7 +147,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -154,15 +160,15 @@ FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix 
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Bread, white, enriched, pre-sliced" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 18 | 37 | in profile |
-| Cr | 27 | 0 | 100 | in profile |
-| Ni | 27 | 0 | 120 | in profile |
-| Pb | 27 | 0 | 23 | in profile |
-| U | 27 | 0 | 13 | in profile |
-| tAs | 27 | 0 | 9 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 18 | 21 | 29 | 33.4 | 35.4 | 37 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 61.6 | 68.9 | 100 | in profile |
+| Ni | 27 | 0 | 61.6 | 79 | 104 | 117 | 120 | in profile |
+| Pb | 27 | 0 | 0 | 0 | 5.3 | 5.58 | 23 | in profile |
+| U | 27 | 0 | 1.26 | 5.2 | 11 | 11.7 | 13 | in profile |
+| tAs | 27 | 0 | 3.32 | 4.9 | 6.84 | 7.18 | 9 | in profile |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
@@ -217,7 +223,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Bread, white, enriched, pre-sliced (n=27); detectable concentrations for Cd, Cr, Ni, Pb, U, tAs |
 | 2 | [[sources/el-daouk2020-aluminum-food-lebanon\|EL et al. 2020]]. *Aluminum exposure from food in the population of Lebanon*, Toxicology Reports | 2020 | Peer-reviewed | LB Al occurrence in Ninety-seven food items collected May–September 2018 from the Beirut retail market (105 sampled; 8 discarded for turbidity), comprising... (n=97) |
-| 3 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | Irish TDS as-consumed white-bread concentrations and exposure contribution for Al, tAs, iAs, Cd, Cr, Pb, tHg, and Sn |
+| 3 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | Irish TDS as-consumed white-bread concentrations and exposure contribution for Al, tAs, iAs, Cd, Cr, Pb, and Sn; total mercury reported only at the broad cereal-category level (at or below the reporting limit), not as a white-bread-specific value |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

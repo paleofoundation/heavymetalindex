@@ -14,14 +14,14 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 2]
     p95_ppb: 5
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [20.6, 30.4]
     p95_ppb: 31
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -35,7 +35,7 @@ contamination_profile:
     status: populated
     typical_ppb: [3.3, 7.4]
     p95_ppb: 7.7
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
@@ -43,13 +43,15 @@ contamination_profile:
     typical_ppb: [0, 0]
     p95_ppb: 0
     confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: flour-tortilla-ready-to-eat-wet-weight
+    speciation: total-Hg-only
   Ni:
     status: populated
     typical_ppb: [60.8, 98.8]
     p95_ppb: 107
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -63,7 +65,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 73]
     p95_ppb: 92.8
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Sn:
@@ -77,7 +79,7 @@ contamination_profile:
     status: populated
     typical_ppb: [3.8, 7.5]
     p95_ppb: 8.0
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -126,18 +128,26 @@ Flour tortillas are made predominantly from refined wheat flour, water, fat, and
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=2 | 0–2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 20.6–30.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — |
-| tAs | n=2 | 3.3–7.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 60.8–98.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — |
-| Cr | n=2 | 0–73 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — |
-| U | n=2 | 3.8–7.5 | low | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=2 | 0–2 | 5 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 20.6–30.4 | 31 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — | — |
+| tAs | n=2 | 3.3–7.4 | 7.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=1 | 0 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 60.8–98.8 | 107 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — | — |
+| Cr | n=2 | 0–73 | 92.8 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — | — |
+| U | n=2 | 3.8–7.5 | 8.0 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The total-mercury cell was reviewed on 2026-06-11 on a flour-tortilla ready-to-eat wet-weight basis, the form FDA Total Diet Study Food 63 ("Tortilla, flour") reports and the form in which the product reaches the consumer. Values below the analytical reporting limit are treated as left-censored, not as measured zeros.
+
+The earlier profile reported total mercury at a typical and 95th-percentile value of zero at high confidence with two studies. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Tortilla, flour" (n=27), in which 26 of the 27 composites fell below the 1 µg/kg mercury reporting limit and the below-limit results were pooled as literal zeros, and the contributor count was overstated as two when only the single FDA dataset supports this commodity. The corpus holds no second independent total-mercury measurement for wheat flour tortilla: the Mexican-foods lead survey ([[sources/cantoral2024-lead-levels-mexican-foods|Cantoral et al. 2024]]) reported tortillas below the limit of quantification but measured only lead, and the California dietary-intake study ([[sources/masri2025-toxicant-foods-california|Masri et al. 2025]]) measured no metals and addresses tortilla chips rather than flour tortilla. The cell is therefore carried as a single-source, low-confidence result rather than a high-confidence zero.
+
+The honest floor is the FDA 1 µg/kg reporting limit expressed as a left-censored bound, not a measured zero. The median and 90th percentile of the FDA distribution both fall in the censored region (below 1 µg/kg), so the typical band and the 95th percentile are both at the censored floor. The single non-censored result in the entire distribution is one composite at 3.4 µg/kg, carried as the distribution maximum rather than as a percentile driver; it is the only direct evidence that total mercury is detectable at all in this commodity, and it does not, on its own, support a non-zero central or upper-tail value. Total mercury is held distinct from methylmercury and is not derived from it; no speciated mercury measurement exists for this ingredient.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -149,7 +159,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -158,15 +168,15 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Tortilla, flour" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 17 | 31 | in profile |
-| Cr | 27 | 0 | 200 | in profile |
-| Ni | 27 | 54 | 180 | in profile |
-| Pb | 27 | 0 | 17 | in profile |
-| U | 27 | 0 | 11 | in profile |
-| tAs | 27 | 0 | 8.5 | in profile |
-| tHg | 27 | 0 | 3.4 | in profile |
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 17 | 20.6 | 26 | 30.4 | 31 | 31 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 73 | 92.8 | 200 | in profile |
+| Ni | 27 | 54 | 60.8 | 80 | 98.8 | 107 | 180 | in profile |
+| Pb | 27 | 0 | 0 | 0 | 2 | 5 | 17 | in profile |
+| U | 27 | 0 | 3.76 | 4.9 | 7.5 | 7.99 | 11 | in profile |
+| tAs | 27 | 0 | 3.26 | 4.3 | 7.4 | 7.7 | 8.5 | in profile |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 3.4 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 

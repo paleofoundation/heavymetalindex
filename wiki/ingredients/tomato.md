@@ -12,11 +12,11 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 11
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 80]
+    p95_ppb: 240
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-06-11
   Cd:
     status: populated
     typical_ppb: [0.6, 6.7]
@@ -47,11 +47,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-05-16
+    typical_ppb: [16, 230]
+    p95_ppb: 250
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-06-11
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -61,11 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-05-16
+    typical_ppb: [32, 410]
+    p95_ppb: 410
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-06-11
   Sn:
     status: populated
     typical_ppb: [50, 400]
@@ -75,18 +75,18 @@ contamination_profile:
     last_reviewed: 2026-05-16
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-11
 sources: 43
 ---
 
@@ -126,18 +126,36 @@ Tomato is a botanical fruit grown close to the soil surface, and its metal burde
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=11 | 0 | high | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
-| Cd | n=9 | 0.6–6.7 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
-| iAs | data gap | — | — | — |
-| tAs | n=4 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=3 | 0 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/li2017-mercury-coal-power-plants-vegetables-grains\|3]] |
-| Ni | n=7 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/salem2024-tomato-remediated-soil-egypt\|3]] |
-| Al | data gap | — | — | — |
-| Cr | n=7 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/samma2024-bangladesh-vegetable-metals\|3]] |
-| Sn | n=3 | 50–400 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/kangre2024-canned-tomato-pb-sn-ghana\|2]], [[sources/muniz2018-tomato-sauce-packaging-metals\|3]] |
-| U | n=2 | 0 | low | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=6 | 0–80 | 240 | medium | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|1]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|2]], [[sources/heshmati2020-iran-vegetables-cereals-pb-cd\|3]] |
+| Cd | n=9 | 0.6–6.7 | 7.2 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| iAs | data gap | — | — | — | — |
+| tAs | n=4 | 0 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=3 | 0 | 0 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/li2017-mercury-vegetables-grains-coal-power-china\|3]] |
+| Ni | n=4 | 16–230 | 250 | low | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|1]], [[sources/fatai2024-african-spinach-tomato-nigeria\|2]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|3]] |
+| Al | data gap | — | — | — | — |
+| Cr (total) | n=4 | 32–410 | 410 | low | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]], [[sources/fatai2024-african-spinach-tomato-nigeria\|3]] |
+| Sn | n=3 | 50–400 | 600 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/kangre2024-canned-tomato-pb-sn-ghana\|2]], [[sources/muniz2018-tomato-sauce-packaging-metals\|3]] |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, nickel, chromium, and uranium cells were resynthesized on 2026-06-11 on the native basis of this page, fresh (raw) tomato fruit. Most of the primary occurrence literature reports dry-weight produce concentrations; those values run several-fold higher than the fresh-weight figures because the fruit is roughly 94 percent water, so dry-weight anchors are read as upper-bounding corroboration rather than as the headline distribution. Chromium and nickel are reported as total elemental concentrations throughout the contributing corpus; no hexavalent-chromium measurement exists for tomato, so the chromium cell is total chromium only and no Cr-VI value is inferred from it.
+
+Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported lead, nickel, chromium, and uranium at typical and 95th-percentile values of zero. Those figures were an artifact of the FDA Total Diet Study composites for "Tomato, raw," in which every one of the 27 samples fell below the reporting limit (lead 4 µg/kg, nickel 40 µg/kg, chromium 50 µg/kg, uranium 1 µg/kg) and the reported zeros were pooled as literal zeros. The resynthesis replaces the literal zeros with the detected fresh-weight distributions from the broader literature, in which lead, nickel, and total chromium are all low but non-zero, and records the lower bound of each cell as a left-censored zero rather than as a measured zero. The applicable FDA reporting limit (4 µg/kg for lead) is stated here in prose rather than carried in the machine-readable cell, where the censored lower bound is encoded as the numeric value 0.
+
+**Lead** in tomato is low in clean retail production but non-zero. The central distribution rests on fresh-weight retail surveys: Iranian Hamadan-market tomato at a mean of 7 µg/kg fresh weight ([[sources/heshmati2020-iran-vegetables-cereals-pb-cd|Heshmati et al. 2020]], n=50 composites), Polish retail fresh tomato at a mean of 16 µg/kg and a fresh-tomato maximum of 52 µg/kg ([[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]]), and a Polish multi-variety survey averaging 21 µg/kg fresh weight across 25 fresh and processed samples ([[sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland|Grochowska-Niedworok et al. 2020]]). The upper tail is set by the Tehran supermarket survey, which reports fresh tomato at 79 µg/kg (summer) and 241 µg/kg (autumn) fresh weight ([[sources/alimohammadi2018-tehran-supermarket-vegetables|Alimohammadi et al. 2018]]), corroborated by Nigerian field tomato at 167 µg/kg ([[sources/fatai2024-african-spinach-tomato-nigeria|Fatai et al. 2024]]); the Fatai values were reported after the tomato was dried and ground, and the source does not state whether its mg/kg figures are on a fresh-weight or dry-weight basis, so this corroboration is read with that basis ambiguity in mind. The 95th-percentile anchor of 240 µg/kg reflects the Alimohammadi autumn value. A single Polish frozen-tomato sample at 537 µg/kg fresh weight ([[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]], a one-sample frozen outlier) and the documented wastewater-irrigated and industrial-soil stratum (Bangladeshi Bogura-district tomato at 3,120 to 21,690 µg/kg dry weight, [[sources/samma2024-bangladesh-vegetable-metals|Samma et al. 2024]]; Quito market tomato at 460 to 650 µg/kg dry weight, [[sources/vela2023-quito-vegetables-cd-pb|Vela et al. 2023]]; wastewater-irrigated Cairo tomato, [[sources/ahmed2023-trace-metals-tomato-wastewater|Ahmed et al. 2023]]) are held out of the central estimate and reported separately below as a contaminated-production stratum.
+
+**Nickel** in tomato is reported as total nickel and rests on a thin fresh-weight pool. The Tehran supermarket survey reports tomato Ni at 161 µg/kg (summer) and 232 µg/kg (autumn) fresh weight ([[sources/alimohammadi2018-tehran-supermarket-vegetables|Alimohammadi et al. 2018]]), Nigerian field tomato at 133 µg/kg ([[sources/fatai2024-african-spinach-tomato-nigeria|Fatai et al. 2024]]), and a Chinese-market all-vegetable category aggregate (n=114; leafy greens, edible mushrooms, solanaceous fruits, tubers, and kale combined) at a mean of 16 µg/kg and a maximum of 86 µg/kg fresh weight, used here as a broad cross-vegetable proxy rather than a tomato-specific value ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]). The typical range spans this low Chinese-market cross-vegetable central tendency to the Tehran autumn central value; the 95th-percentile anchor of 250 µg/kg sits just above the Alimohammadi autumn figure. Egyptian tomato grown in heavily contaminated, non-remediated soil reached 1,000 µg/kg ([[sources/salem2024-tomato-remediated-soil-egypt|Salem et al. 2024]], untreated control) and is reported separately as a contaminated-soil stratum rather than folded into the central estimate. Confidence is low given the four-source pool and the wide geographic spread.
+
+**Chromium** is reported as total chromium at low confidence; no tomato hexavalent-chromium measurement exists in the corpus. The Tehran supermarket survey reports tomato total Cr at 234 µg/kg (summer) and 412 µg/kg (autumn) fresh weight ([[sources/alimohammadi2018-tehran-supermarket-vegetables|Alimohammadi et al. 2018]]), the Chinese-market all-vegetable category aggregate (n=114; leafy greens, edible mushrooms, solanaceous fruits, tubers, and kale combined) at a mean of 32 µg/kg and a maximum of 278 µg/kg fresh weight, used here as a broad cross-vegetable proxy rather than a tomato-specific value ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]), and Nigerian field tomato at 99 µg/kg ([[sources/fatai2024-african-spinach-tomato-nigeria|Fatai et al. 2024]]). The typical range runs from the Chinese-market cross-vegetable central tendency to the Tehran autumn value, with the 95th-percentile anchor set at 410 µg/kg. Bangladeshi industrial-district tomato reached 5,440 µg/kg dry weight ([[sources/samma2024-bangladesh-vegetable-metals|Samma et al. 2024]]) and is held out as a contaminated-soil stratum.
+
+**Uranium** is recorded as a reviewed data gap. The FDA Total Diet Study reported all 27 tomato samples below its 1 µg/kg uranium reporting limit, and no routed non-FDA source in the corpus reports an extractable quantitative uranium value for tomato fruit. Consistent with the uranium treatment on [[ingredients/rice]], no distribution is published; the cell is left as a gap rather than recorded as a measured zero.
+
+### Contaminated-production stratum (not pooled into the central estimates)
+
+Several sources document tomato grown under wastewater irrigation or on industrially contaminated soil at concentrations one to two orders of magnitude above the clean-retail distributions above. These are stratified out so they do not set the central estimate, but they bound the supply-chain risk for tomato sourced from such regions. Bangladeshi Bogura-district tomato reached 3.12 to 21.69 mg/kg dry weight lead and up to 5.44 mg/kg dry weight total chromium ([[sources/samma2024-bangladesh-vegetable-metals|Samma et al. 2024]]); Ecuadorian Quito-market tomato reached 0.46 to 0.65 mg/kg dry weight lead ([[sources/vela2023-quito-vegetables-cd-pb|Vela et al. 2023]]); wastewater-irrigated Cairo tomato carried elevated lead, chromium, and nickel ([[sources/ahmed2023-trace-metals-tomato-wastewater|Ahmed et al. 2023]]); and Egyptian tomato grown on contaminated soil reached 1.00 mg/kg nickel before remediation ([[sources/salem2024-tomato-remediated-soil-egypt|Salem et al. 2024]]). Irrigation-water source and growing-region soil history are the sourcing levers that distinguish this stratum from clean-retail production.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -149,7 +167,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -158,15 +176,15 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Tomato, raw" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 7.6 | in profile |
-| Cr | 27 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | in profile |
-| Pb | 27 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 0.6 | 3.3 | 6.68 | 7.22 | 7.6 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
@@ -221,7 +239,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|Rodríguez-Rodríguez et al. 2026]]. *Trace Element Content in Tomato Fruit Grown with Sargassum-Based Biofertilizer*, Agronomy | 2026 | Peer-reviewed | Measured tAs, Cd, Pb, Ni, and Cr in greenhouse tomatoes grown with Sargassum biofertilizer vs controls (Spain); all five metals below LOQ in tomato fruit from both treatment groups |
 | 2 | [[sources/barber2025-baby-food-elements-us\|Barber et al. 2025]]. *Toxic elements in baby and young children's foods in the US and correlation to ingredients*, Food Additives & Contaminants: Part B | 2025 | Peer-reviewed | US tAs, iAs, Cd, tHg, MeHg, Pb, Tl occurrence in Non-targeted 2023 FDA convenience survey of 566 foods intended for babies, young children, pregnant women, and nursing mothers:... (n=566) |
-| 3 | [[sources/dearing2025-hawkes-bay-organic-nonorganic-vegetables\|Dearing et al. 2025]]. *Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis*, F1000Research | 2025 | Peer-reviewed | NZ Cd, Pb, tAs, Ni, Cr, Tl, tHg occurrence in 153 composite representative samples (combined from 736 individual vegetables) sourced from 14 market gardens across 10 growing sites... (n=153) |
+| 3 | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|Dearing et al. 2025]]. *Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis*, F1000Research | 2025 | Peer-reviewed | NZ Cd, Pb, tAs, Ni, Cr, Tl, tHg occurrence in 153 composite representative samples (combined from 736 individual vegetables) sourced from 14 market gardens across 10 growing sites... (n=153) |
 | 4 | [[sources/saleem2025-locally-grown-vegetables-north-dakota\|Saleem et al. 2025]]. *Concentration and Potential Non-Carcinogenic and Carcinogenic Health Risk Assessment of Metals in Locally Grown Vegetables*, Foods | 2025 | Peer-reviewed | US Cd, Pb, tAs, tHg, Cr, Ni, Co, Cu, Zn, Mn, Se occurrence in 82 samples of 13 locally grown vegetable types from the Town Square Farmer's Market in Grand Forks, North... (n=82) |
 | 5 | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|Shavali-gilani et al. 2025]]. *Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers*, Scientific Reports | 2025 | Peer-reviewed | IR Pb, Cd, tHg, Sn occurrence in 49 samples of canned tomato paste, canned olives, and pickled cucumbers from the 5 most popular brands, purchased... (n=49) |
 | 6 | [[sources/fatai2024-african-spinach-tomato-nigeria\|Fatai et al. 2024]]. *Concentration and Health Risk Assessment of Selected Heavy Metals (HMs) in African spinach (Amaranthus hybridus) and Tomato (Solanum lycopersicum) Grown around Ashaka Community, Gombe State, Nigeria*, Journal of Chemistry and Nutritional Biochemistry | 2024 | Peer-reviewed | NG Cu, Ni, Zn, Cd, Cr, Pb occurrence in African spinach and tomato composite samples collected around Ashaka community, Gombe State, Nigeria (n=2) |
@@ -230,7 +248,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 9 | [[sources/salem2024-tomato-remediated-soil-egypt\|Salem et al. 2024]]. *Influence of the use of remediated soil and agricultural drainage water on the safety of tomato fruits*, Environmental Science and Pollution Research | 2024 | Peer-reviewed | EG Cd, Ni, Cu, Zn, Pb occurrence in Tomato fruits (Solanum lycopersicum var. cerasiforme) grown in contaminated soil with different bioremediation treatments; greenhouse and field experiments;... |
 | 10 | [[sources/samma2024-bangladesh-vegetable-metals\|Samma et al. 2024]]. *Evaluating Soil-Vegetable Contamination with Heavy Metals in Bogura, Bangladesh: A Risk Assessment Approach*, Environmental Health Insights | 2024 | Peer-reviewed | BD Pb, Cr, Cu occurrence in Composite vegetable and soil samples from 5 vegetable species across 6 upazilas in Bogura district, Bangladesh (northern industrial... (n=30) |
 | 11 | [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180-200 | 2024 | Peer-reviewed | CN Pb, Cd, tAs, tHg, Cr, Ni, Cu, Zn occurrence in 244 commercially purchased food samples from six supermarkets, six farmers' markets, and one wholesale market across Shanyang and... (n=244) |
-| 12 | [[sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180–202 | 2024 | Peer-reviewed | CN Pb, Cd, Cr, tAs, tHg, Ni, Cu, Zn occurrence in 244 retail food samples purchased from 13 sampling points (6 supermarkets, 6 farmers' markets, 1 wholesale market) across... (n=244) |
+| 12 | [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180–202 | 2024 | Peer-reviewed | CN Pb, Cd, Cr, tAs, tHg, Ni, Cu, Zn occurrence in 244 retail food samples purchased from 13 sampling points (6 supermarkets, 6 farmers' markets, 1 wholesale market) across... (n=244) |
 | 13 | [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|Abdolahpour et al. 2023]]. *The health risk assessment of heavy metals in vegetables grown in Babol city, Iran*, International Archives of Health Sciences | 2023 | Peer-reviewed | IR Pb, Cd, Cu, Zn occurrence in Eight vegetable types (parsley, spinach, basil, tomatoes, cucumbers, potatoes, onions, beans) from Babol, Mazandaran Province, northern Iran; 4... (n=32) |
 | 14 | [[sources/ahmed2023-trace-metals-tomato-wastewater\|Ahmed et al. 2023]]. *Trace metal concentrations in tomato fruits irrigated with industrial wastewater in Cairo and health risk assessment*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | EG Pb, Cd, Cr, Ni, Cu, Fe, Mn, Zn, Co occurrence in Tomato fruits from wastewater-irrigated farms in Cairo, Egypt |
 | 15 | [[sources/ammar2023-element-migration-aluminum-cookware\|Ammar et al. 2023]]. *Investigation of Element Migration from Aluminum Cooking Pots Using ICP-MS*, Applied Sciences (MDPI) | 2023 | Peer-reviewed | SA Al, Fe, As, Cd, Pb occurrence in Eight cooked-food test conditions (AC-1 through APP-5) using four aluminum cooking pots — two traditional pots (codes AC,... (n=16) |
@@ -250,7 +268,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 29 | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|Alimohammadi et al. 2018]]. *Heavy metal(oid)s concentration in Tehran supermarket vegetables: carcinogenic and non-carcinogenic health risk assessment*, Toxin Reviews | 2018 | Peer-reviewed | IR tAs, Cd, Cr, Cu, Ni, Pb, Zn occurrence in Six vegetable types (lettuce, cabbage, tomato, cucumber, potato, carrot; n=16 each, 96 total) collected from Tehran central fruit... (n=96) |
 | 30 | [[sources/ametepey2018-ghana-vegetables-heavy-metals\|Ametepey et al. 2018]]. *Determination of heavy metals in selected vegetables from markets in Tamale Metropolis, Ghana*, International Journal of Food Contamination | 2018 | Peer-reviewed | Measured Cd, Pb, Cr, and Ni in tomato from three markets in Tamale, Ghana (n=75 total samples across 5 vegetables); provides West African occurrence context |
 | 31 | [[sources/muniz2018-tomato-sauce-packaging-metals\|Muniz et al. 2018]]. *Evaluation of metals in tomato sauces stored in different types of packaging*, Food Science and Technology | 2018 | Peer-reviewed | BR tAs, Cd, Pb, Cr, Ni, Sb, Sn occurrence in 20 retail tomato sauce samples in 4 packaging types (plastic, metallic/canned, cellulosic, glass), 2 brands, Rio de Janeiro... (n=20) |
-| 32 | [[sources/li2017-mercury-coal-power-plants-vegetables-grains\|Li et al. 2017]]. *Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants*, Scientific Reports | 2017 | Peer-reviewed | CN tHg occurrence in Vegetables (lettuce, amaranth, water spinach, tomato, eggplant, pepper, cucumber, cowpea), grains (rice, maize), and soils sampled from 6... (n=120) |
+| 32 | [[sources/li2017-mercury-vegetables-grains-coal-power-china\|Li et al. 2017]]. *Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants*, Scientific Reports | 2017 | Peer-reviewed | CN tHg occurrence in Vegetables (lettuce, amaranth, water spinach, tomato, eggplant, pepper, cucumber, cowpea), grains (rice, maize), and soils sampled from 6... (n=120) |
 | 33 | [[sources/li2017-mercury-vegetables-grains-coal-power-china\|Li et al. 2017]]. *Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants*, Scientific Reports | 2017 | Peer-reviewed | CN tHg occurrence in Pooled vegetable, grain, and soil samples from six open-field locations within 10 km of two coal-fired power plants... |
 | 34 | [[sources/salhotra2017-vegetables-fruits-heavy-metals\|Salhotra et al. 2017]]. *Determination of heavy metals contamination in some vegetables and fruits samples from the market of Jagdalpur, Chhattisgarh State*, IOSR Journal of Applied Chemistry | 2017 | Peer-reviewed | IN Pb, Cd, Cu, Fe, Co occurrence in vegetable and fruit samples from Jagdalpur market, Chhattisgarh State, India (n=ten vegetables and fruits) |
 | 35 | [[sources/jaishree2015-effluent-irrigated-crops-metals\|Jaishree et al. 2015]]. *Heavy metal accumulation in vegetables irrigated with industrial effluent*, International Journal of Innovative Research in Science, Engineering and Technology | 2015 | Peer-reviewed | IN Cd, Ni, Pb, Cu, Cr, Mn, Zn occurrence in Vegetables and wheat grown under industrial-effluent irrigation conditions in India |

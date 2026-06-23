@@ -12,18 +12,20 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 17]
+    p95_ppb: 30
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-06-11
+    basis: fluid-reduced-fat-milk-wet-weight
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 27]
+    p95_ppb: 45
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-06-11
+    basis: fluid-reduced-fat-milk-wet-weight
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -33,25 +35,28 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 43]
+    p95_ppb: 80
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-06-11
+    basis: fluid-reduced-fat-milk-wet-weight
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 2]
+    p95_ppb: 10
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: fluid-reduced-fat-milk-wet-weight
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, null]
+    p95_ppb: null
     confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: fluid-reduced-fat-milk-wet-weight
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -61,11 +66,13 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [3, 8]
+    p95_ppb: null
     confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: fluid-reduced-fat-milk-wet-weight
+    speciation: total-Cr-only
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -75,19 +82,19 @@ contamination_profile:
     last_reviewed: 2026-05-12
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
-sources: 1
+updated: 2026-06-11
+sources: 8
 ---
 
 # Reduced-fat milk
@@ -120,24 +127,40 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 ## Why this commodity accumulates heavy metals
 
-Reduced-fat milk is fluid cow milk from which a portion of the milk fat has been removed, typically to achieve a fat content of approximately 2 percent by weight. As a dairy matrix, reduced-fat milk is among the lowest-risk food categories for heavy metal contamination. The mammary gland is not a primary excretion route for most heavy metals; the blood-milk barrier limits transfer of Pb, Cd, Hg, and most other regulated analytes from systemic circulation into milk at detectable levels under normal dietary exposure conditions for the cow. The small amounts of metals that do transfer to milk are primarily associated with the casein protein fraction and to a lesser extent with the whey protein fraction, rather than with the fat fraction. Consequently, removing fat from whole milk does not meaningfully change the metal content of the resulting reduced-fat product: metals remain in the aqueous and protein phases. Pb and Cd in milk reflect the cow's environmental and dietary exposure, which in modern commercial dairy herds under regulated feeding conditions is low. Soil contamination near grazing pastures and the mineral content of feed supplements are the dominant drivers of variation in cow milk metal content; both are tightly managed in most commercial dairy supply chains. The FDA TDS FY2018-FY2020 data for reduced-fat milk (n=27 composite samples) show concentrations at or below reporting limits for all measured analytes, with a single Pb observation of 1.7 ppb at the maximum and all other analytes reporting as zero across all 27 composites [[sources/fda2022-tds-elements-fy2018-fy2020]].
+Reduced-fat milk is fluid cow milk from which a portion of the milk fat has been removed, typically to achieve a fat content of approximately 2 percent by weight. As a dairy matrix, reduced-fat milk is among the lowest-risk food categories for heavy metal contamination. The mammary gland is not a primary excretion route for most heavy metals; the blood-milk barrier limits transfer of Pb, Cd, Hg, and most other regulated analytes from systemic circulation into milk at detectable levels under normal dietary exposure conditions for the cow. The small amounts of metals that do transfer to milk are primarily associated with the casein protein fraction and to a lesser extent with the whey protein fraction, rather than with the fat fraction. Consequently, removing fat from whole milk does not meaningfully change the metal content of the resulting reduced-fat product: metals remain in the aqueous and protein phases. Pb and Cd in milk reflect the cow's environmental and dietary exposure, which in modern commercial dairy herds under regulated feeding conditions is low. Soil contamination near grazing pastures and the mineral content of feed supplements are the dominant drivers of variation in cow milk metal content; both are tightly managed in most commercial dairy supply chains. The FDA TDS FY2018-FY2020 composite for reduced-fat milk (n=27) reported every measured analyte below its reporting limit except for a single lead observation of 1.7 µg/kg at the maximum; those below-limit results are carried as left-censored bounds rather than as measured zeros, and the detected fluid-milk distributions from the primary clean-market literature show lead, cadmium, total arsenic, total mercury, and chromium present at low but non-zero concentrations (see the Synthesis basis and censoring treatment section) [[sources/fda2022-tds-elements-fy2018-fy2020]]. The concentrations are low rather than zero.
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — |
-| tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — |
-| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — |
-| U | n=2 | 0 | low | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=4 | <1–17 | 30 | medium | [[sources/starska2011-noxious-elements-milk-products-poland\|1]], [[sources/salaheldin2025-multimatrix-foods-egypt\|2]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|3]] |
+| Cd | n=3 | <1–27 | 45 | medium | [[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals\|1]], [[sources/salaheldin2025-multimatrix-foods-egypt\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
+| iAs | data gap | — | — | — | — |
+| tAs | n=3 | <1–43 | 80 | medium | [[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]], [[sources/salaheldin2025-multimatrix-foods-egypt\|3]] |
+| tHg | n=2 | <1–2 | 10 | low | [[sources/starska2011-noxious-elements-milk-products-poland\|1]], [[sources/pankiewicz2012-thg-dairy-products-poland\|2]] |
+| Ni | n=1 | <20 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — | — |
+| Cr | n=1 | 3–8 | — | low | [[sources/salaheldin2025-multimatrix-foods-egypt\|1]] |
+| Sn | data gap | — | — | — | — |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, cadmium, total-arsenic, total-mercury, nickel, chromium, and uranium cells were resynthesized on 2026-06-11 on a fluid reduced-fat-milk wet-weight basis, the form in which the ingredient enters the supply chain. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
+
+The earlier profile reported all of these analytes at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Milk, reduced fat, fluid" (n=27), in which every sample fell below the reporting limit for each metal except for a single lead detection at 1.7 µg/kg, and the below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limits Pb 1, Cd 1, tAs 1, tHg 1, Ni 20, Cr 25, U 1 µg/kg). The resynthesis replaces the literal zeros with the detected fluid-cow-milk distributions from the primary occurrence literature, in which lead, cadmium, total arsenic, total mercury, and chromium are all low but non-zero. The honest floor for each fully censored analyte is the FDA reporting limit expressed as a left-censored bound (reported as "<1" or "<20"), not a measured zero.
+
+No published fluid-milk occurrence survey in the current corpus stratifies cow milk by fat fraction except Marques et al. (2021), so the fluid-milk surveys below are used as reduced-fat-milk context on the basis that the regulated heavy metals partition into the aqueous and protein phases rather than the fat phase, making removal of milk fat essentially neutral for metal content. Where a survey reports only an undifferentiated fluid-milk group, that broad attribution is stated and the value is not relabeled as reduced-fat-specific.
+
+Lead rests on European and North-African clean-market fluid-milk surveys and one fraction-matched skimmed-milk anchor: the Polish national monitoring of 75 liquid-milk samples ([[sources/starska2011-noxious-elements-milk-products-poland|Starska et al. 2011]], whole-fluid-milk group mean 8 µg/kg, 90th percentile 17 µg/kg, two of 75 samples above the 20 µg/kg EU limit with a single maximum of 50 µg/kg; reported for the undifferentiated milk group, not split by fat content), the Egyptian retail-milk survey ([[sources/salaheldin2025-multimatrix-foods-egypt|Salahel din et al. 2025]], milk group n=4, mean 20.8 µg/kg, range 12-30 µg/kg, undifferentiated by fat fraction), the Bangladesh raw-and-pasteurized survey ([[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals|Hasan et al. 2022]], pasteurized liquid milk mean 13 µg/kg), and the Spanish retail survey ([[sources/marques2021-trace-elements-milks-plant-based-drinks|Marques et al. 2021]]), the only source measuring a fat-fraction-matched value: non-organic skimmed cow milk lead of 0.033 in the paper's stated units. The Marques Table 1 header reads µg/kg but the methods text and the paper's own Codex comparison are internally consistent only on a µg/g (= mg/kg) basis, so the reconciled value of 33 µg/kg is carried as a single corroborating skimmed-fraction retail anchor rather than as a percentile driver until the unit basis is confirmed with the corresponding author. The cadmium central rests on Hasan et al. (raw 32 µg/kg, pasteurized 27 µg/kg, raw range to 45 µg/kg), Salahel din et al. (mean 6.3 µg/kg, range 3-9 µg/kg), and Starska et al. (milk-group mean 1 µg/kg, 90th percentile 3 µg/kg, maximum 7 µg/kg). Total arsenic rests on Hasan et al. (pasteurized mean 43 µg/kg, range to 89 µg/kg; raw mean 53 µg/kg), Starska et al. (milk and liquid-product group mean 5-8 µg/kg, 90th percentile 19 µg/kg, maximum 80 µg/kg), and Salahel din et al. (mean 1.8 µg/kg). Total mercury rests on the low Polish fluid-milk values from Starska et al. (mean 1 µg/kg, 90th percentile 2 µg/kg, maximum 10 µg/kg) and Pankiewicz 2012 ([[sources/pankiewicz2012-thg-dairy-products-poland|Pankiewicz 2012]], fluid milk 0.03-0.06 µg/kg by direct-mercury analyzer).
+
+Total arsenic and inorganic arsenic are kept as distinct analytes; only speciated measurements would populate the inorganic-arsenic cell, and no speciated value exists for this ingredient, so iAs remains a reviewed data gap. Total mercury is held distinct from methylmercury and is not derived from it.
+
+Chromium is reported as total chromium at low confidence; no fluid-milk hexavalent-chromium measurement exists in the corpus, so no Cr-VI value is inferred. The total-chromium central rests on Salahel din et al. (mean 5.3 µg/kg, range 3-8 µg/kg); Hasan et al. report markedly higher total chromium in Bangladesh milk (raw mean 548 µg/kg, pasteurized mean 457 µg/kg), which is held as a high South-Asian stratum and not adopted as the central or 95th-percentile value pending corroboration, because a chromium concentration two orders of magnitude above the FDA censored floor in fluid milk is more consistent with a processing-equipment or analytical contribution than with a commodity-wide baseline. The 95th-percentile chromium value is left uncomputed: the only clean-market fluid-milk distribution available is Salahel din et al.'s narrow 3-8 µg/kg range, with no grounded mid-range fluid-milk chromium value between that ceiling and the stratified-out Bangladesh means in the hundreds, so any upper-tail figure would be an unsupported interpolation and the p95 is carried as null. Nickel is recorded with only the FDA censored floor of <20 µg/kg: every reduced-fat-fluid-milk composite in the FDA Total Diet Study FY2018-FY2020 fell below the 20 µg/kg nickel reporting limit, so the honest floor is that reporting limit expressed as a left-censored bound and no positive occurrence value or upper bound is published for the commodity. Uranium is recorded as a reviewed data gap: FDA reports it below the 1 µg/kg reporting limit across all 27 composites and Marques et al. report it below detection in every sample, with no extractable quantitative value, so no distribution is published (the rice-uranium precedent).
+
+Elevated/industrial-region strata are described separately and are not folded into the central estimate: raw cow milk from eastern Turkey carried lead of 190-440 µg/kg and cadmium of 200-380 µg/kg ([[sources/yildiz-kucuk2024-minerals-heavy-metals-raw-cow-milk-mus|Yildiz Kucuk and Gokcek 2024]], 10 samples, all above the Turkish raw-milk lead limit and roughly an order of magnitude above every clean-market fluid-cow-milk survey), and Pakistani buffalo milk carried lead to 29 µg/kg, cadmium to 58 µg/kg, total arsenic to 198 µg/kg, and total mercury to 30 µg/kg with feed-category exceedances ([[sources/shahzad2025-buffalo-milk-trace-metals|Shahzad et al. 2025]]). These are contaminated-pasture and non-cow-species outliers, not characteristics of the reduced-fat-cow-milk commodity.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -149,7 +172,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -158,15 +181,15 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Milk, reduced fat, fluid" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 0 | in profile |
-| Cr | 27 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | in profile |
-| Pb | 27 | 0 | 1.7 | in profile |
-| U | 27 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 1.7 | in profile |
+| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
@@ -219,7 +242,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Milk, reduced fat, fluid (n=27); detectable concentrations for Pb |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Milk, reduced fat, fluid (n=27); single Pb detection at 1.7 µg/kg, all other analytes left-censored; supplies the Ni and U censored floors |
+| 2 | [[sources/starska2011-noxious-elements-milk-products-poland\|Starska et al. 2011]]. *Noxious Elements in Milk and Milk Products in Poland*, Polish Journal of Environmental Studies | 2011 | Peer-reviewed | PL clean-market fluid-milk Pb, Cd, tAs, tHg distributions (milk group n=75, undifferentiated by fat fraction); anchors the low European fluid-milk tail |
+| 3 | [[sources/salaheldin2025-multimatrix-foods-egypt\|Salahel din et al. 2025]]. *Assessment of toxic heavy metals in commonly consumed foods in Egypt and their implications for public health and safety*, Scientific Reports | 2025 | Peer-reviewed | EG retail-milk Pb, Cd, Cr, tAs (milk group n=4, undifferentiated by fat fraction); total-Cr central |
+| 4 | [[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals\|Hasan et al. 2022]]. *Determination of heavy metals in raw and pasteurized liquid milk of Bangladesh to assess the potential health risks*, Food Research | 2022 | Peer-reviewed | BD pasteurized-liquid-milk Pb, Cd, tAs central anchors; raw-milk and high-Cr values held as a separate South-Asian stratum |
+| 5 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | ES fat-fraction-matched non-organic skimmed cow-milk Pb anchor (33 µg/kg on the reconciled µg/g basis); U below detection |
+| 6 | [[sources/pankiewicz2012-thg-dairy-products-poland\|Pankiewicz 2012]]. *Monitoring of total mercury level in selected dairy products from the south-east regions of Poland*, Ecological Chemistry and Engineering A | 2012 | Peer-reviewed | PL fluid-milk total-mercury low-tail anchor (0.03–0.06 µg/kg by direct-mercury analyzer) |
+| 7 | [[sources/yildiz-kucuk2024-minerals-heavy-metals-raw-cow-milk-mus\|Yildiz Kucuk and Gokcek 2024]]. *Determination of Some Minerals and Heavy metals in Raw Cow's Milk Collected from Different Regions of Muş Province*, AKU J. Sci. Eng. | 2024 | Peer-reviewed | TR contaminated-pasture raw-cow-milk outlier (Pb 190–440, Cd 200–380 µg/kg); stratified out of the central estimate |
+| 8 | [[sources/shahzad2025-buffalo-milk-trace-metals\|Shahzad et al. 2025]]. *Assessment of hazardous trace metals and associated health risk as affected by feed intake in buffalo milk*, Scientific Reports 15:9841 | 2025 | Peer-reviewed | PK buffalo-milk feed-exceedance outlier (Pb to 29, Cd to 58, tAs to 198, tHg to 30 µg/kg); non-cow-species stratum, stratified out |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

@@ -14,14 +14,14 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 1.5]
     p95_ppb: 1.6
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [1.5, 4.3]
     p95_ppb: 5.1
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -35,21 +35,23 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 1.1]
     p95_ppb: 1.3
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 1]
+    p95_ppb: 1
     confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: fluid-chocolate-reduced-fat-milk-wet-weight
+    speciation: total-Hg-only
   Ni:
     status: populated
     typical_ppb: [47.2, 93.6]
     p95_ppb: 96.7
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -63,7 +65,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 35.4]
     p95_ppb: 39.5
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Sn:
@@ -75,18 +77,18 @@ contamination_profile:
     last_reviewed: 2026-05-12
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 1
 ---
 
@@ -126,18 +128,28 @@ Chocolate reduced-fat milk is a dairy-cocoa composite product whose metal burden
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=2 | 0–1.5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 1.5–4.3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — |
-| tAs | n=2 | 0–1.1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 47.2–93.6 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — |
-| Cr | n=2 | 0–35.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — |
-| U | n=2 | 0 | low | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=2 | 0–1.5 | 1.6 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 1.5–4.3 | 5.1 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — | — |
+| tAs | n=2 | 0–1.1 | 1.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=1 | <1 | <1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 47.2–93.6 | 96.7 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — | — |
+| Cr | n=2 | 0–35.4 | 39.5 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — | — |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The total-mercury and uranium cells were resynthesized on 2026-06-11 on a fluid chocolate reduced-fat milk wet-weight basis, the form in which the ingredient is placed on market. Values below the analytical reporting limit are treated as left-censored bounds, not as measured zeros.
+
+The earlier profile reported both analytes at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Milk, chocolate, reduced fat, fluid" (n=27), in which every sample fell below the reporting limit for mercury and for uranium and the below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limit 1 µg/kg for each). FDA is the only source in the corpus that names this fluid chocolate-milk composite; the cocoa- and chocolate-product literature routed elsewhere in the wiki measures lead, cadmium, nickel, and chromium in cocoa powder and solid chocolate, not mercury or uranium in fluid chocolate milk, so neither analyte has a non-FDA fluid-matrix occurrence value to pool.
+
+Total mercury is therefore carried at the honest FDA censored floor: all 27 composites fell below the 1 µg/kg mercury reporting limit, so the cell is recorded as a left-censored bound at that reporting limit rather than as a measured zero, at n_studies of 1 and low confidence pending a second fluid-chocolate-milk source. Total mercury is held distinct from methylmercury and is not derived from it; no speciated value exists for this matrix. The biological basis for the low result is consistent with the fluid-dairy literature, in which mercury transfer from feed to milk is strongly restricted, and the cocoa fraction is not a recognised mercury source.
+
+Uranium is recorded as a reviewed data gap: FDA reports it below the 1 µg/kg reporting limit across all 27 composites and no source in the corpus publishes an extractable uranium value for this commodity, so no distribution is published (the rice-uranium and whole-milk-uranium precedent). The cell carries null typical and 95th-percentile values at null confidence rather than an inferred number.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -149,7 +161,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -158,21 +170,21 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Milk, chocolate, reduced fat, fluid" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 1.1 | 7 | in profile |
-| Cr | 27 | 0 | 43 | in profile |
-| Ni | 27 | 39 | 120 | in profile |
-| Pb | 27 | 0 | 1.9 | in profile |
-| U | 27 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 1.4 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 1.1 | 1.5 | 2.2 | 4.28 | 5.1 | 7 | in profile |
+| Cr | 27 | 0 | 0 | 29 | 35.4 | 39.5 | 43 | in profile |
+| Ni | 27 | 39 | 47.2 | 62 | 93.6 | 96.7 | 120 | in profile |
+| Pb | 27 | 0 | 0 | 1.2 | 1.5 | 1.64 | 1.9 | in profile |
+| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 0 | 0 | 1.14 | 1.34 | 1.4 | in profile |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA TDS FY2018-FY2020 provides the primary quantitative reference with 27 composite samples of reduced-fat chocolate milk reporting: nickel median 62 ppb (max 120 ppb), cadmium median 2.2 ppb (max 7 ppb), lead median 1.2 ppb (max 1.9 ppb), chromium median 29 ppb (max 43 ppb), and total arsenic detectable at very low levels (max 1.4 ppb); uranium and total mercury were below reporting limits across all samples [[sources/fda2022-tds-elements-fy2018-fy2020]]. Variation across brands would be expected primarily from: the cocoa powder percentage in the formulation (higher cocoa content increases Ni, Cd, and Cr proportionally); the geographic origin of the cocoa used (Andean-origin cocoa carries higher Cd than West African); and natural variation in plain milk metal content by herd geography and feed quality (a minor contributor given dairy's very low baseline).
+The FDA TDS FY2018-FY2020 provides the primary quantitative reference with 27 composite samples of reduced-fat chocolate milk reporting: nickel median 62 ppb (p90 93.6 ppb, max 120 ppb), cadmium median 2.2 ppb (p90 4.28 ppb, max 7 ppb), lead median 1.2 ppb (p90 1.5 ppb, max 1.9 ppb), chromium median 29 ppb (p90 35.4 ppb, max 43 ppb), and total arsenic detectable at very low levels (p90 1.14 ppb, max 1.4 ppb); uranium and total mercury were below reporting limits across all samples [[sources/fda2022-tds-elements-fy2018-fy2020]]. Variation across brands would be expected primarily from: the cocoa powder percentage in the formulation (higher cocoa content increases Ni, Cd, and Cr proportionally); the geographic origin of the cocoa used (Andean-origin cocoa carries higher Cd than West African); and natural variation in plain milk metal content by herd geography and feed quality (a minor contributor given dairy's very low baseline).
 
 ## Processing effects
 
@@ -219,7 +231,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Milk, chocolate, reduced fat, fluid (n=27); detectable concentrations for Cd, Cr, Ni, Pb, tAs |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Milk, chocolate, reduced fat, fluid (n=27); detectable concentrations for Cd, Cr, Ni, Pb, tAs; left-censored floor (<1 µg/kg reporting limit) for tHg and U |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

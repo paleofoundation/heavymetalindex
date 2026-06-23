@@ -36,7 +36,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/research2024-research-open-access-y\|Kumar et al. 2024]]. *High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants*, Environmental Health | 2024 | Peer-reviewed | Cited reference from Environmental Health |
+| 1 | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|Kumar et al. 2024]]. *High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants*, Environmental Health | 2024 | Peer-reviewed | Cited reference from Environmental Health |
 | 2 | [[sources/frisbie2019-manganese-infant-formula-beverages\|Frisbie et al. 2019]]. *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*, PLOS ONE | 2019 | Peer-reviewed | US/FR/EU Mn occurrence in 44 infant formulas and young-child nutritional beverage products purchased in the United States (n=25) and France (n=19), selected... (n=44) |
 | 3 | [[sources/meyer2018-hydrolysed-rice-formula-arsenic\|Meyer et al. 2018]]. *Low inorganic arsenic in hydrolysed-rice formula used for cow's milk protein allergy*, Pediatric Allergy and Immunology | 2018 | Peer-reviewed | IT/FR/BE iAs occurrence in Commercially available hydrolysed-rice infant formula powders sourced from Italy, France, and Belgium; six distinct product variants, two batches... (n=10) |
 | 4 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal 2008;754:1-34 | 2008 | Government report | EU Al concentrations |
@@ -79,7 +79,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 [[sources/frisbie2019-manganese-infant-formula-beverages]] contributes Mn evidence for infant formula and young-child nutrition products, including soy- and rice-containing product contexts in the United States and France. It is strong Mn context but not a Pb/Cd/As/Hg contaminant screen.
 
-[[sources/research2024-research-open-access-y]] contributes tAs biomonitoring and dietary-source context from Bihar, India, where groundwater and staples contributed to infant exposure. It is not direct finished-product dairy-free formula composition. [[sources/trace2025-trace-element-intake-dairy-free]] is routed here as a dairy-free infant porridge trace-element source, but its page remains pending full-paper integration, so it should be used as a gap flag until exact values are extracted.
+[[sources/kumar2024-arsenic-breast-milk-bihar-gangetic]] contributes tAs biomonitoring and dietary-source context from Bihar, India, where groundwater and staples contributed to infant exposure. It is not direct finished-product dairy-free formula composition. [[sources/trace2025-trace-element-intake-dairy-free]] is routed here as a dairy-free infant porridge trace-element source, but its page remains pending full-paper integration, so it should be used as a gap flag until exact values are extracted.
 
 ## Broad Product Context: Author-Scope Index
 

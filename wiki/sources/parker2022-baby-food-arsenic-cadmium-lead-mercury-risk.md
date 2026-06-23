@@ -1,6 +1,11 @@
 ---
 type: source
 cite_key: parker2022-baby-food-arsenic-cadmium-lead-mercury-risk
+matrices: [baby-food, infant-food, toddler-food, grain-baby-food, fruit-baby-food, root-vegetable-baby-food, leguminous-vegetable-baby-food]
+sample_population: "36 baby and toddler food samples (n=9 per ingredient category: fruit, grain, leguminous vegetable, root vegetable) purchased from Pittsburgh PA area stores Dec 2018 – Mar 2019; infants 4 months to 3 years (Stages 1–4)"
+sample_n: 36
+license: "CC BY-NC-ND 4.0"
+raw_handle: papers-cube
 title: "Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods"
 authors: [Parker GH, Gillie CE, Miller JV, Badger DE, Kreider ML]
 year: 2022

@@ -8,18 +8,20 @@ category: fruit
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 46]
+    p95_ppb: 90
     confidence: medium
-    n_studies: 9
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-06-11
+    basis: raw-apple-with-peel-wet-weight
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 10]
+    p95_ppb: 30
     confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-06-11
+    basis: raw-apple-with-peel-wet-weight
   iAs:
     status: populated
     typical_ppb: [0, 0]
@@ -43,11 +45,12 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 360]
+    p95_ppb: 360
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-06-11
+    basis: raw-apple-with-peel-wet-weight
   Al:
     status: populated
     typical_ppb: [0, 1410]
@@ -57,11 +60,13 @@ contamination_profile:
     last_reviewed: 2026-05-13
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
+    typical_ppb: [0, 57]
+    p95_ppb: 126
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: raw-apple-with-peel-wet-weight
+    speciation_note: total-Cr-only; no Cr-VI measurement in corpus
   Sn:
     status: populated
     typical_ppb: [0, 16.4]
@@ -71,18 +76,18 @@ contamination_profile:
     last_reviewed: 2026-05-13
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [fruit-juices-apple-containing, fruit-purees]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 23
 ---
 
@@ -126,16 +131,28 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=9 | 0 | 0 | medium | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/napier2024-wanabana-lead-apple-cinnamon\|2]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|3]] |
-| Cd | n=7 | 0 | 0 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Pb | n=5 | <4–46 | 90 | medium | [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|3]] |
+| Cd | n=5 | <1–10 | 30 | medium | [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
 | iAs | n=4 | 0 | 0 | medium | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/houlihan2019-hbbf-whats-in-baby-food\|3]] |
 | tAs | n=6 | 0–5.4 | 8 | medium | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|3]] |
 | tHg | n=4 | 0 | 0 | medium | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/tan2022-carbon-dots-cd-hg-food\|3]] |
-| Ni | n=3 | 0 | 0 | high | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Ni | n=4 | <40–360 | 360 | low | [[sources/amer2019-egyptian-fruits-heavy-metals\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]], [[sources/unaegbu2016-fruit-heavy-metals-enugu\|3]] |
 | Al | n=1 | 0–1410 | 1645 | medium | — |
-| Cr | n=3 | 0 | 0 | high | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Cr | n=3 | <50–57 | 126 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Sn | n=1 | 0–16.4 | 20.8 | medium | — |
-| U | n=2 | 0 | 0 | high | — |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, cadmium, nickel, chromium, and uranium cells were resynthesized on 2026-06-11 on a raw apple-with-peel wet-weight basis, the form in which the fruit enters the ingredient supply chain and the basis FDA Total Diet Study Food 78 reports.
+
+Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The earlier profile reported lead, cadmium, nickel, chromium, and uranium at typical and 95th-percentile values of zero. Those figures were an artifact of the FDA Total Diet Study composites for raw apple, in which every sample (or all but one) fell below the reporting limit and the reported zeros were pooled as literal zeros. For lead, FDA reported all 27 composites below the 4 µg/kg reporting limit; for cadmium and uranium, all 27 below the 1 µg/kg reporting limit; for nickel, all 27 below the 40 µg/kg reporting limit; for chromium, 26 of 27 below the 50 µg/kg reporting limit with a single detect at 55 µg/kg ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The resynthesis replaces the literal zeros with a left-censored floor at the FDA reporting limit and recovers the upper distribution from primary fresh-fruit occurrence literature, in which all of these metals are low but non-zero in apple flesh.
+
+The lead floor is set at the FDA 4 µg/kg reporting limit; the central and upper distribution rests on Polish retail fresh apple ([[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]], fresh apple mean 9 µg/kg, maximum 24 µg/kg wet weight) and South Korean retail apple ([[sources/lee2023-south-korea-fresh-fruits-seven-metals|Lee et al. 2023]], apple was the highest-lead fruit of the fourteen surveyed at a mean of 46.4 µg/kg fresh weight). The 95th-percentile anchor is set from the Lublin orchard survey ([[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits|Sembratowicz et al. 2010]]), in which apple lead averaged 80 to 90 µg/kg fresh weight with 30 to 50 percent of individual lots above the EU 100 µg/kg maximum level and a documented range to 200 to 210 µg/kg in the highest lots. The cadmium floor is the FDA 1 µg/kg reporting limit; the upper distribution rests on the same Polish fresh-apple data (Rusin fresh apple mean 1 µg/kg, maximum 7.1 µg/kg; Sembratowicz apple fresh-weight mean about 9 to 10 µg/kg with a range to 30 µg/kg) and the Pakistani retail survey ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Rahim et al. 2020]], apple 6.5 µg/kg dry weight, the lowest-lead and a low-cadmium fruit in that study).
+
+Nickel and chromium are recovered at low confidence from a small set of fresh-fruit anchors against a censored FDA floor. Nickel rests on the Egyptian retail survey ([[sources/amer2019-egyptian-fruits-heavy-metals|Amer et al. 2019]]), in which apple nickel ranged 110 to 360 µg/kg fresh weight across four governorates and the estimated daily intake exceeded the tolerable daily intake in two of them; the Pakistani survey reports apple nickel at 10.6 µg/kg dry weight and a single Nigerian market apple at 50 µg/kg ([[sources/unaegbu2016-fruit-heavy-metals-enugu|Unaegbu et al. 2016]]). The wide spread between the Egyptian fresh-weight values and the other anchors, set against the fully censored FDA cell, caps confidence at low. Chromium is reported as total chromium only; no apple hexavalent-chromium measurement exists in the corpus, and Cr-VI is never inferred from total chromium. The chromium distribution rests on the South Korean survey, in which apple was the highest-chromium fruit at a mean of 56.7 µg/kg fresh weight and a maximum of 126.2 µg/kg, with the Pakistani apple at 41.7 µg/kg dry weight and the single FDA detect at 55 µg/kg corroborating the central estimate.
+
+Dried apple carries substantially higher per-gram metal loads than fresh apple because drying concentrates the fruit by weight loss; Rusin reports dried apple lead to 202 µg/kg and cadmium to 39 µg/kg on a dry-weight basis, and Mania reports imported dried apple total mercury to 16 µg/kg ([[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Mania et al. 2021]]). These dried-form values are recorded as a separate concentration stratum and are not folded into the fresh-apple percentiles above. Uranium is recorded as a reviewed data gap: the only apple uranium measurement in the corpus is the fully censored FDA Total Diet Study cell (all 27 composites below the 1 µg/kg reporting limit), and no primary fresh-fruit source reports an extractable quantitative apple uranium value, so no distribution is published.
 
 ## Routing
 

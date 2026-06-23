@@ -1,6 +1,9 @@
 ---
 type: source
 cite_key: eticha2018-infant-formula-metals-mekelle-ethiopia
+sample_population: "Five milk-based infant formula brands from Mekelle, Ethiopia for infants 6–12 months old"
+sample_n: 5
+raw_handle: FM_5941801
 title: "Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia"
 authors: ["Tadele Eticha", "Melat Afrasa", "Getu Kahsay", "Hailekiros Gebretsadik"]
 year: 2018

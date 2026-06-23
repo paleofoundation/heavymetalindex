@@ -6,8 +6,8 @@ aliases: [formula, Formula, "ingredients/formula"]
 category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-05-19
-provisional_reason: "heal-gaps: routing_unresolved entry from source abstract2020-content-dietary-exposure-toxic declared ingredient/infant-formula, no close-slug match"
-provisional_source: "[[sources/abstract2020-content-dietary-exposure-toxic]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source su2020-infant-formula-china-toxic-elements declared ingredient/infant-formula, no close-slug match"
+provisional_source: "[[sources/su2020-infant-formula-china-toxic-elements]]"
 contamination_profile:
   Pb:
     status: pending
@@ -118,9 +118,9 @@ _Not yet characterized — scorecard activates at 2 contributing A-tier sources.
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-19 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source abstract2020-content-dietary-exposure-toxic declared ingredient/infant-formula, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source su2020-infant-formula-china-toxic-elements declared ingredient/infant-formula, no close-slug match
 >
-> **Triggering source:** [[sources/abstract2020-content-dietary-exposure-toxic]]
+> **Triggering source:** [[sources/su2020-infant-formula-china-toxic-elements]]
 
 ## Literature scope
 
@@ -134,10 +134,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/mumtaz2025-infant-nutrition-trace-metals\|Mumtaz et al. 2025]]. *Occurrence and Risk Evaluation of Trace Metals in Infant Nutrition Sources in Rural and Urban Multan, Pakistan*, Food and Nutrition Insights | 2025 | Peer-reviewed | PK Pb, Cd, Ni, Zn, Fe occurrence in infant nutrition sources from rural and urban Multan, Pakistan |
-| 2 | [[sources/abstract2020-content-dietary-exposure-toxic\|Su et al. 2020]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods | 2020 | Peer reviewed journal | Cited reference from Foods |
-| 3 | [[sources/original2020-original-a\|Alharbi et al. 2020]]. *Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia*, Food Science & Nutrition | 2020 | Peer reviewed journal article | Cited reference from Food Science & Nutrition |
-| 4 | [[sources/estimated2015-estimated-exposure-arsenic-breastfed\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives | 2015 | Peer-reviewed | Cited reference from Environmental Health Perspectives |
-| 5 | [[sources/lodico2015-infant-formula-metals\|Lo et al. 2015]]. *Simultaneous Determination of As, Cu, Cr, Se, Sn, Cd, Sb and Pb Levels in Infant Formulas by ICP-MS after Microwave-Assisted Digestion: Method Validation*, Journal of Environmental & Analytical Toxicology | 2015 | Peer-reviewed | IT tAs, Cr, Sn, Cd, Pb, Sb occurrence in infant formula samples analyzed during ICP-MS method validation |
+| 2 | [[sources/alyasiri2024-infant-formula-heavy-metals\|Alyasiri 2024]]. *Detection of Aflatoxin M1 and Several Heavy Metals in Medical Infant Milk Formula Sold in Iraqi Markets*, International Journal of Pharmaceutical and Bio-Medical Science | 2024 | Peer-reviewed | IQ Pb, Cd occurrence in medical infant milk formula sold in Iraqi markets |
+| 3 | [[sources/su2020-infant-formula-china-toxic-elements\|Su et al. 2020]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods | 2020 | Peer reviewed journal | Cited reference from Foods |
+| 4 | [[sources/original2020-original-a\|Alharbi et al. 2020]]. *Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia*, Food Science & Nutrition | 2020 | Peer reviewed journal article | Cited reference from Food Science & Nutrition |
+| 5 | [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives | 2015 | Peer-reviewed | Cited reference from Environmental Health Perspectives |
+| 6 | [[sources/lodico2015-infant-formula-metals\|Lo et al. 2015]]. *Simultaneous Determination of As, Cu, Cr, Se, Sn, Cd, Sb and Pb Levels in Infant Formulas by ICP-MS after Microwave-Assisted Digestion: Method Validation*, Journal of Environmental & Analytical Toxicology | 2015 | Peer-reviewed | IT tAs, Cr, Sn, Cd, Pb, Sb occurrence in infant formula samples analyzed during ICP-MS method validation |
 <!-- END: hmi-source-legend -->
 
 ## Page history

@@ -1,6 +1,10 @@
 ---
 type: source
 cite_key: atsdr-lead-toxprofile-2020
+matrices: [blood, urine, dietary-intake, air, soil, water]
+sample_population: "Comprehensive toxicology synthesis; no primary sample collection"
+sample_n: null
+raw_handle: FM_4509523_Korean_research_project_on_the_integrated_exposure_assessmen
 title: "Toxicological Profile for Lead"
 authors: ["Agency for Toxic Substances and Disease Registry"]
 year: 2020
@@ -19,7 +23,7 @@ products: []
 jurisdictions: [US]
 superseded_by: null
 raw_handle_marker: FM_4509523_Korean_research_project_on_the_integrated_exposure_assessmen
-near_duplicates: ["[[sources/atsdr2020-lead-toxicological-profile]]"]
+near_duplicates: ["[[sources/atsdr-lead-toxprofile-2020]]"]
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null

@@ -2,6 +2,9 @@
 type: source
 raw_handle: FM_12378713
 cite_key: navaretnam-2025-rice-as-speciation
+matrices: [whole-food]
+sample_population: "30 rice samples (15 white, 15 brown) randomly purchased from local supermarkets in Klang Valley, Selangor, Malaysia, March-April 2022"
+sample_n: 30
 title: "Arsenic Speciation Using HPLC-ICP-MS in White and Brown Rice and Health Risk Assessment"
 authors: [Navaretnam R, Aris AZ, Shukor MFA, Norrrahim MNF, Knight VF, Chin TT, Isa NM, Looi LJ]
 year: 2025

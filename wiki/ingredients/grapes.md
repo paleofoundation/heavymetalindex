@@ -8,18 +8,20 @@ category: fruit
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 28]
+    p95_ppb: 84
     confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-06-11
+    basis: raw-grape-whole-berry-wet-weight
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 15]
+    p95_ppb: 30
     confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-06-11
+    basis: raw-grape-whole-berry-wet-weight
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -36,11 +38,13 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, null]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: raw-grape-whole-berry-wet-weight
+    speciation: total-Hg-only
   Ni:
     status: populated
     typical_ppb: [0, 0]
@@ -52,7 +56,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 1966]
     p95_ppb: 2411
-    confidence: low
+    confidence: medium
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
@@ -66,23 +70,23 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 15.3]
     p95_ppb: 16.5
-    confidence: low
+    confidence: medium
     n_studies: 1
     last_reviewed: 2026-05-13
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 15
 ---
 
@@ -116,24 +120,36 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 ## Why this commodity accumulates heavy metals
 
-Grapes (Vitis vinifera and related species) are a vine fruit whose metal burden arises from a combination of root uptake from vineyard soils and surface deposition on the thin skin. Grapevines are deep-rooted perennial crops that access subsoil mineral fractions over decades of growth, and vineyard soils accumulate heavy metals through two principal routes: application of copper-based fungicides (copper can co-carry arsenic impurities and displace other metals in soil chemistry), and in some historical viticultural regions, application of lead arsenate as a pesticide before its prohibition. The berry skin is thin relative to citrus rind or apple cuticle, providing less of a barrier to surface-deposited Pb from atmospheric deposition, road traffic, or spray residues. Total arsenic in grapes reflects both soil arsenic uptake through roots and historical pesticide residue patterns in vineyard soils. The dominant arsenic species in grape tissue is expected to be predominantly inorganic, unlike in marine food, because the organoarsenical metabolism pathways in terrestrial plants produce different speciation profiles than marine organisms. The FDA TDS data for seedless red/green grapes (n=27) shows tAs at a median of 3.7 ppb (max 9 ppb) as the most consistently detectable analyte in this matrix, with Ni detectable in some market samples [[sources/fda2022-tds-elements-fy2018-fy2020]].
+Grapes (Vitis vinifera and related species) are a vine fruit whose metal burden arises from a combination of root uptake from vineyard soils and surface deposition on the thin skin. Grapevines are deep-rooted perennial crops that access subsoil mineral fractions over decades of growth, and vineyard soils accumulate heavy metals through two principal routes: application of copper-based fungicides (copper can co-carry arsenic impurities and displace other metals in soil chemistry), and in some historical viticultural regions, application of lead arsenate as a pesticide before its prohibition. The berry skin is thin relative to citrus rind or apple cuticle, providing less of a barrier to surface-deposited Pb from atmospheric deposition, road traffic, or spray residues. Total arsenic in grapes reflects both soil arsenic uptake through roots and historical pesticide residue patterns in vineyard soils. The dominant arsenic species in grape tissue is expected to be predominantly inorganic, unlike in marine food, because the organoarsenical metabolism pathways in terrestrial plants produce different speciation profiles than marine organisms. The FDA TDS data for seedless red/green grapes (n=27) shows tAs at a median of 3.7 ppb (max 9 ppb) as the most consistently detectable analyte in this matrix, with Ni detected at the 95th percentile [[sources/fda2022-tds-elements-fy2018-fy2020]]. Lead, cadmium, total mercury, and uranium fall below their FDA reporting limits across that composite, but the European fresh-grape occurrence literature that measured grape by name detects lead and cadmium at low but non-zero concentrations; those below-limit FDA results are carried as left-censored bounds rather than as measured zeros (see the Synthesis basis and censoring treatment section).
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=8 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Cd | n=8 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| iAs | data gap | — | — | — |
-| tAs | n=4 | 0–7 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=3 | 0 | medium | [[sources/chen2024-trimodal-hg-food-sensor\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
-| Ni | n=5 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
-| Al | n=1 | 0–1966 | low | — |
-| Cr | n=5 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
-| Sn | n=1 | 0–15.3 | low | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|1]] |
-| U | n=2 | 0 | low | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=5 | <4–28 | 84 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|3]] |
+| Cd | n=5 | <1–15 | 30 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| iAs | data gap | — | — | — | — |
+| tAs | n=4 | 0–7.0 | 8.1 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=1 | <1 | — | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=5 | 0 | 44.1 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Al | n=1 | 0–1966 | 2411 | medium | — |
+| Cr | n=5 | 0 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Sn | n=1 | 0–15.3 | 16.5 | medium | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|1]] |
+| U | data gap | — | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, cadmium, total-mercury, and uranium cells were resynthesized on 2026-06-11 on a raw grape whole-berry wet-weight basis, the form in which table grapes enter the fresh-fruit and ingredient supply chain and the basis the FDA Total Diet Study reports for TDS Food 88, "Grapes, seedless, red/green, raw." Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. Inorganic arsenic is held distinct from total arsenic and remains a reviewed data gap; total mercury is held distinct from methylmercury and is not derived from it.
+
+The earlier profile reported lead, cadmium, total mercury, and uranium at typical and 95th-percentile values of zero. Those figures were an artifact of the FDA Total Diet Study composite for grapes (n=27), in which every composite (or all but one) fell below the reporting limit and the reported below-limit results were pooled as literal zeros: lead all 27 below the 4 µg/kg reporting limit, cadmium all 27 below 1 µg/kg, total mercury all 27 below 1 µg/kg, and uranium 26 of 27 below 1 µg/kg with a single detect at 5.2 µg/kg ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The resynthesis replaces the literal zeros with a left-censored floor at the FDA reporting limit and, for lead and cadmium, recovers the upper distribution from primary fresh-fruit occurrence literature that measured grape by name, in which both metals are low but non-zero in grape berries.
+
+Lead rests on three sources that report grape-specific values. The Romanian retail survey ([[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Bora et al. 2022]], ICP-MS, fresh weight) reports grape lead of 27.48 µg/kg in commercial-market grapes and 18.32 µg/kg in amateur-grown grapes; this commercial-market value sets the upper end of the typical range. The 95th-percentile anchor of 84 µg/kg is the single highest fresh-grape lead value named in the corpus, red grapes from Peru in the Polish monitoring survey ([[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Mania et al. 2021]], the explicit highest-lead fresh-grape lot in that dataset). The allotment-garden survey from Lublin ([[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits|Sembratowicz et al. 2010]]) reports white-grape lead at fresh-weight means of 60 µg/kg (city-centre) and 90 µg/kg (surrounding gardens) with a per-lot range to 150 µg/kg; these self-harvested allotment values corroborate the upper distribution but are not retail and are treated as an upper-tail prior rather than a central anchor. Two further sources confirm the low central tendency: Polish retail fresh grape ([[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]], fresh-grape lead mean 5 µg/kg, maximum 9 µg/kg wet weight) and a Pakistani low-industry baseline ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Rahim et al. 2020]], grape lead 107 µg/kg dry weight, the highest-lead of eleven fruits in that survey but on a dry-weight basis that overstates the wet-weight value). The lead typical range of 0 to 28 µg/kg spans the FDA censored floor to the Bora commercial-market central; confidence is held at medium given the consistent low central across retail surveys against a fully censored FDA composite and the wide allotment-versus-retail spread.
+
+Cadmium rests on the same grape-naming surveys but shows a sharply bimodal distribution between retail and allotment sources. Retail and market grape cadmium is low: the Romanian commercial-market value is 14.78 µg/kg fresh weight with the amateur arm below the limit of detection ([[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Bora et al. 2022]]), Polish retail fresh grape is 1 µg/kg with a maximum of 2 µg/kg ([[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]]), and the Pakistani low-industry baseline is 66 µg/kg dry weight ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Rahim et al. 2020]], which converts to a substantially lower wet-weight value). The cadmium typical range of 0 to 15 µg/kg spans the FDA censored floor to the Bora commercial-market central, and the 95th-percentile of 30 µg/kg is set at the top of the ordered retail-and-market set with margin above the Bora central-plus-spread. The dominant exception is the Lublin allotment survey ([[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits|Sembratowicz et al. 2010]]), in which white grape was the only species of five to exceed the EU cadmium maximum level, with fresh-weight means of 190 µg/kg (city-centre) and 220 µg/kg (surrounding gardens), a per-lot range of 60 to 290 µg/kg, and 100 percent of lots above the 50 µg/kg EU limit at both sites. These allotment-garden values are roughly four times the regulatory limit and an order of magnitude above retail grape cadmium; they are a documented site-and-source-specific outlier reflecting self-harvested produce on metal-bearing garden soils, are held outside the pooled retail percentiles, and bound the upper-tail exposure for garden-grown rather than commercial grape. Cadmium confidence is held at medium for the same reasons as lead.
+
+Total mercury and uranium remain at or below the FDA reporting limit with no grape-specific positive measurement in the corpus. Total mercury is recorded with the FDA 1 µg/kg reporting limit as a left-censored low bound ([0, null]) and no upper bound or 95th-percentile, at low confidence and a single contributor: the FDA composite is fully censored, and the only mercury data touching grape is a broad fresh-fruit-category aggregate, not a grape-specific value. The Polish monitoring survey reports total mercury for "fresh fruits other than berries" at a category mean of 0.3 to 1.7 µg/kg and a 90th percentile of 0.1 to 4 µg/kg ([[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Mania et al. 2021]]); that figure is a whole-fresh-fruit-category proxy and is recorded only as broad-aggregate context at low confidence, never relabeled as a grape value. The grape-matrix mercury sensor study in the corpus ([[sources/chen2024-trimodal-hg-food-sensor|Chen et al. 2024]]) measured only spiked grape juice for method validation and reports no unspiked occurrence value, so it contributes no occurrence baseline. No grape hexavalent-chromium or grape-specific methylmercury measurement exists; neither is inferred. Uranium is recorded as a reviewed data gap: the only grape uranium data in the corpus is the FDA Total Diet Study cell (26 of 27 composites below the 1 µg/kg reporting limit, a single detect at 5.2 µg/kg), and no primary non-FDA source reports an extractable quantitative grape uranium value, so no distribution is published (the rice-uranium and apple-uranium precedent).
 
 ## Routing
 
@@ -141,7 +157,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -154,15 +170,15 @@ FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix 
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Grapes, seedless, red/green, raw" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 0 | in profile |
-| Cr | 27 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 110 | in profile |
-| Pb | 27 | 0 | 0 | in profile |
-| U | 27 | 0 | 5.2 | in profile |
-| tAs | 27 | 0 | 9 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 0 | 0 | 0 | 44.1 | 110 | in profile |
+| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | 0 | 0 | 0 | 5.2 | in profile |
+| tAs | 27 | 0 | 0 | 3.7 | 7.04 | 8.1 | 9 | in profile |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
@@ -228,9 +244,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 11 | [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|Rahim et al. 2020]]. *Analysis of Toxic Heavy Metal Content of the Most Widely Consumed Fruits*, Journal of Physical Science | 2020 | Peer-reviewed | PK Cr, Ni, Cd, Pb occurrence in Fruit samples of 11 varieties (apple, apricot, banana, cherry, grapes, guava, lemon, mango, orange, peach, pomegranate) collected from... (n=308) |
 | 12 | [[sources/rezaei2020-fruits-markazi-essential-elements\|Rezaei et al. 2020]]. *Essential elements in the different type of fruits, soil and water samples collected from Markazi province, Iran: a health risk assessment study*, Quality Assurance and Safety of Crops & Foods | 2020 | Peer-reviewed | IR Fe, Cu, Zn, Mn, Cr occurrence in Five fruit types (peach, apple, grape, nectarine, and golden plum) plus paired soil and irrigation-water samples collected from... (n=30) |
 | 13 | [[sources/amer2019-egyptian-fruits-heavy-metals\|Amer et al. 2019]]. *Exposure assessment of heavy metal residues in some Egyptian fruits*, Toxicology Reports | 2019 | Peer-reviewed | EG Pb, Cd, Cr, Cu, Ni occurrence in 108 fresh fruit samples (apples, grapes, oranges; 36 per fruit type) purchased from four Egyptian governorates (Cairo, Giza,... (n=108) |
-| 14 | [[sources/salhotra2017-vegetables-fruits-heavy-metals\|Salhotra et al. 2017]]. *Determination of heavy metals contamination in some vegetables and fruits samples from the market of Jagdalpur, Chhattisgarh State*, IOSR Journal of Applied Chemistry | 2017 | Peer-reviewed | IN Pb, Cd, Cu, Fe, Co, Zn occurrence in vegetable and fruit samples from Jagdalpur market, Chhattisgarh State, India (n=nine commodities measured (5 vegetables + 4 fruits); abstract claims ten but tables enumerate nine) |
-| 15 | [[sources/bora2015-vineyard-wine-heavy-metals-romania\|F-D et al. 2015]]. *Vertical distribution and analysis of micro-, macroelements and heavy metals in the system soil-grapevine-wine in vineyard from North-West Romania*, Chemistry Central Journal | 2015 | Peer-reviewed | RO Pb, Cd, Cu, Zn, Ni, Co occurrence in Three Vitis vinifera cultivars (Feteasca albă, Feteasca regală, Riesling italian) grown in one 4-ha vineyard at Turulung (Satu... (n=3) |
-| 16 | [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|Sembratowicz et al. 2010]]. *Contents of Nitrates (III) and (V), Lead and Cadmium in Select Domestic Fruits*, Polish Journal of Environmental Studies | 2010 | Peer-reviewed | PL Pb, Cd occurrence in Apples, plums, strawberries, raspberries, and white grapes from allotment gardens in Lublin city center and surrounding rural areas,... (n=108) |
+| 14 | [[sources/bora2015-vineyard-wine-heavy-metals-romania\|F-D et al. 2015]]. *Vertical distribution and analysis of micro-, macroelements and heavy metals in the system soil-grapevine-wine in vineyard from North-West Romania*, Chemistry Central Journal | 2015 | Peer-reviewed | RO Pb, Cd, Cu, Zn, Ni, Co occurrence in Three Vitis vinifera cultivars (Feteasca albă, Feteasca regală, Riesling italian) grown in one 4-ha vineyard at Turulung (Satu... (n=3) |
+| 15 | [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|Sembratowicz et al. 2010]]. *Contents of Nitrates (III) and (V), Lead and Cadmium in Select Domestic Fruits*, Polish Journal of Environmental Studies | 2010 | Peer-reviewed | PL Pb, Cd occurrence in Apples, plums, strawberries, raspberries, and white grapes from allotment gardens in Lublin city center and surrounding rural areas,... (n=108) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

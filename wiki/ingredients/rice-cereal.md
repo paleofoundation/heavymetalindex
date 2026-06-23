@@ -24,7 +24,7 @@ contamination_profile:
     status: populated
     typical_ppb: [80, 200]
     p95_ppb: 323
-    confidence: medium
+    confidence: high
     n_studies: 6
     last_reviewed: 2026-05-16
   tHg:
@@ -66,7 +66,7 @@ contamination_profile:
     status: populated
     typical_ppb: [100, 300]
     p95_ppb: 400
-    confidence: medium
+    confidence: high
     n_studies: 5
     last_reviewed: 2026-05-16
   U:
@@ -118,18 +118,18 @@ This is a structural ingredient node created so product pages can link to a real
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=6 | 5–20 | medium | [[sources/fda-ctz-Pb-babyfood-2025\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/price2023-biokinetic-lead-baby-food-blls\|3]] |
-| Cd | n=4 | 10–60 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
-| iAs | n=6 | 80–200 | medium | [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|1]], [[sources/fda-iAs-rice-cereal-2020\|2]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|3]] |
-| tAs | n=5 | 100–300 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
-| tHg | n=3 | 0–2 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|2]], [[sources/codex-cxs-193-1995\|3]] |
-| Ni | data gap | — | — | — |
-| Al | data gap | — | — | — |
-| Cr | data gap | — | — | — |
-| Sn | n=2 | 0–50 | low | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=6 | 5–20 | 170 | medium | [[sources/fda-ctz-Pb-babyfood-2025\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/price2023-biokinetic-lead-baby-food-blls\|3]] |
+| Cd | n=4 | 10–60 | 190 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
+| iAs | n=6 | 80–200 | 323 | high | [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|1]], [[sources/fda-iAs-rice-cereal-2020\|2]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|3]] |
+| tAs | n=5 | 100–300 | 400 | high | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
+| tHg | n=3 | 0–2 | — | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|2]], [[sources/codex-cxs-193-1995\|3]] |
+| Ni | data gap | — | — | — | — |
+| Al | data gap | — | — | — | — |
+| Cr | data gap | — | — | — | — |
+| Sn | n=2 | 0–50 | — | low | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| U | data gap | — | — | — | — |
 
 ## Routing
 
@@ -137,7 +137,7 @@ This node is linked from [[products/baby-cereals-dry-rice-based]].
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -148,20 +148,19 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/fda-ctz-Pb-babyfood-2025\|FDA 2025]]. *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*, U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program | 2025 | Government guidance | FDA Closer to Zero Pb action levels for baby foods including rice-cereal-based products, regulatory context for Pb limits |
 | 2 | [[sources/meli2024-chemical-characterization-baby-food-italy\|Meli et al. 2024]]. *Chemical characterization of baby food consumed in Italy*, PLOS ONE | 2024 | Peer-reviewed | Measured Al, tAs, Cd, tHg, Ni, Pb, and Sn in cream of rice and other European baby foods (n=25); Cd and Pb below LOD in all samples |
-| 3 | [[sources/vincevica-gaile2024-libya-infant-toddler-food-arsenic\|Vincevica-Gaile et al. 2024]]. *Total Concentration of Arsenic in Commercial Infant/Toddler Food: A Preliminary Study in Libya*, BIO Web of Conferences | 2024 | Peer-reviewed | LY tAs occurrence in Commercial infant/toddler foods purchased in supermarkets in Sabha, Tripoli, and Benghazi, Libya. (n=36) |
-| 4 | [[sources/price2023-biokinetic-lead-baby-food-blls\|Price et al. 2023]]. *Extending Regulatory Biokinetic Lead Models towards Food Safety: Evaluation of Consumer Baby Food Contribution to Infant Blood Lead Levels and Variability*, Foods 12:2732 | 2023 | Peer-reviewed | Biokinetic modeling quantifying rice cereal Pb contribution to infant blood lead relative to soil, dust, and water sources |
-| 5 | [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|Parker et al. 2022]]. *Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods*, Toxicology Reports | 2022 | Peer-reviewed | Rice-based grain baby food tAs, Cd, tHg, and Pb concentrations with non-cancer hazard exceedances driven by iAs in rice cereal |
-| 6 | [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|Sadiq et al. 2021]]. *Multi-elemental risk assessment of various baby rice cereals: some cause for concern?*, Canadian Journal of Chemistry | 2021 | Peer-reviewed | In vitro bioaccessibility and HPLC-ICP-MS speciation of As, Cr, Pb, Cd, and Se in three Canadian commercial baby rice cereals |
-| 7 | [[sources/fda-iAs-rice-cereal-2020\|FDA 2020]]. *Inorganic Arsenic in Rice Cereals for Infants: Action Level; Guidance for Industry*, U.S. Food and Drug Administration, Federal Register Notice (Docket FDA-2016-D-1099) | 2020 | Government report | Establishes the US FDA action level for iAs in infant rice cereals at 100 ppb (dry weight basis), the primary regulatory limit for this commodity |
-| 8 | [[sources/fda2020-iAs-rice-cereal-supporting-doc\|FDA 2020]]. *Supporting Document for Action Level for Inorganic Arsenic in Rice Cereals for Infants*, U.S. Food and Drug Administration | 2020 | Government report | US iAs occurrence in Three infant-rice-cereal datasets: 81 samples from 2011-2013, 76 samples from 2014, and 149 samples from 2018. (n=306) |
-| 9 | [[sources/depa2019-baby-food-lead-cadmium\|Depa 2019]]. *Heavy Metals in Baby Foods and Cereal Products*, Turkish Journal of Computer and Mathematics Education | 2019 | Peer-reviewed | Pb, Cd occurrence in Baby foods and cereal products, including milk powder and cereal-based products (n=63) |
-| 10 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
-| 11 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports 8(1):7114 | 2018 | Peer-reviewed | Longitudinal biomarker study linking rice cereal introduction to elevated urinary iAs species in US infants during weaning transition |
-| 12 | [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\|Chiger et al. 2017]]. *Effects of Inorganic Arsenic in Infant Rice Cereal on Children's Neurodevelopment*, Abt Associates report prepared for Healthy Babies Bright Futures | 2017 | Agency report | Cost-benefit and IQ-loss modeling for US infant rice cereal iAs reduction underpinning the FDA action level rationale |
-| 13 | [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants\|Signes-Pastor et al. 2016]]. *Inorganic arsenic in rice-based products for infants and young children*, Food Chemistry 191:128-134 | 2016 | Peer-reviewed | Measured iAs in rice-based infant and young-child products (EU and US markets); primary occurrence data supporting the rice cereal iAs signal |
-| 14 | [[sources/unknown2016-risk-arsenic-rice-cereal\|Shibata et al. 2016]]. *Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S.*, International Journal of Environmental Research and Public Health | 2016 | Peer reviewed journal | Cited reference from International Journal of Environmental Research and Public Health |
-| 15 | [[sources/arsenic2012-arsenic-organic-foods-brown\|Arsenic 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US/EU iAs, tAs, DMA, MMA, Al, U concentrations (n=200) |
-| 16 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Codex international maximum levels for iAs, Cd, Pb, and Sn applicable to rice-based infant food matrices |
+| 3 | [[sources/price2023-biokinetic-lead-baby-food-blls\|Price et al. 2023]]. *Extending Regulatory Biokinetic Lead Models towards Food Safety: Evaluation of Consumer Baby Food Contribution to Infant Blood Lead Levels and Variability*, Foods 12:2732 | 2023 | Peer-reviewed | Biokinetic modeling quantifying rice cereal Pb contribution to infant blood lead relative to soil, dust, and water sources |
+| 4 | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|Parker et al. 2022]]. *Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods*, Toxicology Reports | 2022 | Peer-reviewed | Rice-based grain baby food tAs, Cd, tHg, and Pb concentrations with non-cancer hazard exceedances driven by iAs in rice cereal |
+| 5 | [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|Sadiq et al. 2021]]. *Multi-elemental risk assessment of various baby rice cereals: some cause for concern?*, Canadian Journal of Chemistry | 2021 | Peer-reviewed | In vitro bioaccessibility and HPLC-ICP-MS speciation of As, Cr, Pb, Cd, and Se in three Canadian commercial baby rice cereals |
+| 6 | [[sources/fda-iAs-rice-cereal-2020\|FDA 2020]]. *Inorganic Arsenic in Rice Cereals for Infants: Action Level; Guidance for Industry*, U.S. Food and Drug Administration, Federal Register Notice (Docket FDA-2016-D-1099) | 2020 | Government report | Establishes the US FDA action level for iAs in infant rice cereals at 100 ppb (dry weight basis), the primary regulatory limit for this commodity |
+| 7 | [[sources/fda2020-iAs-rice-cereal-supporting-doc\|FDA 2020]]. *Supporting Document for Action Level for Inorganic Arsenic in Rice Cereals for Infants*, U.S. Food and Drug Administration | 2020 | Government report | US iAs occurrence in Three infant-rice-cereal datasets: 81 samples from 2011-2013, 76 samples from 2014, and 149 samples from 2018. (n=306) |
+| 8 | [[sources/depa2019-baby-food-lead-cadmium\|Depa 2019]]. *Heavy Metals in Baby Foods and Cereal Products*, Turkish Journal of Computer and Mathematics Education | 2019 | Peer-reviewed | Pb, Cd occurrence in Baby foods and cereal products, including milk powder and cereal-based products (n=63) |
+| 9 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
+| 10 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Peer-reviewed | Longitudinal biomarker study linking rice cereal introduction to elevated urinary iAs species in US infants during weaning transition |
+| 11 | [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\|Chiger et al. 2017]]. *Effects of Inorganic Arsenic in Infant Rice Cereal on Children's Neurodevelopment*, Abt Associates report prepared for Healthy Babies Bright Futures | 2017 | Agency report | Cost-benefit and IQ-loss modeling for US infant rice cereal iAs reduction underpinning the FDA action level rationale |
+| 12 | [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants\|Signes-Pastor et al. 2016]]. *Inorganic arsenic in rice-based products for infants and young children*, Food Chemistry 191:128-134 | 2016 | Peer-reviewed | Measured iAs in rice-based infant and young-child products (EU and US markets); primary occurrence data supporting the rice cereal iAs signal |
+| 13 | [[sources/unknown2016-risk-arsenic-rice-cereal\|Shibata et al. 2016]]. *Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S.*, International Journal of Environmental Research and Public Health | 2016 | Peer reviewed journal | Cited reference from International Journal of Environmental Research and Public Health |
+| 14 | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\|Arsenic 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US/EU iAs, tAs, DMA, MMA, Al, U concentrations (n=200) |
+| 15 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Codex international maximum levels for iAs, Cd, Pb, and Sn applicable to rice-based infant food matrices |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -173,7 +172,7 @@ Rice cereal carries the rice-base [[ingredients/rice|rice]] inheritance of inorg
 
 Variance within rice cereal tracks four dimensions per the corpus. First, source-rice cultivar and origin region: rice cereal made from US southern long-grain (Texas, Arkansas, Louisiana, Mississippi) carries higher iAs than rice cereal made from California-grown medium-grain or Indian Basmati per [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|Signes-Pastor 2016]] EU and US market sampling, which documents geographic variance up to 3-fold in iAs across rice-based infant products. Second, milling fraction: white rice cereal carries lower iAs than brown rice cereal because polishing removes the bran fraction where iAs concentrates. Third, fortification-premix supplier: the [[sources/meli2024-chemical-characterization-baby-food-italy|Meli 2024]] Italian baby-food survey documents Pb below LOD in measured samples reflecting tight EU premix specifications, while [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf|Chiger 2017]] documents wider US-market variance reflecting historical premix-quality heterogeneity. Fourth, historical generation: post-FDA-CTZ-2020 production typically carries lower iAs than pre-2020 production because manufacturer responses to the 100 ppb action level drove reformulation and supply-chain tightening per [[sources/fda-iAs-rice-cereal-2020|FDA 2020]].
 
-The upper tail of the iAs distribution across the 6-study evidence base reflects the upper end of the post-FDA-CTZ commercial supply, at approximately 323 ppb; outliers above this level in older product or lower-tier emerging-market supply are documented in the broader corpus.
+The high-confidence p95 iAs of 323 ppb across the 6-study evidence base reflects the upper end of the post-FDA-CTZ commercial supply; outliers above this level in older product or lower-tier emerging-market supply are documented in the broader corpus.
 
 ## Processing effects
 
