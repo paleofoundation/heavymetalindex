@@ -73,3 +73,13 @@ App: The source can support Iraq poultry-product context for Cd, Cu, and Pb by t
 - Brand firewall: the study reports region-level backyard chicken samples and no brands or sellers. No brand-linked contamination values are reported here.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy lacks exact backyard-chicken-breast and backyard-chicken-liver ingredient/product slugs, so those remain matrix descriptors while routing uses broad `chicken`, `poultry`, `meat`, `organ-meats`, and `poultry-product`.
 - Source-internal caution: the Cu Results prose transposes some region/value wording, but Table 1 is internally clear; this page uses the table values for liver Cu.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [00ff477e3](https://github.com/paleofoundation/heavymetalindex/commit/00ff477e3) | 2026-06-09 | ingest: faraj2023-backyard-chicken-metals-iraq fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

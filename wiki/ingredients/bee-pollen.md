@@ -99,6 +99,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
+sources: 0
 updated: 2026-06-01
 ---
 
@@ -131,3 +132,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/sattler2016-bee-pollen-minerals-contaminants\|Sattler et al. 2016]]. *Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil*, Food Science and Technology 36(3):505-509 | 2016 | Peer-reviewed | BR Ba, Cd, Li, Pb, V, Cr, Cu, Mn, Mo, Zn, Fe occurrence in Five dehydrated bee-pollen samples from apiaries in Cruz Alta and Sao Gabriel, Rio Grande do Sul, Brazil, collected... (n=5) |
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| [6661f4696](https://github.com/paleofoundation/heavymetalindex/commit/6661f4696) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

@@ -58,3 +58,13 @@ App: Context-only mitigation evidence for household arsenic and iron treatment s
 Recovered under the 2026-06-10 inclusion-by-default rule from a prior `skip:not-food-occurrence` disposition. The old skip was too narrow because the paper is direct point-of-use treatment evidence for arsenic/iron-bearing waters.
 
 Products and ingredients are intentionally empty because the matrix is source water passed through charcoal filter media, not a market food or packaged-water product. The extracted text available in this run did not expose a fully legible table of arsenic before/after concentrations, so only numerically explicit statements visible in the extracted PDF are reproduced here.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c971e8abb](https://github.com/paleofoundation/heavymetalindex/commit/c971e8abb) | 2026-06-13 | recovery \| joshi2017 charcoal water filter |
+<!-- END: hmi-page-history -->

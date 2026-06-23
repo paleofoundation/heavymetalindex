@@ -61,3 +61,13 @@ App: Eligible for soybean and legume occurrence context after synthesis.
 ## Verification notes
 
 Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. The source is direct edible-bean occurrence evidence, not merely background toxicology.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6908c129a](https://github.com/paleofoundation/heavymetalindex/commit/6908c129a) | 2026-06-14 | recover source: soybean toxic elements |
+<!-- END: hmi-page-history -->

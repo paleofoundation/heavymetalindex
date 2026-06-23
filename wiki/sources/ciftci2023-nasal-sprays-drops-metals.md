@@ -74,3 +74,13 @@ App: The source can support a product-detail note for saline or sea-water nasal 
 - Speciation: ICP-MS measured elemental arsenic after direct liquid analysis. This page labels arsenic as `tAs` and does not infer inorganic arsenic.
 - Brand firewall: the source uses sample codes only; no brand names are reported or attached to values.
 - Closed-vocabulary note: no nasal-spray product slug exists in `docs/gpt-collaboration/taxonomy-snapshot.md`, so `products: []` is intentional and the matrix terms are descriptive.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b4580e424](https://github.com/paleofoundation/heavymetalindex/commit/b4580e424) | 2026-06-09 | ingest: June 8 product occurrence batch from MFK |
+<!-- END: hmi-page-history -->

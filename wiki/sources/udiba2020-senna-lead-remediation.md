@@ -57,3 +57,13 @@ App: Context-only mitigation and exposure-warning evidence.
 ## Verification notes
 
 Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. Products and ingredients remain intentionally empty because this is a remediation/contaminated-field paper rather than a market leafy-vegetable occurrence survey.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5c30b59fa](https://github.com/paleofoundation/heavymetalindex/commit/5c30b59fa) | 2026-06-14 | recover source: Senna lead remediation |
+<!-- END: hmi-page-history -->

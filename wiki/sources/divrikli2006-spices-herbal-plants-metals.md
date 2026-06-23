@@ -92,3 +92,13 @@ App: The source can support `spices`, `herbs-and-spices`, `herbal-botanicals`, a
 - Speciation check: the paper reports total elemental Cu, Cd, Pb, Ni, Cr, Fe, Mn, and Zn by flame AAS. Chromium is not reported as Cr-VI.
 - Brand firewall check: samples were collected from farmers rather than named brands; no brand or farm identity is attached to a contamination value.
 - Closed vocabulary check: `products`, `ingredients`, `metals`, and wiki-page links use slugs present in `docs/gpt-collaboration/taxonomy-snapshot.md`. Species-specific names such as rosemary, basil, laurel, marjoram, sheep sorrel, centaury, yarrow, marshmallow, lavender, and mullein do not all have closed ingredient slugs, so they remain matrix labels and table text only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [607bef219](https://github.com/paleofoundation/heavymetalindex/commit/607bef219) | 2026-06-09 | ingest: divrikli2006-spices-herbal-plants-metals fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

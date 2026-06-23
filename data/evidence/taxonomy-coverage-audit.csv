@@ -8,13 +8,22 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 1,Infant and Child Foods (Ages 0-5),7,Mixed meals (meat & grain combos),mixed-meals,exact,fruit-purees.md,fruit-purees,1,7,
 1,Infant and Child Foods (Ages 0-5),8,Fruit juice (not canned),fruit-juice-not-canned,exact,non-root-vegetable-purees.md,non-root-vegetable-purees,1,8,
 1,Infant and Child Foods (Ages 0-5),9,Teething & snacks (rice-based and non-rice),teething-and-snacks,exact,root-vegetable-purees.md,root-vegetable-purees,1,9,
-2,Infant and Child Personal Care (Ages 0-5),1,Baby lotion/cream,baby-lotion-cream,exact,baby-lotion-cream.md,baby-lotion-cream,2,1,
+2,Infant and Child Personal Care (Ages 0-5),1,Baby lotion and cream,baby-lotion-cream,exact,baby-lotion-cream.md,baby-lotion-cream,2,1,
 2,Infant and Child Personal Care (Ages 0-5),2,Baby oil,baby-oil,exact,baby-oil.md,baby-oil,2,2,
-2,Infant and Child Personal Care (Ages 0-5),3,Baby powder,baby-powder,exact,baby-powder-cornstarch.md,baby-powder-cornstarch,2,3,
-2,Infant and Child Personal Care (Ages 0-5),4,Baby shampoo/body wash,baby-shampoo-body-wash,exact,baby-talcum-powder.md,baby-talcum-powder,2,4,
-2,Infant and Child Personal Care (Ages 0-5),5,Baby wipes,baby-wipes,exact,baby-shampoo-body-wash.md,baby-shampoo-body-wash,2,5,
-2,Infant and Child Personal Care (Ages 0-5),6,Diaper cream/ointment,diaper-cream,exact,baby-wipes.md,baby-wipes,2,6,
-2,Infant and Child Personal Care (Ages 0-5),7,Baby sunscreen,baby-sunscreen,exact,diaper-cream-non-zno.md,diaper-cream-non-zno,2,7,
+2,Infant and Child Personal Care (Ages 0-5),3,"Baby powder, cornstarch base (clean counterpart)",baby-powder-cornstarch,exact,baby-powder-cornstarch.md,baby-powder-cornstarch,2,3,
+2,Infant and Child Personal Care (Ages 0-5),4,"Baby talcum powder (talc, dirty)",baby-talcum-powder,exact,baby-talcum-powder.md,baby-talcum-powder,2,4,
+2,Infant and Child Personal Care (Ages 0-5),5,Baby shampoo and body wash,baby-shampoo-body-wash,exact,baby-shampoo-body-wash.md,baby-shampoo-body-wash,2,5,
+2,Infant and Child Personal Care (Ages 0-5),6,Baby wipes,baby-wipes,exact,baby-wipes.md,baby-wipes,2,6,
+2,Infant and Child Personal Care (Ages 0-5),7,"Diaper cream, non-ZnO",diaper-cream-non-zno,exact,diaper-cream-non-zno.md,diaper-cream-non-zno,2,7,
+2,Infant and Child Personal Care (Ages 0-5),8,"Diaper cream, ZnO-based",diaper-cream-zno,exact,diaper-cream-zno.md,diaper-cream-zno,2,8,
+2,Infant and Child Personal Care (Ages 0-5),9,"Baby sunscreen, chemical UV filters (clean)",baby-sunscreen-chemical,exact,baby-sunscreen-chemical.md,baby-sunscreen-chemical,2,9,
+2,Infant and Child Personal Care (Ages 0-5),10,"Baby sunscreen, mineral UV filters (dirty)",baby-sunscreen-mineral,exact,baby-sunscreen-mineral.md,baby-sunscreen-mineral,2,10,
+2,Infant and Child Personal Care (Ages 0-5),11,Children's toothpaste,toothpaste,exact,toothpaste.md,toothpaste,2,11,
+2,Infant and Child Personal Care (Ages 0-5),12,Children's face paint,face-paint,exact,face-paint.md,face-paint,2,12,
+2,Infant and Child Personal Care (Ages 0-5),13,Children's makeup,childrens-makeup,exact,childrens-makeup.md,childrens-makeup,2,13,
+2,Infant and Child Personal Care (Ages 0-5),14,Children's nail polish,childrens-nail-polish,exact,childrens-nail-polish.md,childrens-nail-polish,2,14,
+2,Infant and Child Personal Care (Ages 0-5),15,"Children's lip balm, plain",childrens-lip-balm-plain,exact,childrens-lip-balm-plain.md,childrens-lip-balm-plain,2,15,
+2,Infant and Child Personal Care (Ages 0-5),16,"Children's lip balm, mineral-bearing",childrens-lip-balm-mineral-bearing,exact,childrens-lip-balm-mineral-bearing.md,childrens-lip-balm-mineral-bearing,2,16,
 3,"Grains, Cereals, and Rice Products",1,"Flour (wheat, corn, other)",flour-non-rice,exact,flour-non-rice.md,flour-non-rice,3,1,scaffold
 3,"Grains, Cereals, and Rice Products",2,Bread and baked goods,bread-and-baked-goods,exact,bread-and-baked-goods.md,bread-and-baked-goods,3,2,scaffold
 3,"Grains, Cereals, and Rice Products",3,Pasta (wheat-based),pasta-wheat-based,exact,pasta-wheat-based.md,pasta-wheat-based,3,3,scaffold
@@ -24,44 +33,52 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 3,"Grains, Cereals, and Rice Products",7,"Rice (white, brown, wild — bulk grain)",rice-bulk-grain,exact,rice-bulk-grain.md,rice-bulk-grain,3,7,scaffold
 3,"Grains, Cereals, and Rice Products",8,Rice snacks/crackers,rice-snacks-crackers,exact,rice-snacks-crackers.md,rice-snacks-crackers,3,8,scaffold
 3,"Grains, Cereals, and Rice Products",9,Rice noodles,rice-noodles,exact,rice-noodles.md,rice-noodles,3,9,scaffold
-3,"Grains, Cereals, and Rice Products",10,Rice beverages (rice milk),rice-beverages-rice-milk,exact,rice-beverages-rice-milk.md,rice-beverages-rice-milk,3,10,scaffold
+3,"Grains, Cereals, and Rice Products",10,Rice beverages (rice milk),rice-beverages-rice-milk,exact,snacks-general.md,snacks-general,3,10,scaffold
 3,"Grains, Cereals, and Rice Products",11,"Other grain products (oat, millet, quinoa, barley)",other-grain-products,exact,other-grain-products.md,other-grain-products,3,11,scaffold
+3,"Grains, Cereals, and Rice Products",12,"Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice clean counterpart to rice-snacks",grain-based-snacks,exact,snack-bars-energy-bars.md,snack-bars-energy-bars,3,12,
 4,"Fruits, Vegetables, and Produce",1,Fresh/frozen fruits,fresh-fruit,exact,fresh-fruit.md,fresh-fruit,4,1,
 4,"Fruits, Vegetables, and Produce",2,Dried fruit,dried-fruit,exact,dried-fruit.md,dried-fruit,4,2,
-4,"Fruits, Vegetables, and Produce",3,"Fruit snacks (fruit leather, gummies not positioned as supplements)",fruit-snacks,exact,fruit-snacks.md,fruit-snacks,4,3,
-4,"Fruits, Vegetables, and Produce",4,Leafy/green vegetables,leafy-vegetables-other,exact,leafy-vegetables-other.md,leafy-vegetables-other,4,4,
-4,"Fruits, Vegetables, and Produce",5,"Non-root vegetables (tomatoes, peppers, squash)",non-root-vegetables,exact,spinach.md,spinach,4,5,
-4,"Fruits, Vegetables, and Produce",6,"Root/tuber vegetables (carrots, potatoes, beets, sweet potatoes)",root-tuber-vegetables,exact,non-root-vegetables.md,non-root-vegetables,4,6,
-4,"Fruits, Vegetables, and Produce",7,"Legumes/pulses (beans, lentils, chickpeas) and derived foods",legumes-pulses-other,exact,root-tuber-vegetables.md,root-tuber-vegetables,4,7,
-4,"Fruits, Vegetables, and Produce",8,"Nuts and seeds (whole, raw, roasted)",nuts-seeds-other,exact,legumes-pulses-other.md,legumes-pulses-other,4,8,
-4,"Fruits, Vegetables, and Produce",9,"Nut and seed butters (peanut butter, almond butter, tahini)",nut-seed-butters-other,exact,soy-products.md,soy-products,4,9,
-5,Beverages,1,"Fruit juices (apple, orange, grape)",fruit-juices-general,exact,fruit-juices-non-apple.md,fruit-juices-non-apple,5,1,
-5,Beverages,2,Vegetable juices,vegetable-juices,exact,fruit-juices-apple-containing.md,fruit-juices-apple-containing,5,2,
-5,Beverages,3,"Plant milks (oat, almond, soy, coconut)",plant-milks-general,exact,vegetable-juices-non-root.md,vegetable-juices-non-root,5,3,
-5,Beverages,4,Flavored waters,flavored-waters,exact,vegetable-juices-root-vegetable-containing.md,vegetable-juices-root-vegetable-containing,5,4,
-5,Beverages,5,Sports/energy drinks,sports-energy-drinks,exact,plant-milks-non-soy-non-rice.md,plant-milks-non-soy-non-rice,5,5,
-5,Beverages,6,Tea (when sold as conventional food with Nutrition Facts panel),tea-conventional,exact,plant-milks-soy-based.md,plant-milks-soy-based,5,6,
-5,Beverages,7,"Coffee (ground, instant, brewed)",coffee,exact,plant-milks-rice-based.md,plant-milks-rice-based,5,7,
-5,Beverages,8,Soft drinks/carbonated beverages,soft-drinks-carbonated-beverages,exact,flavored-waters.md,flavored-waters,5,8,
-5,Beverages,9,Kombucha and fermented beverages,kombucha-and-fermented-beverages,exact,sports-energy-drinks.md,sports-energy-drinks,5,9,
+4,"Fruits, Vegetables, and Produce",3,Fruit snacks,fruit-snacks,exact,fruit-snacks.md,fruit-snacks,4,3,
+4,"Fruits, Vegetables, and Produce",4,"Leafy/green vegetables, other (clean vs spinach)",leafy-vegetables-other,exact,leafy-vegetables-other.md,leafy-vegetables-other,4,4,
+4,"Fruits, Vegetables, and Produce",5,"Spinach (Cd, dirty)",spinach,exact,spinach.md,spinach,4,5,
+4,"Fruits, Vegetables, and Produce",6,Non-root vegetables,non-root-vegetables,exact,non-root-vegetables.md,non-root-vegetables,4,6,
+4,"Fruits, Vegetables, and Produce",7,Root and tuber vegetables,root-tuber-vegetables,exact,root-tuber-vegetables.md,root-tuber-vegetables,4,7,
+4,"Fruits, Vegetables, and Produce",8,"Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives)",pickled-fermented-vegetables,exact,pickled-fermented-vegetables.md,pickled-fermented-vegetables,4,8,scaffold
+5,Beverages,1,"Fruit juices, non-apple",fruit-juices-non-apple,exact,fruit-juices-non-apple.md,fruit-juices-non-apple,5,1,
+5,Beverages,2,"Fruit juices, apple-containing (iAs)",fruit-juices-apple-containing,exact,fruit-juices-apple-containing.md,fruit-juices-apple-containing,5,2,
+5,Beverages,3,"Vegetable juices, non-root",vegetable-juices-non-root,exact,vegetable-juices-non-root.md,vegetable-juices-non-root,5,3,
+5,Beverages,4,"Vegetable juices, root-vegetable-containing",vegetable-juices-root-vegetable-containing,exact,vegetable-juices-root-vegetable-containing.md,vegetable-juices-root-vegetable-containing,5,4,
+5,Beverages,5,"Plant milks, non-soy non-rice",plant-milks-non-soy-non-rice,exact,plant-milks-non-soy-non-rice.md,plant-milks-non-soy-non-rice,5,5,
+5,Beverages,6,"Plant milks, soy-based",plant-milks-soy-based,exact,plant-milks-soy-based.md,plant-milks-soy-based,5,6,
+5,Beverages,7,"Plant milks, rice-based (RETIRED -> Cat 3 rice beverages)",plant-milks-rice-based,exact,plant-milks-rice-based.md,plant-milks-rice-based,5,7,
+5,Beverages,8,Flavored waters,flavored-waters,exact,flavored-waters.md,flavored-waters,5,8,
+5,Beverages,9,Sports/energy drinks,sports-energy-drinks,exact,sports-energy-drinks.md,sports-energy-drinks,5,9,
+5,Beverages,10,Herbal/botanical infusions,herbal-botanical-infusions,exact,tea-infusions.md,tea-infusions,5,10,
+5,Beverages,11,True tea (Camellia sinensis),true-tea-camellia-sinensis,exact,true-tea-camellia-sinensis.md,true-tea-camellia-sinensis,5,11,
+5,Beverages,12,Matcha,matcha,exact,matcha.md,matcha,5,12,
+5,Beverages,13,Coffee,coffee,exact,coffee.md,coffee,5,13,
+5,Beverages,14,Soft drinks/carbonated beverages,soft-drinks-carbonated-beverages,exact,soft-drinks-carbonated-beverages.md,soft-drinks-carbonated-beverages,5,14,
+5,Beverages,15,"Fermented beverages, non-tea",fermented-beverages-non-tea-based,exact,fermented-beverages-non-tea-based.md,fermented-beverages-non-tea-based,5,15,
+5,Beverages,16,"Kombucha, tea-based",kombucha-tea-based,exact,kombucha-tea-based.md,kombucha-tea-based,5,16,
+5,Beverages,17,Cocoa/hot-chocolate beverage mixes and malted drink powders,cocoa-beverage-mixes,exact,cocoa-beverage-mixes.md,cocoa-beverage-mixes,5,17,scaffold
 6,Seafood,1,"Fish — freshwater (tilapia, catfish, trout)",fish-freshwater,exact,fish-freshwater.md,fish-freshwater,6,1,locked
 6,Seafood,2,"Fish — marine, non-predatory (sardines, anchovies, salmon, cod)",fish-marine-non-predatory,exact,fish-marine-non-predatory.md,fish-marine-non-predatory,6,2,locked
 6,Seafood,3,"Fish — marine, predatory (tuna, swordfish, shark, king mackerel)",fish-marine-predatory,exact,fish-marine-predatory.md,fish-marine-predatory,6,3,locked
 6,Seafood,4,"Shellfish (shrimp, crab, lobster, clams, oysters, mussels)",shellfish,exact,shellfish.md,shellfish,6,4,locked
 6,Seafood,5,"Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)",seaweed-kelp-foods,exact,seaweed-kelp-foods.md,seaweed-kelp-foods,6,5,locked
-6,Seafood,6,Canned seafood (with tin flag),canned-seafood,exact,canned-seafood.md,canned-seafood,6,6,locked
-7,"Oils, Condiments, and Specialty Foods",1,Olive oil,olive-oil,exact,olive-oil.md,olive-oil,7,1,locked
-7,"Oils, Condiments, and Specialty Foods",2,"Other cooking oils (canola, sunflower, coconut, avocado, sesame)",cooking-oils-other,exact,cooking-oils-other.md,cooking-oils-other,7,2,locked
-7,"Oils, Condiments, and Specialty Foods",3,Butter and ghee,butter-and-ghee,exact,butter-and-ghee.md,butter-and-ghee,7,3,locked
-7,"Oils, Condiments, and Specialty Foods",4,"Honey and syrups (maple, agave, molasses)",honey-and-syrups,exact,honey.md,honey,7,4,locked
-7,"Oils, Condiments, and Specialty Foods",5,Vinegar,vinegar,exact,vinegar.md,vinegar,7,5,locked
-7,"Oils, Condiments, and Specialty Foods",6,"Condiments (hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)",condiments-general,exact,condiments-general.md,condiments-general,7,6,scaffold
-7,"Oils, Condiments, and Specialty Foods",7,"Cocoa/chocolate products (cocoa powder, dark chocolate, milk chocolate, chocolate chips)",cocoa-chocolate-products,exact,chocolate.md,chocolate,7,7,locked
-7,"Oils, Condiments, and Specialty Foods",8,"Herbs/spices/dried seasonings (turmeric, cinnamon, paprika, oregano, cumin, chili powder, pepper)",herbs-spices-dried-seasonings,exact,spices.md,spices,7,8,locked
-7,"Oils, Condiments, and Specialty Foods",9,"Salt (table, sea, Himalayan)",salt,exact,salt.md,salt,7,9,locked
-7,"Oils, Condiments, and Specialty Foods",10,"Snacks (crackers, granola/snack bars, cookies, chips, popcorn — when not primarily a grain or produce product)",snacks-general,by_slug,snacks-general.md,snacks-general,NaN,NaN,
+6,Seafood,6,Canned seafood (with tin flag),canned-seafood,exact,canned-seafood.md,canned-seafood,6,6,dissolved
+7,"Oils, Condiments, and Specialty Foods",1,Olive oil,olive-oil,by_slug,olive-oil.md,olive-oil,30,1,locked
+7,"Oils, Condiments, and Specialty Foods",2,"Other cooking oils (canola, sunflower, coconut, avocado, sesame)",cooking-oils-other,by_slug,cooking-oils-other.md,cooking-oils-other,30,2,locked
+7,"Oils, Condiments, and Specialty Foods",3,Butter and ghee,butter-and-ghee,by_slug,butter-and-ghee.md,butter-and-ghee,24,9,locked
+7,"Oils, Condiments, and Specialty Foods",4,"Honey and syrups (maple, agave, molasses)",honey-and-syrups,by_alias,honey.md,honey,31,1,locked
+7,"Oils, Condiments, and Specialty Foods",5,Vinegar,vinegar,by_slug,vinegar.md,vinegar,32,1,locked
+7,"Oils, Condiments, and Specialty Foods",6,"Condiments (hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)",condiments-general,by_slug,condiments-general.md,condiments-general,32,6,scaffold
+7,"Oils, Condiments, and Specialty Foods",7,"Cocoa/chocolate products (cocoa powder, dark chocolate, milk chocolate, chocolate chips)",cocoa-chocolate-products,by_alias,chocolate.md,chocolate,33,1,locked
+7,"Oils, Condiments, and Specialty Foods",8,"Herbs/spices/dried seasonings (turmeric, cinnamon, paprika, oregano, cumin, chili powder, pepper)",herbs-spices-dried-seasonings,by_alias,spices.md,spices,34,1,locked
+7,"Oils, Condiments, and Specialty Foods",9,"Salt (table, sea, Himalayan)",salt,by_slug,salt.md,salt,34,2,locked
+7,"Oils, Condiments, and Specialty Foods",10,"Snacks (crackers, granola/snack bars, cookies, chips, popcorn — when not primarily a grain or produce product)",snacks-general,by_slug,snacks-general.md,snacks-general,3,10,scaffold
 7,"Oils, Condiments, and Specialty Foods",11,"Canned foods, general (canned tomatoes, beans, soups — with tin flag)",canned-foods-general,by_slug,canned-foods-general.md,canned-foods-general,NaN,NaN,
-7,"Oils, Condiments, and Specialty Foods",12,"Mixed meals/prepared foods (frozen dinners, boxed meals, ready-to-eat)",mixed-meals-prepared-foods,by_slug,mixed-meals-prepared-foods.md,mixed-meals-prepared-foods,NaN,NaN,
+7,"Oils, Condiments, and Specialty Foods",12,"Mixed meals/prepared foods (frozen dinners, boxed meals, ready-to-eat)",mixed-meals-prepared-foods,by_slug,mixed-meals-prepared-foods.md,mixed-meals-prepared-foods,35,1,
 8,Water and Water-Based Products,1,"Bottled drinking water (purified, spring, artesian)",bottled-drinking-water,exact,bottled-drinking-water.md,bottled-drinking-water,8,1,scaffold
 8,Water and Water-Based Products,2,Mineral water,mineral-water,exact,mineral-water.md,mineral-water,8,2,scaffold
 8,Water and Water-Based Products,3,Sparkling/carbonated water (unflavored),sparkling-carbonated-water,exact,sparkling-carbonated-water.md,sparkling-carbonated-water,8,3,scaffold
@@ -93,7 +110,8 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 11,"Meat, Poultry, and Eggs",5,"Game meats (venison, bison, rabbit)",game-meats,exact,game-meats.md,game-meats,11,5,scaffold
 11,"Meat, Poultry, and Eggs",6,Eggs,eggs-product,exact,eggs-product.md,eggs-product,11,6,scaffold
 11,"Meat, Poultry, and Eggs",7,"Processed meats (sausage, deli meat, bacon, hot dogs)",processed-meats,exact,processed-meats.md,processed-meats,11,7,scaffold
-11,"Meat, Poultry, and Eggs",8,Canned meats (with tin flag),canned-meats,by_alias,canned-fish.md,canned-fish,,,
+11,"Meat, Poultry, and Eggs",8,Canned meats (with tin flag),canned-meats,exact,canned-meats.md,canned-meats,11,8,scaffold
+11,"Meat, Poultry, and Eggs",9,"Plant-based meat alternatives (burgers, sausages, nuggets; pea/soy/wheat-protein base)",plant-based-meat-alternatives,exact,plant-based-meat-alternatives.md,plant-based-meat-alternatives,11,9,scaffold
 12,Household Cleaning and Dishwashing,1,All-purpose cleaners,all-purpose-cleaners,exact,all-purpose-cleaners.md,all-purpose-cleaners,12,1,scaffold
 12,Household Cleaning and Dishwashing,2,Kitchen/countertop cleaners,kitchen-countertop-cleaners,exact,kitchen-countertop-cleaners.md,kitchen-countertop-cleaners,12,2,scaffold
 12,Household Cleaning and Dishwashing,3,Bathroom/tub/tile cleaners,bathroom-tub-tile-cleaners,exact,bathroom-tub-tile-cleaners.md,bathroom-tub-tile-cleaners,12,3,scaffold
@@ -114,6 +132,7 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 12,Household Cleaning and Dishwashing,18,Drain maintainers/cleaners (including biological-based),drain-maintainers-cleaners,exact,drain-maintainers-cleaners.md,drain-maintainers-cleaners,12,18,scaffold
 12,Household Cleaning and Dishwashing,19,Odor removers for hard surfaces,odor-removers-hard-surfaces,exact,odor-removers-hard-surfaces.md,odor-removers-hard-surfaces,12,19,scaffold
 12,Household Cleaning and Dishwashing,20,Other household specialty cleaners (by functional use-case),household-specialty-cleaners-other,exact,household-specialty-cleaners-other.md,household-specialty-cleaners-other,12,20,scaffold
+12,Household Cleaning and Dishwashing,21,"Disinfectants and sanitizers (EPA-registered antimicrobial sprays, wipes, concentrates)",disinfectants-sanitizers,exact,disinfectants-sanitizers.md,disinfectants-sanitizers,12,21,scaffold
 13,Cosmetics and Personal Care — Leave-on,1,"Fragrance preparations (perfumes, colognes, body sprays)",fragrance-preparations,exact,fragrance-preparations.md,fragrance-preparations,13,1,scaffold
 13,Cosmetics and Personal Care — Leave-on,2,Dusting/talc powders (adult),dusting-talc-powders-adult,exact,dusting-talc-powders-adult.md,dusting-talc-powders-adult,13,2,scaffold
 13,Cosmetics and Personal Care — Leave-on,3,"Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)",face-neck-leave-on-skin-care,exact,face-neck-leave-on-skin-care.md,face-neck-leave-on-skin-care,13,3,scaffold
@@ -121,14 +140,18 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 13,Cosmetics and Personal Care — Leave-on,5,"Makeup — foundation, powders, blush/rouge",makeup-foundation-powders-blush,exact,makeup-foundation-powders-blush.md,makeup-foundation-powders-blush,13,5,scaffold
 13,Cosmetics and Personal Care — Leave-on,6,"Makeup — body/leg paints, bases, fixatives (including airbrush)",makeup-body-paints-bases-fixatives,exact,makeup-body-paints-bases-fixatives.md,makeup-body-paints-bases-fixatives,13,6,scaffold
 13,Cosmetics and Personal Care — Leave-on,7,"Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)",eye-makeup,exact,eye-makeup.md,eye-makeup,13,7,scaffold
-13,Cosmetics and Personal Care — Leave-on,8,"Lip products (lipstick, gloss, lip balm)",lip-products,by_alias,lipstick.md,lipstick,,,
+13,Cosmetics and Personal Care — Leave-on,8,"Lip products (lipstick, gloss, lip balm)",lipstick,exact,lipstick.md,lipstick,13,8,scaffold
 13,Cosmetics and Personal Care — Leave-on,9,"Deodorants (sticks, roll-ons, gels, creams, wipes, sprays)",deodorants,exact,deodorants.md,deodorants,13,9,scaffold
 13,Cosmetics and Personal Care — Leave-on,10,"Sun/suntan products (including spray, self-tan, airbrush)",sun-suntan-products,exact,sun-suntan-products.md,sun-suntan-products,13,10,scaffold
 13,Cosmetics and Personal Care — Leave-on,11,"Leave-on hair preparations (leave-in conditioners, tonics/dressings, styling aids, hair sprays, color sprays)",leave-on-hair-preparations,exact,leave-on-hair-preparations.md,leave-on-hair-preparations,13,11,scaffold
 13,Cosmetics and Personal Care — Leave-on,12,Permanent hair dyes/tints (remain in hair after application),permanent-hair-dyes-tints,exact,permanent-hair-dyes-tints.md,permanent-hair-dyes-tints,13,12,scaffold
-13,Cosmetics and Personal Care — Leave-on,13,"Manicuring preparations that remain on nails/skin (basecoats, polishes/enamels, cuticle softeners/creams)",manicuring-preparations-leave-on,exact,manicuring-preparations-leave-on.md,manicuring-preparations-leave-on,13,13,scaffold
+13,Cosmetics and Personal Care — Leave-on,13,"Manicuring preparations that remain on nails/skin (basecoats, polishes/enamels, cuticle softeners/creams)",manicuring-preparations-leave-on,exact,nail-polish.md,nail-polish,13,13,
 13,Cosmetics and Personal Care — Leave-on,14,Tattoo inks (permanent and temporary),tattoo-inks,exact,tattoo-inks.md,tattoo-inks,13,14,scaffold
 13,Cosmetics and Personal Care — Leave-on,15,Other leave-on preparations (case-by-case),leave-on-preparations-other,exact,leave-on-preparations-other.md,leave-on-preparations-other,13,15,scaffold
+13,Cosmetics and Personal Care — Leave-on,16,"Traditional/imported eye cosmetics (kohl, surma, kajal) — extreme-Pb platform",traditional-eye-cosmetics,exact,traditional-eye-cosmetics.md,traditional-eye-cosmetics,13,16,scaffold
+13,Cosmetics and Personal Care — Leave-on,17,"Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)",sun-suntan-mineral,exact,sun-suntan-mineral.md,sun-suntan-mineral,13,17,scaffold
+13,Cosmetics and Personal Care — Leave-on,18,"Dusting powder, cornstarch base (clean sibling of r2 talc)",dusting-powder-cornstarch-adult,exact,dusting-powder-cornstarch-adult.md,dusting-powder-cornstarch-adult,13,18,scaffold
+13,Cosmetics and Personal Care — Leave-on,19,"Antiperspirant (Al-salt, dirty sibling of r9 deodorant)",antiperspirant,exact,antiperspirant.md,antiperspirant,13,19,scaffold
 14,Cosmetics and Personal Care — Rinse-off,1,Shampoo (general adult),shampoo-adult,exact,shampoo-adult.md,shampoo-adult,14,1,scaffold
 14,Cosmetics and Personal Care — Rinse-off,2,"Conditioner (general adult, rinse-out)",conditioner-adult-rinse-out,exact,conditioner-adult-rinse-out.md,conditioner-adult-rinse-out,14,2,scaffold
 14,Cosmetics and Personal Care — Rinse-off,3,Body wash/shower gel,body-wash-shower-gel,exact,body-wash-shower-gel.md,body-wash-shower-gel,14,3,scaffold
@@ -140,6 +163,7 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 14,Cosmetics and Personal Care — Rinse-off,9,Hair dye/color rinses (rinse-off after processing),hair-dye-rinse-off,exact,hair-dye-rinse-off.md,hair-dye-rinse-off,14,9,scaffold
 14,Cosmetics and Personal Care — Rinse-off,10,Deep conditioning treatments/hair masks (rinse-off),deep-conditioning-treatments-rinse-off,exact,deep-conditioning-treatments-rinse-off.md,deep-conditioning-treatments-rinse-off,14,10,scaffold
 14,Cosmetics and Personal Care — Rinse-off,11,Other rinse-off preparations (case-by-case),rinse-off-preparations-other,exact,rinse-off-preparations-other.md,rinse-off-preparations-other,14,11,scaffold
+14,Cosmetics and Personal Care — Rinse-off,12,"Bar/bath soap (body-cleansing bars, toilet soap; medicated/skin-lightening bars cross-link advisory)",bar-bath-soap,exact,bathing-soaps.md,bathing-soaps,14,12,
 15,Feminine Care,1,Menstrual tampons (scented/unscented; applicator tested as distinct component),menstrual-tampons,exact,menstrual-tampons.md,menstrual-tampons,15,1,scaffold
 15,Feminine Care,2,"Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)",menstrual-pads,exact,menstrual-pads.md,menstrual-pads,15,2,scaffold
 15,Feminine Care,3,Menstrual cups (silicone/latex/other polymers),menstrual-cups,exact,menstrual-cups.md,menstrual-cups,15,3,scaffold
@@ -171,6 +195,9 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 16,Dietary Supplements (Human),19,Ingredient class — algae/seaweed-based,supplements-algae-seaweed-based,exact,supplements-algae-seaweed-based.md,supplements-algae-seaweed-based,16,19,scaffold
 16,Dietary Supplements (Human),20,Ingredient class — protein/collagen powders,supplements-protein-collagen-powders,exact,supplements-protein-collagen-powders.md,supplements-protein-collagen-powders,16,20,scaffold
 16,Dietary Supplements (Human),21,Ingredient class — oil-based supplements (fish oil/omega-3 and similar),supplements-oil-based,exact,supplements-oil-based.md,supplements-oil-based,16,21,scaffold
+16,Dietary Supplements (Human),22,"Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty",supplements-clay-mineral-earth,exact,supplements-clay-mineral-earth.md,supplements-clay-mineral-earth,16,22,scaffold
+16,Dietary Supplements (Human),23,"Ingredient class — mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)",supplements-mushroom-fungal,exact,supplements-mushroom-fungal.md,supplements-mushroom-fungal,16,23,scaffold
+16,Dietary Supplements (Human),24,Ingredient class — greens/superfood blends (Pb/Cd/iAs hyperaccumulator),supplements-greens-superfood,exact,supplements-greens-superfood.md,supplements-greens-superfood,16,24,scaffold
 17,Pet Foods,1,Complete & balanced dry (kibble),pet-food-dry-kibble,exact,pet-food-dry-kibble.md,pet-food-dry-kibble,17,1,scaffold
 17,Pet Foods,2,Complete & balanced canned/wet,pet-food-canned-wet,exact,pet-food-canned-wet.md,pet-food-canned-wet,17,2,scaffold
 17,Pet Foods,3,Semi-moist pet foods,pet-food-semi-moist,exact,pet-food-semi-moist.md,pet-food-semi-moist,17,3,scaffold
@@ -180,6 +207,7 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 17,Pet Foods,7,Pet chews (including dental chews),pet-chews-dental,exact,pet-chews-dental.md,pet-chews-dental,17,7,scaffold
 17,Pet Foods,8,Toppers/mixers/broths,pet-toppers-mixers-broths,exact,pet-toppers-mixers-broths.md,pet-toppers-mixers-broths,17,8,scaffold
 17,Pet Foods,9,Milk replacers and specialty pet liquids,pet-milk-replacers-specialty-liquids,exact,pet-milk-replacers-specialty-liquids.md,pet-milk-replacers-specialty-liquids,17,9,scaffold
+17,Pet Foods,10,Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix),pet-food-fish-marine-protein,exact,pet-food-fish-marine-protein.md,pet-food-fish-marine-protein,17,10,scaffold
 18,Pet Supplements,1,Vitamin/mineral supplements,pet-supplements-vitamin-mineral,exact,pet-supplements-vitamin-mineral.md,pet-supplements-vitamin-mineral,18,1,scaffold
 18,Pet Supplements,2,"Oils (omega-3, fish oil, coconut oil)",pet-supplements-oils,exact,pet-supplements-oils.md,pet-supplements-oils,18,2,scaffold
 18,Pet Supplements,3,Probiotics/digestive aids,pet-supplements-probiotics-digestive,exact,pet-supplements-probiotics-digestive.md,pet-supplements-probiotics-digestive,18,3,scaffold
@@ -200,7 +228,7 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 19,Laundry and Fabric-Contact Home Products,11,Fabric protectants (excluding waterproofing/flame-retardant per GS-48 boundaries),fabric-protectants,exact,fabric-protectants.md,fabric-protectants,19,11,scaffold
 19,Laundry and Fabric-Contact Home Products,12,Combination products serving multiple functions,fabric-contact-combination-products,exact,fabric-contact-combination-products.md,fabric-contact-combination-products,19,12,scaffold
 19,Laundry and Fabric-Contact Home Products,13,Other fabric-contact home products (case-by-case),fabric-contact-products-other,exact,fabric-contact-products-other.md,fabric-contact-products-other,19,13,scaffold
-20,Oral Care,1,"Dentifrices (toothpaste, gel, powder, tablets)",dentifrices,by_alias,toothpaste.md,toothpaste,2,11,
+20,Oral Care,1,"Dentifrices (toothpaste, gel, powder, tablets)",dentifrices,exact,dentifrices.md,dentifrices,20,1,scaffold
 20,Oral Care,2,Mouthwash/oral rinse,mouthwash-oral-rinse,exact,mouthwash-oral-rinse.md,mouthwash-oral-rinse,20,2,scaffold
 20,Oral Care,3,Breath fresheners (sprays/strips/lozenges),breath-fresheners,exact,breath-fresheners.md,breath-fresheners,20,3,scaffold
 20,Oral Care,4,"Toothbrushes (manual, electric heads)",toothbrushes,exact,toothbrushes.md,toothbrushes,20,4,scaffold
@@ -276,3 +304,54 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 23,Food-Contact Consumer Goods and Kitchenware,28,Kettle interiors,food-prep-kettle-interiors,exact,food-prep-kettle-interiors.md,food-prep-kettle-interiors,23,28,scaffold
 23,Food-Contact Consumer Goods and Kitchenware,29,Water filters,water-filters,exact,water-filters.md,water-filters,23,29,scaffold
 23,Food-Contact Consumer Goods and Kitchenware,30,Filter media and housings,filter-media-and-housings,exact,filter-media-and-housings.md,filter-media-and-housings,23,30,scaffold
+24,Dairy and Milk Products,1,Liquid milk — cow,dairy-milk-cow,exact,dairy-milk-cow.md,dairy-milk-cow,24,1,scaffold
+24,Dairy and Milk Products,2,Liquid milk — goat / sheep / other ruminant,dairy-milk-goat-sheep,exact,dairy-milk-goat-sheep.md,dairy-milk-goat-sheep,24,2,scaffold
+24,Dairy and Milk Products,3,Camel milk,dairy-milk-camel,exact,dairy-milk-camel.md,dairy-milk-camel,24,3,scaffold
+24,Dairy and Milk Products,4,Cheese,dairy-cheese,exact,dairy-cheese.md,dairy-cheese,24,4,scaffold
+24,Dairy and Milk Products,5,Yogurt and cultured dairy,dairy-yogurt-cultured,exact,dairy-yogurt-cultured.md,dairy-yogurt-cultured,24,5,scaffold
+24,Dairy and Milk Products,6,Cream,dairy-cream,exact,dairy-cream.md,dairy-cream,24,6,scaffold
+24,Dairy and Milk Products,7,"Milk powders (whole, skim, specialty)",dairy-milk-powders,exact,dairy-milk-powders.md,dairy-milk-powders,24,7,scaffold
+24,Dairy and Milk Products,8,Condensed and evaporated milks,dairy-condensed-evaporated,exact,dairy-condensed-evaporated.md,dairy-condensed-evaporated,24,8,scaffold
+24,Dairy and Milk Products,9,Butter and ghee (dairy fat),butter-and-ghee,exact,butter-and-ghee.md,butter-and-ghee,24,9,locked
+25,"Cannabis, Hemp, and CBD Products",1,Cannabis flower / dried herb,cannabis-flower,exact,cannabis-flower.md,cannabis-flower,25,1,scaffold
+25,"Cannabis, Hemp, and CBD Products",2,"Edibles (gummies, baked goods, beverages)",cannabis-edibles,exact,cannabis-edibles.md,cannabis-edibles,25,2,scaffold
+25,"Cannabis, Hemp, and CBD Products",3,Tinctures and sublingual oils,cannabis-tinctures-oils,exact,cannabis-tinctures-oils.md,cannabis-tinctures-oils,25,3,scaffold
+25,"Cannabis, Hemp, and CBD Products",4,"Topicals (creams, balms, salves)",cannabis-topicals,exact,cannabis-topicals.md,cannabis-topicals,25,4,scaffold
+25,"Cannabis, Hemp, and CBD Products",5,Concentrates and extracts,cannabis-concentrates,exact,cannabis-concentrates.md,cannabis-concentrates,25,5,scaffold
+25,"Cannabis, Hemp, and CBD Products",6,Vape cartridges and hardware,cannabis-vape-hardware,exact,cannabis-vape-hardware.md,cannabis-vape-hardware,25,6,scaffold
+26,"Peptides, SARMs, and Research Chemicals",1,"Injectable peptide hormones (GLP-1 analogs, GH secretagogues, synthetic peptides)",peptides-injectable-hormones,exact,peptides-injectable-hormones.md,peptides-injectable-hormones,26,1,scaffold
+26,"Peptides, SARMs, and Research Chemicals",2,Oral SARMs,sarms-oral,exact,sarms-oral.md,sarms-oral,26,2,scaffold
+26,"Peptides, SARMs, and Research Chemicals",3,Injectable anabolic-androgenic steroids (AAS),aas-injectable,exact,aas-injectable.md,aas-injectable,26,3,scaffold
+26,"Peptides, SARMs, and Research Chemicals",4,Raw AAS / peptide powders (pre-formulation),research-chem-raw-powders,exact,research-chem-raw-powders.md,research-chem-raw-powders,26,4,scaffold
+26,"Peptides, SARMs, and Research Chemicals",5,Nasal/sublingual/troche gray-market peptide preparations (mucosal route),peptides-nasal-sublingual,exact,peptides-nasal-sublingual.md,peptides-nasal-sublingual,26,5,scaffold
+27,Legumes and Pulses,1,"Legumes/pulses (beans, lentils, chickpeas, peas)",legumes-pulses-other,exact,legumes-pulses-other.md,legumes-pulses-other,27,1,
+27,Legumes and Pulses,2,Soy products,soy-products,exact,soy-products.md,soy-products,27,2,
+27,Legumes and Pulses,3,Peanuts,peanuts,exact,peanuts.md,peanuts,27,3,
+27,Legumes and Pulses,4,Peanut butter,peanut-butter,exact,peanut-butter.md,peanut-butter,27,4,
+28,"Nuts, Seeds, and Their Butters",1,"Tree nuts and seeds (whole, raw, roasted)",nuts-seeds-other,exact,nuts-seeds-other.md,nuts-seeds-other,28,1,
+28,"Nuts, Seeds, and Their Butters",2,Cashews,cashews,exact,cashews.md,cashews,28,2,
+28,"Nuts, Seeds, and Their Butters",3,Sunflower seeds,sunflower-seeds,exact,sunflower-seeds.md,sunflower-seeds,28,3,
+28,"Nuts, Seeds, and Their Butters",4,"Nut and seed butters, other",nut-seed-butters-other,exact,nut-seed-butters-other.md,nut-seed-butters-other,28,4,
+28,"Nuts, Seeds, and Their Butters",5,Sunflower-seed butter,sunflower-seed-butter,exact,sunflower-seed-butter.md,sunflower-seed-butter,28,5,
+29,Edible Fungi,1,Mushrooms — cultivated (clean counterpart),cultivated-mushrooms,exact,cultivated-mushrooms.md,cultivated-mushrooms,29,1,scaffold
+29,Edible Fungi,2,Mushrooms — wild and processed-wild (contaminated),wild-mushrooms,exact,wild-mushrooms.md,wild-mushrooms,29,2,scaffold
+30,Culinary Oils and Fats,1,Olive oil,olive-oil,exact,olive-oil.md,olive-oil,30,1,locked
+30,Culinary Oils and Fats,2,"Other cooking/seed oils (canola, sunflower, coconut, avocado, sesame)",cooking-oils-other,exact,cooking-oils-other.md,cooking-oils-other,30,2,locked
+31,Sweeteners and Syrups,1,Honey,honey,exact,honey.md,honey,31,1,locked
+31,Sweeteners and Syrups,2,"Tree and plant syrups (maple, agave, molasses)",syrups-maple-agave-molasses,exact,syrups-maple-agave-molasses.md,syrups-maple-agave-molasses,31,2,scaffold
+31,Sweeteners and Syrups,3,"Refined sugars (cane, beet, brown)",refined-sugar,exact,refined-sugar.md,refined-sugar,31,3,scaffold
+31,Sweeteners and Syrups,4,Rice and grain syrups,rice-grain-syrup,exact,rice-grain-syrup.md,rice-grain-syrup,31,4,scaffold
+32,"Condiments, Sauces and Dressings",1,Vinegar,vinegar,exact,vinegar.md,vinegar,32,1,locked
+32,"Condiments, Sauces and Dressings",2,Soy sauce and fermented sauces,soy-sauce-fermented,exact,soy-sauce-fermented.md,soy-sauce-fermented,32,2,scaffold
+32,"Condiments, Sauces and Dressings",3,Fish sauce,fish-sauce,exact,fish-sauce.md,fish-sauce,32,3,scaffold
+32,"Condiments, Sauces and Dressings",4,"Tomato condiments (ketchup, salsa)",tomato-condiments,exact,tomato-condiments.md,tomato-condiments,32,4,scaffold
+32,"Condiments, Sauces and Dressings",5,"Mustard, mayonnaise, dressings",mustard-mayo-dressings,exact,mustard-mayo-dressings.md,mustard-mayo-dressings,32,5,scaffold
+33,"Chocolate, Cocoa and Confectionery",1,"Cocoa and chocolate products (cocoa powder, dark, milk, chips)",chocolate,exact,chocolate.md,chocolate,33,1,locked
+33,"Chocolate, Cocoa and Confectionery",2,"Candy and confectionery (hard candy, caramels, imported/ethnic sweets)",confectionery-candy,exact,confectionery-candy.md,confectionery-candy,33,2,scaffold
+33,"Chocolate, Cocoa and Confectionery",3,Gummies and jelly sweets,gummies-jellies,exact,gummies-jellies.md,gummies-jellies,33,3,scaffold
+34,"Herbs, Spices, Seasonings and Salt",1,"Herbs, spices, and dried seasonings (turmeric, cinnamon, paprika, chili powder, pepper)",spices,exact,spices.md,spices,34,1,locked
+34,"Herbs, Spices, Seasonings and Salt",2,"Salt (table, sea, Himalayan)",salt,exact,salt.md,salt,34,2,locked
+34,"Herbs, Spices, Seasonings and Salt",3,Hot sauce and chili sauces,hot-chili-sauces,exact,hot-chili-sauces.md,hot-chili-sauces,34,3,scaffold
+34,"Herbs, Spices, Seasonings and Salt",4,"Bouillon/stock cubes and powdered seasoning blends (dry rubs, gravy/seasoning packets)",bouillon-seasoning-blends,exact,bouillon-seasoning-blends.md,bouillon-seasoning-blends,34,4,scaffold
+35,Prepared and Packaged Meals,1,"Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)",mixed-meals-prepared-foods,exact,mixed-meals-prepared-foods.md,mixed-meals-prepared-foods,35,1,
+35,Prepared and Packaged Meals,2,"Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)",soups-broths-stocks,exact,soups-broths-stocks.md,soups-broths-stocks,35,2,scaffold

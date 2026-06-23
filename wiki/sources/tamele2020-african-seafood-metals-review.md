@@ -70,5 +70,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [f2164bd](https://github.com/paleofoundation/heavymetalindex/commit/f2164bd) | 2026-06-08 | ingest: tamele2020-african-seafood-metals-review fresh from MFK/June 8 New Folder With Items 4 2 |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [f2164bd71](https://github.com/paleofoundation/heavymetalindex/commit/f2164bd71) | 2026-06-08 | ingest: tamele2020-african-seafood-metals-review fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->

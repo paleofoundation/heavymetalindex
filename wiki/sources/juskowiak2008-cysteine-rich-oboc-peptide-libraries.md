@@ -89,6 +89,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [f81f4b8](https://github.com/paleofoundation/heavymetalindex/commit/f81f4b8) | 2026-06-08 | audit: juskowiak2008-cysteine-rich-oboc-peptide-libraries promoted |
-| [f35ea13](https://github.com/paleofoundation/heavymetalindex/commit/f35ea13) | 2026-06-08 | ingest: juskowiak2008-cysteine-rich-oboc-peptide-libraries fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [f81f4b865](https://github.com/paleofoundation/heavymetalindex/commit/f81f4b865) | 2026-06-08 | audit: juskowiak2008-cysteine-rich-oboc-peptide-libraries promoted |
+| [f35ea1306](https://github.com/paleofoundation/heavymetalindex/commit/f35ea1306) | 2026-06-08 | ingest: juskowiak2008-cysteine-rich-oboc-peptide-libraries fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

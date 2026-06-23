@@ -55,3 +55,13 @@ Supply-chain: It is also useful for pathway discussions on how heavy-metal stres
 
 - [[mitigation/agronomic-remediation]]
 - [[metals/lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f46df1044](https://github.com/paleofoundation/heavymetalindex/commit/f46df1044) | 2026-06-15 | recovery: ingest Kaur 2015 wheat lead mitigation study |
+<!-- END: hmi-page-history -->

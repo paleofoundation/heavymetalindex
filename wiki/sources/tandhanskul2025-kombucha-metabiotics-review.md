@@ -123,5 +123,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [db9225b](https://github.com/paleofoundation/heavymetalindex/commit/db9225b) | 2026-06-06 | ingest: tandhanskul2025-kombucha-metabiotics-review [fresh] from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [db9225b8b](https://github.com/paleofoundation/heavymetalindex/commit/db9225b8b) | 2026-06-06 | ingest: tandhanskul2025-kombucha-metabiotics-review [fresh] from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

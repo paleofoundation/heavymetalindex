@@ -56,3 +56,13 @@ App: Context for dairy exposure narratives involving Pb and Cd in milk.
 ## Verification notes
 
 Recovered from a mispointed recovery row. The claimed queue row referenced `ing-human-milk-pb_2019_10-29252-nfsr-6-2-29.pdf`, but the extant matching PDF in the raw corpus is `ing-human-milk-cd_2019_10-29252-nfsr-6-2-29.pdf`, which contains this milk-occurrence paper. The source is about raw and pasteurized milk, not human milk, and the raw-path mismatch should be cleaned in a later queue-normalization pass.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7faea44b2](https://github.com/paleofoundation/heavymetalindex/commit/7faea44b2) | 2026-06-11 | recovery ingest 2026-06-11: corpus rescreen batch of 10 sources |
+<!-- END: hmi-page-history -->

@@ -77,5 +77,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [cbcd8e3](https://github.com/paleofoundation/heavymetalindex/commit/cbcd8e3) | 2026-06-08 | ingest: oladoye2016-odo-ori-spices-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| [a32c3a7c1](https://github.com/paleofoundation/heavymetalindex/commit/a32c3a7c1) | 2026-06-09 | audit: oladoye2016-odo-ori-spices-metals revised per autonomous audit |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [cbcd8e349](https://github.com/paleofoundation/heavymetalindex/commit/cbcd8e349) | 2026-06-08 | ingest: oladoye2016-odo-ori-spices-metals fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

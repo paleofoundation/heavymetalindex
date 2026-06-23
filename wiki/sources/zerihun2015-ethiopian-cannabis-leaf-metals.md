@@ -77,3 +77,13 @@ The source provides small-n, dry-weight occurrence context for cannabis leaves u
 - Sample count note: `sample_n: 4` reflects the four regional cannabis-leaf bulk samples. Table 7's `n = 9` is retained in the Key numbers as the source's replicate analytical count for each regional mean.
 - Brand firewall: no brands are reported; samples were confiscated or police-collected regional plant material.
 - Missing slug note: the taxonomy snapshot has no cannabis-specific product or ingredient slug. Frontmatter uses broad `[[ingredients/herbal-botanicals]]` and `[[products/supplements-botanicals-herbs]]`, with cannabis leaf terms retained only as matrix descriptors.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [718c85d1d](https://github.com/paleofoundation/heavymetalindex/commit/718c85d1d) | 2026-06-09 | ingest: cannabis metals fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

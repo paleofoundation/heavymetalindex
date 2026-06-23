@@ -156,6 +156,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c9d5449](https://github.com/paleofoundation/heavymetalindex/commit/c9d5449) | 2026-06-06 | audit: zhou2025-baijiu-impurities-safety-strategies [promoted] |
-| [024c257](https://github.com/paleofoundation/heavymetalindex/commit/024c257) | 2026-06-06 | ingest: zhou2025-baijiu-impurities-safety-strategies [fresh] from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [c9d5449f2](https://github.com/paleofoundation/heavymetalindex/commit/c9d5449f2) | 2026-06-06 | audit: zhou2025-baijiu-impurities-safety-strategies [promoted] |
+| [024c25714](https://github.com/paleofoundation/heavymetalindex/commit/024c25714) | 2026-06-06 | ingest: zhou2025-baijiu-impurities-safety-strategies [fresh] from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

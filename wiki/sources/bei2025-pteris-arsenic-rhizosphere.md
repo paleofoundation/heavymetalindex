@@ -62,3 +62,13 @@ App: Context only.
 ## Verification notes
 
 The corpus queue mislabeled this record as `WIKIBIOME-HANDOFF`. On deep read it is recoverable HMI a2 evidence because it reports primary arsenic-remediation and rhizosphere-speciation data in contaminated soil. `iAs` and `tAs` are both tagged because the paper discusses arsenic speciation transformation and also measures total arsenic in soils and plant tissues.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0a1cf4c09](https://github.com/paleofoundation/heavymetalindex/commit/0a1cf4c09) | 2026-06-14 | recover corpus 2026-06-14: bei2025-pteris-arsenic-rhizosphere (lane a2) |
+<!-- END: hmi-page-history -->

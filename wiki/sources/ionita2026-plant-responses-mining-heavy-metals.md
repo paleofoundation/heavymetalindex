@@ -228,6 +228,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [aa16a1b](https://github.com/paleofoundation/heavymetalindex/commit/aa16a1b) | 2026-06-08 | audit: ionita2026-plant-responses-mining-heavy-metals promoted |
-| [802fbf3](https://github.com/paleofoundation/heavymetalindex/commit/802fbf3) | 2026-06-08 | ingest: ionita2026-plant-responses-mining-heavy-metals fresh from MFK/June 8 heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [aa16a1b19](https://github.com/paleofoundation/heavymetalindex/commit/aa16a1b19) | 2026-06-08 | audit: ionita2026-plant-responses-mining-heavy-metals promoted |
+| [802fbf3da](https://github.com/paleofoundation/heavymetalindex/commit/802fbf3da) | 2026-06-08 | ingest: ionita2026-plant-responses-mining-heavy-metals fresh from MFK/June 8 heavy_metals_peptides |
 <!-- END: hmi-page-history -->

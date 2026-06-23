@@ -78,3 +78,13 @@ App: The source can support Bangladesh-market egg contamination profiles for Pb,
 - Speciation: the source reports Pb, Cd, Cr, Cu, Fe, and Zn by AAS. Chromium is total chromium; this page does not relabel it as Cr(VI).
 - Brand firewall: the source reports local market egg types, not brands. No brand names are attached to values.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy lacks exact duck-egg and quail-egg ingredient/product slugs, so those species remain matrix descriptors and source text rather than invented slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0254186fb](https://github.com/paleofoundation/heavymetalindex/commit/0254186fb) | 2026-06-09 | ingest: rokanuzzaman2022-bangladesh-eggs-metals fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

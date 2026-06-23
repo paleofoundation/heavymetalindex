@@ -181,6 +181,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c36d38b](https://github.com/paleofoundation/heavymetalindex/commit/c36d38b) | 2026-06-08 | audit: riyazuddin2022-heavy-metal-toxicity-sequestration-plants revised |
-| [9b3f9fe](https://github.com/paleofoundation/heavymetalindex/commit/9b3f9fe) | 2026-06-08 | ingest: riyazuddin2022-heavy-metal-toxicity-sequestration-plants fresh from Manual Fetch Kimi/June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [c36d38bcb](https://github.com/paleofoundation/heavymetalindex/commit/c36d38bcb) | 2026-06-08 | audit: riyazuddin2022-heavy-metal-toxicity-sequestration-plants revised |
+| [9b3f9fef2](https://github.com/paleofoundation/heavymetalindex/commit/9b3f9fef2) | 2026-06-08 | ingest: riyazuddin2022-heavy-metal-toxicity-sequestration-plants fresh from Manual Fetch Kimi/June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

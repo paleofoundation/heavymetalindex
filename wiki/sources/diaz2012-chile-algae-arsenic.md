@@ -86,3 +86,13 @@ This source is high-value Chilean seaweed occurrence evidence because it reports
 - Units and basis are preserved as `mg kg-1 d.w.`, `%`, `µg/g dry weight`, and `µg/g dw`; no conversions were performed.
 - Evidence tier A reflects peer-reviewed primary occurrence data, exact species/economic-use labels, species sample counts, triplicate analyses, detection limits, recoveries, and CRM QA/QC for total arsenic.
 - Brand firewall: no sampled brands are reported. Instrument and CRM names are retained only as scientific method details.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e5522a024](https://github.com/paleofoundation/heavymetalindex/commit/e5522a024) | 2026-06-09 | ingest: diaz2012-chile-algae-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

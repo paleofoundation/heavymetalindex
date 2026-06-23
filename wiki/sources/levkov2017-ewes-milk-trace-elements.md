@@ -68,3 +68,13 @@ App: Context for dairy ingredient exposure patterns, especially for metals repor
 ## Verification notes
 
 Recovered from `skip:incomplete-metadata` during the 2026-06-11 recovery fire. DOI was not visible in the extracted text, but the PDF contains direct wet-weight occurrence data for raw ewes’ milk and is in-scope lane a1 evidence.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7faea44b2](https://github.com/paleofoundation/heavymetalindex/commit/7faea44b2) | 2026-06-11 | recovery ingest 2026-06-11: corpus rescreen batch of 10 sources |
+<!-- END: hmi-page-history -->

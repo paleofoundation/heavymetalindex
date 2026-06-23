@@ -104,3 +104,13 @@ App: Context only. The source can support feed-additive exposure and animal biom
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured quail blood serum after feed additive exposure rather than product occurrence. On reading, it is in-scope a4 exposure/biomonitoring context with measured serum values.
 
 Numbers were checked against the abstract, methods, Tables 1-4, and conclusion in the extracted PDF. Arsenic is recorded as `tAs`, mercury as `tHg`, and chromium as total Cr because the paper does not report speciation. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fa7f6a055](https://github.com/paleofoundation/heavymetalindex/commit/fa7f6a055) | 2026-06-11 | recover-ingest 2026-06-11: kletikova2022-quail-feed-blood-minerals (lane a4, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

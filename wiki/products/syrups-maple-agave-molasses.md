@@ -35,3 +35,13 @@ No sources are routed to this row yet. The corpus will accumulate via the source
 
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [08c8f8330](https://github.com/paleofoundation/heavymetalindex/commit/08c8f8330) | 2026-06-09 | reorg(taxonomy-v2.2): scaffold new Cat 30-35 rows (no candidate values) |
+<!-- END: hmi-page-history -->

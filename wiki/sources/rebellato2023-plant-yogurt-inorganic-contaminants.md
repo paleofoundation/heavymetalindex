@@ -183,6 +183,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [12afd41](https://github.com/paleofoundation/heavymetalindex/commit/12afd41) | 2026-06-08 | audit: rebellato2023-plant-yogurt-inorganic-contaminants revised |
-| [e6e7a75](https://github.com/paleofoundation/heavymetalindex/commit/e6e7a75) | 2026-06-08 | ingest: rebellato2023-plant-yogurt-inorganic-contaminants fresh from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [12afd4179](https://github.com/paleofoundation/heavymetalindex/commit/12afd4179) | 2026-06-08 | audit: rebellato2023-plant-yogurt-inorganic-contaminants revised |
+| [e6e7a7584](https://github.com/paleofoundation/heavymetalindex/commit/e6e7a7584) | 2026-06-08 | ingest: rebellato2023-plant-yogurt-inorganic-contaminants fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

@@ -184,3 +184,14 @@ The source can be used as occurrence evidence for the broader baby-food product 
   - ⚠️ **"Macaroon" silently normalized to "Macaroni" in DM5 composition (Key numbers Daily Meal 5 row).** PDF Table 1 prints "Macaroon with tomato" (p. 18), which appears to be an English-edit typo in the manuscript ("macaroni con tomate" is the standard Spanish canteen dish). The wiki page renders it as "Macaroni" without flagging the source typo. Flagged here for transparency; not reverted, since "Macaroni" is the dish the source's Spanish-canteen context plainly intends.
   - ⚠️ **DM2 and DM4 salad-ingredient lists truncated.** Table 1 lists the DM2 salad as "lettuce, carrots, ham, soy, cheese, and mayonnaise" and the DM4 salad as "lettuce, tomato, corn, carrots, eggs, cucumber, pepper, soy, and olives"; the Key numbers table on this page elides both as "Mixed salad" for column-width reasons. The truncation does not affect the mercury values reported for those rows, but the presence of soy and ham/eggs in these adult-canteen salads is dropped from the wiki view of the composition column.
   - Subagent verdict: REVISE. All three ❌ findings verified correct against the PDF and applied; both ⚠️ findings verified and documented here as transparency notes (DM5 normalization left as-is; DM2/DM4 truncation left as-is). No false positives in this audit cycle.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ecef0542d](https://github.com/paleofoundation/heavymetalindex/commit/ecef0542d) | 2026-06-09 | audit: silva2022-total-mercury-baby-food revised |
+| [62e0fd10b](https://github.com/paleofoundation/heavymetalindex/commit/62e0fd10b) | 2026-06-09 | ingest: silva2022-total-mercury-baby-food fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

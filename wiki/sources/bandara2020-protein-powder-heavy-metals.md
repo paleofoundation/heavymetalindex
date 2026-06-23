@@ -90,5 +90,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [9d1697b](https://github.com/paleofoundation/heavymetalindex/commit/9d1697b) | 2026-06-08 | ingest: bandara2020-protein-powder-heavy-metals from June 8 (supplement occurrence/exposure) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [9d1697b0a](https://github.com/paleofoundation/heavymetalindex/commit/9d1697b0a) | 2026-06-08 | ingest: bandara2020-protein-powder-heavy-metals from June 8 (supplement occurrence/exposure) |
 <!-- END: hmi-page-history -->

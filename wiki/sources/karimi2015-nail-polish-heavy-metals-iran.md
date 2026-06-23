@@ -75,3 +75,13 @@ Microbiome: No microbiome endpoints.
 - Speciation: arsenic is total As (`tAs`); chromium is total Cr (`Cr`). The paper discusses chromium VI toxicity in background text but does not measure Cr-VI.
 - Brand firewall: the source names product brands in narrative passages, but this page reports only colour-level, country-origin, and product-category values. No brand name is attached to a contamination value.
 - The generic `products/nail-polish` page is retired to `products/manicuring-preparations-leave-on`; routing therefore uses the active HMTc row slug.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [dfc17e6f0](https://github.com/paleofoundation/heavymetalindex/commit/dfc17e6f0) | 2026-06-11 | recover-ingest 2026-06-10: karimi2015-nail-polish-heavy-metals-iran (lane a1, was metadata-gated) |
+<!-- END: hmi-page-history -->

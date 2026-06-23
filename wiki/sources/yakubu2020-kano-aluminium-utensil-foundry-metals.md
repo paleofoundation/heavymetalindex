@@ -106,3 +106,13 @@ App: Context only. The source can support shared-liability/source-attribution na
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it lacked utensil-product migration data. On reading, it is in-scope a3 source-attribution evidence because it measures environmental metals around local aluminium-utensil production.
 
 Numbers were checked against the extracted PDF text, especially the abstract, soil/water sampling methods, Tables 1-5, discussion, and conclusion. Chromium is total Cr; no Cr(VI) is reported. The paper does not measure aluminium despite its aluminium-utensil production setting, and no finished utensil or food-contact values are inferred.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3493b69a7](https://github.com/paleofoundation/heavymetalindex/commit/3493b69a7) | 2026-06-10 | recover-ingest 2026-06-10: yakubu2020-kano-aluminium-utensil-foundry-metals (lane a3, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

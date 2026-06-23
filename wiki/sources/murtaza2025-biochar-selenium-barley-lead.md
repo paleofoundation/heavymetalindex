@@ -92,3 +92,13 @@ Courses: Strong example for keeping remediation percentages separate from source
 This page was built from the full PDF text, with numerical transcription from the abstract, experimental design, biochar characterization, Pb measurement methods, Table 4, and the accumulation/translocation results text. Products and ingredients are intentionally empty because the paper is a field mitigation trial, not market-sampled barley or supplement occurrence evidence. The source reports total elemental water-screening values without arsenic, mercury, or chromium speciation; frontmatter therefore uses tAs and tHg where the source labels only arsenic or Hg.
 
 The printed BP-BC root-reduction range, 38.40-4.70%, is retained as a source-reported value but flagged as internally inconsistent because Table 4 root Pb values fall from 3.01 ug/g at 0 t/ha to 1.90 and 1.40 ug/g at 5 and 10 t/ha.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d3b640769](https://github.com/paleofoundation/heavymetalindex/commit/d3b640769) | 2026-06-09 | ingest auto-fetched 2026-06-09: murtaza2025-biochar-selenium-barley-lead |
+<!-- END: hmi-page-history -->

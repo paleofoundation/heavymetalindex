@@ -73,3 +73,13 @@ App: The source can support an Australian regulatory-context card for antiperspi
 - Brand firewall: the report uses formulation/product categories and an anonymized industry survey; no brand-linked values are reported here.
 - Evidence tier: `A` because this is an official AICIS regulatory evaluation. It is not primary occurrence evidence because AICIS did not generate the concentration data.
 - Routing: product slug `deodorants` and metal slug `aluminum` appear in the taxonomy snapshot. No closed ingredient slug is appropriate for the aluminium-salt group, so `ingredients` is left empty rather than inventing a salt-specific slug. `npm run evidence:source-routes` exited 0, generated one `deodorants` product route, left the source absent from `routing_unresolved.csv`, and recorded only the expected nonblocking empty-ingredients advisory in `routing_malformed.csv`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b739a4c1b](https://github.com/paleofoundation/heavymetalindex/commit/b739a4c1b) | 2026-06-09 | ingest: devito2002-tampons-diapers-dioxin-exposure fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

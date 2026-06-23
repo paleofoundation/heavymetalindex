@@ -106,5 +106,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [d795404](https://github.com/paleofoundation/heavymetalindex/commit/d795404) | 2026-06-08 | ingest: mehouel2021-algeria-seafood-metals-review fresh from MFK/June 8 New Folder With Items 4 2 |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [d79540411](https://github.com/paleofoundation/heavymetalindex/commit/d79540411) | 2026-06-08 | ingest: mehouel2021-algeria-seafood-metals-review fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->

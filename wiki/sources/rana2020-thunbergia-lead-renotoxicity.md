@@ -67,3 +67,13 @@ Microbiome: No microbiome endpoints.
 - Units are preserved exactly as printed in the source, including `mg/dL`, `mg/g protein`, `mg/kgBW`, and `1% in DW`. The BUN and creatinine rows use the source's printed `+` notation for several Pb co-treatment cells.
 - Speciation: the source reports Pb and PbAc exposure; no lead speciation is reported.
 - Products and ingredients are intentionally empty because this is an animal toxicology/co-treatment paper, not a botanical supplement occurrence study.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6d7c7a42a](https://github.com/paleofoundation/heavymetalindex/commit/6d7c7a42a) | 2026-06-11 | recover-ingest 2026-06-10: rana2020-thunbergia-lead-renotoxicity (lane a4, was skip:no-occurrence-data) |
+<!-- END: hmi-page-history -->

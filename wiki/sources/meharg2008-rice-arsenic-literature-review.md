@@ -92,5 +92,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [5d5a7f8](https://github.com/paleofoundation/heavymetalindex/commit/5d5a7f8) | 2026-06-09 | ingest: meharg2008-rice-arsenic-literature-review fresh from MFK/June 8 |
+| [46f81a309](https://github.com/paleofoundation/heavymetalindex/commit/46f81a309) | 2026-06-10 | audit: meharg2008-rice-arsenic-literature-review revised |
+| [5d5a7f89a](https://github.com/paleofoundation/heavymetalindex/commit/5d5a7f89a) | 2026-06-09 | ingest: meharg2008-rice-arsenic-literature-review fresh from MFK/June 8 |
 <!-- END: hmi-page-history -->

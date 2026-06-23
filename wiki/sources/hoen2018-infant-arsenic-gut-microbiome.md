@@ -65,3 +65,13 @@ Microbiome: Primary human infant source for arsenic-gut-microbiome association, 
 Recovered under the 2026-06-10 inclusion-by-default rule from a prior `skip:not-food-occurrence` disposition. The old skip was too narrow because the paper is direct a4 biomonitoring and microbiome evidence in a formula-relevant infant population.
 
 Products and ingredients are intentionally empty. The paper does not assay market infant-formula products directly in this dataset; it measures infant urinary arsenic and stool microbiome composition. Arsenic is tagged as `tAs` because the infant biomarker in this paper is total urinary arsenic, not speciated inorganic arsenic.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b1a5e1e23](https://github.com/paleofoundation/heavymetalindex/commit/b1a5e1e23) | 2026-06-13 | recovery \| hoen2018 infant arsenic microbiome |
+<!-- END: hmi-page-history -->

@@ -73,3 +73,13 @@ App: Context only. The source can inform honey-supply-chain and pollinator-healt
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured honey-bee feeding behavior after metal-spiked sucrose rather than honey occurrence. On reading, it is in-scope a4 toxicology and animal-feeding exposure evidence.
 
 Numbers were checked against the abstract, Results, figure captions, Methods, and Discussion in the extracted PDF. Metal forms are recorded as total Cd, Cu, and Pb in the wiki frontmatter because the experimental salts were cadmium chloride, copper chloride, and lead chloride, and the paper does not report consumer-product speciation. Products and ingredients are intentionally empty. `sucrose-solution` is a matrix term added for this controlled feeding assay; it is not an occurrence-product route.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3121f6a3e](https://github.com/paleofoundation/heavymetalindex/commit/3121f6a3e) | 2026-06-11 | recover-ingest 2026-06-11: burden2019-honey-bee-metal-feeding-behavior (lane a4, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

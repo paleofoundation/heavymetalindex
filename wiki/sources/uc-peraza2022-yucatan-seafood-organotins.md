@@ -102,5 +102,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [de8fdc7](https://github.com/paleofoundation/heavymetalindex/commit/de8fdc7) | 2026-06-08 | manual-fetch stop: MFD weldegebriel2025 second arrival under misleading flavored-water filename |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [de8fdc7ae](https://github.com/paleofoundation/heavymetalindex/commit/de8fdc7ae) | 2026-06-08 | manual-fetch stop: MFD weldegebriel2025 second arrival under misleading flavored-water filename |
 <!-- END: hmi-page-history -->

@@ -20,7 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/soy]]"]
 used_in_products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]"]
 audience: [regulator, educator, consumer, app]
-sources: 15
+sources: 17
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -36,16 +36,16 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
 | D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=37 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 12 jurisdictions, top EU 31% | — |
+| D2 Regional coverage | OK | 11 jurisdictions, top EU 33% | — |
 | D3 Anthropogenic evidence | GAP | 3 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 6 drivers, 3 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, iAs THIN, tHg CONFIDENT, Ni THIN, Al THIN, tAs CONFIDENT, Cr THIN, Sn THIN | iAs: needs 1 distinct source(s); Ni: needs 1 distinct source(s); Al: needs a sample-level-backed source; Cr: needs 1 more study(ies); Sn: needs 1 distinct source(s) |
+| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, iAs THIN, tHg CONFIDENT, Ni THIN, Al THIN, tAs CONFIDENT, Cr THIN, Sn THIN | iAs: needs 1 distinct source(s); Ni: needs a sample-level-backed source; Al: needs a sample-level-backed source; Cr: needs 1 more study(ies); Sn: needs 1 distinct source(s) |
 | D6 Speciation | OK | iAs, tHg, tAs declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U |
 | D8 Provenance integrity | GAP | 0 claims checked, 0 supported; 7 citations, 0 orphan, 5 foreign | 5 foreign citation(s) not naming infant-formula-ingredients: chuchu2013-aluminium-in-infant-formulas, dabeka2011-canada-infant-formula-lead-cadmium-aluminum, astolfi2021-italy-powdered-infant-formula-elements |
 | D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 1 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn; pairing 8 paired, 1 single, 0 unpaired | iAs: THIN, needs 1 distinct source(s); Ni: THIN, needs 1 distinct source(s); Al: THIN, needs a sample-level-backed source; Cr: THIN, needs 1 more study(ies); Sn: THIN, needs 1 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn; pairing 8 paired, 1 single, 0 unpaired | iAs: THIN, needs 1 distinct source(s); Ni: THIN, needs a sample-level-backed source; Al: THIN, needs a sample-level-backed source; Cr: THIN, needs 1 more study(ies); Sn: THIN, needs 1 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
 | **Principle balance** | **OK** | consumer-protection 0.50, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | — |
 
 <!-- /hmi-completeness-scorecard -->
@@ -56,18 +56,18 @@ Burrell and Exley 2010 argues that aluminum in infant formula is likely contamin
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | — | — | — | — | — |
-| Cd | — | — | — | — | — |
-| iAs | — | — | — | — | — |
-| tAs | — | — | — | — | — |
-| tHg | — | — | — | — | — |
-| Ni | — | — | — | — | — |
-| Al | — | — | — | — | — |
-| Cr | — | — | — | — | — |
-| Sn | — | — | — | — | — |
-| U | — | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 1–5 | medium | — |
+| Cd | n=7 | 0–5 | medium | — |
+| iAs | n=2 | 0–5 | low | — |
+| tAs | n=3 | 1–5 | low | — |
+| tHg | n=5 | 0–3 | low | — |
+| Ni | n=2 | 10–80 | low | — |
+| Al | n=7 | 150–1000 | medium | — |
+| Cr | n=2 | 5–35 | low | — |
+| Sn | n=2 | 0–50 | low | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
@@ -89,7 +89,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|Collado-Lopez et al. 2025]]. *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*, Nutrition Reviews | 2025 | Peer-reviewed | Global scoping review synthesizing Pb, Cd, As, Hg in 251 infant formulas and 580 baby foods, providing broad-formula-context evidence for the metal burden attributable to formula ingredient inputs |
 | 2 | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|Höpfner et al. 2025]]. *The contribution of infant formula to the food survey-based dietary exposure of nine selected elements*, Journal of Environmental Exposure Assessment | 2025 | Peer-reviewed | German TDS iAs, Cd, Cr, Pb, Ni, and tHg occurrence in powdered infant formula with formula contribution to infant and toddler dietary exposure |
-| 3 | [[sources/tatsuta2024-mehg-duplicate-diet-children-japan\|Tatsuta et al. 2024]]. *Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan*, Environmental Health and Preventive Medicine | 2024 | Peer-reviewed | MeHg and tHg in Japanese infant and toddler duplicate diets across formula-milk, baby-food, and toddler-meal stages, with formula-stage MeHg as context for Hg in formula ingredient blends |
+| 3 | [[sources/soni2024-additives-contaminants-infant-foods-review\|Soni et al. 2024]]. *Food additives and contaminants in infant foods: a critical review of their health risk, trends and recent developments*, Food Production, Processing and Nutrition | 2024 | Peer-reviewed | US/EU/IN Al occurrence in Narrative review of food additives and contaminants in infant foods; no original measurements. Synthesizes EFSA opinions, US FDA... |
 | 4 | [[sources/amarh2023-ghana-infant-food-heavy-metals\|Amarh et al. 2023]]. *Health risk assessment of some selected heavy metals in infant food sold in Wa, Ghana*, Heliyon | 2023 | Peer-reviewed | GH tAs, Cd, Cr, tHg, Mn, Ni, Pb, Sb occurrence in Locally and internationally produced infant formula and baby-food samples sold in Wa, Ghana (n=22) |
 | 5 | [[sources/astolfi2021-italy-powdered-infant-formula-elements\|Astolfi et al. 2021]]. *Determination of 40 Elements in Powdered Infant Formulas and Related Risk Assessment*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | 40-element survey of 22 Italian powdered infant formula samples, providing Al, Cd, Pb, Ni, Sn, Cr, and As occurrence data with risk assessment and discussion of ingredient inputs and processing as contamination routes |
 | 6 | [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|Pacquette et al. 2016]]. *Simultaneous Determination of Arsenic, Cadmium, Mercury, and Lead in Raw Ingredients, Nutritional Products, and Infant Formula by Inductively Coupled Plasma Mass Spectrometry: Single-Laboratory Validation*, Journal of AOAC International, Vol. 99, No. 3, pp. 766-779 | 2016 | Peer-reviewed | Single-laboratory ICP-MS method validation for As, Cd, Hg, Pb in raw formula ingredients (acid casein, maltodextrin, skim milk powder) and finished infant formula, establishing the analytical basis for ingredient-level heavy metal compliance testing |
@@ -97,11 +97,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 8 | [[sources/cot2013-uk-aluminium-infant-diet\|UK Committee on Toxicity 2013]]. *Statement on the potential risks from aluminium in the infant diet*, Committee on Toxicity (COT), Statement 2013/01, June 2013 | 2013 | Government report | UK Al occurrence in Synthesis of UK Drinking Water Inspectorate 2011 tap-water survey (n=42,400 England/Wales, n=1,730 Northern Ireland, n=5,020 Scotland); FSA 2006... |
 | 9 | [[sources/efsa2012-cadmium-dietary-exposure-europe\|EFSA 2012]]. *Cadmium dietary exposure in the European population*, EFSA Journal 2012;10(1):2551 | 2012 | Government report | EU Cd occurrence in Cadmium occurrence results in food submitted to EFSA from 22 EU Member States, 3 European Economic Area or... (n=178541) |
 | 10 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|Dabeka et al. 2011]]. *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*, Food Additives & Contaminants: Part A | 2011 | Peer-reviewed | Pb, Cd, Al in Canadian infant formulas across powder, concentrated liquid, and RTF formats, providing format-level and type-level context for ingredient-input variance |
-| 11 | [[sources/burrell2010-aluminium-in-infant-formulas\|Burrell et al. 2010]]. *There is (still) too much aluminium in infant formulas*, BMC Pediatrics | 2010 | Peer-reviewed | Al in UK infant formulas arguing that formula constituent ingredients, processing equipment, and aluminum-based packaging are the primary Al contamination routes rather than intentionally added components |
-| 12 | [[sources/kazi2009-toxic-elements-in-infant-formulae\|Kazi et al. 2009]]. *Determination of toxic elements in infant formulae by using electrothermal atomic absorption spectrometer*, Food and Chemical Toxicology | 2009 | Peer-reviewed | Al, Cd, Pb in 17 milk-based and soy-based infant formulas purchased in Pakistan, documenting higher means in soy-based than milk-based products across all three metals |
-| 13 | [[sources/atsdr-aluminum-toxprofile-2008\|ATSDR 2008]]. *Toxicological Profile for Aluminum*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2008 | Government report | ATSDR MRL of 1 mg Al/kg/day for chronic oral Al exposure, with infant formula ingredients identified as a relevant Al exposure source for non-breastfed infants |
-| 14 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal 2008;754:1-34 | 2008 | Government report | EFSA TWI of 1 mg Al/kg b.w./week with infants on certain formulas explicitly identified as a population at risk of exceeding the TWI from Al in formula ingredient inputs |
-| 15 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | International Codex MLs for Cd, Pb, Hg, and iAs in food matrices including infant formula, the international regulatory floor applicable to formula ingredient-level screening programs |
+| 11 | [[sources/fsanz2011-23rd-australian-total-diet-study\|Zealand 2011]]. *The 23rd Australian Total Diet Study*, Food Standards Australia New Zealand | 2011 | Government report | AU/NZ Al, tAs, iAs, Cd, Pb, tHg, iHg, MeHg occurrence in Ninety-two Australian foods and beverages, including tap and bottled water, represented by 570 composite samples; each composite used... (n=570) |
+| 12 | [[sources/burrell2010-aluminium-in-infant-formulas\|Burrell et al. 2010]]. *There is (still) too much aluminium in infant formulas*, BMC Pediatrics | 2010 | Peer-reviewed | Al in UK infant formulas arguing that formula constituent ingredients, processing equipment, and aluminum-based packaging are the primary Al contamination routes rather than intentionally added components |
+| 13 | [[sources/kazi2009-toxic-elements-in-infant-formulae\|Kazi et al. 2009]]. *Determination of toxic elements in infant formulae by using electrothermal atomic absorption spectrometer*, Food and Chemical Toxicology | 2009 | Peer-reviewed | Al, Cd, Pb in 17 milk-based and soy-based infant formulas purchased in Pakistan, documenting higher means in soy-based than milk-based products across all three metals |
+| 14 | [[sources/atsdr-aluminum-toxprofile-2008\|ATSDR 2008]]. *Toxicological Profile for Aluminum*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2008 | Government report | ATSDR MRL of 1 mg Al/kg/day for chronic oral Al exposure, with infant formula ingredients identified as a relevant Al exposure source for non-breastfed infants |
+| 15 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal 2008;754:1-34 | 2008 | Government report | EFSA TWI of 1 mg Al/kg b.w./week with infants on certain formulas explicitly identified as a population at risk of exceeding the TWI from Al in formula ingredient inputs |
+| 16 | [[sources/cot2003-infant-food-metals\|Committee on Toxicity of 2003]]. *COT statement on a survey of metals in infant food*, Committee on Toxicity statement | 2003 | Government report | GB Al, Sb, tAs, Cd, Cr, Cu, Pb, tHg, Ni, Se, Sn, Zn occurrence in Commercial UK baby foods and formulae, including infant formulae, manufactured baby foods, desserts, rusks, and infant drinks, surveyed... (n=189) |
+| 17 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | International Codex MLs for Cd, Pb, Hg, and iAs in food matrices including infant formula, the international regulatory floor applicable to formula ingredient-level screening programs |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -144,9 +146,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
 <!-- END: hmi-page-history -->

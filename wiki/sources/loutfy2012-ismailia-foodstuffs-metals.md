@@ -93,5 +93,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [43b4711](https://github.com/paleofoundation/heavymetalindex/commit/43b4711) | 2026-06-08 | ingest: loutfy2012-ismailia-foodstuffs-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| [2e7b96894](https://github.com/paleofoundation/heavymetalindex/commit/2e7b96894) | 2026-06-09 | audit: loutfy2012-ismailia-foodstuffs-metals promoted per autonomous audit |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [43b47116f](https://github.com/paleofoundation/heavymetalindex/commit/43b47116f) | 2026-06-08 | ingest: loutfy2012-ismailia-foodstuffs-metals fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

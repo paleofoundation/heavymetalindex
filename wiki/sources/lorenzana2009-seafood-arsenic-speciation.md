@@ -84,5 +84,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [01b3122](https://github.com/paleofoundation/heavymetalindex/commit/01b3122) | 2026-06-08 | ingest: lorenzana2009-seafood-arsenic-speciation fresh from MFK/June 8 New Folder With Items 3 2 |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [01b3122bb](https://github.com/paleofoundation/heavymetalindex/commit/01b3122bb) | 2026-06-08 | ingest: lorenzana2009-seafood-arsenic-speciation fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

@@ -109,9 +109,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [30763fe](https://github.com/paleofoundation/heavymetalindex/commit/30763fe) | 2026-06-02 | audit: hamid2021-bacterial-plant-biostimulants-review [promoted] |
-| [2ed65c4](https://github.com/paleofoundation/heavymetalindex/commit/2ed65c4) | 2026-06-02 | ingest: hamid2021-bacterial-plant-biostimulants-review [fresh] from Manual Fetch Kimi /June 2 Manual Fetches |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| [30763fe03](https://github.com/paleofoundation/heavymetalindex/commit/30763fe03) | 2026-06-02 | audit: hamid2021-bacterial-plant-biostimulants-review [promoted] |
 <!-- END: hmi-page-history -->

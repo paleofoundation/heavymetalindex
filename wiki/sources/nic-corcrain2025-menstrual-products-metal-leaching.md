@@ -68,3 +68,13 @@ App: The source can support a low-confidence note that menstrual-product exposur
 - Units are preserved as `ppb`; no conversion to `µg/L` was made.
 - Speciation: arsenic is listed as a target analyte but no arsenic number is used because the poster reports background contamination.
 - Brand firewall: the poster states brand-dependent differences but does not print brand names in the extracted text; no brand names are attached to values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ecf202b37](https://github.com/paleofoundation/heavymetalindex/commit/ecf202b37) | 2026-06-09 | ingest: June 8 personal product occurrence batch from MFK |
+<!-- END: hmi-page-history -->

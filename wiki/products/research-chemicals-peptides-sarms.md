@@ -17,7 +17,7 @@ typical_ingredients: []
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 literature_scope: thin
-sources: 2
+sources: 4
 wiki_doi: null
 created_by: cat26_step0_2026_06_08
 updated: 2026-06-08
@@ -51,5 +51,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [4dcfa39](https://github.com/paleofoundation/heavymetalindex/commit/4dcfa39) | 2026-06-08 | ingest: craven2025-aas-heavy-metals-australia from June 8 (research-chemical occurrence) |
+| [c794d6b50](https://github.com/paleofoundation/heavymetalindex/commit/c794d6b50) | 2026-06-08 | reorg(taxonomy-v2.1): stand up cats 24/25/26 + mushrooms/jewelry rows |
+| [4dcfa39fb](https://github.com/paleofoundation/heavymetalindex/commit/4dcfa39fb) | 2026-06-08 | ingest: craven2025-aas-heavy-metals-australia from June 8 (research-chemical occurrence) |
 <!-- END: hmi-page-history -->

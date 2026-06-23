@@ -57,3 +57,13 @@ Health: The urine findings and child-adult contrast make it useful for exposure 
 - [[health/dietary-heavy-metal-exposure]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ad549bd1a](https://github.com/paleofoundation/heavymetalindex/commit/ad549bd1a) | 2026-06-15 | recovery: ingest Muimba-Kankolongo 2022 Copperbelt trace metals study |
+<!-- END: hmi-page-history -->

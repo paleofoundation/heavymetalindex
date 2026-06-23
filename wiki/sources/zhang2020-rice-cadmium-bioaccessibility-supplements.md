@@ -65,3 +65,13 @@ Microbiome: Not a microbiome study.
 
 - DOI, title, authors, journal, year, license, concentration values, digestion conditions, supplement doses, and analytical method were transcribed from the PDF.
 - The same `nu12061769` thyroid-gut review appeared as a separate auto-fetch hit in both probiotic and vitamin-mineral queues and was skipped separately; this page is the distinct IJERPH rice bioaccessibility paper with DOI 10.3390/ijerph17144978.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b8b3dd9f4](https://github.com/paleofoundation/heavymetalindex/commit/b8b3dd9f4) | 2026-06-09 | ingest auto-fetched 2026-06-09: zhang2020-rice-cadmium-bioaccessibility-supplements |
+<!-- END: hmi-page-history -->

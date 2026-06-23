@@ -79,3 +79,13 @@ App: If oral-care product profiles are surfaced, this source can support a Niger
 - Brand firewall: the source names commercial toothpaste products in Tables 1 and 2 and in the abstract's examples. This page suppresses brand-by-value rows and reports only local/imported and all-sample ranges.
 - Evidence tier: `B` because this is a peer-reviewed finished-product occurrence study with 35 market samples, triplicate AAS measurements, and reported LODs, but no DOI, no CRM/recovery data, and no non-Nigerian market coverage.
 - Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `1` `toothpaste` product routing row, was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients` advisory in `data/evidence/routing_malformed.csv`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c1c032d0b](https://github.com/paleofoundation/heavymetalindex/commit/c1c032d0b) | 2026-06-09 | ingest: orisakwe2016-nigeria-toothpastes-metals fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

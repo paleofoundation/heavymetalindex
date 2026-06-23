@@ -62,3 +62,13 @@ App: Can support a cautionary leafy-greens context note for urban foraging, with
 ## Verification notes
 
 Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. The paper includes both routeable edible-tissue numbers and urban-soil pathway context. Product and ingredient routing is kept broad because the tested greens span multiple wild species rather than a single commercial crop row.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c7da2fe35](https://github.com/paleofoundation/heavymetalindex/commit/c7da2fe35) | 2026-06-15 | recovery 2026-06-15: ingest stark2019-east-bay-wild-edible-greens |
+<!-- END: hmi-page-history -->

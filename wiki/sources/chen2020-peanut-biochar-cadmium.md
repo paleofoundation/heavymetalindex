@@ -58,3 +58,13 @@ Supply-chain: The paper also belongs in soil-to-plant transfer discussions becau
 - [[mitigation/agronomic-remediation]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [56c80c9ca](https://github.com/paleofoundation/heavymetalindex/commit/56c80c9ca) | 2026-06-15 | recovery: ingest Chen 2020 peanut cadmium mitigation study |
+<!-- END: hmi-page-history -->

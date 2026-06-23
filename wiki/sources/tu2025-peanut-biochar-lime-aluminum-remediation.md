@@ -55,3 +55,13 @@ App: Context-only mitigation evidence.
 ## Verification notes
 
 Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. Products and ingredients remain empty because the paper focuses on field-soil remediation and plant-performance outcomes, not a marketed peanut-product assay.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c4bc12ac6](https://github.com/paleofoundation/heavymetalindex/commit/c4bc12ac6) | 2026-06-14 | recover source: peanut biochar lime remediation |
+<!-- END: hmi-page-history -->

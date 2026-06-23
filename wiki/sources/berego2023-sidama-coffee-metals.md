@@ -69,3 +69,14 @@ App: The coffee-facing takeaway is that this Sidama sample set found no detected
 - The coffee tables use mg/kg and ppm interchangeably; this page preserves the source units as mg/kg and does not convert to ppb.
 - Soil Cd exceedance is not a coffee-product occurrence value. It is retained only as agricultural-soil and supply-chain context.
 - The Table 7 text extraction visibly drops some column alignment for Cr and Pb; the narrative and Table 8 both support Cr, Pb, and Cd as not detected in washing-industry beans.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0a343876a](https://github.com/paleofoundation/heavymetalindex/commit/0a343876a) | 2026-06-09 | audit: berego2023-sidama-coffee-metals revised per autonomous audit |
+| [f4ed23400](https://github.com/paleofoundation/heavymetalindex/commit/f4ed23400) | 2026-06-09 | ingest auto-fetched 2026-06-09: berego2023-sidama-coffee-metals |
+<!-- END: hmi-page-history -->

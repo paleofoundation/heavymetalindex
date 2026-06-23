@@ -133,6 +133,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [43f4b6b](https://github.com/paleofoundation/heavymetalindex/commit/43f4b6b) | 2026-06-08 | audit: lee2003-arabidopsis-pcs1-overexpression-cd-hypersensitivity revised |
-| [86ae207](https://github.com/paleofoundation/heavymetalindex/commit/86ae207) | 2026-06-08 | ingest: lee2003-arabidopsis-pcs1-overexpression-cd-hypersensitivity fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [43f4b6b1b](https://github.com/paleofoundation/heavymetalindex/commit/43f4b6b1b) | 2026-06-08 | audit: lee2003-arabidopsis-pcs1-overexpression-cd-hypersensitivity revised |
+| [86ae207d4](https://github.com/paleofoundation/heavymetalindex/commit/86ae207d4) | 2026-06-08 | ingest: lee2003-arabidopsis-pcs1-overexpression-cd-hypersensitivity fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

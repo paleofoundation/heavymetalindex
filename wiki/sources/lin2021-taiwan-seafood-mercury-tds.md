@@ -86,5 +86,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [6091c03](https://github.com/paleofoundation/heavymetalindex/commit/6091c03) | 2026-06-08 | ingest: lin2021-taiwan-seafood-mercury-tds fresh from MFK/June 8 New Folder With Items 4 2 |
+| [96c06b3a0](https://github.com/paleofoundation/heavymetalindex/commit/96c06b3a0) | 2026-06-09 | audit: lin2021-taiwan-seafood-mercury-tds revised per autonomous audit |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [6091c03d6](https://github.com/paleofoundation/heavymetalindex/commit/6091c03d6) | 2026-06-08 | ingest: lin2021-taiwan-seafood-mercury-tds fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->

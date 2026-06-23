@@ -63,3 +63,13 @@ App: The dataset supports eye-makeup and children's-makeup evidence surfaces, wi
 - The paper reports coded manufacturer groups but this page does not reproduce company codes in the key values, preserving the brand firewall.
 - Concentrations are reported in micrograms/kg in Table 2; this page notes mg/kg equivalents only where the authors compare values to regulatory limits.
 - The study measures total element concentrations and does not provide speciation for any metal.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5e99fb6ab](https://github.com/paleofoundation/heavymetalindex/commit/5e99fb6ab) | 2026-06-09 | ingest auto-fetched 2026-06-09: pawlaczyk2021-eyeshadows-metallic-impurities |
+<!-- END: hmi-page-history -->

@@ -60,3 +60,13 @@ App: Context only for arsenic source-water risk explanation.
 Recovered under the 2026-06-10 inclusion-by-default rule from a prior `skip:not-target-cell` disposition. The old skip ignored the fact that the paper is direct arsenic groundwater occurrence plus health-risk modelling in a vulnerable population setting.
 
 Products and ingredients are intentionally empty because the matrix is groundwater, not a market product. Arsenic is tagged as `tAs` because the paper measures total groundwater arsenic and does not present inorganic-arsenic speciation for consumer-product routing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb9c615fe](https://github.com/paleofoundation/heavymetalindex/commit/fb9c615fe) | 2026-06-13 | recovery \| thakur2024 darrang groundwater arsenic |
+<!-- END: hmi-page-history -->

@@ -71,3 +71,13 @@ Microbiome: No microbiome findings.
 - DOI, title, authors, journal, year, trial size, intervention arms, baseline water arsenic range, filter protocol, arsenic speciation method, and blood metabolite changes were transcribed from the PDF.
 - The auto-fetch filename mapped this source to water filters. The PDF is mainly a folic-acid/creatine supplementation trial, with water filters provided to all arms as exposure-source control.
 - The page keeps inorganic arsenic, MMAs, and DMAs as blood/urine biomarkers. It does not treat changes in blood metabolites as product contamination values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [466e35e9e](https://github.com/paleofoundation/heavymetalindex/commit/466e35e9e) | 2026-06-09 | ingest auto-fetched 2026-06-09: abuawad2023-folic-creatine-arsenic-methylation |
+<!-- END: hmi-page-history -->

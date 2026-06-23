@@ -70,5 +70,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [77fbf24](https://github.com/paleofoundation/heavymetalindex/commit/77fbf24) | 2026-06-08 | ingest: uroko2020-ubani-canned-tomato-paste-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| [1b4710498](https://github.com/paleofoundation/heavymetalindex/commit/1b4710498) | 2026-06-09 | audit: uroko2020-ubani-canned-tomato-paste-metals revised per autonomous audit |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [77fbf2429](https://github.com/paleofoundation/heavymetalindex/commit/77fbf2429) | 2026-06-08 | ingest: uroko2020-ubani-canned-tomato-paste-metals fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

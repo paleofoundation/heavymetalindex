@@ -60,3 +60,13 @@ Health: The paper supports public-health and exposure pages by showing that cont
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
 - [[metals/lead]]
 - [[health/dietary-heavy-metal-exposure]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8d3ef8292](https://github.com/paleofoundation/heavymetalindex/commit/8d3ef8292) | 2026-06-15 | recovery: ingest Majumder 2021 Bangladesh lead review |
+<!-- END: hmi-page-history -->

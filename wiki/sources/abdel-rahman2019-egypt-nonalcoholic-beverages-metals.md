@@ -64,3 +64,13 @@ App: Eligible for beverage-occurrence context once synthesized.
 ## Verification notes
 
 Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. The file contains direct beverage measurements for multiple heavy-metal analytes and should not have remained blocked in the gap queue.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5a88c2a7a](https://github.com/paleofoundation/heavymetalindex/commit/5a88c2a7a) | 2026-06-14 | recover source: Egyptian beverage metals |
+<!-- END: hmi-page-history -->

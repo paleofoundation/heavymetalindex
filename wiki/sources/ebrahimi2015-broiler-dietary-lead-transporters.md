@@ -68,3 +68,13 @@ Microbiome: No microbiome findings.
 - Units are preserved as the source reports them: mg/kg for diet and liver Pb and ug for daily Pb ingestion.
 - Figure bar heights for feed intake, body-weight gain, feed efficiency, and fold-change expression were not converted into numerical values because the extracted text does not print exact bar values.
 - Products and ingredients are intentionally empty because the paper is a spiked-feed toxicology study, not an occurrence survey of poultry meat, supplements, or enzymes.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [870705667](https://github.com/paleofoundation/heavymetalindex/commit/870705667) | 2026-06-11 | recover-ingest 2026-06-11: ebrahimi2015-broiler-dietary-lead-transporters (lane a4, was skip:no-occurrence-data) |
+<!-- END: hmi-page-history -->

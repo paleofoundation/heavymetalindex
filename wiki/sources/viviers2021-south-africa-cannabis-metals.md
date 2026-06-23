@@ -115,3 +115,13 @@ This source provides South Africa market context for cannabis-based product cate
 - Units are preserved as `µg/g`, `ppm`, `%RSD`, and the source's sample counts. No unit conversions were performed.
 - Brand firewall: the dataset is anonymized and no sampled brands are named.
 - Missing slug note: the taxonomy snapshot has no cannabis-specific product, ingredient, vape, or inhalation-product slug. Frontmatter uses broad `[[ingredients/herbal-botanicals]]`, `[[products/supplements-botanicals-herbs]]`, and `[[products/dietary-supplements]]`, while cannabis route/form terms are retained only as matrix descriptors.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [718c85d1d](https://github.com/paleofoundation/heavymetalindex/commit/718c85d1d) | 2026-06-09 | ingest: cannabis metals fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

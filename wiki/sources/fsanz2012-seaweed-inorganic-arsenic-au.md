@@ -96,5 +96,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [fdd6098](https://github.com/paleofoundation/heavymetalindex/commit/fdd6098) | 2026-06-08 | ingest: fsanz2012-seaweed-inorganic-arsenic-au fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [fdd609860](https://github.com/paleofoundation/heavymetalindex/commit/fdd609860) | 2026-06-08 | ingest: fsanz2012-seaweed-inorganic-arsenic-au fresh from MFK/June 8 Inorganic Arsenic Seaweed |
 <!-- END: hmi-page-history -->

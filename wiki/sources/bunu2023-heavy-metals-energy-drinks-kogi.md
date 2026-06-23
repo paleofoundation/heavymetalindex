@@ -230,6 +230,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [e088b3a](https://github.com/paleofoundation/heavymetalindex/commit/e088b3a) | 2026-06-06 | audit: bunu2023-heavy-metals-energy-drinks-kogi revised |
-| [f160b4e](https://github.com/paleofoundation/heavymetalindex/commit/f160b4e) | 2026-06-06 | ingest: bunu2023-heavy-metals-energy-drinks-kogi fresh from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [e088b3a5e](https://github.com/paleofoundation/heavymetalindex/commit/e088b3a5e) | 2026-06-06 | audit: bunu2023-heavy-metals-energy-drinks-kogi revised |
+| [f160b4e6d](https://github.com/paleofoundation/heavymetalindex/commit/f160b4e6d) | 2026-06-06 | ingest: bunu2023-heavy-metals-energy-drinks-kogi fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

@@ -142,6 +142,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [8f4be10](https://github.com/paleofoundation/heavymetalindex/commit/8f4be10) | 2026-06-08 | audit: ruttkay-nedecky2013-metallothionein-oxidative-stress revised |
-| [5096d9b](https://github.com/paleofoundation/heavymetalindex/commit/5096d9b) | 2026-06-08 | ingest: ruttkay-nedecky2013-metallothionein-oxidative-stress fresh from MFK/June 8 Black Market Peptide Metal Survey |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [8f4be101f](https://github.com/paleofoundation/heavymetalindex/commit/8f4be101f) | 2026-06-08 | audit: ruttkay-nedecky2013-metallothionein-oxidative-stress revised |
+| [5096d9b76](https://github.com/paleofoundation/heavymetalindex/commit/5096d9b76) | 2026-06-08 | ingest: ruttkay-nedecky2013-metallothionein-oxidative-stress fresh from MFK/June 8 Black Market Peptide Metal Survey |
 <!-- END: hmi-page-history -->

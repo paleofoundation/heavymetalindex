@@ -79,3 +79,13 @@ App: Context only. The source can support an upstream pathway explanation for le
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because the auto-fetch filename targeted soy products and the paper did not measure a finished soy product. On reading, the paper is in-scope a3 supply-chain pathway evidence because it measures heavy metals in polymer-waste sludge, growth substrates, and plant material.
 
 Numbers were checked against the extracted PDF text, especially the English abstract, Table 1, Table 2, Table 3, the discussion, and the conclusions. Decimal-comma table values are preserved as printed. Products and ingredients are intentionally empty because the paper does not report routeable finished-food occurrence values. The paper reports Pb, Cu, Cd, Zn, and Ni as total elemental heavy metals/mobile or bound forms; no arsenic, mercury, chromium, inorganic arsenic, methylmercury, or Cr(VI) data are reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2583cde87](https://github.com/paleofoundation/heavymetalindex/commit/2583cde87) | 2026-06-10 | recover-ingest 2026-06-10: malyshevska2021-polymer-sludge-plant-uptake (lane a3, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

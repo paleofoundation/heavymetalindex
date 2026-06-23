@@ -84,5 +84,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [9256725](https://github.com/paleofoundation/heavymetalindex/commit/9256725) | 2026-06-08 | ingest: kongta2023-noodle-products-aluminum-thailand fresh from MFK/June 8 New Folder With Items 3 2 |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [92567258d](https://github.com/paleofoundation/heavymetalindex/commit/92567258d) | 2026-06-08 | ingest: kongta2023-noodle-products-aluminum-thailand fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

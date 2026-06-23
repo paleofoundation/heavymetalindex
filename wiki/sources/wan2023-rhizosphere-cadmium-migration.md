@@ -63,3 +63,13 @@ App: Context only.
 ## Verification notes
 
 The corpus queue labeled this record `WIKIBIOME-HANDOFF`, but deep read shows it is first-class HMI a2 mitigation evidence with direct cadmium migration and passivation measurements. Products and ingredients remain intentionally empty because the source measures rhizosphere dynamics rather than a market product.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ab2ece319](https://github.com/paleofoundation/heavymetalindex/commit/ab2ece319) | 2026-06-14 | recover corpus 2026-06-14: wan2023-rhizosphere-cadmium-migration (lane a2) |
+<!-- END: hmi-page-history -->

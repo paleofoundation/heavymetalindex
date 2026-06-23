@@ -59,3 +59,13 @@ App: Context only for arsenic-water-pathway explanations.
 Recovered under the 2026-06-10 inclusion-by-default rule from a prior `skip:not-target-cell` lineage. The corrected scope treats mining-affected river-basin water surveillance as in-scope a3 pathway evidence.
 
 Products and ingredients are intentionally empty because the paper measures basin waters rather than a market product. Arsenic is tagged as `tAs` because the paper measures total arsenic and speciates `As(III)`/`As(V)` in water, but the frontmatter metal slot here is meant to reflect the primary arsenic occurrence matrix rather than claim a consumer-product inorganic-arsenic value.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e1768d539](https://github.com/paleofoundation/heavymetalindex/commit/e1768d539) | 2026-06-13 | recovery \| azzaya2017 kharaa arsenic |
+<!-- END: hmi-page-history -->

@@ -55,3 +55,13 @@ App: Context-only mitigation evidence.
 ## Verification notes
 
 Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. Products and ingredients remain empty because the matrix is an engineered aqueous-solution remediation system rather than a marketed food or beverage.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [41bb322ef](https://github.com/paleofoundation/heavymetalindex/commit/41bb322ef) | 2026-06-14 | recover source: cadmium salt removal nanosheets |
+<!-- END: hmi-page-history -->

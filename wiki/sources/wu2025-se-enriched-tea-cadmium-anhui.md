@@ -126,5 +126,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [0d0cfb7](https://github.com/paleofoundation/heavymetalindex/commit/0d0cfb7) | 2026-06-08 | ingest: wu2025-se-enriched-tea-cadmium-anhui fresh from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [0d0cfb70d](https://github.com/paleofoundation/heavymetalindex/commit/0d0cfb70d) | 2026-06-08 | ingest: wu2025-se-enriched-tea-cadmium-anhui fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

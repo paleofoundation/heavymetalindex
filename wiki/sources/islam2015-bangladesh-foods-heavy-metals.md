@@ -122,5 +122,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [b1e03ce](https://github.com/paleofoundation/heavymetalindex/commit/b1e03ce) | 2026-06-08 | ingest: islam2015-bangladesh-foods-heavy-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| [ad9509753](https://github.com/paleofoundation/heavymetalindex/commit/ad9509753) | 2026-06-09 | audit: islam2015-bangladesh-foods-heavy-metals revised per autonomous audit |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [b1e03cee9](https://github.com/paleofoundation/heavymetalindex/commit/b1e03cee9) | 2026-06-08 | ingest: islam2015-bangladesh-foods-heavy-metals fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

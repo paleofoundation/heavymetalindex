@@ -66,3 +66,13 @@ Microbiome: WikiBiome federation signpost — plant-growth-promoting rhizobacter
 - `metals: [tAs]` — total arsenic, not speciated.
 - `ingredients: []` / `products: []` correct: bioremediation context, not retail food occurrence.
 - Part 2 direction-of-edit check: adds upstream mechanism/microbiome literature; neutral to HMT&C thresholds, moves toward the literature.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c9b85bf01](https://github.com/paleofoundation/heavymetalindex/commit/c9b85bf01) | 2026-06-18 | ingest(phytoremediation): 9 in-scope remediation/soil-mechanism sources |
+<!-- END: hmi-page-history -->

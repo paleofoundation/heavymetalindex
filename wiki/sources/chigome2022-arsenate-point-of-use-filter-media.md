@@ -61,3 +61,13 @@ App: Context-only mitigation evidence for arsenic-removal strategies.
 Recovered under the 2026-06-10 inclusion-by-default rule from an earlier `skip:review-only-no-primary-data` disposition. That earlier skip was too narrow because the paper includes original nanocomposite adsorption and prototype filter-performance results, not just background review prose.
 
 Products and ingredients are intentionally empty because the matrix is prepared arsenate solution and prototype treatment media rather than a market product. Arsenic is tagged as `iAs` because the experiments specifically target `As(V)` arsenate rather than total arsenic.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e61990262](https://github.com/paleofoundation/heavymetalindex/commit/e61990262) | 2026-06-13 | recovery \| chigome2022 arsenate filter media |
+<!-- END: hmi-page-history -->

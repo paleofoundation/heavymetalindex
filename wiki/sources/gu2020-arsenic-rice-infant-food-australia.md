@@ -168,9 +168,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1be66b2](https://github.com/paleofoundation/heavymetalindex/commit/1be66b2) | 2026-06-08 | audit: gu2020-arsenic-rice-infant-food-australia revised |
-| [e22dea4](https://github.com/paleofoundation/heavymetalindex/commit/e22dea4) | 2026-06-08 | ingest: gu2020-arsenic-rice-infant-food-australia enhanced from MFD/Manual Fetch Discovery |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [1be66b2f4](https://github.com/paleofoundation/heavymetalindex/commit/1be66b2f4) | 2026-06-08 | audit: gu2020-arsenic-rice-infant-food-australia revised |
+| [e22dea419](https://github.com/paleofoundation/heavymetalindex/commit/e22dea419) | 2026-06-08 | ingest: gu2020-arsenic-rice-infant-food-australia enhanced from MFD/Manual Fetch Discovery |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

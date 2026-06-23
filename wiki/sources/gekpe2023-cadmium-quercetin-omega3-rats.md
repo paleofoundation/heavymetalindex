@@ -68,3 +68,13 @@ Microbiome: No microbiome endpoints.
 - Speciation: the source uses cadmium chloride exposure and reports cadmium as Cd/cadmium; no cadmium speciation beyond the administered compound is reported.
 - Products and ingredients are intentionally empty. Olive oil appears only as a vehicle/sham-control dose and is not a measured product matrix.
 - The paper contains internal inconsistencies: the abstract says 42 Wistar rats were assigned into seven groups of six, while the methods also mention 48 rats for the main experiment; `sample_n` uses the internally consistent seven groups times six rats. The GPx and MDA result paragraphs contain extract/OCR or source-text inconsistencies, so unclear treatment means are not used as exact values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f2fa15590](https://github.com/paleofoundation/heavymetalindex/commit/f2fa15590) | 2026-06-11 | recover-ingest 2026-06-10: gekpe2023-cadmium-quercetin-omega3-rats (lane a4, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

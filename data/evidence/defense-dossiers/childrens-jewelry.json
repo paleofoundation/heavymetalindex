@@ -1,0 +1,349 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/childrens-jewelry",
+    "title": "Children's Jewelry",
+    "hmtc_category": 21,
+    "hmtc_row": 22,
+    "category_label": null,
+    "age_range": null,
+    "label": "Children's Jewelry",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/childrens-jewelry",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "3dfef3e63f44b6325bb66e73622400706f84642110d2fe0e2ca801b2aca04df3",
+      "content_bytes": 10802,
+      "last_commit_sha": "cedfa8b8a",
+      "last_commit_date": "2026-06-11",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show cedfa8b8a:wiki/products/childrens-jewelry.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 13,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/cirs2023-reach-annex-xvii-restrictions",
+        "title": "REACH ANNEX XVII — Restrictions on the Manufacture, Placing on the Market and Use of Certain Dangerous Substances, Mixtures and Articles",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "iHg",
+          "Cr-VI",
+          "Ni",
+          "tAs",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cirs2023-reach-annex-xvii-restrictions",
+        "content_pin": {
+          "content_sha256": "59535b1182262e8426a9abd0632bf02c1237521d58499459725affaf8d6a54f8",
+          "content_bytes": 34296,
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e2155:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cpsc2009-cpsia-101-procedures-npr",
+        "title": "Children's Products Containing Lead; Notice of Proposed Procedures and Requirements for a Commission Determination or Exclusion (16 CFR 1500.89 and 1500.90); and companion Notice of Proposed Rulemaking on Proposed Determinations Regarding Lead Content Limits on Certain Materials or Products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cpsc2009-cpsia-101-procedures-npr",
+        "content_pin": {
+          "content_sha256": "e8396a32888a03ff2b48c1d87e7b6054c6acccbd4f281fad8d3ffef3e941c4f2",
+          "content_bytes": 29715,
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e2155:wiki/sources/cpsc2009-cpsia-101-procedures-npr.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cpsc2009-cpsia-101b-inaccessibility-rule",
+        "title": "Children's Products Containing Lead; Interpretative Rule on Inaccessible Component Parts (16 CFR 1500.87) — Commission ballot package: draft Federal Register notice, staff guidance memorandum, and response to public comments",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cpsc2009-cpsia-101b-inaccessibility-rule",
+        "content_pin": {
+          "content_sha256": "ded313077dd4f1c65d73ffb4294d3218661c12435960763cd8f057a2be425db0",
+          "content_bytes": 31686,
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e2155:wiki/sources/cpsc2009-cpsia-101b-inaccessibility-rule.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cpsc2010-cadmium-childrens-metal-jewelry",
+        "title": "Children's Cadmium-Containing Metal Jewelry — Staff Report",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cpsc2010-cadmium-childrens-metal-jewelry",
+        "content_pin": {
+          "content_sha256": "1b141dba0d0b5c5c83697876a3cb99e0fac021c5d735625f2e9afaf6d4da6e71",
+          "content_bytes": 43381,
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e2155:wiki/sources/cpsc2010-cadmium-childrens-metal-jewelry.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cpsc2011-cpsia-100ppm-tech-feasibility",
+        "title": "Children's Products Containing Lead; Technological Feasibility of 100 ppm for Lead Content; Notice of Effective Date of 100 ppm Lead Content Limit in Children's Products — Office of General Counsel ballot memo (June 22, 2011), Draft Federal Register Notice, and Staff Briefing Package for Commission consideration at the July 13, 2011 decisional meeting; Docket No. CPSC-2010-0080",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cpsc2011-cpsia-100ppm-tech-feasibility",
+        "content_pin": {
+          "content_sha256": "5cd7c4eaaacb45ff93f200ca6afdb82b00dabeace603ee7e4e7beb9552a1a337",
+          "content_bytes": 42079,
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e2155:wiki/sources/cpsc2011-cpsia-100ppm-tech-feasibility.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gautam2022-jewellery-heavy-metals",
+        "title": "Health Risk Assessment: Heavy Metals (Lead, Cadmium and Nickel) in Jewellery (Oral and Dermal Contact)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gautam2022-jewellery-heavy-metals",
+        "content_pin": {
+          "content_sha256": "0b70a151d808c030f7ea9081051228eac3857cc8f12072572c0e2bb80514b418",
+          "content_bytes": 13288,
+          "last_commit_sha": "5fb79cc80",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5fb79cc80:wiki/sources/gautam2022-jewellery-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hohenstein2023-en-1811-2023-nickel-release",
+        "title": "EU Releases New Standard For Nickel EN 1811:2023",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hohenstein2023-en-1811-2023-nickel-release",
+        "content_pin": {
+          "content_sha256": "9cd16d6f35b92feca96817fc1bbda22d01e041357eed97496534c76324908f1a",
+          "content_bytes": 13303,
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e2155:wiki/sources/hohenstein2023-en-1811-2023-nickel-release.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hsn2019-prop65-compliance-requirements",
+        "title": "California Proposition 65 Compliance Requirements",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hsn2019-prop65-compliance-requirements",
+        "content_pin": {
+          "content_sha256": "ebda3ff9771599a2d1a1028aa81a86001f94ed7c7dd1091b4f7a0ec23e134e19",
+          "content_bytes": 35928,
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e2155:wiki/sources/hsn2019-prop65-compliance-requirements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mohammed2020-tt-toys-baby-items",
+        "title": "Heavy metals in children's toys and baby items commonly sold in Trinidad and Tobago",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Cu",
+          "Mn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
+        "content_pin": {
+          "content_sha256": "4b74d4ae5e1c2040532eae87323d529360018819c5311e0b4fb5fb1fc54a9517",
+          "content_bytes": 29687,
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e2155:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nelson2023-wa-childrens-jewelry-followup",
+        "title": "Cadmium and Other Metals in Children's Jewelry 2018, Follow-up Study",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Sb",
+          "tAs",
+          "Co",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nelson2023-wa-childrens-jewelry-followup",
+        "content_pin": {
+          "content_sha256": "a83a8ce9016bf8cc15aaa34ef2129d2e8a3d39f7c5068bf254f15c8762ad7ba2",
+          "content_bytes": 25445,
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e2155:wiki/sources/nelson2023-wa-childrens-jewelry-followup.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/pirg2010-trouble-in-toyland",
+        "title": "Trouble in Toyland: The 25th Annual Survey of Toy Safety",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Sb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pirg2010-trouble-in-toyland",
+        "content_pin": {
+          "content_sha256": "c96d138bd2a561c4f4f75970ee82302349c37994722915922fed3dee34990aa2",
+          "content_bytes": 28099,
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e2155:wiki/sources/pirg2010-trouble-in-toyland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sekerak2016-wa-childrens-jewelry",
+        "title": "Cadmium and Other Metals in Children's Jewelry",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Sb",
+          "tAs",
+          "Co",
+          "tHg",
+          "Mo"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sekerak2016-wa-childrens-jewelry",
+        "content_pin": {
+          "content_sha256": "86fe20dc19043d24ef8697fe86b16cb61ee43f77f61f1d46061beaa8c3a9aea4",
+          "content_bytes": 26614,
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e2155:wiki/sources/sekerak2016-wa-childrens-jewelry.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/stone2021-wa-metals-childrens-consumer-products",
+        "title": "Metals in Children's and Consumer Products and Packaging",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sb",
+          "tAs",
+          "Cd",
+          "Cr",
+          "Co",
+          "Cu",
+          "Pb",
+          "tHg",
+          "Mo",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
+        "content_pin": {
+          "content_sha256": "77f836054ac7dbcb059feb0fe916eaf0338b39ac61c882824348f4c69332a16a",
+          "content_bytes": 39526,
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show aca5e2155:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/childrens-jewelry.md",
+    "total_claims": 2,
+    "cited_claims": 2,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 13,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

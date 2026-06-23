@@ -62,3 +62,13 @@ App: Eligible for spinach and leafy-vegetable occurrence context after synthesis
 ## Verification notes
 
 Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. The queue title surfaced this through a spinach gap, but the source is broader than spinach and should remain visible at both the spinach and leafy-vegetable layers.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4fdbe6d5b](https://github.com/paleofoundation/heavymetalindex/commit/4fdbe6d5b) | 2026-06-14 | recover source: Canary leafy vegetables elements |
+<!-- END: hmi-page-history -->

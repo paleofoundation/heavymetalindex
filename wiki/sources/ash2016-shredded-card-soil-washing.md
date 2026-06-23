@@ -66,3 +66,13 @@ App: Context only. The paper can support upstream remediation and source-pathway
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated a soil-washing/filter paper as out of scope because it did not measure a finished product, but the source is in-scope a2 mitigation/remediation evidence.
 
 Numbers were checked against the extracted PDF text, especially the abstract, Table 1, Table 3, Table 4, Table 5, the leaching-method paragraph, and the desorption discussion. Units are preserved as reported. Arsenic is treated as total As (`tAs`) because the paper reports As by total elemental analysis rather than inorganic-arsenic speciation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d15eda874](https://github.com/paleofoundation/heavymetalindex/commit/d15eda874) | 2026-06-10 | recover-ingest 2026-06-10: ash2016-shredded-card-soil-washing (lane a2, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

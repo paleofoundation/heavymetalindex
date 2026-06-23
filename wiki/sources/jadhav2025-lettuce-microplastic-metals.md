@@ -57,3 +57,13 @@ Health: The food-safety framing is still relevant because the edible plant tissu
 - [[supply-chain/soil-to-plant-transfer]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [40fcf5462](https://github.com/paleofoundation/heavymetalindex/commit/40fcf5462) | 2026-06-15 | recovery: ingest Jadhav 2025 lettuce microplastic study |
+<!-- END: hmi-page-history -->

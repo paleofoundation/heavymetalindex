@@ -72,3 +72,14 @@ Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-defa
 All key numbers were checked against the extracted PDF text, especially Tables 3, 6, and 7 and the pollution-index prose. The paper reports soil values only; no saffron stigma, spice, infant-formula, or finished-product concentrations were found in extracted text. Products and ingredients are intentionally empty, and the soil numbers must not enter HMTc occurrence or threshold pools.
 
 The extracted prose contains an apparent typo saying lead concentrations had median 34.234 mg/kg; Table 3 shows the Pb average as 13.617 mg/kg and 34.234 mg/kg as the Ni average. This page follows Table 3.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [780310824](https://github.com/paleofoundation/heavymetalindex/commit/780310824) | 2026-06-10 | audit-revise 2026-06-10: taghavi2023-saffron-soils-trace-elements routing hygiene |
+| [06cda2894](https://github.com/paleofoundation/heavymetalindex/commit/06cda2894) | 2026-06-10 | recover-ingest 2026-06-10: taghavi2023-saffron-soils-trace-elements (lane a3, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

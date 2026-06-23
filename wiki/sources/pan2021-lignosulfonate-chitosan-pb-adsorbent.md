@@ -156,9 +156,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [c98e430](https://github.com/paleofoundation/heavymetalindex/commit/c98e430) | 2026-06-02 | audit: pan2021-lignosulfonate-chitosan-pb-adsorbent [revised] |
-| [548593e](https://github.com/paleofoundation/heavymetalindex/commit/548593e) | 2026-06-02 | ingest: pan2021-lignosulfonate-chitosan-pb-adsorbent [fresh] from Manual Fetch Kimi /June 2 Manual Fetches |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| [c98e4300d](https://github.com/paleofoundation/heavymetalindex/commit/c98e4300d) | 2026-06-02 | audit: pan2021-lignosulfonate-chitosan-pb-adsorbent [revised] |
 <!-- END: hmi-page-history -->

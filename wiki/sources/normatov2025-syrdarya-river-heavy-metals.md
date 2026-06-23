@@ -69,3 +69,13 @@ App: Context only. The paper supports upstream water-pathway explanations, not c
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The paper is a3 irrigation-water and river-source-pathway evidence.
 
 Text extraction preserved the abstract, methods narrative, Table 3, Table 4, and captions. The heavy-metal distribution values were printed in Figure 3 rather than a text table; I transcribed only labels that were visually legible from the rendered PDF page image and explicitly marked them as deviations from the river average, not absolute concentrations. No product or ingredient routes are assigned.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [637cc157c](https://github.com/paleofoundation/heavymetalindex/commit/637cc157c) | 2026-06-10 | recover-ingest 2026-06-10: normatov2025-syrdarya-river-heavy-metals (lane a3, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

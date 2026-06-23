@@ -75,3 +75,13 @@ App: The source can support UK seafood advice context and fish species notes for
 - Units are preserved as `mg/kg`, `µg/kg bw/week`, `µg/kg bw/day`, and `µg mercury/L`.
 - Speciation: occurrence concentrations are reported as mercury/total mercury. The page does not promote every total-mercury value to MeHg; it records the source's methylmercury exposure framing separately.
 - Closed vocabulary: exact fish-species ingredient slugs exist for shark, swordfish, and marlin; other named matrices such as salmon and prawns remain descriptive or route through broad fish/shellfish slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb63f6e92](https://github.com/paleofoundation/heavymetalindex/commit/fb63f6e92) | 2026-06-09 | Co-Authored-By: Codex GPT-5.5 <noreply@openai.com> |
+<!-- END: hmi-page-history -->

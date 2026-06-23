@@ -62,3 +62,13 @@ App: Eligible for vegetable-occurrence and health-risk context after synthesis.
 ## Verification notes
 
 Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. The triggering gap row was spinach-tagged, but the paper is a broader vegetable-occurrence and health-risk study spanning multiple farm vegetables plus soil.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d8f7b817c](https://github.com/paleofoundation/heavymetalindex/commit/d8f7b817c) | 2026-06-14 | recover source: Noakhali vegetables heavy metals |
+<!-- END: hmi-page-history -->

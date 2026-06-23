@@ -98,3 +98,14 @@ The report's findings do not change the federal regulatory architecture for heav
 - **Audit subagent (2026-06-09) flagged the XRF-tester §3.2.5 framing** for treating the questionnaire-appendix XRF observation and the Exhibit 3-3 / §3.2.5 XRF-tester recommendation as two distinct supplier voices when they are the same Supplier 2 voice restated by the contractor at three locations (Supplier 2 questionnaire pp. Supplier 2 | 4–5; Exhibit 3-3 row 2 at p. 3-5; contractor synthesis at p. 3-11, §3.2.5). Corrected the paragraph to attribute the XRF-tester recommendation in §3.2.5 to the contractor's surface of the same Supplier 2 questionnaire answer, not to a second supplier voice. Finding correct, applied.
 - **Audit subagent (2026-06-09) flagged the CMYK-graphic-panel observation** as misattributed to Supplier 8 when the source page is actually a continuation of Supplier 9's questionnaire under the same Supplier-8-pagination-footer quirk that the page had already correctly flagged for Supplier 9's overseas-recall observation. Verified against the PDF: the "QUESTIONNAIRE FOR SUPPLIER 9 (RESPONSES IN RED)" header appears mid-page on the page footed "Supplier 8 | 3"; the report continues using Supplier 8 page-footers through the full Supplier 9 questionnaire (Supplier 8 | 3 mid-page through Supplier 8 | 6). The "Questions for Manufacturers Only" CMYK / 80-designs / paint-testing-burden block on p. Supplier 8 | 5 is a Supplier 9 answer, not a Supplier 8 answer. Corrected the Key numbers bullet, the page-overview paragraph, and the heavy-metals-scope summary to attribute the CMYK observation to Supplier 9 with the same "pagination is the report's, not Supplier 9's" caveat used elsewhere for the overseas-recall observation. Finding correct, applied.
 - **Audit verdict**: REVISE. All three findings (two ❌, one ⚠️) verified correct against the source and applied. Checks 2, 3, 4, 5 returned ✅ clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6f7e1b1d9](https://github.com/paleofoundation/heavymetalindex/commit/6f7e1b1d9) | 2026-06-09 | audit: iec2020-cpsc-cribs-rule-review revised |
+| [521e446a9](https://github.com/paleofoundation/heavymetalindex/commit/521e446a9) | 2026-06-09 | ingest: iec2020-cpsc-cribs-rule-review fresh from MFK/June 8/02_Strollers_Walkers_Swings |
+<!-- END: hmi-page-history -->

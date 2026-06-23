@@ -71,5 +71,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [19fd782](https://github.com/paleofoundation/heavymetalindex/commit/19fd782) | 2026-06-08 | ingest: reinke1975-fish-shellfish-inorganic-arsenic fresh from MFK/June 8 New Folder With Items 3 2 |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [19fd78215](https://github.com/paleofoundation/heavymetalindex/commit/19fd78215) | 2026-06-08 | ingest: reinke1975-fish-shellfish-inorganic-arsenic fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

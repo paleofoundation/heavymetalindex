@@ -86,3 +86,13 @@ Educational clinical bulletin; not an analytical study. Sources of information c
 - `matrices:` values (`injectable-peptide`, `falsified-medicine`, `unauthorized-injectable`) are outside the standard food-matrix vocabulary in `docs/gpt-collaboration/system-prompt.md`. Kept consistent with the matrices vocabulary already used on [[sources/janvier2018-falsified-peptides-elemental-impurities]]; flagged for vocabulary-list review when the peptide/injectable-medicine matrices are consolidated.
 - Product slug `research-chemicals-peptides-sarms` exists in `wiki/products/` as of 2026-06-09 but is not in the 2026-05-18 taxonomy snapshot (snapshot is stale; this is a known condition). Same for `peptides-injectable-hormones`.
 - Sample sizes (`sample_n:`) intentionally null because the four cases are clinical reports, not analytical samples; the underlying contamination claims have their own sample sizes on the cited primary sources.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [128e3ad3c](https://github.com/paleofoundation/heavymetalindex/commit/128e3ad3c) | 2026-06-09 | ingest: ucalgary2026-cpt-pearl-unauthorized-injectable-peptides fresh from Manual Fetch Kimi/peptide_contamination_pdfs |
+<!-- END: hmi-page-history -->

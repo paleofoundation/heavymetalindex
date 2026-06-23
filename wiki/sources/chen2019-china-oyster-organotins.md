@@ -92,5 +92,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [77dca52](https://github.com/paleofoundation/heavymetalindex/commit/77dca52) | 2026-06-08 | ingest: chen2019-china-oyster-organotins fresh from MFK/June 8 New Folder With Items 4 2 |
+| [38bdc56cc](https://github.com/paleofoundation/heavymetalindex/commit/38bdc56cc) | 2026-06-09 | audit: chen2019-china-oyster-organotins [revised] per autonomous audit |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [77dca52ba](https://github.com/paleofoundation/heavymetalindex/commit/77dca52ba) | 2026-06-08 | ingest: chen2019-china-oyster-organotins fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->

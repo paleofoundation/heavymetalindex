@@ -66,3 +66,13 @@ App: Context only. This paper can support source-pathway and regional-risk expla
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The prior skip dropped the paper because it had no mineral-water or food table; under the corrected rule it is a3 source-attribution and mining-area soil-pathway evidence.
 
 The Cd-query PDF and tAs-query PDF are byte-identical (`8f1a21163e66d8b6cda7e93cb1f6eea802c96880b763fe3537b699755fbe4c34`) and represent the same DOI. A later Pb-query worklist row for the same DOI is also covered by this page. Numeric values were checked against the extracted text around the abstract, Section 3, Section 4.1, Tables 1-3, and the conclusion. Arsenic and mercury are treated as total elemental measurements (`tAs`, `tHg`) because the analytical methods do not report inorganic arsenic or methylmercury speciation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c0789b813](https://github.com/paleofoundation/heavymetalindex/commit/c0789b813) | 2026-06-10 | recover-ingest 2026-06-10: zhan2023-yangshan-gold-mine-soil-metals (lane a3, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

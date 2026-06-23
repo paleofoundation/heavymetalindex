@@ -90,7 +90,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-06-11
-sources: 7
+sources: 2
 ---
 
 # Cheddar cheese
@@ -103,17 +103,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 5/10 HMTc analytes, total n=19 | labeled data-gaps: iAs, Al, Sn |
+| D1 Analyte coverage (tier: common) | OK | 5/10 HMTc analytes, total n=20 | labeled data-gaps: iAs, Al, Sn |
 | D2 Regional coverage | below-tier | 0 jurisdictions | only 0 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, tAs THIN, tHg CONFIDENT, Ni CONFIDENT, Cr CONFIDENT, U THIN | tAs: needs 1 more study(ies); U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg THIN, Ni THIN, Cr THIN, U THIN | tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: THIN; U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 5 claims checked, 5 supported; 2 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming cheddar-cheese: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
+| D7 Basis declaration | GAP | 6/10 populated cells declare a basis token | 4 populated cell(s) lack a basis token: iAs, Al, Sn, U |
+| D8 Provenance integrity | GAP | 62 claims checked, 62 supported; 8 citations, 0 orphan, 8 foreign | 8 foreign citation(s) not naming cheddar-cheese: fsa2016-infant-food-formula-metals-survey, al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia, fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 4 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | tAs: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN; U: THIN, needs 1 more study(ies); basis: 4 populated cell(s) lack a basis token: iAs, Al, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -151,18 +151,18 @@ Aluminium, tin, inorganic arsenic, and uranium were outside the scope of this re
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=4 | <4–50 | 250 | medium | [[sources/hasan2021-bangladesh-dairy-trace-elements\|1]], [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|2]], [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|3]] |
-| Cd | n=4 | <1–30 | 120 | medium | [[sources/hasan2021-bangladesh-dairy-trace-elements\|1]], [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|2]], [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|3]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=3 | <3–21 | 90 | medium | [[sources/arellano2023-dairy-products-arsenic-argentina\|1]], [[sources/hasan2021-bangladesh-dairy-trace-elements\|2]], [[sources/erol2025-turkish-cheese-metals\|3]] |
-| tHg | n=2 | <1–1 | — | low | [[sources/pankiewicz2012-thg-dairy-products-poland\|1]], [[sources/erol2025-turkish-cheese-metals\|2]] |
-| Ni | n=2 | <40–150 | — | low | [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|1]], [[sources/erol2025-turkish-cheese-metals\|2]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=3 | <50–80 | — | low | [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|1]], [[sources/erol2025-turkish-cheese-metals\|2]], [[sources/hasan2021-bangladesh-dairy-trace-elements\|3]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0–1.2 | 1.3 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 0–50 | medium | [[sources/hasan2021-bangladesh-dairy-trace-elements\|1]], [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|2]], [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|3]] |
+| Cd | n=4 | 0–30 | medium | [[sources/hasan2021-bangladesh-dairy-trace-elements\|1]], [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|2]], [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=3 | 0–21 | medium | [[sources/arellano2023-dairy-products-arsenic-argentina\|1]], [[sources/hasan2021-bangladesh-dairy-trace-elements\|2]], [[sources/erol2025-turkish-cheese-metals\|3]] |
+| tHg | n=2 | 0–1 | low | [[sources/pankiewicz2012-thg-dairy-products-poland\|1]], [[sources/erol2025-turkish-cheese-metals\|2]] |
+| Ni | n=2 | 0–150 | low | [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|1]], [[sources/erol2025-turkish-cheese-metals\|2]] |
+| Al | data gap | — | — | — |
+| Cr | n=3 | 0–80 | low | [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|1]], [[sources/erol2025-turkish-cheese-metals\|2]], [[sources/hasan2021-bangladesh-dairy-trace-elements\|3]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0–1.2 | high | — |
 
 ## Routing
 
@@ -247,12 +247,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Cheese, cheddar (sharp/mild) (n=27); left-censored floor for Pb, Cd, tAs, tHg, Ni, Cr; detectable concentrations for U |
-| 2 | [[sources/hasan2021-bangladesh-dairy-trace-elements\|Hasan and Khanam 2021]]. *Detection of Trace Elements in Selective Dairy Products to assess Human Health Risk of Bangladeshi People*, Oriental Journal of Chemistry | 2021 | Peer-reviewed | BD Pb, Cd, tAs, Cr occurrence in 128 cheese samples from a nationwide market survey; clean broad-market non-FDA cheese anchor |
-| 3 | [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia\|Al Sidawi et al. 2021]]. *Heavy Metal Levels in Milk and Cheese Produced in the Kvemo Kartli Region, Georgia*, Foods | 2021 | Peer-reviewed | GE Pb, Cd, Ni, Cr occurrence in 25 traditional cheese samples from a mining-adjacent region; low-Cd/elevated-Pb stratum and curd-partitioning evidence |
-| 4 | [[sources/erol2025-turkish-cheese-metals\|Erol and Ürkek 2025]]. *Safety and Nutritional Profile of Traditional Turkish Cheeses*, Food Science & Nutrition | 2025 | Peer-reviewed | TR Pb, Cd, tAs, tHg, Ni, Cr occurrence in 30 traditional artisanal cheese samples; artisanal-outlier stratum for Pb, tHg, Ni |
-| 5 | [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|Ibrahim et al. 2024]]. *Heavy metals in raw milk and Egyptian cheese types*, Open Veterinary Journal | 2024 | Peer-reviewed | EG Pb, Cd occurrence in 100 traditional cheese samples; low-regulation-market elevated-Pb/Cd stratum |
-| 6 | [[sources/arellano2023-dairy-products-arsenic-argentina\|Arellano et al. 2023]]. *Arsenic risk assessment through dairy products ingestion*, Arsenic in the Environment | 2023 | Conference proceedings | AR tAs occurrence in 14 market cheese samples by ICP-MS; primary cheese total-arsenic anchor |
-| 7 | [[sources/pankiewicz2012-thg-dairy-products-poland\|Pankiewicz 2012]]. *Monitoring of total mercury level in selected dairy products from the south-east regions of Poland*, Ecological Chemistry and Engineering A | 2012 | Peer-reviewed | PL tHg occurrence in cottage and cream cheese by direct-mercury analyzer; clean-market sub-ppb cheese mercury anchor |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -262,9 +256,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 2 — 10 dairy/meat/grapefruit pages / 59 cells |
+| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->

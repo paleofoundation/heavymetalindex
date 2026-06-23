@@ -135,6 +135,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [dd145bd](https://github.com/paleofoundation/heavymetalindex/commit/dd145bd) | 2026-06-06 | audit: durdjic2021-lead-isotopes-wine-origin [revised] |
-| [175eac2](https://github.com/paleofoundation/heavymetalindex/commit/175eac2) | 2026-06-06 | ingest: durdjic2021-lead-isotopes-wine-origin [fresh] from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [dd145bd16](https://github.com/paleofoundation/heavymetalindex/commit/dd145bd16) | 2026-06-06 | audit: durdjic2021-lead-isotopes-wine-origin [revised] |
+| [175eac24a](https://github.com/paleofoundation/heavymetalindex/commit/175eac24a) | 2026-06-06 | ingest: durdjic2021-lead-isotopes-wine-origin [fresh] from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

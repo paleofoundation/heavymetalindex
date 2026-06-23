@@ -102,3 +102,13 @@ This paper adds direct seaweed occurrence evidence for Chinese-market *Porphyra*
 - Speciation check: total arsenic, arsenosugar PO4, arsenosugar OH, DMA in urine, AsB, MMA, arsenite, and arsenate are kept distinct. The paper does not report a Porphyra inorganic-arsenic concentration, so frontmatter uses `metals: [tAs]` only.
 - Brand firewall: samples were public-market Porphyra by location, not named brands.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact *Porphyra* and nori/zicai terminology remains in source text while frontmatter routes broadly to seaweed/kelp foods.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ff354d793](https://github.com/paleofoundation/heavymetalindex/commit/ff354d793) | 2026-06-09 | Co-Authored-By: Codex GPT-5.5 <noreply@openai.com> |
+<!-- END: hmi-page-history -->

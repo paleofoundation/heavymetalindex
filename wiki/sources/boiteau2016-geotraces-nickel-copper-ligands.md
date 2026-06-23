@@ -53,3 +53,13 @@ App: Context only.
 ## Verification notes
 
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The queue handle mislabeled this paper as formula-related; on reading, it is in-scope lane a3 marine-pathway evidence for aquatic metal availability.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7faea44b2](https://github.com/paleofoundation/heavymetalindex/commit/7faea44b2) | 2026-06-11 | recovery ingest 2026-06-11: corpus rescreen batch of 10 sources |
+<!-- END: hmi-page-history -->

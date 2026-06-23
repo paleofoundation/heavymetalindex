@@ -91,6 +91,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [8e8de53](https://github.com/paleofoundation/heavymetalindex/commit/8e8de53) | 2026-06-06 | audit: koga2021-tin-arsenic-lead-soft-drinks [revised] |
-| [ca868b4](https://github.com/paleofoundation/heavymetalindex/commit/ca868b4) | 2026-06-06 | ingest: koga2021-tin-arsenic-lead-soft-drinks [fresh] from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [8e8de532c](https://github.com/paleofoundation/heavymetalindex/commit/8e8de532c) | 2026-06-06 | audit: koga2021-tin-arsenic-lead-soft-drinks [revised] |
+| [ca868b43f](https://github.com/paleofoundation/heavymetalindex/commit/ca868b43f) | 2026-06-06 | ingest: koga2021-tin-arsenic-lead-soft-drinks [fresh] from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

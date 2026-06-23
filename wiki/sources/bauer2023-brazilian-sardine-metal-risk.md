@@ -84,5 +84,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [a2ef710](https://github.com/paleofoundation/heavymetalindex/commit/a2ef710) | 2026-06-08 | ingest: bauer2023-brazilian-sardine-metal-risk fresh from MFK/June 8 New Folder With Items 4 2 |
+| [3b1a85b94](https://github.com/paleofoundation/heavymetalindex/commit/3b1a85b94) | 2026-06-09 | audit: bauer2023-brazilian-sardine-metal-risk promoted per autonomous audit |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [a2ef710e6](https://github.com/paleofoundation/heavymetalindex/commit/a2ef710e6) | 2026-06-08 | ingest: bauer2023-brazilian-sardine-metal-risk fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->

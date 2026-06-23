@@ -90,5 +90,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [4dcfa39](https://github.com/paleofoundation/heavymetalindex/commit/4dcfa39) | 2026-06-08 | ingest: craven2025-aas-heavy-metals-australia from June 8 (research-chemical occurrence) |
+| [d0470d948](https://github.com/paleofoundation/heavymetalindex/commit/d0470d948) | 2026-06-08 | audit: craven2025-aas-heavy-metals-australia revised |
+| [4dcfa39fb](https://github.com/paleofoundation/heavymetalindex/commit/4dcfa39fb) | 2026-06-08 | ingest: craven2025-aas-heavy-metals-australia from June 8 (research-chemical occurrence) |
 <!-- END: hmi-page-history -->

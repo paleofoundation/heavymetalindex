@@ -56,3 +56,13 @@ Mitigation: Useful for remediation pages because it documents that vacuum cleani
 - [[health/household-heavy-metal-exposure]]
 - [[metals/mercury-total]]
 - [[mitigation/household-spill-remediation]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a760da66c](https://github.com/paleofoundation/heavymetalindex/commit/a760da66c) | 2026-06-15 | recovery: ingest Johnson-Arbor 2021 mercury case report |
+<!-- END: hmi-page-history -->

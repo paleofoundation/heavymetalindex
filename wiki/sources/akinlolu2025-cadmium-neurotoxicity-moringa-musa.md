@@ -66,3 +66,13 @@ Microbiome: No microbiome endpoints.
 - Speciation: the exposure compound is cadmium chloride (`CdCl2`); the source does not report cadmium speciation beyond that administered compound.
 - Products and ingredients are intentionally empty. Olive oil is a vehicle-control material, not an analysed edible-oil sample.
 - Exact plotted mean±SD values for CAT, SOD, COX-2, and P450 are not cleanly extractable from the PDF text; only the source-printed p-values and units are recorded as exact result values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3d0efd27c](https://github.com/paleofoundation/heavymetalindex/commit/3d0efd27c) | 2026-06-11 | recover-ingest 2026-06-10: akinlolu2025-cadmium-neurotoxicity-moringa-musa (lane a4, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

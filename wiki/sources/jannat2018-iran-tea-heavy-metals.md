@@ -112,6 +112,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [5dce0bd](https://github.com/paleofoundation/heavymetalindex/commit/5dce0bd) | 2026-06-07 | audit: jannat2018-iran-tea-heavy-metals revised |
-| [175d297](https://github.com/paleofoundation/heavymetalindex/commit/175d297) | 2026-06-07 | ingest: jannat2018-iran-tea-heavy-metals fresh from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [5dce0bd6e](https://github.com/paleofoundation/heavymetalindex/commit/5dce0bd6e) | 2026-06-07 | audit: jannat2018-iran-tea-heavy-metals revised |
+| [175d29704](https://github.com/paleofoundation/heavymetalindex/commit/175d29704) | 2026-06-07 | ingest: jannat2018-iran-tea-heavy-metals fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

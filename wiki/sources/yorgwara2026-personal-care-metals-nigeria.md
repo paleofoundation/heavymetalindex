@@ -91,3 +91,13 @@ App: If adult personal-care profiles are expanded, the category ranges and risk-
 - Brand firewall: Tables 4.1-4.8 attach named products/brands to contamination and risk values. This page reports only product-category ranges and de-identified risk maxima; no consumer brand or shade/product name is attached to a contamination value.
 - Evidence tier: `C` because the paper is peer-reviewed and contains primary occurrence tables, but the methods and reporting are weak for benchmark use: no sampling year, no LOD/LOQ, no CRM or recovery results, no replicate precision, no uncertainty, inconsistent units, and several table/prose discrepancies.
 - Routing: all product slugs used in frontmatter appear in `docs/gpt-collaboration/taxonomy-snapshot.md`. Missing exact slugs: the snapshot has no non-retired adult lip-products slug, no adult bar-soap/bathing-soap slug, no facial-powder-only slug, and no explicit hair-food slug. This page uses broad available products (`lipstick`, `body-wash-shower-gel`, `makeup-foundation-powders-blush`, and `leave-on-hair-preparations`) rather than inventing new slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fa86cc36d](https://github.com/paleofoundation/heavymetalindex/commit/fa86cc36d) | 2026-06-09 | ingest: yorgwara2026-personal-care-metals-nigeria fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

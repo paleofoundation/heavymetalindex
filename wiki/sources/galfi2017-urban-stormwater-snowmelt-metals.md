@@ -65,3 +65,13 @@ App: Context only for environmental-burden and receiving-water pathway explanati
 Recovered under the 2026-06-10 inclusion-by-default rule from an earlier `skip:not-food-occurrence` pathway disposition. The corrected scope treats urban runoff heavy-metal measurements as in-scope a3 source-attribution evidence rather than requiring a finished-food matrix.
 
 Products and ingredients are intentionally empty. The paper measures stormwater, snowmelt, and baseflow, not a consumer product. The paper reports elemental trace metals only; no arsenic or mercury speciation issue applies here because those species are not part of the selected frontmatter metals for this page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3f9c42c30](https://github.com/paleofoundation/heavymetalindex/commit/3f9c42c30) | 2026-06-13 | recovery \| galfi2017 urban runoff metals |
+<!-- END: hmi-page-history -->

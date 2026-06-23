@@ -59,3 +59,13 @@ App: Eligible for mineral-water and packaged-water contamination context after s
 ## Verification notes
 
 Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. Although the paper also emphasizes BPA, it contains explicit cadmium and iron measurements in packaged water and therefore belongs in HMI evidence routing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1b69cfee6](https://github.com/paleofoundation/heavymetalindex/commit/1b69cfee6) | 2026-06-14 | recover source: Burkina Faso packaged water metals |
+<!-- END: hmi-page-history -->

@@ -65,3 +65,13 @@ App: Context-only for exposure education and risk-factor language; it does not p
 ## Verification notes
 
 This page was built from the PDF text, including the abstract, methods, Tables 1 and 4, results, and discussion. The abstract appears to omit the micro symbol in "4.3 +/- 0.75 ug/dL" in text extraction; the tables and surrounding prose use ug/dL for blood lead. Products and ingredients are intentionally empty because the paper does not measure a consumer-product concentration matrix. The source reports total lead only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b296791a7](https://github.com/paleofoundation/heavymetalindex/commit/b296791a7) | 2026-06-09 | ingest auto-fetched 2026-06-09: chagonda2023-harare-child-blood-lead |
+<!-- END: hmi-page-history -->

@@ -192,6 +192,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [59a19f9](https://github.com/paleofoundation/heavymetalindex/commit/59a19f9) | 2026-06-06 | audit: czarnek2024-heavy-metals-energy-drinks [revised] |
-| [a8ce609](https://github.com/paleofoundation/heavymetalindex/commit/a8ce609) | 2026-06-06 | ingest: czarnek2024-heavy-metals-energy-drinks [fresh] from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [59a19f94a](https://github.com/paleofoundation/heavymetalindex/commit/59a19f94a) | 2026-06-06 | audit: czarnek2024-heavy-metals-energy-drinks [revised] |
+| [a8ce60931](https://github.com/paleofoundation/heavymetalindex/commit/a8ce60931) | 2026-06-06 | ingest: czarnek2024-heavy-metals-energy-drinks [fresh] from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

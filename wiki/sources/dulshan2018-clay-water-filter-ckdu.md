@@ -58,3 +58,13 @@ App: Context-only mitigation evidence for household water-treatment design.
 Recovered under the 2026-06-10 inclusion-by-default rule from a prior `skip:not-food-occurrence` lineage. The paper is direct point-of-use treatment evidence even though it uses synthesized water rather than a retail product matrix.
 
 Products and ingredients are intentionally empty. This is filter-performance evidence in simulated source-water conditions, not occurrence surveillance in a market product.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [96df55230](https://github.com/paleofoundation/heavymetalindex/commit/96df55230) | 2026-06-13 | recovery \| dulshan2018 clay water filter |
+<!-- END: hmi-page-history -->

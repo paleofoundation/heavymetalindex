@@ -90,3 +90,13 @@ App: Context only. The source supports remediation and supplier-control narrativ
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it was not pineapple food occurrence. On reading, it is in-scope a2 mitigation/remediation evidence because it measures Cr and Ni removal from landfill leachate.
 
 Numbers were checked against the extracted PDF text, especially the abstract, Materials and Methods, Table 1, Table 2, Table 3, and the conclusion. The adsorption-model outputs include negative constants and inconsistent statements about best fit; those values are reported as printed and not normalized. Chromium is total Cr, not Cr(VI). Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3110e5f87](https://github.com/paleofoundation/heavymetalindex/commit/3110e5f87) | 2026-06-10 | recover-ingest 2026-06-10: duwiejuah2026-pineapple-biochar-leachate-metals (lane a2, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

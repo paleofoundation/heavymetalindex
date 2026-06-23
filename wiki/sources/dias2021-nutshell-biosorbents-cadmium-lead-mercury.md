@@ -56,3 +56,13 @@ App: Context-only mitigation evidence.
 ## Verification notes
 
 Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. Products and ingredients remain intentionally empty because the study is a contaminated-water remediation experiment, not a consumer mineral-water survey.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [dcc9003f0](https://github.com/paleofoundation/heavymetalindex/commit/dcc9003f0) | 2026-06-14 | recover source: nutshell biosorbents Cd Pb Hg |
+<!-- END: hmi-page-history -->

@@ -143,6 +143,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [0b61232](https://github.com/paleofoundation/heavymetalindex/commit/0b61232) | 2026-06-08 | audit: ding2015-soy-glycinin-thiol-peptides-heavy-metal-complexation revised |
-| [bf7a419](https://github.com/paleofoundation/heavymetalindex/commit/bf7a419) | 2026-06-08 | ingest: ding2015-soy-glycinin-thiol-peptides-heavy-metal-complexation fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [0b612321e](https://github.com/paleofoundation/heavymetalindex/commit/0b612321e) | 2026-06-08 | audit: ding2015-soy-glycinin-thiol-peptides-heavy-metal-complexation revised |
+| [bf7a41918](https://github.com/paleofoundation/heavymetalindex/commit/bf7a41918) | 2026-06-08 | ingest: ding2015-soy-glycinin-thiol-peptides-heavy-metal-complexation fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

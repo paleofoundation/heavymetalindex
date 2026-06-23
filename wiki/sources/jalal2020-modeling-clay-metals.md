@@ -73,3 +73,13 @@ App: The source can support an Erbil/Iraq market context flag for modeling clay,
 - Brand firewall: the source tables name and code brands. This page records aggregate ranges, detection counts, regulatory comparison values, and de-identified exceedance facts, but does not attach consumer brand names to contamination values.
 - Product slug note: the current taxonomy has `art-craft-materials`, which explicitly includes modeling clay, but no exact modeling-clay product or matrix slug. The page therefore uses broad product routing and leaves `matrices` empty.
 - Evidence tier: `B` because this is a peer-reviewed local market survey with primary measurements but limited QA/QC detail and small geography-specific sample frame.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [50336a4d0](https://github.com/paleofoundation/heavymetalindex/commit/50336a4d0) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+<!-- END: hmi-page-history -->

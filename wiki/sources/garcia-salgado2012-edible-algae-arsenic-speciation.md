@@ -92,3 +92,13 @@ This source is high-value seaweed arsenic-speciation evidence because it separat
 - Units and basis are preserved as `µg g−1` dry mass, `%`, and `µg g−1 As` for LODs; no conversions were performed.
 - Evidence tier A reflects peer-reviewed primary speciation data with named species, reported QA/QC CRM recovery, extraction efficiencies, column recoveries, and method LODs.
 - Brand firewall: no sampled brands are reported. Instrument and CRM names are retained only as scientific method details.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d58060e82](https://github.com/paleofoundation/heavymetalindex/commit/d58060e82) | 2026-06-09 | audit: adams2017-nigerian-processed-spices-metals [revised] per autonomous audit |
+<!-- END: hmi-page-history -->

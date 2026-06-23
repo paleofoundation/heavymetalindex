@@ -75,3 +75,13 @@ Microbiome: No microbiome-specific findings.
 - Brand names and manufacturer identities are not reproduced in this source page. The study's product-level supplement can support internal audit, but the public wiki keeps the finding at product-category level.
 - The article reports arsenic as "arsenic (inorganic)" in the analytical-method section. Because the measurement is by ICP-OES after acid digestion rather than a chromatographic speciation method, downstream routing should keep the source's own wording visible and avoid silently substituting it for independently speciated inorganic arsenic.
 - The authors' Table 5 variance values appear internally inconsistent for some elements relative to the reported SD values; this page uses the reported means and maxima and does not reuse the variance values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [80c2df52b](https://github.com/paleofoundation/heavymetalindex/commit/80c2df52b) | 2026-06-09 | ingest auto-fetched 2026-06-09: cwielag-drabek2025-tattoo-inks-metals |
+<!-- END: hmi-page-history -->

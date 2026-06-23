@@ -77,3 +77,13 @@ App: Context only. The page can support pathway and source-attribution narrative
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it lacked finished-food or utensil occurrence values. On reading, it is in-scope a3 pathway evidence because it measures Pb and Co in irrigated vegetable-farmland soil and links the soil context to Amba River irrigation inputs.
 
 Numbers were checked against the extracted PDF text, especially the abstract, sampling section, Table 1, Table 2, Table 3, Table 4, the heavy-metals discussion, and the conclusion. Units and digestion methods are preserved as printed. The page does not infer crop concentrations from soil values, and no brand or product route is created.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c6adbbb11](https://github.com/paleofoundation/heavymetalindex/commit/c6adbbb11) | 2026-06-10 | recover-ingest 2026-06-10: augustine2020-lafia-irrigated-farmland-soil (lane a3, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

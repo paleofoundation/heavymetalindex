@@ -132,6 +132,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [34bc585](https://github.com/paleofoundation/heavymetalindex/commit/34bc585) | 2026-06-08 | audit: shalev2022-peptide-metal-nmr-review promoted |
-| [e216223](https://github.com/paleofoundation/heavymetalindex/commit/e216223) | 2026-06-08 | ingest: shalev2022-peptide-metal-nmr-review fresh from Manual Fetch Kimi/June 8/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [34bc585c3](https://github.com/paleofoundation/heavymetalindex/commit/34bc585c3) | 2026-06-08 | audit: shalev2022-peptide-metal-nmr-review promoted |
+| [e21622392](https://github.com/paleofoundation/heavymetalindex/commit/e21622392) | 2026-06-08 | ingest: shalev2022-peptide-metal-nmr-review fresh from Manual Fetch Kimi/June 8/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

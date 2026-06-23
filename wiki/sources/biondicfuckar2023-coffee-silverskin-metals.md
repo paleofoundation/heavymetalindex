@@ -72,3 +72,13 @@ App: If coffee silverskin appears as an ingredient or supplement input, the rele
 - The paper reports "arsenic" without speciation; this page routes it as total arsenic and does not infer inorganic arsenic.
 - The named supplier is omitted from the wiki body under the brand firewall; the source design is represented as a Croatian coffee-roasting by-product composite.
 - Product routing is matrix-limited: coffee silverskin is a by-product and potential nutraceutical/supplement input, not a brewed-coffee concentration.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [53761657b](https://github.com/paleofoundation/heavymetalindex/commit/53761657b) | 2026-06-09 | ingest auto-fetched 2026-06-09: biondicfuckar2023-coffee-silverskin-metals |
+<!-- END: hmi-page-history -->

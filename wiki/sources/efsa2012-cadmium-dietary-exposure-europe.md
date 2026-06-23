@@ -98,5 +98,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [0226413](https://github.com/paleofoundation/heavymetalindex/commit/0226413) | 2026-06-08 | ingest: efsa2012-cadmium-dietary-exposure-europe fresh from MFK/June 8 New Folder With Items 3 2 |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [02264132c](https://github.com/paleofoundation/heavymetalindex/commit/02264132c) | 2026-06-08 | ingest: efsa2012-cadmium-dietary-exposure-europe fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

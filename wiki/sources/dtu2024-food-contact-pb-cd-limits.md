@@ -94,3 +94,13 @@ App: If surfaced, this source can support a food-contact-material warning that P
 - Brand firewall: no brand names are attached to contamination values. The memo reports categories and cited-study summaries, not brand-by-brand product results.
 - HMTc firewall: the suggested maximum limits are DTU/DVFA source-side regulatory proposals, not HMTc thresholds. The Implications section does not propose HMTc values or compare against certification thresholds.
 - Closed-vocabulary check: product slugs appear in the current taxonomy snapshot. `food-contact-material-leachate` and `food-simulant` follow established food-contact-material matrix terms already used in sibling source pages. Exact enamelled-cast-iron and lead-crystal-glass sub-slugs are not available; they are retained in prose rather than invented in frontmatter.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8d058840f](https://github.com/paleofoundation/heavymetalindex/commit/8d058840f) | 2026-06-09 | ingest: dtu2024-food-contact-pb-cd-limits fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

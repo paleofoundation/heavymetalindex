@@ -90,3 +90,13 @@ App: This source can support tattoo-ink context cards about EU/JRC surveillance 
 - Brand firewall: the RAPEX section names three brands and gives their shares among products not in line with recommendations/legislation. Those brand names and shares are intentionally omitted here because they attach brands to noncompliance/contamination values.
 - Evidence tier: `A` because the report is a European Commission JRC regulatory synthesis with transparent DOI/report identifiers, RAPEX and national surveillance inputs, and explicit method/scope discussion. It is context/surveillance evidence rather than a primary laboratory dataset.
 - Routing: `products: ["[[products/tattoo-inks]]"]` uses the closed taxonomy slug. The taxonomy snapshot has no distinct permanent-make-up-ink product slug, so PMU specificity is retained in `matrices` and body text rather than inventing a product slug. Selenium appears in the source's total-element comparator and frontmatter metal list as `Se`, but there is no `[[metals/selenium]]` wiki page in the current taxonomy snapshot, so no selenium page link is listed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [931973cd5](https://github.com/paleofoundation/heavymetalindex/commit/931973cd5) | 2026-06-09 | ingest: piccinini2016-tattoo-pmu-safety fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

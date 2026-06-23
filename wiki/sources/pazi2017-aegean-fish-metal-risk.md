@@ -83,5 +83,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [7c421b9](https://github.com/paleofoundation/heavymetalindex/commit/7c421b9) | 2026-06-08 | ingest: pazi2017-aegean-fish-metal-risk fresh from MFK/June 8 New Folder With Items 4 2 |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [7c421b977](https://github.com/paleofoundation/heavymetalindex/commit/7c421b977) | 2026-06-08 | ingest: pazi2017-aegean-fish-metal-risk fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->
