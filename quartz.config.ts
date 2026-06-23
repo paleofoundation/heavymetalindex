@@ -52,7 +52,7 @@ const config: QuartzConfig = {
         // Replaces the Source Serif Pro / Source Sans Pro pairing to match
         // the sans-throughout brief. IBM Plex Mono retained for data fields,
         // citation slugs, and code.
-        header: "Inter",
+        header: { name: "Lora", weights: [400, 500, 600, 700] },
         body: "Inter",
         code: "IBM Plex Mono",
       },
@@ -112,6 +112,9 @@ const config: QuartzConfig = {
       // CrawlLinks so the inserted links are resolved + counted in the graph.
       Plugin.AutoLink(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      // Render-time citation numbering (metal pages). After CrawlLinks so
+      // source anchors already carry class "internal", data-slug, href.
+      Plugin.SuperscriptCitations(),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],

@@ -1,0 +1,93 @@
+@use "../../styles/variables.scss" as *;
+
+// Left-rail dedicated-pages group. Collapse is pure server-rendered <details>
+// (no JS), per the no-information-loss / CSS-collapse decision.
+.hmi-dedicated {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  overflow-y: auto;
+  max-height: 35vh;
+
+  @media all and ($mobile) {
+    // Goes horizontal with the rest of the left rail on mobile; hide to avoid
+    // crowding the mobile control row. Lateral nav is preserved by the in-body
+    // RelatedPages "See also" block on mobile.
+    display: none;
+  }
+}
+
+.hmi-dedicated-title {
+  font-family: var(--headerFont);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gray);
+  margin: 0 0 0.1rem 0;
+}
+
+.hmi-dedicated-group {
+  margin: 0;
+
+  & > summary {
+    cursor: pointer;
+    list-style: none;
+    font-family: var(--headerFont);
+    font-size: 0.9rem;
+    font-weight: $semiBoldWeight;
+    color: var(--secondary);
+    padding: 0.1rem 0;
+    display: flex;
+    align-items: center;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "›";
+      display: inline-block;
+      margin-right: 0.4rem;
+      transition: transform 0.2s ease;
+      color: var(--secondary);
+    }
+
+    &:hover {
+      color: var(--tertiary);
+    }
+  }
+
+  &[open] > summary::before {
+    transform: rotate(90deg);
+  }
+
+  & ul {
+    list-style: none;
+    margin: 0.15rem 0 0.4rem 0;
+    padding-left: 0.9rem;
+    border-left: 1px solid var(--lightgray);
+
+    & > li {
+      line-height: 1.35;
+      margin: 0.1rem 0;
+
+      & > a {
+        color: var(--dark);
+        font-weight: $normalWeight;
+        font-size: 0.85rem;
+        opacity: 0.8;
+
+        &:hover {
+          opacity: 1;
+          color: var(--tertiary);
+        }
+      }
+    }
+
+    & > li.hmi-dedicated-more > a {
+      color: var(--secondary);
+      font-size: 0.82rem;
+      opacity: 0.9;
+    }
+  }
+}

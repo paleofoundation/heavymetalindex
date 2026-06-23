@@ -11,10 +11,19 @@ import { concatenateResources } from "../util/resources"
 
 interface Options {
   layout: "modern" | "legacy"
+  // "left" places the modern TOC in the left sidebar as the per-page
+  // section-nav (DECISIONS: section-nav above the Explorer). It reuses the
+  // modern markup/script verbatim — only an extra wrapper class + a left-rail
+  // title are added — so the scroll-spy (a[data-for] / .in-view) keeps working.
+  position?: "right" | "left"
+  // Heading shown above the entries. Defaults to the i18n TOC title; the left
+  // section-nav overrides it to "On this page".
+  title?: string
 }
 
 const defaultOptions: Options = {
   layout: "modern",
+  position: "right",
 }
 
 // Product-category TOC display map.
@@ -55,6 +64,7 @@ const productTocLabels = new Map([
 let numTocs = 0
 export default ((opts?: Partial<Options>) => {
   const layout = opts?.layout ?? defaultOptions.layout
+  const position = opts?.position ?? defaultOptions.position
   const { OverflowList, overflowListAfterDOMLoaded } = OverflowListFactory()
   const TableOfContents: QuartzComponent = ({
     fileData,
@@ -79,14 +89,16 @@ export default ((opts?: Partial<Options>) => {
     if (tocEntries.length === 0) return null
 
     const id = `toc-${numTocs++}`
+    const tocTitle =
+      opts?.title ?? (position === "left" ? "On this page" : i18n(cfg.locale).components.tableOfContents.title)
     return (
-      <div class={classNames(displayClass, "toc")}>
+      <div class={classNames(displayClass, position === "left" ? "toc toc-left" : "toc")}>
         <button
           type="button"
           class={fileData.collapseToc ? "collapsed toc-header" : "toc-header"}
           aria-expanded={!fileData.collapseToc}
         >
-          <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>
+          <h3>{tocTitle}</h3>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

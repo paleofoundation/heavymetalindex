@@ -1,6 +1,5 @@
 import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
-import HeaderConstructor from "./Header"
 import BodyConstructor from "./Body"
 import { JSResourceToScriptElement, StaticResources } from "../util/resources"
 import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
@@ -238,7 +237,6 @@ export function renderPage(
     right,
     footer: Footer,
   } = components
-  const Header = HeaderConstructor()
   const Body = BodyConstructor()
 
   const LeftComponent = (
@@ -266,16 +264,26 @@ export function renderPage(
         <a href="#main-content" class="skip-to-content">
           Skip to content
         </a>
+        {/*
+          Full-width shared header (the global TopNav). Lifted OUTSIDE
+          #quartz-root so it escapes .page's max-width + auto-margins and spans
+          the entire viewport as a sticky bar. The shared `header` array
+          (quartz.layout.ts sharedPageComponents.header) renders here; the bar
+          re-centers its own content to the page width internally
+          (.hmi-topnav-inner). Renders nothing if `header` is empty.
+        */}
+        {header.length > 0 && (
+          <header class="hmi-topnav-shell">
+            {header.map((HeaderComponent) => (
+              <HeaderComponent {...componentData} />
+            ))}
+          </header>
+        )}
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}
             <main class="center" id="main-content" tabindex={-1}>
               <div class="page-header">
-                <Header {...componentData}>
-                  {header.map((HeaderComponent) => (
-                    <HeaderComponent {...componentData} />
-                  ))}
-                </Header>
                 <div class="popover-hint">
                   {beforeBody.map((BodyComponent) => (
                     <BodyComponent {...componentData} />

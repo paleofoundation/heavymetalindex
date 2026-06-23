@@ -11,6 +11,44 @@
   }
 }
 
+// Left-rail section-nav variant (TableOfContents moved into the left sidebar).
+// In the left rail the TOC is the primary per-page navigation, so it gets a
+// little more vertical room and a contained, independently-scrollable list
+// rather than competing with the right-rail height-sharing flex behavior.
+.toc.toc-left {
+  flex: 0 1 auto;
+  min-height: unset;
+  max-height: 45vh;
+
+  & button.toc-header {
+    margin-bottom: 0.25rem;
+    & h3 {
+      font-family: var(--headerFont);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--gray);
+    }
+  }
+
+  & ul.toc-content.overflow {
+    max-height: calc(45vh - 2rem);
+    margin: 0.25rem 0 0 0;
+
+    & > li > a {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+  }
+
+  @media all and ($mobile) {
+    // The left rail goes horizontal on mobile (base.scss .sidebar.left);
+    // hide the section-nav there so it does not crowd the mobile control row.
+    // The right-rail TOC fallback / page headings still serve mobile readers.
+    display: none;
+  }
+}
+
 button.toc-header {
   background-color: transparent;
   border: none;

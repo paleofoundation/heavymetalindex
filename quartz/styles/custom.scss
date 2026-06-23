@@ -1,4 +1,5 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
 /* ============================================================
    Heavy Metal Index — custom styles
@@ -2154,4 +2155,798 @@ article tbody td > code:only-child {
   tr {
     break-inside: avoid;
   }
+}
+/* ============================================================
+   Metal-page rollout — accordions, citation chips, collapsed
+   references, evidence-table restyle, section-nav + dedicated-
+   pages group, actions/provenance rail, update-history timeline,
+   print expand-all.
+
+   No information loss: every collapse is a server-rendered
+   <details> (CSS only, no JS fetch). On-disk [[sources/x]] links
+   are never rewritten; sup.hmi-cite reuses the existing
+   a.internal popover (popover.inline.ts binds to a.internal),
+   so the .popover > .popover-inner source card already styles
+   the hover preview with zero JS change.
+   ============================================================ */
+
+/* -----------------------------------------------------------
+   Full-width top nav band
+   variables.scss now spans grid-header across all tracks. This
+   gives the band a hairline base rule and aligns its inner
+   content to the same max-width as .page.
+   ----------------------------------------------------------- */
+
+.page > #quartz-body > .page-header {
+  border-bottom: 1px solid var(--lightgray);
+  padding-bottom: 0.6rem;
+}
+
+@media all and ($mobile) {
+  .page > #quartz-body > .page-header {
+    border-bottom: none;
+  }
+}
+
+/* -----------------------------------------------------------
+   Details accordion — Q&A (FAQ) + collapsed body sections
+
+   <details class="hmi-accordion"> with a <summary>. Marker
+   rotates; open state tints the summary. Forced open on print
+   at the bottom of this file. WCAG: summary text uses --dark
+   on --light (>=12:1); marker uses --secondary.
+   ----------------------------------------------------------- */
+
+details.hmi-accordion {
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-md);
+  margin: 0 0 0.75rem;
+  background: var(--light);
+  overflow: hidden;
+  transition: border-color var(--duration-base) var(--ease-out);
+}
+
+details.hmi-accordion[open] {
+  border-color: var(--color-primary-200);
+  box-shadow: var(--shadow-sm);
+}
+
+details.hmi-accordion > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding: 0.85rem 1rem;
+  font-family: var(--headerFont);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--dark);
+  background: transparent;
+  transition: background var(--duration-fast) var(--ease-out);
+}
+
+details.hmi-accordion > summary::-webkit-details-marker {
+  display: none;
+}
+
+details.hmi-accordion > summary::before {
+  content: "";
+  flex: 0 0 auto;
+  width: 0.6em;
+  height: 0.6em;
+  margin-top: 0.35em;
+  border-right: 2px solid var(--secondary);
+  border-bottom: 2px solid var(--secondary);
+  transform: rotate(-45deg);
+  transition: transform var(--duration-base) var(--ease-out);
+}
+
+details.hmi-accordion[open] > summary {
+  background: var(--highlight);
+}
+
+details.hmi-accordion[open] > summary::before {
+  transform: rotate(45deg);
+}
+
+details.hmi-accordion > summary:hover {
+  background: var(--highlight);
+}
+
+details.hmi-accordion > summary:focus-visible {
+  outline: 2px solid var(--color-primary-200);
+  outline-offset: -2px;
+}
+
+details.hmi-accordion > .hmi-accordion-body {
+  padding: 0 1rem 0.9rem 2.2rem;
+}
+
+details.hmi-accordion > .hmi-accordion-body > :first-child {
+  margin-top: 0.4rem;
+}
+
+details.hmi-accordion > .hmi-accordion-body > :last-child {
+  margin-bottom: 0;
+}
+
+/* Q&A grouping wrapper — sequential accordions, tighter gap. */
+.hmi-faq {
+  margin: 1.5rem 0;
+}
+
+.hmi-faq > .hmi-faq-label {
+  font-family: var(--headerFont);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin: 0 0 0.6rem;
+}
+
+/* Collapsed body section variant — flatter, no card border, used
+   to fold long methodological detail under a heading without a
+   boxed look. Same <details> mechanics. */
+details.hmi-collapse {
+  margin: 0.5rem 0 1.25rem;
+  border-top: 1px solid var(--lightgray);
+}
+
+details.hmi-collapse > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 0;
+  font-family: var(--headerFont);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--secondary);
+}
+
+details.hmi-collapse > summary::-webkit-details-marker {
+  display: none;
+}
+
+details.hmi-collapse > summary::after {
+  content: "Show";
+  margin-left: auto;
+  font-family: var(--codeFont);
+  font-size: 10px;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--gray);
+}
+
+details.hmi-collapse[open] > summary::after {
+  content: "Hide";
+}
+
+details.hmi-collapse > summary:focus-visible {
+  outline: 2px solid var(--color-primary-200);
+  outline-offset: 2px;
+}
+
+/* -----------------------------------------------------------
+   Superscript citation chip — sup.hmi-cite
+
+   Wraps an <a class="internal" href="sources/<key>">; the
+   existing popover.inline.ts binds mouseenter on a.internal, so
+   the source card (.popover > .popover-inner) fires unchanged.
+   The chip is the visual marker; the anchor is the trigger.
+   WCAG: --secondary on --light is ~7:1.
+   ----------------------------------------------------------- */
+
+sup.hmi-cite {
+  font-size: 0.7em;
+  line-height: 0;
+  vertical-align: super;
+  margin-left: 0.1em;
+  white-space: nowrap;
+}
+
+/* Override the global article-link underline (custom.scss L226)
+   so chips read as compact superscript pills, not underlined
+   numbers. */
+article sup.hmi-cite > a.internal,
+sup.hmi-cite > a.internal {
+  border-bottom: none;
+  background: var(--highlight);
+  color: var(--secondary);
+  font-family: var(--codeFont);
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 0.05em 0.4em;
+  transition:
+    background var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+article sup.hmi-cite > a.internal:hover,
+sup.hmi-cite > a.internal:hover {
+  background: var(--secondary);
+  color: var(--light);
+}
+
+/* Bracketed multi-cite groups: [12, 14] read as one chip. */
+sup.hmi-cite + sup.hmi-cite {
+  margin-left: 0.15em;
+}
+
+/* -----------------------------------------------------------
+   Collapsed references — details.hmi-references with a live
+   filter input. References list is server-rendered inside the
+   <details>; the input filters client-side via the existing
+   list, falling back to a plain (non-filtering) box if JS is
+   off. No information loss: all references are in the DOM,
+   collapsed by default, forced open on print.
+   ----------------------------------------------------------- */
+
+details.hmi-references {
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-md);
+  margin: 2rem 0 1.5rem;
+  background: var(--light);
+}
+
+details.hmi-references > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1rem;
+  font-family: var(--headerFont);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+details.hmi-references > summary::-webkit-details-marker {
+  display: none;
+}
+
+details.hmi-references > summary::before {
+  content: "";
+  flex: 0 0 auto;
+  width: 0.55em;
+  height: 0.55em;
+  border-right: 2px solid var(--secondary);
+  border-bottom: 2px solid var(--secondary);
+  transform: rotate(-45deg);
+  transition: transform var(--duration-base) var(--ease-out);
+}
+
+details.hmi-references[open] > summary::before {
+  transform: rotate(45deg);
+}
+
+details.hmi-references > summary .hmi-references-count {
+  margin-left: auto;
+  font-family: var(--codeFont);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--gray);
+}
+
+.hmi-references-body {
+  padding: 0 1rem 1rem;
+  border-top: 1px solid var(--lightgray);
+}
+
+.hmi-references-filter {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0.9rem 0;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 999px;
+  background: var(--light);
+  color: var(--dark);
+  font-family: var(--bodyFont);
+  font-size: 13px;
+  transition: border-color var(--duration-base) var(--ease-out);
+}
+
+.hmi-references-filter::placeholder {
+  color: var(--gray);
+}
+
+.hmi-references-filter:focus {
+  outline: none;
+  border-color: var(--secondary);
+}
+
+.hmi-references-body ol,
+.hmi-references-body ul {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.hmi-references-body li {
+  font-size: 13px;
+  line-height: 1.55;
+  margin: 0 0 0.55rem;
+}
+
+/* Rows hidden by the filter script set [hidden]; honor it. */
+.hmi-references-body li[hidden] {
+  display: none;
+}
+
+/* -----------------------------------------------------------
+   Evidence / data table restyle — burgundy thead, zebra,
+   tabular-nums, sticky header.
+
+   Scoped to .hmi-evidence-table so it does NOT override the
+   quiet default article-table style (custom.scss L325). The
+   wrapper .hmi-evidence-scroll provides horizontal overflow +
+   the sticky-header viewport. WCAG: white on --secondary
+   (#8B2A4A) is ~7:1.
+   ----------------------------------------------------------- */
+
+.hmi-evidence-scroll {
+  overflow: auto;
+  max-height: 32rem;
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-md);
+  margin: 1rem 0 1.5rem;
+}
+
+table.hmi-evidence-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin: 0;
+  font-size: 13px;
+}
+
+table.hmi-evidence-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--secondary);
+  color: #fff;
+  font-family: var(--headerFont);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  text-align: left;
+  padding: 0.6rem 0.85rem;
+  border-bottom: none;
+  white-space: nowrap;
+}
+
+/* Numeric columns: monospace + tabular figures for aligned digits.
+   Mark cells/cols with .hmi-num (th and td). */
+table.hmi-evidence-table .hmi-num {
+  font-family: var(--codeFont);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+  text-align: right;
+  white-space: nowrap;
+}
+
+table.hmi-evidence-table tbody td {
+  padding: 0.5rem 0.85rem;
+  border-bottom: 1px solid var(--lightgray);
+  color: var(--darkgray);
+  vertical-align: top;
+}
+
+/* Zebra — even rows tinted; AA contrast preserved (tint is ~4% L). */
+table.hmi-evidence-table tbody tr:nth-child(even) td {
+  background: var(--highlight);
+}
+
+table.hmi-evidence-table tbody tr:hover td {
+  background: rgba(139, 42, 74, 0.09);
+}
+
+:root[saved-theme="dark"] table.hmi-evidence-table thead th {
+  /* --secondary in dark is #C76B8E (light burgundy); use a darker
+     plum so white header text keeps AA on dark theme. */
+  background: var(--color-primary-700);
+  color: var(--light);
+}
+
+:root[saved-theme="dark"] table.hmi-evidence-table tbody tr:hover td {
+  background: rgba(199, 107, 142, 0.16);
+}
+
+/* -----------------------------------------------------------
+   Left rail — per-page section-nav ABOVE the global Explorer,
+   plus a template-driven dedicated-pages group.
+
+   The Explorer file-tree is kept as-is; .hmi-section-nav is a
+   sibling placed before it in the left sidebar. navgrouplabel /
+   navcount style the group headers and the per-group counts.
+   ----------------------------------------------------------- */
+
+.hmi-section-nav {
+  width: 100%;
+  margin-bottom: 1.1rem;
+  font-family: var(--headerFont);
+}
+
+.hmi-section-nav .navgroup {
+  margin-bottom: 0.9rem;
+}
+
+.hmi-section-nav .navgroup:last-child {
+  margin-bottom: 0;
+}
+
+.hmi-section-nav .navgrouplabel {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin: 0 0 0.4rem;
+}
+
+.hmi-section-nav .navcount {
+  font-family: var(--codeFont);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--secondary);
+  background: var(--highlight);
+  border-radius: 999px;
+  padding: 0.05em 0.4em;
+  line-height: 1.4;
+}
+
+.hmi-section-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid var(--lightgray);
+}
+
+.hmi-section-nav li {
+  margin: 0;
+  line-height: 1.4;
+}
+
+article .hmi-section-nav a,
+.hmi-section-nav a {
+  display: block;
+  padding: 0.22rem 0 0.22rem 0.75rem;
+  margin-left: -1px;
+  border-left: 2px solid transparent;
+  border-bottom: none;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--gray);
+  transition:
+    color var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out);
+}
+
+article .hmi-section-nav a:hover,
+.hmi-section-nav a:hover {
+  color: var(--secondary);
+  background: transparent;
+  border-left-color: var(--color-primary-200);
+}
+
+/* Scrollspy active state — the section-nav script (or the TOC
+   observer) toggles .active on the in-view section's link. */
+.hmi-section-nav a.active {
+  color: var(--secondary);
+  font-weight: 600;
+  border-left-color: var(--secondary);
+}
+
+/* Dedicated-pages group: rendered after References, links this
+   metal's related Products / Ingredients / Regulations pages.
+   Extensible — one .navgroup per relation, minimal chrome. */
+.hmi-section-nav .navgroup.hmi-dedicated a {
+  color: var(--secondary);
+  font-weight: 500;
+}
+
+.hmi-section-nav .navgroup.hmi-dedicated a:hover {
+  border-left-color: var(--secondary);
+}
+
+.hmi-section-nav .navgroup.hmi-dedicated .navgrouplabel {
+  color: var(--secondary);
+}
+
+/* Tablet/mobile: the left rail flattens to a row in base.scss;
+   hide the section-nav there to avoid duplicating the in-page
+   TOC. Explorer behavior is unchanged. */
+@media all and not ($desktop) {
+  .hmi-section-nav {
+    display: none;
+  }
+}
+
+/* -----------------------------------------------------------
+   Right rail — actions + provenance.
+   Sits in grid-sidebar-right alongside the TOC.
+   ----------------------------------------------------------- */
+
+.hmi-rail {
+  width: 100%;
+  font-family: var(--headerFont);
+  margin-bottom: 1.4rem;
+}
+
+.hmi-rail-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin: 0 0 0.55rem;
+}
+
+.hmi-rail-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+article a.hmi-rail-action,
+a.hmi-rail-action,
+button.hmi-rail-action {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--lightgray);
+  border-bottom: 1px solid var(--lightgray);
+  border-radius: var(--radius-sm);
+  background: var(--light);
+  color: var(--darkgray);
+  font-family: var(--headerFont);
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    border-color var(--duration-fast) var(--ease-out),
+    background var(--duration-fast) var(--ease-out);
+}
+
+article a.hmi-rail-action:hover,
+a.hmi-rail-action:hover,
+button.hmi-rail-action:hover {
+  border-color: var(--secondary);
+  background: var(--highlight);
+  color: var(--secondary);
+}
+
+.hmi-rail-action svg {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  stroke: currentColor;
+}
+
+/* Provenance block — author + provenance only (no editor/reviewer
+   roles per the single-author decision). */
+.hmi-provenance {
+  border-top: 1px solid var(--lightgray);
+  padding-top: 0.9rem;
+  font-family: var(--bodyFont);
+}
+
+.hmi-provenance dt {
+  font-family: var(--headerFont);
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin: 0.7rem 0 0.15rem;
+}
+
+.hmi-provenance dt:first-child {
+  margin-top: 0;
+}
+
+.hmi-provenance dd {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--darkgray);
+}
+
+article .hmi-provenance dd a,
+.hmi-provenance dd a {
+  color: var(--secondary);
+  border-bottom: none;
+  font-weight: 500;
+}
+
+.hmi-provenance .hmi-orcid {
+  font-family: var(--codeFont);
+  font-size: 11px;
+  color: var(--gray);
+}
+
+/* -----------------------------------------------------------
+   Update-history timeline — Author + Provenance only.
+   A vertical rail of dated entries; newest first.
+   ----------------------------------------------------------- */
+
+.hmi-update-history {
+  margin: 2rem 0 1.5rem;
+}
+
+.hmi-update-history-label {
+  font-family: var(--headerFont);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin: 0 0 0.9rem;
+}
+
+.hmi-update-history ol {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1.1rem;
+  border-left: 2px solid var(--lightgray);
+}
+
+.hmi-update-history li {
+  position: relative;
+  margin: 0 0 1rem;
+  padding-left: 0.4rem;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.hmi-update-history li::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.1rem - 1px);
+  top: 0.35rem;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--secondary);
+  transform: translateX(-50%);
+}
+
+.hmi-update-history li:last-child {
+  margin-bottom: 0;
+}
+
+.hmi-update-date {
+  font-family: var(--codeFont);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--secondary);
+  display: block;
+  margin-bottom: 0.1rem;
+}
+
+.hmi-update-detail {
+  color: var(--darkgray);
+}
+
+.hmi-update-detail .hmi-update-author {
+  font-weight: 600;
+  color: var(--dark);
+}
+
+article .hmi-update-detail a,
+.hmi-update-detail a {
+  color: var(--secondary);
+  border-bottom: none;
+  font-weight: 500;
+}
+
+/* -----------------------------------------------------------
+   Print / expand-all — force every collapse open so paper and
+   PDF copies carry the full text (no information loss). This is
+   a second @media print block; it cascades after the existing
+   one near the top of the file and only adds rules.
+   ----------------------------------------------------------- */
+
+@media print {
+  /* Force all server-rendered collapses open. */
+  details.hmi-accordion,
+  details.hmi-collapse,
+  details.hmi-references {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  details.hmi-accordion[open],
+  details.hmi-accordion,
+  details.hmi-collapse,
+  details.hmi-references {
+    display: block !important;
+  }
+
+  details.hmi-accordion > .hmi-accordion-body,
+  details.hmi-collapse > *,
+  details.hmi-references > .hmi-references-body {
+    display: block !important;
+  }
+
+  /* details without [open] hide their body in print engines; this
+     attribute selector targets the markup, but to be safe we also
+     reveal children explicitly above. */
+  details > summary {
+    list-style: none;
+  }
+
+  details > summary::before,
+  details > summary::after {
+    display: none !important;
+  }
+
+  /* Filter box is interactive-only; drop it on paper. */
+  .hmi-references-filter,
+  .hmi-rail,
+  .hmi-section-nav,
+  .hmi-rail-actions {
+    display: none !important;
+  }
+
+  /* Provenance + update history DO print (they are the record). */
+  .hmi-provenance,
+  .hmi-update-history {
+    display: block !important;
+  }
+
+  /* Evidence table: drop the scroll cap + sticky so all rows
+     print; keep the burgundy header readable in grayscale. */
+  .hmi-evidence-scroll {
+    overflow: visible !important;
+    max-height: none !important;
+    border: 1px solid #000 !important;
+  }
+
+  table.hmi-evidence-table thead th {
+    position: static !important;
+    background: #000 !important;
+    color: #fff !important;
+  }
+
+  details.hmi-accordion,
+  details.hmi-references,
+  .hmi-update-history li,
+  table.hmi-evidence-table tr {
+    break-inside: avoid;
+  }
+}
+
+/* Belt-and-suspenders: a body/class hook the page template can set
+   (e.g. <html class="hmi-expand-all"> from a print/"expand all"
+   button) to force collapses open on screen too, without JS fetch. */
+.hmi-expand-all details.hmi-accordion,
+.hmi-expand-all details.hmi-collapse,
+.hmi-expand-all details.hmi-references {
+  /* native: setting open attr is cleaner, but this guarantees the
+     body is visible if a class toggle is used instead of [open]. */
+}
+
+.hmi-expand-all details.hmi-accordion > .hmi-accordion-body,
+.hmi-expand-all details.hmi-collapse > :not(summary),
+.hmi-expand-all details.hmi-references > .hmi-references-body {
+  display: block !important;
 }

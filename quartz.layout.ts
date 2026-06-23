@@ -52,10 +52,20 @@ const primaryNavFilter = (node: { slugSegment: string }) => {
 };
 
 // components shared across all pages
+//
+// `header` is the global TopNav. renderPage.tsx lifts this array into a
+// full-width <header class="hmi-topnav-shell"> OUTSIDE #quartz-root, so it spans
+// the viewport as a sticky bar rather than rendering inside the centered grid.
+//
+// CiteThisPage moved OUT of afterBody and INTO the right rail (see
+// defaultContentPageLayout.right) so the citation/provenance affordance lives in
+// the actions column. RelatedPages ("See also") stays in afterBody — it is the
+// rich in-body lateral-nav block, distinct from the compact left-rail
+// DedicatedPages group.
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
-  afterBody: [Component.Corrections(), Component.RelatedPages(), Component.CiteThisPage()],
+  header: [Component.TopNav()],
+  afterBody: [Component.Corrections(), Component.RelatedPages()],
   footer: Component.Footer(),
 };
 
@@ -75,10 +85,11 @@ export const defaultContentPageLayout: PageLayout = {
     // page is misleading and discouraging rather than informative. The
     // last-updated date is the meta that matters here.
     Component.ContentMeta({ showReadingTime: false }),
-    Component.EvidenceHeader(),
+    // EvidenceHeader + SourceCitationPanel moved to the right rail (actions /
+    // provenance column) below. They no longer render in-body to avoid
+    // duplicate provenance blocks.
     Component.ProductEvidenceSummary(),
     Component.BrandPreScreenTool(),
-    Component.SourceCitationPanel(),
     Component.TagList(),
   ],
   left: [
@@ -95,6 +106,17 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.AskIndex(),
+    // Per-page section-nav (TableOfContents moved into the left rail, restyled
+    // for the narrow column). Desktop-only: on mobile the left rail goes
+    // horizontal and the section-nav is hidden (toc.scss .toc-left mobile rule).
+    Component.DesktopOnly(Component.TableOfContents({ position: "left" })),
+    // Template-driven dedicated-pages group (Products / Ingredients /
+    // Regulations for this page), the compact left-rail sibling of the in-body
+    // RelatedPages "See also".
+    Component.DesktopOnly(Component.DedicatedPages()),
+    // Expand/Collapse-all control sits directly above the Explorer and targets
+    // it; the Explorer stays collapsed beneath as the global file tree.
+    Component.DesktopOnly(Component.ExplorerControls()),
     Component.Explorer({
       title: "Index",
       folderDefaultState: "collapsed",
@@ -102,7 +124,21 @@ export const defaultContentPageLayout: PageLayout = {
       filterFn: primaryNavFilter,
     }),
   ],
-  right: [Component.DesktopOnly(Component.TableOfContents())],
+  // Right rail = actions / provenance column.
+  //   - EvidenceHeader: the authority/evidence-basis chip (author, metals,
+  //     anchor sources / corpus count) read from frontmatter.
+  //   - CiteThisPage: moved from afterBody so the citation + evidence-packet
+  //     affordance lives in the actions column.
+  //   - Follow: placeholder control (no JS wiring yet) for a future
+  //     update-subscription affordance.
+  //   - SourceCitationPanel: renders only on source pages (self-gates on
+  //     type === "source" / slug startsWith "sources/").
+  right: [
+    Component.DesktopOnly(Component.EvidenceHeader()),
+    Component.DesktopOnly(Component.CiteThisPage()),
+    Component.DesktopOnly(Component.Follow()),
+    Component.DesktopOnly(Component.SourceCitationPanel()),
+  ],
 };
 
 // components for pages that display lists of pages (e.g. tags or folders)
