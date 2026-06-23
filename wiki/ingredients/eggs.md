@@ -24,11 +24,14 @@ contamination_profile:
     last_reviewed: 2026-06-11
   iAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 3]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    basis: whole-egg-fresh-weight
+    speciation_note: directly-speciated iAs; the only direct fresh-egg measurement is cfs2012, where fresh chicken egg was a non-detect below the HK HG-ICP-MS LOD of 3 µg/kg, so the cell is left-censored at <3 µg/kg; salted and lime-preserved eggs to 93 µg/kg are a culturally-processed-egg stratum, not fresh whole egg, and are stratified out of the central estimate; fera2015 reports no eggs-group iAs value (its <0.012 mg/kg is the generic UK-TDS iAs LoQ applied uniformly across food groups, not an egg measurement) and is dropped as a grounding citation; chen2025 and dai2024 iAs are modeled from tAs via EFSA/WHO conversion factors, not direct measurements, so they inform context only
+    p95_note: no fresh-whole-egg iAs tail is defensibly computable; the single direct-speciation source resolves fresh egg below the reporting limit, so a 95th-percentile value above the LOD would have to be imported from the processed-egg stratum and is not published
+    last_reviewed: 2026-06-23
   tAs:
     status: populated
     typical_ppb: [0, 230]
@@ -91,7 +94,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
+updated: 2026-06-23
 sources: 34
 ---
 
@@ -105,17 +108,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 8/10 HMTc analytes, total n=29 | — |
+| D1 Analyte coverage (tier: common) | OK | 8/10 HMTc analytes, total n=26 | — |
 | D2 Regional coverage | OK | 27 jurisdictions, top CN 36% | — |
 | D3 Anthropogenic evidence | GAP | 3 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 3 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd THIN, iAs POOLABLE, tAs THIN, tHg THIN, Ni THIN, Al THIN, Cr THIN, Sn THIN | Cd: THIN; tAs: THIN; tHg: THIN; Ni: needs 1 more study(ies); Al: needs 1 more study(ies); Cr: THIN; Sn: needs 2 more study(ies) |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd THIN, iAs THIN, tAs THIN, tHg THIN, Ni THIN, Al THIN, Cr THIN, Sn THIN | Cd: THIN; iAs: needs 2 more study(ies); tAs: THIN; tHg: THIN; Ni: needs 1 more study(ies); Al: needs 1 more study(ies); Cr: THIN; Sn: needs 2 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 61 claims checked, 61 supported; 15 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming eggs: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
+| D8 Provenance integrity | GAP | 68 claims checked, 68 supported; 17 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming eggs: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
 | D10 Regulatory coverage | OK | 1 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | Cd: THIN; tAs: THIN; tHg: THIN; Ni: THIN, needs 1 more study(ies); Al: THIN, needs 1 more study(ies); Cr: THIN; Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | Cd: THIN; iAs: THIN, needs 2 more study(ies); tAs: THIN; tHg: THIN; Ni: THIN, needs 1 more study(ies); Al: THIN, needs 1 more study(ies); Cr: THIN; Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
 
 <!-- /hmi-completeness-scorecard -->
@@ -139,7 +142,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|------------|-------------|
 | Pb | n=4 | 0–200 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
 | Cd | n=4 | 0–37 | low | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]], [[sources/ezike2024-nigerian-poultry-pte\|3]] |
-| iAs | n=4 | 0 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| iAs | n=1 | 0–3 | low | [[sources/cfs2012-hktds-inorganic-arsenic\|1]] |
 | tAs | n=5 | 0–230 | low | [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]], [[sources/ezike2024-nigerian-poultry-pte\|3]] |
 | tHg | n=4 | 0–43 | low | [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
 | Ni | n=2 | 0–63 | low | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/islam2015-bangladesh-foods-heavy-metals\|2]] |
@@ -150,13 +153,15 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 ## Synthesis basis and censoring treatment
 
-The lead, cadmium, total arsenic, total mercury, nickel, and chromium cells were resynthesized on 2026-06-11 on a whole-egg fresh-weight basis, the form in which eggs enter the ingredient supply chain. Most primary occurrence literature reports whole-egg or separated yolk/albumen concentrations in mg/kg wet weight, which converts directly to ppb. Total arsenic and inorganic arsenic are kept as distinct analytes and are never derived from one another by a fixed ratio; the iAs cell is unchanged by this pass and only speciated measurements populate it. Total mercury and methylmercury are likewise kept distinct.
+The lead, cadmium, total arsenic, total mercury, nickel, and chromium cells were resynthesized on 2026-06-11 on a whole-egg fresh-weight basis, the form in which eggs enter the ingredient supply chain. Most primary occurrence literature reports whole-egg or separated yolk/albumen concentrations in mg/kg wet weight, which converts directly to ppb. Total arsenic and inorganic arsenic are kept as distinct analytes and are never derived from one another by a fixed ratio; only directly speciated measurements populate the iAs cell, which was resynthesized on 2026-06-23 (see below). Total mercury and methylmercury are likewise kept distinct.
 
 The earlier profile reported lead, cadmium, total arsenic, total mercury, nickel, chromium, and uranium at typical and 95th-percentile values of zero. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for hard-boiled eggs (TDS Food 37, n=27), in which every sample of every analyte fell below the reporting limit and the reported zeros were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]]). The reporting limits were 4 µg/kg for lead, 1 µg/kg for cadmium, 3 µg/kg for total arsenic, 1 µg/kg for total mercury, 40 µg/kg for nickel, 50 µg/kg for chromium, and 1 µg/kg for uranium. Values below the analytical limit are treated as left-censored, not as measured zeros: the honest low end of each cell is written as a less-than bound at the FDA reporting limit, and the detected distributions are taken from the primary literature, in which all six resynthesized metals are low but non-zero, with right tails driven by free-range, contaminated-environment, and feed-contaminated production.
 
 The lead distribution rests on whole-egg Chinese data ([[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining|Li et al. 2026]], whole-egg mean 12 µg/kg, range 5.4 to 18 µg/kg across nine areas), Bangladeshi market eggs ([[sources/islam2015-bangladesh-foods-heavy-metals|Islam et al. 2015]], chicken egg mean 200 µg/kg, duck egg 100 µg/kg), and Italian retail eggs ([[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs|Guerrini et al. 2024]], supermarket yolk 186 µg/kg, supermarket albumen 688 µg/kg by edible fraction), with the 95th-percentile anchor set by the Guerrini supermarket albumen value. Bangladeshi smallholder rinsings ([[sources/rokanuzzaman2022-bangladesh-eggs-metals|Rokanuzzaman et al. 2022]]) corroborate the low-to-moderate central range (brown-layer egg content 44 µg/kg). The cadmium distribution rests on the same Li, Islam, and Rokanuzzaman whole-egg data plus Nigerian poultry products ([[sources/ezike2024-nigerian-poultry-pte|Cosmas et al. 2024]], albumen Cd up to 67.2 µg/kg, which sets the 95th-percentile anchor); Li reports whole-egg cadmium at 1.5 to 2.3 µg/kg near the FDA floor, Islam chicken egg at 37 µg/kg. Total arsenic rests on a very clean Iranian commercial cohort ([[sources/abedi2023-arsenic-mercury-hen-eggs-iran|Abedi et al. 2023]], whole-egg mean 0.79 µg/kg) and Li (6.0 to 19 µg/kg) at the low end and Islam chicken egg (230 µg/kg) at the upper-typical end, which also sets the 95th-percentile anchor because it is the highest egg-fraction total-arsenic value in the corpus. The Nigerian poultry-products study ([[sources/ezike2024-nigerian-poultry-pte|Cosmas et al. 2024]]) reports a total-arsenic range of 0.0403 to 0.5970 mg/kg, but the 0.5970 mg/kg (597 µg/kg) maximum is the highest value across all 36 pooled poultry-product samples (muscle, gizzard, yolk, and albumen), not an egg-fraction value; the only egg-fraction value the study isolates is yolk at 0.1213 mg/kg (121 µg/kg). The earlier profile anchored the 95th percentile to the 597 µg/kg pooled-poultry maximum, which over-stated the egg-fraction tail; the cell is re-anchored to the highest grounded egg-fraction value (230 µg/kg) and the poultry-product maximum is treated as a non-egg-fraction proxy only.
 
 Total mercury rests on Abedi (whole-egg mean 0.18 µg/kg) and Chongqing total-diet eggs ([[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi|Chen et al. 2025]], eggs 1.2 to 3.1 µg/kg) at the clean floor, a Jakarta market value ([[sources/kurniawati2021-jakarta-staple-foods-naa|Kurniawati et al. 2021]], egg 43 µg/kg by neutron activation) at the upper-typical end, and a highly variable Italian supermarket albumen ([[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs|Guerrini et al. 2024]], albumen mean 266 µg/kg, one supermarket sample to 1077 µg/kg) at the 95th percentile. Nickel rests on the clean whole-egg Li distribution (15 to 63 µg/kg, the only corpus distribution that resolves below the FDA 40 µg/kg reporting limit) for the central estimate, with Islam Bangladeshi chicken egg (1300 µg/kg) setting a wide, low-confidence 95th-percentile spread; the Islam dataset reports a uniformly elevated nickel baseline across all commodities and is read as a high-analytical-baseline anchor rather than a typical value. Chromium rests on Li whole-egg total chromium (53 to 140 µg/kg) and a low Jakarta value ([[sources/kurniawati2021-jakarta-staple-foods-naa|Kurniawati et al. 2021]], egg 20 µg/kg), with the 95th percentile anchored to the Li whole-egg upper bound (140 µg/kg). The Bangladeshi egg-albumen value ([[sources/mahbub2018-poultry-feed-meat-eggs-metals|Mahbub et al. 2018]], albumen total chromium to 190 µg/kg) comes from the same feed-loaded albumen cohort whose lead (3340 µg/kg) is stratified out of the lead central estimate as feed-contaminated; for consistency that cohort's chromium is treated the same way and is not used to set the chromium 95th percentile. The earlier profile anchored the chromium 95th percentile to that Mahbub albumen value while excluding the same cohort's lead, an inconsistency this pass corrects by stratifying both.
+
+Inorganic arsenic was resynthesized on 2026-06-23 off its earlier all-zero artifact. Only directly speciated iAs measurements populate this cell; values modeled from total arsenic by a fixed conversion factor are treated as context, not as occurrence anchors. One corpus source speciates iAs in a fresh whole egg directly: the First Hong Kong Total Diet Study ([[sources/cfs2012-hktds-inorganic-arsenic|CFS 2012]]), which measured iAs by hydride-generation ICP-MS (LOD 3 µg/kg) and reports fresh chicken egg below the detection limit. Its "eggs and their products" group mean of 23 µg/kg (range ND to 93) is driven by salted egg (mean 58, range 31 to 93) and lime-preserved egg (mean 10, range 3 to 21), which are culturally processed eggs rather than fresh whole egg. The fresh-whole-egg cell is therefore left-censored at the cfs2012 detection limit: the low bound is written as numeric zero and the upper-typical bound as the 3 µg/kg LOD, because the only direct fresh-egg measurement resolves below it. The UK Total Diet Study ([[sources/fera2015-uk-tds-metals|Baxter et al. 2015]]) is not used to anchor this cell: its less-than 0.012 mg/kg eggs-group figure is the generic UK-TDS iAs limit of quantification printed uniformly across food groups, not an egg-specific measurement, so it cannot ground an egg iAs upper bound. No 95th-percentile value is published, because a fresh-egg tail above the detection limit cannot be computed from non-detect data without importing the processed-egg stratum; the salted and lime-preserved egg values to 93 µg/kg are recorded as a processed-egg stratum and are not folded into the fresh-egg cell. The Chongqing dietary-arsenic studies ([[sources/dai2024-chongqing-dietary-arsenic-exposure|Dai et al. 2024]], eggs total-arsenic mean 16 to 19 µg/kg, P95 68 µg/kg, n=530; [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi|Chen et al. 2025]]) measure total arsenic only and estimate iAs through EFSA/WHO conversion ratios; their egg iAs figures are modeled and are used here only to corroborate that the directly speciated fresh-egg distribution sits low, not to set the published bounds.
 
 Chromium is reported as total chromium at low confidence; no egg hexavalent-chromium measurement exists in the corpus and no Cr-VI fraction is inferred. Uranium is recorded as a reviewed data gap: the FDA Total Diet Study egg composite reports uranium fully below its 1 µg/kg reporting limit, and no non-FDA egg-uranium occurrence value with an extractable number is present in the routed corpus, so no distribution is published.
 
@@ -293,9 +298,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
 | [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
 | [d626a623b](https://github.com/paleofoundation/heavymetalindex/commit/d626a623b) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 1 — 6 pages / 30 cells (proving batch) |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
 <!-- END: hmi-page-history -->

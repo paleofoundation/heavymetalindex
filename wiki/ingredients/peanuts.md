@@ -40,11 +40,13 @@ contamination_profile:
     last_reviewed: 2026-06-11
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 5]
+    p95_ppb: null
+    confidence: low
+    n_studies: 4
+    basis: whole-peanut-kernel-as-sold
+    speciation_note: total-Hg-only; no methylmercury measurement in corpus
+    last_reviewed: 2026-06-23
   Ni:
     status: populated
     typical_ppb: [408, 528]
@@ -86,7 +88,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
+updated: 2026-06-23
 sources: 36
 ---
 
@@ -100,17 +102,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 6/10 HMTc analytes, total n=46 | labeled data-gaps: Al, Sn |
+| D1 Analyte coverage (tier: common) | OK | 6/10 HMTc analytes, total n=47 | labeled data-gaps: Al, Sn |
 | D2 Regional coverage | OK | 28 jurisdictions, top CN 31% | — |
 | D3 Anthropogenic evidence | GAP | 3 soil + 3 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 5 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, iAs POOLABLE, tAs POOLABLE, tHg POOLABLE, Ni POOLABLE, Cr THIN, U THIN | Cr: THIN; U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, iAs POOLABLE, tAs POOLABLE, tHg THIN, Ni POOLABLE, Cr THIN, U THIN | tHg: THIN; Cr: THIN; U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D7 Basis declaration | GAP | 1/10 populated cells declare a basis token | 9 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, Ni, Al, Cr, Sn, U |
 | D8 Provenance integrity | GAP | 45 claims checked, 45 supported; 13 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming peanuts: fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 4 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Cr, U; pairing 0 paired, 8 single, 0 unpaired | Cr: THIN; U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Cr, U; pairing 0 paired, 8 single, 0 unpaired | tHg: THIN; Cr: THIN; U: THIN, needs 1 more study(ies); basis: 9 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, Ni, Al, Cr, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -134,7 +136,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=11 | 36.4–44.4 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
 | iAs | n=3 | 1–2 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|3]] |
 | tAs | n=6 | 5–36 | medium | [[sources/blair2017-us-peanut-heavy-metals\|1]], [[sources/bielecka2021-nuts-toxic-elements-poland\|2]], [[sources/chen2022-peanut-elements-china\|3]] |
-| tHg | n=3 | 0 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=4 | 0–5 | low | [[sources/bielecka2021-nuts-toxic-elements-poland\|1]], [[sources/liu2025-nanyang-crops-heavy-metals\|2]], [[sources/blair2017-us-peanut-heavy-metals\|3]] |
 | Ni | n=9 | 408–528 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
 | Al | data gap | — | — | — |
 | Cr | n=5 | 0–290 | low | [[sources/chen2022-peanut-elements-china\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/alatise2025-fruit-nuts-metals\|3]] |
@@ -282,9 +284,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
 | [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
 | [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [d626a623b](https://github.com/paleofoundation/heavymetalindex/commit/d626a623b) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 1 — 6 pages / 30 cells (proving batch) |
 <!-- END: hmi-page-history -->

@@ -29,11 +29,13 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 1]
+    p95_ppb: 2
     confidence: medium
     n_studies: 4
-    last_reviewed: 2026-05-16
+    basis: as-consumed-ug-per-L
+    speciation_note: total-Hg; WHO drinking-water GV applies to inorganic Hg only, methylmercury not a drinking-water concern; mining/lead-zinc sources stratified out of central estimate
+    last_reviewed: 2026-06-23
   Ni:
     status: populated
     typical_ppb: [0, 20]
@@ -82,7 +84,7 @@ higher_risk_variants: []
 used_in_products: [flavored-waters]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-23
 sources: 59
 ---
 
@@ -102,11 +104,11 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D4 Background mechanism | GAP | section present, 0 drivers, 33 upstream source(s) | drivers[] empty |
 | D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, iAs POOLABLE, tHg POOLABLE, Ni POOLABLE, Al POOLABLE, Cr POOLABLE, Sn THIN, tAs POOLABLE, U THIN | Sn: needs 1 more study(ies); U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| D7 Basis declaration | GAP | 1/10 populated cells declare a basis token | 9 populated cell(s) lack a basis token: Pb, Cd, iAs, Ni, Al, Cr, Sn, tAs, U |
 | D8 Provenance integrity | GAP | 19 claims checked, 19 supported; 3 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming water: fsa2016-infant-food-formula-metals-survey |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | below-tier | 1 rule link(s), 1 metal(s) covered | crosswalk thin: 9/10 populated analytes have no linked governing limit |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; pairing 0 paired, 10 single, 0 unpaired | Pb: POOLABLE; Cd: POOLABLE; iAs: POOLABLE; tHg: POOLABLE; Ni: POOLABLE; Al: POOLABLE; Cr: POOLABLE; Sn: THIN, needs 1 more study(ies); tAs: POOLABLE; U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; pairing 0 paired, 10 single, 0 unpaired | Pb: POOLABLE; Cd: POOLABLE; iAs: POOLABLE; tHg: POOLABLE; Ni: POOLABLE; Al: POOLABLE; Cr: POOLABLE; Sn: THIN, needs 1 more study(ies); tAs: POOLABLE; U: THIN, needs 1 more study(ies); basis: 9 populated cell(s) lack a basis token: Pb, Cd, iAs, Ni, Al, Cr, Sn, tAs, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -128,7 +130,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=6 | 0–0.3 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/decharat2023-lead-cadmium-drinking-water-thailand\|3]] |
 | iAs | n=7 | 0–5 | medium | [[sources/epa-iris-inorganic-arsenic-2025\|1]], [[sources/zecchin2021-arsenic-groundwater-italy\|2]], [[sources/jecfa-82nd-arsenic\|3]] |
 | tAs | n=8 | 0–10 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/zecchin2021-arsenic-groundwater-italy\|3]] |
-| tHg | n=4 | 0 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/ufelle2021-metals-chapter\|3]] |
+| tHg | n=4 | 0–1 | medium | [[sources/who-gdwq-2022-fourth-edition\|1]], [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|2]], [[sources/abou-abbass2023-drinking-water-lebanon-metals\|3]] |
 | Ni | n=4 | 0–20 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/ufelle2021-metals-chapter\|2]], [[sources/efsa-nickel-contam-2020\|3]] |
 | Al | n=4 | 0 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/ufelle2021-metals-chapter\|2]], [[sources/atsdr-aluminum-toxprofile-2008\|3]] |
 | Cr | n=3 | 0–50 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/ufelle2021-metals-chapter\|3]] |
@@ -260,9 +262,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
 | [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
 | [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
 <!-- END: hmi-page-history -->

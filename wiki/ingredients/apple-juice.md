@@ -15,11 +15,12 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 2.6]
+    p95_ppb: 3
     confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    basis: apple-juice-as-consumed
+    last_reviewed: 2026-06-23
   iAs:
     status: populated
     typical_ppb: [0, 3.6]
@@ -36,11 +37,12 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 1]
+    p95_ppb: null
     confidence: low
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    n_studies: 1
+    basis: apple-juice-as-consumed
+    last_reviewed: 2026-06-23
   Ni:
     status: populated
     typical_ppb: [0, 16]
@@ -57,11 +59,13 @@ contamination_profile:
     last_reviewed: 2026-05-13
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 55]
+    p95_ppb: 90
     confidence: low
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    n_studies: 4
+    basis: apple-juice-as-consumed
+    speciation_note: total-Cr-only; no Cr-VI measurement in corpus
+    last_reviewed: 2026-06-23
   Sn:
     status: populated
     typical_ppb: [0, 8.9]
@@ -82,7 +86,7 @@ higher_risk_variants: []
 used_in_products: [fruit-juice-not-canned]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-23
 sources: 19
 ---
 
@@ -96,17 +100,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 8/10 HMTc analytes, total n=32 | — |
+| D1 Analyte coverage (tier: common) | OK | 8/10 HMTc analytes, total n=31 | — |
 | D2 Regional coverage | OK | 13 jurisdictions, top US 44% | — |
 | D3 Anthropogenic evidence | GAP | 2 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 2 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd THIN, iAs POOLABLE, tAs POOLABLE, tHg THIN, Ni THIN, Al THIN, Cr THIN, Sn POOLABLE, U THIN | Cd: THIN; tHg: THIN; Ni: THIN; Al: needs 2 more study(ies); Cr: THIN; U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd THIN, iAs POOLABLE, tAs POOLABLE, tHg THIN, Ni THIN, Al THIN, Cr THIN, Sn POOLABLE, U THIN | Cd: THIN; tHg: needs 2 more study(ies); Ni: THIN; Al: needs 2 more study(ies); Cr: THIN; U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D7 Basis declaration | GAP | 3/10 populated cells declare a basis token | 7 populated cell(s) lack a basis token: Pb, iAs, tAs, Ni, Al, Sn, U |
 | D8 Provenance integrity | GAP | 20 claims checked, 20 supported; 8 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming apple-juice: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | OK | 5 cited lever(s), 0 mitigation/ link(s) | — |
 | D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; pairing 0 paired, 10 single, 0 unpaired | Cd: THIN; tHg: THIN; Ni: THIN; Al: THIN, needs 2 more study(ies); Cr: THIN; U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; pairing 0 paired, 10 single, 0 unpaired | Cd: THIN; tHg: THIN, needs 2 more study(ies); Ni: THIN; Al: THIN, needs 2 more study(ies); Cr: THIN; U: THIN, needs 1 more study(ies); basis: 7 populated cell(s) lack a basis token: Pb, iAs, tAs, Ni, Al, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
 
 <!-- /hmi-completeness-scorecard -->
@@ -127,13 +131,13 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
 | Pb | n=4 | 0.3–2.5 | medium | [[sources/paudel2024-packaged-fruit-juices-nepal\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fda2018-lead-in-juice-fy2005-fy2018\|3]] |
-| Cd | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]] |
+| Cd | n=3 | 0–2.6 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/desouza2022-fruit-juice-trace-elements\|3]] |
 | iAs | n=4 | 0–3.6 | medium | [[sources/fda2023-ias-apple-juice-guidance\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|3]] |
 | tAs | n=5 | 1.4–4 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|2]], [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\|3]] |
-| tHg | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=1 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=3 | 0–16 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]] |
 | Al | n=1 | 0–2560 | low | — |
-| Cr | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]] |
+| Cr | n=4 | 0–55 | low | [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|1]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|2]], [[sources/desouza2022-fruit-juice-trace-elements\|3]] |
 | Sn | n=4 | 0–8.9 | medium | [[sources/tarigan2016-factors-tin-released-canned-beverages\|1]], [[sources/atsdr2005-tin-toxicological-profile\|2]], [[sources/schafer1984-tin-toxic-heavy-metal-review\|3]] |
 | U | n=2 | 0 | low | [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|1]] |
 
@@ -245,9 +249,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
 | [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
 | [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
 | [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->

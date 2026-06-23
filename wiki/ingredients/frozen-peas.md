@@ -8,11 +8,13 @@ category: legume
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 4]
+    p95_ppb: null
     confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    basis: frozen-pea-as-consumed-wet-weight
+    speciation_note: total-Pb. typical_hi = FDA TDS reporting limit 4 ppb (US frozen-pea composite, 3 seasons all-ND). Two regional raw-pea market surveys report much higher dry-weight values — cherfi2014 (Boumerdes, Algeria) peas Pb 21.67 mg/kg dw ≈ 4551 ppb ww-equiv (×~0.21 moisture), galal2021 non-polluted peas Pb 8.9 mg/kg dw ≈ 1869 ppb ww-equiv; galal2021 polluted-site peas (121 mg/kg dw) excluded as an industrial outlier. These regional raw-pea values are retained as cross-basis context indicating non-US supply may carry materially higher Pb; they are not pooled into a published percentile because the evidence spans heterogeneous populations (clean US frozen composite vs high regional raw-pea surveys) and n is too thin for a credible 95th-percentile statistic, so p95 is left uncomputed
+    last_reviewed: 2026-06-23
   Cd:
     status: populated
     typical_ppb: [0.3, 2.9]
@@ -36,11 +38,13 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 1]
+    p95_ppb: null
     confidence: low
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    n_studies: 2
+    basis: frozen-pea-as-consumed-wet-weight
+    speciation_note: total-Hg only; no MeHg speciation in corpus. typical_hi = FDA TDS reporting limit 1 ppb (3 seasons all-ND). No pea-specific Hg value in corpus; p95 null. mawari2022 reports a fruits/legumes-group category MEAN of 0.041 mg/kg (~41 ppb, fresh weight) across 13 commodities, not an isolated pea measurement and not a 95th-percentile statistic — retained as body-text context only, not used as a numeric percentile
+    last_reviewed: 2026-06-23
   Ni:
     status: populated
     typical_ppb: [15.2, 151.2]
@@ -57,11 +61,13 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 50]
+    p95_ppb: null
     confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    basis: frozen-pea-as-consumed-wet-weight
+    speciation_note: total-Cr-only; no Cr-VI measurement in corpus. typical_hi = FDA TDS reporting limit 50 ppb (US frozen-pea composite, all-ND). Two regional raw-pea market surveys report higher dry-weight values — cherfi2014 (Boumerdes, Algeria) peas Cr 6.50 mg/kg dw ≈ 1365 ppb ww-equiv (×~0.21 moisture), galal2021 non-polluted peas Cr 0.9 mg/kg dw ≈ 189 ppb ww-equiv; galal2021 polluted-site peas (19.8 mg/kg dw) excluded as an industrial outlier. These regional raw-pea values are retained as cross-basis context; they are not pooled into a published percentile because the evidence spans heterogeneous populations (clean US frozen composite vs high regional raw-pea surveys) and n is too thin for a credible 95th-percentile statistic, so p95 is left uncomputed
+    last_reviewed: 2026-06-23
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -82,7 +88,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-23
 sources: 2
 ---
 
@@ -96,17 +102,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 5/10 HMTc analytes, total n=19 | labeled data-gaps: iAs, Al, Sn |
+| D1 Analyte coverage (tier: occasional) | OK | 5/10 HMTc analytes, total n=18 | labeled data-gaps: iAs, Al, Sn |
 | D2 Regional coverage | below-tier | 0 jurisdictions | only 0 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: THIN; Cd: THIN; tAs: needs 1 more study(ies); tHg: THIN; Ni: THIN; Cr: THIN; U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: THIN; Cd: THIN; tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: THIN; Cr: THIN; U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D7 Basis declaration | GAP | 3/10 populated cells declare a basis token | 7 populated cell(s) lack a basis token: Cd, iAs, tAs, Ni, Al, Sn, U |
 | D8 Provenance integrity | GAP | 5 claims checked, 5 supported; 2 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming frozen-peas: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
 | D10 Regulatory coverage | OK | 1 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN; Cd: THIN; tAs: THIN, needs 1 more study(ies); tHg: THIN; Ni: THIN; Cr: THIN; U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN; Cd: THIN; tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN; Cr: THIN; U: THIN, needs 1 more study(ies); basis: 7 populated cell(s) lack a basis token: Cd, iAs, tAs, Ni, Al, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: brand-value |
 
 <!-- /hmi-completeness-scorecard -->
@@ -124,14 +130,14 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Pb | n=3 | 0–4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/galal2021-heavy-metals-pisum-sativum\|2]], [[sources/cherfi2014-algeria-fruits-vegetables-metals\|3]] |
 | Cd | n=3 | 0.3–2.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — |
 | tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=3 | 15.2–151.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
-| Cr | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=3 | 0–50 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/galal2021-heavy-metals-pisum-sativum\|2]], [[sources/cherfi2014-algeria-fruits-vegetables-metals\|3]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0–1.4 | low | — |
 
@@ -225,9 +231,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
 | [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
 | [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
 | [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->

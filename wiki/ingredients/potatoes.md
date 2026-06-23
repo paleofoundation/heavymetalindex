@@ -29,11 +29,13 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 13]
+    p95_ppb: null
+    confidence: low
     n_studies: 5
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-06-23
+    basis: raw-potato-wet-weight
+    speciation_note: total-Hg-only; no MeHg speciation in corpus; terrestrial Hg predominantly inorganic
   Ni:
     status: populated
     typical_ppb: [0, 48]
@@ -85,7 +87,7 @@ used_in_products: ["[[products/baby-food-vegetables]]", "[[products/french-fries
 audience: [regulator, educator, consumer, app]
 sources: 47
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-06-23
 ---
 
 # Potatoes
@@ -102,13 +104,13 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D2 Regional coverage | below-tier | 50 jurisdictions, top EU 28% | only 50 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | 6 drinking-water + 3 soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 4 drivers, 9 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, iAs THIN, tHg POOLABLE, Ni POOLABLE, Al POOLABLE, Cr THIN, Sn THIN, tAs POOLABLE | iAs: THIN; Cr: THIN; Sn: THIN |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, iAs THIN, tHg THIN, Ni POOLABLE, Al POOLABLE, Cr THIN, Sn THIN, tAs POOLABLE | iAs: THIN; tHg: THIN; Cr: THIN; Sn: THIN |
 | D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 2/10 populated cells declare a basis token | 8 populated cell(s) lack a basis token: Cd, iAs, tHg, Ni, Al, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 31 claims checked, 31 supported; 10 citations, 0 orphan, 3 foreign | 3 foreign citation(s) not naming potatoes: fda2022-tds-elements-fy2018-fy2020, fda-ctz-Pb-babyfood-2025, fda-iAs-rice-cereal-2020 |
+| D7 Basis declaration | GAP | 3/10 populated cells declare a basis token | 7 populated cell(s) lack a basis token: Cd, iAs, Ni, Al, Sn, tAs, U |
+| D8 Provenance integrity | GAP | 44 claims checked, 44 supported; 14 citations, 0 orphan, 3 foreign | 3 foreign citation(s) not naming potatoes: fda2022-tds-elements-fy2018-fy2020, fda-ctz-Pb-babyfood-2025, fda-iAs-rice-cereal-2020 |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | Mitigation options section empty/missing |
 | D10 Regulatory coverage | OK | 4 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN; Cr: THIN; Sn: THIN; basis: 8 populated cell(s) lack a basis token: Cd, iAs, tHg, Ni, Al, Sn, tAs, U |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN; tHg: THIN; Cr: THIN; Sn: THIN; basis: 7 populated cell(s) lack a basis token: Cd, iAs, Ni, Al, Sn, tAs, U |
 | **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.38, scale 0.25 | spread 0.83 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -126,7 +128,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=17 | 15–34 | high | [[sources/mohammadian-hafshejani2024-cadmium-prostate-cancer-meta\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
 | iAs | n=4 | 2–15 | low | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
 | tAs | n=9 | 0 | medium | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|3]] |
-| tHg | n=5 | 0 | medium | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]], [[sources/mawari2022-heavy-metals-fruits-vegetables-india\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=5 | 0–13 | low | [[sources/mawari2022-heavy-metals-fruits-vegetables-india\|1]], [[sources/saleem2025-locally-grown-vegetables-north-dakota\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Ni | n=8 | 0–48 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
 | Al | n=5 | 200–1000 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
 | Cr | n=3 | 0–9 | low | [[sources/reczajska2005-chromium-plant-foods-poland\|1]], [[sources/stasinos2014-heavy-metals-tubers-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
@@ -144,6 +146,8 @@ The lead floor is set at the FDA 4 µg/kg reporting limit. The central distribut
 Chromium is reported as total chromium only; no potato hexavalent-chromium measurement exists in the corpus, and Cr-VI is never inferred from total chromium. The chromium floor is the FDA 50 µg/kg reporting limit. The central fresh-weight distribution rests on the Polish plant-food survey ([[sources/reczajska2005-chromium-plant-foods-poland|Reczajska et al. 2005]], potato n=24, range below 1 to 11 µg/kg fresh weight, mean 3, median 4, 90th percentile 9 µg/kg). The 95th-percentile anchor of 63 µg/kg is the single FDA detect, the highest fresh-weight-comparable potato value in the corpus. Polluted-irrigation and industrial tubers run substantially higher on a dry-weight basis and are stratified rather than pooled: the tuber review ([[sources/stasinos2014-heavy-metals-tubers-review|Stasinos et al. 2014]]) compiles Thiva-basin Greek tuber total chromium of 1.9 to 4.1 mg/kg dry weight and a Latvian allotment mean of 0.16 mg/kg dry weight, and the Bogura survey reports vegetable-level total chromium below the detection limit to 5.44 mg/kg dry weight in an industrial district. These dry-weight polluted-region values are not basis-comparable to the fresh-weight percentile and are recorded as a separate contamination stratum, holding chromium confidence at low.
 
 Uranium is recorded as a reviewed data gap: the only potato uranium measurement in the corpus is the fully censored FDA Total Diet Study cell (all 27 composites below the 1 µg/kg reporting limit), and no primary raw-potato source reports an extractable quantitative uranium value, so no distribution is published. The earlier non-zero-confidence zero was the same censoring artifact and is withdrawn.
+
+Total mercury was resynthesized on 2026-06-23 on the same raw-potato wet-weight basis, replacing an earlier all-zero cell that was a censoring artifact of the total-diet-study composites. Potato mercury is dominated by below-limit observations: the FDA Total Diet Study reported all 27 "Potato, peeled, boiled" composites below the 1 µg/kg reporting limit ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]); the UK FERA total diet study reported the potatoes food group below 0.001 mg/kg (1 µg/kg), at the Hg limit of detection ([[sources/fera2015-uk-tds-metals|Baxter et al. 2015]]); and the German BfR MEAL study reported vegetables and potatoes predominantly below the 0.002 mg/kg (2 µg/kg) moist-food mercury limit of quantification, with 57 percent of all 869 pooled samples below the quantification limit study-wide ([[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|Fechner et al. 2022]]). These censored composites set the left-censored floor below the 1 to 2 µg/kg reporting and quantification limits rather than at a literal zero. The two quantified whole-tuber detects in the corpus anchor the low typical distribution: a US farmers-market survey in Grand Forks, North Dakota measured a potato mercury mean of 0.0017 µg/g dry weight ([[sources/saleem2025-locally-grown-vegetables-north-dakota|Saleem et al. 2025]]), which converts to roughly 0.4 µg/kg fresh weight at a potato moisture content near 79 percent (dry weight × 0.21); and a farm survey around the industrialized city of Solapur, Maharashtra reported potato mercury of 0.013 mg/kg (13 µg/kg) on an approximately fresh-weight basis ([[sources/mawari2022-heavy-metals-fruits-vegetables-india|Mawari et al. 2022]]), where potato was among the lowest mercury accumulators of the 24 commodities surveyed despite documented industrial atmospheric deposition that drove sorghum, fenugreek, and garlic an order of magnitude higher. The 13 µg/kg Solapur value is carried as the defensible upper-typical anchor rather than excluded as an outlier, because the potato measurement itself is modest and basis-comparable to the fresh-weight composites; no mining, smelter, or e-waste potato mercury value exists in the corpus to stratify out. No 95th-percentile tail is published: outside the single 13 µg/kg detect the distribution is censored or sub-1 µg/kg, so a defensible upper tail strictly above the typical high cannot be computed, and the 95th percentile is recorded as null. Mercury is reported as total mercury; no potato methylmercury speciation exists in the corpus, and terrestrial-crop mercury is predominantly inorganic, so methylmercury is never inferred from total mercury.
 
 ## Why this commodity accumulates cadmium
 
@@ -263,9 +267,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
 | [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
 | [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 4 (final) — 21 pages / 42 cells; backlog now ZERO |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
 <!-- END: hmi-page-history -->

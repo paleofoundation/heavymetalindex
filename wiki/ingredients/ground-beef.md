@@ -12,18 +12,37 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 60]
+    p95_ppb: 90
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-06-23
+    basis: ground-beef-muscle-wet-weight
+    speciation: total-Pb-only
+    note: >-
+      FDA TDS commodity-exact composite fully left-censored (27/27 ND, 4 ppb
+      reporting limit); central band anchored on clean-market muscle (Khalafalla
+      2011 muscle mean 8.77 ppb) through ordinary Egyptian retail minced meat
+      (Shaltout 2020 minced-meat mean 60 ppb, max 90 ppb). Imported-frozen and
+      MPL-exceedance strata (Rabeey 2025 muscle mean 684 ppb; Mohamed 2023
+      640-890 ppb) stratified out of the central and tail estimates.
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 30]
+    p95_ppb: 100
     confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-06-23
+    basis: ground-beef-muscle-wet-weight
+    speciation: total-Cd-only
+    note: >-
+      FDA TDS commodity-exact composite fully left-censored (27/27 ND, 1 ppb
+      reporting limit); central band anchored on clean-market muscle (Khalafalla
+      2011 muscle mean 1.40 ppb) through convergent ordinary-retail means
+      (Shaltout 2020 minced 30 ppb; Mohamed 2023 20 ppb; Rabeey 2025 muscle
+      30 ppb). Unlike Pb/tHg, Rabeey muscle Cd is not an outlier and is folded in.
+      95th percentile anchored at Rabeey 2025 muscle maximum 100 ppb (22.9%
+      above the 50 ppb MPL).
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -89,7 +108,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
+updated: 2026-06-23
 sources: 2
 ---
 
@@ -103,17 +122,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: staple) | below-tier | 5/10 HMTc analytes, total n=18 | staple tier expects total n>=40; have 18 |
+| D1 Analyte coverage (tier: staple) | below-tier | 5/10 HMTc analytes, total n=20 | staple tier expects total n>=40; have 20 |
 | D2 Regional coverage | below-tier | 1 jurisdictions, top EG 100% | only 1 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | tAs: needs 1 more study(ies); tHg: THIN; Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb THIN, Cd POOLABLE, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: THIN; tAs: needs 1 more study(ies); tHg: THIN; Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 1/10 populated cells declare a basis token | 9 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, Ni, Al, Cr, Sn, U |
+| D7 Basis declaration | GAP | 3/10 populated cells declare a basis token | 7 populated cell(s) lack a basis token: iAs, tAs, Ni, Al, Cr, Sn, U |
 | D8 Provenance integrity | GAP | 25 claims checked, 25 supported; 4 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming ground-beef: fda2022-tds-elements-fy2018-fy2020, rabeey2025-bovine-hg-pb-cd-egypt, khalafalla2011-beef-carcasses-metals-egypt |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: POOLABLE; Cd: POOLABLE; tAs: THIN, needs 1 more study(ies); tHg: THIN; Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 9 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, Ni, Al, Cr, Sn, U; depth below staple bar |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN; Cd: POOLABLE; tAs: THIN, needs 1 more study(ies); tHg: THIN; Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 7 populated cell(s) lack a basis token: iAs, tAs, Ni, Al, Cr, Sn, U; depth below staple bar |
 | **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 0.83 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -131,8 +150,8 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
-| Cd | n=3 | 0 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
+| Pb | n=3 | 0–60 | low | [[sources/khalafalla2011-beef-carcasses-metals-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
+| Cd | n=5 | 0–30 | medium | [[sources/khalafalla2011-beef-carcasses-metals-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
 | iAs | data gap | — | — | — |
 | tAs | n=2 | 1.9–5.9 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tHg | n=4 | 0–4 | low | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/khalafalla2011-beef-carcasses-metals-egypt\|2]], [[sources/mohamed2023-heavy-metals-beef-egypt\|3]] |
@@ -243,9 +262,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
 | [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 4 (final) — 21 pages / 42 cells; backlog now ZERO |
 | [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
 <!-- END: hmi-page-history -->

@@ -33,18 +33,21 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 35]
+    p95_ppb: 389
     confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    basis: raw-tomato-fruit-wet-weight
+    speciation_note: total-As-only; no inorganic-As speciation in corpus
+    last_reviewed: 2026-06-23
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 4]
+    p95_ppb: 14
     confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-16
+    n_studies: 4
+    basis: raw-tomato-fruit-wet-weight
+    last_reviewed: 2026-06-23
   Ni:
     status: populated
     typical_ppb: [16, 230]
@@ -86,7 +89,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
+updated: 2026-06-23
 sources: 40
 ---
 
@@ -100,17 +103,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 6/10 HMTc analytes, total n=33 | labeled data-gaps: iAs, Al |
+| D1 Analyte coverage (tier: common) | OK | 6/10 HMTc analytes, total n=35 | labeled data-gaps: iAs, Al |
 | D2 Regional coverage | OK | 22 jurisdictions, top EU 13% | — |
 | D3 Anthropogenic evidence | GAP | 3 soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 3 upstream source(s) | drivers[] empty |
 | D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg POOLABLE, Ni THIN, Cr THIN, Sn POOLABLE | Ni: THIN; Cr: THIN |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 39 claims checked, 39 supported; 11 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming tomato: fda2022-tds-elements-fy2018-fy2020 |
+| D7 Basis declaration | GAP | 2/10 populated cells declare a basis token | 8 populated cell(s) lack a basis token: Pb, Cd, iAs, Ni, Al, Cr, Sn, U |
+| D8 Provenance integrity | GAP | 55 claims checked, 55 supported; 16 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming tomato: fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, Sn; pairing 0 paired, 7 single, 0 unpaired | Ni: THIN; Cr: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, Sn; pairing 0 paired, 7 single, 0 unpaired | Ni: THIN; Cr: THIN; basis: 8 populated cell(s) lack a basis token: Pb, Cd, iAs, Ni, Al, Cr, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -131,8 +134,8 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Pb | n=6 | 0–80 | medium | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|1]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|2]], [[sources/heshmati2020-iran-vegetables-cereals-pb-cd\|3]] |
 | Cd | n=9 | 0.6–6.7 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
 | iAs | data gap | — | — | — |
-| tAs | n=4 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=3 | 0 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/li2017-mercury-vegetables-grains-coal-power-china\|3]] |
+| tAs | n=5 | 0–35 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/muniz2018-tomato-sauce-packaging-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=4 | 0–4 | medium | [[sources/li2017-mercury-vegetables-grains-coal-power-china\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|3]] |
 | Ni | n=4 | 16–230 | low | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|1]], [[sources/fatai2024-african-spinach-tomato-nigeria\|2]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|3]] |
 | Al | data gap | — | — | — |
 | Cr | n=4 | 32–410 | low | — |
@@ -150,6 +153,10 @@ Values below the analytical limit of detection or quantification are treated as 
 **Nickel** in tomato is reported as total nickel and rests on a thin fresh-weight pool. The Tehran supermarket survey reports tomato Ni at 161 µg/kg (summer) and 232 µg/kg (autumn) fresh weight ([[sources/alimohammadi2018-tehran-supermarket-vegetables|Alimohammadi et al. 2018]]), Nigerian field tomato at 133 µg/kg ([[sources/fatai2024-african-spinach-tomato-nigeria|Fatai et al. 2024]]), and a Chinese-market all-vegetable category aggregate (n=114; leafy greens, edible mushrooms, solanaceous fruits, tubers, and kale combined) at a mean of 16 µg/kg and a maximum of 86 µg/kg fresh weight, used here as a broad cross-vegetable proxy rather than a tomato-specific value ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]). The typical range spans this low Chinese-market cross-vegetable central tendency to the Tehran autumn central value; the 95th-percentile anchor of 250 µg/kg sits just above the Alimohammadi autumn figure. Egyptian tomato grown in heavily contaminated, non-remediated soil reached 1,000 µg/kg ([[sources/salem2024-tomato-remediated-soil-egypt|Salem et al. 2024]], untreated control) and is reported separately as a contaminated-soil stratum rather than folded into the central estimate. Confidence is low given the four-source pool and the wide geographic spread.
 
 **Chromium** is reported as total chromium at low confidence; no tomato hexavalent-chromium measurement exists in the corpus. The Tehran supermarket survey reports tomato total Cr at 234 µg/kg (summer) and 412 µg/kg (autumn) fresh weight ([[sources/alimohammadi2018-tehran-supermarket-vegetables|Alimohammadi et al. 2018]]), the Chinese-market all-vegetable category aggregate (n=114; leafy greens, edible mushrooms, solanaceous fruits, tubers, and kale combined) at a mean of 32 µg/kg and a maximum of 278 µg/kg fresh weight, used here as a broad cross-vegetable proxy rather than a tomato-specific value ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]), and Nigerian field tomato at 99 µg/kg ([[sources/fatai2024-african-spinach-tomato-nigeria|Fatai et al. 2024]]). The typical range runs from the Chinese-market cross-vegetable central tendency to the Tehran autumn value, with the 95th-percentile anchor set at 410 µg/kg. Bangladeshi industrial-district tomato reached 5,440 µg/kg dry weight ([[sources/samma2024-bangladesh-vegetable-metals|Samma et al. 2024]]) and is held out as a contaminated-soil stratum.
+
+**Total arsenic** in tomato is reported as total arsenic throughout the corpus; no inorganic-arsenic speciation exists for this commodity, so the cell is total arsenic only and no iAs fraction is inferred. The distribution is strongly left-censored at the clean end and reconciled with the resynthesis on 2026-06-23. The FDA Total Diet Study reported all 27 "Tomato, raw" composites below its 3 µg/kg total-arsenic reporting limit ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]), and a Spanish greenhouse trial found arsenic below the limit of quantification in tomato fruit from both biofertilizer-treated and control plots ([[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements|Rodríguez-Rodríguez et al. 2026]], wet weight). Against that below-limit cluster, a Romanian ICP-MS survey reported genuine total-arsenic detects in ordinary market and amateur-farm tomato at 374 to 389 µg/kg fresh weight for standard tomato and 255 to 334 µg/kg fresh weight for cherry varieties ([[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Bora et al. 2022]]); these are not mining or wastewater samples but routine produce, and they set the upper tail. Brazilian retail tomato sauce sat between the two, at 29 to 35 µg/kg total arsenic ([[sources/muniz2018-tomato-sauce-packaging-metals|Muniz et al. 2018]]), and a Chinese-market all-vegetable category aggregate (n=114, used as a broad cross-vegetable proxy rather than a tomato-specific value) averaged 6 µg/kg with a maximum of 107 µg/kg fresh weight ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]). The typical range is recorded as a left-censored zero lower bound through an upper-typical of 35 µg/kg anchored on the sauce and cross-vegetable central values, with the 95th-percentile anchor of 389 µg/kg set by the Bora et al. market-tomato detect. Confidence is medium across the five-source pool, tempered by the wide divergence between the below-limit North American and Spanish data and the Romanian detects.
+
+**Total mercury** in tomato is low and predominantly below analytical limits in clean production. The FDA Total Diet Study reported all 27 "Tomato, raw" composites below its 1 µg/kg mercury reporting limit ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]), and canned Iranian tomato paste returned mercury below detection at a 0.5 µg/kg detection limit ([[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran|Shavali-Gilani et al. 2025]], wet weight). Where mercury was detected, a Chinese study of farmland remote from coal-fired power plants measured control tomato fruit at 0.73 µg/kg fresh weight ([[sources/li2017-mercury-vegetables-grains-coal-power-china|Li et al. 2017]]), and the Chinese-market all-vegetable category aggregate (used as a broad cross-vegetable proxy) averaged 4 µg/kg with a maximum of 14 µg/kg fresh weight ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]). The typical range is recorded as a left-censored zero lower bound through an upper-typical of 4 µg/kg, with the 95th-percentile anchor of 14 µg/kg set by the cross-vegetable maximum. The same Li et al. study measured tomato fruit at 9.79 to 76.33 µg/kg fresh weight at sites within 10 km of two coal-fired power plants, where atmospheric mercury deposition elevated soil and crop concentrations; those values are held out of the central estimate as an atmospheric-deposition stratum and are not folded into the typical range or the tail. Confidence is medium across the four-source pool, which converges on sub-detect to low-single-digit concentrations for clean tomato.
 
 **Uranium** is recorded as a reviewed data gap. The FDA Total Diet Study reported all 27 tomato samples below its 1 µg/kg uranium reporting limit, and no routed non-FDA source in the corpus reports an extractable quantitative uranium value for tomato fruit. Consistent with the uranium treatment on [[ingredients/rice]], no distribution is published; the cell is left as a gap rather than recorded as a measured zero.
 
@@ -286,9 +293,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
 | [d626a623b](https://github.com/paleofoundation/heavymetalindex/commit/d626a623b) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 1 — 6 pages / 30 cells (proving batch) |
 | [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
 <!-- END: hmi-page-history -->

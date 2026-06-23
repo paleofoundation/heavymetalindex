@@ -33,18 +33,22 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 60]
+    p95_ppb: null
     confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    n_studies: 8
+    basis: honey-as-sold
+    speciation_note: total-As-only; no inorganic-As speciation in corpus (all sources ICP-MS/ICP-OES/XRF/AAS total-As)
+    last_reviewed: 2026-06-23
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 45]
+    p95_ppb: 100
+    confidence: low
+    n_studies: 3
+    basis: honey-as-sold
+    speciation_note: total-Hg-only; no methylmercury speciation in corpus
+    last_reviewed: 2026-06-23
   Ni:
     status: populated
     typical_ppb: [0, 650]
@@ -86,7 +90,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-11
+updated: 2026-06-23
 sources: 22
 ---
 
@@ -100,17 +104,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 6/10 HMTc analytes, total n=40 | labeled data-gaps: iAs, Sn |
+| D1 Analyte coverage (tier: occasional) | OK | 6/10 HMTc analytes, total n=43 | labeled data-gaps: iAs, Sn |
 | D2 Regional coverage | OK | 32 jurisdictions, top EU 15% | — |
 | D3 Anthropogenic evidence | GAP | 1 soil + 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 2 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg POOLABLE, Ni THIN, Al THIN, Cr THIN, U THIN | Ni: THIN; Al: THIN; Cr: THIN; U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg THIN, Ni THIN, Al THIN, Cr THIN, U THIN | tHg: THIN; Ni: THIN; Al: THIN; Cr: THIN; U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 49 claims checked, 49 supported; 9 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming honey: fda2022-tds-elements-fy2018-fy2020 |
+| D7 Basis declaration | GAP | 2/10 populated cells declare a basis token | 8 populated cell(s) lack a basis token: Pb, Cd, iAs, Ni, Al, Cr, Sn, U |
+| D8 Provenance integrity | GAP | 67 claims checked, 67 supported; 12 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming honey: fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr, U; pairing 0 paired, 8 single, 0 unpaired | Ni: THIN; Al: THIN; Cr: THIN; U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr, U; pairing 0 paired, 8 single, 0 unpaired | tHg: THIN; Ni: THIN; Al: THIN; Cr: THIN; U: THIN, needs 1 more study(ies); basis: 8 populated cell(s) lack a basis token: Pb, Cd, iAs, Ni, Al, Cr, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -131,8 +135,8 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Pb | n=9 | 0–50 | medium | [[sources/abeslami2025-moroccan-honey-minerals\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/naccari2025-honey-toxic-metals-microelements\|3]] |
 | Cd | n=9 | 0–40 | medium | [[sources/aghamirlou2015-iranian-honey-metals\|1]], [[sources/tomczyk2020-polish-honey-metal-transfer\|2]], [[sources/abeslami2025-moroccan-honey-minerals\|3]] |
 | iAs | data gap | — | — | — |
-| tAs | n=4 | 0 | medium | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/margaoan2024-bee-products-heavy-metals\|3]] |
-| tHg | n=4 | 0 | medium | [[sources/wise2025-elevated-metals-us-honeys\|1]], [[sources/margaoan2024-bee-products-heavy-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tAs | n=8 | 0–60 | medium | [[sources/wise2025-elevated-metals-us-honeys\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/aghamirlou2015-iranian-honey-metals\|3]] |
+| tHg | n=3 | 0–45 | low | [[sources/salama2019-libya-honey-metals\|1]], [[sources/gunes2021-yalova-chestnut-honey-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Ni | n=5 | 0–650 | low | [[sources/aghamirlou2015-iranian-honey-metals\|1]], [[sources/tomczyk2020-polish-honey-metal-transfer\|2]], [[sources/naccari2025-honey-toxic-metals-microelements\|3]] |
 | Al | n=3 | 50–500 | low | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/manouchehri2021-honey-heavy-metals-review\|3]] |
 | Cr | n=4 | 0–160 | low | [[sources/aghamirlou2015-iranian-honey-metals\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/aljedani2017-honeybee-honey-saudi-arabia\|3]] |
@@ -150,6 +154,12 @@ The lead distribution rests on European and North African market surveys. Abesla
 The cadmium distribution rests on the Iranian all-sample mean of 27.6 µg/kg (1.4 to 125.9 µg/kg) ([[sources/aghamirlou2015-iranian-honey-metals|Aghamirlou et al. 2015]]), Polish variety means of 10 to 40 µg/kg with a sample maximum near 70 µg/kg ([[sources/tomczyk2020-polish-honey-metal-transfer|Tomczyk et al. 2020]]), Moroccan values of 1.7 to 18 µg/kg ([[sources/abeslami2025-moroccan-honey-minerals|Abeslami et al. 2025]]), and Calabrian variety means of 6 to 9 µg/kg ([[sources/naccari2025-honey-toxic-metals-microelements|Naccari et al. 2025]]); the 95th-percentile anchor is set near the Aghamirlou maximum of 126 µg/kg. The industrial and mining stratum is again separated: Salama et al. 2019 report 125 to 150 µg/kg and Teferi et al. 2026 report 1,380 to 2,300 µg/kg, both above the headline distribution.
 
 Nickel and chromium are characterized at low confidence because few honey datasets in the corpus report them and the FDA reporting limits are high (40 and 50 µg/kg). The nickel distribution rests on the Iranian all-sample mean of 652 µg/kg (65 to 1,094 µg/kg) ([[sources/aghamirlou2015-iranian-honey-metals|Aghamirlou et al. 2015]]), Polish variety means of 80 to 720 µg/kg with sample maxima to 1,660 µg/kg ([[sources/tomczyk2020-polish-honey-metal-transfer|Tomczyk et al. 2020]]), and Calabrian variety means of 71 to 108 µg/kg ([[sources/naccari2025-honey-toxic-metals-microelements|Naccari et al. 2025]]); the 95th-percentile is anchored to the Aghamirlou maximum near 1,100 µg/kg. The Teferi mining honeys at 6,050 to 8,850 µg/kg are stratified out. Chromium is reported as total chromium at low confidence; no honey hexavalent-chromium measurement exists in the corpus, so no Cr-VI value is inferred. The total-chromium distribution rests on the Iranian all-sample mean of 900 µg/kg (172 to 1,220 µg/kg) ([[sources/aghamirlou2015-iranian-honey-metals|Aghamirlou et al. 2015]]), Calabrian variety means of 11 to 86 µg/kg ([[sources/naccari2025-honey-toxic-metals-microelements|Naccari et al. 2025]]), and the single Saudi Al-Baha detection of 160 µg/kg ([[sources/aljedani2017-honeybee-honey-saudi-arabia|Aljedani 2017]], chromium not detected in the other three regions); the central estimate is anchored near the Aljedani detection and the 95th-percentile to the Aghamirlou all-sample mean near 900 µg/kg, with a single-sample maximum of 1,220 µg/kg.
+
+The total-arsenic and total-mercury cells were resynthesized on 2026-06-23 to remove a censored-zero artifact. The earlier profile reported both analytes at typical and 95th-percentile values of zero, which was an artifact of the FDA Total Diet Study composites, all of which fell below the reporting limit (total arsenic 3 µg/kg, mercury 1 µg/kg). With every FDA composite censored, the distribution collapsed to a degenerate zero, and the reported zeros were pooled as literal zeros. The resynthesis records the honest left-censored floor as the reporting limit and recomputes the central estimate and tail from the detected primary-literature distributions. All arsenic in the corpus is total arsenic; no honey inorganic-arsenic speciation exists, so no iAs value is inferred. All mercury is total mercury; no methylmercury speciation exists.
+
+The total-arsenic distribution rests on Naccari et al. 2025 Calabrian variety means of 3 to 13 µg/kg by ICP-MS ([[sources/naccari2025-honey-toxic-metals-microelements|Naccari et al. 2025]]), Jr et al. 2025 (Wise) US XRF mean of 60 µg/kg across 28 samples ([[sources/wise2025-elevated-metals-us-honeys|Jr et al. 2025]]), Gunes 2021 Turkish chestnut-honey values of 0.03 to 0.95 µg/kg (mean 0.5 µg/kg, n=27) ([[sources/gunes2021-yalova-chestnut-honey-metals|Gunes 2021]]), and Salama et al. 2019 western-Libyan location means of 6 to 18 µg/kg ([[sources/salama2019-libya-honey-metals|Salama et al. 2019]]). Three datasets place total arsenic below their reporting limits: Aghamirlou et al. 2015 report all Iranian regional entries below 11.87 µg/kg ([[sources/aghamirlou2015-iranian-honey-metals|Aghamirlou et al. 2015]]), Limani Bektashi et al. 2021 report arsenic non-detected across five Balkan samples ([[sources/bektashi2021-honey-metals-sugars-balkans|Limani Bektashi et al. 2021]]), and Shukla et al. 2020 report arsenic below 10 µg/kg across fourteen Indian samples ([[sources/shukla2020-honey-prayagraj-metals|Shukla et al. 2020]]). The central estimate is left-censored at zero, with the typical upper bound anchored to the Wise US XRF mean of 60 µg/kg, the highest convergent central value in the pool. No defensible 95th-percentile tail above this upper bound is computable from the corpus, which is uniformly low and partly censored, so p95 is recorded as null.
+
+The total-mercury distribution rests on Salama et al. 2019 western-Libyan location means of 14 to 100 µg/kg by atomic absorption spectroscopy ([[sources/salama2019-libya-honey-metals|Salama et al. 2019]]) and Gunes 2021 Turkish chestnut-honey values of 0.24 to 44.5 µg/kg (mean 21.5 µg/kg, n=27) ([[sources/gunes2021-yalova-chestnut-honey-metals|Gunes 2021]]), against the FDA reporting-limit floor of 1 µg/kg. The central estimate is left-censored at zero, with the typical upper bound near 45 µg/kg (the Gunes maximum and Salama mid-range) and the 95th-percentile anchored to the Salama upper location mean of 100 µg/kg. The Wise et al. 2025 US XRF mercury mean of 3,710 µg/kg (single states to 8,940 µg/kg) is stratified out of the central estimate as a documented analytical artifact: the source page itself flags benchtop XRF as insensitive for mercury and notes these values, roughly thirty-seven times the next-highest credible detection, would require independent ICP-MS confirmation that the authors did not provide. It is retained as a flagged outlier, not folded into the percentile.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -262,9 +272,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
 | [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
 | [d626a623b](https://github.com/paleofoundation/heavymetalindex/commit/d626a623b) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 1 — 6 pages / 30 cells (proving batch) |
 | [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
 <!-- END: hmi-page-history -->
