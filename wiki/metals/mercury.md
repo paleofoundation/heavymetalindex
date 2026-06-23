@@ -9,7 +9,7 @@ microbiome_relevance: medium
 wikibiome_crosswalk: ["[[microbiome/mercury-gut-axis]]"]
 wiki_doi: null
 updated: 2026-04-30
-sources: 275
+sources: 288
 ---
 
 # Mercury
@@ -83,13 +83,13 @@ For consumers concerned about dental amalgam mercury vapor: this exposure is sma
 
 | Jurisdiction / Body | Type | Value | Page |
 | --- | --- | --- | --- |
-| EPA IRIS (US) | Methylmercury oral RfD | 0.1 µg/kg/day | [[regulations/epa-iris-methylmercury-rfd]] |
-| EPA IRIS (US) | Mercuric chloride oral RfD | 0.3 µg/kg/day | [[regulations/epa-iris-mercury-rfd]] |
-| EFSA (EU) | Methylmercury TWI | 1.3 µg Hg/kg b.w./week (daily ≈ 0.19 µg/kg/day) | [[regulations/efsa-methylmercury-twi]] |
-| EFSA (EU) | Inorganic mercury TWI | 4 µg Hg/kg b.w./week | [[regulations/efsa-mercury-twi]] |
-| JECFA (international) | Methylmercury PTWI | 1.6 µg/kg b.w./week (daily ≈ 0.23 µg/kg/day) | [[regulations/jecfa-methylmercury-ptwi]] |
-| FDA / EPA (US) | Fish consumption advice | Three-tier seafood categorization for pregnant women and children | [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]] |
-| ATSDR (US) | Mercury MRLs | Multiple by species and route | [[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]] |
+| [[regulators/us-epa\|EPA IRIS]] (US) | Methylmercury oral RfD | 0.1 µg/kg/day | [[regulations/epa-iris-methylmercury-rfd]] |
+| [[regulators/us-epa\|EPA IRIS]] (US) | Mercuric chloride oral RfD | 0.3 µg/kg/day | [[regulations/epa-iris-mercury-rfd]] |
+| [[regulators/efsa\|EFSA]] (EU) | Methylmercury TWI | 1.3 µg Hg/kg b.w./week (daily ≈ 0.19 µg/kg/day) | [[regulations/efsa-methylmercury-twi]] |
+| [[regulators/efsa\|EFSA]] (EU) | Inorganic mercury TWI | 4 µg Hg/kg b.w./week | [[regulations/efsa-mercury-twi]] |
+| [[regulators/jecfa\|JECFA]] (international) | Methylmercury PTWI | 1.6 µg/kg b.w./week (daily ≈ 0.23 µg/kg/day) | [[regulations/jecfa-methylmercury-ptwi]] |
+| [[regulators/us-fda\|FDA]] / EPA (US) | Fish consumption advice | Three-tier seafood categorization for pregnant women and children | [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]] |
+| [[regulators/atsdr\|ATSDR]] (US) | Mercury MRLs | Multiple by species and route | [[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]] |
 | International | [[sources/minamata-convention-2013|Minamata Convention]] | Treaty regulating anthropogenic Hg emissions worldwide | [[sources/minamata-convention-2013|Minamata Convention 2013]] |
 
 ### What the reference values mean in practice
@@ -191,9 +191,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 <!-- END: hmi-page-history -->

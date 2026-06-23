@@ -9,7 +9,7 @@ microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/arsenic-gut-axis]]", "[[microbiome/arsenic-microbial-methylation]]"]
 wiki_doi: null
 updated: 2026-04-30
-sources: 352
+sources: 369
 ---
 
 # Arsenic
@@ -88,13 +88,13 @@ For older children and adults: white [[ingredients/rice|rice]] carries less inor
 
 | Jurisdiction / Body | Type | Value | Page |
 | --- | --- | --- | --- |
-| EPA (US) | Drinking water MCL (total As) | 10 ppb | [[regulations/epa-arsenic-mcl]] |
-| EPA (US) | IRIS oral RfD and cancer slope (iAs) | January 2025 finalized; values pending detailed extraction | [[regulations/epa-iris-inorganic-arsenic-rfd]] |
-| FDA (US) | CTZ infant [[ingredients/rice|rice]] cereal action level (iAs) | 100 ppb | [[regulations/fda-iAs-rice-cereal-100ppb]] |
-| ATSDR (US) | Chronic oral MRL (iAs) | 0.3 µg As/kg/day | [[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]] |
-| OEHHA (US-CA) | Prop 65 cancer listing (iAs) | NSRL pending separate ingest | [[regulations/oehha-arsenic-prop65]] |
-| EFSA (EU) | BMDL01 anchors (no PTWI) | Cancer BMDL01 0.3 to 8 µg iAs/kg b.w./day depending on endpoint | [[regulations/efsa-arsenic-contam-2009]] |
-| JECFA (international) | PTWI | Withdrawn (15 µg iAs/kg b.w./week deemed inappropriate at JECFA 72nd, 2010) | [[sources/jecfa-82nd-arsenic|JECFA 82nd]] |
+| [[regulators/us-epa\|EPA]] (US) | Drinking water MCL (total As) | 10 ppb | [[regulations/epa-arsenic-mcl]] |
+| [[regulators/us-epa\|EPA]] (US) | IRIS oral RfD and cancer slope (iAs) | January 2025 finalized; values pending detailed extraction | [[regulations/epa-iris-inorganic-arsenic-rfd]] |
+| [[regulators/us-fda\|FDA]] (US) | CTZ infant [[ingredients/rice|rice]] cereal action level (iAs) | 100 ppb | [[regulations/fda-iAs-rice-cereal-100ppb]] |
+| [[regulators/atsdr\|ATSDR]] (US) | Chronic oral MRL (iAs) | 0.3 µg As/kg/day | [[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]] |
+| [[regulators/oehha\|OEHHA]] (US-CA) | Prop 65 cancer listing (iAs) | NSRL pending separate ingest | [[regulations/oehha-arsenic-prop65]] |
+| [[regulators/efsa\|EFSA]] (EU) | BMDL01 anchors (no PTWI) | Cancer BMDL01 0.3 to 8 µg iAs/kg b.w./day depending on endpoint | [[regulations/efsa-arsenic-contam-2009]] |
+| [[regulators/jecfa\|JECFA]] (international) | PTWI | Withdrawn (15 µg iAs/kg b.w./week deemed inappropriate at JECFA 72nd, 2010) | [[sources/jecfa-82nd-arsenic|JECFA 82nd]] |
 
 ### What the reference values mean in practice
 <!-- audience: consumer -->
@@ -212,9 +212,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 <!-- END: hmi-page-history -->

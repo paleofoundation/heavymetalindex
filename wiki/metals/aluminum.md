@@ -9,7 +9,7 @@ microbiome_relevance: low
 wikibiome_crosswalk: []
 wiki_doi: null
 updated: 2026-04-30
-sources: 138
+sources: 169
 ---
 
 # Aluminum
@@ -99,12 +99,12 @@ For pregnant women and parents of infants: soy-based infant formulas were docume
 
 | Jurisdiction / Body | Type | Value | Page |
 | --- | --- | --- | --- |
-| EFSA (EU) | Dietary TWI | 1 mg Al/kg b.w./week | [[regulations/efsa-aluminium-twi]] |
-| JECFA (international) | PTWI | 1 mg Al/kg b.w./week (aligned with EFSA after 2008) | _Pending separate ingest_ |
+| [[regulators/efsa\|EFSA]] (EU) | Dietary TWI | 1 mg Al/kg b.w./week | [[regulations/efsa-aluminium-twi]] |
+| [[regulators/jecfa\|JECFA]] (international) | PTWI | 1 mg Al/kg b.w./week (aligned with EFSA after 2008) | _Pending separate ingest_ |
 | Prior JECFA PTWI (replaced) | 7 mg Al/kg b.w./week | Replaced 2008 |  |
-| US ATSDR | Chronic oral MRL | 1 mg Al/kg/day | [[regulations/atsdr-aluminum-mrls]] |
-| US ATSDR | Intermediate oral MRL | 1 mg Al/kg/day | [[regulations/atsdr-aluminum-mrls]] |
-| EU | Maximum levels for aluminium in food contact materials | Regulation (EU) 10/2011 amendments | _Pending separate ingest_ |
+| [[regulators/atsdr\|US ATSDR]] | Chronic oral MRL | 1 mg Al/kg/day | [[regulations/atsdr-aluminum-mrls]] |
+| [[regulators/atsdr\|US ATSDR]] | Intermediate oral MRL | 1 mg Al/kg/day | [[regulations/atsdr-aluminum-mrls]] |
+| [[regulators/eu-commission\|EU]] | Maximum levels for aluminium in food contact materials | Regulation (EU) 10/2011 amendments | _Pending separate ingest_ |
 
 ### What the reference values mean in practice
 <!-- audience: consumer -->
@@ -444,9 +444,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

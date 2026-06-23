@@ -6,7 +6,7 @@ name: Mercury, total
 species: [Hg0, Hg2+, MeHg, EtHg, phenyl-Hg]
 audience: [regulator, educator, researcher]
 microbiome_relevance: medium
-sources: 212
+sources: 273
 wiki_doi: null
 updated: 2026-05-02
 status: scaffold
@@ -25,7 +25,7 @@ This page is a scaffold. EU 2023/915 total-mercury fish maximum levels have been
 
 | Jurisdiction / Body | Type | Value | Page |
 | --- | --- | --- | --- |
-| EU | Binding maximum levels in fishery products and molluscs | General crustaceans, molluscs, and muscle meat of fish 500 ug/kg; listed lower-mercury fish 300 ug/kg; listed higher-mercury fish including tuna, shark, swordfish, marlin, halibut, pike, and sturgeon 1000 ug/kg | [[regulations/eu2023-contaminants-maximum-levels]] |
+| [[regulators/eu-commission\|EU]] | Binding maximum levels in fishery products and molluscs | General crustaceans, molluscs, and muscle meat of fish 500 ug/kg; listed lower-mercury fish 300 ug/kg; listed higher-mercury fish including tuna, shark, swordfish, marlin, halibut, pike, and sturgeon 1000 ug/kg | [[regulations/eu2023-contaminants-maximum-levels]] |
 
 Product interpretation still requires methylmercury caution: total mercury is the compliance analyte for many fish rows, but methylmercury is the primary dietary toxicology driver.
 
@@ -660,9 +660,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

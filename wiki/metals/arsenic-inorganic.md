@@ -6,7 +6,7 @@ name: Arsenic, inorganic
 species: [As3+, As5+]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: high
-sources: 66
+sources: 106
 wiki_doi: null
 updated: 2026-05-02
 status: scaffold
@@ -25,9 +25,9 @@ This page is a scaffold. Regulatory rows for EU 2023/915 and FDA infant rice cer
 
 | Jurisdiction / Body | Type | Value | Page |
 | --- | --- | --- | --- |
-| EU | Binding maximum levels in food | Infant formula powder 20 ug/kg; infant formula liquid 10 ug/kg; baby food 20 ug/kg; fruit juices/nectars 20 ug/kg; rice destined for infant/young-child food 100 ug/kg; non-parboiled milled rice 150 ug/kg; parboiled/husked rice and rice flour 250 ug/kg; rice cakes/crackers/flakes/popped rice 300 ug/kg; non-alcoholic rice-based drinks 30 ug/kg | [[regulations/eu2023-contaminants-maximum-levels]], [[regulations/eu2023-arsenic-rice-based-drinks]] |
-| US FDA | Final guidance action level | Infant rice cereal 100 ug/kg iAs | [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] |
-| US FDA | Final guidance action level | Apple juice 10 ug/kg iAs | [[regulations/fda2023-inorganic-arsenic-apple-juice]] |
+| [[regulators/eu-commission\|EU]] | Binding maximum levels in food | Infant formula powder 20 ug/kg; infant formula liquid 10 ug/kg; baby food 20 ug/kg; fruit juices/nectars 20 ug/kg; rice destined for infant/young-child food 100 ug/kg; non-parboiled milled rice 150 ug/kg; parboiled/husked rice and rice flour 250 ug/kg; rice cakes/crackers/flakes/popped rice 300 ug/kg; non-alcoholic rice-based drinks 30 ug/kg | [[regulations/eu2023-contaminants-maximum-levels]], [[regulations/eu2023-arsenic-rice-based-drinks]] |
+| [[regulators/us-fda\|US FDA]] | Final guidance action level | Infant rice cereal 100 ug/kg iAs | [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] |
+| [[regulators/us-fda\|US FDA]] | Final guidance action level | Apple juice 10 ug/kg iAs | [[regulations/fda2023-inorganic-arsenic-apple-juice]] |
 
 The EU rows are binding maximum levels. The FDA rows are final guidance action levels and should be labeled as such on product pages.
 
@@ -290,9 +290,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [71281e235](https://github.com/paleofoundation/heavymetalindex/commit/71281e235) | 2026-06-11 | fix(corpus): dedup Signes-Pastor 2018 infant-arsenic source pages to one canonical key |
+| [5dab71e60](https://github.com/paleofoundation/heavymetalindex/commit/5dab71e60) | 2026-06-11 | fix(corpus): remove malformed duplicate Signes-Pastor 2018 source page, clearing all 3 awaiting-synthesis legend cells |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->
