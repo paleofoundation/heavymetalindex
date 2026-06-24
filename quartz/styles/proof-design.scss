@@ -29,6 +29,12 @@
 /* cross-reference counts group inside the snav */
 .snav .snav-counts { display: block; }
 
+/* homepage opts out of the 3-col grid: full-width hero, no snav/rail/title */
+.proof-home .snav, .proof-home .rail, .proof-home .page-header { display: none; }
+.proof-home .proof-layout { display: block; }
+.proof-home .proof-main { max-width: var(--maxw); margin: 0 auto; }
+.proof-home .wiki-content { font-size: 16px; }
+
 /* ---------- top nav (white) ---------- */
 .proof .topnav, .topnav.proofnav { background: #fff; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 30; }
 .proofnav .inner { max-width: var(--maxw); margin: 0 auto; padding: 0 40px; height: 68px; display: flex; align-items: center; gap: 30px; }
@@ -119,6 +125,11 @@
 sup.cite { font-size: 11px; line-height: 0; white-space: nowrap; }
 sup.cite > a { color: var(--burg); font-weight: 600; text-decoration: none; background: var(--burg-tint); border-radius: 999px; padding: 1px 6px; font-family: "IBM Plex Mono", monospace; font-size: 10.5px; margin-left: 1px; }
 sup.cite > a:hover { background: var(--burg); color: #fff; }
+sup.cite { position: relative; }
+sup.cite .cite-card { display: none; position: absolute; bottom: 1.7em; left: 50%; transform: translateX(-50%); width: 300px; max-width: 80vw; background: #fff; border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 12px 32px rgba(0, 0, 0, 0.17); padding: 12px 14px; font-size: 12.5px; line-height: 1.5; color: var(--body); font-weight: 400; z-index: 40; text-align: left; white-space: normal; }
+sup.cite .cite-card .au { color: var(--ink); font-weight: 500; display: block; }
+sup.cite .cite-card .go { color: var(--burg); font-weight: 600; display: inline-block; margin-top: 8px; font-size: 12px; }
+sup.cite:hover .cite-card, sup.cite:focus-within .cite-card { display: block; }
 
 .coresec { scroll-margin-top: 24px; }
 section.hmi-evidence-header { background: var(--shade); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin: 0 0 18px; font-size: 13.5px; }

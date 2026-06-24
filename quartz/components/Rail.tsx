@@ -1,4 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+// @ts-ignore — inline script resolved by Quartz's esbuild loader
+import citeScript from "./scripts/citeSuperscript.inline"
 
 // The proof's right rail (.rail): light bordered action buttons + a provenance
 // card. Emits the proof's exact classes so proof.css styles it identically to
@@ -69,5 +71,6 @@ export default (() => {
       </>
     )
   }
+  Rail.afterDOMLoaded = citeScript
   return Rail
 }) satisfies QuartzComponentConstructor

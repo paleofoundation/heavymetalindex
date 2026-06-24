@@ -238,6 +238,9 @@ export function renderPage(
     footer: Footer,
   } = components
   const Body = BodyConstructor()
+  // The homepage carries its own full-bleed hero, so it opts out of the proof's
+  // 3-column grid (no snav/rail) and renders full-width.
+  const isHome = (slug as string) === "index"
 
   const LeftComponent = (
     <div class="left sidebar">
@@ -279,7 +282,7 @@ export function renderPage(
             ))}
           </header>
         )}
-        <div id="quartz-root" class="page proof">
+        <div id="quartz-root" class={isHome ? "page proof proof-home" : "page proof"}>
           <Body {...componentData}>
             <div class="proof-container">
               <div class="proof-layout">
