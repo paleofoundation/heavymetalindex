@@ -187,7 +187,9 @@ article h2 {
   line-height: 1.25;
   letter-spacing: 0;
   color: var(--dark);
-  margin: 2rem 0 0.75rem;
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--lightgray);
 }
 
 article h3 {
@@ -324,27 +326,31 @@ article table a[data-slug^="sources/"]:hover {
 
 article table {
   border-collapse: collapse;
-  font-size: 13px;
-  margin: 0.5rem 0 1.5rem;
+  font-size: 13.5px;
+  margin: 0.75rem 0 1.75rem;
   width: 100%;
 }
 
 article thead th {
-  font-size: 10px;
-  font-weight: 500;
-  color: var(--gray);
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--secondary);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  border-bottom: 1px solid var(--gray);
-  padding: 8px 12px;
+  letter-spacing: 0.05em;
+  padding: 10px 14px;
   text-align: left;
 }
 
 article tbody td {
-  padding: 8px 12px;
+  padding: 9px 14px;
   border-bottom: 1px solid var(--lightgray);
   color: var(--darkgray);
   vertical-align: top;
+}
+
+article tbody tr:last-child td {
+  border-bottom: none;
 }
 
 article tbody td > code:only-child {

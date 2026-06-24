@@ -52,10 +52,20 @@ const primaryNavFilter = (node: { slugSegment: string }) => {
 };
 
 // components shared across all pages
+//
+// `header` is the global TopNav. renderPage.tsx lifts this array into a
+// full-width <header class="hmi-topnav-shell"> OUTSIDE #quartz-root, so it spans
+// the viewport as a sticky bar rather than rendering inside the centered grid.
+//
+// CiteThisPage moved OUT of afterBody and INTO the right rail (see
+// defaultContentPageLayout.right) so the citation/provenance affordance lives in
+// the actions column. RelatedPages ("See also") stays in afterBody — it is the
+// rich in-body lateral-nav block, distinct from the compact left-rail
+// DedicatedPages group.
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
-  afterBody: [Component.Corrections(), Component.RelatedPages(), Component.CiteThisPage()],
+  header: [Component.TopNav()],
+  afterBody: [Component.Corrections(), Component.RelatedPages()],
   footer: Component.Footer(),
 };
 
@@ -75,34 +85,45 @@ export const defaultContentPageLayout: PageLayout = {
     // page is misleading and discouraging rather than informative. The
     // last-updated date is the meta that matters here.
     Component.ContentMeta({ showReadingTime: false }),
-    Component.EvidenceHeader(),
+    // EvidenceHeader + SourceCitationPanel moved to the right rail (actions /
+    // provenance column) below. They no longer render in-body to avoid
+    // duplicate provenance blocks.
     Component.ProductEvidenceSummary(),
     Component.BrandPreScreenTool(),
-    Component.SourceCitationPanel(),
     Component.TagList(),
   ],
+  // Curated left rail (Examine-style): a slim search, the per-page section nav,
+  // and a compact cross-reference count group. The global file-tree Explorer was
+  // removed — it read as a raw dump and undercut the "established reference"
+  // posture; global navigation now lives in the TopNav + Search. PageTitle and
+  // the left-rail AskIndex were removed as duplicates of the TopNav wordmark and
+  // Ask launcher.
   left: [
-    Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
       ],
     }),
-    Component.AskIndex(),
-    Component.Explorer({
-      title: "Index",
-      folderDefaultState: "collapsed",
-      useSavedState: false,
-      filterFn: primaryNavFilter,
-    }),
+    Component.DesktopOnly(Component.TableOfContents({ position: "left" })),
+    Component.DesktopOnly(Component.DedicatedPages()),
   ],
-  right: [Component.DesktopOnly(Component.TableOfContents())],
+  // Right rail = actions / provenance column.
+  //   - EvidenceHeader: the authority/evidence-basis chip (author, metals,
+  //     anchor sources / corpus count) read from frontmatter.
+  //   - CiteThisPage: moved from afterBody so the citation + evidence-packet
+  //     affordance lives in the actions column.
+  //   - Follow: placeholder control (no JS wiring yet) for a future
+  //     update-subscription affordance.
+  //   - SourceCitationPanel: renders only on source pages (self-gates on
+  //     type === "source" / slug startsWith "sources/").
+  right: [
+    Component.DesktopOnly(Component.EvidenceHeader()),
+    Component.DesktopOnly(Component.CiteThisPage()),
+    Component.DesktopOnly(Component.Follow()),
+    Component.DesktopOnly(Component.SourceCitationPanel()),
+  ],
 };
 
 // components for pages that display lists of pages (e.g. tags or folders)
@@ -113,23 +134,12 @@ export const defaultListPageLayout: PageLayout = {
     Component.ContentMeta({ showReadingTime: false }),
   ],
   left: [
-    Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
       ],
-    }),
-    Component.AskIndex(),
-    Component.Explorer({
-      title: "Index",
-      folderDefaultState: "collapsed",
-      useSavedState: false,
-      filterFn: primaryNavFilter,
     }),
   ],
   right: [],

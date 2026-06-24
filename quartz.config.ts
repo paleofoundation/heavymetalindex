@@ -48,11 +48,11 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        // Inter throughout — modern reference register, Answerthis-aligned.
-        // Replaces the Source Serif Pro / Source Sans Pro pairing to match
-        // the sans-throughout brief. IBM Plex Mono retained for data fields,
+        // Lora serif headings + Inter body — the approved Examine-style
+        // register: serif headings read as authoritative reference, Inter body
+        // stays clean and modern. IBM Plex Mono retained for data fields,
         // citation slugs, and code.
-        header: "Inter",
+        header: "Lora",
         body: "Inter",
         code: "IBM Plex Mono",
       },
