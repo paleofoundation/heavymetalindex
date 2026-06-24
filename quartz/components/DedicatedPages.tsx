@@ -107,19 +107,16 @@ export default (() => {
     // Compact cross-reference counts (the Examine "In this …" group): one row
     // per category with a count badge, linking to that category index. The full
     // per-page link list lives in the in-body RelatedPages "See also".
+    const groupLabel = String(mySlug).startsWith("metals/") ? "In this metal" : "Cross-references"
     return (
-      <nav class={displayClass ? `hmi-dedicated ${displayClass}` : "hmi-dedicated"} aria-label="Related pages">
-        <h3 class="hmi-dedicated-title">Cross-references</h3>
-        <ul class="hmi-dedicated-counts">
-          {groups.map((g) => (
-            <li>
-              <a class="hmi-dedicated-count" href={g.indexHref}>
-                <span class="hmi-dedicated-count-label">{g.label}</span>
-                <span class="hmi-dedicated-count-badge">{g.total}</span>
-              </a>
-            </li>
-          ))}
-        </ul>
+      <nav class="snav-counts" aria-label="Cross-references">
+        <div class="navgrouplabel">{groupLabel}</div>
+        {groups.map((g) => (
+          <a class="icon" href={g.indexHref}>
+            <span>{g.label}</span>
+            <span class="navcount">{g.total}</span>
+          </a>
+        ))}
       </nav>
     )
   }

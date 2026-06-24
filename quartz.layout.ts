@@ -98,17 +98,11 @@ export const defaultContentPageLayout: PageLayout = {
   // posture; global navigation now lives in the TopNav + Search. PageTitle and
   // the left-rail AskIndex were removed as duplicates of the TopNav wordmark and
   // Ask launcher.
+  // Proof's curated .snav: section accordion + icon utility links + cross-ref
+  // counts. Search + dark mode live in the TopNav (proof model).
   left: [
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        { Component: Component.Search(), grow: true },
-        { Component: Component.Darkmode() },
-      ],
-    }),
-    Component.DesktopOnly(Component.TableOfContents({ position: "left" })),
-    Component.DesktopOnly(Component.LeftNavUtilities()),
-    Component.DesktopOnly(Component.DedicatedPages()),
+    Component.Snav(),
+    Component.DedicatedPages(),
   ],
   // Right rail = actions / provenance column.
   //   - EvidenceHeader: the authority/evidence-basis chip (author, metals,
@@ -119,10 +113,9 @@ export const defaultContentPageLayout: PageLayout = {
   //     update-subscription affordance.
   //   - SourceCitationPanel: renders only on source pages (self-gates on
   //     type === "source" / slug startsWith "sources/").
+  // Proof's .rail: light action buttons + provenance card.
   right: [
-    Component.DesktopOnly(Component.EvidenceHeader()),
-    Component.DesktopOnly(Component.CiteThisPage()),
-    Component.DesktopOnly(Component.Follow()),
+    Component.Rail(),
     Component.DesktopOnly(Component.SourceCitationPanel()),
   ],
 };

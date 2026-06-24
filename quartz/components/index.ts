@@ -36,6 +36,8 @@ import DedicatedPages from "./DedicatedPages"
 import ExplorerControls from "./ExplorerControls"
 import Follow from "./Follow"
 import LeftNavUtilities from "./LeftNavUtilities"
+import Snav from "./Snav"
+import Rail from "./Rail"
 
 export {
   ArticleTitle,
@@ -76,4 +78,6 @@ export {
   ExplorerControls,
   Follow,
   LeftNavUtilities,
+  Snav,
+  Rail,
 }

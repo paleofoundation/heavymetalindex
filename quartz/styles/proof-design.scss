@@ -16,6 +16,19 @@
   --radius: 10px; --radius-lg: 14px; --maxw: 1480px;
 }
 
+/* the proof grid owns layout — free .page's width + neutralise the base grid */
+.page.proof { max-width: none; padding: 0; }
+.page.proof > #quartz-body { display: block; max-width: none; }
+.snav .snav-further { margin-bottom: 4px; }
+.snav .snav-further > summary { list-style: none; }
+.snav .snav-further > summary::-webkit-details-marker { display: none; }
+.snav .snav-further[open] > summary.sec { background: var(--burg-tint); color: var(--burg); }
+/* H3 sub-sections stay hidden until their section is active (the proof's clean nav) */
+.snav .grp:not(.snav-further) > a.sub { display: none; }
+.snav .grp:not(.snav-further):has(.in-view) > a.sub { display: block; }
+/* cross-reference counts group inside the snav */
+.snav .snav-counts { display: block; }
+
 /* ---------- top nav (white) ---------- */
 .proof .topnav, .topnav.proofnav { background: #fff; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 30; }
 .proofnav .inner { max-width: var(--maxw); margin: 0 auto; padding: 0 40px; height: 68px; display: flex; align-items: center; gap: 30px; }

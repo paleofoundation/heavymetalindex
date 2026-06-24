@@ -279,28 +279,37 @@ export function renderPage(
             ))}
           </header>
         )}
-        <div id="quartz-root" class="page">
+        <div id="quartz-root" class="page proof">
           <Body {...componentData}>
-            {LeftComponent}
-            <main class="center" id="main-content" tabindex={-1}>
-              <div class="page-header">
-                <div class="popover-hint">
-                  {beforeBody.map((BodyComponent) => (
+            <div class="proof-container">
+              <div class="proof-layout">
+                <aside class="snav">
+                  {left.map((BodyComponent) => (
                     <BodyComponent {...componentData} />
                   ))}
-                </div>
+                </aside>
+                <main class="proof-main" id="main-content" tabindex={-1}>
+                  <div class="page-header popover-hint">
+                    {beforeBody.map((BodyComponent) => (
+                      <BodyComponent {...componentData} />
+                    ))}
+                  </div>
+                  <div class="wiki-content">
+                    <Content {...componentData} />
+                  </div>
+                  <div class="page-footer">
+                    {afterBody.map((BodyComponent) => (
+                      <BodyComponent {...componentData} />
+                    ))}
+                  </div>
+                </main>
+                <aside class="rail">
+                  {right.map((BodyComponent) => (
+                    <BodyComponent {...componentData} />
+                  ))}
+                </aside>
               </div>
-              <div class="wiki-content">
-                <Content {...componentData} />
-              </div>
-              <hr />
-              <div class="page-footer">
-                {afterBody.map((BodyComponent) => (
-                  <BodyComponent {...componentData} />
-                ))}
-              </div>
-            </main>
-            {RightComponent}
+            </div>
           </Body>
         </div>
         <Footer {...componentData} />
