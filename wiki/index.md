@@ -5,21 +5,6 @@ audience: [regulator, educator, consumer, researcher]
 updated: 2026-04-30
 ---
 
-<nav class="hmi-home-nav" aria-label="Home">
-  <a class="hmi-home-brand" href="/">Heavy Metal Index</a>
-  <div class="hmi-home-navlinks">
-    <a href="products/">Products</a>
-    <a href="ingredients/">Ingredients</a>
-    <a href="metals/">Metals</a>
-    <a href="mitigation/">Mitigation</a>
-    <a href="supply-chain/">Supply chain</a>
-    <a href="regulations/">Regulations</a>
-    <a href="regulators/">Regulatory bodies</a>
-    <a href="synthesis/">Synthesis</a>
-    <a href="sources/">Sources</a>
-  </div>
-</nav>
-
 <section class="hmi-home-hero">
   <div class="hmi-home-hero-copy">
     <div class="hmi-home-kicker">Public evidence index</div>

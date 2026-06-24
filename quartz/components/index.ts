@@ -31,6 +31,11 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
+import TopNav from "./TopNav"
+import DedicatedPages from "./DedicatedPages"
+import ExplorerControls from "./ExplorerControls"
+import Follow from "./Follow"
+import LeftNavUtilities from "./LeftNavUtilities"
 
 export {
   ArticleTitle,
@@ -66,4 +71,9 @@ export {
   Comments,
   Flex,
   ConditionalRender,
+  TopNav,
+  DedicatedPages,
+  ExplorerControls,
+  Follow,
+  LeftNavUtilities,
 }

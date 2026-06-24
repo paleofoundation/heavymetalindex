@@ -107,6 +107,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.DesktopOnly(Component.TableOfContents({ position: "left" })),
+    Component.DesktopOnly(Component.LeftNavUtilities()),
     Component.DesktopOnly(Component.DedicatedPages()),
   ],
   // Right rail = actions / provenance column.

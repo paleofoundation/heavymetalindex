@@ -1,0 +1,297 @@
+@use "sass:map";
+@use "../../styles/variables.scss" as *;
+
+// Global full-width sticky top bar.
+//
+// The OUTER shell (.hmi-topnav-shell) is emitted by renderPage.tsx as a
+// <header> that is a direct child of <body>, OUTSIDE #quartz-root, so it is
+// NOT constrained by .page's max-width and spans the full viewport. The bar's
+// own content is re-centered to the same max-width as .page via
+// .hmi-topnav-inner, so the wordmark lines up with the left sidebar and the
+// controls line up with the right sidebar.
+
+.hmi-topnav-shell {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--lightgray);
+  // Match the dark theme: keep the bar readable when the page flips to dark.
+  // White stays intentional (brief calls for a white bar), but the hairline
+  // and text tokens come from theme vars so it never goes invisible.
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+[saved-theme="dark"] .hmi-topnav-shell {
+  background-color: #ffffff;
+}
+
+.hmi-topnav {
+  width: 100%;
+}
+
+.hmi-topnav-inner {
+  max-width: calc(#{map.get($breakpoints, desktop)} + 300px);
+  margin: 0 auto;
+  padding: 0.55rem 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+
+  @media all and not ($desktop) {
+    padding: 0.55rem 1rem;
+  }
+}
+
+// ---- Wordmark + operator sub-line --------------------------------------
+.hmi-topnav-brand {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  line-height: 1.1;
+  background-color: transparent !important; // override a.internal highlight
+  padding: 0;
+
+  &:hover .hmi-topnav-wordmark {
+    color: var(--secondary);
+  }
+
+  // Clean focus: no default browser box on click; a tidy burgundy ring only on
+  // keyboard navigation.
+  &:focus {
+    outline: none;
+  }
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 4px;
+    border-radius: 4px;
+  }
+}
+
+.hmi-topnav-wordmark {
+  font-family: var(--titleFont, var(--headerFont));
+  font-size: 1.15rem;
+  font-weight: $boldWeight;
+  color: #1a1a1a;
+  letter-spacing: -0.01em;
+  transition: color 0.2s ease;
+}
+
+.hmi-topnav-operator {
+  font-family: var(--bodyFont);
+  font-size: 0.7rem;
+  font-weight: $normalWeight;
+  color: #6b6b6b;
+  margin-top: 0.1rem;
+}
+
+// ---- Menu (taxonomy + controls) ----------------------------------------
+.hmi-topnav-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  gap: 1.5rem;
+}
+
+.hmi-topnav-taxonomy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.hmi-topnav-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hmi-topnav-link,
+.hmi-topnav-utility {
+  font-family: var(--headerFont);
+  font-size: 0.92rem;
+  font-weight: $semiBoldWeight;
+  color: #333333;
+  background-color: transparent;
+  padding: 0.2rem 0;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
+
+  &:hover {
+    color: var(--secondary);
+  }
+
+  &.active {
+    color: var(--secondary);
+    border-bottom-color: var(--secondary);
+  }
+}
+
+.hmi-topnav-utility {
+  font-weight: $normalWeight;
+  color: #6b6b6b;
+}
+
+// "Ask the Index" pill launcher.
+.hmi-topnav-ask {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--headerFont);
+  font-size: 0.88rem;
+  font-weight: $semiBoldWeight;
+  color: #ffffff;
+  background-color: var(--secondary);
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+
+  & svg {
+    stroke: #ffffff;
+  }
+
+  &:hover {
+    color: #ffffff;
+    background-color: var(--tertiary);
+    & svg {
+      stroke: #ffffff;
+    }
+  }
+}
+
+// ---- Mobile burger ------------------------------------------------------
+.hmi-topnav-burger {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333333;
+  padding: 0.25rem;
+  margin-left: auto;
+}
+
+// Tablet + mobile: collapse the menu behind the burger.
+// ---- Grid spacing reconciliation ---------------------------------------
+// The original layout reserved $topSpacing (6rem) at the top of the sidebars
+// and page-header to clear the old in-flow header. With the header lifted to a
+// sticky full-width bar, that reservation becomes a dead gap and the sticky
+// sidebars would scroll UNDER the bar. Scope these corrections to pages that
+// actually render the bar (body:has(.hmi-topnav-shell)) so nothing else moves.
+//
+// $topSpacing is 6rem and the bar is ~3.5rem tall; we drop the reserved space
+// to a small breathing gap and offset the sticky sidebars by the bar height so
+// they pin just beneath it.
+$hmi-topnav-height: 3.6rem;
+
+body:has(.hmi-topnav-shell) {
+  & .page > #quartz-body {
+    & .sidebar {
+      padding-top: 1.5rem;
+      top: $hmi-topnav-height;
+      height: calc(100vh - #{$hmi-topnav-height});
+    }
+
+    // When the left rail's content genuinely exceeds the viewport (content-heavy
+    // metals pages with many sections), let it scroll on its own with a thin,
+    // unobtrusive scrollbar so the icon-nav + counts stay reachable. Normal-length
+    // pages (regulators, ingredients) fit and never show a scrollbar.
+    & .sidebar.left {
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--lightgray) transparent;
+
+      &::-webkit-scrollbar {
+        width: 7px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: var(--lightgray);
+        border-radius: 4px;
+      }
+    }
+
+    & .page-header {
+      margin-top: 1.25rem;
+    }
+
+    @media all and ($mobile) {
+      & .sidebar.left {
+        top: 0;
+        height: unset;
+        padding-top: 1rem;
+      }
+      & .page-header {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
+
+@media all and not ($desktop) {
+  .hmi-topnav-burger {
+    display: inline-flex;
+  }
+
+  .hmi-topnav-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid var(--lightgray);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    padding: 0.5rem 1rem 1rem 1rem;
+
+    &.open {
+      display: flex;
+    }
+  }
+
+  .hmi-topnav-inner {
+    position: relative;
+    flex-wrap: wrap;
+  }
+
+  .hmi-topnav-taxonomy,
+  .hmi-topnav-controls {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    width: 100%;
+  }
+
+  .hmi-topnav-taxonomy {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--lightgray);
+    margin-bottom: 0.5rem;
+  }
+
+  .hmi-topnav-link {
+    width: 100%;
+    padding: 0.5rem 0;
+    border-bottom: none;
+    &.active {
+      border-bottom: none;
+    }
+  }
+
+  .hmi-topnav-ask {
+    align-self: flex-start;
+  }
+}
