@@ -79,5 +79,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1eb1ebb](https://github.com/paleofoundation/heavymetalindex/commit/1eb1ebb) | 2026-06-08 | ingest: copat2013-mediterranean-fish-shellfish-metals fresh from MFK/June 8 New Folder With Items 4 2 |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [1eb1ebb54](https://github.com/paleofoundation/heavymetalindex/commit/1eb1ebb54) | 2026-06-08 | ingest: copat2013-mediterranean-fish-shellfish-metals fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->

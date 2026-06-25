@@ -138,6 +138,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [6b2d57e](https://github.com/paleofoundation/heavymetalindex/commit/6b2d57e) | 2026-06-08 | audit: peng2023-al-fluoride-tea-stress promoted |
-| [0e3900b](https://github.com/paleofoundation/heavymetalindex/commit/0e3900b) | 2026-06-08 | ingest: peng2023-al-fluoride-tea-stress fresh from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [6b2d57e3e](https://github.com/paleofoundation/heavymetalindex/commit/6b2d57e3e) | 2026-06-08 | audit: peng2023-al-fluoride-tea-stress promoted |
+| [0e3900bb2](https://github.com/paleofoundation/heavymetalindex/commit/0e3900bb2) | 2026-06-08 | ingest: peng2023-al-fluoride-tea-stress fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

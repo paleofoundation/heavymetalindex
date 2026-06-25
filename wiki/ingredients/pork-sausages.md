@@ -10,14 +10,14 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 4.4]
     p95_ppb: 4.9
-    confidence: medium
+    confidence: high
     n_studies: 3
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0.7
-    confidence: medium
+    confidence: high
     n_studies: 3
     last_reviewed: 2026-05-13
   iAs:
@@ -29,25 +29,30 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 28]
+    p95_ppb: null
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: cooked-pork-sausage-composite-wet-weight
+    speciation: total-As-only
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 7]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-06-11
+    basis: cooked-pork-sausage-composite-wet-weight
+    speciation: total-Hg-only
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 43]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: cooked-pork-sausage-composite-wet-weight
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -57,11 +62,13 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, null]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: cooked-pork-sausage-composite-wet-weight
+    speciation: total-Cr-only
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -73,7 +80,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 1.3]
     p95_ppb: 1.6
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -82,7 +89,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 2
 ---
 
@@ -96,17 +103,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=19 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=14 | consumption tier unset; depth bar uncheckable |
 | D2 Regional coverage | below-tier | 1 jurisdictions, top RO 100% | only 1 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, tAs THIN, tHg CONFIDENT, Ni CONFIDENT, Cr CONFIDENT, U THIN | tAs: needs 1 more study(ies); U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 2 more study(ies); Cr: needs 2 more study(ies); U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 4 claims checked, 4 supported; 2 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming pork-sausages: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
+| D7 Basis declaration | GAP | 4/10 populated cells declare a basis token | 6 populated cell(s) lack a basis token: Pb, Cd, iAs, Al, Sn, U |
+| D8 Provenance integrity | GAP | 20 claims checked, 20 supported; 4 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming pork-sausages: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020, zhang2022-pork-heavy-metals-china |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | tAs: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 2 more study(ies); Cr: THIN, needs 2 more study(ies); U: THIN, needs 1 more study(ies); basis: 6 populated cell(s) lack a basis token: Pb, Cd, iAs, Al, Sn, U; consumption tier unset (depth bar uncheckable) |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -130,16 +137,30 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0–4.4 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Pb | n=3 | 0–4.4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=3 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — |
-| tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=2 | 0–28 | low | [[sources/zhang2022-pork-heavy-metals-china\|3]], [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0–7 | low | [[sources/zhang2022-pork-heavy-metals-china\|3]], [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=1 | 0–43 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
-| Cr | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — |
-| U | n=2 | 0–1.3 | low | — |
+| U | n=2 | 0–1.3 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The total-arsenic, total-mercury, nickel, and chromium cells were resynthesized on 2026-06-11 in the page's native basis, the cooked pork-sausage composite as placed on the table (pan-cooked link or patty, wet weight), the form FDA reports for this matrix. Values below the analytical reporting limit are treated as left-censored bounds, not as measured zeros.
+
+The earlier profile reported all four of these analytes at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Pork sausage (link/patty), pan-cooked" (n=27), in which every sample (or all but one, for nickel) fell below the reporting limit and the below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limits total arsenic 3, total mercury 1, nickel 40, total chromium 50 µg/kg). The resynthesis replaces the literal zeros with left-censored floors and folds in the one non-FDA occurrence anchor available for pork, so each of the four cells now exposes a non-zero understanding rather than a measured zero.
+
+Total arsenic rests on the FDA fully-censored floor (all 27 composites below the 3 µg/kg reporting limit, carried as "<3") together with the secondary China-market pork aggregate of Zhang et al. 2022 ([[sources/zhang2022-pork-heavy-metals-china|Zhang et al. 2022]], fitted total-arsenic concentration in pork of 0.028 mg/kg = 28 µg/kg, drawn from 26 published concentration records). The 28 µg/kg upper anchor is a broader-pork fitted central, not a pork-sausage-specific value and not a distribution, so it is carried as the typical upper bound at low confidence; no 95th-percentile value is published, because the FDA distribution is fully censored and the Zhang figure is a single fitted central rather than an ordered set. Total arsenic and inorganic arsenic are kept as distinct analytes; no speciated measurement exists for this commodity, so the inorganic-arsenic cell remains a reviewed data gap and total arsenic is not promoted to inorganic arsenic.
+
+Total mercury rests on the same two sources: the FDA fully-censored floor (all 27 composites below the 1 µg/kg reporting limit, carried as "<1") and the Zhang et al. 2022 China-market pork aggregate (fitted total-mercury concentration 0.007 mg/kg = 7 µg/kg, from 22 records). As with arsenic, the 7 µg/kg upper anchor is a broader-pork fitted central rather than a sausage-specific distribution, so it is the low-confidence typical upper bound and no 95th-percentile is computed. Total mercury is held distinct from methylmercury and is not derived from it.
+
+Nickel rests on the FDA composite alone: 26 of 27 samples fell below the 40 µg/kg reporting limit and a single sample (2019 summer, West region) returned a detect of 43 µg/kg. The honest reading is a left-censored floor of "<40" with one detected value at 43 µg/kg; the FDA distribution's own 90th and 95th percentiles remain zero because the lone detect sits at the maximum rather than in the upper-percentile band. The typical range is therefore carried as the censored floor up to the single 43 µg/kg detect, at low confidence, with no published 95th-percentile value and no second source for the commodity. The earlier zero is replaced because nickel is demonstrably not absent: one composite detected it above the reporting limit.
+
+Chromium is reported as total chromium at low confidence. Every one of the 27 FDA composites fell below the 50 µg/kg total-chromium reporting limit, so the only defensible value is a left-censored floor of "<50"; no positive total-chromium occurrence value exists for pork sausage in the corpus, and the upper typical bound and 95th-percentile are left null rather than inferred. No fluid hexavalent-chromium measurement exists for this commodity, so no Cr-VI value is inferred. The only chromium-speciation evidence routed to pork is Ren et al. 2018 ([[sources/ren2018-crvi-pork-electron-beam|Ren et al. 2018]]), a laboratory electron-beam mitigation study in which lean, marbled, and fat pork were deliberately spiked with potassium dichromate to 150-250 ppm Cr(VI); it establishes that Cr(VI) adsorbs to pork tissue in a protein-dependent manner (fat pork carrying 80-85 percent of total Cr(VI) as free, lean pork only 2-4 percent) but provides no naturally occurring concentration, so it substantiates the total-Cr-only, no-Cr-VI-occurrence reading without populating a number.
 
 ## Routing
 
@@ -147,13 +168,13 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 
 Pork sausage metal concentrations vary primarily as a function of formulation (the proportion of organ meat, the type of cereal filler, and the rusk Cd level) rather than geographic production origin. UK sausage formulations, which typically include higher rusk proportions than some continental European equivalents, may carry slightly higher Cd from the wheat filler fraction when UK wheat rusk is derived from higher-Cd durum or harder wheat varieties. The FSA/Fera 2016 survey ([[sources/fsa2016-infant-food-formula-metals-survey]]) includes pork sausages as a UK retail composite, providing one occurrence reference point. No multi-country comparative dataset for pork sausage metal concentrations is available in the current corpus.
 
-The FDA TDS FY2018-FY2020 dataset includes a pork sausage (link/patty, pan-cooked) entry (TDS Food 19, n=27) that shows Pb ranging up to a maximum of 4.9 ppb and Cd predominantly at zero with low-level detection in some market samples, reflecting US market sausages where wheat rusk may not be present in all formulations and organ-meat inclusion is less common than in UK sausages ([[sources/fda2022-tds-elements-fy2018-fy2020]]).
+The FDA TDS FY2018-FY2020 dataset includes a pork sausage (link/patty, pan-cooked) entry (TDS Food 19, n=27) that shows Pb at a 90th percentile of 4.38 ppb (max 4.9 ppb) and Cd predominantly at zero (p95 of 0.7 ppb), reflecting US market sausages where wheat rusk may not be present in all formulations and organ-meat inclusion is less common than in UK sausages ([[sources/fda2022-tds-elements-fy2018-fy2020]]).
 
 ## Processing effects
 
@@ -206,15 +227,15 @@ FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix 
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Pork sausage (link/patty), pan-cooked" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 1.3 | in profile |
-| Cr | 27 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 43 | in profile |
-| Pb | 27 | 0 | 4.9 | in profile |
-| U | 27 | 0 | 1.9 | in profile |
-| tAs | 27 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 0 | 0 | 0 | 0.7 | 1.3 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 0 | 0 | 0 | 0 | 43 | in profile |
+| Pb | 27 | 0 | 0 | 0 | 4.38 | 4.87 | 4.9 | in profile |
+| U | 27 | 0 | 0 | 0 | 1.3 | 1.65 | 1.9 | in profile |
+| tAs | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
@@ -225,7 +246,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Pork sausage (link/patty), pan-cooked (n=27); detectable concentrations for Cd, Ni, Pb, U |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Pork sausage (link/patty), pan-cooked (n=27); detectable concentrations for Cd, Ni (one 43 µg/kg detect), Pb, U; left-censored floors for tAs (<3), tHg (<1), Ni (<40), Cr (<50) |
 | 2 | [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|Hoha et al. 2014]]. *Heavy metals contamination levels in processed meat marketed in Romania*, Environmental Engineering and Management Journal | 2014 | Peer-reviewed | RO Pb, Cd, Cu, Zn occurrence in Bacon (n=6), ham (n=6), sausage (n=12), and salami (n=12) purchased from four commercial centers in Iasi, Romania; produced... (n=36) |
 <!-- END: hmi-source-legend -->
 
@@ -236,9 +257,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 2 — 10 dairy/meat/grapefruit pages / 59 cells |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 <!-- END: hmi-page-history -->

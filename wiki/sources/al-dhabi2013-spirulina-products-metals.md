@@ -79,3 +79,13 @@ This source adds a small, original occurrence dataset for algae-based dietary su
 - Speciation check: Hg is not speciated and is recorded as tHg. The paper does not report MeHg, inorganic mercury, arsenic, cadmium, lead, or chromium data.
 - Brand firewall: Table 1 lists product codes, manufacturers, and countries of origin, but this page does not reproduce brand/manufacturer names or attach contamination values to product codes. Values are summarized at the Spirulina supplement category level.
 - Missing-slug note: the taxonomy snapshot has no exact `spirulina` ingredient slug. Following the existing Spirulina/Chlorella source-page convention, `ingredients: []` is left blank while products route to algae/seaweed supplements and dietary-supplement oral solid rows.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3bb71fce4](https://github.com/paleofoundation/heavymetalindex/commit/3bb71fce4) | 2026-06-09 | ingest: al-dhabi2013-spirulina-products-metals fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

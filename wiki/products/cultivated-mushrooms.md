@@ -18,7 +18,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: none
-sources: 0
+sources: 2
 wiki_doi: null
 updated: 2026-06-09
 ---
@@ -42,3 +42,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 2 | [[sources/jasinska2019-mushroom-cadmium\|Jasińska et al. 2019]]. *Relationship between zinc and cadmium contents and cultivating conditions of gourmet and medicinal mushroom Agaricus subrufescens*, International Journal of Horticultural Science | 2019 | Peer-reviewed | PL Cd, Zn occurrence in Agaricus subrufescens cultivated on four mushroom composts (food waste digestate 10/20/30/40 % by dry matter) over five harvest... (n=20) |
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [55f6bded4](https://github.com/paleofoundation/heavymetalindex/commit/55f6bded4) | 2026-06-09 | reorg(taxonomy-v2.2): Phase A pages — re-home Cat 4 families to Cat 27/28/29 |
+| [c794d6b50](https://github.com/paleofoundation/heavymetalindex/commit/c794d6b50) | 2026-06-08 | reorg(taxonomy-v2.1): stand up cats 24/25/26 + mushrooms/jewelry rows |
+<!-- END: hmi-page-history -->

@@ -14,14 +14,14 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 4.0]
     p95_ppb: 4.2
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0, 4.5]
     p95_ppb: 5.9
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -35,21 +35,24 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 3.1]
     p95_ppb: 3.3
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 7]
+    p95_ppb: 7
     confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 4
+    last_reviewed: 2026-06-11
+    basis: pork-bacon-oven-cooked-wet-weight
+    speciation: total-Hg-only
+    note: "Bacon-specific FDA TDS (n=27) fully below 1 µg/kg reporting limit; upper bound is a pork-muscle proxy (Zhang2022 China-market fitted central 7 µg/kg, basis unstated), not a bacon measurement."
   Ni:
     status: populated
     typical_ppb: [0, 16.4]
     p95_ppb: 50.8
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -63,7 +66,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 40]
     p95_ppb: 240
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Sn:
@@ -77,7 +80,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 3.2]
     p95_ppb: 4.9
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -86,7 +89,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 3
 ---
 
@@ -100,17 +103,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=14 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=16 | consumption tier unset; depth bar uncheckable |
 | D2 Regional coverage | below-tier | 2 jurisdictions, top RO 50% | only 2 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: THIN; Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 4 claims checked, 4 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming pork-bacon: fda2022-tds-elements-fy2018-fy2020 |
+| D7 Basis declaration | GAP | 1/10 populated cells declare a basis token | 9 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, Ni, Al, Cr, Sn, U |
+| D8 Provenance integrity | GAP | 12 claims checked, 12 supported; 6 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming pork-bacon: fda2022-tds-elements-fy2018-fy2020, zhang2022-pork-heavy-metals-china, dibella2020-augusta-meat-milk-seafood-metals |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN; Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 9 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -122,9 +125,9 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Pork bacon is produced from pork belly (subcutaneous fat and underlying muscle from the ventral trunk), cured with salt, nitrites, and often additional flavourings, then typically smoked and sliced. The heavy metal profile of pork bacon reflects the general characteristics of pork muscle and adipose tissue, which are low in cadmium, lead, and mercury relative to organ tissues (kidney, liver) because these metals do not bioaccumulate efficiently in mammalian muscle or fat. Cadmium in mammals concentrates preferentially in the renal cortex and, to a lesser extent, the liver; skeletal muscle and adipose tissue carry Cd at concentrations generally an order of magnitude lower than kidney.
 
-Pigs accumulate metals primarily through dietary intake and, in outdoor production systems, through soil ingestion. Commercial swine production relies on formulated compound feed, and feed Cd levels are regulated in the EU and by Codex to limit accumulation in edible tissues. Lead in pork muscle is low because Pb distributes primarily to bone rather than soft tissue after intestinal absorption. Total mercury in pork is very low because terrestrial livestock are not exposed to methylmercury, the marine-origin form that bioaccumulates in fish; the tHg detected in pork represents inorganic Hg from feed and environmental background at trace levels.
+Pigs accumulate metals primarily through dietary intake and, in outdoor production systems, through soil ingestion. Commercial swine production relies on formulated compound feed, and feed Cd levels are regulated in the EU and by Codex to limit accumulation in edible tissues. Lead in pork muscle is low because Pb distributes primarily to bone rather than soft tissue after intestinal absorption. Total mercury in pork is low because terrestrial livestock are not exposed to methylmercury, the marine-origin form that bioaccumulates in fish; the tHg detected in pork represents inorganic Hg from feed and environmental background at low levels. The bacon-specific FDA Total Diet Study composite (TDS Food 20, n=27) fell below the 1 µg/kg reporting limit in every sample, so the bacon-direct floor is a left-censored bound rather than a measured zero. The low but non-zero pork-muscle central used here is carried as a same-species proxy (see the Synthesis basis and censoring treatment section), because no bacon-specific positive total-mercury measurement exists in the corpus.
 
-The curing process (salt and nitrite immersion or dry application) introduces no significant metals. Smoking introduces polycyclic aromatic hydrocarbons but does not add lead, cadmium, or mercury at analytically significant concentrations. The FDA TDS FY2018-FY2020 data for oven-cooked pork bacon (TDS Food 20, n=27) shows Cd, Pb, and most other analytes predominantly at or near zero in the flesh, with some Cr and Ni detectable in the upper part of the distribution, consistent with the expected low-accumulation profile of pork muscle and fat tissue.
+The curing process (salt and nitrite immersion or dry application) introduces no significant metals. Smoking introduces polycyclic aromatic hydrocarbons but does not add lead, cadmium, or mercury at analytically significant concentrations. The FDA TDS FY2018-FY2020 data for oven-cooked pork bacon (TDS Food 20, n=27) shows Cd, Pb, and most other analytes predominantly at or near zero in the flesh, with some Cr detections at the p90 (40 ppb) and Ni at the p90 (16 ppb), consistent with the expected low-accumulation profile of pork muscle and fat tissue. For total mercury specifically, all 27 bacon composites fell below the 1 µg/kg reporting limit, so the bacon-direct values are fully left-censored and the upper bound carried in the profile is a pork-muscle proxy rather than a bacon measurement.
 
 ## Heavy metal contamination profile
 
@@ -132,20 +135,28 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=2 | 0–4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 0–4.5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Pb | n=2 | 0–4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 0–4.5 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — |
-| tAs | n=2 | 0–3.1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 0–16.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=2 | 0–3.1 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=4 | 0–7 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/zhang2022-pork-heavy-metals-china\|Zhang 2022]], [[sources/dibella2020-augusta-meat-milk-seafood-metals\|Di Bella 2020]] |
+| Ni | n=2 | 0–16.4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
-| Cr | n=2 | 0–40 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=2 | 0–40 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — |
-| U | n=2 | 0–3.2 | low | — |
+| U | n=2 | 0–3.2 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The total-mercury cell was resynthesized on 2026-06-11 on a pork-bacon (oven-cooked) wet-weight basis. The earlier profile reported tHg at typical and 95th-percentile values of zero at high confidence with two contributing studies. Both figures were defects. The literal zeros were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Pork bacon, oven-cooked" (n=27), in which all 27 samples fell below the 1 µg/kg mercury reporting limit and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]]). The study count of two was also unsupported: the two non-FDA sources routed to this page, [[sources/hoha2014-pork-pb-cd-cu-zn-romania|Hoha et al. 2014]] (Romanian bacon, Pb/Cd/Cu/Zn only) and [[sources/ren2018-crvi-pork-electron-beam|Ren et al. 2018]] (a Cr(VI) electron-beam mitigation experiment), do not measure mercury at all, so the FDA composite was the only bacon-specific mercury source.
+
+No bacon-specific positive total-mercury value exists in the corpus. The honest bacon-direct floor is the FDA reporting limit expressed as a left-censored bound (reported as "<1"), not a measured zero. The non-zero upper bound carried in the profile is a same-species pork-muscle proxy and is labelled as such: Zhang et al. 2022 ([[sources/zhang2022-pork-heavy-metals-china|Zhang et al. 2022]]) aggregated 22 Chinese published pork mercury records and fitted a central pork concentration of 0.007 mg/kg (7 µg/kg); the wet-versus-dry basis is not exposed in the source, so this value is carried as a low-confidence proxy rather than a basis-matched bacon measurement. Two further pork surveys corroborate the low picture without adding a positive value: Di Bella et al. 2020 ([[sources/dibella2020-augusta-meat-milk-seafood-metals|Di Bella et al. 2020]]) reported pork mercury below the limit of detection in an industrial-impacted area of southern Italy, and Maikanov et al. 2021 ([[sources/maikanov2021-meats-shuchinsk-burabay-metals|Maikanov et al. 2021]]) reported all 67 Kazakhstan pork samples below detection for mercury. The cell is therefore typical 0–7 µg/kg, 95th percentile 7 µg/kg, at low confidence over four contributing sources (one bacon-direct, fully censored; one positive pork-muscle proxy; two censored pork surveys).
+
+Total mercury is held distinct from methylmercury and is not derived from it; only total-mercury measurements populate this cell. The pork-muscle proxy is a cross-preparation (muscle versus cured belly), same-species substitution made explicit here so it is not mistaken for a bacon-specific occurrence value; it should be replaced as soon as a bacon-specific positive mercury measurement is ingested.
 
 ## Ranges by source, region, and variety
 
-Pork bacon Cd and Pb concentrations are consistently low across production regions in US and European monitoring data because the relevant factors (feed Cd content and tissue distribution dynamics) are controlled by feed regulation and veterinary practice rather than by pork-producing country geography. Organic and free-range production, where pigs may have greater soil ingestion, could theoretically elevate Cd slightly relative to intensive indoor production, but this difference has not been quantified at commercially relevant levels in the current corpus. US market pork bacon as measured by the FDA TDS FY2018-FY2020 dataset (n=27) shows predominantly non-detect values for Cd, Pb, and Hg in the oven-cooked form, with sporadic Cr and Ni detections that may reflect sampling or analytical variability ([[sources/fda2022-tds-elements-fy2018-fy2020]]).
+Pork bacon Cd and Pb concentrations are consistently low across production regions in US and European monitoring data because the relevant factors (feed Cd content and tissue distribution dynamics) are controlled by feed regulation and veterinary practice rather than by pork-producing country geography. Organic and free-range production, where pigs may have greater soil ingestion, could theoretically elevate Cd slightly relative to intensive indoor production, but this difference has not been quantified at commercially relevant levels in the current corpus. US market pork bacon as measured by the FDA TDS FY2018-FY2020 dataset (n=27) shows predominantly non-detect values for Cd, Pb, and Hg in the oven-cooked form, with sporadic Cr and Ni detections that may reflect sampling or analytical variability ([[sources/fda2022-tds-elements-fy2018-fy2020]]). For total mercury, all 27 bacon composites fell below the 1 µg/kg reporting limit and are carried as left-censored bounds rather than measured zeros; the low non-zero central in the profile is a same-species pork-muscle proxy, detailed in the Synthesis basis and censoring treatment section.
 
 ## Processing effects
 
@@ -197,7 +208,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -206,15 +217,15 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Pork bacon, oven-cooked" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 11 | in profile |
-| Cr | 27 | 0 | 400 | in profile |
-| Ni | 27 | 0 | 90 | in profile |
-| Pb | 27 | 0 | 4.7 | in profile |
-| U | 27 | 0 | 7.4 | in profile |
-| tAs | 27 | 0 | 3.8 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 0 | 1 | 4.54 | 5.92 | 11 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 40 | 240 | 400 | in profile |
+| Ni | 27 | 0 | 0 | 0 | 16.4 | 50.8 | 90 | in profile |
+| Pb | 27 | 0 | 0 | 0 | 4.04 | 4.17 | 4.7 | in profile |
+| U | 27 | 0 | 0 | 0 | 3.2 | 4.92 | 7.4 | in profile |
+| tAs | 27 | 0 | 0 | 0 | 3.14 | 3.34 | 3.8 | in profile |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
@@ -237,9 +248,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
+| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 4 (final) — 21 pages / 42 cells; backlog now ZERO |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->

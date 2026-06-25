@@ -92,5 +92,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [ce8e5d5](https://github.com/paleofoundation/heavymetalindex/commit/ce8e5d5) | 2026-06-08 | ingest: simionov2023-danube-fish-seafood-pte-microplastics fresh from MFK/June 8 New Folder With Items 3 2 |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [ce8e5d59f](https://github.com/paleofoundation/heavymetalindex/commit/ce8e5d59f) | 2026-06-08 | ingest: simionov2023-danube-fish-seafood-pte-microplastics fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

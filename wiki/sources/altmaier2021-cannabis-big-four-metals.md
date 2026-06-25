@@ -81,3 +81,13 @@ The paper provides limited occurrence context for dried hemp flowers and plant p
 - Evidence tier: C, because this is a trade-publication technical feature with three hemp-flower varieties, not a peer-reviewed occurrence survey.
 - Brand firewall: the source names cultivar/variety labels (Finola, Felina, Santhica), not sampled commercial brands. The German drugstore purchase channel is retained as sample-frame context without naming a retailer.
 - Missing slug note: the taxonomy snapshot has no exact hemp/cannabis product or ingredient slug. Frontmatter uses broad `[[ingredients/herbal-botanicals]]` and `[[products/supplements-botanicals-herbs]]`, with hemp/cannabis retained only as matrix descriptors.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2eb93347f](https://github.com/paleofoundation/heavymetalindex/commit/2eb93347f) | 2026-06-09 | ingest: altmaier2021-cannabis-big-four-metals fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

@@ -97,3 +97,13 @@ This source is direct seafood occurrence evidence for organotin compounds in mol
 - Units and bases are preserved as `ng Sn g-1 dw`, `ng Sn g-1 ww`, and RQ; no unit conversion was performed.
 - Speciation check: this page records organotin species (`TBT`, `DBT`, `MBT`, `TPhT`, `DPhT`, `MPhT`) and compound-class sums. `metals: [Sn]` is only the existing element-level routing convention; organotins are not treated as total tin or inorganic tin.
 - Brand firewall: the paper reports port regions, organism groups, and species; no seafood brands are attached to contaminant values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2314b0d78](https://github.com/paleofoundation/heavymetalindex/commit/2314b0d78) | 2026-06-09 | ingest: shu2023-china-port-seafood-organotins fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

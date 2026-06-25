@@ -112,3 +112,13 @@ App: Context only. The source can support upstream risk narratives for coffee-en
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because no coffee-bean or food concentration table was reported. On reading, it is in-scope lane a3 supply-chain pathway and source-attribution evidence because it measures PTE reservoirs in coffee-enset agroforestry soils and names organic amendments as a plausible anthropogenic loading source.
 
 Numbers were checked against the abstract, methods, Table 1, Table 2, Table 3, the enrichment-factor discussion, spatial-distribution discussion, and conclusion in the extracted PDF text. Arsenic is labeled `tAs` in frontmatter because the source reports total arsenic in aqua-regia digests and does not report inorganic arsenic speciation. Chromium, cadmium, mercury, and methylmercury are not reported by this paper. Strontium is preserved as `Sr` in frontmatter and key numbers, but no `wiki/metals/strontium.md` page exists today, so it is not listed in the "may touch" wikilinks. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c6ed22aba](https://github.com/paleofoundation/heavymetalindex/commit/c6ed22aba) | 2026-06-11 | recover-ingest 2026-06-11: aitsaghir2025-coffee-enset-soil-metals (lane a3, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

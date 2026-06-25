@@ -76,3 +76,13 @@ Microbiome: No microbiome findings.
 - Units were kept as the source reports them: urinary metals in nmol/d and plasma values in micromol/L where relevant. No conversion to ug/L or mg/kg was made.
 - The source reports unqualified urinary Pb, Cd, Ni, Al, and Cr biomarkers; no arsenic or mercury speciation issue applies.
 - Products and ingredients are intentionally empty because the paper reports exposure biomarkers and diet-driver modelling, not market-product contamination values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0cb509186](https://github.com/paleofoundation/heavymetalindex/commit/0cb509186) | 2026-06-11 | recover-ingest 2026-06-11: rempelos2022-meddiet-toxic-metals-urine (lane a4, was skip:no-occurrence-data) |
+<!-- END: hmi-page-history -->

@@ -100,3 +100,13 @@ App: Context only. The source can support remediation-pathway notes for cadmium 
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated a coffee-ground adsorbent paper as out of scope because it was not coffee occurrence. On reading, it is in-scope lane a2 mitigation/remediation because it reports cadmium-removal values from industrial wastewater.
 
 Numbers were checked against the abstract, introduction, methods, Figure 3 prose, Tables 1-3, and conclusion in the extracted PDF text. Units are preserved as printed. The paper uses only cadmium as the primary measured heavy-metal removal target; other elements in SEM-EDX are adsorbent-characterization results and are not treated as occurrence values. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1639e593d](https://github.com/paleofoundation/heavymetalindex/commit/1639e593d) | 2026-06-11 | recover-ingest 2026-06-11: nurhidayanti2024-coffee-chitosan-cadmium-adsorption (lane a2, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

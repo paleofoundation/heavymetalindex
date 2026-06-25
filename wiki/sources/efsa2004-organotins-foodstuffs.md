@@ -122,5 +122,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [8922a9d](https://github.com/paleofoundation/heavymetalindex/commit/8922a9d) | 2026-06-08 | ingest: efsa2004-organotins-foodstuffs fresh from MFK/June 8 New Folder With Items 3 2 |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [8922a9da4](https://github.com/paleofoundation/heavymetalindex/commit/8922a9da4) | 2026-06-08 | ingest: efsa2004-organotins-foodstuffs fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

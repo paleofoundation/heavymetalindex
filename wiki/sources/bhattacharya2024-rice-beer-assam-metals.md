@@ -115,5 +115,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [e1d559b](https://github.com/paleofoundation/heavymetalindex/commit/e1d559b) | 2026-06-06 | ingest: bhattacharya2024-rice-beer-assam-metals [fresh] from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [e1d559bf5](https://github.com/paleofoundation/heavymetalindex/commit/e1d559bf5) | 2026-06-06 | ingest: bhattacharya2024-rice-beer-assam-metals [fresh] from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

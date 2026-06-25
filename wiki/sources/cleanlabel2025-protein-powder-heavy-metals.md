@@ -96,3 +96,13 @@ Clean Label Project procured 160 protein powder products from 70 brands sourced 
 - **Bisphenol comparison:** the 2018 reference figure ("55%") refers to Clean Label Project's prior 2018 protein-powder investigation, not to the 2020 collagen study at [[sources/cleanlabel2020-collagen-heavy-metals]]; the 2020 collagen white paper did not report bisphenols and is not the comparator.
 - **Scaffold-introducing slugs:** matrices labels `plant-based-protein`, `chocolate-flavor`, and `vanilla-flavor` are not yet in `docs/gpt-collaboration/taxonomy-snapshot.md`. The existing `protein-powder`, `whey-protein`, and `collagen-supplement` labels follow the convention established by [[sources/bandara2020-protein-powder-heavy-metals]] and [[sources/cleanlabel2020-collagen-heavy-metals]]. New slugs surfaced for the next taxonomy-snapshot regeneration.
 - **Evidence tier B rationale:** non-peer-reviewed industry/advocacy report published as a downloadable PDF on cleanlabelproject.org; no DOI; no per-product data; no concentration distribution; no QA/QC reporting. Analytical chemistry performed by an accredited third-party lab (Ellipse Analytics) using standard methods (ICP-MS for metals, LC-MS/MS for bisphenols), which justifies B over C, but the absence of peer review, of per-product reporting, of statistical detail on the underlying distributions, and of serving-size/exposure-conversion methodology prevents A-tier classification.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [87bea2733](https://github.com/paleofoundation/heavymetalindex/commit/87bea2733) | 2026-06-08 | ingest: cleanlabel2025-protein-powder-heavy-metals fresh from Manual Fetch Kimi/peptide_contamination_pdfs |
+<!-- END: hmi-page-history -->

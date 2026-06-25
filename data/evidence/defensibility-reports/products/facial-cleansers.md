@@ -2,7 +2,7 @@
 source_page: wiki/products/facial-cleansers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2c7fbdabce457afb9db1db5c33a5890f0c98401230e26c80ef81aec88ace4147
+source_page_sha256: a9b731a0389c6daae7e8d7e03dbf046a20e48901e2a7e95a95ac8f850f538710
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2419
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2419 |
 
 ## Page-level audit rows
 

@@ -80,3 +80,13 @@ App: Context only for product thresholds. The HgT and MeHg values are soil, manu
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip reason failed because the paper measures Hg and MeHg behavior in agricultural soil under manure and flooding conditions, an a3 supply-chain pathway and soil-amendment mechanism even without a finished-food concentration table.
 
 All key numbers were checked against the extracted PDF text, especially Table 1, Table 3, the Results section on net MeHg production, and the Discussion estimate of Hg evacuated during sampling. Speciation is preserved: HgT is total mercury, MeHg is methylmercury, and the page does not promote HgT to MeHg. Products and ingredients are intentionally empty because the paper reports soil, manure, and microcosm data only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [859353f1d](https://github.com/paleofoundation/heavymetalindex/commit/859353f1d) | 2026-06-10 | recover-ingest 2026-06-10: gfeller2021-mercury-methylation-fluvisol (lane a3, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

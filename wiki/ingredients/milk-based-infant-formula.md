@@ -6,8 +6,8 @@ aliases: []
 category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-05-28
-provisional_reason: "heal-gaps: routing_unresolved entry from source keywords2019-appropriateness-essentials-trace-metals declared ingredient/milk-based-infant-formula, no close-slug match"
-provisional_source: "[[sources/keywords2019-appropriateness-essentials-trace-metals]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source igweze2019-trace-metals-infant-formula-nigeria declared ingredient/milk-based-infant-formula, no close-slug match"
+provisional_source: "[[sources/igweze2019-trace-metals-infant-formula-nigeria]]"
 contamination_profile:
   Pb:
     status: pending
@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 1
+sources: 3
 wiki_doi: null
 updated: 2026-05-28
 ---
@@ -118,9 +118,9 @@ _Not yet characterized — scorecard activates at 2 contributing A-tier sources.
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-28 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source keywords2019-appropriateness-essentials-trace-metals declared ingredient/milk-based-infant-formula, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source igweze2019-trace-metals-infant-formula-nigeria declared ingredient/milk-based-infant-formula, no close-slug match
 >
-> **Triggering source:** [[sources/keywords2019-appropriateness-essentials-trace-metals]]
+> **Triggering source:** [[sources/igweze2019-trace-metals-infant-formula-nigeria]]
 
 ## Literature scope
 
@@ -158,9 +158,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 <!-- END: hmi-page-history -->

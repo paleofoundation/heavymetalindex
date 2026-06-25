@@ -14,14 +14,14 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 6.8]
     p95_ppb: 7.7
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0, 2.2]
     p95_ppb: 2.6
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -35,23 +35,26 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 3.8]
     p95_ppb: 4.2
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 7]
+    p95_ppb: null
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-11
+    basis: cured-baked-ham-wet-weight
+    speciation: total-Hg-only
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, null]
+    p95_ppb: null
     confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: cured-baked-ham-wet-weight
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -63,7 +66,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 140
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Sn:
@@ -77,7 +80,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 2.6]
     p95_ppb: 2.8
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -86,7 +89,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 2
 ---
 
@@ -100,17 +103,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=14 | consumption tier unset; depth bar uncheckable |
+| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=13 | consumption tier unset; depth bar uncheckable |
 | D2 Regional coverage | below-tier | 1 jurisdictions, top RO 100% | only 1 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 2 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 20 claims checked, 20 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming ham: fda2022-tds-elements-fy2018-fy2020 |
+| D7 Basis declaration | GAP | 2/10 populated cells declare a basis token | 8 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, Al, Cr, Sn, U |
+| D8 Provenance integrity | GAP | 30 claims checked, 30 supported; 3 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming ham: fda2022-tds-elements-fy2018-fy2020, zhang2022-pork-heavy-metals-china |
 | D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
 | D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 2 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 8 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: brand-value |
 
 <!-- /hmi-completeness-scorecard -->
@@ -128,16 +131,26 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=2 | 0–6.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|2]] |
-| Cd | n=2 | 0–2.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|2]] |
+| Pb | n=2 | 0–6.8 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|2]] |
+| Cd | n=2 | 0–2.2 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|2]] |
 | iAs | data gap | — | — | — |
-| tAs | n=2 | 0–3.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=2 | 0–3.8 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0–7 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/zhang2022-pork-heavy-metals-china\|3]] |
+| Ni | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
-| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=2 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — |
-| U | n=2 | 0–2.6 | low | — |
+| U | n=2 | 0–2.6 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The total-mercury and nickel cells were resynthesized on 2026-06-11 on a cured-baked-ham wet-weight basis, the form in which FDA prepared and measured the matrix (TDS Food 17, "Ham, cured (not canned), baked"). Values below the analytical reporting limit are treated as left-censored bounds, not as measured zeros.
+
+The earlier profile reported both analytes at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for cured baked ham (n=27), in which every sample fell at or below the reporting limit and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limit tHg 1 µg/kg, Ni 40 µg/kg). The resynthesis replaces those literal zeros with the honest left-censored floor (reported as "<1" for mercury and "<40" for nickel) and, for mercury, the one corroborating non-zero pork value available in the corpus.
+
+Total mercury rests on the fully censored FDA distribution (all 27 ham composites below the 1 µg/kg reporting limit) plus a single secondary China-pork aggregate ([[sources/zhang2022-pork-heavy-metals-china|Zhang et al. 2022]], fitted pork total-mercury concentration 0.7 × 10⁻² mg/kg = 7 µg/kg, basis not reported by the source, evidence tier C). The typical band is therefore carried as a left-censored floor of "<1" rising to the 7 µg/kg pork anchor; the 95th-percentile is left uncomputed because the only non-zero value in the pool is that one tier-C pork-muscle summary at unstated wet/dry basis, and any upper-tail figure would be an interpolation unsupported by a measured cured-ham value. Total mercury is held distinct from methylmercury and is not derived from it; no speciated mercury measurement exists for this commodity. The Romanian processed-pork survey that supports the lead and cadmium cells ([[sources/hoha2014-pork-pb-cd-cu-zn-romania|Hoha et al. 2014]]) does not measure mercury and contributes nothing to this cell.
+
+Nickel is recorded with only the FDA censored floor of "<40 µg/kg": 26 of 27 ham composites fell below the 40 µg/kg nickel reporting limit and the single remaining composite was reported at exactly the 40 µg/kg reporting limit rather than as a confirmed detection above it, so the honest floor is that reporting limit expressed as a left-censored bound and no positive occurrence value or upper bound is published for the commodity (the whole-milk nickel precedent). The 95th-percentile is carried as null, and confidence is low, until a positive cured-ham or pork-muscle nickel measurement is ingested. No non-FDA nickel value for ham or pork muscle exists in the current corpus.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -149,7 +162,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -158,21 +171,21 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Ham, cured (not canned), baked" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 4.7 | in profile |
-| Cr | 27 | 0 | 400 | in profile |
-| Ni | 27 | 0 | 40 | in profile |
-| Pb | 27 | 0 | 9.3 | in profile |
-| U | 27 | 0 | 3.6 | in profile |
-| tAs | 27 | 0 | 4.6 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 0 | 0 | 2.22 | 2.61 | 4.7 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 0 | 140 | 400 | in profile |
+| Ni | 27 | 0 | 0 | 0 | 0 | 0 | 40 | in profile |
+| Pb | 27 | 0 | 0 | 0 | 6.76 | 7.74 | 9.3 | in profile |
+| U | 27 | 0 | 0 | 1.4 | 2.58 | 2.77 | 3.6 | in profile |
+| tAs | 27 | 0 | 0 | 0 | 3.84 | 4.18 | 4.6 | in profile |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA FY2018-FY2020 Total Diet Study measured ham (TDS Food 17, "Ham, cured (not canned), baked") with n=27 composites and found Pb detectable with a maximum of 9.3 ppb; Cd detectable with a maximum of 4.7 ppb; U with a median of 1.4 ppb and a maximum of 3.6 ppb; tAs with a maximum of 4.6 ppb; and Cr with a maximum of 400 ppb and Ni with a maximum of 40 ppb [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. Mercury (tHg) was below the reporting limit across all samples. These distributions reflect the US retail market for cured ham. European survey data for cured pork products are not present in the current corpus; the EU maximum levels for pork muscle provide the operative regulatory reference. Canned versus non-canned formats are expected to differ for Sn, as canned ham would be subject to tin migration from the can; this page covers the non-canned, baked form.
+The FDA FY2018-FY2020 Total Diet Study measured ham (TDS Food 17, "Ham, cured (not canned), baked") with n=27 composites and found Pb detectable with a p90 of 6.76 ppb and a maximum of 9.3 ppb; Cd detectable with a p90 of 2.22 ppb and a maximum of 4.7 ppb; U with a median of 1.4 ppb and a maximum of 3.6 ppb; tAs with a p90 of 3.84 ppb and a maximum of 4.6 ppb; and Cr with a maximum of 400 ppb [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. Mercury (tHg) fell below the 1 ppb reporting limit across all 27 composites and is carried as a left-censored "<1" floor rather than a measured zero; the single corroborating non-zero value in the corpus is a tier-C China-pork total-mercury aggregate of 7 ppb ([[sources/zhang2022-pork-heavy-metals-china|3]], basis not reported). Nickel fell at or below its 40 ppb reporting limit across the entire distribution, with one composite reported at exactly the reporting limit and no confirmed detection above it, and is likewise carried as a left-censored "<40" floor. These distributions reflect the US retail market for cured ham. European survey data for cured pork products are not present in the current corpus; the EU maximum levels for pork muscle provide the operative regulatory reference. Canned versus non-canned formats are expected to differ for Sn, as canned ham would be subject to tin migration from the can; this page covers the non-canned, baked form.
 
 ## Processing effects
 
@@ -230,9 +243,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 2 — 10 dairy/meat/grapefruit pages / 59 cells |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 <!-- END: hmi-page-history -->

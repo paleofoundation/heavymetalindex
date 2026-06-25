@@ -180,6 +180,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [d764ca0](https://github.com/paleofoundation/heavymetalindex/commit/d764ca0) | 2026-06-08 | audit: seregin2023-phytochelatins-sulfur-metal-chelating revised |
-| [5aec7a9](https://github.com/paleofoundation/heavymetalindex/commit/5aec7a9) | 2026-06-08 | batch-report: June 8 Inorganic Arsenic Seaweed ingest progress (3/67 done) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [d764ca0ef](https://github.com/paleofoundation/heavymetalindex/commit/d764ca0ef) | 2026-06-08 | audit: seregin2023-phytochelatins-sulfur-metal-chelating revised |
+| [5aec7a924](https://github.com/paleofoundation/heavymetalindex/commit/5aec7a924) | 2026-06-08 | batch-report: June 8 Inorganic Arsenic Seaweed ingest progress (3/67 done) |
 <!-- END: hmi-page-history -->

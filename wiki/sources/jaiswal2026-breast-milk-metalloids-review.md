@@ -83,3 +83,13 @@ Microbiome: No microbiome findings.
 - Arsenic and chromium are unqualified in the review table, so the page uses tAs and Cr. Mercury is mostly unqualified and tagged tHg; MeHg is included because the review separately lists methyl mercury in Table 1 and discusses methylmercury transfer.
 - Products and ingredients are intentionally empty because this is an a4 human-exposure review. It does not measure mineral water, infant formula, or any commercial food product.
 - The page records a near-duplicate/topical-overlap note with `katrynska2026-human-milk-biomonitor-toxic-metals-review`; the DOI and concentration table are distinct.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7cbb8875c](https://github.com/paleofoundation/heavymetalindex/commit/7cbb8875c) | 2026-06-11 | recover-ingest 2026-06-11: jaiswal2026-breast-milk-metalloids-review (lane a4, was skip:no-occurrence-data) |
+<!-- END: hmi-page-history -->

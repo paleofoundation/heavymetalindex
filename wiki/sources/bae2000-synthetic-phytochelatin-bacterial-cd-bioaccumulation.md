@@ -118,6 +118,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [be1a5cc](https://github.com/paleofoundation/heavymetalindex/commit/be1a5cc) | 2026-06-08 | audit: bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation promoted |
-| [e5daa6d](https://github.com/paleofoundation/heavymetalindex/commit/e5daa6d) | 2026-06-08 | ingest: bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation fresh from MFK/June 8 Black Market Peptide Metal Survey/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [be1a5cc3e](https://github.com/paleofoundation/heavymetalindex/commit/be1a5cc3e) | 2026-06-08 | audit: bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation promoted |
+| [e5daa6def](https://github.com/paleofoundation/heavymetalindex/commit/e5daa6def) | 2026-06-08 | ingest: bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation fresh from MFK/June 8 Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

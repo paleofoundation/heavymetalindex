@@ -65,5 +65,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [bd0631b](https://github.com/paleofoundation/heavymetalindex/commit/bd0631b) | 2026-06-08 | ingest: voegborlo1999-libya-canned-tuna-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| [68afd7ce1](https://github.com/paleofoundation/heavymetalindex/commit/68afd7ce1) | 2026-06-09 | audit: voegborlo1999-libya-canned-tuna-metals wiki body unit-fix (split from 61a250c) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [bd0631b47](https://github.com/paleofoundation/heavymetalindex/commit/bd0631b47) | 2026-06-08 | ingest: voegborlo1999-libya-canned-tuna-metals fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

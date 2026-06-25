@@ -111,5 +111,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [e432f38](https://github.com/paleofoundation/heavymetalindex/commit/e432f38) | 2026-06-08 | ingest: olmedo2013-andalusia-fish-shellfish-metals fresh from MFK/June 8 New Folder With Items 4 2 |
+| [b2473396a](https://github.com/paleofoundation/heavymetalindex/commit/b2473396a) | 2026-06-09 | audit: olmedo2013-andalusia-fish-shellfish-metals revised per autonomous audit |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [e432f38eb](https://github.com/paleofoundation/heavymetalindex/commit/e432f38eb) | 2026-06-08 | ingest: olmedo2013-andalusia-fish-shellfish-metals fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->

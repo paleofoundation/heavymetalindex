@@ -70,3 +70,13 @@ App: The source can support explanatory game-meat lead cards that distinguish pr
 - Speciation: the paper concerns elemental lead from lead ammunition and lead fragments in game meat; no arsenic, mercury, chromium, or organotin speciation is involved.
 - Brand firewall: no brand names are attached to contamination values. Firearm/ammunition descriptors are source-pathway context, not product-brand comparisons.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy has `game-meats` as a product slug but lacks a `game-meat` ingredient slug, so ingredients route through broad `meat` and `meat-and-poultry`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a76bed75f](https://github.com/paleofoundation/heavymetalindex/commit/a76bed75f) | 2026-06-09 | ingest: thomas2022-lead-game-meat-awareness fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

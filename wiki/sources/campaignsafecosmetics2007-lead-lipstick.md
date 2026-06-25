@@ -70,3 +70,13 @@ App: If the app later includes adult leave-on cosmetics, this source can support
 - Brand firewall: Appendix A names brands, shade names, parent companies, states, dates, and Pb values. This page intentionally reports only category-level counts, ranges, and de-identified value lists; no brand or shade name is attached to a contamination value.
 - Evidence tier: `B` because this is a nonprofit-commissioned third-party laboratory screen using an ISO 17025-accredited lab, but it is not peer-reviewed and the sample is a small convenience set. The source's own methods caveats are material: some samples did not completely dissolve and spike recovery averaged `53 percent`, so the reported values should be treated as lower-confidence occurrence evidence.
 - Routing note: `products/lipstick` exists in the closed taxonomy snapshot but the current wiki page is retired pending a future adult Cat 13 lip-cosmetics row. The exact source matrix is adult lipstick; this page keeps the closed-vocabulary `lipstick` product slug and records the Cat 13 gap here so a later taxonomy pass can reroute it if a non-retired adult lip-cosmetics page is added.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e7586c386](https://github.com/paleofoundation/heavymetalindex/commit/e7586c386) | 2026-06-09 | ingest: campaignsafecosmetics2007-lead-lipstick fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

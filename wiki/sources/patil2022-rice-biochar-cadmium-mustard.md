@@ -65,3 +65,13 @@ Microbiome: Not a focus of this source.
 - Page grounded in the published abstract and bibliographic metadata; values preserved as printed. Full-text extraction can follow on synthesis.
 - `ingredients: []` / `products: []` correct: experimental soil-amendment context, not retail food occurrence; Indian mustard is the test species, carried in `matrices`.
 - Part 2 direction-of-edit check: adds upstream mitigation mechanism literature; neutral to HMT&C thresholds, moves toward the literature.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c9b85bf01](https://github.com/paleofoundation/heavymetalindex/commit/c9b85bf01) | 2026-06-18 | ingest(phytoremediation): 9 in-scope remediation/soil-mechanism sources |
+<!-- END: hmi-page-history -->

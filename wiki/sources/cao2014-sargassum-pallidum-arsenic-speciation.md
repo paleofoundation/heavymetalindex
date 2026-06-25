@@ -87,3 +87,13 @@ This source is useful as medicinal seaweed arsenic-speciation context for *Sarga
 - Speciation check: raw material total arsenic is recorded as tAs. The aqueous extract reports As(V), an inorganic arsenic species, separately from DMA; As(III) and MMA are recorded only as not detected. No total-As value is promoted to iAs.
 - Brand firewall: the source does not provide consumer brands, and the page does not attach a contamination value to any named commercial product.
 - Scope caution: the paper's rat plasma pharmacokinetic values are kept as exposure context and not used as product occurrence concentrations.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d9ad740f7](https://github.com/paleofoundation/heavymetalindex/commit/d9ad740f7) | 2026-06-09 | ingest: cao2014-sargassum-pallidum-arsenic-speciation fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

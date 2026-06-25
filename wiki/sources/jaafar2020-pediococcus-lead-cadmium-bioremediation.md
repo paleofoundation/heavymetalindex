@@ -72,3 +72,13 @@ App: Context only for mitigation education. The paper does not support consumer-
 The auto-fetch filename framed this as salt/cadmium, but the PDF itself is a probiotic bioremediation paper. Products and ingredients are intentionally empty because no marketed salt, probiotic supplement, food ingredient, fish product, or consumer product was measured. The `sample_n` field records the nine pond-water samples used to isolate the bacterium; the metal-removal numbers are laboratory spiked-media assays.
 
 The abstract reports Pb removal of 62.10-68.39% at 25 and 50 ppm, and Cd removal of 52.71-11.25% at the same concentrations. The results text clarifies the paired values: Pb was 62.10% at 25 ppm and 68.39% at 50 ppm; Cd was 52.71% at 25 ppm and 11.25% at 50 ppm. Those pairings are used above.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2795e8a81](https://github.com/paleofoundation/heavymetalindex/commit/2795e8a81) | 2026-06-09 | ingest auto-fetched 2026-06-09: jaafar2020-pediococcus-lead-cadmium-bioremediation |
+<!-- END: hmi-page-history -->

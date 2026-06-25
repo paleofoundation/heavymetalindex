@@ -64,3 +64,13 @@ App: Context only for mitigation education and supply-chain caution. It does not
 The auto-fetch filename framed this as salt/cadmium, but the PDF itself is a ramie phytoremediation study. Products and ingredients are intentionally empty because the study did not measure edible rice, salt, textile articles, or marketed ramie-derived products. The matrix is a controlled hydroponic CdCl2 exposure.
 
 Cd tissue concentrations are plotted in Figures 1 and 2 but not provided as a source data table in the extracted PDF text. The page therefore records exact treatment concentrations, replicate design, methods, and source-stated directional/significance findings, and does not invent precise bar-chart values from the figures.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a99c3f6f4](https://github.com/paleofoundation/heavymetalindex/commit/a99c3f6f4) | 2026-06-09 | ingest auto-fetched 2026-06-09: chen2021-abscisic-acid-cadmium-ramie |
+<!-- END: hmi-page-history -->

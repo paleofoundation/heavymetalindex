@@ -96,3 +96,13 @@ Microbiome: Rhizosphere microbes and arbuscular mycorrhizal fungi modulate metal
 - `ingredients: []` and `products: []` are correct and are not a Part 5 missing-products defect. This is a supply-chain / mechanism source that reports no food, ingredient, or product occurrence, mirroring the handling of [[sources/guerrasierra2021-phytoremediation-tropical-soils-review]].
 - No brand names appear in the source.
 - Part 2 direction-of-edit check: this ingest adds upstream mechanism literature and neither softens nor strengthens any HMT&C threshold claim. The edit moves toward the literature (it deepens the mechanistic basis for why food crops carry the metals they do); it does not move toward HMT&C convenience.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6539d4f0b](https://github.com/paleofoundation/heavymetalindex/commit/6539d4f0b) | 2026-06-20 | ingest(agromining): nkrumah2022 — Farming for battery metals (mechanism source) |
+<!-- END: hmi-page-history -->

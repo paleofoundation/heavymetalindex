@@ -75,5 +75,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c58ed59](https://github.com/paleofoundation/heavymetalindex/commit/c58ed59) | 2026-06-08 | ingest: sadighara2021-food-organotin-review fresh from MFK/June 8 New Folder With Items 4 2 |
+| [d5ccb776b](https://github.com/paleofoundation/heavymetalindex/commit/d5ccb776b) | 2026-06-09 | audit: sadighara2021-food-organotin-review revised per autonomous audit |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [c58ed59b9](https://github.com/paleofoundation/heavymetalindex/commit/c58ed59b9) | 2026-06-08 | ingest: sadighara2021-food-organotin-review fresh from MFK/June 8 New Folder With Items 4 2 |
 <!-- END: hmi-page-history -->

@@ -203,5 +203,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [6ba7772](https://github.com/paleofoundation/heavymetalindex/commit/6ba7772) | 2026-06-06 | ingest: alsayyed2024-heavy-metals-energy-drinks-jordan fresh from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [6ba7772b8](https://github.com/paleofoundation/heavymetalindex/commit/6ba7772b8) | 2026-06-06 | ingest: alsayyed2024-heavy-metals-energy-drinks-jordan fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

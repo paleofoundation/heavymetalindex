@@ -96,6 +96,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c5a5510](https://github.com/paleofoundation/heavymetalindex/commit/c5a5510) | 2026-06-08 | audit: rose2007-seaweed-arsenic-forms-uk revised |
-| [95b689d](https://github.com/paleofoundation/heavymetalindex/commit/95b689d) | 2026-06-08 | ingest: rose2007-seaweed-arsenic-forms-uk fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [c5a5510aa](https://github.com/paleofoundation/heavymetalindex/commit/c5a5510aa) | 2026-06-08 | audit: rose2007-seaweed-arsenic-forms-uk revised |
+| [95b689d4d](https://github.com/paleofoundation/heavymetalindex/commit/95b689d4d) | 2026-06-08 | ingest: rose2007-seaweed-arsenic-forms-uk fresh from MFK/June 8 Inorganic Arsenic Seaweed |
 <!-- END: hmi-page-history -->

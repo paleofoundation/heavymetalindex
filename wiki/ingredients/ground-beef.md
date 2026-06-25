@@ -12,18 +12,37 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 60]
+    p95_ppb: 90
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-06-23
+    basis: ground-beef-muscle-wet-weight
+    speciation: total-Pb-only
+    note: >-
+      FDA TDS commodity-exact composite fully left-censored (27/27 ND, 4 ppb
+      reporting limit); central band anchored on clean-market muscle (Khalafalla
+      2011 muscle mean 8.77 ppb) through ordinary Egyptian retail minced meat
+      (Shaltout 2020 minced-meat mean 60 ppb, max 90 ppb). Imported-frozen and
+      MPL-exceedance strata (Rabeey 2025 muscle mean 684 ppb; Mohamed 2023
+      640-890 ppb) stratified out of the central and tail estimates.
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 30]
+    p95_ppb: 100
     confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-06-23
+    basis: ground-beef-muscle-wet-weight
+    speciation: total-Cd-only
+    note: >-
+      FDA TDS commodity-exact composite fully left-censored (27/27 ND, 1 ppb
+      reporting limit); central band anchored on clean-market muscle (Khalafalla
+      2011 muscle mean 1.40 ppb) through convergent ordinary-retail means
+      (Shaltout 2020 minced 30 ppb; Mohamed 2023 20 ppb; Rabeey 2025 muscle
+      30 ppb). Unlike Pb/tHg, Rabeey muscle Cd is not an outlier and is folded in.
+      95th percentile anchored at Rabeey 2025 muscle maximum 100 ppb (22.9%
+      above the 50 ppb MPL).
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -35,21 +54,24 @@ contamination_profile:
     status: populated
     typical_ppb: [1.9, 5.9]
     p95_ppb: 6.1
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 4]
+    p95_ppb: 80
     confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 4
+    last_reviewed: 2026-06-11
+    basis: ground-beef-muscle-wet-weight
+    speciation: total-Hg-only
+    proxy: beef-muscle
   Ni:
     status: populated
     typical_ppb: [0, 18.8]
     p95_ppb: 47
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -63,7 +85,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 90.4]
     p95_ppb: 100
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Sn:
@@ -77,7 +99,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 2.3]
     p95_ppb: 3.1
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -86,7 +108,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-23
 sources: 2
 ---
 
@@ -100,17 +122,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: staple) | below-tier | 5/10 HMTc analytes, total n=16 | staple tier expects total n>=40; have 16 |
+| D1 Analyte coverage (tier: staple) | below-tier | 5/10 HMTc analytes, total n=20 | staple tier expects total n>=40; have 20 |
 | D2 Regional coverage | below-tier | 1 jurisdictions, top EG 100% | only 1 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb THIN, Cd POOLABLE, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: THIN; tAs: needs 1 more study(ies); tHg: THIN; Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 12 claims checked, 12 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming ground-beef: fda2022-tds-elements-fy2018-fy2020 |
+| D7 Basis declaration | GAP | 3/10 populated cells declare a basis token | 7 populated cell(s) lack a basis token: iAs, tAs, Ni, Al, Cr, Sn, U |
+| D8 Provenance integrity | GAP | 25 claims checked, 25 supported; 4 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming ground-beef: fda2022-tds-elements-fy2018-fy2020, rabeey2025-bovine-hg-pb-cd-egypt, khalafalla2011-beef-carcasses-metals-egypt |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: POOLABLE; Cd: POOLABLE; tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; depth below staple bar |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN; Cd: POOLABLE; tAs: THIN, needs 1 more study(ies); tHg: THIN; Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 7 populated cell(s) lack a basis token: iAs, tAs, Ni, Al, Cr, Sn, U; depth below staple bar |
 | **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 0.83 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -128,16 +150,26 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
-| Cd | n=3 | 0 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
+| Pb | n=3 | 0–60 | low | [[sources/khalafalla2011-beef-carcasses-metals-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
+| Cd | n=5 | 0–30 | medium | [[sources/khalafalla2011-beef-carcasses-metals-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
 | iAs | data gap | — | — | — |
-| tAs | n=2 | 1.9–5.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | low | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| Ni | n=2 | 0–18.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=2 | 1.9–5.9 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=4 | 0–4 | low | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/khalafalla2011-beef-carcasses-metals-egypt\|2]], [[sources/mohamed2023-heavy-metals-beef-egypt\|3]] |
+| Ni | n=2 | 0–18.8 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
-| Cr | n=2 | 0–90.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=2 | 0–90.4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — |
-| U | n=2 | 0–2.3 | low | — |
+| U | n=2 | 0–2.3 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The total-mercury cell was resynthesized on 2026-06-11 on a ground-beef muscle wet-weight basis, the form in which the ingredient enters the supply chain. Ground beef is comminuted skeletal muscle, so cattle-muscle total-mercury surveys are carried as an explicitly labeled muscle proxy; no survey in the current corpus measures total mercury in retail ground beef specifically, and no value is generalized across species or from offal. Values below the analytical limit of detection are treated as left-censored, not as measured zeros. Total mercury is held distinct from methylmercury and is not derived from it; every contributing source reports total mercury by cold-vapor or hydride atomic-absorption and none speciates the organic fraction, so this cell carries `total-Hg-only` and no methylmercury value is inferred.
+
+The earlier profile reported total mercury at typical and 95th-percentile values of zero at high confidence with two contributing sources. Those figures were an artifact of pooling two fully or partly censored inputs as literal zeros: the FDA Total Diet Study FY2018-FY2020 composite for "Beef, ground, pan-cooked" (n=27), in which all 27 samples fell below the 1 µg/kg reporting limit ([[sources/fda2022-tds-elements-fy2018-fy2020]]), and the imported-frozen Egyptian muscle survey, which in fact reported a muscle mean of 312 µg/kg rather than zero ([[sources/rabeey2025-bovine-hg-pb-cd-egypt|Rabeey et al. 2025]]). The high-confidence zero was therefore both a censoring error on the FDA input and a misreading of the Rabeey input; the resynthesis replaces it with the detected beef-muscle distribution from the primary occurrence literature, in which clean-market muscle mercury is low but non-zero. The honest floor for the FDA-censored commodity-exact input is the 1 µg/kg reporting limit expressed as a left-censored bound, not a measured zero.
+
+The central estimate rests on the two clean-market abattoir and retail muscle surveys: the Beni-Suef abattoir survey of 100 cattle-muscle samples ([[sources/khalafalla2011-beef-carcasses-metals-egypt|Khalafalla et al. 2011]], muscle mean 3.91 µg/kg fresh weight, maximum 80.8 µg/kg, 1 of 100 below detection, measured by ICP-MS) and the Sharkia retail beef survey of 30 samples ([[sources/mohamed2023-heavy-metals-beef-egypt|Mohamed et al. 2023]], mercury undetected in all 15 chilled samples and absent in 67% of the 15 frozen samples, frozen-fraction mean 80 µg/kg). The typical band is carried as a left-censored 0 to 4 µg/kg, the censored FDA floor through the Khalafalla muscle mean, and the 95th percentile is anchored at 80 µg/kg, the convergent upper reach of the two clean-market muscle distributions (Khalafalla muscle maximum 80.8 µg/kg; Mohamed frozen-fraction mean 80 µg/kg). Confidence is low: the commodity-exact FDA input is fully censored, the supporting distributions are a muscle proxy rather than retail ground beef, and the geographic base is narrow and weighted to Egyptian sampling.
+
+The imported-frozen Egyptian muscle survey ([[sources/rabeey2025-bovine-hg-pb-cd-egypt|Rabeey et al. 2025]], 105 muscle samples, mean 312 µg/kg, range 13-1228 µg/kg, 54.3% above the authors' cited 0.05 mg/kg limit) is roughly two orders of magnitude above every other beef-muscle survey in the corpus and is treated as a high imported-frozen stratum rather than folded into the central estimate; its elevated values describe frozen bovine muscle marketed in Sohag, Egypt, with source countries the authors describe as Brazil, India, and the United States, and are not representative of US-retail ground beef. It is counted among the distinct contributors because it measured total mercury in bovine muscle, but its central tendency is stratified out of the typical and 95th-percentile values for the reasons above.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -149,7 +181,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -158,21 +190,21 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Beef, ground, pan-cooked" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 0 | in profile |
-| Cr | 27 | 0 | 600 | in profile |
-| Ni | 27 | 0 | 290 | in profile |
-| Pb | 27 | 0 | 0 | in profile |
-| U | 27 | 0 | 3.5 | in profile |
-| tAs | 27 | 0 | 8.5 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 90.4 | 100 | 600 | in profile |
+| Ni | 27 | 0 | 0 | 0 | 18.8 | 47 | 290 | in profile |
+| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | 1.4 | 2.32 | 3.13 | 3.5 | in profile |
+| tAs | 27 | 0 | 1.92 | 4.2 | 5.94 | 6.07 | 8.5 | in profile |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA FY2018-FY2020 Total Diet Study measured ground beef as TDS Food 13 (n=27) and found Pb and Cd below reporting limits across the full distribution, with Cr detectable with a maximum of 600 ppb, Ni detectable in some samples with a maximum of 290 ppb (most samples at or below detection), and tAs detectable up to a maximum of 8.5 ppb [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. Uranium was detected with a median of 1.4 ppb and a maximum of 3.5 ppb. These values reflect the US retail market, which aggregates cattle from diverse regional production systems. European studies on beef muscle generally report similarly low Cd and Pb in muscle tissue, below the EU maximum levels. Geographic enrichment of soil lead near historical industrial sites or mining areas has been detected in some grazing-land cattle, but the retail composite approach of the TDS tends to dilute localized extremes. Grass-fed versus grain-fed production has not been shown to produce systematically different muscle-metal concentrations in the current corpus; this is an area where additional evidence is needed.
+The FDA FY2018-FY2020 Total Diet Study measured ground beef as TDS Food 13 (n=27) and found Pb and Cd below reporting limits across the full distribution, with Cr detectable at a p90 of 90.4 ppb and a maximum of 600 ppb, Ni detectable at a p50 of 0 ppb and a maximum of 290 ppb, and tAs ranging from a p10 of 1.92 ppb to a maximum of 8.5 ppb [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. Uranium was detected with a median of 1.4 ppb and a maximum of 3.5 ppb. These values reflect the US retail market, which aggregates cattle from diverse regional production systems. European studies on beef muscle generally report similarly low Cd and Pb in muscle tissue, below the EU maximum levels. Geographic enrichment of soil lead near historical industrial sites or mining areas has been detected in some grazing-land cattle, but the retail composite approach of the TDS tends to dilute localized extremes. Grass-fed versus grain-fed production has not been shown to produce systematically different muscle-metal concentrations in the current corpus; this is an area where additional evidence is needed.
 
 ## Processing effects
 
@@ -230,9 +262,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 4 (final) — 21 pages / 42 cells; backlog now ZERO |
+| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
 <!-- END: hmi-page-history -->

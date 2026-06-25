@@ -84,5 +84,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [36496fb](https://github.com/paleofoundation/heavymetalindex/commit/36496fb) | 2026-06-08 | ingest: han2025-peptide-zinc-complexation-aquatic-review fresh from MFK/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [36496fb78](https://github.com/paleofoundation/heavymetalindex/commit/36496fb78) | 2026-06-08 | ingest: han2025-peptide-zinc-complexation-aquatic-review fresh from MFK/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

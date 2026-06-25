@@ -10,28 +10,29 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 13.8]
     p95_ppb: 23.3
-    confidence: low
+    confidence: medium
     n_studies: 1
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0, 1]
     p95_ppb: 2
-    confidence: low
+    confidence: high
     n_studies: 1
     last_reviewed: 2026-05-13
   iAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
+    speciation: no-speciated-iAs-measurement
   tHg:
     status: populated
     typical_ppb: [0, 0.5]
     p95_ppb: 1
-    confidence: low
+    confidence: high
     n_studies: 1
     last_reviewed: 2026-05-13
   Ni:
@@ -45,7 +46,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 1437]
     p95_ppb: 1830
-    confidence: low
+    confidence: high
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
@@ -59,7 +60,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 23.5]
     p95_ppb: 31.3
-    confidence: low
+    confidence: high
     n_studies: 1
     last_reviewed: 2026-05-13
   tAs:
@@ -82,7 +83,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-06-11
 sources: 1
 ---
 
@@ -96,17 +97,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: common) | below-tier | 6/10 HMTc analytes, total n=6 | common tier expects total n>=15; have 6 |
+| D1 Analyte coverage (tier: common) | below-tier | 5/10 HMTc analytes, total n=5 | common tier expects total n>=15; have 5 |
 | D2 Regional coverage | below-tier | 2 jurisdictions, top FR 100% | over-concentrated: FR supplies 100% of sources |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, iAs THIN, tHg THIN, Al THIN, Sn THIN | Pb: needs 2 more study(ies); Cd: needs 2 more study(ies); iAs: needs 2 more study(ies); tHg: needs 2 more study(ies); Al: needs 2 more study(ies); Sn: needs 2 more study(ies) |
+| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tHg THIN, Al THIN, Sn THIN | Pb: needs 2 more study(ies); Cd: needs 2 more study(ies); tHg: needs 2 more study(ies); Al: needs 2 more study(ies); Sn: needs 2 more study(ies) |
 | D6 Speciation | OK | iAs, tHg, tAs declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 4 claims checked, 4 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming semi-skimmed-milk: fsa2016-infant-food-formula-metals-survey |
+| D8 Provenance integrity | GAP | 5 claims checked, 5 supported; 7 citations, 0 orphan, 7 foreign | 7 foreign citation(s) not naming semi-skimmed-milk: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020, starska2011-noxious-elements-milk-products-poland |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Al |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Al, Sn; pairing 0 paired, 6 single, 0 unpaired | Pb: THIN, needs 2 more study(ies); Cd: THIN, needs 2 more study(ies); iAs: THIN, needs 2 more study(ies); tHg: THIN, needs 2 more study(ies); Al: THIN, needs 2 more study(ies); Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; depth below common bar |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Al, Sn; pairing 0 paired, 5 single, 0 unpaired | Pb: THIN, needs 2 more study(ies); Cd: THIN, needs 2 more study(ies); tHg: THIN, needs 2 more study(ies); Al: THIN, needs 2 more study(ies); Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; depth below common bar |
 | **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 0.83 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -124,16 +125,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=1 | 0–13.8 | low | — |
-| Cd | n=1 | 0–1 | low | — |
-| iAs | n=1 | 0 | low | — |
+| Pb | n=1 | 0–13.8 | medium | — |
+| Cd | n=1 | 0–1 | high | — |
+| iAs | data gap | — | — | — |
 | tAs | data gap | — | — | — |
-| tHg | n=1 | 0–0.5 | low | — |
+| tHg | n=1 | 0–0.5 | high | — |
 | Ni | data gap | — | — | — |
-| Al | n=1 | 0–1437 | low | — |
+| Al | n=1 | 0–1437 | high | — |
 | Cr | data gap | — | — | — |
-| Sn | n=1 | 0–23.5 | low | — |
+| Sn | n=1 | 0–23.5 | high | — |
 | U | data gap | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The inorganic-arsenic cell was reviewed on 2026-06-11 on a fluid semi-skimmed-milk wet-weight basis, the form in which the ingredient enters the supply chain. Inorganic arsenic is held distinct from total arsenic and is never derived from it by a fixed ratio; only a speciated measurement can populate the inorganic-arsenic cell.
+
+Inorganic arsenic is recorded as a reviewed data gap. The earlier profile reported inorganic arsenic at a typical and 95th-percentile value of zero at high confidence. That figure was not supported by any speciated measurement of this commodity: no fluid-milk inorganic-arsenic value exists in the corpus, and every milk arsenic measurement available is total arsenic by hydride-generation or ICP-MS without inorganic/organic fractionation. The FDA Total Diet Study FY2018-FY2020 fluid-milk composites measure total arsenic only and report it below the 1 µg/kg reporting limit across all 27 samples for whole, reduced-fat, and skim milk ([[sources/fda2022-tds-elements-fy2018-fy2020]]); that is a left-censored total-arsenic result, not a measured inorganic-arsenic zero. The clean-market fluid-milk occurrence surveys are likewise total-arsenic only and state explicitly that their arsenic values must not be routed as inorganic arsenic: the Polish national monitoring measures arsenic by hydride-generation AAS without speciation ([[sources/starska2011-noxious-elements-milk-products-poland|Starska et al. 2011]]), the Bangladesh raw-and-pasteurized survey records "total arsenic; no inorganic arsenic speciation" ([[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals|Hasan et al. 2022]]), the Egyptian retail-milk survey reports "total arsenic only, no inorganic/organic separation" ([[sources/salaheldin2025-multimatrix-foods-egypt|Salahel din et al. 2025]]), the Polish powdered-formula survey reports arsenic below detection without speciation ([[sources/dobrzynska2025-milk-formulae-elemental-composition|Dobrzyńska et al. 2025]]), and the Spanish ICP-MS retail-milk survey, which enumerates semi-skimmed cow milk in its product frame, does not measure inorganic arsenic as a target analyte ([[sources/marques2021-trace-elements-milks-plant-based-drinks|Marques et al. 2021]]). Because no speciated inorganic-arsenic value exists for fluid milk, the honest state for this cell is a reviewed data gap rather than a measured zero, following the uranium precedent on [[ingredients/rice]] and the inorganic-arsenic treatment on [[ingredients/whole-milk]]. The cell will populate when a speciated fluid-milk inorganic-arsenic measurement is ingested.
 
 ## Routing
 
@@ -141,7 +148,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 
@@ -215,9 +222,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 4 (final) — 21 pages / 42 cells; backlog now ZERO |
+| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->

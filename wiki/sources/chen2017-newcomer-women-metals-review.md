@@ -74,3 +74,13 @@ Microbiome: No microbiome findings.
 - Units are preserved exactly by biomarker type: blood Pb in ug/dL, blood Hg and Cd in ug/L, cord-blood Hg in ug/L, and urinary Hg in ug/L where the source reports those units.
 - Mercury speciation is kept distinct: most review values are unqualified Hg and are tagged as tHg; Soon et al. is included under MeHg because the table labels the metal of interest as MeHg.
 - Products and ingredients are intentionally empty because the paper is a biomonitoring scoping review, not an occurrence survey of cookware, cosmetics, fish, shellfish, or any named consumer product.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c0fa593c8](https://github.com/paleofoundation/heavymetalindex/commit/c0fa593c8) | 2026-06-11 | recover-ingest 2026-06-11: chen2017-newcomer-women-metals-review (lane a4, was skip:review-only-no-primary-data) |
+<!-- END: hmi-page-history -->

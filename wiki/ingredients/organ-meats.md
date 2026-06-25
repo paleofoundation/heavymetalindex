@@ -80,7 +80,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/older-animal-organ-meat]]", "[[ingredients/horsemeat-offal]]"]
 used_in_products: ["[[products/pate]]", "[[products/sausages]]", "[[products/organ-meat-pies]]", "[[products/liver-based-baby-food]]", "[[products/nutritional-supplements]]", "[[products/pet-food]]"]
 audience: [regulator, educator, consumer, app]
-sources: 28
+sources: 33
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -96,7 +96,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
 | D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=30 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | below-tier | 28 jurisdictions, top EU 32% | only 28 distinct jurisdiction(s) |
+| D2 Regional coverage | below-tier | 28 jurisdictions, top EU 33% | only 28 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 4 drivers, 1 upstream source(s) | — |
 | D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, tHg THIN, Ni THIN, Al THIN, Cr POOLABLE | tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Al: needs 2 more study(ies) |
@@ -119,11 +119,11 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=9 | 100–800 | medium | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
-| Cd | n=11 | 50–230 | high | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
+| Pb | n=9 | 100–800 | medium | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
+| Cd | n=11 | 50–230 | high | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
 | iAs | data gap | — | — | — |
 | tAs | data gap | — | — | — |
-| tHg | n=2 | 10–280 | low | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| tHg | n=2 | 10–280 | low | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/codex-cxs-193-1995\|2]] |
 | Ni | n=2 | 100–220 | low | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/kamaly2023-egypt-poultry-metals\|2]] |
 | Al | n=1 | 290–14000 | low | [[sources/kamaly2023-egypt-poultry-metals\|1]] |
 | Cr | n=5 | 110–600 | medium | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/meligy2024-camel-meat-toxic-elements\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
@@ -208,9 +208,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->

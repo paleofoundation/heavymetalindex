@@ -143,5 +143,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [eb75b21](https://github.com/paleofoundation/heavymetalindex/commit/eb75b21) | 2026-06-08 | ingest: iyabo2015-ekiti-staple-foods-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| [593d25dd6](https://github.com/paleofoundation/heavymetalindex/commit/593d25dd6) | 2026-06-09 | audit: iyabo2015-ekiti-staple-foods-metals revised per autonomous audit |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [eb75b21a1](https://github.com/paleofoundation/heavymetalindex/commit/eb75b21a1) | 2026-06-08 | ingest: iyabo2015-ekiti-staple-foods-metals fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

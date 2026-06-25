@@ -99,5 +99,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [0642913](https://github.com/paleofoundation/heavymetalindex/commit/0642913) | 2026-06-08 | ingest: wang2020-jilin-total-diet-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| [276f55976](https://github.com/paleofoundation/heavymetalindex/commit/276f55976) | 2026-06-09 | audit: wang2020-jilin-total-diet-metals revised per autonomous audit |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [064291360](https://github.com/paleofoundation/heavymetalindex/commit/064291360) | 2026-06-08 | ingest: wang2020-jilin-total-diet-metals fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

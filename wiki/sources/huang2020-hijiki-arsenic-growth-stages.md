@@ -90,3 +90,13 @@ This source is routeable edible-hijiki occurrence evidence because it reports dr
 - Units and basis are preserved as `mg/kg dry weight`, `%`, `ng/g DW min`, and `µmol/L`; no conversions were performed.
 - Evidence tier B reflects peer-reviewed primary edible-seaweed occurrence and speciation data, but with internal source inconsistencies and limited QA/QC detail in the extracted text.
 - Brand firewall: no sampled brands are reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b8113ca1a](https://github.com/paleofoundation/heavymetalindex/commit/b8113ca1a) | 2026-06-09 | ingest: huang2020-hijiki-arsenic-growth-stages fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

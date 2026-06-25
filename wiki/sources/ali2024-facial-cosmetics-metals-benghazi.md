@@ -78,3 +78,13 @@ App: If adult cosmetic profiles include Libya-market context, this source can su
 - Brand firewall: Table 2 reports product codes, colors, and manufacture countries but no brand names. This page does not identify brands and uses only de-identified code maxima and product-form means/ranges.
 - Evidence tier: `C` because the study is a small Benghazi-market convenience sample with DOI and primary measurements but limited QA/QC reporting. The paper gives duplicate determinations and detection limits but no CRM, recovery, LOQ, or market-representative design.
 - Routing: product slugs `makeup-foundation-powders-blush`, `eye-makeup`, and `lipstick` appear in the taxonomy snapshot. The live `lipstick` page is a retired adult-lipstick placeholder pending a broader Cat 13 adult lip-products destination; this page uses the existing slug and records the gap rather than inventing `lip-products`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5f6db767f](https://github.com/paleofoundation/heavymetalindex/commit/5f6db767f) | 2026-06-09 | ingest: ali2024-facial-cosmetics-metals-benghazi fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

@@ -1,0 +1,68 @@
+---
+type: source
+raw_handle: GAP-mineral-water-Cd::10.3390/ijerph18041580
+cite_key: dias2021-nutshell-biosorbents-cadmium-lead-mercury
+title: "Nutshells as efficient biosorbents to remove cadmium, lead, and mercury from contaminated solutions"
+authors: ["Mariana Dias", "Joao Pinto", "Bruno Henriques", "Paula Figueira", "Elaine Fabre", "Daniela Tavares", "Carlos Vale", "Eduarda Pereira"]
+year: 2021
+publication: "International Journal of Environmental Research and Public Health"
+doi: "10.3390/ijerph18041580"
+source_type: peer-reviewed
+evidence_tier: A
+license: "CC BY 4.0"
+raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-mineral-water-cd_2021_10-3390-ijerph18041580.pdf
+metals: [Cd, Pb, tHg]
+ingredients: []
+products: []
+matrices: [biosorbent, contaminated-water, mineral-water]
+jurisdictions: [PT]
+near_duplicates: []
+sample_n: null
+sample_population: "Bench-scale biosorption assays testing almond, hazelnut, peanut, pistachio, and walnut shells against cadmium, lead, and mercury in ultrapure water and mineral water."
+updated: 2026-06-14
+---
+
+# Dias et al. 2021 - Nutshell biosorbents for cadmium, lead, and mercury
+
+Dias and colleagues tested nutshell wastes as biosorbents for cadmium, lead, and mercury removal from contaminated water. This is direct a2 remediation evidence, including tests in mineral-water matrix.
+
+## Key numbers
+
+The abstract reports that hazelnut shells delivered efficiencies above `90%` for all elements in ultrapure water and above `90%` for `Pb` and `Hg` in mineral water.
+
+Table 2 discussion states that after `48 h`, hazelnut shells removed about `98%` of `Cd`, `97%` of `Pb`, and `90%` of `Hg` in ultrapure-water assays.
+
+For spiked mineral water, the paper reports that after `48 h` hazelnut shells removed `92%` of `Pb`, `90%` of `Hg`, and `73%` of `Cd`, showing matrix-related loss of cadmium performance.
+
+## Methods (brief)
+
+The paper compared almond, hazelnut, peanut, pistachio, and walnut shells as biosorbents in mono-element and multi-element assays. Metals were measured in ultrapure water and natural mineral water under controlled contact-time experiments, with Cd and Pb by atomic absorption and Hg by cold-vapor atomic fluorescence.
+
+## Implications
+
+Certification: Not packaged-water occurrence evidence. It belongs in the mitigation/remediation lane as a biosorbent-performance paper.
+
+Courses: Useful for showing how a food-waste-derived sorbent can behave differently in ultrapure versus mineral-water matrices.
+
+App: Context-only mitigation evidence.
+
+## Wiki pages this source may touch
+
+- [[mitigation/remediation-evidence]]
+- [[metals/cadmium]]
+- [[metals/lead]]
+- [[metals/mercury-total]]
+
+## Verification notes
+
+Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. Products and ingredients remain intentionally empty because the study is a contaminated-water remediation experiment, not a consumer mineral-water survey.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [dcc9003f0](https://github.com/paleofoundation/heavymetalindex/commit/dcc9003f0) | 2026-06-14 | recover source: nutshell biosorbents Cd Pb Hg |
+<!-- END: hmi-page-history -->

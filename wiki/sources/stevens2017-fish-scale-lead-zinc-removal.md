@@ -68,3 +68,13 @@ App: Context only. The source supports mitigation narrative for wastewater treat
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it was a fish-scale wastewater-removal study, not vinegar or food occurrence. On reading, it is in-scope a2 mitigation/remediation because it reports measured Pb/Zn sorption and real-wastewater removal values.
 
 Numbers were checked against the abstract, methods, optimization table, real-wastewater application paragraph, and conclusion in the extracted PDF. The Pb/Zn final removal percentages are internally order-ambiguous between the abstract and results paragraph, so the page records that ambiguity instead of transposing the values. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [85aebff29](https://github.com/paleofoundation/heavymetalindex/commit/85aebff29) | 2026-06-10 | recover-ingest 2026-06-10: stevens2017-fish-scale-lead-zinc-removal (lane a2, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

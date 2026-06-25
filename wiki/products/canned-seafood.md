@@ -24,7 +24,7 @@ step0_basis: "regulatory-alignment (Sn to Codex 250000; inherited fish Hg caps);
 step0_confidence: provisional
 across_row_review_hook: "DISSOLVED 2026-06-16: freestanding canned row is defective per the canned/tin rule (conflates can-driven Sn + fish-driven MeHg). Canned forms route to their matrix-native fish/shellfish row carrying a tin flag; Sn handled as the tin-dirty subcategory via the Cat 23 food-packaging-cans platform. Not a Cat 6 standalone standard."
 literature_scope: thin
-sources: 51
+sources: 55
 wiki_doi: null
 created_by: cat6_step0_scaffold_2026_06_02
 updated: 2026-06-02
@@ -234,8 +234,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [cb2a3bb](https://github.com/paleofoundation/heavymetalindex/commit/cb2a3bb) | 2026-06-03 | feat(standards): Cat 6 (Seafood) Step 0 scope lock + recover ~219 stranded declarations |
+| [7121b3244](https://github.com/paleofoundation/heavymetalindex/commit/7121b3244) | 2026-06-18 | finalize(cat6): recover the held cells + dissolve canned — Seafood fully resolved |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->

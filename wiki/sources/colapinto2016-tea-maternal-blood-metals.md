@@ -73,3 +73,13 @@ Microbiome: No microbiome endpoints.
 - Speciation: blood mercury is total mercury (`tHg`); blood arsenic is reported as arsenic/total As (`tAs`); urinary arsenic species are listed separately in Key numbers.
 - Products and ingredients are intentionally empty because this is a biomonitoring association study, not a tea occurrence paper.
 - The file was fetched under a coffee-cadmium gap name, but the paper itself is about tea intake and maternal/cord-blood metals.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [122957572](https://github.com/paleofoundation/heavymetalindex/commit/122957572) | 2026-06-11 | recover-ingest 2026-06-10: colapinto2016-tea-maternal-blood-metals (lane a4, was skip:no-occurrence-data) |
+<!-- END: hmi-page-history -->

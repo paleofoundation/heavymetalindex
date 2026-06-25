@@ -78,5 +78,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [a1c2ca9](https://github.com/paleofoundation/heavymetalindex/commit/a1c2ca9) | 2026-06-08 | ingest: pereira2008-ria-aveiro-mercury-review fresh from MFK/June 8 New Folder With Items 3 2 |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [a1c2ca9df](https://github.com/paleofoundation/heavymetalindex/commit/a1c2ca9df) | 2026-06-08 | ingest: pereira2008-ria-aveiro-mercury-review fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

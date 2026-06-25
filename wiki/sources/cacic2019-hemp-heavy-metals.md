@@ -89,3 +89,13 @@ App: The source can inform `herbal-botanicals` supply-chain context for hemp-der
 - The source is B-tier because it is a controlled pot/phytoaccumulation experiment rather than a retail food, supplement, or personal-care occurrence survey.
 - No product brand names are present. Variety names are cultivars, not sampled commercial brands, and are retained as study design variables.
 - Missing slug note: there is no dedicated `hemp` or `cannabis` ingredient slug in the current taxonomy snapshot; frontmatter uses the broad existing `[[ingredients/herbal-botanicals]]` slug and records `hemp`/`cannabis` only as matrix descriptors.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1476f4427](https://github.com/paleofoundation/heavymetalindex/commit/1476f4427) | 2026-06-09 | ingest: cacic2019-hemp-heavy-metals fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

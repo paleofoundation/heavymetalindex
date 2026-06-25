@@ -87,3 +87,13 @@ This source supports seaweed/kelp food routing with paired total and inorganic a
 - Speciation check: AsT and AsI are reported separately. AsI is not substituted for total arsenic and total arsenic is not promoted to inorganic arsenic.
 - Brand firewall: the source does not name consumer brands. The page reports only product forms/species and the Valencia health-food-store market context.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact hijiki, nori, green nori flakes, and taxonomic names remain in source text while frontmatter uses broad seaweed/kelp food slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d6aacfaf3](https://github.com/paleofoundation/heavymetalindex/commit/d6aacfaf3) | 2026-06-09 | ingest: laparra2003-seaweed-arsenic-bioaccessibility fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

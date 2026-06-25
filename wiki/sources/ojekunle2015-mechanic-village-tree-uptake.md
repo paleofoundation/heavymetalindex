@@ -89,3 +89,13 @@ App: Context only. The source can inform supply-chain due-diligence questions ar
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured soil and tree bark rather than cashew food occurrence. On reading, it is in-scope a2/a3 evidence: it reports phytoremediation uptake percentages and a mechanic-activity soil contamination pathway.
 
 Numbers were checked against the abstract, Tables 1-4, results discussion, methods, and conclusion in the extracted PDF. Products and ingredients are intentionally empty because no edible cashew, mango, neem product, or other consumer product was measured.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d2133836b](https://github.com/paleofoundation/heavymetalindex/commit/d2133836b) | 2026-06-10 | recover-ingest 2026-06-10: ojekunle2015-mechanic-village-tree-uptake (lane a2/a3, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

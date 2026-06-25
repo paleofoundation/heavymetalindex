@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-plastic-drinkware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9f90287036ebfd92584a0716623522f34037ea1b848a8cf0b69cfb890d72c510",
-      "content_bytes": 8235,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "3fcfa64f21896a8d8d2ae18afb40a9b5c5b9c06c23a5ec81f4b44a46d42f2e28",
+      "content_bytes": 8711,
+      "last_commit_sha": "cedfa8b8a",
+      "last_commit_date": "2026-06-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/tableware-plastic-drinkware.md | sha256sum"
+      "verify_command": "git show cedfa8b8a:wiki/products/tableware-plastic-drinkware.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -46,12 +46,45 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "c6d6b3536b1ecedfcc9100b248a0d994de4b46bae6da26bcdc4d19a31fc4c20f",
-          "content_bytes": 19130,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b1790aaffcba1277cabf08627d06676d5ffa3775f566da92cb1112ebb5555d64",
+          "content_bytes": 19164,
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zeng2023-disposable-food-containers-metals",
+        "title": "Heavy metal risk of disposable food containers on human health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Be",
+          "V",
+          "Ni",
+          "Zn",
+          "Mn",
+          "Cd",
+          "Cr",
+          "Co",
+          "Sb",
+          "Ba",
+          "Pb",
+          "Fe",
+          "Cu",
+          "Se"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zeng2023-disposable-food-containers-metals",
+        "content_pin": {
+          "content_sha256": "30b28467c8cfc102d0662f864f5d20f57f746a56b6cdf74265757563a78917e0",
+          "content_bytes": 7073,
+          "last_commit_sha": "761b54272",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 761b54272:wiki/sources/zeng2023-disposable-food-containers-metals.md | sha256sum"
         }
       }
     ]

@@ -65,3 +65,13 @@ App: Context only. The paper does not measure finished consumer foods or ingredi
 ## Verification notes
 
 The DOI, title, author list, journal, and year were taken from the Heliyon PDF. The auto-fetched filename is a coffee/cadmium gap hit because coffee-husk biochar is one tested amendment, but the target matrix is cacao-growing soil and cacao leaves. Products are intentionally empty; the routeable value is mitigation performance, not finished chocolate or cocoa occurrence.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [44df4a1c0](https://github.com/paleofoundation/heavymetalindex/commit/44df4a1c0) | 2026-06-09 | ingest auto-fetched 2026-06-09: lopez2022-cacao-biochar-cadmium |
+<!-- END: hmi-page-history -->

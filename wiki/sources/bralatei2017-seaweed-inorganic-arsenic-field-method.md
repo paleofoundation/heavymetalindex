@@ -73,5 +73,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [ff6cbad](https://github.com/paleofoundation/heavymetalindex/commit/ff6cbad) | 2026-06-08 | ingest: bralatei2017-seaweed-inorganic-arsenic-field-method fresh from MFK/June 8 New Folder With Items 3 2 |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [ff6cbad10](https://github.com/paleofoundation/heavymetalindex/commit/ff6cbad10) | 2026-06-08 | ingest: bralatei2017-seaweed-inorganic-arsenic-field-method fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

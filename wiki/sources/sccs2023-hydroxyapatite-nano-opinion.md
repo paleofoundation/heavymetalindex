@@ -92,3 +92,13 @@ App: If oral-care ingredient context is surfaced, this source can support an EU 
 - Brand firewall: the source gives a trade name for the notified ingredient material. This page uses the generic phrase "notified hydroxyapatite nano paste ingredient" around impurity values and does not attach consumer-product brands to contamination values.
 - Evidence tier: `A` because this is an EU SCCS final regulatory opinion with DOI-backed publication metadata. The measured impurity values remain ingredient-context, not finished-product occurrence evidence.
 - Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `2` oral-care product routing rows (`toothpaste` and `mouthwash-oral-rinse`), was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients` advisory in `data/evidence/routing_malformed.csv` because no hydroxyapatite ingredient slug exists.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2c7ad5fe3](https://github.com/paleofoundation/heavymetalindex/commit/2c7ad5fe3) | 2026-06-09 | ingest: sccs2023-hydroxyapatite-nano-opinion fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

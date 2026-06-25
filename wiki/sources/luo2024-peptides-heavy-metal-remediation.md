@@ -177,6 +177,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [ba01991](https://github.com/paleofoundation/heavymetalindex/commit/ba01991) | 2026-06-08 | audit: luo2024-peptides-heavy-metal-remediation promoted |
-| [3ffa5dd](https://github.com/paleofoundation/heavymetalindex/commit/3ffa5dd) | 2026-06-08 | ingest: luo2024-peptides-heavy-metal-remediation fresh from Manual Fetch Kimi/June 8/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [ba01991e3](https://github.com/paleofoundation/heavymetalindex/commit/ba01991e3) | 2026-06-08 | audit: luo2024-peptides-heavy-metal-remediation promoted |
+| [3ffa5dd0e](https://github.com/paleofoundation/heavymetalindex/commit/3ffa5dd0e) | 2026-06-08 | ingest: luo2024-peptides-heavy-metal-remediation fresh from Manual Fetch Kimi/June 8/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

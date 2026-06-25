@@ -75,3 +75,13 @@ App: Context only. The source can support upstream due-diligence questions about
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured soil affected by spent engine oil and palm oil mill effluent rather than palm oil occurrence. On reading, it is in-scope a3 source-attribution/pathway evidence.
 
 Numbers were checked against the abstract, Table 1, results, discussion, and conclusion in the extracted PDF. Hg is recorded as `tHg` and Cr as total Cr because the paper does not report mercury or chromium speciation. Products and ingredients are intentionally empty. The paired file `ing-palm-oil-pb_2024_10-54517-ssd-v2i2-2410.pdf` has the same SHA-256 hash and is treated as a duplicate of this source page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cec787a47](https://github.com/paleofoundation/heavymetalindex/commit/cec787a47) | 2026-06-11 | recover-ingest 2026-06-11: okeke2024-spent-engine-oil-pome-soil-metals (lane a3, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

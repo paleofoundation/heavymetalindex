@@ -83,7 +83,7 @@ used_in_products: [baby-cereals-dry-rice-based, mixed-meals-rice-containing, tee
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 9
+sources: 8
 ---
 
 # Rice Flour
@@ -97,13 +97,13 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
 | D1 Analyte coverage (tier: unset) | GAP | 2/10 HMTc analytes, total n=4 | only 2/10 analytes have evidence |
-| D2 Regional coverage | OK | 6 jurisdictions, top US 43% | — |
+| D2 Regional coverage | OK | 5 jurisdictions, top US 50% | — |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
 | D5 Pooling depth | THIN | Pb THIN, iAs THIN | Pb: needs 1 more study(ies); iAs: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tHg, tAs declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 9 claims checked, 9 supported; 6 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming rice-flour: codex-cxs-193-1995 |
+| D8 Provenance integrity | GAP | 9 claims checked, 9 supported; 6 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming rice-flour: navaretnam-2025-rice-as-speciation, codex-cxs-193-1995 |
 | D9 Mitigation | OK | 1 cited lever(s), 6 mitigation/ link(s) | — |
 | D10 Regulatory coverage | OK | 3 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, iAs |
 | D11 Standards-readiness | NOT-READY | priority: Pb, iAs; pairing 0 paired, 2 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); iAs: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
@@ -122,7 +122,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|------------|-------------|
 | Pb | n=2 | 5–30 | low | [[sources/fda-ctz-Pb-babyfood-2025\|1]], [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland\|2]] |
 | Cd | data gap | — | — | — |
-| iAs | n=2 | 60–180 | low | [[sources/arsenic2025-unknown\|1]], [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\|2]] |
+| iAs | n=2 | 60–180 | low | [[sources/navaretnam-2025-rice-as-speciation\|1]], [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\|2]] |
 | tAs | data gap | — | — | — |
 | tHg | data gap | — | — | — |
 | Ni | data gap | — | — | — |
@@ -137,7 +137,7 @@ This node is linked from [[products/baby-cereals-dry-rice-based]], [[products/mi
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -146,24 +146,23 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/arsenic2025-unknown\|Navaretnam et al. 2025]]. *Arsenic speciation using HPLC-ICP-MS in white and brown rice and health risk assessment*, Environmental Geochemistry and Health | 2025 | Peer-reviewed | iAs and tAs speciation by HPLC-ICP-MS in white and brown rice with EU husked- and polished-rice limit exceedances |
-| 2 | [[sources/fda-ctz-Pb-babyfood-2025\|FDA 2025]]. *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*, U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program | 2025 | Government guidance | FDA Closer to Zero final guidance setting 20 ppb Pb action level for dry infant cereals made with rice flour; applicable Pb regulatory ceiling for rice-flour-based products |
-| 3 | [[sources/song2024-crvi-hplc-icpms-food-reduction\|Song et al. 2024]]. *Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods*, Toxics 12(5): 325 | 2024 | Peer-reviewed | HPLC-ICP-MS Cr-VI speciation method validated on rice flour with Cr-VI not detected and rapid conversion to Cr-III in food matrices |
-| 4 | [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland\|Gacal et al. 2023]]. *Cadmium and lead content in gluten and gluten-free bread available on Polish market - potential health risk to consumers*, Annales Academiae Medicae Silesiensis | 2023 | Peer-reviewed | Cd and Pb in gluten-free Polish bread made with rice or maize flour, providing rice-flour-based finished-product distribution evidence |
-| 5 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | US iAs, tAs, Pb, Cd, tHg occurrence in Internal company testing records (ingredient pre-shipment tests and finished-product tests) subpoenaed from seven major US baby-food manufacturers covering... |
-| 6 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
-| 7 | [[sources/costa2018-rice-arsenic-speciation\|Costa 2018]]. *Especiacao quimica de arsenio em amostras de arroz empregando extracao por fase solida in-situ e determinacao por FI-HG AAS*, Tese de Doutorado, Universidade Federal de Uberlandia | 2018 | Thesis | BR tAs, iAs occurrence in IRMM-804 Rice Flour certified reference material used for validation of an arsenic speciation method (n=1) |
-| 8 | [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\|Chiger et al. 2017]]. *Effects of Inorganic Arsenic in Infant Rice Cereal on Children's Neurodevelopment*, Abt Associates report prepared for Healthy Babies Bright Futures | 2017 | Agency report | Modeled IQ-loss and benefit-cost analysis of reducing iAs in rice-flour-based infant cereal |
+| 1 | [[sources/fda-ctz-Pb-babyfood-2025\|FDA 2025]]. *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*, U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program | 2025 | Government guidance | FDA Closer to Zero final guidance setting 20 ppb Pb action level for dry infant cereals made with rice flour; applicable Pb regulatory ceiling for rice-flour-based products |
+| 2 | [[sources/song2024-crvi-hplc-icpms-food-reduction\|Song et al. 2024]]. *Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods*, Toxics 12(5): 325 | 2024 | Peer-reviewed | HPLC-ICP-MS Cr-VI speciation method validated on rice flour with Cr-VI not detected and rapid conversion to Cr-III in food matrices |
+| 3 | [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland\|Gacal et al. 2023]]. *Cadmium and lead content in gluten and gluten-free bread available on Polish market - potential health risk to consumers*, Annales Academiae Medicae Silesiensis | 2023 | Peer-reviewed | Cd and Pb in gluten-free Polish bread made with rice or maize flour, providing rice-flour-based finished-product distribution evidence |
+| 4 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | US iAs, tAs, Pb, Cd, tHg occurrence in Internal company testing records (ingredient pre-shipment tests and finished-product tests) subpoenaed from seven major US baby-food manufacturers covering... |
+| 5 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
+| 6 | [[sources/costa2018-rice-arsenic-speciation\|Costa 2018]]. *Especiacao quimica de arsenio em amostras de arroz empregando extracao por fase solida in-situ e determinacao por FI-HG AAS*, Tese de Doutorado, Universidade Federal de Uberlandia | 2018 | Thesis | BR tAs, iAs occurrence in IRMM-804 Rice Flour certified reference material used for validation of an arsenic speciation method (n=1) |
+| 7 | [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\|Chiger et al. 2017]]. *Effects of Inorganic Arsenic in Infant Rice Cereal on Children's Neurodevelopment*, Abt Associates report prepared for Healthy Babies Bright Futures | 2017 | Agency report | Modeled IQ-loss and benefit-cost analysis of reducing iAs in rice-flour-based infant cereal |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-Rice flour is the milled-and-ground form of rice (Oryza sativa) used as a primary ingredient in gluten-free baking, infant rice cereal ([[ingredients/rice-cereal]]), rice-containing infant mixed meals, teething-and-snacks products, and Asian noodle and pastry formulations. Rice flour inherits the source [[ingredients/rice|rice]] heavy-metal profile and concentrates per-mass metal load slightly via moisture removal during milling (raw rice at ≈14% moisture is milled and dried to ≈10-12% moisture). The dominant analyte concern for rice flour is [[metals/arsenic-inorganic|inorganic arsenic]] at 60-180 ppb typical, inherited from the flooded-paddy cultivation pathway documented in detail on the [[ingredients/rice|rice]] and [[ingredients/rice-cereal|rice cereal]] pages. The HPLC-ICP-MS speciation work by [[sources/arsenic2025-unknown|Navaretnam 2025]] documents the white-rice vs brown-rice iAs split that propagates into the corresponding rice-flour fractions.
+Rice flour is the milled-and-ground form of rice (Oryza sativa) used as a primary ingredient in gluten-free baking, infant rice cereal ([[ingredients/rice-cereal]]), rice-containing infant mixed meals, teething-and-snacks products, and Asian noodle and pastry formulations. Rice flour inherits the source [[ingredients/rice|rice]] heavy-metal profile and concentrates per-mass metal load slightly via moisture removal during milling (raw rice at ≈14% moisture is milled and dried to ≈10-12% moisture). The dominant analyte concern for rice flour is [[metals/arsenic-inorganic|inorganic arsenic]] at 60-180 ppb typical, inherited from the flooded-paddy cultivation pathway documented in detail on the [[ingredients/rice|rice]] and [[ingredients/rice-cereal|rice cereal]] pages. The HPLC-ICP-MS speciation work by [[sources/navaretnam-2025-rice-as-speciation|Navaretnam 2025]] documents the white-rice vs brown-rice iAs split that propagates into the corresponding rice-flour fractions.
 
 [[metals/lead|Lead]] in rice flour at 5-30 ppb typical comes from source-rice inheritance plus modest contribution from milling-equipment contact in older infrastructure. The FDA Closer to Zero baby-food Pb action level ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]]) at 20 ppb for dry infant cereals made with rice flour is the operative US regulatory anchor. The [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland|Gacal 2023]] Polish gluten-free bread survey documents Pb in rice-flour-based bread products. The HMTc panel concerns for rice flour are iAs (dominant), Pb (secondary), and Cd (likely present but not yet quantified in this evidence base).
 
 ## Ranges by source, region, and variety
 
-Variance within rice flour tracks source-rice origin (US southern long-grain, California medium-grain, Indian Basmati, Pakistani Basmati, Thai jasmine — each carrying different iAs baselines per [[sources/arsenic2025-unknown|Navaretnam 2025]] and the broader rice corpus), milling fraction (white-rice flour vs brown-rice flour: brown-rice flour carries the bran fraction and substantially higher iAs), and downstream sourcing (organic vs conventional rice flour does not appreciably differ on iAs because organic certification does not address soil arsenic). The [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf|Chiger 2017]] HBBF rice-cereal report quantifies the iAs neurodevelopmental risk in the infant-feeding context, which extends to rice-flour-based products generally.
+Variance within rice flour tracks source-rice origin (US southern long-grain, California medium-grain, Indian Basmati, Pakistani Basmati, Thai jasmine — each carrying different iAs baselines per [[sources/navaretnam-2025-rice-as-speciation|Navaretnam 2025]] and the broader rice corpus), milling fraction (white-rice flour vs brown-rice flour: brown-rice flour carries the bran fraction and substantially higher iAs), and downstream sourcing (organic vs conventional rice flour does not appreciably differ on iAs because organic certification does not address soil arsenic). The [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf|Chiger 2017]] HBBF rice-cereal report quantifies the iAs neurodevelopmental risk in the infant-feeding context, which extends to rice-flour-based products generally.
 
 ## Processing effects
 
@@ -183,7 +182,7 @@ Rice flour routes into three primary product-row families: [[products/baby-cerea
 
 **Formulation levers** ([[mitigation/formulation]]) include partial substitution of rice flour with non-rice gluten-free flours ([[ingredients/maize|corn]] flour, [[ingredients/quinoa|quinoa]] flour, sorghum flour, millet flour, almond flour, coconut flour) in gluten-free baking and infant-cereal formulations to proportionally dilute iAs load.
 
-**Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature: lot-level iAs testing on incoming rice-flour supply against the FDA CTZ infant-rice-cereal 100 ppb action level (or against tighter brand internal specifications). HPLC-ICP-MS speciation is the operative analytical platform per [[sources/arsenic2025-unknown|Navaretnam 2025]].
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature: lot-level iAs testing on incoming rice-flour supply against the FDA CTZ infant-rice-cereal 100 ppb action level (or against tighter brand internal specifications). HPLC-ICP-MS speciation is the operative analytical platform per [[sources/navaretnam-2025-rice-as-speciation|Navaretnam 2025]].
 
 **Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are limited; the iAs and Pb loads are in the flour itself. Standard storage-condition specifications apply to maintain flour quality.
 
@@ -202,9 +201,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
 <!-- END: hmi-page-history -->

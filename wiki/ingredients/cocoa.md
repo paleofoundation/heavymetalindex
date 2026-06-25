@@ -84,7 +84,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/cocoa-powder]]", "[[ingredients/high-cocoa-solid-dark-chocolate]]"]
 used_in_products: ["[[products/chocolate]]", "[[products/cocoa-beverages]]", "[[products/cocoa-baked-goods]]", "[[products/confectionery]]", "[[products/baby-food-flavor]]", "[[products/nutritional-supplements]]"]
 audience: [regulator, educator, consumer, app]
-sources: 64
+sources: 67
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -100,9 +100,9 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
 | D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=66 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 37 jurisdictions, top EU 40% | — |
-| D3 Anthropogenic evidence | GAP | 6 drinking-water + 3 soil + 1 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 6 drivers, 10 upstream source(s) | — |
+| D2 Regional coverage | OK | 37 jurisdictions, top EU 41% | — |
+| D3 Anthropogenic evidence | GAP | 7 drinking-water + 4 soil + 1 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
+| D4 Background mechanism | OK | section present, 6 drivers, 11 upstream source(s) | — |
 | D5 Pooling depth | THIN | Pb THIN, Cd THIN, tHg THIN, Ni THIN, Al THIN, tAs THIN | Pb: needs a sample-level-backed source; Cd: needs a sample-level-backed source; tHg: needs 3 distinct source(s); Ni: needs 1 distinct source(s); Al: needs 2 distinct source(s); tAs: needs 2 distinct source(s) |
 | D6 Speciation | OK | iAs, tHg, tAs declared | — |
 | D7 Basis declaration | GAP | 2/10 populated cells declare a basis token | 8 populated cell(s) lack a basis token: iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
@@ -123,10 +123,10 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=11 | 30–110 | high | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/codex-cccf17-2024\|3]] |
+| Pb | n=11 | 30–110 | high | [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/codex-cccf17-2024\|3]] |
 | Cd | n=32 | 200–990 | high | [[sources/jaramillo-mazo2026-cacao-cd-bacteria\|1]], [[sources/vega-jara2025-cocoa-cd-mitigation-amf-biochar\|2]], [[sources/garciaporras2025-cadmium-cacao-farmland\|3]] |
 | iAs | data gap | — | — | — |
-| tAs | n=6 | 50–100 | medium | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/codex-cccf17-2024\|3]] |
+| tAs | n=6 | 50–100 | medium | [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/codex-cccf17-2024\|3]] |
 | tHg | n=4 | 10–35 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/mancuso2024-food-contamination-cvd\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
 | Ni | n=8 | 8200–12000 | medium | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]], [[sources/bfr2022-nickel-dietary-intake-germany-meal\|2]], [[sources/efsa-nickel-contam-2020\|3]] |
 | Al | n=5 | 5000–10000 | medium | [[sources/efsa2021-aluminium-food-qa\|1]], [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\|2]], [[sources/fechner2019-cocoa-origin-al-cd-exposure\|3]] |
@@ -252,8 +252,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 6 | [[sources/cantoral2024-cadmium-foodstuffs-mexico\|Cantoral et al. 2024]]. *Dietary Risk Assessment of Cadmium Exposure Through Commonly Consumed Foodstuffs in Mexico*, Foods | 2024 | Peer-reviewed | Cd concentrations in 143 Mexican foodstuffs including cocoa powder (0.289 mg/kg, third highest of all matrices); dietary risk assessment showing school-age children exceed EFSA TWI by 53% |
 | 7 | [[sources/cbi2024-cocoa-eu-market-requirements\|Centre for the Promotion 2024]]. *What requirements must cocoa meet to be allowed on the European market?*, CBI (Centre for the Promotion of Imports from developing countries), Netherlands Enterprise Agency / Netherlands Ministry of Foreign Affairs — market-information / buyer-requirements article | 2024 | Government guidance | EU Cd concentrations |
 | 8 | [[sources/codex-cccf17-2024\|Codex 2024]]. *Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)*, Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission | 2024 | Government report | CCCF17 session report — adopted Cd ML for quinoa and initiated new work extending the cocoa Cd Code of Practice model to rice, cereals, vegetables, fish, and seafood |
-| 9 | [[sources/eu-2024-907-nickel-monitoring-recommendation\|EU 2024]]. *Commission Recommendation (EU) 2024/907 of 22 March 2024 on the monitoring of nickel in food*, Official Journal of the European Union, L series, 2024/907 (26.3.2024) | 2024 | Regulation | EU Ni concentrations |
-| 10 | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|Hands et al. 2024]]. *A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA*, Frontiers in Nutrition | 2024 | Peer-reviewed | US Pb, Cd, tAs occurrence in 72 consumer cocoa-containing products (dark chocolate, cocoa powder, and related products) purchased in the US from retail and... (n=72) |
+| 9 | [[sources/eu-2024-1987-nickel-maximum-levels\|EU 2024]]. *Commission Regulation (EU) 2024/1987 of 30 July 2024 amending Regulation (EU) 2023/915 as regards maximum levels of nickel in certain foodstuffs*, Official Journal of the European Union, L series, 2024/1987 (31.7.2024) | 2024 | Regulation | EU Ni concentrations |
+| 10 | [[sources/eu-2024-907-nickel-monitoring-recommendation\|EU 2024]]. *Commission Recommendation (EU) 2024/907 of 22 March 2024 on the monitoring of nickel in food*, Official Journal of the European Union, L series, 2024/907 (26.3.2024) | 2024 | Regulation | EU Ni concentrations |
 | 11 | [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|Hands et al. 2024]]. *A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA*, Frontiers in Nutrition | 2024 | Peer-reviewed | Pb, Cd, and As in 72 US retail dark chocolate and cocoa products across four cohort years (2014–2022), showing organic products carry higher Cd and Pb and concentrations declining over time |
 | 12 | [[sources/mancuso2024-food-contamination-cvd\|Mancuso et al. 2024]]. *Food contamination and cardiovascular disease: a narrative review* | 2024 | Peer-reviewed | EU/global Pb, Cd, iAs, tAs, tHg occurrence in null |
 | 13 | [[sources/zhao2024-toxic-metals-metalloids-food-review\|Zhao et al. 2024]]. *Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies*, Current Opinion in Environmental Science & Health | 2024 | Peer-reviewed | AU/BR/FR tAs, iAs, Cd, Pb occurrence in Global occurrence synthesis: Table 1 aggregates national mean occurrence data from Total Diet Studies across Australia, Brazil, France,... |
@@ -304,11 +304,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 58 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical textbook chapter on Cd toxicology covering toxicokinetics, renal endpoint, carcinogenicity, and risk assessment — provides the health-effects framework underlying regulatory limits cited on this page |
 | 59 | [[sources/efsa-chromium-contam-2014\|EFSA 2014]]. *Scientific Opinion on the risks to public health related to the presence of chromium in food and drinking water*, EFSA Journal 2014;12(3):3595 | 2014 | Government report | EU Cr, Cr-VI occurrence in Analytical results submitted to EFSA on chromium in food (27,074) and drinking water (52,735) reported by EU Member... (n=79809) |
 | 60 | [[sources/efsa2012-cadmium-dietary-exposure-europe\|EFSA 2012]]. *Cadmium dietary exposure in the European population*, EFSA Journal 2012;10(1):2551 | 2012 | Government report | EU Cd occurrence in Cadmium occurrence results in food submitted to EFSA from 22 EU Member States, 3 European Economic Area or... (n=178541) |
-| 61 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb occurrence in Aggregated EU occurrence data: 94,126 quantified analytical results across 14 Member States, Norway and three commercial operators (2003–2009),... (n=94126) |
-| 62 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA 2009 Cd risk assessment establishing TWI of 2.5 µg/kg bw/week; includes cocoa and chocolate in the European dietary Cd exposure model used to derive the EU regulatory framework |
-| 63 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal 2008;754:1-34 | 2008 | Government report | EU Al concentrations |
-| 64 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Codex General Standard — sets matrix-specific Cd MLs cited in the regulatory limits section, including 2.0 mg/kg for 100% cocoa powder and graduated limits by cocoa-solid percentage for chocolate |
-| 65 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Foundational Ni content dataset (2,221 samples) reporting cocoa mean Ni at 9.8 µg/g (range 8.2–12.0 µg/g), the highest of any food matrix — primary source for the Nickel in cocoa section |
+| 61 | [[sources/iarc2012-nickel-compounds-monograph-100c\|IARC 2012]]. *Nickel and Nickel Compounds (IARC Monographs Volume 100C — A Review of Human Carcinogens: Arsenic, Metals, Fibres, and Dusts)*, IARC Monographs on the Evaluation of Carcinogenic Risks to Humans, Vol. 100C, pp. 169–218. International Agency for Research on Cancer, Lyon. | 2012 | Government report | INTL Ni occurrence in Human carcinogenicity evidence drawn from occupational cohort and nested case–control studies of nickel-producing and nickel-using workers (smelting, refining,... |
+| 62 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb occurrence in Aggregated EU occurrence data: 94,126 quantified analytical results across 14 Member States, Norway and three commercial operators (2003–2009),... (n=94126) |
+| 63 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA 2009 Cd risk assessment establishing TWI of 2.5 µg/kg bw/week; includes cocoa and chocolate in the European dietary Cd exposure model used to derive the EU regulatory framework |
+| 64 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal 2008;754:1-34 | 2008 | Government report | EU Al concentrations |
+| 65 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Codex General Standard — sets matrix-specific Cd MLs cited in the regulatory limits section, including 2.0 mg/kg for 100% cocoa powder and graduated limits by cocoa-solid percentage for chocolate |
+| 66 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Foundational Ni content dataset (2,221 samples) reporting cocoa mean Ni at 9.8 µg/g (range 8.2–12.0 µg/g), the highest of any food matrix — primary source for the Nickel in cocoa section |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -318,9 +319,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->

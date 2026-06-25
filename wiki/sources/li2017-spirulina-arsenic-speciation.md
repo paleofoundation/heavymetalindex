@@ -93,3 +93,13 @@ This source adds a primary arsenic-speciation dataset for food-grade spirulina p
 - Speciation check: As(III), As(V), DMA(V), MMA(V), and unknown organic arsenic species remain separate. No total arsenic value is promoted to iAs, and no source-unreported As(III)+As(V) sum is calculated.
 - Brand firewall: the source reports production-site provinces, not consumer brands; no brand-linked contamination values are reproduced.
 - Missing-slug check: taxonomy snapshot has no exact `spirulina` or cyanobacteria ingredient slug. Frontmatter leaves `ingredients: []` and uses existing product slugs for algae/seaweed-based supplements, dietary supplements, and oral-solid powders.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [44269ab67](https://github.com/paleofoundation/heavymetalindex/commit/44269ab67) | 2026-06-09 | ingest: li2017-spirulina-arsenic-speciation fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

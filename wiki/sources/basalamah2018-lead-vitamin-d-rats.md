@@ -67,3 +67,13 @@ Microbiome: No microbiome endpoints.
 - Speciation: the source reports lead as Pb/lead acetate exposure and tissue Pb concentration; no lead speciation is reported.
 - Products and ingredients are intentionally empty because this is an animal toxicology paper, not a supplement occurrence study.
 - The vitamin D3 co-treatment improved multiple injury markers but did not significantly change tissue Pb concentrations; this distinction is preserved because it is load-bearing for remediation versus toxicity interpretation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7412baabf](https://github.com/paleofoundation/heavymetalindex/commit/7412baabf) | 2026-06-11 | recover-ingest 2026-06-10: basalamah2018-lead-vitamin-d-rats (lane a4, was skip:no-occurrence-data) |
+<!-- END: hmi-page-history -->

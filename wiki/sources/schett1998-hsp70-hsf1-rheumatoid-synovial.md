@@ -173,6 +173,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [02e92e3](https://github.com/paleofoundation/heavymetalindex/commit/02e92e3) | 2026-06-08 | audit: schett1998-hsp70-hsf1-rheumatoid-synovial revised |
-| [2febc49](https://github.com/paleofoundation/heavymetalindex/commit/2febc49) | 2026-06-08 | ingest: schett1998-hsp70-hsf1-rheumatoid-synovial fresh from MFK/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [02e92e381](https://github.com/paleofoundation/heavymetalindex/commit/02e92e381) | 2026-06-08 | audit: schett1998-hsp70-hsf1-rheumatoid-synovial revised |
+| [2febc496f](https://github.com/paleofoundation/heavymetalindex/commit/2febc496f) | 2026-06-08 | ingest: schett1998-hsp70-hsf1-rheumatoid-synovial fresh from MFK/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

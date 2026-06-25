@@ -74,3 +74,13 @@ App: Supports qualitative risk context that root vegetables grown in Pb-contamin
 ## Verification notes
 
 This page was built from the full PDF text, including the abstract, participant recruitment, biomonitoring methods, environmental sampling methods, results for blood Pb, saliva Pb, soil Pb, tap-water Pb, Table 3 consumption-rate context, and the discussion paragraph summarizing fruit and vegetable Pb concentrations. The source reports lead only. Produce values are summarized crop-group means from the associated Newcastle allotment study and are labeled here as summarized context rather than sample-level occurrence tables.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f669a354e](https://github.com/paleofoundation/heavymetalindex/commit/f669a354e) | 2026-06-09 | ingest auto-fetched 2026-06-09: bramwell2022-urban-garden-produce-lead |
+<!-- END: hmi-page-history -->

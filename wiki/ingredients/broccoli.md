@@ -8,16 +8,18 @@ category: vegetable
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, null]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-06-11
+    basis: boiled-broccoli-edible-portion-wet-weight
+    speciation_note: see prose; only positive broccoli-specific Pb is a single Polish farm outlier
   Cd:
     status: populated
     typical_ppb: [6.7, 27.6]
     p95_ppb: 37
-    confidence: medium
+    confidence: high
     n_studies: 3
     last_reviewed: 2026-05-13
   iAs:
@@ -29,23 +31,27 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, null]
+    p95_ppb: null
     confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: boiled-broccoli-edible-portion-wet-weight
+    speciation: total-As-only
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, null]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: boiled-broccoli-edible-portion-wet-weight
+    speciation: total-Hg-only
   Ni:
     status: populated
     typical_ppb: [0, 130]
     p95_ppb: 137
-    confidence: medium
+    confidence: high
     n_studies: 3
     last_reviewed: 2026-05-13
   Al:
@@ -57,11 +63,13 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, null]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-06-11
+    basis: boiled-broccoli-edible-portion-wet-weight
+    speciation_note: total-Cr-only; no Cr-VI measurement in corpus
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -73,7 +81,7 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 1.7]
     p95_ppb: 2.4
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -82,8 +90,8 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
-sources: 9
+updated: 2026-06-11
+sources: 7
 ---
 
 # Broccoli
@@ -96,17 +104,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 6/10 HMTc analytes, total n=21 | labeled data-gaps: Al, Sn |
-| D2 Regional coverage | OK | 6 jurisdictions, top US 25% | — |
+| D1 Analyte coverage (tier: occasional) | OK | 6/10 HMTc analytes, total n=16 | labeled data-gaps: Al, Sn |
+| D2 Regional coverage | OK | 5 jurisdictions, top US 33% | — |
 | D3 Anthropogenic evidence | GAP | 1 soil; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 1 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, iAs THIN, tAs THIN, tHg CONFIDENT, Ni CONFIDENT, Cr CONFIDENT, U THIN | iAs: needs 1 more study(ies); tAs: needs 1 more study(ies); U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb THIN, Cd CONFIDENT, iAs THIN, tAs THIN, tHg THIN, Ni CONFIDENT, Cr THIN, U THIN | Pb: needs 1 more study(ies); iAs: needs 1 more study(ies); tAs: needs 2 more study(ies); tHg: needs 2 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 14 claims checked, 14 supported; 4 citations, 0 orphan, 3 foreign | 3 foreign citation(s) not naming broccoli: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020, codex-cxs-193-1995 |
+| D7 Basis declaration | GAP | 4/10 populated cells declare a basis token | 6 populated cell(s) lack a basis token: Cd, iAs, Ni, Al, Sn, U |
+| D8 Provenance integrity | GAP | 41 claims checked, 41 supported; 7 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming broccoli: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020, dearing2025-nz-organic-nonorganic-vegetables-cyclone |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Cr, U; pairing 0 paired, 8 single, 0 unpaired | iAs: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Cr, U; pairing 0 paired, 8 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); iAs: THIN, needs 1 more study(ies); tAs: THIN, needs 2 more study(ies); tHg: THIN, needs 2 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 6 populated cell(s) lack a basis token: Cd, iAs, Ni, Al, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -124,16 +132,28 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0 | medium | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/codex-cxs-193-1995\|3]] |
-| Cd | n=3 | 6.7–27.6 | medium | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/codex-cxs-193-1995\|3]] |
+| Pb | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/kiczorowski2022-fermented-vegetables-metals\|2]] |
+| Cd | n=3 | 6.7–27.6 | high | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/codex-cxs-193-1995\|3]] |
 | iAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| Ni | n=3 | 0–130 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=3 | 0–130 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
-| Cr | n=3 | 0 | medium | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/imongben2026-kaduna-vegetables-hra\|2]] |
 | Sn | data gap | — | — | — |
-| U | n=2 | 0–1.7 | low | — |
+| U | n=2 | 0–1.7 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, total-arsenic, total-mercury, and chromium cells were resynthesized on 2026-06-11 on a boiled broccoli edible-portion wet-weight basis, the form in which FDA Total Diet Study Food 113 ("Broccoli, fresh/frozen, boiled") reports and a reasonable proxy for the cooked broccoli that enters mixed and infant-food products. Values below the analytical limit of detection or quantification are treated as left-censored bounds, not as measured zeros. The earlier profile reported all four of these analytes at typical and 95th-percentile values of zero at high confidence; those figures were an artifact of the FDA composite in which every sample (or all but one) fell below the reporting limit and the reported below-limit results were pooled as literal zeros. The resynthesis replaces the literal zeros with the honest FDA censored floor and, where a broccoli-specific positive measurement exists, records it explicitly as a stratified value rather than folding it into the headline distribution.
+
+Lead rests on two broccoli-specific contributors and is held at low confidence. The FDA Total Diet Study composite is fully censored: all 27 boiled-broccoli samples fell below the 4 µg/kg reporting limit ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]), so the honest floor is the 4 µg/kg reporting limit expressed as a left-censored bound, not a measured zero. The only positive broccoli-specific lead measurement in the corpus is a single Polish farm fermentation study ([[sources/kiczorowski2022-fermented-vegetables-metals|Kiczorowski et al. 2022]]), which reports raw broccoli lead at 4.39 µg/g fresh matter (4390 µg/kg), falling to 3.78 µg/g (3780 µg/kg) after fermentation. That raw value is roughly forty-four times the EU 100 µg/kg maximum level for vegetables and is uniformly elevated across every vegetable in that study (4.28 to 8.28 µg/g fresh matter), a pattern consistent with a high-deposition growing environment or a methodological offset rather than typical retail broccoli; it is therefore carried as a stratified outlier and is not used to set the headline typical or 95th-percentile. Because the only same-basis FDA evidence is fully censored and the single positive value is an extreme outlier, the lead typical is recorded as a left-censored bound ([0, null]) with no published 95th-percentile.
+
+Total arsenic and total mercury each rest on the FDA censored floor alone. The FDA composite reports total arsenic below the 3 µg/kg reporting limit and total mercury below the 1 µg/kg reporting limit across all 27 boiled-broccoli samples ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]); no broccoli-specific positive value for either analyte exists in the corpus. The New Zealand Hawke's Bay survey corroborates the near-absence of mercury, reporting total mercury below its 0.01 mg/kg limit of detection in all 153 vegetable composites (Brassica included), though it carries no broccoli-resolved row ([[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing et al. 2025]]). Each of these two cells is therefore recorded with the FDA reporting limit as a left-censored low bound ([0, null]) and no 95th-percentile, at low confidence and a single contributor. Total arsenic is held distinct from inorganic arsenic, which remains its own low-confidence cell and is not derived from total arsenic; total mercury is held distinct from methylmercury and is not derived from it.
+
+Chromium is reported as total chromium only at low confidence; no broccoli hexavalent-chromium measurement exists in the corpus, and Cr-VI is never inferred from total chromium. The FDA boiled-broccoli composite is censored in 26 of 27 samples below the 50 µg/kg reporting limit, with a single above-limit composite reaching 300 µg/kg ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]); the distribution 90th and 95th percentiles remain below the reporting limit, so the cell is recorded with the FDA reporting limit as a left-censored low bound ([0, null]) and the lone 300 µg/kg composite is noted as the distribution maximum rather than promoted to a typical-upper or 95th-percentile value. The only other broccoli-specific chromium measurement is a Nigerian market survey reporting 6.3 mg/kg (6300 µg/kg) on a dry-weight basis in produce irrigated with River Kaduna water that receives untreated refinery, textile, and fertilizer-industry effluent ([[sources/imongben2026-kaduna-vegetables-hra|Imongben et al. 2026]]); that value is a dry-weight industrial-irrigation outlier and is carried in the stratification below, not folded into the wet-weight headline distribution.
+
+Brassica-broad and wastewater-irrigated values are stratified separately and are excluded from the headline broccoli percentiles. A Malawian study of Brassica vegetables (Brassica rapa, Brassica napus, Brassica rapa subsp. chinensis, not broccoli specifically) irrigated with treated wastewater effluent reports every species above 0.3 mg/kg lead, with Brassica rapa stems reaching 4.09 mg/kg, and total chromium in 64 percent of samples above 2.3 mg/kg with Brassica napus stems at 4.20 mg/kg ([[sources/chiutula2025-wastewater-vegetables-malawi|Chiutula et al. 2025]]); the associated health-risk indices far exceed unity. These are wastewater-irrigation contamination-transfer values on a related brassica genus, not edible-floret retail broccoli, and they bound the upper tail of what wastewater-irrigated brassica can carry rather than the central tendency of commercial broccoli.
 
 ## Routing
 
@@ -141,7 +161,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -154,21 +174,21 @@ FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix 
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Broccoli, fresh/frozen, boiled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 3.9 | 84 | in profile |
-| Cr | 27 | 0 | 300 | in profile |
-| Ni | 27 | 0 | 170 | in profile |
-| Pb | 27 | 0 | 0 | in profile |
-| U | 27 | 0 | 4 | in profile |
-| tAs | 27 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 3.9 | 6.74 | 11 | 27.6 | 37 | 84 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 300 | in profile |
+| Ni | 27 | 0 | 0 | 58 | 130 | 137 | 170 | in profile |
+| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | 0 | 1.68 | 2.36 | 4 | in profile |
+| tAs | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA FY2018-FY2020 Total Diet Study reports Cd in boiled broccoli ranging from 3.9 to 84 ppb (median 11 ppb, n=27), with substantial skew toward low values and occasional high outliers [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. Nickel ranged from 0 to 170 ppb (median 58 ppb). Pb, total As, and tHg were predominantly at or below the reporting limit in the TDS dataset. The Chiutula et al. 2025 study found measurably elevated Cd and Pb in brassica vegetables irrigated with wastewater effluent in Malawi [[sources/chiutula2025-wastewater-vegetables-malawi|Chiutula et al. 2025]], illustrating that irrigation-water quality is a major determinant of the Cd and Pb range in broccoli beyond the TDS background values. Varieties bred for higher glucosinolate content do not consistently differ from standard varieties in metal accumulation, though this remains understudied. The Codex Alimentarius international Cd maximum level for vegetables (0.05 mg/kg for most vegetables, with some variation) provides a ceiling well above the TDS typical values, including the upper end of the observed range [[sources/codex-cxs-193-1995|Codex 1995]].
+The FDA FY2018-FY2020 Total Diet Study reports Cd in boiled broccoli ranging from 3.9 to 84 ppb (median 11 ppb, p90 27.6 ppb, n=27), with substantial skew toward low values and occasional high outliers [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. Nickel ranged from 0 to 170 ppb (median 58 ppb, p90 130 ppb). Lead, total arsenic, and total mercury were below their reporting limits across the full distribution in the TDS dataset (lead below 4 µg/kg in all 27 samples, total arsenic below 3 µg/kg in all 27, total mercury below 1 µg/kg in all 27); these are left-censored bounds rather than measured zeros, so they constrain the boiled-broccoli metal burden from above. Total chromium was below the 50 µg/kg reporting limit in 26 of 27 samples with a single above-limit composite at 300 µg/kg. The only positive broccoli-specific lead value in the corpus is a Polish farm fermentation study reporting raw broccoli at 4.39 µg/g fresh matter, a uniformly elevated outlier far above the EU vegetable limit that is stratified rather than pooled into the headline range ([[sources/kiczorowski2022-fermented-vegetables-metals|Kiczorowski et al. 2022]]). The Chiutula et al. 2025 study found measurably elevated Cd, Cr, and Pb in Brassica vegetables (not broccoli specifically) irrigated with wastewater effluent in Malawi [[sources/chiutula2025-wastewater-vegetables-malawi|Chiutula et al. 2025]], illustrating that irrigation-water quality is a major determinant of the upper-tail metal range in brassica crops beyond the TDS background values; the Nigerian Kaduna survey reports a comparably elevated dry-weight broccoli chromium of 6.3 mg/kg under industrial-effluent irrigation ([[sources/imongben2026-kaduna-vegetables-hra|Imongben et al. 2026]]). Varieties bred for higher glucosinolate content do not consistently differ from standard varieties in metal accumulation, though this remains understudied. The Codex Alimentarius international Cd maximum level for vegetables (0.05 mg/kg for most vegetables, with some variation) provides a ceiling against which the TDS p90 of 27.6 ppb falls comfortably [[sources/codex-cxs-193-1995|Codex 1995]].
 
 ## Processing effects
 
@@ -220,12 +240,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/imongben2026-kaduna-vegetables-hra\|Imongben et al. 2026]]. *Determination of some heavy metals and their potential risk in selected vegetables on sale within Kaduna Metropolis, Kaduna State, Nigeria*, World Nutrition | 2026 | Peer-reviewed | NG Cr, Mn, Fe, Co, Ni, Cu, Mo, Zn occurrence in 12 vegetable types (carrots, sweet potatoes, celery, lettuce, spinach, cabbage, broccoli, cauliflower, eggplant, avocado, peas, beans) purchased from... (n=60) |
 | 2 | [[sources/barber2025-baby-food-elements-us\|Barber et al. 2025]]. *Toxic elements in baby and young children's foods in the US and correlation to ingredients*, Food Additives & Contaminants: Part B | 2025 | Peer-reviewed | US tAs, iAs, Cd, tHg, MeHg, Pb, Tl occurrence in Non-targeted 2023 FDA convenience survey of 566 foods intended for babies, young children, pregnant women, and nursing mothers:... (n=566) |
 | 3 | [[sources/chiutula2025-wastewater-vegetables-malawi\|Chiutula et al. 2025]]. *Assessment of Heavy Metal Accumulation in Wastewater–Receiving Soil–Exotic and Indigenous Vegetable Systems and Its Potential Health Risks: A Case Study from Blantyre, Malawi*, International Journal of Environmental Research and Public Health | 2025 | Peer-reviewed | Measured Cd, Cr, and Pb in Brassica and indigenous leafy vegetables irrigated with WWTP effluent in Blantyre, Malawi; wastewater-irrigation contamination transfer context for brassica crops |
-| 4 | [[sources/dearing2025-hawkes-bay-organic-nonorganic-vegetables\|Dearing et al. 2025]]. *Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis*, F1000Research | 2025 | Peer-reviewed | NZ Cd, Pb, tAs, Ni, Cr, Tl, tHg occurrence in 153 composite representative samples (combined from 736 individual vegetables) sourced from 14 market gardens across 10 growing sites... (n=153) |
-| 5 | [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180-200 | 2024 | Peer-reviewed | CN Pb, Cd, tAs, tHg, Cr, Ni, Cu, Zn occurrence in 244 commercially purchased food samples from six supermarkets, six farmers' markets, and one wholesale market across Shanyang and... (n=244) |
-| 6 | [[sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180–202 | 2024 | Peer-reviewed | CN Pb, Cd, Cr, tAs, tHg, Ni, Cu, Zn occurrence in 244 retail food samples purchased from 13 sampling points (6 supermarkets, 6 farmers' markets, 1 wholesale market) across... (n=244) |
-| 7 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | Primary occurrence data for Pb, Cd, Ni, Cr, U, tAs, and tHg in boiled broccoli (TDS Food 113; n=27 per analyte) |
-| 8 | [[sources/kiczorowski2022-fermented-vegetables-metals\|Kiczorowski et al. 2022]]. *Effect of fermentation of chosen vegetables on the nutrient, mineral, and biocomponent profile in human and animal nutrition*, Scientific Reports | 2022 | Peer-reviewed | PL Pb, Cd occurrence in Raw and fermented broccoli, carrot, cucumber, pepper, and red beet, four repetitions per vegetable combination (n=40) |
-| 9 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | US iAs, tAs, Pb, Cd, tHg occurrence in Internal company testing records (ingredient pre-shipment tests and finished-product tests) subpoenaed from seven major US baby-food manufacturers covering... |
+| 4 | [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180-200 | 2024 | Peer-reviewed | CN Pb, Cd, Cr, tAs, tHg, Ni, Cu, Zn occurrence in 244 retail food samples purchased from 13 sampling points (6 supermarkets, 6 farmers' markets, 1 wholesale market) across... (n=244) |
+| 5 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | Primary occurrence data for Pb, Cd, Ni, Cr, U, tAs, and tHg in boiled broccoli (TDS Food 113; n=27 per analyte) |
+| 6 | [[sources/kiczorowski2022-fermented-vegetables-metals\|Kiczorowski et al. 2022]]. *Effect of fermentation of chosen vegetables on the nutrient, mineral, and biocomponent profile in human and animal nutrition*, Scientific Reports | 2022 | Peer-reviewed | PL Pb, Cd occurrence in Raw and fermented broccoli, carrot, cucumber, pepper, and red beet, four repetitions per vegetable combination (n=40) |
+| 7 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | US iAs, tAs, Pb, Cd, tHg occurrence in Internal company testing records (ingredient pre-shipment tests and finished-product tests) subpoenaed from seven major US baby-food manufacturers covering... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -235,9 +253,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [0ae30c7b4](https://github.com/paleofoundation/heavymetalindex/commit/0ae30c7b4) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 3 — 12 produce pages / 51 cells |
+| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
 <!-- END: hmi-page-history -->

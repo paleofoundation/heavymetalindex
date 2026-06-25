@@ -79,3 +79,13 @@ App: Context only. The source can inform aluminum toxicology background but cann
 Recovered from `skip:no-occurrence-data` under the 2026-06-10 inclusion-by-default rule. On reading, this paper is lane a4 toxicology evidence because it uses AlCl3 to induce an Alzheimer's-like rat model and reports histopathology, tau immunohistochemistry, and gene-expression response.
 
 Numbers were checked against the abstract, nanoparticle-preparation section, experimental-design section, Table 1, results text, and figure captions. No food, water, product, or tissue aluminum concentration is reported, and no exact figure-bar values are transcribed because they are not printed in the extracted text. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d0625510b](https://github.com/paleofoundation/heavymetalindex/commit/d0625510b) | 2026-06-11 | recover-ingest 2026-06-11: elmosbah2024-aluminum-rivastigmine-rats (lane a4, was skip:no-occurrence-data) |
+<!-- END: hmi-page-history -->

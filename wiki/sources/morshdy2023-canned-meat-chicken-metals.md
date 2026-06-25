@@ -83,3 +83,13 @@ App: The study can support canned meat and poultry context cards for Egypt, incl
 - Source-internal inconsistency: Table 1 prints canned chicken luncheon tHg as minimum `1.19`, maximum `11.62`, mean `4.51±0.55`, and Al as minimum `2.5`, maximum `12.36`, mean `5.05±0.62`. The surrounding prose instead says Hg was `ND` to `0.08` with mean `0.068±0.003` and Al was `0.13` to `8.29` with mean `3.54±0.54`. This page preserves the visually checked Table 1 values and flags the inconsistency.
 - Brand firewall: no product brand names are reported. Values are summarized only at product-category level.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy has no exact canned-beef, corned-beef, or chicken-luncheon product slug, so products route through `processed-meats`, `beef-product`, and `poultry-product`; exact product forms remain matrix descriptors and source text.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4c4465f45](https://github.com/paleofoundation/heavymetalindex/commit/4c4465f45) | 2026-06-09 | ingest: houlihan2019-hbbf-whats-in-baby-food [enhanced] from MFK/June 8/Kimi_Agent_Download Corruption Issue/01_Bottles_Nipples_SippyCups |
+<!-- END: hmi-page-history -->

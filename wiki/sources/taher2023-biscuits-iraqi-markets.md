@@ -82,5 +82,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [8c6cd7f](https://github.com/paleofoundation/heavymetalindex/commit/8c6cd7f) | 2026-06-08 | audit-queue: pourramezani2019-iran-imported-black-tea-metals -> audited-promote |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [8c6cd7f3a](https://github.com/paleofoundation/heavymetalindex/commit/8c6cd7f3a) | 2026-06-08 | audit-queue: pourramezani2019-iran-imported-black-tea-metals -> audited-promote |
 <!-- END: hmi-page-history -->

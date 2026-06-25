@@ -76,5 +76,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [b1522f2](https://github.com/paleofoundation/heavymetalindex/commit/b1522f2) | 2026-06-08 | audit: nagel1989-cadmium-resistant-chlamydomonas revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [b1522f2ed](https://github.com/paleofoundation/heavymetalindex/commit/b1522f2ed) | 2026-06-08 | audit: nagel1989-cadmium-resistant-chlamydomonas revised |
 <!-- END: hmi-page-history -->

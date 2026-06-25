@@ -107,3 +107,13 @@ This source provides a primary, sample-level occurrence dataset for algae and cy
 - Speciation check: `Astot` is recorded as total arsenic; `Asi` is the source's measured inorganic arsenic fraction after extraction/oxidation; DMA and AB are not collapsed into total or inorganic arsenic. The `Astot-AB` metric is the source's potentially toxic fraction, not a measured inorganic-arsenic value.
 - Brand firewall: the page retains only anonymized source sample IDs (FS1-FS33) and species/formulation categories; no brand names or retailer names are attached to values.
 - Missing-slug note: the taxonomy snapshot has no exact ingredient slugs for `Chlorella`, `Spirulina`, `cyanobacteria`, `Ascophyllum`, `Fucus`, `Macrocystis`, or `Lithothamnium`. Frontmatter uses broad existing `seaweed`, `herbal-botanicals`, `supplements-algae-seaweed-based`, and `dietary-supplements` slugs; exact organism names remain in source text.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9101d0500](https://github.com/paleofoundation/heavymetalindex/commit/9101d0500) | 2026-06-09 | ingest: cheyns2021-algae-cyanobacteria-supplements-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

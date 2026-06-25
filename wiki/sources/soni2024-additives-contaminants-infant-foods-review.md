@@ -106,3 +106,14 @@ PDF retrieved during the 2026-06-09 multi-database `/discover` autopilot run for
 - Evidence tier: B-tier. The journal *Food Production, Processing and Nutrition* is peer-reviewed and BMC-published, but this is a narrative review with no systematic-review methodology, no PRISMA, and no quantitative synthesis. A-tier is reserved for original measurements and systematic reviews/meta-analyses. The Bair 2022 narrative review carries A-tier because of its uniqueness as the primary US-policy consolidation for infant heavy metals; Soni 2024 does not fill an equivalent unique-source role.
 - Evidence fitness: EF-4 (Context only). The review establishes regulatory landscape and qualitative additive/contaminant overview but contains no measurements, no occurrence percentiles, and no metal-specific dietary-exposure modeling that an HMI cell could ingest as a contributing source.
 - Autonomous audit subagent 2026-06-09 flagged MSG unit assignment in the Key numbers TDI table; verified against p.12 of the PDF — initial draft had transposed the per-pound and per-kilogram labels relative to the source. Source text is "14 mg per pound (30 mg per kilogram of body weight per day)" (Appaiah 2010); table now mirrors the source exactly. The two values are internally consistent (14 mg/lb × 2.2 lb/kg ≈ 30.8 mg/kg). All other audit checks returned clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4c15d7c8b](https://github.com/paleofoundation/heavymetalindex/commit/4c15d7c8b) | 2026-06-09 | audit: soni2024-additives-contaminants-infant-foods-review revised |
+| [bc390e301](https://github.com/paleofoundation/heavymetalindex/commit/bc390e301) | 2026-06-09 | ingest: soni2024-additives-contaminants-infant-foods-review fresh from MFD/Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

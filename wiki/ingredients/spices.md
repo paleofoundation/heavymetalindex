@@ -10,14 +10,14 @@ contamination_profile:
     status: populated
     typical_ppb: [100, 3000]
     p95_ppb: null
-    confidence: medium
+    confidence: high
     n_studies: 8
     last_reviewed: 2026-05-31
   Cd:
     status: populated
     typical_ppb: [30, 500]
     p95_ppb: null
-    confidence: medium
+    confidence: high
     n_studies: 6
     last_reviewed: 2026-05-31
   iAs:
@@ -83,7 +83,7 @@ used_in_products: ["[[products/spice-blends]]", "[[products/curry-powder]]"]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 41
+sources: 42
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 8
@@ -100,7 +100,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
 | D1 Analyte coverage (tier: unset) | tier-unset | 7/10 HMTc analytes, total n=29 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 43 jurisdictions, top US 18% | — |
+| D2 Regional coverage | OK | 43 jurisdictions, top US 19% | — |
 | D3 Anthropogenic evidence | GAP | 3 drinking-water + 1 soil; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 5 drivers, 3 upstream source(s) | — |
 | D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, tAs POOLABLE, tHg POOLABLE, Ni THIN, Al THIN, Cr THIN, Sn THIN | Ni: needs 1 more study(ies); Al: needs 1 more study(ies); Cr: needs 1 more study(ies); Sn: needs 2 more study(ies) |
@@ -127,8 +127,8 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=8 | 100–3000 | medium | [[sources/chime2025-nigerian-spices-as-cd-pb\|1]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|2]], [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|3]] |
-| Cd | n=6 | 30–500 | medium | [[sources/chime2025-nigerian-spices-as-cd-pb\|1]], [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|2]], [[sources/spex2023-hot-sauce-chili-powder-metals\|3]] |
+| Pb | n=8 | 100–3000 | high | [[sources/chime2025-nigerian-spices-as-cd-pb\|1]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|2]], [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|3]] |
+| Cd | n=6 | 30–500 | high | [[sources/chime2025-nigerian-spices-as-cd-pb\|1]], [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|2]], [[sources/spex2023-hot-sauce-chili-powder-metals\|3]] |
 | iAs | data gap | — | — | — |
 | tAs | n=5 | 20–500 | medium | [[sources/chime2025-nigerian-spices-as-cd-pb\|1]], [[sources/spex2023-hot-sauce-chili-powder-metals\|2]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|3]] |
 | tHg | n=3 | 1–50 | medium | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
@@ -209,22 +209,21 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 20 | [[sources/alam2022-dhaka-spices-lead\|Alam et al. 2022]]. *Lead Exposure of Four Biologically Important Common Branded and Nonbranded Spices: Relative Analysis and Health Implication*, Research Square (preprint) | 2022 | Preprint | BD Pb occurrence in 72 branded and nonbranded powdered spice samples (cumin, red pepper chili, turmeric, and coriander) collected from three local... (n=72) |
 | 21 | [[sources/brown2022-patna-spice-lead\|Brown et al. 2022]]. *Prevalence of elevated blood lead levels and risk factors among children living in Patna, Bihar, India 2020*, PLOS Global Public Health | 2022 | Peer-reviewed | IN Pb, Cr occurrence in Household spice samples and child blood lead measurements from Patna, Bihar, India (n=132) |
 | 22 | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|Fechner et al. 2022]]. *Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods*, Food Chemistry: X | 2022 | Peer-reviewed | DE/EU tHg, MeHg, Cd, Pb, Ni occurrence in 869 pooled samples from 356 foods representing 90%+ of German food consumption; adults and adolescents N=13,926 (NVS II... (n=869) |
-| 23 | [[sources/mercan-yucel2022-van-spices-heavy-metals\|Mercan 2022]]. *Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals*, Balikesir Health Sciences Journal | 2022 | Peer-reviewed | TR Ni, tAs, Cd, Pb, Al occurrence in 60 unpackaged spice samples sold in Van Province, Turkey: black pepper n=20, cumin n=20, and red pepper n=20. (n=60) |
-| 24 | [[sources/mercanyucel2022-van-spices-metals\|Mercan 2022]]. *Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals*, Balikesir Health Sciences Journal | 2022 | Peer-reviewed | TR Ni, tAs, Cd, Pb, Al occurrence in Unpackaged red pepper, black pepper, and cumin samples sold in Van province, Turkey (n=60) |
-| 25 | [[sources/gill2021-consumer-reports-spices\|Gill et al. 2021]]. *The Trouble With Spices: Heavy Metals in 15 Herbs and Spices*, Consumer Reports | 2021 | NGO report | US Pb, Cd, tAs occurrence in 126 individual products covering 38 brands and 15 herb/spice types from the US retail market (n=126) |
-| 26 | [[sources/kaalieswari2021-fenugreek-arsenic\|Sri et al. 2021]]. *Determination of Arsenic Uptake Potential In an Edible Plant Species (Trigonellna Foenum- Granecum) and Assessment of Human Health Risk*, Current World Environment | 2021 | Peer-reviewed | IN tAs occurrence in Laboratory-grown fenugreek seedlings treated for 10 days with arsenite or arsenate solutions at 1, 2, and 3 mg/L,... (n=21) |
-| 27 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | PL/EU Cd, Pb, tAs, tHg occurrence in 240 plant material samples from eastern Poland: herbs (n=163), spices (n=61), China tea/green tea (n=8), Arabica roasted coffee... (n=240) |
-| 28 | [[sources/ericson2020-georgian-spices-lead\|Ericson et al. 2020]]. *Elevated Levels of Lead (Pb) Identified in Georgian Spices*, Annals of Global Health | 2020 | Peer-reviewed | GE Pb occurrence in Spice samples from 25 homes and four bazaars in Georgia, with additional household media assessed during a lead-exposure... (n=128) |
-| 29 | [[sources/bua2016-aromatic-spices-metals-italy\|Bua et al. 2016]]. *Heavy metals in aromatic spices by inductively coupled plasma-mass spectrometry*, Food Additives & Contaminants: Part B | 2016 | Peer-reviewed | IT Cd, tHg, tAs, Pb occurrence in Seven cinnamon, curcuma, and ginger spice samples traded in the Italian market, with origins listed as Indonesia, Madagascar,... (n=7) |
-| 30 | [[sources/matloob2016-iraq-spices-heavy-metals\|Matloob 2016]]. *Using Stripping Voltammetry to Determine Heavy Metals in Cooking Spices Used in Iraq*, Polish Journal of Environmental Studies | 2016 | Peer-reviewed | IQ Cu, Zn, Fe, Mn, Cr, Ni, Co, Cd, Pb, tHg occurrence in 32 natural spice types sold in Babil, Iraq, five samples per spice (n=160) |
-| 31 | [[sources/oladoye2016-odo-ori-spices-metals\|Oladoye et al. 2016]]. *Evaluation of Effects of Heavy Metal Contents of Some Common Spices Available in Odo-Ori Market, Iwo, Nigeria*, Journal of Environmental Analytical Chemistry | 2016 | Peer-reviewed | NG Fe, Cu, Cd, Pb occurrence in Eight spice samples purchased in October 2015 from a retail shop in Odo-Ori Market, Iwo, Nigeria: four natural... (n=8) |
-| 32 | [[sources/darko2014-seasonings-ghana-metals\|Darko et al. 2014]]. *Heavy metal content in mixed and unmixed seasonings on the Ghanaian market*, African Journal of Food Science | 2014 | Peer-reviewed | GH Fe, Zn, Cu, Cd, Pb, tHg occurrence in Twenty-two powdered mixed and unmixed seasoning samples purchased at random from local shops and hawkers in the Asafo,... (n=22) |
-| 33 | [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|Hoha et al. 2014]]. *Heavy metals contamination levels in processed meat marketed in Romania*, Environmental Engineering and Management Journal | 2014 | Peer-reviewed | RO Pb, Cd, Cu, Zn occurrence in Bacon (n=6), ham (n=6), sausage (n=12), and salami (n=12) purchased from four commercial centers in Iasi, Romania; produced... (n=36) |
-| 34 | [[sources/ziyaina2014-libya-spices-lead-cadmium\|Ziyaina et al. 2014]]. *Lead and cadmium residue determination in spices available in Tripoli City markets (Libya)*, African Journal of Biochemistry Research | 2014 | Peer-reviewed | LY Pb, Cd occurrence in Imported spices traded in Libyan markets in 2011: 24 wholesale and 36 retail samples for each of four... (n=240) |
-| 35 | [[sources/bergerritchie2013-hot-sauce-lead\|Berger Ritchie et al. 2013]]. *An evaluation of lead concentrations in imported hot sauces*, Journal of Environmental Science and Health, Part B: Pesticides, Food Contaminants, and Agricultural Wastes | 2013 | Peer-reviewed | US/MX/GT Pb occurrence in 25 bottles of imported hot sauces purchased Sep 2009–Jan 2010 at 5 ethnic markets, 2 grocery stores, and... (n=25) |
-| 36 | [[sources/bassioni2012-aluminum-foil-meat-cooking-uae\|Bassioni et al. 2012]]. *Risk Assessment of Using Aluminum Foil in Food Preparation*, International Journal of Electrochemical Science | 2012 | Peer-reviewed | AE/EG Al occurrence in Six experimental cooking-solution recipes (variants on 40% minced-beef extract + tomato juice + citric acid + NaCl, with... (n=6) |
-| 37 | [[sources/efsa2012-cadmium-dietary-exposure-europe\|EFSA 2012]]. *Cadmium dietary exposure in the European population*, EFSA Journal 2012;10(1):2551 | 2012 | Government report | EU Cd occurrence in Cadmium occurrence results in food submitted to EFSA from 22 EU Member States, 3 European Economic Area or... (n=178541) |
-| 38 | [[sources/divrikli2006-spices-herbal-plants-metals\|Divrikli et al. 2006]]. *Trace heavy metal contents of some spices and herbal plants from western Anatolia, Turkey*, International Journal of Food Science and Technology | 2006 | Peer-reviewed | TR Cu, Cd, Pb, Ni, Cr, Fe, Mn, Zn occurrence in Eleven spice and herbal plant species collected from 50 farmers in western Anatolia, Turkey, June-October 2003; four samples... (n=44) |
+| 23 | [[sources/mercan-yucel2022-van-spices-heavy-metals\|Mercan 2022]]. *Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals*, Balikesir Health Sciences Journal | 2022 | Peer-reviewed | TR Ni, tAs, Cd, Pb, Al occurrence in Unpackaged red pepper, black pepper, and cumin samples sold in Van province, Turkey (n=60) |
+| 24 | [[sources/gill2021-consumer-reports-spices\|Gill et al. 2021]]. *The Trouble With Spices: Heavy Metals in 15 Herbs and Spices*, Consumer Reports | 2021 | NGO report | US Pb, Cd, tAs occurrence in 126 individual products covering 38 brands and 15 herb/spice types from the US retail market (n=126) |
+| 25 | [[sources/kaalieswari2021-fenugreek-arsenic\|Sri et al. 2021]]. *Determination of Arsenic Uptake Potential In an Edible Plant Species (Trigonellna Foenum- Granecum) and Assessment of Human Health Risk*, Current World Environment | 2021 | Peer-reviewed | IN tAs occurrence in Laboratory-grown fenugreek seedlings treated for 10 days with arsenite or arsenate solutions at 1, 2, and 3 mg/L,... (n=21) |
+| 26 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | PL/EU Cd, Pb, tAs, tHg occurrence in 240 plant material samples from eastern Poland: herbs (n=163), spices (n=61), China tea/green tea (n=8), Arabica roasted coffee... (n=240) |
+| 27 | [[sources/ericson2020-georgian-spices-lead\|Ericson et al. 2020]]. *Elevated Levels of Lead (Pb) Identified in Georgian Spices*, Annals of Global Health | 2020 | Peer-reviewed | GE Pb occurrence in Spice samples from 25 homes and four bazaars in Georgia, with additional household media assessed during a lead-exposure... (n=128) |
+| 28 | [[sources/bua2016-aromatic-spices-metals-italy\|Bua et al. 2016]]. *Heavy metals in aromatic spices by inductively coupled plasma-mass spectrometry*, Food Additives & Contaminants: Part B | 2016 | Peer-reviewed | IT Cd, tHg, tAs, Pb occurrence in Seven cinnamon, curcuma, and ginger spice samples traded in the Italian market, with origins listed as Indonesia, Madagascar,... (n=7) |
+| 29 | [[sources/matloob2016-iraq-spices-heavy-metals\|Matloob 2016]]. *Using Stripping Voltammetry to Determine Heavy Metals in Cooking Spices Used in Iraq*, Polish Journal of Environmental Studies | 2016 | Peer-reviewed | IQ Cu, Zn, Fe, Mn, Cr, Ni, Co, Cd, Pb, tHg occurrence in 32 natural spice types sold in Babil, Iraq, five samples per spice (n=160) |
+| 30 | [[sources/oladoye2016-odo-ori-spices-metals\|Oladoye et al. 2016]]. *Evaluation of Effects of Heavy Metal Contents of Some Common Spices Available in Odo-Ori Market, Iwo, Nigeria*, Journal of Environmental Analytical Chemistry | 2016 | Peer-reviewed | NG Fe, Cu, Cd, Pb occurrence in Eight spice samples purchased in October 2015 from a retail shop in Odo-Ori Market, Iwo, Nigeria: four natural... (n=8) |
+| 31 | [[sources/darko2014-seasonings-ghana-metals\|Darko et al. 2014]]. *Heavy metal content in mixed and unmixed seasonings on the Ghanaian market*, African Journal of Food Science | 2014 | Peer-reviewed | GH Fe, Zn, Cu, Cd, Pb, tHg occurrence in Twenty-two powdered mixed and unmixed seasoning samples purchased at random from local shops and hawkers in the Asafo,... (n=22) |
+| 32 | [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|Hoha et al. 2014]]. *Heavy metals contamination levels in processed meat marketed in Romania*, Environmental Engineering and Management Journal | 2014 | Peer-reviewed | RO Pb, Cd, Cu, Zn occurrence in Bacon (n=6), ham (n=6), sausage (n=12), and salami (n=12) purchased from four commercial centers in Iasi, Romania; produced... (n=36) |
+| 33 | [[sources/ziyaina2014-libya-spices-lead-cadmium\|Ziyaina et al. 2014]]. *Lead and cadmium residue determination in spices available in Tripoli City markets (Libya)*, African Journal of Biochemistry Research | 2014 | Peer-reviewed | LY Pb, Cd occurrence in Imported spices traded in Libyan markets in 2011: 24 wholesale and 36 retail samples for each of four... (n=240) |
+| 34 | [[sources/bergerritchie2013-hot-sauce-lead\|Berger Ritchie et al. 2013]]. *An evaluation of lead concentrations in imported hot sauces*, Journal of Environmental Science and Health, Part B: Pesticides, Food Contaminants, and Agricultural Wastes | 2013 | Peer-reviewed | US/MX/GT Pb occurrence in 25 bottles of imported hot sauces purchased Sep 2009–Jan 2010 at 5 ethnic markets, 2 grocery stores, and... (n=25) |
+| 35 | [[sources/bassioni2012-aluminum-foil-meat-cooking-uae\|Bassioni et al. 2012]]. *Risk Assessment of Using Aluminum Foil in Food Preparation*, International Journal of Electrochemical Science | 2012 | Peer-reviewed | AE/EG Al occurrence in Six experimental cooking-solution recipes (variants on 40% minced-beef extract + tomato juice + citric acid + NaCl, with... (n=6) |
+| 36 | [[sources/efsa2012-cadmium-dietary-exposure-europe\|EFSA 2012]]. *Cadmium dietary exposure in the European population*, EFSA Journal 2012;10(1):2551 | 2012 | Government report | EU Cd occurrence in Cadmium occurrence results in food submitted to EFSA from 22 EU Member States, 3 European Economic Area or... (n=178541) |
+| 37 | [[sources/divrikli2006-spices-herbal-plants-metals\|Divrikli et al. 2006]]. *Trace heavy metal contents of some spices and herbal plants from western Anatolia, Turkey*, International Journal of Food Science and Technology | 2006 | Peer-reviewed | TR Cu, Cd, Pb, Ni, Cr, Fe, Mn, Zn occurrence in Eleven spice and herbal plant species collected from 50 farmers in western Anatolia, Turkey, June-October 2003; four samples... (n=44) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -234,9 +233,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->

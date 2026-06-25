@@ -146,5 +146,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [af61f84](https://github.com/paleofoundation/heavymetalindex/commit/af61f84) | 2026-06-08 | ingest: gulcin2025-antioxidants-comprehensive-review fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [af61f849f](https://github.com/paleofoundation/heavymetalindex/commit/af61f849f) | 2026-06-08 | ingest: gulcin2025-antioxidants-comprehensive-review fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

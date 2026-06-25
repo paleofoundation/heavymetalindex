@@ -166,6 +166,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [534c0e1](https://github.com/paleofoundation/heavymetalindex/commit/534c0e1) | 2026-06-08 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [6ff6179](https://github.com/paleofoundation/heavymetalindex/commit/6ff6179) | 2026-06-08 | ingest: urbina2018-biomining-peptide-metal-recovery fresh from MFK/June 8 Black Market Peptide Metal Survey |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [534c0e1a1](https://github.com/paleofoundation/heavymetalindex/commit/534c0e1a1) | 2026-06-08 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [6ff61791f](https://github.com/paleofoundation/heavymetalindex/commit/6ff61791f) | 2026-06-08 | ingest: urbina2018-biomining-peptide-metal-recovery fresh from MFK/June 8 Black Market Peptide Metal Survey |
 <!-- END: hmi-page-history -->

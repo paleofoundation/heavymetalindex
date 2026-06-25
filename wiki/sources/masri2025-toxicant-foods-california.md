@@ -340,6 +340,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [3ce252a](https://github.com/paleofoundation/heavymetalindex/commit/3ce252a) | 2026-06-08 | audit: masri2025-toxicant-foods-california revised |
-| [54c9910](https://github.com/paleofoundation/heavymetalindex/commit/54c9910) | 2026-06-08 | ingest: masri2025-toxicant-foods-california fresh from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [3ce252a49](https://github.com/paleofoundation/heavymetalindex/commit/3ce252a49) | 2026-06-08 | audit: masri2025-toxicant-foods-california revised |
+| [54c9910f7](https://github.com/paleofoundation/heavymetalindex/commit/54c9910f7) | 2026-06-08 | ingest: masri2025-toxicant-foods-california fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

@@ -78,3 +78,13 @@ Microbiome: The discussion mentions gut microbiota as a hypothetical high-salt-d
 - Speciation: the source reports urinary arsenic as `As` and later states that urinary total As reflects both organic and inorganic exposure; frontmatter therefore uses `tAs`, and the page does not promote this to inorganic arsenic.
 - Products and ingredients are intentionally empty because this is a biomonitoring association study, not a salt occurrence study.
 - The file was fetched under a salt-cadmium gap name, but the paper itself reports ten urinary metals and salt-use pattern associations.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0b35484d1](https://github.com/paleofoundation/heavymetalindex/commit/0b35484d1) | 2026-06-11 | recover-ingest 2026-06-10: zhang2025-salt-urinary-metals-nhanes (lane a4, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

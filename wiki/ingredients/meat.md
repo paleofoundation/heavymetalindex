@@ -22,11 +22,13 @@ contamination_profile:
     last_reviewed: 2026-05-16
   iAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 6
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 4]
+    p95_ppb: 27
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: meat-poultry-game-as-consumed-wet-weight
+    speciation_note: direct-iAs-speciation; modeled-iAs-from-tAs-and-biomonitoring-sources-excluded
   tHg:
     status: populated
     typical_ppb: [0, 1]
@@ -82,8 +84,8 @@ higher_risk_variants: []
 used_in_products: [mixed-meals-non-rice, mixed-meals-rice-containing]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
-sources: 55
+updated: 2026-06-11
+sources: 65
 ---
 
 # Meat and poultry
@@ -96,18 +98,18 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: staple) | OK | 8/10 HMTc analytes, total n=76 | — |
+| D1 Analyte coverage (tier: staple) | OK | 8/10 HMTc analytes, total n=71 | — |
 | D2 Regional coverage | OK | 45 jurisdictions, top EU 20% | — |
 | D3 Anthropogenic evidence | GAP | 8 drinking-water + 2 soil; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 8 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | POOLABLE | Pb CONFIDENT, Cd CONFIDENT, iAs POOLABLE, tHg POOLABLE, Ni POOLABLE, Al POOLABLE, Cr POOLABLE, Sn POOLABLE, tAs POOLABLE | — |
+| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, iAs THIN, tHg POOLABLE, Ni POOLABLE, Al POOLABLE, Cr POOLABLE, Sn POOLABLE, tAs POOLABLE | iAs: needs 2 more study(ies) |
 | D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 21 claims checked, 21 supported; 5 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming meat: fsa2016-infant-food-formula-metals-survey, fda-tds-elements-2018-2020 |
+| D7 Basis declaration | GAP | 1/10 populated cells declare a basis token | 9 populated cell(s) lack a basis token: Pb, Cd, tHg, Ni, Al, Cr, Sn, tAs, U |
+| D8 Provenance integrity | GAP | 28 claims checked, 28 supported; 10 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming meat: fsa2016-infant-food-formula-metals-survey, fda-tds-elements-2018-2020 |
 | D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
 | D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | iAs: POOLABLE; tHg: POOLABLE; Ni: POOLABLE; Al: POOLABLE; Cr: POOLABLE; Sn: POOLABLE; tAs: POOLABLE; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.50 | spread 1.00 — starved: brand-value |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); tHg: POOLABLE; Ni: POOLABLE; Al: POOLABLE; Cr: POOLABLE; Sn: POOLABLE; tAs: POOLABLE; basis: 9 populated cell(s) lack a basis token: Pb, Cd, tHg, Ni, Al, Cr, Sn, tAs, U |
+| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
 
 <!-- /hmi-completeness-scorecard -->
 
@@ -126,16 +128,24 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=15 | 0–13.1 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/wysok2025-heavy-metals-sheep-casings\|3]] |
-| Cd | n=15 | 0–3 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/wysok2025-heavy-metals-sheep-casings\|3]] |
-| iAs | n=6 | 0 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/ashley-martin2022-ias-biomonitoring-pregnancy\|2]], [[sources/fda-tds-elements-2018-2020\|3]] |
+| Pb | n=15 | 0–13.1 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|2]], [[sources/wysok2025-heavy-metals-sheep-casings\|3]] |
+| Cd | n=15 | 0–3 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|2]], [[sources/wysok2025-heavy-metals-sheep-casings\|3]] |
+| iAs | n=1 | 0–4 | low | [[sources/cfs2012-hktds-inorganic-arsenic\|1]] |
 | tAs | n=9 | 5–40 | medium | [[sources/wysok2025-heavy-metals-sheep-casings\|1]], [[sources/dai2024-chongqing-dietary-arsenic-exposure\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
-| tHg | n=8 | 0–1 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/wysok2025-heavy-metals-sheep-casings\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
+| tHg | n=8 | 0–1 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/wysok2025-heavy-metals-sheep-casings\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
 | Ni | n=7 | 27–258 | medium | [[sources/han2024-nickel-zhejiang-china\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
 | Al | n=6 | 0–1391 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/fda-tds-elements-2018-2020\|3]] |
 | Cr | n=6 | 40–472 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/henriksen2023-chromium-nordic-nnr\|2]], [[sources/fda-tds-elements-2018-2020\|3]] |
 | Sn | n=4 | 4.6–21 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/cfs2013-hktds-metallic-contaminants\|3]] |
 | U | data gap | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The inorganic-arsenic cell was resynthesized on 2026-06-11 on a meat-poultry-game as-consumed wet-weight basis. Values below the analytical limit of detection are treated as left-censored, not as measured zeros, and total arsenic and inorganic arsenic are kept as distinct analytes throughout.
+
+The earlier profile reported meat inorganic arsenic at typical and 95th-percentile values of zero at medium confidence with a study count of six. That figure was not supported by speciated occurrence data. Of the six contributors that count carried, three measured only total arsenic or modeled inorganic arsenic from it rather than measuring the inorganic fraction directly: the FDA Total Diet Study FY2018-FY2020 reports total arsenic only for every meat food (ground beef, ham, pork chop, pork sausage, pork bacon, lamb chop, turkey, frankfurter, bologna; reporting limit 3 µg/kg, prepared/cooked composite basis) and carries no speciated inorganic-arsenic column, and the Chongqing cumulative-risk model ([[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi|Chen et al. 2025]]) and the Chongqing dietary-arsenic assessment ([[sources/dai2024-chongqing-dietary-arsenic-exposure|Dai et al. 2024]]) both estimate meat inorganic arsenic by applying an inorganic-to-total ratio (70 to 100 percent for non-fish foods) to a measured total-arsenic value rather than by direct speciation. A fourth contributor, the pregnancy biomonitoring review ([[sources/ashley-martin2022-ias-biomonitoring-pregnancy|Ashley-Martin et al. 2022]]), reports urinary and blood arsenic-species fractions, not a food occurrence concentration in meat, and supplies exposure context only. None of these establish a speciated inorganic-arsenic concentration for the commodity, so they are excluded from the inorganic-arsenic occurrence anchor and the count is reduced to the genuine speciated contributors.
+
+The single source that measures inorganic arsenic in meat directly is the First Hong Kong Total Diet Study ([[sources/cfs2012-hktds-inorganic-arsenic|CFS 2012]]), which speciated inorganic arsenic by hydride-generation ICP-MS (limit of detection 3 µg/kg, non-detects substituted at half the limit of detection per WHO GEMS/Food-EURO guidance). Its meat, poultry and game group (48 composite samples, 54 percent below the limit of detection) had a group mean of 4 µg/kg and a range of not-detected to 27 µg/kg on an as-consumed wet-weight basis. The typical band is therefore set with a left-censored floor of 0 (the limit of detection is 3 µg/kg, and a majority of composites fell below it) and an upper-typical anchor of 4 µg/kg, the source's group mean. The 95th-percentile slot is anchored to the reported group maximum of 27 µg/kg; because the source reports a group mean and range rather than a percentile distribution, this is the highest grounded value available and is carried as the upper anchor rather than as a computed percentile. Confidence is held at low: the cell rests on one government total-diet survey, a majority of its composites are censored, and the upper bound is a reported maximum rather than a measured percentile. No second independent speciated meat inorganic-arsenic occurrence source exists in the current corpus; the cumulative review of arsenic in food ([[sources/uneyama2007-arsenic-foods-cumulative-data|Uneyama et al. 2007]]) likewise estimates the inorganic fraction from total arsenic using category ratios and does not contribute a primary speciated meat row. The total-arsenic cell on this page is held separate and is not derived from, nor used to derive, this inorganic-arsenic value.
 
 ## Routing
 
@@ -143,7 +153,7 @@ This node is linked from [[products/mixed-meals-non-rice]], [[products/mixed-mea
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
 
@@ -268,9 +278,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 4 (final) — 21 pages / 42 cells; backlog now ZERO |
 <!-- END: hmi-page-history -->

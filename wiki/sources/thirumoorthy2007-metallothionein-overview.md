@@ -141,6 +141,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [4084fc2](https://github.com/paleofoundation/heavymetalindex/commit/4084fc2) | 2026-06-08 | audit: thirumoorthy2007-metallothionein-overview promoted |
-| [1cdae9b](https://github.com/paleofoundation/heavymetalindex/commit/1cdae9b) | 2026-06-08 | ingest: thirumoorthy2007-metallothionein-overview fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [4084fc224](https://github.com/paleofoundation/heavymetalindex/commit/4084fc224) | 2026-06-08 | audit: thirumoorthy2007-metallothionein-overview promoted |
+| [1cdae9b21](https://github.com/paleofoundation/heavymetalindex/commit/1cdae9b21) | 2026-06-08 | ingest: thirumoorthy2007-metallothionein-overview fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

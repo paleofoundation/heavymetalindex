@@ -14,14 +14,14 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 6.4]
     p95_ppb: 6.7
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [25, 39.2]
     p95_ppb: 41
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
@@ -35,21 +35,21 @@ contamination_profile:
     status: populated
     typical_ppb: [7.8, 13.8]
     p95_ppb: 15.7
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
   Ni:
     status: populated
     typical_ppb: [150, 220]
     p95_ppb: 241
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   Al:
@@ -61,11 +61,12 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
+    speciation: total-Cr-only; Cr-VI not detected (<0.1 ug/kg) by HPLC-ICP-MS speciation
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -77,7 +78,7 @@ contamination_profile:
     status: populated
     typical_ppb: [1.2, 2.5]
     p95_ppb: 3.0
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -100,18 +101,18 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: staple) | below-tier | 5/10 HMTc analytes, total n=14 | staple tier expects total n>=40; have 14 |
+| D1 Analyte coverage (tier: staple) | GAP | 4/10 HMTc analytes, total n=10 | only 4/10 analytes have evidence |
 | D2 Regional coverage | below-tier | 1 jurisdictions, top CN 100% | only 1 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, Ni THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); Ni: needs 1 more study(ies); U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 10 claims checked, 10 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming whole-wheat-bread: fda2022-tds-elements-fy2018-fy2020 |
+| D8 Provenance integrity | GAP | 16 claims checked, 16 supported; 2 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming whole-wheat-bread: fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; depth below staple bar |
-| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 0.83 — starved: contamination-reduction |
+| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, U |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, Ni, U; pairing 0 paired, 5 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; depth below staple bar |
+| **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | — |
 
 <!-- /hmi-completeness-scorecard -->
 
@@ -128,16 +129,26 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=2 | 0–6.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 25–39.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Pb | n=2 | 0–6.4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 25–39.2 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — |
-| tAs | n=2 | 7.8–13.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 150–220 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=2 | 7.8–13.8 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | data gap | — | — | — |
+| Ni | n=2 | 150–220 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
-| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | data gap | — | — | — |
 | Sn | data gap | — | — | — |
-| U | n=2 | 1.2–2.5 | low | — |
+| U | n=2 | 1.2–2.5 | high | — |
+
+## Synthesis basis and censoring treatment
+
+The total-mercury and total-chromium cells were resynthesized on 2026-06-11 on a whole-wheat-bread-as-sold basis, the form FDA Total Diet Study Food 62 ("Bread, whole wheat, pre-sliced") reports and the form in which the product reaches the consumer. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
+
+The earlier profile reported total mercury and total chromium at typical and 95th-percentile values of zero at high confidence with two contributing studies. Those figures were an artifact of the FDA Total Diet Study composites for whole wheat bread, in which every one of the 27 composites fell below the reporting limit for each of these two metals and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]], total-mercury reporting limit 1 µg/kg, all 27 composites below limit; total-chromium reporting limit 50 µg/kg, all 27 composites below limit). For both metals the only occurrence measurement specific to whole wheat bread in the corpus is the fully censored FDA cell, and no primary food survey reports an extractable quantitative whole-wheat-bread value for either, so each is recorded as a reviewed data gap rather than as a measured zero. The honest floor is the FDA reporting limit expressed as a left-censored bound (total mercury below 1 µg/kg, total chromium below 50 µg/kg), not a measured zero.
+
+Total mercury and inorganic mercury are kept distinct, and total mercury is not derived from methylmercury; the FDA Total Diet Study measures total mercury only, and that measurement was fully censored, so no whole-wheat-bread mercury distribution is published. The single non-FDA source routed to this ingredient ([[sources/song2024-crvi-hplc-icpms-food-reduction|Song et al. 2024]]) is a Cr(VI) speciation method paper and does not measure mercury.
+
+Chromium is reported as total chromium only. The one speciated measurement in the corpus is from Song et al. 2024, in which a commercially purchased whole wheat bread from a Nanjing supermarket was analyzed by HPLC-ICP-MS with a 0.1 µg/kg detection limit and hexavalent chromium was not detected (below 0.1 µg/kg, triplicate measurement). Cr(VI) is therefore recorded as not detected at that speciation detection limit, and no Cr(VI) value is inferred from total chromium. Song et al. report no total-chromium concentration for the tested foods (their analysis targets the Cr(VI) species), and the FDA total-chromium cell for whole wheat bread is fully censored, so the total-chromium distribution is a reviewed data gap with no published central or 95th-percentile value. No mining-region, industrial, or wastewater-affected whole-wheat-bread chromium or mercury stratum exists in the corpus to report separately.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -149,7 +160,7 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018-FY2020 Occurrence Values
@@ -158,15 +169,15 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Bread, whole wheat, pre-sliced" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 24 | 42 | in profile |
-| Cr | 27 | 0 | 0 | in profile |
-| Ni | 27 | 140 | 250 | in profile |
-| Pb | 27 | 0 | 7.3 | in profile |
-| U | 27 | 0 | 4.1 | in profile |
-| tAs | 27 | 7.4 | 18 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 24 | 25 | 28 | 39.2 | 41 | 42 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Ni | 27 | 140 | 150 | 180 | 220 | 241 | 250 | in profile |
+| Pb | 27 | 0 | 0 | 4.3 | 6.44 | 6.71 | 7.3 | in profile |
+| U | 27 | 0 | 1.2 | 1.8 | 2.54 | 2.95 | 4.1 | in profile |
+| tAs | 27 | 7.4 | 7.82 | 9.6 | 13.8 | 15.7 | 18 | in profile |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
@@ -230,9 +241,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
+| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 4 (final) — 21 pages / 42 cells; backlog now ZERO |
+| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
 <!-- END: hmi-page-history -->

@@ -94,3 +94,13 @@ This source contributes historical direct occurrence evidence for French-market 
 - Speciation check: "mineral arsenic" is treated as the source's inorganic/mineral arsenic fraction. Total As, arsenosugars, As(V), As(III), DMAA, and MMAA are kept distinct and not collapsed into one species label.
 - Brand firewall: no consumer brands are named. The D.G.C.C.R.F. agency and analytical-instrument vendors are scientific/provenance context, not product brand attribution.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact algae species, origins, and the non-edible *Sargassum lacerifolium* row remain in Key numbers while frontmatter uses broad seaweed/kelp food routing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a1543108e](https://github.com/paleofoundation/heavymetalindex/commit/a1543108e) | 2026-06-09 | ingest: mcsheehy2000-edible-algae-arsenic-speciation fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

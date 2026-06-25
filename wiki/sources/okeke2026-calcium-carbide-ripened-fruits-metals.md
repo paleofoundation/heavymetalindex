@@ -69,3 +69,13 @@ App: Supports a qualitative note that artificial carbide ripening can increase m
 ## Verification notes
 
 This page was built from the PDF text, including the abstract, sample preparation, metal determination method, Table 1 fruit concentrations, Table 2 EDI/HQ values, Figure 1 hazard-index text, discussion, and conclusions. The paper sometimes writes "FOA" where FAO is evidently intended; this page preserves the cited numerical limits without treating them as independently verified regulatory values. Chromium is total chromium, not Cr(VI), and arsenic is total arsenic, not inorganic arsenic.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f21881eab](https://github.com/paleofoundation/heavymetalindex/commit/f21881eab) | 2026-06-09 | ingest auto-fetched 2026-06-09: okeke2026-calcium-carbide-ripened-fruits-metals |
+<!-- END: hmi-page-history -->

@@ -80,7 +80,7 @@ lower_risk_variants: ["[[ingredients/milk-chocolate]]", "[[ingredients/white-cho
 higher_risk_variants: ["[[ingredients/high-cocoa-dark-chocolate]]", "[[ingredients/baking-chocolate]]", "[[ingredients/cocoa-powder-heavy-confections]]"]
 used_in_products: ["[[products/chocolate-bars]]", "[[products/chocolate-confections]]", "[[products/baked-goods]]", "[[products/ice-cream]]", "[[products/chocolate-beverages]]", "[[products/nutritional-supplements]]", "[[products/chocolate-coated-snacks]]"]
 audience: [regulator, educator, consumer, app]
-sources: 35
+sources: 38
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -96,7 +96,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
 | D1 Analyte coverage (tier: unset) | GAP | 4/10 HMTc analytes, total n=27 | only 4/10 analytes have evidence |
-| D2 Regional coverage | below-tier | 33 jurisdictions, top EU 39% | only 33 distinct jurisdiction(s) |
+| D2 Regional coverage | below-tier | 33 jurisdictions, top EU 42% | only 33 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | 3 drinking-water + 1 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 3 drivers, 4 upstream source(s) | — |
 | D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, Ni THIN, tAs POOLABLE | Ni: needs 1 more study(ies) |
@@ -119,10 +119,10 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=6 | 10–100 | medium | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate\|3]] |
-| Cd | n=15 | 60–500 | high | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/bravo2024-cadmium-cacao-arauca\|3]] |
+| Pb | n=6 | 10–100 | medium | [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate\|3]] |
+| Cd | n=15 | 60–500 | high | [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/bravo2024-cadmium-cacao-arauca\|3]] |
 | iAs | data gap | — | — | — |
-| tAs | n=4 | 30–150 | medium | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
+| tAs | n=4 | 30–150 | medium | [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
 | tHg | data gap | — | — | — |
 | Ni | n=2 | 700–1900 | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/flyvholm1984-nickel-content-food-dietary-intake\|2]] |
 | Al | data gap | — | — | — |
@@ -200,8 +200,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 2 | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|Hernández-Montoya et al. 2026]]. *Heavy Metal Contamination in Foods: Advances in Detection Technologies, Regulatory Challenges, Health Risks, and Implications for Sustainable Food Safety*, Sustainability | 2026 | Peer-reviewed | international/EU/US Pb, Cd, tAs, tHg, MeHg, Ni occurrence in Scoping review of 121 peer-reviewed studies (Scopus, Web of Science, ScienceDirect, SpringerLink, Wiley Online Library, Google Scholar; published... |
 | 3 | [[sources/masri2025-toxicant-foods-california\|Masri et al. 2025]]. *Assessing Dietary Consumption of Toxicant-Laden Foods and Beverages by Age and Ethnicity in California: Implications for Proposition 65*, Nutrients | 2025 | Peer-reviewed | US Pb, Cd, tAs, MeHg occurrence in Cross-sectional online dietary survey (Qualtrics) administered between 1 March and 15 June 2023 to Southern California residents (adults... (n=186) |
 | 4 | [[sources/bravo2024-cadmium-cacao-arauca\|Bravo et al. 2024]]. *Cadmium in cacao crops and artisanal chocolates in the Arauca Department, Colombia*, Environmental Monitoring and Assessment | 2024 | Peer-reviewed | CO Cd occurrence in 180 cacao farms surveyed across four municipalities in Arauca Department, Colombia (Arauquita, Fortul, Saravena, Tame); seed subsamples from... (n=20) |
-| 5 | [[sources/eu-2024-907-nickel-monitoring-recommendation\|EU 2024]]. *Commission Recommendation (EU) 2024/907 of 22 March 2024 on the monitoring of nickel in food*, Official Journal of the European Union, L series, 2024/907 (26.3.2024) | 2024 | Regulation | EU Ni concentrations |
-| 6 | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|Hands et al. 2024]]. *A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA*, Frontiers in Nutrition | 2024 | Peer-reviewed | US Pb, Cd, tAs occurrence in 72 consumer cocoa-containing products (dark chocolate, cocoa powder, and related products) purchased in the US from retail and... (n=72) |
+| 5 | [[sources/eu-2024-1987-nickel-maximum-levels\|EU 2024]]. *Commission Regulation (EU) 2024/1987 of 30 July 2024 amending Regulation (EU) 2023/915 as regards maximum levels of nickel in certain foodstuffs*, Official Journal of the European Union, L series, 2024/1987 (31.7.2024) | 2024 | Regulation | EU Ni concentrations |
+| 6 | [[sources/eu-2024-907-nickel-monitoring-recommendation\|EU 2024]]. *Commission Recommendation (EU) 2024/907 of 22 March 2024 on the monitoring of nickel in food*, Official Journal of the European Union, L series, 2024/907 (26.3.2024) | 2024 | Regulation | EU Ni concentrations |
 | 7 | [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|Hands et al. 2024]]. *A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA*, Frontiers in Nutrition | 2024 | Peer-reviewed | Pb, Cd, As in 72 US dark chocolate and cocoa products across four cohorts (2014–2022), with mean Cd and Pb per serving both exceeding Prop 65 MADLs; organic products showed significantly higher Cd and Pb concentrations |
 | 8 | [[sources/burgon2023-cocoa-bean-to-bar-brazil-metals-ota\|Burgon 2023]]. *Cacau e Chocolates "Bean to Bar": Contaminantes Inorgânicos e Ocratoxina A (Cocoa beans and "Bean to Bar" chocolates: Inorganic contaminants and Ochratoxin A)*, Master's thesis, Instituto de Tecnologia de Alimentos (ITAL), Centro de Ciência e Qualidade de Alimentos, Campinas-SP, Brazil | 2023 | Thesis | BR Pb, Cd, tAs, tHg, Cu, Co, Se concentrations |
 | 9 | [[sources/eu-2023-915-contaminants-maximum-levels\|EU 2023]]. *Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006*, Official Journal of the European Union | 2023 | Regulation | EU Pb, Cd, tHg, iAs, tAs, Sn concentrations |
@@ -242,9 +242,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->

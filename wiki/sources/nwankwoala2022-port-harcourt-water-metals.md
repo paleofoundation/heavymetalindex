@@ -69,3 +69,13 @@ App: Context only. The paper supports local water-pathway and exposure context, 
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated "not mineral-water product occurrence" as exclusionary, but the paper is in-scope a3 groundwater/wastewater pathway and source-attribution evidence.
 
 Numbers were checked against the extracted PDF text, especially the abstract, Methods, Table 1, Table 2, and conclusion. Units are preserved as mg/l. The paper reports total arsenic and total mercury only, so this page uses `tAs` and `tHg` and does not infer iAs or MeHg.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6db215e52](https://github.com/paleofoundation/heavymetalindex/commit/6db215e52) | 2026-06-10 | recover-ingest 2026-06-10: nwankwoala2022-port-harcourt-water-metals (lane a3, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

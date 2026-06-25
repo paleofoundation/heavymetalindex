@@ -180,6 +180,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [dbe5c0c](https://github.com/paleofoundation/heavymetalindex/commit/dbe5c0c) | 2026-06-08 | audit: sears2013-chelation-heavy-metal-detoxification-review promoted |
-| [cc9bd35](https://github.com/paleofoundation/heavymetalindex/commit/cc9bd35) | 2026-06-08 | ingest: sears2013-chelation-heavy-metal-detoxification-review fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [dbe5c0c2b](https://github.com/paleofoundation/heavymetalindex/commit/dbe5c0c2b) | 2026-06-08 | audit: sears2013-chelation-heavy-metal-detoxification-review promoted |
+| [cc9bd359e](https://github.com/paleofoundation/heavymetalindex/commit/cc9bd359e) | 2026-06-08 | ingest: sears2013-chelation-heavy-metal-detoxification-review fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

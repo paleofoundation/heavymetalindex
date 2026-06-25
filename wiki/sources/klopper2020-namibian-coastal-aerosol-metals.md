@@ -74,3 +74,13 @@ App: Context only for product thresholds. The aerosol concentrations are not pro
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip reason was too narrow because the paper measures heavy metals in atmospheric aerosols and apportions them to upstream source classes relevant to atmospheric deposition and environmental burden sharing.
 
 All key numbers were checked against the extracted PDF text, especially Table 1, Section 4.2.3, Section 4.2.5, the abstract, and the conclusion. Units are preserved as ng m−3 for elemental aerosol concentrations and percent mass contribution for PMF components. Arsenic is treated as total arsenic (`tAs`) because XRF elemental analysis did not speciate inorganic arsenic. Products and ingredients are intentionally empty; the filename's mineral-water query label is not the paper's matrix.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [99e053322](https://github.com/paleofoundation/heavymetalindex/commit/99e053322) | 2026-06-10 | recover-ingest 2026-06-10: klopper2020-namibian-coastal-aerosol-metals (lane a3, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

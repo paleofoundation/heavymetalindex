@@ -90,3 +90,13 @@ The paper contributes stem- and leaf-specific occurrence data for herbal-botanic
 - Speciation check: chromium is total Cr by FAAS, not Cr-VI. Mercury is reported only as Hg below detectable level, not methylmercury.
 - Brand firewall check: no commercial brands or producers are reported; Merck and Shimadzu are methods/vendors only.
 - Closed vocabulary check: products, ingredients, metals, and wiki-page links use slugs present in `docs/gpt-collaboration/taxonomy-snapshot.md`. Exact plant species such as *Acacia nilotica*, *Bacopa monnieri*, *Commiphora wightii*, *Ficus religiosa*, *Glycyrrhiza glabra*, *Hemidesmus indicus*, *Salvadora oleoides*, *Terminalia bellirica*, *Terminalia chebula*, and *Withania somnifera* do not all have closed ingredient slugs, so they remain in table text only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4dd50c5de](https://github.com/paleofoundation/heavymetalindex/commit/4dd50c5de) | 2026-06-09 | ingest: kulhari2013-medicinal-plants-metals-india fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

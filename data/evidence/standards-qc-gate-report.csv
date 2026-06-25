@@ -44,15 +44,15 @@ chocolate,Cd,100,100,regulatory-alignment,PASS,
 chocolate,Pb,361.8917,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 chocolate,tAs,121.9063,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 chocolate,Ni,7513.5663,,literature-baseline,HOLD,C9-artifact-implausible: thin-source (distinct=2) value 7513.5663 ppb > 15x Ni multi-source median 499 — likely unit/single-sample artifact; verify before publishing
-chocolate,Al,118654.6921,,literature-baseline,HOLD,C9-artifact-implausible: value 118654.6921 ppb > 100 mg/kg — no literature contaminant standard is that high; artifact or not-material/feasibility analyte; verify before publishing
+chocolate,Al,118654.6921,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 coffee,Pb,0.2661,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 coffee,Cd,19135.262,,no-data,HOLD,"C10-blocked-pool: BLOCKED: pool internally inconsistent (p95/p10 > 1e4, likely mixed units — fix units before use)"
 cooking-oils-other,Pb,100,100,regulatory-alignment,PASS,
-cooking-oils-other,Cd,56.7457,,literature-baseline,PASS,
+cooking-oils-other,Cd,56.7457,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 cooking-oils-other,Ni,82.5589,,literature-baseline,PASS,
-cooking-oils-other,tAs,56.1827,,literature-baseline,PASS,
+cooking-oils-other,tAs,56.1827,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 cooking-oils-other,Al,1.4567,,literature-baseline,PASS,
-cooking-oils-other,tHg,166.4379,,literature-baseline,PASS,
+cooking-oils-other,tHg,166.4379,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 dietary-supplements,Cd,10.2325,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 dietary-supplements,Al,2317.9481,,literature-baseline,PASS,
 fish-containing-baby-foods,MeHg,2.6,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
@@ -223,10 +223,12 @@ nuts-seeds-other,Cd,383.0208,,literature-baseline,WARN,"C1b-cap-completeness: bi
 nuts-seeds-other,Ni,2068.3835,,literature-baseline,PASS,
 nuts-seeds-other,Al,21434.2337,,literature-baseline,PASS,
 olive-oil,Pb,69.7254,100,literature-baseline,PASS,
-olive-oil,Cd,3.1023,,literature-baseline,PASS,
+olive-oil,Cd,3.1023,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 olive-oil,tAs,607.9522,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 olive-oil,Ni,577.0539,,literature-baseline,PASS,
+olive-oil,tHg,,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 olive-oil,Al,581.6188,,literature-baseline,PASS,
+olive-oil,iAs,,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 pet-food-dry-kibble,tAs,94.1869,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 pet-food-dry-kibble,tHg,1292.0052,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 pet-food-dry-kibble,Pb,79687.8421,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
@@ -262,7 +264,7 @@ seafood,tAs,110000,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic,
 seafood,MeHg,2108.2427,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 seafood,tHg,200.2554,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 seafood,iAs,74690.9768,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C9-artifact-implausible: thin-source (distinct=2) value 74690.9768 ppb > 15x iAs multi-source median 109 — likely unit/single-sample artifact; verify before publishing"
-seaweed-kelp-foods,iAs,1829.1142,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+seaweed-kelp-foods,iAs,1829.1142,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending"
 seaweed-kelp-foods,tAs,5516.4765,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending"
 seaweed-kelp-foods,Cd,1874.0873,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 seaweed-kelp-foods,Pb,13020.4082,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
@@ -277,7 +279,7 @@ shellfish,MeHg,140.72,,literature-baseline,WARN,"C1b-cap-completeness: big-4 tox
 snacks-crackers-biscuits,Pb,935.0197,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 snacks-crackers-biscuits,Cd,25.6876,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 spices,Pb,600,600,regulatory-alignment,PASS,
-spices,Cd,623.2948,,no-data,HOLD,"C10-blocked-pool: BLOCKED: pool internally inconsistent (p95/p10 > 1e4, likely mixed units — fix units before use)"
+spices,Cd,641.4659,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 spices,tAs,702.9366,,literature-baseline,PASS,
 spices,tHg,1501.5989,,literature-baseline,PASS,
 spices,Ni,6976.2889,,literature-baseline,PASS,

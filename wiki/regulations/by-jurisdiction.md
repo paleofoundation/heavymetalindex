@@ -3,7 +3,7 @@ title: "Regulations by jurisdiction"
 description: "Country/region × metal cross-cut of every regulatory threshold the Heavy Metal Index tracks. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-06-22
+updated: 2026-06-23
 noindex: false
 ---
 
@@ -26,7 +26,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | Total mercury | 1 |  |  | 5 |  | 3 | 2 | 1 | 1 | 1 |  | 13 |
 | Methylmercury | 2 |  |  | 2 | 1 | 3 | 3 |  |  |  |  | 11 |
 | Inorganic mercury | 1 |  |  | 1 |  |  |  |  |  |  |  | 2 |
-| Nickel |  |  |  | 3 |  | 3 |  |  |  |  |  | 6 |
+| Nickel |  |  |  | 4 |  | 3 |  |  |  |  |  | 7 |
 | Aluminium | 1 |  |  | 1 |  |  |  | 1 | 1 |  |  | 3 |
 | Chromium |  |  |  |  |  | 3 |  |  |  |  |  | 3 |
 | Hexavalent chromium |  | 2 |  |  |  |  |  |  |  |  |  | 2 |
@@ -91,6 +91,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | [[regulations/eu-2021-1323-cadmium-cereals-superseded\|EU Regulation 2021/1323 - Cadmium maximum levels for cereals]] | European Commission | Cadmium | multiple mg/kg wet weight | superseded | 2021-08-31 |
 | [[regulations/eu-reg-2022-617-mercury-fish\|eu-reg-2022-617-mercury-fish]] | European Commission | Total mercury | 0.3,0.5,1,0.1 mg/kg ww | finalized | 2022-05-03 |
 | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation (EU) 2024/907 on the monitoring of nickel in food]] | European Commission | Nickel | monitoring-recommendation none | in-force | 2024-03-22 |
+| [[regulations/eu-2024-1987-nickel-maximum-levels\|Commission Regulation (EU) 2024/1987 — maximum levels of nickel in certain foodstuffs]] | European Commission | Nickel | 0.10–40 mg/kg | in-force | 2024-07-30 |
 | [[regulations/eu-2023-915-cadmium\|Commission Regulation (EU) 2023/915 cadmium maximum levels]] | European Commission | Cadmium | — | maximum levels | — |
 | [[regulations/eu-2023-915-lead-infant-young-child-foods\|EU Regulation 2023/915 — Lead Maximum Levels for Infant and Young-Child Foods]] | European Commission | Lead | multiple ppb | in-force | — |
 | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94/27/EC]] | European Commission | Nickel | — | historical-as-described-in-source | — |
@@ -153,3 +154,9 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 This is a navigation index, not a substitute for reading the underlying regulations. Limits expressed in different units (mg/kg vs µg/kg-bw/week vs ppb) are not directly comparable across rows — use the limit column to confirm the basis before comparing values. Where a cell carries multiple regulations for the same metal, the most recent supersedes the older one unless both remain in force in different matrices. The [[regulations/timeline|timeline view]] shows the chronological tightening.
 
 The wiki tracks regulatory limits as published; it does not endorse them. See [[CLAUDE|wiki/HMTc separation policy]] for why the wiki's reporting of regulatory values is kept architecturally separate from the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program's threshold-setting.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+This page is auto-regenerated from upstream data on every build. Edits by hand are overwritten on the next prebuild. See the generator named in the page intro for the data source and update cadence; the full commit history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->

@@ -228,6 +228,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [246411e](https://github.com/paleofoundation/heavymetalindex/commit/246411e) | 2026-06-08 | audit: el-daouk2020-aluminum-food-lebanon revised |
-| [234c2cf](https://github.com/paleofoundation/heavymetalindex/commit/234c2cf) | 2026-06-08 | ingest: el-daouk2020-aluminum-food-lebanon fresh from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [246411edf](https://github.com/paleofoundation/heavymetalindex/commit/246411edf) | 2026-06-08 | audit: el-daouk2020-aluminum-food-lebanon revised |
+| [234c2cf71](https://github.com/paleofoundation/heavymetalindex/commit/234c2cf71) | 2026-06-08 | ingest: el-daouk2020-aluminum-food-lebanon fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

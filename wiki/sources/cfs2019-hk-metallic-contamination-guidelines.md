@@ -189,3 +189,14 @@ Fresh ingest 2026-06-09 from `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download 
   - Check 2 ⚠️ on `matrices: [regulation, ...]` (auditor: regulation as a matrix value is unusual for a regulatory document). Reviewed; `regulation` is the appropriate matrix tag for a regulatory-document source where the "matrix" is the regulatory instrument itself rather than a sampled food. Other matrix tags (fish, vegetable, fruit, etc.) capture the food groups the regulation explicitly references. No change applied.
   - Checks 3, 4, 5 returned ✅ clean.
   - Audit subagent verdict: REVISE. Two ⚠️ corrections applied; three ❌ false positives rejected with verification.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [615c00fbc](https://github.com/paleofoundation/heavymetalindex/commit/615c00fbc) | 2026-06-09 | audit: cfs2019-hk-metallic-contamination-guidelines [revised] |
+| [37bb753ac](https://github.com/paleofoundation/heavymetalindex/commit/37bb753ac) | 2026-06-09 | ingest: cfs2019-hk-metallic-contamination-guidelines [fresh] from Manual Fetch Kimi /June 8/_extracted_condiments2_05_Snacks_Canned_Prepared |
+<!-- END: hmi-page-history -->

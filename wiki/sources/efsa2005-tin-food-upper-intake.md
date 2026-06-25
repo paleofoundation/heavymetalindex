@@ -71,3 +71,13 @@ App: The source can support canned-food and can-packaging tin context, particula
 - Units are preserved exactly as `mg/kg`, `mg/day`, and `mg/kg body weight`; no ppm conversion was made.
 - Speciation: the source concerns inorganic tin/tin salts and tin migration from cans. It is not organotin occurrence and is not collapsed into TBT/DBT.
 - Closed vocabulary: no general `canned-foods` product slug exists in the snapshot, so routing uses available canned-vegetable, canned-fruit, canned-tomato, beverage, and can/lid packaging slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb63f6e92](https://github.com/paleofoundation/heavymetalindex/commit/fb63f6e92) | 2026-06-09 | Co-Authored-By: Codex GPT-5.5 <noreply@openai.com> |
+<!-- END: hmi-page-history -->

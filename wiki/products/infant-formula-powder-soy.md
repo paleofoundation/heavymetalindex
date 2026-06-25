@@ -6,13 +6,13 @@ hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
 provisional_created: 2026-05-19
-provisional_reason: "heal-gaps: routing_unresolved entry from source abstract2020-content-dietary-exposure-toxic declared product/infant-formula-powder-soy, no close-slug match"
-provisional_source: "[[sources/abstract2020-content-dietary-exposure-toxic]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source su2020-infant-formula-china-toxic-elements declared product/infant-formula-powder-soy, no close-slug match"
+provisional_source: "[[sources/su2020-infant-formula-china-toxic-elements]]"
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 3
+sources: 2
 wiki_doi: null
 updated: 2026-05-19
 ---
@@ -21,9 +21,9 @@ updated: 2026-05-19
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-19 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source abstract2020-content-dietary-exposure-toxic declared product/infant-formula-powder-soy, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source su2020-infant-formula-china-toxic-elements declared product/infant-formula-powder-soy, no close-slug match
 >
-> **Triggering source:** [[sources/abstract2020-content-dietary-exposure-toxic]]
+> **Triggering source:** [[sources/su2020-infant-formula-china-toxic-elements]]
 
 ## Literature scope
 
@@ -36,8 +36,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/abstract2020-content-dietary-exposure-toxic\|Su et al. 2020]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods | 2020 | Peer reviewed journal | Cited reference from Foods |
-| 2 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
+| 1 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for
@@ -75,7 +74,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 ## Source Evidence Inventory
 
-[[sources/abstract2020-content-dietary-exposure-toxic]] routes here as a China-market infant-formula powder survey reporting Pb, Cd, total As, and total Cr across 93 products stratified by feeding stage. The source reports low means relative to its cited regulatory comparators, but it does not speciate arsenic or chromium and does not by itself isolate a soy-only distribution.
+[[sources/su2020-infant-formula-china-toxic-elements]] routes here as a China-market infant-formula powder survey reporting Pb, Cd, total As, and total Cr across 93 products stratified by feeding stage. The source reports low means relative to its cited regulatory comparators, but it does not speciate arsenic or chromium and does not by itself isolate a soy-only distribution.
 
 [[sources/editor2019-manganese-levels-infant-formula]] contributes Mn context for formula powders and related child nutrition beverages in US and French markets. Its role on this page is formulation and product-form context, not a complete contaminant screen.
 
@@ -110,9 +109,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

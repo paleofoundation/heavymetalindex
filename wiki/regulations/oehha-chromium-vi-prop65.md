@@ -55,3 +55,13 @@ The Proposition 65 listing governs product warnings, whereas the State Water Res
 ## Sources
 
 - [[sources/oehha-chromium-vi-prop65-listing|OEHHA Prop 65 Cr-VI]] — California Office of Environmental Health Hazard Assessment. Chromium (Hexavalent Compounds), Proposition 65 chemical listing and safe-harbor levels.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [25c92d7ad](https://github.com/paleofoundation/heavymetalindex/commit/25c92d7ad) | 2026-06-22 | ingest(regulations): cite-grade CA Cr-VI drinking-water MCL + Prop 65 pages; wire into Cr-VI metal page |
+<!-- END: hmi-page-history -->

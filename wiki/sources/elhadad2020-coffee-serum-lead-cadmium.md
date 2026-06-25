@@ -68,3 +68,13 @@ Microbiome: No microbiome endpoints.
 - Speciation: serum lead is Pb; urinary cadmium is Cd. No arsenic, mercury, or chromium species are part of the heavy-metal result used here.
 - Products and ingredients are intentionally empty because this is an exposure/biomarker association paper, not coffee occurrence evidence.
 - The source's discussion offers coffee contamination as one possible interpretation; the wiki page does not promote that sentence into a product-concentration claim.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [174658717](https://github.com/paleofoundation/heavymetalindex/commit/174658717) | 2026-06-11 | recover-ingest 2026-06-10: elhadad2020-coffee-serum-lead-cadmium (lane a4, was skip:no-occurrence-data) |
+<!-- END: hmi-page-history -->

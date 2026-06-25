@@ -123,3 +123,13 @@ This source supports broad herbal-botanical supplement and herbal-infusion routi
 - Speciation check: As(III), As(V), DMA, MMA, and AsB are kept separate where reported. Total arsenic values are not promoted to inorganic arsenic.
 - Brand firewall: the source reports medicine categories and sample codes but no consumer brand ranking is reproduced.
 - Missing-slug check: taxonomy snapshot has no exact `traditional-chinese-medicines` or `realgar` ingredient/product slug. Frontmatter uses broad herbal-botanical, dried-herb, dietary-supplement, and herbal-infusion slugs while exact medicine names and realgar context remain in prose.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [401afcfae](https://github.com/paleofoundation/heavymetalindex/commit/401afcfae) | 2026-06-09 | ingest: liu2018-tcm-arsenic-bioaccessibility fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+<!-- END: hmi-page-history -->

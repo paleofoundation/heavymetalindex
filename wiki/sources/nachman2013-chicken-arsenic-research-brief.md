@@ -66,3 +66,13 @@ App: The source can support chicken/poultry arsenic-speciation context, especial
 - Speciation: the reported numeric occurrence value is inorganic arsenic. The brief also says total arsenic and methylated arsenic species were analyzed, but it does not print total arsenic concentration values in the extracted text.
 - Brand firewall: the brief states that the sample represented `60` unique chicken brands. This source page omits brand names and reports only category/production-group data.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; `chicken-meat` and `chicken-breast` are matrix descriptors rather than product or ingredient slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c074f53e0](https://github.com/paleofoundation/heavymetalindex/commit/c074f53e0) | 2026-06-09 | ingest: nachman2013-chicken-arsenic-research-brief fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

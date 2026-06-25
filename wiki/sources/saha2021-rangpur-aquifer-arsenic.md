@@ -77,3 +77,13 @@ App: Context only. The source can support groundwater-source due-diligence flags
 Recovered from `skip:not-target-cell` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as outside the target cell because it measured groundwater and aquifer sediment rather than mineral-water product occurrence. On reading, it is in-scope a3/a4 source-attribution and groundwater exposure-context evidence with measured arsenic and sediment values.
 
 Numbers were checked against the abstract, Table 2, Table 3, Figures 3-4 text, the groundwater arsenic results paragraph, and methods in the extracted PDF. Arsenic is recorded as `tAs` because the study measured total arsenic in sediments and groundwater without separating inorganic species in its own analytical results. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a9b5a0ec1](https://github.com/paleofoundation/heavymetalindex/commit/a9b5a0ec1) | 2026-06-10 | recover-ingest 2026-06-10: saha2021-rangpur-aquifer-arsenic (lane a3/a4, was skip:not-target-cell) |
+<!-- END: hmi-page-history -->

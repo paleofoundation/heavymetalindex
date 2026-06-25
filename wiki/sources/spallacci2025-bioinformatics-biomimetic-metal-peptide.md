@@ -148,5 +148,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1999876](https://github.com/paleofoundation/heavymetalindex/commit/1999876) | 2026-06-08 | ingest: spallacci2025-bioinformatics-biomimetic-metal-peptide fresh from Manual Fetch Kimi/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [1999876b4](https://github.com/paleofoundation/heavymetalindex/commit/1999876b4) | 2026-06-08 | ingest: spallacci2025-bioinformatics-biomimetic-metal-peptide fresh from Manual Fetch Kimi/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

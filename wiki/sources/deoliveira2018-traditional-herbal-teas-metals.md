@@ -78,3 +78,13 @@ App: The source can support `tea`, `camellia-sinensis`, and `herbal-botanicals` 
 - Speciation: As is total arsenic and Cr is total chromium. The page does not promote tAs to iAs or Cr to Cr(VI).
 - Brand firewall: Table 1-3 name individual tea brands/products. This page reports tea-type and category-level values only and omits brand names.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; `herbal-tea` and `tea-infusion` are matrix descriptors rather than product or ingredient slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3df1f6daa](https://github.com/paleofoundation/heavymetalindex/commit/3df1f6daa) | 2026-06-09 | ingest: deoliveira2018-traditional-herbal-teas-metals fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

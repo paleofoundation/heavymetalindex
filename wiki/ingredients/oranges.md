@@ -8,18 +8,20 @@ category: fruit
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 49]
+    p95_ppb: 72
     confidence: medium
     n_studies: 6
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-06-11
+    basis: raw-orange-edible-flesh-wet-weight
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 10]
+    p95_ppb: 15
+    confidence: low
     n_studies: 6
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-06-11
+    basis: raw-orange-edible-flesh-wet-weight
   iAs:
     status: populated
     typical_ppb: [0, 0]
@@ -31,16 +33,17 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 2.2
-    confidence: low
+    confidence: high
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, null]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: raw-orange-edible-flesh-wet-weight
   Ni:
     status: populated
     typical_ppb: [0, 60.2]
@@ -57,11 +60,13 @@ contamination_profile:
     last_reviewed: 2026-05-13
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 9]
+    p95_ppb: 50
+    confidence: low
     n_studies: 5
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-06-23
+    basis: raw-orange-edible-flesh-wet-weight
+    speciation_note: total-Cr-only; no Cr-VI measurement in corpus
   Sn:
     status: populated
     typical_ppb: [3.7, 6.8]
@@ -71,19 +76,19 @@ contamination_profile:
     last_reviewed: 2026-05-13
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
-sources: 12
+updated: 2026-06-23
+sources: 13
 ---
 
 # Oranges
@@ -96,17 +101,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 8/10 HMTc analytes, total n=31 | — |
+| D1 Analyte coverage (tier: occasional) | OK | 8/10 HMTc analytes, total n=27 | — |
 | D2 Regional coverage | OK | 11 jurisdictions, top EG 30% | — |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, iAs THIN, tAs THIN, tHg CONFIDENT, Ni POOLABLE, Al THIN, Cr POOLABLE, Sn THIN, U THIN | iAs: needs 2 more study(ies); tAs: needs 1 more study(ies); Al: needs 2 more study(ies); Sn: needs 2 more study(ies); U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd THIN, iAs THIN, tAs THIN, tHg THIN, Ni POOLABLE, Al THIN, Cr THIN, Sn THIN | Cd: THIN; iAs: needs 2 more study(ies); tAs: needs 1 more study(ies); tHg: needs 2 more study(ies); Al: needs 2 more study(ies); Cr: THIN; Sn: needs 2 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 11 claims checked, 11 supported; 2 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming oranges: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
+| D7 Basis declaration | GAP | 4/10 populated cells declare a basis token | 6 populated cell(s) lack a basis token: iAs, tAs, Ni, Al, Sn, U |
+| D8 Provenance integrity | GAP | 56 claims checked, 56 supported; 13 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming oranges: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 1 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; pairing 0 paired, 10 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); tAs: THIN, needs 1 more study(ies); Al: THIN, needs 2 more study(ies); Sn: THIN, needs 2 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D10 Regulatory coverage | OK | 1 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | Cd: THIN; iAs: THIN, needs 2 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 2 more study(ies); Al: THIN, needs 2 more study(ies); Cr: THIN; Sn: THIN, needs 2 more study(ies); basis: 6 populated cell(s) lack a basis token: iAs, tAs, Ni, Al, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -116,7 +121,7 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 ## Why this commodity accumulates heavy metals
 
-Oranges are one of the lowest-risk food categories for heavy metal accumulation. The thick, waxy peel that characterizes citrus fruit provides a physical barrier that substantially limits atmospheric Pb deposition from reaching the edible flesh; Pb that deposits on the outer peel surface is removed with the peel during normal peeling and juicing operations. Root uptake of Cd and Pb from soil occurs in citrus trees as in other fruit trees, but the transfer factor from root to fruit flesh is low; citrus trees are not recognized accumulators of Pb or Cd, and the physiological buffering of the fruit through the tree's vascular system results in low concentrations in the flesh. Mercury is not a significant concern in citrus grown under typical commercial conditions. Inorganic arsenic is similarly not a significant analyte in citrus flesh. FDA TDS FY2018-FY2020 data [[sources/fda2022-tds-elements-fy2018-fy2020]] for raw orange (TDS Food 79, n=27) confirm this low-risk profile: Pb, Cd, Cr, and tHg were all at or below detection limits in nearly all samples, with only Ni (max 87 ppb), U (max 6.5 ppb), and tAs (max 6.7 ppb) detected at the high end of the distribution.
+Oranges are one of the lowest-risk food categories for heavy metal accumulation, though the edible flesh carries low but non-zero lead and cadmium rather than true zeros. The thick, waxy peel that characterizes citrus fruit provides a physical barrier that substantially limits atmospheric Pb deposition from reaching the edible flesh; Pb that deposits on the outer peel surface is removed with the peel during normal peeling and juicing operations. Root uptake of Cd and Pb from soil occurs in citrus trees as in other fruit trees, but the transfer factor from root to fruit flesh is low; citrus trees are not recognized accumulators of Pb or Cd, and the physiological buffering of the fruit through the tree's vascular system results in low concentrations in the flesh. Mercury is not a significant concern in citrus grown under typical commercial conditions. Inorganic arsenic is similarly not a significant analyte in citrus flesh. The FDA TDS FY2018-FY2020 composite for raw orange (TDS Food 79, n=27) reports Pb, Cd, Cr, and tHg below their reporting limits across most or all samples ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]); those below-limit results are carried as left-censored bounds rather than measured zeros, and primary fresh-fruit and retail-citrus surveys that name oranges by commodity detect lead and cadmium at low concentrations in the flesh (see the Synthesis basis and censoring treatment section). Nickel (max 87 ppb), uranium (a single detect at 6.5 ppb), and tAs (max 6.7 ppb) were the analytes detected at the high end of the FDA distribution.
 
 ## Heavy metal contamination profile
 
@@ -124,16 +129,32 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=6 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Cd | n=6 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Pb | n=6 | 0–49 | medium | [[sources/loutfy2012-ismailia-foodstuffs-metals\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]], [[sources/czech2021-citrus-lead-cadmium\|3]] |
+| Cd | n=6 | 0–10 | low | [[sources/loutfy2012-ismailia-foodstuffs-metals\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]], [[sources/mekonnen2024-ethiopia-fruit-metals\|3]] |
 | iAs | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tAs | n=2 | 0 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| tHg | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=2 | 0 | high | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| tHg | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=4 | 0–60.2 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/afrin2020-heavy-metals-fruits-dhaka\|3]] |
 | Al | n=1 | 95.7–861.3 | low | — |
-| Cr | n=5 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Cr | n=5 | 0–9 | low | [[sources/loutfy2012-ismailia-foodstuffs-metals\|1]], [[sources/okeke2026-calcium-carbide-ripened-fruits-metals\|2]] |
 | Sn | n=1 | 3.7–6.8 | low | — |
-| U | n=2 | 0 | low | — |
+| U | data gap | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, cadmium, total-mercury, and uranium cells were resynthesized on 2026-06-11 on a raw-orange edible-flesh wet-weight basis, the form in which the fruit is consumed. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
+
+The earlier profile reported lead, cadmium, total mercury, and uranium at typical and 95th-percentile values of zero, three of them at high confidence. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Orange, raw" (TDS Food 79, n=27), in which most or all samples fell below the reporting limit for each metal and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]], reporting limits Pb 4, Cd 1, tHg 1, U 1 µg/kg). The resynthesis replaces the literal zeros with the honest FDA censored floor expressed as a left-censored bound and, for lead and cadmium, with the detected primary fresh-fruit and retail-citrus distribution that names oranges by commodity.
+
+Lead is non-zero in the orange-specific occurrence literature. The Egyptian Ismailia market survey ([[sources/loutfy2012-ismailia-foodstuffs-metals|Loutfy et al. 2012]], wet-weight) reports an orange lead mean of 48.6 µg/kg with a range of 20 to 72.2 µg/kg across five analyzed pools; the Pakistani Khyber Pakhtunkhwa survey ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Rahim et al. 2020]]) reports orange lead at 39.2 µg/kg dry weight, and the European retail-citrus survey ([[sources/czech2021-citrus-lead-cadmium|Czech et al. 2021]], ICP-OES) reports whole-fruit orange lead of 10 µg/kg (1.00 µg/100 g fresh weight, peel-inclusive). Three further surveys returned orange lead below their detection limits: Ethiopia ([[sources/mekonnen2024-ethiopia-fruit-metals|Mekonnen et al. 2024]], not detected, method detection limit 0.082 mg/L), Egypt across four governorates ([[sources/amer2019-egyptian-fruits-heavy-metals|Amer et al. 2019]], not detected), and Nigeria ([[sources/unaegbu2016-fruit-heavy-metals-enugu|Unaegbu et al. 2016]], not detected). The pooled lead typical of [0, 49] takes the FDA censored floor of 4 µg/kg as the low bound and the Loutfy wet-weight central as the upper; the 95th-percentile of 72 µg/kg is the Loutfy orange maximum, the top of the ordered orange-specific set. Confidence is medium: the positive values are consistent across three independent surveys, but they span wet-weight, dry-weight, and whole-fruit (peel-inclusive) bases that are not strictly inter-convertible, and three other surveys returned non-detects.
+
+Cadmium is likewise low but non-zero. The Loutfy market survey reports an orange cadmium mean of 10.0 µg/kg wet weight (range 6 to 15.3); Rahim reports 10.6 µg/kg dry weight; Czech reports whole-fruit orange cadmium of 0.34 µg/kg (0.034 µg/100 g); the single FDA detect is 1.2 µg/kg (Mid-Atlantic winter composite) against an otherwise fully censored cell. The pooled cadmium typical of [0, 10] spans the FDA censored floor of 1 µg/kg to the Loutfy wet-weight central, and the 95th-percentile of 15 µg/kg is the Loutfy orange maximum. Confidence is held at low: the Ethiopian open-market survey ([[sources/mekonnen2024-ethiopia-fruit-metals|Mekonnen et al. 2024]]) reports an orange cadmium of 147 µg/kg dry weight, more than an order of magnitude above every other anchor, which is carried as a stratified high-cadmium outlier rather than folded into the central estimate (see Ranges by source). The single review-derived orange cadmium of 100 µg/kg in [[sources/munir2022-heavy-metals-natural-foods-review|Munir et al. 2022]] traces to one Nigerian farm-site study and is treated as context, not as a pooled input.
+
+Total mercury rests on the FDA censored floor alone. No source in the corpus reports a positive orange-specific total-mercury value: the FDA TDS composite is below the 1 µg/kg reporting limit across all 27 samples, and the fruit-by-product review that names oranges in scope ([[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review|Tsegay et al. 2025]]) carries no quantitative orange mercury entry and notes that mercury speciation is absent from its source data. The total-mercury cell is therefore recorded with the FDA reporting limit as a left-censored low bound ([0, null]), no upper bound or 95th-percentile, at low confidence and a single contributor. Total mercury is held distinct from methylmercury and is not derived from it; no speciated methylmercury measurement exists for this ingredient.
+
+Uranium is recorded as a reviewed data gap. FDA reports a single orange uranium detect of 6.5 µg/kg (Mid-Atlantic winter composite) against 26 of 27 samples below the 1 µg/kg reporting limit, and no non-FDA source reports an orange uranium value, so a single censored detect does not constitute an extractable quantitative distribution. No distribution is published (the rice-uranium precedent), and the cell is held as a reviewed gap rather than as a measured zero.
+
+Chromium was resynthesized on 2026-06-23 onto the raw-orange edible-flesh wet-weight basis. The earlier profile reported chromium at a typical and 95th-percentile of zero at medium confidence; that was an artifact of the FDA TDS composite, in which all 27 "Orange, raw" samples fell below the 50 µg/kg chromium reporting limit and the below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Chromium is in fact low but non-zero in the orange-specific occurrence literature. The Egyptian Ismailia market survey ([[sources/loutfy2012-ismailia-foodstuffs-metals|Loutfy et al. 2012]], wet weight) reports an orange chromium mean of 9.1 µg/kg (range 4.2 to 15.8); the Nigerian ripening study ([[sources/okeke2026-calcium-carbide-ripened-fruits-metals|Okeke and Sanda 2026]]) reports naturally ripened orange chromium of 9 µg/kg (0.009 mg/kg). The Pakistani Khyber Pakhtunkhwa survey ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Rahim et al. 2020]]) reports orange chromium of 6.9 µg/kg dry weight, which converts to roughly 0.9 µg/kg wet weight at an assumed orange-flesh moisture content of about 87 percent (dry-to-wet factor approximately 0.13); the Bangladeshi survey ([[sources/afrin2020-heavy-metals-fruits-dhaka|Afrin 2020]]) reports a study-wide fruit chromium range of 1 to 6 µg/kg dry weight, below 1 µg/kg wet weight after conversion. The Egyptian four-governorate survey ([[sources/amer2019-egyptian-fruits-heavy-metals|Amer et al. 2019]]) returned orange chromium below its 60 µg/kg detection limit in all samples. The South Korean fresh-fruit survey ([[sources/lee2023-south-korea-fresh-fruits-seven-metals|Lee et al. 2023]], ICP-MS, fresh weight) detected chromium in 207 of 207 samples but reports only an all-14-species mean of 30.7 µg/kg with no orange-specific or citrus-specific chromium value, so it informs the order of magnitude of fresh-fruit chromium generally but is not used as the orange upper-typical anchor. The pooled chromium typical of [0, 9] takes a left-censored low bound of zero (the dry-weight-converted and non-detect observations sit below the analytical floor) and an upper-typical of 9 µg/kg anchored on the direct orange-specific wet-weight detects (Loutfy 9.1 µg/kg, Okeke naturally ripened 9 µg/kg), which sit below the FDA and Amer censored ceilings; the 95th-percentile of 50 µg/kg is the pooled FDA reporting limit, a defensible left-censored upper tail above which no orange chromium detect is observed. Confidence is held at low: the positive values are consistent across three independent surveys but span wet-weight, dry-weight, and fresh-weight bases that are not strictly inter-convertible, and one survey returned non-detects. Chromium is reported as total chromium throughout the corpus; no source speciated Cr-VI in oranges, so no inference about the hexavalent fraction is made. The Ethiopian open-market survey ([[sources/mekonnen2024-ethiopia-fruit-metals|Mekonnen et al. 2024]]) reports an orange chromium of 759 µg/kg dry weight, roughly 99 µg/kg wet weight after conversion and an order of magnitude above every other orange-specific anchor; consistent with that study's framing of elevated soil-metal inputs in the Bahir Dar catchment (the same stratum that carries its high-cadmium outlier), it is held out of the central estimate as a high-chromium stratum rather than folded in.
 
 ## Routing
 
@@ -141,7 +162,7 @@ This node is linked from the ingredient index and source routing list.
 
 ## Contamination Profile State
 
-Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -154,21 +175,25 @@ FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix 
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Orange, raw" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 1.2 | in profile |
-| Cr | 27 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 87 | in profile |
-| Pb | 27 | 0 | 0 | in profile |
-| U | 27 | 0 | 6.5 | in profile |
-| tAs | 27 | 0 | 6.7 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 0 | 0 | 0 | 0 | 1.2 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 0 | 0 | 60.2 | 74.1 | 87 | in profile |
+| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | 0 | 0 | 0 | 6.5 | in profile |
+| tAs | 27 | 0 | 0 | 0 | 0 | 2.24 | 6.7 | in profile |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA TDS FY2018-FY2020 dataset [[sources/fda2022-tds-elements-fy2018-fy2020]] for raw orange (n=27) provides the most comprehensive US monitoring baseline in the current corpus and shows that Pb, Cd, Cr, and tHg are effectively absent (at or below detection limits across virtually all samples). Ni was detected at concentrations ranging from 0 to 87 ppb; tAs was detected in some market samples, reaching a maximum of 6.7 ppb. The FSA FS102048 survey [[sources/fsa2016-infant-food-formula-metals-survey]] provides additional occurrence context for UK dietary monitoring. Variation between growing regions for the analytes of concern in this category (Ni, tAs at low concentrations) is not documented in the current corpus with sufficient granularity to separate geographic from varietal effects.
+The FDA TDS FY2018-FY2020 dataset [[sources/fda2022-tds-elements-fy2018-fy2020]] for raw orange (n=27) provides the most comprehensive US monitoring baseline in the current corpus; it reports Pb, Cd, Cr, and tHg below their reporting limits across most or all composites, which constrains the orange-flesh burden from above rather than establishing it at zero. Ni was detected at concentrations ranging from 0 to 87 ppb (p90 approximately 60 ppb, max 87 ppb); tAs was detected in the upper tail of the distribution (p95 approximately 2 ppb, max 6.7 ppb); uranium showed a single detect at 6.5 ppb.
+
+Primary fresh-fruit surveys that measure oranges by commodity recover low but non-zero lead and cadmium. The Egyptian Ismailia market survey ([[sources/loutfy2012-ismailia-foodstuffs-metals|Loutfy et al. 2012]]) reports orange lead of 48.6 µg/kg (range 20 to 72.2) and cadmium of 10.0 µg/kg (range 6 to 15.3) on a wet-weight basis; the Pakistani survey ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Rahim et al. 2020]]) reports orange lead 39.2 µg/kg and cadmium 10.6 µg/kg on a dry-weight basis; and the European retail-citrus survey ([[sources/czech2021-citrus-lead-cadmium|Czech et al. 2021]]) reports whole-fruit orange lead 10 µg/kg and cadmium 0.34 µg/kg, the whole-fruit figure sitting at or above the pulp-only edible-flesh concentration because the rind concentrates both metals. Against these, three further surveys (Ethiopia, Egypt across four governorates, Nigeria) returned orange lead below their detection limits.
+
+Two outliers are stratified out of the headline distribution. The Ethiopian open-market survey ([[sources/mekonnen2024-ethiopia-fruit-metals|Mekonnen et al. 2024]]) reports an orange cadmium of 147 µg/kg dry weight, more than an order of magnitude above every other anchor and consistent with that study's framing of elevated soil cadmium and lead inputs in the Bahir Dar market catchment; it is recorded as a high-cadmium stratum, not folded into the central estimate. The review-derived orange lead of 5.80 mg/kg and cadmium of 0.10 mg/kg in [[sources/munir2022-heavy-metals-natural-foods-review|Munir et al. 2022]] trace to a single Nigerian farm-site study, are roughly 50 times the EU fruit maximum level for lead, and are treated as flagged context rather than pooled inputs. The FSA FS102048 survey [[sources/fsa2016-infant-food-formula-metals-survey]] provides additional UK dietary-monitoring context. Variation between growing regions cannot yet be separated from analytical-basis differences (wet weight, dry weight, whole fruit) in the current corpus with sufficient granularity to isolate geographic from varietal effects.
 
 ## Processing effects
 
@@ -237,9 +262,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
+| [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [0ae30c7b4](https://github.com/paleofoundation/heavymetalindex/commit/0ae30c7b4) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 3 — 12 produce pages / 51 cells |
 <!-- END: hmi-page-history -->

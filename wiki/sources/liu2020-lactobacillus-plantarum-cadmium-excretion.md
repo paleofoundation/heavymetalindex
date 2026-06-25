@@ -72,3 +72,13 @@ Courses: Useful teaching example for separating mechanistic animal evidence from
 ## Verification notes
 
 This page was built from the full PDF text, including the abstract, animal experiment protocol, Table 2, Figure 3 and Figure 6 captions/results text, Cd measurement methods, and discussion. Products and ingredients are intentionally empty because the study tests CdCl2 exposure and probiotic intervention in mice and cells. The source reports figure-only Cd burden outcomes; the page records direction and significance without estimating bar heights from the figure image.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f6e2fbf9f](https://github.com/paleofoundation/heavymetalindex/commit/f6e2fbf9f) | 2026-06-09 | ingest auto-fetched 2026-06-09: liu2020-lactobacillus-plantarum-cadmium-excretion |
+<!-- END: hmi-page-history -->

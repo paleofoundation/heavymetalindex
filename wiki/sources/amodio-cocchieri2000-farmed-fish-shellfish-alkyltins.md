@@ -78,5 +78,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [632f0ae](https://github.com/paleofoundation/heavymetalindex/commit/632f0ae) | 2026-06-08 | ingest: amodio-cocchieri2000-farmed-fish-shellfish-alkyltins fresh from MFK/June 8 New Folder With Items 3 2 |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [632f0aec2](https://github.com/paleofoundation/heavymetalindex/commit/632f0aec2) | 2026-06-08 | ingest: amodio-cocchieri2000-farmed-fish-shellfish-alkyltins fresh from MFK/June 8 New Folder With Items 3 2 |
 <!-- END: hmi-page-history -->

@@ -95,7 +95,7 @@ Speciation: The paper reports total mercury. It does not speciate methylmercury 
 
 ## Verification notes
 
-- 2026-05-18 Codex duplicate cleanup: retained `rabeey2025-bovine-hg-pb-cd-egypt` as the canonical source page and retired duplicate source page `rabeey2025-bovine-meat-organs-hg-pb-cd-egypt`.
+- 2026-05-18 Codex duplicate cleanup: retained `rabeey2025-bovine-hg-pb-cd-egypt` as the canonical source page and retired duplicate source page `rabeey2025-bovine-hg-pb-cd-egypt`.
 - The local seafood-folder PDF is the same DOI as the earlier loose manual-fetch copy. This page now points to the seafood-priority PDF path and records its SHA-256.
 - Cross-vendor audit (Codex, 2026-05-18) checked slug vocabulary: `beef-product` is an existing product page, and `meat`, `beef-muscle`, `bovine-liver`, and `bovine-kidney` are source-specific matrix descriptors used to preserve the tissue split.
 - Numerical fidelity follows the article's Tables 1-4. The abstract reports different SE values for several means (for example tHg muscle 0.312 ± 0.058), while Table 1 reports 0.312 ± 0.034; this page follows Table 1 because it is the full tissue-by-metal results table and supports the range and exceedance columns.
@@ -109,9 +109,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

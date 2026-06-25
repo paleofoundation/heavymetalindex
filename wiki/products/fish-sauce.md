@@ -15,7 +15,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: none
-sources: 0
+sources: 2
 wiki_doi: null
 updated: 2026-06-09
 ---
@@ -42,3 +42,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 2 | [[sources/rodriguez2009-fish-sauce-arsenic-speciation\|Rodriguez et al. 2009]]. *Arsenic speciation in fish sauce samples determined by HPLC coupled to inductively coupled plasma mass spectrometry*, Food Chemistry | 2009 | Peer-reviewed | AT/TH/VN tAs, iAs occurrence in Six commercial fish sauces — four brands from Thailand and two from Vietnam — purchased at local stores... (n=6) |
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [08c8f8330](https://github.com/paleofoundation/heavymetalindex/commit/08c8f8330) | 2026-06-09 | reorg(taxonomy-v2.2): scaffold new Cat 30-35 rows (no candidate values) |
+<!-- END: hmi-page-history -->

@@ -72,3 +72,13 @@ App: Not suitable for direct ingredient contamination estimates. It may support 
 ## Verification notes
 
 This page was built from the PDF text, including the abstract, amendment design, Table 1 treatment rates, Table 2 fertilizer elemental composition, methods for digestion/TCLP/ICP-OES, the Figure 4 leachability results, the Figure 5 rice-root/rice-shoot uptake results, the accumulation-factor discussion, and the conclusions. The auto-fetch filename says mushrooms and total arsenic because the intervention includes mushroom-residue fertilizer and reports total As; the actual source is a rice paddy-soil mitigation study. Frontmatter uses `tAs` because the method reports total arsenic by ICP-OES and does not speciate inorganic arsenic.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ba6fc8188](https://github.com/paleofoundation/heavymetalindex/commit/ba6fc8188) | 2026-06-09 | ingest auto-fetched 2026-06-09: tan2022-organic-fertilizer-rice-cd-arsenic |
+<!-- END: hmi-page-history -->

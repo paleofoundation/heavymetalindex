@@ -74,3 +74,13 @@ This source supports a local, industrial-area rice occurrence route for harveste
 - Matrix separation: soil, irrigation water, husk, and stem values are documented only as context. The routeable product occurrence values are rice grain only.
 - Table/prose discrepancy: the narrative paragraph on p. 7 states that Field-III Pb was higher in stems at `5966.54 µg/kg` and husks at `497.93 µg/kg`, but Table 3 places approximately `5.96 x 10^3 µg/kg` under Field-III husk and `4.97 x 10^2 µg/kg` under Field-III stem. This page follows Table 3 and flags the discrepancy rather than silently swapping labels.
 - No brand names were present. Instrument/vendor names are retained only in Methods.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [afced5e2a](https://github.com/paleofoundation/heavymetalindex/commit/afced5e2a) | 2026-06-09 | ingest: huda2024-irrigated-rice-metals-pesticides fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->

@@ -38,7 +38,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/arellano2023-dairy-products-arsenic-argentina\|Arellano et al. 2023]]. *Arsenic risk assessment through dairy products ingestion*, Arsenic in the Environment: Bridging Science to Practice for Sustainable Development | 2023 | Conference proceedings | AR tAs occurrence in Raw bovine, caprine, and ovine milk from 37 farms in Cordoba and Buenos Aires provinces, plus market commercial... (n=157) |
 | 2 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
-| 3 | [[sources/infant2018-research\|Eticha et al. 2018]]. *Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia*, Hindawi International Journal of Analytical Chemistry | 2018 | Peer-reviewed | ET Pb, Cd occurrence in Five milk-based infant formula brands from Mekelle, Ethiopia for infants 6–12 months old (n=5) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for
@@ -76,7 +75,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 ## Source Evidence Inventory
 
-[[sources/infant2018-research]] provides direct Pb and Cd evidence for five milk-based infant formula powders sold in Mekelle, Ethiopia for infants 6-12 months old. Cd was not detected, while Pb ranged from not detected to 0.103 mg/kg, with the source reporting estimated intakes below its cited tolerable-intake comparators.
+[[sources/eticha2018-infant-formula-metals-mekelle-ethiopia]] provides direct Pb and Cd evidence for five milk-based infant formula powders sold in Mekelle, Ethiopia for infants 6-12 months old. Cd was not detected, while Pb ranged from not detected to 0.103 mg/kg, with the source reporting estimated intakes below its cited tolerable-intake comparators.
 
 [[sources/editor2019-manganese-levels-infant-formula]] contributes Mn context across infant formula powders, ready-to-feed formulas, and child nutritional beverages in US and French markets. Its contribution here is product-form context for Mn, not evidence for Pb, Cd, arsenic, mercury, Ni, Al, Cr(VI), or Sn.
 
@@ -111,9 +110,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->

@@ -168,6 +168,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [207e794](https://github.com/paleofoundation/heavymetalindex/commit/207e794) | 2026-06-08 | audit: good2026-plant-milk-heavy-metals revised |
-| [5e01108](https://github.com/paleofoundation/heavymetalindex/commit/5e01108) | 2026-06-08 | ingest: good2026-plant-milk-heavy-metals fresh from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [207e794c8](https://github.com/paleofoundation/heavymetalindex/commit/207e794c8) | 2026-06-08 | audit: good2026-plant-milk-heavy-metals revised |
+| [5e011086f](https://github.com/paleofoundation/heavymetalindex/commit/5e011086f) | 2026-06-08 | ingest: good2026-plant-milk-heavy-metals fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

@@ -8,18 +8,20 @@ category: dairy
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 17]
+    p95_ppb: 30
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-06-11
+    basis: fluid-whole-milk-wet-weight
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 30]
+    p95_ppb: 45
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-06-11
+    basis: fluid-whole-milk-wet-weight
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -29,25 +31,28 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 50]
+    p95_ppb: 90
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-06-11
+    basis: fluid-whole-milk-wet-weight
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 2]
+    p95_ppb: 10
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-06-11
+    basis: fluid-whole-milk-wet-weight
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, null]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-06-11
+    basis: fluid-whole-milk-wet-weight
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -57,11 +62,13 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [3, 8]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-06-11
+    basis: fluid-whole-milk-wet-weight
+    speciation: total-Cr-only
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -71,19 +78,19 @@ contamination_profile:
     last_reviewed: 2026-05-16
   U:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-11
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
-sources: 9
+updated: 2026-06-11
+sources: 10
 ---
 
 # Whole milk
@@ -96,17 +103,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 5/10 HMTc analytes, total n=19 | labeled data-gaps: iAs, Al, Sn |
-| D2 Regional coverage | OK | 8 jurisdictions, top BD 22% | — |
+| D1 Analyte coverage (tier: common) | OK | 5/10 HMTc analytes, total n=16 | labeled data-gaps: iAs, Al, Sn |
+| D2 Regional coverage | OK | 8 jurisdictions, top PL 25% | — |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, tAs THIN, tHg CONFIDENT, Ni CONFIDENT, Cr CONFIDENT, U THIN | tAs: needs 1 more study(ies); U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg THIN, Ni THIN, Cr THIN | tHg: needs 1 more study(ies); Ni: needs 2 more study(ies); Cr: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 3 claims checked, 3 supported; 3 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming whole-milk: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
+| D7 Basis declaration | GAP | 6/10 populated cells declare a basis token | 4 populated cell(s) lack a basis token: iAs, Al, Sn, U |
+| D8 Provenance integrity | GAP | 56 claims checked, 56 supported; 9 citations, 0 orphan, 3 foreign | 3 foreign citation(s) not naming whole-milk: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020, shahzad2025-buffalo-milk-trace-metals |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | tAs: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr; pairing 0 paired, 6 single, 0 unpaired | tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 2 more study(ies); Cr: THIN, needs 1 more study(ies); basis: 4 populated cell(s) lack a basis token: iAs, Al, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -116,24 +123,38 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 ## Why this commodity accumulates heavy metals
 
-Whole milk is a low-accumulator matrix for most heavy metals. The dairy cow's physiology actively restricts the transfer of ingested metals from blood to milk; this is particularly effective for cadmium and lead, which are tightly regulated across biological membranes. The transfer factor from feed to milk for Cd and Pb is very low (typically below 1 percent for Pb, and even lower for Cd), meaning that even when cows graze on Cd-or Pb-contaminated pastures, the resulting milk carries concentrations well below those of the feed. Mercury transfer to milk is similarly restricted. The FDA TDS FY2018-FY2020 data for whole fluid milk (n=27) record all seven measured analytes (Cd, Cr, Ni, Pb, U, tAs, tHg) at zero across the entire distribution ([[sources/fda2022-tds-elements-fy2018-fy2020]]), consistent with the well-established low-risk characterisation of fluid dairy from non-contaminated herds. Marques et al. (2021) detected Pb in non-organic whole milk at trace levels in Spanish retail samples by ICP-MS ([[sources/marques2021-trace-elements-milks-plant-based-drinks]]), illustrating that Pb is detectable in some market contexts even if distribution-wide surveys show predominantly zero values. Whole milk's fat content relative to skim milk results in slightly higher concentrations of lipophilic metal species, but this effect is minor for the regulated heavy metals of concern.
+Whole milk is a low-accumulator matrix for most heavy metals. The dairy cow's physiology actively restricts the transfer of ingested metals from blood to milk; this is particularly effective for cadmium and lead, which are tightly regulated across biological membranes. The transfer factor from feed to milk for Cd and Pb is very low (typically below 1 percent for Pb, and even lower for Cd), meaning that even when cows graze on Cd-or Pb-contaminated pastures, the resulting milk carries concentrations well below those of the feed. Mercury transfer to milk is similarly restricted. The FDA TDS FY2018-FY2020 composite for whole fluid milk (n=27) reported all seven measured analytes (Cd, Cr, Ni, Pb, U, tAs, tHg) below their reporting limits across the entire distribution ([[sources/fda2022-tds-elements-fy2018-fy2020]]); those below-limit results are carried as left-censored bounds rather than as measured zeros, and the detected fluid-milk distributions from the primary clean-market literature show all five of lead, cadmium, total arsenic, total mercury, and chromium present at low but non-zero concentrations (see the Synthesis basis and censoring treatment section). The low concentrations are consistent with the well-established low-risk characterisation of fluid dairy from non-contaminated herds, but the values are low rather than zero. Whole milk's fat content relative to skim milk results in slightly higher concentrations of lipophilic metal species, but this effect is minor for the regulated heavy metals of concern.
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=3 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]] |
-| Cd | n=3 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | n=2 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=3 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]] |
-| Ni | n=3 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]] |
-| Al | data gap | — | — | — | — |
-| Cr | n=3 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — | — |
-| U | n=2 | 0 | 0 | high | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|1]] |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 0–17 | medium | [[sources/salaheldin2025-multimatrix-foods-egypt\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]], [[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals\|3]] |
+| Cd | n=4 | 0–30 | medium | [[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals\|1]], [[sources/salaheldin2025-multimatrix-foods-egypt\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=3 | 0–50 | medium | [[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]], [[sources/salaheldin2025-multimatrix-foods-egypt\|3]] |
+| tHg | n=2 | 0–2 | low | [[sources/starska2011-noxious-elements-milk-products-poland\|1]], [[sources/pankiewicz2012-thg-dairy-products-poland\|2]] |
+| Ni | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 3–8 | low | [[sources/salaheldin2025-multimatrix-foods-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, cadmium, total-arsenic, total-mercury, nickel, chromium, and uranium cells were resynthesized on 2026-06-11 on a fluid whole-milk wet-weight basis, the form in which the ingredient enters the supply chain. Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros.
+
+The earlier profile reported all seven of these analytes at typical and 95th-percentile values of zero at high confidence. Those figures were an artifact of the FDA Total Diet Study FY2018-FY2020 composite for "Milk, whole, fluid" (n=27), in which every sample fell below the reporting limit for each metal and the reported below-limit results were pooled as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020]], reporting limits Pb 1, Cd 1, tAs 1, tHg 1, Ni 20, Cr 25, U 1 µg/kg). The resynthesis replaces the literal zeros with the detected fluid-milk distributions from the primary occurrence literature, in which lead, cadmium, total arsenic, total mercury, and chromium are all low but non-zero. The honest floor for each fully censored analyte is the FDA reporting limit expressed as a left-censored bound (reported as "<1" or "<20"), not a measured zero.
+
+Lead rests on European and North-African clean-market fluid-milk surveys: the Polish national monitoring of 75 liquid-milk samples ([[sources/starska2011-noxious-elements-milk-products-poland|Starska et al. 2011]], mean 8 µg/kg, 90th percentile 17 µg/kg, two of 75 samples above the 20 µg/kg EU limit with a single maximum of 50 µg/kg), the Bangladesh raw-and-pasteurized survey ([[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals|Hasan et al. 2022]], mean 13 µg/kg), the Egyptian retail-milk survey ([[sources/salaheldin2025-multimatrix-foods-egypt|Salahel din et al. 2025]], mean 20.8 µg/kg, maximum 30 µg/kg), and the Spanish retail whole-milk value measured by ICP-MS ([[sources/marques2021-trace-elements-milks-plant-based-drinks|Marques et al. 2021]], whole cow milk 27 in the paper's stated units; the Table 1 header reads µg/kg but the methods text and Codex comparison are internally consistent only on a µg/g [= mg/kg] basis, so the reconciled value of 27 µg/kg is carried as a single corroborating retail anchor rather than as a percentile driver until the unit basis is confirmed with the corresponding author). The cadmium central rests on Hasan et al. (raw 32 µg/kg, pasteurized 27 µg/kg, raw range to 45 µg/kg), Salahel din et al. (mean 6.3 µg/kg, maximum 9 µg/kg), and Starska et al. (mean 1 µg/kg, 90th percentile 3 µg/kg, maximum 7 µg/kg). Total arsenic rests on Hasan et al. (raw mean 53 µg/kg, range to 91 µg/kg), Starska et al. (milk-group mean 5-8 µg/kg, 90th percentile 19 µg/kg, maximum 80 µg/kg), and Salahel din et al. (mean 1.8 µg/kg). Total mercury rests on the low Polish fluid-milk values from Starska et al. (mean 1 µg/kg, 90th percentile 2 µg/kg, maximum 10 µg/kg) and Pankiewicz 2012 ([[sources/pankiewicz2012-thg-dairy-products-poland|Pankiewicz 2012]], fluid milk 0.03-0.06 µg/kg by direct-mercury analyzer).
+
+Total arsenic and inorganic arsenic are kept as distinct analytes; only speciated measurements would populate the inorganic-arsenic cell, and no speciated value exists for this ingredient, so iAs remains a reviewed data gap. Total mercury is held distinct from methylmercury and is not derived from it.
+
+Raw cow milk from eastern Turkey ([[sources/yildiz-kucuk2024-minerals-heavy-metals-raw-cow-milk-mus|Yildiz Kucuk and Gokcek 2024]], Pb 190-440 µg/kg, Cd 200-380 µg/kg across 10 samples, all above the Turkish raw-milk lead limit) and Pakistani buffalo milk ([[sources/shahzad2025-buffalo-milk-trace-metals|Shahzad et al. 2025]], Pb to 29 µg/kg, Cd to 58 µg/kg, tAs to 198 µg/kg, tHg to 30 µg/kg, with feed-category exceedances) are documented elevated/industrial-region strata and are described separately below rather than folded into the central estimate; the Turkish values are roughly an order of magnitude above every clean-market fluid-cow-milk survey and are treated as a contaminated-pasture outlier.
+
+Chromium is reported as total chromium at low confidence; no fluid-milk hexavalent-chromium measurement exists in the corpus, so no Cr-VI value is inferred. The total-chromium central rests on Salahel din et al. (mean 5.3 µg/kg, range 3-8 µg/kg); Hasan et al. report markedly higher total chromium in Bangladesh milk (raw mean 548 µg/kg, pasteurized mean 457 µg/kg), which is held as a high South-Asian stratum and not adopted as the central or 95th-percentile value pending corroboration, because a chromium concentration two orders of magnitude above the FDA censored floor in fluid milk is more consistent with a processing-equipment or analytical contribution than with a commodity-wide baseline. The 95th-percentile chromium value is left uncomputed: the only clean-market fluid-milk distribution available is Salahel din et al.'s narrow 3-8 µg/kg range, and the corpus holds no grounded mid-range fluid-milk chromium value between that ceiling of 8 µg/kg and the stratified-out Bangladesh means in the hundreds, so any upper-tail figure would be an interpolation unsupported by a measured value. The p95 is therefore carried as null rather than as an inferred number until a corroborating mid-range fluid-milk chromium measurement is ingested. Nickel is recorded with only the FDA censored floor of <20 µg/kg: every whole-fluid-milk composite in the FDA Total Diet Study FY2018-FY2020 fell below the 20 µg/kg nickel reporting limit, so the honest floor is that reporting limit expressed as a left-censored bound and no positive occurrence value or upper bound is published for the commodity. Marques et al. also measured nickel by ICP-MS but did not stratify a whole-cow-milk concentration: they detected nickel in 6 of 32 milk and plant-drink composites (treating nickel as an essential element, with the highest value in non-organic skimmed fresh cow milk) and excluded it from group comparisons for sub-50-percent detection frequency, so no whole-milk-specific nickel value is extractable from that source and it does not establish a <LD result for this commodity. Uranium is recorded as a reviewed data gap: FDA reports it below the 1 µg/kg reporting limit across all 27 composites and Marques et al. report it below detection in every sample, with no extractable quantitative value, so no distribution is published (the rice-uranium precedent).
 
 ## Routing
 
@@ -168,7 +189,7 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 
 ## Ranges by source, region, and variety
 
-FDA TDS FY2018-FY2020 data (n=27) for whole fluid milk in the US show zero values across all analytes (Cd, Cr, Ni, Pb, U, tAs, tHg) throughout the distribution ([[sources/fda2022-tds-elements-fy2018-fy2020]]). The Marques et al. 2021 Spanish retail study detected Pb in non-organic whole cow milk, illustrating that while distribution-wide surveys show predominantly zero values, some market contexts yield detectable Pb ([[sources/marques2021-trace-elements-milks-plant-based-drinks]]). Dairy from herds grazing pastures with elevated Pb or Cd, such as land near legacy mining or smelting operations, can produce milk with elevated concentrations; this is a localised exception rather than a characteristic of the commodity category. Organic versus conventional milk is not systematically associated with different metal profiles in the published literature, as the primary determinant of milk metal content is the metal burden of the pasture and feed rather than production system.
+FDA TDS FY2018-FY2020 data (n=27) for whole fluid milk in the US reported every analyte (Cd, Cr, Ni, Pb, U, tAs, tHg) below its reporting limit throughout the distribution ([[sources/fda2022-tds-elements-fy2018-fy2020]]); these are left-censored bounds, not measured zeros. The detected fluid-milk distributions in the primary literature place lead at a clean-market central of roughly 8 to 21 µg/kg ([[sources/starska2011-noxious-elements-milk-products-poland|Starska et al. 2011]] mean 8 µg/kg, 90th percentile 17 µg/kg; [[sources/salaheldin2025-multimatrix-foods-egypt|Salahel din et al. 2025]] mean 20.8 µg/kg; [[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals|Hasan et al. 2022]] mean 13 µg/kg), cadmium across a wider span from the low Polish values (mean 1 µg/kg) up to the Bangladesh raw-milk mean of 32 µg/kg, and total arsenic from roughly 2 µg/kg to a Bangladesh raw-milk mean of 53 µg/kg. Raw cow milk from contaminated pastures sits an order of magnitude higher: eastern-Turkey raw milk carried Pb of 190 to 440 µg/kg and Cd of 200 to 380 µg/kg ([[sources/yildiz-kucuk2024-minerals-heavy-metals-raw-cow-milk-mus|Yildiz Kucuk and Gokcek 2024]]), all above the Turkish raw-milk lead limit. Dairy from herds grazing pastures with elevated Pb or Cd, such as land near legacy mining or smelting operations, can produce milk with these elevated concentrations; this is a localised exception rather than a characteristic of the commodity category, and the Turkish and Pakistani-buffalo values are stratified out of the central estimate. Organic versus conventional milk is not systematically associated with different metal profiles in the published literature, as the primary determinant of milk metal content is the metal burden of the pasture and feed rather than production system.
 
 ## Processing effects
 
@@ -234,9 +255,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| [d626a623b](https://github.com/paleofoundation/heavymetalindex/commit/d626a623b) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 1 — 6 pages / 30 cells (proving batch) |
+| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->

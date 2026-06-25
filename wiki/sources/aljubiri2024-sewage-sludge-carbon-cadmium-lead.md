@@ -61,3 +61,13 @@ App: No direct product-risk distribution. The source can support context that up
 ## Verification notes
 
 This page was built from the PDF title page, abstract, characterization sections, adsorption-study results, and methods descriptions. The auto-fetch filename's "fabric-protectants" label is not supported by the source. Products and ingredients are intentionally empty because the data are wastewater-remediation endpoints.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f23c57d6c](https://github.com/paleofoundation/heavymetalindex/commit/f23c57d6c) | 2026-06-09 | ingest auto-fetched 2026-06-09: aljubiri2024-sewage-sludge-carbon-cadmium-lead |
+<!-- END: hmi-page-history -->

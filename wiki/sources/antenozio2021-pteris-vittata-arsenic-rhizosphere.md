@@ -65,3 +65,13 @@ Microbiome: The As-resistant rhizosphere consortium (Bacillus, Paenarthrobacter,
 - `metals: [tAs]` — the source reports soil/plant total arsenic without speciating inorganic vs organic; tAs per convention.
 - `ingredients: []` / `products: []` correct: experimental phytoextraction context, not retail food occurrence (cf. [[sources/guerrasierra2021-phytoremediation-tropical-soils-review]]).
 - Part 2 direction-of-edit check: adds upstream mechanism literature; neutral to HMT&C thresholds, moves toward the literature.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c9b85bf01](https://github.com/paleofoundation/heavymetalindex/commit/c9b85bf01) | 2026-06-18 | ingest(phytoremediation): 9 in-scope remediation/soil-mechanism sources |
+<!-- END: hmi-page-history -->

@@ -77,3 +77,13 @@ App: Context only. The source may support honey-supply-chain questions about bee
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured bee tissues after syrup feeding rather than honey occurrence. On reading, it is in-scope a4 biomarker/toxicology and animal-feed transfer context with measured tissue metal values.
 
 Numbers were checked against the Ukrainian abstract, methods, Table 1, Table 2, conclusion, and the English summary in the extracted PDF. The source reports Ag/Cu/Fe/Zn/Co in bee body tissues as mg/kg natural mass; it does not report honey metal concentrations. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fe236ced0](https://github.com/paleofoundation/heavymetalindex/commit/fe236ced0) | 2026-06-10 | recover-ingest 2026-06-10: dvyliuk2019-bee-sumerian-silver-metals (lane a4, was skip:not-food-occurrence) |
+<!-- END: hmi-page-history -->

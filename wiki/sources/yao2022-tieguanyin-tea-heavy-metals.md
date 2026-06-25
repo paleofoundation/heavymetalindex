@@ -79,5 +79,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [e4938ae](https://github.com/paleofoundation/heavymetalindex/commit/e4938ae) | 2026-06-08 | ingest: yao2022-tieguanyin-tea-heavy-metals fresh from Manual Fetch Discovery |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [e4938ae98](https://github.com/paleofoundation/heavymetalindex/commit/e4938ae98) | 2026-06-08 | ingest: yao2022-tieguanyin-tea-heavy-metals fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

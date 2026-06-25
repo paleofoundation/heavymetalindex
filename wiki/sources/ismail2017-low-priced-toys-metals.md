@@ -110,3 +110,13 @@ App: If surfaced for consumer-product context, this source can say that a small 
 - Product slug note: the source covers mixed low-priced toys and reports material categories including paint coated, printed ink, polymer, textile, paper, paperboard, metal, and plastic. The current closed taxonomy has no generic all-toys umbrella; `toys-painted` and `toys-substrate-materials` are the broadest correct toy-product routing scopes for the measured paint/coating and substrate material evidence. `matrices` is intentionally empty because the taxonomy does not include a non-food toy-material matrix slug. Selenium is retained in the frontmatter metals array as source-reported `Se`, but it is not listed under wiki pages because no dedicated selenium metal page exists in the current wiki tree.
 - Jurisdiction note: `MY` reflects the purchase market and study location, `CN` reflects the stated manufacturing/import origin, and `EU` reflects the EN 71-3 regulatory comparison used in the Results tables.
 - Evidence tier: `B` because this is a peer-reviewed primary market survey with transparent sample counts and analytical instrument, but it has a small convenience-shop sample frame and uses HDXRF total-content screening rather than confirmatory migration or bioaccessibility testing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7b1480441](https://github.com/paleofoundation/heavymetalindex/commit/7b1480441) | 2026-06-09 | ingest: ismail2017-low-priced-toys-metals fresh from MFK/June 8 |
+<!-- END: hmi-page-history -->

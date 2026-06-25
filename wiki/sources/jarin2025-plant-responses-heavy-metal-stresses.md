@@ -244,6 +244,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [029e9a5](https://github.com/paleofoundation/heavymetalindex/commit/029e9a5) | 2026-06-08 | audit: jarin2025-plant-responses-heavy-metal-stresses promoted |
-| [f4c7a4e](https://github.com/paleofoundation/heavymetalindex/commit/f4c7a4e) | 2026-06-08 | ingest: jarin2025-plant-responses-heavy-metal-stresses fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| [029e9a50a](https://github.com/paleofoundation/heavymetalindex/commit/029e9a50a) | 2026-06-08 | audit: jarin2025-plant-responses-heavy-metal-stresses promoted |
+| [f4c7a4e11](https://github.com/paleofoundation/heavymetalindex/commit/f4c7a4e11) | 2026-06-08 | ingest: jarin2025-plant-responses-heavy-metal-stresses fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->

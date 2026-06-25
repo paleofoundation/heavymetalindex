@@ -78,3 +78,13 @@ App: The source can support the `herbal-botanicals` and `dried-herbs` contaminat
 - Speciation check: Cd, Cr, Ni, and Pb are total elemental measurements by AAS; the source does not report Cr-VI.
 - The source's WHO comparison line prints permissible levels for arsenic, cadmium, and lead as `1.0, 0.3, and 10.0 (μg kg−1)` while discussing dry-weight medicinal-plant raw material. The page records the authors' exceedance statement but does not use that line to derive any HMTc threshold or consumer-facing interpretation.
 - `matrices: [medicinal-plants, dried-herbs, herbal-infusion]` uses corpus-established descriptive matrix terms because the canonical examples do not have a single term for pharmacy-market brewing-bag medicinal herbs plus their prepared infusion.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bb1fdad68](https://github.com/paleofoundation/heavymetalindex/commit/bb1fdad68) | 2026-06-09 | ingest: miroslawski2017-polish-medicinal-plants-infusions fresh from MFK/June 9 |
+<!-- END: hmi-page-history -->
