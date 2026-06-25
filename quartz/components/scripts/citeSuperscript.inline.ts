@@ -1,16 +1,18 @@
 // Converts in-article source-page citation links (a[data-slug^="sources/"]) into
-// Examine-style superscript pill numbers with a hover card — matching the proof.
-// Render-time only: the build/content is untouched; this restyles what shipped.
+// Examine-style superscript bracketed numbers ([1]) with a hover card, and strips
+// the parentheses the prose wraps them in — "...claim (cite)." → "...claim.[1]",
+// "(cite, cite)" → "[1], [2]". Render-time only; the build/content is untouched.
 function applyCiteSuperscripts() {
   const content = document.querySelector(".wiki-content")
   if (!content) return
+
+  // 1) Convert each source link to a superscript citation.
   const links = content.querySelectorAll('a[data-slug^="sources/"]')
   const numBySlug = new Map<string, number>()
   let n = 0
   links.forEach((el) => {
     const a = el as HTMLAnchorElement
-    if (a.closest("sup.cite")) return // already converted
-    // Skip links inside the source-legend / references table at the page foot.
+    if (a.closest("sup.cite")) return
     if (a.closest("table") && a.closest("#sources, [id='page-history']")) return
     const slug = a.getAttribute("data-slug") || ""
     let num = numBySlug.get(slug)
@@ -40,6 +42,51 @@ function applyCiteSuperscripts() {
     sup.appendChild(link)
     sup.appendChild(card)
     a.replaceWith(sup)
+  })
+
+  // 2) Strip parentheses that wrap ONLY a citation (or comma-separated run).
+  const sups = Array.from(content.querySelectorAll("sup.cite"))
+  const seen = new Set<Node>()
+  sups.forEach((sup) => {
+    if (seen.has(sup)) return
+    // Extend the run over ", " / " " separators followed by another cite.
+    let end: Element = sup
+    let node = sup.nextSibling
+    while (node) {
+      if (node.nodeType === 3 && /^[\s,]+$/.test(node.textContent || "")) {
+        const nxt = node.nextSibling as Element | null
+        if (nxt && nxt.nodeType === 1 && (nxt as Element).matches?.("sup.cite")) {
+          seen.add(nxt)
+          end = nxt
+          node = nxt.nextSibling
+          continue
+        }
+      }
+      break
+    }
+    const before = sup.previousSibling
+    const after = end.nextSibling
+    if (
+      before &&
+      before.nodeType === 3 &&
+      after &&
+      after.nodeType === 3 &&
+      /\(\s*$/.test(before.textContent || "") &&
+      /^\s*\)/.test(after.textContent || "")
+    ) {
+      before.textContent = (before.textContent || "").replace(/\s*\(\s*$/, "")
+      let rest = (after.textContent || "").replace(/^\s*\)/, "")
+      const punct = rest.match(/^\s*([.,;:!?])/)
+      if (punct) {
+        // sentence/clause punctuation: glue it before the citation → "claim.[1]"
+        before.textContent = (before.textContent || "") + punct[1]
+        rest = rest.slice(punct[0].length)
+      } else {
+        // mid-sentence: keep a space before the citation → "claim [1] word"
+        before.textContent = (before.textContent || "") + " "
+      }
+      after.textContent = rest
+    }
   })
 }
 
