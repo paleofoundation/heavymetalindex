@@ -127,14 +127,14 @@ export const defaultListPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta({ showReadingTime: false }),
   ],
+  // Index/list pages use the same proof rail as content pages: curated .snav
+  // (section nav from the page's headings + icon links + cross-ref counts) and
+  // the .rail. Keeps landing pages visually consistent with the rest.
   left: [
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        { Component: Component.Search(), grow: true },
-        { Component: Component.Darkmode() },
-      ],
-    }),
+    Component.Snav(),
+    Component.DedicatedPages(),
   ],
-  right: [],
+  right: [
+    Component.Rail(),
+  ],
 };
