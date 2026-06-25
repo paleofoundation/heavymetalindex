@@ -1,5 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { resolveRelative, type SimpleSlug, type FullSlug } from "../util/path"
+// @ts-ignore — inline script resolved by Quartz's esbuild loader
+import pageHistoryTimeline from "./scripts/pageHistoryTimeline.inline"
 
 // The proof's curated left section-nav (.snav): core sections as `.sec` with
 // their sub-sections as `.sub`, secondary sections folded under "Further detail",
@@ -176,5 +178,6 @@ export default (() => {
       </>
     )
   }
+  Snav.afterDOMLoaded = pageHistoryTimeline
   return Snav
 }) satisfies QuartzComponentConstructor

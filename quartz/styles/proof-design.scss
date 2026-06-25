@@ -191,6 +191,21 @@ nav.hmi-related .hmi-related-title { font-family: Lora, serif; font-size: 18px; 
 nav.hmi-related ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 5px 14px; margin: 6px 0 14px; }
 nav.hmi-related a { color: var(--burg); font-size: 13.5px; }
 
+/* Update History — burgundy vertical timeline (pageHistoryTimeline.inline.ts
+   rebuilds the generated page-history table into this). */
+ol.hist-timeline { list-style: none; margin: 18px 0 0; padding: 0 0 0 26px; position: relative; }
+ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px; bottom: 7px; width: 2px; background: var(--burg-tint); }
+.hist-item { position: relative; padding: 0 0 22px; }
+.hist-item:last-child { padding-bottom: 2px; }
+.hist-item::before { content: ""; position: absolute; left: -25px; top: 4px; width: 11px; height: 11px; border-radius: 50%; background: #fff; border: 2px solid var(--burg); box-sizing: border-box; }
+.hist-item-latest::before { background: var(--burg); }
+.hist-meta { display: flex; align-items: center; gap: 10px; margin-bottom: 3px; }
+.hist-date { color: var(--muted); font-size: 13px; }
+.hist-badge { font-size: 11px; font-weight: 600; color: var(--burg); background: var(--burg-tint); border-radius: 20px; padding: 1px 9px; letter-spacing: 0.02em; }
+.hist-title { color: var(--ink); font-family: Lora, serif; font-size: 16px; font-weight: 600; line-height: 1.4; }
+.hist-commit { display: inline-block; margin-top: 4px; font-size: 12.5px; color: var(--burg); font-family: var(--codeFont, ui-monospace, monospace); }
+.hist-commit:hover { text-decoration: underline; }
+
 @media (max-width: 1080px) {
   .proof-layout { grid-template-columns: 1fr; gap: 26px; }
   .snav, .rail { position: static; }
