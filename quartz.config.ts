@@ -112,6 +112,10 @@ const config: QuartzConfig = {
       // CrawlLinks so the inserted links are resolved + counted in the graph.
       Plugin.AutoLink(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      // Resolve aliasless [[slug]] link text to the target page's title so bare
+      // wikilinks read as page names site-wide. Runs after CrawlLinks so
+      // data-slug and link classes are present. See linkTitles.ts.
+      Plugin.ResolveLinkTitles(),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
