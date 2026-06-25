@@ -113,8 +113,14 @@ a.internal.tag-link:hover {
 .wiki-content h4 { font-family: Lora, serif; font-size: 16.5px; color: var(--ink); font-weight: 600; margin: 22px 0 8px; }
 .wiki-content h2 a, .wiki-content h3 a { color: inherit; }
 .wiki-content p { margin: 0 0 1.05em; }
-.wiki-content a { color: var(--burg); text-decoration: none; }
-.wiki-content a:hover { text-decoration: underline; }
+// Plain burgundy links, no underline at rest. The legacy `article a` rule
+// (custom.scss) draws the underline with a `border-bottom`, not text-decoration,
+// so we must explicitly zero border-bottom here (default AND hover) — zeroing
+// text-decoration alone left the border showing. Underline returns on hover via
+// text-decoration. The more-specific source-citation superscript rule keeps its
+// dotted border, so citations are unaffected.
+.wiki-content a { color: var(--burg); text-decoration: none; border-bottom: none; }
+.wiki-content a:hover { text-decoration: underline; border-bottom: none; background: none; }
 /* in-article wikilinks read as plain burgundy text. Pill removal is handled by
    the global a.internal rule (with !important) above. No default underline; the
    `.wiki-content a:hover` rule above supplies underline-on-hover. */
