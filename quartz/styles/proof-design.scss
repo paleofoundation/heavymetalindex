@@ -35,6 +35,20 @@
 .proof-home .proof-main { max-width: var(--maxw); margin: 0 auto; }
 .proof-home .wiki-content { font-size: 16px; }
 
+/* No pill on any internal link anywhere in the build, default OR hover —
+   overrides the Quartz base a.internal / tag-link background. */
+a.internal,
+a.internal.tag-link {
+  background: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+a.internal:hover,
+a.internal:focus,
+a.internal.tag-link:hover {
+  background: none !important;
+}
+
 /* ---------- top nav (white) ---------- */
 .proof .topnav, .topnav.proofnav { background: #fff; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 30; }
 .proofnav .inner { max-width: var(--maxw); margin: 0 auto; padding: 0 40px; height: 68px; display: flex; align-items: center; gap: 30px; }
@@ -101,10 +115,10 @@
 .wiki-content p { margin: 0 0 1.05em; }
 .wiki-content a { color: var(--burg); text-decoration: none; }
 .wiki-content a:hover { text-decoration: underline; }
-/* in-article wikilinks read as plain burgundy text (no pill); overrides the
-   Quartz base a.internal background/radius/padding */
-.wiki-content a.internal { background: none; border-radius: 0; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
-.wiki-content a.internal:hover { background: none; color: var(--burg-dark); text-decoration: underline; }
+/* in-article wikilinks read as plain burgundy text. Pill removal is handled by
+   the global a.internal rule (with !important) above. No default underline; the
+   `.wiki-content a:hover` rule above supplies underline-on-hover. */
+.wiki-content a.internal:hover { color: var(--burg-dark); }
 .wiki-content ul, .wiki-content ol { padding-left: 1.4em; margin: 0 0 1.05em; }
 .wiki-content li { margin-bottom: 0.45em; }
 .wiki-content blockquote { border-left: 3px solid var(--burg); margin: 0 0 1.1em; padding: 8px 18px; background: var(--burg-tint2); color: var(--body); }
