@@ -26,6 +26,9 @@
 /* H3 sub-sections stay hidden until their section is active (the proof's clean nav) */
 .snav .grp:not(.snav-further) > a.sub { display: none; }
 .snav .grp:not(.snav-further):has(.in-view) > a.sub { display: block; }
+/* The metal-page Overview group is the primary section nav (Examine keeps it
+   expanded): its subsections always show, not only when scrolled into view. */
+.snav .grp.snav-overview > a.sub { display: block; }
 /* cross-reference counts group inside the snav */
 .snav .snav-counts { display: block; }
 

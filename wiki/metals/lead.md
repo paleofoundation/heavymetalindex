@@ -31,7 +31,7 @@ sources: 1053
 
 This synthesis draws on ATSDR, EFSA, JECFA, EPA IRIS, CDC, OEHHA, FDA Closer to Zero, mechanism reviews, and chapter-level textbook context from [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]. The complete citation list remains at the bottom of the page so first-time readers can get the main interpretation before the source trail.
 
-## Overview
+## What is lead?
 <!-- audience: regulator, educator, consumer -->
 
 Lead is a non-essential heavy metal and a pervasive environmental contaminant. It enters the human food system through atmospheric deposition from historical leaded gasoline use, soil contamination from leaded paint and industrial emissions, contact with legacy lead-containing food processing equipment and water distribution materials, and uptake by crops from contaminated soil ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]). The metal is absorbed at higher rates by children than by adults (5 to 15 percent in adults, with children retaining more of what they absorb), distributes to soft tissues in the short term and to bone over decades, and is excreted slowly through urine and faeces ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]). Blood lead has a half-life of approximately 30 days; bone lead has a half-life of 10 to 30 years and serves as an internal reservoir that releases lead during pregnancy, lactation, and bone resorption ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]).
@@ -134,12 +134,12 @@ Blood lead concentration is the standard exposure biomarker for human health ass
 
 Food and water lead concentrations are typically measured by ICP-MS, the method FDA's Toxic Elements Program uses for the Closer to Zero data underlying the action levels ([[sources/fda-tds-elements-2018-2020|FDA TDS 2018-2020]]). Detection limits in the 0.001 to 0.1 µg/L range are achievable, sufficient for the 10 ppb level the CTZ guidance specifies as the smallest of the three baby-food action levels ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ 2025]]).
 
-## Microbiome effects
+## Microbiome context
 <!-- audience: educator -->
 
 _Pending dedicated microbiome ingests. The lead-microbiome literature includes documented gut microbiome perturbations in lead-exposed populations and animal models, with potential implications for lead absorption efficiency itself (microbial activities influence trace metal speciation and bioavailability in the gut). The wikibiome-crosswalk anchors are tentatively `lead-gut-axis` and `lead-dysbiosis` for federation with the WikiBiome project._
 
-## Historical context: leaded gasoline and the developmental-neurotoxicity consensus
+## Historical context
 <!-- audience: educator, regulator -->
 
 The current regulatory consensus that no safe blood lead level exists for children rests on a multi-decade public-health record. Population-level blood lead concentrations in US children declined from a NHANES II (1976-1980) geometric mean of approximately 15 µg/dL to a NHANES 2015-2018 geometric mean below 1 µg/dL, with the [[sources/cdc-blood-lead-reference-value|CDC blood lead reference value]] declining in parallel from an earlier value of 10 µg/dL (1991-2012), to 5 µg/dL (2012-2021), to the current 3.5 µg/dL ([[sources/cdc-blood-lead-reference-value|CDC BLRV]]). Effects are now established at blood lead levels below 5 µg/dL, well within the range where most US children currently fall ([[sources/cdc-blood-lead-reference-value|CDC BLRV]]).
@@ -198,6 +198,29 @@ First, the absence of a single international tolerable intake reference value is
 Second, the carcinogenicity classification (EPA B2, Prop 65 listed) is settled at the categorical level but not derived to a quantitative cancer slope factor. Whether dietary lead exposures contribute meaningfully to cancer risk at general-population levels remains an area where regulatory bodies have declined to derive quantitative dose-response, citing data limitations.
 
 Third, the bone-lead-mobilization contribution to fetal and infant exposure is mechanistically established but not quantitatively integrated into FDA's IRL framework. The IRL is anchored on dietary intake during the exposure window of interest, but for pregnant women a substantial fraction of fetal blood lead derives from maternal bone reserves accumulated decades earlier. How to incorporate this non-dietary contribution into intake-anchored frameworks for products marketed to pregnant women is an open methodological question.
+
+## Frequently asked questions
+<!-- audience: consumer, educator -->
+
+### Is there a safe level of lead in food?
+
+No regulatory body has identified a safe level of lead for children. JECFA withdrew its provisional tolerable weekly intake in 2010 ([[sources/jecfa-72nd-lead-2010|JECFA 72nd]]), and EFSA concluded the same year that no intake level is health-protective, because lead's developmental neurotoxicity in young children has no demonstrated threshold ([[sources/efsa-lead-contam-2010|EFSA 2010]]). The operational framing is to minimize lead exposure as far as practicable rather than to stay below a fixed number.
+
+### Which foods contribute the most dietary lead?
+
+In EFSA's European exposure assessment, cereal products are the dominant population-level contributor because they are consumed in large volume; vegetables, and root vegetables in particular for children, also contribute substantially ([[sources/efsa-lead-contam-2010|EFSA 2010]]). Lead enters these foods mainly through uptake from contaminated soil and atmospheric deposition ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]).
+
+### Are children more vulnerable to lead than adults?
+
+Yes. Children absorb a larger fraction of ingested lead, retain more of what they absorb, and are exposed during developmental windows when the brain is most susceptible ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]). EFSA estimates that average European children's dietary lead exposure already exceeds the developmental-neurotoxicity benchmark dose (BMDL01 of 0.50 µg/kg body weight per day) across most of its country range ([[sources/efsa-lead-contam-2010|EFSA 2010]]).
+
+### What are the FDA's lead action levels for baby food?
+
+Under its Closer to Zero program (2025 final guidance), the FDA set action levels of 10 ppb for fruits, non-root vegetables, mixtures, yogurts, custards, and single-ingredient meats; 20 ppb for single-ingredient root vegetables; and 20 ppb for dry infant cereals ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ 2025]]; [[regulations/fda2025-lead-processed-baby-foods]]). These are nonbinding recommendations that establish an enforcement-relevant context, not statutory maximum levels.
+
+### How is lead exposure measured?
+
+Blood lead concentration (µg/dL) is the standard human biomarker; the CDC blood lead reference value is 3.5 µg/dL, a population-screening threshold rather than a health-based safety threshold ([[sources/cdc-blood-lead-reference-value|CDC BLRV]]). Bone lead measured by K-shell X-ray fluorescence reflects cumulative lifetime exposure ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]). Lead in food and water is typically measured by ICP-MS ([[sources/fda-tds-elements-2018-2020|FDA TDS 2018-2020]]).
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
