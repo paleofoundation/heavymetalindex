@@ -22,6 +22,11 @@ function applyCiteSuperscripts() {
     }
     const href = a.getAttribute("href") || "#"
     const orig = (a.textContent || "").trim()
+    // Metadata stamped at build time by the SourceCiteMeta transformer.
+    const dAuthors = (a.getAttribute("data-authors") || "").trim()
+    const dTitle = (a.getAttribute("data-title") || "").trim()
+    const dJournal = (a.getAttribute("data-journal") || "").trim()
+    const dReview = (a.getAttribute("data-review-link") || "").trim()
 
     const sup = document.createElement("sup")
     sup.className = "cite"
@@ -30,15 +35,55 @@ function applyCiteSuperscripts() {
     link.textContent = String(num)
     const card = document.createElement("span")
     card.className = "cite-card"
-    const au = document.createElement("span")
-    au.className = "au"
-    au.textContent = orig
-    const go = document.createElement("a")
-    go.className = "go"
-    go.href = href
-    go.textContent = "View source →"
-    card.appendChild(au)
-    card.appendChild(go)
+
+    if (dTitle || dAuthors) {
+      // microbiomemedicine-style card: tinted header (authors + hyperlinked
+      // title), then journal/body + a "Read source →" button.
+      const head = document.createElement("span")
+      head.className = "cite-card-head"
+      if (dAuthors) {
+        const au = document.createElement("span")
+        au.className = "cite-card-authors"
+        au.textContent = dAuthors
+        head.appendChild(au)
+      }
+      const titleEl = document.createElement("a")
+      titleEl.className = "cite-card-title"
+      titleEl.href = href
+      titleEl.textContent = dTitle || orig
+      head.appendChild(titleEl)
+      card.appendChild(head)
+
+      const body = document.createElement("span")
+      body.className = "cite-card-body"
+      if (dJournal) {
+        const j = document.createElement("span")
+        j.className = "cite-card-journal"
+        j.textContent = dJournal
+        body.appendChild(j)
+      }
+      const review = document.createElement("a")
+      review.className = "cite-card-review"
+      review.href = dReview || href
+      if (dReview) {
+        review.target = "_blank"
+        review.rel = "noopener"
+      }
+      review.textContent = "Read source →"
+      body.appendChild(review)
+      card.appendChild(body)
+    } else {
+      // Fallback (no stamped metadata): link text + "View source".
+      const au = document.createElement("span")
+      au.className = "au"
+      au.textContent = orig
+      const go = document.createElement("a")
+      go.className = "go"
+      go.href = href
+      go.textContent = "View source →"
+      card.appendChild(au)
+      card.appendChild(go)
+    }
     sup.appendChild(link)
     sup.appendChild(card)
     a.replaceWith(sup)

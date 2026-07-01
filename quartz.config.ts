@@ -119,6 +119,10 @@ const config: QuartzConfig = {
       // wikilinks read as page names site-wide. Runs after CrawlLinks so
       // data-slug and link classes are present. See linkTitles.ts.
       Plugin.ResolveLinkTitles(),
+      // Stamp citation metadata (authors/title/journal/review-link) onto source
+      // links so the inline cite-card renders the mm-style hover card. After
+      // ResolveLinkTitles so data-slug is present. See sourceCiteMeta.ts.
+      Plugin.SourceCiteMeta(),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
