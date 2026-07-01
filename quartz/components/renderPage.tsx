@@ -1,6 +1,7 @@
 import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import BodyConstructor from "./Body"
+import HeroBandConstructor from "./HeroBand"
 import { JSResourceToScriptElement, StaticResources } from "../util/resources"
 import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
 import { clone } from "../util/clone"
@@ -238,6 +239,7 @@ export function renderPage(
     footer: Footer,
   } = components
   const Body = BodyConstructor()
+  const HeroBand = HeroBandConstructor()
   // The homepage carries its own full-bleed hero, so it opts out of the proof's
   // 3-column grid (no snav/rail) and renders full-width.
   const isHome = (slug as string) === "index"
@@ -282,6 +284,9 @@ export function renderPage(
             ))}
           </header>
         )}
+        {/* Full-width burgundy hero band (microbiomemedicine-style), lifted
+            outside #quartz-root so it spans the viewport; content pages only. */}
+        {!isHome && <HeroBand {...componentData} />}
         <div id="quartz-root" class={isHome ? "page proof proof-home" : "page proof"}>
           <Body {...componentData}>
             <div class="proof-container">
