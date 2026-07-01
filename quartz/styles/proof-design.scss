@@ -266,3 +266,33 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
   .hero-left { justify-content: flex-start; }
   .hero-right { flex-direction: row; flex-wrap: wrap; gap: 20px; }
 }
+
+/* ── auth screens (login / signup) — large centered card, HMI burgundy ── */
+.proof-auth { background: #fbfaf8; min-height: calc(100vh - 69px); }
+.hmi-auth-page { max-width: var(--maxw); margin: 0 auto; padding: 56px 24px 80px; display: flex; justify-content: center; }
+.hmi-auth-card { width: 100%; max-width: 460px; background: #fff; border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.07); padding: 44px 44px 36px; }
+.hmi-auth-card--wide { max-width: 600px; }
+.hmi-auth-title { font-family: Lora, serif; font-weight: 500; font-size: 34px; color: var(--burg); margin: 0 0 8px; line-height: 1.1; }
+.hmi-auth-sub { font-family: Inter, sans-serif; font-size: 15px; line-height: 1.5; color: var(--muted); margin: 0 0 26px; }
+.hmi-auth-google { display: flex; align-items: center; justify-content: center; gap: 11px; width: 100%; background: #fff; border: 1px solid #d9d6cf; border-radius: 9px; padding: 13px; font-family: Inter, sans-serif; font-size: 15.5px; font-weight: 600; color: var(--ink); text-decoration: none; transition: background 0.15s ease, border-color 0.15s ease; }
+.hmi-auth-google:hover { background: var(--shade); border-color: #c8c4bb; text-decoration: none; color: var(--ink); }
+.hmi-auth-google svg { width: 19px; height: 19px; flex: 0 0 auto; }
+.hmi-auth-or { display: flex; align-items: center; gap: 14px; margin: 22px 0; color: var(--faint); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
+.hmi-auth-or::before, .hmi-auth-or::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.hmi-auth-form { display: flex; flex-direction: column; gap: 15px; }
+.hmi-auth-field { display: flex; flex-direction: column; gap: 6px; }
+.hmi-auth-field > span { font-family: Inter, sans-serif; font-size: 13px; font-weight: 600; color: var(--body); }
+.hmi-auth-field input { font-family: Inter, sans-serif; font-size: 15.5px; color: var(--ink); background: #fff; border: 1px solid #d4cfc6; border-radius: 9px; padding: 12px 14px; width: 100%; transition: border-color 0.15s ease, box-shadow 0.15s ease; }
+.hmi-auth-field input::placeholder { color: var(--faint); }
+.hmi-auth-field input:focus { outline: none; border-color: var(--burg); box-shadow: 0 0 0 3px var(--burg-tint); }
+.hmi-auth-roles { display: flex; flex-direction: column; gap: 10px; margin-bottom: 6px; }
+.hmi-auth-radio { display: flex; align-items: center; gap: 10px; font-family: Inter, sans-serif; font-size: 15px; color: var(--ink); cursor: pointer; }
+.hmi-auth-radio input { accent-color: var(--burg); width: 17px; height: 17px; flex: 0 0 auto; }
+.hmi-auth-submit { margin-top: 6px; width: 100%; background: var(--burg); color: #fff; border: 0; border-radius: 9px; padding: 14px; font-family: Inter, sans-serif; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.15s ease; }
+.hmi-auth-submit:hover { background: var(--burg-dark); }
+.hmi-auth-foot { text-align: center; margin: 22px 0 0; font-family: Inter, sans-serif; font-size: 14.5px; color: var(--body); }
+.hmi-auth-foot a { color: var(--burg); font-weight: 600; }
+@media (max-width: 560px) {
+  .hmi-auth-card { padding: 32px 24px; }
+  .hmi-auth-page { padding: 32px 16px 48px; }
+}

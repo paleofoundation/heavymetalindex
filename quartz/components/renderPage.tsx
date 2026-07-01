@@ -2,6 +2,7 @@ import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import BodyConstructor from "./Body"
 import HeroBandConstructor from "./HeroBand"
+import AuthCardConstructor from "./AuthCard"
 import { JSResourceToScriptElement, StaticResources } from "../util/resources"
 import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
 import { clone } from "../util/clone"
@@ -240,9 +241,12 @@ export function renderPage(
   } = components
   const Body = BodyConstructor()
   const HeroBand = HeroBandConstructor()
+  const AuthCard = AuthCardConstructor()
   // The homepage carries its own full-bleed hero, so it opts out of the proof's
   // 3-column grid (no snav/rail) and renders full-width.
   const isHome = (slug as string) === "index"
+  // Auth screens render a single centered card (no hero / snav / rail).
+  const isAuth = (slug as string) === "login" || (slug as string) === "signup"
 
   const LeftComponent = (
     <div class="left sidebar">
@@ -286,7 +290,14 @@ export function renderPage(
         )}
         {/* Full-width burgundy hero band (microbiomemedicine-style), lifted
             outside #quartz-root so it spans the viewport; content pages only. */}
-        {!isHome && <HeroBand {...componentData} />}
+        {!isHome && !isAuth && <HeroBand {...componentData} />}
+        {isAuth ? (
+          <div id="quartz-root" class="page proof proof-auth">
+            <main class="hmi-auth-page" id="main-content" tabindex={-1}>
+              <AuthCard {...componentData} />
+            </main>
+          </div>
+        ) : (
         <div id="quartz-root" class={isHome ? "page proof proof-home" : "page proof"}>
           <Body {...componentData}>
             <div class="proof-container">
@@ -320,6 +331,7 @@ export function renderPage(
             </div>
           </Body>
         </div>
+        )}
         <Footer {...componentData} />
       </body>
       {pageResources.js
