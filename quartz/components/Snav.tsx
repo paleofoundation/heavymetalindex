@@ -1,6 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { resolveRelative, type SimpleSlug, type FullSlug } from "../util/path"
 import { concatenateResources } from "../util/resources"
+import { modelForType } from "../content-model"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
 import pageHistoryTimeline from "./scripts/pageHistoryTimeline.inline"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
@@ -22,12 +23,6 @@ import snavScript from "./scripts/snav.inline"
 const DROP = /^(sources|page history)$/i // apparatus — reached via the icon utility links
 // Secondary / non-reader-primary sections, folded under "Further detail".
 const FOLD = /app-?\s?layer|planned sections|^status$|metal pages|further detail/i
-
-// Metal-page IA: H2s matching these are promoted to their own top-level nav
-// header (rendered in this order). Everything else groups under "Overview".
-const MAIN_VULN = /^vulnerable populations$/i
-const MAIN_OPEN = /^open questions$/i
-const MAIN_FAQ = /^(frequently asked questions|faqs?)$/i
 
 const UTIL: { to?: string; anchor?: string; label: string; d: string }[] = [
   { to: "coverage", label: "Evidence Database", d: "M3 3v18h18 M19 9l-5 5-4-4-3 3" },
@@ -86,58 +81,60 @@ export default (() => {
       }
     }
 
-    // ---- Metal-page IA: one "Overview" group + promoted critical headers ----
-    if (slug.startsWith("metals/")) {
-      const title = ((fileData.frontmatter?.title as string) ?? slug.split("/").pop() ?? "this metal").trim()
-      const metalName = title.charAt(0).toLowerCase() + title.slice(1)
-
-      const overview: Sec[] = []
-      let vuln: Sec | null = null
-      let open: Sec | null = null
-      let faq: Sec | null = null
-      const folded: Sec[] = []
-      for (const s of sections) {
-        const t = (s.text ?? "").trim()
-        if (s.fold) folded.push(s)
-        else if (MAIN_VULN.test(t)) vuln = s
-        else if (MAIN_OPEN.test(t)) open = s
-        else if (MAIN_FAQ.test(t)) faq = s
-        else overview.push(s)
+    // ---- Registry-driven IA (quartz/content-model.ts), keyed by frontmatter type ----
+    // Groups the page's H2s under the parent taxonomy for its type (metal /
+    // ingredient / product-category / regulator), matched by role. Unknown types
+    // fall through to the generic branch below.
+    const model = modelForType(fileData.frontmatter?.type as string | undefined, slug)
+    if (model) {
+      const title = ((fileData.frontmatter?.title as string) ?? slug.split("/").pop() ?? "").trim()
+      const ctx = { pageTitle: title.charAt(0).toLowerCase() + title.slice(1) }
+      const relabel = (text?: string) => {
+        const t = (text ?? "").trim()
+        for (const ov of model.labelOverrides ?? []) if (ov.pattern.test(t)) return ov.label(ctx)
+        return text
       }
-      const mains = [vuln, open, faq].filter(Boolean) as Sec[]
-      const firstSlug = overview[0]?.slug
+      const visible = sections.filter((s) => !model.hide.some((re) => re.test((s.text ?? "").trim())))
+      const claimed = new Set<Sec>()
+      const groups = model.parents
+        .map((parent) => {
+          const matched = visible.filter(
+            (s) =>
+              !claimed.has(s) &&
+              parent.children.some((c) => c.patterns.some((re) => re.test((s.text ?? "").trim()))),
+          )
+          matched.forEach((s) => claimed.add(s))
+          return { parent, matched }
+        })
+        .filter((g) => g.matched.length > 0)
+      const ungrouped = visible.filter((s) => !claimed.has(s))
 
       return (
         <>
-          {overview.length > 0 && (
-            <div class="grp snav-overview">
-              <a class="sec" href={`#${firstSlug}`} data-for={firstSlug}>
-                Overview
-              </a>
-              {overview.map((s) => {
-                // an un-renamed "Overview" H2 reads as the lede question
-                const label = /^overview$/i.test((s.text ?? "").trim())
-                  ? `What is ${metalName}?`
-                  : s.text
-                return (
+          {groups.map(({ parent, matched }) =>
+            parent.direct ? (
+              <div class="grp">
+                <a class="sec" href={`#${matched[0].slug}`} data-for={matched[0].slug}>
+                  {parent.label}
+                </a>
+              </div>
+            ) : (
+              <div class="grp">
+                <a class="sec" href={`#${matched[0].slug}`} data-for={matched[0].slug}>
+                  {parent.label}
+                </a>
+                {matched.map((s) => (
                   <a class="sub" href={`#${s.slug}`} data-for={s.slug}>
-                    {label}
+                    {relabel(s.text)}
                   </a>
-                )
-              })}
-            </div>
+                ))}
+              </div>
+            ),
           )}
-          {mains.map((s) => (
-            <div class="grp">
-              <a class="sec" href={`#${s.slug}`} data-for={s.slug}>
-                {s.text}
-              </a>
-            </div>
-          ))}
-          {folded.length > 0 && (
+          {ungrouped.length > 0 && (
             <details class="grp snav-further">
               <summary class="sec">Further detail</summary>
-              {folded.map((s) => (
+              {ungrouped.map((s) => (
                 <a class="sub" href={`#${s.slug}`} data-for={s.slug}>
                   {s.text}
                 </a>

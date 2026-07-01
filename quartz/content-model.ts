@@ -74,7 +74,7 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
     {
       type: "ingredient",
       slugPrefix: "ingredients/",
-      hide: [...HIDE_BASE, /^completeness scorecard$/i, /^routing$/i, /fda tds/i],
+      hide: [...HIDE_BASE, /^completeness scorecard$/i, /^routing$/i, /fda tds/i, /contamination profile state/i, /^page completeness$/i],
       parents: [
         {
           id: "overview",
