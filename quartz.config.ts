@@ -52,9 +52,12 @@ const config: QuartzConfig = {
         // register: serif headings read as authoritative reference, Inter body
         // stays clean and modern. IBM Plex Mono retained for data fields,
         // citation slugs, and code.
-        header: "Lora",
-        body: "Inter",
-        code: "IBM Plex Mono",
+        // Load the full weight ranges the design actually uses (matches
+        // microbiomemedicine): headings apply Lora 600 and the nav Inter 500,
+        // which were being faux-synthesized when only 400/700 were fetched.
+        header: { name: "Lora", weights: [400, 500, 600, 700], includeItalic: false },
+        body: { name: "Inter", weights: [300, 400, 500, 600, 700] },
+        code: { name: "IBM Plex Mono", weights: [400, 500, 600] },
       },
       colors: {
         // Palette derived from answerthis.io. Cool near-white background,
