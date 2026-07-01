@@ -32,14 +32,17 @@ export interface TopNavLink {
   matchPrefix?: boolean
 }
 
-// Primary taxonomy — Metals first (metals-first rollout). Testing is included
-// per the brief's "Metals/Ingredients/Products/Regulations/Testing" ordering.
+// Primary taxonomy — the full menu carried on the live heavymetalindex.com
+// header, in the live order. Keep this in sync with the deployed site.
 export const taxonomyLinks: TopNavLink[] = [
-  { label: "Metals", slug: "metals" as SimpleSlug, matchPrefix: true },
-  { label: "Ingredients", slug: "ingredients" as SimpleSlug, matchPrefix: true },
   { label: "Products", slug: "products" as SimpleSlug, matchPrefix: true },
+  { label: "Ingredients", slug: "ingredients" as SimpleSlug, matchPrefix: true },
+  { label: "Metals", slug: "metals" as SimpleSlug, matchPrefix: true },
+  { label: "Mitigation", slug: "mitigation" as SimpleSlug, matchPrefix: true },
+  { label: "Supply chain", slug: "supply-chain" as SimpleSlug, matchPrefix: true },
   { label: "Regulations", slug: "regulations" as SimpleSlug, matchPrefix: true },
-  { label: "Testing", slug: "testing" as SimpleSlug, matchPrefix: true },
+  { label: "Synthesis", slug: "synthesis" as SimpleSlug, matchPrefix: true },
+  { label: "Sources", slug: "sources" as SimpleSlug, matchPrefix: true },
 ]
 
 // Secondary destinations rendered to the right of the interactive controls.
