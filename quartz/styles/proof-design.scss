@@ -296,3 +296,18 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
   .hmi-auth-card { padding: 32px 24px; }
   .hmi-auth-page { padding: 32px 16px 48px; }
 }
+
+/* ── Examine-style category directory (Products / Ingredients / Metals index) ── */
+.cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 30px 44px; margin: 26px 0 10px; }
+.cat-card { break-inside: avoid; }
+.cat-title { font-family: Lora, serif; font-size: 20px; font-weight: 600; color: var(--ink); margin: 0 0 12px; padding-bottom: 9px; border-bottom: 2px solid var(--burg-tint); }
+.cat-list { list-style: none; margin: 0; padding: 0; }
+.cat-list .cat-item { margin: 0; padding: 0; }
+.cat-item a.internal { display: flex; align-items: baseline; gap: 9px; color: var(--body); font-size: 15px; line-height: 1.35; padding: 4px 0; text-decoration: none; background: none !important; }
+.cat-item a.internal::before { content: "\2192"; color: var(--burg); font-size: 12px; flex: 0 0 auto; position: relative; top: -1px; }
+.cat-item a.internal:hover { color: var(--burg); text-decoration: none; }
+.cat-sym { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11.5px; font-weight: 600; color: var(--burg); background: var(--burg-tint); border-radius: 4px; padding: 1px 5px; flex: 0 0 auto; }
+.cat-more { margin-top: 5px; }
+.cat-more > summary { list-style: none; cursor: pointer; color: var(--burg); font-size: 13.5px; font-weight: 600; padding: 4px 0; }
+.cat-more > summary::-webkit-details-marker { display: none; }
+.cat-more[open] > summary { color: var(--burg-dark); }
