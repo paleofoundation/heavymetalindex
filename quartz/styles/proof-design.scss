@@ -296,3 +296,29 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
   .hmi-auth-card { padding: 32px 24px; }
   .hmi-auth-page { padding: 32px 16px 48px; }
 }
+
+/* ── category directory: cards linking OUT to category section pages ── */
+.cat-dir { display: grid; grid-template-columns: repeat(auto-fill, minmax(258px, 1fr)); gap: 22px; margin: 26px 0 8px; }
+.cat-dir-card { display: block; border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; text-decoration: none; color: var(--body); background: #fff; transition: border-color 0.15s ease, box-shadow 0.15s ease; }
+.cat-dir-card:hover { border-color: var(--burg); box-shadow: 0 8px 26px rgba(0,0,0,0.06); text-decoration: none; color: var(--body); }
+.cat-dir-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 12px; }
+.cat-dir-name { font-family: Lora, serif; font-size: 18px; font-weight: 600; color: var(--ink); line-height: 1.2; }
+.cat-dir-count { font-size: 12px; font-weight: 600; color: var(--muted); background: var(--shade); border-radius: 999px; padding: 2px 9px; flex: 0 0 auto; }
+.cat-dir-samples { list-style: none; margin: 0 0 12px; padding: 0; }
+.cat-dir-samples li { font-size: 13.5px; color: var(--muted); line-height: 1.6; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cat-dir-more { color: var(--burg); font-size: 13.5px; font-weight: 600; }
+.cat-dir-card:hover .cat-dir-more { color: var(--burg-dark); }
+
+/* metals index: two grouped 2-column tile lists (no sub-pages) */
+.cat-sec { margin: 26px 0 10px; }
+.cat-sec-title { font-family: Lora, serif; font-size: 20px; font-weight: 600; color: var(--ink); margin: 0 0 12px; padding-bottom: 9px; border-bottom: 2px solid var(--burg-tint); }
+.cat-sec-list { list-style: none; margin: 0; padding: 0; column-count: 2; column-gap: 44px; }
+.cat-sec-list li { break-inside: avoid; }
+.cat-sec-list a.internal { display: flex; align-items: baseline; gap: 9px; color: var(--body); font-size: 15px; padding: 5px 0; text-decoration: none; background: none !important; }
+.cat-sec-list a.internal:hover { color: var(--burg); text-decoration: none; }
+.cat-sym { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11.5px; font-weight: 600; color: var(--burg); background: var(--burg-tint); border-radius: 4px; padding: 1px 5px; flex: 0 0 auto; }
+
+/* category SECTION pages: member wikilinks laid out in two columns */
+body[data-slug*="/categories/"] .wiki-content ul { column-count: 2; column-gap: 44px; list-style: none; margin: 8px 0; padding: 0; }
+body[data-slug*="/categories/"] .wiki-content ul li { break-inside: avoid; padding: 4px 0; font-size: 15px; }
+body[data-slug*="/categories/"] .wiki-content ul li::before { content: "\2192\00a0"; color: var(--burg); }

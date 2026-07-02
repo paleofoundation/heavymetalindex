@@ -1,0 +1,462 @@
+{
+  "generatedFrom": "tools/build-category-pages.mjs",
+  "products": [
+    {
+      "slug": "infant-and-child-foods",
+      "label": "Infant and Child Foods",
+      "count": 19,
+      "samples": [
+        "Baby Cereals / Grain Products, Dry (Non-Rice)",
+        "Baby Cereals / Grain Products, Dry (Rice-Based)",
+        "Fish-Containing Baby Foods",
+        "Fruit Juice (Not Canned)"
+      ]
+    },
+    {
+      "slug": "children-personal-care",
+      "label": "Children Personal Care",
+      "count": 1,
+      "samples": [
+        "Children Personal Care (HMT&C Category 2 master)"
+      ]
+    },
+    {
+      "slug": "infant-and-child-personal-care",
+      "label": "Infant and Child Personal Care",
+      "count": 16,
+      "samples": [
+        "Baby Lotion / Baby Cream",
+        "Baby Oil",
+        "Baby Powder, Cornstarch-Based",
+        "Baby Shampoo / Baby Body Wash"
+      ]
+    },
+    {
+      "slug": "other-products",
+      "label": "Other products",
+      "count": 352,
+      "samples": [
+        "All-purpose cleaners",
+        "Anti-static products (liquid and sheets)",
+        "Anti-wrinkle/wrinkle-release products",
+        "Antiperspirant (Al-salt, dirty sibling of r9 deodorant)"
+      ]
+    },
+    {
+      "slug": "fruits-vegetables-and-produce",
+      "label": "Fruits, Vegetables, and Produce",
+      "count": 16,
+      "samples": [
+        "Cashews",
+        "Dried Fruit",
+        "Fresh Fruit",
+        "Fruit Snacks"
+      ]
+    },
+    {
+      "slug": "dietary-supplements-human",
+      "label": "Dietary Supplements (Human)",
+      "count": 1,
+      "samples": [
+        "Dietary Supplements"
+      ]
+    },
+    {
+      "slug": "dairy-and-milk-products",
+      "label": "Dairy and Milk Products",
+      "count": 1,
+      "samples": [
+        "Milk and Dairy (HMTc Category 24 master)"
+      ]
+    },
+    {
+      "slug": "cannabis-hemp-and-cbd-products",
+      "label": "Cannabis, Hemp, and CBD Products",
+      "count": 1,
+      "samples": [
+        "Cannabis, Hemp & CBD Products (HMTc Category 25 master)"
+      ]
+    },
+    {
+      "slug": "peptides-sarms-and-research-chemicals",
+      "label": "Peptides, SARMs, and Research Chemicals",
+      "count": 1,
+      "samples": [
+        "Research Chemicals, Peptides & SARMs (HMTc Category 26 master)"
+      ]
+    },
+    {
+      "slug": "infant-support-products",
+      "label": "Infant Support Products",
+      "count": 2,
+      "samples": [
+        "Glucose Solutions",
+        "Oral Electrolyte Solutions"
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "slug": "fruits",
+      "label": "Fruits",
+      "count": 26,
+      "samples": [
+        "Apple",
+        "Applesauce",
+        "Avocado",
+        "Banana"
+      ]
+    },
+    {
+      "slug": "vegetables",
+      "label": "Vegetables",
+      "count": 30,
+      "samples": [
+        "Asparagus",
+        "Baked potato with peel",
+        "Broccoli",
+        "Butternut squash"
+      ]
+    },
+    {
+      "slug": "grains-and-cereals",
+      "label": "Grains & cereals",
+      "count": 26,
+      "samples": [
+        "Blueberry muffin",
+        "Bran cereal with raisins",
+        "Canned spaghetti in tomato sauce",
+        "Cereals"
+      ]
+    },
+    {
+      "slug": "legumes-and-pulses",
+      "label": "Legumes & pulses",
+      "count": 8,
+      "samples": [
+        "Baked beans",
+        "Beans",
+        "Canned pork and beans",
+        "Frozen peas"
+      ]
+    },
+    {
+      "slug": "nuts-and-seeds",
+      "label": "Nuts & seeds",
+      "count": 5,
+      "samples": [
+        "Cashews",
+        "Hazelnuts",
+        "Peanut butter",
+        "Peanuts"
+      ]
+    },
+    {
+      "slug": "oils-and-fats",
+      "label": "Oils & fats",
+      "count": 13,
+      "samples": [
+        "Corn Oil",
+        "Margarine",
+        "Niger seed oil",
+        "Non-dairy creamer"
+      ]
+    },
+    {
+      "slug": "herbs-spices-and-botanicals",
+      "label": "Herbs, spices & botanicals",
+      "count": 12,
+      "samples": [
+        "Black Pepper",
+        "Camellia sinensis",
+        "Cinnamon",
+        "Coffee"
+      ]
+    },
+    {
+      "slug": "meat-and-poultry",
+      "label": "Meat & poultry",
+      "count": 9,
+      "samples": [
+        "Bologna luncheon meat",
+        "Eggs",
+        "Frankfurter",
+        "Ground beef"
+      ]
+    },
+    {
+      "slug": "fish-and-seafood",
+      "label": "Fish & seafood",
+      "count": 8,
+      "samples": [
+        "Canned Tuna",
+        "Fish fingers",
+        "Freshwater Fish",
+        "Marlin"
+      ]
+    },
+    {
+      "slug": "dairy-and-eggs",
+      "label": "Dairy & eggs",
+      "count": 11,
+      "samples": [
+        "Cheddar cheese",
+        "Chocolate reduced-fat milk",
+        "Fromage frais",
+        "Half and half"
+      ]
+    },
+    {
+      "slug": "beverages-and-water",
+      "label": "Beverages & water",
+      "count": 11,
+      "samples": [
+        "Apple juice",
+        "Fruit Juice",
+        "Fruit juice ready drinks",
+        "Grapefruit juice"
+      ]
+    },
+    {
+      "slug": "sweeteners-and-condiments",
+      "label": "Sweeteners & condiments",
+      "count": 9,
+      "samples": [
+        "Apple Cider Vinegar",
+        "Balsamic Vinegar",
+        "Honey",
+        "Ketchup"
+      ]
+    },
+    {
+      "slug": "prepared-and-composite-foods",
+      "label": "Prepared & composite foods",
+      "count": 7,
+      "samples": [
+        "Chicken noodle soup",
+        "Chicken potpie",
+        "Chili con carne with beans",
+        "Chocolate cake with chocolate icing"
+      ]
+    },
+    {
+      "slug": "other",
+      "label": "Other",
+      "count": 82,
+      "samples": [
+        "Almond",
+        "Baby Cereals Dry",
+        "Baby Food",
+        "Bee Pollen"
+      ]
+    }
+  ],
+  "metals": [
+    {
+      "slug": "hmtc-priority-analytes",
+      "label": "HMTc priority analytes",
+      "count": 13,
+      "samples": [
+        "Aluminum",
+        "Arsenic",
+        "Arsenic, Inorganic",
+        "Arsenic, Total"
+      ],
+      "members": [
+        {
+          "slug": "metals/aluminum",
+          "title": "Aluminum",
+          "symbol": "Al"
+        },
+        {
+          "slug": "metals/arsenic",
+          "title": "Arsenic",
+          "symbol": "As"
+        },
+        {
+          "slug": "metals/arsenic-inorganic",
+          "title": "Arsenic, Inorganic",
+          "symbol": "iAs"
+        },
+        {
+          "slug": "metals/arsenic-total",
+          "title": "Arsenic, Total",
+          "symbol": "tAs"
+        },
+        {
+          "slug": "metals/cadmium",
+          "title": "Cadmium",
+          "symbol": "Cd"
+        },
+        {
+          "slug": "metals/chromium",
+          "title": "Chromium",
+          "symbol": "Cr"
+        },
+        {
+          "slug": "metals/chromium-hexavalent",
+          "title": "Chromium, Hexavalent",
+          "symbol": "Cr-VI"
+        },
+        {
+          "slug": "metals/lead",
+          "title": "Lead",
+          "symbol": "Pb"
+        },
+        {
+          "slug": "metals/mercury",
+          "title": "Mercury",
+          "symbol": "Hg"
+        },
+        {
+          "slug": "metals/mercury-total",
+          "title": "Mercury, Total",
+          "symbol": "tHg"
+        },
+        {
+          "slug": "metals/mercury-methyl",
+          "title": "Methylmercury",
+          "symbol": "MeHg"
+        },
+        {
+          "slug": "metals/nickel",
+          "title": "Nickel",
+          "symbol": "Ni"
+        },
+        {
+          "slug": "metals/tin",
+          "title": "Tin",
+          "symbol": "Sn"
+        }
+      ]
+    },
+    {
+      "slug": "other-metals-tracked",
+      "label": "Other metals tracked",
+      "count": 23,
+      "samples": [
+        "Antimony",
+        "Barium",
+        "Beryllium",
+        "Cesium"
+      ],
+      "members": [
+        {
+          "slug": "metals/antimony",
+          "title": "Antimony",
+          "symbol": "Sb"
+        },
+        {
+          "slug": "metals/barium",
+          "title": "Barium",
+          "symbol": "Ba"
+        },
+        {
+          "slug": "metals/beryllium",
+          "title": "Beryllium",
+          "symbol": "Be"
+        },
+        {
+          "slug": "metals/cesium",
+          "title": "Cesium",
+          "symbol": "Cs"
+        },
+        {
+          "slug": "metals/cobalt",
+          "title": "Cobalt",
+          "symbol": "Co"
+        },
+        {
+          "slug": "metals/copper",
+          "title": "Copper",
+          "symbol": "Cu"
+        },
+        {
+          "slug": "metals/gold",
+          "title": "Gold",
+          "symbol": "Au"
+        },
+        {
+          "slug": "metals/iron",
+          "title": "Iron",
+          "symbol": "Fe"
+        },
+        {
+          "slug": "metals/lithium",
+          "title": "Lithium",
+          "symbol": "Li"
+        },
+        {
+          "slug": "metals/magnesium",
+          "title": "Magnesium",
+          "symbol": "Mg"
+        },
+        {
+          "slug": "metals/manganese",
+          "title": "Manganese",
+          "symbol": "Mn"
+        },
+        {
+          "slug": "metals/molybdenum",
+          "title": "Molybdenum",
+          "symbol": "Mo"
+        },
+        {
+          "slug": "metals/organotins",
+          "title": "Organotins",
+          "symbol": "organotin"
+        },
+        {
+          "slug": "metals/palladium",
+          "title": "Palladium",
+          "symbol": "Pd"
+        },
+        {
+          "slug": "metals/platinum",
+          "title": "Platinum",
+          "symbol": "Pt"
+        },
+        {
+          "slug": "metals/silver",
+          "title": "Silver",
+          "symbol": "Ag"
+        },
+        {
+          "slug": "metals/tellurium",
+          "title": "Tellurium",
+          "symbol": "Te"
+        },
+        {
+          "slug": "metals/thallium",
+          "title": "Thallium",
+          "symbol": "Tl"
+        },
+        {
+          "slug": "metals/tin-inorganic",
+          "title": "Tin, Inorganic",
+          "symbol": "Sn-inorganic"
+        },
+        {
+          "slug": "metals/titanium",
+          "title": "Titanium",
+          "symbol": "Ti"
+        },
+        {
+          "slug": "metals/uranium",
+          "title": "Uranium",
+          "symbol": "U"
+        },
+        {
+          "slug": "metals/vanadium",
+          "title": "Vanadium",
+          "symbol": "V"
+        },
+        {
+          "slug": "metals/zinc",
+          "title": "Zinc",
+          "symbol": "Zn"
+        }
+      ]
+    }
+  ]
+}
