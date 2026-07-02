@@ -34,6 +34,8 @@ public/
 !tools/standards-workbench/public/**
 !tools/fetch-app/public/
 !tools/fetch-app/public/**
+!tools/central-library/public/
+!tools/central-library/public/**
 .quartz-cache/
 prof/
 tsconfig.tsbuildinfo
