@@ -7,7 +7,11 @@ import fs from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
 
-const appDir = path.dirname(fileURLToPath(new URL("../", import.meta.url)))
+// config.mjs lives at tools/fetch-app/lib/ ; the app dir is its parent
+// (tools/fetch-app). Resolve it explicitly so the key store never drifts up a
+// level into tools/ (which is NOT gitignored — a leak risk).
+const libDir = path.dirname(fileURLToPath(import.meta.url))
+const appDir = path.dirname(libDir)
 export const keysPath = path.join(appDir, "keys.local.json")
 
 // key id -> { label, env } ; env is the fallback environment variable.

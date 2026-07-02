@@ -14,12 +14,43 @@ automatically on the next tick with no extra wiring.
 
 ## Run it
 
+Two ways.
+
+**Desktop app (no Terminal).** Build the double-clickable macOS app once:
+
+```bash
+npm run fetch-app:install-desktop
+```
+
+This assembles `Heavy Metal Fetch.app` on the Desktop. Double-click it: the
+launcher finds Node, starts the local server if it isn't already running, and
+opens the UI in a chromeless Chrome app-mode window that looks native. Double-
+clicking again reuses the running server (never spawns a second). On first run,
+if macOS blocks the unsigned app, right-click the icon → Open → Open (once), or
+run `xattr -dr com.apple.quarantine "$HOME/Desktop/Heavy Metal Fetch.app"`.
+
+Closing the window does not stop the server; to fully stop it, quit the
+`server.mjs` entry in Activity Monitor or run `pkill -f tools/fetch-app/server.mjs`.
+
+The app source is version-controlled under `desktop-app/` (launcher, Info.plist,
+icon, build script) so it's reproducible — re-run the install command after any
+change to rebuild the bundle.
+
+**Terminal.**
+
 ```bash
 npm run fetch-app
 # then open http://127.0.0.1:8091
 ```
 
 Local-only (binds `127.0.0.1`). Override the port with `HMI_FETCH_APP_PORT`.
+
+## Design
+
+The UI is ported verbatim from the microbiomemedicine.com design system
+(theme-wp.css / globals.css): brand red `#cc3333` with its alpha-hex tint ramp,
+white editorial ground, self-hosted Inter (body) + Lora (headings) woff2, the
+site's weight-400 "no bold" rule with Lora carrying heading weight.
 
 ## Keys
 
@@ -109,5 +140,12 @@ tools/fetch-app/
 │   ├── pdf-fetch.mjs     download + Unpaywall/Europe PMC rescue + PDF validation
 │   ├── run.mjs           job engine (fan-out → dedup → score → download → audit)
 │   └── util.mjs          filename minting, CSV, normalizers
-└── public/               index.html · styles.css · app.js
+├── public/               index.html · styles.css · app.js · fonts/ (Inter, Lora)
+└── desktop-app/          double-click .app source
+    ├── launch            hardened bash launcher (node discovery, health-checked
+    │                     port reuse, browser app-mode, error dialogs)
+    ├── Info.plist        bundle metadata
+    ├── icon.svg          element-tile app icon
+    ├── make-icon.mjs     svg → .iconset (sharp)
+    └── build-desktop-app.sh   assembles ~/Desktop/Heavy Metal Fetch.app
 ```

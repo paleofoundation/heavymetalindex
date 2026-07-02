@@ -33,6 +33,7 @@ const mimeTypes = {
   ".js": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
   ".svg": "image/svg+xml",
+  ".woff2": "font/woff2",
 }
 
 // In-memory run registry so the SSE endpoint can attach to a run started by POST.
