@@ -32,6 +32,8 @@ node_modules/
 public/
 !tools/standards-workbench/public/
 !tools/standards-workbench/public/**
+!tools/fetch-app/public/
+!tools/fetch-app/public/**
 .quartz-cache/
 prof/
 tsconfig.tsbuildinfo
@@ -78,3 +80,9 @@ data/evidence/autonomy/*.lock
 .FRANK.STOP
 .FRANK.PAUSE
 data/evidence/gems-aggregates.jsonl
+
+# fetch-app local API/SERP keys — never commit. Env vars are the fallback.
+tools/fetch-app/keys.local.json
+# fetch-app per-run audit logs (local; the downloaded PDFs live under raw/ which
+# is already gitignored, so their audit trail is local too)
+data/evidence/fetch-app/

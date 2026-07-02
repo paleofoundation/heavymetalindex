@@ -44,6 +44,7 @@
     "format": "npx prettier . --write",
     "test": "tsx --test",
     "workbench": "node tools/standards-workbench/server.mjs",
+    "fetch-app": "node tools/fetch-app/server.mjs",
     "release:wiki": "npm test && npm run check && npm run build",
     "publish:wiki": "npm run release:wiki && npx vercel@latest --prod --yes",
     "verify:live": "node tools/verify-live-pages.mjs",
