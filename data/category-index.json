@@ -4,20 +4,12 @@
     {
       "slug": "infant-and-child-foods",
       "label": "Infant and Child Foods",
-      "count": 19,
+      "count": 16,
       "samples": [
-        "Baby Cereals / Grain Products, Dry (Non-Rice)",
-        "Baby Cereals / Grain Products, Dry (Rice-Based)",
-        "Fish-Containing Baby Foods",
-        "Fruit Juice (Not Canned)"
-      ]
-    },
-    {
-      "slug": "children-personal-care",
-      "label": "Children Personal Care",
-      "count": 1,
-      "samples": [
-        "Children Personal Care (HMT&C Category 2 master)"
+        "Infant formula (powder)",
+        "Infant formula (ready-to-feed, liquid)",
+        "Baby cereals / grain products (dry)",
+        "Fruit purées (general)"
       ]
     },
     {
@@ -25,73 +17,355 @@
       "label": "Infant and Child Personal Care",
       "count": 16,
       "samples": [
-        "Baby Lotion / Baby Cream",
-        "Baby Oil",
-        "Baby Powder, Cornstarch-Based",
-        "Baby Shampoo / Baby Body Wash"
+        "Baby lotion and cream",
+        "Baby oil",
+        "Baby powder, cornstarch base (clean counterpart)",
+        "Baby talcum powder (talc, dirty)"
       ]
     },
     {
-      "slug": "other-products",
-      "label": "Other products",
-      "count": 352,
+      "slug": "grains-cereals-and-rice-products",
+      "label": "Grains, Cereals, and Rice Products",
+      "count": 15,
       "samples": [
-        "All-purpose cleaners",
-        "Anti-static products (liquid and sheets)",
-        "Anti-wrinkle/wrinkle-release products",
-        "Antiperspirant (Al-salt, dirty sibling of r9 deodorant)"
+        "Flour (wheat, corn, other)",
+        "Bread and baked goods",
+        "Pasta (wheat-based)",
+        "Pasta (rice-based)"
       ]
     },
     {
       "slug": "fruits-vegetables-and-produce",
       "label": "Fruits, Vegetables, and Produce",
-      "count": 16,
+      "count": 10,
       "samples": [
-        "Cashews",
-        "Dried Fruit",
-        "Fresh Fruit",
-        "Fruit Snacks"
+        "Fresh/frozen fruits",
+        "Dried fruit",
+        "Fruit snacks",
+        "Leafy/green vegetables, other (clean vs spinach)"
+      ]
+    },
+    {
+      "slug": "beverages",
+      "label": "Beverages",
+      "count": 18,
+      "samples": [
+        "Fruit juices, non-apple",
+        "Fruit juices, apple-containing (iAs)",
+        "Vegetable juices, non-root",
+        "Vegetable juices, root-vegetable-containing"
+      ]
+    },
+    {
+      "slug": "seafood",
+      "label": "Seafood",
+      "count": 6,
+      "samples": [
+        "Fish — freshwater (tilapia, catfish, trout)",
+        "Fish — marine, non-predatory (sardines, anchovies, salmon, cod)",
+        "Fish — marine, predatory (tuna, swordfish, shark, king mackerel)",
+        "Shellfish (shrimp, crab, lobster, clams, oysters, mussels)"
+      ]
+    },
+    {
+      "slug": "water-and-water-based-products",
+      "label": "Water and Water-Based Products",
+      "count": 3,
+      "samples": [
+        "Bottled drinking water (purified, spring, artesian)",
+        "Mineral water",
+        "Sparkling/carbonated water (unflavored)"
+      ]
+    },
+    {
+      "slug": "infant-and-child-contact-products",
+      "label": "Infant and Child Contact Products",
+      "count": 6,
+      "samples": [
+        "Bottles (plastic, glass, stainless steel)",
+        "Bottle nipples and spouts",
+        "Sippy cups and toddler drinkware components",
+        "Pacifiers and sucking/teething aids"
+      ]
+    },
+    {
+      "slug": "infant-and-child-durable-goods-and-textiles",
+      "label": "Infant and Child Durable Goods and Textiles",
+      "count": 11,
+      "samples": [
+        "Cribs and bassinets",
+        "Play yards and gates/enclosures",
+        "Strollers",
+        "Walkers"
+      ]
+    },
+    {
+      "slug": "meat-poultry-and-eggs",
+      "label": "Meat, Poultry, and Eggs",
+      "count": 9,
+      "samples": [
+        "Beef",
+        "Pork",
+        "Lamb/mutton",
+        "Poultry (chicken, turkey, duck)"
+      ]
+    },
+    {
+      "slug": "household-cleaning-and-dishwashing",
+      "label": "Household Cleaning and Dishwashing",
+      "count": 21,
+      "samples": [
+        "All-purpose cleaners",
+        "Kitchen/countertop cleaners",
+        "Bathroom/tub/tile cleaners",
+        "Toilet bowl cleaners"
+      ]
+    },
+    {
+      "slug": "cosmetics-and-personal-care-leave-on",
+      "label": "Cosmetics and Personal Care — Leave-on",
+      "count": 20,
+      "samples": [
+        "Fragrance preparations (perfumes, colognes, body sprays)",
+        "Dusting/talc powders (adult)",
+        "Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)",
+        "Body/hand leave-on skin care"
+      ]
+    },
+    {
+      "slug": "cosmetics-and-personal-care-rinse-off",
+      "label": "Cosmetics and Personal Care — Rinse-off",
+      "count": 13,
+      "samples": [
+        "Shampoo (general adult)",
+        "Conditioner (general adult, rinse-out)",
+        "Body wash/shower gel",
+        "Facial cleansers (foaming, cream, gel, oil, micellar)"
+      ]
+    },
+    {
+      "slug": "feminine-care",
+      "label": "Feminine Care",
+      "count": 10,
+      "samples": [
+        "Menstrual tampons (scented/unscented; applicator tested as distinct component)",
+        "Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)",
+        "Menstrual cups (silicone/latex/other polymers)",
+        "Menstrual discs"
       ]
     },
     {
       "slug": "dietary-supplements-human",
       "label": "Dietary Supplements (Human)",
-      "count": 1,
+      "count": 24,
       "samples": [
-        "Dietary Supplements"
+        "Oral solids: tablets/caplets",
+        "Oral solids: capsules",
+        "Oral solids: softgels/gelcaps",
+        "Oral solids: gummies/chewables"
+      ]
+    },
+    {
+      "slug": "pet-foods",
+      "label": "Pet Foods",
+      "count": 10,
+      "samples": [
+        "Complete & balanced dry (kibble)",
+        "Complete & balanced canned/wet",
+        "Semi-moist pet foods",
+        "Raw pet foods (frozen/chilled raw diets)"
+      ]
+    },
+    {
+      "slug": "pet-supplements",
+      "label": "Pet Supplements",
+      "count": 7,
+      "samples": [
+        "Vitamin/mineral supplements",
+        "Oils (omega-3, fish oil, coconut oil)",
+        "Probiotics/digestive aids",
+        "Botanical/herbal blends"
+      ]
+    },
+    {
+      "slug": "laundry-and-fabric-contact-home-products",
+      "label": "Laundry and Fabric-Contact Home Products",
+      "count": 13,
+      "samples": [
+        "Laundry detergents (liquid, powder, pods/sheets, delicates)",
+        "Laundry detergent boosters/additives",
+        "Pre-treaters (spray/gel/stick) and stand-alone stain/spot removers",
+        "Bleaching/whitening additives"
+      ]
+    },
+    {
+      "slug": "oral-care",
+      "label": "Oral Care",
+      "count": 10,
+      "samples": [
+        "Dentifrices (toothpaste, gel, powder, tablets)",
+        "Mouthwash/oral rinse",
+        "Breath fresheners (sprays/strips/lozenges)",
+        "Toothbrushes (manual, electric heads)"
+      ]
+    },
+    {
+      "slug": "children-s-toys-arts-and-crafts",
+      "label": "Children's Toys, Arts, and Crafts",
+      "count": 22,
+      "samples": [
+        "General toys with paint/surface coatings",
+        "Toy substrate materials (accessible plastics/metals/woods/rubbers)",
+        "Stuffed toys and bean bag-type toys",
+        "Stuffing materials"
+      ]
+    },
+    {
+      "slug": "home-air-and-inhalation-adjacent-products",
+      "label": "Home Air and Inhalation-Adjacent Products",
+      "count": 15,
+      "samples": [
+        "Instant air refreshment sprays (aerosol cans, trigger sprays)",
+        "Electric plug-in evaporators",
+        "Automatic puff releasers",
+        "Sensor puff releasers"
+      ]
+    },
+    {
+      "slug": "food-contact-consumer-goods-and-kitchenware",
+      "label": "Food-Contact Consumer Goods and Kitchenware",
+      "count": 29,
+      "samples": [
+        "Cans/lids",
+        "Glass jars",
+        "Plastic tubs",
+        "Paperboard cartons"
       ]
     },
     {
       "slug": "dairy-and-milk-products",
       "label": "Dairy and Milk Products",
-      "count": 1,
+      "count": 9,
       "samples": [
-        "Milk and Dairy (HMTc Category 24 master)"
+        "Liquid milk — cow",
+        "Liquid milk — goat / sheep / other ruminant",
+        "Camel milk",
+        "Cheese"
       ]
     },
     {
       "slug": "cannabis-hemp-and-cbd-products",
       "label": "Cannabis, Hemp, and CBD Products",
-      "count": 1,
+      "count": 6,
       "samples": [
-        "Cannabis, Hemp & CBD Products (HMTc Category 25 master)"
+        "Cannabis flower / dried herb",
+        "Edibles (gummies, baked goods, beverages)",
+        "Tinctures and sublingual oils",
+        "Topicals (creams, balms, salves)"
       ]
     },
     {
       "slug": "peptides-sarms-and-research-chemicals",
       "label": "Peptides, SARMs, and Research Chemicals",
-      "count": 1,
+      "count": 5,
       "samples": [
-        "Research Chemicals, Peptides & SARMs (HMTc Category 26 master)"
+        "Injectable peptide hormones (GLP-1 analogs, GH secretagogues, synthetic peptides)",
+        "Oral SARMs",
+        "Injectable anabolic-androgenic steroids (AAS)",
+        "Raw AAS / peptide powders (pre-formulation)"
       ]
     },
     {
-      "slug": "infant-support-products",
-      "label": "Infant Support Products",
+      "slug": "legumes-and-pulses",
+      "label": "Legumes and Pulses",
+      "count": 4,
+      "samples": [
+        "Legumes/pulses (beans, lentils, chickpeas, peas)",
+        "Soy products",
+        "Peanuts",
+        "Peanut butter"
+      ]
+    },
+    {
+      "slug": "nuts-seeds-and-their-butters",
+      "label": "Nuts, Seeds, and Their Butters",
+      "count": 5,
+      "samples": [
+        "Tree nuts and seeds (whole, raw, roasted)",
+        "Cashews",
+        "Sunflower seeds",
+        "Nut and seed butters, other"
+      ]
+    },
+    {
+      "slug": "edible-fungi",
+      "label": "Edible Fungi",
+      "count": 3,
+      "samples": [
+        "Mushrooms — cultivated (clean counterpart)",
+        "Mushrooms — wild and processed-wild (contaminated)",
+        "Other"
+      ]
+    },
+    {
+      "slug": "culinary-oils-and-fats",
+      "label": "Culinary Oils and Fats",
       "count": 2,
       "samples": [
-        "Glucose Solutions",
-        "Oral Electrolyte Solutions"
+        "Olive oil",
+        "Other cooking/seed oils (canola, sunflower, coconut, avocado, sesame)"
+      ]
+    },
+    {
+      "slug": "sweeteners-and-syrups",
+      "label": "Sweeteners and Syrups",
+      "count": 4,
+      "samples": [
+        "Honey",
+        "Tree and plant syrups (maple, agave, molasses)",
+        "Refined sugars (cane, beet, brown)",
+        "Rice and grain syrups"
+      ]
+    },
+    {
+      "slug": "condiments-sauces-and-dressings",
+      "label": "Condiments, Sauces and Dressings",
+      "count": 6,
+      "samples": [
+        "Vinegar",
+        "Soy sauce and fermented sauces",
+        "Fish sauce",
+        "Tomato condiments (ketchup, salsa)"
+      ]
+    },
+    {
+      "slug": "chocolate-cocoa-and-confectionery",
+      "label": "Chocolate, Cocoa and Confectionery",
+      "count": 3,
+      "samples": [
+        "Cocoa and chocolate products (cocoa powder, dark, milk, chips)",
+        "Candy and confectionery (hard candy, caramels, imported/ethnic sweets)",
+        "Gummies and jelly sweets"
+      ]
+    },
+    {
+      "slug": "herbs-spices-seasonings-and-salt",
+      "label": "Herbs, Spices, Seasonings and Salt",
+      "count": 4,
+      "samples": [
+        "Herbs, spices, and dried seasonings (turmeric, cinnamon, paprika, chili powder, pepper)",
+        "Salt (table, sea, Himalayan)",
+        "Hot sauce and chili sauces",
+        "Bouillon/stock cubes and powdered seasoning blends (dry rubs, gravy/seasoning packets)"
+      ]
+    },
+    {
+      "slug": "prepared-and-packaged-meals",
+      "label": "Prepared and Packaged Meals",
+      "count": 2,
+      "samples": [
+        "Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)",
+        "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)"
       ]
     }
   ],
@@ -256,12 +530,6 @@
       "slug": "hmtc-priority-analytes",
       "label": "HMTc priority analytes",
       "count": 13,
-      "samples": [
-        "Aluminum",
-        "Arsenic",
-        "Arsenic, Inorganic",
-        "Arsenic, Total"
-      ],
       "members": [
         {
           "slug": "metals/aluminum",
@@ -334,12 +602,6 @@
       "slug": "other-metals-tracked",
       "label": "Other metals tracked",
       "count": 23,
-      "samples": [
-        "Antimony",
-        "Barium",
-        "Beryllium",
-        "Cesium"
-      ],
       "members": [
         {
           "slug": "metals/antimony",
