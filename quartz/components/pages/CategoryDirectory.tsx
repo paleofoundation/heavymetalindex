@@ -36,13 +36,13 @@ export default ((opts?: { sort?: SortFn }) => {
       return <FolderContent {...props} />
     }
 
-    // Intro = the page content before its first H2 (the rest is the old
-    // single-column listing, superseded by the cards / category pages).
+    // Overview = the full page content (a prose "## Overview" section with
+    // internal links). The card grid / metal list is appended below it. The page
+    // body carries only the Overview, so its single H2 keeps the left section-nav
+    // minimal (Overview + the apparatus links) instead of dumping every heading.
     const root = tree as Root
-    const cut = root.children.findIndex((n) => (n as any).type === "element" && (n as any).tagName === "h2")
-    const introTree = { ...root, children: cut >= 0 ? root.children.slice(0, cut) : root.children } as Root
     const intro = (
-      introTree.children.length === 0 ? fileData.description : htmlToJsx(fileData.filePath!, introTree)
+      root.children.length === 0 ? fileData.description : htmlToJsx(fileData.filePath!, root)
     ) as ComponentChildren
 
     if (vertical === "metals") {
