@@ -155,6 +155,27 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
         { id: "keydocs", label: "Key documents", direct: true, children: [{ id: "keydocs", patterns: [/key documents/i] }] },
       ],
     },
+    // ------------------------------------------------ MITIGATION (index)
+    // One "Overview" parent: the intro is the parent target, and the directory's
+    // orientation sections collapse underneath it (hidden until the toggle opens).
+    {
+      type: "mitigation-index",
+      slugPrefix: "mitigation/",
+      hide: [...HIDE_BASE],
+      parents: [
+        {
+          id: "overview",
+          label: "Overview",
+          children: [
+            { id: "overview", patterns: [/^overview$/i] },
+            { id: "taxonomy", patterns: [/^taxonomy$/i] },
+            { id: "why", patterns: [/why .*matter/i] },
+            { id: "current", patterns: [/current state/i] },
+            { id: "xref", patterns: [/^cross-?references$/i] },
+          ],
+        },
+      ],
+    },
   ],
 }
 

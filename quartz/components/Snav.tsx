@@ -130,15 +130,20 @@ export default (() => {
                 </a>
               </div>
             ) : (
-              <div class="grp">
+              <div class={parent.defaultOpen ? "grp expanded" : "grp"}>
                 <a class="sec" href={`#${matched[0].slug}`} data-for={matched[0].slug}>
                   {parent.label}
                 </a>
-                {matched.map((s) => (
-                  <a class="sub" href={`#${s.slug}`} data-for={s.slug}>
-                    {relabel(s.text)}
-                  </a>
-                ))}
+                {matched
+                  // Drop a child whose label equals the parent's (e.g. the
+                  // "Overview" section under the "Overview" parent) — the parent
+                  // header already links to it.
+                  .filter((s) => (relabel(s.text) ?? "").trim().toLowerCase() !== parent.label.toLowerCase())
+                  .map((s) => (
+                    <a class="sub" href={`#${s.slug}`} data-for={s.slug}>
+                      {relabel(s.text)}
+                    </a>
+                  ))}
               </div>
             ),
           )}

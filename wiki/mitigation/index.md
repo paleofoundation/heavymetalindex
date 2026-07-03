@@ -7,7 +7,7 @@ updated: 2026-05-03
 sources: 0
 ---
 
-# Mitigation
+## Overview
 
 Mitigation pages describe intervention strategies that reduce heavy metal concentrations in food, organized by the point in the supply chain where the intervention is applied. The taxonomy is deliberately structured for operational use: a brand or supplier reading this section should be able to identify which strategies apply to their commodity, which evidence base supports each strategy, and which certification pathways recognize the intervention.
 

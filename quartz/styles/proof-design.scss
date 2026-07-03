@@ -23,16 +23,15 @@
 .snav .snav-further > summary { list-style: none; }
 .snav .snav-further > summary::-webkit-details-marker { display: none; }
 .snav .snav-further[open] > summary.sec { background: var(--burg-tint); color: var(--burg); }
-/* Collapsible accordion (microbiomemedicine-style): subsections stay hidden until
-   their parent is the section in view (scroll-spy adds .in-view) or the user pins
-   it open (click adds .expanded). Only the active section shows its children. */
+/* Collapsible accordion: subsections stay hidden until the user opens the parent
+   (click adds .expanded, or the model marks a parent defaultOpen -> .expanded at
+   render). A pure click accordion — scroll position no longer reveals children,
+   it only highlights the active parent, so nothing pops in and out as you scroll. */
 .snav .grp:not(.snav-further) > a.sub { display: none; }
-.snav .grp:not(.snav-further):has(.in-view) > a.sub,
 .snav .grp:not(.snav-further).expanded > a.sub { display: block; }
 /* +/- affordance on parents that actually have children */
 .snav .grp:not(.snav-further):has(> a.sub) > a.sec { position: relative; padding-right: 26px; cursor: pointer; }
 .snav .grp:not(.snav-further):has(> a.sub) > a.sec::after { content: "+"; position: absolute; right: 12px; top: 50%; transform: translateY(-50%); color: var(--faint); font-weight: 400; font-size: 15px; line-height: 1; }
-.snav .grp:not(.snav-further):has(> a.sub):has(.in-view) > a.sec::after,
 .snav .grp:not(.snav-further):has(> a.sub).expanded > a.sec::after { content: "\2212"; color: var(--burg); }
 /* highlight the parent whose section is currently in view */
 .snav .grp:not(.snav-further):has(.in-view) > a.sec { background: var(--burg-tint); color: var(--burg); font-weight: 600; }
