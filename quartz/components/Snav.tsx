@@ -29,19 +29,26 @@ const FOLD = /app-?\s?layer|planned sections|^status$|metal pages|further detail
 // list, the "## Sources" section the inline [n] markers connect to). Sources and
 // References are deliberately distinct: the corpus of source documents vs. this
 // page's specific citations.
-const UTIL: { to?: string; anchor?: string; label: string; d: string }[] = [
+// `need` gates an anchor link on the target section actually existing on the
+// page (the toc still carries "Sources"/"Page history" even though the section
+// nav drops them), so directory pages without those sections don't render dead
+// anchors. "Sources" is a page link (/sources) and always shows.
+const UTIL: { to?: string; anchor?: string; label: string; d: string; need?: RegExp }[] = [
   { to: "sources", label: "Sources", d: "M12 2 2 7l10 5 10-5-10-5z M2 17l10 5 10-5 M2 12l10 5 10-5" },
-  { anchor: "page-history", label: "Update History", d: "M3 3v5h5 M3.05 13A9 9 0 1 0 6 5.3L3 8 M12 7v5l3 2" },
-  { anchor: "sources", label: "References", d: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" },
+  { anchor: "page-history", label: "Update History", need: /^page history$/i, d: "M3 3v5h5 M3.05 13A9 9 0 1 0 6 5.3L3 8 M12 7v5l3 2" },
+  { anchor: "sources", label: "References", need: /^sources$/i, d: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" },
 ]
 
 type Sec = { slug?: string; text?: string; subs: any[]; fold: boolean }
 
-function Icons({ slug }: { slug: FullSlug }) {
+function Icons({ slug, toc }: { slug: FullSlug; toc: { text?: string }[] }) {
+  const has = (re: RegExp) => toc.some((e) => re.test((e.text ?? "").trim()))
+  const links = UTIL.filter((u) => !u.need || has(u.need))
+  if (links.length === 0) return null
   return (
     <>
       <div class="divider" />
-      {UTIL.map((u) => (
+      {links.map((u) => (
         <a class="icon" href={u.to ? resolveRelative(slug, u.to as SimpleSlug) : `#${u.anchor}`}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +152,7 @@ export default (() => {
               ))}
             </details>
           )}
-          <Icons slug={slug} />
+          <Icons slug={slug} toc={toc} />
         </>
       )
     }
@@ -178,7 +185,7 @@ export default (() => {
             ))}
           </details>
         )}
-        <Icons slug={slug} />
+        <Icons slug={slug} toc={toc} />
       </>
     )
   }
