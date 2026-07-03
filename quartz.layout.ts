@@ -98,11 +98,10 @@ export const defaultContentPageLayout: PageLayout = {
   // posture; global navigation now lives in the TopNav + Search. PageTitle and
   // the left-rail AskIndex were removed as duplicates of the TopNav wordmark and
   // Ask launcher.
-  // Proof's curated .snav: section accordion + icon utility links + cross-ref
-  // counts. Search + dark mode live in the TopNav (proof model).
+  // Proof's curated .snav: section accordion + the apparatus links (Sources,
+  // Update History, References). Search + dark mode live in the TopNav.
   left: [
     Component.Snav(),
-    Component.DedicatedPages(),
   ],
   // Right rail = actions / provenance column.
   //   - EvidenceHeader: the authority/evidence-basis chip (author, metals,
@@ -128,11 +127,10 @@ export const defaultListPageLayout: PageLayout = {
     Component.ContentMeta({ showReadingTime: false }),
   ],
   // Index/list pages use the same proof rail as content pages: curated .snav
-  // (section nav from the page's headings + icon links + cross-ref counts) and
-  // the .rail. Keeps landing pages visually consistent with the rest.
+  // (section nav from the page's headings + the apparatus links) and the .rail.
+  // Keeps landing pages visually consistent with the rest.
   left: [
     Component.Snav(),
-    Component.DedicatedPages(),
   ],
   right: [
     Component.Rail(),

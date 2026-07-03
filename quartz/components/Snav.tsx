@@ -24,9 +24,13 @@ const DROP = /^(sources|page history)$/i // apparatus — reached via the icon u
 // Secondary / non-reader-primary sections, folded under "Further detail".
 const FOLD = /app-?\s?layer|planned sections|^status$|metal pages|further detail/i
 
+// Universal apparatus footer: Sources (the source-page inventory at /sources),
+// Update History (this page's git timeline), and References (this page's citation
+// list, the "## Sources" section the inline [n] markers connect to). Sources and
+// References are deliberately distinct: the corpus of source documents vs. this
+// page's specific citations.
 const UTIL: { to?: string; anchor?: string; label: string; d: string }[] = [
-  { to: "coverage", label: "Evidence Database", d: "M3 3v18h18 M19 9l-5 5-4-4-3 3" },
-  { to: "synthesis", label: "Research Feed", d: "M4 11a9 9 0 0 1 9 9 M4 4a16 16 0 0 1 16 16 M5 18.5a1.5 1.5 0 1 0 0 .01z" },
+  { to: "sources", label: "Sources", d: "M12 2 2 7l10 5 10-5-10-5z M2 17l10 5 10-5 M2 12l10 5 10-5" },
   { anchor: "page-history", label: "Update History", d: "M3 3v5h5 M3.05 13A9 9 0 1 0 6 5.3L3 8 M12 7v5l3 2" },
   { anchor: "sources", label: "References", d: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" },
 ]
