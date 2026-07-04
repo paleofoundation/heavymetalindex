@@ -172,12 +172,18 @@ function writeIngredientPages(groups) {
 }
 
 // ------------------------------------------------------------ METALS (list only)
-const HMTC = new Set(["Pb", "As", "iAs", "tAs", "Cd", "Hg", "tHg", "MeHg", "Ni", "Al", "Cr", "Cr-VI", "Sn"])
+// Tier by evidence depth: the toxic metals with developed pages vs. the
+// nutrient/trace elements carried as brief reference stubs. This replaces a
+// certification-set grouping that filed arsenic, chromium, and nickel — all
+// deep pages — under "other".
+const CORE_METALS = new Set([
+  "Pb", "Cd", "As", "iAs", "tAs", "Hg", "MeHg", "tHg", "Ni", "Al", "Cr", "Cr-VI", "Sn", "Sn-inorganic", "organotin", "Sb", "U",
+])
 const metalMap = new Map()
 for (const p of readPages("metals", "metal")) {
-  const pri = HMTC.has(String(p.fm.symbol ?? ""))
-  const key = pri ? "hmtc" : "other"
-  const b = metalMap.get(key) ?? { slug: slugify(pri ? "HMTc priority analytes" : "Other metals tracked"), label: pri ? "HMTc priority analytes" : "Other metals tracked", order: pri ? 0 : 1, members: [] }
+  const core = CORE_METALS.has(String(p.fm.symbol ?? ""))
+  const key = core ? "core" : "other"
+  const b = metalMap.get(key) ?? { slug: slugify(core ? "Core toxic metals" : "Also tracked"), label: core ? "Core toxic metals" : "Also tracked", order: core ? 0 : 1, members: [] }
   b.members.push({ slug: p.slug, title: p.title, symbol: String(p.fm.symbol ?? "") })
   metalMap.set(key, b)
 }

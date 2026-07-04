@@ -527,14 +527,19 @@
   ],
   "metals": [
     {
-      "slug": "hmtc-priority-analytes",
-      "label": "HMTc priority analytes",
-      "count": 13,
+      "slug": "core-toxic-metals",
+      "label": "Core toxic metals",
+      "count": 17,
       "members": [
         {
           "slug": "metals/aluminum",
           "title": "Aluminum",
           "symbol": "Al"
+        },
+        {
+          "slug": "metals/antimony",
+          "title": "Antimony",
+          "symbol": "Sb"
         },
         {
           "slug": "metals/arsenic",
@@ -592,22 +597,32 @@
           "symbol": "Ni"
         },
         {
+          "slug": "metals/organotins",
+          "title": "Organotins",
+          "symbol": "organotin"
+        },
+        {
           "slug": "metals/tin",
           "title": "Tin",
           "symbol": "Sn"
+        },
+        {
+          "slug": "metals/tin-inorganic",
+          "title": "Tin, Inorganic",
+          "symbol": "Sn-inorganic"
+        },
+        {
+          "slug": "metals/uranium",
+          "title": "Uranium",
+          "symbol": "U"
         }
       ]
     },
     {
-      "slug": "other-metals-tracked",
-      "label": "Other metals tracked",
-      "count": 23,
+      "slug": "also-tracked",
+      "label": "Also tracked",
+      "count": 19,
       "members": [
-        {
-          "slug": "metals/antimony",
-          "title": "Antimony",
-          "symbol": "Sb"
-        },
         {
           "slug": "metals/barium",
           "title": "Barium",
@@ -664,11 +679,6 @@
           "symbol": "Mo"
         },
         {
-          "slug": "metals/organotins",
-          "title": "Organotins",
-          "symbol": "organotin"
-        },
-        {
           "slug": "metals/palladium",
           "title": "Palladium",
           "symbol": "Pd"
@@ -694,19 +704,9 @@
           "symbol": "Tl"
         },
         {
-          "slug": "metals/tin-inorganic",
-          "title": "Tin, Inorganic",
-          "symbol": "Sn-inorganic"
-        },
-        {
           "slug": "metals/titanium",
           "title": "Titanium",
           "symbol": "Ti"
-        },
-        {
-          "slug": "metals/uranium",
-          "title": "Uranium",
-          "symbol": "U"
         },
         {
           "slug": "metals/vanadium",
