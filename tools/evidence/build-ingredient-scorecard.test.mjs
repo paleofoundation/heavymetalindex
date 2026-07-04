@@ -38,25 +38,46 @@ test("tier-unset degradation when consumption-tiers.csv is absent", () => {
   }
 })
 
-test("known-page chips match hand-computed counts (rice)", () => {
+test("known-page chips match independently recomputed counts (rice)", () => {
   const ctx = buildContext({ repoRoot, tierTablePath: path.join(os.tmpdir(), "nonexistent-tiers-xyz.csv") })
   const r = scoreIngredient("rice", riceFm, riceContent, ctx)
 
-  // breadth: HMTc-10 analytes populated with n_studies>0. rice keys Pb,Cd,iAs,
-  // tAs,tHg,Ni,Al,Sn (8 of the list); MeHg and Cr-VI absent -> 8/10.
-  assert.equal(r.dims.D1.breadth, 8)
-  assert.match(r.dims.D1.have, /8\/10 HMTc analytes/)
+  // This test originally froze hand-computed literals (total n=440 etc.)
+  // taken from the pre-recovery corpus. The rice page is a synthesis output
+  // that legitimately changes as the corpus evolves (DOI dedup and the
+  // 2026-06-11 resynthesis moved it to n=80), so the frozen numbers rotted
+  // and the suite ran red from 2026-06-19 onward. The spec property is
+  // "chips match the page's counts": recompute the expectations from the
+  // same frontmatter with independent arithmetic instead of freezing them.
+  const HMTC = ["Pb", "tAs", "Cd", "MeHg", "tHg", "iAs", "Ni", "Al", "Cr-VI", "Sn"]
+  const cp = riceFm.contamination_profile
+  const populated = (c) => c && c.status === "populated"
+  const expectedBreadth = HMTC.filter((m) => populated(cp[m]) && Number(cp[m].n_studies) > 0).length
+  const expectedTotalN = Object.values(cp).reduce((a, c) => a + (Number(c?.n_studies) || 0), 0)
 
-  // total_n: sum of n_studies across the whole profile.
-  // Pb61+Cd86+iAs74+tHg45+Ni23+Al11+Cr30+Sn11+tAs95+U4 = 440
-  assert.equal(r.dims.D1.totalN, 440)
-  assert.match(r.dims.D1.have, /total n=440/)
+  // rice must stay a data-rich page for these chips to be a meaningful probe
+  assert.ok(expectedBreadth >= 5, `rice profile unexpectedly thin (${expectedBreadth}/10 analytes)`)
+  assert.ok(expectedTotalN > 0, "rice profile carries no n_studies at all")
+
+  assert.equal(r.dims.D1.breadth, expectedBreadth)
+  assert.match(r.dims.D1.have, new RegExp(`${expectedBreadth}/10 HMTc analytes`))
+  assert.equal(r.dims.D1.totalN, expectedTotalN)
+  assert.match(r.dims.D1.have, new RegExp(`total n=${expectedTotalN}\\b`))
 
   // D6 speciation: rice declares iAs/tAs/tHg, no bare As/Hg cell -> OK.
+  // (Structural property of the rice page, stable across resynthesis.)
   assert.equal(r.dims.D6.status, "OK")
 
-  // D7: rice declares no basis tokens -> GAP naming the populated cells.
-  assert.equal(r.dims.D7.status, "GAP")
+  // D7 basis declaration: when no populated cell declares any basis string
+  // (rice's current state) the scorer must report GAP. If basis tokens are
+  // ever added, only require a valid status rather than duplicating the
+  // token-matching and unknown_conversion logic here.
+  const anyBasisDeclared = Object.values(cp).some((c) => populated(c) && c.basis)
+  if (!anyBasisDeclared) {
+    assert.equal(r.dims.D7.status, "GAP")
+  } else {
+    assert.ok(["OK", "GAP", "FLAGGED"].includes(r.dims.D7.status))
+  }
 })
 
 test("source set derives from wiki/sources frontmatter ingredients arrays", () => {
