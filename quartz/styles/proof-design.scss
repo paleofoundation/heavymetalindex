@@ -57,6 +57,16 @@ a.internal:focus,
 a.internal.tag-link:hover {
   background: none !important;
 }
+/* The homepage hero's primary action is an a.internal styled as a button
+   (custom.scss); the global pill-remover above was stripping its background
+   and padding, leaving light-on-light invisible text. Re-assert it. */
+a.internal.hmi-home-action-primary,
+a.internal.hmi-home-action-primary:hover,
+a.internal.hmi-home-action-primary:focus {
+  background: var(--secondary) !important;
+  border-radius: var(--radius-md) !important;
+  padding: 0.55rem 0.75rem !important;
+}
 
 /* ---------- top nav (white) ---------- */
 .proof .topnav, .topnav.proofnav { background: #fff; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 30; }
@@ -143,6 +153,42 @@ a.internal.tag-link:hover {
 .wiki-content thead th { background: var(--burg); color: #fff; text-align: left; padding: 11px 13px; font-weight: 600; font-size: 13.5px; white-space: nowrap; }
 .wiki-content tbody td { padding: 10px 13px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .wiki-content tbody tr:hover { background: var(--burg-tint2); }
+
+/* Phones: large generated tables (source legends run to hundreds of rows and
+   several columns) must not dictate page length or clip. Contain each table
+   in a pane that scrolls both axes, pin the header row, let header cells wrap
+   (nowrap headers force 600-750px minimum widths), and tighten cell density.
+   Desktop/tablet keep the plain full-length rendering. */
+@media (max-width: 800px) {
+  .wiki-content .table-container {
+    max-height: 72vh;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    margin: 12px 0 22px;
+  }
+  .wiki-content .table-container table {
+    display: table;
+    overflow-x: visible;
+    width: max-content;
+    min-width: 100%;
+    margin: 0;
+    font-size: 13px;
+  }
+  .wiki-content thead th {
+    white-space: normal;
+    min-width: 72px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding: 9px 10px;
+  }
+  .wiki-content tbody td {
+    padding: 8px 10px;
+    line-height: 1.45;
+  }
+}
 
 .hmi-quick-read { background: var(--burg-tint2); border: 1px solid #ecd6de; border-left: 4px solid var(--burg); border-radius: 0 12px 12px 0; padding: 18px 22px; margin: 0 0 28px; }
 .hmi-quick-read-label { font-family: Inter, sans-serif; font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: var(--burg); margin-bottom: 9px; }

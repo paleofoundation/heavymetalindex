@@ -15,6 +15,10 @@
   top: 0;
   z-index: 1000;
   width: 100%;
+  // base.scss styles bare <header> as a flex row with margin: 2rem 0; on this
+  // shell that margin renders as a dead white band above the sticky bar.
+  margin: 0;
+  display: block;
   background-color: #ffffff;
   border-bottom: 1px solid var(--lightgray);
   // Match the dark theme: keep the bar readable when the page flips to dark.
