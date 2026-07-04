@@ -720,5 +720,103 @@
         }
       ]
     }
+  ],
+  "sources": [
+    {
+      "slug": "north-america",
+      "label": "North America",
+      "count": 432,
+      "samples": [
+        "United States",
+        "Canada",
+        "Mexico",
+        "Greenland"
+      ]
+    },
+    {
+      "slug": "latin-america",
+      "label": "Latin America & Caribbean",
+      "count": 113,
+      "samples": [
+        "Brazil",
+        "Ecuador",
+        "Argentina",
+        "Peru"
+      ]
+    },
+    {
+      "slug": "europe",
+      "label": "Europe",
+      "count": 563,
+      "samples": [
+        "European Union",
+        "Poland",
+        "Italy",
+        "Spain"
+      ]
+    },
+    {
+      "slug": "middle-east-north-africa",
+      "label": "Middle East & North Africa",
+      "count": 281,
+      "samples": [
+        "Iran",
+        "Turkey",
+        "Egypt",
+        "Iraq"
+      ]
+    },
+    {
+      "slug": "sub-saharan-africa",
+      "label": "Sub-Saharan Africa",
+      "count": 186,
+      "samples": [
+        "Nigeria",
+        "Ethiopia",
+        "Ghana",
+        "South Africa"
+      ]
+    },
+    {
+      "slug": "south-central-asia",
+      "label": "South & Central Asia",
+      "count": 217,
+      "samples": [
+        "India",
+        "Bangladesh",
+        "Pakistan",
+        "Kazakhstan"
+      ]
+    },
+    {
+      "slug": "east-southeast-asia",
+      "label": "East & Southeast Asia",
+      "count": 391,
+      "samples": [
+        "China",
+        "Japan",
+        "South Korea",
+        "Indonesia"
+      ]
+    },
+    {
+      "slug": "oceania",
+      "label": "Oceania",
+      "count": 53,
+      "samples": [
+        "Australia",
+        "New Zealand",
+        "Papua New Guinea"
+      ]
+    },
+    {
+      "slug": "international",
+      "label": "International & multi-country",
+      "count": 239,
+      "samples": [
+        "International / multi-country",
+        "KS"
+      ]
+    }
   ]
 }

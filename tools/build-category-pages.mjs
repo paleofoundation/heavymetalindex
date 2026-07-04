@@ -184,20 +184,120 @@ for (const p of readPages("metals", "metal")) {
 const metalGroups = [...metalMap.values()].sort((a, b) => a.order - b.order)
 for (const g of metalGroups) g.members.sort((a, b) => a.title.localeCompare(b.title))
 
+// ------------------------------------------------------------ SOURCES (by region)
+// ~2,000 source pages across 215 messy jurisdiction codes (quoted variants,
+// name variants, US-* sub-codes, WHO/CODEX/global aggregates). Normalize, then
+// group by world region — far more navigable than 200 country cards. Each region
+// page lists its sources grouped by country.
+const REGION_LABEL = {
+  "north-america": "North America",
+  "latin-america": "Latin America & Caribbean",
+  europe: "Europe",
+  "middle-east-north-africa": "Middle East & North Africa",
+  "sub-saharan-africa": "Sub-Saharan Africa",
+  "south-central-asia": "South & Central Asia",
+  "east-southeast-asia": "East & Southeast Asia",
+  oceania: "Oceania",
+  international: "International & multi-country",
+}
+const REGION_ORDER = Object.keys(REGION_LABEL)
+const REGION_CODES = {
+  "north-america": "US CA MX GL",
+  "latin-america": "BR PE EC CO AR CL CU CR GT SR UY DO HN BO VE PA BZ GY JM TT AG KN LC VC PY",
+  europe: "EU GB UK FR DE IT ES PL NL BE PT RO SE DK NO FI GR CZ RS HR HU SK CH AT IE CY MT LV BG SI BA IS EE LT LU XK ME MK MC BY UA RU",
+  "middle-east-north-africa": "IR IQ SA TR LB JO AE IL QA KW OM PS SY YE EG DZ TN LY MA",
+  "sub-saharan-africa": "NG ET GH ZA TZ KE ZM CI CD UG CM ZW NA BW BF SD MW MZ RW GA AO ML MR DJ BJ MG MU SC GN",
+  "south-central-asia": "IN PK BD LK NP KZ KG TJ TM UZ AZ AM GE",
+  "east-southeast-asia": "CN JP KR TW HK MN KP TH MY ID VN PH SG MM KH LA",
+  oceania: "AU NZ FJ PG",
+}
+const CODE_REGION = {}
+for (const [r, codes] of Object.entries(REGION_CODES)) for (const c of codes.split(" ")) CODE_REGION[c] = r
+const CODE_NAME = {
+  US: "United States", CA: "Canada", MX: "Mexico", GL: "Greenland", BR: "Brazil", PE: "Peru", EC: "Ecuador",
+  CO: "Colombia", AR: "Argentina", CL: "Chile", CU: "Cuba", CR: "Costa Rica", GT: "Guatemala", UY: "Uruguay",
+  DO: "Dominican Republic", HN: "Honduras", BO: "Bolivia", VE: "Venezuela", EU: "European Union",
+  GB: "United Kingdom", UK: "United Kingdom", FR: "France", DE: "Germany", IT: "Italy", ES: "Spain", PL: "Poland",
+  NL: "Netherlands", BE: "Belgium", PT: "Portugal", RO: "Romania", SE: "Sweden", DK: "Denmark", NO: "Norway",
+  FI: "Finland", GR: "Greece", CZ: "Czechia", RS: "Serbia", HR: "Croatia", HU: "Hungary", SK: "Slovakia",
+  CH: "Switzerland", AT: "Austria", IE: "Ireland", RU: "Russia", UA: "Ukraine", IR: "Iran", IQ: "Iraq",
+  SA: "Saudi Arabia", TR: "Turkey", LB: "Lebanon", JO: "Jordan", AE: "United Arab Emirates", IL: "Israel",
+  EG: "Egypt", DZ: "Algeria", TN: "Tunisia", LY: "Libya", MA: "Morocco", NG: "Nigeria", ET: "Ethiopia",
+  GH: "Ghana", ZA: "South Africa", TZ: "Tanzania", KE: "Kenya", ZM: "Zambia", IN: "India", PK: "Pakistan",
+  BD: "Bangladesh", LK: "Sri Lanka", NP: "Nepal", KZ: "Kazakhstan", CN: "China", JP: "Japan", KR: "South Korea",
+  TW: "Taiwan", HK: "Hong Kong", TH: "Thailand", MY: "Malaysia", ID: "Indonesia", VN: "Vietnam", PH: "Philippines",
+  AU: "Australia", NZ: "New Zealand", FJ: "Fiji", PG: "Papua New Guinea", INT: "International / multi-country",
+}
+const JUR_NAME2CODE = { italy: "IT", japan: "JP", brazil: "BR", poland: "PL", spain: "ES", sweden: "SE", serbia: "RS" }
+function normJur(raw) {
+  let c = String(raw ?? "").replace(/["']/g, "").trim()
+  if (!c) return null
+  const low = c.toLowerCase()
+  if (JUR_NAME2CODE[low]) return JUR_NAME2CODE[low]
+  if (/^(int|intl|international|global|codex|who|mercosur|asean|lmics|caribbean)$/i.test(c)) return "INT"
+  c = c.toUpperCase()
+  if (c.startsWith("US-")) return "US"
+  if (c === "KSA") return "SA"
+  if (c === "CIV") return "CI"
+  return c
+}
+const regionOf = (code) => (code === "INT" ? "international" : CODE_REGION[code] ?? "international")
+
+const srcByRegion = new Map() // region -> Map(code -> [{slug,title,year}])
+const srcSeen = new Map() // region -> Set(slug) for dedup counting
+for (const p of readPages("sources", "source")) {
+  if (p.slug.endsWith("_TEMPLATE")) continue
+  const codes = [...new Set((Array.isArray(p.fm.jurisdictions) ? p.fm.jurisdictions : []).map(normJur).filter(Boolean))]
+  const regions = codes.length ? [...new Set(codes.map(regionOf))] : ["international"]
+  const year = p.fm.year ?? ""
+  for (const r of regions) {
+    const byCode = srcByRegion.get(r) ?? new Map()
+    const codeInR = codes.find((c) => regionOf(c) === r) ?? "INT"
+    ;(byCode.get(codeInR) ?? byCode.set(codeInR, []).get(codeInR)).push({ slug: p.slug, title: p.title, year })
+    srcByRegion.set(r, byCode)
+    ;(srcSeen.get(r) ?? srcSeen.set(r, new Set()).get(r)).add(p.slug)
+  }
+}
+const sourceGroups = REGION_ORDER.filter((r) => srcByRegion.has(r)).map((r) => {
+  const byCode = srcByRegion.get(r)
+  const countries = [...byCode.entries()].sort((a, b) => b[1].length - a[1].length)
+  for (const [, arr] of countries) arr.sort((a, b) => a.title.localeCompare(b.title))
+  return { slug: r, label: REGION_LABEL[r], count: srcSeen.get(r).size, countries, samples: countries.slice(0, 4).map(([c]) => CODE_NAME[c] ?? c) }
+})
+
+function writeSourceRegionPages(groups) {
+  const dir = path.join(WIKI, "sources", "categories")
+  fs.mkdirSync(dir, { recursive: true })
+  for (const f of fs.readdirSync(dir)) if (f.endsWith(".md")) fs.unlinkSync(path.join(dir, f))
+  for (const g of groups) {
+    let body =
+      `---\ntitle: ${g.label} sources\ntype: category-index\nparent_vertical: sources\n` +
+      `description: Source pages reporting evidence from ${g.label} (${g.count}).\n---\n\n` +
+      `<!-- generated by tools/build-category-pages.mjs -->\nSource pages whose evidence comes from **${g.label}**, grouped by jurisdiction.\n\n`
+    for (const [code, arr] of g.countries) {
+      body += `**${CODE_NAME[code] ?? code}** (${arr.length})\n\n` + arr.map((s) => `- [[${s.slug}|${s.title}${s.year ? ` (${s.year})` : ""}]]`).join("\n") + `\n\n`
+    }
+    fs.writeFileSync(path.join(dir, `${g.slug}.md`), body)
+  }
+  return groups.length
+}
+
 // ------------------------------------------------------------ write + index JSON
 const pWritten = writeProductPages(productGroups)
 const iWritten = writeIngredientPages(ingredientGroups)
+const sWritten = writeSourceRegionPages(sourceGroups)
 
 const out = {
   generatedFrom: "tools/build-category-pages.mjs",
   products: productGroups.map((g) => ({ slug: g.slug, label: g.label, count: g.count, samples: g.subs.slice(0, 4).map((s) => s.name) })),
   ingredients: ingredientGroups.map((g) => ({ slug: g.slug, label: g.label, count: g.members.length, samples: g.members.slice(0, 4).map((m) => m.title) })),
   metals: metalGroups.map((g) => ({ slug: g.slug, label: g.label, count: g.members.length, members: g.members.map((m) => ({ slug: m.slug, title: m.title, symbol: m.symbol })) })),
+  sources: sourceGroups.map((g) => ({ slug: g.slug, label: g.label, count: g.count, samples: g.samples })),
 }
 fs.mkdirSync(path.join(ROOT, "data"), { recursive: true })
 fs.writeFileSync(path.join(ROOT, "data", "category-index.json"), JSON.stringify(out, null, 2) + "\n")
 
 console.log(
   `category-pages: products ${pWritten} categories (taxonomy-driven, masters excluded); ` +
-    `ingredients ${iWritten} groups; metals ${metalGroups.length} groups. Wrote data/category-index.json`,
+    `ingredients ${iWritten} groups; metals ${metalGroups.length} groups; sources ${sWritten} regions. Wrote data/category-index.json`,
 )

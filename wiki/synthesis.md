@@ -5,6 +5,8 @@ updated: 2026-06-02
 audience: [regulator, educator, consumer, brand-legal]
 ---
 
+## Overview
+
 This page is the index of the Heavy Metal Index's synthesis layer. Each linked subpage is a self-contained synthesis findings page: a thesis statement built on at least three corroborating A-tier sources, presenting a non-obvious finding that emerges from the corpus and would not be evident from any single source page. Synthesis pages sit one layer above the source and product pages and one layer below the strategic / certification documents, and the wiki's epistemic authority rests on them remaining provisional, source-traceable, and explicit about their own uncertainty.
 
 ## Synthesis findings pages

@@ -1,41 +1,14 @@
 ---
 title: Sources
-description: Per-source summary pages covering the peer-reviewed and regulatory literature cited elsewhere in the wiki.
+description: The source library behind the wiki — one page per study, report, or dataset, grouped by the region the evidence comes from.
 audience: [regulator, educator, researcher]
-updated: 2026-05-08
+updated: 2026-07-04
 ---
 
-Each source cited in the Heavy Metal Index has its own page. Source pages record bibliographic metadata, evidence tier, methods, key quantitative results, and the wiki pages that cite the source.
+## Overview
 
-<div class="hmi-quick-read">
-  <div class="hmi-quick-read-label">Quick read</div>
-  <p>Use this section when you want to audit a claim. The list below uses human-readable source titles; cite keys remain available inside each source page for data exports and cross-linking.</p>
-  <div class="hmi-pill-row">
-    <span class="hmi-pill">FDA</span>
-    <span class="hmi-pill">EFSA</span>
-    <span class="hmi-pill">ATSDR</span>
-    <span class="hmi-pill">JECFA</span>
-    <span class="hmi-pill">peer-reviewed studies</span>
-  </div>
-</div>
+The source library is the evidentiary base of the wiki: one page per study, government report, or dataset, recording what it measured, in which food or matrix, the method it used, and the quantitative results, together with the wiki pages that cite it. Every inline citation across the [[metals/index|metal]], [[ingredients/index|ingredient]], and [[products/index|product]] pages resolves to a source page here, so any claim can be traced to the underlying literature and audited. The library holds close to two thousand sources, spanning peer-reviewed studies, government and regulatory reports, and dataset releases.
 
-The folder list below is the public source catalog. For faster lookup, use search with an agency name, metal, product category, or author/year.
+## By region
 
-## Infant And Child Food Studies
-
-- [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]] - Primary inorganic-arsenic occurrence source for rice-based infant cereals and rice crackers.
-- [[sources/soares2000-chromium-vi-powdered-milk-formulas]] - Species-specific Cr(VI) method/application paper for powdered milk infant, follow-up, and dietetic formulas.
-
-## Category 5 Beverages
-
-- [[sources/milani2023-trace-elements-soy-based-beverages]]
-- [[sources/damato2026-inorganic-arsenic-rice-based-beverages]]
-- [[sources/marques2021-trace-elements-milks-plant-based-drinks]]
-
-## WHO / International
-
-- [[sources/who-gemsfood-heavy-metal-contaminants]] - WHO GEMS/Food contaminant database heavy-metal export manifest, grouped summaries, and arsenic page-route context.
-
-## FDA / U.S. Government
-
-- [[sources/fda2022-tds-elements-fy2018-fy2020]] — FDA FY2018-FY2020 Total Diet Study element results for 90 prepared foods and composites, with normalized row-level CSV evidence.
+Heavy-metal occurrence is strongly regional — soil geochemistry, industrial history, irrigation practice, and regulatory regime all vary by place — so the sources are grouped by the jurisdiction their evidence comes from: where the samples were collected, or where the regulation applies. Multi-country and international sources (WHO, Codex, cross-jurisdiction reviews) are gathered under their own group. To reach a source through a specific question rather than by geography, start at [[metals/index|Metals]], [[ingredients/index|Ingredients]], or [[products/index|Products]].
