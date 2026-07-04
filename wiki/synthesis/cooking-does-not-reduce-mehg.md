@@ -14,6 +14,8 @@ updated: 2026-05-18
 
 # Cooking does not reduce methylmercury — and why this matters for consumer messaging
 
+## Overview
+
 A widespread consumer misconception is that thorough cooking — frying, grilling, baking, broiling, smoking, canning, pickling — reduces the methylmercury (MeHg) content of fish. It does not. Methylmercury binds covalently to cysteine residues in muscle protein and survives every conventional cooking method intact. This means species selection at the point of sourcing is the only lever that meaningfully reduces dietary MeHg exposure; no kitchen practice substitutes for it. The consumer-protection significance is direct: the cooking-as-mitigation misconception leaves a household that assumes its tuna-heavy diet is safe because the fish is cooked well exposed to the full dietary MeHg load.
 
 This synthesis page consolidates the mechanism evidence and the comparative measurements across cooked-and-processed forms that establish the finding.
@@ -106,9 +108,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

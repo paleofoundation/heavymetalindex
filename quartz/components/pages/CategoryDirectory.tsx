@@ -32,6 +32,15 @@ export default ((opts?: { sort?: SortFn }) => {
     // products/categories/index and every other folder keep the normal listing.
     const isTopIndex = String(slug) === `${vertical}/index`
 
+    // Content-only folder indexes: the page's own markdown already organizes its
+    // subpages (e.g. the synthesis findings table), so render the page content and
+    // suppress FolderContent's redundant auto-listing that otherwise dumps every
+    // subpage beneath the last section with no heading.
+    const CONTENT_ONLY = new Set(["synthesis"])
+    if (isTopIndex && CONTENT_ONLY.has(vertical)) {
+      return <div class="popover-hint">{htmlToJsx(fileData.filePath!, tree as Root)}</div>
+    }
+
     if (!Array.isArray(cats) || cats.length === 0 || !isTopIndex) {
       return <FolderContent {...props} />
     }

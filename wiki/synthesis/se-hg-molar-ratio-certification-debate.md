@@ -14,6 +14,8 @@ updated: 2026-05-18
 
 # Selenium-mercury molar ratio as a basis for relaxing predator-fish MeHg ceilings — the scientific debate
 
+## Overview
+
 A live methodological debate in seafood toxicology asks whether the selenium-to-mercury molar ratio (Se:Hg) in consumed fish should modulate the regulatory ceiling on methylmercury. The argument: Se and Hg share an extraordinarily high binding affinity (Hg-Se bond ~70 kcal/mol, among the strongest in biochemistry); when molar Se in the consumed fish exceeds molar Hg, the Hg is sequestered as inert HgSe particles in vivo, and net Se remains bioavailable to support selenoprotein synthesis. The toxicological cascade that drives MeHg neurotoxicity (oxidative stress from Se-depleted antioxidant defenses, thyroid disruption from disabled iodothyronine deiodinases) is therefore proposed to depend on Se:Hg balance, not absolute MeHg concentration alone.
 
 If accepted, this framework would justify relaxing the regulatory MeHg ceiling on Se-rich fish species — notably bluefin tuna, where per [[sources/chamorro2024-bluefin-tuna-mercury-review|Chamorro et al. 2024]] Se:Hg is typically >1 despite high absolute Hg. If rejected, the framework is theoretically supported but not yet quantitatively validated, and the absolute MeHg ceiling remains the binding constraint.
@@ -108,9 +110,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

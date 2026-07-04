@@ -21,6 +21,8 @@ updated: 2026-05-13
 
 # Spice adulteration with lead chromate is a distinct, non-agricultural contamination pathway reaching infants
 
+## Overview
+
 The wiki's corpus of heavy metal contamination in food is dominated by agricultural uptake mechanisms: arsenic in flooded paddy soils, cadmium in volcanic-origin cocoa-growing soils, mercury biomagnification in aquatic food chains. These are biogeochemical processes that respond to agronomic, processing, and formulation interventions. Spice adulteration with lead chromate is fundamentally different. It is a deliberate introduction of an industrial pigment into the food supply, driven by market incentives and enabled by regulatory gaps, and it reaches the highest-concern demographic (infants and toddlers) through processed food products that parents purchase with the expectation of safety.
 
 ## The mechanism
@@ -108,9 +110,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

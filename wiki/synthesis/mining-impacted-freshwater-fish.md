@@ -14,6 +14,8 @@ updated: 2026-05-16
 
 # Mining-impacted freshwater fish are a globally distributed multi-metal contamination pathway not addressed by commercial-market fish advisories
 
+## Overview
+
 Ten independent A-tier datasets spanning six continents, three distinct contamination drivers (artisanal and small-scale gold mining, industrial mining and smelting, and dam-impoundment-driven biogeochemical alteration), and the years 2022 to 2025 converge on a finding that is implicit in the established [[synthesis/subsistence-fishing-mehg-disparity|subsistence-fishing methylmercury disparity synthesis]] but is structurally distinct from it: the driver behind that disparity is not abstractly "mercury in fish" but specifically mining-disturbed and impoundment-altered freshwater systems where dissolved inorganic mercury is methylated by anaerobic microbial communities into the lipophilic, bioaccumulating, neurotoxic form that climbs the food chain into the human-edible fillet.
 
 This synthesis is about the contamination driver and its geographic scope. The subsistence-fishing synthesis tells us who is exposed; this synthesis tells us where the contamination comes from and what makes a watershed a high-risk system. The two pages are complementary. Together they tell a story that the present regulatory framework — built around commercial-market fish advisories calibrated against averaged commercial-fishery supply chains — cannot tell because the framework's denominator is the wrong population and the framework's numerator is the wrong contamination source.
@@ -131,9 +133,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

@@ -14,6 +14,8 @@ updated: 2026-05-13
 
 # Single-metal regulatory limits systematically underprotect against dietary heavy-metal exposure
 
+## Overview
+
 The regulatory architecture for heavy metals in food is built almost entirely on single-metal reference values. EFSA's tolerable weekly intake for cadmium, JECFA's provisional tolerable monthly intake for cadmium, the FDA's action levels for inorganic arsenic in infant rice cereal, the EU's maximum levels under Regulation 2023/915, and the parallel national-level frameworks all set thresholds one metal at a time. Three lines of recent evidence converge on the finding that this architecture systematically underprotects: even when consumers are at or near the most permissive single-metal reference value for each individual metal, their cumulative dietary exposure to the regulated metal mixture exceeds the cumulative hazard threshold for health-protective endpoints. The single-metal floor is the wrong floor.
 
 The synthesis here is that the regulatory positions, taken at face value and combined, do not add up to a health-protective outcome. A framework calibrated to cumulative exposure rather than to single-metal floors is what the convergent evidence below supports.
@@ -94,9 +96,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [8677b6c71](https://github.com/paleofoundation/heavymetalindex/commit/8677b6c71) | 2026-06-11 | fix(firewall): neutralize Part 2 HMTc-advocacy breach in scholarly layer + add firewall lint |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

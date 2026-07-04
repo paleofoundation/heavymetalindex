@@ -14,6 +14,8 @@ updated: 2026-05-18
 
 # EU heavy-metals regulatory framework timeline (2001-2023 and beyond)
 
+## Overview
+
 The European Union's enforceable heavy-metal maximum levels in foodstuffs have evolved through six major regulatory instruments since 2001, each building on its predecessor with tighter limits, new analyte coverage, or recalibration to updated EFSA scientific opinions. Source pages in the wiki citing EU regulatory caps cite different points along this timeline depending on publication year; this synthesis maps the timeline so citation work doesn't fall through cracks.
 
 Every wiki source page in the wiki that names an "EU maximum level" for Pb, Cd, Hg, iAs, or Sn in food traces to one of the six instruments below. When working downstream from a source citation, identify which point in the timeline the source's regulatory comparison anchors against; this matters because the limits changed substantially between framework versions, and a paper citing "the EU 0.1 mg/kg Pb limit for infant foods" may be referencing the EC 1881/2006 value, the 2021/1317 amendment value, or the 2023/915 recast value — each requires the matching regulation page citation.
@@ -100,9 +102,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

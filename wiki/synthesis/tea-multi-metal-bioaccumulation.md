@@ -14,6 +14,8 @@ updated: 2026-06-04
 
 # Tea heavy-metal exposure is governed by the leaf-to-infusion transfer fraction, not the dry-leaf totals that surveillance reports
 
+## Overview
+
 Eight independent datasets converge on a finding that separates tea from most other food-matrix contamination stories. The tea plant (Camellia sinensis) is a multi-metal bioaccumulator, and it is a true aluminium hyperaccumulator, so dry-leaf concentrations of aluminium, lead, cadmium, and chromium are routinely high relative to terrestrial commodities. The non-obvious part is that those dry-leaf totals, which are what national surveillance and product standards almost always report, systematically overstate the metal dose a consumer actually receives. Brewing transfers only a metal-specific and origin-dependent fraction of the leaf load into the cup, and for the two metals that matter most by mass, lead and aluminium, most of the load stays in the spent leaf. The load-bearing quantity for tea exposure is therefore the infusion concentration, and the corpus holds only two infusion-native datasets against roughly a dozen leaf-basis ones. Any assessment of tea that compares dry-leaf concentrations to consumption limits without applying a transfer fraction is measuring the wrong number.
 
 This is a different kind of finding from the seaweed and cocoa cadmium stories. For seaweed (see [[synthesis/seaweed-cd-as-contamination]]), the dry-product concentration is close to the as-consumed concentration because dried seaweed is eaten whole. For tea, the consumed matrix is the infusion, not the leaf, and the gap between the two is the entire point.
@@ -93,6 +95,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [03c78fff0](https://github.com/paleofoundation/heavymetalindex/commit/03c78fff0) | 2026-06-08 | synthesis: promote tea (Camellia sinensis) multi-metal bioaccumulation — 8 anchors |

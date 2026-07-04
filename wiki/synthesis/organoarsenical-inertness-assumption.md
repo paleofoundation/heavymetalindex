@@ -14,6 +14,8 @@ updated: 2026-05-13
 
 # The organoarsenical inertness assumption is increasingly contested
 
+## Overview
+
 A foundational assumption in food-arsenic risk assessment holds that organoarsenical compounds — principally arsenobetaine, the dominant arsenic species in marine fish and shellfish — are metabolically inert in humans, pass through the body essentially unchanged, and pose no toxicological concern even at concentrations that would be alarming if the arsenic were inorganic. This assumption is the basis for a structural divide in how regulatory agencies treat arsenic in food: inorganic arsenic is regulated, characterized with dose-response relationships, and the subject of Closer to Zero initiatives and EU maximum levels; organic arsenic in seafood is largely excluded from risk characterisation on the grounds that it does not contribute to health risk. It is also the assumption that makes the distinction between inorganic arsenic (iAs) and total arsenic (tAs) meaningful in practice: a product reporting total arsenic at 200 ppb with 97 percent arsenobetaine is treated as fundamentally different from one at 200 ppb with 97 percent inorganic arsenic.
 
 Eight independent studies entered the wiki corpus across batches 9 through 11, published between 2023 and 2024, that collectively challenge one or more dimensions of the inertness assumption. No single paper refutes it definitively. Taken together, however, they establish that the assumption is being tested on three distinct evidentiary fronts simultaneously: the metabolism front (whether organoarsenicals are truly inert during digestion), the biomonitoring front (whether urinary metrics reliably distinguish organoarsenical metabolism from inorganic arsenic methylation), and the toxicity front (whether epidemiological endpoints associated with fish arsenic exposure remain below detection). The convergence of challenges across three independent research traditions, in multiple food matrices spanning seafood, fungi, and microalgae-derived ingredients, constitutes a synthesis-page-worthy finding that would not be visible from any single source page and has direct implications for how the wiki characterises arsenic in seafood-containing products.
@@ -116,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

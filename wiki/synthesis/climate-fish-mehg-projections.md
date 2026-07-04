@@ -14,6 +14,8 @@ updated: 2026-05-16
 
 # Climate change is projected to increase methylmercury in marine fish, and present-day regulatory frameworks are calibrated against a shifting baseline
 
+## Overview
+
 Three independent PNAS-level publications converge on a finding that the wiki's brand-legal, regulator, and educator audiences need to read together: the methylmercury concentration in upper-trophic-level marine fish is not a constant. Ocean warming, ocean deoxygenation, expansion of oxygen minimum zones, and altered primary productivity are projected to increase MeHg in commercially harvested pelagic fish by 5 to 30 percent by 2100 under high-emission climate scenarios, with the mechanistic pathway now traced to particle-phase methylation in the upper 400 meters of the water column rather than the previously-assumed dissolved-phase methylation in deep anoxic basins. The MeHg concentration that present-day FDA fish advisories and EFSA tolerable weekly intake calculations are calibrated against is the present-day distribution; the projection literature now establishes that this baseline is shifting upward over a regulatory-relevant time horizon, and that the regulatory frameworks themselves are not yet adjusted to incorporate the projection.
 
 This is the forward-looking dimension of the seafood-MeHg story. The established [[synthesis/subsistence-fishing-mehg-disparity]] page identifies the vulnerable population for the present-day distribution; the [[synthesis/mining-impacted-freshwater-fish]] page identifies the supply-side driver for freshwater contamination; this page identifies the climate-driven projection that says the marine baseline is moving. Together the three synthesis pages describe the three structural dimensions of dietary mercury risk that the present regulatory infrastructure does not adequately address.
@@ -101,9 +103,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

@@ -14,6 +14,8 @@ updated: 2026-05-13
 
 # Climate adaptation creates new heavy-metal trade-offs
 
+## Overview
+
 A coherent finding has emerged from three independent peer-reviewed studies in the past eighteen months: agricultural and ecological responses to climate change are reshaping the heavy-metal contamination profile of two of the wiki's most consequential food matrices, rice and freshwater fish. The shift is not a uniform increase. It is a redistribution. Climate-smart agricultural practices that reduce one toxic element appear to increase another, and climate-driven changes to freshwater ecosystems are increasing methylmercury in wild fish even where total mercury inputs are stable or declining. The scientific implication is sharp: any heavy-metal occurrence baseline derived from the historically-flooded rice paddy and the early-2000s freshwater fishery characterizes a system that is already changing, so contamination data anchored to those conditions may not represent the matrices as they are now produced.
 
 This page synthesizes the three anchor studies and explains why their convergence reframes the wiki's current understanding of rice and freshwater fish risk. The synthesis does not yet rest on enough sources to be the wiki's final position; readers should treat it as the current best reading and trace each numerical claim upward to its source. Two additional corroborating studies, ideally from non-US and non-Chinese geographies, would strengthen the finding meaningfully.
@@ -100,9 +102,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

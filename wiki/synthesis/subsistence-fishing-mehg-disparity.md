@@ -14,6 +14,8 @@ updated: 2026-05-13
 
 # Subsistence fishing methylmercury is a global vulnerable-population pattern that regulatory fish-consumption advice does not address
 
+## Overview
+
 Three independent A-tier studies from the past eighteen months document the same finding from three different methodological vantage points: the methylmercury exposure profile that underlies regulatory fish-consumption advice (FDA-EPA, EFSA, national-level equivalents) is calibrated against typical Western market consumer patterns, while a substantial and identifiable global subpopulation, the consumers of subsistence-fished and locally-caught freshwater and pelagic fish, faces methylmercury exposures that routinely exceed the thresholds the regulatory advice is built against. The pattern is geographically diverse, holds across both marine and freshwater systems, and is being amplified by climate change. The scientific implication is straightforward: an exposure profile calibrated to median-consumer dietary methylmercury intake does not describe the consumers most at risk, because subsistence-fishing populations face exposures the median-consumer calibration does not capture.
 
 The pattern is not subtle and it is not new in regional documentation. The synthesis here is that three independently-conducted studies in different geographies and methods converge on the same quantitative claim about scale and population, which is the synthesis-page bar this finding now meets. The wiki should treat the finding as established for the populations the three studies document and provisional for jurisdictions where parallel quantitative work has not yet been done.
@@ -97,9 +99,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

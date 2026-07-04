@@ -14,6 +14,8 @@ updated: 2026-05-18
 
 # Bivalve cadmium amplification through filter feeding — why mussels and oysters carry an order-of-magnitude higher cadmium load than finfish
 
+## Overview
+
 Cadmium concentrations in bivalve molluscs (mussels, clams, oysters, scallops) and cephalopods (squid, octopus, cuttlefish without viscera) are consistently one-to-two orders of magnitude higher than cadmium in finfish muscle from the same waters. The mechanism is filter feeding: bivalves process hundreds of liters of seawater per day, concentrating dissolved and particulate-bound Cd from the water column into their soft tissue. EU regulation acknowledges the differential by setting a 1.0 mg/kg wet-weight Cd cap for bivalves and cephalopods (without viscera) vs the 0.05 mg/kg default for fin-fish muscle — a 20-fold permitted ceiling reflecting the biological reality that bivalves accumulate Cd at qualitatively different rates than fish do.
 
 Because the bivalve and finfish cadmium distributions are separated by one-to-two orders of magnitude, a single cadmium concentration threshold applied across the whole seafood category is not scientifically supportable: a threshold set near the finfish distribution would exclude nearly all bivalves regardless of how clean the source water is, while a threshold set near the bivalve distribution would fall well above the finfish distribution and discriminate poorly among finfish. EU regulation reflects this by setting separate per-category cadmium ceilings, and the bivalve-specific evidence base is the appropriate reference distribution for any bivalve cadmium benchmark.
@@ -94,9 +96,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

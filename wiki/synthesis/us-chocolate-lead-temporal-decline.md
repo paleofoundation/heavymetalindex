@@ -14,6 +14,8 @@ updated: 2026-05-13
 
 # US chocolate lead has measurably declined since 2015; cadmium has not
 
+## Overview
+
 The US chocolate market has been under sustained California Proposition 65 enforcement pressure for over a decade, with private-litigation settlements driving cocoa-sourcing and processing changes at major manufacturers. Three independent peer-reviewed datasets spanning 2015 to 2022 now allow the question to be answered directly: has the regulatory pressure produced a measurable change in product-level heavy-metal concentrations? The answer is metal-specific. Lead concentrations in US-market dark chocolate and cocoa products have declined materially over the period. Cadmium has not, and may be increasing in the organic segment.
 
 The synthesis is bounded. It addresses the US dark chocolate and cocoa-powder product class only; milk chocolate, chocolate-containing baby foods, and global non-US markets are out of scope here and need separate treatment. The lead-declined-but-cadmium-did-not framing is the load-bearing finding the wiki should call out, both for what it says about the effectiveness of state-level enforcement reshaping a national market and for what it says about the limits of single-metal interventions in commodity supply chains where the contamination drivers differ by metal.
@@ -97,9 +99,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->

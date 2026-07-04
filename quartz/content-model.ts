@@ -176,6 +176,26 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
         },
       ],
     },
+    // ------------------------------------------------ SYNTHESIS (index)
+    // Same shape: Overview parent, with the index's own orientation sections
+    // (findings table, promotion criteria, cadmium note) collapsed underneath.
+    {
+      type: "synthesis-index",
+      slugPrefix: "synthesis",
+      hide: [...HIDE_BASE],
+      parents: [
+        {
+          id: "overview",
+          label: "Overview",
+          children: [
+            { id: "overview", patterns: [/^overview$/i] },
+            { id: "findings", patterns: [/synthesis findings pages/i] },
+            { id: "promote", patterns: [/when to promote/i] },
+            { id: "cadmium", patterns: [/cadmium synthesis/i] },
+          ],
+        },
+      ],
+    },
   ],
 }
 

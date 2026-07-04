@@ -14,6 +14,8 @@ updated: 2026-05-16
 
 # Edible seaweed and kelp are a systematic Cd and As exposure pathway that conventional food-safety surveillance does not adequately characterize
 
+## Overview
+
 Three independent A-tier datasets — a 12-site spatial-temporal survey of New Zealand kelp, a 43-site Salish Sea contaminant assessment across three commercially harvested brown seaweeds, and the EFSA CONTAM Panel's full European-population dietary exposure assessment built on more than two thousand occurrence data points — converge on a single finding: commercial edible seaweed and kelp products carry systematically elevated cadmium and arsenic concentrations that conventional terrestrial-food-chain surveillance frameworks do not capture.
 
 The finding is distinct from the established [[synthesis/organoarsenical-inertness-assumption|organoarsenical inertness synthesis]], which addressed the toxicological status of organic-arsenic species in seafood, fungi, microalgae, and seaweed. That synthesis is about the assumption that organoarsenicals are biologically inert. This synthesis is about the contamination magnitude and the regulatory blind spot at the product-distribution end of the supply chain. The two synthesis pages are complementary: the inertness synthesis tells us we cannot read total arsenic minus inorganic arsenic as "the safe part"; this synthesis tells us the totals themselves are large enough that the framing question matters at population scale.
@@ -103,9 +105,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
 <!-- END: hmi-page-history -->
