@@ -2,27 +2,17 @@
 *.swp
 *.swo
 
-# raw/ contains the immutable source-document PDFs. Content is gitignored
-# (too large, and includes copyright-licensed material that must not be
-# redistributed). raw/README.md is committed and documents the provenance
-# model and auditor access process.
+# raw/ is the immutable source-document library (PDFs + Marker conversions).
+# The bulk now lives on the external "HMI-Library" drive; each raw/<dir> is a
+# SYMLINK to it, present only when the drive is plugged in. A few small,
+# build-critical provenance files stay real + tracked on the mini so the site
+# build works with the drive unplugged: raw/README.md, raw/manifest/ (read by
+# build-coverage-page.mjs), and raw/gpt-drafts/README.md.
 raw/*
 !raw/README.md
-!raw/*/INGESTED.md
 !raw/manifest/
 !raw/manifest/**
-# raw/manual-fetch/ is the staging area for materials Karen drops in
-# response to a wishlist gap. README + wishlist are committed; dropped
-# files stay local until ingest routes them into raw/studies/ etc.
-!raw/manual-fetch/
-raw/manual-fetch/**/*
-!raw/manual-fetch/**/
-!raw/manual-fetch/**/README.md
-!raw/manual-fetch/**/wishlist.md
-
-# raw/gpt-drafts/ is the dropoff for GPT-5.5 fast-mode source-page first
-# drafts. Drafts themselves are unverified and gitignored; only the README
-# is committed. See docs/gpt-collaboration/README.md.
+# raw/gpt-drafts/ README stays tracked; drafts ignored.
 !raw/gpt-drafts/
 raw/gpt-drafts/**/*
 !raw/gpt-drafts/README.md
