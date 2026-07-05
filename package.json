@@ -48,6 +48,7 @@
     "fetch-app:install-desktop": "bash tools/fetch-app/desktop-app/build-desktop-app.sh",
     "central-library": "node tools/central-library/server.mjs",
     "central-library:run": "node tools/central-library/run-condition.mjs",
+    "library:status": "node tools/library-status.mjs",
     "release:wiki": "npm test && npm run check && npm run build",
     "publish:wiki": "npm run release:wiki && npx vercel@latest --prod --yes",
     "verify:live": "node tools/verify-live-pages.mjs",
