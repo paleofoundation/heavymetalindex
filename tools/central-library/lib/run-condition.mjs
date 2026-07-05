@@ -55,13 +55,26 @@ export function loadPreset(id) {
   return JSON.parse(fs.readFileSync(file, "utf8"))
 }
 
-// Expand a preset's templates for a subject. Returns [{ group, template, query }].
+// Expand a preset's templates for a subject. The subject placeholder (e.g.
+// [Condition] or [Matrix]) is substituted directly. An optional second
+// placeholder (default [Analyte]) fans a template out across the preset's
+// `analytes` list — so "[Analyte] [Matrix]" for rice becomes one query per
+// analyte (lead rice, cadmium rice, …). Returns [{ group, template, query,
+// analyte? }].
 export function expandQueries(preset, subject) {
   const ph = preset.placeholder || "[Subject]"
+  const aPh = preset.analytePlaceholder || "[Analyte]"
+  const analytes = Array.isArray(preset.analytes) ? preset.analytes : []
+  const clean = (s) => s.replace(/\s+/g, " ").trim()
   const out = []
   for (const g of preset.groups || []) {
     for (const template of g.queries) {
-      out.push({ group: g.name, template, query: template.split(ph).join(subject).replace(/\s+/g, " ").trim() })
+      const withSubject = template.split(ph).join(subject)
+      if (analytes.length && withSubject.includes(aPh)) {
+        for (const a of analytes) out.push({ group: g.name, template, analyte: a, query: clean(withSubject.split(aPh).join(a)) })
+      } else {
+        out.push({ group: g.name, template, query: clean(withSubject) })
+      }
     }
   }
   return out

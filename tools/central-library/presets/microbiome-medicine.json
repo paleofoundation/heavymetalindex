@@ -4,6 +4,7 @@
   "build": "mmed",
   "subjectLabel": "Condition",
   "placeholder": "[Condition]",
+  "example": "Multiple Sclerosis",
   "note": "The Microbiome Medicine research-tool presets. Running for a condition substitutes the condition into every query below; each query is searched, deduped, and its PDFs downloaded into its own folder. Transcribed from Karen's notes; Heavy Metal Tested used a different (lost) preset set.",
   "groups": [
     {
