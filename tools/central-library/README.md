@@ -12,8 +12,54 @@ call groups.
 npm run central-library      # then open http://127.0.0.1:8092
 ```
 
-The page is self-contained (sample data inline), so `public/index.html` also
-opens directly. Local-only; override the port with `HMI_CENTRAL_LIBRARY_PORT`.
+Local-only; override the port with `HMI_CENTRAL_LIBRARY_PORT`.
+
+## The research tool (real — the Presets tab)
+
+The **Presets tab** is the real, working research tool — a rebuild of the old
+Microbiome Medicine research tool. You pick a preset set, enter a **condition**,
+and it substitutes the condition into every preset query, searches the
+literature, dedupes each query's results, and downloads the open-access PDFs
+into a folder per query:
+
+```
+~/Desktop/<Condition>/<query with condition substituted>/<paper>.pdf
+```
+
+(e.g. `~/Desktop/Multiple Sclerosis/Systematic review Multiple Sclerosis/…`).
+This reproduces the output of the old tool — see the `Multiple Sclerosis` folder
+on the Desktop. A `_manifest.csv` records every query, decision, source, and file.
+
+**Presets** live in `presets/<set>.json` as `{ groups: [{ name, queries: […] }] }`
+where each query is a template containing `[Condition]`. Shipped:
+`microbiome-medicine.json` — the 10 Microbiome Medicine groups (Overview,
+Mechanistic Insights, Signatures, Diet, Metabolites, Interventions, Heavy Metals,
+Drug Repurposing, Associated Conditions, Causal Studies), 74 queries, verbatim
+from Karen's notes and verified to reproduce all 69 real Multiple Sclerosis
+folders. Edit the JSON to change queries; add a new file for a Heavy Metal Index
+preset set (its old set was lost and will be rebuilt from the analyte panel +
+taxonomy).
+
+Run it from the UI (Presets tab → enter condition → Run), or headless:
+
+```bash
+npm run central-library:run -- --condition "Multiple Sclerosis"
+node tools/central-library/run-condition.mjs --condition "Endometriosis" \
+     --preset microbiome-medicine --from-year 2010 --max-per-query 10
+node tools/central-library/run-condition.mjs --list-presets
+```
+
+The runner reuses the fetch-app engine wholesale (the source adapters + the
+PDF-download-with-rescue chain), so there is one fetch/dedupe/download stack.
+Unlike the HMI fetch-app it applies no food/HMI relevance gate — a research pull
+downloads what each query returns. PubMed uses Karen's NCBI key if set (faster);
+everything works key-less at lower rate limits.
+
+The **Library / Pulls / Coverage** tabs remain the mockup design (sample data);
+wiring the combined-corpus view to the real corpus is the next phase.
+
+The page's static assets are self-contained, but the research tool needs the
+server (`npm run central-library`) for its API.
 
 ## What's implemented
 

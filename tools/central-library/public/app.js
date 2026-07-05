@@ -190,7 +190,7 @@ const CL = {
       <div style="display:flex;gap:2px;">${tabs}</div>
       <div style="flex:1;"></div>
       <div class="mono" style="font-size:12px;color:rgba(26,29,36,0.5);display:flex;align-items:center;gap:7px;"><span style="width:7px;height:7px;border-radius:50%;background:#5BB85B;"></span>synced 14:02</div>
-      <button data-act="setTab" data-arg="pulls" style="font-size:13px;font-weight:600;color:#fff;background:#8B2A4A;border:none;padding:9px 16px;border-radius:8px;cursor:pointer;">+ New pull</button>
+      <button data-act="setTab" data-arg="presets" style="font-size:13px;font-weight:600;color:#fff;background:#8B2A4A;border:none;padding:9px 16px;border-radius:8px;cursor:pointer;">+ New pull</button>
     </div>`;
   },
 
@@ -327,94 +327,153 @@ const CL = {
 
   presetsTab() {
     const s = this.state;
-    const cg = this._cg(), ti = this._ti(), t = this._term();
-    const callTint = { 'heavy metal': ['#8B2A4A', '#F7F2F4'], 'product category': ['#7B746F', '#F1EFEC'], 'condition': ['#506168', '#EDF1F2'] }[cg.callType] || ['#8B2A4A', '#F7F2F4'];
-    const cgBd = this.builds[cg.build];
-    const serpOn = !!cg.serp;
     const hd = 'font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(26,29,36,0.45);';
+    const presets = s.realPresets || [];
+    const preset = presets.find(p => p.id === s.presetId) || presets[0];
+    if (!preset) {
+      const body = s.presetsError
+        ? `<div style="text-align:center;"><div style="font-size:14px;color:#8B2A4A;margin-bottom:12px;">Couldn't load presets.</div><button data-act="loadPresets" style="font-size:13px;font-weight:600;color:#fff;background:#8B2A4A;border:none;border-radius:8px;padding:9px 16px;cursor:pointer;">Retry</button></div>`
+        : `<div style="color:rgba(26,29,36,0.5);">Loading presets…</div>`;
+      return `<div style="flex:1;display:flex;align-items:center;justify-content:center;">${body}</div>`;
+    }
+    const ph = preset.placeholder || '[Condition]';
+    const subject = (s.subject || '').trim();
+    const totalQ = preset.groups.reduce((n, g) => n + g.queries.length, 0);
+    const run = s.run || {};
 
-    const groups = s.groups.map(g => {
-      const act = g.id === cg.id, bd = this.builds[g.build];
-      return `<button data-act="setPresetGroup" data-arg="${g.id}" style="display:block;width:100%;text-align:left;border:1px solid ${act ? '#E7C6D1' : '#EDEBE8'};background:${act ? '#FCF7F9' : '#fff'};border-radius:9px;padding:12px 13px;cursor:pointer;">
-        <div style="font-size:13px;font-weight:600;color:#1A1D24;margin-bottom:6px;">${this.esc(g.name)}</div>
-        <div style="display:flex;align-items:center;gap:7px;"><span style="width:8px;height:8px;border-radius:2px;background:${bd.color};flex:0 0 auto;"></span><span style="font-size:11px;color:rgba(26,29,36,0.5);">${this.esc(bd.label + ' · ' + g.callType + ' · ' + g.terms.length + ' terms')}</span></div>
+    // preset-set selector (left)
+    const setBtns = presets.map(p => {
+      const act = p.id === preset.id;
+      const qn = p.groups.reduce((n, g) => n + g.queries.length, 0);
+      return `<button data-act="setPresetId" data-arg="${p.id}" style="display:block;width:100%;text-align:left;border:1px solid ${act ? '#E7C6D1' : '#EDEBE8'};background:${act ? '#FCF7F9' : '#fff'};border-radius:9px;padding:12px 13px;cursor:pointer;margin-bottom:8px;">
+        <div style="font-size:13px;font-weight:600;color:#1A1D24;margin-bottom:5px;">${this.esc(p.label)}</div>
+        <div style="font-size:11px;color:rgba(26,29,36,0.5);">${p.groups.length} groups · ${qn} queries</div>
       </button>`;
     }).join('');
 
-    const terms = cg.terms.map((tm, i) => {
-      const act = i === ti;
-      return `<div data-act="setTermIdx" data-arg="${i}" style="display:flex;align-items:center;justify-content:space-between;gap:8px;border:1px solid ${act ? '#E7C6D1' : '#EDEBE8'};background:${act ? '#FCF7F9' : '#fff'};border-radius:7px;padding:8px 10px;cursor:pointer;">
-        <span style="font-size:12.5px;font-weight:${act ? 600 : 500};color:${act ? '#8B2A4A' : '#33373F'};">${this.esc(tm.label)}</span>
-        <button data-act="removeTerm" data-arg="${i}" style="font-size:13px;color:rgba(26,29,36,0.35);background:none;border:none;cursor:pointer;line-height:1;flex:0 0 auto;">✕</button>
+    const canRun = subject && !run.active;
+    const runForm = `<div style="border:1px solid #EDEBE8;border-radius:10px;padding:16px;background:#fff;margin-top:6px;">
+      <div style="${hd}margin-bottom:9px;">Run for a ${this.esc(preset.subjectLabel || 'Condition').toLowerCase()}</div>
+      <input id="cl-subject" data-input="setSubject" value="${this.esc(s.subject || '')}" placeholder="e.g. Multiple Sclerosis" style="width:100%;font-size:13px;border:1px solid #E2DFDB;border-radius:7px;padding:9px 11px;background:#fff;color:#1A1D24;margin-bottom:10px;">
+      <div style="display:flex;gap:9px;margin-bottom:11px;">
+        <div style="flex:1;"><div style="font-size:10.5px;color:rgba(26,29,36,0.55);margin-bottom:4px;">From year</div><input id="cl-fromyear" data-input="setFromYear" value="${this.esc(s.fromYear || '2000')}" class="mono" style="width:100%;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:8px 9px;background:#FCFBFA;"></div>
+        <div style="flex:1;"><div style="font-size:10.5px;color:rgba(26,29,36,0.55);margin-bottom:4px;">Max / query</div><input id="cl-maxpq" data-input="setMaxPerQuery" value="${this.esc(s.maxPerQuery || '10')}" class="mono" style="width:100%;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:8px 9px;background:#FCFBFA;"></div>
+      </div>
+      <label style="display:flex;align-items:center;gap:7px;font-size:12px;color:#33373F;margin-bottom:12px;cursor:pointer;"><input type="checkbox" data-act="toggleDryRun" ${s.dryRun ? 'checked' : ''}> Dry run (search + dedupe, no download)</label>
+      <button data-act="startRun" ${canRun ? '' : 'disabled'} style="width:100%;font-size:13px;font-weight:600;color:#fff;background:${canRun ? '#8B2A4A' : '#CBB8BF'};border:none;border-radius:8px;padding:11px;cursor:${canRun ? 'pointer' : 'not-allowed'};">${run.active ? 'Running…' : `Run ${totalQ} queries →`}</button>
+      <div style="font-size:11px;color:rgba(26,29,36,0.45);line-height:1.45;margin-top:9px;">Each query → its own folder of deduped PDFs under<br><span class="mono" style="color:#8B2A4A;">~/Desktop/${this.esc(subject || preset.subjectLabel || 'Condition')}/</span></div>
+    </div>`;
+
+    // query groups (right) with live substitution
+    const groupsHtml = preset.groups.map(g => {
+      const items = g.queries.map(q => {
+        const resolved = subject ? q.split(ph).join(subject) : q;
+        return `<div class="mono" style="font-size:12px;color:#33373F;background:#F7F5F2;border-radius:6px;padding:6px 10px;word-break:break-word;">${this.esc(resolved)}</div>`;
+      }).join('');
+      return `<div style="margin-bottom:20px;">
+        <div style="${hd}margin-bottom:9px;">${this.esc(g.name)} · ${g.queries.length}</div>
+        <div style="display:flex;flex-direction:column;gap:5px;">${items}</div>
       </div>`;
     }).join('');
 
-    const serpBlock = serpOn ? `<div style="background:#F1EFEC;border-radius:9px;padding:12px 16px;margin-bottom:14px;">
-      <div class="mono" style="font-size:10px;letter-spacing:.08em;color:rgba(26,29,36,0.45);margin-bottom:6px;">SERP RECALL QUERY</div>
-      <div class="mono" style="font-size:12px;line-height:1.6;color:#33373F;word-break:break-word;">${this.esc(this.serpQ(cg, t))}</div>
-    </div>` : '';
-
-    return `<div style="flex:1;display:grid;grid-template-columns:300px 1fr;min-height:0;">
+    return `<div style="flex:1;display:grid;grid-template-columns:320px 1fr;min-height:0;">
       <div class="cl-scroll" style="border-right:1px solid #E7E5E2;padding:22px 18px;overflow-y:auto;background:#FCFBFA;">
-        <div style="${hd}margin-bottom:4px;">Preset call groups</div>
-        <div style="font-size:11.5px;color:rgba(26,29,36,0.5);line-height:1.45;margin-bottom:14px;">Saved term sets per site. Edit any of them freely — changes flow straight into the resolved query.</div>
-        <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:16px;">${groups}</div>
-        <button data-act="newGroup" style="width:100%;font-size:12px;font-weight:600;color:#8B2A4A;background:#fff;border:1px dashed #C9A9B4;border-radius:8px;padding:9px;cursor:pointer;margin-bottom:8px;">+ New group</button>
-        <button data-act="newType" style="width:100%;font-size:12px;font-weight:600;color:#33373F;background:#fff;border:1px solid #E2DFDB;border-radius:8px;padding:9px;cursor:pointer;">+ New call type</button>
+        <div style="${hd}margin-bottom:9px;">Preset sets</div>
+        ${setBtns}
+        ${runForm}
       </div>
 
       <div class="cl-scroll" style="overflow-y:auto;padding:26px 28px;min-width:0;">
-        <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:18px;">
-          <div style="min-width:0;">
-            <div style="display:flex;align-items:center;gap:9px;margin-bottom:8px;flex-wrap:wrap;">
-              <span style="font-size:11px;font-weight:600;color:${callTint[0]};background:${callTint[1]};border-radius:6px;padding:4px 9px;">${this.esc(cg.callType)}</span>
-              <span style="display:flex;align-items:center;gap:6px;font-size:12px;color:rgba(26,29,36,0.55);"><span style="width:9px;height:9px;border-radius:2px;background:${cgBd.color};flex:0 0 auto;"></span>${this.esc(cgBd.label)}</span>
-            </div>
-            <h1 style="font-size:23px;font-weight:700;margin:0;letter-spacing:-0.01em;">${this.esc(cg.name)}</h1>
-          </div>
-          <button data-act="runGroup" style="flex:0 0 auto;font-size:13px;font-weight:600;color:#fff;background:#8B2A4A;border:none;border-radius:8px;padding:10px 16px;cursor:pointer;white-space:nowrap;">Run group (${cg.terms.length}) →</button>
+        <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:4px;gap:12px;">
+          <h1 style="font-size:23px;font-weight:700;margin:0;letter-spacing:-0.01em;">${this.esc(preset.label)}</h1>
+          <span class="mono" style="font-size:12px;color:rgba(26,29,36,0.5);">${preset.groups.length} groups · ${totalQ} queries</span>
         </div>
-
-        <div style="border:1px solid #EDEBE8;border-radius:10px;padding:18px;margin-bottom:20px;background:#fff;">
-          <div style="${hd}margin-bottom:13px;">Query template — applies to every term in this group</div>
-          <div style="margin-bottom:13px;">
-            <div style="font-size:11px;color:rgba(26,29,36,0.55);margin-bottom:5px;">Domain filter (AND clause)</div>
-            <input id="cl-domain" data-input="onDomainFilter" value="${this.esc(cg.domainFilter)}" class="mono" style="width:100%;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:9px 11px;color:#1A1D24;background:#FCFBFA;">
-          </div>
-          <div style="display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap;">
-            <div style="flex:0 0 auto;"><div style="font-size:11px;color:rgba(26,29,36,0.55);margin-bottom:5px;">From year</div><input id="cl-datemin" data-input="onDateMin" value="${this.esc(cg.dateMin)}" class="mono" style="width:96px;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:9px 11px;background:#FCFBFA;"></div>
-            <div style="flex:0 0 auto;"><div style="font-size:11px;color:rgba(26,29,36,0.55);margin-bottom:5px;">Max results</div><input id="cl-max" data-input="onMax" value="${this.esc(cg.max)}" class="mono" style="width:96px;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:9px 11px;background:#FCFBFA;"></div>
-            <div style="flex:1;"></div>
-            <div style="display:flex;align-items:center;gap:11px;"><div style="text-align:right;"><div style="font-size:12px;font-weight:600;color:#1A1D24;">SERP recall layer</div><div style="font-size:10.5px;color:rgba(26,29,36,0.5);">web · preprint · gray-lit PDFs</div></div><div data-act="toggleSerp" style="width:38px;height:22px;border-radius:999px;background:${serpOn ? '#8B2A4A' : '#D9D6D2'};position:relative;transition:background .18s;cursor:pointer;flex:0 0 auto;"><div style="position:absolute;top:2px;left:${serpOn ? '18px' : '2px'};width:18px;height:18px;border-radius:50%;background:#fff;transition:left .18s;box-shadow:0 1px 2px rgba(0,0,0,0.2);"></div></div></div>
-          </div>
-        </div>
-
-        <div style="display:grid;grid-template-columns:250px 1fr;gap:22px;">
-          <div>
-            <div style="${hd}margin-bottom:11px;">Preset terms</div>
-            <div style="display:flex;flex-direction:column;gap:6px;margin-bottom:10px;">${terms}</div>
-            <div style="display:flex;gap:6px;">
-              <input id="cl-newterm" data-input="onNewTerm" value="${this.esc(s.newTerm)}" placeholder="Add a term…" style="flex:1;min-width:0;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:8px 10px;background:#fff;color:#1A1D24;">
-              <button data-act="addTerm" style="flex:0 0 auto;font-size:16px;font-weight:600;color:#fff;background:#8B2A4A;border:none;border-radius:7px;padding:0 13px;cursor:pointer;">+</button>
-            </div>
-          </div>
-
-          <div style="min-width:0;">
-            <div style="${hd}margin-bottom:11px;">${this.esc(t.label)} — resolved call</div>
-            <div style="display:flex;gap:12px;margin-bottom:14px;flex-wrap:wrap;">
-              <div style="flex:1;min-width:150px;"><div style="font-size:11px;color:rgba(26,29,36,0.55);margin-bottom:5px;">Synonym (OR, optional)</div><input id="cl-syn" data-input="onSyn" value="${this.esc(t.syn)}" class="mono" style="width:100%;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:9px 11px;background:#FCFBFA;color:#1A1D24;"></div>
-              <div style="flex:1;min-width:150px;"><div style="font-size:11px;color:rgba(26,29,36,0.55);margin-bottom:5px;">MeSH term (optional)</div><input id="cl-mesh" data-input="onMesh" value="${this.esc(t.mesh)}" class="mono" style="width:100%;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:9px 11px;background:#FCFBFA;color:#1A1D24;"></div>
-            </div>
-            <div style="background:#1F2124;border-radius:9px;padding:14px 16px;margin-bottom:12px;">
-              <div class="mono" style="font-size:10px;letter-spacing:.08em;color:#8FA8AE;margin-bottom:8px;">RESOLVED PUBMED TERM</div>
-              <div class="mono" style="font-size:12px;line-height:1.7;color:#E4E2DD;word-break:break-word;">${this.esc(this.resolveTerm(cg, t))}</div>
-            </div>
-            ${serpBlock}
-            <button data-act="runTerm" style="font-size:13px;font-weight:600;color:#8B2A4A;background:#F7F2F4;border:1px solid #E7C6D1;border-radius:8px;padding:10px 16px;cursor:pointer;">Run this term only →</button>
-          </div>
-        </div>
+        <p style="font-size:13px;color:rgba(26,29,36,0.6);line-height:1.5;margin:0 0 18px;">${subject ? `Showing the resolved queries for <b>${this.esc(subject)}</b>. Run downloads each into its own folder.` : `Enter a ${this.esc((preset.subjectLabel || 'condition').toLowerCase())} on the left to resolve these query templates and run the pull.`}</p>
+        ${this.renderRunPanel()}
+        ${groupsHtml}
       </div>
     </div>`;
+  },
+
+  renderRunPanel() {
+    const run = this.state.run || {};
+    if (!run.active && !run.summary && (!run.log || !run.log.length)) return '';
+    const pct = run.qTotal ? Math.round((run.qIndex / run.qTotal) * 100) : 0;
+    const counter = (n, k, c) => `<div style="text-align:center;padding:6px 14px;"><div class="mono" style="font-size:20px;color:${c || '#1A1D24'};">${n}</div><div style="font-size:10px;color:rgba(26,29,36,0.5);text-transform:uppercase;letter-spacing:.03em;">${k}</div></div>`;
+    const logHtml = (run.log || []).slice(0, 40).map(l => `<div style="font-size:11.5px;color:#E4E2DD;padding:1px 0;">${this.esc(l)}</div>`).join('');
+    const head = run.active
+      ? `Running · query ${run.qIndex}/${run.qTotal}${run.currentQuery ? ' · ' + this.esc(run.currentQuery) : ''}`
+      : run.summary ? `Done — ${run.summary.dryRun ? 'dry run' : `saved to ${this.esc(run.summary.outDir)}`}` : 'Run';
+    return `<div style="border:1px solid #EDEBE8;border-radius:10px;overflow:hidden;margin-bottom:22px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;padding:11px 15px;background:#FAF8F6;border-bottom:1px solid #EDEBE8;">
+        <span style="font-size:12px;font-weight:600;color:#1A1D24;">${head}</span>
+        <div style="display:flex;">${counter(run.downloaded || 0, 'downloaded', '#2C6E49')}${counter(run.skipped || 0, 'skipped')}${counter(run.failed || 0, 'failed', '#8B2A4A')}</div>
+      </div>
+      <div style="height:3px;background:#EDEBE8;"><div style="height:3px;width:${pct}%;background:#8B2A4A;transition:width .2s;"></div></div>
+      <div class="cl-scroll" style="background:#1F2124;padding:12px 15px;max-height:200px;overflow-y:auto;font-family:'IBM Plex Mono',monospace;">${logHtml || '<span style="color:#8FA8AE;font-size:11.5px;">starting…</span>'}</div>
+    </div>`;
+  },
+
+  // ── real-run actions ─────────────────────────────────────────────────────
+  loadPresets() {
+    this.state.presetsError = false;
+    this.render();
+    fetch('/api/presets')
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(d => {
+        this.state.realPresets = d.presets || [];
+        if (!this.state.presetId && this.state.realPresets[0]) this.state.presetId = this.state.realPresets[0].id;
+        this.render();
+      })
+      .catch(() => { this.state.presetsError = true; this.render(); });
+  },
+  setPresetId(id) { this.setState({ presetId: id }); },
+  setSubject(v) { this.setState({ subject: v }); },
+  setFromYear(v) { this.state.fromYear = v.replace(/[^0-9]/g, ''); this.render(); },
+  setMaxPerQuery(v) { this.state.maxPerQuery = v.replace(/[^0-9]/g, ''); this.render(); },
+  toggleDryRun() { this.setState({ dryRun: !this.state.dryRun }); },
+  startRun() {
+    const st = this.state;
+    if (!(st.subject || '').trim() || (st.run && st.run.active)) return;
+    st.run = { active: true, log: [], downloaded: 0, failed: 0, skipped: 0, qIndex: 0, qTotal: 0, currentQuery: '', summary: null };
+    this.render();
+    fetch('/api/run', {
+      method: 'POST', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
+        presetId: st.presetId, subject: st.subject.trim(),
+        fromYear: Number(st.fromYear) || 2000, maxPerQuery: Number(st.maxPerQuery) || 10,
+        dryRun: !!st.dryRun,
+      }),
+    }).then(async (r) => {
+      if (!r.ok) throw new Error((await r.text().catch(() => '')) || ('HTTP ' + r.status));
+      return r.json();
+    }).then(({ runId }) => {
+      if (!runId) throw new Error('server returned no runId');
+      const es = new EventSource('/api/run/stream?runId=' + encodeURIComponent(runId));
+      es.onmessage = (m) => { const ev = JSON.parse(m.data); this.onRunEvent(ev); if (ev.type === 'done' || ev.type === 'error') es.close(); };
+      es.onerror = () => {
+        es.close();
+        const run = this.state.run;
+        if (run && run.active) { run.active = false; run.log.unshift('✖ connection lost — run interrupted'); }
+        this.render();
+      };
+    }).catch((err) => {
+      const run = this.state.run;
+      if (run) { run.active = false; run.log.unshift('✖ ' + (err && err.message ? err.message : 'run failed to start')); }
+      this.render();
+    });
+  },
+  onRunEvent(ev) {
+    const run = this.state.run; if (!run) return;
+    if (ev.type === 'start') { run.qTotal = ev.queryCount; run.log.unshift(`▶ ${ev.subject} · ${ev.queryCount} queries → ${ev.outDir}`); }
+    else if (ev.type === 'query-start') { run.qIndex = ev.index + 1; run.currentQuery = ev.query; }
+    else if (ev.type === 'query-candidates') { run.log.unshift(`  ${ev.query}: ${ev.found} hits → ${ev.unique} unique`); }
+    else if (ev.type === 'download') { run.downloaded++; run.log.unshift(`↓ ${ev.file}`); }
+    else if (ev.type === 'log') { run.log.unshift(`· ${ev.msg}`); }
+    else if (ev.type === 'done') { run.active = false; run.summary = ev; run.downloaded = ev.stats.downloaded; run.failed = ev.stats.failed; run.skipped = ev.stats.skipped; run.qIndex = run.qTotal; run.log.unshift(`✓ done — ${ev.stats.downloaded} downloaded, ${ev.stats.failed} failed`); }
+    else if (ev.type === 'error') { run.active = false; run.log.unshift(`✖ ${ev.msg}`); }
+    if (run.log.length > 60) run.log.length = 60;
+    this.render();
   },
 
   otherTab() {
@@ -502,4 +561,12 @@ document.addEventListener('input', (e) => {
   if (typeof CL[act] === 'function') CL[act](el.value);
 });
 
+// Boot: seed run/preset state, render immediately, then load the real preset
+// sets from the server and re-render.
+Object.assign(CL.state, {
+  realPresets: [], presetId: null, subject: '', presetsError: false,
+  fromYear: '2000', maxPerQuery: '10', dryRun: false,
+  run: { active: false, log: [], downloaded: 0, failed: 0, skipped: 0, qIndex: 0, qTotal: 0, currentQuery: '', summary: null },
+});
 CL.render();
+CL.loadPresets();
