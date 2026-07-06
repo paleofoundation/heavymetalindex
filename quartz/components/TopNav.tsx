@@ -3,9 +3,21 @@ import { classNames } from "../util/lang"
 import { pathToRoot, resolveRelative, type SimpleSlug, type FullSlug } from "../util/path"
 import { i18n } from "../i18n"
 import { taxonomyLinks, utilityLinks, type TopNavLink } from "./topNavLinks"
+import { concatenateResources } from "../util/resources"
 import style from "./styles/topNav.scss"
+// Search assets are bundled here (the TopNav renders on every page) so the
+// search engine ships site-wide even though there is no standalone Search
+// component in the layout. Without this, the homepage hero's `.search` widget
+// had no script wiring and no base styles: the button did nothing, the always-
+// visible input overlaid the button, and no results ever rendered.
+// search.inline.ts self-initialises every `.search` element on nav, so importing
+// it globally activates the hero widget; search.scss restores the
+// display:none-until-active base that makes the button clickable again.
+import searchStyle from "./styles/search.scss"
 // @ts-ignore — inline script, resolved by Quartz's esbuild loader
 import script from "./scripts/topNav.inline"
+// @ts-ignore — inline script, resolved by Quartz's esbuild loader
+import searchScript from "./scripts/search.inline"
 
 // Global, full-width, white sticky top bar. Rendered ONCE per page as the
 // shared `header` (quartz.layout.ts `sharedPageComponents.header = [TopNav()]`)
@@ -156,7 +168,7 @@ export default ((userOpts?: Partial<TopNavOptions>) => {
     )
   }
 
-  TopNav.css = style
-  TopNav.afterDOMLoaded = script
+  TopNav.css = style + "\n" + searchStyle
+  TopNav.afterDOMLoaded = concatenateResources(script, searchScript)
   return TopNav
 }) satisfies QuartzComponentConstructor<TopNavOptions>

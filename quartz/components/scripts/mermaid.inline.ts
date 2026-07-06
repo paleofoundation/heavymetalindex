@@ -186,7 +186,14 @@ const cssVars = [
 
 let mermaidImport = undefined
 document.addEventListener("nav", async () => {
-  const center = document.querySelector(".center") as HTMLElement
+  // The proof layout renders article content in `.proof-main`/`.wiki-content`,
+  // not the legacy `.center` column, and the home page has neither. Guard the
+  // lookup: an unguarded `.center` query threw on every nav (TypeError: null),
+  // which surfaced as a console error on every page load.
+  const center = document.querySelector(
+    ".center, .proof-main, .wiki-content",
+  ) as HTMLElement | null
+  if (!center) return
   const nodes = center.querySelectorAll("code.mermaid") as NodeListOf<HTMLElement>
   if (nodes.length === 0) return
 

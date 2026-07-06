@@ -1028,6 +1028,68 @@ a.hmi-home-brand:hover {
   max-width: 620px;
 }
 
+/* ── Burgundy hero band ────────────────────────────────────────────────────
+   The home hero renders on a burgundy full-bleed band (matching the
+   microbiomemedicine-style .hero-band used on content pages). It sits inside
+   the centered .proof-main, so it breaks out to the viewport edges with the
+   100vw technique and re-insets its content to the --maxw column. Text and
+   controls flip to light-on-burgundy. */
+.hmi-home-hero {
+  background: var(--burg);
+  color: #fff;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: 0;
+  margin-bottom: 3rem;
+  padding-top: 3.5rem;
+  padding-bottom: 4rem;
+  padding-left: max(2.5rem, calc((100vw - var(--maxw)) / 2 + 2.5rem));
+  padding-right: max(2.5rem, calc((100vw - var(--maxw)) / 2 + 2.5rem));
+  border-radius: 0;
+}
+
+.hmi-home-hero .hmi-home-kicker {
+  color: color-mix(in srgb, #fff 82%, var(--burg));
+}
+
+.hmi-home-hero h1 {
+  color: #fff;
+}
+
+.hmi-home-hero p {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+/* Search box: keep a white field so it stays legible and inviting on burgundy. */
+.hmi-home-hero .hmi-home-search.search > .hmi-home-search-button {
+  border-color: #fff;
+}
+
+/* Primary action inverts to white-on-burgundy; secondary is an outline button.
+   !important overrides the global a.internal pill-remover in proof-design.scss,
+   which otherwise repaints this button burgundy — invisible on the burgundy hero. */
+article .hmi-home-hero .hmi-home-hero-actions a.hmi-home-action-primary,
+.hmi-home-hero .hmi-home-hero-actions a.hmi-home-action-primary {
+  background: #fff !important;
+  color: var(--burg) !important;
+}
+article .hmi-home-hero .hmi-home-hero-actions a.hmi-home-action-primary:hover,
+.hmi-home-hero .hmi-home-hero-actions a.hmi-home-action-primary:hover {
+  background: color-mix(in srgb, #fff 88%, var(--burg)) !important;
+  color: var(--burg) !important;
+}
+.hmi-home-hero .hmi-home-hero-actions button,
+.hmi-home-hero .hmi-home-hero-actions a:not(.hmi-home-action-primary) {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.6);
+  color: #fff;
+}
+.hmi-home-hero .hmi-home-hero-actions button:hover,
+.hmi-home-hero .hmi-home-hero-actions a:not(.hmi-home-action-primary):hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
 .hmi-home-search.search {
   max-width: 560px;
   min-width: 0;

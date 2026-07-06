@@ -1,0 +1,24 @@
+{
+  "_comment": "Per-category editorial content for product category-index pages, keyed by the category slug (the file name emitted under wiki/products/categories/). Read by tools/build-category-pages.mjs. `overview` is a prose paragraph rendered under the Overview header; `faqs` is a list of {q, a} rendered under Frequently asked questions. Categories with no entry get a generic Overview and no FAQ. Prose must follow CLAUDE.md Part 2 (report what the literature/regulators say; no HMT&C promotion) and Part 7 (quantitative anchors, no undefined qualifiers like 'safe' or 'trace').",
+  "infant-and-child-foods": {
+    "overview": "Infant and child foods are the most intensively studied and most tightly regulated part of the heavy-metals food literature, because infants and young children eat a narrow, repetitive diet at a body weight where a given concentration delivers a larger dose per kilogram than it would to an adult. This category collects the product forms the Heavy Metal Index tracks for this age group: milk- and soy-based infant formula (powder and ready-to-feed), dry infant cereals, fruit and vegetable purées, mixed meals, fruit juice, teething foods and snacks, and meat, poultry, and fish preparations. The metals that dominate the evidence here are lead, inorganic arsenic (concentrated in rice-based products), and cadmium, with methylmercury relevant to fish-containing foods. Each linked page summarizes what the peer-reviewed and regulatory literature reports for that specific product form, with per-claim citations to the underlying source pages. The Index reports occurrence and regulatory limits; it does not certify products or rank brands.",
+    "faqs": [
+      {
+        "q": "Which heavy metals matter most in baby food, and where do they come from?",
+        "a": "Lead, inorganic arsenic, and cadmium account for most of the documented risk, with methylmercury relevant to fish-containing products. These elements are not added during manufacturing; they are taken up by crops from soil and water and carried through to the finished product. Inorganic arsenic concentrates in rice and rice-based ingredients because paddy rice takes up arsenic efficiently, which is why [[ingredients/rice|rice]]-based cereals and snacks are tracked separately from their non-rice counterparts. See [[metals/lead|lead]], [[metals/arsenic-inorganic|inorganic arsenic]], and [[metals/cadmium|cadmium]] for the underlying toxicology and occurrence data."
+      },
+      {
+        "q": "Why are infants and young children treated as a distinct exposure group?",
+        "a": "Two reasons compound. First, dose scales with body weight: the same concentration in food delivers several times the microgram-per-kilogram dose to a 9 kg infant that it delivers to a 70 kg adult. Second, the diet is narrow and repetitive, so a single contaminated staple (rice cereal, one fruit purée) can dominate total intake for months. For lead specifically, regulators including EFSA have concluded there is no identified intake level without risk to the developing nervous system, so the operative goal is to reduce exposure as far as practicable rather than to stay under a fixed number."
+      },
+      {
+        "q": "What limits apply to heavy metals in infant and child foods?",
+        "a": "In the United States the FDA's Closer to Zero program sets action levels for baby food: as of the 2025 final guidance, 10 ppb lead for fruits, non-root vegetables, mixtures, yogurts, custards, and single-ingredient meats; 20 ppb for single-ingredient root vegetables; and 20 ppb for dry infant cereals ([[regulations/fda-closer-to-zero|FDA Closer to Zero]]). In the European Union, Regulation 2023/915 sets maximum levels for lead in foods for infants and young children ([[regulations/eu-2023-915-lead-infant-young-child-foods|EU 2023/915]]). US action levels are non-binding enforcement guidance; EU maximum levels are legally binding. Both are ceilings, not safety thresholds, and the regulatory direction of travel is downward."
+      },
+      {
+        "q": "Are rice-based baby foods different from other baby foods?",
+        "a": "Yes, for inorganic arsenic. Rice takes up arsenic from paddy soil and water more readily than most grains, so rice cereals, rice-based teething snacks, and mixed meals containing rice consistently report higher inorganic-arsenic occurrence than their non-rice equivalents. That is why the Index splits these product forms into rice-based and non-rice rows rather than pooling them. It does not mean rice-based products are unsafe at any level; it means the inorganic-arsenic distribution for those forms sits higher and should be read against the [[metals/arsenic-inorganic|inorganic arsenic]] limits specifically."
+      }
+    ]
+  }
+}
