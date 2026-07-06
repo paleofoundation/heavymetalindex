@@ -16,11 +16,14 @@ import http from "node:http"
 import fs from "node:fs"
 import { createReadStream } from "node:fs"
 import { stat } from "node:fs/promises"
-import { extname, join, normalize, resolve } from "node:path"
+import { basename, extname, join, normalize, resolve } from "node:path"
 import { fileURLToPath } from "node:url"
 
+import os from "node:os"
+import { writeFile, mkdtemp, rm } from "node:fs/promises"
 import { runCondition, listPresets, loadPreset } from "./lib/run-condition.mjs"
 import { loadWishlist, updateEntry } from "../wishlist/lib/wishlist-store.mjs"
+import { fulfillFile } from "../wishlist/lib/fulfill.mjs"
 
 const publicRoot = resolve(fileURLToPath(new URL("./public", import.meta.url)))
 const port = Number(process.env.HMI_CENTRAL_LIBRARY_PORT ?? 8092)
@@ -83,6 +86,29 @@ const server = http.createServer(async (request, response) => {
         builds: [...new Set(all.flatMap((e) => e.builds || []))].sort(),
         entries: rows.slice(0, limit),
       })
+      return
+    }
+
+    // Drop a fetched PDF right in the UI → same matching as the watcher.
+    if (url.pathname === "/api/wishlist/fulfill" && request.method === "POST") {
+      const buf = await readRawBody(request, 80 * 1024 * 1024)
+      if (!buf.length || buf.subarray(0, 5).toString("latin1") !== "%PDF-") {
+        response.writeHead(400, { "content-type": "text/plain" })
+        response.end("not a PDF (missing %PDF- header)")
+        return
+      }
+      const rawName = (request.headers["x-filename"] || "dropped.pdf").toString()
+      const safe = basename(rawName).replace(/[^\w.\- ]+/g, "_").replace(/\.+/g, ".")
+      const base = /\.pdf$/i.test(safe) ? safe : `${safe}.pdf`
+      // Unique temp DIR so the file keeps its clean original name (fulfillFile
+      // derives the filed name from basename); dir is removed afterward.
+      const dir = await mkdtemp(join(os.tmpdir(), "hmi-fulfill-"))
+      const tmp = join(dir, base)
+      await writeFile(tmp, buf)
+      let result
+      try { result = await fulfillFile(tmp, { via: "upload" }) }
+      finally { try { await rm(dir, { recursive: true, force: true }) } catch {} }
+      sendJson(response, result)
       return
     }
 
@@ -193,6 +219,20 @@ server.listen(port, host, () => {
 function sendJson(response, value) {
   response.writeHead(200, { "cache-control": "no-store", "content-type": "application/json; charset=utf-8" })
   response.end(JSON.stringify(value))
+}
+
+function readRawBody(request, maxBytes) {
+  return new Promise((res, rej) => {
+    const chunks = []
+    let size = 0
+    request.on("data", (c) => {
+      size += c.length
+      if (size > maxBytes) { rej(new Error("body too large")); request.destroy() }
+      else chunks.push(c)
+    })
+    request.on("end", () => res(Buffer.concat(chunks)))
+    request.on("error", rej)
+  })
 }
 
 function readJsonBody(request) {

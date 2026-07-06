@@ -532,6 +532,10 @@ const CL = {
       <div style="max-width:860px;margin:0 auto;">
         <div style="margin-bottom:6px;"><h2 style="font-size:22px;font-weight:700;margin:0;">Wishlist</h2></div>
         <p style="font-size:13.5px;line-height:1.55;color:rgba(26,29,36,0.6);margin:0 0 16px;">Papers the fetch tools found but couldn't download (paywalled / no open-access copy), ranked by relevance so you fetch the most valuable ones first. Copy the DOI, grab the PDF, and drop it in your library — it checks itself off.</p>
+        <div id="wl-drop" style="border:2px dashed #C9A9B4;border-radius:10px;background:#FBF6F8;padding:15px;text-align:center;margin-bottom:16px;transition:background .15s;">
+          <div style="font-size:13px;font-weight:600;color:#8B2A4A;">↓ Drop fetched PDFs here</div>
+          <div style="font-size:11.5px;color:rgba(26,29,36,0.55);margin-top:2px;">They check themselves off the wishlist and file into your library as you go.</div>
+        </div>
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;">
           <div style="display:flex;gap:4px;">${buildChips}</div>
           <div style="flex:1;"></div>
@@ -566,6 +570,30 @@ const CL = {
     fetch('/api/wishlist/dismiss', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ wishlist_id: id }) })
       .then(r => r.json()).then(() => { this.toastMsg('Dismissed'); this.state.wishlist = null; this.render(); })
       .catch(() => this.toastMsg('Could not update — is the server running?'));
+  },
+  async wlHandleDrop(files) {
+    const pdfs = [...files].filter(f => /\.pdf$/i.test(f.name) || f.type === 'application/pdf');
+    if (!pdfs.length) { this.toastMsg('Drop PDF files only.'); return; }
+    this.toastMsg(`Processing ${pdfs.length} PDF${pdfs.length > 1 ? 's' : ''}…`);
+    let checked = 0, pending = 0, novel = 0, err = 0;
+    for (const f of pdfs) {
+      try {
+        const buf = await f.arrayBuffer();
+        const r = await fetch('/api/wishlist/fulfill', { method: 'POST', headers: { 'content-type': 'application/pdf', 'x-filename': f.name }, body: buf });
+        const d = await r.json();
+        if (d.outcome === 'checked-off') checked++;
+        else if (d.outcome === 'pending-confirm') pending++;
+        else if (d.outcome === 'novel') novel++;
+        else err++;
+      } catch { err++; }
+    }
+    const parts = [];
+    if (checked) parts.push(`${checked} checked off ✓`);
+    if (pending) parts.push(`${pending} to confirm`);
+    if (novel) parts.push(`${novel} filed as new`);
+    if (err) parts.push(`${err} failed`);
+    this.toastMsg(parts.join('  ·  ') || 'Nothing matched');
+    this.state.wishlist = null; this.render();
   },
 
   otherTab() {
@@ -651,6 +679,29 @@ document.addEventListener('input', (e) => {
   const act = el.getAttribute && el.getAttribute('data-input');
   if (!act) return;
   if (typeof CL[act] === 'function') CL[act](el.value);
+});
+
+// Drag-and-drop of PDFs. preventDefault on dragover+drop is what stops the
+// browser from just opening the dropped PDF (the "opens in Chrome" bug).
+function draggingFiles(e) { return [...(e.dataTransfer && e.dataTransfer.types || [])].includes('Files'); }
+document.addEventListener('dragover', (e) => {
+  if (!draggingFiles(e)) return;
+  e.preventDefault();
+  try { e.dataTransfer.dropEffect = 'copy'; } catch {}
+  const z = document.getElementById('wl-drop'); if (z) z.style.background = '#F1DCE5';
+});
+document.addEventListener('dragleave', (e) => {
+  const z = document.getElementById('wl-drop');
+  if (z && (e.target === z || !e.relatedTarget)) z.style.background = '#FBF6F8';
+});
+document.addEventListener('drop', (e) => {
+  if (!draggingFiles(e)) return;
+  e.preventDefault();
+  const z = document.getElementById('wl-drop'); if (z) z.style.background = '#FBF6F8';
+  const files = [...e.dataTransfer.files];
+  if (!files.length) return;
+  if (CL.state.tab !== 'wishlist') CL.setTab('wishlist');
+  CL.wlHandleDrop(files);
 });
 
 // Boot: seed run/preset state, render immediately, then load the real preset
