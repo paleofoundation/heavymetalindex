@@ -186,7 +186,7 @@ const CL = {
       `<button data-act="setTab" data-arg="${id}" style="font-size:13px;font-weight:${s.tab===id?600:500};color:${s.tab===id?'#8B2A4A':'rgba(26,29,36,0.55)'};background:${s.tab===id?'#F7F2F4':'transparent'};border:none;padding:7px 13px;border-radius:7px;cursor:pointer;">${label}</button>`
     ).join('');
     return `<div style="display:flex;align-items:center;gap:22px;padding:0 24px;height:60px;border-bottom:1px solid #E7E5E2;background:#fff;flex:0 0 auto;z-index:5;">
-      <div style="font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600;letter-spacing:.16em;color:#1A1D24;">CENTRAL LIBRARY</div>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600;letter-spacing:.16em;color:#1A1D24;">HEAVY METAL FETCH</div>
       <div style="display:flex;gap:2px;">${tabs}</div>
       <div style="flex:1;"></div>
       <div class="mono" style="font-size:12px;color:rgba(26,29,36,0.5);display:flex;align-items:center;gap:7px;"><span style="width:7px;height:7px;border-radius:50%;background:#5BB85B;"></span>synced 14:02</div>
