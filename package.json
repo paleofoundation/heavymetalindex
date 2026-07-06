@@ -97,7 +97,9 @@
     "runtime:drain": "node tools/runtime/run-loop.mjs --drain --verbose",
     "prepare": "husky",
     "library:index": "node tools/library/backfill-identity.mjs",
-    "library:snapshot": "node tools/library/snapshot.mjs"
+    "library:snapshot": "node tools/library/snapshot.mjs",
+    "wishlist:harvest": "node tools/wishlist/harvest-wishlist.mjs",
+    "wishlist:score": "node tools/wishlist/score-wishlist.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",

@@ -20,6 +20,7 @@ import { extname, join, normalize, resolve } from "node:path"
 import { fileURLToPath } from "node:url"
 
 import { runCondition, listPresets, loadPreset } from "./lib/run-condition.mjs"
+import { loadWishlist, updateEntry } from "../wishlist/lib/wishlist-store.mjs"
 
 const publicRoot = resolve(fileURLToPath(new URL("./public", import.meta.url)))
 const port = Number(process.env.HMI_CENTRAL_LIBRARY_PORT ?? 8092)
@@ -61,6 +62,44 @@ const server = http.createServer(async (request, response) => {
         try { sets.push({ ...loadPreset(meta.id), ...meta }) } catch {}
       }
       sendJson(response, { presets: sets })
+      return
+    }
+
+    // ── Wishlist: papers the fetch tools wanted but couldn't download ─────────
+    if (url.pathname === "/api/wishlist" && request.method === "GET") {
+      const build = url.searchParams.get("build") || "all"
+      const q = (url.searchParams.get("q") || "").toLowerCase().trim()
+      const limit = Number(url.searchParams.get("limit")) || 500
+      const all = [...loadWishlist().values()].filter(
+        (e) => e.status === "open" || e.status === "have-pending-confirm",
+      )
+      let rows = all
+      if (build !== "all") rows = rows.filter((e) => (e.builds || []).includes(build))
+      if (q) rows = rows.filter((e) => `${e.title || ""} ${e.doi || ""} ${e.journal || ""}`.toLowerCase().includes(q))
+      rows.sort((a, b) => (b.relevance_score || 0) - (a.relevance_score || 0) || a.wishlist_id.localeCompare(b.wishlist_id))
+      sendJson(response, {
+        total: all.length,
+        shown: Math.min(rows.length, limit),
+        builds: [...new Set(all.flatMap((e) => e.builds || []))].sort(),
+        entries: rows.slice(0, limit),
+      })
+      return
+    }
+
+    if (
+      (url.pathname === "/api/wishlist/mark-have" || url.pathname === "/api/wishlist/dismiss") &&
+      request.method === "POST"
+    ) {
+      const payload = await readJsonBody(request)
+      const id = payload.wishlist_id
+      if (!id) { response.writeHead(400, { "content-type": "text/plain" }); response.end("wishlist_id required"); return }
+      const patch =
+        url.pathname === "/api/wishlist/dismiss"
+          ? { status: "dismissed" }
+          : { status: "have", fulfilled_via: "manual-ui", fulfilled_at: new Date().toISOString() }
+      const e = updateEntry(id, patch)
+      if (!e) { response.writeHead(404, { "content-type": "text/plain" }); response.end("unknown wishlist_id"); return }
+      sendJson(response, { ok: true, entry: e })
       return
     }
 

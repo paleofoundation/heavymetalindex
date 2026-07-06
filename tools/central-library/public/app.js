@@ -172,6 +172,7 @@ const CL = {
     return `<div style="height:100vh;display:flex;flex-direction:column;background:#FDFDFC;overflow:hidden;">
       ${this.appBar()}
       ${s.tab === 'library' ? this.libraryTab() : ''}
+      ${s.tab === 'wishlist' ? this.wishlistTab() : ''}
       ${s.tab === 'presets' ? this.presetsTab() : ''}
       ${(s.tab === 'pulls' || s.tab === 'coverage') ? this.otherTab() : ''}
       ${s.selIdx != null ? this.drawer() : ''}
@@ -181,7 +182,7 @@ const CL = {
 
   appBar() {
     const s = this.state;
-    const tabDef = [['library','Library'],['pulls','Pulls'],['coverage','Coverage'],['presets','Presets']];
+    const tabDef = [['library','Library'],['wishlist','Wishlist'],['pulls','Pulls'],['coverage','Coverage'],['presets','Presets']];
     const tabs = tabDef.map(([id, label]) =>
       `<button data-act="setTab" data-arg="${id}" style="font-size:13px;font-weight:${s.tab===id?600:500};color:${s.tab===id?'#8B2A4A':'rgba(26,29,36,0.55)'};background:${s.tab===id?'#F7F2F4':'transparent'};border:none;padding:7px 13px;border-radius:7px;cursor:pointer;">${label}</button>`
     ).join('');
@@ -481,6 +482,92 @@ const CL = {
     this.render();
   },
 
+  wishlistTab() {
+    const s = this.state;
+    if (s.wishlist == null && !s.wlLoading) this.loadWishlist();
+    const q = (s.wlQ || '').toLowerCase().trim();
+    let rows = s.wishlist || [];
+    if (q) rows = rows.filter(e => `${e.title||''} ${e.doi||''} ${e.journal||''}`.toLowerCase().includes(q));
+
+    const buildChip = (id, label) => {
+      const act = (s.wlBuild || 'all') === id;
+      return `<button data-act="wlSetBuild" data-arg="${id}" style="font-size:12px;font-weight:${act?600:500};color:${act?'#8B2A4A':'rgba(26,29,36,0.55)'};background:${act?'#F7F2F4':'transparent'};border:1px solid ${act?'#E7C6D1':'transparent'};padding:6px 12px;border-radius:7px;cursor:pointer;">${label}</button>`;
+    };
+    const buildChips = [buildChip('all','All'), ...(s.wlAllBuilds||[]).map(b => buildChip(b, (this.builds[b]&&this.builds[b].label)||b))].join('');
+
+    const card = (e) => {
+      const badge = (b) => `<span style="font-size:10px;font-weight:600;color:${(this.builds[b]&&this.builds[b].color)||'#8B2A4A'};background:#F7F2F4;border-radius:4px;padding:2px 6px;">${this.esc((this.builds[b]&&this.builds[b].label)||b)}</span>`;
+      const seen = (e.surfacing&&e.surfacing[0]) ? `${this.esc(e.surfacing[0].query||'')}` : '';
+      const doi = e.doi ? `<button data-act="wlCopy" data-arg="${this.esc(e.doi)}" class="mono" title="copy DOI" style="font-size:11.5px;color:#33373F;background:#F1EFEC;border:none;border-radius:6px;padding:5px 9px;cursor:pointer;">${this.esc(e.doi)} ⧉</button>` : `<span class="mono" style="font-size:11px;color:rgba(26,29,36,0.4);">no DOI — title only</span>`;
+      const pub = e.publisher_url ? `<a href="${this.esc(e.publisher_url)}" target="_blank" rel="noopener" style="font-size:11.5px;font-weight:600;color:#8B2A4A;text-decoration:none;">go get it ↗</a>` : '';
+      return `<div style="border:1px solid #EDEBE8;border-radius:10px;padding:13px 15px;margin-bottom:9px;background:#fff;">
+        <div style="display:flex;align-items:flex-start;gap:12px;">
+          <div style="flex-shrink:0;width:42px;height:42px;border-radius:8px;background:#F7F2F4;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:#8B2A4A;" title="relevance">${this.esc(e.relevance_score ?? 0)}</div>
+          <div style="flex:1;min-width:0;">
+            <div style="font-size:14px;font-weight:600;line-height:1.35;margin-bottom:3px;">${this.esc(e.title || e.wishlist_id)}</div>
+            <div class="mono" style="font-size:11px;color:rgba(26,29,36,0.5);display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+              ${e.journal?`<span>${this.esc(e.journal)}</span>`:''}${e.year?`<span>${this.esc(e.year)}</span>`:''}${e.cited_by_count?`<span>${this.esc(e.cited_by_count)} cites</span>`:''}${(e.builds||[]).map(badge).join(' ')}${e.times_seen>1?`<span>· seen ${this.esc(e.times_seen)}×</span>`:''}
+            </div>
+            ${seen?`<div style="font-size:11px;color:rgba(26,29,36,0.4);margin-top:3px;">surfaced by: ${seen}</div>`:''}
+            <div style="display:flex;align-items:center;gap:10px;margin-top:10px;flex-wrap:wrap;">
+              ${doi}${pub}
+              <div style="flex:1;"></div>
+              <button data-act="wlMarkHave" data-arg="${this.esc(e.wishlist_id)}" style="font-size:11.5px;font-weight:600;color:#fff;background:#5A8A5A;border:none;border-radius:6px;padding:6px 11px;cursor:pointer;">✓ I have it</button>
+              <button data-act="wlDismiss" data-arg="${this.esc(e.wishlist_id)}" style="font-size:11.5px;color:rgba(26,29,36,0.5);background:none;border:none;cursor:pointer;">dismiss</button>
+            </div>
+          </div>
+        </div>
+      </div>`;
+    };
+
+    const body = s.wlLoading
+      ? `<div style="text-align:center;color:rgba(26,29,36,0.5);padding:60px;">Loading wishlist…</div>`
+      : s.wlError
+      ? `<div style="text-align:center;color:#8B2A4A;padding:60px;">Couldn't load the wishlist. Is the server running?<br><button data-act="loadWishlist" style="margin-top:12px;font-size:13px;font-weight:600;color:#fff;background:#8B2A4A;border:none;border-radius:8px;padding:9px 16px;cursor:pointer;">Retry</button></div>`
+      : !rows.length
+      ? `<div style="text-align:center;color:rgba(26,29,36,0.5);padding:60px;">Nothing on the wishlist${q?' matches your search':''}.<br><span style="font-size:12px;">Run a sweep, then <span class="mono">npm run wishlist:harvest</span> to populate it.</span></div>`
+      : rows.map(card).join('');
+
+    return `<div class="cl-scroll" style="flex:1;overflow-y:auto;padding:22px 26px;">
+      <div style="max-width:860px;margin:0 auto;">
+        <div style="margin-bottom:6px;"><h2 style="font-size:22px;font-weight:700;margin:0;">Wishlist</h2></div>
+        <p style="font-size:13.5px;line-height:1.55;color:rgba(26,29,36,0.6);margin:0 0 16px;">Papers the fetch tools found but couldn't download (paywalled / no open-access copy), ranked by relevance so you fetch the most valuable ones first. Copy the DOI, grab the PDF, and drop it in your library — it checks itself off.</p>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;">
+          <div style="display:flex;gap:4px;">${buildChips}</div>
+          <div style="flex:1;"></div>
+          <input data-input="wlSearch" value="${this.esc(s.wlQ||'')}" placeholder="search title / DOI / journal" style="font-size:12.5px;padding:8px 12px;border:1px solid #E2DFDB;border-radius:8px;width:240px;outline:none;">
+          <span class="mono" style="font-size:11.5px;color:rgba(26,29,36,0.5);">${rows.length} of ${s.wlTotal||0}</span>
+        </div>
+        ${body}
+      </div>
+    </div>`;
+  },
+
+  loadWishlist() {
+    this.state.wlLoading = true; this.state.wlError = false;
+    const b = this.state.wlBuild || 'all';
+    fetch(`/api/wishlist?build=${encodeURIComponent(b)}`)
+      .then(r => r.json())
+      .then(d => { this.state.wishlist = d.entries || []; this.state.wlTotal = d.total || 0; this.state.wlAllBuilds = d.builds || []; this.state.wlLoading = false; this.render(); })
+      .catch(() => { this.state.wishlist = []; this.state.wlLoading = false; this.state.wlError = true; this.render(); });
+  },
+  wlSetBuild(id) { this.state.wlBuild = id; this.state.wishlist = null; this.render(); },
+  wlSearch(v) { this.state.wlQ = v; this.render(); },
+  wlCopy(doi) {
+    const done = () => this.toastMsg('DOI copied — ' + doi);
+    try { navigator.clipboard.writeText(doi).then(done, done); } catch { done(); }
+  },
+  wlMarkHave(id) {
+    fetch('/api/wishlist/mark-have', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ wishlist_id: id }) })
+      .then(r => r.json()).then(() => { this.toastMsg('Marked as have ✓'); this.state.wishlist = null; this.render(); })
+      .catch(() => this.toastMsg('Could not update — is the server running?'));
+  },
+  wlDismiss(id) {
+    fetch('/api/wishlist/dismiss', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ wishlist_id: id }) })
+      .then(r => r.json()).then(() => { this.toastMsg('Dismissed'); this.state.wishlist = null; this.render(); })
+      .catch(() => this.toastMsg('Could not update — is the server running?'));
+  },
+
   otherTab() {
     const s = this.state;
     const other = {
@@ -570,6 +657,7 @@ document.addEventListener('input', (e) => {
 // sets from the server and re-render.
 Object.assign(CL.state, {
   realPresets: [], presetId: null, subject: '', presetsError: false,
+  wishlist: null, wlBuild: 'all', wlQ: '', wlLoading: false, wlError: false, wlTotal: 0, wlAllBuilds: [],
   fromYear: '2000', maxPerQuery: '10', dryRun: false, serp: true,
   run: { active: false, log: [], downloaded: 0, failed: 0, skipped: 0, qIndex: 0, qTotal: 0, currentQuery: '', summary: null },
 });
