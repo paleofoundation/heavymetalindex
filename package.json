@@ -99,7 +99,8 @@
     "library:index": "node tools/library/backfill-identity.mjs",
     "library:snapshot": "node tools/library/snapshot.mjs",
     "wishlist:harvest": "node tools/wishlist/harvest-wishlist.mjs",
-    "wishlist:score": "node tools/wishlist/score-wishlist.mjs"
+    "wishlist:score": "node tools/wishlist/score-wishlist.mjs",
+    "wishlist:watch": "node tools/wishlist/fulfillment-watcher.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",
