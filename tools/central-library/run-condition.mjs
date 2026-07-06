@@ -59,7 +59,7 @@ const opts = {
     else if (ev.type === "query-candidates") process.stdout.write(`     ${ev.found} hits → ${ev.unique} unique\n`)
     else if (ev.type === "download") console.log(`     ↓ ${ev.file}  (${ev.source}·${ev.via})`)
     else if (ev.type === "log" && /error/i.test(ev.msg)) console.error(`     ! ${ev.msg}`)
-    else if (ev.type === "done") console.log(`\n✓ done — downloaded ${ev.stats.downloaded}, skipped ${ev.stats.skipped}, failed ${ev.stats.failed} across ${ev.stats.queries} queries\n  ${ev.outDir}${ev.manifestPath ? "\n  manifest: " + ev.manifestPath : ""}`)
+    else if (ev.type === "done") console.log(`\n✓ done — downloaded ${ev.stats.downloaded}, already-in-corpus ${ev.stats.corpusSkipped || 0}, failed ${ev.stats.failed} across ${ev.stats.queries} queries\n  ${ev.outDir}${ev.manifestPath ? "\n  manifest: " + ev.manifestPath : ""}`)
   },
 }
 

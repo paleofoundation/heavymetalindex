@@ -216,6 +216,16 @@ export async function core(job, keys, log) {
 }
 
 // ─── SerpAPI (Google Scholar engine) ─────────────────────────────────────────
+// Best-effort DOI extraction from arbitrary text. SerpAPI / Serper results carry
+// no DOI field, but a DOI is frequently embedded in the result link, a resource
+// URL, the citation summary, or the snippet. Recovering it lets the download
+// rescue chain (Unpaywall / Europe PMC, both DOI-keyed) resolve a real OA PDF for
+// Google Scholar hits that would otherwise be lost to publisher landing pages.
+function extractDoi(text) {
+  const m = String(text || "").match(/\b10\.\d{4,9}\/[-._;()/:a-z0-9]+/i)
+  return m ? normalizeDoi(m[0].replace(/[).,;]+$/, "")) : ""
+}
+
 export async function serpapi(job, keys, log) {
   if (!keys.serpapi_key) {
     log("serpapi skipped: no SERPAPI_KEY set")
@@ -227,15 +237,23 @@ export async function serpapi(job, keys, log) {
   try {
     const data = await getJson(url, 30000)
     return (data.organic_results || []).map((r) => {
-      const pdfRes = (r.resources || []).find((x) => x.file_format === "PDF") || r.resources?.[0]
+      const resources = r.resources || []
+      const pdfRes = resources.find((x) => x.file_format === "PDF")
+      const doi = extractDoi(
+        [r.link, pdfRes?.link, ...resources.map((x) => x.link), r.publication_info?.summary, r.snippet]
+          .filter(Boolean)
+          .join(" "),
+      )
       return {
         source: "serpapi",
         external_id: r.result_id || "",
         title: r.title || "",
         abstract: r.snippet || "",
-        doi: "",
+        doi, // recovered — unlocks the Unpaywall/Europe PMC rescue for Scholar hits
         year: (r.publication_info?.summary || "").match(/\b(19|20)\d{2}\b/)?.[0] || "",
         author: (r.publication_info?.authors || [])[0]?.name?.split(/\s+/).slice(-1)[0] || "",
+        // Prefer a real PDF resource link; the Scholar landing page (r.link) is
+        // only a last resort (the rescue chain handles it via the recovered DOI).
         oaUrl: pdfRes?.link || r.link || "",
         url: r.link || "",
       }
@@ -270,7 +288,7 @@ export async function serper(job, keys, log) {
         external_id: r.link || "",
         title: r.title || "",
         abstract: r.snippet || "",
-        doi: "",
+        doi: extractDoi([r.link, r.snippet].filter(Boolean).join(" ")),
         year: (r.snippet || "").match(/\b(19|20)\d{2}\b/)?.[0] || "",
         author: "",
         oaUrl: r.link || "",

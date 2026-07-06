@@ -5,7 +5,7 @@
 // so bot-check / landing-page HTML never lands in staging as a .pdf.
 
 import fs from "node:fs"
-import { USER_AGENT, normalizeDoi } from "./util.mjs"
+import { USER_AGENT, normalizeDoi, normalizeTitle } from "./util.mjs"
 
 const EUROPEPMC_GETPDF = "https://europepmc.org/api/getPdf"
 const EUROPEPMC_SEARCH = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
@@ -100,6 +100,43 @@ async function attemptEpmcDownload(epmcUrl, target) {
   return attemptDownload(epmcUrl, target, 40000)
 }
 
+// Fraction of the shorter title's significant words that appear in the other —
+// a cheap guard against Crossref returning a wrong paper for a title query.
+function titleOverlap(a, b) {
+  const words = (s) => new Set(String(s).split(" ").filter((w) => w.length > 3))
+  const aw = words(a), bw = words(b)
+  if (!aw.size || !bw.size) return 0
+  const [small, big] = aw.size <= bw.size ? [aw, bw] : [bw, aw]
+  let hit = 0
+  for (const w of small) if (big.has(w)) hit++
+  return hit / small.size
+}
+
+// Title → Crossref → DOI. For a candidate with a real title but no DOI (Google
+// Scholar / Serper hits), resolve a DOI via a Crossref bibliographic query so
+// the DOI-keyed rescues (Unpaywall / Europe PMC) can then find an OA PDF.
+// Requires a decent title overlap so a loose Crossref match can't mis-attribute.
+async function resolveCrossrefDoiByTitle(title, email) {
+  const t = String(title || "").trim()
+  if (t.length < 12) return ""
+  const url =
+    `https://api.crossref.org/works?query.bibliographic=${encodeURIComponent(t)}` +
+    `&rows=1&select=DOI,title&mailto=${encodeURIComponent(email)}`
+  try {
+    const res = await Promise.race([
+      fetch(url, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" } }),
+      new Promise((_, rej) => setTimeout(() => rej(new Error("crossref-title-timeout")), 12000)),
+    ])
+    if (!res.ok) return ""
+    const item = (await res.json()).message?.items?.[0]
+    if (!item?.DOI) return ""
+    const got = normalizeTitle(Array.isArray(item.title) ? item.title[0] : item.title || "")
+    return got && titleOverlap(got, normalizeTitle(t)) >= 0.6 ? normalizeDoi(item.DOI) : ""
+  } catch {
+    return ""
+  }
+}
+
 // Full download with fallbacks. `candidate` carries { oaUrl, doi }. Returns the
 // final result object plus a `via` field describing which path succeeded.
 export async function downloadWithRescue(candidate, target, email) {
@@ -127,6 +164,27 @@ export async function downloadWithRescue(candidate, target, email) {
       const r3 = await attemptEpmcDownload(epmcUrl, target)
       if (r3.saved) return { ...r3, via: "europepmc", oaUrl: epmcUrl }
       r = r3
+    }
+  }
+
+  // Last resort: recover a DOI from the title via Crossref, then retry the
+  // DOI-keyed rescues. This is what converts Google Scholar hits (no DOI) into
+  // actual downloads instead of losing them at the publisher landing page.
+  if (!doi && candidate.title && !r.saved) {
+    const recovered = await resolveCrossrefDoiByTitle(candidate.title, email)
+    if (recovered) {
+      const upUrl = await resolveUnpaywallPdf(recovered, email)
+      if (upUrl && upUrl !== oaUrl) {
+        const r4 = await attemptDownload(upUrl, target)
+        if (r4.saved) return { ...r4, via: "crossref-title+unpaywall", oaUrl: upUrl, doi: recovered }
+      }
+      const pmcid = await resolveEuropePmcId(recovered)
+      if (pmcid) {
+        const epmcUrl = `${EUROPEPMC_GETPDF}?pmcid=${pmcid}`
+        const r5 = await attemptEpmcDownload(epmcUrl, target)
+        if (r5.saved) return { ...r5, via: "crossref-title+europepmc", oaUrl: epmcUrl, doi: recovered }
+        r = r5
+      }
     }
   }
 

@@ -161,7 +161,7 @@ export async function runFetch(selections, opts) {
         return
       }
       const r = await downloadWithRescue(
-        { oaUrl: cand.oaUrl, doi: cand.doi }, target, keys.contact_email,
+        { oaUrl: cand.oaUrl, doi: cand.doi, title: cand.title }, target, keys.contact_email,
       )
       if (r.saved) {
         stats.downloaded++

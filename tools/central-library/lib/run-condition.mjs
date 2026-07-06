@@ -19,7 +19,9 @@ import path from "node:path"
 import { ADAPTERS } from "../../fetch-app/lib/sources.mjs"
 import { downloadWithRescue } from "../../fetch-app/lib/pdf-fetch.mjs"
 import { loadKeys } from "../../fetch-app/lib/config.mjs"
+import { loadCorpusIndex, loadStagingDoiSlugs } from "../../fetch-app/lib/dedup.mjs"
 import { normalizeDoi, normalizeTitle, slugify, sleep, toCsv } from "../../fetch-app/lib/util.mjs"
+import { researchPullsDir, isLibraryDriveMounted } from "../../lib/library-root.mjs"
 
 const repoRoot = process.cwd()
 const presetsDir = path.join(repoRoot, "tools/central-library/presets")
@@ -153,7 +155,8 @@ export async function runCondition(opts) {
     sources,
     fromYear = 2000,
     toYear = new Date().getFullYear() + 1,
-    maxPerQuery = 10, // per-query download cap (OA-direct first); 0 = no cap
+    maxPerQuery = 15, // per-query download cap (OA-direct first); 0 = no cap
+    dedupeCorpus = true, // skip papers already in the ~23k corpus / staging
     groups = null,
     limitQueries = 0, // 0 = all; >0 caps the number of queries (for quick tests)
     dryRun = false,
@@ -165,9 +168,22 @@ export async function runCondition(opts) {
   if (!subject || !subject.trim()) throw new Error("subject (condition) is required")
 
   const preset = loadPreset(presetId)
-  const outRoot = opts.outRoot
-    ? path.resolve(opts.outRoot)
-    : path.join(process.env.HOME || repoRoot, "Desktop")
+  // Where downloads land: an explicit outRoot wins; otherwise the Intenso
+  // library's research-pulls area (organized by preset). If the drive isn't
+  // plugged in, refuse a real run rather than silently write to the wrong place
+  // (a dry run is allowed for display only).
+  let outRoot
+  if (opts.outRoot) {
+    outRoot = path.resolve(opts.outRoot)
+  } else if (isLibraryDriveMounted()) {
+    outRoot = path.join(researchPullsDir(), slugify(preset.label || preset.id, 60))
+  } else if (dryRun) {
+    outRoot = path.join(process.env.HOME || repoRoot, "Desktop")
+  } else {
+    throw new Error(
+      "HMI-Library drive is not plugged in — plug it in to download into the library, or pass --out <dir>.",
+    )
+  }
   const subjectDir = path.join(outRoot, safeFolder(subject.trim()))
 
   let queries = expandQueries(preset, subject.trim())
@@ -204,7 +220,14 @@ export async function runCondition(opts) {
   if (!dryRun) fs.mkdirSync(subjectDir, { recursive: true })
 
   const manifest = []
-  const stats = { queries: queries.length, found: 0, unique: 0, downloaded: 0, skipped: 0, failed: 0 }
+  const stats = { queries: queries.length, found: 0, unique: 0, downloaded: 0, skipped: 0, failed: 0, corpusSkipped: 0 }
+
+  // Corpus-aware dedup: skip papers already in the ~23k corpus or already in the
+  // manual-fetch staging, so a sweep never re-downloads what we already own.
+  // Reuses the fetch-app corpus index + on-disk staging scan.
+  const corpus = dedupeCorpus ? loadCorpusIndex() : { byDoi: new Set(), byTitle: new Set() }
+  const stagingSlugs = dedupeCorpus ? loadStagingDoiSlugs() : new Set()
+  if (dedupeCorpus) log(`corpus dedup: ${corpus.byDoi.size} DOIs, ${corpus.byTitle.size} titles, ${stagingSlugs.size} staged`)
 
   for (let qi = 0; qi < queries.length; qi++) {
     const { group, query } = queries[qi]
@@ -224,13 +247,26 @@ export async function runCondition(opts) {
     }
     stats.found += raw.length
 
-    // 2) dedupe within this query
+    // 2) dedupe within this query AND against the corpus/staging
     const seen = new Set()
     let unique = []
     for (const c of raw) {
       const k = dedupKey(c)
       if (seen.has(k)) continue
       seen.add(k)
+      if (dedupeCorpus) {
+        const doi = normalizeDoi(c.doi || "")
+        const title = normalizeTitle(c.title || "")
+        const inCorpus =
+          (doi && corpus.byDoi.has(doi)) ||
+          (title && corpus.byTitle.has(title)) ||
+          (doi && stagingSlugs.has(doi.replace(/[^a-z0-9]+/gi, "-")))
+        if (inCorpus) {
+          stats.corpusSkipped++
+          manifest.push({ runId, subject, group, query, decision: "dup:corpus", source: c.source, title: c.title, doi: c.doi, oa_url: c.oaUrl, file: "" })
+          continue
+        }
+      }
       unique.push(c)
     }
     // keep only downloadable candidates (OA url or a DOI to resolve), and put
@@ -273,7 +309,7 @@ export async function runCondition(opts) {
         manifest.push({ runId, subject, group, query, decision: "skip:exists", source: c.source, title: c.title, doi: c.doi, oa_url: c.oaUrl, file: rel })
         return
       }
-      const r = await downloadWithRescue({ oaUrl: c.oaUrl, doi: c.doi }, target, keys.contact_email)
+      const r = await downloadWithRescue({ oaUrl: c.oaUrl, doi: c.doi, title: c.title }, target, keys.contact_email)
       if (r.saved) {
         stats.downloaded++
         manifest.push({ runId, subject, group, query, decision: "downloaded", source: c.source, via: r.via, bytes: r.bytes, title: c.title, doi: c.doi, oa_url: r.oaUrl || c.oaUrl, file: rel })
