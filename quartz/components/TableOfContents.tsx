@@ -141,10 +141,10 @@ export default ((opts?: Partial<Options>) => {
     }
 
     const id = `toc-${numTocs++}`
-    const tocTitle =
-      opts?.title ?? (position === "left" ? "On this page" : i18n(cfg.locale).components.tableOfContents.title)
+    // position === "left" already returned above, so this is the right-rail TOC.
+    const tocTitle = opts?.title ?? i18n(cfg.locale).components.tableOfContents.title
     return (
-      <div class={classNames(displayClass, position === "left" ? "toc toc-left" : "toc")}>
+      <div class={classNames(displayClass, "toc")}>
         <button
           type="button"
           class={fileData.collapseToc ? "collapsed toc-header" : "toc-header"}

@@ -8,7 +8,7 @@ import citeScript from "./scripts/citeSuperscript.inline"
 
 export default (() => {
   const Rail: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
-    const fm = fileData.frontmatter ?? {}
+    const fm = (fileData.frontmatter ?? {}) as Record<string, unknown>
     const updated = fm.updated ? String(fm.updated).slice(0, 10) : undefined
     const corpus =
       (fm as any).n_sources ??

@@ -20,7 +20,9 @@ import * as Component from "./quartz/components";
 // be built inside the function body. A hoisted closure variable would be
 // undefined in the browser and silently break the Explorer. Defined once and
 // shared across both layouts so the hidden set cannot drift between them.
-const primaryNavFilter = (node: { slugSegment: string }) => {
+// Exported (not currently wired to a component) so the curated hidden-set
+// survives noUnusedLocals until the Explorer returns.
+export const primaryNavFilter = (node: { slugSegment: string }) => {
   const hiddenPrimaryNav = new Set([
     "app",
     "about",

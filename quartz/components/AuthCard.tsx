@@ -60,7 +60,7 @@ export default (() => {
           <div class="hmi-auth-or">
             <span>or</span>
           </div>
-          <form class="hmi-auth-form" onsubmit="return false">
+          <form class="hmi-auth-form" {...({ onsubmit: "return false" } as any)}>
             <label class="hmi-auth-field">
               <span>Email</span>
               <input type="email" placeholder="you@example.com" autocomplete="email" />
@@ -94,7 +94,7 @@ export default (() => {
         <div class="hmi-auth-or">
           <span>or</span>
         </div>
-        <form class="hmi-auth-form" onsubmit="return false">
+        <form class="hmi-auth-form" {...({ onsubmit: "return false" } as any)}>
           <div class="hmi-auth-roles">
             {ROLES.map((r) => (
               <label class="hmi-auth-radio">

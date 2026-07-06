@@ -248,22 +248,6 @@ export function renderPage(
   // Auth screens render a single centered card (no hero / snav / rail).
   const isAuth = (slug as string) === "login" || (slug as string) === "signup"
 
-  const LeftComponent = (
-    <div class="left sidebar">
-      {left.map((BodyComponent) => (
-        <BodyComponent {...componentData} />
-      ))}
-    </div>
-  )
-
-  const RightComponent = (
-    <div class="right sidebar">
-      {right.map((BodyComponent) => (
-        <BodyComponent {...componentData} />
-      ))}
-    </div>
-  )
-
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const direction = i18n(cfg.locale).direction ?? "ltr"
   const doc = (
@@ -299,7 +283,9 @@ export function renderPage(
           </div>
         ) : (
         <div id="quartz-root" class={isHome ? "page proof proof-home" : "page proof"}>
+          {/* children array-wrapped: Body's children prop is typed as a list */}
           <Body {...componentData}>
+            {[
             <div class="proof-container">
               <div class="proof-layout">
                 <aside class="snav">
@@ -328,7 +314,8 @@ export function renderPage(
                   ))}
                 </aside>
               </div>
-            </div>
+            </div>,
+            ]}
           </Body>
         </div>
         )}
