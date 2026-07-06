@@ -68,6 +68,13 @@ const server = http.createServer(async (request, response) => {
       return
     }
 
+    // The HMTc product-category catalog (35 categories → 356 subcategories),
+    // so the Product Sweep can be run one product category at a time.
+    if (url.pathname === "/api/matrices" && request.method === "GET") {
+      sendJson(response, loadMatrices())
+      return
+    }
+
     // ── Wishlist: papers the fetch tools wanted but couldn't download ─────────
     if (url.pathname === "/api/wishlist" && request.method === "GET") {
       const build = url.searchParams.get("build") || "all"
@@ -219,6 +226,42 @@ server.listen(port, host, () => {
 function sendJson(response, value) {
   response.writeHead(200, { "cache-control": "no-store", "content-type": "application/json; charset=utf-8" })
   response.end(JSON.stringify(value))
+}
+
+// Read the HMTc taxonomy → a compact catalog for the UI's category picker. A
+// searchTerm is derived from each subcategory name (parentheticals / dashes
+// stripped) so it drops cleanly into the [Matrix] query slot; the full name is
+// kept for display. Cached after first read.
+let _matrices = null
+function loadMatrices() {
+  if (_matrices) return _matrices
+  try {
+    const raw = JSON.parse(fs.readFileSync(resolve("data/taxonomy/hmtc-v2.json"), "utf8"))
+    // Keep the words inside parentheses (powder / liquid / dry are meaningful
+    // distinctions for standards) — just drop the punctuation and the noise word
+    // "general", so "Infant formula (powder)" → "Infant formula powder".
+    const clean = (name) =>
+      String(name)
+        .replace(/[()[\]—–/,]/g, " ")
+        .replace(/\bgeneral\b/gi, " ")
+        .replace(/\s+/g, " ")
+        .trim()
+    const categories = (raw.categories || []).map((c) => ({
+      n: c.n,
+      name: c.name,
+      subcategories: (c.subcategories || []).map((s) => {
+        const name = typeof s === "string" ? s : s.name
+        const slug = typeof s === "string" ? "" : s.slug || ""
+        const searchTerm = clean(name) || (slug ? slug.replace(/-/g, " ") : name)
+        return { name, slug, searchTerm }
+      }),
+    }))
+    const subTotal = categories.reduce((a, c) => a + c.subcategories.length, 0)
+    _matrices = { version: raw.version, categoryCount: categories.length, subcategoryCount: subTotal, categories }
+  } catch (e) {
+    _matrices = { error: String(e.message), categories: [] }
+  }
+  return _matrices
 }
 
 function readRawBody(request, maxBytes) {

@@ -8,19 +8,26 @@
   "note": "Product Sweep Instrument. Use when [Matrix] is a finished product or food category (e.g. \"infant rice cereal\", \"apple juice\", \"dark chocolate\", \"bottled water\").",
   "groups": [
     {
-      "name": "Stack 01 — Occurrence & Concentration (core)",
+      "name": "Stack 01 — Occurrence & Concentration (core, all analytes)",
       "queries": [
         "Heavy metals [Matrix]",
+        "[Matrix] concentration heavy metals",
+        "Occurrence [Matrix] heavy metals",
+        "Dietary intake [Matrix] heavy metals",
+        "[Matrix] monitoring heavy metals",
+        "Total diet study [Matrix]",
+        "Market basket [Matrix]",
         "Lead [Matrix]",
         "Cadmium [Matrix]",
         "Arsenic [Matrix]",
+        "Inorganic arsenic [Matrix]",
         "Mercury [Matrix]",
-        "[Matrix] concentration heavy metals",
-        "Total diet study [Matrix]",
-        "Market basket [Matrix]",
-        "Occurrence [Matrix] heavy metals",
-        "Dietary intake [Matrix] heavy metals",
-        "[Matrix] monitoring heavy metals"
+        "Methylmercury [Matrix]",
+        "Nickel [Matrix]",
+        "Chromium [Matrix]",
+        "Hexavalent chromium [Matrix]",
+        "Aluminum [Matrix]",
+        "Tin [Matrix]"
       ]
     },
     {
@@ -202,19 +209,6 @@
         "[Matrix] Bangladesh arsenic",
         "[Matrix] Latin America metals",
         "[Matrix] Africa heavy metals"
-      ]
-    },
-    {
-      "name": "Stack 16 — Eight-Metal Panel Coverage (core)",
-      "queries": [
-        "Lead [Matrix]",
-        "Cadmium [Matrix]",
-        "Arsenic [Matrix]",
-        "Mercury [Matrix]",
-        "Chromium [Matrix]",
-        "Nickel [Matrix]",
-        "Tin [Matrix] food",
-        "Aluminum [Matrix] food"
       ]
     }
   ]

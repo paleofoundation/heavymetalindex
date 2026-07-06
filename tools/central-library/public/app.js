@@ -353,8 +353,27 @@ const CL = {
     }).join('');
 
     const canRun = subject && !run.active;
+    // Product-category picker (matrix-based presets only): pick an HMTc category →
+    // its subcategories become one-click [Matrix] values. Barrel through standards
+    // one product category at a time.
+    const isMatrix = /matrix/i.test(preset.placeholder || '');
+    let matrixPicker = '';
+    if (isMatrix && s.matrices && s.matrices.categories && s.matrices.categories.length) {
+      const cats = s.matrices.categories;
+      const ci = Math.max(0, Math.min(s.matCat || 0, cats.length - 1));
+      const catOpts = cats.map((c, i) => `<option value="${i}" ${i === ci ? 'selected' : ''}>${this.esc(c.n + '. ' + c.name)}</option>`).join('');
+      const subChips = (cats[ci].subcategories || []).map(sub =>
+        `<button data-act="pickMatrix" data-arg="${this.esc(sub.searchTerm)}" title="${this.esc(sub.name)}" style="font-size:11px;color:${subject === sub.searchTerm ? '#fff' : '#33373F'};background:${subject === sub.searchTerm ? '#8B2A4A' : '#F1EFEC'};border:none;border-radius:5px;padding:5px 8px;cursor:pointer;text-align:left;">${this.esc(sub.name.length > 42 ? sub.name.slice(0, 40) + '…' : sub.name)}</button>`
+      ).join('');
+      matrixPicker = `<div style="margin-bottom:11px;">
+        <div style="font-size:10.5px;color:rgba(26,29,36,0.55);margin-bottom:4px;">Pick a product category (${s.matrices.subcategoryCount} across ${s.matrices.categoryCount})</div>
+        <select data-input="setMatCat" style="width:100%;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:8px 9px;background:#FCFBFA;margin-bottom:8px;cursor:pointer;">${catOpts}</select>
+        <div style="display:flex;flex-direction:column;gap:4px;max-height:190px;overflow-y:auto;">${subChips}</div>
+      </div>`;
+    }
     const runForm = `<div style="border:1px solid #EDEBE8;border-radius:10px;padding:16px;background:#fff;margin-top:6px;">
       <div style="${hd}margin-bottom:9px;">Run for a ${this.esc(preset.subjectLabel || 'Condition').toLowerCase()}</div>
+      ${matrixPicker}
       <input id="cl-subject" data-input="setSubject" value="${this.esc(s.subject || '')}" placeholder="e.g. ${this.esc(preset.example || 'Multiple Sclerosis')}" style="width:100%;font-size:13px;border:1px solid #E2DFDB;border-radius:7px;padding:9px 11px;background:#fff;color:#1A1D24;margin-bottom:10px;">
       <div style="display:flex;gap:9px;margin-bottom:11px;">
         <div style="flex:1;"><div style="font-size:10.5px;color:rgba(26,29,36,0.55);margin-bottom:4px;">From year</div><input id="cl-fromyear" data-input="setFromYear" value="${this.esc(s.fromYear || '2000')}" class="mono" style="width:100%;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:8px 9px;background:#FCFBFA;"></div>
@@ -415,6 +434,15 @@ const CL = {
       <div class="cl-scroll" style="background:#1F2124;padding:12px 15px;max-height:200px;overflow-y:auto;font-family:'IBM Plex Mono',monospace;">${logHtml || '<span style="color:#8FA8AE;font-size:11.5px;">starting…</span>'}</div>
     </div>`;
   },
+
+  loadMatrices() {
+    fetch('/api/matrices')
+      .then(r => r.json())
+      .then(d => { this.state.matrices = d; this.render(); })
+      .catch(() => {});
+  },
+  setMatCat(v) { this.state.matCat = Number(v) || 0; this.render(); },
+  pickMatrix(term) { this.state.subject = term; this.render(); },
 
   // ── real-run actions ─────────────────────────────────────────────────────
   loadPresets() {
@@ -674,12 +702,14 @@ document.addEventListener('click', (e) => {
   if (arg !== null && /^\d+$/.test(arg)) arg = Number(arg);
   if (typeof CL[act] === 'function') CL[act](arg);
 });
-document.addEventListener('input', (e) => {
+function delegateInput(e) {
   const el = e.target;
   const act = el.getAttribute && el.getAttribute('data-input');
   if (!act) return;
   if (typeof CL[act] === 'function') CL[act](el.value);
-});
+}
+document.addEventListener('input', delegateInput);
+document.addEventListener('change', delegateInput); // <select> fires change
 
 // Drag-and-drop of PDFs. preventDefault on dragover+drop is what stops the
 // browser from just opening the dropped PDF (the "opens in Chrome" bug).
@@ -709,8 +739,10 @@ document.addEventListener('drop', (e) => {
 Object.assign(CL.state, {
   realPresets: [], presetId: null, subject: '', presetsError: false,
   wishlist: null, wlBuild: 'all', wlQ: '', wlLoading: false, wlError: false, wlTotal: 0, wlAllBuilds: [],
+  matrices: null, matCat: 0,
   fromYear: '2000', maxPerQuery: '10', dryRun: false, serp: true,
   run: { active: false, log: [], downloaded: 0, failed: 0, skipped: 0, qIndex: 0, qTotal: 0, currentQuery: '', summary: null },
 });
 CL.render();
 CL.loadPresets();
+CL.loadMatrices();
