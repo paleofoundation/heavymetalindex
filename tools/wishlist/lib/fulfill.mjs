@@ -107,8 +107,11 @@ export async function fulfillFile(filePath, { via = "upload" } = {}) {
     }
   }
 
-  // 3) no match → novel paper, hand to the normal sorter
+  // 3) no match → novel paper. Still make it OWNED (index it as have + move to
+  // the inbox for the sorter), so "drop a PDF → it's in my library" holds true
+  // even when the paper wasn't on the wishlist.
   const dest = uniqueDest(inbox, base)
   move(filePath, dest)
+  indexAsHave({ sha, doi, title, dest })
   return { outcome: "novel", title, doi, filed: path.relative(root, dest) }
 }

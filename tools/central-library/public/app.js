@@ -603,24 +603,30 @@ const CL = {
     const pdfs = [...files].filter(f => /\.pdf$/i.test(f.name) || f.type === 'application/pdf');
     if (!pdfs.length) { this.toastMsg('Drop PDF files only.'); return; }
     this.toastMsg(`Processing ${pdfs.length} PDF${pdfs.length > 1 ? 's' : ''}…`);
-    let checked = 0, pending = 0, novel = 0, err = 0;
+    const results = [];
     for (const f of pdfs) {
       try {
         const buf = await f.arrayBuffer();
         const r = await fetch('/api/wishlist/fulfill', { method: 'POST', headers: { 'content-type': 'application/pdf', 'x-filename': f.name }, body: buf });
-        const d = await r.json();
-        if (d.outcome === 'checked-off') checked++;
-        else if (d.outcome === 'pending-confirm') pending++;
-        else if (d.outcome === 'novel') novel++;
-        else err++;
-      } catch { err++; }
+        results.push({ file: f.name, ...(await r.json()) });
+      } catch { results.push({ file: f.name, outcome: 'error', message: 'upload failed' }); }
     }
-    const parts = [];
-    if (checked) parts.push(`${checked} checked off ✓`);
-    if (pending) parts.push(`${pending} to confirm`);
-    if (novel) parts.push(`${novel} filed as new`);
-    if (err) parts.push(`${err} failed`);
-    this.toastMsg(parts.join('  ·  ') || 'Nothing matched');
+    if (results.length === 1) {
+      const r = results[0];
+      const who = (r.title || r.doi || r.file || '').slice(0, 80);
+      if (r.outcome === 'checked-off') this.toastMsg(`✓ Checked off the wishlist — ${who}`);
+      else if (r.outcome === 'pending-confirm') this.toastMsg(`Looks like a wishlist paper but the title differs — confirm with “✓ I have it” on that row.`);
+      else if (r.outcome === 'novel') this.toastMsg(`✓ Added to your library (not on the wishlist) — ${who}`);
+      else this.toastMsg(`Couldn't process ${r.file}: ${r.message || 'error'}`);
+    } else {
+      const n = (o) => results.filter(r => r.outcome === o).length;
+      const parts = [];
+      if (n('checked-off')) parts.push(`${n('checked-off')} checked off ✓`);
+      if (n('pending-confirm')) parts.push(`${n('pending-confirm')} to confirm`);
+      if (n('novel')) parts.push(`${n('novel')} added as new`);
+      if (n('error')) parts.push(`${n('error')} failed`);
+      this.toastMsg(parts.join('  ·  '));
+    }
     this.state.wishlist = null; this.render();
   },
 
