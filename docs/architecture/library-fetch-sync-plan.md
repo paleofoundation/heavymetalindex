@@ -1,9 +1,31 @@
 # Library ⇄ Fetch Sync — unified corpus catalogue, wishlist, and cross-build relevance
 
-Status: PROPOSED (2026-07-06). Author: Claude (Opus 4.8), grounded by a 10-agent
-map+design pass over the actual repo, then hardened by an adversarial review
-(sha256 identity spine, journal write-path, allowlist snapshot lint, reconciled
-build order — all merged below).
+Status: PHASES 1–2 SHIPPED (2026-07-06). Author: Claude (Opus 4.8), grounded by a
+10-agent map+design pass over the actual repo, then hardened by an adversarial
+review (sha256 identity spine, journal write-path, allowlist snapshot lint,
+reconciled build order — all merged below).
+
+**Shipped 2026-07-06** (commits 28288f5d9, 1af9caa07, fd63e9369):
+- Phase 1 — identity index: `tools/library/` {index-db, backfill-identity,
+  snapshot} + `npm run library:index|library:snapshot`. 25,440 have-rows /
+  11,770 DOIs built in ~46s; committed `index-snapshot.jsonl`.
+- Phase 2 — wishlist: `tools/wishlist/` {harvest, score, weights, fulfillment-
+  watcher} + `npm run wishlist:harvest|wishlist:score|wishlist:watch`, and a
+  Wishlist tab in the Heavy Metal Fetch app (ranked cards, click-to-copy DOI,
+  publisher link, mark-have/dismiss; `/api/wishlist*`). 138 open entries; drop-to-
+  check-off verified end-to-end.
+- Deviations from the plan below: the wishlist harvester also consumes the
+  pre-existing gap-driven `wishlist-fetch-audit.csv`; the identity backfill seeds
+  from `triage-manifest.csv` (23,260-paper assembled corpus) since drive
+  filenames are mostly NOT DOI-slugs and the triage sha256 values don't match
+  current drive files; the committed snapshot is `.jsonl` (per-paper diffs).
+- NOT yet built: Phase 1 journal/apply-worker + corpus-root watcher (the
+  one-shot backfill is single-writer so it's deferred), Phases 3–5 (full-text
+  search + auto-tagger, cross-build/coverage/gap-fetch, ReadCube import).
+
+Remaining plan (Phases 3–5) below is unchanged.
+
+---
 
 This is the plan for the system Karen described on 2026-07-06: a wishlist of
 papers Fetch couldn't grab, drop-to-check-off fulfillment, automatic
