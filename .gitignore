@@ -78,3 +78,8 @@ tools/fetch-app/keys.local.json
 # fetch-app per-run audit logs (local; the downloaded PDFs live under raw/ which
 # is already gitignored, so their audit trail is local too)
 data/evidence/fetch-app/
+
+# Library index — rebuildable cache, lives on the HMI-Library drive; never commit
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

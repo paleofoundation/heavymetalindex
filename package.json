@@ -95,7 +95,9 @@
     "runtime:enqueue-discovery": "node tools/runtime/enqueue-discovery.mjs",
     "runtime:run-loop": "node tools/runtime/run-loop.mjs",
     "runtime:drain": "node tools/runtime/run-loop.mjs --drain --verbose",
-    "prepare": "husky"
+    "prepare": "husky",
+    "library:index": "node tools/library/backfill-identity.mjs",
+    "library:snapshot": "node tools/library/snapshot.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",
