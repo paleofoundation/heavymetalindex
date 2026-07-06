@@ -359,6 +359,7 @@ const CL = {
         <div style="flex:1;"><div style="font-size:10.5px;color:rgba(26,29,36,0.55);margin-bottom:4px;">From year</div><input id="cl-fromyear" data-input="setFromYear" value="${this.esc(s.fromYear || '2000')}" class="mono" style="width:100%;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:8px 9px;background:#FCFBFA;"></div>
         <div style="flex:1;"><div style="font-size:10.5px;color:rgba(26,29,36,0.55);margin-bottom:4px;">Max / query</div><input id="cl-maxpq" data-input="setMaxPerQuery" value="${this.esc(s.maxPerQuery || '10')}" class="mono" style="width:100%;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:8px 9px;background:#FCFBFA;"></div>
       </div>
+      <label style="display:flex;align-items:center;gap:7px;font-size:12px;color:#33373F;margin-bottom:8px;cursor:pointer;"><input type="checkbox" data-act="toggleSerp" ${s.serp ? 'checked' : ''}> Google Scholar (SerpAPI) — more results, costs per search</label>
       <label style="display:flex;align-items:center;gap:7px;font-size:12px;color:#33373F;margin-bottom:12px;cursor:pointer;"><input type="checkbox" data-act="toggleDryRun" ${s.dryRun ? 'checked' : ''}> Dry run (search + dedupe, no download)</label>
       <button data-act="startRun" ${canRun ? '' : 'disabled'} style="width:100%;font-size:13px;font-weight:600;color:#fff;background:${canRun ? '#8B2A4A' : '#CBB8BF'};border:none;border-radius:8px;padding:11px;cursor:${canRun ? 'pointer' : 'not-allowed'};">${run.active ? 'Running…' : `Run ${totalQ} queries →`}</button>
       <div style="font-size:11px;color:rgba(26,29,36,0.45);line-height:1.45;margin-top:9px;">Each query → its own folder of deduped PDFs under<br><span class="mono" style="color:#8B2A4A;">~/Desktop/${this.esc(subject || preset.subjectLabel || 'Condition')}/</span></div>
@@ -432,6 +433,7 @@ const CL = {
   setFromYear(v) { this.state.fromYear = v.replace(/[^0-9]/g, ''); this.render(); },
   setMaxPerQuery(v) { this.state.maxPerQuery = v.replace(/[^0-9]/g, ''); this.render(); },
   toggleDryRun() { this.setState({ dryRun: !this.state.dryRun }); },
+  toggleSerp() { this.setState({ serp: !this.state.serp }); },
   startRun() {
     const st = this.state;
     if (!(st.subject || '').trim() || (st.run && st.run.active)) return;
@@ -443,6 +445,9 @@ const CL = {
         presetId: st.presetId, subject: st.subject.trim(),
         fromYear: Number(st.fromYear) || 2000, maxPerQuery: Number(st.maxPerQuery) || 10,
         dryRun: !!st.dryRun,
+        // serp on (default) → omit sources so the engine adds SerpAPI/Serper by
+        // key; serp off → academic databases only.
+        sources: st.serp ? undefined : ['pubmed', 'openalex', 'crossref', 'semanticscholar'],
       }),
     }).then(async (r) => {
       if (!r.ok) throw new Error((await r.text().catch(() => '')) || ('HTTP ' + r.status));
@@ -565,7 +570,7 @@ document.addEventListener('input', (e) => {
 // sets from the server and re-render.
 Object.assign(CL.state, {
   realPresets: [], presetId: null, subject: '', presetsError: false,
-  fromYear: '2000', maxPerQuery: '10', dryRun: false,
+  fromYear: '2000', maxPerQuery: '10', dryRun: false, serp: true,
   run: { active: false, log: [], downloaded: 0, failed: 0, skipped: 0, qIndex: 0, qTotal: 0, currentQuery: '', summary: null },
 });
 CL.render();

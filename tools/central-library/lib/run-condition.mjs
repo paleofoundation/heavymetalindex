@@ -150,7 +150,7 @@ export async function runCondition(opts) {
   const {
     subject,
     presetId = "microbiome-medicine",
-    sources = DEFAULT_SOURCES,
+    sources,
     fromYear = 2000,
     toYear = new Date().getFullYear() + 1,
     maxPerQuery = 10, // per-query download cap (OA-direct first); 0 = no cap
@@ -174,7 +174,20 @@ export async function runCondition(opts) {
   if (groups && groups.length) queries = queries.filter((q) => groups.includes(q.group))
   if (limitQueries > 0) queries = queries.slice(0, limitQueries)
 
-  const activeSources = sources.filter((s) => ADAPTERS[s])
+  // Default sources: the free academic DBs + any SERP source whose key is set
+  // (SerpAPI = Google Scholar, Serper = Google filetype:pdf). The SERP recall
+  // layer is what drives high yield — the original tool leaned on it. Explicit
+  // opts.sources overrides. NOTE: SerpAPI bills per search, so a 130-query
+  // sweep with SerpAPI on = 130 SerpAPI calls.
+  const effectiveSources =
+    sources && sources.length
+      ? sources
+      : [
+          ...DEFAULT_SOURCES,
+          ...(keys.serpapi_key ? ["serpapi"] : []),
+          ...(keys.serper_key ? ["serper"] : []),
+        ]
+  const activeSources = effectiveSources.filter((s) => ADAPTERS[s])
   const log = (msg) => onEvent({ type: "log", msg })
 
   onEvent({
