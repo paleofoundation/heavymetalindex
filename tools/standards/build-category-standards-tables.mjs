@@ -89,25 +89,36 @@ for (const [cat, name] of Object.entries(CATS)) {
       }
       const r = cell.get(`${row.slug}|${metal}`)
       if (!r) { md.push(`| ${metal} | — | no data | — | — | — |`); continue }
-      const p97 = num(r.pooled_p97); const cap = num(r.lowest_regulatory_cap_ppb); const cand = num(r.candidate_value_ppb)
+      const p97 = num(r.pooled_p97); const p90 = num(r.pooled_p90); const cap = num(r.lowest_regulatory_cap_ppb); const cand = num(r.candidate_value_ppb)
       const final = cand ?? (p97 !== null && cap !== null ? Math.min(p97, cap) : (cap ?? p97))
       const sens = (r.sens_band || "").toLowerCase()
       const distinct = num(r.distinct_sources) || 0
       const capBinds = cap !== null && cap <= (p97 ?? Infinity)
+      // Methodology needs_review gate (sensitivity spread >0.50 across parametric
+      // assumptions = "do not ship"): HELD — UNLESS a regulatory cap binds, in which
+      // case the published value is the government limit, not the unstable pool. This
+      // restores the finalization memo's holds (seaweed Pb, shellfish iAs) that the
+      // pre-gate table had silently reversed.
+      if (sens === "needs_review" && !capBinds) {
+        md.push(`| ${metal} | pending | needs-review (spread>0.50) | ${fmt(cap)} | methodology needs_review gate | needs-review |`)
+        continue
+      }
       const rationale = r.rationale_tag_auto || (cap !== null && (p97 === null || cap <= p97) ? "regulatory-alignment" : "literature-baseline")
-      // Corrected grading (Karen 2026-07-21): "firm" requires traceable support —
-      // sensitivity-stable AND (≥3 distinct direct sources OR a binding regulatory
-      // cap). A thin, literature-only pool is provisional, not firm; a cap-bound
-      // value is firm because the government limit is the support. Read-across
-      // support (thin-direct cells defensible via the four-anchor briefing) is not
-      // visible at this layer — those values live in the per-row Standards Briefings.
+      // Grading, hardened after the 2026-07-21 adversarial read:
+      //  firm          = a binding government cap, OR a ≥3-source sensitivity-stable
+      //                  pool with a real upper tail.
+      //  single-source = distinct_sources ≤1 — a point estimate, NOT a percentile.
+      //  provisional   = thin/unstable, or a degenerate tail (p97 ≈ p90 — no real spread).
+      // Read-across support (four-anchor briefing) is not visible at this layer.
+      const degenerate = p90 !== null && p97 !== null && p97 <= p90 * 1.01
       let conf
       if (final === null) conf = "no data"
-      else if (capBinds) conf = "firm"                          // value = the government cap
-      else if (sens === "stable" && distinct >= 3) conf = "firm" // ≥3-source, sensitivity-stable direct pool
-      else if (sens === "no_data") conf = "no data"
-      else conf = "provisional"                                 // thin or unstable literature-only pool
-      const basis = p97 !== null ? `literature P97 ${fmt(p97)}` : (cap !== null ? "cap only" : "—")
+      else if (capBinds) conf = "firm"                           // value = the government cap
+      else if (distinct <= 1) conf = "single-source"             // point estimate, not a distribution
+      else if (degenerate) conf = "provisional"                  // collapsed upper tail
+      else if (sens === "stable" && distinct >= 3) conf = "firm"  // ≥3-source, sensitivity-stable
+      else conf = "provisional"                                  // thin or unstable literature-only
+      const basis = p97 !== null ? `literature P97 ${fmt(p97)}${degenerate ? " (single-value tail)" : ""}` : (cap !== null ? "cap only" : "—")
       md.push(`| ${metal} | ${fmt(final)} | ${basis} | ${fmt(cap)} | ${rationale} | ${conf} |`)
     }
     md.push("")
