@@ -14,6 +14,11 @@ Cross-checks the pooling engine's auto-confidence (`sens_band`→firm, per
 confidently than ground truth allows. No threshold value is changed here; this is
 the reconciliation anchor that makes 'firm' mean 'reconciled', not 'the pool was stable'.
 
+_Scope: this reads the engine's **direct-pool** layer. Thin or no-data pools are NOT
+flagged as conflicts — a thin cell may carry a defensible read-across in the briefing layer
+(the four-anchor chain: empirical / analytical / regulatory / inferential). Only cells the
+engine presents *more* confidently than the adjudication / not-material ground truth count._
+
 **20 HIGH** (engine publishes/firms an adjudicated-away cell) · **3 MEDIUM** (value shown where 'adjudication pending' is honest).
 
 ## HIGH — build-blocking

@@ -45,9 +45,14 @@ every one of the following holds. This is the acceptance gate; it is deliberatel
 
 **Per material (row × analyte) cell:**
 
-1. **Provenance.** The published value is reconstructible from ≥1 named `source_id` whose
-   raw value is in `data/evidence/`, and (for FIRM) from **≥3 distinct sources**. A cell
-   that cannot name its sources is not publishable at any confidence.
+1. **Provenance / traceable support.** The published value is reconstructible from named
+   support a hostile reader can re-derive. That support is **either** a direct pool of
+   **≥3 distinct sources**, **or** — where direct data is thin or absent — a documented
+   **read-across** (the four-anchor chain: empirical parent-species pool, analytical LOQ
+   floor, regulatory exposure framework, inferential matrix chemistry) or explicit priors,
+   each anchor independently citable. Thin direct data is **not** a defect; the methodology
+   delivers standards from all sources, not from one cell's pool alone. The defect is an
+   *unsupported* value: no direct pool **and** no documented read-across **and** no cap.
 2. **Species-correct.** iAs is not substituted by tAs; MeHg is not substituted by tHg;
    Cr-VI is not substituted by total Cr. (This is a live failure — see §3.B. Total arsenic
    is arsenobetaine-dominated in seafood and toxicologically meaningless as a limit.)
@@ -67,7 +72,9 @@ every one of the following holds. This is the acceptance gate; it is deliberatel
 9. **Rationale-tagged.** One of `literature-baseline`, `regulatory-alignment`,
    `precautionary`, `feasibility-driven`. The literature↔final gap is stated, not hidden.
 10. **Honestly graded.** FIRM / THIN-provisional / HELD / BLOCKED is asserted and matches
-    the evidence. A single-source cell labeled "firm" is a defect, not a standard.
+    the evidence. What is a defect is an *unsupported* value labeled "firm" — one with
+    neither an adequate direct pool nor a documented read-across. A thin direct pool carried
+    by a sound four-anchor read-across is legitimately firm (tagged `feasibility-driven`).
 
 **Per category:**
 
@@ -94,7 +101,7 @@ From `hmtc_aggregate_distributions_summary.json` (2026-06-19), **784 cells**:
 | Bucket | Cells | Reading |
 |---|---:|---|
 | READY FOR REVIEW (+ cap applies) | 117 | Poolable now; ~15% |
-| PROVISIONAL: single-source | 217 | One source; honest but thin |
+| PROVISIONAL: single-source | 217 | One *direct* source — many carry a defensible read-across |
 | PROVISIONAL: sensitivity / disagreement | 46 | Unstable across assumptions |
 | BLOCKED: no usable evidence | 384 | ~49% — but see stranding below |
 | BLOCKED: pool inconsistent (mixed units) | 9 | Unit-discipline failure, flagged |
@@ -121,6 +128,19 @@ aggregation-poor.** Half the empty cells are empty because evidence is stranded 
 broken connective tissue — species discipline and slug routing — not because the evidence
 is absent. Recovering stranded evidence is a higher-yield lever than fetching new papers,
 and it is the lever most of the priority categories actually need.
+
+**Caveat (do not over-read the counts).** A thin or empty *direct* cell is not the same as
+an undefensible standard. The briefing layer deliberately supports thin cells by read-across
+across all sources (the four-anchor chain, §1.1) — e.g. a thin direct iAs pool for a matrix
+is still a defensible limit when parent-analyte, regulatory, analytical-floor, and
+matrix-chemistry anchors say the expected value is low. So the raw "217 single-source" and
+"393 no-data" counts overstate the coverage gap: many of those cells carry a defensible
+read-across value the direct-pool counts don't see. Recovery and read-across are
+complementary — recovery *sharpens* a cell, read-across *supports* it when direct data is
+genuinely thin. The reconciliation audit (§3.A, §5.A) reads the engine's *direct-pool* layer
+and is blind to the briefing read-across, so its "thin/no-data" readings must never be read
+as "undefensible"; its valid signal is analyte-validity and adjudication conflicts, which
+read-across does not rescue.
 
 ## §3 — Past failures, classified (grounding vs topology)
 
@@ -167,9 +187,12 @@ on one rice slug). Real values that never reach a cell. **Fix:** the routing lay
 report stranded-with-statistic rows as a work queue (it now does — `stranded_rows_carrying_
 a_statistic: 568`), and slug fixes/page creation must drain it.
 
-**G. Single-source "firm." [T→G]** `canned-seafood` shipped with every cell single-source;
-the engine's confidence label did not encode source count. **Fix:** confidence is a
-function of distinct-source count (§1.1); the QC gate fails "firm" on n<3.
+**G. Unsupported "firm." [T→G]** `canned-seafood` shipped firm cells whose only support was
+a single direct source *and* no documented read-across — and the row was structurally
+defective besides (HELD for dissolution). The defect is *unsupported* firmness, not thinness
+as such: a thin direct pool with a sound four-anchor read-across is defensible (§1.1).
+**Fix:** confidence encodes traceable support (direct depth **and/or** documented
+read-across); the QC gate fails "firm" only when neither is present.
 
 **H. Agent-written extraction corruption ("Kimi," 2026-05-30). [G]** An ingest agent
 produced corrupted extraction rows; recovery required a novelty re-scan and refetch
@@ -245,9 +268,15 @@ sources, not summaries; provenance-audit is build-blocking.
 The temptation under deadline is to pool total-As as a proxy. **Anchor:** species and basis
 are hard fields; a pooled cell with a species mismatch is a build failure, not a warning.
 
-**D. The n-sources anchor.** "Firm" must be a function of distinct-source count, not model
-confidence. **Anchor:** the QC gate fails firm at n<3 and forces THIN-provisional labeling;
-provisional is publishable, "firm" on one source is not.
+**D. The traceable-support anchor.** "Firm" must be a function of *support a hostile reader
+can re-derive*, not of model confidence — and support is direct-pool depth **and/or** a
+documented read-across (§1.1), not distinct-source count alone. **Anchor:** the QC gate fails
+firm only when a value has neither an adequate direct pool nor a documented four-anchor
+read-across nor a binding cap. A thin direct pool with a sound read-across is firm
+(`feasibility-driven`); a value with no traceable support at all is not. This is the honest
+version of the earlier "n<3 fails firm" rule, which conflated thin with undefensible — the
+correction Karen flagged: read-across across all sources is how the index delivers standards
+for genuinely under-studied cells.
 
 **E. The frozen-rules anchor.** The methodology constants (P97/P45, reconstitution factor
 7, the regulatory caps, the clamp-to-cap rule) are exactly the rules an optimizer under
