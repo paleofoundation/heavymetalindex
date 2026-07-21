@@ -14,6 +14,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { loadAdjudication, SUPPRESS, PENDING } from "./adjudication.mjs"
 
 const repoRoot = process.cwd()
 const distPath = path.join(repoRoot, "data/evidence/hmtc_aggregate_distributions.csv")
@@ -38,10 +39,13 @@ function split(line) {
 }
 const num = (v) => { const n = Number(v); return Number.isFinite(n) && String(v).trim() !== "" ? n : null }
 const fmt = (n) => n === null ? "—" : (n >= 100 ? Math.round(n).toString() : n.toFixed(2).replace(/\.?0+$/, ""))
+const shorten = (s) => String(s ?? "").replace(/\s+/g, " ").replace(/\|/g, "/").slice(0, 70)
 
 const dist = fs.existsSync(distPath) ? parseCsv(fs.readFileSync(distPath, "utf8")) : []
 const cell = new Map()
 for (const r of dist) cell.set(`${r.product_slug}|${r.metal_species}`, r)
+// The human adjudication ledger overrides the engine's raw pool verdict.
+const { dispositionFor, notMaterialFor } = loadAdjudication(repoRoot)
 
 // locked rows per category, in hmtc_row order
 function lockedRows(cat) {
@@ -66,13 +70,43 @@ for (const [cat, name] of Object.entries(CATS)) {
     md.push(`| Analyte | HMTc limit (µg/kg) | Basis | Regulatory cap | Rationale | Confidence |`)
     md.push(`| --- | ---: | --- | ---: | --- | --- |`)
     for (const metal of PANEL) {
+      // Reconciliation: the human adjudication ledger and not-material list
+      // override the engine's raw pool verdict. Withdrawn / not-material publish
+      // NO value; held / hold-provisional / review / not-shippable render
+      // "adjudication pending" — never a firm number.
+      const nm = notMaterialFor(row.slug, metal)
+      const adj = dispositionFor(row.slug, metal)
+      const verdict = adj ? adj.klass : null
+      if (nm || (verdict && SUPPRESS.has(verdict))) {
+        const why = nm ? "not-material" : "withdrawn"
+        const note = nm ? shorten(nm.reason) : shorten(adj.flag || adj.reason)
+        md.push(`| ${metal} | — | ${why} | — | ${note} | ${why} |`)
+        continue
+      }
+      if (verdict && PENDING.has(verdict)) {
+        md.push(`| ${metal} | pending | adjudication | — | ${shorten(adj.flag || adj.reason)} | adjudication pending |`)
+        continue
+      }
       const r = cell.get(`${row.slug}|${metal}`)
       if (!r) { md.push(`| ${metal} | — | no data | — | — | — |`); continue }
       const p97 = num(r.pooled_p97); const cap = num(r.lowest_regulatory_cap_ppb); const cand = num(r.candidate_value_ppb)
       const final = cand ?? (p97 !== null && cap !== null ? Math.min(p97, cap) : (cap ?? p97))
       const sens = (r.sens_band || "").toLowerCase()
+      const distinct = num(r.distinct_sources) || 0
+      const capBinds = cap !== null && cap <= (p97 ?? Infinity)
       const rationale = r.rationale_tag_auto || (cap !== null && (p97 === null || cap <= p97) ? "regulatory-alignment" : "literature-baseline")
-      const conf = final === null ? "no data" : (sens === "stable" ? "firm" : sens === "no_data" ? "no data" : "provisional")
+      // Corrected grading (Karen 2026-07-21): "firm" requires traceable support —
+      // sensitivity-stable AND (≥3 distinct direct sources OR a binding regulatory
+      // cap). A thin, literature-only pool is provisional, not firm; a cap-bound
+      // value is firm because the government limit is the support. Read-across
+      // support (thin-direct cells defensible via the four-anchor briefing) is not
+      // visible at this layer — those values live in the per-row Standards Briefings.
+      let conf
+      if (final === null) conf = "no data"
+      else if (capBinds) conf = "firm"                          // value = the government cap
+      else if (sens === "stable" && distinct >= 3) conf = "firm" // ≥3-source, sensitivity-stable direct pool
+      else if (sens === "no_data") conf = "no data"
+      else conf = "provisional"                                 // thin or unstable literature-only pool
       const basis = p97 !== null ? `literature P97 ${fmt(p97)}` : (cap !== null ? "cap only" : "—")
       md.push(`| ${metal} | ${fmt(final)} | ${basis} | ${fmt(cap)} | ${rationale} | ${conf} |`)
     }

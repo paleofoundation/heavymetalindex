@@ -32,6 +32,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import { parseCsv, loadAdjudication } from "./adjudication.mjs"
 
 const repoRoot = process.cwd()
 const args = process.argv.slice(2)
@@ -45,20 +46,8 @@ const readinessPath = path.join(repoRoot, "data/evidence/category-standards-read
 const outMd = path.join(repoRoot, "data/workbench/standards/2026-07-21-standards-reconciliation-audit.md")
 const outCsv = path.join(repoRoot, "data/evidence/standards-reconciliation-conflicts.csv")
 
-// ── dependency-free CSV (same dialect as build-category-standards-tables.mjs) ──
-function split(line) {
-  const out = []; let cur = ""; let q = false
-  for (let i = 0; i < line.length; i++) { const ch = line[i]
-    if (q) { if (ch === '"' && line[i + 1] === '"') { cur += '"'; i++ } else if (ch === '"') q = false; else cur += ch }
-    else { if (ch === '"') q = true; else if (ch === ",") { out.push(cur); cur = "" } else cur += ch } }
-  out.push(cur); return out
-}
-function parseCsv(text) {
-  const lines = text.split(/\r?\n/).filter((l) => l.length)
-  if (!lines.length) return []
-  const H = split(lines[0])
-  return lines.slice(1).map((l) => { const c = split(l); const o = {}; H.forEach((h, i) => (o[h] = c[i] ?? "")); return o })
-}
+// CSV parsing + disposition classification come from the shared adjudication
+// module, so this audit and the tables renderer can never disagree on a ledger row.
 const readCsv = (p) => (fs.existsSync(p) ? parseCsv(fs.readFileSync(p, "utf8")) : [])
 const num = (v) => { const n = Number(v); return Number.isFinite(n) && String(v).trim() !== "" ? n : null }
 const key = (slug, metal) => `${slug}|${metal}`
@@ -70,33 +59,12 @@ if (fs.existsSync(readinessPath)) {
   for (const [cat, v] of Object.entries(r)) for (const row of v.rows || []) slugCat.set(row.slug, cat)
 }
 
-// ── classify an adjudication disposition string into a controlled verdict ──────
-// Ground-truth vocabulary read from standards-outlier-adjudication.csv (2026-06).
-function classify(disp) {
-  const d = (disp || "").trim()
-  const u = d.toUpperCase()
-  if (u.startsWith("WITHDRAWN") || u.startsWith("HELD/WITHDRAWN") || /\bPUBLISH NO\b/.test(u)) return "withdrawn"
-  if (u.startsWith("NOT SHIPPABLE")) return "not-shippable"
-  if (u.startsWith("HOLD")) return "hold-provisional"
-  if (u.startsWith("HELD")) return "held"
-  if (u.startsWith("REVIEW")) return "review"
-  if (u.startsWith("CLEARED")) return "cleared"
-  return "other"
-}
-// verdicts that mean "the engine must not present this cell as a firm/published value"
+// Conflict-severity policy (local to the audit): a cell that must publish NO value
+// at all, vs one that must merely not be labeled FIRM. Classification + ledger
+// loading come from the shared adjudication module.
 const MUST_NOT_PUBLISH = new Set(["withdrawn", "not-shippable"]) // no value at all
 const MUST_NOT_BE_FIRM = new Set(["held", "hold-provisional", "review"]) // pending, not firm
-
-// ── latest adjudication disposition per (slug, metal) ─────────────────────────
-const adjLatest = new Map()
-for (const r of readCsv(adjPath)) {
-  const k = key(r.row_slug, r.metal_species)
-  const prev = adjLatest.get(k)
-  if (!prev || String(r.date) >= String(prev.date)) adjLatest.set(k, r)
-}
-// not-material cells (suppressed: no published value for that matrix/analyte)
-const notMaterial = new Map()
-for (const r of readCsv(nmPath)) notMaterial.set(key(r.row_slug, r.metal_species), r)
+const { dispositionFor, notMaterialFor } = loadAdjudication(repoRoot)
 
 // ── replicate the engine's presented state (build-category-standards-tables.mjs) ─
 function presented(r) {
@@ -116,27 +84,27 @@ for (const r of readCsv(distPath)) {
   const { final, conf } = presented(r)
   const shown = final !== null && conf !== "no data"
 
-  const nm = notMaterial.get(key(slug, metal))
-  const adj = adjLatest.get(key(slug, metal))
-  const verdict = adj ? classify(adj.disposition) : null
+  const nm = notMaterialFor(slug, metal)
+  const adj = dispositionFor(slug, metal)
+  const verdict = adj ? adj.klass : null
 
   // C1 — HIGH: engine shows a value for a WITHDRAWN or NOT-MATERIAL cell
   if (shown && (nm || (verdict && MUST_NOT_PUBLISH.has(verdict)))) {
     conflicts.push({ severity: "HIGH", type: nm ? "shown-but-not-material" : `shown-but-${verdict}`,
       cat, slug, metal, engine_value: final, engine_conf: conf,
-      ground_truth: nm ? `not-material: ${nm.rationale}` : adj.disposition })
+      ground_truth: nm ? `not-material: ${nm.reason}` : adj.reason })
     continue
   }
   // C2 — HIGH: engine labels FIRM a cell the adjudication HELD / HOLD / REVIEW
   if (conf === "firm" && verdict && MUST_NOT_BE_FIRM.has(verdict)) {
     conflicts.push({ severity: "HIGH", type: `firm-but-${verdict}`,
-      cat, slug, metal, engine_value: final, engine_conf: conf, ground_truth: adj.disposition })
+      cat, slug, metal, engine_value: final, engine_conf: conf, ground_truth: adj.reason })
     continue
   }
   // C3 — MEDIUM: engine shows a provisional value where adjudication wants "pending"
   if (shown && verdict && MUST_NOT_BE_FIRM.has(verdict)) {
     conflicts.push({ severity: "MEDIUM", type: `shown-provisional-but-${verdict}`,
-      cat, slug, metal, engine_value: final, engine_conf: conf, ground_truth: adj.disposition })
+      cat, slug, metal, engine_value: final, engine_conf: conf, ground_truth: adj.reason })
   }
 }
 
