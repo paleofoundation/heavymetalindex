@@ -699,54 +699,14 @@ a.hmi-meth-card:hover {
   font-weight: 500;
 }
 
-.hmi-quick-read {
-  background: var(--highlight);
-  border: 1px solid var(--lightgray);
-  border-radius: var(--radius-md);
-  margin: 0 0 1.5rem;
-  padding: 18px 20px;
-}
-
-.hmi-quick-read-label {
-  color: var(--gray);
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  margin-bottom: 0.75rem;
-  text-transform: uppercase;
-}
-
-.hmi-quick-read p {
-  font-size: 14px;
-  line-height: 1.55;
-  margin: 0 0 0.75rem;
-}
-
-.hmi-quick-read ul {
-  margin: 0;
-  padding-left: 1.1rem;
-}
-
-.hmi-quick-read li {
-  margin: 0 0 0.45rem;
-}
-
-.hmi-pill-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin: 0.875rem 0 0;
-}
-
-.hmi-pill {
-  border: 1px solid var(--lightgray);
-  border-radius: 999px;
-  color: var(--darkgray);
-  font-family: var(--codeFont);
-  font-size: 11px;
-  line-height: 1;
-  padding: 6px 8px;
-}
+// Quick Read + pill styling is owned by the proof (proof-design.scss: light
+// burgundy-tint card, burgundy left rule, Inter uppercase label, white
+// burgundy-outlined pills). The earlier heavy versions here (gray --highlight
+// fill, all-round border, monospace pills) were a re-derivation that shadowed
+// the proof because custom.scss @uses proof-design first, so these emitted
+// later and won on equal specificity. Removed so the proof renders verbatim;
+// do not re-add — edit the design in proof-design.scss. The mobile padding
+// tweak below is the only Quick Read rule that stays here.
 
 .hmi-stakeholder-guide {
   background: rgba(139, 42, 74, 0.04);

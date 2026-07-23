@@ -6,9 +6,16 @@
 // The OUTER shell (.hmi-topnav-shell) is emitted by renderPage.tsx as a
 // <header> that is a direct child of <body>, OUTSIDE #quartz-root, so it is
 // NOT constrained by .page's max-width and spans the full viewport. The bar's
-// own content is re-centered to the same max-width as .page via
-// .hmi-topnav-inner, so the wordmark lines up with the left sidebar and the
-// controls line up with the right sidebar.
+// own content is re-centered to the proof grid's max-width (--maxw) via
+// .hmi-topnav-inner, so the wordmark lines up with the left section-nav and
+// the controls line up with the right rail.
+//
+// Typography, colors and metrics are ported VERBATIM from the hmi-real-content
+// proof's .proofnav rules (proof-design.scss, "top nav (white)"): Lora 600
+// burgundy wordmark, Inter 15px links, color-only active/hover states, 68px
+// bar. The hmi-topnav-* markup keeps the responsive burger the static proof
+// never needed; the --burg/--ink/--muted/--line tokens come from the proof's
+// :root block in proof-design.scss.
 
 .hmi-topnav-shell {
   position: sticky;
@@ -16,11 +23,7 @@
   z-index: 1000;
   width: 100%;
   background-color: #ffffff;
-  border-bottom: 1px solid var(--lightgray);
-  // Match the dark theme: keep the bar readable when the page flips to dark.
-  // White stays intentional (brief calls for a white bar), but the hairline
-  // and text tokens come from theme vars so it never goes invisible.
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  border-bottom: 1px solid var(--line, var(--lightgray));
 }
 
 [saved-theme="dark"] .hmi-topnav-shell {
@@ -32,15 +35,17 @@
 }
 
 .hmi-topnav-inner {
-  max-width: calc(#{map.get($breakpoints, desktop)} + 300px);
+  max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0.55rem 2rem;
+  padding: 0 40px;
+  height: 68px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1.5rem;
+  gap: 30px;
 
   @media all and not ($desktop) {
+    height: auto;
     padding: 0.55rem 1rem;
   }
 }
@@ -50,12 +55,12 @@
   display: flex;
   flex-direction: column;
   flex: 0 0 auto;
-  line-height: 1.1;
+  line-height: 1.15;
   background-color: transparent !important; // override a.internal highlight
   padding: 0;
 
-  &:hover .hmi-topnav-wordmark {
-    color: var(--secondary);
+  &:hover {
+    text-decoration: none;
   }
 
   // Clean focus: no default browser box on click; a tidy burgundy ring only on
@@ -64,27 +69,24 @@
     outline: none;
   }
   &:focus-visible {
-    outline: 2px solid var(--secondary);
+    outline: 2px solid var(--burg, var(--secondary));
     outline-offset: 4px;
     border-radius: 4px;
   }
 }
 
 .hmi-topnav-wordmark {
-  font-family: var(--titleFont, var(--headerFont));
-  font-size: 1.15rem;
-  font-weight: $boldWeight;
-  color: #1a1a1a;
-  letter-spacing: -0.01em;
-  transition: color 0.2s ease;
+  font-family: Lora, serif;
+  font-size: 22px;
+  font-weight: $semiBoldWeight;
+  color: var(--burg, var(--secondary));
 }
 
 .hmi-topnav-operator {
-  font-family: var(--bodyFont);
-  font-size: 0.7rem;
+  font-family: Inter, sans-serif;
+  font-size: 11px;
   font-weight: $normalWeight;
-  color: #6b6b6b;
-  margin-top: 0.1rem;
+  color: var(--muted, #6b7280);
 }
 
 // ---- Menu (taxonomy + controls) ----------------------------------------
@@ -101,43 +103,39 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1.25rem;
+  gap: 24px;
 }
 
 .hmi-topnav-controls {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1rem;
+  gap: 20px;
 }
 
 .hmi-topnav-link,
 .hmi-topnav-utility {
-  font-family: var(--headerFont);
-  font-size: 0.92rem;
-  font-weight: $semiBoldWeight;
-  color: #333333;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--ink, #1f2329);
   background-color: transparent;
   padding: 0.2rem 0;
-  border-bottom: 2px solid transparent;
   white-space: nowrap;
-  transition:
-    color 0.2s ease,
-    border-color 0.2s ease;
+  transition: color 0.2s ease;
 
   &:hover {
-    color: var(--secondary);
+    color: var(--burg, var(--secondary));
+    text-decoration: none;
   }
 
   &.active {
-    color: var(--secondary);
-    border-bottom-color: var(--secondary);
+    color: var(--burg, var(--secondary));
   }
 }
 
 .hmi-topnav-utility {
   font-weight: $normalWeight;
-  color: #6b6b6b;
 }
 
 // Account / log in icon (placeholder for the future auth app).
@@ -145,7 +143,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #6b6b6b;
+  color: var(--ink, #1f2329);
   width: 2rem;
   height: 2rem;
   border-radius: 999px;
@@ -160,7 +158,7 @@
   }
 
   &:hover {
-    color: var(--secondary);
+    color: var(--burg, var(--secondary));
     background-color: rgba(0, 0, 0, 0.05);
   }
 }
@@ -169,18 +167,16 @@
 .hmi-topnav-ask {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  font-family: var(--headerFont);
-  font-size: 0.88rem;
+  gap: 6px;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
   font-weight: $semiBoldWeight;
   color: #ffffff;
-  background-color: var(--secondary);
-  padding: 0.35rem 0.8rem;
+  background-color: var(--burg, var(--secondary));
+  padding: 8px 16px;
   border-radius: 999px;
   white-space: nowrap;
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease;
+  transition: background-color 0.2s ease;
 
   & svg {
     stroke: #ffffff;
@@ -188,7 +184,7 @@
 
   &:hover {
     color: #ffffff;
-    background-color: var(--tertiary);
+    background-color: var(--burg-dark, #6f2139);
     & svg {
       stroke: #ffffff;
     }
@@ -203,7 +199,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  color: #333333;
+  color: var(--ink, #333333);
   padding: 0.25rem;
   margin-left: auto;
 }
@@ -216,10 +212,9 @@
 // sidebars would scroll UNDER the bar. Scope these corrections to pages that
 // actually render the bar (body:has(.hmi-topnav-shell)) so nothing else moves.
 //
-// $topSpacing is 6rem and the bar is ~3.5rem tall; we drop the reserved space
-// to a small breathing gap and offset the sticky sidebars by the bar height so
-// they pin just beneath it.
-$hmi-topnav-height: 3.6rem;
+// The bar is 68px tall (the proof's .inner height); offset the sticky
+// sidebars by that height so they pin just beneath it.
+$hmi-topnav-height: 4.25rem;
 
 body:has(.hmi-topnav-shell) {
   & .page > #quartz-body {
@@ -279,7 +274,7 @@ body:has(.hmi-topnav-shell) {
     align-items: stretch;
     gap: 0;
     background-color: #ffffff;
-    border-bottom: 1px solid var(--lightgray);
+    border-bottom: 1px solid var(--line, var(--lightgray));
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
     padding: 0.5rem 1rem 1rem 1rem;
 
@@ -303,17 +298,13 @@ body:has(.hmi-topnav-shell) {
 
   .hmi-topnav-taxonomy {
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--lightgray);
+    border-bottom: 1px solid var(--line, var(--lightgray));
     margin-bottom: 0.5rem;
   }
 
   .hmi-topnav-link {
     width: 100%;
     padding: 0.5rem 0;
-    border-bottom: none;
-    &.active {
-      border-bottom: none;
-    }
   }
 
   .hmi-topnav-ask {
