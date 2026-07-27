@@ -49,6 +49,7 @@ const repoRoot = process.cwd()
 const sourcesDir = path.join(repoRoot, "wiki/sources")
 const outputPath = path.join(repoRoot, "data/evidence/category1_autonomy_extracted_summary.csv")
 const unparseablePath = path.join(repoRoot, "data/evidence/autonomy/extraction-unparseable.csv")
+const unitUnresolvedPath = path.join(repoRoot, "data/evidence/autonomy/extraction-unit-unresolved.csv")
 const reportPath = path.join(repoRoot, `data/evidence/autonomy/extraction-report-${new Date().toISOString().slice(0, 10)}.md`)
 
 const args = parseArgs(process.argv.slice(2))
@@ -100,8 +101,6 @@ const METAL_NORMALIZATION = {
   u: "U", uranium: "U",
 }
 
-main()
-
 function main() {
   const startTime = Date.now()
   fs.mkdirSync(path.dirname(unparseablePath), { recursive: true })
@@ -114,6 +113,7 @@ function main() {
 
   const extractedRows = []
   const unparseable = []
+  const unitUnresolved = []
   let processed = 0
   let pagesWithKeyNumbers = 0
   let pagesWithoutKeyNumbers = 0
@@ -145,7 +145,7 @@ function main() {
 
     // Parse the key numbers block: look for analyte mentions followed by
     // N=X, mean=Y, median=Z, max=W patterns within the same paragraph.
-    const rowsFromPage = parseKeyNumbersBlock(keyNumbersBlock, {
+    const { rows: rowsFromPage, unresolved: unresolvedFromPage } = parseKeyNumbersBlock(keyNumbersBlock, {
       sourceId,
       sourcePage: `wiki/sources/${file}`,
       declaredMetals,
@@ -155,9 +155,11 @@ function main() {
       evidenceTier,
     })
 
+    if (unresolvedFromPage.length > 0) unitUnresolved.push(...unresolvedFromPage)
+
     if (rowsFromPage.length > 0) {
       extractedRows.push(...rowsFromPage)
-    } else {
+    } else if (unresolvedFromPage.length === 0) {
       unparseable.push({
         source_id: sourceId,
         source_page: `wiki/sources/${file}`,
@@ -172,6 +174,7 @@ function main() {
   if (!dryRun) {
     writeCsv(outputPath, extractedRows, OUTPUT_HEADERS)
     writeCsv(unparseablePath, unparseable, ["source_id", "source_page", "declared_metals", "block_preview", "reason"])
+    writeCsv(unitUnresolvedPath, unitUnresolved, ["source_id", "source_page", "metals", "statistic", "raw_value", "sentence", "reason"])
   }
 
   // Report
@@ -188,11 +191,13 @@ function main() {
     `- Pages with \`## Key numbers\` section: ${pagesWithKeyNumbers}`,
     `- Pages without Key numbers section (skipped): ${pagesWithoutKeyNumbers}`,
     `- Structured rows extracted: ${extractedRows.length}`,
+    `- Values stranded (unit unresolved — NOT emitted as ppb): ${unitUnresolved.length}`,
     `- Pages with Key numbers but no parseable values: ${unparseable.length}`,
     ``,
     `## Output`,
     ``,
     `- \`${path.relative(repoRoot, outputPath)}\` — pooling engine consumes this on next run`,
+    `- \`${path.relative(repoRoot, unitUnresolvedPath)}\` — values whose unit could not be determined; stranded for curation, never guessed as ppb`,
     `- \`${path.relative(repoRoot, unparseablePath)}\` — flagged for human curation`,
     ``,
     `## Coverage by metal_species`,
@@ -218,6 +223,7 @@ function main() {
   console.log(`Pages processed: ${processed}`)
   console.log(`Pages with Key numbers: ${pagesWithKeyNumbers}`)
   console.log(`Rows extracted: ${extractedRows.length}`)
+  console.log(`Values stranded (unit unresolved): ${unitUnresolved.length}`)
   console.log(`Pages flagged for human curation: ${unparseable.length}`)
   console.log(`Report: ${path.relative(repoRoot, reportPath)}`)
 }
@@ -240,12 +246,21 @@ function parseKeyNumbersBlock(block, ctx) {
   // guessed — honoring this extractor's stated "ambiguous values are skipped,
   // not guessed" principle, which v0 violated.
   const rows = []
+  const unresolved = []
   const lines = block.split(/\n/)
   // A header line ("**Nickel concentrations by food group:**") sets a metal
   // context that the bulleted values beneath it inherit; without this, splitting
   // the header from its bullets severs the metal from its values and loses the
   // whole list. Context resets on a blank line or the next header.
   let contextMetals = []
+
+  // Block-level sole unit (last-resort resolution): if the whole Key numbers
+  // block uses exactly one unit scale, a bare value inherits it. If the block
+  // mixes scales (or states none), a bare value stays unresolved and is
+  // stranded, never guessed as ppb.
+  const blockUnits = scanUnits(block)
+  const blockScales = new Set(blockUnits.map((u) => unitScale(u.unit)))
+  const blockUnit = blockScales.size === 1 ? blockUnits[0].unit : null
 
   for (const rawLine of lines) {
     const sentence = rawLine.trim()
@@ -269,30 +284,58 @@ function parseKeyNumbersBlock(block, ctx) {
       mentions = [{ canon: contextMetals[0], index: -1 }]
     }
 
-    // Each labeled stat (with its character position) is attributed to the
-    // NEAREST metal mention. This keeps legitimate multi-metal sentences
-    // ("Pb mean 12 ppb, Cd mean 8 ppb" → two correct rows) while fixing v0's
-    // cross-metal bleed ("Fe median 68.80 ... Codex Pb limit" → 68.80 binds to
-    // Fe, not Pb). When a sentence has one metal, every stat binds to it.
     if (labeled.length === 0) continue
+
+    // Resolve each labeled value's unit → ppb, or strand it. A value whose unit
+    // cannot be determined from adjacency, the sentence, or the block is NOT
+    // emitted (the ×1000-low defect came from defaulting exactly these to ppb).
+    const sentenceUnits = scanUnits(sentence)
+    const resolved = []
+    for (const stat of labeled) {
+      const r = resolveUnit(stat, labeled, sentenceUnits, blockUnit)
+      if (!r) {
+        unresolved.push({
+          source_id: ctx.sourceId,
+          source_page: ctx.sourcePage,
+          metals: (uniqInLine.length ? uniqInLine : contextMetals).join(";"),
+          statistic: stat.key,
+          raw_value: String(stat.rawValue),
+          sentence: sentence.slice(0, 200).replace(/\n/g, " "),
+          reason: "unit_unresolved — no unit adjacent, forward, sole-in-sentence, or sole-in-block; value not guessed as ppb",
+        })
+        continue
+      }
+      resolved.push({
+        key: stat.key,
+        value: normalizeToPpb(stat.rawValue, r.unit),
+        index: stat.index,
+        via: r.via,
+        unit: r.unit,
+      })
+    }
+    if (resolved.length === 0) continue
 
     const nMatch = sentence.match(/\b[Nn]\s*=\s*(\d+)|sample size\s*(?:of\s*)?(\d+)/)
     const sentenceN = nMatch ? Number(nMatch[1] || nMatch[2]) : null
     const basis = extractBasis(sentence)
     const jurisdiction = chooseJurisdiction(sentence, ctx.declaredJurisdictions)
 
-    // Group stats by nearest metal.
+    // Group resolved stats by nearest metal. This keeps legitimate multi-metal
+    // sentences ("Pb mean 12 ppb, Cd mean 8 ppb" → two correct rows) while fixing
+    // cross-metal bleed. When a sentence has one metal, every stat binds to it.
     const byMetal = new Map()
-    for (const stat of labeled) {
+    const viaByMetal = new Map()
+    for (const stat of resolved) {
       let nearest = mentions[0]
       let best = Math.abs(stat.index - mentions[0].index)
       for (const m of mentions) {
         const d = Math.abs(stat.index - m.index)
         if (d < best) { best = d; nearest = m }
       }
-      if (!byMetal.has(nearest.canon)) byMetal.set(nearest.canon, {})
+      if (!byMetal.has(nearest.canon)) { byMetal.set(nearest.canon, {}); viaByMetal.set(nearest.canon, new Set()) }
       const slot = byMetal.get(nearest.canon)
       if (slot[stat.key] == null) slot[stat.key] = stat.value // first wins (closest label of its kind)
+      viaByMetal.get(nearest.canon).add(`${stat.key}=${stat.unit}:${stat.via}`)
     }
 
     for (const [metalCanonical, stats] of byMetal) {
@@ -316,15 +359,15 @@ function parseKeyNumbersBlock(block, ctx) {
         unit: "ppb", // everything normalized to ppb in the output
         statistic_scope: sentence.slice(0, 200).replace(/\n/g, " "),
         evidence_fitness_verdict: ctx.evidenceTier === "A" ? "EF-2" : "EF-3",
-        review_state: "autonomy_v1_extracted",
+        review_state: "autonomy_v2_extracted",
         row_fit: "literature_summary_row",
         jurisdiction,
-        extraction_method: "autonomy_v1_line_scoped_nearest_metal",
-        notes: "Auto-extracted; each value bound to its nearest metal mention on its line (header metal context inherited by bulleted values). Validate before promotion.",
+        extraction_method: "autonomy_v2_unit_resolved_nearest_metal",
+        notes: `Auto-extracted; unit resolved via [${[...viaByMetal.get(metalCanonical)].join("; ")}]; value bound to nearest metal mention. Validate before promotion.`,
       })
     }
   }
-  return rows
+  return { rows, unresolved }
 }
 
 function metalMentions(sentence, declaredMetals) {
@@ -370,8 +413,72 @@ function escapeRegex(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 }
 
+// ----- unit resolution (the 2026-06 ×1000-low defect fix) -----
+//
+// v1 captured a unit only when it sat IMMEDIATELY after the number, so
+// "overall mean of 0.119 ± 0.054 mg/kg" lost the mg/kg (it follows the ± SD
+// term) and silently recorded 0.119 ppb instead of 119 ppb — a 1000×-low error
+// that fed straight into the pool. v2 resolves each value's unit from the
+// widest defensible context and, crucially, STRANDS a value whose unit cannot
+// be determined rather than defaulting it to ppb.
+
+// [µμ] matches both the micro-sign (U+00B5, ~10k corpus uses) and the Greek
+// small-letter mu (U+03BC, ~281 uses); a real corpus mixes them and matching
+// only one silently strands the other.
+const UNIT_ALTERNATION =
+  "[µμ]g/kg|ug/kg|mcg/kg|ng/mL|ng/ml|ng/g|ng/L|ng/l|[µμ]g/g|ug/g|[µμ]g/L|ug/l|mg/kg|mg/L|mg/l|ppb|ppm"
+const UNIT_TOKEN_RE = new RegExp(`(?<![A-Za-zµμ])(${UNIT_ALTERNATION})(?![A-Za-z])`, "gi")
+
+function unitScale(unit) {
+  // ppb-equivalent multiplier for a mass/volume concentration unit; null if the
+  // token isn't a unit we can convert (an unknown unit is unresolved, not ppb).
+  if (!unit) return null
+  const u = unit.toLowerCase().replace(/\s+/g, "").replace(/μ/g, "µ") // Greek mu → micro-sign
+  if (["ppb", "µg/kg", "ug/kg", "mcg/kg", "ng/g", "µg/l", "ug/l", "ng/ml"].includes(u)) return 1
+  if (["ppm", "mg/kg", "µg/g", "ug/g", "mg/l"].includes(u)) return 1000
+  if (u === "ng/l") return 0.001
+  return null
+}
+
+function scanUnits(text) {
+  // Every convertible unit token in the text, with its character index.
+  const out = []
+  UNIT_TOKEN_RE.lastIndex = 0
+  let m
+  while ((m = UNIT_TOKEN_RE.exec(text)) !== null) {
+    if (unitScale(m[1]) != null) out.push({ unit: m[1], index: m.index })
+  }
+  return out
+}
+
+function resolveUnit(value, allValues, sentenceUnits, blockUnit) {
+  // Resolution ladder, most-local to least, never guessing:
+  //   1. adjacent    — unit immediately after the number
+  //   2. forward     — nearest unit after this value, before the next labeled
+  //                    value (catches "mean 0.119 ± 0.054 mg/kg")
+  //   3. sole_sentence — the sentence uses exactly one unit scale
+  //   4. block_native  — the whole Key numbers block uses exactly one unit scale
+  //   5. (null)      — unresolved: caller strands it, does NOT emit ppb
+  if (value.adjacentUnit && unitScale(value.adjacentUnit) != null) {
+    return { unit: value.adjacentUnit, via: "adjacent" }
+  }
+  const later = allValues.filter((v) => v.index > value.index).map((v) => v.index)
+  const nextValueIdx = later.length ? Math.min(...later) : Infinity
+  const forward = sentenceUnits
+    .filter((u) => u.index > value.index && u.index < nextValueIdx)
+    .sort((a, b) => a.index - b.index)[0]
+  if (forward) return { unit: forward.unit, via: "nearest_forward" }
+  const scales = new Set(sentenceUnits.map((u) => unitScale(u.unit)))
+  if (scales.size === 1) return { unit: sentenceUnits[0].unit, via: "sole_sentence" }
+  if (blockUnit) return { unit: blockUnit, via: "block_native" }
+  return null
+}
+
 function extractLabeledWithPos(sentence) {
-  // [{key, value(ppb), index}] for each labeled statistic in the sentence.
+  // [{key, rawValue, index, adjacentUnit}] for each labeled statistic. The unit
+  // is NOT applied here; resolution happens in the caller with full sentence +
+  // block context so a unit that follows a "± SD" term is still found instead of
+  // the value silently defaulting to ppb.
   const out = []
   const labelGroups = {
     mean: ["mean", "average"],
@@ -387,13 +494,15 @@ function extractLabeledWithPos(sentence) {
       const re = new RegExp(
         // Number may carry thousands-separator commas: 1,583 / 1,975. Capture the
         // comma group and strip it before Number(), or it truncates to "1".
-        `\\b${label.replace(/\s+/g, "\\s+")}\\b\\s*(?:of\\s+)?(?:=\\s*)?(\\d[\\d,]*(?:\\.\\d+)?)\\s*(ppb|µg/kg|ug/kg|mcg/kg|ng/g|mg/kg|ppm|µg/g|µg/L|ng/mL|ng/L)?`,
+        `\\b${label.replace(/\s+/g, "\\s+")}\\b\\s*(?:of\\s+)?(?:=\\s*)?(\\d[\\d,]*(?:\\.\\d+)?)\\s*(${UNIT_ALTERNATION})?`,
         "ig",
       )
       let m
       while ((m = re.exec(sentence)) !== null) {
-        const value = normalizeToPpb(Number(m[1].replace(/,/g, "")), m[2] || "ppb")
-        if (Number.isFinite(value)) out.push({ key, value, index: m.index })
+        const rawValue = Number(m[1].replace(/,/g, ""))
+        if (Number.isFinite(rawValue)) {
+          out.push({ key, rawValue, index: m.index, adjacentUnit: m[2] || null })
+        }
       }
     }
   }
@@ -407,17 +516,12 @@ function isHeaderish(line) {
 }
 
 function normalizeToPpb(value, unit) {
-  if (!unit) return value
-  const u = unit.toLowerCase().replace(/\s+/g, "")
-  // 1 ppb = 1 µg/kg = 1 ng/g (mass)
-  if (["ppb", "µg/kg", "ug/kg", "mcg/kg", "ng/g"].includes(u)) return value
-  // 1 ppm = 1000 ppb
-  if (["ppm", "mg/kg", "µg/g", "ug/g"].includes(u)) return value * 1000
-  // Liquid-mass approximation (1 L water ≈ 1 kg): treat µg/L as µg/kg
-  if (["µg/l", "ug/l", "ng/ml"].includes(u)) return value
-  if (["ng/l"].includes(u)) return value / 1000
-  // Unknown — return as-is and flag (the row will be reviewable downstream)
-  return value
+  // Single source of truth for the ppb-equivalent multiplier. Callers only pass
+  // a unit that resolveUnit() already confirmed is convertible (unitScale != null),
+  // so an unknown unit here (scale null) is a defensive pass-through, never the
+  // silent ppb default that caused the ×1000-low defect.
+  const s = unitScale(unit)
+  return s == null ? value : value * s
 }
 
 function extractBasis(paragraph) {
@@ -526,3 +630,7 @@ function countBy(arr, keyFn) {
   }
   return c
 }
+
+// Invoked last so all module-level const declarations (UNIT_TOKEN_RE et al.) are
+// initialized before main() runs; function declarations above are hoisted.
+main()
