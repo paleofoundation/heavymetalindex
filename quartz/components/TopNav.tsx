@@ -37,18 +37,9 @@ function isActive(currentSlug: FullSlug, link: TopNavLink): boolean {
   return false
 }
 
-export interface TopNavOptions {
-  /** Override the operator sub-line if the attribution wording changes. */
-  operatorLine?: string
-}
+export interface TopNavOptions {}
 
-const defaultOptions: TopNavOptions = {
-  operatorLine: "Operated by the Institute of Contaminant Standards",
-}
-
-export default ((userOpts?: Partial<TopNavOptions>) => {
-  const opts = { ...defaultOptions, ...userOpts }
-
+export default ((_userOpts?: Partial<TopNavOptions>) => {
   const TopNav: QuartzComponent = (props: QuartzComponentProps) => {
     const { fileData, cfg, displayClass } = props
     const slug = (fileData.slug ?? "index") as FullSlug
@@ -73,9 +64,15 @@ export default ((userOpts?: Partial<TopNavOptions>) => {
     return (
       <div class={classNames(displayClass, "hmi-topnav")}>
         <div class="hmi-topnav-inner">
+          {/*
+            The operator attribution used to sit here as a sub-line under the
+            wordmark. It now lives in the footer's bottom bar (Footer.tsx): it is
+            a provenance statement, not navigation, and putting it in the masthead
+            gave a permanent second line of small print to every page while
+            eating horizontal room in an already-dense bar.
+          */}
           <a class="hmi-topnav-brand" href={baseDir} aria-label={`${wordmark} — home`}>
             <span class="hmi-topnav-wordmark">{wordmark}</span>
-            <span class="hmi-topnav-operator">{opts.operatorLine}</span>
           </a>
 
           <button

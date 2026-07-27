@@ -527,7 +527,22 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
   window.addCleanup(() => document.removeEventListener("pointerdown", outsideClickHandler))
 
   registerEscapeHandler(container, hideSearch)
+
   await fillDocument(data)
+
+  // Replay whatever the visitor has already typed, now that the whole corpus is
+  // indexed. `onType` deliberately does NOT await the fill: FlexSearch indexes
+  // progressively, so querying a partially-built index returns useful hits in
+  // the first second or two, whereas blocking on the complete index means
+  // staring at an empty panel for as long as it takes to ingest the full
+  // contentIndex. The cost of not blocking is that those early results are
+  // computed against an incomplete index and nothing recomputed them, so
+  // someone who landed and typed straight away kept a thin or empty result set
+  // for the rest of the page's life. This re-runs the query once, at the moment
+  // the index is complete.
+  if (searchBar.value.trim().length > 0 && container.classList.contains("active")) {
+    onType({ target: searchBar } as unknown as HTMLElementEventMap["input"])
+  }
 }
 
 /**
@@ -535,25 +550,33 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
  * @param index index to fill
  * @param data data to fill index with
  */
-let indexPopulated = false
-async function fillDocument(data: ContentIndex) {
-  if (indexPopulated) return
-  let id = 0
-  const promises: Array<Promise<unknown>> = []
-  for (const [slug, fileData] of Object.entries<ContentDetails>(data)) {
-    promises.push(
-      index.addAsync(id++, {
-        id,
-        slug: slug as FullSlug,
-        title: fileData.title,
-        content: fileData.content,
-        tags: fileData.tags,
-      }),
-    )
-  }
+// Memoized so every caller awaits the SAME fill rather than re-adding the whole
+// corpus or racing past a fill that is still in flight. `onType` awaits this
+// before querying: the input listener is attached before the index is filled,
+// and filling 3,000+ pages of addAsync is not instant, so a visitor who lands on
+// the page and types straight away used to query an empty index, get zero
+// results, and never see a re-run when the index finally landed. The search
+// looked broken on exactly the first use that matters.
+let fillPromise: Promise<void> | null = null
+function fillDocument(data: ContentIndex): Promise<void> {
+  fillPromise ??= (async () => {
+    let id = 0
+    const promises: Array<Promise<unknown>> = []
+    for (const [slug, fileData] of Object.entries<ContentDetails>(data)) {
+      promises.push(
+        index.addAsync(id++, {
+          id,
+          slug: slug as FullSlug,
+          title: fileData.title,
+          content: fileData.content,
+          tags: fileData.tags,
+        }),
+      )
+    }
 
-  await Promise.all(promises)
-  indexPopulated = true
+    await Promise.all(promises)
+  })()
+  return fillPromise
 }
 
 async function setupSearchForPage(currentSlug: FullSlug) {

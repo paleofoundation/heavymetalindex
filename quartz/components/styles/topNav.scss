@@ -82,12 +82,8 @@
   color: var(--burg, var(--secondary));
 }
 
-.hmi-topnav-operator {
-  font-family: Inter, sans-serif;
-  font-size: 11px;
-  font-weight: $normalWeight;
-  color: var(--muted, #6b7280);
-}
+// .hmi-topnav-operator removed 2026-07-27: the operator attribution moved to
+// the footer bottom bar (Footer.tsx / .site-footer-operator).
 
 // ---- Menu (taxonomy + controls) ----------------------------------------
 .hmi-topnav-menu {

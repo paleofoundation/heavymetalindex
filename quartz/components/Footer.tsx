@@ -114,6 +114,16 @@ export default (() => {
           </nav>
         </div>
         <div class="site-footer-bottom">
+          {/*
+            Operator attribution, moved here from the TopNav masthead sub-line
+            (2026-07-27). This is the one-way operator statement per CLAUDE.md
+            Part 1/Part 2: attribution for who runs the Index, NOT an HMT&C
+            endorsement, and it names no certified brand. The footer is where a
+            reader looks for provenance; the masthead is for navigation.
+          */}
+          <p class="site-footer-operator">
+            Operated by the Institute of Contaminant Standards.
+          </p>
           <p>© {year} Paleo Foundation. Heavy Metal Index is a public reference project.</p>
           <p>Reference only. Not medical, legal, regulatory, or product-certification advice.</p>
         </div>

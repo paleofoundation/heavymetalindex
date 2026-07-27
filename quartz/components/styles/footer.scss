@@ -132,7 +132,10 @@ footer.site-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.18);
   box-sizing: border-box;
   display: flex;
-  gap: 1rem;
+  // Three items now that the operator attribution lives here rather than in the
+  // TopNav masthead; wrap instead of crushing them on narrower viewports.
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1180px;
@@ -142,6 +145,14 @@ footer.site-footer {
 .site-footer-bottom p {
   font-size: 0.78rem;
   line-height: 1.45;
+}
+
+// The operator statement is provenance, so it reads a step above the
+// boilerplate around it and takes its own line.
+.site-footer-operator {
+  flex-basis: 100%;
+  font-weight: 600;
+  opacity: 0.92;
 }
 
 @media all and (max-width: 1100px) {
