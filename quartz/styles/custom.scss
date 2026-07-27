@@ -2125,6 +2125,8 @@ article tbody td > code:only-child {
 .proof-home .proof-main { max-width: none; }
 body[data-slug="index"] .hmi-topnav-shell { margin-bottom: 0; }
 
+.hmi-home-intro,
+.hmi-home-faq,
 .hmi-home-corpus-counter,
 .hmi-home-feature-grid,
 .hmi-home-explore,
@@ -2139,28 +2141,89 @@ body[data-slug="index"] .hmi-topnav-shell { margin-bottom: 0; }
 }
 
 .hmi-home-hero {
-  background: var(--burg);
+  /* Not a flat fill: a diagonal burgundy gradient with a soft off-centre glow
+     gives the band depth. --burg tokens are theme-stable (--secondary flips in
+     dark mode). */
+  background:
+    radial-gradient(120% 140% at 82% 8%, rgba(214, 118, 150, 0.28) 0%, rgba(214, 118, 150, 0) 55%),
+    linear-gradient(135deg, #7e2946 0%, var(--burg) 46%, var(--burg-dark) 100%);
   color: #fff;
   margin: 0 0 3rem;
   padding: 4.25rem max(40px, calc((100% - var(--maxw)) / 2 + 40px)) 3.75rem;
   min-height: 0;
 }
-.hmi-home-hero .hmi-home-kicker { color: rgba(255, 255, 255, 0.72); }
-.hmi-home-hero h1 { color: #fff; }
+.hmi-home-hero .hmi-home-kicker { color: rgba(255, 255, 255, 0.74); }
+/* Lighter than origin's 700 — the big Lora headline was too heavy on burgundy. */
+.hmi-home-hero h1 { color: #fff; font-weight: 500; letter-spacing: -0.01em; }
 .hmi-home-hero p { color: rgba(255, 255, 255, 0.9); }
-/* Action buttons that read on burgundy (origin's primary is burgundy-on-white,
-   which would vanish here). */
-.hmi-home-hero .hmi-home-action-primary {
-  background: #fff;
-  color: var(--burg);
-  border-color: #fff;
-}
-.hmi-home-hero .hmi-home-hero-actions button,
-.hmi-home-hero .hmi-home-hero-actions > a:not(.hmi-home-action-primary) {
-  background: rgba(255, 255, 255, 0.12);
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.42);
-}
+/* The search button was --secondary (identical to the hero fill), so it blended
+   in; darker burgundy makes it read as a distinct control. */
+.hmi-home-hero .hmi-home-search-icon { background: var(--burg-dark); }
+.hmi-home-hero .hmi-home-search.search > .hmi-home-search-button:hover .hmi-home-search-icon { background: #5c1b30; }
 @media (max-width: 700px) {
   .hmi-home-hero { padding-top: 2.75rem; padding-bottom: 2.5rem; }
+}
+
+/* -----------------------------------------------------------
+   Homepage explainer prose + FAQ (answerthis/examine-style
+   content). Both centre inside the un-constrained homepage
+   column via the shared max-width rule above.
+   ----------------------------------------------------------- */
+.hmi-home-intro { margin: 0 0 3.25rem; }
+.hmi-home-intro-inner { max-width: 68ch; }
+.hmi-home-intro-inner h2 {
+  font-family: Lora, serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin: 0 0 0.85rem;
+}
+.hmi-home-intro-inner p {
+  color: var(--darkgray, #373c44);
+  line-height: 1.72;
+  margin: 0 0 1.1rem;
+  font-size: 1.02rem;
+}
+.hmi-home-intro-inner a { color: var(--secondary); }
+
+.hmi-home-faq { margin: 0 0 3.25rem; }
+.hmi-home-faq-inner { max-width: 74ch; }
+.hmi-home-faq-inner > h2 {
+  font-family: Lora, serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin: 0 0 1.25rem;
+}
+.hmi-home-faq .hmi-faq-item {
+  border-bottom: 1px solid var(--lightgray);
+}
+.hmi-home-faq .hmi-faq-item > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 1rem 2rem 1rem 0;
+  position: relative;
+  font-family: Lora, serif;
+  font-size: 1.06rem;
+  font-weight: 600;
+  color: var(--dark);
+}
+.hmi-home-faq .hmi-faq-item > summary::-webkit-details-marker { display: none; }
+.hmi-home-faq .hmi-faq-item > summary::after {
+  content: "+";
+  position: absolute;
+  right: 0.35rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--secondary);
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1;
+}
+.hmi-home-faq .hmi-faq-item[open] > summary::after { content: "\2212"; }
+.hmi-home-faq .hmi-faq-answer { padding: 0 2rem 1.15rem 0; }
+.hmi-home-faq .hmi-faq-answer p {
+  margin: 0;
+  color: var(--darkgray, #373c44);
+  line-height: 1.7;
 }
