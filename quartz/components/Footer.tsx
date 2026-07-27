@@ -59,9 +59,13 @@ export default (() => {
               Public evidence index for heavy metals in foods, ingredients, regulations, and
               source literature.
             </p>
-            <button type="button" class="site-footer-ask" data-ask-index-trigger>
+            {/* Was a `data-ask-index-trigger` button, which askIndex.inline.ts
+                forwards to `.ask-index-button` — a control the AskIndex
+                component would render, except AskIndex is not in any layout. It
+                had been a no-op. /ask is the working surface. */}
+            <a class="site-footer-ask" href="/ask">
               Ask the Index
-            </button>
+            </a>
           </section>
           <nav class="site-footer-nav" aria-label="Footer">
             {footerSections.map((section) => (

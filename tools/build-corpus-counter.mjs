@@ -17,6 +17,9 @@ import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
 
+import { upsertMarkerBlock } from "./lib/upsert-marker-block.mjs"
+import { countMarkdownPages } from "./lib/count-pages.mjs"
+
 const repoRoot = process.cwd()
 const sourcesDir = path.join(repoRoot, "wiki/sources")
 const ingredientsDir = path.join(repoRoot, "wiki/ingredients")
@@ -29,8 +32,12 @@ const homepagePath = path.join(repoRoot, "wiki/index.md")
 
 const beginMarker = "<!-- BEGIN: hmi-corpus-counter -->"
 const endMarker = "<!-- END: hmi-corpus-counter -->"
-const featureBeginMarker = "<!-- BEGIN: hmi-feature-grid -->"
-const featureEndMarker = "<!-- END: hmi-feature-grid -->"
+
+// Where the counter re-installs itself if its markers are ever lost. An explicit
+// comment in the page, not a computed offset into the hero markup — the previous
+// version anchored on `class="hmi-home-hero"`, which silently relocated the block
+// to the bottom of the file the moment the hero was restyled.
+const HERO_END_ANCHOR = "<!-- hmi-home-anchor: after-hero -->"
 
 // Source-type normalization map. The on-disk vocabulary has accumulated
 // spelling drift over time; the counter normalizes to a canonical set so
@@ -165,16 +172,20 @@ if (fs.existsSync(routingAuditPath)) {
 
 const today = new Date().toISOString().slice(0, 10)
 const block = renderBlock(counts, today)
-const featureBlock = renderFeatureGrid(counts)
 
-upsertHomepageBlock(homepagePath, block)
-upsertFeatureGridBlock(homepagePath, featureBlock)
+upsertMarkerBlock(homepagePath, beginMarker, endMarker, block, {
+  // The counter is the one block allowed to self-install: it sits directly under
+  // the hero, and a homepage without it would ship with no corpus scale at all.
+  anchorAfter: HERO_END_ANCHOR,
+})
 console.log(
   `Wrote corpus counter: ${counts.source_pages_total} source pages (${counts.source_peer_reviewed} peer-reviewed, ${counts.source_government} government, ${counts.source_databases_indexed} databases, ${counts.source_evidence_tier_a} A-tier), ${counts.ingredient_pages} ingredients, ${counts.product_pages} products, ${counts.metal_pages} metals, ${counts.regulation_pages} regulations, ${counts.structured_value_records} structured records, ${counts.routing_rows} routing rows, ${counts.jurisdictions_indexed} jurisdictions.`,
 )
 
 function renderBlock(c, refreshDate) {
   return `${beginMarker}
+<section class="hmi-band hmi-band--shade" data-no-cite>
+  <div class="hmi-band-inner">
 <section class="hmi-home-corpus-counter" aria-label="Corpus scope">
   <div class="hmi-home-corpus-counter-label">Corpus indexed</div>
   <dl class="hmi-home-corpus-counter-grid">
@@ -221,6 +232,8 @@ function renderBlock(c, refreshDate) {
   </dl>
   <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: ${refreshDate}. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
 </section>
+  </div>
+</section>
 ${endMarker}`
 }
 
@@ -228,65 +241,7 @@ function fmt(value) {
   return new Intl.NumberFormat("en-US").format(value)
 }
 
-function renderFeatureGrid(c) {
-  return `${featureBeginMarker}
-<section class="hmi-home-feature-grid" aria-label="Heavy Metal Index sections">
-  <div class="hmi-home-feature-card">
-    <span>${fmt(c.product_pages)} pages</span>
-    <h2><a href="products/">Products</a></h2>
-    <p>Risk profiles for infant and child foods, formula, cereals, purees, snacks, and related categories.</p>
-    <div class="hmi-home-card-meta">Consumer-facing categories</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>${fmt(c.ingredient_pages)} pages</span>
-    <h2><a href="ingredients/">Ingredients</a></h2>
-    <p>Ingredient-level profiles for rice, cocoa, fish, vegetables, grains, and formula inputs.</p>
-    <div class="hmi-home-card-meta">Commodity drivers</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>${fmt(c.metal_pages)} pages</span>
-    <h2><a href="metals/">Metals</a></h2>
-    <p>Per-metal summaries for lead, cadmium, arsenic, mercury, nickel, aluminum, chromium, tin, and more.</p>
-    <div class="hmi-home-card-meta">Metal profiles</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>${fmt(c.regulation_pages)} pages</span>
-    <h2><a href="regulations/">Regulations</a></h2>
-    <p>Agency values, action levels, tolerable intakes, and jurisdiction-specific regulatory references.</p>
-    <div class="hmi-home-card-meta">Thresholds and agencies</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>${fmt(c.source_pages_total)} pages</span>
-    <h2><a href="sources/">Sources</a></h2>
-    <p>The source archive behind the index, with linked methods, extracted values, and page cross-references.</p>
-    <div class="hmi-home-card-meta">Traceable evidence</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>Transparency</span>
-    <h2><a href="coverage/">Coverage</a></h2>
-    <p>PRISMA-equivalent literature flow, taxonomy coverage, and what's still pending. The defensibility surface.</p>
-    <div class="hmi-home-card-meta">Editorial standards · methodology</div>
-  </div>
-</section>
-${featureEndMarker}`
-}
 
-function countMarkdownPages(dir, skipFiles) {
-  if (!fs.existsSync(dir)) return 0
-  const skip = new Set(skipFiles)
-  return fs
-    .readdirSync(dir)
-    .filter((file) => file.endsWith(".md") && !skip.has(file))
-    .filter((file) => !file.startsWith("_"))
-    .filter((file) => {
-      // Exclude auto-generated cross-cut pages so the "Regulation pages" /
-      // "Product pages" / etc. counts reflect atomic items, not derived views.
-      const raw = fs.readFileSync(path.join(dir, file), "utf8")
-      const fm = matter(raw).data
-      return fm.auto_generated !== true
-    })
-    .length
-}
 
 function asArray(value) {
   if (Array.isArray(value)) return value
@@ -294,46 +249,5 @@ function asArray(value) {
   return [value]
 }
 
-function upsertHomepageBlock(filePath, block) {
-  if (!fs.existsSync(filePath)) {
-    console.error(`Homepage not found at ${filePath}`)
-    process.exit(1)
-  }
-  const text = fs.readFileSync(filePath, "utf8")
-  const pattern = new RegExp(`${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}`)
 
-  let next
-  if (pattern.test(text)) {
-    // Function replacer: keep `$&`/`$1`/`$'`/`` $` `` in the generated block
-    // literal rather than letting String.replace treat them as backreferences
-    // (the source-legend idempotency bug class).
-    next = text.replace(pattern, () => block)
-  } else {
-    // Insert after the hero section, before the feature grid. If the hero
-    // section isn't where expected, append at the end of the file.
-    const heroEnd = text.indexOf("</section>", text.indexOf('class="hmi-home-hero"'))
-    if (heroEnd >= 0) {
-      const insertAt = heroEnd + "</section>".length
-      next = `${text.slice(0, insertAt)}\n\n${block}\n${text.slice(insertAt)}`
-    } else {
-      next = `${text.trimEnd()}\n\n${block}\n`
-    }
-  }
 
-  if (next === text) return
-  fs.writeFileSync(filePath, next, "utf8")
-}
-
-function upsertFeatureGridBlock(filePath, block) {
-  if (!fs.existsSync(filePath)) return
-  const text = fs.readFileSync(filePath, "utf8")
-  const pattern = new RegExp(`${escapeRegExp(featureBeginMarker)}[\\s\\S]*?${escapeRegExp(featureEndMarker)}`)
-  if (!pattern.test(text)) return
-  const next = text.replace(pattern, () => block)  // literal replacement, no $-backreference interpretation
-  if (next === text) return
-  fs.writeFileSync(filePath, next, "utf8")
-}
-
-function escapeRegExp(value) {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-}

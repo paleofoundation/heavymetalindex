@@ -32,23 +32,32 @@
 /* cross-reference counts group inside the snav */
 .snav .snav-counts { display: block; }
 
-/* homepage opts out of the 3-col grid: full-width hero, no snav/rail/title */
+/* homepage opts out of the 3-col grid: full-bleed bands, no snav/rail/title.
+   The column is un-constrained here so each .hmi-band can span the viewport;
+   .hmi-band-inner re-centers the content to --maxw (see home.scss). Doing it
+   this way rather than with a 100vw negative-margin trick avoids the scrollbar
+   overflow that 100vw causes on Windows. */
 .proof-home .snav, .proof-home .rail, .proof-home .page-header { display: none; }
 .proof-home .proof-layout { display: block; }
-.proof-home .proof-main { max-width: var(--maxw); margin: 0 auto; }
+.proof-home .proof-container { max-width: none; padding: 0; }
+.proof-home .proof-layout { padding: 0; }
+.proof-home .proof-main { max-width: none; margin: 0; }
 .proof-home .wiki-content { font-size: 16px; }
+/* The generic "See also" block is page-to-page apparatus; on the landing page it
+   renders as an unlabelled link list under the bands. */
+.proof-home .page-footer { display: none; }
 
 /* No pill on any internal link anywhere in the build, default OR hover —
    overrides the Quartz base a.internal / tag-link background. */
-a.internal,
-a.internal.tag-link {
+a.internal:not(.hmi-chip),
+a.internal.tag-link:not(.hmi-chip) {
   background: none !important;
   border-radius: 0 !important;
   padding: 0 !important;
 }
-a.internal:hover,
-a.internal:focus,
-a.internal.tag-link:hover {
+a.internal:not(.hmi-chip):hover,
+a.internal:not(.hmi-chip):focus,
+a.internal.tag-link:not(.hmi-chip):hover {
   background: none !important;
 }
 

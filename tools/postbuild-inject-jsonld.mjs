@@ -33,6 +33,8 @@ import matter from "gray-matter"
 import { answerTripsFirewall } from "./lib/faq-firewall-guard.mjs"
 
 const repoRoot = process.cwd()
+const FAQ_CATEGORIES = new Set(["metals", "index"]) // metals-first rollout + the homepage
+
 const publicDir = path.join(repoRoot, "public")
 const wikiDir = path.join(repoRoot, "wiki")
 
@@ -95,6 +97,113 @@ let injected = 0
 let alreadyHasBlock = 0
 let skippedNoHtml = 0
 
+// ---------------------------------------------------------------------------
+// The homepage. The category loop below skips index.md by construction, so
+// before this the site's most-linked page carried no structured data at all.
+//
+// The Organization object deliberately declares NO parentOrganization,
+// subOrganization or memberOf. Per docs/architecture/cross-site-seo-wiring.md
+// §1 the Index sits outside the certification org tree on purpose — its
+// independence is the argument the whole property rests on, and a graph edge to
+// the certifier would hand that away in machine-readable form. The other
+// properties in the group DO declare those edges, so the asymmetry reads as an
+// oversight to anyone tidying up later; the assertion below makes it enforced
+// rather than merely commented.
+// ---------------------------------------------------------------------------
+function injectHomepage() {
+  const htmlPath = path.join(publicDir, "index.html")
+  if (!fs.existsSync(htmlPath)) return "no index.html"
+  let html = fs.readFileSync(htmlPath, "utf8")
+  if (html.includes("HMI-JSONLD-START")) return "already present"
+
+  const fm = matter(fs.readFileSync(path.join(wikiDir, "index.md"), "utf8")).data
+  const SITE = "https://heavymetalindex.com"
+  const orgId = `${SITE}/#organization`
+  const siteId = `${SITE}/#website`
+
+  const organization = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": orgId,
+    name: "Heavy Metal Index",
+    url: `${SITE}/`,
+    description:
+      "A public reference on heavy metals in food, ingredients, consumer-product categories, and regulation, compiled from peer-reviewed and regulatory literature.",
+    publisher: PUBLISHER,
+    founder: AUTHOR,
+  }
+
+  if (/parentOrganization|subOrganization|memberOf/.test(JSON.stringify(organization))) {
+    console.error(
+      "postbuild-inject-jsonld: the homepage Organization declares a parent/sub/member edge.",
+    )
+    console.error(
+      "  The Index is deliberately outside the certification org tree — see" +
+        " docs/architecture/cross-site-seo-wiring.md §1. Remove the edge.",
+    )
+    process.exit(1)
+  }
+
+  const website = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": siteId,
+    name: "Heavy Metal Index",
+    url: `${SITE}/`,
+    inLanguage: "en",
+    publisher: { "@id": orgId },
+    // Honoured by the hero's ?q= handler (homeSearch.inline.ts) — not an
+    // aspirational template.
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE}/?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  }
+
+  const collection = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${SITE}/#webpage`,
+    url: `${SITE}/`,
+    name: fm.title ?? "Heavy Metal Index",
+    description: fm.description ?? undefined,
+    isPartOf: { "@id": siteId },
+    publisher: PUBLISHER,
+    license: `${SITE}/licensing`,
+    dateModified: fm.updated ? String(fm.updated) : undefined,
+    hasPart: [
+      { "@type": "CollectionPage", name: "Metals", url: `${SITE}/metals` },
+      { "@type": "CollectionPage", name: "Ingredients", url: `${SITE}/ingredients` },
+      { "@type": "CollectionPage", name: "Products", url: `${SITE}/products` },
+      { "@type": "CollectionPage", name: "Regulations", url: `${SITE}/regulations` },
+      { "@type": "CollectionPage", name: "Sources", url: `${SITE}/sources` },
+    ],
+  }
+
+  const objects = [organization, website, collection]
+  const faq = buildFaqPage("index", "", html, `${SITE}/`)
+  if (faq) objects.push(faq)
+
+  const block =
+    `<!-- HMI-JSONLD-START -->\n` +
+    objects
+      .map((obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`)
+      .join("\n") +
+    `\n<!-- HMI-JSONLD-END -->`
+
+  const next = html.includes("</head>")
+    ? html.replace("</head>", `${block}\n</head>`)
+    : `${html}\n${block}`
+  fs.writeFileSync(htmlPath, next, "utf8")
+  return `${objects.length} object(s)${faq ? " incl. FAQPage" : ""}`
+}
+
+const homepageResult = injectHomepage()
+
 for (const [category, meta] of Object.entries(TYPE_MAP)) {
   const wikiCatDir = path.join(wikiDir, category)
   if (!fs.existsSync(wikiCatDir)) continue
@@ -149,6 +258,7 @@ console.log(`postbuild-inject-jsonld:`)
 console.log(`  injected:        ${injected}`)
 console.log(`  already-present: ${alreadyHasBlock}`)
 console.log(`  no-html-output:  ${skippedNoHtml}`)
+console.log(`  homepage:        ${homepageResult}`)
 
 function findHtmlOutput(category, slug) {
   // Quartz emits either public/<category>/<slug>.html or public/<category>/<slug>/index.html
@@ -296,11 +406,11 @@ function citationEdgesFromHtml(html) {
 // derived HMTc value / P-value can never reach the structured layer even if a
 // stale block predates the generator's guard. Firewall-tripping items are
 // dropped (Part 2: skip honestly), not softened.
-function buildFaqPage(category, slug, html) {
-  if (category !== "metals") return null // metals-first rollout
+function buildFaqPage(category, slug, html, pageUrlOverride) {
+  if (!FAQ_CATEGORIES.has(category)) return null
   if (!html || !html.includes('data-hmi-faq')) return null
 
-  const pageUrl = `https://heavymetalindex.com/${category}/${slug}`
+  const pageUrl = pageUrlOverride ?? `https://heavymetalindex.com/${category}/${slug}`
   const items = extractAccordionItems(html)
   const mainEntity = []
   for (const it of items) {

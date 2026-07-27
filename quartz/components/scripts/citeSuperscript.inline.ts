@@ -59,6 +59,15 @@ function applyCiteSuperscripts() {
   const content = document.querySelector(".wiki-content")
   if (!content) return
 
+  // Landing surfaces carry no citation apparatus, and their links to corpus hubs
+  // are navigation rather than citations. Without this, the homepage's six
+  // `href="sources/"` links match `a[data-slug^="sources/"]` and get replaced by
+  // bare "[1]" superscripts — which is what ate the "Sources" card heading
+  // before the References list existed. The empty-refs check below is not a
+  // guard for that case; it only happens to bail today because the homepage has
+  // no reference list yet.
+  if ((document.body.dataset.slug ?? "") === "index") return
+
   const refs = indexReferences(content)
   if (refs.size === 0) return
 
@@ -69,6 +78,9 @@ function applyCiteSuperscripts() {
     if (a.closest("sup.cite")) return
     if (a.closest("#references, .ref-list")) return
     if (a.closest("table")) return
+    // Generated navigation/landing blocks opt out explicitly, so the guard
+    // travels with the markup if one is ever reused on a non-index slug.
+    if (a.closest("[data-no-cite]")) return
     const slug = a.getAttribute("data-slug") || ""
     const ref = refs.get(slug)
     if (!ref) return

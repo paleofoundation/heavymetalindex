@@ -94,6 +94,7 @@ const PUBLIC_DIRS = [
   "wiki/certification",
   "wiki/synthesis",
 ]
+const HOMEPAGE = "wiki/index.md"
 const SKIP_PATTERNS = [
   /\/index\.md$/,
   /\/batch-reports\//,
@@ -342,6 +343,11 @@ function snippetAround(text, idx) {
 // ---- run -------------------------------------------------------------------
 checkStructural()
 for (const dir of PUBLIC_DIRS) scanDir(path.join(repoRoot, dir))
+// The homepage is not under any PUBLIC_DIRS entry, and SKIP_PATTERNS drops
+// index.md everywhere. It now carries generated evidence content (change feed,
+// FAQ, corpus counts) and is the most-linked public URL on the property, so it
+// is scanned explicitly rather than left in the blind spot.
+scanMarkdown(path.join(repoRoot, HOMEPAGE), HOMEPAGE)
 if (HTML_DIR) scanHtml(path.resolve(repoRoot, HTML_DIR))
 
 // ---- report ----------------------------------------------------------------
