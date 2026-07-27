@@ -189,13 +189,13 @@ Soy-based infant formula ([[products/infant-formula-powder-soy-based]] and [[pro
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [378d999f9](https://github.com/paleofoundation/heavymetalindex/commit/378d999f9) | 2026-05-17 | minor | Narrative text revised |
 | [127aa8d17](https://github.com/paleofoundation/heavymetalindex/commit/127aa8d17) | 2026-05-17 | major | 5 sources added; narrative text revised |
-| [f907793bb](https://github.com/paleofoundation/heavymetalindex/commit/f907793bb) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

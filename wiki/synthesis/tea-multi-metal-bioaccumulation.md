@@ -107,10 +107,11 @@ The 11 works cited in this page's text, numbered in the order the citations appe
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [03c78fff0](https://github.com/paleofoundation/heavymetalindex/commit/03c78fff0) | 2026-06-08 | major | 11 sources added; 11 sections added; narrative text revised |

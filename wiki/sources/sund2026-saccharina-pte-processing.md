@@ -63,7 +63,7 @@ The DOI was minted with a 2025 identifier and the PDF was published online in 20
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |

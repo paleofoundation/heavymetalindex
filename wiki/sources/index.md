@@ -43,13 +43,13 @@ The folder list below is the public source catalog. For faster lookup, use searc
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added |
 | [3114d3e7e](https://github.com/paleofoundation/heavymetalindex/commit/3114d3e7e) | 2026-05-08 | major | 1 source added; narrative text revised |
 | [a1d190ebe](https://github.com/paleofoundation/heavymetalindex/commit/a1d190ebe) | 2026-05-08 | major | 1 source added; 1 section added; narrative text revised |
 | [24613ae47](https://github.com/paleofoundation/heavymetalindex/commit/24613ae47) | 2026-05-07 | major | 1 source added; 1 section added; narrative text revised |
 | [cf6583dc8](https://github.com/paleofoundation/heavymetalindex/commit/cf6583dc8) | 2026-05-02 | major | 1 source added; 1 section added; narrative text revised |
-| [48511e9c2](https://github.com/paleofoundation/heavymetalindex/commit/48511e9c2) | 2026-05-02 | major | 3 sources added; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -43,13 +43,13 @@ The work cited in this page's text, numbered in the order the citations appear. 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [4f2cde4d1](https://github.com/paleofoundation/heavymetalindex/commit/4f2cde4d1) | 2026-05-17 | major | 1 source removed; contamination-profile values revised; narrative text revised |
 | [3d34b33a9](https://github.com/paleofoundation/heavymetalindex/commit/3d34b33a9) | 2026-04-30 | major | 1 source added; narrative text revised |
-| [867480317](https://github.com/paleofoundation/heavymetalindex/commit/867480317) | 2026-04-29 | major | 2 sources added; contamination-profile values revised; 1 section added |
 <!-- END: hmi-page-history -->
