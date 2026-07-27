@@ -64,6 +64,23 @@ function getComponentResources(ctx: BuildCtx): ComponentResources {
   }
 }
 
+// Does any component in this build contribute a beforeDOMReady script?
+//
+// Only Darkmode and ReaderMode define `beforeDOMLoaded`, and neither is in
+// quartz.layout.ts (the site is light-only), so prescript.js was being emitted
+// as a 0-byte file that every page still requested via a render-blocking
+// <script src> in <head>. Callers use this to skip both the file and the tag.
+// Memoized per build: the answer depends only on the emitter set, which is
+// fixed for a given ctx.
+const beforeDOMCache = new Map<string, boolean>()
+export function hasBeforeDOMScripts(ctx: BuildCtx): boolean {
+  const cached = beforeDOMCache.get(ctx.buildId)
+  if (cached !== undefined) return cached
+  const has = getComponentResources(ctx).beforeDOMLoaded.length > 0
+  beforeDOMCache.set(ctx.buildId, has)
+  return has
+}
+
 async function joinScripts(scripts: string[]): Promise<string> {
   // wrap with iife to prevent scope collision
   const script = scripts.map((script) => `(function () {${script}})();`).join("\n")
@@ -354,12 +371,17 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
         }).code.toString(),
       })
 
-      yield write({
-        ctx,
-        slug: "prescript" as FullSlug,
-        ext: ".js",
-        content: prescript,
-      })
+      // Skip the file entirely when there is nothing to run before DOM ready;
+      // renderPage drops the matching <script src> under the same condition, so
+      // the two never disagree and no page requests a 0-byte asset.
+      if (prescript.length > 0) {
+        yield write({
+          ctx,
+          slug: "prescript" as FullSlug,
+          ext: ".js",
+          content: prescript,
+        })
+      }
 
       yield write({
         ctx,

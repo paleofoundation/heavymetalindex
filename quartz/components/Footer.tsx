@@ -40,7 +40,9 @@ const footerSections = [
       ["Privacy Notice", "/privacy"],
       ["Terms", "/terms"],
       ["Licensing", "/licensing"],
-      ["Staff", "/staff"],
+      // /staff is a middleware 302 to /staff/login for anyone without a session
+      // (middleware.ts), so link the destination directly and skip the hop.
+      ["Staff", "/staff/login"],
     ],
   },
 ]

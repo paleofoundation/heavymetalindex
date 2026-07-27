@@ -1,4 +1,5 @@
 ---
+title: Testing
 type: section-index
 status: stub
 section: testing

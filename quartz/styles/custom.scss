@@ -170,12 +170,12 @@ article {
   color: var(--darkgray);
 }
 
-/* Quartz renders the main page heading as h1.article-title in
+/* Quartz renders the main page heading as p.article-title in
    .page-header, OUTSIDE the <article> wrapper. We have to match
-   both selectors so per-page h1s and the page-title h1 share
+   both selectors so per-page h1s and the page title share
    the same scale. */
 article h1,
-h1.article-title {
+.article-title {
   font-size: var(--text-3xl);
   font-weight: 600;
   line-height: 1.15;
@@ -204,24 +204,11 @@ article h3 {
   margin: 1.5rem 0 0.5rem;
 }
 
-/* The page title is rendered once in the page header (ArticleTitle). Pages
-   whose markdown also opens with an `# H1` of the same title would show it
-   twice, so the duplicate leading H1 is hidden across the reference page
-   types. */
-body[data-slug^="products/"] article > h1:first-child,
-body[data-slug^="ingredients/"] article > h1:first-child,
-body[data-slug^="metals/"] article > h1:first-child,
-body[data-slug^="synthesis/"] article > h1:first-child,
-body[data-slug^="regulations/"] article > h1:first-child,
-body[data-slug^="mitigation/"] article > h1:first-child,
-body[data-slug^="supply-chain/"] article > h1:first-child,
-body[data-slug^="testing/"] article > h1:first-child,
-body[data-slug^="microbiome/"] article > h1:first-child,
-body[data-slug^="health/"] article > h1:first-child,
-body[data-slug^="sources/"] article > h1:first-child,
-body[data-slug^="advisory/"] article > h1:first-child {
-  display: none;
-}
+/* The leading duplicate H1 used to be hidden here with a hand-maintained
+   allowlist of slug prefixes: it covered eleven sections, missed every other
+   one, and left the duplicate in the DOM regardless. The heading is now removed
+   from the mdast at build time by Plugin.TitleHeading (quartz/plugins/
+   transformers/titleHeading.ts), so no CSS mitigation is needed. */
 
 article p {
   margin: 0 0 0.875rem;

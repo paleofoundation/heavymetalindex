@@ -163,6 +163,75 @@
   }
 }
 
+// Global search control. The markup is Quartz's Search DOM rendered inline by
+// TopNav.tsx (see the comment there for why it is not a nested component); only
+// the trigger needs bar-specific styling, because search.scss already renders
+// the results overlay as a full-viewport fixed layer.
+.search.hmi-topnav-search {
+  flex: 0 0 auto;
+  min-width: 0;
+  max-width: none;
+
+  & > .search-button {
+    height: 34px;
+    width: auto;
+    padding: 0 12px 0 6px;
+    gap: 2px;
+    border-radius: 999px;
+    border-color: var(--line, var(--lightgray));
+    transition:
+      border-color 0.2s ease,
+      background-color 0.2s ease;
+
+    & > p {
+      font-family: Inter, sans-serif;
+      font-size: 15px;
+      font-weight: $normalWeight;
+      color: var(--muted, var(--gray));
+      margin: 0;
+    }
+
+    & svg {
+      width: 16px;
+      min-width: 16px;
+      margin: 0 0.35rem;
+    }
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.03);
+      border-color: var(--burg, var(--secondary));
+
+      & > p {
+        color: var(--burg, var(--secondary));
+      }
+
+      & .search-path {
+        stroke: var(--burg, var(--secondary));
+      }
+    }
+  }
+
+  // The bar is already dense: wordmark plus eight taxonomy links plus the Ask
+  // pill, About, and the account icon leave roughly 100px of slack at 1440px,
+  // and a labelled search pill is about 130px wide. Collapse to icon-only below
+  // 1500px so the row never overflows into a horizontal page scrollbar. Bounded
+  // below by the desktop breakpoint: under it the bar becomes the burger menu,
+  // where the search renders full-width and keeps its label.
+  @media (min-width: 1200px) and (max-width: 1500px) {
+    & > .search-button {
+      padding: 0 4px;
+
+      & > p {
+        display: none;
+      }
+
+      & svg {
+        margin: 0 0.3rem;
+      }
+    }
+  }
+}
+
 // "Ask the Index" pill launcher.
 .hmi-topnav-ask {
   display: inline-flex;
@@ -309,5 +378,15 @@ body:has(.hmi-topnav-shell) {
 
   .hmi-topnav-ask {
     align-self: flex-start;
+  }
+
+  .search.hmi-topnav-search {
+    width: 100%;
+    margin-bottom: 0.5rem;
+
+    & > .search-button {
+      width: 100%;
+      justify-content: flex-start;
+    }
   }
 }

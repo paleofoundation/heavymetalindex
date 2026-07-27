@@ -1,4 +1,5 @@
 ---
+title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
@@ -412,7 +413,7 @@ Notes: P4 batch 5 group 3 processed 50 task-list handles (FM_12512870–FM_12517
 Pages touched: [[lint/2026-05-12-routing-triage]] (updated), 9 source pages (products frontmatter)
 Notes: Reclassified the 9 `products: [seafood]` entries from new-page proposal to convention drift. The `products/` namespace is for processed food categories; raw fish/seafood research belongs in `ingredients/`. Removed `products: ["[[products/seafood]]"]` from auzier-guimaraes2025, dogruyol2024, kovacik2024, naz2025, reksten2020, reksten2021, sirisangarunroj2023, taylor2025, uzomah2021. All retain correct ingredient routing. Proposal F (`products/seafood.md`) from pass 2 is withdrawn. Remaining 35 entries are 5 above-threshold ingredient new-page proposals pending Karen's approval: cereals (8 sources), freshwater-fish (9), shellfish (6), breastmilk (6), quinoa (6).
 
-# Heavy Metal Index — Change Log
+## Log format
 
 Append-only chronological log of ingests, queries, lints, and schema changes. Each entry follows the format:
 

@@ -10,6 +10,15 @@ import { FullSlug, SimpleSlug, resolveRelative } from "../util/path"
 //
 // DRAFTS for Karen to finalize: the role list, which fields we retain, and the
 // incentive ("carrot") copy. Nothing here is wired to a backend.
+//
+// Because nothing is wired, every control is rendered in an explicitly DISABLED
+// state behind a preview notice, and the working route to access (contact) is
+// given as a real link. A form that accepts a password and silently discards it
+// reads as broken software to the adversarial audience OPERATING.md Part 2 names
+// last, and credibility is the whole product here. When auth lands, drop
+// `PREVIEW`, remove the `disabled` attributes, give the inputs `name`s, and
+// point the form at the real endpoint.
+const PREVIEW = true
 
 // Multicolour Google "G".
 const GoogleG = () => (
@@ -45,6 +54,15 @@ export default (() => {
     const mode = slug.endsWith("signup") ? "signup" : "login"
     const loginHref = resolveRelative(slug, "login" as SimpleSlug)
     const signupHref = resolveRelative(slug, "signup" as SimpleSlug)
+    const contactHref = resolveRelative(slug, "contact" as SimpleSlug)
+
+    const notice = (
+      <p class="hmi-auth-notice" role="status">
+        <strong>Preview.</strong> Member accounts are not live yet, so the fields below are
+        disabled and nothing is submitted or stored. For access today,{" "}
+        <a href={contactHref}>contact the Institute for Contaminant Standards</a>.
+      </p>
+    )
 
     if (mode === "login") {
       return (
@@ -53,25 +71,38 @@ export default (() => {
           <p class="hmi-auth-sub">
             Access your saved evidence packets, followed pages, and category alerts.
           </p>
-          <a class="hmi-auth-google" href="#" role="button">
+          {PREVIEW && notice}
+          <button type="button" class="hmi-auth-google" disabled={PREVIEW}>
             <GoogleG />
             <span>Log in with Google</span>
-          </a>
+          </button>
           <div class="hmi-auth-or">
             <span>or</span>
           </div>
-          <form class="hmi-auth-form" onsubmit="return false">
-            <label class="hmi-auth-field">
-              <span>Email</span>
-              <input type="email" placeholder="you@example.com" autocomplete="email" />
-            </label>
-            <label class="hmi-auth-field">
-              <span>Password</span>
-              <input type="password" placeholder="Password" autocomplete="current-password" />
-            </label>
-            <button type="button" class="hmi-auth-submit">
-              Log in
-            </button>
+          <form class="hmi-auth-form">
+            <fieldset disabled={PREVIEW}>
+              <label class="hmi-auth-field">
+                <span>Email</span>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                />
+              </label>
+              <label class="hmi-auth-field">
+                <span>Password</span>
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  autocomplete="current-password"
+                />
+              </label>
+              <button type="submit" class="hmi-auth-submit">
+                {PREVIEW ? "Log in — coming soon" : "Log in"}
+              </button>
+            </fieldset>
           </form>
           <p class="hmi-auth-foot">
             Don't have an account? <a href={signupHref}>Request access</a>
@@ -87,49 +118,56 @@ export default (() => {
           Get early access to the index, save evidence packets, and be alerted when new findings
           land in the categories you care about.
         </p>
-        <a class="hmi-auth-google" href="#" role="button">
+        {PREVIEW && notice}
+        <button type="button" class="hmi-auth-google" disabled={PREVIEW}>
           <GoogleG />
           <span>Sign up with Google</span>
-        </a>
+        </button>
         <div class="hmi-auth-or">
           <span>or</span>
         </div>
-        <form class="hmi-auth-form" onsubmit="return false">
-          <div class="hmi-auth-roles">
-            {ROLES.map((r) => (
-              <label class="hmi-auth-radio">
-                <input type="radio" name="user_role" value={r.value} checked={r.default} />
-                <span>{r.label}</span>
-              </label>
-            ))}
-          </div>
-          <label class="hmi-auth-field">
-            <span>Full name</span>
-            <input type="text" placeholder="Jane Doe" name="name" />
-          </label>
-          <label class="hmi-auth-field">
-            <span>Email</span>
-            <input type="email" placeholder="you@example.com" name="email" />
-          </label>
-          <label class="hmi-auth-field">
-            <span>Organization</span>
-            <input type="text" placeholder="Company, agency, or lab" name="organization" />
-          </label>
-          <label class="hmi-auth-field">
-            <span>Categories of interest</span>
-            <input type="text" placeholder="Lead, infant formula, seafood…" name="interest_areas" />
-          </label>
-          <label class="hmi-auth-field">
-            <span>Password</span>
-            <input type="password" placeholder="Password" name="password" />
-          </label>
-          <label class="hmi-auth-field">
-            <span>Confirm password</span>
-            <input type="password" placeholder="Confirm password" name="password_confirm" />
-          </label>
-          <button type="button" class="hmi-auth-submit">
-            Request access
-          </button>
+        <form class="hmi-auth-form">
+          <fieldset disabled={PREVIEW}>
+            <div class="hmi-auth-roles">
+              {ROLES.map((r) => (
+                <label class="hmi-auth-radio">
+                  <input type="radio" name="user_role" value={r.value} checked={r.default} />
+                  <span>{r.label}</span>
+                </label>
+              ))}
+            </div>
+            <label class="hmi-auth-field">
+              <span>Full name</span>
+              <input type="text" placeholder="Jane Doe" name="name" />
+            </label>
+            <label class="hmi-auth-field">
+              <span>Email</span>
+              <input type="email" placeholder="you@example.com" name="email" />
+            </label>
+            <label class="hmi-auth-field">
+              <span>Organization</span>
+              <input type="text" placeholder="Company, agency, or lab" name="organization" />
+            </label>
+            <label class="hmi-auth-field">
+              <span>Categories of interest</span>
+              <input
+                type="text"
+                placeholder="Lead, infant formula, seafood…"
+                name="interest_areas"
+              />
+            </label>
+            <label class="hmi-auth-field">
+              <span>Password</span>
+              <input type="password" placeholder="Password" name="password" />
+            </label>
+            <label class="hmi-auth-field">
+              <span>Confirm password</span>
+              <input type="password" placeholder="Confirm password" name="password_confirm" />
+            </label>
+            <button type="submit" class="hmi-auth-submit">
+              {PREVIEW ? "Request access — coming soon" : "Request access"}
+            </button>
+          </fieldset>
         </form>
         <p class="hmi-auth-foot">
           Already have an account? <a href={loginHref}>Log in</a>

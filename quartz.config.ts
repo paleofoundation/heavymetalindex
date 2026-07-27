@@ -110,6 +110,11 @@ const config: QuartzConfig = {
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
+      // Drop the leading body H1 that repeats the page title (HeroBand already
+      // renders it), promoting its text to `title` when frontmatter has none.
+      // MUST run before TableOfContents and Description so both see the
+      // corrected document. See titleHeading.ts.
+      Plugin.TitleHeading(),
       Plugin.TableOfContents(),
       // Auto-link first prose mention of unambiguous metals; must run before
       // CrawlLinks so the inserted links are resolved + counted in the graph.

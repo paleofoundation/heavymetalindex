@@ -310,7 +310,19 @@ function setupAskIndexTriggers() {
     ;(trigger as HTMLElement).dataset.askIndexTriggerReady = "true"
     trigger.addEventListener("click", () => {
       const button = document.querySelector(".ask-index-button") as HTMLButtonElement | null
-      button?.click()
+      if (button) {
+        button.click()
+        return
+      }
+      // The modal AskIndex launcher is not in the layout on every page (it was
+      // removed from the left rail during the proof port), so a trigger with no
+      // modal to open would otherwise be a dead control. Fall back to the
+      // dedicated /ask page, which is the same conversation surface. Mirrors
+      // quartz/util/path.ts pathToRoot so it is correct at any directory depth.
+      const slug = document.body.dataset.slug ?? "index"
+      const segments = slug.split("/").filter((part) => part !== "")
+      const root = segments.length > 1 ? segments.slice(0, -1).map(() => "..").join("/") : "."
+      window.location.href = `${root}/ask`
     })
   })
 }
@@ -550,7 +562,16 @@ function setupAskPage(root: HTMLElement) {
 
       if (!response.ok) {
         const errBody = await response.json().catch(() => ({}))
-        showError(errBody.error || `Request failed with status ${response.status}.`)
+        // /api/ask returns `error` as a string, but a proxy or platform error
+        // page in front of it can return an object there. Rendering that
+        // straight into the DOM shows the reader "[object Object]".
+        const detail =
+          typeof errBody.error === "string"
+            ? errBody.error
+            : typeof errBody.error?.message === "string"
+              ? errBody.error.message
+              : ""
+        showError(detail || `Request failed with status ${response.status}.`)
         return
       }
 

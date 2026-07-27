@@ -6,6 +6,12 @@ import { taxonomyLinks, utilityLinks, type TopNavLink } from "./topNavLinks"
 import style from "./styles/topNav.scss"
 // @ts-ignore — inline script, resolved by Quartz's esbuild loader
 import script from "./scripts/topNav.inline"
+import searchStyle from "./styles/search.scss"
+// @ts-ignore — inline script, resolved by Quartz's esbuild loader
+import searchScript from "./scripts/search.inline"
+import askStyle from "./styles/askindex.scss"
+// @ts-ignore — inline script, resolved by Quartz's esbuild loader
+import askScript from "./scripts/askindex.inline"
 
 // Global, full-width, white sticky top bar. Rendered ONCE per page as the
 // shared `header` (quartz.layout.ts `sharedPageComponents.header = [TopNav()]`)
@@ -48,6 +54,7 @@ export default ((userOpts?: Partial<TopNavOptions>) => {
     const slug = (fileData.slug ?? "index") as FullSlug
     const baseDir = pathToRoot(slug)
     const wordmark = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
+    const searchPlaceholder = i18n(cfg.locale).components.search.searchBarPlaceholder
 
     const renderLink = (link: TopNavLink) => {
       const href = resolveRelative(slug, link.slug as SimpleSlug)
@@ -99,6 +106,46 @@ export default ((userOpts?: Partial<TopNavOptions>) => {
           <nav id="hmi-topnav-menu" class="hmi-topnav-menu" aria-label="Primary">
             <div class="hmi-topnav-taxonomy">{taxonomyLinks.map(renderLink)}</div>
             <div class="hmi-topnav-controls">
+              {/*
+                Quartz's Search markup, rendered inline in the bar. It is NOT a
+                nested <Search/> component call: Quartz collects css/afterDOMLoaded
+                by walking the layout arrays, so a nested component's resources
+                would never be emitted. The DOM shape has to match search.inline.ts
+                (`.search` > `.search-button` + `.search-container .search-bar`
+                + `.search-layout`), which is what wires this up; the script
+                iterates every `.search` element on the page, so the homepage
+                hero's own search block is wired by the same bundle.
+              */}
+              <div class="search hmi-topnav-search" role="search">
+                <button class="search-button" type="button" aria-label={searchPlaceholder}>
+                  <svg
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 19.9 19.7"
+                    width="16"
+                    height="16"
+                  >
+                    <g class="search-path" fill="none">
+                      <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4" />
+                      <circle cx="8" cy="8" r="7" />
+                    </g>
+                  </svg>
+                  <p>{i18n(cfg.locale).components.search.title}</p>
+                </button>
+                <div class="search-container">
+                  <div class="search-space">
+                    <input
+                      autocomplete="off"
+                      class="search-bar"
+                      name="search"
+                      type="text"
+                      aria-label={searchPlaceholder}
+                      placeholder={searchPlaceholder}
+                    />
+                    <div class="search-layout" data-preview="true"></div>
+                  </div>
+                </div>
+              </div>
               <a class="hmi-topnav-ask" href={resolveRelative(slug, "ask" as SimpleSlug)}>
                 <svg
                   aria-hidden="true"
@@ -156,7 +203,13 @@ export default ((userOpts?: Partial<TopNavOptions>) => {
     )
   }
 
-  TopNav.css = style
-  TopNav.afterDOMLoaded = script
+  // TopNav owns the site's two global interactive affordances, so it carries
+  // their bundles. Quartz only emits css/afterDOMLoaded for components that
+  // appear in a quartz.layout.ts slot; the standalone Search and AskIndex
+  // components were dropped from the layout during the proof port, which
+  // silently un-shipped search.inline.ts and askindex.inline.ts and left the
+  // homepage search box and the /ask form with no handler at all.
+  TopNav.css = [style, searchStyle, askStyle]
+  TopNav.afterDOMLoaded = [script, searchScript, askScript]
   return TopNav
 }) satisfies QuartzComponentConstructor<TopNavOptions>

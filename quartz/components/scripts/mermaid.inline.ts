@@ -186,7 +186,13 @@ const cssVars = [
 
 let mermaidImport = undefined
 document.addEventListener("nav", async () => {
-  const center = document.querySelector(".center") as HTMLElement
+  // The proof layout renamed Quartz's `.center` content column to `.proof-main`,
+  // so the old `.center` lookup returned null and the chained querySelectorAll
+  // threw a TypeError on every page and every SPA navigation. Resolve the
+  // content column defensively and bail out when there is nothing to scan.
+  const center = (document.querySelector(".proof-main") ??
+    document.querySelector(".center")) as HTMLElement | null
+  if (!center) return
   const nodes = center.querySelectorAll("code.mermaid") as NodeListOf<HTMLElement>
   if (nodes.length === 0) return
 

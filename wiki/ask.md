@@ -7,7 +7,6 @@ updated: 2026-05-17
 
 <section class="hmi-ask-page" data-ask-endpoint="/api/ask">
   <header class="hmi-ask-intro">
-    <h1>Ask the Index</h1>
     <p>Ask a question about heavy metals in food. Every answer is grounded in cited Heavy Metal Index pages — no outside knowledge, no hallucination. If the corpus doesn't carry evidence on your question, you'll see a "no evidence loaded" reply rather than a guess.</p>
   </header>
 

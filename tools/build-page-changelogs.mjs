@@ -26,6 +26,7 @@ const beginMarker = "<!-- BEGIN: hmi-page-history -->"
 const endMarker = "<!-- END: hmi-page-history -->"
 const GITHUB_BASE = "https://github.com/paleofoundation/heavymetalindex/commit"
 const MAX_ENTRIES = 5
+const NUMBER_WORDS = { 2: "two", 3: "three", 4: "four", 5: "five" }
 
 const TARGETS = [
   "wiki/sources",
@@ -39,6 +40,34 @@ const TARGETS = [
 const args = process.argv.slice(2)
 const dryRun = args.includes("--dry-run")
 const verbose = args.includes("--verbose")
+const force = args.includes("--force")
+
+// This runs in `prebuild`, which means it also runs on the Vercel builder —
+// and Vercel checks out a SHALLOW clone. `git log` there returns a single
+// commit per file, so every committed 5-row history table was being rewritten
+// to one row ("the five most recent substantive edits" above a table with one
+// entry) on every production deploy. The blocks committed to the repo were
+// generated against full history and are the accurate ones, so on a shallow
+// clone the correct action is to leave them alone. `--force` overrides for the
+// rare case of deliberately regenerating in a shallow checkout.
+let isShallow = false
+try {
+  isShallow =
+    execSync("git rev-parse --is-shallow-repository", {
+      cwd: repoRoot,
+      encoding: "utf8",
+    }).trim() === "true"
+} catch {
+  // Older git (<2.15) has no --is-shallow-repository; fall back to the marker file.
+  isShallow = fs.existsSync(path.join(repoRoot, ".git", "shallow"))
+}
+
+if (isShallow && !force) {
+  console.log("build-page-changelogs: SKIPPED (shallow clone)")
+  console.log("  git history is truncated here, so regenerating would replace the")
+  console.log("  committed full-history tables with single-row ones. Pass --force to override.")
+  process.exit(0)
+}
 
 // Single git pass: read the full log of all wiki pages with --name-only so we
 // can attribute commits to files in one shot. ~1ms per commit on a warm repo
@@ -137,10 +166,17 @@ function renderHistoryBlock(entries) {
   const rows = entries
     .map((e) => `| [${e.sha}](${GITHUB_BASE}/${e.sha}) | ${e.date} | ${escapePipes(e.subject)} |`)
     .join("\n")
+  // Describe what the table actually contains. Most pages have fewer than
+  // MAX_ENTRIES commits, and promising "the five most recent" above a one-row
+  // table reads as a broken build to exactly the audience this block is for.
+  const lede =
+    entries.length === 1
+      ? "The most recent substantive edit to this page."
+      : `The ${NUMBER_WORDS[entries.length] ?? entries.length} most recent substantive edits to this page.`
   return `${beginMarker}
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+${lede} The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
