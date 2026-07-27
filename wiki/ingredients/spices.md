@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [50, 1000]
-    p95_ppb: null
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-16
+    typical_ppb: [182.3, 2482]
+    p95_ppb: 3225
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-07-27
   Sn:
     status: populated
     typical_ppb: [null, null]

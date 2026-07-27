@@ -130,17 +130,44 @@ function deriveNativeBasis(slug, variantType) {
 
 // ---- Load all structured CSVs + samples CSVs
 
+// Rows the pre-pool validation gate (tools/autonomy/validate-extracted-values.mjs)
+// flagged as gross-error-band or intra-cell outliers are held from the pool.
+// Scoped to the autonomy extractor's own output and keyed semantically
+// (source_id|metal|product), so it survives a deterministic re-extract without
+// depending on fragile row indices.
+const AUTONOMY_SUMMARY_FILE = "category1_autonomy_extracted_summary.csv"
+
+function loadQuarantineKeys() {
+  const qp = path.join(repoRoot, "data/evidence/autonomy/extraction-quarantine.csv")
+  if (!fs.existsSync(qp)) return new Set()
+  const keys = new Set()
+  for (const r of parseCsv(fs.readFileSync(qp, "utf8"))) {
+    keys.add(`${(r.source_id ?? "").trim()}|${(r.metal_species ?? "").trim()}|${(r.product_label ?? "").trim()}`)
+  }
+  return keys
+}
+
 function loadStructuredRows() {
+  const quarantineKeys = loadQuarantineKeys()
   const summaryFiles = fs
     .readdirSync(path.join(repoRoot, "data/evidence"))
     .filter((f) => /^category\d.*_summary\.csv$/.test(f))
     .map((f) => path.join(repoRoot, "data/evidence", f))
   const rows = []
+  let quarantinedDropped = 0
   for (const f of summaryFiles) {
+    const base = path.basename(f)
     const parsed = parseCsv(fs.readFileSync(f, "utf8"))
     for (const row of parsed) {
-      rows.push({ ...row, _source_file: path.basename(f) })
+      if (base === AUTONOMY_SUMMARY_FILE && quarantineKeys.size) {
+        const key = `${(row.source_id ?? "").trim()}|${(row.metal_species ?? "").trim()}|${(row.product_label ?? "").trim()}`
+        if (quarantineKeys.has(key)) { quarantinedDropped++; continue }
+      }
+      rows.push({ ...row, _source_file: base })
     }
+  }
+  if (quarantinedDropped) {
+    console.log(`  pool admission: excluded ${quarantinedDropped} quarantined autonomy row(s) (validation gate)`)
   }
   return rows
 }
@@ -385,55 +412,76 @@ function pool(rowsForCell, productNativeBasis, rng) {
   const admittedContribs = contributions.filter((c) => c.admitted)
   const sampleVectors = admittedContribs.map((c) => c.samples.slice())
 
-  // Closed-form relative-share cap. For source i with original length n_i and
-  // others' total m_i, the post-cap length n_i' satisfies n_i' / (n_i' + m_i)
-  // ≤ S. Solving: n_i' ≤ m_i × S / (1 - S). For S = 0.5, n_i' ≤ m_i (a
-  // single source can match — but not exceed — the sum of all others).
-  // We apply this in one pass; if multiple sources are over the cap, each
-  // one's allowance is computed against the others' lengths *after* their
-  // own caps are applied. Solve iteratively but with a convergent shrinkage
-  // rule: each pass strictly reduces over-cap sources by at least 5% until
-  // all sit at or below the cap.
+  // The share cap is applied by WEIGHTING, not by discarding observations.
+  //
+  // Why this matters: the previous implementation enforced the share cap by
+  // downsampling the largest source. Because a source may contribute at most
+  // the sum of all others (S = 0.5), one large high-quality source pooled with
+  // several small ones was truncated to the size of the small ones. Rice-based
+  // cereal cadmium is the worst case: FDA 2024 contributes 252 real
+  // sample-level measurements, the other three sources total 16, so FDA was
+  // cut to 16 and the pool came out at 32. Two hundred and thirty-six real
+  // measurements were thrown away to keep a reconstructed basket entry
+  // proportionate, and the resulting n could no longer support the P97 the
+  // methodology assigns the cell.
+  //
+  // Downsampling is the wrong instrument for the job. The share cap exists to
+  // stop a BIASED source from dominating; discarding observations does not
+  // remove bias, it only adds sampling error on top of it, and it destroys the
+  // precision the pool is being built for. Weighting bounds influence exactly
+  // as intended while keeping every observation in the estimate.
+  //
+  // So: each source i receives total weight W_i, initialised proportional to
+  // its sample count and shrunk until W_i / sum(W) <= S by the same closed
+  // form as before (W_i <= others x S/(1-S)). Every sample survives, carrying
+  // per-sample weight W_i / n_i. Percentiles downstream are weighted.
+  //
+  // Precision is then reported honestly as Kish's effective sample size,
+  // n_eff = (sum w)^2 / sum(w^2), which is what unequal weighting actually
+  // buys and what the minimum-n gate must be judged against. Equal weights
+  // give n_eff = n; a pool dominated by one heavily-weighted source gives a
+  // smaller n_eff, correctly.
   const ratio = MAX_SOURCE_SHARE / (1 - MAX_SOURCE_SHARE)
-  // Up to 200 iterations is plenty; each pass strictly shrinks.
+  const sourceWeight = sampleVectors.map((s) => s.length)
   let safety = 200
   while (safety-- > 0) {
-    const lens = sampleVectors.map((s) => s.length)
-    const total = lens.reduce((a, b) => a + b, 0)
-    if (total === 0) break
+    const totalW = sourceWeight.reduce((a, b) => a + b, 0)
+    if (totalW === 0) break
     let changed = false
-    for (let i = 0; i < sampleVectors.length; i++) {
-      const others = total - lens[i]
-      const allowed = Math.max(1, Math.floor(others * ratio))
-      if (sampleVectors[i].length > allowed) {
-        sampleVectors[i] = downsampleUniform(sampleVectors[i], allowed)
+    for (let i = 0; i < sourceWeight.length; i++) {
+      if (!sampleVectors[i].length) continue
+      const others = totalW - sourceWeight[i]
+      const allowed = others * ratio
+      if (sourceWeight[i] > allowed + 1e-9) {
+        sourceWeight[i] = Math.max(allowed, 1e-9)
         changed = true
       }
     }
     if (!changed) break
   }
 
-  const pooled = []
+  // Expand to per-sample (value, weight) pairs, sorted by value.
+  const pairs = []
   for (let i = 0; i < admittedContribs.length; i++) {
-    const c = admittedContribs[i]
     const samples = sampleVectors[i]
-    for (const v of samples) pooled.push(v)
-    c.sample_count_admitted = c.samples.length
-    c.sample_count_after_cap = samples.length
-    c.pool_share = samples.length === 0
-      ? 0
-      : Number((samples.length / Math.max(pooled.length, 1)).toFixed(4))
-    delete c.samples
+    if (!samples.length) continue
+    const w = sourceWeight[i] / samples.length
+    for (const v of samples) pairs.push({ v, w })
   }
-  pooled.sort((a, b) => a - b)
+  pairs.sort((a, b) => a.v - b.v)
+  const pooled = pairs.map((p) => p.v)
+  const weights = pairs.map((p) => p.w)
 
-  // Final-share audit for the assertion downstream.
-  const total = pooled.length
+  const totalW = weights.reduce((a, b) => a + b, 0)
+  const sumSq = weights.reduce((a, b) => a + b * b, 0)
+  const effectiveN = sumSq > 0 ? (totalW * totalW) / sumSq : 0
+
   for (let i = 0; i < admittedContribs.length; i++) {
     const c = admittedContribs[i]
-    c.pool_share = total === 0
-      ? 0
-      : Number((sampleVectors[i].length / total).toFixed(4))
+    c.sample_count_admitted = c.samples.length
+    c.sample_count_after_cap = sampleVectors[i].length // nothing is discarded now
+    c.pool_share = totalW === 0 ? 0 : Number((sourceWeight[i] / totalW).toFixed(4))
+    delete c.samples
   }
 
   const medianN =
@@ -442,6 +490,8 @@ function pool(rowsForCell, productNativeBasis, rng) {
       : 0
   return {
     pooled,
+    weights,
+    effectiveN,
     contributions,
     capN: null,
     medianN,
@@ -456,6 +506,39 @@ function downsampleUniform(samples, target) {
     out.push(samples[Math.floor((i * samples.length) / target)])
   }
   return out
+}
+
+// Weighted percentile over value-sorted `sorted` with parallel `weights`.
+// Uses the standard cumulative-midpoint convention: sample k spans the weight
+// interval centred on its own cumulative midpoint, and the percentile is
+// linearly interpolated between adjacent midpoints. With equal weights this
+// reduces to the unweighted percentile above, so a pool with no capped source
+// returns exactly what it returned before this change.
+function weightedPercentile(sorted, weights, p) {
+  if (!sorted.length) return null
+  if (!weights || weights.length !== sorted.length) return percentile(sorted, p)
+  if (sorted.length === 1) return sorted[0]
+  const total = weights.reduce((a, b) => a + b, 0)
+  if (!(total > 0)) return percentile(sorted, p)
+  const mid = []
+  let cum = 0
+  for (let i = 0; i < sorted.length; i++) {
+    mid.push((cum + weights[i] / 2) / total)
+    cum += weights[i]
+  }
+  // Rescale midpoints onto [0,1] so the extremes are reachable, matching the
+  // unweighted function's behaviour at p=0 and p=1.
+  const lo0 = mid[0]
+  const hi0 = mid[mid.length - 1]
+  const span = hi0 - lo0
+  const target = span > 0 ? lo0 + p * span : p
+  if (target <= mid[0]) return sorted[0]
+  if (target >= mid[mid.length - 1]) return sorted[sorted.length - 1]
+  let i = 0
+  while (i < mid.length - 1 && mid[i + 1] < target) i++
+  const denom = mid[i + 1] - mid[i]
+  const w = denom > 0 ? (target - mid[i]) / denom : 0
+  return sorted[i] * (1 - w) + sorted[i + 1] * w
 }
 
 function percentile(sorted, p) {
@@ -479,8 +562,8 @@ function sensitivity(rowsForCell, productNativeBasis, targetP, seedBase) {
       ...row,
       _sensitivity_variant: variant,
     }))
-    const { pooled } = pool(adjustedRows, productNativeBasis, rng)
-    results[variant] = pooled.length > 0 ? percentile(pooled, targetP) : null
+    const { pooled, weights } = pool(adjustedRows, productNativeBasis, rng)
+    results[variant] = pooled.length > 0 ? weightedPercentile(pooled, weights, targetP) : null
   }
   return results
 }
@@ -507,8 +590,8 @@ function bootstrapCI_sourceLevel(rowsForCell, productNativeBasis, targetP, itera
     for (let i = 0; i < rowsForCell.length; i++) {
       drawnRows.push(rowsForCell[Math.floor(iterRng.next() * rowsForCell.length)])
     }
-    const { pooled } = pool(drawnRows, productNativeBasis, iterRng)
-    if (pooled.length > 0) draws.push(percentile(pooled, targetP))
+    const { pooled, weights } = pool(drawnRows, productNativeBasis, iterRng)
+    if (pooled.length > 0) draws.push(weightedPercentile(pooled, weights, targetP))
   }
   draws.sort((a, b) => a - b)
   return {
@@ -708,7 +791,7 @@ function main() {
       const seed = hashSeed(slug + ":" + metal)
       const rng = new SeededRng(seed)
 
-      const { pooled, contributions, capN, medianN, share_cap } = pool(
+      const { pooled, weights, effectiveN, contributions, capN, medianN, share_cap } = pool(
         rowsForCell,
         product.native_basis,
         rng,
@@ -730,16 +813,16 @@ function main() {
         (c) => c.admitted && c.reconstruction_method === "percentile_interpolation",
       ).length
 
-      const targetValue = pooled.length > 0 ? percentile(pooled, target.target_p) : null
+      const targetValue = pooled.length > 0 ? weightedPercentile(pooled, weights, target.target_p) : null
       const pooledStats = pooled.length > 0
         ? {
-            p10: percentile(pooled, 0.1),
-            p30: percentile(pooled, 0.3),
-            p45: percentile(pooled, 0.45),
-            p50: percentile(pooled, 0.5),
-            p90: percentile(pooled, 0.9),
-            p95: percentile(pooled, 0.95),
-            p97: percentile(pooled, 0.97),
+            p10: weightedPercentile(pooled, weights, 0.1),
+            p30: weightedPercentile(pooled, weights, 0.3),
+            p45: weightedPercentile(pooled, weights, 0.45),
+            p50: weightedPercentile(pooled, weights, 0.5),
+            p90: weightedPercentile(pooled, weights, 0.9),
+            p95: weightedPercentile(pooled, weights, 0.95),
+            p97: weightedPercentile(pooled, weights, 0.97),
             p100: pooled[pooled.length - 1],
           }
         : { p10: null, p30: null, p45: null, p50: null, p90: null, p95: null, p97: null, p100: null }
@@ -813,6 +896,7 @@ function main() {
         distinct_sources: distinctSources,
         sample_level_contributing: sampleLevelCount,
         pooled_n: pooled.length,
+        pooled_n_effective: pooled.length > 0 ? Math.round(effectiveN) : 0,
         median_source_n: round(medianN ?? 0, 1),
         cap_n: capN,
         pooled_p10: round(pooledStats.p10, 4),

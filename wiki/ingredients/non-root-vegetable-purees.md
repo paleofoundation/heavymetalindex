@@ -8,18 +8,18 @@ category: vegetable-preparation
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  Cd:
-    status: populated
-    typical_ppb: [0.016, 1.5]
-    p95_ppb: 1.51
+    typical_ppb: [0, 3.11]
+    p95_ppb: 4.44
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-31
+    last_reviewed: 2026-07-27
+  Cd:
+    status: populated
+    typical_ppb: [0.027, 1.51]
+    p95_ppb: 1.57
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-07-27
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -33,14 +33,14 @@ contamination_profile:
     p95_ppb: 5
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-31
+    last_reviewed: 2026-07-27
   tHg:
     status: populated
     typical_ppb: [0, 1.5]
     p95_ppb: 1.5
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-31
+    last_reviewed: 2026-07-27
   Ni:
     status: populated
     typical_ppb: [null, null]

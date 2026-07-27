@@ -19,12 +19,12 @@ contamination_profile:
     basis: null
     notes: null
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [7.42, 8.76]
+    p95_ppb: 8.94
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-07-27
     basis: null
     notes: null
   Cd:

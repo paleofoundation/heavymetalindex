@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-06-19T16:39:01.347Z",
+  "generated_at": "2026-07-27T16:14:57.635Z",
   "product_filter": null,
   "metal_filter": null,
-  "cells_total": 784,
+  "cells_total": 786,
   "cells_by_verdict": {
     "READY FOR REVIEW": 87,
-    "READY FOR REVIEW (regulatory cap applies)": 30,
-    "PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates": 217,
-    "BLOCKED: no usable evidence": 384,
-    "PROVISIONAL: sensitivity unstable across parametric assumptions": 17,
-    "BLOCKED: pool internally inconsistent (p95/p10 > 1e4, likely mixed units — fix units before use)": 9,
-    "PROVISIONAL: review sensitivity disagreement": 29,
-    "READY FOR REVIEW (regulatory cap applies; interim, occurrence characterization pending)": 11
+    "READY FOR REVIEW (regulatory cap applies)": 31,
+    "PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates": 214,
+    "BLOCKED: no usable evidence": 383,
+    "BLOCKED: pool internally inconsistent (p95/p10 > 1e4, likely mixed units — fix units before use)": 6,
+    "PROVISIONAL: review sensitivity disagreement": 40,
+    "PROVISIONAL: sensitivity unstable across parametric assumptions": 15,
+    "READY FOR REVIEW (regulatory cap applies; interim, occurrence characterization pending)": 10
   },
   "cells_by_rationale": {
-    "literature-baseline": 359,
-    "regulatory-alignment": 32,
-    "no-data": 393
+    "literature-baseline": 362,
+    "regulatory-alignment": 35,
+    "no-data": 389
   },
   "cells_by_role": {
     "clean_subcategory": 95,
-    "independent_clean_by_default": 689
+    "independent_clean_by_default": 691
   },
   "sensitivity_band_distribution": {
-    "stable": 265,
-    "provisional": 87,
-    "no_data": 392,
-    "needs_review": 40
+    "stable": 266,
+    "provisional": 90,
+    "no_data": 391,
+    "needs_review": 39
   },
   "pool_starvation": {
-    "structured_rows_total": 7224,
-    "stranded_rows_total": 2369,
-    "stranded_rows_carrying_a_statistic": 568,
+    "structured_rows_total": 7106,
+    "stranded_rows_total": 2289,
+    "stranded_rows_carrying_a_statistic": 486,
     "stranded_by_reason": {
-      "empty_slug": 197,
+      "empty_slug": 117,
       "unmatched_slug": 374,
       "no_metal_species": 1798
     },
