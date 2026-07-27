@@ -111,6 +111,15 @@ const MANUAL_FETCH_ROOTS = [
   // below) so the residuals get drained, but the path stays bounded so cost
   // doesn't blow up during sprint mode when the queue is large.
   { root: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched", handlePrefix: "AF" },
+  // Research-pull sweeps on the HMI-Library drive (/Volumes/HMI-Library/research-pulls/).
+  // These bulk topic sweeps were NEVER a watched root, so ~945 HMI-relevant PDFs
+  // sat invisible to ingest. Registered 2026-07-27 via gitignored symlinks in raw/
+  // (same pattern as "Manual Fetch Discovery"); the drive's own microbiome-medicine
+  // subfolder is deliberately EXCLUDED — it belongs to the MMed/WikiBiome build,
+  // not HMI. The DOI/checksum identity check skips the many that are already ingested.
+  { root: "raw/Research Pull Ingredient Sweep", handlePrefix: "RPIS" },
+  { root: "raw/Research Pull Mercury Deep Dive", handlePrefix: "RPHG" },
+  { root: "raw/Research Pull Product Sweep", handlePrefix: "RPPS" },
 ]
 
 // Hard cap on auto-fetched PDFs per single daemon tick. The Claude/Opus path
