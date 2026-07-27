@@ -1,7 +1,7 @@
 ---
 title: Synthesis
 type: synthesis-index
-updated: 2026-06-02
+updated: 2026-07-27
 audience: [regulator, educator, consumer, brand-legal]
 ---
 
@@ -15,6 +15,14 @@ Each row links to a self-contained synthesis page that carries the full anchor-s
 
 | Finding | Metals | Anchor sources | Added |
 | --- | --- | --- | --- |
+| [Dietary nickel is an intrinsic accumulation trait of specific plant staples, not a contamination signal, and background diets can reach or exceed nickel tolerable-intake reference points without any pollution source](/synthesis/dietary-nickel-plant-staple-accumulation) | Ni | 6 | 2026-07-27 |
+| [Inorganic tin in food is a can-format-and-acidity contaminant, not an agricultural or geogenic one, with an acute gastrointestinal effect whose symptomatic threshold sits three to four orders of magnitude above lead and cadmium limits](/synthesis/tin-canned-food-acidic-matrix-migration) | Sn | 5 | 2026-07-27 |
+| [Human breastmilk is a measurable infant heavy-metal exposure pathway distinct from infant formula, driven by maternal body burden and diet, and it is not captured by food-matrix surveillance](/synthesis/breastmilk-heavy-metal-exposure-pathway) | Pb, Cd, tAs, tHg, Al, Cr | 6 | 2026-07-27 |
+| [Manufactured infant formula delivers an aluminium-dominated metal load, many-fold above breastmilk and amplified in soy-based and powdered formats, to the most vulnerable consuming population](/synthesis/infant-formula-metal-amplification) | Al, Pb, Cd, tAs, tHg | 7 | 2026-07-27 |
+| [Wastewater and sewage-effluent irrigation is a single upstream pathway that co-elevates multiple metals in the same crop, concentrating in leafy greens on peri-urban plots across the Global South](/synthesis/wastewater-irrigation-multimetal-crop-pathway) | Pb, Cd, Cr, Ni, tAs | 5 | 2026-07-27 |
+| [Dietary supplements and traditional herbal preparations are a distinct, under-surveilled heavy-metal exposure pathway whose contamination magnitudes reach thousands of times conventional food limits under materially weaker enforcement](/synthesis/supplement-botanical-lead-pathway) | Pb, Cd, tAs, tHg | 4 | 2026-07-27 |
+| [Liver and kidney are physiological cadmium accumulation sinks that carry heavy-metal loads above skeletal muscle, making offal a distinct dietary exposure pathway that muscle-meat surveillance does not represent](/synthesis/organ-meat-cadmium-lead-accumulation) | Cd, Pb, tHg, Cr | 6 | 2026-07-27 |
+| [Cooking vessels are a post-harvest contamination pathway that can add lead, cadmium, nickel, chromium, and aluminium to food independent of the raw ingredient's cleanliness](/synthesis/cookware-utensil-metal-leaching-pathway) | Pb, Cd, Ni, Cr, Al, tAs | 5 | 2026-07-27 |
 | [Tea heavy-metal exposure is governed by the leaf-to-infusion transfer fraction, not the dry-leaf totals that surveillance reports](/synthesis/tea-multi-metal-bioaccumulation) | Al, Pb, Cd, Cr, tAs | 8 | 2026-06-04 |
 | [Aquaculture vs wild-caught contamination differential: why farmed fish carry systematically lower MeHg](/synthesis/aquaculture-vs-wild-contamination-differential) | MeHg, tHg, Cd, Pb, tAs | 3 | 2026-05-18 |
 | [Bivalve cadmium amplification through filter feeding: why mussels and oysters need a different threshold than finfish](/synthesis/bivalve-cadmium-amplification) | Cd, Pb, tHg | 5 | 2026-05-18 |
