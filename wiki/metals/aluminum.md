@@ -106,8 +106,7 @@ For pregnant women and parents of infants: soy-based infant formulas were docume
 | [[regulators/atsdr\|US ATSDR]] | Intermediate oral MRL | 1 mg Al/kg/day | [[regulations/atsdr-aluminum-mrls]] |
 | [[regulators/eu-commission\|EU]] | Maximum levels for aluminium in food contact materials | Regulation (EU) 10/2011 amendments | _Pending separate ingest_ |
 
-### What the reference values mean in practice
-<!-- audience: consumer -->
+### What do these reference values mean in practice?<!-- audience: consumer -->
 
 The [[regulations/efsa-aluminium-twi|EFSA TWI]] of 1 mg Al/kg b.w./week corresponds to 70 mg Al/week or 10 mg Al/day for a 70-kilogram adult. EFSA's estimate of typical European adult dietary intake is 0.2 to 1.5 mg/kg b.w./week (14 to 105 mg/week for the same adult), placing the population mean at the upper end of the TWI range and the high consumers above. This is the regulatory finding that "the TWI is likely to be exceeded in a significant part of the European population."
 

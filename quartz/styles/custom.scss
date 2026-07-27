@@ -2227,3 +2227,32 @@ body[data-slug="index"] .hmi-topnav-shell { margin-bottom: 0; }
   color: var(--darkgray, #373c44);
   line-height: 1.7;
 }
+
+/* -----------------------------------------------------------
+   Recently-updated feed (homepage) — page-level "what's new".
+   ----------------------------------------------------------- */
+.hmi-home-feed { list-style: none; margin: 0; padding: 0; max-width: 74ch; }
+.hmi-home-feed li {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  gap: 1.25rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--lightgray);
+  margin: 0;
+}
+@media (max-width: 700px) { .hmi-home-feed li { grid-template-columns: 1fr; gap: 0.15rem; } }
+.hmi-home-feed time { color: var(--gray, #767067); font-size: 0.86rem; font-variant-numeric: tabular-nums; padding-top: 0.1rem; }
+.hmi-home-feed-what { color: var(--darkgray, #373c44); line-height: 1.5; }
+.hmi-home-feed-what a { color: var(--secondary); font-weight: 500; }
+.hmi-home-feed-tag {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--gray, #767067);
+  background: var(--lightgray);
+  border-radius: 4px;
+  padding: 1px 7px;
+  vertical-align: 0.08em;
+}

@@ -92,8 +92,7 @@ For consumers concerned about dental amalgam mercury vapor: this exposure is sma
 | [[regulators/atsdr\|ATSDR]] (US) | Mercury MRLs | Multiple by species and route | [[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]] |
 | International | [[sources/minamata-convention-2013|Minamata Convention]] | Treaty regulating anthropogenic Hg emissions worldwide | [[sources/minamata-convention-2013|Minamata Convention 2013]] |
 
-### What the reference values mean in practice
-<!-- audience: consumer -->
+### What do these reference values mean in practice?<!-- audience: consumer -->
 
 Mercury is the most regulatory-harmonized of the heavy metals on this wiki. The methylmercury reference values across EPA IRIS, EFSA, and JECFA agree to within a factor of 2.3 when expressed on a daily per-kg basis ([[sources/epa-iris-methylmercury|EPA IRIS MeHg]], [[sources/efsa-mercury-methylmercury-2012|EFSA 2012]], [[sources/jecfa-61st-methylmercury|JECFA 61st]]). For a 70-kilogram adult, the daily-equivalent reference values are: EPA IRIS RfD 7 µg MeHg/day (0.1 µg/kg/day × 70 kg); EFSA TWI 13.3 µg/day (1.3 ÷ 7 × 70); JECFA PTWI 16 µg/day (1.6 ÷ 7 × 70). For a 25-kilogram child, the corresponding values are 2.5, 4.8, and 5.7 µg MeHg/day respectively.
 

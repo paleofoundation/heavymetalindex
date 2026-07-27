@@ -128,8 +128,7 @@ The four dietary-reference values on the daily per-body-weight scale that are co
 
 ATSDR itself notes (p. 43 of the 2012 profile) that its chronic oral MRL is below the estimated age-weighted US dietary cadmium intake of approximately 0.3 µg/kg/day, and that the UCDL10 point of departure is approximately twofold above the CDC 2011 US adult geometric mean urinary cadmium of 0.247 µg/g creatinine. The tightest regulatory reference value is below typical US exposure. This is a load-bearing fact for any defensibility argument that rests on the wiki's synthesis.
 
-### What the reference values mean in practice
-<!-- audience: consumer -->
+### What do these reference values mean in practice?<!-- audience: consumer -->
 
 A consumer reading the table above and wondering which number to use as a benchmark for personal decision-making is asking the right question, and it does not have a single answer. Each of the four major dietary cadmium reference values is defensible within its own methodological frame, and a consumer should choose among them based on the level of precaution that matches their own situation.
 

@@ -33,7 +33,7 @@ import matter from "gray-matter"
 import { answerTripsFirewall } from "./lib/faq-firewall-guard.mjs"
 
 const repoRoot = process.cwd()
-const FAQ_CATEGORIES = new Set(["metals", "index"]) // metals-first rollout + the homepage
+const FAQ_CATEGORIES = new Set(["metals", "ingredients", "products", "regulations", "index"]) // reader pages + the homepage
 const publicDir = path.join(repoRoot, "public")
 const wikiDir = path.join(repoRoot, "wiki")
 

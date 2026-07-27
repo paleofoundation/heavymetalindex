@@ -106,8 +106,7 @@ For consumers with diagnosed nickel-sensitivity contact dermatitis: the acute LO
 | [[regulators/us-epa\|US EPA]] | Ecological Soil Screening Levels | Threshold values for ecological-risk screening at hazardous waste sites | [[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]] |
 | [[regulators/atsdr\|US ATSDR]] | MRLs (multiple by route and duration) | See profile | [[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]] |
 
-### What the reference values mean in practice
-<!-- audience: consumer -->
+### What do these reference values mean in practice?<!-- audience: consumer -->
 
 The two EFSA reference points operate together as the dietary nickel benchmark: the chronic TDI of 13 µg/kg/day for general-population reproductive/developmental risk, and the acute LOAEL of 4.3 µg/kg b.w. for nickel-sensitized contact dermatitis flare-up. For a 70-kilogram adult, the chronic TDI corresponds to 910 µg Ni/day; the acute LOAEL corresponds to 300 µg per single dose; the MOE of 30 for "low concern" sets the practical acute target at approximately 10 µg Ni in a single sitting for a sensitized individual.
 

@@ -118,8 +118,7 @@ For pregnancy and pre-pregnancy planning, the bone-lead reservoir matters: lead 
 
 For the ppb-normalized Category 1 comparison table, see [[products/lead-benchmark-context]].
 
-### What the reference values mean in practice
-<!-- audience: consumer -->
+### What do these reference values mean in practice?<!-- audience: consumer -->
 
 Lead is unusual among dietary contaminants in that the major regulatory bodies have explicitly declined to set a single tolerable intake level. JECFA withdrew its PTWI of 25 µg/kg b.w./week in 2010 ([[sources/jecfa-72nd-lead-2010|JECFA 72nd]]); EFSA reports BMDLs but does not set a TWI ([[sources/efsa-lead-contam-2010|EFSA 2010]]); EPA IRIS does not derive an oral RfD ([[sources/epa-iris-lead-2004|EPA IRIS Lead]]); ATSDR does not derive MRLs ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]). The operational anchor is CDC's blood lead reference value of 3.5 µg/dL, which is itself a population-percentile-based screening threshold, not a health-based safety threshold ([[sources/cdc-blood-lead-reference-value|CDC BLRV]]).
 

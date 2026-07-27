@@ -1,0 +1,25 @@
+{
+  "metal": "antimony",
+  "questions": [
+    {
+      "question": "Is antimony toxic, and what does this page actually say about it?",
+      "answer": "Antimony (symbol Sb) is listed by [[sources/ufelle2021-metals-chapter|Ufelle et al. 2021]] among the minor toxic metals for which toxicity has been described. That toxicology reference text is cited here for antimony's mechanisms of toxicity, target organs, and clinical manifestations, but the chapter does not include a detailed antimony subsection. This wiki page is explicitly a source-map stub, meaning it collects the relevant literature but does not yet contain a substantive antimony-specific synthesis."
+    },
+    {
+      "question": "Where in food and consumer products has antimony been measured?",
+      "answer": "The sources indexed on this page report antimony occurrence across a wide range of matrices, including olive and vegetable oils, coffee, green tea, drinking and bottled water, infant foods and formula, fruit juices, and plant-based dairy. It has also been measured in consumer products such as cosmetics, deodorants, tattoo inks, toys, children's jewelry, and food packaging and disposable food containers. Note that this page catalogs those studies rather than synthesizing their concentration values into a single profile."
+    },
+    {
+      "question": "Is antimony regulated in food and consumer products?",
+      "answer": "Several regulatory sources indexed here address antimony. These include the US FDA compliance program covering antimony surveillance in food and foodware ([[sources/fda2025-cp7304-019-toxic-elements-food-foodware|FDA 2025]]), the EU cosmetic products regulation listing Sb ([[sources/eu-2009-1223-cosmetic-products-regulation|Parliament et al. 2009]]), WHO drinking-water quality guidelines ([[sources/who-gdwq-2022-fourth-edition|WHO 2022]]), and Hong Kong maximum levels for metallic contaminants ([[sources/cfs2019-hk-metallic-contamination-guidelines|Centre for Food Safety 2019]]). The page indexes these instruments but does not state their specific numeric limits."
+    },
+    {
+      "question": "How is antimony measured in these studies?",
+      "answer": "Many of the sources cited here determine antimony by ICP-MS (inductively coupled plasma mass spectrometry), for example in green tea, flavored dairy, and infant formula analyses. Some studies also use ICP-OES or SEM-EDS, as in cosmetic and deodorant analysis ([[sources/mackiewicz2025-eu-deodorants-elements|Maćkiewicz et al. 2025]]). FDA Total Diet Study documentation additionally records antimony measurement detection limits and QA/QC parameters ([[sources/fda2022-tds-elements-analytical-key|FDA 2022]])."
+    },
+    {
+      "question": "Does antimony exposure show up in people, not just in products?",
+      "answer": "Yes, some indexed sources examine antimony in human samples. These include urinary antimony excretion in NHANES participants ([[sources/zhang2025-salt-urinary-metals-nhanes|Zhang et al. 2025]]), salivary antimony and the oral microbiome in children ([[sources/davis-2021-salivary-metals-oral-microbiome|Davis et al. 2021]]), and infant serum antimony in relation to gut microbiota ([[sources/yan2025-infant-serum-26-metals-gut-microbiota-china|Yan et al. 2025]]). The page lists these biomonitoring studies as source-map context and does not draw conclusions from them."
+    }
+  ]
+}

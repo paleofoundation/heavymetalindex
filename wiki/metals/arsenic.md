@@ -96,8 +96,7 @@ For older children and adults: white [[ingredients/rice|rice]] carries less inor
 | [[regulators/efsa\|EFSA]] (EU) | BMDL01 anchors (no PTWI) | Cancer BMDL01 0.3 to 8 µg iAs/kg b.w./day depending on endpoint | [[regulations/efsa-arsenic-contam-2009]] |
 | [[regulators/jecfa\|JECFA]] (international) | PTWI | Withdrawn (15 µg iAs/kg b.w./week deemed inappropriate at JECFA 72nd, 2010) | [[sources/jecfa-82nd-arsenic|JECFA 82nd]] |
 
-### What the reference values mean in practice
-<!-- audience: consumer -->
+### What do these reference values mean in practice?<!-- audience: consumer -->
 
 Arsenic is structurally similar to lead in that the major regulatory bodies have explicitly declined to set a single tolerable intake level for inorganic arsenic. JECFA withdrew its PTWI in 2010 (the same meeting that withdrew the Pb PTWI); EFSA reports BMDLs without setting a TWI; EPA IRIS (January 2025) provides quantitative dose-response that the wiki has not yet extracted. The operational anchors are the EPA drinking water MCL (10 ppb), the FDA infant [[ingredients/rice|rice]] cereal action level (100 ppb), and the ATSDR chronic oral MRL (0.3 µg As/kg/day, anchored on dermal effects rather than cancer).
 

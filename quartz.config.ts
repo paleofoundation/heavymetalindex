@@ -128,6 +128,9 @@ const config: QuartzConfig = {
       // links so the inline cite-card renders the mm-style hover card. After
       // ResolveLinkTitles so data-slug is present. See sourceCiteMeta.ts.
       Plugin.SourceCiteMeta(),
+      // Fold question-style <h3> sections into `.qa` collapsibles (proof accordion)
+      // + emit the data-hmi-faq contract for FAQPage schema. See collapsibleQuestions.ts.
+      Plugin.CollapsibleQuestions(),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
