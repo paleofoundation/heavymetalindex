@@ -6,7 +6,7 @@ title: "Concentration of inorganic and total arsenic in fish from industrially p
 authors: [Norin H, Vahter M, Christakopoulos A, Sandstrom M]
 year: 1985
 publication: "Chemosphere"
-doi: null
+doi: "10.1016/0045-6535(85)90060-8"
 source_type: peer-reviewed
 evidence_tier: B
 license: unknown

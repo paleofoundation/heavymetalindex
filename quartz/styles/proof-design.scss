@@ -355,3 +355,15 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
 body[data-slug*="/categories/"] .wiki-content ul { column-count: 2; column-gap: 44px; list-style: none; margin: 8px 0; padding: 0; }
 body[data-slug*="/categories/"] .wiki-content ul li { break-inside: avoid; padding: 4px 0; font-size: 15px; }
 body[data-slug*="/categories/"] .wiki-content ul li::before { content: "\2192\00a0"; color: var(--burg); }
+
+/* Update-history filter tabs (major / minor / correction) + badge variants,
+   added by pageHistoryTimeline.inline.ts. Origin styles .hist-badge; these are
+   the classified variants and the All/Major/Minor/Corrections tab row. */
+.hist-tabs { display: flex; flex-wrap: wrap; gap: 4px; margin: 14px 0 2px; justify-content: flex-end; }
+.hist-tab { background: none; border: 1px solid transparent; border-radius: 6px; padding: 5px 12px; font-family: inherit; font-size: 13.5px; color: var(--burg); cursor: pointer; }
+.hist-tab:hover { background: var(--burg-tint); }
+.hist-tab-on { border-color: var(--burg); font-weight: 600; }
+.hist-item[hidden] { display: none; }
+.hist-badge { text-transform: capitalize; }
+.hist-badge-correction { color: #fff; background: var(--burg); }
+.hist-badge-minor { color: var(--muted); background: var(--line); }

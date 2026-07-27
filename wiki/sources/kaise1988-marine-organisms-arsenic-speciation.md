@@ -6,7 +6,7 @@ title: "Distribution of inorganic arsenic and methylated arsenic in marine organ
 authors: [Kaise T, Hanaoka K, Tagawa S, Hirayama T, Fukui S]
 year: 1988
 publication: "Applied Organometallic Chemistry"
-doi: null
+doi: "10.1002/aoc.590020607"
 source_type: peer-reviewed
 evidence_tier: B
 license: unknown

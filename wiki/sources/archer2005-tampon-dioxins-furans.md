@@ -6,7 +6,7 @@ title: "Dioxin and Furan Levels Found in Tampons"
 authors: [Archer JC, Mabry-Smith R, Shojaee S, Threet J, Eckert JJ, Litman VE]
 year: 2005
 publication: "Journal of Women's Health"
-doi: null
+doi: "10.1089/jwh.2005.14.311"
 access_url: null
 source_type: peer-reviewed
 evidence_tier: A

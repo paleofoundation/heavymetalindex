@@ -95,7 +95,7 @@ export default ((opts?: Partial<Options>) => {
       // Apparatus sections (Sources / Page history) are reached via the page
       // foot and the utility links, not the section nav — drop them so the nav
       // stays a curated reading map.
-      let entries = tocEntries.filter((e) => !/^(sources|page history)$/i.test((e.text ?? "").trim()))
+      let entries = tocEntries.filter((e) => !/^(sources|references|page history|update history)$/i.test((e.text ?? "").trim()))
       if (entries.length === 0) entries = tocEntries
       const minD = Math.min(...entries.map((e) => e.depth))
       const topCount = entries.filter((e) => e.depth === minD).length

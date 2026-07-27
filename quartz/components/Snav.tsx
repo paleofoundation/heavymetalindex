@@ -20,7 +20,7 @@ import snavScript from "./scripts/snav.inline"
 // over the page's existing H2s, so it applies to every metal page uniformly
 // without restructuring content. See the metal branch below.
 
-const DROP = /^(sources|page history)$/i // apparatus — reached via the icon utility links
+const DROP = /^(sources|references|page history|update history)$/i // apparatus — reached via the icon utility links
 // Secondary / non-reader-primary sections, folded under "Further detail".
 const FOLD = /app-?\s?layer|planned sections|^status$|metal pages|further detail/i
 
@@ -35,8 +35,8 @@ const FOLD = /app-?\s?layer|planned sections|^status$|metal pages|further detail
 // anchors. "Sources" is a page link (/sources) and always shows.
 const UTIL: { to?: string; anchor?: string; label: string; d: string; need?: RegExp }[] = [
   { to: "sources", label: "Sources", d: "M12 2 2 7l10 5 10-5-10-5z M2 17l10 5 10-5 M2 12l10 5 10-5" },
-  { anchor: "page-history", label: "Update History", need: /^page history$/i, d: "M3 3v5h5 M3.05 13A9 9 0 1 0 6 5.3L3 8 M12 7v5l3 2" },
-  { anchor: "sources", label: "References", need: /^sources$/i, d: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" },
+  { anchor: "update-history", label: "Update History", need: /^update history$/i, d: "M3 3v5h5 M3.05 13A9 9 0 1 0 6 5.3L3 8 M12 7v5l3 2" },
+  { anchor: "references", label: "References", need: /^references$/i, d: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" },
 ]
 
 type Sec = { slug?: string; text?: string; subs: any[]; fold: boolean }

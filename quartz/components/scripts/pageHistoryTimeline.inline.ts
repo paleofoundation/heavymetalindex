@@ -1,12 +1,22 @@
-// Transforms the generated "Page history" table (Commit | Date | Description)
-// into a burgundy vertical timeline (Examine-style "Update History") so changes
-// are easy to scan. Render-time only: the build/content is untouched and the
-// generator (build-page-changelogs.mjs) keeps emitting the table; this rebuilds
-// it as <ol class="hist-timeline"> styled by proof-design.scss.
+// Transforms the generated "Update history" table (Commit | Date | Change |
+// Description) into a burgundy vertical timeline with All / Major / Minor /
+// Corrections filter tabs. Render-time only: the build/content is untouched and
+// the generator (build-page-changelogs.mjs) keeps emitting the table, which stays
+// the crawlable and no-JS fallback; this rebuilds it as <ol class="hist-timeline">
+// styled by proof-design.scss.
 
 const MONTHS = [
   "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December",
+]
+
+const CLASSES = ["major", "minor", "correction"]
+
+const TABS: { key: string; label: string }[] = [
+  { key: "all", label: "All updates" },
+  { key: "major", label: "Major" },
+  { key: "minor", label: "Minor" },
+  { key: "correction", label: "Corrections" },
 ]
 
 function fmtDate(iso: string): string {
@@ -17,15 +27,17 @@ function fmtDate(iso: string): string {
   return `${MONTHS[mo - 1]} ${d}, ${y}`
 }
 
-// Pull the conventional-commit type ("fix(scope): subject" -> {fix, subject}).
-function splitType(desc: string): { type: string; title: string } {
+// Pre-classification history blocks rendered the raw commit subject in the third
+// column ("fix(scope): subject"). Kept so older builds degrade to a labelled
+// entry rather than an unlabelled one.
+function splitLegacy(desc: string): { type: string; title: string } {
   const m = desc.match(/^([a-z]+)(?:\([^)]*\))?:\s*(.*)$/i)
   if (m && m[2]) return { type: m[1].toLowerCase(), title: m[2] }
   return { type: "", title: desc }
 }
 
 function buildPageHistoryTimeline() {
-  const h = document.getElementById("page-history")
+  const h = document.getElementById("update-history") ?? document.getElementById("page-history")
   if (!h) return
 
   // find the table after the heading (skip the intro paragraph)
@@ -47,16 +59,32 @@ function buildPageHistoryTimeline() {
 
   const ol = document.createElement("ol")
   ol.className = "hist-timeline"
+  const present = new Set<string>()
 
   rows.forEach((tr, i) => {
     const cells = Array.from(tr.querySelectorAll("td"))
     if (cells.length < 3) return
     const commitA = cells[0].querySelector("a")
     const date = (cells[1].textContent || "").trim()
-    const { type, title } = splitType((cells[2].textContent || "").trim())
+
+    let type: string
+    let title: string
+    if (cells.length >= 4) {
+      type = (cells[2].textContent || "").trim().toLowerCase()
+      title = (cells[3].textContent || "").trim()
+    } else {
+      const legacy = splitLegacy((cells[2].textContent || "").trim())
+      type = legacy.type
+      title = legacy.title
+    }
+    if (!CLASSES.includes(type)) type = ""
 
     const li = document.createElement("li")
     li.className = i === 0 ? "hist-item hist-item-latest" : "hist-item"
+    if (type) {
+      li.dataset.change = type
+      present.add(type)
+    }
 
     const meta = document.createElement("div")
     meta.className = "hist-meta"
@@ -66,7 +94,7 @@ function buildPageHistoryTimeline() {
     meta.appendChild(dateEl)
     if (type) {
       const badge = document.createElement("span")
-      badge.className = "hist-badge"
+      badge.className = `hist-badge hist-badge-${type}`
       badge.textContent = type
       meta.appendChild(badge)
     }
@@ -90,7 +118,44 @@ function buildPageHistoryTimeline() {
     ol.appendChild(li)
   })
 
-  if (ol.children.length) container.replaceWith(ol)
+  if (!ol.children.length) return
+
+  const wrap = document.createElement("div")
+  wrap.className = "hist-wrap"
+
+  // Tabs appear only when there is more than one class to filter between —
+  // a single-class history does not need a chooser.
+  if (present.size > 1) {
+    const tabs = document.createElement("div")
+    tabs.className = "hist-tabs"
+    tabs.setAttribute("role", "tablist")
+    TABS.filter((t) => t.key === "all" || present.has(t.key)).forEach((t, idx) => {
+      const b = document.createElement("button")
+      b.type = "button"
+      b.className = idx === 0 ? "hist-tab hist-tab-on" : "hist-tab"
+      b.textContent = t.label
+      b.dataset.filter = t.key
+      b.setAttribute("role", "tab")
+      b.setAttribute("aria-selected", idx === 0 ? "true" : "false")
+      b.addEventListener("click", () => {
+        tabs.querySelectorAll(".hist-tab").forEach((other) => {
+          const on = other === b
+          other.classList.toggle("hist-tab-on", on)
+          other.setAttribute("aria-selected", on ? "true" : "false")
+        })
+        Array.from(ol.children).forEach((item) => {
+          const li = item as HTMLElement
+          const show = t.key === "all" || li.dataset.change === t.key
+          li.hidden = !show
+        })
+      })
+      tabs.appendChild(b)
+    })
+    wrap.appendChild(tabs)
+  }
+
+  wrap.appendChild(ol)
+  container.replaceWith(wrap)
 }
 
 document.addEventListener("nav", buildPageHistoryTimeline)

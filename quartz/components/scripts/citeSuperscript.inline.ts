@@ -5,6 +5,10 @@
 function applyCiteSuperscripts() {
   const content = document.querySelector(".wiki-content")
   if (!content) return
+  // Landing surfaces carry no citation apparatus; their links to /sources are
+  // navigation, not citations. Without this the homepage feature-card "Sources"
+  // link is eaten and rendered as a bare "[1]".
+  if ((document.body.dataset.slug ?? "") === "index") return
 
   // 1) Convert each source link to a superscript citation.
   const links = content.querySelectorAll('a[data-slug^="sources/"]')
@@ -13,7 +17,8 @@ function applyCiteSuperscripts() {
   links.forEach((el) => {
     const a = el as HTMLAnchorElement
     if (a.closest("sup.cite")) return
-    if (a.closest("table") && a.closest("#sources, [id='page-history']")) return
+    if (a.closest("table")) return
+    if (a.closest("#references, #sources, [id='page-history'], [id='update-history']")) return
     const slug = a.getAttribute("data-slug") || ""
     let num = numBySlug.get(slug)
     if (num === undefined) {
