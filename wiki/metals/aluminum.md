@@ -182,6 +182,19 @@ First, the population-level TWI exceedance documented by [[sources/efsa-aluminiu
 
 Second, the relationship between dietary aluminum exposure and Alzheimer's disease has been investigated extensively over decades without a definitive consensus emerging. Current dominant view is that aluminum is not a primary causal factor in Alzheimer's, but the literature remains contested in some quarters. The wiki tracks this as a live methodological question without taking a position pending stronger meta-analytic synthesis.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. EFSA Panel on Food Additives, Flavourings, Processing Aids and Food Contact Materials (AFC) (2008). *Safety of Aluminium from Dietary Intake*. The EFSA Journal 2008;754:1-34. [https://doi.org/10.2903/j.efsa.2008.754](https://doi.org/10.2903/j.efsa.2008.754). Government report, A-tier. [[sources/efsa-aluminium-afc-2008|Source record]]
+2. Agency for Toxic Substances and Disease Registry (2008). *Toxicological Profile for Aluminum*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp22.pdf). Government report, A-tier. [[sources/atsdr-aluminum-toxprofile-2008|Source record]]
+3. Joint FAO/WHO Expert Committee on Food Additives (2005). *Combined Compendium of Food Additive Specifications: All Specifications Monographs from the 1st to the 65th Meeting (1956-2005)*. FAO JECFA Monographs 1, ISSN 1817-7077. [openknowledge.fao.org](https://openknowledge.fao.org/handle/20.500.14283/a0691e). Government report, A-tier. [[sources/jecfa-food-additive-specs-compendium|Source record]]
+4. Ufelle AC and Barchowsky A (2021). *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*. Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education. [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827). Textbook chapter, A-tier. [[sources/ufelle2021-metals-chapter|Source record]]
+5. Esther Lima de Paiva, Camila Medeiros, Maria Isabel Andrekowisk Fioravanti, Raquel Fernanda Milani, Marcelo Antônio Morgano, Juliana Azevedo Lima Pallone, et al. (2020). *Aluminium in infant foods: Total content, effect of in vitro digestion on bioaccessible fraction and preliminary exposure assessment*. Journal of Food Composition and Analysis 90:103493. [https://doi.org/10.1016/j.jfca.2020.103493](https://doi.org/10.1016/j.jfca.2020.103493). Peer-reviewed, A-tier. [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility|Source record]]
+6. James Redgrove, Isabel Rodriguez, Subramanian Mahadevan-Bava, and Christopher Exley (2019). *Prescription Infant Formulas Are Contaminated with Aluminium*. International Journal of Environmental Research and Public Health 16(5):899. [https://doi.org/10.3390/ijerph16050899](https://doi.org/10.3390/ijerph16050899). Peer-reviewed, A-tier. [[sources/redgrove2019-prescription-infant-formulas-aluminium|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -438,15 +451,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [5757c0098](https://github.com/paleofoundation/heavymetalindex/commit/5757c0098) | 2026-05-13 | major | 6 sources removed; narrative text revised |
+| [1fa17efaf](https://github.com/paleofoundation/heavymetalindex/commit/1fa17efaf) | 2026-05-11 | major | 1 source added; 1 section added; narrative text revised |
+| [9d8a88a6b](https://github.com/paleofoundation/heavymetalindex/commit/9d8a88a6b) | 2026-05-11 | major | 1 source added; 1 section added; narrative text revised |
+| [3d34b33a9](https://github.com/paleofoundation/heavymetalindex/commit/3d34b33a9) | 2026-04-30 | major | 2 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

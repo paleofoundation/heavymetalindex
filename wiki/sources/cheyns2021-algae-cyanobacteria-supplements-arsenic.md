@@ -107,3 +107,13 @@ This source provides a primary, sample-level occurrence dataset for algae and cy
 - Speciation check: `Astot` is recorded as total arsenic; `Asi` is the source's measured inorganic arsenic fraction after extraction/oxidation; DMA and AB are not collapsed into total or inorganic arsenic. The `Astot-AB` metric is the source's potentially toxic fraction, not a measured inorganic-arsenic value.
 - Brand firewall: the page retains only anonymized source sample IDs (FS1-FS33) and species/formulation categories; no brand names or retailer names are attached to values.
 - Missing-slug note: the taxonomy snapshot has no exact ingredient slugs for `Chlorella`, `Spirulina`, `cyanobacteria`, `Ascophyllum`, `Fucus`, `Macrocystis`, or `Lithothamnium`. Frontmatter uses broad existing `seaweed`, `herbal-botanicals`, `supplements-algae-seaweed-based`, and `dietary-supplements` slugs; exact organism names remain in source text.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [9101d0500](https://github.com/paleofoundation/heavymetalindex/commit/9101d0500) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

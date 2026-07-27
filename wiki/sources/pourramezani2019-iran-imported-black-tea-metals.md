@@ -147,11 +147,12 @@ Arsenic and mercury speciation: HGAAS and CV-AAS measure total fractions only. T
 Copper left-censoring: the reported Cu LOD of 0.033 mg/kg equals the reported Cu minimum for both Indian and Sri Lankan tea samples (Table 2). At least one sample in each origin sat at the detection floor. The paper does not disclose the number of left-censored Cu samples or the censoring substitution rule used in the mean (LOD, LOD/2, or zero). The per-origin Cu means are reported here as printed in Table 2 without adjustment.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [6a6ebd3](https://github.com/paleofoundation/heavymetalindex/commit/6a6ebd3) | 2026-06-08 | ingest: pourramezani2019-iran-imported-black-tea-metals fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [6a6ebd3fb](https://github.com/paleofoundation/heavymetalindex/commit/6a6ebd3fb) | 2026-06-08 | major | 11 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

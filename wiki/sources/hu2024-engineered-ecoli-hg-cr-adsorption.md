@@ -94,12 +94,13 @@ Within the wiki/HMTc firewall, this source bears on no per-row P97/P45 percentil
 - Subagent verdict: REVISE; both findings applied with verification against the source. No QUARANTINE triggers (no ❌ Check 1 cluster, no Check 4 or Check 5 ❌).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [feb2f85](https://github.com/paleofoundation/heavymetalindex/commit/feb2f85) | 2026-06-08 | audit: coghlan2015-tcm-heavy-metals-audit revised per autonomous audit |
-| [caaa2ee](https://github.com/paleofoundation/heavymetalindex/commit/caaa2ee) | 2026-06-08 | audit: demir2025-coffee-elements-turkiye revised per autonomous audit |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [feb2f8563](https://github.com/paleofoundation/heavymetalindex/commit/feb2f8563) | 2026-06-08 | minor | Narrative text revised |
+| [caaa2eea9](https://github.com/paleofoundation/heavymetalindex/commit/caaa2eea9) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

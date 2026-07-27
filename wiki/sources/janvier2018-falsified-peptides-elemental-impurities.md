@@ -81,11 +81,13 @@ Elemental impurity analysis used three platforms: an Agilent 8800 triple-quadrup
 - Product slug `research-chemicals-peptides-sarms` exists in `wiki/products/` as of 2026-06-08 but is not in the 2026-05-18 taxonomy snapshot (snapshot is stale). The slug is real; flagging for snapshot refresh, not for slug correction.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [a5451d9](https://github.com/paleofoundation/heavymetalindex/commit/a5451d9) | 2026-06-08 | ingest: janvier2018-falsified-peptides-elemental-impurities + close peptide_contamination set (June 8) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [420f11988](https://github.com/paleofoundation/heavymetalindex/commit/420f11988) | 2026-06-08 | minor | Narrative text revised |
+| [d4b5a7dbb](https://github.com/paleofoundation/heavymetalindex/commit/d4b5a7dbb) | 2026-06-08 | major | 1 section added; narrative text revised |
+| [a5451d9da](https://github.com/paleofoundation/heavymetalindex/commit/a5451d9da) | 2026-06-08 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -101,15 +101,13 @@ App: Country-of-origin or state-of-sale "US-ME" plus product category "children'
 - **Maine downstream regulatory products not in corpus.** The chemicals-of-high-concern list (published by Maine DEP / MeCDC per the § 1693(1) deadline of 1 January 2010 and revised periodically per § 1693(2)), the priority-chemical designations under § 1694, the § 1696 sale-prohibition rules, the § 1695 disclosure rule, and the § 1697(6) mercury-added-products coordination rules are separate regulatory artefacts that descend from this statute. None are presently in the HMI corpus. When they enter, they should be ingested as separate source pages with their own cite-keys; this statute is the upstream authority and should be wikilinked from each.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1c410cb9c](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb9c) | 2026-06-01 | major | 1 section added |
+| [aa0d6dcc4](https://github.com/paleofoundation/heavymetalindex/commit/aa0d6dcc4) | 2026-06-01 | major | 1 source added; narrative text revised |
+| [66af599fa](https://github.com/paleofoundation/heavymetalindex/commit/66af599fa) | 2026-06-01 | major | 4 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -159,15 +159,12 @@ This source contributes Iranian retail-market occurrence data for Cd, Pb and tot
 - **Basis.** The paper does not state explicitly whether the published concentrations are on a wet-weight or dry-weight basis, but the dry-ashing protocol (samples dried at 80 °C for 2 h then 105 °C for 6 h before ashing) effectively removes the free water and ash-trapped values are referenced back to the original "5 g of each sample" weight. The "5 g of each sample" weighing step is described after the drying step in the Methods §2.2 dry-ashing paragraph, indicating that the 5 g is the dry weight; values are therefore on a dry-weight basis. The wiki Key numbers tables label the values in mg/kg without an explicit `dw` suffix because the paper itself does not make the basis explicit; downstream pooling work that needs the basis explicit should treat the values as dry-weight per this transcription note. The Iranian and FAO/WHO cereal ceilings cited (0.04-0.20 mg/kg) are not basis-labelled in either standard but are conventionally interpreted on the as-marketed packed-rice basis (low moisture, effectively dry); the discrepancy between the paper's dry-weight measurements and the ceilings' as-marketed reference frame is small for polished packed rice and is not flagged by the paper.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [48d950920](https://github.com/paleofoundation/heavymetalindex/commit/48d950920) | 2026-06-01 | major | 3 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

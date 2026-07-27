@@ -124,3 +124,13 @@ App: The source can support explanatory game-meat cards about lead-fragment diss
 - Speciation: the source concerns metallic elemental lead fragments and dissolved/bioaccessible lead compounds from those fragments. No arsenic, mercury, chromium, or organotin speciation is involved.
 - Brand firewall: ammunition model names printed in table headings and methods were not attached to contamination values on this page. Instrument and laboratory details are scientific-method context.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy has `game-meats` as a product slug but lacks exact `wild-boar-meat` or `game-meat` ingredient slugs, so ingredients route through broad `meat`, `meat-and-poultry`, and `organ-meats`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [f54cd506e](https://github.com/paleofoundation/heavymetalindex/commit/f54cd506e) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

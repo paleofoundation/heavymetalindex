@@ -184,16 +184,32 @@ Second, the EPA IRIS methylmercury reassessment (currently in step 1 at IRIS) ma
 
 See also [[studies/mercury-primary-literature]] for the citable index of mercury-focused primary research articles in raw/studies/.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 9 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Agency for Toxic Substances and Disease Registry (2024). *Toxicological Profile for Mercury*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp46.pdf). Government report, A-tier. [[sources/atsdr-mercury-toxprofile-2024|Source record]]
+2. U.S. Environmental Protection Agency (1995). *Mercuric Chloride (HgCl2) — IRIS Chemical Assessment Summary*. U.S. Environmental Protection Agency, Integrated Risk Information System. [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=692). Government report, A-tier. [[sources/epa-iris-mercuric-chloride|Source record]]
+3. U.S. Environmental Protection Agency (2001). *Methylmercury (MeHg) — IRIS Chemical Assessment Summary*. U.S. Environmental Protection Agency, Integrated Risk Information System. [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=73). Government report, A-tier. [[sources/epa-iris-methylmercury|Source record]]
+4. Joint FAO/WHO Expert Committee on Food Additives (2004). *Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA*. WHO Technical Report Series 922. [https://doi.org/10.1016/s0168-1605(03)00167-3](https://doi.org/10.1016/s0168-1605(03)00167-3). Government report, A-tier. [[sources/jecfa-61st-methylmercury|Source record]]
+5. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2012). *Scientific Opinion on the Risk for Public Health Related to the Presence of Mercury and Methylmercury in Food*. EFSA Journal 2012;10(12):2985. [https://doi.org/10.2903/j.efsa.2012.2985](https://doi.org/10.2903/j.efsa.2012.2985). Government report, A-tier. [[sources/efsa-mercury-methylmercury-2012|Source record]]
+6. United Nations Environment Programme (2013). *Minamata Convention on Mercury — Text and Annexes (2024 Edition)*. United Nations Environment Programme, Secretariat of the Minamata Convention on Mercury. [minamataconvention.org](https://minamataconvention.org/en/resources/minamata-convention-mercury-text-annexes). Government report, A-tier. [[sources/minamata-convention-2013|Source record]]
+7. Farina M, Rocha JBT, and Aschner M (2011). *Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies*. Life Sciences 89(15-16):555-563. [https://doi.org/10.1016/j.lfs.2011.05.019](https://doi.org/10.1016/j.lfs.2011.05.019). Peer-reviewed, A-tier. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Source record]]
+8. U.S. Food and Drug Administration and U.S. Environmental Protection Agency (2017). *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*. U.S. FDA and U.S. EPA. [www.fda.gov](https://www.fda.gov/food/consumers/advice-about-eating-fish). Government report, A-tier. [[sources/fda-epa-fish-consumption-advice|Source record]]
+9. Ufelle AC and Barchowsky A (2021). *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*. Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education. [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827). Textbook chapter, A-tier. [[sources/ufelle2021-metals-chapter|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [3902221b1](https://github.com/paleofoundation/heavymetalindex/commit/3902221b1) | 2026-05-11 | major | 1 source added; narrative text revised |
+| [3d34b33a9](https://github.com/paleofoundation/heavymetalindex/commit/3d34b33a9) | 2026-04-30 | major | 1 source added; narrative text revised |
+| [7c4c20f88](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f88) | 2026-04-25 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

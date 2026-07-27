@@ -170,15 +170,15 @@ App: Contextual signal that mercury in sea bass is the regulated-metal exceedanc
 - The Fernandes 2009b / FSAS 2009 mercury range "0.025 to 0.47 mg/kg" appears in the report twice with slightly different formulations (0.025-0.047 mg/kg in the §9.3 narrative text; 0.025-0.47 mg/kg in the Mercury summary on p. 63 and Table 17 row). The page records the 0.025-0.47 mg/kg value because the report itself uses that range in the summary table that draws together the multiple FSAS 2009 result threads.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [488ba73](https://github.com/paleofoundation/heavymetalindex/commit/488ba73) | 2026-06-03 | audit: macdonald2025-fss-uk-fishery-contaminants-review [revised] |
-| [2ed6603](https://github.com/paleofoundation/heavymetalindex/commit/2ed6603) | 2026-06-03 | ingest: macdonald2025-fss-uk-fishery-contaminants-review [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [488ba73d9](https://github.com/paleofoundation/heavymetalindex/commit/488ba73d9) | 2026-06-03 | minor | Narrative text revised |
+| [2ed660343](https://github.com/paleofoundation/heavymetalindex/commit/2ed660343) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

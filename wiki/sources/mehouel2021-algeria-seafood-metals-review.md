@@ -100,11 +100,12 @@ The source is useful for routing Algerian and neighboring southwestern Mediterra
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. Crustacean- and sardine-specific product/ingredient slugs were not available in the snapshot, so those rows are carried under broad seafood, fish, and shellfish context rather than invented slugs.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [d795404](https://github.com/paleofoundation/heavymetalindex/commit/d795404) | 2026-06-08 | ingest: mehouel2021-algeria-seafood-metals-review fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [d79540411](https://github.com/paleofoundation/heavymetalindex/commit/d79540411) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

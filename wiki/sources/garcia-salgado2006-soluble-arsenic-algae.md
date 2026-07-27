@@ -87,3 +87,13 @@ The market *Hizikia* result is the most directly relevant food occurrence row in
 - Units are preserved as `µg g−1`, `%`, `ng As`, and `µg`; no conversions were performed.
 - Evidence tier B reflects peer-reviewed method/speciation data with exact species and method validation, but a small sample set and inclusion of a CRM/research material rather than a full market survey.
 - Brand firewall: no sampled brands are reported; market purchase is retained only at category level.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b22465f79](https://github.com/paleofoundation/heavymetalindex/commit/b22465f79) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

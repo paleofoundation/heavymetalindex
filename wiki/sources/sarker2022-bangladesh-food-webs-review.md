@@ -81,15 +81,14 @@ Systematic and non-exhaustive review (no PRISMA protocol or verified methodology
 - Audit subagent (2026-05-18) flagged `[[regulations/codex-cxs-193-1995]]` as a non-existent regulation slug; verified against source — the review references WHO/FAO MTLs generically (and JECFA 2003 in Fig. 3) but never names Codex CXS 193-1995. Bullet removed from "Wiki pages this source may touch."
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [2204e14d9](https://github.com/paleofoundation/heavymetalindex/commit/2204e14d9) | 2026-05-18 | minor | Narrative text revised |
+| [a11dcb5d3](https://github.com/paleofoundation/heavymetalindex/commit/a11dcb5d3) | 2026-05-18 | minor | Narrative text revised |
+| [d0adb11bf](https://github.com/paleofoundation/heavymetalindex/commit/d0adb11bf) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

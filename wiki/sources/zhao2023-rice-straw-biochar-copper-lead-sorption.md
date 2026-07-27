@@ -123,15 +123,13 @@ Source-internal K_L unit inconsistency: Table 2 header reports K_L in L/kg, whil
 Audit subagent 2026-06-02 flagged Table 1 column header "C=O / -COO in C 1s (%)" as misleading — verified against PDF Table 1 (C 1s panel has columns C=C, C-C, C-O, -COO, π-π only; C=O appears only in O 1s deconvolution); corrected header to "-COO in C 1s (%)". Audit also flagged `[[supply-chain/soil-to-plant-transfer]]` as a slug outside the taxonomy snapshot — verified against `wiki/supply-chain/soil-to-plant-transfer.md`; finding was a false positive because the snapshot enumerates only ingredients/products/metals/regulations and `supply-chain/` is its own valid directory.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [97161e6](https://github.com/paleofoundation/heavymetalindex/commit/97161e6) | 2026-06-02 | audit: zhao2023-rice-straw-biochar-copper-lead-sorption revised |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [97161e623](https://github.com/paleofoundation/heavymetalindex/commit/97161e623) | 2026-06-02 | minor | Narrative text revised |
+| [1f103c511](https://github.com/paleofoundation/heavymetalindex/commit/1f103c511) | 2026-06-02 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

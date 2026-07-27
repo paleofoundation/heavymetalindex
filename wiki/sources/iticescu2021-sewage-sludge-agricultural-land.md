@@ -113,15 +113,15 @@ App: No direct ingredient-level data — the study measures sludge and soil, not
 - [[supply-chain/soil-contamination-sources]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [99de81a](https://github.com/paleofoundation/heavymetalindex/commit/99de81a) | 2026-06-03 | audit: iticescu2021-sewage-sludge-agricultural-land revised |
-| [7d4aa43](https://github.com/paleofoundation/heavymetalindex/commit/7d4aa43) | 2026-06-03 | ingest: iticescu2021-sewage-sludge-agricultural-land enhanced from Manual Fetch Kimi /June 2 Manual Fetches |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [99de81a4e](https://github.com/paleofoundation/heavymetalindex/commit/99de81a4e) | 2026-06-03 | major | 1 source added; narrative text revised |
+| [7d4aa43a2](https://github.com/paleofoundation/heavymetalindex/commit/7d4aa43a2) | 2026-06-03 | major | 2 sources added; 5 sections added and 5 removed; narrative text revised |
 <!-- END: hmi-page-history -->

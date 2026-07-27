@@ -77,3 +77,13 @@ App: Context only. The source can support groundwater-source due-diligence flags
 Recovered from `skip:not-target-cell` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as outside the target cell because it measured groundwater and aquifer sediment rather than mineral-water product occurrence. On reading, it is in-scope a3/a4 source-attribution and groundwater exposure-context evidence with measured arsenic and sediment values.
 
 Numbers were checked against the abstract, Table 2, Table 3, Figures 3-4 text, the groundwater arsenic results paragraph, and methods in the extracted PDF. Arsenic is recorded as `tAs` because the study measured total arsenic in sediments and groundwater without separating inorganic species in its own analytical results. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [a9b5a0ec1](https://github.com/paleofoundation/heavymetalindex/commit/a9b5a0ec1) | 2026-06-10 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

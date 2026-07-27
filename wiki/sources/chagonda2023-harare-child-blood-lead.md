@@ -65,3 +65,13 @@ App: Context-only for exposure education and risk-factor language; it does not p
 ## Verification notes
 
 This page was built from the PDF text, including the abstract, methods, Tables 1 and 4, results, and discussion. The abstract appears to omit the micro symbol in "4.3 +/- 0.75 ug/dL" in text extraction; the tables and surrounding prose use ug/dL for blood lead. Products and ingredients are intentionally empty because the paper does not measure a consumer-product concentration matrix. The source reports total lead only.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b296791a7](https://github.com/paleofoundation/heavymetalindex/commit/b296791a7) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

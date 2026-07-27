@@ -69,3 +69,13 @@ App: Context-only mitigation evidence for nickel-removal strategies; not a consu
 This page was built from the PDF title/byline, abstract, methods section, Table 1, discussion, desorption section, conclusion, and references. Products and ingredients are intentionally empty because the source tests spiked aqueous Ni2+ solutions and chitosan-silica aerogel, not consumer-product occurrence. The matrices are descriptive remediation-domain strings; the remediation vocabulary gap follows the pattern documented on existing remediation source pages.
 
 The PDF gives two close but non-identical maximum removal values: the abstract and conclusion state `99.78%`, while the pH-results paragraph states `99.89%` at pH 3. Both are preserved and attributed rather than harmonized.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [631e6eead](https://github.com/paleofoundation/heavymetalindex/commit/631e6eead) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -81,3 +81,13 @@ The paper provides limited occurrence context for dried hemp flowers and plant p
 - Evidence tier: C, because this is a trade-publication technical feature with three hemp-flower varieties, not a peer-reviewed occurrence survey.
 - Brand firewall: the source names cultivar/variety labels (Finola, Felina, Santhica), not sampled commercial brands. The German drugstore purchase channel is retained as sample-frame context without naming a retailer.
 - Missing slug note: the taxonomy snapshot has no exact hemp/cannabis product or ingredient slug. Frontmatter uses broad `[[ingredients/herbal-botanicals]]` and `[[products/supplements-botanicals-herbs]]`, with hemp/cannabis retained only as matrix descriptors.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [2eb93347f](https://github.com/paleofoundation/heavymetalindex/commit/2eb93347f) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

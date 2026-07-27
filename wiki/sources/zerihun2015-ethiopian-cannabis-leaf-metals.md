@@ -77,3 +77,13 @@ The source provides small-n, dry-weight occurrence context for cannabis leaves u
 - Sample count note: `sample_n: 4` reflects the four regional cannabis-leaf bulk samples. Table 7's `n = 9` is retained in the Key numbers as the source's replicate analytical count for each regional mean.
 - Brand firewall: no brands are reported; samples were confiscated or police-collected regional plant material.
 - Missing slug note: the taxonomy snapshot has no cannabis-specific product or ingredient slug. Frontmatter uses broad `[[ingredients/herbal-botanicals]]` and `[[products/supplements-botanicals-herbs]]`, with cannabis leaf terms retained only as matrix descriptors.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [718c85d1d](https://github.com/paleofoundation/heavymetalindex/commit/718c85d1d) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

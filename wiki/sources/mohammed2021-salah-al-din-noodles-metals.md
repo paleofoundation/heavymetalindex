@@ -57,11 +57,13 @@ This source contributes Iraq-market noodle occurrence ranges plus per-sample dis
 - 2026-06-09 autonomous audit: GPT-style 5-check audit returned PROMOTE with one ⚠️ on figure readability. Independent verification confirmed Figures 4-6 do show readable per-sample bar values; Key numbers, Implications, and Verification notes updated to add per-sample distribution statistics for Cu (n=10) and Cd (n=10) and to clarify the Part 12 reasoning for not pairing per-sample values with descriptors. Numerical fidelity, slug vocabulary, speciation/methods, and wiki/HMTc firewall checks all clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c216f24](https://github.com/paleofoundation/heavymetalindex/commit/c216f24) | 2026-06-08 | ingest: mohammed2021-salah-al-din-noodles-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3578c74dd](https://github.com/paleofoundation/heavymetalindex/commit/3578c74dd) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [c216f2486](https://github.com/paleofoundation/heavymetalindex/commit/c216f2486) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

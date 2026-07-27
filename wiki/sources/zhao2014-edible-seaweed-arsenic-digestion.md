@@ -98,3 +98,13 @@ This source contributes seaweed/kelp food occurrence evidence for both total ars
 - Speciation check: total As, As(III), As(V), DMA, and MMA are kept distinct. As(III) and As(V) are treated as inorganic arsenic context; DMA and MMA are not promoted to iAs.
 - Brand firewall: samples are supermarket-purchased seaweeds by species, with no product brand names reported.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact seaweed species remain in Key numbers while frontmatter routes broadly to seaweed/kelp foods.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3ad014942](https://github.com/paleofoundation/heavymetalindex/commit/3ad014942) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

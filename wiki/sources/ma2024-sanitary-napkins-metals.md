@@ -77,3 +77,13 @@ Microbiome: Not applicable.
 ## Verification notes
 
 Identity checks before drafting found no existing `wiki/sources/` hit for DOI `10.1016/j.eti.2024.103606`, raw handle `MFK_1-s2-0-s2352186424000828-main`, cite key `ma2024-sanitary-napkins-metals`, or the exact title. The DOI, title, authors, journal, year, and CC BY-NC-ND license were checked against the first page and PDF metadata. Table 1 values were re-opened from `/tmp/hmi-fem-003.txt` and checked against the source table; units remain `μg/kg`, and values below LOQ remain marked with `<`. Table 4 exposure estimates and Section 3.4 HI/CR values were checked separately and kept as source-side exposure context. The paper does not measure inorganic arsenic, Cr(VI), or any mercury species; frontmatter therefore uses `tAs` and `Cr` only. The source describes brand selection but this page intentionally reports only country/category and study-level statistics under the brand firewall. Frontmatter product and matrix slugs were checked against the closed taxonomy snapshot; no new slugs were invented. `npm run evidence:source-routes` exited 0 and generated one `menstrual-pads` route; `routing_malformed.csv` contains the same advisory-only missing-ingredients warning already present for other personal-care source pages because the closed ingredient vocabulary has no valid sanitary-napkin material slug, so `ingredients: []` is intentionally retained.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [607df174a](https://github.com/paleofoundation/heavymetalindex/commit/607df174a) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

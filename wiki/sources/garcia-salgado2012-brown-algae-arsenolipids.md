@@ -83,3 +83,13 @@ This source adds seaweed organoarsenic speciation context for commercial Wakame 
 - Units and basis are preserved as `µg As g-1 dry mass`, `%`, `µg As kg-1`, and `µg As g-1`; no conversions were performed.
 - Evidence tier B reflects peer-reviewed primary speciation data with exact species and QA/QC, but only two commercial materials and a rapid-communication scope.
 - Brand firewall: no sampled brands are reported. Instrument, column, and reference-material names are retained only as scientific method details.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [2f0d1d71a](https://github.com/paleofoundation/heavymetalindex/commit/2f0d1d71a) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

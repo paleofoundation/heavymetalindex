@@ -80,15 +80,14 @@ This source contributes China-market rice occurrence evidence for tAs, iAs, Cd, 
 - Autonomous audit 2026-06-09 flagged Adult HI P95 as 5.51 (per narrative on p.11515) vs the wiki's 5.50 (per Table 4 on p.11517); verified against PDF — Table 4 reports 5.50 and Table 4 is the canonical tabular source. The narrative line ("5.51 for adults and ... 6.16 for children") is internally inconsistent with the table (6.21 for children), so the wiki tracks Table 4 throughout. Finding rejected as false positive.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ab877d](https://github.com/paleofoundation/heavymetalindex/commit/1ab877d) | 2026-06-08 | ingest: hao2022-probabilistic-risk-rice-mining-county fresh from MFK/June 8 New Folder With Items 3 2 |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [598ebf521](https://github.com/paleofoundation/heavymetalindex/commit/598ebf521) | 2026-06-09 | minor | Narrative text revised |
+| [1ab877dc8](https://github.com/paleofoundation/heavymetalindex/commit/1ab877dc8) | 2026-06-08 | major | 3 sections added and 3 removed; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [29a65ac86](https://github.com/paleofoundation/heavymetalindex/commit/29a65ac86) | 2026-05-12 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -67,3 +67,13 @@ App: Supports coffee ingredient and product context, but regional Peru data shou
 ## Verification notes
 
 The DOI, title, author list, journal, and year were taken from the Foods PDF. The paper reports inorganic arsenic specifically, but mercury is reported only as Hg; this page records it as total mercury and does not infer methylmercury. The text appears to print the Italian-machine iAs infusion mean as 0.42 mg/kg while the adjacent espresso and French means are 0.041 and 0.040 mg/kg; this page does not rely on that apparent decimal anomaly for routing or key occurrence summaries.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [bf1a991b5](https://github.com/paleofoundation/heavymetalindex/commit/bf1a991b5) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

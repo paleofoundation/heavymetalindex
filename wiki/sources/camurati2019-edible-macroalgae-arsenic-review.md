@@ -71,13 +71,14 @@ Narrative critical review. The authors searched SCOPUS using keywords (marine al
 - Cross-source note: this review cites several primary studies also held in this folder (e.g., Almela 2002, Rose 2007, Ronan 2017, Taylor & Jackson 2016, Llorente-Mirandes 2010/2011); cross-source synthesis against them belongs to the Part 9 synthesis pass, not this source page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [9912a16](https://github.com/paleofoundation/heavymetalindex/commit/9912a16) | 2026-06-08 | audit: camurati2019-edible-macroalgae-arsenic-review revised |
-| [365a5ca](https://github.com/paleofoundation/heavymetalindex/commit/365a5ca) | 2026-06-08 | fix: camurati2019 jurisdictions [] -> [AR] (clear non-blocking routing advisory) |
-| [e20b61f](https://github.com/paleofoundation/heavymetalindex/commit/e20b61f) | 2026-06-08 | ingest: camurati2019-edible-macroalgae-arsenic-review fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [9912a166a](https://github.com/paleofoundation/heavymetalindex/commit/9912a166a) | 2026-06-08 | minor | Narrative text revised |
+| [365a5caee](https://github.com/paleofoundation/heavymetalindex/commit/365a5caee) | 2026-06-08 | correction | Narrative text revised |
+| [e20b61fc6](https://github.com/paleofoundation/heavymetalindex/commit/e20b61fc6) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

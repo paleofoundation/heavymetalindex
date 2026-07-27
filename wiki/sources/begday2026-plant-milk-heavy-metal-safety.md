@@ -150,12 +150,13 @@ The source contains two internal Russian-text vs. Table 1 inconsistencies that t
 Audit subagent (2026-06-08, agent a85bea8c) flagged that the Wiki-pages-this-source-may-touch list omitted `[[metals/zinc]]` and `[[metals/copper]]` despite the source measuring both metals and despite both metal pages existing in the wiki; verified independently — both pages confirmed present in `wiki/metals/` (zinc.md, copper.md). Added both wikilinks. All other audit checks returned ✅ clean; verdict PROMOTE with this single completeness improvement.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [ca80310](https://github.com/paleofoundation/heavymetalindex/commit/ca80310) | 2026-06-08 | audit: begday2026-plant-milk-heavy-metal-safety promoted |
-| [a74b96c](https://github.com/paleofoundation/heavymetalindex/commit/a74b96c) | 2026-06-08 | ingest: begday2026-plant-milk-heavy-metal-safety fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [ca8031044](https://github.com/paleofoundation/heavymetalindex/commit/ca8031044) | 2026-06-08 | minor | Narrative text revised |
+| [a74b96c98](https://github.com/paleofoundation/heavymetalindex/commit/a74b96c98) | 2026-06-08 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

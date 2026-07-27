@@ -80,3 +80,13 @@ This source is high-value inorganic-arsenic evidence for raw stranded *Sargassum
 - Units and basis are preserved as `mg kg-1 dw`, `%`, `µg L-1`, and `mg kg-1`; no conversions were performed.
 - Evidence tier A reflects peer-reviewed primary iAs data with n=101, seasonal/morphotype structure, reference material checks, detection limits, and triplicate extract measurements.
 - Brand firewall: no sampled brands are reported; company names in the discussion are not attached to contamination values and are not used in Key numbers.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [81d037406](https://github.com/paleofoundation/heavymetalindex/commit/81d037406) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

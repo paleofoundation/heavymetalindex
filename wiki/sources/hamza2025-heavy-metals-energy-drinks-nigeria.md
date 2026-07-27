@@ -293,13 +293,13 @@ Open-access publication in Communication in Physical Sciences (CPS), Vol 12, Iss
 No false-positive findings to record. No frontmatter changes required. Routing unaffected (sports-energy-drinks direct_evidence row unchanged).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [e705b0a](https://github.com/paleofoundation/heavymetalindex/commit/e705b0a) | 2026-06-06 | ingest: hamza2026-heavy-metals-energy-drinks-health-risk fresh from Manual Fetch Discovery |
-| [e7cfc9f](https://github.com/paleofoundation/heavymetalindex/commit/e7cfc9f) | 2026-06-06 | audit: hamza2025-heavy-metals-energy-drinks-nigeria revised |
-| [d3ac734](https://github.com/paleofoundation/heavymetalindex/commit/d3ac734) | 2026-06-06 | ingest: hamza2025-heavy-metals-energy-drinks-nigeria fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [e7cfc9fd8](https://github.com/paleofoundation/heavymetalindex/commit/e7cfc9fd8) | 2026-06-06 | minor | Narrative text revised |
+| [d3ac7341e](https://github.com/paleofoundation/heavymetalindex/commit/d3ac7341e) | 2026-06-06 | major | 15 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

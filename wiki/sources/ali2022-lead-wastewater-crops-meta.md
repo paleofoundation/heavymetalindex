@@ -64,15 +64,15 @@ Microbiome: Not directly applicable.
 - Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Preserved the source text's reported soil unit in Key numbers, tightened HMT&C/app language away from wiki-side sourcing directives, corrected matrix vocabulary, removed a non-taxonomy supply-chain wikilink, and removed named analysis-software vendors from Methods while preserving the meta-analysis workflow.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [23e1355b3](https://github.com/paleofoundation/heavymetalindex/commit/23e1355b3) | 2026-05-17 | minor | Narrative text revised |
+| [018ad5c31](https://github.com/paleofoundation/heavymetalindex/commit/018ad5c31) | 2026-05-17 | minor | Narrative text revised |
+| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
+| [3153dee0d](https://github.com/paleofoundation/heavymetalindex/commit/3153dee0d) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -111,15 +111,13 @@ Matrices vocabulary note (added 2026-06-02 post-audit): the matrix strings `padd
 Audit (2026-06-02 v2 skill subagent): verdict REVISE with two ⚠️ concerns. Concern on `[[mitigation/agronomic]]` and `[[testing/index]]` as out-of-snapshot wiki targets verified as a false positive — both pages exist in `wiki/mitigation/agronomic.md` and `wiki/testing/index.md`; the taxonomy snapshot only enumerates ingredient/product/metal/regulation slugs by design and is not a complete cross-namespace target list. Concern on non-canonical matrices verified as partially correct and documented in the matrices-vocabulary note above. Numerical fidelity, speciation, brand firewall, and HMTc firewall checks were all ✅ clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [7e58115](https://github.com/paleofoundation/heavymetalindex/commit/7e58115) | 2026-06-02 | ingest June 2: liu2023-xingren-rice-paddy-soil-heavy-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [7e5811561](https://github.com/paleofoundation/heavymetalindex/commit/7e5811561) | 2026-06-02 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

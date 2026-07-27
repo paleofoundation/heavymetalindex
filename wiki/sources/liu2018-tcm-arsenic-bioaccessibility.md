@@ -123,3 +123,13 @@ This source supports broad herbal-botanical supplement and herbal-infusion routi
 - Speciation check: As(III), As(V), DMA, MMA, and AsB are kept separate where reported. Total arsenic values are not promoted to inorganic arsenic.
 - Brand firewall: the source reports medicine categories and sample codes but no consumer brand ranking is reproduced.
 - Missing-slug check: taxonomy snapshot has no exact `traditional-chinese-medicines` or `realgar` ingredient/product slug. Frontmatter uses broad herbal-botanical, dried-herb, dietary-supplement, and herbal-infusion slugs while exact medicine names and realgar context remain in prose.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [401afcfae](https://github.com/paleofoundation/heavymetalindex/commit/401afcfae) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -156,9 +156,18 @@ sup.cite > a::after { content: "]"; }
 sup.cite > a:hover { color: var(--burg-dark); text-decoration: underline; }
 sup.cite { position: relative; }
 sup.cite .cite-card { display: none; position: absolute; bottom: 1.7em; left: 50%; transform: translateX(-50%); width: 300px; max-width: 80vw; background: #fff; border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 12px 32px rgba(0, 0, 0, 0.17); padding: 12px 14px; font-size: 12.5px; line-height: 1.5; color: var(--body); font-weight: 400; z-index: 40; text-align: left; white-space: normal; }
-sup.cite .cite-card .au { color: var(--ink); font-weight: 500; display: block; }
-sup.cite .cite-card .go { color: var(--burg); font-weight: 600; display: inline-block; margin-top: 8px; font-size: 12px; }
+sup.cite .cite-card .au { color: var(--muted); font-weight: 500; display: block; }
+sup.cite .cite-card .ti { color: var(--burg); font-family: Lora, serif; font-weight: 600; font-size: 13.5px; line-height: 1.35; display: block; margin-top: 2px; }
+sup.cite .cite-card .pub { color: var(--body); display: block; margin-top: 6px; }
+sup.cite .cite-card .go { color: #fff; background: var(--burg); border-radius: 6px; padding: 5px 11px; font-weight: 600; display: inline-block; margin-top: 10px; font-size: 12px; text-decoration: none; }
 sup.cite:hover .cite-card, sup.cite:focus-within .cite-card { display: block; }
+
+/* References — the numbered list of works this page's prose cites. The corpus
+   table under "Sources" is a different thing and stays a table. */
+ol.ref-list { padding-left: 1.6em; }
+ol.ref-list > li { margin-bottom: 10px; line-height: 1.55; font-size: 14.5px; }
+ol.ref-list > li:target { background: var(--burg-tint); border-radius: 6px; box-shadow: 0 0 0 6px var(--burg-tint); }
+ol.ref-list em { font-style: normal; color: var(--ink); font-weight: 500; }
 
 .coresec { scroll-margin-top: 24px; }
 section.hmi-evidence-header { background: var(--shade); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin: 0 0 18px; font-size: 13.5px; }
@@ -190,6 +199,29 @@ nav.hmi-related { margin-top: 34px; border-top: 1px solid var(--line); padding-t
 nav.hmi-related .hmi-related-title { font-family: Lora, serif; font-size: 18px; }
 nav.hmi-related ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 5px 14px; margin: 6px 0 14px; }
 nav.hmi-related a { color: var(--burg); font-size: 13.5px; }
+
+/* Update History — burgundy vertical timeline (pageHistoryTimeline.inline.ts
+   rebuilds the generated update-history table into this). */
+.hist-tabs { display: flex; flex-wrap: wrap; gap: 4px; margin: 14px 0 2px; justify-content: flex-end; }
+.hist-tab { background: none; border: 1px solid transparent; border-radius: 6px; padding: 5px 12px; font-family: inherit; font-size: 13.5px; color: var(--burg); cursor: pointer; }
+.hist-tab:hover { background: var(--burg-tint); }
+.hist-tab-on { border-color: var(--burg); font-weight: 600; }
+.hist-item[hidden] { display: none; }
+ol.hist-timeline { list-style: none; margin: 18px 0 0; padding: 0 0 0 26px; position: relative; }
+ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px; bottom: 7px; width: 2px; background: var(--burg-tint); }
+.hist-item { position: relative; padding: 0 0 22px; }
+.hist-item:last-child { padding-bottom: 2px; }
+.hist-item::before { content: ""; position: absolute; left: -25px; top: 4px; width: 11px; height: 11px; border-radius: 50%; background: #fff; border: 2px solid var(--burg); box-sizing: border-box; }
+.hist-item-latest::before { background: var(--burg); }
+.hist-meta { display: flex; align-items: center; gap: 10px; margin-bottom: 3px; }
+.hist-date { color: var(--muted); font-size: 13px; }
+.hist-badge { font-size: 11px; font-weight: 600; color: var(--burg); background: var(--burg-tint); border-radius: 20px; padding: 1px 9px; letter-spacing: 0.02em; text-transform: capitalize; }
+/* Corrections read as the exception they are; minor stays quiet. */
+.hist-badge-correction { color: #fff; background: var(--burg); }
+.hist-badge-minor { color: var(--muted); background: var(--line); }
+.hist-title { color: var(--ink); font-family: Lora, serif; font-size: 16px; font-weight: 600; line-height: 1.4; }
+.hist-commit { display: inline-block; margin-top: 4px; font-size: 12.5px; color: var(--burg); font-family: var(--codeFont, ui-monospace, monospace); }
+.hist-commit:hover { text-decoration: underline; }
 
 @media (max-width: 1080px) {
   .proof-layout { grid-template-columns: 1fr; gap: 26px; }

@@ -73,3 +73,13 @@ The paper supports botanical raw-material occurrence context for medicinal plant
 - Speciation check: Cr is total chromium by ICP emission spectrometry. The page does not claim Cr-VI.
 - Soil values are included only as paired collection-site context and should not be pooled as plant/product occurrence.
 - Brand firewall: no commercial brands or producers are reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [8cad64e98](https://github.com/paleofoundation/heavymetalindex/commit/8cad64e98) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

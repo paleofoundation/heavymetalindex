@@ -149,3 +149,14 @@ Data treatment (Section 2.2): two parallel databases were assembled, each with s
   - ⚠️ `iAs` in `metals:` frontmatter: per Part 14 strict reading, removed `iAs` from frontmatter. The constituent studies in Tables 3 and 4 measure total As; Table 1's reference to EFSA iAs TDI is a regulatory citation, not a measurement claim by this paper, so keeping `iAs` in frontmatter was over-reach. `tAs` retained.
   - ⚠️ `MeHg` in `metals:` frontmatter: retained. Table 1 explicitly separates MeHg (TDI 1.6 µg/kg b.w.) from total Hg (4 µg/kg b.w.) as distinct regulatory rows, so the paper does distinguish the species in regulatory context even though Tables 3 and 4 report constituent-study total Hg.
   - ⚠️ `[[metals/selenium]]`: audit caught a missing slug — selenium has no page in `wiki/metals/`. Replaced with `[[metals/antimony]]` because Sb is in the metals frontmatter array (the source reports Sb in Ghuniem 2020a Table 4), antimony is a valid metals slug, and selenium values from constituent studies were the original justification but cannot route without a target page. Se remains in the metals frontmatter abbreviation array because the source does report it; the routing layer will reach `wiki/metals/selenium` if and when that page is created.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [9a8e38832](https://github.com/paleofoundation/heavymetalindex/commit/9a8e38832) | 2026-06-09 | minor | Narrative text revised |
+| [7a7aba50b](https://github.com/paleofoundation/heavymetalindex/commit/7a7aba50b) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

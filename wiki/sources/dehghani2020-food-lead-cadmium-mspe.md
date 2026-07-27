@@ -74,15 +74,15 @@ Audit subagent (2026-05-28) also flagged `products/infant-formula-powder` as a m
 The discovery daemon auto-fetched this paper twice — once against the rice/milk Cd gap (filename suffix `-cd_`) and once against the rice/milk Pb gap (filename suffix `-pb_`). Both files are byte-identical (SHA256 above) and both filenames are recorded in `near_duplicates`. The `-cd_` filename is the primary `raw_path` since it was ingested first; the `-pb_` filename is its duplicate and routes to the same source page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [867e270d9](https://github.com/paleofoundation/heavymetalindex/commit/867e270d9) | 2026-05-28 | minor | Narrative text revised |
+| [fa0672668](https://github.com/paleofoundation/heavymetalindex/commit/fa0672668) | 2026-05-28 | minor | Narrative text revised |
+| [fc6cafc34](https://github.com/paleofoundation/heavymetalindex/commit/fc6cafc34) | 2026-05-27 | minor | Narrative text revised |
+| [3fc1e8e3c](https://github.com/paleofoundation/heavymetalindex/commit/3fc1e8e3c) | 2026-05-27 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

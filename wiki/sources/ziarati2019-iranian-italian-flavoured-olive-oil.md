@@ -87,15 +87,15 @@ ICP-AES (Varian Vista) for Cd, Pb, and Ni after dilute HNO3/H2O2 extraction (3.0
 - 2026-05-25 Claude cross-audit (fresh-context subagent): PROMOTE verdict. All Table 1/2/3/4 values verified against pp. 66-67; methods description verified against pp. 65-66; brand-firewall (Iranian series aggregation) and HMTc-firewall (no threshold proposals) verified clean. Applied finding: restored SE values on the Italian/Iranian combined-means line for completeness (was reporting only the mean from Table 3). Leave-as-noted findings: Iranian series-4 Ni SE rounding (±0.283 vs paper's ±0.2831, trivial), pre-bath 50 Hz × 60 s mixer detail not transcribed (methods minutiae), CRM vendor (Alpha-Line, Chem Tech Analytical) not named on page (incomplete but not erroneous), `flavoured-olive-oil` matrix descriptor remains non-canonical pending system-level routing-layer review.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [32bf094dc](https://github.com/paleofoundation/heavymetalindex/commit/32bf094dc) | 2026-05-25 | minor | Narrative text revised |
+| [fc8713918](https://github.com/paleofoundation/heavymetalindex/commit/fc8713918) | 2026-05-18 | minor | Narrative text revised |
+| [41c4646ff](https://github.com/paleofoundation/heavymetalindex/commit/41c4646ff) | 2026-05-17 | major | 3 sections added and 2 removed; narrative text revised |
+| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

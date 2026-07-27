@@ -122,3 +122,14 @@ Microbiome: Not applicable — the review does not address microbiome outcomes.
 - Wiki/HMTc firewall (Part 2): no synthesis claims, no HMTc threshold proposals, no consumer-audience risk advisories. Safe-level reference values (PTWI, RfD, TWI, MTD) are reported as the review's Table 1 lists them; not converted into wiki-side recommendations.
 - The review's mortality/toxicology Discussion paragraphs (e.g., Pb in infancy disrupts the nervous system; Cd is an IARC carcinogen; inorganic As is a carcinogen) are not extracted to Key numbers because they are background framing rather than primary-data findings; they are summarized briefly in the lead paragraph only.
 - Routing input: `products:` is set to the umbrella infant-formula-powder slug plus broad complementary-food slugs (infant-food-general, baby-cereals dry rice-based/non-rice, teething-and-snacks rice-based, fish-containing-baby-foods). The routing layer will fan these out to sibling pages. The review is broad and does not commit to soy vs non-soy or powder vs RTF for infant formula across its cited studies, so the umbrella slug is correct per Part 5b routing input rules.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1c1372088](https://github.com/paleofoundation/heavymetalindex/commit/1c1372088) | 2026-06-09 | minor | Narrative text revised |
+| [f4810a105](https://github.com/paleofoundation/heavymetalindex/commit/f4810a105) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

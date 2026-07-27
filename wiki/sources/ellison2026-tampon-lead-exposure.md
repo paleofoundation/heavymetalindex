@@ -62,3 +62,13 @@ Microbiome: Not applicable.
 ## Verification notes
 
 The DOI, author list, journal, and 2026 publication year were taken from the PDF first page. The first page labels the article as an advance-access research article in Toxicological Sciences, volume 209, issue 5, with advance access publication date May 7, 2026. Procter & Gamble affiliations are author affiliations and are retained only in methods/provenance context; no brand-level tampon findings are reported on this page. The model uses Shearston et al. 2024 as an input for total-digestion tampon Pb concentration, so the modeled 264 ng/tampon value should not be counted as an independent product concentration measurement.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [cb847a2fa](https://github.com/paleofoundation/heavymetalindex/commit/cb847a2fa) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

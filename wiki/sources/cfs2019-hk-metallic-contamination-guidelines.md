@@ -189,3 +189,14 @@ Fresh ingest 2026-06-09 from `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download 
   - Check 2 ⚠️ on `matrices: [regulation, ...]` (auditor: regulation as a matrix value is unusual for a regulatory document). Reviewed; `regulation` is the appropriate matrix tag for a regulatory-document source where the "matrix" is the regulatory instrument itself rather than a sampled food. Other matrix tags (fish, vegetable, fruit, etc.) capture the food groups the regulation explicitly references. No change applied.
   - Checks 3, 4, 5 returned ✅ clean.
   - Audit subagent verdict: REVISE. Two ⚠️ corrections applied; three ❌ false positives rejected with verification.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [615c00fbc](https://github.com/paleofoundation/heavymetalindex/commit/615c00fbc) | 2026-06-09 | minor | Narrative text revised |
+| [37bb753ac](https://github.com/paleofoundation/heavymetalindex/commit/37bb753ac) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

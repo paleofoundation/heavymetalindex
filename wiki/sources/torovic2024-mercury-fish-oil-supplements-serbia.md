@@ -68,15 +68,14 @@ App: Supports a low-risk classification for fish oil supplements with respect to
 - 2026-05-26 audit subagent (general-purpose) verdict REVISE applied: (1) removed `MeHg` from `metals:` frontmatter — study measured tHg only and applied a precautionary tHg=MeHg risk-math assumption; including MeHg would mis-route this as MeHg measurement evidence; (2) stripped unsupported "EU" qualifier from "0.1 mg/kg maximum level" — abstract does not specify jurisdiction; rephrased as "regulatory maximum level for food supplements (cited by authors, jurisdiction not specified)"; (3) tightened Methods to "direct mercury analyzer (instrument vendor and model not specified in the abstract)" — removed inferred "thermal decomposition amalgamation instrument" technology-class detail and "no sample preparation required" inference not present in the source; (4) softened "manufacturer-recommended intake doses" to "recommended intake of supplements (per the abstract; specific dose basis not stated)" — abstract does not specify who recommended the doses; (5) added the ±SD on exposure percentages (±0.039% RfD, ±0.021% TWI) for completeness. Audit-flagged `fish-oil` slug verified absent from `wiki/ingredients/`; not creating an ingredient page per per-cycle skill constraints — flagging for future auto-stub or provisional-scaffold pass. All numerical fidelity, brand firewall, and HMTc firewall checks were clean per audit; no false positives to reject.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [89ff7c8c5](https://github.com/paleofoundation/heavymetalindex/commit/89ff7c8c5) | 2026-05-26 | minor | Narrative text revised |
+| [7548ee5cf](https://github.com/paleofoundation/heavymetalindex/commit/7548ee5cf) | 2026-05-26 | major | 1 section added; narrative text revised |
+| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

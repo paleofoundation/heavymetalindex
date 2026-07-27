@@ -71,11 +71,13 @@ This source contributes Nigeria-market spice occurrence values for Cd, Pb, Cu, a
 - Frontmatter slugs were kept broad because not all individual spice descriptors have closed-vocabulary ingredient slugs in `docs/gpt-collaboration/taxonomy-snapshot.md`.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [cbcd8e3](https://github.com/paleofoundation/heavymetalindex/commit/cbcd8e3) | 2026-06-08 | ingest: oladoye2016-odo-ori-spices-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [a32c3a7c1](https://github.com/paleofoundation/heavymetalindex/commit/a32c3a7c1) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [cbcd8e349](https://github.com/paleofoundation/heavymetalindex/commit/cbcd8e349) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

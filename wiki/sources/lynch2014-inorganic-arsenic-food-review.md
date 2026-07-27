@@ -73,12 +73,13 @@ Comprehensive literature search (PubMed, Scopus, Toxline, Agricola) for studies 
 - Cross-source note: this meta-analysis aggregates many primary studies, several held in this same folder (e.g., Almela, Rose, Llorente-Mirandes, Narukawa); any cross-source reconciliation belongs to the Part 9 synthesis pass, not this page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [8bc7757](https://github.com/paleofoundation/heavymetalindex/commit/8bc7757) | 2026-06-08 | audit: lynch2014-inorganic-arsenic-food-review revised |
-| [78199c2](https://github.com/paleofoundation/heavymetalindex/commit/78199c2) | 2026-06-08 | ingest: lynch2014-inorganic-arsenic-food-review fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [8bc7757f3](https://github.com/paleofoundation/heavymetalindex/commit/8bc7757f3) | 2026-06-08 | minor | Narrative text revised |
+| [78199c239](https://github.com/paleofoundation/heavymetalindex/commit/78199c239) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -55,3 +55,21 @@ The Proposition 65 listing governs product warnings, whereas the State Water Res
 ## Sources
 
 - [[sources/oehha-chromium-vi-prop65-listing|OEHHA Prop 65 Cr-VI]] — California Office of Environmental Health Hazard Assessment. Chromium (Hexavalent Compounds), Proposition 65 chemical listing and safe-harbor levels.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. California Office of Environmental Health Hazard Assessment (2008). *Chromium (Hexavalent Compounds) — California Proposition 65 Chemical Listing*. California Office of Environmental Health Hazard Assessment, Proposition 65 Listings. [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/chromium-hexavalent-compounds). Regulation, A-tier. [[sources/oehha-chromium-vi-prop65-listing|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [25c92d7ad](https://github.com/paleofoundation/heavymetalindex/commit/25c92d7ad) | 2026-06-22 | major | 1 source added; contamination-profile values revised; 5 sections added |
+<!-- END: hmi-page-history -->

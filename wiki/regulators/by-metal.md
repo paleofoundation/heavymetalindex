@@ -125,3 +125,8 @@ For each metal, every regulatory body the index profiles and the position it has
 | [[regulators/eu-commission\|EC]] | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] | 2007 |
 | [[regulators/eu-commission\|EC]] | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] | — |
 
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+This page is regenerated from upstream evidence records on every build, so its version history is the history of that upstream data rather than of hand edits. The full commit record lives in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->

@@ -65,3 +65,13 @@ App: Supports a market-context warning that some spices can be extreme Pb outlie
 - The PDF filename and auto-fetch row point to cookware, but the source's own conclusion identifies spices as the elevated Pb matrix. Cookware is retained only as a comparison matrix.
 - The paper reports total lead in spices by pXRF with ICP-MS subset adjustment. No brand-level values are reproduced.
 - Market scope is Georgia; benchmark pooling for another jurisdiction needs explicit stratification.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [7eea61ef1](https://github.com/paleofoundation/heavymetalindex/commit/7eea61ef1) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

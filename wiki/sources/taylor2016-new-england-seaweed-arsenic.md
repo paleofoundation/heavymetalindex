@@ -90,12 +90,13 @@ Seaweed was obtained from 7 commercial harvesters in northern Maine and hand-col
 - Provenance: Ronan et al. 2017 (Chemosphere) cites this study as the New England comparator for L. digitata arsenic; the cross-study comparison itself belongs to the synthesis workflow, not this page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [7ec1c2c](https://github.com/paleofoundation/heavymetalindex/commit/7ec1c2c) | 2026-06-08 | audit: taylor2016-new-england-seaweed-arsenic revised |
-| [04a1578](https://github.com/paleofoundation/heavymetalindex/commit/04a1578) | 2026-06-08 | ingest: taylor2016-new-england-seaweed-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [7ec1c2c98](https://github.com/paleofoundation/heavymetalindex/commit/7ec1c2c98) | 2026-06-08 | minor | Narrative text revised |
+| [04a1578fe](https://github.com/paleofoundation/heavymetalindex/commit/04a1578fe) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

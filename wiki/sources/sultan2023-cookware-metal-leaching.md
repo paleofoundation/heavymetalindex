@@ -65,3 +65,13 @@ App: Can support consumer-context warnings that acidic foods and longer cooking 
 - The auto-fetch row identified the paper through a nonstick-coated cookware query, but the actual study covers aluminum, stainless-steel, and copper cookware. The route uses `cookware-metal-alloy`.
 - Chromium is total chromium from XRF/AAS methods; no Cr-VI value is inferred.
 - Blood-serum values are retained as exposure context only because the paper did not isolate cookware as the sole exposure route.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6c01fa54c](https://github.com/paleofoundation/heavymetalindex/commit/6c01fa54c) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

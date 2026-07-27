@@ -85,12 +85,13 @@ Seven dominant brown macroalgae taxa were collected within a <100 m² area at Mo
 - Cross-source note: comparisons to Ronan 2017, Taylor & Jackson 2016, Sim 2023, Huang 2022, Wolle 2021 etc. (the source's Table 1/2 cross-study comparisons) belong to the Part 9 synthesis pass; this page reports only this study's own measurements.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [e459171](https://github.com/paleofoundation/heavymetalindex/commit/e459171) | 2026-06-08 | audit: siregar2025-australian-brown-macroalgae-arsenic revised |
-| [6fe667b](https://github.com/paleofoundation/heavymetalindex/commit/6fe667b) | 2026-06-08 | ingest: siregar2025-australian-brown-macroalgae-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [e45917104](https://github.com/paleofoundation/heavymetalindex/commit/e45917104) | 2026-06-08 | minor | Narrative text revised |
+| [6fe667b4f](https://github.com/paleofoundation/heavymetalindex/commit/6fe667b4f) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

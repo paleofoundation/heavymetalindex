@@ -94,15 +94,13 @@ This source supports mercury occurrence context for leafy/herbal vegetables grow
 - Routing decision: Houttuynia cordata is a niche regional Chinese vegetable consumed both as aboveground leafy tissue (Sichuan, Chongqing) and as underground rhizomes plus roots (Guizhou, Yunnan). The taxonomy snapshot has no dedicated houttuynia ingredient or product slug. Routed to leafy-vegetable categories with `houttuynia-cordata` carried in the matrices field; no general root-tuber-vegetables routing because the broader category covers carrots, potatoes, and other staples that this niche herb would dilute. Downstream synthesis should treat this source as a tissue-specific accumulation case study, not as a baseline for either leafy vegetables or root vegetables.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [5c86c0dc8](https://github.com/paleofoundation/heavymetalindex/commit/5c86c0dc8) | 2026-06-08 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [db181df75](https://github.com/paleofoundation/heavymetalindex/commit/db181df75) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

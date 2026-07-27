@@ -112,3 +112,13 @@ This paper is routeable occurrence evidence for edible seaweed from India and pr
 - Speciation check: As is reported as `As` only and is recorded as tAs; Hg is reported as `Hg` only and is recorded as tHg; Cr is reported as total Cr and is not treated as Cr(VI).
 - The Table 2 mass-balanced values and Table 1 processed concentrations are both retained because they answer different questions: concentration as measured in processed material versus mass-balanced retention/reduction.
 - Brand firewall: the paper reports species, collection region, and laboratory processing methods; no consumer brands are attached to contamination values.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [8159e6d4d](https://github.com/paleofoundation/heavymetalindex/commit/8159e6d4d) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

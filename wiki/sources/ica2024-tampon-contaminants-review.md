@@ -99,3 +99,13 @@ Microbiome: Not directly addressed. The review mentions vaginal microenvironment
 ## Verification notes
 
 Identity checks before drafting found no existing `wiki/sources/` hit for raw handle `MFK_paper-21-fda-2025-tampons-systematic-review`, candidate cite keys `ica2024-tampon-contaminants-review` or `fda2024-tampon-contaminants-review`, exact title, or "International Consulting Associates" tampon-review wording. The local filename says `FDA_2025`, but the PDF cover date is `December 5, 2024`, so `year: 2024` is used. No DOI is printed in the report; `doi: null` and `no_doi_assigned: true` are retained. The raw PDF SHA-256 is `80cda8138ffbd37ea159e544d55ffdba9aec603fd5b37d9cf137dc191bb1c548`. Key numbers were checked against the PRISMA/results narrative, Tables 2-5, the Discussion, and Evidence Assessment sections in `/tmp/hmi-fem-013.txt`. Arsenic and mercury values transported from Shearston/Singh are total-element values, not iAs or MeHg; chromium is total Cr, not Cr-VI. Brand firewall is clean: the report explicitly states that brands/manufacturers were generally not disclosed and this page reports no brand-linked values. The `near_duplicates` entries point to primary/companion sources already represented in the wiki; they are not true duplicate source pages. `npm run evidence:source-routes` exited 0 and generated one `menstrual-tampons` product route; `routing_malformed.csv` contains an advisory-only missing-ingredients warning.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c558e1774](https://github.com/paleofoundation/heavymetalindex/commit/c558e1774) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

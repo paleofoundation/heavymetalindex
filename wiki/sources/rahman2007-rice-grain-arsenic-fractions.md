@@ -72,3 +72,13 @@ App: The source adds a rice ingredient contamination-profile example for `tAs` o
 - Scope separation: edible raw rice, brown rice, and polish rice values are product occurrence evidence; soil, irrigation water, root, straw, husk, and bran-polish are recorded as supply-chain or processing context.
 - Missing table extraction: the source states that Table 4 contains the grain-fraction values. The extracted text provides the edible-rice and husk/BRRI dhan28 bran-polish values in the Results prose, but the BRRI hybrid dhan1 bran-polish numeric cells did not extract cleanly; those cells are therefore not reconstructed.
 - Closed-vocabulary check: `ingredients/rice`, `products/rice-bulk-grain`, `matrices: [rice-grain]`, `jurisdictions: [BD]`, and `metals: [tAs]` match the current taxonomy/metals vocabulary. No rice-fraction-specific product slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [7b001180b](https://github.com/paleofoundation/heavymetalindex/commit/7b001180b) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

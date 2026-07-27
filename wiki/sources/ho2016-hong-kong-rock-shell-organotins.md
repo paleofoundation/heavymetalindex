@@ -69,11 +69,12 @@ This source contributes Hong Kong shellfish-organotin context for wild gastropod
 - Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [350dc42](https://github.com/paleofoundation/heavymetalindex/commit/350dc42) | 2026-06-08 | ingest: sosnowska2025-phage-display-peptide-copper-chemosensor fresh from MFK/June 8 Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [0e923e9b3](https://github.com/paleofoundation/heavymetalindex/commit/0e923e9b3) | 2026-06-08 | major | 1 section added |
+| [350dc424b](https://github.com/paleofoundation/heavymetalindex/commit/350dc424b) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -62,3 +62,13 @@ App: Can support product-context warnings that informally manufactured metal coo
 - The auto-fetch row labelled this as nonstick-coated cookware, but the source describes informally manufactured iron cookware; routing uses the broader `cookware-metal-alloy` page.
 - Leachates were below detection only for distilled-water boiling. The authors explicitly note that acidic or salty foods could increase metal mobility, so the negative leachate result should not be generalized to all cooking conditions.
 - Chromium is total Cr by flame AAS; no Cr-VI value is inferred.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [e700b90d6](https://github.com/paleofoundation/heavymetalindex/commit/e700b90d6) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

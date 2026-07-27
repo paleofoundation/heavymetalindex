@@ -75,3 +75,13 @@ App: The source can support UK arsenic context for fish/seafood, poultry, miscel
 - Units and basis are preserved as printed: `mg/kg fresh weight`, `µg/kg`, and `µg/kg body-weight/day`.
 - Speciation: the page keeps `tAs` and `iAs` separate and does not infer iAs from total arsenic except where the source explicitly states the upper-bound assumptions.
 - Closed vocabulary: no exact miscellaneous-cereals product slug exists, so the frontmatter uses broad breakfast/other-grain product rows.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [fb63f6e92](https://github.com/paleofoundation/heavymetalindex/commit/fb63f6e92) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

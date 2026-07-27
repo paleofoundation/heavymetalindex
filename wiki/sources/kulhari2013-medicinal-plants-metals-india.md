@@ -90,3 +90,13 @@ The paper contributes stem- and leaf-specific occurrence data for herbal-botanic
 - Speciation check: chromium is total Cr by FAAS, not Cr-VI. Mercury is reported only as Hg below detectable level, not methylmercury.
 - Brand firewall check: no commercial brands or producers are reported; Merck and Shimadzu are methods/vendors only.
 - Closed vocabulary check: products, ingredients, metals, and wiki-page links use slugs present in `docs/gpt-collaboration/taxonomy-snapshot.md`. Exact plant species such as *Acacia nilotica*, *Bacopa monnieri*, *Commiphora wightii*, *Ficus religiosa*, *Glycyrrhiza glabra*, *Hemidesmus indicus*, *Salvadora oleoides*, *Terminalia bellirica*, *Terminalia chebula*, and *Withania somnifera* do not all have closed ingredient slugs, so they remain in table text only.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [4dd50c5de](https://github.com/paleofoundation/heavymetalindex/commit/4dd50c5de) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

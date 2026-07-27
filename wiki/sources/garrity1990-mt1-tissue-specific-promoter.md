@@ -154,12 +154,13 @@ Funded by NIH, the Rita Allen Foundation, the Lucille P. Markey Charitable Trust
 2 findings, 2 applied, 0 rejected. Audit subagent ID a9f6f632d54da1a39.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [de0b14e](https://github.com/paleofoundation/heavymetalindex/commit/de0b14e) | 2026-06-08 | audit: garrity1990-mt1-tissue-specific-promoter revised |
-| [9792010](https://github.com/paleofoundation/heavymetalindex/commit/9792010) | 2026-06-08 | ingest: garrity1990-mt1-tissue-specific-promoter fresh from MFK/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [de0b14e7c](https://github.com/paleofoundation/heavymetalindex/commit/de0b14e7c) | 2026-06-08 | minor | Narrative text revised |
+| [9792010ac](https://github.com/paleofoundation/heavymetalindex/commit/9792010ac) | 2026-06-08 | major | 14 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -111,15 +111,13 @@ Method limitations: Cr is reported as total Cr; the cancer-risk calculation assu
 - Audit subagent (general-purpose fresh context, 2026-06-02) flagged an ❌ on the original cancer-risk sample list, which had included S-10 (coriander powder) alongside the eight samples the authors explicitly enumerate. Verified against the page-14 narrative ("CR of Cr and Cd for both branded and unbranded turmeric and chili powder, green chili, masala mix, ginger, and coriander leaf were higher than 1E-04") and Figure 3 (S-10 Cr and Cd CR values both ~5–8×10⁻⁵, below the 1×10⁻⁴ benchmark). S-10 removed from the list; corrected to the eight samples the authors enumerate.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
+| [f496c6c93](https://github.com/paleofoundation/heavymetalindex/commit/f496c6c93) | 2026-06-02 | minor | Narrative text revised |
+| [bf502fe0d](https://github.com/paleofoundation/heavymetalindex/commit/bf502fe0d) | 2026-06-02 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

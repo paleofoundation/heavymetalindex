@@ -87,3 +87,13 @@ App: Context only. The source can inform supplier-pathway questions for plantati
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated oil-palm soil as out of scope because no palm-oil sample was measured. On reading, it is in-scope a3 pathway evidence because it measures metal loading in plantation soil and explicitly discusses fertilizer as a potential source.
 
 Numbers were checked against the abstract, Table 1, Table 3, and the results/conclusion sections of the extracted PDF text. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [f8378f3f1](https://github.com/paleofoundation/heavymetalindex/commit/f8378f3f1) | 2026-06-10 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

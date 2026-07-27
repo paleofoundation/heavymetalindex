@@ -91,3 +91,13 @@ App: If adult hair-product profiles are expanded, this source can support a Nige
 - Brand firewall: the source describes generic product forms rather than named brands, so no brand-linked contamination values were present to suppress.
 - Evidence tier: `C` because the study is a small peer-reviewed market survey with primary AAS measurements, but no DOI, no sampling year, no LOD/LOQ, no CRM/recovery, limited QC reporting, four composited analytical rows, and several source-side inconsistencies.
 - Routing: all product slugs used in frontmatter appear in `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy lacks a precise adult dye-shampoo product slug, so the source routes broadly through `hair-dye-rinse-off`, `permanent-hair-dyes-tints`, and `shampoo-adult`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [f3422e6a3](https://github.com/paleofoundation/heavymetalindex/commit/f3422e6a3) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

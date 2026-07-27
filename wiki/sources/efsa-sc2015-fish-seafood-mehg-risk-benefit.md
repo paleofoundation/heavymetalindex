@@ -233,12 +233,12 @@ This statement contributes the operative EU-level synthesis of how methylmercury
 - **Audit subagent (2026-06-03, fresh-context general-purpose) verdict PROMOTE.** All five checks ✅ except Check 1 ⚠️ on the Belgian worked-example per-contributor values (6.48/2.05/0.45/0.14 µg/week). Verified against source as a false positive: PDF page 13's contributor table prints rounded values 6.5/2.1/0.5/0.1, but PDF page 14 explicitly writes the per-serving MeHg computation as `[(6.48+2.05+0.45+0.14)/(0.86×17.88)] = 0.6 µg/kg bw/week`. The wiki page reproduces the page-14 unrounded equation verbatim. No correction applied; subagent saw the p. 13 table but missed the p. 14 explicit equation.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

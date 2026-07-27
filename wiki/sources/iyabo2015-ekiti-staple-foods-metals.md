@@ -137,11 +137,13 @@ This source contributes Nigeria-market occurrence evidence for Zn, Cu, Cd, and P
 - Audit 2026-06-09: `matrices: [prepared-staple-foods, nigeria-market]` uses descriptive bare strings that are not in the standard matrices controlled vocabulary. Retained pending matrices-vocabulary review rather than silently relabeled.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [eb75b21](https://github.com/paleofoundation/heavymetalindex/commit/eb75b21) | 2026-06-08 | ingest: iyabo2015-ekiti-staple-foods-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [593d25dd6](https://github.com/paleofoundation/heavymetalindex/commit/593d25dd6) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [eb75b21a1](https://github.com/paleofoundation/heavymetalindex/commit/eb75b21a1) | 2026-06-08 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

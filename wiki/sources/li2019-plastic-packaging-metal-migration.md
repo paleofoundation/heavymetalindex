@@ -125,3 +125,13 @@ App: If surfaced, the source can support a food-packaging-material context card 
 - Speciation: arsenic and chromium are not speciated. The source reports elemental ICP-MS leachate results, so frontmatter uses `tAs` for arsenic and `Cr` for total chromium; no Cr(VI) or inorganic arsenic values are inferred.
 - Brand firewall: the Shimadzu instrument/vendor name is retained only as method/source identity. No consumer brand names from sampled packaging are reported or attached to values.
 - Closed-vocabulary check: product routing uses broad existing plastic packaging rows. Exact PS-container, PP-container, and PE-film forms are retained in the source text and not invented as product slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [0a208c551](https://github.com/paleofoundation/heavymetalindex/commit/0a208c551) | 2026-06-09 | major | 7 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

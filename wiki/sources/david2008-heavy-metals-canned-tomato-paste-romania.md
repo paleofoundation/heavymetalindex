@@ -89,15 +89,15 @@ App: Limited utility for ingredient-level contamination profiling given the smal
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [095765f](https://github.com/paleofoundation/heavymetalindex/commit/095765f) | 2026-06-08 | ingest: david2008-heavy-metals-canned-tomato-paste-romania duplicate_filesystem_copies path from Manual Fetch Kimi /June 8/_extracted_07_Processed_Foods_Snacks_Beverages |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [095765ff2](https://github.com/paleofoundation/heavymetalindex/commit/095765ff2) | 2026-06-08 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [4130c7eaa](https://github.com/paleofoundation/heavymetalindex/commit/4130c7eaa) | 2026-05-20 | minor | Narrative text revised |
+| [11483b016](https://github.com/paleofoundation/heavymetalindex/commit/11483b016) | 2026-05-20 | major | 1 section added; narrative text revised |
+| [3b7bf28d9](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28d9) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -102,3 +102,13 @@ Microbiome: The tampon discussion mentions toxic shock syndrome and vaginal micr
 ## Verification notes
 
 Identity checks before drafting found no existing `wiki/sources/` hit for raw handle `MFK_paper-24-carlin-2020-thesis-tampons`, cite key `carlin2020-tampons-eyeshadows-chemistry`, the Digital Commons handle `theses_etds/5847`, or the exact title. The repository citation lists the work as `2020`, while the title page says Sarasota, Florida, December 2019; the cite key and `year` follow the repository/work-list year and the date discrepancy is recorded here. The thesis has no DOI printed; `doi: null` and `no_doi_assigned: true` are retained. The PDF SHA-256 is `17ff24948afc70bb33f3dcc53f274b38d0b48b25bd4862b0e6ef7af30143f811`. Tables 4-8 and Sections 2.2-2.3 were re-opened from `/tmp/hmi-fem-016.txt`; units are preserved without conversion. Table 8's Cd LOD/LOQ ordering is copied as displayed even though the LOD value exceeds the LOQ value. The thesis labels arsenic as `Ar` in Table 7, but the row text says Arsenic; this page routes it as total arsenic (`tAs`) because no inorganic-arsenic speciation is reported. The brand firewall is clean: this page reports sample/location codes and aggregate literature values, not brand-linked contamination values.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [fba0e5111](https://github.com/paleofoundation/heavymetalindex/commit/fba0e5111) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

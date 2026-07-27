@@ -51,14 +51,14 @@ The case is an instance of **hexavalent chromium being actively litigated at the
 Ingested 2026-06-03 from `raw/Manual Fetch Kimi /June 3 Folder/ABI Complaint.pdf` (sha256 710fd64b…), read in full (11 pages: caption, introduction, parties, jurisdiction, statutory background, facts, three causes of action, prayer for relief; signed by Deputy Attorney General Erin Ganahl, dated 15 February 2022). All figures above are as alleged in the complaint (a complaint states allegations, not adjudicated findings); evidence tier B reflects that this is a primary but unadjudicated legal filing. The case number is left blank in the filed copy.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [b623a2a](https://github.com/paleofoundation/heavymetalindex/commit/b623a2a) | 2026-06-03 | ingest: CA-AG v. McWane Cr-VI Prop 65 complaint; strengthen Brief 7 chromium + litigation |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [b623a2a21](https://github.com/paleofoundation/heavymetalindex/commit/b623a2a21) | 2026-06-03 | major | 3 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -147,15 +147,13 @@ The contribution is bounded by several limitations: the 35 silos are not broken 
 - **Data integrity.** All Table 1 cells (5 metals × 7 columns) and Table 2 cells (5 metals × 2 rows) transcribed verbatim from PDF pages 17–18. Range values cross-referenced between abstract (page 2) and per-metal §§"Cadmium (Cd)", "Lead(Pb)", "Copper (Cu)", "Zinc (Zn)", "Iron (Fe)" (pages 8–9); all four checks pass. Concentration-rank order Fe > Zn > Cu > Pb > Cd confirmed at three locations: abstract (page 2), §"Results" (page 7), and §"Discussion" (page 9). EDI rank-order Fe > Zn > Cu > Cd > Pb confirmed in §"Estimated daily intake (EDI)" (page 11). Both rank-orders are internally consistent (Cd and Pb swap rank between concentration and EDI because Cd's TDI fraction is higher than Pb's, but this is not a rank-order on EDI absolute values where Pb < Cd; the paper's reported EDI rank "Fe > Zn > Cu > Cd > Pb" matches the absolute EDI values 522.64 > 26.79 > 12.69 > 0.0752 > 0.2679 — wait, that gives Fe > Zn > Cu > Pb > Cd, not Fe > Zn > Cu > Cd > Pb; the paper's text page 11 stating "Fe > Zn > Cu > Cd > Pb" appears to be an error since Pb EDI 0.2679 > Cd EDI 0.0752. The wiki page reports the EDI rank in absolute-value order as Fe > Zn > Cu > Pb > Cd, matching the concentration rank, and flags the text-statement rank-order as a probable typo). No other internal arithmetic discrepancies identified.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [9b3a0f59b](https://github.com/paleofoundation/heavymetalindex/commit/9b3a0f59b) | 2026-06-01 | minor | Narrative text revised |
+| [c9cffb843](https://github.com/paleofoundation/heavymetalindex/commit/c9cffb843) | 2026-06-01 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

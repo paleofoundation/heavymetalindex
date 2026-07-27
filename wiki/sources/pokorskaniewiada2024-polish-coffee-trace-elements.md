@@ -62,3 +62,14 @@ App: Supports coffee product and ingredient context for Polish-market coffees, w
 ## Verification notes
 
 The DOI, title, author list, journal, and year were taken from the Foods PDF. The author surname contains a hyphen in the PDF; the cite key removes punctuation for slug stability. The paper also measures Fe, Zn, Cu, and Mn, but only Pb and Cd are recorded in the HMI metals frontmatter.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c5e9176e2](https://github.com/paleofoundation/heavymetalindex/commit/c5e9176e2) | 2026-06-09 | minor | Narrative text revised |
+| [11d64a571](https://github.com/paleofoundation/heavymetalindex/commit/11d64a571) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

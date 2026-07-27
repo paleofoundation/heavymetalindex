@@ -160,12 +160,13 @@ Tables:
 3 findings, 3 applied, 0 rejected. Audit subagent ID a36ad898dba2b309d.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [927fa84](https://github.com/paleofoundation/heavymetalindex/commit/927fa84) | 2026-06-08 | audit: butko2008-cadmium-detoxification-thesis promoted |
-| [db200d4](https://github.com/paleofoundation/heavymetalindex/commit/db200d4) | 2026-06-08 | ingest: butko2008-cadmium-detoxification-thesis fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [927fa847c](https://github.com/paleofoundation/heavymetalindex/commit/927fa847c) | 2026-06-08 | minor | Narrative text revised |
+| [db200d401](https://github.com/paleofoundation/heavymetalindex/commit/db200d401) | 2026-06-08 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

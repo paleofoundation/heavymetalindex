@@ -103,15 +103,14 @@ Total mercury measured using Thermal Decomposition Gold Amalgamation Atomic Abso
 - 2026-06-08 merge-enhance: removed the `products/fresh-fish` slug from frontmatter (paper studied only canned tuna, salmon, and mackerel — no fresh fish samples were analyzed; the slug was over-specifying frontmatter and fanning broad-context rows to fish-freshwater, fish-marine-predatory, and fish-marine-non-predatory rows for which the paper provides no direct evidence). Added the `products/canned-seafood` slug to reflect that the three product forms studied are all canned-seafood Cat 6 row members (direct evidence rather than seafood-broad-context only).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [b394c32](https://github.com/paleofoundation/heavymetalindex/commit/b394c32) | 2026-06-08 | ingest: shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel enhanced from MFK/04_Meat_Poultry_Seafood |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b394c328b](https://github.com/paleofoundation/heavymetalindex/commit/b394c328b) | 2026-06-08 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [14e275223](https://github.com/paleofoundation/heavymetalindex/commit/14e275223) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
+| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

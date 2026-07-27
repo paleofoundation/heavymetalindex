@@ -103,15 +103,15 @@ Limitations explicitly named by the authors (paper p. 11, §5): the SHIME® mode
 - Audit subagent (2026-06-03) flagged four findings against the source: (1) ❌ asterisk-inequality bounds in the SHIME significance bullet ("0.05 < p ≤ 0.01" is mathematically impossible) — verified against paper p. 4 §2.4.5; corrected to the paper's verbatim "0.01 < p ≤ 0.05 (*)" and explicitly noted that the paper's printed ** bound is non-monotonic; (2) ⚠️ FITC-Dextran significance level on the LCR04 GEVS panel — verified against Figure 4A; corrected from ** to *** for the MIX vs MIX+LCR04 comparison; (3) ⚠️ Figure 4's atypical * = p < 0.1 convention (the paper's caption diverges from the standard p < 0.05 cutoff) — applied to the IL-10 LA12 line and flagged here so downstream readers do not silently inherit the standard threshold; (4) ⚠️ minor rounding of SHIME pancreatic juice oxgall from the paper's 15.9 g/L to 16 g/L in Methods — verified against paper p. 3 §2.4.1; corrected to 15.9 g/L. Audit verdict pre-revision: REVISE; post-revision: PROMOTE.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [281f6ec](https://github.com/paleofoundation/heavymetalindex/commit/281f6ec) | 2026-06-03 | audit: pane2026-probiotic-detoxification-heavy-metals-shime [revised] |
-| [453f365](https://github.com/paleofoundation/heavymetalindex/commit/453f365) | 2026-06-03 | ingest: pane2026-probiotic-detoxification-heavy-metals-shime [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/05_Wipes_Odor_Green_Cleaners |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [281f6ec4b](https://github.com/paleofoundation/heavymetalindex/commit/281f6ec4b) | 2026-06-03 | minor | Narrative text revised |
+| [453f365d2](https://github.com/paleofoundation/heavymetalindex/commit/453f365d2) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

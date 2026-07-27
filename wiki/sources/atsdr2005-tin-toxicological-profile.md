@@ -120,15 +120,14 @@ This page was merge-enhanced on 2026-06-04 from a pre-2026-05-14 revision. Corre
 - Audit subagent (2026-06-04) verdict PROMOTE; one minor ⚠️ concern applied — fresh-foods row label in Table 6-3 block previously named "carrots, cabbage, salad, potatoes, etc." with upper anchor 0.13 mg/kg, but 0.13 is the lentils mean (range 0.09-0.17) and potatoes range to 0.2 mg/kg. Row rewritten to anchor the upper bound on lentils and note the potatoes maximum, with alcoholic beverages added to the <0.003 row per Table 6-3.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [3233f27](https://github.com/paleofoundation/heavymetalindex/commit/3233f27) | 2026-06-03 | ingest June 3: atsdr2005-tin-toxicological-profile |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 8 sections added and 3 removed; narrative text revised |
+| [3233f2706](https://github.com/paleofoundation/heavymetalindex/commit/3233f2706) | 2026-06-03 | major | 5 sections added and 7 removed; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [d04abbc18](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc18) | 2026-05-08 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

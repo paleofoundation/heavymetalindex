@@ -74,3 +74,13 @@ This source supports a local, industrial-area rice occurrence route for harveste
 - Matrix separation: soil, irrigation water, husk, and stem values are documented only as context. The routeable product occurrence values are rice grain only.
 - Table/prose discrepancy: the narrative paragraph on p. 7 states that Field-III Pb was higher in stems at `5966.54 µg/kg` and husks at `497.93 µg/kg`, but Table 3 places approximately `5.96 x 10^3 µg/kg` under Field-III husk and `4.97 x 10^2 µg/kg` under Field-III stem. This page follows Table 3 and flags the discrepancy rather than silently swapping labels.
 - No brand names were present. Instrument/vendor names are retained only in Methods.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [afced5e2a](https://github.com/paleofoundation/heavymetalindex/commit/afced5e2a) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

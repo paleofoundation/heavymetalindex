@@ -81,12 +81,12 @@ Procedural-record reproduction of the NTP front-matter description of the four-p
 - **Audit subagent (2026-06-04) ⚠️ Check 5 wiki/HMTc firewall:** flagged Implications → Certification and Methods (brief) for enumerating substance-specific RoC classifications (nickel/Cr-VI/arsenic/cadmium/lead/beryllium with "known" or "reasonably anticipated" labels) that are *not* in this 2-page procedural PDF. Verified against source: the PDF discusses only the four-step procedural pipeline, with no per-substance listings. Both passages were cross-corpus synthesis attributed to a procedural source that does not carry the claim — corrected to drop the substance enumeration in Methods (brief) and to reframe the Implications → Certification block around process-rigor citation (with classifications routed to the per-substance source pages such as [[ntp-15th-roc-nickel-2021]]).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

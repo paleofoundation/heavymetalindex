@@ -79,3 +79,13 @@ This source adds a small, original occurrence dataset for algae-based dietary su
 - Speciation check: Hg is not speciated and is recorded as tHg. The paper does not report MeHg, inorganic mercury, arsenic, cadmium, lead, or chromium data.
 - Brand firewall: Table 1 lists product codes, manufacturers, and countries of origin, but this page does not reproduce brand/manufacturer names or attach contamination values to product codes. Values are summarized at the Spirulina supplement category level.
 - Missing-slug note: the taxonomy snapshot has no exact `spirulina` ingredient slug. Following the existing Spirulina/Chlorella source-page convention, `ingredients: []` is left blank while products route to algae/seaweed supplements and dietary-supplement oral solid rows.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3bb71fce4](https://github.com/paleofoundation/heavymetalindex/commit/3bb71fce4) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

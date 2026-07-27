@@ -142,15 +142,15 @@ No HMTc threshold proposals, consumer-audience translations, or cross-source syn
 Audit subagent (2026-06-02) flagged a row-attribution slip on the highest-As callout: the narrative said "20% C&DW + 10% gypsum" but Table 2 places As 187.2 ± 4.84 µg/L at the 20% C&DW + 15% gypsum row (20/10 has As 174.7 ± 1.60). Verified against the Table 2 transcription above; corrected to 20/15. The paper §2.6.5 prints statistical significance as "p < 0.5" which is a paper-side typo for the conventional p < 0.05; the Methods section above uses p < 0.05 as Molla et al. clearly intended.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [503b22a](https://github.com/paleofoundation/heavymetalindex/commit/503b22a) | 2026-06-02 | audit: molla2025-cdw-landfill-leachate-metals promoted |
-| [ae5b176](https://github.com/paleofoundation/heavymetalindex/commit/ae5b176) | 2026-06-02 | ingest: molla2025-cdw-landfill-leachate-metals fresh from Manual Fetch Kimi/June 2 Manual Fetches |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [503b22a6e](https://github.com/paleofoundation/heavymetalindex/commit/503b22a6e) | 2026-06-02 | minor | Narrative text revised |
+| [ae5b1760f](https://github.com/paleofoundation/heavymetalindex/commit/ae5b1760f) | 2026-06-02 | major | 11 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

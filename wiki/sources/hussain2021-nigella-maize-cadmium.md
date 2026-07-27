@@ -86,3 +86,13 @@ App: Context only. This source supports remediation/pathway narrative for cadmiu
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the file as non-occurrence because the fetched ingredient label was cumin, but the paper is in-scope as a2 mitigation/remediation and a3 soil-to-plant transfer evidence: it measures Cd in maize leaves from Cd-spiked soil and tests a foliar intervention.
 
 Numbers were checked against the extracted PDF text, especially the abstract, experimental treatment description, acid-digestion section, Table 3, Cd-accumulation results paragraph, and conclusion. Units were copied as printed (`mg Cd kg-1 soil` and `mg kg-1 of plant biomass`) without conversion. Products and ingredients are intentionally empty because no market food product or ingredient occurrence was measured.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [888709394](https://github.com/paleofoundation/heavymetalindex/commit/888709394) | 2026-06-10 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

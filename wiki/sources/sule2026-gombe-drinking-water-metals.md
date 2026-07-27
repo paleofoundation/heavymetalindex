@@ -115,15 +115,15 @@ App: Can support a context note that Gombe LGA tap, well, and sachet water were 
 - The source reports modeled CDI/HQ/HI/ILCR outputs. Because the underlying concentration table is not printed in the PDF, no HMTc benchmark concentration row should be pooled from this page without a supplemental data table or re-contacted article data.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [bdad521](https://github.com/paleofoundation/heavymetalindex/commit/bdad521) | 2026-06-08 | audit: sule2026-gombe-drinking-water-metals promoted per autonomous audit |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [2308475](https://github.com/paleofoundation/heavymetalindex/commit/2308475) | 2026-06-02 | ingest auto-fetched 2026-06-02: sule2026-gombe-drinking-water-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [bdad52137](https://github.com/paleofoundation/heavymetalindex/commit/bdad52137) | 2026-06-08 | minor | Narrative text revised |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [2308475df](https://github.com/paleofoundation/heavymetalindex/commit/2308475df) | 2026-06-02 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

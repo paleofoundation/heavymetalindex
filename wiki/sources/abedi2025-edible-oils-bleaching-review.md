@@ -142,15 +142,13 @@ App: No ingredient `contamination_profile` impact. The review contributes no con
 - All other audit checks returned ✅ on substantive findings: slug vocabulary clean (Check 2), speciation and methods clean (Check 3), Part 12 brand firewall clean with Exception 2 correctly invoked for the bleaching-clay material names (Check 4), Part 2 wiki/HMTc firewall clean (Check 5). One minor ⚠️ on `matrices: edible-oil` (not in the standard matrices vocabulary but plausible as a parent of `vegetable-oil`) — retained without change pending matrices-vocabulary review.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [8944265](https://github.com/paleofoundation/heavymetalindex/commit/8944265) | 2026-06-02 | audit: abedi2025-edible-oils-bleaching-review revised |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [89442659c](https://github.com/paleofoundation/heavymetalindex/commit/89442659c) | 2026-06-02 | minor | Narrative text revised |
+| [bfd34e4df](https://github.com/paleofoundation/heavymetalindex/commit/bfd34e4df) | 2026-06-02 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

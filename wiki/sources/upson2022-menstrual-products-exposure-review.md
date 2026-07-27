@@ -82,3 +82,13 @@ Microbiome: The paper discusses menstrual toxic shock syndrome, *S. aureus*, vag
 - Brand firewall: no brand-linked values are reported in this page. Product types are kept at category level.
 - Evidence tier: `B` because the paper is peer-reviewed and useful secondary evidence, but it is a narrative review and not a primary occurrence or systematic-review dataset.
 - Routing: `npm run evidence:source-routes` exited 0. The source generated 6 product routing rows, was absent from `routing_unresolved.csv`, and had only the expected advisory `routing_malformed.csv` entry for empty optional `ingredients`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [99df3ab10](https://github.com/paleofoundation/heavymetalindex/commit/99df3ab10) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -100,3 +100,13 @@ App: Context only. The source can support remediation-pathway notes for cadmium 
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated a coffee-ground adsorbent paper as out of scope because it was not coffee occurrence. On reading, it is in-scope lane a2 mitigation/remediation because it reports cadmium-removal values from industrial wastewater.
 
 Numbers were checked against the abstract, introduction, methods, Figure 3 prose, Tables 1-3, and conclusion in the extracted PDF text. Units are preserved as printed. The paper uses only cadmium as the primary measured heavy-metal removal target; other elements in SEM-EDX are adsorbent-characterization results and are not treated as occurrence values. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1639e593d](https://github.com/paleofoundation/heavymetalindex/commit/1639e593d) | 2026-06-11 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

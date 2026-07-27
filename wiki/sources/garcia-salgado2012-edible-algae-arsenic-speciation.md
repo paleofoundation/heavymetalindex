@@ -92,3 +92,13 @@ This source is high-value seaweed arsenic-speciation evidence because it separat
 - Units and basis are preserved as `µg g−1` dry mass, `%`, and `µg g−1 As` for LODs; no conversions were performed.
 - Evidence tier A reflects peer-reviewed primary speciation data with named species, reported QA/QC CRM recovery, extraction efficiencies, column recoveries, and method LODs.
 - Brand firewall: no sampled brands are reported. Instrument and CRM names are retained only as scientific method details.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [d58060e82](https://github.com/paleofoundation/heavymetalindex/commit/d58060e82) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

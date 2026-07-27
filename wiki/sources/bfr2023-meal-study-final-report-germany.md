@@ -104,15 +104,13 @@ The report is distinct from the four MEAL-derived sources already in the corpus:
 - Audit subagent (2026-06-02) flagged four Check-1 fidelity issues, all verified against the PDF: (1) "approximately 60,000 single food items" — verified against PDF page 1, which gives the methodology summary as "approx. 56,750 single food items"; the 60,000 figure is from section 4.2 (Purchasing) and represents gross purchasing volume; corrected to 56,750 with parenthetical note. (2) "Eight occurrence-data papers" — verified against Table 39 (page 64) which lists exactly seven entries in the occurrence-data block; corrected to seven. (3) "seven BfR opinions/communications" — verified against Table 39 (page 65) which lists exactly six entries; corrected to six. (4) Pistachio aflatoxin B1 framed as an "exceedance" — verified against Table 38 (page 63) which shows pistachios at 7.53 µg/kg against an 8 µg/kg ML (below the limit), parallel to the spiny-dogfish ndl-PCB notification-relevant near-miss; reframed to separate the actual buckwheat and chia-seeds exceedances from the pistachio near-miss. All four findings applied; zero false positives.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
+| [b98b453cb](https://github.com/paleofoundation/heavymetalindex/commit/b98b453cb) | 2026-06-02 | minor | Narrative text revised |
+| [96ca688f8](https://github.com/paleofoundation/heavymetalindex/commit/96ca688f8) | 2026-06-02 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -104,3 +104,13 @@ This source is a primary hijiki occurrence and preparation study. It reinforces 
 - Speciation check: As(V) and As(III) are recorded as inorganic arsenic species; DMAA and arsenosugar are kept separate and are not collapsed into iAs or tAs.
 - Brand firewall: no brand-linked values are reported. The Hijiki Cooperative Society Japan is a sample supplier, not a consumer brand comparison.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact hijiki/*Hijikia fusiforme* remains in source text while frontmatter uses broad seaweed/kelp food slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [cc6743e63](https://github.com/paleofoundation/heavymetalindex/commit/cc6743e63) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

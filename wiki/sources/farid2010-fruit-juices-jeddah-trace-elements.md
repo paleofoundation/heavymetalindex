@@ -99,15 +99,14 @@ Instrument: Varian Spectra AA 30P graphite-furnace AAS with deuterium background
 **2026-06-08 byte-identical filesystem-copy enhancement:** added a `near_duplicates` entry recording the Kimi agent's June 8 placement of the same paper PDF under `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Levels of Trace Elements in Commercial Fruit Juices Consumed in Jeddah City, Saudi Arabia.pdf`. SHA-256 verified byte-identical to the canonical `raw_path` (`70a29cbe10755eaede9195b69fc188b862ae8d3a1a9261e1859beaecf359681d`); the same hash also appears at three other Kimi-corruption-issue paths (`May 21`, `manual-fetch/`, and `June 8/.../papers/`). Manual-fetch loop now recognizes the June 8 `_extracted_` location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [59db27e](https://github.com/paleofoundation/heavymetalindex/commit/59db27e) | 2026-06-08 | ingest: farid2010-fruit-juices-jeddah-trace-elements duplicate_filesystem_copies path from Manual Fetch Kimi /June 8/_extracted_01_Fruits_and_Fruit_Products |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [59db27e0c](https://github.com/paleofoundation/heavymetalindex/commit/59db27e0c) | 2026-06-08 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [cdd7c226b](https://github.com/paleofoundation/heavymetalindex/commit/cdd7c226b) | 2026-05-20 | major | 2 sections added and 1 removed; narrative text revised |
+| [ba9b2540f](https://github.com/paleofoundation/heavymetalindex/commit/ba9b2540f) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -90,15 +90,14 @@ Matrix-slug convention used here for non-food mechanistic toxicology in model or
 Fresh-context audit subagent (2026-06-02, Agent tool, general-purpose): verdict PROMOTE. All numerical, methodological, brand-firewall, and Part 2 firewall checks were independently confirmed against the PDF including the corrected LC50 interval. Two advisory concerns raised: (a) the model-organism matrix slugs above, addressed in this verification note; (b) the `[[health/index]]` link — verified post-audit to exist at `wiki/health/index.md`, so this was an audit false positive (the snapshot the subagent consulted does not list the `health/` namespace).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [80150df](https://github.com/paleofoundation/heavymetalindex/commit/80150df) | 2026-06-02 | audit: hernandez-cruz2024-cadmium-sulforaphane-celegans promoted |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [80150df7d](https://github.com/paleofoundation/heavymetalindex/commit/80150df7d) | 2026-06-02 | minor | Narrative text revised |
+| [f4c9c111b](https://github.com/paleofoundation/heavymetalindex/commit/f4c9c111b) | 2026-06-02 | minor | Narrative text revised |
+| [c6649eb1f](https://github.com/paleofoundation/heavymetalindex/commit/c6649eb1f) | 2026-06-02 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

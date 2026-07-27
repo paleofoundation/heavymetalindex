@@ -113,11 +113,13 @@ This source contributes broad Hong Kong market seafood occurrence evidence for o
 - Same audit caught real issues: `matrices` was missing the `organotins` speciation token (6+ sibling pages include it); `market-fish` was an idiomatic outlier (corpus uses `market-samples` or `<country>-market`). Both fixed. `products/seafood` added to capture the broad multi-group scope per lee2016-taiwan-seafood-organotins precedent.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [3f11482](https://github.com/paleofoundation/heavymetalindex/commit/3f11482) | 2026-06-08 | ingest: chung2020-hong-kong-seafood-organotins fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [a0fe52aed](https://github.com/paleofoundation/heavymetalindex/commit/a0fe52aed) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [3f1148231](https://github.com/paleofoundation/heavymetalindex/commit/3f1148231) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

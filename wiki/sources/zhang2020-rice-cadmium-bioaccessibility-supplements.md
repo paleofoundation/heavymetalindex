@@ -65,3 +65,13 @@ Microbiome: Not a microbiome study.
 
 - DOI, title, authors, journal, year, license, concentration values, digestion conditions, supplement doses, and analytical method were transcribed from the PDF.
 - The same `nu12061769` thyroid-gut review appeared as a separate auto-fetch hit in both probiotic and vitamin-mineral queues and was skipped separately; this page is the distinct IJERPH rice bioaccessibility paper with DOI 10.3390/ijerph17144978.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b8b3dd9f4](https://github.com/paleofoundation/heavymetalindex/commit/b8b3dd9f4) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

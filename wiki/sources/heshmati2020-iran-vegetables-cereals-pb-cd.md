@@ -199,15 +199,12 @@ Sample size is moderate (50 composites per commodity, triplicate measurements). 
 - **Data integrity.** All 8 commodity × 2 metal × (mean ww, SD ww, mean dw, SD dw, range min, range max, n below MAC, n above MAC) = 128 Table 2/3 cells transcribed from the original PDF (pages 103, 104). All Table 4 cells (8 commodities × 7 columns + TTHQ) likewise transcribed. Table 1 method-validation cells (Cd and Pb × 5 columns) likewise transcribed. EDI = C × FIR / bw recomputed verbatim for all eight commodities and both metals against the Table 4 column inputs, with no internal arithmetic discrepancies in Table 4 itself. The 332-vs-322 g/day discrepancy and the EDI rank-order statements are the two paper-internal contradictions identified; both flagged above. No other contradictions.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [ed45f3464](https://github.com/paleofoundation/heavymetalindex/commit/ed45f3464) | 2026-06-01 | major | 13 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

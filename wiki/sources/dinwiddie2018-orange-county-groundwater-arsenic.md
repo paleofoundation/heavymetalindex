@@ -66,3 +66,13 @@ App: Context only. The paper supports regional groundwater-pathway explanations,
 Recovered from `skip:not-target-cell` under the 2026-06-10 inclusion-by-default rule. The old skip treated private-well groundwater geochemistry as out of scope because it was not mineral-water product occurrence; under the corrected rule it is a3 groundwater pathway and geogenic source-attribution evidence.
 
 Numbers were checked against the extracted PDF text, especially the abstract, Data and Methods, Table 1, Table 2, pluton-proximity results, PCA results, discussion, and conclusion. The supplementary Table S5 groundwater-by-unit values were not fully present in the extracted text; only the text-reported Neoproterozoic epiclastics average of 1.25 ug/L is used here. Arsenic is tagged as `tAs` because the methods report elemental arsenic analysis and do not separate inorganic arsenic species.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [02e3d9cfb](https://github.com/paleofoundation/heavymetalindex/commit/02e3d9cfb) | 2026-06-10 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

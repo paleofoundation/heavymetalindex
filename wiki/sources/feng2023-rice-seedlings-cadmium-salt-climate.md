@@ -93,3 +93,13 @@ App: Context only for rice supply-chain risk explanation. The paper does not pro
 The auto-fetch filename framed this as salt/cadmium. The PDF measures Cd and Na uptake in rice seedlings under controlled climate and hydroponic stress, not heavy metals in market salt. Products are intentionally empty. `ingredients` includes rice because the source directly uses Oryza sativa seedlings and informs rice supply-chain uptake mechanisms, but the page repeatedly marks the data as non-occurrence and non-grain.
 
 The extracted text renders some plant-tissue concentration units as `mg/g DW`, but Figure 2 and Figure 3 captions specify `ug/g dry weight`; the reported Na narrative maximum of about 15 mg/g is consistent with 14898.06 ug/g rather than 14898.06 mg/g. Values above are therefore recorded as ug/g dry weight for Cd and Na tissue ranges, with the source's own mg/g summary retained only where the authors explicitly express the maximum in mg/g.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [41f7f1dbf](https://github.com/paleofoundation/heavymetalindex/commit/41f7f1dbf) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

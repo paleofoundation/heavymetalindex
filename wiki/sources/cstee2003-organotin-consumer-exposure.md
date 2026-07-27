@@ -104,3 +104,13 @@ App: If organotin context is surfaced for food-contact packaging or children's P
 - Units and bases are preserved exactly as printed, including `µg/L`, `ng Sn/litre`, `ng TBT /litre`, `mg TBTO/kg diet`, `µg/kg bw/day`, `µg/kg`, `mg/kg`, `µg/day`, and `µg/m3`.
 - The source's toxicological reference values and migration-limit discussion are reported as CSTEE/SCF regulatory-review statements, not as HMTc thresholds.
 - Closed-vocabulary check: product slugs use broad existing food-contact packaging, bakeware, and toy substrate rows. No exact baking-paper, PVC-flooring, wallpaper, indoor-dust, or paddling-pool product slug was invented; those contexts remain in prose.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [19c75a014](https://github.com/paleofoundation/heavymetalindex/commit/19c75a014) | 2026-06-09 | major | 7 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

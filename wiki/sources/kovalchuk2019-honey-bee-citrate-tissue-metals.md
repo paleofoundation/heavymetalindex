@@ -76,3 +76,13 @@ App: Context only. The source can support honey-supply-chain questions about api
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured bee tissues after sugar-syrup metal citrate exposure rather than honey occurrence. On reading, it is in-scope a4 animal biomonitoring and toxicology evidence.
 
 Values were checked against the abstract, methods, results prose, figure captions, discussion, and conclusion in the extracted PDF. The source's quantitative concentration plots are graph-only in the extracted text, so this page does not guess bar heights or tissue concentrations. Products and ingredients are intentionally empty. `bee-body-tissue` and `biological-tissue` are descriptive matrices for the measured tissue homogenates.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [80b47353d](https://github.com/paleofoundation/heavymetalindex/commit/80b47353d) | 2026-06-11 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

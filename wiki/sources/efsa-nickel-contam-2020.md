@@ -58,15 +58,15 @@ _Provenance note (2026-06-03): the canonical ingested PDF is at the `raw_path` a
 - Audit subagent (2026-06-03) flagged `[[regulations/eu-2024-907-nickel-monitoring]]` as a forward reference not in the taxonomy snapshot; verified false positive — the page `wiki/regulations/eu-2024-907-nickel-monitoring.md` exists in the live repo (the snapshot was simply not regenerated when the regulation page was added). The wikilink resolves.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [0aa71d5](https://github.com/paleofoundation/heavymetalindex/commit/0aa71d5) | 2026-06-03 | ingest: EU 2024/907 nickel-monitoring recommendation + EFSA exceedance; ground Brief 7 nickel in primaries |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section added; narrative text revised |
+| [0aa71d590](https://github.com/paleofoundation/heavymetalindex/commit/0aa71d590) | 2026-06-03 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
+| [9873dd17f](https://github.com/paleofoundation/heavymetalindex/commit/9873dd17f) | 2026-04-25 | major | 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

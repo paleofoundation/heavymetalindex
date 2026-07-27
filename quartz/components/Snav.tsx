@@ -1,5 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { resolveRelative, type SimpleSlug, type FullSlug } from "../util/path"
+// @ts-ignore — inline script resolved by Quartz's esbuild loader
+import pageHistoryTimeline from "./scripts/pageHistoryTimeline.inline"
 
 // The proof's curated left section-nav (.snav): core sections as `.sec` with
 // their sub-sections as `.sub`, secondary sections folded under "Further detail",
@@ -14,7 +16,7 @@ import { resolveRelative, type SimpleSlug, type FullSlug } from "../util/path"
 // over the page's existing H2s, so it applies to every metal page uniformly
 // without restructuring content. See the metal branch below.
 
-const DROP = /^(sources|page history)$/i // apparatus — reached via the icon utility links
+const DROP = /^(sources|references|page history|update history)$/i // apparatus — reached via the icon utility links
 // Secondary / non-reader-primary sections, folded under "Further detail".
 const FOLD = /app-?\s?layer|planned sections|^status$|metal pages|further detail/i
 
@@ -27,8 +29,9 @@ const MAIN_FAQ = /^(frequently asked questions|faqs?)$/i
 const UTIL: { to?: string; anchor?: string; label: string; d: string }[] = [
   { to: "coverage", label: "Evidence Database", d: "M3 3v18h18 M19 9l-5 5-4-4-3 3" },
   { to: "synthesis", label: "Research Feed", d: "M4 11a9 9 0 0 1 9 9 M4 4a16 16 0 0 1 16 16 M5 18.5a1.5 1.5 0 1 0 0 .01z" },
-  { anchor: "page-history", label: "Update History", d: "M3 3v5h5 M3.05 13A9 9 0 1 0 6 5.3L3 8 M12 7v5l3 2" },
-  { anchor: "sources", label: "References", d: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" },
+  { anchor: "update-history", label: "Update History", d: "M3 3v5h5 M3.05 13A9 9 0 1 0 6 5.3L3 8 M12 7v5l3 2" },
+  { anchor: "references", label: "References", d: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" },
+  { anchor: "sources", label: "Source Corpus", d: "M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z M3.3 7L12 12l8.7-5 M12 22V12" },
 ]
 
 type Sec = { slug?: string; text?: string; subs: any[]; fold: boolean }
@@ -176,5 +179,6 @@ export default (() => {
       </>
     )
   }
+  Snav.afterDOMLoaded = pageHistoryTimeline
   return Snav
 }) satisfies QuartzComponentConstructor

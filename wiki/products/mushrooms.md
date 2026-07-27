@@ -34,6 +34,14 @@ updated: 2026-06-09
 
 The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Woldegiorgis AZ, Abate D, Haki GD, and Ziegler GR (2015). *Major, Minor and Toxic Minerals and Anti-Nutrients Composition in Edible Mushrooms Collected from Ethiopia*. Journal of Food Processing & Technology. [https://doi.org/10.4172/2157-7110.1000430](https://doi.org/10.4172/2157-7110.1000430). Peer-reviewed, A-tier. [[sources/woldegiorgis2015-ethiopian-edible-mushrooms-minerals|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -50,11 +58,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [6661f46](https://github.com/paleofoundation/heavymetalindex/commit/6661f46) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [465c001fd](https://github.com/paleofoundation/heavymetalindex/commit/465c001fd) | 2026-06-10 | major | 1 section added; narrative text revised |
+| [6661f4696](https://github.com/paleofoundation/heavymetalindex/commit/6661f4696) | 2026-06-09 | major | 1 source added; 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

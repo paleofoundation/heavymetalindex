@@ -91,15 +91,12 @@ Courses: Useful example for distinguishing raw-material characterization and ads
 This page was built from the full PDF, including the abstract, chitin-isolation procedure table, nickel-sorption methods, Table 2 isolation yields, microscopy/XRPD/TGA/FTIR results, Figure 6 isotherm, Table 3 isotherm parameters, Table 4 EDX composition, discussion, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source uses black soldier fly exuviae as a chitin source and tests aqueous Ni2+ sorption; it does not quantify metals in edible insect material, animal feed, or consumer products.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [7b14b5d](https://github.com/paleofoundation/heavymetalindex/commit/7b14b5d) | 2026-06-02 | ingest June 2: zlotko2021-black-soldier-fly-chitin-nickel-sorption |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [7b14b5db1](https://github.com/paleofoundation/heavymetalindex/commit/7b14b5db1) | 2026-06-02 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

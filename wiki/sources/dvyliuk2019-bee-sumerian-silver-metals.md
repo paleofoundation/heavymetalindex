@@ -77,3 +77,13 @@ App: Context only. The source may support honey-supply-chain questions about bee
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured bee tissues after syrup feeding rather than honey occurrence. On reading, it is in-scope a4 biomarker/toxicology and animal-feed transfer context with measured tissue metal values.
 
 Numbers were checked against the Ukrainian abstract, methods, Table 1, Table 2, conclusion, and the English summary in the extracted PDF. The source reports Ag/Cu/Fe/Zn/Co in bee body tissues as mg/kg natural mass; it does not report honey metal concentrations. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [fe236ced0](https://github.com/paleofoundation/heavymetalindex/commit/fe236ced0) | 2026-06-10 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

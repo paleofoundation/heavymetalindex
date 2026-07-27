@@ -86,3 +86,13 @@ Educational clinical bulletin; not an analytical study. Sources of information c
 - `matrices:` values (`injectable-peptide`, `falsified-medicine`, `unauthorized-injectable`) are outside the standard food-matrix vocabulary in `docs/gpt-collaboration/system-prompt.md`. Kept consistent with the matrices vocabulary already used on [[sources/janvier2018-falsified-peptides-elemental-impurities]]; flagged for vocabulary-list review when the peptide/injectable-medicine matrices are consolidated.
 - Product slug `research-chemicals-peptides-sarms` exists in `wiki/products/` as of 2026-06-09 but is not in the 2026-05-18 taxonomy snapshot (snapshot is stale; this is a known condition). Same for `peptides-injectable-hormones`.
 - Sample sizes (`sample_n:`) intentionally null because the four cases are clinical reports, not analytical samples; the underlying contamination claims have their own sample sizes on the cited primary sources.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [128e3ad3c](https://github.com/paleofoundation/heavymetalindex/commit/128e3ad3c) | 2026-06-09 | major | 1 source added; 7 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

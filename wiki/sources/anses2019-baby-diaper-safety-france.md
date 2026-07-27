@@ -177,15 +177,13 @@ ANSES's conclusion explicitly lists substances where no exceedance was found acr
 - 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill). NEW path. Three identity checks against `wiki/sources/` returned no hits: no DOI (ANSES opinions are not DOI-assigned); raw_handle `MFK_07-conso2017sa0019en-2019` not present; cite-key stem `anses2019` not present. PDF SHA-256 `602c3dd29a079409d12d5fdf3e38d91f3aec58fea531648b9161d52906e3327a`. Folder: `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/`. Source is a national-agency regulatory opinion (32 pp.); `metals: []` reflects that the opinion does not name or quantify any specific heavy metal — heavy metals were on INC's screening panel but are absent from the inventory of detected/quantified substances, the QHRA, and the recommendations. Routed to `[[products/diapers-and-components]]` per `matrices: [diaper]`, following the lai2025 precedent for ingesting diaper papers without metal occurrence data as out-of-core-scope regulatory/methodology context.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c660ae705](https://github.com/paleofoundation/heavymetalindex/commit/c660ae705) | 2026-06-01 | major | 1 section added |
+| [a24503b94](https://github.com/paleofoundation/heavymetalindex/commit/a24503b94) | 2026-06-01 | major | 3 sections added and 2 removed; narrative text revised |
+| [c8a48a39c](https://github.com/paleofoundation/heavymetalindex/commit/c8a48a39c) | 2026-06-01 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

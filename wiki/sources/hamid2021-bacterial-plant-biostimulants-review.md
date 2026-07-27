@@ -103,15 +103,15 @@ The chapter does not provide primary contamination data on any food matrix, ingr
 - Audit subagent (2026-06-02, PROMOTE verdict, all 5 checks clean) flagged one minor descriptive overreach in Limitations: an earlier draft claimed Cr was "discussed only in §3.4 contexts" — verified against the source that §3.4 (Disease Suppression) does not discuss Cr in any heavy-metals sense; the Limitations bullet was corrected to remove that overreach. No other findings.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [30763fe](https://github.com/paleofoundation/heavymetalindex/commit/30763fe) | 2026-06-02 | audit: hamid2021-bacterial-plant-biostimulants-review [promoted] |
-| [2ed65c4](https://github.com/paleofoundation/heavymetalindex/commit/2ed65c4) | 2026-06-02 | ingest: hamid2021-bacterial-plant-biostimulants-review [fresh] from Manual Fetch Kimi /June 2 Manual Fetches |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [30763fe03](https://github.com/paleofoundation/heavymetalindex/commit/30763fe03) | 2026-06-02 | minor | Narrative text revised |
+| [2ed65c462](https://github.com/paleofoundation/heavymetalindex/commit/2ed65c462) | 2026-06-02 | major | 1 source added; 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -59,11 +59,13 @@ This source contributes Libya/Mediterranean canned-tuna occurrence data for tota
 - 2026-06-09 audit applied: corrected 1000× unit error (mg g⁻¹ → µg g⁻¹) in body prose, Key numbers table, and FAO/WHO limit reference. Numeric values themselves were correct; only the unit attribution was wrong because the ingest session trusted the pdftotext text layer rather than the typeset units.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [bd0631b](https://github.com/paleofoundation/heavymetalindex/commit/bd0631b) | 2026-06-08 | ingest: voegborlo1999-libya-canned-tuna-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [68afd7ce1](https://github.com/paleofoundation/heavymetalindex/commit/68afd7ce1) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [bd0631b47](https://github.com/paleofoundation/heavymetalindex/commit/bd0631b47) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

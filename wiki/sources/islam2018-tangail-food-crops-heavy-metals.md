@@ -93,11 +93,13 @@ This source contributes dry-weight Bangladesh industrial-area crop occurrence ev
 - Source-internal discrepancy noted (not a wiki defect): the abstract and §2.1 state "Seventy five samples of eight different agricultural crops" and `sample_n: 75` faithfully reports that figure, but the sum of Table 1 row-level n's is 93 (57+3+9+6+6+3+5+4). Carry forward for any future synthesis pass that needs to weight rice-vs-vegetable contributions; the wiki uses the source's stated sample size as authoritative.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [7d648b0](https://github.com/paleofoundation/heavymetalindex/commit/7d648b0) | 2026-06-08 | ingest: islam2018-tangail-food-crops-heavy-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3244c33cb](https://github.com/paleofoundation/heavymetalindex/commit/3244c33cb) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [7d648b00d](https://github.com/paleofoundation/heavymetalindex/commit/7d648b00d) | 2026-06-08 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

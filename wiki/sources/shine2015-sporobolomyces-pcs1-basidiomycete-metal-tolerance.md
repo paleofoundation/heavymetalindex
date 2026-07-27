@@ -105,12 +105,13 @@ Audit subagent (2026-06-08) flagged two findings; both verified against the PDF 
 No other audit findings; the Key numbers Cd unit-conversion (1 µM CdSO₄ ≈ 112 µg Cd/L), C-terminal cysteine motifs, slug vocabulary, methods anchors, brand firewall, and HMTc firewall all passed independent re-verification.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [dc90421](https://github.com/paleofoundation/heavymetalindex/commit/dc90421) | 2026-06-08 | audit: shine2015-sporobolomyces-pcs1-basidiomycete-metal-tolerance revised |
-| [7bec9a1](https://github.com/paleofoundation/heavymetalindex/commit/7bec9a1) | 2026-06-08 | ingest: shine2015-sporobolomyces-pcs1-basidiomycete-metal-tolerance fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [dc90421de](https://github.com/paleofoundation/heavymetalindex/commit/dc90421de) | 2026-06-08 | minor | Narrative text revised |
+| [7bec9a15f](https://github.com/paleofoundation/heavymetalindex/commit/7bec9a15f) | 2026-06-08 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

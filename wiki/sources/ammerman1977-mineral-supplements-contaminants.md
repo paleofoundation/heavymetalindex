@@ -88,3 +88,13 @@ The paper documents a plausible livestock supply-chain pathway: feed-grade miner
 - Speciation check: As and Hg are not speciated in Table 2 or the summary text; they are recorded as tAs and tHg. The review discusses methylmercury in secondary toxicology examples, but no feed-grade supplement MeHg occurrence value is reported.
 - Units and basis are preserved as printed (`ppm`, `ppb`, dry matter, wet tissue, or wet tissue basis where stated). No values were converted or normalized.
 - Brand firewall: the table footnote names a data contributor, not sampled brands; no commercial source is tied to a contamination value.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [bff07ee68](https://github.com/paleofoundation/heavymetalindex/commit/bff07ee68) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

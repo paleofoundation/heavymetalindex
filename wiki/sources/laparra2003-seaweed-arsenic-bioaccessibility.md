@@ -87,3 +87,13 @@ This source supports seaweed/kelp food routing with paired total and inorganic a
 - Speciation check: AsT and AsI are reported separately. AsI is not substituted for total arsenic and total arsenic is not promoted to inorganic arsenic.
 - Brand firewall: the source does not name consumer brands. The page reports only product forms/species and the Valencia health-food-store market context.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact hijiki, nori, green nori flakes, and taxonomic names remain in source text while frontmatter uses broad seaweed/kelp food slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [d6aacfaf3](https://github.com/paleofoundation/heavymetalindex/commit/d6aacfaf3) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

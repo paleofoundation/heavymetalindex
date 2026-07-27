@@ -77,11 +77,13 @@ The abstract says lead was measured in powdered infant formula and the results s
 The paper carries an internal date discrepancy on the sample-collection window: the abstract reports "for the period from February to August 2021" while the Materials and Methods section reports "for the period from July to August 2021". This source page follows the Materials and Methods statement (July-August 2021) on the basis that the M&M section is the authoritative sample-collection record.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [826e27a](https://github.com/paleofoundation/heavymetalindex/commit/826e27a) | 2026-06-07 | ingest auto-fetched 2026-06-07: alfaraji2023-infant-formula-baghdad-minerals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [4dfc2ac30](https://github.com/paleofoundation/heavymetalindex/commit/4dfc2ac30) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [826e27a87](https://github.com/paleofoundation/heavymetalindex/commit/826e27a87) | 2026-06-07 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

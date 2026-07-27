@@ -87,3 +87,13 @@ App: For tattoo-ink pages, this source can support cards on NZ EPA impurity limi
 - Brand firewall: Table 2 names recalled tattoo-ink products and attaches metal concentrations to those recall events. This page summarizes only aggregate recall counts and de-identified maxima; no product/brand name is attached to a contamination value.
 - Evidence tier: `A` because this is an agency risk-assessment report prepared by ESR for New Zealand health authorities, with clear scope, exposure assumptions, regulatory citations, and peer/management review. It remains regulatory/exposure context rather than a primary measurement source.
 - Routing: all frontmatter product slugs appear in `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [5382895af](https://github.com/paleofoundation/heavymetalindex/commit/5382895af) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

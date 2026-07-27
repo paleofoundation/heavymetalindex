@@ -194,15 +194,15 @@ The pooled-tissue Hg values are uniformly below 0.5 µg·g⁻¹ wet wt. and add 
   - All five checks otherwise clean: ✅ Check 1 (60+ cell values spot-checked across Tables 1, 2, 3 — no transpositions, no Cd/Pb swaps, no DG/cooked-meat swaps, no geometric/arithmetic conflation); ✅ Check 4 (no commercial brand names; Belledune Harbour + lead smelter + fertilizer plant are regulatory-event identifiers permitted under Part 12 Exception 1); ✅ Check 5 (no HMTc threshold proposals, no consumer advisories, no cross-literature synthesis claims).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [1e3ff4b](https://github.com/paleofoundation/heavymetalindex/commit/1e3ff4b) | 2026-06-03 | audit: chou-uthe1993-cadmium-american-lobster-belledune promoted |
-| [a0d92da](https://github.com/paleofoundation/heavymetalindex/commit/a0d92da) | 2026-06-03 | ingest: chou-uthe1993-cadmium-american-lobster-belledune fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [1e3ff4ba0](https://github.com/paleofoundation/heavymetalindex/commit/1e3ff4ba0) | 2026-06-03 | minor | Narrative text revised |
+| [a0d92da87](https://github.com/paleofoundation/heavymetalindex/commit/a0d92da87) | 2026-06-03 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -78,11 +78,13 @@ This source contributes Brazilian marine non-predatory fish occurrence data for 
 - Audit 2026-06-09: fresh-context subagent audit returned PROMOTE. Two ⚠️ completeness notes applied: instrument models (Varian 720 ES ICP-OES, CEM Mars Xpress microwave) and source LOQ table added to Methods for reproducibility and Cd/Pb censoring traceability. All Table 2/Table 3 numbers, sector sample sizes (n=42 north, n=32 south), exceedance percentages, and speciation logic (tAs/tHg/Cr) re-verified against the PDF — clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [a2ef710](https://github.com/paleofoundation/heavymetalindex/commit/a2ef710) | 2026-06-08 | ingest: bauer2023-brazilian-sardine-metal-risk fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3b1a85b94](https://github.com/paleofoundation/heavymetalindex/commit/3b1a85b94) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [a2ef710e6](https://github.com/paleofoundation/heavymetalindex/commit/a2ef710e6) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

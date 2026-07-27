@@ -68,14 +68,15 @@ The PDF title, byline, DOI, year, journal, methods, and Table 5 values were read
 The paper has internal inconsistencies between Table 5 and the Discussion/Conclusion body text. Table 5 reports standard-limit values of 0.20 mg/kg (Cd) and 1.63 mg/kg (Ni), while the Discussion body text states the limits as 0.02 mg/kg (Cd) and 0.163 mg/kg (Ni); the Discussion also gives a single Cd figure of 0.426 mg/kg (the unweighted mean across the four spices) and the Conclusion cites suya-spice nickel as 3.223 mg/kg where Table 5 shows 3.258 mg/kg. The wiki page cites Table 5 values throughout because the table is the primary data report; the inconsistencies are flagged here so a future auditor does not mistake them for wiki transcription errors.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [728e9b4](https://github.com/paleofoundation/heavymetalindex/commit/728e9b4) | 2026-06-03 | ingest auto-fetched 2026-06-03: adams2017-nigerian-processed-spices-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [81b1da735](https://github.com/paleofoundation/heavymetalindex/commit/81b1da735) | 2026-06-09 | minor | Narrative text revised |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [728e9b4b6](https://github.com/paleofoundation/heavymetalindex/commit/728e9b4b6) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

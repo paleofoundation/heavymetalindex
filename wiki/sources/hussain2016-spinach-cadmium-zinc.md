@@ -106,3 +106,13 @@ App: Context only. This source can inform spinach Cd pathway notes and supplier 
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. On reading, the paper is in scope as lane a2 mitigation/remediation and lane a3 soil-to-plant transfer evidence because it measures Cd in spinach leaves, roots, and post-harvest soil under controlled Cd/Zn soil treatments.
 
 Numbers were checked against the extracted PDF text, especially Tables 1-6 and the conclusion. Units are preserved as printed (`mg kg-1`, `g pot-1`, and coefficient values). Pb appears only in the baseline soil-characterization table and is not treated as spinach occurrence. Products and ingredients are intentionally empty because the experiment used spiked glasshouse soil rather than market spinach.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [e9f0b8980](https://github.com/paleofoundation/heavymetalindex/commit/e9f0b8980) | 2026-06-11 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

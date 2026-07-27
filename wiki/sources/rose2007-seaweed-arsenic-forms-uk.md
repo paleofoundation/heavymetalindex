@@ -90,12 +90,13 @@ Thirty-one samples (five varieties) were collected at random from UK retail outl
 - Audit subagent (2026-06-08, fresh-context) returned PROMOTE on all five checks (hijiki 9-row block re-verified cell-by-cell across all three basis blocks, no transposition). One ⚠️ applied: the dietary-exposure multiplier was understated as "30-fold"; verified against source (risk-assessment section states "30–50-fold increase"; conclusion states "around 30 times") and broadened to "30- to 50-fold".
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c5a5510](https://github.com/paleofoundation/heavymetalindex/commit/c5a5510) | 2026-06-08 | audit: rose2007-seaweed-arsenic-forms-uk revised |
-| [95b689d](https://github.com/paleofoundation/heavymetalindex/commit/95b689d) | 2026-06-08 | ingest: rose2007-seaweed-arsenic-forms-uk fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [c5a5510aa](https://github.com/paleofoundation/heavymetalindex/commit/c5a5510aa) | 2026-06-08 | minor | Narrative text revised |
+| [95b689d4d](https://github.com/paleofoundation/heavymetalindex/commit/95b689d4d) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

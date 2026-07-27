@@ -80,3 +80,13 @@ Microbiome: Not applicable.
 ## Verification notes
 
 Identity checks before drafting found no existing `wiki/sources/` hit for DOI `10.1016/j.envint.2025.109401`, raw handle `MFK_1-s2-0-s0160412025001527-main`, cite key `marcelis2025-micp-leachables-metals`, or the exact title. The DOI, authors, title, journal, year, and CC BY-NC-ND license were checked against the first page and PDF metadata. Table 6 was re-opened from `/tmp/hmi-fem-002.txt`; all metal values on this page are copied as `ppb` leachate values without conversion. The abstract/body unit conflict for the sea-sponge Ni/Cd/Sb/Hg values was preserved instead of normalized. No inorganic arsenic, Cr(VI), methylmercury, organotin, or other speciation is reported; frontmatter uses `tAs`, `Cr`, `Sn`, and `tHg`. The source uses product sample codes and discusses popular brands, but this page reports only product-category and sample-code summaries under the brand firewall. Product slugs were checked against the closed taxonomy snapshot; `menstrual-intimate-products-other` is used for adult novelties, Kegel-exercise devices, and menstrual sea sponges because no narrower closed product slug exists. `npm run evidence:source-routes` exited 0 and generated four product rows; `routing_malformed.csv` contains an advisory-only missing-ingredients warning because the closed ingredient vocabulary has no valid material slug for this consumer-product leachables study, so `ingredients: []` is intentionally retained.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [a2319d6e4](https://github.com/paleofoundation/heavymetalindex/commit/a2319d6e4) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

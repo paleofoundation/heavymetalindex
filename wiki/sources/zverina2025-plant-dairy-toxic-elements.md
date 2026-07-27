@@ -165,11 +165,12 @@ The sampling frame is restricted to the Czech market (commercial PBDAs in Brno s
 **Sample-size attribution caveat.** The source's Methods text places "n=35" on the milk-alternatives bucket (20 store-bought + 15 homemade across five seed types). The 15 homemade samples are explicitly described as three samples per seed type for five seed types; the 20 store-bought milk-alternatives count does not enumerate per-base-ingredient (soy/oats/almond/coconut/rice/hemp/flax/poppy/pumpkin/sesame/other) subcounts, so per-store-bought-base-ingredient sample sizes cannot be recovered from the published Methods text alone (Supplementary Table S1 was not retrieved with this PDF and would need separate fetch to recover those per-base counts).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [b78ddfa](https://github.com/paleofoundation/heavymetalindex/commit/b78ddfa) | 2026-06-08 | ingest: zverina2025-plant-dairy-toxic-elements fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [b78ddfa7d](https://github.com/paleofoundation/heavymetalindex/commit/b78ddfa7d) | 2026-06-08 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

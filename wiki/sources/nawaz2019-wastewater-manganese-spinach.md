@@ -89,3 +89,13 @@ App: Context only. The source can inform spinach pathway notes and irrigation-wa
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. On reading, this is lane a3 irrigation-water and soil-to-plant pathway evidence because it measures wastewater metals and manganese uptake into spinach leaves.
 
 Numbers were checked against the abstract, wastewater Table 1, growth Table 2, Pearson-correlation Table 3, results text, Figure 1 caption, and conclusion in the extracted PDF text. Units are copied as printed. Pb and Cd were not found in the wastewater table (`Nd`) and are not treated as spinach occurrence. The source has an internal mismatch for the second-cutting maximum Mn uptake, so both printed values are recorded rather than averaged.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [59ac69e7a](https://github.com/paleofoundation/heavymetalindex/commit/59ac69e7a) | 2026-06-11 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

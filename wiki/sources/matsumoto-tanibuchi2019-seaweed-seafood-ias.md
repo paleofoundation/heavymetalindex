@@ -114,3 +114,13 @@ This source provides direct Japanese-market occurrence evidence for inorganic ar
 - Speciation check: inorganic arsenic is recorded only where the source reports As(III)+As(V). Total arsenic, AB, MMA, DMA, AC, TMAO, and TeMA are not substituted for iAs.
 - Brand firewall: no consumer brands were attached to contamination values. Instrument and reagent vendor names in the methods are scientific reporting, not brand contamination ranking.
 - Missing-slug check: no missing product or ingredient slug blockers for broad routing. Exact product names such as nam pla and oyster sauce route through `condiments-general`; exact species and tissue parts remain in Key numbers and methods text.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aaa789f27](https://github.com/paleofoundation/heavymetalindex/commit/aaa789f27) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

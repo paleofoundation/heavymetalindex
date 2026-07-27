@@ -140,3 +140,13 @@ Not applicable. This is a one-page coalition post-passage summary letter, not an
 - Quantitative content in this page (100 ppm fragrance-disclosure threshold, 23 hazard-list count, statutory-provision quotations) is reproduced exactly from the source PDF.
 - No new ingredient pages, no new product pages, no new regulation pages were created during this ingest, per CLAUDE.md Part 10 and the skill's hard constraints.
 - If a `regulations/ca-sb258-cleaning-product-right-to-know.md` page is ever created (Step 0 Lock decision), this post-passage letter and the sibling pre-passage factsheet would together be the principal coalition-document citations, with the binding statutory text at Cal. Health & Safety Code §§ 108950–108997 as the regulatory anchor and DTSC's implementing materials as the source for the 23 hazard lists.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [270ad581a](https://github.com/paleofoundation/heavymetalindex/commit/270ad581a) | 2026-06-09 | major | 5 sources added; 10 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -69,3 +69,13 @@ App: Context only. The source supports mitigation and metal-recovery narrative f
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it was plating-wastewater recovery rather than chitosan product occurrence. On reading, it is in-scope a2 mitigation/remediation because it reports Pd/Sn wastewater concentrations, adsorption rates, recovery rates, and model parameters.
 
 Numbers were checked against the English abstract, methods, Table 1, Table 2 text, Figure 3/4 result text, and conclusion in the extracted PDF. Pd and Sn are reported as metal concentrations/species in wastewater and recovery experiments, not total consumer-product contamination. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [58c0a5c9d](https://github.com/paleofoundation/heavymetalindex/commit/58c0a5c9d) | 2026-06-10 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

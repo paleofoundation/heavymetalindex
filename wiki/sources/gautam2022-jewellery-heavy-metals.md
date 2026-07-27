@@ -121,3 +121,13 @@ App: If a jewelry or pierced-contact-product exposure surface is built, this sou
 - Product slug note: no adult-jewelry product slug is available in the current routing vocabulary, so the page routes to the existing children's jewelry and piercing-post product pages and records the broader adult-jewelry context in text only.
 - Evidence tier: `A` because this is an ESR/Ministry of Health agency risk-assessment report with transparent source tables, regulatory review, and risk-characterization logic. Its occurrence contribution is secondary/contextual, not primary market sampling.
 - Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `1` product routing row (`childrens-jewelry`), was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients;matrices` advisory in `data/evidence/routing_malformed.csv` because this is a non-food hard-goods/jewelry source with no ingredient matrix.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [5fb79cc80](https://github.com/paleofoundation/heavymetalindex/commit/5fb79cc80) | 2026-06-09 | major | 9 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

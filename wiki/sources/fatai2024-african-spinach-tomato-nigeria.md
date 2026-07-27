@@ -74,12 +74,12 @@ Fresh African spinach and tomato samples were collected from two locations in As
 - The conclusion text appears to say Cd in tomatoes exceeded the FAO/WHO limit, but Table 1 and the Results text identify African spinach Cd 0.210 mg/kg as the exceedance; this source page follows Table 1 and the Results discussion.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [46843a9](https://github.com/paleofoundation/heavymetalindex/commit/46843a9) | 2026-06-07 | apply audit fatai2024 african spinach tomato |
-| [f388120](https://github.com/paleofoundation/heavymetalindex/commit/f388120) | 2026-06-07 | ingest auto-fetched 2026-06-07: fatai2024-african-spinach-tomato-nigeria |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [f388120a1](https://github.com/paleofoundation/heavymetalindex/commit/f388120a1) | 2026-06-07 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

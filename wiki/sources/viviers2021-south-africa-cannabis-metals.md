@@ -115,3 +115,13 @@ This source provides South Africa market context for cannabis-based product cate
 - Units are preserved as `µg/g`, `ppm`, `%RSD`, and the source's sample counts. No unit conversions were performed.
 - Brand firewall: the dataset is anonymized and no sampled brands are named.
 - Missing slug note: the taxonomy snapshot has no cannabis-specific product, ingredient, vape, or inhalation-product slug. Frontmatter uses broad `[[ingredients/herbal-botanicals]]`, `[[products/supplements-botanicals-herbs]]`, and `[[products/dietary-supplements]]`, while cannabis route/form terms are retained only as matrix descriptors.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [718c85d1d](https://github.com/paleofoundation/heavymetalindex/commit/718c85d1d) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

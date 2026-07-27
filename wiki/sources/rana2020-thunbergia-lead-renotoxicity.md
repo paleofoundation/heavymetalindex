@@ -67,3 +67,13 @@ Microbiome: No microbiome endpoints.
 - Units are preserved exactly as printed in the source, including `mg/dL`, `mg/g protein`, `mg/kgBW`, and `1% in DW`. The BUN and creatinine rows use the source's printed `+` notation for several Pb co-treatment cells.
 - Speciation: the source reports Pb and PbAc exposure; no lead speciation is reported.
 - Products and ingredients are intentionally empty because this is an animal toxicology/co-treatment paper, not a botanical supplement occurrence study.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6d7c7a42a](https://github.com/paleofoundation/heavymetalindex/commit/6d7c7a42a) | 2026-06-11 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

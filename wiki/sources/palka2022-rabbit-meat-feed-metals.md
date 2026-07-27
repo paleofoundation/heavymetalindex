@@ -66,3 +66,13 @@ Microbiome: Not applicable.
 ## Verification notes
 
 The DOI, authors, journal, publication date, and CC BY license are visible on the first page of the PDF. The auto-fetched filename contains `2023`, but the actual article was published in 2022 as Animals 12, article 827. A duplicate auto-fetched copy exists under the lead-targeted vitamin-mineral supplement filename; this page uses the cadmium-targeted copy as the canonical raw path.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c80862a01](https://github.com/paleofoundation/heavymetalindex/commit/c80862a01) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -100,15 +100,13 @@ A CPSC Office of the Secretary ballot package dated July 23, 2009 transmitting t
 - **Related corpus pages.** [[hatlelid2009-cpsc-cpsia-lead-childrens-products]] is the same staff author's December 2009 fourteen-slide presentation summarising the broader CPSIA Section 101 regime (statutory limits, definitional scope, exclusions framework, determinations rule, paint rule, and testing-methods study); this current source is the primary-regulatory-record document for the specific 16 CFR 1500.87 inaccessibility rule that the December 2009 deck's slide 6 summarises. [[cpsc2012-cpsia-101b-functional-purpose-exception]] is the same series of Section 101(b) interpretive rules (the §1500.91 functional-purpose exception) approached three years later under the same statutory authority; this current source is the older sibling. [[cfa2012-cpsia-lead-fact-sheet]] is a 2012 consumer-advocacy summary of the same CPSIA Section 101 regime, written several years after this 2009 ballot package, that references but does not reproduce the §1500.87 inaccessibility framework. No CPSIA-Section-101-specific regulation page yet exists in `wiki/regulations/`; the natural next-step regulation page would be the routing target for this source, the cpsc2012 source, the cfa2012 source, the hatlelid2009 presentation, and any later Section 101 sources. Per Part 10 and the manual-fetch skill, that regulation page is a Karen-curated new-page proposal rather than something created during this ingest.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [894d69e66](https://github.com/paleofoundation/heavymetalindex/commit/894d69e66) | 2026-06-01 | minor | Narrative text revised |
+| [04cbe2350](https://github.com/paleofoundation/heavymetalindex/commit/04cbe2350) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

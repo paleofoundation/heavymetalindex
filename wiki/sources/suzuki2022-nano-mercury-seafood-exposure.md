@@ -73,11 +73,13 @@ This source contributes Japanese-market seafood occurrence data for T-Hg, MeHg, 
 - Source-internal group-name inconsistency: the methods describe the `n = 2` group as "sea bream and flounder" (section 2.1) while Table 2 labels the same row "Red snapper and flounder." Both names refer to the same group; downstream pooling should not treat them as separate cells.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [745b464](https://github.com/paleofoundation/heavymetalindex/commit/745b464) | 2026-06-08 | ingest: suzuki2022-nano-mercury-seafood-exposure fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [59be7b583](https://github.com/paleofoundation/heavymetalindex/commit/59be7b583) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [745b46425](https://github.com/paleofoundation/heavymetalindex/commit/745b46425) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

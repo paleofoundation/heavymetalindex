@@ -61,3 +61,13 @@ App: Can support context notes that mercury removal technologies may be relevant
 - DOI, authors, year, and publication were taken from the Nature Communications PDF title page.
 - The auto-fetch row labelled this as a fabric-protectants target; the actual study is a mercury-removal sorbent/filter-fabric paper. `products` is therefore left empty so the source is not treated as fabric-protectant occurrence evidence.
 - The source reports Hg0 gas capture and HgSe immobilization; no methylmercury or consumer-product total-mercury concentration is inferred.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [d9caf3878](https://github.com/paleofoundation/heavymetalindex/commit/d9caf3878) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -91,3 +91,13 @@ App: The source can support leafy-vegetable and root-vegetable profiles for tAs,
 - Speciation check: As is reported as total As (`tAs`) by the source. The paper does not report inorganic arsenic, Cr-VI, methylmercury, or total mercury.
 - Soil-context firewall: soil values are recorded only as supply-chain context and are not described as product occurrence values.
 - Closed vocabulary check: all product, ingredient, metal, and jurisdiction slugs used in frontmatter or wiki-page links are present in `docs/gpt-collaboration/taxonomy-snapshot.md` or established source-page jurisdiction codes.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [f609b13b1](https://github.com/paleofoundation/heavymetalindex/commit/f609b13b1) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

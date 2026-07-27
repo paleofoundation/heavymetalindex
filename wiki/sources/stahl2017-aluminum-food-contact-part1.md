@@ -110,3 +110,13 @@ This source supports aluminum occurrence context across food categories and iden
 - Part I regulatory values such as the TWI and specific release limit are source context only and are not HMTc thresholds.
 - Brand firewall check: no commercial food or cookware brands are attached to contamination values. Instrument and reference-material names are method context only.
 - Closed vocabulary check: product, ingredient, metal, and wiki-page slugs use entries present in `docs/gpt-collaboration/taxonomy-snapshot.md`. Exact categories such as pine nuts, spelt, Harz cheese, malt, wine, game meat, herring, and crustaceans are retained in table text where exact product slugs are absent or not used in the broad frontmatter.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [046939195](https://github.com/paleofoundation/heavymetalindex/commit/046939195) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

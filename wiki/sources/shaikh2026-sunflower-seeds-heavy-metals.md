@@ -62,15 +62,13 @@ Certification: Pakistan/Sindh sunflower-seed occurrence evidence for Cd, Pb, Cr,
 All numeric values verified against the published PDF (Planta Animalia Vol 5 Issue 2, pp. 191-197, DOI 10.71454/PA.005.02.0383). Title, authors, and key numbers transcribed from the published PDF directly, not from the abstract alone. The cite_key (`shaikh2026-...`) preserves the original ingest-time slug for cross-reference stability, but the actual first author is Shar (not Shaikh); downstream tooling that derives author display from frontmatter should read the `authors:` field, not the cite_key prefix. Note an internal inconsistency in the published paper: the Results prose says "Highest cadmium concentration was found in the samples from Tando jam and Tando Allahyar with mean values mean 0.009 mg/kg" but Table 3 shows Tando Allahyar (S3) at 0.006 mg/kg, the lowest of the six sites; the table is treated as authoritative.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c63b4e9d5](https://github.com/paleofoundation/heavymetalindex/commit/c63b4e9d5) | 2026-06-09 | minor | Narrative text revised |
+| [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
+| [f5efca8e6](https://github.com/paleofoundation/heavymetalindex/commit/f5efca8e6) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

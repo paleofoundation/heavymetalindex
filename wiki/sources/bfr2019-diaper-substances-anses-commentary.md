@@ -75,15 +75,12 @@ The BfR communication is qualitative throughout; no exposure doses, hazard quoti
 - 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill). NEW path. Three identity checks against `wiki/sources/` returned no hits: no DOI (BfR communications are not DOI-assigned); raw_handle `MFK_09-preliminary-estimation-of-undesired-substances-` not present; cite-key stem `bfr2019-diaper` not present (existing `bfr2019-*` and `bfr*-diaper-*` searches returned no matches). PDF SHA-256 `3b96d6f4845e4c2af20f101279302b0714e2ea31ecafc60207c63d806c4f2641`. Folder: `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/`. Source is a 3-page national-agency regulatory commentary; `metals: []` reflects that no specific heavy metal is named, screened, or evaluated in the document. Routed to `[[products/diapers-and-components]]` per `matrices: [diaper]`, following the sibling diaper-source precedent (anses2019, lai2025) for ingesting diaper papers without metal occurrence data as out-of-core-scope regulatory context. Marked `near_duplicates: [[[anses2019-baby-diaper-safety-france]]]` because the BfR communication is wholly downstream of the ANSES opinion.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c660ae705](https://github.com/paleofoundation/heavymetalindex/commit/c660ae705) | 2026-06-01 | major | 1 section added |
+| [6aa63756f](https://github.com/paleofoundation/heavymetalindex/commit/6aa63756f) | 2026-06-01 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

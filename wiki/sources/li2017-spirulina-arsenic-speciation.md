@@ -93,3 +93,13 @@ This source adds a primary arsenic-speciation dataset for food-grade spirulina p
 - Speciation check: As(III), As(V), DMA(V), MMA(V), and unknown organic arsenic species remain separate. No total arsenic value is promoted to iAs, and no source-unreported As(III)+As(V) sum is calculated.
 - Brand firewall: the source reports production-site provinces, not consumer brands; no brand-linked contamination values are reproduced.
 - Missing-slug check: taxonomy snapshot has no exact `spirulina` or cyanobacteria ingredient slug. Frontmatter leaves `ingredients: []` and uses existing product slugs for algae/seaweed-based supplements, dietary supplements, and oral-solid powders.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [44269ab67](https://github.com/paleofoundation/heavymetalindex/commit/44269ab67) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

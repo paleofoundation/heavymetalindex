@@ -112,15 +112,14 @@ App: Fresh tomato Cd values cluster at 0.006–0.028 mg/kg fw (6–28 ppb); Pb v
 - Cross-vendor audit (Codex, 2026-05-18) retained the source-specific matrix labels `[fresh-tomato, dry-mass-tomato, canned-tomato-concentrate, tomato-puree, tomato-juice, tomato-sauce, ketchup, dried-tomato]` as custom matrix descriptors because the current common matrices vocabulary does not have a clean fresh-tomato / tomato-product equivalent; downstream routing is carried by the live ingredient and product wikilinks above.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [059a41347](https://github.com/paleofoundation/heavymetalindex/commit/059a41347) | 2026-05-18 | minor | Narrative text revised |
+| [20a6b08de](https://github.com/paleofoundation/heavymetalindex/commit/20a6b08de) | 2026-05-18 | major | 1 section added; narrative text revised |
+| [3b7bf28d9](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28d9) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

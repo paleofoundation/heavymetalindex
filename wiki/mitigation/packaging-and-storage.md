@@ -53,3 +53,13 @@ A finished-product Sn result above the canned-foods limit is almost always a pac
 ## Sources
 
 *Source-grounded magnitude data for each packaging-and-storage intervention is pending the corresponding ingest passes. Priority promotion candidates include the Codex Code of Practice for canned foods (CAC/RCP 60-2005), FDA Compliance Policy Guide 545.450 (lead in ceramics), EU JRC migration testing reports, and primary-literature studies on tinplate corrosion kinetics as a function of food pH and storage temperature.*
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [03afe1a61](https://github.com/paleofoundation/heavymetalindex/commit/03afe1a61) | 2026-05-17 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

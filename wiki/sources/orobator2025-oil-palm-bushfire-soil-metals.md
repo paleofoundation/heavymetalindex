@@ -74,3 +74,13 @@ App: Context only. The source supports geographic and fire-disturbance questions
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated plantation soil without palm-oil samples as out of scope. On reading, it is in-scope a3 pathway/source-attribution evidence because it measures heavy-metal changes in oil-palm plantation soil after bushfire.
 
 Numbers were checked against the abstract, Table 1, and the metal-specific results sections. Chromium is total Cr, not Cr(VI). Arsenic is total As, not inorganic arsenic. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [8a4982e0d](https://github.com/paleofoundation/heavymetalindex/commit/8a4982e0d) | 2026-06-10 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

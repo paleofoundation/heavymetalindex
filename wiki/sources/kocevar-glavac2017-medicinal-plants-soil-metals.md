@@ -129,3 +129,13 @@ App: The source can support `herbal-botanicals` and `dried-herbs` contamination 
 - Soil-only values are included as supply-chain context and are not treated as product occurrence. The routeable values are the plant concentrations and the *Urtica dioica* hot-water extract values.
 - License left `unknown`; the extracted PDF did not show an explicit Creative Commons or reuse license statement.
 - No sampled-product brand names are present. Place names are retained because they are geographic sampling locations, not commercial sampled-product identifiers.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [15cdb4f82](https://github.com/paleofoundation/heavymetalindex/commit/15cdb4f82) | 2026-06-09 | major | 8 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

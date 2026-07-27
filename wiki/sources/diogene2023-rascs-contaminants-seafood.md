@@ -123,15 +123,15 @@ Knowledge-exchange consortium project executed via monthly online meetings (year
 - 2026-06-03 — Same audit flagged the four ToS workshop date pairs (Rome 16–17 Feb 2023; Lisbon 28 Feb – 1 Mar 2023; Barcelona 11–12 Apr 2023; Paris 11–12 May 2023) as not verified within the page range it read (pp. 1–28, 36–45). False positive: the dates appear in Section 3 "Description of exchanges performed" on p. 81 of the source PDF, immediately preceding Section 4. No correction needed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [72e587d](https://github.com/paleofoundation/heavymetalindex/commit/72e587d) | 2026-06-03 | audit: diogene2023-rascs-contaminants-seafood revised |
-| [2971b4b](https://github.com/paleofoundation/heavymetalindex/commit/2971b4b) | 2026-06-03 | ingest: diogene2023-rascs-contaminants-seafood fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [72e587dc8](https://github.com/paleofoundation/heavymetalindex/commit/72e587dc8) | 2026-06-03 | minor | Narrative text revised |
+| [2971b4b94](https://github.com/paleofoundation/heavymetalindex/commit/2971b4b94) | 2026-06-03 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

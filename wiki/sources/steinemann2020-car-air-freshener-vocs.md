@@ -68,3 +68,13 @@ App: If home-air emission product context is surfaced, this source can flag that
 - Brand firewall: the paper does not report brand-specific values in the extracted text; product identities are treated as car air-freshener types only.
 - Product slug note: no exact car-air-freshener product slug exists in the current taxonomy. The page routes through `home-air-emission-products-other`.
 - Evidence tier: `B` because this is a peer-reviewed emissions study with transparent analytical methods, but it is not a quantitative metal occurrence study and the nickel-related result is presence/prevalence only.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [224e9d8dd](https://github.com/paleofoundation/heavymetalindex/commit/224e9d8dd) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

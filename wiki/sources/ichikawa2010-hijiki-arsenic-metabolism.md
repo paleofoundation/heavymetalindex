@@ -99,3 +99,13 @@ This source adds a narrow hijiki occurrence record with paired cooked and dried 
 - Speciation check: `iAs` remains distinct from total arsenic and from the source's `Other` arsenic category. Mouse tissue and excretion values are total arsenic context, not product iAs values.
 - Brand firewall: no consumer brand-linked contamination values are reported. The Hijiki Cooperative Society Japan is treated as a sample/material supplier.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact hijiki/*Hijikia fusiforme* remains in source text while frontmatter uses broad seaweed/kelp food slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [4ae676054](https://github.com/paleofoundation/heavymetalindex/commit/4ae676054) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

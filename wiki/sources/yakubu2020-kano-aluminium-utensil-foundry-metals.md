@@ -106,3 +106,13 @@ App: Context only. The source can support shared-liability/source-attribution na
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it lacked utensil-product migration data. On reading, it is in-scope a3 source-attribution evidence because it measures environmental metals around local aluminium-utensil production.
 
 Numbers were checked against the extracted PDF text, especially the abstract, soil/water sampling methods, Tables 1-5, discussion, and conclusion. Chromium is total Cr; no Cr(VI) is reported. The paper does not measure aluminium despite its aluminium-utensil production setting, and no finished utensil or food-contact values are inferred.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3493b69a7](https://github.com/paleofoundation/heavymetalindex/commit/3493b69a7) | 2026-06-10 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

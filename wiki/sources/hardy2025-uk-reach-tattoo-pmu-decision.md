@@ -73,3 +73,13 @@ App: The source can support a Great Britain tattoo-ink regulatory-status card. I
 - Brand firewall: no product brands or contamination values are reported in the decision report.
 - Evidence tier: `A` because this is a primary UK government regulatory decision under UK REACH, but it is regulatory context only and not a primary occurrence dataset.
 - Routing: `tattoo-inks` exists in the taxonomy snapshot. The current taxonomy has no separate permanent-make-up-ink product slug, so PMU specificity is retained in matrices and body text rather than inventing a product slug.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [0cbacf592](https://github.com/paleofoundation/heavymetalindex/commit/0cbacf592) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

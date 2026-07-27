@@ -135,3 +135,13 @@ This source supports seaweed/kelp food and algae/seaweed supplement context by i
 - Brand firewall: the review names no consumer brands. Species names, zones, analytical methods, and cited primary-study authors are retained as scientific context.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact seaweed species and phylum names remain in prose/tables while frontmatter uses broad seaweed/kelp and algae/seaweed supplement slugs.
 - Evidence-fitness note: this page is secondary literature context. The `sample_n` field is `null` because the review does not report primary samples; n values in Table 1 are compiled literature records and should not be treated as primary sample counts.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [e892a1bc0](https://github.com/paleofoundation/heavymetalindex/commit/e892a1bc0) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

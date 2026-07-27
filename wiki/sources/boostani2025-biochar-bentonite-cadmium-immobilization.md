@@ -66,3 +66,14 @@ The DOI, title, author list, journal, and year were taken from the Scientific Re
 The `matrices:` slugs (calcareous-soil, coffee-grounds-biochar, municipal-solid-waste-biochar, bentonite, soil-remediation) are descriptive free-text outside the controlled food/personal-care matrices vocabulary, which is appropriate for a Cd-spiked soil-remediation study; with empty `products:` and `ingredients:` arrays, the routing layer correctly treats this source as remediation evidence only.
 
 GPT audit (2026-06-09 autonomous) flagged "M + B2 carbonate-bound Cd 14.0 mg/kg" as a transposition of the 14.9 mean; verified against Table 3 (M+B2 cell = 14.0) and the page 6 source text ("the combined treatments of G + B0 (14.0 mg Cd kg-1) and M + B2 (14.0 mg Cd kg-1)") — finding was a false positive because the auditor confused the M-column mean (14.9) with the M+B2 cell value (14.0).
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [5298c6f73](https://github.com/paleofoundation/heavymetalindex/commit/5298c6f73) | 2026-06-09 | minor | Narrative text revised |
+| [f27a79b7e](https://github.com/paleofoundation/heavymetalindex/commit/f27a79b7e) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

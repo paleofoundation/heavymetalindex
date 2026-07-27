@@ -66,3 +66,13 @@ App: Context only. The source does not estimate consumer-product contamination p
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated "not bottled/mineral-water occurrence" as exclusionary, but the paper is in-scope a2 mitigation/remediation evidence.
 
 All numbers above were re-checked against the extracted PDF text, including the abstract, Materials and Methods, Tables 1 and 2, and the Results sections on removal efficiency, Pb/Cd fractionation, DTPA-extractable metals, pH/CEC, and enzyme activity. Units are preserved as reported. The source is a Research Square preprint; the title page states that a version of record was published in Environmental Science and Pollution Research with DOI 10.1007/s11356-021-15138-0.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1eb0d7743](https://github.com/paleofoundation/heavymetalindex/commit/1eb0d7743) | 2026-06-10 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

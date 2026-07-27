@@ -61,11 +61,12 @@ This source is useful as a broad map of plant-food occurrence literature and as 
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; generic "nuts" is not an ingredient slug, so nuts route through peanuts plus the broad `nuts-seeds-other` product row. `jurisdictions: [GLOBAL]` is used because the review compiles studies across many countries and does not have one sampling jurisdiction.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [9fa1a51](https://github.com/paleofoundation/heavymetalindex/commit/9fa1a51) | 2026-06-08 | ingest: hussain2019-plant-food-heavy-metal-review fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [9fa1a5113](https://github.com/paleofoundation/heavymetalindex/commit/9fa1a5113) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

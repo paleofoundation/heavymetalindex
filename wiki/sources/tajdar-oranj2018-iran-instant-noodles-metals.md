@@ -205,15 +205,12 @@ This source contributes Iranian retail-market occurrence data for total Pb, Cr, 
 - **Data-integrity transcription notes.** Pooled per-origin mean ± SD values transcribed from the Abstract (p. 1) and re-verified against Results §3.1-§3.4 prose (pp. 4-6). Per-brand mean ± SD values transcribed from Results §3.1-§3.4 prose (pp. 4-6); per-brand Cr and Cd values for Brands 3 and 4 are referenced in the text as part of the Figure 1 plot but not numerically printed and are not transcribed. Single-sample maxima and minima transcribed from Results §3.1-§3.4 prose. Reference limits transcribed from Introduction §"Heavy metals introduction" (pp. 2-3) and Discussion prose. LOD/LOQ values transcribed from Results §3.1-§3.4 leading paragraphs. ICP-OES operating conditions transcribed from Table 1 (p. 3). Exposure-assessment parameters transcribed from Table 2 (p. 4). RfD values transcribed from Materials and Methods §"Health risk assessment" (p. 4). P95 THQ values transcribed from Conclusion (p. 7) and Figs. 2-3 (pp. 5-6). No paper-internal contradictions beyond those flagged above were identified.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [0d2be3767](https://github.com/paleofoundation/heavymetalindex/commit/0d2be3767) | 2026-06-01 | major | 1 source added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

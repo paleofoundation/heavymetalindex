@@ -88,15 +88,14 @@ Cross-reference value for the wiki: methodological corroboration of multi-elemen
 - 2026-05-18 audit-subagent application (Claude Opus 4.7): Subagent flagged Table 7 DF-SB Red meat SD as 44.27, claiming 44.55 in wiki was a transcription error — verified false positive: PDF p. 5 Table 7 prints "812.01 ± 44.55" for DF-SB Red meat (and a min-max range "846.94–762.23" that is itself impossibly inverted but is also faithfully reproduced from the published table). No change applied. Subagent flagged Table 6 DF Zn mean (25.25 ± 68.21) as inconsistent with the same row's range (79.86–353.55) and exceedance count (13 of 15 above 227 mg/kg MTL) — verified correct: the printed mean cannot coexist with the printed range, indicating a typo in the source paper itself; added an inline footnote and explanatory paragraph beneath the essential-metals table preserving the printed value while flagging the source-level anomaly so downstream synthesis does not naively rely on 25.25. Subagent also noted absence of a `## Wiki pages this source may touch` section — intentional given the pet-food scope classification (paper does not contribute to any human-food product, ingredient, or regulation page), no change applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [71e7f9700](https://github.com/paleofoundation/heavymetalindex/commit/71e7f9700) | 2026-05-18 | minor | Narrative text revised |
+| [545906fcf](https://github.com/paleofoundation/heavymetalindex/commit/545906fcf) | 2026-05-18 | major | 3 sections added and 4 removed; narrative text revised |
+| [4ff3b02c6](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02c6) | 2026-05-15 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

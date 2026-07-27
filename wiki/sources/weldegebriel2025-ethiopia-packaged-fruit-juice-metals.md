@@ -140,15 +140,15 @@ Statistics: data tabulated and managed in Microsoft Excel; transferred to SPSS f
 - Audit subagent (2026-05-20) flagged Check 1 ⚠️ (optional) that the calibration-r² narrative range in PDF p. 3 (0.9983-0.9992) disagrees with Table 2 (which prints values up to 0.9998). Verified; the wiki page Key numbers uses the Table 2 values (0.9998 for Pb). Added to the Limitations contradiction list as paper-internal inconsistency (6) and added a parenthetical note in the opening paragraph that flags both ranges. The page values themselves remain unchanged because Table 2 is the more granular and primary record.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [52f7af774](https://github.com/paleofoundation/heavymetalindex/commit/52f7af774) | 2026-05-20 | minor | Narrative text revised |
+| [fd55de35f](https://github.com/paleofoundation/heavymetalindex/commit/fd55de35f) | 2026-05-20 | major | 9 sections added and 6 removed; narrative text revised |
+| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
+| [53132f7e5](https://github.com/paleofoundation/heavymetalindex/commit/53132f7e5) | 2026-04-29 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

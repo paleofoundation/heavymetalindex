@@ -76,12 +76,13 @@ Mature *S. fusiforme* from Wenzhou (Zhejiang, China) were acclimatised and cultu
 - Audit subagent (2026-06-08, fresh-context) returned REVISE; it confirmed the critical points correct — the NOT-poolable / controlled-exposure flagging (5 places), control-baseline-only natural composition, iAs=As(V) speciation discipline (no DMA/MMA/AsS mislabeled), kelp omission, metals/jurisdiction/license, and all Table 1/2 values, Cd/Pb extraction percentages, and DEG counts (210/566/10,286/4,564, each verified as up+down vs Fig 3). Two wording ⚠️ applied: (1) narrowed the over-broad "As(III) not detected in any tissue" to "not detected in any As(III)-exposed tissue; trace 0.31% in the 10 µM As(V) group"; (2) softened the "AsS" arsenosugar label to "unidentified species, likely an arsenosugar" per the source's "unknown arsenic species." Also footnoted the source-internal Table-2-vs-text inconsistency on the 207.25 mg/kg value (page reproduces the source prose faithfully).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [5a71ba7](https://github.com/paleofoundation/heavymetalindex/commit/5a71ba7) | 2026-06-08 | audit: zhao2025-sargassum-fusiforme-metals-detoxification revised |
-| [5dd4aba](https://github.com/paleofoundation/heavymetalindex/commit/5dd4aba) | 2026-06-08 | ingest: zhao2025-sargassum-fusiforme-metals-detoxification fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [5a71ba748](https://github.com/paleofoundation/heavymetalindex/commit/5a71ba748) | 2026-06-08 | minor | Narrative text revised |
+| [5dd4aba04](https://github.com/paleofoundation/heavymetalindex/commit/5dd4aba04) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

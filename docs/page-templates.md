@@ -401,6 +401,16 @@ App-layer workflow:
 - Document uncertainty explicitly: ranges, confidence levels, number of underlying studies. Never report a point estimate the app cannot defend.
 - Handle `status: pending` gracefully: exclude from estimate, communicate "not yet characterized" to the user, or fall back to category-level defaults. Never silently substitute a null for a zero.
 
+## Generated footer blocks (every reader-facing page)
+
+Three marker-bounded blocks close every page in `metals/`, `ingredients/`, `products/`, `regulations/`, `regulators/`, `synthesis/`, `testing/`, `microbiome/`, `mitigation/`, `supply-chain/`, `health/`, `methodology/`, `certification/`, `studies/` and (for the last two blocks) `sources/`. They are generated in this order and are never hand-edited inside their markers. They are apparatus rather than content, so the left section-nav drops them and links them from its utility icons instead.
+
+**`## References`** (`hmi-page-references`, `tools/build-page-references.mjs`) — the works this page's prose actually cites, numbered in the order the citations appear, in full citation form: authors, year, title, publication, DOI or publisher link, source type and evidence tier, and a link to the source record. `citeSuperscript.inline.ts` reads its numbering from this list rather than assigning its own, so superscript `[7]` and reference 7 cannot drift apart; a citation the list does not carry is left as a plain link instead of being numbered into a sequence the list cannot resolve.
+
+**`## Sources`** (`hmi-source-legend`, `tools/evidence/build-source-legend.mjs`) — the corpus set: every source routed to this page by source-page frontmatter, cited or not, with what each contributes. This is the coverage record, and it is a different artifact from References. On a mature metal page it runs to hundreds of rows; a reader checking one claim needs References, and a reviewer checking coverage needs Sources.
+
+**`## Update history`** (`hmi-page-history`, `tools/build-page-changelogs.mjs`) — the five most recent substantive edits, each classified `major` (sources entered or left the page, sections added, contamination-profile values revised), `correction` (a published value or statement was wrong and has been fixed), or `minor` (narrative rewritten without changing the evidence). Descriptions are derived from what the commit's diff did to this page, never from commit prose: measured against 1,387 substantive commits, only 2% of commit subjects could be rendered to a public reader, and the rest carried certification-program references, outside product names, and toolchain codenames that CLAUDE.md Part 2 and Part 12 keep off the public site. `tools/audit-page-history-leaks.mjs` is the build-blocking guard on that boundary. Regeneration passes that touch only generated blocks are excluded, and each entry links the commit as the authoritative record.
+
 ## Audience layering
 
 Every substantive page carries `audience: [regulator, educator, consumer, app]` in frontmatter. Within long pages, section tagging is allowed:

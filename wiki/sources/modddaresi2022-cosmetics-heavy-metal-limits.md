@@ -84,3 +84,13 @@ App: If a regulatory comparison view is added for adult cosmetic/personal-care p
 - Speciation: the paper discusses regulatory limits and prohibitions, not new chemical speciation measurements. This page records As and Hg as total-context regulatory rows and does not treat them as iAs or MeHg.
 - Evidence tier: `C` because the paper is a useful review/crosswalk but not an official regulation, agency report, or primary occurrence dataset.
 - Routing: `products` is intentionally left empty because the source is a context-only regulatory/method review covering cosmetics generally; no specific product category has occurrence measurements in this source. No product or ingredient slug was invented.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [01f3943ec](https://github.com/paleofoundation/heavymetalindex/commit/01f3943ec) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

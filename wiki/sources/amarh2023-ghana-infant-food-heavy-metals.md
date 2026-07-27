@@ -74,15 +74,15 @@ This source is high-value broad Category 1 evidence for infant foods and formula
 - Audited 2026-06-09 against `raw/markdown/FM_10196951/FM_10196951.md`: all eight per-metal means and ranges, EDI assumptions, recovery values, and methods text reproduce the source. Cr upper-bound abstract/table discrepancy is now noted in Key numbers alongside the existing Cd and HI notes. Audit also flagged `products/baby-food` as missing from the taxonomy snapshot; verified false positive — `wiki/products/baby-food.md` exists and the slug is in the canonical product list.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [8a682f8](https://github.com/paleofoundation/heavymetalindex/commit/8a682f8) | 2026-06-08 | ingest: amarh2023-ghana-infant-food-heavy-metals enhanced from MFK/June 8 New Folder With Items 3 2 |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [94b95d8c1](https://github.com/paleofoundation/heavymetalindex/commit/94b95d8c1) | 2026-06-09 | minor | Narrative text revised |
+| [8a682f8af](https://github.com/paleofoundation/heavymetalindex/commit/8a682f8af) | 2026-06-08 | major | 1 source removed; 3 sections added and 5 removed; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
+| [53132f7e5](https://github.com/paleofoundation/heavymetalindex/commit/53132f7e5) | 2026-04-29 | major | 1 source added; 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

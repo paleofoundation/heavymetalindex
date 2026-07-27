@@ -98,15 +98,14 @@ Limitations relevant to downstream use:
 - Audit subagent (2026-05-20) flagged the Certification-Implications cross-source synthesis sentence ("consistent with the working expectation that wheat-flour-derived baked goods carry lower Pb and Cd burdens than rice-based, cocoa-based, or root-vegetable-based products") as belonging at the synthesis-pass layer rather than on a source page (CLAUDE.md Part 9). Verified — the comparison imports knowledge the paper itself does not produce (the paper does not measure rice, cocoa, or root vegetables). Sentence trimmed; replaced with an explicit statement that cross-ingredient synthesis is the synthesis pass's responsibility.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [77a9e11b7](https://github.com/paleofoundation/heavymetalindex/commit/77a9e11b7) | 2026-05-20 | minor | Narrative text revised |
+| [338e4c438](https://github.com/paleofoundation/heavymetalindex/commit/338e4c438) | 2026-05-20 | major | 1 section added and 1 removed; narrative text revised |
+| [3b7bf28d9](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28d9) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

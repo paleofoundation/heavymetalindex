@@ -62,3 +62,13 @@ App: The paper supports supply-chain context around coffee silverskin and insect
 - The paper reports arsenic as total As and mercury as total Hg; this page uses tAs and tHg and does not infer inorganic arsenic or methylmercury.
 - The auto-fetched filename is a coffee gap hit, but the routeable matrix is coffee silverskin as an insect-rearing substrate plus insect biomass, not brewed coffee.
 - Products are intentionally empty because this source does not measure a named consumer product row; it is supply-chain/feed-ingredient evidence.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6712f3d44](https://github.com/paleofoundation/heavymetalindex/commit/6712f3d44) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

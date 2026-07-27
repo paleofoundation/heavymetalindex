@@ -67,14 +67,15 @@ App: Ingredient-level cocoa and chocolate Cd risk should retain a geography and 
 The PDF title, byline, DOI, journal, license, farm geography, treatment rates, analytical methods, total soil Cd range, compost Cd concentration, humus-fraction table values, recovery values, and correlation findings were read from the source PDF. The source reports total cadmium; it does not provide lead, arsenic, mercury, nickel, chromium, tin, aluminum, or uranium occurrence values. The main PDF text does not provide a simple cacao-bean Cd distribution table, so this page does not infer one.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [2c20366](https://github.com/paleofoundation/heavymetalindex/commit/2c20366) | 2026-06-03 | ingest auto-fetched 2026-06-03: gutierrez2022-ecuador-cacao-cadmium-compost |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c12b2aa67](https://github.com/paleofoundation/heavymetalindex/commit/c12b2aa67) | 2026-06-09 | minor | Narrative text revised |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [2c203661a](https://github.com/paleofoundation/heavymetalindex/commit/2c203661a) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -165,15 +165,13 @@ App: Not directly applicable. Toothpaste is outside the consumer-app scope (focu
 - Audit subagent (2026-06-02) flagged the opening paragraph's "essential (Co, Zn, Cr, Cu, Fe, Ni, Sn)" classification as adding Sn to the essential category, where the source p. 4 classifies only "Cobalt, zinc, chromium, copper, iron, and nickel" as essential (Sn is detected by Vella & Attard but not categorically classified in the source's essential/toxic schema). Corrected to "essential (Co, Zn, Cr, Cu, Fe, Ni) per the review's classification".
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
+| [99b61ee82](https://github.com/paleofoundation/heavymetalindex/commit/99b61ee82) | 2026-06-02 | major | 1 source added; narrative text revised |
+| [b54a9c70f](https://github.com/paleofoundation/heavymetalindex/commit/b54a9c70f) | 2026-06-02 | major | 2 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

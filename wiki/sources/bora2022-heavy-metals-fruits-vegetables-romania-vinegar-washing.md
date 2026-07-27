@@ -191,15 +191,14 @@ Merge-enhanced 2026-05-28 from the 2026-05-14 source page against the original P
 Auto-audit subagent (2026-05-28, fresh-context Agent) returned verdict REVISE with one ⚠️ finding under Check 2 — claim that `[[ingredients/garlic]]` and `[[ingredients/zucchini]]` would surface as `routing_unresolved.csv` entries. Verified false positive against source: `wiki/ingredients/onions.md` declares `aliases: [onion, garlic, allium-vegetables]` and `wiki/ingredients/squash.md` declares `aliases: [zucchini]`; the routing audit script (`tools/evidence/build-routing-audit.mjs` line ~190) explicitly accepts alias-resolved slugs (`if (ingredientAliases.has(ingredient)) continue`); the post-ingest routing audit ran clean (0 unresolved entries for this source). Per-commodity declaration preserves accurate provenance — the paper measures garlic and zucchini as distinct commodities with non-BLD As, Cd, Pb, and Zn values across both market and amateur arms — even though their routing target is shared via alias with their parent slugs. Whether garlic and zucchini eventually warrant their own ingredient pages is a Part 10 5-paper-threshold question for future synthesis, out of scope for this skill execution per the hard constraint against new-ingredient-page creation. Checks 1, 3, 4, and 5 returned clean. No content changes applied; finding rejected with rationale.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [8f28a50fc](https://github.com/paleofoundation/heavymetalindex/commit/8f28a50fc) | 2026-05-28 | minor | Narrative text revised |
+| [2c3d830a8](https://github.com/paleofoundation/heavymetalindex/commit/2c3d830a8) | 2026-05-28 | major | 8 sections added and 2 removed; narrative text revised |
+| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

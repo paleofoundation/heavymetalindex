@@ -64,3 +64,13 @@ Microbiome: Not a focus of this source.
 - `metals: [Cd]`; `ingredients: []` / `products: []` correct — soil/exposure context, not retail food occurrence.
 - This source is a concrete example of the literature the discovery filter previously excluded ("soil contamination assessment"); the 2026-06-18 scope fix restores its inclusion.
 - Part 2 direction-of-edit check: adds upstream exposure context; neutral to HMT&C thresholds, moves toward the literature.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c9b85bf01](https://github.com/paleofoundation/heavymetalindex/commit/c9b85bf01) | 2026-06-18 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

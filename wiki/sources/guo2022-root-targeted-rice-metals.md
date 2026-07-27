@@ -68,3 +68,13 @@ The thesis supports a mitigation-context claim: in a controlled hydroponic seedl
 - Slug vocabulary: frontmatter uses only `rice` from the closed ingredient vocabulary and `Cd` / `tAs` from the metal abbreviation vocabulary. `products` and `matrices` are intentionally empty because rice roots and shoots from a hydroponic seedling experiment are not rice grain, rice bulk product, or any listed product/matrix slug in the taxonomy snapshot.
 - Brand firewall: the thesis uses hydroponic nutrient and lab-method context, but no commercial food, supplement, or personal-care brand is attached to a contamination value.
 - HMTc firewall: no HMTc thresholds, consumer certification claims, or wiki-side risk translations are introduced.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3bef40937](https://github.com/paleofoundation/heavymetalindex/commit/3bef40937) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -65,3 +65,13 @@ App: The study supports bottled-water and mineral-water evidence surfaces, with 
 - The source title page reports publication in 2022 even though the auto-fetched filename includes 2023.
 - Table 1 appears to print unusually large uncertainty values for several means, including Pb and Cd. This page preserves the table text and separately records the authors' detection-rate and exceedance statements.
 - The paper measures total chromium only; it does not provide Cr(VI) speciation.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [f0a8e1f28](https://github.com/paleofoundation/heavymetalindex/commit/f0a8e1f28) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

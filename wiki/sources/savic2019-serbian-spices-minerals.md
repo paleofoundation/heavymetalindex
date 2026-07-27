@@ -78,15 +78,15 @@ Microbiome (if applicable): The paper does not study microbiome outcomes.
 The PDF title, byline, DOI, journal, year, methods, and Table 4 values were read from the auto-fetched PDF. The paper reports total elemental concentrations and does not provide arsenic, mercury, or chromium speciation. Values reported as 0.00 mg/kg are retained as source-reported table entries rather than interpreted as analytical zeroes. Audit note: the results prose gives manganese as 0.07-6.25 mg/kg, while Table 4 appears to show star anise Mn as 6.26 mg/kg; the page preserves the prose range and flags the source-internal rounding discrepancy.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [997a957](https://github.com/paleofoundation/heavymetalindex/commit/997a957) | 2026-06-03 | audit auto-fetched 2026-06-03: spices source pages |
-| [cadd032](https://github.com/paleofoundation/heavymetalindex/commit/cadd032) | 2026-06-03 | ingest auto-fetched 2026-06-03: savic2019-serbian-spices-minerals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [997a9570b](https://github.com/paleofoundation/heavymetalindex/commit/997a9570b) | 2026-06-03 | minor | Narrative text revised |
+| [cadd0320a](https://github.com/paleofoundation/heavymetalindex/commit/cadd0320a) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

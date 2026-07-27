@@ -74,12 +74,13 @@ Whole thalli were collected at low tide (Spiddal, Galway Bay; 53.2409 N, −9.30
 - Audit subagent (2026-06-08, fresh-context) returned PROMOTE on all five checks; speciation fidelity (tAs vs iAs-as-As(V) by species and thallus part) verified exact with no transposition. One ⚠️ applied: intro prose understated the A. nodosum inorganic-As maximum as "≤0.70"; verified against source (0.703 mg/kg DW, Results) and corrected to "≤0.703". Matrices-vocabulary ⚠️ left as-noted (corpus convention, documented above).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [f732e64](https://github.com/paleofoundation/heavymetalindex/commit/f732e64) | 2026-06-08 | audit: ronan2017-laminaria-ascophyllum-ias-ireland revised |
-| [ab2b5a0](https://github.com/paleofoundation/heavymetalindex/commit/ab2b5a0) | 2026-06-08 | ingest: ronan2017-laminaria-ascophyllum-ias-ireland fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [f732e6461](https://github.com/paleofoundation/heavymetalindex/commit/f732e6461) | 2026-06-08 | minor | Narrative text revised |
+| [ab2b5a072](https://github.com/paleofoundation/heavymetalindex/commit/ab2b5a072) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

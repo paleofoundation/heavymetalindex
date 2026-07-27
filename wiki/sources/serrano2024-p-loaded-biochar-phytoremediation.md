@@ -67,3 +67,14 @@ App: Context only. The source can inform mitigation explanations but does not es
 - The source reports total Cr in the remediation experiment. It does not establish Cr-VI occurrence in any product matrix.
 - `sample_n: 15` reflects Table 4's enumeration of 15 experimental units (three metal groups × five treatments per group: one nonbiochar blank plus four P-loaded biochar amendments). Section 4.3 of the paper states "12 samples were obtained as shown in Table 4," which is an internal text/table inconsistency in the source; the wiki adopts the Table 4 count because that is the per-unit experimental enumeration and matches the 3 × 5 design described in Section 4.1.
 - `mitigation/supply-chain-screening` was not included as a touched page: that category covers sourcing-side interventions (geographic risk segmentation, pre-purchase soil testing, incoming-batch screening) on natural-contamination distributions, whereas this paper is bench-scale post-hoc remediation of deliberately spiked soil.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [db983676f](https://github.com/paleofoundation/heavymetalindex/commit/db983676f) | 2026-06-09 | minor | Narrative text revised |
+| [59f08e6d8](https://github.com/paleofoundation/heavymetalindex/commit/59f08e6d8) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

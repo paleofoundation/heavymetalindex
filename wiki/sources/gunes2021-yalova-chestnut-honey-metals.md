@@ -69,15 +69,15 @@ Microbiome (if applicable): Not addressed.
 The PDF title, author, DOI, year, journal, license notice, methods, and heavy-metal values were read from the auto-fetched PDF. The paper's table labels As and Hg without speciation, so they are treated as total arsenic and total mercury rather than iAs or MeHg. The source is internally inconsistent on the analytical instrument: the methods section and instrument table describe ICP-OES, while the results prose says ICP-MS. This source page follows the methods section and instrument table. The source is also internally inconsistent on the regulatory frame: the abstract says residues were below Turkish Food Codex limits, while later discussion says there is no designated maximum honey limit in the Turkish Food Codex.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [a1833bb](https://github.com/paleofoundation/heavymetalindex/commit/a1833bb) | 2026-06-03 | codex fire report 2026-06-03 04:26 |
-| [160f739](https://github.com/paleofoundation/heavymetalindex/commit/160f739) | 2026-06-03 | ingest auto-fetched 2026-06-03: gunes2021-yalova-chestnut-honey-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [a1833bb4c](https://github.com/paleofoundation/heavymetalindex/commit/a1833bb4c) | 2026-06-03 | minor | Narrative text revised |
+| [160f7397b](https://github.com/paleofoundation/heavymetalindex/commit/160f7397b) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

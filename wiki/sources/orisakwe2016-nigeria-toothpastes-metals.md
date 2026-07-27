@@ -79,3 +79,13 @@ App: If oral-care product profiles are surfaced, this source can support a Niger
 - Brand firewall: the source names commercial toothpaste products in Tables 1 and 2 and in the abstract's examples. This page suppresses brand-by-value rows and reports only local/imported and all-sample ranges.
 - Evidence tier: `B` because this is a peer-reviewed finished-product occurrence study with 35 market samples, triplicate AAS measurements, and reported LODs, but no DOI, no CRM/recovery data, and no non-Nigerian market coverage.
 - Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `1` `toothpaste` product routing row, was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients` advisory in `data/evidence/routing_malformed.csv`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c1c032d0b](https://github.com/paleofoundation/heavymetalindex/commit/c1c032d0b) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -137,12 +137,13 @@ Microbiome: Not applicable. No microbiota or gut-microbial measurements.
 - [[metals/lead]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [0b61232](https://github.com/paleofoundation/heavymetalindex/commit/0b61232) | 2026-06-08 | audit: ding2015-soy-glycinin-thiol-peptides-heavy-metal-complexation revised |
-| [bf7a419](https://github.com/paleofoundation/heavymetalindex/commit/bf7a419) | 2026-06-08 | ingest: ding2015-soy-glycinin-thiol-peptides-heavy-metal-complexation fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [0b612321e](https://github.com/paleofoundation/heavymetalindex/commit/0b612321e) | 2026-06-08 | minor | Narrative text revised |
+| [bf7a41918](https://github.com/paleofoundation/heavymetalindex/commit/bf7a41918) | 2026-06-08 | major | 3 sources added; 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

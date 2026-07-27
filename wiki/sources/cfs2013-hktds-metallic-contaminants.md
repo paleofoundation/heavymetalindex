@@ -231,15 +231,15 @@ Merge-enhance pass 2026-05-20 from the original 2026-05-13 ingest:
 - [[products/seafood]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [951d454](https://github.com/paleofoundation/heavymetalindex/commit/951d454) | 2026-06-08 | ingest: cfs2013-hktds-metallic-contaminants duplicate_filesystem_copies path from Manual Fetch Kimi /June 8/_extracted_02_Vegetables_and_Vegetable_Products |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [ac2c093](https://github.com/paleofoundation/heavymetalindex/commit/ac2c093) | 2026-06-03 | enhance: cfs2013-hktds-metallic-contaminants — third byte-identical Kimi-folder copy logged |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [951d45400](https://github.com/paleofoundation/heavymetalindex/commit/951d45400) | 2026-06-08 | minor | Narrative text revised |
+| [ac2c093ca](https://github.com/paleofoundation/heavymetalindex/commit/ac2c093ca) | 2026-06-03 | minor | Narrative text revised |
+| [1e52d6453](https://github.com/paleofoundation/heavymetalindex/commit/1e52d6453) | 2026-06-02 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [5b9c401e6](https://github.com/paleofoundation/heavymetalindex/commit/5b9c401e6) | 2026-05-20 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

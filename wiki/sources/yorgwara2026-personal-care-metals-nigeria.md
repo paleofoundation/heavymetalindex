@@ -91,3 +91,13 @@ App: If adult personal-care profiles are expanded, the category ranges and risk-
 - Brand firewall: Tables 4.1-4.8 attach named products/brands to contamination and risk values. This page reports only product-category ranges and de-identified risk maxima; no consumer brand or shade/product name is attached to a contamination value.
 - Evidence tier: `C` because the paper is peer-reviewed and contains primary occurrence tables, but the methods and reporting are weak for benchmark use: no sampling year, no LOD/LOQ, no CRM or recovery results, no replicate precision, no uncertainty, inconsistent units, and several table/prose discrepancies.
 - Routing: all product slugs used in frontmatter appear in `docs/gpt-collaboration/taxonomy-snapshot.md`. Missing exact slugs: the snapshot has no non-retired adult lip-products slug, no adult bar-soap/bathing-soap slug, no facial-powder-only slug, and no explicit hair-food slug. This page uses broad available products (`lipstick`, `body-wash-shower-gel`, `makeup-foundation-powders-blush`, and `leave-on-hair-preparations`) rather than inventing new slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [fa86cc36d](https://github.com/paleofoundation/heavymetalindex/commit/fa86cc36d) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

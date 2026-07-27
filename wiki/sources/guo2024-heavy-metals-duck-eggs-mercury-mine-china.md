@@ -178,15 +178,13 @@ App: Contributes duck-egg yolk and white concentration data for Cr, Zn, Sr, Ba, 
 **Duplicate-page note (escalation to Karen).** A second wiki source page exists for the same paper: `wiki/sources/guo2024-duck-eggs-hg-mining-china.md` (raw_handle `FM_10932963`, raw_path `raw/markdown/FM_10932963/FM_10932963.md`). Both pages share DOI 10.3389/fpubh.2024.1352043. The FM_ page has fabricated authors (`Guo Y, Li Y, Wang Q, Zhang H, Liu J, Feng X`) — the correct author list is in the present (MFK) page and matches the PDF byline. The FM_ page also has incorrect sample design (claims 5 sites × n=10 = 50; the actual study is 2 sites × n=10 = 20), incorrect title ("near mercury mining areas" vs the published "from a mercury mining area, southwestern China"), and thin Key numbers with no Table 2/3/4/5 reproduction. The two pages are linked via `near_duplicates: [guo2024-duck-eggs-hg-mining-china]` in this page's frontmatter so the relationship is discoverable. Recommend Karen retire the FM_ page (and its routing row) in favor of this MFK page, since this page is the verified-against-PDF version. This duplicate predates the current ingest cycle and is not introduced by this skill execution.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [f2891e275](https://github.com/paleofoundation/heavymetalindex/commit/f2891e275) | 2026-05-19 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [19f640f31](https://github.com/paleofoundation/heavymetalindex/commit/19f640f31) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

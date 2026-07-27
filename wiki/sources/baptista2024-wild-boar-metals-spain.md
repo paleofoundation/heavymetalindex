@@ -74,3 +74,13 @@ This source adds a Castile and Leon, Spain wild-boar offal dataset to the game-m
 - Matrix boundary: only liver and kidney tissues were measured. Frontmatter includes `[[products/game-meats]]` for the hunted wild-boar product family and `[[ingredients/organ-meats]]` for the measured edible-offal matrices, but the body states that no muscle occurrence values are available.
 - Jurisdictions: `ES` records the sampling country; `EU` records the paper's explicit Commission Regulation (EU) 2023/915 comparator for Cd and Pb.
 - Brand firewall: the study uses hunted animals and names no commercial meat brand. Instrument and certified-reference-material names are scientific method details.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [eaba170f8](https://github.com/paleofoundation/heavymetalindex/commit/eaba170f8) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

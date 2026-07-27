@@ -123,15 +123,15 @@ Regulatory framing: EU Regulation 10/2011 on plastic FCMs (European Union 2011b)
 - 2026-05-31 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.1080/19440049.2016.1171914` not present; raw_handle `MFK_01-2015-evaluation-of-the-migration-of-chemicals-f` not present; cite-key stem `onghena2016` not present. PDF SHA-256 `43fd921d1b518d529c4aa1ffb3021a72998df6f6cb26713f7980ac5386671b31`. Paper measures organic FCM migrants only — zero heavy metals — ingested as methodology / out-of-core-scope reference per the lai2025 and aurisano2022 precedents. Routed to `[[products/infant-bottles]]` for discoverability as a baby-bottle FCM-migration reference but `metals: []` correctly reflects no metal occurrence data.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [8cae8bf6e](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf6e) | 2026-06-01 | major | 1 section added |
+| [5176ead0b](https://github.com/paleofoundation/heavymetalindex/commit/5176ead0b) | 2026-06-01 | minor | Narrative text revised |
+| [1eee5056d](https://github.com/paleofoundation/heavymetalindex/commit/1eee5056d) | 2026-05-31 | minor | Narrative text revised |
+| [459c25295](https://github.com/paleofoundation/heavymetalindex/commit/459c25295) | 2026-05-31 | minor | Narrative text revised |
+| [696eca278](https://github.com/paleofoundation/heavymetalindex/commit/696eca278) | 2026-05-31 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

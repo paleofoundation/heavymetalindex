@@ -84,3 +84,13 @@ App: Context only. The source can support local groundwater risk flags and water
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the report as out of scope because it was not a food matrix. On reading, it is in-scope a3/a4 groundwater and exposure-context evidence because it measures routeable drinking-water aquifer values, including arsenic exceedances.
 
 Numbers were checked against the extracted PDF text, especially the abstract, Table 3, Table 4, Table 5, and the arsenic and iron/manganese discussion sections. Units and dissolved/total labels are copied as printed. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [e02ed871f](https://github.com/paleofoundation/heavymetalindex/commit/e02ed871f) | 2026-06-10 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

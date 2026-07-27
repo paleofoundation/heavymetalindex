@@ -236,15 +236,15 @@ The framing for these comparisons is wastewater-management (the load arriving at
   - **(3) Implications-section language tightened.** The phrase "places Australian household-product Sb at the upper-trace-impurity level rather than a deliberate-additive level" was interpretive characterisation slightly ahead of the source's own framing. Rewritten to track the source's own Section 4.1.1 conclusion that Sb is "a minor contaminant in household products". Also removed the "(P97/P45 pooling)" parenthetical from the Sb-implications bullet because P97/P45 is HMTc-side workflow methodology that should not appear on a source page (Part 2 firewall hygiene). No data values changed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [a7df828](https://github.com/paleofoundation/heavymetalindex/commit/a7df828) | 2026-06-03 | audit: tjandraatmadja2010-csiro-household-products-nutrients-elements [revised] |
-| [c365a26](https://github.com/paleofoundation/heavymetalindex/commit/c365a26) | 2026-06-03 | ingest: tjandraatmadja2010-csiro-household-products-nutrients-elements [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/08_Laundry_Bleach_Fabric |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [a7df828cc](https://github.com/paleofoundation/heavymetalindex/commit/a7df828cc) | 2026-06-03 | minor | Narrative text revised |
+| [c365a263e](https://github.com/paleofoundation/heavymetalindex/commit/c365a263e) | 2026-06-03 | major | 2 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

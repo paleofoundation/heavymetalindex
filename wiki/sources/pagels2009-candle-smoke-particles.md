@@ -99,3 +99,13 @@ App: If home-air emission sources are surfaced, this study can support a note th
 - Brand firewall: the paper describes candle types and notes that both were manufactured by market-leading Swedish companies, but it does not name brands in the extracted text. This page does not attach brand names to emission values.
 - Product slug note: the current taxonomy has `scented-candles` but no generic unscented/tapered candle slug. Because the source studies tapered candles without stating that they are scented, the page routes through `home-air-emission-products-other` and records the missing generic candle route here rather than forcing the source into `scented-candles`.
 - Evidence tier: `B` because this is a peer-reviewed controlled emissions study with detailed methods and repeated chamber experiments, but it tests only two representative candle types and reports emissions rather than product occurrence concentrations.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [4759f48b0](https://github.com/paleofoundation/heavymetalindex/commit/4759f48b0) | 2026-06-09 | major | 7 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

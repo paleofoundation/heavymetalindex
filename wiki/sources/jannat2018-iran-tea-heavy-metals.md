@@ -106,12 +106,13 @@ The paper's Sampling section lists 22 commercial brand names by name while the s
 Audit subagent (2026-06-07) flagged `products/tea` as absent from the taxonomy snapshot; verified independently against docs/gpt-collaboration/taxonomy-snapshot.md line 45 — finding was a false positive because the `tea` product slug is present in the snapshot's Products line alongside `tea-infusions` and `true-tea-camellia-sinensis`. No frontmatter change applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [5dce0bd](https://github.com/paleofoundation/heavymetalindex/commit/5dce0bd) | 2026-06-07 | audit: jannat2018-iran-tea-heavy-metals revised |
-| [175d297](https://github.com/paleofoundation/heavymetalindex/commit/175d297) | 2026-06-07 | ingest: jannat2018-iran-tea-heavy-metals fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [5dce0bd6e](https://github.com/paleofoundation/heavymetalindex/commit/5dce0bd6e) | 2026-06-07 | minor | Narrative text revised |
+| [175d29704](https://github.com/paleofoundation/heavymetalindex/commit/175d29704) | 2026-06-07 | major | 11 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -132,12 +132,13 @@ Phase 2 audit application 2026-06-08 (fresh-context Agent subagent, verdict PROM
 - No content edits applied. Audit-application commit records the verdict and the false-positive disposition only.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [6b2d57e](https://github.com/paleofoundation/heavymetalindex/commit/6b2d57e) | 2026-06-08 | audit: peng2023-al-fluoride-tea-stress promoted |
-| [0e3900b](https://github.com/paleofoundation/heavymetalindex/commit/0e3900b) | 2026-06-08 | ingest: peng2023-al-fluoride-tea-stress fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [6b2d57e3e](https://github.com/paleofoundation/heavymetalindex/commit/6b2d57e3e) | 2026-06-08 | minor | Narrative text revised |
+| [0e3900bb2](https://github.com/paleofoundation/heavymetalindex/commit/0e3900bb2) | 2026-06-08 | major | 4 sources added; 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

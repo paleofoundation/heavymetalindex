@@ -95,15 +95,13 @@ Dearing and colleagues sampled 736 commercially grown vegetables (combined into 
 - Genera mentioned in PDF whose ingredient slugs do not yet exist (not added to ingredients array, not stubbed here): kale, bok-choi, red-cabbage (Brassica sub-types), garlic, leek, red-onion, spring-onion (Allium sub-types), chard, silver-beet (Beta sub-types), beetroot (Beta — beet slug used as parent), chinese-winter-melon, courgette (Cucumis), grey-pumpkin (Cucurbita — butternut-squash slug used as parent), fennel (Foeniculum), chinese-water-spinach (Ipomoea), bottle-gourd (Lagenaria), luffa-gourd (Luffa), bitter-melon (Momordica), daikon/diakon (Raphanus), cherry-tomatoes (Solanum — tomato slug used as parent), sweet-corn (Zea — corn slug used as parent). Auto-stub freq-counter will catch the freq≥2 cases across the corpus.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [c83d53ac1](https://github.com/paleofoundation/heavymetalindex/commit/c83d53ac1) | 2026-05-20 | major | 1 section added; narrative text revised |
+| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

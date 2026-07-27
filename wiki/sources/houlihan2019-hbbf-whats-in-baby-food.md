@@ -128,15 +128,15 @@ Microbiome: Not addressed in this source.
 - 2026-06-09 byte-identical duplicate path registration (manual-fetch v2.0, June 8 Kimi-corruption-recovery pass, full-report regulatory-folder copy): the file `16_What's_in_My_Baby's_Food__2019.pdf` was encountered a second time under `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/`. SHA-256 (`a4e1fa75ce93e056d6a864e4a6825cf7537579dd558aa8b121209b2f4a1625b7`) and byte length (3,156,916) match the canonical R6_0 full report at the existing `raw_path` and the May 21 regulatory-folder copy already registered on 2026-06-01 — all three are bit-for-bit the same 50-page full report file, not a separate revision. Cover, ToC, executive-summary cover, and "What's new about this study?" pages re-read 2026-06-09 to confirm identity (Houlihan & Brody October 2019, 168 baby foods / 61 brands / 13 food types, 95% / 26% / 88% / 83% framing, 4-metals detection rates 73%/94%/75%/32% per executive-summary test-results panel page 1, 5-safer-choices table with 93%/91%/84%/68%/up-to-73% reductions, healthybabyfood.org URL, Brooks Applied Labs Bothell WA, Abt Associates IQ-loss model, 15-foods-account-for-55%-of-risk framing, Appendix A-F structure). Both byte-identical regulatory-folder paths now consolidated into the existing `HBBF-2019-FULLREPORT-ENGLISH-R6_0-regulatory-folder-copy` `near_duplicates` entry so future manual-fetch ticks skip the PDF cleanly under either corruption-recovery parent date folder. No substantive content change to the page; this is path-registration housekeeping only, so no audit-subagent spawn was needed for this revision.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [85fa8399d](https://github.com/paleofoundation/heavymetalindex/commit/85fa8399d) | 2026-06-09 | minor | Narrative text revised |
+| [4c4465f45](https://github.com/paleofoundation/heavymetalindex/commit/4c4465f45) | 2026-06-09 | minor | Narrative text revised |
+| [a34b9a700](https://github.com/paleofoundation/heavymetalindex/commit/a34b9a700) | 2026-06-01 | minor | Narrative text revised |
+| [6ab5c940d](https://github.com/paleofoundation/heavymetalindex/commit/6ab5c940d) | 2026-06-01 | minor | Narrative text revised |
+| [8204e2673](https://github.com/paleofoundation/heavymetalindex/commit/8204e2673) | 2026-05-31 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

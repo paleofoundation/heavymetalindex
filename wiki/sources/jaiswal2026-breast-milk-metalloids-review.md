@@ -83,3 +83,13 @@ Microbiome: No microbiome findings.
 - Arsenic and chromium are unqualified in the review table, so the page uses tAs and Cr. Mercury is mostly unqualified and tagged tHg; MeHg is included because the review separately lists methyl mercury in Table 1 and discusses methylmercury transfer.
 - Products and ingredients are intentionally empty because this is an a4 human-exposure review. It does not measure mineral water, infant formula, or any commercial food product.
 - The page records a near-duplicate/topical-overlap note with `katrynska2026-human-milk-biomonitor-toxic-metals-review`; the DOI and concentration table are distinct.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [7cbb8875c](https://github.com/paleofoundation/heavymetalindex/commit/7cbb8875c) | 2026-06-11 | major | 1 source added; 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -162,12 +162,13 @@ License confirmed CC-BY 4.0 from source p. 11 (Additional information / Open Acc
 Audit subagent (2026-06-08, agent a4f698242d203b557) flagged that the Cashew Cd standard deviation was reported in this page as 0.03 ± 0.01 but source Table 1 (p. 3) reports 0.03 ± 0.02; verified independently against PDF Table 1 — source confirms 0.03 ± 0.02. Cashew Cd SD corrected to 0.03 ± 0.02. The Cashew Cd mean (0.03) is unchanged and the cross-milk-type "Cd 0.03 to 0.17 µg/L (lowest cow/cashew)" range statement remains correct. All other audit checks (slug vocabulary, speciation, methods, Part 12 brand-firewall, Part 2 wiki/HMTc firewall) returned ✅ clean; verdict REVISE with this single SD typo correction.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [207e794](https://github.com/paleofoundation/heavymetalindex/commit/207e794) | 2026-06-08 | audit: good2026-plant-milk-heavy-metals revised |
-| [5e01108](https://github.com/paleofoundation/heavymetalindex/commit/5e01108) | 2026-06-08 | ingest: good2026-plant-milk-heavy-metals fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [207e794c8](https://github.com/paleofoundation/heavymetalindex/commit/207e794c8) | 2026-06-08 | minor | Narrative text revised |
+| [5e011086f](https://github.com/paleofoundation/heavymetalindex/commit/5e011086f) | 2026-06-08 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

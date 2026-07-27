@@ -95,3 +95,13 @@ This source provides a method-centered but routeable arsenic-speciation dataset 
 - Speciation check: As(III), As(V), DMA, AsB, MMA, unknown arsenic, and arsenosugar/organic species remain separate. No tAs value or arsenosugar identification is promoted to iAs.
 - Brand firewall: the source does not name consumer brands; the page records product forms/material types and CRM/SRM identities only.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact nori, hijiki, serrated wrack, Fucus, and kelp powder terms remain in source text while frontmatter uses broad seaweed/kelp and algae/seaweed supplement slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [cb6df2fe4](https://github.com/paleofoundation/heavymetalindex/commit/cb6df2fe4) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

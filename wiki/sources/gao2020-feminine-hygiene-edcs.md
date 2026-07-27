@@ -89,3 +89,13 @@ Microbiome: The paper mentions bacterial vaginosis only as a possible EDC-relate
 ## Verification notes
 
 Identity checks before drafting found no existing `wiki/sources/` hit for DOI `10.1016/j.envint.2020.105465`, raw handle `MFK_paper-19-gao-2020-edcs-feminine-products`, cite key `gao2020-feminine-hygiene-edcs`, or the exact title. The DOI, title, byline, journal, year, and CC BY-NC-ND license were checked against the first page. Tables 1-4 and Sections 2.2-2.4 and 3.1-3.6 were re-opened from `/tmp/hmi-fem-011.txt`; all concentrations above preserve the source's `ng/g` and `ng/kg-bw/day` units without conversion. `metals: []` is intentional: the paper measures no heavy metals, no total arsenic, no inorganic arsenic, no mercury species, no chromium species, and no organotin/tin. The source states that products came from 47 popular brands, but this page reports only category-level values under the brand firewall. Product slugs were checked against the closed taxonomy; `menstrual-pads` covers both pads and panty liners because no narrower panty-liner slug exists, and `intimate-washes-cleansers` covers the bactericidal creams/solutions category because no narrower closed slug exists. `npm run evidence:source-routes` exited 0 and generated six product routes; `routing_malformed.csv` contains an advisory-only warning for intentionally empty `ingredients` and `metals`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [cdfa4e487](https://github.com/paleofoundation/heavymetalindex/commit/cdfa4e487) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

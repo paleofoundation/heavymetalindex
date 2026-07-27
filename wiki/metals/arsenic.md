@@ -205,16 +205,38 @@ Third, the contribution of gut-microbiome-mediated arsenic methylation to inter-
 
 See also [[studies/arsenic-primary-literature]] for the citable index of arsenic-focused primary research articles in raw/studies/.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 15 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Agency for Toxic Substances and Disease Registry (2007). *Toxicological Profile for Arsenic*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [https://doi.org/10.15620/cdc:11481](https://doi.org/10.15620/cdc:11481). Government report, A-tier. [[sources/atsdr-arsenic-toxprofile-2007|Source record]]
+2. U.S. Environmental Protection Agency, Center for Public Health and Environmental Assessment (2025). *IRIS Toxicological Review of Inorganic Arsenic*. EPA/635/R-25/005Fa, U.S. Environmental Protection Agency, Integrated Risk Information System. [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=278). Government report, A-tier. [[sources/epa-iris-inorganic-arsenic-2025|Source record]]
+3. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2009). *Scientific Opinion on Arsenic in Food*. EFSA Journal 2009;7(10):1351. [https://doi.org/10.2903/j.efsa.2009.1351](https://doi.org/10.2903/j.efsa.2009.1351). Government report, A-tier. [[sources/efsa-arsenic-contam-2009|Source record]]
+4. Joint FAO/WHO Expert Committee on Food Additives (2017). *Safety Evaluation of Certain Food Additives (Arsenic), 82nd Meeting of JECFA*. WHO Food Additives Series 73. [www.who.int](https://www.who.int/publications/i/item/9789241660730). Government report, A-tier. [[sources/jecfa-82nd-arsenic|Source record]]
+5. California Office of Environmental Health Hazard Assessment (n.d.). *Arsenic (inorganic Arsenic Compounds) — Proposition 65 Chemical Listing*. California Office of Environmental Health Hazard Assessment, Proposition 65 Listings. [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/arsenic-inorganic-arsenic-compounds). Government report, A-tier. [[sources/oehha-arsenic-prop65-listing|Source record]]
+6. U.S. Environmental Protection Agency, Office of Water (2001). *EPA Drinking Water Arsenic MCL Rule (10 ppb)*. U.S. Environmental Protection Agency. [www.epa.gov](https://www.epa.gov/dwreginfo/drinking-water-arsenic-rule-history). Government report, A-tier. [[sources/epa-arsenic-drinking-water-mcl|Source record]]
+7. U.S. Food and Drug Administration (2020). *Inorganic Arsenic in Rice Cereals for Infants: Action Level; Guidance for Industry*. U.S. Food and Drug Administration, Federal Register Notice (Docket FDA-2016-D-1099). [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-rice-cereals-infants). Government report, A-tier. [[sources/fda-iAs-rice-cereal-2020|Source record]]
+8. U.S. Food and Drug Administration and U.S. Environmental Protection Agency (2017). *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*. U.S. FDA and U.S. EPA. [www.fda.gov](https://www.fda.gov/food/consumers/advice-about-eating-fish). Government report, A-tier. [[sources/fda-epa-fish-consumption-advice|Source record]]
+9. Thomas DJ (2021). *Arsenic Methylation — Lessons from Three Decades of Research*. Toxicology 457:152800. [https://doi.org/10.1016/j.tox.2021.152800](https://doi.org/10.1016/j.tox.2021.152800). Peer-reviewed, A-tier. [[sources/thomas-2021-arsenic-methylation|Source record]]
+10. Ufelle AC and Barchowsky A (2021). *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*. Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education. [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827). Textbook chapter, A-tier. [[sources/ufelle2021-metals-chapter|Source record]]
+11. Su LJ, Chiang TC, and O'Connor SN (2023). *Arsenic in Brown Rice: Do the Benefits Outweigh the Risks?*. Frontiers in Nutrition 10:1209574. [https://doi.org/10.3389/fnut.2023.1209574](https://doi.org/10.3389/fnut.2023.1209574). Peer-reviewed, A-tier. [[sources/su-2023-arsenic-brown-rice|Source record]]
+12. Navaretnam R, Aris AZ, Shukor MFA, Norrrahim MNF, Knight VF, Chin TT, et al. (2025). *Arsenic Speciation Using HPLC-ICP-MS in White and Brown Rice and Health Risk Assessment*. Environmental Geochemistry and Health 47:411. [https://doi.org/10.1007/s10653-025-02723-2](https://doi.org/10.1007/s10653-025-02723-2). Peer-reviewed, A-tier. [[sources/navaretnam-2025-rice-as-speciation|Source record]]
+13. Brian P. Jackson, Vivien F. Taylor, Tracy Punshon, and Kathryn L. Cottingham (2012). *Arsenic concentration and speciation in infant formulas and first foods*. Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223. [https://doi.org/10.1351/PAC-CON-11-09-17](https://doi.org/10.1351/PAC-CON-11-09-17). Peer-reviewed, A-tier. [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Source record]]
+14. U.S. Food and Drug Administration (2022). *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*. U.S. Food and Drug Administration, Total Diet Study Program. [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results). Government report, A-tier. [[sources/fda-tds-elements-2018-2020|Source record]]
+15. Michael Coryell, Barbara A. Roggenbeck, and Seth T. Walk (2019). *The Human Gut Microbiome's Influence on Arsenic Toxicity*. Current Pharmacology Reports 5(6):491-504. [https://doi.org/10.1007/s40495-019-00206-4](https://doi.org/10.1007/s40495-019-00206-4). Peer-reviewed, A-tier. [[sources/coryell2019-human-gut-microbiome-arsenic-toxicity|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [3902221b1](https://github.com/paleofoundation/heavymetalindex/commit/3902221b1) | 2026-05-11 | major | 1 source added; narrative text revised |
+| [77c3e8bd8](https://github.com/paleofoundation/heavymetalindex/commit/77c3e8bd8) | 2026-05-11 | major | 1 source added; narrative text revised |
+| [531252824](https://github.com/paleofoundation/heavymetalindex/commit/531252824) | 2026-05-11 | major | 1 source added; 1 section added; narrative text revised |
+| [3d34b33a9](https://github.com/paleofoundation/heavymetalindex/commit/3d34b33a9) | 2026-04-30 | major | 1 source added; narrative text revised |
 <!-- END: hmi-page-history -->

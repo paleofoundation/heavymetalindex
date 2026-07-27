@@ -73,15 +73,15 @@ Microbiome (if applicable): Not addressed.
 The PDF title, authors, DOI, journal, year, sample origins, methods, Table 1 metals, and Table 2 honey-characterization values were read from the auto-fetched PDF. The source reports arsenic as total arsenic by AAS and does not provide inorganic arsenic speciation; chromium is total chromium, not Cr(VI). `matrices: [honey]` is a source-specific matrix flag for controlled-vocabulary review.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [2a12d3b](https://github.com/paleofoundation/heavymetalindex/commit/2a12d3b) | 2026-06-03 | audit auto-fetched 2026-06-03: matrix vocabulary notes |
-| [a24eb24](https://github.com/paleofoundation/heavymetalindex/commit/a24eb24) | 2026-06-03 | ingest auto-fetched 2026-06-03: bektashi2021-honey-metals-sugars-balkans |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [2a12d3b40](https://github.com/paleofoundation/heavymetalindex/commit/2a12d3b40) | 2026-06-03 | minor | Narrative text revised |
+| [a24eb24ba](https://github.com/paleofoundation/heavymetalindex/commit/a24eb24ba) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

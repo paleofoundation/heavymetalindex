@@ -76,3 +76,13 @@ Courses: Useful example for distinguishing a consumer-product category name from
 ## Verification notes
 
 This page was built from the full PDF text, including the abstract, Results sections for Figures 1-4, and Methods sections for heavy-metal quantification and Caco-2 translocation. Products and ingredients are intentionally empty because all numeric values are spiked-solution, bacterial-binding, or epithelial-model values. The source names Lactobacillus strains and E. coli laboratory strains; these are biological materials and methods, not consumer brands.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [d4c95e573](https://github.com/paleofoundation/heavymetalindex/commit/d4c95e573) | 2026-06-09 | major | 8 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

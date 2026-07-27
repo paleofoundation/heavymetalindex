@@ -78,3 +78,13 @@ This source supports a local China occurrence route for rice grain, fresh fruit,
 - Matrix separation: soil rows are excluded from product occurrence values; they are only soil-crop pathway context.
 - Missing slug note: the taxonomy snapshot has no exact `bayberry` or fresh-mustard crop slug. Frontmatter uses broad existing `[[ingredients/fruit]]`, `[[ingredients/leafy-vegetables]]`, `[[products/fresh-fruit]]`, and `[[products/leafy-vegetables-other]]` slugs.
 - No brand names were present.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [44a2b20a5](https://github.com/paleofoundation/heavymetalindex/commit/44a2b20a5) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -92,3 +92,13 @@ App: The source can support a laundry-product regulatory context card where HMI 
 - Evidence tier: `B` because this is a binding third-party voluntary certification standard with routeable regulatory context but no primary occurrence data.
 - Missing slug note: selenium is named in the product prohibited-components and colorants clauses, but no selenium metal page exists in the current taxonomy snapshot. It is preserved in Key numbers rather than linked through a non-existent slug.
 - Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `11` laundry/fabric-contact product routing rows, was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients` advisory in `data/evidence/routing_malformed.csv`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c7e5aec50](https://github.com/paleofoundation/heavymetalindex/commit/c7e5aec50) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

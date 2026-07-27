@@ -218,15 +218,15 @@ Samples were collected from the intertidal zone by hand, by diving, or by wading
 - The opening abstract sentence states "Cadmium, lead, copper, mercury, zinc and iron were analysed by atomic absorption spectrophotometry in 13 species of edible molluscs from 199 sites around New Zealand." The Appendix Samples 1-203 reflect that some sites contributed multiple samples (e.g., separate cultured-mussel samples or replicate sub-tissue samples); the 199-site figure is from the abstract, and the 203-numbered-sample figure is from the Appendix table — both are stated in the source and not in conflict.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [72b0c6d](https://github.com/paleofoundation/heavymetalindex/commit/72b0c6d) | 2026-06-03 | audit: nielsen1975-nz-molluscs-heavy-metals revised |
-| [8d7fa45](https://github.com/paleofoundation/heavymetalindex/commit/8d7fa45) | 2026-06-03 | ingest: nielsen1975-nz-molluscs-heavy-metals fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [72b0c6db3](https://github.com/paleofoundation/heavymetalindex/commit/72b0c6db3) | 2026-06-03 | minor | Narrative text revised |
+| [8d7fa45eb](https://github.com/paleofoundation/heavymetalindex/commit/8d7fa45eb) | 2026-06-03 | major | 13 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

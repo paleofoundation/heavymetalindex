@@ -168,12 +168,13 @@ The authors conclude that Aβ in vivo may have a normal antioxidant function —
 The audit subagent recommended quarantining the page and rewriting Key numbers from scratch. Instead, the corrections were applied in place — the underlying paper-faithful re-reads were straightforward once the misattributions were identified, and the rest of the page (frontmatter, methods, slug routing, firewall posture, limitations) all passed audit clean. Page is downgraded from QUARANTINE to REVISE-applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [f7072bd](https://github.com/paleofoundation/heavymetalindex/commit/f7072bd) | 2026-06-08 | audit: bishop2004-amyloid-metal-paradox revised |
-| [42af497](https://github.com/paleofoundation/heavymetalindex/commit/42af497) | 2026-06-08 | ingest: bishop2004-amyloid-metal-paradox fresh from MFK/June 8 Black Market Peptide Metal Survey |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [f7072bd7c](https://github.com/paleofoundation/heavymetalindex/commit/f7072bd7c) | 2026-06-08 | major | 1 source added; narrative text revised |
+| [42af49768](https://github.com/paleofoundation/heavymetalindex/commit/42af49768) | 2026-06-08 | major | 2 sources added; 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

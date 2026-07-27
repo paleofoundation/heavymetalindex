@@ -102,3 +102,14 @@ The 78 formulae for special medical purposes (FSMP) span an HMTc product class n
 Brand identification is not provided in the paper, so the brand firewall (CLAUDE.md Part 12) is automatically satisfied. Methods-section vendor and instrument names (CEM MARS6, Linde, ROMIL, Milli-Q/Merck Millipore, Romil standards, ERM-BD150) are retained per the 2026-05-17 scientific-method exception.
 
 Audit subagent (2026-06-09) flagged `[[ingredients/cow-milk-infant-formula]]` and `[[ingredients/milk-based-infant-formula]]` as invented slugs not present in the taxonomy snapshot. Verified false positive: both pages exist at `wiki/ingredients/cow-milk-infant-formula.md` and `wiki/ingredients/milk-based-infant-formula.md`, and the routing audit accepted both wikilinks cleanly with zero unresolved targets for this source. The discrepancy is a staleness gap in `docs/gpt-collaboration/taxonomy-snapshot.md`, not a defect in this source page. The audit subagent also questioned the Ni FSMP maximum being rendered as `0-12` rather than `0-12.5`; verified false positive — Table 9 shows the FSMP Ni range as `<0-12>` with no decimal, matching the page text. Audit verdict was REVISE; on independent verification no frontmatter or body changes are warranted.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [a8c595f77](https://github.com/paleofoundation/heavymetalindex/commit/a8c595f77) | 2026-06-09 | minor | Narrative text revised |
+| [bd323d56b](https://github.com/paleofoundation/heavymetalindex/commit/bd323d56b) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

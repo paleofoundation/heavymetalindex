@@ -60,3 +60,13 @@ App: Context only. The source can support remediation and wastewater-treatment b
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it was not food or personal-care occurrence. On reading, it is in-scope a2 mitigation/remediation evidence because it reports mercury-ion removal from aqueous solution.
 
 Numbers were checked against the abstract, Methods, Figure 4-6 captions, mercury-removal prose, recovery section, and conclusion in the extracted PDF. Mercury is recorded as `tHg` because the source reports mercury ions from mercuric acetate and does not discuss methylmercury or other mercury speciation. Products and ingredients are intentionally empty. The source's apparent removal-percentage inconsistency around 208 ppm to 70 ppm is noted rather than corrected.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [d25444699](https://github.com/paleofoundation/heavymetalindex/commit/d25444699) | 2026-06-11 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -108,15 +108,14 @@ The PDF has author attribution and DOI `10.3390/agriculture13050968`; no DOI con
 2026-06-04 audit-subagent pass: fresh-context audit returned REVISE with one real finding and two false positives. Real finding: the ammonium-nitrate / highest-HA-dose sentence under "Humic-acid response" originally listed only Cd 14% and Cr 19% reductions in sand; the source (Section 3.2, page 6) actually reports Co 7%, Cu 9%, Pb 12%, Ni 12%, Cd 14%, and Cr 19%. Expanded the sentence to include all six elements faithfully. False positives: (1) audit flagged `soil` as possibly out-of-vocabulary for matrices; verified against `docs/gpt-collaboration/system-prompt.md` line 167 where `soil` is explicitly listed in the common-matrices controlled vocabulary; not a defect. (2) audit flagged `[[supply-chain/soil-to-plant-transfer]]` as possibly invented; verified the page exists at `wiki/supply-chain/soil-to-plant-transfer.md`; not a defect. Checks 4 and 5 (brand and HMTc firewalls) were clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [0d08bd6](https://github.com/paleofoundation/heavymetalindex/commit/0d08bd6) | 2026-06-02 | ingest June 2: wyszkowski2023-soils-nitrogen-humic-acids |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed; narrative text revised |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [0d08bd614](https://github.com/paleofoundation/heavymetalindex/commit/0d08bd614) | 2026-06-02 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

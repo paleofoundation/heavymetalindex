@@ -90,3 +90,13 @@ App: This source can support tattoo-ink context cards about EU/JRC surveillance 
 - Brand firewall: the RAPEX section names three brands and gives their shares among products not in line with recommendations/legislation. Those brand names and shares are intentionally omitted here because they attach brands to noncompliance/contamination values.
 - Evidence tier: `A` because the report is a European Commission JRC regulatory synthesis with transparent DOI/report identifiers, RAPEX and national surveillance inputs, and explicit method/scope discussion. It is context/surveillance evidence rather than a primary laboratory dataset.
 - Routing: `products: ["[[products/tattoo-inks]]"]` uses the closed taxonomy slug. The taxonomy snapshot has no distinct permanent-make-up-ink product slug, so PMU specificity is retained in `matrices` and body text rather than inventing a product slug. Selenium appears in the source's total-element comparator and frontmatter metal list as `Se`, but there is no `[[metals/selenium]]` wiki page in the current taxonomy snapshot, so no selenium page link is listed.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [931973cd5](https://github.com/paleofoundation/heavymetalindex/commit/931973cd5) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

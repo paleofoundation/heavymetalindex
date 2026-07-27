@@ -79,3 +79,13 @@ App: Context only. The source can inform aluminum toxicology background but cann
 Recovered from `skip:no-occurrence-data` under the 2026-06-10 inclusion-by-default rule. On reading, this paper is lane a4 toxicology evidence because it uses AlCl3 to induce an Alzheimer's-like rat model and reports histopathology, tau immunohistochemistry, and gene-expression response.
 
 Numbers were checked against the abstract, nanoparticle-preparation section, experimental-design section, Table 1, results text, and figure captions. No food, water, product, or tissue aluminum concentration is reported, and no exact figure-bar values are transcribed because they are not printed in the extracted text. Products and ingredients are intentionally empty.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [d0625510b](https://github.com/paleofoundation/heavymetalindex/commit/d0625510b) | 2026-06-11 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

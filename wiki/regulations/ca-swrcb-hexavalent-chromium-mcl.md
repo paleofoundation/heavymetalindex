@@ -61,3 +61,21 @@ The federal Safe Drinking Water Act has no hexavalent-chromium-specific MCL; the
 ## Sources
 
 - [[sources/swrcb-hexavalent-chromium-mcl-2024|SWRCB Cr-VI MCL]] — California State Water Resources Control Board, Division of Drinking Water. Hexavalent Chromium MCL Regulation (SWRCB-DDW-21-003), effective October 1, 2024.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. California State Water Resources Control Board, Division of Drinking Water (2024). *California Hexavalent Chromium Drinking-Water Maximum Contaminant Level Regulation (SWRCB-DDW-21-003)*. California State Water Resources Control Board. [www.waterboards.ca.gov](https://www.waterboards.ca.gov/drinking_water/certlic/drinkingwater/SWRCBDDW-21-003_hexavalent_chromium.html). Regulation, A-tier. [[sources/swrcb-hexavalent-chromium-mcl-2024|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [25c92d7ad](https://github.com/paleofoundation/heavymetalindex/commit/25c92d7ad) | 2026-06-22 | major | 1 source added; contamination-profile values revised; 7 sections added |
+<!-- END: hmi-page-history -->

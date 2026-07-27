@@ -68,3 +68,13 @@ Microbiome: No microbiome findings.
 - Units are preserved as the source reports them: mg/kg for diet and liver Pb and ug for daily Pb ingestion.
 - Figure bar heights for feed intake, body-weight gain, feed efficiency, and fold-change expression were not converted into numerical values because the extracted text does not print exact bar values.
 - Products and ingredients are intentionally empty because the paper is a spiked-feed toxicology study, not an occurrence survey of poultry meat, supplements, or enzymes.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [870705667](https://github.com/paleofoundation/heavymetalindex/commit/870705667) | 2026-06-11 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -64,3 +64,13 @@ App: Context only for mitigation education and supply-chain caution. It does not
 The auto-fetch filename framed this as salt/cadmium, but the PDF itself is a ramie phytoremediation study. Products and ingredients are intentionally empty because the study did not measure edible rice, salt, textile articles, or marketed ramie-derived products. The matrix is a controlled hydroponic CdCl2 exposure.
 
 Cd tissue concentrations are plotted in Figures 1 and 2 but not provided as a source data table in the extracted PDF text. The page therefore records exact treatment concentrations, replicate design, methods, and source-stated directional/significance findings, and does not invent precise bar-chart values from the figures.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [a99c3f6f4](https://github.com/paleofoundation/heavymetalindex/commit/a99c3f6f4) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

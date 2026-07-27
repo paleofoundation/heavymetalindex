@@ -97,15 +97,13 @@ Limitations: the study reports K, P, Ca, Mg and Fe as nutrients but does not mea
 - Audit subagent (2026-06-01) flagged a paper-internal contradiction: Section 3.3 (p. 5) states "no effect was observed for flax germination, highlighting the selectivity of the treatment" while Fig. 5b (captioned as flax seedlings) shows dose-dependent germination inhibition from ~87% (control) to ~73% / ~52% / ~23% at 1/125, 1/100, 1/75 NF retentate dilutions. The "15, 40, 73%" germination inhibition numbers in the same paragraph could plausibly be attributed to either S. arvensis (consistent with the "selectivity" claim) or flax (consistent with Fig. 5b). The Key numbers section attributes them to S. arvensis on the selectivity reading; any downstream synthesis that relies on this paper's S. arvensis vs flax germination distinction should treat the attribution as ambiguous in the source.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [312c036ed](https://github.com/paleofoundation/heavymetalindex/commit/312c036ed) | 2026-06-01 | minor | Narrative text revised |
+| [6cd1cdfd5](https://github.com/paleofoundation/heavymetalindex/commit/6cd1cdfd5) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

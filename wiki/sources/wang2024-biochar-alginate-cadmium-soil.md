@@ -67,3 +67,13 @@ App: No direct ingredient or product-risk distribution; retain as mitigation-con
 ## Verification notes
 
 This page was built from the PDF text, including the abstract, pH experiment, Table 1 narrative, Table 2 kinetic parameters, soil-culture results, conclusions, and materials/methods. Products and ingredients are intentionally empty because the study does not measure a consumer product or edible crop. The auto-fetch filename's "fabric-protectants" label is not supported by the paper content.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [265c6d19d](https://github.com/paleofoundation/heavymetalindex/commit/265c6d19d) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

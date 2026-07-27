@@ -86,3 +86,13 @@ Microbiome: The thesis discusses the vulvovaginal environment and uses menstrual
 Identity checks before drafting found no existing `wiki/sources/` hit for raw handle `MFK_paper-30-marcelis-2024-phd-thesis`, cite key `marcelis2024-feminine-intimate-products-thesis`, the exact thesis title, or PDF SHA-256 `3eba9b78017ef85de9967025ef4f28cd4d308ff755947593d10f5571d51bd093`. The thesis has no DOI printed in the extracted text; `doi: null` and `no_doi_assigned: true` are retained. The front matter lists `license: "CC BY"` because the VUB cover page prints `License: CC BY`.
 
 Tables 2-9, 2-10, 3-3, 3-5, 3-6, and 3-7 were re-opened from `/tmp/hmi-fem-021.txt`. Table 2-10 values are copied as `ng/mL` leachate values without conversion, even though the later peer-reviewed article page records the same table on its own `ppb` wording. The `As (O2)` table header is treated as total arsenic measured in ICP-MS oxygen/reaction mode, not inorganic arsenic speciation; no Cr-VI, methylmercury, organotin, or elemental tin speciation is reported. Brand firewall: the thesis describes popular brands and low-budget options, but this page reports only product-category and sample-code summaries. Product, matrix, metal, and jurisdiction slugs were checked against the closed taxonomy snapshot. The closed ingredient vocabulary has no valid material slug for this thesis's consumer-product/device materials, so `ingredients: []` is intentionally retained. The near-duplicate link to `marcelis2025-micp-leachables-metals` is recorded because Chapter 2 lists the chemical-characterization article as in preparation and contains the same inorganic leachables table.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [7408d1cab](https://github.com/paleofoundation/heavymetalindex/commit/7408d1cab) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

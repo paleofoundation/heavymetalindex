@@ -126,12 +126,13 @@ This is a narrative review with no declared inclusion/exclusion criteria, no PRI
 - Check 2 slug-vocabulary ⚠️ flagged that `[[mitigation/remediation-evidence]]` is not in the taxonomy snapshot. **Verified against the snapshot — finding correct on snapshot coverage, but this is the same snapshot-coverage gap addressed on the [[luo2024-peptides-heavy-metal-remediation]] sibling audit (2026-06-08 commit `ba01991`) and is in-scope per commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The wikilink points to a real `wiki/mitigation/remediation-evidence.md` section. No content correction applied; the snapshot will catch up in a future refresh, per the Luo precedent.**
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [34bc585](https://github.com/paleofoundation/heavymetalindex/commit/34bc585) | 2026-06-08 | audit: shalev2022-peptide-metal-nmr-review promoted |
-| [e216223](https://github.com/paleofoundation/heavymetalindex/commit/e216223) | 2026-06-08 | ingest: shalev2022-peptide-metal-nmr-review fresh from Manual Fetch Kimi/June 8/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [34bc585c3](https://github.com/paleofoundation/heavymetalindex/commit/34bc585c3) | 2026-06-08 | minor | Narrative text revised |
+| [e21622392](https://github.com/paleofoundation/heavymetalindex/commit/e21622392) | 2026-06-08 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

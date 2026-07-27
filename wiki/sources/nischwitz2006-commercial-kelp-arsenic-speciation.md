@@ -113,3 +113,13 @@ This source contributes direct occurrence evidence for commercial kelp/algal pow
 - Speciation check: total arsenic, arsenate, DMA, arsenobetaine, TMA, and individual arsenosugar/thioarsenosugar species are kept distinct. Arsenate detections are treated as inorganic arsenic context only for the source-reported arsenate rows; total As is not substituted for iAs.
 - Brand firewall: consumer suppliers/brands are not named. Instrument/reagent/reference-material vendors are retained only as scientific-method context.
 - Missing-slug check: no missing product or ingredient slug blockers. Exact algal types and sample codes remain in Key numbers while frontmatter uses broad seaweed/kelp and algae/seaweed supplement routing.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6a040f25e](https://github.com/paleofoundation/heavymetalindex/commit/6a040f25e) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

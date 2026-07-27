@@ -73,3 +73,13 @@ App: The source can support peanut cadmium profiles with jurisdiction-aware cont
 - Speciation: the report measures/models cadmium only; no species substitution issue is present.
 - Brand firewall: the report discusses industry applicants and peanut suppliers, but Table A1.1 is country/source-level occurrence data and this source page does not attach a company or brand name to a contamination value.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; `peanut-containing-foods` is a matrix descriptor rather than a product or ingredient slug.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [57668714b](https://github.com/paleofoundation/heavymetalindex/commit/57668714b) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

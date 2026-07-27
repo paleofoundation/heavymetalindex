@@ -75,3 +75,13 @@ Microbiome: No microbiome-specific findings.
 - Brand names and manufacturer identities are not reproduced in this source page. The study's product-level supplement can support internal audit, but the public wiki keeps the finding at product-category level.
 - The article reports arsenic as "arsenic (inorganic)" in the analytical-method section. Because the measurement is by ICP-OES after acid digestion rather than a chromatographic speciation method, downstream routing should keep the source's own wording visible and avoid silently substituting it for independently speciated inorganic arsenic.
 - The authors' Table 5 variance values appear internally inconsistent for some elements relative to the reported SD values; this page uses the reported means and maxima and does not reuse the variance values.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [80c2df52b](https://github.com/paleofoundation/heavymetalindex/commit/80c2df52b) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -74,3 +74,13 @@ Microbiome: No microbiome findings.
 - Units are preserved exactly by biomarker type: blood Pb in ug/dL, blood Hg and Cd in ug/L, cord-blood Hg in ug/L, and urinary Hg in ug/L where the source reports those units.
 - Mercury speciation is kept distinct: most review values are unqualified Hg and are tagged as tHg; Soon et al. is included under MeHg because the table labels the metal of interest as MeHg.
 - Products and ingredients are intentionally empty because the paper is a biomonitoring scoping review, not an occurrence survey of cookware, cosmetics, fish, shellfish, or any named consumer product.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c0fa593c8](https://github.com/paleofoundation/heavymetalindex/commit/c0fa593c8) | 2026-06-11 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -91,3 +91,13 @@ This source should be treated as targeted arsenic exposure and bioaccessibility 
 - Speciation check: total arsenic is recorded as tAs. Inorganic arsenic is included because the source explicitly reports inorganic fractions dominating ayurvedic medicines and EXAFS-identified arsenic minerals; no numeric iAs concentration is inferred from the figures.
 - Brand firewall: the page does not reproduce manufacturer/brand names or attach values to product labels. Traditional formulation names are not tabulated as brand-ranked values; category-level herbal versus ayurvedic results are used for the occurrence summary.
 - Source-scope caution: rice samples were grown under arsenic-contaminated/spiked irrigation conditions and are not representative general-market rice samples.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [4b02337d0](https://github.com/paleofoundation/heavymetalindex/commit/4b02337d0) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

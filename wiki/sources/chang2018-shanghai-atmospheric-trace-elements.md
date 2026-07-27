@@ -78,3 +78,13 @@ App: Context only. The source supports ambient/shared-liability explanations for
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it did not measure mineral water or a finished product, but it is in-scope a3 atmospheric source-attribution evidence.
 
 The Pb-query and Cd-query PDFs have identical extracted text and the same DOI. The Cd-query worklist row is covered as a recovered duplicate by this source page. Numbers were checked against the extracted PDF text, especially the abstract, Methods, Section 3.1, Table 1, PMF source-analysis sections 3.2.1-3.2.5, and the precipitation-effect section. Species are preserved as total elemental measurements; the source does not report inorganic arsenic, methylmercury, or Cr(VI).
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [0b6885782](https://github.com/paleofoundation/heavymetalindex/commit/0b6885782) | 2026-06-10 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

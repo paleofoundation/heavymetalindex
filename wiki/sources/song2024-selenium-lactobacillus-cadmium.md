@@ -60,3 +60,13 @@ Microbiome: Directly relevant to cadmium-gut-liver-axis teaching because treatme
 
 - DOI, title, authors, journal, year, and license were transcribed from the PDF.
 - The PDF is tagged by the fetch queue as supplement/probiotic, but the actual source is an animal mitigation study. Products and ingredients are intentionally empty so the cadmium challenge data do not route into occurrence thresholds.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [5eb4696b2](https://github.com/paleofoundation/heavymetalindex/commit/5eb4696b2) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

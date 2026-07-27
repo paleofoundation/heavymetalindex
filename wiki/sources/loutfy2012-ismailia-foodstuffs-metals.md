@@ -87,11 +87,13 @@ This source contributes Egyptian local-market occurrence data across rice, bread
 - Autonomous audit 2026-06-09 flagged `products/milk-and-dairy` as not in the taxonomy snapshot; verified false positive — `wiki/products/milk-and-dairy.md` is the HMTc Category 24 master page (created 2026-06-08 per Taxonomy v2.1) and is actively used by 20+ other source pages in the routing audit. The taxonomy snapshot is stale relative to the recent Cat 24 dairy reorg.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [43b4711](https://github.com/paleofoundation/heavymetalindex/commit/43b4711) | 2026-06-08 | ingest: loutfy2012-ismailia-foodstuffs-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [2e7b96894](https://github.com/paleofoundation/heavymetalindex/commit/2e7b96894) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [43b47116f](https://github.com/paleofoundation/heavymetalindex/commit/43b47116f) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

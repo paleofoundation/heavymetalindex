@@ -76,3 +76,13 @@ Microbiome: No microbiome findings.
 - Units were kept as the source reports them: urinary metals in nmol/d and plasma values in micromol/L where relevant. No conversion to ug/L or mg/kg was made.
 - The source reports unqualified urinary Pb, Cd, Ni, Al, and Cr biomarkers; no arsenic or mercury speciation issue applies.
 - Products and ingredients are intentionally empty because the paper reports exposure biomarkers and diet-driver modelling, not market-product contamination values.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [0cb509186](https://github.com/paleofoundation/heavymetalindex/commit/0cb509186) | 2026-06-11 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

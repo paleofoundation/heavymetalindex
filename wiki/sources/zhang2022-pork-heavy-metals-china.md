@@ -73,3 +73,13 @@ This source contributes a China-market pork occurrence summary for Pb, total ars
 - Evidence tier C reflects secondary aggregation from CNKI records and absence of an extractable individual-sample table, despite peer-reviewed publication.
 - Source-side risk context: Table 3 THQs and the plotted ILCR results are reported as the paper's risk-assessment outputs, not consumer guidance and not HMTc certification thresholds.
 - Brand firewall: no pork brands were present. The Nanjing Farmers Market example is a regulatory/supply-chain event, not a brand-level contamination table.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [e8199017a](https://github.com/paleofoundation/heavymetalindex/commit/e8199017a) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

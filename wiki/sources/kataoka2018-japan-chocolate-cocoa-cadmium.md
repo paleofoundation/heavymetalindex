@@ -62,13 +62,13 @@ App: Chocolate and cocoa powder should remain high-priority cadmium ingredients/
 The PDF title, byline, journal issue, DOI, sample counts, analytical method, and summary values were read from the source PDF. The source reports total cadmium only; it does not provide lead, arsenic, mercury, or cadmium speciation data. Brand names are not reproduced here; sample-level values are anonymized by sample number in the paper.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [ead8551](https://github.com/paleofoundation/heavymetalindex/commit/ead8551) | 2026-06-03 | frank-intake: dedup june-1-gems-data (skip-list + novelty) |
-| [fad08a8](https://github.com/paleofoundation/heavymetalindex/commit/fad08a8) | 2026-06-03 | ingest auto-fetched 2026-06-03: kataoka2018-japan-chocolate-cocoa-cadmium |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 6 sections added; narrative text revised |
+| [ead8551c8](https://github.com/paleofoundation/heavymetalindex/commit/ead8551c8) | 2026-06-03 | major | 5 sections removed; narrative text revised |
+| [fad08a829](https://github.com/paleofoundation/heavymetalindex/commit/fad08a829) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

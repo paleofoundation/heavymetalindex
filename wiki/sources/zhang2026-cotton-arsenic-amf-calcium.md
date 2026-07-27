@@ -69,3 +69,13 @@ Microbiome: The relevant microbial system is plant-root mycorrhiza, not the huma
 - DOI, title, authors, journal, year, license, arsenate dose, calcium dose, replicate count, and growth-response percentages were transcribed from the PDF.
 - The auto-fetch filename mapped this source to `walkers`, but the paper is about cotton seedlings. The page routes it to cotton/fabric-contact supply-chain context rather than to walkers as a finished child-durable occurrence source.
 - Arsenic was applied as arsenate, an inorganic arsenic species. The page therefore uses `iAs` in frontmatter and does not substitute the greenhouse arsenate-stress dose for total arsenic in finished cotton products.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3ec492de8](https://github.com/paleofoundation/heavymetalindex/commit/3ec492de8) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

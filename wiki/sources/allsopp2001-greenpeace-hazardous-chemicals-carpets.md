@@ -151,14 +151,14 @@ The full eight-species × eight-sample matrix as reported in Table 2:
 - **Folder context vs paper scope.** The PDF lives under `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/04_Carpet_Degreaser_BBQ_Appliance/` in the Kimi corruption-issue rescue tree. The folder name conflates carpets, degreasers, BBQ appliances, and other household items; the paper itself is a carpet-only investigation. The folder taxonomy reflects the Kimi-agent's batch-organisation scheme during the 2026-05 corruption-issue rescue, not the paper's content.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [174b816](https://github.com/paleofoundation/heavymetalindex/commit/174b816) | 2026-06-03 | ingest: allsopp2001-greenpeace-hazardous-chemicals-carpets [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/04_Carpet_Degreaser_BBQ_Appliance |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [174b8165f](https://github.com/paleofoundation/heavymetalindex/commit/174b8165f) | 2026-06-03 | major | 2 sources added; 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -77,3 +77,13 @@ App: Context only. The page can support pathway and source-attribution narrative
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it lacked finished-food or utensil occurrence values. On reading, it is in-scope a3 pathway evidence because it measures Pb and Co in irrigated vegetable-farmland soil and links the soil context to Amba River irrigation inputs.
 
 Numbers were checked against the extracted PDF text, especially the abstract, sampling section, Table 1, Table 2, Table 3, Table 4, the heavy-metals discussion, and the conclusion. Units and digestion methods are preserved as printed. The page does not infer crop concentrations from soil values, and no brand or product route is created.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c6adbbb11](https://github.com/paleofoundation/heavymetalindex/commit/c6adbbb11) | 2026-06-10 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

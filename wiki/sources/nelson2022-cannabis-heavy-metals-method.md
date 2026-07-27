@@ -73,3 +73,13 @@ The native values in Table 5 provide bounded occurrence context for cannabis-der
 - Jurisdictions record the method-regulatory scope the paper states: U.S. state cannabis testing programs and Canadian cannabis laws. The paper does not report purchase or production jurisdictions for the validation samples, so these codes should not be read as sample-provenance claims.
 - Missing slug note: the taxonomy snapshot has no `hemp`, `cannabis`, `CBD`, or `cannabis-derived-products` ingredient/product slug. Frontmatter uses the existing broad `[[ingredients/herbal-botanicals]]`, `[[products/supplements-botanicals-herbs]]`, `[[products/dietary-supplements]]`, and `[[products/body-hand-leave-on-skin-care]]` slugs instead of inventing cannabis-specific pages.
 - Brand firewall: sample labels are generic matrix descriptors. Instrument/vendor names in Methods are scientific reproducibility details, not product-brand contamination claims.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [f3c71fe11](https://github.com/paleofoundation/heavymetalindex/commit/f3c71fe11) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

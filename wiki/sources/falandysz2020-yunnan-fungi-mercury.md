@@ -75,3 +75,13 @@ App: Can inform wild-mushroom and mushroom-supplement mercury priors, especially
 ## Verification notes
 
 This page was built from the PDF title/byline, abstract, methods, Table 1, results, exposure-estimation discussion, and topsoil context. The page uses `tHg` because the reported mushroom occurrence values are total mercury; the discussion mentions methylmercury toxicology but does not provide mushroom methylmercury occurrence rows. Values are dry weight unless explicitly stated otherwise.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [04c4ff30b](https://github.com/paleofoundation/heavymetalindex/commit/04c4ff30b) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

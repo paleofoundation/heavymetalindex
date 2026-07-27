@@ -97,3 +97,13 @@ This source is direct seafood occurrence evidence for organotin compounds in mol
 - Units and bases are preserved as `ng Sn g-1 dw`, `ng Sn g-1 ww`, and RQ; no unit conversion was performed.
 - Speciation check: this page records organotin species (`TBT`, `DBT`, `MBT`, `TPhT`, `DPhT`, `MPhT`) and compound-class sums. `metals: [Sn]` is only the existing element-level routing convention; organotins are not treated as total tin or inorganic tin.
 - Brand firewall: the paper reports port regions, organism groups, and species; no seafood brands are attached to contaminant values.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [2314b0d78](https://github.com/paleofoundation/heavymetalindex/commit/2314b0d78) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -281,15 +281,13 @@ Sample size is small (n = 3 fields per region per crop, n = 27 paired soil–cro
 - **Data integrity.** All Table 1 cells (9 fields × 5 columns), Table 2 cells (9 fields × 4 metals + 3 region means + LSD row + 2 ceiling rows), Table 3 cells (9 crop-region cells × 4 metals + MPC row + LSD row), Table 4 cells (4 × 4 correlation matrix), and Table 5 cells (9 region-crop rows × 4 metals + 3 region totals + TDI row) transcribed verbatim from PDF pages 24–28. BAF values extracted from Figure 2 chart bars (page 30; precision ±0.005 noted). CLI values extracted from Figure 3 chart bars (page 31; precision ±0.2 noted) and cross-referenced with text-reported regional means. EDI sums verified: Zarrinshahr Cd 1.37 + 0.53 + 0.18 = 2.08 ✓; Zarrinshahr Ni 6.27 + 5.14 + 1.20 = 12.61 ✓; Zarrinshahr Pb 8.83 + 4.39 + 1.24 = 14.46 ✓. Mobarakeh Cd 1.24 + 0.47 + 0.16 = 1.87 ✓. Natanz Cd 0.27 + 0.09 + 0.03 = 0.39 ✓. No internal arithmetic discrepancies identified beyond the four flagged paper-internal inconsistencies above.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [05880fab5](https://github.com/paleofoundation/heavymetalindex/commit/05880fab5) | 2026-06-01 | minor | Narrative text revised |
+| [d9d49170c](https://github.com/paleofoundation/heavymetalindex/commit/d9d49170c) | 2026-06-01 | major | 15 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

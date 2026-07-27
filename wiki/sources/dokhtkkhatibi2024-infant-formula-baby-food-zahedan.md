@@ -93,15 +93,14 @@ The authors' regulatory framing compares the sample-mean EDI against Codex TDI/P
 - 2026-05-17 audit subagent (general-purpose, Phase 2 of `/ingest-next-manual-fetch-pdf`) returned REVISE with one ❌ on Check 2, asserting that `[[ingredients/infant-cereal-ingredients]]` was not in the taxonomy snapshot. Verified against `wiki/ingredients/infant-cereal-ingredients.md` (exists) and `docs/gpt-collaboration/taxonomy-snapshot.md` (slug present in the Ingredients line). Finding is a false positive — the subagent's snapshot scan missed the entry. No change applied. All ⚠️ items in Check 1 were re-verified against Tables 1-3 (pp. 617-618) and confirmed correct. Effective verdict: PROMOTE.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [1e0cd8571](https://github.com/paleofoundation/heavymetalindex/commit/1e0cd8571) | 2026-05-17 | minor | Narrative text revised |
+| [cfbc16c92](https://github.com/paleofoundation/heavymetalindex/commit/cfbc16c92) | 2026-05-17 | major | 2 sections added and 2 removed; narrative text revised |
+| [2d4429eb4](https://github.com/paleofoundation/heavymetalindex/commit/2d4429eb4) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

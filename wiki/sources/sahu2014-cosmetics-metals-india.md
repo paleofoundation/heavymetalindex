@@ -84,3 +84,13 @@ App: If adult cosmetics are included in consumer profiles, this source can suppo
 - Brand firewall: Tables 2-6 attach brands, shade names, product names, manufacturers, and marketers to sample identities and contamination values. This page reports only aggregate product-form counts, detection proportions, ranges, and de-identified risk-comparison summaries.
 - Evidence tier: `B` because the report is a primary analytical survey from a named nonprofit laboratory with QA/QC statements, triplicate measurements, and recovery above `90%`, but it is not peer-reviewed, has a convenience Delhi-market sample, and does not report LOD/LOQ values or uncertainty intervals.
 - Routing: all product slugs used in frontmatter appear in `docs/gpt-collaboration/taxonomy-snapshot.md`. Missing exact slugs: the snapshot has no non-retired adult lip-balm slug and no explicit adult anti-ageing cream slug. This page uses `leave-on-preparations-other` and `face-neck-leave-on-skin-care` rather than inventing new slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c896ce8a5](https://github.com/paleofoundation/heavymetalindex/commit/c896ce8a5) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

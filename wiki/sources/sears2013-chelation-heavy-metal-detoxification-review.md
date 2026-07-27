@@ -174,12 +174,13 @@ The review does not declare PRISMA-style inclusion/exclusion criteria, risk-of-b
 **Audit subagent (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) all returned ✅. One ⚠️ on the `[[mitigation/remediation-evidence]]` wikilink — the auditor noted this slug is outside the taxonomy snapshot's four-category vocabulary (Ingredients/Products/Metals/Regulations) and asked Karen to confirm the target page exists. Verified independently in the same ingest session: `wiki/mitigation/remediation-evidence.md` exists in the `wiki/mitigation/` subtree, which is the same legitimate routing destination the sibling peptide-folder pages (luo2024, etc.) target under the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The taxonomy snapshot's closed list is GPT-5.5's drafting vocabulary, not the wiki's exhaustive section index. No content corrections applied; the ⚠️ is a snapshot-scope artefact, not a defect in this page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [dbe5c0c](https://github.com/paleofoundation/heavymetalindex/commit/dbe5c0c) | 2026-06-08 | audit: sears2013-chelation-heavy-metal-detoxification-review promoted |
-| [cc9bd35](https://github.com/paleofoundation/heavymetalindex/commit/cc9bd35) | 2026-06-08 | ingest: sears2013-chelation-heavy-metal-detoxification-review fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [dbe5c0c2b](https://github.com/paleofoundation/heavymetalindex/commit/dbe5c0c2b) | 2026-06-08 | minor | Narrative text revised |
+| [cc9bd359e](https://github.com/paleofoundation/heavymetalindex/commit/cc9bd359e) | 2026-06-08 | major | 13 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

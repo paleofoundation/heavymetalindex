@@ -86,3 +86,14 @@ The source contains a small internal dose discrepancy: the animal-methods paragr
 Calcium was measured in Table 4 alongside Zn, Mg, and Fe, but is omitted from the `metals:` frontmatter because calcium is not in the HMI metals vocabulary (no metals/calcium page; tracked only as an essential-element companion to Pb exposure). Ca values are retained in the body table for completeness.
 
 The matrices vocabulary used here (probiotic-biosorption, mouse-blood, mouse-liver, mouse-kidney, lead-spiked-drinking-water) is ad-hoc but consistent with the established pattern for mitigation and animal-model source pages, which lack a food-form-oriented controlled vocabulary. GPT-5.5-style audit (2026-06-09) flagged these as out-of-controlled-vocab; verified against sibling mitigation pages (e.g., chen2023-clinoptilolite-cd-mitigation uses cd-spiked-drinking-water, mouse-liver-tissue, clinoptilolite-feed-additive in the same pattern), so the finding was a false positive.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [23cd0fb92](https://github.com/paleofoundation/heavymetalindex/commit/23cd0fb92) | 2026-06-09 | minor | Narrative text revised |
+| [865eb2b00](https://github.com/paleofoundation/heavymetalindex/commit/865eb2b00) | 2026-06-09 | major | 8 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

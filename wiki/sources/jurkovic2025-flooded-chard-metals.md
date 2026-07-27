@@ -66,3 +66,13 @@ Microbiome: The paper includes soil microbial measurements but does not assess h
 ## Verification notes
 
 The PDF metadata and article first page identify ACS Omega 2025, DOI 10.1021/acsomega.5c08533. The automated filename suggested a leave-on preparation query, but the actual source is a chard soil-plant study. Product-tissue values are presented in figures rather than a text table; this page marks figure-read plant averages as approximate and relies on exact text-extracted soil/sludge table values where available.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [31268c2b4](https://github.com/paleofoundation/heavymetalindex/commit/31268c2b4) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

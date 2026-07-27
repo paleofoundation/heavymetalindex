@@ -69,3 +69,13 @@ App: The source can support game-meat lead explanations that distinguish fragmen
 - Speciation: the study concerns elemental lead in ammunition fragments. No arsenic, mercury, chromium, or organotin speciation is involved.
 - Brand firewall: the source states that cartridges came from a single locally common brand but does not name that brand in the extracted text. No brand names are attached to contamination values.
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. The taxonomy has `game-meats` as a product slug but lacks exact `venison` or `game-meat` ingredient slugs, so ingredients route through broad `meat` and `meat-and-poultry`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [990df5562](https://github.com/paleofoundation/heavymetalindex/commit/990df5562) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

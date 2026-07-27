@@ -74,3 +74,13 @@ App: Context only for product thresholds. The aerosol concentrations are not pro
 Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip reason was too narrow because the paper measures heavy metals in atmospheric aerosols and apportions them to upstream source classes relevant to atmospheric deposition and environmental burden sharing.
 
 All key numbers were checked against the extracted PDF text, especially Table 1, Section 4.2.3, Section 4.2.5, the abstract, and the conclusion. Units are preserved as ng m−3 for elemental aerosol concentrations and percent mass contribution for PMF components. Arsenic is treated as total arsenic (`tAs`) because XRF elemental analysis did not speciate inorganic arsenic. Products and ingredients are intentionally empty; the filename's mineral-water query label is not the paper's matrix.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [99e053322](https://github.com/paleofoundation/heavymetalindex/commit/99e053322) | 2026-06-10 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

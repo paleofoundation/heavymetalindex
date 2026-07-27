@@ -117,3 +117,13 @@ This source is high-value macroalgae occurrence evidence because it separates in
 - The report contains both primary IMR data and literature/project summaries. The concentration rows in Tables 2-8 and the sugar-kelp standardized trial summary are treated as the source's own occurrence data; referenced literature and project background remain context.
 - Brand firewall: the report describes species, production origin, and Norwegian/Asian source categories; no consumer brands are attached to contamination values.
 - Missing-slug note: the taxonomy snapshot has no animal-feed or aquafeed seaweed row. Frontmatter routes the source to seaweed food and algae/seaweed supplement rows, while fish-feed and insect-larvae feed-chain context remains in prose only.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [afbab7450](https://github.com/paleofoundation/heavymetalindex/commit/afbab7450) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

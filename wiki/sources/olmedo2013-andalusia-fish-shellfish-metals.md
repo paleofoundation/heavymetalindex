@@ -105,11 +105,12 @@ This source contributes primary wet-weight occurrence evidence for fresh fish, c
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`. Cephalopod- and crustacean-specific product slugs were not available in the snapshot, so squid, octopus, prawn, and shrimp route through broad shellfish/seafood context.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [e432f38](https://github.com/paleofoundation/heavymetalindex/commit/e432f38) | 2026-06-08 | ingest: olmedo2013-andalusia-fish-shellfish-metals fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [e432f38eb](https://github.com/paleofoundation/heavymetalindex/commit/e432f38eb) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
