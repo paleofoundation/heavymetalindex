@@ -144,9 +144,10 @@ Not applicable. This is a one-page coalition post-passage summary letter, not an
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [270ad581a](https://github.com/paleofoundation/heavymetalindex/commit/270ad581a) | 2026-06-09 | ingest: wve2017-ca-sb258-passage-summary fresh from MFK/June 8 Kimi_Agent_Download Corruption Issue (06_Regulatory_EPA_GreenSeal) |
 <!-- END: hmi-page-history -->

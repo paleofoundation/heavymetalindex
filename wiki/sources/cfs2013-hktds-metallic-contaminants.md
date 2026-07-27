@@ -237,9 +237,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [951d45400](https://github.com/paleofoundation/heavymetalindex/commit/951d45400) | 2026-06-08 | ingest: cfs2013-hktds-metallic-contaminants duplicate_filesystem_copies path from Manual Fetch Kimi /June 8/_extracted_02_Vegetables_and_Vegetable_Products |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 | [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
-| [ac2c093ca](https://github.com/paleofoundation/heavymetalindex/commit/ac2c093ca) | 2026-06-03 | enhance: cfs2013-hktds-metallic-contaminants — third byte-identical Kimi-folder copy logged |
 <!-- END: hmi-page-history -->

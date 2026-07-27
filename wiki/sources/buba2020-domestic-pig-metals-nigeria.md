@@ -74,9 +74,10 @@ App: The source can support Nigeria pork-product context for Pb, Fe, Cd, Ni, and
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [48e2c9593](https://github.com/paleofoundation/heavymetalindex/commit/48e2c9593) | 2026-06-09 | ingest: buba2020-domestic-pig-metals-nigeria fresh from MFK/June 8 |
 <!-- END: hmi-page-history -->

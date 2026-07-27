@@ -115,6 +115,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [1834d9dad](https://github.com/paleofoundation/heavymetalindex/commit/1834d9dad) | 2026-06-09 | audit: cammilleri2025-marine-collagen-toxic-metals revised |
 | [d37761373](https://github.com/paleofoundation/heavymetalindex/commit/d37761373) | 2026-06-09 | ingest: cammilleri2025-marine-collagen-toxic-metals enhanced from June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |

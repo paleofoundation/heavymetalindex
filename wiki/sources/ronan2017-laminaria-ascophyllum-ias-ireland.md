@@ -76,10 +76,11 @@ Whole thalli were collected at low tide (Spiddal, Galway Bay; 53.2409 N, −9.30
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [f732e6461](https://github.com/paleofoundation/heavymetalindex/commit/f732e6461) | 2026-06-08 | audit: ronan2017-laminaria-ascophyllum-ias-ireland revised |
 | [ab2b5a072](https://github.com/paleofoundation/heavymetalindex/commit/ab2b5a072) | 2026-06-08 | ingest: ronan2017-laminaria-ascophyllum-ias-ireland fresh from MFK/June 8 Inorganic Arsenic Seaweed |

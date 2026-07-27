@@ -81,9 +81,10 @@ Numbers were checked against the Ukrainian abstract, methods, Table 1, Table 2, 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [fe236ced0](https://github.com/paleofoundation/heavymetalindex/commit/fe236ced0) | 2026-06-10 | recover-ingest 2026-06-10: dvyliuk2019-bee-sumerian-silver-metals (lane a4, was skip:not-food-occurrence) |
 <!-- END: hmi-page-history -->

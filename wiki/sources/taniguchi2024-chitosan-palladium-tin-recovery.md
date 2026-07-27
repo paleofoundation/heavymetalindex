@@ -73,9 +73,10 @@ Numbers were checked against the English abstract, methods, Table 1, Table 2 tex
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [58c0a5c9d](https://github.com/paleofoundation/heavymetalindex/commit/58c0a5c9d) | 2026-06-10 | recover-ingest 2026-06-10: taniguchi2024-chitosan-palladium-tin-recovery (lane a2, was skip:not-food-occurrence) |
 <!-- END: hmi-page-history -->

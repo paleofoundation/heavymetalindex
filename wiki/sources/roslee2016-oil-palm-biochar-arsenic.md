@@ -61,9 +61,10 @@ Numbers were checked against the extracted PDF abstract and table of contents. T
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [f6001b091](https://github.com/paleofoundation/heavymetalindex/commit/f6001b091) | 2026-06-10 | recover-ingest 2026-06-10: roslee2016-oil-palm-biochar-arsenic (lane a2/a3, was skip:not-food-occurrence) |
 <!-- END: hmi-page-history -->

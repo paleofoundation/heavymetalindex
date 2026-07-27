@@ -70,9 +70,10 @@ All numbers above were re-checked against the extracted PDF text, including the 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [1eb0d7743](https://github.com/paleofoundation/heavymetalindex/commit/1eb0d7743) | 2026-06-10 | recover-ingest 2026-06-10: wei2021-eggshell-bacteria-pb-cd-remediation (lane a2, was skip:not-food-occurrence) |
 <!-- END: hmi-page-history -->

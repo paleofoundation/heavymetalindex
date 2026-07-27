@@ -152,10 +152,11 @@ Audit subagent (2026-06-08, agent a85bea8c) flagged that the Wiki-pages-this-sou
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [ca8031044](https://github.com/paleofoundation/heavymetalindex/commit/ca8031044) | 2026-06-08 | audit: begday2026-plant-milk-heavy-metal-safety promoted |
 | [a74b96c98](https://github.com/paleofoundation/heavymetalindex/commit/a74b96c98) | 2026-06-08 | ingest: begday2026-plant-milk-heavy-metal-safety fresh from Manual Fetch Discovery |

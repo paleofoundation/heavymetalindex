@@ -66,10 +66,11 @@ This source contributes Nigeria-market canned tomato-paste occurrence context fo
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [1b4710498](https://github.com/paleofoundation/heavymetalindex/commit/1b4710498) | 2026-06-09 | audit: uroko2020-ubani-canned-tomato-paste-metals revised per autonomous audit |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [77fbf2429](https://github.com/paleofoundation/heavymetalindex/commit/77fbf2429) | 2026-06-08 | ingest: uroko2020-ubani-canned-tomato-paste-metals fresh from MFK/June 8 New Folder With Items 3 2 |

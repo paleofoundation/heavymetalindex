@@ -87,10 +87,11 @@ Frontmatter `products` is intentionally empty: this is a toxicology hazard-ident
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [fe1962dc4](https://github.com/paleofoundation/heavymetalindex/commit/fe1962dc4) | 2026-06-22 | audit: oehha-nickel-dart-evidence-2018 [revised] |
 | [529b3d5c5](https://github.com/paleofoundation/heavymetalindex/commit/529b3d5c5) | 2026-06-22 | ingest: oehha-nickel-dart-evidence-2018 [fresh] from Manual Fetch Kimi/June 22 |
 <!-- END: hmi-page-history -->

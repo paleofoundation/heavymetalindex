@@ -152,10 +152,11 @@ Audit subagent (2026-06-06) ran the five-check audit against this page and the u
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c9d5449f2](https://github.com/paleofoundation/heavymetalindex/commit/c9d5449f2) | 2026-06-06 | audit: zhou2025-baijiu-impurities-safety-strategies [promoted] |
 | [024c25714](https://github.com/paleofoundation/heavymetalindex/commit/024c25714) | 2026-06-06 | ingest: zhou2025-baijiu-impurities-safety-strategies [fresh] from Manual Fetch Discovery |

@@ -73,10 +73,11 @@ App: The coffee-facing takeaway is that this Sidama sample set found no detected
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [0a343876a](https://github.com/paleofoundation/heavymetalindex/commit/0a343876a) | 2026-06-09 | audit: berego2023-sidama-coffee-metals revised per autonomous audit |
 | [f4ed23400](https://github.com/paleofoundation/heavymetalindex/commit/f4ed23400) | 2026-06-09 | ingest auto-fetched 2026-06-09: berego2023-sidama-coffee-metals |
 <!-- END: hmi-page-history -->

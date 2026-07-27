@@ -67,9 +67,10 @@ The corpus queue labeled this record `WIKIBIOME-HANDOFF`, but deep read shows it
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [ab2ece319](https://github.com/paleofoundation/heavymetalindex/commit/ab2ece319) | 2026-06-14 | recover corpus 2026-06-14: wan2023-rhizosphere-cadmium-migration (lane a2) |
 <!-- END: hmi-page-history -->

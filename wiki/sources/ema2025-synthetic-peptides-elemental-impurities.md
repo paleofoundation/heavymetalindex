@@ -94,10 +94,11 @@ Not applicable — this document is a regulatory guideline issued under the CTD 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [d7e659228](https://github.com/paleofoundation/heavymetalindex/commit/d7e659228) | 2026-06-09 | audit: ema2025-synthetic-peptides-elemental-impurities revised per autonomous audit |
 | [3480f8f3b](https://github.com/paleofoundation/heavymetalindex/commit/3480f8f3b) | 2026-06-09 | ingest: ema2025-synthetic-peptides-elemental-impurities fresh from Manual Fetch Kimi/peptide_contamination_pdfs |
 <!-- END: hmi-page-history -->

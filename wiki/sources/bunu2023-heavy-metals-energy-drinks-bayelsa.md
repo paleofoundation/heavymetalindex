@@ -214,10 +214,11 @@ Open-access article distributed under CC BY 4.0 (license declaration on p. 1 of 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [fa76ab499](https://github.com/paleofoundation/heavymetalindex/commit/fa76ab499) | 2026-06-06 | audit: bunu2023-heavy-metals-energy-drinks-bayelsa promoted |
 | [bca7ef992](https://github.com/paleofoundation/heavymetalindex/commit/bca7ef992) | 2026-06-06 | ingest: bunu2023-heavy-metals-energy-drinks-bayelsa fresh from Manual Fetch Discovery |

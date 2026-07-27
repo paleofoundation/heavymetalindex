@@ -88,10 +88,11 @@ App: The source can support UK rice-arsenic context, including category-level wa
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [46f81a309](https://github.com/paleofoundation/heavymetalindex/commit/46f81a309) | 2026-06-10 | audit: meharg2008-rice-arsenic-literature-review revised |
 | [5d5a7f89a](https://github.com/paleofoundation/heavymetalindex/commit/5d5a7f89a) | 2026-06-09 | ingest: meharg2008-rice-arsenic-literature-review fresh from MFK/June 8 |
 <!-- END: hmi-page-history -->

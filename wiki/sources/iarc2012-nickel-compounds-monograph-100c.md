@@ -88,10 +88,11 @@ Fresh-context audit subagent (2026-06-22) confirmed numerical fidelity across al
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [a01989ff5](https://github.com/paleofoundation/heavymetalindex/commit/a01989ff5) | 2026-06-22 | audit: iarc2012-nickel-compounds-monograph-100c [revised] |
 | [92634affd](https://github.com/paleofoundation/heavymetalindex/commit/92634affd) | 2026-06-22 | ingest: iarc2012-nickel-compounds-monograph-100c [fresh] from Manual Fetch Kimi/June 22 |
 <!-- END: hmi-page-history -->

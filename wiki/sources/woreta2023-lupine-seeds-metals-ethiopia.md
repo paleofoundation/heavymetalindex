@@ -87,9 +87,10 @@ This source adds Ethiopian lupine-seed occurrence data for the broad legumes/pul
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [f15cb50f1](https://github.com/paleofoundation/heavymetalindex/commit/f15cb50f1) | 2026-06-09 | ingest: woreta2023-lupine-seeds-metals-ethiopia fresh from MFK/June 9 |
 <!-- END: hmi-page-history -->

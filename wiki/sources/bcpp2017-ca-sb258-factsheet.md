@@ -173,10 +173,11 @@ Not applicable. This is a two-page legislative-advocacy factsheet, not an experi
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [5b087c8ff](https://github.com/paleofoundation/heavymetalindex/commit/5b087c8ff) | 2026-06-09 | audit: bcpp2017-ca-sb258-factsheet promoted |
 | [7a2dc6a07](https://github.com/paleofoundation/heavymetalindex/commit/7a2dc6a07) | 2026-06-09 | ingest: bcpp2017-ca-sb258-factsheet fresh from MFK/June 8 Kimi_Agent_Download Corruption Issue (06_Regulatory_EPA_GreenSeal) |
 <!-- END: hmi-page-history -->

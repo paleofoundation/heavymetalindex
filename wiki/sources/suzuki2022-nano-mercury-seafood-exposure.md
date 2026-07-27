@@ -75,10 +75,11 @@ This source contributes Japanese-market seafood occurrence data for T-Hg, MeHg, 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [59be7b583](https://github.com/paleofoundation/heavymetalindex/commit/59be7b583) | 2026-06-09 | audit: suzuki2022-nano-mercury-seafood-exposure [promoted] per autonomous audit |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [745b46425](https://github.com/paleofoundation/heavymetalindex/commit/745b46425) | 2026-06-08 | ingest: suzuki2022-nano-mercury-seafood-exposure fresh from MFK/June 8 New Folder With Items 4 2 |

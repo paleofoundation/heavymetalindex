@@ -68,9 +68,10 @@ The DOI, author list, journal, and year were taken from the ACS Omega PDF. The p
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [80fee294f](https://github.com/paleofoundation/heavymetalindex/commit/80fee294f) | 2026-06-09 | ingest auto-fetched 2026-06-09: picos-corrales2020-chitosan-bean-straw-bioflocculants |
 <!-- END: hmi-page-history -->

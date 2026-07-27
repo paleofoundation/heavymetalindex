@@ -89,10 +89,11 @@ This source contributes Egyptian local-market occurrence data across rice, bread
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [2e7b96894](https://github.com/paleofoundation/heavymetalindex/commit/2e7b96894) | 2026-06-09 | audit: loutfy2012-ismailia-foodstuffs-metals promoted per autonomous audit |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [43b47116f](https://github.com/paleofoundation/heavymetalindex/commit/43b47116f) | 2026-06-08 | ingest: loutfy2012-ismailia-foodstuffs-metals fresh from MFK/June 8 New Folder With Items 3 2 |

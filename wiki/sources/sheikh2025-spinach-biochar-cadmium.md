@@ -59,9 +59,10 @@ Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-defa
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [7faea44b2](https://github.com/paleofoundation/heavymetalindex/commit/7faea44b2) | 2026-06-11 | recovery ingest 2026-06-11: corpus rescreen batch of 10 sources |
 <!-- END: hmi-page-history -->

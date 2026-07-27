@@ -71,10 +71,11 @@ This source is useful as an organotin literature map for seafood and edible-oil 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [d5ccb776b](https://github.com/paleofoundation/heavymetalindex/commit/d5ccb776b) | 2026-06-09 | audit: sadighara2021-food-organotin-review revised per autonomous audit |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c58ed59b9](https://github.com/paleofoundation/heavymetalindex/commit/c58ed59b9) | 2026-06-08 | ingest: sadighara2021-food-organotin-review fresh from MFK/June 8 New Folder With Items 4 2 |

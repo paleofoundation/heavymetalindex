@@ -176,10 +176,11 @@ Figure 1: schematic of the PC-mediated metal detoxification pathway in plants, s
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [d764ca0ef](https://github.com/paleofoundation/heavymetalindex/commit/d764ca0ef) | 2026-06-08 | audit: seregin2023-phytochelatins-sulfur-metal-chelating revised |
 | [5aec7a924](https://github.com/paleofoundation/heavymetalindex/commit/5aec7a924) | 2026-06-08 | batch-report: June 8 Inorganic Arsenic Seaweed ingest progress (3/67 done) |

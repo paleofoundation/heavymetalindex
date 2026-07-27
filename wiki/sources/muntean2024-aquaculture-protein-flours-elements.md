@@ -68,10 +68,11 @@ The DOI, title, author list, journal, and year were taken from the Molecules PDF
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [848c2074e](https://github.com/paleofoundation/heavymetalindex/commit/848c2074e) | 2026-06-09 | audit: muntean2024-aquaculture-protein-flours-elements revised per autonomous audit |
 | [a1c622721](https://github.com/paleofoundation/heavymetalindex/commit/a1c622721) | 2026-06-09 | ingest auto-fetched 2026-06-09: muntean2024-aquaculture-protein-flours-elements |
 <!-- END: hmi-page-history -->

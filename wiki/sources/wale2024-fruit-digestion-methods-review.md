@@ -115,10 +115,11 @@ Single-author narrative review of laboratory digestion methodology, 6 printed pa
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [1c1eeb346](https://github.com/paleofoundation/heavymetalindex/commit/1c1eeb346) | 2026-06-07 | audit: wale2024-fruit-digestion-methods-review promoted |
 | [e6ae7b7a6](https://github.com/paleofoundation/heavymetalindex/commit/e6ae7b7a6) | 2026-06-07 | ingest: wale2024-fruit-digestion-methods-review fresh from Manual Fetch Discovery |

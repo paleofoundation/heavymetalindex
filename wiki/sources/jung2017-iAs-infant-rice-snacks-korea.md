@@ -70,9 +70,10 @@ Springer Nature publication (Food Science and Biotechnology, Korean Society of F
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [d919cd5ba](https://github.com/paleofoundation/heavymetalindex/commit/d919cd5ba) | 2026-06-09 | ingest: jung2017-iAs-infant-rice-snacks-korea fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

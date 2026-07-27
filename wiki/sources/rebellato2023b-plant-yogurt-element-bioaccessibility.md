@@ -165,10 +165,11 @@ Audit subagent (2026-06-08, agent a02d1cbc718bb7c46) returned REVISE with two va
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [ba1c4cdaa](https://github.com/paleofoundation/heavymetalindex/commit/ba1c4cdaa) | 2026-06-08 | audit: rebellato2023b-plant-yogurt-element-bioaccessibility revised |
 | [07a005f15](https://github.com/paleofoundation/heavymetalindex/commit/07a005f15) | 2026-06-08 | ingest: rebellato2023b-plant-yogurt-element-bioaccessibility fresh from Manual Fetch Discovery |

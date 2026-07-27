@@ -66,9 +66,10 @@ The corpus queue mislabeled this record as `WIKIBIOME-HANDOFF`. On deep read it 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [0a1cf4c09](https://github.com/paleofoundation/heavymetalindex/commit/0a1cf4c09) | 2026-06-14 | recover corpus 2026-06-14: bei2025-pteris-arsenic-rhizosphere (lane a2) |
 <!-- END: hmi-page-history -->

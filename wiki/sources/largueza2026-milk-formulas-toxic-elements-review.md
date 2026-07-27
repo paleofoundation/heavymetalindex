@@ -139,10 +139,11 @@ Audit subagent flagged inclusion of both `iAs` and `tAs` in the metals array; ve
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [2206a815a](https://github.com/paleofoundation/heavymetalindex/commit/2206a815a) | 2026-06-09 | audit: largueza2026-milk-formulas-toxic-elements-review revised |
 | [8cda7e018](https://github.com/paleofoundation/heavymetalindex/commit/8cda7e018) | 2026-06-09 | ingest: largueza2026-milk-formulas-toxic-elements-review fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

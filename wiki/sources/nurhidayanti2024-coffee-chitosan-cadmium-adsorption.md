@@ -104,9 +104,10 @@ Numbers were checked against the abstract, introduction, methods, Figure 3 prose
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [1639e593d](https://github.com/paleofoundation/heavymetalindex/commit/1639e593d) | 2026-06-11 | recover-ingest 2026-06-11: nurhidayanti2024-coffee-chitosan-cadmium-adsorption (lane a2, was skip:not-food-occurrence) |
 <!-- END: hmi-page-history -->

@@ -93,10 +93,11 @@ Thirty collagen supplement products were procured from US local, national, and o
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [1bab1eaf1](https://github.com/paleofoundation/heavymetalindex/commit/1bab1eaf1) | 2026-06-08 | audit: cleanlabel2020-collagen-heavy-metals revised |
 | [913b96286](https://github.com/paleofoundation/heavymetalindex/commit/913b96286) | 2026-06-08 | ingest: cleanlabel2020-collagen-heavy-metals fresh from June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs |
 <!-- END: hmi-page-history -->

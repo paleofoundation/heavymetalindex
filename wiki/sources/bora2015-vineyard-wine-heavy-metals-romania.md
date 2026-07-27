@@ -145,10 +145,11 @@ Tables 1, 2 and 3 in the source print "Average" rows whose ± values are implaus
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [d70d6eb09](https://github.com/paleofoundation/heavymetalindex/commit/d70d6eb09) | 2026-06-06 | audit: bora2015-vineyard-wine-heavy-metals-romania [promoted] |
 | [6d519cf85](https://github.com/paleofoundation/heavymetalindex/commit/6d519cf85) | 2026-06-06 | ingest: bora2015-vineyard-wine-heavy-metals-romania [fresh] from Manual Fetch Discovery |

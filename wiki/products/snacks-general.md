@@ -99,9 +99,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
 | [4d418d712](https://github.com/paleofoundation/heavymetalindex/commit/4d418d712) | 2026-06-09 | reorg(taxonomy-v2.2): un-retire lipstick -> Cat 13 lip row; re-parent coarse condiments/snacks |
 | [8004f3c80](https://github.com/paleofoundation/heavymetalindex/commit/8004f3c80) | 2026-06-08 | reorg(taxonomy-v2.1): §7 — recognize snacks/mixed-meals as Cat 7 rows 10/12 |
 | [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
 <!-- END: hmi-page-history -->

@@ -193,10 +193,11 @@ Fresh ingest 2026-06-09 from `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [615c00fbc](https://github.com/paleofoundation/heavymetalindex/commit/615c00fbc) | 2026-06-09 | audit: cfs2019-hk-metallic-contamination-guidelines [revised] |
 | [37bb753ac](https://github.com/paleofoundation/heavymetalindex/commit/37bb753ac) | 2026-06-09 | ingest: cfs2019-hk-metallic-contamination-guidelines [fresh] from Manual Fetch Kimi /June 8/_extracted_condiments2_05_Snacks_Canned_Prepared |
 <!-- END: hmi-page-history -->

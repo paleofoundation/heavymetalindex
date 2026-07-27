@@ -117,10 +117,11 @@ NGO commodity-survey study with two paired sampling rounds. Round 1 (2019): 20 d
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [3d9861a6f](https://github.com/paleofoundation/heavymetalindex/commit/3d9861a6f) | 2026-06-09 | audit: toxicslink2021-india-diaper-phthalates [revised] |
 | [342c5c80b](https://github.com/paleofoundation/heavymetalindex/commit/342c5c80b) | 2026-06-09 | ingest: toxicslink2021-india-diaper-phthalates fresh from MFK/June 8 |
 <!-- END: hmi-page-history -->

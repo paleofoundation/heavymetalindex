@@ -179,10 +179,11 @@ Audit subagent (2026-06-08, agent a12b08e73c3132bbc) flagged four findings. (1) 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [12afd4179](https://github.com/paleofoundation/heavymetalindex/commit/12afd4179) | 2026-06-08 | audit: rebellato2023-plant-yogurt-inorganic-contaminants revised |
 | [e6e7a7584](https://github.com/paleofoundation/heavymetalindex/commit/e6e7a7584) | 2026-06-08 | ingest: rebellato2023-plant-yogurt-inorganic-contaminants fresh from Manual Fetch Discovery |

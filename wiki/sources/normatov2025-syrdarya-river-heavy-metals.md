@@ -73,9 +73,10 @@ Text extraction preserved the abstract, methods narrative, Table 3, Table 4, and
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [637cc157c](https://github.com/paleofoundation/heavymetalindex/commit/637cc157c) | 2026-06-10 | recover-ingest 2026-06-10: normatov2025-syrdarya-river-heavy-metals (lane a3, was skip:not-food-occurrence) |
 <!-- END: hmi-page-history -->

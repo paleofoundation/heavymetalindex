@@ -72,5 +72,9 @@ Compound foods that are not a listed category are governed by Article 3 of Regul
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-This page has no committed history yet. Future edits will be recorded here once the change lands in git.
+The most recent substantive edit to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 <!-- END: hmi-page-history -->

@@ -169,10 +169,11 @@ Open-access article published in *African Journal of Health, Safety and Environm
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [c2a4d10a7](https://github.com/paleofoundation/heavymetalindex/commit/c2a4d10a7) | 2026-06-06 | audit: yahaya2022-heavy-metals-energy-drinks-birnin-kebbi revised |
 | [480e7172f](https://github.com/paleofoundation/heavymetalindex/commit/480e7172f) | 2026-06-06 | ingest: yahaya2022-heavy-metals-energy-drinks-birnin-kebbi fresh from Manual Fetch Discovery |

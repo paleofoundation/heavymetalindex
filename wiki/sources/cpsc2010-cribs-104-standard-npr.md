@@ -111,10 +111,11 @@ Third, it documents the CPSC staff position — based on EWS surveillance from N
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [1ec89b27a](https://github.com/paleofoundation/heavymetalindex/commit/1ec89b27a) | 2026-06-09 | audit: cpsc2010-cribs-104-standard-npr revised |
 | [af854f280](https://github.com/paleofoundation/heavymetalindex/commit/af854f280) | 2026-06-09 | ingest: cpsc2010-cribs-104-standard-npr fresh from MFK/June 8/Cribs_Bassinets_Enclosures |
 <!-- END: hmi-page-history -->

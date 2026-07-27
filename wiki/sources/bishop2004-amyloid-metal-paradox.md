@@ -170,10 +170,11 @@ The audit subagent recommended quarantining the page and rewriting Key numbers f
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [f7072bd7c](https://github.com/paleofoundation/heavymetalindex/commit/f7072bd7c) | 2026-06-08 | audit: bishop2004-amyloid-metal-paradox revised |
 | [42af49768](https://github.com/paleofoundation/heavymetalindex/commit/42af49768) | 2026-06-08 | ingest: bishop2004-amyloid-metal-paradox fresh from MFK/June 8 Black Market Peptide Metal Survey |

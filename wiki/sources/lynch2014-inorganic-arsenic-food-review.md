@@ -75,10 +75,11 @@ Comprehensive literature search (PubMed, Scopus, Toxline, Agricola) for studies 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [8bc7757f3](https://github.com/paleofoundation/heavymetalindex/commit/8bc7757f3) | 2026-06-08 | audit: lynch2014-inorganic-arsenic-food-review revised |
 | [78199c239](https://github.com/paleofoundation/heavymetalindex/commit/78199c239) | 2026-06-08 | ingest: lynch2014-inorganic-arsenic-food-review fresh from MFK/June 8 Inorganic Arsenic Seaweed |

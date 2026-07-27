@@ -114,9 +114,10 @@ Numbers were checked against the abstract, Materials and Methods, Tables 1, 2, a
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [f56e59ed3](https://github.com/paleofoundation/heavymetalindex/commit/f56e59ed3) | 2026-06-11 | recover-ingest 2026-06-11: gumilar2022-pome-nickel-molybdenum-ethanol (lane a3, was skip:not-food-occurrence) |
 <!-- END: hmi-page-history -->

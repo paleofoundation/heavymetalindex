@@ -102,10 +102,11 @@ The report's findings do not change the federal regulatory architecture for heav
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [6f7e1b1d9](https://github.com/paleofoundation/heavymetalindex/commit/6f7e1b1d9) | 2026-06-09 | audit: iec2020-cpsc-cribs-rule-review revised |
 | [521e446a9](https://github.com/paleofoundation/heavymetalindex/commit/521e446a9) | 2026-06-09 | ingest: iec2020-cpsc-cribs-rule-review fresh from MFK/June 8/02_Strollers_Walkers_Swings |
 <!-- END: hmi-page-history -->

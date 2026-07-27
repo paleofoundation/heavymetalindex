@@ -162,10 +162,11 @@ Source page newly created 2026-06-09 from MFK_05-unknown (raw file `raw/Manual F
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [a46bb8b96](https://github.com/paleofoundation/heavymetalindex/commit/a46bb8b96) | 2026-06-09 | audit: cooper2016-flame-retardants-puf-consumer-products revised |
 | [1cab269ef](https://github.com/paleofoundation/heavymetalindex/commit/1cab269ef) | 2026-06-09 | ingest: cooper2016-flame-retardants-puf-consumer-products fresh from MFK/June 8 |
 <!-- END: hmi-page-history -->

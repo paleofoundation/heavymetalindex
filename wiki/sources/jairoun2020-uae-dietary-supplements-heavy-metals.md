@@ -80,10 +80,11 @@ ICP-MS (Agilent 7700X) with He collision/reaction cell after CEM MARS-5 microwav
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [04500c164](https://github.com/paleofoundation/heavymetalindex/commit/04500c164) | 2026-06-09 | audit: jairoun2020-uae-dietary-supplements-heavy-metals revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [f1305b761](https://github.com/paleofoundation/heavymetalindex/commit/f1305b761) | 2026-06-08 | ingest: jairoun2020-uae-dietary-supplements-heavy-metals from June 8 (supplement occurrence) |

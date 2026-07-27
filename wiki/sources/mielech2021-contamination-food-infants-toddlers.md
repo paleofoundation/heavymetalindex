@@ -126,10 +126,11 @@ Microbiome: Not applicable — the review does not address microbiome outcomes.
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [1c1372088](https://github.com/paleofoundation/heavymetalindex/commit/1c1372088) | 2026-06-09 | audit: mielech2021-contamination-food-infants-toddlers [revised] |
 | [f4810a105](https://github.com/paleofoundation/heavymetalindex/commit/f4810a105) | 2026-06-09 | ingest: mielech2021-contamination-food-infants-toddlers fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

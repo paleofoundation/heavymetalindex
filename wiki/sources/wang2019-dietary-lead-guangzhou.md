@@ -98,10 +98,11 @@ This source contributes Guangzhou market-food occurrence data for Pb across rice
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [75c0addff](https://github.com/paleofoundation/heavymetalindex/commit/75c0addff) | 2026-06-09 | audit: wang2019-dietary-lead-guangzhou revised per autonomous audit |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [def1a1b97](https://github.com/paleofoundation/heavymetalindex/commit/def1a1b97) | 2026-06-08 | ingest: wang2019-dietary-lead-guangzhou fresh from MFK/June 8 New Folder With Items 3 2 |

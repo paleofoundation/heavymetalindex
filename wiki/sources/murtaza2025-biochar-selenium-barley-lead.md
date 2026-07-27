@@ -96,9 +96,10 @@ The printed BP-BC root-reduction range, 38.40-4.70%, is retained as a source-rep
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [d3b640769](https://github.com/paleofoundation/heavymetalindex/commit/d3b640769) | 2026-06-09 | ingest auto-fetched 2026-06-09: murtaza2025-biochar-selenium-barley-lead |
 <!-- END: hmi-page-history -->

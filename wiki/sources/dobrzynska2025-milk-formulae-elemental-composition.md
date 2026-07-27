@@ -106,10 +106,11 @@ Audit subagent (2026-06-09) flagged `[[ingredients/cow-milk-infant-formula]]` an
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [a8c595f77](https://github.com/paleofoundation/heavymetalindex/commit/a8c595f77) | 2026-06-09 | audit: dobrzynska2025-milk-formulae-elemental-composition revised |
 | [bd323d56b](https://github.com/paleofoundation/heavymetalindex/commit/bd323d56b) | 2026-06-09 | ingest: dobrzynska2025-milk-formulae-elemental-composition fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

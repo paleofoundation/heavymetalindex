@@ -110,10 +110,11 @@ PDF retrieved during the 2026-06-09 multi-database `/discover` autopilot run for
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [4c15d7c8b](https://github.com/paleofoundation/heavymetalindex/commit/4c15d7c8b) | 2026-06-09 | audit: soni2024-additives-contaminants-infant-foods-review revised |
 | [bc390e301](https://github.com/paleofoundation/heavymetalindex/commit/bc390e301) | 2026-06-09 | ingest: soni2024-additives-contaminants-infant-foods-review fresh from MFD/Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

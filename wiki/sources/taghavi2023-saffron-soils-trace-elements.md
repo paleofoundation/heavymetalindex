@@ -76,10 +76,11 @@ The extracted prose contains an apparent typo saying lead concentrations had med
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [780310824](https://github.com/paleofoundation/heavymetalindex/commit/780310824) | 2026-06-10 | audit-revise 2026-06-10: taghavi2023-saffron-soils-trace-elements routing hygiene |
 | [06cda2894](https://github.com/paleofoundation/heavymetalindex/commit/06cda2894) | 2026-06-10 | recover-ingest 2026-06-10: taghavi2023-saffron-soils-trace-elements (lane a3, was skip:not-food-occurrence) |
 <!-- END: hmi-page-history -->

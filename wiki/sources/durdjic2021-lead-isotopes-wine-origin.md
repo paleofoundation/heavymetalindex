@@ -131,10 +131,11 @@ Audit subagent (2026-06-06) flagged a Check 5 ⚠️ in the original Implication
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
 | [dd145bd16](https://github.com/paleofoundation/heavymetalindex/commit/dd145bd16) | 2026-06-06 | audit: durdjic2021-lead-isotopes-wine-origin [revised] |
 | [175eac24a](https://github.com/paleofoundation/heavymetalindex/commit/175eac24a) | 2026-06-06 | ingest: durdjic2021-lead-isotopes-wine-origin [fresh] from Manual Fetch Discovery |

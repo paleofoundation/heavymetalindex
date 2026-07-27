@@ -71,10 +71,11 @@ This source contributes Hong Kong shellfish-organotin context for wild gastropod
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
 | [0e923e9b3](https://github.com/paleofoundation/heavymetalindex/commit/0e923e9b3) | 2026-06-08 | audit: shi2020-rice-grain-cadmium-global-supply-chain revised per autonomous audit |
 | [350dc424b](https://github.com/paleofoundation/heavymetalindex/commit/350dc424b) | 2026-06-08 | ingest: sosnowska2025-phage-display-peptide-copper-chemosensor fresh from MFK/June 8 Black Market Peptide Metal Survey/heavy_metals_peptides |
 <!-- END: hmi-page-history -->
