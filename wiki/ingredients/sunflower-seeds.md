@@ -80,7 +80,7 @@ lower_risk_variants: ["[[ingredients/sunflower-oil]]"]
 higher_risk_variants: ["[[ingredients/sunflower-meal]]", "[[ingredients/sunflower-protein]]", "[[ingredients/whole-seed]]", "[[ingredients/seed-butter]]"]
 used_in_products: ["[[products/snack-mixes]]", "[[products/granola-bars]]", "[[products/seed-butters]]", "[[products/baked-goods]]", "[[products/sunflower-oil]]", "[[products/protein-powder]]", "[[products/vegan-alternative-products]]"]
 audience: [regulator, educator, consumer, app]
-sources: 15
+sources: 16
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -99,7 +99,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D2 Regional coverage | below-tier | 21 jurisdictions, top EU 57% | only 21 distinct jurisdiction(s) |
 | D3 Anthropogenic evidence | GAP | 2 soil; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 3 drivers, 2 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb THIN, Cd CONFIDENT, tHg THIN, Ni THIN | Pb: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: THIN |
+| D5 Pooling depth | THIN | Pb THIN, Cd POOLABLE, tHg THIN, Ni THIN | Pb: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: THIN |
 | D6 Speciation | OK | iAs, tHg, tAs declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | D8 Provenance integrity | OK | 5 claims checked, 5 supported; 1 citations, 0 orphan, 0 foreign | — |
@@ -159,6 +159,14 @@ _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_prof
 - [[regulations/codex-cadmium-mls]] — Codex matrix-level Cd ML for oilseeds (pending ingest of CXS 193-1995).
 - [[regulations/eu-2023-915-cadmium]] — EU Cd maximum level for linseeds and sunflower seeds is 0.50 mg/kg (500 ug/kg); oilseeds generally are 0.10 mg/kg (100 ug/kg), with separate rows for rape seed, peanuts/soybeans, mustard seed, and poppy seed.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2009). *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*. The EFSA Journal. [https://doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980). Government report, A-tier. [[sources/efsa-cadmium-contam-2009|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -183,15 +191,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [f907793bb](https://github.com/paleofoundation/heavymetalindex/commit/f907793bb) | 2026-05-17 | minor | Narrative text revised |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -2,8 +2,8 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { resolveRelative, type SimpleSlug, type FullSlug } from "../util/path"
 import style from "./styles/leftNavUtilities.scss"
 
-// Curated icon utility links in the left rail — the Examine "Database / Research
-// Feed / References" group. Fixed, always-valid site-level destinations, distinct
+// Curated icon utility links in the left rail — the evidence-database, research-feed
+// and references group. Fixed, always-valid site-level destinations, distinct
 // from the per-page section nav above and the cross-reference counts below.
 const NAV: { to: string; label: string; d: string }[] = [
   { to: "coverage", label: "Evidence database", d: "M3 3v18h18 M19 9l-5 5-4-4-3 3" },

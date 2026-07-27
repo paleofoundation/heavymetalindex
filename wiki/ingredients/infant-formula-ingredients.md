@@ -20,7 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/soy]]"]
 used_in_products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]"]
 audience: [regulator, educator, consumer, app]
-sources: 15
+sources: 18
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -39,13 +39,13 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D2 Regional coverage | OK | 12 jurisdictions, top EU 31% | — |
 | D3 Anthropogenic evidence | GAP | 3 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 6 drivers, 3 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, iAs THIN, tHg CONFIDENT, Ni THIN, Al THIN, tAs CONFIDENT, Cr THIN, Sn THIN | iAs: needs 1 distinct source(s); Ni: needs 1 distinct source(s); Al: needs a sample-level-backed source; Cr: needs 1 more study(ies); Sn: needs 1 distinct source(s) |
+| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, iAs THIN, tHg CONFIDENT, Ni THIN, Al THIN, tAs CONFIDENT, Cr THIN, Sn THIN | iAs: needs 1 distinct source(s); Ni: needs a sample-level-backed source; Al: needs a sample-level-backed source; Cr: needs 1 more study(ies); Sn: needs 1 distinct source(s) |
 | D6 Speciation | OK | iAs, tHg, tAs declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U |
 | D8 Provenance integrity | GAP | 0 claims checked, 0 supported; 7 citations, 0 orphan, 5 foreign | 5 foreign citation(s) not naming infant-formula-ingredients: chuchu2013-aluminium-in-infant-formulas, dabeka2011-canada-infant-formula-lead-cadmium-aluminum, astolfi2021-italy-powdered-infant-formula-elements |
 | D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 1 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn; pairing 8 paired, 1 single, 0 unpaired | iAs: THIN, needs 1 distinct source(s); Ni: THIN, needs 1 distinct source(s); Al: THIN, needs a sample-level-backed source; Cr: THIN, needs 1 more study(ies); Sn: THIN, needs 1 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn; pairing 8 paired, 1 single, 0 unpaired | iAs: THIN, needs 1 distinct source(s); Ni: THIN, needs a sample-level-backed source; Al: THIN, needs a sample-level-backed source; Cr: THIN, needs 1 more study(ies); Sn: THIN, needs 1 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
 | **Principle balance** | **OK** | consumer-protection 0.50, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | — |
 
 <!-- /hmi-completeness-scorecard -->
@@ -79,6 +79,20 @@ Infant formula ingredient variance is documented in the corpus at the finished-f
 - **Processing-water and packaging** are documented Al pathways (Burrell 2010, ATSDR 2008).
 
 See [[ingredients/infant-formula-powder]] and [[ingredients/infant-formula-rtf-liquid]] for the format-specific synthesis combining these ingredient inputs.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 7 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Shelle-Ann M. Burrell and Christopher Exley (2010). *There is (still) too much aluminium in infant formulas*. BMC Pediatrics. [https://doi.org/10.1186/1471-2431-10-63](https://doi.org/10.1186/1471-2431-10-63). Peer-reviewed, A-tier. [[sources/burrell2010-aluminium-in-infant-formulas|Source record]]
+2. Nancy Chuchu, Bhavini Patel, Blaise Sebastian, and Christopher Exley (2013). *The aluminium content of infant formulas remains too high*. BMC Pediatrics. [https://doi.org/10.1186/1471-2431-13-162](https://doi.org/10.1186/1471-2431-13-162). Peer-reviewed, A-tier. [[sources/chuchu2013-aluminium-in-infant-formulas|Source record]]
+3. Robert Dabeka, Andre Fouquet, Stephane Belisle, and Stephane Turcotte (2011). *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*. Food Additives & Contaminants: Part A. [https://doi.org/10.1080/19393210.2011.571795](https://doi.org/10.1080/19393210.2011.571795). Peer-reviewed, A-tier. [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum|Source record]]
+4. Maria Luisa Astolfi, Daniela Marotta, Vittoria Cammalleri, Elisabetta Marconi, Arianna Antonucci, Pasquale Avino, et al. (2021). *Determination of 40 Elements in Powdered Infant Formulas and Related Risk Assessment*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph18105073](https://doi.org/10.3390/ijerph18105073). Peer-reviewed, A-tier. [[sources/astolfi2021-italy-powdered-infant-formula-elements|Source record]]
+5. Tasneem G. Kazi, Nusrat Jalbani, Jameel A. Baig, Hassan I. Afridi, Ghulam A. Kandhro, Mohammad B. Arain, et al. (2009). *Determination of toxic elements in infant formulae by using electrothermal atomic absorption spectrometer*. Food and Chemical Toxicology. [https://doi.org/10.1016/j.fct.2009.03.025](https://doi.org/10.1016/j.fct.2009.03.025). Peer-reviewed, A-tier. [[sources/kazi2009-toxic-elements-in-infant-formulae|Source record]]
+6. Jackson BP, Taylor VF, Karagas MR, Punshon T, and Cottingham KL (2012). *Arsenic, Organic Foods, and Brown Rice Syrup*. Environmental Health Perspectives. [https://doi.org/10.1289/ehp.1104619](https://doi.org/10.1289/ehp.1104619). Peer-reviewed, A-tier. [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Source record]]
+7. Codex Alimentarius Commission (1995). *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*. Codex Alimentarius (Joint FAO/WHO Food Standards Programme). [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf). Government report, A-tier. [[sources/codex-cxs-193-1995|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -141,15 +155,15 @@ The downstream derivatives are the various finished formula formats (powder, RTF
 The applicable regulatory framework is the finished-formula framework at [[ingredients/infant-formula-powder]] and [[ingredients/infant-formula-rtf-liquid]]: [[regulations/eu-2023-915|EU Reg. 2023/915]] binding MLs for Pb, Cd, iAs, Hg in infant formula; FDA Closer to Zero action levels; [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] international Codex framework; California Prop 65 MADL serving-based screen for California-sold formulas. Ingredient-level supplier specifications align with finished-formula MLs through per-input testing programs.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [30f27cb5c](https://github.com/paleofoundation/heavymetalindex/commit/30f27cb5c) | 2026-05-17 | major | 2 sources added; narrative text revised |
+| [f907793bb](https://github.com/paleofoundation/heavymetalindex/commit/f907793bb) | 2026-05-17 | minor | Narrative text revised |
+| [e3c860eb5](https://github.com/paleofoundation/heavymetalindex/commit/e3c860eb5) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

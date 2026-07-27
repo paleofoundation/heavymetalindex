@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 13
+sources: 19
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -51,7 +51,22 @@ The applicable regulatory jurisdictions for this row are: **FDA, USDA (meat/poul
 ## Literature Evidence Summary
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-*Pending ingest. The routing layer will surface direct-row-fit sources here as they are added to the corpus with `products: [game-meats]` in source-page frontmatter.*
+## Literature Evidence Summary
+
+<!-- audience: regulator, educator, consumer, app -->
+
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Game meats (venison, bison, rabbit). Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
+
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | Game meats (venison, bison, rabbit) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Game meats (venison, bison, rabbit) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/mercury-total\|tHg]] | Game meats (venison, bison, rabbit) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/aluminum\|Al]] | Game meats (venison, bison, rabbit) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/nickel\|Ni]] | Game meats (venison, bison, rabbit) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/chromium\|Cr]] | Game meats (venison, bison, rabbit) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -122,15 +137,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [88594dab3](https://github.com/paleofoundation/heavymetalindex/commit/88594dab3) | 2026-05-17 | major | 1 section added |
+| [1e684a825](https://github.com/paleofoundation/heavymetalindex/commit/1e684a825) | 2026-05-17 | minor | Narrative text revised |
+| [815efe885](https://github.com/paleofoundation/heavymetalindex/commit/815efe885) | 2026-05-17 | major | 1 section added |
+| [03afe1a61](https://github.com/paleofoundation/heavymetalindex/commit/03afe1a61) | 2026-05-17 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

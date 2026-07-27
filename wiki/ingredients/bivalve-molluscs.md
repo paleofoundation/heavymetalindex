@@ -80,7 +80,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/wild-harvested-near-estuaries]]", "[[ingredients/older-specimens]]"]
 used_in_products: ["[[products/clam-chowder]]", "[[products/frozen-shellfish-mixes]]", "[[products/prepared-seafood]]", "[[products/shellfish-sauces]]", "[[products/seafood-supplements]]"]
 audience: [regulator, educator, consumer, app]
-sources: 63
+sources: 64
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -104,7 +104,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | D8 Provenance integrity | OK | 12 claims checked, 12 supported; 1 citations, 0 orphan, 0 foreign | — |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | Mitigation options section empty/missing |
-| D10 Regulatory coverage | OK | 4 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr |
+| D10 Regulatory coverage | OK | 4 rule link(s), 7 metal(s) covered | unmapped analytes: Cr |
 | D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Cr, tAs; pairing 0 paired, 7 single, 0 unpaired | iAs: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.63, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
@@ -159,6 +159,14 @@ _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_prof
 - [[regulations/codex-cadmium-mls]] — Codex matrix-level Cd ML for bivalve molluscs (pending ingest of CXS 193-1995); historically one of the higher matrix-specific values in CXS 193, reflecting the biological reality of filter-feeder bioaccumulation.
 - [[regulations/eu-2023-915-cadmium]] and [[regulations/eu2023-contaminants-maximum-levels]] — EU maximum levels for bivalve molluscs are 1.0 mg/kg (1000 ug/kg) Cd and 1.50 mg/kg (1500 ug/kg) Pb; the general EU mercury maximum level for crustaceans, molluscs, and non-listed fish is 0.50 mg/kg (500 ug/kg). For Pecten maximus, the Cd/Pb rows apply to adductor muscle and gonad only.
 - [[regulations/oehha-cadmium-prop65]] — OEHHA Prop 65 MADL of 4.1 µg/day oral applies to consumer products sold in California; frequent bivalve mollusc consumption can trigger the Prop 65 warning threshold.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2009). *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*. The EFSA Journal. [https://doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980). Government report, A-tier. [[sources/efsa-cadmium-contam-2009|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -233,15 +241,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [f907793bb](https://github.com/paleofoundation/heavymetalindex/commit/f907793bb) | 2026-05-17 | minor | Narrative text revised |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; 1 section added; narrative text revised |
+| [5757c0098](https://github.com/paleofoundation/heavymetalindex/commit/5757c0098) | 2026-05-13 | major | 1 source removed; narrative text revised |
 <!-- END: hmi-page-history -->

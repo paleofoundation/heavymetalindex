@@ -20,7 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/organ-meats]]"]
 used_in_products: ["[[products/meat-and-poultry-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]"]
 audience: [regulator, educator, consumer, app]
-sources: 95
+sources: 112
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -72,6 +72,14 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 ## Ranges by source, region, and variety
 
 _Pending meat- and poultry-specific occurrence extraction._
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Rachida Chekri, Emilie Le Calvez, Julie Zinck, Jean-Charles Leblanc, Veronique Sirot, Marion Hulin, et al. (2019). *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*. Journal of Food Composition and Analysis. [https://doi.org/10.1016/j.jfca.2019.02.002](https://doi.org/10.1016/j.jfca.2019.02.002). Peer-reviewed, A-tier. [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -159,15 +167,15 @@ Pet-food and animal-feed derivatives of meat and poultry have their own regulato
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to meat and poultry sold in California; serving-based screen governs.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [9fffd044b](https://github.com/paleofoundation/heavymetalindex/commit/9fffd044b) | 2026-05-17 | minor | Narrative text revised |
+| [f907793bb](https://github.com/paleofoundation/heavymetalindex/commit/f907793bb) | 2026-05-17 | minor | Narrative text revised |
+| [e3c860eb5](https://github.com/paleofoundation/heavymetalindex/commit/e3c860eb5) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

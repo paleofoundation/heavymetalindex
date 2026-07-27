@@ -50,7 +50,7 @@ This page is HMTc Category 5 row 6. It is no longer a pure scaffold: the row has
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>
@@ -132,6 +132,15 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/cadmium\|Cd]] | soy-based (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Milani RF, Mauri AA, Sanches VL, Morgano MA, and Cadore S (2023). *Trace Elements in Soy-Based Beverages: A Comprehensive Study of Total Content and In Vitro Bioaccessibility*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph20064986](https://doi.org/10.3390/ijerph20064986). Peer-reviewed, A-tier. [[sources/milani2023-trace-elements-soy-based-beverages|Source record]]
+2. Marques M, Correig E, Capdevila E, Gargallo E, Gonzalez N, Nadal M, et al. (2021). *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-021-03021-5](https://doi.org/10.1007/s12011-021-03021-5). Peer-reviewed, A-tier. [[sources/marques2021-trace-elements-milks-plant-based-drinks|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -191,15 +200,15 @@ No public recalls or enforcement actions specifically targeting heavy metals in 
 _Frame: if FDA, EU, or national-agency enforcement actions involving heavy metals in this product category are identified in future ingest, they will appear here as regulatory events. This section does not rank brands._
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [4e2cdd0cc](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0cc) | 2026-05-17 | minor | Narrative text revised |
+| [ed8e81cd1](https://github.com/paleofoundation/heavymetalindex/commit/ed8e81cd1) | 2026-05-14 | minor | Narrative text revised |
+| [559970934](https://github.com/paleofoundation/heavymetalindex/commit/559970934) | 2026-05-13 | minor | Narrative text revised |
+| [e422f3449](https://github.com/paleofoundation/heavymetalindex/commit/e422f3449) | 2026-05-13 | major | 7 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

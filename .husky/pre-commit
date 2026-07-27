@@ -46,8 +46,11 @@ if git diff --cached --name-only | grep -q '^wiki/sources/'; then
   # at commit time instead of at the next build's prebuild audit. A source
   # page passes if doi has a non-null value, OR no_doi_assigned: true is set
   # (declared no-DOI venue), OR source_type is textbook-chapter.
+  #
+  # wiki/sources/index.md is the corpus catalog, not a source record — it has no
+  # document to carry a DOI, and it is regenerated like any other page.
   doi_bad=0
-  for f in $(git diff --cached --name-only --diff-filter=AM | grep '^wiki/sources/.*\.md$'); do
+  for f in $(git diff --cached --name-only --diff-filter=AM | grep '^wiki/sources/.*\.md$' | grep -v '^wiki/sources/index\.md$'); do
     head -40 "$f" > /tmp/.husky-fm.$$
     doi_line=$(grep -E '^doi:' /tmp/.husky-fm.$$ | head -1 | sed -E 's/^doi:[[:space:]]*//;s/^"//;s/"$//')
     no_doi_assigned=$(grep -cE '^no_doi_assigned:[[:space:]]*true' /tmp/.husky-fm.$$ || true)

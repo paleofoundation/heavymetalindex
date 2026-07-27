@@ -83,7 +83,7 @@ used_in_products: ["[[products/spice-blends]]", "[[products/herbal-botanical-inf
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 7
+sources: 16
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
@@ -180,6 +180,21 @@ Packaging is not the dominant pathway for dried herbs. Standard food-grade glass
 
 The Codex Alimentarius General Standard CXS 193-1995 does not set a dried-herbs-specific maximum. The EU Regulation 2023/915 applies a 1.5 mg/kg Pb maximum for "dried herbs and spices" (a slightly different category than the broader "spices" maximum) and 0.5 mg/kg Cd for the same category. The NYS Department of Health 2019 Technical Support Document derived health-based guidance values (Pb 0.21, Cd 0.21, Cr 0.41, iAs 0.10 mg/kg) that apply to dried herbs as well as spices ([[sources/nys-doh2019-metals-spices-guidance]]). FDA has issued occasional import alerts and enforcement actions on dried-herb product but does not maintain a category-specific action level.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Angelon-Gaetz KA, Klaus C, Chaudhry EA, and Bean DK (2018). *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018*. MMWR Morbidity and Mortality Weekly Report. [https://doi.org/10.15585/mmwr.mm6746a2](https://doi.org/10.15585/mmwr.mm6746a2). Government report, A-tier. [[sources/angelon-gaetz2018-lead-spices-north-carolina|Source record]]
+2. Chime CI, Eze M, Ndukwe IE, Abah EI, Chinyere OND-R, and Anene CS (2025). *Assessment of toxic trace metal contamination in food spices sold in Nigerian markets*. World Journal of Advanced Research and Reviews. [https://doi.org/10.30574/wjarr.2025.27.2.3032](https://doi.org/10.30574/wjarr.2025.27.2.3032). Peer-reviewed, B-tier. [[sources/chime2025-nigerian-spices-as-cd-pb|Source record]]
+3. Cicero N, Gervasi T, Durazzo A, Lucarini M, Macrì A, Nava V, et al. (2022). *Mineral and Microbiological Analysis of Spices and Aromatic Herbs*. Foods. [https://doi.org/10.3390/foods11040548](https://doi.org/10.3390/foods11040548). Peer-reviewed, A-tier. [[sources/cicero2022-minerals-spices-aromatic-herbs|Source record]]
+4. Fischer A and Brodziak-Dopierała B (2022). *The Mercury Concentration in Spice Plants*. Processes. [https://doi.org/10.3390/pr10101954](https://doi.org/10.3390/pr10101954). Peer-reviewed, A-tier. [[sources/fischer2022-mercury-spice-plants-poland|Source record]]
+5. Huff A, Lam H, Ghimirey A, Goldring J, Pimentel M, and Okatch H (2025). *Heavy metals in spices from Lancaster, PA: arsenic, cadmium, and lead exposure risks and the need for regulation*. Environmental Monitoring and Assessment. [https://doi.org/10.1007/s10661-025-14064-9](https://doi.org/10.1007/s10661-025-14064-9). Peer-reviewed, A-tier. [[sources/huff2025-spices-lancaster-pa|Source record]]
+6. Kowalska G (2021). *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph18115779](https://doi.org/10.3390/ijerph18115779). Peer-reviewed, A-tier. [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland|Source record]]
+7. LHAAC (2025). *Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices*. Local Health Authorities Analytical Committee, Edith Cowan University. Government report, A-tier. [[sources/lhaac2025-csp41-herbs-spices-wa|Source record]]
+8. Bureau of Toxic Substance Assessment, Center for Environmental Health, and New York State Department of Health (2019). *Technical Support Document for Derivation of Health-Based Guidance Values for Metals in Spices*. New York State Department of Health. Government report, A-tier. [[sources/nys-doh2019-metals-spices-guidance|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -206,15 +221,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
+| [e33207531](https://github.com/paleofoundation/heavymetalindex/commit/e33207531) | 2026-05-16 | major | 8 sources added; contamination-profile values revised; 12 sections added |
 <!-- END: hmi-page-history -->

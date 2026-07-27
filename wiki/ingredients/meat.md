@@ -83,7 +83,7 @@ used_in_products: [mixed-meals-non-rice, mixed-meals-rice-containing]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 55
+sources: 66
 ---
 
 # Meat and poultry
@@ -105,7 +105,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | D8 Provenance integrity | GAP | 21 claims checked, 21 supported; 5 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming meat: fsa2016-infant-food-formula-metals-survey, fda-tds-elements-2018-2020 |
 | D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr |
+| D10 Regulatory coverage | OK | 2 rule link(s), 7 metal(s) covered | unmapped analytes: Al, Cr |
 | D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | iAs: POOLABLE; tHg: POOLABLE; Ni: POOLABLE; Al: POOLABLE; Cr: POOLABLE; Sn: POOLABLE; tAs: POOLABLE; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.50 | spread 1.00 — starved: brand-value |
 
@@ -187,6 +187,18 @@ For canned meat products, lacquer-lined interior surfaces are the primary packag
 
 European Union Regulation (EU) 2023/915 (amending and consolidating prior contaminant regulations) sets maximum levels for Pb at 0.10 mg/kg and Cd at 0.050 mg/kg in fresh meat (muscle tissue from cattle, sheep, pigs, and poultry) on a wet weight basis. Organ meats carry substantially higher Cd limits (kidney of cattle, sheep, pigs: 1.0 mg/kg; liver: 0.50 mg/kg), reflecting biological accumulation in those tissues. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) [[sources/codex-cxs-193-1995]] sets Pb and Cd limits for meat consistent with EU levels for most muscle-tissue categories. In the United States, FDA finalized action levels under the Closer to Zero initiative for processed food intended for babies and young children [[sources/fda-ctz-Pb-babyfood-2025]]: 10 ppb Pb applies to single-ingredient meats in processed baby and toddler foods. No US federal maximum level for Pb or Cd currently applies to conventional retail meat products outside the infant food context. See [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/codex-cadmium-mls]] for applicable regulatory reference pages.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
+2. U.S. Food and Drug Administration (2022). *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*. U.S. Food and Drug Administration, Total Diet Study Program. [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results). Government report, A-tier. [[sources/fda-tds-elements-2018-2020|Source record]]
+3. Wysok B, Wojtacka J, and Szczotka-Bochniarz A (2025). *Heavy Metal Contamination in Natural Sheep Casings*. Foods. [https://doi.org/10.3390/foods14091502](https://doi.org/10.3390/foods14091502). Peer-reviewed, A-tier. [[sources/wysok2025-heavy-metals-sheep-casings|Source record]]
+4. U.S. Food and Drug Administration (2025). *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*. U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children). Government guidance, A-tier. [[sources/fda-ctz-Pb-babyfood-2025|Source record]]
+5. Codex Alimentarius Commission (1995). *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*. Codex Alimentarius (Joint FAO/WHO Food Standards Programme). [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf). Government report, A-tier. [[sources/codex-cxs-193-1995|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -262,15 +274,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
+| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | Contamination-profile values revised |
 <!-- END: hmi-page-history -->

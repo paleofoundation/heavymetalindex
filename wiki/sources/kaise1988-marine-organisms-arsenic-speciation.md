@@ -6,7 +6,7 @@ title: "Distribution of inorganic arsenic and methylated arsenic in marine organ
 authors: [Kaise T, Hanaoka K, Tagawa S, Hirayama T, Fukui S]
 year: 1988
 publication: "Applied Organometallic Chemistry"
-doi: null
+doi: "10.1002/aoc.590020607"
 source_type: peer-reviewed
 evidence_tier: B
 license: unknown
@@ -78,11 +78,12 @@ This paper provides historical primary speciation evidence showing why seafood a
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no narrower species-level ingredient slugs exist for the named marine organisms, so broad seafood, fish, shellfish, and seaweed routing is used.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [ae14441](https://github.com/paleofoundation/heavymetalindex/commit/ae14441) | 2026-06-08 | ingest: kaise1988-marine-organisms-arsenic-speciation fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [ae1444148](https://github.com/paleofoundation/heavymetalindex/commit/ae1444148) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

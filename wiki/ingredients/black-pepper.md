@@ -24,7 +24,7 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-06-11
 last_full_resynthesis: 2026-06-11
-sources: 12
+sources: 13
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -47,7 +47,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni POOLABLE, Al THIN, Cr THIN, Sn THIN | tAs: THIN; tHg: needs 1 more study(ies); Al: THIN; Cr: THIN; Sn: needs 2 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
 | D7 Basis declaration | GAP | 8/10 populated cells declare a basis token | 2 populated cell(s) lack a basis token: iAs, U |
-| D8 Provenance integrity | OK | 4 claims checked, 4 supported; 8 citations, 0 orphan, 0 foreign | — |
+| D8 Provenance integrity | OK | 22 claims checked, 22 supported; 8 citations, 0 orphan, 0 foreign | — |
 | D9 Mitigation | GAP | 0 cited lever(s), 4 mitigation/ link(s) | section present but no source-cited lever |
 | D10 Regulatory coverage | OK | 3 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, tAs, tHg, Ni, Al, Cr, Sn |
 | D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr, Sn; pairing 0 paired, 8 single, 0 unpaired | tAs: THIN; tHg: THIN, needs 1 more study(ies); Al: THIN; Cr: THIN; Sn: THIN, needs 2 more study(ies); basis: 2 populated cell(s) lack a basis token: iAs, U; consumption tier unset (depth bar uncheckable) |
@@ -73,6 +73,21 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cr | n=3 | 800–2300 | low | [[sources/sabri2025-moroccan-spices-casablanca-metals\|1]], [[sources/matloob2016-iraq-spices-heavy-metals\|2]], [[sources/tinggi2025-spices-herbs-queensland\|3]] |
 | Sn | n=1 | up to 1200 | low | [[sources/cicero2022-minerals-spices-aromatic-herbs\|1]] |
 | U | data gap | — | — | — |
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Sabri S, Sabri C, Salam MR, El Mellouli F, Lafram A, Khallouki H, et al. (2025). *Essential and Toxic Element Profiles in Selected Spices from Greater Casablanca, Morocco*. World's Veterinary Journal 15(4): 863-881. [https://doi.org/10.54203/scil.2025.wvj88](https://doi.org/10.54203/scil.2025.wvj88). Peer-reviewed, B-tier. [[sources/sabri2025-moroccan-spices-casablanca-metals|Source record]]
+2. Tinggi U, Farrell M, Porter J, Mitchell S, and Jurd S (2025). *Heavy metal analysis in commercial spices and herbs by inductively coupled plasma mass spectrometry (ICP-MS) and estimated dietary exposure*. Journal of Environmental Exposure Assessment. [https://doi.org/10.20517/jeea.2025.10](https://doi.org/10.20517/jeea.2025.10). Peer-reviewed, A-tier. [[sources/tinggi2025-spices-herbs-queensland|Source record]]
+3. Ammar HR, Saleh SM, Sivasankaran S, Albadri AEAE, and Al-Mufadi FA (2023). *Investigation of Element Migration from Aluminum Cooking Pots Using ICP-MS*. Applied Sciences (MDPI). [https://doi.org/10.3390/app132413119](https://doi.org/10.3390/app132413119). Peer-reviewed, B-tier. [[sources/ammar2023-element-migration-aluminum-cookware|Source record]]
+4. Cicero N, Gervasi T, Durazzo A, Lucarini M, Macrì A, Nava V, et al. (2022). *Mineral and Microbiological Analysis of Spices and Aromatic Herbs*. Foods. [https://doi.org/10.3390/foods11040548](https://doi.org/10.3390/foods11040548). Peer-reviewed, A-tier. [[sources/cicero2022-minerals-spices-aromatic-herbs|Source record]]
+5. Mercan Yucel U (2022). *Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals*. Balikesir Health Sciences Journal. [https://doi.org/10.53424/balikesirsbd.1160866](https://doi.org/10.53424/balikesirsbd.1160866). Peer-reviewed, A-tier. [[sources/mercan-yucel2022-van-spices-heavy-metals|Source record]]
+6. Savić S, Petrović S, Petronijević M, Cvetanović A, and Petronijević Ž (2019). *Determination of the mineral content of spices by ICP-OES*. Advanced Technologies. [https://doi.org/10.5937/savteh1901027s](https://doi.org/10.5937/savteh1901027s). Peer-reviewed, A-tier. [[sources/savic2019-serbian-spices-minerals|Source record]]
+7. Matloob MH (2016). *Using Stripping Voltammetry to Determine Heavy Metals in Cooking Spices Used in Iraq*. Polish Journal of Environmental Studies. [https://doi.org/10.15244/pjoes/62401](https://doi.org/10.15244/pjoes/62401). Peer-reviewed, A-tier. [[sources/matloob2016-iraq-spices-heavy-metals|Source record]]
+8. Ziyaina M, Rajab A, Alkhweldi K, Algami W, Al-Toumi O, and Rasco B (2014). *Lead and cadmium residue determination in spices available in Tripoli City markets (Libya)*. African Journal of Biochemistry Research. [https://doi.org/10.5897/AJBR2014.0766](https://doi.org/10.5897/AJBR2014.0766). Peer-reviewed, A-tier. [[sources/ziyaina2014-libya-spices-lead-cadmium|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -154,15 +169,15 @@ The numbered citations above correspond to the contributing sources below; each 
 [^ziyaina2014]: Ziyaina et al. 2014. *Lead and cadmium residue determination in spices available in Tripoli City markets (Libya)*. African Journal of Biochemistry Research. [[sources/ziyaina2014-libya-spices-lead-cadmium|source page]].
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3c19d3ce9](https://github.com/paleofoundation/heavymetalindex/commit/3c19d3ce9) | 2026-06-14 | minor | Narrative text revised |
+| [0ba9ef588](https://github.com/paleofoundation/heavymetalindex/commit/0ba9ef588) | 2026-06-11 | major | 6 sources added; 1 section added; narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [eddfdfbab](https://github.com/paleofoundation/heavymetalindex/commit/eddfdfbab) | 2026-05-17 | major | 2 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

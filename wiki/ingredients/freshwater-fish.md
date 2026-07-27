@@ -83,7 +83,7 @@ used_in_products: ["[[products/fish-containing-baby-foods]]"]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 73
+sources: 77
 ---
 
 # Freshwater Fish
@@ -148,6 +148,15 @@ Direct evidence for freshwater fish lands here; the broader fish category fans o
 ## Contamination Profile State
 
 All ten contamination_profile sub-blocks are `pending`. tHg and MeHg are the central concerns for this commodity; Pb and Cd are secondary; iAs is generally low in freshwater fish but elevated in some mining-impacted watersheds. Synthesis values will populate as contributing source pages are integrated per Part 9.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H (2025). *Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2424001122](https://doi.org/10.1073/pnas.2424001122). Peer-reviewed, A-tier. [[sources/wu2025-climate-meghan-freshwater-fish-china|Source record]]
+2. Codex Alimentarius Commission (1995). *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*. Codex Alimentarius (Joint FAO/WHO Food Standards Programme). [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf). Government report, A-tier. [[sources/codex-cxs-193-1995|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -287,15 +296,15 @@ Freshwater fish flour and freshwater-fish protein concentrate (less common in hu
 - California Prop 65 ([[regulations/california-prop65]]) Hg MADL applies to freshwater fish sold in California.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fa83f930d](https://github.com/paleofoundation/heavymetalindex/commit/fa83f930d) | 2026-05-17 | major | 2 sources added; narrative text revised |
+| [e3c860eb5](https://github.com/paleofoundation/heavymetalindex/commit/e3c860eb5) | 2026-05-17 | major | 6 sections added; narrative text revised |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

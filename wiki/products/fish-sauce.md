@@ -15,7 +15,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: none
-sources: 0
+sources: 2
 wiki_doi: null
 updated: 2026-06-09
 ---
@@ -42,3 +42,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 2 | [[sources/rodriguez2009-fish-sauce-arsenic-speciation\|Rodriguez et al. 2009]]. *Arsenic speciation in fish sauce samples determined by HPLC coupled to inductively coupled plasma mass spectrometry*, Food Chemistry | 2009 | Peer-reviewed | AT/TH/VN tAs, iAs occurrence in Six commercial fish sauces — four brands from Thailand and two from Vietnam — purchased at local stores... (n=6) |
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [08c8f8330](https://github.com/paleofoundation/heavymetalindex/commit/08c8f8330) | 2026-06-09 | major | 2 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

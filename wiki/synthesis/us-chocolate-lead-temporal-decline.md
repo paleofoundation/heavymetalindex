@@ -87,19 +87,28 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Eileen Abt, Jennifer Fong Sam, Patrick Gray, and Lauren Posnick Robin (2018). *Cadmium and Lead in Cocoa Powder and Chocolate Products in the U.S. Market*. Food Additives & Contaminants: Part B Surveillance. [https://doi.org/10.1080/19393210.2017.1420700](https://doi.org/10.1080/19393210.2017.1420700). Peer-reviewed, A-tier. [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Source record]]
+2. Hands JM, Anderson ML, Cooperman T, Balsky JE, and Frame LA (2024). *A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA*. Frontiers in Nutrition. [https://doi.org/10.3389/fnut.2024.1366231](https://doi.org/10.3389/fnut.2024.1366231). Peer-reviewed, A-tier. [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa|Source record]]
+3. Zhao D, Wang P, and Zhao FJ (2024). *Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies*. Current Opinion in Environmental Science & Health. [https://doi.org/10.1007/s42247-024-00934-6](https://doi.org/10.1007/s42247-024-00934-6). Peer-reviewed, A-tier. [[sources/zhao2024-toxic-metals-metalloids-food-review|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
+| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [9469b2835](https://github.com/paleofoundation/heavymetalindex/commit/9469b2835) | 2026-05-13 | major | 3 sources added; 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

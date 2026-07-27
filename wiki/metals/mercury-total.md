@@ -33,6 +33,14 @@ Product interpretation still requires methylmercury caution: total mercury is th
 
 Analytical definition, relationship to methylmercury across matrices (linked to [ingredients](/ingredients) and [products](/products)), regulatory limits where total mercury is the measurement instrument of record (linked to [regulations](/regulations)), testing methods (linked to [testing](/testing)), and sources.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Ufelle AC and Barchowsky A (2021). *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*. Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education. [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827). Textbook chapter, A-tier. [[sources/ufelle2021-metals-chapter|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -640,7 +648,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 598 | [[sources/dabeka2003-canadian-total-diet-mercury\|Dabeka et al. 2003]]. *Survey of total mercury in total diet food composites and an estimation of the dietary intake of mercury by adults and children from two Canadian cities, 1998-2000*, Food Additives & Contaminants | 2003 | Peer-reviewed | CA tHg occurrence in Total mercury in 259 total-diet food composites prepared from retail foods purchased in Whitehorse in January-February 1998 and... (n=259) |
 | 599 | [[sources/almela2002-algae-food-arsenic-metals\|Almela et al. 2002]]. *Heavy Metal, Total Arsenic, and Inorganic Arsenic Contents of Algae Food Products*, Journal of Agricultural and Food Chemistry | 2002 | Peer-reviewed | ES tAs, iAs, Pb, Cd, tHg occurrence in Eighteen processed edible-algae food products on retail sale in Valencia, Spain: 12 brown-algae products (wakame from Undaria pinnatifida,... (n=18) |
 | 600 | [[sources/cobbett2002-phytochelatins-metallothioneins-review\|Cobbett et al. 2002]]. *Phytochelatins and Metallothioneins: Roles in Heavy Metal Detoxification and Homeostasis*, Annual Review of Plant Biology | 2002 | Peer-reviewed | Cd, iAs, tHg, Pb, Cu, Zn, Ni occurrence in Narrative review of the phytochelatin and metallothionein literature; primary focus on Arabidopsis thaliana, Schizosaccharomyces pombe, and other plant... |
-| 601 | [[sources/oehha2000-appendix-f-dermal-uptake-soil\|California Office of Environmental 2000]]. *Appendix F - Dermal Uptake of Chemicals from Soil (Technical Support Document for Exposure Assessment and Stochastic Analysis)*, Cal/EPA OEHHA Air Toxics Hot Spots Program - Technical Support Document for Exposure Assessment and Stochastic Analysis | 2000 | Government report | US tAs, Cd, Pb, tHg, Ni, Cr-VI, Be occurrence in Regulatory guidance; per-chemical dermal absorption fraction (ABS) point estimates derived from review of in-vivo and in-vitro percutaneous-absorption studies... |
+| 601 | [[sources/oehha2000-appendix-f-dermal-uptake-soil\|OEHHA 2000]]. *Appendix F - Dermal Uptake of Chemicals from Soil (Technical Support Document for Exposure Assessment and Stochastic Analysis)*, Cal/EPA OEHHA Air Toxics Hot Spots Program - Technical Support Document for Exposure Assessment and Stochastic Analysis | 2000 | Government report | US tAs, Cd, Pb, tHg, Ni, Cr-VI, Be occurrence in Regulatory guidance; per-chemical dermal absorption fraction (ABS) point estimates derived from review of in-vivo and in-vitro percutaneous-absorption studies... |
 | 602 | [[sources/zhou2000-china-vegetable-heavy-metals-review\|Zhou et al. 2000]]. *Heavy Metal Contamination in Vegetables and Their Control in China*, Food Reviews International | 2000 | Peer-reviewed | CN Pb, Cd, tHg, tAs, Cr, Ni, Cu, Zn occurrence in Secondary review of previously published Chinese city surveys of vegetables and some grains. Tables 2-11 reproduce values from... |
 | 603 | [[sources/epa1999-mercury-update-fish-advisories\|EPA 1999]]. *Mercury Update: Impact on Fish Advisories*, US EPA Fact Sheet EPA-823-F-99-016 | 1999 | Government report | US tHg, MeHg occurrence in 1,931 state-issued fish-consumption advisories in 40 states as of December 1998; cited fish-tissue mercury data drawn from EPA... (n=1931) |
 | 604 | [[sources/voegborlo1999-libya-canned-tuna-metals\|Voegborlo et al. 1999]]. *Mercury, cadmium and lead content of canned tuna fish*, Food Chemistry | 1999 | Peer-reviewed | LY tHg, Cd, Pb occurrence in Fifty 5 kg cans of tuna fish from the Tuna Canning Factory in Misurata, Libya; tuna were caught... (n=50) |
@@ -654,15 +662,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [5757c0098](https://github.com/paleofoundation/heavymetalindex/commit/5757c0098) | 2026-05-13 | major | 2 sources removed; narrative text revised |
+| [66751b45d](https://github.com/paleofoundation/heavymetalindex/commit/66751b45d) | 2026-05-02 | major | 1 source added; contamination-profile values revised; 1 section added |
+| [3d34b33a9](https://github.com/paleofoundation/heavymetalindex/commit/3d34b33a9) | 2026-04-30 | major | 1 source added; 1 section added; narrative text revised |
+| [22991a6f5](https://github.com/paleofoundation/heavymetalindex/commit/22991a6f5) | 2026-04-29 | major | Contamination-profile values revised; 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

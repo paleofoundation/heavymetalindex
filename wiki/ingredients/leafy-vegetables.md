@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-15
-sources: 94
+sources: 102
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 14
@@ -180,6 +180,22 @@ Packaging is not the primary metal-load pathway for fresh leafy vegetables; stor
 
 The Codex Alimentarius General Standard (CXS 193-1995) applies the general leafy-vegetable Pb maximum of 0.30 mg/kg fresh weight and the general Cd maximum of 0.20 mg/kg fresh weight to most leafy species, with spinach-specific Cd at 0.20 mg/kg under the broader leafy umbrella in some interpretations. The EU Regulation 2023/915 applies tighter limits than Codex: 0.30 mg/kg Pb for leafy vegetables and fresh herbs, 0.20 mg/kg Cd for leafy vegetables and stems excluding celery and salsify. The FDA Closer to Zero program addresses leafy-vegetable contamination indirectly through the infant and toddler food coverage but does not set fresh-vegetable action levels. The probabilistic risk modeling in the Behbahan study found cumulative-dietary-intake exposure metrics above thresholds of concern under reasonable-worst-case consumption assumptions ([[sources/armand2026-lettuce-cabbage-behbahan]]), supporting the case for tighter retail-level enforcement of the existing Codex and EU caps.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 9 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Kim BF, Lupolt SN, Santo RE, Bachman G, Zhu X, Yang T, et al. (2024). *Nutrients and non-essential metals in darkibor kale grown at urban and rural farms: a pilot study*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0296840](https://doi.org/10.1371/journal.pone.0296840). Peer-reviewed, A-tier. [[sources/kim2024-metals-kale-urban-rural-maryland|Source record]]
+2. Adhikari S and Struwig M (2024). *Concentrations and health risks of selected elements in leafy vegetables: a comparison between roadside open-air markets and large stores in Johannesburg, South Africa*. [https://doi.org/10.1007/s10661-023-12343-4](https://doi.org/10.1007/s10661-023-12343-4). Peer-reviewed, A-tier. [[sources/adhikari2024-leafy-vegetables-johannesburg|Source record]]
+3. Ahmed M, Matsumoto M, Ozaki A, Van Thinh N, and Kurosawa K (2019). *Heavy Metal Contamination of Irrigation Water, Soil, and Vegetables and the Difference between Dry and Wet Seasons Near a Multi-Industry Zone in Bangladesh*. Water. [https://doi.org/10.3390/w11030583](https://doi.org/10.3390/w11030583). Peer-reviewed, A-tier. [[sources/ahmed2019-irrigation-water-bangladesh-seasonal|Source record]]
+4. Chiutula C, Mtewa AG, Abraham A, Mvula RLS, Maluwa A, Eregno FE, et al. (2025). *Assessment of Heavy Metal Accumulation in Wastewater–Receiving Soil–Exotic and Indigenous Vegetable Systems and Its Potential Health Risks: A Case Study from Blantyre, Malawi*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph22111614](https://doi.org/10.3390/ijerph22111614). Peer-reviewed, A-tier. [[sources/chiutula2025-wastewater-vegetables-malawi|Source record]]
+5. Armand R, Rafati L, Mohammadi H, and Armand N (2026). *Probabilistic carcinogenic and health risk assessment of heavy metals in lettuce and cabbage from Behbahan, Iran, using Monte Carlo simulation*. Scientific Reports. [https://doi.org/10.1038/s41598-026-40958-w](https://doi.org/10.1038/s41598-026-40958-w). Peer-reviewed, A-tier. [[sources/armand2026-lettuce-cabbage-behbahan|Source record]]
+6. Centre for Food Safety FEHD HKSAR (2012). *The First Hong Kong Total Diet Study: Inorganic Arsenic*. Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. [www.cfs.gov.hk](https://www.cfs.gov.hk/english/programme/programme_rdss/programme_rdss_tds_report.html). Government report, A-tier. [[sources/cfs2012-hktds-inorganic-arsenic|Source record]]
+7. Centre for Food Safety (Hong Kong) (2013). *The First Hong Kong Total Diet Study: Metallic Contaminants*. Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. [www.cfs.gov.hk](https://www.cfs.gov.hk/english/programme/programme_firm/programme_firm_tds.html). Government report, A-tier. [[sources/cfs2013-hktds-metallic-contaminants|Source record]]
+8. Bora FD, Bunea A, Pop SR, Banita SI, Dusa DS, Chira A, et al. (2022). *Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania*. Horticulturae. [https://doi.org/10.3390/horticulturae8111034](https://doi.org/10.3390/horticulturae8111034). Peer-reviewed, A-tier. [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Source record]]
+9. Guo Y, Zhao X, Zhang J, Yang H, Chu G, Zhang C, et al. (2024). *Effects of wollastonite and phosphate treatments on cadmium bioaccessibility and health risk in pak choi (Brassica rapa ssp. chinensis) grown in contaminated soil*. Frontiers in Nutrition. [https://doi.org/10.3389/fnut.2024.1337996](https://doi.org/10.3389/fnut.2024.1337996). Peer-reviewed, A-tier. [[sources/guo2024-cadmium-bioaccessibility-pak-choi|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -256,15 +272,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
+| [05e7cf472](https://github.com/paleofoundation/heavymetalindex/commit/05e7cf472) | 2026-05-15 | major | 9 sources added; contamination-profile values revised; 12 sections added |
+| [46695aaec](https://github.com/paleofoundation/heavymetalindex/commit/46695aaec) | 2026-05-14 | major | 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

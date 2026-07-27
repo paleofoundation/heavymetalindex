@@ -17,7 +17,7 @@ primary_metals_of_concern: [Pb, Cd]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 12
+sources: 13
 wiki_doi: null
 updated: 2026-06-08
 ---
@@ -33,6 +33,14 @@ updated: 2026-06-08
 ## Literature scope
 
 The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Nelson K (2023). *Cadmium and Other Metals in Children's Jewelry 2018, Follow-up Study*. Washington State Department of Ecology, Environmental Assessment Program, Publication 23-03-004 (January 2023). [apps.ecology.wa.gov](https://apps.ecology.wa.gov/publications/SummaryPages/2303004.html). Regulatory, A-tier. [[sources/nelson2023-wa-childrens-jewelry-followup|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -57,15 +65,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c794d6b50](https://github.com/paleofoundation/heavymetalindex/commit/c794d6b50) | 2026-06-08 | minor | Narrative text revised |
+| [8cae8bf6e](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf6e) | 2026-06-01 | major | 1 section added; narrative text revised |
+| [7224c0117](https://github.com/paleofoundation/heavymetalindex/commit/7224c0117) | 2026-06-01 | major | 1 source added; 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

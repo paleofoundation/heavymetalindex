@@ -9,7 +9,7 @@ import pageHistoryTimeline from "./scripts/pageHistoryTimeline.inline"
 // styles it identically to hmi-real-content. Renders the inner content only;
 // renderPage wraps it in <aside class="snav">.
 //
-// Metal pages additionally get a fixed IA (Examine-style): the orientation
+// Metal pages additionally get a fixed IA: the orientation
 // sections are grouped under one expandable "Overview", and the critical layers
 // "Vulnerable populations", "Open questions" and "Frequently asked questions"
 // are promoted to their own top-level headers. This is imposed at render time

@@ -15,7 +15,7 @@
 // In the left rail the TOC is the primary per-page navigation, so it gets a
 // little more vertical room and a contained, independently-scrollable list
 // rather than competing with the right-rail height-sharing flex behavior.
-// Examine-style section accordion: top-level sections shown, their sub-sections
+// Section accordion: top-level sections shown, their sub-sections
 // nested and hidden, revealed for the active section via :has(.in-view). Short
 // and curated — no scroll.
 .toc.toc-left {

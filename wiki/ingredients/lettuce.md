@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 26
+sources: 27
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 9
@@ -103,7 +103,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D2 Regional coverage | OK | 18 jurisdictions, top IR 17% | — |
 | D3 Anthropogenic evidence | GAP | 3 soil + 2 agricultural-soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 5 drivers, 5 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, tAs POOLABLE, tHg THIN, Ni POOLABLE, Al THIN, Cr POOLABLE | tHg: needs 1 more study(ies); Al: needs 2 more study(ies) |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg THIN, Ni POOLABLE, Al THIN, Cr POOLABLE | tHg: needs 1 more study(ies); Al: needs 2 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
 | D8 Provenance integrity | OK | 5 claims checked, 5 supported; 7 citations, 0 orphan, 0 foreign | — |
@@ -180,6 +180,20 @@ Standard food-grade packaging does not contribute to the lettuce metal load. For
 
 The Codex Alimentarius General Standard CXS 193-1995 applies the leafy-vegetable Pb maximum of 0.30 mg/kg fresh weight and the Cd maximum of 0.20 mg/kg fresh weight to lettuce. The EU Regulation 2023/915 sets the same Pb maximum of 0.30 mg/kg fresh weight for leafy vegetables and fresh herbs (lettuce included) and Cd at 0.20 mg/kg fresh weight for leafy vegetables excluding celery and salsify. The FDA does not set a fresh-lettuce-specific action level. The Behbahan probabilistic risk modeling found cumulative-intake exposure metrics above thresholds of concern under reasonable-worst-case consumption assumptions ([[sources/armand2026-lettuce-cabbage-behbahan]]), and the Andalusian urban-garden data similarly found cumulative exposure considerations for the urban-garden consumption pattern.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 7 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Adhikari S and Struwig M (2024). *Concentrations and health risks of selected elements in leafy vegetables: a comparison between roadside open-air markets and large stores in Johannesburg, South Africa*. [https://doi.org/10.1007/s10661-023-12343-4](https://doi.org/10.1007/s10661-023-12343-4). Peer-reviewed, A-tier. [[sources/adhikari2024-leafy-vegetables-johannesburg|Source record]]
+2. Owusu Adoma M, Nyarko G, Boateng A, and Darko G (2024). *Assessment of Heavy Metal Contamination in Lettuce and Spring Onion Cultivated at Anthropogenic Activity Sites in the Kumasi Metropolis, Ghana*. Environmental Health Insights. [https://doi.org/10.1177/11786302241285737](https://doi.org/10.1177/11786302241285737). Peer-reviewed, A-tier. [[sources/owusuadoma2024-ghana-lettuce-metals|Source record]]
+3. Rossini-Oliva S and López Nuñez R (2024). *Is it healthy urban agriculture? Human exposure to potentially toxic elements in urban gardens from Andalusia, Spain*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-024-33500-w](https://doi.org/10.1007/s11356-024-33500-w). Peer-reviewed, A-tier. [[sources/rossini-oliva2024-urban-garden-vegetables-spain|Source record]]
+4. Sandil S, Záray G, Endrédi A, Füzy A, Takács T, Óvári M, et al. (2023). *Arsenic uptake and accumulation in bean and lettuce plants at different developmental stages*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-023-30615-w](https://doi.org/10.1007/s11356-023-30615-w). Peer-reviewed, A-tier. [[sources/sandil2023-arsenic-bean-lettuce|Source record]]
+5. Armand R, Rafati L, Mohammadi H, and Armand N (2026). *Probabilistic carcinogenic and health risk assessment of heavy metals in lettuce and cabbage from Behbahan, Iran, using Monte Carlo simulation*. Scientific Reports. [https://doi.org/10.1038/s41598-026-40958-w](https://doi.org/10.1038/s41598-026-40958-w). Peer-reviewed, A-tier. [[sources/armand2026-lettuce-cabbage-behbahan|Source record]]
+6. Clair-Caliot G, Marks SJ, Hug SJ, Bretzler A, N'guessan ND, Tihe SFK, et al. (2021). *Uptake of Arsenic by Irrigated Vegetables and Cooked Food Products in Burkina Faso*. Frontiers in Water. [https://doi.org/10.3389/frwa.2021.667308](https://doi.org/10.3389/frwa.2021.667308). Peer-reviewed, A-tier. [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina|Source record]]
+7. Schaefer HR, Dennis S, and Fitzpatrick S (2020). *Cadmium: Mitigation strategies to reduce dietary exposure*. Journal of Food Science. [https://doi.org/10.1111/1750-3841.14997](https://doi.org/10.1111/1750-3841.14997). Review, A-tier. [[sources/schaefer2020-cadmium-mitigation-strategies|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -217,15 +231,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
+| [b7d5142c8](https://github.com/paleofoundation/heavymetalindex/commit/b7d5142c8) | 2026-05-16 | major | 7 sources added; contamination-profile values revised; 12 sections added |
 <!-- END: hmi-page-history -->

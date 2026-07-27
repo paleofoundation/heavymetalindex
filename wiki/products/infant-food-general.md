@@ -11,7 +11,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 12
+sources: 18
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -95,15 +95,15 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 No enforcement or recall synthesis has been promoted for this broad infant-food page. The current source compares intake to reference-dose and tolerable-weekly-intake benchmarks, but it is not a recall dataset and does not identify a finished-product violation. Future enforcement summaries should be assigned to locked rows once product form and jurisdiction are clear.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [ce3e07c7b](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c7b) | 2026-05-28 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [475eaa6a7](https://github.com/paleofoundation/heavymetalindex/commit/475eaa6a7) | 2026-05-25 | major | 1 source removed; narrative text revised |
+| [6bdb30f81](https://github.com/paleofoundation/heavymetalindex/commit/6bdb30f81) | 2026-05-25 | major | 1 source added; narrative text revised |
+| [0a783b055](https://github.com/paleofoundation/heavymetalindex/commit/0a783b055) | 2026-05-18 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

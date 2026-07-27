@@ -80,7 +80,7 @@ lower_risk_variants: ["[[ingredients/salmon]]", "[[ingredients/sardines]]", "[[i
 higher_risk_variants: ["[[ingredients/swordfish]]", "[[ingredients/shark]]", "[[ingredients/king-mackerel]]", "[[ingredients/tilefish]]", "[[ingredients/bigeye-tuna]]", "[[ingredients/marlin]]", "[[ingredients/orange-roughy]]"]
 used_in_products: ["[[products/fresh-fish]]", "[[products/frozen-fish]]", "[[products/canned-tuna]]", "[[products/canned-salmon]]", "[[products/canned-sardines]]", "[[products/fish-oil-supplements]]", "[[products/prepared-seafood]]", "[[products/surimi]]", "[[products/fish-sauce]]"]
 audience: [regulator, educator, consumer, app]
-sources: 295
+sources: 309
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -104,7 +104,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | D8 Provenance integrity | GAP | 14 claims checked, 14 supported; 4 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming fish: collado-lopez2025-heavy-metals-baby-food-formula |
 | D9 Mitigation | GAP | 0 cited lever(s), 3 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 4 rule link(s), 7 metal(s) covered | unmapped analytes: Ni, Al, Cr |
+| D10 Regulatory coverage | OK | 4 rule link(s), 8 metal(s) covered | unmapped analytes: Al, Cr |
 | D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | Pb: THIN, needs 2 distinct source(s); Cd: THIN, needs a sample-level-backed source; iAs: THIN, needs 2 distinct source(s); tHg: THIN, needs a sample-level-backed source; Al: THIN, needs 2 distinct source(s); Sn: THIN, needs 2 distinct source(s); tAs: THIN, needs 2 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
@@ -148,6 +148,17 @@ Collado-Lopez et al. 2025 reports fish/fish-mix baby foods as a priority review-
 - [[regulations/efsa-methylmercury-twi]] — EFSA tolerable weekly intake of 1.3 µg methylmercury/kg b.w./week.
 - [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]] — FDA/EPA joint advice for women who might become pregnant, women who are pregnant or breastfeeding, and young children.
 - [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/eu-2023-915-cadmium]] — EU fish maximum levels are species- and tissue-specific. General muscle meat of fish is 0.30 mg/kg (300 ug/kg) Pb, 0.050 mg/kg (50 ug/kg) Cd, and 0.50 mg/kg (500 ug/kg) Hg; listed lower-mercury fish are 0.30 mg/kg (300 ug/kg) Hg, and listed higher-mercury fish including tuna, shark, swordfish, marlin, halibut, pike, and sturgeon are 1.0 mg/kg (1000 ug/kg) Hg.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration and U.S. Environmental Protection Agency (2017). *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*. U.S. FDA and U.S. EPA. [www.fda.gov](https://www.fda.gov/food/consumers/advice-about-eating-fish). Government report, A-tier. [[sources/fda-epa-fish-consumption-advice|Source record]]
+2. Joint FAO/WHO Expert Committee on Food Additives (2004). *Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA*. WHO Technical Report Series 922. [https://doi.org/10.1016/s0168-1605(03)00167-3](https://doi.org/10.1016/s0168-1605(03)00167-3). Government report, A-tier. [[sources/jecfa-61st-methylmercury|Source record]]
+3. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2009). *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*. The EFSA Journal. [https://doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980). Government report, A-tier. [[sources/efsa-cadmium-contam-2009|Source record]]
+4. Sonia Collado-Lopez, Maria Fernanda Rodriguez Hernandez, Rosa Maria Mariscal-Moreno, Martha Maria Tellez-Rojo, Larissa Betanzos-Robledo, Moises Reyes Luna, et al. (2025). *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*. Nutrition Reviews. [https://doi.org/10.1093/nutrit/nuaf138](https://doi.org/10.1093/nutrit/nuaf138). Peer-reviewed, A-tier. [[sources/collado-lopez2025-heavy-metals-baby-food-formula|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -437,15 +448,15 @@ For fish, mitigation operates almost entirely at the sourcing and consumption-pa
 **Packaging and storage levers** are not consequential for methylmercury in fish; the metal is bound to muscle protein and does not migrate to packaging materials in a way that affects finished-product Hg load. Canned fish carries the standard tinplate-migration Sn consideration ([[mitigation/packaging-and-storage]]).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [5e066237f](https://github.com/paleofoundation/heavymetalindex/commit/5e066237f) | 2026-05-17 | major | 1 source added; narrative text revised |
+| [f907793bb](https://github.com/paleofoundation/heavymetalindex/commit/f907793bb) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

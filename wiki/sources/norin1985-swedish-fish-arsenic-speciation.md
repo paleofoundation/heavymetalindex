@@ -6,7 +6,7 @@ title: "Concentration of inorganic and total arsenic in fish from industrially p
 authors: [Norin H, Vahter M, Christakopoulos A, Sandstrom M]
 year: 1985
 publication: "Chemosphere"
-doi: null
+doi: "10.1016/0045-6535(85)90060-8"
 source_type: peer-reviewed
 evidence_tier: B
 license: unknown
@@ -74,11 +74,12 @@ This source supplies direct fish occurrence evidence and a clear speciation warn
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; species-level fish slugs for fourhorn sculpin, burbot, Baltic herring, pike, perch, and roach are not present.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [ad52d12](https://github.com/paleofoundation/heavymetalindex/commit/ad52d12) | 2026-06-08 | ingest: norin1985-swedish-fish-arsenic-speciation fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [ad52d12bf](https://github.com/paleofoundation/heavymetalindex/commit/ad52d12bf) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

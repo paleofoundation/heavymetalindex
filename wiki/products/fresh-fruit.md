@@ -10,7 +10,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-14
-sources: 52
+sources: 59
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -77,6 +77,17 @@ The percentile arithmetic that informs HMTc thresholds lives in `data/workbench/
 ## Historical recalls and enforcement
 
 No row-specific public recall or enforcement synthesis has been promoted for Fresh Fruit in this pass. Regulatory references on this page should be read as context unless a source ties an event to this exact product scope and analyte. Future enforcement prose should remain event-framed and should not convert source mentions into brand rankings.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Ye S, Chen J, Zhang R, Wu P, Zhao D, Pan X, et al. (2026). *Occurrence of Tin in Foods and Dietary Exposure Assessment in Zhejiang Province, China*. Foods. [https://doi.org/10.3390/foods15060982](https://doi.org/10.3390/foods15060982). Peer-reviewed, A-tier. [[sources/ye2026-tin-foods-dietary-exposure-zhejiang|Source record]]
+2. Anastario M, Watkins D, Specht AJ, Zilch A, Armendáriz Arnez C, and Roper C (2025). *Metal profiling of Hass avocados: a cross-sectional study using ICP-MS and pXRF*. BMC Research Notes. [https://doi.org/10.1186/s13104-025-07430-w](https://doi.org/10.1186/s13104-025-07430-w). Peer-reviewed, A-tier. [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf|Source record]]
+3. Elbagory M, Abd El-Aziz MA, Omara AED, Abou Fayssal S, and Kumar V (2025). *Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin*. Horticulturae. [https://doi.org/10.3390/horticulturae11020216](https://doi.org/10.3390/horticulturae11020216). Peer-reviewed, A-tier. [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna|Source record]]
+4. Islam MH, Nowar A, Islam S, Nayan MM, and Jubayer A (2024). *A Systematic Review on Heavy Metals Contamination in Bangladeshi Fruits and Their Associated Health Risks*. Environmental Health Insights. [https://doi.org/10.1177/11786302241309280](https://doi.org/10.1177/11786302241309280). Review, B-tier. [[sources/islam2024-heavy-metals-bangladeshi-fruits-review|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -145,15 +156,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [84221f94e](https://github.com/paleofoundation/heavymetalindex/commit/84221f94e) | 2026-05-25 | major | 4 sources added; narrative text revised |
+| [0b917c57b](https://github.com/paleofoundation/heavymetalindex/commit/0b917c57b) | 2026-05-17 | minor | Narrative text revised |
+| [177b212d6](https://github.com/paleofoundation/heavymetalindex/commit/177b212d6) | 2026-05-16 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

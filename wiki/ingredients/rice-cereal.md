@@ -83,7 +83,7 @@ used_in_products: [baby-cereals-dry-rice-based]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 15
+sources: 16
 ---
 
 # Rice Cereal
@@ -100,7 +100,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D2 Regional coverage | OK | 6 jurisdictions, top US 60% | — |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, iAs CONFIDENT, tHg POOLABLE, Sn THIN, tAs CONFIDENT | Sn: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, iAs POOLABLE, tHg POOLABLE, Sn THIN, tAs POOLABLE | Sn: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tHg, tAs declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | D8 Provenance integrity | GAP | 12 claims checked, 12 supported; 9 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming rice-cereal: signes-pastor2018-infants-dietary-arsenic-solid-food, meli2024-chemical-characterization-baby-food-italy |
@@ -138,6 +138,22 @@ This node is linked from [[products/baby-cereals-dry-rice-based]].
 ## Contamination Profile State
 
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 9 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Sadiq NW and Beauchemin D (2021). *Multi-elemental risk assessment of various baby rice cereals: some cause for concern?*. Canadian Journal of Chemistry. [https://doi.org/10.1139/cjc-2020-0518](https://doi.org/10.1139/cjc-2020-0518). Peer-reviewed, A-tier. [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation|Source record]]
+2. U.S. Food and Drug Administration (2020). *Inorganic Arsenic in Rice Cereals for Infants: Action Level; Guidance for Industry*. U.S. Food and Drug Administration, Federal Register Notice (Docket FDA-2016-D-1099). [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-rice-cereals-infants). Government report, A-tier. [[sources/fda-iAs-rice-cereal-2020|Source record]]
+3. Signes-Pastor AJ, Cottingham KL, Carey M, Sayarath V, Palys T, Meharg AA, et al. (2018). *Infants' dietary arsenic exposure during transition to solid food*. Scientific Reports 8(1):7114. [https://doi.org/10.1038/s41598-018-25372-1](https://doi.org/10.1038/s41598-018-25372-1). Peer-reviewed, A-tier. [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food|Source record]]
+4. U.S. Food and Drug Administration (2025). *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*. U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children). Government guidance, A-tier. [[sources/fda-ctz-Pb-babyfood-2025|Source record]]
+5. Price SA, Maddaloni MA, Finley BL, Thornton SA, and Unice KM (2023). *Extending Regulatory Biokinetic Lead Models towards Food Safety: Evaluation of Consumer Baby Food Contribution to Infant Blood Lead Levels and Variability*. Foods 12:2732. [https://doi.org/10.3390/foods12142732](https://doi.org/10.3390/foods12142732). Peer-reviewed, A-tier. [[sources/price2023-biokinetic-lead-baby-food-blls|Source record]]
+6. Signes-Pastor AJ, Carey M, and Meharg AA (2016). *Inorganic arsenic in rice-based products for infants and young children*. Food Chemistry 191:128-134. [https://doi.org/10.1016/j.foodchem.2014.11.078](https://doi.org/10.1016/j.foodchem.2014.11.078). Peer-reviewed, A-tier. [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|Source record]]
+7. Meli MA, Desideri D, Sisti D, Fagiolino I, and Roselli C (2024). *Chemical characterization of baby food consumed in Italy*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0297158](https://doi.org/10.1371/journal.pone.0297158). Peer-reviewed, A-tier. [[sources/meli2024-chemical-characterization-baby-food-italy|Source record]]
+8. Chiger A and Lynch MT (2017). *Effects of Inorganic Arsenic in Infant Rice Cereal on Children's Neurodevelopment*. Abt Associates report prepared for Healthy Babies Bright Futures. [www.healthybabyfood.org](https://www.healthybabyfood.org/sites/healthybabyfoods.org/files/2017-12/HBBF_InorganicArsenicReport_Dec2017.pdf). Agency report, B-tier. [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf|Source record]]
+9. Codex Alimentarius Commission (1995). *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*. Codex Alimentarius (Joint FAO/WHO Food Standards Programme). [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf). Government report, A-tier. [[sources/codex-cxs-193-1995|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -206,15 +222,15 @@ Rice cereal derivatives span the format spectrum from dry instant cereal (most c
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant food yields stringent serving-based screening.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fcd020390](https://github.com/paleofoundation/heavymetalindex/commit/fcd020390) | 2026-05-17 | major | 9 sources added; narrative text revised |
+| [e3c860eb5](https://github.com/paleofoundation/heavymetalindex/commit/e3c860eb5) | 2026-05-17 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -17,7 +17,7 @@ review_state: phase3
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-15
-sources: 11
+sources: 15
 ---
 
 # Herbal/Botanical Infusions
@@ -33,7 +33,7 @@ This page is HMTc Category 5 row 10 from the locked beverage architecture. It ex
   <dl>
     <div>
       <dt>Brand legal and regulatory affairs</dt>
-      <dd>Cherry-pick attack vectors on herbal and botanical infusions typically center on lead and cadmium from the underlying plant species, with wide variance by species and growing region. The contamination profile is species-specific to a degree not seen in commodity crops: some species accumulate metals at concentrations that can exceed regulatory limits even in uncontaminated agricultural settings. Sourcing transparency and species-level testing are the defensive core. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+      <dd>Cherry-pick attack vectors on herbal and botanical infusions typically center on lead and cadmium from the underlying plant species, with wide variance by species and growing region. Sourcing transparency is the defensive core. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
     </div>
     <div>
       <dt>Retailer quality and compliance</dt>
@@ -41,7 +41,7 @@ This page is HMTc Category 5 row 10 from the locked beverage architecture. It ex
     </div>
     <div>
       <dt>Brand QA and product development</dt>
-      <dd>Use the <a href="/certification/lab-result-comparator?category=herbal-botanical-infusions">Lab Result Comparator</a> to position a single lab value inside the cited literature for herbal and botanical infusions.</dd>
+      <dd>Use the <a href="/certification/lab-result-comparator?category=herbal-botanical-infusions">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for herbal and botanical infusions.</dd>
     </div>
     <div>
       <dt>Regulators, journalists, and adversarial readers</dt>
@@ -49,7 +49,7 @@ This page is HMTc Category 5 row 10 from the locked beverage architecture. It ex
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>
@@ -182,15 +182,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [4e2cdd0cc](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0cc) | 2026-05-17 | minor | Narrative text revised |
+| [eb8c466c4](https://github.com/paleofoundation/heavymetalindex/commit/eb8c466c4) | 2026-05-15 | minor | Narrative text revised |
+| [36e86d6d0](https://github.com/paleofoundation/heavymetalindex/commit/36e86d6d0) | 2026-05-15 | major | 2 sources added; 7 sections added; narrative text revised |
+| [524828b5d](https://github.com/paleofoundation/heavymetalindex/commit/524828b5d) | 2026-05-15 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

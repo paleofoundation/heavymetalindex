@@ -6,7 +6,7 @@ name: Methylmercury
 species: [CH3Hg+]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: medium
-sources: 44
+sources: 56
 wiki_doi: null
 updated: 2026-04-30
 
@@ -130,6 +130,37 @@ Several MeHg-toxicology and -exposure questions remain active research areas whe
 - **Selenium-MeHg quantitative risk modulation.** The Ralston Se HBV framework is mechanistically supported but not yet quantitatively integrated into regulatory thresholds. Whether the Se:Hg molar ratio can be operationalized into a validated quantitative adjustment of MeHg risk, rather than remaining an explanatory factor for differential cohort sensitivity, is an open question.
 - **Microbiome-mediated MeHg modulation.** [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Coe et al. 2023]] documents gnotobiotic-mouse evidence that gut microbiota influence MeHg demethylation; human translation is incomplete.
 - **PUFA-MeHg risk-benefit quantification.** Net risk-benefit modeling is methodologically complex and current frameworks (FDA-EPA Best/Good/Avoid tiers, EFSA recommendations) treat species-level guidance as the operational summary.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 24 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Ufelle AC and Barchowsky A (2021). *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*. Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education. [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827). Textbook chapter, A-tier. [[sources/ufelle2021-metals-chapter|Source record]]
+2. Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H (2025). *Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2424001122](https://doi.org/10.1073/pnas.2424001122). Peer-reviewed, A-tier. [[sources/wu2025-climate-meghan-freshwater-fish-china|Source record]]
+3. Seelen E, Liem-Nguyen V, Wünsch U, Baumann Z, Mason R, Skyllberg U, et al. (2023). *Dissolved organic matter thiol concentrations determine methylmercury bioavailability across the terrestrial-marine aquatic continuum*. Nature Communications. [https://doi.org/10.1038/s41467-023-42463-4](https://doi.org/10.1038/s41467-023-42463-4). Peer-reviewed, A-tier. [[sources/seelen2023-methylmercury-dom-thiol|Source record]]
+4. Zhou XQ, Chen KH, Yu RQ, Yang M, Liu Q, Hao YY, et al. (2025). *Microbial potential to mitigate neurotoxic methylmercury accumulation in farmlands and rice*. Nature Communications. [https://doi.org/10.1038/s41467-025-60458-1](https://doi.org/10.1038/s41467-025-60458-1). Peer-reviewed, A-tier. [[sources/zhou2025-microbial-methylmercury-rice-china|Source record]]
+5. Cui Y, Wu Q, Liu K, Wang S, Wang X, Jiang T, et al. (2022). *Source apportionment of speciated mercury in Chinese rice grain using a high-resolution model*. ACS Environmental Au. [https://doi.org/10.1021/acsenvironau.1c00061](https://doi.org/10.1021/acsenvironau.1c00061). Peer-reviewed, A-tier. [[sources/cui2022-mercury-speciation-rice-china|Source record]]
+6. Sonke JE, Angot H, Zhang Y, Poulain A, Björn E, and Schartup A (2023). *Global change effects on biogeochemical mercury cycling*. Ambio. [https://doi.org/10.1007/s13280-023-01855-y](https://doi.org/10.1007/s13280-023-01855-y). Peer-reviewed, A-tier. [[sources/sonke2023-mercury-global-change|Source record]]
+7. Dietz R, Søndergaard J, Rigét FF, Bach L, Basu N, Fort J, et al. (2025). *Stable isotopes unveil ocean transport of legacy mercury into Arctic food webs*. Nature Communications. [https://doi.org/10.1038/s41467-025-59785-5](https://doi.org/10.1038/s41467-025-59785-5). Peer-reviewed, A-tier. [[sources/dietz2025-arctic-mercury-isotopes-greenland|Source record]]
+8. Hall LA, Woo I, Marvin-DiPasquale M, Takekawa JY, Krabbenhoft DP, Yee D, et al. (2023). *Linking Mesoscale Spatial Variation in Methylmercury Production to Bioaccumulation in Tidal Marsh Food Webs*. Environmental Science & Technology. [https://doi.org/10.1021/acs.est.3c04907](https://doi.org/10.1021/acs.est.3c04907). Peer-reviewed, A-tier. [[sources/hall2023-methylmercury-tidal-marsh|Source record]]
+9. Li ML, Thackray CP, Lam VWY, Cheung WWL, and Sunderland EM (2024). *Global fishing patterns amplify human exposures to methylmercury*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2405898121](https://doi.org/10.1073/pnas.2405898121). Peer-reviewed, A-tier. [[sources/li2024-global-fisheries-mehg|Source record]]
+10. Ralston NVC, Ralston CR, and Raymond LJ (2014). *Selenium Health Benefit Values: Updated Criteria for Mercury Risk Assessments*. Archives of Environmental Contamination and Toxicology. [https://doi.org/10.1007/s12011-015-0516-z](https://doi.org/10.1007/s12011-015-0516-z). Peer-reviewed, A-tier. [[sources/ralston2014-selenium-hbv-methylmercury-seafood|Source record]]
+11. Chamorro S, Cassani L, Barros-Velázquez J, Gallardo JM, and Aubourg SP (2024). *Atlantic bluefin tuna (Thunnus thynnus): health benefits, contaminants and risk-benefit analysis for human consumption*. Food Reviews International. [https://doi.org/10.3389/fnut.2024.1340121](https://doi.org/10.3389/fnut.2024.1340121). Peer-reviewed, A-tier. [[sources/chamorro2024-bluefin-tuna-mercury-review|Source record]]
+12. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2012). *Scientific Opinion on the Risk for Public Health Related to the Presence of Mercury and Methylmercury in Food*. EFSA Journal 2012;10(12):2985. [https://doi.org/10.2903/j.efsa.2012.2985](https://doi.org/10.2903/j.efsa.2012.2985). Government report, A-tier. [[sources/efsa-mercury-methylmercury-2012|Source record]]
+13. Joint FAO/WHO Expert Committee on Food Additives (2004). *Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA*. WHO Technical Report Series 922. [https://doi.org/10.1016/s0168-1605(03)00167-3](https://doi.org/10.1016/s0168-1605(03)00167-3). Government report, A-tier. [[sources/jecfa-61st-methylmercury|Source record]]
+14. U.S. Environmental Protection Agency (2001). *Methylmercury (MeHg) — IRIS Chemical Assessment Summary*. U.S. Environmental Protection Agency, Integrated Risk Information System. [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=73). Government report, A-tier. [[sources/epa-iris-methylmercury|Source record]]
+15. Vejrup K, Brantsaeter AL, Knutsen HK, Alexander J, Biele G, Haugen M, et al. (2022). *Prenatal methylmercury exposure from fish intake and child emotional and behavioural problems: results from the Norwegian Mother, Father and Child Cohort Study*. BMJ Nutrition, Prevention and Health. [https://doi.org/10.1136/bmjnph-2021-000412](https://doi.org/10.1136/bmjnph-2021-000412). Peer-reviewed, A-tier. [[sources/vejrup2022-prenatal-mehg-fish-behavior|Source record]]
+16. McSorley EM, Bonham MP, Mulhern MS, Revuelta Iniesta R, van Wijngaarden E, Yeates AJ, et al. (2020). *Methylmercury and long chain polyunsaturated fatty acids are associated with immune dysregulation in young adults from the Seychelles child development study*. Environmental Research. [https://doi.org/10.1016/j.envres.2020.109072](https://doi.org/10.1016/j.envres.2020.109072). Peer-reviewed, A-tier. [[sources/mcsorley2020-seychelles-mehg-immunity|Source record]]
+17. Cegolon L, Petranich E, Pavoni E, Floreani F, Barago N, Papassissa E, et al. (2022). *Concentration of mercury in human hair and associated factors in residents of the Gulf of Trieste (North-Eastern Italy)*. Environmental Science and Pollution Research. Peer-reviewed, A-tier. [[sources/cegolon2022-hg-hair-trieste|Source record]]
+18. Oliveira RB, Silva DM, Franco TBSS, Vasconcelos CRS, Sousa DJA, Sarrazin SLF, et al. (2022). *Fish consumption habits of pregnant women in Itaituba, Tapajós River basin, Brazil: risks of mercury contamination as assessed by measuring total mercury in highly consumed piscivore fish species and in hair of pregnant women*. Archives of Industrial Hygiene and Toxicology. [https://doi.org/10.2478/aiht-2022-73-3611](https://doi.org/10.2478/aiht-2022-73-3611). Peer-reviewed, A-tier. [[sources/oliveira2022-mercury-fish-pregnant-women-tapajos|Source record]]
+19. Irene Martinez-Morata, Marisa Sobel, Maria Tellez-Plaza, Ana Navas-Acien, Caitlin G. Howe, and Tiffany R. Sanchez (2023). *A State-of-the-Science Review on Metal Biomarkers*. Current Environmental Health Reports, Vol. 10, No. 3, pp. 215-249. [https://doi.org/10.1007/s40572-023-00402-x](https://doi.org/10.1007/s40572-023-00402-x). Peer-reviewed, A-tier. [[sources/martinez-morata-2023-metal-biomarkers-state-of-science|Source record]]
+20. Carter DO, Holsen TM, Bhavsar SP, and Evans DW (2025). *Thermal Decomposition Amalgamation AAS and SALLE for Methylmercury and Total Mercury in Finfish: FDA Method Validation*. [https://doi.org/10.1007/s00216-025-05989-8](https://doi.org/10.1007/s00216-025-05989-8). Peer-reviewed, A-tier. [[sources/carter2025-tda-aas-methylmercury-finfish-fda-method|Source record]]
+21. Brombach C-C, Manorut P, Kolambage-Dona PPP, Ezzeldin MF, Chen B, Corns WT, et al. (2016). *Methylmercury varies more than one order of magnitude in commercial European rice*. Food Chemistry. [https://doi.org/10.1016/j.foodchem.2016.07.064](https://doi.org/10.1016/j.foodchem.2016.07.064). Peer-reviewed, A-tier. [[sources/brombach2017-methylmercury-european-commercial-rice|Source record]]
+22. Sarah E. Rothenberg, Susan A. Korrick, Jihong Liu, Yanfen Nong, Hua Nong, Chuan Hong, et al. (2021). *Maternal methylmercury exposure through rice ingestion and child neurodevelopment in the first three years: a prospective cohort study in rural China*. Environmental Health, Vol. 20, Article 50. [https://doi.org/10.1186/s12940-021-00732-z](https://doi.org/10.1186/s12940-021-00732-z). Peer-reviewed, A-tier. [[sources/rothenberg2021-maternal-methylmercury-rice-child-neurodevelopment-china|Source record]]
+23. Webster P, Wright N, Taylor A, and Pearce EN (2024). *Mercury exposure and thyroid cancer: a systematic review and meta-analysis*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-024-32031-8](https://doi.org/10.1007/s11356-024-32031-8). Peer-reviewed, A-tier. [[sources/webster2024-mercury-thyroid-cancer|Source record]]
+24. Genevieve L. Coe, Ian N. Krout, Mason Munro-Ehrlich, Catherine R. Beamish, Daria Vorojeikina, Daniel R. Colman, et al. (2023). *Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice*. Archives of Toxicology, Vol. 97, pp. 2399-2418. [https://doi.org/10.1007/s00204-023-03548-7](https://doi.org/10.1007/s00204-023-03548-7). Peer-reviewed, A-tier. [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -264,15 +295,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
+| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [239d67d3f](https://github.com/paleofoundation/heavymetalindex/commit/239d67d3f) | 2026-05-18 | major | 23 sources added; 9 sections added and 1 removed; narrative text revised |
+| [5e066237f](https://github.com/paleofoundation/heavymetalindex/commit/5e066237f) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

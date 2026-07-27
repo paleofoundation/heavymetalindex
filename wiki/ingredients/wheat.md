@@ -80,7 +80,7 @@ lower_risk_variants: ["[[ingredients/refined-white-flour]]"]
 higher_risk_variants: ["[[ingredients/wheat-bran]]", "[[ingredients/wheat-germ]]", "[[ingredients/whole-wheat-flour]]", "[[ingredients/wheat-protein-concentrate]]"]
 used_in_products: ["[[products/bread]]", "[[products/pasta]]", "[[products/cereals]]", "[[products/baked-goods]]", "[[products/baby-cereal]]", "[[products/wheat-based-snacks]]", "[[products/crackers]]", "[[products/couscous]]", "[[products/bulgur]]"]
 audience: [regulator, educator, consumer, app]
-sources: 96
+sources: 99
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -165,6 +165,17 @@ _Some metals not listed in this section because no ingested source yet covers th
 ## Nickel in wheat
 
 [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] reports wheat flour mean Ni at 0.13 µg/g (range 0.03 to 0.3 µg/g, n=32 samples) and whole wheat at 0.33 µg/g (range 0.1 to 0.8 µg/g, n=85). The roughly 2.5x concentration gap between whole-grain wheat and refined flour reflects the bran fraction's accumulation of Ni, parallel to the bran-effect on Cd and Mn. In the Danish average diet model, wheat flour contributes 14.7 µg Ni/day (10 percent of total dietary Ni) at a load factor F = 1.9; wheat is therefore a meaningful per-day Ni source by volume, though not a high per-gram contributor on the order of cocoa, soy, or oats. Whole wheat at 0.33 µg/g is roughly 5x higher than white bread (0.27 µg/g, n=65 samples), supporting the bran-versus-endosperm pattern.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2009). *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*. The EFSA Journal. [https://doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980). Government report, A-tier. [[sources/efsa-cadmium-contam-2009|Source record]]
+2. Joint FAO/WHO Expert Committee on Food Additives (2022). *Cadmium: dietary exposure assessment*. WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA). [www.who.int](https://www.who.int/publications/i/item/9789240060760). Government report, A-tier. [[sources/jecfa-91st-cadmium-2022|Source record]]
+3. U.S. Food and Drug Administration (2025). *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*. U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children). Government guidance, A-tier. [[sources/fda-ctz-Pb-babyfood-2025|Source record]]
+4. Mari-Ann Flyvholm, Gitte Dalsgaard Nielsen, and Allan Andersen (1984). *Nickel Content of Food and Estimation of Dietary Intake*. Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431. [https://doi.org/10.1007/BF01043437](https://doi.org/10.1007/BF01043437). Peer-reviewed, A-tier. [[sources/flyvholm1984-nickel-content-food-dietary-intake|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -272,15 +283,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [f907793bb](https://github.com/paleofoundation/heavymetalindex/commit/f907793bb) | 2026-05-17 | minor | Narrative text revised |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
+| [ec1a64347](https://github.com/paleofoundation/heavymetalindex/commit/ec1a64347) | 2026-05-14 | major | 1 section removed; narrative text revised |
 <!-- END: hmi-page-history -->

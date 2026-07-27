@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 0
+sources: 1
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -67,7 +67,43 @@ The applicable regulatory jurisdictions for this row are: **FDA (DSHEA), USP, Ca
 ## Broad Product Context: Author-Scope Index
 
 <!-- BEGIN: hmi-broad-context-sources -->
-*Pending ingest. The routing layer surfaces sources whose author-stated scope is broader than this row (route_kind: broad_product_context) as they are added.*
+## Broad Product Context: Author-Scope Index
+
+<!-- audience: regulator, educator, app -->
+
+The sources below are catalogued as product-context candidates for this row. The "Author-scope row-fit" column states what the authors actually resolved on each axis: matrix (cow milk-based, soy-based, rice-based, non-rice, or unresolved) and format (powder, ready-to-feed liquid, concentrated liquid, dry, or unresolved). A source counts toward this row's evidence pool only once; rows marked "Cross-reference" already appear as direct evidence elsewhere on this page and are not counted again here.
+
+| Source | Title | Source scope | Metals | Author-scope row-fit | Canonical appearance |
+| --- | --- | --- | --- | --- | --- |
+| [[sources/al-dhabi2013-spirulina-products-metals]] | Heavy metal analysis in commercial Spirulina products for hum... | supplements-algae-seaweed-based; dietary-supplements; supplements-oral-solids-tablets; supplements-oral-solids-capsules | Ni; Zn; tHg; Pt; Mg; Mn | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/barber2025-baby-food-elements-us]] | Toxic elements in baby and young children's foods in the US a... | infant-and-child-foods-master; baby-cereals-dry-rice-based; baby-cereals-dry-non-rice; teething-and-snacks-rice-based | tAs; iAs; Cd; tHg; MeHg; Pb; Tl | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/biondicfuckar2023-coffee-silverskin-metals]] | Coffee Silver Skin-Health Safety, Nutritional Value, and Micr... | coffee; dietary-supplements | Ni; Pb; tAs; Cd; Cr; Cu; Zn; Mn; Fe | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/bolan2017-rice-complementary-medicines-arsenic]] | Comparative analysis of speciation and bioaccessibility of ar... | rice-bulk-grain; dietary-supplements; supplements-botanicals-herbs | tAs; iAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/brodziak-dopierala2023-mercury-oil-supplements-poland]] | Mercury Exposure from the Consumption of Dietary Supplements ... | supplements-oil-based; dietary-supplements | tHg | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/brodziak-dopierala2024-hg-supplements-poland]] | Mercury Levels in Selected Medicines and Dietary Supplements ... | dietary-supplements | tHg | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/brzezinska-rojek2023-beetroot-supplements-safety]] | Evaluation of the Safety and Potential Benefits of Beetroot-B... | dietary-supplements; supplements-oral-solids-tablets | Cd; Pb; Al | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/cao2014-sargassum-pallidum-arsenic-speciation]] | Pharmacokinetic properties of arsenic species after oral admi... | seaweed-kelp-foods; supplements-algae-seaweed-based; dietary-supplements | tAs; iAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/cheyns2021-algae-cyanobacteria-supplements-arsenic]] | Intake of food supplements based on algae or cyanobacteria ma... | supplements-algae-seaweed-based; dietary-supplements | tAs; iAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/ciocan2021-ayurvedic-lead-hg-poisoning]] | Lead poisoning from Ayurvedic treatment: a further case | dietary-supplements | Pb; tHg; tAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/coghlan2015-tcm-heavy-metals-audit]] | Combined DNA, toxicological and heavy metal analyses provides... | dietary-supplements | tAs; Pb; Cd | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/efsa2012-cadmium-dietary-exposure-europe]] | Cadmium dietary exposure in the European population | bread-and-baked-goods; breakfast-cereals; rice-bulk-grain; root-tuber-vegetables | Cd | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/falandysz2020-yunnan-fungi-mercury]] | Mercury in traditionally foraged species of fungi (macromycet... | wild-mushrooms; cultivated-mushrooms; dietary-supplements; supplements-botanicals-herbs | tHg | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/gao2025-cordyceps-arsenic-toxicity]] | Wild Cordyceps sinensis exhibits far lower arsenic accumulati... | dietary-supplements; pet-supplements-botanical-herbal | tAs; iAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/jairoun2020-uae-dietary-supplements-heavy-metals]] | Heavy Metal contamination of Dietary Supplements products ava... | dietary-supplements; supplements-botanicals-herbs | Cd; Pb; tAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/li2017-spirulina-arsenic-speciation]] | Determination of different arsenic species in food-grade spir... | supplements-algae-seaweed-based; dietary-supplements; supplements-oral-solids-powders | tAs; iAs | Matrix axis: unresolved. Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/liu2018-tcm-arsenic-bioaccessibility]] | Speciation and bioaccessibility of arsenic in traditional Chi... | dietary-supplements; supplements-botanicals-herbs; herbal-botanical-infusions | tAs; iAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/liu2021-arsenolipids-seafood]] | Discovery and Identification of Arsenolipids Using a Precurso... | seafood; dietary-supplements; fresh-fish | tAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/nelson2022-cannabis-heavy-metals-method]] | Determination of Heavy Metals in a Variety of Cannabis and Ca... | supplements-botanicals-herbs; dietary-supplements; body-hand-leave-on-skin-care | tAs; Cd; tHg; Pb | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/porwollik2026-rhodiola-supplements-us-market]] | The quality and safety of Rhodiola rosea supplements on the U... | dietary-supplements; supplements-botanicals-herbs | Pb; Cd; tAs; tHg | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/sattler2016-bee-pollen-metals]] | Essential minerals and inorganic contaminants (barium, cadmiu... | dietary-supplements; supplements-vitamin-mineral | Ba; Cd; Pb; V; Cr; Cu; Fe; Mn; Mo; Zn | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/sattler2016-bee-pollen-minerals-contaminants]] | Essential minerals and inorganic contaminants (barium, cadmiu... | supplements-botanicals-herbs; dietary-supplements | Ba; Cd; Li; Pb; V; Cr; Cu; Mn; Mo; Zn; Fe | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/sochacka2025-spirulina-chlorella-supplements-poland]] | Spirulina and Chlorella Dietary Supplements-Are They a Source... | supplements-algae-seaweed-based; dietary-supplements; supplements-oral-solids-tablets; supplements-oral-solids-powders | Al; Ba; Cd; Co; Cr; Cs; Cu; Ga; Mn; Mo; Ni; Pb; Rb; Sr; Tl; V; Zn | Matrix axis: unresolved. Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/thomas2024-lead-poisoning-ayurvedic-herbal]] | Case of lead poisoning secondary to intake of herbal medicine... | dietary-supplements | Pb | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/torovic2024-mercury-fish-oil-supplements-serbia]] | Mercury Content in Fish Oil Food Supplements and Associated H... | dietary-supplements | tHg | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/uneyama2007-arsenic-foods-cumulative-data]] | Arsenic in various foods: Cumulative data | rice-bulk-grain; other-grain-products; seafood; fresh-fish | tAs; iAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/viviers2021-south-africa-cannabis-metals]] | An assessment of heavy metal contaminants related to cannabis... | supplements-botanicals-herbs; dietary-supplements | Cd; Pb; tAs; tHg; Co; V; Ni; Tl; Au; Pd; Ir; Os; Rh; Ru; Se; Ag; Pt | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/wang2021-agnh-cinnabar-realgar-hg-as]] | AGNH Protects Against Cinnabar and Realgar-Induced Hepatorena... | dietary-supplements | tHg; tAs; iAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+
 <!-- END: hmi-broad-context-sources -->
 
 ## Federal/Regulatory Limits vs Field Findings
@@ -138,15 +174,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [88594dab3](https://github.com/paleofoundation/heavymetalindex/commit/88594dab3) | 2026-05-17 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -7,7 +7,7 @@ raw_path: raw/reports/category5-step-0-output-locked-20260428.md
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-01
-sources: 9
+sources: 14
 ---
 
 # Category 5: Beverages
@@ -44,15 +44,15 @@ Apple-containing fruit juice routes through [[ingredients/apple]] and [[metals/l
 Drinking water and mineral water route to the water category, not this beverage category. Tea or coffee with a Supplement Facts panel routes to dietary supplements. Plant-based infant formula routes to Category 1. Sparkling water without flavoring routes to water; sparkling water with flavoring routes to [[products/flavored-waters]].
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [324868f70](https://github.com/paleofoundation/heavymetalindex/commit/324868f70) | 2026-05-31 | major | 12 sections removed; narrative text revised |
+| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
+| [49ecdb798](https://github.com/paleofoundation/heavymetalindex/commit/49ecdb798) | 2026-05-30 | major | 11 sections added; narrative text revised |
+| [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 11 sections removed; narrative text revised |
+| [d26f8f1f2](https://github.com/paleofoundation/heavymetalindex/commit/d26f8f1f2) | 2026-05-30 | major | 11 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

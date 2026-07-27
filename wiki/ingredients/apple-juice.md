@@ -105,7 +105,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
 | D8 Provenance integrity | GAP | 20 claims checked, 20 supported; 8 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming apple-juice: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | OK | 5 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr, U |
+| D10 Regulatory coverage | OK | 3 rule link(s), 7 metal(s) covered | unmapped analytes: Al, Cr, U |
 | D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; pairing 0 paired, 10 single, 0 unpaired | Cd: THIN; tHg: THIN; Ni: THIN; Al: THIN, needs 2 more study(ies); Cr: THIN; U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
 
@@ -210,6 +210,21 @@ As noted under processing levers, non-metallic packaging eliminates the Sn conta
 
 The FDA has established a final action level of 10 ppb inorganic arsenic (iAs) for apple juice and apple cider, applicable to product as placed on the market (single-strength, ready-to-drink basis) ([[sources/fda2023-ias-apple-juice-guidance|FDA 2023]]). For lead in juice, the FDA's FY2005-FY2018 compliance program data ([[sources/fda2018-lead-in-juice-fy2005-fy2018|FDA 2018]]) underpin ongoing action level development under the Closer to Zero program; the current FDA guidance for juice Pb is the 50 ppb level referenced in the HACCP juice regulation ([[regulations/fda-juice-haccp-lead-50ppb]]), though this is expected to tighten under Closer to Zero. In the European Union, Regulation (EU) 2023/915 sets a Pb ML of 0.050 mg/kg (50 ppb) for fruit juices generally, with a stricter 0.020 mg/kg (20 ppb) ML for fruit juices intended for infants and young children ([[regulations/eu2023-contaminants-maximum-levels]]). The EU also sets a maximum for inorganic tin (Sn) in canned beverages at 100 mg/kg (100,000 ppb) for non-carbonated drinks and 150 mg/kg for carbonated drinks. No specific EU ML for Cd in fruit juice appears in the current corpus as a binding ML; Cd MLs in EU Regulation 2023/915 focus on solid food matrices. Codex Alimentarius maximum levels for contaminants in fruit juices are not yet extracted into the corpus.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
+2. US Food and Drug Administration (2011). *Arsenic in Apple Juice: Analytical Results from the 2005–2011 Toxic Elements Food and Foodware Program*. US Food and Drug Administration. [www.fda.gov](https://www.fda.gov/food/environmental-contaminants-food/arsenic-apple-juice-analytical-results-2005-2011-toxic-elements-food-and-foodware-program). Government dataset, A-tier. [[sources/fda2011-arsenic-apple-juice-2005-2011|Source record]]
+3. Rida Evalina Tarigan, Jansen Silalahi, and Muchlisyam (2016). *Factors are Affecting Tin Released in Canned Beverages*. International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333. [sphinxsai.com](https://sphinxsai.com/2016/ph_vol9_no5/3/(330-333)V9N5PT.pdf). Peer-reviewed, B-tier. [[sources/tarigan2016-factors-tin-released-canned-beverages|Source record]]
+4. Christine J. Benoy, Patricia A. Hooper, and R. Schneider (1971). *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*. Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656. [https://doi.org/10.1016/0015-6264(71)90152-0](https://doi.org/10.1016/0015-6264(71)90152-0). Peer-reviewed, A-tier. [[sources/benoy1971-tin-toxicity-canned-fruit-juices|Source record]]
+5. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+6. U.S. Food and Drug Administration (2018). *Analytical Results for Lead in Juice Sampled Under the FDA's Toxic Elements in Food and Foodware, and Radionuclides in Food – Import and Domestic Compliance Program (FY2005-FY2018)*. FDA analytical results table. Government dataset, A-tier. [[sources/fda2018-lead-in-juice-fy2005-fy2018|Source record]]
+7. FDA CFSAN (2023). *Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry*. U.S. Food and Drug Administration, Center for Food Safety and Applied Nutrition. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-apple-juice). Government guidance, A-tier. [[sources/fda2023-ias-apple-juice-guidance|Source record]]
+8. Carolyn Harper, Fernando Llados, Gary Diamond, Lara L. Chappell, and Agency for Toxic Substances and Disease Registry (2005). *Toxicological Profile for Tin and Tin Compounds*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp55.pdf). Government report, A-tier. [[sources/atsdr2005-tin-toxicological-profile|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -239,15 +254,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
+| [610c5f3b8](https://github.com/paleofoundation/heavymetalindex/commit/610c5f3b8) | 2026-05-13 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

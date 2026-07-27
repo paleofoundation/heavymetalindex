@@ -6,7 +6,7 @@ title: "Dioxin and Furan Levels Found in Tampons"
 authors: [Archer JC, Mabry-Smith R, Shojaee S, Threet J, Eckert JJ, Litman VE]
 year: 2005
 publication: "Journal of Women's Health"
-doi: null
+doi: "10.1089/jwh.2005.14.311"
 access_url: null
 source_type: peer-reviewed
 evidence_tier: A
@@ -62,3 +62,13 @@ Microbiome: Not measured. The paper discusses endometriosis and dioxin exposure 
 ## Verification notes
 
 Identity checks before drafting found no existing `wiki/sources/` hit for raw handle `MFK_paper-27-archer-2005-dioxins-tampons`, cite key `archer2005-tampon-dioxins-furans`, or exact title. No DOI is printed in the extracted PDF text, so `doi: null` is retained rather than guessed. The PDF SHA-256 is `64b1ac4b923a438bb8618d95ea05bf5d17741f07936a4bc500fdbecd05f4a4bd`. The first page, Methods, Results/Discussion, Follow-up, and Conclusions were re-opened from `/tmp/hmi-fem-018.txt`; units are preserved without conversion. The figure images contain brand-code concentration bars, but this page reports only text-supported aggregate and product-form findings to avoid brand-coded value presentation. `metals: []` is intentional: the analytes are dioxins/furans, not Pb, Cd, As, Hg, Cr, Sn, organotin, or other HMT metal species. The source's JECFA comparison is quoted as the authors' own exposure-context statement, not converted into an HMTc threshold.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b40cbd37b](https://github.com/paleofoundation/heavymetalindex/commit/b40cbd37b) | 2026-06-09 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

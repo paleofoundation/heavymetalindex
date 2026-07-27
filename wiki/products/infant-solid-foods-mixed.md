@@ -12,7 +12,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 2
+sources: 1
 wiki_doi: null
 updated: 2026-05-20
 ---
@@ -28,6 +28,15 @@ updated: 2026-05-20
 ## Literature scope
 
 The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Shibata, Tomoyuki, Meng, Can, Umoren, Josephine, and West, Heidi (2016). *Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S*. International Journal of Environmental Research and Public Health. Peer reviewed journal, A-tier. [[sources/unknown2016-risk-arsenic-rice-cereal|Source record]]
+2. Signes-Pastor AJ, Cottingham KL, Carey M, Sayarath V, Palys T, Meharg AA, et al. (2018). *Infants' dietary arsenic exposure during transition to solid food*. Scientific Reports 8(1):7114. [https://doi.org/10.1038/s41598-018-25372-1](https://doi.org/10.1038/s41598-018-25372-1). Peer-reviewed, A-tier. [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -82,15 +91,15 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 No recall or enforcement synthesis has been promoted for this provisional mixed-solid-food page. The current sources provide exposure and risk-assessment context for inorganic arsenic, especially rice cereal, but do not report a public enforcement event for a mixed solid-food product. Regulatory context should be handled on the relevant locked row, particularly infant rice cereal, when scope is clear.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [71281e235](https://github.com/paleofoundation/heavymetalindex/commit/71281e235) | 2026-06-11 | correction | 1 source added and 1 removed; narrative text revised |
+| [ce3e07c7b](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c7b) | 2026-05-28 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [bb6947290](https://github.com/paleofoundation/heavymetalindex/commit/bb6947290) | 2026-05-25 | major | 2 sources added; narrative text revised |
+| [3a0d0866e](https://github.com/paleofoundation/heavymetalindex/commit/3a0d0866e) | 2026-05-20 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

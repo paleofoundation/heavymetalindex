@@ -20,7 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: ["[[products/fruit-juice-not-canned]]"]
 audience: [regulator, educator, consumer, app]
-sources: 26
+sources: 30
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -74,6 +74,18 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 Variance within fruit juice tracks four dimensions. First, fruit type: [[ingredients/grape-juice|grape juice]] carries higher Pb and trace Cd than [[ingredients/apple-juice|apple juice]] reflecting grape vine soil-uptake and trellis-system Pb deposition; juices from drupes (peach, plum) and citrus (orange, grapefruit) sit at the low end of the per-juice metal range. Second, growing-region soil and irrigation-water profile: juice from documented high-As-water regions (parts of Latin America, South Asia, certain US southwestern apple production) carries elevated iAs and tAs per [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda|Kubachka 2019]] HPLC-ICP-MS speciation work. Third, single-strength vs concentrate-and-reconstitute production: concentrates carry concentrated per-mass metals at the concentrate stage, which propagates into reconstituted juice via dilution. Fourth, packaging: aseptic carton or PET-bottled juice carries lower trace metals than metal-can juice because the can-lining introduces a Sn migration pathway in acidic juice matrices.
 
 The FDA 2022 draft action levels ([[sources/fda2022-draft-lead-juice|FDA 2022]]) of 10 ppb Pb for single-strength apple juice and 20 ppb Pb for other juices replaced the older 1995 50-ppb HACCP context ([[sources/fda2004-juice-haccp-lead|FDA 2004]]), reflecting FDA's reassessment of achievable industry practice. The French infant TDS work in [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Chekri 2019]] documents the broader Cd, Cr, Ni, and Sn occurrence in infant fruit juices on the EU market.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Rachida Chekri, Emilie Le Calvez, Julie Zinck, Jean-Charles Leblanc, Veronique Sirot, Marion Hulin, et al. (2019). *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*. Journal of Food Composition and Analysis. [https://doi.org/10.1016/j.jfca.2019.02.002](https://doi.org/10.1016/j.jfca.2019.02.002). Peer-reviewed, A-tier. [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Source record]]
+2. Kubachka KM, Hanley T, Mantha M, Wilson RA, Falconer TM, Mounicou S, et al. (2019). *Quantitative Determination of Arsenic Species from Fruit Juices Using Acidic Extraction with HPLC-ICPMS*. Food Analytical Methods. [https://doi.org/10.1007/s12161-019-01636-y](https://doi.org/10.1007/s12161-019-01636-y). Peer-reviewed, A-tier. [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda|Source record]]
+3. U.S. Food and Drug Administration (2022). *Draft Guidance for Industry: Action Levels for Lead in Juice*. FDA Draft Guidance for Industry. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-industry-action-levels-lead-juice). Government guidance, A-tier. [[sources/fda2022-draft-lead-juice|Source record]]
+4. U.S. Food and Drug Administration (2004). *Juice HACCP Hazards and Controls Guidance, First Edition — Lead in Juice*. FDA Guidance for Industry. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-juice-hazard-analysis-critical-control-point-hazards-and-controls-guidance-first). Government guidance, A-tier. [[sources/fda2004-juice-haccp-lead|Source record]]
+5. Codex Alimentarius Commission (1995). *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*. Codex Alimentarius (Joint FAO/WHO Food Standards Programme). [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf). Government report, A-tier. [[sources/codex-cxs-193-1995|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -145,15 +157,15 @@ Fruit-juice derivatives include juice concentrate (concentrated metals per-mass;
 - EU Sn-in-canned-food regulation sets 200 mg/kg general / 50 mg/kg infant-and-young-child / 100 mg/kg beverages maximum levels for canned juice products.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [7b9099a2f](https://github.com/paleofoundation/heavymetalindex/commit/7b9099a2f) | 2026-05-17 | major | 5 sources added; narrative text revised |
+| [f907793bb](https://github.com/paleofoundation/heavymetalindex/commit/f907793bb) | 2026-05-17 | minor | Narrative text revised |
+| [e3c860eb5](https://github.com/paleofoundation/heavymetalindex/commit/e3c860eb5) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

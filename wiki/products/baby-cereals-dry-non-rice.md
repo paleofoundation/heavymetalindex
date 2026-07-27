@@ -29,7 +29,7 @@ cc_relationship:
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-03
-sources: 34
+sources: 38
 ---
 
 # Baby Cereals / Grain Products, Dry (Non-Rice)
@@ -61,7 +61,7 @@ This page is a structural scaffold for HMTc Category 1 row 5. FDA compliance sam
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>
@@ -274,13 +274,40 @@ The sources below are catalogued as product-context candidates for this row. The
 
 | Source | Title | Source scope | Metals | Author-scope row-fit | Canonical appearance |
 | --- | --- | --- | --- | --- | --- |
+| [[sources/cereal2013-cereal-juice-lead-arsenic]] | Cereal and Juice, Lead and Arsenic, Our Children at Risk: A C... | infant-cereal; infant-juice | Pb; As; Cd | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | Trace element contents in foods from the first French Total D... | infant-formula; baby-cereals; fruit-purees; fruit-juice-not-canned | Al; Sb; tAs; Cd; Cr; Co; Ni; Sn; V | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: French TDS Category Rows |
-| [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] | Lead and cadmium contamination in a large sample of United St... | infant-formula; baby-cereals; toddler-formula; fruit-juice | Pb; Cd | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: Distribution Context |
+| [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf]] | Effects of Inorganic Arsenic in Infant Rice Cereal on Childre... | baby-cereals-dry-rice-based; infant-cereal; mixed-meals-rice-containing; teething-and-snacks-rice-based | iAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/cot2003-infant-food-metals]] | COT statement on a survey of metals in infant food | baby-food; infant-food-general; infant-formula-powder; infant-formula-powder-soy-based | Al; Sb; tAs; Cd; Cr; Cu; Pb; tHg; Ni; Se; Sn; Zn | Matrix axis: exact (declares soy-based specifically). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/depa2019-baby-food-lead-cadmium]] | Heavy Metals in Baby Foods and Cereal Products | infant-food-general; infant-cereal; infant-formula-powder; infant-formula | Pb; Cd | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan]] | Investigation of heavy metal concentrations and determination... | infant-formula-powder; infant-cereal; baby-cereals | Pb; Cd | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/du2025-infant-thickener-urinary-arsenic]] | Heavy metal exposures in aerodigestive clinic cohort of infan... | baby-cereals-dry-rice-based; infant-cereal | tAs; iAs; Pb; tHg; Cd; Sn; Cr; Ni; U | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/fda-tds-elements-2018-2020]] | Total Diet Study Report: Fiscal Years 2018-2020 Elements Data | chocolate; bottled-drinking-water; fruit-juices-apple-containing; infant-cereal | Pb; Cd; tAs; iAs; tHg; Ni; Cr; U; Sb | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/hbbf2025-rice-arsenic-cadmium-145-samples]] | What's in your family's rice? Arsenic, Cadmium, and Lead in P... | rice-bulk-grain; baby-cereals-dry-rice-based; other-grain-products | tAs; iAs; Cd; Pb; tHg | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Chemical characterization of baby food consumed in Italy | infant-formula-powder; fruit-purees; meat-and-poultry-purees; fish-containing-baby-foods | Al; tAs; Cd; tHg; Ni; Pb; Sn | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals]] | Nutrient exploration and heavy metal risk assessment of baby ... | infant-formula-powder-non-soy; infant-cereal; infant-and-child-foods-master; baby-cereals | Pb; Cd; Ni; Cr; Cu | Matrix axis: exact (declares non-soy specifically). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Human health risk assessment of arsenic, cadmium, lead, and m... | fruit-purees; root-vegetable-purees; non-root-vegetable-purees; baby-cereals | tAs; Cd; tHg; Pb | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: Distribution Context |
-| [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Infants' dietary arsenic exposure during transition to solid ... | infant-formula-powder; rice-cereal; fruit-purees; vegetable-purees | iAs; tAs | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: Sources |
+| [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Infants' dietary arsenic exposure during transition to solid ... | infant-formula-powder; rice-cereal; fruit-purees; vegetable-purees | iAs; tAs | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/usda-fas2023-china-gb-2762-2022-translation]] | China Releases the Standard for Maximum Levels of Contaminant... | infant-formula-powder; infant-cereal; bottled-drinking-water; mineral-water | Pb; Cd; tHg; MeHg; tAs; iAs; Sn; Ni; Cr | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/vincevica-gaile2024-libya-infant-toddler-food-arsenic]] | Total Concentration of Arsenic in Commercial Infant/Toddler F... | infant-rice-cereal; infant-cereal; infant-food-powder; infant-food-general | tAs | Matrix axis: unresolved. Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/zmudzinska2022-rte-baby-foods-poland]] | Health Safety Assessment of Ready-to-Eat Products Consumed by... | fish-containing-baby-foods; fruit-purees; non-root-vegetable-purees; meat-and-poultry-purees | tAs; Cd; tHg; Pb | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 
 <!-- END: hmi-broad-context-sources -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 9 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Parker GH, Gillie CE, Miller JV, Badger DE, and Kreider ML (2022). *Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods*. Toxicology Reports. [https://doi.org/10.1016/j.toxrep.2022.02.001](https://doi.org/10.1016/j.toxrep.2022.02.001). Peer-reviewed, A-tier. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk|Source record]]
+2. Rachida Chekri, Emilie Le Calvez, Julie Zinck, Jean-Charles Leblanc, Veronique Sirot, Marion Hulin, et al. (2019). *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*. Journal of Food Composition and Analysis. [https://doi.org/10.1016/j.jfca.2019.02.002](https://doi.org/10.1016/j.jfca.2019.02.002). Peer-reviewed, A-tier. [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Source record]]
+3. Sonia Collado-Lopez, Maria Fernanda Rodriguez Hernandez, Rosa Maria Mariscal-Moreno, Martha Maria Tellez-Rojo, Larissa Betanzos-Robledo, Moises Reyes Luna, et al. (2025). *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*. Nutrition Reviews. [https://doi.org/10.1093/nutrit/nuaf138](https://doi.org/10.1093/nutrit/nuaf138). Peer-reviewed, A-tier. [[sources/collado-lopez2025-heavy-metals-baby-food-formula|Source record]]
+4. Napier MD and et al. (2024). *Childhood Lead Exposure Linked to Apple Cinnamon Fruit Puree Pouches — North Carolina, June 2023–January 2024*. MMWR Morbidity and Mortality Weekly Report. [https://doi.org/10.15585/mmwr.mm7328a2](https://doi.org/10.15585/mmwr.mm7328a2). Government report, A-tier. [[sources/napier2024-wanabana-lead-apple-cinnamon|Source record]]
+5. Troeschel AN, Buser MC, Winquist A, Ruckart P, Yeh M, Kuai D, et al. (2024). *Investigation of Lead and Chromium Exposure After Consumption of Contaminated Cinnamon-Containing Applesauce — United States, November 2023–April 2024*. Morbidity and Mortality Weekly Report (MMWR). [https://doi.org/10.15585/mmwr.mm7414a2](https://doi.org/10.15585/mmwr.mm7414a2). Government report, A-tier. [[sources/troeschel2024-cinnamon-applesauce-lead|Source record]]
+6. U.S. Food and Drug Administration (2024). *FDA Import Alert 99-42: Detention Without Physical Examination of Spices Due to Lead Contamination*. FDA Import Alerts. [www.accessdata.fda.gov](https://www.accessdata.fda.gov/cms_ia/importalert_1167.html). Regulatory, A-tier. [[sources/fda-import-alert-99-42-spice-lead|Source record]]
+7. Jane Houlihan and Charlotte Brody (2019). *What's in My Baby's Food? A National Investigation Finds 95 Percent of Baby Foods Tested Contain Toxic Chemicals That Lower Babies' IQ, Including Arsenic and Lead*. Healthy Babies Bright Futures. [www.hbbf.org](https://www.hbbf.org/research/whats-my-babys-food). Nonprofit, B-tier. [[sources/houlihan2019-hbbf-whats-in-baby-food|Source record]]
+8. U.S. Food and Drug Administration (2025). *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*. U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children). Government guidance, A-tier. [[sources/fda-ctz-Pb-babyfood-2025|Source record]]
+9. U.S. Food and Drug Administration (2020). *Inorganic Arsenic in Rice Cereals for Infants: Action Level; Guidance for Industry*. U.S. Food and Drug Administration, Federal Register Notice (Docket FDA-2016-D-1099). [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-rice-cereals-infants). Government report, A-tier. [[sources/fda-iAs-rice-cereal-2020|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -362,15 +389,15 @@ Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. Trigger is 
 <!-- END: hmi-contradiction-watch -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [8530c3e2e](https://github.com/paleofoundation/heavymetalindex/commit/8530c3e2e) | 2026-05-17 | major | 6 sources added; narrative text revised |
+| [4e2cdd0cc](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0cc) | 2026-05-17 | minor | Narrative text revised |
+| [ed8e81cd1](https://github.com/paleofoundation/heavymetalindex/commit/ed8e81cd1) | 2026-05-14 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

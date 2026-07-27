@@ -83,7 +83,7 @@ used_in_products: ["[[products/seasoning-blends]]"]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 34
+sources: 36
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 13
@@ -103,7 +103,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D2 Regional coverage | OK | 26 jurisdictions, top EU 28% | — |
 | D3 Anthropogenic evidence | GAP | 4 drinking-water + 1 agricultural-soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 5 drivers, 5 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, iAs THIN, tAs POOLABLE, tHg POOLABLE, Ni THIN, Al POOLABLE, Cr POOLABLE, Sn THIN | iAs: needs 1 more study(ies); Ni: THIN; Sn: needs 2 more study(ies) |
+| D5 Pooling depth | THIN | Pb CONFIDENT, Cd POOLABLE, iAs THIN, tAs POOLABLE, tHg POOLABLE, Ni THIN, Al POOLABLE, Cr POOLABLE, Sn THIN | iAs: needs 1 more study(ies); Ni: THIN; Sn: needs 2 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
 | D8 Provenance integrity | OK | 18 claims checked, 18 supported; 8 citations, 0 orphan, 0 foreign | — |
@@ -180,6 +180,21 @@ Packaging is not the dominant metal-load pathway for dry herbs and spices. Stand
 
 The Codex Alimentarius General Standard CXS 193-1995 does not set spice-specific heavy-metals maxima; general food categories apply. The EU Regulation 2023/915 applies a 1.5 mg/kg Pb maximum for "spices (dry products from the seeds, fruits, roots, bark, or other plant parts)" and 0.5 mg/kg Cd maximum for the same category — substantially looser than the fresh-vegetable category to accommodate the drying-concentration effect. The NYS Department of Health 2019 Technical Support Document derived health-based guidance values for Pb (0.21 mg/kg), Cd (0.21 mg/kg), Cr (0.41 mg/kg), and iAs (0.10 mg/kg) in spices, with a derivation methodology grounded in the per-day consumption rate of spices specifically rather than the general food-additive framework ([[sources/nys-doh2019-metals-spices-guidance]]). FDA has not set spice-specific action levels but has issued import alerts and recall actions against specific adulterated product. The Codex Alimentarius spice maximum levels — being broader than the NYS guidance — represent a regulatory gap that the case literature (Angelon-Gaetz, Huff, Lancaster cohorts) has documented as exposing children to elevated blood lead levels.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Angelon-Gaetz KA, Klaus C, Chaudhry EA, and Bean DK (2018). *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018*. MMWR Morbidity and Mortality Weekly Report. [https://doi.org/10.15585/mmwr.mm6746a2](https://doi.org/10.15585/mmwr.mm6746a2). Government report, A-tier. [[sources/angelon-gaetz2018-lead-spices-north-carolina|Source record]]
+2. Bureau of Toxic Substance Assessment, Center for Environmental Health, and New York State Department of Health (2019). *Technical Support Document for Derivation of Health-Based Guidance Values for Metals in Spices*. New York State Department of Health. Government report, A-tier. [[sources/nys-doh2019-metals-spices-guidance|Source record]]
+3. Huff A, Lam H, Ghimirey A, Goldring J, Pimentel M, and Okatch H (2025). *Heavy metals in spices from Lancaster, PA: arsenic, cadmium, and lead exposure risks and the need for regulation*. Environmental Monitoring and Assessment. [https://doi.org/10.1007/s10661-025-14064-9](https://doi.org/10.1007/s10661-025-14064-9). Peer-reviewed, A-tier. [[sources/huff2025-spices-lancaster-pa|Source record]]
+4. LHAAC (2025). *Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices*. Local Health Authorities Analytical Committee, Edith Cowan University. Government report, A-tier. [[sources/lhaac2025-csp41-herbs-spices-wa|Source record]]
+5. Cicero N, Gervasi T, Durazzo A, Lucarini M, Macrì A, Nava V, et al. (2022). *Mineral and Microbiological Analysis of Spices and Aromatic Herbs*. Foods. [https://doi.org/10.3390/foods11040548](https://doi.org/10.3390/foods11040548). Peer-reviewed, A-tier. [[sources/cicero2022-minerals-spices-aromatic-herbs|Source record]]
+6. Kowalska G (2021). *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph18115779](https://doi.org/10.3390/ijerph18115779). Peer-reviewed, A-tier. [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland|Source record]]
+7. Dghaim R, Al Khatib S, Rasool H, and Khan MA (2015). *Determination of Heavy Metals Concentration in Traditional Herbs Commonly Consumed in the United Arab Emirates*. Journal of Environmental and Public Health. [https://doi.org/10.1155/2015/973878](https://doi.org/10.1155/2015/973878). Peer-reviewed, A-tier. [[sources/dghaim2015-heavy-metals-uae-herbs|Source record]]
+8. Carpena M, Barciela P, Perez-Vazquez A, Noras K, Trafialek J, Prieto MA, et al. (2024). *Assessment of the Chemical Hazards in Herbs Consumed in Europe: Toxins, Heavy Metals, and Pesticide Residues*. Proceedings (MDPI) — 1st International Electronic Conference on Toxics (IECTO2024). [https://doi.org/10.3390/proceedings2024102054](https://doi.org/10.3390/proceedings2024102054). Review, B-tier. [[sources/carpena2024-chemical-hazards-herbs-europe|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -226,15 +241,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
+| [e59d74957](https://github.com/paleofoundation/heavymetalindex/commit/e59d74957) | 2026-05-16 | major | 8 sources added; contamination-profile values revised; 12 sections added |
 <!-- END: hmi-page-history -->

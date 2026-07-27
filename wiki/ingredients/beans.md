@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 43
+sources: 44
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
@@ -103,7 +103,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D2 Regional coverage | OK | 19 jurisdictions, top CN 22% | — |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 4 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, Ni CONFIDENT, Cr THIN, Sn THIN | Cr: needs 1 more study(ies); Sn: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, Ni POOLABLE, Cr THIN, Sn THIN | Cr: needs 1 more study(ies); Sn: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
 | D8 Provenance integrity | GAP | 11 claims checked, 11 supported; 5 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming beans: sandil2023-arsenic-bean-lettuce, atsdr2005-tin-toxicological-profile |
@@ -180,6 +180,18 @@ Glass jars eliminate the can-leaching pathway entirely. Modern fully-welded stee
 
 The Codex Alimentarius General Standard CXS 193-1995 sets a Pb maximum of 0.10 mg/kg fresh weight for legumes (dry) and 0.10 mg/kg for canned vegetables; Cd at 0.10 mg/kg for legumes. The EU Regulation 2023/915 sets the legume Pb maximum at 0.10 mg/kg and Cd at 0.040 mg/kg for legumes (tighter than Codex). The Codex Sn maximum of 250 mg/kg applies to canned beans alongside the broader canned-food category. The FDA has not set bean-specific action levels but has issued recall notifications for canned-bean products with elevated Pb tied to historical packaging issues.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Abdolahpour Alamdari H, Sleman Ali H, Sadighara P, Jahed Khaniki G, Shahsavanpoor Landeh K, and Dehghani MH (2023). *The health risk assessment of heavy metals in vegetables grown in Babol city, Iran*. International Archives of Health Sciences. [https://doi.org/10.48307/IAHSJ.2023.177176](https://doi.org/10.48307/IAHSJ.2023.177176). Peer-reviewed, A-tier. [[sources/abdolahpour2023-heavy-metals-babol-vegetables|Source record]]
+2. Al Zabadi H, Sayeh G, and Jodeh S (2018). *Environmental exposure assessment of cadmium, lead, copper and zinc in different Palestinian canned foods*. Agriculture & Food Security 7:50. [https://doi.org/10.1186/s40066-018-0205-1](https://doi.org/10.1186/s40066-018-0205-1). Peer-reviewed, A-tier. [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn|Source record]]
+3. Bora FD, Bunea A, Pop SR, Banita SI, Dusa DS, Chira A, et al. (2022). *Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania*. Horticulturae. [https://doi.org/10.3390/horticulturae8111034](https://doi.org/10.3390/horticulturae8111034). Peer-reviewed, A-tier. [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Source record]]
+4. Sandil S, Záray G, Endrédi A, Füzy A, Takács T, Óvári M, et al. (2023). *Arsenic uptake and accumulation in bean and lettuce plants at different developmental stages*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-023-30615-w](https://doi.org/10.1007/s11356-023-30615-w). Peer-reviewed, A-tier. [[sources/sandil2023-arsenic-bean-lettuce|Source record]]
+5. Carolyn Harper, Fernando Llados, Gary Diamond, Lara L. Chappell, and Agency for Toxic Substances and Disease Registry (2005). *Toxicological Profile for Tin and Tin Compounds*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp55.pdf). Government report, A-tier. [[sources/atsdr2005-tin-toxicological-profile|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -209,15 +221,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [1e684a825](https://github.com/paleofoundation/heavymetalindex/commit/1e684a825) | 2026-05-17 | minor | Narrative text revised |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

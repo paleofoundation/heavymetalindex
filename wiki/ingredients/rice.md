@@ -80,7 +80,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
 used_in_products: ["[[products/infant-rice-cereal]]", "[[products/rice-milk]]", "[[products/gluten-free-baking]]", "[[products/protein-powder]]", "[[products/crackers]]", "[[products/puffed-rice-snacks]]"]
 audience: [regulator, educator, consumer, app]
-sources: 260
+sources: 274
 wiki_doi: null
 updated: 2026-06-11
 ---
@@ -102,9 +102,9 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D5 Pooling depth | THIN | Pb THIN, Cd THIN, iAs THIN, tHg THIN, Ni THIN, Al THIN, Cr THIN, Sn THIN, tAs THIN | Pb: needs 3 distinct source(s); Cd: needs 2 distinct source(s); iAs: needs 2 distinct source(s); tHg: needs 3 distinct source(s); Ni: needs 3 distinct source(s); Al: needs 3 distinct source(s); Cr: THIN; Sn: needs 3 distinct source(s); tAs: needs 3 distinct source(s) |
 | D6 Speciation | OK | iAs, tHg, tAs declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 881 claims checked, 881 supported; 21 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming rice: brombach2017-methylmercury-european-commercial-rice, collado-lopez2025-heavy-metals-baby-food-formula, damato2026-inorganic-arsenic-rice-based-beverages |
+| D8 Provenance integrity | GAP | 65 claims checked, 65 supported; 21 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming rice: brombach2017-methylmercury-european-commercial-rice, collado-lopez2025-heavy-metals-baby-food-formula, damato2026-inorganic-arsenic-rice-based-beverages |
 | D9 Mitigation | OK | 1 cited lever(s), 5 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 5 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr |
+| D10 Regulatory coverage | OK | 5 rule link(s), 7 metal(s) covered | unmapped analytes: Al, Cr |
 | D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | Pb: THIN, needs 3 distinct source(s); Cd: THIN, needs 2 distinct source(s); iAs: THIN, needs 2 distinct source(s); tHg: THIN, needs 3 distinct source(s); Ni: THIN, needs 3 distinct source(s); Al: THIN, needs 3 distinct source(s); Cr: THIN; Sn: THIN, needs 3 distinct source(s); tAs: THIN, needs 3 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
 
@@ -243,6 +243,34 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 ## Nickel in rice
 
 [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] reports rice mean Ni at 0.21 µg/g (range 0.08 to 0.45 µg/g, n=16 samples). In the Danish average diet model, rice contributes only 1.05 µg Ni/day (load factor F = 3.5) reflecting low Danish rice consumption rather than a per-gram pattern; the load factor F = 3.5 indicates rice contributes Ni out of proportion to its consumption weight where consumed. Rice Ni values sit below cocoa, soy, oats, hazelnuts, and almonds but above potatoes (0.14 µg/g), white bread (0.27 µg/g), and most vegetables. For high-rice-consumption populations (East Asia, infant rice cereal as staple), rice contributes proportionally more to daily Ni intake.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 21 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2009). *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*. The EFSA Journal. [https://doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980). Government report, A-tier. [[sources/efsa-cadmium-contam-2009|Source record]]
+2. Joint FAO/WHO Expert Committee on Food Additives (2022). *Cadmium: dietary exposure assessment*. WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA). [www.who.int](https://www.who.int/publications/i/item/9789240060760). Government report, A-tier. [[sources/jecfa-91st-cadmium-2022|Source record]]
+3. Huang X, Zhao B, Wu Y, Tan M, Shen L, Feng G, et al. (2022). *The lead and cadmium content in rice and risk to human health in China: A systematic review and meta-analysis*. PLoS ONE. [https://doi.org/10.1371/journal.pone.0278686](https://doi.org/10.1371/journal.pone.0278686). Peer-reviewed, A-tier. [[sources/huang2022-pb-cd-rice-china-meta|Source record]]
+4. TatahMentan M, Nyachoti S, Scott L, Phan N, Okwori FO, Felemban N, et al. (2020). *Toxic and Essential Elements in Rice and Other Grains from the United States and Other Countries*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph17218128](https://doi.org/10.3390/ijerph17218128). Peer-reviewed, A-tier. [[sources/tatahmentan2020-rice-grains-elements|Source record]]
+5. Bandara JMRS, Wijewardena HVP, Liyanege J, Upul MA, and Bandara JMUA (2010). *Chronic Renal Failure in Sri Lanka Caused by Elevated Dietary Cadmium: Trojan Horse of the Green Revolution*. Toxicology Letters 198(1):33–39. [https://doi.org/10.1016/j.toxlet.2010.04.016](https://doi.org/10.1016/j.toxlet.2010.04.016). Peer-reviewed, A-tier. [[sources/bandara2010-cadmium-rice-sri-lanka-crf|Source record]]
+6. Meharg AA, Williams PN, Adomako E, Lawgali YY, Deacon C, Villada A, et al. (2009). *Geographical Variation in Total and Inorganic Arsenic Content of Polished (White) Rice*. Environmental Science & Technology. [https://doi.org/10.1021/es802612a](https://doi.org/10.1021/es802612a). Peer-reviewed, A-tier. [[sources/meharg2009-geographic-variation-arsenic-white-rice|Source record]]
+7. Consumer Reports Food Safety and Sustainability Center (2014). *Analysis of Arsenic in Rice and Other Grains*. Consumer Reports Food Safety and Sustainability Center. [https://doi.org/10.1201/b16767-165](https://doi.org/10.1201/b16767-165). Industry, B-tier. [[sources/cr-fsasc2014-arsenic-rice-grains|Source record]]
+8. Yan Y, Mao Z, Wang X, Chen Z, Ma C, Wei D, et al. (2025). *From farm to table: assessing the status and health risk assessment of heavy metal pollution in rice in Henan Province*. Frontiers in Public Health. [https://doi.org/10.3389/fpubh.2025.1499653](https://doi.org/10.3389/fpubh.2025.1499653). Peer-reviewed, A-tier. [[sources/yan2025-rice-heavy-metals-henan-china|Source record]]
+9. Brombach C-C, Manorut P, Kolambage-Dona PPP, Ezzeldin MF, Chen B, Corns WT, et al. (2016). *Methylmercury varies more than one order of magnitude in commercial European rice*. Food Chemistry. [https://doi.org/10.1016/j.foodchem.2016.07.064](https://doi.org/10.1016/j.foodchem.2016.07.064). Peer-reviewed, A-tier. [[sources/brombach2017-methylmercury-european-commercial-rice|Source record]]
+10. Cui Y, Wu Q, Liu K, Wang S, Wang X, Jiang T, et al. (2022). *Source apportionment of speciated mercury in Chinese rice grain using a high-resolution model*. ACS Environmental Au. [https://doi.org/10.1021/acsenvironau.1c00061](https://doi.org/10.1021/acsenvironau.1c00061). Peer-reviewed, A-tier. [[sources/cui2022-mercury-speciation-rice-china|Source record]]
+11. Kurniawati S, Damastuti E, Adventini N, Syahfitri WYN, Kusmartini I, Lestiani DD, et al. (2021). *Determination of several heavy metals in staple foods from traditional markets in Jakarta using neutron activation analysis*. AIP Conference Proceedings (4th International Seminar on Chemistry). [https://doi.org/10.1063/5.0053376](https://doi.org/10.1063/5.0053376). Peer-reviewed, B-tier. [[sources/kurniawati2021-jakarta-staple-foods-naa|Source record]]
+12. Limmer MA and Seyferth LD (2024). *Controlling exposure to As and Cd from rice via irrigation management*. Environmental Science & Technology. [https://doi.org/10.1021/acs.est.4c02310](https://doi.org/10.1021/acs.est.4c02310). Peer-reviewed, A-tier. [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Source record]]
+13. Seyfferth AL, Limmer MA, Jackson BP, and Runkle BRK (2025). *Concentrations and Health Implications of As, Hg, and Cd and Micronutrients in Rice and Emissions of CH4 From Variably Flooded Paddies*. GeoHealth. [https://doi.org/10.1029/2025GH001410](https://doi.org/10.1029/2025GH001410). Peer-reviewed, A-tier. [[sources/seyfferth2025-rice-water-management-as-hg-cd|Source record]]
+14. Qin J, Li J, Su S, Yuan G, Ouyang X, Zheng G, et al. (2026). *Spatial coupling and individual-level evidence: linking rice cadmium exposure to liver cancer in a high-risk area of China*. Environmental Geochemistry and Health. [https://doi.org/10.1007/s10653-026-03081-3](https://doi.org/10.1007/s10653-026-03081-3). Peer-reviewed, A-tier. [[sources/qin2026-rice-cadmium-liver-cancer-guangxi|Source record]]
+15. Su LJ, Chiang TC, and O'Connor SN (2023). *Arsenic in Brown Rice: Do the Benefits Outweigh the Risks?*. Frontiers in Nutrition 10:1209574. [https://doi.org/10.3389/fnut.2023.1209574](https://doi.org/10.3389/fnut.2023.1209574). Peer-reviewed, A-tier. [[sources/su-2023-arsenic-brown-rice|Source record]]
+16. U.S. Food and Drug Administration (2020). *Inorganic Arsenic in Rice Cereals for Infants: Action Level; Guidance for Industry*. U.S. Food and Drug Administration, Federal Register Notice (Docket FDA-2016-D-1099). [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-rice-cereals-infants). Government report, A-tier. [[sources/fda-iAs-rice-cereal-2020|Source record]]
+17. Navaretnam R, Aris AZ, Shukor MFA, Norrrahim MNF, Knight VF, Chin TT, et al. (2025). *Arsenic Speciation Using HPLC-ICP-MS in White and Brown Rice and Health Risk Assessment*. Environmental Geochemistry and Health 47:411. [https://doi.org/10.1007/s10653-025-02723-2](https://doi.org/10.1007/s10653-025-02723-2). Peer-reviewed, A-tier. [[sources/navaretnam-2025-rice-as-speciation|Source record]]
+18. Sonia Collado-Lopez, Maria Fernanda Rodriguez Hernandez, Rosa Maria Mariscal-Moreno, Martha Maria Tellez-Rojo, Larissa Betanzos-Robledo, Moises Reyes Luna, et al. (2025). *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*. Nutrition Reviews. [https://doi.org/10.1093/nutrit/nuaf138](https://doi.org/10.1093/nutrit/nuaf138). Peer-reviewed, A-tier. [[sources/collado-lopez2025-heavy-metals-baby-food-formula|Source record]]
+19. D'Amato M, Turco AC, D'Amore T, Vitale F, Marini F, Stacchini P, et al. (2026). *Inorganic Arsenic in Rice-Based Beverages: Occurrence in Products Available on the Italian Market and Dietary Exposure Assessment*. Foods. [https://doi.org/10.3390/foods15020383](https://doi.org/10.3390/foods15020383). Peer-reviewed, A-tier. [[sources/damato2026-inorganic-arsenic-rice-based-beverages|Source record]]
+20. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+21. Mari-Ann Flyvholm, Gitte Dalsgaard Nielsen, and Allan Andersen (1984). *Nickel Content of Food and Estimation of Dietary Intake*. Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431. [https://doi.org/10.1007/BF01043437](https://doi.org/10.1007/BF01043437). Peer-reviewed, A-tier. [[sources/flyvholm1984-nickel-content-food-dietary-intake|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -522,15 +550,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | correction | 33 sections removed; narrative text revised |
+| [8e90aa2b8](https://github.com/paleofoundation/heavymetalindex/commit/8e90aa2b8) | 2026-06-11 | correction | 9 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

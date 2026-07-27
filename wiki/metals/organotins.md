@@ -6,7 +6,7 @@ name: Organotin compounds
 species: [monobutyltin, dibutyltin, tributyltin, triphenyltin, monomethyltin, dimethyltin, trimethyltin, triethyltin]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: medium
-sources: 12
+sources: 16
 wiki_doi: null
 updated: 2026-05-08
 status: scaffold
@@ -88,16 +88,22 @@ What is the contribution of PVC-distribution drinking water to lifetime organoti
 - [[sources/atsdr2005-tin-toxicological-profile|ATSDR 2005]] — Comprehensive Toxicological Profile for Tin and Tin Compounds. Source for organotin MRLs (intermediate and chronic oral MRL 0.0003 mg/kg/day for tributyltin oxide; intermediate oral MRL 0.005 mg/kg/day for dibutyltin chloride), TBT food-occurrence summary, organotin tissue-survey data, and toxic-mechanism characterization.
 - [[sources/schafer1984-tin-toxic-heavy-metal-review|Schafer & Femfert 1984]] — Historical European synthesis review establishing the species-distinction principle that organotins must be assessed separately from inorganic tin in food-safety analysis.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Carolyn Harper, Fernando Llados, Gary Diamond, Lara L. Chappell, and Agency for Toxic Substances and Disease Registry (2005). *Toxicological Profile for Tin and Tin Compounds*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp55.pdf). Government report, A-tier. [[sources/atsdr2005-tin-toxicological-profile|Source record]]
+2. S. G. Schafer and U. Femfert (1984). *Tin — A Toxic Heavy Metal? A Review of the Literature*. Regulatory Toxicology and Pharmacology, Vol. 4, pp. 57-69. [https://doi.org/10.1016/0273-2300(84)90006-0](https://doi.org/10.1016/0273-2300(84)90006-0). Peer-reviewed, A-tier. [[sources/schafer1984-tin-toxic-heavy-metal-review|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [d04abbc18](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc18) | 2026-05-08 | major | 2 sources added; contamination-profile values revised; 9 sections added |
 <!-- END: hmi-page-history -->

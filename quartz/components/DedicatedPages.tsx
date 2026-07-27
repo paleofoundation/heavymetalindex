@@ -104,7 +104,7 @@ export default (() => {
 
     if (groups.length === 0) return null
 
-    // Compact cross-reference counts (the Examine "In this …" group): one row
+    // Compact cross-reference counts (the "In this …" group): one row
     // per category with a count badge, linking to that category index. The full
     // per-page link list lives in the in-body RelatedPages "See also".
     const groupLabel = String(mySlug).startsWith("metals/") ? "In this metal" : "Cross-references"

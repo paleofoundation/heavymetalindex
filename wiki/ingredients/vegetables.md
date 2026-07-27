@@ -20,7 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/spinach]]", "[[ingredients/carrots]]", "[[ingredients/potatoes]]"]
 used_in_products: ["[[products/non-root-vegetable-purees]]", "[[products/root-vegetable-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]"]
 audience: [regulator, educator, consumer, app]
-sources: 110
+sources: 114
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -109,6 +109,34 @@ Mixed-meals products ([[products/mixed-meals-non-rice]], [[products/mixed-meals-
 - [[regulations/california-prop65]] — California Prop 65 Pb MADL applies to vegetable products sold in California; commercial settlements have established the practical compliance thresholds for vegetable retail.
 - EFSA Scientific Opinion on Ni in food and drinking water ([[sources/efsa2015-nickel-food-water|EFSA 2015]]) sets the operative Ni TDI of 2.8 µg/kg BW/day; vegetables are a dominant Ni dietary contributor.
 - JECFA Cd PTMI of 25 µg/kg BW/month ([[sources/jecfa-73rd-cadmium-2010|JECFA 2010]]) is the operative international Cd reference; vegetables typically account for 30-50% of total dietary Cd intake.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 21 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Rachida Chekri, Emilie Le Calvez, Julie Zinck, Jean-Charles Leblanc, Veronique Sirot, Marion Hulin, et al. (2019). *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*. Journal of Food Composition and Analysis. [https://doi.org/10.1016/j.jfca.2019.02.002](https://doi.org/10.1016/j.jfca.2019.02.002). Peer-reviewed, A-tier. [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Source record]]
+2. Agarwal S, Mukherjee P, Pramanick P, and Mitra A (2022). *Seasonal Variations in Bioaccumulation and Translocation of Toxic Heavy Metals in the Dominant Vegetables of East Kolkata Wetlands: a Case Study with Suggestive Ecorestorative Strategies*. Water, Air, & Soil Pollution. Peer-reviewed, A-tier. [[sources/agarwal2022-heavy-metals-vegetables-east-kolkata|Source record]]
+3. Samma S, Islam Khan MS, Islam Chowdhury MT, Islam MA, Fick J, and Kaium A (2024). *Evaluating Soil-Vegetable Contamination with Heavy Metals in Bogura, Bangladesh: A Risk Assessment Approach*. Environmental Health Insights. [https://doi.org/10.1177/11786302241282601](https://doi.org/10.1177/11786302241282601). Peer-reviewed, A-tier. [[sources/samma2024-bangladesh-vegetable-metals|Source record]]
+4. Imongben CO, Tomori WB, Umoru PE, and Oyerinde WA (2026). *Determination of some heavy metals and their potential risk in selected vegetables on sale within Kaduna Metropolis, Kaduna State, Nigeria*. World Nutrition. [https://doi.org/10.26596/wn.20261718-18](https://doi.org/10.26596/wn.20261718-18). Peer-reviewed, B-tier. [[sources/imongben2026-kaduna-vegetables-hra|Source record]]
+5. Dearing C, Ye Z, and Robertshaw G (2025). *Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis*. F1000Research. [https://doi.org/10.12688/f1000research.175538.1](https://doi.org/10.12688/f1000research.175538.1). Peer-reviewed, B-tier. [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Source record]]
+6. Pulze L, Di Gioacchino M, Salvati L, Falcionelli N, Allegra M, Franzago M, et al. (2025). *Impact of volcanic eruptions on heavy metal contamination in the food chain*. Italian Journal of Food Safety. [https://doi.org/10.4081/ijfs.2025.13517](https://doi.org/10.4081/ijfs.2025.13517). Peer-reviewed, A-tier. [[sources/pulze2025-volcanic-eruptions-food-chain-metals|Source record]]
+7. Rossini-Oliva S and López Nuñez R (2024). *Is it healthy urban agriculture? Human exposure to potentially toxic elements in urban gardens from Andalusia, Spain*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-024-33500-w](https://doi.org/10.1007/s11356-024-33500-w). Peer-reviewed, A-tier. [[sources/rossini-oliva2024-urban-garden-vegetables-spain|Source record]]
+8. Suomi J and Tuominen P (2023). *Cumulative risk assessment of the dietary heavy metal and aluminum exposure of Finnish adults*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-023-27879-x](https://doi.org/10.1007/s11356-023-27879-x). Peer-reviewed, A-tier. [[sources/suomi2023-finland-dietary-metals-cumulative|Source record]]
+9. Ventura M, Rego A, Gueifão S, Delgado I, and Coelho I (2025). *Dietary Exposure to Essential and Toxic Trace Elements in the Portuguese Population: A Total Diet Study Approach*. Foods. [https://doi.org/10.3390/foods15050838](https://doi.org/10.3390/foods15050838). Peer-reviewed, A-tier. [[sources/ventura2025-portuguese-total-diet-study-trace-elements|Source record]]
+10. Food Safety Authority of Ireland (FSAI) (2016). *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*. FSAI Chemical Monitoring and Surveillance Series. [www.fsai.ie](https://www.fsai.ie/publications/total-diet-study-2012-2014). Government report, A-tier. [[sources/fsai2016-total-diet-study-ireland-2012-2014|Source record]]
+11. Centre for Food Safety (Hong Kong) (2013). *The First Hong Kong Total Diet Study: Metallic Contaminants*. Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. [www.cfs.gov.hk](https://www.cfs.gov.hk/english/programme/programme_firm/programme_firm_tds.html). Government report, A-tier. [[sources/cfs2013-hktds-metallic-contaminants|Source record]]
+12. Centre for Food Safety FEHD HKSAR (2012). *The First Hong Kong Total Diet Study: Inorganic Arsenic*. Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. [www.cfs.gov.hk](https://www.cfs.gov.hk/english/programme/programme_rdss/programme_rdss_tds_report.html). Government report, A-tier. [[sources/cfs2012-hktds-inorganic-arsenic|Source record]]
+13. Fechner C, Hackethal C, Höpfner T, Dietrich J, Bloch D, Lindtner O, et al. (2022). *Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods*. Food Chemistry: X. [https://doi.org/10.1016/j.fochx.2022.100326](https://doi.org/10.1016/j.fochx.2022.100326). Peer-reviewed, A-tier. [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|Source record]]
+14. Zhao X, Shao Y, Ma L, Shang X, Zhao Y, and Wu Y (2022). *Exposure to Lead and Cadmium in the Sixth Total Diet Study — China, 2016–2019*. China CDC Weekly. [https://doi.org/10.46234/ccdcw2022.045](https://doi.org/10.46234/ccdcw2022.045). Government report, A-tier. [[sources/zhao2022-china-sixth-tds-pb-cd|Source record]]
+15. U.S. Food and Drug Administration (2022). *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*. U.S. Food and Drug Administration, Total Diet Study Program. [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results). Government report, A-tier. [[sources/fda-tds-elements-2018-2020|Source record]]
+16. Sripada K and Madsen Lager A (2022). *Interventions to reduce cadmium exposure in low- and middle-income countries during pregnancy and childhood: A systematic review*. Journal of Global Health. [https://doi.org/10.7189/jogh.12.04089](https://doi.org/10.7189/jogh.12.04089). Review, A-tier. [[sources/sripada2022-cadmium-interventions-lmics|Source record]]
+17. U.S. Food and Drug Administration (2025). *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*. U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children). Government guidance, A-tier. [[sources/fda-ctz-Pb-babyfood-2025|Source record]]
+18. Codex Alimentarius Commission (1995). *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*. Codex Alimentarius (Joint FAO/WHO Food Standards Programme). [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf). Government report, A-tier. [[sources/codex-cxs-193-1995|Source record]]
+19. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2015). *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*. EFSA Journal 2015;13(2):4002, 202 pp. [https://doi.org/10.2903/j.efsa.2015.4002](https://doi.org/10.2903/j.efsa.2015.4002). Government report, A-tier. [[sources/efsa2015-nickel-food-water|Source record]]
+20. Joint FAO/WHO Expert Committee on Food Additives (2011). *Cadmium (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants*. WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380). [www.who.int](https://www.who.int/publications/i/item/9789241660648). Government report, A-tier. [[sources/jecfa-73rd-cadmium-2010|Source record]]
+21. Ji J and Wu X (2026). *Assessing spatial variability and source identification of heavy metals in agricultural soils: A geostatistical and multivariate analysis of coastal eastern Zhejiang, China*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0344184](https://doi.org/10.1371/journal.pone.0344184). Peer-reviewed, A-tier. [[sources/ji2026-agricultural-soil-metals-zhejiang|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -239,15 +267,15 @@ Vegetables sit on the soil-uptake side of the food system and inherit their heav
 Plant biology drives per-tissue concentration: leafy vegetables ([[ingredients/leafy-greens|leafy greens]], spinach, parsley, lettuce) accumulate [[metals/cadmium|Cd]] and [[metals/lead|Pb]] in leaf tissue via xylem-transport plus surface deposition at concentrations multiples higher than root or fruit tissues; root vegetables (carrots, beets, potatoes) accumulate Pb at the soil-root interface and Cd via cortical uptake; fruit vegetables (tomatoes, peppers, cucumbers, squash) carry the lowest baseline because the fruit-loading pathway concentrates metals less efficiently. The HMTc-panel concerns for the vegetable category are dominantly Pb, Cd, and Ni, with iAs, tAs, Al, and Cr at moderate concern depending on regional and varietal characteristics.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [c06900296](https://github.com/paleofoundation/heavymetalindex/commit/c06900296) | 2026-05-17 | major | 21 sources added; 5 sections added and 5 removed; narrative text revised |
+| [e3eb66979](https://github.com/paleofoundation/heavymetalindex/commit/e3eb66979) | 2026-05-17 | minor | Narrative text revised |
+| [f907793bb](https://github.com/paleofoundation/heavymetalindex/commit/f907793bb) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

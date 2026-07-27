@@ -7,7 +7,7 @@ authority: European Commission
 status: maximum levels
 source_page: sources/eu-2023-915-contaminants-maximum-levels
 source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
-metals: [Pb, Cd, tHg, iAs, tAs, Sn]
+metals: [Pb, Cd, tHg, iAs, tAs, Sn, Ni]
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-06-03
@@ -17,7 +17,7 @@ updated: 2026-06-03
 
 Commission Regulation (EU) 2023/915 is the EU contaminants maximum-level framework for food. It is binding in its entirety and directly applicable in Member States. For HMI and HMTc, it is an external legal benchmark: it can sit next to field findings, but it is not an HMTc threshold.
 
-The local source PDF is the original Official Journal text. Because EU regulations can be amended, legal users should also check the current EUR-Lex consolidated version before relying on a value in a live dispute or compliance decision. HMI preserves the original PDF hash on [[sources/eu-2023-915-contaminants-maximum-levels]].
+The local source PDF is the original Official Journal text. Because EU regulations can be amended, legal users should also check the current EUR-Lex consolidated version before relying on a value in a live dispute or compliance decision. HMI preserves the original PDF hash on [[sources/eu-2023-915-contaminants-maximum-levels]]. The framework has since been amended to add nickel: Commission Regulation (EU) 2024/1987 of 30 July 2024 inserted a full nickel entry (Annex I, point 3.6) into 2023/915, applying from 1 July 2025 (1 July 2026 for cereals). Those levels are reproduced in the Nickel section below and on [[regulations/eu-2024-1987-nickel-maximum-levels]]; their primary source is [[sources/eu-2024-1987-nickel-maximum-levels]].
 
 ## Enforcement Structure
 
@@ -92,6 +92,47 @@ Selected HMTc-relevant commodity rows:
 
 _Cat 7 Pb rows (fats/oils, salt, spice botanical tiers) and salt Cd transcribed from Commission Regulation (EU) 2023/915 Annex I via EUR-Lex (eli/reg/2023/915), 2026-06-02; cross-checked against Eurofins regulatory summary for the spice tiers. Pending human spot-check against the consolidated Annex._
 
+## Nickel Maximum Levels (added by Regulation (EU) 2024/1987)
+
+Nickel was not in the original 2023/915 framework. Commission Regulation (EU) 2024/1987 of 30 July 2024 (OJ L, 31.7.2024) added the complete nickel entry as Annex I point 3.6, applying from 1 July 2025 for all rows except cereals (points 3.6.11.1–3.6.11.5), which apply from 1 July 2026. The values below are transcribed from the primary Official Journal text; primary source [[sources/eu-2024-1987-nickel-maximum-levels]], regulation page [[regulations/eu-2024-1987-nickel-maximum-levels]]. Vegetable rows apply to wet weight after washing and separating the edible part; tree-nut and oilseed rows apply to the edible part and exempt material destined for crushing where the pressed residue is not placed on the market as food; infant, baby-food and processed-cereal rows apply to the product as placed on the market.
+
+| Annex code | Food category | Ni ML | Normalized | Applies from |
+| --- | --- | ---: | ---: | --- |
+| 3.6.1.1 | Tree nuts except 3.6.1.2 | 3.5 mg/kg | 3500 ug/kg | 1 Jul 2025 |
+| 3.6.1.2 | Chestnuts, pine nuts, walnuts, Brazil nuts, cashew nuts | 10 mg/kg | 10000 ug/kg | 1 Jul 2025 |
+| 3.6.2 | Root, tuber and bulb vegetables | 0.90 mg/kg | 900 ug/kg | 1 Jul 2025 |
+| 3.6.3 | Fruiting vegetables | 0.40 mg/kg | 400 ug/kg | 1 Jul 2025 |
+| 3.6.4 | Brassica vegetables | 0.50 mg/kg | 500 ug/kg | 1 Jul 2025 |
+| 3.6.5.1 | Leafy vegetables except fresh herbs | 0.50 mg/kg | 500 ug/kg | 1 Jul 2025 |
+| 3.6.5.2 | Fresh herbs | 1.2 mg/kg | 1200 ug/kg | 1 Jul 2025 |
+| 3.6.6.1 | Legume vegetables except soy beans/edamame | 1.0 mg/kg | 1000 ug/kg | 1 Jul 2025 |
+| 3.6.6.2 | Soy beans / edamame (*Glycine max*) | 6.0 mg/kg | 6000 ug/kg | 1 Jul 2025 |
+| 3.6.7 | Stem vegetables | 0.40 mg/kg | 400 ug/kg | 1 Jul 2025 |
+| 3.6.8.1 | Seaweed except wakame | 30 mg/kg | 30000 ug/kg | 1 Jul 2025 |
+| 3.6.8.2 | Wakame | 40 mg/kg | 40000 ug/kg | 1 Jul 2025 |
+| 3.6.9.1 | Pulses except dry beans/lupins | 4.0 mg/kg | 4000 ug/kg | 1 Jul 2025 |
+| 3.6.9.2 | Dry beans and dry lupins / lupini beans | 12 mg/kg | 12000 ug/kg | 1 Jul 2025 |
+| 3.6.10.1 | Sunflower seed | 8.0 mg/kg | 8000 ug/kg | 1 Jul 2025 |
+| 3.6.10.2 | Peanuts | 12 mg/kg | 12000 ug/kg | 1 Jul 2025 |
+| 3.6.10.3 | Soy beans | 15 mg/kg | 15000 ug/kg | 1 Jul 2025 |
+| 3.6.11.1 | Cereals except 3.6.11.2–3.6.11.5 | 0.80 mg/kg | 800 ug/kg | **1 Jul 2026** |
+| 3.6.11.2 | Durum wheat and rice except husked rice | 1.5 mg/kg | 1500 ug/kg | **1 Jul 2026** |
+| 3.6.11.3 | Husked rice | 2.0 mg/kg | 2000 ug/kg | **1 Jul 2026** |
+| 3.6.11.4 | Pseudo cereals and millet | 3.0 mg/kg | 3000 ug/kg | **1 Jul 2026** |
+| 3.6.11.5 | Oats (grains without husk; ×1.5 → 7.5 with husk) | 5.0 mg/kg | 5000 ug/kg | **1 Jul 2026** |
+| 3.6.12.1 | Milk chocolate < 30 % dry cocoa solids | 2.5 mg/kg | 2500 ug/kg | 1 Jul 2025 |
+| 3.6.12.2 | Milk chocolate ≥ 30 % dry cocoa solids, and chocolate | 7.0 mg/kg | 7000 ug/kg | 1 Jul 2025 |
+| 3.6.12.3 | Cocoa powder / fat-reduced cocoa powder (drinking chocolate) | 15 mg/kg | 15000 ug/kg | 1 Jul 2025 |
+| 3.6.13.1 | Infant/young-child formula, powder, except soy-isolate | 0.25 mg/kg | 250 ug/kg | 1 Jul 2025 |
+| 3.6.13.2 | Infant/young-child formula, powder, soy protein isolate | 0.40 mg/kg | 400 ug/kg | 1 Jul 2025 |
+| 3.6.13.3 | Infant/young-child formula, liquid | 0.10 mg/kg | 100 ug/kg | 1 Jul 2025 |
+| 3.6.14 | Processed cereal-based food for infants and young children | 3.0 mg/kg | 3000 ug/kg | 1 Jul 2025 |
+| 3.6.15 | Baby food except 3.6.16 | 0.50 mg/kg | 500 ug/kg | 1 Jul 2025 |
+| 3.6.16.1 | Fruit/vegetable juices and nectars, general | 0.25 mg/kg | 250 ug/kg | 1 Jul 2025 |
+| 3.6.16.2 | Juices/nectars from passion fruit, cocoa fruit, small fruits/berries, coconut water | 1.0 mg/kg | 1000 ug/kg | 1 Jul 2025 |
+
+There is no nickel maximum level for many finished composite or beverage products (for example ready-to-drink chocolate milk, canned composite meals, coffee, tea, or ready-to-eat soups). Some of those are instead covered by the monitoring programme under [[regulations/eu-2024-907-nickel-monitoring|Recommendation (EU) 2024/907]] (2025–2027); for others, the nickel content of constituent ingredients is governed by the rows above and compounded under Article 3. Do not read the absence of a finished-product nickel row as "the EU does not regulate nickel": the EU does, via the entry above.
+
 ## Why This Matters For Product Pages
 
 The most useful product-page display is a decision-first table: regulatory value, legal status, product scope, actual field finding, and whether the comparison is direct or blocked. HMI should keep technical distribution tables lower on the page. Most users who matter for HMTc standards development, regulatory review, retail quality programs, or litigation need to answer three questions first:
@@ -107,16 +148,23 @@ That is why this regulation is wired into `data/evidence/regulatory_limits.csv` 
 - [[sources/eu-2023-915-contaminants-maximum-levels]]
 - European Commission contaminants legislation page, which identifies Regulation (EU) 2023/915 as the EU maximum-level framework for contaminants in food.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. European Commission (2023). *Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006*. Official Journal of the European Union. [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915). Regulation, A-tier. [[sources/eu-2023-915-contaminants-maximum-levels|Source record]]
+2. European Commission (2024). *Commission Regulation (EU) 2024/1987 of 30 July 2024 amending Regulation (EU) 2023/915 as regards maximum levels of nickel in certain foodstuffs*. Official Journal of the European Union, L series, 2024/1987 (31.7.2024). [data.europa.eu](http://data.europa.eu/eli/reg/2024/1987/oj). Regulation, A-tier. [[sources/eu-2024-1987-nickel-maximum-levels|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [e1665ee](https://github.com/paleofoundation/heavymetalindex/commit/e1665ee) | 2026-06-03 | fix(reg): add missing EU 2023/915 inorganic-tin rows (200 mg/kg canned foods, 100 mg/kg canned beverages) |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [e1665ee7b](https://github.com/paleofoundation/heavymetalindex/commit/e1665ee7b) | 2026-06-03 | correction | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [66751b45d](https://github.com/paleofoundation/heavymetalindex/commit/66751b45d) | 2026-05-02 | major | 1 source added; contamination-profile values revised; 5 sections added |
 <!-- END: hmi-page-history -->

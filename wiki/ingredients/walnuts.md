@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 8
+sources: 9
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
@@ -100,17 +100,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
 | D1 Analyte coverage (tier: occasional) | GAP | 4/10 HMTc analytes, total n=14 | only 4/10 analytes have evidence |
-| D2 Regional coverage | OK | 8 jurisdictions, top EU 50% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 4 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, tHg THIN, Ni POOLABLE, Cr THIN | tHg: needs 2 more study(ies); Cr: needs 1 more study(ies) |
+| D2 Regional coverage | OK | 9 jurisdictions, top EU 44% | — |
+| D3 Anthropogenic evidence | GAP | 1 drinking-water + 1 soil; no supply-chain link | link a supply-chain/ hub page |
+| D4 Background mechanism | OK | section present, 4 drivers, 1 upstream source(s) | — |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tHg THIN, Ni POOLABLE, Cr THIN | tHg: needs 2 more study(ies); Cr: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
 | D8 Provenance integrity | OK | 7 claims checked, 7 supported; 4 citations, 0 orphan, 0 foreign | — |
 | D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
 | D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
 | D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Ni, Cr; pairing 0 paired, 5 single, 0 unpaired | tHg: THIN, needs 2 more study(ies); Cr: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; depth below occasional bar |
-| **Principle balance** | **flag** | consumer-protection 0.67, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
+| **Principle balance** | **flag** | consumer-protection 0.67, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
 
 <!-- /hmi-completeness-scorecard -->
 
@@ -180,6 +180,17 @@ Standard food-grade packaging does not contribute to walnut metal load. Avoid ex
 
 The Codex Alimentarius General Standard CXS 193-1995 does not set a walnut-specific maximum but applies general fruit-and-nut limits. The EU Regulation 2023/915 sets a Pb maximum of 0.20 mg/kg for "tree nuts (almonds, hazelnuts, walnuts, brazil nuts, cashew nuts, chestnuts, coconuts, macadamia nuts, pecan nuts, pistachio, pine nuts)" and Cd at 0.10 mg/kg fresh weight for tree nuts. The EU does not set a tree-nut-specific Ni maximum despite the documented high-Ni profile of tree nuts. The FDA has not set walnut-specific action levels. The German MEAL Study findings on dietary Ni from tree nuts contribute to the case for tree-nut-specific Ni regulatory guidance, but no such guidance is currently in effect.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. German Federal Institute for Risk Assessment (BfR) (2022). *Nickel: estimate of long-term intake via food based on the BfR MEAL Study*. BfR Communication No. 033/2022. [www.bfr.bund.de](https://www.bfr.bund.de/en/a-z_index/nickel-130376.html). Government report, A-tier. [[sources/bfr2022-nickel-dietary-intake-germany-meal|Source record]]
+2. Fechner C, Hackethal C, Höpfner T, Dietrich J, Bloch D, Lindtner O, et al. (2022). *Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods*. Food Chemistry: X. [https://doi.org/10.1016/j.fochx.2022.100326](https://doi.org/10.1016/j.fochx.2022.100326). Peer-reviewed, A-tier. [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|Source record]]
+3. Ćwieląg-Drabek M, Nieć-Leśniak J, Białek-Dratwa A, Piekut A, Kiciak A, Dziubanek G, et al. (2025). *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-024-04438-4](https://doi.org/10.1007/s12011-024-04438-4). Peer-reviewed, A-tier. [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland|Source record]]
+4. Ćwieląg-Drabek M, Nieć-Leśniak J, Białek-Dratwa A, Piekut A, Kiciak A, Dziubanek G, et al. (2025). *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-024-04438-4](https://doi.org/10.1007/s12011-024-04438-4). Peer-reviewed, A-tier. [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -195,18 +206,19 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 6 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | US Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in Composite TDS samples across 307 foods (3,241 food/beverage samples + 35 bottled-water samples) collected across six US regions... (n=3276) |
 | 7 | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|Fechner et al. 2022]]. *Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods*, Food Chemistry: X | 2022 | Peer-reviewed | German MEAL-Study broader contaminant panel (n=869) covering walnuts as part of broad-food-spectrum analysis |
 | 8 | [[sources/bielecka2021-nuts-toxic-elements-poland\|Bielecka et al. 2021]]. *Assessment of the Safe Consumption of Nuts in Terms of the Content of Toxic Elements with Chemometric Analysis*, Nutrients | 2021 | Peer-reviewed | Poland tAs, Cd, Pb, tHg occurrence in One hundred twenty edible nut samples purchased from Polish markets between January and March 2021: ten samples each... (n=120) |
+| 9 | [[sources/iarc2012-nickel-compounds-monograph-100c\|IARC 2012]]. *Nickel and Nickel Compounds (IARC Monographs Volume 100C — A Review of Human Carcinogens: Arsenic, Metals, Fibres, and Dusts)*, IARC Monographs on the Evaluation of Carcinogenic Risks to Humans, Vol. 100C, pp. 169–218. International Agency for Research on Cancer, Lyon. | 2012 | Government report | INTL Ni occurrence in Human carcinogenicity evidence drawn from occupational cohort and nested case–control studies of nickel-producing and nickel-using workers (smelting, refining,... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
+| [ec90dbf98](https://github.com/paleofoundation/heavymetalindex/commit/ec90dbf98) | 2026-05-16 | major | 4 sources added; contamination-profile values revised; 12 sections added |
 <!-- END: hmi-page-history -->

@@ -35,6 +35,14 @@ The EU rows are binding maximum levels. The FDA rows are final guidance action l
 
 Toxicology, typical exposure routes, food sources (linked to [ingredients](/ingredients)), regulatory limits (linked to [regulations](/regulations)), testing methods including speciation (linked to [testing](/testing)), microbiome effects (linked to [microbiome](/microbiome)), vulnerable populations, open questions, and sources.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Ufelle AC and Barchowsky A (2021). *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*. Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education. [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827). Textbook chapter, A-tier. [[sources/ufelle2021-metals-chapter|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -280,19 +288,19 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 236 | [[sources/norin1985-swedish-fish-arsenic-speciation\|Norin et al. 1985]]. *Concentration of inorganic and total arsenic in fish from industrially polluted water*, Chemosphere | 1985 | Peer-reviewed | Sweden tAs, iAs occurrence in Fish captured from arsenic-polluted brackish water near Ronnskar/Skelleftebukten, unpolluted brackish reference water at Furuogrund, polluted freshwater Lake Bodatrask,... |
 | 237 | [[sources/brooke1981-fish-shellfish-inorganic-arsenic\|Brooke et al. 1981]]. *Determination of Total Inorganic Arsenic in Fish, Shellfish and Fish Products*, Analyst | 1981 | Peer-reviewed | GB iAs, tAs occurrence in Fish and shellfish product sample rows in Table V: herring, canned crab, haddock, NBS dried tuna, two whelk... (n=9) |
 | 238 | [[sources/reinke1975-fish-shellfish-inorganic-arsenic\|Reinke et al. 1975]]. *The determination of arsenite and arsenate ions in fish and shellfish by selective extraction and polarography*, Environmental Letters | 1975 | Peer-reviewed | CA iAs, tAs occurrence in White muscle or organ tissue from halibut, shrimp, haddock, crab, mackerel, herring, lobster tail, and lobster hepatopancreas analyzed... (n=8) |
-| 239 | [[sources/oehha-arsenic-prop65-listing\|California Office of Environmental]]. *Arsenic (inorganic Arsenic Compounds) — Proposition 65 Chemical Listing*, California Office of Environmental Health Hazard Assessment, Proposition 65 Listings | — | Government report | California Proposition 65: inorganic arsenic NSRL/MADL regulatory values and listing basis for consumer-product compliance |
+| 239 | [[sources/oehha-arsenic-prop65-listing\|OEHHA]]. *Arsenic (inorganic Arsenic Compounds) — Proposition 65 Chemical Listing*, California Office of Environmental Health Hazard Assessment, Proposition 65 Listings | — | Government report | California Proposition 65: inorganic arsenic NSRL/MADL regulatory values and listing basis for consumer-product compliance |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [71281e235](https://github.com/paleofoundation/heavymetalindex/commit/71281e235) | 2026-06-11 | fix(corpus): dedup Signes-Pastor 2018 infant-arsenic source pages to one canonical key |
-| [5dab71e60](https://github.com/paleofoundation/heavymetalindex/commit/5dab71e60) | 2026-06-11 | fix(corpus): remove malformed duplicate Signes-Pastor 2018 source page, clearing all 3 awaiting-synthesis legend cells |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [5757c0098](https://github.com/paleofoundation/heavymetalindex/commit/5757c0098) | 2026-05-13 | major | 2 sources removed; narrative text revised |
+| [66751b45d](https://github.com/paleofoundation/heavymetalindex/commit/66751b45d) | 2026-05-02 | major | 1 source added; contamination-profile values revised; 1 section added |
+| [3d34b33a9](https://github.com/paleofoundation/heavymetalindex/commit/3d34b33a9) | 2026-04-30 | major | 1 source added; 1 section added; narrative text revised |
+| [22991a6f5](https://github.com/paleofoundation/heavymetalindex/commit/22991a6f5) | 2026-04-29 | major | Contamination-profile values revised; 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

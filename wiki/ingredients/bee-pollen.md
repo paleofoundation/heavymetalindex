@@ -99,6 +99,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
+sources: 1
 updated: 2026-06-01
 ---
 
@@ -131,3 +132,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/sattler2016-bee-pollen-minerals-contaminants\|Sattler et al. 2016]]. *Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil*, Food Science and Technology 36(3):505-509 | 2016 | Peer-reviewed | BR Ba, Cd, Li, Pb, V, Cr, Cu, Mn, Mo, Zn, Fe occurrence in Five dehydrated bee-pollen samples from apiaries in Cruz Alta and Sao Gabriel, Rio Grande do Sul, Brazil, collected... (n=5) |
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | correction | Narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [6661f4696](https://github.com/paleofoundation/heavymetalindex/commit/6661f4696) | 2026-06-09 | major | Contamination-profile values revised; 2 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

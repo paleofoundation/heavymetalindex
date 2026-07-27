@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 21
+sources: 23
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
@@ -180,6 +180,18 @@ Standard food-grade packaging does not contribute to the cabbage metal load. For
 
 The Codex Alimentarius General Standard CXS 193-1995 applies the brassica-vegetables Pb maximum of 0.30 mg/kg fresh weight (or the general leafy-vegetable limit where cabbage is classified as leafy) and Cd at 0.10 mg/kg fresh weight (general vegetables). The EU Regulation 2023/915 applies Pb 0.10 mg/kg for "brassica vegetables, leafy vegetables and fresh herbs" and Cd 0.050 mg/kg for the same category — substantially tighter than Codex. The FDA does not set a cabbage-specific action level. The Armand 2026 Behbahan probabilistic risk modeling found cumulative-intake metrics for Iranian lettuce-and-cabbage above thresholds of concern under reasonable-worst-case consumption assumptions, consistent with the broader leafy-vegetable category ([[sources/armand2026-lettuce-cabbage-behbahan]]).
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Armand R, Rafati L, Mohammadi H, and Armand N (2026). *Probabilistic carcinogenic and health risk assessment of heavy metals in lettuce and cabbage from Behbahan, Iran, using Monte Carlo simulation*. Scientific Reports. [https://doi.org/10.1038/s41598-026-40958-w](https://doi.org/10.1038/s41598-026-40958-w). Peer-reviewed, A-tier. [[sources/armand2026-lettuce-cabbage-behbahan|Source record]]
+2. Islam EU, Yang XE, He ZL, and Mahmood Q (2007). *Assessing potential dietary toxicity of heavy metals in selected vegetables and food crops*. Journal of Zhejiang University Science B. [https://doi.org/10.1631/jzus.2007.B0001](https://doi.org/10.1631/jzus.2007.B0001). Review, B-tier. [[sources/islam2007-dietary-toxicity-vegetables-food-crops|Source record]]
+3. Okonofua ES, Komolafe AS, Emeribe CN, Ogbomida ET, and Butu AW (2024). *Analysis of Bioaccumulation of Heavy Metals in Water, Cabbage (Brassica oleracea var. capitata) and Tilapia Fish (Oreochromis niloticus) from Unreclaimed Mining Pits*. Earth Sciences Pakistan. [https://doi.org/10.26480/esp.02.2024.134.139](https://doi.org/10.26480/esp.02.2024.134.139). Peer-reviewed, B-tier. [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria|Source record]]
+4. Reczajska W, Jedrzejczak R, and Szteke B (2005). *Determination of Chromium Content of Food and Beverages of Plant Origin*. Polish Journal of Food and Nutrition Sciences. Peer-reviewed, A-tier. [[sources/reczajska2005-chromium-plant-foods-poland|Source record]]
+5. See SN, Pak Dek MS, Sanny M, Shukri R, and Ramli NS (2025). *Heavy Metals Assessment in Selected Leafy Vegetables from Selangor, Malaysia*. Pertanika Journal of Tropical Agricultural Science. [https://doi.org/10.47836/pjtas.48.1.12](https://doi.org/10.47836/pjtas.48.1.12). Peer-reviewed, B-tier. [[sources/see2025-malaysia-leafy-vegetables-icp-oes|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -209,15 +221,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
+| [84e1f50c3](https://github.com/paleofoundation/heavymetalindex/commit/84e1f50c3) | 2026-05-16 | major | 5 sources added; contamination-profile values revised; 12 sections added |
 <!-- END: hmi-page-history -->

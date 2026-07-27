@@ -88,7 +88,7 @@ export default ((opts?: Partial<Options>) => {
 
     if (tocEntries.length === 0) return null
 
-    // Left section-nav (Examine-style accordion): top-level sections shown,
+    // Left section-nav accordion: top-level sections shown,
     // their sub-sections nested and hidden, revealed for the active section via
     // CSS :has(.in-view). Short and curated — no scroll, no OverflowList.
     if (position === "left") {

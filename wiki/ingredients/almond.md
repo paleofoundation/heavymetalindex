@@ -105,7 +105,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | D8 Provenance integrity | GAP | 12 claims checked, 12 supported; 4 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming almond: efsa-nickel-contam-2020, braga2013-snas-nosologic-framework-bramani-diet |
 | D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr |
+| D10 Regulatory coverage | OK | 2 rule link(s), 7 metal(s) covered | unmapped analytes: Cr |
 | D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Ni, Cr, tAs; pairing 0 paired, 6 single, 0 unpaired | Pb: THIN; Cd: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Cr: THIN; tAs: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
 
@@ -191,6 +191,17 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The European Union's Regulation (EU) 2023/915 on maximum levels for certain contaminants in food establishes maximum levels (MLs) for Pb and Cd in nuts. For tree nuts, the applicable Pb ML is 0.20 mg/kg (200 ppb) wet weight as placed on the market. The applicable Cd ML for tree nuts is 0.050 mg/kg (50 ppb) wet weight, with certain exceptions for specific nut species at lower levels ([[regulations/eu2023-contaminants-maximum-levels]]). No specific EU ML exists for Ni in almonds; Ni is regulated for drinking water but not for food matrices under current EU contaminant legislation. No US FDA action level for Pb, Cd, or Ni in whole almonds is established in the current corpus; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) has focused on infant and toddler foods rather than on tree nut commodities directly. No Codex Alimentarius ML for heavy metals in almonds appears in the current corpus.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Mari-Ann Flyvholm, Gitte Dalsgaard Nielsen, and Allan Andersen (1984). *Nickel Content of Food and Estimation of Dietary Intake*. Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431. [https://doi.org/10.1007/BF01043437](https://doi.org/10.1007/BF01043437). Peer-reviewed, A-tier. [[sources/flyvholm1984-nickel-content-food-dietary-intake|Source record]]
+2. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2020). *Update of the Risk Assessment of Nickel in Food and Drinking Water*. EFSA Journal 2020;18(11):6268. [https://doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268). Government report, A-tier. [[sources/efsa-nickel-contam-2020|Source record]]
+3. M. Braga, C. Quecchia, C. Perotta, A. Timpini, K. Maccarinelli, L. Di Tommaso, et al. (2013). *Systemic Nickel Allergy Syndrome: Nosologic Framework and Usefulness of Diet Regimen for Diagnosis*. International Journal of Immunopathology and Pharmacology 26(3):707-716. [https://doi.org/10.1177/039463201302600314](https://doi.org/10.1177/039463201302600314). Peer-reviewed, A-tier. [[sources/braga2013-snas-nosologic-framework-bramani-diet|Source record]]
+4. Marques M, Correig E, Capdevila E, Gargallo E, Gonzalez N, Nadal M, et al. (2021). *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-021-03021-5](https://doi.org/10.1007/s12011-021-03021-5). Peer-reviewed, A-tier. [[sources/marques2021-trace-elements-milks-plant-based-drinks|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -213,15 +224,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
+| [0a3851481](https://github.com/paleofoundation/heavymetalindex/commit/0a3851481) | 2026-05-13 | major | Contamination-profile values revised; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

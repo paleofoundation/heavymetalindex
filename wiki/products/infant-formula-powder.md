@@ -10,7 +10,7 @@ primary_metals_of_concern: [Al, Ni, Cd, Pb, tAs, iAs, tHg, MeHg, Cr-VI, Sn]
 vulnerable_population: infants-0-12mo
 audience: [regulator, educator, consumer, app]
 review_state: draft
-sources: 40
+sources: 49
 wiki_doi: null
 updated: 2026-05-08
 ---
@@ -43,7 +43,7 @@ This base product node exists for sources that report powdered infant formula wi
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>
@@ -160,6 +160,21 @@ Citing this page at a single source's maximum value as if it were a threshold ju
 
 _No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not brand rankings (CLAUDE.md Part 12)._
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Maria Luisa Astolfi, Daniela Marotta, Vittoria Cammalleri, Elisabetta Marconi, Arianna Antonucci, Pasquale Avino, et al. (2021). *Determination of 40 Elements in Powdered Infant Formulas and Related Risk Assessment*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph18105073](https://doi.org/10.3390/ijerph18105073). Peer-reviewed, A-tier. [[sources/astolfi2021-italy-powdered-infant-formula-elements|Source record]]
+2. Ghosia Lutfullah, Abid Ali Khan, Azra Yasmeen Amjad, and Sajida Perveen (2014). *Comparative study of heavy metals in dried and fluid milk in Peshawar by atomic absorption spectrophotometry*. The Scientific World Journal. [https://doi.org/10.1155/2014/715845](https://doi.org/10.1155/2014/715845). Peer-reviewed, A-tier. [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals|Source record]]
+3. Saeed Akhtar, Muhammad Arif Shahzad, Sang-Ho Yoo, Amir Ismail, Aneela Hameed, Tarig Ismail, et al. (2017). *Determination of aflatoxin M1 and heavy metals in infant formula milk brands available in Pakistani markets*. Korean Journal for Food Science of Animal Resources. [https://doi.org/10.5851/kosfa.2017.37.1.79](https://doi.org/10.5851/kosfa.2017.37.1.79). Peer-reviewed, A-tier. [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin|Source record]]
+4. Almeida CC, Baiao DS, Rodrigues PA, Saint-Pierre TD, Hauser-Davis RA, and Leandro KC (2022). *Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil, and Child Health Risks According to the Target Hazard Quotients and Target Cancer Risk*. International Journal of Environmental Research and Public Health 19(18):11178. [https://doi.org/10.3390/ijerph191811178](https://doi.org/10.3390/ijerph191811178). Peer-reviewed, A-tier. [[sources/almeida2022-brazil-infant-formula-toxic-metals|Source record]]
+5. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
+6. Meli MA, Desideri D, Sisti D, Fagiolino I, and Roselli C (2024). *Chemical characterization of baby food consumed in Italy*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0297158](https://doi.org/10.1371/journal.pone.0297158). Peer-reviewed, A-tier. [[sources/meli2024-chemical-characterization-baby-food-italy|Source record]]
+7. Pandelova M, Levy Lopez W, Michalke B, and Schramm KW (2012). *Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby foods from the EU market: Comparison of assessed infant intakes with the present safety limits for minerals and trace elements*. Journal of Food Composition and Analysis. [https://doi.org/10.1016/j.jfca.2012.04.011](https://doi.org/10.1016/j.jfca.2012.04.011). Peer-reviewed, A-tier. [[sources/pandelova2012-eu-baby-food-formula-elements|Source record]]
+8. Signes-Pastor AJ, Cottingham KL, Carey M, Sayarath V, Palys T, Meharg AA, et al. (2018). *Infants' dietary arsenic exposure during transition to solid food*. Scientific Reports 8(1):7114. [https://doi.org/10.1038/s41598-018-25372-1](https://doi.org/10.1038/s41598-018-25372-1). Peer-reviewed, A-tier. [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -217,15 +232,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [f907793bb](https://github.com/paleofoundation/heavymetalindex/commit/f907793bb) | 2026-05-17 | minor | Narrative text revised |
+| [4e2cdd0cc](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0cc) | 2026-05-17 | minor | Narrative text revised |
+| [559970934](https://github.com/paleofoundation/heavymetalindex/commit/559970934) | 2026-05-13 | minor | Narrative text revised |
+| [a32d2cf5f](https://github.com/paleofoundation/heavymetalindex/commit/a32d2cf5f) | 2026-05-13 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

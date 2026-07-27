@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 32
+sources: 35
 ---
 
 # Eggs
@@ -100,12 +100,12 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D2 Regional coverage | OK | 27 jurisdictions, top CN 38% | — |
 | D3 Anthropogenic evidence | GAP | 3 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 3 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd POOLABLE, iAs POOLABLE, tAs POOLABLE, tHg POOLABLE, Ni CONFIDENT, Al THIN, Cr POOLABLE, Sn THIN, U THIN | Al: needs 1 more study(ies); Sn: needs 2 more study(ies); U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb CONFIDENT, Cd POOLABLE, iAs POOLABLE, tAs POOLABLE, tHg POOLABLE, Ni POOLABLE, Al THIN, Cr POOLABLE, Sn THIN, U THIN | Al: needs 1 more study(ies); Sn: needs 2 more study(ies); U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
 | D8 Provenance integrity | GAP | 8 claims checked, 8 supported; 4 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming eggs: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 1 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr, U |
+| D10 Regulatory coverage | OK | 1 rule link(s), 7 metal(s) covered | unmapped analytes: Al, Cr, U |
 | D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; pairing 0 paired, 10 single, 0 unpaired | Al: THIN, needs 1 more study(ies); Sn: THIN, needs 2 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
 
@@ -220,6 +220,17 @@ _No quantified data on packaging or storage effects on heavy metal content in eg
 
 Under the European Union [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for lead in eggs is 0.10 mg/kg (100 ppb) on a fresh weight basis, and for cadmium in eggs it is 0.050 mg/kg (50 ppb) fresh weight. These limits reflect the historical possibility of elevated metals in eggs from free-range hens on contaminated land, rather than a risk specific to commercial production. The US TDS all-zero result for hard-boiled eggs [[sources/fda2022-tds-elements-fy2018-fy2020]] is consistent with the EU limits being non-binding in practice for commercially produced US market eggs. No US federal maximum level for lead or cadmium in eggs has been finalized as of 2026. Codex Alimentarius (CXS 193-1995 and revisions) sets a general lead limit of 0.10 mg/kg for eggs, consistent with the EU limit.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
+2. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+3. Aendo P, Mingkhwan R, Senachai K, Pinniam N, Sonthong K, and Tulayakul P (2024). *Heavy metal contamination in eggs on poultry farms and ecological risk assessment around a gold mine area in northern Thailand*. Environmental Geochemistry and Health. [https://doi.org/10.1007/s10653-024-02215-9](https://doi.org/10.1007/s10653-024-02215-9). Peer-reviewed, A-tier. [[sources/aendo2024-thailand-egg-metals-goldmine|Source record]]
+4. Dai Xinghui, Li Mintao, Chen Jiahui, Feng Ping, Chen Jingrong, Zhao Jian, et al. (2024). *Assessment of Dietary Arsenic Exposure Levels and the Associated Health Risks in Chongqing City, China*. Chinese Journal of Public Health. [https://doi.org/10.12182/20241160509](https://doi.org/10.12182/20241160509). Peer-reviewed, A-tier. [[sources/dai2024-chongqing-dietary-arsenic-exposure|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -265,15 +276,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
+| [8c4f23243](https://github.com/paleofoundation/heavymetalindex/commit/8c4f23243) | 2026-05-13 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -107,9 +107,9 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 16 claims checked, 16 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming chili-con-carne-with-beans: fda2022-tds-elements-fy2018-fy2020 |
+| D8 Provenance integrity | GAP | 19 claims checked, 19 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming chili-con-carne-with-beans: fda2022-tds-elements-fy2018-fy2020 |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 4 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
+| D10 Regulatory coverage | OK | 6 rule link(s), 7 metal(s) covered | unmapped analytes: Cr, U |
 | D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
@@ -212,7 +212,15 @@ Enamel-lined cans substantially reduce tin migration. For retorted canned produc
 
 ## Regulatory limits that apply
 
-EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) and the general contaminants regulation ([[regulations/eu2023-contaminants-maximum-levels]]) do not set a single composite limit for canned chili as a finished product; applicable limits apply to constituent ingredients (beef muscle, legumes, tomato products, cereal-derived ingredients if applicable). For nickel, no specific EU or Codex maximum level applies to canned composite foods as a category; nickel exposure is monitored under dietary exposure assessments rather than individual product limits. No specific US FDA action level applies to canned chili; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler foods. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides cadmium limits for legumes (pulses): the applicable Codex limit for dried legumes is 0.10 mg/kg, and for canned legumes it is generally addressed under the fresh/dried category limit. For tin in canned foods, the Codex ML is 200 mg/kg and the EU limit is 200 mg/kg for non-beverages.
+EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) and the general contaminants regulation ([[regulations/eu2023-contaminants-maximum-levels]]) do not set a single composite limit for canned chili as a finished product; applicable limits apply to constituent ingredients (beef muscle, legumes, tomato products, cereal-derived ingredients if applicable). For nickel, the EU does set maximum levels: Commission Regulation (EU) 2024/1987 inserted nickel as Annex I point 3.6 of Regulation (EU) 2023/915 ([[regulations/eu-2024-1987-nickel-maximum-levels]]), applying from 1 July 2025, including limits on the bean fraction (pulses 4.0 mg/kg, point 3.6.9.1; dry beans and dry lupins 12 mg/kg, point 3.6.9.2; legume vegetables 1.0 mg/kg, point 3.6.6.1). Canned chili as a finished composite is not itself a listed category, so no single finished-product nickel level applies; the ingredient-level limits govern the legume fraction and the composite is handled under Article 3 (ingredient proportions, processing factors). Commission Recommendation (EU) 2024/907 ([[regulations/eu-2024-907-nickel-monitoring]]) additionally directs Member States to monitor nickel in pulses through 2025–2027. The United States sets no nickel limit in food. No specific US FDA action level applies to canned chili; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler foods. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides cadmium limits for legumes (pulses): the applicable Codex limit for dried legumes is 0.10 mg/kg, and for canned legumes it is generally addressed under the fresh/dried category limit. For tin in canned foods, the Codex ML is 200 mg/kg and the EU limit is 200 mg/kg for non-beverages.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -225,15 +233,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
+| [aa5fd53f2](https://github.com/paleofoundation/heavymetalindex/commit/aa5fd53f2) | 2026-05-13 | major | Contamination-profile values revised |
 <!-- END: hmi-page-history -->

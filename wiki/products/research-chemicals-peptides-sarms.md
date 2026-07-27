@@ -17,7 +17,7 @@ typical_ingredients: []
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 literature_scope: thin
-sources: 2
+sources: 4
 wiki_doi: null
 created_by: cat26_step0_2026_06_08
 updated: 2026-06-08
@@ -33,6 +33,14 @@ updated: 2026-06-08
 
 The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Craven A, Ferris J, Nielsen S, and Piatkowski T (2025). *Lead Astray? The Hidden Contaminants in Australian Anabolic–Androgenic Steroid Market and Their Potential Health Impact*. Drug and Alcohol Review. [https://doi.org/10.1111/dar.70007](https://doi.org/10.1111/dar.70007). Peer-reviewed, A-tier. [[sources/craven2025-aas-heavy-metals-australia|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -45,11 +53,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [4dcfa39](https://github.com/paleofoundation/heavymetalindex/commit/4dcfa39) | 2026-06-08 | ingest: craven2025-aas-heavy-metals-australia from June 8 (research-chemical occurrence) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c794d6b50](https://github.com/paleofoundation/heavymetalindex/commit/c794d6b50) | 2026-06-08 | major | 1 section added; narrative text revised |
+| [4dcfa39fb](https://github.com/paleofoundation/heavymetalindex/commit/4dcfa39fb) | 2026-06-08 | major | 1 source added; 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

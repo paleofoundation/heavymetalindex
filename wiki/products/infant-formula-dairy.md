@@ -12,7 +12,7 @@ primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 9
+sources: 11
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -28,6 +28,20 @@ updated: 2026-05-17
 ## Literature scope
 
 The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 7 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Arun Kumar, Radhika Agarwal, Kanhaiya Kumar, Nirmal Kumar Chayal, Mohammad Ali, Abhinav Srivastava, et al. (2024). *High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants*. Environmental Health. [https://doi.org/10.1186/s12940-024-01115-w](https://doi.org/10.1186/s12940-024-01115-w). Peer-reviewed, A-tier. [[sources/research2024-research-open-access-y|Source record]]
+2. Tugba Demir and Sema Agaoglu (2023). *Estimated daily intake and health risk assessment of toxic elements in infant formulas*. British Journal of Nutrition. [https://doi.org/10.1017/S0007114523000971](https://doi.org/10.1017/S0007114523000971). Peer-reviewed, A-tier. [[sources/demir2023-infant-formulas-turkey-toxic-elements|Source record]]
+3. V. O. Odhiambo, R. Wanjau, J. O. Odundo, and M. P. Nawiri (2015). *Toxic trace elements in different brands of milk infant formulae in Nairobi market, Kenya*. African Journal of Food Science. [https://doi.org/10.5897/AJFS2015.1315](https://doi.org/10.5897/AJFS2015.1315). Peer-reviewed, A-tier. [[sources/odhiambo2015-infant-formula-nairobi-trace-elements|Source record]]
+4. Songul Unuvar, Ebru Kuyumcu Savan, and Nagihan M. Karaaslan (2017). *Determination of Element Concentrations in Commercial Infant Formulas Using Atomic Absorption Spectrometry*. Atomic Spectroscopy. [https://doi.org/10.46770/as.2017.04.005](https://doi.org/10.46770/as.2017.04.005). Peer-reviewed, A-tier. [[sources/unuvar2017-commercial-infant-formula-elements-turkey|Source record]]
+5. Ainara Gredilla, Silvia Fdez-Ortiz de Vallejuelo, Gorka Arana, Alberto de Diego, Marcos L. S. Oliveira, Katia da Boit, et al. (2022). *A Rapid Routine Methodology Based on Chemometrics to Evaluate the Toxicity of Commercial Infant Milks Due to Hazardous Elements*. Food Analytical Methods. [https://doi.org/10.1007/s12161-022-02267-6](https://doi.org/10.1007/s12161-022-02267-6). Peer-reviewed, A-tier. [[sources/gredilla2022-powdered-milk-hazardous-elements|Source record]]
+6. Dijana Durovic, Branka Milisavljevic, Mirjana Nedovic-Vukovic, Branislav Potkonjak, Snezana Spasic, and Miroslav M. Vrvic (2017). *Determination of Microelements in Human Milk and Infant Formula Without Digestion by ICP-OES*. Acta Chimica Slovenica. [https://doi.org/10.17344/acsi.2016.2582](https://doi.org/10.17344/acsi.2016.2582). Peer-reviewed, A-tier. [[sources/durovic2017-human-milk-infant-formula-microelements|Source record]]
+7. Seth H. Frisbie, Erika J. Mitchell, Stephane Roudeau, Florelle Domart, Asuncion Carmona, and Richard Ortega (2019). *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0223636](https://doi.org/10.1371/journal.pone.0223636). Peer-reviewed, A-tier. [[sources/frisbie2019-manganese-infant-formula-beverages|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -113,15 +127,15 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 No dairy-formula recall or enforcement source is currently routed to this provisional page. Future prose should summarize public regulatory records and keep brand names out unless the source is itself a regulatory event requiring them.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added; narrative text revised |
+| [ce3e07c7b](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c7b) | 2026-05-28 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [0e753f349](https://github.com/paleofoundation/heavymetalindex/commit/0e753f349) | 2026-05-25 | major | 7 sources added; narrative text revised |
+| [c5da3a863](https://github.com/paleofoundation/heavymetalindex/commit/c5da3a863) | 2026-05-19 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

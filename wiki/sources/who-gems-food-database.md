@@ -40,6 +40,7 @@ The five most recent substantive edits to this page. Major means evidence or str
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [c91a7481a](https://github.com/paleofoundation/heavymetalindex/commit/c91a7481a) | 2026-06-01 | major | 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

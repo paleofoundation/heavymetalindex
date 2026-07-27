@@ -93,19 +93,28 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 | --- | --- | --- | --- |
 | _no reviews yet_ | | | |
 
-The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Nepper-Davidsen J, Glasson CRK, Lawton RJ, and Magnusson M (2023). *High spatial and temporal variation in biomass composition of the novel aquaculture target Ecklonia radiata*. Journal of Applied Phycology. [https://doi.org/10.1007/s10811-023-02969-2](https://doi.org/10.1007/s10811-023-02969-2). Peer-reviewed, A-tier. [[sources/nepper-davidsen2023-kelp-biomass-composition-nz|Source record]]
+2. Hahn ME, Schultz IR, Ylitalo GM, Boyd D, Sloan CA, Niewolny LA, et al. (2022). *Chemical contaminant levels in edible seaweeds of the Salish Sea and implications for their consumption*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0269269](https://doi.org/10.1371/journal.pone.0269269). Peer-reviewed, A-tier. [[sources/hahn2022-salish-seaweed-contaminants|Source record]]
+3. European Food Safety Authority (EFSA), Dujardin B, Ferreira de Sousa R, and Gomez Ruiz JA (2023). *Dietary exposure to heavy metals and iodine intake via consumption of seaweeds and halophytes in the European population*. EFSA Journal. [https://doi.org/10.2903/j.efsa.2023.7798](https://doi.org/10.2903/j.efsa.2023.7798). Peer-reviewed, A-tier. [[sources/efsa2023-heavy-metals-seaweed|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
+| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b85ab6847](https://github.com/paleofoundation/heavymetalindex/commit/b85ab6847) | 2026-05-16 | major | 3 sources added; 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

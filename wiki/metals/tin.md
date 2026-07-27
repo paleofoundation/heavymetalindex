@@ -6,7 +6,7 @@ name: Tin
 species: [Sn0, Sn2+, Sn4+, organotins]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: medium
-sources: 61
+sources: 83
 wiki_doi: null
 updated: 2026-05-08
 status: scaffold
@@ -52,6 +52,17 @@ The current corpus is largely silent on tin-microbiome interactions. Inorganic t
 ## Vulnerable populations
 
 Infants and young children fed canned baby food are the principal vulnerable group for inorganic tin, recognized in EU 2023/915 by the 50 mg/kg infant-and-young-child cap (one-quarter of the general canned-food cap). Frequent seafood consumers are the principal vulnerable group for organotins, particularly populations with high reliance on bivalves and crustaceans from coastal waters with legacy TBT contamination. Body-weight-normalized intake makes both populations more vulnerable than absolute concentrations alone suggest.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Carolyn Harper, Fernando Llados, Gary Diamond, Lara L. Chappell, and Agency for Toxic Substances and Disease Registry (2005). *Toxicological Profile for Tin and Tin Compounds*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp55.pdf). Government report, A-tier. [[sources/atsdr2005-tin-toxicological-profile|Source record]]
+2. Christine J. Benoy, Patricia A. Hooper, and R. Schneider (1971). *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*. Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656. [https://doi.org/10.1016/0015-6264(71)90152-0](https://doi.org/10.1016/0015-6264(71)90152-0). Peer-reviewed, A-tier. [[sources/benoy1971-tin-toxicity-canned-fruit-juices|Source record]]
+3. S. G. Schafer and U. Femfert (1984). *Tin — A Toxic Heavy Metal? A Review of the Literature*. Regulatory Toxicology and Pharmacology, Vol. 4, pp. 57-69. [https://doi.org/10.1016/0273-2300(84)90006-0](https://doi.org/10.1016/0273-2300(84)90006-0). Peer-reviewed, A-tier. [[sources/schafer1984-tin-toxic-heavy-metal-review|Source record]]
+4. Rida Evalina Tarigan, Jansen Silalahi, and Muchlisyam (2016). *Factors are Affecting Tin Released in Canned Beverages*. International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333. [sphinxsai.com](https://sphinxsai.com/2016/ph_vol9_no5/3/(330-333)V9N5PT.pdf). Peer-reviewed, B-tier. [[sources/tarigan2016-factors-tin-released-canned-beverages|Source record]]
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -196,15 +207,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [baa0176fb](https://github.com/paleofoundation/heavymetalindex/commit/baa0176fb) | 2026-05-13 | major | 5 sources removed; narrative text revised |
+| [d04abbc18](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc18) | 2026-05-08 | major | 4 sources added and 1 removed; 7 sections added and 3 removed; narrative text revised |
+| [66751b45d](https://github.com/paleofoundation/heavymetalindex/commit/66751b45d) | 2026-05-02 | major | 1 source added; contamination-profile values revised; 1 section added |
+| [3d34b33a9](https://github.com/paleofoundation/heavymetalindex/commit/3d34b33a9) | 2026-04-30 | major | 1 source added; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

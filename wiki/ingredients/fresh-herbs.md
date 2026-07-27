@@ -103,7 +103,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | D2 Regional coverage | OK | 4 jurisdictions, top IR 50% | — |
 | D3 Anthropogenic evidence | GAP | 1 agricultural-soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 4 drivers, 1 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, tAs THIN, tHg THIN, Ni THIN, Al THIN, Cr THIN | tAs: needs 2 more study(ies); tHg: needs 1 more study(ies); Ni: needs 2 more study(ies); Al: needs 2 more study(ies); Cr: needs 2 more study(ies) |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni THIN, Al THIN, Cr THIN | tAs: needs 2 more study(ies); tHg: needs 1 more study(ies); Ni: needs 2 more study(ies); Al: needs 2 more study(ies); Cr: needs 2 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
 | D8 Provenance integrity | GAP | 6 claims checked, 6 supported; 3 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming fresh-herbs: lhaac2025-csp41-herbs-spices-wa |
@@ -180,6 +180,16 @@ Packaging is not the dominant pathway for fresh herbs. Standard food-grade clams
 
 The Codex Alimentarius General Standard CXS 193-1995 applies the leafy-vegetable Pb maximum of 0.30 mg/kg fresh weight to fresh herbs, and Cd at 0.20 mg/kg fresh weight (general vegetables; some fresh herbs fall under specific tighter categories). The EU Regulation 2023/915 applies tighter limits: 0.30 mg/kg Pb for "leafy vegetables and fresh herbs," and 0.20 mg/kg Cd for leafy vegetables and stems excluding celery and salsify. The Australian LHAAC 2025 CSP 41 found commercial fresh-herb product generally compliant with applicable Australian caps on a fresh-weight basis ([[sources/lhaac2025-csp41-herbs-spices-wa]]). The Polish Winiarska-Mieczan 2023 work confirmed similar compliance for the Polish-market fresh-herb category ([[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices]]).
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Fischer A and Brodziak-Dopierała B (2022). *The Mercury Concentration in Spice Plants*. Processes. [https://doi.org/10.3390/pr10101954](https://doi.org/10.3390/pr10101954). Peer-reviewed, A-tier. [[sources/fischer2022-mercury-spice-plants-poland|Source record]]
+2. LHAAC (2025). *Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices*. Local Health Authorities Analytical Committee, Edith Cowan University. Government report, A-tier. [[sources/lhaac2025-csp41-herbs-spices-wa|Source record]]
+3. Winiarska-Mieczan A, Jachimowicz K, Kwiecień M, Krusiński R, Kislova S, Sowińska L, et al. (2023). *The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-022-03437-7](https://doi.org/10.1007/s12011-022-03437-7). Peer-reviewed, A-tier. [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -196,15 +206,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
+| [e33207531](https://github.com/paleofoundation/heavymetalindex/commit/e33207531) | 2026-05-16 | major | 3 sources added; contamination-profile values revised; 12 sections added |
 <!-- END: hmi-page-history -->

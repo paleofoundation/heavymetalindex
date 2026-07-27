@@ -83,7 +83,7 @@ used_in_products: [non-root-vegetable-purees]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 38
+sources: 39
 ---
 
 # Leafy Greens
@@ -139,6 +139,22 @@ This node is linked from [[products/non-root-vegetable-purees]].
 
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 9 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2009). *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*. The EFSA Journal. [https://doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980). Government report, A-tier. [[sources/efsa-cadmium-contam-2009|Source record]]
+2. Adhikari S and Struwig M (2024). *Concentrations and health risks of selected elements in leafy vegetables: a comparison between roadside open-air markets and large stores in Johannesburg, South Africa*. [https://doi.org/10.1007/s10661-023-12343-4](https://doi.org/10.1007/s10661-023-12343-4). Peer-reviewed, A-tier. [[sources/adhikari2024-leafy-vegetables-johannesburg|Source record]]
+3. Chiutula C, Mtewa AG, Abraham A, Mvula RLS, Maluwa A, Eregno FE, et al. (2025). *Assessment of Heavy Metal Accumulation in Wastewater–Receiving Soil–Exotic and Indigenous Vegetable Systems and Its Potential Health Risks: A Case Study from Blantyre, Malawi*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph22111614](https://doi.org/10.3390/ijerph22111614). Peer-reviewed, A-tier. [[sources/chiutula2025-wastewater-vegetables-malawi|Source record]]
+4. Armand R, Rafati L, Mohammadi H, and Armand N (2026). *Probabilistic carcinogenic and health risk assessment of heavy metals in lettuce and cabbage from Behbahan, Iran, using Monte Carlo simulation*. Scientific Reports. [https://doi.org/10.1038/s41598-026-40958-w](https://doi.org/10.1038/s41598-026-40958-w). Peer-reviewed, A-tier. [[sources/armand2026-lettuce-cabbage-behbahan|Source record]]
+5. Centre for Food Safety FEHD HKSAR (2012). *The First Hong Kong Total Diet Study: Inorganic Arsenic*. Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. [www.cfs.gov.hk](https://www.cfs.gov.hk/english/programme/programme_rdss/programme_rdss_tds_report.html). Government report, A-tier. [[sources/cfs2012-hktds-inorganic-arsenic|Source record]]
+6. Centre for Food Safety (Hong Kong) (2013). *The First Hong Kong Total Diet Study: Metallic Contaminants*. Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. [www.cfs.gov.hk](https://www.cfs.gov.hk/english/programme/programme_firm/programme_firm_tds.html). Government report, A-tier. [[sources/cfs2013-hktds-metallic-contaminants|Source record]]
+7. Dearing C, Ye Z, and Robertshaw G (2025). *Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis*. F1000Research. [https://doi.org/10.12688/f1000research.175538.1](https://doi.org/10.12688/f1000research.175538.1). Peer-reviewed, B-tier. [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Source record]]
+8. Saleem M, Wang Y, Pierce D, Sens DA, Somji S, and Garrett SH (2025). *Concentration and Potential Non-Carcinogenic and Carcinogenic Health Risk Assessment of Metals in Locally Grown Vegetables*. Foods. [https://doi.org/10.3390/foods14132264](https://doi.org/10.3390/foods14132264). Peer-reviewed, A-tier. [[sources/saleem2025-nd-vegetables-hra|Source record]]
+9. Bora FD, Bunea A, Pop SR, Banita SI, Dusa DS, Chira A, et al. (2022). *Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania*. Horticulturae. [https://doi.org/10.3390/horticulturae8111034](https://doi.org/10.3390/horticulturae8111034). Peer-reviewed, A-tier. [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -181,7 +197,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 33 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency report for the UK Food Standards Agency, Fera report 15/06, project FS102081 | 2015 | Government report | UK Total Diet Study baseline (3,312 retail samples, 24 locations) reporting Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, and Sb in the green-vegetables food category as-consumed, with separate iAs and tAs measurement methodology |
 | 34 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical textbook Cd chapter synthesizing occurrence across food groups with leafy greens as a significant dietary Cd contributor, especially for European vegetarians and high-vegetable consumers |
 | 35 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA Cd scientific opinion establishing TWI of 2.5 µg/kg b.w./week with leafy greens among the food categories driving elevated Cd exposure in European vegetarians |
-| 36 | [[sources/oehha-cadmium-prop65-evidence-1996\|California Office of Environmental 1996]]. *Evidence on the Developmental and Reproductive Toxicity of Cadmium*, California Environmental Protection Agency, Office of Environmental Health Hazard Assessment | 1996 | Government report | California OEHHA hazard identification for Cd developmental and reproductive toxicity, referencing leafy vegetables as a dietary Cd exposure source in the Prop 65 listing basis |
+| 36 | [[sources/oehha-cadmium-prop65-evidence-1996\|OEHHA 1996]]. *Evidence on the Developmental and Reproductive Toxicity of Cadmium*, California Environmental Protection Agency, Office of Environmental Health Hazard Assessment | 1996 | Government report | California OEHHA hazard identification for Cd developmental and reproductive toxicity, referencing leafy vegetables as a dietary Cd exposure source in the Prop 65 listing basis |
 | 37 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | International Codex MLs for Cd and Pb in vegetables including leafy greens, the international reference limit applicable to this commodity category |
 | 38 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Foundational Ni concentration data across 2,221 food samples including leafy vegetables from the Danish dietary Ni survey, used as the Ni occurrence anchor for this page |
 <!-- END: hmi-source-legend -->
@@ -233,15 +249,15 @@ Leafy-green metal mitigation is dominated by sourcing and agronomic intervention
 - California Prop 65 ([[regulations/california-prop65]]) applies to Pb and Cd cumulative-exposure calculations for leafy-green-containing consumer products sold in California; the MADL/NSRL serving-based screen is the operational tool.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [378d999f9](https://github.com/paleofoundation/heavymetalindex/commit/378d999f9) | 2026-05-17 | minor | Narrative text revised |
+| [c38f524a3](https://github.com/paleofoundation/heavymetalindex/commit/c38f524a3) | 2026-05-17 | major | 9 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -1,7 +1,7 @@
 @use "../../styles/variables.scss" as *;
 
-// Icon utility links in the left rail (Examine "Database / Feed / References"
-// group). Sits below the section nav, above the cross-reference counts.
+// Icon utility links in the left rail (evidence database, research feed,
+// references). Sits below the section nav, above the cross-reference counts.
 .hmi-leftnav-util {
   display: flex;
   flex-direction: column;

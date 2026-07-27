@@ -24,7 +24,7 @@ step0_basis: "regulatory-alignment (Sn to Codex 250000; inherited fish Hg caps);
 step0_confidence: provisional
 across_row_review_hook: "DISSOLVED 2026-06-16: freestanding canned row is defective per the canned/tin rule (conflates can-driven Sn + fish-driven MeHg). Canned forms route to their matrix-native fish/shellfish row carrying a tin flag; Sn handled as the tin-dirty subcategory via the Cat 23 food-packaging-cans platform. Not a Cat 6 standalone standard."
 literature_scope: thin
-sources: 51
+sources: 55
 wiki_doi: null
 created_by: cat6_step0_scaffold_2026_06_02
 updated: 2026-06-02
@@ -228,14 +228,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [cb2a3bb](https://github.com/paleofoundation/heavymetalindex/commit/cb2a3bb) | 2026-06-03 | feat(standards): Cat 6 (Seafood) Step 0 scope lock + recover ~219 stranded declarations |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | major | 2 sections added; narrative text revised |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 2 sections removed; narrative text revised |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 2 sections added; narrative text revised |
+| [cb2a3bb2b](https://github.com/paleofoundation/heavymetalindex/commit/cb2a3bb2b) | 2026-06-03 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

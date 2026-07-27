@@ -8,25 +8,25 @@ category: fruit
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [1, 50]
+    p95_ppb: 150
     confidence: medium
-    n_studies: 9
-    last_reviewed: 2026-05-16
+    n_studies: 6
+    last_reviewed: 2026-06-14
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [1, 10]
+    p95_ppb: 30
     confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-06-14
   iAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-14
   tAs:
     status: populated
     typical_ppb: [0, 5.4]
@@ -36,44 +36,44 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-06-14
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
+    typical_ppb: [1, 110]
+    p95_ppb: 360
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-14
   Al:
     status: populated
     typical_ppb: [0, 1410]
     p95_ppb: 1645
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
+    typical_ppb: [4, 57]
+    p95_ppb: 126
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-06-14
   Sn:
     status: populated
     typical_ppb: [0, 16.4]
     p95_ppb: 20.8
-    confidence: medium
+    confidence: low
     n_studies: 1
     last_reviewed: 2026-05-13
   U:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
+    confidence: low
     n_studies: 2
     last_reviewed: 2026-05-13
 drivers: []
@@ -83,7 +83,7 @@ used_in_products: [fruit-juices-apple-containing, fruit-purees]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 23
+sources: 25
 ---
 
 # Apple
@@ -96,17 +96,17 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 8/10 HMTc analytes, total n=40 | — |
+| D1 Analyte coverage (tier: common) | OK | 6/10 HMTc analytes, total n=27 | labeled data-gaps: tHg, iAs |
 | D2 Regional coverage | OK | 14 jurisdictions, top US 40% | — |
 | D3 Anthropogenic evidence | GAP | 1 soil + 1 agricultural-soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 2 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, iAs POOLABLE, tAs POOLABLE, tHg POOLABLE, Ni CONFIDENT, Al THIN, Cr CONFIDENT, Sn THIN, U THIN | Al: needs 2 more study(ies); Sn: needs 2 more study(ies); U: needs 1 more study(ies) |
+| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, Ni THIN, Al THIN, Cr THIN, Sn THIN, U THIN | Ni: THIN; Al: needs 2 more study(ies); Cr: THIN; Sn: needs 2 more study(ies); U: needs 1 more study(ies) |
 | D6 Speciation | OK | iAs, tAs, tHg declared | — |
 | D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 11 claims checked, 11 supported; 6 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming apple: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020, signes-pastor2018-infants-dietary-arsenic-solid-food |
+| D8 Provenance integrity | GAP | 51 claims checked, 51 supported; 15 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming apple: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020, signes-pastor2018-infants-dietary-arsenic-solid-food |
 | D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; pairing 0 paired, 10 single, 0 unpaired | Al: THIN, needs 2 more study(ies); Sn: THIN, needs 2 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| D10 Regulatory coverage | OK | 2 rule link(s), 7 metal(s) covered | unmapped analytes: Al, Cr, U |
+| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, Ni, Al, Cr, Sn, U; pairing 0 paired, 8 single, 0 unpaired | Ni: THIN; Al: THIN, needs 2 more study(ies); Cr: THIN; Sn: THIN, needs 2 more study(ies); U: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
 | **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
 
 <!-- /hmi-completeness-scorecard -->
@@ -118,24 +118,40 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Apples accumulate heavy metals through two primary routes. The first is soil uptake via the root system, which delivers Pb, Cd, and other metals from orchard soils into the vascular tissue and fruit flesh. Historical apple orchard management in North America and Europe relied heavily on lead arsenate as a pesticide from the late nineteenth century through the mid-twentieth century, leaving a legacy of elevated Pb and arsenic in orchard soils that persists in some regions decades after application ceased; this residual contamination continues to contribute trace levels of Pb and arsenic to fruit grown in those orchards. The second route is atmospheric deposition on fruit surfaces during the growing season, which can deposit Pb and other metals directly onto the skin; washing and peeling can remove a portion of this surface-deposited load.
 
-Despite these exposure routes, apples are generally a low-risk commodity for heavy metals under current commercial production conditions. The FDA FY2018-FY2020 Total Diet Study data for raw apple with peel (TDS Food 78, n=27) show the majority of analytes at or below detection limits across most of the sample distribution ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Total arsenic showed a p90 of 5.36 ppb and a maximum of 20 ppb, with the speciated iAs fraction awaiting a dedicated speciation source. The regulatory and media attention that apples have received in recent years has been driven primarily by cinnamon adulteration in fruit pouches rather than by contamination in the apple ingredient itself: the 2023 WanaBana lead poisoning cluster was attributable to cinnamon adulterated with lead chromate, not to the apple component ([[sources/napier2024-wanabana-lead-apple-cinnamon|Napier et al. 2024]]).
+Despite these exposure routes, apples are generally a low-risk commodity for heavy metals under current commercial production conditions. The FDA FY2018-FY2020 Total Diet Study data for raw apple with peel (TDS Food 78, n=27) show the majority of analytes at or below detection limits across most of the sample distribution ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Total arsenic reached a maximum of 20 ppb, with most samples at or below detection and the speciated iAs fraction awaiting a dedicated speciation source. The regulatory and media attention that apples have received in recent years has been driven primarily by cinnamon adulteration in fruit pouches rather than by contamination in the apple ingredient itself: the 2023 WanaBana lead poisoning cluster was attributable to cinnamon adulterated with lead chromate, not to the apple component ([[sources/napier2024-wanabana-lead-apple-cinnamon|Napier et al. 2024]]).
 
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=9 | 0 | 0 | medium | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/napier2024-wanabana-lead-apple-cinnamon\|2]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|3]] |
-| Cd | n=7 | 0 | 0 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| iAs | n=4 | 0 | 0 | medium | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/houlihan2019-hbbf-whats-in-baby-food\|3]] |
-| tAs | n=6 | 0–5.4 | 8 | medium | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|3]] |
-| tHg | n=4 | 0 | 0 | medium | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/tan2022-carbon-dots-cd-hg-food\|3]] |
-| Ni | n=3 | 0 | 0 | high | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
-| Al | n=1 | 0–1410 | 1645 | medium | — |
-| Cr | n=3 | 0 | 0 | high | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
-| Sn | n=1 | 0–16.4 | 20.8 | medium | — |
-| U | n=2 | 0 | 0 | high | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 1–50 | medium | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/napier2024-wanabana-lead-apple-cinnamon\|2]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|3]] |
+| Cd | n=5 | 1–10 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=6 | 0–5.4 | medium | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|3]] |
+| tHg | data gap | — | — | — |
+| Ni | n=3 | 1–110 | low | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Al | n=1 | 0–1410 | low | — |
+| Cr | n=3 | 4–57 | low | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Sn | n=1 | 0–16.4 | low | — |
+| U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, cadmium, nickel, and chromium cells were resynthesized on 2026-06-14 on a fresh whole apple with peel (wet weight) basis, the form in which apple enters the ingredient supply chain and the basis on which the FDA Total Diet Study reports raw apple. Sources that report on a dry-weight basis are noted as such and converted approximately to fresh weight using the fruit moisture content stated by their authors (apple is roughly 85 to 90 percent water, so dry-weight values run about seven to ten times higher than the corresponding fresh-weight values); dry-weight figures are used only to corroborate the fresh-weight distribution, never as the headline.
+
+Values below the analytical limit of detection or quantification are treated as left-censored, not as measured zeros. The prior profile reported lead, cadmium, inorganic arsenic, total mercury, nickel, and chromium at typical and 95th-percentile values of zero. Those zeros were an artifact of the FDA Total Diet Study composite for raw apple with peel ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]], TDS Food 78, n=27 per analyte), in which every apple composite fell below the FDA reporting limit for lead (4 µg/kg), cadmium (1 µg/kg), nickel (40 µg/kg), and mercury (1 µg/kg), and 26 of 27 fell below the reporting limit for chromium (50 µg/kg). The below-reporting-limit results were pooled as literal zeros, which understates the true contamination because the detected distributions from the wider literature are low but non-zero. The resynthesis replaces the censored zeros with those detected distributions, treating each reporting limit as a censored upper bound on the FDA contribution rather than as a measured value.
+
+Lead rests on a fresh-weight retail-to-allotment gradient. Polish retail apple is the low anchor ([[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]], fresh apple mean 9 µg/kg, range 1 to 24 µg/kg, n=57), South Korean retail apple sits in the middle and carries the highest mean lead of fourteen fresh-fruit species in that survey ([[sources/lee2023-south-korea-fresh-fruits-seven-metals|Lee et al. 2023]], apple mean 46.4 µg/kg, detection 93 percent, n=207 across species), and self-harvested allotment and roadside apple sets the upper tail ([[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits|Sembratowicz et al. 2010]], fresh-mass means 80 to 90 µg/kg, single-lot range 8 to 210 µg/kg from gardens within 100 m of roads). Pakistani low-industry apple corroborates the floor on a dry-weight basis ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Rahim et al. 2020]], 5.2 µg/kg dry weight, equivalent to roughly 0.5 to 0.7 µg/kg fresh weight). The typical range of 1 to 50 µg/kg spans clean commercial retail through the higher retail mean; the 95th-percentile of 150 µg/kg reflects the allotment and roadside upper tail rather than commercial retail, which is the conservative defensible bound.
+
+Cadmium rests on the same fresh-weight datasets. Polish retail apple is low ([[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]], fresh apple mean 1 µg/kg, range 0.4 to 7.1 µg/kg), allotment apple is modestly higher ([[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits|Sembratowicz et al. 2010]], fresh-mass means 9 to 10 µg/kg, single-lot maximum about 30 µg/kg), and South Korean retail apple is mostly below the limit of detection (apple cadmium below 2.2 µg/kg, 11 percent detection across the survey, [[sources/lee2023-south-korea-fresh-fruits-seven-metals|Lee et al. 2023]]). Pakistani apple corroborates on a dry-weight basis ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Rahim et al. 2020]], 6.5 µg/kg dry weight, roughly 0.7 to 0.9 µg/kg fresh weight); Romanian retail and amateur-farm apple was below the limit of detection for cadmium throughout ([[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Bora et al. 2022]], cadmium limit of quantification 0.069 µg/L). The typical range of 1 to 10 µg/kg and the 95th-percentile of 30 µg/kg track the allotment upper tail.
+
+Nickel is published at low confidence because the apple-specific evidence spans roughly two orders of magnitude and depends on a dry-weight conversion at the low end. Egyptian fresh apple is the detected high anchor ([[sources/amer2019-egyptian-fruits-heavy-metals|Amer et al. 2019]], apple nickel 110 to 360 µg/kg fresh weight across four governorates, detected in every sample), a single Nigerian retail apple sample falls in the middle ([[sources/unaegbu2016-fruit-heavy-metals-enugu|Unaegbu et al. 2016]], one apple sample at about 50 µg/kg, the other below detection), and Pakistani apple sets the floor on a dry-weight basis ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Rahim et al. 2020]], 10.6 µg/kg dry weight, roughly 1 to 1.5 µg/kg fresh weight). The FDA composite was below its 40 µg/kg nickel reporting limit in all 27 samples and is carried as a censored contribution only. The typical range of 1 to 110 µg/kg and the 95th-percentile of 360 µg/kg are set directly from the Egyptian upper tail.
+
+Chromium is reported as total chromium at low confidence; no hexavalent-chromium measurement in whole apple exists in the corpus. South Korean retail apple is the strongest datum and the highest-chromium species in that survey ([[sources/lee2023-south-korea-fresh-fruits-seven-metals|Lee et al. 2023]], apple chromium mean 56.7 µg/kg, single-sample maximum 126.2 µg/kg fresh weight, detected in all samples). Pakistani apple corroborates the lower end on a dry-weight basis ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Rahim et al. 2020]], 41.7 µg/kg dry weight, roughly 4 to 6 µg/kg fresh weight), and the FDA composite was below its 50 µg/kg chromium reporting limit in 26 of 27 samples with a single sample at 55 µg/kg ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The typical range of 4 to 57 µg/kg spans the converted dry-weight floor through the Korean retail mean; the 95th-percentile of 126 µg/kg is the Korean single-sample maximum.
+
+Inorganic arsenic and total mercury are recorded as reviewed data gaps for whole apple. No source in the corpus reports a speciated inorganic-arsenic measurement in whole apple; the FDA composite reports total arsenic (carried in the untouched tAs cell, maximum 20 µg/kg), and the infant-food reviews that mention apple ([[sources/bair2022-infant-toddler-food-heavy-metals-policy|Bair 2022]], [[sources/houlihan2019-hbbf-whats-in-baby-food|Houlihan et al. 2019]]) characterize apple juice and apple-based purees rather than whole apple, which is a different matrix and basis and is handled on [[ingredients/apple-juice]]. For total mercury, every fresh whole-apple measurement in the corpus is below the analytical reporting limit, including all 27 FDA composites below 1 µg/kg; the only detected apple mercury value is for imported dried apple ([[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Mania et al. 2021]], 16 µg/kg in dried apple), a concentrated form on a different basis that cannot be carried as a fresh whole-apple value. Both cells are therefore left as data gaps with null values rather than as zeros, recording that the literature was reviewed and no usable fresh whole-apple distribution was found. Total arsenic, aluminium, tin, and uranium were outside the scope of this resynthesis and retain their prior values.
 
 ## Routing
 
@@ -143,7 +159,7 @@ This node is linked from [[products/fruit-juices-apple-containing]], [[products/
 
 ## Contamination Profile State
 
-The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -156,21 +172,21 @@ FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix 
 
 FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Apple, red, with peel, raw" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
-| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 55 | in profile |
-| Ni | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | 0 | 5.36 | 8.04 | 20 | in profile |
-| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Metal | n | min | max | Schema |
+| --- | ---: | ---: | ---: | --- |
+| Cd | 27 | 0 | 0 | in profile |
+| Cr | 27 | 0 | 55 | in profile |
+| Ni | 27 | 0 | 0 | in profile |
+| Pb | 27 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 20 | in profile |
+| tHg | 27 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
 
-The FDA TDS FY2018-FY2020 data (TDS Food 78, n=27) provide a US market distribution for raw apple with peel, representing composite samples purchased at retail across multiple US cities ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). These distributions show most analytes below detection in the majority of samples, with tAs reaching a p90 of 5.36 ppb and a maximum of 20 ppb. Polish market data from [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]], which measured Cd and Pb across fresh, frozen, dried, and processed fruit and vegetable products (n=370 total), include apple data across processing states and provide a European comparison point; specific quantitative values for apple from that source remain in progress pending table extraction. Variety-level variation within apple cultivars is not resolved in the current corpus; synthesis of regional and varietal ranges will be updated when additional occurrence data are integrated.
+The FDA TDS FY2018-FY2020 data (TDS Food 78, n=27) provide a US market distribution for raw apple with peel, representing composite samples purchased at retail across multiple US cities ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). These distributions show most analytes below detection in the majority of samples, with tAs reaching a maximum of 20 ppb. Polish market data from [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]], which measured Cd and Pb across fresh, frozen, dried, and processed fruit and vegetable products (n=370 total), include apple data across processing states and provide a European comparison point; specific quantitative values for apple from that source remain in progress pending table extraction. Variety-level variation within apple cultivars is not resolved in the current corpus; synthesis of regional and varietal ranges will be updated when additional occurrence data are integrated.
 
 ## Processing effects
 
@@ -210,6 +226,28 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 In the European Union, Regulation (EU) 2023/915 establishes a maximum level for Pb in fresh fruit (including apples) of 0.10 mg/kg (100 ppb) and for Cd of 0.050 mg/kg (50 ppb), both on a wet weight basis as placed on the market ([[regulations/eu2023-contaminants-maximum-levels]]). For apple juice and apple cider intended for infants and young children, EU law applies a stricter Pb ML of 0.020 mg/kg (20 ppb). In the United States, the FDA has established an action level for inorganic arsenic in apple juice at 10 ppb (see [[sources/fda2023-ias-apple-juice-guidance|FDA 2023]] and the apple-juice ingredient page). For apple as a whole fruit, no FDA commodity-specific action level for Pb or Cd exists under the current Closer to Zero framework ([[regulations/fda-closer-to-zero]]); the FDA's priority for Pb action levels in the Closer to Zero program targets processed infant and toddler food categories rather than raw whole fruit. No Codex Alimentarius ML for Pb in apples appears in the current corpus.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 15 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
+2. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+3. Napier MD and et al. (2024). *Childhood Lead Exposure Linked to Apple Cinnamon Fruit Puree Pouches — North Carolina, June 2023–January 2024*. MMWR Morbidity and Mortality Weekly Report. [https://doi.org/10.15585/mmwr.mm7328a2](https://doi.org/10.15585/mmwr.mm7328a2). Government report, A-tier. [[sources/napier2024-wanabana-lead-apple-cinnamon|Source record]]
+4. Rusin M, Domagalska J, Rogala D, Razzaghi M, and Szymala I (2021). *Concentration of cadmium and lead in vegetables and fruits*. Scientific Reports. [https://doi.org/10.1038/s41598-021-91554-z](https://doi.org/10.1038/s41598-021-91554-z). Peer-reviewed, A-tier. [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Source record]]
+5. Lee J, Hwang I, Park YS, and Lee DY (2023). *Occurrence and health risk assessment of antimony, arsenic, barium, cadmium, chromium, nickel, and lead in fresh fruits consumed in South Korea*. Applied Biological Chemistry. [https://doi.org/10.1186/s13765-023-00799-x](https://doi.org/10.1186/s13765-023-00799-x). Peer-reviewed, A-tier. [[sources/lee2023-south-korea-fresh-fruits-seven-metals|Source record]]
+6. Sembratowicz I, Rusinek E, and Ognik K (2010). *Contents of Nitrates (III) and (V), Lead and Cadmium in Select Domestic Fruits*. Polish Journal of Environmental Studies. Peer-reviewed, A-tier. [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits|Source record]]
+7. Rahim M, Saqib NU, Wahid F, Khan N, and Alrawi LI (2020). *Analysis of Toxic Heavy Metal Content of the Most Widely Consumed Fruits*. Journal of Physical Science. [https://doi.org/10.21315/jps2020.31.2.5](https://doi.org/10.21315/jps2020.31.2.5). Peer-reviewed, A-tier. [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Source record]]
+8. Bora FD, Bunea A, Pop SR, Banita SI, Dusa DS, Chira A, et al. (2022). *Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania*. Horticulturae. [https://doi.org/10.3390/horticulturae8111034](https://doi.org/10.3390/horticulturae8111034). Peer-reviewed, A-tier. [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Source record]]
+9. Amer MM, Sabry BA, Marrez DA, Hathout AS, and Fouzy ASM (2019). *Exposure assessment of heavy metal residues in some Egyptian fruits*. Toxicology Reports. [https://doi.org/10.1016/j.toxrep.2019.06.007](https://doi.org/10.1016/j.toxrep.2019.06.007). Peer-reviewed, A-tier. [[sources/amer2019-egyptian-fruits-heavy-metals|Source record]]
+10. Magdalene Unaegbu, Vincent C. I. Eze, Ebere C. I. Omeje, Ezinne A. O. Agbo, and Ebere V. Chukwuma (2016). *Heavy metal, nutrient and antioxidant status of selected fruit samples sold in Enugu, Nigeria*. International Journal of Food Contamination. [https://doi.org/10.1186/s40550-016-0031-9](https://doi.org/10.1186/s40550-016-0031-9). Peer-reviewed, A-tier. [[sources/unaegbu2016-fruit-heavy-metals-enugu|Source record]]
+11. Emily C. Bair (2022). *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*. Frontiers in Nutrition. [https://doi.org/10.3389/fnut.2022.919913](https://doi.org/10.3389/fnut.2022.919913). Peer-reviewed, A-tier. [[sources/bair2022-infant-toddler-food-heavy-metals-policy|Source record]]
+12. Jane Houlihan and Charlotte Brody (2019). *What's in My Baby's Food? A National Investigation Finds 95 Percent of Baby Foods Tested Contain Toxic Chemicals That Lower Babies' IQ, Including Arsenic and Lead*. Healthy Babies Bright Futures. [www.hbbf.org](https://www.hbbf.org/research/whats-my-babys-food). Nonprofit, B-tier. [[sources/houlihan2019-hbbf-whats-in-baby-food|Source record]]
+13. Mania M, Rebeniak M, Chabros E, Orshulyak O, and Postupolski J (2021). *The content of lead, cadmium, arsenic, mercury and tin in fruit and their products based on monitoring studies – exposure assessment*. Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene). [https://doi.org/10.32394/rpzh.2021.0188](https://doi.org/10.32394/rpzh.2021.0188). Peer-reviewed, A-tier. [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Source record]]
+14. Signes-Pastor AJ, Cottingham KL, Carey M, Sayarath V, Palys T, Meharg AA, et al. (2018). *Infants' dietary arsenic exposure during transition to solid food*. Scientific Reports 8(1):7114. [https://doi.org/10.1038/s41598-018-25372-1](https://doi.org/10.1038/s41598-018-25372-1). Peer-reviewed, A-tier. [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food|Source record]]
+15. FDA CFSAN (2023). *Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry*. U.S. Food and Drug Administration, Center for Food Safety and Applied Nutrition. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-apple-juice). Government guidance, A-tier. [[sources/fda2023-ias-apple-juice-guidance|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -244,15 +282,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [1ca3eb0](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb0) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
+| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | Contamination-profile values revised |
+| [610c5f3b8](https://github.com/paleofoundation/heavymetalindex/commit/610c5f3b8) | 2026-05-13 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

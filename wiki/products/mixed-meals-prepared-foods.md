@@ -15,7 +15,7 @@ primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 0
+sources: 1
 updated: 2026-06-09
 step0_status: provisional
 step0_provisional_reason: "Zero routed sources. Aggregates across matrices; populates as component-matrix evidence accumulates."
@@ -70,4 +70,17 @@ The five most recent substantive edits to this page. The full version history li
 | [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
 | [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
 | [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+<!-- END: hmi-page-history -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | correction | Narrative text revised |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
+| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 2 sections added; narrative text revised |
+| [743ed7c4f](https://github.com/paleofoundation/heavymetalindex/commit/743ed7c4f) | 2026-05-30 | major | 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

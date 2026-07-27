@@ -48,7 +48,7 @@ This page is HMTc Category 5 row 8 from the locked beverage architecture. It exi
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>
@@ -99,6 +99,14 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/lead\|Pb]] | Flavored waters (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/fda-21cfr165110-bottled-water-lead]]: 5 ppb (bottled water) | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Zmudzinska A, Puscion-Jakubik A, Bielecka J, Grabia M, Soroczynska J, Mielcarek K, et al. (2022). *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*. Nutrients 14(11):2325. [https://doi.org/10.3390/nu14112325](https://doi.org/10.3390/nu14112325). Peer-reviewed, A-tier. [[sources/zmudzinska2022-rte-baby-foods-poland|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -140,15 +148,15 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 No flavored-water recall or enforcement event has been promoted into this page yet. The current enforceable context is the FDA bottled-water lead standard already shown in the crosswalk. Any future enforcement synthesis should distinguish plain bottled water, flavored water, fruit drinks, and infant or toddler drinks before drawing comparisons.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page. Major means evidence or structure moved: sources entered or left the page, sections were added, or contamination-profile values were revised. Correction means a published value or statement was wrong and has been fixed. Minor means the narrative was rewritten without changing the underlying evidence. Each description is derived from what the edit did to this page, and each linked commit is the authoritative record of the change; routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [c679df8](https://github.com/paleofoundation/heavymetalindex/commit/c679df8) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c66](https://github.com/paleofoundation/heavymetalindex/commit/8707c66) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84e](https://github.com/paleofoundation/heavymetalindex/commit/140e84e) | 2026-06-03 | refresh manual fetch generated outputs |
-| [315a7b8](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8) | 2026-06-02 | chore: refresh generated outputs after June 2 ingest |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [ce3e07c7b](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c7b) | 2026-05-28 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [d2e28f7e0](https://github.com/paleofoundation/heavymetalindex/commit/d2e28f7e0) | 2026-05-25 | major | 1 source added; narrative text revised |
+| [21f4b32e6](https://github.com/paleofoundation/heavymetalindex/commit/21f4b32e6) | 2026-05-17 | major | 7 sections added; narrative text revised |
+| [88594dab3](https://github.com/paleofoundation/heavymetalindex/commit/88594dab3) | 2026-05-17 | major | 1 section added |
 <!-- END: hmi-page-history -->

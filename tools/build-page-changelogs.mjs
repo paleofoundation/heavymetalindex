@@ -159,10 +159,6 @@ for (const targetDir of TARGETS) {
   for (const file of fs.readdirSync(absDir)) {
     if (!file.endsWith(".md")) continue
     if (file.startsWith("_")) continue
-    // wiki/sources/index.md is the corpus index, not a source record; the
-    // DOI-metadata pre-commit hook treats anything staged under wiki/sources/
-    // as a source page, so it stays out of this generator's reach.
-    if (targetDir === "wiki/sources" && file === "index.md") continue
     const relPath = `${targetDir}/${file}`
     const absPath = path.join(repoRoot, relPath)
     const raw = fs.readFileSync(absPath, "utf8")
