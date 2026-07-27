@@ -2,7 +2,8 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { classNames } from "../util/lang"
 import { pathToRoot, resolveRelative, type SimpleSlug, type FullSlug } from "../util/path"
 import { i18n } from "../i18n"
-import { taxonomyLinks, utilityLinks, type TopNavLink } from "./topNavLinks"
+import { utilityLinks } from "./topNavLinks"
+import { MegaMenu } from "./MegaMenu"
 import style from "./styles/topNav.scss"
 // @ts-ignore — inline script, resolved by Quartz's esbuild loader
 import script from "./scripts/topNav.inline"
@@ -30,12 +31,6 @@ import askScript from "./scripts/askindex.inline"
 // All hrefs resolve relative to the current page so the bar is correct at any
 // directory depth. Active state is computed server-side from the current slug.
 
-function isActive(currentSlug: FullSlug, link: TopNavLink): boolean {
-  const cur = (currentSlug ?? "") as string
-  if (cur === link.slug) return true
-  if (link.matchPrefix && cur.startsWith(`${link.slug}/`)) return true
-  return false
-}
 
 export interface TopNavOptions {}
 
@@ -47,19 +42,6 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
     const wordmark = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
     const searchPlaceholder = i18n(cfg.locale).components.search.searchBarPlaceholder
 
-    const renderLink = (link: TopNavLink) => {
-      const href = resolveRelative(slug, link.slug as SimpleSlug)
-      const active = isActive(slug, link)
-      return (
-        <a
-          href={href}
-          class={active ? "hmi-topnav-link active" : "hmi-topnav-link"}
-          aria-current={active ? "page" : undefined}
-        >
-          {link.label}
-        </a>
-      )
-    }
 
     return (
       <div class={classNames(displayClass, "hmi-topnav")}>
@@ -100,8 +82,8 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
             </svg>
           </button>
 
-          <nav id="hmi-topnav-menu" class="hmi-topnav-menu" aria-label="Primary">
-            <div class="hmi-topnav-taxonomy">{taxonomyLinks.map(renderLink)}</div>
+          <nav id="hmi-topnav-menu" class="hmi-topnav-menu hmi-nav" aria-label="Primary">
+            <MegaMenu slug={slug} />
             <div class="hmi-topnav-controls">
               {/*
                 Quartz's Search markup, rendered inline in the bar. It is NOT a

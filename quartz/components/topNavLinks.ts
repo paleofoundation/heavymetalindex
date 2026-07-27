@@ -1,13 +1,12 @@
-// Single source of truth for the global top-navigation bar (TopNav.tsx).
+// Secondary destinations in the global top-navigation bar (TopNav.tsx).
 //
-// Two link groups render in the white full-width bar:
-//   - `taxonomyLinks`  → the primary corpus taxonomy (Metals first, per the
-//     metals-first rollout decision). These are the load-bearing reference
-//     destinations a regulator / brand-legal reader navigates by.
-//   - `utilityLinks`   → secondary destinations (About). Search and "Ask the
-//     Index" are NOT in this list: they are interactive components mounted by
-//     TopNav.tsx directly (Search has its own modal + index, AskIndex its own
-//     dialog), so they cannot be expressed as plain hrefs here.
+// The primary taxonomy no longer lives here: it is the five mega-menu panels,
+// whose contents are curated in `navPanels.seed.ts` and resolved (with live
+// counts and a build-blocking dangling-slug check) into
+// `generated/navPanels.ts` by tools/build-nav-panels.mjs.
+//
+// What remains is `utilityLinks` → secondary destinations (About). "Ask the
+// Index" is not in this list: it is rendered by TopNav.tsx as its own pill.
 //
 // Hrefs are root-relative SIMPLE slugs (no leading slash, no extension).
 // TopNav.tsx resolves each one against the current page with
@@ -31,19 +30,6 @@ export interface TopNavLink {
    */
   matchPrefix?: boolean
 }
-
-// Primary taxonomy — the full menu carried on the live heavymetalindex.com
-// header, in the live order. Keep this in sync with the deployed site.
-export const taxonomyLinks: TopNavLink[] = [
-  { label: "Products", slug: "products" as SimpleSlug, matchPrefix: true },
-  { label: "Ingredients", slug: "ingredients" as SimpleSlug, matchPrefix: true },
-  { label: "Metals", slug: "metals" as SimpleSlug, matchPrefix: true },
-  { label: "Mitigation", slug: "mitigation" as SimpleSlug, matchPrefix: true },
-  { label: "Supply chain", slug: "supply-chain" as SimpleSlug, matchPrefix: true },
-  { label: "Regulations", slug: "regulations" as SimpleSlug, matchPrefix: true },
-  { label: "Synthesis", slug: "synthesis" as SimpleSlug, matchPrefix: true },
-  { label: "Sources", slug: "sources" as SimpleSlug, matchPrefix: true },
-]
 
 // Secondary destinations rendered to the right of the interactive controls.
 export const utilityLinks: TopNavLink[] = [

@@ -386,3 +386,104 @@ body:has(.hmi-topnav-shell) {
     }
   }
 }
+
+// ---------------------------------------------------------------------------
+// Mega-menu (drop-card panels)
+//
+// The flat taxonomy row is replaced by five disclosure panels. Contract:
+//   - The top-level label is a real <a> to the hub; a sibling chevron <button>
+//     owns the disclosure, so a touch tap on the label navigates and a tap on
+//     the chevron opens — no first-tap sacrificed to a hover state a phone then
+//     latches open.
+//   - Panels are server-rendered in full and hidden with `visibility`, never
+//     `display:none`, so every link ships in the static HTML for crawlers and
+//     leaves the tab order when closed.
+//   - CSS opens on :focus-within (no-JS keyboard) and on :hover ONLY behind a
+//     pointer-media gate; topNav.inline.ts adds `.hmi-nav--js` to take over, so
+//     the two never fight.
+// ---------------------------------------------------------------------------
+.hmi-sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
+// The bar is the positioning context for the drop-card, so it drops below the
+// 68px bar and aligns to the same max-width as the wordmark.
+.hmi-topnav-inner { position: relative; }
+
+.hmi-nav-list {
+  display: flex; flex-direction: row; align-items: center; gap: 24px;
+  list-style: none; margin: 0; padding: 0;
+}
+.hmi-nav-item { display: flex; flex-direction: row; align-items: center; gap: 2px; margin: 0; padding: 0; }
+
+.hmi-nav-top {
+  font-family: Inter, sans-serif; font-size: 15px; font-weight: 500;
+  color: var(--ink, #1f2329); background-color: transparent; white-space: nowrap;
+  transition: color 0.2s ease;
+  &:hover { color: var(--burg, var(--secondary)); text-decoration: none; }
+  &.active { color: var(--burg, var(--secondary)); }
+}
+
+.hmi-nav-toggle {
+  display: inline-flex; align-items: center; justify-content: center;
+  background: none; border: 0; padding: 3px; margin: 0; color: var(--faint, #9aa0a8);
+  cursor: pointer; border-radius: 4px; transition: color 0.15s ease;
+  &:hover { color: var(--burg, var(--secondary)); }
+  &:focus-visible { outline: 2px solid var(--burg, var(--secondary)); outline-offset: 2px; }
+}
+.hmi-nav-item.is-open > .hmi-nav-toggle svg { transform: rotate(180deg); }
+
+.hmi-nav-panel {
+  position: absolute; left: 0; right: 0; top: 100%;
+  visibility: hidden; opacity: 0;
+  background-color: #fff; border: 1px solid var(--line, var(--lightgray));
+  border-top: 0; border-radius: 0 0 14px 14px;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12); z-index: 40;
+  transition: opacity 0.14s ease;
+  &::before { content: ""; position: absolute; top: -10px; left: 0; right: 0; height: 10px; }
+}
+.hmi-nav-item.is-open > .hmi-nav-panel { visibility: visible; opacity: 1; }
+.hmi-nav:not(.hmi-nav--js) .hmi-nav-item:focus-within > .hmi-nav-panel { visibility: visible; opacity: 1; }
+@media (hover: hover) and (pointer: fine) {
+  .hmi-nav:not(.hmi-nav--js) .hmi-nav-item:hover > .hmi-nav-panel { visibility: visible; opacity: 1; }
+}
+
+.hmi-nav-panel-inner { padding: 1.6rem 40px 1.9rem; }
+.hmi-nav-blurb { margin: 0 0 1.1rem; font-size: 0.92rem; color: var(--muted, #6b7280); max-width: 46rem; }
+.hmi-nav-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem 3rem; max-width: 44rem; }
+.hmi-nav-col ul { list-style: none; margin: 0; padding: 0; }
+.hmi-nav-col li { margin: 0; }
+.hmi-nav-colhead {
+  font-family: Lora, serif; font-size: 1rem; font-weight: 600;
+  color: var(--ink, #1f2329); margin: 0 0 0.5rem;
+}
+.hmi-nav-col a {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+  padding: 0.34rem 0; font-size: 0.93rem; color: var(--body, #373c44); background-color: transparent;
+  &:hover { color: var(--burg, var(--secondary)); text-decoration: none;
+    .hmi-nav-childlabel { text-decoration: underline; } }
+}
+.hmi-nav-count { font-size: 0.79rem; color: var(--faint, #9aa0a8); font-variant-numeric: tabular-nums; flex: 0 0 auto; }
+.hmi-nav-all {
+  display: inline-block; margin-top: 1.2rem; font-size: 0.9rem; font-weight: 600;
+  color: var(--burg, var(--secondary)); background-color: transparent;
+}
+
+// Mobile: inside the burger drawer the panels are in-flow accordions driven by
+// the same `.is-open` class. Still `visibility`, never `display:none`.
+@media all and not ($desktop) {
+  .hmi-nav-list { flex-direction: column; align-items: stretch; gap: 0; width: 100%; }
+  .hmi-nav-item { display: grid; grid-template-columns: 1fr auto; width: 100%; }
+  .hmi-nav-top { width: 100%; padding: 0.6rem 0; }
+  .hmi-nav-toggle { min-width: 44px; min-height: 44px; }
+  .hmi-nav-panel {
+    position: static; grid-column: 1 / -1; max-height: 0; overflow: hidden;
+    box-shadow: none; border: 0; border-radius: 0; transition: none;
+    &::before { display: none; }
+  }
+  .hmi-nav-item.is-open > .hmi-nav-panel { max-height: none; }
+  .hmi-nav-panel-inner { padding: 0.2rem 0 0.9rem 0.75rem; }
+  .hmi-nav-blurb { display: none; }
+  .hmi-nav-cols { grid-template-columns: 1fr; gap: 1rem; }
+}

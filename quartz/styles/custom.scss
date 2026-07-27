@@ -2111,3 +2111,56 @@ article tbody td > code:only-child {
     break-inside: avoid;
   }
 }
+
+/* -----------------------------------------------------------
+   Burgundy full-bleed hero (homepage). --burg is theme-stable;
+   --secondary flips to pink in dark mode, so the hero uses --burg.
+   The homepage column is un-constrained so the hero spans edge to
+   edge; the other homepage sections are re-centered to --maxw. No
+   100vw (it includes the scrollbar and overflows on Windows) — the
+   hero centers its own content via padding.
+   ----------------------------------------------------------- */
+.proof-home .proof-container { max-width: none; padding: 0; }
+.proof-home .proof-layout { padding: 0; }
+.proof-home .proof-main { max-width: none; }
+body[data-slug="index"] .hmi-topnav-shell { margin-bottom: 0; }
+
+.hmi-home-corpus-counter,
+.hmi-home-feature-grid,
+.hmi-home-explore,
+.hmi-home-reference-band,
+.hmi-staff-status {
+  max-width: var(--maxw);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.hmi-home-hero {
+  background: var(--burg);
+  color: #fff;
+  margin: 0 0 3rem;
+  padding: 4.25rem max(40px, calc((100% - var(--maxw)) / 2 + 40px)) 3.75rem;
+  min-height: 0;
+}
+.hmi-home-hero .hmi-home-kicker { color: rgba(255, 255, 255, 0.72); }
+.hmi-home-hero h1 { color: #fff; }
+.hmi-home-hero p { color: rgba(255, 255, 255, 0.9); }
+/* Action buttons that read on burgundy (origin's primary is burgundy-on-white,
+   which would vanish here). */
+.hmi-home-hero .hmi-home-action-primary {
+  background: #fff;
+  color: var(--burg);
+  border-color: #fff;
+}
+.hmi-home-hero .hmi-home-hero-actions button,
+.hmi-home-hero .hmi-home-hero-actions > a:not(.hmi-home-action-primary) {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+}
+@media (max-width: 700px) {
+  .hmi-home-hero { padding-top: 2.75rem; padding-bottom: 2.5rem; }
+}
