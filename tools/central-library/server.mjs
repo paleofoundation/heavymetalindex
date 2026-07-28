@@ -7,6 +7,9 @@
 //
 // API:
 //   GET  /api/presets            list preset sets + their groups/queries
+//   GET  /api/library            the real corpus from the canonical identity
+//                                index (drive SQLite; falls back to the
+//                                committed snapshot when the drive is away)
 //   POST /api/run                { presetId, subject, sources?, fromYear?,
 //                                  toYear?, maxPerQuery?, groups?, limitQueries?,
 //                                  dryRun?, outRoot? } → { runId }
@@ -24,6 +27,8 @@ import { writeFile, mkdtemp, rm } from "node:fs/promises"
 import { runCondition, listPresets, loadPreset } from "./lib/run-condition.mjs"
 import { loadWishlist, updateEntry } from "../wishlist/lib/wishlist-store.mjs"
 import { fulfillFile } from "../wishlist/lib/fulfill.mjs"
+import { openIndex, indexDbPath } from "../library/lib/index-db.mjs"
+import { driveStatus } from "../lib/library-root.mjs"
 
 const publicRoot = resolve(fileURLToPath(new URL("./public", import.meta.url)))
 const port = Number(process.env.HMI_CENTRAL_LIBRARY_PORT ?? 8092)
@@ -72,6 +77,12 @@ const server = http.createServer(async (request, response) => {
     // so the Product Sweep can be run one product category at a time.
     if (url.pathname === "/api/matrices" && request.method === "GET") {
       sendJson(response, loadMatrices())
+      return
+    }
+
+    // ── Library: the real corpus from the canonical identity index ────────────
+    if (url.pathname === "/api/library" && request.method === "GET") {
+      sendJson(response, loadLibrary())
       return
     }
 
@@ -262,6 +273,129 @@ function loadMatrices() {
     _matrices = { error: String(e.message), categories: [] }
   }
   return _matrices
+}
+
+// ── /api/library — the real corpus from the canonical identity index ─────────
+// Source chain: drive SQLite (rich: journal, raw_path, source) → committed
+// snapshot data/evidence/library/index-snapshot.jsonl (identity only) → an
+// honest { available:false }. Compact array rows keep 29k+ papers to a few MB.
+// Cached against the source file's mtime so tab switches don't re-query.
+const LIB_FIELDS = ["label", "cite", "doi", "year", "journal", "ing", "pdf", "src", "path"]
+const SNAPSHOT_PATH = "data/evidence/library/index-snapshot.jsonl"
+let _library = null // { key, value }
+
+function loadLibrary() {
+  const dbPath = safeIndexDbPath()
+  try {
+    if (dbPath && fs.existsSync(dbPath)) {
+      const key = `db:${dbPath}:${fs.statSync(dbPath).mtimeMs}`
+      if (_library?.key === key) return _library.value
+      _library = { key, value: libraryFromDb(dbPath) }
+      return _library.value
+    }
+  } catch (e) {
+    console.error(`/api/library: index read failed (${e.message}); trying snapshot`)
+  }
+  try {
+    const snap = resolve(SNAPSHOT_PATH)
+    if (fs.existsSync(snap)) {
+      const key = `snap:${fs.statSync(snap).mtimeMs}`
+      if (_library?.key === key) return _library.value
+      _library = { key, value: libraryFromSnapshot(snap) }
+      return _library.value
+    }
+  } catch (e) {
+    console.error(`/api/library: snapshot read failed (${e.message})`)
+  }
+  const drive = driveStatus()
+  return {
+    available: false,
+    driveMounted: drive.mounted,
+    reason: drive.mounted
+      ? "No library index found on the drive and no committed snapshot in the repo. Run: npm run library:index"
+      : "HMI-Library drive is not mounted and no committed snapshot exists in the repo.",
+  }
+}
+
+function safeIndexDbPath() {
+  try { return indexDbPath() } catch { return null }
+}
+
+// The index carries a little upstream junk ("[]", "unknown") in doi/slug
+// columns; a real DOI always starts "10.". Sanitize at the boundary so the UI
+// never renders junk identity.
+function cleanDoi(d) {
+  return typeof d === "string" && /^10\.\S+$/.test(d) ? d : null
+}
+function cleanSlug(s) {
+  return typeof s === "string" && s.length > 3 ? s : null
+}
+
+function libraryFromDb(dbPath) {
+  const ix = openIndex({ readonly: true })
+  try {
+    const rows = ix.db
+      .prepare(
+        `SELECT normalized_title, cite_key, doi, doi_slug, year, journal,
+                ingested, raw_path, acquisition_source
+         FROM papers WHERE status = 'have' ORDER BY id DESC`,
+      )
+      .all()
+    const counts = { total: rows.length, ingested: 0, withDoi: 0, pdf: 0, bySource: {} }
+    const papers = rows.map((r) => {
+      const doi = cleanDoi(r.doi)
+      const label = r.normalized_title || r.cite_key || doi || cleanSlug(r.doi_slug) || "(unkeyed)"
+      if (r.ingested) counts.ingested++
+      if (doi) counts.withDoi++
+      if (r.raw_path) counts.pdf++
+      const src = r.acquisition_source || "unknown"
+      counts.bySource[src] = (counts.bySource[src] || 0) + 1
+      return [
+        label, r.cite_key || null, doi, r.year || null, r.journal || null,
+        r.ingested ? 1 : 0, r.raw_path ? 1 : 0, src, r.raw_path || null,
+      ]
+    })
+    return {
+      available: true,
+      mode: "index",
+      dbPath,
+      builtAt: ix.getMeta("identity_built_at"),
+      driveScanned: Number(ix.getMeta("drive_pdf_scanned")) || null,
+      updatedAt: new Date(fs.statSync(dbPath).mtimeMs).toISOString(),
+      counts,
+      fields: LIB_FIELDS,
+      papers,
+    }
+  } finally {
+    ix.close()
+  }
+}
+
+function libraryFromSnapshot(snapPath) {
+  const lines = fs.readFileSync(snapPath, "utf8").split("\n").filter(Boolean)
+  const counts = { total: 0, ingested: 0, withDoi: 0, pdf: null, bySource: {} }
+  const papers = []
+  for (const line of lines) {
+    let r
+    try { r = JSON.parse(line) } catch { continue }
+    if (r.status && r.status !== "have") continue
+    counts.total++
+    if (r.ingested) counts.ingested++
+    const doi = cleanDoi(r.doi)
+    if (doi) counts.withDoi++
+    const label = r.title_key || r.cite_key || doi || cleanSlug(r.doi_slug) || "(unkeyed)"
+    // Snapshot is identity-only: journal/raw_path/source are not in the
+    // allowlist, so pdf presence is unknown (null), not zero.
+    papers.push([label, r.cite_key || null, doi, r.year || null, null, r.ingested ? 1 : 0, null, null, null])
+  }
+  return {
+    available: true,
+    mode: "snapshot",
+    snapshotAt: new Date(fs.statSync(snapPath).mtimeMs).toISOString(),
+    counts,
+    fields: LIB_FIELDS,
+    papers,
+  }
 }
 
 function readRawBody(request, maxBytes) {

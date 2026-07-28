@@ -17,8 +17,8 @@
 
 const CL = {
   state: {
-    tab: 'presets', build: 'all', q: '', sort: 'recent', selIdx: null,
-    toast: null,
+    tab: 'presets', facet: 'all', q: '', sort: 'recent', selIdx: null,
+    toast: null, libState: 'idle', libError: null, libLimit: 200,
     presetGroupId: 'hmi-metals', presetTermIdx: 0, newTerm: '',
     groups: [
       { id: 'hmi-metals', build: 'hmi', callType: 'heavy metal', name: 'Infant & child foods — metals', domainFilter: 'infant formula OR baby cereal OR toddler food OR follow-on formula OR "baby food"', dateMin: '2000', dateMax: '3000', max: 200, serp: true, terms: [
@@ -53,28 +53,7 @@ const CL = {
     ],
   },
 
-  builds: {
-    hmi:  { label: 'Heavy Metal Index',   color: '#8B2A4A' },
-    mmed: { label: 'Microbiome Medicine', color: '#506168' },
-    wiki: { label: 'WikiBiome',           color: '#9A938E' },
-  },
 
-  papers: [
-    { title: 'Lead exposure from infant formula: a survey of 230 powdered products', authors: 'Ojha S, Warrington J, et al.', journal: 'BMC Public Health', year: 2024, pmid: '38210011', pmcid: 'PMC10987654', doi: '10.1186/s12889-024-11220-8', builds: [['hmi','direct evidence'],['wiki','exposure only']], pdf: 'stored', resolver: 'PMC', bytes: '482 KB', path: '/library/hmi/2024-ojha-38210011.pdf', tags: ['Pb','infant formula','lead'], hasDupe: true, dupeNote: '2 copies merged (HMI + WikiBiome pull)' },
-    { title: 'Vaginal microbiota composition in bacterial vaginosis and its recurrence', authors: 'Mendez R, Idris K, et al.', journal: 'Frontiers in Microbiology', year: 2023, pmid: '38119842', pmcid: 'PMC10420011', doi: '10.3389/fmicb.2023.00991', builds: [['mmed','direct evidence'],['wiki','direct evidence']], pdf: 'stored', resolver: 'OA', bytes: '1.2 MB', path: '/library/shared/2023-mendez-38119842.pdf', tags: ['bacterial vaginosis','microbiome'] },
-    { title: 'Cadmium and inorganic arsenic in rice-based cereals for infants', authors: 'Kaur T, Singh P, et al.', journal: 'J. Food Composition & Analysis', year: 2022, pmid: '35561200', pmcid: '—', doi: '10.1016/j.jfca.2022.104612', builds: [['hmi','direct evidence']], pdf: 'couldnt', resolver: 'publisher', bytes: '—', path: 'url found · fetch blocked (403)', tags: ['Cd','iAs','rice cereal','arsenic','cadmium'] },
-    { title: 'Gut microbiome signatures in chronic kidney disease progression', authors: 'Al-Rashed F, Owusu B, et al.', journal: 'Kidney International', year: 2025, pmid: '39901220', pmcid: 'PMC11720344', doi: '10.1016/j.kint.2025.01.014', builds: [['mmed','direct evidence']], pdf: 'stored', resolver: 'PMC', bytes: '2.0 MB', path: '/library/mmed/2025-alrashed-39901220.pdf', tags: ['CKD','chronic kidney disease','microbiome'] },
-    { title: 'Total and methylmercury in commercial canned tuna', authors: 'Nguyen P, Halloran M, et al.', journal: 'Food Control', year: 2023, pmid: '37220145', pmcid: '—', doi: '10.1016/j.foodcont.2023.109733', builds: [['hmi','direct evidence']], pdf: 'stored', resolver: 'OA', bytes: '640 KB', path: '/library/hmi/2023-nguyen-37220145.pdf', tags: ['MeHg','tHg','canned tuna','mercury'] },
-    { title: 'Arsenic speciation in dark chocolate and cocoa products', authors: 'Ferreira L, Costa D, et al.', journal: 'J. Agric. & Food Chemistry', year: 2024, pmid: '38640022', pmcid: '—', doi: '10.1021/acs.jafc.4c00219', builds: [['hmi','direct evidence']], pdf: 'stored', resolver: 'publisher', bytes: '910 KB', path: '/library/hmi/2024-ferreira-38640022.pdf', tags: ['iAs','dark chocolate','arsenic'] },
-    { title: 'Nickel content of plant-based infant foods', authors: 'Oyelami K, Bergström A, et al.', journal: 'Food Additives & Contaminants', year: 2021, pmid: '34110778', pmcid: '—', doi: '10.1080/19440049.2021.1901990', builds: [['hmi','direct evidence'],['wiki','exposure only']], pdf: 'notfound', resolver: '—', bytes: '—', path: 'no resolver produced a candidate URL', tags: ['Ni','plant-based toddler milk','nickel'] },
-    { title: 'Endometriosis and the reproductive tract microbiome: a systematic review', authors: 'Costa M, Vidal J, et al.', journal: 'Human Reproduction Update', year: 2024, pmid: '38550190', pmcid: 'PMC10999233', doi: '10.1093/humupd/dmae009', builds: [['mmed','direct evidence']], pdf: 'stored', resolver: 'PMC', bytes: '1.6 MB', path: '/library/mmed/2024-costa-38550190.pdf', tags: ['endometriosis','microbiome'] },
-    { title: 'Lead in ground cinnamon and spice blends: a market survey', authors: 'Patel D, Osei R, et al.', journal: 'J. Food Protection', year: 2023, pmid: '37009912', pmcid: '—', doi: '10.4315/JFP-22-330', builds: [['hmi','direct evidence']], pdf: 'stored', resolver: 'OA', bytes: '520 KB', path: '/library/hmi/2023-patel-37009912.pdf', tags: ['Pb','spices','lead','cinnamon'] },
-    { title: 'Fecal microbiota transplantation outcomes across gastrointestinal conditions', authors: 'Ibrahim S, Lund K, et al.', journal: 'Gut Microbes', year: 2022, pmid: '35770021', pmcid: 'PMC9300881', doi: '10.1080/19490976.2022.2077122', builds: [['mmed','broad context'],['wiki','direct evidence']], pdf: 'stored', resolver: 'OA', bytes: '1.1 MB', path: '/library/shared/2022-ibrahim-35770021.pdf', tags: ['FMT','microbiome'] },
-    { title: 'Aluminium migration from packaging into infant formula', authors: 'Sato Y, Meunier P, et al.', journal: 'Food Chemistry', year: 2021, pmid: '33882001', pmcid: '—', doi: '10.1016/j.foodchem.2021.129440', builds: [['hmi','direct evidence']], pdf: 'couldnt', resolver: 'publisher', bytes: '—', path: 'url found · paywall', tags: ['Al','infant formula','aluminium'] },
-    { title: 'Inorganic arsenic in rice: a global exposure assessment', authors: 'Rahman A, Whitfield C, et al.', journal: 'Environment International', year: 2020, pmid: '32100455', pmcid: 'PMC7000122', doi: '10.1016/j.envint.2020.105512', builds: [['hmi','direct evidence'],['wiki','exposure only']], pdf: 'stored', resolver: 'PMC', bytes: '2.4 MB', path: '/library/shared/2020-rahman-32100455.pdf', tags: ['iAs','rice','arsenic'] },
-    { title: 'Teething biscuit heavy-metal content: a pilot study', authors: 'Duman E, Fischer L, et al.', journal: 'medRxiv (preprint)', year: 2025, pmid: '—', pmcid: '—', doi: '10.1101/2025.03.14.25323901', builds: [['hmi','direct evidence']], pdf: 'stored', resolver: 'SERP', bytes: '380 KB', path: '/library/unfiled/2025-duman-preprint.pdf', tags: ['Pb','Cd','teething biscuits'], isNew: true },
-    { title: 'Skin microbiome composition in rosacea: a 16S rRNA survey', authors: 'Voss H, Almeida R, et al.', journal: 'Experimental Dermatology', year: 2024, pmid: '38330012', pmcid: '—', doi: '10.1111/exd.15012', builds: [['mmed','direct evidence']], pdf: 'stored', resolver: 'OA', bytes: '720 KB', path: '/library/mmed/2024-voss-38330012.pdf', tags: ['rosacea','skin microbiome'] },
-  ],
 
   // ── helpers (ported) ─────────────────────────────────────────────────────
   esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); },
@@ -88,12 +67,39 @@ const CL = {
     return { ...m, css: `font-size:11px;font-weight:600;color:${m.color};background:${m.bg};border-radius:5px;padding:3px 8px;white-space:nowrap;` };
   },
 
-  buildListFor(p) {
-    return p.builds.map(([id, kind]) => {
-      const b = this.builds[id];
-      return { label: b.label, kind, dotStyle: `width:9px;height:9px;border-radius:2px;background:${b.color};flex:0 0 auto;` };
-    });
+  // ── real library data (/api/library → canonical identity index) ──────────
+  // Loaded once, lazily, on first visit to the Library tab. The payload is
+  // ~5 MB of compact array rows for ~29k papers, so it is decoded once here
+  // and filtered client-side rather than round-tripping per keystroke.
+  sourceLabels: {
+    'triage-corpus':      'Assembled corpus (triage manifest)',
+    'drive-walk':         'Found on the library drive',
+    'corpus-index':       'Ingested into the wiki',
+    'wishlist-fulfilled': 'Fulfilled from the wishlist',
+    unknown:              'Unattributed',
   },
+
+  loadLibrary() {
+    if (this.state.libState === 'loading' || this.state.libState === 'ready') return;
+    this.setState({ libState: 'loading', libError: null });
+    fetch('/api/library')
+      .then(r => r.json())
+      .then(d => {
+        if (!d.available) { this.setState({ libState: 'error', libError: d.reason }); return; }
+        const ix = Object.fromEntries(d.fields.map((f, i) => [f, i]));
+        this.libPapers = d.papers.map(r => ({
+          label: r[ix.label], cite: r[ix.cite], doi: r[ix.doi], year: r[ix.year],
+          journal: r[ix.journal], ingested: !!r[ix.ing],
+          pdf: r[ix.pdf] == null ? null : !!r[ix.pdf],   // null = unknown (snapshot mode)
+          src: r[ix.src], path: r[ix.path],
+        }));
+        this.lib = d;
+        this.setState({ libState: 'ready' });
+      })
+      .catch(e => this.setState({ libState: 'error', libError: String(e && e.message || e) }));
+  },
+
+  num(n) { return n == null ? '—' : Number(n).toLocaleString('en-US'); },
 
   resolveTerm(g, t) {
     const cond = `"${t.base}"[Title/Abstract]` + (t.syn ? ` OR "${t.syn}"[Title/Abstract]` : '') + (t.mesh ? ` OR "${t.mesh}"[MeSH Terms]` : '');
@@ -115,20 +121,18 @@ const CL = {
   setState(patch) { Object.assign(this.state, patch); this.render(); },
 
   // ── actions (called by the delegated dispatcher) ─────────────────────────
-  setTab(id) { this.setState({ tab: id, selIdx: null }); },
-  setBuild(id) { this.setState({ build: id }); },
-  setQ(v) { this.setState({ q: v }); },
-  clearQ() { this.setState({ q: '' }); },
+  setTab(id) {
+    this.setState({ tab: id, selIdx: null });
+    if (id === 'library') this.loadLibrary(); // lazy: ~5 MB, only when opened
+  },
+  setFacet(id) { this.setState({ facet: id, libLimit: 200, selIdx: null }); },
+  setQ(v) { this.setState({ q: v, libLimit: 200 }); },
+  clearQ() { this.setState({ q: '', libLimit: 200 }); },
   setSort(id) { this.setState({ sort: id }); },
-  chipQ(v) { this.setState({ q: v }); },
+  chipQ(v) { this.setState({ q: v, libLimit: 200 }); },
+  moreRows() { this.setState({ libLimit: this.state.libLimit + 500 }); },
   openPaper(idx) { this.setState({ selIdx: Number(idx) }); },
   closeDrawer() { this.setState({ selIdx: null }); },
-  ingest() {
-    this.state.unfiled += 3; this.state.dupes += 1;
-    this.state.toast = '4 files dropped → 3 new to /unfiled, 1 duplicate flagged';
-    this.render();
-    clearTimeout(this._t); this._t = setTimeout(() => { this.state.toast = null; this.render(); }, 3200);
-  },
   setPresetGroup(id) { this.setState({ presetGroupId: id, presetTermIdx: 0 }); },
   setTermIdx(i) { this.setState({ presetTermIdx: Number(i) }); },
   removeTerm(i) {
@@ -204,121 +208,151 @@ const CL = {
 
   libraryTab() {
     const s = this.state;
-    const inBuild = (p, id) => id === 'all' ? true : id === 'unfiled' ? !!p.isNew : p.builds.some(b => b[0] === id);
+    if (s.libState === 'idle' || s.libState === 'loading') {
+      return this.libNotice('Loading the library index…', s.libState === 'idle' ? '' : 'Reading ~29k papers from the canonical identity index.');
+    }
+    if (s.libState === 'error') {
+      return this.libNotice('Library index unavailable', this.esc(s.libError || 'unknown error'));
+    }
 
-    const buildDef = [
-      ['all','All builds', null, '23,412'],
-      ['hmi', this.builds.hmi.label, this.builds.hmi.color, '9,840'],
-      ['mmed', this.builds.mmed.label, this.builds.mmed.color, '11,260'],
-      ['wiki', this.builds.wiki.label, this.builds.wiki.color, '4,910'],
-      ['unfiled','Unfiled / new', '#8B2A4A', '312'],
+    const lib = this.lib, c = lib.counts;
+    const hd = 'font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(26,29,36,0.45);';
+
+    // Facets are the real columns the index actually carries. Build membership
+    // (HMI / MMed / WikiBiome) is NOT in the index yet — the builds column is
+    // empty for every row — so it is deliberately not offered as a filter.
+    const facetDef = [
+      ['all', 'All papers', c.total],
+      ['ingested', 'Ingested into the wiki', c.ingested],
+      ['pdf', 'PDF on the drive', c.pdf],
+      ['doi', 'Has a DOI', c.withDoi],
     ];
-    const buildItems = buildDef.map(([id, label, color, count]) => {
-      const act = s.build === id, dashed = id === 'unfiled';
-      const labelStyle = `color:${act||id==='all'?'#8B2A4A':(id==='unfiled'?'#8B2A4A':'#33373F')};font-weight:${act?600:(id==='all'||id==='unfiled'?500:400)};`;
-      const dotStyle = color ? `width:8px;height:8px;border-radius:2px;background:${color};flex:0 0 auto;` : `display:none;`;
-      const countStyle = `color:${act||id==='all'||id==='unfiled'?'#8B2A4A':'rgba(26,29,36,0.5)'};`;
-      return `<button data-act="setBuild" data-arg="${id}" style="display:flex;align-items:center;justify-content:space-between;width:100%;padding:8px 10px;border-radius:7px;cursor:pointer;text-align:left;background:${act?'#F7F2F4':'transparent'};border:${dashed?'1px dashed #E7C6D1':'1px solid transparent'};">
-        <span style="display:flex;align-items:center;gap:9px;font-size:13px;${labelStyle}"><span style="${dotStyle}"></span>${label}</span>
-        <span class="mono" style="font-size:12px;${countStyle}">${count}</span>
+    const facetItems = facetDef.filter(([, , n]) => n != null).map(([id, label, n]) => {
+      const act = s.facet === id;
+      return `<button data-act="setFacet" data-arg="${id}" style="display:flex;align-items:center;justify-content:space-between;width:100%;padding:8px 10px;border-radius:7px;cursor:pointer;text-align:left;background:${act ? '#F7F2F4' : 'transparent'};border:1px solid transparent;">
+        <span style="font-size:13px;color:${act ? '#8B2A4A' : '#33373F'};font-weight:${act ? 600 : 400};">${label}</span>
+        <span class="mono" style="font-size:12px;color:${act ? '#8B2A4A' : 'rgba(26,29,36,0.5)'};">${this.num(n)}</span>
       </button>`;
     }).join('');
 
-    const chipHtml = (label, val, mono) =>
-      `<button data-act="chipQ" data-arg="${this.esc(val)}" ${mono?'class="mono" ':''}style="font-size:11px;color:#33373F;background:#F1EFEC;border:none;border-radius:5px;padding:4px 8px;cursor:pointer;">${label}</button>`;
-    const metalChips = [['Pb','Pb'],['iAs','iAs'],['Cd','Cd'],['tHg','mercury'],['Ni','Ni'],['Al','Al']].map(([l,v]) => chipHtml(l, v, true)).join('');
-    const catChips = ['infant formula','rice cereal','dark chocolate','spices','canned tuna'].map(l => chipHtml(l, l, false)).join('');
-    const condChips = ['endometriosis','bacterial vaginosis','CKD','rosacea'].map(l => chipHtml(l, l, false)).join('');
+    const srcItems = Object.entries(c.bySource || {}).sort((a, b) => b[1] - a[1]).map(([id, n]) => {
+      const act = s.facet === 'src:' + id;
+      return `<button data-act="setFacet" data-arg="src:${this.esc(id)}" style="display:flex;align-items:center;justify-content:space-between;width:100%;padding:8px 10px;border-radius:7px;cursor:pointer;text-align:left;background:${act ? '#F7F2F4' : 'transparent'};border:1px solid transparent;">
+        <span style="font-size:12.5px;color:${act ? '#8B2A4A' : '#33373F'};font-weight:${act ? 600 : 400};">${this.esc(this.sourceLabels[id] || id)}</span>
+        <span class="mono" style="font-size:12px;color:${act ? '#8B2A4A' : 'rgba(26,29,36,0.5)'};">${this.num(n)}</span>
+      </button>`;
+    }).join('');
 
-    const sortDef = [['recent','Recent'],['title','A–Z'],['status','Status']];
+    const sortDef = [['recent', 'Recent'], ['title', 'A–Z'], ['year', 'Year']];
     const sortItems = sortDef.map(([id, label]) =>
-      `<button data-act="setSort" data-arg="${id}" style="font-size:11.5px;font-weight:${s.sort===id?600:500};color:${s.sort===id?'#8B2A4A':'rgba(26,29,36,0.55)'};background:${s.sort===id?'#F7F2F4':'transparent'};border:none;padding:6px 11px;border-radius:6px;cursor:pointer;">${label}</button>`
+      `<button data-act="setSort" data-arg="${id}" style="font-size:11.5px;font-weight:${s.sort === id ? 600 : 500};color:${s.sort === id ? '#8B2A4A' : 'rgba(26,29,36,0.55)'};background:${s.sort === id ? '#F7F2F4' : 'transparent'};border:none;padding:6px 11px;border-radius:6px;cursor:pointer;">${label}</button>`
     ).join('');
 
     const q = s.q.trim().toLowerCase();
-    let rows = this.papers.map((p, idx) => ({ p, idx })).filter(({ p }) => inBuild(p, s.build));
-    if (q) rows = rows.filter(({ p }) => (p.title + ' ' + p.authors + ' ' + p.journal + ' ' + p.year + ' ' + p.pmid + ' ' + p.doi + ' ' + p.tags.join(' ')).toLowerCase().includes(q));
-    const statusRank = { stored: 0, couldnt: 1, notfound: 2 };
-    rows = [...rows].sort((a, b) => {
-      if (s.sort === 'title') return a.p.title.localeCompare(b.p.title);
-      if (s.sort === 'status') return (statusRank[a.p.pdf] - statusRank[b.p.pdf]) || (b.p.year - a.p.year);
-      return b.p.year - a.p.year;
-    });
+    let rows = this.libPapers.map((p, idx) => ({ p, idx }));
+    if (s.facet === 'ingested') rows = rows.filter(({ p }) => p.ingested);
+    else if (s.facet === 'pdf') rows = rows.filter(({ p }) => p.pdf);
+    else if (s.facet === 'doi') rows = rows.filter(({ p }) => p.doi);
+    else if (s.facet.startsWith('src:')) { const w = s.facet.slice(4); rows = rows.filter(({ p }) => (p.src || 'unknown') === w); }
+    // Token-AND, not substring: most labels are normalized title keys, so
+    // "infant formula lead" as one contiguous string matches nothing while the
+    // three words together find the real rows.
+    if (q) {
+      const words = q.split(/\s+/).filter(Boolean);
+      rows = rows.filter(({ p }) => {
+        const hay = `${p.label} ${p.cite || ''} ${p.doi || ''} ${p.journal || ''} ${p.year || ''}`.toLowerCase();
+        return words.every(w => hay.includes(w));
+      });
+    }
 
-    const rowHtml = rows.map(({ p, idx }, i) => {
-      const pdf = this.pdfStyleFor(p.pdf);
-      const idShort = p.pmid !== '—' ? p.pmid : (p.pmcid !== '—' ? p.pmcid : 'preprint');
-      const dots = this.buildListFor(p).map(bd => `<span title="${this.esc(bd.label)}" style="${bd.dotStyle}"></span>`).join('');
-      return `<button data-act="openPaper" data-arg="${idx}" style="display:grid;grid-template-columns:1fr 104px 96px 92px;gap:12px;padding:12px 15px;width:100%;align-items:center;cursor:pointer;border:none;border-bottom:1px solid #F2F0ED;background:${i%2?'#FCFBFA':'#fff'};">
+    const total = rows.length;
+    if (s.sort === 'title') rows = [...rows].sort((a, b) => a.p.label.localeCompare(b.p.label));
+    else if (s.sort === 'year') rows = [...rows].sort((a, b) => (b.p.year || 0) - (a.p.year || 0));
+    const shown = rows.slice(0, s.libLimit);
+
+    const rowHtml = shown.map(({ p, idx }, i) => {
+      const badge = p.pdf === null
+        ? { label: 'unknown', css: 'font-size:11px;font-weight:600;color:rgba(26,29,36,0.5);background:#F1EFEC;border-radius:5px;padding:3px 8px;white-space:nowrap;' }
+        : p.pdf
+          ? { label: 'on drive', css: 'font-size:11px;font-weight:600;color:#2C6E49;background:#E6F0EA;border-radius:5px;padding:3px 8px;white-space:nowrap;' }
+          : { label: 'metadata', css: 'font-size:11px;font-weight:600;color:rgba(26,29,36,0.55);background:#F1EFEC;border-radius:5px;padding:3px 8px;white-space:nowrap;' };
+      const sub = [p.journal, p.cite || p.doi].filter(Boolean).join(' · ') || (p.src ? this.sourceLabels[p.src] || p.src : '');
+      const ing = p.ingested ? '<span title="Ingested into the wiki" style="width:9px;height:9px;border-radius:2px;background:#8B2A4A;flex:0 0 auto;"></span>' : '';
+      return `<button data-act="openPaper" data-arg="${idx}" style="display:grid;grid-template-columns:1fr 104px 60px 92px;gap:12px;padding:12px 15px;width:100%;align-items:center;cursor:pointer;border:none;border-bottom:1px solid #F2F0ED;background:${i % 2 ? '#FCFBFA' : '#fff'};">
         <div style="min-width:0;">
-          <div style="font-size:13px;font-weight:500;line-height:1.35;color:#1A1D24;text-align:left;">${this.esc(p.title)}</div>
-          <div class="mono" style="font-size:11px;color:rgba(26,29,36,0.45);margin-top:2px;text-align:left;">${this.esc(p.authors.split(',')[0] + ' · ' + p.journal)}</div>
+          <div style="font-size:13px;font-weight:500;line-height:1.35;color:#1A1D24;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${this.esc(p.label)}</div>
+          <div class="mono" style="font-size:11px;color:rgba(26,29,36,0.45);margin-top:2px;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${this.esc(sub)}</div>
         </div>
-        <div class="mono" style="font-size:12px;color:rgba(26,29,36,0.6);text-align:left;">${p.year}<br><span style="font-size:10px;color:rgba(26,29,36,0.4);">${idShort}</span></div>
-        <div style="display:flex;gap:4px;align-items:center;">${dots}</div>
-        <div style="text-align:right;"><span style="${pdf.css}">${pdf.label}</span></div>
+        <div class="mono" style="font-size:12px;color:rgba(26,29,36,0.6);text-align:left;">${p.year || '—'}</div>
+        <div style="display:flex;gap:4px;align-items:center;">${ing}</div>
+        <div style="text-align:right;"><span style="${badge.css}">${badge.label}</span></div>
       </button>`;
     }).join('');
 
-    const resultLabel = rows.length + (rows.length === 1 ? ' paper' : ' papers') + (s.build !== 'all' || q ? ' shown' : '');
     const clearBtn = s.q ? `<button data-act="clearQ" class="mono" style="font-size:11px;color:#8B2A4A;background:none;border:none;cursor:pointer;">clear</button>` : '';
-    const hd = 'font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(26,29,36,0.45);';
+    const more = total > shown.length
+      ? `<div style="display:flex;align-items:center;justify-content:center;gap:10px;padding:13px;font-size:12px;color:rgba(26,29,36,0.55);border-top:1px solid #F2F0ED;">Showing ${this.num(shown.length)} of ${this.num(total)} — narrow with search, or <button data-act="moreRows" style="font-size:12px;font-weight:600;color:#8B2A4A;background:none;border:none;cursor:pointer;padding:0;">show 500 more</button></div>`
+      : '';
+
+    const freshness = lib.mode === 'index'
+      ? `index built ${this.esc((lib.builtAt || '').slice(0, 10))} · updated ${this.esc((lib.updatedAt || '').slice(0, 10))}`
+      : `committed snapshot · ${this.esc((lib.snapshotAt || '').slice(0, 10))}`;
+    const snapshotNote = lib.mode === 'snapshot'
+      ? `<div style="display:flex;align-items:center;gap:9px;padding:7px 24px;background:#FBF6F8;border-bottom:1px solid #E7C6D1;font-size:12px;color:#8B2A4A;flex:0 0 auto;"><span style="font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:10px;">Snapshot</span><span>The HMI-Library drive is not mounted, so this is the committed metadata snapshot: identity only, no journal or PDF status. Plug the drive in for the full index.</span></div>`
+      : '';
 
     return `<div style="flex:1;display:flex;flex-direction:column;min-height:0;">
-      <div style="display:flex;align-items:center;gap:9px;padding:7px 24px;background:#FBF6F8;border-bottom:1px solid #E7C6D1;font-size:12px;color:#8B2A4A;flex:0 0 auto;"><span style="font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:10px;">Preview</span><span>This tab shows the design's sample data, not your real corpus. Presets and Wishlist are live; wiring the Library to the real index is the next build (docs/architecture/central-library-roadmap.md).</span></div>
-      <div style="flex:1;display:grid;grid-template-columns:238px 1fr 320px;min-height:0;">
+      ${snapshotNote}
+      <div style="flex:1;display:grid;grid-template-columns:238px 1fr;min-height:0;">
       <div class="cl-scroll" style="border-right:1px solid #E7E5E2;padding:22px 18px;overflow-y:auto;background:#FCFBFA;">
-        <div style="${hd}margin-bottom:12px;">Reads from this library</div>
-        <div style="display:flex;flex-direction:column;gap:2px;margin-bottom:26px;">${buildItems}</div>
-        <div style="${hd}margin-bottom:11px;">Filter by heavy metal</div>
-        <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:18px;">${metalChips}</div>
-        <div style="${hd}margin-bottom:11px;">Product category</div>
-        <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:18px;">${catChips}</div>
-        <div style="${hd}margin-bottom:11px;">Condition</div>
-        <div style="display:flex;flex-wrap:wrap;gap:5px;">${condChips}</div>
+        <div style="${hd}margin-bottom:12px;">This library</div>
+        <div style="display:flex;flex-direction:column;gap:2px;margin-bottom:26px;">${facetItems}</div>
+        <div style="${hd}margin-bottom:12px;">Where it came from</div>
+        <div style="display:flex;flex-direction:column;gap:2px;">${srcItems}</div>
       </div>
 
       <div class="cl-scroll" style="overflow-y:auto;padding:26px 28px;min-width:0;">
         <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:6px;">
           <h1 style="font-size:24px;font-weight:700;margin:0;letter-spacing:-0.01em;">Combined corpus</h1>
-          <span class="mono" style="font-size:12px;color:rgba(26,29,36,0.5);">deduped by PMID › DOI › title-hash</span>
+          <span class="mono" style="font-size:12px;color:rgba(26,29,36,0.5);">${freshness}</span>
         </div>
         <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#EDEBE8;border:1px solid #EDEBE8;border-radius:9px;overflow:hidden;margin:16px 0 24px;">
-          <div style="background:#fff;padding:15px 17px;"><div class="mono" style="font-size:27px;font-weight:600;">23,412</div><div style="font-size:11px;color:rgba(26,29,36,0.55);margin-top:2px;">papers</div></div>
-          <div style="background:#fff;padding:15px 17px;"><div class="mono" style="font-size:27px;font-weight:600;">21,097</div><div style="font-size:11px;color:rgba(26,29,36,0.55);margin-top:2px;">unique DOIs</div></div>
-          <div style="background:#fff;padding:15px 17px;"><div class="mono" style="font-size:27px;font-weight:600;">18,640</div><div style="font-size:11px;color:rgba(26,29,36,0.55);margin-top:2px;">PDFs stored</div></div>
-          <div style="background:#FBF3F5;padding:15px 17px;"><div class="mono" style="font-size:27px;font-weight:600;color:#8B2A4A;">2,315</div><div style="font-size:11px;color:#8B2A4A;margin-top:2px;">duplicates merged</div></div>
+          <div style="background:#fff;padding:15px 17px;"><div class="mono" style="font-size:27px;font-weight:600;">${this.num(c.total)}</div><div style="font-size:11px;color:rgba(26,29,36,0.55);margin-top:2px;">papers</div></div>
+          <div style="background:#fff;padding:15px 17px;"><div class="mono" style="font-size:27px;font-weight:600;">${this.num(c.withDoi)}</div><div style="font-size:11px;color:rgba(26,29,36,0.55);margin-top:2px;">with a DOI</div></div>
+          <div style="background:#fff;padding:15px 17px;"><div class="mono" style="font-size:27px;font-weight:600;">${this.num(c.pdf)}</div><div style="font-size:11px;color:rgba(26,29,36,0.55);margin-top:2px;">PDFs on the drive</div></div>
+          <div style="background:#FBF3F5;padding:15px 17px;"><div class="mono" style="font-size:27px;font-weight:600;color:#8B2A4A;">${this.num(c.ingested)}</div><div style="font-size:11px;color:#8B2A4A;margin-top:2px;">ingested into the wiki</div></div>
         </div>
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
           <div style="flex:1;display:flex;align-items:center;gap:9px;border:1px solid #E2DFDB;border-radius:8px;padding:10px 13px;background:#fff;">
             <span style="color:#A8A39C;font-size:14px;">⌕</span>
-            <input id="cl-search" class="cl-search" data-input="setQ" placeholder="Search titles, authors, PMID, DOI, tags…" value="${this.esc(s.q)}">
+            <input id="cl-search" class="cl-search" data-input="setQ" placeholder="Search title key, cite key, DOI, journal…" value="${this.esc(s.q)}">
             ${clearBtn}
           </div>
           <div style="display:flex;gap:2px;border:1px solid #E2DFDB;border-radius:8px;padding:2px;background:#fff;">${sortItems}</div>
         </div>
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
-          <div style="${hd.replace('.1em','.09em')}">Recent additions · ${resultLabel}</div>
+          <div style="${hd.replace('.1em', '.09em')}">${this.num(total)} ${total === 1 ? 'paper' : 'papers'}${s.facet !== 'all' || q ? ' shown' : ''}</div>
           <div style="font-size:11px;color:rgba(26,29,36,0.45);">click a row for provenance</div>
         </div>
         <div style="border:1px solid #EDEBE8;border-radius:9px;overflow:hidden;">
-          <div style="display:grid;grid-template-columns:1fr 104px 96px 92px;gap:12px;padding:9px 15px;background:#FAF8F6;border-bottom:1px solid #EDEBE8;font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:rgba(26,29,36,0.45);">
-            <span>Paper</span><span>Year · ID</span><span>Used by</span><span style="text-align:right;">PDF</span>
+          <div style="display:grid;grid-template-columns:1fr 104px 60px 92px;gap:12px;padding:9px 15px;background:#FAF8F6;border-bottom:1px solid #EDEBE8;font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:rgba(26,29,36,0.45);">
+            <span>Paper</span><span>Year</span><span>Wiki</span><span style="text-align:right;">File</span>
           </div>
-          ${rowHtml}
+          ${rowHtml || '<div style="padding:26px;text-align:center;font-size:13px;color:rgba(26,29,36,0.5);">No papers match this filter.</div>'}
+          ${more}
         </div>
-        <div style="font-size:12px;color:rgba(26,29,36,0.45);margin-top:12px;">Colored squares show which builds route each paper. Merging a duplicate keeps one file and links both builds — no re-download.</div>
-      </div>
-
-      <div class="cl-scroll" style="border-left:1px solid #E7E5E2;padding:22px 20px;overflow-y:auto;background:#FCFBFA;">
-        <div style="${hd}margin-bottom:12px;">Add new files</div>
-        <button data-act="ingest" style="width:100%;border:2px dashed #C9A9B4;border-radius:10px;background:#FBF6F8;padding:26px 16px;text-align:center;margin-bottom:14px;cursor:pointer;display:block;">
-          <div style="font-size:26px;color:#8B2A4A;margin-bottom:6px;">⤓</div>
-          <div style="font-size:13px;font-weight:600;color:#8B2A4A;margin-bottom:4px;">Drop PDFs here</div>
-          <div style="font-size:11.5px;color:rgba(26,29,36,0.55);line-height:1.45;">Truly new files land in <span class="mono" style="color:#8B2A4A;">/unfiled</span> for any build to ingest later. Duplicates flagged on drop.</div>
-        </button>
+        <div style="font-size:12px;color:rgba(26,29,36,0.45);margin-top:12px;line-height:1.55;">Identity is resolved sha256 › DOI › DOI-slug › cite key › normalized title, so one paper reached by several routes is a single row. Most rows carry a dedup key rather than a full citation: titles and journals fill in as papers are ingested.</div>
       </div>
     </div>
+    </div>`;
+  },
+
+  libNotice(title, body) {
+    return `<div style="flex:1;display:flex;align-items:center;justify-content:center;padding:40px;">
+      <div style="max-width:520px;text-align:center;">
+        <h2 style="font-size:20px;font-weight:600;margin:0 0 10px;">${this.esc(title)}</h2>
+        <p style="font-size:14px;line-height:1.6;color:rgba(26,29,36,0.6);margin:0;">${body}</p>
+      </div>
     </div>`;
   },
 
@@ -627,18 +661,15 @@ const CL = {
   },
 
   drawer() {
-    const p = this.papers[this.state.selIdx];
-    const pdf = this.pdfStyleFor(p.pdf);
+    const p = this.libPapers[this.state.selIdx];
+    if (!p) return '';
     const hd = 'font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(26,29,36,0.45);';
-    const idCell = (label, val, extra) => `<div style="background:#FCFBFA;padding:10px 12px;"><div style="font-size:9.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:rgba(26,29,36,0.4);margin-bottom:3px;">${label}</div><div class="mono" style="font-size:12px;${extra||''}">${this.esc(val)}</div></div>`;
-    const routed = this.buildListFor(p).map(bd => `<div style="display:flex;align-items:center;justify-content:space-between;border:1px solid #EDEBE8;border-radius:8px;padding:10px 12px;">
-      <span style="display:flex;align-items:center;gap:9px;font-size:13px;font-weight:500;"><span style="${bd.dotStyle}"></span>${this.esc(bd.label)}</span>
-      <span class="mono" style="font-size:11px;color:rgba(26,29,36,0.5);">${this.esc(bd.kind)}</span>
-    </div>`).join('');
-    const dupe = p.hasDupe ? `<div style="border:1px solid #E7C6D1;background:#FCF7F9;border-radius:8px;padding:13px 14px;margin-bottom:20px;">
-      <div style="font-size:12px;font-weight:600;color:#8B2A4A;margin-bottom:4px;">${this.esc(p.dupeNote)}</div>
-      <div style="font-size:11.5px;color:rgba(26,29,36,0.6);line-height:1.5;">Detected via matching DOI across builds. One canonical file is kept; both builds link it.</div>
-    </div>` : '';
+    const cell = (label, val, extra) => `<div style="background:#FCFBFA;padding:10px 12px;"><div style="font-size:9.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:rgba(26,29,36,0.4);margin-bottom:3px;">${label}</div><div class="mono" style="font-size:12px;${extra || ''}">${this.esc(val || '—')}</div></div>`;
+    const fileBlock = p.pdf === null
+      ? `<div style="font-size:12.5px;color:rgba(26,29,36,0.6);line-height:1.55;">Unknown in snapshot mode — file status lives on the drive index.</div>`
+      : p.pdf
+        ? `<div class="mono" style="font-size:11px;color:rgba(26,29,36,0.6);line-height:1.6;word-break:break-all;">${this.esc(p.path || '')}</div>`
+        : `<div style="font-size:12.5px;color:rgba(26,29,36,0.6);line-height:1.55;">No PDF on the drive for this row — it is known from a manifest or the wiki corpus index, not from a stored file.</div>`;
 
     return `<div data-act="closeDrawer" style="position:fixed;inset:0;background:rgba(26,20,24,0.32);z-index:40;"></div>
     <div class="cl-scroll" style="position:fixed;top:0;right:0;bottom:0;width:440px;background:#fff;border-left:1px solid #E2DFDB;box-shadow:-16px 0 48px rgba(30,20,25,0.16);z-index:50;overflow-y:auto;animation:clDrawerIn .22s cubic-bezier(0.16,1,0.3,1);">
@@ -647,26 +678,20 @@ const CL = {
         <button data-act="closeDrawer" style="font-size:18px;color:rgba(26,29,36,0.5);background:none;border:none;cursor:pointer;line-height:1;">✕</button>
       </div>
       <div style="padding:22px;">
-        <h2 style="font-size:18px;font-weight:600;line-height:1.3;margin:0 0 8px;">${this.esc(p.title)}</h2>
-        <div class="mono" style="font-size:12px;color:rgba(26,29,36,0.55);line-height:1.5;margin-bottom:18px;">${this.esc(p.authors + ' · ' + p.journal + ' · ' + p.year)}</div>
-        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:#EDEBE8;border:1px solid #EDEBE8;border-radius:8px;overflow:hidden;margin-bottom:20px;">
-          ${idCell('PMID', p.pmid)}${idCell('PMCID', p.pmcid)}${idCell('DOI', p.doi, 'font-size:11px;word-break:break-all;')}
+        <h2 style="font-size:17px;font-weight:600;line-height:1.35;margin:0 0 8px;">${this.esc(p.label)}</h2>
+        <div class="mono" style="font-size:12px;color:rgba(26,29,36,0.55);line-height:1.5;margin-bottom:18px;">${this.esc([p.journal, p.year].filter(Boolean).join(' · ') || 'no citation metadata yet')}</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#EDEBE8;border:1px solid #EDEBE8;border-radius:8px;overflow:hidden;margin-bottom:20px;">
+          ${cell('Cite key', p.cite, 'word-break:break-all;')}${cell('Year', p.year)}
         </div>
-        <div style="${hd}margin-bottom:10px;">Routed to builds</div>
-        <div style="display:flex;flex-direction:column;gap:7px;margin-bottom:20px;">${routed}</div>
-        <div style="${hd}margin-bottom:10px;">PDF status</div>
-        <div style="border:1px solid #EDEBE8;border-radius:8px;padding:14px;margin-bottom:20px;">
-          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
-            <span style="${pdf.css}">${pdf.label}</span>
-            <span class="mono" style="font-size:11px;color:rgba(26,29,36,0.5);">resolver: ${this.esc(p.resolver)}</span>
-          </div>
-          <div class="mono" style="font-size:11px;color:rgba(26,29,36,0.55);line-height:1.6;word-break:break-all;">${this.esc(p.path)}<br>${this.esc(p.bytes)}</div>
+        <div style="display:grid;grid-template-columns:1fr;gap:1px;background:#EDEBE8;border:1px solid #EDEBE8;border-radius:8px;overflow:hidden;margin-bottom:20px;">
+          ${cell('DOI', p.doi, 'font-size:11px;word-break:break-all;')}
         </div>
-        ${dupe}
-        <div style="display:flex;gap:9px;">
-          <button style="flex:1;font-size:13px;font-weight:600;color:#fff;background:#8B2A4A;border:none;border-radius:8px;padding:10px;cursor:pointer;">Open PDF</button>
-          <button style="flex:1;font-size:13px;font-weight:600;color:#8B2A4A;background:#F7F2F4;border:1px solid #E7C6D1;border-radius:8px;padding:10px;cursor:pointer;">View on PubMed</button>
-        </div>
+        <div style="${hd}margin-bottom:10px;">How it entered the library</div>
+        <div style="border:1px solid #EDEBE8;border-radius:8px;padding:12px 14px;margin-bottom:20px;font-size:13px;">${this.esc(this.sourceLabels[p.src] || p.src || 'unknown')}</div>
+        <div style="${hd}margin-bottom:10px;">Wiki status</div>
+        <div style="border:1px solid #EDEBE8;border-radius:8px;padding:12px 14px;margin-bottom:20px;font-size:13px;">${p.ingested ? 'Ingested — has a source page in the wiki.' : 'Not yet ingested into the wiki.'}</div>
+        <div style="${hd}margin-bottom:10px;">File</div>
+        <div style="border:1px solid #EDEBE8;border-radius:8px;padding:14px;">${fileBlock}</div>
       </div>
     </div>`;
   },
