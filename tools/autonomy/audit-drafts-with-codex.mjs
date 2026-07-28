@@ -20,7 +20,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
-import { spawnSync, execFileSync } from "node:child_process"
+import { spawn, execFileSync } from "node:child_process"
 
 const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
@@ -35,6 +35,7 @@ const verdictsPath = path.join(autonomyDir, "audit-verdicts.jsonl")
 const ledgerPath = path.join(autonomyDir, "agent-events.jsonl")
 
 const maxPages = Number(args.get("max-pages") ?? 3)
+const concurrency = Number(args.get("concurrency") ?? 3)
 const timeoutMins = Number(args.get("timeout-mins") ?? 12)
 const reasoningEffort = args.get("reasoning-effort") ?? process.env.CODEX_REASONING_EFFORT ?? "medium"
 const dryRun = args.has("dry-run")
@@ -97,91 +98,112 @@ if (!drafts.length) {
 const batch = drafts.slice(0, maxPages)
 console.log(`${drafts.length} un-audited draft(s); auditing ${batch.length} this run.`)
 
-// ─── Audit each draft ─────────────────────────────────────────────────
-const results = []
-for (const pageRel of batch) {
-  const pageAbs = path.join(repoRoot, pageRel)
-  if (!fs.existsSync(pageAbs)) {
-    console.log(`  skip (missing): ${pageRel}`)
-    continue
-  }
-  const pageText = fs.readFileSync(pageAbs, "utf8")
-  const citeKey = matchField(pageText, "cite_key") || path.basename(pageRel, ".md")
-  const rawPath = matchField(pageText, "raw_path")
-  const handle = matchField(pageText, "raw_handle") || ""
+// ─── Audit drafts (concurrent pool) ───────────────────────────────────
+// Audits are independent and read-only, so they parallelize safely. Only the
+// promoter (a separate script) ever writes to git.
+function auditOne(pageRel) {
+  return new Promise((resolve) => {
+    const pageAbs = path.join(repoRoot, pageRel)
+    if (!fs.existsSync(pageAbs)) {
+      console.log(`  skip (missing): ${pageRel}`)
+      return resolve(null)
+    }
+    const pageText = fs.readFileSync(pageAbs, "utf8")
+    const citeKey = matchField(pageText, "cite_key") || path.basename(pageRel, ".md")
+    const rawPath = matchField(pageText, "raw_path")
+    const handle = matchField(pageText, "raw_handle") || ""
+    const prompt = buildAuditPrompt({ pageRel, rawPath, citeKey, handle })
 
-  const prompt = buildAuditPrompt({ pageRel, rawPath, citeKey, handle })
+    if (dryRun) {
+      console.log(`\nDRY RUN — would audit ${pageRel} (cite_key=${citeKey}, source=${rawPath || "UNKNOWN"})`)
+      console.log(`  ${codexBinary} exec -c model_reasoning_effort="${reasoningEffort}" … <prompt ${prompt.length} chars>`)
+      return resolve(null)
+    }
 
-  if (dryRun) {
-    console.log(`\nDRY RUN — would audit ${pageRel} (cite_key=${citeKey}, source=${rawPath || "UNKNOWN"})`)
-    console.log(`  ${codexBinary} exec -c model_reasoning_effort="${reasoningEffort}" … <prompt ${prompt.length} chars>`)
-    continue
-  }
+    console.log(`── auditing ${citeKey}`)
+    const started = Date.now()
+    const child = spawn(
+      codexBinary,
+      [
+        "exec",
+        "-c", `model_reasoning_effort="${reasoningEffort}"`,
+        "--dangerously-bypass-approvals-and-sandbox",
+        "--skip-git-repo-check",
+        "-C", repoRoot,
+        "--add-dir", repoRoot,
+        "--color", "never",
+      ],
+      { cwd: repoRoot, stdio: ["pipe", "pipe", "pipe"] },
+    )
+    let stdout = "", stderr = "", timedOut = false
+    const killer = setTimeout(() => {
+      timedOut = true
+      try { child.kill("SIGKILL") } catch {}
+    }, timeoutMins * 60 * 1000)
 
-  console.log(`\n── auditing ${pageRel} (${citeKey})`)
-  const started = Date.now()
-  const res = spawnSync(
-    codexBinary,
-    [
-      "exec",
-      "-c", `model_reasoning_effort="${reasoningEffort}"`,
-      "--dangerously-bypass-approvals-and-sandbox",
-      "--skip-git-repo-check",
-      "-C", repoRoot,
-      "--add-dir", repoRoot,
-      "--color", "never",
-    ],
-    {
-      cwd: repoRoot,
-      input: prompt,
-      encoding: "utf8",
-      maxBuffer: 100 * 1024 * 1024,
-      timeout: timeoutMins * 60 * 1000,
-    },
-  )
-  const elapsed = ((Date.now() - started) / 1000).toFixed(1)
-  const stdout = res.stdout || ""
-  const stamp = new Date().toISOString().replace(/[:.]/g, "-")
-  const reportPath = path.join(reportsDir, `${citeKey}-${stamp}.md`)
-  fs.writeFileSync(reportPath, stdout || `(no output)\n\nstderr:\n${res.stderr || ""}`)
+    child.stdout.on("data", (d) => { stdout += d })
+    child.stderr.on("data", (d) => { stderr += d })
+    child.on("close", (code) => {
+      clearTimeout(killer)
+      const elapsed = ((Date.now() - started) / 1000).toFixed(1)
+      const stamp = new Date().toISOString().replace(/[:.]/g, "-")
+      const reportPath = path.join(reportsDir, `${citeKey}-${stamp}.md`)
+      fs.writeFileSync(reportPath, stdout || `(no output)\n\nstderr:\n${stderr}`)
 
-  // FAIL-CLOSED verdict parse.
-  let verdict = parseVerdict(stdout)
-  let note = ""
-  if (res.error || res.status !== 0) {
-    verdict = "QUARANTINE"
-    note = `codex exited ${res.status}${res.error ? ` (${res.error.message})` : ""}`
-  } else if (!verdict) {
-    verdict = "QUARANTINE"
-    note = "verdict unparseable from audit output"
-  }
+      // FAIL-CLOSED verdict parse.
+      let verdict = parseVerdict(stdout)
+      let note = ""
+      if (timedOut) {
+        verdict = "QUARANTINE"; note = `audit timed out after ${timeoutMins}min`
+      } else if (code !== 0) {
+        verdict = "QUARANTINE"; note = `codex exited ${code}`
+      } else if (!verdict) {
+        verdict = "QUARANTINE"; note = "verdict unparseable from audit output"
+      }
 
-  console.log(`   verdict: ${verdict}${note ? ` — ${note}` : ""} (${elapsed}s)`)
+      console.log(`   ${citeKey}: ${verdict}${note ? ` — ${note}` : ""} (${elapsed}s)`)
 
-  const record = {
-    ts: new Date().toISOString(),
-    page: pageRel,
-    cite_key: citeKey,
-    raw_path: rawPath || "",
-    handle,
-    verdict,
-    auditor: "codex",
-    report: path.relative(repoRoot, reportPath),
-    note,
-  }
-  fs.appendFileSync(verdictsPath, JSON.stringify(record) + "\n")
-  appendLedger({
-    ts: record.ts,
-    actor: "codex-auditor",
-    source_path: rawPath || pageRel,
-    cite_key: citeKey,
-    status: `audited:${verdict}`,
-    commit: "",
-    blocker: verdict === "QUARANTINE" ? note || "quarantined by audit" : "",
-    next: verdict === "PROMOTE" ? "promoter may commit" : "conductor review",
+      const record = {
+        ts: new Date().toISOString(),
+        page: pageRel,
+        cite_key: citeKey,
+        raw_path: rawPath || "",
+        handle,
+        verdict,
+        auditor: "codex",
+        report: path.relative(repoRoot, reportPath),
+        note,
+      }
+      // Appends are atomic-enough line writes; order across workers is not
+      // meaningful (the promoter takes the last verdict per page).
+      fs.appendFileSync(verdictsPath, JSON.stringify(record) + "\n")
+      appendLedger({
+        ts: record.ts,
+        actor: "codex-auditor",
+        source_path: rawPath || pageRel,
+        cite_key: citeKey,
+        status: `audited:${verdict}`,
+        commit: "",
+        blocker: verdict === "QUARANTINE" ? note || "quarantined by audit" : "",
+        next: verdict === "PROMOTE" ? "promoter may commit" : "conductor review",
+      })
+      resolve(record)
+    })
+    child.stdin.write(prompt)
+    child.stdin.end()
   })
-  results.push(record)
 }
+
+const results = []
+const queue = [...batch]
+async function pump() {
+  while (queue.length) {
+    const next = queue.shift()
+    const r = await auditOne(next)
+    if (r) results.push(r)
+  }
+}
+await Promise.all(Array.from({ length: Math.min(concurrency, batch.length) }, pump))
 
 if (!dryRun) {
   const tally = results.reduce((a, r) => ({ ...a, [r.verdict]: (a[r.verdict] || 0) + 1 }), {})
