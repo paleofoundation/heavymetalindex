@@ -1,15 +1,31 @@
 #!/bin/bash
-# Assemble the double-clickable "Heavy Metal Fetch.app" on the Desktop from the
-# version-controlled source in this folder. Reproducible: re-run any time to
-# rebuild the bundle after editing launch / Info.plist / icon.svg.
+# RETIRED installer. The standalone "Heavy Metal Fetch.app" has been superseded
+# by "Central Library.app" (tools/central-library/desktop-app). The two bundles
+# collided on the same Desktop filename AND the same window title, so building
+# this one silently overwrote the other and made the tools indistinguishable.
 #
-#   bash tools/fetch-app/desktop-app/build-desktop-app.sh
-#   npm run fetch-app:install-desktop
+# This installer is disabled so the confusing icon cannot be recreated.
+# Use instead:
+#   npm run central-library:install-desktop
 #
-# Optional first arg overrides the destination .app path.
+# Nothing else about the fetch-app is removed: the server still runs via
+# `npm run fetch-app` (localhost:8091) and Central Library reuses its engine.
+#
+# If you genuinely need the legacy desktop icon back, re-run with the override:
+#   HMI_ALLOW_LEGACY_FETCH_APP=1 npm run fetch-app:install-desktop
+#
+# Optional first arg overrides the destination .app path (override mode only).
 
 set -euo pipefail
 
+if [ "${HMI_ALLOW_LEGACY_FETCH_APP:-0}" != "1" ]; then
+  echo "fetch-app desktop installer is retired." >&2
+  echo "Use:  npm run central-library:install-desktop" >&2
+  echo "(override with HMI_ALLOW_LEGACY_FETCH_APP=1 if you truly need the legacy icon)" >&2
+  exit 1
+fi
+
+# --- legacy build path (runs only under the override) ---------------------
 SRC_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO="$(cd "$SRC_DIR/../../.." && pwd)"
 APP="${1:-$HOME/Desktop/Heavy Metal Fetch.app}"
