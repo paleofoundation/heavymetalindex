@@ -6,12 +6,19 @@
    Events use document-level delegation (data-act / data-input) rather than
    inline onclick=/oninput= attributes, so the buttons work even under a strict
    Content-Security-Policy that blocks inline handlers (preview panels, embeds).
-   All data below is the mockup's sample data. */
+
+   Wiring status (see docs/architecture/central-library-roadmap.md):
+   - REAL: Presets (/api/presets, /api/matrices, /api/run) and Wishlist
+     (/api/wishlist*), including the drop-PDFs-to-fulfill flow.
+   - SAMPLE: the Library tab (papers list, build counts) still renders the
+     mockup's hardcoded sample data until it is wired to the canonical
+     identity index (tools/library). It is labeled as a preview in the UI
+     and is no longer the default tab. */
 
 const CL = {
   state: {
-    tab: 'library', build: 'all', q: '', sort: 'recent', selIdx: null,
-    unfiled: 312, dupes: 27, toast: null,
+    tab: 'presets', build: 'all', q: '', sort: 'recent', selIdx: null,
+    toast: null,
     presetGroupId: 'hmi-metals', presetTermIdx: 0, newTerm: '',
     groups: [
       { id: 'hmi-metals', build: 'hmi', callType: 'heavy metal', name: 'Infant & child foods — metals', domainFilter: 'infant formula OR baby cereal OR toddler food OR follow-on formula OR "baby food"', dateMin: '2000', dateMax: '3000', max: 200, serp: true, terms: [
@@ -174,7 +181,6 @@ const CL = {
       ${s.tab === 'library' ? this.libraryTab() : ''}
       ${s.tab === 'wishlist' ? this.wishlistTab() : ''}
       ${s.tab === 'presets' ? this.presetsTab() : ''}
-      ${(s.tab === 'pulls' || s.tab === 'coverage') ? this.otherTab() : ''}
       ${s.selIdx != null ? this.drawer() : ''}
       ${s.toast ? this.toast() : ''}
     </div>`;
@@ -182,15 +188,16 @@ const CL = {
 
   appBar() {
     const s = this.state;
-    const tabDef = [['library','Library'],['wishlist','Wishlist'],['pulls','Pulls'],['coverage','Coverage'],['presets','Presets']];
+    // Pulls + Coverage were unbuilt mockup stubs; concepts recorded in
+    // docs/architecture/central-library-roadmap.md. Re-add here when real.
+    const tabDef = [['library','Library'],['wishlist','Wishlist'],['presets','Presets']];
     const tabs = tabDef.map(([id, label]) =>
       `<button data-act="setTab" data-arg="${id}" style="font-size:13px;font-weight:${s.tab===id?600:500};color:${s.tab===id?'#8B2A4A':'rgba(26,29,36,0.55)'};background:${s.tab===id?'#F7F2F4':'transparent'};border:none;padding:7px 13px;border-radius:7px;cursor:pointer;">${label}</button>`
     ).join('');
     return `<div style="display:flex;align-items:center;gap:22px;padding:0 24px;height:60px;border-bottom:1px solid #E7E5E2;background:#fff;flex:0 0 auto;z-index:5;">
-      <div style="font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600;letter-spacing:.16em;color:#1A1D24;">HEAVY METAL FETCH</div>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600;letter-spacing:.16em;color:#1A1D24;">CENTRAL LIBRARY</div>
       <div style="display:flex;gap:2px;">${tabs}</div>
       <div style="flex:1;"></div>
-      <div class="mono" style="font-size:12px;color:rgba(26,29,36,0.5);display:flex;align-items:center;gap:7px;"><span style="width:7px;height:7px;border-radius:50%;background:#5BB85B;"></span>synced 14:02</div>
       <button data-act="setTab" data-arg="presets" style="font-size:13px;font-weight:600;color:#fff;background:#8B2A4A;border:none;padding:9px 16px;border-radius:8px;cursor:pointer;">+ New pull</button>
     </div>`;
   },
@@ -257,7 +264,9 @@ const CL = {
     const clearBtn = s.q ? `<button data-act="clearQ" class="mono" style="font-size:11px;color:#8B2A4A;background:none;border:none;cursor:pointer;">clear</button>` : '';
     const hd = 'font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(26,29,36,0.45);';
 
-    return `<div style="flex:1;display:grid;grid-template-columns:238px 1fr 320px;min-height:0;">
+    return `<div style="flex:1;display:flex;flex-direction:column;min-height:0;">
+      <div style="display:flex;align-items:center;gap:9px;padding:7px 24px;background:#FBF6F8;border-bottom:1px solid #E7C6D1;font-size:12px;color:#8B2A4A;flex:0 0 auto;"><span style="font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:10px;">Preview</span><span>This tab shows the design's sample data, not your real corpus. Presets and Wishlist are live; wiring the Library to the real index is the next build (docs/architecture/central-library-roadmap.md).</span></div>
+      <div style="flex:1;display:grid;grid-template-columns:238px 1fr 320px;min-height:0;">
       <div class="cl-scroll" style="border-right:1px solid #E7E5E2;padding:22px 18px;overflow-y:auto;background:#FCFBFA;">
         <div style="${hd}margin-bottom:12px;">Reads from this library</div>
         <div style="display:flex;flex-direction:column;gap:2px;margin-bottom:26px;">${buildItems}</div>
@@ -308,21 +317,8 @@ const CL = {
           <div style="font-size:13px;font-weight:600;color:#8B2A4A;margin-bottom:4px;">Drop PDFs here</div>
           <div style="font-size:11.5px;color:rgba(26,29,36,0.55);line-height:1.45;">Truly new files land in <span class="mono" style="color:#8B2A4A;">/unfiled</span> for any build to ingest later. Duplicates flagged on drop.</div>
         </button>
-        <div style="display:flex;justify-content:space-between;font-size:12px;color:rgba(26,29,36,0.6);padding:9px 0;border-bottom:1px solid #EDEBE8;"><span>Queued to ingest</span><span class="mono" style="color:#8B2A4A;font-weight:600;">${s.unfiled}</span></div>
-        <div style="display:flex;justify-content:space-between;font-size:12px;color:rgba(26,29,36,0.6);padding:9px 0;"><span>Flagged duplicate</span><span class="mono">${s.dupes}</span></div>
-        <div style="${hd}margin:24px 0 12px;">Last pull</div>
-        <div style="border:1px solid #EDEBE8;border-radius:9px;padding:15px;background:#fff;">
-          <div style="font-size:13px;font-weight:600;margin-bottom:2px;">Lead in infant formula</div>
-          <div class="mono" style="font-size:11px;color:rgba(26,29,36,0.45);margin-bottom:13px;">heavy metal · HMI · 28 Jun</div>
-          <div style="display:grid;grid-template-columns:1fr 1fr;gap:11px;">
-            <div><div class="mono" style="font-size:19px;font-weight:600;">142</div><div style="font-size:10px;color:rgba(26,29,36,0.5);">articles</div></div>
-            <div><div class="mono" style="font-size:19px;font-weight:600;color:#2C6E49;">104</div><div style="font-size:10px;color:rgba(26,29,36,0.5);">downloaded</div></div>
-            <div><div class="mono" style="font-size:19px;font-weight:600;color:#9A6A18;">15</div><div style="font-size:10px;color:rgba(26,29,36,0.5);">couldn't</div></div>
-            <div><div class="mono" style="font-size:19px;font-weight:600;color:rgba(26,29,36,0.4);">23</div><div style="font-size:10px;color:rgba(26,29,36,0.5);">not found</div></div>
-          </div>
-          <button data-act="setTab" data-arg="pulls" style="width:100%;margin-top:13px;font-size:12px;font-weight:600;color:#8B2A4A;background:#F7F2F4;border:none;border-radius:7px;padding:8px;cursor:pointer;">View all pulls →</button>
-        </div>
       </div>
+    </div>
     </div>`;
   },
 
@@ -628,22 +624,6 @@ const CL = {
       this.toastMsg(parts.join('  ·  '));
     }
     this.state.wishlist = null; this.render();
-  },
-
-  otherTab() {
-    const s = this.state;
-    const other = {
-      pulls:    { kicker: 'Direction 1A · next screen', title: 'Pulls console', desc: 'The "+ New pull" composer, live pipeline (esearch → enrich → dedupe → PDF waterfall), the four counters, and recent-run history live here. In the Corpus-first spine this is one click from the Library. Want me to build it out next?' },
-      coverage: { kicker: 'Direction 1A · next screen', title: 'Coverage & gaps', desc: 'Per-site status (HMI categories pending evidence, MMed uncharacterized conditions, WikiBiome coverage) plus the category × analyte heatmap and watched-topic alerts. This is the whole of concept 1C, folded in as a tab.' },
-    }[s.tab] || {};
-    return `<div style="flex:1;display:flex;align-items:center;justify-content:center;padding:40px;">
-      <div style="max-width:520px;text-align:center;">
-        <div class="mono" style="font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#8B2A4A;margin-bottom:14px;">${this.esc(other.kicker)}</div>
-        <h2 style="font-size:26px;font-weight:700;margin:0 0 12px;">${this.esc(other.title)}</h2>
-        <p style="font-size:15px;line-height:1.6;color:rgba(26,29,36,0.6);margin:0 0 20px;">${this.esc(other.desc)}</p>
-        <button data-act="setTab" data-arg="library" style="font-size:13px;font-weight:600;color:#8B2A4A;background:#F7F2F4;border:1px solid #E7C6D1;border-radius:8px;padding:9px 16px;cursor:pointer;">← Back to Library</button>
-      </div>
-    </div>`;
   },
 
   drawer() {

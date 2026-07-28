@@ -93,7 +93,7 @@ else
   # The server derives its repo root from the current directory (process.cwd()),
   # so it MUST be launched from inside the repo or downloads land in the wrong place.
   cd "$REPO" || die "Could not enter the repo folder:\n$REPO"
-  HMI_FETCH_APP_PORT="$PORT" HMI_FETCH_APP_HOST="$HOST" \
+  HMI_CENTRAL_LIBRARY_PORT="$PORT" HMI_CENTRAL_LIBRARY_HOST="$HOST" \
     nohup "$NODE" "$REPO/$SERVER_REL" >>"$LOG" 2>&1 &
   SERVER_PID=$!
   disown 2>/dev/null || true
