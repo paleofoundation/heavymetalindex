@@ -1,10 +1,10 @@
 #!/bin/bash
-# Assemble the double-clickable "Heavy Metal Fetch.app" on the Desktop from the
+# Assemble the double-clickable "Central Library.app" on the Desktop from the
 # version-controlled source in this folder. Reproducible: re-run any time to
 # rebuild the bundle after editing launch / Info.plist / icon.svg.
 #
-#   bash tools/fetch-app/desktop-app/build-desktop-app.sh
-#   npm run fetch-app:install-desktop
+#   bash tools/central-library/desktop-app/build-desktop-app.sh
+#   npm run central-library:install-desktop
 #
 # Optional first arg overrides the destination .app path.
 
@@ -12,7 +12,7 @@ set -euo pipefail
 
 SRC_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO="$(cd "$SRC_DIR/../../.." && pwd)"
-APP="${1:-$HOME/Desktop/Heavy Metal Fetch.app}"
+APP="${1:-$HOME/Desktop/Central Library.app}"
 
 echo "Building: $APP"
 echo "From:     $SRC_DIR"

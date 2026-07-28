@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleName</key>
-	<string>Heavy Metal Fetch</string>
+	<string>Central Library</string>
 	<key>CFBundleDisplayName</key>
-	<string>Heavy Metal Fetch</string>
+	<string>Central Library</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.paleofoundation.heavymetalindex.fetchapp</string>
+	<string>com.paleofoundation.heavymetalindex.centrallibrary</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFBundleShortVersionString</key>

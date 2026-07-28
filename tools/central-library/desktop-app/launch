@@ -1,5 +1,5 @@
 #!/bin/bash
-# Heavy Metal Fetch — double-clickable launcher for the local fetch-app.
+# Central Library — double-clickable launcher for the local central-library tool.
 # Hardened: node discovery under a Finder (login-shell-less) PATH, health-verified
 # port reuse, cwd-locked server start, browser fallback chain, and osascript
 # error surfacing. No Terminal is attached to a Finder launch, so every failure
