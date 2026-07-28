@@ -10,6 +10,9 @@ const el = (tag, props = {}, ...kids) => {
 const state = {
   ctx: null,
   queue: [],
+  gaps: [],
+  gapsLoaded: false,
+  gapSel: new Set(), // gap-cell ids ticked in the picker (survives filtering)
 }
 
 const METAL_OPTIONS = [
@@ -34,6 +37,7 @@ async function boot() {
   buildKeysPanel()
   wireModeToggle()
   wireQueryBuilder()
+  wireGaps()
   wireRun()
 }
 
@@ -160,12 +164,24 @@ async function saveKeys() {
 
 function wireModeToggle() {
   for (const r of document.querySelectorAll('input[name="mode"]')) {
-    r.onchange = () => {
-      const mode = currentMode()
-      $("#taxonomy-fields").classList.toggle("hidden", mode === "freeform")
-      $("#freeform-field").classList.toggle("hidden", mode !== "freeform")
-    }
+    r.onchange = applyMode
   }
+  applyMode()
+}
+
+function applyMode() {
+  const mode = currentMode()
+  const isGaps = mode === "gaps"
+  const isFreeform = mode === "freeform"
+  $("#taxonomy-fields").classList.toggle("hidden", isFreeform || isGaps)
+  $("#freeform-field").classList.toggle("hidden", !isFreeform)
+  $("#gaps-fields").classList.toggle("hidden", !isGaps)
+  // In gaps mode the metal + query come from the gap cell, so hide the manual
+  // metal picker and extra-terms field.
+  $("#metals-fieldset").classList.toggle("hidden", isGaps)
+  $("#extra-field").classList.toggle("hidden", isGaps)
+  $("#add-job").textContent = isGaps ? "Add selected to queue" : "Add to queue"
+  if (isGaps && !state.gapsLoaded) loadGaps()
 }
 
 function currentMode() {
@@ -175,6 +191,10 @@ function currentMode() {
 function wireQueryBuilder() {
   $("#add-job").onclick = () => {
     const mode = currentMode()
+    if (mode === "gaps") {
+      addGapsToQueue()
+      return
+    }
     const sel = {
       mode,
       categoryN: mode === "freeform" ? null : Number($("#category").value),
@@ -192,6 +212,122 @@ function wireQueryBuilder() {
     state.queue.push(sel)
     renderQueue()
   }
+}
+
+// ── Data-gaps picker ─────────────────────────────────────────────────────
+// Reads data/evidence/cells-needing-synthesis.csv via /api/gaps and lets Karen
+// pick ingredient×metal cells to fetch. Each ticked cell becomes one queue job.
+async function loadGaps() {
+  const box = $("#gaps-list")
+  box.innerHTML = `<div class="gaps-empty">Loading gaps…</div>`
+  try {
+    const r = await fetch("/api/gaps")
+    const data = await r.json()
+    state.gaps = data.gaps || []
+    state.gapsLoaded = true
+    if (!data.exists) {
+      box.innerHTML = `<div class="gaps-empty">Gap file not found: <code>${data.path}</code></div>`
+      return
+    }
+    populateGapMetalFilter()
+    renderGaps()
+  } catch (e) {
+    state.gapsLoaded = false
+    box.innerHTML = `<div class="gaps-empty">Could not load gaps: ${e.message}</div>`
+  }
+}
+
+function populateGapMetalFilter() {
+  const sel = $("#gaps-metal")
+  const metals = [...new Set(state.gaps.map((g) => g.metal))].sort()
+  sel.innerHTML = ""
+  sel.append(el("option", { value: "", textContent: "All metals" }))
+  for (const m of metals) sel.append(el("option", { value: m, textContent: m }))
+}
+
+function filteredGaps() {
+  const q = $("#gaps-filter").value.trim().toLowerCase()
+  const metal = $("#gaps-metal").value
+  return state.gaps.filter((g) => {
+    if (metal && g.metal !== metal) return false
+    if (q && !`${g.ingredient} ${g.metal}`.toLowerCase().includes(q)) return false
+    return true
+  })
+}
+
+function renderGaps() {
+  const box = $("#gaps-list")
+  if (!state.gaps.length) {
+    box.innerHTML = `<div class="gaps-empty">No gap cells on record.</div>`
+    return
+  }
+  const rows = filteredGaps()
+  box.innerHTML = ""
+  if (!rows.length) {
+    box.append(el("div", { className: "gaps-empty", textContent: "No cells match the filter." }))
+    return
+  }
+  for (const g of rows) {
+    const cb = el("input", { type: "checkbox", value: g.id })
+    cb.checked = state.gapSel.has(g.id)
+    cb.onchange = () => {
+      if (cb.checked) state.gapSel.add(g.id)
+      else state.gapSel.delete(g.id)
+      updateGapSelCount()
+    }
+    const row = el(
+      "label",
+      { className: "gap-row" },
+      cb,
+      el("span", { className: "gap-ing", textContent: g.ingredient }),
+      el("span", { className: "gap-metal", textContent: g.metal }),
+      el("span", { className: "gap-n", textContent: `n=${g.nSources}`, title: `${g.nSources} sources on record` }),
+    )
+    box.append(row)
+  }
+}
+
+function updateGapSelCount() {
+  $("#gaps-selcount").textContent = state.gapSel.size ? `${state.gapSel.size} selected` : ""
+}
+
+function wireGaps() {
+  $("#gaps-filter").oninput = renderGaps
+  $("#gaps-metal").onchange = renderGaps
+  $("#gaps-select-all").onclick = () => {
+    for (const g of filteredGaps()) state.gapSel.add(g.id)
+    renderGaps()
+    updateGapSelCount()
+  }
+  $("#gaps-clear").onclick = () => {
+    state.gapSel.clear()
+    renderGaps()
+    updateGapSelCount()
+  }
+}
+
+function addGapsToQueue() {
+  const chosen = state.gaps.filter((g) => state.gapSel.has(g.id))
+  if (!chosen.length) {
+    alert("Tick at least one gap cell first.")
+    return
+  }
+  const fromYear = $("#from-year").value
+  const toYear = $("#to-year").value
+  for (const g of chosen) {
+    state.queue.push({
+      mode: "gaps",
+      ingredient: g.ingredient,
+      metalCode: g.metal,
+      nSources: g.nSources,
+      fromYear,
+      toYear,
+    })
+  }
+  state.gapSel.clear()
+  renderGaps()
+  updateGapSelCount()
+  renderQueue()
 }
 
 function renderQueue() {
@@ -217,7 +353,13 @@ function renderQueue() {
 }
 
 function jobLabel(sel) {
-  const metals = sel.metals.length ? sel.metals.join(", ") : "heavy metals"
+  if (sel.mode === "gaps") {
+    return {
+      title: `Gap: ${sel.ingredient} × ${sel.metalCode}`,
+      detail: `${sel.nSources ?? "?"} sources on record · ${sel.fromYear}–${sel.toYear}`,
+    }
+  }
+  const metals = sel.metals && sel.metals.length ? sel.metals.join(", ") : "heavy metals"
   if (sel.mode === "freeform") {
     return { title: `Freeform: ${sel.freeform}`, detail: `${metals} · ${sel.fromYear}–${sel.toYear}` }
   }
@@ -363,7 +505,7 @@ function renderSummary(ev) {
     `<b>Done.</b> Downloaded <b>${s.downloaded || 0}</b> new PDFs`,
     ev.dryRun ? " <i>(dry run — nothing written)</i>" : ` into <code>${ev.stagingDir}/</code>`,
     `.<br/>Audit log: <code>${ev.auditPath}</code>`,
-    !ev.dryRun ? "<br/>The daemon's next ingest tick will pick these up automatically." : "",
+    !ev.dryRun ? "<br/>PDFs are staged for your ingest step." : "",
   ]
   $("#summary").innerHTML = parts.join("")
 }

@@ -22,6 +22,7 @@ import { categoryList } from "./lib/taxonomy.mjs"
 import { ADAPTERS, ADAPTER_KEY, KEY_REQUIRED } from "./lib/sources.mjs"
 import { rebuildCorpusIndex, loadCorpusIndex } from "./lib/dedup.mjs"
 import { runFetch } from "./lib/run.mjs"
+import { loadGaps } from "./lib/gaps.mjs"
 
 const publicRoot = resolve(fileURLToPath(new URL("./public", import.meta.url)))
 const port = Number(process.env.HMI_FETCH_APP_PORT ?? 8091)
@@ -68,6 +69,11 @@ const server = http.createServer(async (request, response) => {
 
     if (url.pathname === "/api/context" && request.method === "GET") {
       sendJson(response, buildContext())
+      return
+    }
+
+    if (url.pathname === "/api/gaps" && request.method === "GET") {
+      sendJson(response, loadGaps())
       return
     }
 

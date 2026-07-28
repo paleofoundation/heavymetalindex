@@ -33,6 +33,52 @@ export const METALS = {
   "heavy metals": ["heavy metals", "toxic metals", "trace metals", "trace elements"],
 }
 
+// CSV metal codes (data/evidence/cells-needing-synthesis.csv) → canonical METALS
+// key, used to expand the score-term synonym set for a gap cell. The gap file
+// speaks HMT&C analyte codes (tHg/MeHg/tAs/iAs/Cr-VI); species distinctions
+// matter at ingest and synthesis, not at fetch-recall time.
+export const METAL_CODE_TO_CANON = {
+  Pb: "lead",
+  Cd: "cadmium",
+  iAs: "inorganic arsenic",
+  tAs: "arsenic",
+  As: "arsenic",
+  tHg: "mercury",
+  MeHg: "mercury",
+  Hg: "mercury",
+  Ni: "nickel",
+  Al: "aluminum",
+  Cr: "chromium",
+  "Cr-VI": "chromium",
+  "Cr(VI)": "chromium",
+  Sn: "tin",
+  Sb: "antimony",
+  U: "uranium",
+}
+
+// The broad element word to put in the actual query string for a gap cell.
+// Recall beats precision here (the downstream dedupe + scorer + ingest firewall
+// handle species), so iAs/tAs both query "arsenic" and tHg/MeHg both query
+// "mercury" rather than the narrow species phrase.
+export const METAL_CODE_TO_QUERY = {
+  Pb: "lead",
+  Cd: "cadmium",
+  iAs: "arsenic",
+  tAs: "arsenic",
+  As: "arsenic",
+  tHg: "mercury",
+  MeHg: "mercury",
+  Hg: "mercury",
+  Ni: "nickel",
+  Al: "aluminum",
+  Cr: "chromium",
+  "Cr-VI": "chromium",
+  "Cr(VI)": "chromium",
+  Sn: "tin",
+  Sb: "antimony",
+  U: "uranium",
+}
+
 // Which find-candidates.mjs domain gate applies to each category number, so the
 // scorer can pick the right in-scope term list. Categories not listed default
 // to "food".
@@ -76,6 +122,11 @@ export function findCategory(n) {
 //           fromYear, toYear, mode:'products'|'remediation'|'freeform',
 //           freeform:string }
 export function buildJob(sel) {
+  // Data-gap mode: sel = { mode:'gaps', ingredient, metalCode, fromYear, toYear }.
+  // Gap cells key on ingredient pages, not the HMTc product taxonomy, so they
+  // route through their own builder rather than the category path below.
+  if (sel.mode === "gaps") return buildGapJob(sel)
+
   const cat = sel.categoryN ? findCategory(sel.categoryN) : null
   const sub =
     cat && sel.subSlug
@@ -156,6 +207,38 @@ export function buildJob(sel) {
     category: cat ? `${cat.n}. ${cat.name}` : "",
     subcategory: sub ? sub.name : "",
     subSlug: sub ? sub.slug : "",
+  }
+}
+
+// Build a fetch job from a single data-gap cell (ingredient × metal code). The
+// ingredient is a free string from cells-needing-synthesis.csv; the metal is the
+// cell's analyte code. Query is "<ingredient> <broad-element>"; score terms keep
+// the species-aware synonym set so precision holds downstream.
+function buildGapJob(sel) {
+  const ingredient = cleanProductName(sel.ingredient)
+  const code = String(sel.metalCode || "").trim()
+  const canon = METAL_CODE_TO_CANON[code] || "heavy metals"
+  const queryTerm = METAL_CODE_TO_QUERY[code] || (METALS[canon] && METALS[canon][0]) || "heavy metals"
+  const metalScoreTerms = METALS[canon] || METALS["heavy metals"]
+
+  const query = [ingredient ? quoteIfPhrase(ingredient) : "", queryTerm]
+    .filter(Boolean)
+    .join(" ")
+    .trim()
+
+  return {
+    label: `gap: ${ingredient || "?"} × ${code || "heavy metals"}`,
+    query,
+    domain: "food",
+    fromYear: Number(sel.fromYear) || 2010,
+    toYear: Number(sel.toYear) || new Date().getFullYear() + 1,
+    scoreTerms: {
+      products: ingredient ? [ingredient] : [],
+      metals: metalScoreTerms,
+    },
+    category: "gap",
+    subcategory: ingredient,
+    subSlug: "",
   }
 }
 

@@ -60,7 +60,9 @@ h3 { font-size: 16px; }
 a { color: inherit; transition: 0.15s ease; }
 
 .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 1.5rem; }
-.hidden { display: none; }
+/* Utility must win over later same-specificity rules (e.g. .grid2 display:grid),
+   or a toggled-hidden .grid2 element like #taxonomy-fields stays visible. */
+.hidden { display: none !important; }
 .muted { color: var(--color-muted); font-size: 13px; }
 code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; background: var(--color-primary-100); padding: 1px 5px; border-radius: 4px; }
 
@@ -168,6 +170,20 @@ fieldset legend { font-size: 12px; color: var(--color-muted); padding: 0 4px; }
 
 .log { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12px; line-height: 1.55; background: #1c1a17; color: #ece7dc; border-radius: var(--radius-field); padding: 14px; max-height: 300px; overflow: auto; white-space: pre-wrap; margin: 0; }
 .summary { margin-top: 14px; font-size: 14px; line-height: 1.6; }
+
+/* ── Data-gaps picker ──────────────────────────────────────────────────── */
+.gaps-toolbar { display: grid; grid-template-columns: 2fr 1fr; gap: 0 12px; margin-bottom: 10px; }
+.gaps-actions { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+.gaps-actions .btn { min-height: 2.25rem; padding: 0.35rem 0.9rem; }
+.gaps-list { border: 1px solid var(--color-line); border-radius: var(--radius-field); max-height: 340px; overflow: auto; padding: 4px; }
+.gap-row { display: grid; grid-template-columns: 20px 1fr auto auto; align-items: center; gap: 10px; margin: 0; padding: 7px 10px; color: var(--color-text); font-size: 14px; border-radius: 4px; cursor: pointer; }
+.gap-row:hover { background: var(--color-primary-100); }
+.gap-row input { width: auto; height: auto; margin: 0; }
+.gap-ing { font-family: var(--font-serif); }
+.gap-metal { font-family: ui-monospace, Menlo, monospace; font-size: 12px; color: var(--color-primary-dark); background: var(--color-primary-100); padding: 1px 8px; border-radius: 999px; justify-self: start; }
+.gap-n { font-family: ui-monospace, Menlo, monospace; font-size: 11px; color: var(--color-muted); }
+.gaps-empty { padding: 16px; color: var(--color-muted); font-size: 13px; }
+@media (max-width: 620px) { .gaps-toolbar { grid-template-columns: 1fr; gap: 8px 0; } }
 
 /* ── Footer ────────────────────────────────────────────────────────────── */
 .site-footer { border-top: 1px solid var(--color-line); background: #f9fafb; margin-top: 8px; }
