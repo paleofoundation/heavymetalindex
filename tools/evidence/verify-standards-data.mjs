@@ -273,6 +273,47 @@ for (const r of classifier) {
   const a = (r.next_action ?? "").trim()
   if (a) now[a] = (now[a] ?? 0) + 1
 }
+// Pool depth must never collapse silently. A cell going from a substantial pool
+// to zero is a bug signature (bad slug mapping, dropped metal_species), not
+// legitimate pruning — canned-fish Cr-total went 257 -> 0 exactly this way.
+// Ordinary shrinkage is reported but not blocking, because removing bad source
+// pages legitimately shallows pools.
+const standardsRowKeys = new Set(
+  classifier.map((r) => `${(r.product_slug ?? "").trim()}|${(r.metal_species ?? "").trim()}`),
+)
+function poolDepthByCell(text) {
+  const lines = text.split(/\r?\n/).filter((l) => l.trim())
+  if (!lines.length) return null
+  const hdr = splitCsvLine(lines[0])
+  const si = hdr.indexOf("product_slug"), mi = hdr.indexOf("metal_species"), ni = hdr.indexOf("pooled_n")
+  if (si < 0 || mi < 0 || ni < 0) return null
+  const m = new Map()
+  for (const l of lines.slice(1)) {
+    const c = splitCsvLine(l)
+    const n = Number(String(c[ni] ?? "").trim())
+    m.set(`${c[si]}|${c[mi]}`, Number.isFinite(n) ? n : 0)
+  }
+  return m
+}
+try {
+  const prevPoolText = execFileSync("git", ["show", `HEAD:${POOL}`], { cwd: REPO, encoding: "utf8", maxBuffer: 256 * 1024 * 1024 })
+  const prev = poolDepthByCell(prevPoolText)
+  const cur = poolDepthByCell(fs.readFileSync(path.join(REPO, POOL), "utf8"))
+  if (prev && cur) {
+    let shrunk = 0, lostDepth = 0
+    for (const [k, was] of prev) {
+      const now = cur.get(k) ?? 0
+      if (now < was) { shrunk++; lostDepth += was - now }
+      // Only a cell that actually backs a standards row matters. A deprecated
+      // pseudo-analyte emptying out (e.g. Cr-total, whose evidence re-speciates
+      // onto Cr/Cr-VI) collapses harmlessly and has no classifier row.
+      if (was >= 30 && now === 0 && standardsRowKeys.has(k))
+        add("FAIL", "pool-collapsed-to-zero", `${k} pooled_n ${was} -> 0 — mapping likely broke`, k)
+    }
+    if (shrunk) add("WARN", "pool-depth-shrank", `${shrunk} cell(s) lost pooled_n (total ${lostDepth} samples) vs HEAD`, "aggregate")
+  }
+} catch { /* no HEAD version yet */ }
+
 const prevCounts = headCounts()
 if (prevCounts) {
   if ((now.DONE ?? 0) < (prevCounts.DONE ?? 0))

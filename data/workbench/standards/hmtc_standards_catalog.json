@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-07-28T18:26:17.115Z",
-  "generated_commit": "04241a2dfbf6a70b728f709d54be73709bfee555",
+  "generated_at": "2026-07-29T16:42:21.254Z",
+  "generated_commit": "621be2545c0f1b003914f8f66bfd82901a457297",
   "methodology_version": "HMTc-10 / P97-clean / P45-dirty (CLAUDE.md Part 19, Governing Principles v2.0)",
   "standard_version": "2.2 (2026-06-09)",
   "panel": [
@@ -743,15 +743,16 @@
           "rationale_tag": null,
           "regulatory_cap_ppb": null,
           "regulatory_cap_source": "",
-          "evidence_state_note": "READY FOR REVIEW; distinct_sources=2; sens_band=stable; classify=resolved/firm",
+          "evidence_state_note": "READY FOR REVIEW; distinct_sources=2; sens_band=stable; classify=resolved/provisional",
           "gates": {
             "pairing": false,
             "methodology": true,
-            "readiness": true,
+            "readiness": false,
             "scope": true
           },
           "held_reasons": [
-            "gate1:across_row_review_hook unresolved (no RESOLVED marker)"
+            "gate1:across_row_review_hook unresolved (no RESOLVED marker)",
+            "gate3:classify-provisional (literature-baseline)"
           ]
         },
         "Ni": {
@@ -930,15 +931,16 @@
           "rationale_tag": null,
           "regulatory_cap_ppb": null,
           "regulatory_cap_source": "",
-          "evidence_state_note": "READY FOR REVIEW; distinct_sources=3; sens_band=stable; classify=resolved/firm",
+          "evidence_state_note": "READY FOR REVIEW; distinct_sources=3; sens_band=stable; classify=resolved/provisional",
           "gates": {
             "pairing": false,
             "methodology": true,
-            "readiness": true,
+            "readiness": false,
             "scope": true
           },
           "held_reasons": [
-            "gate1:across_row_review_hook unresolved (no RESOLVED marker)"
+            "gate1:across_row_review_hook unresolved (no RESOLVED marker)",
+            "gate3:classify-provisional (literature-baseline)"
           ]
         },
         "Cd": {
@@ -1247,15 +1249,16 @@
           "rationale_tag": null,
           "regulatory_cap_ppb": 1000,
           "regulatory_cap_source": "eu2023_hg_predatory_fish_1000",
-          "evidence_state_note": "READY FOR REVIEW (regulatory cap applies); distinct_sources=4; sens_band=stable; classify=resolved/firm",
+          "evidence_state_note": "READY FOR REVIEW (regulatory cap applies); distinct_sources=4; sens_band=stable; classify=resolved/provisional",
           "gates": {
             "pairing": false,
             "methodology": true,
-            "readiness": true,
+            "readiness": false,
             "scope": true
           },
           "held_reasons": [
-            "gate1:whole_row_platform RESOLVED hook does not name MeHg and cell is not cap-bound"
+            "gate1:whole_row_platform RESOLVED hook does not name MeHg and cell is not cap-bound",
+            "gate3:classify-provisional (literature-baseline)"
           ]
         },
         "Ni": {
@@ -1328,7 +1331,7 @@
           "status": "in_development",
           "in_scope": false,
           "published_limit_ppb": null,
-          "precise_ppb": 32574.4851,
+          "precise_ppb": 35624.3153,
           "native_basis": "as_sold",
           "cross_basis_ppb": null,
           "cross_basis_label": null,
@@ -1637,7 +1640,7 @@
           "status": "in_development",
           "in_scope": false,
           "published_limit_ppb": null,
-          "precise_ppb": 13020.4082,
+          "precise_ppb": 7379.768,
           "native_basis": "as_sold",
           "cross_basis_ppb": null,
           "cross_basis_label": null,
@@ -1659,7 +1662,7 @@
           "status": "in_development",
           "in_scope": true,
           "published_limit_ppb": null,
-          "precise_ppb": 6122.2317,
+          "precise_ppb": 139005.266,
           "native_basis": "as_sold",
           "cross_basis_ppb": null,
           "cross_basis_label": null,
@@ -1675,14 +1678,15 @@
           },
           "held_reasons": [
             "gate1:across_row_review_hook RESOLVED but tAs HELD",
-            "gate3:outlier-adjudication-pending"
+            "gate3:outlier-adjudication-pending",
+            "gate3:classify-provisional (literature-baseline)"
           ]
         },
         "iAs": {
           "status": "in_development",
           "in_scope": true,
           "published_limit_ppb": null,
-          "precise_ppb": 72709.8718,
+          "precise_ppb": 81905.3623,
           "native_basis": "as_sold",
           "cross_basis_ppb": null,
           "cross_basis_label": null,
@@ -1697,38 +1701,36 @@
             "scope": true
           },
           "held_reasons": [
-            "gate3:outlier-adjudication-pending",
-            "gate3:classify-provisional (literature-baseline)"
+            "gate3:outlier-adjudication-pending"
           ]
         },
         "Cd": {
           "status": "in_development",
           "in_scope": true,
           "published_limit_ppb": null,
-          "precise_ppb": 1892.7584,
+          "precise_ppb": 9154.9322,
           "native_basis": "as_sold",
           "cross_basis_ppb": null,
           "cross_basis_label": null,
           "rationale_tag": null,
           "regulatory_cap_ppb": null,
           "regulatory_cap_source": "",
-          "evidence_state_note": "PROVISIONAL: review sensitivity disagreement; distinct_sources=5; sens_band=provisional; classify=resolved/provisional",
+          "evidence_state_note": "READY FOR REVIEW; distinct_sources=7; sens_band=stable; classify=resolved/firm",
           "gates": {
             "pairing": false,
             "methodology": true,
-            "readiness": false,
+            "readiness": true,
             "scope": true
           },
           "held_reasons": [
-            "gate1:across_row_review_hook RESOLVED but Cd HELD",
-            "gate3:classify-provisional (literature-baseline)"
+            "gate1:across_row_review_hook RESOLVED but Cd HELD"
           ]
         },
         "tHg": {
           "status": "in_development",
           "in_scope": false,
           "published_limit_ppb": null,
-          "precise_ppb": 62.4568,
+          "precise_ppb": 274.9111,
           "native_basis": "as_sold",
           "cross_basis_ppb": null,
           "cross_basis_label": null,
@@ -1772,7 +1774,7 @@
           "status": "in_development",
           "in_scope": false,
           "published_limit_ppb": null,
-          "precise_ppb": null,
+          "precise_ppb": 15364.736,
           "native_basis": "as_sold",
           "cross_basis_ppb": null,
           "cross_basis_label": null,
@@ -2153,15 +2155,16 @@
           "rationale_tag": null,
           "regulatory_cap_ppb": 100,
           "regulatory_cap_source": "eu2023_pb_fats_oils_100",
-          "evidence_state_note": "READY FOR REVIEW (regulatory cap applies); distinct_sources=5; sens_band=stable; classify=resolved/firm",
+          "evidence_state_note": "READY FOR REVIEW (regulatory cap applies); distinct_sources=5; sens_band=stable; classify=resolved/provisional",
           "gates": {
             "pairing": false,
             "methodology": true,
-            "readiness": true,
+            "readiness": false,
             "scope": true
           },
           "held_reasons": [
-            "gate1:across_row_review_hook unresolved (no RESOLVED marker)"
+            "gate1:across_row_review_hook unresolved (no RESOLVED marker)",
+            "gate3:classify-provisional (literature-baseline)"
           ]
         },
         "tAs": {
@@ -2220,15 +2223,16 @@
           "rationale_tag": null,
           "regulatory_cap_ppb": null,
           "regulatory_cap_source": "",
-          "evidence_state_note": "READY FOR REVIEW; distinct_sources=2; sens_band=stable; classify=resolved/firm",
+          "evidence_state_note": "READY FOR REVIEW; distinct_sources=2; sens_band=stable; classify=resolved/provisional",
           "gates": {
             "pairing": false,
             "methodology": true,
-            "readiness": true,
+            "readiness": false,
             "scope": true
           },
           "held_reasons": [
-            "gate1:across_row_review_hook unresolved (no RESOLVED marker)"
+            "gate1:across_row_review_hook unresolved (no RESOLVED marker)",
+            "gate3:classify-provisional (literature-baseline)"
           ]
         },
         "tHg": {
@@ -2286,15 +2290,16 @@
           "rationale_tag": null,
           "regulatory_cap_ppb": null,
           "regulatory_cap_source": "",
-          "evidence_state_note": "READY FOR REVIEW; distinct_sources=7; sens_band=stable; classify=resolved/firm",
+          "evidence_state_note": "READY FOR REVIEW; distinct_sources=7; sens_band=stable; classify=resolved/provisional",
           "gates": {
             "pairing": false,
             "methodology": true,
-            "readiness": true,
+            "readiness": false,
             "scope": true
           },
           "held_reasons": [
-            "gate1:across_row_review_hook unresolved (no RESOLVED marker)"
+            "gate1:across_row_review_hook unresolved (no RESOLVED marker)",
+            "gate3:classify-provisional (literature-baseline)"
           ]
         },
         "Cr-VI": {
@@ -2795,15 +2800,16 @@
           "rationale_tag": null,
           "regulatory_cap_ppb": null,
           "regulatory_cap_source": "",
-          "evidence_state_note": "READY FOR REVIEW; distinct_sources=3; sens_band=stable; classify=resolved/firm",
+          "evidence_state_note": "READY FOR REVIEW; distinct_sources=3; sens_band=stable; classify=resolved/provisional",
           "gates": {
             "pairing": false,
             "methodology": true,
-            "readiness": true,
+            "readiness": false,
             "scope": true
           },
           "held_reasons": [
-            "gate1:across_row_review_hook ACTIVE"
+            "gate1:across_row_review_hook ACTIVE",
+            "gate3:classify-provisional (literature-baseline)"
           ]
         },
         "Cr-VI": {
@@ -3905,7 +3911,7 @@
       "gate2_methodology": 0,
       "gate3_readiness": 5,
       "gate4_scope": 0,
-      "classify_provisional": 13,
+      "classify_provisional": 19,
       "classify_pending": 0,
       "not_in_scope": 107
     }

@@ -60,7 +60,23 @@ This is separate from the distinct-source floor. `distinct_sources` counts sourc
 
 Enforcement is in code, in two places that must agree: `minNForPercentile` / `maxSupportablePercentile` in `tools/evidence/lib/standards-readiness.mjs` (which prevents `classifyCell` grading a cell firm when the pool cannot carry the target), and checks C11a/C11b in `tools/evidence/build-standards-qc-gate.mjs`. Before these were aligned, 68 cells graded firm that C11b demotes — including a P97 read from n=4.
 
-Where the pool cannot carry P97, the shortfall is stated rather than silently substituted: the cell is graded provisional and carries `percentile_unsupported`, `n_required`, and `max_supportable_p`. Publishing a lower percentile than the methodology targets is acceptable and honest; publishing P97 from a pool that cannot support it is neither. As of the 2026-07-29 pool, 118 of 786 cells can carry a P97.
+Where the pool cannot carry P97, the shortfall is stated rather than silently substituted: the cell is graded provisional and carries `percentile_unsupported`, `n_required`, and `max_supportable_p`.
+
+### The publishing rule (locked 2026-07-29)
+
+| Condition | Published value | Rationale tag |
+|---|---|---|
+| `pooled_n >= 99` | the pooled P97 | `literature-baseline` |
+| `pooled_n < 99` and a regulatory cap applies | the lowest applicable cap | `regulatory-alignment` |
+| `pooled_n < 99` and no cap | none — cell stays `in_development` | — |
+
+Stated once, for the record and for cross-examination: **a literature-derived percentile is published only when the sample supports a one-sided 95% bound on it; otherwise the standard aligns to the binding regulatory limit; otherwise nothing is published.**
+
+The rejected alternative was "publish the highest percentile each pool supports." It fails two ways. A lower percentile is a *tighter* value, so thin-data rows would carry harsher limits than data-rich ones — arbitrary, and it breaks the row-pass calibration the P97 uplift exists to deliver. And a P90 read from n=20 is no more stable than a P97 read from n=20; the instability is in the sample, not the percentile.
+
+The direction of the error is what settles it. At low n the P97 collapses onto the sample maximum, so the published limit becomes "the dirtiest lot we happened to observe" — a permissive, unstable number that moves with each new sample. For a program whose value is consumer protection and legal defensibility, publishing a loose unstable limit is a worse failure than publishing none, and coverage does not depend on it: regulatory alignment carries the rows that literature cannot, and the ratchet tightens them as pools deepen.
+
+Enforcement is `classifyCell` (which grades cap-bound cells firm regardless of n, literature cells firm only when n supports the target, and everything else provisional) plus gate 3 in `tools/standards/build-standards-catalog.mjs`, which emits no firm value for a non-firm classification. As of the 2026-07-29 pool, 122 of 792 cells can carry a P97.
 
 ## Clean and dirty subcategory framework
 
