@@ -31,8 +31,25 @@ Repo root is the working directory.
 
    C11a should FALL. That is the success measure — deeper pools mean more cells can support their target percentile. If C11a RISES, something was mis-bound: STOP immediately and report rather than continuing.
 
+6. VERIFY AND COMMIT YOURSELF. Do not ask a human to review a report.
+
+     node tools/evidence/verify-standards-data.mjs
+
+   This is a deterministic gate (no LLM): metal vocabulary, unit-scale sanity,
+   crosswalk referential integrity, C1 (no value above its cap), the
+   firm-without-sample-support guard, and regression vs HEAD (DONE must not
+   fall, FETCH_INGEST must not rise).
+
+   - EXIT 0 -> commit with explicit filenames only (never `git add -A`; this
+     repo has ~900 unrelated working-tree changes). One logical change, message
+     stating what was recovered and the C11a before/after. Do NOT push.
+   - EXIT NON-ZERO -> you introduced a NEW defect. Read the NEW FAIL block, fix
+     the data, re-run. If you cannot clear it in two attempts, revert your
+     changes to the affected rows and report. Never commit a failing gate and
+     never run --update-baseline to make your own defect "known".
+
 HARD CONSTRAINTS:
-- DO NOT COMMIT. DO NOT PUSH. Leave everything in the working tree for verification.
+- DO NOT PUSH. Committing locally is expected; publishing is a separate manual step.
 - NEVER hand-edit data/evidence/product_source_routing_audit.csv or any hmtc_aggregate_distributions.csv — they are generated (CLAUDE.md Part 5b).
 - Do not edit CLAUDE.md, OPERATING.md, or anything under data/workbench/standards/.
 - Do not write a certification threshold, percentile, or consumer risk advice anywhere (CLAUDE.md Part 2).
