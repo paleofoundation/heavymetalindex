@@ -2,6 +2,7 @@
   "id": "metal-deepdive-nickel",
   "label": "Metal Deep-Dive — Nickel (Ni)",
   "build": "hmi",
+  "analyte": "Ni",
   "subjectLabel": "Matrix",
   "placeholder": "[Matrix]",
   "example": "oats",

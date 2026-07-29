@@ -2,6 +2,7 @@
   "id": "metal-deepdive-aluminum",
   "label": "Metal Deep-Dive — Aluminum (Al)",
   "build": "hmi",
+  "analyte": "Al",
   "subjectLabel": "Matrix",
   "placeholder": "[Matrix]",
   "example": "infant formula",

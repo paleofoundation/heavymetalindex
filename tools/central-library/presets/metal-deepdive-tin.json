@@ -2,6 +2,7 @@
   "id": "metal-deepdive-tin",
   "label": "Metal Deep-Dive — Tin (Sn)",
   "build": "hmi",
+  "analyte": "Sn",
   "subjectLabel": "Matrix",
   "placeholder": "[Matrix]",
   "example": "canned tomatoes",

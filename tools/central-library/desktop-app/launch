@@ -12,7 +12,8 @@ SERVER_REL="tools/central-library/server.mjs"
 PORT="8092"
 HOST="127.0.0.1"
 URL="http://${HOST}:${PORT}"
-HEALTH_URL="${URL}/api/presets"   # app-specific route; proves OUR server answers, not a squatter
+HEALTH_URL="${URL}/api/health"    # app-specific route; proves OUR server answers, not a squatter
+LEGACY_HEALTH_URL="${URL}/api/presets"  # pre-/api/health builds; any 200 here means a stale instance
 LOG="${HOME}/Library/Logs/HeavyMetalFetch.log"
 
 mkdir -p "$(dirname "$LOG")" 2>/dev/null
@@ -82,12 +83,54 @@ our_server_up() {
 port_bound() {
   /usr/bin/curl -s -o /dev/null --max-time 2 "$URL" >/dev/null 2>&1
 }
+# Is the running instance serving code older than what is on disk? The browser
+# always loads public/app.js fresh from disk, so a long-lived server process
+# pairs a NEW front end with OLD routes — the UI then calls endpoints its own
+# server does not have and reports them as missing data. Reusing a stale
+# instance is worse than restarting it, so this is checked before reuse.
+server_is_stale() {
+  /usr/bin/curl -s --max-time 2 "$HEALTH_URL" 2>/dev/null | /usr/bin/grep -q '"stale":true'
+}
+# A server predating /api/health cannot report staleness; if the legacy route
+# answers but /api/health 404s, the instance is by definition out of date.
+legacy_server_up() {
+  local code
+  code="$(/usr/bin/curl -s -o /dev/null -w '%{http_code}' --max-time 2 "$LEGACY_HEALTH_URL" 2>/dev/null)"
+  [ "$code" = "200" ]
+}
+# Stop whatever of ours holds the port, so a fresh instance can bind it.
+stop_stale_server() {
+  local pids
+  pids="$(/usr/sbin/lsof -ti tcp:"$PORT" 2>/dev/null)"
+  [ -z "$pids" ] && return 0
+  echo "stopping stale server (pids: $pids)"
+  # shellcheck disable=SC2086
+  kill $pids 2>/dev/null
+  for _ in $(seq 1 20); do
+    port_bound || return 0
+    sleep 0.25
+  done
+  # shellcheck disable=SC2086
+  kill -9 $pids 2>/dev/null
+  sleep 0.5
+}
 
-if our_server_up; then
-  echo "fetch-app already running on $PORT — reusing it"
+RESTART_REASON=""
+if our_server_up && server_is_stale; then
+  RESTART_REASON="the running server predates the current code"
+elif ! our_server_up && legacy_server_up; then
+  RESTART_REASON="the running server predates the /api/health route"
+fi
+if [ -n "$RESTART_REASON" ]; then
+  echo "restarting: $RESTART_REASON"
+  stop_stale_server
+fi
+
+if our_server_up && ! server_is_stale; then
+  echo "central-library already running on $PORT (current code) — reusing it"
 else
   if port_bound; then
-    die "Port $PORT is already being used by another program, and it is not Heavy Metal Fetch.\n\nQuit whatever is using port $PORT (or restart the Mac) and try again."
+    die "Port $PORT is already being used by another program, and it is not Central Library.\n\nQuit whatever is using port $PORT (or restart the Mac) and try again."
   fi
   echo "starting server..."
   # The server derives its repo root from the current directory (process.cwd()),
