@@ -87,7 +87,21 @@
     "runtime:run-loop": "node tools/runtime/run-loop.mjs",
     "runtime:drain": "node tools/runtime/run-loop.mjs --drain --verbose",
     "prepare": "husky",
-    "lint:doi-collisions": "node tools/audit-doi-collisions.mjs"
+    "lint:doi-collisions": "node tools/audit-doi-collisions.mjs",
+    "snapshot:information-set": "node tools/snapshot-information-set.mjs",
+    "lint:content-preservation": "node tools/audit-content-preservation.mjs",
+    "fetch-app": "node tools/fetch-app/server.mjs",
+    "fetch-app:install-desktop": "bash tools/fetch-app/desktop-app/build-desktop-app.sh",
+    "central-library": "node tools/central-library/server.mjs",
+    "central-library:run": "node tools/central-library/run-condition.mjs",
+    "central-library:install-desktop": "bash tools/central-library/desktop-app/build-desktop-app.sh",
+    "library:status": "node tools/library-status.mjs",
+    "library:sort": "node tools/library/sort-inbox.mjs",
+    "library:index": "node tools/library/backfill-identity.mjs",
+    "library:snapshot": "node tools/library/snapshot.mjs",
+    "wishlist:harvest": "node tools/wishlist/harvest-wishlist.mjs",
+    "wishlist:score": "node tools/wishlist/score-wishlist.mjs",
+    "wishlist:watch": "node tools/wishlist/fulfillment-watcher.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",
