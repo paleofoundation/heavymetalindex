@@ -44,6 +44,24 @@ The Governing Principles require approximately 90% of clean-subcategory brands a
 
 The heuristic uplift is uniform across all analytes today. Per-analyte differentiation (e.g., Pb tighter than Ni based on regulatory pressure or toxicology) is a Tier 2 calibration deferred until HMT&C has lot-testing data to measure the actual joint pass rate empirically (target review: 6-12 months post-launch).
 
+### The sample size a percentile requires (non-negotiable)
+
+A percentile is only as real as the sample it is read from. For an upper-tail target, the smallest n at which a one-sided 95% nonparametric bound on the P-th percentile exists at all is `ceil(ln(0.05)/ln(P))`:
+
+| Target | Minimum n |
+|---|---|
+| P90 | 29 |
+| P95 | 59 |
+| **P97** | **99** |
+
+Below that n there is no bound. The number is the top order statistic wearing a percentile's name: it moves with the dirtiest lot in the pool rather than with the distribution, and no confidence statement can be made about it. A second condition applies independently — the target must sit inside the pool's resolution (`P <= 1 - 1/n`), or fewer than one observation is expected above it and the value is extrapolation.
+
+This is separate from the distinct-source floor. `distinct_sources` counts sources; `pooled_n` counts samples. A three-source pool of twenty samples clears the source gate and fails this one.
+
+Enforcement is in code, in two places that must agree: `minNForPercentile` / `maxSupportablePercentile` in `tools/evidence/lib/standards-readiness.mjs` (which prevents `classifyCell` grading a cell firm when the pool cannot carry the target), and checks C11a/C11b in `tools/evidence/build-standards-qc-gate.mjs`. Before these were aligned, 68 cells graded firm that C11b demotes — including a P97 read from n=4.
+
+Where the pool cannot carry P97, the shortfall is stated rather than silently substituted: the cell is graded provisional and carries `percentile_unsupported`, `n_required`, and `max_supportable_p`. Publishing a lower percentile than the methodology targets is acceptable and honest; publishing P97 from a pool that cannot support it is neither. As of the 2026-07-29 pool, 118 of 786 cells can carry a P97.
+
 ## Clean and dirty subcategory framework
 
 Within a parent category that has multiple subcategories (for example, infant formula split into milk-based, soy-based, and hydrolyzed; or baby cereals split into rice-based and non-rice), classify each subcategory per-analyte as the clean subcategory or the dirty subcategory based on whether its empirical distribution for that analyte is meaningfully lower (clean) or higher (dirty) than the parent-category median. Clean and dirty are designations within a parent category, not fixed labels on a subcategory; the same subcategory can be clean for one analyte and dirty for another. If only one subcategory has data for an analyte, the comparison cannot be made; report what is available and note the missing comparison rather than guessing.
