@@ -147,14 +147,58 @@ function loadQuarantineKeys() {
   return keys
 }
 
+// Sources placed on HOLD in the outlier adjudication registry
+// (data/evidence/standards-outlier-adjudication.csv) are held from EVERY pool,
+// not just the autonomy extractor's output. Keyed semantically by
+// (source_id|metal_species|row_slug) so a re-extract cannot reintroduce a held
+// outlier. Only registry rows that name a specific source_id drop pool rows;
+// cell-level holds (blank source_id, e.g. a whole-cell sensitivity hold) are a
+// QC-gate signal, not a pool exclusion, so they are skipped here. An empty
+// metal or slug on a source-specific hold acts as a wildcard for that field.
+function loadHoldKeys() {
+  const hp = path.join(repoRoot, "data/evidence/standards-outlier-adjudication.csv")
+  if (!fs.existsSync(hp)) return { exact: new Set(), wildMetal: new Set(), wildSlug: new Set(), wildBoth: new Set() }
+  const exact = new Set()
+  const wildMetal = new Set() // source|slug  (any metal)
+  const wildSlug = new Set() // source|metal  (any slug)
+  const wildBoth = new Set() // source        (any metal, any slug)
+  for (const r of parseCsv(fs.readFileSync(hp, "utf8"))) {
+    if (!(r.disposition ?? "").trim().toUpperCase().startsWith("HOLD")) continue
+    const sourceId = (r.source_id ?? "").trim()
+    if (!sourceId) continue // cell-level hold -> QC gate, not a pool exclusion
+    const metal = (r.metal_species ?? "").trim()
+    const slug = (r.row_slug ?? "").trim()
+    if (metal && slug) exact.add(`${sourceId}|${metal}|${slug}`)
+    else if (slug) wildMetal.add(`${sourceId}|${slug}`)
+    else if (metal) wildSlug.add(`${sourceId}|${metal}`)
+    else wildBoth.add(sourceId)
+  }
+  return { exact, wildMetal, wildSlug, wildBoth }
+}
+
+function isHeld(row, hold) {
+  const sourceId = (row.source_id ?? "").trim()
+  if (!sourceId) return false
+  const metal = (row.metal_species ?? "").trim()
+  const slug = (row.product_slug || row.row_slug || "").trim()
+  return (
+    hold.exact.has(`${sourceId}|${metal}|${slug}`) ||
+    hold.wildMetal.has(`${sourceId}|${slug}`) ||
+    hold.wildSlug.has(`${sourceId}|${metal}`) ||
+    hold.wildBoth.has(sourceId)
+  )
+}
+
 function loadStructuredRows() {
   const quarantineKeys = loadQuarantineKeys()
+  const hold = loadHoldKeys()
   const summaryFiles = fs
     .readdirSync(path.join(repoRoot, "data/evidence"))
     .filter((f) => /^category\d.*_summary\.csv$/.test(f))
     .map((f) => path.join(repoRoot, "data/evidence", f))
   const rows = []
   let quarantinedDropped = 0
+  let heldDropped = 0
   for (const f of summaryFiles) {
     const base = path.basename(f)
     const parsed = parseCsv(fs.readFileSync(f, "utf8"))
@@ -163,26 +207,36 @@ function loadStructuredRows() {
         const key = `${(row.source_id ?? "").trim()}|${(row.metal_species ?? "").trim()}|${(row.product_label ?? "").trim()}`
         if (quarantineKeys.has(key)) { quarantinedDropped++; continue }
       }
+      if (isHeld(row, hold)) { heldDropped++; continue }
       rows.push({ ...row, _source_file: base })
     }
   }
   if (quarantinedDropped) {
     console.log(`  pool admission: excluded ${quarantinedDropped} quarantined autonomy row(s) (validation gate)`)
   }
+  if (heldDropped) {
+    console.log(`  pool admission: excluded ${heldDropped} HOLD-registry row(s) (outlier adjudication)`)
+  }
   return rows
 }
 
 function loadSampleRows() {
+  const hold = loadHoldKeys()
   const sampleFiles = fs
     .readdirSync(path.join(repoRoot, "data/evidence"))
     .filter((f) => /^category\d.*_samples\.csv$/.test(f))
     .map((f) => path.join(repoRoot, "data/evidence", f))
   const rows = []
+  let heldDropped = 0
   for (const f of sampleFiles) {
     const parsed = parseCsv(fs.readFileSync(f, "utf8"))
     for (const row of parsed) {
+      if (isHeld(row, hold)) { heldDropped++; continue }
       rows.push({ ...row, _source_file: path.basename(f) })
     }
+  }
+  if (heldDropped) {
+    console.log(`  sample admission: excluded ${heldDropped} HOLD-registry sample row(s) (outlier adjudication)`)
   }
   return rows
 }
