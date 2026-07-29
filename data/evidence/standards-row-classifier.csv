@@ -44,12 +44,12 @@ beef-product,locked_hmtc_row,Cr,11,PROVISIONAL,EXTRACT_SYNTH,BLOCKED: no usable 
 bottled-drinking-water,locked_hmtc_row,Pb,8,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
 bottled-drinking-water,locked_hmtc_row,Cd,8,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
 bottled-drinking-water,locked_hmtc_row,tAs,8,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-bottled-drinking-water,locked_hmtc_row,iAs,8,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-breakfast-cereal-non-rice,locked_hmtc_row,Pb,3,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-breakfast-cereal-non-rice,locked_hmtc_row,Cd,3,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-breakfast-cereal-rice-based,locked_hmtc_row,Cd,3,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-breakfast-cereal-rice-based,locked_hmtc_row,tAs,3,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-breakfast-cereal-rice-based,locked_hmtc_row,iAs,3,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+bottled-drinking-water,locked_hmtc_row,iAs,8,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+breakfast-cereal-non-rice,locked_hmtc_row,Pb,3,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+breakfast-cereal-non-rice,locked_hmtc_row,Cd,3,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+breakfast-cereal-rice-based,locked_hmtc_row,Cd,3,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+breakfast-cereal-rice-based,locked_hmtc_row,tAs,3,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+breakfast-cereal-rice-based,locked_hmtc_row,iAs,3,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 breakfast-cereals,not_locked_hmtc_row,Pb,,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED: no usable evidence,OUT OF SCOPE: not a locked HMTc standards row
 breakfast-cereals,not_locked_hmtc_row,Cd,,OUT_OF_SCOPE,OUT_OF_SCOPE,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates",OUT OF SCOPE: not a locked HMTc standards row
 breakfast-cereals,not_locked_hmtc_row,tAs,,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED: no usable evidence,OUT OF SCOPE: not a locked HMTc standards row
@@ -67,8 +67,8 @@ canned-seafood,locked_hmtc_row,Cd,6,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: sing
 canned-seafood,locked_hmtc_row,MeHg,6,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
 canned-seafood,locked_hmtc_row,Sn,6,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
 cashews,locked_hmtc_row,Pb,28,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-cashews,locked_hmtc_row,Cd,28,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-cashews,locked_hmtc_row,Ni,28,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+cashews,locked_hmtc_row,Cd,28,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+cashews,locked_hmtc_row,Ni,28,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 children-personal-care,not_locked_hmtc_row,Pb,2,OUT_OF_SCOPE,OUT_OF_SCOPE,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates",OUT OF SCOPE: not a locked HMTc standards row
 children-personal-care,not_locked_hmtc_row,Cd,2,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED: no usable evidence,OUT OF SCOPE: not a locked HMTc standards row
 children-personal-care,not_locked_hmtc_row,tAs,2,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED: no usable evidence,OUT OF SCOPE: not a locked HMTc standards row
@@ -139,7 +139,7 @@ dietary-supplements,not_locked_hmtc_row,iAs,16,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED
 dietary-supplements,not_locked_hmtc_row,tHg,16,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED: no usable evidence,OUT OF SCOPE: not a locked HMTc standards row
 dietary-supplements,not_locked_hmtc_row,Ni,16,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED: no usable evidence,OUT OF SCOPE: not a locked HMTc standards row
 dietary-supplements,not_locked_hmtc_row,Cr-VI,16,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED: no usable evidence,OUT OF SCOPE: not a locked HMTc standards row
-dried-fruit,locked_hmtc_row,Pb,4,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+dried-fruit,locked_hmtc_row,Pb,4,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 dried-fruit,locked_hmtc_row,Cd,4,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 dried-fruit,locked_hmtc_row,tAs,4,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 eggs-product,locked_hmtc_row,iAs,11,PROVISIONAL,EXTRACT_SYNTH,BLOCKED: no usable evidence,evidence loaded but no usable pooled statistic — extraction/routing recovery
@@ -263,14 +263,14 @@ infant-cereal,not_locked_hmtc_row,Al,,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED: no usab
 infant-cereal,not_locked_hmtc_row,Ni,,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED: no usable evidence,OUT OF SCOPE: not a locked HMTc standards row
 infant-cereal,not_locked_hmtc_row,Sn,,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED: no usable evidence,OUT OF SCOPE: not a locked HMTc standards row
 infant-cereal,not_locked_hmtc_row,Cr-VI,,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED: no usable evidence,OUT OF SCOPE: not a locked HMTc standards row
-infant-food-puree,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-food-puree,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-food-puree,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-food-puree,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-food-puree,locked_hmtc_row,tAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-food-puree,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-food-puree,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula,locked_hmtc_row,Pb,pending_taxonomy_review,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
 infant-formula,locked_hmtc_row,Cd,pending_taxonomy_review,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
 infant-formula,locked_hmtc_row,tAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula,locked_hmtc_row,tHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula,locked_hmtc_row,MeHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula,locked_hmtc_row,Al,pending_taxonomy_review,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=2) — recover/synthesize to firm up"
@@ -287,24 +287,24 @@ infant-formula-concentrated-liquid-soy-based,bridge_context,Cd,,OUT_OF_SCOPE,OUT
 infant-formula-concentrated-liquid-soy-based,bridge_context,tAs,,OUT_OF_SCOPE,OUT_OF_SCOPE,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates",CONTEXT ONLY: not a locked HMTc standards row
 infant-formula-concentrated-liquid-soy-based,bridge_context,tHg,,OUT_OF_SCOPE,OUT_OF_SCOPE,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates",CONTEXT ONLY: not a locked HMTc standards row
 infant-formula-concentrated-liquid-soy-based,bridge_context,Al,,OUT_OF_SCOPE,OUT_OF_SCOPE,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates",CONTEXT ONLY: not a locked HMTc standards row
-infant-formula-dairy,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-dairy,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-dairy,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-dairy,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-dairy,locked_hmtc_row,tAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-dairy,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-dairy,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-dairy,locked_hmtc_row,tHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-dairy,locked_hmtc_row,MeHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-dairy,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-dairy,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-dairy,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-dairy,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-dairy,locked_hmtc_row,Sn,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-dairy,locked_hmtc_row,Cr-VI,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-dairy-free,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-dairy-free,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-dairy-free,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-dairy-free,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-dairy-free,locked_hmtc_row,tAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-dairy-free,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-dairy-free,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-dairy-free,locked_hmtc_row,tHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-dairy-free,locked_hmtc_row,MeHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-dairy-free,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-dairy-free,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-dairy-free,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-dairy-free,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-dairy-free,locked_hmtc_row,Sn,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-dairy-free,locked_hmtc_row,Cr-VI,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-powder,base_context,Pb,,OUT_OF_SCOPE,OUT_OF_SCOPE,READY FOR REVIEW,CONTEXT ONLY: not a locked HMTc standards row
@@ -321,14 +321,14 @@ infant-formula-powder-amino-acid-based-out-of-scope,not_locked_hmtc_row,Pb,,OUT_
 infant-formula-powder-amino-acid-based-out-of-scope,not_locked_hmtc_row,Cd,,OUT_OF_SCOPE,OUT_OF_SCOPE,OUT OF SCOPE: not a locked HMTc standards row,OUT OF SCOPE: not a locked HMTc standards row
 infant-formula-powder-amino-acid-based-out-of-scope,not_locked_hmtc_row,tAs,,OUT_OF_SCOPE,OUT_OF_SCOPE,OUT OF SCOPE: not a locked HMTc standards row,OUT OF SCOPE: not a locked HMTc standards row
 infant-formula-powder-amino-acid-based-out-of-scope,not_locked_hmtc_row,tHg,,OUT_OF_SCOPE,OUT_OF_SCOPE,OUT OF SCOPE: not a locked HMTc standards row,OUT OF SCOPE: not a locked HMTc standards row
-infant-formula-powder-dairy,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-powder-dairy,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-powder-dairy,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-powder-dairy,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-powder-dairy,locked_hmtc_row,tAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-powder-dairy,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-powder-dairy,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-powder-dairy,locked_hmtc_row,tHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-powder-dairy,locked_hmtc_row,MeHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-powder-dairy,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-powder-dairy,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-powder-dairy,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-powder-dairy,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-powder-dairy,locked_hmtc_row,Sn,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-powder-dairy,locked_hmtc_row,Cr-VI,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-powder-non-soy,locked_hmtc_row,Pb,1,DEFENSIBLE,DONE,READY FOR REVIEW (regulatory cap applies),regulatory-alignment — READY FOR REVIEW (regulatory cap applies)
@@ -351,14 +351,14 @@ infant-formula-powder-non-soy,locked_hmtc_row,Sb,1,PROVISIONAL,EXTRACT_SYNTH,"PR
 infant-formula-powder-non-soy,locked_hmtc_row,Se,1,DEFENSIBLE,DONE,READY FOR REVIEW,literature-baseline — READY FOR REVIEW
 infant-formula-powder-non-soy,locked_hmtc_row,U,1,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=8) — recover/synthesize to firm up"
 infant-formula-powder-non-soy,locked_hmtc_row,Zn,1,DEFENSIBLE,DONE,READY FOR REVIEW,literature-baseline — READY FOR REVIEW
-infant-formula-powder-soy,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-powder-soy,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-powder-soy,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-powder-soy,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-powder-soy,locked_hmtc_row,tAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-powder-soy,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-powder-soy,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-powder-soy,locked_hmtc_row,tHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-powder-soy,locked_hmtc_row,MeHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-powder-soy,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-powder-soy,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-powder-soy,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-powder-soy,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-powder-soy,locked_hmtc_row,Sn,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-powder-soy,locked_hmtc_row,Cr-VI,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-powder-soy-based,locked_hmtc_row,Pb,1,PROVISIONAL,EXTRACT_SYNTH,PROVISIONAL: review sensitivity disagreement,PROVISIONAL: review sensitivity disagreement (sources_contributing=10) — recover/synthesize to firm up
@@ -378,15 +378,15 @@ infant-formula-powder-soy-based,locked_hmtc_row,Mn,1,DEFENSIBLE,DONE,READY FOR R
 infant-formula-powder-soy-based,locked_hmtc_row,Sb,1,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
 infant-formula-powder-soy-based,locked_hmtc_row,Se,1,DEFENSIBLE,DONE,READY FOR REVIEW,literature-baseline — READY FOR REVIEW
 infant-formula-powder-soy-based,locked_hmtc_row,Zn,1,DEFENSIBLE,DONE,READY FOR REVIEW,literature-baseline — READY FOR REVIEW
-infant-formula-rtf-dairy,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-rtf-dairy,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-rtf-dairy,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-rtf-dairy,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-rtf-dairy,locked_hmtc_row,tAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-rtf-dairy,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-rtf-dairy,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-rtf-dairy,locked_hmtc_row,tHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-rtf-dairy,locked_hmtc_row,MeHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-rtf-dairy,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-rtf-dairy,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-rtf-dairy,locked_hmtc_row,Sn,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-rtf-dairy,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-rtf-dairy,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-rtf-dairy,locked_hmtc_row,Sn,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-rtf-dairy,locked_hmtc_row,Cr-VI,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-rtf-liquid-non-soy,locked_hmtc_row,Pb,1,DEFENSIBLE,DONE,READY FOR REVIEW (regulatory cap applies),literature-baseline — READY FOR REVIEW (regulatory cap applies)
 infant-formula-rtf-liquid-non-soy,locked_hmtc_row,Cd,1,DEFENSIBLE,DONE,READY FOR REVIEW (regulatory cap applies),literature-baseline — READY FOR REVIEW (regulatory cap applies)
@@ -410,50 +410,50 @@ infant-formula-rtf-liquid-soy-based,locked_hmtc_row,tAs,1,PROVISIONAL,EXTRACT_SY
 infant-formula-rtf-liquid-soy-based,locked_hmtc_row,iAs,1,BLOCKED,CAP_MAP,BLOCKED: species-specific evidence missing,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-rtf-liquid-soy-based,locked_hmtc_row,tHg,1,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
 infant-formula-rtf-liquid-soy-based,locked_hmtc_row,Al,1,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
-infant-formula-rtf-liquid-soy-based,locked_hmtc_row,Ni,1,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-rtf-soy,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-rtf-soy,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-rtf-liquid-soy-based,locked_hmtc_row,Ni,1,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-rtf-soy,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-rtf-soy,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-rtf-soy,locked_hmtc_row,tAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-rtf-soy,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-rtf-soy,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-rtf-soy,locked_hmtc_row,tHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-rtf-soy,locked_hmtc_row,MeHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-rtf-soy,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-rtf-soy,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-rtf-soy,locked_hmtc_row,Sn,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-rtf-soy,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-rtf-soy,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-rtf-soy,locked_hmtc_row,Sn,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-rtf-soy,locked_hmtc_row,Cr-VI,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-stage1,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-stage1,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-stage1,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-stage1,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-stage1,locked_hmtc_row,tAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-stage1,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-stage1,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-stage1,locked_hmtc_row,tHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-stage1,locked_hmtc_row,MeHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-stage1,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-formula-stage1,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-formula-stage1,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-formula-stage1,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-formula-stage1,locked_hmtc_row,Sn,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-formula-stage1,locked_hmtc_row,Cr-VI,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-juice,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-juice,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-juice,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-juice,locked_hmtc_row,Cd,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-juice,locked_hmtc_row,tAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-juice,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-rice-cereal,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-juice,locked_hmtc_row,iAs,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+infant-rice-cereal,locked_hmtc_row,Pb,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-rice-cereal,locked_hmtc_row,Cd,pending_taxonomy_review,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
-infant-rice-cereal,locked_hmtc_row,tAs,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-rice-cereal,locked_hmtc_row,tAs,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-rice-cereal,locked_hmtc_row,iAs,pending_taxonomy_review,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
-infant-rice-cereal,locked_hmtc_row,tHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-rice-cereal,locked_hmtc_row,tHg,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-rice-cereal,locked_hmtc_row,MeHg,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-rice-cereal,locked_hmtc_row,Al,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-infant-rice-cereal,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+infant-rice-cereal,locked_hmtc_row,Ni,pending_taxonomy_review,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 infant-rice-cereal,locked_hmtc_row,Sn,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 infant-rice-cereal,locked_hmtc_row,Cr-VI,pending_taxonomy_review,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 kombucha-tea-based,locked_hmtc_row,Pb,5,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 kombucha-tea-based,locked_hmtc_row,Cd,5,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 kombucha-tea-based,locked_hmtc_row,Al,5,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-leafy-vegetables-other,locked_hmtc_row,Pb,4,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+leafy-vegetables-other,locked_hmtc_row,Pb,4,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 leafy-vegetables-other,locked_hmtc_row,Cd,4,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
 legumes-pulses-other,locked_hmtc_row,Pb,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 legumes-pulses-other,locked_hmtc_row,Cd,27,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
 legumes-pulses-other,locked_hmtc_row,Al,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-legumes-pulses-other,locked_hmtc_row,Ni,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+legumes-pulses-other,locked_hmtc_row,Ni,27,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 lipstick,locked_hmtc_row,Pb,13,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
 lipstick,locked_hmtc_row,Cd,13,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 lipstick,locked_hmtc_row,Al,13,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
@@ -473,7 +473,7 @@ milk-and-dairy,not_locked_hmtc_row,Cd,24,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED: no u
 mineral-water,locked_hmtc_row,Pb,8,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 mineral-water,locked_hmtc_row,Cd,8,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 mineral-water,locked_hmtc_row,tAs,8,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-mineral-water,locked_hmtc_row,iAs,8,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+mineral-water,locked_hmtc_row,iAs,8,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 mixed-meals-non-rice,locked_hmtc_row,Pb,1,PROVISIONAL,EXTRACT_SYNTH,PROVISIONAL: review sensitivity disagreement,PROVISIONAL: review sensitivity disagreement (sources_contributing=4) — recover/synthesize to firm up
 mixed-meals-non-rice,locked_hmtc_row,Cd,1,DEFENSIBLE,DONE,READY FOR REVIEW (regulatory cap applies),literature-baseline — READY FOR REVIEW (regulatory cap applies)
 mixed-meals-non-rice,locked_hmtc_row,tAs,1,DEFENSIBLE,DONE,READY FOR REVIEW,literature-baseline — READY FOR REVIEW
@@ -498,8 +498,8 @@ non-root-vegetables,locked_hmtc_row,Pb,4,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL:
 non-root-vegetables,locked_hmtc_row,Cd,4,DEFENSIBLE,DONE,READY FOR REVIEW,literature-baseline — READY FOR REVIEW
 non-root-vegetables,locked_hmtc_row,tAs,4,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=2) — recover/synthesize to firm up"
 nut-seed-butters-other,locked_hmtc_row,Pb,28,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-nut-seed-butters-other,locked_hmtc_row,Cd,28,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-nut-seed-butters-other,locked_hmtc_row,Ni,28,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+nut-seed-butters-other,locked_hmtc_row,Cd,28,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+nut-seed-butters-other,locked_hmtc_row,Ni,28,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 nuts-seeds-other,locked_hmtc_row,Pb,28,DEFENSIBLE,DONE,READY FOR REVIEW,literature-baseline — READY FOR REVIEW
 nuts-seeds-other,locked_hmtc_row,Cd,28,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=2) — recover/synthesize to firm up"
 nuts-seeds-other,locked_hmtc_row,Ni,28,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=2) — recover/synthesize to firm up"
@@ -523,11 +523,11 @@ pacifiers-and-sucking-teething-aids,locked_hmtc_row,tAs,9,BLOCKED,FETCH_INGEST,B
 pacifiers-and-sucking-teething-aids,locked_hmtc_row,iAs,9,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 peanut-butter,locked_hmtc_row,Pb,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 peanut-butter,locked_hmtc_row,Al,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-peanut-butter,locked_hmtc_row,Ni,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+peanut-butter,locked_hmtc_row,Ni,27,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 peanuts,locked_hmtc_row,Pb,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-peanuts,locked_hmtc_row,Cd,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+peanuts,locked_hmtc_row,Cd,27,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 peanuts,locked_hmtc_row,Al,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-peanuts,locked_hmtc_row,Ni,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+peanuts,locked_hmtc_row,Ni,27,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 pet-treats-snacks,locked_hmtc_row,Pb,17,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 pet-treats-snacks,locked_hmtc_row,Cd,17,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 pet-treats-snacks,locked_hmtc_row,tAs,17,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
@@ -578,8 +578,8 @@ research-chemicals-peptides-sarms,not_locked_hmtc_row,Al,26,OUT_OF_SCOPE,OUT_OF_
 research-chemicals-peptides-sarms,not_locked_hmtc_row,Ni,26,OUT_OF_SCOPE,OUT_OF_SCOPE,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates",OUT OF SCOPE: not a locked HMTc standards row
 research-chemicals-peptides-sarms,not_locked_hmtc_row,Cr,26,OUT_OF_SCOPE,OUT_OF_SCOPE,BLOCKED: no usable evidence,OUT OF SCOPE: not a locked HMTc standards row
 rice-snacks-crackers,locked_hmtc_row,Pb,3,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-rice-snacks-crackers,locked_hmtc_row,Cd,3,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-rice-snacks-crackers,locked_hmtc_row,tAs,3,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+rice-snacks-crackers,locked_hmtc_row,Cd,3,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+rice-snacks-crackers,locked_hmtc_row,tAs,3,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 rice-snacks-crackers,locked_hmtc_row,iAs,3,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
 root-tuber-vegetables,locked_hmtc_row,Pb,4,DEFENSIBLE,DONE,READY FOR REVIEW,literature-baseline — READY FOR REVIEW
 root-tuber-vegetables,locked_hmtc_row,Cd,4,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=1) — recover/synthesize to firm up"
@@ -621,10 +621,10 @@ snacks-general,locked_hmtc_row,tAs,3,BLOCKED,FETCH_INGEST,BLOCKED: no usable evi
 snacks-general,locked_hmtc_row,iAs,3,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 soft-drinks-carbonated-beverages,locked_hmtc_row,Pb,5,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 soft-drinks-carbonated-beverages,locked_hmtc_row,Cd,5,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-soy-products,locked_hmtc_row,Cd,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+soy-products,locked_hmtc_row,Cd,27,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 soy-products,locked_hmtc_row,tHg,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 soy-products,locked_hmtc_row,Al,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-soy-products,locked_hmtc_row,Ni,27,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+soy-products,locked_hmtc_row,Ni,27,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 sparkling-carbonated-water,locked_hmtc_row,Pb,8,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 sparkling-carbonated-water,locked_hmtc_row,Cd,8,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 sparkling-carbonated-water,locked_hmtc_row,tAs,8,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
@@ -635,16 +635,16 @@ spices,locked_hmtc_row,tHg,34,DEFENSIBLE,DONE,READY FOR REVIEW,literature-baseli
 spices,locked_hmtc_row,Al,34,DEFENSIBLE,DONE,READY FOR REVIEW,literature-baseline — READY FOR REVIEW
 spices,locked_hmtc_row,Ni,34,DEFENSIBLE,DONE,READY FOR REVIEW,literature-baseline — READY FOR REVIEW
 spices,locked_hmtc_row,Cr,34,DEFENSIBLE,DONE,READY FOR REVIEW,literature-baseline — READY FOR REVIEW
-spinach,locked_hmtc_row,Pb,4,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+spinach,locked_hmtc_row,Pb,4,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 spinach,locked_hmtc_row,Cd,4,PROVISIONAL,EXTRACT_SYNTH,"PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates","PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates (sources_contributing=3) — recover/synthesize to firm up"
 sports-energy-drinks,locked_hmtc_row,Pb,5,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 sports-energy-drinks,locked_hmtc_row,Cd,5,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 sports-energy-drinks,locked_hmtc_row,tAs,5,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 sunflower-seed-butter,locked_hmtc_row,Pb,28,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-sunflower-seed-butter,locked_hmtc_row,Cd,28,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+sunflower-seed-butter,locked_hmtc_row,Cd,28,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 sunflower-seeds,locked_hmtc_row,Pb,28,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-sunflower-seeds,locked_hmtc_row,Cd,28,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-sunflower-seeds,locked_hmtc_row,Ni,28,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+sunflower-seeds,locked_hmtc_row,Cd,28,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+sunflower-seeds,locked_hmtc_row,Ni,28,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 supplements-teas-labeled,locked_hmtc_row,Pb,16,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 supplements-teas-labeled,locked_hmtc_row,Cd,16,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 supplements-teas-labeled,locked_hmtc_row,tAs,16,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
@@ -686,8 +686,8 @@ water-filters,locked_hmtc_row,Pb,23,BLOCKED,FETCH_INGEST,BLOCKED: no usable evid
 water-filters,locked_hmtc_row,Cd,23,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 water-filters,locked_hmtc_row,tAs,23,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 water-filters,locked_hmtc_row,iAs,23,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-wild-mushrooms,locked_hmtc_row,Pb,29,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
-wild-mushrooms,locked_hmtc_row,Cd,29,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
+wild-mushrooms,locked_hmtc_row,Pb,29,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
+wild-mushrooms,locked_hmtc_row,Cd,29,BLOCKED,CAP_MAP,BLOCKED: no usable evidence,"no occurrence data, but a regulatory cap is available → load it (regulatory-alignment)"
 wild-mushrooms,locked_hmtc_row,tHg,29,BLOCKED,FETCH_INGEST,BLOCKED: no usable evidence,no cited evidence and no loaded cap → acquire papers (or ADJUDICATE if no literature exists)
 yogurts-custards-puddings-out-of-scope,not_locked_hmtc_row,Pb,,OUT_OF_SCOPE,OUT_OF_SCOPE,OUT OF SCOPE: not a locked HMTc standards row,OUT OF SCOPE: not a locked HMTc standards row
 yogurts-custards-puddings-out-of-scope,not_locked_hmtc_row,Cd,,OUT_OF_SCOPE,OUT_OF_SCOPE,OUT OF SCOPE: not a locked HMTc standards row,OUT OF SCOPE: not a locked HMTc standards row
