@@ -23,7 +23,7 @@ Generated: **2026-07-30**.  Baseline snapshot: [[audits/2026-07-30-baseline|2026
 | Routing discipline check 1 (sources with product-shaped matrices but empty products[]) | 16 failures | WARN |
 | Routing discipline check 2 (HMTc-locked products with zero routed sources) | 40 of 386 | INFO |
 | Source page DOI completeness | 8 missing | WARN |
-| Claim provenance — body-prose numerical claims with traceable citation | 5160/5160 (100%) | PASS |
+| Claim provenance — body-prose numerical claims with traceable citation | 5161/5161 (100%) | PASS |
 
 ## Taxonomy v2.0 coverage
 
@@ -169,12 +169,12 @@ DOI completeness: 2198 of 2206 sources have a DOI or a `no_doi_assigned: true` m
 
 Every numerical claim in body prose on ingredient and product pages — matches the regex `<number> <unit>` where unit is one of ppb, ppm, mg/kg, µg/kg, µg/g, mg/L, µg/L, % — must trace to a citation in the same H2 section (before or after the claim is acceptable; sections are treated as logical units of provenance). Valid citations: `[[sources/...]]`, `[[regulations/...]]` (for regulatory limits), `[[testing/...]]` (for analytical-method floors).
 
-- Total claims scanned: **5160**
-- Supported: **5160** (100%)
+- Total claims scanned: **5161**
+- Supported: **5161** (100%)
 - Unsupported: **0**
 
 By page type:
-- ingredient: 3241/3241 (100%)
+- ingredient: 3242/3242 (100%)
 - product: 1919/1919 (100%)
 
 Cochrane target: **>95%** supported. Current baseline reports the gap to that target as a follow-up queue. The v1 audit does not yet verify that the cited source actually contains the claimed value (that requires PDF reading per claim) — only that a citation exists. v2 will add PDF-side verification.

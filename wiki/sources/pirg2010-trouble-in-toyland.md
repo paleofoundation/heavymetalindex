@@ -166,6 +166,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [c660ae705](https://github.com/paleofoundation/heavymetalindex/commit/c660ae705) | 2026-06-01 | major | 1 section added |
 | [b30066d3f](https://github.com/paleofoundation/heavymetalindex/commit/b30066d3f) | 2026-06-01 | minor | Narrative text revised |
 | [a58b3a6b4](https://github.com/paleofoundation/heavymetalindex/commit/a58b3a6b4) | 2026-06-01 | major | 11 sections added; narrative text revised |

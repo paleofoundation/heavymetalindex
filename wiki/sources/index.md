@@ -20,9 +20,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [62866cb6b](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b) | 2026-07-04 | major | 7 sources removed; 2 sections added and 4 removed; narrative text revised |
 | [3114d3e7e](https://github.com/paleofoundation/heavymetalindex/commit/3114d3e7e) | 2026-05-08 | major | 1 source added; narrative text revised |
 | [a1d190ebe](https://github.com/paleofoundation/heavymetalindex/commit/a1d190ebe) | 2026-05-08 | major | 1 source added; 1 section added; narrative text revised |
 | [24613ae47](https://github.com/paleofoundation/heavymetalindex/commit/24613ae47) | 2026-05-07 | major | 1 source added; 1 section added; narrative text revised |
-| [cf6583dc8](https://github.com/paleofoundation/heavymetalindex/commit/cf6583dc8) | 2026-05-02 | major | 1 source added; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

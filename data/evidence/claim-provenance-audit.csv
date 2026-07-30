@@ -662,7 +662,7 @@ ingredient,chicken-potpie,Mitigation options,7.5 ppb,true,"DS data [[sources/fda
 ingredient,chicken-potpie,Regulatory limits that apply,6.3 ppb,true,milarly addresses ingredient categories. The TDS data showing Cd at a median of 6.3 ppb and all Pb and As measurements b
 ingredient,chicken,Regulatory limits that apply,0.10 mg/kg,true,tion ([[regulations/eu2023-contaminants-maximum-levels]]) set a lead maximum of 0.10 mg/kg and a cadmium maximum of 0.05
 ingredient,chicken,Regulatory limits that apply,0.050 mg/kg,true,nts-maximum-levels]]) set a lead maximum of 0.10 mg/kg and a cadmium maximum of 0.050 mg/kg for poultry muscle meat. The
-ingredient,chicken,Regulatory limits that apply,0.050 mg/kg,true,ternational cadmium limits for meat; the applicable limit for poultry muscle is 0.050 mg/kg.  <!-- BEGIN: hmi-source-leg
+ingredient,chicken,Regulatory limits that apply,0.050 mg/kg,true,ternational cadmium limits for meat; the applicable limit for poultry muscle is 0.050 mg/kg.  <!-- BEGIN: hmi-page-refer
 ingredient,chili-con-carne-with-beans,Why this commodity accumulates heavy metals,330 ppb,true,"real grains. The FDA Total Diet Study FY2018-FY2020 found nickel at a median of 330 ppb across 3 composite samples, whic"
 ingredient,chili-con-carne-with-beans,Why this commodity accumulates heavy metals,3.3 ppb,true,"onents are typically low in metals. Total arsenic was detectable at a median of 3.3 ppb and a maximum of 5.3 ppb, likely"
 ingredient,chili-con-carne-with-beans,Why this commodity accumulates heavy metals,5.3 ppb,true,"in metals. Total arsenic was detectable at a median of 3.3 ppb and a maximum of 5.3 ppb, likely reflecting contributions"
@@ -862,7 +862,7 @@ ingredient,corn-flakes,Regulatory limits that apply,100 ppb,true,"ted for infant
 ingredient,corn-flakes,Regulatory limits that apply,0.20 mg/kg,true,"(100 ppb) for other cereal products. For lead, the EU general cereal maximum is 0.20 mg/kg (200 ppb). No specific EU max"
 ingredient,corn-flakes,Regulatory limits that apply,200 ppb,true,"r other cereal products. For lead, the EU general cereal maximum is 0.20 mg/kg (200 ppb). No specific EU maximum level f"
 ingredient,corn-flakes,Regulatory limits that apply,0.10 mg/kg,true,food-matrix maximum levels. Codex Alimentarius sets a general cereal maximum of 0.10 mg/kg for Cd and 0.20 mg/kg for Pb.
-ingredient,corn-flakes,Regulatory limits that apply,0.20 mg/kg,true,vels. Codex Alimentarius sets a general cereal maximum of 0.10 mg/kg for Cd and 0.20 mg/kg for Pb.  <!-- BEGIN: hmi-sour
+ingredient,corn-flakes,Regulatory limits that apply,0.20 mg/kg,true,vels. Codex Alimentarius sets a general cereal maximum of 0.10 mg/kg for Cd and 0.20 mg/kg for Pb.  <!-- BEGIN: hmi-page
 ingredient,corn-grits,"Ranges by source, region, and variety",160 ppb,true,he all-zero grits TDS result and the detectable Ni in the corn TDS dataset (max 160 ppb) [[sources/fda2022-tds-elements-
 ingredient,corn-grits,Regulatory limits that apply,0.10 mg/kg,true,23-contaminants-maximum-levels]] sets a maximum level for cadmium in cereals of 0.10 mg/kg (100 ppb) wet weight and for 
 ingredient,corn-grits,Regulatory limits that apply,100 ppb,true,nts-maximum-levels]] sets a maximum level for cadmium in cereals of 0.10 mg/kg (100 ppb) wet weight and for lead in cere
@@ -1205,7 +1205,7 @@ ingredient,fish,Regulatory limits that apply,500 ug/kg,true,"f fish is 0.30 mg/k
 ingredient,fish,Regulatory limits that apply,0.30 mg/kg,true,"/kg (50 ug/kg) Cd, and 0.50 mg/kg (500 ug/kg) Hg; listed lower-mercury fish are 0.30 mg/kg (300 ug/kg) Hg, and listed hi"
 ingredient,fish,Regulatory limits that apply,300 ug/kg,true,"g) Cd, and 0.50 mg/kg (500 ug/kg) Hg; listed lower-mercury fish are 0.30 mg/kg (300 ug/kg) Hg, and listed higher-mercury"
 ingredient,fish,Regulatory limits that apply,1.0 mg/kg,true," fish including tuna, shark, swordfish, marlin, halibut, pike, and sturgeon are 1.0 mg/kg (1000 ug/kg) Hg.  <!-- BEGIN: "
-ingredient,fish,Regulatory limits that apply,1000 ug/kg,true,"ding tuna, shark, swordfish, marlin, halibut, pike, and sturgeon are 1.0 mg/kg (1000 ug/kg) Hg.  <!-- BEGIN: hmi-source-"
+ingredient,fish,Regulatory limits that apply,1000 ug/kg,true,"ding tuna, shark, swordfish, marlin, halibut, pike, and sturgeon are 1.0 mg/kg (1000 ug/kg) Hg.  <!-- BEGIN: hmi-page-re"
 ingredient,fish,Sources,4.73 µg/g,true,species and indigenous/riverside human populations; fish Hg concentrations 0.10–4.73 µg/g; hair mercury... | | 22 | [[so
 ingredient,flavored-carbonated-bottled-waters,"Ranges by source, region, and variety",10 µg/L,true,"s can carry arsenic concentrations near or above the EU drinking water limit of 10 µg/L, while products from shallow all"
 ingredient,flavored-carbonated-bottled-waters,Mitigation options,10 µg/L,true,he treated water specification against the EU Drinking Water Directive limit of 10 µg/L for arsenic (and any stricter in
@@ -2650,7 +2650,7 @@ ingredient,spinach,Regulatory limits that apply,100 ug/kg,true,inants-maximum-le
 ingredient,spinach,Regulatory limits that apply,0.30 mg/kg,true,els]] — EU maximum levels for leaf vegetables are 0.10 mg/kg (100 ug/kg) Cd and 0.30 mg/kg (300 ug/kg) Pb; spinaches and
 ingredient,spinach,Regulatory limits that apply,300 ug/kg,true,aximum levels for leaf vegetables are 0.10 mg/kg (100 ug/kg) Cd and 0.30 mg/kg (300 ug/kg) Pb; spinaches and similar lea
 ingredient,spinach,Regulatory limits that apply,0.20 mg/kg,true," leaves, mustard seedlings, and fresh herbs have a specific Cd maximum level of 0.20 mg/kg (200 ug/kg).  <!-- BEGIN: hmi"
-ingredient,spinach,Regulatory limits that apply,200 ug/kg,true,"tard seedlings, and fresh herbs have a specific Cd maximum level of 0.20 mg/kg (200 ug/kg).  <!-- BEGIN: hmi-source-lege"
+ingredient,spinach,Regulatory limits that apply,200 ug/kg,true,"tard seedlings, and fresh herbs have a specific Cd maximum level of 0.20 mg/kg (200 ug/kg).  <!-- BEGIN: hmi-page-refere"
 ingredient,spinach,Sources,41.37 mg/kg,true,"d, Cr, and Pb all below detection limits while Al and Fe highest in spinach (Al 41.37 mg/kg) within FAO/WHO limits | | 9"
 ingredient,spinach,Sources,000 µg/L,true,"ptake in spinach across four irrigation-water As concentrations (0, 100, 500, 1,000 µg/L) in Burkina Faso; spinach had t"
 ingredient,spinach,Sources,6.6 µg/g,true,"00, 500, 1,000 µg/L) in Burkina Faso; spinach had the highest edible-part As at 6.6 µg/g dw at 500 µg/L, with steaming r"
@@ -2955,6 +2955,7 @@ ingredient,water,Regulatory limits that apply,5 µg/L,true,"rstate commerce. The
 ingredient,water,Regulatory limits that apply,5 ppb,true,"ommerce. The EU Drinking Water Directive (2020/2184) sets a Pb limit of 5 µg/L (5 ppb) for tap water, a standard tighter"
 ingredient,water,Regulatory limits that apply,10 µg/L,true," for tap water, a standard tighter than the US action level, and an As limit of 10 µg/L. The EU Cd limit in drinking wat"
 ingredient,water,Regulatory limits that apply,5 µg/L,true," action level, and an As limit of 10 µg/L. The EU Cd limit in drinking water is 5 µg/L. [[regulations/codex-cadmium-mls]"
+ingredient,water,References,10 ppb,true,"rotection Agency, Office of Water (2001). *EPA Drinking Water Arsenic MCL Rule (10 ppb)*. U.S. Environmental Protection "
 ingredient,water,Sources,13 µg/kg,true,"ng Water*, EFSA Journal 2020;18(11):6268 | 2020 | Government report | Ni TDI of 13 µg/kg b.w./day and European Ni occurr"
 ingredient,water,Sources,0.56 µg/kg,true, with water as a significant exposure pathway; European dietary iAs ranges 0.13–0.56 µg/kg b.w./day with children expose
 ingredient,water,Sources,10 ppb,true,"a-arsenic-drinking-water-mcl\|EPA 2001]]. *EPA Drinking Water Arsenic MCL Rule (10 ppb)*, U.S. Environmental Protection "
@@ -3196,7 +3197,7 @@ ingredient,wild-mushrooms,Regulatory limits that apply,50 ug/kg,true,kg (800 ug/
 ingredient,wild-mushrooms,Regulatory limits that apply,0.15 mg/kg,true,r and shiitake are 0.050 mg/kg (50 ug/kg) Cd; oyster and shiitake mushrooms are 0.15 mg/kg (150 ug/kg) Cd; common/oyster
 ingredient,wild-mushrooms,Regulatory limits that apply,150 ug/kg,true,ke are 0.050 mg/kg (50 ug/kg) Cd; oyster and shiitake mushrooms are 0.15 mg/kg (150 ug/kg) Cd; common/oyster/shiitake cu
 ingredient,wild-mushrooms,Regulatory limits that apply,0.30 mg/kg,true,0 ug/kg) Cd; common/oyster/shiitake cultivated fungi have a Pb maximum level of 0.30 mg/kg (300 ug/kg).  <!-- BEGIN: hmi
-ingredient,wild-mushrooms,Regulatory limits that apply,300 ug/kg,true, common/oyster/shiitake cultivated fungi have a Pb maximum level of 0.30 mg/kg (300 ug/kg).  <!-- BEGIN: hmi-source-lege
+ingredient,wild-mushrooms,Regulatory limits that apply,300 ug/kg,true, common/oyster/shiitake cultivated fungi have a Pb maximum level of 0.30 mg/kg (300 ug/kg).  <!-- BEGIN: hmi-page-refere
 ingredient,wild-mushrooms,Sources,2 mg/kg,true,sessment identifying wild mushrooms as highest-Cd food in European diets (up to 2 mg/kg FW); foundational regulatory-sci
 ingredient,wine-vinegar,Why this commodity accumulates heavy metals,700 ppb,true,negar-icpms-gfaas|Ndung'u 2004]] collectively document Pb in wine vinegar at 50-700 ppb across regional surveys.  The HM
 ingredient,wine-vinegar,"Ranges by source, region, and variety",700 ppb,true,negar stored in metal-contact vessels carries elevated migration).  The wide 50-700 ppb Pb range across the three contri

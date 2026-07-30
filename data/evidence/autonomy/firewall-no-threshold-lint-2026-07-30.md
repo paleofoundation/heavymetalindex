@@ -1,20 +1,14 @@
 # Firewall lint — no derivation token on an index URL — 2026-07-30
 
-Generated: 2026-07-30T15:41:01.401Z
-Mode: warn-only (exit 0)
+Generated: 2026-07-30T17:01:17.474Z
+Mode: blocking (ERROR)
 
 ## Summary
 
 - Files scanned: 864
-- ERROR (structural, build-blocking): 1
+- ERROR (structural, build-blocking): 0
 - WARN  (workbench frontmatter leak, drain backlog): 16
 - INFO  (prose heuristics, review-only): 1
-
-## ERROR — structural leak surfaces
-
-### wiki/dossiers/
-- **DOSSIER_DIR_ON_INDEX** — 351 brand-legal "defense dossier" pages on the index domain (Part 12). Relocate to the cert/registry plane (plan step 4).
-  - line 0: `wiki/dossiers/ contains 351 markdown pages`
 
 ## WARN — workbench derivation frontmatter fields
 

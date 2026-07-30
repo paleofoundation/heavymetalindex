@@ -421,7 +421,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Defensibility audits",
             "slug": "audits",
-            "count": 9
+            "count": 10
           },
           {
             "label": "Errata & corrections",
