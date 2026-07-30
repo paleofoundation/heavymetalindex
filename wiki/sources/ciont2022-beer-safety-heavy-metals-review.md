@@ -104,14 +104,14 @@ The source PDF has an internal citation-numbering inconsistency in its heavy-met
 Audit subagent (2026-06-06) raised both reference-number mismatches as ⚠️ concerns; both verified against the source PDF reference list (pages 16–19) and applied as a citation-bookkeeping correction with this verification note.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [20a969fb8](https://github.com/paleofoundation/heavymetalindex/commit/20a969fb8) | 2026-06-06 | audit: ciont2022-beer-safety-heavy-metals-review [revised] |
-| [0f9cd1a2e](https://github.com/paleofoundation/heavymetalindex/commit/0f9cd1a2e) | 2026-06-06 | ingest: ciont2022-beer-safety-heavy-metals-review [fresh] from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [20a969fb8](https://github.com/paleofoundation/heavymetalindex/commit/20a969fb8) | 2026-06-06 | minor | Narrative text revised |
+| [0f9cd1a2e](https://github.com/paleofoundation/heavymetalindex/commit/0f9cd1a2e) | 2026-06-06 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

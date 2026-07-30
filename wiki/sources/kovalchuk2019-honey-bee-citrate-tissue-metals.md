@@ -78,12 +78,13 @@ Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-defa
 Values were checked against the abstract, methods, results prose, figure captions, discussion, and conclusion in the extracted PDF. The source's quantitative concentration plots are graph-only in the extracted text, so this page does not guess bar heights or tissue concentrations. Products and ingredients are intentionally empty. `bee-body-tissue` and `biological-tissue` are descriptive matrices for the measured tissue homogenates.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [80b47353d](https://github.com/paleofoundation/heavymetalindex/commit/80b47353d) | 2026-06-11 | recover-ingest 2026-06-11: kovalchuk2019-honey-bee-citrate-tissue-metals (lane a4, was skip:not-food-occurrence) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [80b47353d](https://github.com/paleofoundation/heavymetalindex/commit/80b47353d) | 2026-06-11 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

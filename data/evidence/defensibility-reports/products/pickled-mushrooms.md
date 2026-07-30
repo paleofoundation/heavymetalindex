@@ -2,7 +2,7 @@
 source_page: wiki/products/pickled-mushrooms.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4f5009f66dd56e9a37e67fd1cbccbbf32cc5f811fd6b03437e12551abcc91804
+source_page_sha256: f602f671832ed3bbe9fb669cf96b12eb98197d1ed8998be289ea862bdfe43d50
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2419
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2419 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 

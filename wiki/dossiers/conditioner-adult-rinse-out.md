@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `cedfa8b8a` (2026-06-11). The body hashes to `sha256:754f4afdc67ca1a55ce0a4612aa38e2e…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:96a3cb2b2e9f1935fbaaf9f3af7a0fb1…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=conditioner-adult-rinse-out&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/conditioner-adult-rinse-out&download=1`.
 

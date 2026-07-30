@@ -202,15 +202,15 @@ The opinion is internally inconsistent about which sex the BMDL10 of 0.11 mg Cr(
 Fresh-context audit subagent (Claude Opus 4.7, 2026-06-03) returned verdict REVISE with the BMDL10-sex finding above (applied). All other checks clean: ✅ Check 1 (numerical fidelity verified across Tables 6, 7, 8, 21–25 and abstract/summary/conclusions; one minor rounding note — page 42 actual food LC is 49.1% rounded to "50%" in summary, accepted), ✅ Check 2 (all 13 ingredient slugs and both metal slugs in taxonomy snapshot), ✅ Check 3 (BMD modelling software, BMRs, endpoints accurately reported), ✅ Check 4 (Part 12 brand firewall — Latin botanical names are taxonomic identifiers, "Schmaltz" is a generic culinary term, no per-brand rankings), ✅ Check 5 (Part 2 wiki/HMTc firewall — no threshold proposals, no consumer advisories, EFSA conclusions paraphrased not synthesised).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [dc4ecdaa1](https://github.com/paleofoundation/heavymetalindex/commit/dc4ecdaa1) | 2026-06-03 | major | 1 section added; narrative text revised |
+| [75d8263ae](https://github.com/paleofoundation/heavymetalindex/commit/75d8263ae) | 2026-06-03 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

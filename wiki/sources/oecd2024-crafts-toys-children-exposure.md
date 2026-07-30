@@ -69,15 +69,15 @@ OECD WPEA-led methodology compilation. Sources reviewed: existing exposure-model
 - 2026-06-01 merge-enhance pass (Claude Opus 4.7, fresh-context re-read of Annex C case studies pp. 53-65): corrected "Case A is the only case study with an inorganic substance illustration" — Case H (Slime-Dermal-Oral, boron) is also labelled "inorganic" in the OECD annex; the corrected bullet names both inorganic case studies and adds the five "Organic/Metal"-labelled case studies (D, F, G, I, J) that the prior revision did not enumerate. De-branded the Case A copper attribution: the prior revision named the MSDS product "Crayon-Aqua" and manufacturer "Horizon Group USA" under Part 12 Exception 2 (methods); on closer reading, the MSDS supplies a CONTAMINATION VALUE attributed to a sampled product, which Part 12 strict 2026-05-17 reading targets — the source-product brand is replaced with the product-form descriptor ("aqua-coloured crayon"). The MSDS reference itself is retained in the verification trail as a year-and-document identifier. Added `jurisdictions: [international]` to clear the routing-advisory flag (`routing_malformed.csv` row 2026-05-31; OECD is an intergovernmental publication endorsed by WPEA across 38 member countries plus partners per Foreword p. 4). `metals: []`, `ingredients: []`, `matrices: []` retained per prior verification reasoning (the document is methodology and exposure-modelling guidance, not an occurrence study).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1e9ee5bce](https://github.com/paleofoundation/heavymetalindex/commit/1e9ee5bce) | 2026-06-01 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [172cdd014](https://github.com/paleofoundation/heavymetalindex/commit/172cdd014) | 2026-05-17 | minor | Narrative text revised |
+| [015986477](https://github.com/paleofoundation/heavymetalindex/commit/015986477) | 2026-05-17 | minor | Narrative text revised |
+| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

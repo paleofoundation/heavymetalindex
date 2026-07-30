@@ -2,7 +2,7 @@
 source_page: wiki/products/exfoliants-scrubs.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 05f45f70b37aeb34e7441e5d34403c90bd70be983ccfc8e27c0abc816fb1d90f
+source_page_sha256: 9011cbdb53159c4aa1058d1097cbca66f0911605f1e37108205dd7a6a115d482
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2419
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2419 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 

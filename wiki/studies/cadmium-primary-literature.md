@@ -48,3 +48,14 @@ For curated regulatory, advisory, and textbook sources see the source pages unde
 | `Infants  and young children s dietary exposures to lead and cadmium  FDA total diet study 2018 2020.pdf` | [10.1080/19440049.2024.2396910](https://doi.org/10.1080/19440049.2024.2396910) | Infants  and young children s dietary exposures to lead and cadmium  FDA total diet study 2018 2020 |
 
 _30 entries. Catalog generated from filenames plus DOI extraction from PDF first pages; inferred titles reflect the filename and may differ from the published article title. Definitive metadata, full bibliographic citation, and substantive content extraction require per-study deep-ingest in a future wave._
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [35055e47a](https://github.com/paleofoundation/heavymetalindex/commit/35055e47a) | 2026-05-04 | minor | Narrative text revised |
+| [f691dc17a](https://github.com/paleofoundation/heavymetalindex/commit/f691dc17a) | 2026-04-25 | major | 1 section added; narrative text revised |
+<!-- END: hmi-page-history -->

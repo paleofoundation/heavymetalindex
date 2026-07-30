@@ -82,12 +82,13 @@ Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-defa
 All key numbers were checked against the extracted PDF text, especially Table 1, Table 3, the Results section on net MeHg production, and the Discussion estimate of Hg evacuated during sampling. Speciation is preserved: HgT is total mercury, MeHg is methylmercury, and the page does not promote HgT to MeHg. Products and ingredients are intentionally empty because the paper reports soil, manure, and microcosm data only.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [859353f1d](https://github.com/paleofoundation/heavymetalindex/commit/859353f1d) | 2026-06-10 | recover-ingest 2026-06-10: gfeller2021-mercury-methylation-fluvisol (lane a3, was skip:not-food-occurrence) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [859353f1d](https://github.com/paleofoundation/heavymetalindex/commit/859353f1d) | 2026-06-10 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

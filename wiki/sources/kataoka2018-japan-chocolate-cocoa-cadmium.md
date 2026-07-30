@@ -62,15 +62,13 @@ App: Chocolate and cocoa powder should remain high-priority cadmium ingredients/
 The PDF title, byline, journal issue, DOI, sample counts, analytical method, and summary values were read from the source PDF. The source reports total cadmium only; it does not provide lead, arsenic, mercury, or cadmium speciation data. Brand names are not reproduced here; sample-level values are anonymized by sample number in the paper.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [6f5401371](https://github.com/paleofoundation/heavymetalindex/commit/6f5401371) | 2026-06-09 | audit: kataoka2018-japan-chocolate-cocoa-cadmium [revised] per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [ead8551c8](https://github.com/paleofoundation/heavymetalindex/commit/ead8551c8) | 2026-06-03 | frank-intake: dedup june-1-gems-data (skip-list + novelty) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 6 sections added; narrative text revised |
+| [ead8551c8](https://github.com/paleofoundation/heavymetalindex/commit/ead8551c8) | 2026-06-03 | major | 5 sections removed; narrative text revised |
+| [fad08a829](https://github.com/paleofoundation/heavymetalindex/commit/fad08a829) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

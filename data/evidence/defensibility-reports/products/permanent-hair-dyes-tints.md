@@ -2,7 +2,7 @@
 source_page: wiki/products/permanent-hair-dyes-tints.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8efa499ec68f72994ae63e0af102746b5ea0ddf1df4f1c25cad4f8d6d54c4880
+source_page_sha256: 844e14a4e26a4d723694ae404463f1b5e155d158522c31b20c8a803b32f751df
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2419
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2419 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 

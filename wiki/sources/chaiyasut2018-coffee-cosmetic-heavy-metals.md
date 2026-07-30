@@ -66,15 +66,13 @@ App: The values can support a personal-care context flag for coffee-derived bota
 The DOI and bibliographic metadata were taken from the PDF first page and the downloaded wishlist row. The wishlist row requested coffee total arsenic occurrence, but the actual source is a personal-care formulation study, not a beverage coffee or roasted-coffee food-occurrence study. The source reports total arsenic and total mercury only; it does not provide inorganic arsenic, methylmercury, LOD/LOQ values, or brand-level consumer-product data.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [d4a143fce](https://github.com/paleofoundation/heavymetalindex/commit/d4a143fce) | 2026-06-09 | audit: chaiyasut2018-coffee-cosmetic-heavy-metals revised per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [d4a143fce](https://github.com/paleofoundation/heavymetalindex/commit/d4a143fce) | 2026-06-09 | minor | Narrative text revised |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [d0d3a6fe4](https://github.com/paleofoundation/heavymetalindex/commit/d0d3a6fe4) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

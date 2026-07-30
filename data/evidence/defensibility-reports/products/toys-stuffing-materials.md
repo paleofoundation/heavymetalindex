@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-stuffing-materials.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 85c7f69a94e59c7317814ee8d48ebd9820d68311a3d485f77a3451b1dc55d6cf
+source_page_sha256: 58ea80f174946c7d518aaa26b03505b10711b9820b4082233c88945816c9557c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2419
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2419 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 

@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 3
+sources: 5
 wiki_doi: null
 updated: 2026-05-19
 ---
@@ -126,6 +126,14 @@ _Not yet characterized — scorecard activates at 2 contributing A-tier sources.
 
 The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Su C, Zheng N, Gao Y, Huang S, Yang X, Wang Z, et al. (2020). *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*. Foods 9(12):1839. [https://doi.org/10.3390/foods9121839](https://doi.org/10.3390/foods9121839). Peer-reviewed, A-tier. [[sources/su2020-infant-formula-china-toxic-elements|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -134,8 +142,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/mumtaz2025-infant-nutrition-trace-metals\|Mumtaz et al. 2025]]. *Occurrence and Risk Evaluation of Trace Metals in Infant Nutrition Sources in Rural and Urban Multan, Pakistan*, Food and Nutrition Insights | 2025 | Peer-reviewed | PK Pb, Cd, Ni, Zn, Fe occurrence in infant nutrition sources from rural and urban Multan, Pakistan |
-| 2 | [[sources/original2020-original-a\|Alharbi et al. 2020]]. *Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia*, Food Science & Nutrition | 2020 | Peer reviewed journal article | Cited reference from Food Science & Nutrition |
-| 3 | [[sources/lodico2015-infant-formula-metals\|Lo et al. 2015]]. *Simultaneous Determination of As, Cu, Cr, Se, Sn, Cd, Sb and Pb Levels in Infant Formulas by ICP-MS after Microwave-Assisted Digestion: Method Validation*, Journal of Environmental & Analytical Toxicology | 2015 | Peer-reviewed | IT tAs, Cr, Sn, Cd, Pb, Sb occurrence in infant formula samples analyzed during ICP-MS method validation |
+| 2 | [[sources/abstract2020-content-dietary-exposure-toxic\|Su et al. 2020]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods | 2020 | Peer reviewed journal | Cited reference from Foods |
+| 3 | [[sources/original2020-original-a\|Alharbi et al. 2020]]. *Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia*, Food Science & Nutrition | 2020 | Peer reviewed journal article | Cited reference from Food Science & Nutrition |
+| 4 | [[sources/estimated2015-estimated-exposure-arsenic-breastfed\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives | 2015 | Peer-reviewed | Cited reference from Environmental Health Perspectives |
+| 5 | [[sources/lodico2015-infant-formula-metals\|Lo et al. 2015]]. *Simultaneous Determination of As, Cu, Cr, Se, Sn, Cd, Sb and Pb Levels in Infant Formulas by ICP-MS after Microwave-Assisted Digestion: Method Validation*, Journal of Environmental & Analytical Toxicology | 2015 | Peer-reviewed | IT tAs, Cr, Sn, Cd, Pb, Sb occurrence in infant formula samples analyzed during ICP-MS method validation |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -149,15 +159,15 @@ The five most recent substantive edits to this page. The full version history li
 <!-- END: hmi-page-history -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 1 source added and 1 removed; narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [324868f70](https://github.com/paleofoundation/heavymetalindex/commit/324868f70) | 2026-05-31 | major | 12 sources removed; 13 sections removed; narrative text revised |
+| [6f2afad63](https://github.com/paleofoundation/heavymetalindex/commit/6f2afad63) | 2026-05-31 | correction | Contamination-profile values revised |
+| [30c925b0f](https://github.com/paleofoundation/heavymetalindex/commit/30c925b0f) | 2026-05-30 | major | 12 sources added; 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

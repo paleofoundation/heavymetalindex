@@ -64,12 +64,13 @@ Microbiome: Not measured. The paper discusses endometriosis and dioxin exposure 
 Identity checks before drafting found no existing `wiki/sources/` hit for raw handle `MFK_paper-27-archer-2005-dioxins-tampons`, cite key `archer2005-tampon-dioxins-furans`, or exact title. No DOI is printed in the extracted PDF text, so `doi: null` is retained rather than guessed. The PDF SHA-256 is `64b1ac4b923a438bb8618d95ea05bf5d17741f07936a4bc500fdbecd05f4a4bd`. The first page, Methods, Results/Discussion, Follow-up, and Conclusions were re-opened from `/tmp/hmi-fem-018.txt`; units are preserved without conversion. The figure images contain brand-code concentration bars, but this page reports only text-supported aggregate and product-form findings to avoid brand-coded value presentation. `metals: []` is intentional: the analytes are dioxins/furans, not Pb, Cd, As, Hg, Cr, Sn, organotin, or other HMT metal species. The source's JECFA comparison is quoted as the authors' own exposure-context statement, not converted into an HMTc threshold.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [b40cbd37b](https://github.com/paleofoundation/heavymetalindex/commit/b40cbd37b) | 2026-06-09 | ingest: archer2005-tampon-dioxins-furans fresh from MFK/June 8 Kimi_Agent_Feminine Care Heavy Metal Papers |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [b40cbd37b](https://github.com/paleofoundation/heavymetalindex/commit/b40cbd37b) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

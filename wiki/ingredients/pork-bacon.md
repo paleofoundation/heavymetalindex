@@ -229,6 +229,19 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 
 <!-- END: hmi-fda-tds-occurrence -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+2. Hoha GV, Costăchescu E, Leahu A, and Păsărin B (2014). *Heavy metals contamination levels in processed meat marketed in Romania*. Environmental Engineering and Management Journal. [omicron.ch.tuiasi.ro](http://omicron.ch.tuiasi.ro/EEMJ/). Peer-reviewed, B-tier. [[sources/hoha2014-pork-pb-cd-cu-zn-romania|Source record]]
+3. Ren J, Zhang G, Wang D, Han J, Wu Z, and Cai D (2018). *One-Step and Nondestructive Reduction of Cr(VI) in Pork by High-Energy Electron Beam Irradiation*. Journal of Food Science. [https://doi.org/10.1111/1750-3841.14088](https://doi.org/10.1111/1750-3841.14088). Peer-reviewed, A-tier. [[sources/ren2018-crvi-pork-electron-beam|Source record]]
+4. Zhang H, Zhou G, Zhang S, Yang Y, Dev S, Su Q, et al. (2022). *Risk assessment of heavy metals contamination in pork*. Food Control. [https://doi.org/10.1016/j.foodcont.2021.108793](https://doi.org/10.1016/j.foodcont.2021.108793). Peer-reviewed, C-tier. [[sources/zhang2022-pork-heavy-metals-china|Source record]]
+5. Di Bella C, Traina A, Giosue C, Carpintieri D, Lo Dico GM, Bellante A, et al. (2020). *Heavy Metals and PAHs in Meat, Milk, and Seafood From Augusta Area (Southern Italy): Contamination Levels, Dietary Intake, and Human Exposure Assessment*. Frontiers in Public Health 8:273. [https://doi.org/10.3389/fpubh.2020.00273](https://doi.org/10.3389/fpubh.2020.00273). Peer-reviewed, A-tier. [[sources/dibella2020-augusta-meat-milk-seafood-metals|Source record]]
+6. Maikanov BS, Ismagulova GT, Auteleyeva LT, Kemeshov ZO, and Zhanabayeva DK (2021). *Assessment of quality and safety of meats from various animal species in the Shuchinsk-Burabay resort zone, Kazakhstan*. Veterinary World 14(6):1615-1621. [https://doi.org/10.14202/vetworld.2021.1615-1621](https://doi.org/10.14202/vetworld.2021.1615-1621). Peer-reviewed, B-tier. [[sources/maikanov2021-meats-shuchinsk-burabay-metals|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -242,15 +255,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
-| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 4 (final) — 21 pages / 42 cells; backlog now ZERO |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | correction | 5 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

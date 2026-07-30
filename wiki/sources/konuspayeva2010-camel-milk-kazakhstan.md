@@ -145,15 +145,13 @@ The cite-key uses `konuspayeva2010-camel-milk-kazakhstan` to match the publicati
 **Audit subagent (general-purpose, fresh context, 2026-05-30) findings applied.** Verdict PROMOTE with two ⚠️ concerns: (1) the Implications section originally cited "Codex Stan 193-1995 raw-milk Pb limit of 20 ppb" alongside the national tolerable values — the audit correctly noted that Konuspayeva et al. do not cite Codex, only Turkey/Germany/Netherlands/Kazakhstan national values. Verified against the source (pp.116–117): no Codex reference appears in the paper. Editorial Codex reference removed; statement now ties the comparison only to the national tolerable values the authors themselves cite. (2) Abstract-vs-Table 1 minor precision differences for Sample (i) shubat Cu (abstract 0.163 ± 0.164 vs Table 1 0.16 ± 0.16) and Zn (abstract 7.217 ± 2.55 vs Table 1 7.212 ± 2.55). Verified against the PDF: both differences are real paper-internal rounding/transcription variations. The wiki page uses Table 1 values per HMI policy of preferring source tables over abstract restatements; the differences are too small (≤0.005 absolute) to be load-bearing for any downstream synthesis.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [2b9a5c2d2](https://github.com/paleofoundation/heavymetalindex/commit/2b9a5c2d2) | 2026-05-30 | minor | Narrative text revised |
+| [cf3483d22](https://github.com/paleofoundation/heavymetalindex/commit/cf3483d22) | 2026-05-30 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

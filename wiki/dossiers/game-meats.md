@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `cedfa8b8a` (2026-06-11). The body hashes to `sha256:66025339bb98f299a50e174f5534467d…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:3b3cbe2af8d81e23d74b3e2ab98af255…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=game-meats&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/game-meats&download=1`.
 

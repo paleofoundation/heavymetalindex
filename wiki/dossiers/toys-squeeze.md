@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `aca5e2155` (2026-06-09). The body hashes to `sha256:bcf19d2713be934886ff0b6d78162b70…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:385cbf520490c688495b3d04170cf5e4…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=toys-squeeze&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/toys-squeeze&download=1`.
 

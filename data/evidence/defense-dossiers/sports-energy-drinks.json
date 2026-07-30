@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/sports-energy-drinks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d9cf715b0e54e23d8a7fe91043a94d4185b866d53d6291bca3bc9983504b9a60",
-      "content_bytes": 12985,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "ac38982567e337e1d3897284285c6e732fd8b876b0fd0744c85616f2e651df8e",
+      "content_bytes": 13012,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/sports-energy-drinks.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/sports-energy-drinks.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alsayyed2024-heavy-metals-energy-drinks-jordan",
         "content_pin": {
-          "content_sha256": "e73eababf32630fbc552c46f05e4d464b04383688c7c79591b66ac8c31d2d386",
-          "content_bytes": 24388,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "cb9add5a6124b7194b7c310cc5103b2460fa3c844ab2455a983018516946d337",
+          "content_bytes": 24569,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/alsayyed2024-heavy-metals-energy-drinks-jordan.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/alsayyed2024-heavy-metals-energy-drinks-jordan.md | sha256sum"
         }
       },
       {
@@ -74,12 +74,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/babayo2026-heavy-metals-energy-drinks-nigeria",
         "content_pin": {
-          "content_sha256": "c655d06024aa8638de62c7bfe827e173ae8cacb42837b1cb51bdc5c190cfbd55",
-          "content_bytes": 29312,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "772d1d58cda04ec629fdeb1ef0e41c76fe4b46cf97cbee1de0275226c2420243",
+          "content_bytes": 29492,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/babayo2026-heavy-metals-energy-drinks-nigeria.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/babayo2026-heavy-metals-energy-drinks-nigeria.md | sha256sum"
         }
       },
       {
@@ -97,12 +97,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bunu2023-heavy-metals-energy-drinks-bayelsa",
         "content_pin": {
-          "content_sha256": "413530ae2be4ff90d8bec6a2a5fecc638c2553504fcfd4218442e816374e571c",
-          "content_bytes": 28108,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "8d92df1d77ac8d54e3fda7c1a419f5d0519429e1c814882f9758690887c8ec0b",
+          "content_bytes": 28288,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/bunu2023-heavy-metals-energy-drinks-bayelsa.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/bunu2023-heavy-metals-energy-drinks-bayelsa.md | sha256sum"
         }
       },
       {
@@ -120,12 +120,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bunu2023-heavy-metals-energy-drinks-kogi",
         "content_pin": {
-          "content_sha256": "5387c5fb3bb0c93fc8dca18f012e89f14bf91e611625b5f76bc9b6fada0a5501",
-          "content_bytes": 38031,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "7efb4c1205cac30e3b3a97c922704d444ce0425ee0d2b7cd1c0eb868bd8a6d80",
+          "content_bytes": 38211,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/bunu2023-heavy-metals-energy-drinks-kogi.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/bunu2023-heavy-metals-energy-drinks-kogi.md | sha256sum"
         }
       },
       {
@@ -154,12 +154,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/czarnek2024-heavy-metals-energy-drinks",
         "content_pin": {
-          "content_sha256": "4d5692aa1ec070662fdc41abc8b22f6fb20d478b3e3c75ab6e847c9cfed6465e",
-          "content_bytes": 29464,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "fefc9c40562e5a9a56437f9d3db5e34d3895106af11e37dc423712d2f8074d9a",
+          "content_bytes": 29644,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/czarnek2024-heavy-metals-energy-drinks.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/czarnek2024-heavy-metals-energy-drinks.md | sha256sum"
         }
       },
       {
@@ -183,12 +183,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hamza2025-heavy-metals-energy-drinks-nigeria",
         "content_pin": {
-          "content_sha256": "8f1fc4b33a59eef94a13bd5472249e238f63adc12b676a4632abfa5d28cf3999",
-          "content_bytes": 35284,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "f8b56b9d88173d7816af9ae8f55003fea08743e42a557fc0b21defe4cd46f10a",
+          "content_bytes": 35464,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/hamza2025-heavy-metals-energy-drinks-nigeria.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/hamza2025-heavy-metals-energy-drinks-nigeria.md | sha256sum"
         }
       },
       {
@@ -208,12 +208,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hamza2026-heavy-metals-energy-drinks-health-risk",
         "content_pin": {
-          "content_sha256": "7b5c78dc2b503e06e143d0717596a2ff5506230a9c38a8019b8a07daa1b44ab1",
-          "content_bytes": 44621,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "9d244af63451e3cd466ca26ee65925548c636bedd34a5fc7f4e027a8abe5c07f",
+          "content_bytes": 44801,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/hamza2026-heavy-metals-energy-drinks-health-risk.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/hamza2026-heavy-metals-energy-drinks-health-risk.md | sha256sum"
         }
       },
       {
@@ -231,12 +231,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salaheldin2025-multimatrix-foods-egypt",
         "content_pin": {
-          "content_sha256": "7be812fe518516544c6e9d33ccb57efbfa065e52fb1ac86c36324f49010cd36b",
-          "content_bytes": 14176,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "2706d2eaddf0330c7a728129aea14ada823b26d2638b018a6d16f3d887035691",
+          "content_bytes": 14202,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
         }
       },
       {
@@ -255,12 +255,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yahaya2022-heavy-metals-energy-drinks-birnin-kebbi",
         "content_pin": {
-          "content_sha256": "27a3970045553f95bf394e6cae73009ae94769319bc0fac4d547512b81f7819f",
-          "content_bytes": 31067,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "f01e2ae88b13da5040286904aea7b0af38e748d59442396ec0adf2145412898f",
+          "content_bytes": 31247,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/yahaya2022-heavy-metals-energy-drinks-birnin-kebbi.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/yahaya2022-heavy-metals-energy-drinks-birnin-kebbi.md | sha256sum"
         }
       }
     ]

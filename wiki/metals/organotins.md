@@ -83,21 +83,56 @@ How does dietary organotin from seafood interact with developmental immune endpo
 
 What is the contribution of PVC-distribution drinking water to lifetime organotin body burden in populations served by older PVC infrastructure? ATSDR cites Canadian survey data; jurisdictional distributions are not characterized.
 
+<!-- BEGIN: hmi-metal-faq -->
+## Frequently asked questions
+<!-- audience: consumer, educator -->
+
+### What are organotins and how are they different from the tin in canned food?
+
+Organotins are tin-carbon-bonded compounds in which tin is covalently linked to alkyl or aryl groups, the most food-relevant being the butyltins (monobutyltin, dibutyltin, tributyltin) and triphenyltin. They are toxicologically distinct from inorganic tin: the ATSDR-derived oral MRL for tributyltin oxide (0.0003 mg/kg/day) sits three orders of magnitude below the inorganic-tin MRL (0.3 mg/kg/day) at comparable exposure duration ([[sources/atsdr2005-tin-toxicological-profile|ATSDR 2005]]). Because of this, total tin reported by a survey cannot be substituted for organotin without speciation analysis.
+
+### How would I be exposed to organotins through my diet?
+
+Seafood from coastal and harbor waters is the dominant dietary route, because tributyltin antifouling paints used on ship hulls deposited TBT into harbor sediments that entered the marine food chain; bivalve molluscs (oysters, mussels, clams) and crustaceans concentrate the highest levels. Additional routes include PVC food-contact materials such as cling films and blister packs that historically used butyltin and methyltin heat stabilizers, PVC drinking-water pipes that can leach organotins, and vegetable oils from crops grown with historic organotin pesticides. The page notes the 2008 International Maritime Organization ban on TBT antifouling paints reduced new loading, but legacy sediment TBT continues to source exposure.
+
+### What health effects are organotins linked to?
+
+For the butyltins, the immune system is the most sensitive endpoint: tributyltin and dibutyltin produce thymic atrophy and lymphocyte-population shifts in rodents at exposures causing no overt other toxicity, and this immune endpoint grounds ATSDR's oral MRLs ([[sources/atsdr2005-tin-toxicological-profile|ATSDR 2005]]). Triethyltin and trimethyltin are instead central nervous system toxicants causing myelinopathy and neuronal injury. Some organotins are reproductive toxicants (reduced fertility, stillbirth in rodent studies) and a few are tumorigenic in chronic animal studies.
+
+### Who is most vulnerable to organotin exposure?
+
+Frequent seafood consumers, especially people who rely heavily on bivalves and crustaceans from coastal waters with legacy TBT contamination, are the principal vulnerable group. Pregnant individuals are flagged for organotin reproductive toxicity in animal studies, though direct human evidence at dietary doses is limited, and infants of seafood-frequent mothers face placental and lactational transfer. Because dose is body-weight-normalized, a child eating a small portion of high-organotin seafood carries a higher per-kilogram dose than an adult eating a larger portion.
+
+### Are there legal limits on organotins in food?
+
+Largely no at the finished-food level. The EU has not set finished-food maximum levels for organotins in its 2023/915 framework, and the U.S. has no finished-food organotin maximum level; instead both regulate organotin migration from plastic food-contact materials (EU 10/2011 Specific Migration Limits, FDA 21 CFR contact-material rules). The most consequential regulation for dietary exposure is the IMO global ban on TBT antifouling paints (in force 2008), which addresses the dominant environmental source, though legacy paint and sediment continue to release organotin.
+
+### How are organotins tested for in food?
+
+The standard approach is speciation-preserving extraction followed by gas chromatography or HPLC with element-specific detection such as ICP-MS, ETV-AES, or FPD, often using derivatization to make the organotins volatile enough for GC. Reference materials for organotin in fish and sediment are available from BCR/IRMM and NIST. Total-tin methods such as microwave digestion with ICP-MS destroy the speciation and yield only the sum of inorganic and organotin contributions, so they cannot be used for organotin assessment.
+<!-- END: hmi-metal-faq -->
+
 ## Sources
 
 - [[sources/atsdr2005-tin-toxicological-profile|ATSDR 2005]] — Comprehensive Toxicological Profile for Tin and Tin Compounds. Source for organotin MRLs (intermediate and chronic oral MRL 0.0003 mg/kg/day for tributyltin oxide; intermediate oral MRL 0.005 mg/kg/day for dibutyltin chloride), TBT food-occurrence summary, organotin tissue-survey data, and toxic-mechanism characterization.
 - [[sources/schafer1984-tin-toxic-heavy-metal-review|Schafer & Femfert 1984]] — Historical European synthesis review establishing the species-distinction principle that organotins must be assessed separately from inorganic tin in food-safety analysis.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Carolyn Harper, Fernando Llados, Gary Diamond, Lara L. Chappell, and Agency for Toxic Substances and Disease Registry (2005). *Toxicological Profile for Tin and Tin Compounds*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp55.pdf). Government report, A-tier. [[sources/atsdr2005-tin-toxicological-profile|Source record]]
+2. S. G. Schafer and U. Femfert (1984). *Tin — A Toxic Heavy Metal? A Review of the Literature*. Regulatory Toxicology and Pharmacology, Vol. 4, pp. 57-69. [https://doi.org/10.1016/0273-2300(84)90006-0](https://doi.org/10.1016/0273-2300(84)90006-0). Peer-reviewed, A-tier. [[sources/schafer1984-tin-toxic-heavy-metal-review|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [d04abbc18](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc18) | 2026-05-08 | major | 2 sources added; contamination-profile values revised; 9 sections added |
 <!-- END: hmi-page-history -->

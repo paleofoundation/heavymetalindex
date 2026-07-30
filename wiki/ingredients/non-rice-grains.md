@@ -139,6 +139,26 @@ This node is linked from [[products/baby-cereals-dry-non-rice]], [[products/mixe
 
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 13 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Rubio C, Gutiérrez AJ, Hardisson A, Martín V, Revert C, Fernandes PJP, et al. (2023). *Dietary Exposure to Toxic Metals (Cd, Pb and Hg) from Cereals Marketed in Madeira and the Azores*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-023-03644-4](https://doi.org/10.1007/s12011-023-03644-4). Peer-reviewed, A-tier. [[sources/rubio2023-metals-cereals-madeira-azores|Source record]]
+2. Gacal M, Gut-Pietrasz K, and Cwielag-Drabek M (2023). *Cadmium and lead content in gluten and gluten-free bread available on Polish market - potential health risk to consumers*. Annales Academiae Medicae Silesiensis. [https://doi.org/10.18794/aams/172906](https://doi.org/10.18794/aams/172906). Peer-reviewed, A-tier. [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland|Source record]]
+3. Mania M, Rebeniak M, Orshulyak O, and Postupolski J (2020). *Assessment of exposure to nickel intake with selected cereal grains and cereal-based products*. Roczniki Panstwowego Zakladu Higieny (Annals of the National Institute of Hygiene). [https://doi.org/10.32394/rpzh.2020.0142](https://doi.org/10.32394/rpzh.2020.0142). Peer-reviewed, A-tier. [[sources/mania2020-nickel-cereal-grains-poland|Source record]]
+4. Ibrahim UM, Karkarna MZ, Babura SM, Matazu MA, Jibo AM, Umar ML, et al. (2024). *Correlates of Food Contamination by Heavy Metals in Northwest Nigeria*. Environmental Health Insights. [https://doi.org/10.1177/11786302241301700](https://doi.org/10.1177/11786302241301700). Peer-reviewed, A-tier. [[sources/ibrahim2024-food-heavy-metals-nigeria|Source record]]
+5. Getu A, Seid Y, and Asrade B (2022). *Determination of the Level of Heavy Metals in the Selected Cereals from Debre Markos Local Market, Amhara Region, Ethiopia*. International Journal of Analytical Chemistry. [https://doi.org/10.1155/2022/7146439](https://doi.org/10.1155/2022/7146439). Peer-reviewed, A-tier. [[sources/getu2022-heavy-metals-cereals-ethiopia|Source record]]
+6. Balbo C and Wozniak L (2022). *Dietary exposure and risk characterisation of multiple chemical contaminants in rye-wheat bread marketed in Poland*. EFSA Journal. [https://doi.org/10.2903/j.efsa.2022.e200911](https://doi.org/10.2903/j.efsa.2022.e200911). Government report, A-tier. [[sources/balbo2022-bread-contaminants-poland|Source record]]
+7. Slepecka K, Kalwa K, Wyrostek J, and Pankiewicz U (2017). *Evaluation of cadmium, lead, zinc and copper levels in selected ecological cereal food products and their non-ecological counterparts*. Current Issues in Pharmacy and Medical Sciences 30(3):147-150. [https://doi.org/10.1515/cipms-2017-0027](https://doi.org/10.1515/cipms-2017-0027). Peer-reviewed, B-tier. [[sources/slepecka2017-ecological-cereal-heavy-metals-poland|Source record]]
+8. Liang G, Gong W, Li B, Zuo J, Pan L, and Liu X (2019). *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph16060909](https://doi.org/10.3390/ijerph16060909). Peer-reviewed, A-tier. [[sources/liang2019-beijing-foodstuffs-health-risk|Source record]]
+9. Signes-Pastor AJ, Cottingham KL, Carey M, Sayarath V, Palys T, Meharg AA, et al. (2018). *Infants' dietary arsenic exposure during transition to solid food*. Scientific Reports 8(1):7114. [https://doi.org/10.1038/s41598-018-25372-1](https://doi.org/10.1038/s41598-018-25372-1). Peer-reviewed, A-tier. [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food|Source record]]
+10. Katebe FM, Colinet G, Kyalamakasa JMK, Mubemba MM, and Jijakli MH (2024). *Application of soil amendments to reduce the transfer of trace metal elements from contaminated soils of Lubumbashi (Democratic Republic of the Congo) to vegetables*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-024-34806-z](https://doi.org/10.1007/s11356-024-34806-z). Peer-reviewed, A-tier. [[sources/katebe2024-vegetables-lubumbashi|Source record]]
+11. Codex Alimentarius Commission (1995). *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*. Codex Alimentarius (Joint FAO/WHO Food Standards Programme). [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf). Government report, A-tier. [[sources/codex-cxs-193-1995|Source record]]
+12. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2009). *Scientific Opinion on Arsenic in Food*. EFSA Journal 2009;7(10):1351. [https://doi.org/10.2903/j.efsa.2009.1351](https://doi.org/10.2903/j.efsa.2009.1351). Government report, A-tier. [[sources/efsa-arsenic-contam-2009|Source record]]
+13. Codex Alimentarius Commission, Codex Committee on Contaminants in Foods (2024). *Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)*. Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission. [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Meetings/CX-735-17/Report/FINAL+REPORT/REP24_CF17e.pdf). Government report, A-tier. [[sources/codex-cccf17-2024|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -216,15 +236,15 @@ Non-rice grains route into [[products/baby-cereals-dry-non-rice|baby-cereals-dry
 - California Prop 65 ([[regulations/california-prop65]]) Pb and Cd MADLs apply to non-rice cereal products sold in California.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [71281e235](https://github.com/paleofoundation/heavymetalindex/commit/71281e235) | 2026-06-11 | fix(corpus): dedup Signes-Pastor 2018 infant-arsenic source pages to one canonical key |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [7a12d1117](https://github.com/paleofoundation/heavymetalindex/commit/7a12d1117) | 2026-05-17 | major | 13 sources added; narrative text revised |
+| [e3c860eb5](https://github.com/paleofoundation/heavymetalindex/commit/e3c860eb5) | 2026-05-17 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

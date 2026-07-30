@@ -10,7 +10,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-14
-sources: 136
+sources: 138
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -143,6 +143,35 @@ Public-record regulatory events material to fresh fish, framed as events not bra
 
 For HMTc-facing material citing regulatory backdrops, reference the regulation page directly rather than naming specific brand recall events. Brand-by-brand recall enumeration belongs in the private brand-intelligence build per Part 26, not on this public page.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 22 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Rusko L, Ozola-Davidane R, Kviesis J, and Klavins M (2026). *Risk-Benefit Assessment of Mercury, Lead, Cadmium, and Arsenic in Inland Fish from Latvian Lakes*. Foods. [https://doi.org/10.3390/foods15091516](https://doi.org/10.3390/foods15091516). Peer-reviewed, A-tier. [[sources/rusko2026-mercury-fish-latvia-risk-benefit|Source record]]
+2. Fuentes-Lopez Katerin, Olivero-Verbel Jesus, and Caballero-Gallardo Karina (2025). *Presence of Nematodes, Mercury Concentrations, and Liver Pathology in Carnivorous Freshwater Fish from La Mojana, Sucre, Colombia: Assessing Fish Health and Potential Human Health Risks*. Archives of Environmental Contamination and Toxicology. [https://doi.org/10.1007/s00244-025-01116-5](https://doi.org/10.1007/s00244-025-01116-5). Peer-reviewed, A-tier. [[sources/fuenteslopez2025-colombia-freshwater-fish-mercury|Source record]]
+3. Paz-Suconota F, Fernández L, Carpintero-Salvador N, Ruiz-Urigüen M, Brück SA, Galarza FER, et al. (2024). *Assessment of total mercury content in fish muscle tissue from the middle basin of the Pastaza River, Ecuador*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0310688](https://doi.org/10.1371/journal.pone.0310688). Peer-reviewed, A-tier. [[sources/paz-suconota2024-mercury-fish-pastaza-ecuador|Source record]]
+4. Lepak JM, Bhavsar SP, and Eagles-Smith CA (2025). *Correction: Mercury Concentrations in Sport Fish from Colorado Reservoirs*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0325891](https://doi.org/10.1371/journal.pone.0325891). Peer-reviewed, A-tier. [[sources/lepak2025-mercury-sport-fish-colorado-correction|Source record]]
+5. Auzier Guimarães KL, do Nascimento Andrade SJ, Liscano-Carreño AA, de Oliveira RB, and Ribeiro Rodrigues LR (2025). *Systematic review and spatiotemporal assessment of mercury concentration in fish from the Tapajós River Basin: implications for environmental and human health*. ACS Environmental Au. [https://doi.org/10.1021/acsenvironau.4c00053](https://doi.org/10.1021/acsenvironau.4c00053). Peer-reviewed, A-tier. [[sources/auzier-guimaraes2025-mercury-tapajos-fish|Source record]]
+6. Escobar-Camacho D, Escobar-Camacho B, Rodas-Trejo J, Tafur-Ramos J, Escobar-Ortiz A, Miserendino G, et al. (2024). *Mercury in aquatic ecosystems of two indigenous communities in the Piedmont Ecuadorian Amazon: evidence from fish, water, and sediments*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s10646-024-02764-w](https://doi.org/10.1007/s10646-024-02764-w). Peer-reviewed, A-tier. [[sources/escobar-camacho2024-mercury-fish-ecuador-amazon|Source record]]
+7. Dietz R, Søndergaard J, Rigét FF, Bach L, Basu N, Fort J, et al. (2025). *Stable isotopes unveil ocean transport of legacy mercury into Arctic food webs*. Nature Communications. [https://doi.org/10.1038/s41467-025-59785-5](https://doi.org/10.1038/s41467-025-59785-5). Peer-reviewed, A-tier. [[sources/dietz2025-arctic-mercury-isotopes-greenland|Source record]]
+8. Al-Sulaiti MM, Al-Ghouti MA, Ramadan GA, and Soubra L (2023). *Health risk assessment of methyl mercury from fish consumption in a sample of adult Qatari residents*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-023-27083-x](https://doi.org/10.1007/s11356-023-27083-x). Peer-reviewed, A-tier. [[sources/alsulaiti2023-qatar-fish-mehg|Source record]]
+9. Blanco C, Ballester F, Báguena R, Marín S, LLop S, López-González U, et al. (2023). *Mercury levels in fish in the Valencian Community: temporal evolution (2011-2017) and associated factors*. Revista Española de Salud Pública. [www.sanidad.gob.es](https://www.sanidad.gob.es/gl/gl/biblioPublic/publicaciones/recursos_propios/resp/revista_cdrom/VOL97/ORIGINALES/RS97C_202309073.pdf). Peer-reviewed, A-tier. [[sources/blanco2023-mercury-fish-valencia|Source record]]
+10. Cardoso PG, Morais H, Crespo D, Tavares D, Pereira E, and Pardal MA (2023). *Seasonal characterization of mercury contamination along the Portuguese coast: human health and environmental risk assessment*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-023-29495-5](https://doi.org/10.1007/s11356-023-29495-5). Peer-reviewed, A-tier. [[sources/cardoso2023-mercury-portuguese-coast-seafood|Source record]]
+11. Barquero JI, Hidalgo JJ, Esbrí JM, Higueras P, and García-Ordiales E (2024). *A preliminary assessment of mercury, methylmercury and other potentially toxic elements in largemouth bass (Micropterus salmoides) from the Almadén mining district*. Environmental Geochemistry and Health. [https://doi.org/10.1007/s10653-024-02326-3](https://doi.org/10.1007/s10653-024-02326-3). Peer-reviewed, A-tier. [[sources/barquero2024-mercury-bass-almaden-spain|Source record]]
+12. German Federal Institute for Risk Assessment (BfR) (2024). *Methylmercury in fish and seafood – health risk assessment of new data from the BfR MEAL study*. BfR Opinion 023/2024. [https://doi.org/10.17590/20240626-094256-0](https://doi.org/10.17590/20240626-094256-0). Government report, A-tier. [[sources/bfr2024-methylmercury-fish-seafood-germany|Source record]]
+13. Abbas MMM, EL-Sharkawy SM, Mohamed HR, Elaraby BE, Shaban WM, Metwally MG, et al. (2023). *Heavy Metals Assessment and Health Risk to Consumers of Two Commercial Fish Species from Polyculture Fishponds in El-Sharkia and Kafr El-Sheikh, Egypt: Physiological and Biochemical Study*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-023-04007-1](https://doi.org/10.1007/s12011-023-04007-1). Peer-reviewed, A-tier. [[sources/abbas2023-heavy-metals-fish-egypt-aquaculture|Source record]]
+14. Bakhshalizadeh S, Bani A, Abdolmalaki S, and Hedayati A (2024). *Trace and heavy metal concentrations in pectoral fin of Acipenser stellatus (stellate sturgeon) from the Caspian Sea*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-024-32653-y](https://doi.org/10.1007/s11356-024-32653-y). Peer-reviewed, A-tier. [[sources/bakhshalizadeh2024-caspian-sturgeon-metals|Source record]]
+15. Albuquerque FEA, Monteiro GC, Freitas MB, Silva EO, Aviz RL, and Lima MO (2026). *More Danger Than Meets the Eye: Potentially Toxic Element Contamination in Fish from the Western Pará Poses Significant Hazards to Local Communities*. ACS Omega. [https://doi.org/10.1021/acsomega.4c11278](https://doi.org/10.1021/acsomega.4c11278). Peer-reviewed, A-tier. [[sources/albuquerque2026-fish-toxic-elements-western-para|Source record]]
+16. Al Jufaili S, Al Khamisi S, Al Busaidi M, and Al Habsi S (2024). *Heavy metals in Garra shamal freshwater fish from Oman: accumulation and health risk*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-024-32229-w](https://doi.org/10.1007/s11356-024-32229-w). Peer-reviewed, A-tier. [[sources/aljufaili2024-garra-shamal-oman|Source record]]
+17. Chávez-Capilla T (2022). *The Need to Unravel Arsenolipid Transformations in Humans*. DNA and Cell Biology. [https://doi.org/10.1089/dna.2021.0476](https://doi.org/10.1089/dna.2021.0476). Peer-reviewed, A-tier. [[sources/chavez-capilla2022-arsenolipids-seafood|Source record]]
+18. European Commission (2022). *Commission Regulation (EU) 2022/617 of 12 April 2022 amending Regulation (EC) No 1881/2006 as regards maximum levels of mercury in fish and salt*. Official Journal of the European Union, OJ L 115, 13.4.2022, pp. 60–63. [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R0617). Regulation, A-tier. [[sources/ec-reg-2022-617-mercury-fishery|Source record]]
+19. European Commission (2023). *Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006*. Official Journal of the European Union. [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915). Regulation, A-tier. [[sources/eu-2023-915-contaminants-maximum-levels|Source record]]
+20. Cleary BM, Romano ME, Chen CY, Heiger-Bernays W, and Crawford KA (2021). *Comparison of Recreational Fish Consumption Advisories Across the USA*. Current Environmental Health Reports. Peer-reviewed, B-tier. [[sources/cleary2021-fish-consumption-advisories-usa|Source record]]
+21. US EPA Office of Water (1999). *Mercury Update: Impact on Fish Advisories*. US EPA Fact Sheet EPA-823-F-99-016. [www.epa.gov](https://www.epa.gov/sites/default/files/2019-05/documents/mercury-update-fish-advisories-1999.pdf). Government report, A-tier. [[sources/epa1999-mercury-update-fish-advisories|Source record]]
+22. Centre for Food Safety, Food and Environmental Hygiene Department, and Government of the Hong Kong Special Administrative Region (2019). *Organotin Compounds in Aquatic Products Available at Local Markets*. Risk Assessment Studies Report No. 60, Centre for Food Safety, Hong Kong FEHD. [www.cfs.gov.hk](https://www.cfs.gov.hk/english/programme/programme_rafs/programme_rafs_fc_02_17_organotin_compounds.html). Government report, A-tier. [[sources/cfs2019-organotin-aquatic-hongkong|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -154,15 +183,15 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [4e3cf32c2](https://github.com/paleofoundation/heavymetalindex/commit/4e3cf32c2) | 2026-05-18 | correction | 1 source removed; narrative text revised |
+| [70fd06037](https://github.com/paleofoundation/heavymetalindex/commit/70fd06037) | 2026-05-18 | major | 23 sources added; narrative text revised |
+| [0b917c57b](https://github.com/paleofoundation/heavymetalindex/commit/0b917c57b) | 2026-05-17 | minor | Narrative text revised |
+| [46695aaec](https://github.com/paleofoundation/heavymetalindex/commit/46695aaec) | 2026-05-14 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

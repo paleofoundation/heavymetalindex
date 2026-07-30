@@ -79,12 +79,13 @@ Recovered from `skip:not-target-cell` under the 2026-06-10 inclusion-by-default 
 Numbers were checked against the abstract, Table 2, Table 3, Figures 3-4 text, the groundwater arsenic results paragraph, and methods in the extracted PDF. Arsenic is recorded as `tAs` because the study measured total arsenic in sediments and groundwater without separating inorganic species in its own analytical results. Products and ingredients are intentionally empty.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [a9b5a0ec1](https://github.com/paleofoundation/heavymetalindex/commit/a9b5a0ec1) | 2026-06-10 | recover-ingest 2026-06-10: saha2021-rangpur-aquifer-arsenic (lane a3/a4, was skip:not-target-cell) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [a9b5a0ec1](https://github.com/paleofoundation/heavymetalindex/commit/a9b5a0ec1) | 2026-06-10 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

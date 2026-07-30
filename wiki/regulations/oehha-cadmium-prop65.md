@@ -70,16 +70,25 @@ Pending full batch completion. The MADL is per-day exposure denominated in micro
 
 _Pending: OEHHA documents underlying the separate Proposition 65 carcinogen listing for cadmium and the corresponding No Significant Risk Level; the 2001-plus inhalation MADL if completed._
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. California Office of Environmental Health Hazard Assessment, Reproductive and Cancer Hazard Assessment Section (1996). *Evidence on the Developmental and Reproductive Toxicity of Cadmium*. California Environmental Protection Agency, Office of Environmental Health Hazard Assessment. [https://doi.org/10.1016/0890-6238(96)00019-6](https://doi.org/10.1016/0890-6238(96)00019-6). Government report, A-tier. [[sources/oehha-cadmium-prop65-evidence-1996|Source record]]
+2. California Office of Environmental Health Hazard Assessment, Reproductive and Cancer Hazard Assessment Section (2001). *Proposition 65 Maximum Allowable Daily Level (MADL) for Reproductive Toxicity for Cadmium (Oral Route)*. California Environmental Protection Agency, Office of Environmental Health Hazard Assessment. [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/cadmium). Government report, A-tier. [[sources/oehha-cadmium-prop65-madl-2001|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [7c4c20f88](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f88) | 2026-04-25 | minor | Narrative text revised |
+| [fe46127e7](https://github.com/paleofoundation/heavymetalindex/commit/fe46127e7) | 2026-04-25 | major | 1 source added; narrative text revised |
+| [5368433de](https://github.com/paleofoundation/heavymetalindex/commit/5368433de) | 2026-04-24 | major | 2 sources added; contamination-profile values revised; 5 sections added and 3 removed |
+| [591f6d5d5](https://github.com/paleofoundation/heavymetalindex/commit/591f6d5d5) | 2026-04-24 | major | Contamination-profile values revised; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

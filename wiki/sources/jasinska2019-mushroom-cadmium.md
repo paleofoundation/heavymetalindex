@@ -72,15 +72,13 @@ The Results text reports a Cd range of 1.2–21.6 mg/kg d.m. "data not presented
 Values are d.m. across substrates and fruiting bodies. Pooling into any cultivated-mushroom-as-consumed distribution requires a dry-to-fresh conversion (the authors cite the EU 1 mg/kg fresh ≈ 10 mg/kg d.m. heuristic for mushrooms); pooling Cd from this paper alongside fresh-matter retail-market mushroom studies without converting basis would silently mix bases.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [576bd5fd1](https://github.com/paleofoundation/heavymetalindex/commit/576bd5fd1) | 2026-06-09 | audit: jasinska2019-mushroom-cadmium revised per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [576bd5fd1](https://github.com/paleofoundation/heavymetalindex/commit/576bd5fd1) | 2026-06-09 | minor | Narrative text revised |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [0edf3ce78](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce78) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

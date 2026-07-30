@@ -82,12 +82,13 @@ App: Can inform Argentina-specific dairy and infant-formula arsenic priors, with
 This page was built from the PDF chapter title/byline, abstract, methods, Tables 1-3, Figure 2 caption/text, and conclusions. Frontmatter uses `tAs` because the chapter reports arsenic by ICP-MS and does not provide inorganic arsenic speciation. The raw handle follows the auto-fetched filename, although the filename year is `2024`; the chapter itself is in a 2023 edited volume.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [a85d0968e](https://github.com/paleofoundation/heavymetalindex/commit/a85d0968e) | 2026-06-09 | audit: belew2024-peanuts-date-palm-metals [revised] per autonomous audit |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [a85d0968e](https://github.com/paleofoundation/heavymetalindex/commit/a85d0968e) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

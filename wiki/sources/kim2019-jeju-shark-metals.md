@@ -118,3 +118,13 @@ Speciation discipline: arsenic is total arsenic by ICP-MS, not inorganic arsenic
 **Firewall check.** The page reports source values and source-cited comparison values only. It does not calculate HMTc thresholds, pooled percentiles, clean/dirty rows, or brand-level findings. No brand data are present in the source.
 
 **Number verification.** Numbers in the Key numbers section were checked once against full-PDF extracted text and a second time against rendered pages or surrounding article text before commit. Table 1 was checked against rendered page 6; Table 2 against rendered page 8; Table 3 against rendered page 9; Table 4 against rendered page 10; Figure 3 and the regression text against rendered page 11; Table 5 against rendered page 12; and supporting-information captions against page 14 text.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

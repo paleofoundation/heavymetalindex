@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/dentifrices",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2a77abc76b796eb6928310a1fe674a53f3626f0cddd59a592dd2a7e24c164b99",
-      "content_bytes": 1120,
-      "last_commit_sha": "45ecb2e7e",
-      "last_commit_date": "2026-06-10",
+      "content_sha256": "035223e60460782396449e0a2d49f62cb7f911f602e70df1ea5dc6bf651b25dd",
+      "content_bytes": 1299,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 45ecb2e7e:wiki/products/dentifrices.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/dentifrices.md | sha256sum"
     }
   },
   "evidence_base": {

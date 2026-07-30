@@ -222,14 +222,14 @@ This is a structured narrative review with a declared search strategy but no PRI
 **Audit subagent (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) returned five ✅ with one ⚠️ on numerical fidelity Table 5 row 1 cell normalization, plus one minor framing-clarity note on the reference-span endpoints attribution. The Table 5 normalization (source PDF "Phytoquelatins" → wiki "Phytochelatins") is verified against PDF Section 6 body and the Abbreviations list (PDF p. 24, PC = Phytochelatin) as an OCR/translation artifact rather than intentional terminology, and a one-line transcription note has been added to the Limitations section disclosing the normalization. The reference-span framing note (the "2000 (Kabata-Pendias) to 2026 (Xie et al.)" rhetorical framing in the Methods (brief) section implies bibliographic first/last when these are actually refs [49] and [21] respectively) is acknowledged but no correction applied — the span endpoints are factually correct and the framing is interpretive rather than misleading. All seven tables (Tables 1–7) verified row-by-row against PDF pages 4, 7, 10, 13, 16, 19–20, 21. DOI, authors, date arithmetic, 74-reference count, self-citation attributions (refs [23], [26]), HMA4-in-*A. halleri* primary attribution (ref [31] Huguet et al. 2012), and *N. caerulescens* primary attribution (ref [17] Krämer 2010 *Annu. Rev. Plant Biol.*) all verified. All wikilink slugs (metals/cadmium, metals/lead, metals/arsenic, metals/nickel, metals/chromium, metals/chromium-hexavalent, mitigation/remediation-evidence) verified present in the wiki. Brand firewall (Part 12) and HMTc firewall (Part 2) both clean — no commercial brand names, no threshold language, no over-strengthening of field-validation claims relative to the source's own "extensive lab / limited field" evidence-grading framing. 1 finding flagged, 1 cleanup applied (Table 5 transcription note), 0 rejected. Audit subagent ID a383b648647ab5385.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [aa16a1b19](https://github.com/paleofoundation/heavymetalindex/commit/aa16a1b19) | 2026-06-08 | audit: ionita2026-plant-responses-mining-heavy-metals promoted |
-| [802fbf3da](https://github.com/paleofoundation/heavymetalindex/commit/802fbf3da) | 2026-06-08 | ingest: ionita2026-plant-responses-mining-heavy-metals fresh from MFK/June 8 heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [aa16a1b19](https://github.com/paleofoundation/heavymetalindex/commit/aa16a1b19) | 2026-06-08 | minor | Narrative text revised |
+| [802fbf3da](https://github.com/paleofoundation/heavymetalindex/commit/802fbf3da) | 2026-06-08 | major | 20 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

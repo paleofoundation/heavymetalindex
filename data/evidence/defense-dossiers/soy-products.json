@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/soy-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e1a64b83cae7b32accb3cd9ed00f571cc1d20239006c47782c199d07f77f3bed",
-      "content_bytes": 13973,
-      "last_commit_sha": "55f6bded4",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "ace3e7decd34a510061ce398a782676f358ba29ed0467d213a56a20d26417edd",
+      "content_bytes": 14014,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 55f6bded4:wiki/products/soy-products.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/soy-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,12 +50,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hariono2023-soy-milk-cookware-metals",
         "content_pin": {
-          "content_sha256": "21d9086f03752f3d0d8c96eace0aa10b1c9512260924c45629849b88a66a5adb",
-          "content_bytes": 6211,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "08541cf68eea1b6797296124e5b28965f00af271408ac80db8c1b25d2cda9981",
+          "content_bytes": 6238,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/hariono2023-soy-milk-cookware-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/hariono2023-soy-milk-cookware-metals.md | sha256sum"
         }
       },
       {
@@ -79,12 +79,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jaudenes-marrero2024-soybeans-toxic-elements",
         "content_pin": {
-          "content_sha256": "59b309846111fc3af20927c52b4e2e46263878c343f7d1a44651b232768d2f43",
-          "content_bytes": 2846,
-          "last_commit_sha": "6908c129a",
-          "last_commit_date": "2026-06-14",
+          "content_sha256": "830aedc9fade603ec79e82a513a87cb2a0009acde4122b4d1e085889df51ade7",
+          "content_bytes": 3025,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6908c129a:wiki/sources/jaudenes-marrero2024-soybeans-toxic-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/jaudenes-marrero2024-soybeans-toxic-elements.md | sha256sum"
         }
       },
       {
@@ -99,12 +99,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shindoh2010-cadmium-soy-sauce-miso-processing",
         "content_pin": {
-          "content_sha256": "2ee666c96bd4e4845f0a66d4d5b2aa44260aa395214d7170f0d9712e732c9e81",
-          "content_bytes": 28095,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "71a65c31afc62f1f0a12b73ed110e5e21cc51f803f686222161058cb743c01d2",
+          "content_bytes": 28122,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/shindoh2010-cadmium-soy-sauce-miso-processing.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/shindoh2010-cadmium-soy-sauce-miso-processing.md | sha256sum"
         }
       },
       {
@@ -122,12 +122,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wang2020-jilin-total-diet-metals",
         "content_pin": {
-          "content_sha256": "3bd49221a25c85f23b9f0fccdc06fb382e72c2b68508fc5ef2f5ad086fdb6e9e",
-          "content_bytes": 7372,
-          "last_commit_sha": "276f55976",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "fabbf4cfc205e73cd864914180c76b5cc3c14fb21165791962ced81fb7cdaf9b",
+          "content_bytes": 7552,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 276f55976:wiki/sources/wang2020-jilin-total-diet-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wang2020-jilin-total-diet-metals.md | sha256sum"
         }
       },
       {
@@ -149,12 +149,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
         "content_pin": {
-          "content_sha256": "5c367c84f10f5dbaaacf40fae24da289b45e8506676b5a5dea76eb5f09092ab1",
-          "content_bytes": 27299,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "3f86adea629813ce0a5bd33037ae7a3cb776b5e3a93704e31f902a9770575bb1",
+          "content_bytes": 27326,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
         }
       },
       {
@@ -173,12 +173,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yu2023-zhejiang-beans-toxic-elements",
         "content_pin": {
-          "content_sha256": "0c288d11311d63b9aa74c1983bed3814fae74a64d373847b848819e76b552766",
-          "content_bytes": 7483,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "608576c6c18c3fc907fb4fa0a6fb0938a4efbca3c612a16dbf1813f9395a24b9",
+          "content_bytes": 7664,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/yu2023-zhejiang-beans-toxic-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/yu2023-zhejiang-beans-toxic-elements.md | sha256sum"
         }
       },
       {
@@ -197,12 +197,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zhang2026-trace-metals-five-crops-chongqing",
         "content_pin": {
-          "content_sha256": "2128c1e25effd764883e18ce81e5f3f9bbd7f212824f4fad10f174fd5d9d0882",
-          "content_bytes": 5251,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "cf49f6e1b40d1658dea7026e709ca45ed760b2342980ae6ff4c49c64c6c73c0c",
+          "content_bytes": 5278,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/zhang2026-trace-metals-five-crops-chongqing.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/zhang2026-trace-metals-five-crops-chongqing.md | sha256sum"
         }
       },
       {
@@ -218,12 +218,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zverina2025-plant-dairy-toxic-elements",
         "content_pin": {
-          "content_sha256": "3097e6639187c4028b65d7689b175ab3d71b930b69dd5360a3698e93e1653071",
-          "content_bytes": 21576,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "0d616e0ac03b06828eb9b170bc461701428c4261ee1777ae7422a824288e4bcc",
+          "content_bytes": 21757,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/zverina2025-plant-dairy-toxic-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/zverina2025-plant-dairy-toxic-elements.md | sha256sum"
         }
       }
     ]

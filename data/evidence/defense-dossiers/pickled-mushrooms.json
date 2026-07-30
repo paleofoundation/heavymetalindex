@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pickled-mushrooms",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c662df11e1e90708db2792b63736cd675b001de683c4e06712fe8ef03375f79a",
-      "content_bytes": 5515,
-      "last_commit_sha": "c794d6b50",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "d07407659438cb582e0092e7229d506afd24949aaf26241542b46f9c9aba5e32",
+      "content_bytes": 5542,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c794d6b50:wiki/products/pickled-mushrooms.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/pickled-mushrooms.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -61,12 +61,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pankavec2019-pickled-mushrooms-poland-minerals",
         "content_pin": {
-          "content_sha256": "c2d0f0b9d951d25de56f98a866b1bbc74da1836703f493688985f19dab0aa849",
-          "content_bytes": 14515,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "9e3ecabf34c211da10e985d3722e90a0383e0718b442ccaab73eaf3b5ba10532",
+          "content_bytes": 14542,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md | sha256sum"
         }
       }
     ]

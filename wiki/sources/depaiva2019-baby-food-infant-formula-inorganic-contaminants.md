@@ -158,3 +158,13 @@ The regulatory table is useful as historical context for how the review framed i
 - Full-PDF read performed from the seven-page ScienceDirect PDF. Table 1, Table 2, Table 3, and the exposure-assessment paragraphs on page 63 were checked once from `pdftotext -layout` and a second time against rendered page images before commit.
 - Brand firewall: Table 1 and body text are expressed at food/category level only. No brand-by-brand values are reproduced.
 - HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this review.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

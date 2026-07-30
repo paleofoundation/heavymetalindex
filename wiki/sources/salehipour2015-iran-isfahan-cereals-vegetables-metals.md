@@ -165,15 +165,13 @@ This source contributes Iranian market-basket occurrence data for total Pb, tota
 - **Audit application (2026-06-01).** Audit subagent (general-purpose, 2026-06-01) flagged three Check 1 ⚠️ concerns. Verified against the source and applied: (1) the Pb THQ "4.8–5.8" was originally over-attributed to girls/boys 7–14 specifically; PDF p. 13 publishes 4.8–5.8 as the cumulative across-all-children range and 2.2–3.0 as the across-all-adults range — Key numbers section updated to quote the prose ranges directly with Figure 1 noted as the source of the boys-7–14-tallest qualitative observation. (2) The As THQ Key numbers section originally combined a figure-read "10–11 for 7–14" with the prose "4.2–4.5 children" range, which is internally contradictory; PDF p. 12 publishes 4.2–4.5 across children and 3.8–10.1 across adults — Key numbers section updated to quote the prose ranges directly. (3) The As cancer-risk Key numbers summary originally read "marginally above 1×10⁻⁴ across all cohorts", which understated the adult upper bound; PDF p. 13 publishes 1×10⁻⁴ for children and 1.3×10⁻⁴ to 8.4×10⁻⁴ for adults — both Key numbers and Implications updated to the explicit ranges. Author-spelling normalization in `sampling_locations` (Najafabad → Najabad, Zarinshahr → Zarinshahar, Falavarjan → Falvarjan) reverted to PDF p. 5 spellings verbatim to avoid editorial drift. No Check 2–5 findings.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [472e3af75](https://github.com/paleofoundation/heavymetalindex/commit/472e3af75) | 2026-06-01 | minor | Narrative text revised |
+| [fa69d1db4](https://github.com/paleofoundation/heavymetalindex/commit/fa69d1db4) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

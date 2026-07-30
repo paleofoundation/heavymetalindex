@@ -23,7 +23,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 10
+sources: 11
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -40,7 +40,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
 | D1 Analyte coverage (tier: unset) | GAP | 3/10 HMTc analytes, total n=6 | only 3/10 analytes have evidence |
-| D2 Regional coverage | OK | 22 jurisdictions, top EU 33% | — |
+| D2 Regional coverage | OK | 23 jurisdictions, top EU 30% | — |
 | D3 Anthropogenic evidence | GAP | 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 4 drivers, 1 upstream source(s) | — |
 | D5 Pooling depth | THIN | Pb THIN, Cd THIN, tHg THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tHg: needs 1 more study(ies) |
@@ -73,6 +73,16 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Sn | data gap | — | — | — |
 | U | data gap | — | — | — |
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Rodriguez-Mendivil DD, Garcia-Flores E, Temores-Pena J, and Wakida FT (2019). *Health Risk Assessment of Some Heavy Metals from Canned Tuna and Fish in Tijuana, Mexico*. Health Scope. [https://doi.org/10.5812/jhealthscope.78956](https://doi.org/10.5812/jhealthscope.78956). Peer-reviewed, A-tier. [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana|Source record]]
+2. Smolikova V, Ridoskova A, and Pelcova P (2016). *Determination of heavy metals in fish products*. MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656. [mendelnet.cz](https://mendelnet.cz/artkey/mnt-201601-0116_DETERMINATION_OF_HEAVY_METALS_IN_FISH_PRODUCTS.php). Conference proceedings, B-tier. [[sources/smolikova2016-heavy-metals-fish-czech|Source record]]
+3. Codex Alimentarius Commission (1995). *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*. Codex Alimentarius (Joint FAO/WHO Food Standards Programme). [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf). Government report, A-tier. [[sources/codex-cxs-193-1995|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -84,12 +94,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 2 | [[sources/xu2025-heavy-metals-aquatic-foods-global\|Xu et al. 2025]]. *Heavy metal risks in aquatic foods*, Environment International | 2025 | Peer-reviewed | tHg, Cd, Pb, tAs occurrence in 138,281 test records for aquatic-food products extracted from the WHO Food Safety Collaborative Platform (FOSCOLLAB), which integrates JECFA,... (n=138281) |
 | 3 | [[sources/usda-fas2023-china-gb-2762-2022-translation\|USDA 2023]]. *China Releases the Standard for Maximum Levels of Contaminants in Foods (USDA FAS GAIN Report CH2023-0040, unofficial translation of GB 2762-2022)*, USDA Foreign Agricultural Service, Global Agricultural Information Network (GAIN), Report Number CH2023-0040 | 2023 | Regulation | CN Pb, Cd, tHg, MeHg, tAs, iAs, Sn, Ni, Cr concentrations |
 | 4 | [[sources/tamele2020-african-seafood-metals-review\|Tamele et al. 2020]]. *Lead, Mercury and Cadmium in Fish and Shellfish from the Indian Ocean and Red Sea (African Countries): Public Health Challenges*, Journal of Marine Science and Engineering | 2020 | Peer reviewed review | EG/DJ/KE Pb, tHg, Cd occurrence in Narrative review of Pb, Hg, and Cd in fish and shellfish from African countries bordering the Indian Ocean... |
-| 5 | [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|Rodriguez-Mendivil et al. 2019]]. *Health Risk Assessment of Some Heavy Metals from Canned Tuna and Fish in Tijuana, Mexico*, Health Scope | 2019 | Peer-reviewed | MX tHg, Pb, Cd, Cr occurrence in 48 samples of canned tuna (6 samples × 8 brands) and 20 samples of fresh fish (5 samples... (n=68) |
-| 6 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 | 2016 | Conference proceedings | CZ/EU tHg, Cd, Pb occurrence in 33 species of fish purchased in Brno City (Czech Republic) markets from 17 FAO localities, September 2015–June 2016;... (n=159) |
-| 7 | [[sources/efsa-sc2015-fish-seafood-mehg-risk-benefit\|EFSA 2015]]. *Statement on the benefits of fish/seafood consumption compared to the risks of methylmercury in fish/seafood*, EFSA Journal 2015;13(1):3982, 36 pp. | 2015 | Government report | EU MeHg, tHg occurrence in Scenario-based risk-benefit assessment across 26 chronic dietary surveys from 17 EU Member States (Belgium, Bulgaria, Cyprus, Czech Republic,... |
-| 8 | [[sources/olmedo2013-andalusia-fish-shellfish-metals\|Olmedo et al. 2013]]. *Determination of toxic elements (mercury, cadmium, lead, tin and arsenic) in fish and shellfish samples. Risk assessment for the consumers*, Environment International | 2013 | Peer-reviewed | ES/MA/MR tHg, MeHg, Cd, Pb, Sn, tAs occurrence in Fresh, canned, and frozen fish and shellfish products representing 43 frequently consumed species/products in Andalusia, Spain; samples collected... (n=485) |
-| 9 | [[sources/cot2004-mercury-fish-shellfish\|Committee on Toxicity of 2004]]. *Updated COT statement on a survey of mercury in fish and shellfish*, Advice on fish consumption, Annex 3 | 2004 | Government report | GB tHg, MeHg occurrence in COT/SACN review of the 2002 FSA fish and shellfish mercury survey, 1998 MAFF marine fish/shellfish survey context, and... |
-| 10 | [[sources/epa1999-mercury-update-fish-advisories\|EPA 1999]]. *Mercury Update: Impact on Fish Advisories*, US EPA Fact Sheet EPA-823-F-99-016 | 1999 | Government report | US tHg, MeHg occurrence in 1,931 state-issued fish-consumption advisories in 40 states as of December 1998; cited fish-tissue mercury data drawn from EPA... (n=1931) |
+| 5 | [[sources/kim2019-jeju-shark-metals\|Kim et al. 2019]]. *Heavy metal accumulation in and food safety of shark meat from Jeju Island, Republic of Korea*, PLOS ONE | 2019 | Peer-reviewed | KR Cr, Fe, Cu, Zn, tAs, Se, Cd, Sn, Sb, Pb, tHg, MeHg occurrence in Six shark species sold at Moseulpo and Hallim fish markets on Jeju Island, Republic of Korea, sampled October-December... (n=25) |
+| 6 | [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|Rodriguez-Mendivil et al. 2019]]. *Health Risk Assessment of Some Heavy Metals from Canned Tuna and Fish in Tijuana, Mexico*, Health Scope | 2019 | Peer-reviewed | MX tHg, Pb, Cd, Cr occurrence in 48 samples of canned tuna (6 samples × 8 brands) and 20 samples of fresh fish (5 samples... (n=68) |
+| 7 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 | 2016 | Conference proceedings | CZ/EU tHg, Cd, Pb occurrence in 33 species of fish purchased in Brno City (Czech Republic) markets from 17 FAO localities, September 2015–June 2016;... (n=159) |
+| 8 | [[sources/efsa-sc2015-fish-seafood-mehg-risk-benefit\|EFSA 2015]]. *Statement on the benefits of fish/seafood consumption compared to the risks of methylmercury in fish/seafood*, EFSA Journal 2015;13(1):3982, 36 pp. | 2015 | Government report | EU MeHg, tHg occurrence in Scenario-based risk-benefit assessment across 26 chronic dietary surveys from 17 EU Member States (Belgium, Bulgaria, Cyprus, Czech Republic,... |
+| 9 | [[sources/olmedo2013-andalusia-fish-shellfish-metals\|Olmedo et al. 2013]]. *Determination of toxic elements (mercury, cadmium, lead, tin and arsenic) in fish and shellfish samples. Risk assessment for the consumers*, Environment International | 2013 | Peer-reviewed | ES/MA/MR tHg, MeHg, Cd, Pb, Sn, tAs occurrence in Fresh, canned, and frozen fish and shellfish products representing 43 frequently consumed species/products in Andalusia, Spain; samples collected... (n=485) |
+| 10 | [[sources/cot2004-mercury-fish-shellfish\|Committee on Toxicity of 2004]]. *Updated COT statement on a survey of mercury in fish and shellfish*, Advice on fish consumption, Annex 3 | 2004 | Government report | GB tHg, MeHg occurrence in COT/SACN review of the 2002 FSA fish and shellfish mercury survey, 1998 MAFF marine fish/shellfish survey context, and... |
+| 11 | [[sources/epa1999-mercury-update-fish-advisories\|EPA 1999]]. *Mercury Update: Impact on Fish Advisories*, US EPA Fact Sheet EPA-823-F-99-016 | 1999 | Government report | US tHg, MeHg occurrence in 1,931 state-issued fish-consumption advisories in 40 states as of December 1998; cited fish-tissue mercury data drawn from EPA... (n=1931) |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -133,15 +144,15 @@ Shark-derived dietary supplements carry source-shark heavy-metal loads at varyin
 - California Prop 65 ([[regulations/california-prop65]]) Hg MADL applies to shark sold in California; documented Prop 65 enforcement actions on tuna and similar large predatory species establish the precedent for shark.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [c06900296](https://github.com/paleofoundation/heavymetalindex/commit/c06900296) | 2026-05-17 | major | 3 sources added; narrative text revised |
+| [e3eb66979](https://github.com/paleofoundation/heavymetalindex/commit/e3eb66979) | 2026-05-17 | major | 1 source added; narrative text revised |
+| [0b917c57b](https://github.com/paleofoundation/heavymetalindex/commit/0b917c57b) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

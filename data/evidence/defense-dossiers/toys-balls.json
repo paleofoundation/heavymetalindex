@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-balls",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d6ee2ef93d81147566a9bee7eda313c5dfc229d7523b2d2e4abc798384e1f89e",
-      "content_bytes": 8852,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "cd2d7a02073bed5d6becbf5aec9ec40bbf45964b8a9367b88f4a30dc2e3e520d",
+      "content_bytes": 8879,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/toys-balls.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/toys-balls.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc1997-pvc-children-products",
         "content_pin": {
-          "content_sha256": "1c56385ba55b3f359cb9e2bd3bc43981f1576eb2149e6ec4170f39e8010b316e",
-          "content_bytes": 29313,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "101261069906063f12e39beef972030d1a5ec23ea62d6ed919feb81134f19a22",
+          "content_bytes": 29340,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/cpsc1997-pvc-children-products.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/cpsc1997-pvc-children-products.md | sha256sum"
         }
       },
       {
@@ -63,12 +63,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/digangi1997-greenpeace-vinyl-children-products",
         "content_pin": {
-          "content_sha256": "f91992b5d24a68ba4f853fef20266d7dded151760113dd0105fb3bc5ed8b915d",
-          "content_bytes": 38716,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "b9d27fec9ecfe2e65da5c34277ed046ab24f11abf16d3ffc4628f38711f85d99",
+          "content_bytes": 38743,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/digangi1997-greenpeace-vinyl-children-products.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/digangi1997-greenpeace-vinyl-children-products.md | sha256sum"
         }
       },
       {
@@ -85,12 +85,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/schade2010-toxic-toys-r-us-pvc",
         "content_pin": {
-          "content_sha256": "fddcf3b55ed613ff627422cfde27128b69df811676f6b1b551ed1e98dc11f25f",
-          "content_bytes": 33490,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "4e1dec6fd61fd483fba5458ababb9e453acce8d3c30e3b7f3b176b88971b298c",
+          "content_bytes": 33517,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/schade2010-toxic-toys-r-us-pvc.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/schade2010-toxic-toys-r-us-pvc.md | sha256sum"
         }
       }
     ]

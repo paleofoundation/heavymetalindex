@@ -88,16 +88,34 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 11 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Li W, Cheng H, Mu Y, Xu A, Ma B, Wang F, et al. (2021). *Occurrence, accumulation, and risk assessment of trace metals in tea (Camellia sinensis): A national reconnaissance*. Science of the Total Environment. [https://doi.org/10.1016/j.scitotenv.2021.148354](https://doi.org/10.1016/j.scitotenv.2021.148354). Peer-reviewed, A-tier. [[sources/li2021-china-national-tea-reconnaissance|Source record]]
+2. Hu C, Zhang X, Zhan N, and Liu Y (2023). *Current Status and Health Risk Assessment of Heavy Metals Contamination in Tea across China*. Toxics. [https://doi.org/10.3390/toxics11080662](https://doi.org/10.3390/toxics11080662). Peer-reviewed, A-tier. [[sources/hu2023-china-tea-heavy-metals|Source record]]
+3. Fan J, Wang S, Gong L, Ren R, and Jin Q (2025). *Occurrence, exposure and health risk assessment of heavy metals in green tea samples cultivated in Hangzhou area*. Scientific Reports. [https://doi.org/10.1038/s41598-024-84287-2](https://doi.org/10.1038/s41598-024-84287-2). Peer-reviewed, A-tier. [[sources/fan2025-hangzhou-green-tea-metals|Source record]]
+4. Li L, Fu QL, Achal V, and Liu Y (2015). *A comparison of the potential health risk of aluminum and heavy metals in tea leaves and tea infusion of commercially available green tea in Jiangxi, China*. Environmental Monitoring and Assessment. [https://doi.org/10.1007/s10661-015-4445-2](https://doi.org/10.1007/s10661-015-4445-2). Peer-reviewed, A-tier. [[sources/li2015-green-tea-jiangxi-al-heavy-metals|Source record]]
+5. Salmani MH, Gholami M, Ranjbar MJ, and Mokhberi F (2023). *Comparison of Essential and Toxic Metals Levels in some Herbal Teas: a Systematic Review*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-023-03698-w](https://doi.org/10.1007/s12011-023-03698-w). Review, A-tier. [[sources/salmani2023-herbal-teas-metals-review|Source record]]
+6. Zhang J, Yang R, Chen R, Peng Y, Wen X, and Gao L (2018). *Accumulation of Heavy Metals in Tea Leaves and Potential Health Risk Assessment: A Case Study from Puan County, Guizhou Province, China*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph15010133](https://doi.org/10.3390/ijerph15010133). Peer-reviewed, A-tier. [[sources/zhang2018-tea-puan-guizhou-heavy-metals|Source record]]
+7. Brzezicha-Cirocka J, Grembecka M, and Szefer P (2016). *Monitoring of essential and heavy metals in green tea from different geographical origins*. Environmental Monitoring and Assessment. [https://doi.org/10.1007/s10661-016-5157-y](https://doi.org/10.1007/s10661-016-5157-y). Peer-reviewed, A-tier. [[sources/brzezicha-cirocka2016-green-tea-geographic-origins|Source record]]
+8. Kazeminia M, Mehrabi A, Khorrami R, Rezaeifar M, Khedmati Morasa H, and Mahmoudi R (2023). *Heavy metals and their adverse effects: sources, risks, and strategies to reduce accumulation in tea herb — a systematic review*. Carpathian Journal of Food Science and Technology. [https://doi.org/10.34302/crpjfst/2023.15.4.3](https://doi.org/10.34302/crpjfst/2023.15.4.3). Peer-reviewed, B-tier. [[sources/kazeminia2023-tea-heavy-metals-review|Source record]]
+9. Jurowski K, Kondratowicz-Pietruszka E, and Krosniak M (2023). *The Control and Comprehensive Safety Assessment of Heavy Metal Impurities (As, Pb, and Cd) in Green Tea Camellia sinensis (L.) Samples (Infusions) Available in Poland*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-023-03686-0](https://doi.org/10.1007/s12011-023-03686-0). Peer-reviewed, A-tier. [[sources/jurowski2023-heavy-metals-green-tea-poland|Source record]]
+10. Ji J and Wu X (2026). *Assessing spatial variability and source identification of heavy metals in agricultural soils: A geostatistical and multivariate analysis of coastal eastern Zhejiang, China*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0344184](https://doi.org/10.1371/journal.pone.0344184). Peer-reviewed, A-tier. [[sources/ji2026-agricultural-soil-metals-zhejiang|Source record]]
+11. Munilla García Z, Costa Ferrer MA, Escrivà Cerrudo S, Magistris Sancho A, Rey-Maquieira Palmer T, and Vidal Coll C (2023). *Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers*. Revista Española de Salud Pública. [www.sanidad.gob.es](https://www.sanidad.gob.es/biblioPublic/publicaciones/recursos_propios/resp/revista_cdrom/VOL97/ORIGINALES/RS97C_202305040.pdf). Peer-reviewed, A-tier. [[sources/munilla-garcia2023-lead-kombucha-ceramics|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | fix(synthesis): coherent index (Overview toggle, no dump) + subpage Overviews |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [03c78fff0](https://github.com/paleofoundation/heavymetalindex/commit/03c78fff0) | 2026-06-08 | synthesis: promote tea (Camellia sinensis) multi-metal bioaccumulation — 8 anchors |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
+| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [03c78fff0](https://github.com/paleofoundation/heavymetalindex/commit/03c78fff0) | 2026-06-08 | major | 11 sources added; 11 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

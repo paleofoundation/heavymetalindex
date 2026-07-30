@@ -62,12 +62,13 @@ App: No direct product-risk distribution. The lettuce result can support a mitig
 This page was built from the PDF title page, abstract, results sections on pH, isotherms, soil Cd fractions, lettuce Cd, soil physicochemical properties, and pot/field methods. The auto-fetch filename's "fabric-protectants" label is not supported by the paper content. Products and ingredients are intentionally empty because the source is mitigation evidence, not a direct survey of a finished consumer product.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [dcf2ea4b3](https://github.com/paleofoundation/heavymetalindex/commit/dcf2ea4b3) | 2026-06-09 | ingest auto-fetched 2026-06-09: sun2025-biochar-alginate-cadmium-lettuce |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [dcf2ea4b3](https://github.com/paleofoundation/heavymetalindex/commit/dcf2ea4b3) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

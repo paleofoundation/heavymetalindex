@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `aca5e2155` (2026-06-09). The body hashes to `sha256:1fcee191baa7f80d807f68f13346e6b6…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:2adc9038efdd9b4a6807c10a616f93d1…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=vegetable-juices-root-vegetable-containing&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/vegetable-juices-root-vegetable-containing&download=1`.
 
@@ -41,7 +41,7 @@ Ranked by the literature-reported concentration of this category's declared ingr
 | Cadmium | vegetables | 76% |
 | Arsenic (inorganic) | carrot | 90% |
 | Arsenic (total) | vegetables | 97% |
-| Mercury (total) | vegetables | 94% |
+| Mercury (total) | vegetables | 58% |
 | Nickel | vegetables | 81% |
 | Aluminum | potatoes | 41% |
 | Chromium (total) | vegetables | 89% |

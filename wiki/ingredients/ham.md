@@ -225,6 +225,16 @@ Non-canned ham (the form characterized on this page) is not subject to Sn migrat
 
 EU Regulation 2023/915 sets maximum levels for Pb in meat (muscle meat of pig) at 0.10 mg/kg wet weight and for Cd at 0.050 mg/kg wet weight [[regulations/eu2023-contaminants-maximum-levels]]. The FDA TDS maximum values for Pb (9.3 ppb) and Cd (4.7 ppb) in baked ham are well within these limits. No specific US statutory maximum for Pb or Cd in cured pork exists. The EU Cd limit for pig muscle of 0.050 mg/kg (50 ppb) is the operative regulatory cap for EU market access [[regulations/eu-2023-915-cadmium]]. Codex Alimentarius does not set a specific ML for Pb or Cd in cured pork muscle as a distinct category [[regulations/codex-cadmium-mls]].
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+2. Zhang H, Zhou G, Zhang S, Yang Y, Dev S, Su Q, et al. (2022). *Risk assessment of heavy metals contamination in pork*. Food Control. [https://doi.org/10.1016/j.foodcont.2021.108793](https://doi.org/10.1016/j.foodcont.2021.108793). Peer-reviewed, C-tier. [[sources/zhang2022-pork-heavy-metals-china|Source record]]
+3. Hoha GV, Costăchescu E, Leahu A, and Păsărin B (2014). *Heavy metals contamination levels in processed meat marketed in Romania*. Environmental Engineering and Management Journal. [omicron.ch.tuiasi.ro](http://omicron.ch.tuiasi.ro/EEMJ/). Peer-reviewed, B-tier. [[sources/hoha2014-pork-pb-cd-cu-zn-romania|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -237,15 +247,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 2 — 10 dairy/meat/grapefruit pages / 59 cells |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | correction | 2 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [8c45a300b](https://github.com/paleofoundation/heavymetalindex/commit/8c45a300b) | 2026-05-31 | major | 1 source added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

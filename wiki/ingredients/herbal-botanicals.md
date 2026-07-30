@@ -139,6 +139,33 @@ This node is linked from [[products/herbal-botanical-infusions]].
 
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 20 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Al-Khayri JM, Rashmi R, Surya Ulhas R, Sudheer WN, Banadka A, Nagella P, et al. (2023). *Cadmium stress in plants: A critical review of the effects, mechanisms, and tolerance strategies*. Frontiers in Plant Science. [https://doi.org/10.3389/fpls.2022.1047410](https://doi.org/10.3389/fpls.2022.1047410). Peer-reviewed, A-tier. [[sources/al-khayri2023-cd-medicinal-plants|Source record]]
+2. Ciocan C, Mansour I, Beneduce A, Corgiat Loia R, Milanesio N, Declementi M, et al. (2021). *Lead poisoning from Ayurvedic treatment: a further case*. La Medicina del Lavoro. [https://doi.org/10.23749/mdl.v112i2.10576](https://doi.org/10.23749/mdl.v112i2.10576). Peer-reviewed, B-tier. [[sources/ciocan2021-ayurvedic-lead-hg-poisoning|Source record]]
+3. Thomas J, Sebastian R, Anil Kumar CR, and Rafi AM (2024). *Case of lead poisoning secondary to intake of herbal medicine for diabetes mellitus in a tertiary care hospital in Kerala*. Endocrinology, Diabetes & Metabolism Case Reports. [https://doi.org/10.1530/edm-23-0066](https://doi.org/10.1530/edm-23-0066). Peer-reviewed, B-tier. [[sources/thomas2024-lead-poisoning-ayurvedic-herbal|Source record]]
+4. Napier MD and et al. (2024). *Childhood Lead Exposure Linked to Apple Cinnamon Fruit Puree Pouches — North Carolina, June 2023–January 2024*. MMWR Morbidity and Mortality Weekly Report. [https://doi.org/10.15585/mmwr.mm7328a2](https://doi.org/10.15585/mmwr.mm7328a2). Government report, A-tier. [[sources/napier2024-wanabana-lead-apple-cinnamon|Source record]]
+5. Troeschel AN, Buser MC, Winquist A, Ruckart P, Yeh M, Kuai D, et al. (2024). *Investigation of Lead and Chromium Exposure After Consumption of Contaminated Cinnamon-Containing Applesauce — United States, November 2023–April 2024*. Morbidity and Mortality Weekly Report (MMWR). [https://doi.org/10.15585/mmwr.mm7414a2](https://doi.org/10.15585/mmwr.mm7414a2). Government report, A-tier. [[sources/troeschel2024-cinnamon-applesauce-lead|Source record]]
+6. U.S. Food and Drug Administration (2024). *FDA Import Alert 99-42: Detention Without Physical Examination of Spices Due to Lead Contamination*. FDA Import Alerts. [www.accessdata.fda.gov](https://www.accessdata.fda.gov/cms_ia/importalert_1167.html). Regulatory, A-tier. [[sources/fda-import-alert-99-42-spice-lead|Source record]]
+7. Salmani MH, Gholami M, Ranjbar MJ, and Mokhberi F (2023). *Comparison of Essential and Toxic Metals Levels in some Herbal Teas: a Systematic Review*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-023-03698-w](https://doi.org/10.1007/s12011-023-03698-w). Review, A-tier. [[sources/salmani2023-herbal-teas-metals-review|Source record]]
+8. Jurowski K and Krosniak M (2022). *Chromium impurities in peppermint tinctures from Polish pharmacies: speciation and health implications*. unknown. [https://doi.org/10.1007/s12011-022-03367-4](https://doi.org/10.1007/s12011-022-03367-4). Peer-reviewed, A-tier. [[sources/jurowski2022-chromium-peppermint-tincture|Source record]]
+9. Porwollik S and Jafari M (2026). *The quality and safety of Rhodiola rosea supplements on the U.S. market: An analysis of biomarkers, heavy metals, and pesticide residues*. PLoS One. [https://doi.org/10.1371/journal.pone.0341070](https://doi.org/10.1371/journal.pone.0341070). Peer-reviewed, A-tier. [[sources/porwollik2026-rhodiola-supplements-us-market|Source record]]
+10. Njinga RL, Olufemi AP, and Adebayo AS (2022). *Major chemical carcinogens and health exposure risks in some therapeutic herbal plants in Nigeria*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0276365](https://doi.org/10.1371/journal.pone.0276365). Peer-reviewed, A-tier. [[sources/njinga2022-nigeria-herbal-cd-cr|Source record]]
+11. Cantoral A, Betanzos-Robledo L, Collado-López S, García-Martínez BA, Lamadrid-Figueroa H, Mariscal-Moreno RM, et al. (2024). *Lead Levels in the Most Consumed Mexican Foods: First Monitoring Effort*. Toxics. [https://doi.org/10.3390/toxics12050318](https://doi.org/10.3390/toxics12050318). Peer-reviewed, A-tier. [[sources/cantoral2024-lead-levels-mexican-foods|Source record]]
+12. Osei-Safo I, Miezah K, Sackey LNA, Adusei-Gyamf J, and Abdul AM (2024). *Trace and Heavy Metals in Locally and Imported Spices Sold on Markets in Accra Metropolis, Ghana*. The Scientific World Journal. [https://doi.org/10.1155/2024/3168279](https://doi.org/10.1155/2024/3168279). Peer-reviewed, A-tier. [[sources/oseisafo2024-ghana-spices-metals|Source record]]
+13. Moussa L, Hassan HF, Savvaidis IN, and Karam L (2024). *Impact of source, packaging and presence of food safety management system on heavy metals levels in spices and herbs*. PLoS ONE. [https://doi.org/10.1371/journal.pone.0307884](https://doi.org/10.1371/journal.pone.0307884). Peer-reviewed, A-tier. [[sources/moussa2024-spices-herbs-lebanon|Source record]]
+14. Knoll S and Cappai MG (2024). *Foraging Activity of Honey Bees (Apis mellifera L., 1758) and Exposure to Cadmium: a Review*. [https://doi.org/10.1007/s12011-024-04118-3](https://doi.org/10.1007/s12011-024-04118-3). Peer-reviewed, B-tier. [[sources/knoll2024-honeybee-cadmium-review|Source record]]
+15. Canadian Food Inspection Agency (2025). *Toxic metals in selected foods – April 1, 2022 to March 31, 2023: Food chemistry – Targeted surveys – Final report*. Canadian Food Inspection Agency. [inspection.canada.ca](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/testing-reports-and-journal-articles/2022-2022-toxic-metals). Government report, A-tier. [[sources/cfia2025-toxic-metals-selected-foods-2022-23|Source record]]
+16. Zakrzewska M, Rzepa G, Musialowski M, Goszcz A, Stasiuk R, and Debiec-Andrzejewska K (2023). *Reduction of bioavailability and phytotoxicity effect of cadmium in soil by microbial-induced carbonate precipitation using metabolites of ureolytic bacterium Ochrobactrum sp. POC9*. Frontiers in Plant Science. [https://doi.org/10.3389/fpls.2023.1109467](https://doi.org/10.3389/fpls.2023.1109467). Peer-reviewed, A-tier. [[sources/zakrzewska2023-cadmium-soil-micp-parsley|Source record]]
+17. Inada A (2023). *Comparison of heavy metal regulations for herbal medicines across pharmacopoeias*. Journal of Natural Medicines. [https://doi.org/10.1007/s43441-023-00532-2](https://doi.org/10.1007/s43441-023-00532-2). Peer-reviewed, A-tier. [[sources/inada2023-herbal-medicine-heavy-metal-regulations|Source record]]
+18. Yang (2024). *LIBS detection of cadmium in Panax notoginseng*. unknown. [https://doi.org/10.3390/foods13071083](https://doi.org/10.3390/foods13071083). Peer-reviewed, A-tier. [[sources/yang2024-libs-cd-panax-notoginseng|Source record]]
+19. Hu H, Wang C, Qian C, Li C, Li Y, Pan J, et al. (2024). *An electrochemiluminescence device for visualized detection of lead in practical samples*. RSC Advances. [https://doi.org/10.1039/d4ra05742b](https://doi.org/10.1039/d4ra05742b). Peer-reviewed, A-tier. [[sources/hu2024-ecl-pb-lycium-glycyrrhiza|Source record]]
+20. Codex Alimentarius Commission, Codex Committee on Contaminants in Foods (2024). *Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)*. Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission. [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Meetings/CX-735-17/Report/FINAL+REPORT/REP24_CF17e.pdf). Government report, A-tier. [[sources/codex-cccf17-2024|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -247,15 +274,15 @@ Herbal botanical derivatives span dried whole botanicals (loose herbs, whole spi
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to herbal-botanical products sold in California; the broader spice-and-herb Prop 65 enforcement context applies to dried-botanical products.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [7a12d1117](https://github.com/paleofoundation/heavymetalindex/commit/7a12d1117) | 2026-05-17 | major | 20 sources added; narrative text revised |
+| [e3c860eb5](https://github.com/paleofoundation/heavymetalindex/commit/e3c860eb5) | 2026-05-17 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

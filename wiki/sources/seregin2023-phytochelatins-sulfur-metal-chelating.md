@@ -174,14 +174,14 @@ Figure 1: schematic of the PC-mediated metal detoxification pathway in plants, s
 3 findings, 3 applied, 0 rejected. Audit subagent ID a4bb3f7c5e10832b8.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [d764ca0ef](https://github.com/paleofoundation/heavymetalindex/commit/d764ca0ef) | 2026-06-08 | audit: seregin2023-phytochelatins-sulfur-metal-chelating revised |
-| [5aec7a924](https://github.com/paleofoundation/heavymetalindex/commit/5aec7a924) | 2026-06-08 | batch-report: June 8 Inorganic Arsenic Seaweed ingest progress (3/67 done) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [d764ca0ef](https://github.com/paleofoundation/heavymetalindex/commit/d764ca0ef) | 2026-06-08 | minor | Narrative text revised |
+| [5aec7a924](https://github.com/paleofoundation/heavymetalindex/commit/5aec7a924) | 2026-06-08 | major | 17 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

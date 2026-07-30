@@ -180,6 +180,21 @@ Standard food-grade packaging does not contribute meaningfully to the dry-leaf m
 
 The Codex Alimentarius General Standard CXS 193-1995 does not set tea-specific heavy-metals maxima. The EU Regulation 2023/915 applies general dried-plant-product limits to tea: 2.0 mg/kg Pb maximum (which is generous relative to the typical-range distribution and routinely passed by commercial product) and 0.5 mg/kg Cd maximum. China's GB 2762-2017 national food-safety standard sets tea-specific Pb at 5.0 mg/kg and Cd at 1.0 mg/kg, looser than EU but applicable to the dominant production region. No regulatory framework currently sets a maximum aluminum level for tea or any other food ingredient, despite the high per-serving Al exposure tea provides; the EFSA 2021 aluminium Q&A ([[sources/efsa2021-aluminium-food-qa]]) addresses dietary Al as a category but does not propose tea-specific caps. The Jurowski 2023 Polish-market assessment ([[sources/jurowski2023-heavy-metals-green-tea-poland]]) found Pb, Cd, and tAs in green-tea infusions at levels below EU caps for dried-plant product on a dry-weight basis but flagged the cumulative per-serving exposure as worth tracking.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Hardisson A, Revert C, González-Weller D, Gutiérrez A, Paz S, and Rubio C (2017). *Aluminium Exposure Through the Diet*. HSOA Journal of Food Science and Nutrition. [https://doi.org/10.24966/FSN-0176/100020](https://doi.org/10.24966/FSN-0176/100020). Review, B-tier. [[sources/hardisson2017-aluminium-dietary-exposure-review|Source record]]
+2. Jurowski K, Kondratowicz-Pietruszka E, and Krosniak M (2023). *The Control and Comprehensive Safety Assessment of Heavy Metal Impurities (As, Pb, and Cd) in Green Tea Camellia sinensis (L.) Samples (Infusions) Available in Poland*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-023-03686-0](https://doi.org/10.1007/s12011-023-03686-0). Peer-reviewed, A-tier. [[sources/jurowski2023-heavy-metals-green-tea-poland|Source record]]
+3. Brzezicha-Cirocka J, Grembecka M, and Szefer P (2016). *Monitoring of essential and heavy metals in green tea from different geographical origins*. Environmental Monitoring and Assessment. [https://doi.org/10.1007/s10661-016-5157-y](https://doi.org/10.1007/s10661-016-5157-y). Peer-reviewed, A-tier. [[sources/brzezicha-cirocka2016-green-tea-geographic-origins|Source record]]
+4. Kazeminia M, Mehrabi A, Khorrami R, Rezaeifar M, Khedmati Morasa H, and Mahmoudi R (2023). *Heavy metals and their adverse effects: sources, risks, and strategies to reduce accumulation in tea herb — a systematic review*. Carpathian Journal of Food Science and Technology. [https://doi.org/10.34302/crpjfst/2023.15.4.3](https://doi.org/10.34302/crpjfst/2023.15.4.3). Peer-reviewed, B-tier. [[sources/kazeminia2023-tea-heavy-metals-review|Source record]]
+5. German Federal Institute for Risk Assessment (BfR) (2022). *Nickel: estimate of long-term intake via food based on the BfR MEAL Study*. BfR Communication No. 033/2022. [www.bfr.bund.de](https://www.bfr.bund.de/en/a-z_index/nickel-130376.html). Government report, A-tier. [[sources/bfr2022-nickel-dietary-intake-germany-meal|Source record]]
+6. Hu C, Zhang X, Zhan N, and Liu Y (2023). *Current Status and Health Risk Assessment of Heavy Metals Contamination in Tea across China*. Toxics. [https://doi.org/10.3390/toxics11080662](https://doi.org/10.3390/toxics11080662). Peer-reviewed, A-tier. [[sources/hu2023-china-tea-heavy-metals|Source record]]
+7. Fan J, Wang S, Gong L, Ren R, and Jin Q (2025). *Occurrence, exposure and health risk assessment of heavy metals in green tea samples cultivated in Hangzhou area*. Scientific Reports. [https://doi.org/10.1038/s41598-024-84287-2](https://doi.org/10.1038/s41598-024-84287-2). Peer-reviewed, A-tier. [[sources/fan2025-hangzhou-green-tea-metals|Source record]]
+8. EUFIC (2021). *Aluminium in Food (Q&A): Sources, Safety and Regulations*. European Food Information Council (EUFIC). [www.eufic.org](https://www.eufic.org/en/food-safety/article/aluminium-in-food-qa-sources-safety-and-regulations). NGO report, B-tier. [[sources/efsa2021-aluminium-food-qa|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -232,15 +247,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
+| [0d4c293ca](https://github.com/paleofoundation/heavymetalindex/commit/0d4c293ca) | 2026-05-16 | major | 8 sources added; contamination-profile values revised; 12 sections added |
 <!-- END: hmi-page-history -->

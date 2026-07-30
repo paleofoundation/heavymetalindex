@@ -75,14 +75,14 @@ This source provides dry-weight occurrence data for cultivated Malaysian seaweed
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [bd323d56b](https://github.com/paleofoundation/heavymetalindex/commit/bd323d56b) | 2026-06-09 | ingest: dobrzynska2025-milk-formulae-elemental-composition fresh from Manual Fetch Discovery |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [334d99428](https://github.com/paleofoundation/heavymetalindex/commit/334d99428) | 2026-06-08 | ingest: khandaker2021-malaysian-seaweed-metalloids fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [bd323d56b](https://github.com/paleofoundation/heavymetalindex/commit/bd323d56b) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [334d99428](https://github.com/paleofoundation/heavymetalindex/commit/334d99428) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

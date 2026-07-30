@@ -112,14 +112,14 @@ The work is bench-scale on whole cells grown in defined laboratory medium with a
 - Checks 3 (speciation/methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) all ✅. Subagent verified the Methods (brief) section against the source row-by-row (JM105 host, Lpp-OmpA fusion via pUC18, pMAL-p2x for periplasmic MBP, MJS medium with 50 µg/mL ampicillin at 30 °C, 1 mM IPTG, [35S]-cysteine at 5 µCi/mL from ICN at 1075 Ci/mmol, 12.5 % SDS-PAGE per Laemmli, proteinase K at 10 µg/mL with the 3 min / 10 min / 1 h / 2 h / 5 h / 21 h time points, 5 mM DTT for 2 h at 37 °C reduction, 300 nmol Cd²⁺ for 1 h at 37 °C binding, Sephadex G-25 fractionation, flame AAS PerkinElmer AAS3100, Grassetti–Murray 1967 thiol assay, 481-bp lpp-ompA cassette and Richins et al. 1997 source) with no invented analytical methods, LODs, or reference materials; that the only metal measured is Cd and the `metals: [Cd]` frontmatter is correct without speciation issues; that no consumer-product brand names appear and the scientific-vendor mentions (PerkinElmer, Research Genetics, Promega, New England BioLabs, ICN, Sigma) are method-context per Exception 2; and that the Implications section explicitly disclaims any HMTc threshold-setting contribution. 1 finding flagged, 0 corrections applied (the ⚠️ was a known cross-page taxonomy gap, not a defect on this page), 0 rejected. Audit subagent ID aa8d3586d3cd812a4.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [be1a5cc3e](https://github.com/paleofoundation/heavymetalindex/commit/be1a5cc3e) | 2026-06-08 | audit: bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation promoted |
-| [e5daa6def](https://github.com/paleofoundation/heavymetalindex/commit/e5daa6def) | 2026-06-08 | ingest: bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation fresh from MFK/June 8 Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [be1a5cc3e](https://github.com/paleofoundation/heavymetalindex/commit/be1a5cc3e) | 2026-06-08 | minor | Narrative text revised |
+| [e5daa6def](https://github.com/paleofoundation/heavymetalindex/commit/e5daa6def) | 2026-06-08 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

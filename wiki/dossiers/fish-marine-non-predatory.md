@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `cedfa8b8a` (2026-06-11). The body hashes to `sha256:e7cbab1fa40100d5c1fb0322799a9337…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:4fcb9d16f4a517c7c8190ae0aa3654bc…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fish-marine-non-predatory&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fish-marine-non-predatory&download=1`.
 
 ## Evidence base
 
-This category is supported by 221 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 2 numerical claims; 1 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
+This category is supported by 355 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 2 numerical claims; 1 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/fish-marine-non-predatory.md`.
 

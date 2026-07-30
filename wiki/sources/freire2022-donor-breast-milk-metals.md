@@ -60,15 +60,13 @@ The same DOI was fetched under Cd, tAs, and tHg human-milk gaps. This page is ca
 The `matrices: [donor-breast-milk]` token is a descriptive matrix label distinguishing pooled donor milk-bank samples from individual-mother breast milk. It is preserved here because the distinction is exposure-relevant (donor pooling averages across many donors with screened diets and health status); the routing layer fans this source out via the `ingredients/breastmilk` slug. If the matrices controlled vocabulary is later codified, consider adding `donor-breast-milk` as a sibling of `breastmilk`.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [88f087d20](https://github.com/paleofoundation/heavymetalindex/commit/88f087d20) | 2026-06-09 | audit: freire2022-donor-breast-milk-metals revised per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [88f087d20](https://github.com/paleofoundation/heavymetalindex/commit/88f087d20) | 2026-06-09 | minor | Narrative text revised |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [0edf3ce78](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce78) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

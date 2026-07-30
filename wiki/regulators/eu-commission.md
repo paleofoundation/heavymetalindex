@@ -52,7 +52,6 @@ The European Commission holds the legislative power to set binding food-contamin
 | Total mercury | Maximum level | multiple — see instrument | [[regulations/eu-reg-2022-617-mercury-fish\|eu-reg-2022-617-mercury-fish]] | 2022 | finalized |
 | Methylmercury | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] | 2007 | superseded |
 | Nickel | Directive | see instrument | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94 27 EC]] | — | historical-as-described-in-source |
-| Nickel | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] | — | maximum levels |
 | Nickel | Monitoring | monitoring recommendation | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] | 2024 | in-force |
 | Nickel | Maximum level | 0.10–40 mg/kg | [[regulations/eu-2024-1987-nickel-maximum-levels\|maximum levels of nickel in certain foodstuffs]] | 2024 | in-force |
 | Tin | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] | — | maximum levels |
@@ -136,12 +135,10 @@ _No other tracked body sets a position for total mercury; EC is the only one in 
 
 | Body | Type | Value | Instrument |
 | --- | --- | --- | --- |
-| **EC** | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] |
 | **EC** | Directive | see instrument | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94 27 EC]] |
 | **EC** | Monitoring | monitoring recommendation | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] |
 | **EC** | Maximum level | 0.10–40 mg/kg | [[regulations/eu-2024-1987-nickel-maximum-levels\|maximum levels of nickel in certain foodstuffs]] |
 | [[regulators/efsa\|EFSA]] | TDI | 13 µg/kg bw/day | [[regulations/efsa-nickel-tdi\|Nickel Tolerable Daily Intake]] |
-| [[regulators/oehha\|OEHHA]] | Prop 65 | listed-no-safe-harbor none | [[regulations/oehha-nickel-prop65\|Nickel Listings]] |
 
 ### Tin
 
@@ -182,7 +179,6 @@ _No other tracked body sets a position for total mercury; EC is the only one in 
 | [[sources/eu-2024-1987-nickel-maximum-levels\|eu-2024-1987-nickel-maximum-levels]] | [[regulations/eu-2024-1987-nickel-maximum-levels\|maximum levels of nickel in certain foodstuffs]] |
 | [[sources/efsa-nickel-contam-2020\|efsa-nickel-contam-2020]] | [[regulations/eu-2024-1987-nickel-maximum-levels\|maximum levels of nickel in certain foodstuffs]] |
 | [[sources/eu-2024-907-nickel-monitoring-recommendation\|eu-2024-907-nickel-monitoring-recommendation]] | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] |
-| [[sources/eu-2024-1987-nickel-maximum-levels\|eu-2024-1987-nickel-maximum-levels]] | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] |
 | [[sources/efsa-nickel-contam-2020\|efsa-nickel-contam-2020]] | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] |
 | [[sources/lgc2003-nickel-piercing-post-assemblies\|lgc2003-nickel-piercing-post-assemblies]] | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94 27 EC]] |
 <!-- END: hmi-regulator-keydocs -->
@@ -190,3 +186,13 @@ _No other tracked body sets a position for total mercury; EC is the only one in 
 ## References
 
 Positions, the update log, and key documents above are generated from the per-instrument [[regulations/index|regulation pages]] this body issues, via `tools/build-regulator-pages.mjs`. The wiki reports what EC has published; it does not endorse it. See [[CLAUDE|the wiki/HMTc separation policy]] for why reporting regulatory values is kept architecturally separate from certification threshold-setting.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1c26ab9a0](https://github.com/paleofoundation/heavymetalindex/commit/1c26ab9a0) | 2026-06-23 | major | 15 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

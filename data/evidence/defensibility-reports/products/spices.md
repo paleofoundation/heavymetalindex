@@ -2,15 +2,15 @@
 source_page: wiki/products/spices.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: dc6caadde13b35e169b7da4b6f6254d02e30c074c8d8b330d026530286d42775
+source_page_sha256: 969ba1f15b532729bfb2333f159b8e0de919815822bd6ba22c0deb316eced734
 total_claims: 2
 cited_claims: 1
 uncited_claims: 1
-distinct_cited_targets: 63
-distinct_cited_sources: 63
+distinct_cited_targets: 64
+distinct_cited_sources: 64
 audit_rows_for_page: 4
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2419
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 2 |
 | cited claims | 1 |
 | uncited claims | 1 |
-| distinct cited targets | 63 |
-| distinct cited `sources/` pages | 63 |
+| distinct cited targets | 64 |
+| distinct cited `sources/` pages | 64 |
 | audit rows on this page | 4 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2419 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 
@@ -56,8 +56,8 @@ This report joins every numerical claim on the page to its citation chain and th
 ### Sources
 
 #### Claim `3 mg/L`
-- Context: `seedlings treated for 10 days with arsenite or arsenate solutions at 1, 2, and 3 mg/L,... (n=21) | | 44 | [[sources/kow`
-- Cited targets (63):
+- Context: `seedlings treated for 10 days with arsenite or arsenate solutions at 1, 2, and 3 mg/L,... (n=21) | | 45 | [[sources/kow`
+- Cited targets (64):
   - `wiki/sources/adams2017-nigerian-processed-spices-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alam2022-dhaka-spices-lead\.md` (page missing)
@@ -139,6 +139,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/matloob2016-iraq-spices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mercan-yucel2022-van-spices-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/mercanyucel2022-van-spices-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/moussa2024-spices-herbs-lebanon\.md` (page missing)
     - audit rows: none
@@ -236,6 +238,7 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/masri2025-toxicant-foods-california\.md` | sources | 0 | — | — |
 | `wiki/sources/matloob2016-iraq-spices-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/mercan-yucel2022-van-spices-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/mercanyucel2022-van-spices-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/moussa2024-spices-herbs-lebanon\.md` | sources | 0 | — | — |
 | `wiki/sources/munarso2024-vanilla-indonesia-quality\.md` | sources | 0 | — | — |
 | `wiki/sources/njinga2022-nigeria-herbal-cd-cr\.md` | sources | 0 | — | — |

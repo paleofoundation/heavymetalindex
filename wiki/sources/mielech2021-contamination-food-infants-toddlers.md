@@ -124,13 +124,13 @@ Microbiome: Not applicable — the review does not address microbiome outcomes.
 - Routing input: `products:` is set to the umbrella infant-formula-powder slug plus broad complementary-food slugs (infant-food-general, baby-cereals dry rice-based/non-rice, teething-and-snacks rice-based, fish-containing-baby-foods). The routing layer will fan these out to sibling pages. The review is broad and does not commit to soy vs non-soy or powder vs RTF for infant formula across its cited studies, so the umbrella slug is correct per Part 5b routing input rules.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1c1372088](https://github.com/paleofoundation/heavymetalindex/commit/1c1372088) | 2026-06-09 | audit: mielech2021-contamination-food-infants-toddlers [revised] |
-| [f4810a105](https://github.com/paleofoundation/heavymetalindex/commit/f4810a105) | 2026-06-09 | ingest: mielech2021-contamination-food-infants-toddlers fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [1c1372088](https://github.com/paleofoundation/heavymetalindex/commit/1c1372088) | 2026-06-09 | minor | Narrative text revised |
+| [f4810a105](https://github.com/paleofoundation/heavymetalindex/commit/f4810a105) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

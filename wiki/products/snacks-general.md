@@ -93,15 +93,14 @@ The five most recent substantive edits to this page. The full version history li
 <!-- END: hmi-page-history -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [4d418d712](https://github.com/paleofoundation/heavymetalindex/commit/4d418d712) | 2026-06-09 | reorg(taxonomy-v2.2): un-retire lipstick -> Cat 13 lip row; re-parent coarse condiments/snacks |
-| [8004f3c80](https://github.com/paleofoundation/heavymetalindex/commit/8004f3c80) | 2026-06-08 | reorg(taxonomy-v2.1): §7 — recognize snacks/mixed-meals as Cat 7 rows 10/12 |
-| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | minor | Narrative text revised |
+| [324868f70](https://github.com/paleofoundation/heavymetalindex/commit/324868f70) | 2026-05-31 | major | 1 section added; narrative text revised |
+| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 2 sections added; narrative text revised |
+| [743ed7c4f](https://github.com/paleofoundation/heavymetalindex/commit/743ed7c4f) | 2026-05-30 | major | 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

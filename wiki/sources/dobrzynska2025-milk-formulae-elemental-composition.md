@@ -104,13 +104,13 @@ Brand identification is not provided in the paper, so the brand firewall (CLAUDE
 Audit subagent (2026-06-09) flagged `[[ingredients/cow-milk-infant-formula]]` and `[[ingredients/milk-based-infant-formula]]` as invented slugs not present in the taxonomy snapshot. Verified false positive: both pages exist at `wiki/ingredients/cow-milk-infant-formula.md` and `wiki/ingredients/milk-based-infant-formula.md`, and the routing audit accepted both wikilinks cleanly with zero unresolved targets for this source. The discrepancy is a staleness gap in `docs/gpt-collaboration/taxonomy-snapshot.md`, not a defect in this source page. The audit subagent also questioned the Ni FSMP maximum being rendered as `0-12` rather than `0-12.5`; verified false positive — Table 9 shows the FSMP Ni range as `<0-12>` with no decimal, matching the page text. Audit verdict was REVISE; on independent verification no frontmatter or body changes are warranted.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [a8c595f77](https://github.com/paleofoundation/heavymetalindex/commit/a8c595f77) | 2026-06-09 | audit: dobrzynska2025-milk-formulae-elemental-composition revised |
-| [bd323d56b](https://github.com/paleofoundation/heavymetalindex/commit/bd323d56b) | 2026-06-09 | ingest: dobrzynska2025-milk-formulae-elemental-composition fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [a8c595f77](https://github.com/paleofoundation/heavymetalindex/commit/a8c595f77) | 2026-06-09 | minor | Narrative text revised |
+| [bd323d56b](https://github.com/paleofoundation/heavymetalindex/commit/bd323d56b) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

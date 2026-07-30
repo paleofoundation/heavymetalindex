@@ -92,15 +92,15 @@ OEHHA-issued regulatory technical support document; no primary measurement. Per-
 - 2026-05-17 audit false-positive note: the audit subagent flagged `Be` in the `metals:` frontmatter as ⚠️ not in the system-prompt metal-abbreviation list. Verified against corpus: `Be` is used consistently in 7+ existing source pages (atsdr2023-soil-dermal-absorption-guidance, stefaniak2014-ni-be-cr-artificial-sweat, krasnopyorova2024-almaty-surface-water, ravalli2022-uranium-metals-us-water-systems, ufelle2021-metals-chapter, yan2025-infant-serum-26-metals-gut-microbiota-china) as the standard chemistry abbreviation for beryllium, and the `metals/beryllium` wiki page exists in the taxonomy snapshot. Finding rejected as false positive; `Be` retained.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [08e6d78af](https://github.com/paleofoundation/heavymetalindex/commit/08e6d78af) | 2026-05-17 | minor | Narrative text revised |
+| [d54ed1e7e](https://github.com/paleofoundation/heavymetalindex/commit/d54ed1e7e) | 2026-05-17 | minor | Narrative text revised |
+| [d7886838e](https://github.com/paleofoundation/heavymetalindex/commit/d7886838e) | 2026-05-17 | minor | Narrative text revised |
+| [78c95c262](https://github.com/paleofoundation/heavymetalindex/commit/78c95c262) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -103,16 +103,29 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Chamorro S, Cassani L, Barros-Velázquez J, Gallardo JM, and Aubourg SP (2024). *Atlantic bluefin tuna (Thunnus thynnus): health benefits, contaminants and risk-benefit analysis for human consumption*. Food Reviews International. [https://doi.org/10.3389/fnut.2024.1340121](https://doi.org/10.3389/fnut.2024.1340121). Peer-reviewed, A-tier. [[sources/chamorro2024-bluefin-tuna-mercury-review|Source record]]
+2. Ralston NVC, Ralston CR, and Raymond LJ (2014). *Selenium Health Benefit Values: Updated Criteria for Mercury Risk Assessments*. Archives of Environmental Contamination and Toxicology. [https://doi.org/10.1007/s12011-015-0516-z](https://doi.org/10.1007/s12011-015-0516-z). Peer-reviewed, A-tier. [[sources/ralston2014-selenium-hbv-methylmercury-seafood|Source record]]
+3. Farina M, Rocha JBT, and Aschner M (2011). *Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies*. Life Sciences 89(15-16):555-563. [https://doi.org/10.1016/j.lfs.2011.05.019](https://doi.org/10.1016/j.lfs.2011.05.019). Peer-reviewed, A-tier. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Source record]]
+4. Dietz R, Søndergaard J, Rigét FF, Bach L, Basu N, Fort J, et al. (2025). *Stable isotopes unveil ocean transport of legacy mercury into Arctic food webs*. Nature Communications. [https://doi.org/10.1038/s41467-025-59785-5](https://doi.org/10.1038/s41467-025-59785-5). Peer-reviewed, A-tier. [[sources/dietz2025-arctic-mercury-isotopes-greenland|Source record]]
+5. Li M, Huang T, Cheng H, Obrist D, and Yu B (2022). *Internal Dynamics and Metabolism of Mercury in Biota: A Review of Insights from Mercury Stable Isotopes*. Environmental Science & Technology. [https://doi.org/10.1021/acs.est.1c08631](https://doi.org/10.1021/acs.est.1c08631). Peer-reviewed, A-tier. [[sources/li2022-mercury-isotope-biota-review|Source record]]
+6. Motta LC, Blum JD, Popp BN, Umhau BP, Benitez-Nelson CR, Close HG, et al. (2022). *Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2208183119](https://doi.org/10.1073/pnas.2208183119). Peer-reviewed, A-tier. [[sources/motta2022-marine-hg-isotopes|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | fix(synthesis): coherent index (Overview toggle, no dump) + subpage Overviews |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
+| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
+| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

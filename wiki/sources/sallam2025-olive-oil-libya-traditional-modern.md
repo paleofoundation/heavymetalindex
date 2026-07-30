@@ -126,15 +126,13 @@ Speciation caution: All four analytes are reported as totals (ICP-OES inherently
 - 2026-06-01 audit application (Claude Opus, this session, applying findings from a fresh-context general-purpose audit subagent): subagent verdict REVISE, with three ⚠️ concerns and no ❌ definite errors. Findings applied: (a) added the Discussion's seven physicochemical parameters (saponification, pH, density, peroxide, UV232, UV270, iodine — values Figure 2 actually plots despite its heavy-metal caption) to the Key numbers section, closing the figure-caption reporting gap; (b) tightened the Cd LOD framing in Key numbers to acknowledge that Table 3's 0.1 ppm column is the OMWW table's detection-limit column, and that whether 0.1 ppm is the analytical LOD or only the reporting precision is unclear from the source; (c) added three additional Results-text vs Table-1 fatty-acid inconsistencies (palmitoleic 2.46% vs 2.00%, stearic 2.77% vs 2.50%, linolenic 0.83% vs 0.43%) to the existing inconsistency-4 verification note. Findings rejected (false positives): none. The Check-5 soft observation on "Achak et al. 2009; Tarchouna et al. 2010" being paper-own references rather than wiki-side synthesis was already correctly handled in the source page (those citations sit in the App paragraph as the paper's own context, not as wiki-side synthesis), so no change was needed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [0f2f5e59e](https://github.com/paleofoundation/heavymetalindex/commit/0f2f5e59e) | 2026-06-01 | minor | Narrative text revised |
+| [b152f2333](https://github.com/paleofoundation/heavymetalindex/commit/b152f2333) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -95,16 +95,26 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Seyfferth AL, Limmer MA, Jackson BP, and Runkle BRK (2025). *Concentrations and Health Implications of As, Hg, and Cd and Micronutrients in Rice and Emissions of CH4 From Variably Flooded Paddies*. GeoHealth. [https://doi.org/10.1029/2025GH001410](https://doi.org/10.1029/2025GH001410). Peer-reviewed, A-tier. [[sources/seyfferth2025-rice-water-management-as-hg-cd|Source record]]
+2. Limmer MA and Seyferth LD (2024). *Controlling exposure to As and Cd from rice via irrigation management*. Environmental Science & Technology. [https://doi.org/10.1021/acs.est.4c02310](https://doi.org/10.1021/acs.est.4c02310). Peer-reviewed, A-tier. [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Source record]]
+3. Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H (2025). *Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2424001122](https://doi.org/10.1073/pnas.2424001122). Peer-reviewed, A-tier. [[sources/wu2025-climate-meghan-freshwater-fish-china|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | fix(synthesis): coherent index (Overview toggle, no dump) + subpage Overviews |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
+| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
+| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -100,15 +100,13 @@ No statistical analysis or modelling is reported. The agency's conclusion is qua
 - **Related corpus pages.** [[cpsc2009-cpsia-101-procedures-npr]] is the January 2009 Federal Register notice of proposed rulemaking establishing the Section 101 determinations and exclusions procedural framework at 16 CFR 1500.89 and 1500.90 — the procedural antecedent to the present source's Section 101(a)(2)(C) feasibility determination. [[cpsc2009-cpsia-101b-inaccessibility-rule]] is the July-August 2009 ballot package and final rule on the Section 101(b)(2) inaccessibility exclusion at 16 CFR 1500.87 — the substantive carve-out from the 100 ppm lead-content limit cited in the present source's draft Federal Register notice. [[cpsc2012-cpsia-101b-functional-purpose-exception]] is the same series of Section 101(b) interpretive rules approached one year later under the same statutory authority, deriving the quantitative public-health criterion for evaluating petitions under CPSIA §101(b)(1). [[hatlelid2009-cpsc-cpsia-lead-childrens-products]] is the December 2009 staff-presentation summary of the broader CPSIA Section 101 regime, predating the present source by approximately eighteen months and citing the still-pending 100 ppm effective date. [[cfa2012-cpsia-lead-fact-sheet]] is the 2012 Consumer Federation of America consumer-advocacy summary of the same CPSIA Section 101 regime once the 100 ppm limit had taken effect. No CPSIA-Section-101-specific regulation page yet exists in `wiki/regulations/`; the natural next-step regulation page would be the routing target for the present source plus the four other corpus items above. Per Part 10 and the manual-fetch skill, that regulation page is a Karen-curated new-page proposal rather than something created during this ingest.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [15a39bae9](https://github.com/paleofoundation/heavymetalindex/commit/15a39bae9) | 2026-06-01 | minor | Narrative text revised |
+| [b4b26a181](https://github.com/paleofoundation/heavymetalindex/commit/b4b26a181) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

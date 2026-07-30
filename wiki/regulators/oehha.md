@@ -34,7 +34,6 @@ OEHHA administers the scientific side of California's Safe Drinking Water and To
 | Lead | Prop 65 | multiple — see instrument | [[regulations/oehha-lead-prop65\|Lead and Lead Compounds Listing]] | — | in-force |
 | Cadmium | Prop 65 | 4.1 µg/day oral | [[regulations/oehha-cadmium-prop65\|Cadmium Listing and Maximum Allowable Daily Level]] | 1997 | in-force |
 | Inorganic arsenic | Prop 65 | value pending | [[regulations/oehha-arsenic-prop65\|Inorganic Arsenic Compounds Listing]] | — | in-force |
-| Nickel | Prop 65 | listed-no-safe-harbor none | [[regulations/oehha-nickel-prop65\|Nickel Listings]] | 2018 | in-force |
 | Hexavalent chromium | Prop 65 | 8.2 µg/day oral MADL | [[regulations/oehha-chromium-vi-prop65\|Hexavalent Chromium Listing and Safe-Harbor Levels]] | 2008 | in-force |
 <!-- END: hmi-regulator-positions -->
 
@@ -93,17 +92,6 @@ Prop 65 MADLs and NSRLs are daily-exposure thresholds (µg/day) — a different 
 | [[regulators/us-epa\|US EPA]] | MCL (water) | 10 ppb | [[regulations/epa-arsenic-mcl\|Maximum Contaminant Level for Arsenic in Drinking…]] |
 | [[regulators/us-epa\|US EPA]] | — | value pending | [[regulations/epa-iris-inorganic-arsenic-rfd\|EPA IRIS — Inorganic Arsenic Toxicological Review]] |
 
-### Nickel
-
-| Body | Type | Value | Instrument |
-| --- | --- | --- | --- |
-| **OEHHA** | Prop 65 | listed-no-safe-harbor none | [[regulations/oehha-nickel-prop65\|Nickel Listings]] |
-| [[regulators/efsa\|EFSA]] | TDI | 13 µg/kg bw/day | [[regulations/efsa-nickel-tdi\|Nickel Tolerable Daily Intake]] |
-| [[regulators/eu-commission\|EC]] | Maximum level | 0.10–40 mg/kg | [[regulations/eu-2024-1987-nickel-maximum-levels\|maximum levels of nickel in certain foodstuffs]] |
-| [[regulators/eu-commission\|EC]] | Monitoring | monitoring recommendation | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] |
-| [[regulators/eu-commission\|EC]] | Directive | see instrument | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94 27 EC]] |
-| [[regulators/eu-commission\|EC]] | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] |
-
 ### Hexavalent chromium
 
 _No other tracked body sets a position for hexavalent chromium; OEHHA is the only one in the index._
@@ -116,7 +104,6 @@ _No other tracked body sets a position for hexavalent chromium; OEHHA is the onl
 | ---: | --- | --- | --- |
 | 1997-05-01 | Issued / in force | [[regulations/oehha-cadmium-prop65\|Cadmium Listing and Maximum Allowable Daily Level]] | in-force |
 | 2008-12-19 | Issued / in force | [[regulations/oehha-chromium-vi-prop65\|Hexavalent Chromium Listing and Safe-Harbor Levels]] | in-force |
-| 2018-10-26 | Issued / in force | [[regulations/oehha-nickel-prop65\|Nickel Listings]] | in-force |
 <!-- END: hmi-regulator-updatelog -->
 
 ## Key documents
@@ -129,11 +116,18 @@ _No other tracked body sets a position for hexavalent chromium; OEHHA is the onl
 | [[sources/oehha-cadmium-prop65-madl-2001\|oehha-cadmium-prop65-madl-2001]] | [[regulations/oehha-cadmium-prop65\|Cadmium Listing and Maximum Allowable Daily Level]] |
 | [[sources/oehha-chromium-vi-prop65-listing\|oehha-chromium-vi-prop65-listing]] | [[regulations/oehha-chromium-vi-prop65\|Hexavalent Chromium Listing and Safe-Harbor Levels]] |
 | [[sources/oehha-lead-prop65-listing\|oehha-lead-prop65-listing]] | [[regulations/oehha-lead-prop65\|Lead and Lead Compounds Listing]] |
-| [[sources/oehha-nickel-dart-evidence-2018\|oehha-nickel-dart-evidence-2018]] | [[regulations/oehha-nickel-prop65\|Nickel Listings]] |
-| [[sources/oehha-nickel-prop65-factsheet-2025\|oehha-nickel-prop65-factsheet-2025]] | [[regulations/oehha-nickel-prop65\|Nickel Listings]] |
-| [[sources/efsa-nickel-contam-2020\|efsa-nickel-contam-2020]] | [[regulations/oehha-nickel-prop65\|Nickel Listings]] |
 <!-- END: hmi-regulator-keydocs -->
 
 ## References
 
 Positions, the update log, and key documents above are generated from the per-instrument [[regulations/index|regulation pages]] this body issues, via `tools/build-regulator-pages.mjs`. The wiki reports what OEHHA has published; it does not endorse it. See [[CLAUDE|the wiki/HMTc separation policy]] for why reporting regulatory values is kept architecturally separate from certification threshold-setting.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1c26ab9a0](https://github.com/paleofoundation/heavymetalindex/commit/1c26ab9a0) | 2026-06-23 | major | 12 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

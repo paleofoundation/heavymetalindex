@@ -82,15 +82,13 @@ Fresh ingest 2026-06-02 from `raw/manual-fetch/Kimi_Agent_Download Corruption Is
 Audit subagent (2026-06-02) returned QUARANTINE with three ❌ findings; three findings were verified and applied as follows. (1) Finding "Blueberry Beet Rice Cakes at 14 ppb Pb is not in the source": verified correct against PDF page 36, which shows Blueberry Beet Rice Cakes at <4.0 ppb Pb on 10/14/19; the 14 ppb value was a misread, removed. (2) Finding "Stage 2 Apple Spinach Pea and Kiwi descriptor is invented; PDF uses Baby 7+ Months": verified correct, the Stage 2 qualifier was removed, and the branded SKU was replaced with a product-form descriptor. (3) Finding "Part 12 brand firewall violated by branded-SKU + value enumeration (both HappyBABY/Nurture finished-product spot-checks and HBBF non-cooperator product values)": verified correct under the strict 2026-05-17 reading; regulatory-event Exception 1 covers naming the manufacturers as investigation subjects, not reproducing branded-product-name + value rows. Both enumeration paragraphs were rewritten to use product-form aggregations (apple-and-broccoli puff snacks, strawberry-and-beet puff snacks, pea-and-spinach teething wafers, multigrain teething wafers, rice-rusk snacks, quinoa-and-rice puff snacks, multigrain soft-baked snack bars, strawberry-yogurt cereal snacks) while preserving the cooperation-status fact. Finding "ingredients/cumin is not in the taxonomy snapshot" was rejected as a false positive: `wiki/ingredients/cumin.md` exists as a provisional scaffold (created 2026-06-02 by ingest of sabri2025-moroccan-spices-casablanca-metals), so the slug is valid; the audit subagent's `docs/gpt-collaboration/taxonomy-snapshot.md` reference is stale relative to today's autonomy-stub additions. Check 5 ⚠️ on the Certification implication paragraph (methodology prescription tone) was accepted and the paragraph was trimmed to occurrence-data framing.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [c2d95354e](https://github.com/paleofoundation/heavymetalindex/commit/c2d95354e) | 2026-06-02 | minor | Narrative text revised |
+| [bc9725e1c](https://github.com/paleofoundation/heavymetalindex/commit/bc9725e1c) | 2026-06-02 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

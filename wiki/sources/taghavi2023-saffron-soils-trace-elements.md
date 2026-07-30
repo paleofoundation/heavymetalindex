@@ -74,13 +74,13 @@ All key numbers were checked against the extracted PDF text, especially Tables 3
 The extracted prose contains an apparent typo saying lead concentrations had median 34.234 mg/kg; Table 3 shows the Pb average as 13.617 mg/kg and 34.234 mg/kg as the Ni average. This page follows Table 3.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [780310824](https://github.com/paleofoundation/heavymetalindex/commit/780310824) | 2026-06-10 | audit-revise 2026-06-10: taghavi2023-saffron-soils-trace-elements routing hygiene |
-| [06cda2894](https://github.com/paleofoundation/heavymetalindex/commit/06cda2894) | 2026-06-10 | recover-ingest 2026-06-10: taghavi2023-saffron-soils-trace-elements (lane a3, was skip:not-food-occurrence) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [780310824](https://github.com/paleofoundation/heavymetalindex/commit/780310824) | 2026-06-10 | minor | Narrative text revised |
+| [06cda2894](https://github.com/paleofoundation/heavymetalindex/commit/06cda2894) | 2026-06-10 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

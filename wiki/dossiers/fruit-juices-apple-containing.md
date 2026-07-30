@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `cedfa8b8a` (2026-06-11). The body hashes to `sha256:69356818d52260b3d29e34e8eb6f85f5…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:3b8eee3fd864d4c584e5563fb7c65dc3…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fruit-juices-apple-containing&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fruit-juices-apple-containing&download=1`.
 
@@ -41,6 +41,7 @@ Ranked by the literature-reported concentration of this category's declared ingr
 | Lead | apple | 90% |
 | Cadmium | apple | 88% |
 | Arsenic (total) | fruit-juice | 44% |
+| Mercury (total) | apple | 100% |
 | Nickel | apple | 100% |
 | Aluminum | apple | 100% |
 | Chromium (total) | apple | 100% |
@@ -52,6 +53,7 @@ The full driver ranking is available at `/api/risk-map?category=fruit-juices-app
 
 What has moved in the regulation or the cited literature that touches this category, newest first.
 
+- **2026-07-30** — iAs in apple confidence medium → null.
 - **2026-06-23** — Pb in fruit-juice-ready-drinks confidence medium → low.
 - **2026-06-23** — iAs in fruit-juice-ready-drinks confidence medium → low.
 - **2026-06-23** — iAs in non-apple-fruit confidence medium → low.
@@ -59,7 +61,6 @@ What has moved in the regulation or the cited literature that touches this categ
 - **2026-05-16** — Literature evidence first populated for iAs in fruit (n=4, low confidence).
 - **2026-05-16** — Literature evidence first populated for Pb in fruit-juice (n=2, low confidence).
 - **2026-05-16** — Literature evidence first populated for Pb in fruit-purees (n=0, ? confidence).
-- **2026-05-16** — Literature evidence first populated for iAs in fruit-purees (n=0, ? confidence).
 
 The live feed for this category is at `/api/change-watch?category=fruit-juices-apple-containing`.
 

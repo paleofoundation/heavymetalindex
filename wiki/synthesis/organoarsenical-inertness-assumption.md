@@ -111,16 +111,32 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 9 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Davydiuk T, Tao J, Lu X, and Le XC (2023). *Effects of Dietary Intake of Arsenosugars and Other Organic Arsenic Species on Studies of Arsenic Methylation Efficiency in Humans*. Environmental Health. [https://doi.org/10.1021/envhealth.3c00080](https://doi.org/10.1021/envhealth.3c00080). Peer-reviewed, A-tier. [[sources/davydiuk2023-arsenosugars-methylation|Source record]]
+2. EFSA CONTAM Panel, Schrenk D, Bignami M, Bodin L, Chipman JK, del Mazo J, et al. (2024). *Update of the risk assessment of inorganic arsenic in food*. EFSA Journal. [https://doi.org/10.2903/j.efsa.2024.8488](https://doi.org/10.2903/j.efsa.2024.8488). Government report, A-tier. [[sources/efsa2024-risk-assessment-iAs-update|Source record]]
+3. Liu B, Sui J, Feng R, Lin H, Han X, Sun X, et al. (2023). *Transformation of arsenic species from seafood consumption during in vitro digestion*. Frontiers in Nutrition. [https://doi.org/10.3389/fnut.2023.1207732](https://doi.org/10.3389/fnut.2023.1207732). Peer-reviewed, A-tier. [[sources/liu2023-arsenic-seafood-digestion|Source record]]
+4. Kagawa T, Ohgami N, He T, Tazaki A, Ohnuma S, Naito H, et al. (2023). *Elevated arsenic level in fasting serum via ingestion of fish meat increased the risk of hypertension in humans and mice*. European Heart Journal Open. [https://doi.org/10.1093/ehjopen/oead074](https://doi.org/10.1093/ehjopen/oead074). Peer-reviewed, A-tier. [[sources/kagawa2023-fish-arsenic-hypertension-japan|Source record]]
+5. Raab A, Zhang X, Ge H, and Feldmann J (2024). *Arsenolipids in the green microalga Chlamydomonas reinhardtii: first report of arsenosugar phospholipid (AsSugPhytol)*. Metallomics. [https://doi.org/10.1007/s00216-023-05122-7](https://doi.org/10.1007/s00216-023-05122-7). Peer-reviewed, A-tier. [[sources/raab2024-arsenolipids-chlamydomonas.md|Source record]]
+6. Walenta M, Raab A, Braeuer S, Steiner L, Borovička J, and Goessler W (2024). *Arsenobetaine amide: a novel arsenic species detected in several mushroom species*. [https://doi.org/10.1007/s00216-023-05159-0](https://doi.org/10.1007/s00216-023-05159-0). Peer-reviewed, A-tier. [[sources/walenta2024-arsenic-speciation-mushrooms|Source record]]
+7. Sim M, Weyer C, and Pétursdóttir ÁH (2024). *Determination of inorganic arsenic in seaweed, grain, grass silage, and insect protein by HPLC-ICP-MS using a design of experiments optimization approach*. Food Chemistry. [https://doi.org/10.1007/s00216-024-05250-8](https://doi.org/10.1007/s00216-024-05250-8). Peer-reviewed, A-tier. [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Source record]]
+8. Hull EA, Stiling RR, Barajas M, Neumann RB, Olden JD, and Gawel JE (2023). *Littoral sediment arsenic concentrations predict arsenic trophic transfer and human health risk in contaminated lakes*. PLoS ONE. [https://doi.org/10.1371/journal.pone.0293214](https://doi.org/10.1371/journal.pone.0293214). Peer-reviewed, A-tier. [[sources/hull2023-arsenic-lake-foodweb|Source record]]
+9. Sadee BA, Galali Y, and Zebari SMS (2023). *Toxicity, arsenic speciation and characteristics of hyphenated techniques used for arsenic determination in vegetables. A review*. RSC Advances. [https://doi.org/10.1039/d3ra05770d](https://doi.org/10.1039/d3ra05770d). Peer-reviewed, A-tier. [[sources/sadee2023-arsenic-speciation-vegetables|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | fix(synthesis): coherent index (Overview toggle, no dump) + subpage Overviews |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
+| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
+| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

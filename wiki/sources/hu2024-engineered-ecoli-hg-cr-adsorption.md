@@ -94,14 +94,14 @@ Within the wiki/HMTc firewall, this source bears on no per-row P97/P45 percentil
 - Subagent verdict: REVISE; both findings applied with verification against the source. No QUARANTINE triggers (no ❌ Check 1 cluster, no Check 4 or Check 5 ❌).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [feb2f8563](https://github.com/paleofoundation/heavymetalindex/commit/feb2f8563) | 2026-06-08 | audit: coghlan2015-tcm-heavy-metals-audit revised per autonomous audit |
-| [caaa2eea9](https://github.com/paleofoundation/heavymetalindex/commit/caaa2eea9) | 2026-06-08 | audit: demir2025-coffee-elements-turkiye revised per autonomous audit |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [feb2f8563](https://github.com/paleofoundation/heavymetalindex/commit/feb2f8563) | 2026-06-08 | minor | Narrative text revised |
+| [caaa2eea9](https://github.com/paleofoundation/heavymetalindex/commit/caaa2eea9) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

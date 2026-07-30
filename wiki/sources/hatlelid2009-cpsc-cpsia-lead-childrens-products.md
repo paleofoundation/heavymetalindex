@@ -82,15 +82,12 @@ A 14-slide staff presentation by Kris Hatlelid, Ph.D., M.P.H. (Toxicologist, CPS
 - **Related corpus pages.** `cfa2012-cpsia-lead-fact-sheet` is the closest existing corpus item: a 2012 consumer-advocacy summary of the same CPSIA Section 101 regime, written several years after this 2009 CPSC staff deck. This Hatlelid 2009 source is the primary-agency-staff-level companion to that NGO summary; it predates the August 2011 HR 2175 amendment and so does not discuss the bicycle-specific 300 ppm carve-out or the "products that need lead to work properly" exemption framework that HR 2175 introduced. `cpsc1997-pvc-children-products` is an older CPSC source on a different metal/material (PVC, not lead substrate or paint). `johnson2012-cpsc-astm-f963-status` is a later CPSC-adjacent reference for toy-safety standards. `padoh2023-pahan-727-cpsc-lead-cup-recall` is a state-public-health document about a CPSC lead-cup recall and references CPSIA in that context. No CPSIA-Section-101-specific regulation page yet exists in `wiki/regulations/`; the natural next-step page (proposed in the `cfa2012-cpsia-lead-fact-sheet` verification notes) would be the routing target for both that source and this one. Per Part 10 and the manual-fetch skill, that regulation page is a Karen-curated new-page proposal rather than something created during this ingest.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1c410cb9c](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb9c) | 2026-06-01 | major | 1 section added |
+| [d439157cf](https://github.com/paleofoundation/heavymetalindex/commit/d439157cf) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

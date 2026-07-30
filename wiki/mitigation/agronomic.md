@@ -56,3 +56,23 @@ The corpus index pages under [[corpus/index|`wiki/corpus/`]] will surface additi
 - [[supply-chain/soil-nickel-screening|Soil nickel screening]] — substrate-organized parallel content for nickel.
 - [[ingredients/rice|Rice]], [[ingredients/cocoa|Cocoa]] — the two highest-salience commodities for agronomic mitigation.
 - [[metals/cadmium|Cadmium]], [[metals/arsenic-inorganic|Inorganic arsenic]] — the two metals where agronomic mitigation is most consequential.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Inoue J, Teramoto T, Kazama T, and Nakamura T (2024). *Engineering Rice Nramp5 Modifies Cadmium and Manganese Uptake Selectivity Using Yeast Assay System*. Frontiers in Plant Science 15:1482099. [https://doi.org/10.3389/fpls.2024.1482099](https://doi.org/10.3389/fpls.2024.1482099). Peer-reviewed, A-tier. [[sources/inoue-2024-rice-nramp5-cadmium|Source record]]
+2. Codex Alimentarius Commission (2022). *Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)*. FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome. [https://doi.org/10.4060/cc5333en](https://doi.org/10.4060/cc5333en). Government report, A-tier. [[sources/codex-cxc-81-2022|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [215477918](https://github.com/paleofoundation/heavymetalindex/commit/215477918) | 2026-05-03 | major | 1 source added; narrative text revised |
+| [ed8797d63](https://github.com/paleofoundation/heavymetalindex/commit/ed8797d63) | 2026-05-03 | major | 1 source added; 4 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

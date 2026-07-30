@@ -180,6 +180,17 @@ Glass packaging is the baseline-clean option. Avoid ceramic decanters with unver
 
 The Codex Alimentarius General Standard CXS 193-1995 does not set a balsamic-vinegar-specific maximum. The EU Regulation 2023/915 applies general food-category limits to balsamic vinegar; the Italian DOP/IGP geographic-indication protocols do not set heavy-metals limits as part of the GI framework. The US FDA has not set a balsamic-specific action level but received the 2021 ESCP petition for action ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]); the petition remains pending and is a current policy-monitoring item. The CFIA 2025 Canadian survey did not identify balsamic-specific exceedances of Canadian limits in the surveyed product set.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Corrigan ZB, Braiman J, and Chittenden C (2021). *Letter to FDA: Dangerously high levels of arsenic and lead found in many vinegar products require action by the FDA*. Empire State Consumer Project / Food & Water Watch — FDA Citizen Petition Letter. NGO report, B-tier. [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter|Source record]]
+2. Karavoltsos S, Sakellari A, Sinanoglou VJ, Zoumpoulakis P, Plavsic M, Dassenakis M, et al. (2020). *Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter*. Molecules. [https://doi.org/10.3390/molecules25040861](https://doi.org/10.3390/molecules25040861). Peer-reviewed, A-tier. [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece|Source record]]
+3. Ndung'u K, Hibdon S, and Flegal AR (2004). *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*. Talanta. [https://doi.org/10.1016/j.talanta.2004.02.017](https://doi.org/10.1016/j.talanta.2004.02.017). Peer-reviewed, A-tier. [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Source record]]
+4. Ozbek N, Koca M, and Akman S (2016). *A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry*. Food Analytical Methods. [https://doi.org/10.1007/s12161-016-0421-x](https://doi.org/10.1007/s12161-016-0421-x). Peer-reviewed, A-tier. [[sources/ozbek2016-mip-oes-turkish-vinegars|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -194,15 +205,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
+| [d1b330ea5](https://github.com/paleofoundation/heavymetalindex/commit/d1b330ea5) | 2026-05-16 | major | 4 sources added; contamination-profile values revised; 12 sections added |
 <!-- END: hmi-page-history -->

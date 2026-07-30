@@ -167,15 +167,13 @@ Of the 26 products in Greenpeace's Table 1 cleared for public release at the tim
 - **Audit subagent findings applied (2026-06-01).** Fresh-context Agent subagent audit returned verdict REVISE with two ⚠️ concerns in Check 1 (numerical fidelity), both verified against the PDF and applied: (1) The Modular Phone Cord ivory-color 97.8 µg Pb/g extraction value was misattributed in the first commit to "6-hour saline extraction"; Table 1 footnote 5 actually identifies it as the 6-hour 0.07 N HCl extraction. Corrected. (2) The Gemini phone-cord Table 3 worked-example line previously stated "Stated daily Pb exposure 9.8 µg/day at realistic use"; the source pairs 9.8 µg/day with the 43-strokes/day threshold figure in Table 2 without explicitly labelling 9.8 µg/day as a realistic-use estimate, so the "at realistic use" framing was wiki interpretation. Reframed to report the Table 2 entry without the interpretive label. Checks 2 (slug vocabulary), 3 (speciation and methods), 4 (Part 12 brand firewall, Exception 1 regulatory-event subject), and 5 (Part 2 wiki/HMTc firewall) returned ✅ clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [8cae8bf6e](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf6e) | 2026-06-01 | major | 1 section added |
+| [73ef63145](https://github.com/paleofoundation/heavymetalindex/commit/73ef63145) | 2026-06-01 | minor | Narrative text revised |
+| [8f952cc19](https://github.com/paleofoundation/heavymetalindex/commit/8f952cc19) | 2026-06-01 | major | 11 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

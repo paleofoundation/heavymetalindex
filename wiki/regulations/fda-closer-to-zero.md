@@ -53,16 +53,27 @@ Each per-rule page carries its own jurisdictional comparison for the specific th
 
 - [[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]] — FDA, 2025. Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry (evidence tier A, US government work).
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2025). *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*. U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children). Government guidance, A-tier. [[sources/fda-ctz-Pb-babyfood-2025|Source record]]
+2. U.S. Centers for Disease Control and Prevention (2021). *Blood Lead Reference Value (3.5 µg/dL)*. U.S. Centers for Disease Control and Prevention, National Center for Environmental Health. [www.cdc.gov](https://www.cdc.gov/mmwr/volumes/70/wr/mm7043a4.htm). Government report, A-tier. [[sources/cdc-blood-lead-reference-value|Source record]]
+3. Codex Alimentarius Commission, Codex Committee on Contaminants in Foods (2024). *Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)*. Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission. [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Meetings/CX-735-17/Report/FINAL+REPORT/REP24_CF17e.pdf). Government report, A-tier. [[sources/codex-cccf17-2024|Source record]]
+4. Joint FAO/WHO Expert Committee on Food Additives (2011). *Evaluation of Certain Contaminants in Food: Seventy-second Report of the Joint FAO/WHO Expert Committee on Food Additives (Lead, among others)*. WHO Technical Report Series 959. [www.who.int](https://www.who.int/publications/i/item/9789241209595). Government report, A-tier. [[sources/jecfa-72nd-lead-2010|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [80c3dcdd2](https://github.com/paleofoundation/heavymetalindex/commit/80c3dcdd2) | 2026-05-02 | minor | Narrative text revised |
+| [7c4c20f88](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f88) | 2026-04-25 | minor | Narrative text revised |
+| [fe46127e7](https://github.com/paleofoundation/heavymetalindex/commit/fe46127e7) | 2026-04-25 | major | 4 sources added; narrative text revised |
+| [d17b351b8](https://github.com/paleofoundation/heavymetalindex/commit/d17b351b8) | 2026-04-25 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

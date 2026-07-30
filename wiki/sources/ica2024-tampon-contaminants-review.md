@@ -101,12 +101,13 @@ Microbiome: Not directly addressed. The review mentions vaginal microenvironment
 Identity checks before drafting found no existing `wiki/sources/` hit for raw handle `MFK_paper-21-fda-2025-tampons-systematic-review`, candidate cite keys `ica2024-tampon-contaminants-review` or `fda2024-tampon-contaminants-review`, exact title, or "International Consulting Associates" tampon-review wording. The local filename says `FDA_2025`, but the PDF cover date is `December 5, 2024`, so `year: 2024` is used. No DOI is printed in the report; `doi: null` and `no_doi_assigned: true` are retained. The raw PDF SHA-256 is `80cda8138ffbd37ea159e544d55ffdba9aec603fd5b37d9cf137dc191bb1c548`. Key numbers were checked against the PRISMA/results narrative, Tables 2-5, the Discussion, and Evidence Assessment sections in `/tmp/hmi-fem-013.txt`. Arsenic and mercury values transported from Shearston/Singh are total-element values, not iAs or MeHg; chromium is total Cr, not Cr-VI. Brand firewall is clean: the report explicitly states that brands/manufacturers were generally not disclosed and this page reports no brand-linked values. The `near_duplicates` entries point to primary/companion sources already represented in the wiki; they are not true duplicate source pages. `npm run evidence:source-routes` exited 0 and generated one `menstrual-tampons` product route; `routing_malformed.csv` contains an advisory-only missing-ingredients warning.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [c558e1774](https://github.com/paleofoundation/heavymetalindex/commit/c558e1774) | 2026-06-09 | ingest: ica2024-tampon-contaminants-review fresh from MFK/June 8 Kimi_Agent_Feminine Care Heavy Metal Papers |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [c558e1774](https://github.com/paleofoundation/heavymetalindex/commit/c558e1774) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

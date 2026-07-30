@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cocoa-beverage-mixes",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "55960348a63bc1725c7ad3bc28dd2954c1fc13f7c44ebaa4ca88f8d616c71521",
-      "content_bytes": 1133,
-      "last_commit_sha": "45ecb2e7e",
-      "last_commit_date": "2026-06-10",
+      "content_sha256": "bdedeab3851342220bb49f5b8a21cc703ff9687c927d17f480b2d7cc31072e20",
+      "content_bytes": 1312,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 45ecb2e7e:wiki/products/cocoa-beverage-mixes.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/cocoa-beverage-mixes.md | sha256sum"
     }
   },
   "evidence_base": {

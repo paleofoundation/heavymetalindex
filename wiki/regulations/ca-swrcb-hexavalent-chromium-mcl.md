@@ -62,13 +62,22 @@ The federal Safe Drinking Water Act has no hexavalent-chromium-specific MCL; the
 
 - [[sources/swrcb-hexavalent-chromium-mcl-2024|SWRCB Cr-VI MCL]] — California State Water Resources Control Board, Division of Drinking Water. Hexavalent Chromium MCL Regulation (SWRCB-DDW-21-003), effective October 1, 2024.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. California State Water Resources Control Board, Division of Drinking Water (2024). *California Hexavalent Chromium Drinking-Water Maximum Contaminant Level Regulation (SWRCB-DDW-21-003)*. California State Water Resources Control Board. [www.waterboards.ca.gov](https://www.waterboards.ca.gov/drinking_water/certlic/drinkingwater/SWRCBDDW-21-003_hexavalent_chromium.html). Regulation, A-tier. [[sources/swrcb-hexavalent-chromium-mcl-2024|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [25c92d7ad](https://github.com/paleofoundation/heavymetalindex/commit/25c92d7ad) | 2026-06-22 | ingest(regulations): cite-grade CA Cr-VI drinking-water MCL + Prop 65 pages; wire into Cr-VI metal page |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [25c92d7ad](https://github.com/paleofoundation/heavymetalindex/commit/25c92d7ad) | 2026-06-22 | major | 1 source added; contamination-profile values revised; 7 sections added |
 <!-- END: hmi-page-history -->

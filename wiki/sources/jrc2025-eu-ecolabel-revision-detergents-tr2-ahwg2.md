@@ -250,15 +250,15 @@ Industrial and Institutional product groups (IILD and IIDD) are covered by the s
 - Audit subagent (2026-06-03) returned PROMOTE with two ⚠️ concerns and no ❌ definite-error findings. (1) Body text and Wiki-pages-this-source-may-touch / missing-slug lists previously used the OJ-published Decision numbering (2017/1214-1219) which is correct in fact but is not literally on the slide; the slide shows the internal C-numbers C(2017)4227, 4228, 4240, 4241, 4243, 4245 with the OJ L 180, 12.7.2017 page-ranges. Per the Part 2 external-context-fencing precedent established on [[sources/ral2024-eu-ecolabel-factsheet-household-detergents]], applied 2026-06-03: body paragraph 1 rewritten to name the deck's C-numbers with the OJ citation as primary identifiers and the OJ-published 2017/NNNN Decision numbering moved off the page entirely (since they are external programme context, not stated on the deck); the missing-slug bullet rewritten to label the 2017/NNNN numbers as "external programme records, not stated on the deck". (2) The deck's "Validity expiry date 31/06/26" is a non-canonical date string (June has 30 days); page now reproduces the slide string verbatim with a parenthetical canonical reading ("30 June 2026"). Other audit checks (numerical fidelity for phosphorus tables, VOC tables, hazard-derogation Table 3 including TiO2, criterion (a)(i) Excluded list, impurity-clause deletion; slug vocabulary; speciation and methods; brand firewall; wiki/HMTc firewall) were ✅ clean and required no changes.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [7fa563492](https://github.com/paleofoundation/heavymetalindex/commit/7fa563492) | 2026-06-03 | major | 1 source added; narrative text revised |
+| [0d10c1a4e](https://github.com/paleofoundation/heavymetalindex/commit/0d10c1a4e) | 2026-06-03 | major | 2 sources added; 14 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

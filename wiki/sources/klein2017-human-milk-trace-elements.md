@@ -79,15 +79,13 @@ The same DOI was fetched under both the Cd and the Pb human-milk gaps; this page
 Audit applied 2026-06-09 (autonomous fresh-context audit, REVISE verdict): added Table 2 per-population means/SDs/ranges for Pb and tAs; added Table 3 pairwise significance summary; documented Cd-below-LOD exclusion and added Cd to `metals` as a measured-below-LOD signal; added WHO Pb (2–5 µg/L) and EPA/WHO As (0.01 mg/L) regulatory anchors as the source itself reports them; added the Namibia otjize cosmetic-contamination caveat from the Discussion; expanded Methods with ICP-MS instrument (Perkin Elmer ELAN DRC II), digestion (Milestone Ultrawave + BDH Aristar Ultra nitric acid), lab (Harvard School of Public Health Trace Metals Lab), and statistical pipeline (R 3.3.0, Box-Cox / log transforms, Holm correction); dropped the non-existent `ingredients/human-milk` slug from `ingredients` and the "Wiki pages this source may touch" list; dropped `products: ["[[products/infant-food-general]]"]` because this is a human-milk exposure paper, not an infant-food paper; replaced the HMTc-flavored "Certification / Courses / App" implications stub with a literature-faithful summary; restored the arsenic half of the source's "lead but not arsenic was low" comparison.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [c396e0393](https://github.com/paleofoundation/heavymetalindex/commit/c396e0393) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c396e0393](https://github.com/paleofoundation/heavymetalindex/commit/c396e0393) | 2026-06-09 | major | 1 section added and 1 removed; narrative text revised |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [0edf3ce78](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce78) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

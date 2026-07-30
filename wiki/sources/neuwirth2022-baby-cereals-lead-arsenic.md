@@ -68,15 +68,15 @@ The paper contributes no primary concentration data for HMTc threshold-setting. 
 - [[products/fruit-juices-non-apple]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
-| [82a8a97e0](https://github.com/paleofoundation/heavymetalindex/commit/82a8a97e0) | 2026-06-09 | audit: neuwirth2022-baby-cereals-lead-arsenic [revised] per autonomous audit |
-| [719327c34](https://github.com/paleofoundation/heavymetalindex/commit/719327c34) | 2026-06-09 | ingest: neuwirth2022-baby-cereals-lead-arsenic [enhanced] from Manual Fetch Discovery/MFD_neuwirth2022-lead-arsenic-baby-foods-fda |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | Narrative text revised |
+| [82a8a97e0](https://github.com/paleofoundation/heavymetalindex/commit/82a8a97e0) | 2026-06-09 | minor | Narrative text revised |
+| [719327c34](https://github.com/paleofoundation/heavymetalindex/commit/719327c34) | 2026-06-09 | major | 3 sections added and 1 removed; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [1e477bf45](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf45) | 2026-05-12 | major | 3 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

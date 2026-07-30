@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `43f4b5e53` (2026-06-15). The body hashes to `sha256:19c45fb1cf804cae90ceaea718626d96…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:8ecaabe7eb3e79c53f21562aafb48c18…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fish-containing-baby-foods&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fish-containing-baby-foods&download=1`.
 
 ## Evidence base
 
-This category is supported by 15 contributing literature sources mapped by the routing layer, of which 3 carry structured concentration values. The page makes 53 numerical claims; 53 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 17 contributing literature sources mapped by the routing layer, of which 3 carry structured concentration values. The page makes 53 numerical claims; 53 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/fish-containing-baby-foods.md`.
 

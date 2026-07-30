@@ -106,14 +106,14 @@ The paper's Sampling section lists 22 commercial brand names by name while the s
 Audit subagent (2026-06-07) flagged `products/tea` as absent from the taxonomy snapshot; verified independently against docs/gpt-collaboration/taxonomy-snapshot.md line 45 — finding was a false positive because the `tea` product slug is present in the snapshot's Products line alongside `tea-infusions` and `true-tea-camellia-sinensis`. No frontmatter change applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [5dce0bd6e](https://github.com/paleofoundation/heavymetalindex/commit/5dce0bd6e) | 2026-06-07 | audit: jannat2018-iran-tea-heavy-metals revised |
-| [175d29704](https://github.com/paleofoundation/heavymetalindex/commit/175d29704) | 2026-06-07 | ingest: jannat2018-iran-tea-heavy-metals fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [5dce0bd6e](https://github.com/paleofoundation/heavymetalindex/commit/5dce0bd6e) | 2026-06-07 | minor | Narrative text revised |
+| [175d29704](https://github.com/paleofoundation/heavymetalindex/commit/175d29704) | 2026-06-07 | major | 11 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

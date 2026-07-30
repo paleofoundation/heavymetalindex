@@ -121,15 +121,13 @@ The Codex Stan 193-1995 raw-milk Pb maximum residue level cited by the authors (
 Audit subagent (general-purpose, fresh context, 2026-05-30) flagged the Mn parenthetical in Key numbers as garbled — "Mn 0.156 (yak) to 0.256 µg/g (yak; cow 0.187, goat 0.156, ...)" was internally inconsistent. Verified against Table 4: lowest Mn is goat (0.156 µg/g), highest is yak (0.256 µg/g). Corrected to "Mn 0.156 (goat) to 0.256 µg/g (yak; cow 0.187, buffalo 0.169, camel 0.188)." Audit also raised a concern that the milk-species matrices (cow-milk, goat-milk, buffalo-milk, yak-milk, camel-milk, raw-milk) might need to be flagged as proposed additions to the closed matrices vocabulary — verified against current usage: cow-milk is established in akhmetsadykova2013, camel-milk and raw-milk in yazdanian2025; these are existing matrix slugs in active use, not proposed additions. Finding rejected as false positive.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [5a4f6bdd6](https://github.com/paleofoundation/heavymetalindex/commit/5a4f6bdd6) | 2026-05-30 | minor | Narrative text revised |
+| [f1502f2ad](https://github.com/paleofoundation/heavymetalindex/commit/f1502f2ad) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

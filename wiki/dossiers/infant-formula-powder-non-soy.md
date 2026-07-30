@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `43f4b5e53` (2026-06-15). The body hashes to `sha256:f4a87de768fb095b612043bcf144ae14…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:541bfe2ec946751067a5c7db6636d4ad…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=infant-formula-powder-non-soy&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/infant-formula-powder-non-soy&download=1`.
 
 ## Evidence base
 
-This category is supported by 97 contributing literature sources mapped by the routing layer, of which 12 carry structured concentration values. The page makes 116 numerical claims; 116 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 117 contributing literature sources mapped by the routing layer, of which 12 carry structured concentration values. The page makes 116 numerical claims; 116 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/infant-formula-powder-non-soy.md`.
 

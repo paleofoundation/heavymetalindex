@@ -174,15 +174,13 @@ This EFSA CONTAM Panel opinion is the European Union's primary risk assessment f
 - Part 12 method-vendor exception preserved: the methods narrative records standardised method codes (ISO 8288:1986, EN ISO 15586:2004, EN ISO 11885:2009, EN ISO 17294-1:2004, EN ISO 17294-2:2003, ISO 8294:1994), the PROAST software identity, the proficiency-test scheme names (FAPAS, Bipea), and Tukey's outlier method — all method/instrument identifiers, not contamination-value attributions, and therefore exempt from Part 12 stripping.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [e2716e1d0](https://github.com/paleofoundation/heavymetalindex/commit/e2716e1d0) | 2026-05-28 | major | 3 sections added and 2 removed; narrative text revised |
+| [99e9ccb8e](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb8e) | 2026-05-14 | major | 1 source added; 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

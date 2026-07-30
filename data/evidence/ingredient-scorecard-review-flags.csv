@@ -124,7 +124,7 @@ celery,D4,driver-citation,confirm prose cites a source for each driver
 celery,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 cereals,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 cereals,D4,driver-citation,confirm prose cites a source for each driver
-cereals,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, Cd, Pb, iAs, tHg, MeHg, Tl, DMA, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Se, Zn, U, Mn, Si, Ba, I, Fe, Cr-VI, Cr-III, Cr-total, MMA, Mo, Ag, B, Sr"
+cereals,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, Cd, Pb, iAs, tHg, MeHg, Tl, DMA, As, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Se, Zn, U, Mn, Si, Ba, I, Fe, Cr-VI, Cr-III, Cr-total, MMA, Mo, Ag, B, Sr"
 cereals,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 chapattis,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 chapattis,D4,driver-citation,confirm prose cites a source for each driver
@@ -245,7 +245,7 @@ fresh-herbs,D4,driver-citation,confirm prose cites a source for each driver
 fresh-herbs,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 freshwater-fish,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 freshwater-fish,D4,driver-citation,confirm prose cites a source for each driver
-freshwater-fish,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Cd, tHg, MeHg, Pb, Tl, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Se, Zn, Mn, I, Fe, U"
+freshwater-fish,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Cd, tHg, MeHg, Pb, Tl, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Se, Zn, Mn, I, Fe, U, As, Mo"
 freshwater-fish,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 fromage-frais,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 fromage-frais,D4,driver-citation,confirm prose cites a source for each driver
@@ -265,7 +265,7 @@ fruit-purees,D4,driver-citation,confirm prose cites a source for each driver
 fruit-purees,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 fruit,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 fruit,D4,driver-citation,confirm prose cites a source for each driver
-fruit,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Cr-VI, Al, Sb, Cr, Cu, Mn, Ni, Se, Sn, Zn, U, Cr-total, Co, Fe, Mg, Mo, V, Ag, Li, Ba, Be, Hg"
+fruit,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Cr-VI, Al, Cu, Zn, Ni, Sb, Cr, Mn, Se, Sn, U, As, Mo, Cr-total, Co, Fe, Mg, V, Ag, Li, Ba, Be, Hg"
 fruit,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 grape-juice,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 grape-juice,D4,driver-citation,confirm prose cites a source for each driver
@@ -314,14 +314,14 @@ iceberg-lettuce,D4,driver-citation,confirm prose cites a source for each driver
 iceberg-lettuce,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 infant-cereal-ingredients,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 infant-cereal-ingredients,D4,driver-citation,confirm prose cites a source for each driver
-infant-cereal-ingredients,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Se, Zn, U, Mn, Si, Ba, I, Fe, Cr-VI, Cr-III, Cr-total, MMA, DMA, Ag, B, Sr, Mo"
+infant-cereal-ingredients,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, As, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Se, Zn, U, Mn, Si, Ba, I, Fe, Cr-VI, Cr-III, Cr-total, MMA, DMA, Ag, B, Sr, Mo"
 infant-cereal-ingredients,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 infant-formula-concentrated-liquid,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 infant-formula-concentrated-liquid,D4,driver-citation,confirm prose cites a source for each driver
 infant-formula-concentrated-liquid,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 infant-formula-ingredients,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 infant-formula-ingredients,D4,driver-citation,confirm prose cites a source for each driver
-infant-formula-ingredients,D6,missing-metal-species,"routing flags missing species in bridged products: Ni, Pb, Cd, Fe, Zn, Cu, tAs, Al, Cr, Mn, Sn, iAs, tHg, MeHg, Tl, MMA, DMA, Sb, Co, V, Se, Si, Ba, As, iHg, Li, Mg, Ti, Mo, Hg, Cr-VI, Cr-III, Cr-total, U, Ca, Sr, I"
+infant-formula-ingredients,D6,missing-metal-species,"routing flags missing species in bridged products: Pb, Cd, tAs, Cr, Ni, Fe, Zn, Cu, iAs, DMA, MMA, Al, U, Mn, Sn, MeHg, tHg, Tl, Sb, Co, V, Se, Si, Ba, As, iHg, Li, Mg, Ti, Mo, Hg, Cr-VI, Cr-III, Cr-total, Ca, Sr, I"
 infant-formula-ingredients,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 infant-formula-ingredients,balance,dose-anchor,child-consumed ingredient lacks a quantified dose/frequency anchor
 infant-formula-powder,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
@@ -362,7 +362,7 @@ mango-juice,D4,driver-citation,confirm prose cites a source for each driver
 mango-juice,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 mango,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 mango,D4,driver-citation,confirm prose cites a source for each driver
-mango,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Cr-VI, Al, Sb, Cr, Cu, Mn, Ni, Se, Sn, Zn, U, Cr-total, Co, Fe"
+mango,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Cr-VI, Al, Cu, Zn, Ni, Sb, Cr, Mn, Se, Sn, U, As, Mo, Cr-total, Co, Fe"
 mango,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 margarine,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 margarine,D4,driver-citation,confirm prose cites a source for each driver
@@ -378,7 +378,7 @@ meat-and-poultry-purees,D4,driver-citation,confirm prose cites a source for each
 meat-and-poultry-purees,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 meat-and-poultry,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 meat-and-poultry,D4,driver-citation,confirm prose cites a source for each driver
-meat-and-poultry,D6,missing-metal-species,"routing flags missing species in bridged products: Al, Sb, tAs, Cd, Cr, Co, Ni, Sn, V, Pb, tHg, iAs, Cu, I, Fe, Mn, Se, Zn, U, Cr-total, Cr-VI, Cr-III, MeHg, Tl, As"
+meat-and-poultry,D6,missing-metal-species,"routing flags missing species in bridged products: Al, Sb, tAs, Cd, Cr, Co, Ni, Sn, V, Pb, tHg, iAs, Cu, I, Fe, Mn, Se, Zn, U, As, Mo, Tl, Cr-total, Cr-VI, Cr-III, MeHg"
 meat-and-poultry,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 meat,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 meat,D4,driver-citation,confirm prose cites a source for each driver
@@ -388,7 +388,7 @@ melon,D4,driver-citation,confirm prose cites a source for each driver
 melon,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 milk-and-dairy,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 milk-and-dairy,D4,driver-citation,confirm prose cites a source for each driver
-milk-and-dairy,D6,missing-metal-species,"routing flags missing species in bridged products: Ni, Pb, Cd, Fe, Zn, Cu, tAs, Al, Cr, Mn, Sn, iAs, tHg, MeHg, Tl, MMA, DMA, Sb, Co, V, Se, Si, Ba, As, iHg, Li, Mg, Ti, Mo, Hg, Cr-VI, Cr-III, Cr-total, U, Ca, Sr"
+milk-and-dairy,D6,missing-metal-species,"routing flags missing species in bridged products: Pb, Cd, tAs, Cr, Ni, Fe, Zn, Cu, iAs, DMA, MMA, Al, U, Mn, Sn, MeHg, tHg, Tl, Sb, Co, V, Se, Si, Ba, As, iHg, Li, Mg, Ti, Mo, Hg, Cr-VI, Cr-III, Cr-total, Ca, Sr"
 milk-and-dairy,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 mixed-meals,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 mixed-meals,D4,driver-citation,confirm prose cites a source for each driver
@@ -536,7 +536,7 @@ rice-puffs,D4,driver-citation,confirm prose cites a source for each driver
 rice-puffs,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 rice,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 rice,D4,driver-citation,confirm prose cites a source for each driver
-rice,D6,missing-metal-species,"routing flags missing species in bridged products: iAs, tAs, Cd"
+rice,D6,missing-metal-species,"routing flags missing species in bridged products: iAs, tAs, tHg, MeHg, Cd"
 rice,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 root-vegetable-purees,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 root-vegetable-purees,D4,driver-citation,confirm prose cites a source for each driver
@@ -579,7 +579,7 @@ soy-protein-isolate,D4,driver-citation,confirm prose cites a source for each dri
 soy-protein-isolate,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 soy,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 soy,D4,driver-citation,confirm prose cites a source for each driver
-soy,D6,missing-metal-species,"routing flags missing species in bridged products: Pb, Cu, tAs, Cd, Al, Cr, Mn, Ni, Sn, Zn, iAs, tHg, MeHg, Tl, Sb, Co, V, Se, Fe, iHg, Li, Mg, Ti, Ba, Mo, As, Hg, MMA, DMA, U, Ca, Sr, I"
+soy,D6,missing-metal-species,"routing flags missing species in bridged products: Pb, Cu, tAs, Cd, Al, Cr, Mn, Ni, Sn, Zn, MeHg, tHg, iAs, Tl, Sb, Co, V, Se, Fe, iHg, Li, Mg, Ti, Ba, Mo, As, Hg, MMA, DMA, U, Ca, Sr, I"
 soy,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 soybean-oil,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 soybean-oil,D4,driver-citation,confirm prose cites a source for each driver
@@ -647,7 +647,7 @@ vegetable-purees,D4,driver-citation,confirm prose cites a source for each driver
 vegetable-purees,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 vegetables,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 vegetables,D4,driver-citation,confirm prose cites a source for each driver
-vegetables,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Mn, Se, Zn, I, Fe, Cr-total, Cr-VI, Cr-III, As"
+vegetables,D6,missing-metal-species,"routing flags missing species in bridged products: tAs, iAs, Pb, Cd, tHg, MeHg, Tl, Al, Sb, Cr, Co, Ni, Sn, V, Cu, Zn, Mn, Se, I, Fe, Cr-total, Cr-VI, Cr-III, As"
 vegetables,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 vinegar,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 vinegar,D4,driver-citation,confirm prose cites a source for each driver
@@ -731,7 +731,6 @@ apple-juice,data-hygiene,missing-bridge,missing-bridge: U has no bridged product
 apple,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 apple,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
-apple,data-hygiene,missing-bridge,missing-bridge: iAs has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence

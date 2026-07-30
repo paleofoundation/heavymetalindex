@@ -33,6 +33,14 @@ updated: 2026-06-08
 
 The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Pankavec S, Hanć A, Barałkiewicz D, Dryżałowska A, Zhang J, and Falandysz J (2019). *Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences*. Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene). [https://doi.org/10.32394/rpzh.2019.0051](https://doi.org/10.32394/rpzh.2019.0051). Peer-reviewed, A-tier. [[sources/pankavec2019-pickled-mushrooms-poland-minerals|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -87,15 +95,15 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 No public-record recall or enforcement action specific to canned or pickled white button mushrooms has been routed to this page from the current corpus. The single contributing surveillance study reported that all 10 sampled batches sat well below the EU maximum levels for cultivated Agaricus bisporus under Commission Regulation (EC) No 629/2008 amending [[regulations/eu-1881-2006-contaminants-superseded]], which set 0.30 mg/kg fresh weight for Pb and 0.20 mg/kg fresh weight for Cd (roughly 3.0 and 2.0 mg/kg dry mass under a 90% moisture assumption); overall medians in the conserved product were 0.072 and 0.040 mg/kg dm respectively per [[sources/pankavec2019-pickled-mushrooms-poland-minerals]] n=100. The 2016 sampling pre-dates the consolidation of EU contaminants limits into Commission Regulation (EU) 2023/915, which now governs this product class in the EU but maintains the same cultivated-Agaricus thresholds. This section will be repopulated as additional sources route here or as the synthesis pass surfaces enforcement actions from FDA, USDA FSIS, EU RASFF, or comparable agency feeds. Per Part 12, any future entries will be framed as regulatory events rather than brand rankings.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [c794d6b50](https://github.com/paleofoundation/heavymetalindex/commit/c794d6b50) | 2026-06-08 | reorg(taxonomy-v2.1): stand up cats 24/25/26 + mushrooms/jewelry rows |
-| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c794d6b50](https://github.com/paleofoundation/heavymetalindex/commit/c794d6b50) | 2026-06-08 | minor | Narrative text revised |
+| [2fd42c4f1](https://github.com/paleofoundation/heavymetalindex/commit/2fd42c4f1) | 2026-05-29 | major | 1 source added; narrative text revised |
+| [ce3e07c7b](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c7b) | 2026-05-28 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [db754c18b](https://github.com/paleofoundation/heavymetalindex/commit/db754c18b) | 2026-05-28 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

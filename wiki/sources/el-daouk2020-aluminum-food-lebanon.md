@@ -222,14 +222,14 @@ None of the gender, age-group, or region differences reached p < 0.05; reported 
 - 2026-06-08 — Paper-internal inconsistency in Methods Section 2.3.1 + Table 1: the text states "Flame Atomic Absorption Spectrometry (FAAS) … Nitrous oxide (N₂O) was used as oxidant gas", but Table 1 (titled "FAAS operating parameters for the determination of Al, Shimadzu cookbook") lists an eight-step temperature program ramping from 60 °C to 2600 °C with internal N₂ flow 0.10–1.00 L/min — a graphite-furnace AAS (GFAAS) atomizer program, not a flame AAS instrument profile (which does not have a programmable temperature ramp). The Shimadzu AA-6800 supports both flame and graphite-furnace modes, but the table parameters describe the GFAAS pathway while the text describes a flame N₂O-acetylene Al determination. The recovery, LOD, LOQ, and accuracy values reported in Section 2.3.3 are consistent with FAAS-Al performance; we reproduce both descriptions as printed and note the inconsistency here rather than silently picking one. Not a stop condition: the analytical results stand on their reported recovery/LOD/precision against CRM regardless of which atomization pathway was used.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [246411edf](https://github.com/paleofoundation/heavymetalindex/commit/246411edf) | 2026-06-08 | audit: el-daouk2020-aluminum-food-lebanon revised |
-| [234c2cf71](https://github.com/paleofoundation/heavymetalindex/commit/234c2cf71) | 2026-06-08 | ingest: el-daouk2020-aluminum-food-lebanon fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [246411edf](https://github.com/paleofoundation/heavymetalindex/commit/246411edf) | 2026-06-08 | minor | Narrative text revised |
+| [234c2cf71](https://github.com/paleofoundation/heavymetalindex/commit/234c2cf71) | 2026-06-08 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

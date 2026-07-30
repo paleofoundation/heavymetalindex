@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-containing-baby-foods.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 07092b65ae9827e0f94b05b5a4124160a6eea47d80a89acf62e289c87fa1d61e
+source_page_sha256: 70b50f879a8c1f6dfc1bbee0519ac961c5bc310bbdd261a2629e0c87e6673aae
 total_claims: 53
 cited_claims: 53
 uncited_claims: 0
-distinct_cited_targets: 26
-distinct_cited_sources: 20
+distinct_cited_targets: 28
+distinct_cited_sources: 22
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 50
-audit_log_total_rows: 2419
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 53 |
 | cited claims | 53 |
 | uncited claims | 0 |
-| distinct cited targets | 26 |
-| distinct cited `sources/` pages | 20 |
+| distinct cited targets | 28 |
+| distinct cited `sources/` pages | 22 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 50 |
-| audit log rows read | 2419 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 
@@ -644,7 +644,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.008 mg/kg`
 - Context: `Hg detection rates and medians; fish mixes had the highest reported Pb median (0.008 mg/kg) among all baby-food categor`
-- Cited targets (15):
+- Cited targets (17):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
@@ -663,6 +663,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
@@ -672,13 +674,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/silva2022-total-mercury-baby-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `20.15 µg/kg`
 - Context: `h ready-to-eat baby foods; fish dinner subcategory had highest reported Cd (max 20.15 µg/kg) among product groups tested`
-- Cited targets (15):
+- Cited targets (17):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
@@ -697,6 +701,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
@@ -706,13 +712,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/silva2022-total-mercury-baby-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `1.0 µg/g`
 - Context: `a (1969–2014); 30% exceed EPA Fish Tissue Residue Criterion and 3.9% exceed FDA 1.0 µg/g action level, anchoring upstrea`
-- Cited targets (15):
+- Cited targets (17):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
@@ -731,6 +739,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
@@ -740,6 +750,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/silva2022-total-mercury-baby-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
@@ -770,6 +782,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |
 | `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` | sources | 0 | — | — |
 | `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` | sources | 0 | — | — |
 | `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md` | sources | 0 | — | — |
 | `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` | sources | 0 | — | — |
@@ -777,5 +790,6 @@ _All claims trace to at least one cited source._
 | `wiki/sources/silva2022-total-mercury-baby-food\.md` | sources | 0 | — | — |
 | `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md` | sources | 1 | 2026-05-30 | 2026-05-30 |
 | `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` | sources | 0 | — | — |
+| `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet\.md` | sources | 0 | — | — |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` | sources | 0 | — | — |
 

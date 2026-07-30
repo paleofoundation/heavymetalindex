@@ -288,15 +288,12 @@ The report explicitly states (Section 4.4.2): "the results of the quantitative a
 - **Near-duplicates.** None identified in the corpus. The sibling toys-surveillance sources `bfr2009-lead-cadmium-toys` (BfR opinion on Pb/Cd in toys), `fowles2021-lead-toys` (Pb in toys), `cpsc1997-pvc-children-products` (US CPSC on PVC children's products), `johnson2012-cpsc-astm-f963-status` (US CPSC/ASTM F963 status), and `seifi2026-iran-toys-pb-cr-hg` (Iranian-market toy survey) address adjacent questions from different regulatory or national frames and do not duplicate this report's Danish-EPA + RAPEX-EU surveillance dataset or its DMTC primary measurement.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [8cae8bf6e](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf6e) | 2026-06-01 | major | 1 section added |
+| [3ce3e20d2](https://github.com/paleofoundation/heavymetalindex/commit/3ce3e20d2) | 2026-06-01 | major | 13 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

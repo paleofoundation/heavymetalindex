@@ -109,13 +109,13 @@ Third, it documents the CPSC staff position — based on EWS surveillance from N
 - **Audit verdict**: REVISE. Two findings (one ❌, one ⚠️) both verified correct against the source and applied. Checks 2, 4, 5 returned ✅ clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ec89b27a](https://github.com/paleofoundation/heavymetalindex/commit/1ec89b27a) | 2026-06-09 | audit: cpsc2010-cribs-104-standard-npr revised |
-| [af854f280](https://github.com/paleofoundation/heavymetalindex/commit/af854f280) | 2026-06-09 | ingest: cpsc2010-cribs-104-standard-npr fresh from MFK/June 8/Cribs_Bassinets_Enclosures |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [1ec89b27a](https://github.com/paleofoundation/heavymetalindex/commit/1ec89b27a) | 2026-06-09 | minor | Narrative text revised |
+| [af854f280](https://github.com/paleofoundation/heavymetalindex/commit/af854f280) | 2026-06-09 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

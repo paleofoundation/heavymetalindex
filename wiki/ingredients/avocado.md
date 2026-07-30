@@ -227,6 +227,20 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 In the European Union, Regulation (EU) 2023/915 applies the fresh fruit maximum levels to avocado: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg (50 ppb), both wet weight as placed on the market ([[regulations/eu2023-contaminants-maximum-levels]]). No specific EU ML for Ni in fresh avocado exists; Ni is not currently regulated by ML in EU food contaminant legislation for this matrix. In the United States, no FDA action level for Pb, Cd, or Ni in fresh or processed avocado exists under the current Closer to Zero framework ([[regulations/fda-closer-to-zero]]). No Codex Alimentarius ML for heavy metals in avocado appears in the current corpus. For processed avocado products in infant food pouches, the applicable limits would derive from the product category, and the FDA Closer to Zero action levels for processed foods consumed by babies and young children may apply when finalized; those action levels are evolving and should be checked against the [[regulations/fda-closer-to-zero]] page for current status.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 7 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
+2. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+3. Yoplac-Navarro M, Grandez-Yoplac DE, Rituay P, Campos Trigoso JA, García L, Arellanos E, et al. (2026). *Ecological and Human Health Risk Assessment of Metals in Peruvian Avocados Using a Probabilistic Approach*. Foods 15(1): 82. [https://doi.org/10.3390/foods15010082](https://doi.org/10.3390/foods15010082). Peer-reviewed, A-tier. [[sources/yoplac2026-peruvian-avocado-metals-health-risk|Source record]]
+4. Anastario M, Watkins D, Specht AJ, Zilch A, Armendáriz Arnez C, and Roper C (2025). *Metal profiling of Hass avocados: a cross-sectional study using ICP-MS and pXRF*. BMC Research Notes. [https://doi.org/10.1186/s13104-025-07430-w](https://doi.org/10.1186/s13104-025-07430-w). Peer-reviewed, A-tier. [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf|Source record]]
+5. Imongben CO, Tomori WB, Umoru PE, and Oyerinde WA (2026). *Determination of some heavy metals and their potential risk in selected vegetables on sale within Kaduna Metropolis, Kaduna State, Nigeria*. World Nutrition. [https://doi.org/10.26596/wn.20261718-18](https://doi.org/10.26596/wn.20261718-18). Peer-reviewed, B-tier. [[sources/imongben2026-kaduna-vegetables-hra|Source record]]
+6. Tsegay ZT, Smaoui S, and Varzakas T (2025). *Toxicological qualities and detoxification trends of fruit by-products for valorization: A review*. Open Life Sciences 20:20251105. [https://doi.org/10.1515/biol-2025-1105](https://doi.org/10.1515/biol-2025-1105). Peer-reviewed, B-tier. [[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review|Source record]]
+7. Munir N, Jahangeer M, Bouyahya A, El Omari N, Ghchime R, Balahbib A, et al. (2022). *Heavy Metal Contamination of Natural Foods Is a Serious Health Issue: A Review*. Sustainability. [https://doi.org/10.3390/su14010161](https://doi.org/10.3390/su14010161). Review, B-tier. [[sources/munir2022-heavy-metals-natural-foods-review|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -243,15 +257,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 4 (final) — 21 pages / 42 cells; backlog now ZERO |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | correction | 5 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

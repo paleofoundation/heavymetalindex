@@ -95,15 +95,13 @@ Surveillance review of secondary regulatory data. The CDC Childhood Lead Poisoni
 - **Audit subagent application (2026-06-01).** Fresh-context audit subagent (general-purpose Opus 4.7) returned verdict REVISE with four findings, all verified against the source and applied: (1) Distribution-scope "6%" cross-attribution corrected — the source's "6%" attaches to the lead-solder hazard sentence (p. 3), not to the two non-nationwide products; the Distribution-scope key-numbers bullet now states only the 28/30 (93%) nationwide figure, and the hazard-mechanism bullet retains the "6%" with the unstated-denominator caveat. (2) Table 1 title date discrepancy added to the source-internal-arithmetic verification note — Table 1 caption reads "June 2022 Through May 2023" while body text consistently states June 2022 through April 2024. (3) Certification-implications paragraph softened from prescriptive ("HMTc product-category coverage should at minimum extend to…") to descriptive (the paper documents recalls in CPSC categories that map to these HMTc taxonomy slugs). (4) The "HMTc programmes operating on a faster pre-market certification cadence … provide the missing front-of-pipeline filter" sentence removed — it was wiki-side HMTc advocacy not present in the source. Zero subagent findings were false positives; zero findings rejected. Check 2 (slug vocabulary), Check 3 (speciation/methods), and Check 4 (Part 12 brand firewall) returned clean. Audit-application commit appended after this revision.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [ed60faf2a](https://github.com/paleofoundation/heavymetalindex/commit/ed60faf2a) | 2026-06-01 | minor | Narrative text revised |
+| [24ed99b5e](https://github.com/paleofoundation/heavymetalindex/commit/24ed99b5e) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

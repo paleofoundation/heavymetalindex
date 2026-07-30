@@ -232,6 +232,20 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The European Union applies maximum levels for Pb (0.10 mg/kg, or 100 ppb) and Cd (0.050 mg/kg, or 50 ppb) to fresh fruit under [[regulations/eu2023-contaminants-maximum-levels]]. These limits apply to watermelon as fresh fruit sold in the EU. No FDA action level specific to watermelon or cucurbit fruits is in force. [[regulations/codex-cadmium-mls]] provides the international Codex Cd maximum for vegetables and certain fruits. The observed concentrations in the TDS data are substantially below applicable regulatory limits.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 7 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+2. Sharafati Chaleshtori Reza and Jadi Zahra (2019). *Assessment of Lead and Cadmium Levels in Watermelon and Carrot*. Iranian Journal of Toxicology. [https://doi.org/10.32598/ijt.13.4.585.1](https://doi.org/10.32598/ijt.13.4.585.1). Peer-reviewed, B-tier. [[sources/chaleshtori2019-watermelon-carrot-pb-cd|Source record]]
+3. Magdalene Unaegbu, Vincent C. I. Eze, Ebere C. I. Omeje, Ezinne A. O. Agbo, and Ebere V. Chukwuma (2016). *Heavy metal, nutrient and antioxidant status of selected fruit samples sold in Enugu, Nigeria*. International Journal of Food Contamination. [https://doi.org/10.1186/s40550-016-0031-9](https://doi.org/10.1186/s40550-016-0031-9). Peer-reviewed, A-tier. [[sources/unaegbu2016-fruit-heavy-metals-enugu|Source record]]
+4. Bora FD, Bunea A, Pop SR, Banita SI, Dusa DS, Chira A, et al. (2022). *Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania*. Horticulturae. [https://doi.org/10.3390/horticulturae8111034](https://doi.org/10.3390/horticulturae8111034). Peer-reviewed, A-tier. [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Source record]]
+5. Alassane A. K. Youssao, Magloire A. N. Gbaguidi, Leonce Dovonon, Oriol Baltrons, Fabienne Seby, Mathilde Monperus, et al. (2018). *Levels of Minor and Trace Elements of Some Commercial Fruit Juices and Syrup Produced in Artisanal and Semi-Industrial Units in Benin Republic*. International Journal of Chemistry. [https://doi.org/10.5539/ijc.v10n4p68](https://doi.org/10.5539/ijc.v10n4p68). Peer-reviewed, A-tier. [[sources/youssao2018-fruit-juices-syrup-benin|Source record]]
+6. Tsegay ZT, Smaoui S, and Varzakas T (2025). *Toxicological qualities and detoxification trends of fruit by-products for valorization: A review*. Open Life Sciences 20:20251105. [https://doi.org/10.1515/biol-2025-1105](https://doi.org/10.1515/biol-2025-1105). Peer-reviewed, B-tier. [[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review|Source record]]
+7. Elbagory M, Abd El-Aziz MA, Omara AED, Abou Fayssal S, and Kumar V (2025). *Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin*. Horticulturae. [https://doi.org/10.3390/horticulturae11020216](https://doi.org/10.3390/horticulturae11020216). Peer-reviewed, A-tier. [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -249,15 +263,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [0ae30c7b4](https://github.com/paleofoundation/heavymetalindex/commit/0ae30c7b4) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 3 — 12 produce pages / 51 cells |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [0ae30c7b4](https://github.com/paleofoundation/heavymetalindex/commit/0ae30c7b4) | 2026-06-11 | correction | 6 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

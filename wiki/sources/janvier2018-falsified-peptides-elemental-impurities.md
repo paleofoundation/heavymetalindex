@@ -81,14 +81,14 @@ Elemental impurity analysis used three platforms: an Agilent 8800 triple-quadrup
 - Product slug `research-chemicals-peptides-sarms` exists in `wiki/products/` as of 2026-06-08 but is not in the 2026-05-18 taxonomy snapshot (snapshot is stale). The slug is real; flagging for snapshot refresh, not for slug correction.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [420f11988](https://github.com/paleofoundation/heavymetalindex/commit/420f11988) | 2026-06-08 | audit: janvier2018-falsified-peptides-elemental-impurities revised |
-| [d4b5a7dbb](https://github.com/paleofoundation/heavymetalindex/commit/d4b5a7dbb) | 2026-06-08 | ingest: janvier2018-falsified-peptides-elemental-impurities enhanced from MFK June 8/peptide_contamination_pdfs |
-| [a5451d9da](https://github.com/paleofoundation/heavymetalindex/commit/a5451d9da) | 2026-06-08 | ingest: janvier2018-falsified-peptides-elemental-impurities + close peptide_contamination set (June 8) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [420f11988](https://github.com/paleofoundation/heavymetalindex/commit/420f11988) | 2026-06-08 | minor | Narrative text revised |
+| [d4b5a7dbb](https://github.com/paleofoundation/heavymetalindex/commit/d4b5a7dbb) | 2026-06-08 | major | 1 section added; narrative text revised |
+| [a5451d9da](https://github.com/paleofoundation/heavymetalindex/commit/a5451d9da) | 2026-06-08 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

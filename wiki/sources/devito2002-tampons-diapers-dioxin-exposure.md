@@ -131,12 +131,13 @@ Wiki/HMTc firewall (Part 2) clean: the paper's "dioxin exposure from these produ
 Paper-internal copy-edit slip noted but not propagated: the Results/Diapers paragraph (p. 26) states the diaper dioxin concentration range as `1.6-3.0 pg TEQ/g diaper` while citing Table 1, but Table 1 reports total dioxin mass concentrations of `1.8-3.7 pg/g` (not pg TEQ/g, and not 1.6-3.0). Table 2 separately reports TEQ concentrations of `0.0042-0.023 pg TEQ/g`. The tables themselves are mutually consistent; the textual range conflates Table 1 (total mass) with Table 2 (TEQ) and is off-range for both. This page cites the table values directly and notes the discrepancy in Key numbers. This is a copy-edit slip in the published paper, not a paper-internal data-integrity contradiction that would trigger a stop condition.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [b739a4c1b](https://github.com/paleofoundation/heavymetalindex/commit/b739a4c1b) | 2026-06-09 | ingest: devito2002-tampons-diapers-dioxin-exposure fresh from MFK/June 8 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [b739a4c1b](https://github.com/paleofoundation/heavymetalindex/commit/b739a4c1b) | 2026-06-09 | major | 1 source added; 13 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

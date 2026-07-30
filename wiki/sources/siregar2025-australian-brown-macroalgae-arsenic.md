@@ -85,14 +85,14 @@ Seven dominant brown macroalgae taxa were collected within a <100 m² area at Mo
 - Cross-source note: comparisons to Ronan 2017, Taylor & Jackson 2016, Sim 2023, Huang 2022, Wolle 2021 etc. (the source's Table 1/2 cross-study comparisons) belong to the Part 9 synthesis pass; this page reports only this study's own measurements.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [e45917104](https://github.com/paleofoundation/heavymetalindex/commit/e45917104) | 2026-06-08 | audit: siregar2025-australian-brown-macroalgae-arsenic revised |
-| [6fe667b4f](https://github.com/paleofoundation/heavymetalindex/commit/6fe667b4f) | 2026-06-08 | ingest: siregar2025-australian-brown-macroalgae-arsenic fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [e45917104](https://github.com/paleofoundation/heavymetalindex/commit/e45917104) | 2026-06-08 | minor | Narrative text revised |
+| [6fe667b4f](https://github.com/paleofoundation/heavymetalindex/commit/6fe667b4f) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

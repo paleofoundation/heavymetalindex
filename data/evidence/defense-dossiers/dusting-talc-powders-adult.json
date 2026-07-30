@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/dusting-talc-powders-adult",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "eca542e7ae039d3ac88fe73b25106ecd054b8171158c4800ca7a786a634502a3",
-      "content_bytes": 9042,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "8735ec7091e5c856d21bca7e9732394b9b1fc6d46eb196b6b82b9409401caba2",
+      "content_bytes": 9083,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/dusting-talc-powders-adult.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/dusting-talc-powders-adult.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -39,12 +39,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/gao2020-feminine-hygiene-edcs",
         "content_pin": {
-          "content_sha256": "e50885862e7b6476815f897c6598ab4370b877281cfe5370866921bcbcdd1b12",
-          "content_bytes": 7734,
-          "last_commit_sha": "cdfa4e487",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "119e53c6e66ad1006611d70d83ddb33f9728f35d8d04700c80ca2b8a3c1e96c8",
+          "content_bytes": 7913,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cdfa4e487:wiki/sources/gao2020-feminine-hygiene-edcs.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/gao2020-feminine-hygiene-edcs.md | sha256sum"
         }
       },
       {
@@ -65,12 +65,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "3f3247aeec20ec9d1c8094372243a7a6ea8151fdfabaf533b7c89e9f5183ca6f",
-          "content_bytes": 29044,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "06bb9ea3ba31de6e8742fed8f0f9cba1382451bac3508f3ad0aa7c8c5572d4d6",
+          "content_bytes": 29071,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
         }
       },
       {
@@ -87,12 +87,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/upson2022-menstrual-products-exposure-review",
         "content_pin": {
-          "content_sha256": "76565577f95271ad43d2187d66a62b10672de572e3389d15cae02292b5cb3505",
-          "content_bytes": 8212,
-          "last_commit_sha": "99df3ab10",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "9f0eeb2843ffd2aa2076ca4d6f823f4ce62a8b307b8df8bda017a8bceacb7552",
+          "content_bytes": 8391,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 99df3ab10:wiki/sources/upson2022-menstrual-products-exposure-review.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/upson2022-menstrual-products-exposure-review.md | sha256sum"
         }
       }
     ]

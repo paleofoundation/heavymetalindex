@@ -125,15 +125,14 @@ B-tier industry-style methods review. CC BY 4.0 license. Coverage is restricted 
 - Audit subagent (2026-05-18) flagged the Bi-CNT bullet under Check 1 as having a Cd/Pb LOD attribution transposition (proposed swap to Pb=0.2 / Cd=0.4). Verified against p. 5 of the source: the actual text reads "the detection of Cd²⁺ and Pb²⁺ with LOD of 0.2 and 0.4 µg L⁻¹" — positional matching gives Cd=0.2 / Pb=0.4, which is what the wiki already had. The subagent's specific value-swap finding is a false positive (the subagent appears to have inverted the source's species order in its quoted excerpt). However, the verification surfaced a real but different error: the LOD pair was misattributed to Hwang et al. 2008 when the source actually attributes it to Chamjangali et al. 2015 (the MWCNT/poly/bismuth-modified CNT well-water electrode); the Hwang 2008 reference in the same paragraph reports a separate stream-water Bi-CNT sensor without LOD values. The bullet has been rewritten to correct the citation attribution while leaving the (correct) Cd=0.2 / Pb=0.4 assignment unchanged.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [7bab55052](https://github.com/paleofoundation/heavymetalindex/commit/7bab55052) | 2026-05-18 | minor | Narrative text revised |
+| [63b2fa5df](https://github.com/paleofoundation/heavymetalindex/commit/63b2fa5df) | 2026-05-18 | major | 9 sections added and 6 removed; narrative text revised |
+| [4ff3b02c6](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02c6) | 2026-05-15 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

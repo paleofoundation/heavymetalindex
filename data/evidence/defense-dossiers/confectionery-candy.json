@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/confectionery-candy",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6c67befcc7a7551eacd631c0ddf281aafc20960ba775d9269f13ff857930f4f9",
-      "content_bytes": 1215,
-      "last_commit_sha": "08c8f8330",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "3d69d061762f09115b8d8227d05dfdf06f75c17609b742a7e5fa9824fd6a6094",
+      "content_bytes": 1394,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 08c8f8330:wiki/products/confectionery-candy.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/confectionery-candy.md | sha256sum"
     }
   },
   "evidence_base": {

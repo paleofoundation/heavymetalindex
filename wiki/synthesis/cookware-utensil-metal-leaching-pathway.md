@@ -87,3 +87,25 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Ali Sultan S A, Ahmed Khan F, Wahab A, Fatima B, Khalid H, Bahader A, et al. (2023). *Assessing Leaching of Potentially Hazardous Elements from Cookware during Cooking: A Serious Public Health Concern*. Toxics. [https://doi.org/10.3390/toxics11070640](https://doi.org/10.3390/toxics11070640). Peer-reviewed, A-tier. [[sources/sultan2023-cookware-metal-leaching|Source record]]
+2. Alrajhi I M and Idriss H (2021). *Investigation of metals released from imported cookware collected from a local market in Riyadh, Saudi Arabia*. Revista Internacional de Contaminacion Ambiental. [https://doi.org/10.20937/RICA.53561](https://doi.org/10.20937/RICA.53561). Peer-reviewed, A-tier. [[sources/alrajhi2021-imported-cookware-metal-release|Source record]]
+3. Mahdi M S, Farhan N M, and Mouhamad R S (2024). *Detection of some heavy metals in meat cooked in different utensils*. Samarra Journal of Pure and Applied Science. [https://doi.org/10.54153/sjpas.2024.v6i3(2).870](https://doi.org/10.54153/sjpas.2024.v6i3(2).870). Peer-reviewed, A-tier. [[sources/mahdi2024-meat-cooked-utensils-metals|Source record]]
+4. Abdulrasheed Z A, Adie G U, and Iniaghe P O (2026). *Preliminary assessment of toxic metals in cookware, moulding materials and soils from manufacturing sites in southwest Nigeria, with evaluation of cookware leaching potential*. BMC Chemistry. [https://doi.org/10.1186/s13065-026-01720-5](https://doi.org/10.1186/s13065-026-01720-5). Peer-reviewed, A-tier. [[sources/abdulrasheed2026-nigeria-cookware-metals|Source record]]
+5. Rittirong A and Saenboonruang K (2018). *Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment*. Emirates Journal of Food and Agriculture. [https://doi.org/10.9755/ejfa.2018.v30.i5.1680](https://doi.org/10.9755/ejfa.2018.v30.i5.1680). Peer-reviewed, A-tier. [[sources/rittirong2018-cooked-rice-utensil-metals-thailand|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [030d8b437](https://github.com/paleofoundation/heavymetalindex/commit/030d8b437) | 2026-07-27 | major | 5 sources added; 10 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

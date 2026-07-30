@@ -85,3 +85,25 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Christine J. Benoy, Patricia A. Hooper, and R. Schneider (1971). *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*. Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656. [https://doi.org/10.1016/0015-6264(71)90152-0](https://doi.org/10.1016/0015-6264(71)90152-0). Peer-reviewed, A-tier. [[sources/benoy1971-tin-toxicity-canned-fruit-juices|Source record]]
+2. European Commission Scientific Committee on Food (2002). *Opinion of the Scientific Committee on Food on Acute Risks Posed by Tin in Canned Foods*. European Commission Health and Consumer Protection Directorate-General, SCF/CS/CNTM/OTH/18 Final. [ec.europa.eu](https://ec.europa.eu/food/fs/sc/scf/out110_en.pdf). Government report, A-tier. [[sources/eu-scf-2002-acute-tin-canned-foods|Source record]]
+3. Mania M, Rebeniak M, Chabros E, Orshulyak O, and Postupolski J (2021). *The content of lead, cadmium, arsenic, mercury and tin in fruit and their products based on monitoring studies – exposure assessment*. Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene). [https://doi.org/10.32394/rpzh.2021.0188](https://doi.org/10.32394/rpzh.2021.0188). Peer-reviewed, A-tier. [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Source record]]
+4. Steve Blunden and Tony Wallace (2003). *Tin in canned food: a review and understanding of occurrence and effect*. Food and Chemical Toxicology, Vol. 41, Issue 12, pp. 1651-1662. [https://doi.org/10.1016/S0278-6915(03)00217-5](https://doi.org/10.1016/S0278-6915(03)00217-5). Peer-reviewed, B-tier. [[sources/blunden2003-tin-canned-food-review|Source record]]
+5. Buculei A, Gutt G, Amariei S, Dabija A, and Constantinescu G (2012). *Study regarding the tin and iron migration from metallic cans into foodstuff during storage*. Journal of Agroalimentary Processes and Technologies, 18(4), 299-303. [journal-of-agroalimentary.ro](http://journal-of-agroalimentary.ro). Peer-reviewed, C-tier. [[sources/buculei2012-tin-iron-migration-canned-food-romania|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [030d8b437](https://github.com/paleofoundation/heavymetalindex/commit/030d8b437) | 2026-07-27 | major | 5 sources added; 8 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

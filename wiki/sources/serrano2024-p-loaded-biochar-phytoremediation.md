@@ -69,13 +69,13 @@ App: Context only. The source can inform mitigation explanations but does not es
 - `mitigation/supply-chain-screening` was not included as a touched page: that category covers sourcing-side interventions (geographic risk segmentation, pre-purchase soil testing, incoming-batch screening) on natural-contamination distributions, whereas this paper is bench-scale post-hoc remediation of deliberately spiked soil.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [db983676f](https://github.com/paleofoundation/heavymetalindex/commit/db983676f) | 2026-06-09 | audit: serrano2024-p-loaded-biochar-phytoremediation revised per autonomous audit |
-| [59f08e6d8](https://github.com/paleofoundation/heavymetalindex/commit/59f08e6d8) | 2026-06-09 | ingest auto-fetched 2026-06-09: serrano2024-p-loaded-biochar-phytoremediation |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [db983676f](https://github.com/paleofoundation/heavymetalindex/commit/db983676f) | 2026-06-09 | minor | Narrative text revised |
+| [59f08e6d8](https://github.com/paleofoundation/heavymetalindex/commit/59f08e6d8) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

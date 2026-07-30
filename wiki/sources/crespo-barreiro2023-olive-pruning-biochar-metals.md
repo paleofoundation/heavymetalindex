@@ -117,15 +117,13 @@ Audit subagent (2026-06-02) flagged the BMEC Zn entry `51.31 +/- 51.31` as a pap
 Audit subagent (2026-06-02) also flagged that the `matrices:` entries (`biochar`, `olive-pruning-biochar`, `agricultural-soil-amendment`) are not in the example matrices vocabulary in `docs/gpt-collaboration/system-prompt.md`. Matrices is documented as an open-ended bare-string controlled vocabulary, and these slugs are the most accurate broad-scope descriptors for this agricultural-input source; they are proposed for inclusion if/when the matrices vocabulary is formalized. The `[[supply-chain/soil-to-plant-transfer]]` link in `## Wiki pages this source may touch` is verified to exist at `wiki/supply-chain/soil-to-plant-transfer.md` and is not a missing slug; the audit's concern was triggered by the taxonomy-snapshot.md covering only ingredients/products/metals/regulations.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [4c89e2508](https://github.com/paleofoundation/heavymetalindex/commit/4c89e2508) | 2026-06-02 | minor | Narrative text revised |
+| [6b423a81b](https://github.com/paleofoundation/heavymetalindex/commit/6b423a81b) | 2026-06-02 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

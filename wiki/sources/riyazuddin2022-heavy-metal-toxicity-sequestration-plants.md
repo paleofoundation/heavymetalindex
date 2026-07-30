@@ -175,14 +175,14 @@ This is a narrative review with no declared inclusion/exclusion criteria, no PRI
 - Checks 4 (Part 12 brand firewall) and 5 (Part 2 wiki/HMTc firewall) ✅. Subagent verified that no commercial food/supplement/personal-care brand names appear in the body, that plant species names (Arabidopsis, Brassica juncea, rice, wheat) and cultivar/genotype identifiers (Yan66/Ea52 barley, Milas flax) are not brand attributions, that the Implications section does not propose HMTc thresholds or issue consumer risk advisories, and that the *TaPCS1*-Cd-sensitive rice hedge is faithful to the source rather than wiki-side synthesis. 2 findings flagged, 2 corrections applied, 0 rejected. Audit subagent ID ab86d090ed8a14aad.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c36d38bcb](https://github.com/paleofoundation/heavymetalindex/commit/c36d38bcb) | 2026-06-08 | audit: riyazuddin2022-heavy-metal-toxicity-sequestration-plants revised |
-| [9b3f9fef2](https://github.com/paleofoundation/heavymetalindex/commit/9b3f9fef2) | 2026-06-08 | ingest: riyazuddin2022-heavy-metal-toxicity-sequestration-plants fresh from Manual Fetch Kimi/June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [c36d38bcb](https://github.com/paleofoundation/heavymetalindex/commit/c36d38bcb) | 2026-06-08 | minor | Narrative text revised |
+| [9b3f9fef2](https://github.com/paleofoundation/heavymetalindex/commit/9b3f9fef2) | 2026-06-08 | major | 15 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

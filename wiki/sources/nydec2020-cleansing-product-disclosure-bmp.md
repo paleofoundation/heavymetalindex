@@ -330,15 +330,15 @@ Not applicable. This is a state-agency Best Management Practices guidance docume
 - Audit subagent (2026-06-03, v2 skill general-purpose audit) returned REVISE verdict with four ⚠️ findings, all verified correct and applied: (1) trace-quantity definitions section heading tightened from "(pp. 5–6)" to "(p. 6)" — both intentionally-added and nonfunctional trace definitions live on p. 6 only; (2) fragrance grouping ranges section heading corrected from "Section A.1" to "Section A.3" — the paragraph appears on p. 5 but under Confidential Business Information and Extent of Disclosure (Section A.3), not Posting Parameters (Section A.1 at pp. 1–2); (3) disclosure-level hierarchies section heading corrected from "Section B.2 / B.3 (pp. 8–10)" to "Section B.3 (pp. 9–10)" — Section B.2 covers Product Information HTML structure at pp. 8–9 and B.3 alone covers Extent of Disclosure hierarchies at pp. 9–10, with a parenthetical added to clarify the B.2/B.3 split; (4) Implications bullet on heavy-metal disclosure floors softened: removed the unsourced "15 µg/L = 15 ppb" Pb action-level figure (the BMP does not state Pb-specific or any element-specific MCL value, deferring to the cross-referenced 10 NYCRR Subpart 5-1.52 Tables) and replaced with floor-by-mechanism-not-by-number wording that attributes element-specific numeric values to the source document (Subpart 5-1.52) the BMP cites, rather than asserting them as claims of the BMP itself. Checks 2 (slug vocabulary), 3 (speciation/methods), 4 (Part 12 brand firewall) all returned ✅ clean; Check 5 (Part 2 wiki/HMTc firewall) had one ⚠️ (the same Pb-floor finding as Check 1's #4), now resolved. 0 findings rejected as false positives.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [d99267a2e](https://github.com/paleofoundation/heavymetalindex/commit/d99267a2e) | 2026-06-03 | major | 3 sections added and 3 removed; narrative text revised |
+| [f1b10a165](https://github.com/paleofoundation/heavymetalindex/commit/f1b10a165) | 2026-06-03 | major | 4 sources added; 19 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

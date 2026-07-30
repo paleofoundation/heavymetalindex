@@ -139,6 +139,15 @@ This node is linked from [[products/infant-formula-powder-non-soy]], [[products/
 
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Jackson BP, Taylor VF, Karagas MR, Punshon T, and Cottingham KL (2012). *Arsenic, Organic Foods, and Brown Rice Syrup*. Environmental Health Perspectives. [https://doi.org/10.1289/ehp.1104619](https://doi.org/10.1289/ehp.1104619). Peer-reviewed, A-tier. [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Source record]]
+2. Shelle-Ann M. Burrell and Christopher Exley (2010). *There is (still) too much aluminium in infant formulas*. BMC Pediatrics. [https://doi.org/10.1186/1471-2431-10-63](https://doi.org/10.1186/1471-2431-10-63). Peer-reviewed, A-tier. [[sources/burrell2010-aluminium-in-infant-formulas|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -226,15 +235,15 @@ Powdered formula sold loose in bulk (gray-market imports, repackaged formula) by
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL of 0.5 µg/day applies; converted to a serving-based screen on infant-formula consumption, this yields a very low per-serving threshold reflecting infant body weight and daily formula volume.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [71281e235](https://github.com/paleofoundation/heavymetalindex/commit/71281e235) | 2026-06-11 | fix(corpus): dedup Signes-Pastor 2018 infant-arsenic source pages to one canonical key |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [6f2afad63](https://github.com/paleofoundation/heavymetalindex/commit/6f2afad63) | 2026-05-31 | correction | Contamination-profile values revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [378d999f9](https://github.com/paleofoundation/heavymetalindex/commit/378d999f9) | 2026-05-17 | major | Contamination-profile values revised |
 <!-- END: hmi-page-history -->

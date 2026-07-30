@@ -144,15 +144,13 @@ Limitations OPSS acknowledges: small sample size (9-10 per product group), no an
 - **Audit subagent application (2026-05-17).** Fresh-context audit subagent reviewed against the PDF; verdict REVISE. Findings applied: (a) corrected Table 16e Hg LOQ range in Key numbers from "<0.005-<0.073" to "<0.002-<0.073" (mouthwash LOQ <0.002 was the true minimum, not <0.005); (b) added a flag that the Foundation Hg row in Table 16e (LOQ 0.015, 1 >BVL, max 0.585) is identical to the Sb-Foundation row in Table 16a and contradicts the Section 4.5 chart on p. 37 — the row appears to be a source-side copy-paste error in the OPSS report; (c) completed the semi-quantitative-scan element enumeration to match Appendix 3 (Ba, Co, Cr, Cu, Li, Mo, Ni, Sn, Tl, V, Zr) rather than the truncated list previously written; (d) softened "policy-actionable" to "strongest direct-evidence signal" in Implications to keep the wording in the literature-reporting register rather than the policy register; (e) removed unsupported method-vendor name examples (NRCC, JMP/SAS) from this brand-firewall note since neither is mentioned in the OPSS paper itself. Findings rejected as false positives: the audit flagged four `products:` slugs (eye-makeup, makeup-foundation-powders-blush, sun-suntan-products, mouthwash-oral-rinse) as absent from the 2026-05-17 taxonomy snapshot; verified that all four exist as live pages under `wiki/products/` and the routing audit run on this source resolved all five product targets cleanly (0 unresolved). The taxonomy snapshot is stale relative to the Cat 13 / Cat 20 scaffolding committed earlier on 2026-05-17; the snapshot needs refreshing, not the source page. Net verdict: revised, retained.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [c05da7f23](https://github.com/paleofoundation/heavymetalindex/commit/c05da7f23) | 2026-05-17 | minor | Narrative text revised |
+| [9b86815df](https://github.com/paleofoundation/heavymetalindex/commit/9b86815df) | 2026-05-17 | major | 13 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

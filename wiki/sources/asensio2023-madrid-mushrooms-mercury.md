@@ -79,15 +79,12 @@ App: The source supports a higher concern flag for wild mushrooms than cultivate
 The DOI, title, author, year, publication, sample count, methods, and tables were taken from the PDF article text in the September 2023 Spectroscopy issue. The PDF SHA-256 at ingest was `411d4a46de9f89479989aa65ddbecef3b0d250c36f0e68e747a45dbd59c038aa`. The article byline gives the author as Javier Peinador Asensio; the cite key uses Asensio as the surname token. The article title says "Methyl-Mercury"; the body and method use methylmercury/MeHg. Table III is the source for Cd, Pb, and total Hg summary statistics; Table IV is the source for MeHg values. The source reports total mercury separately from methylmercury and does not support substituting total Hg values for MeHg occurrence.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [49978d6f0](https://github.com/paleofoundation/heavymetalindex/commit/49978d6f0) | 2026-06-08 | audit: asensio2023-madrid-mushrooms-mercury promoted per autonomous audit |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [68051c8de](https://github.com/paleofoundation/heavymetalindex/commit/68051c8de) | 2026-06-04 | ingest auto-fetched 2026-06-04: asensio2023-madrid-mushrooms-mercury |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [68051c8de](https://github.com/paleofoundation/heavymetalindex/commit/68051c8de) | 2026-06-04 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -22,16 +22,16 @@
     "canonical_url": "https://heavymetalindex.com/products/legumes-pulses-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2f1d17a9735d8bae939ebb2b7f077ac46236f14acea370646618edb441c208ab",
-      "content_bytes": 20108,
-      "last_commit_sha": "43f4b5e53",
-      "last_commit_date": "2026-06-15",
+      "content_sha256": "b64b44638b9a53bc958af47a7ea9cca28fe975ad1d96f1d2ba81b3220928d068",
+      "content_bytes": 20659,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 43f4b5e53:wiki/products/legumes-pulses-other.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/legumes-pulses-other.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 24,
+    "contributing_source_count": 25,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alam2019-lentil-arsenic-accumulation",
         "content_pin": {
-          "content_sha256": "e427baf83373c89c2e9a01b58c91daf116cf14f0bc12f97f83ce87fb74d70aac",
-          "content_bytes": 4976,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "65cc28aa9e545a8d818f5d9e15b7d3a1a422f060d49b31dcfd9d5ad4a0d7df2f",
+          "content_bytes": 5157,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/alam2019-lentil-arsenic-accumulation.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/alam2019-lentil-arsenic-accumulation.md | sha256sum"
         }
       },
       {
@@ -69,12 +69,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn",
         "content_pin": {
-          "content_sha256": "41a10232d2e0fbb3b6a97432ec78142dc4327646583b819204090851e8b546f4",
-          "content_bytes": 11391,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "3cb2adbc9a606646c17456d7cf3803d16533830a662f16a4cca4fb247289310c",
+          "content_bytes": 11418,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn.md | sha256sum"
         }
       },
       {
@@ -90,12 +90,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ataee2016-iran-cereals-pb-cd",
         "content_pin": {
-          "content_sha256": "daad5303e3bd2fb14a5899498710646ca46a4f17df3b5cb16a6f4914243c8a84",
-          "content_bytes": 13079,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "dc7bbf577a7da6936581895533031420a000927a6b2a2584b1fdeecebb523deb",
+          "content_bytes": 13106,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/ataee2016-iran-cereals-pb-cd.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/ataee2016-iran-cereals-pb-cd.md | sha256sum"
         }
       },
       {
@@ -114,12 +114,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ccopi2026-heavy-metals-andean-crops-peru",
         "content_pin": {
-          "content_sha256": "f95731c0b2853ca1ded661d29b1b151e2c9a8eb80ac0487c21fa34a3caa80735",
-          "content_bytes": 6025,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "a595ab79e712bb3e4833eee8ca4e416322c46e1cfbc71e3f8663b3764987f63a",
+          "content_bytes": 6052,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/ccopi2026-heavy-metals-andean-crops-peru.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/ccopi2026-heavy-metals-andean-crops-peru.md | sha256sum"
         }
       },
       {
@@ -138,12 +138,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chaura2026-phaseolus-multiomics-ionomics",
         "content_pin": {
-          "content_sha256": "a304dd045cd3b14bcaeba7e7b0e7aaa1ce2f2b637b1d36343782d0bfa343e416",
-          "content_bytes": 4947,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "0abf57c1ba0ee55a2be6932284fefa8c5a59d8dcc3b1bc397cd3e96d4c4b73e0",
+          "content_bytes": 4974,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/chaura2026-phaseolus-multiomics-ionomics.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/chaura2026-phaseolus-multiomics-ionomics.md | sha256sum"
         }
       },
       {
@@ -158,12 +158,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "0ce83bb8e21e9a23574d6c982879967df29113552149bb5c76db1647a660d5ea",
-          "content_bytes": 30214,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "1d6698efc1af2795a1c8cc6aa2c49f125eb9305e07e6a72bc1366fb9f9237841",
+          "content_bytes": 30241,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -189,12 +189,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/galal2021-heavy-metals-pisum-sativum",
         "content_pin": {
-          "content_sha256": "6122a874185ca147ad349cc82e196b2e1eb9352239281928f8c212833d340c65",
-          "content_bytes": 5120,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "44e752e03d4a69321d6204838dfe9486924bfd5da3a896f71244d6e743f48371",
+          "content_bytes": 5147,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/galal2021-heavy-metals-pisum-sativum.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/galal2021-heavy-metals-pisum-sativum.md | sha256sum"
         }
       },
       {
@@ -213,12 +213,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hussain2019-plant-food-heavy-metal-review",
         "content_pin": {
-          "content_sha256": "134489c08f2a720b44c4e2ff6b3348c5665c3382643e7700abae8e46eecd6969",
-          "content_bytes": 6693,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "1becec09e6e2f84c5df18f8b5aed840d68361006d3254967e7fb7c94d6e53122",
+          "content_bytes": 6874,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/hussain2019-plant-food-heavy-metal-review.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/hussain2019-plant-food-heavy-metal-review.md | sha256sum"
         }
       },
       {
@@ -239,12 +239,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/islam2014-bangladesh-cereals-pulses-metals",
         "content_pin": {
-          "content_sha256": "227d53648557c991bcc45c135ee4a0559ce6de8af0156fb7c245c06c91c3b586",
-          "content_bytes": 6659,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "fe88be8c15e39eba82521a4f8b2645d15a35be759ec9129e9ca302eda8836fca",
+          "content_bytes": 6840,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/islam2014-bangladesh-cereals-pulses-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/islam2014-bangladesh-cereals-pulses-metals.md | sha256sum"
         }
       },
       {
@@ -264,12 +264,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/islam2018-tangail-food-crops-heavy-metals",
         "content_pin": {
-          "content_sha256": "8a420698afe1b2dd7922b5e5b5f20ddf61c6aef00b5ae882dd937c9876bb69ec",
-          "content_bytes": 8016,
-          "last_commit_sha": "3244c33cb",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "73a597061da539d43834326724089a1ccba50b44603e4ecdc407c8faf1a119a9",
+          "content_bytes": 8196,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3244c33cb:wiki/sources/islam2018-tangail-food-crops-heavy-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/islam2018-tangail-food-crops-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -287,12 +287,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/iyabo2015-ekiti-staple-foods-metals",
         "content_pin": {
-          "content_sha256": "5d4a9bc7745e3a1ae773c45a868796ca6e2a19ecb84a1594eae5e3cf50a8ef12",
-          "content_bytes": 9489,
-          "last_commit_sha": "593d25dd6",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "a06a642e068416bc72702ec4b1e4bd57dfc44720514e40408df7f709fa076ab7",
+          "content_bytes": 9669,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 593d25dd6:wiki/sources/iyabo2015-ekiti-staple-foods-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/iyabo2015-ekiti-staple-foods-metals.md | sha256sum"
         }
       },
       {
@@ -316,12 +316,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jaudenes-marrero2024-soybeans-toxic-elements",
         "content_pin": {
-          "content_sha256": "59b309846111fc3af20927c52b4e2e46263878c343f7d1a44651b232768d2f43",
-          "content_bytes": 2846,
-          "last_commit_sha": "6908c129a",
-          "last_commit_date": "2026-06-14",
+          "content_sha256": "830aedc9fade603ec79e82a513a87cb2a0009acde4122b4d1e085889df51ade7",
+          "content_bytes": 3025,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6908c129a:wiki/sources/jaudenes-marrero2024-soybeans-toxic-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/jaudenes-marrero2024-soybeans-toxic-elements.md | sha256sum"
         }
       },
       {
@@ -339,12 +339,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kharkwal2023-cooked-beans-vegetables-metals",
         "content_pin": {
-          "content_sha256": "76e871fa7ff86bfaf4b9bd7aa77c6ecf8f79c26b9a366fc194ab97d323b7e4a2",
-          "content_bytes": 6101,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "ddd76f45c6916ab6b6b559dc1c5ace5cbffa051fd2b8b9acb35b70e5f1362455",
+          "content_bytes": 6282,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/kharkwal2023-cooked-beans-vegetables-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/kharkwal2023-cooked-beans-vegetables-metals.md | sha256sum"
         }
       },
       {
@@ -359,12 +359,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kumar2022-bangladesh-agricultural-products-lead",
         "content_pin": {
-          "content_sha256": "3c2e494824ce1af248354d40d8008dc33428aa6a2c18c61ae95dd7c8c84eb8ac",
-          "content_bytes": 6708,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "ade9988c5ae60013eefd90d8295a0981cc67e761797cc9139bf0402ade7f88e1",
+          "content_bytes": 6735,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/kumar2022-bangladesh-agricultural-products-lead.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/kumar2022-bangladesh-agricultural-products-lead.md | sha256sum"
         }
       },
       {
@@ -382,12 +382,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mawari2022-heavy-metals-fruits-vegetables-india",
         "content_pin": {
-          "content_sha256": "5bf2b3fed0925e1445e8f103d95b2b70b7e4ed460f7d45fedf7aa115c9b76208",
-          "content_bytes": 16130,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "1cbba33bc71295fb713fe800d25edce5f08c24d787862f9532a003a64a30ae30",
+          "content_bytes": 16157,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/mawari2022-heavy-metals-fruits-vegetables-india.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/mawari2022-heavy-metals-fruits-vegetables-india.md | sha256sum"
         }
       },
       {
@@ -407,12 +407,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pan2016-zhejiang-vegetables-metals",
         "content_pin": {
-          "content_sha256": "62ea7997c1f6531caa216a991bc99bc901dec040a84139d2dd83107197b3d0ba",
-          "content_bytes": 5244,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "9e1a761605b28a34dcd8192731157185eaea9a05663f20d7ef6899d6ffadf8e9",
+          "content_bytes": 5425,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/pan2016-zhejiang-vegetables-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/pan2016-zhejiang-vegetables-metals.md | sha256sum"
         }
       },
       {
@@ -432,12 +432,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pirsaheb2015-iran-kermanshah-cereals-metals",
         "content_pin": {
-          "content_sha256": "1d89b95afa59d7b097ff92f92916864488afc55acf47ff76ae75a0249bcf81b7",
-          "content_bytes": 20580,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "7bfc8d058bd76c007812527f89cc5d0ad8fe20302d272546960f27a653d93c89",
+          "content_bytes": 20607,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/pirsaheb2015-iran-kermanshah-cereals-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/pirsaheb2015-iran-kermanshah-cereals-metals.md | sha256sum"
         }
       },
       {
@@ -456,12 +456,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/roman-ochoa2021-arequipa-grains-health-risk",
         "content_pin": {
-          "content_sha256": "450da963050a33e53beaa204b1bb3d82107ca0b7dc2e765129bf289041d66cb5",
-          "content_bytes": 4745,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "63b18b49c0a9045d451b33e82611064ae686d2eb3577580c10e3b641448fd1c7",
+          "content_bytes": 4772,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/roman-ochoa2021-arequipa-grains-health-risk.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/roman-ochoa2021-arequipa-grains-health-risk.md | sha256sum"
         }
       },
       {
@@ -482,12 +482,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tatahmentan2020-rice-grains-elements",
         "content_pin": {
-          "content_sha256": "c7f0857e01468d6a66c3c3ac05a3e241308dbd7070eb72a313194eef91367673",
-          "content_bytes": 5800,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "ea8b9060b4970f29e1d0c4cd0a03ca53e87e133934e3614cc5219c78361d83e5",
+          "content_bytes": 5981,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/tatahmentan2020-rice-grains-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/tatahmentan2020-rice-grains-elements.md | sha256sum"
         }
       },
       {
@@ -503,12 +503,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/uneyama2007-arsenic-foods-cumulative-data",
         "content_pin": {
-          "content_sha256": "7e9540e057120b59e637008fb5ae3a226cfc9c51d994dfa2d95d91b139985a75",
-          "content_bytes": 8865,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "c8538d0f04ff9c4b7fc91677aa8e417d8bd7e77fd1df41e05432233eff30c7a7",
+          "content_bytes": 9046,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/uneyama2007-arsenic-foods-cumulative-data.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/uneyama2007-arsenic-foods-cumulative-data.md | sha256sum"
         }
       },
       {
@@ -523,12 +523,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wang2019-dietary-lead-guangzhou",
         "content_pin": {
-          "content_sha256": "b930cc12c459746bf33ea072760b91bc3c24d5b28e5014ccfb79681ad57e2804",
-          "content_bytes": 6986,
-          "last_commit_sha": "75c0addff",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "c2e6ed9654a11cc1b703b299d536e1be2c11c2082b3ff78f5d5c6290425c0526",
+          "content_bytes": 7166,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 75c0addff:wiki/sources/wang2019-dietary-lead-guangzhou.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wang2019-dietary-lead-guangzhou.md | sha256sum"
         }
       },
       {
@@ -551,12 +551,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/woreta2023-lupine-seeds-metals-ethiopia",
         "content_pin": {
-          "content_sha256": "e45efb4210e6d4c71014d309ba9803a27e71977031888b1b1030b2c2bb82827a",
-          "content_bytes": 6168,
-          "last_commit_sha": "f15cb50f1",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "474265b1d991e8bf0b7a94f4fc8ef7dc8caac07321246461038d108e39d2904b",
+          "content_bytes": 6347,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show f15cb50f1:wiki/sources/woreta2023-lupine-seeds-metals-ethiopia.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/woreta2023-lupine-seeds-metals-ethiopia.md | sha256sum"
         }
       },
       {
@@ -578,12 +578,39 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
         "content_pin": {
-          "content_sha256": "5c367c84f10f5dbaaacf40fae24da289b45e8506676b5a5dea76eb5f09092ab1",
-          "content_bytes": 27299,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "3f86adea629813ce0a5bd33037ae7a3cb776b5e3a93704e31f902a9770575bb1",
+          "content_bytes": 27326,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+        "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "tAs",
+          "tHg",
+          "Ni",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+        "content_pin": {
+          "content_sha256": "7d9317f1dfbbd8081260f36b49f0b4be16c42848ed88d19ac74ee6bff8aba727",
+          "content_bytes": 24028,
+          "last_commit_sha": "5f7a7150d",
+          "last_commit_date": "2026-07-29",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5f7a7150d:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -602,12 +629,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yu2023-zhejiang-beans-toxic-elements",
         "content_pin": {
-          "content_sha256": "0c288d11311d63b9aa74c1983bed3814fae74a64d373847b848819e76b552766",
-          "content_bytes": 7483,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "608576c6c18c3fc907fb4fa0a6fb0938a4efbca3c612a16dbf1813f9395a24b9",
+          "content_bytes": 7664,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/yu2023-zhejiang-beans-toxic-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/yu2023-zhejiang-beans-toxic-elements.md | sha256sum"
         }
       }
     ]

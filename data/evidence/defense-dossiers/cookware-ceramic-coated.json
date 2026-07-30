@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cookware-ceramic-coated",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9a49884a762ee16ac27d07939fcca49ce37635dad595b076036ba59847094890",
-      "content_bytes": 8545,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "c850cd459222414f8ad10a84110611c6bcfa3eccfa609559f6265fcf109326aa",
+      "content_bytes": 8586,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/cookware-ceramic-coated.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/cookware-ceramic-coated.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dtu2024-food-contact-pb-cd-limits",
         "content_pin": {
-          "content_sha256": "109875c2e1341f7c28074060ceac902d24a07883d9e2d9e6523cba84a7bd92cb",
-          "content_bytes": 11947,
-          "last_commit_sha": "8d058840f",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "afdf53f4d12d075d828283d2cb10845a6ba771a6cb7488d9b4c1862bff3c1f73",
+          "content_bytes": 12126,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8d058840f:wiki/sources/dtu2024-food-contact-pb-cd-limits.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/dtu2024-food-contact-pb-cd-limits.md | sha256sum"
         }
       },
       {
@@ -65,12 +65,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/esoyan2024-matsoun-ceramic-packaging",
         "content_pin": {
-          "content_sha256": "1e2ff0b0ce1668893ddf6520679b5b88f0403b4f5f56a225f164de486c822020",
-          "content_bytes": 3951,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "251ef78502eda036125d710abcccbd65bf22f10130483154122a3bff718b5a6d",
+          "content_bytes": 3978,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/esoyan2024-matsoun-ceramic-packaging.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/esoyan2024-matsoun-ceramic-packaging.md | sha256sum"
         }
       }
     ]

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/rice-beverages-rice-milk",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8ca2bd2d1824dee1ed6ac93ab2b6674e14416508cced559bf835c0219952dfce",
-      "content_bytes": 9708,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "60cab4f68b3232c421d6640578e2183063bfe3cfba55ee1e2756223930106c31",
+      "content_bytes": 9749,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/rice-beverages-rice-milk.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/rice-beverages-rice-milk.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/begday2026-plant-milk-heavy-metal-safety",
         "content_pin": {
-          "content_sha256": "da0a97d83637ff9167c0b5c4bd5fd7c438bad84315e5ce50c68f03842d281fcc",
-          "content_bytes": 16695,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "14abcf34613ac27bf3765aea49d36ee21acfb1b680adbedab420d4d644928551",
+          "content_bytes": 16875,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/begday2026-plant-milk-heavy-metal-safety.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/begday2026-plant-milk-heavy-metal-safety.md | sha256sum"
         }
       },
       {
@@ -64,12 +64,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2024-organoarsenic-species",
         "content_pin": {
-          "content_sha256": "fffa7959bdb1f5a5119fb617241edc3ee710b7134b5655be0a7785998fe85c0d",
-          "content_bytes": 24495,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "2777c51846af593af34c057bade713049340040a88ee94d1e946a9ca9342faea",
+          "content_bytes": 24675,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/efsa2024-organoarsenic-species.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/efsa2024-organoarsenic-species.md | sha256sum"
         }
       },
       {
@@ -85,12 +85,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2013-ias-rice-products-sampling",
         "content_pin": {
-          "content_sha256": "29eb3fbf3cf01ce46994a7d435aa42a61ea59a84bfe7ed8f17c1d17741390c71",
-          "content_bytes": 6402,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "30a1c873ca1090560a04dd8c802cd1dd2374e1d01074384dab7b38059d282ff0",
+          "content_bytes": 6429,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
         }
       },
       {
@@ -108,12 +108,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/good2026-plant-milk-heavy-metals",
         "content_pin": {
-          "content_sha256": "07befc29474784fb34bddfc571c8e3f89c3bee20a4add2ea5acf34f10ff1b66e",
-          "content_bytes": 20094,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "da8f28fd76e13805f2f05aa06cdfd065b7ad56d79039b9d005da8c72eda2de58",
+          "content_bytes": 20274,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/good2026-plant-milk-heavy-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/good2026-plant-milk-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -129,12 +129,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
         "content_pin": {
-          "content_sha256": "5ec9a04af1fca7822352f6d993dab07695cbb6b0682f1bd146c48484516f6e76",
-          "content_bytes": 18710,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "2ce343b4d24f09f6932fd93f4f09d5e15838798d30d0609488280ff1eaffa389",
+          "content_bytes": 18751,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
         }
       },
       {
@@ -150,12 +150,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/meharg2008-rice-arsenic-literature-review",
         "content_pin": {
-          "content_sha256": "c349569cb8d6fc566d07e0ef293c7851dce494d7f0437078a307bf36978bd8c6",
-          "content_bytes": 9824,
-          "last_commit_sha": "46f81a309",
-          "last_commit_date": "2026-06-10",
+          "content_sha256": "e2c23519a5fd94bbe76877076368c7058f0ea9f523c56d4c93cd0316c52d8f77",
+          "content_bytes": 10005,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 46f81a309:wiki/sources/meharg2008-rice-arsenic-literature-review.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/meharg2008-rice-arsenic-literature-review.md | sha256sum"
         }
       },
       {
@@ -172,12 +172,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/redan2023-plant-milk-alternatives-elements",
         "content_pin": {
-          "content_sha256": "219cf2c9ee1cd3a59620336432903421bb0ac6be27561c358719f614c81cb0d6",
-          "content_bytes": 4787,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "13916c679fc24109f17b6127338e2d64fb3a8a9334d7eb71eb994e5dc7a60378",
+          "content_bytes": 4968,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/redan2023-plant-milk-alternatives-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/redan2023-plant-milk-alternatives-elements.md | sha256sum"
         }
       }
     ]

@@ -334,14 +334,14 @@ The paper references the following lead ceilings as context for population expos
 - 2026-06-08 — Audit subagent flagged an in-paper race/ethnicity figure discrepancy: §3.1 narrative (PDF page 5) reports Asian/Pacific Islander 38.3%, Latino/Hispanic 22.9%, White/Caucasian 11.2%, while Table 1 (page 6) reports 40.9% (n=76), 28.0% (n=52), 11.8% (n=22) for the same groups. The wiki page reproduces Table 1 (the formal demographic table) rather than the §3.1 narrative because Table 1 carries the cell counts and is the consistent source for the gender (62.9% / 36.0% / 1.1%) and education breakdowns the wiki also uses. The §3.1 narrative figures appear to be an editorial error in the manuscript; the Table 1 figures are internally consistent (sum to 100% across the six race/ethnicity rows excluding rounding). Flagged here so downstream synthesis using this source is aware of the source-internal inconsistency.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [3ce252a49](https://github.com/paleofoundation/heavymetalindex/commit/3ce252a49) | 2026-06-08 | audit: masri2025-toxicant-foods-california revised |
-| [54c9910f7](https://github.com/paleofoundation/heavymetalindex/commit/54c9910f7) | 2026-06-08 | ingest: masri2025-toxicant-foods-california fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [3ce252a49](https://github.com/paleofoundation/heavymetalindex/commit/3ce252a49) | 2026-06-08 | minor | Narrative text revised |
+| [54c9910f7](https://github.com/paleofoundation/heavymetalindex/commit/54c9910f7) | 2026-06-08 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

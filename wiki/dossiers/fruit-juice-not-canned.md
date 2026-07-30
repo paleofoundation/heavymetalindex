@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `cedfa8b8a` (2026-06-11). The body hashes to `sha256:40629d8d848162c5c757525703193c21…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:be950e296fb362e50da8342ddeebe610…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fruit-juice-not-canned&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fruit-juice-not-canned&download=1`.
 
@@ -36,10 +36,13 @@ Ranked by the literature-reported concentration of this category's declared ingr
 | Metal | Dominant ingredient driver | Share of ranked risk |
 |---|---|---|
 | Lead | fruit-juice | 66% |
+| Cadmium | apple-juice | 100% |
 | Arsenic (inorganic) | apple-juice | 100% |
 | Arsenic (total) | fruit-juice | 70% |
+| Mercury (total) | apple-juice | 100% |
 | Nickel | apple-juice | 100% |
 | Aluminum | apple-juice | 100% |
+| Chromium (total) | apple-juice | 100% |
 | Tin | apple-juice | 100% |
 
 The full driver ranking is available at `/api/risk-map?category=fruit-juice-not-canned`.
@@ -48,6 +51,7 @@ The full driver ranking is available at `/api/risk-map?category=fruit-juice-not-
 
 What has moved in the regulation or the cited literature that touches this category, newest first.
 
+- **2026-07-30** — iAs in apple confidence medium → null.
 - **2026-06-23** — Ni in apple confidence high → low.
 - **2026-06-23** — Pb in fruit-juice-ready-drinks confidence medium → low.
 - **2026-06-23** — Cd in fruit-juice-ready-drinks confidence high → low.
@@ -55,7 +59,6 @@ What has moved in the regulation or the cited literature that touches this categ
 - **2026-06-23** — Cd in non-apple-fruit confidence high → low.
 - **2026-06-23** — iAs in non-apple-fruit confidence medium → low.
 - **2026-05-31** — Cd in fruit-purees confidence null → low.
-- **2026-05-16** — Literature evidence first populated for Pb in fruit (n=8, medium confidence).
 
 The live feed for this category is at `/api/change-watch?category=fruit-juice-not-canned`.
 

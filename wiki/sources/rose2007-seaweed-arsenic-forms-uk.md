@@ -90,14 +90,14 @@ Thirty-one samples (five varieties) were collected at random from UK retail outl
 - Audit subagent (2026-06-08, fresh-context) returned PROMOTE on all five checks (hijiki 9-row block re-verified cell-by-cell across all three basis blocks, no transposition). One ⚠️ applied: the dietary-exposure multiplier was understated as "30-fold"; verified against source (risk-assessment section states "30–50-fold increase"; conclusion states "around 30 times") and broadened to "30- to 50-fold".
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c5a5510aa](https://github.com/paleofoundation/heavymetalindex/commit/c5a5510aa) | 2026-06-08 | audit: rose2007-seaweed-arsenic-forms-uk revised |
-| [95b689d4d](https://github.com/paleofoundation/heavymetalindex/commit/95b689d4d) | 2026-06-08 | ingest: rose2007-seaweed-arsenic-forms-uk fresh from MFK/June 8 Inorganic Arsenic Seaweed |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [c5a5510aa](https://github.com/paleofoundation/heavymetalindex/commit/c5a5510aa) | 2026-06-08 | minor | Narrative text revised |
+| [95b689d4d](https://github.com/paleofoundation/heavymetalindex/commit/95b689d4d) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

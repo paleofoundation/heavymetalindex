@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cribs-and-bassinets",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "539f648621d0e189b3a2fc1d0b61e221a6d1401fa32effd749eb8cab79870093",
-      "content_bytes": 9645,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "977df98fcd9cb3a110f779309371016eebfa3deec8d394ccb000aaf2a29ba6f4",
+      "content_bytes": 9686,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/cribs-and-bassinets.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/cribs-and-bassinets.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc2010-cribs-104-standard-npr",
         "content_pin": {
-          "content_sha256": "72fb744d5e0a07fe885ff5a9baeee00721f09385dabf4d01ebeabf59ed34c32b",
-          "content_bytes": 23273,
-          "last_commit_sha": "1ec89b27a",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "76df2a2788606594a948b2bfb4ca6ca7a5e4ff33bcb59604c6e45d3d9713d3ea",
+          "content_bytes": 23454,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1ec89b27a:wiki/sources/cpsc2010-cribs-104-standard-npr.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/cpsc2010-cribs-104-standard-npr.md | sha256sum"
         }
       },
       {
@@ -69,12 +69,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "c9c455be44595d9d203f97df72bd40830d193990035e319dae959c1f7c8ffd5b",
-          "content_bytes": 59408,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "c5943b8d32cbe8f78c9c22a42e5f6443214c47200f2ad8e1559194a47eb5c3f3",
+          "content_bytes": 59435,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -89,12 +89,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/iec2020-cpsc-cribs-rule-review",
         "content_pin": {
-          "content_sha256": "76789adee1674ae9e26e278d79a695faed2d04741d036b206a0802a6858300b7",
-          "content_bytes": 27122,
-          "last_commit_sha": "6f7e1b1d9",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "44fea3324f9622c61528d7322da2f2a3b7c14f4be1b63c564331036dc2c84e41",
+          "content_bytes": 27303,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6f7e1b1d9:wiki/sources/iec2020-cpsc-cribs-rule-review.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/iec2020-cpsc-cribs-rule-review.md | sha256sum"
         }
       }
     ]

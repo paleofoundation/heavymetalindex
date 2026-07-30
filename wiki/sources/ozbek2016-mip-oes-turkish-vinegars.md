@@ -82,15 +82,14 @@ Page was originally drafted under the legacy manual-fetch-kimi handle and last u
 Auto-audit subagent (2026-05-26) verdict REVISE; 2 findings applied: (i) corrected spike-level wording in Key numbers to show analyte-specific spike concentrations rather than a continuous 0.01–1.00 mg/L range (Table 2 spike levels are Pb 0.01, Cu 0.05, Co 0.10, Mn 0.50, others 1.00 mg/L); (ii) removed the "consistent with concentration effects during balsamic production" mechanism claim from Implications — the paper reports balsamic/fig values are higher but does not attribute mechanism, so the claim was unsupported synthesis. 1 finding documented but not applied: the audit noted that mapping the paper's "grape vinegar" samples to the `wine-vinegar` ingredient slug is an inference (the paper does not explicitly state these are wine-fermentation-derived; Turkish üzüm sirkesi can be produced from grape must as well as from wine). The mapping is retained because (a) the paper itself states all vinegars are produced "by alcoholic and subsequent acetic fermentation" from wines, sugary, or starchy foods, and (b) other vinegar source pages in the corpus (acosta1993, ndungu2004) follow the same convention of routing "grape vinegar" to the `wine-vinegar` commodity slug.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [59da47ffe](https://github.com/paleofoundation/heavymetalindex/commit/59da47ffe) | 2026-05-26 | minor | Narrative text revised |
+| [af792ff02](https://github.com/paleofoundation/heavymetalindex/commit/af792ff02) | 2026-05-26 | major | 1 section added and 1 removed; narrative text revised |
+| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

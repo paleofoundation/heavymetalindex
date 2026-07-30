@@ -68,13 +68,13 @@ App: Supports a context warning that 3D-printing emissions can include Pb, tAs, 
 - Matrix vocabulary note: `indoor-air` is already used in the wiki; `3d-printer-filament` and `emitted-particles` are source-specific matrix descriptors retained so the routing layer does not misclassify this as fabric-protectant occurrence evidence. If a durable-goods 3D-printing category is locked later, these should be normalized into that taxonomy.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [728fe7548](https://github.com/paleofoundation/heavymetalindex/commit/728fe7548) | 2026-06-09 | audit auto-fetched 2026-06-09: zhang2023-3d-printing-metal-emissions |
-| [3dd241dfc](https://github.com/paleofoundation/heavymetalindex/commit/3dd241dfc) | 2026-06-09 | ingest auto-fetched 2026-06-09: zhang2023-3d-printing-metal-emissions |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [728fe7548](https://github.com/paleofoundation/heavymetalindex/commit/728fe7548) | 2026-06-09 | minor | Narrative text revised |
+| [3dd241dfc](https://github.com/paleofoundation/heavymetalindex/commit/3dd241dfc) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

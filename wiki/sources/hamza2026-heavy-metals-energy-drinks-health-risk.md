@@ -326,14 +326,14 @@ Open-access publication in International Journal of Science, Engineering and Tec
 No other findings to apply. Checks 2/3/4/5 all clean. No false-positive findings to record. No frontmatter changes required. Routing unaffected (sports-energy-drinks direct_evidence row unchanged).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [ac30be7c5](https://github.com/paleofoundation/heavymetalindex/commit/ac30be7c5) | 2026-06-06 | audit: hamza2026-heavy-metals-energy-drinks-health-risk revised |
-| [e705b0ab8](https://github.com/paleofoundation/heavymetalindex/commit/e705b0ab8) | 2026-06-06 | ingest: hamza2026-heavy-metals-energy-drinks-health-risk fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [ac30be7c5](https://github.com/paleofoundation/heavymetalindex/commit/ac30be7c5) | 2026-06-06 | minor | Narrative text revised |
+| [e705b0ab8](https://github.com/paleofoundation/heavymetalindex/commit/e705b0ab8) | 2026-06-06 | major | 14 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

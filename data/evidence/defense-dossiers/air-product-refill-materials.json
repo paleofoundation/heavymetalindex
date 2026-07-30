@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/air-product-refill-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "26da31f4662231fc628d729766aeb08deec25557aa15f9436209a6d698e60baf",
-      "content_bytes": 7768,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "8fc8765988dcd3df72bea8c991e2f851d0ed800be94dda8ef1f00b58c3258ce3",
+      "content_bytes": 7795,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/air-product-refill-materials.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/air-product-refill-materials.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/period-underwear-reusable-garments",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "83c9fc1978b3c9cdbbde3377cc098a3f10c1c0d278581cd9a2e4ab815906b10a",
-      "content_bytes": 8635,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "a398b5fed29df774c30f7b2cb7d287a1ac4a54e3f139b05af00821cc3f394ce8",
+      "content_bytes": 8676,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/period-underwear-reusable-garments.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/period-underwear-reusable-garments.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nic-corcrain2025-menstrual-products-metal-leaching",
         "content_pin": {
-          "content_sha256": "3b98da5b87dd8508e10bd761c6dd3a8ea7db9151efc7f38120b2c833f5536e59",
-          "content_bytes": 4850,
-          "last_commit_sha": "ecf202b37",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "c4ce4ac3043c257db72be5b82546eb2acc0dc0e13bb624bd846d1b18220be933",
+          "content_bytes": 5029,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ecf202b37:wiki/sources/nic-corcrain2025-menstrual-products-metal-leaching.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/nic-corcrain2025-menstrual-products-metal-leaching.md | sha256sum"
         }
       },
       {
@@ -62,12 +62,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yamada1993-organotin-household-commodities",
         "content_pin": {
-          "content_sha256": "4ca765aa22df17749e8f4e8b896fdd2262fcc15ed2f3568987fcb8dfd7e0e2ff",
-          "content_bytes": 28131,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "8a8283ad86f9343df1c67d74202f2780012ae2641507adde4d2f207b7024fe74",
+          "content_bytes": 28151,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/yamada1993-organotin-household-commodities.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/yamada1993-organotin-household-commodities.md | sha256sum"
         }
       }
     ]

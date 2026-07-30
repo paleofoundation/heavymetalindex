@@ -69,15 +69,12 @@ App: Keep as context for cadmium, microbiome, and soil-remediation narratives. D
 The PDF has author attribution and DOI `10.3390/antiox13050565`; no DOI conflict was observed. This source does not report food, product, ingredient, or field-soil Cd occurrence measurements. The primary concentration values are experimental Cd treatment concentrations: 100 uM Cd for growth/biochemical assays and 1 mM Cd for volatile profiling. The results are mainly figure-based rather than table-based; this page records the quantitative percentages and variance explained that are stated in the text and figure captions. The text reports two strains with significantly lower growth, seven not significantly influenced, and five significantly higher under Rhizobium volatile exposure, which sums to 14 despite the described 13-strain panel; this page preserves the named strain findings and flags the count mismatch for downstream audit.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [39678064f](https://github.com/paleofoundation/heavymetalindex/commit/39678064f) | 2026-06-02 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

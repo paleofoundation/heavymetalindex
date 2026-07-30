@@ -237,6 +237,17 @@ Half and half is packaged in plastic or paper-based cartons; Sn migration from t
 
 The EU sets a maximum level of 0.020 mg/kg (20 ppb) for Pb in raw milk, heat-treated milk, and milk for the manufacture of dairy-based products, applied on the wet-weight basis [[regulations/eu2023-contaminants-maximum-levels]]. Cream and half and half are governed under the same general dairy framework. No specific EU maximum level for Cd in milk or cream as a distinct matrix is set; dairy products generally fall below the Cd limits that apply to other food categories. The United States does not set statutory maximum levels for Pb or Cd in milk or dairy cream products in Federal regulation, though FDA's Total Diet Study provides ongoing surveillance. Codex Alimentarius general standards address Pb in milk at 0.020 mg/kg, consistent with the EU position [[regulations/codex-cadmium-mls]].
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+2. Starska K, Wojciechowska-Mazurek M, Mania M, Brulinska-Ostrowska E, Biernat U, and Karlowski K (2011). *Noxious Elements in Milk and Milk Products in Poland*. Polish Journal of Environmental Studies. Peer-reviewed, A-tier. [[sources/starska2011-noxious-elements-milk-products-poland|Source record]]
+3. Ibrahim AS, Awaad SS, Shehta HA, and Hegab OW (2025). *Dietary Exposure and Health Risk Assessment of Selected Toxic and Essential Metals in Various Flavored Dairy Products*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-025-04676-0](https://doi.org/10.1007/s12011-025-04676-0). Peer-reviewed, A-tier. [[sources/ibrahim2025-metals-flavored-dairy-egypt|Source record]]
+4. Pankiewicz U (2012). *Monitoring of total mercury level in selected dairy products from the south-east regions of Poland*. Ecological Chemistry and Engineering A. [https://doi.org/10.2428/ecea.2012.19(01)014](https://doi.org/10.2428/ecea.2012.19(01)014). Peer-reviewed, B-tier. [[sources/pankiewicz2012-thg-dairy-products-poland|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -248,15 +259,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 2 — 10 dairy/meat/grapefruit pages / 59 cells |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | correction | 3 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

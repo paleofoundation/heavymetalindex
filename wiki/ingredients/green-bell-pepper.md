@@ -236,6 +236,17 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for Pb in vegetables (general) is 0.10 mg/kg wet weight and for Cd in vegetables (general) it is 0.050 mg/kg wet weight. These limits apply to green bell pepper as placed on the market. All FDA TDS Pb measurements for green bell pepper (n=27) are below the 4 µg/kg reporting limit [[sources/fda2022-tds-elements-fy2018-fy2020]], and Cd values peak at 24 ppb, indicating substantial margin below the EU 50 ppb Cd limit under typical US commercial supply. The detected non-FDA anchors tell a more cautionary story for contaminated production: the Nigerian urban-agriculture survey reports pepper lead of 100 µg/kg at one site [[sources/emmanuel2025-kano-urban-vegetables-metals]], which sits exactly at the EU general-vegetable Pb limit of 0.10 mg/kg, so peri-urban or industrially impacted growing soils can push green-bell-pepper lead to the regulatory ceiling. For bell pepper used in processed vegetable products for infants and young children, the EU applies a stricter Pb maximum of 0.020 mg/kg for vegetable-based processed foods; bell pepper may require verification testing when included in infant food formulations to demonstrate compliance with this lower limit, particularly for supply originating from regions with documented soil-lead loading. There are no specific US FDA action levels for metals in fresh or processed bell pepper.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+2. Bernard Emmanuel (2025). *Assessment of Heavy Metal Contamination and Health Risks from Urban-Grown Vegetables in Kano State, Nigeria*. ChemClass Journal. [https://doi.org/10.33003/chemclass-2025-0902/184](https://doi.org/10.33003/chemclass-2025-0902/184). Peer-reviewed, A-tier. [[sources/emmanuel2025-kano-urban-vegetables-metals|Source record]]
+3. Salhotra P and Verma R (2017). *Determination of heavy metals contamination in some vegetables and fruits samples from the market of Jagdalpur, Chhattisgarh State*. IOSR Journal of Applied Chemistry. [https://doi.org/10.9790/5736-100502110113](https://doi.org/10.9790/5736-100502110113). Peer-reviewed, A-tier. [[sources/salhotra2017-vegetables-fruits-heavy-metals|Source record]]
+4. Li R, Wu H, Ding J, Fu W, Gan L, and Li Y (2017). *Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants*. Scientific Reports. [https://doi.org/10.1038/srep46545](https://doi.org/10.1038/srep46545). Peer-reviewed, A-tier. [[sources/li2017-mercury-vegetables-grains-coal-power-china|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -250,15 +261,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [0ae30c7b4](https://github.com/paleofoundation/heavymetalindex/commit/0ae30c7b4) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 3 — 12 produce pages / 51 cells |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [0ae30c7b4](https://github.com/paleofoundation/heavymetalindex/commit/0ae30c7b4) | 2026-06-11 | correction | 3 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

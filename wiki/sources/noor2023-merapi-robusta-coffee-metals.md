@@ -72,15 +72,13 @@ App: Supports a low-confidence non-detect note for single-origin Indonesian Robu
 The source is a conference proceeding (ICSARD 2022) and is assigned B-tier. Pb and Cd LODs are exposed in Table 4 (p. 324) and restated in Sections 3.5.1 and 3.5.2 (Pb LOD 0.00025 mg/kg, Cd LOD 0.0005 mg/kg, ochratoxin A LOD 1.01 mg/kg). Non-detects can be handled as left-censored values at these LODs in downstream synthesis. Only three of the six prepared samples (samples 1, 3, 6) were metals-tested; sample_n reflects the metals-tested N, not the sensory-panel N.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [b804e422f](https://github.com/paleofoundation/heavymetalindex/commit/b804e422f) | 2026-06-09 | audit: noor2023-merapi-robusta-coffee-metals [revised] per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [b804e422f](https://github.com/paleofoundation/heavymetalindex/commit/b804e422f) | 2026-06-09 | minor | Narrative text revised |
+| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
+| [50ec0f053](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f053) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

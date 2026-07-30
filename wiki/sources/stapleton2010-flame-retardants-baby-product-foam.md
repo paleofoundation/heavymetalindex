@@ -104,15 +104,12 @@ Limitations explicitly acknowledged by the authors:
 - 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, single-PDF invocation): NEW path. Three identity checks against `wiki/sources/` returned no hits: no DOI to check (paper has none); raw_handle `MFK_07-unknown` absent; cite-key stem `stapleton2010` absent (other Stapleton-authored sources flagged none — the only related-author hit was on co-author/reference text in unrelated source pages). PDF SHA-256 `c1098395c801dbdc57ec247c7e1d22bfc647f1b6221cd7c512bb88e596483ce7` confirmed against the file. Paper measures only organic flame-retardant additives in polyurethane foam — zero heavy metals — ingested as out-of-core-scope durable-infant-product additive-contamination reference per the `anderson2002` (diaper VOCs) and `kjolholt2015` (car-seat textile chemicals, tin + bromine + flame retardants) precedents. Routed to `[[products/car-seats]]` and `[[products/strollers]]` for discoverability; four other product categories named in the paper's sample frame (nursing pillows, changing-table pads, sleep positioners, baby carriers) flagged in verification notes as routing-coverage gaps pending Karen's Step 0 Lock workflow. `metals: []` correctly reflects no metal-occurrence contribution.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [22e292261](https://github.com/paleofoundation/heavymetalindex/commit/22e292261) | 2026-06-01 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

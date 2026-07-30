@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/soy-sauce-fermented",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "24a21e3a1fda2d227578b123cfd45322e8119b05ba83d8749084ad55ff9abd8e",
-      "content_bytes": 1173,
-      "last_commit_sha": "08c8f8330",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "c8c9860116fffa94460246bdceee6011559612af71a9ed71490a3b3a24725c08",
+      "content_bytes": 1352,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 08c8f8330:wiki/products/soy-sauce-fermented.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/soy-sauce-fermented.md | sha256sum"
     }
   },
   "evidence_base": {

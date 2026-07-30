@@ -56,3 +56,13 @@ The [[supply-chain/soil-nickel-screening|soil nickel screening page]] is the exi
 - [[supply-chain/soil-nickel-screening]] — existing precedent for a metal-specific screening framework.
 - [[testing/index|Testing methods]] — analytical methods that screening depends on.
 - [[certification/index|Certification]] — the certification gate is itself a supply-chain screening intervention.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [ed8797d63](https://github.com/paleofoundation/heavymetalindex/commit/ed8797d63) | 2026-05-03 | major | 4 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

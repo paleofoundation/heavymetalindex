@@ -85,7 +85,7 @@ used_in_products: [mixed-meals-non-rice, mixed-meals-rice-containing]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-06-11
-sources: 65
+sources: 66
 ---
 
 # Meat and poultry
@@ -197,6 +197,23 @@ For canned meat products, lacquer-lined interior surfaces are the primary packag
 
 European Union Regulation (EU) 2023/915 (amending and consolidating prior contaminant regulations) sets maximum levels for Pb at 0.10 mg/kg and Cd at 0.050 mg/kg in fresh meat (muscle tissue from cattle, sheep, pigs, and poultry) on a wet weight basis. Organ meats carry substantially higher Cd limits (kidney of cattle, sheep, pigs: 1.0 mg/kg; liver: 0.50 mg/kg), reflecting biological accumulation in those tissues. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) [[sources/codex-cxs-193-1995]] sets Pb and Cd limits for meat consistent with EU levels for most muscle-tissue categories. In the United States, FDA finalized action levels under the Closer to Zero initiative for processed food intended for babies and young children [[sources/fda-ctz-Pb-babyfood-2025]]: 10 ppb Pb applies to single-ingredient meats in processed baby and toddler foods. No US federal maximum level for Pb or Cd currently applies to conventional retail meat products outside the infant food context. See [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/codex-cadmium-mls]] for applicable regulatory reference pages.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 10 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
+2. Chen J, Chen J, Li M, Feng P, Qin M, Chen T, et al. (2025). *Probabilistic assessment of the cumulative risk from dietary heavy metal exposure in Chongqing, China using a hazard-driven approach*. Scientific Reports 15:2229. [https://doi.org/10.1038/s41598-024-83299-2](https://doi.org/10.1038/s41598-024-83299-2). Peer-reviewed, A-tier. [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi|Source record]]
+3. Dai Xinghui, Li Mintao, Chen Jiahui, Feng Ping, Chen Jingrong, Zhao Jian, et al. (2024). *Assessment of Dietary Arsenic Exposure Levels and the Associated Health Risks in Chongqing City, China*. Chinese Journal of Public Health. [https://doi.org/10.12182/20241160509](https://doi.org/10.12182/20241160509). Peer-reviewed, A-tier. [[sources/dai2024-chongqing-dietary-arsenic-exposure|Source record]]
+4. Ashley-Martin J, Fisher M, Belanger P, Cirtiu CM, and Arbuckle TE (2022). *Biomonitoring of inorganic arsenic species in pregnancy*. Journal of Exposure Science & Environmental Epidemiology. [https://doi.org/10.1038/s41370-022-00457-2](https://doi.org/10.1038/s41370-022-00457-2). Peer-reviewed, A-tier. [[sources/ashley-martin2022-ias-biomonitoring-pregnancy|Source record]]
+5. Centre for Food Safety FEHD HKSAR (2012). *The First Hong Kong Total Diet Study: Inorganic Arsenic*. Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. [www.cfs.gov.hk](https://www.cfs.gov.hk/english/programme/programme_rdss/programme_rdss_tds_report.html). Government report, A-tier. [[sources/cfs2012-hktds-inorganic-arsenic|Source record]]
+6. Uneyama C, Toda M, Yamamoto M, and Morikawa K (2007). *Arsenic in various foods: Cumulative data*. Food Additives & Contaminants. [https://doi.org/10.1080/02652030601053121](https://doi.org/10.1080/02652030601053121). Peer-reviewed, B-tier. [[sources/uneyama2007-arsenic-foods-cumulative-data|Source record]]
+7. U.S. Food and Drug Administration (2022). *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*. U.S. Food and Drug Administration, Total Diet Study Program. [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results). Government report, A-tier. [[sources/fda-tds-elements-2018-2020|Source record]]
+8. Wysok B, Wojtacka J, and Szczotka-Bochniarz A (2025). *Heavy Metal Contamination in Natural Sheep Casings*. Foods. [https://doi.org/10.3390/foods14091502](https://doi.org/10.3390/foods14091502). Peer-reviewed, A-tier. [[sources/wysok2025-heavy-metals-sheep-casings|Source record]]
+9. U.S. Food and Drug Administration (2025). *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*. U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children). Government guidance, A-tier. [[sources/fda-ctz-Pb-babyfood-2025|Source record]]
+10. Codex Alimentarius Commission (1995). *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*. Codex Alimentarius (Joint FAO/WHO Food Standards Programme). [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf). Government report, A-tier. [[sources/codex-cxs-193-1995|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -272,15 +289,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
+| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | correction | 5 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

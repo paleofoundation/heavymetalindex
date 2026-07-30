@@ -102,11 +102,12 @@ This regulation establishes the EU finished-product nickel maximum levels record
 Ingested 2026-06-22 from the Official Journal PDF (`raw/Manual Resourcing/OJ_L_202401987_EN_nickel-maximum-levels.pdf`, sha256 41242a9d…, 7 pages), read in full: recitals 1–12, Articles 1–2, and the complete Annex (entry 3.6.1–3.6.16). The maximum-level values and application dates above are transcribed verbatim from the Annex; the WebFetch small-model preview of this table was garbled and was discarded in favour of the primary PDF. ELI: http://data.europa.eu/eli/reg/2024/1987/oj. This ingest resolves the open provenance item flagged on [[sources/eu-2024-907-nickel-monitoring-recommendation]] (the exact amending instrument and its application dates are now primary-confirmed).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The most recent substantive edit to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 2 sources added; 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

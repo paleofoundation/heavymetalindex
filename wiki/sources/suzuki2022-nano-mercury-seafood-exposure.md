@@ -73,14 +73,14 @@ This source contributes Japanese-market seafood occurrence data for T-Hg, MeHg, 
 - Source-internal group-name inconsistency: the methods describe the `n = 2` group as "sea bream and flounder" (section 2.1) while Table 2 labels the same row "Red snapper and flounder." Both names refer to the same group; downstream pooling should not treat them as separate cells.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [59be7b583](https://github.com/paleofoundation/heavymetalindex/commit/59be7b583) | 2026-06-09 | audit: suzuki2022-nano-mercury-seafood-exposure [promoted] per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [745b46425](https://github.com/paleofoundation/heavymetalindex/commit/745b46425) | 2026-06-08 | ingest: suzuki2022-nano-mercury-seafood-exposure fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [59be7b583](https://github.com/paleofoundation/heavymetalindex/commit/59be7b583) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [745b46425](https://github.com/paleofoundation/heavymetalindex/commit/745b46425) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

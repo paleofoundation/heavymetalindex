@@ -168,3 +168,17 @@ The user should not need to keep handing the same paper back to the system for r
 - No one-off manual product-page fix if the behavior belongs in the central generator.
 
 That is the Heavy Metal Index version of an LLM-maintained wiki: persistent, routed, auditable, and cumulative.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [ed8e81cd1](https://github.com/paleofoundation/heavymetalindex/commit/ed8e81cd1) | 2026-05-14 | minor | Narrative text revised |
+| [ee060260e](https://github.com/paleofoundation/heavymetalindex/commit/ee060260e) | 2026-05-08 | major | 1 section added; narrative text revised |
+| [dbd908fc2](https://github.com/paleofoundation/heavymetalindex/commit/dbd908fc2) | 2026-05-07 | major | 1 section added; narrative text revised |
+| [e142f34a3](https://github.com/paleofoundation/heavymetalindex/commit/e142f34a3) | 2026-05-07 | minor | Narrative text revised |
+| [59919e091](https://github.com/paleofoundation/heavymetalindex/commit/59919e091) | 2026-05-07 | major | 1 section added; narrative text revised |
+<!-- END: hmi-page-history -->

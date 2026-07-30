@@ -169,15 +169,14 @@ Enhanced 2026-05-29 from prior 2026-05-14 ingest (kimi-loose-pdf-chen2025 raw_ha
 Audit-subagent (2026-05-29) flagged one ❌ in Check 1 (per-category table: As column for "Edible livestock and poultry offal" showed the Cd value 0.0919-0.1462 transposed) and three ⚠️ (rice products Cd UB precision; two Implications phrasings that used "should" in an HMTc-direction). Independent verification against the page 6-7 narrative confirmed the ❌ AND revealed several additional per-category cell errors from misreading the dense Table 2 image (e.g., I had Cd rice = 0.0238-0.0336 vs the narrative's 0.0497-0.0502; As rice = 0.0497-0.0502 vs narrative 0.0838-0.0848 — the same Cd narrative value appears to have been duplicated into the As column). To eliminate the OCR uncertainty, the per-category table was rebuilt as a narrative-style summary citing only values explicitly stated on pages 6-7 of the source (the "highest/lowest by metal" prose). The two Implications phrasings were softened to describe the paper's contribution as occurrence data downstream HMTc work would draw on, rather than prescribing what HMTc should do — preserving the Part 2 wiki/HMTc firewall.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [0d1769e71](https://github.com/paleofoundation/heavymetalindex/commit/0d1769e71) | 2026-05-29 | minor | Narrative text revised |
+| [7e61bb8e7](https://github.com/paleofoundation/heavymetalindex/commit/7e61bb8e7) | 2026-05-29 | major | 1 section added and 1 removed; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [2c3797a6a](https://github.com/paleofoundation/heavymetalindex/commit/2c3797a6a) | 2026-05-15 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

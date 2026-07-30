@@ -109,13 +109,12 @@ Table 2 prints the cadmium EDI for Rangdani Rabha as "0.0083" while Table 3 prin
 The authors' choice of EPA oral RfD for Pb (1.5 mg/kg/day, Table 4) is not consistent with current US EPA IRIS practice for lead, which has withdrawn a single oral RfD in favor of BLL-based assessment. The low per-metal Pb THQ values (0.000–0.001) in Table 5 are driven by this divisor and should not be read as the principal HMI-relevant finding for Pb; the concentration data (0.09–0.19 mg/L) are the primary contribution and are reported above without reliance on the THQ framing.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [e1d559bf5](https://github.com/paleofoundation/heavymetalindex/commit/e1d559bf5) | 2026-06-06 | ingest: bhattacharya2024-rice-beer-assam-metals [fresh] from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [e1d559bf5](https://github.com/paleofoundation/heavymetalindex/commit/e1d559bf5) | 2026-06-06 | major | 1 source added; 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

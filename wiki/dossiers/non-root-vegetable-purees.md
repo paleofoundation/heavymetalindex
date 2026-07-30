@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `71281e235` (2026-06-11). The body hashes to `sha256:f8a95e326c26d4cb47b60309df61071f…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:a4188a466baabd6cdfe142a2ffebb514…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=non-root-vegetable-purees&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/non-root-vegetable-purees&download=1`.
 
 ## Evidence base
 
-This category is supported by 18 contributing literature sources mapped by the routing layer, of which 2 carry structured concentration values. The page makes 118 numerical claims; 117 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
+This category is supported by 19 contributing literature sources mapped by the routing layer, of which 2 carry structured concentration values. The page makes 118 numerical claims; 117 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/non-root-vegetable-purees.md`.
 

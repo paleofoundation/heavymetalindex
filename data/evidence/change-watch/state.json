@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T07:39:18.693Z",
+  "updated_at": "2026-07-30T15:40:53.624Z",
   "regulations": {
     "regulations/atsdr-aluminum-mrls": {
       "limit_value": 1,
@@ -483,12 +483,12 @@
     },
     "apple|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "apple|tAs": {
@@ -504,11 +504,11 @@
     "apple|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": 4,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "apple|Ni": {
@@ -674,9 +674,9 @@
     "apple-juice|Cd": {
       "typical_ppb": [
         0,
-        0
+        2.6
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 3,
       "confidence": "low",
       "n_studies": 3,
       "status": "populated"
@@ -704,11 +704,11 @@
     "apple-juice|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 3,
+      "n_studies": 1,
       "status": "populated"
     },
     "apple-juice|Ni": {
@@ -734,11 +734,11 @@
     "apple-juice|Cr": {
       "typical_ppb": [
         0,
-        0
+        55
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 90,
       "confidence": "low",
-      "n_studies": 3,
+      "n_studies": 4,
       "status": "populated"
     },
     "apple-juice|Sn": {
@@ -764,11 +764,11 @@
     "applesauce|Pb": {
       "typical_ppb": [
         0,
-        0
+        4
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "applesauce|Cd": {
@@ -1464,19 +1464,19 @@
     "banana|Pb": {
       "typical_ppb": [
         0,
-        0
+        90
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 330,
       "confidence": "medium",
-      "n_studies": 5,
+      "n_studies": 6,
       "status": "populated"
     },
     "banana|Cd": {
       "typical_ppb": [
         0,
-        0
+        33
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 33,
       "confidence": "medium",
       "n_studies": 5,
       "status": "populated"
@@ -1494,9 +1494,9 @@
     "banana|tAs": {
       "typical_ppb": [
         0,
-        0
+        3
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 3.2,
       "confidence": "medium",
       "n_studies": 3,
       "status": "populated"
@@ -1534,11 +1534,11 @@
     "banana|Cr": {
       "typical_ppb": [
         0,
-        0
+        50
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 193,
       "confidence": "medium",
-      "n_studies": 4,
+      "n_studies": 6,
       "status": "populated"
     },
     "banana|Sn": {
@@ -2904,9 +2904,9 @@
     "butter|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 3,
       "confidence": "medium",
       "n_studies": 3,
       "status": "populated"
@@ -4364,10 +4364,10 @@
     "celery|Pb": {
       "typical_ppb": [
         0,
-        0
+        31
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 74,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -7384,11 +7384,11 @@
     "eggs|iAs": {
       "typical_ppb": [
         0,
-        0
+        3
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "eggs|tAs": {
@@ -8564,9 +8564,9 @@
     "frozen-peas|Pb": {
       "typical_ppb": [
         0,
-        0
+        4
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
       "n_studies": 3,
       "status": "populated"
@@ -8604,11 +8604,11 @@
     "frozen-peas|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 3,
+      "n_studies": 2,
       "status": "populated"
     },
     "frozen-peas|Ni": {
@@ -8634,9 +8634,9 @@
     "frozen-peas|Cr": {
       "typical_ppb": [
         0,
-        0
+        50
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
       "n_studies": 3,
       "status": "populated"
@@ -9434,11 +9434,11 @@
     "grapes|Cr": {
       "typical_ppb": [
         0,
-        0
+        15
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 5,
+      "p95_ppb": 50,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "grapes|Sn": {
@@ -9664,21 +9664,21 @@
     "ground-beef|Pb": {
       "typical_ppb": [
         0,
-        0
+        60
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 90,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
     "ground-beef|Cd": {
       "typical_ppb": [
         0,
-        0
+        30
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 100,
       "confidence": "medium",
-      "n_studies": 3,
+      "n_studies": 5,
       "status": "populated"
     },
     "ground-beef|iAs": {
@@ -10394,21 +10394,21 @@
     "honey|tAs": {
       "typical_ppb": [
         0,
-        0
+        60
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "medium",
-      "n_studies": 4,
+      "n_studies": 8,
       "status": "populated"
     },
     "honey|tHg": {
       "typical_ppb": [
         0,
-        0
+        45
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": 100,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "honey|Ni": {
@@ -14704,10 +14704,10 @@
     "oranges|Cr": {
       "typical_ppb": [
         0,
-        0
+        9
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 50,
+      "confidence": "low",
       "n_studies": 5,
       "status": "populated"
     },
@@ -15574,11 +15574,11 @@
     "peanuts|tHg": {
       "typical_ppb": [
         0,
-        0
+        5
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "peanuts|Ni": {
@@ -16464,10 +16464,10 @@
     "potatoes|tHg": {
       "typical_ppb": [
         0,
-        0
+        13
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 5,
       "status": "populated"
     },
@@ -19734,11 +19734,11 @@
     "strawberries|Pb": {
       "typical_ppb": [
         0,
-        0
+        11
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 32,
       "confidence": "medium",
-      "n_studies": 4,
+      "n_studies": 5,
       "status": "populated"
     },
     "strawberries|Cd": {
@@ -20464,21 +20464,21 @@
     "tomato|tAs": {
       "typical_ppb": [
         0,
-        0
+        35
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 389,
       "confidence": "medium",
-      "n_studies": 4,
+      "n_studies": 5,
       "status": "populated"
     },
     "tomato|tHg": {
       "typical_ppb": [
         0,
-        0
+        4
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 14,
       "confidence": "medium",
-      "n_studies": 3,
+      "n_studies": 4,
       "status": "populated"
     },
     "tomato|Ni": {
@@ -21764,9 +21764,9 @@
     "water|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 2,
       "confidence": "medium",
       "n_studies": 4,
       "status": "populated"

@@ -112,15 +112,13 @@ Microbiome: Not addressed.
 - Fresh-context audit (Claude subagent, 2026-05-19): REVISE → applied. Three findings corrected: (1) Pb row leads with the precise 61.7 ± 7.2 µg/L text value with Table V rounding noted, plus explicit citation of the EU 2021/1317 and ANVISA IN 88/2021 comparators the paper invokes; (2) Co row notes the text-vs-Table-V discrepancy (37.8 vs 38 ± 2); (3) recovery range corrected from 89-103% to 89-108% to capture the Mg 108 ± 5 maximum. Slug vocabulary clean, speciation discipline correct (tAs/Cr-total/Sb explicitly labeled), brand firewall clean (sample labels anonymized as in source), HMTc firewall clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [95d82ac7e](https://github.com/paleofoundation/heavymetalindex/commit/95d82ac7e) | 2026-05-19 | minor | Narrative text revised |
+| [cb5fca5ac](https://github.com/paleofoundation/heavymetalindex/commit/cb5fca5ac) | 2026-05-19 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -82,3 +82,13 @@ The source does not distinguish soy-based from non-soy formula in the HMTc row s
 - Full-PDF read performed from the seven-page journal PDF. Tables 1-7 were checked once from `pdftotext -layout` and a second time against rendered page images before commit.
 - Brand firewall: the source's named commercial formula table is not reproduced. The page reports only category-level ranges and counts.
 - HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this source.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/walkers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "037cd52ee3c0a7dcbb197921b2aede442814461e971c2b06ec730dea68455612",
-      "content_bytes": 8593,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "28bf76c2dad6ed3bc211f9de2471f2b0eaad850538f052f2d9b92f2d3e3ee9ed",
+      "content_bytes": 8620,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/walkers.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/walkers.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "c9c455be44595d9d203f97df72bd40830d193990035e319dae959c1f7c8ffd5b",
-          "content_bytes": 59408,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "c5943b8d32cbe8f78c9c22a42e5f6443214c47200f2ad8e1559194a47eb5c3f3",
+          "content_bytes": 59435,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -76,12 +76,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ul2012-chemicals-childrens-toys",
         "content_pin": {
-          "content_sha256": "00fe26d5a56f6c06ed0ba9d6c1a4cc64514316ae8dfbef2569421b05294651c9",
-          "content_bytes": 31760,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "7ed0105d7af30af1c6d0dffd8b139e039b3b08b6d48a6cb212ede2bdf173a62c",
+          "content_bytes": 31787,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
         }
       }
     ]

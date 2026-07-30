@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `cedfa8b8a` (2026-06-11). The body hashes to `sha256:6d1a29a640951465e3a4afe391678c3f…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:f741505e41479e746cb2e20d6928239f…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=supplements-algae-seaweed-based&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/supplements-algae-seaweed-based&download=1`.
 
 ## Evidence base
 
-This category is supported by 44 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 0 numerical claims; 0 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 45 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 0 numerical claims; 0 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/supplements-algae-seaweed-based.md`.
 

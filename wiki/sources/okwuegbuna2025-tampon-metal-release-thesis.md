@@ -72,12 +72,13 @@ Microbiome: Not directly addressed. Later thesis chapters develop menstrual-bloo
 Identity checks before drafting found no existing `wiki/sources/` hit for raw handle `MFK_paper-23-okwuegbuna-2025-thesis-menstrual-metals`, cite key `okwuegbuna2025-tampon-metal-release-thesis`, author/title strings, or local filename. The thesis has no DOI printed in the extracted text; `doi: null` and `no_doi_assigned: true` are retained. The PDF SHA-256 is `ab95c759c5b503edcc3f19cbaa69d58d099787d3d8779a64a35a8e7a57618dbc`. Tables 7-12 and Sections 2.2-2.4 were re-opened from `/tmp/hmi-fem-015.txt`; all values preserve the source's reported units or signal-intensity labels, and no units were converted. Brand firewall: the source names four brands, but this page omits the names and reports only anonymized regular-cotton/organic-cotton product categories. Speciation firewall: Cd, Pb, and Cu are total elemental targets in digestion/SWV standards; no inorganic arsenic, methylmercury, Cr-VI, total tin, or organotin is reported. Zn is mentioned only as the author's possible explanation for an unidentified peak and is not routed as a measured metal.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [a2f6ace70](https://github.com/paleofoundation/heavymetalindex/commit/a2f6ace70) | 2026-06-09 | ingest: okwuegbuna2025-tampon-metal-release-thesis fresh from MFK/June 8 Kimi_Agent_Feminine Care Heavy Metal Papers |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [a2f6ace70](https://github.com/paleofoundation/heavymetalindex/commit/a2f6ace70) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

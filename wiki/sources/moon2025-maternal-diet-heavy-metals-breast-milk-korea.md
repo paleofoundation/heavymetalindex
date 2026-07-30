@@ -93,15 +93,13 @@ Microbiome: High tAs exposure to the infant gut during the 0–6 month colonizat
 2026-05-19 (Claude Opus 4.7, manual-fetch enhancement): Repaired truncated `raw_path` filename (was cut at "Risk of H.pdf"; now reflects the actual on-disk filename). Expanded Key numbers to include the full Table 3 percentile distribution (P5 / P25 / P50 / P75 / P95) for Pb, Cd, Hg, tAs, the complete As EDI quartet (median, GM, SD, range), the four health-based guidance reference values reproduced from Table 1, and the regression β coefficients with 95% CIs from Table 4. Added instrument-model detail for both ICP-MS (PerkinElmer Nexion 2000 B, DRC mode) and DMA (Milestones, Sorisole, Italy). Documented LOD/√2 censoring rule applied to sub-LOD values. No content claims were softened or strengthened relative to the literature; this enhancement adds precision that was previously summarized.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [0ce0f3ad2](https://github.com/paleofoundation/heavymetalindex/commit/0ce0f3ad2) | 2026-05-19 | major | 1 section added; narrative text revised |
+| [19f640f31](https://github.com/paleofoundation/heavymetalindex/commit/19f640f31) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

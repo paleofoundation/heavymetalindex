@@ -67,12 +67,13 @@ Recovered under the 2026-06-10 inclusion-by-default rule from an earlier `skip:n
 Products and ingredients are intentionally empty. The paper measures stormwater, snowmelt, and baseflow, not a consumer product. The paper reports elemental trace metals only; no arsenic or mercury speciation issue applies here because those species are not part of the selected frontmatter metals for this page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [3f9c42c30](https://github.com/paleofoundation/heavymetalindex/commit/3f9c42c30) | 2026-06-13 | recovery \| galfi2017 urban runoff metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [3f9c42c30](https://github.com/paleofoundation/heavymetalindex/commit/3f9c42c30) | 2026-06-13 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

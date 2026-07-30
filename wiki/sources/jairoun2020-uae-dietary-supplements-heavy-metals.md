@@ -78,14 +78,14 @@ ICP-MS (Agilent 7700X) with He collision/reaction cell after CEM MARS-5 microwav
 - Audit subagent (2026-06-09) ran the five-check audit against the PDF; verdict REVISE; applied corrections: (a) Check 1 — moved the p<0.001 parenthetical off the herbs+probiotics clause and onto the powder/liquid clause in the As multivariate (Table 6 powder/liquid is p<0.001, soft-gel is p=0.003, herbs+probiotics is p=0.005); (b) Check 2 — added matrices-vocabulary flag above; (c) Check 5 — softened "directly actionable pattern for category screening" (Summary) and "concrete screening levers for any future certification" (Implications) toward literature-fidelity framing per Part 2 wiki/HMTc firewall.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [04500c164](https://github.com/paleofoundation/heavymetalindex/commit/04500c164) | 2026-06-09 | audit: jairoun2020-uae-dietary-supplements-heavy-metals revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [f1305b761](https://github.com/paleofoundation/heavymetalindex/commit/f1305b761) | 2026-06-08 | ingest: jairoun2020-uae-dietary-supplements-heavy-metals from June 8 (supplement occurrence) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [04500c164](https://github.com/paleofoundation/heavymetalindex/commit/04500c164) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [f1305b761](https://github.com/paleofoundation/heavymetalindex/commit/f1305b761) | 2026-06-08 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

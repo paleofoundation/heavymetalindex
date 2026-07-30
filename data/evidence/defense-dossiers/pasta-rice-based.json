@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pasta-rice-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2886820017b4b79c5ec6face830d0e2e38d2a567b5a12ddf9985ee2e26671e1c",
-      "content_bytes": 8377,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "faade31ad278f106a59d3a696629df09981d32a8a38c8fb02525e2bf41577feb",
+      "content_bytes": 8404,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/pasta-rice-based.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/pasta-rice-based.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
         "content_pin": {
-          "content_sha256": "5ec9a04af1fca7822352f6d993dab07695cbb6b0682f1bd146c48484516f6e76",
-          "content_bytes": 18710,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "2ce343b4d24f09f6932fd93f4f09d5e15838798d30d0609488280ff1eaffa389",
+          "content_bytes": 18751,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
         }
       },
       {
@@ -62,12 +62,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kongta2023-noodle-products-aluminum-thailand",
         "content_pin": {
-          "content_sha256": "76e190a40d28696ea8d63fd19ca621b6e363b8fa453f5f505575fe6b647065b8",
-          "content_bytes": 5576,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "0c6b42184905f2d20ca4b3e0aa6b6c662758b58f2c524bb666ebe89d03e68c98",
+          "content_bytes": 5757,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/kongta2023-noodle-products-aluminum-thailand.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/kongta2023-noodle-products-aluminum-thailand.md | sha256sum"
         }
       }
     ]

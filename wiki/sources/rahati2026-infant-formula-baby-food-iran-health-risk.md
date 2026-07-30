@@ -198,15 +198,15 @@ Monte Carlo simulation via Crystal Ball v11.1.34190 (10,000 iterations) at 95% c
 - 2026-05-17 second-pass merge-enhance (Claude Code, `/ingest-next-manual-fetch-pdf` skill v2.0, re-process of the originally-named PDF): identified a Co/Hg LOD transposition that both the prior subagent PROMOTE pass and the Codex REVISE pass missed. Source PDF p. 3 body text states verbatim "0.0014mg/kg for cobalt, 0.012mg/kg for mercury"; the predecessor revision (and both subsequent audits) recorded "Co 0.012 mg/kg, Hg 0.0014 mg/kg" — i.e., the Co and Hg LOD values were swapped. The downstream consequence is that the Hg below-LOD censoring threshold reported on this page was off by an order of magnitude (0.0014 vs the correct 0.012 mg/kg). Corrected both the LOD list and the Hg below-LOD statement. No other Table 2 / Table 3 / Table 4 values touched on this pass; the Codex SD audit is preserved as-is.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [82a0b6c50](https://github.com/paleofoundation/heavymetalindex/commit/82a0b6c50) | 2026-05-18 | minor | Narrative text revised |
+| [2c5dcf689](https://github.com/paleofoundation/heavymetalindex/commit/2c5dcf689) | 2026-05-17 | minor | Narrative text revised |
+| [b23764486](https://github.com/paleofoundation/heavymetalindex/commit/b23764486) | 2026-05-17 | minor | Narrative text revised |
+| [bddf6cfe3](https://github.com/paleofoundation/heavymetalindex/commit/bddf6cfe3) | 2026-05-17 | major | 3 sections added and 2 removed; narrative text revised |
 <!-- END: hmi-page-history -->

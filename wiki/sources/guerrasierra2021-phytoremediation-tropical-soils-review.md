@@ -136,15 +136,15 @@ No brand names are quoted from the source (the review does not name product bran
 2026-06-02 audit (fresh-context subagent, ingest-next-manual-fetch-pdf v2 skill, Phase 3 apply): verdict PROMOTE. All 5 checks clean; 3 advisory concerns reviewed. (a) Audit subagent flagged the Colombian Caribbean carbon figure "0.5–1%" as potentially mis-normalized from a "g/kg" source value — verified against PDF p. 3: source explicitly reports "between 0.5–1%", not "g/kg"; finding was a false positive (likely a PDF-render symbol-confusion artifact). (b) Audit subagent suggested adding "(as reported in source)" hedge to the worldwide-soil Fe range "20 to 550 g/kg" because it appears anomalously high — verified against PDF p. 3: range is reproduced verbatim from the source as the source reports it (ref [36]); the figure is plausible for Fe-rich tropical oxisols (≈2–55% Fe by mass) and the wiki page already attributes it to the source's page. No hedge added; the verbatim citation is the faithful representation. (c) Auditor questioned whether `supply-chain/soil-to-plant-transfer` is a real wiki page — verified: `wiki/supply-chain/soil-to-plant-transfer.md` exists in the corpus. No content changes from this audit pass; verification-note record only.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [3e2c18877](https://github.com/paleofoundation/heavymetalindex/commit/3e2c18877) | 2026-06-02 | minor | Narrative text revised |
+| [77fcd61c3](https://github.com/paleofoundation/heavymetalindex/commit/77fcd61c3) | 2026-06-02 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-greens-superfood",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8ea523791ae660ab6e103eb9285687ddeb59057b68d72933588f1d2e23a227dc",
-      "content_bytes": 1166,
-      "last_commit_sha": "45ecb2e7e",
-      "last_commit_date": "2026-06-10",
+      "content_sha256": "fdb62298c7b5728a35293d5632d9a630582cea3f279d0e058ec695a279010292",
+      "content_bytes": 1345,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 45ecb2e7e:wiki/products/supplements-greens-superfood.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/supplements-greens-superfood.md | sha256sum"
     }
   },
   "evidence_base": {

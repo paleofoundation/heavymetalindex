@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-clay-mineral-earth",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6f8668cacf10df42cb45c974229afe684e6e0cbf65ebc0daa478dfca8cc03222",
-      "content_bytes": 1207,
-      "last_commit_sha": "45ecb2e7e",
-      "last_commit_date": "2026-06-10",
+      "content_sha256": "48a20f186f030ffeed87380582bf96ea41977d0a69f62a2e44d9e90be1e352dc",
+      "content_bytes": 1386,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 45ecb2e7e:wiki/products/supplements-clay-mineral-earth.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/supplements-clay-mineral-earth.md | sha256sum"
     }
   },
   "evidence_base": {

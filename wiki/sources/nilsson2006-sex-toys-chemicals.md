@@ -89,12 +89,13 @@ Microbiome: Not applicable.
 Identity checks before drafting found no existing `wiki/sources/` hit for raw handle `MFK_paper-15-danish-epa-2006-sex-toys-chemicals`, candidate cite key `nilsson2006-sex-toys-chemicals`, cover/title strings, or Danish EPA Survey No. 77 sex-toy references. The report has no DOI in the local PDF; `doi: null` and `no_doi_assigned: true` are retained. The raw PDF SHA-256 from the novelty CSV and local check is `a5f1b554cc423932f3285e136c20d59611a13eb2251238a8d20fe92a2a9a4e32`. The title is copied from the cover, including the source misspellings "assesment" and "chemicals substances." Table 4.2, Table 4.6, Table 6.1, Section 5.1.1, Section 7.3.9.2, Table 7.15, and Table 7.16 were re-opened from `/tmp/hmi-fem-009.txt`; all numbers above preserve the source's units and decimal punctuation without conversion. Arsenic is total arsenic only, chromium is total chromium, and tin is total Sn except where trimethyltin chloride is explicitly named; organotin values are not collapsed into inorganic Sn. No brand names are attached to contaminant values. `menstrual-intimate-products-other` is used because the existing product page states it is for "Other menstrual/intimate products (case-by-case)" and no closed sex-toy slug exists; `ingredients: []` is intentional because no closed ingredient/material slug fits these consumer-product materials. `npm run evidence:source-routes` exited 0 and generated one `menstrual-intimate-products-other` product route; `routing_malformed.csv` contains an advisory-only missing-ingredients warning.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [96007b0d6](https://github.com/paleofoundation/heavymetalindex/commit/96007b0d6) | 2026-06-09 | ingest: nilsson2006-sex-toys-chemicals fresh from MFK/June 8 Kimi_Agent_Feminine Care Heavy Metal Papers |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [96007b0d6](https://github.com/paleofoundation/heavymetalindex/commit/96007b0d6) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -231,6 +231,19 @@ Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-lev
 
 For processed peach products intended for infants and young children, the EU applies lower Pb limits under the same regulation for processed cereal-based foods and baby foods. FDA's Closer to Zero program ([[regulations/fda-closer-to-zero]]) has proposed action levels for Pb in fruit purees and juices consumed by infants and young children; the peach category is within scope of this framework. No Codex Alimentarius maximum level for Cd or Pb specifically in stone fruit applies at the same limit values as the EU, but Codex sets guidance levels for fruit generally ([[regulations/codex-cadmium-mls]]).
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+2. Rahim M, Saqib NU, Wahid F, Khan N, and Alrawi LI (2020). *Analysis of Toxic Heavy Metal Content of the Most Widely Consumed Fruits*. Journal of Physical Science. [https://doi.org/10.21315/jps2020.31.2.5](https://doi.org/10.21315/jps2020.31.2.5). Peer-reviewed, A-tier. [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Source record]]
+3. Mohammad Rezaei, Yousef Fakhri, Maryam Abtahi, Majid Keramati, Gholamreza Ghasemi, Mohammad H. Moradi, et al. (2020). *Essential elements in the different type of fruits, soil and water samples collected from Markazi province, Iran: a health risk assessment study*. Quality Assurance and Safety of Crops & Foods. [https://doi.org/10.15586/qas.v12i3.777](https://doi.org/10.15586/qas.v12i3.777). Peer-reviewed, A-tier. [[sources/rezaei2020-fruits-markazi-essential-elements|Source record]]
+4. Hadi QM, Mahdi FA, Hamood FJ, Abbas SH, and Abojassim AA (2025). *Health Impact of Heavy Metals in Samples of Dried Fruits in Iraq*. International Journal of Analytical Chemistry. [https://doi.org/10.1155/ianc/3934929](https://doi.org/10.1155/ianc/3934929). Peer-reviewed, B-tier. [[sources/hadi2025-dried-fruits-heavy-metals-iraq|Source record]]
+5. Dabeka RW and McKenzie AD (1995). *Survey of Lead, Cadmium, Fluoride, Nickel, and Cobalt in Food Composites and Estimation of Dietary Intakes of These Elements by Canadians in 1986-1988*. Journal of AOAC International. [academic.oup.com](https://academic.oup.com/jaoac/article/78/4/897/5685687). Peer-reviewed, A-tier. [[sources/dabeka1995-canadian-food-composites-metals|Source record]]
+6. Tsegay ZT, Smaoui S, and Varzakas T (2025). *Toxicological qualities and detoxification trends of fruit by-products for valorization: A review*. Open Life Sciences 20:20251105. [https://doi.org/10.1515/biol-2025-1105](https://doi.org/10.1515/biol-2025-1105). Peer-reviewed, B-tier. [[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -246,15 +259,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
-| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 4 (final) — 21 pages / 42 cells; backlog now ZERO |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | correction | 6 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

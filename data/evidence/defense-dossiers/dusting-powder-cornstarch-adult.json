@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/dusting-powder-cornstarch-adult",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4b96d85dfad7b7d26a1654ccf12693000770ff2099dbe96dcc77bc1c5544f484",
-      "content_bytes": 1164,
-      "last_commit_sha": "45ecb2e7e",
-      "last_commit_date": "2026-06-10",
+      "content_sha256": "d08900b2995a157a292a839b95e443d5c4c014deb40ee12d4fe94d89891bceab",
+      "content_bytes": 1343,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 45ecb2e7e:wiki/products/dusting-powder-cornstarch-adult.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/dusting-powder-cornstarch-adult.md | sha256sum"
     }
   },
   "evidence_base": {

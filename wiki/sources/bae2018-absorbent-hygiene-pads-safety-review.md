@@ -87,15 +87,13 @@ Narrative literature review, no primary samples. Structured around the four-step
 - 2026-05-18 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.3390/su10114146` not present; raw_handle `MFK_safety-evaluation-of-absorbent-hygiene-pads-a-revi` not present; cite-key stem `bae2018` not present. PDF SHA-256 `1852664458af40802a0c576c35f407ee18f383bb25adc1f77a5aec9b0ad97aae`. Paper is a methodology review with no primary heavy-metal measurements — ingested as out-of-core-scope methodology / regulatory-context reference per the [[sources/lai2025-infant-diaper-phthalate-dna-oxidation]] precedent. Routed to `[[products/diapers-and-components]]` (HMTc Cat 9 Row 7 scaffold) and `[[products/menstrual-pads]]` (HMTc Cat 15 Row 2 scaffold) for discoverability as a multi-product methodology reference; `metals: []` correctly reflects no metal occurrence data.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [faed66da8](https://github.com/paleofoundation/heavymetalindex/commit/faed66da8) | 2026-05-18 | minor | Narrative text revised |
+| [8c2b48060](https://github.com/paleofoundation/heavymetalindex/commit/8c2b48060) | 2026-05-18 | major | 2 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

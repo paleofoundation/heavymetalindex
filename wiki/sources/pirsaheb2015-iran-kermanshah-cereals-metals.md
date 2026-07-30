@@ -171,15 +171,13 @@ The single-city sampling footprint, the small per-cell replicate count (triplica
 - **Audit-application notes (2026-06-01, Claude audit subagent, general-purpose, fresh context).** Subagent verdict REVISE. Three findings applied: (1) opening narrative Cd-exceedance count corrected from "five of seven commodities (wheat, corn, bean, split peas)" to "four of seven commodities (wheat, corn, bean, split peas)" — the enumerated list was correct, the count was wrong (verified against source p. 4: "all cereals were higher than the safe limit... except for peas and lentil"; rice mean 0.055 was below Codex per p. 3, so Codex-exceeding commodities total 4); (2) opening narrative Iranian-limit framing corrected from "in all commodities except lentil where the Iranian limit was matched" to "in six of seven commodities (all commodities except rice, whose 0.055 mg/kg mean was below both ceilings)" — the prior phrasing both misattributed the below-Iranian-limit commodity (rice, not lentil) and used "matched" where the source describes lentil mean 0.07 as "higher than the safe limit as set by the National standards of Iran" (p. 4); (3) brand-firewall Verification note rewritten to describe the stripping policy without enumerating the cultivar/brand identifiers that were stripped (the audit correctly observed that listing the names in the Verification note re-introduces the brand-level information that the table-side stripping was meant to remove). No findings rejected; all three findings were verified against the source and applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [0c00555c1](https://github.com/paleofoundation/heavymetalindex/commit/0c00555c1) | 2026-06-01 | minor | Narrative text revised |
+| [c546ac0d8](https://github.com/paleofoundation/heavymetalindex/commit/c546ac0d8) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

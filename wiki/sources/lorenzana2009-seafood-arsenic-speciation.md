@@ -78,13 +78,12 @@ This review supports seafood evidence routing as speciation context rather than 
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; broad seafood, shellfish, fish, and seaweed routing is used because the review spans multiple species and markets.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [01b3122bb](https://github.com/paleofoundation/heavymetalindex/commit/01b3122bb) | 2026-06-08 | ingest: lorenzana2009-seafood-arsenic-speciation fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [01b3122bb](https://github.com/paleofoundation/heavymetalindex/commit/01b3122bb) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

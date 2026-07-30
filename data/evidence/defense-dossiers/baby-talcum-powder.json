@@ -24,12 +24,12 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-talcum-powder",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "59e3bdf735a0a4f0188cfef681b3848711ac62cbcca22cbb0d79aa79d019d47d",
-      "content_bytes": 14675,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "169b7ddadf0bfad8828e02fb3a1f9ff4965f06da89c2e7584ec5b7f12137968b",
+      "content_bytes": 14702,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/baby-talcum-powder.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/baby-talcum-powder.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -58,12 +58,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "d0e18e2ff16282cb62aa560e858c5b46a81dae5cb9bf029e3d6da70743d5b236",
-          "content_bytes": 35275,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "a74a8187dcbb97b251f0fc344e3980ca277b0f42cfe10ab0cc8d0fbcbd4fc89a",
+          "content_bytes": 35302,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -79,12 +79,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed",
         "content_pin": {
-          "content_sha256": "248afd9c0ea55529862295cdec43480ab0886e13c2db6f8f40cd8c1be5669ada",
-          "content_bytes": 24396,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "ae7db0aab03b90eee7e08dcfacea59a9b10401c6348b264805ae0e7ba55fdd5f",
+          "content_bytes": 24423,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed.md | sha256sum"
         }
       },
       {
@@ -97,12 +97,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/moon2011-baby-powder-inhalation-risk-assessment",
         "content_pin": {
-          "content_sha256": "220e58f21b0026632c2675157e2c10dbbc32a620c03b3780d270c4b3d03c6c55",
-          "content_bytes": 15536,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "5a3fd6921ab14a583bd1dc4049806e83ec51c00f60da3178a29ce156dc1a0222",
+          "content_bytes": 15563,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/moon2011-baby-powder-inhalation-risk-assessment.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/moon2011-baby-powder-inhalation-risk-assessment.md | sha256sum"
         }
       },
       {
@@ -119,12 +119,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rashmi2020-baby-talcum-powder-heavy-metals-india",
         "content_pin": {
-          "content_sha256": "104a791434f5e06e8a3bc8b723f3ad79afde5b360be038526ad74c7fdeeb6d56",
-          "content_bytes": 15631,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "7c0037c46f8d43c1fd65ae715173ef49a4aa58bc25782d87d253bab550410c25",
+          "content_bytes": 15658,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india.md | sha256sum"
         }
       },
       {
@@ -142,12 +142,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rbeida2023-heavy-metals-cosmetics-libya",
         "content_pin": {
-          "content_sha256": "57362a29f0241e8ea929c3e174ff379e4063a529009fb8ba883c06d2ec7561f2",
-          "content_bytes": 24963,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "1de5e45960d78e5f129ae47dc6a20c535cfebdd45648f6d247682e523281ad34",
+          "content_bytes": 24990,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/rbeida2023-heavy-metals-cosmetics-libya.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/rbeida2023-heavy-metals-cosmetics-libya.md | sha256sum"
         }
       },
       {
@@ -160,12 +160,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "e645e313ecfb28f888e49954e3cd304b867d8895101ada2253fd322db7eb940c",
-          "content_bytes": 31147,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "3fd2e0164f5c1247cda2385a82de33a253b42992d52222326aba7f971cb40018",
+          "content_bytes": 31174,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       }
     ]

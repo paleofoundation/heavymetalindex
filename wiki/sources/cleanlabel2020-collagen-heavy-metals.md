@@ -91,13 +91,13 @@ Thirty collagen supplement products were procured from US local, national, and o
 - Audit subagent (2026-06-08) Check 1 ⚠️: flagged that Cd 4.1 µg/day and Pb 0.5 µg/day Prop 65 MADL numerics are not printed on the face of the white paper (only "over 2×" and "over 3×" multipliers are). Verified against PDF page 4 — finding is correct. Revised Key numbers context paragraph to make explicit that the 4.1 and 0.5 µg/day values are imported from OEHHA's published Safe Harbor list rather than from this source; the 10 µg/day tAs comparison value is on the PDF face. Audit subagent Check 2 ⚠️ (matrices slugs not in snapshot) was already disclosed in this notes section before audit; no further action.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1bab1eaf1](https://github.com/paleofoundation/heavymetalindex/commit/1bab1eaf1) | 2026-06-08 | audit: cleanlabel2020-collagen-heavy-metals revised |
-| [913b96286](https://github.com/paleofoundation/heavymetalindex/commit/913b96286) | 2026-06-08 | ingest: cleanlabel2020-collagen-heavy-metals fresh from June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [1bab1eaf1](https://github.com/paleofoundation/heavymetalindex/commit/1bab1eaf1) | 2026-06-08 | minor | Narrative text revised |
+| [913b96286](https://github.com/paleofoundation/heavymetalindex/commit/913b96286) | 2026-06-08 | major | 2 sources added; 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

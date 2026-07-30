@@ -96,14 +96,14 @@ The source reports its cow-milk Cd and Mn global means at two different precisio
 Audit subagent (2026-06-08) flagged `products/milk-and-dairy` as absent from `docs/gpt-collaboration/taxonomy-snapshot.md`; verified independently — finding was a false positive because the taxonomy snapshot was generated 2026-05-18 and is stale relative to the live wiki. `wiki/products/milk-and-dairy.md` exists as a provisional scaffold created 2026-06-01 (provisional_scaffold: true, hmtc_category: pending_taxonomy_review), and the routing audit successfully resolves this source to that target with 0 unresolved and 0 malformed. No frontmatter change applied. Audit subagent (2026-06-08) also flagged the original `2.2 ± 1.8` and `5.9 ± 1.2` cow-milk Cd and Mn values as rounded relative to the abstract's `2.15 ± 1.84` and `5.93 ± 1.21`; verified against PDF page 1 abstract — finding was correct; values updated to the abstract precision.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [480888108](https://github.com/paleofoundation/heavymetalindex/commit/480888108) | 2026-06-08 | audit: andrade2023-cow-milk-soy-metals revised |
-| [38e80715d](https://github.com/paleofoundation/heavymetalindex/commit/38e80715d) | 2026-06-08 | ingest: andrade2023-cow-milk-soy-metals fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [480888108](https://github.com/paleofoundation/heavymetalindex/commit/480888108) | 2026-06-08 | minor | Narrative text revised |
+| [38e80715d](https://github.com/paleofoundation/heavymetalindex/commit/38e80715d) | 2026-06-08 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

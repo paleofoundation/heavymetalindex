@@ -244,6 +244,17 @@ Ground beef is typically packaged in oxygen-scavenged trays or vacuum pouches, n
 
 EU Regulation 2023/915 (and its predecessor framework under Regulation 1881/2006) sets maximum levels for muscle meat of bovine animals of 0.10 mg/kg wet weight for Pb and 0.050 mg/kg wet weight for Cd [[regulations/eu2023-contaminants-maximum-levels]]. These values apply to the product as placed on the market; the FDA TDS data for ground beef show Pb and Cd below reporting limits across all 27 samples, consistent with compliance. The United States does not set specific statutory action levels for Pb or Cd in muscle meat for domestic market purposes, though FDA's Closer to Zero program establishes monitoring and action framework for selected food categories. No specific US regulatory limit for tAs in beef muscle exists in the current corpus. The EU Cd limit for bovine muscle meat of 0.050 mg/kg (50 ppb wet weight) is the operative regulatory cap for the EU market [[regulations/eu-2023-915-cadmium]]. Codex Alimentarius does not set a specific ML for Pb or Cd in bovine muscle meat as distinct from other meat categories [[regulations/codex-cadmium-mls]].
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+2. Rabeey MA, Sabala RF, Zakaria AI, and Sallam KI (2025). *Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt*. Scientific Reports. [https://doi.org/10.1038/s41598-025-29927-x](https://doi.org/10.1038/s41598-025-29927-x). Peer-reviewed, A-tier. [[sources/rabeey2025-bovine-hg-pb-cd-egypt|Source record]]
+3. Fathy A. Khalafalla, Fatma H. Ali, Fredi Schwagele, and Mariam A. Abd-El-Wahab (2011). *Heavy metal residues in beef carcasses in Beni-Suef abattoir, Egypt*. Veterinaria Italiana. [www.izs.it](https://www.izs.it/vet_italiana/2011/47_3/351.pdf). Peer-reviewed, A-tier. [[sources/khalafalla2011-beef-carcasses-metals-egypt|Source record]]
+4. Mohamed NH, Yahya G, El Bayoumi RM, Hussein MAM, Cavalu S, Dahshan H, et al. (2023). *Detection and health risk assessment of toxic heavy metals in chilled and frozen meat collected from Sharkia province in Egypt*. [https://doi.org/10.5455/OVJ.2023.v13.i12.21](https://doi.org/10.5455/OVJ.2023.v13.i12.21). Peer-reviewed, A-tier. [[sources/mohamed2023-heavy-metals-beef-egypt|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -256,15 +267,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [22134c35a](https://github.com/paleofoundation/heavymetalindex/commit/22134c35a) | 2026-06-23 | fix(integrity): drain 28 re-accumulated censored-zero contamination cells; re-flip audit to build-blocking |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 4 (final) — 21 pages / 42 cells; backlog now ZERO |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [22134c35a](https://github.com/paleofoundation/heavymetalindex/commit/22134c35a) | 2026-06-23 | correction | Contamination-profile values revised; narrative text revised |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | correction | 4 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

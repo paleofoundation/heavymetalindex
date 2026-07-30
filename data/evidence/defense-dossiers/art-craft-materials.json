@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/art-craft-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "53ab283b084fa7d9428fa1d8d574627f7f9bfca1ec55bdcc2c7322231d5136b6",
-      "content_bytes": 11271,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "6e802b0443d06254af9246d810b19658a00580dce242474538df66853c42801f",
+      "content_bytes": 11312,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/art-craft-materials.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/art-craft-materials.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,12 +50,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gautam2024-finger-paints-metals-formaldehyde",
         "content_pin": {
-          "content_sha256": "8c9c5a5459a6ba9379e47084ee08a796b1e05931695fcecf0c0b2f7d6a58c7c3",
-          "content_bytes": 12337,
-          "last_commit_sha": "5714927e2",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "8c8821157377be6867fdfb99ab9a9b0cffc74a4f1b78322a722d465f15c07984",
+          "content_bytes": 12516,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 5714927e2:wiki/sources/gautam2024-finger-paints-metals-formaldehyde.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/gautam2024-finger-paints-metals-formaldehyde.md | sha256sum"
         }
       },
       {
@@ -77,12 +77,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/iso2020-8124-3-toy-migration-elements",
         "content_pin": {
-          "content_sha256": "fa9b8ca38f235da4766fd78af92eb56f686028ebfb33d12c667a3614023f7847",
-          "content_bytes": 33717,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "d568f5180bb67ad902b7ac3ac5b43b51cc8b9344157bb9ee627d756f8f960d0c",
+          "content_bytes": 33744,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/iso2020-8124-3-toy-migration-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/iso2020-8124-3-toy-migration-elements.md | sha256sum"
         }
       },
       {
@@ -100,12 +100,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jalal2020-modeling-clay-metals",
         "content_pin": {
-          "content_sha256": "48fbe2ab7eb69cef2449a45d42b7531f1f40050e44716f228daa7313e87c04ed",
-          "content_bytes": 6182,
-          "last_commit_sha": "50336a4d0",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "57b0864eb04a39321d48e78bdf7556c0f4d8188d0644ab7a4b6862883502aece",
+          "content_bytes": 6361,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50336a4d0:wiki/sources/jalal2020-modeling-clay-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/jalal2020-modeling-clay-metals.md | sha256sum"
         }
       },
       {
@@ -126,12 +126,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015",
         "content_pin": {
-          "content_sha256": "881655a28170c78ae5679a3dad88670f78ba1a6f071cd21c48122f10ca0d70c1",
-          "content_bytes": 40625,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "edc78dc963e4529c07a8ccc85d12b959fd8c6e694d363dca3091d99a4a4d2a0c",
+          "content_bytes": 40652,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015.md | sha256sum"
         }
       },
       {
@@ -153,12 +153,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ul2012-chemicals-childrens-toys",
         "content_pin": {
-          "content_sha256": "00fe26d5a56f6c06ed0ba9d6c1a4cc64514316ae8dfbef2569421b05294651c9",
-          "content_bytes": 31760,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "7ed0105d7af30af1c6d0dffd8b139e039b3b08b6d48a6cb212ede2bdf173a62c",
+          "content_bytes": 31787,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
         }
       },
       {
@@ -173,12 +173,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/villarreal2021-ic-icpms-cr-vi-toys",
         "content_pin": {
-          "content_sha256": "e26f0b956651e10812018eb272c005abca6dd816a3237dbb8c0dd5c8dbe076ef",
-          "content_bytes": 24933,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "4be4af8a2673da1374d6458bf84d55e0d770b82844d2c485de359011ede45d4a",
+          "content_bytes": 24960,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/villarreal2021-ic-icpms-cr-vi-toys.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/villarreal2021-ic-icpms-cr-vi-toys.md | sha256sum"
         }
       }
     ]

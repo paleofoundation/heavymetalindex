@@ -120,16 +120,31 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Hands JM, Anderson ML, Cooperman T, Balsky JE, and Frame LA (2024). *A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA*. Frontiers in Nutrition. [https://doi.org/10.3389/fnut.2024.1366231](https://doi.org/10.3389/fnut.2024.1366231). Peer-reviewed, A-tier. [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa|Source record]]
+2. Brum RdL, Siedzik K, Alejandro-Vega S, Paz-Montelongo S, Gutiérrez-Fernández AJ, González-Weller D, et al. (2025). *Assessment of Essential Elements and Potentially Toxic Elements (PTEs) in Organic and Conventional Flaxseeds: Implications for Dietary Exposure and Food Safety*. Applied Sciences. [https://doi.org/10.3390/app15137004](https://doi.org/10.3390/app15137004). Peer-reviewed, A-tier. [[sources/brum2025-flaxseeds-ptes-organic-conventional|Source record]]
+3. Potortì AG, Albergamo A, Nava V, Lo Turco V, Litrenta F, Spanò IM, et al. (2026). *Chemical Composition and Nutritional Quality of Commercial Tahini*. Applied Sciences. [https://doi.org/10.3390/app16031400](https://doi.org/10.3390/app16031400). Peer-reviewed, A-tier. [[sources/potorti2026-tahini-quality-safety-inorganic-elements|Source record]]
+4. Slepecka K, Kalwa K, Wyrostek J, and Pankiewicz U (2017). *Evaluation of cadmium, lead, zinc and copper levels in selected ecological cereal food products and their non-ecological counterparts*. Current Issues in Pharmacy and Medical Sciences 30(3):147-150. [https://doi.org/10.1515/cipms-2017-0027](https://doi.org/10.1515/cipms-2017-0027). Peer-reviewed, B-tier. [[sources/slepecka2017-ecological-cereal-heavy-metals-poland|Source record]]
+5. Gardener H, Bowen J, and Callan SP (2019). *Lead and cadmium contamination in a large sample of United States infant formulas and baby foods*. Science of the Total Environment. [https://doi.org/10.1016/j.scitotenv.2018.09.026](https://doi.org/10.1016/j.scitotenv.2018.09.026). Peer-reviewed, A-tier. [[sources/gardener2019-pb-cd-us-infant-formula-baby-foods|Source record]]
+6. Grochowska-Niedworok E, Nieć J, and Baranowska R (2020). *Assessment of cadmium and lead content in tomatoes and tomato products*. Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene). [https://doi.org/10.32394/rpzh.2020.0126](https://doi.org/10.32394/rpzh.2020.0126). Peer-reviewed, A-tier. [[sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland|Source record]]
+7. Dearing C, Ye Z, and Robertshaw G (2025). *Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis*. F1000Research. [https://doi.org/10.12688/f1000research.175538.1](https://doi.org/10.12688/f1000research.175538.1). Peer-reviewed, B-tier. [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Source record]]
+8. Nazari F, Mirza Alizadeh A, Alikord M, Dizaji R, Torki Z, Shoeibi S, et al. (2023). *Impacts of Heavy Metals in Seed Crops and Oil Seed on Human Health: A Threat to Food Safety — Review*. Carpathian Journal of Food Science and Technology, 15(2), 106-124. [https://doi.org/10.34302/crpjfst/2023.15.2.10](https://doi.org/10.34302/crpjfst/2023.15.2.10). Review, B-tier. [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | fix(synthesis): coherent index (Overview toggle, no dump) + subpage Overviews |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
-| [299acb4cb](https://github.com/paleofoundation/heavymetalindex/commit/299acb4cb) | 2026-06-11 | fix(synthesis): recalibrate organic-not-protective title + opening to the verified evidence pool |
-| [ca19a4414](https://github.com/paleofoundation/heavymetalindex/commit/ca19a4414) | 2026-06-11 | fix(synthesis): correct Brum2025 flaxseed Pb values + journal on organic-certification-not-protective |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
+| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
+| [299acb4cb](https://github.com/paleofoundation/heavymetalindex/commit/299acb4cb) | 2026-06-11 | correction | Narrative text revised |
+| [ca19a4414](https://github.com/paleofoundation/heavymetalindex/commit/ca19a4414) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

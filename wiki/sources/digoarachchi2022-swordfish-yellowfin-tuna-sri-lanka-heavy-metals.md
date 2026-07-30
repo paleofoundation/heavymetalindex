@@ -63,15 +63,14 @@ The source is useful for geographic/seasonal swordfish mercury context in the In
 - The Results section describes station 2 (76-80°E, 0-8°N) as containing the "highest capture" of swordfish; this refers to harvest density, not the highest Hg concentration. Station-level exceedance percentages and the paper's own abstract and conclusion identify station 1 (64-70°E, 0-8°N) as the area of highest Hg accumulation.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [f4124a397](https://github.com/paleofoundation/heavymetalindex/commit/f4124a397) | 2026-06-09 | audit: digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals revised per autonomous audit |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [f4124a397](https://github.com/paleofoundation/heavymetalindex/commit/f4124a397) | 2026-06-09 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [64af12214](https://github.com/paleofoundation/heavymetalindex/commit/64af12214) | 2026-05-25 | minor | Narrative text revised |
+| [4123c6387](https://github.com/paleofoundation/heavymetalindex/commit/4123c6387) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -60,15 +60,13 @@ The paper reports total As and total Cr. Do not route it to iAs or Cr(VI).
 The paper contains an internal inconsistency on the lowest-concentration metals: the abstract states that "Cobalt and Lead" were the lowest at "less than 0.005 mg/kg," but the Results, Discussion, and Figure 1 all give specific values of Co 0.002 mg/kg and Pb 0.08 mg/kg, and the Discussion explicitly notes Pb 0.08 mg/kg is "just above recommended values by International Dairy Federation." The wiki page uses the Results/Discussion/Figure 1 values, which are the internally consistent set. The reported instrumental detection limit was 0.005 ppm, so Co at 0.002 mg/kg sits below the stated LOD and should be treated as <LOD context, not a defensible point estimate.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [35c87e344](https://github.com/paleofoundation/heavymetalindex/commit/35c87e344) | 2026-06-09 | audit: davidov2019-cow-milk-heavy-metals revised per autonomous audit (page + queue) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [35c87e344](https://github.com/paleofoundation/heavymetalindex/commit/35c87e344) | 2026-06-09 | minor | Narrative text revised |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [0edf3ce78](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce78) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

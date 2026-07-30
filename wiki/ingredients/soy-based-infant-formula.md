@@ -111,6 +111,19 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 
 This is a structural ingredient/profile node for soy-based infant formula routing. Finished formula occurrence values belong on the relevant formula product pages unless a source reports ingredient-only values.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Shelle-Ann M. Burrell and Christopher Exley (2010). *There is (still) too much aluminium in infant formulas*. BMC Pediatrics. [https://doi.org/10.1186/1471-2431-10-63](https://doi.org/10.1186/1471-2431-10-63). Peer-reviewed, A-tier. [[sources/burrell2010-aluminium-in-infant-formulas|Source record]]
+2. Rachel C. Thoerig, Lauren E. O'Connor, Maureen K. Spill, Arin A. Balalian, Rupal Trivedi, Shailesh M. Advani, et al. (2025). *Assessment of arsenic, cadmium, lead, mercury, and per- and polyfluoroalkyl substances concentrations in human milk and infant formula in the United States: a systematic review*. American Journal of Clinical Nutrition, Vol. 122, pp. 1006-1026. [https://doi.org/10.1016/j.ajcnut.2025.07.001](https://doi.org/10.1016/j.ajcnut.2025.07.001). Peer-reviewed, A-tier. [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review|Source record]]
+3. Courtney C. Carignan, Kathryn L. Cottingham, Brian P. Jackson, Shohreh F. Farzan, A. Jay Gandolfi, Tracy Punshon, et al. (2015). *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*. Environmental Health Perspectives, Vol. 123, No. 5, pp. 500-506. [https://doi.org/10.1289/ehp.1408789](https://doi.org/10.1289/ehp.1408789). Peer-reviewed, A-tier. [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants|Source record]]
+4. Brian P. Jackson, Vivien F. Taylor, Tracy Punshon, and Kathryn L. Cottingham (2012). *Arsenic concentration and speciation in infant formulas and first foods*. Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223. [https://doi.org/10.1351/PAC-CON-11-09-17](https://doi.org/10.1351/PAC-CON-11-09-17). Peer-reviewed, A-tier. [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Source record]]
+5. Lawrence H. Pacquette and Anumolu Anumula (2016). *Simultaneous Determination of Arsenic, Cadmium, Mercury, and Lead in Raw Ingredients, Nutritional Products, and Infant Formula by Inductively Coupled Plasma Mass Spectrometry: Single-Laboratory Validation*. Journal of AOAC International, Vol. 99, No. 3, pp. 766-779. [https://doi.org/10.5740/jaoacint.15-0211](https://doi.org/10.5740/jaoacint.15-0211). Peer-reviewed, A-tier. [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation|Source record]]
+6. SCHEER (2017). *Final Opinion on tolerable intake of aluminium with regards to adapting the migration limits for aluminium in toys*. Scientific Committee on Health, Environmental and Emerging Risks (SCHEER), European Commission. [https://doi.org/10.2875/264211](https://doi.org/10.2875/264211). Government report, A-tier. [[sources/scheer2017-aluminium-tolerable-intake-toys|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -195,15 +208,15 @@ Soy-based formula derivatives are the same format set as other infant formulas: 
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant formula yields stringent serving-based screen.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [c06900296](https://github.com/paleofoundation/heavymetalindex/commit/c06900296) | 2026-05-17 | major | 6 sources added; narrative text revised |
+| [e3eb66979](https://github.com/paleofoundation/heavymetalindex/commit/e3eb66979) | 2026-05-17 | major | 3 sources added; narrative text revised |
+| [e3c860eb5](https://github.com/paleofoundation/heavymetalindex/commit/e3c860eb5) | 2026-05-17 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

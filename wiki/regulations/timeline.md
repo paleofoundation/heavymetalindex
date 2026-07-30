@@ -3,7 +3,7 @@ title: "Regulatory tightening over time"
 description: "Chronological view of every dated regulation in the Heavy Metal Index, grouped by decade. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-06-23
+updated: 2026-07-30
 noindex: false
 ---
 
@@ -117,7 +117,7 @@ A regulation's appearance in the timeline does not imply endorsement by the Heav
 For the cross-jurisdiction matrix view, see [[regulations/by-jurisdiction]].
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-This page is auto-regenerated from upstream data on every build. Edits by hand are overwritten on the next prebuild. See the generator named in the page intro for the data source and update cadence; the full commit history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+This page is regenerated from upstream evidence records on every build, so its version history is the history of that upstream data rather than of hand edits. The full commit record lives in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

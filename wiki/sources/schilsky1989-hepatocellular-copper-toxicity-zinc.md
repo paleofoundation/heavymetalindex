@@ -173,14 +173,14 @@ Funding: NIH grants DK-34668, DK-17702, DK-32972; National Center for the Study 
 **Audit subagent (2026-06-08) verdict: PROMOTE → minor concern applied.** Five checks returned ✅ on all five (Check 1 numerical fidelity, Check 2 slug vocabulary, Check 3 speciation/methods, Check 4 Part 12 brand firewall, Check 5 Part 2 HMTc firewall). One ⚠️ concern was raised in Check 3 (the Western-blot XAR-5 exposure temperature in Methods (brief) was written as "70°C" when the PDF p. 1563 has "−70°C" — film exposure for autoradiography is always at sub-freezing temperatures, +70°C would destroy the film, so this was a missing-minus-sign typo). Verified against PDF p. 1563 ("`exposure to XAR-5 film (Eastman Kodak Co.) at −70°C`") and against the parallel mentions of "−70°C" for SB-5 film exposure on p. 1562 and the [³⁵S]cysteine sample storage on p. 1564, all consistent with the standard autoradiography practice. Applied the correction: "70°C" → "−70°C" in the Western-blot Methods entry. Subagent ID a6ec741a344df5657.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [7e3ca4799](https://github.com/paleofoundation/heavymetalindex/commit/7e3ca4799) | 2026-06-08 | audit: schilsky1989-hepatocellular-copper-toxicity-zinc revised |
-| [83a5ba62a](https://github.com/paleofoundation/heavymetalindex/commit/83a5ba62a) | 2026-06-08 | ingest: schilsky1989-hepatocellular-copper-toxicity-zinc fresh from MFK/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [7e3ca4799](https://github.com/paleofoundation/heavymetalindex/commit/7e3ca4799) | 2026-06-08 | minor | Narrative text revised |
+| [83a5ba62a](https://github.com/paleofoundation/heavymetalindex/commit/83a5ba62a) | 2026-06-08 | major | 15 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

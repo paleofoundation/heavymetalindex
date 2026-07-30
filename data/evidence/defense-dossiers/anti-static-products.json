@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/anti-static-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "aa422c55bc47cde965a40ffb7875bc22e5de3b7a10b6e678803d9617d7277205",
-      "content_bytes": 8376,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "b0cffb022be57d6c1171b823a84796208fc428436510a1a78f68ea5188da6e67",
+      "content_bytes": 8417,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/anti-static-products.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/anti-static-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/greenseal2020-gs51-laundry-care-products",
         "content_pin": {
-          "content_sha256": "b8ce52cd4d4ed2f75afcf9a9b225ba3652ecf3c096deaebeaee0fd30360c40e8",
-          "content_bytes": 8962,
-          "last_commit_sha": "c7e5aec50",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "9f3fa9ceff5b2cafcbbec31ecf5b95a1af9b0da0990042fe7900a3321ac2baf1",
+          "content_bytes": 9141,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c7e5aec50:wiki/sources/greenseal2020-gs51-laundry-care-products.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/greenseal2020-gs51-laundry-care-products.md | sha256sum"
         }
       }
     ]

@@ -24,7 +24,7 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-06-11
 last_full_resynthesis: 2026-06-11
-sources: 12
+sources: 13
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -41,7 +41,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
 | D1 Analyte coverage (tier: unset) | tier-unset | 7/10 HMTc analytes, total n=32 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 23 jurisdictions, top SA 17% | — |
+| D2 Regional coverage | OK | 23 jurisdictions, top SA 15% | — |
 | D3 Anthropogenic evidence | GAP | 1 soil + 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
 | D4 Background mechanism | OK | section present, 3 drivers, 1 upstream source(s) | — |
 | D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni POOLABLE, Al THIN, Cr THIN, Sn THIN | tAs: THIN; tHg: needs 1 more study(ies); Al: THIN; Cr: THIN; Sn: needs 2 more study(ies) |
@@ -74,6 +74,21 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Sn | n=1 | up to 1200 | low | [[sources/cicero2022-minerals-spices-aromatic-herbs\|1]] |
 | U | data gap | — | — | — |
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Sabri S, Sabri C, Salam MR, El Mellouli F, Lafram A, Khallouki H, et al. (2025). *Essential and Toxic Element Profiles in Selected Spices from Greater Casablanca, Morocco*. World's Veterinary Journal 15(4): 863-881. [https://doi.org/10.54203/scil.2025.wvj88](https://doi.org/10.54203/scil.2025.wvj88). Peer-reviewed, B-tier. [[sources/sabri2025-moroccan-spices-casablanca-metals|Source record]]
+2. Tinggi U, Farrell M, Porter J, Mitchell S, and Jurd S (2025). *Heavy metal analysis in commercial spices and herbs by inductively coupled plasma mass spectrometry (ICP-MS) and estimated dietary exposure*. Journal of Environmental Exposure Assessment. [https://doi.org/10.20517/jeea.2025.10](https://doi.org/10.20517/jeea.2025.10). Peer-reviewed, A-tier. [[sources/tinggi2025-spices-herbs-queensland|Source record]]
+3. Ammar HR, Saleh SM, Sivasankaran S, Albadri AEAE, and Al-Mufadi FA (2023). *Investigation of Element Migration from Aluminum Cooking Pots Using ICP-MS*. Applied Sciences (MDPI). [https://doi.org/10.3390/app132413119](https://doi.org/10.3390/app132413119). Peer-reviewed, B-tier. [[sources/ammar2023-element-migration-aluminum-cookware|Source record]]
+4. Cicero N, Gervasi T, Durazzo A, Lucarini M, Macrì A, Nava V, et al. (2022). *Mineral and Microbiological Analysis of Spices and Aromatic Herbs*. Foods. [https://doi.org/10.3390/foods11040548](https://doi.org/10.3390/foods11040548). Peer-reviewed, A-tier. [[sources/cicero2022-minerals-spices-aromatic-herbs|Source record]]
+5. Mercan Yucel U (2022). *Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals*. Balikesir Health Sciences Journal. [https://doi.org/10.53424/balikesirsbd.1160866](https://doi.org/10.53424/balikesirsbd.1160866). Peer-reviewed, A-tier. [[sources/mercan-yucel2022-van-spices-heavy-metals|Source record]]
+6. Savić S, Petrović S, Petronijević M, Cvetanović A, and Petronijević Ž (2019). *Determination of the mineral content of spices by ICP-OES*. Advanced Technologies. [https://doi.org/10.5937/savteh1901027s](https://doi.org/10.5937/savteh1901027s). Peer-reviewed, A-tier. [[sources/savic2019-serbian-spices-minerals|Source record]]
+7. Matloob MH (2016). *Using Stripping Voltammetry to Determine Heavy Metals in Cooking Spices Used in Iraq*. Polish Journal of Environmental Studies. [https://doi.org/10.15244/pjoes/62401](https://doi.org/10.15244/pjoes/62401). Peer-reviewed, A-tier. [[sources/matloob2016-iraq-spices-heavy-metals|Source record]]
+8. Ziyaina M, Rajab A, Alkhweldi K, Algami W, Al-Toumi O, and Rasco B (2014). *Lead and cadmium residue determination in spices available in Tripoli City markets (Libya)*. African Journal of Biochemistry Research. [https://doi.org/10.5897/AJBR2014.0766](https://doi.org/10.5897/AJBR2014.0766). Peer-reviewed, A-tier. [[sources/ziyaina2014-libya-spices-lead-cadmium|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -88,11 +103,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 5 | [[sources/islam2023-noakhali-spices-bangladesh\|Islam et al. 2023]]. *Heavy Metals Induced Health Risk Assessment Through Consumption of Selected Commercially Available Spices in Noakhali District of Bangladesh*, medRxiv (preprint) | 2023 | Preprint | BD Pb, Cd, Cr occurrence in 19 commercially-available spice samples (15 non-branded, 4 branded) collected from Sonapur and Maijdee marketplaces in Noakhali District, Bangladesh;... (n=19) |
 | 6 | [[sources/cicero2022-minerals-spices-aromatic-herbs\|Cicero et al. 2022]]. *Mineral and Microbiological Analysis of Spices and Aromatic Herbs*, Foods | 2022 | Peer-reviewed | IT/SA/IN Pb, Cd, tAs, tHg, Ni, Al, Cr, Sn occurrence in 13 spice and aromatic herb samples purchased in an international market in Saudi Arabia, representing products from India,... (n=13) |
 | 7 | [[sources/mercan-yucel2022-van-spices-heavy-metals\|Mercan 2022]]. *Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals*, Balikesir Health Sciences Journal | 2022 | Peer-reviewed | TR Ni, tAs, Cd, Pb, Al occurrence in Unpackaged red pepper, black pepper, and cumin samples sold in Van province, Turkey (n=60) |
-| 8 | [[sources/gill2021-consumer-reports-spices\|Gill et al. 2021]]. *The Trouble With Spices: Heavy Metals in 15 Herbs and Spices*, Consumer Reports | 2021 | NGO report | US Pb, Cd, tAs occurrence in 126 individual products covering 38 brands and 15 herb/spice types from the US retail market (n=126) |
-| 9 | [[sources/ericson2020-georgian-spices-lead\|Ericson et al. 2020]]. *Elevated Levels of Lead (Pb) Identified in Georgian Spices*, Annals of Global Health | 2020 | Peer-reviewed | GE Pb occurrence in Spice samples from 25 homes and four bazaars in Georgia, with additional household media assessed during a lead-exposure... (n=128) |
-| 10 | [[sources/savic2019-serbian-spices-minerals\|Savić et al. 2019]]. *Determination of the mineral content of spices by ICP-OES*, Advanced Technologies | 2019 | Peer-reviewed | RS Pb, Cd, Al, Ni, Cr occurrence in Ten spice samples available on the Serbian market: curcuma, star anise, cinnamon, ginger, coriander, cardamom, sesame, black pepper,... (n=10) |
-| 11 | [[sources/matloob2016-iraq-spices-heavy-metals\|Matloob 2016]]. *Using Stripping Voltammetry to Determine Heavy Metals in Cooking Spices Used in Iraq*, Polish Journal of Environmental Studies | 2016 | Peer-reviewed | IQ Cu, Zn, Fe, Mn, Cr, Ni, Co, Cd, Pb, tHg occurrence in 32 natural spice types sold in Babil, Iraq, five samples per spice (n=160) |
-| 12 | [[sources/ziyaina2014-libya-spices-lead-cadmium\|Ziyaina et al. 2014]]. *Lead and cadmium residue determination in spices available in Tripoli City markets (Libya)*, African Journal of Biochemistry Research | 2014 | Peer-reviewed | LY Pb, Cd occurrence in Imported spices traded in Libyan markets in 2011: 24 wholesale and 36 retail samples for each of four... (n=240) |
+| 8 | [[sources/mercanyucel2022-van-spices-metals\|Mercan 2022]]. *Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals*, Balikesir Health Sciences Journal | 2022 | Peer-reviewed | TR Ni, tAs, Cd, Pb, Al occurrence in Unpackaged red pepper, black pepper, and cumin samples sold in Van province, Turkey (n=60) |
+| 9 | [[sources/gill2021-consumer-reports-spices\|Gill et al. 2021]]. *The Trouble With Spices: Heavy Metals in 15 Herbs and Spices*, Consumer Reports | 2021 | NGO report | US Pb, Cd, tAs occurrence in 126 individual products covering 38 brands and 15 herb/spice types from the US retail market (n=126) |
+| 10 | [[sources/ericson2020-georgian-spices-lead\|Ericson et al. 2020]]. *Elevated Levels of Lead (Pb) Identified in Georgian Spices*, Annals of Global Health | 2020 | Peer-reviewed | GE Pb occurrence in Spice samples from 25 homes and four bazaars in Georgia, with additional household media assessed during a lead-exposure... (n=128) |
+| 11 | [[sources/savic2019-serbian-spices-minerals\|Savić et al. 2019]]. *Determination of the mineral content of spices by ICP-OES*, Advanced Technologies | 2019 | Peer-reviewed | RS Pb, Cd, Al, Ni, Cr occurrence in Ten spice samples available on the Serbian market: curcuma, star anise, cinnamon, ginger, coriander, cardamom, sesame, black pepper,... (n=10) |
+| 12 | [[sources/matloob2016-iraq-spices-heavy-metals\|Matloob 2016]]. *Using Stripping Voltammetry to Determine Heavy Metals in Cooking Spices Used in Iraq*, Polish Journal of Environmental Studies | 2016 | Peer-reviewed | IQ Cu, Zn, Fe, Mn, Cr, Ni, Co, Cd, Pb, tHg occurrence in 32 natural spice types sold in Babil, Iraq, five samples per spice (n=160) |
+| 13 | [[sources/ziyaina2014-libya-spices-lead-cadmium\|Ziyaina et al. 2014]]. *Lead and cadmium residue determination in spices available in Tripoli City markets (Libya)*, African Journal of Biochemistry Research | 2014 | Peer-reviewed | LY Pb, Cd occurrence in Imported spices traded in Libyan markets in 2011: 24 wholesale and 36 retail samples for each of four... (n=240) |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -153,15 +169,15 @@ The numbered citations above correspond to the contributing sources below; each 
 [^ziyaina2014]: Ziyaina et al. 2014. *Lead and cadmium residue determination in spices available in Tripoli City markets (Libya)*. African Journal of Biochemistry Research. [[sources/ziyaina2014-libya-spices-lead-cadmium|source page]].
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
-| [3c19d3ce9](https://github.com/paleofoundation/heavymetalindex/commit/3c19d3ce9) | 2026-06-14 | firewall(black-pepper): drop literal p95 token from prose per Part 19 |
-| [0ba9ef588](https://github.com/paleofoundation/heavymetalindex/commit/0ba9ef588) | 2026-06-11 | synthesis(black-pepper): re-synthesize from 8 contributing sources, add numeric citations |
-| [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3c19d3ce9](https://github.com/paleofoundation/heavymetalindex/commit/3c19d3ce9) | 2026-06-14 | minor | Narrative text revised |
+| [0ba9ef588](https://github.com/paleofoundation/heavymetalindex/commit/0ba9ef588) | 2026-06-11 | major | 6 sources added; 1 section added; narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [eddfdfbab](https://github.com/paleofoundation/heavymetalindex/commit/eddfdfbab) | 2026-05-17 | major | 2 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

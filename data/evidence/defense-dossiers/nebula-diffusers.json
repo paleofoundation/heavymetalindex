@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/nebula-diffusers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "310b43a99af2f9690a370ca047f2ce461f3be429bfdb633ba51c978dab0e14fb",
-      "content_bytes": 7319,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "4eaa12c51fa793d4e7ac0d1c4467ac6cda323789d02a61a6e72dbca8a0cb45b3",
+      "content_bytes": 7346,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/nebula-diffusers.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/nebula-diffusers.md | sha256sum"
     }
   },
   "evidence_base": {

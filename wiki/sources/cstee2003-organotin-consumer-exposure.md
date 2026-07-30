@@ -106,12 +106,13 @@ App: If organotin context is surfaced for food-contact packaging or children's P
 - Closed-vocabulary check: product slugs use broad existing food-contact packaging, bakeware, and toy substrate rows. No exact baking-paper, PVC-flooring, wallpaper, indoor-dust, or paddling-pool product slug was invented; those contexts remain in prose.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [19c75a014](https://github.com/paleofoundation/heavymetalindex/commit/19c75a014) | 2026-06-09 | ingest: cstee2003-organotin-consumer-exposure fresh from MFK/June 8 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [19c75a014](https://github.com/paleofoundation/heavymetalindex/commit/19c75a014) | 2026-06-09 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

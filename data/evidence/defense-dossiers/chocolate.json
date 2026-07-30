@@ -21,16 +21,16 @@
     "canonical_url": "https://heavymetalindex.com/products/chocolate",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a683726eb2467e8068247b9238212016adc34db423fd330c905153c509e6c28d",
-      "content_bytes": 17336,
-      "last_commit_sha": "43f4b5e53",
-      "last_commit_date": "2026-06-15",
+      "content_sha256": "3750317eba7a5ea26a00484d4c617731dac66f5699b999c52c7e17311f490163",
+      "content_bytes": 17720,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 43f4b5e53:wiki/products/chocolate.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/chocolate.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 27,
+    "contributing_source_count": 28,
     "sources_with_structured_values": 1,
     "contributing_sources": [
       {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abt2018-cadmium-lead-cocoa-chocolate-us-market",
         "content_pin": {
-          "content_sha256": "dcf5e7965e13cea34820f9d644746f01f455796f89cf0f73ac227a4c29143b22",
-          "content_bytes": 5737,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "8dd7d083d85e9541758e876952f6ed63e8d3837db43f052847d723958544a538",
+          "content_bytes": 5764,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/abt2018-cadmium-lead-cocoa-chocolate-us-market.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/abt2018-cadmium-lead-cocoa-chocolate-us-market.md | sha256sum"
         }
       },
       {
@@ -67,12 +67,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abt2020-perspective-cadmium-lead-cocoa-chocolate",
         "content_pin": {
-          "content_sha256": "1a843b695798242acfe93c654c038cd244f31640ec9e3dff07a7f4266693619a",
-          "content_bytes": 4707,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "c709b9b48f6bde3203416e9f9769f3f62d274d944693f0a25b92610d34255021",
+          "content_bytes": 4734,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/abt2020-perspective-cadmium-lead-cocoa-chocolate.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/abt2020-perspective-cadmium-lead-cocoa-chocolate.md | sha256sum"
         }
       },
       {
@@ -90,12 +90,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/amjad2021-lahore-chocolates-metals",
         "content_pin": {
-          "content_sha256": "0088bd4c0f72c9bfb08a245b66b86580c9d4876a941f2236c644480fa4a6917c",
-          "content_bytes": 4241,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "02bf9ef741906ad3091c227d02af518e5c37c058bc7661524178894988fd455a",
+          "content_bytes": 4254,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/amjad2021-lahore-chocolates-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/amjad2021-lahore-chocolates-metals.md | sha256sum"
         }
       },
       {
@@ -116,12 +116,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/anses2026-tds3-metals-france",
         "content_pin": {
-          "content_sha256": "a704e54f82a02ca6acaeb3cbeef576fbf09dad93289bf4b2b4dc821a3cb89464",
-          "content_bytes": 6725,
-          "last_commit_sha": "fb63f6e92",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "40ddf08f51ee8f9bcfc1b00d1250a41a80563604119bb57a92554fbca11bf4e1",
+          "content_bytes": 6904,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show fb63f6e92:wiki/sources/anses2026-tds3-metals-france.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/anses2026-tds3-metals-france.md | sha256sum"
         }
       },
       {
@@ -137,12 +137,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/asyousow2022-expert-investigation-cocoa-chocolate-products",
         "content_pin": {
-          "content_sha256": "6d6d539131132c8a00b6dc1262740c1daf8dad4689cce70f58baad37a352257d",
-          "content_bytes": 51883,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "1003d28b34aa228bd46ad3561d086d6e586d39726a884797eff71ba78edc2a3e",
+          "content_bytes": 51910,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/asyousow2022-expert-investigation-cocoa-chocolate-products.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/asyousow2022-expert-investigation-cocoa-chocolate-products.md | sha256sum"
         }
       },
       {
@@ -157,12 +157,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bfr2022-nickel-dietary-intake-germany-meal",
         "content_pin": {
-          "content_sha256": "7168cef0c6db87a7f28606d7e2d4103d20c49ed2ef39336920ea49c25cf69f09",
-          "content_bytes": 23100,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "843e2804e68bfa8550e1d9a367e84ea179e84d7f3983f42a3b089887eccb26ce",
+          "content_bytes": 23127,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/bfr2022-nickel-dietary-intake-germany-meal.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/bfr2022-nickel-dietary-intake-germany-meal.md | sha256sum"
         }
       },
       {
@@ -177,12 +177,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bravo2024-cadmium-cacao-arauca",
         "content_pin": {
-          "content_sha256": "1e6c0b0d49c2543b0937b67f5b0cc532cd2a9969a880fbd23877d06971e720de",
-          "content_bytes": 4479,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "b7dbd94c299d9edf5b637c22560ce1e8c3dde79abd8d8f710c1d191b6829a380",
+          "content_bytes": 4506,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/bravo2024-cadmium-cacao-arauca.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/bravo2024-cadmium-cacao-arauca.md | sha256sum"
         }
       },
       {
@@ -203,12 +203,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/burgon2023-cocoa-bean-to-bar-brazil-metals-ota",
         "content_pin": {
-          "content_sha256": "71fc93b1fb7b3308fd6a7400b38f08125fb2db270398af98c711eed741dad7f5",
-          "content_bytes": 16879,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "68a2c87fc1ea07d5b6632ab9c9ae77fe45771e79cc9e3e97c86bafde36d37164",
+          "content_bytes": 16906,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/burgon2023-cocoa-bean-to-bar-brazil-metals-ota.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/burgon2023-cocoa-bean-to-bar-brazil-metals-ota.md | sha256sum"
         }
       },
       {
@@ -223,12 +223,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
         "content_pin": {
-          "content_sha256": "9a2418606255ae128ce5ff7e5b1a41a80332712727ef998a76c5e2bedc0e3adc",
-          "content_bytes": 7538,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "fbc8e0305a873d793400180c5cba591a8156cb1900bc21ec0efc2c45e810bd02",
+          "content_bytes": 7719,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {
@@ -243,12 +243,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "0ce83bb8e21e9a23574d6c982879967df29113552149bb5c76db1647a660d5ea",
-          "content_bytes": 30214,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "1d6698efc1af2795a1c8cc6aa2c49f125eb9305e07e6a72bc1366fb9f9237841",
+          "content_bytes": 30241,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -271,12 +271,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi",
         "content_pin": {
-          "content_sha256": "e6d8f2724ea3d1d93d6902d36283937443c2405845877320704d02adc4ba3703",
-          "content_bytes": 9526,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "6d075b9d0f6719cbcf5893627ff7d666e81ea057c313dc42386092a709521839",
+          "content_bytes": 9553,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi.md | sha256sum"
         }
       },
       {
@@ -299,12 +299,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda-tds-elements-2018-2020",
         "content_pin": {
-          "content_sha256": "d68b8b14a403097b4811d4df4f05d740f13014d1097d8f984b502dea916b1449",
-          "content_bytes": 27922,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "e28e20483b634915250bf42d7cdaff6cfd238f4a7295ef125f53a74ef6001fb4",
+          "content_bytes": 27949,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/fda-tds-elements-2018-2020.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/fda-tds-elements-2018-2020.md | sha256sum"
         }
       },
       {
@@ -320,12 +320,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fechner2019-cocoa-origin-al-cd-exposure",
         "content_pin": {
-          "content_sha256": "0de5c79706354f95a817938133b4da5858ff21196b4256edd87e6780824aaeea",
-          "content_bytes": 5879,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "81dc78d6609bf072de50496cad3f214fe61258c76f9d19f5c56a4198a6755d56",
+          "content_bytes": 5906,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/fechner2019-cocoa-origin-al-cd-exposure.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/fechner2019-cocoa-origin-al-cd-exposure.md | sha256sum"
         }
       },
       {
@@ -343,12 +343,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany",
         "content_pin": {
-          "content_sha256": "314b91970902523f741c4970e1cc4adb5c5390f1ddc2f91e179ec8f4018cd39e",
-          "content_bytes": 11758,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "7bf0c85f30ca479ba21e2b6b0b0826d0718b2f2b8b15939085eed49c1ccb0764",
+          "content_bytes": 11785,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany.md | sha256sum"
         }
       },
       {
@@ -370,12 +370,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fsanz2011-23rd-australian-total-diet-study",
         "content_pin": {
-          "content_sha256": "c5665e41936a4acec50c5c07121cfd0fddb54cafef5cec56c48ddede011fe28a",
-          "content_bytes": 6201,
-          "last_commit_sha": "fb63f6e92",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "b50dd3f010add52b067093463f35cd8732fb928cae36ff8e6e4983061c7fa80e",
+          "content_bytes": 6380,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show fb63f6e92:wiki/sources/fsanz2011-23rd-australian-total-diet-study.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/fsanz2011-23rd-australian-total-diet-study.md | sha256sum"
         }
       },
       {
@@ -391,12 +391,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/grimaldi2017-prop65-chocolate-settlement-news",
         "content_pin": {
-          "content_sha256": "2d9ed06f0cc9f14269f82f41216850fb514add7966f223e59f97fee33939f0d7",
-          "content_bytes": 8559,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "6989cbf4608eea02f2ea34022e9b75a524c89953c527f61c054c8c691f66bc93",
+          "content_bytes": 8739,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/grimaldi2017-prop65-chocolate-settlement-news.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/grimaldi2017-prop65-chocolate-settlement-news.md | sha256sum"
         }
       },
       {
@@ -411,12 +411,34 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gutierrez2022-ecuador-cacao-cadmium-compost",
         "content_pin": {
-          "content_sha256": "b15e357929ee02e896fc5ce7a7b86dd07b079fd0b973d78d6eb4ac7d095963b1",
-          "content_bytes": 6446,
-          "last_commit_sha": "c12b2aa67",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "77e8a57a9f07c3907b005627b1a74f16e1ec6a900d34070ea2ef24707f58d874",
+          "content_bytes": 6487,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c12b2aa67:wiki/sources/gutierrez2022-ecuador-cacao-cadmium-compost.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/gutierrez2022-ecuador-cacao-cadmium-compost.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa",
+        "title": "A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa",
+        "content_pin": {
+          "content_sha256": "4d8c4fff0e87642373bda69fcc7aa468c2fd05882c3fb19833f9d2139d1043fe",
+          "content_bytes": 5739,
+          "last_commit_sha": "5f7a7150d",
+          "last_commit_date": "2026-07-29",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5f7a7150d:wiki/sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa.md | sha256sum"
         }
       },
       {
@@ -433,12 +455,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hands2024-multiyear-dark-chocolate-cocoa-usa",
         "content_pin": {
-          "content_sha256": "430a988b9d6420e315a27ee792c463e6b0820618067e55d09c3bcb4f6d1ca46a",
-          "content_bytes": 5672,
-          "last_commit_sha": "43f4b5e53",
-          "last_commit_date": "2026-06-15",
+          "content_sha256": "a6e30314613ab9dd25500316b0255277da8bd1bed5a33ec3774fd26eced85dd4",
+          "content_bytes": 5713,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 43f4b5e53:wiki/sources/hands2024-multiyear-dark-chocolate-cocoa-usa.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/hands2024-multiyear-dark-chocolate-cocoa-usa.md | sha256sum"
         }
       },
       {
@@ -453,12 +475,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kataoka2018-japan-chocolate-cocoa-cadmium",
         "content_pin": {
-          "content_sha256": "b96a75df9b422f050e7594653495f16d1e64e3b9b56bbaa7bff3bed3b6c3e138",
-          "content_bytes": 4664,
-          "last_commit_sha": "6f5401371",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "907b2ae0fe88f3fae9a91cffb06f10ad621b4d7386d3514206bfaeff8d8e4f6e",
+          "content_bytes": 4670,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6f5401371:wiki/sources/kataoka2018-japan-chocolate-cocoa-cadmium.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/kataoka2018-japan-chocolate-cocoa-cadmium.md | sha256sum"
         }
       },
       {
@@ -473,12 +495,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/marincich2023-cadmium-chocolate-poland",
         "content_pin": {
-          "content_sha256": "22f2a7746dc167743682a24dcf25698e3787b360133f6ed60277d649f8a0a6f5",
-          "content_bytes": 4365,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "efe8ef322a4bb78733406c15dce6da7d61b1d0ce4e9b8d4db98ca668cf55a19a",
+          "content_bytes": 4392,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/marincich2023-cadmium-chocolate-poland.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/marincich2023-cadmium-chocolate-poland.md | sha256sum"
         }
       },
       {
@@ -496,12 +518,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/masri2025-toxicant-foods-california",
         "content_pin": {
-          "content_sha256": "813e9523f2f2418fa951b796ede6c3f8efd3b85c47a204b22d023c3fe99332f1",
-          "content_bytes": 34649,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "4c6f6d6953c96374cf5841f64de2b44623728e39a29369d2501d95bbdf53a960",
+          "content_bytes": 34829,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/masri2025-toxicant-foods-california.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/masri2025-toxicant-foods-california.md | sha256sum"
         }
       },
       {
@@ -516,12 +538,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/meter2019-cadmium-cacao-lac-review",
         "content_pin": {
-          "content_sha256": "cd00cfceb8f0fcd681397571945a48dc9f931a1d26a1703b46a4c658112881d2",
-          "content_bytes": 7193,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "26702e69bc5c8a71661ed346063c7c139daf524479cb7e74626e065bca5a3e8a",
+          "content_bytes": 7220,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/meter2019-cadmium-cacao-lac-review.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/meter2019-cadmium-cacao-lac-review.md | sha256sum"
         }
       },
       {
@@ -537,12 +559,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/oliveira2021-cocoa-beans-cd-pb-brazil-processing",
         "content_pin": {
-          "content_sha256": "f9aa0464272658cc49fc03c2725e4d14730c8dd3a7de1b41a461f9587e5fe93e",
-          "content_bytes": 17503,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "97d43de1a534f3114ec1f907f18b0ec87a6130db52461ce6fb51fd765b2810c3",
+          "content_bytes": 17530,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/oliveira2021-cocoa-beans-cd-pb-brazil-processing.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/oliveira2021-cocoa-beans-cd-pb-brazil-processing.md | sha256sum"
         }
       },
       {
@@ -557,12 +579,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ramtahal2016-cacao-cadmium-trinidad",
         "content_pin": {
-          "content_sha256": "04e505d11249b32fb7fc7caf0e55132316fb74c90be0141627fd51b704b664b1",
-          "content_bytes": 3874,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "0b40e9faf59486d78656be06a4b02ade7125c5ac528c6b6bbef00e88aba32ce1",
+          "content_bytes": 3901,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/ramtahal2016-cacao-cadmium-trinidad.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/ramtahal2016-cacao-cadmium-trinidad.md | sha256sum"
         }
       },
       {
@@ -577,12 +599,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stahl2017-aluminum-food-contact-part1",
         "content_pin": {
-          "content_sha256": "28ce812225e772e4c8ac3003d3773a5d317d9ed207a0678713cfa0ccd589eaa0",
-          "content_bytes": 7272,
-          "last_commit_sha": "046939195",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "a5023a8877b61d2623844b4e4159c0d4c7c9c7d9bfa7d97aa2ff706a8862b423",
+          "content_bytes": 7451,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 046939195:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
         }
       },
       {
@@ -605,12 +627,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/usda-fas2023-china-gb-2762-2022-translation",
         "content_pin": {
-          "content_sha256": "69c4e2e60d11c7609ef3acf21b53077bd4c061a5e76763acdc72e4966ea5e9ab",
-          "content_bytes": 20705,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "7497381125a241669e08759195d6e87c76b852554cc0e57c76f43b51416f500a",
+          "content_bytes": 20886,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md | sha256sum"
         }
       },
       {
@@ -631,12 +653,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/vitola2016-cocoa-beans-heavy-trace-elements",
         "content_pin": {
-          "content_sha256": "2d86cb1e1791646f0fef106c4f0ae2785cc40f358b01149d9facf6663bd749dc",
-          "content_bytes": 4336,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "b8a35f02cb188d411bffc6e545634670e909487f53f527019dc0fe54f10b2ad4",
+          "content_bytes": 4363,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/vitola2016-cocoa-beans-heavy-trace-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/vitola2016-cocoa-beans-heavy-trace-elements.md | sha256sum"
         }
       }
     ]

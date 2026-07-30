@@ -161,15 +161,14 @@ Microbiome: Not addressed in this study.
 - Fresh-context audit subagent (2026-05-18) verdict PROMOTE. Spot-checked ~80 numerical values across Tables 5/6/7/12 against the PDF — all correct. Two false-positive concerns recorded: (a) `matrices: [dietary-intake, cereal-grain]` flagged as possibly off-vocabulary — verified against `docs/gpt-collaboration/system-prompt.md` matrices list; both terms are explicitly listed, finding rejected. (b) "HallMark Meat Hygiene Ltd" spelling flagged as drift from PDF's "Hall Mark" — verified against PDF; the report itself uses both spellings (Summary page 2 "HallMark", Methods page 7 "Hall Mark"), so wiki's one-word form is faithful to one of the source's own uses, finding rejected.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [da3479331](https://github.com/paleofoundation/heavymetalindex/commit/da3479331) | 2026-05-18 | minor | Narrative text revised |
+| [b6e901d4e](https://github.com/paleofoundation/heavymetalindex/commit/b6e901d4e) | 2026-05-18 | major | 7 sections added and 4 removed; narrative text revised |
+| [c3a27e230](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e230) | 2026-05-13 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

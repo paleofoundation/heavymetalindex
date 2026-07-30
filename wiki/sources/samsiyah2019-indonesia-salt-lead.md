@@ -56,15 +56,13 @@ App: Can support country-specific salt context after synthesis.
 The source is in Indonesian with an English abstract. Methods, sample count (n=28), and per-village values were verified against the Indonesian full text (journal pp. 45 and 47, Figure 1) during the 2026-06-09 audit. Figure 1 labels its Y-axis "Kadar Pb (mg/l)", which is an internal labelling inconsistency in the source — the abstract, conclusion, and section 3.6 all report the same values in ppm (mg/kg, appropriate for a solid). This page follows the source's text and reports in ppm.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [6b262fa9c](https://github.com/paleofoundation/heavymetalindex/commit/6b262fa9c) | 2026-06-09 | audit: samsiyah2019-indonesia-salt-lead [revised] per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6b262fa9c](https://github.com/paleofoundation/heavymetalindex/commit/6b262fa9c) | 2026-06-09 | minor | Narrative text revised |
+| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
+| [50ec0f053](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f053) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -101,12 +101,13 @@ App: If home-air emission sources are surfaced, this study can support a note th
 - Evidence tier: `B` because this is a peer-reviewed controlled emissions study with detailed methods and repeated chamber experiments, but it tests only two representative candle types and reports emissions rather than product occurrence concentrations.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [4759f48b0](https://github.com/paleofoundation/heavymetalindex/commit/4759f48b0) | 2026-06-09 | ingest: pagels2009-candle-smoke-particles fresh from MFK/June 8 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [4759f48b0](https://github.com/paleofoundation/heavymetalindex/commit/4759f48b0) | 2026-06-09 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

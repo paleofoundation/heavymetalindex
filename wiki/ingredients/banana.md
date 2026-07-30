@@ -228,6 +228,21 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 In the European Union, Regulation (EU) 2023/915 applies the general fresh fruit maximum level to banana: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg (50 ppb), wet weight as placed on the market ([[regulations/eu2023-contaminants-maximum-levels]]). The TDS data showing Pb and Cd at or near detection limits suggest that bananas in US retail would be well within these limits. No US FDA action level for Pb or Cd in fresh banana exists under the current Closer to Zero framework ([[regulations/fda-closer-to-zero]]). For processed banana purée in baby food, applicable action levels would derive from the processed product category. No Codex Alimentarius ML for heavy metals in banana appears in the current corpus.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
+2. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+3. Mekonnen BA, Yizengaw MG, Kassahun H, and Ketema G (2024). *Health Risk Assessment of Potentially Toxic Elements Contamination of Commonly Consumed Fruits in Bahir Dar Town, Northwest Ethiopia*. International Journal of Food Science. [https://doi.org/10.1155/2024/6677324](https://doi.org/10.1155/2024/6677324). Peer-reviewed, A-tier. [[sources/mekonnen2024-ethiopia-fruit-metals|Source record]]
+4. Islam MH, Nowar A, Islam S, Nayan MM, and Jubayer A (2024). *A Systematic Review on Heavy Metals Contamination in Bangladeshi Fruits and Their Associated Health Risks*. Environmental Health Insights. [https://doi.org/10.1177/11786302241309280](https://doi.org/10.1177/11786302241309280). Review, B-tier. [[sources/islam2024-heavy-metals-bangladeshi-fruits-review|Source record]]
+5. Tsegay ZT, Smaoui S, and Varzakas T (2025). *Toxicological qualities and detoxification trends of fruit by-products for valorization: A review*. Open Life Sciences 20:20251105. [https://doi.org/10.1515/biol-2025-1105](https://doi.org/10.1515/biol-2025-1105). Peer-reviewed, B-tier. [[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review|Source record]]
+6. Garuba OD, Anglin JC, Good S, Olufemi SE, Oyawoye OM, and Sodipe A (2024). *Evaluation of Heavy Metals in Commercial Baby Foods*. Archives of Food and Nutritional Science. [https://doi.org/10.29328/journal.afns.1001056](https://doi.org/10.29328/journal.afns.1001056). Peer-reviewed, B-tier. [[sources/garuba2024-heavy-metals-commercial-baby-foods|Source record]]
+7. Loutfy N, Mentler A, Shoeab M, Ahmed MT, and Fuerhacker M (2012). *Analysis and exposure assessment of some heavy metals in foodstuffs from Ismailia city, Egypt*. Toxicological & Environmental Chemistry. [https://doi.org/10.1080/02772248.2011.638445](https://doi.org/10.1080/02772248.2011.638445). Peer-reviewed, A-tier. [[sources/loutfy2012-ismailia-foodstuffs-metals|Source record]]
+8. Signes-Pastor AJ, Cottingham KL, Carey M, Sayarath V, Palys T, Meharg AA, et al. (2018). *Infants' dietary arsenic exposure during transition to solid food*. Scientific Reports 8(1):7114. [https://doi.org/10.1038/s41598-018-25372-1](https://doi.org/10.1038/s41598-018-25372-1). Peer-reviewed, A-tier. [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -251,15 +266,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [22134c35a](https://github.com/paleofoundation/heavymetalindex/commit/22134c35a) | 2026-06-23 | fix(integrity): drain 28 re-accumulated censored-zero contamination cells; re-flip audit to build-blocking |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 4 (final) — 21 pages / 42 cells; backlog now ZERO |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [22134c35a](https://github.com/paleofoundation/heavymetalindex/commit/22134c35a) | 2026-06-23 | correction | Contamination-profile values revised |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | correction | 4 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

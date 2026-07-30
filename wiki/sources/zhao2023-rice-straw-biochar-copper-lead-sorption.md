@@ -123,15 +123,13 @@ Source-internal K_L unit inconsistency: Table 2 header reports K_L in L/kg, whil
 Audit subagent 2026-06-02 flagged Table 1 column header "C=O / -COO in C 1s (%)" as misleading — verified against PDF Table 1 (C 1s panel has columns C=C, C-C, C-O, -COO, π-π only; C=O appears only in O 1s deconvolution); corrected header to "-COO in C 1s (%)". Audit also flagged `[[supply-chain/soil-to-plant-transfer]]` as a slug outside the taxonomy snapshot — verified against `wiki/supply-chain/soil-to-plant-transfer.md`; finding was a false positive because the snapshot enumerates only ingredients/products/metals/regulations and `supply-chain/` is its own valid directory.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [97161e623](https://github.com/paleofoundation/heavymetalindex/commit/97161e623) | 2026-06-02 | minor | Narrative text revised |
+| [1f103c511](https://github.com/paleofoundation/heavymetalindex/commit/1f103c511) | 2026-06-02 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

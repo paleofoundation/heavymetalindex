@@ -21,3 +21,16 @@ The basis selector controls how the comparator interprets the entered lab value.
 ## What Still Requires Review
 
 A directional pre-screen on a single value does not replace the certification workflow. HMT&C certification still requires the full required analyte panel, lot and sampling documentation, the original laboratory report, method and accreditation review, LOD and LOQ handling, matrix and basis matching, jurisdiction and row-fit review, and any program rules that sit outside this public Index. Treat this page as a fast literature comparison, not a compliance verdict.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [0b990ef32](https://github.com/paleofoundation/heavymetalindex/commit/0b990ef32) | 2026-05-30 | minor | Narrative text revised |
+| [f5649fb96](https://github.com/paleofoundation/heavymetalindex/commit/f5649fb96) | 2026-05-12 | minor | Narrative text revised |
+| [541b2a113](https://github.com/paleofoundation/heavymetalindex/commit/541b2a113) | 2026-04-30 | minor | Narrative text revised |
+| [2bf254de0](https://github.com/paleofoundation/heavymetalindex/commit/2bf254de0) | 2026-04-30 | major | 2 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

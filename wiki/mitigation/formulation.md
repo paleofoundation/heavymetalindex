@@ -56,3 +56,22 @@ Specific primary studies in the corpus that should be promoted to populate this 
 - [[products/index|Product categories]] — finished-product pages where formulation interventions are visible.
 - [[ingredients/almond|Almond]], [[ingredients/coconut|Coconut]], [[ingredients/oat|Oat]] — substitution candidates in plant-milk and infant-cereal formulations.
 - [[ingredients/rice|Rice]], [[ingredients/cocoa|Cocoa]] — the most-substituted ingredients in formulation-mitigation contexts.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Codex Alimentarius Commission (2022). *Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)*. FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome. [https://doi.org/10.4060/cc5333en](https://doi.org/10.4060/cc5333en). Government report, A-tier. [[sources/codex-cxc-81-2022|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [215477918](https://github.com/paleofoundation/heavymetalindex/commit/215477918) | 2026-05-03 | major | 1 source added; narrative text revised |
+| [ed8797d63](https://github.com/paleofoundation/heavymetalindex/commit/ed8797d63) | 2026-05-03 | major | 4 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

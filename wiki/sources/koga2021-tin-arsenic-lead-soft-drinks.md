@@ -85,14 +85,14 @@ The paper provides no native contamination measurements and therefore contribute
 - Audit subagent (2026-06-06) flagged the methods text "CEM ETHOS One (Milestone General)" as a vendor misattribution: ETHOS One is a Milestone instrument, not a CEM one (CEM produces the MARS-series digesters). Verified against PDF page 2 ("マイクロ波分解装置（ETHOS One，マイルストーンゼネラル（株）製）") — finding confirmed and corrected to "Milestone ETHOS One (Milestone General K.K.)".
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [8e8de532c](https://github.com/paleofoundation/heavymetalindex/commit/8e8de532c) | 2026-06-06 | audit: koga2021-tin-arsenic-lead-soft-drinks [revised] |
-| [ca868b43f](https://github.com/paleofoundation/heavymetalindex/commit/ca868b43f) | 2026-06-06 | ingest: koga2021-tin-arsenic-lead-soft-drinks [fresh] from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [8e8de532c](https://github.com/paleofoundation/heavymetalindex/commit/8e8de532c) | 2026-06-06 | minor | Narrative text revised |
+| [ca868b43f](https://github.com/paleofoundation/heavymetalindex/commit/ca868b43f) | 2026-06-06 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

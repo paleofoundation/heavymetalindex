@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cannabis-edibles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "48d60f494c39b7a2790f23cf53f60912d7643330f55fbd6c10136a584af1a4d7",
-      "content_bytes": 1219,
-      "last_commit_sha": "c794d6b50",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "97da3870a0a5053afc2d4ecd861d5aff2fb22cf12b94addacc71b1731170a776",
+      "content_bytes": 1398,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c794d6b50:wiki/products/cannabis-edibles.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/cannabis-edibles.md | sha256sum"
     }
   },
   "evidence_base": {

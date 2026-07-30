@@ -86,13 +86,12 @@ This source provides primary market-occurrence evidence for fish, freshwater fis
 - Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; missing narrow closed-vocabulary slugs include the individual fish and shellfish species rows, crustaceans, cephalopods, mussels, clams, shrimp, squid, and gastropods, so broad seafood/fish/shellfish routing is used.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [ce8e5d59f](https://github.com/paleofoundation/heavymetalindex/commit/ce8e5d59f) | 2026-06-08 | ingest: simionov2023-danube-fish-seafood-pte-microplastics fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [ce8e5d59f](https://github.com/paleofoundation/heavymetalindex/commit/ce8e5d59f) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -128,3 +128,13 @@ Because the paper is a modeling and literature-synthesis study, its values shoul
 - Full-PDF read performed from the 13-page Science of the Total Environment PDF. Table 1 and all main-text numeric findings captured above were checked from `pdftotext -layout`; figures were read for qualitative country-pattern findings only, without digitizing plotted bars. Supplementary tables and R code are referenced by the paper but were not bundled in the local PDF.
 - Brand firewall: the source reports seafood groups, species, countries, and FAO fishing divisions, not branded commercial products.
 - HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this source.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -141,3 +141,13 @@ EPA's IRIS oral reference doses are intake-based (µg/kg b.w./day) and comparabl
 ## References
 
 Positions, the update log, and key documents above are generated from the per-instrument [[regulations/index|regulation pages]] this body issues, via `tools/build-regulator-pages.mjs`. The wiki reports what US EPA has published; it does not endorse it. See [[CLAUDE|the wiki/HMTc separation policy]] for why reporting regulatory values is kept architecturally separate from certification threshold-setting.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1c26ab9a0](https://github.com/paleofoundation/heavymetalindex/commit/1c26ab9a0) | 2026-06-23 | major | 12 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

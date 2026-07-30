@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `43f4b5e53` (2026-06-15). The body hashes to `sha256:9588260660b4762fbb48cfc7c6564104…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:6062ac6546d9aa1b19d2c3f1e1ed8b13…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fruit-purees&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fruit-purees&download=1`.
 
 ## Evidence base
 
-This category is supported by 31 contributing literature sources mapped by the routing layer, of which 7 carry structured concentration values. The page makes 122 numerical claims; 122 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 33 contributing literature sources mapped by the routing layer, of which 7 carry structured concentration values. The page makes 122 numerical claims; 122 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/fruit-purees.md`.
 
@@ -37,13 +37,14 @@ Ranked by the literature-reported concentration of this category's declared ingr
 
 | Metal | Dominant ingredient driver | Share of ranked risk |
 |---|---|---|
-| Lead | apple | 49% |
-| Cadmium | apple | 76% |
+| Lead | banana | 64% |
+| Cadmium | banana | 46% |
 | Arsenic (inorganic) | pear | 100% |
-| Arsenic (total) | peach | 30% |
+| Arsenic (total) | peach | 27% |
+| Mercury (total) | apple | 100% |
 | Nickel | apple | 52% |
 | Aluminum | apple | 100% |
-| Chromium (total) | apple | 91% |
+| Chromium (total) | banana | 58% |
 | Tin | apple | 59% |
 | Uranium | peach | 100% |
 
@@ -53,6 +54,7 @@ The full driver ranking is available at `/api/risk-map?category=fruit-purees`.
 
 What has moved in the regulation or the cited literature that touches this category, newest first.
 
+- **2026-07-30** — iAs in apple confidence medium → null.
 - **2026-06-23** — Pb in fruit-juice-ready-drinks confidence medium → low.
 - **2026-06-23** — Cd in fruit-juice-ready-drinks confidence high → low.
 - **2026-06-23** — iAs in fruit-juice-ready-drinks confidence medium → low.
@@ -60,7 +62,6 @@ What has moved in the regulation or the cited literature that touches this categ
 - **2026-06-23** — iAs in non-apple-fruit confidence medium → low.
 - **2026-06-23** — Pb in peach confidence high → low.
 - **2026-06-23** — Pb in pear confidence high → low.
-- **2026-05-31** — Cd in fruit-purees confidence null → low.
 
 The live feed for this category is at `/api/change-watch?category=fruit-purees`.
 

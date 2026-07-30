@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/butter-and-ghee",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "272ca2e8b40cbe193170ee66bb9628a57754aec1a5581f147aa1d845982f8874",
-      "content_bytes": 9242,
-      "last_commit_sha": "496b50d27",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "b92556e163a6d3bb5b61e0f0e5de5ac049a13d9fe3c4e1ca5e2b34f187dc12e6",
+      "content_bytes": 9283,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 496b50d27:wiki/products/butter-and-ghee.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/butter-and-ghee.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hasan2021-bangladesh-dairy-trace-elements",
         "content_pin": {
-          "content_sha256": "a7c6e1d9dcacf3512c1ca5e5c1b9e57c3e6256dd75637a08b1e64013349f664b",
-          "content_bytes": 14283,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "a15a72cbfe1ba0a03f0f30ac656da48952ad0f4d937272b0bbfcf1bbdbf4f01f",
+          "content_bytes": 14310,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/hasan2021-bangladesh-dairy-trace-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/hasan2021-bangladesh-dairy-trace-elements.md | sha256sum"
         }
       },
       {
@@ -71,12 +71,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pankiewicz2012-thg-dairy-products-poland",
         "content_pin": {
-          "content_sha256": "23bf35282b429d209aa4ce8d6779ce2b253f646733a3adc0dbdb0cd964620a4b",
-          "content_bytes": 14930,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "ec4c70bbf6157c18187d403202bb9772f15659cf033931959b3519183e40c52b",
+          "content_bytes": 14957,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/pankiewicz2012-thg-dairy-products-poland.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/pankiewicz2012-thg-dairy-products-poland.md | sha256sum"
         }
       },
       {
@@ -94,12 +94,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/starska2011-noxious-elements-milk-products-poland",
         "content_pin": {
-          "content_sha256": "8518d1f05eccf9f951d330c17c22ed4da728d4b4e00e9c9d8b798ca433d155ce",
-          "content_bytes": 15481,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "3193f6fb561d0ab18e68eb9f02e5e35d49d5d9ddf2e31666348fc0c77f07ca6b",
+          "content_bytes": 15508,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/starska2011-noxious-elements-milk-products-poland.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/starska2011-noxious-elements-milk-products-poland.md | sha256sum"
         }
       }
     ]

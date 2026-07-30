@@ -88,15 +88,13 @@ OECD WPEA-led methodology and decision-tree development. The decision tree (Figu
 - 2026-06-01 audit subagent (fresh-context Agent, general-purpose) verdict PROMOTE. One ⚠️ concern in Check 1: child-air-intake bullet was attributed to "Section 3, Discussion p. 16," but the passage sits in Section 2 (Decision Tree) prose on p. 16, not Section 3 (Case Studies, begins p. 19) or Section 4 (Discussion and Conclusion, begins p. 25). Verified independently against source pp. 14–20; finding correct. Corrected attribution to "Section 2 Decision Tree discussion, p. 16". One ⚠️ concern in Check 2 noted that `international` is not strictly in the taxonomy snapshot's jurisdiction vocabulary; precedent established by sibling [[oecd2024-crafts-toys-children-exposure]]; left as-is and surfaced for next taxonomy-snapshot refresh. 0 ❌ definite-error findings.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [2fd48f18a](https://github.com/paleofoundation/heavymetalindex/commit/2fd48f18a) | 2026-06-01 | minor | Narrative text revised |
+| [d3b1e7aac](https://github.com/paleofoundation/heavymetalindex/commit/d3b1e7aac) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

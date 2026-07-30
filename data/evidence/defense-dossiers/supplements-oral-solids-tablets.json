@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-tablets",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "db7b964b3686a60886ed127355312ea86263e01db0eed32ce3baeade2c2a2a07",
-      "content_bytes": 8846,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "e17ea4d57296fc3e386dea2bbf0e63ae564e709e15454cbc54f78b044c7eb36e",
+      "content_bytes": 8887,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/supplements-oral-solids-tablets.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/supplements-oral-solids-tablets.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/al-dhabi2013-spirulina-products-metals",
         "content_pin": {
-          "content_sha256": "7781530aa77808826ff9247446c915cbb3ee48e25cca04a66ae01b230bb8ccb8",
-          "content_bytes": 6024,
-          "last_commit_sha": "3bb71fce4",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "bc3de5676fa83e9457a0fb92aeabb37158f2e05e23a9cdef59311b23bb395a31",
+          "content_bytes": 6203,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3bb71fce4:wiki/sources/al-dhabi2013-spirulina-products-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/al-dhabi2013-spirulina-products-metals.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brizio2013-italian-food-supplements-metals",
         "content_pin": {
-          "content_sha256": "d638563825e0cd37712d0622ec05519419abe112f66152a5535b59c2a002c375",
-          "content_bytes": 4985,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "ce1220ff07e8bd1dbbdbe04787e61d67e94bab62527b49a400bb2900311fc272",
+          "content_bytes": 5166,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/brizio2013-italian-food-supplements-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/brizio2013-italian-food-supplements-metals.md | sha256sum"
         }
       },
       {
@@ -92,12 +92,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brzezinska-rojek2023-beetroot-supplements-safety",
         "content_pin": {
-          "content_sha256": "e80a0881be2401be0f1f8fc9097eb0b8e81f312a743b3484457b6c171983b1a2",
-          "content_bytes": 4607,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "fa906ca8c9e472ca589746be9f436426d35fe108acdaf8150aac1494b4bec15b",
+          "content_bytes": 4634,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md | sha256sum"
         }
       },
       {
@@ -128,12 +128,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sochacka2025-spirulina-chlorella-supplements-poland",
         "content_pin": {
-          "content_sha256": "22fbcdb3643b7f65d34f8a26b0eb1f14812cfc2b59ad4013898cb9d7b278b5f2",
-          "content_bytes": 24287,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "b1d2ae110d91044a9c697a75d016e5b246d7589220e18dfe741195e8b504ad27",
+          "content_bytes": 24467,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
         }
       }
     ]

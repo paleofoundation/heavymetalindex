@@ -110,15 +110,13 @@ Speciation: paper measured total Cr without hexavalent-vs-total separation, so `
 Matrices `carbonated-soft-drink` and `fruit-flavoured-soft-drink` are descriptive provisional matrix slugs; the canonical product route is `products/soft-drinks-carbonated-beverages` (which exists). Geographic context (Sudan, Khartoum) lives in `jurisdictions:` and `sampling_locations:` rather than as a matrix slug. The paper does not separate carbonated from still beverages within the "beverages" column of Table 2; the fruit-flavoured beverages are treated by the Sudanese soft-drink industry under the same product category framing and route to the same wiki product page. `ingredients:` is empty because the paper analyses finished-beverage matrix only and does not decompose into water, sweetener, flavouring, or fruit-juice ingredients; an empty array is consistent with this being a finished-product occurrence study at the product-form level.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [985d580bf](https://github.com/paleofoundation/heavymetalindex/commit/985d580bf) | 2026-06-09 | audit: babeker2025-heavy-metals-microbial-sudanese-soft-drinks [revised] per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [985d580bf](https://github.com/paleofoundation/heavymetalindex/commit/985d580bf) | 2026-06-09 | minor | Narrative text revised |
+| [324868f70](https://github.com/paleofoundation/heavymetalindex/commit/324868f70) | 2026-05-31 | major | 1 section added |
+| [1a5a1ecf3](https://github.com/paleofoundation/heavymetalindex/commit/1a5a1ecf3) | 2026-05-31 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

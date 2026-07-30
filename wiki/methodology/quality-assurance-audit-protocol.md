@@ -129,3 +129,14 @@ After general availability, quality assurance continues through four channels.
 ## Why this matters
 
 The Heavy Metal Index is most valuable when a skeptical reader can see not only the evidence, but also the discipline used to keep the evidence map honest. A public QA protocol is part of that discipline.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [e142f34a3](https://github.com/paleofoundation/heavymetalindex/commit/e142f34a3) | 2026-05-07 | major | 1 section added; narrative text revised |
+| [666da4bb0](https://github.com/paleofoundation/heavymetalindex/commit/666da4bb0) | 2026-05-07 | major | 12 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

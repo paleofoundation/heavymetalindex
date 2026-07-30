@@ -113,14 +113,14 @@ This source contributes broad Hong Kong market seafood occurrence evidence for o
 - Same audit caught real issues: `matrices` was missing the `organotins` speciation token (6+ sibling pages include it); `market-fish` was an idiomatic outlier (corpus uses `market-samples` or `<country>-market`). Both fixed. `products/seafood` added to capture the broad multi-group scope per lee2016-taiwan-seafood-organotins precedent.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [a0fe52aed](https://github.com/paleofoundation/heavymetalindex/commit/a0fe52aed) | 2026-06-09 | audit: chung2020-hong-kong-seafood-organotins [revised] per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [3f1148231](https://github.com/paleofoundation/heavymetalindex/commit/3f1148231) | 2026-06-08 | ingest: chung2020-hong-kong-seafood-organotins fresh from MFK/June 8 New Folder With Items 4 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [a0fe52aed](https://github.com/paleofoundation/heavymetalindex/commit/a0fe52aed) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [3f1148231](https://github.com/paleofoundation/heavymetalindex/commit/3f1148231) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

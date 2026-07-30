@@ -131,15 +131,12 @@ App: Route as fertilizer-input and soil-to-plant transfer context for Cd, Cr, Cu
 The PDF has author attribution and DOI `10.3390/app13052863`; no DOI conflict was observed. Names in the frontmatter are ASCII transliterations of the byline. The title says "winter rape," but the abstract and methods describe spring rape (`Larisa` cv.) and spring triticale (`Milikaro` cv.); this page preserves the title while describing the experiment according to the methods. Table 6 appears internally inconsistent for the Ni dose means: the printed dose-mean row does not match the visible treatment cells, so this page uses treatment-cell ranges and granulate means rather than relying on the printed Ni dose means. Uptake tables retain the paper's ambiguous unit label and are not treated as product concentration data.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [9bbe50b60](https://github.com/paleofoundation/heavymetalindex/commit/9bbe50b60) | 2026-06-02 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

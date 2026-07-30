@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-yo-yo-elastic-tether",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "95f3c7479c7a2fdbee44dd9de6a2b31bc772fa7314b0b8f2aea05811a7037466",
-      "content_bytes": 8147,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "7e63ab314a2d05767c3c8009b351dd3331f071be9d402566f0bb3137e586e705",
+      "content_bytes": 8174,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/toys-yo-yo-elastic-tether.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/toys-yo-yo-elastic-tether.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/depa2015-cmr-toys",
         "content_pin": {
-          "content_sha256": "980334f4b6f921efc89b1cad0baf78ca6a33ccc0e1eab7ac2fa56d5fb086d48d",
-          "content_bytes": 40977,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "0edb11fc4818d59c4a7a298bcbcb66f5ab3b98188b4a0828b05eb120062c311a",
+          "content_bytes": 41004,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/depa2015-cmr-toys.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/depa2015-cmr-toys.md | sha256sum"
         }
       }
     ]

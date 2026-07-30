@@ -117,3 +117,13 @@ This page documents the search strategy. It does not document:
 - The HMTc standards-setting methodology (how literature percentiles are pooled and certification thresholds chosen). That work is published separately at the [Heavy Metal Tested & Certified program manual](https://heavymetaltested.com); the wiki / HMTc firewall is documented at [[editorial-standards]].
 
 For the full corpus coverage and gap surface, see [[coverage]].
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [43618b5f5](https://github.com/paleofoundation/heavymetalindex/commit/43618b5f5) | 2026-05-28 | major | Contamination-profile values revised; 8 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

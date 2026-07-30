@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `cedfa8b8a` (2026-06-11). The body hashes to `sha256:6aa15801cb495c4fdeee4e9650bb84de…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:93af104a8c0bd272512126f794b56a2d…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=supplements-vitamin-mineral&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/supplements-vitamin-mineral&download=1`.
 
 ## Evidence base
 
-This category is supported by 28 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 1 numerical claim; 1 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 29 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 1 numerical claim; 1 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/supplements-vitamin-mineral.md`.
 

@@ -212,14 +212,14 @@ Open-access article distributed under CC BY 4.0 (license declaration on p. 1 of 
 **Audit application (2026-06-06).** Fresh-context Agent subagent audit (verdict PROMOTE; all five checks ✅ clean with one ⚠️ minor on Check 1 Fe-THQ enumeration wording). Independent re-verification of the Fe THQ column against Table 4 confirmed eight of eleven samples (D1, D2, D4, D6, D7, D9, D10, D11) at Fe THQ ≥1; the original page text said "six of eleven" with a parenthetic self-correction to seven, and the audit subagent independently arrived at seven. Both pre-correction wordings under-counted because D9 (Fe THQ = 1.143) was missed. Corrected to "eight of eleven" with the full enumeration. No other audit findings warranted page changes.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [fa76ab499](https://github.com/paleofoundation/heavymetalindex/commit/fa76ab499) | 2026-06-06 | audit: bunu2023-heavy-metals-energy-drinks-bayelsa promoted |
-| [bca7ef992](https://github.com/paleofoundation/heavymetalindex/commit/bca7ef992) | 2026-06-06 | ingest: bunu2023-heavy-metals-energy-drinks-bayelsa fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [fa76ab499](https://github.com/paleofoundation/heavymetalindex/commit/fa76ab499) | 2026-06-06 | minor | Narrative text revised |
+| [bca7ef992](https://github.com/paleofoundation/heavymetalindex/commit/bca7ef992) | 2026-06-06 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

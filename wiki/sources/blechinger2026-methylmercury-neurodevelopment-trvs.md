@@ -91,3 +91,13 @@ Speciation discipline: the review is about methylmercury toxicological reference
 **Firewall check.** The page reports TRVs and PoDs because the article reports them. It does not translate those values into HMTc thresholds, certification pass/fail limits, clean/dirty product rows, or product-category percentiles. Products and ingredients are intentionally empty because the source does not measure seafood or any consumer product.
 
 **Number verification.** Numbers in the Key numbers section were checked once against the extracted full-PDF text and a second time against the rendered table pages or the surrounding article text before commit. Table 1 values were checked against rendered PDF pages 5-6; Table 2 against rendered page 9; Table 3 against rendered page 10; Table 4 against rendered page 17; the sensitivity-analysis values were checked against the Discussion and sensitivity-analysis text.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

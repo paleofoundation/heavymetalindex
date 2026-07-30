@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-capsules",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c5d349967d08e69899991e3f6bf1885de2a9246f9120055bdfea77b319abd4d2",
-      "content_bytes": 8521,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "30447cf8cf5042f5c6e33e6c8ec3f6ba32e3383048afd624991a2309d30408a9",
+      "content_bytes": 8562,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/supplements-oral-solids-capsules.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/supplements-oral-solids-capsules.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/al-dhabi2013-spirulina-products-metals",
         "content_pin": {
-          "content_sha256": "7781530aa77808826ff9247446c915cbb3ee48e25cca04a66ae01b230bb8ccb8",
-          "content_bytes": 6024,
-          "last_commit_sha": "3bb71fce4",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "bc3de5676fa83e9457a0fb92aeabb37158f2e05e23a9cdef59311b23bb395a31",
+          "content_bytes": 6203,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3bb71fce4:wiki/sources/al-dhabi2013-spirulina-products-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/al-dhabi2013-spirulina-products-metals.md | sha256sum"
         }
       },
       {
@@ -66,12 +66,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/falandysz2020-yunnan-fungi-mercury",
         "content_pin": {
-          "content_sha256": "9c92c6b5c3b20aff74f92776bafe5ef85193c4fdfefc1c2c2e20726065829109",
-          "content_bytes": 5437,
-          "last_commit_sha": "04c4ff30b",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "e150cdcc12148a4f0901614094137e710f709d7a4384c37f069f4671d8b1dcf2",
+          "content_bytes": 5616,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 04c4ff30b:wiki/sources/falandysz2020-yunnan-fungi-mercury.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/falandysz2020-yunnan-fungi-mercury.md | sha256sum"
         }
       }
     ]

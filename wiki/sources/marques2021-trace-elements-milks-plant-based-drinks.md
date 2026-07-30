@@ -150,15 +150,15 @@ Audit subagent (2026-06-08, agent a3393c0dc09b29b61) returned verdict REVISE wit
 Brand firewall. The source does not name individual brands; samples are reported only by product type (whole cow milk, organic skimmed cow milk, etc.). No brand-firewall (Part 12) translation was needed. The methods section names instrument-vendor materials (E. Merck Darmstadt HNO3 Suprapur, NIST SRM 1570a spinach leaves, NIST SRM 1549a whole milk powder, R 4.0, IBM SPSS 27.0) which are scientific-method-vendor references permitted under the 2026-05-17 strict-reading exception.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [64f281eae](https://github.com/paleofoundation/heavymetalindex/commit/64f281eae) | 2026-06-08 | audit: marques2021-trace-elements-milks-plant-based-drinks revised |
-| [a45b20f04](https://github.com/paleofoundation/heavymetalindex/commit/a45b20f04) | 2026-06-08 | ingest: marques2021-trace-elements-milks-plant-based-drinks enhanced from Manual Fetch Discovery |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [64f281eae](https://github.com/paleofoundation/heavymetalindex/commit/64f281eae) | 2026-06-08 | minor | Narrative text revised |
+| [a45b20f04](https://github.com/paleofoundation/heavymetalindex/commit/a45b20f04) | 2026-06-08 | major | 9 sections added and 2 removed; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [20add894b](https://github.com/paleofoundation/heavymetalindex/commit/20add894b) | 2026-05-08 | major | 1 section removed |
+| [e9ee7e689](https://github.com/paleofoundation/heavymetalindex/commit/e9ee7e689) | 2026-05-07 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

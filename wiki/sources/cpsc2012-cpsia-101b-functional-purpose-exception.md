@@ -86,15 +86,13 @@ This is a regulatory-derivation document, not an analytical-chemistry study. The
 - **Related corpus pages.** `hatlelid2009-cpsc-cpsia-lead-childrens-products` (a 12/17/2009 14-slide CPSC staff presentation on the same CPSIA §101 regulatory regime, predating the Public Law 112-28 amendment to §101(b)) is the closest existing companion source; that earlier deck described the unamended §101(b) exclusion framework (no-absorption and no-other-adverse-impact criteria), while this 2012 staff report develops the public-health-protection methodology required by the amended §101(b) (functional-purpose exception with the "no measurable adverse effect" / "no measurable increase in BLL" criteria). `cfa2012-cpsia-lead-fact-sheet` is a contemporaneous consumer-advocacy summary of the same regulatory regime. `johnson2012-cpsc-astm-f963-status` is a CPSC-adjacent reference for toy-safety standards (different regulatory hook). No CPSIA-§101-specific regulation page yet exists in `wiki/regulations/`; the same observation appears in the `hatlelid2009-cpsc-cpsia-lead-childrens-products` and `cfa2012-cpsia-lead-fact-sheet` verification notes. Per Part 10 and the manual-fetch skill, a regulation-page proposal is a Karen-curated step, not an ingest-time auto-creation.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [a84742792](https://github.com/paleofoundation/heavymetalindex/commit/a84742792) | 2026-06-01 | minor | Narrative text revised |
+| [c80655300](https://github.com/paleofoundation/heavymetalindex/commit/c80655300) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

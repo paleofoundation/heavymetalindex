@@ -247,15 +247,13 @@ No metal pages, no ingredient pages, no regulation pages are touched. FMVSS 302 
 - 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, single-PDF invocation): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.1021/acs.est.3c10440` absent; raw_handle `MFK_11-unknown` absent (a different paper, `ul2012-chemicals-childrens-toys`, also carries `MFK_11-unknown` from a different Kimi sub-folder, `02_Strollers_Walkers_Swings`, but a different `raw_path` and a different DOI/topic so not a true duplicate); cite-key stem `hoehn2024` absent. PDF SHA-256 `0cb548091c60cc1eb20c9c2e180333a9bd14e72d31df3d152a254869e5d482a2` confirmed against the file. Paper measures only organic flame-retardant additives (49 targets: 48 by GC/MS, 1 by LC/MS) in silicone passive samplers and vehicle-seat polyurethane foam from US personal vehicles — zero heavy metals — ingested as out-of-core-scope vehicle-cabin built-environment exposure reference per the `stapleton2010-flame-retardants-baby-product-foam.md` (same first-author lab, baby-product foam FRs) and `anderson2002-uk-us-diaper-voc-emissions-mice.md` (diaper VOC emissions) precedents. Routed to `[[products/car-seats]]` for discoverability as cabin-environment exposure context (infant car-seats are deployed inside the cabin-air environment characterised here); indirect-relevance routing flagged in Verification notes. `metals: []` correctly reflects no metal-occurrence contribution. Folder-context note: source PDF is filed in the Carriers_HighChairs_CarSeats Kimi sub-folder but the paper's actual scope is adult-owned US personal vehicles; the relevance bridge to infant car-seats is environmental (infants ride in vehicles inside car-seats) rather than direct product measurement.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [6890517a5](https://github.com/paleofoundation/heavymetalindex/commit/6890517a5) | 2026-06-01 | minor | Narrative text revised |
+| [e7f81a6dc](https://github.com/paleofoundation/heavymetalindex/commit/e7f81a6dc) | 2026-06-01 | major | 14 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

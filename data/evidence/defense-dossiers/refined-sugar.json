@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/refined-sugar",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "41ad3fa25ae9cc18c17a5fff22b52d16488eeb9925c29d128681385c8cb14b3b",
-      "content_bytes": 1166,
-      "last_commit_sha": "08c8f8330",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "cd5b5bedf2cf6c0f5345f8cfe3ad3877865f3bfc2588d0a2264b7b477e439fa8",
+      "content_bytes": 1345,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 08c8f8330:wiki/products/refined-sugar.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/refined-sugar.md | sha256sum"
     }
   },
   "evidence_base": {

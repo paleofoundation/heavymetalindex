@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `43f4b5e53` (2026-06-15). The body hashes to `sha256:8ce6fe3bad3b7d60842698171ef7f77b…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:d46c38bff23f88c326aa1ddfb652fe98…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=baby-cereals-dry-rice-based&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/baby-cereals-dry-rice-based&download=1`.
 
 ## Evidence base
 
-This category is supported by 77 contributing literature sources mapped by the routing layer, of which 5 carry structured concentration values. The page makes 169 numerical claims; 168 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
+This category is supported by 82 contributing literature sources mapped by the routing layer, of which 5 carry structured concentration values. The page makes 169 numerical claims; 168 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/baby-cereals-dry-rice-based.md`.
 

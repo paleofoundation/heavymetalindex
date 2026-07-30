@@ -152,15 +152,15 @@ Missing-regulation-slug proposals (surfaced for Karen, not auto-created per Part
 - **Check 2 ⚠️ Two regulation wikilinks not in taxonomy snapshot.** Audit subagent flagged that `[[regulations/italian-groundwater-quality-thresholds]]` and `[[regulations/eu-groundwater-directive-2006-118-ec]]` were listed under "Wiki pages this source may touch" but neither slug exists in `wiki/regulations/` and neither is in the taxonomy snapshot. Verified by listing `wiki/regulations/`: confirmed both are absent (existing groundwater-adjacent regulations are EPA arsenic MCL and EU drinking-water/contaminants regs only). Removed both wikilinks from the page body and added a "Missing-regulation-slug proposals" subsection in Verification notes surfacing the two regulations (D.Lgs. 152/2006 Allegato 5 and EU Groundwater Directive 2006/118/EC) for Karen's review per Part 10 regulation Step 0 Lock.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [0377ad4ab](https://github.com/paleofoundation/heavymetalindex/commit/0377ad4ab) | 2026-06-03 | minor | Narrative text revised |
+| [1cd4db44f](https://github.com/paleofoundation/heavymetalindex/commit/1cd4db44f) | 2026-06-03 | major | 2 sources added; 11 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

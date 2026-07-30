@@ -74,12 +74,13 @@ Courses: Useful teaching example for separating mechanistic animal evidence from
 This page was built from the full PDF text, including the abstract, animal experiment protocol, Table 2, Figure 3 and Figure 6 captions/results text, Cd measurement methods, and discussion. Products and ingredients are intentionally empty because the study tests CdCl2 exposure and probiotic intervention in mice and cells. The source reports figure-only Cd burden outcomes; the page records direction and significance without estimating bar heights from the figure image.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [f6e2fbf9f](https://github.com/paleofoundation/heavymetalindex/commit/f6e2fbf9f) | 2026-06-09 | ingest auto-fetched 2026-06-09: liu2020-lactobacillus-plantarum-cadmium-excretion |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [f6e2fbf9f](https://github.com/paleofoundation/heavymetalindex/commit/f6e2fbf9f) | 2026-06-09 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

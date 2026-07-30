@@ -99,15 +99,12 @@ Simulated-use exposure assessment, conducted in 2010-2011 at Hoseo University To
 - 2026-05-17 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.5487/TR.2011.27.3.137` not present; raw_handle `MFK_risk-assessment-of-baby-powder-exposure-through-in` not present; cite-key stem `moon2011` not present. PDF SHA-256 `5ad8486b14a5bd1855912983c1f12b53c1e02158f43ca6267f9f48a7fdbc85a7`. Paper measures total-mass airborne baby powder dust and projects an asbestos lung-load — zero heavy metals — ingested as methodology / inhalation-pathway reference per the lai2025 precedent. Routed to `[[products/baby-talcum-powder]]` (HMTc Cat 2 Row 4, locked 2026-05-16) for discoverability as an inhalation-route exposure-methodology paper but `metals: []` correctly reflects no metal occurrence data.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [64445aeab](https://github.com/paleofoundation/heavymetalindex/commit/64445aeab) | 2026-05-17 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -83,7 +83,7 @@ used_in_products: [plant-milks-non-soy-non-rice]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 11
+sources: 12
 ---
 
 # Almond
@@ -97,7 +97,7 @@ _Deterministic gap audit — no score is composite, no cell is LLM-judged. Each 
 | Dimension | Status | What's there (auditable counts) | What's missing |
 |---|---|---|---|
 | D1 Analyte coverage (tier: occasional) | OK | 5/10 HMTc analytes, total n=16 | labeled data-gaps: iAs, Al, Sn |
-| D2 Regional coverage | OK | 21 jurisdictions, top EU 45% | — |
+| D2 Regional coverage | OK | 21 jurisdictions, top EU 50% | — |
 | D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
 | D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
 | D5 Pooling depth | THIN | Pb THIN, Cd THIN, tHg THIN, Ni POOLABLE, Cr THIN, tAs THIN | Pb: THIN; Cd: needs 1 more study(ies); tHg: needs 1 more study(ies); Cr: THIN; tAs: needs 1 more study(ies) |
@@ -191,6 +191,17 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The European Union's Regulation (EU) 2023/915 on maximum levels for certain contaminants in food establishes maximum levels (MLs) for Pb and Cd in nuts. For tree nuts, the applicable Pb ML is 0.20 mg/kg (200 ppb) wet weight as placed on the market. The applicable Cd ML for tree nuts is 0.050 mg/kg (50 ppb) wet weight, with certain exceptions for specific nut species at lower levels ([[regulations/eu2023-contaminants-maximum-levels]]). No specific EU ML exists for Ni in almonds; Ni is regulated for drinking water but not for food matrices under current EU contaminant legislation. No US FDA action level for Pb, Cd, or Ni in whole almonds is established in the current corpus; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) has focused on infant and toddler foods rather than on tree nut commodities directly. No Codex Alimentarius ML for heavy metals in almonds appears in the current corpus.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Mari-Ann Flyvholm, Gitte Dalsgaard Nielsen, and Allan Andersen (1984). *Nickel Content of Food and Estimation of Dietary Intake*. Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431. [https://doi.org/10.1007/BF01043437](https://doi.org/10.1007/BF01043437). Peer-reviewed, A-tier. [[sources/flyvholm1984-nickel-content-food-dietary-intake|Source record]]
+2. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2020). *Update of the Risk Assessment of Nickel in Food and Drinking Water*. EFSA Journal 2020;18(11):6268. [https://doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268). Government report, A-tier. [[sources/efsa-nickel-contam-2020|Source record]]
+3. M. Braga, C. Quecchia, C. Perotta, A. Timpini, K. Maccarinelli, L. Di Tommaso, et al. (2013). *Systemic Nickel Allergy Syndrome: Nosologic Framework and Usefulness of Diet Regimen for Diagnosis*. International Journal of Immunopathology and Pharmacology 26(3):707-716. [https://doi.org/10.1177/039463201302600314](https://doi.org/10.1177/039463201302600314). Peer-reviewed, A-tier. [[sources/braga2013-snas-nosologic-framework-bramani-diet|Source record]]
+4. Marques M, Correig E, Capdevila E, Gargallo E, Gonzalez N, Nadal M, et al. (2021). *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-021-03021-5](https://doi.org/10.1007/s12011-021-03021-5). Peer-reviewed, A-tier. [[sources/marques2021-trace-elements-milks-plant-based-drinks|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -201,26 +212,27 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/begday2026-plant-milk-heavy-metal-safety\|Begday et al. 2026]]. *Integral assessment of the environmental safety of plant-based milk alternatives based on heavy metal analysis*, Izvestiya KGTU (KSTU News) | 2026 | Peer-reviewed | RU Pb, Cd, Zn, Cu occurrence in Eight plant-based milk samples assessed on the Russian market: four commercial ready-to-drink beverages (one each of almond, rice,... (n=8) |
 | 2 | [[sources/good2026-plant-milk-heavy-metals\|Good et al. 2026]]. *Comparative exposure and risk assessment of heavy metals, nutrients, and organochlorine pesticides in cow and plant-based milks*, Scientific Reports | 2026 | Peer-reviewed | US Cr, tAs, Cd, Pb occurrence in Twenty-two commercially available milk products purchased from major grocery retailers in Houston, Texas, USA. Eight milk-type categories: cow... (n=22) |
 | 3 | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | PL/EU Cd, Pb, Cr, Ni occurrence in Commercial nuts (almonds, cashews, hazelnuts, peanuts, walnuts) available on the Polish market (n=69) |
-| 4 | [[sources/zverina2025-plant-dairy-toxic-elements\|Zvěřina et al. 2025]]. *Essential and toxic elements in plant-based dairy alternatives: implications for vegan diets*, European Food Research and Technology | 2025 | Peer-reviewed | CZ/EU Pb, Cd occurrence in Fifty-four plant-based dairy alternative (PBDA) samples sourced from the Czech market in Brno, Czech Republic. Composition: 35 milk... (n=54) |
-| 5 | [[sources/dai2024-chongqing-dietary-arsenic-exposure\|Xinghui et al. 2024]]. *Assessment of Dietary Arsenic Exposure Levels and the Associated Health Risks in Chongqing City, China*, Chinese Journal of Public Health | 2024 | Peer-reviewed | CN tAs occurrence in Chongqing city residents; food samples from 39 districts collected 2018-2023 covering 10 food categories; dietary consumption data from... (n=4900) |
-| 6 | [[sources/henriksen2023-chromium-nordic-nnr\|Henriksen et al. 2023]]. *Chromium – a scoping review for Nordic Nutrition Recommendations 2023*, Food & Nutrition Research | 2023 | Peer-reviewed | EU/NO/SE Cr occurrence in Scoping review for Nordic Nutrition Recommendations 2023; literature search on chromium in diet, supplementation, and health outcomes; Nordic... |
-| 7 | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|Nazari et al. 2023]]. *Impacts of Heavy Metals in Seed Crops and Oil Seed on Human Health: A Threat to Food Safety — Review*, Carpathian Journal of Food Science and Technology, 15(2), 106-124 | 2023 | Review | global/EU/IR Pb, Cd, iAs, tAs, tHg, MeHg, Ni, Cr, Cr-VI occurrence in Narrative literature review of published studies on heavy metal occurrence in oilseeds (sunflower, pumpkin, sesame, rape, mustard, linseed,... |
-| 8 | [[sources/redan2023-plant-milk-alternatives-elements\|Redan et al. 2023]]. *Analysis of Eight Types of Plant-based Milk Alternatives from the United States Market for Target Minerals and Trace Elements*, Journal of Food Composition and Analysis | 2023 | Peer-reviewed | US tAs, Cd, Pb occurrence in Eighty-five plant-based milk alternative product units from 19 brands purchased from 10 retail markets and an online retailer... (n=85) |
-| 9 | [[sources/bielecka2021-nuts-toxic-elements-poland\|Bielecka et al. 2021]]. *Assessment of the Safe Consumption of Nuts in Terms of the Content of Toxic Elements with Chemometric Analysis*, Nutrients | 2021 | Peer-reviewed | Poland tAs, Cd, Pb, tHg occurrence in One hundred twenty edible nut samples purchased from Polish markets between January and March 2021: ten samples each... (n=120) |
-| 10 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | Pb and Ni in retail almond milk from Spain by ICP-MS; Pb BDL, Ni trace; finished-beverage context for processed almond-derived product metals |
-| 11 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Ni content baseline for almonds from 1969–1982 Danish literature survey; almonds high-Ni food (load factor F >> 1); foundational reference for dietary Ni burden |
+| 4 | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | PL/EU Cd, Pb, Cr, Ni occurrence in Commercial nuts (almonds, cashews, hazelnuts, peanuts, walnuts) available on the Polish market (n=69) |
+| 5 | [[sources/zverina2025-plant-dairy-toxic-elements\|Zvěřina et al. 2025]]. *Essential and toxic elements in plant-based dairy alternatives: implications for vegan diets*, European Food Research and Technology | 2025 | Peer-reviewed | CZ/EU Pb, Cd occurrence in Fifty-four plant-based dairy alternative (PBDA) samples sourced from the Czech market in Brno, Czech Republic. Composition: 35 milk... (n=54) |
+| 6 | [[sources/dai2024-chongqing-dietary-arsenic-exposure\|Xinghui et al. 2024]]. *Assessment of Dietary Arsenic Exposure Levels and the Associated Health Risks in Chongqing City, China*, Chinese Journal of Public Health | 2024 | Peer-reviewed | CN tAs occurrence in Chongqing city residents; food samples from 39 districts collected 2018-2023 covering 10 food categories; dietary consumption data from... (n=4900) |
+| 7 | [[sources/henriksen2023-chromium-nordic-nnr\|Henriksen et al. 2023]]. *Chromium – a scoping review for Nordic Nutrition Recommendations 2023*, Food & Nutrition Research | 2023 | Peer-reviewed | EU/NO/SE Cr occurrence in Scoping review for Nordic Nutrition Recommendations 2023; literature search on chromium in diet, supplementation, and health outcomes; Nordic... |
+| 8 | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|Nazari et al. 2023]]. *Impacts of Heavy Metals in Seed Crops and Oil Seed on Human Health: A Threat to Food Safety — Review*, Carpathian Journal of Food Science and Technology, 15(2), 106-124 | 2023 | Review | global/EU/IR Pb, Cd, iAs, tAs, tHg, MeHg, Ni, Cr, Cr-VI occurrence in Narrative literature review of published studies on heavy metal occurrence in oilseeds (sunflower, pumpkin, sesame, rape, mustard, linseed,... |
+| 9 | [[sources/redan2023-plant-milk-alternatives-elements\|Redan et al. 2023]]. *Analysis of Eight Types of Plant-based Milk Alternatives from the United States Market for Target Minerals and Trace Elements*, Journal of Food Composition and Analysis | 2023 | Peer-reviewed | US tAs, Cd, Pb occurrence in Eighty-five plant-based milk alternative product units from 19 brands purchased from 10 retail markets and an online retailer... (n=85) |
+| 10 | [[sources/bielecka2021-nuts-toxic-elements-poland\|Bielecka et al. 2021]]. *Assessment of the Safe Consumption of Nuts in Terms of the Content of Toxic Elements with Chemometric Analysis*, Nutrients | 2021 | Peer-reviewed | Poland tAs, Cd, Pb, tHg occurrence in One hundred twenty edible nut samples purchased from Polish markets between January and March 2021: ten samples each... (n=120) |
+| 11 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | Pb and Ni in retail almond milk from Spain by ICP-MS; Pb BDL, Ni trace; finished-beverage context for processed almond-derived product metals |
+| 12 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Ni content baseline for almonds from 1969–1982 Danish literature survey; almonds high-Ni food (load factor F >> 1); foundational reference for dietary Ni burden |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
+| [0a3851481](https://github.com/paleofoundation/heavymetalindex/commit/0a3851481) | 2026-05-13 | major | Contamination-profile values revised; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

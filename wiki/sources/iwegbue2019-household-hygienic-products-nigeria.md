@@ -211,15 +211,15 @@ All analyses were performed in triplicate with relative standard deviations betw
 - Audit verdict was QUARANTINE. After this audit-application pass: seven findings applied (opening-paragraph spike-recovery range; Cr brands-detected count in narrative and metals/chromium routing bullet; triacid ratio ordering in opening paragraph and Methods section; spot-removing-cream Cr range; hand/body-cream Cr range; per-category sample-code stripping in body table and narrative; Verification-notes brand-roster strip). Two findings rejected as false positives (liquid-soap Cu range and `products/bathing-soaps` slug). All Check 3 (speciation/methods) findings clean except the triacid-ratio terminology slip which is folded into the Check 1 fix. All Check 5 (Part 2 wiki/HMTc firewall) findings were ⚠️ in the audit and explicitly assessed by the auditor as Part-2-compliant; no changes required. The post-application page is REVISE-grade rather than QUARANTINE because the underlying numerical fidelity errors (Cr inversion, Cr range malformations, spike-recovery range, triacid ratio) are resolved and the brand-firewall violations are fully stripped.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [5249fe6b6](https://github.com/paleofoundation/heavymetalindex/commit/5249fe6b6) | 2026-06-03 | minor | Narrative text revised |
+| [7ab88ebb8](https://github.com/paleofoundation/heavymetalindex/commit/7ab88ebb8) | 2026-06-03 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

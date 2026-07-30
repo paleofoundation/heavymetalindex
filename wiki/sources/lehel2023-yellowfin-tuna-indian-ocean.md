@@ -125,15 +125,15 @@ This page contributes a regulatory-grade ICP-OES dataset for fresh yellowfin tun
 - 2026-06-03 Claude audit subagent (fresh context) verdict: REVISE. Findings applied: (1) removed `arsenic-inorganic` from `metals` array (paper estimates iAs at 5% per EFSA convention rather than speciating, so per CLAUDE.md Part 14 only `tAs` belongs in the array; the iAs estimation discussion remains in this section); (2) removed the `eu-2023-915-lead-infant-young-child-foods` cross-link (paper's Pb comparator is the EU 2023/915 muscle-meat-of-fish limit at 0.30 mg/kg, not the infant-foods sub-rule); (3) trimmed the cross-source comparator paragraph in the speciation notes to a pointer-only list (the synthesis sentence "Pb in the Lehel dataset is at the upper end... while Cd and Hg are at the lower end" was a my-voice synthesis claim, removed); (4) trimmed routing-layer instruction in Implications ("Routing should treat this source as direct evidence...") per CLAUDE.md Part 5b (routing is the system's job, not the model's); (5) clarified the Hg EDI 0.23 µg/kg/day figure as the source's parenthetical for the 90% below-reference group computed via half-LOD substitution, since Table 4 omits Hg. Findings rejected as false positives: (a) audit flagged `[[ingredients/tuna]]` as missing from the taxonomy snapshot, but the routing audit's `routing_unresolved.csv` does NOT flag it and 5+ existing source pages (bae2023, bfr2024, blanco2023, chamorro2024, fsai2016) already use this slug, so it is accepted convention; (b) audit flagged the Hg EDI 0.23 µg/kg/day as a Claude-derived number not in the source, but the value appears verbatim in Section 3.3 of the PDF as the parenthetical "(0.23 µg/kg/day)" immediately following "(90%)".
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [97b8a2cc2](https://github.com/paleofoundation/heavymetalindex/commit/97b8a2cc2) | 2026-06-03 | minor | Narrative text revised |
+| [d9bb8ce6a](https://github.com/paleofoundation/heavymetalindex/commit/d9bb8ce6a) | 2026-06-03 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

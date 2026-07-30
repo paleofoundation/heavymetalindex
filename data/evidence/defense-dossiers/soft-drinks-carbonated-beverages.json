@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/soft-drinks-carbonated-beverages",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5905d2fccb8efde4ae2c84823d79ebef0276c1e68724012c32bf29d6542b46ed",
-      "content_bytes": 15442,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "542218d271d1923f42576ba7c48721c3b839680c596d1f3c0e2c824f0a84a52e",
+      "content_bytes": 15483,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/soft-drinks-carbonated-beverages.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/soft-drinks-carbonated-beverages.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,12 +50,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abdel-rahman2019-egypt-nonalcoholic-beverages-metals",
         "content_pin": {
-          "content_sha256": "07b95041c1f0ef0a84acedc05307872044d472523c84266702b80799c71c419a",
-          "content_bytes": 3056,
-          "last_commit_sha": "5a88c2a7a",
-          "last_commit_date": "2026-06-14",
+          "content_sha256": "35065cba6814121e9784f52881b1b1c660544c5d102f2a6355d48c5d5c938f96",
+          "content_bytes": 3235,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 5a88c2a7a:wiki/sources/abdel-rahman2019-egypt-nonalcoholic-beverages-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/abdel-rahman2019-egypt-nonalcoholic-beverages-metals.md | sha256sum"
         }
       },
       {
@@ -75,12 +75,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/adegbola2015-nigeria-snacks-drinks-metals",
         "content_pin": {
-          "content_sha256": "09b656a1c29339de2293cc472186d344e3c879fa9bb13f07aa31e424c5bd21b9",
-          "content_bytes": 7393,
-          "last_commit_sha": "88520732b",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "7600071fd0d562a408d9a5a12f9e8ca408bf880f15798b86e7b25c642aad5f42",
+          "content_bytes": 7573,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 88520732b:wiki/sources/adegbola2015-nigeria-snacks-drinks-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/adegbola2015-nigeria-snacks-drinks-metals.md | sha256sum"
         }
       },
       {
@@ -99,12 +99,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/babeker2025-heavy-metals-microbial-sudanese-soft-drinks",
         "content_pin": {
-          "content_sha256": "df78290c0e581590f6b8b4999f5e0860a8ed5efa24d5dad3e9935e31d086788a",
-          "content_bytes": 15972,
-          "last_commit_sha": "985d580bf",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "cd8b46632e17b22684318dc707ca74929e871e21205232ba3bf32b5e30281d62",
+          "content_bytes": 16013,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 985d580bf:wiki/sources/babeker2025-heavy-metals-microbial-sudanese-soft-drinks.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/babeker2025-heavy-metals-microbial-sudanese-soft-drinks.md | sha256sum"
         }
       },
       {
@@ -122,12 +122,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bunu2023-heavy-metals-energy-drinks-kogi",
         "content_pin": {
-          "content_sha256": "5387c5fb3bb0c93fc8dca18f012e89f14bf91e611625b5f76bc9b6fada0a5501",
-          "content_bytes": 38031,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "7efb4c1205cac30e3b3a97c922704d444ce0425ee0d2b7cd1c0eb868bd8a6d80",
+          "content_bytes": 38211,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/bunu2023-heavy-metals-energy-drinks-kogi.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/bunu2023-heavy-metals-energy-drinks-kogi.md | sha256sum"
         }
       },
       {
@@ -155,12 +155,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/deka2023-monitoring-strategies-heavy-metals-chapter",
         "content_pin": {
-          "content_sha256": "b977565a579ef87d533206186a01f27a2ce956eb7a69578bbe816e2d4400e0b9",
-          "content_bytes": 10345,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "6a0e94dfe8ad8485e87010b071c6fde6ca541eee58ad68dc9e9066f8b5ff803b",
+          "content_bytes": 10372,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter.md | sha256sum"
         }
       },
       {
@@ -175,12 +175,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/el-daouk2020-aluminum-food-lebanon",
         "content_pin": {
-          "content_sha256": "6ae06390094b6f9fc3663601361fc611ed98bedc2a2fcf2945c260f3a0d83935",
-          "content_bytes": 22492,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "0146a3fd2b212c8653c04f0ed8bab620b5306013b6ed9f26fcb93ac0c6ed7489",
+          "content_bytes": 22672,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/el-daouk2020-aluminum-food-lebanon.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/el-daouk2020-aluminum-food-lebanon.md | sha256sum"
         }
       },
       {
@@ -197,12 +197,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/godwill2015-soft-drinks-metals-nigeria",
         "content_pin": {
-          "content_sha256": "2c4f34606357e5ecc3647c8e67a44f6f0fe160557000c18f7d8ab934e2e46a2f",
-          "content_bytes": 5398,
-          "last_commit_sha": "2411ebe94",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "4f0553e284d9ba28edfd89a0ea87da497d117d3d969684d7c400c8c58785a368",
+          "content_bytes": 5577,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 2411ebe94:wiki/sources/godwill2015-soft-drinks-metals-nigeria.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/godwill2015-soft-drinks-metals-nigeria.md | sha256sum"
         }
       },
       {
@@ -227,12 +227,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/izah2016-beverages-heavy-metals-nigeria",
         "content_pin": {
-          "content_sha256": "d7a5367df6bd806ab5fabc51c7f4a35645142e7361d1d2c5efdbf5765a00ab0e",
-          "content_bytes": 20551,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "110f6a2d92a009c5d8625858e3bac62ce78e8e10bf307baa246202d982bded18",
+          "content_bytes": 20731,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/izah2016-beverages-heavy-metals-nigeria.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/izah2016-beverages-heavy-metals-nigeria.md | sha256sum"
         }
       },
       {
@@ -248,12 +248,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium",
         "content_pin": {
-          "content_sha256": "7bbe90681b6aef9fbb3ff0bc21352883620f35feaa278a43e1b0aefd2a0675ac",
-          "content_bytes": 5202,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "6bf7db9e61d90aad9a65640a204455fa3eaec503ae37866af9bdc454cb4e7e70",
+          "content_bytes": 5383,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium.md | sha256sum"
         }
       },
       {
@@ -284,12 +284,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadhya2023-india-food-heavy-metals-regulation",
         "content_pin": {
-          "content_sha256": "cdf4cd39505289abb02d25ffbefcec4da71b859de3090d1c9dfd09bc1d3a19cb",
-          "content_bytes": 21644,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "c1063a76e8e2d244da8c5ebd5f6309b4f147b8b4b5146ca55e61ef8bba8b3881",
+          "content_bytes": 21824,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
         }
       },
       {
@@ -307,12 +307,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salaheldin2025-multimatrix-foods-egypt",
         "content_pin": {
-          "content_sha256": "7be812fe518516544c6e9d33ccb57efbfa065e52fb1ac86c36324f49010cd36b",
-          "content_bytes": 14176,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "2706d2eaddf0330c7a728129aea14ada823b26d2638b018a6d16f3d887035691",
+          "content_bytes": 14202,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
         }
       },
       {
@@ -327,12 +327,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tarigan2016-factors-tin-released-canned-beverages",
         "content_pin": {
-          "content_sha256": "84072a7969bde86a0a1050027d7120c301c6b42e8a87c3c4ef58a8055247b37d",
-          "content_bytes": 4639,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "f832135eab4ff161aacc45642570ef477f621d17fb46ee0f1c3d5b21a02abbc4",
+          "content_bytes": 4666,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/tarigan2016-factors-tin-released-canned-beverages.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/tarigan2016-factors-tin-released-canned-beverages.md | sha256sum"
         }
       }
     ]

@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `150cc0792` (2026-06-18). The body hashes to `sha256:0f2dc4c93fa2342546e5834db7fd951c…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `50de6ab21` (2026-07-27). The body hashes to `sha256:6b664a9f71e913a6c0198c25d49dbfc6…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=spices&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/spices&download=1`.
 
 ## Evidence base
 
-This category is supported by 63 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 2 numerical claims; 1 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
+This category is supported by 64 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 2 numerical claims; 1 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/spices.md`.
 

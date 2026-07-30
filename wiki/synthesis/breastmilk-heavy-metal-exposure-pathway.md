@@ -109,3 +109,26 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Rachel C. Thoerig, Lauren E. O'Connor, Maureen K. Spill, Arin A. Balalian, Rupal Trivedi, Shailesh M. Advani, et al. (2025). *Assessment of arsenic, cadmium, lead, mercury, and per- and polyfluoroalkyl substances concentrations in human milk and infant formula in the United States: a systematic review*. American Journal of Clinical Nutrition, Vol. 122, pp. 1006-1026. [https://doi.org/10.1016/j.ajcnut.2025.07.001](https://doi.org/10.1016/j.ajcnut.2025.07.001). Peer-reviewed, A-tier. [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review|Source record]]
+2. Moon N, Heo SJ, Park S, Im H, and Kim JH (2025). *The Association Between Maternal Dietary Intake and the Risk of Heavy Metals in Human Breast Milk in Korea*. Toxics. [https://doi.org/10.3390/toxics13050381](https://doi.org/10.3390/toxics13050381). Peer-reviewed, A-tier. [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea|Source record]]
+3. Chen C, Ma C, Li Q, Hang JG, Shen J, Nakayama SF, et al. (2023). *Prenatal Exposure to Heavy Metals and Adverse Birth Outcomes: Evidence From an E-Waste Area in China*. GeoHealth. [https://doi.org/10.1029/2023GH000897](https://doi.org/10.1029/2023GH000897). Peer-reviewed, A-tier. [[sources/chen2023-breast-milk-ewaste-china|Source record]]
+4. Naspolini NF, Vanzele PAR, Tótolo P, Schüroff PA, Fatori D, Vicentini Neto SA, et al. (2024). *Lead contamination in human milk affects infants' language trajectory: results from a prospective cohort study*. Frontiers in Public Health. [https://doi.org/10.3389/fpubh.2024.1450570](https://doi.org/10.3389/fpubh.2024.1450570). Peer-reviewed, A-tier. [[sources/naspolini2024-human-milk-sao-paulo|Source record]]
+5. Katrynska D, Bzikowska-Jura A, Goc Z, and Kogut L (2026). *Human Milk as a Biomonitor of Toxic Metal Exposure: Sources, Transfer Mechanisms, and Implications for Infant Health — A Review*. Nutrients. [https://doi.org/10.3390/nu18101527](https://doi.org/10.3390/nu18101527). Review, B-tier. [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review|Source record]]
+6. Aisyiah, Rahfiludin MZ, Agushybana F, and Sutiningsih D (2025). *Heavy Metal Content in Breast Milk and Contributing Environmental and Maternal Factors: A Systematic Review*. Jurnal Bidan Cerdas. [https://doi.org/10.33860/jbc.v7i2.4042](https://doi.org/10.33860/jbc.v7i2.4042). Review, B-tier. [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [030d8b437](https://github.com/paleofoundation/heavymetalindex/commit/030d8b437) | 2026-07-27 | major | 5 sources added; 12 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

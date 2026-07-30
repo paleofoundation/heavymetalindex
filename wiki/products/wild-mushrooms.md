@@ -36,6 +36,14 @@ updated: 2026-06-09
 
 The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Hanc A, Fernandes AR, Falandysz J, and Zhang J (2021). *Mercury and selenium in developing and mature fruiting bodies of Amanita muscaria*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-021-14740-6](https://doi.org/10.1007/s11356-021-14740-6). Peer-reviewed, A-tier. [[sources/hanc2021-amanita-muscaria-hg-se|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -55,15 +63,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [55f6bded4](https://github.com/paleofoundation/heavymetalindex/commit/55f6bded4) | 2026-06-09 | reorg(taxonomy-v2.2): Phase A pages — re-home Cat 4 families to Cat 27/28/29 |
-| [c794d6b50](https://github.com/paleofoundation/heavymetalindex/commit/c794d6b50) | 2026-06-08 | reorg(taxonomy-v2.1): stand up cats 24/25/26 + mushrooms/jewelry rows |
-| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [55f6bded4](https://github.com/paleofoundation/heavymetalindex/commit/55f6bded4) | 2026-06-09 | minor | Narrative text revised |
+| [c794d6b50](https://github.com/paleofoundation/heavymetalindex/commit/c794d6b50) | 2026-06-08 | minor | Narrative text revised |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added; narrative text revised |
+| [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 1 source added; 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

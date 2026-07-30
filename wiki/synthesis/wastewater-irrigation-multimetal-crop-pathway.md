@@ -93,3 +93,25 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Ali AS, Bayih AA, and Gari SR (2022). *Meta-analysis of public health risks of lead accumulation in wastewater, irrigated soil, and crops nexus*. Frontiers in Public Health. [https://doi.org/10.3389/fpubh.2022.977721](https://doi.org/10.3389/fpubh.2022.977721). Peer-reviewed, A-tier. [[sources/ali2022-lead-wastewater-crops-meta|Source record]]
+2. Adebayo RK, Hassan UF, Adamu HM, Hassan HF, Baba H, and Ajiya DA (2020). *Levels of heavy metals and their health risk assessment from wastewater irrigated spinach in railway quarters, Bauchi, Bauchi state, Nigeria*. International Journal of Advanced Chemistry Research. [https://doi.org/10.33545/26646781.2020.v2.i2a.22](https://doi.org/10.33545/26646781.2020.v2.i2a.22). Peer-reviewed, A-tier. [[sources/adebayo2020-wastewater-irrigated-spinach|Source record]]
+3. Chiutula C, Mtewa AG, Abraham A, Mvula RLS, Maluwa A, Eregno FE, et al. (2025). *Assessment of Heavy Metal Accumulation in Wastewater–Receiving Soil–Exotic and Indigenous Vegetable Systems and Its Potential Health Risks: A Case Study from Blantyre, Malawi*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph22111614](https://doi.org/10.3390/ijerph22111614). Peer-reviewed, A-tier. [[sources/chiutula2025-wastewater-vegetables-malawi|Source record]]
+4. Clair-Caliot G, Marks SJ, Hug SJ, Bretzler A, N'guessan ND, Tihe SFK, et al. (2021). *Uptake of Arsenic by Irrigated Vegetables and Cooked Food Products in Burkina Faso*. Frontiers in Water. [https://doi.org/10.3389/frwa.2021.667308](https://doi.org/10.3389/frwa.2021.667308). Peer-reviewed, A-tier. [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina|Source record]]
+5. Pal Jitender, Bishnoi Mukal, and Kaur Mandeep (2017). *Heavy Metals in Soil and Vegetables and their Effect on Health*. International Journal of Engineering Science Technologies. [https://doi.org/10.29121/IJOEST.v2.i1.2017.03](https://doi.org/10.29121/IJOEST.v2.i1.2017.03). Peer-reviewed, B-tier. [[sources/pal2017-wastewater-vegetables-heavy-metals|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [030d8b437](https://github.com/paleofoundation/heavymetalindex/commit/030d8b437) | 2026-07-27 | major | 5 sources added; 11 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

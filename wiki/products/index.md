@@ -14,3 +14,17 @@ The catalogue reports what the peer-reviewed and regulatory literature supports.
 ## Categories
 
 The categories below open onto their subcategories and the individual product pages beneath them.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [19cec1a0a](https://github.com/paleofoundation/heavymetalindex/commit/19cec1a0a) | 2026-07-03 | major | 2 sections added and 38 removed; narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
+| [2db16f3ee](https://github.com/paleofoundation/heavymetalindex/commit/2db16f3ee) | 2026-06-09 | major | 7 sections added and 1 removed; narrative text revised |
+| [55f6bded4](https://github.com/paleofoundation/heavymetalindex/commit/55f6bded4) | 2026-06-09 | major | 4 sections added and 1 removed; narrative text revised |
+| [a47b3db41](https://github.com/paleofoundation/heavymetalindex/commit/a47b3db41) | 2026-06-08 | major | 4 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

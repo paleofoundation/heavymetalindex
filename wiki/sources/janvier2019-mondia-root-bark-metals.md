@@ -67,12 +67,13 @@ Microbiome: Not applicable.
 The DOI, authors, journal, license, and final citation are visible in the PDF. The auto-fetched filename places this in a vitamin-mineral supplement lead queue, but the actual matrix is Mondia whytei root bark used as a wild edible plant and food supplement. Table 3 appears to repeat Kinkware as the last column while the discussion identifies that high-K/Pb column as Kinigi; this page follows the table values and notes the locality label issue for future synthesis review.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [cea70cc2b](https://github.com/paleofoundation/heavymetalindex/commit/cea70cc2b) | 2026-06-09 | ingest auto-fetched 2026-06-09: janvier2019-mondia-root-bark-metals |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [cea70cc2b](https://github.com/paleofoundation/heavymetalindex/commit/cea70cc2b) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

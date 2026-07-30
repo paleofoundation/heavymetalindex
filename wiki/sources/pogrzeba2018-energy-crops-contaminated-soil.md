@@ -79,12 +79,13 @@ Courses: This is a useful teaching case for preserving matrix fit. The same anal
 This page was built from the PDF text, including the abstract, site description, experimental design, Table 1 soil characteristics, Figure 3/Table 2 biomass-pattern summaries, Table 3 ANOVA summary, methods, discussion, and conclusions. Products and ingredients are intentionally empty because the source does not measure edible commodities, mineral water, or consumer products. The source reports total elemental Pb, Cd, and Zn after digestion; no speciation is reported.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [5a8f7b878](https://github.com/paleofoundation/heavymetalindex/commit/5a8f7b878) | 2026-06-09 | ingest auto-fetched 2026-06-09: pogrzeba2018-energy-crops-contaminated-soil |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [5a8f7b878](https://github.com/paleofoundation/heavymetalindex/commit/5a8f7b878) | 2026-06-09 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
