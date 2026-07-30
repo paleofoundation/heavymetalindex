@@ -273,9 +273,20 @@ function routeCount(citeKey) {
 function validateRoutingOrThrow() {
   const r = tryRun("npm", ["run", "evidence:source-routes"], { maxBuffer: 120 * 1024 * 1024 });
   if (r.status !== 0) throw new Error(`routing audit failed:\n${r.stdout}\n${r.stderr}`);
+  // Read the `severity` column rather than substring-matching the line. The header
+  // itself contains the column name `missing_blocking`, so a naive /blocking/i test
+  // flags the header on every run and stops a healthy batch from committing.
   const p = path.join(repo, "data/evidence/routing_malformed.csv");
-  const blocking = fs.existsSync(p)
-    ? fs.readFileSync(p, "utf8").split("\n").filter(l => /blocking/i.test(l)) : [];
+  if (!fs.existsSync(p)) return;
+  const [header, ...rows] = fs.readFileSync(p, "utf8").split("\n").filter(l => l.trim());
+  const cols = (header || "").split(",");
+  const sevIdx = cols.indexOf("severity");
+  const missIdx = cols.indexOf("missing_blocking");
+  const blocking = rows.filter(l => {
+    const f = l.split(",");
+    return (sevIdx >= 0 && f[sevIdx]?.trim().toLowerCase() === "blocking") ||
+           (missIdx >= 0 && (f[missIdx] || "").trim() !== "");
+  });
   if (blocking.length) throw new Error(`blocking malformed rows:\n${blocking.slice(0, 10).join("\n")}`);
 }
 

@@ -105,3 +105,26 @@ test("asserted metals always have quotable evidence lines", () => {
     assert.ok(evidence[m]?.length >= 2, `${m} must carry its justifying lines`);
   }
 });
+
+test("bibliography lines are never evidence", () => {
+  // Both strings are real extractions from kubwabo2009 and paranjape2023, produced by
+  // the first fixed run before reference-stripping was added.
+  const t = `
+    Some body text about baby bottles and migration.
+
+    References
+
+    Smith A. levels of lead or cadmium. 20:614-619.
+    Jones B. removal of aluminium ( III ) from polluted. J Chem Pharm Sci 2011;12:44-51.
+    Doe C. cadmium concentration in food. doi:10.1016/j.foodchem.2019.01.001
+  `;
+  assert.deepEqual(metalsOf(t), [], "reference-list metals must not be asserted");
+});
+
+test("a prose mention with no number is not evidence", () => {
+  const t = `
+    Elevated levels of lead or cadmium have been reported in the literature.
+    Cadmium exposure remains a public health concern worldwide.
+  `;
+  assert.deepEqual(metalsOf(t), [], "numberless prose must not assert an analyte");
+});

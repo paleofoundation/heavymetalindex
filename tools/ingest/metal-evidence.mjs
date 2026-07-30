@@ -61,8 +61,31 @@ const SYMBOL = {
   Sb: /\bSb\b/, U: /\bU\b/,
 };
 
+// Drop the bibliography before anything is treated as evidence. A reference list is
+// dense with metal names next to numbers ("...levels of lead or cadmium. 20:614-619")
+// and will otherwise supply "measurements" that are really volume:page citations.
+// Truncates at the last reference heading in the final third of the document, so a
+// mid-text mention of the word "references" does not decapitate the paper.
+export function stripReferences(text) {
+  const s = String(text || "");
+  const re = /^\s*(references|bibliography|literature cited|works cited)\s*:?\s*$/gim;
+  let cut = -1;
+  for (const m of s.matchAll(re)) {
+    if (m.index > s.length * 0.33) { cut = m.index; break; }
+  }
+  return cut === -1 ? s : s.slice(0, cut);
+}
+
 export function splitLines(text) {
-  return String(text || "").split(/\n/).map(l => l.replace(/\s+/g, " ").trim()).filter(Boolean);
+  return stripReferences(text).split(/\n/).map(l => l.replace(/\s+/g, " ").trim()).filter(Boolean);
+}
+
+// A residual bibliography line that survived the heading cut (running heads, papers
+// with no heading). Volume:page ranges and trailing DOIs are the reliable tells.
+function looksLikeCitation(l) {
+  return /\b\d+\s*:\s*\d+\s*[–—-]\s*\d+\b/.test(l) ||
+         /\bdoi\s*:|\bhttps?:\/\//i.test(l) ||
+         /\b(?:J|Sci|Environ|Chem|Toxicol|Food)\b[^.]{0,40}\b\d{4}\b\s*[;,]/.test(l);
 }
 
 // Lines that carry an actual measurement for `metal`. These are the lines that
@@ -73,6 +96,10 @@ export function evidenceLinesFor(metal, lines) {
   const amb = AMBIGUOUS[metal];
   const out = [];
   for (const l of lines) {
+    // A measurement has a number in it. Requiring a digit on every evidence line
+    // stops prose mentions ("levels of lead or cadmium") from counting as evidence.
+    if (!/\d/.test(l)) continue;
+    if (looksLikeCitation(l)) continue;
     if (unamb) {
       if (!unamb.test(l)) continue;
       if (UNIT.test(l) || MEASURE_CTX.test(l)) out.push(l);
