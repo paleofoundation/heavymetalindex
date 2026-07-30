@@ -35,10 +35,25 @@ const NON_SURNAME = new Set([
   "correspondence", "editor", "editorial", "supplementary", "appendix", "chapter",
 ]);
 
+// Generational suffixes are part of Crossref's `family` field ("Foday Jr", "King III").
+// Taking the last whitespace token without stripping them mints `jr2021-…`, which is the
+// same class of defect as `authors2026-…`: a real record producing a meaningless key.
+const SUFFIXES = new Set(["jr", "jr.", "sr", "sr.", "ii", "iii", "iv", "v", "phd", "md"]);
+
+export function extractSurname(family) {
+  const tokens = String(family || "").normalize("NFKD")
+    .replace(/[^\w\s'’-]/g, " ")
+    .trim().split(/\s+/).filter(Boolean);
+  while (tokens.length > 1 && SUFFIXES.has(tokens[tokens.length - 1].toLowerCase())) tokens.pop();
+  return tokens.pop() || "";
+}
+
 export function isPlausibleSurname(token) {
   const t = String(token || "").trim().toLowerCase();
   if (t.length < 2) return false;
   if (NON_SURNAME.has(t)) return false;
+  // A record whose family field is only a suffix ("Jr") leaves nothing to key on.
+  if (SUFFIXES.has(t)) return false;
   if (/^\d+$/.test(t)) return false;
   if (!/^[a-z][a-z'’\-]*$/i.test(t)) return false;
   return true;
@@ -107,8 +122,7 @@ export async function resolveWork(rawDoi, { delayMs = 120, retries = 3 } = {}) {
       const a = (work.author || [])[0] || {};
       // Personal author first; fall back to an organisational/consortium name.
       const family = a.family || a.name || "";
-      const surname = String(family).normalize("NFKD")
-        .replace(/[^\w\s'’-]/g, "").trim().split(/\s+/).pop() || "";
+      const surname = extractSurname(family);
 
       const year =
         work.issued?.["date-parts"]?.[0]?.[0] ??
