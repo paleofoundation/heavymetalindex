@@ -116,3 +116,87 @@ Commits: none
 
 Main worktree verified: 4b71663db / 947 dirty / 8 stashes
 Reconcile worktree: 90a2f9a38 / clean
+
+## 0.8 — Carry local's code across — 2026-07-30T20:15:00+03:00
+
+Result: DONE
+
+Commits:
+- `32c83b990` firewall(B1): re-close the dossier leak — remove both generators, the 351 pages, and flip the no-threshold lint blocking
+- `2abc0709e` reconcile(tools): restore local's Central Library from pre-reconcile-2026-07-30
+- `80d8b6312` docs(lint): document the two build-blocking guards origin's text omits
+- `99322f371` chore(generated): regenerate derived output after the B1 re-closure
+
+### Findings
+
+1. **Preflight clean.** Main read live at `11631713f` / 946 dirty / 8 stashes; tag still `4b71663db`
+   and still an ancestor. Second bundle written to `~/Desktop/hmi-pre-reconcile-2.bundle` (215 MB,
+   "records a complete history", contains `11631713f`); the original 208 MB bundle is untouched.
+   **Zero of the 19 collision files moved on main since 0.7** — the only change since the tag is
+   `data/evidence/ingredient-synthesis-backlog.csv`, the expected generated CSV. No `quartz/` or
+   `tools/` drift, so the signed-off decisions still hold against current state.
+
+2. **Firewall posture carried (commit 1).** 351 `wiki/dossiers/` pages removed one line at a time,
+   both `build-defense-dossier.mjs` and `build-brand-dossier-pages.mjs` removed from `prebuild`, and
+   `firewall-no-threshold-lint.mjs` flipped from `--warn-only` to blocking. 351 D + 2 M, nothing else.
+   `wiki/for-brands.md` was already absent from origin — only the pages had regressed.
+   `build-change-watch.mjs` retained, so `wiki/static/change-watch-index.json` is still emitted after
+   dropping `build-brand-dossier-pages.mjs` (which also wrote it).
+
+3. **`application-crm-spec.md` corrected**, not deleted. Its claim that the pages were "already removed"
+   was true when written and false for five weeks. The correction records the regression mechanism —
+   `b6c971f01` removed, `af9c97a50` regenerated, because the generators stayed in `prebuild` — so the
+   next reader knows why generator-removal is not optional.
+
+4. **Both local generators confirmed superseded before dropping**, by comparing emitted targets rather
+   than assuming: `build-homepage.mjs` → `wiki/index.md` (also written by origin's
+   `build-recently-updated.mjs` + `build-corpus-counter.mjs`) and `wiki/static/change-watch-index.json`
+   (origin's `build-change-watch.mjs`); `build-ingredient-index.mjs` → `wiki/ingredients/index.md`
+   (origin's `sync-source-counts.mjs`) and `data/nav/ingredient-groups.json` (origin's
+   `build-nav-panels.mjs`). Every target is covered by a generator already in origin's prebuild.
+   Neither local generator was in origin's prebuild to begin with, so nothing was removed for them.
+   `audit-content-preservation.mjs` kept, per sign-off.
+
+5. **Ingest tooling: 66 collisions, only 12 actually divergent** — all in `tools/central-library/`.
+   `fetch-app/`, `library/`, `wishlist/` and `lib/` collided but are byte-identical on both sides, so
+   they needed no restore. Checked explicitly that none of the 12 feeds origin's front-end; the
+   generator-follows-consumer exceptions all sit at `tools/` root and stayed on origin. All four
+   `tools/lib/` helpers that origin's generators import (`count-pages`, `citation-format`,
+   `change-note`) are identical across sides, so there was no coupling risk to manage.
+
+6. **CORRECTION to 0.7 findings 11 and 12 — I had the direction reversed.** I wrote that origin
+   documents the published-footer leak guard and local omits it. The opposite is true: **local
+   documents it, origin does not**, in both `CLAUDE.md` and `docs/lint.md`, while
+   `audit-page-history-leaks.mjs` is live and build-blocking in origin's own prebuild. That is the
+   "one local sentence preserved" the sign-off called for, and it is now restored on origin's base.
+   The signed-off exception as literally worded — do not carry origin's description of the *firewall
+   no-threshold* lint — was moot: **neither side documents that lint at all**. It is now documented in
+   both files, since this branch makes it build-blocking.
+
+7. **Build passes with the lint blocking.** Firewall no-threshold structural ERRORs **1 → 0**. The 16
+   `step0_basis` WARNs and 1 prose INFO remain, non-blocking (F6). `contamination-profile integrity:
+   PASS`, `audit-page-history-leaks: PASS`. Input files 3,589 → 3,238 and emitted 4,285 → 3,934, both
+   consistent with removing 351 pages. Zero dossier regeneration — the generators are gone, so the
+   `af9c97a50` failure mode cannot repeat.
+
+8. **Both origin-only evidence corrections survived.** `43f4b5e53` (PR #81 dedup) and `22134c35a`
+   (censored-zero drain) are both in branch lineage, and the integrity audit passes. The 42 remaining
+   duplicate-DOI clusters are **not** a regression: `audit-doi-collisions` reports 1,861 DOI-bearing
+   pages / 1,811 distinct in *both* the 0.4 and 0.8 builds — identical, pre-existing accumulation since
+   June, and unrelated to this step.
+
+9. **Untidiness to note:** the final `git add -A` swept `RECONCILE.md` and `docs/reconcile-log.md` into
+   the generated-output commit as new files. Harmless — both belong on the branch — but they are
+   working-plan documents, not generated output, so the commit is slightly mislabelled for those two.
+
+### Open questions for Karen
+
+1. **F5 is now the whole remaining dossier exposure.** The HTML door is shut; `api/defense-dossier.mjs`
+   still serves the full 31 KB manifest as public JSON with `cache-control: public`, and it is still
+   declared in `vercel.json` and live in production. Gate it, or relocate it to the cert plane?
+2. **Docs scope.** Documenting the firewall no-threshold lint in `CLAUDE.md` Part 18 and `docs/lint.md`
+   went slightly beyond the literal sign-off, which only said what *not* to carry. It seemed wrong to
+   make a lint build-blocking and leave it undocumented in the file sessions read. Reverse if unwanted.
+3. **`homeSearch.inline.ts`** left in place per sign-off; logged here as later cleanup.
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes
