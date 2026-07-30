@@ -266,3 +266,68 @@ Commits:
    origin counterpart. Carry as-is?
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+## 0.8c — Finish the local-only sweep — 2026-07-30T21:55:00+03:00
+
+Result: DONE (3 of 4 commits landed; commit 3 carries nothing by test; 1 file held back by a hook)
+
+Commits:
+- `6543561d1` reconcile(corpus): carry 13 local-only source pages + union the wiki-edit audit trail
+- `1603d4f5b` reconcile(evidence): carry local-only evidence and audit-trail files
+- `11dd4384a` reconcile(docs): carry local-only docs and gap register
+
+### Findings
+
+1. **The union proves the overwrite would have destroyed provenance. ORIGIN-ONLY = 249 rows** against
+   `origin/main`'s committed file, and **BRANCH-only = 301** against the branch's current working file
+   (which has legitimately accrued rows from the 0.4 and 0.8 builds). Both are non-zero, so *neither*
+   proposed option was safe: taking local's 4,844 would have dropped 301 real rows for real pages
+   (`bei2025-pteris-arsenic-rhizosphere`, `wan2023-rhizosphere-cadmium-migration`,
+   `stark2019-east-bay-wild-edible-greens`, …). Standing rule 11 is correct and my option 2 was wrong.
+
+2. **Union executed and verified lossless.** branch 2,478 + tag 4,844 → **5,145 unique rows**, matching
+   2,177 shared + 2,667 tag-only + 301 branch-only exactly. Zero branch rows and zero tag rows missing
+   from the result; 5,145/5,145 lines valid JSON. Deduped on the verbatim line, sorted by
+   `applied_at` then `edit_id`. Schema: `edit_id, page, span_id, source_document, retrieval_date,
+   models_used, model_agreement_state, applied_at, commit_sha`.
+
+3. **The DOI gate passed all 13 source pages** on their merits — every one carries a well-formed,
+   registered-looking DOI, and none appears on the confabulated-61 list. The barrier that blocked was
+   the wiki-edit audit write barrier, satisfied by staging the unioned trail alongside the pages, which
+   is how it was designed to be satisfied. `WIKI_EDIT_AUDIT_SKIP` was never set.
+
+4. **Commit 3 carries nothing — all three files fail test (b).** Target map:
+   - `tools/build-key-questions.mjs` → emits `data/evidence/key-questions-audit.json`. Passes (a): no
+     origin generator emits that file. **Fails (b):** it is in no npm script, and its only reference on
+     the branch is a *comment* inside `tools/lib/faq-firewall-guard.mjs`, not a call.
+   - `tools/homepage/faq.json` → referenced by nothing on the branch.
+   - `quartz/styles/home.scss` → imported by no `.scss` on the branch, exactly as predicted.
+   All three stay out, alongside `homeSearch.inline.ts`.
+
+5. **A stale comment worth noting, not fixing.** `tools/lib/faq-firewall-guard.mjs` says "Both the
+   accordion generator (`tools/build-key-questions.mjs`) and the JSON-LD postbuild import THIS
+   function." On the branch only `postbuild-inject-jsonld.mjs` and `build-metal-faq.mjs` import it —
+   origin's `build-metal-faq.mjs` is the live FAQ generator (`c26d92116`, "collapsible FAQ accordions
+   site-wide"). So the comment now describes a generator that is not in the build. Cosmetic; flagged so
+   a later reader does not conclude a consumer exists.
+
+6. **One file held back by the audit barrier's over-broad glob.**
+   `wiki/batch-reports/codex-bulk-ingest-2026-07-29.md` matches `^wiki/.*\.md$`, so the barrier demands
+   a staged audit row — but a batch *report* is a record of an ingest run, not a wiki page edit, and no
+   genuine provenance row exists for it anywhere (0 rows reference `wiki/batch-reports/`, and 36 batch
+   reports are already tracked on the branch without rows). Same class of defect as the DOI gate's
+   `--diff-filter=AM` predicate fixed in 0.8: the glob describes more than the invariant does. Commit 4
+   was split; the four non-wiki files landed, this one is restored in the worktree but **uncommitted**.
+
+### Open questions for Karen
+
+1. **`wiki/batch-reports/codex-bulk-ingest-2026-07-29.md` (finding 6).** Three options: (a) narrow the
+   barrier's glob to exclude `wiki/batch-reports/` and `wiki/lint/`, which are records rather than
+   content — the same fix shape as the DOI gate; (b) leave the file out; (c) something else. I did not
+   touch the hook, since 0.8c did not authorise it. The file sits uncommitted in the worktree meanwhile.
+2. **The 2,366-row audit gap is now resolved into the union**, but worth knowing what it *was*: 2,667
+   tag-only rows are provenance for edits whose record existed nowhere on the branch before this commit.
+   That gap was invisible because the file collided and was adjudicated as a unit — the precise failure
+   standing rule 11 now prevents.
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes

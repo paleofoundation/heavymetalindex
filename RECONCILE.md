@@ -52,9 +52,17 @@ Where a step needs a visual spec, Karen supplies it.
 9. **A collision list contains only files present on BOTH sides.** Everything one side created that the
    other never had is invisible to it. Before declaring any carry-across complete, sweep for files
    present on `pre-reconcile-2026-07-30` and absent from the branch — `git diff --name-status
-   <tag>..HEAD | grep '^D'` — and report by area. This blind spot cost 14 files in 0.8, including the
-   whole of `tools/ingest/`.
+   <tag>..HEAD | grep '^D' | cut -f2` — and report by area. This blind spot cost 14 files in 0.8,
+   including the whole of `tools/ingest/`. Use `cut -f2`, not `awk` field-blanking: blanking `$1`
+   replaces the tab with a space and silently breaks a following `^path/` match, which returned a false
+   zero on the first attempt. **The rule is only as good as the command that implements it.**
 10. Styling and front-end tasks may not touch `wiki/**`, `data/**`, or `raw/**`.
+11. **Append-only data files are unioned, never chosen.** A collision list adjudicates files as units,
+    but the contents of an append-only trail are additive — "which side wins" is a malformed question
+    about `wiki_edit_audit.jsonl`, `review_events.jsonl`, `claim-provenance-audit.csv` and their kin.
+    Taking either side drops the other's rows. Union by verbatim line, dedupe exact duplicates, sort
+    deterministically, and report the three-way counts (local-only / origin-only / shared) so the merge
+    is auditable.
 
 ## Reporting protocol
 
@@ -230,6 +238,38 @@ dead nav links** — which makes carrying local's `wiki/regulators/` a fix, not 
 
 ---
 
+## Step 0.8c — Finish the local-only sweep — DECISIONS SIGNED OFF 2026-07-30
+
+0.8b Part 2 found 38 remaining local-only paths. Two are settled and stay out: the `outputs/`
+Codex-cache symlink (removed on purpose in `d42bf96cc`) and `quartz/scripts/homeSearch.inline.ts`
+(orphaned by design once origin's `TopNav.tsx` won). `wiki/regulators/` is a non-issue — 11 files
+present and identical on both sides, all seven TopNav URLs 200 in production.
+
+Restore from the tag by path, one line at a time, in four commits:
+
+1. **The 13 local-only `wiki/sources/` pages — CARRY.** Real ingested corpus. They land as **added**
+   pages, so the DOI gate tests them on their merits. **If it blocks any, report and stop; do not
+   bypass and do not add a `no_doi_assigned` marker to get past it.**
+
+   **The DOI gate passed; the wiki-edit audit barrier blocked instead — resolve by UNION, per standing
+   rule 11.** All 13 have provenance rows in the tag's `wiki_edit_audit.jsonl` (4,844 rows) and none in
+   the branch's (2,478). Do not set `WIKI_EDIT_AUDIT_SKIP=1`. Do not overwrite with either side —
+   origin's 89 commits recorded their own rows, so taking local's wholesale would drop origin's
+   provenance and mirror the hole it fixes. Union by verbatim line, dedupe, sort deterministically, and
+   report local-only / origin-only / shared counts. **If origin-only > 0, that proves overwriting would
+   have lost data — state the number.** Stage the unioned file alongside the 13 pages.
+2. **The 13 local-only `data/evidence/` files — CARRY as-is.** Provenance trail for the
+   extraction-quarantine work.
+3. **The homepage cluster — test, then carry selectively.** For `build-key-questions.mjs`,
+   `tools/homepage/faq.json`, `quartz/styles/home.scss`: carry only if (a) no origin generator emits
+   an equivalent target **and** (b) something on the branch consumes it. Report the target map either way.
+4. **`docs/` (3) + `data/gaps/` + `wiki/batch-reports/` (2) — CARRY.**
+
+Then re-run the tag-vs-branch sweep and confirm the only remaining absences are the two settled ones
+plus anything 3 deliberately excluded. Only then proceed to 0.9.
+
+---
+
 ## Content integrity — urgent, ranks above the remaining firewall work
 
 **C1 — 61 non-resolving DOIs on published source pages.** Live on the deployed line right now.
@@ -242,6 +282,15 @@ against Crossref and correct it, or (b) remove the `doi:` field and set `no_doi_
 **verified publisher `access_url`**. Where neither is possible, report the page rather than improvising.
 Same decision surface as Open decision 3 (six `doi: null`) and Open decision 2 (the `doi: ''` gate hole)
 — do all three as one governed pass, gate hole closed first so the fix cannot regress silently.
+
+**Lead worth pursuing first: the 61 may be digit-slips, not inventions.**
+`davydiuk2023-arsenosugars-methylation.md` carries `…envhealth.3c00080` on the C1 list, while
+`davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other.md` — a separate, valid page —
+carries `…envhealth.3c00090`. Same author, same year, adjacent suffix, one confirmed non-existent.
+Before treating the 61 as fabrications, test the digit-slip hypothesis across the list: for each bad
+DOI, check whether a near neighbour (±1 in the final digits, or a transposition) resolves to a paper by
+the same author and year. A slip is correctable with confidence; an invention is not. Either way the
+rule holds — verify against Crossref, never guess.
 
 Own branch, own step, after the reconcile lands. Do not fold into a reconcile commit.
 
