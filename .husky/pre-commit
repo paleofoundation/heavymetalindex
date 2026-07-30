@@ -93,16 +93,24 @@ $f"
 fi
 
 # ── Wiki-edit audit write barrier ────────────────────────────────────────────
-# Every commit that touches wiki/**/*.md must include a matching new audit row
-# in data/evidence/wiki_edit_audit.jsonl. This enforces the invariant that no
+# Every commit that touches a wiki CONTENT page must include a matching new audit
+# row in data/evidence/wiki_edit_audit.jsonl. This enforces the invariant that no
 # automated worker edits a wiki page without a recorded provenance trail.
+#
+# Scope: content pages only. wiki/batch-reports/ and wiki/lint/ are RECORDS of
+# runs — an ingest batch report or a lint report documents what a run did; it is
+# not an edit to a page whose provenance a reader would trace. The glob used to
+# be a bare ^wiki/.*\.md$, which caught them and demanded a provenance row that
+# by definition does not exist: 36 batch reports are already tracked with zero
+# rows referencing wiki/batch-reports/, which is evidence the pattern was broader
+# than the invariant, not evidence the rule was being broken (found 2026-07-30).
 #
 # Exceptions (manual / non-automated edits):
 #   - Set WIKI_EDIT_AUDIT_SKIP=1 in the environment when making a manual,
 #     human-authored change that has no corresponding audit row.
 #   - The hook prints a warning so the bypass is visible in the terminal.
 
-_wiki_pages=$(git diff --cached --name-only --diff-filter=AM | grep '^wiki/.*\.md$' || true)
+_wiki_pages=$(git diff --cached --name-only --diff-filter=AM | grep '^wiki/.*\.md$' | grep -vE '^wiki/(batch-reports|lint)/' || true)
 
 if [ -n "$_wiki_pages" ]; then
   if [ "${WIKI_EDIT_AUDIT_SKIP:-0}" = "1" ]; then
