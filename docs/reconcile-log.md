@@ -379,3 +379,70 @@ Commits:
 None. Ready for 0.9.
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+## 0.9 / 0.9b — Verify corrective work; make the audit barrier's claim true — 2026-07-30T23:20:00+03:00
+
+Result: DONE — 0.9 checks 2/3/4 pass; the barrier now enforces what it declares
+
+Commits:
+- `1c0b678ac` chore(generated): regenerate derived output after the 0.8b-0.8d carry-across (incl. `tools/lib/wiki-edit-scope.mjs`)
+
+### Findings
+
+1. **Check 3 — idempotency proven, not inferred.** Two consecutive builds: `wiki/dossiers/` 0 pages both
+   times, firewall structural ERRORs 0 both times, **3,948 emitted files both times**, zero dossier
+   generator output in either log, and the build's own guard reporting *"PASS — second consecutive run
+   is a no-op across all wiki pages."* The `af9c97a50` failure mode is now structurally impossible
+   rather than merely fixed: the generators are gone, not just their output deleted.
+
+2. **Check 2 — pass.** All 13 carried pages conform to `<firstauthor><year>-<slug>`, 0 malformed.
+   `authors20*` = 239, matching the 0.4 baseline and local main exactly.
+
+3. **Check 4 — pass, delta fully reconciled.** `routing_malformed` 0 blocking, `routing_unresolved` 14,
+   both other blocking guards PASS. Input 3,589 → 3,252 and emitted 4,285 → 3,948, **both exactly
+   −337** = 351 dossier pages removed, +13 source pages carried, +1 batch report.
+
+4. **Check 1 — superseded.** The confabulated-DOI sweep was never applied; tracked as C1.
+
+5. **0.9b diagnostic — the whitelist did not have to grow.** Exactly two generator-owned frontmatter
+   keys: `sources` (24 changed lines) and `description` (2). The 13 source pages' apparent
+   out-of-marker changes are each **one added blank line** — trailing-newline normalisation, no prose.
+   **No generator is rewriting authored content**, which was the failure the diagnostic was designed to
+   detect. 33 of 36 pages pass on confinement alone.
+
+6. **The 3 wholly-generated pages** (`wiki/audits/2026-07-30-baseline.md`, `wiki/audits/index.md`,
+   `wiki/coverage.md`) carry **zero marker blocks** — confinement has nothing to confine to. Added to
+   `WHOLLY_GENERATED`. Their own frontmatter declares them auto-regenerated.
+
+7. **One register, not two.** `tools/lib/wiki-edit-scope.mjs` is the single list; RECONCILE.md standing
+   rule 4 now points at it rather than restating its contents. Adding a sixth prose list of the same
+   paths while fixing the fifth drift instance would have been a poor trade.
+
+8. **The barrier still bites — tested twice, after the fix.** A hand-authored sentence appended outside
+   every marker block on `wiki/metals/lead.md` was **rejected**; a second probe on `wiki/metals/cadmium.md`
+   after the commit was **also rejected**. Both restored, both verified byte-identical afterwards.
+
+9. **My first attempt at that test was wrong, and the error is worth recording.** I edited the working
+   tree without staging, and the checker reported "barrier broken" — because it reads the *index*, which
+   is correct for a pre-commit hook. The test was faulty, not the barrier. A gate test that touches the
+   worktree but not the index proves nothing.
+
+10. **Standing rule 12 applied after every probe.** Zero scratch references in the commit, in
+    `routing_malformed.csv` (1,225 rows), or anywhere under `wiki/` and `data/`. One grep hit turned out
+    to be the phrase inside my own commit message, not file content — checked rather than assumed.
+
+11. **Provenance caveat for future readers.** Audit rows predating 2026-07-30 were never actually
+    enforced: the generators do not call `recordEditOrAbort()`, and `90a2f9a38` / `99322f371` passed the
+    barrier only because those builds happened to touch `wiki_edit_audit.jsonl` for unrelated reasons.
+    No claim value moved, so no erratum is warranted — but the trail before today does not mean what it
+    appeared to. From `1c0b678ac` forward the barrier enforces what it declares.
+
+12. **Target shape recorded, not built (0.9b option b):** have the three wholly-generated pages' emitters
+    write marker blocks, at which point confinement applies uniformly and `WHOLLY_GENERATED` shrinks
+    toward empty. F10 covers the inverse hazard in the meantime.
+
+### Open questions for Karen
+
+None. Ready for 0.10 — push and PR, no fast-forward of `main`, no deploy.
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes
