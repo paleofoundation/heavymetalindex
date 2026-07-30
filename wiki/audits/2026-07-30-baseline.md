@@ -17,7 +17,7 @@ Generated: **2026-07-30**.  Baseline snapshot: [[audits/2026-07-30-baseline|2026
 |---|---:|:---:|
 | Taxonomy v2.0 coverage (destination pages exist for HMTc rows) | 347 / 356 (97%) | WARN |
 | Routing audit (unresolved source routings) | 13 unresolved | FAIL |
-| Routing rows generated | 4609 | — |
+| Routing rows generated | 4639 | — |
 | Ingredient mandatory sections (non-stub pages) | 229 / 229 (100%) | PASS |
 | Product mandatory sections (non-stub pages) | 255 / 287 (89%) | FAIL |
 | Routing discipline check 1 (sources with product-shaped matrices but empty products[]) | 16 failures | WARN |
@@ -37,10 +37,10 @@ Detail report: [[data/evidence/taxonomy-coverage-audit|data/evidence/taxonomy-co
 
 ## Routing audit
 
-Routing layer (CLAUDE.md Part 5b) fans source-page declarations of `products: [<slug>]` to product-category pages. 4609 routing rows in current audit.
+Routing layer (CLAUDE.md Part 5b) fans source-page declarations of `products: [<slug>]` to product-category pages. 4639 routing rows in current audit.
 
 - Unresolved targets (source frontmatter declares a slug that doesn't exist): **13**
-- Malformed sources (missing required frontmatter fields): **1211** (non-blocking)
+- Malformed sources (missing required frontmatter fields): **1224** (non-blocking)
 
 Detail: [[data/evidence/product_source_routing_audit|data/evidence/product_source_routing_audit.csv]], [[data/evidence/routing_unresolved|data/evidence/routing_unresolved.csv]], [[data/evidence/routing_malformed|data/evidence/routing_malformed.csv]].
 
@@ -48,8 +48,8 @@ Detail: [[data/evidence/product_source_routing_audit|data/evidence/product_sourc
 
 **Check 1** — sources with product-shaped `matrices:` slugs but empty `products: []` and no `pending_category_lock` flag.  These are sources that should route to a product page but the frontmatter doesn't declare it.
 
-- Sources scanned: 2206
-- Sources with product-shaped matrices: 807
+- Sources scanned: 2219
+- Sources with product-shaped matrices: 817
 - **Failures: 16**
 
 **Check 2** — HMTc-locked product pages (carrying hmtc_category + hmtc_row) with zero routed sources.  These are scaffolded destinations that haven't received their Phase 1 ingest yet.
@@ -83,12 +83,12 @@ Detail: [[data/evidence/product-mandatory-sections-audit|data/evidence/product-m
 
 ## Source page corpus
 
-Total source pages in wiki/sources/: **2206**.
+Total source pages in wiki/sources/: **2219**.
 
 By evidence tier:
 - A: 1448
 - A-tier: 1
-- B: 654
+- B: 667
 - C: 103
 
 By source type:
@@ -134,7 +134,7 @@ By source type:
 - ngo-report: 11
 - ngo-scoping-report: 1
 - nonprofit: 5
-- peer-reviewed: 1790
+- peer-reviewed: 1803
 - peer-reviewed-journal: 1
 - peer-reviewed-review: 12
 - peer_reviewed_journal: 1
@@ -163,7 +163,7 @@ By source type:
 - thesis: 9
 - trade-publication: 2
 
-DOI completeness: 2198 of 2206 sources have a DOI or a `no_doi_assigned: true` marker.  Missing DOI metadata: **8**.
+DOI completeness: 2211 of 2219 sources have a DOI or a `no_doi_assigned: true` marker.  Missing DOI metadata: **8**.
 
 ## Claim provenance (trace-every-claim audit v1)
 

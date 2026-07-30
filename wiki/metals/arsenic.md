@@ -9,7 +9,7 @@ microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/arsenic-gut-axis]]", "[[microbiome/arsenic-microbial-methylation]]"]
 wiki_doi: null
 updated: 2026-04-30
-sources: 444
+sources: 451
 ---
 
 # Arsenic

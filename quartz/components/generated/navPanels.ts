@@ -39,37 +39,37 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Lead",
             "slug": "metals/lead",
-            "count": 1193
+            "count": 1196
           },
           {
             "label": "Cadmium",
             "slug": "metals/cadmium",
-            "count": 1141
+            "count": 1146
           },
           {
             "label": "Arsenic",
             "slug": "metals/arsenic",
-            "count": 444
+            "count": 451
           },
           {
             "label": "Mercury",
             "slug": "metals/mercury",
-            "count": 368
+            "count": 372
           },
           {
             "label": "Nickel",
             "slug": "metals/nickel",
-            "count": 539
+            "count": 540
           },
           {
             "label": "Chromium",
             "slug": "metals/chromium",
-            "count": 541
+            "count": 542
           },
           {
             "label": "Aluminum",
             "slug": "metals/aluminum",
-            "count": 332
+            "count": 333
           }
         ]
       },
@@ -266,17 +266,17 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Seafood",
             "slug": "products/fish-marine-predatory",
-            "count": 102
+            "count": 104
           },
           {
             "label": "Shellfish",
             "slug": "products/shellfish",
-            "count": 143
+            "count": 153
           },
           {
             "label": "Seaweed & kelp foods",
             "slug": "products/seaweed-kelp-foods",
-            "count": 94
+            "count": 99
           },
           {
             "label": "Bottled drinking water",
@@ -435,7 +435,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Source archive",
             "slug": "sources",
-            "count": 2206
+            "count": 2219
           },
           {
             "label": "Synthesis findings",

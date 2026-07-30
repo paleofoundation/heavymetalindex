@@ -40,8 +40,12 @@ Where a step needs a visual spec, Karen supplies it.
    did not explicitly authorize it. Use `git commit -- <pathspec>` when the index holds unrelated
    staged work.
 4. **Never hand-edit generated files.** `data/evidence/product_source_routing_audit.csv`,
-   `routing_malformed.csv`, `routing_unresolved.csv`, page-history blocks, `navPanels.ts`,
-   `wiki/sources/index.md`, `wiki/sources/categories/*.md` are generator output. Regenerate instead.
+   `routing_malformed.csv`, `routing_unresolved.csv`, page-history blocks, `navPanels.ts`, and every
+   path listed in **`tools/lib/wiki-edit-scope.mjs`'s `WHOLLY_GENERATED` register** are generator
+   output. Regenerate instead. **That module is the single register — this rule deliberately does not
+   restate its contents.** Two lists of the same thing, one in prose and one in code, is exactly the
+   declaration/implementation drift this repo keeps producing; the doc points at the code so there is
+   nothing to fall out of sync.
 5. **Never set or invent an environment variable** to make a gated step run.
 6. **Read paths from a file one line at a time** — `while IFS= read -r p; do … "$p"; done < list`.
    Never `$(cat list)` or word-splitting; the repo contains paths with spaces (`Toxicology Files/`).
@@ -62,7 +66,14 @@ Where a step needs a visual spec, Karen supplies it.
     about `wiki_edit_audit.jsonl`, `review_events.jsonl`, `claim-provenance-audit.csv` and their kin.
     Taking either side drops the other's rows. Union by verbatim line, dedupe exact duplicates, sort
     deterministically, and report the three-way counts (local-only / origin-only / shared) so the merge
-    is auditable.
+    is auditable. *Vindicated 0.8c: origin-only was 249 against origin's committed file and 301 against
+    the branch's working file. Overwriting would have destroyed 301 real provenance rows.*
+12. **A hook that auto-stages generated files turns any gate test into a writer.** Testing a gate by
+    staging a scratch page fires the pre-commit generators, which `git add` their own output — so a row
+    for a file you are about to delete can ride into the next commit. After **every** gate test, not
+    just after a build: regenerate, verify the artifact contains no scratch reference, and inspect the
+    commit's file list rather than trusting it. *Found in 0.8d by checking an unexpected second file in
+    a commit; the 0.5 DOI-gate test had the same exposure unchecked.*
 
 ## Reporting protocol
 
@@ -107,6 +118,20 @@ a9a0538c9  fix(build): untrack stray node_modules symlink and correct the ignore
 Build passes. Working tree clean. Nothing pushed. **No local code has been carried across yet.**
 
 ## Verified facts — do not re-derive
+
+**Governing principle for this repo: neither the docs nor the manifest is an inventory of what exists.**
+Declaration and implementation drift apart in *both* directions here, and four instances are on record:
+`wiki/roadmap.md` publishes `mint-dois.mjs` and `translate-synthesis.mjs`, which do not exist
+(declared-but-absent); `audit-page-history-leaks.mjs` runs as a blocking guard documented nowhere
+(present-but-undeclared); `package.json` declares `library:status` against a file origin does not have
+(declared-but-absent); `faq-firewall-guard.mjs`'s header claims an importer that is not in the build
+(declared-but-absent); and the wiki-edit audit barrier declares an invariant the generators have never
+satisfied, passing only by coincidence (**declared-but-unenforced** — the most dangerous variety, because
+declared-but-absent fails loudly the moment you invoke it and present-but-undeclared merely surprises you,
+but a gate passing by coincidence actively certifies an invariant nobody has been maintaining; two
+commits went out under it). Every one was found by checking the artifact, never by reading its description —
+which is also the reason F9 is worth running: `quartz.layout.ts` declaring a directory hidden from nav is
+a statement about nav, not about `public/`.
 
 - **Strategy**: `origin/main` is the base; local is re-applied selectively. Origin is what is
   deployed and the smaller delta (89 commits vs 370). Merging the other direction resurrects deleted
@@ -339,6 +364,47 @@ failures that would invalidate the reconcile rather than merely annoy.
 Housekeeping: `RECONCILE.md` and `docs/reconcile-log.md` were swept into `99322f371` by `git add -A`.
 Harmless — leave them tracked; the plan and its log belong in the repo.
 
+## Step 0.9b — Make the audit barrier's claim true for generated content
+
+**The finding — a fifth drift instance, declared-but-unenforced.** The barrier declares "every automated
+edit to a content page carries a provenance row," but the generators that rewrite `wiki/metals/*.md`,
+`wiki/index.md`, `wiki/coverage.md` and 33 others never call `recordEditOrAbort()`. The two earlier
+generated-output commits passed only because those builds happened to touch `wiki_edit_audit.jsonl` for
+unrelated reasons.
+
+**The fix: confinement, not exemption.** Those 36 are not generated pages — they are authored pages
+containing generated blocks. Blanket exemption would let a substantive edit to authored prose ride
+through unrecorded. Making the generators record would fill the trail with untraceable noise.
+
+Instead, exempt a staged `wiki/**/*.md` **only when its entire diff is confined to generator marker
+blocks**, plus a short whitelist of generator-owned frontmatter keys for lines that sit outside markers.
+
+**Report the whitelist as a finding.** State exactly which keys it must contain to pass this build's 36
+pages. A handful of obviously generator-owned keys ⇒ the fix is correct. **If it must grow beyond that,
+or any diff touches prose outside a marker, STOP and report** — that means a generator is rewriting
+authored content.
+
+Then verify the barrier still bites, apply standing rule 12 after the test, and commit.
+
+### 0.9b decisions — signed off 2026-07-30
+
+Diagnostic came back correct: whitelist is **exactly two keys**, `sources` and `description` — it did not
+have to grow. The 13 source pages' out-of-marker changes are each one added blank line. **No generator is
+rewriting authored content.** 33 of 36 pass under confinement.
+
+**The 3 wholly-generated pages — option (a) with a refinement.** Add `wiki/audits/**` and
+`wiki/coverage.md` to `WHOLLY_GENERATED`. **One register, not two:** do not mirror them into a prose
+list; standing rule 4 now points at `tools/lib/wiki-edit-scope.mjs` instead of restating it. Adding a
+sixth list of the same paths while fixing the fifth drift instance would be a poor trade.
+
+**(b) is the target shape, recorded not scheduled:** generators emit marker blocks so confinement applies
+uniformly and the register shrinks toward empty.
+
+**On `90a2f9a38` and `99322f371`:** nothing to undo, no claim value moved, so no erratum — but record that
+audit rows predating 2026-07-30 were never actually enforced, so a future reader does not over-trust them.
+
+---
+
 ## Step 0.10 — Push and open a PR
 
 `git push origin reconcile/2026-07-30`, open a PR against `main`. **Do not fast-forward `main`. Do not
@@ -349,6 +415,11 @@ deploy.**
 ## Firewall remediation — after the reconcile lands, own branch
 
 - **F1 — folded into 0.8.** `Disallow: /dossiers` in `robots.txt` remains as belt-and-braces.
+- **F10 — Nothing protects wholly-generated pages from being hand-edited.** The inverse of the 0.9b
+  problem: `wiki/audits/**` and `wiki/coverage.md` are generator output, so a session can edit them in
+  good faith and have the work silently overwritten by the next build. Now that they are in
+  `WHOLLY_GENERATED`, a pre-commit warning — "this file is generator output; your edit will be
+  overwritten" — is cheap and prevents a class of wasted work. The durable version is 0.9b option (b).
 - **F9 — Are internal run artifacts publicly emitted?** `quartz.layout.ts` hides `batch-reports`,
   `lint`, `queries`, `studies` and `corpus` from primary nav, its own comment saying these "must never
   surface in public navigation" because leaking them "undercuts the independent reference posture."

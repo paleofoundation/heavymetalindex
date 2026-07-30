@@ -1,6 +1,6 @@
 # Firewall lint — no derivation token on an index URL — 2026-07-30
 
-Generated: 2026-07-30T17:01:17.474Z
+Generated: 2026-07-30T18:09:06.407Z
 Mode: blocking (ERROR)
 
 ## Summary

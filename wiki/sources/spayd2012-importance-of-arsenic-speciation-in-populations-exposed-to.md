@@ -89,3 +89,13 @@ This page makes the source discoverable for category-level evidence routing. Val
 - Analyte scope: each metal is asserted only where its spelled-out name appears on a line carrying a measurement. Element symbols alone never assert an analyte.
 - Brand firewall: the worker skips PDFs whose numeric lines appear brand-sensitive; this page contains category-level or species-level evidence only.
 - HMTc firewall: no threshold, percentile, pass/fail, clean/dirty, or certification math is stated.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6543561d1](https://github.com/paleofoundation/heavymetalindex/commit/6543561d1) | 2026-07-30 | major | 6 sections added; narrative text revised |
+<!-- END: hmi-page-history -->
