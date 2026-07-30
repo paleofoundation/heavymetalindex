@@ -2,6 +2,7 @@
   "id": "metal-deepdive-chromium",
   "label": "Metal Deep-Dive — Hexavalent Chromium (Cr VI)",
   "build": "hmi",
+  "analyte": "Cr-VI",
   "subjectLabel": "Matrix",
   "placeholder": "[Matrix]",
   "example": "drinking water",

@@ -2,6 +2,7 @@
   "id": "metal-deepdive-cadmium",
   "label": "Metal Deep-Dive — Cadmium (Cd)",
   "build": "hmi",
+  "analyte": "Cd",
   "subjectLabel": "Matrix",
   "placeholder": "[Matrix]",
   "example": "cacao",

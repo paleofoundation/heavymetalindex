@@ -2,6 +2,7 @@
   "id": "metal-deepdive-mercury",
   "label": "Metal Deep-Dive — Mercury (Hg)",
   "build": "hmi",
+  "analyte": "tHg",
   "subjectLabel": "Matrix",
   "placeholder": "[Matrix]",
   "example": "tuna",

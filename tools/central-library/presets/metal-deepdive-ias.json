@@ -2,6 +2,7 @@
   "id": "metal-deepdive-ias",
   "label": "Metal Deep-Dive — Inorganic Arsenic (iAs)",
   "build": "hmi",
+  "analyte": "iAs",
   "subjectLabel": "Matrix",
   "placeholder": "[Matrix]",
   "example": "rice",

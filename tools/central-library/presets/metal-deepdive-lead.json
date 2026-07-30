@@ -2,6 +2,7 @@
   "id": "metal-deepdive-lead",
   "label": "Metal Deep-Dive — Lead (Pb)",
   "build": "hmi",
+  "analyte": "Pb",
   "subjectLabel": "Matrix",
   "placeholder": "[Matrix]",
   "example": "turmeric",
