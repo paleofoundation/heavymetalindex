@@ -46,8 +46,30 @@ if git diff --cached --name-only | grep -q '^wiki/sources/'; then
   # at commit time instead of at the next build's prebuild audit. A source
   # page passes if doi has a non-null value, OR no_doi_assigned: true is set
   # (declared no-DOI venue), OR source_type is textbook-chapter.
+  #
+  # Scope: the gate fires when a commit ADDS a source page, or when it CHANGES
+  # a doi:/no_doi_assigned: line on an existing one. It deliberately does not
+  # fire merely because a modified page's current state lacks a DOI — under
+  # that predicate any commit touching a page with pre-existing missing DOI
+  # metadata failed closed, which made origin's own tree un-re-committable and
+  # blocked every generated-output commit (found 2026-07-30). Pre-existing
+  # gaps are reported by the prebuild audit, not gated here.
+  _doi_candidates=$(git diff --cached --name-only --diff-filter=A | grep '^wiki/sources/.*\.md$' || true)
+  for f in $(git diff --cached --name-only --diff-filter=M | grep '^wiki/sources/.*\.md$' || true); do
+    if git diff --cached -U0 -- "$f" | grep -qE '^[+-](doi|no_doi_assigned):'; then
+      _doi_candidates="$_doi_candidates
+$f"
+    fi
+  done
+
   doi_bad=0
-  for f in $(git diff --cached --name-only --diff-filter=AM | grep '^wiki/sources/.*\.md$'); do
+  for f in $_doi_candidates; do
+    # Generated directory pages, not source records: the prebuild generators
+    # emit doi: '' on wiki/sources/index.md and the regional roll-ups under
+    # wiki/sources/categories/. Gating them rejects what the build just wrote.
+    case "$f" in
+      wiki/sources/index.md|wiki/sources/categories/*.md) continue ;;
+    esac
     head -40 "$f" > /tmp/.husky-fm.$$
     doi_line=$(grep -E '^doi:' /tmp/.husky-fm.$$ | head -1 | sed -E 's/^doi:[[:space:]]*//;s/^"//;s/"$//')
     no_doi_assigned=$(grep -cE '^no_doi_assigned:[[:space:]]*true' /tmp/.husky-fm.$$ || true)
