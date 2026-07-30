@@ -49,7 +49,12 @@ Where a step needs a visual spec, Karen supplies it.
    is testing for in order to make the check pass. Report the failure and stop.
 8. **Report, do not improvise.** When a step says "report only", produce the finding and change
    nothing — even when the fix looks obvious.
-9. Styling and front-end tasks may not touch `wiki/**`, `data/**`, or `raw/**`.
+9. **A collision list contains only files present on BOTH sides.** Everything one side created that the
+   other never had is invisible to it. Before declaring any carry-across complete, sweep for files
+   present on `pre-reconcile-2026-07-30` and absent from the branch — `git diff --name-status
+   <tag>..HEAD | grep '^D'` — and report by area. This blind spot cost 14 files in 0.8, including the
+   whole of `tools/ingest/`.
+10. Styling and front-end tasks may not touch `wiki/**`, `data/**`, or `raw/**`.
 
 ## Reporting protocol
 
@@ -111,6 +116,16 @@ Build passes. Working tree clean. Nothing pushed. **No local code has been carri
   code/config files need human judgement.
 - **`data/evidence/` authority is local**, except two origin-only corrections that must survive:
   PR #81 duplicate-DOI dedup (`43f4b5e53`) and the censored-zero integrity drain (`22134c35a`).
+- **The confabulated-DOI sweep was NEVER APPLIED — corrected 2026-07-30.** An earlier version of this
+  file listed it as a correction to protect through regeneration. It is not. `c2875919d` added only the
+  188-line audit markdown and changed zero source pages; its own header defers the fix to "a quiescent
+  tree — the working directory is currently multi-writer." All 61 bad DOIs are present and uncorrected
+  on the branch, the tag, **and origin/main** — i.e. on the deployed line. It is 61 DOIs across 61
+  pages, not 62. This is an unexecuted to-do, not reconcile damage, tracked as urgent item **C1**.
+- **The Crossref cite-key minting fix was never carried into the branch.** `tools/ingest/` (5 files,
+  including `crossref-mint.mjs`) exists on the tag and on neither origin nor the branch. See standing
+  rule 9. 14 files total were missed in 0.8: `tools/ingest/` 5, `tools/autonomy/` 4, `tools/evidence/`
+  3, `tools/lib/` 1, `tools/central-library/` 1.
 - **These tools do not exist**, despite `wiki/roadmap.md` publishing them as shipped:
   `tools/mint-dois.mjs`, `tools/translate-synthesis.mjs`.
 - **All fourteen `vercel.json` functions exist and are live.** Verified 2026-07-30 by direct curl:
@@ -193,12 +208,67 @@ Finally, verify PR #81 dedup (`43f4b5e53`) and the censored-zero drain (`22134c3
 
 ---
 
-## Step 0.9 — Rebuild and verify parity
+## Step 0.8b — Finish the carry-across (the local-only sweep)
 
-`npm ci && npm run build`, then confirm against the 0.4 baseline: `authors20*` still 239,
-`routing_malformed` 0 blocking, `routing_unresolved` 14, both build-blocking guards pass, same file
-count ±small. Confirm the confabulated-DOI sweep and the Crossref cite-key minting fix are intact.
-Commit generated output separately.
+0.8 restored from `collide.txt`, which by construction contains only files present on both sides.
+Local-only files were invisible to it. Fix in two parts.
+
+**Part 1 — restore the 14, now.** Already covered by the signed-off policy "local wins for ingest
+tooling", so no further sign-off needed: `tools/ingest/` (5), `tools/autonomy/` (4),
+`tools/evidence/` (3), `tools/lib/library-root.mjs`, `tools/central-library/metal-deepdive-mehg.json`.
+Restore each from the tag by path, one line at a time. Commit as `reconcile(tools): restore local-only
+ingest tooling missed by the collision list`.
+
+**Part 2 — inventory everything else, then STOP.** Produce the full list of paths present on the tag and
+absent from `HEAD`, grouped by area with counts. Restore nothing outside `tools/` without sign-off.
+
+Cross-check inside Part 2: **`wiki/regulators/`** (11 files) was named as local-only value. The deployed
+TopNav links to `/regulators/us-fda`, `/regulators/efsa`, `/regulators/jecfa`, `/regulators/codex`,
+`/regulators/us-epa`, `/regulators/atsdr` and `/regulators`. Report whether those pages exist on the
+branch, and `curl -sI` two against production. **If they 404 in production, origin has been shipping
+dead nav links** — which makes carrying local's `wiki/regulators/` a fix, not a preference.
+
+---
+
+## Content integrity — urgent, ranks above the remaining firewall work
+
+**C1 — 61 non-resolving DOIs on published source pages.** Live on the deployed line right now.
+`data/evidence/confabulated-doi-audit-2026-07-29.md` is the actionable list; the fix was deferred to a
+quiescent tree and the tree is now quiescent. For a reference whose whole argument is that its claims
+are checkable, a fabricated DOI is the most damaging possible defect.
+
+Rules for the fix: **never invent or guess a DOI.** For each of the 61, either (a) verify the real DOI
+against Crossref and correct it, or (b) remove the `doi:` field and set `no_doi_assigned: true` with a
+**verified publisher `access_url`**. Where neither is possible, report the page rather than improvising.
+Same decision surface as Open decision 3 (six `doi: null`) and Open decision 2 (the `doi: ''` gate hole)
+— do all three as one governed pass, gate hole closed first so the fix cannot regress silently.
+
+Own branch, own step, after the reconcile lands. Do not fold into a reconcile commit.
+
+---
+
+## Step 0.9 — Verify local's corrective work survived regeneration
+
+0.8 already proved the branch builds with the lint blocking. What is still unverified is the class of
+work that regeneration can silently destroy: **corrections made *against* generator output.** The
+assumption "`wiki/sources/` is regenerable" is safe for prose and unsafe for these.
+
+1. **The confabulated-DOI sweep.** — **SUPERSEDED.** The sweep was never applied; see C1. Skip.
+2. **The Crossref cite-key minting fix.** Confirm cite keys on the affected pages still follow the
+   `<firstauthor><year>-<slug>` convention from `docs/conventions.md`, and re-report the `authors20*`
+   count in the routing audit — it should still be 239.
+3. **Idempotency of the B1 re-closure.** Run the build a **second** consecutive time and confirm
+   `wiki/dossiers/` is still empty and the firewall structural error count is still 0. One clean build
+   proves the generators were removed; two consecutive clean builds prove the re-closure does not
+   self-re-break the way `af9c97a50` did.
+4. **Parity against the 0.4 baseline.** `routing_malformed` 0 blocking, `routing_unresolved` 14,
+   emitted file count within a small delta, both other build-blocking guards PASS.
+
+Commit any regenerated output separately. If step 1 or 3 fails, stop and report — those are the two
+failures that would invalidate the reconcile rather than merely annoy.
+
+Housekeeping: `RECONCILE.md` and `docs/reconcile-log.md` were swept into `99322f371` by `git add -A`.
+Harmless — leave them tracked; the plan and its log belong in the repo.
 
 ## Step 0.10 — Push and open a PR
 
@@ -213,7 +283,11 @@ deploy.**
 - **F2 — Fix the lint's wording.** `DOSSIER_DIR_ON_INDEX` overstates; rewrite to describe what it
   detects — certification-framed evidence records on the reference domain.
 - **F3, F4 — folded into 0.8.**
-- **F5 — `/api/defense-dossier`.** Relocate off the index plane. Needs Karen's placement call.
+- **F5 — DECIDED: 410 the endpoint on the index plane.** `api/defense-dossier.mjs` still serves the
+  31KB manifest as public JSON, and it is now the only dossier surface on the reference domain. Return
+  410 Gone with a body naming the cert plane; keep the handler and the `vercel.json` declaration so the
+  route stays owned and the eventual relocation is a move. Also add `Disallow: /dossiers` to
+  `robots.txt` as belt-and-braces against cached URLs.
 - **F6 — Drain `step0_basis`** from the 16 product pages. Hygiene; gates nothing.
 - **F7 — Stop naming internal paths in public prose** on `/products/chocolate`.
 - **F8 — Remove `Component.BrandPreScreenTool()`** from content-page `beforeBody`. Do not delete the
@@ -228,7 +302,14 @@ deploy.**
 3. **Six source pages with `doi: null`** — need verified publisher `access_url`s; ingest work.
 4. **`wiki/roadmap.md`** publishes `mint-dois.mjs` / `translate-synthesis.mjs` as shipped. Build, or
    correct the page?
-5. **`/api/defense-dossier` public JSON door.** Gate now, or accept until F5 relocates it?
+5. **RESOLVED 2026-07-30 — `/api/defense-dossier` returns 410 on the index plane.** With the 351 pages
+   removed, the endpoint is the only dossier surface left on the reference domain: it serves the full
+   31KB manifest as public JSON with `cache-control: public`, and `robots.txt` disallowing `/api/`
+   stops crawlers and nothing else. Decision: return **410 Gone** with a JSON body naming the
+   certification plane as its future home; **keep the handler in the repo** so relocation is a move, not
+   a rewrite; **keep the `vercel.json` declaration** so the route stays owned and returns a controlled
+   response rather than Vercel's generic 404. The only planned consumer is the unbuilt brand app.
+   Execution lands in the post-reconcile firewall-remediation branch as F5, not in 0.9.
 6. **35 ambiguous scope terms** and **23 HOLD cells** from the QC gate.
 
 ---

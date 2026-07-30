@@ -200,3 +200,69 @@ Commits:
 3. **`homeSearch.inline.ts`** left in place per sign-off; logged here as later cleanup.
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+## 0.8b — Finish the carry-across (the local-only sweep) — 2026-07-30T21:05:00+03:00
+
+Result: DONE (Part 1 restored and committed; Part 2 inventoried, nothing restored outside `tools/`)
+
+Commits:
+- `a3b51ced4` reconcile(tools): restore local-only ingest tooling missed by the collision list
+
+### Findings
+
+1. **Part 1 complete — 14 files restored, derived fresh from the tag per standing rule 9** rather than
+   from the earlier ad-hoc list, and the two agree exactly. `tools/ingest/` 5 (incl. `crossref-mint.mjs`
+   + `crossref-mint.test.mjs`), `tools/autonomy/` 4, `tools/evidence/` 3, `tools/lib/library-root.mjs`,
+   `tools/central-library/presets/metal-deepdive-mehg.json`. All 14 land as `A` (adds) — none existed on
+   origin in any form. **20/20 restored tests pass** (`crossref-mint.test.mjs` + `metal-evidence.test.mjs`).
+   The Crossref cite-key minting fix is now in the branch.
+
+2. **`wiki/regulators/` is NOT missing — the concern does not reproduce.** All 11 files are present and
+   identical on the branch, on `origin/main`, and on the tag. It appeared as "local-only value" in the
+   original divergence summary because local *authored* it (`1c26ab9a0`), but the graft `5f7a7150d`
+   carried it onto origin, so both sides have it. It never entered the local-only list.
+
+3. **Production regulator nav is healthy — no dead links.** All seven TopNav-linked URLs return **200**:
+   `/regulators`, `/regulators/us-fda`, `/regulators/efsa`, `/regulators/jecfa`, `/regulators/codex`,
+   `/regulators/us-epa`, `/regulators/atsdr`. So this is neither a fix nor a preference; there is nothing
+   to carry.
+
+4. **Part 2 inventory — 38 paths remain present-on-tag / absent-on-branch**, none restored:
+
+   | area | n | character |
+   |---|---|---|
+   | `wiki/sources/` | 13 | local-only source pages (arsenosugars, kelp/macroalgae, exposome, tampon/oxidative-stress, biosorption) |
+   | `data/evidence/` | 13 | autonomy extraction/synthesis reports + quarantine CSVs, wishlist, library index snapshot, standards-row-classifier + verify baseline, cap-mapping proposals, content-preservation baseline |
+   | `tools/` | 4 | `build-homepage.mjs`, `build-key-questions.mjs`, `homepage/faq.json`, `library-status.mjs` |
+   | `docs/` | 3 | `autonomous-ingest-standards-loop.md`, `library-fetch-sync-plan.md`, `codex-collaboration/step3-unstrand-pool.txt` |
+   | `quartz/` | 2 | `scripts/homeSearch.inline.ts`, `styles/home.scss` |
+   | `wiki/batch-reports/` | 1 | `codex-bulk-ingest-2026-07-29.md` |
+   | `data/gaps/` | 1 | `open_gaps_by_category.csv` |
+   | `outputs/` | 1 | the Codex-cache symlink — **expected**, deliberately removed in `d42bf96cc` |
+
+5. **Two entries in that list are already-decided, not open.** `outputs/.../node_modules` is the symlink
+   0.8 removed on purpose. `quartz/components/scripts/homeSearch.inline.ts` is the orphan the 0.8 sign-off
+   said to leave alone — it is absent from the branch because origin never had it, which is the intended
+   end state now that origin's `TopNav.tsx` wins.
+
+6. **`tools/build-homepage.mjs` reappears here, and it needs a second look.** 0.8 confirmed it superseded
+   (its targets are covered by origin's `build-recently-updated.mjs` + `build-change-watch.mjs`) and
+   dropped it. But `tools/build-key-questions.mjs`, `tools/homepage/faq.json` and `quartz/styles/home.scss`
+   are a related local-only cluster whose targets I have not checked. If any emits something origin does
+   not, dropping the cluster loses it silently.
+
+### Open questions for Karen
+
+1. **The 13 local-only `wiki/sources/` pages.** These are real ingested source pages that exist only on
+   local — genuine corpus, not generated output. Carry them across? They are exactly the class of content
+   the collision list could never surface, and dropping them silently loses 13 papers from the corpus.
+2. **The 13 local-only `data/evidence/` files.** Mostly autonomy-run reports and quarantine records
+   (`extraction-quarantine.csv`, `extraction-unit-unresolved.csv`, the 2026-07-27 extraction/synthesis
+   reports). These are the provenance trail for the unit-mis-scale quarantine work. Carry?
+3. **The homepage/key-questions cluster (finding 6)** — `build-key-questions.mjs`, `homepage/faq.json`,
+   `quartz/styles/home.scss`, plus `build-homepage.mjs` already dropped. Check emitted targets and carry
+   what origin does not cover, or leave the whole cluster?
+4. **`docs/` (3) and `data/gaps/` + `wiki/batch-reports/` (2).** Documentation and audit trail with no
+   origin counterpart. Carry as-is?
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes
