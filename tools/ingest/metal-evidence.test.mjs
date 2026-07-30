@@ -128,3 +128,29 @@ test("a prose mention with no number is not evidence", () => {
   `;
   assert.deepEqual(metalsOf(t), [], "numberless prose must not assert an analyte");
 });
+
+test("real false positives from the 2026-07-30 bounded run stay out", () => {
+  // Verbatim lines the previous detector accepted as measurements.
+  const cases = [
+    ["Liu et al. (3) administered CdCl2 to mice by oral route for Lead (Pb) exposure results in a variety of dysfunctions", "Pb"],
+    ["microbiome and its functional metagenome. Toxicol Sci against lead (Pb) toxicity in mice. Front Microbiol 10:3161", "Pb"],
+    ["Abbreviations: As, arsenic; C, control; Cd, cadmium; Hg, mercury; HM, human milk; LOD, limit of detection; MeHg, methylmercury; NR, not reported; Pb, lead", "MeHg"],
+    ["42 S. Yamazaki, et al., Dietary intake of methylmercury by 0-5 years Total Environ. 551-552 (2016) 344-356. 108", "MeHg"],
+    ["the content of the manuscript. removal of aluminium ( III ) from polluted. J Chem Pharm Sci", "Al"],
+  ];
+  for (const [line, metal] of cases) {
+    // Duplicate the line so it would clear the two-line threshold if not filtered.
+    assert.ok(
+      !metalsOf(`${line}\n${line}`).includes(metal),
+      `must not assert ${metal} from: ${line.slice(0, 60)}...`,
+    );
+  }
+});
+
+test("a genuine table row still counts even without a unit on the line", () => {
+  const t = `
+    Cadmium concentration mean 0.012 median 0.009 max 0.045
+    Cadmium content detected in 28 of 30 samples, range 0.003-0.045
+  `;
+  assert.ok(metalsOf(t).includes("Cd"), "real table rows must survive the filters");
+});

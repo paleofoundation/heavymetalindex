@@ -80,12 +80,31 @@ export function splitLines(text) {
   return stripReferences(text).split(/\n/).map(l => l.replace(/\s+/g, " ").trim()).filter(Boolean);
 }
 
-// A residual bibliography line that survived the heading cut (running heads, papers
-// with no heading). Volume:page ranges and trailing DOIs are the reliable tells.
+// A residual bibliography line that survived the heading cut — running heads, numbered
+// reference lists, papers whose reference heading never appears. Each pattern below was
+// taken from a real false positive in the 2026-07-30 bounded run.
 function looksLikeCitation(l) {
-  return /\b\d+\s*:\s*\d+\s*[–—-]\s*\d+\b/.test(l) ||
-         /\bdoi\s*:|\bhttps?:\/\//i.test(l) ||
-         /\b(?:J|Sci|Environ|Chem|Toxicol|Food)\b[^.]{0,40}\b\d{4}\b\s*[;,]/.test(l);
+  return (
+    // "Front Microbiol 10:3161", "Toxicol Sci 20:614-619" — volume:page, range optional.
+    /\b\d+\s*:\s*\d+\b/.test(l) ||
+    /\bdoi\s*:|\bhttps?:\/\//i.test(l) ||
+    // "Liu et al. (3) administered..." — narrative or citation, never a table row.
+    /\bet\s+al\b/i.test(l) ||
+    // "42 S. Yamazaki, ... Total Environ. 551-552 (2016) 344-356."
+    /^\s*\d{1,3}\s+[A-Z]\.?\s*[A-Z]/.test(l) ||
+    /\(\s*(?:19|20)\d{2}\s*\)\s*\d+\s*[–—-]\s*\d+/.test(l) ||
+    /\b(?:J|Sci|Environ|Chem|Toxicol|Food|Microbiol|Nutr)\b[^.]{0,40}\b\d{4}\b\s*[;,]/.test(l)
+  );
+}
+
+// An abbreviation key or table legend. Dense with metal names and digits but never a
+// measurement: "Abbreviations: As, arsenic; Cd, cadmium; Hg, mercury; LOD, limit of
+// detection; MeHg, methylmercury; NR, not reported".
+function looksLikeLegend(l) {
+  if (/^\s*(?:abbreviations?|footnotes?|legend|notes?)\s*[:.]/i.test(l)) return true;
+  // Three or more "TOKEN, expansion;" pairs is a glossary, not a result.
+  const pairs = l.match(/\b[A-Za-z][A-Za-z0-9-]{0,6}\s*,\s*[a-z][a-z -]{2,}\s*;/g) || [];
+  return pairs.length >= 3;
 }
 
 // Lines that carry an actual measurement for `metal`. These are the lines that
@@ -99,7 +118,7 @@ export function evidenceLinesFor(metal, lines) {
     // A measurement has a number in it. Requiring a digit on every evidence line
     // stops prose mentions ("levels of lead or cadmium") from counting as evidence.
     if (!/\d/.test(l)) continue;
-    if (looksLikeCitation(l)) continue;
+    if (looksLikeCitation(l) || looksLikeLegend(l)) continue;
     if (unamb) {
       if (!unamb.test(l)) continue;
       if (UNIT.test(l) || MEASURE_CTX.test(l)) out.push(l);
