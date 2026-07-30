@@ -296,6 +296,26 @@ Own branch, own step, after the reconcile lands. Do not fold into a reconcile co
 
 ---
 
+## Step 0.8d — Narrow the audit barrier's glob, then land the held-back file
+
+The wiki-edit audit barrier matches `^wiki/.*\.md$`, which is broader than the invariant it enforces.
+The invariant is "every automated edit to a **content page** carries a provenance row." A batch report is
+a record of an ingest run, not a page edit — and 36 batch reports are already tracked on the branch with
+zero provenance rows, which is evidence the glob has been over-broad all along.
+
+1. Narrow the barrier's glob to exclude `wiki/batch-reports/` and `wiki/lint/`. Hook only. Commit as
+   `fix(hooks): scope the wiki-edit audit barrier to content pages, excluding run logs and lint reports`.
+2. Verify the barrier still bites: stage a scratch `wiki/sources/` page with no audit row, confirm it is
+   **rejected**, then unstage and delete the scratch file.
+3. Commit the held-back `wiki/batch-reports/codex-bulk-ingest-2026-07-29.md` as commit 4b.
+4. Re-run the tag-vs-branch sweep and confirm the remaining absences are exactly the six settled ones.
+
+Also log, do not fix: `faq-firewall-guard.mjs`'s header comment claims `build-key-questions.mjs` imports
+it; on the branch only `postbuild-inject-jsonld.mjs` and `build-metal-faq.mjs` do — the fourth instance
+of declaration/implementation drift.
+
+---
+
 ## Step 0.9 — Verify local's corrective work survived regeneration
 
 0.8 already proved the branch builds with the lint blocking. What is still unverified is the class of
@@ -329,6 +349,13 @@ deploy.**
 ## Firewall remediation — after the reconcile lands, own branch
 
 - **F1 — folded into 0.8.** `Disallow: /dossiers` in `robots.txt` remains as belt-and-braces.
+- **F9 — Are internal run artifacts publicly emitted?** `quartz.layout.ts` hides `batch-reports`,
+  `lint`, `queries`, `studies` and `corpus` from primary nav, its own comment saying these "must never
+  surface in public navigation" because leaking them "undercuts the independent reference posture."
+  Hiding from nav is not the same as not emitting. Check whether `wiki/batch-reports/` (36 ingest run
+  logs), `wiki/lint/` and `wiki/queries/` land in `public/`, appear in either sitemap, or return 200 in
+  production. If they do, this is the dossier shape again at smaller scale: unnavigable but public. The
+  fix is exclusion from emission, not just from nav.
 - **F2 — Fix the lint's wording.** `DOSSIER_DIR_ON_INDEX` overstates; rewrite to describe what it
   detects — certification-framed evidence records on the reference domain.
 - **F3, F4 — folded into 0.8.**

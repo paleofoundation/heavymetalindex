@@ -331,3 +331,51 @@ Commits:
    standing rule 11 now prevents.
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+## 0.8d — Narrow the audit barrier's glob, land the held-back file — 2026-07-30T22:30:00+03:00
+
+Result: DONE — carry-across complete; final sweep is exactly the six settled exclusions
+
+Commits:
+- `0c9e4911d` fix(hooks): scope the wiki-edit audit barrier to content pages, excluding run logs and lint reports
+- `20d3fd600` reconcile(docs): carry the 2026-07-29 codex bulk-ingest batch report
+- `7406dc27b` chore(generated): regenerate routing audit to clear a scratch-test artifact
+
+### Findings
+
+1. **Glob narrowed, hook only.** `^wiki/.*\.md$` → same, minus `^wiki/(batch-reports|lint)/`. No
+   generator, no frontmatter touched. The header comment now records why: those directories hold
+   records of runs, not edits to pages whose provenance a reader would trace, and 36 batch reports are
+   already tracked with zero rows referencing `wiki/batch-reports/`.
+
+2. **The barrier still bites.** A scratch `wiki/sources/` page with a valid DOI and no provenance row
+   was **rejected**: *"wiki/**/*.md files are staged but data/evidence/wiki_edit_audit.jsonl has no
+   staged changes."* HEAD unchanged through the test. The narrowing removed only the over-broad reach,
+   not the invariant.
+
+3. **My own test contaminated a committed artifact, and I caught it after the fact.** Staging the
+   scratch page triggered the pre-commit routing audit, which auto-`git add`s the regenerated CSVs —
+   so a `routing_malformed.csv` row for the deleted scratch page rode into `20d3fd600`. Regenerated
+   against the real tree in `7406dc27b`: **1,225 rows, 0 blocking, zero scratch references.** The +13
+   over the 0.4 baseline of 1,212 are the 13 carried source pages, which is correct.
+   **Lesson worth keeping: a hook that auto-stages generated files makes any scratch test a writer.**
+   Regenerate and verify after every gate test, not just after builds.
+
+4. **Final sweep is exactly six, every one deliberate:** the `outputs/` Codex-cache symlink (removed in
+   `d42bf96cc`), `homeSearch.inline.ts` (orphaned by design), and the four excluded by 0.8c's test 3 —
+   `home.scss`, `build-key-questions.mjs`, `homepage/faq.json`, `build-homepage.mjs`. **The
+   carry-across is complete.**
+
+5. **Logged, not fixed — the fourth instance of declaration/implementation drift.**
+   `tools/lib/faq-firewall-guard.mjs`'s header claims `build-key-questions.mjs` imports it; on the
+   branch only `postbuild-inject-jsonld.mjs` and `build-metal-faq.mjs` do. Joins `roadmap.md`
+   publishing absent tools, `audit-page-history-leaks.mjs` running blocking-but-undocumented, and
+   `package.json` declaring `library:status` against a file origin does not have. The drift runs both
+   directions — declared-but-absent and present-but-undeclared — which is why neither the docs nor the
+   manifest can be trusted as an inventory of what exists.
+
+### Open questions for Karen
+
+None. Ready for 0.9.
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes
