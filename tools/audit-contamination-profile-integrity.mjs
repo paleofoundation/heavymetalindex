@@ -134,6 +134,27 @@ for (const file of fs.readdirSync(ingredientsDir).sort()) {
   }
 }
 
+// --- scope guard (C0d) -------------------------------------------------------
+// This lint scans wiki/ingredients/ only. Verified 2026-07-31 that this is the
+// entire footprint of the schema: 257 of 258 ingredient pages carry
+// contamination_profile, and wiki/products/ (415 pages) and wiki/metals/ (37)
+// carry zero. So the scope is correct TODAY — but "the lint scans ingredients"
+// is a statement about ingredients, not about where the schema lives, and those
+// two drift apart the moment a generator starts emitting profiles elsewhere.
+// This guard makes that divergence announce itself instead of the lint silently
+// ignoring cells it was never pointed at.
+const scopeEscapees = []
+for (const dir of fs.readdirSync(path.join(repoRoot, "wiki"), { withFileTypes: true })) {
+  if (!dir.isDirectory() || dir.name === "ingredients") continue
+  const d = path.join(repoRoot, "wiki", dir.name)
+  for (const f of fs.readdirSync(d)) {
+    if (!f.endsWith(".md")) continue
+    const raw = fs.readFileSync(path.join(d, f), "utf8")
+    const fm = raw.match(/^---\n([\s\S]*?)\n---\n/)
+    if (fm && /^\s{0,2}contamination_profile:/m.test(fm[1])) scopeEscapees.push(`wiki/${dir.name}/${f}`)
+  }
+}
+
 // --- signature 3: still-unpooled cells from the inflation backlog ------------
 for (const row of inflationRows) {
   const file = path.join(repoRoot, row.page)
@@ -157,7 +178,7 @@ for (const row of inflationRows) {
 }
 
 if (asJson) {
-  console.log(JSON.stringify({ failures, advisories, inflationLive }, null, 2))
+  console.log(JSON.stringify({ failures, advisories, inflationLive, scopeEscapees }, null, 2))
 } else {
   if (failures.length === 0) {
     console.log("contamination-profile integrity: PASS (no censored-zero or degenerate-upper-tail artifacts)")
@@ -172,6 +193,14 @@ if (asJson) {
     console.log(`\n${advisories.length} advisory(ies) — populated cells with null p95 (not build-blocking):`)
     for (const a of advisories.slice(0, 40)) console.log(`  ${a.slug} × ${a.metal}: ${a.note}`)
     if (advisories.length > 40) console.log(`  … and ${advisories.length - 40} more`)
+  }
+  if (scopeEscapees.length > 0) {
+    console.log(
+      `\nSCOPE: ${scopeEscapees.length} page(s) carry contamination_profile OUTSIDE wiki/ingredients/, which this lint does not scan —`
+    )
+    for (const p of scopeEscapees.slice(0, 10)) console.log(`  ${p}`)
+    if (scopeEscapees.length > 10) console.log(`  … and ${scopeEscapees.length - 10} more`)
+    console.log("  their cells are unchecked by every signature. Widen the scan or move the pages.")
   }
   if (inflationRows.length === 0) {
     console.log("\nn_studies inflation: backlog registry absent — run tools/evidence/build-n-studies-inflation-backlog.mjs")
