@@ -220,7 +220,7 @@ infant-formula-powder-non-soy,iAs,20,20,regulatory-alignment,DEMOTE,C11b-minimum
 infant-formula-powder-non-soy,tHg,1.4963,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 infant-formula-powder-non-soy,Ni,250,250,regulatory-alignment,PASS,
 infant-formula-powder-non-soy,Al,3500,3500,regulatory-alignment,PASS,
-infant-formula-powder-non-soy,Cr-VI,34.7047,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=20 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
+infant-formula-powder-non-soy,Cr-VI,34.7047,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 infant-formula-powder-non-soy,Sn,76.2,,literature-baseline,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=61 (<99) — no 95% bound exists at this n; must be provisional
 infant-formula-powder-soy,Pb,20,20,regulatory-alignment,PASS,
 infant-formula-powder-soy,Cd,20,20,regulatory-alignment,PASS,
