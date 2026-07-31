@@ -40,8 +40,31 @@ const NON_SURNAME = new Set([
 // same class of defect as `authors2026-…`: a real record producing a meaningless key.
 const SUFFIXES = new Set(["jr", "jr.", "sr", "sr.", "ii", "iii", "iv", "v", "phd", "md"]);
 
+// NFKD splits an accented letter into base + combining mark. The character-class
+// replacements below turn anything unmatched into a SPACE, so without this the mark
+// becomes a word boundary mid-surname and `tokens.pop()` keeps only the tail:
+// "Fernández" -> "ndez", "Köhler" -> "hler", "Muñoz" -> "oz", "Ocaña" -> "a".
+// `ndez` and `hler` pass isPlausibleSurname, so those keys get WRITTEN — the same
+// class of defect as `authors2026-*`, and invisible to the validity gate.
+// Dropping the marks folds the name to its ASCII form instead, which is also what
+// the cite-key convention already assumes (`ocaña` is keyed `ocana`).
+const COMBINING = /[̀-ͯ]/g;
+
+// Stroke/bar/ligature letters have NO combining decomposition, so NFKD leaves them
+// intact and the `[^\w\s…]` replacement below turns them into spaces — the identical
+// truncation by a different route ("Đurđić" -> "ic", "Łukasz" -> "ukasz",
+// "Straße" -> "e"). Fixing only the decomposable case would leave the same defect
+// standing behind a fix that looks complete. `ł` occurs 20 times in the corpus's
+// author fields and `ı` 8 times, so this is live, not hypothetical.
+// Deliberately Latin-only: folding Cyrillic or Greek to ASCII is transliteration, not
+// normalisation, and there is no single correct answer. Those fall through, reduce to
+// an empty token, and are REJECTED by isPlausibleSurname — fail-closed, not mangled.
+const LATIN_NO_DECOMP = { đ: "d", Đ: "D", ł: "l", Ł: "L", ø: "o", Ø: "O", ß: "ss", æ: "ae", Æ: "Ae", œ: "oe", Œ: "Oe", ı: "i", İ: "I", þ: "th", Þ: "Th", ð: "d", Ð: "D", ŧ: "t", Ŧ: "T", ħ: "h", Ħ: "H" }
+const foldLatin = (s) => String(s).normalize("NFKD").replace(COMBINING, "")
+  .replace(/[đĐłŁøØßæÆœŒıİþÞðÐŧŦħĦ]/g, (c) => LATIN_NO_DECOMP[c])
+
 export function extractSurname(family) {
-  const tokens = String(family || "").normalize("NFKD")
+  const tokens = foldLatin(family)
     .replace(/[^\w\s'’-]/g, " ")
     .trim().split(/\s+/).filter(Boolean);
   while (tokens.length > 1 && SUFFIXES.has(tokens[tokens.length - 1].toLowerCase())) tokens.pop();
@@ -164,7 +187,9 @@ export async function resolveWork(rawDoi, { delayMs = 120, retries = 3 } = {}) {
 }
 
 export function slugifyTitle(s, maxTokens = 8) {
-  return String(s || "").normalize("NFKD")
+  // Same combining-mark hazard as extractSurname: without the strip, "café" slugs as
+  // "caf-e" and burns two of the eight title tokens on a fragment.
+  return foldLatin(s || "")
     .replace(/[^\w\s-]/g, " ").toLowerCase()
     .replace(/\s+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "")
     .split("-").filter(Boolean).slice(0, maxTokens).join("-");
@@ -174,7 +199,10 @@ export function slugifyTitle(s, maxTokens = 8) {
 // caller cannot accidentally write one.
 export function mintCiteKey(work, { titleOverride } = {}) {
   if (!work?.ok) throw new Error("mintCiteKey requires a resolved Crossref work");
-  const surname = String(work.surname || "").replace(/[^a-z]/g, "");
+  // Lowercase HERE rather than trusting the caller: resolveWork already lowercases, but
+  // `[^a-z]` on a capitalised surname silently DELETES the initial ("Smith" -> "mith")
+  // and still yields a plausible-looking key. Any future caller would hit that.
+  const surname = String(work.surname || "").toLowerCase().replace(/[^a-z]/g, "");
   if (!isPlausibleSurname(surname)) throw new Error(`implausible surname: ${work.surname}`);
   const slug = slugifyTitle(titleOverride || work.title);
   if (!slug) throw new Error("empty title slug");
