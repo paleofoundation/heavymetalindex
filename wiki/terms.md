@@ -10,7 +10,7 @@ These Terms of Use govern access to and use of the Heavy Metal Index at heavymet
 
 ## Operator
 
-Heavy Metal Index is operated by the Paleo Foundation, Cyprus. Contact routes for corrections, licensing, media, regulatory, and legal inquiries are listed on the [contact](/contact) page.
+Heavy Metal Index is operated by the Institute of Contaminant Standards, a trade name of Paleo Certified, Inc. Paleo Certified, Inc. is the party responsible for these terms. Contact routes for corrections, licensing, media, regulatory, and legal inquiries are listed on the [contact](/contact) page.
 
 ## Reference Use
 
@@ -26,7 +26,7 @@ Assistant answers may be incomplete, may omit relevant pages, and may reflect li
 
 ## Intellectual Property
 
-The Paleo Foundation owns or controls the Heavy Metal Index compilation, page text, editorial selection, organization, metadata, source annotations, and database structure, except where third-party materials are identified. Third-party source documents, names, marks, and excerpts remain the property of their respective owners.
+Paleo Certified, Inc. owns or controls the Heavy Metal Index compilation, page text, editorial selection, organization, metadata, source annotations, and database structure, except where third-party materials are identified. Third-party source documents, names, marks, and excerpts remain the property of their respective owners.
 
 The Heavy Metal Index is a curated database. Database rights, copyright, and other applicable rights may protect the selection, arrangement, verification, and extraction of the material.
 
@@ -38,7 +38,7 @@ Search engines, scholarly indexes, accessibility tools, and ordinary archival to
 
 ## Restricted Use
 
-Without prior written permission from the Paleo Foundation, you may not:
+Without prior written permission from Paleo Certified, Inc., you may not:
 
 - reproduce, republish, or redistribute substantial portions of the site or database;
 - build a competing database, dataset, search product, commercial report, or training corpus from the site;
@@ -47,7 +47,7 @@ Without prior written permission from the Paleo Foundation, you may not:
 - use the site in a way that suggests endorsement of a product, company, certification claim, litigation position, or regulatory conclusion;
 - interfere with the site, bypass access controls, overload infrastructure, or attempt unauthorized access.
 
-Commercial licensing for bulk access, derivative works, enterprise use, data exports, or commercial redistribution is available by arrangement with the Paleo Foundation.
+Commercial licensing for bulk access, derivative works, enterprise use, data exports, or commercial redistribution is available by arrangement with Paleo Certified, Inc.
 
 ## No Product Endorsement
 
@@ -55,7 +55,7 @@ The site does not rank brands, endorse products, certify products, or publish He
 
 ## External Links and Sources
 
-The site links to third-party sources and websites. Those links are provided for provenance and reader convenience. The Paleo Foundation does not control third-party sites and is not responsible for their content, availability, security, or policies.
+The site links to third-party sources and websites. Those links are provided for provenance and reader convenience. Paleo Certified, Inc. does not control third-party sites and is not responsible for their content, availability, security, or policies.
 
 ## Corrections
 
@@ -63,14 +63,14 @@ Reports of factual errors, outdated regulatory values, broken provenance links, 
 
 ## No Warranty
 
-The site is provided as a reference on an as-is and as-available basis. The Paleo Foundation does not warrant that the site is complete, error-free, current for every jurisdiction, fit for a particular purpose, or suitable for reliance without independent verification.
+The site is provided as a reference on an as-is and as-available basis. Paleo Certified, Inc. does not warrant that the site is complete, error-free, current for every jurisdiction, fit for a particular purpose, or suitable for reliance without independent verification.
 
-Ask the Index is also provided as-is. The Paleo Foundation does not warrant that assistant responses are complete, current, or suitable for reliance without reviewing the cited pages and underlying sources.
+Ask the Index is also provided as-is. Paleo Certified, Inc. does not warrant that assistant responses are complete, current, or suitable for reliance without reviewing the cited pages and underlying sources.
 
 ## Limitation of Liability
 
-To the maximum extent permitted by applicable law, the Paleo Foundation is not liable for losses arising from use of, reliance on, inability to access, or interpretation of the site or its linked sources.
+To the maximum extent permitted by applicable law, Paleo Certified, Inc. is not liable for losses arising from use of, reliance on, inability to access, or interpretation of the site or its linked sources.
 
 ## Changes
 
-The Paleo Foundation may update these terms as the site, corpus, licensing model, or applicable law changes. The updated date at the top of this page identifies the latest published revision.
+Paleo Certified, Inc. may update these terms as the site, corpus, licensing model, or applicable law changes. The updated date at the top of this page identifies the latest published revision.

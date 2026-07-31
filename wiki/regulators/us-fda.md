@@ -16,7 +16,9 @@ updated: 2026-06-23
 
 # United States Food and Drug Administration (FDA)
 
-*United States (federal) · Guidance — action levels (not health-based limits) · Established 1906 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute for Contaminant Standards · [www.fda.gov](https://www.fda.gov)*
+<!-- BEGIN: hmi-regulator-masthead -->
+*United States (federal) · Guidance — action levels (not health-based limits) · Established 1906 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute of Contaminant Standards · [www.fda.gov](https://www.fda.gov)*
+<!-- END: hmi-regulator-masthead -->
 
 ## Quick read
 

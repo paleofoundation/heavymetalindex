@@ -271,6 +271,25 @@ function upsertBlock(raw, name, body) {
   return raw
 }
 
+// The masthead carries the operator attribution, so it has to stay regenerable:
+// it was previously emitted by scaffold() only, which meant an existing page
+// kept whatever name it was created with forever (found 2026-07-31, when the
+// Institute for → Institute of correction did not reach the nine live pages).
+// Pages created before the marker existed carry a bare italic line instead, so
+// adopt that line into the block on first run.
+const MASTHEAD_LINE = /^\*[^\n]*Authored by \[Karen Pendergrass\][^\n]*\*$/m
+function upsertMasthead(raw, body) {
+  const m = M("masthead")
+  if (raw.includes(m.begin) && raw.includes(m.end)) return upsertBlock(raw, "masthead", body)
+  if (MASTHEAD_LINE.test(raw)) return raw.replace(MASTHEAD_LINE, () => block("masthead", body))
+  return raw
+}
+
+function mastheadLine(b) {
+  const urlMd = String(b.url).replace(/\(/g, "%28").replace(/\)/g, "%29")  // parens break markdown link targets
+  return `*${b.jurisdiction} · ${b.kind_label} · Established ${b.established} · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute of Contaminant Standards · [${prettyUrl(b.url)}](${urlMd})*`
+}
+
 function scaffold(b, blocks) {
   const sameAs = [b.url, b.wikidata].filter(Boolean)
   const fm = [
@@ -290,14 +309,12 @@ function scaffold(b, blocks) {
     `updated: ${today}`,
     "---",
   ].join("\n")
-  const urlMd = String(b.url).replace(/\(/g, "%28").replace(/\)/g, "%29")  // parens break markdown link targets
-  const masthead = `*${b.jurisdiction} · ${b.kind_label} · Established ${b.established} · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute for Contaminant Standards · [${prettyUrl(b.url)}](${urlMd})*`
   return [
     fm,
     "",
     `# ${b.name} (${b.abbreviation})`,
     "",
-    masthead,
+    block("masthead", mastheadLine(b)),
     "",
     "## Quick read",
     "",
@@ -349,6 +366,7 @@ for (const b of bodies) {
   }
   const raw = fs.readFileSync(pagePath, "utf8")
   let next = raw
+  next = upsertMasthead(next, mastheadLine(b))
   next = upsertBlock(next, "positions", blocks.positions)
   next = upsertBlock(next, "divergence", blocks.divergence)
   next = upsertBlock(next, "updatelog", blocks.updatelog)
@@ -467,7 +485,16 @@ function csv(v) {
 }
 function escapePipes(v) { return String(v == null ? "" : v).replace(/\|/g, "\\|") }
 function escapeRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") }
-function prettyUrl(u) { return String(u).replace(/^https?:\/\//, "").replace(/\/$/, "") }
+// Fall back to the bare host only when the full path would swamp the masthead
+// byline. JECFA's homepage is a 75-character path; Codex's 37-character one is
+// informative (www.fao.org alone is not Codex) and must survive. Found when the
+// masthead became generator-owned on 2026-07-31.
+function prettyUrl(u) {
+  const s = String(u).replace(/^https?:\/\//, "").replace(/\/$/, "")
+  if (s.length <= 48) return s  // literal, not a const: this runs before the module's tail is initialized
+  const slash = s.indexOf("/")
+  return slash === -1 ? s : s.slice(0, slash)
+}
 function toIsoDate(value) {
   if (!value) return ""
   if (value instanceof Date) return value.toISOString().slice(0, 10)

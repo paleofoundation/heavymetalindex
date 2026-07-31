@@ -16,7 +16,9 @@ updated: 2026-06-23
 
 # European Commission (EC)
 
-*European Union · Binding — legally enforceable maximum levels · Established 1958 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute for Contaminant Standards · [food.ec.europa.eu](https://food.ec.europa.eu)*
+<!-- BEGIN: hmi-regulator-masthead -->
+*European Union · Binding — legally enforceable maximum levels · Established 1958 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute of Contaminant Standards · [food.ec.europa.eu](https://food.ec.europa.eu)*
+<!-- END: hmi-regulator-masthead -->
 
 ## Quick read
 

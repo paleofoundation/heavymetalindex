@@ -313,7 +313,7 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
 /* Preview state. Accounts are not live, so AuthCard renders every control
    disabled behind this notice rather than shipping a form that swallows a
    password silently. Remove alongside AuthCard.tsx's PREVIEW flag when the
-   Institute for Contaminant Standards auth app is wired up. */
+   Institute of Contaminant Standards auth app is wired up. */
 .hmi-auth-notice { font-family: Inter, sans-serif; font-size: 13.5px; line-height: 1.5; color: var(--body); background: var(--burg-tint); border: 1px solid var(--line); border-left: 3px solid var(--burg); border-radius: 9px; padding: 12px 14px; margin: 0 0 22px; }
 .hmi-auth-notice strong { color: var(--burg); }
 .hmi-auth-notice a { color: var(--burg); font-weight: 600; }

@@ -16,7 +16,9 @@ updated: 2026-06-23
 
 # Agency for Toxic Substances and Disease Registry (ATSDR)
 
-*United States (federal) · Advisory — screening Minimal Risk Levels, not enforceable · Established 1985 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute for Contaminant Standards · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov)*
+<!-- BEGIN: hmi-regulator-masthead -->
+*United States (federal) · Advisory — screening Minimal Risk Levels, not enforceable · Established 1985 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute of Contaminant Standards · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov)*
+<!-- END: hmi-regulator-masthead -->
 
 ## Quick read
 

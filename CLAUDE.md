@@ -219,6 +219,18 @@ See [[docs/conventions]] for units (always ppb µg/kg unless source uses differe
 
 Schema migration history is in [[docs/schema-history]].
 
+### Entity naming (settled 2026-07-31)
+
+A trade name cannot own property, sign, or be sued. Only the corporation can. `Paleo Certified, Inc.` is the legal entity; `Institute of Contaminant Standards` and `Paleo Foundation` are both trade names of it. Split identity strings by what the string does:
+
+- **Operator and editorial attribution** is `Institute of Contaminant Standards`. This covers the footer operator line, page mastheads, "operated by" statements, author affiliation, and the `citation_publisher` and `citation_*_institution` tags in `Head.tsx`.
+- **Legal entity, IP ownership, and contracts** is `Paleo Certified, Inc.` This covers the ownership and liability clauses in `wiki/terms.md`, the grants in `wiki/licensing.md`, the copyright line, and the DataCite registrant in `tools/mint-dois.mjs`. Where the connection needs stating, the long form is `Paleo Certified, Inc., operating as the Institute of Contaminant Standards`.
+- **The copyright line** is `© <year> Paleo Certified, Inc.`, with `Operated by the Institute of Contaminant Standards` above it.
+
+`Institute for Contaminant Standards` and `Institute of Contamination Standards` are both wrong. The only correct form is `Institute of Contaminant Standards`.
+
+Naming the Foundation as owner was imprecise rather than a different owner, so correcting it is a correction and not an assignment. Two jurisdiction and entity-status claims remain open with counsel and must not be edited into consistency by a session: the Cyprus/EU database-rights posture in Part 1 above and in `wiki/licensing.md`, and the "non-profit" characterization in `wiki/heavy-metal-tested-certified.md` and `wiki/editorial-standards.md`. Report drift against them; do not resolve them.
+
 ## Part 15 — Writing style for wiki content
 
 See [[docs/writing-style]]. Default to prose; bullets require justification; em dashes avoided; no inline bold for emphasis. The register to aim for is Cochrane review, EFSA scientific opinion, or WHO monograph.

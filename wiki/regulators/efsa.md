@@ -16,7 +16,9 @@ updated: 2026-06-23
 
 # European Food Safety Authority (EFSA)
 
-*European Union · Advisory — risk assessment, not binding law · Established 2002 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute for Contaminant Standards · [www.efsa.europa.eu](https://www.efsa.europa.eu)*
+<!-- BEGIN: hmi-regulator-masthead -->
+*European Union · Advisory — risk assessment, not binding law · Established 2002 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute of Contaminant Standards · [www.efsa.europa.eu](https://www.efsa.europa.eu)*
+<!-- END: hmi-regulator-masthead -->
 
 ## Quick read
 

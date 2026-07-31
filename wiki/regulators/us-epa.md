@@ -16,7 +16,9 @@ updated: 2026-06-23
 
 # United States Environmental Protection Agency (US EPA)
 
-*United States (federal) · Mixed — IRIS assessments (advisory) + binding water limits · Established 1970 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute for Contaminant Standards · [www.epa.gov](https://www.epa.gov)*
+<!-- BEGIN: hmi-regulator-masthead -->
+*United States (federal) · Mixed — IRIS assessments (advisory) + binding water limits · Established 1970 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute of Contaminant Standards · [www.epa.gov](https://www.epa.gov)*
+<!-- END: hmi-regulator-masthead -->
 
 ## Quick read
 

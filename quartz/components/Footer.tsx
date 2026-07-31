@@ -124,7 +124,7 @@ export default (() => {
           <p class="site-footer-operator">
             Operated by the Institute of Contaminant Standards.
           </p>
-          <p>© {year} Paleo Foundation. Heavy Metal Index is a public reference project.</p>
+          <p>© {year} Paleo Certified, Inc. Heavy Metal Index is a public reference project.</p>
           <p>Reference only. Not medical, legal, regulatory, or product-certification advice.</p>
         </div>
       </footer>

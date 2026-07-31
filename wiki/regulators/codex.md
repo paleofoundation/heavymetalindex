@@ -16,7 +16,9 @@ updated: 2026-06-23
 
 # Codex Alimentarius Commission (Codex)
 
-*International (FAO/WHO) · International reference standard — adopted voluntarily by members · Established 1963 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute for Contaminant Standards · [www.fao.org/fao-who-codexalimentarius](https://www.fao.org/fao-who-codexalimentarius)*
+<!-- BEGIN: hmi-regulator-masthead -->
+*International (FAO/WHO) · International reference standard — adopted voluntarily by members · Established 1963 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute of Contaminant Standards · [www.fao.org/fao-who-codexalimentarius](https://www.fao.org/fao-who-codexalimentarius)*
+<!-- END: hmi-regulator-masthead -->
 
 ## Quick read
 

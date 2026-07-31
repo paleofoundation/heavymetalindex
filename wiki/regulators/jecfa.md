@@ -16,7 +16,9 @@ updated: 2026-06-23
 
 # Joint FAO/WHO Expert Committee on Food Additives (JECFA)
 
-*International (FAO/WHO) · Advisory — health-based guidance to Codex · Established 1956 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute for Contaminant Standards · [www.who.int — JECFA](https://www.who.int/groups/joint-fao-who-expert-committee-on-food-additives-%28jecfa%29)*
+<!-- BEGIN: hmi-regulator-masthead -->
+*International (FAO/WHO) · Advisory — health-based guidance to Codex · Established 1956 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute of Contaminant Standards · [www.who.int](https://www.who.int/groups/joint-fao-who-expert-committee-on-food-additives-%28jecfa%29)*
+<!-- END: hmi-regulator-masthead -->
 
 ## Quick read
 
