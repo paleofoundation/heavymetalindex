@@ -7,6 +7,8 @@ authors: ["V. Levkov", "T. Stafilov", "N. Pacinovski", "K. Bačeva", "N. Mateva"
 year: 2017
 publication: "Slovak Journal of Animal Science"
 doi: null
+no_doi_assigned: true
+access_url: "https://repository.ukim.mk/handle/20.500.12188/15408"
 source_type: peer-reviewed
 evidence_tier: B
 license: "unknown"

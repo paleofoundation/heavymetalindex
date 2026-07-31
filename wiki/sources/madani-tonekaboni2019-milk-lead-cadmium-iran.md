@@ -6,7 +6,8 @@ title: "Monitoring and risk assessment of lead and cadmium in milks from East of
 authors: ["Masoumeh Madani-Tonekaboni", "Neda Sadat Aghayan", "Roshanak Rafiei Nazari", "Solmaz Mirzamohammadi", "Anna Abdolshahi", "Negar Abbasi-Bastami", "Majid Arabameri"]
 year: 2019
 publication: "Nutrition and Food Sciences Research"
-doi: null
+doi: "10.29252/nfsr.6.2.29"
+access_url: "https://doi.org/10.29252/nfsr.6.2.29"
 source_type: peer-reviewed
 evidence_tier: B
 license: "unknown"

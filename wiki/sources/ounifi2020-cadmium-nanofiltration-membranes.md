@@ -6,7 +6,8 @@ title: "Cellulose Acetate Nanofiltration Membranes for Cadmium Remediation"
 authors: ["Ibtissem Ounifi", "Claudia Ursino", "Sergio Santoro", "Jalila Chekir", "Amor Hafiane", "Alberto Figoli", "Ezzedin Ferjani"]
 year: 2020
 publication: "Journal of Membrane Science and Research"
-doi: null
+doi: "10.22079/jmsr.2020.120669.1336"
+access_url: "https://www.msrjournal.com/article_38302.html"
 source_type: peer-reviewed
 evidence_tier: B
 license: "unknown"

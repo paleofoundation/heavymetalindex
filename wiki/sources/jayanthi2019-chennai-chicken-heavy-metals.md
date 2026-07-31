@@ -7,6 +7,8 @@ authors: ["R. Jayanthi", "V. Appa Rao", "R. Narendra Babu", "T. Sivakumar", "P. 
 year: 2019
 publication: "International Journal of Chemical Studies"
 doi: null
+no_doi_assigned: true
+access_url: "https://www.chemijournal.com/archives/2019/vol7issue3/PartX/7-2-282-172.pdf"
 source_type: peer-reviewed
 evidence_tier: B
 license: "unknown"

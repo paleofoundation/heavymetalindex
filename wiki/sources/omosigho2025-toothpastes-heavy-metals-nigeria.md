@@ -6,7 +6,8 @@ title: "Quality assessment of some selected toothpastes used in Nigeria"
 authors: ["H. N. Omosigho", "M. A. Balogun", "H. O. Ataikiru", "L. C. Obetta"]
 year: 2025
 publication: "Journal of the Chemical Society of Nigeria"
-doi: null
+doi: "10.46602/jcsn.v50i1.1036"
+access_url: "https://doi.org/10.46602/jcsn.v50i1.1036"
 source_type: peer-reviewed
 evidence_tier: B
 license: "unknown"
