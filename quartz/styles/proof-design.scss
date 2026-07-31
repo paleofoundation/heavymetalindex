@@ -253,41 +253,8 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
   .snav a.sec, .snav a.icon { border: 1px solid var(--line); border-radius: 2px; }
 }
 
-/* ── microbiomemedicine-style hero band (in HMI burgundy) ── */
-.hero-band { background: var(--burg); color: #fff; width: 100%; }
-.hero-wrap { max-width: var(--maxw); margin: 0 auto; padding: 42px 40px 46px; display: grid; grid-template-columns: 232px minmax(0, 1fr) 288px; gap: 44px; align-items: start; }
-.hero-left { display: flex; align-items: flex-start; justify-content: center; padding-top: 12px; }
-.hero-glyph { font-family: Lora, serif; font-weight: 500; color: #fff; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.24); width: 128px; height: 128px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 52px; letter-spacing: -0.02em; text-align: center; line-height: 1; }
-.hero-glyph.hero-glyph--symbol { font-size: 62px; }
-.hero-center { min-width: 0; }
-.hero-crumb { font-size: 13px; color: rgba(255,255,255,0.78); display: flex; flex-wrap: wrap; align-items: center; gap: 7px; margin-bottom: 15px; }
-.hero-crumb a { color: rgba(255,255,255,0.85); text-decoration: none; }
-.hero-crumb a:hover { color: #fff; text-decoration: underline; }
-.hero-crumb .sep { color: rgba(255,255,255,0.45); }
-.hero-crumb .cur { color: #fff; }
-.hero-title { font-family: Lora, serif; font-weight: 400; font-size: clamp(40px, 5vw, 58px); line-height: 1.05; color: #fff; margin: 0 0 16px; }
-.hero-desc { font-family: Inter, sans-serif; font-size: 16px; line-height: 1.55; color: rgba(255,255,255,0.92); max-width: 640px; margin: 0 0 22px; }
-.hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
-.hero-pill { display: inline-flex; align-items: center; gap: 8px; background: rgba(0,0,0,0.24); color: #fff; font-size: 14px; font-weight: 500; padding: 9px 14px; border-radius: 2px; text-decoration: none; }
-.hero-pill:hover { background: rgba(0,0,0,0.4); color: #fff; text-decoration: none; }
-.hero-pill svg { width: 16px; height: 16px; }
-.hero-right { display: flex; flex-direction: column; gap: 16px; padding-top: 2px; }
-.hero-researched-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; color: rgba(255,255,255,0.7); margin-bottom: 5px; }
-.hero-author { font-size: 15px; font-weight: 500; color: #fff; display: flex; align-items: center; gap: 7px; }
-.hero-orcid { font-size: 10px; font-weight: 700; background: #a6ce39; color: #143a00; border-radius: 3px; padding: 1px 4px; letter-spacing: 0.02em; }
-.hero-updated { font-size: 12px; color: rgba(255,255,255,0.72); margin-top: 6px; }
-.hero-snapshot { background: rgba(0,0,0,0.16); border: 1px solid rgba(255,255,255,0.16); border-radius: 3px; padding: 14px 16px; }
-.hero-snapshot-title { font-family: Lora, serif; font-size: 15px; font-weight: 600; color: #fff; margin-bottom: 10px; }
-.hero-snapshot-row { display: flex; align-items: center; gap: 9px; font-size: 13px; color: rgba(255,255,255,0.9); margin: 6px 0; }
-.hero-snapshot-row svg { width: 15px; height: 15px; color: rgba(255,255,255,0.72); flex: 0 0 auto; }
-.hero-snapshot-row b { color: #fff; font-weight: 700; }
 /* the hero owns the title/breadcrumb/date, so hide the in-article page-header */
 .proof:not(.proof-home) .proof-main > .page-header { display: none; }
-@media (max-width: 1080px) {
-  .hero-wrap { grid-template-columns: 1fr; gap: 22px; padding: 28px 24px 32px; }
-  .hero-left { justify-content: flex-start; }
-  .hero-right { flex-direction: row; flex-wrap: wrap; gap: 20px; }
-}
 
 /* ── auth screens (login / signup) — large centered card, HMI burgundy ── */
 .proof-auth { background: #fbfaf8; min-height: calc(100vh - 69px); }

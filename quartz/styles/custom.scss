@@ -1,5 +1,11 @@
 @use "./base.scss";
 @use "./proof-design.scss";
+// HeroBand is invoked directly from renderPage.tsx, not from a quartz.layout.ts
+// slot, so Quartz's layout walk never collects its `HeroBand.css` and the file
+// would ship no styles at all. The hero's rules previously lived in
+// proof-design.scss, which reaches the bundle exactly this way; heroBand.scss
+// replaces them and has to be pulled in the same manner.
+@use "../components/styles/heroBand.scss";
 
 /* ============================================================
    Heavy Metal Index — custom styles

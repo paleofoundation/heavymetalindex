@@ -1,14 +1,32 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { FullSlug, SimpleSlug, resolveRelative } from "../util/path"
+import style from "./styles/heroBand.scss"
 
-// microbiomemedicine-style full-width hero band, in HMI burgundy. Renders above
-// the article's 3-column layout: left glyph, center (breadcrumb / title /
-// description / action pills), right (researched-by + Page Snapshot card). All
-// data comes from frontmatter + Quartz's auto description. renderPage lifts it
-// outside #quartz-root so it spans the viewport; the wrapper re-centers to the
-// page width. Structure mirrors .research-hero on microbiomemedicine.com.
+// v3 hero band. Replaces the glyph/pill/card hero wholesale — this is a
+// re-layout, not a re-skin. Reference: "Heavy Metal Index v3.dc.html" lines
+// 362-405 (markup) and 2011 (grid). renderPage.tsx lifts this outside
+// #quartz-root so it spans the viewport; the root class stays `hero-band` so
+// that lift keeps working.
+//
+// BEFORE THIS LANDS: delete the `.hero-*` block from quartz/styles/proof-design.scss
+// (the run beginning "── microbiomemedicine-style hero band ──", ~lines 251-285).
+// Those rules style the old three-column glyph layout and will fight this file.
 
-const SECTION_LABELS: Record<string, string> = {
+const SECTION_LABEL: Record<string, string> = {
+  metals: "Metal profile",
+  ingredients: "Ingredient profile",
+  products: "Product category",
+  regulations: "Regulation",
+  regulators: "Regulatory body",
+  sources: "Source record",
+  synthesis: "Synthesis finding",
+  testing: "Testing method",
+  mitigation: "Mitigation",
+  "supply-chain": "Supply chain",
+  microbiome: "Microbiome",
+}
+
+const CRUMB_LABEL: Record<string, string> = {
   metals: "Metals",
   ingredients: "Ingredients",
   products: "Products",
@@ -22,30 +40,47 @@ const SECTION_LABELS: Record<string, string> = {
   microbiome: "Microbiome",
 }
 
-function svg(d: string) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="1.7"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      aria-hidden="true"
-    >
-      <path d={d} />
-    </svg>
-  )
-}
-const ACT = {
-  bell: "M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9 M10.3 21a1.94 1.94 0 0 0 3.4 0",
-  quote:
-    "M3 21c3 0 7-1 7-8V5c0-1.25-.756-2-2-2H4c-1.25 0-2 .75-2 2v4c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-3 2 M15 21c3 0 7-1 7-8V5c0-1.25-.757-2-2-2h-4c-1.25 0-2 .75-2 2v4c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-3 2",
-  download: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4 M7 10l5 5 5-5 M12 15V3",
-  share: "M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8 M16 6l-4-4-4 4 M12 2v13",
-  doc: "M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z M14 2v6h6",
-  history: "M3 3v5h5 M3.05 13A9 9 0 1 0 6 5.3L3 8 M12 7v5l3 2",
+const ORCID = "0000-0002-2348-7259"
+
+type Row = { k: string; v: string }
+
+// Snapshot rows come from frontmatter where present. A page that declares
+// `snapshot: [{k, v}]` wins; otherwise assemble from the counts the frontmatter
+// already carries. Never render an empty box — if there is nothing to say, the
+// column collapses and the hero runs full width.
+function snapshotRows(fm: Record<string, unknown>, section: string): Row[] {
+  const declared = fm.snapshot
+  if (Array.isArray(declared)) {
+    return declared
+      .map((r) => {
+        const row = r as Record<string, unknown>
+        const k = typeof row.k === "string" ? row.k : typeof row.label === "string" ? row.label : ""
+        const v = row.v ?? row.value
+        return k && v !== undefined && v !== null ? { k, v: String(v) } : null
+      })
+      .filter((r): r is Row => r !== null)
+  }
+
+  const rows: Row[] = []
+  const num = (x: unknown) => (typeof x === "number" || typeof x === "string" ? String(x) : undefined)
+  const sources = num(fm.sources) ?? num(fm.n_sources)
+  if (sources) {
+    rows.push({
+      k: section === "metals" ? "Corpus sources on this metal" : "Corpus sources",
+      v: sources,
+    })
+  }
+  const pairs: Array<[unknown, string]> = [
+    [fm.n_ingredients, "Ingredient profiles"],
+    [fm.n_products, "Product categories"],
+    [fm.n_regulations, "Regulations citing this"],
+    [fm.n_claims, "Registered claims"],
+  ]
+  for (const [value, label] of pairs) {
+    const v = num(value)
+    if (v) rows.push({ k: label, v })
+  }
+  return rows
 }
 
 export default (() => {
@@ -54,97 +89,107 @@ export default (() => {
     const fm = (fileData.frontmatter ?? {}) as Record<string, unknown>
     const parts = slug.split("/")
     const section = parts.length > 1 ? parts[0] : ""
-    const sectionLabel =
-      SECTION_LABELS[section] ?? (section ? section.charAt(0).toUpperCase() + section.slice(1) : "")
-    const title = (typeof fm.title === "string" && fm.title) || parts[parts.length - 1] || ""
-    if (!title) return null
-    let desc =
+
+    const rawTitle = (typeof fm.title === "string" && fm.title) || parts[parts.length - 1] || ""
+    if (!rawTitle) return null
+
+    // v3 renders "Lead (Pb)" — the symbol belongs in the title, not in a glyph.
+    const symbol = typeof fm.symbol === "string" ? fm.symbol : undefined
+    const title = symbol && !rawTitle.includes("(") ? `${rawTitle} (${symbol})` : rawTitle
+
+    const kind = (typeof fm.kind === "string" && fm.kind) || SECTION_LABEL[section] || ""
+    const crumb = CRUMB_LABEL[section] ?? (section ? section.charAt(0).toUpperCase() + section.slice(1) : "")
+
+    let dek =
+      (typeof fm.dek === "string" && fm.dek) ||
       (fileData as { description?: string }).description ||
       (typeof fm.description === "string" ? fm.description : "")
-    // Quartz's auto description often begins "{Title} Quick read {text}" — strip
-    // the leading title echo and the section heading so it reads as a lede.
-    const escaped = title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-    desc = desc
+    const escaped = rawTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+    dek = dek
       .replace(new RegExp(`^\\s*${escaped}\\s+`, "i"), "")
       .replace(/^\s*(quick read|overview|at a glance)[\s:—-]*/i, "")
       .trim()
-    if (desc.length > 260) desc = desc.slice(0, 257).replace(/\s+\S*$/, "") + "…"
+    if (dek.length > 320) dek = dek.slice(0, 317).replace(/\s+\S*$/, "") + "…"
+
     const updated = fm.updated ? String(fm.updated).slice(0, 10) : undefined
-    const sources = fm.sources ?? fm.n_sources
-    const symbol = typeof fm.symbol === "string" ? fm.symbol : undefined
+    const rev = fm.rev !== undefined && fm.rev !== null ? String(fm.rev) : undefined
+    const rows = snapshotRows(fm, section)
+
     const homeHref = resolveRelative(slug, "index" as SimpleSlug)
     const sectionHref = section ? resolveRelative(slug, `${section}/` as SimpleSlug) : undefined
 
     return (
-      <div class="hero-band">
-        <div class="hero-wrap">
-          <div class="hero-left">
-            <div class={symbol ? "hero-glyph hero-glyph--symbol" : "hero-glyph"}>
-              {symbol ?? title.slice(0, 2)}
-            </div>
-          </div>
-
-          <div class="hero-center">
+      <div class={rows.length ? "hero-band" : "hero-band hero-band--nosnapshot"}>
+        <div class="hero-grid">
+          <div class="hero-main">
             <nav class="hero-crumb" aria-label="Breadcrumb">
-              <a href={homeHref}>Home</a>
+              <a href={homeHref}>Index</a>
               {sectionHref ? (
                 <>
-                  <span class="sep">›</span>
-                  <a href={sectionHref}>{sectionLabel}</a>
+                  <span aria-hidden="true">/</span>
+                  <a href={sectionHref}>{crumb}</a>
                 </>
               ) : null}
-              <span class="sep">›</span>
-              <span class="cur">{title}</span>
+              <span aria-hidden="true">/</span>
+              <span class="cur">{rawTitle}</span>
             </nav>
-            <h1 class="hero-title">{title}</h1>
-            {desc ? <p class="hero-desc">{desc}</p> : null}
-            <div class="hero-actions">
-              <a class="hero-pill" href="#sources">
-                {svg(ACT.bell)}
-                <span>Follow</span>
+
+            <div class="hero-titlerow">
+              <h1 class="hero-title">{title}</h1>
+              {kind ? <span class="hero-kind">{kind}</span> : null}
+            </div>
+
+            {dek ? <p class="hero-dek">{dek}</p> : null}
+
+            <div class="hero-meta">
+              <span>
+                Author{" "}
+                <a class="hero-author" href={resolveRelative(slug, "about" as SimpleSlug)}>
+                  Karen Pendergrass
+                </a>{" "}
+                ·{" "}
+                <a
+                  class="hero-orcid"
+                  href={`https://orcid.org/${ORCID}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ORCID {ORCID}
+                </a>
+              </span>
+              {updated ? <span class="hero-stamp">UPDATED {updated}</span> : null}
+              {rev ? <span class="hero-stamp">REV {rev}</span> : null}
+
+              <a class="hero-act" href="#cite-this-page">
+                Cite this page
               </a>
-              <a class="hero-pill" href="#sources">
-                {svg(ACT.quote)}
-                <span>Cite this page</span>
+              <a class="hero-act" href="#update-history">
+                Version history
               </a>
-              <a class="hero-pill" href="#sources">
-                {svg(ACT.download)}
-                <span>Evidence packet</span>
-              </a>
-              <a class="hero-pill" href="#">
-                {svg(ACT.share)}
-                <span>Share</span>
+              <a class="hero-act hero-act--solid" href={`/api/evidence-packet?slug=${slug}`}>
+                Download PDF
               </a>
             </div>
           </div>
 
-          <div class="hero-right">
-            <div class="hero-researched">
-              <div class="hero-researched-label">Researched by</div>
-              <div class="hero-author">
-                K. Pendergrass <span class="hero-orcid" title="ORCID">iD</span>
-              </div>
-              {updated ? <div class="hero-updated">Last updated: {updated}</div> : null}
-            </div>
+          {rows.length ? (
             <div class="hero-snapshot">
-              <div class="hero-snapshot-title">Page Snapshot</div>
-              {sources ? (
-                <div class="hero-snapshot-row">
-                  {svg(ACT.doc)}
-                  <span>
-                    <b>{String(sources)}</b> corpus sources
-                  </span>
-                </div>
-              ) : null}
-              <div class="hero-snapshot-row">
-                {svg(ACT.history)}
-                <span>Reconstructable record</span>
+              <div class="hero-snapshot-head">Page snapshot</div>
+              <div class="hero-snapshot-body">
+                {rows.map((r) => (
+                  <div class="hero-snapshot-row">
+                    <span class="hero-snapshot-k">{r.k}</span>
+                    <span class="hero-snapshot-v">{r.v}</span>
+                  </div>
+                ))}
               </div>
             </div>
-          </div>
+          ) : null}
         </div>
       </div>
     )
   }
+
+  HeroBand.css = [style]
   return HeroBand
 }) satisfies QuartzComponentConstructor
