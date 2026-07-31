@@ -522,3 +522,28 @@ body:has(.hmi-topnav-shell) {
     margin-left: 0;
   }
 }
+
+// Below $desktop the flow row is brand + burger + Index Pro (the menu is
+// absolutely positioned, so it is out of flow). At 390px the 30px gaps and the
+// full-width 22px Lora wordmark pushed the button onto a second row. v3 keeps
+// the bar one row high at every width, so the wordmark yields instead.
+@media all and not ($desktop) {
+  .hmi-topnav-inner {
+    gap: 12px;
+  }
+
+  .hmi-topnav-brand {
+    min-width: 0;
+  }
+
+  .hmi-topnav-wordmark {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .hmi-topnav-pro {
+    margin-left: auto;
+    padding: 7px 13px;
+  }
+}
