@@ -207,3 +207,15 @@ The shipping plan's step 4 asks for two footer edits. Both would replace or add 
 The footer's third step-4 change — the operator line reading "Operated by the Institute of Contaminant Standards." — already landed in step 1 and is live on the branch. So `Footer.tsx` needs no edit in step 4, and got none.
 
 Unblocks the moment either host serves. Re-check with `curl -o /dev/null -w '%{http_code}'` before doing it; do not assume.
+
+---
+
+## F-15 — The rail's live count is not rendered
+
+**Status:** open · **Severity:** cosmetic · **Found:** 2026-07-31 (hero/v3 work)
+
+v3 (line 409) puts a count beside the rail header — `{{ page.railCount }}`, rendered as e.g. "9 rails" in mono 9px `#c3b9bb`.
+
+The rail's numbering and header were delivered with CSS counters, which cannot count elements into text. The count is the one part that needs real markup in `Snav.tsx`, which has two render paths and an accordion script bound to `.grp`/`.sec`/`.sub`/`data-for`. Left out rather than approximated.
+
+Cheap to add when `Snav.tsx` is next opened: the section arrays are already computed there.
