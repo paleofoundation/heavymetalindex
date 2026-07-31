@@ -56,6 +56,26 @@ const DEGENERATE_N_THRESHOLD = 5
 const failures = []
 const advisories = []
 
+// Signature 3 — n_studies inflation (C0c, added 2026-07-31). ALWAYS non-blocking,
+// independent of --warn-only: signatures 1 and 2 are at zero and must keep
+// blocking, while this one opens with 322 known violations. It flips to blocking
+// the same way the firewall lint did, once the backlog drains.
+//
+// The signature is "n_studies changed while the pooled values did not" — the
+// fingerprint of the 2026-05-17 pass (fe6ad96e1), which raised counts and
+// confidence across 207 pages without re-pooling. Detecting that TRANSITION needs
+// git history, and a prebuild step reading `git log` is broken on Vercel's shallow
+// clone. So history was read once by
+// tools/evidence/build-n-studies-inflation-backlog.mjs and committed; this check
+// works purely from that registry plus the current tree.
+//
+// A row drains when its cell's typical_ppb/p95_ppb stop matching what the pass
+// left — i.e. when someone actually re-pools it. Editing n_studies alone does not
+// drain it, which is deliberate: that is the move that created the backlog.
+const inflationBacklogPath = path.join(repoRoot, "data/evidence/n-studies-inflation-backlog.csv")
+const inflationRows = readInflationBacklog(inflationBacklogPath)
+const inflationLive = []
+
 for (const file of fs.readdirSync(ingredientsDir).sort()) {
   if (!file.endsWith(".md") || file === "index.md") continue
   const slug = file.replace(/\.md$/, "")
@@ -114,8 +134,30 @@ for (const file of fs.readdirSync(ingredientsDir).sort()) {
   }
 }
 
+// --- signature 3: still-unpooled cells from the inflation backlog ------------
+for (const row of inflationRows) {
+  const file = path.join(repoRoot, row.page)
+  if (!fs.existsSync(file)) continue
+  const cell = cellFor(fs.readFileSync(file, "utf8"), row.metal)
+  if (!cell) continue
+  // Still un-re-pooled iff the pooled values are byte-identical to what the pass
+  // left. n_studies is deliberately NOT part of the match.
+  if ((cell.typical_ppb ?? "") !== row.typical_ppb) continue
+  if ((cell.p95_ppb ?? "") !== row.p95_ppb) continue
+  inflationLive.push({
+    slug: row.page.replace(/^wiki\/[^/]+\//, "").replace(/\.md$/, ""),
+    page: row.page,
+    metal: row.metal,
+    n_before: row.n_before,
+    n_after: row.n_after,
+    now: cell.n_studies ?? "",
+    confidence: cell.confidence ?? "",
+    zero_to_n: row.zero_to_n === "yes",
+  })
+}
+
 if (asJson) {
-  console.log(JSON.stringify({ failures, advisories }, null, 2))
+  console.log(JSON.stringify({ failures, advisories, inflationLive }, null, 2))
 } else {
   if (failures.length === 0) {
     console.log("contamination-profile integrity: PASS (no censored-zero or degenerate-upper-tail artifacts)")
@@ -130,6 +172,24 @@ if (asJson) {
     console.log(`\n${advisories.length} advisory(ies) — populated cells with null p95 (not build-blocking):`)
     for (const a of advisories.slice(0, 40)) console.log(`  ${a.slug} × ${a.metal}: ${a.note}`)
     if (advisories.length > 40) console.log(`  … and ${advisories.length - 40} more`)
+  }
+  if (inflationRows.length === 0) {
+    console.log("\nn_studies inflation: backlog registry absent — run tools/evidence/build-n-studies-inflation-backlog.mjs")
+  } else if (inflationLive.length === 0) {
+    console.log(`\nn_studies inflation: BACKLOG DRAINED (0 of ${inflationRows.length} cells still un-re-pooled) — flip this signature to blocking`)
+  } else {
+    const zero = inflationLive.filter((r) => r.zero_to_n).length
+    const high = inflationLive.filter((r) => r.confidence === "high").length
+    const pages = new Set(inflationLive.map((r) => r.page)).size
+    console.log(
+      `\nn_studies inflation: ${inflationLive.length} of ${inflationRows.length} cells still un-re-pooled across ${pages} page(s) — NOT build-blocking`
+    )
+    console.log(`  0->n: ${zero}   confidence:high: ${high}`)
+    console.log(`  register: data/evidence/n-studies-inflation-backlog.md`)
+    for (const r of inflationLive.slice(0, 10)) {
+      console.log(`  ${r.slug} × ${r.metal}: ${r.n_before} -> ${r.n_after} (now ${r.now}, ${r.confidence})${r.zero_to_n ? " [0->n]" : ""}`)
+    }
+    if (inflationLive.length > 10) console.log(`  … and ${inflationLive.length - 10} more`)
   }
 }
 
@@ -191,4 +251,50 @@ function numOrNull(s) {
   if (t === "" || t === "null" || t === "~") return null
   const n = Number(t)
   return Number.isFinite(n) ? n : null
+}
+
+/** Read the committed inflation registry. Absent file is not an error — the
+ *  signature simply reports "registry absent" rather than failing a build. */
+function readInflationBacklog(file) {
+  if (!fs.existsSync(file)) return []
+  const lines = fs.readFileSync(file, "utf8").trim().split("\n")
+  if (lines.length < 2) return []
+  const cols = splitCsvLine(lines[0])
+  return lines.slice(1).map((l) => {
+    const v = splitCsvLine(l)
+    return Object.fromEntries(cols.map((c, i) => [c, v[i] ?? ""]))
+  })
+}
+
+function splitCsvLine(line) {
+  const out = []
+  let cur = ""
+  let q = false
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i]
+    if (q) {
+      if (ch === '"' && line[i + 1] === '"') { cur += '"'; i++ }
+      else if (ch === '"') q = false
+      else cur += ch
+    } else if (ch === '"') q = true
+    else if (ch === ",") { out.push(cur); cur = "" }
+    else cur += ch
+  }
+  out.push(cur)
+  return out
+}
+
+/** Pull one contamination_profile cell's raw field strings from a page. */
+function cellFor(text, metal) {
+  let cur = null
+  let found = null
+  for (const line of text.split("\n")) {
+    const m = line.match(/^\s{2}([A-Za-z][A-Za-z0-9-]*):\s*$/)
+    if (m) { cur = m[1]; if (cur === metal) found = {}; else if (found) return found; continue }
+    if (cur !== metal || !found) continue
+    const kv = line.match(/^\s{4}(n_studies|typical_ppb|p95_ppb|confidence|status|last_reviewed):\s*(.+)$/)
+    if (kv) found[kv[1]] = kv[2].trim()
+    else if (/^\s{0,3}\S/.test(line)) return found
+  }
+  return found
 }
