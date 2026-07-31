@@ -74,6 +74,12 @@ Where a step needs a visual spec, Karen supplies it.
     just after a build: regenerate, verify the artifact contains no scratch reference, and inspect the
     commit's file list rather than trusting it. *Found in 0.8d by checking an unexpected second file in
     a commit; the 0.5 DOI-gate test had the same exposure unchecked.*
+13. **A gate test that touches the worktree but not the index proves nothing about a pre-commit gate.**
+    Pre-commit checks read the **index**, so an unstaged edit sails through and looks like a broken gate.
+    Always `git add` the probe before concluding anything. *Found in 0.9b, where the first probe reported
+    "BARRIER BROKEN" and the barrier was fine.* Rule 12 is a test that writes more than you intended;
+    rule 13 is a test that checks less. Both are the test misleading you about the gate rather than the
+    gate misleading you about the code.
 
 ## Reporting protocol
 
@@ -408,7 +414,24 @@ audit rows predating 2026-07-30 were never actually enforced, so a future reader
 ## Step 0.10 — Push and open a PR
 
 `git push origin reconcile/2026-07-30`, open a PR against `main`. **Do not fast-forward `main`. Do not
-deploy.**
+deploy.** `vercel.json` sets `git.deploymentEnabled: false`; deployment stays a deliberate, separate act.
+
+**Preflight.** Confirm the tree is clean, re-run the tag-vs-branch sweep (expect exactly the six settled
+absences), record main's current sha. Then a credential scan across the full branch diff — API keys,
+tokens, `.env` contents, absolute paths containing a username beyond the two symlinks already removed.
+Report findings; if none, say so explicitly.
+
+**Do not squash, rebase, or reword.** The 23 commits are the audit trail — each is coherent and several
+document a finding that only makes sense in sequence. A tidy history would destroy the reason this branch
+is trustworthy.
+
+**PR body, in this order:** (1) what this is; (2) the base facts — merge base, the graft's fictional
+lineage, deployed `50de6ab` eight behind; (3) what it fixes with the evidence; (4) what it does NOT fix —
+C1, the six `doi: null`, the `doi: ''` hole, F5, F9, F10, `roadmap.md`'s claims — each linked to
+`docs/reconcile-log.md`; (5) reviewer note that audit rows predating 2026-07-30 were never enforced and
+the barrier began enforcing its own claim at `1c0b678ac`.
+
+Record the PR URL in the log, then stop. Merging is Karen's call, and C1 may want to land first.
 
 ---
 
