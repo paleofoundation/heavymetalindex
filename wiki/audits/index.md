@@ -2,14 +2,14 @@
 title: Audit dashboard
 description: Auto-regenerated transparency dashboard. Every dimension of the wiki's Cochrane-level defensibility is scored here, with cross-links to the detail audit files.
 audience: [regulator, educator, researcher, brand-legal, brand-qa, journalist, external-reviewer]
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 # Audit dashboard
 
 This dashboard is auto-regenerated on every build from the wiki's audit harness. It is the single transparency surface for reading "what is the current Cochrane-level defensibility of the wiki, by dimension." External reviewers, regulatory affairs, and brand legal teams auditing the wiki should land here.
 
-Generated: **2026-07-30**.  Baseline snapshot: [[audits/2026-07-30-baseline|2026-07-30-baseline]].
+Generated: **2026-07-31**.  Baseline snapshot: [[audits/2026-07-31-baseline|2026-07-31-baseline]].
 
 ## Scorecard
 
@@ -22,7 +22,7 @@ Generated: **2026-07-30**.  Baseline snapshot: [[audits/2026-07-30-baseline|2026
 | Product mandatory sections (non-stub pages) | 255 / 287 (89%) | FAIL |
 | Routing discipline check 1 (sources with product-shaped matrices but empty products[]) | 16 failures | WARN |
 | Routing discipline check 2 (HMTc-locked products with zero routed sources) | 40 of 386 | INFO |
-| Source page DOI completeness | 8 missing | WARN |
+| Source page DOI completeness | 3 missing | WARN |
 | Claim provenance — body-prose numerical claims with traceable citation | 5161/5161 (100%) | PASS |
 
 ## Taxonomy v2.0 coverage
@@ -40,7 +40,7 @@ Detail report: [[data/evidence/taxonomy-coverage-audit|data/evidence/taxonomy-co
 Routing layer (CLAUDE.md Part 5b) fans source-page declarations of `products: [<slug>]` to product-category pages. 4639 routing rows in current audit.
 
 - Unresolved targets (source frontmatter declares a slug that doesn't exist): **13**
-- Malformed sources (missing required frontmatter fields): **1224** (non-blocking)
+- Malformed sources (missing required frontmatter fields): **1222** (non-blocking)
 
 Detail: [[data/evidence/product_source_routing_audit|data/evidence/product_source_routing_audit.csv]], [[data/evidence/routing_unresolved|data/evidence/routing_unresolved.csv]], [[data/evidence/routing_malformed|data/evidence/routing_malformed.csv]].
 
@@ -48,8 +48,8 @@ Detail: [[data/evidence/product_source_routing_audit|data/evidence/product_sourc
 
 **Check 1** — sources with product-shaped `matrices:` slugs but empty `products: []` and no `pending_category_lock` flag.  These are sources that should route to a product page but the frontmatter doesn't declare it.
 
-- Sources scanned: 2219
-- Sources with product-shaped matrices: 817
+- Sources scanned: 2218
+- Sources with product-shaped matrices: 816
 - **Failures: 16**
 
 **Check 2** — HMTc-locked product pages (carrying hmtc_category + hmtc_row) with zero routed sources.  These are scaffolded destinations that haven't received their Phase 1 ingest yet.
@@ -83,12 +83,12 @@ Detail: [[data/evidence/product-mandatory-sections-audit|data/evidence/product-m
 
 ## Source page corpus
 
-Total source pages in wiki/sources/: **2219**.
+Total source pages in wiki/sources/: **2218**.
 
 By evidence tier:
 - A: 1448
 - A-tier: 1
-- B: 667
+- B: 666
 - C: 103
 
 By source type:
@@ -134,7 +134,7 @@ By source type:
 - ngo-report: 11
 - ngo-scoping-report: 1
 - nonprofit: 5
-- peer-reviewed: 1803
+- peer-reviewed: 1802
 - peer-reviewed-journal: 1
 - peer-reviewed-review: 12
 - peer_reviewed_journal: 1
@@ -163,7 +163,7 @@ By source type:
 - thesis: 9
 - trade-publication: 2
 
-DOI completeness: 2211 of 2219 sources have a DOI or a `no_doi_assigned: true` marker.  Missing DOI metadata: **8**.
+DOI completeness: 2215 of 2218 sources have a DOI or a `no_doi_assigned: true` marker.  Missing DOI metadata: **3**.
 
 ## Claim provenance (trace-every-claim audit v1)
 

@@ -49,7 +49,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Arsenic",
             "slug": "metals/arsenic",
-            "count": 451
+            "count": 450
           },
           {
             "label": "Mercury",
@@ -421,7 +421,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Defensibility audits",
             "slug": "audits",
-            "count": 10
+            "count": 11
           },
           {
             "label": "Errata & corrections",
@@ -435,7 +435,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Source archive",
             "slug": "sources",
-            "count": 2219
+            "count": 2218
           },
           {
             "label": "Synthesis findings",

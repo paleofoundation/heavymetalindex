@@ -99,7 +99,7 @@ The 3 works cited in this page's text, numbered in the order the citations appea
 
 1. Eileen Abt, Jennifer Fong Sam, Patrick Gray, and Lauren Posnick Robin (2018). *Cadmium and Lead in Cocoa Powder and Chocolate Products in the U.S. Market*. Food Additives & Contaminants: Part B Surveillance. [https://doi.org/10.1080/19393210.2017.1420700](https://doi.org/10.1080/19393210.2017.1420700). Peer-reviewed, A-tier. [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Source record]]
 2. Hands JM, Anderson ML, Cooperman T, Balsky JE, and Frame LA (2024). *A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA*. Frontiers in Nutrition. [https://doi.org/10.3389/fnut.2024.1366231](https://doi.org/10.3389/fnut.2024.1366231). Peer-reviewed, A-tier. [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa|Source record]]
-3. Zhao D, Wang P, and Zhao FJ (2024). *Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies*. Current Opinion in Environmental Science & Health. [https://doi.org/10.1007/s42247-024-00934-6](https://doi.org/10.1007/s42247-024-00934-6). Peer-reviewed, A-tier. [[sources/zhao2024-toxic-metals-metalloids-food-review|Source record]]
+3. Zhao D, Wang P, and Zhao FJ (2024). *Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies*. Current Opinion in Environmental Science & Health. [https://doi.org/10.1007/s40572-024-00462-7](https://doi.org/10.1007/s40572-024-00462-7). Peer-reviewed, A-tier. [[sources/zhao2024-toxic-metals-metalloids-food-review|Source record]]
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

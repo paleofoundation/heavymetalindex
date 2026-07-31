@@ -2,7 +2,7 @@
 title: Corpus coverage and methodology transparency
 description: The wiki's PRISMA-equivalent — papers identified, screened, ingested, and the taxonomy-row coverage report. Auto-regenerated from on-disk data.
 audience: [regulator, educator, researcher, brand-legal, brand-qa, journalist]
-updated: 2026-07-30
+updated: 2026-07-31
 noindex: false
 ---
 
@@ -12,7 +12,7 @@ This page is the wiki's PRISMA-equivalent: a single, auto-regenerated transparen
 
 The wiki is built against the locked HMTc Comprehensive Testing Category Taxonomy v2.0 (2026-03-30). Every product page, every routing decision, and every coverage count is reconciled to that taxonomy. The taxonomy itself is published at [[data/taxonomy/hmtc-v2.json|data/taxonomy/hmtc-v2.json]] for reference.
 
-This page was regenerated on **2026-07-30** from the current state of the corpus.
+This page was regenerated on **2026-07-31** from the current state of the corpus.
 
 The Cochrane-equivalent search-protocol publication — the 10 academic databases queried, the dedupe protocol, the scoring rubric for auto-fetch, and the inclusion / exclusion criteria — is published at [[methodology/search-strategy]]. Read it alongside this page for the complete defensibility picture.
 
@@ -32,11 +32,11 @@ The Cochrane-equivalent search-protocol publication — the 10 academic database
          │
          │  Papers from year ≥ 2020: 14,343
          ▼
-  Eligibility:    2220 source pages currently in wiki/sources/
+  Eligibility:    2219 source pages currently in wiki/sources/
          │
          │    evidence_tier A: 1448
          │    evidence_tier A-tier: 1
-         │    evidence_tier B: 667
+         │    evidence_tier B: 666
          │    evidence_tier C: 103
          │    evidence_tier unknown: 1
          ▼
@@ -47,7 +47,7 @@ The Cochrane-equivalent search-protocol publication — the 10 academic database
   Synthesized:    Ingredient cells, product rows, metal pages, regulation pages
 ```
 
-**Of the 23,260 papers identified in the literature search, 2220 have been promoted to source pages — 9.5% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
+**Of the 23,260 papers identified in the literature search, 2219 have been promoted to source pages — 9.5% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
 
 This is a deliberately small fraction: depth over breadth. The defensibility argument is not 'we ingested 23,000 papers,' it is 'every wiki claim traces to a peer-reviewed source page whose values match the source PDF on audit.' The ingest pipeline is sized to maintain that property.
 
@@ -55,7 +55,7 @@ This is a deliberately small fraction: depth over breadth. The defensibility arg
 
 | Page type | Count |
 |---|---:|
-| Source pages | 2220 |
+| Source pages | 2219 |
 | Ingredient profiles | 257 |
 | Product-category rows (total) | 414 |
 | Product-category rows (non-stub, has scaffold or content) | 142 |

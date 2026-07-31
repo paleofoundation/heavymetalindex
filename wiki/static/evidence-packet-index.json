@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-30T18:08:58.720Z",
+  "generated_at": "2026-07-31T09:52:49.003Z",
   "schema_version": "1.0.0",
   "canonical_base": "https://heavymetalindex.com",
-  "record_count": 3114,
+  "record_count": 3113,
   "records": [
     {
       "slug": "about",
@@ -38,9 +38,9 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/coverage",
-      "content_sha256": "1c6773a9a95bdaa74be483904af2aef7d407752be1b9888166199bc59583c0db",
+      "content_sha256": "587c4e10e1c948895a1b8d9e5bdf46b1491aa16b7fb47a5cdff03f4764be7ed1",
       "content_bytes": 7971,
-      "last_commit_sha": "90a2f9a38",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": []
     },
@@ -159,9 +159,9 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/index",
-      "content_sha256": "135be81c53ffef750ec4650456df00a662f76995776563891b8e16ef470fb17c",
+      "content_sha256": "8e1adf14e925cff4ef512d0139fe9ff8f1d8aae83033a2f756bb947d4283c80a",
       "content_bytes": 17897,
-      "last_commit_sha": "90a2f9a38",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": []
     },
@@ -564,7 +564,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/ingredients/beans",
-      "content_sha256": "a77448a96e95e5effd95278146097412b8977bcc5493cdcc1e86c87cdcf09566",
+      "content_sha256": "04e4f709604afbca44c111c7bf3ade391dcfdc613753d96e231ccc8e5c3d35d6",
       "content_bytes": 24707,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -1344,7 +1344,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/ingredients/canned-tuna",
-      "content_sha256": "6addda9520051c059cf59d80c98cb90026fee0e59b6d52c012b779b761c117b3",
+      "content_sha256": "a2deb822da2f12c02f1d6e71d77e72b29649551e3ab09014d85898b476bac336",
       "content_bytes": 27935,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -1918,8 +1918,8 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/ingredients/cheddar-cheese",
-      "content_sha256": "301edc33c480efe551f6422afb291ae4cb171fccc460e68e1705d8f4a3ce3d59",
-      "content_bytes": 30828,
+      "content_sha256": "272c4eb0fcc301a6554c78936bdc5fc21f582cded13aa379ec05caebdf308efa",
+      "content_bytes": 30830,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
@@ -3336,7 +3336,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/ingredients/freshwater-fish",
-      "content_sha256": "fe68921a2fa3f8166e83375513e1ce31160daa56d7159e356701b1a206f4f3b6",
+      "content_sha256": "1ab0aef3eb7ad7ba898cb1e978a2dc3b9b78b85b6027bf9e5f2eeb98ce58482b",
       "content_bytes": 51978,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -4469,7 +4469,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/ingredients/leafy-greens",
-      "content_sha256": "75d4b621a3e2fadb21733f95b476e9a2ac572cc6dcfb6e1118bb4bafdfbfa36b",
+      "content_sha256": "ffa1292159a04dd671b6f679ef919a2066f5f73c414a72e0c0f26ba24227190f",
       "content_bytes": 38149,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -4535,7 +4535,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/ingredients/leafy-vegetables",
-      "content_sha256": "5a32f8e6d41bfbdd49b2f197cdeb07a4469a5525383cf481e98de9fba5c40db4",
+      "content_sha256": "b17b7d9bf78f177a4e6af737552ad1f09ed0af78a30664dea095a3c0ecf129c1",
       "content_bytes": 49829,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -4723,7 +4723,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/ingredients/lettuce",
-      "content_sha256": "f41e3ebc3c47f7c49eb88c4ab838898bb202cfda3384c15022d03dfe42d0e764",
+      "content_sha256": "a474c48fa9283b0f8b988c38bd587aae19956cdea274bc3a25a8845f985bd2c5",
       "content_bytes": 28358,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -5499,7 +5499,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/ingredients/non-rice-grains",
-      "content_sha256": "bf37b7a824478518b8a2a66536c18f702ada263daf2855abde025632e9496e66",
+      "content_sha256": "22ea26868ed21caa0df3b6e7c42d7187f62f612e1b48a6fe453242589a6fd9e9",
       "content_bytes": 31391,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -6834,8 +6834,8 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/ingredients/rice",
-      "content_sha256": "5ac31df5cf7adf0028b6bde364d9f828f8647de6e7632dd7004d87253d6c6d7c",
-      "content_bytes": 139245,
+      "content_sha256": "53d1f854f2c2a4d9902d2f97c81875d3b828de1651386ca5f7142b20fc36ce72",
+      "content_bytes": 139251,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
@@ -7435,7 +7435,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/ingredients/seafood",
-      "content_sha256": "7b5a941f86b629b164c2725cd676336dc1a9351ddb47a58cffff23a81094b991",
+      "content_sha256": "1273097cc175933d2dca57a607cb7244bb1ddf2f1ecf1a565aed1643acb1a479",
       "content_bytes": 94438,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -7648,7 +7648,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/ingredients/seaweed",
-      "content_sha256": "52d35da6abe72556e6d69d12bed2c3a021c05735fbef35f57698e6d87feb17ae",
+      "content_sha256": "e5e36c35852185d7625779cd23f75d26fd5f9cffbfb4d5eff8ed521e62579e9b",
       "content_bytes": 52431,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -8794,7 +8794,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/ingredients/turkey",
-      "content_sha256": "7e978c692b996354ad6fcd007063804e2a374e9ffa38b21180986587714c570a",
+      "content_sha256": "9b61eb9f7dbdb25f299a33e776d6ebe74421abdf429d169270ca13fc08f08a5b",
       "content_bytes": 25239,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -8952,7 +8952,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/ingredients/vegetables",
-      "content_sha256": "a522b913005e3a1fac89f15f34c6b063fc562c9c97ad915fed1a7c8360a29765",
+      "content_sha256": "9fa3791459c31a78eb845b0ead933111937ce19c489dbf6c17c187d58d00c11d",
       "content_bytes": 74931,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -9760,7 +9760,7 @@
       "canonical_url": "https://heavymetalindex.com/metals/aluminum",
       "content_sha256": "5e7afc408fb5e3df7bcb557b8b9ffd371ecfced8f578072f6395fbdc57acc5bc",
       "content_bytes": 194499,
-      "last_commit_sha": "99322f371",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/abdullah2009-fish-sauce-malaysia-heavy-metals",
@@ -10313,7 +10313,7 @@
       "canonical_url": "https://heavymetalindex.com/metals/arsenic",
       "content_sha256": "db69b5507b16e2896425854a18e401a96b36a3cfcd8c0865bdcc53b9c156962a",
       "content_bytes": 43075,
-      "last_commit_sha": "99322f371",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/atsdr-arsenic-toxprofile-2007",
@@ -10347,9 +10347,9 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/metals/arsenic-inorganic",
-      "content_sha256": "4dbe606d46f950ed15c2014bddb207f9d76eb4eed61db99d7e6c486e7facdcf3",
-      "content_bytes": 109546,
-      "last_commit_sha": "99322f371",
+      "content_sha256": "062f0d8195a4974fa75d568171ceefbe10a6f927e374fad25bb41cfc3e21660c",
+      "content_bytes": 109137,
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/abuawad2023-folic-creatine-arsenic-methylation",
@@ -10423,7 +10423,6 @@
         "sources/dai2025-rice-arsenic-methylation-demethylation-global",
         "sources/damato2026-inorganic-arsenic-rice-based-beverages",
         "sources/davydiuk2023-arsenosugars-methylation",
-        "sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other",
         "sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants",
         "sources/diaz2012-chile-algae-arsenic",
         "sources/diogene2023-rascs-contaminants-seafood",
@@ -10628,9 +10627,9 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/metals/arsenic-total",
-      "content_sha256": "0407c8a2771ae1c6df7b6111f08535fc7ca7f70b445ac67e091135a0e104892f",
-      "content_bytes": 374256,
-      "last_commit_sha": "99322f371",
+      "content_sha256": "83640826d2243c7890b4b429c835c594cd74011fac208f06177578b827a92a78",
+      "content_bytes": 373847,
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/abatemi-usman2023-corn-cement-nigeria",
@@ -10869,7 +10868,6 @@
         "sources/david2008-heavy-metals-canned-tomato-paste-romania",
         "sources/davidov2019-cow-milk-heavy-metals",
         "sources/davydiuk2023-arsenosugars-methylation",
-        "sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other",
         "sources/de-silva2023-industrial-waste-land-application-soil",
         "sources/dearing2025-hawkes-bay-organic-nonorganic-vegetables",
         "sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone",
@@ -11573,9 +11571,9 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/metals/cadmium",
-      "content_sha256": "f54788f75263fd2661db2caeeb41b9bdc53a459dd18c997c023312f7bb22c284",
-      "content_bytes": 634533,
-      "last_commit_sha": "99322f371",
+      "content_sha256": "c95d004957b24c9f5621076c6e207eca79c3e5ae3f3cd236739a2456490e2e23",
+      "content_bytes": 634539,
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/abatemi-usman2023-corn-cement-nigeria",
@@ -12947,7 +12945,7 @@
       "canonical_url": "https://heavymetalindex.com/metals/chromium",
       "content_sha256": "39639c6e9bb8f53429d77fd644187eeb072080be34c92028a7352c6770423e38",
       "content_bytes": 302804,
-      "last_commit_sha": "99322f371",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/abatemi-usman2023-corn-cement-nigeria",
@@ -13862,7 +13860,7 @@
       "canonical_url": "https://heavymetalindex.com/metals/lead",
       "content_sha256": "3dfdecc3a1975b43076ddb071df784996e906005860d15f79fa8f752867eb32b",
       "content_bytes": 621266,
-      "last_commit_sha": "99322f371",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/ab-manan2018-oil-palm-soil-metals",
@@ -15321,7 +15319,7 @@
       "canonical_url": "https://heavymetalindex.com/metals/mercury",
       "content_sha256": "5ec3154b3262e4d118eece75c314275f3a0111768d5d4087df93735823efd7e7",
       "content_bytes": 36618,
-      "last_commit_sha": "99322f371",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/atsdr-mercury-toxprofile-2024",
@@ -15349,9 +15347,9 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/metals/mercury-methyl",
-      "content_sha256": "35b19877845215c6e041c1672dc9f30205a438f43f481662d9c7c697325dfab5",
+      "content_sha256": "79d6f2e2c86500d53b8f66766045d34e5b074acb0c24be70ca1824662049a9fd",
       "content_bytes": 99746,
-      "last_commit_sha": "99322f371",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/alsulaiti2023-qatar-fish-mehg",
@@ -15517,7 +15515,7 @@
       "canonical_url": "https://heavymetalindex.com/metals/mercury-total",
       "content_sha256": "a1c10684421a83c72c2cec9de136027fa0d5bd11d6fa8d388be3bdba79da3914",
       "content_bytes": 295201,
-      "last_commit_sha": "99322f371",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/abdullahi2024-heavy-metals-maize-nigeria-seasonal",
@@ -16260,7 +16258,7 @@
       "canonical_url": "https://heavymetalindex.com/metals/nickel",
       "content_sha256": "a071424ea565104918ac1a5eb90b51ba06f0abad4f9af59904f7aa2ff0c976eb",
       "content_bytes": 320575,
-      "last_commit_sha": "99322f371",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/ab-manan2018-oil-palm-soil-metals",
@@ -18066,8 +18064,8 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/products/baby-cereals-dry-rice-based",
-      "content_sha256": "90c8dfd3fe8866071fb00b012d8e18fb840724df465e7ea4554220e9cc7bccdd",
-      "content_bytes": 78146,
+      "content_sha256": "3fd660fa69c3964b145f82e99bcc26c9c1273a58eaaed5d27cc2f144743b4f3e",
+      "content_bytes": 78152,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
@@ -21765,7 +21763,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/products/fish-containing-baby-foods",
-      "content_sha256": "4f25a0689711ee8e8a79e650c68e6ada4b35de55902c2748111c5ff5960725e4",
+      "content_sha256": "8a5ef77fece88a7a5d71319541ece3290a583e209d489b61854d99d80d4b15a7",
       "content_bytes": 39927,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -22049,9 +22047,9 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/products/fish-marine-non-predatory",
-      "content_sha256": "3e6a101689288d5ab26d8b19d7e1c05e752f06f6ba19712a06f3a46639488aa4",
-      "content_bytes": 154924,
-      "last_commit_sha": "99322f371",
+      "content_sha256": "e423115dcd088aef28061819f9e3a9590f82737e5ff3a21db346d8fa5aa58315",
+      "content_bytes": 154934,
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/abbas2023-heavy-metals-fish-egypt-aquaculture",
@@ -22211,7 +22209,7 @@
         "sources/cot2004-mercury-fish-shellfish",
         "sources/cot2008-uk-tds-metals",
         "sources/dabeka2003-canadian-total-diet-mercury",
-        "sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other",
+        "sources/davydiuk2023-arsenosugars-methylation",
         "sources/de-anda-montanez2023-baja-red-crab-elements",
         "sources/delima2021-metals-canned-tuna-sardines-brazil",
         "sources/depaiva2017-canned-tuna-metals-sao-paulo",
@@ -22437,7 +22435,7 @@
       "canonical_url": "https://heavymetalindex.com/products/fish-marine-predatory",
       "content_sha256": "6a69d415a1b98dbf6015ac9839a038fc362eaa081c29498f516bb69516d5574f",
       "content_bytes": 172511,
-      "last_commit_sha": "99322f371",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/abbas2023-heavy-metals-fish-egypt-aquaculture",
@@ -23217,7 +23215,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/products/fresh-fish",
-      "content_sha256": "8e214f541841395ada9200c3c7df547112ed651e9574a8a548396678892b13a2",
+      "content_sha256": "44fbe7b924f05c56e5015b9ce14e6f12a831bec11b3a879db041ccef14541d0f",
       "content_bytes": 29504,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -24467,7 +24465,7 @@
       "canonical_url": "https://heavymetalindex.com/products/infant-formula-powder",
       "content_sha256": "fb7db61019b85a9fc2947d48d2dfd8d5db125b9d821264ae508a5ae057b9ef46",
       "content_bytes": 45458,
-      "last_commit_sha": "99322f371",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin",
@@ -24569,7 +24567,7 @@
       "canonical_url": "https://heavymetalindex.com/products/infant-formula-powder-non-soy",
       "content_sha256": "1cd575cc5e25405b3105329f513346cf79fd3a6d77e034e87476c9e5b5b59837",
       "content_bytes": 104326,
-      "last_commit_sha": "99322f371",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/abstract2020-content-dietary-exposure-toxic",
@@ -24732,7 +24730,7 @@
       "canonical_url": "https://heavymetalindex.com/products/infant-formula-powder-soy-based",
       "content_sha256": "10f03d6a5847fdec5a1f993ea996967ac5be05b230aa2617e05c97f88dd2d75c",
       "content_bytes": 84025,
-      "last_commit_sha": "99322f371",
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/alfaraji2023-infant-formula-baghdad-minerals",
@@ -28127,7 +28125,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/products/seafood",
-      "content_sha256": "9c4dd0a95fca428776adacd900896ec20ba6ad64cf4dd35760d7a43ef224c15e",
+      "content_sha256": "e91152514825bc08f9cd0f44ab437703d176f7a3a62c9d1ce85a46e9d6338166",
       "content_bytes": 28446,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -28168,9 +28166,9 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/products/seaweed-kelp-foods",
-      "content_sha256": "f1ff21e186bae93ad0b53a9923c927db56367a9bb44b74e7de70aff49e26852b",
-      "content_bytes": 157644,
-      "last_commit_sha": "99322f371",
+      "content_sha256": "181ddba30d0d75f22d6324ed1961a50d68784927c22546992528c04ad9c60cfe",
+      "content_bytes": 157654,
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/abbas2023-heavy-metals-fish-egypt-aquaculture",
@@ -28243,7 +28241,7 @@
         "sources/cot2004-mercury-fish-shellfish",
         "sources/cot2008-uk-tds-metals",
         "sources/dabeka2003-canadian-total-diet-mercury",
-        "sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other",
+        "sources/davydiuk2023-arsenosugars-methylation",
         "sources/de-anda-montanez2023-baja-red-crab-elements",
         "sources/delima2021-metals-canned-tuna-sardines-brazil",
         "sources/depaiva2017-canned-tuna-metals-sao-paulo",
@@ -28506,9 +28504,9 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/products/shellfish",
-      "content_sha256": "b641dc902a3777188edb0a85d33a2801c31d509ae27b5b312a25135f1ffc597d",
-      "content_bytes": 103662,
-      "last_commit_sha": "99322f371",
+      "content_sha256": "dc69bd04336aa6ae604493c487a968d57cdf02766625f77419bf538ca896b109",
+      "content_bytes": 103672,
+      "last_commit_sha": "1c0b678ac",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
         "sources/abbas2023-heavy-metals-fish-egypt-aquaculture",
@@ -28597,7 +28595,7 @@
         "sources/cot2008-uk-tds-metals",
         "sources/dabeka1995-canadian-food-composites-metals",
         "sources/dabeka2003-canadian-total-diet-mercury",
-        "sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other",
+        "sources/davydiuk2023-arsenosugars-methylation",
         "sources/de-anda-montanez2023-baja-red-crab-elements",
         "sources/delima2021-metals-canned-tuna-sardines-brazil",
         "sources/depaiva2017-canned-tuna-metals-sao-paulo",
@@ -32761,8 +32759,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/abdel-tawwab2023-cadmium-seabream-yeast",
       "content_sha256": "53722d4d499d273444ae7dc212b3967fd919b594501bc55edbb6b7056a539014",
       "content_bytes": 3949,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -33218,8 +33216,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/adhikari2024-leafy-vegetables-johannesburg",
       "content_sha256": "58693b4f560282137b001adc1e4b93cc93678a8e3756314969aee4e2c6d275a6",
       "content_bytes": 4261,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -33444,8 +33442,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/aiken2023-manganese-drinking-water-central-valley",
       "content_sha256": "a901677c710fbf7828f63337033e597964760e62d12656a9f4650e993c783561",
       "content_bytes": 4652,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -33763,8 +33761,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/aldayel2018-facial-cosmetics-saudi-arabia",
       "content_sha256": "bf3d8ee0b47a233494ac242cb3466d6ff658b84d92f1cb3d0ce012db053ac319",
       "content_bytes": 34969,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "f103819a9",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -34158,8 +34156,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/alsulaiti2023-qatar-fish-mehg",
       "content_sha256": "1ee4175421a99d0b7b9f7e93545ef0a0fd4fa8f1f59556baf6b74d8b938b7ab7",
       "content_bytes": 5636,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -38017,10 +38015,10 @@
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/bist2022-impact-of-heavy-metal-toxicity-on-the-gut",
-      "content_sha256": "a7c029f49c2d51f99dba6fe5ca5feaee9855253d9ea692a8709415e98256cb23",
-      "content_bytes": 5470,
-      "last_commit_sha": "6543561d1",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "a45129b963352def80d646fb83693d62a1d9891ffecb5a72194421b11e851cf0",
+      "content_bytes": 5594,
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -38132,10 +38130,10 @@
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/bogdanandreescu2026-toward-smart-salivary-diagnostics-a-comprehensive-review-of",
-      "content_sha256": "00672a49437c610ec9ded576ed14d18e41e29190388914adc9025082882ee9b7",
-      "content_bytes": 4964,
-      "last_commit_sha": "6543561d1",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "ce49447c34ffa2675690881dcebd92f535d1e51956eeff2983a5ec32195004af",
+      "content_bytes": 5088,
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -39208,8 +39206,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/carroquino-posada-landrigan-environmental-toxicology-children-at-risk",
       "content_sha256": "6431cc3456d5aaa785220834cde9b9c578132009db3068306185c57d267b26e8",
       "content_bytes": 3701,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "f103819a9",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -40967,15 +40965,15 @@
     {
       "slug": "sources/categories/north-america",
       "title": "North America sources",
-      "description": "Source pages reporting evidence from North America (597).",
+      "description": "Source pages reporting evidence from North America (596).",
       "page_type": "category-index",
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/categories/north-america",
-      "content_sha256": "8269beea039f8c5ec4fdb4835c38c5e337c27066cf2414d329d8adbf56a8acc6",
-      "content_bytes": 96371,
-      "last_commit_sha": "90a2f9a38",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "e1b2a57d57690f2324e9568279864c899cf09191cd854c1dd4da3335e404f496",
+      "content_bytes": 96154,
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": [
         "sources/abt2018-cadmium-lead-cocoa-chocolate-us-market",
         "sources/abt2020-perspective-cadmium-lead-cocoa-chocolate",
@@ -41194,7 +41192,6 @@
         "sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
         "sources/daisley2018-lactobacillus-lead-cadmium-sequestration",
         "sources/davidsuzuki2014-toxic-household-cleaners",
-        "sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other",
         "sources/de-anda-montanez2023-baja-red-crab-elements",
         "sources/de-silva2023-industrial-waste-land-application-soil",
         "sources/deoliveira2018-traditional-herbal-teas-metals",
@@ -43982,24 +43979,10 @@
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/davydiuk2023-arsenosugars-methylation",
-      "content_sha256": "3b59bf2b6ddce3f4ca89cbb36ac572af3be9225af5f38f52da709539e83fae7e",
-      "content_bytes": 4232,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
-      "contributing_sources": []
-    },
-    {
-      "slug": "sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other",
-      "title": "Effects of Dietary Intake of Arsenosugars and Other Organic Arsenic Species on Studies of Arsenic Methylation Efficiency in Humans",
-      "description": null,
-      "page_type": "source",
-      "audience": [],
-      "wiki_doi": null,
-      "canonical_url": "https://heavymetalindex.com/sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other",
-      "content_sha256": "c302764e67ca7441b0ee41885be6da4726e691af21d6119edec7777dbd086333",
-      "content_bytes": 6467,
-      "last_commit_sha": "6543561d1",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "dc3c685653d656109b0d736bd73e1fd15583cbfb7088fa9d896603a567acda78",
+      "content_bytes": 4218,
+      "last_commit_sha": "eb00bcbc8",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -44420,8 +44403,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/dietz2025-arctic-mercury-isotopes-greenland",
       "content_sha256": "7138261aa4f087415b741de473b25c6bfd3f5785a4f7536d6875c3aae8a25384",
       "content_bytes": 4752,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -45737,10 +45720,10 @@
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/elsharkawy2025-heavy-metal-pollution-in-coastal-environments-ecological-implications",
-      "content_sha256": "672c57335bef845dff81d55c5cfaf6b51c8190d3cff158087940f2c23dbe5e78",
-      "content_bytes": 3348,
-      "last_commit_sha": "6543561d1",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "c7b4324ba25d1c27ac6e6bce4a41b36f3f1af2490887fd3665f92bc82d242b3e",
+      "content_bytes": 3472,
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -45765,10 +45748,10 @@
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/elteren2007-a-systematic-study-on-the-extractability-of-arsenic",
-      "content_sha256": "6c3769a15f1404c4fcfd927e041ccc3ee263e5acb96c5f8f0a003b6fd9e5b7a8",
-      "content_bytes": 6343,
-      "last_commit_sha": "6543561d1",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "749fe92fcaad4ce48a303cec27bcf625fad48426aa9c7a5498af0dfd61fc5f77",
+      "content_bytes": 6467,
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -46083,8 +46066,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/erol2025-turkish-cheese-metals",
       "content_sha256": "36faae3d5f9e0a17cf5274f22634ea17c5ab191ab2f26d742693366e7082ca5b",
       "content_bytes": 7384,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -46343,10 +46326,10 @@
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/fabricant2007-arsenic-in-herbal-kelp-supplements-concentration-regulations-and",
-      "content_sha256": "6514f7d474250d34cab43378a503be0f1d274d970fd9262ec235297316a672c0",
-      "content_bytes": 4638,
-      "last_commit_sha": "6543561d1",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "3c6ed719dd0161518643def9f9df32960a82d493aa81af507d824d65c9cb9f37",
+      "content_bytes": 4762,
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -46555,8 +46538,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/farzan2021-hispanic-urinary-arsenic",
       "content_sha256": "fe2cc7499a900186c1c9e5334d15c3172878689dbe373009b8c14e1580ec2cdf",
       "content_bytes": 3619,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -47414,8 +47397,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/fuenteslopez2025-colombia-freshwater-fish-mercury",
       "content_sha256": "8207c4794a0255796942db6d62608d77d1cb3436267b50f85d9d87414717976a",
       "content_bytes": 6448,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -48953,8 +48936,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/hardisson2017-aluminium-dietary-exposure-review",
       "content_sha256": "afb492f1bce9edd5158b56bc1f0df39159c7d52a21a2d3df8dc59f1ed557f6a4",
       "content_bytes": 7952,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "f103819a9",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -49535,8 +49518,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/holbert2023-mercury-hawaiian-fish",
       "content_sha256": "8ae7f1367c2a1f94f8d4375bc862e77e237ced4fc5ae73509ced68a9113d4183",
       "content_bytes": 4282,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -51103,8 +51086,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/jayanthi2019-chennai-chicken-heavy-metals",
       "content_sha256": "6687ba610111ea3e7174b1843e2bc47cfd1c3114c1c764af7e5086d63ee024e3",
       "content_bytes": 4191,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "a889ac4ec",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -51622,8 +51605,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/kamaly2023-egypt-poultry-metals",
       "content_sha256": "5d5b6d9d05290fad0965d5a1d197b5f40e308664f4304caa6e0c164948b05be1",
       "content_bytes": 5692,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -51748,8 +51731,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/katebe2024-vegetables-lubumbashi",
       "content_sha256": "23dd8356e8dc535953448e669d945e00b3281663c5f5832da85048d029abac50",
       "content_bytes": 5176,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -53069,8 +53052,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/lepak2026-mehg-depuration-fish-consumption",
       "content_sha256": "e8b58ecab498dbb7f9fb70b2fb022b4dd7f32519ad52a006672d7c73efd7cbed",
       "content_bytes": 3675,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -53111,8 +53094,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/levkov2017-ewes-milk-trace-elements",
       "content_sha256": "7536070136d4465977638e4c413ebbdfb5533d5e2a91edba3d9c47a6275562ad",
       "content_bytes": 4043,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "a889ac4ec",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -53566,8 +53549,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/limmer2024-arsenic-cadmium-rice-irrigation",
       "content_sha256": "a63f2aa0e58a0b1cd117670c8af73daedd2825c664d11f6de60ce8f01262b1f5",
       "content_bytes": 4669,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -53710,8 +53693,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/liu2021-arsenolipids-seafood",
       "content_sha256": "de0bc3112844448e4026c074d477daac8dc9bf56b5005e4638e72579cb2470c4",
       "content_bytes": 4362,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -54207,10 +54190,10 @@
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/lyu2022-characterizing-the-exposome-of-food-contamination-and-china",
-      "content_sha256": "973e15c19fbd6da1654fdd2502f39402cc90d3ae13da426a765013351b641074",
-      "content_bytes": 4936,
-      "last_commit_sha": "6543561d1",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "9b73d9bb0e709a408e5b41b43010a67a6c713f7910654e1ccf6be1e4c5b2a44f",
+      "content_bytes": 5060,
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -54325,8 +54308,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/madani-tonekaboni2019-milk-lead-cadmium-iran",
       "content_sha256": "7c72c6964774d9335dc6b3b54c5a9dfd4cef068b6146b1e4aaec7b04290bf1fc",
       "content_bytes": 3609,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "a889ac4ec",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -55193,10 +55176,10 @@
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/mazur2018-brown-marine-macroalgae-as-natural-cation-exchangers-for",
-      "content_sha256": "240d4bc4e103bab6184df8a26cf73cc67d7cd6cdf0e2201c612902290e889e35",
-      "content_bytes": 6143,
-      "last_commit_sha": "6543561d1",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "4bec27fe9d0a94711b86975737a199eb6f430309b933611a4bce71ab4d767e41",
+      "content_bytes": 6267,
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -55227,8 +55210,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/mcsorley2020-seychelles-mehg-immunity",
       "content_sha256": "2312104b5346aaff25105e2a9c41aa2b9dd2b4cc59d3823ceb9f4b0437dd7d15",
       "content_bytes": 3692,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -56570,8 +56553,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/nasirpour2026-apple-wastewater-metals",
       "content_sha256": "2f2cf75960b691d8a6f4fe9c2b4f8dcf2bec009e97a2d80a6d0d0ed4d95f8aa7",
       "content_bytes": 3542,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -57242,10 +57225,10 @@
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic",
-      "content_sha256": "43c952da10e750d53fffae0657c9223e764655fdaaa2a98dc566caf9bd2583fa",
-      "content_bytes": 9625,
-      "last_commit_sha": "6543561d1",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "772f2d9a6cc3241910659deb1912aab385d60f46ec0ec47ee4c2e322102f1821",
+      "content_bytes": 9749,
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -57718,8 +57701,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/omosigho2025-toothpastes-heavy-metals-nigeria",
       "content_sha256": "69016d34df23e17e997036ffcc2d1114ab32f19c212062fa72c27654311a82b1",
       "content_bytes": 3738,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "a889ac4ec",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -58025,8 +58008,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/ounifi2020-cadmium-nanofiltration-membranes",
       "content_sha256": "c0ffaa2c499908399841d853be14335df72fb07ae491b70d4857e38d2fe61119",
       "content_bytes": 2846,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "a889ac4ec",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -58192,8 +58175,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation",
       "content_sha256": "75807fdec9211ff0e0e5051aa2f1c12c782102b89bb523fad2c61c66c1494583",
       "content_bytes": 3289,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": [
         "sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum"
       ]
@@ -58222,8 +58205,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/paez-osuna2024-fish-mercury-selenium-mexico",
       "content_sha256": "d8e02dda58f2e362fc2cc966a3dec98d0baf8f248d1922283075cb92bb790d94",
       "content_bytes": 3768,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -58430,10 +58413,10 @@
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/paranjape2023-heavy-metal-removal-using-plant-origin-biomass-and",
-      "content_sha256": "99d7757e04486fbaf77eb67ef3b286adfdd1f0b80330d71527ca1e056e135e8c",
-      "content_bytes": 3764,
-      "last_commit_sha": "6543561d1",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "ded1c25a2d3f5608bceb3bab822c0e3ed2c67d9ac1c2f78997f99480a0ebb0c2",
+      "content_bytes": 3888,
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -58729,10 +58712,10 @@
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/petursdottir2015-environmental-effects-on-arsenosugars-and-arsenolipids-in-ectocarpus",
-      "content_sha256": "65d45c4d806f7873c3a8d2faa352bd4860de655fbd0b556a71468ae89fc9c8ea",
-      "content_bytes": 5473,
-      "last_commit_sha": "6543561d1",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "22ea7b3e8e9d7861f35807f4531184085bd8151274ca7fbdcaa024e4a5239329",
+      "content_bytes": 5597,
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -59045,8 +59028,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/price-skaar-2025-biofilms-metal-induced-microbial-responses",
       "content_sha256": "13afc136398ef49393f792e2eafc838561a0ee9b87f6e48bf9305e24d2818f01",
       "content_bytes": 3538,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": [
         "sources/chandrangsu2017-metal-homeostasis-resistance-bacteria"
       ]
@@ -59304,8 +59287,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/rahman2021-dhaka-turmeric-heavy-metals",
       "content_sha256": "d3c3997f1168dc74bf1af6058bed6b8818ef6768548fc5420c74f6f0008424d8",
       "content_bytes": 5492,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -59418,8 +59401,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/ramos-miras2023-pte-shrimp-ecuador",
       "content_sha256": "e0ffb9d832877eee8c5beefbc766d79c83e25b4769faeaebd93d5ad4fd823f1d",
       "content_bytes": 4614,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -60134,8 +60117,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/rubio2023-metals-cereals-madeira-azores",
       "content_sha256": "fac8eb629ab64b11d134e9b5e4fbc44d8310a1f2136cfa6fb2c90a5fa39c8e7a",
       "content_bytes": 4382,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -60366,8 +60349,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/sadee2024-arsenic-speciation-marine-organisms-review",
       "content_sha256": "a302795521aac283550054c374d51d17ee4743c9297e5c14e83f07ec9abbc5e6",
       "content_bytes": 4746,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -60812,8 +60795,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/sandil2023-arsenic-bean-lettuce",
       "content_sha256": "75b68e02bea42e5857961a51c2e2b9a45f25d1eaa34598ea2e454a22bae6e642",
       "content_bytes": 3856,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -62003,8 +61986,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel",
       "content_sha256": "8b293013797002ece1ce96cb934afa8073f89901db570a2fcf32083c1240837b",
       "content_bytes": 8415,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -62407,10 +62390,10 @@
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/singh2019-tampon-use-environmental-chemicals-and-oxidative-stress-in",
-      "content_sha256": "325879783d58a55f6b13d55b41f7af5699d13e47e8655b7ff362d58be1bfe260",
-      "content_bytes": 4866,
-      "last_commit_sha": "6543561d1",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "2153570d4dec5b7a466e299f6d7a644f52e349cf5ce2eb28fcf13deadaf0f44a",
+      "content_bytes": 4990,
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -62767,8 +62750,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/soto-ocana2024-metal-availability-early-life-microbiome",
       "content_sha256": "03511644d02cf0c76ddc951396ef5bf1f8d278cb5a07e79904adaaf5c5a98d2f",
       "content_bytes": 4923,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": [
         "sources/chandrangsu2017-metal-homeostasis-resistance-bacteria",
         "sources/yang2023-nickel-gut-microbiome-uric-acid"
@@ -62883,10 +62866,10 @@
       "audience": [],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/sources/spayd2012-importance-of-arsenic-speciation-in-populations-exposed-to",
-      "content_sha256": "655347ae4001ef3b04a122e97bb1a1a3934bf66690a3f1d2539014db9c05db41",
-      "content_bytes": 5647,
-      "last_commit_sha": "6543561d1",
-      "last_commit_date": "2026-07-30",
+      "content_sha256": "e7fc8724033916fe2ee44cbbe4f291ff80c3a04daa09fa60ec671b9f89bab3ad",
+      "content_bytes": 5771,
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -63388,8 +63371,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/suomi2023-finland-dietary-metals-cumulative",
       "content_sha256": "c97936957b6299c4ca8ebf268983fa6253a9a8360c82896252f9ad82b0fd40a3",
       "content_bytes": 7296,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -64792,8 +64775,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/vainio2022-baltic-mercury-food-web",
       "content_sha256": "55299ba05657c269ee52f666afb2edac58b4eb7c288f48e2cca615fc0fed1398",
       "content_bytes": 6037,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -64834,8 +64817,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/valencia2021-canacao-bay-oyster-pb-cd",
       "content_sha256": "d56ed0198501efe1da68a087cc22c5ad221bb8f9a187b9bc8e9da28285cd9262",
       "content_bytes": 21042,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "f103819a9",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -64955,8 +64938,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/veien1993-low-nickel-diet-open-prospective-trial",
       "content_sha256": "75dd493b5d70bf566bcea1dc2a3d941028ae918fd91c382c67d2a43e53d89165",
       "content_bytes": 3602,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": [
         "sources/kaaber1978-low-nickel-diet-chronic-nickel-dermatitis"
       ]
@@ -65272,8 +65255,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/walenta2024-arsenic-speciation-mushrooms",
       "content_sha256": "e6175075c24e8fb650885b09dd034d6861e09f93744af8a00a2ef19e4a0672f8",
       "content_bytes": 4528,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -65580,8 +65563,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/wang2025-sers-nanogap-hg-pb-cd",
       "content_sha256": "671536651ae37cf488ff9fd6de21254743e2d712b31e999ebc05ef7ca637df15",
       "content_bytes": 2873,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -65819,8 +65802,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/wickliffe2021-suriname-mercury-pregnancy",
       "content_sha256": "ecec180ab49e92a9aa5143479a39c5d1d5ec184ec33429613270ea42402f0525",
       "content_bytes": 3908,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -65861,8 +65844,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/willacker2023-mercury-fish-snake-river",
       "content_sha256": "061468e57532093800464e426e077a24de62cf3306bdf23d94545c321eec56e2",
       "content_bytes": 4746,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "bbadfa60b",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -66020,8 +66003,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
       "content_sha256": "fc95ab31775a6f05c2851d5f14f77dd62f665e860aa5c04781a57a9cbe819d60",
       "content_bytes": 27376,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "f103819a9",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -66034,8 +66017,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
       "content_sha256": "fa1a49b62cb99bb4b085f4888a9d397e944a91182502a72a745d34dfbad683af",
       "content_bytes": 24195,
-      "last_commit_sha": "90a2f9a38",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -66048,8 +66031,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/wu2025-climate-meghan-freshwater-fish-china",
       "content_sha256": "cfd6ecf0067202e51d0a5df3c8dc65d9045ef55757d9db9006ec43aeb89faf7c",
       "content_bytes": 4775,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -66653,8 +66636,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/yoshinaga2025-japanese-duplicate-diet-metals",
       "content_sha256": "84d73dc89068131459755354324e2328a2806fe061a3403958ac04862df1ac44",
       "content_bytes": 17077,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -67326,8 +67309,8 @@
       "canonical_url": "https://heavymetalindex.com/sources/zhao2024-toxic-metals-metalloids-food-review",
       "content_sha256": "d3cdf583906031b0a6211cd020086b9168641857d47a850ca29545032a055248",
       "content_bytes": 7475,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "c33864091",
+      "last_commit_date": "2026-07-31",
       "contributing_sources": []
     },
     {
@@ -67768,7 +67751,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/synthesis/aquaculture-vs-wild-contamination-differential",
-      "content_sha256": "95388d8ab145961b20b1961db38df0b61e5fce6e6eee70efefdec649e3af695a",
+      "content_sha256": "f1b4a1dc4c705b255d1d132955b80c16dce97766e4c12caec74afd25d9ae402a",
       "content_bytes": 15810,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -67864,8 +67847,8 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/synthesis/climate-metals-tradeoffs",
-      "content_sha256": "110e64c59f06275829c4b8bea34f9eb190d1342a4828d42bcb0a57937c0e6990",
-      "content_bytes": 18181,
+      "content_sha256": "79ad1e0064620ce443a1b2f6d468c30595bbbd99fa4721fcb711758e8b855290",
+      "content_bytes": 18187,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
       "contributing_sources": [
@@ -67886,7 +67869,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/synthesis/combined-exposure-underprotection",
-      "content_sha256": "7f190e3acdc6e6dff3da406fbbe7c5ed9c31a2c5144a2c789b8cd961458cc01f",
+      "content_sha256": "9a077fc2fc6b0cf2b250972012450134722c5eab53df9ea178954cf3bfae9043",
       "content_bytes": 17962,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -68041,7 +68024,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/synthesis/mining-impacted-freshwater-fish",
-      "content_sha256": "6b313f6bf09afbeb328483892afaa5e398499283e1c589dd98263d8b863e9aea",
+      "content_sha256": "9845df51a9a7a86adf8e47d36bad62931b38b072bbd42784778e2d398f2bf4db",
       "content_bytes": 25701,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -68071,7 +68054,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/synthesis/organ-meat-cadmium-lead-accumulation",
-      "content_sha256": "60c058f5ca0921dfdd0ab53a03283ca7ed2a649c2ec759a7a7585257a4a46a83",
+      "content_sha256": "8b7f668df8ce86ef04bb7bac7a888a5015e067991bb77a80c8b47f4f4af85f36",
       "content_bytes": 27497,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -68124,7 +68107,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/synthesis/organoarsenical-inertness-assumption",
-      "content_sha256": "8ee104220d86233fe23430681b1cd63d9563124d77583369b82ce225d01b5167",
+      "content_sha256": "2835ebb8ea44e777a8aa281867caa3ea788185a0c184f5ca3ae59c5119e11ad6",
       "content_bytes": 27959,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -68153,7 +68136,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/synthesis/se-hg-molar-ratio-certification-debate",
-      "content_sha256": "fa4f899bd0e0138f2d14b39e39bdd01111cb7f7369a0df04a34cd7c3e3de6f5b",
+      "content_sha256": "70244229b80f5e3b085ba146fb4a932ce5fbd0740ebbf7396ff35a78a9a7b02d",
       "content_bytes": 16946,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -68227,7 +68210,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/synthesis/subsistence-fishing-mehg-disparity",
-      "content_sha256": "633fe57b21aecd4733c466edcd40c105ed2b45d95cd3b5be36576e16d6eea831",
+      "content_sha256": "1f6b1079bf3a5c96133e4c23560bdcc054981e0437b60846c261c8d951a36ed4",
       "content_bytes": 19778,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",
@@ -68331,7 +68314,7 @@
       ],
       "wiki_doi": null,
       "canonical_url": "https://heavymetalindex.com/synthesis/us-chocolate-lead-temporal-decline",
-      "content_sha256": "aa48c29946786efa13ab39c839ada118e6afd7d2c9f82d1db9793da32d03f6c1",
+      "content_sha256": "bddbf7b5e47fd0d6088c1fd4791a4e71eed5874c8a1a77cce9ccc80639d12964",
       "content_bytes": 16552,
       "last_commit_sha": "99322f371",
       "last_commit_date": "2026-07-30",

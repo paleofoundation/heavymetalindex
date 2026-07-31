@@ -1,10 +1,10 @@
 {
   "generated_note": "Source pages sharing a DOI. Canonical suggested by inbound refs, key quality, frontmatter richness. Verify same-paper (title/authors) before deleting; a confabulated page can carry a wrong DOI and will NOT cluster here.",
-  "source_pages_with_doi": 1874,
-  "distinct_dois": 1823,
-  "duplicate_clusters": 45,
-  "collapsible_pages": 51,
-  "high_confidence_clusters": 41,
+  "source_pages_with_doi": 1876,
+  "distinct_dois": 1824,
+  "duplicate_clusters": 46,
+  "collapsible_pages": 52,
+  "high_confidence_clusters": 42,
   "review_clusters": 4,
   "clusters": [
     {
@@ -1040,6 +1040,30 @@
       ]
     },
     {
+      "doi": "10.46602/jcsn.v50i1.1036",
+      "confidence": "high",
+      "canonical": "omosigho2025-nigeria-toothpaste-metals",
+      "drop": [
+        "omosigho2025-toothpastes-heavy-metals-nigeria"
+      ],
+      "members": [
+        {
+          "cite_key": "omosigho2025-nigeria-toothpaste-metals",
+          "refs": 33,
+          "fields": 22,
+          "title": "Quality Assessment of Some Selected Toothpastes Used in Nigeria",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "omosigho2025-toothpastes-heavy-metals-nigeria",
+          "refs": 25,
+          "fields": 22,
+          "title": "Quality assessment of some selected toothpastes used in Nigeria",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
       "doi": "10.53424/balikesirsbd.1160866",
       "confidence": "high",
       "canonical": "mercan-yucel2022-van-spices-heavy-metals",
@@ -1112,7 +1136,7 @@
       ]
     },
     {
-      "doi": "10.62051/ijnres.v2n1.21",
+      "doi": "10.62051/10.62051/ijnres.v2n1.21",
       "confidence": "high",
       "canonical": "wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
       "drop": [
@@ -1121,14 +1145,14 @@
       "members": [
         {
           "cite_key": "wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
-          "refs": 203,
+          "refs": 202,
           "fields": 27,
           "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
           "garbage_key": false
         },
         {
           "cite_key": "wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
-          "refs": 163,
+          "refs": 162,
           "fields": 27,
           "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
           "garbage_key": false
