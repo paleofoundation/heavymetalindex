@@ -747,3 +747,62 @@ Commits: none — no page, generator or test touched
    fingerprint of this pass, and would have caught it in June.
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+## C0c — third integrity signature: n_studies inflation — 2026-07-31T12:20:00+03:00
+
+Result: DONE — lint extended, backlog registry committed, zero cells corrected
+
+Commits:
+- `3b2c7383d` feat(lint): C0c — third integrity signature for n_studies inflation, warn-only with a drainable backlog
+
+### Findings
+
+1. **The signature needs history; the lint cannot have it.** "n_studies changed while the pooled values
+   did not" is a statement about a *transition*, and a prebuild step reading `git log` is broken on
+   Vercel — the builder shallow-clones and sees ~1 commit per file, so a history-reading generator
+   silently emits wrong output on every deploy. So the design splits: history is read **once, by hand**
+   by `tools/evidence/build-n-studies-inflation-backlog.mjs` (deliberately **not** in prebuild) and
+   committed as a registry; the lint works purely from that registry plus the current tree.
+
+2. **The registry is what makes the backlog drain itself.** Each row stores the cell's
+   `typical_ppb`/`p95_ppb` **as the pass left them**, not just the count. The lint flags a cell only
+   while those still match. Re-pool it and the row drains automatically — no hand-maintained list to fall
+   out of sync, which is the same drift trap standing rule 4 exists for.
+   **Editing `n_studies` alone does not drain a row**, by design: that is precisely the move that created
+   the backlog. Both directions verified — changing only `n_studies` on `wheat × Cd` kept it flagged;
+   changing `p95_ppb` drained it. Page restored after each probe.
+
+3. **Non-blocking independent of `--warn-only`.** Signatures 1 and 2 are at zero and must keep blocking;
+   signature 3 opens with 311 violations and would break every build. It reports and returns 0. When the
+   register drains the lint prints `BACKLOG DRAINED … flip this signature to blocking` — the same
+   warn-then-blocking path the firewall lint took, with the flip condition stated in its own output
+   rather than left to memory.
+
+4. **Current state: 311 of 372 cells un-re-pooled across 75 pages.** 183 are `0 → n`; **58 carry
+   `confidence: high`** — matching C0b's 58 exactly.
+
+5. **311 here vs C0b's 322, and the lint's number is the better one.** C0b asked "is `n_studies` still
+   what the pass wrote"; the lint asks "have the pooled values been re-pooled since". Eleven cells have
+   an unchanged count but changed pooled values — they *were* re-synthesized, the count merely landed on
+   the same number. Those are genuinely drained and the lint correctly excludes them. Tracking re-pooling
+   rather than the count is the right definition, and it is why the two figures differ.
+
+6. **Registry totals differ from C0b's live totals for the same reason.** The register holds all **372**
+   inflated cells (185 `0 → n`, 72 high-confidence) because it records what the pass wrote; C0b's
+   182/58 counted only the still-live subset. Not a discrepancy — different populations, both stated.
+
+7. **Scope limit, recorded in the register itself.** The lint scans `wiki/ingredients/` only. Any
+   affected page outside that directory is registered but will not be reported until the scan widens;
+   the generator prints the count and the register lists them.
+
+### Open questions for Karen
+
+1. **Widen the lint's scan beyond `wiki/ingredients/`?** The 2026-05-17 pass also touched
+   `wiki/products/` (39 files) and `wiki/metals/` (8). The register captures them, but the lint's
+   directory scope predates C0c and I did not change it — widening it is a behaviour change to the two
+   blocking signatures as well, which deserves its own decision.
+2. **Queue is now C1.** C0c is landed and the backlog is tracked, so the 311 cells can no longer be
+   quietly forgotten. Per the signed-off queue order: C1 next (bounded, finishable), then the `0 → n`
+   tranche of the re-pooling.
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes
