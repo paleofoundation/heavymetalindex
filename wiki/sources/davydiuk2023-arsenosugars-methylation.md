@@ -5,16 +5,16 @@ cite_key: davydiuk2023-arsenosugars-methylation
 title: "Effects of Dietary Intake of Arsenosugars and Other Organic Arsenic Species on Studies of Arsenic Methylation Efficiency in Humans"
 authors: [Davydiuk T, Tao J, Lu X, Le XC]
 year: 2023
-publication: "Environmental Health"
-doi: 10.1021/envhealth.3c00080
-access_url: "https://doi.org/10.1021/envhealth.3c00080"
+publication: "Environment & Health"
+doi: 10.1021/envhealth.3c00090
+access_url: "https://doi.org/10.1021/envhealth.3c00090"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND"
 raw_path: raw/markdown/FM_10594586/FM_10594586.md
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/seafood]]", "[[ingredients/seaweed]]"]
-products: []
+products: ["[[products/fish-marine-non-predatory]]", "[[products/shellfish]]", "[[products/seaweed-kelp-foods]]"]
 matrices: [urine, dietary-intake]
 jurisdictions: [global]
 near_duplicates: []
@@ -41,7 +41,7 @@ Davydiuk and colleagues critically evaluate a widely used assumption in arsenic 
 
 ## Methods (brief)
 
-Critical review paper. No new primary data. Authors reviewed published studies on arsenic methylation efficiency using MEDLINE/PubMed, focusing on studies that used %DMA, %MMA, or ratio-based methylation indexes as outcomes. Evaluated confounding by dietary arsenosugars and arsenolipids. Published in ACS Environmental Health (Royal Society of Chemistry-adjacent; ACS journal launched 2022).
+Critical review paper. No new primary data. Authors reviewed published studies on arsenic methylation efficiency using MEDLINE/PubMed, focusing on studies that used %DMA, %MMA, or ratio-based methylation indexes as outcomes. Evaluated confounding by dietary arsenosugars and arsenolipids. Published in Environment & Health, an American Chemical Society journal launched in 2023.
 
 ## Implications
 
