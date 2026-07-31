@@ -4,7 +4,7 @@
 
 **Document status:** v1.0 specification, synthesized from five design slices (account-identity, program/cert/version, pricing-engine, application-lifecycle, firewall-SEO-safety) and reconciled against two rounds of adversarial red-team findings (F-series, A/B/C/D-series, P/S-series).
 
-**Owner:** The Institute for Contaminant Standards (ICS), parent at `contaminantstandards.com`.
+**Owner:** The Institute of Contaminant Standards (ICS), parent at `contaminantstandards.com`.
 
 **Scope:** the single authenticated backend where every brand's certification applications, priced relationships, and certification records live, across all per-contaminant verticals and all years. This is commercial infrastructure; defensibility (Daubert/audit reconstructability) and the public-site SEO/data-class firewall are co-equal first-order constraints, not afterthoughts.
 

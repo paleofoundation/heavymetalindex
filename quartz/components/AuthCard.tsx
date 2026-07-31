@@ -3,7 +3,7 @@ import { FullSlug, SimpleSlug, resolveRelative } from "../util/path"
 
 // Static auth screens (login / signup) for Heavy Metal Index — DESIGN ONLY.
 // The forms are non-functional placeholders: real authentication lives in the
-// separate Institute for Contaminant Standards application, not this static
+// separate Institute of Contaminant Standards application, not this static
 // wiki. Structure is adapted from microbiomemedicine.com's captured auth pages
 // (2026-07-01), restyled in HMI burgundy, enlarged, with a Google sign-in
 // (Examine-style — NOT present on mm) and HMI's own role taxonomy.
@@ -60,7 +60,7 @@ export default (() => {
       <p class="hmi-auth-notice" role="status">
         <strong>Preview.</strong> Member accounts are not live yet, so the fields below are
         disabled and nothing is submitted or stored. For access today,{" "}
-        <a href={contactHref}>contact the Institute for Contaminant Standards</a>.
+        <a href={contactHref}>contact the Institute of Contaminant Standards</a>.
       </p>
     )
 

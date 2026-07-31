@@ -16,7 +16,9 @@ updated: 2026-06-23
 
 # California Office of Environmental Health Hazard Assessment (OEHHA)
 
-*United States — California · Binding — Proposition 65 warning law (listings + MADL/NSRL) · Established 1991 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute for Contaminant Standards · [oehha.ca.gov](https://oehha.ca.gov)*
+<!-- BEGIN: hmi-regulator-masthead -->
+*United States — California · Binding — Proposition 65 warning law (listings + MADL/NSRL) · Established 1991 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute of Contaminant Standards · [oehha.ca.gov](https://oehha.ca.gov)*
+<!-- END: hmi-regulator-masthead -->
 
 ## Quick read
 

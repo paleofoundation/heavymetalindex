@@ -97,12 +97,12 @@ function CitationMetadata({
         <meta name="citation_author" content="Pendergrass, Karen" />
         <meta
           name="citation_author_institution"
-          content="Heavy Metal Index, Paleo Foundation"
+          content="Heavy Metal Index, Institute of Contaminant Standards"
         />
-        <meta name="citation_publisher" content="Paleo Foundation" />
+        <meta name="citation_publisher" content="Institute of Contaminant Standards" />
         <meta
           name="citation_technical_report_institution"
-          content="Heavy Metal Index, Paleo Foundation"
+          content="Heavy Metal Index, Institute of Contaminant Standards"
         />
         {pubDate && (
           <meta name="citation_publication_date" content={pubDate.replace(/-/g, "/")} />

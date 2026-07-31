@@ -16,7 +16,9 @@ updated: 2026-06-23
 
 # United States Centers for Disease Control and Prevention (CDC)
 
-*United States (federal) · Reference — blood-lead biomonitoring value, not a food limit · Established 1946 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute for Contaminant Standards · [www.cdc.gov](https://www.cdc.gov)*
+<!-- BEGIN: hmi-regulator-masthead -->
+*United States (federal) · Reference — blood-lead biomonitoring value, not a food limit · Established 1946 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute of Contaminant Standards · [www.cdc.gov](https://www.cdc.gov)*
+<!-- END: hmi-regulator-masthead -->
 
 ## Quick read
 

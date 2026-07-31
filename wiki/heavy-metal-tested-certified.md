@@ -6,7 +6,7 @@ audience: [regulator, educator, consumer, researcher]
 updated: 2026-06-09
 ---
 
-Heavy Metal Tested & Certified (HMT&C, also written HMTc) is a voluntary consumer-product certification program operated by the Paleo Foundation, the non-profit standards organization that also operates this reference, the Heavy Metal Index. The program tests consumer products against per-analyte thresholds for lead, cadmium, arsenic, mercury, and related elements, and is published at its own property, [heavymetaltested.com](https://heavymetaltested.com). This page explains what the program is and how it relates to the Index. It is maintained on the Index under the editorial firewall described at [[editorial-standards]], and it is a reference page, not a certification-claims or marketing page.
+Heavy Metal Tested & Certified (HMT&C, also written HMTc) is a voluntary consumer-product certification program operated by the Paleo Foundation, the non-profit standards organization. This reference, the Heavy Metal Index, is operated by the Institute of Contaminant Standards; the Paleo Foundation and the Institute of Contaminant Standards are both trade names of Paleo Certified, Inc. The program tests consumer products against per-analyte thresholds for lead, cadmium, arsenic, mercury, and related elements, and is published at its own property, [heavymetaltested.com](https://heavymetaltested.com). This page explains what the program is and how it relates to the Index. It is maintained on the Index under the editorial firewall described at [[editorial-standards]], and it is a reference page, not a certification-claims or marketing page.
 
 ## What the program is
 
@@ -35,7 +35,7 @@ The program organizes consumer products into a testing-category taxonomy. Each c
 
 ## How the Index relates to the program
 
-The Heavy Metal Index and Heavy Metal Tested & Certified are operated by the same non-profit, the Paleo Foundation, and are kept architecturally separate by design. The Index reports what the peer-reviewed and regulatory literature supports. The program applies evidence to set certification thresholds. The relationship runs in one direction: program documentation may cite Index pages as the literature baseline for a threshold's rationale, and the Index does not endorse, rank, or mention certified brands, does not publish certification thresholds, and does not present certification status as evidence that a product is safe.
+The Heavy Metal Index and Heavy Metal Tested & Certified are operated by the same entity, Paleo Certified, Inc. — the Index as the Institute of Contaminant Standards, the program as the Paleo Foundation, the non-profit standards organization — and are kept architecturally separate by design. The Index reports what the peer-reviewed and regulatory literature supports. The program applies evidence to set certification thresholds. The relationship runs in one direction: program documentation may cite Index pages as the literature baseline for a threshold's rationale, and the Index does not endorse, rank, or mention certified brands, does not publish certification thresholds, and does not present certification status as evidence that a product is safe.
 
 This separation is deliberate, and it is the reason the Index can remain a usable reference when a certification threshold is questioned. An independent record of what the literature says is more useful to a regulator, a brand's quality team, or a court than a record produced to justify the threshold under examination. The full firewall, including the evidence-state separation that keeps program thresholds out of public Index claims, is documented at [[editorial-standards]].
 
@@ -54,5 +54,5 @@ The Heavy Metal Tested & Certified program is at [heavymetaltested.com](https://
 - [[editorial-standards]] for the wiki and HMT&C editorial firewall in full.
 - [[methodology]] for how the Index selects, grades, and synthesizes evidence.
 - [[certification/index|Certification]] for how certification-program references are treated across the Index.
-- [[about]] for the Index and the Paleo Foundation.
+- [[about]] for the Index and its operator.
 - [[licensing]] for what may be done with Index content, and how the program's marks and threshold derivations are governed separately.
