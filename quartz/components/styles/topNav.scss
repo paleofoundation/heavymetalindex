@@ -114,7 +114,7 @@
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
-  color: var(--ink, #1f2329);
+  color: var(--ink, #2b1f24);
   background-color: transparent;
   padding: 0.2rem 0;
   white-space: nowrap;
@@ -139,7 +139,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: var(--ink, #1f2329);
+  color: var(--ink, #2b1f24);
   width: 2rem;
   height: 2rem;
   border-radius: 999px;
@@ -419,7 +419,7 @@ body:has(.hmi-topnav-shell) {
 
 .hmi-nav-top {
   font-family: Inter, sans-serif; font-size: 15px; font-weight: 500;
-  color: var(--ink, #1f2329); background-color: transparent; white-space: nowrap;
+  color: var(--ink, #2b1f24); background-color: transparent; white-space: nowrap;
   transition: color 0.2s ease;
   &:hover { color: var(--burg, var(--secondary)); text-decoration: none; }
   &.active { color: var(--burg, var(--secondary)); }
@@ -427,7 +427,7 @@ body:has(.hmi-topnav-shell) {
 
 .hmi-nav-toggle {
   display: inline-flex; align-items: center; justify-content: center;
-  background: none; border: 0; padding: 3px; margin: 0; color: var(--faint, #9aa0a8);
+  background: none; border: 0; padding: 3px; margin: 0; color: var(--faint, #a9a1a2);
   cursor: pointer; border-radius: 4px; transition: color 0.15s ease;
   &:hover { color: var(--burg, var(--secondary)); }
   &:focus-visible { outline: 2px solid var(--burg, var(--secondary)); outline-offset: 2px; }
@@ -450,21 +450,21 @@ body:has(.hmi-topnav-shell) {
 }
 
 .hmi-nav-panel-inner { padding: 1.6rem 40px 1.9rem; }
-.hmi-nav-blurb { margin: 0 0 1.1rem; font-size: 0.92rem; color: var(--muted, #6b7280); max-width: 46rem; }
+.hmi-nav-blurb { margin: 0 0 1.1rem; font-size: 0.92rem; color: var(--muted, #736b6e); max-width: 46rem; }
 .hmi-nav-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem 3rem; max-width: 44rem; }
 .hmi-nav-col ul { list-style: none; margin: 0; padding: 0; }
 .hmi-nav-col li { margin: 0; }
 .hmi-nav-colhead {
   font-family: Lora, serif; font-size: 1rem; font-weight: 600;
-  color: var(--ink, #1f2329); margin: 0 0 0.5rem;
+  color: var(--ink, #2b1f24); margin: 0 0 0.5rem;
 }
 .hmi-nav-col a {
   display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
-  padding: 0.34rem 0; font-size: 0.93rem; color: var(--body, #373c44); background-color: transparent;
+  padding: 0.34rem 0; font-size: 0.93rem; color: var(--body, #3f3a3f); background-color: transparent;
   &:hover { color: var(--burg, var(--secondary)); text-decoration: none;
     .hmi-nav-childlabel { text-decoration: underline; } }
 }
-.hmi-nav-count { font-size: 0.79rem; color: var(--faint, #9aa0a8); font-variant-numeric: tabular-nums; flex: 0 0 auto; }
+.hmi-nav-count { font-size: 0.79rem; color: var(--faint, #a9a1a2); font-variant-numeric: tabular-nums; flex: 0 0 auto; }
 .hmi-nav-all {
   display: inline-block; margin-top: 1.2rem; font-size: 0.9rem; font-weight: 600;
   color: var(--burg, var(--secondary)); background-color: transparent;
@@ -486,4 +486,64 @@ body:has(.hmi-topnav-shell) {
   .hmi-nav-panel-inner { padding: 0.2rem 0 0.9rem 0.75rem; }
   .hmi-nav-blurb { display: none; }
   .hmi-nav-cols { grid-template-columns: 1fr; gap: 1rem; }
+}
+
+// ---- Index Pro handoff --------------------------------------------------
+// Values read from "Heavy Metal Index v3.dc.html" line 63: 12.5px Inter, white
+// on #8b2a4a, 3px radius, 8px/15px padding, pressed #6f2139. It is the only
+// filled button in the v3 header — "Ask the Index" there is a plain text link,
+// not the 999px pill this build ships (see docs/findings.md F-12).
+.hmi-topnav-pro {
+  flex: 0 0 auto;
+  margin-left: auto;
+  font-family: Inter, sans-serif;
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  background: var(--burg, #8b2a4a);
+  border-radius: 3px;
+  padding: 8px 15px;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--burg-dark, #6f2139);
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+// The wide bar already right-aligns via .hmi-topnav-menu's flex: 1 1 auto, so
+// the auto margin is only needed once the menu collapses out of the flow.
+@media all and ($desktop) {
+  .hmi-topnav-pro {
+    margin-left: 0;
+  }
+}
+
+// Below $desktop the flow row is brand + burger + Index Pro (the menu is
+// absolutely positioned, so it is out of flow). At 390px the 30px gaps and the
+// full-width 22px Lora wordmark pushed the button onto a second row. v3 keeps
+// the bar one row high at every width, so the wordmark yields instead.
+@media all and not ($desktop) {
+  .hmi-topnav-inner {
+    gap: 12px;
+  }
+
+  .hmi-topnav-brand {
+    min-width: 0;
+  }
+
+  .hmi-topnav-wordmark {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .hmi-topnav-pro {
+    margin-left: auto;
+    padding: 7px 13px;
+  }
 }
