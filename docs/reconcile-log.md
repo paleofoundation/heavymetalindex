@@ -922,3 +922,71 @@ Commits:
 3. **C1 is not closed**, so the deploy gate stated in the queue order is not met.
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+## C1 remaining — items 1–4 — 2026-07-31T17:05:00+03:00
+
+Result: PARTIAL — item 1 BLOCKED on a reversed premise, items 2 and 3 done (diagnosis), item 4 not started.
+No page deleted, no DOI written this step.
+
+Commits: none — the only change this step would have made is a deletion the evidence argues against.
+
+### Findings
+
+1. **Item 1 — the merge direction in the plan is backwards, and deleting either page now would be wrong.**
+   The instruction was: the page holding the real `…3c00090` is canonical, port the better author metadata
+   into it, remove the other, checking inbound links first. The link check reverses it:
+
+   | page | DOI | inbound `wiki/` refs | `data/` refs |
+   |---|---|---|---|
+   | `davydiuk2023-arsenosugars-methylation` | **fabricated** `…3c00080` | **9** | **177** |
+   | `davydiuk2023-effects-of-dietary-intake-…` | real `…3c00090` | 6 | 3 |
+
+   The **fabricated-DOI page is the integrated one** — 186 references against 9. Deleting it, as written,
+   means rewiring 186 references including `wiki/metals/arsenic-inorganic.md` and the routing audit.
+   Deleting the *other* one costs 9. "The DOI is the identity" settles which **record** is right; it does
+   not settle which **file** should survive. Both describe one paper, and whichever survives must carry
+   `…3c00090` either way.
+   **Recommendation: keep `…-arsenosugars-methylation`, correct its DOI to the verified `…3c00090`, remove
+   the low-reference sibling and rewire its 9 refs.** Same end state, a twentieth of the breakage. Not
+   executed — it inverts a signed-off instruction on evidence that instruction did not have.
+
+2. **Item 2 — the duplicate hypothesis does NOT generalise. It explains 2 of 38, not more.** Every
+   remaining unresolved page was matched by normalised title against all 2,221 source pages at ≥0.92
+   similarity. Exactly two have a same-title sibling carrying a resolving DOI: davydiuk (above) and
+   `wu2024-heavy-metals-cereals-vegetables-legumes` ↔ `wu2024-jiaozuo-china-cereals-vegetables-…`.
+   So 36 of the 38 are not duplicates, and the davydiuk pattern is a coincidence of two, not a mechanism.
+   **That is the answer the step asked for, and it is the less convenient one** — the remaining work is
+   genuine per-page retrieval, not a dedup sweep.
+
+3. **A check on my own C1 work, prompted by item 2, and it stands.** The wu2024 sibling carries
+   `10.62051/10.62051/ijnres.v2n1.21` — a doubled registrant prefix that I wrote in the 23. It looks
+   malformed, so I re-verified: **that DOI resolves at Crossref and the clean form `10.62051/ijnres.v2n1.21`
+   returns 404.** The publisher registered the doubled prefix. The correction is right; the malformation is
+   upstream, not ours. Worth recording so nobody "fixes" it later.
+
+4. **Item 3 — the diacritic mismatch is systematic and larger than the four near-misses.** Cite-keys
+   transliterate (`ocaña` → `ocana`) while Crossref preserves the original, so any surname-based comparison
+   fails on those authors. **208 of 2,221 source pages (9%) carry non-ASCII characters in `authors`** —
+   Aguilar-Miranda/Fernández, Arévalo-Gardini, Köhler, Auzier Guimarães among them. This affects every
+   future ingest that matches an author against Crossref, and it silently produces "no match" rather than
+   an error.
+   **The fix is Unicode normalisation at comparison time only** — NFD-decompose and strip combining marks
+   on both sides before comparing, never mutating either stored value. Normalising the stored cite-key
+   would break every existing link; normalising Crossref's copy would corrupt the citation. Not
+   implemented: it is a change to matching logic that belongs with the remaining C1 retrieval work, not
+   bolted on at the end of a diagnostic step.
+
+5. **Item 4 — the six `doi: null` pages were not started.** Items 1–3 consumed the step, and each of the
+   six needs an individually verified publisher `access_url`. Beginning them without finishing them would
+   leave the same half-state the queue order was designed to avoid.
+
+### Open questions for Karen
+
+1. **Item 1 merge direction** — confirm the reversal (keep the 186-reference page, correct its DOI, remove
+   the 9-reference sibling), or hold to the original direction and accept rewiring 186 references?
+2. **The 36 non-duplicates** are genuine per-page retrieval — Crossref by title found nothing confident, so
+   each needs a human or a different index (PubMed, publisher search). Worth deciding whether they get
+   `no_doi_assigned` + verified `access_url`, or stay flagged until someone can retrieve them.
+3. **The diacritic normalisation (208 pages)** — fold into the C1 retrieval work, or its own commit?
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes
