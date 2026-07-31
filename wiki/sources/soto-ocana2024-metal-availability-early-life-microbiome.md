@@ -5,12 +5,12 @@ title: "Metal availability shapes early life microbial ecology and community suc
 authors: ["Joshua Soto Ocaña", "Elliot S. Friedman", "Orlaith Keenan", "Nile U. Bayard", "Eileen Ford", "Ceylan Tanes", "Matthew J. Munneke", "William N. Beavers", "Eric P. Skaar", "Kyle Bittinger", "Babette S. Zemel", "Gary D. Wu", "Joseph P. Zackular"]
 year: 2024
 publication: "mBio 15(7):e00854-24"
-doi: "10.1128/mbio.00854-24"
+doi: "10.1128/mbio.01534-24"
 source_type: peer-reviewed
 evidence_tier: A
 license: cc-by
 raw_path: "raw/Digest/soto-ocaña-et-al-2024-metal-availability-shapes-early-life-microbial-ecology-and-community-succession.pdf"
-access_url: "https://doi.org/10.1128/mbio.00854-24"
+access_url: "https://doi.org/10.1128/mbio.01534-24"
 metals: [Zn, Mn, Fe, Cu]
 ingredients: ["[[ingredients/non-soy-infant-formula]]", "[[ingredients/breastmilk]]"]
 products: ["[[products/infant-formula-powder-non-soy]]"]

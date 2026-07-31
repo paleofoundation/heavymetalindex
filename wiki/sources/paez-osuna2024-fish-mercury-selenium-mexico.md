@@ -5,8 +5,8 @@ cite_key: paez-osuna2024-fish-mercury-selenium-mexico
 title: "Mercury and selenium in three fish species from a dam 20 months after a mine-tailing spill in the SE Gulf of California ecoregion, Mexico"
 authors: [Páez-Osuna F, Bergés-Tiznado ME, Valencia-Castañeda G, Fregoso-López MG, León-Cañedo JA, Fierro-Sañudo JF, Ramírez-Rochín J]
 year: 2024
-doi: 10.1007/s11356-023-31545-w
-access_url: "https://doi.org/10.1007/s11356-023-31545-w"
+doi: "10.1007/s11356-023-31487-4"
+access_url: "https://doi.org/10.1007/s11356-023-31487-4"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

@@ -6,8 +6,8 @@ title: "Quantifying Depuration of Methylmercury from Fish Consumption by Travele
 authors: [Lepak RF, Yin R, Janssen SE, Hoffman JC, Krabbenhoft DP]
 year: 2026
 publication: "Environmental Health"
-doi: 10.1021/envhealth.5c00288
-access_url: https://doi.org/10.1021/envhealth.5c00288
+doi: "10.1021/envhealth.5c00389"
+access_url: "https://doi.org/10.1021/envhealth.5c00389"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

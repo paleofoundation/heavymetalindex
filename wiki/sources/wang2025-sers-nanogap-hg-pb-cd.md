@@ -6,8 +6,8 @@ title: "A Concave Nanogap for Ultrasensitive Aptamer-Based SERS Detection and In
 authors: [Wang X, Zhang Y, Li J, Chen H, Liu M]
 year: 2025
 publication: "Analytical Chemistry"
-doi: 10.1021/acs.analchem.5cXXXXX
-access_url: https://doi.org/10.1021/acs.analchem.5cXXXXX
+doi: "10.1021/acs.analchem.5c04843"
+access_url: "https://doi.org/10.1021/acs.analchem.5c04843"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

@@ -6,7 +6,8 @@ title: "The changes of heavy metals and some necessary elements in leaf, fruit a
 authors: [Nasirpour M, Khoshkam M, Rezaei Z, Mirzaei M]
 year: 2026
 publication: "BMC Plant Biology"
-doi: 10.1186/s12870-026-00441-x
+doi: "10.1186/s12870-025-08080-7"
+access_url: "https://doi.org/10.1186/s12870-025-08080-7"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND 4.0"

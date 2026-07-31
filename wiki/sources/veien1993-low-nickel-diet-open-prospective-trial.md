@@ -5,12 +5,12 @@ title: "Low nickel diet: An open, prospective trial"
 authors: ["Niels K. Veien", "Thais Hattel", "Grete Laurberg"]
 year: 1993
 publication: "Journal of the American Academy of Dermatology 29(6):1002-1007"
-doi: "10.1016/S0190-9622(08)82038-4"
+doi: "10.1016/0190-9622(93)70281-w"
 source_type: peer-reviewed
 evidence_tier: A
 license: elsevier
 raw_path: "raw 2/Low nickel diet- An open, prospective trial.pdf"
-access_url: "https://doi.org/10.1016/S0190-9622(08)82038-4"
+access_url: "https://doi.org/10.1016/0190-9622(93)70281-w"
 metals: [Ni]
 ingredients: []
 products: []

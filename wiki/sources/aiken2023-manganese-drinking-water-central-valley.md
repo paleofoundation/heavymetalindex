@@ -6,8 +6,8 @@ title: "Disparities in Drinking Water Manganese Concentrations in Domestic Wells
 authors: [Aiken ML, Pace CE, Ramachandran M, Schwabe KA, Ajami H, Link BG, Ying SC]
 year: 2023
 publication: "Environmental Science & Technology"
-doi: 10.1021/acs.est.2c08385
-access_url: "https://doi.org/10.1021/acs.est.2c08385"
+doi: "10.1021/acs.est.2c08548"
+access_url: "https://doi.org/10.1021/acs.est.2c08548"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

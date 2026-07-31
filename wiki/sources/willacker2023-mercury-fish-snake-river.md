@@ -6,8 +6,8 @@ title: "Reservoir Stratification Modulates the Influence of Impoundments on Fish
 authors: [Willacker JJ, Eagles-Smith CA, Chandler JA, Naymik J, Myers R, Krabbenhoft DP]
 year: 2023
 publication: "Environmental Science & Technology"
-doi: 10.1021/acs.est.3c04670
-access_url: "https://doi.org/10.1021/acs.est.3c04670"
+doi: "10.1021/acs.est.3c04646"
+access_url: "https://doi.org/10.1021/acs.est.3c04646"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A
