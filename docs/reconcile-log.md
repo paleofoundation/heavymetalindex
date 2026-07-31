@@ -1099,3 +1099,26 @@ Commits:
 3. C1 does not close until the 19 are resolved or the schema question is decided.
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+### Addendum — the barrier fired during the final regeneration
+
+`aa2cfab7b`'s regeneration was blocked by the wiki-edit audit barrier on five pages
+(`completeness-gaps`, `regulations/by-jurisdiction`, `regulations/timeline`, `regulators/by-metal`,
+`regulators/index`). Each page's **entire** diff was one generator-written `updated:` line.
+
+0.9b's spec named this key — "a short whitelist of generator-owned frontmatter keys for lines that
+necessarily sit outside markers (`updated:` and similar)" — but the implemented set stopped at
+`sources` and `description`, because the 36 pages in that build needed only those two. Adding
+`updated` is the whitelist reaching its specified shape, not growing past it, and CLAUDE.md Part 4
+already calls the field "a convenience, not the source of truth". 0.9b's stop-and-report condition
+is **prose** changing outside a marker; no prose changed on any of the five.
+
+Verified the barrier still bites (`0ba69ee` / `f1c2efcaf`): a hand-authored sentence appended to
+`wiki/metals/arsenic-total.md` outside every marker is still rejected without a provenance row.
+Probe staged before testing (rule 13) and confirmed removed after (rule 12).
+
+**A sixth instance of the same pattern, and worth naming:** the whitelist was written to satisfy
+the pages in front of it rather than the rule it implements, so it passed for two weeks and failed
+the first time a different generator ran. That is the declaration/implementation gap in miniature —
+the difference between what a gate is specified to do and what the sample it was tuned on required.
+
