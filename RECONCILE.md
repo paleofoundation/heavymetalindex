@@ -80,6 +80,14 @@ Where a step needs a visual spec, Karen supplies it.
     "BARRIER BROKEN" and the barrier was fine.* Rule 12 is a test that writes more than you intended;
     rule 13 is a test that checks less. Both are the test misleading you about the gate rather than the
     gate misleading you about the code.
+14. **Confirm the gate is RUNNING before trusting a pass or a fail.** `core.hooksPath` points at
+    `.husky/_`, which husky's `prepare` script creates during `npm install` — so a **fresh worktree has no
+    hooks at all** until an install runs there, and git silently runs none. Every gate is absent and every
+    commit succeeds. Before any gate test in a new worktree: confirm `.husky/_` exists, and treat a commit
+    that succeeds with **no hook output whatsoever** as the tell. *Found in C1 step 3 after five probe
+    commits landed that should each have been rejected; caught only because the classifier contradicted a
+    result from seconds earlier.* Rules 12 and 13 are about the test; rule 14 is about whether the thing
+    being tested is even present.
 
 ## Reporting protocol
 
@@ -126,7 +134,7 @@ Build passes. Working tree clean. Nothing pushed. **No local code has been carri
 ## Verified facts — do not re-derive
 
 **Governing principle for this repo: neither the docs nor the manifest is an inventory of what exists.**
-Declaration and implementation drift apart in *both* directions here, and four instances are on record:
+Declaration and implementation drift apart in *both* directions here, and **seven** instances are on record:
 `wiki/roadmap.md` publishes `mint-dois.mjs` and `translate-synthesis.mjs`, which do not exist
 (declared-but-absent); `audit-page-history-leaks.mjs` runs as a blocking guard documented nowhere
 (present-but-undeclared); `package.json` declares `library:status` against a file origin does not have
@@ -135,9 +143,20 @@ Declaration and implementation drift apart in *both* directions here, and four i
 satisfied, passing only by coincidence (**declared-but-unenforced** — the most dangerous variety, because
 declared-but-absent fails loudly the moment you invoke it and present-but-undeclared merely surprises you,
 but a gate passing by coincidence actively certifies an invariant nobody has been maintaining; two
-commits went out under it). Every one was found by checking the artifact, never by reading its description —
+commits went out under it); the DOI gate's extraction stripped double quotes only, so `doi: ''` bypassed it
+entirely (**declared-but-porous**); and in a fresh worktree with no `npm install`, `.husky/_` does not
+exist, so `core.hooksPath` resolves to nothing and **every** gate is silently absent while commits appear
+to pass (**declared-and-correct-but-not-installed** — see standing rule 14; the worst variety for a
+reviewer, because the other six leave evidence while this one produces a `git log` full of commits that
+look like they met gates they never met, and nothing in the history distinguishes them). Every one was
+found by checking the artifact, never by reading its description —
 which is also the reason F9 is worth running: `quartz.layout.ts` declaring a directory hidden from nav is
 a statement about nav, not about `public/`.
+
+**Scope note on rule 14:** the reconcile branch's gates were demonstrably live. `hmi-reconcile` had
+`npm ci` run in step 0.4, `.husky/_` exists there, and hook output was observed repeatedly across
+0.7–0.9b — the DOI gate rejecting, the audit barrier blocking, the routing audit auto-staging its own
+output. Those were real passes. The absent-hooks finding is contained to the fresh `hmi-doi` worktree.
 
 - **Strategy**: `origin/main` is the base; local is re-applied selectively. Origin is what is
   deployed and the smaller delta (89 commits vs 370). Merging the other direction resurrects deleted
@@ -461,6 +480,12 @@ Record the PR URL in the log, then stop. Merging is Karen's call, and C1 may wan
 ## Firewall remediation — after the reconcile lands, own branch
 
 - **F1 — folded into 0.8.** `Disallow: /dossiers` in `robots.txt` remains as belt-and-braces.
+- **F11 — Make the hooks fail closed.** Rule 14's finding is a latent hazard for every future worktree and
+  every fresh clone: no `npm install`, no `.husky/_`, no gates, commits pass silently. Add a guard that
+  makes absence loud instead of silent — e.g. a repo-root `pre-commit` shim that exits non-zero with
+  "hooks not installed — run `npm ci`" when `.husky/_` is missing. **A gate that can be disabled by
+  forgetting an install step is not a gate.** Cheap, and it closes the variety of drift that is hardest
+  for a reviewer to detect after the fact.
 - **F10 — Nothing protects wholly-generated pages from being hand-edited.** The inverse of the 0.9b
   problem: `wiki/audits/**` and `wiki/coverage.md` are generator output, so a session can edit them in
   good faith and have the work silently overwritten by the next build. Now that they are in
