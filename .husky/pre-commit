@@ -71,9 +71,14 @@ $f"
       wiki/sources/index.md|wiki/sources/categories/*.md) continue ;;
     esac
     head -40 "$f" > /tmp/.husky-fm.$$
-    doi_line=$(grep -E '^doi:' /tmp/.husky-fm.$$ | head -1 | sed -E 's/^doi:[[:space:]]*//;s/^"//;s/"$//')
+    # Strip BOTH quote styles. Stripping only double quotes left `doi: ''` as the
+    # two-character literal '' , which never matched the ""|null|unknown case
+    # below — so a single-quoted empty DOI sailed through the gate unnoticed.
+    doi_line=$(grep -E '^doi:' /tmp/.husky-fm.$$ | head -1 | sed -E "s/^doi:[[:space:]]*//; s/^['\"]//; s/['\"]\$//")
     no_doi_assigned=$(grep -cE '^no_doi_assigned:[[:space:]]*true' /tmp/.husky-fm.$$ || true)
-    src_type=$(grep -E '^source_type:' /tmp/.husky-fm.$$ | head -1 | sed -E 's/^source_type:[[:space:]]*//;s/^"//;s/"$//')
+    # Same both-quote-styles fix: a single-quoted 'textbook-chapter' would not
+    # have matched the exemption test below.
+    src_type=$(grep -E '^source_type:' /tmp/.husky-fm.$$ | head -1 | sed -E "s/^source_type:[[:space:]]*//; s/^['\"]//; s/['\"]\$//")
     is_missing=0
     case "$doi_line" in
       ""|null|unknown) is_missing=1 ;;
