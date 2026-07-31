@@ -235,6 +235,21 @@ Packaging does not contribute heavy metals to fluid milk under standard HDPE or 
 
 Under EU Regulation (EC) No 1881/2006 as amended (see [[regulations/eu2023-contaminants-maximum-levels]]), the maximum Pb level for raw milk, heat-treated milk, and milk-based products is 0.020 mg/kg (20 ppb) wet weight. A Cd maximum of 0.020 mg/kg (20 ppb) applies to milk and milk products. The FDA does not publish a specific action level for Pb or Cd in fluid milk; the general tolerance and surveillance framework under 21 CFR applies, and reduced-fat milk is not specifically addressed in the Closer to Zero guidance documents (see [[regulations/fda-closer-to-zero]]) because dairy is not among the high-priority categories for infant and young child Pb exposure identified in the CTZ program.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+2. Starska K, Wojciechowska-Mazurek M, Mania M, Brulinska-Ostrowska E, Biernat U, and Karlowski K (2011). *Noxious Elements in Milk and Milk Products in Poland*. Polish Journal of Environmental Studies. Peer-reviewed, A-tier. [[sources/starska2011-noxious-elements-milk-products-poland|Source record]]
+3. Salahel din K, Abdalbasit Y, Abbady A, and Saad N (2025). *Assessment of toxic heavy metals in commonly consumed foods in Egypt and their implications for public health and safety*. Scientific Reports. [https://doi.org/10.1038/s41598-025-27798-w](https://doi.org/10.1038/s41598-025-27798-w). Peer-reviewed, A-tier. [[sources/salaheldin2025-multimatrix-foods-egypt|Source record]]
+4. Hasan GMM A, Kabir MH, and Miah MAS (2022). *Determination of heavy metals in raw and pasteurized liquid milk of Bangladesh to assess the potential health risks*. Food Research. [https://doi.org/10.26656/fr.2017.6(1).191](https://doi.org/10.26656/fr.2017.6(1).191). Peer-reviewed, A-tier. [[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals|Source record]]
+5. Marques M, Correig E, Capdevila E, Gargallo E, Gonzalez N, Nadal M, et al. (2021). *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-021-03021-5](https://doi.org/10.1007/s12011-021-03021-5). Peer-reviewed, A-tier. [[sources/marques2021-trace-elements-milks-plant-based-drinks|Source record]]
+6. Pankiewicz U (2012). *Monitoring of total mercury level in selected dairy products from the south-east regions of Poland*. Ecological Chemistry and Engineering A. [https://doi.org/10.2428/ecea.2012.19(01)014](https://doi.org/10.2428/ecea.2012.19(01)014). Peer-reviewed, B-tier. [[sources/pankiewicz2012-thg-dairy-products-poland|Source record]]
+7. Yildiz Kucuk N and Gokcek R (2024). *Determination of Some Minerals and Heavy metals in Raw Cow's Milk Collected from Different Regions of Muş Province*. Afyon Kocatepe University – Journal of Science and Engineering (AKU J. Sci. Eng.). [https://doi.org/10.35414/akufemubid.1391478](https://doi.org/10.35414/akufemubid.1391478). Peer-reviewed, A-tier. [[sources/yildiz-kucuk2024-minerals-heavy-metals-raw-cow-milk-mus|Source record]]
+8. Samun Shahzad, Kamran Ashraf, Nusrat Ehsan, Khawar Sultan, Asim Abbasi, Sobia Tabassum, et al. (2025). *Assessment of hazardous trace metals and associated health risk as affected by feed intake in buffalo milk*. Scientific Reports 15:9841. [https://doi.org/10.1038/s41598-025-92256-6](https://doi.org/10.1038/s41598-025-92256-6). Peer-reviewed, A-tier. [[sources/shahzad2025-buffalo-milk-trace-metals|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -246,15 +261,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 2 — 10 dairy/meat/grapefruit pages / 59 cells |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | correction | 7 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

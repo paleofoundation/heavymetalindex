@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cannabis-flower",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3f25d35450e789d21dd33dfd8f2d2e18326d46a3402ba3b8d56e3fc2cd9539b9",
-      "content_bytes": 1206,
-      "last_commit_sha": "c794d6b50",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "f693b781448fa2cf6bc8d160b5447b1c65e91e376a86062320f4a89bb976acfd",
+      "content_bytes": 1385,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c794d6b50:wiki/products/cannabis-flower.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/cannabis-flower.md | sha256sum"
     }
   },
   "evidence_base": {

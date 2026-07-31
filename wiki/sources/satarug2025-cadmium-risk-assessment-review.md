@@ -177,15 +177,15 @@ The age-category POR values in Table 3 (e.g., 141.2 for the 66-87 y group, 95% C
 Fresh-context audit subagent (2026-06-02) returned REVISE verdict; Checks 1 (numerical fidelity, all tabulated values cross-checked against pp.3-15), 3 (speciation/methods), and 4 (Part 12 brand firewall) clean. Findings applied: (a) Table 3/4 framing — verified against PDF p.9 footnote (Table 3 n=917 from [76]) and p.10 footnote (Table 4 n=405 from [80]); the prior overarching sentence "Both tables are reanalyses of data from 917 subjects" was wrong and was rewritten to distinguish the two tables. (b) `[[health/cadmium-developmental-toxicity]]` removed from "Wiki pages this source may touch" — verified that `wiki/health/cadmium-developmental-toxicity.md` does not exist (the sibling chandravanshi2021 review wikilinks the same slug, suggesting the target page should exist but is missing; flagged as a separate issue, not for this page to create). (c) Implications App paragraph — softened "supports the case for tighter Cd thresholds in the I and C product rows" to "contributes occurrence-of-effect data on tubular and glomerular endpoints relevant to infant-and-child Cd threshold work" to stay on the contributes-data side of the Part 2 boundary; replaced "premenopausal women, adolescent girls, pregnant women" with the source-faithful "children and adolescent females [49,50]; women of reproductive age [51,52]" per PDF p.5. Findings retained as flagged (not rejected, not modified): Check 2 ⚠️ on matrices vocabulary (`urine`, `blood`, `kidney`, `bone`, `dietary-intake`, `risk-assessment-methodology`) — the standard matrices vocabulary is scoped to consumer-food matrices; review-type sources extend it to subject-matter matrices, precedented by sibling reviews. Flagged for Karen's confirmation if the matrices vocabulary should be formally extended. Check 5 ⚠️ on Implications Certification paragraph noting HMTc product categories that drive dietary Cd burden — retained because the page stays on "contributes occurrence-of-effect data for category X" wording, the allowed side of the Part 2 boundary.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [0a09ab33b](https://github.com/paleofoundation/heavymetalindex/commit/0a09ab33b) | 2026-06-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

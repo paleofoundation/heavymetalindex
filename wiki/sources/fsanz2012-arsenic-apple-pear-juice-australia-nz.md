@@ -105,15 +105,15 @@ Sample-by-sample verification: the highest-iAs sample (11.3 µg/kg, paired with 
 - [[products/fruit-juices-non-apple]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [db58db798](https://github.com/paleofoundation/heavymetalindex/commit/db58db798) | 2026-06-08 | ingest: fsanz2012-arsenic-apple-pear-juice-australia-nz duplicate_filesystem_copies path from Manual Fetch Kimi /June 8/_extracted_01_Fruits_and_Fruit_Products |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [db58db798](https://github.com/paleofoundation/heavymetalindex/commit/db58db798) | 2026-06-08 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [d3b0c4cec](https://github.com/paleofoundation/heavymetalindex/commit/d3b0c4cec) | 2026-05-20 | minor | Narrative text revised |
+| [4f92dd294](https://github.com/paleofoundation/heavymetalindex/commit/4f92dd294) | 2026-05-20 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

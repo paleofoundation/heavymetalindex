@@ -144,15 +144,15 @@ App: Contributes Lebanon-anchored cow's milk yogurt occurrence data for the [[in
 **Audit subagent (2026-05-19) flagged** that `[[regulations/eu-2023-915-lead-infant-young-child-foods]]` was the wrong EU 2023/915 sub-slug for this paper because the source measures Pb in raw-milk-derived dairy (EU 2023/915 dairy table, 0.020 mg/kg limit), not the infant/young-child foods Pb sub-table. Verified against the source (paper benchmarks against "Commission Regulation (EU) 2023/915 ... 0.020 mg/kg and 0.005 mg/kg of lead and Cd" for "raw milk and dairy products", p.3) and against the regulation page (`wiki/regulations/eu2023-contaminants-maximum-levels.md` is the umbrella slug covering all metals/all matrices in EU 2023/915, including the dairy Pb limit). Finding correct — replaced `[[regulations/eu-2023-915-lead-infant-young-child-foods]]` with `[[regulations/eu2023-contaminants-maximum-levels]]`.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [f2de49d93](https://github.com/paleofoundation/heavymetalindex/commit/f2de49d93) | 2026-05-19 | minor | Narrative text revised |
+| [f5e5c1a8e](https://github.com/paleofoundation/heavymetalindex/commit/f5e5c1a8e) | 2026-05-19 | major | 2 sections added and 1 removed; narrative text revised |
+| [19f640f31](https://github.com/paleofoundation/heavymetalindex/commit/19f640f31) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

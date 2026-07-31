@@ -28,7 +28,7 @@ raw/gpt-drafts/**/*
 !raw/gpt-drafts/README.md
 
 # Quartz / Node build artifacts
-node_modules/
+node_modules
 public/
 !tools/standards-workbench/public/
 !tools/standards-workbench/public/**

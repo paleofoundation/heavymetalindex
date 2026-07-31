@@ -88,12 +88,14 @@ Identity checks before drafting found no existing `wiki/sources/` hit for raw ha
 Tables 2-9, 2-10, 3-3, 3-5, 3-6, and 3-7 were re-opened from `/tmp/hmi-fem-021.txt`. Table 2-10 values are copied as `ng/mL` leachate values without conversion, even though the later peer-reviewed article page records the same table on its own `ppb` wording. The `As (O2)` table header is treated as total arsenic measured in ICP-MS oxygen/reaction mode, not inorganic arsenic speciation; no Cr-VI, methylmercury, organotin, or elemental tin speciation is reported. Brand firewall: the thesis describes popular brands and low-budget options, but this page reports only product-category and sample-code summaries. Product, matrix, metal, and jurisdiction slugs were checked against the closed taxonomy snapshot. The closed ingredient vocabulary has no valid material slug for this thesis's consumer-product/device materials, so `ingredients: []` is intentionally retained. The near-duplicate link to `marcelis2025-micp-leachables-metals` is recorded because Chapter 2 lists the chemical-characterization article as in preparation and contains the same inorganic leachables table.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [7408d1cab](https://github.com/paleofoundation/heavymetalindex/commit/7408d1cab) | 2026-06-09 | ingest: marcelis2024-feminine-intimate-products-thesis fresh from MFK/June 8 Kimi_Agent_Feminine Care Heavy Metal Papers |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [7408d1cab](https://github.com/paleofoundation/heavymetalindex/commit/7408d1cab) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -79,3 +79,25 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Porwollik S and Jafari M (2026). *The quality and safety of Rhodiola rosea supplements on the U.S. market: An analysis of biomarkers, heavy metals, and pesticide residues*. PLoS One. [https://doi.org/10.1371/journal.pone.0341070](https://doi.org/10.1371/journal.pone.0341070). Peer-reviewed, A-tier. [[sources/porwollik2026-rhodiola-supplements-us-market|Source record]]
+2. Inada A (2023). *Comparison of heavy metal regulations for herbal medicines across pharmacopoeias*. Journal of Natural Medicines. [https://doi.org/10.1007/s43441-023-00532-2](https://doi.org/10.1007/s43441-023-00532-2). Peer-reviewed, A-tier. [[sources/inada2023-herbal-medicine-heavy-metal-regulations|Source record]]
+3. Ciocan C, Mansour I, Beneduce A, Corgiat Loia R, Milanesio N, Declementi M, et al. (2021). *Lead poisoning from Ayurvedic treatment: a further case*. La Medicina del Lavoro. [https://doi.org/10.23749/mdl.v112i2.10576](https://doi.org/10.23749/mdl.v112i2.10576). Peer-reviewed, B-tier. [[sources/ciocan2021-ayurvedic-lead-hg-poisoning|Source record]]
+4. Thomas J, Sebastian R, Anil Kumar CR, and Rafi AM (2024). *Case of lead poisoning secondary to intake of herbal medicine for diabetes mellitus in a tertiary care hospital in Kerala*. Endocrinology, Diabetes & Metabolism Case Reports. [https://doi.org/10.1530/edm-23-0066](https://doi.org/10.1530/edm-23-0066). Peer-reviewed, B-tier. [[sources/thomas2024-lead-poisoning-ayurvedic-herbal|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added; narrative text revised |
+| [030d8b437](https://github.com/paleofoundation/heavymetalindex/commit/030d8b437) | 2026-07-27 | major | 3 sources added; 9 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

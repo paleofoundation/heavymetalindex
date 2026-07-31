@@ -3,7 +3,7 @@ title: "Regulations by jurisdiction"
 description: "Country/region × metal cross-cut of every regulatory threshold the Heavy Metal Index tracks. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-06-23
+updated: 2026-07-30
 noindex: false
 ---
 
@@ -156,7 +156,7 @@ This is a navigation index, not a substitute for reading the underlying regulati
 The wiki tracks regulatory limits as published; it does not endorse them. See [[CLAUDE|wiki/HMTc separation policy]] for why the wiki's reporting of regulatory values is kept architecturally separate from the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program's threshold-setting.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-This page is auto-regenerated from upstream data on every build. Edits by hand are overwritten on the next prebuild. See the generator named in the page intro for the data source and update cadence; the full commit history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+This page is regenerated from upstream evidence records on every build, so its version history is the history of that upstream data rather than of hand edits. The full commit record lives in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

@@ -58,15 +58,14 @@ This source is useful for poultry-product gap filling in Bangladesh, but the mea
 - Audited 2026-06-08: dropped over-broad `ingredients/meat` routing in favor of `ingredients/poultry` (paper is broiler-chicken-specific); corrected misleading arsenic-meat statement; expanded methods to name ICP-OES/MS (feed) and ICP-MS (meat) at SGS India; surfaced feed Pb max (14.65 mg/kg, ~3x EU MRL) and Cr max (49.22 mg/kg) in Key numbers; populated sampling_locations and fixed author abbreviations.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [f0dfd8f6d](https://github.com/paleofoundation/heavymetalindex/commit/f0dfd8f6d) | 2026-06-08 | audit: alam2021-bangladesh-poultry-feed-meat-metals revised per autonomous audit |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [f0dfd8f6d](https://github.com/paleofoundation/heavymetalindex/commit/f0dfd8f6d) | 2026-06-08 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [477ff83fb](https://github.com/paleofoundation/heavymetalindex/commit/477ff83fb) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

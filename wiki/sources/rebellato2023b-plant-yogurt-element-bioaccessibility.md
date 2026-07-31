@@ -163,14 +163,15 @@ License and access: closed access via Elsevier (© 2023 Elsevier Inc., all right
 Audit subagent (2026-06-08, agent a02d1cbc718bb7c46) returned REVISE with two valid findings. (1) ⚠️→❌ Part 12 brand-firewall: audit found the 2-letter brand codes (VV/FR/BT/MD/PV/IN) had NOT in fact been stripped from the Tables 4 and 6 body reproductions despite Verification notes claiming so. Verified against the page as written — codes were present in the Type column for all five sample-lots plus the cow-milk comparator. Corrected: replaced "(VV, lot A)" / "(FR, lot A)" / "(BT, lot A; fortified Ca, soy + cocoa)" / "(PV, lot A; fortified Ca)" / "(IN)" with the underlying formulation descriptors ("pea/soy-protein veg-protein", "coconut-cream, fortified Ca", "soy-chocolate with cocoa and soy-protein-isolate, fortified Ca", "coconut-milk-powder reconstituted, fortified Ca, with red fruits", and "natural yogurt"). Sample number + lot letter still disambiguate. (2) ⚠️ ²⁰⁹Bi isotope mislabeling: audit found ²⁰⁹Bi was listed twice in the Methods (brief) ICP-MS isotope list — once as a monitored isotope (incorrect, per Table 1 source p. 2 it is internal standard only) and once correctly as internal standard. Verified against PDF Table 1 — monitored isotopes are ²⁷Al, ⁵³Cr, ⁵⁹Co, ⁶⁰Ni, ⁷⁸Se, ⁹⁷Mo, ¹³⁷Ba; internal standards are ⁴⁵Sc, ⁷²Ge, ¹¹⁵In, ¹⁰³Rh, ²⁰⁹Bi, ¹⁹⁵Pt. Corrected by removing ²⁰⁹Bi from the monitored-isotope list. The audit also noted a ⚠️ minor non-load-bearing omission (the ICP-MS nebulization chamber temperature 2.8°C from Table 1 not transcribed); left as-is per the audit's own "non-critical" assessment. Checks 1 (numerical fidelity), 2 (slug vocabulary), 3 (speciation/methods other than the ²⁰⁹Bi item), and 5 (Part 2 wiki/HMTc firewall) returned ✅ clean. Final verdict REVISE with the two corrections above applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [ba1c4cdaa](https://github.com/paleofoundation/heavymetalindex/commit/ba1c4cdaa) | 2026-06-08 | audit: rebellato2023b-plant-yogurt-element-bioaccessibility revised |
-| [07a005f15](https://github.com/paleofoundation/heavymetalindex/commit/07a005f15) | 2026-06-08 | ingest: rebellato2023b-plant-yogurt-element-bioaccessibility fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [ba1c4cdaa](https://github.com/paleofoundation/heavymetalindex/commit/ba1c4cdaa) | 2026-06-08 | minor | Narrative text revised |
+| [07a005f15](https://github.com/paleofoundation/heavymetalindex/commit/07a005f15) | 2026-06-08 | major | 1 source added; 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

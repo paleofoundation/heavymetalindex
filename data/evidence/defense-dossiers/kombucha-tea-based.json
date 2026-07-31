@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/kombucha-tea-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "992c0514fcc71bc3e113d60522931aa73ebe0925e94802699256aeb54dc0a18b",
-      "content_bytes": 17763,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "5ba60307473eb8476318595f0c8d9bd18af4b5e17563644227efa5df5cce01dd",
+      "content_bytes": 17790,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/kombucha-tea-based.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/kombucha-tea-based.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/munilla-garcia2023-lead-kombucha-ceramics",
         "content_pin": {
-          "content_sha256": "095ce77939ad51c56e93b9ad15541cec2c0a4958800751ca5a7b705fd80e7001",
-          "content_bytes": 5807,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "c89322b8dc181569c67ee8c78f420a0a22ed96e0343b066c70bda75856510f2d",
+          "content_bytes": 5834,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/munilla-garcia2023-lead-kombucha-ceramics.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/munilla-garcia2023-lead-kombucha-ceramics.md | sha256sum"
         }
       },
       {
@@ -69,12 +69,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tandhanskul2025-kombucha-metabiotics-review",
         "content_pin": {
-          "content_sha256": "c577de6756e4022ff06d322c714b50e53aa567a53668c47354d4d99fa8ee4230",
-          "content_bytes": 16635,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "3941e8bf659896a369186b9b379ded47a7c3ab87960d0be497a417ce875fd500",
+          "content_bytes": 16816,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/tandhanskul2025-kombucha-metabiotics-review.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/tandhanskul2025-kombucha-metabiotics-review.md | sha256sum"
         }
       }
     ]

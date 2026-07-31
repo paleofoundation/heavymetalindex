@@ -234,6 +234,25 @@ Glass packaging avoids any plastic-leachate pathway; Sn migration is not relevan
 
 The EU sets a maximum level for Pb in honey of 0.10 mg/kg (100 ppb) wet weight [[regulations/eu2023-contaminants-maximum-levels]]. No EU maximum level for Cd in honey has been set as of the current corpus state. The finding of Naccari et al. 2025 that 80 percent of Italian wildflower honey samples exceeded this Pb limit illustrates that the EU limit is an active regulatory constraint for this commodity, not a comfortable ceiling [[sources/naccari2025-honey-toxic-metals-microelements|2]]. The United States does not set a statutory maximum for Pb or Cd in honey. Codex Alimentarius does not list honey in its specific ML tables for Pb or Cd [[regulations/codex-cadmium-mls]].
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 12 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+2. Naccari C, Ferrantelli V, Cammilleri G, Barbaccia G, Riolo P, Ferrante MC, et al. (2025). *Study of Toxic Metals and Microelements in Honey as a Tool to Support Beekeeping Production and Consumer Safety*. Foods 2025, 14, 1986. [https://doi.org/10.3390/foods14111986](https://doi.org/10.3390/foods14111986). Peer-reviewed, A-tier. [[sources/naccari2025-honey-toxic-metals-microelements|Source record]]
+3. Abeslami A, El Farissi H, Cacciola F, Oulad El Majdoub Y, Mondello L, El Bachiri A, et al. (2025). *Mineral Profile and Heavy Metal Content of Seven Monofloral and Multifloral Honeys from Eastern Morocco*. Molecules. [https://doi.org/10.3390/molecules30010150](https://doi.org/10.3390/molecules30010150). Peer-reviewed, A-tier. [[sources/abeslami2025-moroccan-honey-minerals|Source record]]
+4. Wise JP Jr, Wise RM, Hoffert A, Wise JTF, and Specht AJ (2025). *Elevated Metal Levels in U.S. Honeys: Is There a Concern for Human Health?*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-024-04295-1](https://doi.org/10.1007/s12011-024-04295-1). Peer-reviewed, A-tier. [[sources/wise2025-elevated-metals-us-honeys|Source record]]
+5. Aghamirlou HM, Khadem M, Rahmani A, Sadeghian M, Mahvi AH, Akbarzadeh A, et al. (2015). *Heavy metals determination in honey samples using inductively coupled plasma-optical emission spectrometry*. Journal of Environmental Health Science & Engineering. [https://doi.org/10.1186/s40201-015-0189-8](https://doi.org/10.1186/s40201-015-0189-8). Peer-reviewed, A-tier. [[sources/aghamirlou2015-iranian-honey-metals|Source record]]
+6. Salama AS, Etorki AM, and Awad MH (2019). *Determination of Physicochemical Properties and Toxic Heavy Metals Levels in Honey Samples from West of Libya*. Journal of Advanced Chemical Sciences. [https://doi.org/10.30799/jacs.207.19050104](https://doi.org/10.30799/jacs.207.19050104). Peer-reviewed, A-tier. [[sources/salama2019-libya-honey-metals|Source record]]
+7. Teferi AN, Dibabe YB, Debalke AG, Beyene TW, Feng W, and Ho C (2026). *Assessment of Heavy Metal Contamination and Associated Health Risks in Honey from Kellem Wollega Zone, Ethiopia*. Toxics. [https://doi.org/10.3390/toxics14030229](https://doi.org/10.3390/toxics14030229). Peer-reviewed, A-tier. [[sources/teferi2026-honey-ethiopia-kellem-wollega|Source record]]
+8. Tomczyk M, Zagula G, Puchalski C, and Dzugan M (2020). *Transfer of some toxic metals from soil to honey depending on bee habitat conditions*. Acta Universitatis Cibiniensis Series E: Food Technology. [https://doi.org/10.2478/aucft-2020-0005](https://doi.org/10.2478/aucft-2020-0005). Peer-reviewed, A-tier. [[sources/tomczyk2020-polish-honey-metal-transfer|Source record]]
+9. Aljedani DM (2017). *Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia*. Entomology and Applied Science Letters. [www.easletters.com](https://www.easletters.com). Peer-reviewed, B-tier. [[sources/aljedani2017-honeybee-honey-saudi-arabia|Source record]]
+10. Gunes ME (2021). *Chestnut Honey as a Complementary Medicine: Determination of Antibacterial Activity, Heavy Metal Residue and Health Risk Assessment*. Journal of Advances in VetBio Science and Techniques. [https://doi.org/10.31797/vetbio.931144](https://doi.org/10.31797/vetbio.931144). Peer-reviewed, A-tier. [[sources/gunes2021-yalova-chestnut-honey-metals|Source record]]
+11. Limani Bektashi N, Abazi D, Popovska O, Latifi A, and Reka AA (2021). *Characterization of honey: determination of metal and sugar content*. Journal of Agricultural, Food and Environmental Sciences. [https://doi.org/10.55302/JAFES21752037lb](https://doi.org/10.55302/JAFES21752037lb). Peer-reviewed, A-tier. [[sources/bektashi2021-honey-metals-sugars-balkans|Source record]]
+12. Shukla V and Kumar A (2020). *Melissopalynological and physicochemical analysis of honey samples from Prayagraj District, Uttar Pradesh*. Acta Palaeobotanica. [https://doi.org/10.35535/acpa-2020-0004](https://doi.org/10.35535/acpa-2020-0004). Peer-reviewed, A-tier. [[sources/shukla2020-honey-prayagraj-metals|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -266,15 +285,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [22134c35a](https://github.com/paleofoundation/heavymetalindex/commit/22134c35a) | 2026-06-23 | fix(integrity): drain 28 re-accumulated censored-zero contamination cells; re-flip audit to build-blocking |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [d626a623b](https://github.com/paleofoundation/heavymetalindex/commit/d626a623b) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 1 — 6 pages / 30 cells (proving batch) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [22134c35a](https://github.com/paleofoundation/heavymetalindex/commit/22134c35a) | 2026-06-23 | correction | 7 sources added; contamination-profile values revised; narrative text revised |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
+| [d626a623b](https://github.com/paleofoundation/heavymetalindex/commit/d626a623b) | 2026-06-11 | correction | 8 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -177,15 +177,14 @@ This source contributes Iranian market-rice occurrence data for five total metal
 - **Audit subagent (2026-06-01) findings applied.** A fresh-context general-purpose audit subagent verified the page against the PDF and the taxonomy snapshot and returned five findings, all of which were verified correct against the source and applied: (1) **Implications-section Cd multiplier error** — the wiki had reported "2.7× to 8× and 4.5× to 13×" for FAO/WHO and Iranian Cd-limit exceedance; correct math from Cd range 0.27–0.48 vs 0.1 mg/kg (FAO/WHO) and 0.06 mg/kg (Iran) gives 2.7×–4.8× and 4.5×–8.0×; corrected. (2) **Brand-firewall leak at the domestic Cd bullet** — the wiki named a domestic brand alongside an explicit Cd value (0.47/0.41); anonymized to "the highest-mean domestic label was a Fars-Province Iranian cultivar." (3) **Brand-firewall leak in the Verification-notes brand-firewall paragraph** — the wiki had enumerated all 10 paper labels by name; rewritten to describe the naming pattern (mixed cultivar/region + commercial-brand, 3 domestic Iranian + 6 Indian + 1 Thai) without enumerating. (4) **Stale-slug regulation wikilinks** — `regulations/codex-lead-mls`, `regulations/jecfa-cd-ptwi`, `regulations/jecfa-pb-ptwi` do not exist in the current taxonomy; replaced `jecfa-cd-ptwi` and `jecfa-pb-ptwi` with the canonical `jecfa-cadmium-ptmi` and `jecfa-lead-ptwi-withdrawn` and dropped `codex-lead-mls` (no current page). (5) **Unsourced "current JECFA Cr guidance" synthesis aside** — trimmed the Cr-VI-vs-total-Cr editorial sentence to a neutral statement that the paper does not speciate Cr-VI / Cr-III. Two paper-internal-inconsistency notes in Verification notes were also rewritten to remove enumerated brand names while preserving the inconsistency disclosures. Numerical fidelity check passed verbatim across Tables 1–4 and all SRM 1568b recovery values; no transcription errors found in primary data. Final verdict: REVISE. Audit findings: 5 verified correct and applied, 0 rejected as false positives.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [f0519004a](https://github.com/paleofoundation/heavymetalindex/commit/f0519004a) | 2026-06-01 | minor | Narrative text revised |
+| [8009b5d3c](https://github.com/paleofoundation/heavymetalindex/commit/8009b5d3c) | 2026-06-01 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

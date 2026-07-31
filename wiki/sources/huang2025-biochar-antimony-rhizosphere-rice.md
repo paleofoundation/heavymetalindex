@@ -133,15 +133,15 @@ DOI `10.3390/toxics13050389` matches the published PDF; Toxics 2025, 13, 389 wit
 Fresh-context audit subagent (2026-06-02) returned REVISE verdict; Checks 1 (numerical fidelity), 3 (speciation/methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) clean or near-clean. Findings applied: (a) Eh S1-BC Span-column cell mislabel — verified against PDF p.6 (S1-BC Eh "decreased from 379.28 mV to 114.85 mV" CK-to-MAT is -69.72%; the "2.73-27.46%" range is the per-stage reduction of S1-BC vs matched S1 stage); cell relabeled to disambiguate both quantities. (b) Methods detail — added the 0.22 microm filtration step for the plant Sb digest and corrected "Microsoft Excel 2010" to "Microsoft 2010" per the exact PDF p.5 wording. Findings rejected as false positives: (c) Check 2 ❌ on `[[supply-chain/soil-to-plant-transfer]]` and `[[mitigation/agronomic]]` — both wikilinks resolve to live wiki pages (`wiki/supply-chain/soil-to-plant-transfer.md` and `wiki/mitigation/agronomic.md`) and are precedented across many other source pages (sun2023, lu2025, wang2020, rusanescu2023, etc.); the taxonomy snapshot is intentionally scoped to Ingredients / Products / Metals / Regulations only and does not enumerate the supply-chain or mitigation namespaces. (d) Check 2 ⚠️ matrices vocabulary concern — the soil and plant-organ matrices entries (`rhizosphere-soil`, `contaminated-paddy-soil`, `biochar-amended-paddy-soil`, `rice-plant-organs`, `rice-grain`) are precedented in the comparable rice-and-biochar source `sun2023-biochar-rice-cadmium-field`; the matrices vocabulary covers study-design matrix descriptors, not just consumer-food matrices.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [bd8e3061e](https://github.com/paleofoundation/heavymetalindex/commit/bd8e3061e) | 2026-06-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

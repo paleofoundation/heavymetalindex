@@ -12,7 +12,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 6
+sources: 7
 wiki_doi: null
 updated: 2026-05-20
 ---
@@ -29,6 +29,14 @@ updated: 2026-05-20
 
 The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Jackson BP, Taylor VF, Karagas MR, Punshon T, and Cottingham KL (2012). *Arsenic, Organic Foods, and Brown Rice Syrup*. Environmental Health Perspectives. [https://doi.org/10.1289/ehp.1104619](https://doi.org/10.1289/ehp.1104619). Peer-reviewed, A-tier. [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -40,6 +48,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 2 | [[sources/xu2022-crop-grains-heavy-metals\|Xu et al. 2022]]. *Effects of soil properties on heavy metal bioavailability and accumulation in crop grains under different farmland use patterns*, Scientific Reports | 2022 | Peer-reviewed | CN Cu, Zn, Pb, Cd, Fe, Mn occurrence in 81 crop-grain samples and 81 paired agricultural-soil samples from rape, wheat, and paddy fields in Tongling, China (n=81) |
 | 3 | [[sources/costa2018-rice-arsenic-speciation\|Costa 2018]]. *Especiacao quimica de arsenio em amostras de arroz empregando extracao por fase solida in-situ e determinacao por FI-HG AAS*, Tese de Doutorado, Universidade Federal de Uberlandia | 2018 | Thesis | BR tAs, iAs occurrence in IRMM-804 Rice Flour certified reference material used for validation of an arsenic speciation method (n=1) |
 | 4 | [[sources/hidalgo2015-gluten-free-cereal-bars-argentina\|Hidalgo et al. 2015]]. *Toxic Trace Element Contents in Gluten-free Cereal Bars Marketed in Argentina*, International Journal of Celiac Disease 3(1):12-16 | 2015 | Peer-reviewed | AR tAs, Cd, Pb occurrence in Seventy-two commercial gluten-free cereal bars marketed in Argentina, grouped by flavor/main formulation into apple, blueberry, chocolate, coconut, honey,... (n=72) |
+| 5 | [[sources/arsenic2012-arsenic-organic-foods-brown\|Arsenic 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US/EU iAs, tAs, DMA, MMA, Al, U concentrations (n=200) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for
@@ -85,15 +94,15 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 _Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 1 source added and 1 removed; narrative text revised |
+| [ce3e07c7b](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c7b) | 2026-05-28 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [69e1bd7df](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7df) | 2026-05-28 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -180,6 +180,18 @@ Packaging is not the dominant metal-load pathway for dry seaweed product. Standa
 
 The EU Regulation 2023/915 sets dedicated maximum levels for "dried seaweed" entries: Cd at 0.50 mg/kg dry weight, Pb at 0.50 mg/kg dry weight, with arsenic addressed under the inorganic-arsenic framework (no general tAs limit on seaweed, but iAs limits apply where the product-as-consumed pathway is established). The EU separately prohibits hijiki in any food product on the basis of its iAs profile. Codex Alimentarius does not currently set seaweed-specific maxima; general seafood limits do not apply to algae. The FDA has issued advisories on hijiki consumption but has not set a federal maximum level. France's ANSES (food safety agency) sets seaweed-specific advisory limits at 3 mg/kg dry weight for tAs and 0.5 mg/kg for iAs in seaweed-as-food. The EFSA 2023 exposure assessment ([[sources/efsa2023-heavy-metals-seaweed]]) found European dietary intakes from seaweed at levels of concern for iAs in high-seaweed-consumption sub-populations and recommended continued monitoring and tighter regulatory clarity.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. European Food Safety Authority (EFSA), Dujardin B, Ferreira de Sousa R, and Gomez Ruiz JA (2023). *Dietary exposure to heavy metals and iodine intake via consumption of seaweeds and halophytes in the European population*. EFSA Journal. [https://doi.org/10.2903/j.efsa.2023.7798](https://doi.org/10.2903/j.efsa.2023.7798). Peer-reviewed, A-tier. [[sources/efsa2023-heavy-metals-seaweed|Source record]]
+2. Asni A and Najamuddin (2020). *Pb heavy metal distribution patterns in seaweed (Kappaphycus alvarezii) cultivation locations by season in Bantaeng Waters, South Sulawesi*. IOP Conference Series: Earth and Environmental Science. [https://doi.org/10.1088/1755-1315/564/1/012037](https://doi.org/10.1088/1755-1315/564/1/012037). Peer-reviewed, B-tier. [[sources/asni2020-pb-seaweed-bantaeng|Source record]]
+3. Davydiuk T, Tao J, Lu X, and Le XC (2023). *Effects of Dietary Intake of Arsenosugars and Other Organic Arsenic Species on Studies of Arsenic Methylation Efficiency in Humans*. Environmental Health. [https://doi.org/10.1021/envhealth.3c00080](https://doi.org/10.1021/envhealth.3c00080). Peer-reviewed, A-tier. [[sources/davydiuk2023-arsenosugars-methylation|Source record]]
+4. Nepper-Davidsen J, Glasson CRK, Lawton RJ, and Magnusson M (2023). *High spatial and temporal variation in biomass composition of the novel aquaculture target Ecklonia radiata*. Journal of Applied Phycology. [https://doi.org/10.1007/s10811-023-02969-2](https://doi.org/10.1007/s10811-023-02969-2). Peer-reviewed, A-tier. [[sources/nepper-davidsen2023-kelp-biomass-composition-nz|Source record]]
+5. Llorente-Mirandes T, Rubio R, and Lopez-Sanchez JF (2016). *Inorganic Arsenic Determination in Food: A Review of Analytical Proposals and Quality Assessment Over the Last Six Years*. Applied Spectroscopy. [https://doi.org/10.1177/0003702816652374](https://doi.org/10.1177/0003702816652374). Peer-reviewed, A-tier. [[sources/llorente-mirandes2016-ias-food-analytical-review|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -273,15 +285,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

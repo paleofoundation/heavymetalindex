@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fermented-beverages-non-tea-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1220db670e4bf7b2e7e8bdb074422527aecbc1f5879e16d328460c439cf0628b",
-      "content_bytes": 20007,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "9dcfd08a2e92a7e1169c0d999523869ec6984f737fe95858565f1ab23eb1f0c6",
+      "content_bytes": 20030,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/fermented-beverages-non-tea-based.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/fermented-beverages-non-tea-based.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -52,12 +52,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bhattacharya2024-rice-beer-assam-metals",
         "content_pin": {
-          "content_sha256": "ce03473c9f3df11b0c590bab5c326a6af2207122eacbeb3025b8c35fa107f2de",
-          "content_bytes": 11848,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "6b2e4cbb79148ea390e15f9ee1521f96da6bc9f3ea3e58ade18b6f30a19f2b56",
+          "content_bytes": 12029,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/bhattacharya2024-rice-beer-assam-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/bhattacharya2024-rice-beer-assam-metals.md | sha256sum"
         }
       },
       {
@@ -77,12 +77,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bora2015-vineyard-wine-heavy-metals-romania",
         "content_pin": {
-          "content_sha256": "03a2c30177fb6202fae0f2a8d65c2355d490e9a5d20ad240df89406023596a40",
-          "content_bytes": 14719,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "598b33f51a58d0573bc48e1d9a61ec43c93b510d8235058c7f08eaf80bd42d42",
+          "content_bytes": 14899,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/bora2015-vineyard-wine-heavy-metals-romania.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/bora2015-vineyard-wine-heavy-metals-romania.md | sha256sum"
         }
       },
       {
@@ -103,12 +103,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ciont2022-beer-safety-heavy-metals-review",
         "content_pin": {
-          "content_sha256": "4822786bc25ab3303b85e2c1dee7414359d1e7f6294c0ec0cce36a08cb43eb15",
-          "content_bytes": 14128,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "e27bfa8209062a15e69e59de58df581ab72a842ed0cac47ff9a8199fb9f4428a",
+          "content_bytes": 14308,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/ciont2022-beer-safety-heavy-metals-review.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/ciont2022-beer-safety-heavy-metals-review.md | sha256sum"
         }
       },
       {
@@ -123,12 +123,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/durdjic2021-lead-isotopes-wine-origin",
         "content_pin": {
-          "content_sha256": "0fc5598430a3f19c44e5a5b24db984c088fe1b755d9edad20ab9c923cf83092f",
-          "content_bytes": 19349,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "ffa1be9afc7b4e1ef86828b4f78a411e3a48cf0b8c16dc261ca11ad579bb8b2b",
+          "content_bytes": 19529,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/durdjic2021-lead-isotopes-wine-origin.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/durdjic2021-lead-isotopes-wine-origin.md | sha256sum"
         }
       },
       {
@@ -143,12 +143,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hc2008-aluminum-food-additives-industry-request",
         "content_pin": {
-          "content_sha256": "6a2372ffae1ea97921acceaf754ed9fe25b8e1ded9acf44e131eb28021c88977",
-          "content_bytes": 12067,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "565655bb637292f9dcca23110223843634ae075cdeaf84a43dc8269c3079251f",
+          "content_bytes": 12248,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/hc2008-aluminum-food-additives-industry-request.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/hc2008-aluminum-food-additives-industry-request.md | sha256sum"
         }
       },
       {
@@ -173,12 +173,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/izah2016-beverages-heavy-metals-nigeria",
         "content_pin": {
-          "content_sha256": "d7a5367df6bd806ab5fabc51c7f4a35645142e7361d1d2c5efdbf5765a00ab0e",
-          "content_bytes": 20551,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "110f6a2d92a009c5d8625858e3bac62ce78e8e10bf307baa246202d982bded18",
+          "content_bytes": 20731,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/izah2016-beverages-heavy-metals-nigeria.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/izah2016-beverages-heavy-metals-nigeria.md | sha256sum"
         }
       },
       {
@@ -193,12 +193,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/munilla-garcia2023-lead-kombucha-ceramics",
         "content_pin": {
-          "content_sha256": "095ce77939ad51c56e93b9ad15541cec2c0a4958800751ca5a7b705fd80e7001",
-          "content_bytes": 5807,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "c89322b8dc181569c67ee8c78f420a0a22ed96e0343b066c70bda75856510f2d",
+          "content_bytes": 5834,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/munilla-garcia2023-lead-kombucha-ceramics.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/munilla-garcia2023-lead-kombucha-ceramics.md | sha256sum"
         }
       },
       {
@@ -213,12 +213,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/reczajska2005-chromium-plant-foods-poland",
         "content_pin": {
-          "content_sha256": "160430e5112e2f2c6b1130436cf647e318dd4cc531a9168d98940aab6d9446d2",
-          "content_bytes": 10183,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "ecc7074ac09fe98f71bf8aaaa30cfcf89255c7c5d63b2084d7e43275262d90eb",
+          "content_bytes": 10210,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/reczajska2005-chromium-plant-foods-poland.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/reczajska2005-chromium-plant-foods-poland.md | sha256sum"
         }
       },
       {
@@ -236,12 +236,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wang2020-jilin-total-diet-metals",
         "content_pin": {
-          "content_sha256": "3bd49221a25c85f23b9f0fccdc06fb382e72c2b68508fc5ef2f5ad086fdb6e9e",
-          "content_bytes": 7372,
-          "last_commit_sha": "276f55976",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "fabbf4cfc205e73cd864914180c76b5cc3c14fb21165791962ced81fb7cdaf9b",
+          "content_bytes": 7552,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 276f55976:wiki/sources/wang2020-jilin-total-diet-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wang2020-jilin-total-diet-metals.md | sha256sum"
         }
       }
     ]

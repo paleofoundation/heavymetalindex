@@ -152,14 +152,15 @@ No HMTc threshold proposals, no consumer-audience translations, no risk advisori
 Audit subagent (2026-06-06) raised three ❌ Part 12 findings against the initial revision (three Table 1 row labels still carrying brand names: "cocacola/Amstel/Fanta/malta Guinness/Maltina"; "Olympic and Three Crown milk"; "peak/milo/five alive juice"). All three verified against PDF page 7 and applied: each row label was rewritten to the product-form descriptor alone, matching the strict reading. The audit also raised three ⚠️ Check 1 findings against the Sn-units note: (1) the parenthetical "(0.003–0.261)" was a compression of two separate ref-[40] rows; (2) attribution to "Eno-obong and Ukoha 2013, reference [54]" was wrong because those two Sn values are reference [40] (Maduabuchi et al. 2007); (3) the µg/mL unit claim does not match the PDF asterisk-scoped footnote (ref-[40] rows are not asterisked, so are in mg/L per the table header). All three verified against PDF page 8 and applied: the note was rewritten to scope the µg/mL footnote to the four asterisked rows only and to clarify that the two ref-[40] rows are in mg/L. The audit also raised ⚠️ findings on five wiki-introduced brand-mix counts (n=8 / n=8 / n=5 for Table 2; "21 brands" and "38 brands per source" for Table 1) that did not match the PDF brand lists; all five verified against PDF pages 7 and 9 and applied by removing the count annotations rather than recounting (the source itself does not number the brand mixes, and reintroducing counts would be wiki annotation rather than source content).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [f1bd56395](https://github.com/paleofoundation/heavymetalindex/commit/f1bd56395) | 2026-06-06 | audit: izah2016-beverages-heavy-metals-nigeria [revised] |
-| [d46454282](https://github.com/paleofoundation/heavymetalindex/commit/d46454282) | 2026-06-06 | ingest: izah2016-beverages-heavy-metals-nigeria [fresh] from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [f1bd56395](https://github.com/paleofoundation/heavymetalindex/commit/f1bd56395) | 2026-06-06 | minor | Narrative text revised |
+| [d46454282](https://github.com/paleofoundation/heavymetalindex/commit/d46454282) | 2026-06-06 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

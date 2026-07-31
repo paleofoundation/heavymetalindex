@@ -167,15 +167,14 @@ Not applicable: the white paper reports no analytical methods. It cites the test
 - **References cited in the white paper.** 14 numbered references on page 8 (the white paper's references page), covering: (1) ASTM F963-11 standard text; (2) Toy Industry Association 2011 Rolling Data; (3) "Traditional Toys and Games. Industry Analysis," TerraChoice 9 March 2010 (unpublished report); (4) US Department of Commerce Industry Report Dolls/Toys/Games/Children's Vehicles NAICS 33993 (19 Jan 2012); (5) CDC ATSDR "Toxicology Curriculum for Communities Trainer's Manual"; (6, 7) US EPA "Action Development Process: Guide to Considering Children's Health When Developing EPA Actions"; (8) repeats reference 4; (9) CPSIA Section 101 (lead-content provisions); (10) CPSIA Section 108 (phthalate provisions); (11) CPSIA Section 102 (mandatory third-party testing); (12) Washington Department of Ecology Children's Safe Products Act page; (13) Directive 2009/48/EC (EU TSD); (14) "New and Emerging Chemical Reporting Regulations: What Toy Companies Need to Know," Toy Industry Association webinar, 7 September 2011. None of these 14 references are currently in the HMI source corpus; CPSIA-Section-101 framework is partially covered by [[sources/cfa2012-cpsia-lead-fact-sheet]] and ASTM F963 framework is partially covered by [[sources/pirg2010-trouble-in-toyland]], but neither directly ingests the CPSIA statute or the ASTM F963-11 standard.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [1455c9b0d](https://github.com/paleofoundation/heavymetalindex/commit/1455c9b0d) | 2026-06-01 | minor | Narrative text revised |
+| [f11d4d0bd](https://github.com/paleofoundation/heavymetalindex/commit/f11d4d0bd) | 2026-06-01 | major | 3 sources added; 15 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

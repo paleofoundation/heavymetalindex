@@ -76,15 +76,15 @@ SCHER opinion compiled by Working Group (H. Autrup chair/rapporteur; W. Dekant, 
 - 2026-05-17 enhancement (merge-enhance pass): corrected metals frontmatter `As` → `tAs` per Part 14 speciation discipline (the toy directive migration limits are not speciated; SCHER's discussion of EFSA 2009b iAs-based BMDL01 is captured in Key numbers narrative). Removed the products-frontmatter pointer to the children's-makeup product slug — the prior ingest mis-attributed the source to children's cosmetics because the PDF lives in the `Children Personal Care Papers/babycare_01_Exposure_Pathways/` folder, but the SCHER opinion is about the EU TOYS Safety Directive 2009/48/EC, not cosmetics. No `toys` umbrella product slug exists in the current taxonomy; the opinion is a category-spanning regulatory anchor for all toy product rows in HMTc Category 21. Removed the matrices entries for the three physiologically-based extraction fluids (saliva, gastric, sweat) — those are extraction MEDIA used in migration testing, not product matrices; the matrix vocabulary is for what was measured (e.g., infant-formula, rice), not how it was extracted. Extraction-media information moved into Key numbers and Methods narrative. Clarified Cd TWI units (per week) and expanded Key-numbers narrative on Pb (JECFA PTWI withdrawal rationale) and As (SCHER's pragmatic-TDI derivation from the Italian drinking-water derogation opinion). Added the metals/tin wiki page to the touched list (organic Sn is one of the 6 particularly toxic elements in TSD scope).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [ef3388e34](https://github.com/paleofoundation/heavymetalindex/commit/ef3388e34) | 2026-05-17 | minor | Narrative text revised |
+| [731e10583](https://github.com/paleofoundation/heavymetalindex/commit/731e10583) | 2026-05-17 | minor | Narrative text revised |
+| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

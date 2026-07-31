@@ -76,12 +76,14 @@ Microbiome: Not applicable.
 Identity checks before drafting found no existing `wiki/sources/` hit for DOI `10.3390/molecules30204050`, raw handle `MFK_paper-07-mikolajczyk-2025-eu-deodorants-metals`, cite key `mackiewicz2025-eu-deodorants-elements`, or the exact title. The filename labels the paper as "Mikolajczyk," but the PDF byline and metadata identify Maćkiewicz et al.; the cite key follows the byline, not the filename. The DOI, authors, title, journal, year, and CC BY license were checked against the first page and PDF metadata. Key values were checked against the abstract, Section 2.1, Tables 1/3/6, and the conclusion in `/tmp/hmi-fem-005.txt`. The page preserves the source's mixed unit labels (`%`, `mg/L`, and Table 1 `[mg/kg]`) and flags the 35-versus-37 Pb count discrepancy. No speciation is reported for Cr, Pb, Cd, or any other element. The source sampled well-known and local brands, but this page reports only category/form/active-substance summaries under the brand firewall. `deodorants` is used as the product slug because the sample set is general deodorants/antiperspirants, not specifically feminine deodorants. `npm run evidence:source-routes` exited 0 and generated one `deodorants` product route; `routing_malformed.csv` contains an advisory-only missing-ingredients warning because no closed ingredient slug is appropriate for this general cosmetic product matrix.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [4c0976e85](https://github.com/paleofoundation/heavymetalindex/commit/4c0976e85) | 2026-06-09 | ingest: mackiewicz2025-eu-deodorants-elements fresh from MFK/June 8 Kimi_Agent_Feminine Care Heavy Metal Papers |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [4c0976e85](https://github.com/paleofoundation/heavymetalindex/commit/4c0976e85) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

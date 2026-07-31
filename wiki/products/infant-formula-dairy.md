@@ -12,7 +12,7 @@ primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 10
+sources: 11
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -29,6 +29,20 @@ updated: 2026-05-17
 
 The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 7 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Kumar A and et al. (2024). *High Arsenic Contamination in the Breast Milk of Mothers Inhabiting the Gangetic Plains of Bihar: A Major Health Risk to Infants*. Environmental Health 23(1). [https://doi.org/10.1186/s12940-024-01115-w](https://doi.org/10.1186/s12940-024-01115-w). Peer-reviewed, A-tier. [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic|Source record]]
+2. Tugba Demir and Sema Agaoglu (2023). *Estimated daily intake and health risk assessment of toxic elements in infant formulas*. British Journal of Nutrition. [https://doi.org/10.1017/S0007114523000971](https://doi.org/10.1017/S0007114523000971). Peer-reviewed, A-tier. [[sources/demir2023-infant-formulas-turkey-toxic-elements|Source record]]
+3. V. O. Odhiambo, R. Wanjau, J. O. Odundo, and M. P. Nawiri (2015). *Toxic trace elements in different brands of milk infant formulae in Nairobi market, Kenya*. African Journal of Food Science. [https://doi.org/10.5897/AJFS2015.1315](https://doi.org/10.5897/AJFS2015.1315). Peer-reviewed, A-tier. [[sources/odhiambo2015-infant-formula-nairobi-trace-elements|Source record]]
+4. Songul Unuvar, Ebru Kuyumcu Savan, and Nagihan M. Karaaslan (2017). *Determination of Element Concentrations in Commercial Infant Formulas Using Atomic Absorption Spectrometry*. Atomic Spectroscopy. [https://doi.org/10.46770/as.2017.04.005](https://doi.org/10.46770/as.2017.04.005). Peer-reviewed, A-tier. [[sources/unuvar2017-commercial-infant-formula-elements-turkey|Source record]]
+5. Ainara Gredilla, Silvia Fdez-Ortiz de Vallejuelo, Gorka Arana, Alberto de Diego, Marcos L. S. Oliveira, Katia da Boit, et al. (2022). *A Rapid Routine Methodology Based on Chemometrics to Evaluate the Toxicity of Commercial Infant Milks Due to Hazardous Elements*. Food Analytical Methods. [https://doi.org/10.1007/s12161-022-02267-6](https://doi.org/10.1007/s12161-022-02267-6). Peer-reviewed, A-tier. [[sources/gredilla2022-powdered-milk-hazardous-elements|Source record]]
+6. Dijana Durovic, Branka Milisavljevic, Mirjana Nedovic-Vukovic, Branislav Potkonjak, Snezana Spasic, and Miroslav M. Vrvic (2017). *Determination of Microelements in Human Milk and Infant Formula Without Digestion by ICP-OES*. Acta Chimica Slovenica. [https://doi.org/10.17344/acsi.2016.2582](https://doi.org/10.17344/acsi.2016.2582). Peer-reviewed, A-tier. [[sources/durovic2017-human-milk-infant-formula-microelements|Source record]]
+7. Seth H. Frisbie, Erika J. Mitchell, Stephane Roudeau, Florelle Domart, Asuncion Carmona, and Richard Ortega (2019). *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0223636](https://doi.org/10.1371/journal.pone.0223636). Peer-reviewed, A-tier. [[sources/frisbie2019-manganese-infant-formula-beverages|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -36,16 +50,17 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/demir2023-infant-formulas-turkey-toxic-elements\|Demir et al. 2023]]. *Estimated daily intake and health risk assessment of toxic elements in infant formulas*, British Journal of Nutrition | 2023 | Peer-reviewed | TR/EU Al, Mn, Co, Cu, Zn, tAs, Se, Cd, Sn, Pb, tHg occurrence in 72 powdered cow-milk-based infant formula products from 16 anonymized brands in Turkiye, covering 0-6 month infant formula, follow-on... (n=72) |
-| 2 | [[sources/gredilla2022-powdered-milk-hazardous-elements\|Gredilla et al. 2022]]. *A Rapid Routine Methodology Based on Chemometrics to Evaluate the Toxicity of Commercial Infant Milks Due to Hazardous Elements*, Food Analytical Methods | 2022 | Peer-reviewed | BR/CO Li, Al, Mg, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn, tAs, Se, Cd, Sn, Sb, Ba, tHg, Tl, Pb, Mo occurrence in Twelve commercial powdered milk formulas purchased in representative cities of Brazil and Colombia: nine child/infant milks and three... (n=12) |
-| 3 | [[sources/frisbie2019-manganese-infant-formula-beverages\|Frisbie et al. 2019]]. *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*, PLOS ONE | 2019 | Peer-reviewed | US/FR/EU Mn occurrence in 44 infant formulas and young-child nutritional beverage products purchased in the United States (n=25) and France (n=19), selected... (n=44) |
-| 4 | [[sources/durovic2017-human-milk-infant-formula-microelements\|Durovic et al. 2017]]. *Determination of Microelements in Human Milk and Infant Formula Without Digestion by ICP-OES*, Acta Chimica Slovenica | 2017 | Peer-reviewed | ME/RS Zn, Fe, Cu occurrence in 28 mature human milk samples from lactating mothers and 15 powdered infant formula units representing five formula products... (n=43) |
-| 5 | [[sources/unuvar2017-commercial-infant-formula-elements-turkey\|Unuvar et al. 2017]]. *Determination of Element Concentrations in Commercial Infant Formulas Using Atomic Absorption Spectrometry*, Atomic Spectroscopy | 2017 | Peer-reviewed | TR Al, Pb, Fe, Mg, Zn occurrence in Twenty commercial infant formula samples from five manufacturers, purchased from pharmacies and supermarkets in Malatya, Turkey and grouped... (n=20) |
-| 6 | [[sources/odhiambo2015-infant-formula-nairobi-trace-elements\|Odhiambo et al. 2015]]. *Toxic trace elements in different brands of milk infant formulae in Nairobi market, Kenya*, African Journal of Food Science | 2015 | Peer-reviewed | KE Al, Cd, Pb, Ni occurrence in Seven imported cow-milk infant formula powder products for infants aged 0-6 months, purchased from stores in Nairobi County,... (n=7) |
-| 7 | [[sources/fsa2014-infant-foods-metals\|FSA 2014]]. *Survey of metals and other elements in commercial infant foods, infant formula and non-infant specific foods*, Food Standards Agency report | 2014 | Government report | GB Al, Sb, tAs, iAs, Cd, Cr, Cu, Pb, Mn, tHg, Ni, Se, Sn, Zn occurrence in Forty-seven infant formula samples, 200 commercial infant foods, and 50 composite 'other foods' samples purchased from UK retail... (n=297) |
-| 8 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal 2008;754:1-34 | 2008 | Government report | EU Al concentrations |
-| 9 | [[sources/jecfa-67th-aluminium-methylmercury-2007\|JECFA 2007]]. *Evaluation of certain food additives and contaminants — Sixty-seventh report of the Joint FAO/WHO Expert Committee on Food Additives*, WHO Technical Report Series 940 (Sixty-seventh meeting of JECFA, Rome, 20-29 June 2006) | 2007 | Government report | international Al, MeHg, tHg occurrence in Aluminium: total dietary exposure derived from market-basket and duplicate-diet surveys in adults (France, Germany, UK, USA, China), Total... |
-| 10 | [[sources/cot2003-infant-food-metals\|Committee on Toxicity of 2003]]. *COT statement on a survey of metals in infant food*, Committee on Toxicity statement | 2003 | Government report | GB Al, Sb, tAs, Cd, Cr, Cu, Pb, tHg, Ni, Se, Sn, Zn occurrence in Commercial UK baby foods and formulae, including infant formulae, manufactured baby foods, desserts, rusks, and infant drinks, surveyed... (n=189) |
+| 1 | [[sources/research2024-research-open-access-y\|Kumar et al. 2024]]. *High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants*, Environmental Health | 2024 | Peer-reviewed | Cited reference from Environmental Health |
+| 2 | [[sources/demir2023-infant-formulas-turkey-toxic-elements\|Demir et al. 2023]]. *Estimated daily intake and health risk assessment of toxic elements in infant formulas*, British Journal of Nutrition | 2023 | Peer-reviewed | TR/EU Al, Mn, Co, Cu, Zn, tAs, Se, Cd, Sn, Pb, tHg occurrence in 72 powdered cow-milk-based infant formula products from 16 anonymized brands in Turkiye, covering 0-6 month infant formula, follow-on... (n=72) |
+| 3 | [[sources/gredilla2022-powdered-milk-hazardous-elements\|Gredilla et al. 2022]]. *A Rapid Routine Methodology Based on Chemometrics to Evaluate the Toxicity of Commercial Infant Milks Due to Hazardous Elements*, Food Analytical Methods | 2022 | Peer-reviewed | BR/CO Li, Al, Mg, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn, tAs, Se, Cd, Sn, Sb, Ba, tHg, Tl, Pb, Mo occurrence in Twelve commercial powdered milk formulas purchased in representative cities of Brazil and Colombia: nine child/infant milks and three... (n=12) |
+| 4 | [[sources/frisbie2019-manganese-infant-formula-beverages\|Frisbie et al. 2019]]. *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*, PLOS ONE | 2019 | Peer-reviewed | US/FR/EU Mn occurrence in 44 infant formulas and young-child nutritional beverage products purchased in the United States (n=25) and France (n=19), selected... (n=44) |
+| 5 | [[sources/durovic2017-human-milk-infant-formula-microelements\|Durovic et al. 2017]]. *Determination of Microelements in Human Milk and Infant Formula Without Digestion by ICP-OES*, Acta Chimica Slovenica | 2017 | Peer-reviewed | ME/RS Zn, Fe, Cu occurrence in 28 mature human milk samples from lactating mothers and 15 powdered infant formula units representing five formula products... (n=43) |
+| 6 | [[sources/unuvar2017-commercial-infant-formula-elements-turkey\|Unuvar et al. 2017]]. *Determination of Element Concentrations in Commercial Infant Formulas Using Atomic Absorption Spectrometry*, Atomic Spectroscopy | 2017 | Peer-reviewed | TR Al, Pb, Fe, Mg, Zn occurrence in Twenty commercial infant formula samples from five manufacturers, purchased from pharmacies and supermarkets in Malatya, Turkey and grouped... (n=20) |
+| 7 | [[sources/odhiambo2015-infant-formula-nairobi-trace-elements\|Odhiambo et al. 2015]]. *Toxic trace elements in different brands of milk infant formulae in Nairobi market, Kenya*, African Journal of Food Science | 2015 | Peer-reviewed | KE Al, Cd, Pb, Ni occurrence in Seven imported cow-milk infant formula powder products for infants aged 0-6 months, purchased from stores in Nairobi County,... (n=7) |
+| 8 | [[sources/fsa2014-infant-foods-metals\|FSA 2014]]. *Survey of metals and other elements in commercial infant foods, infant formula and non-infant specific foods*, Food Standards Agency report | 2014 | Government report | GB Al, Sb, tAs, iAs, Cd, Cr, Cu, Pb, Mn, tHg, Ni, Se, Sn, Zn occurrence in Forty-seven infant formula samples, 200 commercial infant foods, and 50 composite 'other foods' samples purchased from UK retail... (n=297) |
+| 9 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal 2008;754:1-34 | 2008 | Government report | EU Al concentrations |
+| 10 | [[sources/jecfa-67th-aluminium-methylmercury-2007\|JECFA 2007]]. *Evaluation of certain food additives and contaminants — Sixty-seventh report of the Joint FAO/WHO Expert Committee on Food Additives*, WHO Technical Report Series 940 (Sixty-seventh meeting of JECFA, Rome, 20-29 June 2006) | 2007 | Government report | international Al, MeHg, tHg occurrence in Aluminium: total dietary exposure derived from market-basket and duplicate-diet surveys in adults (France, Germany, UK, USA, China), Total... |
+| 11 | [[sources/cot2003-infant-food-metals\|Committee on Toxicity of 2003]]. *COT statement on a survey of metals in infant food*, Committee on Toxicity statement | 2003 | Government report | GB Al, Sb, tAs, Cd, Cr, Cu, Pb, tHg, Ni, Se, Sn, Zn occurrence in Commercial UK baby foods and formulae, including infant formulae, manufactured baby foods, desserts, rusks, and infant drinks, surveyed... (n=189) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for
@@ -112,15 +127,15 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 No dairy-formula recall or enforcement source is currently routed to this provisional page. Future prose should summarize public regulatory records and keep brand names out unless the source is itself a regulatory event requiring them.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 1 source added and 1 removed; narrative text revised |
+| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added; narrative text revised |
+| [ce3e07c7b](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c7b) | 2026-05-28 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -190,15 +190,14 @@ The contribution is bounded by several limitations: per-region milk-sample count
 - **Data integrity.** All Table 1 cells (14 regions × 6 columns including n, Min, Max, Mean, SE, and †-flag) and Table 2 cells (14 regions × 5 columns) transcribed verbatim from PDF page 310. Table 3 cells (2 metals × 5 columns) transcribed verbatim from PDF page 311. Method-validation parameters (recoveries, SD, RSD, LoD, LoQ, calibration ranges) transcribed verbatim from PDF page 309 §2.3. Exposure-assessment parameters (60 kg body weight, 0.14 kg milk/day, 25-year-old anchor, 46.2 / 4.6 / 244.9 / 97.9 µg/week values, 0.11 / 0.011 µg/kg bw/day values, 1500 / 348 µg/week reference points) transcribed verbatim from PDF page 311 §3.3. Per-region Pb table-total recomputation: 10+13+7+11+3+21+15+3+3+3+5+3+4+17 = 118 ✓ matches the cohort n. Per-region Cd table-total recomputation: same sum, 118 ✓. The §4 discussion comparator §1 ("Pb in raw cow milk in the Southwest of Iran (Tajkarimi et al., 2008)") and §2 (Najarnezhad and Akbarabadi 2013 Khorasan-Razavi Pb 12.9 ± 6.0 µg/kg, Cd 0.3 ± 0.3 µg/kg) values transcribed verbatim from PDF page 312. No paper-internal arithmetic discrepancies identified beyond the Table 1/Table 2 reference typo noted above.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [bd42001f4](https://github.com/paleofoundation/heavymetalindex/commit/bd42001f4) | 2026-06-01 | major | 1 section added and 1 removed; narrative text revised |
+| [07fb5dc65](https://github.com/paleofoundation/heavymetalindex/commit/07fb5dc65) | 2026-06-01 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

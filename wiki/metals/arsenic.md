@@ -9,7 +9,7 @@ microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/arsenic-gut-axis]]", "[[microbiome/arsenic-microbial-methylation]]"]
 wiki_doi: null
 updated: 2026-04-30
-sources: 357
+sources: 451
 ---
 
 # Arsenic
@@ -186,6 +186,35 @@ Second, the dietary contribution to inorganic arsenic cancer risk at general-pop
 
 Third, the contribution of gut-microbiome-mediated arsenic methylation to inter-individual susceptibility is an active research area with implications for biomarker interpretation and for the operational meaning of "individual exposure" in chronic-disease risk modeling. The [[sources/thomas-2021-arsenic-methylation|Thomas 2021]] review summarizes host-enzyme AS3MT-pathway evidence; microbiome contributions complicate the simple dose-response framing and are flagged for future microbiome-ingest synthesis.
 
+<!-- BEGIN: hmi-metal-faq -->
+## Frequently asked questions
+<!-- audience: consumer, educator -->
+
+### Does the form of arsenic matter more than the total amount?
+
+Yes. Inorganic arsenic (iAs) is the toxicologically dominant form and the carcinogen of regulatory concern, and it is what the wiki's content focuses on ([[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Total-arsenic measurements that do not distinguish inorganic from organic species are not informative for risk, so when you see a "total arsenic" number the actionable question is what fraction is inorganic. Distinguishing them often requires speciation analysis (HPLC-ICP-MS) rather than total-arsenic ICP-MS ([[sources/navaretnam-2025-rice-as-speciation|Navaretnam et al. 2025]]).
+
+### What foods are the biggest source of inorganic arsenic in the diet?
+
+For people without elevated drinking-water arsenic, rice and rice-based foods are the dominant single dietary source, because rice efficiently accumulates inorganic arsenic from flooded-paddy soils ([[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Brown rice carries more than white rice because the bran layer concentrates the metal ([[sources/su2023-arsenic-brown-rice-benefits-risks|Su et al. 2023]]). Other notable matrices include seaweed (especially hijiki), apple and grape juice, and rice protein powder and rice syrup; finfish is mostly harmless arsenobetaine and poses minimal arsenic-specific dietary risk.
+
+### Why is inorganic arsenic a health concern, and what are its effects?
+
+Inorganic arsenic is classified as a Group 1 human carcinogen by IARC, with dose-response associations for lung, bladder, and skin cancer at chronic exposures ([[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]], [[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Non-cancer effects documented in the literature include cardiovascular effects, neurodevelopmental effects in children, dermal effects such as hyperpigmentation and keratosis, peripheral neuropathy, and emerging diabetes associations ([[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]]). Mechanistically it binds sulfhydryl groups in proteins, generates oxidative stress, and inhibits DNA repair rather than forming direct DNA adducts ([[sources/thomas-2021-arsenic-methylation|Thomas 2021]]).
+
+### Who is most vulnerable to arsenic exposure?
+
+Infants fed rice cereal as a first solid food are a key vulnerable group, which is why the FDA set a 100 ppb action level for infant rice cereal ([[sources/fda-iAs-rice-cereal-2020|FDA 2020]]). Children under three are exposed at 2 to 3 times adult per-kilogram rates because of greater per-kg food intake ([[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Private-well users in arsenic-affected regions fall outside EPA drinking-water monitoring, and people with low folate or B12 status have reduced methylation efficiency, increasing retention of inorganic species ([[sources/thomas-2021-arsenic-methylation|Thomas 2021]]).
+
+### What are the regulatory limits for arsenic in water and food?
+
+The EPA drinking-water Maximum Contaminant Level for total arsenic is 10 ppb (10 µg/L), lowered from the earlier 50 ppb standard, and it applies to public water systems but not private wells ([[sources/epa-arsenic-drinking-water-mcl|EPA Arsenic MCL]]). The FDA set a 100 ppb action level for inorganic arsenic in infant rice cereal in 2020 ([[sources/fda-iAs-rice-cereal-2020|FDA 2020]]). Major bodies have declined to set a single tolerable intake: JECFA withdrew its PTWI of 15 µg/kg body weight per week in 2010, and EFSA reports cancer BMDL01 values of 0.3 to 8 µg iAs/kg body weight per day instead ([[sources/jecfa-82nd-arsenic|JECFA 82nd]], [[sources/efsa-arsenic-contam-2009|EFSA 2009]]). ATSDR derives a chronic oral MRL of 0.3 µg As/kg/day anchored on dermal effects ([[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]]).
+
+### How can I reduce arsenic exposure from rice and well water?
+
+For infants, choosing non-rice or rice-minor first cereals such as oat, barley, or multi-grain lowers exposure, since these carry substantially less inorganic arsenic per serving than rice cereal. For older children and adults, white rice carries roughly 50 percent less inorganic arsenic than brown rice from the same source, and cooking rice in excess water that is drained off reduces iAs by approximately 40 to 50 percent ([[sources/su2023-arsenic-brown-rice-benefits-risks|Su et al. 2023]]). Private-well users in arsenic-affected regions should test their water through an EPA-certified lab and treat, substitute, or reduce use if levels exceed 10 µg/L ([[sources/epa-arsenic-drinking-water-mcl|EPA Arsenic MCL]]).
+<!-- END: hmi-metal-faq -->
+
 ## Sources
 
 - [[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]] — ATSDR, August 2007. Toxicological Profile for Arsenic.
@@ -204,16 +233,38 @@ Third, the contribution of gut-microbiome-mediated arsenic methylation to inter-
 
 See also [[studies/arsenic-primary-literature]] for the citable index of arsenic-focused primary research articles in raw/studies/.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 15 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Agency for Toxic Substances and Disease Registry (2007). *Toxicological Profile for Arsenic*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [https://doi.org/10.15620/cdc:11481](https://doi.org/10.15620/cdc:11481). Government report, A-tier. [[sources/atsdr-arsenic-toxprofile-2007|Source record]]
+2. U.S. Environmental Protection Agency, Center for Public Health and Environmental Assessment (2025). *IRIS Toxicological Review of Inorganic Arsenic*. EPA/635/R-25/005Fa, U.S. Environmental Protection Agency, Integrated Risk Information System. [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=278). Government report, A-tier. [[sources/epa-iris-inorganic-arsenic-2025|Source record]]
+3. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2009). *Scientific Opinion on Arsenic in Food*. EFSA Journal 2009;7(10):1351. [https://doi.org/10.2903/j.efsa.2009.1351](https://doi.org/10.2903/j.efsa.2009.1351). Government report, A-tier. [[sources/efsa-arsenic-contam-2009|Source record]]
+4. Joint FAO/WHO Expert Committee on Food Additives (2017). *Safety Evaluation of Certain Food Additives (Arsenic), 82nd Meeting of JECFA*. WHO Food Additives Series 73. [www.who.int](https://www.who.int/publications/i/item/9789241660730). Government report, A-tier. [[sources/jecfa-82nd-arsenic|Source record]]
+5. California Office of Environmental Health Hazard Assessment (n.d.). *Arsenic (inorganic Arsenic Compounds) — Proposition 65 Chemical Listing*. California Office of Environmental Health Hazard Assessment, Proposition 65 Listings. [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/arsenic-inorganic-arsenic-compounds). Government report, A-tier. [[sources/oehha-arsenic-prop65-listing|Source record]]
+6. U.S. Environmental Protection Agency, Office of Water (2001). *EPA Drinking Water Arsenic MCL Rule (10 ppb)*. U.S. Environmental Protection Agency. [www.epa.gov](https://www.epa.gov/dwreginfo/drinking-water-arsenic-rule-history). Government report, A-tier. [[sources/epa-arsenic-drinking-water-mcl|Source record]]
+7. U.S. Food and Drug Administration (2020). *Inorganic Arsenic in Rice Cereals for Infants: Action Level; Guidance for Industry*. U.S. Food and Drug Administration, Federal Register Notice (Docket FDA-2016-D-1099). [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-rice-cereals-infants). Government report, A-tier. [[sources/fda-iAs-rice-cereal-2020|Source record]]
+8. U.S. Food and Drug Administration and U.S. Environmental Protection Agency (2017). *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*. U.S. FDA and U.S. EPA. [www.fda.gov](https://www.fda.gov/food/consumers/advice-about-eating-fish). Government report, A-tier. [[sources/fda-epa-fish-consumption-advice|Source record]]
+9. Thomas DJ (2021). *Arsenic Methylation — Lessons from Three Decades of Research*. Toxicology 457:152800. [https://doi.org/10.1016/j.tox.2021.152800](https://doi.org/10.1016/j.tox.2021.152800). Peer-reviewed, A-tier. [[sources/thomas-2021-arsenic-methylation|Source record]]
+10. Ufelle AC and Barchowsky A (2021). *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*. Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education. [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827). Textbook chapter, A-tier. [[sources/ufelle2021-metals-chapter|Source record]]
+11. Su LJ, Chiang TC, and O'Connor SN (2023). *Arsenic in brown rice: do the benefits outweigh the risks?*. Frontiers in Nutrition. [https://doi.org/10.3389/fnut.2023.1209574](https://doi.org/10.3389/fnut.2023.1209574). Peer-reviewed, B-tier. [[sources/su2023-arsenic-brown-rice-benefits-risks|Source record]]
+12. Navaretnam R, Aris AZ, Shukor MFA, Norrrahim MNF, Knight VF, Chin TT, et al. (2025). *Arsenic Speciation Using HPLC-ICP-MS in White and Brown Rice and Health Risk Assessment*. Environmental Geochemistry and Health 47:411. [https://doi.org/10.1007/s10653-025-02723-2](https://doi.org/10.1007/s10653-025-02723-2). Peer-reviewed, A-tier. [[sources/navaretnam-2025-rice-as-speciation|Source record]]
+13. Brian P. Jackson, Vivien F. Taylor, Tracy Punshon, and Kathryn L. Cottingham (2012). *Arsenic concentration and speciation in infant formulas and first foods*. Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223. [https://doi.org/10.1351/PAC-CON-11-09-17](https://doi.org/10.1351/PAC-CON-11-09-17). Peer-reviewed, A-tier. [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Source record]]
+14. U.S. Food and Drug Administration (2022). *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*. U.S. Food and Drug Administration, Total Diet Study Program. [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results). Government report, A-tier. [[sources/fda-tds-elements-2018-2020|Source record]]
+15. Michael Coryell, Barbara A. Roggenbeck, and Seth T. Walk (2019). *The Human Gut Microbiome's Influence on Arsenic Toxicity*. Current Pharmacology Reports, Vol. 5, No. 6, pp. 491-504. [https://doi.org/10.1007/s40495-019-00206-4](https://doi.org/10.1007/s40495-019-00206-4). Peer-reviewed, A-tier. [[sources/coryell2019-gut-microbiome-arsenic-toxicity|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [fc8a2c2ab](https://github.com/paleofoundation/heavymetalindex/commit/fc8a2c2ab) | 2026-06-23 | feat(regulators): link Body cells to /regulators/ across metals pages |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 13 sources added; 9 sections added and 1 removed; narrative text revised |
+| [c26d92116](https://github.com/paleofoundation/heavymetalindex/commit/c26d92116) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 2 sources added and 2 removed; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [3902221b1](https://github.com/paleofoundation/heavymetalindex/commit/3902221b1) | 2026-05-11 | major | 1 source added; narrative text revised |
 <!-- END: hmi-page-history -->

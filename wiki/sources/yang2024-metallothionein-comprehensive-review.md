@@ -176,14 +176,15 @@ This is a narrative review with no declared search strategy, no inclusion or exc
 **Audit subagent (2026-06-08) verdict: REVISE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) returned ✅✅✅✅✅ at the body level with two ⚠️ findings, both minor; no ❌. (1) Table 1 row 9 initially read "MT expressed by engineered *Rhodococcus* (EcN-MT)"; verified against the PDF Table 1 Cont. on p. 5 and reference [35] (Zou et al. 2022, *Front. Pharmacol.* 13:857869, "Engineered Bacteria EcN-MT Alleviate Liver Injury in Cadmium-Exposed Mice via its Probiotics Characteristics and Expressing of Metallothionein") — the PDF says "engineered bacterium EcN-MT" and EcN denotes *E. coli* Nissle, not *Rhodococcus*; corrected to "engineered bacterium EcN-MT (*E. coli* Nissle, per ref 35)". (2) The auditor flagged `[[mitigation/remediation-evidence]]` in `## Wiki pages this source may touch` as outside the taxonomy snapshot's vocabulary; verified against `wiki/mitigation/remediation-evidence.md` (which exists) and against the 2026-06-02 scope commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip` — finding is a false positive because the taxonomy snapshot scopes ingredients/products/metals/regulations as GPT's drafting vocabulary, not the full wiki section index; the `mitigation/` subtree is a legitimate routing destination (and the same wikilink form is used in the sibling luo2024-peptides-heavy-metal-remediation page). No change applied on finding (2).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [a9883dd26](https://github.com/paleofoundation/heavymetalindex/commit/a9883dd26) | 2026-06-08 | audit: yang2024-metallothionein-comprehensive-review revised |
-| [584b8c36d](https://github.com/paleofoundation/heavymetalindex/commit/584b8c36d) | 2026-06-08 | ingest: yang2024-metallothionein-comprehensive-review fresh from MFK/June 8/Kimi_Agent_Black Market Peptide Metal Survey |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [a9883dd26](https://github.com/paleofoundation/heavymetalindex/commit/a9883dd26) | 2026-06-08 | minor | Narrative text revised |
+| [584b8c36d](https://github.com/paleofoundation/heavymetalindex/commit/584b8c36d) | 2026-06-08 | major | 17 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

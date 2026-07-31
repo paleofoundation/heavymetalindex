@@ -115,13 +115,14 @@ NGO commodity-survey study with two paired sampling rounds. Round 1 (2019): 20 d
 - 2026-06-09 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against `wiki/sources/` returned no hits: no DOI (NGO grey literature, no DOI assigned); raw_handle `MFK_03-new-diaper-study-final-2015` not present; cite-key stem `toxicslink2021` not present (only existing Toxics Link cite-key is `johnson2012-cpsc-astm-f963-status.md` which is unrelated). PDF SHA-256 `5f0e1376f5a0a91b8f3b5b8c84a8cb083533e6149c6e3ee37977cb4c04ae828a`. Filename misleadingly says "FINAL_2015" but the document copyright is 2021 and content references 2019-2021 sampling rounds and 2020-2024 market forecasts. Report measures phthalates (DEHP, BBP, DBP, DIBP, DEP) only — zero heavy metals — ingested as methodology / out-of-core-scope / regulatory-landscape reference per the `lai2025-infant-diaper-phthalate-dna-oxidation` precedent. Routed to `[[products/diapers-and-components]]` (HMTc Cat 9 Row 7 scaffold) for discoverability as a diaper-paper but `metals: []` correctly reflects no metal occurrence data.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [3d9861a6f](https://github.com/paleofoundation/heavymetalindex/commit/3d9861a6f) | 2026-06-09 | audit: toxicslink2021-india-diaper-phthalates [revised] |
-| [342c5c80b](https://github.com/paleofoundation/heavymetalindex/commit/342c5c80b) | 2026-06-09 | ingest: toxicslink2021-india-diaper-phthalates fresh from MFK/June 8 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [3d9861a6f](https://github.com/paleofoundation/heavymetalindex/commit/3d9861a6f) | 2026-06-09 | minor | Narrative text revised |
+| [342c5c80b](https://github.com/paleofoundation/heavymetalindex/commit/342c5c80b) | 2026-06-09 | major | 3 sources added; 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

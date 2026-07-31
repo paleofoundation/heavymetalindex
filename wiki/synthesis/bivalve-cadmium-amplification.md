@@ -89,16 +89,30 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 7 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Mohamed A. Hussein, Nanis S. Morsy, Abdallah F. Mahmoud, Wageh S. Darwish, Mohamed T. Elabbasy, František Zigo, et al. (2023). *Risk assessment of toxic residues among some freshwater and marine water fish species*. Frontiers in Veterinary Science. [https://doi.org/10.3389/fvets.2023.1185395](https://doi.org/10.3389/fvets.2023.1185395). Peer-reviewed, A-tier. [[sources/hussein2023-freshwater-marine-fish-egypt|Source record]]
+2. Rusko L, Ozola-Davidane R, Kviesis J, and Klavins M (2026). *Risk-Benefit Assessment of Mercury, Lead, Cadmium, and Arsenic in Inland Fish from Latvian Lakes*. Foods. [https://doi.org/10.3390/foods15091516](https://doi.org/10.3390/foods15091516). Peer-reviewed, A-tier. [[sources/rusko2026-mercury-fish-latvia-risk-benefit|Source record]]
+3. Cardoso PG, Morais H, Crespo D, Tavares D, Pereira E, and Pardal MA (2023). *Seasonal characterization of mercury contamination along the Portuguese coast: human health and environmental risk assessment*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-023-29495-5](https://doi.org/10.1007/s11356-023-29495-5). Peer-reviewed, A-tier. [[sources/cardoso2023-mercury-portuguese-coast-seafood|Source record]]
+4. Bruno F, Nava V, Zappalà S, Costa GL, Fazio F, Parrino V, et al. (2024). *Mineral composition in mussel Mytilus galloprovincialis and clam Tapes decussatus from Faro Lake of Messina: risk assessment for human health*. Frontiers in Toxicology. [https://doi.org/10.3389/ftox.2024.1494977](https://doi.org/10.3389/ftox.2024.1494977). Peer-reviewed, A-tier. [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily|Source record]]
+5. Dogruyol H, Mol S, Ulusoy S, and Atanasof A (2024). *Evaluation of Health Risks Attributed to Toxic Trace Elements and Selenium in Farmed Mediterranean Mussels from Türkiye and Bulgaria*. Environmental Science and Pollution Research (published online 1 February 2024). [https://doi.org/10.1007/s12011-024-04084-w](https://doi.org/10.1007/s12011-024-04084-w). Peer-reviewed, A-tier. [[sources/dogruyol2024-mediterranean-mussels-health-risk|Source record]]
+6. Bao (2024). *Single-particle ICP-MS characterisation of metal nanoparticles in mussels*. unknown. [https://doi.org/10.1093/jaoacint/qsae024](https://doi.org/10.1093/jaoacint/qsae024). Peer-reviewed, A-tier. [[sources/bao2024-sp-icp-ms-nps-mussels|Source record]]
+7. Rohonczy J, Chételat J, Pienkowski L, Goodwin M, Lerash R, Houde M, et al. (2024). *Cadmium and mercury trophic transfer in the Arctic marine food web of Hudson Bay*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-024-32268-3](https://doi.org/10.1007/s11356-024-32268-3). Peer-reviewed, A-tier. [[sources/rohonczy2024-arctic-foodweb-cd-hg|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | fix(synthesis): coherent index (Overview toggle, no dump) + subpage Overviews |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
+| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
+| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

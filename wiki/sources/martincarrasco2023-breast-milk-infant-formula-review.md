@@ -151,13 +151,14 @@ Data treatment (Section 2.2): two parallel databases were assembled, each with s
   - ⚠️ `[[metals/selenium]]`: audit caught a missing slug — selenium has no page in `wiki/metals/`. Replaced with `[[metals/antimony]]` because Sb is in the metals frontmatter array (the source reports Sb in Ghuniem 2020a Table 4), antimony is a valid metals slug, and selenium values from constituent studies were the original justification but cannot route without a target page. Se remains in the metals frontmatter abbreviation array because the source does report it; the routing layer will reach `wiki/metals/selenium` if and when that page is created.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [9a8e38832](https://github.com/paleofoundation/heavymetalindex/commit/9a8e38832) | 2026-06-09 | audit: martincarrasco2023-breast-milk-infant-formula-review revised |
-| [7a7aba50b](https://github.com/paleofoundation/heavymetalindex/commit/7a7aba50b) | 2026-06-09 | ingest: martincarrasco2023-breast-milk-infant-formula-review fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [9a8e38832](https://github.com/paleofoundation/heavymetalindex/commit/9a8e38832) | 2026-06-09 | minor | Narrative text revised |
+| [7a7aba50b](https://github.com/paleofoundation/heavymetalindex/commit/7a7aba50b) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -154,14 +154,15 @@ Funded by NIH, the Rita Allen Foundation, the Lucille P. Markey Charitable Trust
 2 findings, 2 applied, 0 rejected. Audit subagent ID a9f6f632d54da1a39.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [de0b14e7c](https://github.com/paleofoundation/heavymetalindex/commit/de0b14e7c) | 2026-06-08 | audit: garrity1990-mt1-tissue-specific-promoter revised |
-| [9792010ac](https://github.com/paleofoundation/heavymetalindex/commit/9792010ac) | 2026-06-08 | ingest: garrity1990-mt1-tissue-specific-promoter fresh from MFK/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [de0b14e7c](https://github.com/paleofoundation/heavymetalindex/commit/de0b14e7c) | 2026-06-08 | minor | Narrative text revised |
+| [9792010ac](https://github.com/paleofoundation/heavymetalindex/commit/9792010ac) | 2026-06-08 | major | 14 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -138,15 +138,15 @@ What this method measures and does not measure: total dissolved tin (Sn) includi
 **2026-06-08 byte-identical filesystem-copy enhancement:** added a `near_duplicates` entry recording the Kimi agent's June 8 placement of the same PDF under `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/`. SHA-256 verified byte-identical to the canonical `raw_path` (`cf02363493b9f24ba353e181ba3ac7fac20dea26b5356fec7584283be8fe8862`); the same hash also appears at three other Kimi-corruption-issue paths (`May 21 .../papers/02_Vegetables_and_Vegetable_Products/`, `June 8/.../papers/02_Vegetables_and_Vegetable_Products/`, and `manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/`). Manual-fetch loop now recognizes the June 8 `_extracted_` location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [20de97112](https://github.com/paleofoundation/heavymetalindex/commit/20de97112) | 2026-06-08 | ingest: trandafir2012-tin-canned-foods-icp-ms duplicate_filesystem_copies path from Manual Fetch Kimi /June 8/_extracted_02_Vegetables_and_Vegetable_Products |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [20de97112](https://github.com/paleofoundation/heavymetalindex/commit/20de97112) | 2026-06-08 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [4431c68a3](https://github.com/paleofoundation/heavymetalindex/commit/4431c68a3) | 2026-05-20 | minor | Narrative text revised |
+| [9d908a6c7](https://github.com/paleofoundation/heavymetalindex/commit/9d908a6c7) | 2026-05-20 | major | 3 sections added and 2 removed; narrative text revised |
 <!-- END: hmi-page-history -->

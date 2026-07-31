@@ -143,14 +143,15 @@ Table 5 prints the TF_wm right-margin ranking annotation as "Pb > Ni > Cu > Zn",
 Tables 1, 2 and 3 in the source print "Average" rows whose ± values are implausibly tight relative to the per-cultivar spreads in the same tables (e.g., Table 3 leaves Pb Average 4.25 ± 0.03 vs per-cultivar values 4.93 / 3.12 / 4.69, whose cross-cultivar SD is ≈ 0.99; Table 3 leaves Cd Average 0.77 ± 0.03 vs per-cultivar 0.58 / 0.79 / 0.93, cross-cultivar SD ≈ 0.18). The Average-row ± appears to be the within-replicate (n = 3) analytical SD averaged across cultivars rather than the cross-cultivar SD. This page reproduces what the source prints; downstream users should not treat the Average-row SDs as cross-cultivar variability.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [d70d6eb09](https://github.com/paleofoundation/heavymetalindex/commit/d70d6eb09) | 2026-06-06 | audit: bora2015-vineyard-wine-heavy-metals-romania [promoted] |
-| [6d519cf85](https://github.com/paleofoundation/heavymetalindex/commit/6d519cf85) | 2026-06-06 | ingest: bora2015-vineyard-wine-heavy-metals-romania [fresh] from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [d70d6eb09](https://github.com/paleofoundation/heavymetalindex/commit/d70d6eb09) | 2026-06-06 | minor | Narrative text revised |
+| [6d519cf85](https://github.com/paleofoundation/heavymetalindex/commit/6d519cf85) | 2026-06-06 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

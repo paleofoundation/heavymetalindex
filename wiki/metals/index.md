@@ -42,3 +42,17 @@ The toxic metals covered most fully, with the reference point most readers reach
 ## Full index
 
 Every element the wiki tracks, grouped by how developed its page is.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [b1eb2d10c](https://github.com/paleofoundation/heavymetalindex/commit/b1eb2d10c) | 2026-07-04 | major | 4 sections added and 1 removed; narrative text revised |
+| [19cec1a0a](https://github.com/paleofoundation/heavymetalindex/commit/19cec1a0a) | 2026-07-03 | major | 2 sections added and 1 removed; narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

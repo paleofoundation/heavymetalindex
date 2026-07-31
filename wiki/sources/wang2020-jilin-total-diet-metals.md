@@ -93,14 +93,15 @@ This source contributes China/Jilin total-diet occurrence and exposure context f
 - Audit revision 2026-06-09: added `[[products/fish-freshwater]]` (carp) and `[[products/fish-marine-non-predatory]]` (cod) for more precise routing of the two named aquatic-products species. Added second-highest contribution percentages for As, Cd, and Al for parity with Pb. Flagged the internal §3.4-vs-Discussion inconsistency on the Al cereal contribution rate (70.22% vs 77.22%); Table 6 arithmetic confirms 70.22% (= 225.282 / 320.802) is correct.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [276f55976](https://github.com/paleofoundation/heavymetalindex/commit/276f55976) | 2026-06-09 | audit: wang2020-jilin-total-diet-metals revised per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [064291360](https://github.com/paleofoundation/heavymetalindex/commit/064291360) | 2026-06-08 | ingest: wang2020-jilin-total-diet-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [276f55976](https://github.com/paleofoundation/heavymetalindex/commit/276f55976) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [064291360](https://github.com/paleofoundation/heavymetalindex/commit/064291360) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

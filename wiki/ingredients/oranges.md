@@ -233,6 +233,26 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 European Union Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level of 0.10 mg/kg for Pb and 0.050 mg/kg for Cd in fresh fruit on a wet weight basis, applicable to oranges. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) sets Pb maximum levels for fresh fruit. No specific iAs or tHg regulatory limit applies to fresh citrus fruit. Orange juice (the derived product) is subject to a more stringent EU Pb limit of 0.050 mg/kg; see [[ingredients/orange-juice]] and [[regulations/eu2023-contaminants-maximum-levels]] for the juice-specific framework.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 13 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
+2. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+3. Loutfy N, Mentler A, Shoeab M, Ahmed MT, and Fuerhacker M (2012). *Analysis and exposure assessment of some heavy metals in foodstuffs from Ismailia city, Egypt*. Toxicological & Environmental Chemistry. [https://doi.org/10.1080/02772248.2011.638445](https://doi.org/10.1080/02772248.2011.638445). Peer-reviewed, A-tier. [[sources/loutfy2012-ismailia-foodstuffs-metals|Source record]]
+4. Rahim M, Saqib NU, Wahid F, Khan N, and Alrawi LI (2020). *Analysis of Toxic Heavy Metal Content of the Most Widely Consumed Fruits*. Journal of Physical Science. [https://doi.org/10.21315/jps2020.31.2.5](https://doi.org/10.21315/jps2020.31.2.5). Peer-reviewed, A-tier. [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Source record]]
+5. Czech A, Malik A, Sosnowska B, and Domaradzki P (2021). *Bioactive Substances, Heavy Metals, and Antioxidant Activity in Whole Fruit, Peel, and Pulp of Citrus Fruits*. International Journal of Food Science. [https://doi.org/10.1155/2021/6662259](https://doi.org/10.1155/2021/6662259). Peer-reviewed, A-tier. [[sources/czech2021-citrus-lead-cadmium|Source record]]
+6. Mekonnen BA, Yizengaw MG, Kassahun H, and Ketema G (2024). *Health Risk Assessment of Potentially Toxic Elements Contamination of Commonly Consumed Fruits in Bahir Dar Town, Northwest Ethiopia*. International Journal of Food Science. [https://doi.org/10.1155/2024/6677324](https://doi.org/10.1155/2024/6677324). Peer-reviewed, A-tier. [[sources/mekonnen2024-ethiopia-fruit-metals|Source record]]
+7. Amer MM, Sabry BA, Marrez DA, Hathout AS, and Fouzy ASM (2019). *Exposure assessment of heavy metal residues in some Egyptian fruits*. Toxicology Reports. [https://doi.org/10.1016/j.toxrep.2019.06.007](https://doi.org/10.1016/j.toxrep.2019.06.007). Peer-reviewed, A-tier. [[sources/amer2019-egyptian-fruits-heavy-metals|Source record]]
+8. Magdalene Unaegbu, Vincent C. I. Eze, Ebere C. I. Omeje, Ezinne A. O. Agbo, and Ebere V. Chukwuma (2016). *Heavy metal, nutrient and antioxidant status of selected fruit samples sold in Enugu, Nigeria*. International Journal of Food Contamination. [https://doi.org/10.1186/s40550-016-0031-9](https://doi.org/10.1186/s40550-016-0031-9). Peer-reviewed, A-tier. [[sources/unaegbu2016-fruit-heavy-metals-enugu|Source record]]
+9. Munir N, Jahangeer M, Bouyahya A, El Omari N, Ghchime R, Balahbib A, et al. (2022). *Heavy Metal Contamination of Natural Foods Is a Serious Health Issue: A Review*. Sustainability. [https://doi.org/10.3390/su14010161](https://doi.org/10.3390/su14010161). Review, B-tier. [[sources/munir2022-heavy-metals-natural-foods-review|Source record]]
+10. Tsegay ZT, Smaoui S, and Varzakas T (2025). *Toxicological qualities and detoxification trends of fruit by-products for valorization: A review*. Open Life Sciences 20:20251105. [https://doi.org/10.1515/biol-2025-1105](https://doi.org/10.1515/biol-2025-1105). Peer-reviewed, B-tier. [[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review|Source record]]
+11. Chioma Udoka Okeke and Dauda Sanda (2026). *Accumulation of Chromium, Lead and Arsenic in Calcium Carbide Induced Ripened Fruits and Their Possible Human Health Risks in Bauchi, Nigeria*. International Journal of Research and Scientific Innovation. [https://doi.org/10.51244/IJRSI.2026.1315PH00024](https://doi.org/10.51244/IJRSI.2026.1315PH00024). Peer-reviewed, A-tier. [[sources/okeke2026-calcium-carbide-ripened-fruits-metals|Source record]]
+12. Afrin S (2020). *Determination and Risk Analysis of Heavy Metals in Different Fruits Collected from Different Shops of Dhaka City*. M.S. Thesis, Sher-e-Bangla Agricultural University, Dhaka. Peer-reviewed, B-tier. [[sources/afrin2020-heavy-metals-fruits-dhaka|Source record]]
+13. Lee J, Hwang I, Park YS, and Lee DY (2023). *Occurrence and health risk assessment of antimony, arsenic, barium, cadmium, chromium, nickel, and lead in fresh fruits consumed in South Korea*. Applied Biological Chemistry. [https://doi.org/10.1186/s13765-023-00799-x](https://doi.org/10.1186/s13765-023-00799-x). Peer-reviewed, A-tier. [[sources/lee2023-south-korea-fresh-fruits-seven-metals|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -256,15 +276,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [22134c35a](https://github.com/paleofoundation/heavymetalindex/commit/22134c35a) | 2026-06-23 | fix(integrity): drain 28 re-accumulated censored-zero contamination cells; re-flip audit to build-blocking |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [bd0445000](https://github.com/paleofoundation/heavymetalindex/commit/bd0445000) | 2026-06-11 | fix(ingredient-tables): parse flow-style contamination_profile YAML, unblocking 64 all-dashes tables |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
+| [22134c35a](https://github.com/paleofoundation/heavymetalindex/commit/22134c35a) | 2026-06-23 | correction | 8 sources added; contamination-profile values revised; narrative text revised |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [0ae30c7b4](https://github.com/paleofoundation/heavymetalindex/commit/0ae30c7b4) | 2026-06-11 | correction | 8 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

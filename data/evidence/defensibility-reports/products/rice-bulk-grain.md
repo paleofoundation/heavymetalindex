@@ -2,15 +2,15 @@
 source_page: wiki/products/rice-bulk-grain.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: da5f6641dab07f40f923bba84e92deb88d9c1fac12aa0e009bc3ef47deffe27f
+source_page_sha256: 315774df492e6bdd2f054e3b3a4457fd8ca364010f87662a728de272af05108c
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
-distinct_cited_targets: 75
-distinct_cited_sources: 75
+distinct_cited_targets: 76
+distinct_cited_sources: 76
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2419
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 1 |
 | cited claims | 1 |
 | uncited claims | 0 |
-| distinct cited targets | 75 |
-| distinct cited `sources/` pages | 75 |
+| distinct cited targets | 76 |
+| distinct cited `sources/` pages | 76 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2419 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 
@@ -50,7 +50,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `94.41 mg/kg`
 - Context: `d paddy soil (0-20 cm, Dongzhi County, Chizhou, Anhui Province, China; total Sb 94.41 mg/kg) used... (n=1) | | 5 | [[sou`
-- Cited targets (75):
+- Cited targets (76):
   - `wiki/sources/anses2026-tds3-metals-france\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ataee2016-iran-cereals-pb-cd\.md` (page missing)
@@ -195,6 +195,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/xu2022-crop-grains-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zhang2020-rice-cadmium-bioaccessibility-supplements\.md` (page missing)
@@ -282,6 +284,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/welna2018-brown-rice-inorganic-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/williams2007-rice-arsenic-us-market-basket\.md` | sources | 0 | — | — |
 | `wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\.md` | sources | 0 | — | — |
+| `wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/xu2022-crop-grains-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/zhang2020-rice-cadmium-bioaccessibility-supplements\.md` | sources | 0 | — | — |
 | `wiki/sources/zhou2000-china-vegetable-heavy-metals-review\.md` | sources | 0 | — | — |

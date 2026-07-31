@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-cans-lids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5428d1b72ce33e5a963f0a2b765413a5c67a770a25705f4fa66b4f4e4e377cdd",
-      "content_bytes": 11199,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "ee0847f85df7d59e001959b800af76b554bbf2beef8a8e9cb0ef6f91fbc36757",
+      "content_bytes": 11240,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/food-packaging-cans-lids.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/food-packaging-cans-lids.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/buculei2012-tin-iron-migration-canned-food-romania",
         "content_pin": {
-          "content_sha256": "72a7502fe65f9848bcfd935d8232e2b8e0fdcfd533d3d14ef1ca1a4d4653a703",
-          "content_bytes": 18233,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "69b877d22da6aa18a8d239566bb1cdf2fb4907a88557793bbfb992c98af497f3",
+          "content_bytes": 18260,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/buculei2012-tin-iron-migration-canned-food-romania.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/buculei2012-tin-iron-migration-canned-food-romania.md | sha256sum"
         }
       },
       {
@@ -85,12 +85,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/edqm2024-metals-alloys-food-contact-guide",
         "content_pin": {
-          "content_sha256": "24345302e8f524c5556ce29b38b72d68b6ab2e7851f2cd072ee3e85ba1b43577",
-          "content_bytes": 9872,
-          "last_commit_sha": "2894f25d8",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "f6feb4df343a83a58589947eeb3edba93de94ed8f1b9e3d992e20e2683c28c73",
+          "content_bytes": 10051,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 2894f25d8:wiki/sources/edqm2024-metals-alloys-food-contact-guide.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/edqm2024-metals-alloys-food-contact-guide.md | sha256sum"
         }
       },
       {
@@ -105,12 +105,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2005-tin-food-upper-intake",
         "content_pin": {
-          "content_sha256": "10b714a3e50debc8a544288b605dd611a3a0ce13da4c52d64b02b9069ea4ae48",
-          "content_bytes": 4982,
-          "last_commit_sha": "fb63f6e92",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "258884aeb9abb4214bb9c929a869ff73ceea418418347a09d7ae1ad77c845d78",
+          "content_bytes": 5161,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show fb63f6e92:wiki/sources/efsa2005-tin-food-upper-intake.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/efsa2005-tin-food-upper-intake.md | sha256sum"
         }
       },
       {
@@ -125,12 +125,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/el-daouk2020-aluminum-food-lebanon",
         "content_pin": {
-          "content_sha256": "6ae06390094b6f9fc3663601361fc611ed98bedc2a2fcf2945c260f3a0d83935",
-          "content_bytes": 22492,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "0146a3fd2b212c8653c04f0ed8bab620b5306013b6ed9f26fcb93ac0c6ed7489",
+          "content_bytes": 22672,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/el-daouk2020-aluminum-food-lebanon.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/el-daouk2020-aluminum-food-lebanon.md | sha256sum"
         }
       },
       {
@@ -145,12 +145,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/imsi2015-gmp-maple-syrup-lead",
         "content_pin": {
-          "content_sha256": "889163f6dc13397d035ce8ca502130e1f393d23cbadb6122cad883c9ec8218af",
-          "content_bytes": 21113,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "fe60f04969ec0f5f09a12a0da9ac43e57179cc5585f165cab36fc93c967a5792",
+          "content_bytes": 21140,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/imsi2015-gmp-maple-syrup-lead.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/imsi2015-gmp-maple-syrup-lead.md | sha256sum"
         }
       },
       {
@@ -181,12 +181,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadhya2023-india-food-heavy-metals-regulation",
         "content_pin": {
-          "content_sha256": "cdf4cd39505289abb02d25ffbefcec4da71b859de3090d1c9dfd09bc1d3a19cb",
-          "content_bytes": 21644,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "c1063a76e8e2d244da8c5ebd5f6309b4f147b8b4b5146ca55e61ef8bba8b3881",
+          "content_bytes": 21824,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
         }
       },
       {
@@ -201,12 +201,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stahl2017-aluminum-food-contact-part1",
         "content_pin": {
-          "content_sha256": "28ce812225e772e4c8ac3003d3773a5d317d9ed207a0678713cfa0ccd589eaa0",
-          "content_bytes": 7272,
-          "last_commit_sha": "046939195",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "a5023a8877b61d2623844b4e4159c0d4c7c9c7d9bfa7d97aa2ff706a8862b423",
+          "content_bytes": 7451,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 046939195:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
         }
       },
       {
@@ -222,12 +222,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yamanaka2025-tinplate-pineapple-cans",
         "content_pin": {
-          "content_sha256": "dc0ba33eefbb1148958154cf59f48dffb937fea9eae0a676321b25d0e2aefa02",
-          "content_bytes": 5462,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "183006d24d23f9cb5927827d012f894073bac93a5b9691f492c89086bcd243f9",
+          "content_bytes": 5489,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/yamanaka2025-tinplate-pineapple-cans.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/yamanaka2025-tinplate-pineapple-cans.md | sha256sum"
         }
       }
     ]

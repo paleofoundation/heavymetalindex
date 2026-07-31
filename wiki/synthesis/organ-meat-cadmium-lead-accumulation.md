@@ -101,3 +101,27 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Rabeey MA, Sabala RF, Zakaria AI, and Sallam KI (2025). *Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt*. Scientific Reports. [https://doi.org/10.1038/s41598-025-29927-x](https://doi.org/10.1038/s41598-025-29927-x). Peer-reviewed, A-tier. [[sources/rabeey2025-bovine-hg-pb-cd-egypt|Source record]]
+2. Kamaly HF and Sharkawy AA (2023). *Health risk assessment of metals in chicken meat and liver in Egypt*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-023-27826-w](https://doi.org/10.1007/s11356-023-27826-w). Peer-reviewed, A-tier. [[sources/kamaly2023-egypt-poultry-metals|Source record]]
+3. Hossain E, Nesha M, Chowdhury MAZ, and Rahman SH (2023). *Human health risk assessment of edible body parts of chicken through heavy metals and trace elements quantitative analysis*. PLoS ONE. [https://doi.org/10.1371/journal.pone.0279043](https://doi.org/10.1371/journal.pone.0279043). Peer-reviewed, A-tier. [[sources/hossain2023-bangladesh-chicken-metals|Source record]]
+4. Morshed AJM, Islam MSM, Hossain AHR, Chakraborty D, Chowdhury TA, Roy B, et al. (2024). *Heavy Metals Accumulation in Different Organs of Poultry and Hypothetical Risk Analysis: Evidence from Experimental Feeding with Assorted Metal Feed*. Research Square (preprint). [https://doi.org/10.21203/rs.3.rs-4210575/v1](https://doi.org/10.21203/rs.3.rs-4210575/v1). Preprint, B-tier. [[sources/morshed2024-heavy-metals-poultry-organs-bangladesh|Source record]]
+5. Marcelino I, Monti G, Cornelissen P, Bassingthwaighte E, het Lam J, van der Merwe D, et al. (2026). *Monitoring trace minerals and heavy metals in liver of free-living large herbivores in the Netherlands*. Frontiers in Veterinary Science. [https://doi.org/10.3389/fvets.2026.1751586](https://doi.org/10.3389/fvets.2026.1751586). Peer-reviewed, A-tier. [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores|Source record]]
+6. Khatemeh S and Imani Baran A (2022). *Evaluation of bioaccumulation of some heavy metals in liver flukes (Fasciola hepatica and Dicrocoelium dendriticum) and liver samples of sheep*. Veterinary Research Forum. [https://doi.org/10.30466/vrf.2020.135702.3043](https://doi.org/10.30466/vrf.2020.135702.3043). Peer-reviewed, A-tier. [[sources/khatemeh2022-pb-cd-sheep-liver-flukes|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added; narrative text revised |
+| [030d8b437](https://github.com/paleofoundation/heavymetalindex/commit/030d8b437) | 2026-07-27 | major | 6 sources added; 11 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

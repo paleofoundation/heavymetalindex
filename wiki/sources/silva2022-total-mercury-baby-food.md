@@ -186,13 +186,14 @@ The source can be used as occurrence evidence for the broader baby-food product 
   - Subagent verdict: REVISE. All three ❌ findings verified correct against the PDF and applied; both ⚠️ findings verified and documented here as transparency notes (DM5 normalization left as-is; DM2/DM4 truncation left as-is). No false positives in this audit cycle.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [ecef0542d](https://github.com/paleofoundation/heavymetalindex/commit/ecef0542d) | 2026-06-09 | audit: silva2022-total-mercury-baby-food revised |
-| [62e0fd10b](https://github.com/paleofoundation/heavymetalindex/commit/62e0fd10b) | 2026-06-09 | ingest: silva2022-total-mercury-baby-food fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [ecef0542d](https://github.com/paleofoundation/heavymetalindex/commit/ecef0542d) | 2026-06-09 | minor | Narrative text revised |
+| [62e0fd10b](https://github.com/paleofoundation/heavymetalindex/commit/62e0fd10b) | 2026-06-09 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

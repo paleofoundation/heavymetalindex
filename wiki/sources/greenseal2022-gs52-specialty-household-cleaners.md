@@ -320,15 +320,15 @@ The standard references the following test-method identifiers in its non-metal c
   - Audit checks 1 (numerical fidelity proper — 30+ values verified including the heavy-metal-specific clauses §3.18, §3.21, §5.5; the §3.3 5,000/20,000/2,000 acute toxicity triplet; the §3.16 BCF ≥500 / log K_ow ≥4; the §3.17 ≤0.5% P; the §3.19 >150°F flashpoint; the §3.23 1:8 dilution; the §5.5 100 ppm packaging sum; the §5.4 aerosol particle 10-2.5 µm <1%; Annex B 300 mg/kg + 48-inch / 4-drop; Annex C 0.15 mm; Annex D 1×10⁷ CFU/mL liquid + 1×10⁹ CFU/g solid + 10,000 CFU/m³ spray; Source-Reduced 20% + Take-Back 50% + Refillable ≥5×), 2 (slug vocabulary: all 8 metal + 6 product + sibling-source wikilinks resolve in taxonomy snapshot; selenium correctly omitted with missing-slug flag; all `metals:` / `products:` arrays properly quoted-wikilink form; ingredients=[] matrices=[] jurisdictions=[US] all appropriate), 3 (speciation/methods: Cr-VI specific everywhere, arsenic and mercury umbrella per source; methods section correctly notes standard does not specify Green Seal compliance-verification instrumentation; all test-method identifiers (ASTM, ISO, OECD TG, CSPA DCC, CARB Method 310, EN 862, etc.) reproduced verbatim from PDF), 4 (Part 12 brand firewall: zero commercial cleaning-product brands; Green Seal/FDA/EPA/CARB/OECD/ISO/ASTM/ACGIH/DFG/AOEC/GREENGUARD/IFRA/JECFA/AOAC/A.I.S.E./HCPA/USDA NOP/ECHA/ECVAM/ATCC/IARC/NTP/OSHA/EFSA/ILO/NIH/CDC/FAO/Health Canada PMRA/ICCVAM all standards-body / regulator / scientific-society / test-method-developer references under Part 14 Exception 2), and 5 (Part 2 wiki/HMTc firewall: no HMTc threshold proposals; Implications explicitly frames standard as upstream regulatory context not literature contributor to per-analyte percentiles; comparative claims about sibling GS-37 properly scoped to [[sources/greenseal2024-gs37-industrial-institutional-cleaners]]; footnoted Prohibited Components basis attributed to source footnote 13 not asserted as HMI synthesis; new-page suggestions properly housed in Verification notes) — all ✅ clean per subagent verdict with no false-positive findings to push back on and no content changes required for Checks 2-5.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [93723fcfd](https://github.com/paleofoundation/heavymetalindex/commit/93723fcfd) | 2026-06-03 | major | 1 source added; narrative text revised |
 <!-- END: hmi-page-history -->

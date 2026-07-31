@@ -43,3 +43,14 @@ Mechanistic toxicology and biochemical papers generally update metal, health, mi
 ## Public-Use Boundary
 
 Machine extraction can create draft source records, draft values, and reviewer queues. Public pages require reviewed or approved evidence before new affirmative numeric claims are surfaced. Data gaps remain visible and must not be converted into reassurance.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [546ff4ac9](https://github.com/paleofoundation/heavymetalindex/commit/546ff4ac9) | 2026-05-02 | major | 4 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

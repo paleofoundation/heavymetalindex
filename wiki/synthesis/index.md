@@ -63,3 +63,14 @@ The first is the divergence among the four dietary cadmium reference values, whi
 The second is whether the cadmium cardiovascular endpoint has undergone a genuine consensus shift between the 2015 Handbook framing, which treats it as contested, and the 2021 Essentials framing, which describes a strong association. The [[metals/cadmium]] page records both positions without resolution, which is the correct posture under the drift-protection rule until the intervening literature is read in full.
 
 Until the dedicated page is published, cadmium claims should be traced to [[metals/cadmium]] and the underlying source pages.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 4 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -34,3 +34,22 @@ EN 1811 is the nickel-release method discussed in [[sources/lgc2003-nickel-pierc
 ## Category 1 Boundary
 
 EN 1811 is not a food analytical method and does not report ppb concentrations in food. It can support nickel route-specific context and contact-material regulation pages, but it cannot directly populate Category 1 infant/child food occurrence cells.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. LGC Limited (2003). *Risk of sensitisation of humans to nickel by piercing post assemblies*. Final Report submitted under EC Contract ETD/FIF.2001592. Government report, A-tier. [[sources/lgc2003-nickel-piercing-post-assemblies|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added; narrative text revised |
+| [dafe852a7](https://github.com/paleofoundation/heavymetalindex/commit/dafe852a7) | 2026-04-29 | major | 1 source added; 3 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

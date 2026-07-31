@@ -43,3 +43,14 @@ For this reason the index carries irrigation-water, sludge, fertiliser, manure, 
 ## How upstream-input evidence connects to food pages in this index
 
 Source pages reporting irrigation water, sewage sludge or biosolids, phosphate or other fertilisers, manure and compost, or process-water reuse are upstream evidence about controllable anthropogenic inputs to cropland. The routing layer attaches each such source to the consumable it informs as exposure context rather than as direct food-occurrence evidence, preserving the separation set out above. Groundwater and effluent arsenic evidence routes to [rice](/ingredients/rice) and to the [inorganic arsenic](/metals/arsenic-inorganic) page; effluent and biosolid evidence for peri-urban vegetable systems routes to [vegetables](/ingredients/vegetables), [leafy vegetables](/ingredients/leafy-vegetables), and [root vegetables](/ingredients/root-vegetables) and to the [cadmium](/metals/cadmium), [lead](/metals/lead), and [nickel](/metals/nickel) pages; phosphate-fertiliser cadmium routes to [cadmium](/metals/cadmium) and to the cadmium-accumulating crops and the limits in [Regulation (EU) 2023/915](/regulations/eu-2023-915-cadmium). In each case the upstream source explains a contamination profile without being mistaken for it, the downstream uptake step is read on the [soil-to-plant transfer](/supply-chain/soil-to-plant-transfer) hub, and the actionable response is read on the mitigation pages. The element-by-element and system-by-system causal accounts build on this hub as dedicated synthesis pages.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [b94966e35](https://github.com/paleofoundation/heavymetalindex/commit/b94966e35) | 2026-06-10 | major | Contamination-profile values revised; 7 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

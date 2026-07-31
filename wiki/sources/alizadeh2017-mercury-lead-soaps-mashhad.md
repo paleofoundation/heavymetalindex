@@ -110,15 +110,15 @@ Microbiome: Not addressed.
 - Fresh-context audit (Claude subagent, 2026-06-03): QUARANTINE verdict. Audit findings reviewed and applied as follows. (1) Check 2 invented-slug ❌ on `bathing-soaps` — verified false positive: slug exists in live wiki as 2026-06-02 provisional scaffold; the `taxonomy-snapshot.md` the audit referenced was generated 2026-05-18 and is stale. Routing audit accepts the slug as a `direct_evidence` target with zero unresolved entries. No change to frontmatter; slug-routing rationale added to Verification notes for future audits running against stale snapshots. (2) Check 4 brand firewall ❌ on Halazoon/Kharchang naming — verified correct: source does not document any regulatory event against the named lines; Exception 1 invocation was unsupported. Names replaced with anonymized Contraband-A / Contraband-B in narrative, Table 1 implicit reference, Table 4 header column, and Implications. (3) Check 1 ⚠️ on P-vs-T significance footnote — verified correct paper-internal contradiction: source prose says lead, source Table 3 asterisk says mercury. Both interpretations preserved; contradiction flagged in narrative, table caption, and this Verification note. (4) Check 3 ⚠️ on "same instrument" inference — verified correct: source does not explicitly tie the mercury/hydride system to the Perkin Elmer 3030. Methods reworded to say "a mercury/hydride system" with explicit unclear-integration flag.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [4ae74c6e9](https://github.com/paleofoundation/heavymetalindex/commit/4ae74c6e9) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

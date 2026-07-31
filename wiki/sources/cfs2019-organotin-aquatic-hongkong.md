@@ -100,15 +100,15 @@ Samples collected October 2017 to June 2018 from local Hong Kong retail markets.
 - 2026-05-30 manual-fetch merge-enhance re-verified all Key numbers against Tables 1–4 and the per-species appendices (I–IV). Corrected a species-attribution error: the DBT maximum of 8.8 mcg/kg (4.5 as Sn) occurs in coral clam (Appendix II, mollusc group), not Chinese noodle fish — the prior merge had mis-copied the TBT maximum's Chinese-noodle-fish attribution onto DBT. Chinese noodle fish DBT reaches only 4.3 mcg/kg (2.2 as Sn). TBT maximum (60 mcg/kg / 24 as Sn) in Chinese noodle fish, all TPT per-species means/ranges (mangrove snapper 450 / 41–1400; giant grouper 220 / 11–1400; sea bass 140; golden thread 130; tuna 130), and the no-detectable-TBT species list (salmon, grass carp, eel, grey mullet, cod, sole, turbot) all re-confirmed correct.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [669db40ac](https://github.com/paleofoundation/heavymetalindex/commit/669db40ac) | 2026-05-30 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [ff1dca23c](https://github.com/paleofoundation/heavymetalindex/commit/ff1dca23c) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
+| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

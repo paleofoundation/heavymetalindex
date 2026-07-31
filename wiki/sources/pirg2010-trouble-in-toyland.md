@@ -160,15 +160,14 @@ The report also summarizes the CPSIA Section 101 phased lead-content limits for 
 - **Audit subagent (2026-06-01) Check 4 — Part 12 brand-firewall strict-reading application.** Initial draft retained brand, manufacturer, and retailer names attached to PIRG's own 2010 retail lab findings ("Princess Expressions Tiara and Jewelry set," "Monkey in Banana, Play Pets manufacturer," "Bright Stars travel book, Toys R Us," "Wild Ranger toy gun, POLYFECT, INC., Family Dollar," "Dora the Explorer backpack, Global Design Concepts, Claire's," "Uncle Fun" retailer for the phthalate baby doll). Per the strict-reading rule locked 2026-05-17, brand names are not permitted attached to contamination measurements unless the brand is the subject of a public-record regulatory event (Exception 1). PIRG's own 2010 retail lab findings are not public-record regulatory events — they are advocacy-driven private lab testing of retail-purchased items. Brand, manufacturer, retailer names, and accompanying SKU/item numbers (which without brand context are non-identifying) have been stripped from all seven PIRG-side lab findings in the Key numbers Lead, Antimony, and Phthalates subsections; replaced with product-form descriptors ("children's tiara-and-jewelry set," "stuffed plush toy in the form of a monkey inside a banana," "children's plastic travel book with painted plastic handles," "plastic toy handcuffs," "plastic toy cap-style projectile gun sold by a discount chain retailer," "plastic baby doll," "character-print children's backpack with a soft plastic decorative mouth element"). Recall-narrative brand names elsewhere on the page (Reebok, Thomas Tank Engine, Sesame Street, Dora, SpongeBob, Claire's necklaces, Benjamin pendants, RR Donnelley) remain because they are subjects of public-record CPSC recall actions (Exception 1). Subagent finding verified independently against PDF Attachment A pp. 22-23 (these tables are PIRG's own findings, not CPSC recall actions) and applied.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c660ae705](https://github.com/paleofoundation/heavymetalindex/commit/c660ae705) | 2026-06-01 | major | 1 section added |
+| [b30066d3f](https://github.com/paleofoundation/heavymetalindex/commit/b30066d3f) | 2026-06-01 | minor | Narrative text revised |
+| [a58b3a6b4](https://github.com/paleofoundation/heavymetalindex/commit/a58b3a6b4) | 2026-06-01 | major | 11 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

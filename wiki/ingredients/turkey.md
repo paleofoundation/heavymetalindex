@@ -237,6 +237,19 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The European Union sets maximum levels for turkey muscle meat under [[regulations/eu2023-contaminants-maximum-levels]]: Pb at 0.10 mg/kg (100 ppb) and Cd at 0.050 mg/kg (50 ppb) for poultry muscle. No Hg or As specific maximum levels apply to poultry muscle under current EU contaminant regulations. In the US, [[regulations/fda-closer-to-zero]] Pb guidance (20 ppb for meat-based baby food purees) applies when turkey is used in products formulated for infants. No general FDA action level for As, Pb, or Cd in poultry muscle meat is currently promulgated for the domestic retail market.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+2. Raeeszadeh M, Gravandi H, and Akbari A (2021). *Determination of some heavy metals concentration in species animal meat (sheep, beef, turkey, and ostrich) and carcinogenic health risk assessment in Kurdistan province, western Iran*. Research Square. [https://doi.org/10.21203/rs.3.rs-407310/v1](https://doi.org/10.21203/rs.3.rs-407310/v1). Preprint, C-tier. [[sources/raeeszadeh2021-animal-meat-metals-iran|Source record]]
+3. Omirzakov OM, Krivets VV, Berdikulov MA, Kuanysh AE, Omarova AS, and Dyussembayev KA (2024). *Analysis of heavy metals content in domestic and imported poultry meat*. Herald of Science of S. Seifullin Kazakh Agrotechnical Research University: Veterinary Sciences. [https://doi.org/10.51452/kazatuvc.2024.3(007).1753](https://doi.org/10.51452/kazatuvc.2024.3(007).1753). Peer-reviewed, B-tier. [[sources/omirzakov2024-poultry-meat-kazakhstan-heavy-metals|Source record]]
+4. Lysenko Y, Koshchayev A, Luneva A, Omarov R, and Shlykov S (2021). *Organic Meat Production of Broiler Chickens Hubbard Redbro Cross*. International Journal of Veterinary Science 10(1):62-68. [https://doi.org/10.47278/journal.ijvs/2020.021](https://doi.org/10.47278/journal.ijvs/2020.021). Peer-reviewed, B-tier. [[sources/lysenko2021-organic-broiler-meat-heavy-metals|Source record]]
+5. Kamouh HM, Kirrella GA, Shafik S, and Mostafa NY (2024). *Heavy metals load in chicken meat and its reduction by probiotic strains*. Open Veterinary Journal. [https://doi.org/10.5455/OVJ.2024.v14.i1.51](https://doi.org/10.5455/OVJ.2024.v14.i1.51). Peer-reviewed, A-tier. [[sources/kamouh2024-heavy-metals-chicken-meat-egypt|Source record]]
+6. Kamaly HF and Sharkawy AA (2023). *Health risk assessment of metals in chicken meat and liver in Egypt*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-023-27826-w](https://doi.org/10.1007/s11356-023-27826-w). Peer-reviewed, A-tier. [[sources/kamaly2023-egypt-poultry-metals|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -250,15 +263,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 2 — 10 dairy/meat/grapefruit pages / 59 cells |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | correction | 5 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

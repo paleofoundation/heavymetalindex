@@ -62,6 +62,18 @@ What is the operational significance of Ni-dependent pathogen virulence systems 
 
 This page is structured for federation to [WikiBiome](https://wikibiome.com) with minimal edits. The pathogen-Ni-virulence axis is canonical microbiome content; the metals-side context that motivates HMI's interest in it (dietary Ni exposure, EFSA TDI, certification thresholds for Ni in food matrices) stays on the HMI metals/nickel page.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Robert J. Maier and Stéphane L. Benoit (2019). *Role of Nickel in Microbial Pathogenesis*. Inorganics 7(7):80. [https://doi.org/10.3390/inorganics7070080](https://doi.org/10.3390/inorganics7070080). Peer-reviewed, A-tier. [[sources/maier-benoit-2019-nickel-microbial-pathogenesis|Source record]]
+2. Jinfeng Yang, Pengya Feng, Zhenmin Ling, Aman Khan, Xing Wang, Yanli Chen, et al. (2023). *Nickel exposure induces gut microbiome disorder and serum uric acid elevation*. Environmental Pollution, Vol. 324, 121349. [https://doi.org/10.1016/j.envpol.2023.121349](https://doi.org/10.1016/j.envpol.2023.121349). Peer-reviewed, A-tier. [[sources/yang2023-nickel-gut-microbiome-uric-acid|Source record]]
+3. Michael Coryell, Barbara A. Roggenbeck, and Seth T. Walk (2019). *The Human Gut Microbiome's Influence on Arsenic Toxicity*. Current Pharmacology Reports, Vol. 5, No. 6, pp. 491-504. [https://doi.org/10.1007/s40495-019-00206-4](https://doi.org/10.1007/s40495-019-00206-4). Peer-reviewed, A-tier. [[sources/coryell2019-gut-microbiome-arsenic-toxicity|Source record]]
+4. Qinheng Zhu, Boyan Chen, Fu Zhang, Baodan Zhang, Yujie Guo, Mengtao Pang, et al. (2024). *Toxic and essential metals: metabolic interactions with the gut microbiota and health implications*. Frontiers in Nutrition 11:1448388. [https://doi.org/10.3389/fnut.2024.1448388](https://doi.org/10.3389/fnut.2024.1448388). Peer-reviewed, A-tier. [[sources/zhu2024-toxic-essential-metals-gut-microbiota-review|Source record]]
+5. Sweta Ghosh, Syam P. Nukavarapu, and Venkatakrishna Rao Jala (2024). *Effects of heavy metals on gut barrier integrity and gut microbiota*. Microbiota and Host 2(1):e230015. [https://doi.org/10.1530/MAH-23-0015](https://doi.org/10.1530/MAH-23-0015). Peer-reviewed, A-tier. [[sources/ghosh2024-heavy-metals-gut-barrier-integrity-microbiota|Source record]]
+<!-- END: hmi-page-references -->
+
 ## Sources
 
 - [[sources/maier-benoit-2019-nickel-microbial-pathogenesis|Maier and Benoit 2019]] — Foundational mechanism review; pathogen-Ni-virulence systems across H. pylori, Salmonella, Proteus, Staphylococcus, Cryptococcus; host calprotectin nutritional immunity.
@@ -69,3 +81,14 @@ This page is structured for federation to [WikiBiome](https://wikibiome.com) wit
 - [[sources/coryell2019-gut-microbiome-arsenic-toxicity|Coryell et al. 2019]] — Cross-cutting metals-microbiome review.
 - [[sources/zhu2024-toxic-essential-metals-gut-microbiota-review|Zhu et al. 2024]] — Toxic-and-essential-metals microbiota review.
 - [[sources/ghosh2024-heavy-metals-gut-barrier-integrity-microbiota|Ghosh et al. 2024]] — Gut-barrier-integrity-and-microbiota review; triple-insult framework.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added; narrative text revised |
+| [ef64089bc](https://github.com/paleofoundation/heavymetalindex/commit/ef64089bc) | 2026-05-11 | major | 5 sources added; 10 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

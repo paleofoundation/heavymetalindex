@@ -186,14 +186,15 @@ The source's discussion at p. 17 contains its own internal contradiction worth f
 Audit subagent (2026-06-06) ran the five-check audit against this page and the PDF and returned a REVISE verdict with one specific ❌ finding: the original Methods (brief) text mis-attributed the As isotope as "(¹¹¹As mass)"; mass 111 is the Cd isotope, while ⁷⁵As is the correct As isotope (also correctly listed in the isotopes-acquired enumeration immediately above). Verified against PDF p. 5 (isotopes acquired list: "¹¹B, ²⁷Al, ⁵¹V, ⁵²Cr, ⁵⁵Mn, ⁵⁶Fe, ⁵⁹Co, ⁶⁰Ni, ⁶³Cu, ⁶⁶Zn, ⁷⁵As, ⁸⁸Sr, ¹¹¹Cd, ¹³⁷Ba, ²⁰⁸Pb"); corrected to "(⁷⁵As mass)". The audit also confirmed numerical fidelity across all of Tables 4–8 and Figures 1–6 (213+ values spot-checked exactly), all 15 RfD values and 5 CSF values in Section 2.4, all exposure assumptions (IR / BW / EXD / EF) for both age groups, all eight specific significance-test statistics named in the Discussion, the ICP-OES wavelengths, the ICP-MS instrument conditions, the microwave-digestion program, the statistical-analysis software stack, the Polish 1-January-2024 under-18 sale prohibition, the funding statement, and the EFSA consumption-anchor values. The audit confirmed taxonomy compliance on all wiki-page slugs and self-flagging of the `aluminum-can-leachate` matrix string for routine vocabulary review. The audit confirmed Part 12 brand-firewall integrity (the source itself anonymises ED1–ED9 throughout; no commercial brand names appear) and Part 2 wiki/HMTc firewall integrity (no threshold proposals, no consumer translations, no cross-source synthesis claims; the ILCR risk-band reporting is a faithful restatement of the source's own bands). No other findings.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [59a19f94a](https://github.com/paleofoundation/heavymetalindex/commit/59a19f94a) | 2026-06-06 | audit: czarnek2024-heavy-metals-energy-drinks [revised] |
-| [a8ce60931](https://github.com/paleofoundation/heavymetalindex/commit/a8ce60931) | 2026-06-06 | ingest: czarnek2024-heavy-metals-energy-drinks [fresh] from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [59a19f94a](https://github.com/paleofoundation/heavymetalindex/commit/59a19f94a) | 2026-06-06 | minor | Narrative text revised |
+| [a8ce60931](https://github.com/paleofoundation/heavymetalindex/commit/a8ce60931) | 2026-06-06 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

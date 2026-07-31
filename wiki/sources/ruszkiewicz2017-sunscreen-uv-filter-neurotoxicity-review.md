@@ -176,15 +176,14 @@ This is a narrative review article. The authors describe their selection methodo
 - 2026-06-01 Phase 2 audit (fresh-context Agent subagent, general-purpose): Verdict QUARANTINE. Eight Check-1 numerical-fidelity findings independently verified against PDF and applied (BP-3/4-MBC/OMC source-order re-mapping for the 10%-each repeated-application study, ref [65] vs [8] for BP-3 Danish children, ref [20] vs [70] for 4-MBC urine/plasma, Majorca Ti/Zn unit and compound correction including removing fabricated EHMC, Swiss-rivers refs [10]/[11] split into two bullets and fish/cormorants 337/701 misattribution corrected, Yeh 120 g→120 µg unit-rendering fix, Kuschner 1 h → 10-30 min duration, refs [135]/[136] regimen+concentration unswap, Ti-brain ICP-MS direction inversion). One audit Check-1 finding rejected as false positive: the audit's claim that OMC M plasma should be 300 and 4-MBC M plasma should be 20 assumed compound order OMC/BP-3/4-MBC; PDF source order is BP-3/4-MBC/OMC, so the corrected mapping puts 300 → BP-3 (not OMC) and 20 → 4-MBC (not OMC). Two Check-2 ⚠️ findings (`metals: [Zn, Ti]` and `matrices: [cosmetic-personal-care]`) accepted as flagged per barabash2025 precedent. Checks 3, 4, 5 clean. Post-application status: page is no longer in QUARANTINE-worthy state; updated audit-queue verdict to audited-revised.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [694e2f863](https://github.com/paleofoundation/heavymetalindex/commit/694e2f863) | 2026-06-01 | minor | Narrative text revised |
+| [716fa81a1](https://github.com/paleofoundation/heavymetalindex/commit/716fa81a1) | 2026-06-01 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

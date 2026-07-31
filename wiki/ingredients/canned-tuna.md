@@ -180,6 +180,19 @@ Pouches eliminate the can-leaching pathway. Modern fully-welded steel cans with 
 
 The Codex Alimentarius General Standard CXS 193-1995 sets a methylmercury maximum of 1.2 mg/kg fresh weight for predatory fish including tuna, with the implicit application to canned tuna meat as consumed. The EU Regulation 2023/915 sets a tuna-specific mercury maximum of 1.0 mg/kg fresh weight for tuna and 0.30 mg/kg fresh weight for other fish; this is the EU's tightest fish-mercury cap that explicitly addresses tuna. The FDA Action Level for methylmercury in seafood is 1.0 mg/kg, applied to commercial product. The FDA "Net Effects" Tool and consumer-advice frameworks recommend limiting canned albacore to 1 serving (6 oz) per week for pregnant and nursing women, and canned light tuna to 2-3 servings per week; the underlying mercury data align with the Shim 2004 distribution and the broader literature. The Ulusoy 2023 cross-jurisdiction work found commercial canned tuna generally compliant with the 1.0 mg/kg fresh-weight regulatory limit but with substantial within-product variance ([[sources/ulusoy2023-canned-tuna-toxic-metals]]).
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Aguilar-Miranda A, Fernández L, Yánez-Jácome GS, Alcoser-Pinto B, Zambrano H, Paz-Suconota F, et al. (2024). *Total mercury exposure through canned tuna in water sold in Quito, Ecuador*. Scientific Reports. [https://doi.org/10.1038/s41598-024-79430-y](https://doi.org/10.1038/s41598-024-79430-y). Peer-reviewed, A-tier. [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador|Source record]]
+2. de Lima NV, de Padua Melo ES, Arakaki DG, Tschinkel PFS, de Souza ID, Ulbrecht MOO, et al. (2021). *Data on metals, nonmetal, and metalloid in the samples of the canned tuna and canned sardines sold in Brazil*. Data in Brief. [https://doi.org/10.1016/j.dib.2021.106865](https://doi.org/10.1016/j.dib.2021.106865). Peer-reviewed, A-tier. [[sources/delima2021-metals-canned-tuna-sardines-brazil|Source record]]
+3. Rodriguez-Mendivil DD, Garcia-Flores E, Temores-Pena J, and Wakida FT (2019). *Health Risk Assessment of Some Heavy Metals from Canned Tuna and Fish in Tijuana, Mexico*. Health Scope. [https://doi.org/10.5812/jhealthscope.78956](https://doi.org/10.5812/jhealthscope.78956). Peer-reviewed, A-tier. [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana|Source record]]
+4. Shim SM, Dorworth LE, Lasrado JA, and Santerre CR (2004). *Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel*. Journal of Food Science. [https://doi.org/10.1111/j.1365-2621.2004.tb15529.x](https://doi.org/10.1111/j.1365-2621.2004.tb15529.x). Peer-reviewed, A-tier. [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel|Source record]]
+5. Ulusoy S (2023). *Determination of toxic metals in canned tuna sold in developed and developing countries: Health risk assessment associated with human consumption*. Marine Pollution Bulletin. [https://doi.org/10.1016/j.marpolbul.2022.114518](https://doi.org/10.1016/j.marpolbul.2022.114518). Peer-reviewed, A-tier. [[sources/ulusoy2023-canned-tuna-toxic-metals|Source record]]
+6. Ali A, Khan S, and Iqbal A (2025). *Carbon Dots Fluorometric Sensor for Simultaneous Detection of Aluminum and Cobalt in Canned Foods*. [https://doi.org/10.1039/d5ra00448a](https://doi.org/10.1039/d5ra00448a). Peer-reviewed, A-tier. [[sources/ali2025-carbon-dots-aluminum-cobalt-canned-food|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -214,15 +227,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

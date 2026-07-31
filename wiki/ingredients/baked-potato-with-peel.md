@@ -222,6 +222,17 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The FDA has proposed an action level of 20 ppb Pb for processed foods containing root vegetables (including potatoes) that are intended for babies and young children under the Closer to Zero program ([[regulations/fda-ctz-Pb-rootveg-20ppb]]). This action level applies to the processed food product rather than to the raw potato ingredient. In the European Union, Regulation (EU) 2023/915 sets a Pb ML of 0.10 mg/kg (100 ppb) and a Cd ML of 0.10 mg/kg (100 ppb) for potatoes (noting that potatoes carry a higher Cd ML than most other vegetables under EU law, reflecting the literature on potato as a moderate Cd accumulator) ([[regulations/eu2023-contaminants-maximum-levels]]). For processed potato products intended for infants and young children, the EU applies stricter Pb limits. No US FDA action level for Cd or tAs in fresh or processed potato exists under the current Closer to Zero framework ([[regulations/fda-closer-to-zero]]). The Codex Alimentarius ML for Cd in potatoes is 0.10 mg/kg (100 ppb), consistent with the EU value ([[regulations/codex-cadmium-mls]]).
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+2. Stasinos S, Nasopoulou C, Tsikrika C, and Zabetakis I (2014). *The Bioaccumulation and Physiological Effects of Heavy Metals in Carrots, Onions, and Potatoes and Dietary Implications for Cr and Ni: A Review*. Journal of Food Science. [https://doi.org/10.1111/1750-3841.12433](https://doi.org/10.1111/1750-3841.12433). Review, B-tier. [[sources/stasinos2014-heavy-metals-tubers-review|Source record]]
+3. Sixto A, Mollo A, Ibanez F, and Piston M (2023). *Inorganic contaminants (As, Cd, Pb) in peeled and whole potatoes and sweet potatoes*. Agrociencia Uruguay. [https://doi.org/10.31285/AGRO.27.1060](https://doi.org/10.31285/AGRO.27.1060). Peer-reviewed, A-tier. [[sources/sixto2023-potatoes-sweet-potatoes-metals|Source record]]
+4. Mahaffey KR, Corneliussen PE, Jelinek CF, and Fiorino JA (1975). *Heavy Metal Exposure from Foods*. Environmental Health Perspectives. Peer-reviewed, B-tier. [[sources/mahaffey1975-fda-total-diet-study-heavy-metals|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -233,15 +244,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 4 (final) — 21 pages / 42 cells; backlog now ZERO |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | correction | 4 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

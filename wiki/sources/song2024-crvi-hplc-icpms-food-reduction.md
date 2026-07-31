@@ -97,15 +97,15 @@ The paper does not report a certified reference material for Cr(VI) accuracy ver
 - 2026-05-20 fresh-context audit subagent verdict: REVISE. Three ⚠️ findings, no ❌ findings. Numerical fidelity confirmed clean (Check 1) — 80 °C and pH-3 acceleration factor pairings independently verified against page 10 of the source. Findings applied: (Check 2 matrices) the canonical `system-prompt.md` matrices vocabulary contains `rice-flour`, `cereal-grain`, `cow-milk`, and `tea`; the three extensions in this page are `yoghurt`, `fruit-juice`, and `vinegar`, explicitly noted here as proposed additions to that vocabulary because the paper's tested matrices include yoghurt, an orange-juice product, and a vinegar product that do not have closer canonical equivalents. (Check 5b Certification) the "consistent with prior literature" sentence was tightened to attribute the framing to the paper's own introduction (citing Novotnik [9] and Vacchina [10]) and conclusion (§4), so the wiki is paraphrasing the paper rather than performing cross-source synthesis. (Check 5c App) the App subsection generalization ("most processed foods… typical storage conditions") was hedged to a single-paper finding referencing the seven foods, the LOD, the 3 h orange-juice / green-tea loss, and the paper's own conclusion language. Checks 3 and 4 were ✅ clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [ee97c1518](https://github.com/paleofoundation/heavymetalindex/commit/ee97c1518) | 2026-05-25 | minor | Narrative text revised |
+| [ad6aea8a5](https://github.com/paleofoundation/heavymetalindex/commit/ad6aea8a5) | 2026-05-20 | minor | Narrative text revised |
+| [c124fb58e](https://github.com/paleofoundation/heavymetalindex/commit/c124fb58e) | 2026-05-20 | major | 3 sections added and 2 removed; narrative text revised |
 <!-- END: hmi-page-history -->

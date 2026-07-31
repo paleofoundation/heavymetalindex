@@ -69,19 +69,19 @@ updated: 2026-04-30
   <dl class="hmi-home-corpus-counter-grid">
     <div>
       <dt>Peer-reviewed studies</dt>
-      <dd><a href="sources/">1,584</a></dd>
+      <dd><a href="sources/">1,802</a></dd>
     </div>
     <div>
       <dt>Government reports and datasets</dt>
-      <dd><a href="sources/">179</a></dd>
+      <dd><a href="sources/">181</a></dd>
     </div>
     <div>
       <dt>Programmatic databases indexed</dt>
-      <dd><a href="sources/">54</a></dd>
+      <dd><a href="sources/">55</a></dd>
     </div>
     <div>
       <dt>A-tier curated sources</dt>
-      <dd><a href="sources/">1,399</a></dd>
+      <dd><a href="sources/">1,448</a></dd>
     </div>
     <div>
       <dt>Structured evidence records</dt>
@@ -89,7 +89,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>Jurisdictions covered</dt>
-      <dd><a href="regulations/">177</a></dd>
+      <dd><a href="regulations/">181</a></dd>
     </div>
     <div>
       <dt>Ingredient profiles</dt>
@@ -108,7 +108,7 @@ updated: 2026-04-30
       <dd><a href="regulations/">59</a></dd>
     </div>
   </dl>
-  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-06-23. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
+  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-07-30. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
 </section>
 <!-- END: hmi-corpus-counter -->
 
@@ -140,7 +140,7 @@ updated: 2026-04-30
     <div class="hmi-home-card-meta">Thresholds and agencies</div>
   </div>
   <div class="hmi-home-feature-card">
-    <span>1,993 pages</span>
+    <span>2,219 pages</span>
     <h2><a href="sources/">Sources</a></h2>
     <p>The source archive behind the index, with linked methods, extracted values, and page cross-references.</p>
     <div class="hmi-home-card-meta">Traceable evidence</div>
@@ -153,6 +153,54 @@ updated: 2026-04-30
   </div>
 </section>
 <!-- END: hmi-feature-grid -->
+
+<!-- BEGIN: hmi-home-recently-updated -->
+<section class="hmi-band hmi-band--shade hmi-home-recently" data-no-cite aria-label="Recently updated">
+  <div class="hmi-band-inner">
+    <h2>Recently updated</h2>
+    <p class="hmi-band-lede">The most recently revised pages across metals, ingredients, and products. Every page also carries its own update history.</p>
+    <ul class="hmi-home-feed">
+      <li>
+        <time datetime="2026-05-17">17 May 2026</time>
+        <span class="hmi-home-feed-what"><a href="metals/manganese/">Manganese</a> <span class="hmi-home-feed-tag">Metal</span></span>
+      </li>
+      <li>
+        <time datetime="2026-06-23">23 Jun 2026</time>
+        <span class="hmi-home-feed-what"><a href="ingredients/apple/">Apple</a> <span class="hmi-home-feed-tag">Ingredient</span></span>
+      </li>
+      <li>
+        <time datetime="2026-06-09">9 Jun 2026</time>
+        <span class="hmi-home-feed-what"><a href="products/antiperspirant/">Antiperspirant</a> <span class="hmi-home-feed-tag">Product</span></span>
+      </li>
+      <li>
+        <time datetime="2026-05-17">17 May 2026</time>
+        <span class="hmi-home-feed-what"><a href="metals/zinc/">Zinc</a> <span class="hmi-home-feed-tag">Metal</span></span>
+      </li>
+      <li>
+        <time datetime="2026-06-23">23 Jun 2026</time>
+        <span class="hmi-home-feed-what"><a href="ingredients/apple-juice/">Apple juice</a> <span class="hmi-home-feed-tag">Ingredient</span></span>
+      </li>
+      <li>
+        <time datetime="2026-06-09">9 Jun 2026</time>
+        <span class="hmi-home-feed-what"><a href="products/bar-bath-soap/">Bar/bath soap</a> <span class="hmi-home-feed-tag">Product</span></span>
+      </li>
+      <li>
+        <time datetime="2026-05-08">8 May 2026</time>
+        <span class="hmi-home-feed-what"><a href="metals/chromium/">Chromium</a> <span class="hmi-home-feed-tag">Metal</span></span>
+      </li>
+      <li>
+        <time datetime="2026-06-23">23 Jun 2026</time>
+        <span class="hmi-home-feed-what"><a href="ingredients/applesauce/">Applesauce</a> <span class="hmi-home-feed-tag">Ingredient</span></span>
+      </li>
+      <li>
+        <time datetime="2026-06-09">9 Jun 2026</time>
+        <span class="hmi-home-feed-what"><a href="products/bathing-soaps/">Bathing soaps</a> <span class="hmi-home-feed-tag">Product</span></span>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- END: hmi-home-recently-updated -->
+
 
 <section class="hmi-home-explore">
   <h2>Explore the Index</h2>

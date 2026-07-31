@@ -149,15 +149,14 @@ This is a narrative agronomic-mitigation review; it contributes context rather t
 - 2026-06-02 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.3390/agriculture13051083` not present; raw_handle `MFK_agriculture-13-01083-v2` not present; cite-key stem `asgher2023` not present. PDF SHA-256 `c5a2bdd8aaf709da97fc50a2a436722d31ca4ad6f6e039d6274e91cc272de32e`. Paper is a narrative review of selenium-mediated plant tolerance to heavy-metal stress; no primary occurrence measurements. Ingested as out-of-core-scope agronomic-mitigation-context reference per the [[sources/bae2018-absorbent-hygiene-pads-safety-review]] precedent; `metals: []`, `ingredients: []`, `products: []` correctly reflect that no contamination values are contributed to any wiki page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [01ccf6088](https://github.com/paleofoundation/heavymetalindex/commit/01ccf6088) | 2026-06-02 | minor | Narrative text revised |
+| [e9466bb30](https://github.com/paleofoundation/heavymetalindex/commit/e9466bb30) | 2026-06-02 | major | 1 source added; 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

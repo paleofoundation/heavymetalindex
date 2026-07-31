@@ -68,12 +68,14 @@ Recovered from `skip:not-target-cell` under the 2026-06-10 inclusion-by-default 
 Numbers were checked against the extracted PDF text, especially the abstract, Data and Methods, Table 1, Table 2, pluton-proximity results, PCA results, discussion, and conclusion. The supplementary Table S5 groundwater-by-unit values were not fully present in the extracted text; only the text-reported Neoproterozoic epiclastics average of 1.25 ug/L is used here. Arsenic is tagged as `tAs` because the methods report elemental arsenic analysis and do not separate inorganic arsenic species.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [02e3d9cfb](https://github.com/paleofoundation/heavymetalindex/commit/02e3d9cfb) | 2026-06-10 | recover-ingest 2026-06-10: dinwiddie2018-orange-county-groundwater-arsenic (lane a3, was skip:not-target-cell) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [02e3d9cfb](https://github.com/paleofoundation/heavymetalindex/commit/02e3d9cfb) | 2026-06-10 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

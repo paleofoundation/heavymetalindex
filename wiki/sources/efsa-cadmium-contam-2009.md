@@ -132,15 +132,15 @@ A 2011 EFSA statement reaffirmed this TWI after JECFA published a divergent prov
 2026-06-03 — Third copy of the same EFSA Journal 980 opinion surfaced in `raw/Manual Fetch Kimi /June 3 Folder/EFSA Journal - 2009 -  - Cadmium in food ‐ Scientific opinion of the Panel on Contaminants in the Food Chain.pdf` (sha256 8e367628…). DOI grep, raw_handle grep, and cite-key grep all confirm this is the same paper already at `efsa-cadmium-contam-2009`. Spot-checked pp. 1–3 of the June 3 PDF against the existing page's Key numbers — TWI 2.5 µg/kg b.w./week, daily intake 0.36, BMDL5 4 µg U-Cd/g creatinine, CSAF 3.9, reference U-Cd 1.0, adult mean 2.3 (range 1.9–3.0), high consumer 3.0 (range 2.5–3.9), vegetarian 5.4, bivalve 4.6, wild mushroom 4.3, 140,000 samples 2003–2007 from 20 EU Member States — all match. Recorded the June 3 PDF as a third `near_duplicates` entry; no page content changed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [cd49ca981](https://github.com/paleofoundation/heavymetalindex/commit/cd49ca981) | 2026-06-03 | minor | Narrative text revised |
+| [7cef04d81](https://github.com/paleofoundation/heavymetalindex/commit/7cef04d81) | 2026-06-02 | minor | Narrative text revised |
+| [4cb451f37](https://github.com/paleofoundation/heavymetalindex/commit/4cb451f37) | 2026-06-02 | major | 1 source added; 1 section added and 2 removed; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -114,14 +114,15 @@ This is a narrative review with no declared inclusion/exclusion criteria, no PRI
 **Reviewer's note on scope fit.** This paper is in the "Black Market Peptide Metal Survey / heavy_metals_peptides" Manual Fetch Kimi folder alongside [[shalev2022-peptide-metal-nmr-review]], [[luo2024-peptides-heavy-metal-remediation]], and several other peptide-and-metals sources. Like Shalev 2022, this paper is in scope per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`, but its actual wiki contribution is the narrowest yet: it is a generalist therapeutic-peptide development review with no direct heavy-metals content. Its HMI-relevant payload is (a) the roster of approved peptide therapeutics that anchors the legitimate-pharmaceutical baseline for any black-market-peptide comparator work and (b) the documentation of copper-catalysed click chemistry as a synthesis route used in approved PEGylated peptide drugs (copper is not an HMTc analyte but the methodology is documented here for future reference if a metals-in-peptides workstream needs to trace synthesis-residue pathways). Readers expecting heavy-metals occurrence or contamination data in this paper should be redirected to the sibling sources in this same folder.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [2bd570f5c](https://github.com/paleofoundation/heavymetalindex/commit/2bd570f5c) | 2026-06-08 | audit: wang2022-therapeutic-peptides-review revised |
-| [6603ebd41](https://github.com/paleofoundation/heavymetalindex/commit/6603ebd41) | 2026-06-08 | ingest: wang2022-therapeutic-peptides-review (source page follow-up after race-condition unstaging) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [2bd570f5c](https://github.com/paleofoundation/heavymetalindex/commit/2bd570f5c) | 2026-06-08 | minor | Narrative text revised |
+| [6603ebd41](https://github.com/paleofoundation/heavymetalindex/commit/6603ebd41) | 2026-06-08 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

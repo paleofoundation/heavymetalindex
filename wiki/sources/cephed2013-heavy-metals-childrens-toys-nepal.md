@@ -145,15 +145,14 @@ Statistical analysis: results are reported as detection counts, concentration ra
 - 2026-05-18 audit also confirmed all five checks clean on numerical fidelity (Pb/Hg/Cd/Cr/Br detection counts, ranges, percentages, composition + country + market-channel tables, questionnaire numbers, import trends, Table 3 ceilings), speciation discipline (XRF correctly mapped to tHg + Cr without speciation claims), brand firewall (Annex 1 brand-bearing item names — Nivia, Spider Man, Mickey, Angry Bird, Pizza Party Creatives — correctly aggregated to generic categories; Yuhan-Kimberly correctly framed as funder; FHAN/NBSM lab naming permitted under Exception 2), and Part 2 wiki/HMTc firewall (no threshold proposals, no consumer advisories, no cross-source synthesis). One internal-to-source numerical inconsistency surfaced: PDF Section 11.3 point 3 (p. 23) prints "9 ppm to 409.5 ppm" for the Cd range, while Table 5 (p. 22) and the Executive Summary (p. 4) both print "16.2 ppm to 409.5 ppm" — the Table-5 value is used here as the authoritative figure.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [a2b0756d2](https://github.com/paleofoundation/heavymetalindex/commit/a2b0756d2) | 2026-05-18 | major | 1 section added; narrative text revised |
+| [a013adb79](https://github.com/paleofoundation/heavymetalindex/commit/a013adb79) | 2026-05-18 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -162,15 +162,15 @@ Findings rejected (false positives): none. The Check 1 ⚠️ items (Figure 3 mi
 - [[metals/arsenic]]
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [1be66b2f4](https://github.com/paleofoundation/heavymetalindex/commit/1be66b2f4) | 2026-06-08 | audit: gu2020-arsenic-rice-infant-food-australia revised |
-| [e22dea419](https://github.com/paleofoundation/heavymetalindex/commit/e22dea419) | 2026-06-08 | ingest: gu2020-arsenic-rice-infant-food-australia enhanced from MFD/Manual Fetch Discovery |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [1be66b2f4](https://github.com/paleofoundation/heavymetalindex/commit/1be66b2f4) | 2026-06-08 | major | 2 sections added and 1 removed; narrative text revised |
+| [e22dea419](https://github.com/paleofoundation/heavymetalindex/commit/e22dea419) | 2026-06-08 | major | 3 sections added and 1 removed; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [1b628b2bd](https://github.com/paleofoundation/heavymetalindex/commit/1b628b2bd) | 2026-05-09 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

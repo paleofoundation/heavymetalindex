@@ -201,15 +201,15 @@ The source interprets these results as evidence that within the JingDong best-se
 - Audit subagent (2026-05-18, fresh-context general-purpose, autonomous v2.0 manual-fetch skill): PROMOTE verdict; 0 findings applied; 2 minor ⚠️ items recorded as false positives. (a) Subagent flagged HQ range lower-bound 4.93×10⁻⁷ and LCR range lower-bound 1.68×10⁻¹² as "figure-derived rather than text-quoted," suggesting they should be re-cast as approximate or referenced to Figures 4/5 — verified against source: the Abstract on p. 1 states these values verbatim ("The probabilistic non-carcinogenic risks and carcinogenic risks were 4.93×10⁻⁷~2.82×10⁻³ and 1.68×10⁻¹²~9.59×10⁻⁹, respectively"), so the wiki page's range bounds are direct text-quoted values, not figure-derived inferences. Finding rejected. (b) Subagent flagged the Implications-section phrasing "95th percentile far below 1 mg/kg" as a marginal inference not explicitly reported by the source — the source does not report the per-sample Pb distribution's 95th percentile (only the Monte Carlo iterations' 95th-percentile HQ/LCR), but with N=34 and max 0.5237 mg/kg the per-sample 95th-percentile is mathematically constrained to ≤0.5237 mg/kg, which is trivially "far below 1 mg/kg." The phrasing is descriptive about the dataset's scale, not a synthesis claim. Finding noted; no change. (c) Subagent also flagged a source-internal n-label transposition (Discussion p. 7: "the average Pb content of all kinds of lip products decreased in the following order: lip balms (n = 12) > lipsticks (n = 13) > lip glosses (n = 9)" — the n's are transposed in the source narrative; Table 1 has lipsticks n=12 and lip balms n=9). The wiki reports the ordering correctly (balms > lipsticks > glosses) and the wiki's per-format n's match Table 1, so no wiki defect; the source-side transposition is the paper's typesetting issue. Noted in `## Key numbers` per the Cochrane "report as the source wrote it" convention for paper-internal inconsistencies. CHECK 1 ⚠️ on HQ/LCR text-source false-positive + ⚠️ on inference + ⚠️ on source-internal n-label; CHECK 2 ✅; CHECK 3 ✅; CHECK 4 ✅ clean; CHECK 5 ✅ clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [a14981453](https://github.com/paleofoundation/heavymetalindex/commit/a14981453) | 2026-05-18 | minor | Narrative text revised |
+| [11bc0dcb5](https://github.com/paleofoundation/heavymetalindex/commit/11bc0dcb5) | 2026-05-18 | major | 2 sources added; 11 sections added and 3 removed; narrative text revised |
+| [a4a813271](https://github.com/paleofoundation/heavymetalindex/commit/a4a813271) | 2026-05-15 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

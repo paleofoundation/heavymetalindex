@@ -55,6 +55,18 @@ The gap between literature evidence (this page reports it) and HMTc Cat 2 thresh
 - **Organotin pharmacokinetics in infants**: ([[sources/smajgl2015-tin-baby-diapers-croatia|Šmajgl 2015]]) cites the 20-100 % of TDI estimate for diaper organotin, but this rests on conservative absorption assumptions. A targeted toxicokinetics study would tighten the estimate.
 - **Hand-to-mouth transfer factor** for product-mediated ingestion of body lotions, body paints, sunscreens. Surrogate data from soil-Pb hand-to-mouth modelling is the typical fallback; cosmetic-specific transfer factors are not yet a published consensus.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Attard T and Attard E (2022). *Heavy Metals in Cosmetics*. Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter). [https://doi.org/10.5772/intechopen.102406](https://doi.org/10.5772/intechopen.102406). Review, B-tier. [[sources/attard2022-heavy-metals-cosmetics-review|Source record]]
+2. Rashmi V (2020). *Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder*. IRIS – Journal for Young Scientists, Vol. X, pp. 25–29. [patnawomenscollege.in](https://patnawomenscollege.in/iris-vol-x2020/). Peer-reviewed, B-tier. [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india|Source record]]
+3. Massarsky A, Unice KM, and Kreider ML (2025). *Health risk implications of heavy metals in toothpaste*. Public Health and Toxicology 5(2):9. [https://doi.org/10.18332/pht/207273](https://doi.org/10.18332/pht/207273). Peer-reviewed, B-tier. [[sources/massarsky2025-heavy-metals-toothpaste-health-risk|Source record]]
+4. Li Y, Fang Y, Liu Z, Zhang Y, Liu K, Jiang L, et al. (2021). *Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis*. Frontiers in Public Health 9:766984. [https://doi.org/10.3389/fpubh.2021.766984](https://doi.org/10.3389/fpubh.2021.766984). Peer-reviewed, A-tier. [[sources/li2021-lead-lip-cosmetics-china-ecommerce|Source record]]
+5. Šmajgl D and Obhođaš J (2015). *Occurrence of tin in disposable baby diapers*. X-Ray Spectrometry. [https://doi.org/10.1002/xrs.2609](https://doi.org/10.1002/xrs.2609). Peer-reviewed, A-tier. [[sources/smajgl2015-tin-baby-diapers-croatia|Source record]]
+<!-- END: hmi-page-references -->
+
 ## Sources
 
 - [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india]] — talcum powder Pb/Cd/Hg + mesothelioma/talcosis risk
@@ -62,3 +74,14 @@ The gap between literature evidence (this page reports it) and HMTc Cat 2 thresh
 - [[sources/massarsky2025-heavy-metals-toothpaste-health-risk]] — toothpaste ingestion fractions in children + HRA framework
 - [[sources/smajgl2015-tin-baby-diapers-croatia]] — diaper organotin + infant dermal-contact exposure estimate
 - [[sources/li2021-lead-lip-cosmetics-china-ecommerce]] — lip-cosmetic Pb + ALM/IEUBK blood-Pb modelling
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added; narrative text revised |
+| [fd41c52c4](https://github.com/paleofoundation/heavymetalindex/commit/fd41c52c4) | 2026-05-15 | major | 5 sources added; 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

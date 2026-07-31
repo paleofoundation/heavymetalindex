@@ -175,15 +175,15 @@ Brand-firewall scan: the source does not name any consumer-product brands attach
 Audit subagent (2026-06-02) flagged two units concerns; both verified against PDF p. 13 Table 4 header. Applied: MO column units corrected from `MO (10^9/L)` to `MO (10^8/L)` to match the source header. Documented: the wiki's WBC column units `(10^9/L)` are a silent normalisation of the source's `WBC (g/L)` (clearly a source-side typo, since g/L is a protein-concentration unit and the other leucocyte columns in the same table use 10^x/L); the underlying numerical values are unchanged. The source also reports an anomalous RBC value for the C (control) group at day 45 of 0.9 +/- 2.6 (mean smaller than SD, and an order of magnitude below the C group's day-30 RBC of 5.3 +/- 2.0); the wiki reproduces this verbatim because the auditor confirmed it is in the source as printed, but downstream synthesis passes should treat the C day-45 RBC datum as a likely source-side transcription error.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [1409a4842](https://github.com/paleofoundation/heavymetalindex/commit/1409a4842) | 2026-06-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

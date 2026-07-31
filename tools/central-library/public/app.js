@@ -7,13 +7,14 @@
    inline onclick=/oninput= attributes, so the buttons work even under a strict
    Content-Security-Policy that blocks inline handlers (preview panels, embeds).
 
-   Wiring status (see docs/architecture/central-library-roadmap.md):
-   - REAL: Presets (/api/presets, /api/matrices, /api/run) and Wishlist
-     (/api/wishlist*), including the drop-PDFs-to-fulfill flow.
-   - SAMPLE: the Library tab (papers list, build counts) still renders the
-     mockup's hardcoded sample data until it is wired to the canonical
-     identity index (tools/library). It is labeled as a preview in the UI
-     and is no longer the default tab. */
+   Wiring status (see docs/architecture/central-library-roadmap.md): all three
+   tabs read real data — Presets (/api/presets, /api/matrices, /api/run,
+   /api/not-material), Wishlist (/api/wishlist*, including drop-to-fulfill),
+   and Library (/api/library over the canonical identity index).
+
+   This file is served from disk, so the browser always gets the current build
+   while a long-lived server process may not. /api/health carries a code stamp
+   and the desktop launcher restarts on drift; see server.mjs STAMPED_FILES. */
 
 const CL = {
   state: {
@@ -382,7 +383,6 @@ const CL = {
       </button>`;
     }).join('');
 
-    const canRun = subject && !run.active;
     // Product-category picker (matrix-based presets only): pick an HMTc category →
     // its subcategories become one-click [Matrix] values. Barrel through standards
     // one product category at a time.
@@ -392,18 +392,64 @@ const CL = {
       const cats = s.matrices.categories;
       const ci = Math.max(0, Math.min(s.matCat || 0, cats.length - 1));
       const catOpts = cats.map((c, i) => `<option value="${i}" ${i === ci ? 'selected' : ''}>${this.esc(c.n + '. ' + c.name)}</option>`).join('');
-      const subChips = (cats[ci].subcategories || []).map(sub =>
-        `<button data-act="pickMatrix" data-arg="${this.esc(sub.searchTerm)}" title="${this.esc(sub.name)}" style="font-size:11px;color:${subject === sub.searchTerm ? '#fff' : '#33373F'};background:${subject === sub.searchTerm ? '#8B2A4A' : '#F1EFEC'};border:none;border-radius:5px;padding:5px 8px;cursor:pointer;text-align:left;">${this.esc(sub.name.length > 42 ? sub.name.slice(0, 40) + '…' : sub.name)}</button>`
-      ).join('');
+      const subs = cats[ci].subcategories || [];
+      const subChips = subs.map((sub, i) => {
+        const on = s.matSub === i;
+        const extra = (sub.terms || []).length - 1;
+        return `<button data-act="pickMatrixSub" data-arg="${i}" title="${this.esc(sub.name)}" style="font-size:11px;color:${on ? '#fff' : '#33373F'};background:${on ? '#8B2A4A' : '#F1EFEC'};border:none;border-radius:5px;padding:5px 8px;cursor:pointer;text-align:left;">${this.esc(sub.name.length > 42 ? sub.name.slice(0, 40) + '…' : sub.name)}${extra > 0 ? `<span style="opacity:.6;"> · ${extra + 1} terms</span>` : ''}</button>`;
+      }).join('');
+      // A subcategory name that enumerates its members ("Other cooking oils
+      // (canola, sunflower, coconut, avocado, sesame)") names five matrices, not
+      // one. Flattened into a single subject it becomes an AND-query that
+      // matches nothing, so the members are offered as separate runs instead.
+      const sel = subs[s.matSub];
+      let termChips = '';
+      if (sel && (sel.terms || []).length > 1) {
+        const chips = sel.terms.map(t =>
+          `<button data-act="pickMatrix" data-arg="${this.esc(t)}" style="font-size:11px;color:${subject === t ? '#fff' : '#5A4048'};background:${subject === t ? '#8B2A4A' : '#F7EEF1'};border:1px solid ${subject === t ? '#8B2A4A' : '#EAD9DF'};border-radius:5px;padding:4px 8px;cursor:pointer;">${this.esc(t)}</button>`
+        ).join('');
+        termChips = `<div style="margin-top:8px;padding:8px 9px;background:#FCF7F9;border:1px solid #EFE2E7;border-radius:7px;">
+          <div style="font-size:10.5px;color:rgba(26,29,36,0.55);margin-bottom:5px;">This row names ${sel.terms.length} matrices — run one at a time</div>
+          <div style="display:flex;flex-wrap:wrap;gap:4px;">${chips}</div>
+        </div>`;
+      }
       matrixPicker = `<div style="margin-bottom:11px;">
         <div style="font-size:10.5px;color:rgba(26,29,36,0.55);margin-bottom:4px;">Pick a product category (${s.matrices.subcategoryCount} across ${s.matrices.categoryCount})</div>
         <select data-input="setMatCat" style="width:100%;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:8px 9px;background:#FCFBFA;margin-bottom:8px;cursor:pointer;">${catOpts}</select>
         <div style="display:flex;flex-direction:column;gap:4px;max-height:190px;overflow-y:auto;">${subChips}</div>
+        ${termChips}
       </div>`;
     }
+
+    // Cells already adjudicated not-material: running the sweep cannot change
+    // the determination, so the run is blocked behind an explicit override.
+    const nm = this.notMaterialMatch();
+    let nmBanner = '';
+    if (nm) {
+      const how = nm.via === 'containment'
+        ? `${this.esc(nm.analyte)} is a subspecies of ${this.esc(nm.parent)}, and ${this.esc(nm.parent)} is on the register for this row`
+        : `${this.esc(nm.analyte)} is on the register for this row`;
+      nmBanner = `<div style="border:1px solid #E0B4B4;background:#FDF4F4;border-radius:9px;padding:11px 12px;margin-bottom:11px;">
+        <div style="font-size:12px;font-weight:700;color:#8B2A4A;margin-bottom:5px;">Already adjudicated not material</div>
+        <div style="font-size:11.5px;color:#4A3338;line-height:1.5;">${how}. Recorded ${this.esc(nm.row.date || '')}: “${this.esc(nm.row.rationale || '')}”</div>
+        <div style="font-size:11px;color:rgba(26,29,36,0.55);line-height:1.5;margin-top:5px;">${this.esc(nm.row.regulatory_basis || '')}${nm.row.jurisdictions_checked ? ' · ' + this.esc(nm.row.jurisdictions_checked) : ''}</div>
+        <label style="display:flex;align-items:center;gap:7px;font-size:11.5px;color:#33373F;margin-top:8px;cursor:pointer;"><input type="checkbox" data-act="toggleNmOverride" ${s.nmOverride ? 'checked' : ''}> Run anyway (re-opening a closed cell)</label>
+      </div>`;
+    }
+    // Scope split. A query with no placeholder is byte-identical for every
+    // matrix — it is literature about the ANALYTE (mechanism, cohorts,
+    // regulatory instruments), not about the food. Those run once per preset
+    // and file under _background/, so the count shown here is what this
+    // particular matrix actually costs.
+    const matrixQ = preset.groups.reduce((n, g) => n + g.queries.filter(q => q.includes(ph)).length, 0);
+    const metalQ = totalQ - matrixQ;
+    const runnable = nm ? Boolean(s.nmOverride) : true;
+    const canRunNow = Boolean(subject) && !run.active && runnable;
+
     const runForm = `<div style="border:1px solid #EDEBE8;border-radius:10px;padding:16px;background:#fff;margin-top:6px;">
       <div style="${hd}margin-bottom:9px;">Run for a ${this.esc(preset.subjectLabel || 'Condition').toLowerCase()}</div>
       ${matrixPicker}
+      ${nmBanner}
       <input id="cl-subject" data-input="setSubject" value="${this.esc(s.subject || '')}" placeholder="e.g. ${this.esc(preset.example || 'Multiple Sclerosis')}" style="width:100%;font-size:13px;border:1px solid #E2DFDB;border-radius:7px;padding:9px 11px;background:#fff;color:#1A1D24;margin-bottom:10px;">
       <div style="display:flex;gap:9px;margin-bottom:11px;">
         <div style="flex:1;"><div style="font-size:10.5px;color:rgba(26,29,36,0.55);margin-bottom:4px;">From year</div><input id="cl-fromyear" data-input="setFromYear" value="${this.esc(s.fromYear || '2000')}" class="mono" style="width:100%;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:8px 9px;background:#FCFBFA;"></div>
@@ -411,18 +457,29 @@ const CL = {
       </div>
       <label style="display:flex;align-items:center;gap:7px;font-size:12px;color:#33373F;margin-bottom:8px;cursor:pointer;"><input type="checkbox" data-act="toggleSerp" ${s.serp ? 'checked' : ''}> Google Scholar (SerpAPI) — more results, costs per search</label>
       <label style="display:flex;align-items:center;gap:7px;font-size:12px;color:#33373F;margin-bottom:12px;cursor:pointer;"><input type="checkbox" data-act="toggleDryRun" ${s.dryRun ? 'checked' : ''}> Dry run (search + dedupe, no download)</label>
-      <button data-act="startRun" ${canRun ? '' : 'disabled'} style="width:100%;font-size:13px;font-weight:600;color:#fff;background:${canRun ? '#8B2A4A' : '#CBB8BF'};border:none;border-radius:8px;padding:11px;cursor:${canRun ? 'pointer' : 'not-allowed'};">${run.active ? 'Running…' : `Run ${totalQ} queries →`}</button>
-      <div style="font-size:11px;color:rgba(26,29,36,0.45);line-height:1.45;margin-top:9px;">Each query → its own folder of deduped PDFs under<br><span class="mono" style="color:#8B2A4A;">~/Desktop/${this.esc(subject || preset.subjectLabel || 'Condition')}/</span></div>
+      <button data-act="startRun" ${canRunNow ? '' : 'disabled'} style="width:100%;font-size:13px;font-weight:600;color:#fff;background:${canRunNow ? '#8B2A4A' : '#CBB8BF'};border:none;border-radius:8px;padding:11px;cursor:${canRunNow ? 'pointer' : 'not-allowed'};">${run.active ? 'Running…' : `Run ${matrixQ} matrix ${matrixQ === 1 ? 'query' : 'queries'} →`}</button>
+      ${metalQ > 0 ? `<div style="font-size:11px;color:rgba(26,29,36,0.5);line-height:1.45;margin-top:8px;padding:7px 9px;background:#F7F5F2;border-radius:6px;">Plus ${metalQ} analyte-background ${metalQ === 1 ? 'query' : 'queries'} that do not vary by matrix (mechanism, toxicology, cohorts, regulatory instruments). They run once for this preset and file under <span class="mono">_background/</span>, not under the matrix — and are skipped on later matrices.</div>` : ''}
+      <div style="font-size:11px;color:rgba(26,29,36,0.45);line-height:1.45;margin-top:9px;">Matrix queries → one folder of deduped PDFs each, under<br><span class="mono" style="color:#8B2A4A;">…/${this.esc(subject || preset.subjectLabel || 'Condition')}/</span></div>
     </div>`;
 
     // query groups (right) with live substitution
     const groupsHtml = preset.groups.map(g => {
+      const gMatrix = g.queries.filter(q => q.includes(ph)).length;
       const items = g.queries.map(q => {
+        const isMatrixQ = q.includes(ph);
         const resolved = subject ? q.split(ph).join(subject) : q;
-        return `<div class="mono" style="font-size:12px;color:#33373F;background:#F7F5F2;border-radius:6px;padding:6px 10px;word-break:break-word;">${this.esc(resolved)}</div>`;
+        // Background queries are shown dimmed and badged so it is visible at a
+        // glance which queries actually respond to the matrix you picked.
+        return `<div class="mono" style="font-size:12px;color:${isMatrixQ ? '#33373F' : 'rgba(26,29,36,0.42)'};background:${isMatrixQ ? '#F7F5F2' : '#FBFAF9'};border:1px solid ${isMatrixQ ? 'transparent' : '#EFEDEA'};border-radius:6px;padding:6px 10px;word-break:break-word;display:flex;gap:8px;align-items:baseline;">
+          <span style="flex:1;">${this.esc(resolved)}</span>
+          ${isMatrixQ ? '' : '<span style="font-family:inherit;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:rgba(26,29,36,0.38);white-space:nowrap;">background</span>'}
+        </div>`;
       }).join('');
+      const badge = gMatrix === 0
+        ? `<span style="font-size:9.5px;font-weight:600;letter-spacing:.06em;color:rgba(26,29,36,0.4);border:1px solid #E7E5E2;border-radius:4px;padding:1px 5px;margin-left:7px;">ANALYTE BACKGROUND</span>`
+        : '';
       return `<div style="margin-bottom:20px;">
-        <div style="${hd}margin-bottom:9px;">${this.esc(g.name)} · ${g.queries.length}</div>
+        <div style="${hd}margin-bottom:9px;">${this.esc(g.name)} · ${g.queries.length}${gMatrix > 0 && gMatrix < g.queries.length ? ` <span style="font-weight:500;text-transform:none;letter-spacing:0;">(${gMatrix} vary by matrix)</span>` : ''}${badge}</div>
         <div style="display:flex;flex-direction:column;gap:5px;">${items}</div>
       </div>`;
     }).join('');
@@ -471,8 +528,51 @@ const CL = {
       .then(d => { this.state.matrices = d; this.render(); })
       .catch(() => {});
   },
-  setMatCat(v) { this.state.matCat = Number(v) || 0; this.render(); },
+  loadNotMaterial() {
+    fetch('/api/not-material')
+      .then(r => r.json())
+      .then(d => { this.state.notMaterial = d; this.render(); })
+      .catch(() => {});
+  },
+  setMatCat(v) { this.state.matCat = Number(v) || 0; this.state.matSub = null; this.render(); },
+  // Picking a subcategory selects it; its head term becomes the subject, and any
+  // enumerated members become their own one-click terms.
   pickMatrix(term) { this.state.subject = term; this.render(); },
+  pickMatrixSub(idx) {
+    const s = this.state;
+    s.matSub = Number(idx);
+    const sub = this.currentSubcategories()[s.matSub];
+    if (sub) s.subject = (sub.terms && sub.terms[0]) || sub.searchTerm;
+    this.render();
+  },
+  activePreset() {
+    const presets = this.state.realPresets || [];
+    return presets.find(p => p.id === this.state.presetId) || presets[0] || null;
+  },
+  currentSubcategories() {
+    const s = this.state;
+    const cats = (s.matrices && s.matrices.categories) || [];
+    if (!cats.length) return [];
+    const ci = Math.max(0, Math.min(s.matCat || 0, cats.length - 1));
+    return cats[ci].subcategories || [];
+  },
+  // The register is keyed by row slug; the selected subcategory carries it.
+  notMaterialMatch() {
+    const s = this.state;
+    const preset = this.activePreset();
+    const nm = s.notMaterial;
+    if (!preset || !preset.analyte || !nm || !nm.rows) return null;
+    const sub = this.currentSubcategories()[s.matSub];
+    if (!sub || !sub.slug) return null;
+    const direct = nm.rows.find(r => r.row_slug === sub.slug && r.metal_species === preset.analyte);
+    if (direct) return { row: direct, via: 'direct', analyte: preset.analyte, sub };
+    // MeHg is a subspecies of tHg and iAs of tAs: a not-material finding on the
+    // parent entails the subspecies. Containment does not run the other way.
+    const parent = (nm.speciesParent || {})[preset.analyte];
+    if (!parent) return null;
+    const inherited = nm.rows.find(r => r.row_slug === sub.slug && r.metal_species === parent);
+    return inherited ? { row: inherited, via: 'containment', analyte: preset.analyte, parent, sub } : null;
+  },
 
   // ── real-run actions ─────────────────────────────────────────────────────
   loadPresets() {
@@ -491,6 +591,7 @@ const CL = {
   setSubject(v) { this.setState({ subject: v }); },
   setFromYear(v) { this.state.fromYear = v.replace(/[^0-9]/g, ''); this.render(); },
   setMaxPerQuery(v) { this.state.maxPerQuery = v.replace(/[^0-9]/g, ''); this.render(); },
+  toggleNmOverride() { this.setState({ nmOverride: !this.state.nmOverride }); },
   toggleDryRun() { this.setState({ dryRun: !this.state.dryRun }); },
   toggleSerp() { this.setState({ serp: !this.state.serp }); },
   startRun() {
@@ -750,10 +851,11 @@ document.addEventListener('drop', (e) => {
 Object.assign(CL.state, {
   realPresets: [], presetId: null, subject: '', presetsError: false,
   wishlist: null, wlBuild: 'all', wlQ: '', wlLoading: false, wlError: false, wlTotal: 0, wlAllBuilds: [],
-  matrices: null, matCat: 0,
+  matrices: null, matCat: 0, matSub: null, notMaterial: null, nmOverride: false,
   fromYear: '2000', maxPerQuery: '10', dryRun: false, serp: true,
   run: { active: false, log: [], downloaded: 0, failed: 0, skipped: 0, qIndex: 0, qTotal: 0, currentQuery: '', summary: null },
 });
 CL.render();
 CL.loadPresets();
 CL.loadMatrices();
+CL.loadNotMaterial();

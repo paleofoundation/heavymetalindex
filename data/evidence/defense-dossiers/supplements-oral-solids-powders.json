@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-powders",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "57283b7530b10a04a3f2c555a4dbc98487932043002a61a5df34fb42b83816dc",
-      "content_bytes": 9154,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "5dfad89bb159b59a322c17d38cbcbe9a795ab250fb3ebc3ab0cbd21f5c1a5842",
+      "content_bytes": 9195,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/supplements-oral-solids-powders.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/supplements-oral-solids-powders.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brizio2013-italian-food-supplements-metals",
         "content_pin": {
-          "content_sha256": "d638563825e0cd37712d0622ec05519419abe112f66152a5535b59c2a002c375",
-          "content_bytes": 4985,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "ce1220ff07e8bd1dbbdbe04787e61d67e94bab62527b49a400bb2900311fc272",
+          "content_bytes": 5166,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/brizio2013-italian-food-supplements-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/brizio2013-italian-food-supplements-metals.md | sha256sum"
         }
       },
       {
@@ -66,12 +66,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/li2017-spirulina-arsenic-speciation",
         "content_pin": {
-          "content_sha256": "088d1232791989f8c81365cb33ee96e78ac91896f6f46fcad69ee1f250f6d35c",
-          "content_bytes": 7277,
-          "last_commit_sha": "44269ab67",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "d11c20bd58f8f8f4307473f68794d6f2eefa47ac21957491fc706c9498fda6a5",
+          "content_bytes": 7456,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 44269ab67:wiki/sources/li2017-spirulina-arsenic-speciation.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/li2017-spirulina-arsenic-speciation.md | sha256sum"
         }
       },
       {
@@ -102,12 +102,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sochacka2025-spirulina-chlorella-supplements-poland",
         "content_pin": {
-          "content_sha256": "22fbcdb3643b7f65d34f8a26b0eb1f14812cfc2b59ad4013898cb9d7b278b5f2",
-          "content_bytes": 24287,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "b1d2ae110d91044a9c697a75d016e5b246d7589220e18dfe741195e8b504ad27",
+          "content_bytes": 24467,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
         }
       }
     ]

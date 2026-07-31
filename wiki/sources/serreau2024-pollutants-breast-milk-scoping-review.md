@@ -81,15 +81,15 @@ Microbiome: No microbiome-specific findings were extracted from this review.
 - 2026-05-19 (audit subagent application): subagent verdict REVISE; three concerns verified and applied. (1) The Murcia/Ghana attribution had been conflated: the WHO-limit exceedance percentages (As 46.4%, Hg 33.3%, Pb 4.4%) come from reference [13] (Bansa et al., Ghanaian mining-community cohort), not from reference [12] (Motas, Spanish Murcia). Split into two separate bullets with explicit reference IDs and a note that the source paragraph itself runs the two citations together. (2) Removed the cross-source comparison sentence to Katrynska 2026 from the body; cross-source ranking is synthesis work (Part 9) and does not belong on a source page. (3) Removed the DDT "0.1 mg/kg body weight/day (FAO/WHO)" line from Table 1 reference values: the page had misattributed this Table 1 max-allowed value to FAO/WHO, but Table 1 cites it from reference [18] (French Ministry of Agriculture MRL document). The actual FAO/WHO PTDI of 10 µg/kg bw/day is correctly cited in the Ethiopian DDT EDI bullet of POPs context via reference [17]. There is an internal source-document discrepancy between Table 1 (DDT MRL 0.1 mg/kg bw/day per ref [18]) and the body (FAO/WHO PTDI 10 µg/kg bw/day per ref [17]); the wiki page now cites only the body-text value because the unit/basis on Table 1's MRL entry is inconsistent with how MRLs are normally expressed.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fdcce06c0](https://github.com/paleofoundation/heavymetalindex/commit/fdcce06c0) | 2026-05-19 | major | 1 source removed; narrative text revised |
+| [c53330057](https://github.com/paleofoundation/heavymetalindex/commit/c53330057) | 2026-05-19 | minor | Narrative text revised |
+| [07695c1eb](https://github.com/paleofoundation/heavymetalindex/commit/07695c1eb) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -52,3 +52,14 @@ Brand-internal testing labs offer cost efficiency at scale but may face credibil
 ## Sources
 
 *Source-grounded magnitude data for each testing-and-QC intervention is pending the corresponding ingest passes. Priority promotion candidates include FDA's TDS methodology documents, Codex CAC/GL 75-2019 (sampling plans for metals in food), EFSA guidance on LOD/LOQ reporting for contaminant occurrence surveys, and primary-literature method-comparison studies for ICP-MS vs AAS vs XRF.*
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [03afe1a61](https://github.com/paleofoundation/heavymetalindex/commit/03afe1a61) | 2026-05-17 | major | 6 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

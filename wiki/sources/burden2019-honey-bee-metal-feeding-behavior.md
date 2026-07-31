@@ -75,12 +75,14 @@ Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-defa
 Numbers were checked against the abstract, Results, figure captions, Methods, and Discussion in the extracted PDF. Metal forms are recorded as total Cd, Cu, and Pb in the wiki frontmatter because the experimental salts were cadmium chloride, copper chloride, and lead chloride, and the paper does not report consumer-product speciation. Products and ingredients are intentionally empty. `sucrose-solution` is a matrix term added for this controlled feeding assay; it is not an occurrence-product route.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [3121f6a3e](https://github.com/paleofoundation/heavymetalindex/commit/3121f6a3e) | 2026-06-11 | recover-ingest 2026-06-11: burden2019-honey-bee-metal-feeding-behavior (lane a4, was skip:not-food-occurrence) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [3121f6a3e](https://github.com/paleofoundation/heavymetalindex/commit/3121f6a3e) | 2026-06-11 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -180,3 +180,14 @@ The paper is not infant-formula evidence despite being located in an infant-form
 - Full-PDF read performed from the 19-page MDPI PDF. Main-PDF Table 1, Figures 1-5, and all main-text numeric summaries were checked once from `pdftotext -layout` and a second time against the extracted layout text before commit. The source's supplementary Tables S1-S4 are named by the PDF but were not bundled in the local PDF.
 - Brand firewall: the source reports species- and muscle-level market seafood values, not branded commercial products.
 - HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this source.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

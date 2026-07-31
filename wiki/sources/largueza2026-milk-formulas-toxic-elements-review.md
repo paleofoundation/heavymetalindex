@@ -137,13 +137,14 @@ Audit subagent (2026-06-09) flagged the AMR PYC iAs as 7.4 µg/kg; verified agai
 Audit subagent flagged inclusion of both `iAs` and `tAs` in the metals array; verified false positive: the paper labels its Table 2/3/4/5 values and THQ calculations as iAs throughout while acknowledging that most underlying studies measured total As. Listing both is the honest reading — the analyte measured is tAs, the analyte reported and risk-modeled is iAs; the Verification notes already explain the speciation reality. Auditor flagged the EUR-vs-AMR IF iAs editorial parenthetical as wiki-side commentary; verified false positive — the paragraph documents a genuine internal contradiction in the source (PDF p. 13 text claims EUR has the highest IF iAs at 9.30 µg/kg, but Table 3 shows AMR IF iAs at 22.41), and transparent flagging of source-internal contradictions is appropriate per CLAUDE.md Part 14 (uncertainty discipline). Auditor flagged the "defensibility narrative" phrasing in Implications as approaching the Part 2 firewall; verified false positive — the phrasing identifies the source's utility for HMTc work without proposing a threshold value or softening the literature reading.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [2206a815a](https://github.com/paleofoundation/heavymetalindex/commit/2206a815a) | 2026-06-09 | audit: largueza2026-milk-formulas-toxic-elements-review revised |
-| [8cda7e018](https://github.com/paleofoundation/heavymetalindex/commit/8cda7e018) | 2026-06-09 | ingest: largueza2026-milk-formulas-toxic-elements-review fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [2206a815a](https://github.com/paleofoundation/heavymetalindex/commit/2206a815a) | 2026-06-09 | minor | Narrative text revised |
+| [8cda7e018](https://github.com/paleofoundation/heavymetalindex/commit/8cda7e018) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

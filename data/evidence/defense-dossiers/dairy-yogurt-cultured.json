@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/dairy-yogurt-cultured",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b54b7ff2f12da86429f410c97792b9ac5830bb4c4782cb2993ac4dcf3b72925b",
-      "content_bytes": 1973,
-      "last_commit_sha": "c794d6b50",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "8c73083d84e92d6ef395ea9d492d959626c659ad2eb97beb59b86d5497e8bc31",
+      "content_bytes": 2152,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c794d6b50:wiki/products/dairy-yogurt-cultured.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/dairy-yogurt-cultured.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abdel-rahman2019-egypt-nonalcoholic-beverages-metals",
         "content_pin": {
-          "content_sha256": "07b95041c1f0ef0a84acedc05307872044d472523c84266702b80799c71c419a",
-          "content_bytes": 3056,
-          "last_commit_sha": "5a88c2a7a",
-          "last_commit_date": "2026-06-14",
+          "content_sha256": "35065cba6814121e9784f52881b1b1c660544c5d102f2a6355d48c5d5c938f96",
+          "content_bytes": 3235,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 5a88c2a7a:wiki/sources/abdel-rahman2019-egypt-nonalcoholic-beverages-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/abdel-rahman2019-egypt-nonalcoholic-beverages-metals.md | sha256sum"
         }
       }
     ]

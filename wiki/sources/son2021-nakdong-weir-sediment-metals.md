@@ -162,15 +162,15 @@ Findings retained as informational (not applied):
 - Check 2 minor note that the `matrices:` array uses non-food descriptive slugs (`river-sediment`, `weir-impounded-river`, `surface-water-quality`, `sequential-extraction`, `aqua-regia-extraction`) outside the food-matrix controlled vocabulary. This is the same posture established for non-food environmental and remediation sources (e.g., [[sources/deng2021-mg-corncob-biochar-cu-pb-cd-remediation]], [[sources/wang2020-lignin-residue-biochar-heavy-metal-remediation]]); the routing-audit advisory row in `routing_malformed.csv` already records the empty `products`/`ingredients` arrays, which is the correct surfacing channel for this scope.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [aeb3d8491](https://github.com/paleofoundation/heavymetalindex/commit/aeb3d8491) | 2026-06-03 | major | 2 sources added; narrative text revised |
+| [549d33d5d](https://github.com/paleofoundation/heavymetalindex/commit/549d33d5d) | 2026-06-03 | minor | Narrative text revised |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [fc42e2563](https://github.com/paleofoundation/heavymetalindex/commit/fc42e2563) | 2026-06-02 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

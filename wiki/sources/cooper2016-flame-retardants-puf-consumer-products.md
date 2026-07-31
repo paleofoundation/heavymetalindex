@@ -160,13 +160,14 @@ Audit subagent (2026-06-09) returned REVISE verdict with one ❌ and three ⚠�
 Source page newly created 2026-06-09 from MFK_05-unknown (raw file `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats/05_Unknown.pdf`, raw_sha256 03bf0334a43cb4a8db96b3dfc4b13801ae3c144e0ade53df2ac3300d00ca6950). Identity checks against `wiki/sources/` (DOI 10.1021/acs.est.6b01602, raw_handle MFK_05-unknown, cite-key cooper2016) returned no hits. The Stapleton 2010 Dioxin-proceedings precursor paper from the same lab (`[[sources/stapleton2010-flame-retardants-baby-product-foam]]`) is recorded as a near_duplicate; the present paper is the 2014–2016 follow-on screening at much larger scale (n=1141 vs n=101). Both papers are out of HMI-core-scope (organic flame retardants, no heavy metals) and are routed through the wiki for their child-durable-product additive-chemical-exposure context per the precedent the Stapleton 2010 page established. Routed to `[[products/car-seats]]` only (the paper's child-car-seat sample is n=98); the paper has no stroller, nursing pillow, or other-HMI-product-page sample populations. License recorded as ACS AuthorChoice per the open-access banner on p. 10653 ("This is an open access article published under an ACS AuthorChoice License, which permits copying and redistribution of the article or any adaptations for non-commercial purposes."). Evidence tier B (peer-reviewed ES&T paper from an established lab, public-participation survey-based design with explicit selection-bias caveats acknowledged by the authors and a 1 %-by-weight screening threshold that censors sub-1 % FR-treated samples — both of which prevent A-tier).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [a46bb8b96](https://github.com/paleofoundation/heavymetalindex/commit/a46bb8b96) | 2026-06-09 | audit: cooper2016-flame-retardants-puf-consumer-products revised |
-| [1cab269ef](https://github.com/paleofoundation/heavymetalindex/commit/1cab269ef) | 2026-06-09 | ingest: cooper2016-flame-retardants-puf-consumer-products fresh from MFK/June 8 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [a46bb8b96](https://github.com/paleofoundation/heavymetalindex/commit/a46bb8b96) | 2026-06-09 | minor | Narrative text revised |
+| [1cab269ef](https://github.com/paleofoundation/heavymetalindex/commit/1cab269ef) | 2026-06-09 | major | 1 source added; 18 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

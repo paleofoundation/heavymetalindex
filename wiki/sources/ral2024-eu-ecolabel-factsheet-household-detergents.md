@@ -159,15 +159,15 @@ Not applicable. This is a programme-communication factsheet, not an experimental
 - Audit subagent (2026-06-03) returned REVISE with one ⚠️ concern: Commission Decision numbers (2017/1216, 2017/1217, 2017/1218, 2017/1219) were correctly fenced in `## Methods (brief)` but read as factual context in the second body paragraph, two Limitations bullets, and the "Wiki pages this source may touch" bullets. Verified independently against PDF p. 1-2: the factsheet does not name any Decision number; it states only "the current Basic Award Criteria are valid until 31/12/2026" (p. 2). Audit finding was correct; corrections applied 2026-06-03: (i) body paragraph 2 rewritten to drop Decision-number inline citations and state only what the factsheet says about validity period; (ii) Methods (brief) rewritten to make the external-context fencing explicit and standalone; (iii) Limitations bullet 1 rewritten to drop the inline Decision numbers; (iv) Limitations bullet 6 rewritten to drop the implied 2017 adoption date (factsheet does not state when criteria were adopted); (v) "Wiki pages this source may touch" bullets re-anchored on what the factsheet explicitly names (the bullet list on p. 1) rather than on Decision-number assertions, with a parenthetical noting the factsheet does not name the Decision; (vi) Missing-slug observations rephrased to label the Decision numbers as "external EU Ecolabel programme context, not stated on the factsheet". Other audit checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall) were ✅ clean and required no changes.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [1874ca3ba](https://github.com/paleofoundation/heavymetalindex/commit/1874ca3ba) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

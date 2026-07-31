@@ -238,14 +238,15 @@ This is a structured narrative review without a declared search strategy, PRISMA
 **Audit subagent (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) returned five ✅ with one ⚠️ on a narrative-count discrepancy in the Table 7 prose ("Twenty-one microbial isolate/plant extract entries across seven NP types" — body table actually has 15 rows across 8 NP types). The discrepancy was independently verified against PDF p. 15–16 (4 silver + 3 gold + 2 ZnO + 1 lead + 2 iron + 1 TiO₂ + 1 biogenic Fe-Mn + 1 CdS = 15 rows; eight NP type categories) and the narrative was corrected to "Fifteen microbial isolate/plant extract entries across eight NP types"; the Why-this-matters bullet and the introductory paragraph references to Table 7 counts were corrected from 14 to 15 in parallel. All table data, percent-reduction ranges, and reference attributions were verified faithful to the source by the subagent. All wikilink slugs (metals/cadmium, metals/lead, metals/arsenic, metals/nickel, metals/chromium, metals/mercury, mitigation/remediation-evidence) verified present in the wiki. Brand firewall (Part 12) and HMTc firewall (Part 2) both clean — no commercial brand names, no threshold language, plant-tissue toxic thresholds correctly framed as growth-inhibition thresholds rather than human-exposure regulatory ceilings. 1 finding flagged, 1 correction applied (Table 7 narrative count 21→15 and NP-type count 7→8), 0 rejected. Audit subagent ID a53974aac3bb0c442.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [029e9a50a](https://github.com/paleofoundation/heavymetalindex/commit/029e9a50a) | 2026-06-08 | audit: jarin2025-plant-responses-heavy-metal-stresses promoted |
-| [f4c7a4e11](https://github.com/paleofoundation/heavymetalindex/commit/f4c7a4e11) | 2026-06-08 | ingest: jarin2025-plant-responses-heavy-metal-stresses fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [029e9a50a](https://github.com/paleofoundation/heavymetalindex/commit/029e9a50a) | 2026-06-08 | minor | Narrative text revised |
+| [f4c7a4e11](https://github.com/paleofoundation/heavymetalindex/commit/f4c7a4e11) | 2026-06-08 | major | 17 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

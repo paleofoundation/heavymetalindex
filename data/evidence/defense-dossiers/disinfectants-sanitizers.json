@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/disinfectants-sanitizers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "935f70491d15e3e11715fc4fcb7bcc6de9980447e03ca6e82fdc5e2b8e37e18e",
-      "content_bytes": 1187,
-      "last_commit_sha": "45ecb2e7e",
-      "last_commit_date": "2026-06-10",
+      "content_sha256": "11da4aa5f634135c3210f16b426deb7f26f88fe614ca16ca2a4525c72a6b15d8",
+      "content_bytes": 1366,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 45ecb2e7e:wiki/products/disinfectants-sanitizers.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/disinfectants-sanitizers.md | sha256sum"
     }
   },
   "evidence_base": {

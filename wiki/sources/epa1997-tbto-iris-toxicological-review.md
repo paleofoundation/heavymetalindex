@@ -141,15 +141,15 @@ EPA IRIS toxicological review supporting the IRIS Summary record for TBTO (CAS 5
 - 2026-06-03 fresh-context audit subagent (general-purpose) flagged label typo "Oral RfC: not derived" under the Section 5.2 sub-heading; independently verified against PDF p. 27 §5.2 "Inhalation Reference Concentration" — corrected to "Inhalation RfC: not derived." (Oral RfC is not a defined quantity; the two endpoints are oral RfD and inhalation RfC.) Subagent also flagged that the "Critical effect" bullet lists two endpoints (depressed IgE titers + increased T. spiralis larvae in muscle) while BMD10 modeling in §5.1.2 used three endpoints (adds T. spiralis larvae by histology method); verified against PDF — the LOAEL itself on p. 22 is defined by the two endpoints named, while the third endpoint is named in the Methods section as one of the BMD-modeling inputs. Not corrected: the bullet describes the LOAEL definition, not the BMD-modeling input set, and is faithful to PDF p. 22 as written. Subagent also flagged the Provenance Notes / Implications cross-source assertions linking this RfD downstream to ATSDR 2005 MRL, EFSA 2004 TDI, and CFS 2019 — accepted as provenance-framing context, with a note to revisit during the Part 9 organotin synthesis pass.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
+| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
+| [3b6392508](https://github.com/paleofoundation/heavymetalindex/commit/3b6392508) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

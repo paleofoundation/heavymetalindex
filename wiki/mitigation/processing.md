@@ -60,3 +60,25 @@ Specific primary studies in the corpus that should be promoted to populate this 
 - [[mitigation/formulation|Formulation mitigation]] — recipe-level interventions that follow processing.
 - [[ingredients/rice|Rice]], [[ingredients/cocoa|Cocoa]] — the highest-salience commodities for processing mitigation.
 - [[sources/su2023-arsenic-brown-rice-benefits-risks|Su et al. 2023]] — brown-rice-versus-white-rice nutrient-versus-contaminant trade-off.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Su LJ, Chiang TC, and O'Connor SN (2023). *Arsenic in brown rice: do the benefits outweigh the risks?*. Frontiers in Nutrition. [https://doi.org/10.3389/fnut.2023.1209574](https://doi.org/10.3389/fnut.2023.1209574). Peer-reviewed, B-tier. [[sources/su2023-arsenic-brown-rice-benefits-risks|Source record]]
+2. Codex Alimentarius Commission (2022). *Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)*. FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome. [https://doi.org/10.4060/cc5333en](https://doi.org/10.4060/cc5333en). Government report, A-tier. [[sources/codex-cxc-81-2022|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added; narrative text revised |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 1 source added and 1 removed; narrative text revised |
+| [215477918](https://github.com/paleofoundation/heavymetalindex/commit/215477918) | 2026-05-03 | major | 1 source added; narrative text revised |
+| [ed8797d63](https://github.com/paleofoundation/heavymetalindex/commit/ed8797d63) | 2026-05-03 | major | 1 source added; 4 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

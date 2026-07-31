@@ -77,12 +77,14 @@ Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-defa
 Numbers were checked against the abstract, Table 1, results, discussion, and conclusion in the extracted PDF. Hg is recorded as `tHg` and Cr as total Cr because the paper does not report mercury or chromium speciation. Products and ingredients are intentionally empty. The paired file `ing-palm-oil-pb_2024_10-54517-ssd-v2i2-2410.pdf` has the same SHA-256 hash and is treated as a duplicate of this source page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [cec787a47](https://github.com/paleofoundation/heavymetalindex/commit/cec787a47) | 2026-06-11 | recover-ingest 2026-06-11: okeke2024-spent-engine-oil-pome-soil-metals (lane a3, was skip:not-food-occurrence) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [cec787a47](https://github.com/paleofoundation/heavymetalindex/commit/cec787a47) | 2026-06-11 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

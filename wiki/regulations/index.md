@@ -67,3 +67,17 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in t
 - [[regulations/eu-reg-2022-617-mercury-fish|EU Regulation 2022/617 — Mercury Maximum Levels in Fishery Products]]
 - [[regulations/washington-tfca-toothpaste-pb-1000ppb|Washington State Toxic-Free Cosmetics Act — Toothpaste Pb 1000 ppb statutory limit]]
 <!-- END: hmi-auto-linked-stubs -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [62866cb6b](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b) | 2026-07-04 | major | 1 section added |
+| [79b06dd2c](https://github.com/paleofoundation/heavymetalindex/commit/79b06dd2c) | 2026-06-25 | minor | Narrative text revised |
+| [25c92d7ad](https://github.com/paleofoundation/heavymetalindex/commit/25c92d7ad) | 2026-06-22 | major | 1 section added; narrative text revised |
+| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | minor | Narrative text revised |
+<!-- END: hmi-page-history -->

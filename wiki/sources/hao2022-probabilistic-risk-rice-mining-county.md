@@ -80,15 +80,15 @@ This source contributes China-market rice occurrence evidence for tAs, iAs, Cd, 
 - Autonomous audit 2026-06-09 flagged Adult HI P95 as 5.51 (per narrative on p.11515) vs the wiki's 5.50 (per Table 4 on p.11517); verified against PDF — Table 4 reports 5.50 and Table 4 is the canonical tabular source. The narrative line ("5.51 for adults and ... 6.16 for children") is internally inconsistent with the table (6.21 for children), so the wiki tracks Table 4 throughout. Finding rejected as false positive.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [598ebf521](https://github.com/paleofoundation/heavymetalindex/commit/598ebf521) | 2026-06-09 | audit: hao2022-probabilistic-risk-rice-mining-county [revised] per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [1ab877dc8](https://github.com/paleofoundation/heavymetalindex/commit/1ab877dc8) | 2026-06-08 | ingest: hao2022-probabilistic-risk-rice-mining-county fresh from MFK/June 8 New Folder With Items 3 2 |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [598ebf521](https://github.com/paleofoundation/heavymetalindex/commit/598ebf521) | 2026-06-09 | minor | Narrative text revised |
+| [1ab877dc8](https://github.com/paleofoundation/heavymetalindex/commit/1ab877dc8) | 2026-06-08 | major | 3 sections added and 3 removed; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [29a65ac86](https://github.com/paleofoundation/heavymetalindex/commit/29a65ac86) | 2026-05-12 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

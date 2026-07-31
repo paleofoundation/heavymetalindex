@@ -74,15 +74,14 @@ Certification: occurrence evidence for Pb, Cr, Ni, Cu, Mn, and Fe in dried fruit
 Metadata and DOI verified from PDF first page. Table 1 contains two values (Cr in plum, Ni in kiwi) that disagree with the narrative text in §3.3 and §3.4 respectively; the narrative values are used as the authoritative reading because they are consistent with the LSD precision and bar-chart axes. AAS instrument vendor/model and certified reference material are not reported in the paper; the methods section here reflects only what the source describes. Wet vs dry weight basis is inferred from the sample preparation (samples oven-dried before digestion) but not explicitly stated by the authors. Sample size is one sample per fruit type with ≥ 3 analytical replicates; downstream pooling should treat this as an n=1 population observation per fruit type rather than as a population distribution.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [69152921d](https://github.com/paleofoundation/heavymetalindex/commit/69152921d) | 2026-06-09 | audit: mahmood2025-dried-fruit-metals [revised] per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [69152921d](https://github.com/paleofoundation/heavymetalindex/commit/69152921d) | 2026-06-09 | major | 1 section added; narrative text revised |
+| [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
+| [7a4c45a30](https://github.com/paleofoundation/heavymetalindex/commit/7a4c45a30) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

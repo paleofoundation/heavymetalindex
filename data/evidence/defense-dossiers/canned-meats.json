@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/canned-meats",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0de5b914550154ee25f524830e2cb1b8b2f0dff2826098470b62d42d6710fbdc",
-      "content_bytes": 1116,
-      "last_commit_sha": "45ecb2e7e",
-      "last_commit_date": "2026-06-10",
+      "content_sha256": "a7812ef4d35bd24f980ace82153658f9465d1e8985bbf229cd20127a57384f22",
+      "content_bytes": 1295,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 45ecb2e7e:wiki/products/canned-meats.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/canned-meats.md | sha256sum"
     }
   },
   "evidence_base": {

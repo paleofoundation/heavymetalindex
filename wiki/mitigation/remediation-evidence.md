@@ -92,3 +92,27 @@ Drivers:
 
 
 See also [[mitigation/agronomic]], [[supply-chain/soil-to-plant-transfer]].
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Blommaert H, Ruttens A, Wannijn J, Thijs S, Vangronsveld J, Smolders E, et al. (2022). *Cadmium translocation from soil to cacao bean: Isotope fractionation as a tool to assess plant compartmentalization and uptake mechanisms*. Frontiers in Plant Science. [https://doi.org/10.3389/fpls.2022.1055912](https://doi.org/10.3389/fpls.2022.1055912). Peer-reviewed, A-tier. [[sources/blommaert2022-cd-cacao-translocation|Source record]]
+2. Cao X, Sun L, Ren Y, Zhang Y, Zhao W, Wang H, et al. (2023). *EPS-producing bacteria reduce lead accumulation in edible pakchoi under soil lead contamination*. Frontiers in Microbiology. [https://doi.org/10.3389/fmicb.2023.1117312](https://doi.org/10.3389/fmicb.2023.1117312). Peer-reviewed, A-tier. [[sources/cao2023-lead-pakchoi-eps-bacteria|Source record]]
+3. Guo Y, Zhao X, Zhang J, Yang H, Chu G, Zhang C, et al. (2024). *Effects of wollastonite and phosphate treatments on cadmium bioaccessibility and health risk in pak choi (Brassica rapa ssp. chinensis) grown in contaminated soil*. Frontiers in Nutrition. [https://doi.org/10.3389/fnut.2024.1337996](https://doi.org/10.3389/fnut.2024.1337996). Peer-reviewed, A-tier. [[sources/guo2024-cadmium-bioaccessibility-pak-choi|Source record]]
+4. Hossain M Z, Islam M A, Islam M A, and Kibria K Q (2024). *Effects of soil pH and organic matter on the accumulation of cadmium in the grains of salt tolerant rice genotypes grown in Cd contaminated soil*. Khulna University Studies. [https://doi.org/10.53808/kus.2024.21.01.1133-ls](https://doi.org/10.53808/kus.2024.21.01.1133-ls). Peer-reviewed, A-tier. [[sources/hossain2024-rice-cadmium-soil-ph|Source record]]
+5. Begum M, Li L, Young E, Carey M, Meharg AA, Meharg C, et al. (2024). *Fertilization Enhances Grain Inorganic Arsenic Assimilation in Rice*. Exposure and Health. [https://doi.org/10.1007/s12403-023-00563-y](https://doi.org/10.1007/s12403-023-00563-y). Peer-reviewed, A-tier. [[sources/begum2024-rice-fertilization-arsenic|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added; narrative text revised |
+| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 4 sources added; 4 sections added; narrative text revised |
+| [63d2820a0](https://github.com/paleofoundation/heavymetalindex/commit/63d2820a0) | 2026-05-31 | major | 1 source added; 1 section added; narrative text revised |
+<!-- END: hmi-page-history -->

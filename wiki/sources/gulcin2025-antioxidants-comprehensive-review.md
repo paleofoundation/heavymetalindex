@@ -140,13 +140,13 @@ Funding: Open access funding provided by the Scientific and Technological Resear
 **Reviewer note on scope fit.** This paper is in scope per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The folder context (`heavy_metals_peptides` under `Kimi_Agent_Black Market Peptide Metal Survey`) is peptide-mediated metal binding and detoxification; this review's coverage of glutathione (γ-Glu-Cys-Gly tripeptide chelator) and selenocysteine-containing glutathione peroxidase, together with the metal-chelating assay methodology that underpins how peptide chelation activity is quantified in vitro, is the direct fit. The review is methodology-side, not occurrence-side, which is recorded accurately in the Implications section.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [af61f849f](https://github.com/paleofoundation/heavymetalindex/commit/af61f849f) | 2026-06-08 | ingest: gulcin2025-antioxidants-comprehensive-review fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [af61f849f](https://github.com/paleofoundation/heavymetalindex/commit/af61f849f) | 2026-06-08 | major | 1 source added; 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

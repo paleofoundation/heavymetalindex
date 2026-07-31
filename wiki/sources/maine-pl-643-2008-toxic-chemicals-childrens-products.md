@@ -101,15 +101,14 @@ App: Country-of-origin or state-of-sale "US-ME" plus product category "children'
 - **Maine downstream regulatory products not in corpus.** The chemicals-of-high-concern list (published by Maine DEP / MeCDC per the § 1693(1) deadline of 1 January 2010 and revised periodically per § 1693(2)), the priority-chemical designations under § 1694, the § 1696 sale-prohibition rules, the § 1695 disclosure rule, and the § 1697(6) mercury-added-products coordination rules are separate regulatory artefacts that descend from this statute. None are presently in the HMI corpus. When they enter, they should be ingested as separate source pages with their own cite-keys; this statute is the upstream authority and should be wikilinked from each.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [1c410cb9c](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb9c) | 2026-06-01 | major | 1 section added |
+| [aa0d6dcc4](https://github.com/paleofoundation/heavymetalindex/commit/aa0d6dcc4) | 2026-06-01 | major | 1 source added; narrative text revised |
+| [66af599fa](https://github.com/paleofoundation/heavymetalindex/commit/66af599fa) | 2026-06-01 | major | 4 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

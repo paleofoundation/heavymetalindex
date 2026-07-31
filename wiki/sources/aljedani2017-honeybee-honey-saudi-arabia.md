@@ -115,15 +115,15 @@ Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existin
 2026-06-08 byte-identical filesystem-copy enhancement: added `raw_sha256` (`71bd6c3131c0ef4a160e3c26afc45f57cf8a3a83c8ac00c0b36ed3013c4a692f`) and a `duplicate_filesystem_copies` block recording a second filesystem location of the canonical PDF at `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia.pdf`. Verified byte-identical via `shasum -a 256` against the canonical `raw_path` copy. Surfaced via the June 8 re-extraction batch placing the paper a second time under the processed-foods/snacks/beverages subfolder of the corruption-issue tree. Both filesystem locations now resolve to this canonical source page so future manual-fetch identity-check cycles in the June 8 batch skip re-ingest. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. Metadata-only enhancement; no new audit cycle spawned per 2026-06-02 precedent (no body or evidence-bearing frontmatter changed).
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [7bf1c3ea4](https://github.com/paleofoundation/heavymetalindex/commit/7bf1c3ea4) | 2026-06-08 | ingest: aljedani2017-honeybee-honey-saudi-arabia duplicate_filesystem_copies path from Manual Fetch Kimi /June 8/_extracted_07_Processed_Foods_Snacks_Beverages |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [7bf1c3ea4](https://github.com/paleofoundation/heavymetalindex/commit/7bf1c3ea4) | 2026-06-08 | minor | Narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [2e065f5d5](https://github.com/paleofoundation/heavymetalindex/commit/2e065f5d5) | 2026-05-20 | major | 1 section added; narrative text revised |
+| [3b7bf28d9](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28d9) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

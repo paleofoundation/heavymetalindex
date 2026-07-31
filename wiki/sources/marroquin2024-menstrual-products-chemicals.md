@@ -75,12 +75,14 @@ Microbiome: Not directly addressed. The review discusses vaginal/vulvar absorpti
 Identity checks before drafting found no existing `wiki/sources/` hit for DOI `10.1111/1471-0528.17668`, raw handle `MFK_paper-22-marroquin-2024-systematic-review`, cite key `marroquin2024-menstrual-products-chemicals`, or the exact title. The DOI, title, byline, publication year, journal, and CC BY-NC license were checked against the first page of `/tmp/hmi-fem-014.txt`. Tables 1-5 and Sections 2-4 were re-opened from the extracted text; values above preserve the source's displayed units and no unit conversions were made. Table 2 labels phthalates as `μg/g` while the narrative around some of the same values uses `mg/g`; this page follows the table header and records the inconsistency rather than harmonizing it. Kim et al. fragrance/VOC pad units are taken from narrative text (`μg/pad`) where the table-unit line is hard to read in extracted text. `metals: []` is intentional: the review reports no heavy-metal, total-arsenic, inorganic-arsenic, total-mercury, methylmercury, chromium-speciation, tin, or organotin occurrence values. The brand firewall is clean: the source sometimes counts brands in underlying studies, but this page reports only product-category values. Product and matrix slugs were checked against the closed taxonomy; panty-liner data are routed through `menstrual-pads` because no narrower panty-liner slug exists, while cups, discs, and period underwear are not routed because the source says peer-reviewed occurrence data were absent.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [2452c1812](https://github.com/paleofoundation/heavymetalindex/commit/2452c1812) | 2026-06-09 | ingest: marroquin2024-menstrual-products-chemicals fresh from MFK/June 8 Kimi_Agent_Feminine Care Heavy Metal Papers |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [2452c1812](https://github.com/paleofoundation/heavymetalindex/commit/2452c1812) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

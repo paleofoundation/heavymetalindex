@@ -233,6 +233,22 @@ Lamb chop is packaged in vacuum pouches or modified-atmosphere trays; Sn migrati
 
 EU Regulation 2023/915 sets maximum levels for Pb in meat (muscle meat of sheep/lamb) at 0.10 mg/kg wet weight and for Cd at 0.050 mg/kg wet weight [[regulations/eu2023-contaminants-maximum-levels]]. The FDA TDS maximum values for Pb (4.4 ppb) and Cd (1 ppb) in pan-cooked lamb chop are well within both limits. No US statutory maximum for Pb or Cd in lamb muscle exists. The EU Cd limit for sheep muscle meat of 0.050 mg/kg (50 ppb) is the operative regulatory cap for EU market access [[regulations/eu-2023-915-cadmium]]. Codex Alimentarius does not set a distinct ML for lamb or sheep muscle as a separate category from other meat [[regulations/codex-cadmium-mls]].
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 9 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+2. Gorbanov IA and Giro TM (2025). *Evaluation of lamb meat safety for meat snack production after the use of the feed supplement LaktuVet-1 in animal diets*. Proceedings of VSUET, 87(1): 86-92. [https://doi.org/10.20914/2310-1202-2025-1-86-92](https://doi.org/10.20914/2310-1202-2025-1-86-92). Peer-reviewed, A-tier. [[sources/gorbanov2025-lamb-meat-snacks-metals|Source record]]
+3. Maikanov BS, Ismagulova GT, Auteleyeva LT, Kemeshov ZO, and Zhanabayeva DK (2021). *Assessment of quality and safety of meats from various animal species in the Shuchinsk-Burabay resort zone, Kazakhstan*. Veterinary World 14(6):1615-1621. [https://doi.org/10.14202/vetworld.2021.1615-1621](https://doi.org/10.14202/vetworld.2021.1615-1621). Peer-reviewed, B-tier. [[sources/maikanov2021-meats-shuchinsk-burabay-metals|Source record]]
+4. Altalib SA, Ghania AA, and Alazzabi AA (2025). *Estimation of heavy metal concentrations in imported frozen meat sold in the Libyan market*. Mediterranean Journal of Medical Research. [https://doi.org/10.5281/zenodo.17986261](https://doi.org/10.5281/zenodo.17986261). Peer-reviewed, B-tier. [[sources/altalib2025-frozen-meat-libya|Source record]]
+5. Islam MS, Ahmed MK, Habibullah-Al-Mamun M, and Raknuzzaman M (2015). *The concentration, source and potential human health risk of heavy metals in the commonly consumed foods in Bangladesh*. Ecotoxicology and Environmental Safety. [https://doi.org/10.1016/j.ecoenv.2015.09.022](https://doi.org/10.1016/j.ecoenv.2015.09.022). Peer-reviewed, B-tier. [[sources/islam2015-bangladesh-foods-heavy-metals|Source record]]
+6. Raeeszadeh M, Gravandi H, and Akbari A (2021). *Determination of some heavy metals concentration in species animal meat (sheep, beef, turkey, and ostrich) and carcinogenic health risk assessment in Kurdistan province, western Iran*. Research Square. [https://doi.org/10.21203/rs.3.rs-407310/v1](https://doi.org/10.21203/rs.3.rs-407310/v1). Preprint, C-tier. [[sources/raeeszadeh2021-animal-meat-metals-iran|Source record]]
+7. Liang G, Gong W, Li B, Zuo J, Pan L, and Liu X (2019). *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph16060909](https://doi.org/10.3390/ijerph16060909). Peer-reviewed, A-tier. [[sources/liang2019-beijing-foodstuffs-health-risk|Source record]]
+8. Khatemeh S and Imani Baran A (2022). *Evaluation of bioaccumulation of some heavy metals in liver flukes (Fasciola hepatica and Dicrocoelium dendriticum) and liver samples of sheep*. Veterinary Research Forum. [https://doi.org/10.30466/vrf.2020.135702.3043](https://doi.org/10.30466/vrf.2020.135702.3043). Peer-reviewed, A-tier. [[sources/khatemeh2022-pb-cd-sheep-liver-flukes|Source record]]
+9. Wysok B, Wojtacka J, and Szczotka-Bochniarz A (2025). *Heavy Metal Contamination in Natural Sheep Casings*. Foods. [https://doi.org/10.3390/foods14091502](https://doi.org/10.3390/foods14091502). Peer-reviewed, A-tier. [[sources/wysok2025-heavy-metals-sheep-casings|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -244,15 +260,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 2 — 10 dairy/meat/grapefruit pages / 59 cells |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | correction | 8 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

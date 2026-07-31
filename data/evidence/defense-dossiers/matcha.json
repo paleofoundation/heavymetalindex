@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/matcha",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "67306156af0874e296c1d826869c7d2b666ef52be996560294da35ac3358961e",
-      "content_bytes": 12099,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "48fd2d879bf427b4316754a47a58c1bade95828ca6ae2f50590fa471d574293d",
+      "content_bytes": 12126,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/matcha.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/matcha.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/masri2025-toxicant-foods-california",
         "content_pin": {
-          "content_sha256": "813e9523f2f2418fa951b796ede6c3f8efd3b85c47a204b22d023c3fe99332f1",
-          "content_bytes": 34649,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "4c6f6d6953c96374cf5841f64de2b44623728e39a29369d2501d95bbdf53a960",
+          "content_bytes": 34829,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/masri2025-toxicant-foods-california.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/masri2025-toxicant-foods-california.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/szymczykowska2026-matcha-elemental-composition",
         "content_pin": {
-          "content_sha256": "7048a937465b8ed82ffa35d812c478a42555867cfb7dc253f1f1b00ac1972762",
-          "content_bytes": 26034,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "17943d902402170379261c0bf24669cad08e4197748d740e1b950f772bbf0782",
+          "content_bytes": 26061,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/szymczykowska2026-matcha-elemental-composition.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/szymczykowska2026-matcha-elemental-composition.md | sha256sum"
         }
       }
     ]

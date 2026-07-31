@@ -10,7 +10,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-06-09
-sources: 20
+sources: 21
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
@@ -116,19 +116,20 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 16 | [[sources/salama2019-libya-honey-metals\|Salama et al. 2019]]. *Determination of Physicochemical Properties and Toxic Heavy Metals Levels in Honey Samples from West of Libya*, Journal of Advanced Chemical Sciences | 2019 | Peer-reviewed | LY Pb, Cd, tHg, tAs occurrence in Bee honey samples from eight locations in western Libya, three samples per locality (n=24) |
 | 17 | [[sources/aljedani2017-honeybee-honey-saudi-arabia\|Aljedani 2017]]. *Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia*, Entomology and Applied Science Letters | 2017 | Peer-reviewed | SA Pb, Cd, Ni, Cr, Cu, Fe, Mn, Zn occurrence in Honeybee (Apis mellifera jemenatica) and honey samples from four agricultural regions in Saudi Arabia: Jazan (Sabya), Asir (Abha),... (n=8) |
 | 18 | [[sources/aghamirlou2015-iranian-honey-metals\|Aghamirlou et al. 2015]]. *Heavy metals determination in honey samples using inductively coupled plasma-optical emission spectrometry*, Journal of Environmental Health Science & Engineering | 2015 | Peer-reviewed | IR tAs, Cd, Cr, Pb, Ni, Zn, Cu occurrence in Multifloral honey samples from four regions of Ardabil province, Iran, collected from individual beekeepers in 2013 (n=25) |
-| 19 | [[sources/fsanz2011-23rd-australian-total-diet-study\|Zealand 2011]]. *The 23rd Australian Total Diet Study*, Food Standards Australia New Zealand | 2011 | Government report | AU/NZ Al, tAs, iAs, Cd, Pb, tHg, iHg, MeHg occurrence in Ninety-two Australian foods and beverages, including tap and bottled water, represented by 570 composite samples; each composite used... (n=570) |
+| 19 | [[sources/jackson2012-brown-rice-syrup-arsenic\|Jackson et al. 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives 120(5):623–626 | 2012 | Peer-reviewed | US iAs, tAs, DMA, MMA occurrence in Commercial products containing organic brown rice syrup (OBRS): 3 OBRS lots, 2 toddler formulas with OBRS, 13 toddler/infant... (n=29) |
+| 20 | [[sources/fsanz2011-23rd-australian-total-diet-study\|Zealand 2011]]. *The 23rd Australian Total Diet Study*, Food Standards Australia New Zealand | 2011 | Government report | AU/NZ Al, tAs, iAs, Cd, Pb, tHg, iHg, MeHg occurrence in Ninety-two Australian foods and beverages, including tap and bottled water, represented by 570 composite samples; each composite used... (n=570) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | fix(corpus): batch-dedup 45 duplicate-DOI source clusters to one canonical key (#81) |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [496b50d27](https://github.com/paleofoundation/heavymetalindex/commit/496b50d27) | 2026-06-09 | reorg(taxonomy-v2.2): re-parent shipped Cat 7 rows to Cat 30-35/24 (values verbatim) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [ea92b516a](https://github.com/paleofoundation/heavymetalindex/commit/ea92b516a) | 2026-05-25 | minor | Narrative text revised |
+| [0b917c57b](https://github.com/paleofoundation/heavymetalindex/commit/0b917c57b) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

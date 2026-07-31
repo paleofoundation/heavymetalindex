@@ -168,15 +168,15 @@ The authors note that some products originating from European nations and the Iv
 - 2026-05-18 Phase 2 audit (fresh-context Agent subagent, general-purpose): Verdict REVISE. Two findings applied: (i) Table 5 Jamaica-row maximum corrected from 17,545.00 → 17,345.00 to match PDF Table 5 (Check 1 ❌; the prior 17,545 transcription matched neither Table 5 nor body text); (ii) Implications → Certification paragraph rewritten to remove in-body assertion of the HMTc Cat 2 Step 0 lock scope decision (Check 5 ⚠️), with the governance-routing context relocated to Verification notes and a parenthetical pointer to the products/skin-lightening-cream retirement page. One finding rejected as false positive: Check 2 ⚠️ on the `advisory/skin-lightening-products` slug (the page exists at `wiki/advisory/skin-lightening-products.md`; the taxonomy snapshot covers the four indexed namespaces, not the advisory namespace). Source's internal 17,547/17,345/17,000 inconsistency across body/Table 5/Conclusions documented in Verification notes.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [60bb18cfb](https://github.com/paleofoundation/heavymetalindex/commit/60bb18cfb) | 2026-05-18 | minor | Narrative text revised |
+| [b155701d2](https://github.com/paleofoundation/heavymetalindex/commit/b155701d2) | 2026-05-18 | major | 5 sections added and 3 removed; narrative text revised |
+| [e060e01f7](https://github.com/paleofoundation/heavymetalindex/commit/e060e01f7) | 2026-05-15 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

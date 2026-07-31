@@ -95,12 +95,14 @@ The auto-fetch filename framed this as salt/cadmium. The PDF measures Cd and Na 
 The extracted text renders some plant-tissue concentration units as `mg/g DW`, but Figure 2 and Figure 3 captions specify `ug/g dry weight`; the reported Na narrative maximum of about 15 mg/g is consistent with 14898.06 ug/g rather than 14898.06 mg/g. Values above are therefore recorded as ug/g dry weight for Cd and Na tissue ranges, with the source's own mg/g summary retained only where the authors explicitly express the maximum in mg/g.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [41f7f1dbf](https://github.com/paleofoundation/heavymetalindex/commit/41f7f1dbf) | 2026-06-09 | ingest auto-fetched 2026-06-09: feng2023-rice-seedlings-cadmium-salt-climate |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [41f7f1dbf](https://github.com/paleofoundation/heavymetalindex/commit/41f7f1dbf) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

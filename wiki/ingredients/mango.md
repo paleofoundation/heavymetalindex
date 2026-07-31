@@ -180,6 +180,21 @@ Glass packaging is the baseline-cleanest option for juice and puree. PET is acce
 
 The Codex Alimentarius General Standard CXS 193-1995 applies the general fresh-fruit Pb maximum of 0.10 mg/kg fresh weight to mango. The EU Regulation 2023/915 applies the same 0.10 mg/kg Pb maximum for fruits and the 0.020 mg/kg Cd maximum for the general fruit category. The FDA has not set a mango-specific action level but the broader fruit framework applies. The Ethiopian Mekonnen 2024 work found commercial mango compliant with the EU 0.10 mg/kg Pb cap on a fresh-weight basis in the Bahir Dar market ([[sources/mekonnen2024-ethiopia-fruit-metals]]). The Pakistani Rahim 2020 work characterised the regulatory-margin compliance for Pakistani-market mango at scale ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan]]).
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Islam MH, Nowar A, Islam S, Nayan MM, and Jubayer A (2024). *A Systematic Review on Heavy Metals Contamination in Bangladeshi Fruits and Their Associated Health Risks*. Environmental Health Insights. [https://doi.org/10.1177/11786302241309280](https://doi.org/10.1177/11786302241309280). Review, B-tier. [[sources/islam2024-heavy-metals-bangladeshi-fruits-review|Source record]]
+2. Mekonnen BA, Yizengaw MG, Kassahun H, and Ketema G (2024). *Health Risk Assessment of Potentially Toxic Elements Contamination of Commonly Consumed Fruits in Bahir Dar Town, Northwest Ethiopia*. International Journal of Food Science. [https://doi.org/10.1155/2024/6677324](https://doi.org/10.1155/2024/6677324). Peer-reviewed, A-tier. [[sources/mekonnen2024-ethiopia-fruit-metals|Source record]]
+3. Rahim M, Saqib NU, Wahid F, Khan N, and Alrawi LI (2020). *Analysis of Toxic Heavy Metal Content of the Most Widely Consumed Fruits*. Journal of Physical Science. [https://doi.org/10.21315/jps2020.31.2.5](https://doi.org/10.21315/jps2020.31.2.5). Peer-reviewed, A-tier. [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Source record]]
+4. Farid SM and Enani MA (2010). *Levels of Trace Elements in Commercial Fruit Juices in Jeddah, Saudi Arabia*. Medical Journal of Islamic World Academy of Sciences. Peer-reviewed, A-tier. [[sources/farid2010-fruit-juices-jeddah-trace-elements|Source record]]
+5. Paudel N, Dhakal A, and Pradhanang SS (2024). *Analysis and Detection of Heavy Metals Content in Some Selected Packaged Fruit Juices of Kathmandu City by Flame Atomic Absorption Spectroscopy*. International Journal of Applied Sciences and Biotechnology 12(3): 158-165. [https://doi.org/10.3126/ijasbt.v12i3.70167](https://doi.org/10.3126/ijasbt.v12i3.70167). Peer-reviewed, B-tier. [[sources/paudel2024-packaged-fruit-juices-nepal|Source record]]
+6. Sobhanardakani S, Shahmoradi B, and Jahangard A (2017). *Assessment of Contents and Health Risk of Aluminum and Copper through Consumption of Commercial Fruit Juices*. Annals of Military and Health Sciences Research. [https://doi.org/10.5812/amh.68743](https://doi.org/10.5812/amh.68743). Peer-reviewed, A-tier. [[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran|Source record]]
+7. Tsegay ZT, Smaoui S, and Varzakas T (2025). *Toxicological qualities and detoxification trends of fruit by-products for valorization: A review*. Open Life Sciences 20:20251105. [https://doi.org/10.1515/biol-2025-1105](https://doi.org/10.1515/biol-2025-1105). Peer-reviewed, B-tier. [[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review|Source record]]
+8. Fasika Weldegebriel, Zemichael Gizaw, Mulat Gebrehiwot, Lamrot Yohannes, Jember Azanaw, Mengesha Genet, et al. (2025). *Toxic metal contamination and health risk assessment of packaged fruit juices for children in Gondar city, Ethiopia*. Scientific Reports 15:36868. [https://doi.org/10.1038/s41598-025-20789-x](https://doi.org/10.1038/s41598-025-20789-x). Peer-reviewed, A-tier. [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -198,15 +213,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | fix(corpus): regenerate source legends, collapsing accumulated duplicate tables |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
+| [e33207531](https://github.com/paleofoundation/heavymetalindex/commit/e33207531) | 2026-05-16 | major | 8 sources added; contamination-profile values revised; 12 sections added |
 <!-- END: hmi-page-history -->

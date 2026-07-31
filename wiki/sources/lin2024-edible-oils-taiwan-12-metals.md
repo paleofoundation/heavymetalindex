@@ -142,15 +142,14 @@ Arsenic is reported as total arsenic (no speciation between inorganic and organi
 - 2026-06-01 audit application (Claude Opus, this session, applying findings from a fresh-context general-purpose audit subagent): subagent verdict REVISE, with three ❌ findings on Check 1 (numerical fidelity) and four ⚠️ concerns. Findings applied: (a) Verification-notes Mn anchor corrected from "tea seed oil" to "camellia oil" with Table 2 verification (above); (b) App-section Pb-percentile sentence corrected from a four-oil list ("camellia 45 %, tea seed 28 %, peanut 18 %, sesame 17 %", two values fabricated) to the source's actual three-oil list (camellia 45.2 %, peanut 17.7 %, sunflower 16.2 % per page 181); (c) "Olive oil reverses the pattern: refined > unrefined for every analyte" replaced in the body intro and in the Refined-vs-unrefined comparison block with the source's stated exception ("except for Pb, Cr, and Co", page 177), with a flag of the source's internal text/table contradiction; (d) sunflower-refined Cd SD corrected from "± 0.388" to "± 0.116" — the "± 0.388" value matched the Ni column ± 0.388 on the same row and produced a mean ± SD range "0.079 ± 0.388" mathematically inconsistent with the printed range "ND~0.289"; ± 0.116 mirrors the adjacent V-column SD and is consistent with the printed range; (e) PC1 driver list expanded from five metals (Cd, Ba, Fe, Pb, Co) to the seven listed on page 181 (Cd, Ba, Fe, Pb, Co, Zn, Mn); (f) cluster 2 oil list expanded to include soybean oil (page 181); (g) ILCR-range attribution scope corrected from "unrefined oils" to "refined and unrefined oils across age groups". Findings rejected (false positives): none. The audit subagent's ⚠️ on sesame-unrefined Ni "2.907 vs 2.906" was a last-digit transcription whose materiality is below the 0.001 µg/kg threshold; left unchanged.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [8668f9a72](https://github.com/paleofoundation/heavymetalindex/commit/8668f9a72) | 2026-06-01 | minor | Narrative text revised |
+| [f0b84e611](https://github.com/paleofoundation/heavymetalindex/commit/f0b84e611) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

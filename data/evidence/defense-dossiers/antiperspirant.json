@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/antiperspirant",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "569f5c1c27e6b1cb1d309ce7e07fd7bdc8dd10a9b6f7deef8506b964233cf788",
-      "content_bytes": 1161,
-      "last_commit_sha": "45ecb2e7e",
-      "last_commit_date": "2026-06-10",
+      "content_sha256": "090156b0c4f0e561b9bf134494e86eed9d22f3a019c85e0e75a2456da650e40a",
+      "content_bytes": 1340,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 45ecb2e7e:wiki/products/antiperspirant.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/antiperspirant.md | sha256sum"
     }
   },
   "evidence_base": {

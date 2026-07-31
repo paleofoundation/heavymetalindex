@@ -725,7 +725,7 @@
     {
       "slug": "north-america",
       "label": "North America",
-      "count": 432,
+      "count": 597,
       "samples": [
         "United States",
         "Canada",
@@ -736,18 +736,18 @@
     {
       "slug": "latin-america",
       "label": "Latin America & Caribbean",
-      "count": 113,
+      "count": 123,
       "samples": [
         "Brazil",
         "Ecuador",
-        "Argentina",
-        "Peru"
+        "Peru",
+        "Argentina"
       ]
     },
     {
       "slug": "europe",
       "label": "Europe",
-      "count": 563,
+      "count": 581,
       "samples": [
         "European Union",
         "Poland",
@@ -758,7 +758,7 @@
     {
       "slug": "middle-east-north-africa",
       "label": "Middle East & North Africa",
-      "count": 281,
+      "count": 289,
       "samples": [
         "Iran",
         "Turkey",
@@ -769,7 +769,7 @@
     {
       "slug": "sub-saharan-africa",
       "label": "Sub-Saharan Africa",
-      "count": 186,
+      "count": 189,
       "samples": [
         "Nigeria",
         "Ethiopia",
@@ -780,7 +780,7 @@
     {
       "slug": "south-central-asia",
       "label": "South & Central Asia",
-      "count": 217,
+      "count": 224,
       "samples": [
         "India",
         "Bangladesh",
@@ -791,7 +791,7 @@
     {
       "slug": "east-southeast-asia",
       "label": "East & Southeast Asia",
-      "count": 391,
+      "count": 407,
       "samples": [
         "China",
         "Japan",
@@ -802,7 +802,7 @@
     {
       "slug": "oceania",
       "label": "Oceania",
-      "count": 53,
+      "count": 55,
       "samples": [
         "Australia",
         "New Zealand",
@@ -812,10 +812,12 @@
     {
       "slug": "international",
       "label": "International & multi-country",
-      "count": 239,
+      "count": 249,
       "samples": [
         "International / multi-country",
-        "KS"
+        "CAC",
+        "KS",
+        "AL"
       ]
     }
   ]

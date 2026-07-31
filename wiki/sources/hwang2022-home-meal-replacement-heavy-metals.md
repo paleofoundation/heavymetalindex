@@ -177,3 +177,14 @@ For HMTc use, the paper's product aggregation is broad. It does not provide prod
 - Full-PDF read performed from the 13-page MDPI PDF. Tables 1-6 were checked once from `pdftotext -layout` and Table 5 was checked a second time against a rendered page image before commit. The source's supplementary Tables S1-S5 are named by the PDF but were not bundled in the local PDF.
 - Brand firewall: the page reports only source-level matrix-phase results and no brand-by-brand values.
 - HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this source.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

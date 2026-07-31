@@ -57,14 +57,15 @@ This source contributes Iraq-market noodle occurrence ranges plus per-sample dis
 - 2026-06-09 autonomous audit: GPT-style 5-check audit returned PROMOTE with one ⚠️ on figure readability. Independent verification confirmed Figures 4-6 do show readable per-sample bar values; Key numbers, Implications, and Verification notes updated to add per-sample distribution statistics for Cu (n=10) and Cd (n=10) and to clarify the Part 12 reasoning for not pairing per-sample values with descriptors. Numerical fidelity, slug vocabulary, speciation/methods, and wiki/HMTc firewall checks all clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [3578c74dd](https://github.com/paleofoundation/heavymetalindex/commit/3578c74dd) | 2026-06-09 | audit: mohammed2021-salah-al-din-noodles-metals promoted per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c216f2486](https://github.com/paleofoundation/heavymetalindex/commit/c216f2486) | 2026-06-08 | ingest: mohammed2021-salah-al-din-noodles-metals fresh from MFK/June 8 New Folder With Items 3 2 |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [3578c74dd](https://github.com/paleofoundation/heavymetalindex/commit/3578c74dd) | 2026-06-09 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [c216f2486](https://github.com/paleofoundation/heavymetalindex/commit/c216f2486) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

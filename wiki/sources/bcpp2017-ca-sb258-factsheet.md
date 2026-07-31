@@ -171,13 +171,14 @@ Not applicable. This is a two-page legislative-advocacy factsheet, not an experi
 - Audit subagent (2026-06-09, v2 skill general-purpose audit) returned PROMOTE verdict with two ⚠️ concerns and zero ❌ definite-error findings. Concern (a) Check 2 — `odor-removers-hard-surfaces` was an inexact mapping for the factsheet's "air fresheners" element, since the wiki taxonomy carries three dedicated air-freshener product slugs (`instant-air-refreshment-sprays`, `gel-diffusers`, `electric-plug-in-evaporators`); verified against `wiki/products/` directory listing and against the taxonomy snapshot — finding correct. Applied: replaced the single `odor-removers-hard-surfaces` link with the three dedicated air-freshener slugs in frontmatter `products:`, in the "Wiki pages this source may touch" section, and updated the Verification-notes product-mapping rationale paragraph to reflect the nine-slug product list and the air-fresheners three-way split. Concern (b) Check 3 — the bill-provenance paragraph (vote counts, signature date, Chapter 830 designation, codification at Cal. Health & Safety Code §§ 108950–108997) introduces facts external to the factsheet PDF. Verified: those facts are accurate to the California Legislative Information public record but the page does already explicitly frame them as contextual provenance ("the factsheet is undated within its body text but is internally consistent with mid- to late-summer-2017 drafting"), not as factsheet claims. Not applied as a substantive change because the framing is already correct; the audit-subagent itself flagged this as "not blocking" and the verdict was PROMOTE. 0 findings rejected as false positives.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [5b087c8ff](https://github.com/paleofoundation/heavymetalindex/commit/5b087c8ff) | 2026-06-09 | audit: bcpp2017-ca-sb258-factsheet promoted |
-| [7a2dc6a07](https://github.com/paleofoundation/heavymetalindex/commit/7a2dc6a07) | 2026-06-09 | ingest: bcpp2017-ca-sb258-factsheet fresh from MFK/June 8 Kimi_Agent_Download Corruption Issue (06_Regulatory_EPA_GreenSeal) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [5b087c8ff](https://github.com/paleofoundation/heavymetalindex/commit/5b087c8ff) | 2026-06-09 | minor | Narrative text revised |
+| [7a2dc6a07](https://github.com/paleofoundation/heavymetalindex/commit/7a2dc6a07) | 2026-06-09 | major | 4 sources added; 13 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

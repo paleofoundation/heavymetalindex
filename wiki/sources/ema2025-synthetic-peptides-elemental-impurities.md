@@ -92,13 +92,14 @@ Not applicable — this document is a regulatory guideline issued under the CTD 
 - 2026-06-09 autonomous-audit application: (a) restored the parenthetical qualifier "for veterinary products" to the verbatim Section 5 quote on page 21 (the reflection paper EMA/CVMP/QWP/153641/2018 is the veterinary-side instrument; for human products the in-scope framework is ICH Q3D itself); (b) corrected the Section 4.3.2 page attribution — the heading is on page 14 and the elemental-impurities classification sentence is at the top of page 16, not page 15 as originally written; (c) added a Verification-notes line confirming that `products/research-chemicals-peptides-sarms` is a taxonomy v2.1 addition not yet in the 2026-05-18 snapshot. No false positives from the audit. The auditor's interpretive note that the Ph. Eur. analytical-chapter list (2.2.55, 2.2.56, 2.5.34, 2.2.64) in the Methods section goes beyond what page 5 enumerates was not applied — those chapter numbers appear in the source body on page 17 (Section 4.4.2 "Analytical Development"), so the Methods-section list is faithful.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [d7e659228](https://github.com/paleofoundation/heavymetalindex/commit/d7e659228) | 2026-06-09 | audit: ema2025-synthetic-peptides-elemental-impurities revised per autonomous audit |
-| [3480f8f3b](https://github.com/paleofoundation/heavymetalindex/commit/3480f8f3b) | 2026-06-09 | ingest: ema2025-synthetic-peptides-elemental-impurities fresh from Manual Fetch Kimi/peptide_contamination_pdfs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [d7e659228](https://github.com/paleofoundation/heavymetalindex/commit/d7e659228) | 2026-06-09 | minor | Narrative text revised |
+| [3480f8f3b](https://github.com/paleofoundation/heavymetalindex/commit/3480f8f3b) | 2026-06-09 | major | 1 source added; 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

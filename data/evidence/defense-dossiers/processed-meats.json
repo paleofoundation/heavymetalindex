@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/processed-meats",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1ab1a230cdbf21f236082f3adbff906e0b067c5c7183dcb7b90da23e09c7c49f",
-      "content_bytes": 14354,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "27723a1cc09ae111ce97a61a4cfe2b19b50dd145ff05ae899a3c235bb1f93bd8",
+      "content_bytes": 14395,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/processed-meats.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/processed-meats.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/altalib2025-frozen-meat-libya",
         "content_pin": {
-          "content_sha256": "e1b9735c84c9c84e146de6a262b652c3842ed159c4c21e9fe149265daf5e8322",
-          "content_bytes": 7183,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "be43aab3ee91b3236372acd65c85ddf61237f8a1714edfb3cfbcefbd35b865fa",
+          "content_bytes": 7210,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/altalib2025-frozen-meat-libya.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/altalib2025-frozen-meat-libya.md | sha256sum"
         }
       },
       {
@@ -65,12 +65,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/buculei2012-tin-iron-migration-canned-food-romania",
         "content_pin": {
-          "content_sha256": "72a7502fe65f9848bcfd935d8232e2b8e0fdcfd533d3d14ef1ca1a4d4653a703",
-          "content_bytes": 18233,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "69b877d22da6aa18a8d239566bb1cdf2fb4907a88557793bbfb992c98af497f3",
+          "content_bytes": 18260,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/buculei2012-tin-iron-migration-canned-food-romania.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/buculei2012-tin-iron-migration-canned-food-romania.md | sha256sum"
         }
       },
       {
@@ -85,12 +85,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa-lead-contam-2010",
         "content_pin": {
-          "content_sha256": "2468c7250d7c5915d0bcab66b02cb8b2d58d4d9edc8c1850e04edd8395e63cf1",
-          "content_bytes": 21911,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "398e3cb49cc8dd26ce7110fbd03c1accf5dea5da05ad1fcef2998d4d5800c0b0",
+          "content_bytes": 21954,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/efsa-lead-contam-2010.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/efsa-lead-contam-2010.md | sha256sum"
         }
       },
       {
@@ -105,12 +105,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/el-daouk2020-aluminum-food-lebanon",
         "content_pin": {
-          "content_sha256": "6ae06390094b6f9fc3663601361fc611ed98bedc2a2fcf2945c260f3a0d83935",
-          "content_bytes": 22492,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "0146a3fd2b212c8653c04f0ed8bab620b5306013b6ed9f26fcb93ac0c6ed7489",
+          "content_bytes": 22672,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/el-daouk2020-aluminum-food-lebanon.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/el-daouk2020-aluminum-food-lebanon.md | sha256sum"
         }
       },
       {
@@ -127,12 +127,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gorbanov2025-lamb-meat-snacks-metals",
         "content_pin": {
-          "content_sha256": "d746cb857fed1ae9f4d5385294f0958822b9dd648a0d6d9a85207422881ba8d1",
-          "content_bytes": 5441,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "a901c17d0446916a82b6796f379320180e3e7a8712c20c9a4dd8e8ed5535b7c3",
+          "content_bytes": 5468,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/gorbanov2025-lamb-meat-snacks-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/gorbanov2025-lamb-meat-snacks-metals.md | sha256sum"
         }
       },
       {
@@ -147,12 +147,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/han2024-nickel-zhejiang-china",
         "content_pin": {
-          "content_sha256": "723fa5890444a5dae69abd611ab9aafcf36645282f28265daba10c2b5b6c6965",
-          "content_bytes": 13397,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "8bf48cf70f2e382d538a34a9a137f1f8c1319eb1f6d86b29642fd1e280c1f02b",
+          "content_bytes": 13424,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/han2024-nickel-zhejiang-china.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/han2024-nickel-zhejiang-china.md | sha256sum"
         }
       },
       {
@@ -170,12 +170,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hoha2014-pork-pb-cd-cu-zn-romania",
         "content_pin": {
-          "content_sha256": "0e1aa157c79cdd90d5d1b6f278739e69d942a8e21b8f0088e1d59df0bb9db745",
-          "content_bytes": 6745,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "5bb9fa0037483a22f5a67977a136aff5ffde7f713c935926da384f43d2dd9699",
+          "content_bytes": 6772,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/hoha2014-pork-pb-cd-cu-zn-romania.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/hoha2014-pork-pb-cd-cu-zn-romania.md | sha256sum"
         }
       },
       {
@@ -195,12 +195,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jayanthi2019-chennai-chicken-heavy-metals",
         "content_pin": {
-          "content_sha256": "c4ef81f91ae327dd74be0a800582b5f8dd74ec1f92e123b882aeb3c6164161d0",
-          "content_bytes": 3419,
-          "last_commit_sha": "7faea44b2",
-          "last_commit_date": "2026-06-11",
+          "content_sha256": "edf5ed5daacb61cf6ff50ff29aac431b3c212012655c86c8954695cf1dd19cae",
+          "content_bytes": 3598,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 7faea44b2:wiki/sources/jayanthi2019-chennai-chicken-heavy-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/jayanthi2019-chennai-chicken-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -215,12 +215,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/manfredi2025-nickel-meat-italy",
         "content_pin": {
-          "content_sha256": "9f74b77652260be68a76cb639bfecfc9c8deaeea64500c08ec6db64408fae160",
-          "content_bytes": 3099,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "b74d41b39c84ff1573a6c5667284a4a09b3e9826bfcf9e40ebce43e1136fcd0d",
+          "content_bytes": 3126,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/manfredi2025-nickel-meat-italy.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/manfredi2025-nickel-meat-italy.md | sha256sum"
         }
       },
       {
@@ -240,12 +240,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/morshdy2023-canned-meat-chicken-metals",
         "content_pin": {
-          "content_sha256": "d012160557cbdb82ba4b1938f9c9fb3992c4474d8f9fc3f797c3e0c765ccffc0",
-          "content_bytes": 8423,
-          "last_commit_sha": "4c4465f45",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "33d7e0584a3e2a3c6b6cbc045816d7309d595b078746507f4730516de3da1c57",
+          "content_bytes": 8602,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 4c4465f45:wiki/sources/morshdy2023-canned-meat-chicken-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/morshdy2023-canned-meat-chicken-metals.md | sha256sum"
         }
       },
       {
@@ -263,12 +263,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salaheldin2025-multimatrix-foods-egypt",
         "content_pin": {
-          "content_sha256": "7be812fe518516544c6e9d33ccb57efbfa065e52fb1ac86c36324f49010cd36b",
-          "content_bytes": 14176,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "2706d2eaddf0330c7a728129aea14ada823b26d2638b018a6d16f3d887035691",
+          "content_bytes": 14202,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
         }
       },
       {
@@ -285,12 +285,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/saraiva2021-chromium-speciation-milk-meat-cooking-france",
         "content_pin": {
-          "content_sha256": "2a672bb1f552bc137be341a3dd9dfdb83e774246d8322b86b138a0381fbdbdc2",
-          "content_bytes": 11666,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "b8ba26eb73a9d3c87ecdfb6a6f849c3fe965a33712e9fd7ce0438602def338da",
+          "content_bytes": 11693,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/saraiva2021-chromium-speciation-milk-meat-cooking-france.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/saraiva2021-chromium-speciation-milk-meat-cooking-france.md | sha256sum"
         }
       },
       {
@@ -306,12 +306,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt",
         "content_pin": {
-          "content_sha256": "6154b0ede747f90e7ff7ca037e2e8dc43b40937c8018aedda07809f70754d956",
-          "content_bytes": 11545,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "84793854c28cfd0617902bfb55ee449d5d1fcfe9543d6d21502dae22f09175f8",
+          "content_bytes": 11572,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt.md | sha256sum"
         }
       },
       {
@@ -326,12 +326,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stahl2017-aluminum-food-contact-part1",
         "content_pin": {
-          "content_sha256": "28ce812225e772e4c8ac3003d3773a5d317d9ed207a0678713cfa0ccd589eaa0",
-          "content_bytes": 7272,
-          "last_commit_sha": "046939195",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "a5023a8877b61d2623844b4e4159c0d4c7c9c7d9bfa7d97aa2ff706a8862b423",
+          "content_bytes": 7451,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 046939195:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
         }
       },
       {
@@ -346,12 +346,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wang2019-dietary-lead-guangzhou",
         "content_pin": {
-          "content_sha256": "b930cc12c459746bf33ea072760b91bc3c24d5b28e5014ccfb79681ad57e2804",
-          "content_bytes": 6986,
-          "last_commit_sha": "75c0addff",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "c2e6ed9654a11cc1b703b299d536e1be2c11c2082b3ff78f5d5c6290425c0526",
+          "content_bytes": 7166,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 75c0addff:wiki/sources/wang2019-dietary-lead-guangzhou.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wang2019-dietary-lead-guangzhou.md | sha256sum"
         }
       },
       {
@@ -369,12 +369,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wang2020-jilin-total-diet-metals",
         "content_pin": {
-          "content_sha256": "3bd49221a25c85f23b9f0fccdc06fb382e72c2b68508fc5ef2f5ad086fdb6e9e",
-          "content_bytes": 7372,
-          "last_commit_sha": "276f55976",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "fabbf4cfc205e73cd864914180c76b5cc3c14fb21165791962ced81fb7cdaf9b",
+          "content_bytes": 7552,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 276f55976:wiki/sources/wang2020-jilin-total-diet-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wang2020-jilin-total-diet-metals.md | sha256sum"
         }
       },
       {
@@ -392,12 +392,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wysok2025-heavy-metals-sheep-casings",
         "content_pin": {
-          "content_sha256": "66672e0c8f2a3eb6f556c4c42cdbef4dc7bf77ae0aefa184c0e6320264cfd207",
-          "content_bytes": 3608,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "9e8e372dea3c43a078fe0d41effb743bebdd8583dca5e5744da0875200fd5983",
+          "content_bytes": 3635,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/wysok2025-heavy-metals-sheep-casings.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wysok2025-heavy-metals-sheep-casings.md | sha256sum"
         }
       },
       {
@@ -415,12 +415,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wysok2025-sheep-casings-metals-poland",
         "content_pin": {
-          "content_sha256": "4b06f4a7360035c01dca02fb3ce693116a5051f308940c0b605685601673c944",
-          "content_bytes": 3415,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "38e2fde9ec536129456388ea150f19a65c3e11da2c130e26c48704442ffb102a",
+          "content_bytes": 3442,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/wysok2025-sheep-casings-metals-poland.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wysok2025-sheep-casings-metals-poland.md | sha256sum"
         }
       }
     ]

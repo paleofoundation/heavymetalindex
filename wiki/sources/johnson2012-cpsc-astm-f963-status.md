@@ -205,15 +205,14 @@ Staff recommends continued cooperation with ASTM on improvements to the toy safe
 - **Audit subagent findings applied (2026-06-01).** Fresh-context Agent subagent audit returned verdict PROMOTE. Check 1 (numerical fidelity) ✅: all migration limits, Table 1 / Table 2 / Appendix A Table 8 values, per-metal ADIs and PODs, Stranges 2007 cohort details (n = 1,202; HR 1.55; 95 % CI 1.03-2.33; 7.7-year NPC follow-up), Ahsan 2006 cohort size (n = 11,746), Kawamura 2006 / 2009 and Kumar & Pastore 2006 migration-test summaries, and literature-search counts Table 1-1 confirmed against PDF locations. Checks 2 (slug vocabulary), 3 (speciation and methods), 4 (Part 12 brand firewall, scientific-method/regulatory entities under Exception 2), and 5 (Part 2 wiki/HMTc firewall, gap framed as regulatory-history observation not threshold proposal) returned ✅ clean. One ⚠️ optional concern flagged: the verification note inferring "Williams was Johnson's surname during the 2010 contracting period" was an unsourced inference. Softened to note the same initials/agency/role suggest same person without asserting the relationship as fact.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [8cae8bf6e](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf6e) | 2026-06-01 | major | 1 section added |
+| [c3e692a54](https://github.com/paleofoundation/heavymetalindex/commit/c3e692a54) | 2026-06-01 | minor | Narrative text revised |
+| [a6c7ba0af](https://github.com/paleofoundation/heavymetalindex/commit/a6c7ba0af) | 2026-06-01 | major | 2 sources added; 15 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

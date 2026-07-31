@@ -68,12 +68,14 @@ Direct occurrence evidence for the [[products/baby-cereals-dry-rice-based]] cell
 Springer Nature publication (Food Science and Biotechnology, Korean Society of Food Science and Technology / Springer). Online publication 12 December 2017; print issue Vol 27(2), April 2018. Paper accessed under copyright; PDF held privately in `raw/Manual Fetch Discovery/`. The author's previous BAL-GC-MS/MS method paper (Kang, Jung, Jung 2016, Anal. Chim. Acta 934:231–238, paper reference 20) and a related ready-to-eat rice products survey (Jung, Kang, Jung, Ma 2018, Food Chem. 240:1179–1183, paper reference 21) are cited as the analytical method origin; these are separate prior papers and not duplicates of this study. The paper notes that an internal Korean Food & Drug Administration project report (Park SH et al. 2012, paper reference 24) had previously surveyed iAs in cereal-based infant formula (mixed grains and sorghums) in Korea but did not cover ready-to-cook rice powders or rice snacks; that report is not included as a separate wiki source here.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [d919cd5ba](https://github.com/paleofoundation/heavymetalindex/commit/d919cd5ba) | 2026-06-09 | ingest: jung2017-iAs-infant-rice-snacks-korea fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [d919cd5ba](https://github.com/paleofoundation/heavymetalindex/commit/d919cd5ba) | 2026-06-09 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

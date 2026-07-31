@@ -81,12 +81,14 @@ Recovered from `skip:no-occurrence-data` under the 2026-06-10 inclusion-by-defau
 Numbers were checked against the abstract, nanoparticle-preparation section, experimental-design section, Table 1, results text, and figure captions. No food, water, product, or tissue aluminum concentration is reported, and no exact figure-bar values are transcribed because they are not printed in the extracted text. Products and ingredients are intentionally empty.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The two most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [d0625510b](https://github.com/paleofoundation/heavymetalindex/commit/d0625510b) | 2026-06-11 | recover-ingest 2026-06-11: elmosbah2024-aluminum-rivastigmine-rats (lane a4, was skip:no-occurrence-data) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [d0625510b](https://github.com/paleofoundation/heavymetalindex/commit/d0625510b) | 2026-06-11 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/hot-chili-sauces",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "53e72c42846de50278092c4fb749c0bad6de6ada9f106ca559ae6b9f356a478e",
-      "content_bytes": 1171,
-      "last_commit_sha": "08c8f8330",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "2a33f3077f1558f03de02ea42ab6bece5267aa0f2a590fa4e503abe92e43796e",
+      "content_bytes": 1350,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 08c8f8330:wiki/products/hot-chili-sauces.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/hot-chili-sauces.md | sha256sum"
     }
   },
   "evidence_base": {

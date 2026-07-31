@@ -180,6 +180,19 @@ Glass packaging is the baseline-clean option. PET is acceptable. Avoid ceramic d
 
 The Codex Alimentarius General Standard CXS 193-1995 does not set vinegar-specific heavy-metals maxima. The EU Regulation 2023/915 applies general food-category limits to vinegar, with no vinegar-specific maximum for Pb, Cd, or tAs. The US FDA has not set vinegar-specific action levels but received the 2021 ESCP petition for action on balsamic vinegar specifically ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]). Italy's IGP and DOP traditional-balsamic protocols do not set heavy-metals limits as part of the geographic-indication framework. The CFIA 2025 Canadian targeted survey ([[sources/cfia2025-toxic-metals-selected-foods-2022-23]]) found general compliance with Health Canada's vinegar-applicable limits in the surveyed product. The regulatory gap on balsamic vinegar specifically, given the documented Pb-and-tAs elevation in this product category, is the focus of ongoing US advocacy and is likely to drive an FDA action in coming years.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Corrigan ZB, Braiman J, and Chittenden C (2021). *Letter to FDA: Dangerously high levels of arsenic and lead found in many vinegar products require action by the FDA*. Empire State Consumer Project / Food & Water Watch — FDA Citizen Petition Letter. NGO report, B-tier. [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter|Source record]]
+2. Karavoltsos S, Sakellari A, Sinanoglou VJ, Zoumpoulakis P, Plavsic M, Dassenakis M, et al. (2020). *Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter*. Molecules. [https://doi.org/10.3390/molecules25040861](https://doi.org/10.3390/molecules25040861). Peer-reviewed, A-tier. [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece|Source record]]
+3. Acosta A, Diaz C, Hardisson A, and Gonzalez D (1993). *Levels of Cd, Pb, and Ni in Different Types of Vinegars*. Bulletin of Environmental Contamination and Toxicology. Peer-reviewed, A-tier. [[sources/acosta1993-cd-pb-ni-vinegar-types|Source record]]
+4. Canadian Food Inspection Agency (2025). *Toxic metals in selected foods – April 1, 2022 to March 31, 2023: Food chemistry – Targeted surveys – Final report*. Canadian Food Inspection Agency. [inspection.canada.ca](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/testing-reports-and-journal-articles/2022-2022-toxic-metals). Government report, A-tier. [[sources/cfia2025-toxic-metals-selected-foods-2022-23|Source record]]
+5. Ndung'u K, Hibdon S, and Flegal AR (2004). *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*. Talanta. [https://doi.org/10.1016/j.talanta.2004.02.017](https://doi.org/10.1016/j.talanta.2004.02.017). Peer-reviewed, A-tier. [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Source record]]
+6. EFSA Panel on Food Additives and Flavourings (FAF), Younes M, Aquilina G, Degen G, Engel KH, Fowler PJ, et al. (2022). *Safety evaluation of buffered vinegar as a food additive*. EFSA Journal. [https://doi.org/10.2903/j.efsa.2022.7351](https://doi.org/10.2903/j.efsa.2022.7351). Government report, A-tier. [[sources/efsa2022-buffered-vinegar-food-additive-safety|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -203,15 +216,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

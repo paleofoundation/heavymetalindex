@@ -74,15 +74,15 @@ This source is high-value broad Category 1 evidence for infant foods and formula
 - Audited 2026-06-09 against `raw/markdown/FM_10196951/FM_10196951.md`: all eight per-metal means and ranges, EDI assumptions, recovery values, and methods text reproduce the source. Cr upper-bound abstract/table discrepancy is now noted in Key numbers alongside the existing Cd and HI notes. Audit also flagged `products/baby-food` as missing from the taxonomy snapshot; verified false positive — `wiki/products/baby-food.md` exists and the slug is in the canonical product list.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [94b95d8c1](https://github.com/paleofoundation/heavymetalindex/commit/94b95d8c1) | 2026-06-09 | audit: amarh2023-ghana-infant-food-heavy-metals [revised] per autonomous audit |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [8a682f8af](https://github.com/paleofoundation/heavymetalindex/commit/8a682f8af) | 2026-06-08 | ingest: amarh2023-ghana-infant-food-heavy-metals enhanced from MFK/June 8 New Folder With Items 3 2 |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [94b95d8c1](https://github.com/paleofoundation/heavymetalindex/commit/94b95d8c1) | 2026-06-09 | minor | Narrative text revised |
+| [8a682f8af](https://github.com/paleofoundation/heavymetalindex/commit/8a682f8af) | 2026-06-08 | major | 1 source removed; 3 sections added and 5 removed; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

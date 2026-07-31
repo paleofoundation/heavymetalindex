@@ -63,6 +63,30 @@ export function loadPreset(id) {
 // `analytes` list — so "[Analyte] [Matrix]" for rice becomes one query per
 // analyte (lead rice, cadmium rice, …). Returns [{ group, template, query,
 // analyte? }].
+// A query's SCOPE is which axis it actually varies on:
+//
+//   "matrix" — the template contains the subject placeholder, so the query is
+//              different for every matrix and must re-run for each one.
+//   "metal"  — the template has no placeholder, so the query is byte-identical
+//              no matter which matrix is selected (mechanism, toxicology,
+//              cohort, regulatory-instrument, and analytical-method literature
+//              is a property of the ANALYTE, not of the food it is measured in).
+//
+// Scope is derived per query, then a group is "metal" only when every one of
+// its queries is. An explicit `scope` on the group overrides the derivation.
+// This matters because the metal deep-dive presets are 36-75% metal-scope: run
+// naively, barrelling one preset through the 356-row HMTc taxonomy re-issues
+// those identical queries 356 times for zero new papers, and — worse — files
+// their results under a matrix folder they have nothing to do with.
+export function queryScope(preset, template) {
+  return template.includes(preset.placeholder || "[Subject]") ? "matrix" : "metal"
+}
+
+export function groupScope(preset, g) {
+  if (g.scope === "metal" || g.scope === "matrix") return g.scope
+  return (g.queries || []).every((q) => queryScope(preset, q) === "metal") ? "metal" : "matrix"
+}
+
 export function expandQueries(preset, subject) {
   const ph = preset.placeholder || "[Subject]"
   const aPh = preset.analytePlaceholder || "[Analyte]"
@@ -70,16 +94,44 @@ export function expandQueries(preset, subject) {
   const clean = (s) => s.replace(/\s+/g, " ").trim()
   const out = []
   for (const g of preset.groups || []) {
+    const gScope = groupScope(preset, g)
     for (const template of g.queries) {
+      // A group carrying an explicit scope forces it on every member; otherwise
+      // each query is judged on its own so a stray constant inside an otherwise
+      // matrix-varying stack is still recognized.
+      const scope = g.scope === "metal" || g.scope === "matrix" ? g.scope : queryScope(preset, template)
       const withSubject = template.split(ph).join(subject)
       if (analytes.length && withSubject.includes(aPh)) {
-        for (const a of analytes) out.push({ group: g.name, template, analyte: a, query: clean(withSubject.split(aPh).join(a)) })
+        for (const a of analytes)
+          out.push({ group: g.name, groupScope: gScope, scope, template, analyte: a, query: clean(withSubject.split(aPh).join(a)) })
       } else {
-        out.push({ group: g.name, template, query: clean(withSubject) })
+        out.push({ group: g.name, groupScope: gScope, scope, template, query: clean(withSubject) })
       }
     }
   }
   return out
+}
+
+// Metal-scope results are shared across every matrix the preset is ever run
+// for, so they are filed once under the preset's own _background/ folder and
+// recorded in a ledger. Without this they land in whichever matrix folder
+// happened to be selected — which is how a "cooking oils" pull ends up full of
+// Faroe Islands cohort and fish-fillet papers.
+const BACKGROUND_DIR = "_background"
+
+function loadBackgroundLedger(dir) {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(dir, "ran.json"), "utf8"))
+  } catch {
+    return {}
+  }
+}
+
+function saveBackgroundLedger(dir, ledger) {
+  try {
+    fs.mkdirSync(dir, { recursive: true })
+    fs.writeFileSync(path.join(dir, "ran.json"), JSON.stringify(ledger, null, 2))
+  } catch {}
 }
 
 // Windows/macOS-safe folder name for a query (the query IS the folder name, as
@@ -159,6 +211,7 @@ export async function runCondition(opts) {
     dedupeCorpus = true, // skip papers already in the ~23k corpus / staging
     groups = null,
     limitQueries = 0, // 0 = all; >0 caps the number of queries (for quick tests)
+    refreshBackground = false, // re-run metal-scope queries already in the ledger
     dryRun = false,
     onEvent = () => {},
     runId = `cond-${Date.now()}`,
@@ -185,10 +238,24 @@ export async function runCondition(opts) {
     )
   }
   const subjectDir = path.join(outRoot, safeFolder(subject.trim()))
+  const backgroundDir = path.join(outRoot, BACKGROUND_DIR)
 
   let queries = expandQueries(preset, subject.trim())
   if (groups && groups.length) queries = queries.filter((q) => groups.includes(q.group))
+
+  // Drop metal-scope queries this preset has already collected. They are
+  // matrix-invariant, so a second run returns the same papers at the same
+  // SerpAPI cost; `refreshBackground` forces them anyway.
+  const ledger = loadBackgroundLedger(backgroundDir)
+  const beforeSkip = queries.length
+  if (!refreshBackground) queries = queries.filter((q) => q.scope !== "metal" || !ledger[q.query])
+  const backgroundSkipped = beforeSkip - queries.length
+
   if (limitQueries > 0) queries = queries.slice(0, limitQueries)
+
+  // Counted after every filter so the reported split matches what will run.
+  const backgroundQueued = queries.filter((q) => q.scope === "metal").length
+  const matrixQueued = queries.filter((q) => q.scope === "matrix").length
 
   // Default sources: the free academic DBs + any SERP source whose key is set
   // (SerpAPI = Google Scholar, Serper = Google filetype:pdf). The SERP recall
@@ -212,10 +279,23 @@ export async function runCondition(opts) {
     subject: subject.trim(),
     preset: preset.label,
     queryCount: queries.length,
+    matrixQueries: matrixQueued,
+    backgroundQueries: backgroundQueued,
+    backgroundSkipped,
     sources: activeSources,
     outDir: subjectDir,
+    backgroundDir,
     dryRun,
   })
+  if (backgroundSkipped) {
+    log(
+      `${backgroundSkipped} metal-scope queries already collected in ${BACKGROUND_DIR}/ — skipping ` +
+        `(they do not vary by matrix). Re-run with refreshBackground to force.`,
+    )
+  }
+  if (backgroundQueued) {
+    log(`${backgroundQueued} metal-scope queries will file under ${BACKGROUND_DIR}/, not under "${subject.trim()}"`)
+  }
 
   if (!dryRun) fs.mkdirSync(subjectDir, { recursive: true })
 
@@ -230,8 +310,10 @@ export async function runCondition(opts) {
   if (dedupeCorpus) log(`corpus dedup: ${corpus.byDoi.size} DOIs, ${corpus.byTitle.size} titles, ${stagingSlugs.size} staged`)
 
   for (let qi = 0; qi < queries.length; qi++) {
-    const { group, query } = queries[qi]
-    onEvent({ type: "query-start", index: qi, total: queries.length, group, query })
+    const { group, query, scope } = queries[qi]
+    // Metal-scope results belong to the analyte, not to the selected matrix.
+    const destDir = scope === "metal" ? backgroundDir : subjectDir
+    onEvent({ type: "query-start", index: qi, total: queries.length, group, query, scope })
 
     // 1) gather candidates from every source
     const job = { query, fromYear, toYear, domain: "none", scoreTerms: { products: [], metals: [] } }
@@ -263,7 +345,7 @@ export async function runCondition(opts) {
           (doi && stagingSlugs.has(doi.replace(/[^a-z0-9]+/gi, "-")))
         if (inCorpus) {
           stats.corpusSkipped++
-          manifest.push({ runId, subject, group, query, decision: "dup:corpus", source: c.source, title: c.title, doi: c.doi, oa_url: c.oaUrl, file: "" })
+          manifest.push({ runId, subject, group, query, scope, decision: "dup:corpus", source: c.source, title: c.title, doi: c.doi, oa_url: c.oaUrl, file: "" })
           continue
         }
       }
@@ -282,12 +364,12 @@ export async function runCondition(opts) {
     onEvent({ type: "query-candidates", query, found: raw.length, unique: unique.length })
 
     if (dryRun) {
-      for (const c of unique) manifest.push({ runId, subject, group, query, decision: "dry-run", source: c.source, title: c.title, doi: c.doi, oa_url: c.oaUrl, file: "" })
+      for (const c of unique) manifest.push({ runId, subject, group, query, scope, decision: "dry-run", source: c.source, title: c.title, doi: c.doi, oa_url: c.oaUrl, file: "" })
       continue
     }
 
     // 3) download unique candidates into this query's folder
-    const queryDir = path.join(subjectDir, safeFolder(query))
+    const queryDir = path.join(destDir, safeFolder(query))
     fs.mkdirSync(queryDir, { recursive: true })
     const usedNames = new Set() // reserve filenames so two papers never collide
 
@@ -303,20 +385,20 @@ export async function runCondition(opts) {
       }
       usedNames.add(filename)
       const target = path.join(queryDir, filename)
-      const rel = path.relative(subjectDir, target)
+      const rel = path.relative(destDir, target)
       if (fs.existsSync(target)) {
         stats.skipped++
-        manifest.push({ runId, subject, group, query, decision: "skip:exists", source: c.source, title: c.title, doi: c.doi, oa_url: c.oaUrl, file: rel })
+        manifest.push({ runId, subject, group, query, scope, decision: "skip:exists", source: c.source, title: c.title, doi: c.doi, oa_url: c.oaUrl, file: rel })
         return
       }
       const r = await downloadWithRescue({ oaUrl: c.oaUrl, doi: c.doi, title: c.title }, target, keys.contact_email)
       if (r.saved) {
         stats.downloaded++
-        manifest.push({ runId, subject, group, query, decision: "downloaded", source: c.source, via: r.via, bytes: r.bytes, title: c.title, doi: c.doi, oa_url: r.oaUrl || c.oaUrl, file: rel })
+        manifest.push({ runId, subject, group, query, scope, decision: "downloaded", source: c.source, via: r.via, bytes: r.bytes, title: c.title, doi: c.doi, oa_url: r.oaUrl || c.oaUrl, file: rel })
         onEvent({ type: "download", query, title: c.title, source: c.source, via: r.via, bytes: r.bytes, file: rel })
       } else {
         stats.failed++
-        manifest.push({ runId, subject, group, query, decision: r.decision, source: c.source, title: c.title, doi: c.doi, oa_url: c.oaUrl, file: "" })
+        manifest.push({ runId, subject, group, query, scope, decision: r.decision, source: c.source, title: c.title, doi: c.doi, oa_url: c.oaUrl, file: "" })
       }
     }
 
@@ -331,7 +413,14 @@ export async function runCondition(opts) {
       if (fs.readdirSync(queryDir).length === 0) fs.rmdirSync(queryDir)
     } catch {}
 
-    onEvent({ type: "query-done", index: qi, total: queries.length, query, downloaded: stats.downloaded })
+    // Record metal-scope queries as collected only after they actually ran, so a
+    // crashed or aborted run does not mark background work as done.
+    if (scope === "metal") {
+      ledger[query] = { ran: new Date().toISOString(), runId, group }
+      saveBackgroundLedger(backgroundDir, ledger)
+    }
+
+    onEvent({ type: "query-done", index: qi, total: queries.length, query, scope, downloaded: stats.downloaded })
   }
 
   // manifest
@@ -340,11 +429,20 @@ export async function runCondition(opts) {
     manifestPath = path.join(subjectDir, "_manifest.csv")
     fs.writeFileSync(
       manifestPath,
-      toCsv(manifest, ["runId", "subject", "group", "query", "decision", "source", "via", "bytes", "title", "doi", "oa_url", "file"]),
+      toCsv(manifest, ["runId", "subject", "group", "query", "scope", "decision", "source", "via", "bytes", "title", "doi", "oa_url", "file"]),
     )
   }
 
-  const summary = { runId, subject: subject.trim(), stats, outDir: subjectDir, manifestPath, dryRun }
+  const summary = {
+    runId,
+    subject: subject.trim(),
+    stats,
+    outDir: subjectDir,
+    backgroundDir,
+    backgroundSkipped,
+    manifestPath,
+    dryRun,
+  }
   onEvent({ type: "done", ...summary })
   return summary
 }

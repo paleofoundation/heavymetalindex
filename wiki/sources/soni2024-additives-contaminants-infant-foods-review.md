@@ -108,13 +108,14 @@ PDF retrieved during the 2026-06-09 multi-database `/discover` autopilot run for
 - Autonomous audit subagent 2026-06-09 flagged MSG unit assignment in the Key numbers TDI table; verified against p.12 of the PDF — initial draft had transposed the per-pound and per-kilogram labels relative to the source. Source text is "14 mg per pound (30 mg per kilogram of body weight per day)" (Appaiah 2010); table now mirrors the source exactly. The two values are internally consistent (14 mg/lb × 2.2 lb/kg ≈ 30.8 mg/kg). All other audit checks returned clean.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The three most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [4c15d7c8b](https://github.com/paleofoundation/heavymetalindex/commit/4c15d7c8b) | 2026-06-09 | audit: soni2024-additives-contaminants-infant-foods-review revised |
-| [bc390e301](https://github.com/paleofoundation/heavymetalindex/commit/bc390e301) | 2026-06-09 | ingest: soni2024-additives-contaminants-infant-foods-review fresh from MFD/Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [4c15d7c8b](https://github.com/paleofoundation/heavymetalindex/commit/4c15d7c8b) | 2026-06-09 | minor | Narrative text revised |
+| [bc390e301](https://github.com/paleofoundation/heavymetalindex/commit/bc390e301) | 2026-06-09 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

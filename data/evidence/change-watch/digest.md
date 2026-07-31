@@ -1,7 +1,7 @@
 ---
 title: Change-watch digest
 noindex: true
-generated: 2026-06-23T07:39:18.698Z
+generated: 2026-07-30T18:08:58.806Z
 ---
 
 # Regulatory and literature change-watch
@@ -10,6 +10,18 @@ What moved in the regulation or the cited literature that touches a certified pr
 
 ## Most recent changes
 
+- **2026-07-30** · `synthesis_confidence_changed` — iAs in apple confidence medium → null. _(touches: fruit-juice-not-canned, fruit-juices-apple-containing, fruit-purees)_
+- **2026-07-30** · `synthesis_confidence_changed` — tHg in apple confidence medium → low.
+- **2026-07-30** · `synthesis_confidence_changed` — Pb in applesauce confidence medium → low.
+- **2026-07-30** · `synthesis_confidence_changed` — Pb in celery confidence medium → low.
+- **2026-07-30** · `synthesis_confidence_changed` — iAs in eggs confidence medium → low.
+- **2026-07-30** · `synthesis_confidence_changed` — Cr in grapes confidence medium → low.
+- **2026-07-30** · `synthesis_confidence_changed` — Pb in ground-beef confidence medium → low. _(touches: meat-and-poultry-purees)_
+- **2026-07-30** · `synthesis_evidence_grew` — tAs in honey evidence base doubled (n 4 → 8); resynthesis trigger per Part 9.
+- **2026-07-30** · `synthesis_confidence_changed` — tHg in honey confidence medium → low.
+- **2026-07-30** · `synthesis_confidence_changed` — Cr in oranges confidence medium → low.
+- **2026-07-30** · `synthesis_confidence_changed` — tHg in peanuts confidence medium → low.
+- **2026-07-30** · `synthesis_confidence_changed` — tHg in potatoes confidence medium → low.
 - **2026-06-23** · `synthesis_confidence_changed` — Ni in apple confidence high → low. _(touches: fruit-juice-not-canned)_
 - **2026-06-23** · `synthesis_confidence_changed` — Cr in apple confidence high → low.
 - **2026-06-23** · `synthesis_confidence_changed` — U in apple confidence high → null.
@@ -28,18 +40,6 @@ What moved in the regulation or the cited literature that touches a certified pr
 - **2026-06-23** · `synthesis_confidence_changed` — Ni in beans confidence high → medium.
 - **2026-06-23** · `synthesis_shift_up` — Pb in black-pepper synthesis moved up 6.8x (typical [10,130]→[130,640] ppb, p95 370→2500).
 - **2026-06-23** · `synthesis_confidence_changed` — Pb in black-pepper confidence low → medium.
-- **2026-06-23** · `synthesis_evidence_grew` — Pb in black-pepper evidence base doubled (n 2 → 8); resynthesis trigger per Part 9.
-- **2026-06-23** · `synthesis_shift_up` — Cd in black-pepper synthesis moved up 3.9x (typical [20,80]→[27,200] ppb, p95 100→390).
-- **2026-06-23** · `synthesis_confidence_changed` — Cd in black-pepper confidence low → medium.
-- **2026-06-23** · `synthesis_evidence_grew` — Cd in black-pepper evidence base doubled (n 2 → 6); resynthesis trigger per Part 9.
-- **2026-06-23** · `synthesis_evidence_grew` — tAs in black-pepper evidence base doubled (n 2 → 4); resynthesis trigger per Part 9.
-- **2026-06-23** · `synthesis_shift_up` — tHg in black-pepper synthesis moved up 3.5x (typical [1,10]→[null,17] ppb, p95 60→17).
-- **2026-06-23** · `synthesis_shift_up` — Ni in black-pepper synthesis moved up 2.4x (typical [850,2080]→[1700,4900] ppb, p95 4800→5100).
-- **2026-06-23** · `synthesis_confidence_changed` — Ni in black-pepper confidence low → medium.
-- **2026-06-23** · `synthesis_evidence_grew` — Ni in black-pepper evidence base doubled (n 2 → 4); resynthesis trigger per Part 9.
-- **2026-06-23** · `synthesis_shift_up` — Al in black-pepper synthesis moved up 3.5x (typical [10000,60000]→[110000,210000] ppb, p95 178000→540000).
-- **2026-06-23** · `synthesis_evidence_grew` — Al in black-pepper evidence base doubled (n 2 → 4); resynthesis trigger per Part 9.
-- **2026-06-23** · `synthesis_shift_up` — Cr in black-pepper synthesis moved up 3.8x (typical [100,600]→[800,2300] ppb, p95 2400→6600).
 
 ## Categories by change volume
 
@@ -49,19 +49,19 @@ What moved in the regulation or the cited literature that touches a certified pr
 - Teething & snacks (non-rice) — 31 event(s)
 - Baby cereals / grain products, dry (rice-based) — 26 event(s)
 - Baby cereals / grain products, dry (non-rice) — 25 event(s)
+- Fruit juice (not canned) — 22 event(s)
+- Meat and poultry purees — 22 event(s)
 - Teething & snacks (rice-based) — 22 event(s)
-- Fruit juice (not canned) — 21 event(s)
-- Meat and poultry purees — 21 event(s)
+- Fruit purees (general) — 20 event(s)
 - Plant milks, rice-based — 20 event(s)
-- Fruit purees (general) — 19 event(s)
 - Non-root vegetable purees — 19 event(s)
 - Infant formula, RTF liquid (non-soy) — 14 event(s)
 - Infant formula, RTF liquid (soy-based) — 14 event(s)
 - Root-vegetable purees — 14 event(s)
 - Infant formula, powder (soy-based) — 12 event(s)
 - Plant milks (almond, oat, coconut, other non-soy/non-rice) — 12 event(s)
+- Fruit juices, apple-containing — 9 event(s)
 - Plant milks, soy-based — 9 event(s)
-- Fruit juices, apple-containing — 8 event(s)
 - Fruit juices, non-apple — 8 event(s)
 - Vegetable juices, root-vegetable-containing — 5 event(s)
 - Vegetable juices, non-root — 2 event(s)

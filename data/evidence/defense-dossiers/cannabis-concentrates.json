@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cannabis-concentrates",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d516afd598744201e39607a4a65d547f3d1db16e7a190df1c2d59bb384d6ddc2",
-      "content_bytes": 1203,
-      "last_commit_sha": "c794d6b50",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "ea2c1f6bb32ea67f1e1c70d06f0d3dad5824edfc7aca85720fed2aa84bc3e894",
+      "content_bytes": 1382,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c794d6b50:wiki/products/cannabis-concentrates.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/cannabis-concentrates.md | sha256sum"
     }
   },
   "evidence_base": {

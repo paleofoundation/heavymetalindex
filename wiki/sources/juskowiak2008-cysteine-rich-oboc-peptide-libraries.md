@@ -83,14 +83,15 @@ Within the wiki/HMTc firewall, this source bears on no per-row P97/P45 percentil
 - Audit subagent (2026-06-08) flagged internal inconsistency between the `sample_population` frontmatter blob ("2 mM tris-carboxyethylphosphine") and the Key numbers table (2.6 mM). The paper itself is internally inconsistent — main text page 3 says "tris-carboxyethylphosphine (2 mM)" while Experimental Section page 5 says "2.6 mM tris-carboxyethylphosphine·HCl". The Experimental Section is the authoritative protocol value; the frontmatter blob has been aligned to 2.6 mM with a parenthetical note about the paper's main-text rounding. All other audit checks (numerical fidelity, slug vocabulary, methods, brand firewall, wiki/HMTc firewall) passed with no findings to apply. Subagent verdict: PROMOTE.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [f81f4b865](https://github.com/paleofoundation/heavymetalindex/commit/f81f4b865) | 2026-06-08 | audit: juskowiak2008-cysteine-rich-oboc-peptide-libraries promoted |
-| [f35ea1306](https://github.com/paleofoundation/heavymetalindex/commit/f35ea1306) | 2026-06-08 | ingest: juskowiak2008-cysteine-rich-oboc-peptide-libraries fresh from MFK/June 8 Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [f81f4b865](https://github.com/paleofoundation/heavymetalindex/commit/f81f4b865) | 2026-06-08 | minor | Narrative text revised |
+| [f35ea1306](https://github.com/paleofoundation/heavymetalindex/commit/f35ea1306) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

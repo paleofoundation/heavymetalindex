@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-plastic-drinkware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3fcfa64f21896a8d8d2ae18afb40a9b5c5b9c06c23a5ec81f4b44a46d42f2e28",
-      "content_bytes": 8711,
-      "last_commit_sha": "cedfa8b8a",
-      "last_commit_date": "2026-06-11",
+      "content_sha256": "d854faeb25bc62a14d6ca5bbb240f0b8d6af4fd333bf9f577663464a55e3f483",
+      "content_bytes": 8752,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cedfa8b8a:wiki/products/tableware-plastic-drinkware.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/tableware-plastic-drinkware.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "b1790aaffcba1277cabf08627d06676d5ffa3775f566da92cb1112ebb5555d64",
-          "content_bytes": 19164,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "93a217a1d69ea35ec7ab9aac742796ffc782720f11c1d274d996bef4bc840af0",
+          "content_bytes": 19191,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
         }
       },
       {
@@ -79,12 +79,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zeng2023-disposable-food-containers-metals",
         "content_pin": {
-          "content_sha256": "30b28467c8cfc102d0662f864f5d20f57f746a56b6cdf74265757563a78917e0",
-          "content_bytes": 7073,
-          "last_commit_sha": "761b54272",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "0729c37120fb8de255f2ee18d486a9ffe3dd656651fb0a989701adf45fe47685",
+          "content_bytes": 7252,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 761b54272:wiki/sources/zeng2023-disposable-food-containers-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/zeng2023-disposable-food-containers-metals.md | sha256sum"
         }
       }
     ]

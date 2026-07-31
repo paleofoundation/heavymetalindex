@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-caps-closures",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8e170aa7b26c8c16a3a27afcce204139790e0c44ea94c14c3cdfb53dcac78352",
-      "content_bytes": 8087,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "99321d5a968f6f03d23a88f25c544c8c58e5870154a9af9f952a9205feca9494",
+      "content_bytes": 8114,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/food-packaging-caps-closures.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/food-packaging-caps-closures.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bergerritchie2013-hot-sauce-lead",
         "content_pin": {
-          "content_sha256": "7bd61cfaa70265dc9bb484231e54b3015f82599cf38771b91822b37400fb0361",
-          "content_bytes": 24572,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "feb4fafab0126812b93785cd0de28546cd2939312aada80e1ac3dc60f78ed3d2",
+          "content_bytes": 24599,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/bergerritchie2013-hot-sauce-lead.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/bergerritchie2013-hot-sauce-lead.md | sha256sum"
         }
       }
     ]

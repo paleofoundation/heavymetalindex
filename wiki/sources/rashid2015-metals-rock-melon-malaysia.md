@@ -93,15 +93,15 @@ Evidence tier B: regional journal (Jurnal Intelek, UiTM Perlis), no DOI, methods
 - Fresh-context audit subagent (2026-05-20) verdict REVISE: one ⚠️ on Check 3 (Speciation/Methods) flagging that the body sentence "Pb, Al, Cr, and Ni are HMT&C target analytes (Cr-VI only on the list, but only total Cr was measured here)" was internally self-correcting but initially misstated Cr as an HMT&C analyte. Verified against CLAUDE.md Part 14: the HMT&C 10-analyte list contains Cr-VI, not total Cr. Applied the suggested clearer phrasing. Checks 1 (numerical fidelity, including per-farm Pb means against Table 2 and no transposition with Table 1 coco peat values), 2 (slug vocabulary), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMT&C firewall) all came back ✅ clean. 1 ⚠️ applied, 0 ❌ findings.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [96dacc383](https://github.com/paleofoundation/heavymetalindex/commit/96dacc383) | 2026-05-20 | minor | Narrative text revised |
+| [ecdd756cd](https://github.com/paleofoundation/heavymetalindex/commit/ecdd756cd) | 2026-05-20 | major | 2 sections added and 1 removed; narrative text revised |
+| [ba9b2540f](https://github.com/paleofoundation/heavymetalindex/commit/ba9b2540f) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

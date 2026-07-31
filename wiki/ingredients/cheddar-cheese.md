@@ -239,6 +239,21 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The EU sets a lead maximum level of 0.020 mg/kg for raw milk and heat-treated milk; for cheese, the applicable limit and its basis (as-product versus milk-equivalent) depends on the regulatory instrument in effect. Under [[regulations/eu2023-contaminants-maximum-levels]], dairy product limits apply to the product as placed on the market. The EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) sets a cadmium maximum for cheese; exact cheese-specific values should be verified against the current regulatory text. No US FDA action level for Pb or Cd applies specifically to cheddar cheese; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler foods. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides international cadmium limits for dairy products. Given the TDS findings of all-below-reporting-limit concentrations for Cd, Pb, tAs, tHg, Ni, and Cr in 27 samples [[sources/fda2022-tds-elements-fy2018-fy2020]], typical US market cheddar is far below all applicable regulatory ceilings.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
+2. Al Sidawi R, Ghambashidze G, Urushadze T, and Ploeger A (2021). *Heavy Metal Levels in Milk and Cheese Produced in the Kvemo Kartli Region, Georgia*. Foods. [https://doi.org/10.3390/foods10092234](https://doi.org/10.3390/foods10092234). Peer-reviewed, A-tier. [[sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia|Source record]]
+3. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
+4. Hasan GMMA and Khanam S (2021). *Detection of Trace Elements in Selective Dairy Products to assess Human Health Risk of Bangladeshi People*. Oriental Journal of Chemistry. [https://doi.org/10.13005/ojc/370222](https://doi.org/10.13005/ojc/370222). Peer-reviewed, B-tier. [[sources/hasan2021-bangladesh-dairy-trace-elements|Source record]]
+5. Erol S and Ürkek B (2025). *Safety and Nutritional Profile of Traditional Turkish Cheeses: A Comprehensive Study on Their Mineral Content, Heavy Metal Contamination, and Health Risks of Aho, Golot, and Telli*. Food Science & Nutrition. [https://doi.org/10.1002/fsn3.4863](https://doi.org/10.1002/fsn3.4863). Peer-reviewed, A-tier. [[sources/erol2025-turkish-cheese-metals|Source record]]
+6. Ibrahim SA, El-Sohaimy SA, Abd El-Aziz M, and Shehata MG (2024). *Heavy metals in raw milk and Egyptian cheese types*. Open Veterinary Journal. [https://doi.org/10.5455/OVJ.2024.v14.i2.4](https://doi.org/10.5455/OVJ.2024.v14.i2.4). Peer-reviewed, A-tier. [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese|Source record]]
+7. F.E. Arellano, A. Fernandez-Cirelli, S. Braeuer, W. Goessler, and A.L. Perez-Carrera (2023). *Arsenic risk assessment through dairy products ingestion*. Arsenic in the Environment: Bridging Science to Practice for Sustainable Development. [https://doi.org/10.1201/9781003317395-91](https://doi.org/10.1201/9781003317395-91). Conference proceedings, B-tier. [[sources/arellano2023-dairy-products-arsenic-argentina|Source record]]
+8. Pankiewicz U (2012). *Monitoring of total mercury level in selected dairy products from the south-east regions of Poland*. Ecological Chemistry and Engineering A. [https://doi.org/10.2428/ecea.2012.19(01)014](https://doi.org/10.2428/ecea.2012.19(01)014). Peer-reviewed, B-tier. [[sources/pankiewicz2012-thg-dairy-products-poland|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -250,15 +265,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | fix(integrity): drain contamination-profile backlog batch 2 — 10 dairy/meat/grapefruit pages / 59 cells |
-| [3db255c9e](https://github.com/paleofoundation/heavymetalindex/commit/3db255c9e) | 2026-06-11 | feat(scorecard): regenerate page blocks + gap register with consumption tiers active (D1 depth + D11 readiness now tier-weighted) |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
+| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
+| [0b8cc0157](https://github.com/paleofoundation/heavymetalindex/commit/0b8cc0157) | 2026-06-11 | correction | 6 sources added; contamination-profile values revised; 1 section added |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

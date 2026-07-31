@@ -180,6 +180,20 @@ Glass packaging is the baseline-cleanest option per the Spanish packaging-compar
 
 The Codex Alimentarius Standard for Olive Oils and Olive Pomace Oils (CXS 33-1981, revised 2017) sets specific heavy-metals provisions for olive oils: iron 3.0 mg/kg max, copper 0.1 mg/kg max (virgin oils) / 0.4 mg/kg (refined). EU Regulation 2023/915 sets the lead maximum for "oils and fats" (a category that includes olive oil) at 0.10 mg/kg; the EU lead limit for olive oil specifically aligns with this general fats-and-oils category. For arsenic and cadmium, the EU and Codex apply general-food contaminant limits rather than olive-oil-specific maxima. The FDA has not established an olive-oil-specific action level for the standard heavy-metals panel; FDA's general adulteration framework applies. The Cypriot health-risk study found Pb at Morphou and Lefka olive oils below the EU 0.10 mg/kg fats-and-oils Pb maximum on average but with individual samples approaching the limit ([[sources/kabaran2020-health-risk-olive-oil-cyprus]]); the Iranian Gonbad-Kavus study found similar regulatory-margin compliance for commercial product and somewhat higher exceedance risk for traditional product ([[sources/tayeb2025-olive-corn-oil-iran-pb-cd]]).
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 7 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. González-Torres P, Puentes JG, Moya AJ, and La Rubia MD (2023). *Comparative Study of the Presence of Heavy Metals in Edible Vegetable Oils*. Applied Sciences. [https://doi.org/10.3390/app13053020](https://doi.org/10.3390/app13053020). Peer-reviewed, A-tier. [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review|Source record]]
+2. Silva VdS, Arias LVA, Usberti FCS, Oliveira RAd, and Fakhouri FM (2025). *Edible Oils from Health to Sustainability: Influence of the Production Processes in the Quality, Consumption Benefits and Risks*. Lipidology. [https://doi.org/10.3390/lipidology2040021](https://doi.org/10.3390/lipidology2040021). Peer-reviewed, B-tier. [[sources/silva2025-edible-oils-health-sustainability|Source record]]
+3. Charfi A, Moya López AJ, and Sánchez Villasclaras S (2026). *Food safety in the production of olive oils. Presence of heavy metals and phthalic acid esters using different types of packaging*. Journal of Food Science and Technology. [https://doi.org/10.1007/s13197-025-06246-7](https://doi.org/10.1007/s13197-025-06246-7). Peer-reviewed, A-tier. [[sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates|Source record]]
+4. Ziarati P, Mirmohammad Makki F, Vambol S, and Vambol V (2019). *Determination of Toxic Metals Content in Iranian and Italian Flavoured Olive Oil*. Acta Technologica Agriculturae. [https://doi.org/10.2478/ata-2019-0012](https://doi.org/10.2478/ata-2019-0012). Peer-reviewed, A-tier. [[sources/ziarati2019-iranian-italian-flavoured-olive-oil|Source record]]
+5. Tayeb J and Movassaghghazani M (2025). *Assessment of lead and cadmium exposure through olive and corn oil consumption in Gonbad-Kavus, north of Iran: A public health risk analysis*. Toxicology Reports. [https://doi.org/10.1016/j.toxrep.2025.101922](https://doi.org/10.1016/j.toxrep.2025.101922). Peer-reviewed, A-tier. [[sources/tayeb2025-olive-corn-oil-iran-pb-cd|Source record]]
+6. Kabaran S, Güleç A, and Besler HT (2020). *Is there any potential health risk of heavy metals through dietary intake of olive oil that produced in Morphou, Cyprus*. Progress in Nutrition. [https://doi.org/10.23751/pn.v22i3.8098](https://doi.org/10.23751/pn.v22i3.8098). Peer-reviewed, A-tier. [[sources/kabaran2020-health-risk-olive-oil-cyprus|Source record]]
+7. Ashraf MW (2012). *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*. Asian Journal of Chemistry (Uncorrected Proof). Peer-reviewed, A-tier. [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -216,15 +230,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | firewall+schema(ingredients): strip public percentile arithmetic, clamp confidence, fix in_progress contradiction |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | feat: ingredient page-completeness scorecard (generator + 257 pages scored) |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | source-legend: drain awaiting-synthesis backlog + wire populator into prebuild |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
+| [4fdd8087b](https://github.com/paleofoundation/heavymetalindex/commit/4fdd8087b) | 2026-05-15 | major | 7 sources added; contamination-profile values revised; 12 sections added |
 <!-- END: hmi-page-history -->

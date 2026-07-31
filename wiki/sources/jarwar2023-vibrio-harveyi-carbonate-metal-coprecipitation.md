@@ -90,15 +90,14 @@ This page was built from the full PDF, including the isolation methods, metal-re
 2026-06-02 audit application: a fresh-context audit subagent re-read the PDF and the wiki page, verified all Table 1 dissolved-metal values, Cd/Cr/Pb/Zn SEM/EDX ranges, the Pb ICP-AES ±41 ppm value, and the methods narrative against the source; verdict PROMOTE. Two ⚠️ concerns were raised and applied: (1) the new Table 2 prose was reordered from removal-rank to source-Table-2 column order (Zn, Cr, Cd, Pb) for consistency with the Key numbers table; (2) the four matrices slugs (marine-sediment-bacteria, microbial-carbonate-precipitation, aqueous-spike-test, wastewater-remediation) are off-controlled-matrices-vocabulary placeholders because this paper has no consumer matrix — aqueous-spike-test is also used by other remediation source pages in the corpus, while the other three are bespoke; flagging here so future controlled-vocabulary work can absorb them cleanly.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [6d13cb03c](https://github.com/paleofoundation/heavymetalindex/commit/6d13cb03c) | 2026-06-02 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

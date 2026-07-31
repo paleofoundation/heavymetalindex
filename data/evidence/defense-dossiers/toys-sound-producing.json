@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-sound-producing",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "036ebc2a586f1caae4af538cb0474a3576fb625c2f96c750b681e501b5d02746",
-      "content_bytes": 7366,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "67be22d7fb876d2d948d7d3bd1f4bde573640d5cf5fbd98ef73a4da79d5ea1a3",
+      "content_bytes": 7393,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/toys-sound-producing.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/toys-sound-producing.md | sha256sum"
     }
   },
   "evidence_base": {

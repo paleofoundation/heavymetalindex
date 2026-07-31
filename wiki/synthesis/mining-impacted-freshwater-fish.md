@@ -126,16 +126,32 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 9 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Shaalan WM (2024). *Hazardous effects of heavy metal pollution on Nile tilapia in the aquatic ecosystem of the Eastern Delta in Egypt*. BMC Veterinary Research. [https://doi.org/10.1186/s12917-024-04367-3](https://doi.org/10.1186/s12917-024-04367-3). Peer-reviewed, A-tier. [[sources/shaalan2024-nile-tilapia-heavy-metals-egypt|Source record]]
+2. Fuentes-Lopez Katerin, Olivero-Verbel Jesus, and Caballero-Gallardo Karina (2025). *Presence of Nematodes, Mercury Concentrations, and Liver Pathology in Carnivorous Freshwater Fish from La Mojana, Sucre, Colombia: Assessing Fish Health and Potential Human Health Risks*. Archives of Environmental Contamination and Toxicology. [https://doi.org/10.1007/s00244-025-01116-5](https://doi.org/10.1007/s00244-025-01116-5). Peer-reviewed, A-tier. [[sources/fuenteslopez2025-colombia-freshwater-fish-mercury|Source record]]
+3. Lucchini R, Maserti BE, Dolciotti C, Zoni S, Colicino E, Fattore E, et al. (2025). *Mercury contamination in the Amazon Basin: fish consumption, co-exposures, and health implications for indigenous and riverside communities*. Annals of Global Health. [https://doi.org/10.5334/aogh.4817](https://doi.org/10.5334/aogh.4817). Peer-reviewed, A-tier. [[sources/lucchini2025-amazon-mercury-co-exposures|Source record]]
+4. Shumba T, Kayumba AV, Kalinda C, Mukosha M, Mbewe M, Mwila C, et al. (2025). *Assessment of total mercury (Hg) in soil, sediment, and tilapia fish (Oreochromis niloticus) and health risk assessment among residents of Kitwe mining area, Zambia*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-025-36506-0](https://doi.org/10.1007/s11356-025-36506-0). Peer-reviewed, A-tier. [[sources/shumba2025-tilapia-mercury-zambia-mining|Source record]]
+5. Zhou XQ, Chen KH, Yu RQ, Yang M, Liu Q, Hao YY, et al. (2025). *Microbial potential to mitigate neurotoxic methylmercury accumulation in farmlands and rice*. Nature Communications. [https://doi.org/10.1038/s41467-025-60458-1](https://doi.org/10.1038/s41467-025-60458-1). Peer-reviewed, A-tier. [[sources/zhou2025-microbial-methylmercury-rice-china|Source record]]
+6. Willacker JJ, Eagles-Smith CA, Chandler JA, Naymik J, Myers R, and Krabbenhoft DP (2023). *Reservoir Stratification Modulates the Influence of Impoundments on Fish Mercury Concentrations along an Arid Land River System*. Environmental Science & Technology. [https://doi.org/10.1021/acs.est.3c04670](https://doi.org/10.1021/acs.est.3c04670). Peer-reviewed, A-tier. [[sources/willacker2023-mercury-fish-snake-river|Source record]]
+7. Leclerc M, Ponton DE, Bilodeau F, Planas D, and Amyot M (2023). *Enhanced Bioaccumulation and Transfer of Monomethylmercury through Periphytic Biofilms in Benthic Food Webs of a River Affected by Run-of-River Dams*. Environmental Science & Technology. [https://doi.org/10.1021/acs.est.3c04964](https://doi.org/10.1021/acs.est.3c04964). Peer-reviewed, A-tier. [[sources/leclerc2023-methylmercury-periphyton-river|Source record]]
+8. Stahl LL, Snyder BD, McCarty HB, Kincaid TM, Olsen AR, Cohen TR, et al. (2023). *Contaminants in fish from U.S. rivers: Probability-based national assessments*. Science of the Total Environment. [https://doi.org/10.1016/j.scitotenv.2022.160557](https://doi.org/10.1016/j.scitotenv.2022.160557). Peer-reviewed, A-tier. [[sources/stahl2023-us-river-fish-mercury|Source record]]
+9. Lepak JM, Johnson BM, Hooten MB, Wolff BA, and Hansen AG (2023). *Predicting sport fish mercury contamination in heavily managed reservoirs: Implications for human and ecological health*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0285890](https://doi.org/10.1371/journal.pone.0285890). Peer-reviewed, A-tier. [[sources/lepak2023-sport-fish-mercury-colorado|Source record]]
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | fix(synthesis): coherent index (Overview toggle, no dump) + subpage Overviews |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | fix(firewall): complete Part 2 HMTc-advocacy neutralization across 25 scholarly pages |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
+| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
+| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

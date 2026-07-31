@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-freshwater.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 43bee138770fb24fd4f2562a2bea7200291ae3811d07a1eae01f544a85ebb480
+source_page_sha256: 4d6ec5a1edc1cea4c70eec232a3709b24acdd7d719485679f22d34e0d47821a9
 total_claims: 3
 cited_claims: 1
 uncited_claims: 2
-distinct_cited_targets: 215
-distinct_cited_sources: 215
+distinct_cited_targets: 218
+distinct_cited_sources: 218
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2419
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 3 |
 | cited claims | 1 |
 | uncited claims | 2 |
-| distinct cited targets | 215 |
-| distinct cited `sources/` pages | 215 |
+| distinct cited targets | 218 |
+| distinct cited `sources/` pages | 218 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2419 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 
@@ -58,7 +58,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `0.3 mg/L`
 - Context: `romis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) | |`
-- Cited targets (215):
+- Cited targets (218):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador\.md` (page missing)
@@ -186,6 +186,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/epa1999-mercury-update-fish-advisories\.md` (page missing)
     - audit rows: none
   - `wiki/sources/escobar-camacho2024-mercury-fish-ecuador-amazon\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
@@ -433,6 +435,8 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/subhanullah2024-panjkora-fish-water-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/suomi2023-finland-dietary-metals-cumulative\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tamele2020-african-seafood-metals-review\.md` (page missing)
@@ -466,6 +470,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/wang2023-climate-marine-mercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/watanabe2017-retail-fish-mercury-methylmercury-japan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/wickramaarachchige2022-sri-lanka-aquatic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/willacker2023-mercury-fish-snake-river\.md` (page missing)
     - audit rows: none
@@ -565,6 +571,7 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/epa1997-arsenic-fish-shellfish\.md` | sources | 0 | — | — |
 | `wiki/sources/epa1999-mercury-update-fish-advisories\.md` | sources | 0 | — | — |
 | `wiki/sources/escobar-camacho2024-mercury-fish-ecuador-amazon\.md` | sources | 0 | — | — |
+| `wiki/sources/fagbemi2023-akure-street-food-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/falconer1983-north-sea-seafood-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/fattorini2004-cienfuegos-seafood-arsenic-speciation\.md` | sources | 0 | — | — |
@@ -688,6 +695,7 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/sonke2023-mercury-global-change\.md` | sources | 0 | — | — |
 | `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` | sources | 0 | — | — |
 | `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/subhanullah2024-panjkora-fish-water-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/suomi2023-finland-dietary-metals-cumulative\.md` | sources | 0 | — | — |
 | `wiki/sources/tamele2020-african-seafood-metals-review\.md` | sources | 0 | — | — |
 | `wiki/sources/taylor2025-seafood-benefits-contaminants\.md` | sources | 0 | — | — |
@@ -705,6 +713,7 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/wang2020-jilin-total-diet-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/wang2023-climate-marine-mercury\.md` | sources | 0 | — | — |
 | `wiki/sources/watanabe2017-retail-fish-mercury-methylmercury-japan\.md` | sources | 0 | — | — |
+| `wiki/sources/wickramaarachchige2022-sri-lanka-aquatic-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/willacker2023-mercury-fish-snake-river\.md` | sources | 0 | — | — |
 | `wiki/sources/wu2025-climate-meghan-freshwater-fish-china\.md` | sources | 0 | — | — |
 | `wiki/sources/xia2025-whole-cell-biosensor-hg-food\.md` | sources | 0 | — | — |

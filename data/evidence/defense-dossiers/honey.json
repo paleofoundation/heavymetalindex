@@ -22,16 +22,16 @@
     "canonical_url": "https://heavymetalindex.com/products/honey",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "bd05e43291b6885d983159d4221ed55f598f3189b43a03dd23ddc93162f6f8d4",
-      "content_bytes": 14662,
-      "last_commit_sha": "43f4b5e53",
-      "last_commit_date": "2026-06-15",
+      "content_sha256": "9273eb46eed72a394e9599bcbab8b0bac5bc9567c8f0c3f4349c0cdb8ba5b3e5",
+      "content_bytes": 15034,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 43f4b5e53:wiki/products/honey.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/honey.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 19,
+    "contributing_source_count": 20,
     "sources_with_structured_values": 1,
     "contributing_sources": [
       {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abeslami2025-moroccan-honey-minerals",
         "content_pin": {
-          "content_sha256": "eba814157614084c7123d84d46433af3b4fb468f87b97ef30710de4d21bd53ce",
-          "content_bytes": 4629,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "15f360ff15a80352112d94ac8ec5fe68e8302c0dcf277baf7b50a4fd2a6e6a2c",
+          "content_bytes": 4656,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/abeslami2025-moroccan-honey-minerals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/abeslami2025-moroccan-honey-minerals.md | sha256sum"
         }
       },
       {
@@ -72,12 +72,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/aburas2023-libyan-honey-lead-cadmium",
         "content_pin": {
-          "content_sha256": "7e203eb64fea80133d350b531d59e254137a27e6961a62bca45fe8001d691db4",
-          "content_bytes": 3939,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "3d70cfe7e72fd124cef3639b07319c240ba4570597d0588c54c2924d01c8e7fc",
+          "content_bytes": 3950,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/aburas2023-libyan-honey-lead-cadmium.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/aburas2023-libyan-honey-lead-cadmium.md | sha256sum"
         }
       },
       {
@@ -98,12 +98,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/aghamirlou2015-iranian-honey-metals",
         "content_pin": {
-          "content_sha256": "970c07da1d60190d25fc08e929382d50c2966fb36663df54c78cf0180c072033",
-          "content_bytes": 4703,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "17ac3a4728fcce86cb29ffc642269c89cac56fb3c1600ba2987e5eaba99ad800",
+          "content_bytes": 4715,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/aghamirlou2015-iranian-honey-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/aghamirlou2015-iranian-honey-metals.md | sha256sum"
         }
       },
       {
@@ -125,12 +125,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/aljedani2017-honeybee-honey-saudi-arabia",
         "content_pin": {
-          "content_sha256": "ddce8e220a75e2c78218769009072d3b3c34e7cdce37167981d97cf3d667f09c",
-          "content_bytes": 12719,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "cc435157707882078b9d3697b65323fdc8665905751367bc96c1fe6f2244f1d3",
+          "content_bytes": 12746,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/aljedani2017-honeybee-honey-saudi-arabia.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/aljedani2017-honeybee-honey-saudi-arabia.md | sha256sum"
         }
       },
       {
@@ -155,12 +155,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bektashi2021-honey-metals-sugars-balkans",
         "content_pin": {
-          "content_sha256": "c3655997c20bab12302f19cf6969e11b94dfe06534a6dc1597fb9819a7bb7947",
-          "content_bytes": 4735,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "65f29df136dd8b7f268e7591c50901ba0589eff8af5618d6ae0a4086f29033fc",
+          "content_bytes": 4760,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/bektashi2021-honey-metals-sugars-balkans.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/bektashi2021-honey-metals-sugars-balkans.md | sha256sum"
         }
       },
       {
@@ -178,12 +178,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfia2025-toxic-metals-selected-foods-2022-23",
         "content_pin": {
-          "content_sha256": "a7ca10c8b0fc6dc76226d2a4445481767ccf095b275984788b0f271fcc3454a9",
-          "content_bytes": 5277,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "b2621289c3ec2f287f1ba65e93e93c23c86392de9d9af9bb87c457d1f02fb758",
+          "content_bytes": 5304,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/cfia2025-toxic-metals-selected-foods-2022-23.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/cfia2025-toxic-metals-selected-foods-2022-23.md | sha256sum"
         }
       },
       {
@@ -205,12 +205,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fsanz2011-23rd-australian-total-diet-study",
         "content_pin": {
-          "content_sha256": "c5665e41936a4acec50c5c07121cfd0fddb54cafef5cec56c48ddede011fe28a",
-          "content_bytes": 6201,
-          "last_commit_sha": "fb63f6e92",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "b50dd3f010add52b067093463f35cd8732fb928cae36ff8e6e4983061c7fa80e",
+          "content_bytes": 6380,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show fb63f6e92:wiki/sources/fsanz2011-23rd-australian-total-diet-study.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/fsanz2011-23rd-australian-total-diet-study.md | sha256sum"
         }
       },
       {
@@ -228,12 +228,35 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gunes2021-yalova-chestnut-honey-metals",
         "content_pin": {
-          "content_sha256": "e8344d73808d670fd6887d89a7e2d9460b9f97ed8f6353b8ced1fe91c8f4aa71",
-          "content_bytes": 4282,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "c236e2fec48750a896e76c9827336e7e2630479991ce2cfce9c149728ddd7aa3",
+          "content_bytes": 4327,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/gunes2021-yalova-chestnut-honey-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/gunes2021-yalova-chestnut-honey-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jackson2012-brown-rice-syrup-arsenic",
+        "title": "Arsenic, Organic Foods, and Brown Rice Syrup",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs",
+          "DMA",
+          "MMA"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jackson2012-brown-rice-syrup-arsenic",
+        "content_pin": {
+          "content_sha256": "10519c5de16aa20c75eb38ddc285fcf96061af6584de18ef3d79f24cc431fb2d",
+          "content_bytes": 3421,
+          "last_commit_sha": "5f7a7150d",
+          "last_commit_date": "2026-07-29",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5f7a7150d:wiki/sources/jackson2012-brown-rice-syrup-arsenic.md | sha256sum"
         }
       },
       {
@@ -248,12 +271,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/knoll2024-honeybee-cadmium-review",
         "content_pin": {
-          "content_sha256": "941083ea83d96af764e32bb7845bb65b9d7514ac07040d37b91ab672bed59239",
-          "content_bytes": 5269,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "62043a6cb6f80a1955fd16c9185a91b038d708b618274b9e87c55167e2855140",
+          "content_bytes": 5296,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/knoll2024-honeybee-cadmium-review.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/knoll2024-honeybee-cadmium-review.md | sha256sum"
         }
       },
       {
@@ -280,12 +303,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/manouchehri2021-honey-heavy-metals-review",
         "content_pin": {
-          "content_sha256": "c571d088634bf5a23014bd9b5b02fd325a6b9e1ab33055489ec22caaa61bc6b5",
-          "content_bytes": 11063,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "970d1ca639301ae4e695dfa259678238ec5320f498a6837a5e557fc9f2f5c545",
+          "content_bytes": 11090,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/manouchehri2021-honey-heavy-metals-review.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/manouchehri2021-honey-heavy-metals-review.md | sha256sum"
         }
       },
       {
@@ -305,12 +328,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/margaoan2024-bee-products-heavy-metals",
         "content_pin": {
-          "content_sha256": "503dca76bfd36f47442400c0c1234806900fbcdc3368b4334eaee70a7ce0c0dc",
-          "content_bytes": 3682,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "e24a21f5955c2faa0c41a7661bd8e9a7af830c4d7648265c59f4595139bf4469",
+          "content_bytes": 3709,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/margaoan2024-bee-products-heavy-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/margaoan2024-bee-products-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -330,12 +353,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/naccari2025-honey-toxic-metals-microelements",
         "content_pin": {
-          "content_sha256": "b8f6c07c5141546ba11f69b785fd6f655b60f66a36ddd62e22b1f1e89e138367",
-          "content_bytes": 4866,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "86b621275554dff7bf2288798a0341e7586c578ac31809aac39e558399b97d13",
+          "content_bytes": 4893,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/naccari2025-honey-toxic-metals-microelements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/naccari2025-honey-toxic-metals-microelements.md | sha256sum"
         }
       },
       {
@@ -353,12 +376,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salama2019-libya-honey-metals",
         "content_pin": {
-          "content_sha256": "853c1ce55ae8d2b5bf149206d76ea5f028476c4117ce2e365d147c81c2af2dcd",
-          "content_bytes": 4224,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "17d9e915bf2b6877fc1766e538afd5e3769e2ccbeb045ac002a036bbdd927c6f",
+          "content_bytes": 4269,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/salama2019-libya-honey-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/salama2019-libya-honey-metals.md | sha256sum"
         }
       },
       {
@@ -373,12 +396,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shukla2020-honey-prayagraj-metals",
         "content_pin": {
-          "content_sha256": "f02b6deab04e29cd1429a7cc3c17051960ff571f32566e4e14e216261b35f9a0",
-          "content_bytes": 4308,
-          "last_commit_sha": "57ce7ab41",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "25ebd1ee288807bef08a9c6d9ff92e8015688df61ba60ce76db29e688281c371",
+          "content_bytes": 4349,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 57ce7ab41:wiki/sources/shukla2020-honey-prayagraj-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/shukla2020-honey-prayagraj-metals.md | sha256sum"
         }
       },
       {
@@ -399,12 +422,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/teferi2026-honey-ethiopia-kellem-wollega",
         "content_pin": {
-          "content_sha256": "525e9260770426196911a7f8647dc6b7186424917b914e60b478fb6d83e42a65",
-          "content_bytes": 8755,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "263990379a6f6274af5b8025399ff40e0a710403d4c162ed44654fff828bf68b",
+          "content_bytes": 8782,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/teferi2026-honey-ethiopia-kellem-wollega.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/teferi2026-honey-ethiopia-kellem-wollega.md | sha256sum"
         }
       },
       {
@@ -423,12 +446,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tomczyk2020-polish-honey-metal-transfer",
         "content_pin": {
-          "content_sha256": "5fbc7b3fa852f8bce0cc86b48ecacee7070a860ffcaa59821c387b3fc1ed6d33",
-          "content_bytes": 5874,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "02c1bf4edb2fa0f697138bb7a0d22d509ceeca36482a42115d4a2d52f3225af0",
+          "content_bytes": 5882,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/tomczyk2020-polish-honey-metal-transfer.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/tomczyk2020-polish-honey-metal-transfer.md | sha256sum"
         }
       },
       {
@@ -451,12 +474,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/usda-fas2023-china-gb-2762-2022-translation",
         "content_pin": {
-          "content_sha256": "69c4e2e60d11c7609ef3acf21b53077bd4c061a5e76763acdc72e4966ea5e9ab",
-          "content_bytes": 20705,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "7497381125a241669e08759195d6e87c76b852554cc0e57c76f43b51416f500a",
+          "content_bytes": 20886,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md | sha256sum"
         }
       },
       {
@@ -479,12 +502,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wise2025-elevated-metals-us-honeys",
         "content_pin": {
-          "content_sha256": "232dd83b85617a80fc80b236045f5a80d5587a73cc51fc0c1d3216cd59d879db",
-          "content_bytes": 14156,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "3e6e8234a21462ccf5663c9a7f81eb0d7d3d6386f018305092542112f5e30da3",
+          "content_bytes": 14183,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/wise2025-elevated-metals-us-honeys.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wise2025-elevated-metals-us-honeys.md | sha256sum"
         }
       },
       {
@@ -499,12 +522,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zhang2024-mip-pb-honey-cyprus",
         "content_pin": {
-          "content_sha256": "046fffbd9aeba9a817ca1a9a596d2fcd82abac8eeb4196d1f76af76e72e69357",
-          "content_bytes": 2193,
-          "last_commit_sha": "aca5e2155",
-          "last_commit_date": "2026-06-09",
+          "content_sha256": "e14398d7bc046736716fc865eef575551fd7d0ddd0fa8d9da33e044081d6565d",
+          "content_bytes": 2220,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show aca5e2155:wiki/sources/zhang2024-mip-pb-honey-cyprus.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/zhang2024-mip-pb-honey-cyprus.md | sha256sum"
         }
       }
     ]

@@ -134,15 +134,14 @@ App: The aluminum contamination_profile for the metal-and-alloy cookware product
 - Audit subagent (2026-06-02, general-purpose fresh context) verdict REVISE; 0 ❌ findings, 2 ⚠️ concerns. Both concerns verified against repo state and found to be false positives, no content changes made: (1) Auditor flagged `[[ingredients/salt]]` as missing from the taxonomy snapshot — verified against `wiki/ingredients/salt.md`, which exists; the auditor's snapshot was stale (auditor self-noted the possibility). The routing audit confirms 0 unresolved entries for this source. (2) Auditor flagged the four matrices labels (`cooked-rice`, `cooked-meat`, `food-contact-materials`, `food-simulants`) as not in the canonical matrices vocabulary — verified that the corpus-convention precedent for these labels is established in at least five prior source pages including [[sources/bassioni2012-aluminum-foil-meat-cooking-uae]] (`cooked-meat`, `food-contact-materials`), [[sources/dordevic2019-aluminum-foil-culinary-baking-czech]], [[sources/carey2015-rice-arsenic-percolating-cooking]], [[sources/efsa2015-nickel-food-water]], and [[sources/joyce2016-bush-meat-cooking-ghana]]. The routing audit accepts these labels with 0 malformed entries. The matrices-vocabulary note above already documents the corpus-convention status. Numerical fidelity (Tables 4, 5, 6, 7, 9), speciation discipline, brand-firewall posture, and Part 2 wiki/HMTc-firewall posture all audited clean. Effective post-verification verdict: PROMOTE.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
+| [d4755561d](https://github.com/paleofoundation/heavymetalindex/commit/d4755561d) | 2026-06-02 | major | 5 sources added; narrative text revised |
+| [919608f9a](https://github.com/paleofoundation/heavymetalindex/commit/919608f9a) | 2026-06-02 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

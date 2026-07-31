@@ -87,14 +87,15 @@ The MHIVPHE peptide and its DNS-L9 chemosensor derivative are reported as a sing
 - Adjacent context: see [[bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation]] and [[hu2024-engineered-ecoli-hg-cr-adsorption]] for parallel E. coli-displayed metal-binding-peptide bioengineering, [[juskowiak2008-cysteine-rich-oboc-peptide-libraries]] for upstream OBOC library methodology, and [[han2025-peptide-zinc-complexation-aquatic-review]] / [[lu2022-metal-chelating-peptides-review]] for peptide-metal coordination chemistry reviews in the same Kimi peptide folder.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [532b911c4](https://github.com/paleofoundation/heavymetalindex/commit/532b911c4) | 2026-06-08 | audit: sosnowska2025-phage-display-peptide-copper-chemosensor revised |
-| [350dc424b](https://github.com/paleofoundation/heavymetalindex/commit/350dc424b) | 2026-06-08 | ingest: sosnowska2025-phage-display-peptide-copper-chemosensor fresh from MFK/June 8 Black Market Peptide Metal Survey/heavy_metals_peptides |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [532b911c4](https://github.com/paleofoundation/heavymetalindex/commit/532b911c4) | 2026-06-08 | minor | Narrative text revised |
+| [350dc424b](https://github.com/paleofoundation/heavymetalindex/commit/350dc424b) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

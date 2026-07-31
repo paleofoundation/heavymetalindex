@@ -59,9 +59,46 @@ function emitTo(runId, event) {
   }
 }
 
+// A running server holds its routes, its preset list, and the taxonomy catalog
+// in memory, so an instance started before a code change keeps serving the old
+// behaviour while the browser loads the NEW public/app.js from disk. That
+// mismatch is invisible and produces symptoms that look like data loss — a UI
+// calling an endpoint its own server does not have. The launcher's health check
+// only proved "a Central Library answers", never "the current one does", so a
+// stale instance was reused indefinitely. This stamp closes that: the launcher
+// compares it against the files on disk and restarts on drift.
+const STAMPED_FILES = [
+  "tools/central-library/server.mjs",
+  "tools/central-library/lib/run-condition.mjs",
+  "tools/central-library/public/app.js",
+  "data/taxonomy/hmtc-v2.json",
+  "data/evidence/standards-not-material.csv",
+]
+function codeStamp() {
+  let newest = 0
+  for (const rel of STAMPED_FILES) {
+    try { newest = Math.max(newest, Math.floor(fs.statSync(resolve(rel)).mtimeMs / 1000)) } catch {}
+  }
+  try {
+    for (const f of fs.readdirSync(resolve("tools/central-library/presets"))) {
+      newest = Math.max(newest, Math.floor(fs.statSync(resolve("tools/central-library/presets", f)).mtimeMs / 1000))
+    }
+  } catch {}
+  return newest
+}
+const bootStamp = codeStamp()
+
 const server = http.createServer(async (request, response) => {
   try {
     const url = new URL(request.url ?? "/", `http://${request.headers.host}`)
+
+    // Health + staleness. `stale` is true when the files on disk have moved on
+    // since this process booted, i.e. this instance is serving dead code.
+    if (url.pathname === "/api/health" && request.method === "GET") {
+      const onDisk = codeStamp()
+      sendJson(response, { ok: true, bootStamp, onDisk, stale: onDisk > bootStamp, pid: process.pid })
+      return
+    }
 
     if (url.pathname === "/api/presets" && request.method === "GET") {
       // Per-item guard: one malformed/unreadable preset must not 404 the list.
@@ -77,6 +114,19 @@ const server = http.createServer(async (request, response) => {
     // so the Product Sweep can be run one product category at a time.
     if (url.pathname === "/api/matrices" && request.method === "GET") {
       sendJson(response, loadMatrices())
+      return
+    }
+
+    // Cells already adjudicated not-material, so the UI can refuse to spend a
+    // 71-query sweep on a determination that is already on file.
+    if (url.pathname === "/api/not-material" && request.method === "GET") {
+      const slug = url.searchParams.get("slug")
+      const analyte = url.searchParams.get("analyte")
+      if (slug || analyte) {
+        sendJson(response, { match: notMaterialFor(slug, analyte) })
+      } else {
+        sendJson(response, { ...loadNotMaterial(), speciesParent: SPECIES_PARENT })
+      }
       return
     }
 
@@ -239,32 +289,198 @@ function sendJson(response, value) {
   response.end(JSON.stringify(value))
 }
 
-// Read the HMTc taxonomy → a compact catalog for the UI's category picker. A
-// searchTerm is derived from each subcategory name (parentheticals / dashes
-// stripped) so it drops cleanly into the [Matrix] query slot; the full name is
-// kept for display. Cached after first read.
+// Read the HMTc taxonomy → a compact catalog for the UI's category picker.
+//
+// A subcategory NAME is a taxonomy label, not a search term. Three things in it
+// must never reach a literature API verbatim, and all three used to:
+//
+//   1. Internal annotations. "Baby talcum powder (talc, dirty)" carries the
+//      clean/dirty platform role; "Plant milks, rice-based (RETIRED -> Cat 3
+//      rice beverages)" carries a routing note. Searching PubMed for "dirty"
+//      or "RETIRED" is noise at best.
+//   2. Member enumerations. "Other cooking oils (canola, sunflower, coconut,
+//      avocado, sesame)" names FIVE matrices. Flattened into one string it
+//      becomes an 8-word AND-query that matches essentially nothing; it has to
+//      fan out into one run per member instead.
+//   3. Form qualifiers. "(powder)" / "(ready-to-feed, liquid)" are genuine
+//      basis distinctions and DO belong in the term — the opposite call from 2.
+//
+// So each subcategory now exposes `terms[]` (the head term plus any enumerated
+// members, each independently searchable) alongside the display name.
+// `searchTerm` stays as the head term for callers that want a single string.
+// Cached after first read.
+
+// Words that mark an annotation clause as internal bookkeeping.
+const INTERNAL_CLAUSE =
+  /\b(dirty|clean|counterpart|sibling|retired|cross-link|advisory|ingredient class|routed?|routing|cat \d|category \d|flag|when not|if not|vs\b)/i
+
+// Parenthetical members that are product FORM, not separate products. These
+// stay attached to the head term instead of fanning out.
+const FORM_QUALIFIER =
+  /^(powder|powdered|liquid|ready-to-feed|ready to feed|rtf|dry|wet|as-consumed|as-sold|concentrate|concentrated|paste|puree|granules?|flakes?|bulk|refills?|canned|frozen|fresh|dried|raw|general)$/i
+
+// When the head names a class whose members are conventionally written without
+// it ("canola" meaning canola OIL), re-attach the class noun to single-word
+// members so the query is a real matrix rather than a bare adjective.
+const CLASS_NOUN = /\b(oils?|milks?|flours?|teas?|juices?|vinegars?|butters?|waters?|powders?)$/i
+
+// A leading "Ingredient class — X" / "Ingredient category — X" is a classifier
+// prefix: the real matrix is the segment AFTER the dash, not before it.
+const CLASSIFIER_PREFIX = /^(ingredient (class|category)|class|category|product class)$/i
+
+function splitSubcategoryName(name) {
+  const raw = String(name)
+  // Pull parentheticals out FIRST. Splitting on the dash first would cut a
+  // clause like "(nori, wakame, kombu, dulse — as food products)" in half and
+  // leave an unbalanced paren stranded in the head.
+  const clauses = []
+  const withoutParens = raw.replace(/\(([^)]*)\)/g, (_, inner) => {
+    clauses.push(inner)
+    return " "
+  })
+  // Dash-delimited segments: drop the ones that are internal bookkeeping and
+  // the classifier prefix, then take the first that survives as the head.
+  const segments = withoutParens
+    .split(/\s*[—–]\s*/)
+    .map((seg) => seg.trim())
+    .filter(Boolean)
+  const kept = segments.filter((seg) => !INTERNAL_CLAUSE.test(seg) && !CLASSIFIER_PREFIX.test(seg))
+  let head = kept[0] || segments.find((seg) => !CLASSIFIER_PREFIX.test(seg)) || segments[0] || ""
+  head = head
+    .replace(/[[\]/]/g, " ")
+    .replace(/,\s*$/, "")
+    .replace(/\s+/g, " ")
+    .trim()
+
+  const members = []
+  const qualifiers = []
+  for (const clause of clauses) {
+    // Inside a clause a dash again introduces commentary: in
+    // "(nori, wakame, kombu, dulse — as food products)" only the first segment
+    // is the member list. Test for internal vocabulary AFTER that split, or a
+    // trailing note like "— with tin flag" discards a perfectly good list.
+    const listPart = clause.split(/\s*[—–]\s*/)[0]
+    if (INTERNAL_CLAUSE.test(listPart)) continue // bookkeeping — drop entirely
+    const parts = listPart
+      .split(/,|\bor\b/i)
+      .map((p) =>
+        p
+          .replace(/\s+and similar$/i, "")
+          .replace(/\bgeneral\b/gi, " ")
+          .replace(/\s+/g, " ")
+          .trim(),
+      )
+      .filter(Boolean)
+    if (!parts.length) continue
+    if (parts.every((p) => FORM_QUALIFIER.test(p))) qualifiers.push(...parts.filter((p) => !/^general$/i.test(p)))
+    else members.push(...parts.filter((p) => !INTERNAL_CLAUSE.test(p)))
+  }
+
+  // A comma in the head itself is an inversion ("Plant milks, rice-based"), not
+  // a list — re-join it rather than splitting it into two matrices.
+  head = head.replace(/\s*,\s*/g, " ").replace(/\s+/g, " ").trim()
+  // "Other cooking oils" → "cooking oils"; "Other" is not a search term, and
+  // neither is the taxonomy's catch-all "general" ("Canned foods, general").
+  head = head
+    .replace(/^other\s+/i, "")
+    .replace(/\bgeneral\b/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+
+  const headTerm = [head, ...qualifiers].join(" ").replace(/\s+/g, " ").trim()
+  const classNoun = (head.match(CLASS_NOUN) || [])[0]
+  const singular = classNoun ? classNoun.replace(/s$/i, "") : ""
+  const memberTerms = members.map((m) =>
+    singular && !new RegExp(`\\b${singular}s?\\b`, "i").test(m) && m.split(/\s+/).length === 1
+      ? `${m} ${singular}`
+      : m,
+  )
+
+  return { headTerm, memberTerms }
+}
+
+// ── not-material guard ───────────────────────────────────────────────────────
+// data/evidence/standards-not-material.csv records (row_slug, metal_species)
+// cells the program has already adjudicated as not material, with the physical
+// rationale and the jurisdictions checked. Running a deep-dive against a cell
+// already on that register is pure cost: it cannot change the determination,
+// and its results file under a matrix the analyte does not occur in.
+//
+// Species containment matters here. The register carries tHg for the oils rows
+// ("mercury does not partition into the extracted lipid fraction"); MeHg is a
+// subspecies of total mercury, so a tHg not-material finding entails MeHg. The
+// same holds for iAs under tAs. Containment is one-way — a determination on the
+// SUBspecies says nothing about the parent.
+const SPECIES_PARENT = { MeHg: "tHg", iAs: "tAs", "Cr-VI": "Cr" }
+
+function parseCsvLine(line) {
+  const out = []
+  let cur = ""
+  let quoted = false
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i]
+    if (quoted) {
+      if (ch === '"' && line[i + 1] === '"') { cur += '"'; i++ }
+      else if (ch === '"') quoted = false
+      else cur += ch
+    } else if (ch === '"') quoted = true
+    else if (ch === ",") { out.push(cur); cur = "" }
+    else cur += ch
+  }
+  out.push(cur)
+  return out.map((s) => s.trim())
+}
+
+let _notMaterial = null
+function loadNotMaterial() {
+  if (_notMaterial) return _notMaterial
+  try {
+    const text = fs.readFileSync(resolve("data/evidence/standards-not-material.csv"), "utf8")
+    const lines = text.split(/\r?\n/).filter((l) => l.trim())
+    const header = parseCsvLine(lines[0])
+    const rows = lines.slice(1).map((l) => {
+      const cells = parseCsvLine(l)
+      return Object.fromEntries(header.map((h, i) => [h, cells[i] ?? ""]))
+    })
+    _notMaterial = { rows }
+  } catch (e) {
+    _notMaterial = { rows: [], error: String(e.message) }
+  }
+  return _notMaterial
+}
+
+// Returns the matching register row (direct or inherited from the parent
+// species) for a (row_slug, analyte) pair, or null.
+function notMaterialFor(slug, analyte) {
+  if (!slug || !analyte) return null
+  const { rows } = loadNotMaterial()
+  const direct = rows.find((r) => r.row_slug === slug && r.metal_species === analyte)
+  if (direct) return { ...direct, via: "direct" }
+  const parent = SPECIES_PARENT[analyte]
+  if (!parent) return null
+  const inherited = rows.find((r) => r.row_slug === slug && r.metal_species === parent)
+  return inherited ? { ...inherited, via: "species-containment", parent } : null
+}
+
 let _matrices = null
 function loadMatrices() {
   if (_matrices) return _matrices
   try {
     const raw = JSON.parse(fs.readFileSync(resolve("data/taxonomy/hmtc-v2.json"), "utf8"))
-    // Keep the words inside parentheses (powder / liquid / dry are meaningful
-    // distinctions for standards) — just drop the punctuation and the noise word
-    // "general", so "Infant formula (powder)" → "Infant formula powder".
-    const clean = (name) =>
-      String(name)
-        .replace(/[()[\]—–/,]/g, " ")
-        .replace(/\bgeneral\b/gi, " ")
-        .replace(/\s+/g, " ")
-        .trim()
     const categories = (raw.categories || []).map((c) => ({
       n: c.n,
       name: c.name,
       subcategories: (c.subcategories || []).map((s) => {
         const name = typeof s === "string" ? s : s.name
         const slug = typeof s === "string" ? "" : s.slug || ""
-        const searchTerm = clean(name) || (slug ? slug.replace(/-/g, " ") : name)
-        return { name, slug, searchTerm }
+        const { headTerm, memberTerms } = splitSubcategoryName(name)
+        const head = headTerm || (slug ? slug.replace(/-/g, " ") : String(name))
+        // Dedupe case-insensitively; the head always leads.
+        const terms = []
+        for (const t of [head, ...memberTerms]) {
+          if (t && !terms.some((x) => x.toLowerCase() === t.toLowerCase())) terms.push(t)
+        }
+        return { name, slug, searchTerm: head, terms }
       }),
     }))
     const subTotal = categories.reduce((a, c) => a + c.subcategories.length, 0)

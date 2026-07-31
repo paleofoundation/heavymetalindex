@@ -224,14 +224,15 @@ Open-access article distributed under CC BY 4.0 (license declaration on p. 1 of 
 **Audit application (2026-06-06).** Fresh-context Agent subagent audit (verdict PROMOTE; all five checks ✅ clean with one ⚠️ minor on Check 4 Part 12 brand-firewall scope into rationale paragraphs). The subagent flagged that Evidence Fitness (ix) and the Products frontmatter rationale paragraph as originally written named the twelve brand identifiers while explaining the panel composition — a borderline call under the strict 2026-05-17 Part 12 reading because the original page did not reveal a per-brand contamination value or ranking, but did reveal source-disclosed brand identities in a wiki-side disclosure. Independent re-verification against the companion Bunu Bayelsa-State page ([[bunu2023-heavy-metals-energy-drinks-bayelsa]]) confirmed that the prior convention does not name the eleven Bayelsa brands in any rationale paragraph; the strict-reading convention is therefore established for the Bunu-companion corpus. Corrected by redacting brand-name enumerations from Evidence Fitness (ix) and the Products frontmatter Verification note while preserving the class-composition summary. No other audit findings warranted page changes.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The four most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [e088b3a5e](https://github.com/paleofoundation/heavymetalindex/commit/e088b3a5e) | 2026-06-06 | audit: bunu2023-heavy-metals-energy-drinks-kogi revised |
-| [f160b4e6d](https://github.com/paleofoundation/heavymetalindex/commit/f160b4e6d) | 2026-06-06 | ingest: bunu2023-heavy-metals-energy-drinks-kogi fresh from Manual Fetch Discovery |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [e088b3a5e](https://github.com/paleofoundation/heavymetalindex/commit/e088b3a5e) | 2026-06-06 | minor | Narrative text revised |
+| [f160b4e6d](https://github.com/paleofoundation/heavymetalindex/commit/f160b4e6d) | 2026-06-06 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

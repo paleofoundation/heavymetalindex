@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/breath-fresheners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "917f241a26873daae884f497876996e1ced14e172b5c551fe5db592f77c679d8",
-      "content_bytes": 7436,
-      "last_commit_sha": "aca5e2155",
-      "last_commit_date": "2026-06-09",
+      "content_sha256": "8d4d81a262d3d2c4bcdfd0b82c9581f8b1a36a14bc8a831bdbeb4ce20fe79640",
+      "content_bytes": 7463,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show aca5e2155:wiki/products/breath-fresheners.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/breath-fresheners.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -103,15 +103,15 @@ The PDF has author attribution and DOI `10.3390/agronomy13051225`; no DOI confli
 Merge-enhance pass 2026-06-02 (Claude): the page is faithful to Table 10 across every cell of both contrast tables (crop-protection/fertilization and pre-crop). Audit subagent (Agent tool, general-purpose, agent ID a8740e5f581900d2c) returned REVISE on Check 1 because the in-prose potato Cd NPK-vs-FYM increase had been silently substituted with the value computed from Table 10 (62.5%, rounded to 63%) when the paper's own Section 3.6 (p. 16) explicitly states 50% for potato — an internal inconsistency in the source between prose and table. Per Cochrane discipline (faithful reproduction with the inconsistency flagged, not silent substitution), the potato figure is reverted to the paper's stated 50% and the inconsistency is now flagged inline. Section 3.6 is the correct reference for the per-crop percentages, not Section 4.3.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [414629fec](https://github.com/paleofoundation/heavymetalindex/commit/414629fec) | 2026-06-02 | minor | Narrative text revised |
+| [e1f4391c6](https://github.com/paleofoundation/heavymetalindex/commit/e1f4391c6) | 2026-06-02 | minor | Narrative text revised |
+| [d82d85121](https://github.com/paleofoundation/heavymetalindex/commit/d82d85121) | 2026-06-02 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

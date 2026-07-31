@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-mushroom-fungal",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6240a69fa40eb9dbeaa503059324d784d240da3fb0f90771a8385b93701c1794",
-      "content_bytes": 1178,
-      "last_commit_sha": "45ecb2e7e",
-      "last_commit_date": "2026-06-10",
+      "content_sha256": "86b0de02194487ad1e0400b2c9fef9659f0474bbf81de4eec1e5e1a7b32e270d",
+      "content_bytes": 1357,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 45ecb2e7e:wiki/products/supplements-mushroom-fungal.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/supplements-mushroom-fungal.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -71,3 +71,26 @@ The mitigation pages cross-link to:
 - [[testing/index|Testing pages]] — supply-chain screening interventions depend on testing methods documented under [[testing/index|`wiki/testing/`]].
 - [[ingredients/index|Ingredient pages]] — every ingredient with contamination concerns should reference the relevant mitigation strategies in its Mitigation section.
 - [[metals/index|Metal pages]] — every metal page's Open questions section should flag the mitigation strategies that are most consequential for that metal's dietary exposure.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+
+1. Index n.d.. *Sources*. [[sources/index|Source record]]
+2. Codex Alimentarius Commission (2022). *Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)*. FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome. [https://doi.org/10.4060/cc5333en](https://doi.org/10.4060/cc5333en). Government report, A-tier. [[sources/codex-cxc-81-2022|Source record]]
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added; narrative text revised |
+| [cd7369cb9](https://github.com/paleofoundation/heavymetalindex/commit/cd7369cb9) | 2026-07-03 | major | 1 section added; narrative text revised |
+| [63d2820a0](https://github.com/paleofoundation/heavymetalindex/commit/63d2820a0) | 2026-05-31 | minor | Narrative text revised |
+| [03afe1a61](https://github.com/paleofoundation/heavymetalindex/commit/03afe1a61) | 2026-05-17 | minor | Narrative text revised |
+| [215477918](https://github.com/paleofoundation/heavymetalindex/commit/215477918) | 2026-05-03 | major | 1 source added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -155,15 +155,15 @@ The recruitment was non-random (newspaper plus university convenience sampling, 
 - **2026-05-25 (audit subagent — matrices vocabulary, noted only):** Audit subagent flagged ⚠️ on `matrices: [total-diet-study, duplicate-diet]` because these bare-string matrix labels are not in the taxonomy snapshot provided to the audit subagent. The matrix vocabulary is documented in `docs/gpt-collaboration/system-prompt.md`, not in the taxonomy snapshot (which only enumerates ingredient/product/metal/regulation slugs). The label `total-diet-study` is in active use in the wiki (`wiki/sources/spungen2019-fda-tds-children-lead-cadmium-2014-2016.md`), and the routing layer reports this source as `severity: advisory` (missing optional `products`/`ingredients` fields), which is the correct treatment for a whole-diet study that does not measure individual products or ingredients. No change applied; the audit was flagging the absence of the matrix vocabulary in its reference file, not a defect in this page.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | frank: dashboard + gap-metric + ledger refresh |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | refresh manual fetch generated outputs |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [ece4d3939](https://github.com/paleofoundation/heavymetalindex/commit/ece4d3939) | 2026-05-25 | minor | Narrative text revised |
+| [78ceaf797](https://github.com/paleofoundation/heavymetalindex/commit/78ceaf797) | 2026-05-25 | major | 2 sections added and 1 removed; narrative text revised |
+| [bc8551eda](https://github.com/paleofoundation/heavymetalindex/commit/bc8551eda) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

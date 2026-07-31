@@ -128,15 +128,15 @@ Microbiome: Not addressed in this source.
 - 2026-06-09 byte-identical duplicate path registration (manual-fetch v2.0, June 8 Kimi-corruption-recovery pass, full-report regulatory-folder copy): the file `16_What's_in_My_Baby's_Food__2019.pdf` was encountered a second time under `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/`. SHA-256 (`a4e1fa75ce93e056d6a864e4a6825cf7537579dd558aa8b121209b2f4a1625b7`) and byte length (3,156,916) match the canonical R6_0 full report at the existing `raw_path` and the May 21 regulatory-folder copy already registered on 2026-06-01 — all three are bit-for-bit the same 50-page full report file, not a separate revision. Cover, ToC, executive-summary cover, and "What's new about this study?" pages re-read 2026-06-09 to confirm identity (Houlihan & Brody October 2019, 168 baby foods / 61 brands / 13 food types, 95% / 26% / 88% / 83% framing, 4-metals detection rates 73%/94%/75%/32% per executive-summary test-results panel page 1, 5-safer-choices table with 93%/91%/84%/68%/up-to-73% reductions, healthybabyfood.org URL, Brooks Applied Labs Bothell WA, Abt Associates IQ-loss model, 15-foods-account-for-55%-of-risk framing, Appendix A-F structure). Both byte-identical regulatory-folder paths now consolidated into the existing `HBBF-2019-FULLREPORT-ENGLISH-R6_0-regulatory-folder-copy` `near_duplicates` entry so future manual-fetch ticks skip the PDF cleanly under either corruption-recovery parent date folder. No substantive content change to the page; this is path-registration housekeeping only, so no audit-subagent spawn was needed for this revision.
 
 <!-- BEGIN: hmi-page-history -->
-## Page history
+## Update history
 
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
 
-| Commit | Date | Description |
-| --- | --- | --- |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | reconcile: regenerate derived layer + restore stranded EU 2024/1987 nickel work |
-| [85fa8399d](https://github.com/paleofoundation/heavymetalindex/commit/85fa8399d) | 2026-06-09 | ingest: houlihan2019-hbbf-whats-in-baby-food [enhanced] from MFK/June 8/05_Regulatory_CPSIA_CPSC_FDA |
-| [4c4465f45](https://github.com/paleofoundation/heavymetalindex/commit/4c4465f45) | 2026-06-09 | ingest: houlihan2019-hbbf-whats-in-baby-food [enhanced] from MFK/June 8/Kimi_Agent_Download Corruption Issue/01_Bottles_Nipples_SippyCups |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | frank: generated-layer + dashboard + gap-metric + ledger refresh |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | chore: snapshot FRANK generated layer to clean baseline (mechanical history-table + evidence-register regen; no synthesis changes) |
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [85fa8399d](https://github.com/paleofoundation/heavymetalindex/commit/85fa8399d) | 2026-06-09 | minor | Narrative text revised |
+| [4c4465f45](https://github.com/paleofoundation/heavymetalindex/commit/4c4465f45) | 2026-06-09 | minor | Narrative text revised |
+| [a34b9a700](https://github.com/paleofoundation/heavymetalindex/commit/a34b9a700) | 2026-06-01 | minor | Narrative text revised |
+| [6ab5c940d](https://github.com/paleofoundation/heavymetalindex/commit/6ab5c940d) | 2026-06-01 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
