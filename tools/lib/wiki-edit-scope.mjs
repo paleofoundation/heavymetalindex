@@ -27,7 +27,14 @@ import { execFileSync } from "node:child_process"
 // Frontmatter keys a generator owns outright. Deliberately short: this list
 // growing is a signal that a generator has started writing authored fields, not
 // a reason to add another entry.
-export const GENERATED_FM_KEYS = new Set(["sources", "description"])
+// `updated` was named in the 0.9b spec ("`updated:` and similar") but did not make it
+// into the set, because the 36 pages in that build happened to need only the other two.
+// Added 2026-07-31 when a regeneration touched five pages whose ENTIRE diff was this one
+// line. It is unambiguously generator-owned: CLAUDE.md Part 4 calls it "a convenience,
+// not the source of truth", with git history as the versioning mechanism.
+// This is the whitelist reaching its specified shape, not growing past it — the 0.9b
+// stop-and-report condition is prose changing outside a marker, and no prose changed.
+export const GENERATED_FM_KEYS = new Set(["sources", "description", "updated"])
 
 // THE register of wholly generated wiki pages. These carry no marker blocks
 // because the entire file is output, so confinement has nothing to confine to.
