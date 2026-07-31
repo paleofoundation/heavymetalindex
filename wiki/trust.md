@@ -59,7 +59,7 @@ The roadmap commits to api.heavymetalindex.com as a first-class surface. The cur
 
 ## How the wiki and the certification program relate
 
-The [[heavy-metal-tested-certified|Heavy Metal Tested & Certified]] program at heavymetaltested.com is operated by the same non-profit (the Paleo Foundation). The two are kept architecturally separate by design. The wiki reports what the literature supports; the certification program applies those findings to set thresholds. The gap between them is stated and intentional — the certification program's thresholds may be tighter than the literature baseline for precautionary, market-ratcheting, feasibility-driven, or regulatory-alignment reasons, and that gap is the mechanism of market ratcheting, not a defect.
+The [[heavy-metal-tested-certified|Heavy Metal Tested & Certified]] program at heavymetaltested.com is operated by the same organization (the Institute of Contaminant Standards). The two are kept architecturally separate by design. The wiki reports what the literature supports; the certification program applies those findings to set thresholds. The gap between them is stated and intentional — the certification program's thresholds may be tighter than the literature baseline for precautionary, market-ratcheting, feasibility-driven, or regulatory-alignment reasons, and that gap is the mechanism of market ratcheting, not a defect.
 
 The full firewall posture is at [[editorial-standards]].
 
