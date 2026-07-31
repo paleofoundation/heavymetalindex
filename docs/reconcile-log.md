@@ -990,3 +990,112 @@ Commits: none — the only change this step would have made is a deletion the ev
 3. **The diacritic normalisation (208 pages)** — fold into the C1 retrieval work, or its own commit?
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+## C1 remaining — decisions 1–4 — 2026-07-31T19:20:00+03:00
+
+Result: DONE for 1, 3 and 4; decision 2 PARTIAL — 19 pages registered as a backlog, blocked on a
+schema gap rather than on effort.
+
+Executed 1 → 3 → 2 → 4, not 1 → 2 → 3 → 4: decision 3's own text says to do the diacritic work
+BEFORE the retrieval pass, which is more specific than "in order". It paid off — two of the four
+near-misses resolved in the retrieval pass that followed.
+
+Commits:
+- `eb00bcbc8` merge the davydiuk2023 duplicate onto the integrated page
+- `98e9048c6` fold diacritics before deriving a cite-key surname
+- `bbadfa60b` correct 14 more non-resolving DOIs, verified via PubMed then Crossref
+- `f103819a9` correct 5 more DOIs via OpenAlex, incl. two adjudicated by hand
+- `a889ac4ec` close 5 of the 6 doi:null pages; register the 19 that cannot close
+
+### Findings
+
+1. **C1 section A: 43 of 61 corrected, 18 outstanding.** Was 23 at the start of this step.
+   All 20 new corrections cleared the same four checks (title ≥0.90, year within 1, DOI resolves,
+   first-author surname matches the cite-key). No DOI guessed or inferred from a neighbour.
+
+2. **Decision 1 executed in the reversed direction.** Survivor is `…-arsenosugars-methylation`
+   (186 refs), DOI corrected to the verified `…3c00090`; the 9-ref sibling removed. Ported its
+   `products:` array (the survivor had `products: []`, a Phase 1 defect on a food paper) and
+   corrected `publication:` to "Environment & Health" — the survivor said "Environmental Health",
+   a **different journal** (BMC vs ACS), so that was a correction rather than a preference.
+   Not ported: the sibling's `raw_path` pointed at an unmounted external volume, machine-specific
+   in the same way the `HMI_REPO` hardcode was, and its `raw_sha256` describes that PDF rather
+   than the survivor's in-repo conversion. Both survive in git history.
+   All 6 wiki references to the removed page sat inside `hmi-source-legend` blocks or in
+   wholly-generated pages, so the deletion needed **no hand-editing** — regeneration rewired every
+   one, and the ported products array fanned the survivor out to all three product pages.
+
+3. **Decision 3 was mis-scoped in the plan, and the real defect is worse.** It was framed as a
+   comparison-time mismatch. It is a **live minting defect**: `extractSurname` NFKD-decomposed and
+   then replaced unmatched characters with a SPACE, so a combining mark became a word boundary
+   mid-surname and `tokens.pop()` kept only the tail — `Fernández`→`ndez`, `Köhler`→`hler`,
+   `Muñoz`→`oz`. **Those pass `isPlausibleSurname`, so they would be written, not rejected** —
+   the same class as `authors2026-*` and invisible to PR #83's denylist, which looks for known-bad
+   words and not for a silently truncated surname.
+   Stroke and ligature letters (`ł` 20 occurrences in corpus authors, dotless `ı` 8) have no
+   combining decomposition and truncate by the same route; fixing only the decomposable half would
+   have left the defect behind a fix that looked complete. Non-Latin scripts deliberately fall
+   through to empty and are rejected — folding Cyrillic to ASCII is transliteration, not
+   normalisation.
+   **Scope: latent, not realised.** Zero corpus cite-keys carry the truncated-tail fingerprint;
+   `gonzalez-arqueros`, `hernandez-montoya`, `mironczuk-chodakowska` and `hopfner` are all keyed
+   correctly. No cite-key needs rewriting. Prevents future damage, does not repair past damage.
+   A second latent trap found by a test in the same commit: `mintCiteKey` applied `[^a-z]` without
+   lowercasing, so a capitalised surname lost its initial (`Smith`→`mith`) and still produced a
+   plausible key. `resolveWork` lowercases upstream so the live path never hit it; hardened anyway.
+
+4. **Two method faults caught by controls, both of which would have produced confident wrong
+   answers.** The first PubMed pass returned 0 hits on all 37 — which looked like a finding and was
+   an over-constrained exact-phrase query; the control (a paper known to be indexed, found by bare
+   words and missed by the phrase query) is what exposed it. A zero from a broken query is
+   indistinguishable from a real zero. Separately, 8 corrected DOIs and 3 access URLs returned
+   403 and were nearly recorded as dead; they are bot blocks — the DOIs redirect to real publisher
+   article URLs, and the URLs return 200 with a browser UA. A refusal from a server that answered
+   is not a missing resource; a fabricated DOI never leaves doi.org and returns 404.
+
+5. **The bar rejected 3 candidates that a looser matcher would have taken.** `lech2020` matched a
+   2017 paper by a different author; `sekar2021` a 2026 paper; and `shaltout2020` — the instructive
+   one — matched a record whose three authors ARE the page's three authors, one misspelled in the
+   deposit, but which is a 2019 Benha Veterinary Medical Journal article where the page describes a
+   2020 Concepts of Dairy & Veterinary Sciences one. Same authors, similar work, different
+   publication. The year check is what stopped it.
+   Conversely, two rejects were accepted after individual adjudication because the **Crossref
+   deposit** was malformed, not the match: `aldayel2018` (Crossref stores the given names in the
+   family field; the page's four authors correspond one-to-one) and `hardisson2017` (an institution
+   as first author; `Paz S` is on the page's list, La Laguna is the group's affiliation, same
+   article number, and the DOI differs from the fabricated one only by a `0176`→`1076`
+   transposition).
+
+6. **Decision 2's premise that route (c) is "mechanical and always available" does not hold.**
+   Route (c) requires a verified publisher `access_url`, and verifying one requires identifying the
+   paper — the step that failed. That leaves only the marker, and `no_doi_assigned: true` would be
+   **false** on these: the gate defines it as a *declared no-DOI venue*, and these are papers in
+   DOI-assigning journals whose DOI we could not find. It would trade a false identifier for a
+   false claim about the publisher, which is what the C1 rule means by improvising a marker.
+   **The schema cannot express "DOI unknown"** — it offers a DOI or a venue that assigns none, and
+   reality here is a third state. So removing the fabricated DOI, which is the correct fix for the
+   actual defect, is blocked by the gate unless paired with a claim I cannot support.
+   Registered as `data/evidence/c1-unresolved-doi-backlog.{csv,md}` (19 rows: the 18 plus the
+   `roslee2016` thesis) rather than left as pages someone must remember, per the C0c pattern.
+
+7. **Decision 4: 5 of 6 closed.** `ounifi2020` is worth noting — its DOI is absent from Crossref,
+   which is why it read as unregistered, but it **resolves at doi.org** to the article page: an
+   Iranian registration agency, not a bad DOI. Checking only Crossref would have discarded a
+   working identifier. `jayanthi2019` and `levkov2017` took `no_doi_assigned: true` with verified
+   URLs, and there the marker is **true** — OpenAlex holds both records with no DOI at all.
+
+8. Build passes with all blocking lints green: page-history leak guard PASS, firewall structural
+   errors 0, 3,948 files emitted. Routing audit 0 blocking.
+
+### Open questions for Karen
+
+1. **The schema gap (finding 6) is the one real blocker.** Add a third state — e.g.
+   `doi_status: unresolved` carrying the retrieval attempts and date, accepted by the gate in place
+   of `no_doi_assigned` — so the fabricated DOI can come off all 19 pages immediately and they stay
+   honestly marked as unidentified? Without it those pages keep publishing a false identifier,
+   which is the worse of the two states.
+2. **Next route for the 19** is reading the raw PDFs, which print their own DOI. `raw/` is
+   gitignored and not present in this worktree, so that route was unavailable here.
+3. C1 does not close until the 19 are resolved or the schema question is decided.
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes
