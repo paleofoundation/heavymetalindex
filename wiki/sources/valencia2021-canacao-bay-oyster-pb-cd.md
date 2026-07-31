@@ -6,8 +6,8 @@ title: "Heavy metal accumulation and risk assessment of lead and cadmium in cult
 authors: [Valencia HB, Caballar EJM, Dioneda SCC, Gomez JAE, Obanan SP]
 year: 2021
 publication: "Sustinere: Journal of Environment and Sustainability 5(2), 64-78"
-doi: 10.22515/sustinerejes.v5i2.159
-access_url: "https://doi.org/10.22515/sustinerejes.v5i2.159"
+doi: "10.22515/sustinere.jes.v5i2.159"
+access_url: "https://doi.org/10.22515/sustinere.jes.v5i2.159"
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"

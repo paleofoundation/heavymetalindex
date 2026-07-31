@@ -5,12 +5,12 @@ title: "Environmental Toxicology: Children at Risk"
 authors: ["Maria J. Carroquino", "Manuel Posada", "Philip J. Landrigan"]
 year: 2013
 publication: "Encyclopedia of Sustainability Science and Technology, Chapter 11 (Springer)"
-doi: "10.1007/978-1-4419-0851-3_11"
+doi: "10.1007/978-1-4614-5764-0_11"
 source_type: peer-reviewed
 evidence_tier: A
 license: springer
 raw_path: "raw/studies/FM_7121289_Environmental_Toxicology_Children_at_Risk.pdf"
-access_url: "https://doi.org/10.1007/978-1-4419-0851-3_11"
+access_url: "https://doi.org/10.1007/978-1-4614-5764-0_11"
 metals: [Pb, Cd, As, Hg, MeHg, Mn, Al]
 ingredients: []
 products: []

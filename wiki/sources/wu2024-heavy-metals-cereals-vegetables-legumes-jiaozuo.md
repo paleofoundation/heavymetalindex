@@ -6,9 +6,9 @@ title: "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes 
 authors: [Wu Z]
 year: 2024
 publication: "International Journal of Natural Resources and Environmental Studies, 2(1): 180-200"
-doi: "10.62051/ijnres.v2n1.21"
+doi: "10.62051/10.62051/ijnres.v2n1.21"
 no_doi_assigned: false
-access_url: "https://doi.org/10.62051/ijnres.v2n1.21"
+access_url: "https://doi.org/10.62051/10.62051/ijnres.v2n1.21"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY-NC 4.0"

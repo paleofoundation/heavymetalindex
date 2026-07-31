@@ -6,8 +6,8 @@ title: "Heavy Metals Concentration in Facial Cosmetics"
 authors: [Aldayel O, Hefne J, Alharbi KN, Al-Ajyan T]
 year: 2018
 publication: "Natural Products Chemistry & Research 6(1): 1000303"
-doi: 10.4172/2329-6836.1000303
-access_url: "https://doi.org/10.4172/2329-6836.1000303"
+doi: "10.4172/2475-7675.1000303"
+access_url: "https://doi.org/10.4172/2475-7675.1000303"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"
