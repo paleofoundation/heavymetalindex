@@ -116,6 +116,12 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
                     </g>
                   </svg>
                   <p>{i18n(cfg.locale).components.search.title}</p>
+                  {/* v3 line 56: the "/" affordance sits inside the box, pushed
+                      right by an auto margin. Hidden below 1150px, where the
+                      whole box collapses to a 36px icon square. */}
+                  <span class="hmi-topnav-kbd" aria-hidden="true">
+                    /
+                  </span>
                 </button>
                 <div class="search-container">
                   <div class="search-space">
@@ -131,24 +137,11 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
                   </div>
                 </div>
               </div>
+              {/* v3 line 60: a plain 12.5px text link, not a filled pill. The
+                  header carries exactly one filled control, Index Pro; a second
+                  filled button competes with it. */}
               <a class="hmi-topnav-ask" href={resolveRelative(slug, "ask" as SimpleSlug)}>
-                <svg
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" />
-                  <path d="M8 9h8" />
-                  <path d="M8 13h5" />
-                </svg>
-                <span>Ask the Index</span>
+                Ask the Index
               </a>
               {utilityLinks.map((link) => (
                 <a class="hmi-topnav-utility" href={resolveRelative(slug, link.slug as SimpleSlug)}>
@@ -158,28 +151,10 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
               {/* Account / log in. Placeholder for the future auth app (member
                   accounts live in the separate application, not the static wiki);
                   the icon points at the login route so it can light up later. */}
-              <a
-                class="hmi-topnav-login"
-                href={resolveRelative(slug, "login" as SimpleSlug)}
-                aria-label="Log in"
-                title="Log in"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.7"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  aria-hidden="true"
-                >
-                  <circle cx="12" cy="12" r="10" />
-                  <circle cx="12" cy="10" r="3" />
-                  <path d="M6.8 19a5.5 5.5 0 0 1 10.4 0" />
-                </svg>
+              {/* v3 line 61: "Log in" is a text link at the same weight as Ask,
+                  not an avatar icon. */}
+              <a class="hmi-topnav-login" href={resolveRelative(slug, "login" as SimpleSlug)}>
+                Log in
               </a>
             </div>
           </nav>
