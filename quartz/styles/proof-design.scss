@@ -339,3 +339,81 @@ body[data-slug*="/categories/"] .wiki-content ul li::before { content: "\2192\00
 .hist-badge { text-transform: capitalize; }
 .hist-badge-correction { color: #fff; background: var(--burg); }
 .hist-badge-minor { color: var(--muted); background: var(--line); }
+
+/* ── v3 "On this page" rail (v3 lines 406-432) ─────────────────────────────
+   Numbering is done with CSS counters rather than by restructuring Snav.tsx:
+   the component has two render paths and its accordion script binds to
+   .grp/.sec/.sub/data-for, so adding markup risks the interaction for a purely
+   presentational change. Counters number the top-level rails identically. */
+.snav { counter-reset: hmi-rail; }
+
+.snav::before {
+  content: "On this page";
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a9a1a2;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #e8e1db;
+  margin-bottom: 4px;
+}
+
+.snav .grp > a.sec,
+.snav .grp > summary.sec {
+  counter-increment: hmi-rail;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 7px 0 7px 11px;
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 400;
+  border-left: 2px solid #e8e1db;
+  border-radius: 0;
+  background: none;
+  color: #3f3a3f;
+}
+
+/* the +/- affordance needs its room back on rails that have children */
+.snav .grp:not(.snav-further):has(> a.sub) > a.sec { padding-right: 26px; }
+
+.snav .grp > a.sec::before,
+.snav .grp > summary.sec::before {
+  content: counter(hmi-rail, decimal-leading-zero);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.04em;
+  color: #c3b9bb;
+  flex: 0 0 auto;
+}
+
+.snav .grp > a.sec:hover { background: none; color: #8b2a4a; }
+
+.snav .grp > a.sec.active,
+.snav .grp:not(.snav-further):has(.in-view) > a.sec,
+.snav .snav-further[open] > summary.sec {
+  background: none;
+  border-left-color: #8b2a4a;
+  color: #8b2a4a;
+  font-weight: 400;
+}
+
+.snav .grp > a.sec.active::before,
+.snav .grp:not(.snav-further):has(.in-view) > a.sec::before { color: #8b2a4a; }
+
+.snav a.sub {
+  padding: 5px 0 5px 11px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #736b6e;
+}
+.snav a.sub.active { color: #8b2a4a; }
+
+/* nested children sit inside a hairline, as v3 line 420 */
+.snav .grp:not(.snav-further).expanded > a.sub {
+  margin-left: 26px;
+  border-left: 1px solid #ece5e0;
+  padding-left: 11px;
+}
