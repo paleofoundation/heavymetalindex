@@ -301,6 +301,24 @@ plus anything 3 deliberately excluded. Only then proceed to 0.9.
 
 ---
 
+## Merge order — decided 2026-07-31
+
+**PR #103 merges first, then C1 branches off the result.** C1 outranks the reconcile in severity, but it
+*depends* on it: C1's stated precondition is a DOI gate that works, and that exists only on this branch —
+the `--diff-filter=AM` predicate fix (`8c5de9028`) and the `doi: ''` hole closure. Correcting 61 DOIs on
+`main` first would mean doing the work behind a gate that cannot test it and a hole that admits an empty
+value unnoticed, i.e. a fix that regresses silently. Sequence:
+
+1. Merge PR #103 into `main`. No fast-forward. **Merging does not deploy** — `git.deploymentEnabled: false`.
+2. Branch `fix/doi-integrity` off the merge commit.
+3. First commit on it: close the `doi: ''` gate hole (the extraction `sed` strips double quotes only, so a
+   single-quoted empty string survives as the two-character literal `''` and never matches
+   `""|null|unknown`). Test that the gate now rejects `doi: ''`, `doi: ""`, `doi:` and `doi: null` alike,
+   under standing rules 12 and 13.
+4. Then C1 proper, below.
+
+---
+
 ## Content integrity — urgent, ranks above the remaining firewall work
 
 **C1 — 61 non-resolving DOIs on published source pages.** Live on the deployed line right now.
@@ -313,6 +331,11 @@ against Crossref and correct it, or (b) remove the `doi:` field and set `no_doi_
 **verified publisher `access_url`**. Where neither is possible, report the page rather than improvising.
 Same decision surface as Open decision 3 (six `doi: null`) and Open decision 2 (the `doi: ''` gate hole)
 — do all three as one governed pass, gate hole closed first so the fix cannot regress silently.
+
+**Also fix, in the same pass:** `tools/ingest/bulk-ingest-worker.mjs:32` defaults `HMI_REPO` to a hardcoded
+`/Users/karenpendergrass/Desktop/heavy-metal-index`. Not a credential and env-overridable, but it makes the
+worker silently machine-specific — fail with a clear error when `HMI_REPO` is unset instead of guessing a
+path that exists on one laptop.
 
 **Lead worth pursuing first: the 61 may be digit-slips, not inventions.**
 `davydiuk2023-arsenosugars-methylation.md` carries `…envhealth.3c00080` on the C1 list, while
