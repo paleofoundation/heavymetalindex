@@ -858,3 +858,67 @@ Commits:
 None. Queue proceeds to **C1** per the signed-off order.
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+## C1 — 61 non-resolving DOIs — 2026-07-31T15:40:00+03:00
+
+Result: PARTIAL — 23 of 61 corrected and double-verified; 38 reported, not improvised. HMI_REPO fixed.
+The six `doi: null` pages were NOT done.
+
+Commits:
+- `c33864091` fix(corpus): C1 partial — correct 23 verified DOIs; fail loudly on unset HMI_REPO
+
+### Findings
+
+1. **23 corrected, each verified twice before writing.** The bar applied to every one: Crossref
+   bibliographic search returns a title matching at ≥0.90 similarity, **and** the year matches, **and**
+   the candidate DOI resolves at `api.crossref.org/works/<doi>`, **and** its first-author surname matches
+   the page's cite-key. No DOI was guessed, inferred from a neighbour, or written without resolving it.
+   23 provenance rows appended to `wiki_edit_audit.jsonl`. Both live gates ran on the commit and passed.
+
+2. **38 remain uncorrected and are listed rather than improvised**: 11 whose title matched but whose year
+   did not; 4 whose candidate resolves but whose author check did not confirm mechanically
+   (`aldayel2018`, `hardisson2017`, `sadee2024`, `soto-ocana2024` — the last is almost certainly a real
+   match, "soto ocaña" vs the slug's `soto-ocana`, but I did not loosen the matcher to admit it because
+   loosening to catch one risks admitting a wrong paper elsewhere); 2 partial title matches; 21 with no
+   confident Crossref match at all.
+
+3. **THE DAVYDIUK LEAD IS NOT A DIGIT-SLIP — it is a duplicate page, and that is the more useful finding.**
+   `…3c00080` is confirmed 404; `…3c00090` resolves to "Effects of Dietary Intake of Arsenosugars…"
+   by Davydiuk 2023. But `…3c00090` **is already the `doi:` on a second page carrying the identical
+   title** — `davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other.md`, one of the 13 carried
+   in 0.8c. So the two pages are the same paper: one with better author metadata and a fabricated DOI,
+   one with poor author metadata and the real DOI. "Correcting" the bad DOI would have created a
+   duplicate-DOI collision — the exact class PR #81 spent a commit collapsing. **Resolution is a merge
+   decision, not a DOI edit**, and it is left for Karen.
+
+4. **The digit-slip hypothesis holds for the mechanism but does not shortcut the work.** Of the 23
+   verified corrections, **22 keep the same registrant prefix** and only one changes it — so these are
+   overwhelmingly malformed suffixes within the right publisher, not inventions from nothing. Ten are
+   ≥0.85 string-similar to the bad value, and several are unmistakable slips:
+   `10.5985/emcrr.20250008` → `10.5985/emcr.20250008` (one letter), `10.1016/j.envres.**2020**.109072` →
+   `…**2019**.109072` (year field), `10.3329/jujbs.v9i1.53703` → `…v9i1-2.53703`,
+   `10.62051/ijnres.v2n1.21` → `10.62051/**10.62051/**ijnres.v2n1.21` (prefix doubled).
+   **But similarity never identified the right DOI — the title search did.** No neighbour was accepted
+   because it looked close; each was accepted because Crossref returned it for the paper's title and the
+   author matched. The pattern explains how the corpus got here; it is not a method for getting out.
+
+5. **`HMI_REPO` fixed.** `bulk-ingest-worker.mjs` no longer defaults to a hardcoded
+   `/Users/<name>/Desktop/heavy-metal-index`. On another checkout that resolves to a missing path or, worse,
+   a **different clone** sitting at the same location — writing ingest output into the wrong tree silently.
+   It now exits 1 naming the command to set it. Verified: unset → clear error, exit 1.
+
+6. **The six `doi: null` pages were not touched.** Each needs a *verified publisher* `access_url`, which
+   is per-page retrieval work, not a marker to apply in bulk — the same standard that governed the 61.
+   Doing them badly would be worse than leaving them visible.
+
+### Open questions for Karen
+
+1. **The davydiuk duplicate (finding 3)** — merge the two pages, or delete the fabricated-DOI one? It has
+   the better author metadata, so a straight delete loses something.
+2. **The 38 remaining** — the 21 with no Crossref match are the real work; several may genuinely have no
+   DOI, in which case they need the `no_doi_assigned` + verified `access_url` route rather than a
+   correction. Worth checking whether the same duplicate pattern as davydiuk explains more of them before
+   treating them as fabrications.
+3. **C1 is not closed**, so the deploy gate stated in the queue order is not met.
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes
