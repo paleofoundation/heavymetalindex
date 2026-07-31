@@ -504,18 +504,21 @@ function renderShell({
   <style>
     :root {
       color-scheme: light;
-      --hmi-burgundy: #9a2852;
-      --hmi-burgundy-dark: #77203f;
-      --hmi-ink: #1f232b;
-      --hmi-muted: #666a73;
-      --hmi-border: #e5d8dd;
-      --hmi-soft: #faf6f8;
-      --hmi-white: #fff;
+      /* Aligned to the site palette in "Heavy Metal Index v3.dc.html". This
+         shell shipped its own burgundy (#9a2852/#77203f), a different hue from
+         the site's, so the staff gate did not look like the same product. */
+      --hmi-burgundy: #8b2a4a;
+      --hmi-burgundy-dark: #6f2139;
+      --hmi-ink: #2b1f24;
+      --hmi-muted: #736b6e;
+      --hmi-border: #e8e1db;
+      --hmi-soft: #faf7f4;
+      --hmi-white: #fffdfb;
     }
     * { box-sizing: border-box; }
     body {
       align-items: center;
-      background: linear-gradient(180deg, var(--hmi-white), var(--hmi-soft));
+      background: #faf7f4;
       color: var(--hmi-ink);
       display: flex;
       font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;

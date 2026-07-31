@@ -9,11 +9,16 @@
 // scoped component rules + design tokens are adopted.
 
 :root {
+  // Values read from "Heavy Metal Index v3.dc.html", not inferred. The neutrals
+  // were cool-toned (#6b7280 / #9aa0a8 / #373c44 are slate); v3's are warm and
+  // sit against the #faf7f4 page. Frequencies in v3: #8b2a4a x207, #e8e1db x104,
+  // #3f3a3f x92, #2b1f24 x88, #736b6e x58, #f2ece7 x55, #a9a1a2 x44.
   --burg: #8b2a4a; --burg-dark: #6f2139; --burg-tint: #f6ecf0; --burg-tint2: #fbf5f7;
-  --ink: #1f2329; --body: #373c44; --muted: #6b7280; --faint: #9aa0a8;
-  --line: #e7e5e0; --line2: #f0eee9; --shade: #f7f6f3;
+  --ink: #2b1f24; --body: #3f3a3f; --muted: #736b6e; --faint: #a9a1a2;
+  --line: #e8e1db; --line2: #f2ece7; --shade: #fbf8f5;
   --a: #2e9e6b; --b: #d39000; --c: #9aa0a8; --d: #c0392b;
-  --radius: 10px; --radius-lg: 14px; --maxw: 1480px;
+  // v3 uses 2px on chips/badges/kbd and 3px on buttons/cards/panels; nothing larger.
+  --radius: 2px; --radius-lg: 3px; --maxw: 1480px;
 }
 
 /* the proof grid owns layout — free .page's width + neutralise the base grid */
@@ -99,19 +104,19 @@ a.internal.tag-link:hover {
 /* left section nav */
 .snav { position: sticky; top: 88px; font-size: 14.5px; }
 .snav .grp { display: block; margin-bottom: 4px; }
-.snav a.sec { display: block; color: var(--body); padding: 8px 12px; border-radius: 8px; font-weight: 500; }
+.snav a.sec { display: block; color: var(--body); padding: 8px 12px; border-radius: 2px; font-weight: 500; }
 .snav a.sec:hover { background: var(--shade); text-decoration: none; }
 .snav a.sec.active { background: var(--burg-tint); color: var(--burg); font-weight: 600; }
 .snav a.sub { display: block; color: var(--muted); padding: 5px 12px 5px 24px; font-size: 14px; }
 .snav a.sub:hover { color: var(--burg); text-decoration: none; }
 .snav a.sub.active { color: var(--burg); }
 .snav .divider { height: 1px; background: var(--line); margin: 14px 4px; }
-.snav a.icon { display: flex; align-items: center; gap: 10px; color: var(--body); padding: 8px 12px; border-radius: 8px; }
+.snav a.icon { display: flex; align-items: center; gap: 10px; color: var(--body); padding: 8px 12px; border-radius: 2px; }
 .snav a.icon:hover { background: var(--shade); text-decoration: none; color: var(--burg); }
 .snav a.icon svg { width: 18px; height: 18px; color: var(--faint); flex: 0 0 auto; }
 .snav a.icon:hover svg { color: var(--burg); }
 .snav .navgrouplabel { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--faint); margin: 16px 0 5px; padding: 0 12px; font-weight: 600; }
-.snav a.icon .navcount { margin-left: auto; font-size: 12px; color: var(--muted); background: var(--shade); border-radius: 10px; padding: 1px 8px; font-weight: 500; }
+.snav a.icon .navcount { margin-left: auto; font-size: 12px; color: var(--muted); background: var(--shade); border-radius: 2px; padding: 1px 8px; font-weight: 500; }
 
 /* ---------- main content ---------- */
 .proof-main { min-width: 0; }
@@ -123,7 +128,7 @@ a.internal.tag-link:hover {
 
 /* ---------- right sidebar ---------- */
 .rail { position: sticky; top: 88px; display: flex; flex-direction: column; gap: 14px; }
-.rail .action { display: flex; align-items: center; justify-content: center; gap: 9px; width: 100%; border: 1px solid var(--line); background: #fff; color: var(--body); font-weight: 500; font-size: 14.5px; padding: 11px; border-radius: 10px; cursor: pointer; }
+.rail .action { display: flex; align-items: center; justify-content: center; gap: 9px; width: 100%; border: 1px solid var(--line); background: #fff; color: var(--body); font-weight: 500; font-size: 14.5px; padding: 11px; border-radius: 3px; cursor: pointer; }
 .rail .action:hover { border-color: var(--burg); color: var(--burg); text-decoration: none; }
 .rail .action svg { width: 18px; height: 18px; }
 .rail .card { background: var(--shade); border-radius: var(--radius-lg); padding: 20px; }
@@ -167,7 +172,7 @@ a.internal.tag-link:hover {
 .hmi-quick-read p { margin: 0 0 10px; }
 .hmi-quick-read ul { margin: 0 0 12px; }
 .hmi-pill-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
-.hmi-pill { background: #fff; border: 1px solid var(--burg); color: var(--burg); font-size: 12.5px; font-weight: 500; padding: 4px 12px; border-radius: 20px; }
+.hmi-pill { background: #fff; border: 1px solid var(--burg); color: var(--burg); font-size: 12.5px; font-weight: 500; padding: 4px 12px; border-radius: 2px; }
 
 .wiki-content .footnotes, .wiki-content [data-footnotes], .wiki-content section.footnotes { font-size: 13.5px; color: var(--muted); border-top: 1px solid var(--line); margin-top: 34px; padding-top: 16px; }
 .wiki-content .footnotes a, .wiki-content [data-footnotes] a { color: var(--burg); }
@@ -179,11 +184,11 @@ sup.cite > a::before { content: "["; }
 sup.cite > a::after { content: "]"; }
 sup.cite > a:hover { color: var(--burg-dark); text-decoration: underline; }
 sup.cite { position: relative; }
-sup.cite .cite-card { display: none; position: absolute; bottom: 1.7em; left: 50%; transform: translateX(-50%); width: 300px; max-width: 80vw; background: #fff; border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 12px 32px rgba(0, 0, 0, 0.17); padding: 12px 14px; font-size: 12.5px; line-height: 1.5; color: var(--body); font-weight: 400; z-index: 40; text-align: left; white-space: normal; }
+sup.cite .cite-card { display: none; position: absolute; bottom: 1.7em; left: 50%; transform: translateX(-50%); width: 300px; max-width: 80vw; background: #fff; border: 1px solid var(--line); border-radius: 3px; box-shadow: 0 12px 32px rgba(0, 0, 0, 0.17); padding: 12px 14px; font-size: 12.5px; line-height: 1.5; color: var(--body); font-weight: 400; z-index: 40; text-align: left; white-space: normal; }
 sup.cite .cite-card .au { color: var(--ink); font-weight: 500; display: block; }
 sup.cite .cite-card .go { color: var(--burg); font-weight: 600; display: inline-block; margin-top: 8px; font-size: 12px; }
 /* microbiomemedicine-style card: tinted header (authors + linked title) + journal + "Read source" button, in HMI burgundy */
-sup.cite .cite-card-head { display: block; background: var(--burg-tint); margin: -12px -14px 10px; padding: 10px 14px; border-radius: 10px 10px 0 0; border-bottom: 1px solid var(--line); }
+sup.cite .cite-card-head { display: block; background: var(--burg-tint); margin: -12px -14px 10px; padding: 10px 14px; border-radius: 3px 10px 0 0; border-bottom: 1px solid var(--line); }
 sup.cite .cite-card-authors { color: var(--muted); font-size: 11.5px; display: block; margin-bottom: 3px; }
 sup.cite .cite-card-title { color: var(--burg); font-weight: 600; font-family: Lora, serif; font-size: 13px; line-height: 1.35; text-decoration: none; display: block; }
 sup.cite .cite-card-title:hover { text-decoration: underline; }
@@ -194,7 +199,7 @@ sup.cite .cite-card-review:hover { background: var(--burg-dark); text-decoration
 sup.cite:hover .cite-card, sup.cite:focus-within .cite-card { display: block; }
 
 .coresec { scroll-margin-top: 24px; }
-section.hmi-evidence-header { background: var(--shade); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin: 0 0 18px; font-size: 13.5px; }
+section.hmi-evidence-header { background: var(--shade); border: 1px solid var(--line); border-radius: 3px; padding: 14px 18px; margin: 0 0 18px; font-size: 13.5px; }
 section.hmi-evidence-header .hmi-evidence-row { display: flex; gap: 10px; margin: 3px 0; }
 section.hmi-evidence-header .hmi-evidence-key { color: var(--muted); min-width: 90px; font-weight: 600; font-size: 12px; }
 
@@ -234,7 +239,7 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
 .hist-item-latest::before { background: var(--burg); }
 .hist-meta { display: flex; align-items: center; gap: 10px; margin-bottom: 3px; }
 .hist-date { color: var(--muted); font-size: 13px; }
-.hist-badge { font-size: 11px; font-weight: 600; color: var(--burg); background: var(--burg-tint); border-radius: 20px; padding: 1px 9px; letter-spacing: 0.02em; }
+.hist-badge { font-size: 11px; font-weight: 600; color: var(--burg); background: var(--burg-tint); border-radius: 2px; padding: 1px 9px; letter-spacing: 0.02em; }
 .hist-title { color: var(--ink); font-family: Lora, serif; font-size: 16px; font-weight: 600; line-height: 1.4; }
 .hist-commit { display: inline-block; margin-top: 4px; font-size: 12.5px; color: var(--burg); font-family: var(--codeFont, ui-monospace, monospace); }
 .hist-commit:hover { text-decoration: underline; }
@@ -245,7 +250,7 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
   .snav { display: flex; flex-wrap: wrap; gap: 6px; }
   .snav .divider, .snav .navgrouplabel { display: none; }
   .snav a.sub { display: none; }
-  .snav a.sec, .snav a.icon { border: 1px solid var(--line); border-radius: 8px; }
+  .snav a.sec, .snav a.icon { border: 1px solid var(--line); border-radius: 2px; }
 }
 
 /* ── microbiomemedicine-style hero band (in HMI burgundy) ── */
@@ -263,7 +268,7 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
 .hero-title { font-family: Lora, serif; font-weight: 400; font-size: clamp(40px, 5vw, 58px); line-height: 1.05; color: #fff; margin: 0 0 16px; }
 .hero-desc { font-family: Inter, sans-serif; font-size: 16px; line-height: 1.55; color: rgba(255,255,255,0.92); max-width: 640px; margin: 0 0 22px; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
-.hero-pill { display: inline-flex; align-items: center; gap: 8px; background: rgba(0,0,0,0.24); color: #fff; font-size: 14px; font-weight: 500; padding: 9px 14px; border-radius: 7px; text-decoration: none; }
+.hero-pill { display: inline-flex; align-items: center; gap: 8px; background: rgba(0,0,0,0.24); color: #fff; font-size: 14px; font-weight: 500; padding: 9px 14px; border-radius: 2px; text-decoration: none; }
 .hero-pill:hover { background: rgba(0,0,0,0.4); color: #fff; text-decoration: none; }
 .hero-pill svg { width: 16px; height: 16px; }
 .hero-right { display: flex; flex-direction: column; gap: 16px; padding-top: 2px; }
@@ -271,7 +276,7 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
 .hero-author { font-size: 15px; font-weight: 500; color: #fff; display: flex; align-items: center; gap: 7px; }
 .hero-orcid { font-size: 10px; font-weight: 700; background: #a6ce39; color: #143a00; border-radius: 3px; padding: 1px 4px; letter-spacing: 0.02em; }
 .hero-updated { font-size: 12px; color: rgba(255,255,255,0.72); margin-top: 6px; }
-.hero-snapshot { background: rgba(0,0,0,0.16); border: 1px solid rgba(255,255,255,0.16); border-radius: 12px; padding: 14px 16px; }
+.hero-snapshot { background: rgba(0,0,0,0.16); border: 1px solid rgba(255,255,255,0.16); border-radius: 3px; padding: 14px 16px; }
 .hero-snapshot-title { font-family: Lora, serif; font-size: 15px; font-weight: 600; color: #fff; margin-bottom: 10px; }
 .hero-snapshot-row { display: flex; align-items: center; gap: 9px; font-size: 13px; color: rgba(255,255,255,0.9); margin: 6px 0; }
 .hero-snapshot-row svg { width: 15px; height: 15px; color: rgba(255,255,255,0.72); flex: 0 0 auto; }
@@ -287,11 +292,11 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
 /* ── auth screens (login / signup) — large centered card, HMI burgundy ── */
 .proof-auth { background: #fbfaf8; min-height: calc(100vh - 69px); }
 .hmi-auth-page { max-width: var(--maxw); margin: 0 auto; padding: 56px 24px 80px; display: flex; justify-content: center; }
-.hmi-auth-card { width: 100%; max-width: 460px; background: #fff; border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.07); padding: 44px 44px 36px; }
+.hmi-auth-card { width: 100%; max-width: 460px; background: #fff; border: 1px solid var(--line); border-radius: 3px; box-shadow: 0 10px 40px rgba(0,0,0,0.07); padding: 44px 44px 36px; }
 .hmi-auth-card--wide { max-width: 600px; }
 .hmi-auth-title { font-family: Lora, serif; font-weight: 500; font-size: 34px; color: var(--burg); margin: 0 0 8px; line-height: 1.1; }
 .hmi-auth-sub { font-family: Inter, sans-serif; font-size: 15px; line-height: 1.5; color: var(--muted); margin: 0 0 26px; }
-.hmi-auth-google { display: flex; align-items: center; justify-content: center; gap: 11px; width: 100%; background: #fff; border: 1px solid #d9d6cf; border-radius: 9px; padding: 13px; font-family: Inter, sans-serif; font-size: 15.5px; font-weight: 600; color: var(--ink); text-decoration: none; cursor: pointer; transition: background 0.15s ease, border-color 0.15s ease; }
+.hmi-auth-google { display: flex; align-items: center; justify-content: center; gap: 11px; width: 100%; background: #fff; border: 1px solid #d9d6cf; border-radius: 3px; padding: 13px; font-family: Inter, sans-serif; font-size: 15.5px; font-weight: 600; color: var(--ink); text-decoration: none; cursor: pointer; transition: background 0.15s ease, border-color 0.15s ease; }
 .hmi-auth-google:hover { background: var(--shade); border-color: #c8c4bb; text-decoration: none; color: var(--ink); }
 .hmi-auth-google svg { width: 19px; height: 19px; flex: 0 0 auto; }
 .hmi-auth-or { display: flex; align-items: center; gap: 14px; margin: 22px 0; color: var(--faint); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
@@ -299,13 +304,13 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
 .hmi-auth-form { display: flex; flex-direction: column; gap: 15px; }
 .hmi-auth-field { display: flex; flex-direction: column; gap: 6px; }
 .hmi-auth-field > span { font-family: Inter, sans-serif; font-size: 13px; font-weight: 600; color: var(--body); }
-.hmi-auth-field input { font-family: Inter, sans-serif; font-size: 15.5px; color: var(--ink); background: #fff; border: 1px solid #d4cfc6; border-radius: 9px; padding: 12px 14px; width: 100%; transition: border-color 0.15s ease, box-shadow 0.15s ease; }
+.hmi-auth-field input { font-family: Inter, sans-serif; font-size: 15.5px; color: var(--ink); background: #fff; border: 1px solid #d4cfc6; border-radius: 3px; padding: 12px 14px; width: 100%; transition: border-color 0.15s ease, box-shadow 0.15s ease; }
 .hmi-auth-field input::placeholder { color: var(--faint); }
 .hmi-auth-field input:focus { outline: none; border-color: var(--burg); box-shadow: 0 0 0 3px var(--burg-tint); }
 .hmi-auth-roles { display: flex; flex-direction: column; gap: 10px; margin-bottom: 6px; }
 .hmi-auth-radio { display: flex; align-items: center; gap: 10px; font-family: Inter, sans-serif; font-size: 15px; color: var(--ink); cursor: pointer; }
 .hmi-auth-radio input { accent-color: var(--burg); width: 17px; height: 17px; flex: 0 0 auto; }
-.hmi-auth-submit { margin-top: 6px; width: 100%; background: var(--burg); color: #fff; border: 0; border-radius: 9px; padding: 14px; font-family: Inter, sans-serif; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.15s ease; }
+.hmi-auth-submit { margin-top: 6px; width: 100%; background: var(--burg); color: #fff; border: 0; border-radius: 3px; padding: 14px; font-family: Inter, sans-serif; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.15s ease; }
 .hmi-auth-submit:hover { background: var(--burg-dark); }
 .hmi-auth-foot { text-align: center; margin: 22px 0 0; font-family: Inter, sans-serif; font-size: 14.5px; color: var(--body); }
 .hmi-auth-foot a { color: var(--burg); font-weight: 600; }
@@ -314,7 +319,7 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
    disabled behind this notice rather than shipping a form that swallows a
    password silently. Remove alongside AuthCard.tsx's PREVIEW flag when the
    Institute of Contaminant Standards auth app is wired up. */
-.hmi-auth-notice { font-family: Inter, sans-serif; font-size: 13.5px; line-height: 1.5; color: var(--body); background: var(--burg-tint); border: 1px solid var(--line); border-left: 3px solid var(--burg); border-radius: 9px; padding: 12px 14px; margin: 0 0 22px; }
+.hmi-auth-notice { font-family: Inter, sans-serif; font-size: 13.5px; line-height: 1.5; color: var(--body); background: var(--burg-tint); border: 1px solid var(--line); border-left: 3px solid var(--burg); border-radius: 3px; padding: 12px 14px; margin: 0 0 22px; }
 .hmi-auth-notice strong { color: var(--burg); }
 .hmi-auth-notice a { color: var(--burg); font-weight: 600; }
 .hmi-auth-form fieldset { border: 0; margin: 0; padding: 0; min-width: 0; display: flex; flex-direction: column; gap: 15px; }
@@ -332,7 +337,7 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
 
 /* ── category directory: cards linking OUT to category section pages ── */
 .cat-dir { display: grid; grid-template-columns: repeat(auto-fill, minmax(258px, 1fr)); gap: 22px; margin: 26px 0 8px; }
-.cat-dir-card { display: block; border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; text-decoration: none; color: var(--body); background: #fff; transition: border-color 0.15s ease, box-shadow 0.15s ease; }
+.cat-dir-card { display: block; border: 1px solid var(--line); border-radius: 3px; padding: 20px 22px; text-decoration: none; color: var(--body); background: #fff; transition: border-color 0.15s ease, box-shadow 0.15s ease; }
 .cat-dir-card:hover { border-color: var(--burg); box-shadow: 0 8px 26px rgba(0,0,0,0.06); text-decoration: none; color: var(--body); }
 .cat-dir-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 12px; }
 .cat-dir-name { font-family: Lora, serif; font-size: 18px; font-weight: 600; color: var(--ink); line-height: 1.2; }
@@ -360,7 +365,7 @@ body[data-slug*="/categories/"] .wiki-content ul li::before { content: "\2192\00
    added by pageHistoryTimeline.inline.ts. Origin styles .hist-badge; these are
    the classified variants and the All/Major/Minor/Corrections tab row. */
 .hist-tabs { display: flex; flex-wrap: wrap; gap: 4px; margin: 14px 0 2px; justify-content: flex-end; }
-.hist-tab { background: none; border: 1px solid transparent; border-radius: 6px; padding: 5px 12px; font-family: inherit; font-size: 13.5px; color: var(--burg); cursor: pointer; }
+.hist-tab { background: none; border: 1px solid transparent; border-radius: 2px; padding: 5px 12px; font-family: inherit; font-size: 13.5px; color: var(--burg); cursor: pointer; }
 .hist-tab:hover { background: var(--burg-tint); }
 .hist-tab-on { border-color: var(--burg); font-weight: 600; }
 .hist-item[hidden] { display: none; }
