@@ -446,3 +446,48 @@ Commits:
 None. Ready for 0.10 — push and PR, no fast-forward of `main`, no deploy.
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+## 0.10 — Push and open a PR — 2026-07-31T00:05:00+03:00
+
+Result: DONE — branch pushed, PR open, nothing merged, nothing deployed
+
+Commits: `104f7f99f` docs(reconcile): add standing rule 13 and the 0.10 preflight/PR-body spec
+(plus the 23 prior; 24 total on the branch)
+
+**PR: https://github.com/paleofoundation/heavymetalindex/pull/103**
+
+### Findings
+
+1. **Preflight clean.** Tree clean, 24 commits, sweep returns exactly the six settled absences
+   (`outputs/` symlink, `homeSearch.inline.ts`, `home.scss`, `build-homepage.mjs`,
+   `build-key-questions.mjs`, `homepage/faq.json`). Main read live at `11631713f` / 946 / 8.
+
+2. **Credential scan — clean, with one non-secret finding.** Scanned all **230,314 added lines** across
+   the 24-commit diff. **Zero** matches for OpenAI/GitHub/AWS/Slack/Google key formats, PEM private-key
+   headers, JWTs, or assignment-style `key=`/`token:`/`secret=` with a literal value.
+   **One absolute path**: `tools/ingest/bulk-ingest-worker.mjs:32` —
+   `const repo = process.env.HMI_REPO || "/Users/karenpendergrass/Desktop/heavy-metal-index"` — an
+   env-overridable default, pre-existing on local, not a secret. Reported in the PR body rather than
+   silently fixed, since changing it is out of 0.10's scope.
+   Two apparent `.env` hits were false positives: 34 were the substring inside `10.1016/j.envint/…`
+   (Environment International DOIs) and one was RECONCILE.md's own scan instructions matching itself.
+
+3. **History preserved.** No squash, no rebase, no reword. Pushed as 24 commits; `origin/main` still
+   `5f7a7150d`, untouched.
+
+4. **PR body carries all five required sections** — what this is; the base facts (merge base, the graft's
+   fictional lineage, deployed `50de6ab` eight behind); what it fixes with evidence; what it does not fix
+   (C1, six `doi: null`, the `doi: ''` hole, F5, F9, F10, roadmap claims, the absolute-path default), each
+   pointing at this log; and the reviewer note that audit rows predating 2026-07-30 were never enforced,
+   with the barrier beginning to enforce its own claim at `1c0b678ac`.
+
+5. **Deployment explicitly disclaimed in the PR body.** `vercel.json` sets
+   `git.deploymentEnabled: false` — merging does not deploy, and should not be read as doing so.
+
+### Open questions for Karen
+
+1. **Merge order.** C1 (61 non-resolving DOIs, live on the deployed line) is a content-integrity defect on
+   a reference site whose whole argument is checkability. It outranks anything in this PR and may want to
+   land first. Merging is Karen's call either way.
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes
