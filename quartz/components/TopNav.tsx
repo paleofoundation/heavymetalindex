@@ -32,6 +32,12 @@ import askScript from "./scripts/askindex.inline"
 // directory depth. Active state is computed server-side from the current slug.
 
 
+// The reference plane's single outbound handoff to the member application.
+// Set to null to remove it in one edit: the apex is not serving yet (404 as of
+// 2026-07-31, see docs/findings.md F-13), so this must not reach production
+// until the Pro app lands or this is nulled.
+const INDEX_PRO_URL: string | null = "https://pro.contaminantstandards.com"
+
 export interface TopNavOptions {}
 
 export default ((_userOpts?: Partial<TopNavOptions>) => {
@@ -177,6 +183,20 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
               </a>
             </div>
           </nav>
+
+          {/*
+            Index Pro sits OUTSIDE .hmi-topnav-menu deliberately. In the v3
+            design (line 63) it is the one right-hand control not wrapped in the
+            wide-only block: search collapses to an icon and Ask / Log in are
+            removed outright below 1150px, but Index Pro survives at every
+            width. Inside the menu it would disappear into the burger drawer
+            with everything else, which inverts that rule.
+          */}
+          {INDEX_PRO_URL && (
+            <a class="hmi-topnav-pro" href={INDEX_PRO_URL} rel="noopener">
+              Index Pro
+            </a>
+          )}
         </div>
       </div>
     )
