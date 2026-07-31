@@ -609,3 +609,60 @@ Commits:
    lost 82% of its `n_studies`.
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+## C0 — the rice scorecard constant (440 vs 80) — 2026-07-31T10:15:00+03:00
+
+Result: DONE (diagnosis only; the test constant is UNCHANGED, deliberately)
+
+Commits: none — no code or data touched
+
+### Findings
+
+1. **440 was never legitimate.** It was published, but it was an artifact. `fe6ad96e1`
+   (2026-05-17, "synthesis: overnight wiki refresh") took rice's total `n_studies` from **16 to 440 in a
+   single commit**, inflating every metal at once: Pb 2→61, Ni 2→23, Al 0→11, Sn 0→11. The resynthesis
+   commit that later corrected it says so outright: *"The 2026-05-17 overnight pass had bumped n_studies
+   (2->61) and confidence (low->high) **without ever re-pooling**."*
+
+2. **The test captured the artifact, hours before it was corrected.** `df0616078` (2026-06-11) wrote
+   `assert.equal(r.dims.D1.totalN, 440)` with the hand-computed breakdown
+   `Pb61+Cd86+iAs74+tHg45+Ni23+Al11+Cr30+Sn11+tAs95+U4`. Those were genuinely rice.md's values that
+   morning — I verified them at that commit. **`8e90aa2b8`, the same day**, resynthesized the page and
+   the total fell to 80. The test has asserted a known-bad state ever since.
+
+3. **The drop is a correction, not data loss.** `8e90aa2b8` is Part 2 drift-audit finding A1: rice was
+   publishing iAs as `[41.6,41.6] p95 41.6` — a single n=1 FDA TDS composite presented as a 74-study
+   distribution — and Pb/tHg/Cr as `[0,0] p95 0` at `confidence: high`, where below-reporting-limit
+   composites had been pooled as literal zeros. Every value it changed **exposed more contamination than
+   the page had admitted**. The understatement was the drift; the correction is the fix.
+
+4. **BUT the current 80 is not fully trustworthy either, and this is the part worth acting on.** The
+   resynthesis re-pooled seven metals (iAs, tAs, Cd, Pb, tHg, Cr, U) against verified sources. It did
+   **not** touch Ni, Al or Sn — they sit at 23, 11, 11 today, exactly the values the 2026-05-17 pass
+   wrote. **45 of the current 80 are un-re-pooled overnight-pass output.** Al and Sn went 0→11 in that
+   pass: from no studies to eleven, without re-pooling. Those three cells carry the same provenance as
+   the numbers finding A1 condemned.
+
+5. **So the constant should become 80, but not yet, and not as a one-line edit.** Updating it now would
+   bless 45 units of unverified value as ground truth — a milder version of the move the rule forbids.
+   The honest sequence is: re-pool Ni/Al/Sn against their cited sources first, then set the constant to
+   whatever that yields, with the derivation recorded.
+
+6. **The test's real defect is structural, independent of the number.** It reads the **live**
+   `wiki/ingredients/rice.md` rather than a frozen fixture, so it re-asserts a hand-computed constant
+   against content that regenerates. It will go stale again on the next resynthesis. Same shape as the
+   two-lists-that-drift problem, with data on one side and an assertion on the other.
+
+### Open questions for Karen
+
+1. **Re-pool Ni/Al/Sn for rice before touching the constant?** That is real synthesis work, not a test
+   fix — it needs the cited sources read. Ranks below C1 in severity (a wrong count on one page vs. 61
+   unfollowable citations) but it is the blocker for closing C0 honestly.
+2. **Is the 2026-05-17 overnight pass's inflation wiki-wide?** `8e90aa2b8` says the artifact it fixed was
+   "wiki-wide, 186 cells / 50 pages" and drained the backlog for the two censored-zero signatures. But
+   the *n_studies inflation* is a third signature, and nothing checked whether other pages carry
+   un-re-pooled counts from the same pass. Rice was audited because it is the flagship commodity. If the
+   pass touched 50 pages, the other 49 deserve the same question.
+3. **Convert the test to a frozen fixture** as part of whatever fix lands (finding 6).
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes
