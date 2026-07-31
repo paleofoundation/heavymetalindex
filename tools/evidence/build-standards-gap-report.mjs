@@ -22,6 +22,7 @@ const occurrenceSummaryFiles = [
   "data/evidence/category24_occurrence_summary.csv",
 ]
 const crosswalkPath = path.join(repoRoot, "data/evidence/product_regulatory_crosswalk.csv")
+const regulatoryLimitsPath = path.join(repoRoot, "data/evidence/regulatory_limits.csv")
 const queuePath = path.join(repoRoot, "data/evidence/local_reingest_queue.csv")
 const localCandidatePath = path.join(repoRoot, "data/evidence/local_reingest_candidate_values.csv")
 const contextDispositionPath = path.join(repoRoot, "data/evidence/local_reingest_context_dispositions.csv")
@@ -44,6 +45,19 @@ const dirtyStandardPercentile = normalizeDirtyStandardPercentile(
 const productPages = readProductPages()
 const valueRows = readOccurrenceSummaryRows()
 const regulatoryRows = fs.existsSync(crosswalkPath) ? parseCsv(fs.readFileSync(crosswalkPath, "utf8")) : []
+// Regulatory MLs are published in their own basis, which is not always the product
+// row's native basis (e.g. the AU/NZ Schedule 19 formula Al MLs are "portion
+// ordinarily consumed" while a powder row is powder-as-placed). The crosswalk does
+// not carry basis, so join it back to the limits registry here and forward each
+// cap's basis to the pooling engine, which owns basis conversion. Picking the
+// numerically lowest cap without this join compares across bases and can bind a
+// powder row to a prepared-basis number 7x too tight.
+const regulatoryLimitBasisById = new Map(
+  (fs.existsSync(regulatoryLimitsPath) ? parseCsv(fs.readFileSync(regulatoryLimitsPath, "utf8")) : []).map((row) => [
+    String(row.regulatory_limit_id ?? "").trim(),
+    String(row.basis ?? "").trim(),
+  ]),
+)
 const queueRows = fs.existsSync(queuePath) ? parseCsv(fs.readFileSync(queuePath, "utf8")) : []
 const localCandidateRows = fs.existsSync(localCandidatePath) ? parseCsv(fs.readFileSync(localCandidatePath, "utf8")) : []
 const contextDispositionRows = fs.existsSync(contextDispositionPath)
@@ -213,6 +227,8 @@ for (const productSlug of productSlugs) {
       tds_product_route_foods: tdsFoodList(tdsCandidatesForMetal),
       lowest_regulatory_cap_ug_kg: regulatoryCap.value ?? "",
       lowest_regulatory_cap_source: regulatoryCap.source ?? "",
+      lowest_regulatory_cap_basis: regulatoryCap.basis ?? "",
+      regulatory_caps_all: encodeRegulatoryCaps(mappedRegulatoryCaps(regulatoryMatches)),
       regulatory_reference_status: regulatoryStatus(regulatoryMatches),
       aggregate_hmtc_percentile_status: status.status,
       evidence_needed: status.evidence_needed,
@@ -251,6 +267,8 @@ writeCsv(outputPath, reportRows, [
   "tds_product_route_foods",
   "lowest_regulatory_cap_ug_kg",
   "lowest_regulatory_cap_source",
+  "lowest_regulatory_cap_basis",
+  "regulatory_caps_all",
   "regulatory_reference_status",
   "aggregate_hmtc_percentile_status",
   "evidence_needed",
@@ -632,16 +650,30 @@ function normalizeDirtyStandardPercentile(value) {
   throw new Error(`Unsupported dirty standards percentile: ${value}. Use p45 (current default per CLAUDE.md Part 19), p30, p20, or p10.`)
 }
 
-function lowestRegulatoryCap(rows) {
-  const caps = rows
-    .map((row) => ({
-      value: Number(row.regulatory_value_ug_kg),
-      source: row.regulatory_limit_id || "regulatory row",
-    }))
+function mappedRegulatoryCaps(rows) {
+  return rows
+    .map((row) => {
+      const source = row.regulatory_limit_id || "regulatory row"
+      return {
+        value: Number(row.regulatory_value_ug_kg),
+        source,
+        basis: regulatoryLimitBasisById.get(source) ?? "",
+      }
+    })
     .filter((row) => Number.isFinite(row.value) && row.value > 0 && row.source !== "none_loaded")
     .sort((left, right) => left.value - right.value)
+}
 
-  return caps[0] ?? { value: "", source: "" }
+// Encoded as `id|value|basis` triples so the pooling engine can convert each cap
+// into the row's native basis before selecting the binding one. Basis text comes
+// verbatim from regulatory_limits.csv; the engine owns normalization.
+function encodeRegulatoryCaps(caps) {
+  return caps.map((cap) => `${cap.source}|${cap.value}|${cap.basis}`).join(";")
+}
+
+function lowestRegulatoryCap(rows) {
+  const caps = mappedRegulatoryCaps(rows)
+  return caps[0] ?? { value: "", source: "", basis: "" }
 }
 
 function regulatoryCapInstruction(cap) {

@@ -657,18 +657,127 @@ function bootstrapCI_sourceLevel(rowsForCell, productNativeBasis, targetP, itera
 
 // ---- Regulatory cap lookup
 
-function lookupRegCap(productSlug, metal, gapRows) {
+// Regulatory MLs carry their own basis text (regulatory_limits.csv `basis`), which
+// is free-form legal phrasing rather than the engine's basis vocabulary. Map the
+// phrasings we have adjudicated; anything unrecognized returns null so the cap is
+// used unconverted and flagged, never silently mis-scaled.
+//
+// "product as placed on market" and its variants are product-relative: they mean
+// the form the product is sold in, which IS the row's native basis. They therefore
+// resolve to the native basis (factor 1) rather than to any fixed token.
+const REG_BASIS_NATIVE_RELATIVE = new Set([
+  "product as placed on market",
+  "product as sold",
+  "as sold or ready-to-eat as applicable",
+  "edible part",
+  "commodity",
+  "wet weight",
+  "wet weight, edible portion",
+])
+const REG_BASIS_PREPARED = new Set([
+  "portion ordinarily consumed",
+  "ready to use",
+  "wet weight or reconstituted juice",
+  "single-strength ready-to-drink juice",
+  "ready-to-drink juice",
+])
+const REG_BASIS_DRY = new Set([
+  "dry infant cereal",
+  "as sold infant rice cereal",
+  "dried spice",
+  "rice commodity",
+])
+
+function normalizeRegulatoryBasis(regBasis, nativeBasis) {
+  const text = String(regBasis ?? "").trim().toLowerCase()
+  if (!text) return null
+  if (REG_BASIS_NATIVE_RELATIVE.has(text)) return nativeBasis
+  if (REG_BASIS_PREPARED.has(text)) return "as_consumed"
+  if (REG_BASIS_DRY.has(text)) return "dry_as_sold"
+  return null
+}
+
+// The 1:7 factor in convertBasis is the infant-formula reconstitution ratio
+// (1 g powder + 6 g water). It is only physically meaningful for product forms
+// that are actually reconstituted before consumption. Applying it to a cap on a
+// dried-fruit, cereal, or ready-to-drink-juice row would inflate a legal ceiling
+// sevenfold — a loosening drift. For those rows a cross-class basis mismatch is
+// reported as unresolved and the cap is used unconverted, which is conservative.
+function hasReconstitutionRelationship(slug, nativeBasis) {
+  if (!/formula/.test(slug)) return false
+  return nativeBasis === "powder_as_placed" || nativeBasis === "concentrated_liquid_as_placed"
+}
+
+const POWDER_BASIS_CLASS = new Set(["powder_as_placed", "as_sold", "as_sold_or_source_reported", "dry_as_sold"])
+const PREPARED_BASIS_CLASS = new Set(["prepared_for_feeding", "as_consumed"])
+
+function crossesReconstitutionBoundary(fromBasis, toBasis) {
+  return (
+    (POWDER_BASIS_CLASS.has(fromBasis) && PREPARED_BASIS_CLASS.has(toBasis)) ||
+    (PREPARED_BASIS_CLASS.has(fromBasis) && POWDER_BASIS_CLASS.has(toBasis))
+  )
+}
+
+function parseRegulatoryCaps(encoded) {
+  return String(encoded ?? "")
+    .split(";")
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => {
+      const [source, value, ...basisParts] = part.split("|")
+      return { source, value: numberOrNull(value), basis: basisParts.join("|") }
+    })
+    .filter((cap) => cap.value !== null)
+}
+
+function lookupRegCap(productSlug, metal, gapRows, nativeBasis) {
   const row = gapRows.find(
     (r) =>
       r.product_slug === productSlug &&
       String(r.metal_species ?? "").trim() === metal,
   )
   if (!row) return { value: null, source: null }
-  const cap = numberOrNull(row.lowest_regulatory_cap_ug_kg)
+
+  const caps = parseRegulatoryCaps(row.regulatory_caps_all)
+  if (caps.length === 0) {
+    // Pre-basis-column gap reports: fall back to the legacy single-cap fields.
+    return {
+      value: numberOrNull(row.lowest_regulatory_cap_ug_kg),
+      source: row.lowest_regulatory_cap_source || null,
+      reference_status: row.regulatory_reference_status || null,
+    }
+  }
+
+  // Convert every mapped cap into the row's native basis, THEN take the lowest.
+  // Selecting first and converting second (the previous behaviour) compares
+  // legal ceilings across incompatible bases.
+  const converted = caps.map((cap) => {
+    const fromBasis = normalizeRegulatoryBasis(cap.basis, nativeBasis)
+    if (!fromBasis) {
+      return { ...cap, native_value: cap.value, conversion_factor: 1, basis_unresolved: true }
+    }
+    if (crossesReconstitutionBoundary(fromBasis, nativeBasis) && !hasReconstitutionRelationship(productSlug, nativeBasis)) {
+      return { ...cap, native_value: cap.value, conversion_factor: 1, basis_unresolved: true }
+    }
+    const c = convertBasis(cap.value, fromBasis, nativeBasis)
+    return {
+      ...cap,
+      native_value: c.value,
+      conversion_factor: c.factor,
+      basis_unresolved: Boolean(c.unknown_conversion),
+    }
+  })
+  converted.sort((left, right) => left.native_value - right.native_value)
+  const binding = converted[0]
+
   return {
-    value: cap,
-    source: row.lowest_regulatory_cap_source || null,
+    value: binding.native_value,
+    source: binding.source,
     reference_status: row.regulatory_reference_status || null,
+    cap_published_value: binding.value,
+    cap_published_basis: binding.basis,
+    cap_conversion_factor: binding.conversion_factor,
+    cap_basis_unresolved: binding.basis_unresolved,
   }
 }
 
@@ -907,7 +1016,7 @@ function main() {
             )
           : { lo: null, hi: null }
 
-      const regCap = lookupRegCap(slug, metal, gapRows)
+      const regCap = lookupRegCap(slug, metal, gapRows, product.native_basis)
       const poolUsable =
         valueUnusableReason({
           pooledLength: pooled.length,
@@ -980,6 +1089,14 @@ function main() {
         // primary_metals_of_concern; false when the union surfaced it from data.
         metal_in_concern_list: curatedMetals.includes(metal),
         contribution_log: JSON.stringify(contributions),
+        // Cap basis audit trail: the ML as published, its published basis, and the
+        // factor applied to bring it into the row's native basis. When
+        // cap_basis_unresolved is true the published basis text is not in the
+        // adjudicated vocabulary and the cap was used unconverted.
+        cap_published_value: regCap.cap_published_value ?? "",
+        cap_published_basis: regCap.cap_published_basis ?? "",
+        cap_conversion_factor: regCap.cap_conversion_factor ?? "",
+        cap_basis_unresolved: regCap.cap_basis_unresolved ?? "",
       }
       outputRows.push(out)
 
