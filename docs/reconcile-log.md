@@ -666,3 +666,84 @@ Commits: none — no code or data touched
 3. **Convert the test to a frozen fixture** as part of whatever fix lands (finding 6).
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+## C0b — Is the n_studies inflation wiki-wide? — 2026-07-31T11:05:00+03:00
+
+Result: DONE (scoping only; nothing corrected, nothing changed)
+
+Commits: none — no page, generator or test touched
+
+### Findings
+
+1. **Yes, and it is substantially larger than rice.** `fe6ad96e1` (2026-05-17 08:41, "synthesis:
+   overnight wiki refresh") touched **308 wiki markdown files**, of which **207 carried
+   `contamination_profile` cells** — **2,070 `n_studies` cells** in total at that commit.
+
+2. **372 cells were inflated by that pass. 322 are still live today, unchanged, across 78 pages.**
+
+   | group | cells |
+   |---|---|
+   | inflated by `fe6ad96e1` | **372** |
+   | · **still live, value never changed since** | **322** (78 pages) |
+   | · changed since (re-pooled or otherwise) | 50 |
+   | · cell no longer present | 0 |
+
+   The 50 corrected are rice's seven from `8e90aa2b8` plus 43 others. **Nothing else was ever revisited.**
+
+3. **182 of the still-live cells are `0 → n`** — from no studies to some, in one overnight pass, without
+   re-pooling — across **49 pages**. This is the least defensible variety, and it is the majority of the
+   still-live population.
+
+4. **Worst still-live inflations by magnitude**, all `0 → n` unless noted:
+
+   | page | metal | before → after | today |
+   |---|---|---|---|
+   | `ingredients/fish` | tHg | 0 → 70 | 70 |
+   | `ingredients/fish` | Pb | 0 → 49 | 49 |
+   | `ingredients/fish` | Cd | 0 → 48 | 48 |
+   | `ingredients/seafood` | tHg | 5 → 44 | 44 |
+   | `ingredients/wheat` | Cd | 0 → 39 | 39 |
+   | `ingredients/fish` | tAs | 0 → 37 | 37 |
+   | `ingredients/seafood` | tAs | 5 → 35 | 35 |
+   | `ingredients/freshwater-fish` | tHg | 0 → 33 | 33 |
+   | `ingredients/cocoa` | Cd | 5 → 32 | 32 |
+   | `ingredients/seafood` | Pb | 5 → 28 | 28 |
+
+   Pages with the most still-live inflated cells: `water` (10), `cereals` (9), `coffee` (9), `fish` (9),
+   `seafood` (9), `camellia-sinensis` (8), `freshwater-fish` (8), `leafy-greens` (8), `lentils` (8),
+   `meat` (8).
+
+5. **58 of the 322 carry `confidence: high`**, across **23 pages** (176 medium, 88 low). A high-confidence
+   cell whose study count was invented by an un-re-pooled overnight pass is the exact pairing
+   `8e90aa2b8` called drift on rice.
+
+6. **They are live and reader-visible.** `/ingredients/fish`, `/ingredients/wheat` and
+   `/ingredients/seafood` all return 200, and the rendered at-a-glance table prints the counts directly —
+   e.g. fish shows `Ni n=15`, `Al n=11`, and tHg `70 … high`. A reader sees the evidentiary weight; the
+   count is not internal metadata.
+
+7. **This outranks C1 on the criterion Karen named.** A bad DOI fails visibly the moment someone clicks
+   it — the reader learns not to trust that line. An inflated `n_studies` never fails: it silently tells
+   the reader a p95 rests on 70 studies when the page has no such pool. 61 unfollowable citations versus
+   322 uncheckable weight claims on 78 live pages.
+
+8. **Scope caveat, stated honestly.** "Inflated" here means `n_studies` rose at `fe6ad96e1` and, for the
+   322, has never changed since. That is a strong signal of un-re-pooled output given the commit's own
+   admission, but it is **not** proof that each individual count is wrong — some may have had genuine
+   new sources routed to them that night. Distinguishing the two requires reading each cell's cited
+   sources, which is the re-pooling work itself. What is certain: **none of the 322 has been re-pooled
+   since**, and the pass that wrote them is documented as having bumped counts without re-pooling.
+
+### Open questions for Karen
+
+1. **Does C0b become the content queue, ahead of C1?** My read is yes on severity — 322 live uncheckable
+   weight claims across 78 pages, 58 at high confidence, versus 61 unfollowable DOIs. But C1 is bounded
+   and mechanical (verify against Crossref, correct or mark) while C0b is 322 cells of genuine
+   re-synthesis. C1 may still be worth doing first simply because it can be finished.
+2. **Start with the 182 `0 → n` cells?** They are the least defensible and the easiest to adjudicate: a
+   cell that had no studies before the pass either has cited sources today or it does not.
+3. **Should the integrity lint gain a third signature?** It catches censored-zero and degenerate-upper-tail.
+   It does not catch "n_studies changed without the pooled values changing" — which is precisely the
+   fingerprint of this pass, and would have caught it in June.
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes
