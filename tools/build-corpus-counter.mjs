@@ -31,6 +31,25 @@ const beginMarker = "<!-- BEGIN: hmi-corpus-counter -->"
 const endMarker = "<!-- END: hmi-corpus-counter -->"
 const featureBeginMarker = "<!-- BEGIN: hmi-feature-grid -->"
 const featureEndMarker = "<!-- END: hmi-feature-grid -->"
+const metalBeginMarker = "<!-- BEGIN: hmi-metal-registry -->"
+const metalEndMarker = "<!-- END: hmi-metal-registry -->"
+
+// Editorial columns for the homepage metal registry (v3 HOME A, "Metal
+// registry"). Reference-value status and driver matrices are editorial
+// judgements, not counts, so they live here; the source count beside each row
+// is read from the metal page's own `sources:` frontmatter and is never
+// written by hand. A metal absent from this map simply does not appear in the
+// table — the registry is a curated top slice, not the full 36.
+const METAL_REGISTRY = [
+  ["lead", "Lead", "Pb", "No tolerable intake", "none", "Cereals, root vegetables, spices, infant foods"],
+  ["cadmium", "Cadmium", "Cd", "EFSA TWI", "value", "Cocoa, leafy greens, root vegetables, offal"],
+  ["chromium", "Chromium", "Cr", "Species-specific", "species", "Processing contact, drinking water"],
+  ["nickel", "Nickel", "Ni", "EU maximum levels", "value", "Legumes, nuts, cocoa, equipment contact"],
+  ["arsenic-total", "Arsenic", "As", "Species-specific", "species", "Rice, seaweed, drinking water, apple juice"],
+  ["mercury-total", "Mercury", "Hg", "JECFA PTWI, MeHg", "value", "Predatory fish, shellfish"],
+  ["aluminum", "Aluminum", "Al", "EFSA TWI", "value", "Additives, packaging contact, botanicals"],
+  ["tin", "Tin", "Sn", "Codex ML", "species", "Canned foods, acidic matrices"],
+]
 
 // Source-type normalization map. The on-disk vocabulary has accumulated
 // spelling drift over time; the counter normalizes to a canonical set so
@@ -167,8 +186,11 @@ const today = new Date().toISOString().slice(0, 10)
 const block = renderBlock(counts, today)
 const featureBlock = renderFeatureGrid(counts)
 
+const metalBlock = renderMetalRegistry()
+
 upsertHomepageBlock(homepagePath, block)
 upsertFeatureGridBlock(homepagePath, featureBlock)
+upsertMarkerBlock(homepagePath, metalBeginMarker, metalEndMarker, metalBlock)
 console.log(
   `Wrote corpus counter: ${counts.source_pages_total} source pages (${counts.source_peer_reviewed} peer-reviewed, ${counts.source_government} government, ${counts.source_databases_indexed} databases, ${counts.source_evidence_tier_a} A-tier), ${counts.ingredient_pages} ingredients, ${counts.product_pages} products, ${counts.metal_pages} metals, ${counts.regulation_pages} regulations, ${counts.structured_value_records} structured records, ${counts.routing_rows} routing rows, ${counts.jurisdictions_indexed} jurisdictions.`,
 )
@@ -336,4 +358,70 @@ function upsertFeatureGridBlock(filePath, block) {
 
 function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}
+
+// ── homepage metal registry (v3 HOME A) ──────────────────────────────────
+// Source counts come from each metal page's own `sources:` frontmatter, so the
+// table cannot drift from the pages it links to. Rows whose page is missing are
+// skipped rather than rendered with a blank or a guessed number.
+function renderMetalRegistry() {
+  const rows = []
+  for (const [slug, name, sym, tag, tone, drivers] of METAL_REGISTRY) {
+    const file = path.join(metalsDir, `${slug}.md`)
+    if (!fs.existsSync(file)) continue
+    const fm = matter(fs.readFileSync(file, "utf8")).data
+    const n = Number(fm?.sources)
+    if (!Number.isFinite(n) || n <= 0) continue
+    rows.push({ slug, name, sym, tag, tone, drivers, n })
+  }
+  rows.sort((a, b) => b.n - a.n)
+
+  const body = rows
+    .map(
+      (r) => `      <tr>
+        <td class="hmi-metal-name"><a href="metals/${esc(r.slug)}/">${esc(r.name)}</a> <span>${esc(r.sym)}</span></td>
+        <td class="hmi-metal-n">${r.n.toLocaleString("en-US")}</td>
+        <td><span class="hmi-metal-tag hmi-metal-tag--${esc(r.tone)}">${esc(r.tag)}</span></td>
+        <td class="hmi-metal-drivers">${esc(r.drivers)}</td>
+      </tr>`,
+    )
+    .join("\n")
+
+  return `${metalBeginMarker}
+<section class="hmi-home-metals" aria-label="Metal registry">
+  <div class="hmi-home-metals-head">
+    <h2>Metal registry</h2>
+    <a class="hmi-home-metals-all" href="metals/">All metals &rarr;</a>
+  </div>
+  <table class="hmi-metal-table">
+    <thead>
+      <tr><th>Metal</th><th>Sources</th><th>Reference value status</th><th>Driver matrices</th></tr>
+    </thead>
+    <tbody>
+${body}
+    </tbody>
+  </table>
+</section>
+${metalEndMarker}`
+}
+
+function esc(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+}
+
+// Generic marker upsert. Like upsertFeatureGridBlock, it refuses to insert when
+// the markers are absent: a homepage rewrite that drops a marker should lose the
+// block, not gain a duplicate appended at the end of the file.
+function upsertMarkerBlock(filePath, begin, end, block) {
+  if (!fs.existsSync(filePath)) return
+  const text = fs.readFileSync(filePath, "utf8")
+  const pattern = new RegExp(`${escapeRegExp(begin)}[\\s\\S]*?${escapeRegExp(end)}`)
+  if (!pattern.test(text)) return
+  const next = text.replace(pattern, () => block)
+  if (next === text) return
+  fs.writeFileSync(filePath, next, "utf8")
 }

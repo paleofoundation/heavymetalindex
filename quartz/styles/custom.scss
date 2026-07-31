@@ -6,6 +6,9 @@
 // proof-design.scss, which reaches the bundle exactly this way; heroBand.scss
 // replaces them and has to be pulled in the same manner.
 @use "../components/styles/heroBand.scss";
+// v3 HOME A. The homepage is wiki/index.md, not a component, so there is no
+// component css array to hang these on — same reason heroBand.scss is here.
+@use "./home-v3.scss";
 
 /* ============================================================
    Heavy Metal Index — custom styles
