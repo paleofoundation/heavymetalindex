@@ -556,3 +556,56 @@ Commits:
    rather than a fixture, which is why it goes stale on every regeneration — worth fixing regardless.
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+## F11 — make missing hooks loud — 2026-07-31T09:30:00+03:00
+
+Result: DONE — but NOT as specified; the specified form cannot work, and the reason is recorded below
+
+Commits:
+- `d2fe3e0ee` fix(hooks): F11 — make missing git hooks loud instead of silent
+
+### Findings
+
+1. **Step 3 was already complete and remains verified.** `2da0565e1` (the `doi: ''` fix) and
+   `a09468662` (rule 14 + log) are on the branch; the four-form test ran with `.husky/_` present and all
+   four forms rejected, with a valid single-quoted DOI passing as control. Nothing re-run.
+
+2. **F11 as specified is impossible, and this is worth stating so nobody re-attempts it.** The proposal
+   was "a repo-root `pre-commit` shim that exits non-zero when `.husky/_` is missing." But when `.husky/_`
+   is missing, **git runs no hook at all** — `core.hooksPath` points *at* `.husky/_`, so a guard placed
+   inside `.husky/` is never reached. And a fresh clone has `core.hooksPath` unset entirely, falling back
+   to `.git/hooks/` (samples only). **Git deliberately will not run repo-supplied hooks without local
+   config** — a security boundary, not an oversight. No committed file can force hooks on. The module's
+   header says all of this in place, so the next reader does not rediscover it.
+
+3. **What was built instead catches the state that actually caused the incident.**
+   `tools/check-hooks-installed.mjs` fails when `.husky/_` is absent or `core.hooksPath` is unset/wrong,
+   and calls out the specific trap: **node_modules present while `.husky/_` is absent**, which is what
+   happens when node_modules is symlinked or copied from another checkout instead of installed. That is
+   precisely what I did in `hmi-doi` — the tooling ran, the tree looked healthy, `npm`'s prepare step
+   never executed here, and every gate was silently off.
+
+4. **Wired two ways.** `npm run hooks:check` for rule-14 use at worktree setup, and prepended to
+   `prebuild` so a build in a hook-less tree fails loudly rather than quietly producing output nobody
+   gated. Not wired into CI: CI checks out fresh and never installs husky, so it would fail there
+   unconditionally and teach everyone to ignore it.
+
+5. **Verified in both directions.** Positive: exits 0 where hooks are installed. Negative: with `.husky/_`
+   moved aside it exits 1 with `hooks not installed — run npm ci`, and a commit attempted in that same
+   state produced **0 hook-output lines and landed anyway** — the incident reproduced on demand, then
+   rolled back via `update-ref` and `.husky/_` restored.
+
+6. **Rule 12 applied.** No probe artifacts remain: 0 `zzzprobe` references under `wiki/` or `data/`, the
+   scratch line removed from the log, `.husky/_` restored, tree clean at 0 dirty paths.
+
+### Open questions for Karen
+
+1. **The residual hole is unclosable from inside the repo, and should be documented rather than fixed.**
+   A fresh clone still has no hooks until `npm ci`. The honest mitigations are procedural — rule 14, and
+   `npm run hooks:check` as the first command in a new worktree. Worth adding to CLAUDE.md's setup notes
+   so it reaches sessions that never read RECONCILE.md.
+2. **The rice scorecard test still fails on `main`** (`expected 440 / actual 80`) — unchanged from the
+   step 1–3 report, still unresolved, still the open question of whether the constant is stale or the data
+   lost 82% of its `n_studies`.
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes
