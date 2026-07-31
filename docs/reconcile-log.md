@@ -806,3 +806,55 @@ Commits:
    tranche of the re-pooling.
 
 Main worktree verified: 11631713f / 946 dirty / 8 stashes
+
+## C0d — widen the scan? — 2026-07-31T13:10:00+03:00
+
+Result: DONE — widening is a no-op; shipped a scope guard instead. Signatures 1 and 2 untouched.
+
+Commits:
+- `c83e95122` fix(lint): C0d — scope guard instead of widening; the schema never left wiki/ingredients/
+
+### Findings
+
+1. **The premise was wrong, and it was my wording that introduced it.** C0d assumed the 2026-05-17 pass
+   left cells in `wiki/products/` (39) and `wiki/metals/` (8) that the lint cannot see. Those were **file**
+   counts from the commit's touch list, not **cell** counts. `contamination_profile` exists on **257 of 258**
+   `wiki/ingredients/` pages and on **zero** pages in `wiki/products/` (415) or `wiki/metals/` (37).
+
+2. **Read-only probe, run with the lint's exact logic** (the file copied, only the scan directory changed,
+   so no divergence between probe and production behaviour):
+
+   | directory | signature 1+2 failures | advisories |
+   |---|---|---|
+   | `wiki/products/` | **0** | 0 |
+   | `wiki/metals/` | **0** | 0 |
+
+   Zero failures *and* zero advisories is the tell — the parser found no cells at all, not clean cells.
+
+3. **All 79 pages in the inflation register are `wiki/ingredients/`.** Confirmed directly from the
+   register. So widening signature 3 is a no-op too, and **my C0c scope note was wrong** to say affected
+   pages outside the directory are "registered but not reported" — there are none. Corrected here.
+
+4. **The one `wiki/metals/` hit for `n_studies` is prose, not a cell.** `cadmium.md` line 199 contains the
+   sentence "…populated states with `confidence: high` and `n_studies: many` are appropriate once
+   ingredient pages are stood up" — narrative about the schema, not frontmatter using it.
+
+5. **So no signature needs widening, and the two blocking ones carry zero new risk** — the question C0d
+   was raised to settle. Answered without changing their behaviour.
+
+6. **Shipped what widening was reaching for: a scope guard.** The lint scans `wiki/ingredients/`, correct
+   today — but "the lint scans ingredients" is a claim about ingredients, not about where the schema
+   lives, and those drift apart the moment a generator emits profiles elsewhere. The guard reports any
+   `contamination_profile` found outside the scan directory so the divergence announces itself rather than
+   the lint silently ignoring cells it was never pointed at. Non-blocking; names the offending pages.
+   This is the eighth instance of the day's pattern caught before it happened rather than after.
+
+7. **Verified both directions.** Silent on the current tree (0 SCOPE lines, exit 0). Planting a
+   `contamination_profile` page in `wiki/products/` fires it with the page named; removing the page
+   silences it again. Probe removed, zero references anywhere under `wiki/` or `data/`, tree clean.
+
+### Open questions for Karen
+
+None. Queue proceeds to **C1** per the signed-off order.
+
+Main worktree verified: 11631713f / 946 dirty / 8 stashes
