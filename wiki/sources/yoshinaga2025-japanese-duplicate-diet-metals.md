@@ -6,7 +6,7 @@ title: "Duplicate diet study to assess dietary exposure to metals in a Japanese 
 authors: [Yoshinaga J, Ogawa M]
 year: 2025
 publication: "Environmental Monitoring and Contaminants Research"
-doi: "10.5985/emcrr.20250008"
+doi: "10.5985/emcr.20250008"
 no_doi_assigned: false
 access_url: "https://doi.org/10.5985/emcrr.20250008"
 source_type: peer-reviewed

@@ -6,7 +6,7 @@ title: "Analysis of heavy metal contents in some commercial turmeric samples ava
 authors: [Rahman MA, Akter T, Akter R, Sarkar BK, Rafiquzzaman M]
 year: 2021
 publication: "Jahangirnagar University Journal of Biological Sciences"
-doi: 10.3329/jujbs.v9i1.53703
+doi: "10.3329/jujbs.v9i1-2.53703"
 source_type: peer-reviewed
 evidence_tier: A
 license: "not stated"

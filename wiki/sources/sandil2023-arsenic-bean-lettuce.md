@@ -6,7 +6,7 @@ title: "Arsenic uptake and accumulation in bean and lettuce plants at different 
 authors: [Sandil S, Záray G, Endrédi A, Füzy A, Takács T, Óvári M, Dobosy P]
 year: 2023
 publication: "Environmental Science and Pollution Research"
-doi: 10.1007/s11356-023-30615-w
+doi: "10.1007/s11356-023-30593-7"
 access_url: "https://doi.org/10.1007/s11356-023-30615-w"
 no_doi_assigned: false
 source_type: peer-reviewed

@@ -6,7 +6,7 @@ title: "Dietary Exposure to Toxic Metals (Cd, Pb and Hg) from Cereals Marketed i
 authors: [Rubio C, Gutiérrez AJ, Hardisson A, Martín V, Revert C, Fernandes PJP, Lopes DJH, Paz-Montelongo S]
 year: 2023
 publication: "Biological Trace Element Research"
-doi: 10.1007/s12011-023-03644-4
+doi: "10.1007/s12011-023-03643-x"
 access_url: "https://doi.org/10.1007/s12011-023-03644-4"
 source_type: peer-reviewed
 evidence_tier: A

@@ -5,7 +5,7 @@ cite_key: adhikari2024-leafy-vegetables-johannesburg
 title: "Concentrations and health risks of selected elements in leafy vegetables: a comparison between roadside open-air markets and large stores in Johannesburg, South Africa"
 authors: [Adhikari S, Struwig M]
 year: 2024
-doi: 10.1007/s10661-023-12343-4
+doi: "10.1007/s10661-023-12283-6"
 access_url: "https://doi.org/10.1007/s10661-023-12343-4"
 no_doi_assigned: false
 source_type: peer-reviewed

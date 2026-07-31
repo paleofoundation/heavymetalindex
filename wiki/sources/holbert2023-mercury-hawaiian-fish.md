@@ -6,7 +6,7 @@ title: "Mercury accumulation and biomarkers of exposure in two popular recreatio
 authors: [Holbert SS, Bryan CE, Korsmeyer KE, Jensen BA]
 year: 2023
 publication: "Environmental Science and Pollution Research"
-doi: 10.1007/s11356-023-28723-4
+doi: "10.1007/s10646-023-02684-1"
 access_url: "https://doi.org/10.1007/s11356-023-28723-4"
 source_type: peer-reviewed
 evidence_tier: A

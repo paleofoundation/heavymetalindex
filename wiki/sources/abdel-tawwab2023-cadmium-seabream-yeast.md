@@ -5,7 +5,7 @@ cite_key: abdel-tawwab2023-cadmium-seabream-yeast
 title: "Saccharomyces cerevisiae supplemented diets mitigate the effects of waterborne cadmium toxicity on gilthead seabream (Sparus aurata L.): growth performance, haemato-biochemical, stress biomarkers, and histopathological investigations"
 authors: [Abdel-Tawwab M, Khalil RH, Younis NA, Abo Selema TAM, Saad AH, El-Werwary SOM, Gouda AH, Soliman AM, Shady SHH, Monier MN]
 year: 2023
-doi: 10.1007/s10646-023-02690-z
+doi: "10.1007/s11259-023-10176-0"
 access_url: "https://doi.org/10.1007/s10646-023-02690-z"
 no_doi_assigned: false
 source_type: peer-reviewed

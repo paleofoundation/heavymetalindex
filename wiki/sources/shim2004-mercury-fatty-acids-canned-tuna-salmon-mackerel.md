@@ -6,7 +6,7 @@ title: "Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel"
 authors: [Shim SM, Dorworth LE, Lasrado JA, Santerre CR]
 year: 2004
 publication: "Journal of Food Science"
-doi: 10.1111/j.1365-2621.2004.tb15529.x
+doi: "10.1111/j.1365-2621.2004.tb09915.x"
 access_url: "https://doi.org/10.1111/j.1365-2621.2004.tb15529.x"
 no_doi_assigned: false
 source_type: peer-reviewed

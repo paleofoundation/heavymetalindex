@@ -6,7 +6,7 @@ title: "Health risk assessment of methyl mercury from fish consumption in a samp
 authors: [Al-Sulaiti MM, Al-Ghouti MA, Ramadan GA, Soubra L]
 year: 2023
 publication: "Environmental Science and Pollution Research"
-doi: 10.1007/s11356-023-27083-x
+doi: "10.1007/s10661-023-11194-w"
 access_url: https://doi.org/10.1007/s11356-023-27083-x
 source_type: peer-reviewed
 evidence_tier: A

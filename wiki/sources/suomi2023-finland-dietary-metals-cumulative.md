@@ -6,7 +6,7 @@ title: "Cumulative risk assessment of the dietary heavy metal and aluminum expos
 authors: [Suomi J, Tuominen P]
 year: 2023
 publication: "Environmental Science and Pollution Research"
-doi: 10.1007/s11356-023-27879-x
+doi: "10.1007/s10661-023-11427-y"
 access_url: https://doi.org/10.1007/s11356-023-27879-x
 source_type: peer-reviewed
 evidence_tier: A

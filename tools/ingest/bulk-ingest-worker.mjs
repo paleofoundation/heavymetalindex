@@ -29,7 +29,16 @@ import path from "node:path";
 import { metalEvidenceGate } from "./metal-evidence.mjs";
 import { resolveWork, mintCiteKey, normalizeDoi } from "./crossref-mint.mjs";
 
-const repo = process.env.HMI_REPO || "/Users/karenpendergrass/Desktop/heavy-metal-index";
+// Fail loudly rather than guessing. This used to default to a hardcoded
+// /Users/<name>/Desktop/heavy-metal-index, which made the worker silently
+// machine-specific: on any other checkout it would resolve to a path that does
+// not exist, or — worse — to a DIFFERENT clone that happens to sit there, and
+// write ingest output into the wrong tree without saying so.
+const repo = process.env.HMI_REPO
+if (!repo) {
+  console.error("HMI_REPO is not set. Point it at the repo root, e.g.\n  HMI_REPO=\"$(git rev-parse --show-toplevel)\" node tools/ingest/bulk-ingest-worker.mjs")
+  process.exit(1)
+}
 const argv = process.argv.slice(2);
 const flags = new Set(argv.filter(a => a.startsWith("--")));
 const positional = argv.filter(a => !a.startsWith("--"));
