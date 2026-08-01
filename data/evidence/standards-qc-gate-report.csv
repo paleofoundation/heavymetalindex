@@ -1,14 +1,14 @@
 product_slug,metal_species,candidate_value_ppb,cap,rationale,verdict_level,reasons
 baby-cereals-dry-non-rice,iAs,29.5438,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=30 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-baby-cereals-dry-non-rice,Cd,40,40,regulatory-alignment,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=19 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-baby-cereals-dry-non-rice,Pb,20,20,regulatory-alignment,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=38 (<99) — no 95% bound exists at this n; must be provisional
+baby-cereals-dry-non-rice,Cd,40,40,regulatory-alignment,PASS,
+baby-cereals-dry-non-rice,Pb,20,20,regulatory-alignment,PASS,
 baby-cereals-dry-non-rice,tAs,81.0307,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=19 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 baby-cereals-dry-non-rice,tHg,0,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=9 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 baby-cereals-dry-non-rice,Ni,2746.5075,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=11 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 baby-cereals-dry-non-rice,Al,22756.2643,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=4 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 baby-cereals-dry-rice-based,iAs,100,100,regulatory-alignment,PASS,
-baby-cereals-dry-rice-based,Cd,40,40,regulatory-alignment,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=60 (<99) — no 95% bound exists at this n; must be provisional
-baby-cereals-dry-rice-based,Pb,20,20,regulatory-alignment,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=91 (<99) — no 95% bound exists at this n; must be provisional
+baby-cereals-dry-rice-based,Cd,40,40,regulatory-alignment,PASS,
+baby-cereals-dry-rice-based,Pb,20,20,regulatory-alignment,PASS,
 baby-cereals-dry-rice-based,tAs,987.1145,,literature-baseline,DEMOTE,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11b-minimum-n-floor: firm at P97 with pooled_n=60 (<99) — no 95% bound exists at this n; must be provisional"
 baby-cereals-dry-rice-based,tHg,2.9982,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 baby-cereals-dry-rice-based,Ni,3039.8549,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=23 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
@@ -106,9 +106,9 @@ fish-freshwater,tAs,2024.8922,,literature-baseline,HOLD,"C1b-cap-completeness: b
 fish-freshwater,iAs,359.1282,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=32 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 fish-marine-non-predatory,tHg,500,500,regulatory-alignment,PASS,
 fish-marine-non-predatory,MeHg,174.69,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=10 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-fish-marine-non-predatory,Cd,50,50,regulatory-alignment,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=15 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
+fish-marine-non-predatory,Cd,50,50,regulatory-alignment,PASS,
 fish-marine-non-predatory,iAs,122.0992,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=8 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-fish-marine-non-predatory,Pb,300,300,regulatory-alignment,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=56 (<99) — no 95% bound exists at this n; must be provisional
+fish-marine-non-predatory,Pb,300,300,regulatory-alignment,PASS,
 fish-marine-non-predatory,tAs,82627.2356,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending"
 fish-marine-non-predatory,Ni,640.5136,,literature-baseline,PASS,
 fish-marine-predatory,MeHg,829.0015,1000,literature-baseline,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=84 (<99) — no 95% bound exists at this n; must be provisional
@@ -137,7 +137,7 @@ fresh-fruit,tHg,12.28,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 tox
 fruit-juice-not-canned,iAs,10,10,regulatory-alignment,PASS,
 fruit-juice-not-canned,Ni,71.2488,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=27 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 fruit-juice-not-canned,Cd,82.3655,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=18 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-fruit-juice-not-canned,Pb,10,10,regulatory-alignment,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=11 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
+fruit-juice-not-canned,Pb,10,10,regulatory-alignment,PASS,
 fruit-juice-not-canned,Al,229.5908,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=4 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 fruit-juice-not-canned,tAs,3.1004,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=8 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 fruit-juice-not-canned,Sn,68.0199,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=4 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
@@ -177,11 +177,11 @@ infant-food-general,Pb,18.7771,,literature-baseline,HOLD,"C1b-cap-completeness: 
 infant-food-puree,Pb,10,10,regulatory-alignment,PASS,
 infant-food-puree,Cd,40,40,regulatory-alignment,PASS,
 infant-food-puree,iAs,20,20,regulatory-alignment,PASS,
-infant-formula,Pb,10,10,regulatory-alignment,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=10 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-infant-formula,Cd,5,5,regulatory-alignment,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=10 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
+infant-formula,Pb,10,10,regulatory-alignment,PASS,
+infant-formula,Cd,5,5,regulatory-alignment,PASS,
 infant-formula,iAs,10,10,regulatory-alignment,PASS,
 infant-formula,Ni,7.3591,100,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=16 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-infant-formula,Al,500,500,regulatory-alignment,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=2 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
+infant-formula,Al,500,500,regulatory-alignment,PASS,
 infant-formula-concentrated-liquid-non-soy,tAs,0.3966,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=8 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 infant-formula-concentrated-liquid-non-soy,Pb,0.6295,,literature-baseline,DEMOTE,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11b-minimum-n-floor: firm at P97 with pooled_n=96 (<99) — no 95% bound exists at this n; must be provisional"
 infant-formula-concentrated-liquid-non-soy,Cd,0.5624,,literature-baseline,DEMOTE,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11b-minimum-n-floor: firm at P97 with pooled_n=96 (<99) — no 95% bound exists at this n; must be provisional"
@@ -227,10 +227,10 @@ infant-formula-powder-soy,Cd,20,20,regulatory-alignment,PASS,
 infant-formula-powder-soy,iAs,20,20,regulatory-alignment,PASS,
 infant-formula-powder-soy,Ni,400,400,regulatory-alignment,PASS,
 infant-formula-powder-soy,Al,7000,7000,regulatory-alignment,PASS,
-infant-formula-powder-soy-based,Al,7000,7000,regulatory-alignment,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=72 (<99) — no 95% bound exists at this n; must be provisional
-infant-formula-powder-soy-based,Ni,400,400,regulatory-alignment,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=2 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
+infant-formula-powder-soy-based,Al,7000,7000,regulatory-alignment,PASS,
+infant-formula-powder-soy-based,Ni,400,400,regulatory-alignment,PASS,
 infant-formula-powder-soy-based,Cd,20,20,regulatory-alignment,PASS,
-infant-formula-powder-soy-based,Pb,20,20,regulatory-alignment,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=79 (<99) — no 95% bound exists at this n; must be provisional
+infant-formula-powder-soy-based,Pb,20,20,regulatory-alignment,PASS,
 infant-formula-powder-soy-based,tAs,11.94,500,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=24 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 infant-formula-powder-soy-based,tHg,0.7927,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=32 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 infant-formula-powder-soy-based,iAs,10.4555,20,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=3 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
@@ -306,7 +306,7 @@ mixed-meals-non-rice,tHg,2.6666,,literature-baseline,WARN,"C1b-cap-completeness:
 mixed-meals-non-rice,Ni,179.6071,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=10 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 mixed-meals-rice-containing,iAs,19.5706,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=10 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 mixed-meals-rice-containing,Cd,9.695,40,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=7 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-mixed-meals-rice-containing,Pb,10,10,regulatory-alignment,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=20 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
+mixed-meals-rice-containing,Pb,10,10,regulatory-alignment,PASS,
 mixed-meals-rice-containing,tAs,44.645,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=7 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 mixed-meals-rice-containing,tHg,0.0304,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=3 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 mixed-meals-rice-containing,Ni,272.4112,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=10 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
@@ -369,7 +369,7 @@ root-vegetable-purees,Cd,5.0438,40,literature-baseline,HOLD,"C11a-percentile-bey
 root-vegetable-purees,Pb,17.0124,20,literature-baseline,PASS,
 root-vegetable-purees,tAs,12.0093,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=31 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 root-vegetable-purees,tHg,1.5,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=26 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-salt,Pb,1000,1000,regulatory-alignment,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=20 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
+salt,Pb,1000,1000,regulatory-alignment,PASS,
 salt,Cd,16.367,500,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=3 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 salt,Al,164000,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 salt,tAs,9.0081,500,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=4 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"

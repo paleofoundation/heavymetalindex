@@ -87,7 +87,12 @@ for (const r of dist) {
   const rat = (r.rationale_tag_auto || "").trim()
   const verdict = (r.verdict || "").trim()
   const sens = (r.sens_band || "").toLowerCase()
-  const n = num(r.pooled_n) ?? 0
+  // Effective (Kish) n where the pooling engine reports it, raw n otherwise.
+  // Unequal source weighting buys less precision than the raw count suggests,
+  // and the minimum-n gate must be judged against what the pool actually
+  // delivers, not against how many rows went into it.
+  const n = num(r.pooled_n_effective) ?? num(r.pooled_n) ?? 0
+  const targetP = num(r.target_p)
   const firm = isFirmVerdict(verdict)
   const held = heldSet.has(`${slug}|${metal}`)
   const noMl = noMlSet.has(`${slug}|${metal}`)
@@ -118,6 +123,42 @@ for (const r of dist) {
   // C7 — WARN: reconstruction sanity. needs_review sensitivity or a single-point pool can't be firm.
   if (firm && (sens === "needs_review" || n <= 1) && !held)
     checks.push({ level: "WARN", check: "C7-reconstruction-sanity", detail: `firm but sens='${sens}' n=${n} — single-point/unstable, not firm` })
+  // C11 — the minimum-n gate. A percentile is only as real as the sample it is read from.
+  //
+  // For an upper-tail target, the smallest n at which a one-sided 95% nonparametric bound on
+  // the P-th percentile exists at all is ceil(ln(0.05)/ln(P)): 29 for P90, 59 for P95, 99 for
+  // P97. Below that there is no bound — the "percentile" is the sample maximum wearing a
+  // percentile's name, and it moves with the dirtiest lot in the pool rather than with the
+  // distribution. The 59 figure is the same minimum Codex states for a 95th-percentile estimate
+  // at 95% confidence (CCCF guidance on data analysis for ML development); it is not a
+  // convention borrowed from there but the value that formula returns.
+  //
+  // Two tiers, because two different things go wrong:
+  //   (a) HOLD — target_p sits beyond 1 - 1/n, so fewer than one observation is expected above
+  //       it. The value is extrapolated past the resolution of the pool. Nothing measured
+  //       supports it and no confidence statement can be made about it.
+  //   (b) DEMOTE — a bound exists in principle but n is under the minimum, so the value is set
+  //       by the top one or two order statistics. Publishable as provisional (the ratchet
+  //       tightens it as data accumulates), never as firm.
+  //
+  // This is deliberately independent of C4: distinct_sources counts SOURCES, pooled_n counts
+  // SAMPLES, and a three-source pool of twenty samples clears C4 while failing this.
+  // Applies ONLY where the pooled percentile is the published value, i.e.
+  // rationale literature-baseline. When the rationale is regulatory-alignment the
+  // published number is the legal ceiling; when it is precautionary or
+  // feasibility-driven it is a staff selection. In none of those cases is the
+  // value an estimate of a percentile, so the pool's resolution and the n-floor
+  // for a 95% bound say nothing about it. Firing here previously demoted
+  // cap-bound cells to provisional on the depth of a pool the value never used.
+  if (targetP !== null && targetP >= 0.5 && cand !== null && !held && rat === "literature-baseline") {
+    const nMin = Math.ceil(Math.log(0.05) / Math.log(targetP))
+    if (n > 0 && targetP > 1 - 1 / n)
+      checks.push({ level: "HOLD", check: "C11a-percentile-beyond-sample",
+        detail: `target P${(targetP * 100).toFixed(0)} with pooled_n=${n} — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile` })
+    else if (firm && n < nMin)
+      checks.push({ level: "DEMOTE", check: "C11b-minimum-n-floor",
+        detail: `firm at P${(targetP * 100).toFixed(0)} with pooled_n=${n} (<${nMin}) — no 95% bound exists at this n; must be provisional` })
+  }
   // C6 — HOLD: a cell in the adjudication register must not render firm.
   if (held && firm)
     checks.push({ level: "HOLD", check: "C6-adjudication-register", detail: `in outlier/suspect register but verdict is firm — must render pending` })
