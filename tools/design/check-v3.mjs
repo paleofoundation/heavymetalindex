@@ -211,15 +211,27 @@ for (const p of PAGES) {
           if (m[4] !== undefined && Number(m[4]) === 0) return null
           return "#" + [m[1], m[2], m[3]].map((n) => Number(n).toString(16).padStart(2, "0")).join("")
         }
+        // A colour is "burgundy-family" if it is genuinely RED-DOMINANT, not
+        // merely dark. The first version used Euclidean RGB distance < 55 from
+        // the approved hexes, which caught the approved INK colours — #3f3a3f
+        // (body) sits 46 away from #4a1526 — and reported 76-88 false hits per
+        // surface. A gate that manufactures failures stops being read.
+        //
+        // The target is #9a2852, which shipped in middleware.ts for months:
+        // R 154 vs G 40 / B 82 — red clearly dominant and saturated. #3f3a3f is
+        // R 63 / G 58 / B 63, effectively neutral. So: red must lead green by a
+        // real margin AND lead blue, which is what separates a burgundy from a
+        // warm grey.
         const nearBurgundy = (h) => {
           const r = parseInt(h.slice(1, 3), 16),
             g = parseInt(h.slice(3, 5), 16),
             b = parseInt(h.slice(5, 7), 16)
+          if (r - g < 30 || r <= b) return false
           return burgundy.some((k) => {
             const kr = parseInt(k.slice(1, 3), 16),
               kg = parseInt(k.slice(3, 5), 16),
               kb = parseInt(k.slice(5, 7), 16)
-            return Math.hypot(r - kr, g - kg, b - kb) < 55
+            return Math.hypot(r - kr, g - kg, b - kb) < 70
           })
         }
         const label = (e) =>
