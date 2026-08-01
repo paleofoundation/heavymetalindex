@@ -142,8 +142,239 @@ footer.site-footer {
   letter-spacing: -0.015em;
 }
 
+/* Header geometry (artifact 37-38). Same 1480px cap as `.proof-container`,
+   with the same consequence above that width — and `margin: 0` meant the bar
+   never centred there either, it just sat against the left edge. v3's header
+   carries no ternary, so these hold at every width. */
+.hmi-topnav-shell {
+  background: #fffdfb;
+  border-bottom: 1px solid #e8e1db;
+}
+
+.hmi-topnav-inner {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 0 48px;
+  height: 68px;
+  gap: 22px;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+
 /* The hidden Ask button still reports 600; state it so a future unhide does not
    reintroduce the leak. */
 .site-footer-ask {
   font-weight: 400;
+}
+
+/* ══ detail-page shell (artifact 405-436, constants 2007-2011) ══════════════
+   This is the highest-leverage block in the file: renderPage.tsx:310 renders
+   this shell for every page that is not home, auth or 404, which is ~3,086 of
+   them. It was measurably off v3 on every one — 232/752/288 with a 44px gap
+   and no max-width, against v3's 236 / 1fr / 312 with a 56px gap inside 1760px.
+
+   The breakpoint is the more consequential half. proof-design.scss collapsed
+   the shell at 1080px; v3's breakpoint is `vw >= 1150` (artifact 1976), so in
+   the 70px band between them the site showed three columns where v3 shows one.
+   Stated here at 1149 so the two agree. */
+/* v3 has no wrapper between the page and the shell. proof-design.scss:108 puts
+   one there — `.proof-container { max-width: var(--maxw); padding: 0 40px }`,
+   which resolves to 1480px — so the shell's 1760px could never take effect and
+   every detail page lost 280px of content width above 1480. Invisible at 1440,
+   which is exactly why it survived a gate that only tested 1440 and 1100. */
+.proof-container {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.proof-layout {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: grid;
+  grid-template-columns: 236px minmax(0, 1fr) 312px;
+  gap: 56px;
+  align-items: start;
+}
+
+/* The homepage is full-bleed and owns its own section wrappers. Restated
+   unlayered because the rule it relies on (proof-design.scss:48 and
+   _legacy-all.scss:2127) is layered, and the grid above would otherwise
+   out-rank it and put 48px of gutter down both sides of HOME A. */
+.proof-home .proof-layout {
+  display: block;
+  padding: 0;
+  max-width: none;
+}
+
+/* navAsideSt / railAsideSt (2010-2011). Both were sticky at top 88px with no
+   padding; v3 clears the 92px top bar and pads each aside differently. */
+.snav {
+  position: sticky;
+  top: 92px;
+  padding: 34px 0 48px;
+}
+
+.rail {
+  position: sticky;
+  top: 92px;
+  padding: 38px 0 48px;
+}
+
+/* ══ right-rail blocks (artifact 1453-1477) ════════════════════════════════
+   Connections, Reuse this page and Found an error?, emitted by Rail.tsx.
+   Values are the artifact's inline styles verbatim. Stated here rather than in
+   a component stylesheet because component CSS is emitted inside
+   `@layer legacy`, where these would lose to any unlayered rule on equal
+   specificity — the precedence hole that kept the footer bold. */
+.rail-connections-title {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a9a1a2;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #e8e1db;
+  margin-bottom: 12px;
+}
+
+.rail-connections-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-bottom: 30px;
+
+  a {
+    font-size: 13.5px;
+    color: #1c43ad;
+    line-height: 1.45;
+    font-weight: 400;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      background: none;
+    }
+  }
+}
+
+.rail-reuse {
+  border: 1px solid #e8e1db;
+  background: #fffdfb;
+  margin-bottom: 24px;
+}
+
+.rail-reuse-title {
+  padding: 11px 15px;
+  border-bottom: 1px solid #e8e1db;
+  background: #fbf5f7;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8b2a4a;
+}
+
+.rail-reuse-body {
+  padding: 14px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+
+  a {
+    font-size: 12.5px;
+    color: #1c43ad;
+    font-weight: 400;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      background: none;
+    }
+  }
+}
+
+.rail-correction {
+  border: 1px solid #eddfe4;
+  background: #f6ecf0;
+  padding: 16px;
+
+  p {
+    margin: 0 0 13px;
+    font-size: 12.5px;
+    line-height: 1.65;
+    color: #5a4148;
+  }
+}
+
+.rail-correction-title {
+  font-family: Lora, serif;
+  font-size: 17px;
+  color: #8b2a4a;
+  margin-bottom: 8px;
+}
+
+.rail-correction-cta {
+  display: inline-block;
+  background: #8b2a4a;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 8px 13px;
+  border-radius: 3px;
+  text-decoration: none;
+
+  &:hover {
+    background: #6f2139;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/* The rail note under "On this page" (artifact 431). */
+.snav-note {
+  margin: 22px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid #e8e1db;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: #a9a1a2;
+}
+
+@media (max-width: 1149px) {
+  .proof-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+    padding: 0 24px;
+  }
+
+  /* v3 stacks the asides rather than hiding them, and keeps the section nav a
+     column — it does not become a chip row. Both are read off navAsideSt's
+     narrow branch, not inferred from how the old layout behaved. */
+  .snav {
+    position: static;
+    padding: 26px 0 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rail {
+    position: static;
+    padding: 8px 0 48px;
+  }
+
+  /* heroDetailSt narrow branch (2013). */
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 30px;
+    padding: 28px 24px 34px;
+  }
 }

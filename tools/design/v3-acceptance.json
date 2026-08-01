@@ -1,0 +1,80 @@
+{
+  "_generated_by": "tools/design/extract-v3-acceptance.mjs",
+  "_source": "Heavy Metal Index v3.dc.html",
+  "_note": "Presence assertions are extracted from the artifact, not authored. A missing block must fail the gate by name.",
+  "screens": {
+    "isHomeA": [
+      "What this reference is",
+      "Metal registry",
+      "How the Index is kept honest",
+      "Common questions",
+      "Recently revised"
+    ],
+    "isMetal": [
+      "Overview",
+      "How it enters food",
+      "Where it is found",
+      "Regulatory limits",
+      "Regulatory tightening over time",
+      "What the reference values mean in practice",
+      "Open questions and limits of this page",
+      "Questions this page answers"
+    ],
+    "isSynthesis": [
+      "How findings are graded",
+      "All findings"
+    ],
+    "isFinding": [
+      "Overview",
+      "Evidence base",
+      "Regulatory limits and instruments",
+      "Interpretation",
+      "Uncertainty"
+    ],
+    "isPortal": [
+      "Categories",
+      "How categories are built"
+    ],
+    "isCategory": [
+      "Metals that govern this category",
+      "Subcategories"
+    ],
+    "isIngredient": [
+      "Why this ingredient accumulates",
+      "Metals profiled in rice",
+      "Product categories that inherit this ingredient",
+      "Where this page is thin"
+    ],
+    "isProduct": [
+      "Ingredient drivers",
+      "Limits applicable to this category",
+      "Testing and verification posture"
+    ],
+    "isRegulation": [
+      "What the instrument does",
+      "The values, exactly as set",
+      "How to read it against other instruments"
+    ],
+    "isSource": [
+      "Extracted values",
+      "Methods, as reported",
+      "Cited by"
+    ],
+    "isBrowse": [
+      "41 records",
+      "References",
+      "Sources",
+      "Update history"
+    ]
+  },
+  "sharedTail": [
+    "References",
+    "Sources",
+    "Update history"
+  ],
+  "railBlocks": [
+    "Connections",
+    "Reuse this page",
+    "Found an error?"
+  ]
+}

@@ -1,0 +1,192 @@
+#!/usr/bin/env node
+// npm run check:v3 — fidelity as a failing test, not an opinion.
+//
+// THE DEFECT THIS REPLACES. The previous gate asserted computed styles on
+// elements that already existed, so it could not fail for something absent. It
+// reported "detail 25/25 passed" while the page was missing `Connections`,
+// `Reuse this page`, `Found an error?`, seven body sections and five of nine
+// rails. Same shape as the DOI gate's `--diff-filter=AM` predicate: the check
+// described something narrower than the invariant it claimed to enforce.
+//
+// THREE ASSERTION KINDS, and the last two are the ones that bite:
+//
+//   present  a section v3 renders must exist, matched by heading text.
+//            Fails BY NAME. This is what makes an absence loud.
+//   absent   old-build markup must not exist in the DOM AT ALL. Adding v3's
+//            markup while leaving the old markup live produces a diff that
+//            looks complete and a page that renders as the old build. These
+//            selectors are not in the artifact by definition — they are what
+//            the artifact replaced.
+//   style    computed value on the RENDERED page, never read from source.
+//            Verification by source-reading cannot catch a losing rule: the
+//            source is correct, the render is wrong.
+//
+// RULE FOR FIXING FAILURES: do not raise specificity to make an assertion
+// pass. Out-specifying leaves both rules alive and the next component
+// stylesheet Quartz emits wins again. Find the losing rule and DELETE it.
+//
+//   npm run check:v3                     # against http://localhost:8099
+//   npm run check:v3 -- http://host:port
+//
+// THIS IS THE ONLY GATE. `v3-conformance.mjs` still holds ~75 homepage geometry
+// assertions worth folding into STYLES below, but its `v3:gate` npm script was
+// REMOVED rather than left alongside this one: it is the check that reported
+// "detail 25/25 passed" on a page missing three rail blocks, and a second entry
+// point is a second chance to cite a false green. Fold, then delete it.
+
+import { readFileSync } from "node:fs"
+import { fileURLToPath } from "node:url"
+import { dirname, join } from "node:path"
+
+const HERE = dirname(fileURLToPath(import.meta.url))
+const SPEC = JSON.parse(readFileSync(join(HERE, "v3-acceptance.json"), "utf8"))
+
+// One representative page per v3 screen. `screen` keys into SPEC.screens.
+const PAGES = [
+  { screen: "isHomeA", url: "/index.html", rail: false },
+  { screen: "isMetal", url: "/metals/lead.html", rail: true },
+  { screen: "isIngredient", url: "/ingredients/almond.html", rail: true },
+  { screen: "isProduct", url: "/products/aas-injectable.html", rail: true },
+  { screen: "isRegulation", url: "/regulations/atsdr-aluminum-mrls.html", rail: true },
+  { screen: "isSource", url: "/sources/ab-manan2018-oil-palm-soil-metals.html", rail: true },
+]
+
+// Old-build markup. Cited in FIDELITY.md as the assertions that reveal whether
+// a redesign landed or merely accumulated. NOT artifact-derived — these are
+// precisely the selectors the artifact has no equivalent for.
+const ABSENT = [".hero-glyph", ".hero-pill", ".hero-right"]
+
+// Computed-style assertions, each with the artifact line it was read from.
+//
+// `on` scopes an assertion to the screens that actually render the element.
+// Without it the homepage reports NO SUCH ELEMENT for `.hero-grid` and
+// `.proof-layout`'s max-width — HOME A is full-bleed and has no detail shell by
+// design (artifact 100-262), so those would be false failures. A gate that
+// cries wolf gets ignored, which is how the last one stopped being read.
+const CHROME = "*" // every screen
+const DETAIL = "detail" // every screen except HOME A
+
+const STYLES = [
+  // FIDELITY.md tells — these read the OLD values if the old pill and card
+  // rules are still winning in the cascade.
+  { on: DETAIL, sel: ".hero-act", prop: "borderRadius", want: "2px", why: "FIDELITY.md: 7px/999px means old pills live" },
+  { on: DETAIL, sel: ".hero-snapshot", prop: "borderRadius", want: "0px", why: "FIDELITY.md: old card was 12px" },
+
+  // site chrome — present on every screen (artifact 37-38, 1482-1483)
+  { on: CHROME, sel: ".hmi-topnav-inner", prop: "maxWidth", want: "1760px", why: "artifact 38 header" },
+  { on: CHROME, sel: ".hmi-topnav-inner", prop: "height", want: "68px", why: "artifact 38 header" },
+  { on: CHROME, sel: "footer.site-footer", prop: "backgroundColor", want: "#4a1526", why: "artifact 1482" },
+  { on: CHROME, sel: ".site-footer-inner", prop: "padding", want: "76px 56px 40px", why: "artifact 1483" },
+
+  // detail shell (artifact 2007) and detail hero (2012)
+  { on: DETAIL, sel: ".proof-layout", prop: "gap", want: "56px", why: "artifact 2007 shellSt" },
+  { on: DETAIL, sel: ".proof-layout", prop: "maxWidth", want: "1760px", why: "artifact 2007 shellSt" },
+  { on: DETAIL, sel: ".hero-grid", prop: "gap", want: "72px", why: "artifact 2012 heroDetailSt" },
+  { on: DETAIL, sel: ".hero-grid", prop: "padding", want: "34px 48px 40px", why: "artifact 2012 heroDetailSt" },
+  { on: DETAIL, sel: ".hero-band", prop: "backgroundColor", want: "#8b2a4a", why: "artifact 364" },
+
+  // rail items, artifact 413-417 — text on a hairline, never a filled pill
+  { on: DETAIL, sel: ".snav .grp > a.sec", prop: "fontSize", want: "13px", why: "artifact 414" },
+  { on: DETAIL, sel: ".snav .grp > a.sec", prop: "fontWeight", want: "400", why: "artifact 414" },
+]
+
+const NORM = (v) => {
+  const m = String(v).match(/^rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)/)
+  if (!m) return String(v)
+  return "#" + [m[1], m[2], m[3]].map((n) => Number(n).toString(16).padStart(2, "0")).join("")
+}
+
+const base = (process.argv[2] ?? "http://localhost:8099").replace(/\/+$/, "")
+
+let puppeteer
+try {
+  puppeteer = (await import("puppeteer")).default
+} catch {
+  console.error("check:v3 needs a headless browser: npm i -D puppeteer")
+  process.exit(2)
+}
+
+const browser = await puppeteer.launch({ headless: "new" })
+const page = await browser.newPage()
+await page.setViewport({ width: 1440, height: 1200 })
+
+const failures = []
+
+for (const p of PAGES) {
+  const blocks = SPEC.screens[p.screen] ?? []
+  const want = [...blocks, ...(p.rail ? SPEC.railBlocks : [])]
+
+  let res
+  try {
+    await page.goto(base + p.url, { waitUntil: "networkidle0", timeout: 30000 })
+    res = await page.evaluate(
+      (want, absent, styles) => {
+        // Presence is matched on VISIBLE TEXT, not on a class, because the
+        // point is whether the reader can see the block — not whether some
+        // element with the right name exists somewhere.
+        const text = (document.body.innerText || "").toLowerCase()
+        const missing = want.filter((b) => !text.includes(b.toLowerCase()))
+
+        const present = absent.filter((s) => document.querySelector(s) !== null)
+
+        const styleFails = []
+        for (const a of styles) {
+          const el = document.querySelector(a.sel)
+          if (!el) {
+            styleFails.push({ ...a, got: "NO SUCH ELEMENT" })
+            continue
+          }
+          styleFails.push({ ...a, got: getComputedStyle(el)[a.prop] })
+        }
+        return { missing, present, styleFails }
+      },
+      want,
+      ABSENT,
+      STYLES.filter((s) => s.on === "*" || p.rail),
+    )
+  } catch (e) {
+    failures.push({ page: p.url, kind: "load", sel: p.url, prop: "-", want: "200", got: String(e.message).slice(0, 60) })
+    continue
+  }
+
+  for (const b of res.missing) {
+    failures.push({ page: p.url, kind: "present", sel: `block "${b}"`, prop: "exists", want: "yes", got: "MISSING" })
+  }
+  for (const s of res.present) {
+    failures.push({ page: p.url, kind: "absent", sel: s, prop: "exists", want: "no", got: "PRESENT (old markup)" })
+  }
+  for (const f of res.styleFails) {
+    const got = NORM(f.got)
+    if (got !== f.want) {
+      failures.push({ page: p.url, kind: "style", sel: f.sel, prop: f.prop, want: f.want, got, why: f.why })
+    }
+  }
+}
+
+await browser.close()
+
+if (!failures.length) {
+  console.log("check:v3 — all assertions pass")
+  process.exit(0)
+}
+
+let lastPage = null
+let lastKind = null
+for (const f of failures) {
+  if (f.page !== lastPage) {
+    console.log(`\n${f.page}`)
+    lastPage = f.page
+    lastKind = null
+  }
+  if (f.kind !== lastKind) {
+    console.log(`  [${f.kind}]`)
+    lastKind = f.kind
+  }
+  console.log(`    ${f.sel} · ${f.prop} · want ${f.want} · got ${f.got}`)
+}
+
+const by = (k) => failures.filter((f) => f.kind === k).length
+console.log(
+  `\ncheck:v3 FAILED — ${failures.length} (present ${by("present")}, absent ${by("absent")}, style ${by("style")}, load ${by("load")})`,
+)
+process.exit(1)

@@ -39,6 +39,15 @@ const UTIL: { to?: string; anchor?: string; label: string; d: string; need?: Reg
   { anchor: "references", label: "References", need: /^references$/i, d: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" },
 ]
 
+// The rail note under "On this page" (artifact 431). v3's full sentence opens
+// "Every <kind> page carries these rails, in this order" — true of v3, where
+// the rails are a fixed 01-09 taxonomy authored per screen. These rails are the
+// page's own headings, so that clause would be a false statement on a public
+// page. Only the half that is true here is shipped.
+function RailNote() {
+  return <p class="snav-note">Page-specific detail nests under a rail; it never becomes one.</p>
+}
+
 type Sec = { slug?: string; text?: string; subs: any[]; fold: boolean }
 
 function Icons({ slug, toc }: { slug: FullSlug; toc: { text?: string }[] }) {
@@ -158,6 +167,7 @@ export default (() => {
             </details>
           )}
           <Icons slug={slug} toc={toc} />
+          <RailNote />
         </>
       )
     }
@@ -191,6 +201,7 @@ export default (() => {
           </details>
         )}
         <Icons slug={slug} toc={toc} />
+        <RailNote />
       </>
     )
   }

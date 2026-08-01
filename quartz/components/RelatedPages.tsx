@@ -1,6 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/relatedPages.scss"
-import { resolveRelative, simplifySlug } from "../util/path"
+import { resolveRelative } from "../util/path"
+import { GROUPS, relatedByCategory } from "./relatedGraph"
 
 // "See also" — the bidirectional concept graph for a page.
 //
@@ -18,93 +19,18 @@ import { resolveRelative, simplifySlug } from "../util/path"
 // CLAUDE.md Part 5b). Sources are excluded: they are the evidence (surfaced
 // via inline citations + the citation card), not lateral navigation.
 
-// Concept categories that belong in lateral navigation, in display order.
-const GROUPS: { key: string; label: string }[] = [
-  { key: "metals", label: "Metals" },
-  { key: "ingredients", label: "Ingredients" },
-  { key: "products", label: "Products" },
-  { key: "regulations", label: "Regulations" },
-  { key: "synthesis", label: "Synthesis" },
-  { key: "mitigation", label: "Mitigation" },
-]
-const GROUP_KEYS = new Set(GROUPS.map((g) => g.key))
 const PER_GROUP_CAP = 18
-
-function categoryOf(slug: string): string {
-  return (slug ?? "").split("/")[0]
-}
-
-// Inbound-link index, built once per build from allFiles (the same array
-// reference is shared across every page render in a build), so this is O(N)
-// overall rather than O(N^2). Re-keyed if allFiles changes (dev watch).
-let cachedFiles: unknown = null
-let cachedIndex: Map<string, Set<string>> | null = null
-function inboundIndex(allFiles: QuartzComponentProps["allFiles"]): Map<string, Set<string>> {
-  if (cachedIndex && cachedFiles === allFiles) return cachedIndex
-  const map = new Map<string, Set<string>>()
-  for (const f of allFiles) {
-    const from = f.slug
-    if (!from) continue
-    for (const l of f.links ?? []) {
-      const target = simplifySlug(l as never)
-      if (!map.has(target)) map.set(target, new Set())
-      map.get(target)!.add(from)
-    }
-  }
-  cachedFiles = allFiles
-  cachedIndex = map
-  return map
-}
 
 export default (() => {
   const RelatedPages: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
     const mySlug = fileData.slug
     if (!mySlug) return null
-    const simple = simplifySlug(mySlug)
 
-    const titleBySlug = new Map<string, string>()
-    const slugBySimple = new Map<string, string>()
-    for (const f of allFiles) {
-      if (!f.slug) continue
-      slugBySimple.set(simplifySlug(f.slug), f.slug)
-      const t = f.frontmatter?.title
-      if (t) titleBySlug.set(f.slug, String(t))
-    }
-
-    // Candidate related slugs: outbound (this page's links) + inbound (pages
-    // that link here). Both are simplified slugs.
-    const candidates = new Set<string>()
-    for (const l of fileData.links ?? []) candidates.add(simplifySlug(l as never))
-    for (const from of inboundIndex(allFiles).get(simple) ?? [])
-      candidates.add(simplifySlug(from as never))
-    // Curated frontmatter cross-references (rich on synthesis pages, where the
-    // related ingredients/products are declared but may not be reciprocated in
-    // the rendered link graph). Metal symbols like "Pb" carry no [[...]] and
-    // are skipped.
-    for (const key of GROUP_KEYS) {
-      const v = fileData.frontmatter?.[key]
-      const arr = Array.isArray(v) ? v : v != null ? [v] : []
-      for (const item of arr) {
-        const m = String(item).match(/\[\[([^\]\|#]+)/)
-        if (m) candidates.add(simplifySlug(m[1].trim().replace(/^\/+/, "") as never))
-      }
-    }
-
-    // Bucket by concept category, resolving to a real slug + title.
-    const buckets = new Map<string, { href: string; label: string }[]>()
-    for (const cand of candidates) {
-      if (cand === simple) continue
-      const cat = categoryOf(cand)
-      if (!GROUP_KEYS.has(cat)) continue // drops sources/, tags/, self-index, etc.
-      const realSlug = slugBySimple.get(cand) ?? (cand as string)
-      const label = (titleBySlug.get(realSlug) ?? cand.split("/").pop() ?? cand).toString()
-      if (!buckets.has(cat)) buckets.set(cat, [])
-      buckets.get(cat)!.push({ href: resolveRelative(mySlug, realSlug as never), label })
-    }
+    // Shared with the right rail's Connections block — see ./relatedGraph.
+    const buckets = relatedByCategory({ fileData, allFiles })
 
     const groups = GROUPS.map((g) => {
-      const items = (buckets.get(g.key) ?? [])
-        .sort((a, b) => a.label.localeCompare(b.label, undefined, { sensitivity: "base" }))
+      const items = buckets.get(g.key) ?? []
       const shown = items.slice(0, PER_GROUP_CAP)
       return { ...g, shown, overflow: items.length - shown.length, indexHref: `/${g.key}` }
     }).filter((g) => g.shown.length > 0)

@@ -247,3 +247,17 @@ That is a separate plan and it has not been written. Steps 3–6 should not be e
 Same shape as the defect the barrier's own comment records fixing in July: the glob describes a **path** where the invariant is about **content**. It is the same class as the DOI gate's predicate, the 66 accurate `source_type: nonprofit` records, and the over-broad `wiki/**` restriction that this work corrected.
 
 Bypassed with the documented `WIKI_EDIT_AUDIT_SKIP=1`, which is correct for a human-directed edit, but the barrier will keep charging that toll on every future homepage change. Worth narrowing to pages that actually carry evidence frontmatter.
+
+## F-18
+
+`quartz/components/HeroBand.tsx` emits `<a class="hero-act" href="#cite-this-page">Cite this page</a>`, and no element with that id exists on any page. `document.querySelector("#cite-this-page")` returns null on `/metals/lead.html`; the string appears only inside the anchor's own `href`. The hero's most prominent secondary action is a dead anchor that scrolls nowhere.
+
+Same for v3's "Structured data (JSON-LD)" row, which the artifact drives with its own `toggleLd` runtime (artifact 1466). The page embeds three `application/ld+json` blocks, so the data exists, but nothing reveals it.
+
+Not chased, and deliberately NOT propagated: the new right-rail "Reuse this page" block ships `#references` (verified present) instead of copying the dead `#cite-this-page`, and omits the JSON-LD row entirely rather than adding a second dead anchor. Fixing the hero needs either a citation-format dialog or a real target; neither is in scope here.
+
+## F-19
+
+`check:v3` asserts `.hero-snapshot { border-radius: 0 }` on every detail screen and reports `NO SUCH ELEMENT` on `/regulations/*` and `/sources/*`. `HeroBand.tsx:122` renders `hero-band--nosnapshot` when a page supplies no snapshot rows, so those two screens have no snapshot panel at all.
+
+Unresolved which side is wrong: the artifact's per-screen data may or may not give regulation and source screens a `Page snapshot`. Grepping the artifact for a `stats:` key returns nothing, so the panel's data key was not located. Either the assertion is over-broad and should be scoped to screens that have snapshot rows, or those two screens are missing a panel v3 gives them. Needs one look at the artifact's detail-hero data model to settle; asserted-but-unsettled is recorded here rather than silently scoped away, because scoping it away is how the previous gate stopped being able to fail.

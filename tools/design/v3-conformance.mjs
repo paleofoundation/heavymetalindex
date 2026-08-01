@@ -43,8 +43,11 @@ export const V3_HOME_EXPECTATIONS = [
 
   // ── hero (v3 102-131, 2013-2015) ──
   [".hmi-v3-hero|backgroundColor", "rgb(139, 42, 74)"],
+  // __track, not the composite string: v3 fixes only the 400px panel and lets
+  // the copy column take `minmax(0, 1.35fr)`, so the composite value is
+  // viewport arithmetic and cannot be asserted at more than one width.
   ["__cols .hmi-v3-hero-inner", "2"],
-  [".hmi-v3-hero-inner|gridTemplateColumns", "848px 400px"],
+  ["__track .hmi-v3-hero-inner|1", "400px"],
   [".hmi-v3-hero-inner|padding", "96px 48px 88px"],
   [".hmi-v3-hero-inner|gap", "96px"],
   [".hmi-v3-hero-copy h1|fontSize", "58px"],
@@ -64,7 +67,8 @@ export const V3_HOME_EXPECTATIONS = [
   [".hmi-v3-start|backgroundColor", "rgb(255, 253, 251)"],
   [".hmi-v3-start-inner|padding", "64px 48px 72px"],
   ["__cols .hmi-v3-start-row", "3"],
-  [".hmi-v3-start-row|gridTemplateColumns", "340px 750px 150px"],
+  ["__track .hmi-v3-start-row|0", "340px"],
+  ["__track .hmi-v3-start-row|2", "150px"],
   [".hmi-v3-start-row|padding", "26px 4px"],
   [".hmi-v3-start-row|gap", "48px"],
   [".hmi-v3-start-n|textAlign", "right"],
@@ -73,7 +77,7 @@ export const V3_HOME_EXPECTATIONS = [
 
   // ── split bands (v3 149-161, 222-242, 2018) ──
   ["__cols .hmi-v3-split-inner", "2"],
-  [".hmi-v3-split-inner|gridTemplateColumns", "300px 948px"],
+  ["__track .hmi-v3-split-inner|0", "300px"],
   [".hmi-v3-split-inner|gap", "96px"],
   [".hmi-v3-split-inner|padding", "96px 48px"],
   [".hmi-v3-split-head h2|fontSize", "34px"],
@@ -117,7 +121,7 @@ export const V3_HOME_EXPECTATIONS = [
   // ── recently revised (v3 244-259, 2024) ──
   ["__cols .hmi-v3-rev-grid", "3"],
   [".hmi-v3-rev-grid|gap", "0px 64px"],
-  [".hmi-v3-rev-row|gridTemplateColumns", "~92px"],
+  ["__track .hmi-v3-rev-row|0", "92px"],
   [".hmi-v3-rev-d|fontSize", "10.5px"],
   [".hmi-v3-rev-t|color", "rgb(28, 67, 173)"],
 
@@ -180,17 +184,88 @@ export const V3_NARROW_OVERRIDES = new Map([
 // (the single track is whatever the viewport leaves), so they are dropped at
 // narrow rather than given a fabricated expected value. __cols covers them.
 const NARROW_DROP = new Set([
-  ".hmi-v3-hero-inner|gridTemplateColumns",
-  ".hmi-v3-start-row|gridTemplateColumns",
-  ".hmi-v3-split-inner|gridTemplateColumns",
+  "__track .hmi-v3-hero-inner|1",
+  "__track .hmi-v3-start-row|0",
+  "__track .hmi-v3-start-row|2",
+  "__track .hmi-v3-split-inner|0",
 ])
 
-export function expectationsFor(width) {
-  if (width >= 1150) return V3_HOME_EXPECTATIONS
-  return V3_HOME_EXPECTATIONS.filter(([k]) => !NARROW_DROP.has(k)).map(([k, v]) => [
-    k,
-    V3_NARROW_OVERRIDES.get(k) ?? v,
-  ])
+// ── the shared detail shell ────────────────────────────────────────────────
+//
+// renderPage.tsx:310 renders this shell for every page that is not home, auth
+// or 404 — about 3,086 of them — so a defect here is a defect almost
+// everywhere. Every value is read from artifact 2007-2013.
+//
+// The homepage table above cannot cover any of this: HOME A has no left rail,
+// no right rail and no detail hero, which is precisely how the shell stayed
+// 232/752/288 with a 44px gap while the homepage gate reported all green.
+export const V3_DETAIL_EXPECTATIONS = [
+  // shellSt (2007)
+  ["__cols .proof-layout", "3"],
+  ["__track .proof-layout|0", "236px"],
+  ["__track .proof-layout|2", "312px"],
+  [".proof-layout|gap", "56px"],
+  [".proof-layout|padding", "0px 48px"],
+  [".proof-layout|maxWidth", "1760px"],
+  [".proof-layout|alignItems", "start"],
+
+  // navAsideSt / railAsideSt (2010-2011)
+  [".snav|position", "sticky"],
+  [".snav|top", "92px"],
+  [".snav|padding", "34px 0px 48px"],
+  [".rail|position", "sticky"],
+  [".rail|top", "92px"],
+  [".rail|padding", "38px 0px 48px"],
+
+  // heroDetailSt (2012) — ported correctly already; asserted so it stays that way
+  ["__cols .hero-grid", "2"],
+  [".hero-grid|gap", "72px"],
+  [".hero-grid|padding", "34px 48px 40px"],
+  [".hero-grid|maxWidth", "1760px"],
+  [".hero-band|backgroundColor", "rgb(139, 42, 74)"],
+
+  // rail items (artifact 413-417): text on a hairline, never a filled pill
+  [".snav .grp > a.sec|fontSize", "13px"],
+  [".snav .grp > a.sec|fontWeight", "400"],
+  [".snav .grp > a.sec|borderLeftWidth", "2px"],
+  [".snav .grp > a.sec|backgroundColor", "rgba(0, 0, 0, 0)"],
+
+  // the shell must not reintroduce the footer or type leaks
+  ["footer.site-footer|backgroundColor", "rgb(74, 21, 38)"],
+  ["__cols .site-footer-inner", "5"],
+  [".site-footer-inner|padding", "76px 56px 40px"],
+]
+
+const DETAIL_NARROW_OVERRIDES = new Map([
+  ["__cols .proof-layout", "1"],
+  [".proof-layout|gap", "8px"],
+  [".proof-layout|padding", "0px 24px"],
+  [".snav|position", "static"],
+  [".snav|padding", "26px 0px 8px"],
+  [".rail|position", "static"],
+  [".rail|padding", "8px 0px 48px"],
+  ["__cols .hero-grid", "1"],
+  [".hero-grid|gap", "30px"],
+  [".hero-grid|padding", "28px 24px 34px"],
+])
+
+const DETAIL_NARROW_DROP = new Set([
+  "__track .proof-layout|0",
+  "__track .proof-layout|2",
+  ".snav|top",
+  ".rail|top",
+])
+
+function narrow(table, overrides, drop) {
+  return table.filter(([k]) => !drop.has(k)).map(([k, v]) => [k, overrides.get(k) ?? v])
+}
+
+export function expectationsFor(width, screen = "home") {
+  const [table, ov, dr] =
+    screen === "detail"
+      ? [V3_DETAIL_EXPECTATIONS, DETAIL_NARROW_OVERRIDES, DETAIL_NARROW_DROP]
+      : [V3_HOME_EXPECTATIONS, V3_NARROW_OVERRIDES, NARROW_DROP]
+  return width >= 1150 ? table : narrow(table, ov, dr)
 }
 
 // The runner is a string so the same implementation serves both execution
@@ -219,6 +294,15 @@ const RUNNER_BODY = `(() => {
       if (got !== exp) fails.push(k + " -> " + got + " tracks (want " + exp + ")")
       continue
     }
+    if (k.indexOf("__track ") === 0) {
+      const bits = k.slice(8).split("|")
+      const el = document.querySelector(bits[0])
+      if (!el) { fails.push(k + " MISSING"); continue }
+      const t = getComputedStyle(el).gridTemplateColumns
+      const got = t === "none" || !t ? "none" : (t.split(/\\s+/)[Number(bits[1])] || "none")
+      if (got !== exp) fails.push(k + " -> " + got + " (want " + exp + ")")
+      continue
+    }
     const parts = k.split("|"), sel = parts[0], prop = parts[1]
     const el = document.querySelector(sel)
     if (!el) { fails.push(sel + " MISSING"); continue }
@@ -229,36 +313,53 @@ const RUNNER_BODY = `(() => {
   return { viewport: innerWidth, checked: E.length, passed: E.length - fails.length, fails: fails }
 })()`
 
-function snippet(width) {
-  return RUNNER_BODY.replace("__TABLE__", JSON.stringify(expectationsFor(width)))
+function snippet(width, screen) {
+  return RUNNER_BODY.replace("__TABLE__", JSON.stringify(expectationsFor(width, screen)))
 }
 
-// An override whose key is absent from the base table is dead weight that
+// An override whose key is absent from its base table is dead weight that
 // silently tests nothing. Catch it here rather than discovering it as a missed
 // regression at 1100.
-const baseKeys = new Set(V3_HOME_EXPECTATIONS.map(([k]) => k))
-const orphans = [...V3_NARROW_OVERRIDES.keys(), ...NARROW_DROP].filter((k) => !baseKeys.has(k))
-if (orphans.length) {
-  console.error("narrow override keys not present in the wide table:")
-  for (const o of orphans) console.error(`  ${o}`)
-  process.exit(2)
+for (const [label, table, ov, dr] of [
+  ["home", V3_HOME_EXPECTATIONS, V3_NARROW_OVERRIDES, NARROW_DROP],
+  ["detail", V3_DETAIL_EXPECTATIONS, DETAIL_NARROW_OVERRIDES, DETAIL_NARROW_DROP],
+]) {
+  const keys = new Set(table.map(([k]) => k))
+  const orphans = [...ov.keys(), ...dr].filter((k) => !keys.has(k))
+  if (orphans.length) {
+    console.error(`${label}: narrow override keys not present in the wide table:`)
+    for (const o of orphans) console.error(`  ${o}`)
+    process.exit(2)
+  }
 }
 
-// Both sides of v3's single breakpoint (artifact 1976: vw >= 1150).
-const VIEWPORTS = [1440, 1100]
+// Both sides of v3's single breakpoint (artifact 1976: vw >= 1150), plus one
+// width above the 1760px max-width where the layout stops growing. That third
+// width is not ceremonial: `.proof-container`'s 1480px cap silently held every
+// detail page 280px narrower than v3 and was invisible at 1440 and 1100.
+const VIEWPORTS = [1800, 1440, 1100]
 
 const headlessIdx = process.argv.indexOf("--headless")
 
 if (headlessIdx === -1) {
   const w = Number(process.env.V3_WIDTH ?? 1440)
+  const s = process.env.V3_SCREEN ?? "home"
   console.log("v3 conformance — paste this into DevTools on the page under test.")
-  console.log(`(${expectationsFor(w).length} assertions @${w}px, every one read from the v3 artifact)\n`)
-  console.log(snippet(w))
-  console.log("\nBuild gate: node tools/design/v3-conformance.mjs --headless <url>")
+  console.log(`(${expectationsFor(w, s).length} assertions, ${s} @${w}px, every one read from the v3 artifact)\n`)
+  console.log(snippet(w, s))
+  console.log("\nBuild gate: node tools/design/v3-conformance.mjs --headless <base-url>")
   process.exit(0)
 }
 
-const url = process.argv[headlessIdx + 1] ?? "http://localhost:8099/index.html"
+const base = (process.argv[headlessIdx + 1] ?? "http://localhost:8099").replace(/\/+$/, "")
+
+// The homepage alone is not a sufficient gate: HOME A has no left rail, no
+// right rail and no detail hero, so the shared shell that ~3,086 pages render
+// is entirely untested by it.
+const SCREENS = [
+  { screen: "home", url: `${base}/index.html` },
+  { screen: "detail", url: `${base}/metals/lead.html` },
+]
 
 let puppeteer
 try {
@@ -272,16 +373,18 @@ const browser = await puppeteer.launch({ headless: "new" })
 const page = await browser.newPage()
 let failed = 0
 
-for (const width of VIEWPORTS) {
-  await page.setViewport({ width, height: 1200 })
-  await page.goto(url, { waitUntil: "networkidle0" })
-  // Re-goto per viewport rather than resizing in place: the page's own inline
-  // scripts read the width at load, so a resize alone leaves JS-driven state
-  // reporting the previous branch.
-  const result = await page.evaluate(snippet(width))
-  for (const f of result.fails) console.log(`  FAIL @${width}  ${f}`)
-  console.log(`v3 conformance @${width}px: ${result.passed}/${result.checked} passed`)
-  failed += result.fails.length
+for (const { screen, url } of SCREENS) {
+  for (const width of VIEWPORTS) {
+    await page.setViewport({ width, height: 1200 })
+    // Re-goto per viewport rather than resizing in place: the page's own inline
+    // scripts read the width at load, so a resize alone leaves JS-driven state
+    // reporting the previous branch.
+    await page.goto(url, { waitUntil: "networkidle0" })
+    const result = await page.evaluate(snippet(width, screen))
+    for (const f of result.fails) console.log(`  FAIL  ${screen} @${width}  ${f}`)
+    console.log(`v3 conformance  ${screen.padEnd(6)} @${width}px: ${result.passed}/${result.checked} passed`)
+    failed += result.fails.length
+  }
 }
 
 await browser.close()
