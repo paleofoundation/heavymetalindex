@@ -5,7 +5,10 @@
     "finding": [],
     "ingredient": [],
     "product": [],
-    "regulation": [],
+    "regulation": [
+      "References",
+      "Sources"
+    ],
     "source": [
       "References",
       "Sources"
@@ -54,11 +57,18 @@
     ],
     "isMetal": [
       "Overview",
+      "At a glance",
+      "Toxicology",
       "How it enters food",
       "Where it is found",
       "Regulatory limits",
       "Regulatory tightening over time",
       "What the reference values mean in practice",
+      "Testing",
+      "Microbiome effects",
+      "Historical context",
+      "Vulnerable populations",
+      "App-layer integration",
       "Open questions and limits of this page",
       "Questions this page answers"
     ],
@@ -82,8 +92,14 @@
       "Subcategories"
     ],
     "isIngredient": [
+      "Completeness scorecard",
+      "Heavy metal contamination profile",
       "Why this ingredient accumulates",
       "Metals profiled in rice",
+      "Irrigation management and the arsenic–cadmium trade-off",
+      "Processing effects",
+      "FDA Total Diet Study occurrence",
+      "Mitigation options",
       "Product categories that inherit this ingredient",
       "Where this page is thin"
     ],
@@ -101,6 +117,24 @@
       "Extracted values",
       "Methods, as reported",
       "Cited by"
+    ],
+    "isMetalsIdx": [
+      "Overview",
+      "What a metal page covers",
+      "Species — read this first",
+      "Metals at a glance",
+      "Full index"
+    ],
+    "isProductsIdx": [
+      "Overview",
+      "Categories"
+    ],
+    "isRegulationsIdx": [
+      "Overview",
+      "Cross-cut views",
+      "Curated index",
+      "Full register",
+      "Auto-linked stubs"
     ],
     "isBrowse": [
       "41 records",
