@@ -21,7 +21,21 @@ export const GROUPS: { key: string; label: string }[] = [
 ]
 export const GROUP_KEYS = new Set(GROUPS.map((g) => g.key))
 
-export type RelLink = { href: string; label: string; cat: string }
+export type RelLink = {
+  href: string
+  label: string
+  cat: string
+  outbound: boolean
+  // Position in this page's own link order. Document order is a real relevance
+  // signal — the first metal Lead links to is cadmium, the metal it actually
+  // discusses — whereas sorting alphabetically put "Aluminum" at the top of
+  // almost every page on the site simply by winning the alphabet.
+  order: number
+  // False for directory/index pages. Those carry no `type:` frontmatter, which
+  // is what separates a topical page from a navigation aid: "Regulations by
+  // jurisdiction" is a list, not a connection.
+  topical: boolean
+}
 
 function categoryOf(slug: string): string {
   return (slug ?? "").split("/")[0]
@@ -61,15 +75,29 @@ export function relatedByCategory({
 
   const titleBySlug = new Map<string, string>()
   const slugBySimple = new Map<string, string>()
+  const typeBySlug = new Map<string, string>()
   for (const f of allFiles) {
     if (!f.slug) continue
     slugBySimple.set(simplifySlug(f.slug), f.slug)
     const t = f.frontmatter?.title
     if (t) titleBySlug.set(f.slug, String(t))
+    const ty = (f.frontmatter as any)?.type
+    if (ty) typeBySlug.set(f.slug, String(ty))
   }
 
-  const candidates = new Set<string>()
-  for (const l of fileData.links ?? []) candidates.add(simplifySlug(l as never))
+  // Direction is tracked, not just membership. A page this one LINKS TO is a
+  // connection its own author asserted; a page that merely links here is
+  // somebody else's assertion, and on a hub page like a metal there are
+  // hundreds of those. Collapsing both into one undifferentiated set is what
+  // put "Beet" and "All-purpose cleaners" in Lead's rail.
+  const outbound = new Set<string>()
+  const orderOf = new Map<string, number>()
+  for (const l of fileData.links ?? []) {
+    const sl = simplifySlug(l as never)
+    outbound.add(sl)
+    if (!orderOf.has(sl)) orderOf.set(sl, orderOf.size)
+  }
+  const candidates = new Set<string>(outbound)
   for (const from of inboundIndex(allFiles).get(simple) ?? [])
     candidates.add(simplifySlug(from as never))
   // Curated frontmatter cross-references (rich on synthesis pages, where the
@@ -80,7 +108,13 @@ export function relatedByCategory({
     const arr = Array.isArray(v) ? v : v != null ? [v] : []
     for (const item of arr) {
       const m = String(item).match(/\[\[([^\]\|#]+)/)
-      if (m) candidates.add(simplifySlug(m[1].trim().replace(/^\/+/, "") as never))
+      if (m) {
+        const slug = simplifySlug(m[1].trim().replace(/^\/+/, "") as never)
+        candidates.add(slug)
+        // Declared in this page's own frontmatter, so it is this page's
+        // assertion too.
+        outbound.add(slug)
+      }
     }
   }
 
@@ -91,9 +125,24 @@ export function relatedByCategory({
     const realSlug = slugBySimple.get(cand) ?? (cand as string)
     const label = (titleBySlug.get(realSlug) ?? cand.split("/").pop() ?? cand).toString()
     if (!buckets.has(cat)) buckets.set(cat, [])
-    buckets.get(cat)!.push({ href: resolveRelative(mySlug, realSlug as never), label, cat })
+    buckets
+      .get(cat)!
+      .push({
+        href: resolveRelative(mySlug, realSlug as never),
+        label,
+        cat,
+        outbound: outbound.has(cand),
+        order: orderOf.get(cand) ?? Number.MAX_SAFE_INTEGER,
+        topical: typeBySlug.has(realSlug),
+      })
   }
 
+  // Alphabetical, deliberately. This is the order the in-body "See also" block
+  // renders in, and it is a browse aid where alphabetical is the useful order.
+  // Relevance ranking belongs to the CONSUMER, not to this shared traversal:
+  // the rail sorts its own picks by `order` and filters on `topical`. An
+  // earlier version sorted outbound-first here and silently reordered See also
+  // on every page as a side effect of a rail change.
   for (const list of buckets.values())
     list.sort((a, b) => a.label.localeCompare(b.label, undefined, { sensitivity: "base" }))
 

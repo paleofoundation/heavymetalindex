@@ -259,6 +259,16 @@ footer.site-footer {
   border-radius: 0;
 }
 
+/* The three hero actions travel as one group so Download PDF cannot wrap alone
+   onto its own line. Gap matches the column gap of v3's meta row (artifact 380,
+   `gap: 12px 28px`) so the grouping is invisible when everything fits. */
+.hero-acts {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
 /* Header geometry (artifact 37-38). Same 1480px cap as `.proof-container`,
    with the same consequence above that width — and `margin: 0` meant the bar
    never centred there either, it just sat against the left edge. v3's header
@@ -304,6 +314,16 @@ footer.site-footer {
   max-width: none;
   margin: 0;
   padding: 0;
+}
+
+/* v3's <main>, artifact 436: `padding: 38px 0 88px; min-width: 0`. This had NO
+   top padding, so the first body block sat flush against the burgundy hero
+   while the left rail started 34px down (navAsideSt) — the missing whitespace
+   above the Quick read card, and a visible misalignment between the two
+   columns. */
+.proof-main {
+  padding: 38px 0 88px;
+  min-width: 0;
 }
 
 .proof-layout {

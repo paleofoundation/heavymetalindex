@@ -160,15 +160,23 @@ export default (() => {
               {updated ? <span class="hero-stamp">UPDATED {updated}</span> : null}
               {rev ? <span class="hero-stamp">REV {rev}</span> : null}
 
-              <a class="hero-act" href="#cite-this-page">
-                Cite this page
-              </a>
-              <a class="hero-act" href="#update-history">
-                Version history
-              </a>
-              <a class="hero-act hero-act--solid" href={`/api/evidence-packet?slug=${slug}`}>
-                Download PDF
-              </a>
+              {/* Grouped so the three actions stay on one line. `.hero-meta` is
+                  a wrapping flex row (v3 artifact 380: `flex-wrap: wrap`), and
+                  v3's row carries only TWO buttons — Download PDF is ours. That
+                  third item pushed past the 892px main column at 1440 and wrapped
+                  alone onto a second line. Wrapping them in their own flex group
+                  lets the meta text reflow while the buttons travel together. */}
+              <span class="hero-acts">
+                <a class="hero-act" href="#cite-this-page">
+                  Cite this page
+                </a>
+                <a class="hero-act" href="#update-history">
+                  Version history
+                </a>
+                <a class="hero-act hero-act--solid" href={`/api/evidence-packet?slug=${slug}`}>
+                  Download PDF
+                </a>
+              </span>
             </div>
           </div>
 

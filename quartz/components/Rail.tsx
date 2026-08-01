@@ -6,11 +6,17 @@ import citeScript from "./scripts/citeSuperscript.inline"
 
 // The right rail (.rail). renderPage wraps this in <aside class="rail">.
 //
-// v3 gives the rail four blocks (artifact 1453-1477): Connections, Reuse this
-// page, Found an error?, in that order. This shipped only the provenance card,
-// which is why `check:v3` reported three MISSING blocks on every detail page.
+// v3 gives the rail exactly three blocks (artifact 1453-1477): Connections,
+// Reuse this page, Found an error?, in that order — and no provenance card.
 //
-// These three are CHROME, not content: they read the existing link graph and
+// The "Page provenance" card that used to sit above these was REMOVED as
+// redundant on Karen's call, and it is redundant: the hero already carries
+// Author, ORCID, UPDATED and REV (artifact 380-383, and the same in HeroBand),
+// the Page snapshot panel already carries the corpus-source count, and its
+// closing line "Reconstructable via version history" is what the hero's
+// Version history button does. Nothing it displayed is lost.
+//
+// These blocks are CHROME, not content: they read the existing link graph and
 // existing static routes, touch no `wiki/**` path, and carry no evidence
 // values. v3's seven body sections are a different problem (F-16, generator
 // work) and are deliberately not attempted here.
@@ -19,31 +25,38 @@ import citeScript from "./scripts/citeSuperscript.inline"
 // stylesheet — component CSS is emitted inside `@layer legacy`, so v3 rules
 // placed there would lose to any unlayered rule on equal specificity.
 
-// v3 shows three connections; a few more is useful without becoming a second
-// "See also". The in-body block keeps the full list.
-const CONNECTION_CAP = 8
+// v3 shows exactly three (artifact 1794). Three is also the honest limit for a
+// signal this thin: past the page's own outbound links, "related" degrades into
+// "something, somewhere, mentioned this", which is how All-purpose cleaners
+// ended up under Lead. The in-body "See also" keeps the full graph.
+const CONNECTION_CAP = 3
 
 export default (() => {
   const Rail: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
-    const fm = fileData.frontmatter ?? {}
-    const updated = (fm as any).updated ? String((fm as any).updated).slice(0, 10) : undefined
-    const corpus =
-      (fm as any).n_sources ??
-      (fm as any).corpus_count ??
-      (fileData as any).corpusCount ??
-      undefined
-
     const slug = fileData.slug
     // Gate the in-page anchor on the section existing, the way Snav's utility
     // links do — index pages carry no References heading.
     const hasRefs = (fileData.toc ?? []).some((e: any) => /^references$/i.test((e.text ?? "").trim()))
-    // One link per concept category first, so a page with 40 inbound sources
-    // does not fill the rail with 8 ingredients and no regulation. Falls back
-    // to filling from the remainder in group order.
+    // OUTBOUND ONLY, one per category first. A page this one links to is a
+    // connection this page asserts; an inbound link is another page's
+    // assertion, and a hub like a metal collects hundreds of those. Inbound is
+    // used only to top up when the page asserts fewer than three itself.
     const buckets = relatedByCategory({ fileData, allFiles })
-    const firstPass = GROUPS.map((g) => buckets.get(g.key)?.[0]).filter(Boolean)
-    const rest = GROUPS.flatMap((g) => (buckets.get(g.key) ?? []).slice(1))
-    const connections = [...firstPass, ...rest].slice(0, CONNECTION_CAP)
+    // Within a category, DOCUMENT ORDER, not the alphabet. Sorting by label put
+    // "Aluminum" first on lead, cadmium, almond, rice and the ATSDR page alike;
+    // Lead's own prose links cadmium, mercury, arsenic, in that order.
+    // Directory pages ("Regulations by jurisdiction") are dropped: they carry no
+    // `type:` frontmatter and are navigation, not a topical connection.
+    const inCat = (key: string, want: boolean) =>
+      (buckets.get(key) ?? [])
+        .filter((l) => l.outbound === want && l.topical)
+        .sort((a, b) => a.order - b.order)
+    const pick = (want: boolean) => {
+      const first = GROUPS.map((g) => inCat(g.key, want)[0])
+      const rest = GROUPS.flatMap((g) => inCat(g.key, want).slice(1))
+      return [...first, ...rest].filter(Boolean)
+    }
+    const connections = [...pick(true), ...pick(false)].slice(0, CONNECTION_CAP)
 
     const rel = (to: string) => (slug ? resolveRelative(slug, to as SimpleSlug) : `/${to}`)
     // Static assets are not page slugs, so they resolve from the site root the
@@ -52,17 +65,6 @@ export default (() => {
 
     return (
       <>
-        <div class="card">
-          <h4>Page provenance</h4>
-          <div class="meta">
-            {updated ? <>Updated {updated}<br /></> : null}
-            {corpus ? <>{corpus} corpus sources<br /></> : null}
-            Author: K. Pendergrass · ORCID
-            <br />
-            Reconstructable via version history
-          </div>
-        </div>
-
         {connections.length > 0 ? (
           <nav class="rail-connections" aria-label="Connections">
             <div class="rail-connections-title">Connections</div>

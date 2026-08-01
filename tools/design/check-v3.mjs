@@ -54,7 +54,17 @@ const PAGES = [
 // Old-build markup. Cited in FIDELITY.md as the assertions that reveal whether
 // a redesign landed or merely accumulated. NOT artifact-derived — these are
 // precisely the selectors the artifact has no equivalent for.
-const ABSENT = [".hero-glyph", ".hero-pill", ".hero-right"]
+const ABSENT = [
+  ".hero-glyph",
+  ".hero-pill",
+  ".hero-right",
+  // Removed on Karen's call, not from the artifact: the outlined keyword chips
+  // under the Quick read (v3 has no equivalent) and the right rail's "Page
+  // provenance" card (redundant with the hero's Author/ORCID/UPDATED/REV and
+  // the Page snapshot's corpus count). Asserted absent so neither returns.
+  ".hmi-pill",
+  ".hmi-pill-row",
+]
 
 // Computed-style assertions, each with the artifact line it was read from.
 //
@@ -145,6 +155,10 @@ const STYLES = [
   { on: CHROME, sel: ".hmi-nav-cols", prop: "gap", want: "40px", why: "artifact 79" },
   { on: CHROME, sel: ".hmi-nav-colhead", prop: "fontSize", want: "9.5px", why: "artifact 82" },
   { on: CHROME, sel: ".hmi-nav-col ul > li > a", prop: "fontSize", want: "13.5px", why: "artifact 86" },
+
+  // v3's <main>, artifact 436. Was 0, so the first body block sat flush against
+  // the hero while the left rail started 34px down.
+  { on: DETAIL, sel: ".proof-main", prop: "padding", want: "38px 0px 88px", why: "artifact 436" },
 
   // ── quick read (artifact 440-457) ──────────────────────────────────────
   // Was a rounded left-bar callout with an Inter semibold label and the three

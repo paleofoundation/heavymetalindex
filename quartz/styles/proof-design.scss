@@ -204,8 +204,11 @@ a.internal.tag-link:hover {
 .hmi-quick-read ul > li { border-top: 2px solid #8b2a4a; padding: 11px 0 0; margin: 0; font-size: 13.5px; line-height: 1.6; color: #5a4148; list-style: none; }
 .hmi-quick-read ul > li::marker { content: none; }
 .hmi-quick-read ul > li > strong { display: block; font-family: "IBM Plex Mono", monospace; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.1em; color: #8b2a4a; margin-bottom: 6px; }
-.hmi-pill-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
-.hmi-pill { background: #fff; border: 1px solid var(--burg); color: var(--burg); font-size: 12.5px; font-weight: 500; padding: 4px 12px; border-radius: 2px; }
+// REMOVED: .hmi-pill-row / .hmi-pill. The outlined keyword chips under the
+// Quick read were an addition v3 has no equivalent for, and were dropped from
+// the two pages that carried them (metals/lead, products/infant-formula-powder-
+// non-soy) on Karen's call. Rules deleted with the markup so nothing re-styles
+// a chip back into existence.
 
 .wiki-content .footnotes, .wiki-content [data-footnotes], .wiki-content section.footnotes { font-size: 13.5px; color: var(--muted); border-top: 1px solid var(--line); margin-top: 34px; padding-top: 16px; }
 .wiki-content .footnotes a, .wiki-content [data-footnotes] a { color: var(--burg); }
