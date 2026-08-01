@@ -136,6 +136,12 @@ const STYLES = [
   { on: CHROME, sel: ".hmi-topnav-actions", prop: "minWidth", want: "0px", v3: 58 },
 
   // Search box, wide branch — the viewport is 1440, above v3's 1150 flag.
+  // WIDTH, not just the box's own properties. A flex item can have every
+  // declared value correct and still be laid out at 65% of its basis, because
+  // the basis is what it ASKS for and the container decides. That happened here:
+  // 168px against 260 with 214px of slack next to it. Height, radius and colour
+  // all passed throughout.
+  { on: CHROME, sel: ".hmi-topnav-search", prop: "width", want: "260px", v3: 55 },
   { on: CHROME, sel: ".hmi-topnav-search > .search-button", prop: "height", want: "36px", v3: 55 },
   { on: CHROME, sel: ".hmi-topnav-search > .search-button", prop: "borderRadius", want: "3px", v3: 55 },
   { on: CHROME, sel: ".hmi-topnav-search > .search-button", prop: "backgroundColor", want: "#fbf8f5", v3: 55 },
@@ -514,6 +520,53 @@ for (const p of PAGES) {
       got: `${hits.length}` + (hits.length ? ` → ${hits.slice(0, 5).join(", ")}${hits.length > 5 ? " …" : ""}` : ""),
     })
   }
+}
+
+// ── NARROW PASS (v3's 1150 flag) ──────────────────────────────────────────
+//
+// THE GATE ONLY EVER RAN AT 1440, and §1.1's narrow branch is not a smaller
+// version of the wide one — v3 REMOVES chrome below the flag rather than
+// scaling it. Three defects shipped through this hole in one sitting: a search
+// box laid out at 168px against a 260px basis, a "36px square" that measured 60
+// because a min-width floor outranks a width, and a burger drawer that rendered
+// permanently open. All three were declared correctly and laid out wrong, and
+// none of them is visible at 1440.
+//
+// One page is enough: the header and footer are identical on all fifteen
+// screens, which is the whole leverage argument in §0.
+await page.setViewport({ width: 1100, height: 900 })
+await page.goto(base + "/metals/lead.html", { waitUntil: "networkidle0", timeout: 45000 })
+const narrow = await page.evaluate(() => {
+  const box = (sel) => {
+    const el = document.querySelector(sel)
+    if (!el) return { display: "NO SUCH ELEMENT", width: -1 }
+    return { display: getComputedStyle(el).display, width: Math.round(el.getBoundingClientRect().width) }
+  }
+  return {
+    nav: box("#hmi-topnav-menu"),
+    burger: box(".hmi-topnav-burger"),
+    search: box(".hmi-topnav-search"),
+    ask: box(".hmi-topnav-ask"),
+    login: box(".hmi-topnav-login"),
+    pro: box(".hmi-topnav-pro"),
+    heroCols: getComputedStyle(document.querySelector(".hero-grid") ?? document.body).gridTemplateColumns.split(" ").length,
+    shellCols: getComputedStyle(document.querySelector(".proof-layout") ?? document.body).gridTemplateColumns.split(" ").length,
+  }
+})
+const NARROW_WANT = [
+  ["#hmi-topnav-menu display", narrow.nav.display, "none", "the drawer is closed until the burger opens it"],
+  [".hmi-topnav-burger display", narrow.burger.display, "flex", "and the burger is the control that opens it"],
+  [".hmi-topnav-search width", String(narrow.search.width), "36", "v3 collapses the box to a square, it does not shrink it"],
+  [".hmi-topnav-ask display", narrow.ask.display, "none", "wide-only"],
+  [".hmi-topnav-login display", narrow.login.display, "none", "wide-only"],
+  [".hmi-topnav-pro display", narrow.pro.display, "block", "Index Pro survives at every width"],
+  [".hero-grid columns", String(narrow.heroCols), "1", "v3 collapses below 1150"],
+  [".proof-layout columns", String(narrow.shellCols), "1", "same flag as the hero"],
+]
+for (const [sel, got, want, why] of NARROW_WANT) {
+  record("chrome", got === want, {
+    page: "/metals/lead.html @1100", kind: "narrow", sel, prop: why, want, got,
+  })
 }
 
 await browser.close()

@@ -449,6 +449,22 @@ footer.site-footer {
   max-width: none;
 }
 
+/* THE FLEX BASIS DOES NOT HOLD ON ITS OWN, and I deleted the rule that said so.
+   `.hmi-topnav-actions` is `flex: 0 1 auto`, so its base size is its content
+   size — and a nested item with `flex-basis: 260px; flex-shrink: 1` contributes
+   its MIN-content, not its basis, to that calculation. The group therefore
+   sized itself to the search box's ellipsised text width and the box settled at
+   168px with 214px of free space sitting in the spacer beside it.
+
+   topNav.scss carried an explicit width for exactly this reason, with a comment
+   explaining it, and I removed it while consolidating the block. Restored here,
+   and asserted, which is what should have caught it the first time. */
+@media (min-width: 1150px) {
+  .search.hmi-topnav-search {
+    width: 260px;
+  }
+}
+
 .search.hmi-topnav-search > .search-button {
   display: flex;
   align-items: center;
@@ -557,6 +573,11 @@ footer.site-footer {
   .search.hmi-topnav-search {
     flex: 0 0 auto;
     width: 36px;
+    /* The wide branch's `min-width: 60px` is a floor, and a floor beats a width.
+       Without this reset the "36px square" measured 60px — declared correctly,
+       laid out wrong, which is the third defect of that exact shape in this
+       header. */
+    min-width: 0;
   }
 
   .search.hmi-topnav-search > .search-button {
