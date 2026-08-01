@@ -196,7 +196,18 @@ for (const p of PAGES) {
     res = await page.evaluate(
       (f16Blocks, chromeBlocks, absent, styles, burgundy) => {
         const text = (document.body.innerText || "").toLowerCase()
-        const missing = (list) => list.filter((b) => !text.includes(b.toLowerCase()))
+        // A page that cites nothing should render NO References section, not an
+        // empty one — so the References expectation is conditional on the page
+        // actually having citations. Verified on products/aas-injectable:
+        // `sources: 0` in frontmatter, zero inline [[sources/...]], and 327 of
+        // 414 product pages have no References section at all. Asserting it
+        // unconditionally demanded a section with nothing to put in it.
+        const citesSomething =
+          document.querySelector('a[data-slug^="sources/"], sup.cite, .hmi-page-references') !== null
+        const missing = (list) =>
+          list
+            .filter((b) => citesSomething || !/^references$/i.test(b))
+            .filter((b) => !text.includes(b.toLowerCase()))
         const presentOld = absent.filter((s) => document.querySelector(s) !== null)
         const styleResults = styles.map((a) => {
           const el = document.querySelector(a.sel)
