@@ -179,10 +179,31 @@ a.internal.tag-link:hover {
 .wiki-content blockquote { border-left: 3px solid var(--burg); margin: 0 0 1.1em; padding: 8px 18px; background: var(--burg-tint2); color: var(--body); }
 .wiki-content code { font-family: "IBM Plex Mono", monospace; font-size: 0.88em; background: var(--shade); padding: 1px 5px; border-radius: 4px; }
 .wiki-content hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
-.wiki-content table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 12px 0 22px; display: block; overflow-x: auto; }
-.wiki-content thead th { background: var(--burg); color: #fff; text-align: left; padding: 11px 13px; font-weight: 600; font-size: 13.5px; white-space: nowrap; }
-.wiki-content tbody td { padding: 10px 13px; border-bottom: 1px solid var(--line); vertical-align: top; }
-.wiki-content tbody tr:hover { background: var(--burg-tint2); }
+/* ── v3's data table (artifact 502-521, and the zebra fn at 1774) ──────────
+   THE MOST-REPEATED DATA COMPONENT IN v3: the burgundy-header table appears
+   18 times across its screens. Codifying it here rather than per generator
+   means every table the build emits — regulatory limits, occurrence matrices,
+   source inventories, update histories, crosswalks — inherits the same
+   presentation, which is the cohesion the old build lacked.
+
+   Verbatim from the artifact:
+     table      width 100%; font-size 13.5px; border 1px solid #e8e1db
+     thead tr   background #8b2a4a; color #fff
+     th         mono 10px, letter-spacing .1em, uppercase, padding 11px 15px
+     tbody tr   border-bottom 1px #f2ece7; odd rows #fdfaf8, even transparent
+     td         padding 13px 15px; vertical-align top
+
+   What was here instead: a 14px table with no outer border, LORA 13.5px
+   semibold headers (v3's are mono 10px), no zebra at all, and a burgundy-tint
+   hover v3 does not have. */
+.wiki-content table { border-collapse: collapse; width: 100%; font-size: 13.5px; margin: 12px 0 22px; border: 1px solid #e8e1db; display: block; overflow-x: auto; }
+.wiki-content thead tr { background: #8b2a4a; color: #fff; }
+.wiki-content thead th { background: #8b2a4a; color: #fff; text-align: left; padding: 11px 15px; font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; }
+.wiki-content tbody tr { border-bottom: 1px solid #f2ece7; }
+/* v3 zebras from the FIRST data row (zeb(i), i%2 -> the second row is tinted),
+   so nth-child(even) is the faithful translation, not (odd). */
+.wiki-content tbody tr:nth-child(even) { background: #fdfaf8; }
+.wiki-content tbody td { padding: 13px 15px; vertical-align: top; line-height: 1.55; }
 
 /* ── Quick read (v3 artifact 440-457) ────────────────────────────────────
    v3 is a plain 1px #eddfe4 box: no left bar, no rounded corners, a MONO

@@ -172,6 +172,17 @@ const STYLES = [
   { on: ["isMetal"], sel: ".hmi-quick-read ul > li", prop: "borderTopColor", want: "#8b2a4a", why: "artifact 444" },
   { on: ["isMetal"], sel: ".hmi-quick-read ul > li", prop: "fontSize", want: "13.5px", why: "artifact 446" },
 
+  // ── v3's data table (artifact 502-521, zebra fn 1774) ─────────────────
+  // The most-repeated data component in v3 (18 occurrences). Asserted on the
+  // metal screen; the rule is site-wide so every generated table inherits it.
+  { on: ["isMetal"], sel: ".wiki-content table", prop: "fontSize", want: "13.5px", why: "artifact 502" },
+  { on: ["isMetal"], sel: ".wiki-content table", prop: "borderTopColor", want: "#e8e1db", why: "artifact 502" },
+  { on: ["isMetal"], sel: ".wiki-content thead th", prop: "fontFamily", want: '"IBM Plex Mono", monospace', why: "artifact 505 (was Lora 13.5px semibold)" },
+  { on: ["isMetal"], sel: ".wiki-content thead th", prop: "fontSize", want: "10px", why: "artifact 505" },
+  { on: ["isMetal"], sel: ".wiki-content thead th", prop: "padding", want: "11px 15px", why: "artifact 505" },
+  { on: ["isMetal"], sel: ".wiki-content tbody tr:nth-child(even)", prop: "backgroundColor", want: "#fdfaf8", why: "artifact 1774 zebra (there was none)" },
+  { on: ["isMetal"], sel: ".wiki-content tbody td", prop: "padding", want: "13px 15px", why: "artifact 510" },
+
   // ── the global weight floor (artifact 25, 29, 1366) ────────────────────
   // v3 declares font-weight 7 times in 2,400 lines and all 7 are 400; it has
   // zero <strong> and zero <b>. Assert on elements that were measured at 500,
