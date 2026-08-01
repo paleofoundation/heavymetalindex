@@ -142,6 +142,123 @@ footer.site-footer {
   letter-spacing: -0.015em;
 }
 
+/* ══ nav triggers (artifact 45, constant at 1993) ══════════════════════════
+   v3's trigger declares NO background, NO border-radius, NO uppercase and NO
+   font-weight. The open state is signalled ONLY by the bottom rule going
+   burgundy and the label changing colour — and the inactive state reserves the
+   same 2px as `transparent`, so opening a menu does not shift the bar. */
+.hmi-nav-top {
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  font-size: 13.5px;
+  color: #3f3a3f;
+  text-decoration: none;
+  background: none;
+  border-radius: 0;
+  border-bottom: 2px solid transparent;
+  text-transform: none;
+}
+
+.hmi-nav-item.is-open > .hmi-nav-top,
+.hmi-nav-top[aria-expanded="true"],
+.hmi-nav-top:hover {
+  color: #8b2a4a;
+  border-bottom-color: #8b2a4a;
+  background: none;
+}
+
+/* ══ mega menu (artifact 72-93) ════════════════════════════════════════════
+   A full-bleed panel under the bar, then a 280px context column beside three
+   equal link columns. The context column and the columns are already siblings
+   in this markup (`.hmi-nav-blurb` + `.hmi-nav-cols`), so v3's two-part split
+   is reachable with grid alone — no change to the nav-panel generator. */
+.hmi-nav-panel {
+  background: #fffdfb;
+  border-bottom: 1px solid #e8e1db;
+  box-shadow: 0 22px 44px -24px rgba(90, 28, 48, 0.26);
+}
+
+.hmi-nav-panel-inner {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 32px 48px 38px;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.hmi-nav-blurb {
+  margin: 0;
+  border-right: 1px solid #efe9e3;
+  padding-right: 40px;
+  font-size: 13px;
+  line-height: 1.65;
+  color: #736b6e;
+}
+
+.hmi-nav-cols {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+}
+
+.hmi-nav-colhead {
+  margin: 0 0 11px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a9a1a2;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #efe9e3;
+}
+
+.hmi-nav-col ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hmi-nav-col ul > li {
+  margin: 0;
+  list-style: none;
+}
+
+.hmi-nav-col ul > li > a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0;
+  font-size: 13.5px;
+  color: #3f3a3f;
+  border-bottom: 1px dotted #f2ece7;
+  background: none;
+  border-radius: 0;
+  text-decoration: none;
+
+  &:hover {
+    color: #8b2a4a;
+    background: none;
+    text-decoration: none;
+  }
+}
+
+/* the per-item record count, artifact 87 */
+.hmi-nav-count {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10.5px;
+  color: #b7aeb0;
+  flex: 0 0 auto;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
 /* Header geometry (artifact 37-38). Same 1480px cap as `.proof-container`,
    with the same consequence above that width — and `margin: 0` meant the bar
    never centred there either, it just sat against the left edge. v3's header

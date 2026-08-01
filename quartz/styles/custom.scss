@@ -25,6 +25,10 @@
 // v3-chrome is UNSCOPED: it styles the four things renderPage.tsx emits outside
 // #quartz-root (skip link, TopNav shell, HeroBand, Footer), which no
 // page-scoped selector can reach.
+// v3-type first: it is the FLOOR (a `*` weight rule plus the body font), so the
+// more specific sheets below it still win. See the file header for why `*` is
+// correct here rather than a per-region weight declaration.
+@import "v3-type";
 @import "v3-chrome";
 @import "../components/styles/heroBand";
 @import "home-v3";

@@ -134,11 +134,48 @@ const STYLES = [
   { on: ["isMetal"], sel: ".qa summary", prop: "color", want: "#8b2a4a", why: "artifact 175 (was near-black)" },
   { on: ["isMetal"], sel: ".qa summary .mk", prop: "borderRadius", want: "0px", why: "artifact 174 (was a 50% ring)" },
   { on: ["isMetal"], sel: ".qa .ans", prop: "borderLeftColor", want: "#e0c9d1", why: "artifact 178" },
+
+  // ── nav bar + mega menu (artifact 45/1993, 72-93) ──────────────────────
+  { on: CHROME, sel: ".hmi-topnav-wordmark", prop: "fontSize", want: "22px", why: "artifact 40" },
+  { on: CHROME, sel: ".hmi-nav-top", prop: "fontSize", want: "13.5px", why: "artifact 1993 (was 15px)" },
+  { on: CHROME, sel: ".hmi-nav-top", prop: "backgroundColor", want: "rgba(0, 0, 0, 0)", why: "artifact 1993 declares no background" },
+  { on: CHROME, sel: ".hmi-nav-top", prop: "borderBottomWidth", want: "2px", why: "artifact 1993 reserves 2px transparent" },
+  { on: CHROME, sel: ".hmi-nav-panel-inner", prop: "gap", want: "56px", why: "artifact 73" },
+  { on: CHROME, sel: ".hmi-nav-panel-inner", prop: "padding", want: "32px 48px 38px", why: "artifact 73" },
+  { on: CHROME, sel: ".hmi-nav-cols", prop: "gap", want: "40px", why: "artifact 79" },
+  { on: CHROME, sel: ".hmi-nav-colhead", prop: "fontSize", want: "9.5px", why: "artifact 82" },
+  { on: CHROME, sel: ".hmi-nav-col ul > li > a", prop: "fontSize", want: "13.5px", why: "artifact 86" },
+
+  // ── quick read (artifact 440-457) ──────────────────────────────────────
+  // Was a rounded left-bar callout with an Inter semibold label and the three
+  // facets as a BULLETED LIST. v3 is a plain box with a mono label and a
+  // 3-column card grid under 2px burgundy rules.
+  { on: ["isMetal"], sel: ".hmi-quick-read", prop: "padding", want: "22px 24px", why: "artifact 440" },
+  { on: ["isMetal"], sel: ".hmi-quick-read", prop: "borderRadius", want: "0px", why: "artifact 440 (was 0 12px 12px 0)" },
+  { on: ["isMetal"], sel: ".hmi-quick-read-label", prop: "fontSize", want: "9.5px", why: "artifact 441 (was Inter 11.5px)" },
+  { on: ["isMetal"], sel: ".hmi-quick-read ul", prop: "display", want: "grid", why: "artifact 443 (was a bulleted list)" },
+  { on: ["isMetal"], sel: ".hmi-quick-read ul", prop: "gap", want: "24px", why: "artifact 443" },
+  { on: ["isMetal"], sel: ".hmi-quick-read ul > li", prop: "borderTopColor", want: "#8b2a4a", why: "artifact 444" },
+  { on: ["isMetal"], sel: ".hmi-quick-read ul > li", prop: "fontSize", want: "13.5px", why: "artifact 446" },
+
+  // ── the global weight floor (artifact 25, 29, 1366) ────────────────────
+  // v3 declares font-weight 7 times in 2,400 lines and all 7 are 400; it has
+  // zero <strong> and zero <b>. Assert on elements that were measured at 500,
+  // 600 or 700 before v3-type.scss stated the floor once.
+  { on: ["isMetal"], sel: "th", prop: "fontWeight", want: "400", why: "artifact 1366 (was 600). Scoped: not every screen renders a table." },
+  { on: DETAIL, sel: ".snav .grp > a.sec", prop: "fontWeight", want: "400", why: "rail was 500/600" },
 ]
 
+// rgb() -> hex so expectations can be written the way the artifact writes them.
+// Alpha is preserved rather than discarded: an earlier version folded
+// `rgba(0, 0, 0, 0)` (transparent) into `#000000`, which reported a correctly
+// transparent nav trigger as solid black. A normaliser that loses information
+// manufactures failures, and a gate that manufactures failures stops being read.
 const NORM = (v) => {
-  const m = String(v).match(/^rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)/)
-  if (!m) return String(v)
+  const s = String(v)
+  const m = s.match(/^rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)(?:,\s*([\d.]+))?\)/)
+  if (!m) return s
+  if (m[4] !== undefined && Number(m[4]) < 1) return s
   return "#" + [m[1], m[2], m[3]].map((n) => Number(n).toString(16).padStart(2, "0")).join("")
 }
 
