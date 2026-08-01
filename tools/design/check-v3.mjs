@@ -62,11 +62,26 @@ const SPEC = JSON.parse(readFileSync(join(HERE, "v3-acceptance.json"), "utf8"))
 // dropped — if it becomes a route it belongs in this list.
 const PAGES = [
   { screen: "isHomeA", url: "/index.html", rail: false },
-  { screen: "isMetal", url: "/metals/lead.html", rail: true },
-  { screen: "isIngredient", url: "/ingredients/almond.html", rail: true },
-  { screen: "isProduct", url: "/products/aas-injectable.html", rail: true },
-  { screen: "isRegulation", url: "/regulations/atsdr-aluminum-mrls.html", rail: true },
-  { screen: "isSource", url: "/sources/ab-manan2018-oil-palm-soil-metals.html", rail: true },
+  { screen: "isMetal", url: "/metals/lead.html", rail: true, badge: "METAL", crumb: "Metals" },
+  { screen: "isIngredient", url: "/ingredients/almond.html", rail: true, badge: "INGREDIENT", crumb: "Ingredients" },
+  { screen: "isProduct", url: "/products/aas-injectable.html", rail: true, badge: "PRODUCT-CATEGORY", crumb: "Products" },
+  { screen: "isRegulation", url: "/regulations/atsdr-aluminum-mrls.html", rail: true, badge: "REGULATION", crumb: "Regulations" },
+  { screen: "isSource", url: "/sources/ab-manan2018-oil-palm-soil-metals.html", rail: true, badge: "SOURCE", crumb: "Sources" },
+
+  // THE THREE INDEX SCREENS. They extract (SPEC.screens has isMetalsIdx and its
+  // siblings) but had no ROUTE here, which is why Chrome found
+  // `Index / Metals / Metals` and a METAL PROFILE badge on a registry while the
+  // gate reported nothing. A screen the gate cannot visit is a screen the gate
+  // cannot defend.
+  //
+  // `rail: false` deliberately: the shell, the negatives, the absent list, the
+  // mega menu and the hero all still run here. What it skips is the rail-block
+  // and shared-tail PRESENCE list, which is commit 5's and §3's work — and §3
+  // already says these three cite nothing, so demanding a References section on
+  // them would be asserting a section that should not exist.
+  { screen: "isMetalsIdx", url: "/metals/index.html", rail: false, badge: "REFERENCE LAYER", crumb: "Metals", leaf: "All metals" },
+  { screen: "isProductsIdx", url: "/products/index.html", rail: false, badge: "CATALOGUE", crumb: "Products", leaf: "All categories" },
+  { screen: "isRegulationsIdx", url: "/regulations/index.html", rail: false, badge: "REGISTER", crumb: "Regulations", leaf: "All instruments" },
 ]
 
 const ABSENT = [
@@ -165,6 +180,7 @@ const STYLES = [
   { on: DETAIL, sel: ".hero-grid", prop: "gap", want: "72px", v3: 2012 },
   { on: DETAIL, sel: ".hero-grid", prop: "padding", want: "34px 48px 40px", v3: 2012 },
   { on: DETAIL, sel: ".hero-act", prop: "borderRadius", want: "2px", v3: 1420 },
+  { on: DETAIL, sel: ".hero-kind", prop: "textTransform", want: "uppercase", v3: 373 },
   { on: SNAPSHOT_SCREENS, sel: ".hero-snapshot", prop: "borderRadius", want: "0px", v3: 2012 },
 
   { on: DETAIL, sel: ".snav .grp > a.sec", prop: "fontSize", want: "13px", v3: 414 },
@@ -269,12 +285,6 @@ for (const p of PAGES) {
         //              sibling of `.hmi-nav-cols` and landed in the wrong grid
         //              cell.
         //   grid       The panel's own 280px + remainder split.
-        // NO DEAD BOX IN THE TRIGGER ROW. An element that renders nothing and
-        // still occupies flow is invisible to every property assertion — it has
-        // no property that is wrong. It is only detectable as a RELATIONSHIP:
-        // the item is wider than the trigger inside it. That is what the
-        // deglyphed chevron button was, 8px x 5, and this is the general check
-        // for its whole class.
         const navItems = [...document.querySelectorAll(".hmi-nav-item")].map((li) => {
           const top = li.querySelector(".hmi-nav-top")
           const slack = top ? Math.round(li.getBoundingClientRect().width - top.getBoundingClientRect().width) : -1
@@ -300,6 +310,17 @@ for (const p of PAGES) {
             gridFirst: inner ? getComputedStyle(inner).gridTemplateColumns.split(" ")[0] : "NO INNER",
           }
         })
+
+        // HERO BREADCRUMB AND BADGE (CHROME-SPEC §1.3 / §3). Both are strings
+        // rather than computed styles, and both were wrong on three screens
+        // while every style assertion on the hero passed.
+        const crumbEl = document.querySelector(".hero-crumb")
+        const crumbLinks = crumbEl ? [...crumbEl.querySelectorAll("a")].map((a) => a.textContent.trim()) : []
+        const hero = {
+          crumb: crumbLinks.length > 1 ? crumbLinks[1] : "",
+          leaf: crumbEl?.querySelector(".cur")?.textContent.trim() ?? "",
+          badge: document.querySelector(".hero-kind")?.textContent.trim() ?? "",
+        }
         const styleResults = styles.map((a) => {
           const el = document.querySelector(a.sel)
           return { ...a, got: el ? getComputedStyle(el)[a.prop] : "NO SUCH ELEMENT" }
@@ -392,6 +413,7 @@ for (const p of PAGES) {
           styleResults,
           megaPanels,
           navRow,
+          hero,
           neg,
         }
       },
@@ -427,6 +449,41 @@ for (const p of PAGES) {
       page: p.url, kind: "style", sel: r.sel, prop: r.prop, want: r.want, got, v3: r.v3,
     })
   }
+  // §5: "breadcrumb leaf !== breadcrumb crumb" — the duplication check. It runs
+  // on every surface, not only where the §3 table is transcribed below, because
+  // the defect is structural: any screen whose leaf falls back to the section
+  // name reproduces it.
+  if (p.badge !== undefined) {
+    // §3's badges are "the KIND map at v3:2680, UPPERCASED", and the uppercasing
+    // is presentational — heroBand.scss does it, the DOM carries "Metal".
+    // Compared case-insensitively here, with the transform asserted separately
+    // in STYLES, so the two facts fail independently: a badge that says the
+    // wrong thing and a badge that stopped being uppercase are different bugs.
+    record("chrome", res.hero.badge.toUpperCase() === p.badge, {
+      page: p.url, kind: "hero", sel: ".hero-kind", prop: "badge", want: p.badge,
+      got: (res.hero.badge || "(none)").toUpperCase(),
+    })
+  }
+  if (p.crumb !== undefined) {
+    record("chrome", res.hero.crumb === p.crumb, {
+      page: p.url, kind: "hero", sel: ".hero-crumb", prop: "crumb", want: p.crumb, got: res.hero.crumb || "(none)",
+    })
+  }
+  if (p.leaf !== undefined) {
+    record("chrome", res.hero.leaf === p.leaf, {
+      page: p.url, kind: "hero", sel: ".hero-crumb .cur", prop: "leaf", want: p.leaf, got: res.hero.leaf || "(none)",
+    })
+  }
+  if (res.hero.crumb) {
+    record("chrome", res.hero.leaf !== res.hero.crumb, {
+      page: p.url, kind: "hero", sel: ".hero-crumb", prop: "leaf !== crumb", want: "different", got: `both "${res.hero.crumb}"`,
+    })
+  }
+  // NO DEAD BOX IN THE TRIGGER ROW. An element that renders nothing and still
+  // occupies flow is invisible to every property assertion — it has no property
+  // that is wrong. It is only detectable as a RELATIONSHIP: the item is wider
+  // than the trigger inside it. That is what the deglyphed chevron button was,
+  // 8px × 5, and this is the general check for its whole class.
   record("chrome", res.navRow.slack === 0, {
     page: p.url, kind: "structure", sel: ".hmi-nav-item", prop: "width beyond its trigger",
     want: "0px", got: `${res.navRow.slack}px` + (res.navRow.slack ? ` (${res.navRow.widest})` : ""),

@@ -12,32 +12,91 @@ import style from "./styles/heroBand.scss"
 // (the run beginning "── microbiomemedicine-style hero band ──", ~lines 251-285).
 // Those rules style the old three-column glyph layout and will fight this file.
 
-const SECTION_LABEL: Record<string, string> = {
-  metals: "Metal profile",
-  ingredients: "Ingredient profile",
-  products: "Product category",
-  regulations: "Regulation",
-  regulators: "Regulatory body",
-  sources: "Source record",
-  synthesis: "Synthesis finding",
-  testing: "Testing method",
-  mitigation: "Mitigation",
-  "supply-chain": "Supply chain",
-  microbiome: "Microbiome",
+// CHROME-SPEC §3, the screen map. TWO defects live on the site come from this
+// table not existing:
+//
+//   1. `/metals` renders `Index / Metals / Metals`. The breadcrumb is
+//      `Index / <section> / <leaf>` where the LEAF IS THE PAGE, not the section.
+//      On an index page the leaf is the collection's own name for itself —
+//      `All metals` — never a repeat of the crumb.
+//
+//   2. `/metals` wears `METAL PROFILE`, which is the badge for a page about ONE
+//      metal. The badge is a function of SCREEN TYPE, not page kind: it says
+//      what kind of DOCUMENT you are reading. A registry of metal pages is not
+//      a metal. `/metals` is `REFERENCE LAYER`.
+//
+// The general rule, which is what prevents the four siblings of defect 2:
+// **an index or directory page never wears the badge of the thing it indexes.**
+//
+// Labels are rendered as written; heroBand.scss uppercases them.
+type Screen = { crumb: string; leaf?: string; badge: string }
+
+// Detail screens — one page about one thing. §3 rows 7-14.
+const DETAIL: Record<string, Screen> = {
+  metals: { crumb: "Metals", badge: "Metal" },
+  ingredients: { crumb: "Ingredients", badge: "Ingredient" },
+  products: { crumb: "Products", badge: "Product-category" },
+  regulations: { crumb: "Regulations", badge: "Regulation" },
+  sources: { crumb: "Sources", badge: "Source" },
+  // §3 puts findings under Evidence, not under their own directory name: a
+  // reader arriving at a finding came through Evidence.
+  synthesis: { crumb: "Evidence", badge: "Synthesis" },
+  // Sections the repo has and v3's fifteen screens do not cover. Same rule
+  // applied rather than left to fall through to a section label.
+  regulators: { crumb: "Regulators", badge: "Regulatory body" },
+  testing: { crumb: "Testing", badge: "Testing method" },
+  mitigation: { crumb: "Mitigation", badge: "Mitigation" },
+  "supply-chain": { crumb: "Supply chain", badge: "Supply chain" },
+  microbiome: { crumb: "Microbiome", badge: "Microbiome" },
+  corpus: { crumb: "Corpus", badge: "Corpus view" },
+  audits: { crumb: "Evidence", badge: "Audit" },
+  methodology: { crumb: "Evidence", badge: "Method" },
 }
 
-const CRUMB_LABEL: Record<string, string> = {
-  metals: "Metals",
-  ingredients: "Ingredients",
-  products: "Products",
-  regulations: "Regulations",
-  regulators: "Regulators",
-  sources: "Sources",
-  synthesis: "Synthesis",
-  testing: "Testing",
-  mitigation: "Mitigation",
-  "supply-chain": "Supply chain",
-  microbiome: "Microbiome",
+// Index screens — a page ABOUT a collection. §3 rows 3, 4, 5, 13.
+const INDEX: Record<string, Screen> = {
+  metals: { crumb: "Metals", leaf: "All metals", badge: "Reference layer" },
+  products: { crumb: "Products", leaf: "All categories", badge: "Catalogue" },
+  regulations: { crumb: "Regulations", leaf: "All instruments", badge: "Register" },
+  synthesis: { crumb: "Evidence", leaf: "All findings", badge: "Directory" },
+  // Not among v3's fifteen, but they are indexes, so the rule applies.
+  ingredients: { crumb: "Ingredients", leaf: "All ingredients", badge: "Directory" },
+  sources: { crumb: "Sources", leaf: "All sources", badge: "Directory" },
+  regulators: { crumb: "Regulators", leaf: "All bodies", badge: "Directory" },
+  testing: { crumb: "Testing", leaf: "All methods", badge: "Directory" },
+  mitigation: { crumb: "Mitigation", leaf: "All strategies", badge: "Directory" },
+  "supply-chain": { crumb: "Supply chain", leaf: "All pathways", badge: "Directory" },
+  microbiome: { crumb: "Microbiome", leaf: "All pages", badge: "Directory" },
+  corpus: { crumb: "Corpus", leaf: "All views", badge: "Directory" },
+  audits: { crumb: "Evidence", leaf: "All audits", badge: "Directory" },
+  methodology: { crumb: "Evidence", leaf: "All methods", badge: "Directory" },
+}
+
+// §3 row 7. `<section>/categories/<x>` is a level ABOVE the individual pages and
+// below the section index, in products, ingredients and sources alike.
+const CATEGORY_BADGE = "Category"
+
+function screenFor(parts: string[]): Screen {
+  const section = parts[0]
+  const isIndex = parts[parts.length - 1] === "index"
+  const inCategories = parts.length >= 3 && parts[1] === "categories"
+
+  if (inCategories && !isIndex) {
+    return { crumb: DETAIL[section]?.crumb ?? section, badge: CATEGORY_BADGE }
+  }
+  if (inCategories && isIndex) {
+    return { crumb: DETAIL[section]?.crumb ?? section, leaf: "All categories", badge: "Directory" }
+  }
+  if (isIndex) {
+    return (
+      INDEX[section] ?? {
+        crumb: DETAIL[section]?.crumb ?? section,
+        leaf: "All pages",
+        badge: "Directory",
+      }
+    )
+  }
+  return DETAIL[section] ?? { crumb: section, badge: "" }
 }
 
 const ORCID = "0000-0002-2348-7259"
@@ -97,8 +156,18 @@ export default (() => {
     const symbol = typeof fm.symbol === "string" ? fm.symbol : undefined
     const title = symbol && !rawTitle.includes("(") ? `${rawTitle} (${symbol})` : rawTitle
 
-    const kind = (typeof fm.kind === "string" && fm.kind) || SECTION_LABEL[section] || ""
-    const crumb = CRUMB_LABEL[section] ?? (section ? section.charAt(0).toUpperCase() + section.slice(1) : "")
+    const screen = section ? screenFor(parts) : { crumb: "", badge: "" }
+    // Frontmatter still overrides, per the component's contract — but it now
+    // overrides a screen-type badge rather than a section label.
+    const kind = (typeof fm.kind === "string" && fm.kind) || screen.badge || ""
+    const crumb =
+      screen.crumb || (section ? section.charAt(0).toUpperCase() + section.slice(1) : "")
+    // The leaf is the PAGE. On an index it is the collection's name for itself;
+    // everywhere else it is the page's own title. Deliberately NOT guarded with
+    // a "if leaf === crumb then …" fallback: that would mask the duplication
+    // the gate asserts against, and a section this map has not learned yet
+    // should fail loudly rather than render a repaired-looking crumb.
+    const leaf = screen.leaf ?? rawTitle
 
     let dek =
       (typeof fm.dek === "string" && fm.dek) ||
@@ -131,7 +200,7 @@ export default (() => {
                 </>
               ) : null}
               <span aria-hidden="true">/</span>
-              <span class="cur">{rawTitle}</span>
+              <span class="cur">{leaf}</span>
             </nav>
 
             <div class="hero-titlerow">
