@@ -34,7 +34,7 @@ export const navPanels: NavPanel[] = [
     "blurb": "Toxicology, exposure routes, and regulatory limits, one page per metal.",
     "groups": [
       {
-        "heading": "Most-referenced",
+        "heading": "Most referenced",
         "children": [
           {
             "label": "Lead",
@@ -74,7 +74,7 @@ export const navPanels: NavPanel[] = [
         ]
       },
       {
-        "heading": "By species",
+        "heading": "By regulated species",
         "children": [
           {
             "label": "Inorganic arsenic",
@@ -112,6 +112,28 @@ export const navPanels: NavPanel[] = [
             "count": 68
           }
         ]
+      },
+      {
+        "heading": "Cross-cuts",
+        "children": [
+          {
+            "label": "Limits by metal",
+            "slug": "regulators/by-metal"
+          },
+          {
+            "label": "Regulatory timeline",
+            "slug": "regulations/timeline"
+          },
+          {
+            "label": "Upstream pathways",
+            "slug": "supply-chain"
+          },
+          {
+            "label": "Testing methods",
+            "slug": "testing",
+            "count": 2
+          }
+        ]
       }
     ],
     "allLabel": "All 36 metals"
@@ -119,12 +141,52 @@ export const navPanels: NavPanel[] = [
   {
     "key": "ingredients",
     "label": "Foods",
-    "panelLabel": "Foods & Ingredients",
+    "panelLabel": "Foods & ingredients",
     "slug": "ingredients",
     "blurb": "Commodity-level contamination profiles: why an ingredient accumulates, and how much.",
     "groups": [
       {
-        "heading": "By commodity",
+        "heading": "Most studied",
+        "children": [
+          {
+            "label": "Rice",
+            "slug": "ingredients/rice",
+            "count": 275
+          },
+          {
+            "label": "Cocoa",
+            "slug": "ingredients/cocoa",
+            "count": 68
+          },
+          {
+            "label": "Fish",
+            "slug": "ingredients/fish",
+            "count": 310
+          },
+          {
+            "label": "Leafy greens",
+            "slug": "ingredients/leafy-greens",
+            "count": 41
+          },
+          {
+            "label": "Black pepper",
+            "slug": "ingredients/black-pepper",
+            "count": 13
+          },
+          {
+            "label": "Seaweed",
+            "slug": "ingredients/seaweed",
+            "count": 85
+          },
+          {
+            "label": "Cinnamon",
+            "slug": "ingredients/cinnamon",
+            "count": 21
+          }
+        ]
+      },
+      {
+        "heading": "By commodity group",
         "children": [
           {
             "label": "Fruits",
@@ -171,42 +233,23 @@ export const navPanels: NavPanel[] = [
         ]
       },
       {
-        "heading": "Most-studied ingredients",
+        "heading": "Cross-cuts",
         "children": [
           {
-            "label": "Rice",
-            "slug": "ingredients/rice",
-            "count": 275
+            "label": "Soil-to-plant transfer",
+            "slug": "supply-chain/soil-to-plant-transfer"
           },
           {
-            "label": "Cocoa",
-            "slug": "ingredients/cocoa",
-            "count": 68
+            "label": "Irrigation & soil amendments",
+            "slug": "supply-chain/irrigation-and-soil-amendments"
           },
           {
-            "label": "Fish",
-            "slug": "ingredients/fish",
-            "count": 310
+            "label": "Aquatic bioaccumulation",
+            "slug": "supply-chain/aquatic-bioaccumulation"
           },
           {
-            "label": "Leafy greens",
-            "slug": "ingredients/leafy-greens",
-            "count": 41
-          },
-          {
-            "label": "Black pepper",
-            "slug": "ingredients/black-pepper",
-            "count": 13
-          },
-          {
-            "label": "Seaweed",
-            "slug": "ingredients/seaweed",
-            "count": 85
-          },
-          {
-            "label": "Cinnamon",
-            "slug": "ingredients/cinnamon",
-            "count": 21
+            "label": "Atmospheric deposition",
+            "slug": "supply-chain/atmospheric-deposition"
           }
         ]
       }
@@ -216,7 +259,7 @@ export const navPanels: NavPanel[] = [
   {
     "key": "products",
     "label": "Products",
-    "panelLabel": "Products",
+    "panelLabel": "Product categories",
     "slug": "products",
     "blurb": "Consumer-category risk profiles, built from the ingredients that drive them.",
     "groups": [
@@ -299,9 +342,27 @@ export const navPanels: NavPanel[] = [
             "count": 10
           }
         ]
+      },
+      {
+        "heading": "Cross-cuts",
+        "children": [
+          {
+            "label": "Packaging & food contact",
+            "slug": "supply-chain/aluminum-based-packaging"
+          },
+          {
+            "label": "Testing & verification",
+            "slug": "testing",
+            "count": 2
+          },
+          {
+            "label": "Limits by jurisdiction",
+            "slug": "regulations/by-jurisdiction"
+          }
+        ]
       }
     ],
-    "allLabel": "All 414 product categories"
+    "allLabel": "All 414 categories"
   },
   {
     "key": "regulations",
@@ -337,17 +398,17 @@ export const navPanels: NavPanel[] = [
             "slug": "regulations/eu-2024-1987-nickel-maximum-levels"
           },
           {
-            "label": "By jurisdiction",
-            "slug": "regulations/by-jurisdiction"
+            "label": "EU contaminants maximum levels",
+            "slug": "regulations/eu2023-contaminants-maximum-levels"
           },
           {
-            "label": "Regulatory timeline",
-            "slug": "regulations/timeline"
+            "label": "Codex cadmium MLs",
+            "slug": "regulations/codex-cadmium-mls"
           }
         ]
       },
       {
-        "heading": "Regulatory bodies",
+        "heading": "Bodies",
         "children": [
           {
             "label": "US FDA",
@@ -378,6 +439,23 @@ export const navPanels: NavPanel[] = [
             "slug": "regulators"
           }
         ]
+      },
+      {
+        "heading": "Cross-cuts",
+        "children": [
+          {
+            "label": "By jurisdiction",
+            "slug": "regulations/by-jurisdiction"
+          },
+          {
+            "label": "Regulatory timeline",
+            "slug": "regulations/timeline"
+          },
+          {
+            "label": "Limits by metal",
+            "slug": "regulators/by-metal"
+          }
+        ]
       }
     ],
     "allLabel": "All 59 regulations"
@@ -385,7 +463,7 @@ export const navPanels: NavPanel[] = [
   {
     "key": "evidence",
     "label": "Evidence",
-    "panelLabel": "Evidence",
+    "panelLabel": "Evidence & methods",
     "slug": "trust",
     "blurb": "How the Index is built, what it covers, and where it is still thin.",
     "extraPrefixes": [
@@ -399,7 +477,7 @@ export const navPanels: NavPanel[] = [
     ],
     "groups": [
       {
-        "heading": "Methods & coverage",
+        "heading": "Methods",
         "children": [
           {
             "label": "Methodology",
@@ -421,11 +499,11 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Defensibility audits",
             "slug": "audits",
-            "count": 10
+            "count": 11
           },
           {
-            "label": "Errata & corrections",
-            "slug": "errata"
+            "label": "Completeness gaps",
+            "slug": "completeness-gaps"
           }
         ]
       },
@@ -450,6 +528,19 @@ export const navPanels: NavPanel[] = [
           {
             "label": "ICP-MS",
             "slug": "testing/icp-ms"
+          },
+          {
+            "label": "EN 1811 nickel release",
+            "slug": "testing/en-1811-nickel-release"
+          }
+        ]
+      },
+      {
+        "heading": "Cross-cuts",
+        "children": [
+          {
+            "label": "Errata & corrections",
+            "slug": "errata"
           },
           {
             "label": "Licensing & reuse",

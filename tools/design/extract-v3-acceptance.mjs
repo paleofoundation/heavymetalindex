@@ -163,10 +163,29 @@ for (const [i, l] of lines.entries()) {
   snapshot[key] = /\bsnapshot:\s*\[/.test(body)
 }
 
+// CHROME-SPEC §2: "No box-shadow outside the mega-menu panel, modals, and the
+// source drawer." The exemption list is DATA, not a constant buried in the
+// checker — §1.2 puts it in v3-acceptance.json so the one legitimate shadow in
+// the design is written down where the spec can be read against it.
+//
+// It is emitted here rather than hand-added to the JSON because this script
+// rewrites that file wholesale; a hand-added key would survive exactly until
+// the next `npm run extract:v3`. Not extracted FROM the artifact, because the
+// artifact is where the shadow is — a document cannot be its own exemption.
+const shadowExempt = [
+  ".search-container",
+  "[role='dialog']",
+  ".popover",
+  ".rail-ld",
+  ".cite-drawer",
+  ".hmi-nav-panel",
+]
+
 const spec = {
   _generated_by: "tools/design/extract-v3-acceptance.mjs",
   tailSuppressed: tail,
   hasSnapshot: snapshot,
+  shadowExempt,
   _source: "Heavy Metal Index v3.dc.html",
   _note:
     "Presence assertions are extracted from the artifact, not authored. " +

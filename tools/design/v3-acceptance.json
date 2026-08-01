@@ -45,6 +45,14 @@
     "category": true,
     "browse": true
   },
+  "shadowExempt": [
+    ".search-container",
+    "[role='dialog']",
+    ".popover",
+    ".rail-ld",
+    ".cite-drawer",
+    ".hmi-nav-panel"
+  ],
   "_source": "Heavy Metal Index v3.dc.html",
   "_note": "Presence assertions are extracted from the artifact, not authored. A missing block must fail the gate by name.",
   "screens": {
@@ -96,7 +104,7 @@
       "Heavy metal contamination profile",
       "Why this ingredient accumulates",
       "Metals profiled in rice",
-      "Irrigation management and the arsenic–cadmium trade-off",
+      "Irrigation management and the arsenic\u2013cadmium trade-off",
       "Processing effects",
       "FDA Total Diet Study occurrence",
       "Mitigation options",
@@ -121,7 +129,7 @@
     "isMetalsIdx": [
       "Overview",
       "What a metal page covers",
-      "Species — read this first",
+      "Species \u2014 read this first",
       "Metals at a glance",
       "Full index"
     ],

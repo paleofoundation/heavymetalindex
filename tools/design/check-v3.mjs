@@ -229,7 +229,7 @@ for (const p of PAGES) {
   try {
     await page.goto(base + p.url, { waitUntil: "networkidle0", timeout: 45000 })
     res = await page.evaluate(
-      (f16Blocks, chromeBlocks, absent, styles, burgundy) => {
+      (f16Blocks, chromeBlocks, absent, styles, burgundy, shadowExempt) => {
         const text = (document.body.innerText || "").toLowerCase()
         // A page that cites nothing should render NO References section, not an
         // empty one — so the References expectation is conditional on the page
@@ -244,6 +244,39 @@ for (const p of PAGES) {
             .filter((b) => citesSomething || !/^references$/i.test(b))
             .filter((b) => !text.includes(b.toLowerCase()))
         const presentOld = absent.filter((s) => document.querySelector(s) !== null)
+
+        // MEGA MENU, structural (CHROME-SPEC §1.2 / §5). Three facts per panel,
+        // each of which a computed-style check cannot see:
+        //
+        //   populated  A three-column grid with TWO populated columns computes
+        //              to `repeat(3, 1fr)` and passes a geometry assertion while
+        //              rendering a third of the panel empty. That is exactly
+        //              what shipped. So count columns that actually have a head
+        //              AND at least one link — and key on `.hmi-nav-colhead`,
+        //              because the heads are <p>, so anything keyed to h3/h4
+        //              reports zero columns on a correct panel.
+        //   rail       The 280px column is title, blurb, all-link, IN THAT
+        //              ORDER and all three in flow. The all-link used to be a
+        //              sibling of `.hmi-nav-cols` and landed in the wrong grid
+        //              cell.
+        //   grid       The panel's own 280px + remainder split.
+        const megaPanels = [...document.querySelectorAll(".hmi-nav-panel")].map((panel) => {
+          const populated = [...panel.querySelectorAll(".hmi-nav-col")].filter(
+            (c) => c.querySelector(".hmi-nav-colhead") && c.querySelector("ul > li > a"),
+          ).length
+          const rail = panel.querySelector(".hmi-nav-rail")
+          const inner = panel.querySelector(".hmi-nav-panel-inner")
+          return {
+            id: panel.id || "(unnamed panel)",
+            populated,
+            railKids: rail
+              ? [...rail.children]
+                  .map((c) => (typeof c.className === "string" ? c.className.split(" ")[0] : "?"))
+                  .join(" · ")
+              : "NO RAIL",
+            gridFirst: inner ? getComputedStyle(inner).gridTemplateColumns.split(" ")[0] : "NO INNER",
+          }
+        })
         const styleResults = styles.map((a) => {
           const el = document.querySelector(a.sel)
           return { ...a, got: el ? getComputedStyle(el)[a.prop] : "NO SUCH ELEMENT" }
@@ -268,8 +301,10 @@ for (const p of PAGES) {
         }
         // CHROME-SPEC §2: the mega-menu panel's drop shadow is a LEGITIMATE
         // exception to the no-box-shadow assertion, alongside modals and the
-        // source drawer. Exempted here rather than deleting the shadow.
-        const MODAL = ".search-container, [role='dialog'], .popover, .rail-ld, .cite-drawer, .hmi-nav-panel"
+        // source drawer. The list is passed in from v3-acceptance.json's
+        // `shadowExempt` (§1.2) so the exemption is spec data a reader can audit,
+        // not a string literal inside the checker.
+        const MODAL = shadowExempt.join(", ")
         const toHex = (v) => {
           const m = String(v).match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*([\d.]+))?\)/)
           if (!m) return null
@@ -332,6 +367,7 @@ for (const p of PAGES) {
           chromeMissing: missing(chromeBlocks),
           presentOld,
           styleResults,
+          megaPanels,
           neg,
         }
       },
@@ -340,6 +376,7 @@ for (const p of PAGES) {
       ABSENT,
       styleSet,
       V3_BURGUNDY,
+      SPEC.shadowExempt ?? [".search-container", "[role='dialog']", ".popover", ".rail-ld", ".cite-drawer", ".hmi-nav-panel"],
     )
   } catch (e) {
     record("chrome", false, {
@@ -364,6 +401,20 @@ for (const p of PAGES) {
     const got = NORM(r.got)
     record("chrome", got === r.want, {
       page: p.url, kind: "style", sel: r.sel, prop: r.prop, want: r.want, got, v3: r.v3,
+    })
+  }
+  record("chrome", res.megaPanels.length === 5, {
+    page: p.url, kind: "structure", sel: ".hmi-nav-panel", prop: "count", want: "5", got: String(res.megaPanels.length),
+  })
+  for (const m of res.megaPanels) {
+    record("chrome", m.populated === 3, {
+      page: p.url, kind: "structure", sel: m.id, prop: "populated columns", want: "3", got: String(m.populated),
+    })
+    record("chrome", m.railKids === "hmi-nav-title · hmi-nav-blurb · hmi-nav-all", {
+      page: p.url, kind: "structure", sel: m.id, prop: "rail children", want: "hmi-nav-title · hmi-nav-blurb · hmi-nav-all", got: m.railKids,
+    })
+    record("chrome", m.gridFirst === "280px", {
+      page: p.url, kind: "structure", sel: m.id, prop: "grid col 1", want: "280px", got: m.gridFirst,
     })
   }
   for (const [name, hits] of [
