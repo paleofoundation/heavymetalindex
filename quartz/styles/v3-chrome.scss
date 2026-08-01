@@ -142,6 +142,28 @@ footer.site-footer {
   letter-spacing: -0.015em;
 }
 
+/* ══ nav container (v3:43, CHROME-SPEC §1) ═════════════════════════════════
+   THE HORIZONTAL-OVERFLOW FIX. topNav.scss gives this `flex: 1 1 auto` with no
+   `min-width`. A flex item defaults to `min-width: auto`, which refuses to
+   shrink below its content's intrinsic width — 1113px here — so the header row
+   forced documentElement.scrollWidth to 1474 against a 1220 clientWidth: 254px
+   of sideways scroll on EVERY page, and the reason "Ask the Index" was clipped.
+
+   v3 states all four properties for exactly this reason. `min-width: 0` lets the
+   item shrink; `overflow: hidden` clips the nav rather than the document.
+
+   This is layout containment, which is why no computed-property assertion caught
+   it: every individual value was correct and the page still scrolled sideways.
+   A scrollWidth <= clientWidth assertion now runs at 1280 and 1440. */
+.hmi-topnav-menu {
+  display: flex;
+  align-items: stretch;
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  gap: 2px;
+}
+
 /* ══ nav triggers (artifact 45, constant at 1993) ══════════════════════════
    v3's trigger declares NO background, NO border-radius, NO uppercase and NO
    font-weight. The open state is signalled ONLY by the bottom rule going

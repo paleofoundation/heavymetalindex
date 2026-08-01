@@ -214,8 +214,27 @@ for (const p of PAGES) {
           return { ...a, got: el ? getComputedStyle(el)[a.prop] : "NO SUCH ELEMENT" }
         })
 
-        const neg = { shadow: [], gradient: [], burgundy: [], radius: [] }
-        const MODAL = ".search-container, [role='dialog'], .popover, .rail-ld, .cite-drawer"
+        const neg = { shadow: [], gradient: [], burgundy: [], radius: [], overflow: [] }
+
+        // LAYOUT CONTAINMENT. Every computed property on this page can be
+        // correct while the document still scrolls sideways — which is exactly
+        // what happened: .hmi-topnav-menu had no min-width, so its 1113px
+        // intrinsic width pushed scrollWidth to 1474 against a 1220 clientWidth
+        // on every page, clipping "Ask the Index". No property assertion can
+        // see that, because it is a relationship between elements, not a value
+        // on one. Checked here instead.
+        const de = document.documentElement
+        if (de.scrollWidth > de.clientWidth) {
+          const wide = [...document.querySelectorAll("*")]
+            .filter((e) => e.getBoundingClientRect().right > de.clientWidth + 1)
+            .slice(0, 3)
+            .map((e) => e.tagName.toLowerCase() + "." + (typeof e.className === "string" ? e.className.split(" ")[0] : ""))
+          neg.overflow.push(`${de.scrollWidth} > ${de.clientWidth} (+${de.scrollWidth - de.clientWidth}px) :: ${wide.join(", ")}`)
+        }
+        // CHROME-SPEC §2: the mega-menu panel's drop shadow is a LEGITIMATE
+        // exception to the no-box-shadow assertion, alongside modals and the
+        // source drawer. Exempted here rather than deleting the shadow.
+        const MODAL = ".search-container, [role='dialog'], .popover, .rail-ld, .cite-drawer, .hmi-nav-panel"
         const toHex = (v) => {
           const m = String(v).match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*([\d.]+))?\)/)
           if (!m) return null
@@ -317,6 +336,7 @@ for (const p of PAGES) {
     ["no gradient anywhere", res.neg.gradient],
     ["no burgundy outside the four hexes", res.neg.burgundy],
     ["no border-radius >3px (50% on <=16px exempt)", res.neg.radius],
+    ["no horizontal overflow (scrollWidth <= clientWidth)", res.neg.overflow],
   ]) {
     record("chrome", hits.length === 0, {
       page: p.url, kind: "negative", sel: name, prop: "count", want: "0",
