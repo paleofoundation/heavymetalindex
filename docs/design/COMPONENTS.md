@@ -86,10 +86,20 @@ the evidence tree; not surfacing it is the largest unforced loss in the current 
 
 ---
 
-## 3. Claim underline
+## 3. Claim underline — *deferred, not cancelled*
+
+**OBJECTION 1 upheld (ground B).** `data-claim` appears zero times in the repo and zero
+times across 3,884 built pages; `claims.jsonl` is a 1-byte file behind a real schema and
+nothing mints the keys. The rule below is correct and would match nothing. It is not the
+first move in this chain, it is the last: populate `claims.jsonl` against
+`claim.schema.json` → emit spans from the generator (F-16) → *then* one line of CSS.
+
+Do **not** delete `_legacy-all.scss:242–258` in anticipation. It reads like a predecessor
+and is not — it styles the citation `<a>`, live on 1,494 anchors in `metals/lead`
+(`METHOD.md` §1 guard).
 
 Reader need: see which words are a traceable claim and which are connective prose.
-Data: `data-claim` cite keys, already minted (`<firstauthor><year>-<slug>` per `docs/conventions.md`).
+Data: `data-claim` cite keys, **not yet minted** (`<firstauthor><year>-<slug>` per `docs/conventions.md`).
 Today: nothing — claims are visually identical to surrounding prose.
 
 ```
@@ -97,8 +107,10 @@ span[data-claim]  border-bottom: 1px dotted #cbb4bc
                   id="claim-<cNN>" · data-claim="<citekey>-<cNN>"
 ```
 
-One line of CSS. It converts every synthesis page from an essay into a claim-bearing
-record, and it is the visual precondition for the claim ledger in Index Pro.
+v3 carries this as an inline style per span (v3:461) — there is no source CSS block to
+port, so it is a translation, not a copy. When it does land it converts every synthesis
+page from an essay into a claim-bearing record, and it is the visual precondition for
+the claim ledger in Index Pro.
 
 ---
 
@@ -206,30 +218,72 @@ Rules come from the **gap**, not from per-cell borders — cells sit on `#fffdfb
 
 ---
 
-## 9. Caveat callout
+## 9. Caveat callout — two states
 
 Reader need: know where the page is thin, without hunting.
-Data: `uncertainty` / `gaps` frontmatter.
+Data: **heading-driven, not frontmatter-driven.** `uncertainty` / `gaps` do not exist
+among the repo's 375 frontmatter keys (OBJECTION 2, upheld). The real signal is
+`## Limitations` (191 pages) + `## Open questions` (14).
 Today: an ordinary paragraph, indistinguishable from findings.
+
+**Present state** — the page has a written limitations section:
 
 ```
 border-left: 3px solid #8b2a4a · background: #fbf5f7 · padding: 18px 22px
 copy 15.5px · line-height 1.75 · #5a4148
 ```
 
-Every detail screen has one. v3 never buries a limitation in body prose.
+**Absent state** — new, and the answer to the 735 ingredient / product-category /
+regulation pages that carry no limitations section at all.
+
+My original line — *"every detail screen has one"* — was false, and the fix is not to
+render nothing. A page with no caveat block reads as *no caveats exist*, which is a
+stronger and less true claim than *nobody has written this yet*. The Index's whole
+posture is stating where it is thin; silence is the one thing it cannot do here.
+
+So: a different treatment, because it is a different epistemic claim. Lower contrast,
+no burgundy bar — the burgundy bar means *a reviewed limitation exists* and must keep
+meaning only that.
+
+```
+border: 1px dotted #e8e1db · background: #faf7f4 · padding: 15px 18px
+kicker  IBM Plex Mono 9.5px · 0.14em · uppercase · #a9a1a2 · margin-bottom 7px
+        NO REVIEWED LIMITATIONS SECTION
+copy    13px · line-height 1.65 · #a9a1a2
+        "This page has no reviewed limitations section yet. That is a gap in the
+         record, not a statement that none apply."
+link    13px · #1c43ad — "Suggest a correction", targeting the rail's Found an error? block
+```
+
+Renders on **Tier 1 evidence pages only** — metals, ingredients, products, regulations,
+sources, synthesis. Never on registries, category indexes, or search. An absence is only
+worth stating where a reader had reason to expect presence.
 
 ---
 
-## 10. Caption
+## 10. Caption — two positions, both valid
 
 ```
-11.5px · line-height 1.55 · #a9a1a2 · margin-top 10–16px
+11.5px · line-height 1.55 · #a9a1a2
+below  margin-top 10–16px      (v3's default)
+above  margin-bottom 10–16px   (equally valid — see below)
 ```
 
 Attaches to every table, chart and timeline, and carries the thing that would otherwise
-be a misreading — the basis, the legal status, or the fact that a number is a
-population percentile rather than a safety threshold.
+be a misreading — the basis, the legal status, or the fact that a number is a population
+percentile rather than a safety threshold.
+
+**OBJECTION 3 resolved without an F-16 item.** Generated table notes are emitted *above*
+the table, and 227 ingredient pages carry a frozen note in `wiki/` that no checked-in
+generator produces — so the position cannot be changed from the component layer, and for
+those 227 it cannot be changed at all without content edits.
+
+Rather than log debt that can never be paid: **caption-above is a legitimate variant, not
+a deviation.** A note before a table functions as a basis statement (*values are ppb, wet
+weight*) and reads correctly there; a note after functions as a qualifier on what was
+just read. Both are real typographic forms. Same type spec, margin flips.
+
+Style notes as captions **in place**. No reposition, no F-16 entry.
 
 ---
 
@@ -238,14 +292,16 @@ population percentile rather than a safety threshold.
 One component per commit, in this order — leverage descending:
 
 1. ~~Burgundy table~~ *(landed)*
-2. Claim underline — one CSS rule, every synthesis page
+2. ~~Claim underline~~ *(deferred — no `data-claim` exists to match; see §3)*
 3. Citation marker + source drawer — the affordance that defines the product
-4. Caption + caveat callout — cheap, and they stop misreadings
+4. Caption + caveat callout — cheap, and they stop misreadings; both have a second
+   state/position (§9–10) and the absent-state caveat is the higher-value half, since
+   it covers 735 pages that would otherwise render nothing
 5. Grid-of-records — replaces bulleted registries
 6. Chart / timeline / anchor panel / findings row — these need **generator** work (F-16),
    because they replace emitted prose with emitted structure
 
-Items 2–5 are chrome or CSS and land against `quartz/`. Item 6 is the emitter, and per
+Items 3–5 are chrome or CSS and land against `quartz/`. Item 6 is the emitter, and per
 `METHOD.md` §3 it is a separate project. **Name the layer before starting.**
 
 For each: state the reader need, name the data source in the repo, delete the old

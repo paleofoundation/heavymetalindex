@@ -107,20 +107,56 @@ Assertion shape, unchanged from the existing file — cite the v3 line for every
 { "sel": ".hero-glyph", "absent": true }
 ```
 
-Add three **negative sitewide assertions**, checked on every surface. They are cheap
+Add four **negative sitewide assertions**, checked on every surface. They are cheap
 and they catch the class of regression that specificity patches produce:
 
 - no element has a `box-shadow` outside a modal or the source drawer
 - no element has a `background-image: linear-gradient(...)`
 - no burgundy other than `#8b2a4a` / `#6f2139` / `#571a2c` / `#4a1526` appears as a
   computed colour (`#9a2852` shipped in `middleware.ts` for months)
+- **no computed `border-radius` above 3px**, with one exemption: `50%` on an element
+  whose width is ≤16px (the timeline dots, `COMPONENTS.md` §5). This is the assertion
+  the 20 surviving `999px` rules belong to — reporting them rather than sweeping them
+  was right; the pill is a sitewide property, not eleven local bugs.
 
 **`absent: true` is the important half.** A change that adds v3's markup while leaving
 the old markup alive looks complete in a diff and renders as the old build.
 
+### Scope, and what the exit code is allowed to mean
+
+Assertions covering the ~32 emitted body sections are real and must stay in the file —
+but they are F-16, and this project cannot fix them. They must not gate.
+
+**Do not use a boolean `f16: true` flag.** A flag that removes a failure from the report
+produces the exact thing the gate exists to prevent: something that looks complete and
+isn't. Use a **scope** field instead, and make the runner *always print both buckets*:
+
+```json
+{ "sel": "...", "prop": "...", "want": "...", "v3": 0, "scope": "chrome" }
+{ "sel": "...", "prop": "...", "want": "...", "v3": 0, "scope": "f16" }
+```
+
+Default `scope` is `chrome`. The summary line is mandatory on every run, pass or fail:
+
+```
+chrome   38/38 pass   ✓ gating
+f16       0/20 pass   ✗ not gating — 20 known gaps
+```
+
+Exit code reflects **`chrome` only.** Two properties follow, and both matter:
+
+- "unfinished until it exits 0" recovers its meaning for the work that is in scope.
+- The f16 count is never suppressed, so a green gate can never be misread as "v3
+  landed." It reads as "the chrome is right and 20 body sections are still missing."
+
+That count is also the F-16 backlog metric — when that project starts, it burns down in
+public. **An assertion may not move from `f16` to `chrome` except by F-16 landing it,**
+and moving one between scopes follows the same rule as loosening one: separate commit,
+with justification.
+
 **Gate.** Run it. **It is expected to fail** — that is the deliverable. Paste the full
-failure list as `selector · prop · want · got`, grouped by surface. Do not fix
-anything in this branch, and do not loosen an assertion to make it pass. If an
+failure list as `selector · prop · want · got`, grouped by surface and by scope. Do not
+fix anything in this branch, and do not loosen an assertion to make it pass. If an
 assertion is genuinely wrong, change it in a **separate commit** with the v3 line
 number as justification.
 
@@ -142,9 +178,12 @@ not a stylesheet — the unit of work is **the component, not the page.**
 **Order — leverage descending** (`COMPONENTS.md` §How to codify):
 
 1. ~~burgundy-header table~~ *(landed, 788b6fde1)*
-2. **claim underline** — one CSS rule, every synthesis page
-3. **citation marker + source drawer** — the affordance that defines the product
-4. **caption + caveat callout** — cheap, and they stop misreadings
+2. ~~claim underline~~ — **deferred. OBJECTION 1 upheld.** There is no `data-claim` to
+   match, so the rule is correct and inert. It re-enters the queue only after
+   `claims.jsonl` is populated against `claim.schema.json` and a generator emits the
+   spans — that chain starts in evidence work, not here. The CSS is last in it, not first.
+3. **citation marker + source drawer** — now first. The affordance that defines the product.
+4. **caption + caveat callout** — both have a second variant, see `COMPONENTS.md` §9–10.
 5. **grid-of-records** — replaces bulleted registries
 6. chart / timeline / anchor panel / findings row → **F-16, stop and log**
 

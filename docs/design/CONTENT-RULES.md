@@ -66,7 +66,8 @@ Current content → v3 component (all specs in `COMPONENTS.md`).
 | dataset described in prose | judge independent agreement | **anchor-dataset panel** | 1 |
 | label-and-number in a sentence | read a measured value | **dotted key–value row** | 1 |
 | limitations paragraph | find where the page is thin | **caveat callout**, `border-left 3px #8b2a4a` | 1 |
-| table/chart with no note | prevent a misreading | **caption**, 11.5px `#a9a1a2` | 1 |
+| **no** limitations section | know the gap is a gap, not an all-clear | **caveat callout, absent state** — dotted `#e8e1db` on `#faf7f4`, 13px `#a9a1a2` (`COMPONENTS.md` §9). Tier 1 evidence pages only | 1 |
+| table/chart with no note | prevent a misreading | **caption**, 11.5px `#a9a1a2` — above or below, both valid | 1 |
 | bulleted registry / link list | scan what exists | **grid-of-records**, 1px-gap rules | 2 |
 | "Researched by" block | attribution | hero meta row (inline, real ORCID link) | 2 |
 | page snapshot card | orient before reading | hero **snapshot box**, square, dotted rows, tabular-nums | 2 |

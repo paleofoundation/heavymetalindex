@@ -42,6 +42,16 @@ fourth specificity patch.
 **Rule:** if a fix takes the form *add a more specific selector*, it is the wrong
 fix. Find the losing rule and delete it.
 
+**Guard — verify the target is actually a predecessor.** The ledger below is a
+hypothesis written from the design side; it can name a rule that is not the one in the
+way. Before deleting, check what currently matches the selector in the built site. If
+it has live matches that the new component does not replace, it is not a predecessor —
+report it and leave it. `_legacy-all.scss:242–258` looked like the claim underline's
+ancestor and is in fact the live citation anchor style on 1,494 anchors in
+`metals/lead`; deleting it would have been a regression executed with confidence.
+"Delete, don't out-specify" is a rule about *how* to remove the right rule, never a
+licence to remove a rule that hasn't been confirmed as the wrong one.
+
 ### Deletion ledger
 
 Before writing any new component style, delete its predecessor. Nothing lands
