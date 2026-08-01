@@ -22,16 +22,54 @@
 // Re-run it whenever the artifact changes. The JSON is committed so the gate
 // runs without the artifact present (it lives outside the repo, on the Desktop).
 
-import { readFileSync, writeFileSync, existsSync } from "node:fs"
+import { readFileSync, writeFileSync, existsSync, readdirSync, statSync } from "node:fs"
 import { fileURLToPath } from "node:url"
 import { dirname, join } from "node:path"
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const OUT = join(HERE, "v3-acceptance.json")
 
-const ARTIFACT =
-  process.env.V3_ARTIFACT ??
-  "/Users/karenpendergrass/Desktop/Heavy Metal Index redesign/Heavy Metal Index v3.dc.html"
+// The artifact lives outside the repo, in a folder that gets RE-DOWNLOADED when
+// the design is updated — which appends " (1)" and deletes the old folder. A
+// hardcoded path breaks every time that happens (it already did once, silently,
+// mid-session). Resolve by search instead: newest matching file wins, so an
+// updated export is picked up automatically.
+function findArtifact() {
+  if (process.env.V3_ARTIFACT) return process.env.V3_ARTIFACT
+  const home = process.env.HOME ?? ""
+  const roots = [join(home, "Desktop"), home]
+  const hits = []
+  for (const root of roots) {
+    let entries = []
+    try {
+      entries = readdirSync(root, { withFileTypes: true })
+    } catch {
+      continue
+    }
+    for (const e of entries) {
+      if (!e.isDirectory()) continue
+      const dir = join(root, e.name)
+      let inner = []
+      try {
+        inner = readdirSync(dir)
+      } catch {
+        continue
+      }
+      for (const f of inner) {
+        if (/^Heavy Metal Index v3.*\.dc\.html$/i.test(f)) {
+          const full = join(dir, f)
+          try {
+            hits.push({ full, mtime: statSync(full).mtimeMs })
+          } catch {}
+        }
+      }
+    }
+  }
+  hits.sort((a, b) => b.mtime - a.mtime)
+  return hits[0]?.full ?? ""
+}
+
+const ARTIFACT = findArtifact()
 
 if (!existsSync(ARTIFACT)) {
   console.error(`v3 artifact not found: ${ARTIFACT}`)

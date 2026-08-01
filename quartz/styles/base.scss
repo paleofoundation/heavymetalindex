@@ -2,7 +2,11 @@
 
 @use "./variables.scss" as *;
 @use "./syntax.scss";
-@use "./callouts.scss";
+// callouts.scss REMOVED. It was 187 lines of Obsidian admonition styling with
+// nothing to style: 0 files under wiki/ use `> [!note]` syntax and 0 built pages
+// emit `class="callout"`. It also squatted the name the v3 caveat callout wants
+// (COMPONENTS.md item 9), so per METHOD.md §1 it dies before that lands rather
+// than being out-specified around.
 
 html {
   scroll-behavior: smooth;
