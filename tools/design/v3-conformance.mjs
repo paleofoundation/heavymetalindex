@@ -56,7 +56,10 @@ export const V3_HOME_EXPECTATIONS = [
   // ── start here (v3 134-147, 2016) ──
   [".hmi-v3-start|backgroundColor", "rgb(255, 253, 251)"],
   [".hmi-v3-start-inner|padding", "64px 48px 72px"],
-  [".hmi-v3-start-row|gridTemplateColumns", "340px 758px 150px"],
+  [".hmi-v3-start-row|gridTemplateColumns", "340px 750px 150px"],
+  [".hmi-v3-start-row|padding", "26px 4px"],
+  [".hmi-v3-start-row|gap", "48px"],
+  [".hmi-v3-start-n|textAlign", "right"],
   [".hmi-v3-start-t|fontSize", "26px"],
   [".hmi-v3-start-t|fontWeight", "400"],
 
@@ -103,6 +106,28 @@ export const V3_HOME_EXPECTATIONS = [
   [".site-footer-inner|padding", "76px 56px 40px"],
   [".site-footer-inner|gap", "72px"],
   [".site-footer-logo|fontSize", "24px"],
+]
+
+// Narrow branch. v3 makes exactly seven things responsive; every HOME A section
+// wrapper keeps its literal padding at every width. These assertions exist
+// because an earlier pass invented responsive padding on five sections and
+// forced the start-here count left — neither is in the artifact, and neither was
+// visible at the single width the first conformance table tested.
+export const V3_HOME_EXPECTATIONS_NARROW = [
+  [".hmi-v3-start-inner|padding", "64px 48px 72px"],
+  [".hmi-v3-registries-inner|padding", "72px 48px 80px"],
+  [".hmi-home-metals|padding", "88px 48px"],
+  [".hmi-v3-trust-inner|padding", "88px 48px"],
+  [".hmi-v3-rev-inner|padding", "72px 48px 80px"],
+  [".hmi-v3-registries-inner|maxWidth", "1760px"],
+  [".hmi-v3-rev-inner|maxWidth", "1760px"],
+  [".hmi-v3-start-n|textAlign", "right"],
+  [".hmi-v3-start-row|gap", "8px"],
+  [".hmi-v3-start-row|padding", "20px 2px"],
+  [".hmi-v3-hero-inner|padding", "56px 24px"],
+  [".hmi-v3-split-inner|padding", "56px 24px"],
+  [".hmi-v3-hero-copy h1|fontSize", "36px"],
+  [".hmi-v3-registries-inner|gap", "32px 28px"],
 ]
 
 // The runner is a string so the same implementation serves both execution

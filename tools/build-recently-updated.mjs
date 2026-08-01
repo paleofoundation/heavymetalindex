@@ -125,12 +125,14 @@ const items = recent
 
 const block = `${BEGIN}
 <section class="hmi-v3-rev" data-no-cite aria-label="Recently revised">
+  <div class="hmi-v3-rev-inner">
   <div class="hmi-v3-rev-head">
     <h2>Recently revised</h2>
     <a class="hmi-v3-rev-all" href="audits/">Full update history &rarr;</a>
   </div>
   <div class="hmi-v3-rev-grid">
 ${items}
+  </div>
   </div>
 </section>
 ${END}`

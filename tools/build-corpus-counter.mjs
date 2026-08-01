@@ -246,9 +246,14 @@ function renderFeatureGrid(c) {
   </a>`,
     )
     .join("\n")
+  // v3 163-165: a full-bleed band whose INNER wrapper carries max-width 1760
+  // and the 72px 48px 80px padding. Without the wrapper the cards spread past
+  // 1760 on wide viewports instead of centring.
   return `${featureBeginMarker}
 <section class="hmi-v3-registries" aria-label="Registries">
+  <div class="hmi-v3-registries-inner">
 ${body}
+  </div>
 </section>
 ${featureEndMarker}`
 }

@@ -51,7 +51,12 @@
 
 /* No pill on any internal link anywhere in the build, default OR hover —
    overrides the Quartz base a.internal / tag-link background. */
-a.internal,
+// The v3 classes are excluded because `!important` INVERTS cascade-layer
+// order: a layered !important beats an unlayered normal declaration, so this
+// rule was zeroing the padding on v3's start-here rows and registry cards even
+// though those live in the authoritative unlayered sheet. Simple :not() only —
+// the complex form is dropped by Safari 15.6, which componentResources targets.
+a.internal:not(.hmi-v3-start-row):not(.hmi-v3-registry):not(.hmi-v3-rev-t):not(.hmi-v3-start-t),
 a.internal.tag-link {
   background: none !important;
   border-radius: 0 !important;
