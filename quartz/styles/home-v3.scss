@@ -616,3 +616,45 @@
   .hmi-metal-table .hmi-metal-drivers,
   .hmi-metal-table th:nth-child(4) { display: none; }
 }
+
+/* ══ what v3's HOME A does NOT contain ════════════════════════════════
+   v3 ends at "Recently revised". The build additionally rendered a
+   .page-header above the hero and Component.RelatedPages()'s "See also" band
+   between the last section and the footer; neither exists in the design.
+   Unlayered, so this is authoritative without a specificity fight. */
+.proof-home .page-header,
+.proof-home .hmi-related,
+.hmi-v3-home ~ .hmi-related,
+body:has(.hmi-v3-home) .hmi-related { display: none; }
+
+/* ══ neutralise legacy defaults the v3 rules are SILENT about ═════════
+   Layers make v3 win where v3 speaks. Where it says nothing, legacy still
+   fills in — the metal table's th inherited a solid #8b2a4a bar because these
+   rules never declared `background`. v3's table is text on a hairline. */
+.hmi-metal-table,
+.hmi-metal-table thead,
+.hmi-metal-table tbody,
+.hmi-metal-table tr,
+.hmi-metal-table th,
+.hmi-metal-table td {
+  background: none;
+  background-color: transparent;
+  color: inherit;
+}
+
+.hmi-metal-table th {
+  color: #a9a1a2;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.hmi-metal-table td {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.hmi-v3-home {
+  table { border-collapse: collapse; }
+}
