@@ -189,13 +189,42 @@ footer.site-footer {
   align-items: start;
 }
 
-.hmi-nav-blurb {
-  margin: 0;
+/* the 280px left rail — title + blurb + all-link, all in flow (CHROME-SPEC §2,
+   v3:77-81). The border-right belongs to the RAIL, not to the blurb: it used to
+   sit on .hmi-nav-blurb, so the rule stopped at the end of the paragraph
+   instead of running the height of the column. */
+.hmi-nav-rail {
   border-right: 1px solid #efe9e3;
   padding-right: 40px;
+}
+
+.hmi-nav-title {
+  margin: 0 0 10px;
+  font-family: Lora, serif;
+  font-size: 20px;
+  color: #8b2a4a;
+}
+
+.hmi-nav-blurb {
+  margin: 0 0 16px;
+  border-right: 0;
+  padding-right: 0;
   font-size: 13px;
   line-height: 1.65;
   color: #736b6e;
+}
+
+.hmi-nav-all {
+  display: inline-block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #8b2a4a;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 .hmi-nav-cols {
@@ -216,11 +245,14 @@ footer.site-footer {
 }
 
 .hmi-nav-col ul {
+  /* No `gap` — CHROME-SPEC §2: the 1px dotted rules do the separating, and a
+     gap here is what made the rows loose against v3's compact density. */
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
   list-style: none;
+  gap: 0;
 }
 
 .hmi-nav-col ul > li {

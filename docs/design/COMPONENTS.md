@@ -25,7 +25,7 @@ key    13px · line-height 1.5 · #3f3a3f
 value  IBM Plex Mono 12.5px · #8b2a4a · white-space: nowrap
 ```
 
-Appears in the anchor-dataset panel, the citation drawer's "Values used on this page",
+Appears in the anchor-dataset panel, both of the citation drawer's value sections,
 and the hero snapshot (at `10px 0` padding). **Any measured value paired with a label
 uses this row.** Prose sentences containing a number are a defect, not a style choice.
 
@@ -72,8 +72,29 @@ Today: a superscript that jumps to a footnote list at the bottom of the page.
 - Header: `padding 22px 26px 18px`, `border-bottom 1px #e8e1db`. Kicker `SOURCE RECORD [n]`
   mono 10px `0.14em` uppercase `#8b2a4a`. Title Lora 21px `line-height 1.3` `#2b1f24`.
   Meta 12.5px `#736b6e`. Close `×` 22px `#b7aeb0`, hover `#8b2a4a`.
-- Body `padding 20px 26px 34px`. Label **"Values used on this page"** mono 9.5px `0.14em`
-  uppercase `#a9a1a2`, then dotted key–value rows at `padding 10px 0`.
+- Body `padding 20px 26px 34px`. **Two value sections, in this order** — the first is
+  conditional, the second always renders.
+
+  **`USED ON THIS PAGE`** — mono 9.5px `0.14em` uppercase `#8b2a4a`, dotted key–value
+  rows at `padding 10px 0`, uncapped. Renders **only** when the marker carries a
+  `value_id`. When it does not, this section is **absent entirely** — no empty state, no
+  placeholder. An empty "used on this page" reads as *this source supports nothing here*,
+  which is false.
+
+  **`VALUES EXTRACTED FROM THIS DOCUMENT · <n>`** — mono 9.5px `0.14em` uppercase
+  `#a9a1a2`, same rows, `max-height 220px` `overflow auto`. Filtered from
+  `values.jsonl` by `source_id`, which exists today. The count is not decoration: it
+  tells the reader whether the document is rich or thin before they scroll it.
+
+  **Why this order and these labels.** The page↔value join does not exist, so the
+  document — not the page — is what this drawer can honestly be *about*. Its load-bearing
+  content is document identity: title, meta, integrity hash, and the route to the source
+  record. The value list is corroborating detail underneath that, and capping it says so.
+  When the join lands, the first section appears above and nothing else moves.
+
+  **The upgrade path is one scoped ask, not F-16:** can the citation marker be emitted
+  carrying the `value_id` it annotates? That is a marker-attribute question, not a
+  page-level index. Log it as its own finding.
 - **Document integrity** block: `background #fbf5f7`, `border 1px #eddfe4`, `padding 15px 17px`,
   `margin-top 24px`. Label mono 9.5px `0.12em` uppercase `#8b2a4a`. Hash mono 11px
   `line-height 1.75` `#5a4148` `word-break: break-all`.
