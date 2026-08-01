@@ -5,6 +5,11 @@ import { writeStableJsonSummary } from "./stable-json-summary.mjs"
 const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
 const productFilter = args.get("product") ?? ""
+// Which queue priorities the extraction lane will touch. Historically hardcoded to
+// P0, which left 1840 P1-extract-or-document-context-only rows permanently outside
+// the lane — the single largest cause of starved pools, since a P1 row is
+// "extract this or say why it is context-only", not "ignore this".
+const priorityFilter = (args.get("priority") ?? "P0").split(",").map((p) => p.trim()).filter(Boolean)
 const queuePath = path.join(repoRoot, "data/evidence/local_reingest_queue.csv")
 const packetRoot = path.join(repoRoot, "data/evidence/local_reingest_packets")
 const outputPath = path.join(repoRoot, "data/evidence/local_reingest_candidate_values.csv")
@@ -16,7 +21,10 @@ const promptRoot = path.join(repoRoot, "data/evidence/local_reingest_prompts")
 const queueRows = fs.existsSync(queuePath) ? parseCsv(fs.readFileSync(queuePath, "utf8")) : []
 const selectedRows = queueRows
   .filter((row) => !productFilter || row.product_slug === productFilter)
-  .filter((row) => row.priority?.startsWith("P0") && row.local_pdf_status === "local_pdf_found")
+  .filter(
+    (row) =>
+      priorityFilter.some((p) => row.priority?.startsWith(p)) && row.local_pdf_status === "local_pdf_found",
+  )
 
 const candidateRows = []
 const dispositionRows = []
@@ -56,8 +64,11 @@ for (const row of selectedRows) {
   })
 }
 
-writeCsv(outputPath, candidateRows, candidateHeaders())
-writeCsv(dispositionPath, dispositionRows, dispositionHeaders())
+// These three files are global. When --product scopes the run, only that product's
+// rows were recomputed, so a plain overwrite would delete every other product's
+// rows. Merge instead: drop the scoped product's stale rows, keep the rest.
+writeCsv(outputPath, mergeScoped(outputPath, candidateRows, candidateHeaders()), candidateHeaders())
+writeCsv(dispositionPath, mergeScoped(dispositionPath, dispositionRows, dispositionHeaders()), dispositionHeaders())
 writeCsv(tasksPath, taskRows, [
   "product_slug",
   "source_id",
@@ -1993,6 +2004,24 @@ function parseCsv(text) {
 
   const [headers = [], ...body] = rows.filter((line) => line.some((cell) => cell !== ""))
   return body.map((cells) => Object.fromEntries(headers.map((header, index) => [header, cells[index] ?? ""])))
+}
+
+// Replace only what this run actually reprocessed, keyed on (product_slug, source_id).
+//
+// A plain overwrite is data loss here. The deterministic extractors are keyed to
+// specific source_ids, and once those sources leave the selected priority band
+// (e.g. they get promoted out of P0) a rerun matches nothing and emits zero rows —
+// silently truncating candidate values produced by earlier runs. Scoping with
+// --product has the same effect for every other product. Only rows whose source
+// was in this run's selection are authoritative; everything else is carried over.
+function mergeScoped(filePath, freshRows, headers) {
+  if (!fs.existsSync(filePath)) return freshRows
+  const reprocessed = new Set(selectedRows.map((row) => `${row.product_slug} ${row.source_id}`))
+  const existing = parseCsv(fs.readFileSync(filePath, "utf8"))
+  const kept = existing.filter((row) => !reprocessed.has(`${row.product_slug} ${row.source_id}`))
+  const merged = [...kept, ...freshRows]
+  // Re-key to the current header set so a schema change does not smuggle stale columns.
+  return merged.map((row) => Object.fromEntries(headers.map((h) => [h, row[h] ?? ""])))
 }
 
 function writeCsv(filePath, rows, headers) {

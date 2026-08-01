@@ -78,11 +78,36 @@ mass. The engine's powder↔prepared factor is 1:7. Any conversion of the soares
 into powder-as-placed basis using the standard factor is wrong by more than a factor of
 two on top of the species problem.
 
+### Independent corroboration (added 2026-08-01)
+
+`hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france` (ANSES, Guérin; *Food Additives &
+Contaminants Part B*) determined total Cr and Cr(VI) by LC-ICP-MS in **68 brands** of
+milk, dairy and cereal products. Its finding: "Cr(VI) was not detected in these samples
+despite the very high sensitivity of the method used. It was therefore assumed that
+total chromium is only present in the Cr(III) form."
+
+The paper goes further and names the artifact hypothesis directly. It contrasts its
+result with "previous studies using off-line speciation methods that found that Cr(VI)
+represented between 1.3% and 20% of total chromium in milk, bread, tea and mushroom
+samples (Figueiredo et al. 2007; Ambushe et al. 2009; **Soares et al. 2010**; Mandiwana
+et al. 2011)," and concludes that "the detected Cr(VI) in previous studies was probably
+due to **analytical artefacts or lack of specificity**."
+
+That is the published literature independently reaching the same conclusion about the
+same method family this adjudication rejects. Scope caveat: hernandez2019 covers milk,
+dairy and cereal products (38 milk/dairy + 30 cereal), not infant formula specifically,
+so it is mechanism-level corroboration for the matrix rather than direct formula
+occurrence evidence.
+
+Total Cr in its milk/dairy categories, UB, µg/kg fresh weight: milk 9.5 (n=3),
+ultra-fresh dairy 5.9 (n=24), cheese 25 (n=11); 58% of milk and dairy above LOQ.
+
 ### Disposition
 
 Cr-VI is registered not-material for both infant formula powder rows. The rationale is
 the speciation science, not an absence of interest: Cr-VI does not persist in this
-matrix, and the reference method cannot quantify it above 0.049 ppb. This is recorded
+matrix, two independent modern speciation studies fail to detect it, and the published
+literature attributes the older positive findings to method artifacts. This is recorded
 in `data/evidence/standards-not-material.csv`.
 
 soares2000 should be excluded from the Cr-VI pool on method grounds. It remains a
@@ -119,6 +144,46 @@ does not require re-fetching.
 
 Known anchor value pending extraction: saraiva2021 infant formula milk, Cr-total
 2.97 ± 0.15 µg/kg as-consumed (≈ 20.8 µg/kg powder-as-placed at the 1:7 factor).
+
+### The Cr-total pool is method-split by roughly 30× (added 2026-08-01)
+
+First extraction pass on the packets surfaces a contradiction that must be adjudicated
+before this cell can publish.
+
+| Source | Cr-total | Basis | n | Method |
+|---|---|---|---|---|
+| `saraiva2021` | 2.97 ± 0.15 µg/kg | as-consumed (≈20.8 powder) | 6 | SS-ID HPLC-ICP-MS; closed-vessel microwave digestion |
+| `hernandez2019` (milk, not formula) | 9.5 µg/kg mean | fresh weight | 3 | LC-ICP-MS; closed-vessel microwave digestion |
+| `igweze2019` | **610 ± 700 µg/kg** (milk-based mean); range 2–2080 | powder as sold | 26 | AAS after HNO₃/HClO₄ digestion **and 18 h dry-ashing to 450 °C** |
+
+The high values are ~30× the clean-method values even after basis conversion. Two
+reasons to treat `igweze2019` as a probable contamination artifact rather than a
+genuine occurrence signal:
+
+The sample preparation is the known failure mode. hernandez2019 explicitly attributes
+elevated total Cr in the second French Total Diet Study to "the use of **stainless steel
+equipment for the sample grinding and cooking**," and contrasts it with its own study,
+which avoided that. igweze2019 ashes at 450 °C for 18 h in a muffle oven and reports
+LOQ 40 µg/kg — an order of magnitude above the entire clean-method occurrence range,
+meaning most true values would be unquantifiable by that method.
+
+The framing is nutritional, not contaminant. igweze2019 measures Cr against an **RDA**
+and treats it as an essential trace element alongside Fe, Zn, Mn and Co; its headline
+finding is that Cr intake *exceeded* the RDA. That is a fortification/nutrition paper,
+not a contamination survey.
+
+Do not pool these together at face value. The cell needs an outlier adjudication in the
+sense of [[project_standards_pool_completeness]]: verify each high source, then decide
+admission. A pooled P97 spanning both method families would be an artifact of the split,
+not a percentile of anything real.
+
+Note on essentiality, since it will come up: EFSA (2014b) concluded there is no
+convincing evidence of beneficial effects from chromium intake in healthy subjects and
+that setting an adequate intake is not appropriate. So the "Cr is a deliberately added
+nutrient, therefore not a contaminant" argument — the shape that closed `salt, Al` —
+does **not** transfer cleanly to the EU context and should not be used as the rationale
+here. Cr(III) does have low oral toxicity and poor absorption (0.4–2.5%), which is a
+separate and better-supported point.
 
 ## Regulatory status
 
