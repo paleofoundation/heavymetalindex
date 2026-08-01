@@ -75,6 +75,21 @@ const ABSENT = [
   ".hero-right",
   ".hmi-pill",
   ".hmi-pill-row",
+
+  // CHROME-SPEC §5, header: "zero <svg> inside the nav" — the chevron check.
+  // It passes on arrival (the chevrons went in c22cd3bc1 and the search icon
+  // left the nav with the actions group), and it is written anyway, because an
+  // assertion that passes on arrival is how a fix stops being undoable. The
+  // burger is a SIBLING of the nav, so its three lines are not caught here.
+  "#hmi-topnav-menu svg",
+  // The nav holds the five triggers and nothing else. Asserted separately from
+  // the svg count: a control could return to the nav without bringing an icon.
+  "#hmi-topnav-menu .search",
+  "#hmi-topnav-menu .hmi-topnav-actions",
+  // The old container class. Adding `.hmi-topnav-actions` while leaving
+  // `.hmi-topnav-controls` alive produces a diff that looks complete and a bar
+  // that still lays out the old way.
+  ".hmi-topnav-controls",
 ]
 
 const CHROME = "*"
@@ -94,6 +109,26 @@ const STYLES = [
 
   { on: CHROME, sel: ".hmi-topnav-wordmark", prop: "fontSize", want: "22px", v3: 40 },
   { on: CHROME, sel: ".hmi-topnav-wordmark", prop: "color", want: "#8b2a4a", v3: 40 },
+  { on: CHROME, sel: ".hmi-topnav-wordmark", prop: "letterSpacing", want: "-0.33px", v3: 40 },
+
+  // Actions group and the spacer (v3:56-58). `flexGrow: 1` on the spacer is the
+  // assertion that a later `margin-left: auto` cannot satisfy — which is the
+  // substitution §1.1 warns against, and the one that reintroduces an unshrinkable
+  // row.
+  { on: CHROME, sel: ".hmi-topnav-spacer", prop: "flexGrow", want: "1", v3: 57 },
+  { on: CHROME, sel: ".hmi-topnav-actions", prop: "display", want: "flex", v3: 58 },
+  { on: CHROME, sel: ".hmi-topnav-actions", prop: "gap", want: "12px", v3: 58 },
+  { on: CHROME, sel: ".hmi-topnav-actions", prop: "minWidth", want: "0px", v3: 58 },
+
+  // Search box, wide branch — the viewport is 1440, above v3's 1150 flag.
+  { on: CHROME, sel: ".hmi-topnav-search > .search-button", prop: "height", want: "36px", v3: 55 },
+  { on: CHROME, sel: ".hmi-topnav-search > .search-button", prop: "borderRadius", want: "3px", v3: 55 },
+  { on: CHROME, sel: ".hmi-topnav-search > .search-button", prop: "backgroundColor", want: "#fbf8f5", v3: 55 },
+  { on: CHROME, sel: ".hmi-topnav-search > .search-button", prop: "borderTopColor", want: "#e6ded8", v3: 55 },
+  { on: CHROME, sel: ".hmi-topnav-search > .search-button", prop: "boxShadow", want: "none", v3: 55 },
+  { on: CHROME, sel: ".hmi-topnav-search > .search-button > p", prop: "fontSize", want: "12.5px", v3: 55 },
+  { on: CHROME, sel: ".hmi-topnav-glyph", prop: "color", want: "#b7aeb0", v3: 55 },
+  { on: CHROME, sel: ".hmi-topnav-pro", prop: "backgroundColor", want: "#8b2a4a", v3: 63 },
 
   { on: CHROME, sel: ".hmi-nav-top", prop: "fontSize", want: "13.5px", v3: 1993 },
   { on: CHROME, sel: ".hmi-nav-top", prop: "backgroundColor", want: "rgba(0, 0, 0, 0)", v3: 1993 },

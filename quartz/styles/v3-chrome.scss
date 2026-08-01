@@ -343,6 +343,225 @@ footer.site-footer {
   flex-wrap: nowrap;
 }
 
+.hmi-topnav-brand {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  text-decoration: none;
+  padding-right: 8px;
+}
+
+/* ══ the flex spacer (v3:57, CHROME-SPEC §1.1 child 3) ══════════════════════
+   `flex: 1 1 auto; min-width: 0` — an empty item that owns all the slack. The
+   alternative, `margin-left: auto` on the actions group, looks equivalent and
+   is not: an auto margin resolves BEFORE flex shrinking, so the free space
+   belongs to the margin and neither the nav nor the actions ever gives any of
+   it back. That is the same class of bug as the 254px overflow (v3-chrome
+   `.hmi-topnav-menu` above) — a row whose items cannot shrink. With a real
+   spacer the slack is a flex item and collapses to 0 first, which is why v3
+   ships one and why §1.1 says not to replace it. */
+.hmi-topnav-spacer {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* ══ actions group (v3:58-63, CHROME-SPEC §1.1 child 4) ════════════════════ */
+.hmi-topnav-actions {
+  display: flex;
+  align-items: center;
+  flex: 0 1 auto;
+  min-width: 0;
+  gap: 12px;
+}
+
+/* ── search box, wide (vw >= 1150) ─────────────────────────────────────────
+   A 260px bordered box that shows its own placeholder, not an icon button.
+   The flex basis has to sit on the `.search` wrapper: the wrapper is the flex
+   item of the actions group, and the button inside it is what would otherwise
+   size the whole thing to its text width (~119px). */
+.search.hmi-topnav-search {
+  flex: 0 1 260px;
+  min-width: 60px;
+  max-width: none;
+}
+
+.search.hmi-topnav-search > .search-button {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  height: 36px;
+  width: 100%;
+  padding: 0 13px;
+  border: 1px solid #e6ded8;
+  border-radius: 3px;
+  background: #fbf8f5;
+  overflow: hidden;
+  cursor: pointer;
+  /* _legacy-all.scss:409 gave every `.search-button` `box-shadow: var(--shadow-sm)`
+     — the burgundy 0 2px 8px the negative assertion has been reporting on all
+     six surfaces. That rule is deleted in this commit; this states the property
+     so a re-introduction elsewhere cannot bring the shadow back silently. */
+  box-shadow: none;
+
+  &:hover {
+    border-color: #8b2a4a;
+    background: #fbf8f5;
+    box-shadow: none;
+  }
+
+  & > p {
+    margin: 0;
+    font-size: 12.5px;
+    color: #a9a1a2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+  }
+}
+
+/* v3:55 — the search mark is a mono glyph, not an SVG. */
+.hmi-topnav-glyph {
+  flex: 0 0 auto;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  line-height: 1;
+  color: #b7aeb0;
+}
+
+.hmi-topnav-kbd {
+  margin-left: auto;
+  flex: 0 0 auto;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  line-height: 1;
+  color: #b7aeb0;
+  border: 1px solid #ebe4de;
+  border-radius: 2px;
+  padding: 1px 4px;
+}
+
+/* Ask · About · Log in: plain 12.5px text, wide-only (v3:59-61). */
+.hmi-topnav-ask,
+.hmi-topnav-utility,
+.hmi-topnav-login {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  font-size: 12.5px;
+  color: #736b6e;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  white-space: nowrap;
+
+  &:hover {
+    color: #8b2a4a;
+    background: none;
+    text-decoration: none;
+  }
+}
+
+/* The bar's one filled control (v3:62). */
+.hmi-topnav-pro {
+  flex: 0 0 auto;
+  margin-left: 0;
+  font-size: 12.5px;
+  line-height: 1;
+  color: #fff;
+  background: #8b2a4a;
+  border-radius: 3px;
+  padding: 8px 15px;
+  white-space: nowrap;
+  text-decoration: none;
+
+  &:hover,
+  &:focus-visible {
+    background: #6f2139;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/* ── search box, narrow (< 1150) ───────────────────────────────────────────
+   v3 drops chrome rather than shrinking it: the box becomes a 36px square and
+   the label, the "/" hint and the three text links are removed outright. Index
+   Pro survives at every width. */
+@media (max-width: 1149px) {
+  .search.hmi-topnav-search {
+    flex: 0 0 auto;
+    width: 36px;
+  }
+
+  .search.hmi-topnav-search > .search-button {
+    width: 36px;
+    padding: 0;
+    gap: 0;
+    justify-content: center;
+
+    & > p {
+      display: none;
+    }
+  }
+
+  .hmi-topnav-kbd,
+  .hmi-topnav-ask,
+  .hmi-topnav-utility,
+  .hmi-topnav-login {
+    display: none;
+  }
+}
+
+/* ══ the burger drawer's display gate ══════════════════════════════════════
+   THIS SHEET BROKE THE DRAWER AND HAD TO BE THE ONE TO FIX IT. The nav-container
+   rule above declares `display: flex` unlayered, so it outranks topNav.scss's
+   layered `.hmi-topnav-menu { display: none }` — media query or not, layer
+   precedence is decided before specificity. The result, live on every viewport
+   under the collapse flag since c00926f4c: the drawer rendered permanently open
+   over the page, five stacked links deep, with `aria-expanded="false"` on the
+   burger that was supposed to control it.
+
+   Stated here because a rule that must beat an unlayered rule has to be
+   unlayered too. `.open` carries higher specificity than the bare class, so the
+   burger still works; source order settles the rest.
+
+   The flag is 1149, not the repo's `$desktop` (1200). Those 50px were a real
+   band: v3's actions group took its WIDE branch at 1150-1199 while the nav took
+   its NARROW one, so the bar showed a 260px search box beside a hamburger. Both
+   sides now turn at the same width. */
+@media (max-width: 1149px) {
+  .hmi-topnav-menu {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    overflow: visible;
+    gap: 0;
+  }
+
+  .hmi-topnav-menu.open {
+    display: flex;
+  }
+}
+
+/* ══ radii, search overlay (CHROME-SPEC §2: 2-3px everywhere) ══════════════
+   search.scss predates the v3 geometry and ships 7px on the input and the
+   layout and 5px on the results pane. The modal is exempt from the no-shadow
+   rule, NOT from the radius rule — "radii 2-3px everywhere" has no exception
+   list. */
+.search-container .search-space > *,
+.search-container .search-layout > div {
+  border-radius: 3px;
+}
+
+/* The disclosure button behind each nav trigger. It renders nothing visually
+   (the chevron went in c22cd3bc1) but still computed a 4px radius. */
+.hmi-nav-toggle {
+  border-radius: 0;
+}
+
 /* The hidden Ask button still reports 600; state it so a future unhide does not
    reintroduce the leak. */
 .site-footer-ask {

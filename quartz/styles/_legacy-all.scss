@@ -403,27 +403,22 @@ article tbody td > code:only-child {
 }
 
 /* -----------------------------------------------------------
-   Search — pill style matching Answerthis register
+   Search — pill style matching Answerthis register  [DELETED]
+
+   THE PREDECESSOR OF CHROME-SPEC §1.1's SEARCH BOX. It gave every
+   `.search > .search-button` a 999px radius and `box-shadow: var(--shadow-sm)`
+   — the burgundy `0 2px 8px rgba(139,42,74,.06)` the no-box-shadow assertion
+   reported on all six surfaces. The radius was already being out-specified;
+   the shadow was not, because nothing else spoke for it.
+
+   Confirmed against the live build before deleting (METHOD.md §1's guard). It
+   matched exactly two elements site-wide: the top bar's search box, restated in
+   full in v3-chrome.scss, and HOME A's hero search box, restated in full in
+   home-v3.scss:66 — which declares display, width, height, padding, gap,
+   background, `border: 0` and `border-radius: 3px`, i.e. everything this rule
+   set except the shadow. So deleting it changes the hero box by removing the
+   shadow and nothing else, which is what v3 renders.
    ----------------------------------------------------------- */
-
-.search > .search-button {
-  border: 1px solid var(--lightgray);
-  border-radius: 999px;
-  padding: 8px 16px;
-  background: var(--light);
-  color: var(--gray);
-  font-size: 13px;
-  font-family: var(--bodyFont);
-  box-shadow: var(--shadow-sm);
-  transition:
-    border-color var(--duration-base) var(--ease-out),
-    box-shadow var(--duration-base) var(--ease-out);
-}
-
-.search > .search-button:hover {
-  border-color: var(--secondary);
-  box-shadow: var(--shadow-md);
-}
 
 /* -----------------------------------------------------------
    TOC — quiet, in the right rail

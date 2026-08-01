@@ -277,6 +277,22 @@ Body typography across every detail page was pre-v3, and none of it was being me
 
 All corrected or deleted in place rather than out-specified, and all four are now covered by `check:v3` style assertions.
 
+## F-21 — The header's scroll-progress bar (CHROME-SPEC §1.1 child 5) is unbuilt, and its fill is unspecified
+
+`CHROME-SPEC.md` §1.1 lists five children of `.hmi-topnav-inner`; the fifth is
+
+```
+5 progress    <div style="height: 2px; background: #f2ece7;"> holding the scroll bar
+```
+
+Four are built as of commit 1. The fifth is not, and `grep -rn "progress" quartz/components/TopNav.tsx quartz/components/styles/topNav.scss quartz/styles/v3-chrome.scss` returns nothing but unrelated comments — it has never existed in this build.
+
+It is left unbuilt rather than approximated. The spec gives the TRACK's two values and nothing else: not the fill's colour, not its width behaviour, not whether it spans the viewport or the 1760px inner. A 2px `#f2ece7` strip with no fill is indistinguishable from the header's own `border-bottom`, so building the track alone lands nothing; building the fill means choosing a burgundy and a scroll model, which is estimating values §0 says not to estimate. `Heavy Metal Index v3.dc.html` is not present on this machine (`find ~/Desktop -iname "*v3*.dc.html"` → 0 hits), so it cannot be read off the artifact either.
+
+§4 scopes commit 1 to "the search box (§1.1 actions group) and the flex spacer", which is consistent with leaving this out. Unblocked the moment the artifact is on disk: read lines 37-63, take the fill's colour and the scroll expression verbatim, and it is one element plus one listener.
+
+**Status:** blocked (on the artifact)
+
 ## OBJECTION 1 · Claim underline (COMPONENTS.md item 3) · ground B
 
 **Job the element does:** show a reader which words are a traceable claim and which are

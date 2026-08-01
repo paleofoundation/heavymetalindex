@@ -44,7 +44,7 @@
   align-items: center;
   gap: 30px;
 
-  @media all and not ($desktop) {
+  @media (max-width: 1149px) {
     height: auto;
     padding: 0.55rem 1rem;
   }
@@ -102,12 +102,9 @@
   gap: 24px;
 }
 
-.hmi-topnav-controls {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 20px;
-}
+// .hmi-topnav-controls removed: the controls are no longer a child of the nav.
+// They are `.hmi-topnav-actions`, a sibling of it, styled in v3-chrome.scss
+// (CHROME-SPEC §1.1 child 4).
 
 .hmi-topnav-link,
 .hmi-topnav-utility {
@@ -134,127 +131,14 @@
   font-weight: $normalWeight;
 }
 
-// Account / log in icon (placeholder for the future auth app).
-.hmi-topnav-login {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--ink, #2b1f24);
-  width: 2rem;
-  height: 2rem;
-  border-radius: 999px;
-  transition:
-    color 0.2s ease,
-    background-color 0.2s ease;
-
-  & svg {
-    width: 1.4rem;
-    height: 1.4rem;
-    stroke: currentColor;
-  }
-
-  &:hover {
-    color: var(--burg, var(--secondary));
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-}
-
-// Global search control. The markup is Quartz's Search DOM rendered inline by
-// TopNav.tsx (see the comment there for why it is not a nested component); only
-// the trigger needs bar-specific styling, because search.scss already renders
-// the results overlay as a full-viewport fixed layer.
-.search.hmi-topnav-search {
-  flex: 0 0 auto;
-  min-width: 0;
-  max-width: none;
-
-  & > .search-button {
-    height: 34px;
-    width: auto;
-    padding: 0 12px 0 6px;
-    gap: 2px;
-    border-radius: 999px;
-    border-color: var(--line, var(--lightgray));
-    transition:
-      border-color 0.2s ease,
-      background-color 0.2s ease;
-
-    & > p {
-      font-family: Inter, sans-serif;
-      font-size: 15px;
-      font-weight: $normalWeight;
-      color: var(--muted, var(--gray));
-      margin: 0;
-    }
-
-    & svg {
-      width: 16px;
-      min-width: 16px;
-      margin: 0 0.35rem;
-    }
-
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.03);
-      border-color: var(--burg, var(--secondary));
-
-      & > p {
-        color: var(--burg, var(--secondary));
-      }
-
-      & .search-path {
-        stroke: var(--burg, var(--secondary));
-      }
-    }
-  }
-
-  // The bar is already dense: wordmark plus eight taxonomy links plus the Ask
-  // pill, About, and the account icon leave roughly 100px of slack at 1440px,
-  // and a labelled search pill is about 130px wide. Collapse to icon-only below
-  // 1500px so the row never overflows into a horizontal page scrollbar. Bounded
-  // below by the desktop breakpoint: under it the bar becomes the burger menu,
-  // where the search renders full-width and keeps its label.
-  @media (min-width: 1200px) and (max-width: 1500px) {
-    & > .search-button {
-      padding: 0 4px;
-
-      & > p {
-        display: none;
-      }
-
-      & svg {
-        margin: 0 0.3rem;
-      }
-    }
-  }
-}
-
-// "Ask the Index" pill launcher.
-.hmi-topnav-ask {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-family: Inter, sans-serif;
-  font-size: 15px;
-  font-weight: $semiBoldWeight;
-  color: #ffffff;
-  background-color: var(--burg, var(--secondary));
-  padding: 8px 16px;
-  border-radius: 999px;
-  white-space: nowrap;
-  transition: background-color 0.2s ease;
-
-  & svg {
-    stroke: #ffffff;
-  }
-
-  &:hover {
-    color: #ffffff;
-    background-color: var(--burg-dark, #6f2139);
-    & svg {
-      stroke: #ffffff;
-    }
-  }
-}
+// The 999px account circle, the 999px search pill and its 1200-1500px
+// label-hiding rule, and the filled 999px "Ask the Index" pill are all gone.
+// CHROME-SPEC §1.1 states the whole actions group — a 36px bordered search box
+// at radius 3, and Ask / About / Log in as plain 12.5px text — in
+// v3-chrome.scss, which is unlayered and therefore wins outright rather than by
+// specificity. Keeping these here would leave two live descriptions of the same
+// five controls, which is the condition every cascade defect in this project
+// started from.
 
 // ---- Mobile burger ------------------------------------------------------
 .hmi-topnav-burger {
@@ -324,7 +208,7 @@ body:has(.hmi-topnav-shell) {
   }
 }
 
-@media all and not ($desktop) {
+@media (max-width: 1149px) {
   .hmi-topnav-burger {
     display: inline-flex;
   }
@@ -353,8 +237,7 @@ body:has(.hmi-topnav-shell) {
     flex-wrap: wrap;
   }
 
-  .hmi-topnav-taxonomy,
-  .hmi-topnav-controls {
+  .hmi-topnav-taxonomy {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.25rem;
@@ -372,19 +255,10 @@ body:has(.hmi-topnav-shell) {
     padding: 0.5rem 0;
   }
 
-  .hmi-topnav-ask {
-    align-self: flex-start;
-  }
-
-  .search.hmi-topnav-search {
-    width: 100%;
-    margin-bottom: 0.5rem;
-
-    & > .search-button {
-      width: 100%;
-      justify-content: flex-start;
-    }
-  }
+  // The drawer no longer holds the search box or the text links: below 1150px
+  // the actions group keeps the 36px search square and Index Pro in the bar and
+  // drops the rest, per v3 (CHROME-SPEC §1.1, narrow branch). The drawer is the
+  // five nav triggers and their panels.
 }
 
 // ---------------------------------------------------------------------------
@@ -472,7 +346,7 @@ body:has(.hmi-topnav-shell) {
 
 // Mobile: inside the burger drawer the panels are in-flow accordions driven by
 // the same `.is-open` class. Still `visibility`, never `display:none`.
-@media all and not ($desktop) {
+@media (max-width: 1149px) {
   .hmi-nav-list { flex-direction: column; align-items: stretch; gap: 0; width: 100%; }
   .hmi-nav-item { display: grid; grid-template-columns: 1fr auto; width: 100%; }
   .hmi-nav-top { width: 100%; padding: 0.6rem 0; }
@@ -489,45 +363,17 @@ body:has(.hmi-topnav-shell) {
 }
 
 // ---- Index Pro handoff --------------------------------------------------
-// Values read from "Heavy Metal Index v3.dc.html" line 63: 12.5px Inter, white
-// on #8b2a4a, 3px radius, 8px/15px padding, pressed #6f2139. It is the only
-// filled button in the v3 header — "Ask the Index" there is a plain text link,
-// not the 999px pill this build ships (see docs/findings.md F-12).
-.hmi-topnav-pro {
-  flex: 0 0 auto;
-  margin-left: auto;
-  font-family: Inter, sans-serif;
-  font-size: 12.5px;
-  font-weight: 500;
-  line-height: 1;
-  color: #fff;
-  background: var(--burg, #8b2a4a);
-  border-radius: 3px;
-  padding: 8px 15px;
-  white-space: nowrap;
-  transition: background-color 0.2s ease;
+// The button's values moved to v3-chrome.scss with the rest of the actions
+// group. Both auto-margin rules went with them: the group now right-aligns
+// because the spacer before it owns the slack, at every width, so there is no
+// longer a wide case and a narrow case to reconcile.
+// (Font family stays inherited; see docs/findings.md F-12 for the pill it was.)
 
-  &:hover,
-  &:focus-visible {
-    background: var(--burg-dark, #6f2139);
-    color: #fff;
-    text-decoration: none;
-  }
-}
-
-// The wide bar already right-aligns via .hmi-topnav-menu's flex: 1 1 auto, so
-// the auto margin is only needed once the menu collapses out of the flow.
-@media all and ($desktop) {
-  .hmi-topnav-pro {
-    margin-left: 0;
-  }
-}
-
-// Below $desktop the flow row is brand + burger + Index Pro (the menu is
+// Below 1150 the flow row is brand + burger + Index Pro (the menu is
 // absolutely positioned, so it is out of flow). At 390px the 30px gaps and the
 // full-width 22px Lora wordmark pushed the button onto a second row. v3 keeps
 // the bar one row high at every width, so the wordmark yields instead.
-@media all and not ($desktop) {
+@media (max-width: 1149px) {
   .hmi-topnav-inner {
     gap: 12px;
   }
@@ -549,147 +395,13 @@ body:has(.hmi-topnav-shell) {
 }
 
 // ══ v3 header right side ═════════════════════════════════════════════════
-// Values read from "Heavy Metal Index v3.dc.html" lines 51-63. The bar carries
-// exactly ONE filled control (Index Pro); search is a bordered box, and Ask /
-// Log in are plain text at 12.5px. Appended as an override block rather than
-// rewritten in place so the earlier rules stay legible as history.
-
-// Search: a 260px box showing its own placeholder and a "/" hint (v3 52-57),
-// not an icon button. flex 0 1 260px lets it give way before the bar wraps.
-// The flex basis has to sit on the .search wrapper, not the button: the wrapper
-// is the flex item of .hmi-topnav-controls, and it still carries flex: 0 0 auto
-// from the rule above, which pinned the box to its content width (69px).
-.search.hmi-topnav-search {
-  flex: 0 1 260px;
-  min-width: 60px;
-}
-
-.search.hmi-topnav-search > .search-button {
-  height: 36px;
-  width: 100%;
-  gap: 9px;
-  padding: 0 13px;
-  border: 1px solid #e6ded8;
-  border-radius: 3px;
-  background: #fbf8f5;
-  overflow: hidden;
-
-  & > p {
-    font-size: 12.5px;
-    color: var(--faint, #a9a1a2);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    min-width: 0;
-  }
-
-  & svg {
-    margin: 0;
-    color: #b7aeb0;
-  }
-
-  &:hover {
-    border-color: var(--burg, #8b2a4a);
-    background: #fbf8f5;
-  }
-}
-
-.hmi-topnav-kbd {
-  margin-left: auto;
-  flex: 0 0 auto;
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 10px;
-  line-height: 1;
-  color: #b7aeb0;
-  border: 1px solid #ebe4de;
-  border-radius: 2px;
-  padding: 1px 4px;
-}
-
-// Ask + Log in: plain 12.5px text in --muted (v3 60-61). The pill is gone.
-.hmi-topnav-ask,
-.hmi-topnav-login {
-  display: inline-flex;
-  align-items: center;
-  gap: 0;
-  font-family: Inter, sans-serif;
-  font-size: 12.5px;
-  font-weight: 400;
-  color: var(--muted, #736b6e);
-  background: none;
-  background-color: transparent;
-  border-radius: 0;
-  padding: 0;
-  width: auto;
-  height: auto;
-  white-space: nowrap;
-  transition: color 0.2s ease;
-
-  &:hover {
-    color: var(--burg, #8b2a4a);
-    background: none;
-    background-color: transparent;
-    text-decoration: none;
-  }
-}
-
-// The About utility link sits in the same group; match it so the three read as
-// one row of text rather than three different treatments.
-.hmi-topnav-utility {
-  font-size: 12.5px;
-  color: var(--muted, #736b6e);
-}
-
-// Below v3's 1150px flag the box collapses to a 36px icon square and the
-// placeholder and hint are removed outright — v3 drops chrome, it does not
-// shrink it.
-@media (max-width: 1149px) {
-  .search.hmi-topnav-search {
-    flex: 0 0 auto;
-    width: 36px;
-  }
-
-  .search.hmi-topnav-search > .search-button {
-    width: 36px;
-    padding: 0;
-    justify-content: center;
-    gap: 0;
-
-    & > p {
-      display: none;
-    }
-  }
-
-  .hmi-topnav-kbd {
-    display: none;
-  }
-}
-
-// Neutralises the 1200-1500px label-hiding rule above. That rule was written
-// when the bar carried a filled Ask pill, an About link and an account icon and
-// had "roughly 100px of slack at 1440px". Ask and Log in are now 12.5px text,
-// which returns well over 100px, and v3 shows the labelled box at every width
-// down to its 1150px flag. Without this the placeholder is blank at 1440.
-@media (min-width: 1150px) {
-  .search.hmi-topnav-search > .search-button {
-    padding: 0 13px;
-
-    & > p {
-      display: block;
-    }
-
-    & svg {
-      margin: 0;
-    }
-  }
-}
-
-// flex-basis alone did not hold: .hmi-topnav-controls sizes to max-content, and
-// the wrapper's max-content is the button's text width (~119px), not its basis,
-// so the box never claimed its 260px. An explicit width gives it a real base;
-// flex-shrink still lets it give way before the bar wraps.
-@media (min-width: 1150px) {
-  .search.hmi-topnav-search {
-    width: 260px;
-  }
-}
+// The whole appended override run — search box, "/" hint, Ask / Log in / About
+// text treatment, the 1149px collapse, and the two follow-up media queries that
+// were patching the block above it — now lives in quartz/styles/v3-chrome.scss
+// (CHROME-SPEC §1.1, actions group). It was written here as an override on top
+// of rules that contradicted it; those rules are deleted above, so there is one
+// description of the bar's right side instead of a stack of three.
+//
+// The reason it moves rather than staying: component CSS is emitted inside
+// `@layer legacy`, where it loses to any unlayered rule on equal specificity.
+// v3-chrome.scss is unlayered. Values that must WIN cannot live here.
