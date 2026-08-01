@@ -23,6 +23,34 @@ deletion, addition, gate. Paste one at a time.
 
 ---
 
+---
+
+## Where this stands — end of session, 2026-08-01
+
+**Landed:** cascade layer + deletion ledger (f3e8140c0) · sitewide gate, scope buckets
+(c91930d9f) · burgundy assertion corrected (db4a9f030) · References made conditional
+(08763baeb) · `.hmi-product-brief` flattened, gradient assertion green (eba183fb3) ·
+mega-menu left rail (c22cd3bc1) · 254px horizontal overflow fixed and asserted
+(c00926f4c). Branch `feat/v3-mega-menu`. Gate: chrome 251/265, f16 7/26.
+
+**Golden pages now in the artifact** — `metal` (15 blocks) and `ingredient` (10), both
+built from the live page with repo data, plus the three index screens. These are literal
+diff targets, not mockups. `regulation`, `source`, `product`, `finding` still render
+invented content and are NOT yet golden.
+
+**Next, in order:** mega-menu Cross-cuts + the Foods/ingredients naming → breadcrumb
+duplication and the `METAL PROFILE` badge on `/metals` (one fix: type badge inherits page
+kind instead of screen type) → redeploy and verify at 1280 and 1440 → ingredient body,
+contamination profile first.
+
+**Sequence by data availability, not by page.** The two golden pages are not equivalent
+work: the ingredient components read `contamination_profile` / `contamination.json`
+(229 records) and can be built today; the metal components mostly restructure prose and
+need extraction first. `regulation` needs `limit_value` parsed into (value, unit, basis)
+before any chart or timeline can render — that is evidence work, scoped separately.
+
+---
+
 ## MOVE 1 — one cascade order, and the losers deleted
 
 **The problem this solves.** Quartz emits component CSS *after* `custom.scss`, so
@@ -114,6 +142,12 @@ and they catch the class of regression that specificity patches produce:
 - no element has a `background-image: linear-gradient(...)`
 - no burgundy other than `#8b2a4a` / `#6f2139` / `#571a2c` / `#4a1526` appears as a
   computed colour (`#9a2852` shipped in `middleware.ts` for months)
+- **every distinct scorecard grade computes to a distinct treatment**, and `NOT-READY` /
+  `flag` are the solid-burgundy pair. Fails both when `NOT-READY` renders like `OK` and
+  when two grades collapse into each other — a plain colour-value check is gameable, and
+  a false green on a standards-readiness audit is the worst failure this site can ship.
+  **Write it when the scorecard is built, not before** — an assertion for a component that
+  does not exist is the same no-op as the claim underline.
 - **no computed `border-radius` above 3px**, with one exemption: `50%` on an element
   whose width is ≤16px (the timeline dots, `COMPONENTS.md` §5). This is the assertion
   the 20 surviving `999px` rules belong to — reporting them rather than sweeping them
